@@ -54,7 +54,7 @@ CREATE TABLE `names` (
 	`kind_id` INTEGER NOT NULL, -- owner entity id.
 	`language` INTEGER NOT NULL,
 	`name` TEXT NOT NULL
-);
+, source TEXT NOT NULL DEFAULT '');
 
 CREATE TABLE `options` (
     `id` INTEGER  PRIMARY KEY AUTOINCREMENT,
@@ -84,8 +84,16 @@ CREATE TABLE `releases` (
 
 CREATE TABLE series (id INTEGER PRIMARY KEY AUTOINCREMENT, description TEXT NOT NULL);
 
-CREATE UNIQUE INDEX `blobs_md5` ON `blobs` (`md5`);
+CREATE INDEX assets_kind_kind_id ON assets (kind, kind_id);
 
 CREATE UNIQUE INDEX `blobs_sha256` ON `blobs` (`sha256`);
 
+CREATE INDEX entries_asset_id ON entries (asset_id);
+
+CREATE INDEX games_platform_id ON games (platform_id);
+
 CREATE INDEX games_series_id ON games (series_id);
+
+CREATE INDEX names_kind_kind_id ON names (kind, kind_id);
+
+CREATE INDEX releases_game_id ON releases (game_id);
