@@ -82,11 +82,15 @@ CREATE TABLE `releases` (
 	`release_date` INTEGER NOT NULL
 );
 
+CREATE TABLE rom_sets (id INTEGER PRIMARY KEY AUTOINCREMENT, emulator TEXT NOT NULL, version TEXT NOT NULL, short_name TEXT NOT NULL, asset_id INTEGER NOT NULL, UNIQUE(emulator,version,short_name));
+
 CREATE TABLE series (id INTEGER PRIMARY KEY AUTOINCREMENT, description TEXT NOT NULL);
 
 CREATE INDEX assets_kind_kind_id ON assets (kind, kind_id);
 
-CREATE UNIQUE INDEX `blobs_sha256` ON `blobs` (`sha256`);
+CREATE INDEX blobs_crc32_size ON blobs(crc32,size);
+
+CREATE UNIQUE INDEX blobs_sha256 ON blobs(sha256) WHERE sha256<>'';
 
 CREATE INDEX entries_asset_id ON entries (asset_id);
 
@@ -97,3 +101,5 @@ CREATE INDEX games_series_id ON games (series_id);
 CREATE INDEX names_kind_kind_id ON names (kind, kind_id);
 
 CREATE INDEX releases_game_id ON releases (game_id);
+
+CREATE INDEX rom_sets_asset_id ON rom_sets(asset_id);
