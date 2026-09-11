@@ -4,74 +4,49 @@ game:
   description: ""
   series_id: 0
 names:
-- id: 103353
+- id: 103371
   kind: 2
   kind_id: 36075
   language: 1
-  name: Battle Garegga (Japan, bootleg) (Sat Feb 3 1996)
-  source: fbneo
+  name: Acorn System 3 (6809 CPU)
+  source: mame
 game_developers: []
 game_genres: []
 assets: []
 releases:
 - release:
-    id: 36075
+    id: 36093
     game_id: 36075
     description: ""
-    release_date: 19960000
+    release_date: 19800000
   names:
-  - id: 103354
+  - id: 103372
     kind: 3
-    kind_id: 36075
+    kind_id: 36093
     language: 1
-    name: Battle Garegga (Japan, bootleg) (Sat Feb 3 1996)
-    source: fbneo
+    name: Acorn System 3 (6809 CPU)
+    source: mame
   release_publishers: []
   assets:
   - asset:
-      id: 49145
+      id: 49163
       kind: 3
-      kind_id: 36075
+      kind_id: 36093
       type: 1
-      name: bgareggablj.zip
+      name: acrnsys3_6809.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
-      debug: dat:fbneo:1.0.0.03
+      debug: dat:mame:0.289
     entries:
-    - id: 97550
-      asset_id: 49145
-      name: 322_1.bin
-      size: 4194304
-      blob_id: 8444
-    - id: 97551
-      asset_id: 49145
-      name: 322_2.bin
-      size: 4194304
-      blob_id: 8445
-    - id: 97552
-      asset_id: 49145
-      name: base.bin
-      size: 32768
-      blob_id: 8443
-    - id: 97553
-      asset_id: 49145
-      name: rom5.bin
-      size: 1048576
-      blob_id: 8035
-    - id: 97554
-      asset_id: 49145
-      name: snd.bin
-      size: 131072
-      blob_id: 8036
-    - id: 97555
-      asset_id: 49145
-      name: sys.bin
-      size: 2097152
-      blob_id: 8449
-    - id: 97556
-      asset_id: 49145
-      name: text.bin
-      size: 32768
-      blob_id: 8037
+    - id: 95389
+      asset_id: 49163
+      name: acorn6809.ic11
+      size: 256
+      blob_id: 93227
+    - id: 95390
+      asset_id: 49163
+      name: acorn6809.ic4
+      size: 2048
+      blob_id: 93228

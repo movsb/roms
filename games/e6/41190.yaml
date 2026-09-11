@@ -4,44 +4,54 @@ game:
   description: ""
   series_id: 0
 names:
-- id: 113583
+- id: 113932
   kind: 2
   kind_id: 41190
   language: 1
-  name: VS. Atari RBI Baseball
-  source: fbneo
+  name: Bar X (Electrocoin) (set 70)
+  source: mame
 game_developers: []
 game_genres: []
 assets: []
 releases:
 - release:
-    id: 41190
+    id: 41539
     game_id: 41190
     description: ""
-    release_date: 19870000
+    release_date: 0
   names:
-  - id: 113584
+  - id: 113933
     kind: 3
-    kind_id: 41190
+    kind_id: 41539
     language: 1
-    name: VS. Atari RBI Baseball
-    source: fbneo
+    name: Bar X (Electrocoin) (set 70)
+    source: mame
   release_publishers: []
   assets:
   - asset:
-      id: 54260
+      id: 54609
       kind: 3
-      kind_id: 41190
+      kind_id: 41539
       type: 1
-      name: vsrbibbal.zip
+      name: ec_barx__a6.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
-      debug: dat:fbneo:1.0.0.03
+      debug: dat:mame:0.289
     entries:
-    - id: 201137
-      asset_id: 54260
-      name: VS. Atari RBI Baseball (1987)(Atari Games).nes
-      size: 98320
-      blob_id: 104737
+    - id: 158230
+      asset_id: 54609
+      name: barxsnd.bin
+      size: 4096
+      blob_id: 111129
+    - id: 158231
+      asset_id: 54609
+      name: bxpal
+      size: 3200
+      blob_id: 111130
+    - id: 158232
+      asset_id: 54609
+      name: issa850
+      size: 32768
+      blob_id: 111149

@@ -4,99 +4,49 @@ game:
   description: ""
   series_id: 0
 names:
-- id: 104703
+- id: 104745
   kind: 2
   kind_id: 36750
   language: 1
-  name: Demon Front (VM105XX, S105XX, China, Single PCB Version)
-  source: fbneo
+  name: AP43 (SiS 85C496/85C497 chipset)
+  source: mame
 game_developers: []
 game_genres: []
 assets: []
 releases:
 - release:
-    id: 36750
+    id: 36792
     game_id: 36750
     description: ""
-    release_date: 20020000
+    release_date: 0
   names:
-  - id: 104704
+  - id: 104746
     kind: 3
-    kind_id: 36750
+    kind_id: 36792
     language: 1
-    name: Demon Front (VM105XX, S105XX, China, Single PCB Version)
-    source: fbneo
+    name: AP43 (SiS 85C496/85C497 chipset)
+    source: mame
   release_publishers: []
   assets:
   - asset:
-      id: 49820
+      id: 49862
       kind: 3
-      kind_id: 36750
+      kind_id: 36792
       type: 1
-      name: dmnfrntpcba.zip
+      name: aoap43.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
-      debug: dat:fbneo:1.0.0.03
+      debug: dat:mame:0.289
     entries:
-    - id: 110003
-      asset_id: 49820
-      name: igs_a04501w064.u30
-      size: 8388608
-      blob_id: 15386
-    - id: 110004
-      asset_id: 49820
-      name: igs_a04502w064.u31
-      size: 8388608
-      blob_id: 15387
-    - id: 110005
-      asset_id: 49820
-      name: igs_a04503w064.u32
-      size: 8388608
-      blob_id: 15388
-    - id: 110006
-      asset_id: 49820
-      name: igs_b04501w064.u40
-      size: 8388608
-      blob_id: 15389
-    - id: 110007
-      asset_id: 49820
-      name: igs_b04502w016.u41
-      size: 2097152
-      blob_id: 15390
-    - id: 110008
-      asset_id: 49820
-      name: igs_t04501w064.u71
-      size: 8388608
-      blob_id: 15391
-    - id: 110009
-      asset_id: 49820
-      name: igs_w04501b064.u8
-      size: 8388608
-      blob_id: 15394
-    - id: 110010
-      asset_id: 49820
-      name: pgm_m01s.rom
-      size: 2097152
-      blob_id: 14294
-    - id: 110011
-      asset_id: 49820
-      name: pgm_p02s.u42
+    - id: 101660
+      asset_id: 49862
+      name: aopen_ap43_original.bin
       size: 131072
-      blob_id: 14309
-    - id: 110012
-      asset_id: 49820
-      name: pgm_t01s.rom
-      size: 2097152
-      blob_id: 14295
-    - id: 110013
-      asset_id: 49820
-      name: v105_u43.u43
-      size: 2097152
-      blob_id: 15392
-    - id: 110014
-      asset_id: 49820
-      name: v105_u62.u62
-      size: 4194304
-      blob_id: 15393
+      blob_id: 95121
+    - id: 101661
+      asset_id: 49862
+      name: aopen_ap43_updated.rom
+      size: 131072
+      blob_id: 95122

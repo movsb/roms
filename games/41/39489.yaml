@@ -4,79 +4,49 @@ game:
   description: ""
   series_id: 0
 names:
-- id: 110181
+- id: 110405
   kind: 2
   kind_id: 39489
   language: 1
-  name: Raiden II New / Raiden DX (newer V33 PCB) (Raiden II EEPROM)
-  source: fbneo
+  name: Computerized Arcade (TMS1100 version, model 60-2159)
+  source: mame
 game_developers: []
 game_genres: []
 assets: []
 releases:
 - release:
-    id: 39489
+    id: 39713
     game_id: 39489
     description: ""
-    release_date: 19960000
+    release_date: 19810000
   names:
-  - id: 110182
+  - id: 110406
     kind: 3
-    kind_id: 39489
+    kind_id: 39713
     language: 1
-    name: Raiden II New / Raiden DX (newer V33 PCB) (Raiden II EEPROM)
-    source: fbneo
+    name: Computerized Arcade (TMS1100 version, model 60-2159)
+    source: mame
   release_publishers: []
   assets:
   - asset:
-      id: 52559
+      id: 52783
       kind: 3
-      kind_id: 39489
+      kind_id: 39713
       type: 1
-      name: r2dx_v33_r2.zip
+      name: comparc.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
-      debug: dat:fbneo:1.0.0.03
+      debug: dat:mame:0.289
     entries:
-    - id: 162808
-      asset_id: 52559
-      name: bg.612
-      size: 4194304
-      blob_id: 34846
-    - id: 162809
-      asset_id: 52559
-      name: copx_d3.357
-      size: 131072
-      blob_id: 31299
-    - id: 162810
-      asset_id: 52559
-      name: fix.613
-      size: 262144
-      blob_id: 34847
-    - id: 162811
-      asset_id: 52559
-      name: obj1.724
-      size: 4194304
-      blob_id: 34848
-    - id: 162812
-      asset_id: 52559
-      name: obj2.725
-      size: 4194304
-      blob_id: 34849
-    - id: 162813
-      asset_id: 52559
-      name: pcm.099
-      size: 1048576
-      blob_id: 34850
-    - id: 162814
-      asset_id: 52559
-      name: prg.223
-      size: 4194304
-      blob_id: 34851
-    - id: 162815
-      asset_id: 52559
-      name: raidenii_eeprom-r2dx_v33.bin
-      size: 128
-      blob_id: 101110
+    - id: 134117
+      asset_id: 52783
+      name: cd7282sl
+      size: 2048
+      blob_id: 105217
+    - id: 134118
+      asset_id: 52783
+      name: tms1100_common1_micro.pla
+      size: 867
+      blob_id: 95672

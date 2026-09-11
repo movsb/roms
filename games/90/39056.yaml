@@ -4,59 +4,84 @@ game:
   description: ""
   series_id: 0
 names:
-- id: 109315
+- id: 109509
   kind: 2
   kind_id: 39056
   language: 1
-  name: Perestroika Girls
-  source: fbneo
+  name: Cherry Wheel (Version 1.7)
+  source: mame
 game_developers: []
 game_genres: []
 assets: []
 releases:
 - release:
-    id: 39056
+    id: 39250
     game_id: 39056
     description: ""
-    release_date: 19940000
+    release_date: 0
   names:
-  - id: 109316
+  - id: 109510
     kind: 3
-    kind_id: 39056
+    kind_id: 39250
     language: 1
-    name: Perestroika Girls
-    source: fbneo
+    name: Cherry Wheel (Version 1.7)
+    source: mame
   release_publishers: []
   assets:
   - asset:
-      id: 52126
+      id: 52320
       kind: 3
-      kind_id: 39056
+      kind_id: 39250
       type: 1
-      name: perestro.zip
+      name: chewheel.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
-      debug: dat:fbneo:1.0.0.03
+      debug: dat:mame:0.289
     entries:
-    - id: 155318
-      asset_id: 52126
-      name: rom1.bin
+    - id: 128844
+      asset_id: 52320
+      name: 32.u32
+      size: 262144
+      blob_id: 103554
+    - id: 128845
+      asset_id: 52320
+      name: 33.u33
+      size: 262144
+      blob_id: 103555
+    - id: 128846
+      asset_id: 52320
+      name: 34.u34
+      size: 262144
+      blob_id: 103556
+    - id: 128847
+      asset_id: 52320
+      name: 35.u35
+      size: 262144
+      blob_id: 103557
+    - id: 128848
+      asset_id: 52320
+      name: 36.u36
+      size: 262144
+      blob_id: 103558
+    - id: 128849
+      asset_id: 52320
+      name: chewheel_nvram.bin
+      size: 16384
+      blob_id: 103559
+    - id: 128850
+      asset_id: 52320
+      name: even.u76
       size: 131072
-      blob_id: 100076
-    - id: 155319
-      asset_id: 52126
-      name: rom2.bin
+      blob_id: 103560
+    - id: 128851
+      asset_id: 52320
+      name: odd.u77
       size: 131072
-      blob_id: 100077
-    - id: 155320
-      asset_id: 52126
-      name: rom3a.bin
-      size: 65536
-      blob_id: 100080
-    - id: 155321
-      asset_id: 52126
-      name: rom4.bin
-      size: 65536
-      blob_id: 100079
+      blob_id: 103561
+    - id: 128852
+      asset_id: 52320
+      name: v29c51002t.u54
+      size: 262144
+      blob_id: 103562

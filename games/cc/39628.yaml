@@ -4,104 +4,64 @@ game:
   description: ""
   series_id: 0
 names:
-- id: 110459
+- id: 110693
   kind: 2
   kind_id: 39628
   language: 1
-  name: Rod-Land (Japan)
-  source: fbneo
+  name: X-II CPC-400 (MSX2, Korea)
+  source: mame
 game_developers: []
 game_genres: []
 assets: []
 releases:
 - release:
-    id: 39628
+    id: 39862
     game_id: 39628
     description: ""
-    release_date: 19900000
+    release_date: 19870000
   names:
-  - id: 110460
+  - id: 110694
     kind: 3
-    kind_id: 39628
+    kind_id: 39862
     language: 1
-    name: Rod-Land (Japan)
-    source: fbneo
+    name: X-II CPC-400 (MSX2, Korea)
+    source: mame
   release_publishers: []
   assets:
   - asset:
-      id: 52698
+      id: 52932
       kind: 3
-      kind_id: 39628
+      kind_id: 39862
       type: 1
-      name: rodlandj.zip
+      name: cpc400.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
-      debug: dat:fbneo:1.0.0.03
+      debug: dat:mame:0.289
     entries:
-    - id: 165762
-      asset_id: 52698
-      name: jaleco_rod_land_1.rom1
+    - id: 135474
+      asset_id: 52932
+      name: 400bios.rom
+      size: 32768
+      blob_id: 105581
+    - id: 135475
+      asset_id: 52932
+      name: 400disk.rom
+      size: 16384
+      blob_id: 105587
+    - id: 135476
+      asset_id: 52932
+      name: 400ext.rom
+      size: 32768
+      blob_id: 105588
+    - id: 135477
+      asset_id: 52932
+      name: 400han.rom
+      size: 32768
+      blob_id: 105589
+    - id: 135478
+      asset_id: 52932
+      name: 400kfn.rom
       size: 131072
-      blob_id: 101524
-    - id: 165763
-      asset_id: 52698
-      name: jaleco_rod_land_2.rom2
-      size: 131072
-      blob_id: 101525
-    - id: 165764
-      asset_id: 52698
-      name: jaleco_rod_land_3.rom3
-      size: 65536
-      blob_id: 101494
-    - id: 165765
-      asset_id: 52698
-      name: jaleco_rod_land_4.rom4
-      size: 65536
-      blob_id: 101493
-    - id: 165766
-      asset_id: 52698
-      name: jaleco_rod_land_5.rom5
-      size: 65536
-      blob_id: 36709
-    - id: 165767
-      asset_id: 52698
-      name: jaleco_rod_land_6.rom6
-      size: 65536
-      blob_id: 36710
-    - id: 165768
-      asset_id: 52698
-      name: lh2311j0.rom19
-      size: 131072
-      blob_id: 36711
-    - id: 165769
-      asset_id: 52698
-      name: lh5321t5.rom10
-      size: 262144
-      blob_id: 36712
-    - id: 165770
-      asset_id: 52698
-      name: lh534h31.rom14
-      size: 524288
-      blob_id: 36713
-    - id: 165771
-      asset_id: 52698
-      name: lh534h32.rom18
-      size: 524288
-      blob_id: 36714
-    - id: 165772
-      asset_id: 52698
-      name: lh534h33.rom23
-      size: 524288
-      blob_id: 36715
-    - id: 165773
-      asset_id: 52698
-      name: ps89013a.14m
-      size: 512
-      blob_id: 36716
-    - id: 165774
-      asset_id: 52698
-      name: s202000dr.rom8
-      size: 262144
-      blob_id: 36717
+      blob_id: 105590

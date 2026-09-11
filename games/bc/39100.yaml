@@ -4,59 +4,64 @@ game:
   description: ""
   series_id: 0
 names:
-- id: 109403
+- id: 109604
   kind: 2
   kind_id: 39100
   language: 1
-  name: "Pink Sweets: Ibara Sorekara (2006/04/06 MASTER VER.)"
-  source: fbneo
+  name: Cherry 10 (bootleg with PIC16F84)
+  source: mame
 game_developers: []
 game_genres: []
 assets: []
 releases:
 - release:
-    id: 39100
+    id: 39301
     game_id: 39100
     description: ""
-    release_date: 20060000
+    release_date: 0
   names:
-  - id: 109404
+  - id: 109605
     kind: 3
-    kind_id: 39100
+    kind_id: 39301
     language: 1
-    name: "Pink Sweets: Ibara Sorekara (2006/04/06 MASTER VER.)"
-    source: fbneo
+    name: Cherry 10 (bootleg with PIC16F84)
+    source: mame
   release_publishers: []
   assets:
   - asset:
-      id: 52170
+      id: 52371
       kind: 3
-      kind_id: 39100
+      kind_id: 39301
       type: 1
-      name: pinkswtsb.zip
+      name: chry10.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
-      debug: dat:fbneo:1.0.0.03
+      debug: dat:mame:0.289
     entries:
-    - id: 156081
-      asset_id: 52170
-      name: pnkswtsb_u4
-      size: 2097152
-      blob_id: 79250
-    - id: 156082
-      asset_id: 52170
-      name: pnkswtsx_u2
-      size: 138412032
-      blob_id: 79251
-    - id: 156083
-      asset_id: 52170
-      name: u23
-      size: 4194304
-      blob_id: 33113
-    - id: 156084
-      asset_id: 52170
-      name: u24
-      size: 4194304
-      blob_id: 33114
+    - id: 129556
+      asset_id: 52371
+      name: 1.u3
+      size: 32768
+      blob_id: 103769
+    - id: 129557
+      asset_id: 52371
+      name: 27c010.u1
+      size: 131072
+      blob_id: 103770
+    - id: 129558
+      asset_id: 52371
+      name: 82s147.u2
+      size: 512
+      blob_id: 102593
+    - id: 129559
+      asset_id: 52371
+      name: pic16f84.bad.dump
+      size: 5364
+      blob_id: 103771
+    - id: 129560
+      asset_id: 52371
+      name: ver.1h2.u20
+      size: 65536
+      blob_id: 103772

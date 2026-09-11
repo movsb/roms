@@ -4,84 +4,170 @@ game:
   description: ""
   series_id: 0
 names:
-- id: 112823
+- id: 113142
   kind: 2
   kind_id: 40810
   language: 1
-  name: Thunder & Lightning (set 2)
-  source: fbneo
+  name: DonPachi (Japan)
+  source: mame
 game_developers: []
 game_genres: []
 assets: []
 releases:
 - release:
-    id: 40810
+    id: 41129
     game_id: 40810
     description: ""
-    release_date: 19900000
+    release_date: 19950000
   names:
-  - id: 112824
+  - id: 113143
     kind: 3
-    kind_id: 40810
+    kind_id: 41129
     language: 1
-    name: Thunder & Lightning (set 2)
-    source: fbneo
+    name: DonPachi (Japan)
+    source: mame
   release_publishers: []
   assets:
   - asset:
-      id: 53880
+      id: 54199
       kind: 3
-      kind_id: 40810
+      kind_id: 41129
       type: 1
-      name: thunderla.zip
+      name: donpachij.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
-      debug: dat:fbneo:1.0.0.03
+      debug: dat:mame:0.289
     entries:
-    - id: 193753
-      asset_id: 53880
-      name: r27
+    - id: 153481
+      asset_id: 54199
+      name: atdp.u32
+      size: 1048576
+      blob_id: 15540
+    - id: 153482
+      asset_id: 54199
+      name: atdp.u33
+      size: 2097152
+      blob_id: 15541
+    - id: 153483
+      asset_id: 54199
+      name: atdp.u33
+      size: 2097152
+      blob_id: 15541
+    - id: 153484
+      asset_id: 54199
+      name: atdp.u44
+      size: 2097152
+      blob_id: 15542
+    - id: 153485
+      asset_id: 54199
+      name: atdp.u45
+      size: 2097152
+      blob_id: 15543
+    - id: 153486
+      asset_id: 54199
+      name: atdp.u54
+      size: 1048576
+      blob_id: 15544
+    - id: 153487
+      asset_id: 54199
+      name: atdp.u57
+      size: 1048576
+      blob_id: 15545
+    - id: 153488
+      asset_id: 54199
+      name: eeprom-donpachi.bin
+      size: 128
+      blob_id: 14255
+    - id: 153489
+      asset_id: 54199
+      name: peel18cv8p-15.u18
+      size: 341
+      blob_id: 15546
+    - id: 153490
+      asset_id: 54199
+      name: prg.u29
       size: 524288
-      blob_id: 45598
-    - id: 193754
-      asset_id: 53880
-      name: r28
+      blob_id: 15551
+    - id: 153491
+      asset_id: 54199
+      name: u58.bin
+      size: 262144
+      blob_id: 15550
+- release:
+    id: 76480
+    game_id: 40810
+    description: ""
+    release_date: 19950000
+  names:
+  - id: 182592
+    kind: 3
+    kind_id: 76480
+    language: 1
+    name: DonPachi (Japan, ver. 1.01, 95/05/11)
+    source: fbneo
+  release_publishers: []
+  assets:
+  - asset:
+      id: 89550
+      kind: 3
+      kind_id: 76480
+      type: 1
+      name: donpachij.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 433925
+      asset_id: 89550
+      name: atdp.u32
+      size: 1048576
+      blob_id: 15540
+    - id: 433926
+      asset_id: 89550
+      name: atdp.u33
+      size: 2097152
+      blob_id: 15541
+    - id: 433927
+      asset_id: 89550
+      name: atdp.u44
+      size: 2097152
+      blob_id: 15542
+    - id: 433928
+      asset_id: 89550
+      name: atdp.u45
+      size: 2097152
+      blob_id: 15543
+    - id: 433929
+      asset_id: 89550
+      name: atdp.u54
+      size: 1048576
+      blob_id: 15544
+    - id: 433930
+      asset_id: 89550
+      name: atdp.u57
+      size: 1048576
+      blob_id: 15545
+    - id: 433931
+      asset_id: 89550
+      name: eeprom-donpachi.bin
+      size: 128
+      blob_id: 14255
+    - id: 433932
+      asset_id: 89550
+      name: peel18cv8p-15.u18
+      size: 341
+      blob_id: 15546
+    - id: 433933
+      asset_id: 89550
+      name: prg.u29
       size: 524288
-      blob_id: 45599
-    - id: 193755
-      asset_id: 53880
-      name: t14
-      size: 131072
-      blob_id: 45600
-    - id: 193756
-      asset_id: 53880
-      name: t15
-      size: 131072
-      blob_id: 45601
-    - id: 193757
-      asset_id: 53880
-      name: t16
-      size: 131072
-      blob_id: 45602
-    - id: 193758
-      asset_id: 53880
-      name: t17
-      size: 131072
-      blob_id: 45603
-    - id: 193759
-      asset_id: 53880
-      name: tl-1-1.u1
-      size: 32768
-      blob_id: 104001
-    - id: 193760
-      asset_id: 53880
-      name: tl-1-2.u4
-      size: 32768
-      blob_id: 104002
-    - id: 193761
-      asset_id: 53880
-      name: tl-9
-      size: 279
-      blob_id: 104000
+      blob_id: 15551
+    - id: 433934
+      asset_id: 89550
+      name: u58.bin
+      size: 262144
+      blob_id: 15550

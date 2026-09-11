@@ -4,49 +4,54 @@ game:
   description: ""
   series_id: 0
 names:
-- id: 108585
+- id: 108761
   kind: 2
   kind_id: 38691
   language: 1
-  name: "Ms. Pac-Man/Galaga - 20th Anniversary Class of 1981 Reunion (V1.01)"
-  source: fbneo
+  name: Car Beena
+  source: mame
 game_developers: []
 game_genres: []
 assets: []
 releases:
 - release:
-    id: 38691
+    id: 38867
     game_id: 38691
     description: ""
-    release_date: 20000000
+    release_date: 20090000
   names:
-  - id: 108586
+  - id: 108762
     kind: 3
-    kind_id: 38691
+    kind_id: 38867
     language: 1
-    name: "Ms. Pac-Man/Galaga - 20th Anniversary Class of 1981 Reunion (V1.01)"
-    source: fbneo
+    name: Car Beena
+    source: mame
   release_publishers: []
   assets:
   - asset:
-      id: 51761
+      id: 51937
       kind: 3
-      kind_id: 38691
+      kind_id: 38867
       type: 1
-      name: 20pacgalr1.zip
+      name: carbeena.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
-      debug: dat:fbneo:1.0.0.03
+      debug: dat:mame:0.289
     entries:
-    - id: 147723
-      asset_id: 51761
-      name: ms_pac-galaga.u14
+    - id: 124864
+      asset_id: 51937
+      name: 9h0-0008.bios.ic1
+      size: 131072
+      blob_id: 98692
+    - id: 124865
+      asset_id: 51937
+      name: 9h0-0008.midipcm.ic1
       size: 32768
-      blob_id: 456
-    - id: 147724
-      asset_id: 51761
-      name: ms_pac-galaga_v1.01.u13
-      size: 262144
-      blob_id: 99090
+      blob_id: 98693
+    - id: 124866
+      asset_id: 51937
+      name: en29lv640b.ic9
+      size: 8388608
+      blob_id: 102154

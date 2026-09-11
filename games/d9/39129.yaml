@@ -4,64 +4,59 @@ game:
   description: ""
   series_id: 0
 names:
-- id: 109461
+- id: 109665
   kind: 2
   kind_id: 39129
   language: 1
-  name: Play Girls 2 (bootleg)
-  source: fbneo
+  name: CIT-220+ Video Terminal
+  source: mame
 game_developers: []
 game_genres: []
 assets: []
 releases:
 - release:
-    id: 39129
+    id: 39333
     game_id: 39129
     description: ""
-    release_date: 19930000
+    release_date: 19840000
   names:
-  - id: 109462
+  - id: 109666
     kind: 3
-    kind_id: 39129
+    kind_id: 39333
     language: 1
-    name: Play Girls 2 (bootleg)
-    source: fbneo
+    name: CIT-220+ Video Terminal
+    source: mame
   release_publishers: []
   assets:
   - asset:
-      id: 52199
+      id: 52403
       kind: 3
-      kind_id: 39129
+      kind_id: 39333
       type: 1
-      name: plgirls2b.zip
+      name: cit220p.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
-      debug: dat:fbneo:1.0.0.03
+      debug: dat:mame:0.289
     entries:
-    - id: 156465
-      asset_id: 52199
-      name: playgirls2b.b6
-      size: 262144
-      blob_id: 100243
-    - id: 156466
-      asset_id: 52199
-      name: playgirls2b.d1
-      size: 262144
-      blob_id: 100244
-    - id: 156467
-      asset_id: 52199
-      name: playgirls2b.d3
-      size: 262144
-      blob_id: 100245
-    - id: 156468
-      asset_id: 52199
-      name: playgirls2b.d4
-      size: 262144
-      blob_id: 100246
-    - id: 156469
-      asset_id: 52199
-      name: playgirls2b.d8
-      size: 262144
-      blob_id: 100247
+    - id: 130004
+      asset_id: 52403
+      name: eeprom.bin
+      size: 4096
+      blob_id: 103878
+    - id: 130005
+      asset_id: 52403
+      name: v17_001a.ic23
+      size: 16384
+      blob_id: 103879
+    - id: 130006
+      asset_id: 52403
+      name: v17_001b.ic24
+      size: 16384
+      blob_id: 103880
+    - id: 130007
+      asset_id: 52403
+      name: v20_cg.ic17
+      size: 4096
+      blob_id: 103881

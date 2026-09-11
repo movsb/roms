@@ -4,119 +4,59 @@ game:
   description: ""
   series_id: 0
 names:
-- id: 102705
+- id: 102713
   kind: 2
   kind_id: 35751
   language: 1
-  name: Abscam
-  source: fbneo
+  name: Genesis with 32X (USA, NTSC)
+  source: mame
 game_developers: []
 game_genres: []
 assets: []
 releases:
 - release:
-    id: 35751
+    id: 35759
     game_id: 35751
     description: ""
-    release_date: 19810000
+    release_date: 19940000
   names:
-  - id: 102706
+  - id: 102714
     kind: 3
-    kind_id: 35751
+    kind_id: 35759
     language: 1
-    name: Abscam
-    source: fbneo
+    name: Genesis with 32X (USA, NTSC)
+    source: mame
   release_publishers: []
   assets:
   - asset:
-      id: 48821
+      id: 48829
       kind: 3
-      kind_id: 35751
+      kind_id: 35759
       type: 1
-      name: abscam.zip
+      name: 32x.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
-      debug: dat:fbneo:1.0.0.03
+      debug: dat:mame:0.289
     entries:
+    - id: 91707
+      asset_id: 48829
+      name: 32x_g_bios.bin
+      size: 256
+      blob_id: 91891
+    - id: 91708
+      asset_id: 48829
+      name: 32x_m_bios.bin
+      size: 2048
+      blob_id: 91892
     - id: 91709
-      asset_id: 48821
-      name: 82s123.7f
-      size: 32
-      blob_id: 1463
+      asset_id: 48829
+      name: 32x_m_bios_sdk.bin
+      size: 2048
+      blob_id: 91893
     - id: 91710
-      asset_id: 48821
-      name: 82s126.1m
-      size: 256
-      blob_id: 1464
-    - id: 91711
-      asset_id: 48821
-      name: 82s126.3m
-      size: 256
-      blob_id: 1465
-    - id: 91712
-      asset_id: 48821
-      name: as0.bin
-      size: 2048
-      blob_id: 91787
-    - id: 91713
-      asset_id: 48821
-      name: as1.bin
-      size: 2048
-      blob_id: 91788
-    - id: 91714
-      asset_id: 48821
-      name: as10.bin
-      size: 2048
-      blob_id: 91789
-    - id: 91715
-      asset_id: 48821
-      name: as11.bin
-      size: 2048
-      blob_id: 91790
-    - id: 91716
-      asset_id: 48821
-      name: as2.bin
-      size: 2048
-      blob_id: 91791
-    - id: 91717
-      asset_id: 48821
-      name: as3.bin
-      size: 2048
-      blob_id: 91792
-    - id: 91718
-      asset_id: 48821
-      name: as4.bin
-      size: 2048
-      blob_id: 91793
-    - id: 91719
-      asset_id: 48821
-      name: as4a.bin
-      size: 256
-      blob_id: 91794
-    - id: 91720
-      asset_id: 48821
-      name: as5.bin
-      size: 2048
-      blob_id: 91795
-    - id: 91721
-      asset_id: 48821
-      name: as6.bin
-      size: 2048
-      blob_id: 91796
-    - id: 91722
-      asset_id: 48821
-      name: as7.bin
-      size: 2048
-      blob_id: 91797
-    - id: 91723
-      asset_id: 48821
-      name: as8.bin
-      size: 2048
-      blob_id: 91798
-    - id: 91724
-      asset_id: 48821
-      name: as9.bin
-      size: 2048
-      blob_id: 91799
+      asset_id: 48829
+      name: 32x_s_bios.bin
+      size: 1024
+      blob_id: 91894

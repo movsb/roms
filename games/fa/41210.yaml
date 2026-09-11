@@ -4,44 +4,54 @@ game:
   description: ""
   series_id: 0
 names:
-- id: 113623
+- id: 113972
   kind: 2
   kind_id: 41210
   language: 1
-  name: VS. Pinball
-  source: fbneo
+  name: Bar X (Electrocoin) (set 54)
+  source: mame
 game_developers: []
 game_genres: []
 assets: []
 releases:
 - release:
-    id: 41210
+    id: 41559
     game_id: 41210
     description: ""
-    release_date: 19840000
+    release_date: 0
   names:
-  - id: 113624
+  - id: 113973
     kind: 3
-    kind_id: 41210
+    kind_id: 41559
     language: 1
-    name: VS. Pinball
-    source: fbneo
+    name: Bar X (Electrocoin) (set 54)
+    source: mame
   release_publishers: []
   assets:
   - asset:
-      id: 54280
+      id: 54629
       kind: 3
-      kind_id: 41210
+      kind_id: 41559
       type: 1
-      name: vspinball.zip
+      name: ec_barx__aq.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
-      debug: dat:fbneo:1.0.0.03
+      debug: dat:mame:0.289
     entries:
-    - id: 201198
-      asset_id: 54280
-      name: VS. Pinball (1984)(Nintendo).nes
-      size: 49168
-      blob_id: 104782
+    - id: 158290
+      asset_id: 54629
+      name: barxsnd.bin
+      size: 4096
+      blob_id: 111129
+    - id: 158291
+      asset_id: 54629
+      name: bxpal
+      size: 3200
+      blob_id: 111130
+    - id: 158292
+      asset_id: 54629
+      name: issa834
+      size: 32768
+      blob_id: 111169

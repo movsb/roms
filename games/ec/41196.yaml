@@ -4,44 +4,54 @@ game:
   description: ""
   series_id: 0
 names:
-- id: 113595
+- id: 113944
   kind: 2
   kind_id: 41196
   language: 1
-  name: VS. Excitebike
-  source: fbneo
+  name: Bar X (Electrocoin) (set 40)
+  source: mame
 game_developers: []
 game_genres: []
 assets: []
 releases:
 - release:
-    id: 41196
+    id: 41545
     game_id: 41196
     description: ""
-    release_date: 19850000
+    release_date: 0
   names:
-  - id: 113596
+  - id: 113945
     kind: 3
-    kind_id: 41196
+    kind_id: 41545
     language: 1
-    name: VS. Excitebike
-    source: fbneo
+    name: Bar X (Electrocoin) (set 40)
+    source: mame
   release_publishers: []
   assets:
   - asset:
-      id: 54266
+      id: 54615
       kind: 3
-      kind_id: 41196
+      kind_id: 41545
       type: 1
-      name: vsexcitebike.zip
+      name: ec_barx__ac.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
-      debug: dat:fbneo:1.0.0.03
+      debug: dat:mame:0.289
     entries:
-    - id: 201143
-      asset_id: 54266
-      name: VS. Excitebike (1985)(Nintendo).nes
-      size: 49168
-      blob_id: 104743
+    - id: 158248
+      asset_id: 54615
+      name: barxsnd.bin
+      size: 4096
+      blob_id: 111129
+    - id: 158249
+      asset_id: 54615
+      name: bxpal
+      size: 3200
+      blob_id: 111130
+    - id: 158250
+      asset_id: 54615
+      name: issa820
+      size: 32768
+      blob_id: 111155

@@ -4,134 +4,69 @@ game:
   description: ""
   series_id: 0
 names:
-- id: 113429
+- id: 113775
   kind: 2
   kind_id: 41113
   language: 1
-  name: Vastar (set 4)
-  source: fbneo
+  name: Dyno Bop (v1.1)
+  source: mame
 game_developers: []
 game_genres: []
 assets: []
 releases:
 - release:
-    id: 41113
+    id: 41459
     game_id: 41113
     description: ""
-    release_date: 19830000
+    release_date: 19900000
   names:
-  - id: 113430
+  - id: 113776
     kind: 3
-    kind_id: 41113
+    kind_id: 41459
     language: 1
-    name: Vastar (set 4)
-    source: fbneo
+    name: Dyno Bop (v1.1)
+    source: mame
   release_publishers: []
   assets:
   - asset:
-      id: 54183
+      id: 54529
       kind: 3
-      kind_id: 41113
+      kind_id: 41459
       type: 1
-      name: vastar4.zip
+      name: dynobop.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
-      debug: dat:fbneo:1.0.0.03
+      debug: dat:mame:0.289
     entries:
-    - id: 199749
-      asset_id: 54183
-      name: 3.bin
-      size: 4096
-      blob_id: 104630
-    - id: 199750
-      asset_id: 54183
-      name: c_c9.rom
+    - id: 157516
+      asset_id: 54529
+      name: dyno_pgm_1.1_u5.u5
+      size: 65536
+      blob_id: 110955
+    - id: 157517
+      asset_id: 54529
+      name: dyno_snd-u27.u27
+      size: 32768
+      blob_id: 110956
+    - id: 157518
+      asset_id: 54529
+      name: dyno_vr-srom0.srom0
+      size: 65536
+      blob_id: 110957
+    - id: 157519
+      asset_id: 54529
+      name: grom00-dyno.grom0
+      size: 131072
+      blob_id: 110958
+    - id: 157520
+      asset_id: 54529
+      name: grom01-dyno.grom1
+      size: 131072
+      blob_id: 110959
+    - id: 157521
+      asset_id: 54529
+      name: z80_pgm_u53.u53
       size: 8192
-      blob_id: 4786
-    - id: 199751
-      asset_id: 54183
-      name: c_f7.rom
-      size: 8192
-      blob_id: 4787
-    - id: 199752
-      asset_id: 54183
-      name: c_f9.rom
-      size: 8192
-      blob_id: 4788
-    - id: 199753
-      asset_id: 54183
-      name: c_n4.rom
-      size: 8192
-      blob_id: 4789
-    - id: 199754
-      asset_id: 54183
-      name: c_s4.rom
-      size: 8192
-      blob_id: 4790
-    - id: 199755
-      asset_id: 54183
-      name: e_f2.rom
-      size: 4096
-      blob_id: 4791
-    - id: 199756
-      asset_id: 54183
-      name: e_h4.rom
-      size: 4096
-      blob_id: 4793
-    - id: 199757
-      asset_id: 54183
-      name: e_j2.rom
-      size: 4096
-      blob_id: 4794
-    - id: 199758
-      asset_id: 54183
-      name: e_j4.rom
-      size: 4096
-      blob_id: 4795
-    - id: 199759
-      asset_id: 54183
-      name: e_k4.rom
-      size: 4096
-      blob_id: 4796
-    - id: 199760
-      asset_id: 54183
-      name: e_l4.rom
-      size: 4096
-      blob_id: 4797
-    - id: 199761
-      asset_id: 54183
-      name: e_n4.rom
-      size: 4096
-      blob_id: 4798
-    - id: 199762
-      asset_id: 54183
-      name: e_n5.rom
-      size: 4096
-      blob_id: 4799
-    - id: 199763
-      asset_id: 54183
-      name: e_n7.rom
-      size: 4096
-      blob_id: 4800
-    - id: 199764
-      asset_id: 54183
-      name: tbp24s10.6m
-      size: 256
-      blob_id: 4801
-    - id: 199765
-      asset_id: 54183
-      name: tbp24s10.6p
-      size: 256
-      blob_id: 4802
-    - id: 199766
-      asset_id: 54183
-      name: tbp24s10.6s
-      size: 256
-      blob_id: 4803
-    - id: 199767
-      asset_id: 54183
-      name: tbp24s10.8n
-      size: 256
-      blob_id: 4804
+      blob_id: 40872

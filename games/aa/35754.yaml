@@ -4,99 +4,59 @@ game:
   description: ""
   series_id: 0
 names:
-- id: 102711
+- id: 102719
   kind: 2
   kind_id: 35754
   language: 1
-  name: Acrobat Mission
-  source: fbneo
+  name: Sega CD with 32X (USA, NTSC)
+  source: mame
 game_developers: []
 game_genres: []
 assets: []
 releases:
 - release:
-    id: 35754
+    id: 35762
     game_id: 35754
     description: ""
-    release_date: 19910000
+    release_date: 19940000
   names:
-  - id: 102712
+  - id: 102720
     kind: 3
-    kind_id: 35754
+    kind_id: 35762
     language: 1
-    name: Acrobat Mission
-    source: fbneo
+    name: Sega CD with 32X (USA, NTSC)
+    source: mame
   release_publishers: []
   assets:
   - asset:
-      id: 48824
+      id: 48832
       kind: 3
-      kind_id: 35754
+      kind_id: 35762
       type: 1
-      name: acrobatm.zip
+      name: 32x_scd.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
-      debug: dat:fbneo:1.0.0.03
+      debug: dat:mame:0.289
     entries:
-    - id: 91768
-      asset_id: 48824
-      name: 1.ic101
-      size: 131072
-      blob_id: 5222
-    - id: 91769
-      asset_id: 48824
-      name: 10.ic81
+    - id: 91723
+      asset_id: 48832
+      name: 32x_g_bios.bin
       size: 256
-      blob_id: 5231
-    - id: 91770
-      asset_id: 48824
-      name: 11.ic80
-      size: 256
-      blob_id: 5232
-    - id: 91771
-      asset_id: 48824
-      name: 2.ic100
+      blob_id: 91891
+    - id: 91724
+      asset_id: 48832
+      name: 32x_m_bios.bin
+      size: 2048
+      blob_id: 91892
+    - id: 91725
+      asset_id: 48832
+      name: 32x_s_bios.bin
+      size: 1024
+      blob_id: 91894
+    - id: 91726
+      asset_id: 48832
+      name: mpr-15764-t.bin
       size: 131072
-      blob_id: 5223
-    - id: 91772
-      asset_id: 48824
-      name: 3.ic79
-      size: 65536
-      blob_id: 5224
-    - id: 91773
-      asset_id: 48824
-      name: 4.ic74
-      size: 65536
-      blob_id: 5225
-    - id: 91774
-      asset_id: 48824
-      name: am-01.ic42
-      size: 1048576
-      blob_id: 5228
-    - id: 91775
-      asset_id: 48824
-      name: am-02.ic29
-      size: 524288
-      blob_id: 5229
-    - id: 91776
-      asset_id: 48824
-      name: am-03.ic8
-      size: 1048576
-      blob_id: 5230
-    - id: 91777
-      asset_id: 48824
-      name: am-04.ic53
-      size: 524288
-      blob_id: 5227
-    - id: 91778
-      asset_id: 48824
-      name: am-05.ic54
-      size: 524288
-      blob_id: 5226
-    - id: 91779
-      asset_id: 48824
-      name: nmk004.bin
-      size: 8192
-      blob_id: 21613
+      blob_id: 91901

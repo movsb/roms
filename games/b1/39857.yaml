@@ -4,94 +4,69 @@ game:
   description: ""
   series_id: 0
 names:
-- id: 110917
+- id: 111161
   kind: 2
   kind_id: 39857
   language: 1
-  name: Silent Dragon (US)
-  source: fbneo
+  name: C.S.I. v2.40
+  source: mame
 game_developers: []
 game_genres: []
 assets: []
 releases:
 - release:
-    id: 39857
+    id: 40101
     game_id: 39857
     description: ""
-    release_date: 19920000
+    release_date: 20080000
   names:
-  - id: 110918
+  - id: 111162
     kind: 3
-    kind_id: 39857
+    kind_id: 40101
     language: 1
-    name: Silent Dragon (US)
-    source: fbneo
+    name: C.S.I. v2.40
+    source: mame
   release_publishers: []
   assets:
   - asset:
-      id: 52927
+      id: 53171
       kind: 3
-      kind_id: 39857
+      kind_id: 40101
       type: 1
-      name: silentdu.zip
+      name: csi_240.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
-      debug: dat:fbneo:1.0.0.03
+      debug: dat:mame:0.289
     entries:
-    - id: 171045
-      asset_id: 52927
-      name: east-01.ic1
-      size: 524288
-      blob_id: 40404
-    - id: 171046
-      asset_id: 52927
-      name: east-02.ic3
-      size: 524288
-      blob_id: 40405
-    - id: 171047
-      asset_id: 52927
-      name: east-03.ic39
+    - id: 139346
+      asset_id: 53171
+      name: boot_eprom_01_02.bin
       size: 1048576
-      blob_id: 40406
-    - id: 171048
-      asset_id: 52927
-      name: east-04.ic28
+      blob_id: 91857
+    - id: 139347
+      asset_id: 53171
+      name: boot_eprom_01_06.bin
+      size: 953032
+      blob_id: 91858
+    - id: 139348
+      asset_id: 53171
+      name: boot_eprom_02_10.bin
+      size: 983812
+      blob_id: 91859
+    - id: 139349
+      asset_id: 53171
+      name: boot_eprom_02_30.bin
+      size: 984612
+      blob_id: 91860
+    - id: 139350
+      asset_id: 53171
+      name: boot_eprom_03_10.bin
       size: 1048576
-      blob_id: 40407
-    - id: 171049
-      asset_id: 52927
-      name: east-05.ic40
-      size: 1048576
-      blob_id: 40408
-    - id: 171050
-      asset_id: 52927
-      name: east-06.ic29
-      size: 1048576
-      blob_id: 40409
-    - id: 171051
-      asset_id: 52927
-      name: east-09.ic9
-      size: 131072
-      blob_id: 40410
-    - id: 171052
-      asset_id: 52927
-      name: east-11.ic31
-      size: 131072
-      blob_id: 40411
-    - id: 171053
-      asset_id: 52927
-      name: east-12-1.ic32
-      size: 131072
-      blob_id: 40412
-    - id: 171054
-      asset_id: 52927
-      name: east-13.ic15
-      size: 65536
-      blob_id: 40413
-    - id: 171055
-      asset_id: 52927
-      name: east-14-1.ic10
-      size: 131072
-      blob_id: 40416
+      blob_id: 91861
+    - id: 139351
+      asset_id: 53171
+      name: csi_v2-4_a.bin
+      size: 31596480
+      blob_id: 106474
