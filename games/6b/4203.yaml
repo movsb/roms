@@ -10,6 +10,24 @@ names:
   language: 1
   name: tfrceac
   source: ""
+- id: 200083
+  kind: 2
+  kind_id: 4203
+  language: 1
+  name: Thunder Force AC (bootleg)
+  source: mame
+- id: 200084
+  kind: 2
+  kind_id: 4203
+  language: 1
+  name: Thunder Force AC (Japan)
+  source: mame
+- id: 200085
+  kind: 2
+  kind_id: 4203
+  language: 1
+  name: Thunder Force AC (Japan, prototype, bootleg)
+  source: mame
 game_developers:
 - game_id: 4203
   developer_id: 110
@@ -113,6 +131,43 @@ releases:
       blob_id: 90620
       debug: arcade/wheel/tfrceac.png
     entries: []
+  - asset:
+      id: 115455
+      kind: 3
+      kind_id: 4203
+      type: 1
+      name: tfrceac.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 767893
+      asset_id: 115455
+      name: epr-13655.ic4
+      size: 262144
+      blob_id: 31577
+    - id: 767894
+      asset_id: 115455
+      name: epr-13658.ic33
+      size: 262144
+      blob_id: 45192
+    - id: 767895
+      asset_id: 115455
+      name: epr-13659.ic34
+      size: 262144
+      blob_id: 45193
+    - id: 767896
+      asset_id: 115455
+      name: epr-13674.ic31
+      size: 262144
+      blob_id: 45190
+    - id: 767897
+      asset_id: 115455
+      name: epr-13675.ic32
+      size: 262144
+      blob_id: 45191
 - release:
     id: 4204
     game_id: 4203
@@ -211,53 +266,150 @@ releases:
       size: 262144
       blob_id: 45201
 - release:
-    id: 73024
+    id: 99586
     game_id: 4203
     description: ""
     release_date: 19900000
   names:
-  - id: 175991
+  - id: 232728
     kind: 3
-    kind_id: 73024
+    kind_id: 99586
     language: 1
-    name: Thunder Force AC
+    name: Thunder Force AC (bootleg)
     source: mame
   release_publishers: []
   assets:
   - asset:
-      id: 86094
+      id: 115456
       kind: 3
-      kind_id: 73024
+      kind_id: 99586
       type: 1
-      name: tfrceac.zip
+      name: tfrceacb.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 390342
-      asset_id: 86094
+    - id: 767898
+      asset_id: 115456
+      name: 3.bin
+      size: 262144
+      blob_id: 45194
+    - id: 767899
+      asset_id: 115456
+      name: 4.bin
+      size: 262144
+      blob_id: 45195
+    - id: 767900
+      asset_id: 115456
       name: epr-13655.ic4
       size: 262144
       blob_id: 31577
-    - id: 390343
-      asset_id: 86094
+    - id: 767901
+      asset_id: 115456
       name: epr-13658.ic33
       size: 262144
       blob_id: 45192
-    - id: 390344
-      asset_id: 86094
+    - id: 767902
+      asset_id: 115456
       name: epr-13659.ic34
       size: 262144
       blob_id: 45193
-    - id: 390345
-      asset_id: 86094
-      name: epr-13674.ic31
+- release:
+    id: 99587
+    game_id: 4203
+    description: ""
+    release_date: 19900000
+  names:
+  - id: 232729
+    kind: 3
+    kind_id: 99587
+    language: 1
+    name: Thunder Force AC (Japan)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 115457
+      kind: 3
+      kind_id: 99587
+      type: 1
+      name: tfrceacj.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 767903
+      asset_id: 115457
+      name: epr-13655.ic4
       size: 262144
-      blob_id: 45190
-    - id: 390346
-      asset_id: 86094
-      name: epr-13675.ic32
+      blob_id: 31577
+    - id: 767904
+      asset_id: 115457
+      name: epr-13656.ic31
       size: 262144
-      blob_id: 45191
+      blob_id: 45196
+    - id: 767905
+      asset_id: 115457
+      name: epr-13657.ic32
+      size: 262144
+      blob_id: 45197
+    - id: 767906
+      asset_id: 115457
+      name: epr-13658.ic33
+      size: 262144
+      blob_id: 45192
+    - id: 767907
+      asset_id: 115457
+      name: epr-13659.ic34
+      size: 262144
+      blob_id: 45193
+- release:
+    id: 99588
+    game_id: 4203
+    description: ""
+    release_date: 19900000
+  names:
+  - id: 232730
+    kind: 3
+    kind_id: 99588
+    language: 1
+    name: Thunder Force AC (Japan, prototype, bootleg)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 115458
+      kind: 3
+      kind_id: 99588
+      type: 1
+      name: tfrceacjpb.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 767908
+      asset_id: 115458
+      name: ic31_t.f.ac_0d26.id31
+      size: 262144
+      blob_id: 45198
+    - id: 767909
+      asset_id: 115458
+      name: ic32_t.f.ac_075f.ic32
+      size: 262144
+      blob_id: 45199
+    - id: 767910
+      asset_id: 115458
+      name: ic33_t.f.ac_d131.ic33
+      size: 262144
+      blob_id: 45200
+    - id: 767911
+      asset_id: 115458
+      name: ic34_t.f.ac_549d.ic34
+      size: 262144
+      blob_id: 45201

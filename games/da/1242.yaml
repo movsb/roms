@@ -10,6 +10,12 @@ names:
   language: 1
   name: cyvern
   source: ""
+- id: 189476
+  kind: 2
+  kind_id: 1242
+  language: 1
+  name: "Cyvern - The Dragon Weapons (Japan)"
+  source: mame
 game_developers:
 - game_id: 1242
   developer_id: 555
@@ -36,6 +42,12 @@ releases:
     language: 2
     name: "机甲飞龙 - 龙武 (美版)"
     source: trimui
+  - id: 184319
+    kind: 3
+    kind_id: 1242
+    language: 1
+    name: Cyvern (US)
+    source: fbneo
   release_publishers:
   - release_id: 1242
     publisher_id: 312
@@ -121,12 +133,12 @@ releases:
       asset_id: 1242
       name: supernova-modbios-korea.u10
       size: 524288
-      blob_id: 107139
+      blob_id: 281191
     - id: 142226
       asset_id: 1242
       name: supernova_modbios-japan.u10
       size: 524288
-      blob_id: 107140
+      blob_id: 281192
   - asset:
       id: 47745
       kind: 3
@@ -163,6 +175,83 @@ releases:
       blob_id: 90707
       debug: arcade/wheel/cyvern.png
     entries: []
+  - asset:
+      id: 118650
+      kind: 3
+      kind_id: 1242
+      type: 1
+      name: cyvern.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 809558
+      asset_id: 118650
+      name: cv-usa.u10
+      size: 1048576
+      blob_id: 13449
+    - id: 809559
+      asset_id: 118650
+      name: cv-usa.u8
+      size: 1048576
+      blob_id: 13450
+    - id: 809560
+      asset_id: 118650
+      name: cv100-00.u24
+      size: 4194304
+      blob_id: 13451
+    - id: 809561
+      asset_id: 118650
+      name: cv101-00.u20
+      size: 4194304
+      blob_id: 13452
+    - id: 809562
+      asset_id: 118650
+      name: cv200-00.u16
+      size: 4194304
+      blob_id: 13453
+    - id: 809563
+      asset_id: 118650
+      name: cv201-00.u13
+      size: 4194304
+      blob_id: 13454
+    - id: 809564
+      asset_id: 118650
+      name: cv210-00.u18
+      size: 4194304
+      blob_id: 13455
+    - id: 809565
+      asset_id: 118650
+      name: cv300-00.u4
+      size: 4194304
+      blob_id: 13456
+    - id: 809566
+      asset_id: 118650
+      name: sknsa1.u10
+      size: 524288
+      blob_id: 32305
+    - id: 809567
+      asset_id: 118650
+      name: sknse2.u10
+      size: 524288
+      blob_id: 32306
+    - id: 809568
+      asset_id: 118650
+      name: sknsj1.u10
+      size: 524288
+      blob_id: 32307
+    - id: 809569
+      asset_id: 118650
+      name: sknsk1.u10
+      size: 524288
+      blob_id: 32308
+    - id: 809570
+      asset_id: 118650
+      name: sknsu1.u10
+      size: 524288
+      blob_id: 32309
 - release:
     id: 1243
     game_id: 1242
@@ -246,93 +335,180 @@ releases:
       size: 1048576
       blob_id: 13458
 - release:
-    id: 76428
+    id: 82181
     game_id: 1242
     description: ""
     release_date: 19980000
   names:
-  - id: 182507
+  - id: 207683
     kind: 3
-    kind_id: 76428
+    kind_id: 82181
     language: 1
-    name: Cyvern (US)
-    source: fbneo
+    name: "Cyvern - The Dragon Weapons (Japan)"
+    source: mame
   release_publishers: []
   assets:
   - asset:
-      id: 89498
+      id: 96986
       kind: 3
-      kind_id: 76428
+      kind_id: 82181
       type: 1
-      name: cyvern.zip
+      name: cyvernj.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 579101
+      asset_id: 96986
+      name: cv100-00.u24
+      size: 4194304
+      blob_id: 13451
+    - id: 579102
+      asset_id: 96986
+      name: cv101-00.u20
+      size: 4194304
+      blob_id: 13452
+    - id: 579103
+      asset_id: 96986
+      name: cv200-00.u16
+      size: 4194304
+      blob_id: 13453
+    - id: 579104
+      asset_id: 96986
+      name: cv201-00.u13
+      size: 4194304
+      blob_id: 13454
+    - id: 579105
+      asset_id: 96986
+      name: cv210-00.u18
+      size: 4194304
+      blob_id: 13455
+    - id: 579106
+      asset_id: 96986
+      name: cv300-00.u4
+      size: 4194304
+      blob_id: 13456
+    - id: 579107
+      asset_id: 96986
+      name: cvj-even.u10
+      size: 1048576
+      blob_id: 13457
+    - id: 579108
+      asset_id: 96986
+      name: cvj-odd.u8
+      size: 1048576
+      blob_id: 13458
+    - id: 579109
+      asset_id: 96986
+      name: sknsa1.u10
+      size: 524288
+      blob_id: 32305
+    - id: 579110
+      asset_id: 96986
+      name: sknse2.u10
+      size: 524288
+      blob_id: 32306
+    - id: 579111
+      asset_id: 96986
+      name: sknsj1.u10
+      size: 524288
+      blob_id: 32307
+    - id: 579112
+      asset_id: 96986
+      name: sknsk1.u10
+      size: 524288
+      blob_id: 32308
+    - id: 579113
+      asset_id: 96986
+      name: sknsu1.u10
+      size: 524288
+      blob_id: 32309
+    - id: 579114
+      asset_id: 96986
+      name: supernova-modbios-korea.u10
+      size: 524288
+      blob_id: 281191
+    - id: 579115
+      asset_id: 96986
+      name: supernova_modbios-japan.u10
+      size: 524288
+      blob_id: 281192
+  - asset:
+      id: 118649
+      kind: 3
+      kind_id: 82181
+      type: 1
+      name: cyvernj.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
       debug: dat:fbneo:5fa9b68a
     entries:
-    - id: 433030
-      asset_id: 89498
-      name: cv-usa.u10
-      size: 1048576
-      blob_id: 13449
-    - id: 433031
-      asset_id: 89498
-      name: cv-usa.u8
-      size: 1048576
-      blob_id: 13450
-    - id: 433032
-      asset_id: 89498
+    - id: 809545
+      asset_id: 118649
       name: cv100-00.u24
       size: 4194304
       blob_id: 13451
-    - id: 433033
-      asset_id: 89498
+    - id: 809546
+      asset_id: 118649
       name: cv101-00.u20
       size: 4194304
       blob_id: 13452
-    - id: 433034
-      asset_id: 89498
+    - id: 809547
+      asset_id: 118649
       name: cv200-00.u16
       size: 4194304
       blob_id: 13453
-    - id: 433035
-      asset_id: 89498
+    - id: 809548
+      asset_id: 118649
       name: cv201-00.u13
       size: 4194304
       blob_id: 13454
-    - id: 433036
-      asset_id: 89498
+    - id: 809549
+      asset_id: 118649
       name: cv210-00.u18
       size: 4194304
       blob_id: 13455
-    - id: 433037
-      asset_id: 89498
+    - id: 809550
+      asset_id: 118649
       name: cv300-00.u4
       size: 4194304
       blob_id: 13456
-    - id: 433038
-      asset_id: 89498
+    - id: 809551
+      asset_id: 118649
+      name: cvj-even.u10
+      size: 1048576
+      blob_id: 13457
+    - id: 809552
+      asset_id: 118649
+      name: cvj-odd.u8
+      size: 1048576
+      blob_id: 13458
+    - id: 809553
+      asset_id: 118649
       name: sknsa1.u10
       size: 524288
       blob_id: 32305
-    - id: 433039
-      asset_id: 89498
+    - id: 809554
+      asset_id: 118649
       name: sknse2.u10
       size: 524288
       blob_id: 32306
-    - id: 433040
-      asset_id: 89498
+    - id: 809555
+      asset_id: 118649
       name: sknsj1.u10
       size: 524288
       blob_id: 32307
-    - id: 433041
-      asset_id: 89498
+    - id: 809556
+      asset_id: 118649
       name: sknsk1.u10
       size: 524288
       blob_id: 32308
-    - id: 433042
-      asset_id: 89498
+    - id: 809557
+      asset_id: 118649
       name: sknsu1.u10
       size: 524288
       blob_id: 32309

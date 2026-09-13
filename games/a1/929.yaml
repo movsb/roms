@@ -16,6 +16,18 @@ names:
   language: 2
   name: 立体球道 (第一套)
   source: trimui
+- id: 188583
+  kind: 2
+  kind_id: 929
+  language: 1
+  name: Borench (set 2)
+  source: mame
+- id: 188584
+  kind: 2
+  kind_id: 929
+  language: 1
+  name: Borench (Japan)
+  source: mame
 game_developers:
 - game_id: 929
   developer_id: 110
@@ -109,24 +121,10 @@ releases:
       blob_id: 88903
       debug: arcade/wheel/borench.png
     entries: []
-- release:
-    id: 38389
-    game_id: 929
-    description: ""
-    release_date: 19900000
-  names:
-  - id: 107844
-    kind: 3
-    kind_id: 38389
-    language: 1
-    name: Borench (set 1)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 51459
+      id: 95224
       kind: 3
-      kind_id: 38389
+      kind_id: 929
       type: 1
       name: borench.zip
       description: ""
@@ -135,18 +133,100 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 118070
-      asset_id: 51459
+    - id: 556268
+      asset_id: 95224
       name: epr-13587.ic4
       size: 131072
       blob_id: 9631
-    - id: 118071
-      asset_id: 51459
+    - id: 556269
+      asset_id: 95224
       name: ic31.bin
       size: 262144
       blob_id: 9629
-    - id: 118072
-      asset_id: 51459
+    - id: 556270
+      asset_id: 95224
       name: ic32.bin
       size: 262144
       blob_id: 9630
+- release:
+    id: 80548
+    game_id: 929
+    description: ""
+    release_date: 19900000
+  names:
+  - id: 205181
+    kind: 3
+    kind_id: 80548
+    language: 1
+    name: Borench (set 2)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 95225
+      kind: 3
+      kind_id: 80548
+      type: 1
+      name: borencha.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 556271
+      asset_id: 95225
+      name: epr-13587.ic4
+      size: 131072
+      blob_id: 9631
+    - id: 556272
+      asset_id: 95225
+      name: epr-13590.ic31
+      size: 262144
+      blob_id: 240778
+    - id: 556273
+      asset_id: 95225
+      name: epr-13591.ic32
+      size: 262144
+      blob_id: 240779
+- release:
+    id: 80549
+    game_id: 929
+    description: ""
+    release_date: 19900000
+  names:
+  - id: 205182
+    kind: 3
+    kind_id: 80549
+    language: 1
+    name: Borench (Japan)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 95226
+      kind: 3
+      kind_id: 80549
+      type: 1
+      name: borenchj.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 556274
+      asset_id: 95226
+      name: epr-13585.ic31
+      size: 262144
+      blob_id: 240780
+    - id: 556275
+      asset_id: 95226
+      name: epr-13586.ic32
+      size: 262144
+      blob_id: 240781
+    - id: 556276
+      asset_id: 95226
+      name: epr-13587.ic4
+      size: 131072
+      blob_id: 9631

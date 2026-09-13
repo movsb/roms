@@ -16,6 +16,48 @@ names:
   language: 2
   name: 吃豆赛车 (修正版 3)
   source: trimui
+- id: 194215
+  kind: 2
+  kind_id: 484
+  language: 1
+  name: Panzer (bootleg of Spectar)
+  source: mame
+- id: 194788
+  kind: 2
+  kind_id: 484
+  language: 1
+  name: Phantom (bootleg of Spectar)
+  source: mame
+- id: 194789
+  kind: 2
+  kind_id: 484
+  language: 1
+  name: Phantomas (bootleg of Spectar)
+  source: mame
+- id: 195489
+  kind: 2
+  kind_id: 484
+  language: 1
+  name: Rallys (bootleg of Spectar, set 1)
+  source: mame
+- id: 195490
+  kind: 2
+  kind_id: 484
+  language: 1
+  name: Rallys (bootleg of Spectar, set 2)
+  source: mame
+- id: 199395
+  kind: 2
+  kind_id: 484
+  language: 1
+  name: Spectar (revision 1?)
+  source: mame
+- id: 199396
+  kind: 2
+  kind_id: 484
+  language: 1
+  name: Spectar (revision 2, bootleg)
+  source: mame
 game_developers:
 - game_id: 484
   developer_id: 507
@@ -129,79 +171,737 @@ releases:
       blob_id: 89109
       debug: arcade/wheel/spectar.png
     entries: []
-- release:
-    id: 71549
-    game_id: 484
-    description: ""
-    release_date: 19800000
-  names:
-  - id: 173150
-    kind: 3
-    kind_id: 71549
-    language: 1
-    name: Spectar (revision 3)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 84619
+      id: 114137
       kind: 3
-      kind_id: 71549
+      kind_id: 484
       type: 1
       name: spectar.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
-      debug: dat:mame:0.289
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/2022247426
     entries:
-    - id: 373937
-      asset_id: 84619
+    - id: 752556
+      asset_id: 114137
       name: hrl11d-2.11d
       size: 2048
       blob_id: 4318
-    - id: 373938
-      asset_id: 84619
+    - id: 752557
+      asset_id: 114137
       name: hrl14h-1.14h
       size: 32
-      blob_id: 115586
-    - id: 373939
-      asset_id: 84619
+      blob_id: 216737
+    - id: 752558
+      asset_id: 114137
       name: hrl6d-1.6d
       size: 32
-      blob_id: 152196
-    - id: 373940
-      asset_id: 84619
+      blob_id: 259297
+    - id: 752559
+      asset_id: 114137
       name: spl10a-2.10a
       size: 2048
       blob_id: 4319
-    - id: 373941
-      asset_id: 84619
+    - id: 752560
+      asset_id: 114137
       name: spl11a-3.11a
       size: 2048
       blob_id: 4320
-    - id: 373942
-      asset_id: 84619
+    - id: 752561
+      asset_id: 114137
       name: spl5c-2.5c
       size: 256
-      blob_id: 184552
-    - id: 373943
-      asset_id: 84619
+      blob_id: 301844
+    - id: 752562
+      asset_id: 114137
       name: spl6a-2.6a
       size: 2048
       blob_id: 4321
-    - id: 373944
-      asset_id: 84619
+    - id: 752563
+      asset_id: 114137
       name: spl7a-2.7a
       size: 2048
       blob_id: 4322
-    - id: 373945
-      asset_id: 84619
+    - id: 752564
+      asset_id: 114137
       name: spl8a-2.8a
       size: 2048
       blob_id: 4323
-    - id: 373946
-      asset_id: 84619
+    - id: 752565
+      asset_id: 114137
       name: spl9a-3.9a
       size: 2048
       blob_id: 4324
+  - asset:
+      id: 121067
+      kind: 3
+      kind_id: 484
+      type: 1
+      name: spectar.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.259
+    entries:
+    - id: 885528
+      asset_id: 121067
+      name: hrl11d-2.11d
+      size: 2048
+      blob_id: 4318
+    - id: 885529
+      asset_id: 121067
+      name: hrl14h-1.14h
+      size: 32
+      blob_id: 216737
+    - id: 885530
+      asset_id: 121067
+      name: prom.6d
+      size: 32
+      blob_id: 259297
+    - id: 885531
+      asset_id: 121067
+      name: spl10a-2.10a
+      size: 2048
+      blob_id: 4319
+    - id: 885532
+      asset_id: 121067
+      name: spl11a-3.11a
+      size: 2048
+      blob_id: 4320
+    - id: 885533
+      asset_id: 121067
+      name: spl5c-2.5c
+      size: 256
+      blob_id: 301844
+    - id: 885534
+      asset_id: 121067
+      name: spl6a-2.6a
+      size: 2048
+      blob_id: 4321
+    - id: 885535
+      asset_id: 121067
+      name: spl7a-2.7a
+      size: 2048
+      blob_id: 4322
+    - id: 885536
+      asset_id: 121067
+      name: spl8a-2.8a
+      size: 2048
+      blob_id: 4323
+    - id: 885537
+      asset_id: 121067
+      name: spl9a-3.9a
+      size: 2048
+      blob_id: 4324
+- release:
+    id: 98385
+    game_id: 484
+    description: ""
+    release_date: 19800000
+  names:
+  - id: 230999
+    kind: 3
+    kind_id: 98385
+    language: 1
+    name: Spectar (revision 1?)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 114138
+      kind: 3
+      kind_id: 98385
+      type: 1
+      name: spectar1.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/1151341930
+    entries:
+    - id: 752566
+      asset_id: 114138
+      name: hrl11d-2.11d
+      size: 2048
+      blob_id: 4318
+    - id: 752567
+      asset_id: 114138
+      name: hrl14h-1.14h
+      size: 32
+      blob_id: 216737
+    - id: 752568
+      asset_id: 114138
+      name: hrl6d-1.6d
+      size: 32
+      blob_id: 259297
+    - id: 752569
+      asset_id: 114138
+      name: spl10a-1.10a
+      size: 2048
+      blob_id: 301845
+    - id: 752570
+      asset_id: 114138
+      name: spl11a-1.11a
+      size: 2048
+      blob_id: 301846
+    - id: 752571
+      asset_id: 114138
+      name: spl12a-1.12a
+      size: 2048
+      blob_id: 301847
+    - id: 752572
+      asset_id: 114138
+      name: spl5c-2.5c
+      size: 256
+      blob_id: 301844
+    - id: 752573
+      asset_id: 114138
+      name: spl6a-1.6a
+      size: 2048
+      blob_id: 301848
+    - id: 752574
+      asset_id: 114138
+      name: spl7a-1.7a
+      size: 2048
+      blob_id: 301849
+    - id: 752575
+      asset_id: 114138
+      name: spl8a-1.8a
+      size: 2048
+      blob_id: 301850
+    - id: 752576
+      asset_id: 114138
+      name: spl9a-1.9a
+      size: 2048
+      blob_id: 301851
+  - asset:
+      id: 121068
+      kind: 3
+      kind_id: 98385
+      type: 1
+      name: spectar1.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.259
+    entries:
+    - id: 885538
+      asset_id: 121068
+      name: hrl11d-2.11d
+      size: 2048
+      blob_id: 4318
+    - id: 885539
+      asset_id: 121068
+      name: hrl14h-1.14h
+      size: 32
+      blob_id: 216737
+    - id: 885540
+      asset_id: 121068
+      name: prom.6d
+      size: 32
+      blob_id: 259297
+    - id: 885541
+      asset_id: 121068
+      name: spl10a-1.10a
+      size: 2048
+      blob_id: 301845
+    - id: 885542
+      asset_id: 121068
+      name: spl11a-1.11a
+      size: 2048
+      blob_id: 301846
+    - id: 885543
+      asset_id: 121068
+      name: spl12a-1.12a
+      size: 2048
+      blob_id: 301847
+    - id: 885544
+      asset_id: 121068
+      name: spl5c-2.5c
+      size: 256
+      blob_id: 301844
+    - id: 885545
+      asset_id: 121068
+      name: spl6a-1.6a
+      size: 2048
+      blob_id: 301848
+    - id: 885546
+      asset_id: 121068
+      name: spl7a-1.7a
+      size: 2048
+      blob_id: 301849
+    - id: 885547
+      asset_id: 121068
+      name: spl8a-1.8a
+      size: 2048
+      blob_id: 301850
+    - id: 885548
+      asset_id: 121068
+      name: spl9a-1.9a
+      size: 2048
+      blob_id: 301851
+- release:
+    id: 98386
+    game_id: 484
+    description: ""
+    release_date: 19840000
+  names:
+  - id: 231000
+    kind: 3
+    kind_id: 98386
+    language: 1
+    name: Spectar (revision 2, bootleg)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 114139
+      kind: 3
+      kind_id: 98386
+      type: 1
+      name: spectarrf.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/412006518
+    entries:
+    - id: 752577
+      asset_id: 114139
+      name: hrl11d-2
+      size: 2048
+      blob_id: 4318
+    - id: 752578
+      asset_id: 114139
+      name: hrl14h-1
+      size: 32
+      blob_id: 216737
+    - id: 752579
+      asset_id: 114139
+      name: prom.5c
+      size: 256
+      blob_id: 301844
+    - id: 752580
+      asset_id: 114139
+      name: prom.6d
+      size: 32
+      blob_id: 259297
+    - id: 752581
+      asset_id: 114139
+      name: sp26a-2
+      size: 2048
+      blob_id: 301852
+    - id: 752582
+      asset_id: 114139
+      name: spl10a-2
+      size: 2048
+      blob_id: 4319
+    - id: 752583
+      asset_id: 114139
+      name: spl11a-2
+      size: 2048
+      blob_id: 301853
+    - id: 752584
+      asset_id: 114139
+      name: spl7a-2
+      size: 2048
+      blob_id: 4322
+    - id: 752585
+      asset_id: 114139
+      name: spl8a-2
+      size: 2048
+      blob_id: 4323
+    - id: 752586
+      asset_id: 114139
+      name: spl9a-3
+      size: 2048
+      blob_id: 4324
+- release:
+    id: 104621
+    game_id: 484
+    description: ""
+    release_date: 19800000
+  names:
+  - id: 239597
+    kind: 3
+    kind_id: 104621
+    language: 1
+    name: Panzer (bootleg of Spectar)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 106314
+      kind: 3
+      kind_id: 104621
+      type: 1
+      name: panzer.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 683199
+      asset_id: 106314
+      name: p1.1a
+      size: 1024
+      blob_id: 262962
+    - id: 683200
+      asset_id: 106314
+      name: p10.15b
+      size: 1024
+      blob_id: 262963
+    - id: 683201
+      asset_id: 106314
+      name: p2.2a
+      size: 1024
+      blob_id: 262964
+    - id: 683202
+      asset_id: 106314
+      name: p3.3a
+      size: 1024
+      blob_id: 262965
+    - id: 683203
+      asset_id: 106314
+      name: p4.4a
+      size: 1024
+      blob_id: 262966
+    - id: 683204
+      asset_id: 106314
+      name: p5.5a
+      size: 1024
+      blob_id: 262967
+    - id: 683205
+      asset_id: 106314
+      name: p6.6a
+      size: 1024
+      blob_id: 262968
+    - id: 683206
+      asset_id: 106314
+      name: p7.7a
+      size: 1024
+      blob_id: 262969
+    - id: 683207
+      asset_id: 106314
+      name: p8.8a
+      size: 1024
+      blob_id: 262970
+    - id: 683208
+      asset_id: 106314
+      name: p9.13b
+      size: 1024
+      blob_id: 262971
+    - id: 683209
+      asset_id: 106314
+      name: sc.4d
+      size: 1024
+      blob_id: 4581
+    - id: 683210
+      asset_id: 106314
+      name: targ82s.123
+      size: 32
+      blob_id: 262972
+- release:
+    id: 104640
+    game_id: 484
+    description: ""
+    release_date: 19800000
+  names:
+  - id: 239616
+    kind: 3
+    kind_id: 104640
+    language: 1
+    name: Phantom (bootleg of Spectar)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 107446
+      kind: 3
+      kind_id: 104640
+      type: 1
+      name: phantom.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 694767
+      asset_id: 107446
+      name: 156_a2
+      size: 2048
+      blob_id: 265934
+    - id: 694768
+      asset_id: 107446
+      name: 156_a3
+      size: 2048
+      blob_id: 265935
+    - id: 694769
+      asset_id: 107446
+      name: 156_a4
+      size: 2048
+      blob_id: 265936
+    - id: 694770
+      asset_id: 107446
+      name: 156_a5
+      size: 2048
+      blob_id: 265937
+    - id: 694771
+      asset_id: 107446
+      name: 156_d1
+      size: 2048
+      blob_id: 265938
+    - id: 694772
+      asset_id: 107446
+      name: 156_pal
+      size: 32
+      blob_id: 265939
+    - id: 694773
+      asset_id: 107446
+      name: 1a.bin
+      size: 2048
+      blob_id: 265940
+- release:
+    id: 104641
+    game_id: 484
+    description: ""
+    release_date: 19800000
+  names:
+  - id: 239617
+    kind: 3
+    kind_id: 104641
+    language: 1
+    name: Phantomas (bootleg of Spectar)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 107448
+      kind: 3
+      kind_id: 104641
+      type: 1
+      name: phantoma.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 694779
+      asset_id: 107448
+      name: 156_a1
+      size: 2048
+      blob_id: 265941
+    - id: 694780
+      asset_id: 107448
+      name: 156_a2
+      size: 2048
+      blob_id: 265934
+    - id: 694781
+      asset_id: 107448
+      name: 156_a3
+      size: 2048
+      blob_id: 265935
+    - id: 694782
+      asset_id: 107448
+      name: 156_a4
+      size: 2048
+      blob_id: 265936
+    - id: 694783
+      asset_id: 107448
+      name: 156_a5
+      size: 2048
+      blob_id: 265937
+    - id: 694784
+      asset_id: 107448
+      name: 156_d1
+      size: 2048
+      blob_id: 265938
+    - id: 694785
+      asset_id: 107448
+      name: 156_pal
+      size: 32
+      blob_id: 265939
+- release:
+    id: 104715
+    game_id: 484
+    description: ""
+    release_date: 19800000
+  names:
+  - id: 239691
+    kind: 3
+    kind_id: 104715
+    language: 1
+    name: Rallys (bootleg of Spectar, set 1)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 108864
+      kind: 3
+      kind_id: 104715
+      type: 1
+      name: rallys.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 710327
+      asset_id: 108864
+      name: hrl11d-1
+      size: 1024
+      blob_id: 4581
+    - id: 710328
+      asset_id: 108864
+      name: rallys.01
+      size: 1024
+      blob_id: 262962
+    - id: 710329
+      asset_id: 108864
+      name: rallys.02
+      size: 1024
+      blob_id: 262964
+    - id: 710330
+      asset_id: 108864
+      name: rallys.03
+      size: 1024
+      blob_id: 262965
+    - id: 710331
+      asset_id: 108864
+      name: rallys.04
+      size: 1024
+      blob_id: 262966
+    - id: 710332
+      asset_id: 108864
+      name: rallys.05
+      size: 1024
+      blob_id: 262967
+    - id: 710333
+      asset_id: 108864
+      name: rallys.06
+      size: 1024
+      blob_id: 262968
+    - id: 710334
+      asset_id: 108864
+      name: rallys.07
+      size: 1024
+      blob_id: 262969
+    - id: 710335
+      asset_id: 108864
+      name: rallys.08
+      size: 1024
+      blob_id: 262970
+    - id: 710336
+      asset_id: 108864
+      name: rallys.09
+      size: 1024
+      blob_id: 269127
+    - id: 710337
+      asset_id: 108864
+      name: rallys.10
+      size: 1024
+      blob_id: 262963
+    - id: 710338
+      asset_id: 108864
+      name: targ82s.123
+      size: 32
+      blob_id: 262972
+- release:
+    id: 104716
+    game_id: 484
+    description: ""
+    release_date: 19800000
+  names:
+  - id: 239692
+    kind: 3
+    kind_id: 104716
+    language: 1
+    name: Rallys (bootleg of Spectar, set 2)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 108865
+      kind: 3
+      kind_id: 104716
+      type: 1
+      name: rallysa.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 710339
+      asset_id: 108865
+      name: 6331.f6
+      size: 32
+      blob_id: 265939
+    - id: 710340
+      asset_id: 108865
+      name: hrl11d-1
+      size: 1024
+      blob_id: 4581
+    - id: 710341
+      asset_id: 108865
+      name: rallys.01
+      size: 1024
+      blob_id: 262962
+    - id: 710342
+      asset_id: 108865
+      name: rallys.02
+      size: 1024
+      blob_id: 262964
+    - id: 710343
+      asset_id: 108865
+      name: rallys.03
+      size: 1024
+      blob_id: 262965
+    - id: 710344
+      asset_id: 108865
+      name: rallys.04
+      size: 1024
+      blob_id: 262966
+    - id: 710345
+      asset_id: 108865
+      name: rallys.05
+      size: 1024
+      blob_id: 262967
+    - id: 710346
+      asset_id: 108865
+      name: rallys.06
+      size: 1024
+      blob_id: 262968
+    - id: 710347
+      asset_id: 108865
+      name: rallys.07
+      size: 1024
+      blob_id: 262969
+    - id: 710348
+      asset_id: 108865
+      name: rallys.08
+      size: 1024
+      blob_id: 262970
+    - id: 710349
+      asset_id: 108865
+      name: rallys.10
+      size: 1024
+      blob_id: 262963
+    - id: 710350
+      asset_id: 108865
+      name: unk.c13
+      size: 1024
+      blob_id: 269128

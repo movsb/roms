@@ -16,6 +16,12 @@ names:
   language: 2
   name: 大和号 (美版)
   source: trimui
+- id: 201627
+  kind: 2
+  kind_id: 4680
+  language: 1
+  name: Yamato (set 2)
+  source: mame
 game_developers:
 - game_id: 4680
   developer_id: 110
@@ -174,6 +180,95 @@ releases:
       blob_id: 85767
       debug: arcade/wheel/yamato.png
     entries: []
+  - asset:
+      id: 118223
+      kind: 3
+      kind_id: 4680
+      type: 1
+      name: yamato.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/750501464
+    entries:
+    - id: 801950
+      asset_id: 118223
+      name: 1.5v
+      size: 2048
+      blob_id: 50784
+    - id: 801951
+      asset_id: 118223
+      name: 1.bpr
+      size: 32
+      blob_id: 50785
+    - id: 801952
+      asset_id: 118223
+      name: 10.11k
+      size: 8192
+      blob_id: 50786
+    - id: 801953
+      asset_id: 118223
+      name: 2.5de
+      size: 8192
+      blob_id: 314404
+    - id: 801954
+      asset_id: 118223
+      name: 2.bpr
+      size: 32
+      blob_id: 50789
+    - id: 801955
+      asset_id: 118223
+      name: 3.5f
+      size: 8192
+      blob_id: 314405
+    - id: 801956
+      asset_id: 118223
+      name: 3.bpr
+      size: 32
+      blob_id: 50791
+    - id: 801957
+      asset_id: 118223
+      name: 4.5jh
+      size: 8192
+      blob_id: 314406
+    - id: 801958
+      asset_id: 118223
+      name: 4.bpr
+      size: 32
+      blob_id: 50793
+    - id: 801959
+      asset_id: 118223
+      name: 5.5lm
+      size: 4096
+      blob_id: 50794
+    - id: 801960
+      asset_id: 118223
+      name: 5.bpr
+      size: 32
+      blob_id: 50795
+    - id: 801961
+      asset_id: 118223
+      name: 6.5n
+      size: 4096
+      blob_id: 50796
+    - id: 801962
+      asset_id: 118223
+      name: 7.11a
+      size: 4096
+      blob_id: 50797
+    - id: 801963
+      asset_id: 118223
+      name: 8.11c
+      size: 4096
+      blob_id: 50798
+    - id: 801964
+      asset_id: 118223
+      name: 9.11h
+      size: 8192
+      blob_id: 50799
 - release:
     id: 76019
     game_id: 4680
@@ -186,92 +281,421 @@ releases:
     language: 1
     name: Yamato (set 1)
     source: mame
-  release_publishers: []
+  - id: 184136
+    kind: 3
+    kind_id: 76019
+    language: 1
+    name: yamato
+    source: ""
+  - id: 184137
+    kind: 3
+    kind_id: 76019
+    language: 2
+    name: 大和号 (美版)
+    source: trimui
+  release_publishers:
+  - release_id: 76019
+    publisher_id: 56
   assets:
   - asset:
-      id: 89089
+      id: 90696
       kind: 3
       kind_id: 76019
       type: 1
       name: yamato.zip
       description: ""
       format: 2
+      size: 31821
+      blob_id: 0
+      debug: yamato.zip
+    entries:
+    - id: 468135
+      asset_id: 90696
+      name: 1.5v
+      size: 2048
+      blob_id: 50784
+    - id: 468136
+      asset_id: 90696
+      name: 1.bpr
+      size: 32
+      blob_id: 50785
+    - id: 468137
+      asset_id: 90696
+      name: 10.11k
+      size: 8192
+      blob_id: 50786
+    - id: 468138
+      asset_id: 90696
+      name: 11.5a
+      size: 4096
+      blob_id: 50787
+    - id: 468139
+      asset_id: 90696
+      name: 2.5de
+      size: 8192
+      blob_id: 50788
+    - id: 468140
+      asset_id: 90696
+      name: 2.bpr
+      size: 32
+      blob_id: 50789
+    - id: 468141
+      asset_id: 90696
+      name: 3.5f
+      size: 8192
+      blob_id: 50790
+    - id: 468142
+      asset_id: 90696
+      name: 3.bpr
+      size: 32
+      blob_id: 50791
+    - id: 468143
+      asset_id: 90696
+      name: 4.5jh
+      size: 8192
+      blob_id: 50792
+    - id: 468144
+      asset_id: 90696
+      name: 4.bpr
+      size: 32
+      blob_id: 50793
+    - id: 468145
+      asset_id: 90696
+      name: 5.5lm
+      size: 4096
+      blob_id: 50794
+    - id: 468146
+      asset_id: 90696
+      name: 5.bpr
+      size: 32
+      blob_id: 50795
+    - id: 468147
+      asset_id: 90696
+      name: 6.5n
+      size: 4096
+      blob_id: 50796
+    - id: 468148
+      asset_id: 90696
+      name: 7.11a
+      size: 4096
+      blob_id: 50797
+    - id: 468149
+      asset_id: 90696
+      name: 8.11c
+      size: 4096
+      blob_id: 50798
+    - id: 468150
+      asset_id: 90696
+      name: 9.11h
+      size: 8192
+      blob_id: 50799
+- release:
+    id: 102195
+    game_id: 4680
+    description: ""
+    release_date: 19830000
+  names:
+  - id: 236424
+    kind: 3
+    kind_id: 102195
+    language: 1
+    name: Yamato (set 2)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 118224
+      kind: 3
+      kind_id: 102195
+      type: 1
+      name: yamatoa.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/1909629109
+    entries:
+    - id: 801965
+      asset_id: 118224
+      name: 1.5v
+      size: 2048
+      blob_id: 50784
+    - id: 801966
+      asset_id: 118224
+      name: 1.bpr
+      size: 32
+      blob_id: 50785
+    - id: 801967
+      asset_id: 118224
+      name: 10.11k
+      size: 8192
+      blob_id: 50786
+    - id: 801968
+      asset_id: 118224
+      name: 2-2.5de
+      size: 8192
+      blob_id: 314407
+    - id: 801969
+      asset_id: 118224
+      name: 2.bpr
+      size: 32
+      blob_id: 50789
+    - id: 801970
+      asset_id: 118224
+      name: 3-2.5f
+      size: 8192
+      blob_id: 314408
+    - id: 801971
+      asset_id: 118224
+      name: 3.bpr
+      size: 32
+      blob_id: 50791
+    - id: 801972
+      asset_id: 118224
+      name: 4-2.5jh
+      size: 8192
+      blob_id: 314409
+    - id: 801973
+      asset_id: 118224
+      name: 4.bpr
+      size: 32
+      blob_id: 50793
+    - id: 801974
+      asset_id: 118224
+      name: 5.5lm
+      size: 4096
+      blob_id: 50794
+    - id: 801975
+      asset_id: 118224
+      name: 5.bpr
+      size: 32
+      blob_id: 50795
+    - id: 801976
+      asset_id: 118224
+      name: 6.5n
+      size: 4096
+      blob_id: 50796
+    - id: 801977
+      asset_id: 118224
+      name: 7.11a
+      size: 4096
+      blob_id: 50797
+    - id: 801978
+      asset_id: 118224
+      name: 8.11c
+      size: 4096
+      blob_id: 50798
+    - id: 801979
+      asset_id: 118224
+      name: 9.11h
+      size: 8192
+      blob_id: 50799
+- release:
+    id: 102196
+    game_id: 4680
+    description: ""
+    release_date: 19830000
+  names:
+  - id: 236425
+    kind: 3
+    kind_id: 102196
+    language: 1
+    name: Yamato (US)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 118225
+      kind: 3
+      kind_id: 102196
+      type: 1
+      name: yamatou.zip
+      description: ""
+      format: 2
       size: 0
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 425521
-      asset_id: 89089
+    - id: 801980
+      asset_id: 118225
       name: 1.5v
       size: 2048
       blob_id: 50784
-    - id: 425522
-      asset_id: 89089
+    - id: 801981
+      asset_id: 118225
       name: 1.bpr
       size: 32
       blob_id: 50785
-    - id: 425523
-      asset_id: 89089
+    - id: 801982
+      asset_id: 118225
       name: 10.11k
       size: 8192
       blob_id: 50786
-    - id: 425524
-      asset_id: 89089
+    - id: 801983
+      asset_id: 118225
+      name: 11.5a
+      size: 4096
+      blob_id: 50787
+    - id: 801984
+      asset_id: 118225
       name: 2.5de
       size: 8192
-      blob_id: 198511
-    - id: 425525
-      asset_id: 89089
+      blob_id: 50788
+    - id: 801985
+      asset_id: 118225
       name: 2.bpr
       size: 32
       blob_id: 50789
-    - id: 425526
-      asset_id: 89089
+    - id: 801986
+      asset_id: 118225
       name: 3.5f
       size: 8192
-      blob_id: 198512
-    - id: 425527
-      asset_id: 89089
+      blob_id: 50790
+    - id: 801987
+      asset_id: 118225
       name: 3.bpr
       size: 32
       blob_id: 50791
-    - id: 425528
-      asset_id: 89089
+    - id: 801988
+      asset_id: 118225
       name: 4.5jh
       size: 8192
-      blob_id: 198513
-    - id: 425529
-      asset_id: 89089
+      blob_id: 50792
+    - id: 801989
+      asset_id: 118225
       name: 4.bpr
       size: 32
       blob_id: 50793
-    - id: 425530
-      asset_id: 89089
+    - id: 801990
+      asset_id: 118225
       name: 5.5lm
       size: 4096
       blob_id: 50794
-    - id: 425531
-      asset_id: 89089
+    - id: 801991
+      asset_id: 118225
       name: 5.bpr
       size: 32
       blob_id: 50795
-    - id: 425532
-      asset_id: 89089
+    - id: 801992
+      asset_id: 118225
       name: 6.5n
       size: 4096
       blob_id: 50796
-    - id: 425533
-      asset_id: 89089
+    - id: 801993
+      asset_id: 118225
       name: 7.11a
       size: 4096
       blob_id: 50797
-    - id: 425534
-      asset_id: 89089
+    - id: 801994
+      asset_id: 118225
       name: 8.11c
       size: 4096
       blob_id: 50798
-    - id: 425535
-      asset_id: 89089
+    - id: 801995
+      asset_id: 118225
+      name: 9.11h
+      size: 8192
+      blob_id: 50799
+- release:
+    id: 102806
+    game_id: 4680
+    description: ""
+    release_date: 19830000
+  names:
+  - id: 237401
+    kind: 3
+    kind_id: 102806
+    language: 1
+    name: Yamato (World?)
+    source: fbneo
+  release_publishers: []
+  assets:
+  - asset:
+      id: 119861
+      kind: 3
+      kind_id: 102806
+      type: 1
+      name: yamato2.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 844448
+      asset_id: 119861
+      name: 1.5v
+      size: 2048
+      blob_id: 50784
+    - id: 844449
+      asset_id: 119861
+      name: 1.bpr
+      size: 32
+      blob_id: 50785
+    - id: 844450
+      asset_id: 119861
+      name: 10.11k
+      size: 8192
+      blob_id: 50786
+    - id: 844451
+      asset_id: 119861
+      name: 2-2.5de
+      size: 8192
+      blob_id: 297381
+    - id: 844452
+      asset_id: 119861
+      name: 2.bpr
+      size: 32
+      blob_id: 50789
+    - id: 844453
+      asset_id: 119861
+      name: 3-2.5f
+      size: 8192
+      blob_id: 297382
+    - id: 844454
+      asset_id: 119861
+      name: 3.bpr
+      size: 32
+      blob_id: 50791
+    - id: 844455
+      asset_id: 119861
+      name: 4-2.5jh
+      size: 8192
+      blob_id: 297383
+    - id: 844456
+      asset_id: 119861
+      name: 4.bpr
+      size: 32
+      blob_id: 50793
+    - id: 844457
+      asset_id: 119861
+      name: 5.5lm
+      size: 4096
+      blob_id: 50794
+    - id: 844458
+      asset_id: 119861
+      name: 5.bpr
+      size: 32
+      blob_id: 50795
+    - id: 844459
+      asset_id: 119861
+      name: 6.5n
+      size: 4096
+      blob_id: 50796
+    - id: 844460
+      asset_id: 119861
+      name: 7.11a
+      size: 4096
+      blob_id: 50797
+    - id: 844461
+      asset_id: 119861
+      name: 8.11c
+      size: 4096
+      blob_id: 50798
+    - id: 844462
+      asset_id: 119861
       name: 9.11h
       size: 8192
       blob_id: 50799

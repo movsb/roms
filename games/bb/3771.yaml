@@ -10,6 +10,60 @@ names:
   language: 1
   name: simpsons
   source: ""
+- id: 187231
+  kind: 2
+  kind_id: 3771
+  language: 1
+  name: simpsons2pj
+  source: ""
+- id: 187232
+  kind: 2
+  kind_id: 3771
+  language: 2
+  name: 辛普森一家 (2P 版 日版)
+  source: trimui
+- id: 199088
+  kind: 2
+  kind_id: 3771
+  language: 1
+  name: The Simpsons (2 Players World, set 1)
+  source: mame
+- id: 199089
+  kind: 2
+  kind_id: 3771
+  language: 1
+  name: The Simpsons (2 Players World, set 2)
+  source: mame
+- id: 199090
+  kind: 2
+  kind_id: 3771
+  language: 1
+  name: The Simpsons (2 Players World, set 3)
+  source: mame
+- id: 199091
+  kind: 2
+  kind_id: 3771
+  language: 1
+  name: The Simpsons (2 Players Asia)
+  source: mame
+- id: 199092
+  kind: 2
+  kind_id: 3771
+  language: 1
+  name: The Simpsons (4 Players Asia)
+  source: mame
+- id: 199093
+  kind: 2
+  kind_id: 3771
+  language: 1
+  name: The Simpsons (4 Players World, set 2)
+  source: mame
+- id: 199094
+  kind: 2
+  kind_id: 3771
+  language: 1
+  name: The Simpsons (4 Players World, set 3)
+  source: mame
 game_developers:
 - game_id: 3771
   developer_id: 2
@@ -158,6 +212,88 @@ releases:
       blob_id: 88069
       debug: arcade/wheel/simpsons.png
     entries: []
+  - asset:
+      id: 113599
+      kind: 3
+      kind_id: 3771
+      type: 1
+      name: simpsons.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 746297
+      asset_id: 113599
+      name: 072-b06.16h
+      size: 524288
+      blob_id: 40467
+    - id: 746298
+      asset_id: 113599
+      name: 072-b07.18h
+      size: 524288
+      blob_id: 40468
+    - id: 746299
+      asset_id: 113599
+      name: 072-b08.3n
+      size: 1048576
+      blob_id: 40469
+    - id: 746300
+      asset_id: 113599
+      name: 072-b09.8n
+      size: 1048576
+      blob_id: 40470
+    - id: 746301
+      asset_id: 113599
+      name: 072-b10.12n
+      size: 1048576
+      blob_id: 40471
+    - id: 746302
+      asset_id: 113599
+      name: 072-b11.16l
+      size: 1048576
+      blob_id: 40472
+    - id: 746303
+      asset_id: 113599
+      name: 072-d04.1d
+      size: 262144
+      blob_id: 40473
+    - id: 746304
+      asset_id: 113599
+      name: 072-d05.1f
+      size: 1048576
+      blob_id: 40474
+    - id: 746305
+      asset_id: 113599
+      name: 072-e03.6g
+      size: 131072
+      blob_id: 40475
+    - id: 746306
+      asset_id: 113599
+      name: 072-g01.17c
+      size: 131072
+      blob_id: 40476
+    - id: 746307
+      asset_id: 113599
+      name: 072-g02.16c
+      size: 131072
+      blob_id: 40477
+    - id: 746308
+      asset_id: 113599
+      name: 072-j12.15c
+      size: 131072
+      blob_id: 40478
+    - id: 746309
+      asset_id: 113599
+      name: 072-j13.13c
+      size: 131072
+      blob_id: 40479
+    - id: 746310
+      asset_id: 113599
+      name: simpsons.12c.nv
+      size: 128
+      blob_id: 40480
 - release:
     id: 3773
     game_id: 3771
@@ -361,98 +497,778 @@ releases:
       size: 131072
       blob_id: 40500
 - release:
-    id: 70403
+    id: 77645
+    game_id: 3771
+    description: ""
+    release_date: 19910304
+  names:
+  - id: 185369
+    kind: 3
+    kind_id: 77645
+    language: 1
+    name: simpsons2pj
+    source: ""
+  - id: 185370
+    kind: 3
+    kind_id: 77645
+    language: 2
+    name: 辛普森一家 (2P 版 日版)
+    source: trimui
+  release_publishers:
+  - release_id: 77645
+    publisher_id: 2
+  assets:
+  - asset:
+      id: 3756
+      kind: 3
+      kind_id: 77645
+      type: 1
+      name: simpsons2pj.zip
+      description: ""
+      format: 2
+      size: 2488906
+      blob_id: 0
+      debug: simpsons2pj.zip
+    entries:
+    - id: 64283
+      asset_id: 3756
+      name: 072-b10.12n
+      size: 1048576
+      blob_id: 40471
+    - id: 64284
+      asset_id: 3756
+      name: 072-213.13c
+      size: 131072
+      blob_id: 40481
+    - id: 64285
+      asset_id: 3756
+      name: 072-212.15c
+      size: 131072
+      blob_id: 40482
+    - id: 64286
+      asset_id: 3756
+      name: 072-s02.16c
+      size: 131072
+      blob_id: 40483
+    - id: 64287
+      asset_id: 3756
+      name: 072-b06.16h
+      size: 524288
+      blob_id: 40467
+    - id: 64288
+      asset_id: 3756
+      name: 072-b11.16l
+      size: 1048576
+      blob_id: 40472
+    - id: 64289
+      asset_id: 3756
+      name: 072-t01.17c
+      size: 131072
+      blob_id: 40484
+    - id: 64290
+      asset_id: 3756
+      name: 072-b07.18h
+      size: 524288
+      blob_id: 40468
+    - id: 64291
+      asset_id: 3756
+      name: 072-d04.1d
+      size: 262144
+      blob_id: 40473
+    - id: 64292
+      asset_id: 3756
+      name: 072-d05.1f
+      size: 1048576
+      blob_id: 40474
+    - id: 64293
+      asset_id: 3756
+      name: 072-b08.3n
+      size: 1048576
+      blob_id: 40469
+    - id: 64294
+      asset_id: 3756
+      name: 072-g03.6g
+      size: 131072
+      blob_id: 40485
+    - id: 64295
+      asset_id: 3756
+      name: 072-b09.8n
+      size: 1048576
+      blob_id: 40470
+    - id: 64296
+      asset_id: 3756
+      name: simpsons2pj.12c.nv
+      size: 128
+      blob_id: 40486
+- release:
+    id: 97901
     game_id: 3771
     description: ""
     release_date: 19910000
   names:
-  - id: 170913
+  - id: 230322
     kind: 3
-    kind_id: 70403
+    kind_id: 97901
     language: 1
-    name: The Simpsons (4 Players World, set 1)
+    name: The Simpsons (2 Players World, set 1)
     source: mame
   release_publishers: []
   assets:
   - asset:
-      id: 83473
+      id: 113600
       kind: 3
-      kind_id: 70403
+      kind_id: 97901
       type: 1
-      name: simpsons.zip
+      name: simpsons2p.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 365881
-      asset_id: 83473
+    - id: 746311
+      asset_id: 113600
+      name: 072-012.15c
+      size: 131072
+      blob_id: 40487
+    - id: 746312
+      asset_id: 113600
+      name: 072-013.13c
+      size: 131072
+      blob_id: 40488
+    - id: 746313
+      asset_id: 113600
       name: 072-b06.16h
       size: 524288
       blob_id: 40467
-    - id: 365882
-      asset_id: 83473
+    - id: 746314
+      asset_id: 113600
       name: 072-b07.18h
       size: 524288
       blob_id: 40468
-    - id: 365883
-      asset_id: 83473
+    - id: 746315
+      asset_id: 113600
       name: 072-b08.3n
       size: 1048576
       blob_id: 40469
-    - id: 365884
-      asset_id: 83473
+    - id: 746316
+      asset_id: 113600
       name: 072-b09.8n
       size: 1048576
       blob_id: 40470
-    - id: 365885
-      asset_id: 83473
+    - id: 746317
+      asset_id: 113600
       name: 072-b10.12n
       size: 1048576
       blob_id: 40471
-    - id: 365886
-      asset_id: 83473
+    - id: 746318
+      asset_id: 113600
       name: 072-b11.16l
       size: 1048576
       blob_id: 40472
-    - id: 365887
-      asset_id: 83473
+    - id: 746319
+      asset_id: 113600
       name: 072-d04.1d
       size: 262144
       blob_id: 40473
-    - id: 365888
-      asset_id: 83473
+    - id: 746320
+      asset_id: 113600
       name: 072-d05.1f
       size: 1048576
       blob_id: 40474
-    - id: 365889
-      asset_id: 83473
-      name: 072-e03.6g
-      size: 131072
-      blob_id: 40475
-    - id: 365890
-      asset_id: 83473
-      name: 072-g01.17c
-      size: 131072
-      blob_id: 40476
-    - id: 365891
-      asset_id: 83473
+    - id: 746321
+      asset_id: 113600
       name: 072-g02.16c
       size: 131072
       blob_id: 40477
-    - id: 365892
-      asset_id: 83473
-      name: 072-j12.15c
+    - id: 746322
+      asset_id: 113600
+      name: 072-g03.6g
       size: 131072
-      blob_id: 40478
-    - id: 365893
-      asset_id: 83473
-      name: 072-j13.13c
+      blob_id: 40485
+    - id: 746323
+      asset_id: 113600
+      name: 072-p01.17c
       size: 131072
-      blob_id: 40479
-    - id: 365894
-      asset_id: 83473
-      name: simpsons.12c.nv
+      blob_id: 40489
+    - id: 746324
+      asset_id: 113600
+      name: simpsons2p.12c.nv
+      size: 128
+      blob_id: 40490
+- release:
+    id: 97902
+    game_id: 3771
+    description: ""
+    release_date: 19910000
+  names:
+  - id: 230323
+    kind: 3
+    kind_id: 97902
+    language: 1
+    name: The Simpsons (2 Players World, set 2)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 113601
+      kind: 3
+      kind_id: 97902
+      type: 1
+      name: simpsons2p2.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 746325
+      asset_id: 113601
+      name: 072-_12.15c
+      size: 131072
+      blob_id: 40491
+    - id: 746326
+      asset_id: 113601
+      name: 072-_13.13c
+      size: 131072
+      blob_id: 40492
+    - id: 746327
+      asset_id: 113601
+      name: 072-b06.16h
+      size: 524288
+      blob_id: 40467
+    - id: 746328
+      asset_id: 113601
+      name: 072-b07.18h
+      size: 524288
+      blob_id: 40468
+    - id: 746329
+      asset_id: 113601
+      name: 072-b08.3n
+      size: 1048576
+      blob_id: 40469
+    - id: 746330
+      asset_id: 113601
+      name: 072-b09.8n
+      size: 1048576
+      blob_id: 40470
+    - id: 746331
+      asset_id: 113601
+      name: 072-b10.12n
+      size: 1048576
+      blob_id: 40471
+    - id: 746332
+      asset_id: 113601
+      name: 072-b11.16l
+      size: 1048576
+      blob_id: 40472
+    - id: 746333
+      asset_id: 113601
+      name: 072-d04.1d
+      size: 262144
+      blob_id: 40473
+    - id: 746334
+      asset_id: 113601
+      name: 072-d05.1f
+      size: 1048576
+      blob_id: 40474
+    - id: 746335
+      asset_id: 113601
+      name: 072-g02.16c
+      size: 131072
+      blob_id: 40477
+    - id: 746336
+      asset_id: 113601
+      name: 072-g03.6g
+      size: 131072
+      blob_id: 40485
+    - id: 746337
+      asset_id: 113601
+      name: 072-p01.17c
+      size: 131072
+      blob_id: 40489
+    - id: 746338
+      asset_id: 113601
+      name: simpsons2p2.12c.nv
+      size: 128
+      blob_id: 40490
+- release:
+    id: 97903
+    game_id: 3771
+    description: ""
+    release_date: 19910000
+  names:
+  - id: 230324
+    kind: 3
+    kind_id: 97903
+    language: 1
+    name: The Simpsons (2 Players World, set 3)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 113602
+      kind: 3
+      kind_id: 97903
+      type: 1
+      name: simpsons2p3.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 746339
+      asset_id: 113602
+      name: 072-b06.16h
+      size: 524288
+      blob_id: 40467
+    - id: 746340
+      asset_id: 113602
+      name: 072-b07.18h
+      size: 524288
+      blob_id: 40468
+    - id: 746341
+      asset_id: 113602
+      name: 072-b08.3n
+      size: 1048576
+      blob_id: 40469
+    - id: 746342
+      asset_id: 113602
+      name: 072-b09.8n
+      size: 1048576
+      blob_id: 40470
+    - id: 746343
+      asset_id: 113602
+      name: 072-b10.12n
+      size: 1048576
+      blob_id: 40471
+    - id: 746344
+      asset_id: 113602
+      name: 072-b11.16l
+      size: 1048576
+      blob_id: 40472
+    - id: 746345
+      asset_id: 113602
+      name: 072-d04.1d
+      size: 262144
+      blob_id: 40473
+    - id: 746346
+      asset_id: 113602
+      name: 072-d05.1f
+      size: 1048576
+      blob_id: 40474
+    - id: 746347
+      asset_id: 113602
+      name: 072-g02.16c
+      size: 131072
+      blob_id: 40477
+    - id: 746348
+      asset_id: 113602
+      name: 072-g03.6g
+      size: 131072
+      blob_id: 40485
+    - id: 746349
+      asset_id: 113602
+      name: 072-p01.17c
+      size: 131072
+      blob_id: 40489
+    - id: 746350
+      asset_id: 113602
+      name: 3.15c
+      size: 131072
+      blob_id: 40493
+    - id: 746351
+      asset_id: 113602
+      name: 4.13c
+      size: 131072
+      blob_id: 40494
+    - id: 746352
+      asset_id: 113602
+      name: simpsons2p.12c.nv
+      size: 128
+      blob_id: 40490
+- release:
+    id: 97904
+    game_id: 3771
+    description: ""
+    release_date: 19910000
+  names:
+  - id: 230325
+    kind: 3
+    kind_id: 97904
+    language: 1
+    name: The Simpsons (2 Players Asia)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 113603
+      kind: 3
+      kind_id: 97904
+      type: 1
+      name: simpsons2pa.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 746353
+      asset_id: 113603
+      name: 072-112.15c
+      size: 131072
+      blob_id: 40495
+    - id: 746354
+      asset_id: 113603
+      name: 072-113.13c
+      size: 131072
+      blob_id: 40488
+    - id: 746355
+      asset_id: 113603
+      name: 072-b06.16h
+      size: 524288
+      blob_id: 40467
+    - id: 746356
+      asset_id: 113603
+      name: 072-b07.18h
+      size: 524288
+      blob_id: 40468
+    - id: 746357
+      asset_id: 113603
+      name: 072-b08.3n
+      size: 1048576
+      blob_id: 40469
+    - id: 746358
+      asset_id: 113603
+      name: 072-b09.8n
+      size: 1048576
+      blob_id: 40470
+    - id: 746359
+      asset_id: 113603
+      name: 072-b10.12n
+      size: 1048576
+      blob_id: 40471
+    - id: 746360
+      asset_id: 113603
+      name: 072-b11.16l
+      size: 1048576
+      blob_id: 40472
+    - id: 746361
+      asset_id: 113603
+      name: 072-d04.1d
+      size: 262144
+      blob_id: 40473
+    - id: 746362
+      asset_id: 113603
+      name: 072-d05.1f
+      size: 1048576
+      blob_id: 40474
+    - id: 746363
+      asset_id: 113603
+      name: 072-e03.6g
+      size: 131072
+      blob_id: 40475
+    - id: 746364
+      asset_id: 113603
+      name: 072-g02.16c
+      size: 131072
+      blob_id: 40477
+    - id: 746365
+      asset_id: 113603
+      name: 072-p01.17c
+      size: 131072
+      blob_id: 40489
+    - id: 746366
+      asset_id: 113603
+      name: simpsons2pa.12c.nv
+      size: 128
+      blob_id: 40490
+- release:
+    id: 97905
+    game_id: 3771
+    description: ""
+    release_date: 19910000
+  names:
+  - id: 230326
+    kind: 3
+    kind_id: 97905
+    language: 1
+    name: The Simpsons (4 Players Asia)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 113604
+      kind: 3
+      kind_id: 97905
+      type: 1
+      name: simpsons4pa.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 746367
+      asset_id: 113604
+      name: 072-b06.16h
+      size: 524288
+      blob_id: 40467
+    - id: 746368
+      asset_id: 113604
+      name: 072-b07.18h
+      size: 524288
+      blob_id: 40468
+    - id: 746369
+      asset_id: 113604
+      name: 072-b08.3n
+      size: 1048576
+      blob_id: 40469
+    - id: 746370
+      asset_id: 113604
+      name: 072-b09.8n
+      size: 1048576
+      blob_id: 40470
+    - id: 746371
+      asset_id: 113604
+      name: 072-b10.12n
+      size: 1048576
+      blob_id: 40471
+    - id: 746372
+      asset_id: 113604
+      name: 072-b11.16l
+      size: 1048576
+      blob_id: 40472
+    - id: 746373
+      asset_id: 113604
+      name: 072-d04.1d
+      size: 262144
+      blob_id: 40473
+    - id: 746374
+      asset_id: 113604
+      name: 072-d05.1f
+      size: 1048576
+      blob_id: 40474
+    - id: 746375
+      asset_id: 113604
+      name: 072-g03.6g
+      size: 131072
+      blob_id: 40485
+    - id: 746376
+      asset_id: 113604
+      name: 072-v01.17c
+      size: 131072
+      blob_id: 40496
+    - id: 746377
+      asset_id: 113604
+      name: 072-v02.16c
+      size: 131072
+      blob_id: 40477
+    - id: 746378
+      asset_id: 113604
+      name: 072-x12.15c
+      size: 131072
+      blob_id: 40497
+    - id: 746379
+      asset_id: 113604
+      name: 072-x13.13c
+      size: 131072
+      blob_id: 40498
+    - id: 746380
+      asset_id: 113604
+      name: simpsons4pa.12c.nv
+      size: 128
+      blob_id: 40480
+- release:
+    id: 97906
+    game_id: 3771
+    description: ""
+    release_date: 19910000
+  names:
+  - id: 230327
+    kind: 3
+    kind_id: 97906
+    language: 1
+    name: The Simpsons (4 Players World, set 2)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 113605
+      kind: 3
+      kind_id: 97906
+      type: 1
+      name: simpsons4pe.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 746381
+      asset_id: 113605
+      name: 072-b06.16h
+      size: 524288
+      blob_id: 40467
+    - id: 746382
+      asset_id: 113605
+      name: 072-b07.18h
+      size: 524288
+      blob_id: 40468
+    - id: 746383
+      asset_id: 113605
+      name: 072-b08.3n
+      size: 1048576
+      blob_id: 40469
+    - id: 746384
+      asset_id: 113605
+      name: 072-b09.8n
+      size: 1048576
+      blob_id: 40470
+    - id: 746385
+      asset_id: 113605
+      name: 072-b10.12n
+      size: 1048576
+      blob_id: 40471
+    - id: 746386
+      asset_id: 113605
+      name: 072-b11.16l
+      size: 1048576
+      blob_id: 40472
+    - id: 746387
+      asset_id: 113605
+      name: 072-d04.1d
+      size: 262144
+      blob_id: 40473
+    - id: 746388
+      asset_id: 113605
+      name: 072-d05.1f
+      size: 1048576
+      blob_id: 40474
+    - id: 746389
+      asset_id: 113605
+      name: 072-e03.6g
+      size: 131072
+      blob_id: 40475
+    - id: 746390
+      asset_id: 113605
+      name: 072-g01.17c
+      size: 131072
+      blob_id: 40476
+    - id: 746391
+      asset_id: 113605
+      name: 072-g02.16c
+      size: 131072
+      blob_id: 40477
+    - id: 746392
+      asset_id: 113605
+      name: 072-l12.15c
+      size: 131072
+      blob_id: 40499
+    - id: 746393
+      asset_id: 113605
+      name: 072-m13.13c
+      size: 131072
+      blob_id: 40500
+    - id: 746394
+      asset_id: 113605
+      name: simpsons4pe.12c.nv
+      size: 128
+      blob_id: 40480
+- release:
+    id: 97907
+    game_id: 3771
+    description: ""
+    release_date: 19910000
+  names:
+  - id: 230328
+    kind: 3
+    kind_id: 97907
+    language: 1
+    name: The Simpsons (4 Players World, set 3)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 113606
+      kind: 3
+      kind_id: 97907
+      type: 1
+      name: simpsons4pe2.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 746395
+      asset_id: 113606
+      name: 072-b06.16h
+      size: 524288
+      blob_id: 40467
+    - id: 746396
+      asset_id: 113606
+      name: 072-b07.18h
+      size: 524288
+      blob_id: 40468
+    - id: 746397
+      asset_id: 113606
+      name: 072-b08.3n
+      size: 1048576
+      blob_id: 40469
+    - id: 746398
+      asset_id: 113606
+      name: 072-b09.8n
+      size: 1048576
+      blob_id: 40470
+    - id: 746399
+      asset_id: 113606
+      name: 072-b10.12n
+      size: 1048576
+      blob_id: 40471
+    - id: 746400
+      asset_id: 113606
+      name: 072-b11.16l
+      size: 1048576
+      blob_id: 40472
+    - id: 746401
+      asset_id: 113606
+      name: 072-d04.1d
+      size: 262144
+      blob_id: 40473
+    - id: 746402
+      asset_id: 113606
+      name: 072-d05.1f
+      size: 1048576
+      blob_id: 40474
+    - id: 746403
+      asset_id: 113606
+      name: 1 e. devices.17c
+      size: 131072
+      blob_id: 40476
+    - id: 746404
+      asset_id: 113606
+      name: 2 e. devices.16c
+      size: 131072
+      blob_id: 40477
+    - id: 746405
+      asset_id: 113606
+      name: 3 e. devices.15c
+      size: 131072
+      blob_id: 280966
+    - id: 746406
+      asset_id: 113606
+      name: 4 e. devices.13c
+      size: 131072
+      blob_id: 280967
+    - id: 746407
+      asset_id: 113606
+      name: 5 e. devices.6g
+      size: 131072
+      blob_id: 40475
+    - id: 746408
+      asset_id: 113606
+      name: simpsons4pe2.12c.nv
       size: 128
       blob_id: 40480

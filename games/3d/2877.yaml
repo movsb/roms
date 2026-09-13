@@ -16,6 +16,18 @@ names:
   language: 2
   name: 南梦宫名作剧场 Vol.1
   source: trimui
+- id: 193816
+  kind: 2
+  kind_id: 2877
+  language: 1
+  name: Namco Classic Collection Vol.1 (Japan, v1.00)
+  source: mame
+- id: 193817
+  kind: 2
+  kind_id: 2877
+  language: 1
+  name: Namco Classic Collection Vol.1 (Japan, v1.03)
+  source: mame
 game_developers:
 - game_id: 2877
   developer_id: 19
@@ -119,24 +131,10 @@ releases:
       blob_id: 87418
       debug: arcade/wheel/ncv1.png
     entries: []
-- release:
-    id: 59599
-    game_id: 2877
-    description: ""
-    release_date: 19950000
-  names:
-  - id: 149596
-    kind: 3
-    kind_id: 59599
-    language: 1
-    name: Namco Classic Collection Vol.1
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 72669
+      id: 105525
       kind: 3
-      kind_id: 59599
+      kind_id: 2877
       type: 1
       name: ncv1.zip
       description: ""
@@ -145,28 +143,241 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 279816
-      asset_id: 72669
+    - id: 674364
+      asset_id: 105525
       name: nc1cg0.10c
       size: 2097152
-      blob_id: 153281
-    - id: 279817
-      asset_id: 72669
+      blob_id: 260342
+    - id: 674365
+      asset_id: 105525
       name: nc1sub.1c
       size: 524288
       blob_id: 30589
-    - id: 279818
-      asset_id: 72669
+    - id: 674366
+      asset_id: 105525
       name: nc1voice.7b
       size: 2097152
       blob_id: 30590
-    - id: 279819
-      asset_id: 72669
+    - id: 674367
+      asset_id: 105525
       name: nc2main0.14d
       size: 524288
       blob_id: 30586
-    - id: 279820
-      asset_id: 72669
+    - id: 674368
+      asset_id: 105525
       name: nc2main1.13d
       size: 524288
       blob_id: 30587
+  - asset:
+      id: 120757
+      kind: 3
+      kind_id: 2877
+      type: 1
+      name: ncv1.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.259
+    entries:
+    - id: 873637
+      asset_id: 120757
+      name: nc1cg0.10c
+      size: 2097152
+      blob_id: 30588
+    - id: 873638
+      asset_id: 120757
+      name: nc1sub.1c
+      size: 524288
+      blob_id: 30589
+    - id: 873639
+      asset_id: 120757
+      name: nc1voice.7b
+      size: 2097152
+      blob_id: 30590
+    - id: 873640
+      asset_id: 120757
+      name: nc2main0.14d
+      size: 524288
+      blob_id: 30586
+    - id: 873641
+      asset_id: 120757
+      name: nc2main1.13d
+      size: 524288
+      blob_id: 30587
+- release:
+    id: 90130
+    game_id: 2877
+    description: ""
+    release_date: 19950000
+  names:
+  - id: 219892
+    kind: 3
+    kind_id: 90130
+    language: 1
+    name: Namco Classic Collection Vol.1 (Japan, v1.00)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 105526
+      kind: 3
+      kind_id: 90130
+      type: 1
+      name: ncv1j.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 674369
+      asset_id: 105526
+      name: nc1cg0.10c
+      size: 2097152
+      blob_id: 260342
+    - id: 674370
+      asset_id: 105526
+      name: nc1main0.14d
+      size: 524288
+      blob_id: 260343
+    - id: 674371
+      asset_id: 105526
+      name: nc1main1.13d
+      size: 524288
+      blob_id: 260344
+    - id: 674372
+      asset_id: 105526
+      name: nc1sub.1c
+      size: 524288
+      blob_id: 30589
+    - id: 674373
+      asset_id: 105526
+      name: nc1voice.7b
+      size: 2097152
+      blob_id: 30590
+  - asset:
+      id: 120758
+      kind: 3
+      kind_id: 90130
+      type: 1
+      name: ncv1j.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.259
+    entries:
+    - id: 873642
+      asset_id: 120758
+      name: nc1cg0.10c
+      size: 2097152
+      blob_id: 30588
+    - id: 873643
+      asset_id: 120758
+      name: nc1main0.14d
+      size: 524288
+      blob_id: 260343
+    - id: 873644
+      asset_id: 120758
+      name: nc1main1.13d
+      size: 524288
+      blob_id: 260344
+    - id: 873645
+      asset_id: 120758
+      name: nc1sub.1c
+      size: 524288
+      blob_id: 30589
+    - id: 873646
+      asset_id: 120758
+      name: nc1voice.7b
+      size: 2097152
+      blob_id: 30590
+- release:
+    id: 90131
+    game_id: 2877
+    description: ""
+    release_date: 19950000
+  names:
+  - id: 219893
+    kind: 3
+    kind_id: 90131
+    language: 1
+    name: Namco Classic Collection Vol.1 (Japan, v1.03)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 105527
+      kind: 3
+      kind_id: 90131
+      type: 1
+      name: ncv1j2.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 674374
+      asset_id: 105527
+      name: nc1cg0.10c
+      size: 2097152
+      blob_id: 260342
+    - id: 674375
+      asset_id: 105527
+      name: nc1main0b.14d
+      size: 524288
+      blob_id: 260345
+    - id: 674376
+      asset_id: 105527
+      name: nc1main1b.13d
+      size: 524288
+      blob_id: 260346
+    - id: 674377
+      asset_id: 105527
+      name: nc1sub.1c
+      size: 524288
+      blob_id: 30589
+    - id: 674378
+      asset_id: 105527
+      name: nc1voice.7b
+      size: 2097152
+      blob_id: 30590
+  - asset:
+      id: 120759
+      kind: 3
+      kind_id: 90131
+      type: 1
+      name: ncv1j2.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.259
+    entries:
+    - id: 873647
+      asset_id: 120759
+      name: nc1cg0.10c
+      size: 2097152
+      blob_id: 30588
+    - id: 873648
+      asset_id: 120759
+      name: nc1main0b.14d
+      size: 524288
+      blob_id: 260345
+    - id: 873649
+      asset_id: 120759
+      name: nc1main1b.13d
+      size: 524288
+      blob_id: 260346
+    - id: 873650
+      asset_id: 120759
+      name: nc1sub.1c
+      size: 524288
+      blob_id: 30589
+    - id: 873651
+      asset_id: 120759
+      name: nc1voice.7b
+      size: 2097152
+      blob_id: 30590

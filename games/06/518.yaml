@@ -16,6 +16,48 @@ names:
   language: 2
   name: 酒保 (百威, 1/27/84)
   source: trimui
+- id: 186665
+  kind: 2
+  kind_id: 518
+  language: 1
+  name: RBTAPPER
+  source: ""
+- id: 186666
+  kind: 2
+  kind_id: 518
+  language: 2
+  name: 酒保 (麦根)
+  source: trimui
+- id: 187262
+  kind: 2
+  kind_id: 518
+  language: 1
+  name: sutapper
+  source: ""
+- id: 187263
+  kind: 2
+  kind_id: 518
+  language: 2
+  name: 酒保 (三得利)
+  source: trimui
+- id: 199929
+  kind: 2
+  kind_id: 518
+  language: 1
+  name: Tapper (Budweiser, 1/12/84)
+  source: mame
+- id: 199930
+  kind: 2
+  kind_id: 518
+  language: 1
+  name: Tapper (Budweiser, 12/9/83)
+  source: mame
+- id: 199931
+  kind: 2
+  kind_id: 518
+  language: 1
+  name: "Tapper (Budweiser, 1/27/84 - Alternate graphics)"
+  source: mame
 game_developers:
 - game_id: 518
   developer_id: 473
@@ -189,140 +231,114 @@ releases:
       blob_id: 85433
       debug: arcade/wheel/tapper.png
     entries: []
-- release:
-    id: 72716
-    game_id: 518
-    description: ""
-    release_date: 19830000
-  names:
-  - id: 175400
-    kind: 3
-    kind_id: 72716
-    language: 1
-    name: Tapper (Budweiser, 1/27/84)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 85786
+      id: 115178
       kind: 3
-      kind_id: 72716
+      kind_id: 518
       type: 1
       name: tapper.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
-      debug: dat:mame:0.289
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/2413148356
     entries:
-    - id: 387274
-      asset_id: 85786
+    - id: 765034
+      asset_id: 115178
       name: tapper_c.p.u._bg_0_5f_12-7-83.5f
       size: 16384
       blob_id: 4558
-    - id: 387275
-      asset_id: 85786
+    - id: 765035
+      asset_id: 115178
       name: tapper_c.p.u._bg_1_6f_12-7-83.6f
       size: 16384
       blob_id: 4559
-    - id: 387276
-      asset_id: 85786
+    - id: 765036
+      asset_id: 115178
       name: tapper_c.p.u._pg_0_1c_1-27-84.1c
       size: 16384
-      blob_id: 188679
-    - id: 387277
-      asset_id: 85786
+      blob_id: 305510
+    - id: 765037
+      asset_id: 115178
       name: tapper_c.p.u._pg_1_2c_1-27-84.2c
       size: 16384
-      blob_id: 188680
-    - id: 387278
-      asset_id: 85786
+      blob_id: 305511
+    - id: 765038
+      asset_id: 115178
       name: tapper_c.p.u._pg_2_3c_1-27-84.3c
       size: 16384
-      blob_id: 188681
-    - id: 387279
-      asset_id: 85786
+      blob_id: 305512
+    - id: 765039
+      asset_id: 115178
       name: tapper_c.p.u._pg_3_4c_1-27-84.4c
       size: 8192
-      blob_id: 188682
-    - id: 387280
-      asset_id: 85786
+      blob_id: 305513
+    - id: 765040
+      asset_id: 115178
       name: tapper_sound_snd_0_a7_12-7-83.a7
       size: 4096
       blob_id: 4573
-    - id: 387281
-      asset_id: 85786
+    - id: 765041
+      asset_id: 115178
       name: tapper_sound_snd_1_a8_12-7-83.a8
       size: 4096
       blob_id: 4574
-    - id: 387282
-      asset_id: 85786
+    - id: 765042
+      asset_id: 115178
       name: tapper_sound_snd_2_a9_12-7-83.a9
       size: 4096
       blob_id: 4575
-    - id: 387283
-      asset_id: 85786
+    - id: 765043
+      asset_id: 115178
       name: tapper_sound_snd_3_a10_12-7-83.a10
       size: 4096
       blob_id: 4572
-    - id: 387284
-      asset_id: 85786
+    - id: 765044
+      asset_id: 115178
       name: tapper_video_fg_0_a8_12-7-83.a8
       size: 16384
       blob_id: 4560
-    - id: 387285
-      asset_id: 85786
+    - id: 765045
+      asset_id: 115178
       name: tapper_video_fg_1_a7_12-7-83.a7
       size: 16384
       blob_id: 4561
-    - id: 387286
-      asset_id: 85786
+    - id: 765046
+      asset_id: 115178
       name: tapper_video_fg_2_a6_12-7-83.a6
       size: 16384
       blob_id: 4562
-    - id: 387287
-      asset_id: 85786
+    - id: 765047
+      asset_id: 115178
       name: tapper_video_fg_3_a5_12-7-83.a5
       size: 16384
       blob_id: 4563
-    - id: 387288
-      asset_id: 85786
+    - id: 765048
+      asset_id: 115178
       name: tapper_video_fg_4_a4_12-7-83.a4
       size: 16384
       blob_id: 4564
-    - id: 387289
-      asset_id: 85786
+    - id: 765049
+      asset_id: 115178
       name: tapper_video_fg_5_a3_12-7-83.a3
       size: 16384
       blob_id: 4565
-    - id: 387290
-      asset_id: 85786
+    - id: 765050
+      asset_id: 115178
       name: tapper_video_fg_6_a2_12-7-83.a2
       size: 16384
       blob_id: 4566
-    - id: 387291
-      asset_id: 85786
+    - id: 765051
+      asset_id: 115178
       name: tapper_video_fg_7_a1_12-7-83.a1
       size: 16384
       blob_id: 4567
-- release:
-    id: 77261
-    game_id: 518
-    description: ""
-    release_date: 19830000
-  names:
-  - id: 183571
-    kind: 3
-    kind_id: 77261
-    language: 1
-    name: Tapper (Budweiser, 1/27/84)
-    source: fbneo
-  release_publishers: []
-  assets:
   - asset:
-      id: 90331
+      id: 119574
       kind: 3
-      kind_id: 77261
+      kind_id: 518
       type: 1
       name: tapper.zip
       description: ""
@@ -331,98 +347,1231 @@ releases:
       blob_id: 0
       debug: dat:fbneo:5fa9b68a
     entries:
-    - id: 457371
-      asset_id: 90331
-      name: 82s123.12d
-      size: 32
-      blob_id: 1649
-    - id: 457372
-      asset_id: 90331
+    - id: 834921
+      asset_id: 119574
       name: tapper_c.p.u._bg_0_5f_12-7-83.5f
       size: 16384
       blob_id: 4558
-    - id: 457373
-      asset_id: 90331
+    - id: 834922
+      asset_id: 119574
       name: tapper_c.p.u._bg_1_6f_12-7-83.6f
       size: 16384
       blob_id: 4559
-    - id: 457374
-      asset_id: 90331
+    - id: 834923
+      asset_id: 119574
       name: tapper_c.p.u._pg_0_1c_1-27-84.1c
       size: 16384
-      blob_id: 188679
-    - id: 457375
-      asset_id: 90331
+      blob_id: 288308
+    - id: 834924
+      asset_id: 119574
       name: tapper_c.p.u._pg_1_2c_1-27-84.2c
       size: 16384
-      blob_id: 188680
-    - id: 457376
-      asset_id: 90331
+      blob_id: 288309
+    - id: 834925
+      asset_id: 119574
       name: tapper_c.p.u._pg_2_3c_1-27-84.3c
       size: 16384
-      blob_id: 188681
-    - id: 457377
-      asset_id: 90331
+      blob_id: 288310
+    - id: 834926
+      asset_id: 119574
       name: tapper_c.p.u._pg_3_4c_1-27-84.4c
       size: 8192
-      blob_id: 188682
-    - id: 457378
-      asset_id: 90331
+      blob_id: 288311
+    - id: 834927
+      asset_id: 119574
       name: tapper_sound_snd_0_a7_12-7-83.a7
       size: 4096
       blob_id: 4573
-    - id: 457379
-      asset_id: 90331
+    - id: 834928
+      asset_id: 119574
       name: tapper_sound_snd_1_a8_12-7-83.a8
       size: 4096
       blob_id: 4574
-    - id: 457380
-      asset_id: 90331
+    - id: 834929
+      asset_id: 119574
       name: tapper_sound_snd_2_a9_12-7-83.a9
       size: 4096
       blob_id: 4575
-    - id: 457381
-      asset_id: 90331
+    - id: 834930
+      asset_id: 119574
       name: tapper_sound_snd_3_a10_12-7-83.a10
       size: 4096
       blob_id: 4572
-    - id: 457382
-      asset_id: 90331
+    - id: 834931
+      asset_id: 119574
       name: tapper_video_fg_0_a8_12-7-83.a8
       size: 16384
       blob_id: 4560
-    - id: 457383
-      asset_id: 90331
+    - id: 834932
+      asset_id: 119574
       name: tapper_video_fg_1_a7_12-7-83.a7
       size: 16384
       blob_id: 4561
-    - id: 457384
-      asset_id: 90331
+    - id: 834933
+      asset_id: 119574
       name: tapper_video_fg_2_a6_12-7-83.a6
       size: 16384
       blob_id: 4562
-    - id: 457385
-      asset_id: 90331
+    - id: 834934
+      asset_id: 119574
       name: tapper_video_fg_3_a5_12-7-83.a5
       size: 16384
       blob_id: 4563
-    - id: 457386
-      asset_id: 90331
+    - id: 834935
+      asset_id: 119574
       name: tapper_video_fg_4_a4_12-7-83.a4
       size: 16384
       blob_id: 4564
-    - id: 457387
-      asset_id: 90331
+    - id: 834936
+      asset_id: 119574
       name: tapper_video_fg_5_a3_12-7-83.a3
       size: 16384
       blob_id: 4565
-    - id: 457388
-      asset_id: 90331
+    - id: 834937
+      asset_id: 119574
       name: tapper_video_fg_6_a2_12-7-83.a2
       size: 16384
       blob_id: 4566
-    - id: 457389
-      asset_id: 90331
+    - id: 834938
+      asset_id: 119574
       name: tapper_video_fg_7_a1_12-7-83.a1
       size: 16384
       blob_id: 4567
+    - id: 834939
+      asset_id: 119574
+      name: 82s123.12d
+      size: 32
+      blob_id: 1649
+- release:
+    id: 99335
+    game_id: 518
+    description: ""
+    release_date: 19830000
+  names:
+  - id: 232367
+    kind: 3
+    kind_id: 99335
+    language: 1
+    name: Tapper (Budweiser, 1/12/84)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 115179
+      kind: 3
+      kind_id: 99335
+      type: 1
+      name: tappera.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 765052
+      asset_id: 115179
+      name: tapper_c.p.u._bg_0_5f_12-7-83.5f
+      size: 16384
+      blob_id: 4558
+    - id: 765053
+      asset_id: 115179
+      name: tapper_c.p.u._bg_1_6f_12-7-83.6f
+      size: 16384
+      blob_id: 4559
+    - id: 765054
+      asset_id: 115179
+      name: tapper_c.p.u._pg_0_1c_1-12-84.1c
+      size: 16384
+      blob_id: 4568
+    - id: 765055
+      asset_id: 115179
+      name: tapper_c.p.u._pg_1_2c_1-12-84.1c
+      size: 16384
+      blob_id: 4569
+    - id: 765056
+      asset_id: 115179
+      name: tapper_c.p.u._pg_2_3c_1-12-84.3c
+      size: 16384
+      blob_id: 4570
+    - id: 765057
+      asset_id: 115179
+      name: tapper_c.p.u._pg_3_4c_1-12-84.4c
+      size: 8192
+      blob_id: 4571
+    - id: 765058
+      asset_id: 115179
+      name: tapper_sound_snd_0_a7_12-7-83.a7
+      size: 4096
+      blob_id: 4573
+    - id: 765059
+      asset_id: 115179
+      name: tapper_sound_snd_1_a8_12-7-83.a8
+      size: 4096
+      blob_id: 4574
+    - id: 765060
+      asset_id: 115179
+      name: tapper_sound_snd_2_a9_12-7-83.a9
+      size: 4096
+      blob_id: 4575
+    - id: 765061
+      asset_id: 115179
+      name: tapper_sound_snd_3_a10_12-7-83.a10
+      size: 4096
+      blob_id: 4572
+    - id: 765062
+      asset_id: 115179
+      name: tapper_video_fg_0_a8_12-7-83.a8
+      size: 16384
+      blob_id: 4560
+    - id: 765063
+      asset_id: 115179
+      name: tapper_video_fg_1_a7_12-7-83.a7
+      size: 16384
+      blob_id: 4561
+    - id: 765064
+      asset_id: 115179
+      name: tapper_video_fg_2_a6_12-7-83.a6
+      size: 16384
+      blob_id: 4562
+    - id: 765065
+      asset_id: 115179
+      name: tapper_video_fg_3_a5_12-7-83.a5
+      size: 16384
+      blob_id: 4563
+    - id: 765066
+      asset_id: 115179
+      name: tapper_video_fg_4_a4_12-7-83.a4
+      size: 16384
+      blob_id: 4564
+    - id: 765067
+      asset_id: 115179
+      name: tapper_video_fg_5_a3_12-7-83.a3
+      size: 16384
+      blob_id: 4565
+    - id: 765068
+      asset_id: 115179
+      name: tapper_video_fg_6_a2_12-7-83.a2
+      size: 16384
+      blob_id: 4566
+    - id: 765069
+      asset_id: 115179
+      name: tapper_video_fg_7_a1_12-7-83.a1
+      size: 16384
+      blob_id: 4567
+  - asset:
+      id: 119572
+      kind: 3
+      kind_id: 99335
+      type: 1
+      name: tappera.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 834883
+      asset_id: 119572
+      name: 82s123.12d
+      size: 32
+      blob_id: 1649
+    - id: 834884
+      asset_id: 119572
+      name: tapper_c.p.u._bg_0_5f_12-7-83.5f
+      size: 16384
+      blob_id: 4558
+    - id: 834885
+      asset_id: 119572
+      name: tapper_c.p.u._bg_1_6f_12-7-83.6f
+      size: 16384
+      blob_id: 4559
+    - id: 834886
+      asset_id: 119572
+      name: tapper_c.p.u._pg_0_1c_1-12-84.1c
+      size: 16384
+      blob_id: 4568
+    - id: 834887
+      asset_id: 119572
+      name: tapper_c.p.u._pg_1_2c_1-12-84.1c
+      size: 16384
+      blob_id: 4569
+    - id: 834888
+      asset_id: 119572
+      name: tapper_c.p.u._pg_2_3c_1-12-84.3c
+      size: 16384
+      blob_id: 4570
+    - id: 834889
+      asset_id: 119572
+      name: tapper_c.p.u._pg_3_4c_1-12-84.4c
+      size: 8192
+      blob_id: 4571
+    - id: 834890
+      asset_id: 119572
+      name: tapper_sound_snd_0_a7_12-7-83.a7
+      size: 4096
+      blob_id: 4573
+    - id: 834891
+      asset_id: 119572
+      name: tapper_sound_snd_1_a8_12-7-83.a8
+      size: 4096
+      blob_id: 4574
+    - id: 834892
+      asset_id: 119572
+      name: tapper_sound_snd_2_a9_12-7-83.a9
+      size: 4096
+      blob_id: 4575
+    - id: 834893
+      asset_id: 119572
+      name: tapper_sound_snd_3_a10_12-7-83.a10
+      size: 4096
+      blob_id: 4572
+    - id: 834894
+      asset_id: 119572
+      name: tapper_video_fg_0_a8_12-7-83.a8
+      size: 16384
+      blob_id: 4560
+    - id: 834895
+      asset_id: 119572
+      name: tapper_video_fg_1_a7_12-7-83.a7
+      size: 16384
+      blob_id: 4561
+    - id: 834896
+      asset_id: 119572
+      name: tapper_video_fg_2_a6_12-7-83.a6
+      size: 16384
+      blob_id: 4562
+    - id: 834897
+      asset_id: 119572
+      name: tapper_video_fg_3_a5_12-7-83.a5
+      size: 16384
+      blob_id: 4563
+    - id: 834898
+      asset_id: 119572
+      name: tapper_video_fg_4_a4_12-7-83.a4
+      size: 16384
+      blob_id: 4564
+    - id: 834899
+      asset_id: 119572
+      name: tapper_video_fg_5_a3_12-7-83.a3
+      size: 16384
+      blob_id: 4565
+    - id: 834900
+      asset_id: 119572
+      name: tapper_video_fg_6_a2_12-7-83.a2
+      size: 16384
+      blob_id: 4566
+    - id: 834901
+      asset_id: 119572
+      name: tapper_video_fg_7_a1_12-7-83.a1
+      size: 16384
+      blob_id: 4567
+- release:
+    id: 99336
+    game_id: 518
+    description: ""
+    release_date: 19830000
+  names:
+  - id: 232368
+    kind: 3
+    kind_id: 99336
+    language: 1
+    name: Tapper (Budweiser, 12/9/83)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 115180
+      kind: 3
+      kind_id: 99336
+      type: 1
+      name: tapperb.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/3251420370
+    entries:
+    - id: 765070
+      asset_id: 115180
+      name: tapper_c.p.u._bg_0_5f_12-7-83.5f
+      size: 16384
+      blob_id: 4558
+    - id: 765071
+      asset_id: 115180
+      name: tapper_c.p.u._bg_1_6f_12-7-83.6f
+      size: 16384
+      blob_id: 4559
+    - id: 765072
+      asset_id: 115180
+      name: tapper_c.p.u._pg_0_1c_12-9-83.1c
+      size: 16384
+      blob_id: 305514
+    - id: 765073
+      asset_id: 115180
+      name: tapper_c.p.u._pg_1_2c_12-9-83.2c
+      size: 16384
+      blob_id: 305515
+    - id: 765074
+      asset_id: 115180
+      name: tapper_c.p.u._pg_2_3c_12-9-83.3c
+      size: 16384
+      blob_id: 305516
+    - id: 765075
+      asset_id: 115180
+      name: tapper_c.p.u._pg_3_4c_12-9-83.4c
+      size: 8192
+      blob_id: 305517
+    - id: 765076
+      asset_id: 115180
+      name: tapper_sound_snd_0_a7_12-7-83.a7
+      size: 4096
+      blob_id: 4573
+    - id: 765077
+      asset_id: 115180
+      name: tapper_sound_snd_1_a8_12-7-83.a8
+      size: 4096
+      blob_id: 4574
+    - id: 765078
+      asset_id: 115180
+      name: tapper_sound_snd_2_a9_12-7-83.a9
+      size: 4096
+      blob_id: 4575
+    - id: 765079
+      asset_id: 115180
+      name: tapper_sound_snd_3_a10_12-7-83.a10
+      size: 4096
+      blob_id: 4572
+    - id: 765080
+      asset_id: 115180
+      name: tapper_video_fg_0_a8_12-7-83.a8
+      size: 16384
+      blob_id: 4560
+    - id: 765081
+      asset_id: 115180
+      name: tapper_video_fg_1_a7_12-7-83.a7
+      size: 16384
+      blob_id: 4561
+    - id: 765082
+      asset_id: 115180
+      name: tapper_video_fg_2_a6_12-7-83.a6
+      size: 16384
+      blob_id: 4562
+    - id: 765083
+      asset_id: 115180
+      name: tapper_video_fg_3_a5_12-7-83.a5
+      size: 16384
+      blob_id: 4563
+    - id: 765084
+      asset_id: 115180
+      name: tapper_video_fg_4_a4_12-7-83.a4
+      size: 16384
+      blob_id: 4564
+    - id: 765085
+      asset_id: 115180
+      name: tapper_video_fg_5_a3_12-7-83.a3
+      size: 16384
+      blob_id: 4565
+    - id: 765086
+      asset_id: 115180
+      name: tapper_video_fg_6_a2_12-7-83.a2
+      size: 16384
+      blob_id: 4566
+    - id: 765087
+      asset_id: 115180
+      name: tapper_video_fg_7_a1_12-7-83.a1
+      size: 16384
+      blob_id: 4567
+  - asset:
+      id: 119575
+      kind: 3
+      kind_id: 99336
+      type: 1
+      name: tapperb.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 834940
+      asset_id: 119575
+      name: 82s123.12d
+      size: 32
+      blob_id: 1649
+    - id: 834941
+      asset_id: 119575
+      name: tapper_c.p.u._bg_0_5f_12-7-83.5f
+      size: 16384
+      blob_id: 4558
+    - id: 834942
+      asset_id: 119575
+      name: tapper_c.p.u._bg_1_6f_12-7-83.6f
+      size: 16384
+      blob_id: 4559
+    - id: 834943
+      asset_id: 119575
+      name: tapper_c.p.u._pg_0_1c_12-9-83.1c
+      size: 16384
+      blob_id: 288312
+    - id: 834944
+      asset_id: 119575
+      name: tapper_c.p.u._pg_1_2c_12-9-83.2c
+      size: 16384
+      blob_id: 288313
+    - id: 834945
+      asset_id: 119575
+      name: tapper_c.p.u._pg_2_3c_12-9-83.3c
+      size: 16384
+      blob_id: 288314
+    - id: 834946
+      asset_id: 119575
+      name: tapper_c.p.u._pg_3_4c_12-9-83.4c
+      size: 8192
+      blob_id: 288315
+    - id: 834947
+      asset_id: 119575
+      name: tapper_sound_snd_0_a7_12-7-83.a7
+      size: 4096
+      blob_id: 4573
+    - id: 834948
+      asset_id: 119575
+      name: tapper_sound_snd_1_a8_12-7-83.a8
+      size: 4096
+      blob_id: 4574
+    - id: 834949
+      asset_id: 119575
+      name: tapper_sound_snd_2_a9_12-7-83.a9
+      size: 4096
+      blob_id: 4575
+    - id: 834950
+      asset_id: 119575
+      name: tapper_sound_snd_3_a10_12-7-83.a10
+      size: 4096
+      blob_id: 4572
+    - id: 834951
+      asset_id: 119575
+      name: tapper_video_fg_0_a8_12-7-83.a8
+      size: 16384
+      blob_id: 4560
+    - id: 834952
+      asset_id: 119575
+      name: tapper_video_fg_1_a7_12-7-83.a7
+      size: 16384
+      blob_id: 4561
+    - id: 834953
+      asset_id: 119575
+      name: tapper_video_fg_2_a6_12-7-83.a6
+      size: 16384
+      blob_id: 4562
+    - id: 834954
+      asset_id: 119575
+      name: tapper_video_fg_3_a5_12-7-83.a5
+      size: 16384
+      blob_id: 4563
+    - id: 834955
+      asset_id: 119575
+      name: tapper_video_fg_4_a4_12-7-83.a4
+      size: 16384
+      blob_id: 4564
+    - id: 834956
+      asset_id: 119575
+      name: tapper_video_fg_5_a3_12-7-83.a3
+      size: 16384
+      blob_id: 4565
+    - id: 834957
+      asset_id: 119575
+      name: tapper_video_fg_6_a2_12-7-83.a2
+      size: 16384
+      blob_id: 4566
+    - id: 834958
+      asset_id: 119575
+      name: tapper_video_fg_7_a1_12-7-83.a1
+      size: 16384
+      blob_id: 4567
+- release:
+    id: 99337
+    game_id: 518
+    description: ""
+    release_date: 19830000
+  names:
+  - id: 232369
+    kind: 3
+    kind_id: 99337
+    language: 1
+    name: "Tapper (Budweiser, 1/27/84 - Alternate graphics)"
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 115181
+      kind: 3
+      kind_id: 99337
+      type: 1
+      name: tapperg.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/2461349804
+    entries:
+    - id: 765088
+      asset_id: 115181
+      name: fg0_a8.128
+      size: 16384
+      blob_id: 305518
+    - id: 765089
+      asset_id: 115181
+      name: fg1_a7.128
+      size: 16384
+      blob_id: 305519
+    - id: 765090
+      asset_id: 115181
+      name: fg2_a6.128
+      size: 16384
+      blob_id: 305520
+    - id: 765091
+      asset_id: 115181
+      name: fg3_a5.128
+      size: 16384
+      blob_id: 305521
+    - id: 765092
+      asset_id: 115181
+      name: fg4_a4.128
+      size: 16384
+      blob_id: 305522
+    - id: 765093
+      asset_id: 115181
+      name: fg5_a3.128
+      size: 16384
+      blob_id: 305523
+    - id: 765094
+      asset_id: 115181
+      name: fg6_a2.128
+      size: 16384
+      blob_id: 305524
+    - id: 765095
+      asset_id: 115181
+      name: fg7_a1.128
+      size: 16384
+      blob_id: 305525
+    - id: 765096
+      asset_id: 115181
+      name: tapper_c.p.u._bg_0_5f_12-7-83.5f
+      size: 16384
+      blob_id: 4558
+    - id: 765097
+      asset_id: 115181
+      name: tapper_c.p.u._bg_1_6f_12-7-83.6f
+      size: 16384
+      blob_id: 4559
+    - id: 765098
+      asset_id: 115181
+      name: tapper_c.p.u._pg_0_1c_1-27-84.1c
+      size: 16384
+      blob_id: 305510
+    - id: 765099
+      asset_id: 115181
+      name: tapper_c.p.u._pg_1_2c_1-27-84.2c
+      size: 16384
+      blob_id: 305511
+    - id: 765100
+      asset_id: 115181
+      name: tapper_c.p.u._pg_2_3c_1-27-84.3c
+      size: 16384
+      blob_id: 305512
+    - id: 765101
+      asset_id: 115181
+      name: tapper_c.p.u._pg_3_4c_1-27-84.4c
+      size: 8192
+      blob_id: 305513
+    - id: 765102
+      asset_id: 115181
+      name: tapper_sound_snd_0_a7_12-7-83.a7
+      size: 4096
+      blob_id: 4573
+    - id: 765103
+      asset_id: 115181
+      name: tapper_sound_snd_1_a8_12-7-83.a8
+      size: 4096
+      blob_id: 4574
+    - id: 765104
+      asset_id: 115181
+      name: tapper_sound_snd_2_a9_12-7-83.a9
+      size: 4096
+      blob_id: 4575
+    - id: 765105
+      asset_id: 115181
+      name: tapper_sound_snd_3_a10_12-7-83.a10
+      size: 4096
+      blob_id: 4572
+  - asset:
+      id: 119573
+      kind: 3
+      kind_id: 99337
+      type: 1
+      name: tapperg.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 834902
+      asset_id: 119573
+      name: 82s123.12d
+      size: 32
+      blob_id: 1649
+    - id: 834903
+      asset_id: 119573
+      name: fg0_a8.128
+      size: 16384
+      blob_id: 288316
+    - id: 834904
+      asset_id: 119573
+      name: fg1_a7.128
+      size: 16384
+      blob_id: 288317
+    - id: 834905
+      asset_id: 119573
+      name: fg2_a6.128
+      size: 16384
+      blob_id: 288318
+    - id: 834906
+      asset_id: 119573
+      name: fg3_a5.128
+      size: 16384
+      blob_id: 288319
+    - id: 834907
+      asset_id: 119573
+      name: fg4_a4.128
+      size: 16384
+      blob_id: 288320
+    - id: 834908
+      asset_id: 119573
+      name: fg5_a3.128
+      size: 16384
+      blob_id: 288321
+    - id: 834909
+      asset_id: 119573
+      name: fg6_a2.128
+      size: 16384
+      blob_id: 288322
+    - id: 834910
+      asset_id: 119573
+      name: fg7_a1.128
+      size: 16384
+      blob_id: 288323
+    - id: 834911
+      asset_id: 119573
+      name: tapper_c.p.u._bg_0_5f_12-7-83.5f
+      size: 16384
+      blob_id: 4558
+    - id: 834912
+      asset_id: 119573
+      name: tapper_c.p.u._bg_1_6f_12-7-83.6f
+      size: 16384
+      blob_id: 4559
+    - id: 834913
+      asset_id: 119573
+      name: tapper_c.p.u._pg_0_1c_1-27-84.1c
+      size: 16384
+      blob_id: 288308
+    - id: 834914
+      asset_id: 119573
+      name: tapper_c.p.u._pg_1_2c_1-27-84.2c
+      size: 16384
+      blob_id: 288309
+    - id: 834915
+      asset_id: 119573
+      name: tapper_c.p.u._pg_2_3c_1-27-84.3c
+      size: 16384
+      blob_id: 288310
+    - id: 834916
+      asset_id: 119573
+      name: tapper_c.p.u._pg_3_4c_1-27-84.4c
+      size: 8192
+      blob_id: 288311
+    - id: 834917
+      asset_id: 119573
+      name: tapper_sound_snd_0_a7_12-7-83.a7
+      size: 4096
+      blob_id: 4573
+    - id: 834918
+      asset_id: 119573
+      name: tapper_sound_snd_1_a8_12-7-83.a8
+      size: 4096
+      blob_id: 4574
+    - id: 834919
+      asset_id: 119573
+      name: tapper_sound_snd_2_a9_12-7-83.a9
+      size: 4096
+      blob_id: 4575
+    - id: 834920
+      asset_id: 119573
+      name: tapper_sound_snd_3_a10_12-7-83.a10
+      size: 4096
+      blob_id: 4572
+- release:
+    id: 102867
+    game_id: 518
+    description: ""
+    release_date: 0
+  names:
+  - id: 237520
+    kind: 3
+    kind_id: 102867
+    language: 1
+    name: RBTAPPER
+    source: ""
+  - id: 237521
+    kind: 3
+    kind_id: 102867
+    language: 2
+    name: 酒保 (麦根)
+    source: trimui
+  release_publishers: []
+  assets:
+  - asset:
+      id: 108939
+      kind: 3
+      kind_id: 102867
+      type: 1
+      name: rbtapper.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 711679
+      asset_id: 108939
+      name: "5785"
+      size: 4096
+      blob_id: 3705
+    - id: 711680
+      asset_id: 108939
+      name: "5786"
+      size: 4096
+      blob_id: 3708
+    - id: 711681
+      asset_id: 108939
+      name: "5787"
+      size: 4096
+      blob_id: 3707
+    - id: 711682
+      asset_id: 108939
+      name: "5788"
+      size: 4096
+      blob_id: 3706
+    - id: 711683
+      asset_id: 108939
+      name: rbtbg0.bin
+      size: 16384
+      blob_id: 3691
+    - id: 711684
+      asset_id: 108939
+      name: rbtbg1.bin
+      size: 16384
+      blob_id: 3692
+    - id: 711685
+      asset_id: 108939
+      name: rbtfg0.bin
+      size: 16384
+      blob_id: 3693
+    - id: 711686
+      asset_id: 108939
+      name: rbtfg1.bin
+      size: 16384
+      blob_id: 3694
+    - id: 711687
+      asset_id: 108939
+      name: rbtfg2.bin
+      size: 16384
+      blob_id: 3695
+    - id: 711688
+      asset_id: 108939
+      name: rbtfg3.bin
+      size: 16384
+      blob_id: 3696
+    - id: 711689
+      asset_id: 108939
+      name: rbtfg4.bin
+      size: 16384
+      blob_id: 3697
+    - id: 711690
+      asset_id: 108939
+      name: rbtfg5.bin
+      size: 16384
+      blob_id: 3698
+    - id: 711691
+      asset_id: 108939
+      name: rbtfg6.bin
+      size: 16384
+      blob_id: 3699
+    - id: 711692
+      asset_id: 108939
+      name: rbtfg7.bin
+      size: 16384
+      blob_id: 3700
+    - id: 711693
+      asset_id: 108939
+      name: rbtpg0.bin
+      size: 16384
+      blob_id: 3701
+    - id: 711694
+      asset_id: 108939
+      name: rbtpg1.bin
+      size: 16384
+      blob_id: 3702
+    - id: 711695
+      asset_id: 108939
+      name: rbtpg2.bin
+      size: 16384
+      blob_id: 3703
+    - id: 711696
+      asset_id: 108939
+      name: rbtpg3.bin
+      size: 8192
+      blob_id: 3704
+  - asset:
+      id: 119576
+      kind: 3
+      kind_id: 102867
+      type: 1
+      name: rbtapper.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 834959
+      asset_id: 119576
+      name: "5785"
+      size: 4096
+      blob_id: 3705
+    - id: 834960
+      asset_id: 119576
+      name: "5786"
+      size: 4096
+      blob_id: 3708
+    - id: 834961
+      asset_id: 119576
+      name: "5787"
+      size: 4096
+      blob_id: 3707
+    - id: 834962
+      asset_id: 119576
+      name: "5788"
+      size: 4096
+      blob_id: 3706
+    - id: 834963
+      asset_id: 119576
+      name: rbtbg0.bin
+      size: 16384
+      blob_id: 3691
+    - id: 834964
+      asset_id: 119576
+      name: rbtbg1.bin
+      size: 16384
+      blob_id: 3692
+    - id: 834965
+      asset_id: 119576
+      name: rbtfg0.bin
+      size: 16384
+      blob_id: 3693
+    - id: 834966
+      asset_id: 119576
+      name: rbtfg1.bin
+      size: 16384
+      blob_id: 3694
+    - id: 834967
+      asset_id: 119576
+      name: rbtfg2.bin
+      size: 16384
+      blob_id: 3695
+    - id: 834968
+      asset_id: 119576
+      name: rbtfg3.bin
+      size: 16384
+      blob_id: 3696
+    - id: 834969
+      asset_id: 119576
+      name: rbtfg4.bin
+      size: 16384
+      blob_id: 3697
+    - id: 834970
+      asset_id: 119576
+      name: rbtfg5.bin
+      size: 16384
+      blob_id: 3698
+    - id: 834971
+      asset_id: 119576
+      name: rbtfg6.bin
+      size: 16384
+      blob_id: 3699
+    - id: 834972
+      asset_id: 119576
+      name: rbtfg7.bin
+      size: 16384
+      blob_id: 3700
+    - id: 834973
+      asset_id: 119576
+      name: rbtpg0.bin
+      size: 16384
+      blob_id: 3701
+    - id: 834974
+      asset_id: 119576
+      name: rbtpg1.bin
+      size: 16384
+      blob_id: 3702
+    - id: 834975
+      asset_id: 119576
+      name: rbtpg2.bin
+      size: 16384
+      blob_id: 3703
+    - id: 834976
+      asset_id: 119576
+      name: rbtpg3.bin
+      size: 8192
+      blob_id: 3704
+    - id: 834977
+      asset_id: 119576
+      name: 82s123.12d
+      size: 32
+      blob_id: 1649
+- release:
+    id: 103150
+    game_id: 518
+    description: ""
+    release_date: 0
+  names:
+  - id: 238086
+    kind: 3
+    kind_id: 103150
+    language: 1
+    name: sutapper
+    source: ""
+  - id: 238087
+    kind: 3
+    kind_id: 103150
+    language: 2
+    name: 酒保 (三得利)
+    source: trimui
+  release_publishers: []
+  assets:
+  - asset:
+      id: 114921
+      kind: 3
+      kind_id: 103150
+      type: 1
+      name: sutapper.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/533983607
+    entries:
+    - id: 762750
+      asset_id: 114921
+      name: epr-5785.h7.ic4
+      size: 4096
+      blob_id: 3705
+    - id: 762751
+      asset_id: 114921
+      name: epr-5786.h9.ic5
+      size: 4096
+      blob_id: 3708
+    - id: 762752
+      asset_id: 114921
+      name: epr-5787.h10.ic6
+      size: 4096
+      blob_id: 3707
+    - id: 762753
+      asset_id: 114921
+      name: epr-5788.h11.ic8
+      size: 4096
+      blob_id: 3706
+    - id: 762754
+      asset_id: 114921
+      name: epr-5789
+      size: 16384
+      blob_id: 43924
+    - id: 762755
+      asset_id: 114921
+      name: epr-5790
+      size: 16384
+      blob_id: 43923
+    - id: 762756
+      asset_id: 114921
+      name: epr-5791
+      size: 16384
+      blob_id: 43922
+    - id: 762757
+      asset_id: 114921
+      name: epr-5792
+      size: 16384
+      blob_id: 43921
+    - id: 762758
+      asset_id: 114921
+      name: epr-5793
+      size: 16384
+      blob_id: 43920
+    - id: 762759
+      asset_id: 114921
+      name: epr-5794
+      size: 8192
+      blob_id: 304762
+    - id: 762760
+      asset_id: 114921
+      name: epr-5795
+      size: 16384
+      blob_id: 43918
+    - id: 762761
+      asset_id: 114921
+      name: epr-5796
+      size: 16384
+      blob_id: 43917
+    - id: 762762
+      asset_id: 114921
+      name: epr-5797
+      size: 16384
+      blob_id: 43916
+    - id: 762763
+      asset_id: 114921
+      name: epr-5798
+      size: 16384
+      blob_id: 43915
+    - id: 762764
+      asset_id: 114921
+      name: epr-5799
+      size: 16384
+      blob_id: 43914
+    - id: 762765
+      asset_id: 114921
+      name: epr-5800
+      size: 16384
+      blob_id: 43913
+    - id: 762766
+      asset_id: 114921
+      name: epr-5801
+      size: 16384
+      blob_id: 43912
+    - id: 762767
+      asset_id: 114921
+      name: epr-5802
+      size: 16384
+      blob_id: 43911
+  - asset:
+      id: 119577
+      kind: 3
+      kind_id: 103150
+      type: 1
+      name: sutapper.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 834978
+      asset_id: 119577
+      name: epr-5785.h7.ic4
+      size: 4096
+      blob_id: 3705
+    - id: 834979
+      asset_id: 119577
+      name: epr-5786.h9.ic5
+      size: 4096
+      blob_id: 3708
+    - id: 834980
+      asset_id: 119577
+      name: epr-5787.h10.ic6
+      size: 4096
+      blob_id: 3707
+    - id: 834981
+      asset_id: 119577
+      name: epr-5788.h11.ic8
+      size: 4096
+      blob_id: 3706
+    - id: 834982
+      asset_id: 119577
+      name: epr-5789
+      size: 16384
+      blob_id: 43924
+    - id: 834983
+      asset_id: 119577
+      name: epr-5790
+      size: 16384
+      blob_id: 43923
+    - id: 834984
+      asset_id: 119577
+      name: epr-5791
+      size: 16384
+      blob_id: 43922
+    - id: 834985
+      asset_id: 119577
+      name: epr-5792
+      size: 16384
+      blob_id: 43921
+    - id: 834986
+      asset_id: 119577
+      name: epr-5793
+      size: 16384
+      blob_id: 43920
+    - id: 834987
+      asset_id: 119577
+      name: epr-5794
+      size: 8192
+      blob_id: 287561
+    - id: 834988
+      asset_id: 119577
+      name: epr-5795
+      size: 16384
+      blob_id: 43918
+    - id: 834989
+      asset_id: 119577
+      name: epr-5796
+      size: 16384
+      blob_id: 43917
+    - id: 834990
+      asset_id: 119577
+      name: epr-5797
+      size: 16384
+      blob_id: 43916
+    - id: 834991
+      asset_id: 119577
+      name: epr-5798
+      size: 16384
+      blob_id: 43915
+    - id: 834992
+      asset_id: 119577
+      name: epr-5799
+      size: 16384
+      blob_id: 43914
+    - id: 834993
+      asset_id: 119577
+      name: epr-5800
+      size: 16384
+      blob_id: 43913
+    - id: 834994
+      asset_id: 119577
+      name: epr-5801
+      size: 16384
+      blob_id: 43912
+    - id: 834995
+      asset_id: 119577
+      name: epr-5802
+      size: 16384
+      blob_id: 43911
+    - id: 834996
+      asset_id: 119577
+      name: 82s123.12d
+      size: 32
+      blob_id: 1649

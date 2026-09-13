@@ -16,6 +16,18 @@ names:
   language: 2
   name: 超级皇冠高尔夫 (日版)
   source: trimui
+- id: 187812
+  kind: 2
+  kind_id: 4084
+  language: 1
+  name: Albatross (US prototype?)
+  source: mame
+- id: 199796
+  kind: 2
+  kind_id: 4084
+  language: 1
+  name: Super Crowns Golf (Japan, set 2)
+  source: mame
 game_developers:
 - game_id: 4084
   developer_id: 494
@@ -209,144 +221,537 @@ releases:
       blob_id: 85510
       debug: arcade/wheel/suprgolf.png
     entries: []
-- release:
-    id: 72382
-    game_id: 4084
-    description: ""
-    release_date: 19890000
-  names:
-  - id: 174757
-    kind: 3
-    kind_id: 72382
-    language: 1
-    name: Super Crowns Golf (World)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 85452
+      id: 114877
       kind: 3
-      kind_id: 72382
+      kind_id: 4084
       type: 1
       name: suprgolf.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
-      debug: dat:mame:0.289
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/2219856164
     entries:
-    - id: 384345
-      asset_id: 85452
+    - id: 762313
+      asset_id: 114877
       name: cg1.hj6
       size: 65536
       blob_id: 43762
-    - id: 384346
-      asset_id: 85452
+    - id: 762314
+      asset_id: 114877
       name: cg10.d4
       size: 65536
       blob_id: 43763
-    - id: 384347
-      asset_id: 85452
+    - id: 762315
+      asset_id: 114877
       name: cg11.a4
       size: 65536
       blob_id: 43764
-    - id: 384348
-      asset_id: 85452
+    - id: 762316
+      asset_id: 114877
       name: cg12.ic10
       size: 65536
       blob_id: 43765
-    - id: 384349
-      asset_id: 85452
+    - id: 762317
+      asset_id: 114877
       name: cg13.ic9
       size: 65536
       blob_id: 43766
-    - id: 384350
-      asset_id: 85452
+    - id: 762318
+      asset_id: 114877
       name: cg14.ic6
       size: 65536
       blob_id: 43767
-    - id: 384351
-      asset_id: 85452
+    - id: 762319
+      asset_id: 114877
       name: cg15.ic5
       size: 65536
       blob_id: 43768
-    - id: 384352
-      asset_id: 85452
+    - id: 762320
+      asset_id: 114877
       name: cg16.ic4
       size: 65536
       blob_id: 43769
-    - id: 384353
-      asset_id: 85452
+    - id: 762321
+      asset_id: 114877
       name: cg17.ic3
       size: 65536
       blob_id: 43770
-    - id: 384354
-      asset_id: 85452
+    - id: 762322
+      asset_id: 114877
       name: cg18.ic2
       size: 65536
       blob_id: 43771
-    - id: 384355
-      asset_id: 85452
+    - id: 762323
+      asset_id: 114877
       name: cg2.g6
       size: 65536
       blob_id: 43772
-    - id: 384356
-      asset_id: 85452
+    - id: 762324
+      asset_id: 114877
       name: cg3.ef6
       size: 65536
       blob_id: 43778
-    - id: 384357
-      asset_id: 85452
+    - id: 762325
+      asset_id: 114877
       name: cg30.ic14
       size: 65536
-      blob_id: 94146
-    - id: 384358
-      asset_id: 85452
+      blob_id: 282428
+    - id: 762326
+      asset_id: 114877
       name: cg31.ic13
       size: 65536
-      blob_id: 94147
-    - id: 384359
-      asset_id: 85452
+      blob_id: 282429
+    - id: 762327
+      asset_id: 114877
       name: cg32.ic12
       size: 65536
-      blob_id: 187708
-    - id: 384360
-      asset_id: 85452
+      blob_id: 304645
+    - id: 762328
+      asset_id: 114877
       name: cg33.ic11
       size: 65536
-      blob_id: 187709
-    - id: 384361
-      asset_id: 85452
+      blob_id: 304646
+    - id: 762329
+      asset_id: 114877
       name: cg34.k6
       size: 32768
-      blob_id: 187710
-    - id: 384362
-      asset_id: 85452
+      blob_id: 304647
+    - id: 762330
+      asset_id: 114877
       name: cg4.d6
       size: 65536
       blob_id: 43779
-    - id: 384363
-      asset_id: 85452
+    - id: 762331
+      asset_id: 114877
       name: cg5.c6
       size: 65536
       blob_id: 43780
-    - id: 384364
-      asset_id: 85452
+    - id: 762332
+      asset_id: 114877
       name: cg6.a6
       size: 65536
       blob_id: 43781
-    - id: 384365
-      asset_id: 85452
+    - id: 762333
+      asset_id: 114877
       name: cg7.hj4
       size: 65536
       blob_id: 43782
-    - id: 384366
-      asset_id: 85452
+    - id: 762334
+      asset_id: 114877
       name: cg8.g4
       size: 65536
       blob_id: 43783
-    - id: 384367
-      asset_id: 85452
+    - id: 762335
+      asset_id: 114877
       name: cg9.ef4
       size: 65536
       blob_id: 43784
+- release:
+    id: 99063
+    game_id: 4084
+    description: ""
+    release_date: 19890000
+  names:
+  - id: 231959
+    kind: 3
+    kind_id: 99063
+    language: 1
+    name: Super Crowns Golf (Japan, set 1)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 114878
+      kind: 3
+      kind_id: 99063
+      type: 1
+      name: suprgolfj.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 762336
+      asset_id: 114878
+      name: cg1.6j
+      size: 65536
+      blob_id: 43762
+    - id: 762337
+      asset_id: 114878
+      name: cg10.5d
+      size: 65536
+      blob_id: 43763
+    - id: 762338
+      asset_id: 114878
+      name: cg11.5a
+      size: 65536
+      blob_id: 43764
+    - id: 762339
+      asset_id: 114878
+      name: cg12.6k
+      size: 65536
+      blob_id: 43765
+    - id: 762340
+      asset_id: 114878
+      name: cg13.6j
+      size: 65536
+      blob_id: 43766
+    - id: 762341
+      asset_id: 114878
+      name: cg14.5k
+      size: 65536
+      blob_id: 43767
+    - id: 762342
+      asset_id: 114878
+      name: cg15.5j
+      size: 65536
+      blob_id: 43768
+    - id: 762343
+      asset_id: 114878
+      name: cg16.5g
+      size: 65536
+      blob_id: 43769
+    - id: 762344
+      asset_id: 114878
+      name: cg17.5f
+      size: 65536
+      blob_id: 43770
+    - id: 762345
+      asset_id: 114878
+      name: cg18.3k
+      size: 65536
+      blob_id: 43771
+    - id: 762346
+      asset_id: 114878
+      name: cg2.6g
+      size: 65536
+      blob_id: 43772
+    - id: 762347
+      asset_id: 114878
+      name: cg20.7k
+      size: 65536
+      blob_id: 43773
+    - id: 762348
+      asset_id: 114878
+      name: cg21.7j
+      size: 65536
+      blob_id: 43774
+    - id: 762349
+      asset_id: 114878
+      name: cg22.7g
+      size: 65536
+      blob_id: 43775
+    - id: 762350
+      asset_id: 114878
+      name: cg23.7f
+      size: 65536
+      blob_id: 43776
+    - id: 762351
+      asset_id: 114878
+      name: cg24.6k
+      size: 32768
+      blob_id: 43777
+    - id: 762352
+      asset_id: 114878
+      name: cg3.6f
+      size: 65536
+      blob_id: 43778
+    - id: 762353
+      asset_id: 114878
+      name: cg4.6d
+      size: 65536
+      blob_id: 43779
+    - id: 762354
+      asset_id: 114878
+      name: cg5.6c
+      size: 65536
+      blob_id: 43780
+    - id: 762355
+      asset_id: 114878
+      name: cg6.6a
+      size: 65536
+      blob_id: 43781
+    - id: 762356
+      asset_id: 114878
+      name: cg7.5j
+      size: 65536
+      blob_id: 43782
+    - id: 762357
+      asset_id: 114878
+      name: cg8.5g
+      size: 65536
+      blob_id: 43783
+    - id: 762358
+      asset_id: 114878
+      name: cg9.5f
+      size: 65536
+      blob_id: 43784
+- release:
+    id: 99064
+    game_id: 4084
+    description: ""
+    release_date: 19890000
+  names:
+  - id: 231960
+    kind: 3
+    kind_id: 99064
+    language: 1
+    name: Super Crowns Golf (Japan, set 2)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 114879
+      kind: 3
+      kind_id: 99064
+      type: 1
+      name: suprgolfja.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/3685410495
+    entries:
+    - id: 762359
+      asset_id: 114879
+      name: cg1.6j
+      size: 65536
+      blob_id: 43762
+    - id: 762360
+      asset_id: 114879
+      name: cg10.5d
+      size: 65536
+      blob_id: 43763
+    - id: 762361
+      asset_id: 114879
+      name: cg11.5a
+      size: 65536
+      blob_id: 43764
+    - id: 762362
+      asset_id: 114879
+      name: cg12.ic10
+      size: 65536
+      blob_id: 43765
+    - id: 762363
+      asset_id: 114879
+      name: cg13.ic19
+      size: 65536
+      blob_id: 43766
+    - id: 762364
+      asset_id: 114879
+      name: cg14.ic6
+      size: 65536
+      blob_id: 43767
+    - id: 762365
+      asset_id: 114879
+      name: cg15.ic5
+      size: 65536
+      blob_id: 43768
+    - id: 762366
+      asset_id: 114879
+      name: cg16.ic4
+      size: 65536
+      blob_id: 43769
+    - id: 762367
+      asset_id: 114879
+      name: cg17.ic3
+      size: 65536
+      blob_id: 43770
+    - id: 762368
+      asset_id: 114879
+      name: cg18.ic2
+      size: 65536
+      blob_id: 43771
+    - id: 762369
+      asset_id: 114879
+      name: cg2.6g
+      size: 65536
+      blob_id: 43772
+    - id: 762370
+      asset_id: 114879
+      name: cg20.ic14
+      size: 65536
+      blob_id: 304648
+    - id: 762371
+      asset_id: 114879
+      name: cg21.ic13
+      size: 65536
+      blob_id: 43774
+    - id: 762372
+      asset_id: 114879
+      name: cg22.ic12
+      size: 65536
+      blob_id: 43775
+    - id: 762373
+      asset_id: 114879
+      name: cg23.ic11
+      size: 65536
+      blob_id: 43776
+    - id: 762374
+      asset_id: 114879
+      name: cg24.6k
+      size: 32768
+      blob_id: 304649
+    - id: 762375
+      asset_id: 114879
+      name: cg3.6f
+      size: 65536
+      blob_id: 43778
+    - id: 762376
+      asset_id: 114879
+      name: cg4.6d
+      size: 65536
+      blob_id: 43779
+    - id: 762377
+      asset_id: 114879
+      name: cg5.6c
+      size: 65536
+      blob_id: 43780
+    - id: 762378
+      asset_id: 114879
+      name: cg6.6a
+      size: 65536
+      blob_id: 43781
+    - id: 762379
+      asset_id: 114879
+      name: cg7.5j
+      size: 65536
+      blob_id: 43782
+    - id: 762380
+      asset_id: 114879
+      name: cg8.5g
+      size: 65536
+      blob_id: 43783
+    - id: 762381
+      asset_id: 114879
+      name: cg9.5f
+      size: 65536
+      blob_id: 43784
+- release:
+    id: 103304
+    game_id: 4084
+    description: ""
+    release_date: 19890000
+  names:
+  - id: 238280
+    kind: 3
+    kind_id: 103304
+    language: 1
+    name: Albatross (US prototype?)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 93682
+      kind: 3
+      kind_id: 103304
+      type: 1
+      name: albatross.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 538175
+      asset_id: 93682
+      name: 2.4c
+      size: 131072
+      blob_id: 238860
+    - id: 538176
+      asset_id: 93682
+      name: 3.6k
+      size: 32768
+      blob_id: 238861
+    - id: 538177
+      asset_id: 93682
+      name: at1.6h
+      size: 65536
+      blob_id: 43762
+    - id: 538178
+      asset_id: 93682
+      name: at10.4d
+      size: 65536
+      blob_id: 238862
+    - id: 538179
+      asset_id: 93682
+      name: at2.6g
+      size: 65536
+      blob_id: 43772
+    - id: 538180
+      asset_id: 93682
+      name: at3.6e
+      size: 65536
+      blob_id: 43778
+    - id: 538181
+      asset_id: 93682
+      name: at4.6d
+      size: 65536
+      blob_id: 43779
+    - id: 538182
+      asset_id: 93682
+      name: at5.6c
+      size: 65536
+      blob_id: 43780
+    - id: 538183
+      asset_id: 93682
+      name: at6.6a
+      size: 65536
+      blob_id: 43781
+    - id: 538184
+      asset_id: 93682
+      name: at7.4h
+      size: 65536
+      blob_id: 43782
+    - id: 538185
+      asset_id: 93682
+      name: at8.4g
+      size: 65536
+      blob_id: 43783
+    - id: 538186
+      asset_id: 93682
+      name: cg30.ic14
+      size: 65536
+      blob_id: 282428
+    - id: 538187
+      asset_id: 93682
+      name: cg31.ic13
+      size: 65536
+      blob_id: 282429
+    - id: 538188
+      asset_id: 93682
+      name: chr1.3h
+      size: 131072
+      blob_id: 238863
+    - id: 538189
+      asset_id: 93682
+      name: chr2.3g
+      size: 131072
+      blob_id: 238864
+    - id: 538190
+      asset_id: 93682
+      name: chr3.3e
+      size: 131072
+      blob_id: 238865
+    - id: 538191
+      asset_id: 93682
+      name: chr4.3d
+      size: 65536
+      blob_id: 43768
+    - id: 538192
+      asset_id: 93682
+      name: kage.4e
+      size: 65536
+      blob_id: 43784
+    - id: 538193
+      asset_id: 93682
+      name: map.4a
+      size: 65536
+      blob_id: 43764

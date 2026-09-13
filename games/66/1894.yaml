@@ -16,6 +16,18 @@ names:
   language: 2
   name: 金牌高尔夫 2 (轨迹球版, V2.2)
   source: trimui
+- id: 191423
+  kind: 2
+  kind_id: 1894
+  language: 1
+  name: Golden Tee Golf II (Joystick, v1.0)
+  source: mame
+- id: 191424
+  kind: 2
+  kind_id: 1894
+  language: 1
+  name: Golden Tee Golf II (Trackball, v1.1)
+  source: mame
 game_developers:
 - game_id: 1894
   developer_id: 506
@@ -139,24 +151,10 @@ releases:
       blob_id: 85612
       debug: arcade/wheel/gtg2.png
     entries: []
-- release:
-    id: 45353
-    game_id: 1894
-    description: ""
-    release_date: 19920000
-  names:
-  - id: 121401
-    kind: 3
-    kind_id: 45353
-    language: 1
-    name: Golden Tee Golf II (Trackball, v2.2)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 58423
+      id: 100515
       kind: 3
-      kind_id: 45353
+      kind_id: 1894
       type: 1
       name: gtg2.zip
       description: ""
@@ -165,48 +163,200 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 190369
-      asset_id: 58423
+    - id: 621549
+      asset_id: 100515
       name: grom0.bin
       size: 131072
       blob_id: 21098
-    - id: 190370
-      asset_id: 58423
+    - id: 621550
+      asset_id: 100515
       name: grom1.bin
       size: 131072
       blob_id: 21107
-    - id: 190371
-      asset_id: 58423
+    - id: 621551
+      asset_id: 100515
       name: grom2.bin
       size: 131072
       blob_id: 21108
-    - id: 190372
-      asset_id: 58423
+    - id: 621552
+      asset_id: 100515
       name: grom3.bin
       size: 131072
       blob_id: 21109
-    - id: 190373
-      asset_id: 58423
+    - id: 621553
+      asset_id: 100515
       name: grom4.bin
       size: 131072
       blob_id: 21110
-    - id: 190374
-      asset_id: 58423
+    - id: 621554
+      asset_id: 100515
       name: grom5.bin
       size: 131072
       blob_id: 21111
-    - id: 190375
-      asset_id: 58423
+    - id: 621555
+      asset_id: 100515
       name: gtg2_v2_2.u5
       size: 65536
       blob_id: 21112
-    - id: 190376
-      asset_id: 58423
+    - id: 621556
+      asset_id: 100515
       name: sndv1.u27
       size: 32768
       blob_id: 20509
-    - id: 190377
-      asset_id: 58423
+    - id: 621557
+      asset_id: 100515
       name: srom00.bin
       size: 131072
       blob_id: 20510
+- release:
+    id: 85441
+    game_id: 1894
+    description: ""
+    release_date: 19910000
+  names:
+  - id: 212580
+    kind: 3
+    kind_id: 85441
+    language: 1
+    name: Golden Tee Golf II (Joystick, v1.0)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 100516
+      kind: 3
+      kind_id: 85441
+      type: 1
+      name: gtg2j.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 621558
+      asset_id: 100516
+      name: gtg2.bim_1.0.u5
+      size: 65536
+      blob_id: 248268
+    - id: 621559
+      asset_id: 100516
+      name: gtgii-grom0.grom0
+      size: 131072
+      blob_id: 21098
+    - id: 621560
+      asset_id: 100516
+      name: gtgii-grom1.grom1
+      size: 131072
+      blob_id: 21107
+    - id: 621561
+      asset_id: 100516
+      name: gtgii-grom2.grom2
+      size: 131072
+      blob_id: 21108
+    - id: 621562
+      asset_id: 100516
+      name: gtgii-grom3.grom3
+      size: 131072
+      blob_id: 21109
+    - id: 621563
+      asset_id: 100516
+      name: gtgii-grom4.grom4
+      size: 131072
+      blob_id: 21110
+    - id: 621564
+      asset_id: 100516
+      name: gtgii-grom5.grom5
+      size: 131072
+      blob_id: 21111
+    - id: 621565
+      asset_id: 100516
+      name: gtgii_snd_v1_u27.u27
+      size: 32768
+      blob_id: 248269
+    - id: 621566
+      asset_id: 100516
+      name: srom0.bin
+      size: 131072
+      blob_id: 21104
+    - id: 621567
+      asset_id: 100516
+      name: tibpal16l8.u11
+      size: 260
+      blob_id: 248270
+- release:
+    id: 85442
+    game_id: 1894
+    description: ""
+    release_date: 19890000
+  names:
+  - id: 212581
+    kind: 3
+    kind_id: 85442
+    language: 1
+    name: Golden Tee Golf II (Trackball, v1.1)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 100517
+      kind: 3
+      kind_id: 85442
+      type: 1
+      name: gtg2t.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 621568
+      asset_id: 100517
+      name: gtgii-grom0.grom0
+      size: 131072
+      blob_id: 21098
+    - id: 621569
+      asset_id: 100517
+      name: gtgii-grom1.grom1
+      size: 131072
+      blob_id: 21107
+    - id: 621570
+      asset_id: 100517
+      name: gtgii-grom2.grom2
+      size: 131072
+      blob_id: 21108
+    - id: 621571
+      asset_id: 100517
+      name: gtgii-grom3.grom3
+      size: 131072
+      blob_id: 21109
+    - id: 621572
+      asset_id: 100517
+      name: gtgii-grom4.grom4
+      size: 131072
+      blob_id: 21110
+    - id: 621573
+      asset_id: 100517
+      name: gtgii-grom5.grom5
+      size: 131072
+      blob_id: 21111
+    - id: 621574
+      asset_id: 100517
+      name: gtgii_snd_v1_u27.u27
+      size: 32768
+      blob_id: 248269
+    - id: 621575
+      asset_id: 100517
+      name: gtgii_tb_v1.1.u5
+      size: 65536
+      blob_id: 248271
+    - id: 621576
+      asset_id: 100517
+      name: gtgii_vr_srom0.srom0
+      size: 131072
+      blob_id: 20510
+    - id: 621577
+      asset_id: 100517
+      name: tibpal16l8.u11
+      size: 260
+      blob_id: 248270

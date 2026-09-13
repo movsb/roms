@@ -10,6 +10,24 @@ names:
   language: 1
   name: vball
   source: ""
+- id: 201057
+  kind: 2
+  kind_id: 4442
+  language: 1
+  name: U.S. Championship V'ball (Japan)
+  source: mame
+- id: 201058
+  kind: 2
+  kind_id: 4442
+  language: 1
+  name: U.S. Championship V'ball (bootleg of Japan set)
+  source: mame
+- id: 201059
+  kind: 2
+  kind_id: 4442
+  language: 1
+  name: U.S. Championship V'ball (bootleg of US set)
+  source: mame
 game_developers:
 - game_id: 4442
   developer_id: 733
@@ -173,6 +191,63 @@ releases:
       blob_id: 90879
       debug: arcade/wheel/vball.png
     entries: []
+  - asset:
+      id: 117100
+      kind: 3
+      kind_id: 4442
+      type: 1
+      name: vball.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 785138
+      asset_id: 117100
+      name: 25a2-4.124
+      size: 65536
+      blob_id: 48156
+    - id: 785139
+      asset_id: 117100
+      name: 25j0-0.78
+      size: 131072
+      blob_id: 48174
+    - id: 785140
+      asset_id: 117100
+      name: 25j1-0.47
+      size: 32768
+      blob_id: 48161
+    - id: 785141
+      asset_id: 117100
+      name: 25j3-0.5
+      size: 131072
+      blob_id: 48162
+    - id: 785142
+      asset_id: 117100
+      name: 25j4-0.35
+      size: 131072
+      blob_id: 48158
+    - id: 785143
+      asset_id: 117100
+      name: 25j5-0.144
+      size: 2048
+      blob_id: 48160
+    - id: 785144
+      asset_id: 117100
+      name: 25j6-0.143
+      size: 2048
+      blob_id: 48159
+    - id: 785145
+      asset_id: 117100
+      name: 25j7-0.160
+      size: 2048
+      blob_id: 48157
+    - id: 785146
+      asset_id: 117100
+      name: trj-101.96
+      size: 524288
+      blob_id: 48175
 - release:
     id: 4443
     game_id: 4442
@@ -341,73 +416,305 @@ releases:
       size: 65536
       blob_id: 48164
 - release:
-    id: 74793
+    id: 101145
     game_id: 4442
     description: ""
     release_date: 19880000
   names:
-  - id: 179453
+  - id: 234894
     kind: 3
-    kind_id: 74793
+    kind_id: 101145
     language: 1
-    name: U.S. Championship V'ball (US)
+    name: U.S. Championship V'ball (Japan)
     source: mame
   release_publishers: []
   assets:
   - asset:
-      id: 87863
+      id: 117101
       kind: 3
-      kind_id: 74793
+      kind_id: 101145
       type: 1
-      name: vball.zip
+      name: vball2pj.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 408153
-      asset_id: 87863
-      name: 25a2-4.124
-      size: 65536
-      blob_id: 48156
-    - id: 408154
-      asset_id: 87863
+    - id: 785147
+      asset_id: 117101
       name: 25j0-0.78
       size: 131072
       blob_id: 48174
-    - id: 408155
-      asset_id: 87863
+    - id: 785148
+      asset_id: 117101
       name: 25j1-0.47
       size: 32768
       blob_id: 48161
-    - id: 408156
-      asset_id: 87863
+    - id: 785149
+      asset_id: 117101
+      name: 25j2-2-5.124
+      size: 65536
+      blob_id: 48176
+    - id: 785150
+      asset_id: 117101
       name: 25j3-0.5
       size: 131072
       blob_id: 48162
-    - id: 408157
-      asset_id: 87863
+    - id: 785151
+      asset_id: 117101
       name: 25j4-0.35
       size: 131072
       blob_id: 48158
-    - id: 408158
-      asset_id: 87863
+    - id: 785152
+      asset_id: 117101
       name: 25j5-0.144
       size: 2048
       blob_id: 48160
-    - id: 408159
-      asset_id: 87863
+    - id: 785153
+      asset_id: 117101
       name: 25j6-0.143
       size: 2048
       blob_id: 48159
-    - id: 408160
-      asset_id: 87863
+    - id: 785154
+      asset_id: 117101
       name: 25j7-0.160
       size: 2048
       blob_id: 48157
-    - id: 408161
-      asset_id: 87863
+    - id: 785155
+      asset_id: 117101
       name: trj-101.96
       size: 524288
       blob_id: 48175
+- release:
+    id: 101146
+    game_id: 4442
+    description: ""
+    release_date: 19880000
+  names:
+  - id: 234895
+    kind: 3
+    kind_id: 101146
+    language: 1
+    name: U.S. Championship V'ball (bootleg of Japan set)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 117102
+      kind: 3
+      kind_id: 101146
+      type: 1
+      name: vball2pjb.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 785156
+      asset_id: 117102
+      name: "1.124"
+      size: 65536
+      blob_id: 48176
+    - id: 785157
+      asset_id: 117102
+      name: "10"
+      size: 65536
+      blob_id: 48166
+    - id: 785158
+      asset_id: 117102
+      name: "11"
+      size: 65536
+      blob_id: 48167
+    - id: 785159
+      asset_id: 117102
+      name: "12"
+      size: 65536
+      blob_id: 48168
+    - id: 785160
+      asset_id: 117102
+      name: "13"
+      size: 65536
+      blob_id: 48169
+    - id: 785161
+      asset_id: 117102
+      name: "14"
+      size: 65536
+      blob_id: 48170
+    - id: 785162
+      asset_id: 117102
+      name: "15"
+      size: 65536
+      blob_id: 48171
+    - id: 785163
+      asset_id: 117102
+      name: "16"
+      size: 65536
+      blob_id: 48172
+    - id: 785164
+      asset_id: 117102
+      name: 25j5-0.144
+      size: 2048
+      blob_id: 48160
+    - id: 785165
+      asset_id: 117102
+      name: 25j6-0.143
+      size: 2048
+      blob_id: 48159
+    - id: 785166
+      asset_id: 117102
+      name: 25j7-0.160
+      size: 2048
+      blob_id: 48157
+    - id: 785167
+      asset_id: 117102
+      name: 3.ic79
+      size: 32768
+      blob_id: 48177
+    - id: 785168
+      asset_id: 117102
+      name: 4.ic47
+      size: 32768
+      blob_id: 48178
+    - id: 785169
+      asset_id: 117102
+      name: "5"
+      size: 65536
+      blob_id: 48179
+    - id: 785170
+      asset_id: 117102
+      name: "6"
+      size: 65536
+      blob_id: 48180
+    - id: 785171
+      asset_id: 117102
+      name: "7"
+      size: 65536
+      blob_id: 48181
+    - id: 785172
+      asset_id: 117102
+      name: "8"
+      size: 65536
+      blob_id: 48182
+    - id: 785173
+      asset_id: 117102
+      name: "9"
+      size: 65536
+      blob_id: 48165
+    - id: 785174
+      asset_id: 117102
+      name: vball.78a
+      size: 65536
+      blob_id: 48163
+- release:
+    id: 101147
+    game_id: 4442
+    description: ""
+    release_date: 19880000
+  names:
+  - id: 234896
+    kind: 3
+    kind_id: 101147
+    language: 1
+    name: U.S. Championship V'ball (bootleg of US set)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 117103
+      kind: 3
+      kind_id: 101147
+      type: 1
+      name: vballb.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 785175
+      asset_id: 117103
+      name: "10"
+      size: 65536
+      blob_id: 48166
+    - id: 785176
+      asset_id: 117103
+      name: "11"
+      size: 65536
+      blob_id: 48167
+    - id: 785177
+      asset_id: 117103
+      name: "12"
+      size: 65536
+      blob_id: 48168
+    - id: 785178
+      asset_id: 117103
+      name: "13"
+      size: 65536
+      blob_id: 48169
+    - id: 785179
+      asset_id: 117103
+      name: "14"
+      size: 65536
+      blob_id: 48170
+    - id: 785180
+      asset_id: 117103
+      name: "15"
+      size: 65536
+      blob_id: 48171
+    - id: 785181
+      asset_id: 117103
+      name: "16"
+      size: 65536
+      blob_id: 48172
+    - id: 785182
+      asset_id: 117103
+      name: 25j1-0.47
+      size: 32768
+      blob_id: 48161
+    - id: 785183
+      asset_id: 117103
+      name: 25j5-0.144
+      size: 2048
+      blob_id: 48160
+    - id: 785184
+      asset_id: 117103
+      name: 25j6-0.143
+      size: 2048
+      blob_id: 48159
+    - id: 785185
+      asset_id: 117103
+      name: 25j7-0.160
+      size: 2048
+      blob_id: 48157
+    - id: 785186
+      asset_id: 117103
+      name: "9"
+      size: 65536
+      blob_id: 48165
+    - id: 785187
+      asset_id: 117103
+      name: vball.124
+      size: 65536
+      blob_id: 48156
+    - id: 785188
+      asset_id: 117103
+      name: vball.35
+      size: 131072
+      blob_id: 48158
+    - id: 785189
+      asset_id: 117103
+      name: vball.5
+      size: 131072
+      blob_id: 48162
+    - id: 785190
+      asset_id: 117103
+      name: vball.78a
+      size: 65536
+      blob_id: 48163
+    - id: 785191
+      asset_id: 117103
+      name: vball.78b
+      size: 65536
+      blob_id: 48164

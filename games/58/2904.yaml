@@ -16,6 +16,12 @@ names:
   language: 2
   name: 魔法美女气泡 (第一套)
   source: trimui
+- id: 193846
+  kind: 2
+  kind_id: 2904
+  language: 1
+  name: News (set 2)
+  source: mame
 game_developers:
 - game_id: 2904
   developer_id: 746
@@ -114,3 +120,49 @@ releases:
       blob_id: 91388
       debug: arcade/wheel/news.png
     entries: []
+- release:
+    id: 90192
+    game_id: 2904
+    description: ""
+    release_date: 19930000
+  names:
+  - id: 219995
+    kind: 3
+    kind_id: 90192
+    language: 1
+    name: News (set 2)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 105593
+      kind: 3
+      kind_id: 90192
+      type: 1
+      name: newsa.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 675242
+      asset_id: 105593
+      name: newsa_virus.4
+      size: 65536
+      blob_id: 260650
+    - id: 675243
+      asset_id: 105593
+      name: virus.1
+      size: 262144
+      blob_id: 30775
+    - id: 675244
+      asset_id: 105593
+      name: virus.2
+      size: 262144
+      blob_id: 30776
+    - id: 675245
+      asset_id: 105593
+      name: virus.3
+      size: 262144
+      blob_id: 30777

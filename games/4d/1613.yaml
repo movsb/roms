@@ -10,10 +10,32 @@ names:
   language: 1
   name: feversos
   source: ""
+- id: 186790
+  kind: 2
+  kind_id: 1613
+  language: 1
+  name: dfeveron
+  source: ""
+- id: 186791
+  kind: 2
+  kind_id: 1613
+  language: 2
+  name: 弹铳飞翼（日版, 版本 98/09/17）
+  source: ""
+- id: 186792
+  kind: 2
+  kind_id: 1613
+  language: 2
+  name: 弹铳 (日版, 98/09/17 版本)
+  source: trimui
 game_developers:
+- game_id: 1613
+  developer_id: 197
 - game_id: 1613
   developer_id: 566
 game_genres:
+- game_id: 1613
+  genre_id: 3
 - game_id: 1613
   genre_id: 39
 assets: []
@@ -215,3 +237,77 @@ releases:
       name: eeprom-feversos.bin
       size: 128
       blob_id: 17729
+- release:
+    id: 102917
+    game_id: 1613
+    description: ""
+    release_date: 19980917
+  names:
+  - id: 237620
+    kind: 3
+    kind_id: 102917
+    language: 1
+    name: dfeveron
+    source: ""
+  - id: 237621
+    kind: 3
+    kind_id: 102917
+    language: 2
+    name: 弹铳 (日版, 98/09/17 版本)
+    source: trimui
+  release_publishers:
+  - release_id: 102917
+    publisher_id: 344
+  assets:
+  - asset:
+      id: 97484
+      kind: 3
+      kind_id: 102917
+      type: 1
+      name: dfeveron.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 586293
+      asset_id: 97484
+      name: cv01-u19.bin
+      size: 4194304
+      blob_id: 15058
+    - id: 586294
+      asset_id: 97484
+      name: cv01-u25.bin
+      size: 4194304
+      blob_id: 15059
+    - id: 586295
+      asset_id: 97484
+      name: cv01-u26.bin
+      size: 4194304
+      blob_id: 15060
+    - id: 586296
+      asset_id: 97484
+      name: cv01-u33.bin
+      size: 524288
+      blob_id: 15061
+    - id: 586297
+      asset_id: 97484
+      name: cv01-u34.bin
+      size: 524288
+      blob_id: 15062
+    - id: 586298
+      asset_id: 97484
+      name: cv01-u49.bin
+      size: 2097152
+      blob_id: 15063
+    - id: 586299
+      asset_id: 97484
+      name: cv01-u50.bin
+      size: 2097152
+      blob_id: 15064
+    - id: 586300
+      asset_id: 97484
+      name: eeprom-dfeveron.bin
+      size: 128
+      blob_id: 17730

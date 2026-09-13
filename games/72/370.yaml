@@ -16,6 +16,18 @@ names:
   language: 2
   name: 小精灵与牙牙
   source: trimui
+- id: 194174
+  kind: 2
+  kind_id: 370
+  language: 1
+  name: Pac-Man & Chomp Chomp
+  source: mame
+- id: 194175
+  kind: 2
+  kind_id: 370
+  language: 1
+  name: Pac & Pal (older)
+  source: mame
 game_developers:
 - game_id: 370
   developer_id: 19
@@ -144,24 +156,10 @@ releases:
       blob_id: 91460
       debug: arcade/wheel/pacnpal.png
     entries: []
-- release:
-    id: 60339
-    game_id: 370
-    description: ""
-    release_date: 19830000
-  names:
-  - id: 151029
-    kind: 3
-    kind_id: 60339
-    language: 1
-    name: Pac & Pal
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 73409
+      id: 106246
       kind: 3
-      kind_id: 60339
+      kind_id: 370
       type: 1
       name: pacnpal.zip
       description: ""
@@ -170,53 +168,205 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 288041
-      asset_id: 73409
+    - id: 682373
+      asset_id: 106246
       name: pap1-2b.1c
       size: 8192
       blob_id: 3270
-    - id: 288042
-      asset_id: 73409
+    - id: 682374
+      asset_id: 106246
       name: pap1-3.3m
       size: 256
-      blob_id: 155779
-    - id: 288043
-      asset_id: 73409
+      blob_id: 262723
+    - id: 682375
+      asset_id: 106246
       name: pap1-3b.1d
       size: 8192
       blob_id: 3271
-    - id: 288044
-      asset_id: 73409
+    - id: 682376
+      asset_id: 106246
       name: pap1-4.1k
       size: 4096
       blob_id: 3272
-    - id: 288045
-      asset_id: 73409
+    - id: 682377
+      asset_id: 106246
       name: pap1-4.3l
       size: 256
       blob_id: 3276
-    - id: 288046
-      asset_id: 73409
+    - id: 682378
+      asset_id: 106246
       name: pap1-5.3f
       size: 8192
       blob_id: 3273
-    - id: 288047
-      asset_id: 73409
+    - id: 682379
+      asset_id: 106246
       name: pap1-5.4e
       size: 256
       blob_id: 3277
-    - id: 288048
-      asset_id: 73409
+    - id: 682380
+      asset_id: 106246
       name: pap1-6.3c
       size: 4096
       blob_id: 3274
-    - id: 288049
-      asset_id: 73409
+    - id: 682381
+      asset_id: 106246
       name: pap1-6.4c
       size: 32
       blob_id: 3278
-    - id: 288050
-      asset_id: 73409
+    - id: 682382
+      asset_id: 106246
       name: pap3-1.1b
       size: 8192
       blob_id: 3269
+- release:
+    id: 90803
+    game_id: 370
+    description: ""
+    release_date: 19830000
+  names:
+  - id: 220928
+    kind: 3
+    kind_id: 90803
+    language: 1
+    name: Pac & Pal (older)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 106247
+      kind: 3
+      kind_id: 90803
+      type: 1
+      name: pacnpal2.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 682383
+      asset_id: 106247
+      name: pap1-1.1b
+      size: 8192
+      blob_id: 262724
+    - id: 682384
+      asset_id: 106247
+      name: pap1-2.1c
+      size: 8192
+      blob_id: 262725
+    - id: 682385
+      asset_id: 106247
+      name: pap1-3.1d
+      size: 8192
+      blob_id: 262726
+    - id: 682386
+      asset_id: 106247
+      name: pap1-3.3m
+      size: 256
+      blob_id: 262723
+    - id: 682387
+      asset_id: 106247
+      name: pap1-4.1k
+      size: 4096
+      blob_id: 3272
+    - id: 682388
+      asset_id: 106247
+      name: pap1-4.3l
+      size: 256
+      blob_id: 3276
+    - id: 682389
+      asset_id: 106247
+      name: pap1-5.3f
+      size: 8192
+      blob_id: 3273
+    - id: 682390
+      asset_id: 106247
+      name: pap1-5.4e
+      size: 256
+      blob_id: 3277
+    - id: 682391
+      asset_id: 106247
+      name: pap1-6.3c
+      size: 4096
+      blob_id: 3274
+    - id: 682392
+      asset_id: 106247
+      name: pap1-6.4c
+      size: 32
+      blob_id: 3278
+- release:
+    id: 104607
+    game_id: 370
+    description: ""
+    release_date: 19830000
+  names:
+  - id: 239583
+    kind: 3
+    kind_id: 104607
+    language: 1
+    name: Pac-Man & Chomp Chomp
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 106245
+      kind: 3
+      kind_id: 104607
+      type: 1
+      name: pacnchmp.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 682363
+      asset_id: 106245
+      name: pap1-3.3m
+      size: 256
+      blob_id: 262723
+    - id: 682364
+      asset_id: 106245
+      name: pap1-4.1k
+      size: 4096
+      blob_id: 3272
+    - id: 682365
+      asset_id: 106245
+      name: pap2-4.3l
+      size: 256
+      blob_id: 262716
+    - id: 682366
+      asset_id: 106245
+      name: pap2-5.3f
+      size: 8192
+      blob_id: 262717
+    - id: 682367
+      asset_id: 106245
+      name: pap2-5.4e
+      size: 256
+      blob_id: 262718
+    - id: 682368
+      asset_id: 106245
+      name: pap2-6.3c
+      size: 4096
+      blob_id: 262719
+    - id: 682369
+      asset_id: 106245
+      name: pap2-6.4c
+      size: 32
+      blob_id: 262720
+    - id: 682370
+      asset_id: 106245
+      name: pap3-1.1b
+      size: 8192
+      blob_id: 3269
+    - id: 682371
+      asset_id: 106245
+      name: pap3-2.1c
+      size: 8192
+      blob_id: 262721
+    - id: 682372
+      asset_id: 106245
+      name: pap3-3.1d
+      size: 8192
+      blob_id: 262722

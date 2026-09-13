@@ -168,6 +168,33 @@ releases:
       blob_id: 90235
       debug: arcade/wheel/diamond.png
     entries: []
+  - asset:
+      id: 97534
+      kind: 3
+      kind_id: 141
+      type: 1
+      name: diamond.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 586659
+      asset_id: 97534
+      name: bk301_26601.u4
+      size: 32768
+      blob_id: 212216
+    - id: 586660
+      asset_id: 97534
+      name: novag_9303-010052_6433258b47p.u6
+      size: 32768
+      blob_id: 212217
+    - id: 586661
+      asset_id: 97534
+      name: nvip.svg
+      size: 36256
+      blob_id: 205641
 - release:
     id: 1368
     game_id: 141
@@ -297,32 +324,111 @@ releases:
     language: 1
     name: Diamond
     source: mame
-  release_publishers: []
+  - id: 183966
+    kind: 3
+    kind_id: 40811
+    language: 1
+    name: DIAMOND
+    source: ""
+  - id: 183967
+    kind: 3
+    kind_id: 40811
+    language: 2
+    name: 挖钻石
+    source: trimui
+  release_publishers:
+  - release_id: 40811
+    publisher_id: 672
   assets:
   - asset:
-      id: 53881
+      id: 90690
       kind: 3
       kind_id: 40811
       type: 1
       name: diamond.zip
       description: ""
       format: 2
-      size: 0
+      size: 42771
       blob_id: 0
-      debug: dat:mame:0.289
+      debug: DIAMOND.ZIP
     entries:
-    - id: 149737
-      asset_id: 53881
-      name: bk301_26601.u4
+    - id: 468043
+      asset_id: 90690
+      name: d1
+      size: 16384
+      blob_id: 1528
+    - id: 468044
+      asset_id: 90690
+      name: d10
+      size: 16384
+      blob_id: 1529
+    - id: 468045
+      asset_id: 90690
+      name: d11
+      size: 16384
+      blob_id: 1530
+    - id: 468046
+      asset_id: 90690
+      name: d14
+      size: 16384
+      blob_id: 1531
+    - id: 468047
+      asset_id: 90690
+      name: d17
+      size: 16384
+      blob_id: 1532
+    - id: 468048
+      asset_id: 90690
+      name: d2
       size: 32768
-      blob_id: 108805
-    - id: 149738
-      asset_id: 53881
-      name: novag_9303-010052_6433258b47p.u6
+      blob_id: 1533
+    - id: 468049
+      asset_id: 90690
+      name: d3
       size: 32768
-      blob_id: 108806
-    - id: 149739
-      asset_id: 53881
-      name: nvip.svg
-      size: 36256
-      blob_id: 98828
+      blob_id: 1534
+    - id: 468050
+      asset_id: 90690
+      name: d3o
+      size: 16384
+      blob_id: 1535
+    - id: 468051
+      asset_id: 90690
+      name: d5
+      size: 32768
+      blob_id: 1536
+    - id: 468052
+      asset_id: 90690
+      name: d5o
+      size: 32768
+      blob_id: 1537
+    - id: 468053
+      asset_id: 90690
+      name: d6
+      size: 16384
+      blob_id: 1538
+    - id: 468054
+      asset_id: 90690
+      name: d7
+      size: 16384
+      blob_id: 1539
+    - id: 468055
+      asset_id: 90690
+      name: d8
+      size: 16384
+      blob_id: 1540
+    - id: 468056
+      asset_id: 90690
+      name: d9
+      size: 16384
+      blob_id: 1541
+    - id: 468057
+      asset_id: 90690
+      name: prom1
+      size: 256
+      blob_id: 215
+    - id: 468058
+      asset_id: 90690
+      name: prom2
+      size: 256
+      blob_id: 1542

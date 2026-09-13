@@ -10,6 +10,18 @@ names:
   language: 1
   name: zerowing
   source: ""
+- id: 201699
+  kind: 2
+  kind_id: 4695
+  language: 1
+  name: Zero Wing (1P set)
+  source: mame
+- id: 201700
+  kind: 2
+  kind_id: 4695
+  language: 1
+  name: Zero Wing (2P set, Williams license)
+  source: mame
 game_developers:
 - game_id: 4695
   developer_id: 504
@@ -40,93 +52,6 @@ releases:
   - release_id: 4695
     publisher_id: 376
   assets:
-  - asset:
-      id: 4677
-      kind: 3
-      kind_id: 4695
-      type: 1
-      name: zerowing.zip
-      description: ""
-      format: 2
-      size: 556450
-      blob_id: 0
-      debug: zerowing.zip
-    entries:
-    - id: 81751
-      asset_id: 4677
-      name: o15-01.rom
-      size: 131072
-      blob_id: 50925
-    - id: 81752
-      asset_id: 4677
-      name: o15-02.rom
-      size: 131072
-      blob_id: 50926
-    - id: 81753
-      asset_id: 4677
-      name: o15-03.rom
-      size: 131072
-      blob_id: 50927
-    - id: 81754
-      asset_id: 4677
-      name: o15-04.rom
-      size: 131072
-      blob_id: 50928
-    - id: 81755
-      asset_id: 4677
-      name: o15-05.rom
-      size: 131072
-      blob_id: 50929
-    - id: 81756
-      asset_id: 4677
-      name: o15-06.rom
-      size: 131072
-      blob_id: 50930
-    - id: 81757
-      asset_id: 4677
-      name: o15-07.rom
-      size: 131072
-      blob_id: 50931
-    - id: 81758
-      asset_id: 4677
-      name: o15-08.rom
-      size: 131072
-      blob_id: 50932
-    - id: 81759
-      asset_id: 4677
-      name: o15-09.rom
-      size: 131072
-      blob_id: 50933
-    - id: 81760
-      asset_id: 4677
-      name: o15-10.rom
-      size: 131072
-      blob_id: 50934
-    - id: 81761
-      asset_id: 4677
-      name: o15-11ii.bin
-      size: 32768
-      blob_id: 50935
-    - id: 81762
-      asset_id: 4677
-      name: o15-12ii.bin
-      size: 32768
-      blob_id: 50936
-    - id: 81763
-      asset_id: 4677
-      name: o15-13.rom
-      size: 32768
-      blob_id: 50937
-    - id: 81764
-      asset_id: 4677
-      name: tp015_14.bpr
-      size: 32
-      blob_id: 14808
-    - id: 81765
-      asset_id: 4677
-      name: tp015_15.bpr
-      size: 32
-      blob_id: 14809
   - asset:
       id: 46842
       kind: 3
@@ -291,20 +216,228 @@ releases:
       size: 32768
       blob_id: 50941
 - release:
-    id: 4697
+    id: 76153
     game_id: 4695
     description: ""
-    release_date: 0
+    release_date: 19890000
   names:
-  - id: 95100
+  - id: 182097
     kind: 3
-    kind_id: 4697
+    kind_id: 76153
+    language: 1
+    name: Zero Wing (2P set)
+    source: mame
+  - id: 184138
+    kind: 3
+    kind_id: 76153
     language: 1
     name: zerowing
     source: ""
-  - id: 102546
+  - id: 184139
     kind: 3
-    kind_id: 4697
+    kind_id: 76153
+    language: 2
+    name: 零翼战机 (2P 版)
+    source: trimui
+  release_publishers:
+  - release_id: 76153
+    publisher_id: 376
+  assets:
+  - asset:
+      id: 4677
+      kind: 3
+      kind_id: 76153
+      type: 1
+      name: zerowing.zip
+      description: ""
+      format: 2
+      size: 556450
+      blob_id: 0
+      debug: zerowing.zip
+    entries:
+    - id: 81751
+      asset_id: 4677
+      name: o15-01.rom
+      size: 131072
+      blob_id: 50925
+    - id: 81752
+      asset_id: 4677
+      name: o15-02.rom
+      size: 131072
+      blob_id: 50926
+    - id: 81753
+      asset_id: 4677
+      name: o15-03.rom
+      size: 131072
+      blob_id: 50927
+    - id: 81754
+      asset_id: 4677
+      name: o15-04.rom
+      size: 131072
+      blob_id: 50928
+    - id: 81755
+      asset_id: 4677
+      name: o15-05.rom
+      size: 131072
+      blob_id: 50929
+    - id: 81756
+      asset_id: 4677
+      name: o15-06.rom
+      size: 131072
+      blob_id: 50930
+    - id: 81757
+      asset_id: 4677
+      name: o15-07.rom
+      size: 131072
+      blob_id: 50931
+    - id: 81758
+      asset_id: 4677
+      name: o15-08.rom
+      size: 131072
+      blob_id: 50932
+    - id: 81759
+      asset_id: 4677
+      name: o15-09.rom
+      size: 131072
+      blob_id: 50933
+    - id: 81760
+      asset_id: 4677
+      name: o15-10.rom
+      size: 131072
+      blob_id: 50934
+    - id: 81761
+      asset_id: 4677
+      name: o15-11ii.bin
+      size: 32768
+      blob_id: 50935
+    - id: 81762
+      asset_id: 4677
+      name: o15-12ii.bin
+      size: 32768
+      blob_id: 50936
+    - id: 81763
+      asset_id: 4677
+      name: o15-13.rom
+      size: 32768
+      blob_id: 50937
+    - id: 81764
+      asset_id: 4677
+      name: tp015_14.bpr
+      size: 32
+      blob_id: 14808
+    - id: 81765
+      asset_id: 4677
+      name: tp015_15.bpr
+      size: 32
+      blob_id: 14809
+  - asset:
+      id: 118354
+      kind: 3
+      kind_id: 76153
+      type: 1
+      name: zerowing.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 803227
+      asset_id: 118354
+      name: o15-01.rom
+      size: 131072
+      blob_id: 50925
+    - id: 803228
+      asset_id: 118354
+      name: o15-02.rom
+      size: 131072
+      blob_id: 50926
+    - id: 803229
+      asset_id: 118354
+      name: o15-03.rom
+      size: 131072
+      blob_id: 50927
+    - id: 803230
+      asset_id: 118354
+      name: o15-04.rom
+      size: 131072
+      blob_id: 50928
+    - id: 803231
+      asset_id: 118354
+      name: o15-05.rom
+      size: 131072
+      blob_id: 50929
+    - id: 803232
+      asset_id: 118354
+      name: o15-06.rom
+      size: 131072
+      blob_id: 50930
+    - id: 803233
+      asset_id: 118354
+      name: o15-07.rom
+      size: 131072
+      blob_id: 50931
+    - id: 803234
+      asset_id: 118354
+      name: o15-08.rom
+      size: 131072
+      blob_id: 50932
+    - id: 803235
+      asset_id: 118354
+      name: o15-09.rom
+      size: 131072
+      blob_id: 50933
+    - id: 803236
+      asset_id: 118354
+      name: o15-10.rom
+      size: 131072
+      blob_id: 50934
+    - id: 803237
+      asset_id: 118354
+      name: o15-11ii.bin
+      size: 32768
+      blob_id: 50935
+    - id: 803238
+      asset_id: 118354
+      name: o15-12ii.bin
+      size: 32768
+      blob_id: 50936
+    - id: 803239
+      asset_id: 118354
+      name: o15-13.rom
+      size: 32768
+      blob_id: 50937
+    - id: 803240
+      asset_id: 118354
+      name: tp015_14.prom14.3d
+      size: 32
+      blob_id: 14808
+    - id: 803241
+      asset_id: 118354
+      name: tp015_15.prom15.2c
+      size: 32
+      blob_id: 14809
+- release:
+    id: 78254
+    game_id: 4695
+    description: ""
+    release_date: 19890000
+  names:
+  - id: 186550
+    kind: 3
+    kind_id: 78254
+    language: 1
+    name: Zero Wing (1P set)
+    source: mame
+  - id: 186551
+    kind: 3
+    kind_id: 78254
+    language: 1
+    name: zerowing
+    source: ""
+  - id: 186552
+    kind: 3
+    kind_id: 78254
     language: 2
     name: 零翼战机 (2P 版)
     source: trimui
@@ -313,7 +446,7 @@ releases:
   - asset:
       id: 4679
       kind: 3
-      kind_id: 4697
+      kind_id: 78254
       type: 1
       name: zerowing.zip
       description: ""
@@ -398,103 +531,378 @@ releases:
       size: 32
       blob_id: 14809
 - release:
-    id: 76153
+    id: 102318
     game_id: 4695
     description: ""
     release_date: 19890000
   names:
-  - id: 182097
+  - id: 236597
     kind: 3
-    kind_id: 76153
+    kind_id: 102318
     language: 1
-    name: Zero Wing (2P set)
+    name: Zero Wing (1P set)
     source: mame
   release_publishers: []
   assets:
   - asset:
-      id: 89223
+      id: 118355
       kind: 3
-      kind_id: 76153
+      kind_id: 102318
       type: 1
-      name: zerowing.zip
+      name: zerowing1.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 426837
-      asset_id: 89223
+    - id: 803242
+      asset_id: 118355
       name: o15-01.rom
       size: 131072
       blob_id: 50925
-    - id: 426838
-      asset_id: 89223
+    - id: 803243
+      asset_id: 118355
       name: o15-02.rom
       size: 131072
       blob_id: 50926
-    - id: 426839
-      asset_id: 89223
+    - id: 803244
+      asset_id: 118355
       name: o15-03.rom
       size: 131072
       blob_id: 50927
-    - id: 426840
-      asset_id: 89223
+    - id: 803245
+      asset_id: 118355
       name: o15-04.rom
       size: 131072
       blob_id: 50928
-    - id: 426841
-      asset_id: 89223
+    - id: 803246
+      asset_id: 118355
       name: o15-05.rom
       size: 131072
       blob_id: 50929
-    - id: 426842
-      asset_id: 89223
+    - id: 803247
+      asset_id: 118355
       name: o15-06.rom
       size: 131072
       blob_id: 50930
-    - id: 426843
-      asset_id: 89223
+    - id: 803248
+      asset_id: 118355
       name: o15-07.rom
       size: 131072
       blob_id: 50931
-    - id: 426844
-      asset_id: 89223
+    - id: 803249
+      asset_id: 118355
       name: o15-08.rom
       size: 131072
       blob_id: 50932
-    - id: 426845
-      asset_id: 89223
+    - id: 803250
+      asset_id: 118355
       name: o15-09.rom
       size: 131072
       blob_id: 50933
-    - id: 426846
-      asset_id: 89223
+    - id: 803251
+      asset_id: 118355
       name: o15-10.rom
       size: 131072
       blob_id: 50934
-    - id: 426847
-      asset_id: 89223
-      name: o15-11ii.bin
+    - id: 803252
+      asset_id: 118355
+      name: o15-11.rom
       size: 32768
-      blob_id: 50935
-    - id: 426848
-      asset_id: 89223
-      name: o15-12ii.bin
+      blob_id: 50938
+    - id: 803253
+      asset_id: 118355
+      name: o15-12.rom
       size: 32768
-      blob_id: 50936
-    - id: 426849
-      asset_id: 89223
+      blob_id: 50939
+    - id: 803254
+      asset_id: 118355
       name: o15-13.rom
       size: 32768
       blob_id: 50937
-    - id: 426850
-      asset_id: 89223
+    - id: 803255
+      asset_id: 118355
       name: tp015_14.prom14.3d
       size: 32
       blob_id: 14808
-    - id: 426851
-      asset_id: 89223
+    - id: 803256
+      asset_id: 118355
       name: tp015_15.prom15.2c
+      size: 32
+      blob_id: 14809
+  - asset:
+      id: 119867
+      kind: 3
+      kind_id: 102318
+      type: 1
+      name: zerowing1.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 844566
+      asset_id: 119867
+      name: o15-01.rom
+      size: 131072
+      blob_id: 50925
+    - id: 844567
+      asset_id: 119867
+      name: o15-02.rom
+      size: 131072
+      blob_id: 50926
+    - id: 844568
+      asset_id: 119867
+      name: o15-03.rom
+      size: 131072
+      blob_id: 50927
+    - id: 844569
+      asset_id: 119867
+      name: o15-04.rom
+      size: 131072
+      blob_id: 50928
+    - id: 844570
+      asset_id: 119867
+      name: o15-05.rom
+      size: 131072
+      blob_id: 50929
+    - id: 844571
+      asset_id: 119867
+      name: o15-06.rom
+      size: 131072
+      blob_id: 50930
+    - id: 844572
+      asset_id: 119867
+      name: o15-07.rom
+      size: 131072
+      blob_id: 50931
+    - id: 844573
+      asset_id: 119867
+      name: o15-08.rom
+      size: 131072
+      blob_id: 50932
+    - id: 844574
+      asset_id: 119867
+      name: o15-09.rom
+      size: 131072
+      blob_id: 50933
+    - id: 844575
+      asset_id: 119867
+      name: o15-10.rom
+      size: 131072
+      blob_id: 50934
+    - id: 844576
+      asset_id: 119867
+      name: o15-11.rom
+      size: 32768
+      blob_id: 50938
+    - id: 844577
+      asset_id: 119867
+      name: o15-12.rom
+      size: 32768
+      blob_id: 50939
+    - id: 844578
+      asset_id: 119867
+      name: o15-13.rom
+      size: 32768
+      blob_id: 50937
+    - id: 844579
+      asset_id: 119867
+      name: tp015_14.bpr
+      size: 32
+      blob_id: 14808
+    - id: 844580
+      asset_id: 119867
+      name: tp015_15.bpr
+      size: 32
+      blob_id: 14809
+- release:
+    id: 102319
+    game_id: 4695
+    description: ""
+    release_date: 19890000
+  names:
+  - id: 236598
+    kind: 3
+    kind_id: 102319
+    language: 1
+    name: Zero Wing (2P set, Williams license)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 118356
+      kind: 3
+      kind_id: 102319
+      type: 1
+      name: zerowingw.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 803257
+      asset_id: 118356
+      name: o15-01.rom
+      size: 131072
+      blob_id: 50925
+    - id: 803258
+      asset_id: 118356
+      name: o15-02.rom
+      size: 131072
+      blob_id: 50926
+    - id: 803259
+      asset_id: 118356
+      name: o15-03.rom
+      size: 131072
+      blob_id: 50927
+    - id: 803260
+      asset_id: 118356
+      name: o15-04.rom
+      size: 131072
+      blob_id: 50928
+    - id: 803261
+      asset_id: 118356
+      name: o15-05.rom
+      size: 131072
+      blob_id: 50929
+    - id: 803262
+      asset_id: 118356
+      name: o15-06.rom
+      size: 131072
+      blob_id: 50930
+    - id: 803263
+      asset_id: 118356
+      name: o15-07.rom
+      size: 131072
+      blob_id: 50931
+    - id: 803264
+      asset_id: 118356
+      name: o15-08.rom
+      size: 131072
+      blob_id: 50932
+    - id: 803265
+      asset_id: 118356
+      name: o15-09.rom
+      size: 131072
+      blob_id: 50933
+    - id: 803266
+      asset_id: 118356
+      name: o15-10.rom
+      size: 131072
+      blob_id: 50934
+    - id: 803267
+      asset_id: 118356
+      name: o15-11iiw.bin
+      size: 32768
+      blob_id: 50940
+    - id: 803268
+      asset_id: 118356
+      name: o15-12iiw.bin
+      size: 32768
+      blob_id: 50941
+    - id: 803269
+      asset_id: 118356
+      name: o15-13.rom
+      size: 32768
+      blob_id: 50937
+    - id: 803270
+      asset_id: 118356
+      name: tp015_14.prom14.3d
+      size: 32
+      blob_id: 14808
+    - id: 803271
+      asset_id: 118356
+      name: tp015_15.prom15.2c
+      size: 32
+      blob_id: 14809
+  - asset:
+      id: 119868
+      kind: 3
+      kind_id: 102319
+      type: 1
+      name: zerowingw.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 844581
+      asset_id: 119868
+      name: o15-01.rom
+      size: 131072
+      blob_id: 50925
+    - id: 844582
+      asset_id: 119868
+      name: o15-02.rom
+      size: 131072
+      blob_id: 50926
+    - id: 844583
+      asset_id: 119868
+      name: o15-03.rom
+      size: 131072
+      blob_id: 50927
+    - id: 844584
+      asset_id: 119868
+      name: o15-04.rom
+      size: 131072
+      blob_id: 50928
+    - id: 844585
+      asset_id: 119868
+      name: o15-05.rom
+      size: 131072
+      blob_id: 50929
+    - id: 844586
+      asset_id: 119868
+      name: o15-06.rom
+      size: 131072
+      blob_id: 50930
+    - id: 844587
+      asset_id: 119868
+      name: o15-07.rom
+      size: 131072
+      blob_id: 50931
+    - id: 844588
+      asset_id: 119868
+      name: o15-08.rom
+      size: 131072
+      blob_id: 50932
+    - id: 844589
+      asset_id: 119868
+      name: o15-09.rom
+      size: 131072
+      blob_id: 50933
+    - id: 844590
+      asset_id: 119868
+      name: o15-10.rom
+      size: 131072
+      blob_id: 50934
+    - id: 844591
+      asset_id: 119868
+      name: o15-11iiw.bin
+      size: 32768
+      blob_id: 50940
+    - id: 844592
+      asset_id: 119868
+      name: o15-12iiw.bin
+      size: 32768
+      blob_id: 50941
+    - id: 844593
+      asset_id: 119868
+      name: o15-13.rom
+      size: 32768
+      blob_id: 50937
+    - id: 844594
+      asset_id: 119868
+      name: tp015_14.bpr
+      size: 32
+      blob_id: 14808
+    - id: 844595
+      asset_id: 119868
+      name: tp015_15.bpr
       size: 32
       blob_id: 14809

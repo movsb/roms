@@ -16,6 +16,18 @@ names:
   language: 2
   name: 马戏团 / 电视杂技
   source: trimui
+- id: 189039
+  kind: 2
+  kind_id: 112
+  language: 1
+  name: Circus / Acrobat TV (older)
+  source: mame
+- id: 199479
+  kind: 2
+  kind_id: 112
+  language: 1
+  name: Springboard (bootleg of Circus)
+  source: mame
 game_developers: []
 game_genres: []
 assets: []
@@ -117,24 +129,10 @@ releases:
       name: CIRCUS.9A
       size: 512
       blob_id: 1308
-- release:
-    id: 39320
-    game_id: 112
-    description: ""
-    release_date: 19770000
-  names:
-  - id: 109642
-    kind: 3
-    kind_id: 39320
-    language: 1
-    name: Circus / Acrobat TV
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 52390
+      id: 96103
       kind: 3
-      kind_id: 39320
+      kind_id: 112
       type: 1
       name: circus.zip
       description: ""
@@ -143,78 +141,282 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 129832
-      asset_id: 52390
+    - id: 567619
+      asset_id: 96103
       name: 9000.1c
       size: 512
       blob_id: 1298
-    - id: 129833
-      asset_id: 52390
+    - id: 567620
+      asset_id: 96103
       name: 9001.2c
       size: 512
       blob_id: 1300
-    - id: 129834
-      asset_id: 52390
+    - id: 567621
+      asset_id: 96103
       name: 9002.3c
       size: 512
       blob_id: 1302
-    - id: 129835
-      asset_id: 52390
+    - id: 567622
+      asset_id: 96103
       name: 9003.4c
       size: 512
       blob_id: 1303
-    - id: 129836
-      asset_id: 52390
+    - id: 567623
+      asset_id: 96103
       name: 9004a.1a
       size: 512
       blob_id: 1297
-    - id: 129837
-      asset_id: 52390
+    - id: 567624
+      asset_id: 96103
       name: 9005.2a
       size: 512
       blob_id: 1299
-    - id: 129838
-      asset_id: 52390
+    - id: 567625
+      asset_id: 96103
       name: 9006.3a
       size: 512
       blob_id: 1301
-    - id: 129839
-      asset_id: 52390
+    - id: 567626
+      asset_id: 96103
       name: 9007.5a
       size: 512
       blob_id: 1304
-    - id: 129840
-      asset_id: 52390
+    - id: 567627
+      asset_id: 96103
       name: 9008.6a
       size: 512
       blob_id: 1305
-    - id: 129841
-      asset_id: 52390
+    - id: 567628
+      asset_id: 96103
       name: 9009.7a
       size: 512
       blob_id: 1306
-    - id: 129842
-      asset_id: 52390
+    - id: 567629
+      asset_id: 96103
       name: 9010.8a
       size: 512
       blob_id: 1307
-    - id: 129843
-      asset_id: 52390
+    - id: 567630
+      asset_id: 96103
       name: 9011.9a
       size: 512
       blob_id: 1308
-    - id: 129844
-      asset_id: 52390
+    - id: 567631
+      asset_id: 96103
       name: 9012.14d
       size: 512
       blob_id: 1296
-    - id: 129845
-      asset_id: 52390
+    - id: 567632
+      asset_id: 96103
       name: dm74s570-d4.4d
       size: 512
-      blob_id: 103843
-    - id: 129846
-      asset_id: 52390
+      blob_id: 208832
+    - id: 567633
+      asset_id: 96103
       name: dm74s570-d5.5d
       size: 512
-      blob_id: 103844
+      blob_id: 208833
+- release:
+    id: 81363
+    game_id: 112
+    description: ""
+    release_date: 19770000
+  names:
+  - id: 206443
+    kind: 3
+    kind_id: 81363
+    language: 1
+    name: Circus / Acrobat TV (older)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 96110
+      kind: 3
+      kind_id: 81363
+      type: 1
+      name: circuso.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 567728
+      asset_id: 96110
+      name: 9000.1c
+      size: 512
+      blob_id: 1298
+    - id: 567729
+      asset_id: 96110
+      name: 9001.2c
+      size: 512
+      blob_id: 1300
+    - id: 567730
+      asset_id: 96110
+      name: 9002.3c
+      size: 512
+      blob_id: 1302
+    - id: 567731
+      asset_id: 96110
+      name: 9003.4c
+      size: 512
+      blob_id: 1303
+    - id: 567732
+      asset_id: 96110
+      name: 9004.1a
+      size: 512
+      blob_id: 242017
+    - id: 567733
+      asset_id: 96110
+      name: 9005.2a
+      size: 512
+      blob_id: 1299
+    - id: 567734
+      asset_id: 96110
+      name: 9006.3a
+      size: 512
+      blob_id: 1301
+    - id: 567735
+      asset_id: 96110
+      name: 9007.5a
+      size: 512
+      blob_id: 1304
+    - id: 567736
+      asset_id: 96110
+      name: 9008.6a
+      size: 512
+      blob_id: 1305
+    - id: 567737
+      asset_id: 96110
+      name: 9009.7a
+      size: 512
+      blob_id: 1306
+    - id: 567738
+      asset_id: 96110
+      name: 9010.8a
+      size: 512
+      blob_id: 1307
+    - id: 567739
+      asset_id: 96110
+      name: 9011.9a
+      size: 512
+      blob_id: 1308
+    - id: 567740
+      asset_id: 96110
+      name: 9012.14d
+      size: 512
+      blob_id: 1296
+    - id: 567741
+      asset_id: 96110
+      name: dm74s570-d4.4d
+      size: 512
+      blob_id: 208832
+    - id: 567742
+      asset_id: 96110
+      name: dm74s570-d5.5d
+      size: 512
+      blob_id: 208833
+- release:
+    id: 98515
+    game_id: 112
+    description: ""
+    release_date: 19770000
+  names:
+  - id: 231193
+    kind: 3
+    kind_id: 98515
+    language: 1
+    name: Springboard (bootleg of Circus)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 114277
+      kind: 3
+      kind_id: 98515
+      type: 1
+      name: springbd.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/518302326
+    entries:
+    - id: 754590
+      asset_id: 114277
+      name: 93448.14d
+      size: 512
+      blob_id: 1296
+    - id: 754591
+      asset_id: 114277
+      name: 93448.1a
+      size: 512
+      blob_id: 302415
+    - id: 754592
+      asset_id: 114277
+      name: 93448.1c
+      size: 512
+      blob_id: 1298
+    - id: 754593
+      asset_id: 114277
+      name: 93448.2a
+      size: 512
+      blob_id: 1299
+    - id: 754594
+      asset_id: 114277
+      name: 93448.2c
+      size: 512
+      blob_id: 1300
+    - id: 754595
+      asset_id: 114277
+      name: 93448.3a
+      size: 512
+      blob_id: 302416
+    - id: 754596
+      asset_id: 114277
+      name: 93448.3c
+      size: 512
+      blob_id: 1302
+    - id: 754597
+      asset_id: 114277
+      name: 93448.4c
+      size: 512
+      blob_id: 1303
+    - id: 754598
+      asset_id: 114277
+      name: 93448.5a
+      size: 512
+      blob_id: 1304
+    - id: 754599
+      asset_id: 114277
+      name: 93448.6a
+      size: 512
+      blob_id: 1305
+    - id: 754600
+      asset_id: 114277
+      name: 93448.7a
+      size: 512
+      blob_id: 1306
+    - id: 754601
+      asset_id: 114277
+      name: 93448.8a
+      size: 512
+      blob_id: 302417
+    - id: 754602
+      asset_id: 114277
+      name: 93448.9a
+      size: 512
+      blob_id: 1308
+    - id: 754603
+      asset_id: 114277
+      name: dm74s570-d4.4d
+      size: 512
+      blob_id: 208832
+    - id: 754604
+      asset_id: 114277
+      name: dm74s570-d5.5d
+      size: 512
+      blob_id: 208833

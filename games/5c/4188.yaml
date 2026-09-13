@@ -16,6 +16,24 @@ names:
   language: 2
   name: 战国之刃（世界版）
   source: ""
+- id: 187275
+  kind: 2
+  kind_id: 4188
+  language: 1
+  name: tengaij
+  source: ""
+- id: 187276
+  kind: 2
+  kind_id: 4188
+  language: 2
+  name: "战国之刃 - 战国 Ace Episode Ⅱ (日版)"
+  source: trimui
+- id: 200033
+  kind: 2
+  kind_id: 4188
+  language: 1
+  name: Tengai (bootleg)
+  source: mame
 game_developers:
 - game_id: 4188
   developer_id: 429
@@ -144,6 +162,73 @@ releases:
       blob_id: 91353
       debug: arcade/wheel/tengai.png
     entries: []
+  - asset:
+      id: 115377
+      kind: 3
+      kind_id: 4188
+      type: 1
+      name: tengai.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 767057
+      asset_id: 115377
+      name: 1-u63.bin
+      size: 131072
+      blob_id: 45023
+    - id: 767058
+      asset_id: 115377
+      name: 4-u41.bin
+      size: 524288
+      blob_id: 45024
+    - id: 767059
+      asset_id: 115377
+      name: 4.u59
+      size: 4096
+      blob_id: 45033
+    - id: 767060
+      asset_id: 115377
+      name: 5-u40.bin
+      size: 524288
+      blob_id: 45025
+    - id: 767061
+      asset_id: 115377
+      name: u1.bin
+      size: 262144
+      blob_id: 45026
+    - id: 767062
+      asset_id: 115377
+      name: u20.bin
+      size: 2097152
+      blob_id: 45027
+    - id: 767063
+      asset_id: 115377
+      name: u21.bin
+      size: 2097152
+      blob_id: 45028
+    - id: 767064
+      asset_id: 115377
+      name: u22.bin
+      size: 2097152
+      blob_id: 45029
+    - id: 767065
+      asset_id: 115377
+      name: u34.bin
+      size: 4194304
+      blob_id: 45030
+    - id: 767066
+      asset_id: 115377
+      name: u61.bin
+      size: 2097152
+      blob_id: 45031
+    - id: 767067
+      asset_id: 115377
+      name: u62.bin
+      size: 2097152
+      blob_id: 45032
 - release:
     id: 4189
     game_id: 4188
@@ -242,83 +327,162 @@ releases:
       size: 2097152
       blob_id: 45032
 - release:
-    id: 72926
+    id: 4190
+    game_id: 4188
+    description: ""
+    release_date: 0
+  names:
+  - id: 8381
+    kind: 3
+    kind_id: 4190
+    language: 1
+    name: tengaij
+    source: ""
+  - id: 100220
+    kind: 3
+    kind_id: 4190
+    language: 2
+    name: "战国之刃 - 战国 Ace Episode Ⅱ (日版)"
+    source: trimui
+  release_publishers: []
+  assets:
+  - asset:
+      id: 4172
+      kind: 3
+      kind_id: 4190
+      type: 1
+      name: tengaij.zip
+      description: ""
+      format: 2
+      size: 297776
+      blob_id: 0
+      debug: tengaij.zip
+    entries:
+    - id: 71624
+      asset_id: 4172
+      name: 2-u40.bin
+      size: 524288
+      blob_id: 45034
+    - id: 71625
+      asset_id: 4172
+      name: 3-u41.bin
+      size: 524288
+      blob_id: 45035
+    - id: 389380
+      asset_id: 4172
+      name: 1-u63.bin
+      size: 131072
+      blob_id: 45023
+    - id: 389381
+      asset_id: 4172
+      name: 4.u59
+      size: 4096
+      blob_id: 45033
+    - id: 389382
+      asset_id: 4172
+      name: u1.bin
+      size: 262144
+      blob_id: 45026
+    - id: 389383
+      asset_id: 4172
+      name: u20.bin
+      size: 2097152
+      blob_id: 45027
+    - id: 389384
+      asset_id: 4172
+      name: u21.bin
+      size: 2097152
+      blob_id: 45028
+    - id: 389385
+      asset_id: 4172
+      name: u22.bin
+      size: 2097152
+      blob_id: 45029
+    - id: 389386
+      asset_id: 4172
+      name: u34.bin
+      size: 4194304
+      blob_id: 45030
+    - id: 389387
+      asset_id: 4172
+      name: u61.bin
+      size: 2097152
+      blob_id: 45031
+    - id: 389388
+      asset_id: 4172
+      name: u62.bin
+      size: 2097152
+      blob_id: 45032
+- release:
+    id: 99513
     game_id: 4188
     description: ""
     release_date: 19960000
   names:
-  - id: 175799
+  - id: 232631
     kind: 3
-    kind_id: 72926
+    kind_id: 99513
     language: 1
-    name: Tengai (World)
+    name: Tengai (bootleg)
     source: mame
   release_publishers: []
   assets:
   - asset:
-      id: 85996
+      id: 115378
       kind: 3
-      kind_id: 72926
+      kind_id: 99513
       type: 1
-      name: tengai.zip
+      name: tengaibl.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
-      debug: dat:mame:0.289
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/897339410
     entries:
-    - id: 389360
-      asset_id: 85996
-      name: 1-u63.bin
-      size: 131072
-      blob_id: 45023
-    - id: 389361
-      asset_id: 85996
-      name: 4-u41.bin
+    - id: 767068
+      asset_id: 115378
+      name: 1_sk000701-mx27c4000.bin
       size: 524288
-      blob_id: 45024
-    - id: 389362
-      asset_id: 85996
-      name: 4.u59
-      size: 4096
-      blob_id: 45033
-    - id: 389363
-      asset_id: 85996
-      name: 5-u40.bin
+      blob_id: 305963
+    - id: 767069
+      asset_id: 115378
+      name: 2_sk000701-mx27c4000.bin
       size: 524288
-      blob_id: 45025
-    - id: 389364
-      asset_id: 85996
-      name: u1.bin
-      size: 262144
-      blob_id: 45026
-    - id: 389365
-      asset_id: 85996
+      blob_id: 305964
+    - id: 767070
+      asset_id: 115378
+      name: 3_sk000701-tms27c240.bin
+      size: 524288
+      blob_id: 305965
+    - id: 767071
+      asset_id: 115378
+      name: 4_sk000701-upd27c4096.bin
+      size: 524288
+      blob_id: 305966
+    - id: 767072
+      asset_id: 115378
+      name: 5_sk000701-upd27c4096.bin
+      size: 524288
+      blob_id: 305967
+    - id: 767073
+      asset_id: 115378
       name: u20.bin
       size: 2097152
       blob_id: 45027
-    - id: 389366
-      asset_id: 85996
+    - id: 767074
+      asset_id: 115378
       name: u21.bin
       size: 2097152
       blob_id: 45028
-    - id: 389367
-      asset_id: 85996
+    - id: 767075
+      asset_id: 115378
       name: u22.bin
       size: 2097152
       blob_id: 45029
-    - id: 389368
-      asset_id: 85996
+    - id: 767076
+      asset_id: 115378
       name: u34.bin
       size: 4194304
       blob_id: 45030
-    - id: 389369
-      asset_id: 85996
-      name: u61.bin
-      size: 2097152
-      blob_id: 45031
-    - id: 389370
-      asset_id: 85996
-      name: u62.bin
-      size: 2097152
-      blob_id: 45032

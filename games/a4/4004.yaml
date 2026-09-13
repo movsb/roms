@@ -16,6 +16,12 @@ names:
   language: 2
   name: 星际母舰 (世嘉)
   source: trimui
+- id: 199649
+  kind: 2
+  kind_id: 4004
+  language: 1
+  name: Star Jacker (Stern Electronics)
+  source: mame
 game_developers:
 - game_id: 4004
   developer_id: 110
@@ -174,24 +180,10 @@ releases:
       blob_id: 89614
       debug: arcade/wheel/starjack.png
     entries: []
-- release:
-    id: 72029
-    game_id: 4004
-    description: ""
-    release_date: 19830000
-  names:
-  - id: 174079
-    kind: 3
-    kind_id: 72029
-    language: 1
-    name: Star Jacker (Sega)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 85099
+      id: 114579
       kind: 3
-      kind_id: 72029
+      kind_id: 4004
       type: 1
       name: starjack.zip
       description: ""
@@ -200,83 +192,191 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 380162
-      asset_id: 85099
+    - id: 758498
+      asset_id: 114579
       name: epr-5318.86
       size: 16384
       blob_id: 42969
-    - id: 380163
-      asset_id: 85099
+    - id: 758499
+      asset_id: 114579
       name: epr-5319.93
       size: 16384
       blob_id: 42970
-    - id: 380164
-      asset_id: 85099
+    - id: 758500
+      asset_id: 114579
       name: epr-5320b.129
       size: 8192
       blob_id: 42981
-    - id: 380165
-      asset_id: 85099
+    - id: 758501
+      asset_id: 114579
       name: epr-5321a.130
       size: 8192
       blob_id: 42982
-    - id: 380166
-      asset_id: 85099
+    - id: 758502
+      asset_id: 114579
       name: epr-5322a.131
       size: 8192
       blob_id: 42983
-    - id: 380167
-      asset_id: 85099
+    - id: 758503
+      asset_id: 114579
       name: epr-5323.132
       size: 8192
       blob_id: 42971
-    - id: 380168
-      asset_id: 85099
+    - id: 758504
+      asset_id: 114579
       name: epr-5324.133
       size: 8192
       blob_id: 42972
-    - id: 380169
-      asset_id: 85099
+    - id: 758505
+      asset_id: 114579
       name: epr-5325.134
       size: 8192
       blob_id: 42973
-    - id: 380170
-      asset_id: 85099
+    - id: 758506
+      asset_id: 114579
       name: epr-5326.63
       size: 8192
       blob_id: 42974
-    - id: 380171
-      asset_id: 85099
+    - id: 758507
+      asset_id: 114579
       name: epr-5327.80
       size: 8192
       blob_id: 42975
-    - id: 380172
-      asset_id: 85099
+    - id: 758508
+      asset_id: 114579
       name: epr-5328.64
       size: 8192
       blob_id: 42976
-    - id: 380173
-      asset_id: 85099
+    - id: 758509
+      asset_id: 114579
       name: epr-5329.81
       size: 8192
       blob_id: 42977
-    - id: 380174
-      asset_id: 85099
+    - id: 758510
+      asset_id: 114579
       name: epr-5330.65
       size: 8192
       blob_id: 42978
-    - id: 380175
-      asset_id: 85099
+    - id: 758511
+      asset_id: 114579
       name: epr-5331.82
       size: 8192
       blob_id: 42979
-    - id: 380176
-      asset_id: 85099
+    - id: 758512
+      asset_id: 114579
       name: epr-5332.3
       size: 8192
       blob_id: 42980
-    - id: 380177
-      asset_id: 85099
+    - id: 758513
+      asset_id: 114579
       name: pr-5317.106
       size: 256
       blob_id: 668
+- release:
+    id: 98794
+    game_id: 4004
+    description: ""
+    release_date: 19830000
+  names:
+  - id: 231561
+    kind: 3
+    kind_id: 98794
+    language: 1
+    name: Star Jacker (Stern Electronics)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 114580
+      kind: 3
+      kind_id: 98794
+      type: 1
+      name: starjacks.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/456542112
+    entries:
+    - id: 758514
+      asset_id: 114580
+      name: epr-5446.93
+      size: 16384
+      blob_id: 303360
+    - id: 758515
+      asset_id: 114580
+      name: epr-5453.63
+      size: 8192
+      blob_id: 303361
+    - id: 758516
+      asset_id: 114580
+      name: epr-5454.80
+      size: 8192
+      blob_id: 42975
+    - id: 758517
+      asset_id: 114580
+      name: epr-5455.64
+      size: 8192
+      blob_id: 303362
+    - id: 758518
+      asset_id: 114580
+      name: epr-5456.81
+      size: 8192
+      blob_id: 42977
+    - id: 758519
+      asset_id: 114580
+      name: pr-5317.106
+      size: 256
+      blob_id: 668
+    - id: 758520
+      asset_id: 114580
+      name: star_jacker_a1_ic29.129
+      size: 8192
+      blob_id: 303363
+    - id: 758521
+      asset_id: 114580
+      name: star_jacker_a1_ic3.3
+      size: 8192
+      blob_id: 42980
+    - id: 758522
+      asset_id: 114580
+      name: star_jacker_a1_ic30.130
+      size: 8192
+      blob_id: 303364
+    - id: 758523
+      asset_id: 114580
+      name: star_jacker_a1_ic31.131
+      size: 8192
+      blob_id: 303365
+    - id: 758524
+      asset_id: 114580
+      name: star_jacker_a1_ic32.132
+      size: 8192
+      blob_id: 303366
+    - id: 758525
+      asset_id: 114580
+      name: star_jacker_a1_ic33.133
+      size: 8192
+      blob_id: 303367
+    - id: 758526
+      asset_id: 114580
+      name: star_jacker_a1_ic34.134
+      size: 8192
+      blob_id: 303368
+    - id: 758527
+      asset_id: 114580
+      name: star_jacker_a1_ic65.65
+      size: 8192
+      blob_id: 303369
+    - id: 758528
+      asset_id: 114580
+      name: star_jacker_a1_ic82.82
+      size: 8192
+      blob_id: 42979
+    - id: 758529
+      asset_id: 114580
+      name: star_jacker_a1_ic86.86
+      size: 16384
+      blob_id: 42969

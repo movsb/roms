@@ -10,6 +10,36 @@ names:
   language: 1
   name: kurikint
   source: ""
+- id: 186984
+  kind: 2
+  kind_id: 2464
+  language: 1
+  name: kurikintj
+  source: ""
+- id: 186985
+  kind: 2
+  kind_id: 2464
+  language: 2
+  name: 功里金团 (日版)
+  source: trimui
+- id: 192469
+  kind: 2
+  kind_id: 2464
+  language: 1
+  name: Kuri Kinton (World, prototype)
+  source: mame
+- id: 192470
+  kind: 2
+  kind_id: 2464
+  language: 1
+  name: Kuri Kinton (US)
+  source: mame
+- id: 192471
+  kind: 2
+  kind_id: 2464
+  language: 1
+  name: Kuri Kinton (US, World Games license)
+  source: mame
 game_developers:
 - game_id: 2464
   developer_id: 35
@@ -113,6 +143,53 @@ releases:
       blob_id: 89236
       debug: arcade/wheel/kurikint.png
     entries: []
+  - asset:
+      id: 102761
+      kind: 3
+      kind_id: 2464
+      type: 1
+      name: kurikint.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 646381
+      asset_id: 102761
+      name: b42-01.ic1
+      size: 524288
+      blob_id: 26171
+    - id: 646382
+      asset_id: 102761
+      name: b42-02.ic5
+      size: 524288
+      blob_id: 26172
+    - id: 646383
+      asset_id: 102761
+      name: b42-06.ic6
+      size: 131072
+      blob_id: 26173
+    - id: 646384
+      asset_id: 102761
+      name: b42-07.ic22
+      size: 65536
+      blob_id: 26174
+    - id: 646385
+      asset_id: 102761
+      name: b42-09.ic2
+      size: 131072
+      blob_id: 26175
+    - id: 646386
+      asset_id: 102761
+      name: gal16v8-b42-03.ic4.bin
+      size: 279
+      blob_id: 26176
+    - id: 646387
+      asset_id: 102761
+      name: gal16v8-b42-04.ic21.bin
+      size: 279
+      blob_id: 26177
 - release:
     id: 2465
     game_id: 2464
@@ -246,63 +323,272 @@ releases:
       size: 131072
       blob_id: 26190
 - release:
-    id: 49223
+    id: 87498
     game_id: 2464
     description: ""
     release_date: 19880000
   names:
-  - id: 128969
+  - id: 215850
     kind: 3
-    kind_id: 49223
+    kind_id: 87498
     language: 1
-    name: Kuri Kinton (World)
+    name: Kuri Kinton (World, prototype)
     source: mame
   release_publishers: []
   assets:
   - asset:
-      id: 62293
+      id: 102762
       kind: 3
-      kind_id: 49223
+      kind_id: 87498
       type: 1
-      name: kurikint.zip
+      name: kurikinta.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 221701
-      asset_id: 62293
-      name: b42-01.ic1
-      size: 524288
-      blob_id: 26171
-    - id: 221702
-      asset_id: 62293
-      name: b42-02.ic5
-      size: 524288
-      blob_id: 26172
-    - id: 221703
-      asset_id: 62293
-      name: b42-06.ic6
-      size: 131072
-      blob_id: 26173
-    - id: 221704
-      asset_id: 62293
+    - id: 646388
+      asset_id: 102762
       name: b42-07.ic22
       size: 65536
       blob_id: 26174
-    - id: 221705
-      asset_id: 62293
-      name: b42-09.ic2
+    - id: 646389
+      asset_id: 102762
+      name: kk_1-1l.rom
       size: 131072
-      blob_id: 26175
-    - id: 221706
-      asset_id: 62293
+      blob_id: 26178
+    - id: 646390
+      asset_id: 102762
+      name: kk_2-2l.rom
+      size: 131072
+      blob_id: 26179
+    - id: 646391
+      asset_id: 102762
+      name: kk_3-1h.rom
+      size: 131072
+      blob_id: 26180
+    - id: 646392
+      asset_id: 102762
+      name: kk_4-2h.rom
+      size: 131072
+      blob_id: 26181
+    - id: 646393
+      asset_id: 102762
+      name: kk_5-3l.rom
+      size: 131072
+      blob_id: 26182
+    - id: 646394
+      asset_id: 102762
+      name: kk_6-3h.rom
+      size: 131072
+      blob_id: 26183
+    - id: 646395
+      asset_id: 102762
+      name: kk_7-4l.rom
+      size: 131072
+      blob_id: 26184
+    - id: 646396
+      asset_id: 102762
+      name: kk_8-4h.rom
+      size: 131072
+      blob_id: 26185
+    - id: 646397
+      asset_id: 102762
+      name: kk_ic2.ic2
+      size: 131072
+      blob_id: 26186
+    - id: 646398
+      asset_id: 102762
+      name: kk_ic6.ic6
+      size: 131072
+      blob_id: 26187
+- release:
+    id: 87499
+    game_id: 2464
+    description: ""
+    release_date: 19880000
+  names:
+  - id: 215851
+    kind: 3
+    kind_id: 87499
+    language: 1
+    name: Kuri Kinton (US)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 102764
+      kind: 3
+      kind_id: 87499
+      type: 1
+      name: kurikintu.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 646406
+      asset_id: 102764
+      name: b42-01.ic1
+      size: 524288
+      blob_id: 26171
+    - id: 646407
+      asset_id: 102764
+      name: b42-02.ic5
+      size: 524288
+      blob_id: 26172
+    - id: 646408
+      asset_id: 102764
+      name: b42-06.ic6
+      size: 131072
+      blob_id: 26173
+    - id: 646409
+      asset_id: 102764
+      name: b42-07.ic22
+      size: 65536
+      blob_id: 26174
+    - id: 646410
+      asset_id: 102764
+      name: b42-08.ic2
+      size: 131072
+      blob_id: 26189
+    - id: 646411
+      asset_id: 102764
       name: gal16v8-b42-03.ic4.bin
       size: 279
       blob_id: 26176
-    - id: 221707
-      asset_id: 62293
+    - id: 646412
+      asset_id: 102764
+      name: gal16v8-b42-04.ic21.bin
+      size: 279
+      blob_id: 26177
+- release:
+    id: 87500
+    game_id: 2464
+    description: ""
+    release_date: 19880000
+  names:
+  - id: 215852
+    kind: 3
+    kind_id: 87500
+    language: 1
+    name: Kuri Kinton (US, World Games license)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 102765
+      kind: 3
+      kind_id: 87500
+      type: 1
+      name: kurikintw.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 646413
+      asset_id: 102765
+      name: b42-01.ic1
+      size: 524288
+      blob_id: 26171
+    - id: 646414
+      asset_id: 102765
+      name: b42-02.ic5
+      size: 524288
+      blob_id: 26172
+    - id: 646415
+      asset_id: 102765
+      name: b42-06.ic6
+      size: 131072
+      blob_id: 26173
+    - id: 646416
+      asset_id: 102765
+      name: b42-07.ic22
+      size: 65536
+      blob_id: 26174
+    - id: 646417
+      asset_id: 102765
+      name: b42-10.ic2
+      size: 131072
+      blob_id: 26190
+    - id: 646418
+      asset_id: 102765
+      name: gal16v8-b42-03.ic4.bin
+      size: 279
+      blob_id: 26176
+    - id: 646419
+      asset_id: 102765
+      name: gal16v8-b42-04.ic21.bin
+      size: 279
+      blob_id: 26177
+- release:
+    id: 103017
+    game_id: 2464
+    description: ""
+    release_date: 0
+  names:
+  - id: 237820
+    kind: 3
+    kind_id: 103017
+    language: 1
+    name: kurikintj
+    source: ""
+  - id: 237821
+    kind: 3
+    kind_id: 103017
+    language: 2
+    name: 功里金团 (日版)
+    source: trimui
+  release_publishers: []
+  assets:
+  - asset:
+      id: 102763
+      kind: 3
+      kind_id: 103017
+      type: 1
+      name: kurikintj.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 646399
+      asset_id: 102763
+      name: b42-01.ic1
+      size: 524288
+      blob_id: 26171
+    - id: 646400
+      asset_id: 102763
+      name: b42-02.ic5
+      size: 524288
+      blob_id: 26172
+    - id: 646401
+      asset_id: 102763
+      name: b42-05.ic2
+      size: 131072
+      blob_id: 26188
+    - id: 646402
+      asset_id: 102763
+      name: b42-06.ic6
+      size: 131072
+      blob_id: 26173
+    - id: 646403
+      asset_id: 102763
+      name: b42-07.ic22
+      size: 65536
+      blob_id: 26174
+    - id: 646404
+      asset_id: 102763
+      name: gal16v8-b42-03.ic4.bin
+      size: 279
+      blob_id: 26176
+    - id: 646405
+      asset_id: 102763
       name: gal16v8-b42-04.ic21.bin
       size: 279
       blob_id: 26177

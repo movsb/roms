@@ -16,6 +16,30 @@ names:
   language: 2
   name: 美女枪手
   source: trimui
+- id: 191498
+  kind: 2
+  kind_id: 1913
+  language: 1
+  name: Gun Dealer (alt card set)
+  source: mame
+- id: 191499
+  kind: 2
+  kind_id: 1913
+  language: 1
+  name: Gun Dealer (Yam! Yam!? hardware, set 1)
+  source: mame
+- id: 191500
+  kind: 2
+  kind_id: 1913
+  language: 1
+  name: Gun Dealer (Yam! Yam!? hardware, set 2)
+  source: mame
+- id: 191501
+  kind: 2
+  kind_id: 1913
+  language: 1
+  name: Gun Dealer (Japan)
+  source: mame
 game_developers: []
 game_genres: []
 assets: []
@@ -67,24 +91,10 @@ releases:
       name: mame/roms/gundealr/GUNDEALR.2
       size: 131072
       blob_id: 21346
-- release:
-    id: 45470
-    game_id: 1913
-    description: ""
-    release_date: 19900000
-  names:
-  - id: 121631
-    kind: 3
-    kind_id: 45470
-    language: 1
-    name: Gun Dealer
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 58540
+      id: 100653
       kind: 3
-      kind_id: 45470
+      kind_id: 1913
       type: 1
       name: gundealr.zip
       description: ""
@@ -93,18 +103,187 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 191397
-      asset_id: 58540
+    - id: 622723
+      asset_id: 100653
       name: 1.3j
       size: 65536
       blob_id: 21345
-    - id: 191398
-      asset_id: 58540
+    - id: 622724
+      asset_id: 100653
       name: 2.6b
       size: 131072
       blob_id: 21346
-    - id: 191399
-      asset_id: 58540
+    - id: 622725
+      asset_id: 100653
+      name: 3.6p
+      size: 65536
+      blob_id: 21344
+- release:
+    id: 85574
+    game_id: 1913
+    description: ""
+    release_date: 19900000
+  names:
+  - id: 212770
+    kind: 3
+    kind_id: 85574
+    language: 1
+    name: Gun Dealer (alt card set)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 100654
+      kind: 3
+      kind_id: 85574
+      type: 1
+      name: gundealra.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 622726
+      asset_id: 100654
+      name: gundeala.1.3j
+      size: 65536
+      blob_id: 220548
+    - id: 622727
+      asset_id: 100654
+      name: gundeala.2.6b
+      size: 131072
+      blob_id: 220549
+    - id: 622728
+      asset_id: 100654
+      name: gundeala.3.6p
+      size: 65536
+      blob_id: 220550
+- release:
+    id: 85575
+    game_id: 1913
+    description: ""
+    release_date: 19900000
+  names:
+  - id: 212771
+    kind: 3
+    kind_id: 85575
+    language: 1
+    name: Gun Dealer (Yam! Yam!? hardware, set 1)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 100655
+      kind: 3
+      kind_id: 85575
+      type: 1
+      name: gundealrbl.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 622729
+      asset_id: 100655
+      name: 22.1.d27c010.a16
+      size: 131072
+      blob_id: 21346
+    - id: 622730
+      asset_id: 100655
+      name: 29.2.am27c512.f10
+      size: 65536
+      blob_id: 248372
+    - id: 622731
+      asset_id: 100655
+      name: 30.3.am27c512.d16
+      size: 65536
+      blob_id: 21344
+    - id: 622732
+      asset_id: 100655
+      name: 4.82s129.7e
+      size: 256
+      blob_id: 248373
+- release:
+    id: 85576
+    game_id: 1913
+    description: ""
+    release_date: 19900000
+  names:
+  - id: 212772
+    kind: 3
+    kind_id: 85576
+    language: 1
+    name: Gun Dealer (Yam! Yam!? hardware, set 2)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 100656
+      kind: 3
+      kind_id: 85576
+      type: 1
+      name: gundealrbl2.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 622733
+      asset_id: 100656
+      name: gd1.010
+      size: 131072
+      blob_id: 248374
+    - id: 622734
+      asset_id: 100656
+      name: gd2.512
+      size: 65536
+      blob_id: 248375
+    - id: 622735
+      asset_id: 100656
+      name: gd3.512
+      size: 65536
+      blob_id: 21344
+- release:
+    id: 85577
+    game_id: 1913
+    description: ""
+    release_date: 19900000
+  names:
+  - id: 212773
+    kind: 3
+    kind_id: 85577
+    language: 1
+    name: Gun Dealer (Japan)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 100657
+      kind: 3
+      kind_id: 85577
+      type: 1
+      name: gundealrt.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 622736
+      asset_id: 100657
+      name: 1.3j
+      size: 65536
+      blob_id: 248376
+    - id: 622737
+      asset_id: 100657
+      name: 2.6b
+      size: 131072
+      blob_id: 248377
+    - id: 622738
+      asset_id: 100657
       name: 3.6p
       size: 65536
       blob_id: 21344

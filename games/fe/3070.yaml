@@ -10,6 +10,18 @@ names:
   language: 1
   name: penbros
   source: ""
+- id: 187495
+  kind: 2
+  kind_id: 3070
+  language: 1
+  name: Hong Tian Lei (A-Blast) (Japan)
+  source: mame
+- id: 187496
+  kind: 2
+  kind_id: 3070
+  language: 1
+  name: Hong Tian Lei (A-Blast) (bootleg)
+  source: mame
 game_developers:
 - game_id: 3070
   developer_id: 552
@@ -118,6 +130,48 @@ releases:
       blob_id: 86336
       debug: arcade/wheel/penbros.png
     entries: []
+  - asset:
+      id: 106781
+      kind: 3
+      kind_id: 3070
+      type: 1
+      name: penbros.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 689896
+      asset_id: 106781
+      name: a-blast_jpn_u06.u06
+      size: 524288
+      blob_id: 32683
+    - id: 689897
+      asset_id: 106781
+      name: a-blast_jpn_u07.u07
+      size: 524288
+      blob_id: 32684
+    - id: 689898
+      asset_id: 106781
+      name: a-blast_jpn_u18.u18
+      size: 2097152
+      blob_id: 32685
+    - id: 689899
+      asset_id: 106781
+      name: a-blast_jpn_u38.u38
+      size: 4194304
+      blob_id: 32686
+    - id: 689900
+      asset_id: 106781
+      name: a-blast_jpn_u39.u39
+      size: 4194304
+      blob_id: 32687
+    - id: 689901
+      asset_id: 106781
+      name: a-blast_jpn_u40.u40
+      size: 4194304
+      blob_id: 32688
 - release:
     id: 3071
     game_id: 3070
@@ -211,58 +265,109 @@ releases:
       size: 1048576
       blob_id: 32694
 - release:
-    id: 60862
+    id: 103254
     game_id: 3070
     description: ""
     release_date: 20000000
   names:
-  - id: 152059
+  - id: 238230
     kind: 3
-    kind_id: 60862
+    kind_id: 103254
     language: 1
-    name: Penguin Brothers (Japan)
+    name: Hong Tian Lei (A-Blast) (Japan)
     source: mame
   release_publishers: []
   assets:
   - asset:
-      id: 73932
+      id: 93226
       kind: 3
-      kind_id: 60862
+      kind_id: 103254
       type: 1
-      name: penbros.zip
+      name: ablast.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 295449
-      asset_id: 73932
-      name: a-blast_jpn_u06.u06
+    - id: 534761
+      asset_id: 93226
+      name: a-blast_twn_u06.u06
       size: 524288
-      blob_id: 32683
-    - id: 295450
-      asset_id: 73932
-      name: a-blast_jpn_u07.u07
+      blob_id: 32689
+    - id: 534762
+      asset_id: 93226
+      name: a-blast_twn_u07.u07
       size: 524288
-      blob_id: 32684
-    - id: 295451
-      asset_id: 73932
-      name: a-blast_jpn_u18.u18
+      blob_id: 32690
+    - id: 534763
+      asset_id: 93226
+      name: a-blast_twn_u18.u18
       size: 2097152
       blob_id: 32685
-    - id: 295452
-      asset_id: 73932
-      name: a-blast_jpn_u38.u38
+    - id: 534764
+      asset_id: 93226
+      name: a-blast_twn_u38.u38
       size: 4194304
-      blob_id: 32686
-    - id: 295453
-      asset_id: 73932
-      name: a-blast_jpn_u39.u39
+      blob_id: 32691
+    - id: 534765
+      asset_id: 93226
+      name: a-blast_twn_u39.u39
       size: 4194304
-      blob_id: 32687
-    - id: 295454
-      asset_id: 73932
-      name: a-blast_jpn_u40.u40
+      blob_id: 32692
+    - id: 534766
+      asset_id: 93226
+      name: a-blast_twn_u40.u40
       size: 4194304
-      blob_id: 32688
+      blob_id: 32693
+- release:
+    id: 103255
+    game_id: 3070
+    description: ""
+    release_date: 20000000
+  names:
+  - id: 238231
+    kind: 3
+    kind_id: 103255
+    language: 1
+    name: Hong Tian Lei (A-Blast) (bootleg)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 93227
+      kind: 3
+      kind_id: 103255
+      type: 1
+      name: ablastb.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 534767
+      asset_id: 93227
+      name: 1.bin
+      size: 1048576
+      blob_id: 32694
+    - id: 534768
+      asset_id: 93227
+      name: 2.bin
+      size: 4194304
+      blob_id: 32691
+    - id: 534769
+      asset_id: 93227
+      name: 29f1610.bin
+      size: 2097152
+      blob_id: 32685
+    - id: 534770
+      asset_id: 93227
+      name: 3.bin
+      size: 4194304
+      blob_id: 32692
+    - id: 534771
+      asset_id: 93227
+      name: 4.bin
+      size: 4194304
+      blob_id: 32693

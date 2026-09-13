@@ -16,6 +16,24 @@ names:
   language: 2
   name: 欧米加射击 (第一套)
   source: trimui
+- id: 189716
+  kind: 2
+  kind_id: 363
+  language: 1
+  name: Delta Race
+  source: mame
+- id: 194029
+  kind: 2
+  kind_id: 363
+  language: 1
+  name: Omega Race (set 2)
+  source: mame
+- id: 194030
+  kind: 2
+  kind_id: 363
+  language: 1
+  name: Omega Race (set 3, 7/27)
+  source: mame
 game_developers: []
 game_genres:
 - game_id: 363
@@ -127,24 +145,10 @@ releases:
       blob_id: 91080
       debug: arcade/wheel/omegrace.png
     entries: []
-- release:
-    id: 60093
-    game_id: 363
-    description: ""
-    release_date: 19810000
-  names:
-  - id: 150557
-    kind: 3
-    kind_id: 60093
-    language: 1
-    name: Omega Race (set 1)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 73163
+      id: 105993
       kind: 3
-      kind_id: 60093
+      kind_id: 363
       type: 1
       name: omegrace.zip
       description: ""
@@ -153,43 +157,241 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 284708
-      asset_id: 73163
+    - id: 679045
+      asset_id: 105993
       name: dvgprom.bin
       size: 256
-      blob_id: 108395
-    - id: 284709
-      asset_id: 73163
+      blob_id: 261951
+    - id: 679046
+      asset_id: 105993
       name: omega.e1
       size: 2048
       blob_id: 3212
-    - id: 284710
-      asset_id: 73163
+    - id: 679047
+      asset_id: 105993
       name: omega.f1
       size: 2048
       blob_id: 3213
-    - id: 284711
-      asset_id: 73163
+    - id: 679048
+      asset_id: 105993
       name: omega.j7
       size: 4096
       blob_id: 3214
-    - id: 284712
-      asset_id: 73163
+    - id: 679049
+      asset_id: 105993
       name: omega.k7
       size: 4096
       blob_id: 3215
-    - id: 284713
-      asset_id: 73163
+    - id: 679050
+      asset_id: 105993
       name: omega.l7
       size: 4096
       blob_id: 3216
-    - id: 284714
-      asset_id: 73163
+    - id: 679051
+      asset_id: 105993
       name: omega.m7
       size: 4096
       blob_id: 3217
-    - id: 284715
-      asset_id: 73163
+    - id: 679052
+      asset_id: 105993
+      name: sound.k5
+      size: 2048
+      blob_id: 3218
+- release:
+    id: 90570
+    game_id: 363
+    description: ""
+    release_date: 19810000
+  names:
+  - id: 220589
+    kind: 3
+    kind_id: 90570
+    language: 1
+    name: Omega Race (set 2)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 105994
+      kind: 3
+      kind_id: 90570
+      type: 1
+      name: omegrace2.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 679053
+      asset_id: 105994
+      name: dvgprom.bin
+      size: 256
+      blob_id: 261951
+    - id: 679054
+      asset_id: 105994
+      name: o.r._1a.m7
+      size: 4096
+      blob_id: 261952
+    - id: 679055
+      asset_id: 105994
+      name: o.r._2a.l7
+      size: 4096
+      blob_id: 261953
+    - id: 679056
+      asset_id: 105994
+      name: o.r._3a.k7
+      size: 4096
+      blob_id: 261954
+    - id: 679057
+      asset_id: 105994
+      name: o.r._4a.j7
+      size: 4096
+      blob_id: 261955
+    - id: 679058
+      asset_id: 105994
+      name: o.r._vector_i_6-1-81.e1
+      size: 2048
+      blob_id: 3212
+    - id: 679059
+      asset_id: 105994
+      name: o.r._vector_ii_6-1-81.f1
+      size: 2048
+      blob_id: 3213
+    - id: 679060
+      asset_id: 105994
+      name: o.r.r._audio_6-1-81.k5
+      size: 2048
+      blob_id: 3218
+- release:
+    id: 90571
+    game_id: 363
+    description: ""
+    release_date: 19810000
+  names:
+  - id: 220590
+    kind: 3
+    kind_id: 90571
+    language: 1
+    name: Omega Race (set 3, 7/27)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 105995
+      kind: 3
+      kind_id: 90571
+      type: 1
+      name: omegrace3.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 679061
+      asset_id: 105995
+      name: dvgprom.bin
+      size: 256
+      blob_id: 261951
+    - id: 679062
+      asset_id: 105995
+      name: o.r._vector_i_6-1-81.e1
+      size: 2048
+      blob_id: 3212
+    - id: 679063
+      asset_id: 105995
+      name: o.r._vector_ii_6-1-81.f1
+      size: 2048
+      blob_id: 3213
+    - id: 679064
+      asset_id: 105995
+      name: o.r.r._audio_6-1-81.k5
+      size: 2048
+      blob_id: 3218
+    - id: 679065
+      asset_id: 105995
+      name: omega_1_7-27.m7
+      size: 4096
+      blob_id: 261952
+    - id: 679066
+      asset_id: 105995
+      name: omega_2_7-27.l7
+      size: 4096
+      blob_id: 261956
+    - id: 679067
+      asset_id: 105995
+      name: omega_3_7-27.k7
+      size: 4096
+      blob_id: 261954
+    - id: 679068
+      asset_id: 105995
+      name: omega_4_7-27.j7
+      size: 4096
+      blob_id: 261955
+- release:
+    id: 103720
+    game_id: 363
+    description: ""
+    release_date: 19810000
+  names:
+  - id: 238696
+    kind: 3
+    kind_id: 103720
+    language: 1
+    name: Delta Race
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 97419
+      kind: 3
+      kind_id: 103720
+      type: 1
+      name: deltrace.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 585331
+      asset_id: 97419
+      name: delta.j7
+      size: 4096
+      blob_id: 243427
+    - id: 585332
+      asset_id: 97419
+      name: dvgprom.bin
+      size: 256
+      blob_id: 261951
+    - id: 585333
+      asset_id: 97419
+      name: omega.e1
+      size: 2048
+      blob_id: 3212
+    - id: 585334
+      asset_id: 97419
+      name: omega.f1
+      size: 2048
+      blob_id: 3213
+    - id: 585335
+      asset_id: 97419
+      name: omega.k7
+      size: 4096
+      blob_id: 3215
+    - id: 585336
+      asset_id: 97419
+      name: omega.l7
+      size: 4096
+      blob_id: 3216
+    - id: 585337
+      asset_id: 97419
+      name: omega.m7
+      size: 4096
+      blob_id: 3217
+    - id: 585338
+      asset_id: 97419
       name: sound.k5
       size: 2048
       blob_id: 3218

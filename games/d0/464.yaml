@@ -16,6 +16,30 @@ names:
   language: 2
   name: 星风血雨 (修订版 3)
   source: trimui
+- id: 199096
+  kind: 2
+  kind_id: 464
+  language: 1
+  name: Sinistar (revision 2, upright)
+  source: mame
+- id: 199097
+  kind: 2
+  kind_id: 464
+  language: 1
+  name: Sinistar (revision 3, cockpit)
+  source: mame
+- id: 199098
+  kind: 2
+  kind_id: 464
+  language: 1
+  name: Sinistar (revision 2, cockpit)
+  source: mame
+- id: 199099
+  kind: 2
+  kind_id: 464
+  language: 1
+  name: Sinistar (AMOA-82 prototype)
+  source: mame
 game_developers:
 - game_id: 464
   developer_id: 456
@@ -174,24 +198,10 @@ releases:
       blob_id: 85092
       debug: arcade/wheel/sinistar.png
     entries: []
-- release:
-    id: 70416
-    game_id: 464
-    description: ""
-    release_date: 19820000
-  names:
-  - id: 170937
-    kind: 3
-    kind_id: 70416
-    language: 1
-    name: Sinistar (revision 3, upright)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 83486
+      id: 113610
       kind: 3
-      kind_id: 70416
+      kind_id: 464
       type: 1
       name: sinistar.zip
       description: ""
@@ -200,93 +210,567 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 366018
-      asset_id: 83486
+    - id: 746428
+      asset_id: 113610
       name: 3004_speech_ic4_r1_16-3004-49.ic4
       size: 4096
       blob_id: 4105
-    - id: 366019
-      asset_id: 83486
+    - id: 746429
+      asset_id: 113610
       name: 3004_speech_ic5_r1_16-3004-50.ic5
       size: 4096
       blob_id: 4106
-    - id: 366020
-      asset_id: 83486
+    - id: 746430
+      asset_id: 113610
       name: 3004_speech_ic6_r1_16-3004-51.ic6
       size: 4096
       blob_id: 4107
-    - id: 366021
-      asset_id: 83486
+    - id: 746431
+      asset_id: 113610
       name: 3004_speech_ic7_r1_16-3004-52.ic7
       size: 4096
       blob_id: 4108
-    - id: 366022
-      asset_id: 83486
+    - id: 746432
+      asset_id: 113610
       name: decoder_rom_4.3g
       size: 512
       blob_id: 23939
-    - id: 366023
-      asset_id: 83486
+    - id: 746433
+      asset_id: 113610
       name: decoder_rom_6.3c
       size: 512
       blob_id: 23940
-    - id: 366024
-      asset_id: 83486
+    - id: 746434
+      asset_id: 113610
       name: sinistar_rom_1-b_16-3004-53.1d
       size: 4096
       blob_id: 4093
-    - id: 366025
-      asset_id: 83486
+    - id: 746435
+      asset_id: 113610
       name: sinistar_rom_10-b_16-3004-62.4c
       size: 4096
       blob_id: 4102
-    - id: 366026
-      asset_id: 83486
+    - id: 746436
+      asset_id: 113610
       name: sinistar_rom_11-b_16-3004-63.4a
       size: 4096
       blob_id: 4103
-    - id: 366027
-      asset_id: 83486
+    - id: 746437
+      asset_id: 113610
       name: sinistar_rom_2-b_16-3004-54.1c
       size: 4096
       blob_id: 4094
-    - id: 366028
-      asset_id: 83486
+    - id: 746438
+      asset_id: 113610
       name: sinistar_rom_3-b_16-3004-55.1a
       size: 4096
       blob_id: 4095
-    - id: 366029
-      asset_id: 83486
+    - id: 746439
+      asset_id: 113610
       name: sinistar_rom_4-b_16-3004-56.2d
       size: 4096
       blob_id: 4096
-    - id: 366030
-      asset_id: 83486
+    - id: 746440
+      asset_id: 113610
       name: sinistar_rom_5-b_16-3004-57.2c
       size: 4096
       blob_id: 4097
-    - id: 366031
-      asset_id: 83486
+    - id: 746441
+      asset_id: 113610
       name: sinistar_rom_6-b_16-3004-58.2a
       size: 4096
       blob_id: 4098
-    - id: 366032
-      asset_id: 83486
+    - id: 746442
+      asset_id: 113610
       name: sinistar_rom_7-b_16-3004-59.3d
       size: 4096
       blob_id: 4099
-    - id: 366033
-      asset_id: 83486
+    - id: 746443
+      asset_id: 113610
       name: sinistar_rom_8-b_16-3004-60.3c
       size: 4096
       blob_id: 4100
-    - id: 366034
-      asset_id: 83486
+    - id: 746444
+      asset_id: 113610
       name: sinistar_rom_9-b_16-3004-61.3a
       size: 4096
       blob_id: 4101
-    - id: 366035
-      asset_id: 83486
+    - id: 746445
+      asset_id: 113610
       name: video_sound_rom_9_std.808.ic12
+      size: 4096
+      blob_id: 4104
+- release:
+    id: 97910
+    game_id: 464
+    description: ""
+    release_date: 19820000
+  names:
+  - id: 230332
+    kind: 3
+    kind_id: 97910
+    language: 1
+    name: Sinistar (revision 2, upright)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 113611
+      kind: 3
+      kind_id: 97910
+      type: 1
+      name: sinistar2.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 746446
+      asset_id: 113611
+      name: 3004_speech_ic4_r1_16-3004-49.ic4
+      size: 4096
+      blob_id: 4105
+    - id: 746447
+      asset_id: 113611
+      name: 3004_speech_ic5_r1_16-3004-50.ic5
+      size: 4096
+      blob_id: 4106
+    - id: 746448
+      asset_id: 113611
+      name: 3004_speech_ic6_r1_16-3004-51.ic6
+      size: 4096
+      blob_id: 4107
+    - id: 746449
+      asset_id: 113611
+      name: 3004_speech_ic7_r1_16-3004-52.ic7
+      size: 4096
+      blob_id: 4108
+    - id: 746450
+      asset_id: 113611
+      name: decoder_rom_4.3g
+      size: 512
+      blob_id: 23939
+    - id: 746451
+      asset_id: 113611
+      name: decoder_rom_6.3c
+      size: 512
+      blob_id: 23940
+    - id: 746452
+      asset_id: 113611
+      name: sinistar_rom_1-b_16-3004-38.1d
+      size: 4096
+      blob_id: 4093
+    - id: 746453
+      asset_id: 113611
+      name: sinistar_rom_10-b_16-3004-47.4c
+      size: 4096
+      blob_id: 4102
+    - id: 746454
+      asset_id: 113611
+      name: sinistar_rom_11-b_16-3004-48.4a
+      size: 4096
+      blob_id: 280972
+    - id: 746455
+      asset_id: 113611
+      name: sinistar_rom_2-b_16-3004-39.1c
+      size: 4096
+      blob_id: 4094
+    - id: 746456
+      asset_id: 113611
+      name: sinistar_rom_3-b_16-3004-40.1a
+      size: 4096
+      blob_id: 4095
+    - id: 746457
+      asset_id: 113611
+      name: sinistar_rom_4-b_16-3004-41.2d
+      size: 4096
+      blob_id: 4096
+    - id: 746458
+      asset_id: 113611
+      name: sinistar_rom_5-b_16-3004-42.2c
+      size: 4096
+      blob_id: 4097
+    - id: 746459
+      asset_id: 113611
+      name: sinistar_rom_6-b_16-3004-43.2a
+      size: 4096
+      blob_id: 4098
+    - id: 746460
+      asset_id: 113611
+      name: sinistar_rom_7-b_16-3004-44.3d
+      size: 4096
+      blob_id: 4099
+    - id: 746461
+      asset_id: 113611
+      name: sinistar_rom_8-b_16-3004-45.3c
+      size: 4096
+      blob_id: 280973
+    - id: 746462
+      asset_id: 113611
+      name: sinistar_rom_9-b_16-3004-46.3a
+      size: 4096
+      blob_id: 4101
+    - id: 746463
+      asset_id: 113611
+      name: video_sound_rom_9_std.808.ic12
+      size: 4096
+      blob_id: 4104
+- release:
+    id: 97911
+    game_id: 464
+    description: ""
+    release_date: 19820000
+  names:
+  - id: 230333
+    kind: 3
+    kind_id: 97911
+    language: 1
+    name: Sinistar (revision 3, cockpit)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 113612
+      kind: 3
+      kind_id: 97911
+      type: 1
+      name: sinistarc.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 746464
+      asset_id: 113612
+      name: 3004_speech_ic4_r1_16-3004-49.ic4
+      size: 4096
+      blob_id: 4105
+    - id: 746465
+      asset_id: 113612
+      name: 3004_speech_ic5_r1_16-3004-50.ic5
+      size: 4096
+      blob_id: 4106
+    - id: 746466
+      asset_id: 113612
+      name: 3004_speech_ic6_r1_16-3004-51.ic6
+      size: 4096
+      blob_id: 4107
+    - id: 746467
+      asset_id: 113612
+      name: 3004_speech_ic7_r1_16-3004-52.ic7
+      size: 4096
+      blob_id: 4108
+    - id: 746468
+      asset_id: 113612
+      name: decoder_rom_4.3g
+      size: 512
+      blob_id: 23939
+    - id: 746469
+      asset_id: 113612
+      name: decoder_rom_6.3c
+      size: 512
+      blob_id: 23940
+    - id: 746470
+      asset_id: 113612
+      name: sinistar_rom_1-b_16-3004-53.1d
+      size: 4096
+      blob_id: 4093
+    - id: 746471
+      asset_id: 113612
+      name: sinistar_rom_10-b_16-3004-62.4c
+      size: 4096
+      blob_id: 4102
+    - id: 746472
+      asset_id: 113612
+      name: sinistar_rom_11-b_16-3004-63.4a
+      size: 4096
+      blob_id: 4103
+    - id: 746473
+      asset_id: 113612
+      name: sinistar_rom_2-b_16-3004-54.1c
+      size: 4096
+      blob_id: 4094
+    - id: 746474
+      asset_id: 113612
+      name: sinistar_rom_3-b_16-3004-55.1a
+      size: 4096
+      blob_id: 4095
+    - id: 746475
+      asset_id: 113612
+      name: sinistar_rom_4-b_16-3004-56.2d
+      size: 4096
+      blob_id: 4096
+    - id: 746476
+      asset_id: 113612
+      name: sinistar_rom_5-b_16-3004-57.2c
+      size: 4096
+      blob_id: 4097
+    - id: 746477
+      asset_id: 113612
+      name: sinistar_rom_6-b_16-3004-58.2a
+      size: 4096
+      blob_id: 4098
+    - id: 746478
+      asset_id: 113612
+      name: sinistar_rom_7-b_16-3004-59.3d
+      size: 4096
+      blob_id: 4099
+    - id: 746479
+      asset_id: 113612
+      name: sinistar_rom_8-b_16-3004-60.3c
+      size: 4096
+      blob_id: 4100
+    - id: 746480
+      asset_id: 113612
+      name: sinistar_rom_9-b_16-3004-61.3a
+      size: 4096
+      blob_id: 4101
+    - id: 746481
+      asset_id: 113612
+      name: video_sound_rom_10_std.ic12
+      size: 4096
+      blob_id: 280974
+    - id: 746482
+      asset_id: 113612
+      name: video_sound_rom_9_std.808.ic12
+      size: 4096
+      blob_id: 4104
+- release:
+    id: 97912
+    game_id: 464
+    description: ""
+    release_date: 19820000
+  names:
+  - id: 230334
+    kind: 3
+    kind_id: 97912
+    language: 1
+    name: Sinistar (revision 2, cockpit)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 113613
+      kind: 3
+      kind_id: 97912
+      type: 1
+      name: sinistarc2.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 746483
+      asset_id: 113613
+      name: 3004_speech_ic4_r1_16-3004-49.ic4
+      size: 4096
+      blob_id: 4105
+    - id: 746484
+      asset_id: 113613
+      name: 3004_speech_ic5_r1_16-3004-50.ic5
+      size: 4096
+      blob_id: 4106
+    - id: 746485
+      asset_id: 113613
+      name: 3004_speech_ic6_r1_16-3004-51.ic6
+      size: 4096
+      blob_id: 4107
+    - id: 746486
+      asset_id: 113613
+      name: 3004_speech_ic7_r1_16-3004-52.ic7
+      size: 4096
+      blob_id: 4108
+    - id: 746487
+      asset_id: 113613
+      name: decoder_rom_4.3g
+      size: 512
+      blob_id: 23939
+    - id: 746488
+      asset_id: 113613
+      name: decoder_rom_6.3c
+      size: 512
+      blob_id: 23940
+    - id: 746489
+      asset_id: 113613
+      name: sinistar_rom_1-b_16-3004-38.1d
+      size: 4096
+      blob_id: 4093
+    - id: 746490
+      asset_id: 113613
+      name: sinistar_rom_10-b_16-3004-47.4c
+      size: 4096
+      blob_id: 4102
+    - id: 746491
+      asset_id: 113613
+      name: sinistar_rom_11-b_16-3004-48.4a
+      size: 4096
+      blob_id: 280972
+    - id: 746492
+      asset_id: 113613
+      name: sinistar_rom_2-b_16-3004-39.1c
+      size: 4096
+      blob_id: 4094
+    - id: 746493
+      asset_id: 113613
+      name: sinistar_rom_3-b_16-3004-40.1a
+      size: 4096
+      blob_id: 4095
+    - id: 746494
+      asset_id: 113613
+      name: sinistar_rom_4-b_16-3004-41.2d
+      size: 4096
+      blob_id: 4096
+    - id: 746495
+      asset_id: 113613
+      name: sinistar_rom_5-b_16-3004-42.2c
+      size: 4096
+      blob_id: 4097
+    - id: 746496
+      asset_id: 113613
+      name: sinistar_rom_6-b_16-3004-43.2a
+      size: 4096
+      blob_id: 4098
+    - id: 746497
+      asset_id: 113613
+      name: sinistar_rom_7-b_16-3004-44.3d
+      size: 4096
+      blob_id: 4099
+    - id: 746498
+      asset_id: 113613
+      name: sinistar_rom_8-b_16-3004-45.3c
+      size: 4096
+      blob_id: 280973
+    - id: 746499
+      asset_id: 113613
+      name: sinistar_rom_9-b_16-3004-46.3a
+      size: 4096
+      blob_id: 4101
+    - id: 746500
+      asset_id: 113613
+      name: video_sound_rom_10_std.ic12
+      size: 4096
+      blob_id: 280974
+    - id: 746501
+      asset_id: 113613
+      name: video_sound_rom_9_std.808.ic12
+      size: 4096
+      blob_id: 4104
+- release:
+    id: 97913
+    game_id: 464
+    description: ""
+    release_date: 19820000
+  names:
+  - id: 230335
+    kind: 3
+    kind_id: 97913
+    language: 1
+    name: Sinistar (AMOA-82 prototype)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 113614
+      kind: 3
+      kind_id: 97913
+      type: 1
+      name: sinistarp.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 746502
+      asset_id: 113614
+      name: 3004_speech_ic4_r1.ic4
+      size: 4096
+      blob_id: 4105
+    - id: 746503
+      asset_id: 113614
+      name: 3004_speech_ic5_r1.ic5
+      size: 4096
+      blob_id: 4106
+    - id: 746504
+      asset_id: 113614
+      name: 3004_speech_ic6_r1.ic6
+      size: 4096
+      blob_id: 4107
+    - id: 746505
+      asset_id: 113614
+      name: 3004_speech_ic7_r1.ic7
+      size: 4096
+      blob_id: 4108
+    - id: 746506
+      asset_id: 113614
+      name: decoder_rom_4.3g
+      size: 512
+      blob_id: 23939
+    - id: 746507
+      asset_id: 113614
+      name: decoder_rom_6.3c
+      size: 512
+      blob_id: 23940
+    - id: 746508
+      asset_id: 113614
+      name: sinistar_rom_1-b_16-3004-12.1d
+      size: 4096
+      blob_id: 280975
+    - id: 746509
+      asset_id: 113614
+      name: sinistar_rom_10-b_16-3004-21.4c
+      size: 4096
+      blob_id: 280976
+    - id: 746510
+      asset_id: 113614
+      name: sinistar_rom_11-b_16-3004-22.4a
+      size: 4096
+      blob_id: 280977
+    - id: 746511
+      asset_id: 113614
+      name: sinistar_rom_2-b_16-3004-13.1c
+      size: 4096
+      blob_id: 4094
+    - id: 746512
+      asset_id: 113614
+      name: sinistar_rom_3-b_16-3004-14.1a
+      size: 4096
+      blob_id: 280978
+    - id: 746513
+      asset_id: 113614
+      name: sinistar_rom_4-b_16-3004-15.2d
+      size: 4096
+      blob_id: 280979
+    - id: 746514
+      asset_id: 113614
+      name: sinistar_rom_5-b_16-3004-16.2c
+      size: 4096
+      blob_id: 280980
+    - id: 746515
+      asset_id: 113614
+      name: sinistar_rom_6-b_16-3004-17.2a
+      size: 4096
+      blob_id: 280981
+    - id: 746516
+      asset_id: 113614
+      name: sinistar_rom_7-b_16-3004-18.3d
+      size: 4096
+      blob_id: 280982
+    - id: 746517
+      asset_id: 113614
+      name: sinistar_rom_8-b_16-3004-19.3c
+      size: 4096
+      blob_id: 280983
+    - id: 746518
+      asset_id: 113614
+      name: sinistar_rom_9-b_16-3004-20.3a
+      size: 4096
+      blob_id: 280984
+    - id: 746519
+      asset_id: 113614
+      name: video_sound_rom_9_std.808
       size: 4096
       blob_id: 4104

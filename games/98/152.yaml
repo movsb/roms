@@ -16,6 +16,30 @@ names:
   language: 2
   name: 嘟先生的城堡 (第一套)
   source: trimui
+- id: 186593
+  kind: 2
+  kind_id: 152
+  language: 1
+  name: DOUNI
+  source: ""
+- id: 186594
+  kind: 2
+  kind_id: 152
+  language: 2
+  name: 嘟先生对独角兽
+  source: trimui
+- id: 189889
+  kind: 2
+  kind_id: 152
+  language: 1
+  name: Mr. Do's Castle (set 2)
+  source: mame
+- id: 189890
+  kind: 2
+  kind_id: 152
+  language: 1
+  name: Mr. Do's Castle (older)
+  source: mame
 game_developers:
 - game_id: 152
   developer_id: 477
@@ -149,24 +173,10 @@ releases:
       blob_id: 86680
       debug: arcade/wheel/docastle.png
     entries: []
-- release:
-    id: 41063
-    game_id: 152
-    description: ""
-    release_date: 19830000
-  names:
-  - id: 113015
-    kind: 3
-    kind_id: 41063
-    language: 1
-    name: Mr. Do's Castle (set 1)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 54133
+      id: 97749
       kind: 3
-      kind_id: 41063
+      kind_id: 152
       type: 1
       name: docastle.zip
       description: ""
@@ -175,63 +185,327 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 152657
-      asset_id: 54133
+    - id: 589407
+      asset_id: 97749
       name: 01d.bin
       size: 512
       blob_id: 1674
-    - id: 152658
-      asset_id: 54133
+    - id: 589408
+      asset_id: 97749
       name: 01k_a4.bin
       size: 8192
       blob_id: 15412
-    - id: 152659
-      asset_id: 54133
+    - id: 589409
+      asset_id: 97749
       name: 01l_a3.bin
       size: 8192
       blob_id: 15413
-    - id: 152660
-      asset_id: 54133
+    - id: 589410
+      asset_id: 97749
       name: 01n_a2.bin
       size: 8192
       blob_id: 15414
-    - id: 152661
-      asset_id: 54133
+    - id: 589411
+      asset_id: 97749
       name: 01p_a1.bin
       size: 8192
       blob_id: 15415
-    - id: 152662
-      asset_id: 54133
+    - id: 589412
+      asset_id: 97749
       name: 03a_a5.bin
       size: 16384
       blob_id: 1639
-    - id: 152663
-      asset_id: 54133
+    - id: 589413
+      asset_id: 97749
       name: 04h_a9.bin
       size: 8192
       blob_id: 1640
-    - id: 152664
-      asset_id: 54133
+    - id: 589414
+      asset_id: 97749
       name: 04j_a8.bin
       size: 8192
       blob_id: 1641
-    - id: 152665
-      asset_id: 54133
+    - id: 589415
+      asset_id: 97749
       name: 04l_a7.bin
       size: 8192
       blob_id: 1644
-    - id: 152666
-      asset_id: 54133
+    - id: 589416
+      asset_id: 97749
       name: 04m_a6.bin
       size: 8192
       blob_id: 1645
-    - id: 152667
-      asset_id: 54133
+    - id: 589417
+      asset_id: 97749
       name: 07n_a0.bin
       size: 16384
       blob_id: 15416
-    - id: 152668
-      asset_id: 54133
+    - id: 589418
+      asset_id: 97749
       name: 09c.bin
       size: 512
-      blob_id: 109619
+      blob_id: 212769
+- release:
+    id: 82880
+    game_id: 152
+    description: ""
+    release_date: 19830000
+  names:
+  - id: 208718
+    kind: 3
+    kind_id: 82880
+    language: 1
+    name: Mr. Do's Castle (set 2)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 97750
+      kind: 3
+      kind_id: 82880
+      type: 1
+      name: docastle2.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 589419
+      asset_id: 97750
+      name: 01d.bin
+      size: 512
+      blob_id: 1674
+    - id: 589420
+      asset_id: 97750
+      name: 03a_a5.bin
+      size: 16384
+      blob_id: 1639
+    - id: 589421
+      asset_id: 97750
+      name: 04h_a9.bin
+      size: 8192
+      blob_id: 1640
+    - id: 589422
+      asset_id: 97750
+      name: 04j_a8.bin
+      size: 8192
+      blob_id: 1641
+    - id: 589423
+      asset_id: 97750
+      name: 04l_a7.bin
+      size: 8192
+      blob_id: 1644
+    - id: 589424
+      asset_id: 97750
+      name: 04m_a6.bin
+      size: 8192
+      blob_id: 1645
+    - id: 589425
+      asset_id: 97750
+      name: 09c.bin
+      size: 512
+      blob_id: 212769
+    - id: 589426
+      asset_id: 97750
+      name: a1
+      size: 8192
+      blob_id: 1648
+    - id: 589427
+      asset_id: 97750
+      name: a10
+      size: 16384
+      blob_id: 1647
+    - id: 589428
+      asset_id: 97750
+      name: a2
+      size: 8192
+      blob_id: 1646
+    - id: 589429
+      asset_id: 97750
+      name: a3
+      size: 8192
+      blob_id: 1643
+    - id: 589430
+      asset_id: 97750
+      name: a4
+      size: 8192
+      blob_id: 1642
+- release:
+    id: 82881
+    game_id: 152
+    description: ""
+    release_date: 19830000
+  names:
+  - id: 208719
+    kind: 3
+    kind_id: 82881
+    language: 1
+    name: Mr. Do's Castle (older)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 97751
+      kind: 3
+      kind_id: 82881
+      type: 1
+      name: docastleo.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 589431
+      asset_id: 97751
+      name: 01d.bin
+      size: 512
+      blob_id: 1674
+    - id: 589432
+      asset_id: 97751
+      name: 03a_a5.bin
+      size: 16384
+      blob_id: 1639
+    - id: 589433
+      asset_id: 97751
+      name: c1.bin
+      size: 8192
+      blob_id: 243842
+    - id: 589434
+      asset_id: 97751
+      name: c2.bin
+      size: 8192
+      blob_id: 243843
+    - id: 589435
+      asset_id: 97751
+      name: c3.bin
+      size: 8192
+      blob_id: 243844
+    - id: 589436
+      asset_id: 97751
+      name: c4.bin
+      size: 8192
+      blob_id: 243845
+    - id: 589437
+      asset_id: 97751
+      name: dorev10.bin
+      size: 16384
+      blob_id: 1699
+    - id: 589438
+      asset_id: 97751
+      name: dorev6.bin
+      size: 8192
+      blob_id: 1703
+    - id: 589439
+      asset_id: 97751
+      name: dorev7.bin
+      size: 8192
+      blob_id: 1704
+    - id: 589440
+      asset_id: 97751
+      name: dorev8.bin
+      size: 8192
+      blob_id: 1705
+    - id: 589441
+      asset_id: 97751
+      name: dorev9.bin
+      size: 8192
+      blob_id: 1706
+    - id: 589442
+      asset_id: 97751
+      name: dorevc9.bin
+      size: 512
+      blob_id: 1707
+- release:
+    id: 102832
+    game_id: 152
+    description: ""
+    release_date: 0
+  names:
+  - id: 237450
+    kind: 3
+    kind_id: 102832
+    language: 1
+    name: DOUNI
+    source: ""
+  - id: 237451
+    kind: 3
+    kind_id: 102832
+    language: 2
+    name: 嘟先生对独角兽
+    source: trimui
+  release_publishers: []
+  assets:
+  - asset:
+      id: 97841
+      kind: 3
+      kind_id: 102832
+      type: 1
+      name: douni.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 590429
+      asset_id: 97841
+      name: 01d.bin
+      size: 512
+      blob_id: 1674
+    - id: 590430
+      asset_id: 97841
+      name: 03a_a5.bin
+      size: 16384
+      blob_id: 1639
+    - id: 590431
+      asset_id: 97841
+      name: dorev1.bin
+      size: 8192
+      blob_id: 1698
+    - id: 590432
+      asset_id: 97841
+      name: dorev10.bin
+      size: 16384
+      blob_id: 1699
+    - id: 590433
+      asset_id: 97841
+      name: dorev2.bin
+      size: 8192
+      blob_id: 1700
+    - id: 590434
+      asset_id: 97841
+      name: dorev3.bin
+      size: 8192
+      blob_id: 1701
+    - id: 590435
+      asset_id: 97841
+      name: dorev4.bin
+      size: 8192
+      blob_id: 1702
+    - id: 590436
+      asset_id: 97841
+      name: dorev6.bin
+      size: 8192
+      blob_id: 1703
+    - id: 590437
+      asset_id: 97841
+      name: dorev7.bin
+      size: 8192
+      blob_id: 1704
+    - id: 590438
+      asset_id: 97841
+      name: dorev8.bin
+      size: 8192
+      blob_id: 1705
+    - id: 590439
+      asset_id: 97841
+      name: dorev9.bin
+      size: 8192
+      blob_id: 1706
+    - id: 590440
+      asset_id: 97841
+      name: dorevc9.bin
+      size: 512
+      blob_id: 1707

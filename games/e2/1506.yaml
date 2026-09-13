@@ -10,6 +10,24 @@ names:
   language: 1
   name: earthjkr
   source: ""
+- id: 190077
+  kind: 2
+  kind_id: 1506
+  language: 1
+  name: "U.N. Defense Force: Earth Joker (US / Japan, set 2)"
+  source: mame
+- id: 190078
+  kind: 2
+  kind_id: 1506
+  language: 1
+  name: "U.N. Defense Force: Earth Joker (US / Japan, set 3)"
+  source: mame
+- id: 190079
+  kind: 2
+  kind_id: 1506
+  language: 1
+  name: "U.N. Defense Force: Earth Joker (Japan, prototype?)"
+  source: mame
 game_developers: []
 game_genres:
 - game_id: 1506
@@ -136,6 +154,68 @@ releases:
       blob_id: 85264
       debug: arcade/wheel/earthjkr.png
     entries: []
+  - asset:
+      id: 98149
+      kind: 3
+      kind_id: 1506
+      type: 1
+      name: earthjkr.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 594546
+      asset_id: 98149
+      name: b68-04.ic32
+      size: 324
+      blob_id: 7202
+    - id: 594547
+      asset_id: 98149
+      name: b68-05.ic43
+      size: 260
+      blob_id: 7203
+    - id: 594548
+      asset_id: 98149
+      name: ej_0.ic4
+      size: 65536
+      blob_id: 16409
+    - id: 594549
+      asset_id: 98149
+      name: ej_1.ic5
+      size: 65536
+      blob_id: 16410
+    - id: 594550
+      asset_id: 98149
+      name: ej_2.ic27
+      size: 65536
+      blob_id: 16411
+    - id: 594551
+      asset_id: 98149
+      name: ej_30e.ic30
+      size: 524288
+      blob_id: 16412
+    - id: 594552
+      asset_id: 98149
+      name: ej_3a.ic8
+      size: 131072
+      blob_id: 16413
+    - id: 594553
+      asset_id: 98149
+      name: ej_3b.ic23
+      size: 131072
+      blob_id: 16414
+    - id: 594554
+      asset_id: 98149
+      name: ej_chr-0.ic3
+      size: 524288
+      blob_id: 16415
+    - id: 594555
+      asset_id: 98149
+      name: ej_obj-0.ic6
+      size: 524288
+      blob_id: 16416
 - release:
     id: 1507
     game_id: 1506
@@ -254,78 +334,230 @@ releases:
       size: 524288
       blob_id: 16416
 - release:
-    id: 41477
+    id: 83244
     game_id: 1506
     description: ""
     release_date: 19930000
   names:
-  - id: 113809
+  - id: 209284
     kind: 3
-    kind_id: 41477
+    kind_id: 83244
     language: 1
-    name: "U.N. Defense Force: Earth Joker (US / Japan, set 1)"
+    name: "U.N. Defense Force: Earth Joker (US / Japan, set 2)"
     source: mame
   release_publishers: []
   assets:
   - asset:
-      id: 54547
+      id: 98150
       kind: 3
-      kind_id: 41477
+      kind_id: 83244
       type: 1
-      name: earthjkr.zip
+      name: earthjkra.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 157837
-      asset_id: 54547
+    - id: 594556
+      asset_id: 98150
       name: b68-04.ic32
       size: 324
       blob_id: 7202
-    - id: 157838
-      asset_id: 54547
+    - id: 594557
+      asset_id: 98150
       name: b68-05.ic43
       size: 260
       blob_id: 7203
-    - id: 157839
-      asset_id: 54547
-      name: ej_0.ic4
-      size: 65536
-      blob_id: 16409
-    - id: 157840
-      asset_id: 54547
-      name: ej_1.ic5
-      size: 65536
-      blob_id: 16410
-    - id: 157841
-      asset_id: 54547
-      name: ej_2.ic27
-      size: 65536
-      blob_id: 16411
-    - id: 157842
-      asset_id: 54547
-      name: ej_30e.ic30
-      size: 524288
-      blob_id: 16412
-    - id: 157843
-      asset_id: 54547
-      name: ej_3a.ic8
-      size: 131072
-      blob_id: 16413
-    - id: 157844
-      asset_id: 54547
-      name: ej_3b.ic23
-      size: 131072
-      blob_id: 16414
-    - id: 157845
-      asset_id: 54547
+    - id: 594558
+      asset_id: 98150
       name: ej_chr-0.ic3
       size: 524288
       blob_id: 16415
-    - id: 157846
-      asset_id: 54547
+    - id: 594559
+      asset_id: 98150
+      name: ej_obj-0.ic6
+      size: 524288
+      blob_id: 16416
+    - id: 594560
+      asset_id: 98150
+      name: ejok_ic23
+      size: 131072
+      blob_id: 16417
+    - id: 594561
+      asset_id: 98150
+      name: ejok_ic28
+      size: 65536
+      blob_id: 16411
+    - id: 594562
+      asset_id: 98150
+      name: ejok_ic30
+      size: 524288
+      blob_id: 16412
+    - id: 594563
+      asset_id: 98150
+      name: ejok_ic4
+      size: 65536
+      blob_id: 16409
+    - id: 594564
+      asset_id: 98150
+      name: ejok_ic5
+      size: 65536
+      blob_id: 16410
+    - id: 594565
+      asset_id: 98150
+      name: ejok_ic8
+      size: 131072
+      blob_id: 16418
+- release:
+    id: 83245
+    game_id: 1506
+    description: ""
+    release_date: 19930000
+  names:
+  - id: 209285
+    kind: 3
+    kind_id: 83245
+    language: 1
+    name: "U.N. Defense Force: Earth Joker (US / Japan, set 3)"
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 98151
+      kind: 3
+      kind_id: 83245
+      type: 1
+      name: earthjkrb.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 594566
+      asset_id: 98151
+      name: 0.ic4
+      size: 65536
+      blob_id: 16409
+    - id: 594567
+      asset_id: 98151
+      name: 1.ic5
+      size: 65536
+      blob_id: 16410
+    - id: 594568
+      asset_id: 98151
+      name: 2.ic27
+      size: 65536
+      blob_id: 16411
+    - id: 594569
+      asset_id: 98151
+      name: 3.ic8
+      size: 131072
+      blob_id: 16419
+    - id: 594570
+      asset_id: 98151
+      name: 4.ic23
+      size: 131072
+      blob_id: 16420
+    - id: 594571
+      asset_id: 98151
+      name: b68-04.ic32
+      size: 324
+      blob_id: 7202
+    - id: 594572
+      asset_id: 98151
+      name: b68-05.ic43
+      size: 260
+      blob_id: 7203
+    - id: 594573
+      asset_id: 98151
+      name: ej_chr-0.ic3
+      size: 524288
+      blob_id: 16415
+    - id: 594574
+      asset_id: 98151
+      name: ej_obj-0.ic6
+      size: 524288
+      blob_id: 16416
+    - id: 594575
+      asset_id: 98151
+      name: ic30e.ic30
+      size: 524288
+      blob_id: 16412
+- release:
+    id: 83246
+    game_id: 1506
+    description: ""
+    release_date: 19930000
+  names:
+  - id: 209286
+    kind: 3
+    kind_id: 83246
+    language: 1
+    name: "U.N. Defense Force: Earth Joker (Japan, prototype?)"
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 98152
+      kind: 3
+      kind_id: 83246
+      type: 1
+      name: earthjkrp.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 594576
+      asset_id: 98152
+      name: 0.ic4
+      size: 65536
+      blob_id: 16409
+    - id: 594577
+      asset_id: 98152
+      name: 1.ic5
+      size: 65536
+      blob_id: 16410
+    - id: 594578
+      asset_id: 98152
+      name: 2.ic27
+      size: 65536
+      blob_id: 16411
+    - id: 594579
+      asset_id: 98152
+      name: 3.ic23
+      size: 131072
+      blob_id: 16421
+    - id: 594580
+      asset_id: 98152
+      name: 4.ic8
+      size: 131072
+      blob_id: 16422
+    - id: 594581
+      asset_id: 98152
+      name: 5.ic30
+      size: 524288
+      blob_id: 16423
+    - id: 594582
+      asset_id: 98152
+      name: b68-04.ic32
+      size: 324
+      blob_id: 7202
+    - id: 594583
+      asset_id: 98152
+      name: b68-05.ic43
+      size: 260
+      blob_id: 7203
+    - id: 594584
+      asset_id: 98152
+      name: ej_chr-0.ic3
+      size: 524288
+      blob_id: 16415
+    - id: 594585
+      asset_id: 98152
       name: ej_obj-0.ic6
       size: 524288
       blob_id: 16416

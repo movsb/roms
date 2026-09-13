@@ -16,6 +16,42 @@ names:
   language: 2
   name: 轨道拼图
   source: trimui
+- id: 189264
+  kind: 2
+  kind_id: 279
+  language: 1
+  name: Cotocoto Cottong
+  source: mame
+- id: 191521
+  kind: 2
+  kind_id: 279
+  language: 1
+  name: Guttang Gottong
+  source: mame
+- id: 191522
+  kind: 2
+  kind_id: 279
+  language: 1
+  name: Guttang Gottong (Sega license)
+  source: mame
+- id: 191523
+  kind: 2
+  kind_id: 279
+  language: 1
+  name: Guttang Gottong (bootleg on Galaxian hardware)
+  source: mame
+- id: 191524
+  kind: 2
+  kind_id: 279
+  language: 1
+  name: Guttang Gottong (Sede 3 bootleg on Galaxian hardware)
+  source: mame
+- id: 192660
+  kind: 2
+  kind_id: 279
+  language: 1
+  name: Loco-Motion (bootleg)
+  source: mame
 game_developers:
 - game_id: 279
   developer_id: 2
@@ -139,24 +175,10 @@ releases:
       blob_id: 85062
       debug: arcade/wheel/locomotn.png
     entries: []
-- release:
-    id: 49596
-    game_id: 279
-    description: ""
-    release_date: 19820000
-  names:
-  - id: 129700
-    kind: 3
-    kind_id: 49596
-    language: 1
-    name: Loco-Motion
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 62666
+      id: 103114
       kind: 3
-      kind_id: 49596
+      kind_id: 279
       type: 1
       name: locomotn.zip
       description: ""
@@ -165,68 +187,686 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 225776
-      asset_id: 62666
+    - id: 650204
+      asset_id: 103114
       name: 10a.bpr
       size: 32
       blob_id: 3194
-    - id: 225777
-      asset_id: 62666
+    - id: 650205
+      asset_id: 103114
       name: 10g.bpr
       size: 256
-      blob_id: 122224
-    - id: 225778
-      asset_id: 62666
+      blob_id: 228782
+    - id: 650206
+      asset_id: 103114
       name: 1a.cpu
       size: 4096
       blob_id: 2690
-    - id: 225779
-      asset_id: 62666
+    - id: 650207
+      asset_id: 103114
       name: 1b_s1.bin
       size: 4096
       blob_id: 2689
-    - id: 225780
-      asset_id: 62666
+    - id: 650208
+      asset_id: 103114
       name: 2a.cpu
       size: 4096
       blob_id: 2691
-    - id: 225781
-      asset_id: 62666
+    - id: 650209
+      asset_id: 103114
       name: 3.cpu
       size: 4096
       blob_id: 2692
-    - id: 225782
-      asset_id: 62666
+    - id: 650210
+      asset_id: 103114
       name: 4.cpu
       size: 4096
       blob_id: 2693
-    - id: 225783
-      asset_id: 62666
+    - id: 650211
+      asset_id: 103114
       name: 5.cpu
       size: 4096
       blob_id: 2694
-    - id: 225784
-      asset_id: 62666
+    - id: 650212
+      asset_id: 103114
       name: 5l_c1.bin
       size: 4096
       blob_id: 2695
-    - id: 225785
-      asset_id: 62666
+    - id: 650213
+      asset_id: 103114
       name: 7a.bpr
       size: 32
       blob_id: 12135
-    - id: 225786
-      asset_id: 62666
+    - id: 650214
+      asset_id: 103114
       name: 8b.bpr
       size: 32
-      blob_id: 122231
-    - id: 225787
-      asset_id: 62666
+      blob_id: 228783
+    - id: 650215
+      asset_id: 103114
       name: 9d.bpr
       size: 256
-      blob_id: 122232
-    - id: 225788
-      asset_id: 62666
+      blob_id: 228784
+    - id: 650216
+      asset_id: 103114
       name: c2.cpu
       size: 4096
       blob_id: 2696
+- release:
+    id: 103663
+    game_id: 279
+    description: ""
+    release_date: 19820000
+  names:
+  - id: 238639
+    kind: 3
+    kind_id: 103663
+    language: 1
+    name: Cotocoto Cottong
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 96584
+      kind: 3
+      kind_id: 103663
+      type: 1
+      name: cottong.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 572658
+      asset_id: 96584
+      name: 10a.bpr
+      size: 32
+      blob_id: 3194
+    - id: 572659
+      asset_id: 96584
+      name: 2.bpr
+      size: 32
+      blob_id: 242506
+    - id: 572660
+      asset_id: 96584
+      name: 3.bpr
+      size: 256
+      blob_id: 242507
+    - id: 572661
+      asset_id: 96584
+      name: 5.bpr
+      size: 256
+      blob_id: 242508
+    - id: 572662
+      asset_id: 96584
+      name: 7a.bpr
+      size: 32
+      blob_id: 12135
+    - id: 572663
+      asset_id: 96584
+      name: c1
+      size: 4096
+      blob_id: 242509
+    - id: 572664
+      asset_id: 96584
+      name: c2
+      size: 4096
+      blob_id: 242510
+    - id: 572665
+      asset_id: 96584
+      name: c3
+      size: 4096
+      blob_id: 242511
+    - id: 572666
+      asset_id: 96584
+      name: c4
+      size: 4096
+      blob_id: 242512
+    - id: 572667
+      asset_id: 96584
+      name: c5
+      size: 4096
+      blob_id: 242513
+    - id: 572668
+      asset_id: 96584
+      name: c6
+      size: 4096
+      blob_id: 242514
+    - id: 572669
+      asset_id: 96584
+      name: c7
+      size: 4096
+      blob_id: 242515
+    - id: 572670
+      asset_id: 96584
+      name: c8
+      size: 4096
+      blob_id: 242516
+- release:
+    id: 104107
+    game_id: 279
+    description: ""
+    release_date: 19820000
+  names:
+  - id: 239083
+    kind: 3
+    kind_id: 104107
+    language: 1
+    name: Guttang Gottong
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 100697
+      kind: 3
+      kind_id: 104107
+      type: 1
+      name: gutangtn.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 623526
+      asset_id: 100697
+      name: 10a.bpr
+      size: 32
+      blob_id: 3194
+    - id: 623527
+      asset_id: 100697
+      name: 2.bpr
+      size: 32
+      blob_id: 242506
+    - id: 623528
+      asset_id: 100697
+      name: 3.bpr
+      size: 256
+      blob_id: 242507
+    - id: 623529
+      asset_id: 100697
+      name: 5.bpr
+      size: 256
+      blob_id: 242508
+    - id: 623530
+      asset_id: 100697
+      name: 7a.bpr
+      size: 32
+      blob_id: 12135
+    - id: 623531
+      asset_id: 100697
+      name: bimm_001.r1
+      size: 4096
+      blob_id: 248459
+    - id: 623532
+      asset_id: 100697
+      name: bimm_002.r2
+      size: 4096
+      blob_id: 242510
+    - id: 623533
+      asset_id: 100697
+      name: bimm_003.r3
+      size: 4096
+      blob_id: 242511
+    - id: 623534
+      asset_id: 100697
+      name: bimm_004.r4
+      size: 4096
+      blob_id: 242512
+    - id: 623535
+      asset_id: 100697
+      name: bimm_005.r9
+      size: 4096
+      blob_id: 242513
+    - id: 623536
+      asset_id: 100697
+      name: bimm_006.r10
+      size: 4096
+      blob_id: 248460
+    - id: 623537
+      asset_id: 100697
+      name: bimm_007.b1
+      size: 4096
+      blob_id: 242515
+    - id: 623538
+      asset_id: 100697
+      name: bimm_008.c1
+      size: 4096
+      blob_id: 242516
+  - asset:
+      id: 118870
+      kind: 3
+      kind_id: 104107
+      type: 1
+      name: gutangtn.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 814659
+      asset_id: 118870
+      name: 10a.bpr
+      size: 32
+      blob_id: 3194
+    - id: 814660
+      asset_id: 118870
+      name: 10g.bpr
+      size: 256
+      blob_id: 228782
+    - id: 814661
+      asset_id: 118870
+      name: 1b_s1.bin
+      size: 4096
+      blob_id: 2689
+    - id: 814662
+      asset_id: 118870
+      name: 3d_1.bin
+      size: 4096
+      blob_id: 248461
+    - id: 814663
+      asset_id: 118870
+      name: 3e_2.bin
+      size: 4096
+      blob_id: 248462
+    - id: 814664
+      asset_id: 118870
+      name: 3f_3.bin
+      size: 4096
+      blob_id: 248463
+    - id: 814665
+      asset_id: 118870
+      name: 3h_4.bin
+      size: 4096
+      blob_id: 248464
+    - id: 814666
+      asset_id: 118870
+      name: 3j_5.bin
+      size: 4096
+      blob_id: 248465
+    - id: 814667
+      asset_id: 118870
+      name: 5l_c1.bin
+      size: 4096
+      blob_id: 2695
+    - id: 814668
+      asset_id: 118870
+      name: 5m_c2.bin
+      size: 4096
+      blob_id: 248466
+    - id: 814669
+      asset_id: 118870
+      name: 7a.bpr
+      size: 32
+      blob_id: 12135
+    - id: 814670
+      asset_id: 118870
+      name: 8b.bpr
+      size: 32
+      blob_id: 228783
+    - id: 814671
+      asset_id: 118870
+      name: 9d.bpr
+      size: 256
+      blob_id: 228784
+- release:
+    id: 104108
+    game_id: 279
+    description: ""
+    release_date: 19820000
+  names:
+  - id: 239084
+    kind: 3
+    kind_id: 104108
+    language: 1
+    name: Guttang Gottong (Sega license)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 100698
+      kind: 3
+      kind_id: 104108
+      type: 1
+      name: gutangtns.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 623539
+      asset_id: 100698
+      name: 10a.bpr
+      size: 32
+      blob_id: 3194
+    - id: 623540
+      asset_id: 100698
+      name: 10g.bpr
+      size: 256
+      blob_id: 228782
+    - id: 623541
+      asset_id: 100698
+      name: 1b_s1.bin
+      size: 4096
+      blob_id: 2689
+    - id: 623542
+      asset_id: 100698
+      name: 3d_1.bin
+      size: 4096
+      blob_id: 248461
+    - id: 623543
+      asset_id: 100698
+      name: 3e_2.bin
+      size: 4096
+      blob_id: 248462
+    - id: 623544
+      asset_id: 100698
+      name: 3f_3.bin
+      size: 4096
+      blob_id: 248463
+    - id: 623545
+      asset_id: 100698
+      name: 3h_4.bin
+      size: 4096
+      blob_id: 248464
+    - id: 623546
+      asset_id: 100698
+      name: 3j_5.bin
+      size: 4096
+      blob_id: 248465
+    - id: 623547
+      asset_id: 100698
+      name: 5l_c1.bin
+      size: 4096
+      blob_id: 2695
+    - id: 623548
+      asset_id: 100698
+      name: 5m_c2.bin
+      size: 4096
+      blob_id: 248466
+    - id: 623549
+      asset_id: 100698
+      name: 7a.bpr
+      size: 32
+      blob_id: 12135
+    - id: 623550
+      asset_id: 100698
+      name: 8b.bpr
+      size: 32
+      blob_id: 228783
+    - id: 623551
+      asset_id: 100698
+      name: 9d.bpr
+      size: 256
+      blob_id: 228784
+- release:
+    id: 104109
+    game_id: 279
+    description: ""
+    release_date: 19820000
+  names:
+  - id: 239085
+    kind: 3
+    kind_id: 104109
+    language: 1
+    name: Guttang Gottong (bootleg on Galaxian hardware)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 100700
+      kind: 3
+      kind_id: 104109
+      type: 1
+      name: guttangt.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 623588
+      asset_id: 100700
+      name: gg1-2716.rom
+      size: 2048
+      blob_id: 220651
+    - id: 623589
+      asset_id: 100700
+      name: gg10-2732.rom
+      size: 4096
+      blob_id: 220652
+    - id: 623590
+      asset_id: 100700
+      name: gg2-2758.rom
+      size: 2048
+      blob_id: 220653
+    - id: 623591
+      asset_id: 100700
+      name: gg3-2716.rom
+      size: 2048
+      blob_id: 220654
+    - id: 623592
+      asset_id: 100700
+      name: gg4-2716.rom
+      size: 2048
+      blob_id: 220655
+    - id: 623593
+      asset_id: 100700
+      name: gg5-2732.rom
+      size: 4096
+      blob_id: 220656
+    - id: 623594
+      asset_id: 100700
+      name: gg6-2716.rom
+      size: 2048
+      blob_id: 220657
+    - id: 623595
+      asset_id: 100700
+      name: gg7-2516.rom
+      size: 2048
+      blob_id: 220658
+    - id: 623596
+      asset_id: 100700
+      name: gg8-2716.rom
+      size: 2048
+      blob_id: 220659
+    - id: 623597
+      asset_id: 100700
+      name: gg9-2732.rom
+      size: 4096
+      blob_id: 220660
+    - id: 623598
+      asset_id: 100700
+      name: mmi6331.6l
+      size: 32
+      blob_id: 2421
+- release:
+    id: 104110
+    game_id: 279
+    description: ""
+    release_date: 19820000
+  names:
+  - id: 239086
+    kind: 3
+    kind_id: 104110
+    language: 1
+    name: Guttang Gottong (Sede 3 bootleg on Galaxian hardware)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 100701
+      kind: 3
+      kind_id: 104110
+      type: 1
+      name: guttangts3.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 623599
+      asset_id: 100701
+      name: 3g-2716.bin
+      size: 2048
+      blob_id: 220661
+    - id: 623600
+      asset_id: 100701
+      name: 3h-trg6-2716.bin
+      size: 2048
+      blob_id: 220662
+    - id: 623601
+      asset_id: 100701
+      name: 5g-2516.bin
+      size: 2048
+      blob_id: 220663
+    - id: 623602
+      asset_id: 100701
+      name: 5h-2516.bin
+      size: 2048
+      blob_id: 220664
+    - id: 623603
+      asset_id: 100701
+      name: 6g-2516.bin
+      size: 2048
+      blob_id: 220665
+    - id: 623604
+      asset_id: 100701
+      name: 6h-trg8-2716.bin
+      size: 2048
+      blob_id: 220666
+    - id: 623605
+      asset_id: 100701
+      name: 7a-2732.bin
+      size: 4096
+      blob_id: 220667
+    - id: 623606
+      asset_id: 100701
+      name: 7f-6331-1.bin
+      size: 32
+      blob_id: 901
+    - id: 623607
+      asset_id: 100701
+      name: 7g-2716.bin
+      size: 2048
+      blob_id: 220668
+    - id: 623608
+      asset_id: 100701
+      name: 7h-2716.bin
+      size: 2048
+      blob_id: 220669
+    - id: 623609
+      asset_id: 100701
+      name: 8g-trg9-2716.bin
+      size: 2048
+      blob_id: 220670
+    - id: 623610
+      asset_id: 100701
+      name: 9a-tr1-2732.bin
+      size: 4096
+      blob_id: 220671
+    - id: 623611
+      asset_id: 100701
+      name: 9g-tbp28l22.bin
+      size: 256
+      blob_id: 220672
+    - id: 623612
+      asset_id: 100701
+      name: pal16l8cn.11j
+      size: 279
+      blob_id: 220673
+- release:
+    id: 104383
+    game_id: 279
+    description: ""
+    release_date: 19820000
+  names:
+  - id: 239359
+    kind: 3
+    kind_id: 104383
+    language: 1
+    name: Loco-Motion (bootleg)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 103108
+      kind: 3
+      kind_id: 104383
+      type: 1
+      name: locoboot.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 650140
+      asset_id: 103108
+      name: 10a.bpr
+      size: 32
+      blob_id: 3194
+    - id: 650141
+      asset_id: 103108
+      name: 2.bpr
+      size: 32
+      blob_id: 242506
+    - id: 650142
+      asset_id: 103108
+      name: 3.bpr
+      size: 256
+      blob_id: 242507
+    - id: 650143
+      asset_id: 103108
+      name: 5.bpr
+      size: 256
+      blob_id: 242508
+    - id: 650144
+      asset_id: 103108
+      name: 7a.bpr
+      size: 32
+      blob_id: 12135
+    - id: 650145
+      asset_id: 103108
+      name: c5
+      size: 4096
+      blob_id: 242513
+    - id: 650146
+      asset_id: 103108
+      name: c6
+      size: 4096
+      blob_id: 242514
+    - id: 650147
+      asset_id: 103108
+      name: c7
+      size: 4096
+      blob_id: 242515
+    - id: 650148
+      asset_id: 103108
+      name: c8
+      size: 4096
+      blob_id: 242516
+    - id: 650149
+      asset_id: 103108
+      name: g.116
+      size: 4096
+      blob_id: 252094
+    - id: 650150
+      asset_id: 103108
+      name: g.117
+      size: 4096
+      blob_id: 252095
+    - id: 650151
+      asset_id: 103108
+      name: g.118
+      size: 4096
+      blob_id: 252096
+    - id: 650152
+      asset_id: 103108
+      name: g.119
+      size: 4096
+      blob_id: 252097

@@ -16,6 +16,18 @@ names:
   language: 2
   name: 防卫砖块球 (DECO 卡带版) (美版)
   source: trimui
+- id: 188955
+  kind: 2
+  kind_id: 1050
+  language: 1
+  name: Graplop (DECO Cassette) (US) (Prototype?)
+  source: mame
+- id: 188956
+  kind: 2
+  kind_id: 1050
+  language: 1
+  name: Graplop (DECO Cassette) (Japan)
+  source: mame
 game_developers: []
 game_genres:
 - game_id: 1050
@@ -54,7 +66,9 @@ releases:
       format: 2
       size: 20458
       blob_id: 0
-      debug: cgraplop.zip
+      debug: |-
+        cgraplop.zip
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/1606016302
     entries:
     - id: 15638
       asset_id: 1050
@@ -75,7 +89,7 @@ releases:
       asset_id: 1050
       name: dsp-3_p0-a.m9
       size: 2048
-      blob_id: 101930
+      blob_id: 211867
     - id: 127840
       asset_id: 1050
       name: dsp-3_p0-b.m9
@@ -85,28 +99,13 @@ releases:
       asset_id: 1050
       name: dsp-3_p0-c.m9
       size: 2048
-      blob_id: 101931
+      blob_id: 211868
     - id: 127842
       asset_id: 1050
       name: dsp-3_p0-d.m9
       size: 2048
-      blob_id: 101932
+      blob_id: 211869
     - id: 127843
-      asset_id: 1050
-      name: dsp-3_p1-.l9
-      size: 2048
-      blob_id: 14791
-    - id: 127844
-      asset_id: 1050
-      name: dsp-3_p1-.l9
-      size: 2048
-      blob_id: 14791
-    - id: 127845
-      asset_id: 1050
-      name: dsp-3_p1-.l9
-      size: 2048
-      blob_id: 14791
-    - id: 127846
       asset_id: 1050
       name: dsp-3_p1-.l9
       size: 2048
@@ -115,87 +114,27 @@ releases:
       asset_id: 1050
       name: dsp-3_p3-.e5
       size: 32
-      blob_id: 101933
-    - id: 127848
-      asset_id: 1050
-      name: dsp-3_p3-.e5
-      size: 32
-      blob_id: 101933
-    - id: 127849
-      asset_id: 1050
-      name: dsp-3_p3-.e5
-      size: 32
-      blob_id: 101933
-    - id: 127850
-      asset_id: 1050
-      name: dsp-3_p3-.e5
-      size: 32
-      blob_id: 101933
+      blob_id: 211870
     - id: 127851
       asset_id: 1050
       name: dsp-3_p5-.m4
       size: 32
-      blob_id: 101934
-    - id: 127852
-      asset_id: 1050
-      name: dsp-3_p5-.m4
-      size: 32
-      blob_id: 101934
-    - id: 127853
-      asset_id: 1050
-      name: dsp-3_p5-.m4
-      size: 32
-      blob_id: 101934
-    - id: 127854
-      asset_id: 1050
-      name: dsp-3_p5-.m4
-      size: 32
-      blob_id: 101934
+      blob_id: 211871
     - id: 127855
       asset_id: 1050
       name: rms-3_p2-.c9
       size: 1024
-      blob_id: 101936
-    - id: 127856
-      asset_id: 1050
-      name: rms-3_p2-.c9
-      size: 1024
-      blob_id: 101936
-    - id: 127857
-      asset_id: 1050
-      name: rms-3_p2-.c9
-      size: 1024
-      blob_id: 101936
-    - id: 127858
-      asset_id: 1050
-      name: rms-3_p2-.c9
-      size: 1024
-      blob_id: 101936
+      blob_id: 211872
     - id: 127859
       asset_id: 1050
       name: rms-3_p4-.f6
       size: 32
-      blob_id: 101937
-    - id: 127860
-      asset_id: 1050
-      name: rms-3_p4-.f6
-      size: 32
-      blob_id: 101937
-    - id: 127861
-      asset_id: 1050
-      name: rms-3_p4-.f6
-      size: 32
-      blob_id: 101937
-    - id: 127862
-      asset_id: 1050
-      name: rms-3_p4-.f6
-      size: 32
-      blob_id: 101937
+      blob_id: 211873
     - id: 127863
       asset_id: 1050
       name: v0a-.7e
       size: 4096
-      blob_id: 101938
+      blob_id: 211874
     - id: 127864
       asset_id: 1050
       name: v0b-.7e
@@ -205,28 +144,13 @@ releases:
       asset_id: 1050
       name: v0c-.7e
       size: 4096
-      blob_id: 101939
+      blob_id: 211875
     - id: 127866
       asset_id: 1050
       name: v0d-.7e
       size: 4096
-      blob_id: 101940
+      blob_id: 211876
     - id: 127867
-      asset_id: 1050
-      name: v1-.5a
-      size: 2048
-      blob_id: 14796
-    - id: 127868
-      asset_id: 1050
-      name: v1-.5a
-      size: 2048
-      blob_id: 14796
-    - id: 127869
-      asset_id: 1050
-      name: v1-.5a
-      size: 2048
-      blob_id: 14796
-    - id: 127870
       asset_id: 1050
       name: v1-.5a
       size: 2048
@@ -236,57 +160,12 @@ releases:
       name: v2.3m
       size: 32
       blob_id: 14793
-    - id: 127872
-      asset_id: 1050
-      name: v2.3m
-      size: 32
-      blob_id: 14793
-    - id: 127873
-      asset_id: 1050
-      name: v2.3m
-      size: 32
-      blob_id: 14793
-    - id: 127874
-      asset_id: 1050
-      name: v2.3m
-      size: 32
-      blob_id: 14793
     - id: 127875
       asset_id: 1050
       name: v3.3j
       size: 32
       blob_id: 14795
-    - id: 127876
-      asset_id: 1050
-      name: v3.3j
-      size: 32
-      blob_id: 14795
-    - id: 127877
-      asset_id: 1050
-      name: v3.3j
-      size: 32
-      blob_id: 14795
-    - id: 127878
-      asset_id: 1050
-      name: v3.3j
-      size: 32
-      blob_id: 14795
     - id: 127879
-      asset_id: 1050
-      name: v4.10d
-      size: 32
-      blob_id: 14792
-    - id: 127880
-      asset_id: 1050
-      name: v4.10d
-      size: 32
-      blob_id: 14792
-    - id: 127881
-      asset_id: 1050
-      name: v4.10d
-      size: 32
-      blob_id: 14792
-    - id: 127882
       asset_id: 1050
       name: v4.10d
       size: 32
@@ -327,3 +206,255 @@ releases:
       blob_id: 90846
       debug: arcade/wheel/cgraplop.png
     entries: []
+- release:
+    id: 81210
+    game_id: 1050
+    description: ""
+    release_date: 19830000
+  names:
+  - id: 206206
+    kind: 3
+    kind_id: 81210
+    language: 1
+    name: Graplop (DECO Cassette) (US) (Prototype?)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 95943
+      kind: 3
+      kind_id: 81210
+      type: 1
+      name: cgraplop2.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 565683
+      asset_id: 95943
+      name: cassmcu.1c
+      size: 1024
+      blob_id: 14789
+    - id: 565684
+      asset_id: 95943
+      name: cgraplop.pro
+      size: 4096
+      blob_id: 11235
+    - id: 565685
+      asset_id: 95943
+      name: cgraplop2.cas
+      size: 32768
+      blob_id: 241786
+    - id: 565686
+      asset_id: 95943
+      name: dsp-3_p0-a.m9
+      size: 2048
+      blob_id: 211867
+    - id: 565687
+      asset_id: 95943
+      name: dsp-3_p0-b.m9
+      size: 2048
+      blob_id: 14790
+    - id: 565688
+      asset_id: 95943
+      name: dsp-3_p0-c.m9
+      size: 2048
+      blob_id: 211868
+    - id: 565689
+      asset_id: 95943
+      name: dsp-3_p0-d.m9
+      size: 2048
+      blob_id: 211869
+    - id: 565690
+      asset_id: 95943
+      name: dsp-3_p1-.l9
+      size: 2048
+      blob_id: 14791
+    - id: 565694
+      asset_id: 95943
+      name: dsp-3_p3-.e5
+      size: 32
+      blob_id: 211870
+    - id: 565698
+      asset_id: 95943
+      name: dsp-3_p5-.m4
+      size: 32
+      blob_id: 211871
+    - id: 565702
+      asset_id: 95943
+      name: rms-3_p2-.c9
+      size: 1024
+      blob_id: 211872
+    - id: 565706
+      asset_id: 95943
+      name: rms-3_p4-.f6
+      size: 32
+      blob_id: 211873
+    - id: 565710
+      asset_id: 95943
+      name: v0a-.7e
+      size: 4096
+      blob_id: 211874
+    - id: 565711
+      asset_id: 95943
+      name: v0b-.7e
+      size: 4096
+      blob_id: 14794
+    - id: 565712
+      asset_id: 95943
+      name: v0c-.7e
+      size: 4096
+      blob_id: 211875
+    - id: 565713
+      asset_id: 95943
+      name: v0d-.7e
+      size: 4096
+      blob_id: 211876
+    - id: 565714
+      asset_id: 95943
+      name: v1-.5a
+      size: 2048
+      blob_id: 14796
+    - id: 565718
+      asset_id: 95943
+      name: v2.3m
+      size: 32
+      blob_id: 14793
+    - id: 565722
+      asset_id: 95943
+      name: v3.3j
+      size: 32
+      blob_id: 14795
+    - id: 565726
+      asset_id: 95943
+      name: v4.10d
+      size: 32
+      blob_id: 14792
+- release:
+    id: 81211
+    game_id: 1050
+    description: ""
+    release_date: 19830000
+  names:
+  - id: 206207
+    kind: 3
+    kind_id: 81211
+    language: 1
+    name: Graplop (DECO Cassette) (Japan)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 95944
+      kind: 3
+      kind_id: 81211
+      type: 1
+      name: cgraplopj.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 565730
+      asset_id: 95944
+      name: cassmcu.1c
+      size: 1024
+      blob_id: 14789
+    - id: 565731
+      asset_id: 95944
+      name: cgraplop.pro
+      size: 4096
+      blob_id: 11235
+    - id: 565732
+      asset_id: 95944
+      name: dsp-3_p0-a.m9
+      size: 2048
+      blob_id: 211867
+    - id: 565733
+      asset_id: 95944
+      name: dsp-3_p0-b.m9
+      size: 2048
+      blob_id: 14790
+    - id: 565734
+      asset_id: 95944
+      name: dsp-3_p0-c.m9
+      size: 2048
+      blob_id: 211868
+    - id: 565735
+      asset_id: 95944
+      name: dsp-3_p0-d.m9
+      size: 2048
+      blob_id: 211869
+    - id: 565736
+      asset_id: 95944
+      name: dsp-3_p1-.l9
+      size: 2048
+      blob_id: 14791
+    - id: 565740
+      asset_id: 95944
+      name: dsp-3_p3-.e5
+      size: 32
+      blob_id: 211870
+    - id: 565744
+      asset_id: 95944
+      name: dsp-3_p5-.m4
+      size: 32
+      blob_id: 211871
+    - id: 565748
+      asset_id: 95944
+      name: dt-1280-a-0.bin
+      size: 30720
+      blob_id: 241787
+    - id: 565749
+      asset_id: 95944
+      name: rms-3_p2-.c9
+      size: 1024
+      blob_id: 211872
+    - id: 565753
+      asset_id: 95944
+      name: rms-3_p4-.f6
+      size: 32
+      blob_id: 211873
+    - id: 565757
+      asset_id: 95944
+      name: v0a-.7e
+      size: 4096
+      blob_id: 211874
+    - id: 565758
+      asset_id: 95944
+      name: v0b-.7e
+      size: 4096
+      blob_id: 14794
+    - id: 565759
+      asset_id: 95944
+      name: v0c-.7e
+      size: 4096
+      blob_id: 211875
+    - id: 565760
+      asset_id: 95944
+      name: v0d-.7e
+      size: 4096
+      blob_id: 211876
+    - id: 565761
+      asset_id: 95944
+      name: v1-.5a
+      size: 2048
+      blob_id: 14796
+    - id: 565765
+      asset_id: 95944
+      name: v2.3m
+      size: 32
+      blob_id: 14793
+    - id: 565769
+      asset_id: 95944
+      name: v3.3j
+      size: 32
+      blob_id: 14795
+    - id: 565773
+      asset_id: 95944
+      name: v4.10d
+      size: 32
+      blob_id: 14792

@@ -10,6 +10,18 @@ names:
   language: 1
   name: insectx
   source: ""
+- id: 191944
+  kind: 2
+  kind_id: 2080
+  language: 1
+  name: Insector X (bootleg)
+  source: mame
+- id: 191945
+  kind: 2
+  kind_id: 2080
+  language: 1
+  name: Insector X (Japan)
+  source: mame
 game_developers:
 - game_id: 2080
   developer_id: 35
@@ -108,6 +120,38 @@ releases:
       blob_id: 85780
       debug: arcade/wheel/insectx.png
     entries: []
+  - asset:
+      id: 101591
+      kind: 3
+      kind_id: 2080
+      type: 1
+      name: insectx.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 634713
+      asset_id: 101591
+      name: b97__01.u1
+      size: 524288
+      blob_id: 23395
+    - id: 634714
+      asset_id: 101591
+      name: b97__02.u2
+      size: 524288
+      blob_id: 23396
+    - id: 634715
+      asset_id: 101591
+      name: b97__03.u32
+      size: 131072
+      blob_id: 23397
+    - id: 634716
+      asset_id: 101591
+      name: b97__07.u38
+      size: 65536
+      blob_id: 23398
 - release:
     id: 2081
     game_id: 2080
@@ -313,48 +357,124 @@ releases:
       size: 65536
       blob_id: 23408
 - release:
-    id: 46624
+    id: 86433
     game_id: 2080
     description: ""
-    release_date: 19890000
+    release_date: 19900000
   names:
-  - id: 123871
+  - id: 214150
     kind: 3
-    kind_id: 46624
+    kind_id: 86433
     language: 1
-    name: Insector X (World)
+    name: Insector X (bootleg)
     source: mame
   release_publishers: []
   assets:
   - asset:
-      id: 59694
+      id: 101592
       kind: 3
-      kind_id: 46624
+      kind_id: 86433
       type: 1
-      name: insectx.zip
+      name: insectxbl.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 204227
-      asset_id: 59694
+    - id: 634717
+      asset_id: 101592
+      name: ic174
+      size: 131072
+      blob_id: 23399
+    - id: 634718
+      asset_id: 101592
+      name: ic175
+      size: 131072
+      blob_id: 23400
+    - id: 634719
+      asset_id: 101592
+      name: ic176
+      size: 131072
+      blob_id: 23401
+    - id: 634720
+      asset_id: 101592
+      name: ic177
+      size: 131072
+      blob_id: 23402
+    - id: 634721
+      asset_id: 101592
+      name: ic212
+      size: 131072
+      blob_id: 23403
+    - id: 634722
+      asset_id: 101592
+      name: ic213
+      size: 131072
+      blob_id: 23404
+    - id: 634723
+      asset_id: 101592
+      name: ic214
+      size: 131072
+      blob_id: 23405
+    - id: 634724
+      asset_id: 101592
+      name: ic215
+      size: 131072
+      blob_id: 23406
+    - id: 634725
+      asset_id: 101592
+      name: ic3
+      size: 65536
+      blob_id: 23398
+    - id: 634726
+      asset_id: 101592
+      name: ic71
+      size: 131072
+      blob_id: 23407
+- release:
+    id: 86434
+    game_id: 2080
+    description: ""
+    release_date: 19890000
+  names:
+  - id: 214151
+    kind: 3
+    kind_id: 86434
+    language: 1
+    name: Insector X (Japan)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 101593
+      kind: 3
+      kind_id: 86434
+      type: 1
+      name: insectxj.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 634727
+      asset_id: 101593
       name: b97__01.u1
       size: 524288
       blob_id: 23395
-    - id: 204228
-      asset_id: 59694
+    - id: 634728
+      asset_id: 101593
       name: b97__02.u2
       size: 524288
       blob_id: 23396
-    - id: 204229
-      asset_id: 59694
+    - id: 634729
+      asset_id: 101593
       name: b97__03.u32
       size: 131072
       blob_id: 23397
-    - id: 204230
-      asset_id: 59694
-      name: b97__07.u38
+    - id: 634730
+      asset_id: 101593
+      name: b97__04.u38
       size: 65536
-      blob_id: 23398
+      blob_id: 23408

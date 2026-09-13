@@ -16,6 +16,18 @@ names:
   language: 2
   name: 小精灵 Jr. (11/9/83)
   source: trimui
+- id: 192186
+  kind: 2
+  kind_id: 257
+  language: 1
+  name: Jr. Pac-Man (speedup hack)
+  source: mame
+- id: 192187
+  kind: 2
+  kind_id: 257
+  language: 1
+  name: Jr. Pac-Man (Pengo hardware, bootleg)
+  source: mame
 game_developers: []
 game_genres:
 - game_id: 257
@@ -152,24 +164,10 @@ releases:
       blob_id: 88967
       debug: arcade/wheel/jrpacman.png
     entries: []
-- release:
-    id: 48606
-    game_id: 257
-    description: ""
-    release_date: 19830000
-  names:
-  - id: 127807
-    kind: 3
-    kind_id: 48606
-    language: 1
-    name: Jr. Pac-Man (11/9/83)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 61676
+      id: 102164
       kind: 3
-      kind_id: 48606
+      kind_id: 257
       type: 1
       name: jrpacman.zip
       description: ""
@@ -178,63 +176,250 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 212648
-      asset_id: 61676
+    - id: 638765
+      asset_id: 102164
       name: a290-27axv-axhd.9p
       size: 256
       blob_id: 2491
-    - id: 212649
-      asset_id: 61676
+    - id: 638766
+      asset_id: 102164
       name: a290-27axv-bxhd.9e
       size: 256
       blob_id: 2492
-    - id: 212650
-      asset_id: 61676
+    - id: 638767
+      asset_id: 102164
       name: a290-27axv-cxhd.9f
       size: 256
       blob_id: 2493
-    - id: 212651
-      asset_id: 61676
+    - id: 638768
+      asset_id: 102164
       name: a290-27axv-dxhd.7p
       size: 256
       blob_id: 1464
-    - id: 212652
-      asset_id: 61676
+    - id: 638769
+      asset_id: 102164
       name: a290-27axv-exhd.5s
       size: 256
       blob_id: 1465
-    - id: 212653
-      asset_id: 61676
+    - id: 638770
+      asset_id: 102164
       name: jr.pac-man_2c_11-9-83.2c
       size: 8192
       blob_id: 2494
-    - id: 212654
-      asset_id: 61676
+    - id: 638771
+      asset_id: 102164
       name: jr.pac-man_2e_11-9-83.2e
       size: 8192
       blob_id: 2495
-    - id: 212655
-      asset_id: 61676
+    - id: 638772
+      asset_id: 102164
       name: jr.pac-man_8d_11-9-83.8d
       size: 8192
       blob_id: 2496
-    - id: 212656
-      asset_id: 61676
+    - id: 638773
+      asset_id: 102164
       name: jr.pac-man_8e_11-9-83.8e
       size: 8192
       blob_id: 2497
-    - id: 212657
-      asset_id: 61676
+    - id: 638774
+      asset_id: 102164
       name: jr.pac-man_8h_11-9-83.8h
       size: 8192
       blob_id: 2498
-    - id: 212658
-      asset_id: 61676
+    - id: 638775
+      asset_id: 102164
       name: jr.pac-man_8j_11-9-83.8j
       size: 8192
       blob_id: 2499
-    - id: 212659
-      asset_id: 61676
+    - id: 638776
+      asset_id: 102164
       name: jr.pac-man_8k_11-9-83.8k
       size: 8192
       blob_id: 2500
+- release:
+    id: 86975
+    game_id: 257
+    description: ""
+    release_date: 19830000
+  names:
+  - id: 215019
+    kind: 3
+    kind_id: 86975
+    language: 1
+    name: Jr. Pac-Man (speedup hack)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 102165
+      kind: 3
+      kind_id: 86975
+      type: 1
+      name: jrpacmanf.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 638777
+      asset_id: 102165
+      name: a290-27axv-axhd.9p
+      size: 256
+      blob_id: 2491
+    - id: 638778
+      asset_id: 102165
+      name: a290-27axv-bxhd.9e
+      size: 256
+      blob_id: 2492
+    - id: 638779
+      asset_id: 102165
+      name: a290-27axv-cxhd.9f
+      size: 256
+      blob_id: 2493
+    - id: 638780
+      asset_id: 102165
+      name: a290-27axv-dxhd.7p
+      size: 256
+      blob_id: 1464
+    - id: 638781
+      asset_id: 102165
+      name: a290-27axv-exhd.5s
+      size: 256
+      blob_id: 1465
+    - id: 638782
+      asset_id: 102165
+      name: fast_jr.8d
+      size: 8192
+      blob_id: 250972
+    - id: 638783
+      asset_id: 102165
+      name: jr.pac-man_2c_11-9-83.2c
+      size: 8192
+      blob_id: 2494
+    - id: 638784
+      asset_id: 102165
+      name: jr.pac-man_2e_11-9-83.2e
+      size: 8192
+      blob_id: 2495
+    - id: 638785
+      asset_id: 102165
+      name: jr.pac-man_8e_11-9-83.8e
+      size: 8192
+      blob_id: 2497
+    - id: 638786
+      asset_id: 102165
+      name: jr.pac-man_8h_11-9-83.8h
+      size: 8192
+      blob_id: 2498
+    - id: 638787
+      asset_id: 102165
+      name: jr.pac-man_8j_11-9-83.8j
+      size: 8192
+      blob_id: 2499
+    - id: 638788
+      asset_id: 102165
+      name: jr.pac-man_8k_11-9-83.8k
+      size: 8192
+      blob_id: 2500
+- release:
+    id: 86976
+    game_id: 257
+    description: ""
+    release_date: 19830000
+  names:
+  - id: 215020
+    kind: 3
+    kind_id: 86976
+    language: 1
+    name: Jr. Pac-Man (Pengo hardware, bootleg)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 102166
+      kind: 3
+      kind_id: 86976
+      type: 1
+      name: jrpacmbl.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 638789
+      asset_id: 102166
+      name: jrpacpe-01.ic7
+      size: 4096
+      blob_id: 250973
+    - id: 638790
+      asset_id: 102166
+      name: jrpacpe-02.ic5
+      size: 4096
+      blob_id: 250974
+    - id: 638791
+      asset_id: 102166
+      name: jrpacpe-03.ic3
+      size: 4096
+      blob_id: 250975
+    - id: 638792
+      asset_id: 102166
+      name: jrpacpe-04.ic1
+      size: 4096
+      blob_id: 250976
+    - id: 638793
+      asset_id: 102166
+      name: jrpacpe-05.ic8
+      size: 4096
+      blob_id: 250977
+    - id: 638794
+      asset_id: 102166
+      name: jrpacpe-06.ic6
+      size: 4096
+      blob_id: 250978
+    - id: 638795
+      asset_id: 102166
+      name: jrpacpe-07.ic4
+      size: 4096
+      blob_id: 250979
+    - id: 638796
+      asset_id: 102166
+      name: jrpacpe-08.ic2
+      size: 4096
+      blob_id: 250980
+    - id: 638797
+      asset_id: 102166
+      name: jrpacpe-09.ic92
+      size: 8192
+      blob_id: 250981
+    - id: 638798
+      asset_id: 102166
+      name: jrpacpe-10.ic105
+      size: 8192
+      blob_id: 2495
+    - id: 638799
+      asset_id: 102166
+      name: jrprom.5s
+      size: 256
+      blob_id: 1465
+    - id: 638800
+      asset_id: 102166
+      name: jrprom.7p
+      size: 256
+      blob_id: 1464
+    - id: 638801
+      asset_id: 102166
+      name: jrprom.9e
+      size: 256
+      blob_id: 2492
+    - id: 638802
+      asset_id: 102166
+      name: jrprom.9f
+      size: 256
+      blob_id: 2493
+    - id: 638803
+      asset_id: 102166
+      name: jrprom.9p
+      size: 256
+      blob_id: 2491

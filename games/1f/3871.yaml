@@ -16,6 +16,18 @@ names:
   language: 2
   name: 太空热击 (新版.)
   source: trimui
+- id: 199333
+  kind: 2
+  kind_id: 3871
+  language: 1
+  name: Space Fever (old version)
+  source: mame
+- id: 199334
+  kind: 2
+  kind_id: 3871
+  language: 1
+  name: Space Fever (older version)
+  source: mame
 game_developers:
 - game_id: 3871
   developer_id: 137
@@ -139,24 +151,10 @@ releases:
       blob_id: 87434
       debug: arcade/wheel/spacefev.png
     entries: []
-- release:
-    id: 71421
-    game_id: 3871
-    description: ""
-    release_date: 19790000
-  names:
-  - id: 172909
-    kind: 3
-    kind_id: 71421
-    language: 1
-    name: Space Fever (new version)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 84491
+      id: 114029
       kind: 3
-      kind_id: 71421
+      kind_id: 3871
       type: 1
       name: spacefev.zip
       description: ""
@@ -165,48 +163,190 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 372657
-      asset_id: 84491
+    - id: 751348
+      asset_id: 114029
       name: f1-ro-.bin
       size: 1024
       blob_id: 41508
-    - id: 372658
-      asset_id: 84491
+    - id: 751349
+      asset_id: 114029
       name: f2-ro-.bin
       size: 1024
       blob_id: 41509
-    - id: 372659
-      asset_id: 84491
+    - id: 751350
+      asset_id: 114029
       name: f5-i-.bin
       size: 32
       blob_id: 22289
-    - id: 372660
-      asset_id: 84491
+    - id: 751351
+      asset_id: 114029
       name: g1-ro-.bin
       size: 1024
       blob_id: 41510
-    - id: 372661
-      asset_id: 84491
+    - id: 751352
+      asset_id: 114029
       name: g2-ro-.bin
       size: 1024
       blob_id: 41511
-    - id: 372662
-      asset_id: 84491
+    - id: 751353
+      asset_id: 114029
       name: h1-ro-.bin
       size: 1024
       blob_id: 41512
-    - id: 372663
-      asset_id: 84491
+    - id: 751354
+      asset_id: 114029
       name: h2-ro-.bin
       size: 1024
       blob_id: 41513
-    - id: 372664
-      asset_id: 84491
+    - id: 751355
+      asset_id: 114029
       name: i1-ro-p.bin
       size: 1024
-      blob_id: 184011
-    - id: 372665
-      asset_id: 84491
+      blob_id: 282272
+    - id: 751356
+      asset_id: 114029
+      name: ss3.ic2
+      size: 1024
+      blob_id: 41515
+- release:
+    id: 98292
+    game_id: 3871
+    description: ""
+    release_date: 19790000
+  names:
+  - id: 230866
+    kind: 3
+    kind_id: 98292
+    language: 1
+    name: Space Fever (old version)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 114030
+      kind: 3
+      kind_id: 98292
+      type: 1
+      name: spacefevo.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 751357
+      asset_id: 114030
+      name: f1-ro-.bin
+      size: 1024
+      blob_id: 41508
+    - id: 751358
+      asset_id: 114030
+      name: f2-ro-.bin
+      size: 1024
+      blob_id: 41509
+    - id: 751359
+      asset_id: 114030
+      name: f5-i-.bin
+      size: 32
+      blob_id: 22289
+    - id: 751360
+      asset_id: 114030
+      name: g1-ro-.bin
+      size: 1024
+      blob_id: 41510
+    - id: 751361
+      asset_id: 114030
+      name: g2-ro-.bin
+      size: 1024
+      blob_id: 41511
+    - id: 751362
+      asset_id: 114030
+      name: h1-ro-.bin
+      size: 1024
+      blob_id: 41512
+    - id: 751363
+      asset_id: 114030
+      name: h2-ro-.bin
+      size: 1024
+      blob_id: 41513
+    - id: 751364
+      asset_id: 114030
+      name: i1-ro-.bin
+      size: 1024
+      blob_id: 41514
+    - id: 751365
+      asset_id: 114030
+      name: ss3.ic2
+      size: 1024
+      blob_id: 41515
+- release:
+    id: 98293
+    game_id: 3871
+    description: ""
+    release_date: 19790000
+  names:
+  - id: 230867
+    kind: 3
+    kind_id: 98293
+    language: 1
+    name: Space Fever (older version)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 114031
+      kind: 3
+      kind_id: 98293
+      type: 1
+      name: spacefevo2.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 751366
+      asset_id: 114031
+      name: f1-i-.bin
+      size: 1024
+      blob_id: 282273
+    - id: 751367
+      asset_id: 114031
+      name: f2-i-.bin
+      size: 1024
+      blob_id: 282274
+    - id: 751368
+      asset_id: 114031
+      name: f5-i-.bin
+      size: 32
+      blob_id: 22289
+    - id: 751369
+      asset_id: 114031
+      name: g1-i-.bin
+      size: 1024
+      blob_id: 282275
+    - id: 751370
+      asset_id: 114031
+      name: g2-i-.bin
+      size: 1024
+      blob_id: 282276
+    - id: 751371
+      asset_id: 114031
+      name: h1-i-.bin
+      size: 1024
+      blob_id: 282277
+    - id: 751372
+      asset_id: 114031
+      name: h2-i-.bin
+      size: 1024
+      blob_id: 282278
+    - id: 751373
+      asset_id: 114031
+      name: i1-i-.bin
+      size: 1024
+      blob_id: 282279
+    - id: 751374
+      asset_id: 114031
       name: ss3.ic2
       size: 1024
       blob_id: 41515

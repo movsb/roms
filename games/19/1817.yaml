@@ -16,6 +16,12 @@ names:
   language: 2
   name: 急速赛马1
   source: trimui
+- id: 191202
+  kind: 2
+  kind_id: 1817
+  language: 1
+  name: Gallop Racer (Japanese Ver 9.01.12)
+  source: mame
 game_developers: []
 game_genres: []
 assets: []
@@ -102,24 +108,10 @@ releases:
       name: qsound.bin
       size: 8192
       blob_id: 20206
-- release:
-    id: 44866
-    game_id: 1817
-    description: ""
-    release_date: 19960000
-  names:
-  - id: 120460
-    kind: 3
-    kind_id: 44866
-    language: 1
-    name: Gallop Racer (English Ver 10.17.K)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 57936
+      id: 100090
       kind: 3
-      kind_id: 44866
+      kind_id: 1817
       type: 1
       name: glpracr.zip
       description: ""
@@ -128,43 +120,109 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 184497
-      asset_id: 57936
+    - id: 616100
+      asset_id: 100090
       name: cp01.ic652
       size: 8
       blob_id: 11960
-    - id: 184498
-      asset_id: 57936
+    - id: 616101
+      asset_id: 100090
       name: cp05
       size: 8
       blob_id: 20201
-    - id: 184499
-      asset_id: 57936
+    - id: 616102
+      asset_id: 100090
       name: gra-05m.3h
       size: 4194304
       blob_id: 20202
-    - id: 184500
-      asset_id: 57936
+    - id: 616103
+      asset_id: 100090
       name: gra-06m.4h
       size: 4194304
       blob_id: 20203
-    - id: 184501
-      asset_id: 57936
+    - id: 616104
+      asset_id: 100090
       name: gra-07m.5h
       size: 4194304
       blob_id: 20204
-    - id: 184502
-      asset_id: 57936
+    - id: 616105
+      asset_id: 100090
       name: gra_ep-eng.2h
       size: 524288
       blob_id: 20205
-    - id: 184503
-      asset_id: 57936
+    - id: 616106
+      asset_id: 100090
       name: m534002c-13.ic353
       size: 524288
       blob_id: 11961
-    - id: 184504
-      asset_id: 57936
+    - id: 616107
+      asset_id: 100090
+      name: msm27c402zb.ic353
+      size: 524288
+      blob_id: 11962
+- release:
+    id: 85054
+    game_id: 1817
+    description: ""
+    release_date: 19960000
+  names:
+  - id: 211972
+    kind: 3
+    kind_id: 85054
+    language: 1
+    name: Gallop Racer (Japanese Ver 9.01.12)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 100096
+      kind: 3
+      kind_id: 85054
+      type: 1
+      name: glpracrj.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 616175
+      asset_id: 100096
+      name: cp01.ic652
+      size: 8
+      blob_id: 11960
+    - id: 616176
+      asset_id: 100096
+      name: cp05
+      size: 8
+      blob_id: 20201
+    - id: 616177
+      asset_id: 100096
+      name: gpaj_04.2h
+      size: 524288
+      blob_id: 247682
+    - id: 616178
+      asset_id: 100096
+      name: gra-05m.3h
+      size: 4194304
+      blob_id: 20202
+    - id: 616179
+      asset_id: 100096
+      name: gra-06m.4h
+      size: 4194304
+      blob_id: 20203
+    - id: 616180
+      asset_id: 100096
+      name: gra-07m.5h
+      size: 4194304
+      blob_id: 20204
+    - id: 616181
+      asset_id: 100096
+      name: m534002c-13.ic353
+      size: 524288
+      blob_id: 11961
+    - id: 616182
+      asset_id: 100096
       name: msm27c402zb.ic353
       size: 524288
       blob_id: 11962

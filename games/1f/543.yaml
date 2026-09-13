@@ -16,6 +16,24 @@ names:
   language: 2
   name: 迷宫冒险 (版本 5 第 1 套)
   source: trimui
+- id: 201079
+  kind: 2
+  kind_id: 543
+  language: 1
+  name: Venture (version 4)
+  source: mame
+- id: 201080
+  kind: 2
+  kind_id: 543
+  language: 1
+  name: Venture (version 5 set 2)
+  source: mame
+- id: 201081
+  kind: 2
+  kind_id: 543
+  language: 1
+  name: Venture (version 5 set 2, bootleg)
+  source: mame
 game_developers:
 - game_id: 543
   developer_id: 507
@@ -164,114 +182,421 @@ releases:
       blob_id: 87503
       debug: arcade/wheel/venture.png
     entries: []
-- release:
-    id: 74850
-    game_id: 543
-    description: ""
-    release_date: 19810000
-  names:
-  - id: 179564
-    kind: 3
-    kind_id: 74850
-    language: 1
-    name: Venture (version 5 set 1)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 87920
+      id: 117154
       kind: 3
-      kind_id: 74850
+      kind_id: 543
       type: 1
       name: venture.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
-      debug: dat:mame:0.289
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/2415396977
     entries:
-    - id: 408815
-      asset_id: 87920
+    - id: 785791
+      asset_id: 117154
       name: 10a-cpu
       size: 4096
       blob_id: 4805
-    - id: 408816
-      asset_id: 87920
+    - id: 785792
+      asset_id: 117154
       name: 11a-cpu
       size: 4096
       blob_id: 4806
-    - id: 408817
-      asset_id: 87920
+    - id: 785793
+      asset_id: 117154
       name: 12a-cpu
       size: 4096
       blob_id: 4808
-    - id: 408818
-      asset_id: 87920
+    - id: 785794
+      asset_id: 117154
       name: 13a-cpu
       size: 4096
       blob_id: 4809
-    - id: 408819
-      asset_id: 87920
+    - id: 785795
+      asset_id: 117154
       name: 6a-cpu
       size: 4096
       blob_id: 4814
-    - id: 408820
-      asset_id: 87920
+    - id: 785796
+      asset_id: 117154
       name: 7a-cpu
       size: 4096
       blob_id: 4816
-    - id: 408821
-      asset_id: 87920
+    - id: 785797
+      asset_id: 117154
       name: 8a-cpu
       size: 4096
       blob_id: 4817
-    - id: 408822
-      asset_id: 87920
+    - id: 785798
+      asset_id: 117154
       name: 9a-cpu
       size: 4096
       blob_id: 4818
-    - id: 408823
-      asset_id: 87920
+    - id: 785799
+      asset_id: 117154
       name: hrl14h-1.h14
       size: 32
-      blob_id: 115586
-    - id: 408824
-      asset_id: 87920
+      blob_id: 216737
+    - id: 785800
+      asset_id: 117154
       name: hrl6d-1.d6
       size: 32
-      blob_id: 152196
-    - id: 408825
-      asset_id: 87920
+      blob_id: 259297
+    - id: 785801
+      asset_id: 117154
       name: vea_3a-3.3a
       size: 2048
       blob_id: 4810
-    - id: 408826
-      asset_id: 87920
+    - id: 785802
+      asset_id: 117154
       name: vea_4a-3.4a
       size: 2048
       blob_id: 4811
-    - id: 408827
-      asset_id: 87920
+    - id: 785803
+      asset_id: 117154
       name: vea_5a-3.5a
       size: 2048
       blob_id: 4812
-    - id: 408828
-      asset_id: 87920
+    - id: 785804
+      asset_id: 117154
       name: vea_6a-3.6a
       size: 2048
       blob_id: 4813
-    - id: 408829
-      asset_id: 87920
+    - id: 785805
+      asset_id: 117154
       name: vea_7a-3.7a
       size: 2048
       blob_id: 4815
-    - id: 408830
-      asset_id: 87920
+    - id: 785806
+      asset_id: 117154
       name: vel5c-1.c5
       size: 256
-      blob_id: 152197
-    - id: 408831
-      asset_id: 87920
+      blob_id: 259298
+    - id: 785807
+      asset_id: 117154
       name: vel_11d-2.11d
       size: 2048
-      blob_id: 194896
+      blob_id: 311287
+- release:
+    id: 101196
+    game_id: 543
+    description: ""
+    release_date: 19810000
+  names:
+  - id: 234977
+    kind: 3
+    kind_id: 101196
+    language: 1
+    name: Venture (version 4)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 117155
+      kind: 3
+      kind_id: 101196
+      type: 1
+      name: venture4.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/2450735154
+    entries:
+    - id: 785808
+      asset_id: 117155
+      name: hrl14h-1.h14
+      size: 32
+      blob_id: 216737
+    - id: 785809
+      asset_id: 117155
+      name: hrl6d-1.d6
+      size: 32
+      blob_id: 259297
+    - id: 785810
+      asset_id: 117155
+      name: vea_3a-2.3a
+      size: 2048
+      blob_id: 44925
+    - id: 785811
+      asset_id: 117155
+      name: vea_3a-2.4a
+      size: 2048
+      blob_id: 4811
+    - id: 785812
+      asset_id: 117155
+      name: vea_3a-2.5a
+      size: 2048
+      blob_id: 4812
+    - id: 785813
+      asset_id: 117155
+      name: vea_3a-2.6a
+      size: 2048
+      blob_id: 4813
+    - id: 785814
+      asset_id: 117155
+      name: vea_3a-2.7a
+      size: 2048
+      blob_id: 4815
+    - id: 785815
+      asset_id: 117155
+      name: vel5c-1.c5
+      size: 256
+      blob_id: 259298
+    - id: 785816
+      asset_id: 117155
+      name: vel_10a-4.10a
+      size: 4096
+      blob_id: 311288
+    - id: 785817
+      asset_id: 117155
+      name: vel_11a-4.11a
+      size: 4096
+      blob_id: 311289
+    - id: 785818
+      asset_id: 117155
+      name: vel_11d-2.11d
+      size: 2048
+      blob_id: 311287
+    - id: 785819
+      asset_id: 117155
+      name: vel_12a-4.12a
+      size: 4096
+      blob_id: 311290
+    - id: 785820
+      asset_id: 117155
+      name: vel_13a-4.13a
+      size: 4096
+      blob_id: 311291
+    - id: 785821
+      asset_id: 117155
+      name: vel_6a-4.a6
+      size: 4096
+      blob_id: 311292
+    - id: 785822
+      asset_id: 117155
+      name: vel_7a-4.a7
+      size: 4096
+      blob_id: 311293
+    - id: 785823
+      asset_id: 117155
+      name: vel_8a-4.a8
+      size: 4096
+      blob_id: 311294
+    - id: 785824
+      asset_id: 117155
+      name: vel_9a-4.a9
+      size: 4096
+      blob_id: 311295
+- release:
+    id: 101197
+    game_id: 543
+    description: ""
+    release_date: 19810000
+  names:
+  - id: 234978
+    kind: 3
+    kind_id: 101197
+    language: 1
+    name: Venture (version 5 set 2)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 117156
+      kind: 3
+      kind_id: 101197
+      type: 1
+      name: venture5a.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/60953469
+    entries:
+    - id: 785825
+      asset_id: 117156
+      name: hrl14h-1.h14
+      size: 32
+      blob_id: 216737
+    - id: 785826
+      asset_id: 117156
+      name: hrl6d-1.d6
+      size: 32
+      blob_id: 259297
+    - id: 785827
+      asset_id: 117156
+      name: vea_3a-3.3a
+      size: 2048
+      blob_id: 4810
+    - id: 785828
+      asset_id: 117156
+      name: vea_4a-3.4a
+      size: 2048
+      blob_id: 4811
+    - id: 785829
+      asset_id: 117156
+      name: vea_5a-3.5a
+      size: 2048
+      blob_id: 4812
+    - id: 785830
+      asset_id: 117156
+      name: vea_6a-3.6a
+      size: 2048
+      blob_id: 4813
+    - id: 785831
+      asset_id: 117156
+      name: vea_7a-3.7a
+      size: 2048
+      blob_id: 4815
+    - id: 785832
+      asset_id: 117156
+      name: vel5c-1.c5
+      size: 256
+      blob_id: 259298
+    - id: 785833
+      asset_id: 117156
+      name: vel_10a-5.a10
+      size: 4096
+      blob_id: 48211
+    - id: 785834
+      asset_id: 117156
+      name: vel_11a-5.a11
+      size: 4096
+      blob_id: 48212
+    - id: 785835
+      asset_id: 117156
+      name: vel_11d-2.11d
+      size: 2048
+      blob_id: 311287
+    - id: 785836
+      asset_id: 117156
+      name: vel_12a-5.a12
+      size: 4096
+      blob_id: 48213
+    - id: 785837
+      asset_id: 117156
+      name: vel_13a-57e.a13
+      size: 4096
+      blob_id: 48214
+    - id: 785838
+      asset_id: 117156
+      name: vel_6a-5.a6
+      size: 4096
+      blob_id: 48215
+    - id: 785839
+      asset_id: 117156
+      name: vel_7a-5.a7
+      size: 4096
+      blob_id: 48216
+    - id: 785840
+      asset_id: 117156
+      name: vel_8a-5.a8
+      size: 4096
+      blob_id: 48217
+    - id: 785841
+      asset_id: 117156
+      name: vel_9a-5.a9
+      size: 4096
+      blob_id: 48218
+- release:
+    id: 101198
+    game_id: 543
+    description: ""
+    release_date: 19810000
+  names:
+  - id: 234979
+    kind: 3
+    kind_id: 101198
+    language: 1
+    name: Venture (version 5 set 2, bootleg)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 117157
+      kind: 3
+      kind_id: 101198
+      type: 1
+      name: venture5b.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/1523122385
+    entries:
+    - id: 785842
+      asset_id: 117157
+      name: d2732.2f
+      size: 4096
+      blob_id: 48215
+    - id: 785843
+      asset_id: 117157
+      name: d2732.2h
+      size: 4096
+      blob_id: 48216
+    - id: 785844
+      asset_id: 117157
+      name: d2732.2k
+      size: 4096
+      blob_id: 48217
+    - id: 785845
+      asset_id: 117157
+      name: d2732.2l
+      size: 4096
+      blob_id: 48218
+    - id: 785846
+      asset_id: 117157
+      name: d2732.2m
+      size: 4096
+      blob_id: 48211
+    - id: 785847
+      asset_id: 117157
+      name: d2732.2n
+      size: 4096
+      blob_id: 48212
+    - id: 785848
+      asset_id: 117157
+      name: d2732.2r
+      size: 4096
+      blob_id: 48213
+    - id: 785849
+      asset_id: 117157
+      name: d2732.2s
+      size: 4096
+      blob_id: 311296
+    - id: 785850
+      asset_id: 117157
+      name: sn74s288n.3d
+      size: 32
+      blob_id: 259297
+    - id: 785851
+      asset_id: 117157
+      name: sn74s288n.6c
+      size: 32
+      blob_id: 216737
+    - id: 785852
+      asset_id: 117157
+      name: tms2516.10f
+      size: 2048
+      blob_id: 4810
+    - id: 785853
+      asset_id: 117157
+      name: tms2516.6j
+      size: 2048
+      blob_id: 311287
+    - id: 785854
+      asset_id: 117157
+      name: tms2564.10j
+      size: 8192
+      blob_id: 311297

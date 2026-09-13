@@ -16,6 +16,12 @@ names:
   language: 2
   name: "弹珠台 - 埃及金字塔 (第一套)"
   source: trimui
+- id: 199398
+  kind: 2
+  kind_id: 3894
+  language: 1
+  name: Speed Ball (set 2)
+  source: mame
 game_developers:
 - game_id: 3894
   developer_id: 580
@@ -142,79 +148,371 @@ releases:
       blob_id: 90655
       debug: arcade/wheel/speedbal.png
     entries: []
-- release:
-    id: 71559
-    game_id: 3894
-    description: ""
-    release_date: 19870000
-  names:
-  - id: 173169
-    kind: 3
-    kind_id: 71559
-    language: 1
-    name: Speed Ball (set 1)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 84629
+      id: 114144
       kind: 3
-      kind_id: 71559
+      kind_id: 3894
       type: 1
       name: speedbal.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
-      debug: dat:mame:0.289
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/2779571966
     entries:
-    - id: 374028
-      asset_id: 84629
+    - id: 752635
+      asset_id: 114144
       name: 1.u14
       size: 32768
-      blob_id: 184616
-    - id: 374029
-      asset_id: 84629
+      blob_id: 301901
+    - id: 752636
+      asset_id: 114144
       name: 10.u50
       size: 32768
       blob_id: 41747
-    - id: 374030
-      asset_id: 84629
+    - id: 752637
+      asset_id: 114144
       name: 2.u100
       size: 32768
       blob_id: 41748
-    - id: 374031
-      asset_id: 84629
+    - id: 752638
+      asset_id: 114144
       name: 3.u15
       size: 32768
-      blob_id: 184617
-    - id: 374032
-      asset_id: 84629
+      blob_id: 301902
+    - id: 752639
+      asset_id: 114144
       name: 4.u48
       size: 32768
       blob_id: 41750
-    - id: 374033
-      asset_id: 84629
+    - id: 752640
+      asset_id: 114144
       name: 5.u46
       size: 32768
       blob_id: 41751
-    - id: 374034
-      asset_id: 84629
+    - id: 752641
+      asset_id: 114144
       name: 6.u68
       size: 32768
       blob_id: 41752
-    - id: 374035
-      asset_id: 84629
+    - id: 752642
+      asset_id: 114144
       name: 7.u67
       size: 32768
       blob_id: 41753
-    - id: 374036
-      asset_id: 84629
+    - id: 752643
+      asset_id: 114144
       name: 8.u47
       size: 32768
       blob_id: 41754
-    - id: 374037
-      asset_id: 84629
+    - id: 752644
+      asset_id: 114144
       name: 9.u45
+      size: 32768
+      blob_id: 41755
+- release:
+    id: 78174
+    game_id: 3894
+    description: ""
+    release_date: 19870000
+  names:
+  - id: 186393
+    kind: 3
+    kind_id: 78174
+    language: 1
+    name: Speed Ball (set 2)
+    source: mame
+  - id: 186394
+    kind: 3
+    kind_id: 78174
+    language: 1
+    name: speedbal
+    source: ""
+  - id: 186395
+    kind: 3
+    kind_id: 78174
+    language: 2
+    name: "弹珠台 - 埃及金字塔 (第一套)"
+    source: trimui
+  release_publishers:
+  - release_id: 78174
+    publisher_id: 479
+  assets:
+  - asset:
+      id: 90695
+      kind: 3
+      kind_id: 78174
+      type: 1
+      name: speedbal.zip
+      description: ""
+      format: 2
+      size: 76771
+      blob_id: 0
+      debug: speedbal.zip
+    entries:
+    - id: 468125
+      asset_id: 90695
+      name: sb1.bin
+      size: 32768
+      blob_id: 41746
+    - id: 468126
+      asset_id: 90695
+      name: sb10.bin
+      size: 32768
+      blob_id: 41747
+    - id: 468127
+      asset_id: 90695
+      name: sb2.bin
+      size: 32768
+      blob_id: 41748
+    - id: 468128
+      asset_id: 90695
+      name: sb3.bin
+      size: 32768
+      blob_id: 41749
+    - id: 468129
+      asset_id: 90695
+      name: sb4.bin
+      size: 32768
+      blob_id: 41750
+    - id: 468130
+      asset_id: 90695
+      name: sb5.bin
+      size: 32768
+      blob_id: 41751
+    - id: 468131
+      asset_id: 90695
+      name: sb6.bin
+      size: 32768
+      blob_id: 41752
+    - id: 468132
+      asset_id: 90695
+      name: sb7.bin
+      size: 32768
+      blob_id: 41753
+    - id: 468133
+      asset_id: 90695
+      name: sb8.bin
+      size: 32768
+      blob_id: 41754
+    - id: 468134
+      asset_id: 90695
+      name: sb9.bin
+      size: 32768
+      blob_id: 41755
+- release:
+    id: 98391
+    game_id: 3894
+    description: ""
+    release_date: 19870000
+  names:
+  - id: 231008
+    kind: 3
+    kind_id: 98391
+    language: 1
+    name: Speed Ball (set 2)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 114145
+      kind: 3
+      kind_id: 98391
+      type: 1
+      name: speedbala.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 752645
+      asset_id: 114145
+      name: 1.u14
+      size: 32768
+      blob_id: 284696
+    - id: 752646
+      asset_id: 114145
+      name: 10.u50
+      size: 32768
+      blob_id: 41747
+    - id: 752647
+      asset_id: 114145
+      name: 2.u100
+      size: 32768
+      blob_id: 284697
+    - id: 752648
+      asset_id: 114145
+      name: 3.u15
+      size: 32768
+      blob_id: 284698
+    - id: 752649
+      asset_id: 114145
+      name: 4.u48
+      size: 32768
+      blob_id: 41750
+    - id: 752650
+      asset_id: 114145
+      name: 5.u46
+      size: 32768
+      blob_id: 41751
+    - id: 752651
+      asset_id: 114145
+      name: 6.u68
+      size: 32768
+      blob_id: 41752
+    - id: 752652
+      asset_id: 114145
+      name: 7.u67
+      size: 32768
+      blob_id: 41753
+    - id: 752653
+      asset_id: 114145
+      name: 8.u47
+      size: 32768
+      blob_id: 41754
+    - id: 752654
+      asset_id: 114145
+      name: 9.u45
+      size: 32768
+      blob_id: 41755
+  - asset:
+      id: 119464
+      kind: 3
+      kind_id: 98391
+      type: 1
+      name: speedbala.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 832187
+      asset_id: 119464
+      name: sb1.bin
+      size: 32768
+      blob_id: 41746
+    - id: 832188
+      asset_id: 119464
+      name: sb10.bin
+      size: 32768
+      blob_id: 41747
+    - id: 832189
+      asset_id: 119464
+      name: sb2.bin
+      size: 32768
+      blob_id: 41748
+    - id: 832190
+      asset_id: 119464
+      name: sb3.bin
+      size: 32768
+      blob_id: 41749
+    - id: 832191
+      asset_id: 119464
+      name: sb4.bin
+      size: 32768
+      blob_id: 41750
+    - id: 832192
+      asset_id: 119464
+      name: sb5.bin
+      size: 32768
+      blob_id: 41751
+    - id: 832193
+      asset_id: 119464
+      name: sb6.bin
+      size: 32768
+      blob_id: 41752
+    - id: 832194
+      asset_id: 119464
+      name: sb7.bin
+      size: 32768
+      blob_id: 41753
+    - id: 832195
+      asset_id: 119464
+      name: sb8.bin
+      size: 32768
+      blob_id: 41754
+    - id: 832196
+      asset_id: 119464
+      name: sb9.bin
+      size: 32768
+      blob_id: 41755
+- release:
+    id: 98392
+    game_id: 3894
+    description: ""
+    release_date: 19870000
+  names:
+  - id: 231009
+    kind: 3
+    kind_id: 98392
+    language: 1
+    name: Speed Ball (set 3)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 114146
+      kind: 3
+      kind_id: 98392
+      type: 1
+      name: speedbalb.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 752655
+      asset_id: 114146
+      name: sb1.bin
+      size: 32768
+      blob_id: 41746
+    - id: 752656
+      asset_id: 114146
+      name: sb10.bin
+      size: 32768
+      blob_id: 41747
+    - id: 752657
+      asset_id: 114146
+      name: sb2.bin
+      size: 32768
+      blob_id: 41748
+    - id: 752658
+      asset_id: 114146
+      name: sb3.bin
+      size: 32768
+      blob_id: 41749
+    - id: 752659
+      asset_id: 114146
+      name: sb4.bin
+      size: 32768
+      blob_id: 41750
+    - id: 752660
+      asset_id: 114146
+      name: sb5.bin
+      size: 32768
+      blob_id: 41751
+    - id: 752661
+      asset_id: 114146
+      name: sb6.bin
+      size: 32768
+      blob_id: 41752
+    - id: 752662
+      asset_id: 114146
+      name: sb7.bin
+      size: 32768
+      blob_id: 41753
+    - id: 752663
+      asset_id: 114146
+      name: sb8.bin
+      size: 32768
+      blob_id: 41754
+    - id: 752664
+      asset_id: 114146
+      name: sb9.bin
       size: 32768
       blob_id: 41755

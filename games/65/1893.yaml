@@ -16,6 +16,30 @@ names:
   language: 2
   name: 金牌高尔夫 (摇杆版, v3.1)
   source: trimui
+- id: 191425
+  kind: 2
+  kind_id: 1893
+  language: 1
+  name: Golden Tee Golf (Joystick, v3.1)
+  source: mame
+- id: 191426
+  kind: 2
+  kind_id: 1893
+  language: 1
+  name: Golden Tee Golf (Trackball, v1.0)
+  source: mame
+- id: 191427
+  kind: 2
+  kind_id: 1893
+  language: 1
+  name: Golden Tee Golf (Trackball, v2.0)
+  source: mame
+- id: 191428
+  kind: 2
+  kind_id: 1893
+  language: 1
+  name: Golden Tee Golf (Trackball, v2.1)
+  source: mame
 game_developers:
 - game_id: 1893
   developer_id: 506
@@ -139,24 +163,10 @@ releases:
       blob_id: 90016
       debug: arcade/wheel/gtg.png
     entries: []
-- release:
-    id: 45352
-    game_id: 1893
-    description: ""
-    release_date: 19900000
-  names:
-  - id: 121400
-    kind: 3
-    kind_id: 45352
-    language: 1
-    name: Golden Tee Golf (Joystick, v3.3)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 58422
+      id: 100514
       kind: 3
-      kind_id: 45352
+      kind_id: 1893
       type: 1
       name: gtg.zip
       description: ""
@@ -165,48 +175,332 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 190360
-      asset_id: 58422
+    - id: 621540
+      asset_id: 100514
       name: golf_grom00.grom0
       size: 131072
       blob_id: 21098
-    - id: 190361
-      asset_id: 58422
+    - id: 621541
+      asset_id: 100514
       name: golf_grom01.grom1
       size: 131072
       blob_id: 21099
-    - id: 190362
-      asset_id: 58422
+    - id: 621542
+      asset_id: 100514
       name: golf_grom02.grom2
       size: 131072
       blob_id: 21100
-    - id: 190363
-      asset_id: 58422
+    - id: 621543
+      asset_id: 100514
       name: golf_grom03.grom3
       size: 131072
       blob_id: 21101
-    - id: 190364
-      asset_id: 58422
+    - id: 621544
+      asset_id: 100514
       name: golf_grom04.grom4
       size: 131072
       blob_id: 21102
-    - id: 190365
-      asset_id: 58422
+    - id: 621545
+      asset_id: 100514
       name: golf_grom05.grom5
       size: 131072
-      blob_id: 121772
-    - id: 190366
-      asset_id: 58422
+      blob_id: 220384
+    - id: 621546
+      asset_id: 100514
       name: golf_snd-v1.1_u27.u27
       size: 32768
       blob_id: 21105
-    - id: 190367
-      asset_id: 58422
+    - id: 621547
+      asset_id: 100514
       name: golf_srom0.srom0
       size: 131072
       blob_id: 21104
-    - id: 190368
-      asset_id: 58422
+    - id: 621548
+      asset_id: 100514
       name: gtg_joy_v3.3_u5.u5
       size: 65536
-      blob_id: 121773
+      blob_id: 220385
+- release:
+    id: 85443
+    game_id: 1893
+    description: ""
+    release_date: 19900000
+  names:
+  - id: 212582
+    kind: 3
+    kind_id: 85443
+    language: 1
+    name: Golden Tee Golf (Joystick, v3.1)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 100518
+      kind: 3
+      kind_id: 85443
+      type: 1
+      name: gtgj31.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 621578
+      asset_id: 100518
+      name: golf_grom00.grom0
+      size: 131072
+      blob_id: 21098
+    - id: 621579
+      asset_id: 100518
+      name: golf_grom01.grom1
+      size: 131072
+      blob_id: 21099
+    - id: 621580
+      asset_id: 100518
+      name: golf_grom02.grom2
+      size: 131072
+      blob_id: 21100
+    - id: 621581
+      asset_id: 100518
+      name: golf_grom03.grom3
+      size: 131072
+      blob_id: 21101
+    - id: 621582
+      asset_id: 100518
+      name: golf_grom04.grom4
+      size: 131072
+      blob_id: 21102
+    - id: 621583
+      asset_id: 100518
+      name: golf_grom05.grom5
+      size: 131072
+      blob_id: 21103
+    - id: 621584
+      asset_id: 100518
+      name: golf_snd-v1.1_u27.u27
+      size: 32768
+      blob_id: 21105
+    - id: 621585
+      asset_id: 100518
+      name: golf_srom0.srom0
+      size: 131072
+      blob_id: 21104
+    - id: 621586
+      asset_id: 100518
+      name: gtg_joy_v3.1_u5.u5
+      size: 65536
+      blob_id: 21106
+- release:
+    id: 85444
+    game_id: 1893
+    description: ""
+    release_date: 19890000
+  names:
+  - id: 212583
+    kind: 3
+    kind_id: 85444
+    language: 1
+    name: Golden Tee Golf (Trackball, v1.0)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 100519
+      kind: 3
+      kind_id: 85444
+      type: 1
+      name: gtgt10.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 621587
+      asset_id: 100519
+      name: golf_grom00.grom0
+      size: 131072
+      blob_id: 21098
+    - id: 621588
+      asset_id: 100519
+      name: golf_grom01.grom1
+      size: 131072
+      blob_id: 21099
+    - id: 621589
+      asset_id: 100519
+      name: golf_grom02.grom2
+      size: 131072
+      blob_id: 21100
+    - id: 621590
+      asset_id: 100519
+      name: golf_grom03.grom3
+      size: 131072
+      blob_id: 21101
+    - id: 621591
+      asset_id: 100519
+      name: golf_grom04.grom4
+      size: 131072
+      blob_id: 21102
+    - id: 621592
+      asset_id: 100519
+      name: golf_grom05.grom5
+      size: 65536
+      blob_id: 248272
+    - id: 621593
+      asset_id: 100519
+      name: golf_snd_u27.u27
+      size: 32768
+      blob_id: 248273
+    - id: 621594
+      asset_id: 100519
+      name: golf_srom0.srom0
+      size: 131072
+      blob_id: 248274
+    - id: 621595
+      asset_id: 100519
+      name: gtg_bim_1.0.u5
+      size: 65536
+      blob_id: 248275
+- release:
+    id: 85445
+    game_id: 1893
+    description: ""
+    release_date: 19890000
+  names:
+  - id: 212584
+    kind: 3
+    kind_id: 85445
+    language: 1
+    name: Golden Tee Golf (Trackball, v2.0)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 100520
+      kind: 3
+      kind_id: 85445
+      type: 1
+      name: gtgt20.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 621596
+      asset_id: 100520
+      name: golf_grom00.grom0
+      size: 131072
+      blob_id: 21098
+    - id: 621597
+      asset_id: 100520
+      name: golf_grom01.grom1
+      size: 131072
+      blob_id: 21099
+    - id: 621598
+      asset_id: 100520
+      name: golf_grom02.grom2
+      size: 131072
+      blob_id: 21100
+    - id: 621599
+      asset_id: 100520
+      name: golf_grom03.grom3
+      size: 131072
+      blob_id: 21101
+    - id: 621600
+      asset_id: 100520
+      name: golf_grom04.grom4
+      size: 131072
+      blob_id: 21102
+    - id: 621601
+      asset_id: 100520
+      name: golf_grom05.grom5
+      size: 65536
+      blob_id: 248276
+    - id: 621602
+      asset_id: 100520
+      name: golf_snd_u27.u27
+      size: 32768
+      blob_id: 248277
+    - id: 621603
+      asset_id: 100520
+      name: golf_srom0.srom0
+      size: 131072
+      blob_id: 248274
+    - id: 621604
+      asset_id: 100520
+      name: gtg_bim_2.0.u5
+      size: 65536
+      blob_id: 248278
+- release:
+    id: 85446
+    game_id: 1893
+    description: ""
+    release_date: 19890000
+  names:
+  - id: 212585
+    kind: 3
+    kind_id: 85446
+    language: 1
+    name: Golden Tee Golf (Trackball, v2.1)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 100521
+      kind: 3
+      kind_id: 85446
+      type: 1
+      name: gtgt21.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 621605
+      asset_id: 100521
+      name: golf_grom00.grom0
+      size: 131072
+      blob_id: 21098
+    - id: 621606
+      asset_id: 100521
+      name: golf_grom01.grom1
+      size: 131072
+      blob_id: 21099
+    - id: 621607
+      asset_id: 100521
+      name: golf_grom02.grom2
+      size: 131072
+      blob_id: 21100
+    - id: 621608
+      asset_id: 100521
+      name: golf_grom03.grom3
+      size: 131072
+      blob_id: 21101
+    - id: 621609
+      asset_id: 100521
+      name: golf_grom04.grom4
+      size: 131072
+      blob_id: 21102
+    - id: 621610
+      asset_id: 100521
+      name: golf_grom05.grom5
+      size: 65536
+      blob_id: 248279
+    - id: 621611
+      asset_id: 100521
+      name: golf_snd_u27.u27
+      size: 32768
+      blob_id: 248280
+    - id: 621612
+      asset_id: 100521
+      name: golf_srom0.srom0
+      size: 131072
+      blob_id: 248274
+    - id: 621613
+      asset_id: 100521
+      name: gtg_bim_2.1.u5
+      size: 65536
+      blob_id: 248281

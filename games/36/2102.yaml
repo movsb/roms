@@ -10,6 +10,18 @@ names:
   language: 1
   name: jailbrek
   source: ""
+- id: 192051
+  kind: 2
+  kind_id: 2102
+  language: 1
+  name: Jail Break (bootleg)
+  source: mame
+- id: 192946
+  kind: 2
+  kind_id: 2102
+  language: 1
+  name: Manhattan 24 Bunsyo (Japan)
+  source: mame
 game_developers:
 - game_id: 2102
   developer_id: 2
@@ -153,6 +165,83 @@ releases:
       blob_id: 88233
       debug: arcade/wheel/jailbrek.png
     entries: []
+  - asset:
+      id: 101801
+      kind: 3
+      kind_id: 2102
+      type: 1
+      name: jailbrek.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 636300
+      asset_id: 101801
+      name: 507j04.3e
+      size: 16384
+      blob_id: 23585
+    - id: 636301
+      asset_id: 101801
+      name: 507j05.4e
+      size: 16384
+      blob_id: 23587
+    - id: 636302
+      asset_id: 101801
+      name: 507j06.5e
+      size: 16384
+      blob_id: 23589
+    - id: 636303
+      asset_id: 101801
+      name: 507j07.3f
+      size: 16384
+      blob_id: 23586
+    - id: 636304
+      asset_id: 101801
+      name: 507j09.5f
+      size: 16384
+      blob_id: 23590
+    - id: 636305
+      asset_id: 101801
+      name: 507j10.1f
+      size: 32
+      blob_id: 23596
+    - id: 636306
+      asset_id: 101801
+      name: 507j11.2f
+      size: 32
+      blob_id: 23595
+    - id: 636307
+      asset_id: 101801
+      name: 507j12.6f
+      size: 256
+      blob_id: 23593
+    - id: 636308
+      asset_id: 101801
+      name: 507j13.7f
+      size: 256
+      blob_id: 23594
+    - id: 636309
+      asset_id: 101801
+      name: 507l01.8c
+      size: 16384
+      blob_id: 23597
+    - id: 636310
+      asset_id: 101801
+      name: 507l08.4f
+      size: 16384
+      blob_id: 23588
+    - id: 636311
+      asset_id: 101801
+      name: 507p02.9d
+      size: 16384
+      blob_id: 23592
+    - id: 636312
+      asset_id: 101801
+      name: 507p03.11d
+      size: 16384
+      blob_id: 23584
 - release:
     id: 2103
     game_id: 2102
@@ -316,93 +405,184 @@ releases:
       size: 16384
       blob_id: 23609
 - release:
-    id: 48229
+    id: 86627
     game_id: 2102
     description: ""
     release_date: 19860000
   names:
-  - id: 127066
+  - id: 214440
     kind: 3
-    kind_id: 48229
+    kind_id: 86627
     language: 1
-    name: Jail Break
+    name: Jail Break (bootleg)
     source: mame
   release_publishers: []
   assets:
   - asset:
-      id: 61299
+      id: 101802
       kind: 3
-      kind_id: 48229
+      kind_id: 86627
       type: 1
-      name: jailbrek.zip
+      name: jailbrekb.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 210015
-      asset_id: 61299
+    - id: 636313
+      asset_id: 101802
+      name: 1.k6
+      size: 32768
+      blob_id: 23598
+    - id: 636314
+      asset_id: 101802
+      name: 2.i6
+      size: 8192
+      blob_id: 23591
+    - id: 636315
+      asset_id: 101802
+      name: 3.h6
+      size: 32768
+      blob_id: 23599
+    - id: 636316
+      asset_id: 101802
+      name: 4.g6
+      size: 32768
+      blob_id: 23600
+    - id: 636317
+      asset_id: 101802
+      name: 5.f6
+      size: 32768
+      blob_id: 23601
+    - id: 636318
+      asset_id: 101802
+      name: pal16l8.k4
+      size: 260
+      blob_id: 23602
+    - id: 636319
+      asset_id: 101802
+      name: pal16l8.k8
+      size: 260
+      blob_id: 23603
+    - id: 636320
+      asset_id: 101802
+      name: pal16r4.a7
+      size: 260
+      blob_id: 23604
+    - id: 636321
+      asset_id: 101802
+      name: pal16r6.g9
+      size: 260
+      blob_id: 23605
+    - id: 636322
+      asset_id: 101802
+      name: prom.d6
+      size: 256
+      blob_id: 23594
+    - id: 636323
+      asset_id: 101802
+      name: prom.e6
+      size: 256
+      blob_id: 23593
+    - id: 636324
+      asset_id: 101802
+      name: prom.i2
+      size: 32
+      blob_id: 23595
+    - id: 636325
+      asset_id: 101802
+      name: prom.j2
+      size: 32
+      blob_id: 23596
+- release:
+    id: 88409
+    game_id: 2102
+    description: ""
+    release_date: 19860000
+  names:
+  - id: 217234
+    kind: 3
+    kind_id: 88409
+    language: 1
+    name: Manhattan 24 Bunsyo (Japan)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 103714
+      kind: 3
+      kind_id: 88409
+      type: 1
+      name: manhatan.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 655690
+      asset_id: 103714
       name: 507j04.3e
       size: 16384
       blob_id: 23585
-    - id: 210016
-      asset_id: 61299
+    - id: 655691
+      asset_id: 103714
       name: 507j05.4e
       size: 16384
       blob_id: 23587
-    - id: 210017
-      asset_id: 61299
+    - id: 655692
+      asset_id: 103714
       name: 507j06.5e
       size: 16384
       blob_id: 23589
-    - id: 210018
-      asset_id: 61299
+    - id: 655693
+      asset_id: 103714
       name: 507j07.3f
       size: 16384
       blob_id: 23586
-    - id: 210019
-      asset_id: 61299
+    - id: 655694
+      asset_id: 103714
+      name: 507j08.4f
+      size: 16384
+      blob_id: 23606
+    - id: 655695
+      asset_id: 103714
       name: 507j09.5f
       size: 16384
       blob_id: 23590
-    - id: 210020
-      asset_id: 61299
+    - id: 655696
+      asset_id: 103714
       name: 507j10.1f
       size: 32
       blob_id: 23596
-    - id: 210021
-      asset_id: 61299
+    - id: 655697
+      asset_id: 103714
       name: 507j11.2f
       size: 32
       blob_id: 23595
-    - id: 210022
-      asset_id: 61299
+    - id: 655698
+      asset_id: 103714
       name: 507j12.6f
       size: 256
       blob_id: 23593
-    - id: 210023
-      asset_id: 61299
+    - id: 655699
+      asset_id: 103714
       name: 507j13.7f
       size: 256
       blob_id: 23594
-    - id: 210024
-      asset_id: 61299
-      name: 507l01.8c
+    - id: 655700
+      asset_id: 103714
+      name: 507n02.9d
       size: 16384
-      blob_id: 23597
-    - id: 210025
-      asset_id: 61299
-      name: 507l08.4f
+      blob_id: 23607
+    - id: 655701
+      asset_id: 103714
+      name: 507n03.11d
       size: 16384
-      blob_id: 23588
-    - id: 210026
-      asset_id: 61299
-      name: 507p02.9d
+      blob_id: 23608
+    - id: 655702
+      asset_id: 103714
+      name: 507p01.8c
       size: 16384
-      blob_id: 23592
-    - id: 210027
-      asset_id: 61299
-      name: 507p03.11d
-      size: 16384
-      blob_id: 23584
+      blob_id: 23609

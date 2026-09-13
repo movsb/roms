@@ -16,6 +16,12 @@ names:
   language: 2
   name: 骰子方块 (美版)
   source: trimui
+- id: 194186
+  kind: 2
+  kind_id: 3024
+  language: 1
+  name: Palamedes (Japan)
+  source: mame
 game_developers:
 - game_id: 3024
   developer_id: 472
@@ -109,24 +115,10 @@ releases:
       blob_id: 89159
       debug: arcade/wheel/palamed.png
     entries: []
-- release:
-    id: 60361
-    game_id: 3024
-    description: ""
-    release_date: 19900000
-  names:
-  - id: 151071
-    kind: 3
-    kind_id: 60361
-    language: 1
-    name: Palamedes (US)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 73431
+      id: 106268
       kind: 3
-      kind_id: 60361
+      kind_id: 3024
       type: 1
       name: palamed.zip
       description: ""
@@ -135,18 +127,59 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 288263
-      asset_id: 73431
+    - id: 682595
+      asset_id: 106268
       name: chr-h_ic7.ic7
       size: 131072
       blob_id: 32126
-    - id: 288264
-      asset_id: 73431
+    - id: 682596
+      asset_id: 106268
       name: chr-l_ic9.ic9
       size: 131072
       blob_id: 32127
-    - id: 288265
-      asset_id: 73431
+    - id: 682597
+      asset_id: 106268
       name: palamedes_prg_ic6.ic6
       size: 131072
-      blob_id: 155895
+      blob_id: 262826
+- release:
+    id: 90823
+    game_id: 3024
+    description: ""
+    release_date: 19900000
+  names:
+  - id: 220960
+    kind: 3
+    kind_id: 90823
+    language: 1
+    name: Palamedes (Japan)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 106269
+      kind: 3
+      kind_id: 90823
+      type: 1
+      name: palamedj.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 682598
+      asset_id: 106269
+      name: c63-02.ic6
+      size: 131072
+      blob_id: 32125
+    - id: 682599
+      asset_id: 106269
+      name: c63-03.ic7
+      size: 131072
+      blob_id: 32126
+    - id: 682600
+      asset_id: 106269
+      name: c63-04.ic9
+      size: 131072
+      blob_id: 32127

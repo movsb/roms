@@ -10,6 +10,18 @@ names:
   language: 1
   name: spdodgeb
   source: ""
+- id: 193902
+  kind: 2
+  kind_id: 3890
+  language: 1
+  name: Nekketsu Koukou Dodgeball Bu (Japan)
+  source: mame
+- id: 193903
+  kind: 2
+  kind_id: 3890
+  language: 1
+  name: Nekketsu Koukou Dodgeball Bu (Japan, bootleg)
+  source: mame
 game_developers:
 - game_id: 3890
   developer_id: 259
@@ -138,6 +150,73 @@ releases:
       blob_id: 87252
       debug: arcade/wheel/spdodgeb.png
     entries: []
+  - asset:
+      id: 114111
+      kind: 3
+      kind_id: 3890
+      type: 1
+      name: spdodgeb.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 752393
+      asset_id: 114111
+      name: 22a-04.139
+      size: 65536
+      blob_id: 41703
+    - id: 752394
+      asset_id: 114111
+      name: 22a-1.2
+      size: 131072
+      blob_id: 41704
+    - id: 752395
+      asset_id: 114111
+      name: 22a-2.35
+      size: 131072
+      blob_id: 41705
+    - id: 752396
+      asset_id: 114111
+      name: 22a-3.107
+      size: 131072
+      blob_id: 41706
+    - id: 752397
+      asset_id: 114111
+      name: 22a-4.121
+      size: 131072
+      blob_id: 41707
+    - id: 752398
+      asset_id: 114111
+      name: 22j5-0.33
+      size: 32768
+      blob_id: 41708
+    - id: 752399
+      asset_id: 114111
+      name: 22j6-0.83
+      size: 65536
+      blob_id: 41709
+    - id: 752400
+      asset_id: 114111
+      name: 22j7-0.82
+      size: 65536
+      blob_id: 41710
+    - id: 752401
+      asset_id: 114111
+      name: 22ja-0.162
+      size: 16384
+      blob_id: 41713
+    - id: 752402
+      asset_id: 114111
+      name: mb7122e.159
+      size: 1024
+      blob_id: 41711
+    - id: 752403
+      asset_id: 114111
+      name: mb7132e.158
+      size: 1024
+      blob_id: 41712
 - release:
     id: 3891
     game_id: 3890
@@ -306,83 +385,184 @@ releases:
       size: 65536
       blob_id: 41729
 - release:
-    id: 71522
+    id: 104559
     game_id: 3890
     description: ""
     release_date: 19870000
   names:
-  - id: 173097
+  - id: 239535
     kind: 3
-    kind_id: 71522
+    kind_id: 104559
     language: 1
-    name: Super Dodge Ball (US)
+    name: Nekketsu Koukou Dodgeball Bu (Japan)
     source: mame
   release_publishers: []
   assets:
   - asset:
-      id: 84592
+      id: 105700
       kind: 3
-      kind_id: 71522
+      kind_id: 104559
       type: 1
-      name: spdodgeb.zip
+      name: nkdodge.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 373773
-      asset_id: 84592
-      name: 22a-04.139
+    - id: 676604
+      asset_id: 105700
+      name: 22j4-0.139
       size: 65536
-      blob_id: 41703
-    - id: 373774
-      asset_id: 84592
-      name: 22a-1.2
-      size: 131072
-      blob_id: 41704
-    - id: 373775
-      asset_id: 84592
-      name: 22a-2.35
-      size: 131072
-      blob_id: 41705
-    - id: 373776
-      asset_id: 84592
-      name: 22a-3.107
-      size: 131072
-      blob_id: 41706
-    - id: 373777
-      asset_id: 84592
-      name: 22a-4.121
-      size: 131072
-      blob_id: 41707
-    - id: 373778
-      asset_id: 84592
+      blob_id: 41714
+    - id: 676605
+      asset_id: 105700
       name: 22j5-0.33
       size: 32768
       blob_id: 41708
-    - id: 373779
-      asset_id: 84592
+    - id: 676606
+      asset_id: 105700
       name: 22j6-0.83
       size: 65536
       blob_id: 41709
-    - id: 373780
-      asset_id: 84592
+    - id: 676607
+      asset_id: 105700
       name: 22j7-0.82
       size: 65536
       blob_id: 41710
-    - id: 373781
-      asset_id: 84592
+    - id: 676608
+      asset_id: 105700
+      name: 22j8-0.158
+      size: 1024
+      blob_id: 41715
+    - id: 676609
+      asset_id: 105700
+      name: 22j9-0.159
+      size: 1024
+      blob_id: 41716
+    - id: 676610
+      asset_id: 105700
       name: 22ja-0.162
       size: 16384
       blob_id: 41713
-    - id: 373782
-      asset_id: 84592
-      name: mb7122e.159
+    - id: 676611
+      asset_id: 105700
+      name: tj22j1-0.2
+      size: 131072
+      blob_id: 41717
+    - id: 676612
+      asset_id: 105700
+      name: tj22j2-0.35
+      size: 131072
+      blob_id: 41718
+    - id: 676613
+      asset_id: 105700
+      name: tj22j3-0.107
+      size: 131072
+      blob_id: 41719
+    - id: 676614
+      asset_id: 105700
+      name: tj22j4-0.121
+      size: 131072
+      blob_id: 41720
+- release:
+    id: 104560
+    game_id: 3890
+    description: ""
+    release_date: 19870000
+  names:
+  - id: 239536
+    kind: 3
+    kind_id: 104560
+    language: 1
+    name: Nekketsu Koukou Dodgeball Bu (Japan, bootleg)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 105701
+      kind: 3
+      kind_id: 104560
+      type: 1
+      name: nkdodgeb.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 676615
+      asset_id: 105701
+      name: 1.bin
+      size: 65536
+      blob_id: 41721
+    - id: 676616
+      asset_id: 105701
+      name: 10.bin
+      size: 65536
+      blob_id: 41722
+    - id: 676617
+      asset_id: 105701
+      name: 11.bin
+      size: 65536
+      blob_id: 41723
+    - id: 676618
+      asset_id: 105701
+      name: 12.bin
+      size: 65536
+      blob_id: 41714
+    - id: 676619
+      asset_id: 105701
+      name: 2.bin
+      size: 65536
+      blob_id: 41724
+    - id: 676620
+      asset_id: 105701
+      name: 22j5-0.33
+      size: 32768
+      blob_id: 41708
+    - id: 676621
+      asset_id: 105701
+      name: 22j6-0.83
+      size: 65536
+      blob_id: 41709
+    - id: 676622
+      asset_id: 105701
+      name: 22j7-0.82
+      size: 65536
+      blob_id: 41710
+    - id: 676623
+      asset_id: 105701
+      name: 27s191.bin
+      size: 2048
+      blob_id: 41725
+    - id: 676624
+      asset_id: 105701
+      name: 3.bin
+      size: 65536
+      blob_id: 41726
+    - id: 676625
+      asset_id: 105701
+      name: 4.bin
+      size: 65536
+      blob_id: 41727
+    - id: 676626
+      asset_id: 105701
+      name: 8.bin
+      size: 65536
+      blob_id: 41728
+    - id: 676627
+      asset_id: 105701
+      name: 82s137.bin
       size: 1024
-      blob_id: 41711
-    - id: 373783
-      asset_id: 84592
-      name: mb7132e.158
-      size: 1024
-      blob_id: 41712
+      blob_id: 41716
+    - id: 676628
+      asset_id: 105701
+      name: 9.bin
+      size: 65536
+      blob_id: 41729
+    - id: 676629
+      asset_id: 105701
+      name: hd63701y0p.n12
+      size: 16384
+      blob_id: 41713

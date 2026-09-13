@@ -16,6 +16,12 @@ names:
   language: 2
   name: "贪食蛇 - 喧闹"
   source: trimui
+- id: 189211
+  kind: 2
+  kind_id: 1132
+  language: 1
+  name: CoMotion (patent)
+  source: mame
 game_developers: []
 game_genres: []
 assets: []
@@ -87,24 +93,10 @@ releases:
       name: readme.txt
       size: 256
       blob_id: 12146
-- release:
-    id: 39706
-    game_id: 1132
-    description: ""
-    release_date: 19760000
-  names:
-  - id: 110392
-    kind: 3
-    kind_id: 39706
-    language: 1
-    name: CoMotion
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 52776
+      id: 96474
       kind: 3
-      kind_id: 39706
+      kind_id: 1132
       type: 1
       name: comotion.zip
       description: ""
@@ -113,33 +105,89 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 134096
-      asset_id: 52776
+    - id: 571740
+      asset_id: 96474
       name: 316-0005.u29
       size: 256
       blob_id: 12143
-    - id: 134097
-      asset_id: 52776
+    - id: 571741
+      asset_id: 96474
       name: 316-0006.u43
       size: 256
       blob_id: 12144
-    - id: 134098
-      asset_id: 52776
+    - id: 571742
+      asset_id: 96474
       name: 316-0007.u2
       size: 1024
       blob_id: 12145
-    - id: 134099
-      asset_id: 52776
+    - id: 571743
+      asset_id: 96474
       name: 316-0008.u3
       size: 1024
       blob_id: 12142
-    - id: 134100
-      asset_id: 52776
+    - id: 571744
+      asset_id: 96474
       name: 316-0009.u4
       size: 1024
       blob_id: 12141
-    - id: 134101
-      asset_id: 52776
+    - id: 571745
+      asset_id: 96474
       name: 316-0010.u5
       size: 1024
       blob_id: 12140
+- release:
+    id: 81706
+    game_id: 1132
+    description: ""
+    release_date: 19760000
+  names:
+  - id: 206972
+    kind: 3
+    kind_id: 81706
+    language: 1
+    name: CoMotion (patent)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 96475
+      kind: 3
+      kind_id: 81706
+      type: 1
+      name: comotionp.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 571746
+      asset_id: 96475
+      name: 316-0005.u29
+      size: 256
+      blob_id: 12143
+    - id: 571747
+      asset_id: 96475
+      name: 316-0006.u43
+      size: 256
+      blob_id: 12144
+    - id: 571748
+      asset_id: 96475
+      name: comotionp-1h.u2
+      size: 1024
+      blob_id: 242420
+    - id: 571749
+      asset_id: 96475
+      name: comotionp-1l.u3
+      size: 1024
+      blob_id: 242421
+    - id: 571750
+      asset_id: 96475
+      name: comotionp-2h.u4
+      size: 1024
+      blob_id: 242422
+    - id: 571751
+      asset_id: 96475
+      name: comotionp-2l.u5
+      size: 1024
+      blob_id: 242423

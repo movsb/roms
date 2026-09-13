@@ -16,6 +16,54 @@ names:
   language: 2
   name: 战斗任务 (FD1089A 317-0018)
   source: trimui
+- id: 187763
+  kind: 2
+  kind_id: 585
+  language: 1
+  name: Action Fighter (unprotected)
+  source: mame
+- id: 187764
+  kind: 2
+  kind_id: 585
+  language: 1
+  name: Action Fighter (unprotected, analog controls)
+  source: mame
+- id: 187765
+  kind: 2
+  kind_id: 585
+  language: 1
+  name: Action Fighter (FD1089B 317-unknown)
+  source: mame
+- id: 187766
+  kind: 2
+  kind_id: 585
+  language: 1
+  name: Action Fighter (FD1089B 317-unknown, analog controls)
+  source: mame
+- id: 187767
+  kind: 2
+  kind_id: 585
+  language: 1
+  name: Action Fighter (System 16B, unprotected, analog controls)
+  source: mame
+- id: 187768
+  kind: 2
+  kind_id: 585
+  language: 1
+  name: Action Fighter (System 16B, FD1089B 317-unknown, analog controls)
+  source: mame
+- id: 187769
+  kind: 2
+  kind_id: 585
+  language: 1
+  name: Action Fighter (System 16B, FD1089B 317-unknown)
+  source: mame
+- id: 187770
+  kind: 2
+  kind_id: 585
+  language: 1
+  name: Action Fighter (System 16B, FD1089A 317-0018)
+  source: mame
 game_developers:
 - game_id: 585
   developer_id: 110
@@ -189,24 +237,10 @@ releases:
       blob_id: 89539
       debug: arcade/wheel/afighter.png
     entries: []
-- release:
-    id: 36402
-    game_id: 585
-    description: ""
-    release_date: 19860000
-  names:
-  - id: 103984
-    kind: 3
-    kind_id: 36402
-    language: 1
-    name: Action Fighter (FD1089A 317-0018)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 49472
+      id: 93596
       kind: 3
-      kind_id: 36402
+      kind_id: 585
       type: 1
       name: afighter.zip
       description: ""
@@ -215,98 +249,1051 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 97200
-      asset_id: 49472
+    - id: 537012
+      asset_id: 93596
       name: 317-0018.key
       size: 8192
-      blob_id: 93702
-    - id: 97201
-      asset_id: 49472
+      blob_id: 202038
+    - id: 537013
+      asset_id: 93596
       name: epr-10281.95
       size: 65536
       blob_id: 5386
-    - id: 97202
-      asset_id: 49472
+    - id: 537014
+      asset_id: 93596
       name: epr-10282.94
       size: 65536
       blob_id: 5387
-    - id: 97203
-      asset_id: 49472
+    - id: 537015
+      asset_id: 93596
       name: epr-10283.93
       size: 65536
       blob_id: 5388
-    - id: 97204
-      asset_id: 49472
+    - id: 537016
+      asset_id: 93596
       name: epr-10284.12
       size: 32768
       blob_id: 5389
-    - id: 97205
-      asset_id: 49472
+    - id: 537017
+      asset_id: 93596
       name: epr-10285
       size: 32768
       blob_id: 5390
-    - id: 97206
-      asset_id: 49472
+    - id: 537018
+      asset_id: 93596
       name: epr-10286
       size: 32768
       blob_id: 5391
-    - id: 97207
-      asset_id: 49472
+    - id: 537019
+      asset_id: 93596
       name: epr-10287
       size: 32768
       blob_id: 5392
-    - id: 97208
-      asset_id: 49472
+    - id: 537020
+      asset_id: 93596
       name: epr-10288
       size: 32768
       blob_id: 5393
-    - id: 97209
-      asset_id: 49472
+    - id: 537021
+      asset_id: 93596
       name: epr-10289
       size: 32768
       blob_id: 5394
-    - id: 97210
-      asset_id: 49472
+    - id: 537022
+      asset_id: 93596
       name: epr-10290
       size: 32768
       blob_id: 5395
-    - id: 97211
-      asset_id: 49472
+    - id: 537023
+      asset_id: 93596
       name: epr-10291
       size: 32768
       blob_id: 5396
-    - id: 97212
-      asset_id: 49472
+    - id: 537024
+      asset_id: 93596
       name: epr-10292
       size: 32768
       blob_id: 5397
-    - id: 97213
-      asset_id: 49472
+    - id: 537025
+      asset_id: 93596
       name: epr-10348
       size: 32768
       blob_id: 5398
-    - id: 97214
-      asset_id: 49472
+    - id: 537026
+      asset_id: 93596
       name: epr-10349
       size: 32768
       blob_id: 5399
-    - id: 97215
-      asset_id: 49472
+    - id: 537027
+      asset_id: 93596
       name: epr-10350
       size: 32768
       blob_id: 5400
-    - id: 97216
-      asset_id: 49472
+    - id: 537028
+      asset_id: 93596
       name: epr-10351
       size: 32768
       blob_id: 5401
-    - id: 97217
-      asset_id: 49472
+    - id: 537029
+      asset_id: 93596
       name: epr-10352
       size: 32768
       blob_id: 5402
-    - id: 97218
-      asset_id: 49472
+    - id: 537030
+      asset_id: 93596
       name: epr-10353
       size: 32768
       blob_id: 5403
+- release:
+    id: 79050
+    game_id: 585
+    description: ""
+    release_date: 19860000
+  names:
+  - id: 202837
+    kind: 3
+    kind_id: 79050
+    language: 1
+    name: Action Fighter (unprotected)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 93597
+      kind: 3
+      kind_id: 79050
+      type: 1
+      name: afightera.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 537031
+      asset_id: 93597
+      name: epr-10281.95
+      size: 65536
+      blob_id: 5386
+    - id: 537032
+      asset_id: 93597
+      name: epr-10282.94
+      size: 65536
+      blob_id: 5387
+    - id: 537033
+      asset_id: 93597
+      name: epr-10283.93
+      size: 65536
+      blob_id: 5388
+    - id: 537034
+      asset_id: 93597
+      name: epr-10284.12
+      size: 32768
+      blob_id: 5389
+    - id: 537035
+      asset_id: 93597
+      name: epr-10285
+      size: 32768
+      blob_id: 5390
+    - id: 537036
+      asset_id: 93597
+      name: epr-10286
+      size: 32768
+      blob_id: 5391
+    - id: 537037
+      asset_id: 93597
+      name: epr-10287
+      size: 32768
+      blob_id: 5392
+    - id: 537038
+      asset_id: 93597
+      name: epr-10288
+      size: 32768
+      blob_id: 5393
+    - id: 537039
+      asset_id: 93597
+      name: epr-10289
+      size: 32768
+      blob_id: 5394
+    - id: 537040
+      asset_id: 93597
+      name: epr-10290
+      size: 32768
+      blob_id: 5395
+    - id: 537041
+      asset_id: 93597
+      name: epr-10291
+      size: 32768
+      blob_id: 5396
+    - id: 537042
+      asset_id: 93597
+      name: epr-10292
+      size: 32768
+      blob_id: 5397
+    - id: 537043
+      asset_id: 93597
+      name: epr10315.bin
+      size: 32768
+      blob_id: 238700
+    - id: 537044
+      asset_id: 93597
+      name: epr10316.bin
+      size: 32768
+      blob_id: 238701
+    - id: 537045
+      asset_id: 93597
+      name: epr10317.bin
+      size: 32768
+      blob_id: 238702
+    - id: 537046
+      asset_id: 93597
+      name: epr10318.bin
+      size: 32768
+      blob_id: 238703
+    - id: 537047
+      asset_id: 93597
+      name: epr10319.bin
+      size: 32768
+      blob_id: 238704
+    - id: 537048
+      asset_id: 93597
+      name: epr10320.bin
+      size: 32768
+      blob_id: 238705
+- release:
+    id: 79051
+    game_id: 585
+    description: ""
+    release_date: 19860000
+  names:
+  - id: 202838
+    kind: 3
+    kind_id: 79051
+    language: 1
+    name: Action Fighter (unprotected, analog controls)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 93598
+      kind: 3
+      kind_id: 79051
+      type: 1
+      name: afighterb.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 537049
+      asset_id: 93598
+      name: epr-10281.95
+      size: 65536
+      blob_id: 5386
+    - id: 537050
+      asset_id: 93598
+      name: epr-10282.94
+      size: 65536
+      blob_id: 5387
+    - id: 537051
+      asset_id: 93598
+      name: epr-10283.93
+      size: 65536
+      blob_id: 5388
+    - id: 537052
+      asset_id: 93598
+      name: epr-10284.12
+      size: 32768
+      blob_id: 5389
+    - id: 537053
+      asset_id: 93598
+      name: epr-10285
+      size: 32768
+      blob_id: 5390
+    - id: 537054
+      asset_id: 93598
+      name: epr-10286
+      size: 32768
+      blob_id: 5391
+    - id: 537055
+      asset_id: 93598
+      name: epr-10287
+      size: 32768
+      blob_id: 5392
+    - id: 537056
+      asset_id: 93598
+      name: epr-10288
+      size: 32768
+      blob_id: 5393
+    - id: 537057
+      asset_id: 93598
+      name: epr-10289
+      size: 32768
+      blob_id: 5394
+    - id: 537058
+      asset_id: 93598
+      name: epr-10290
+      size: 32768
+      blob_id: 5395
+    - id: 537059
+      asset_id: 93598
+      name: epr-10291
+      size: 32768
+      blob_id: 5396
+    - id: 537060
+      asset_id: 93598
+      name: epr-10292
+      size: 32768
+      blob_id: 5397
+    - id: 537061
+      asset_id: 93598
+      name: epr10293.bin
+      size: 32768
+      blob_id: 238706
+    - id: 537062
+      asset_id: 93598
+      name: epr10294.bin
+      size: 32768
+      blob_id: 238701
+    - id: 537063
+      asset_id: 93598
+      name: epr10295.bin
+      size: 32768
+      blob_id: 238707
+    - id: 537064
+      asset_id: 93598
+      name: epr10296.bin
+      size: 32768
+      blob_id: 238708
+    - id: 537065
+      asset_id: 93598
+      name: epr10297.bin
+      size: 32768
+      blob_id: 238704
+    - id: 537066
+      asset_id: 93598
+      name: epr10298.bin
+      size: 32768
+      blob_id: 238709
+- release:
+    id: 79052
+    game_id: 585
+    description: ""
+    release_date: 19860000
+  names:
+  - id: 202839
+    kind: 3
+    kind_id: 79052
+    language: 1
+    name: Action Fighter (FD1089B 317-unknown)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 93599
+      kind: 3
+      kind_id: 79052
+      type: 1
+      name: afighterc.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 537067
+      asset_id: 93599
+      name: 317-0018.key
+      size: 8192
+      blob_id: 202038
+    - id: 537068
+      asset_id: 93599
+      name: epr-10281.95
+      size: 65536
+      blob_id: 5386
+    - id: 537069
+      asset_id: 93599
+      name: epr-10282.94
+      size: 65536
+      blob_id: 5387
+    - id: 537070
+      asset_id: 93599
+      name: epr-10283.93
+      size: 65536
+      blob_id: 5388
+    - id: 537071
+      asset_id: 93599
+      name: epr-10284.12
+      size: 32768
+      blob_id: 5389
+    - id: 537072
+      asset_id: 93599
+      name: epr-10285
+      size: 32768
+      blob_id: 5390
+    - id: 537073
+      asset_id: 93599
+      name: epr-10286
+      size: 32768
+      blob_id: 5391
+    - id: 537074
+      asset_id: 93599
+      name: epr-10287
+      size: 32768
+      blob_id: 5392
+    - id: 537075
+      asset_id: 93599
+      name: epr-10288
+      size: 32768
+      blob_id: 5393
+    - id: 537076
+      asset_id: 93599
+      name: epr-10289
+      size: 32768
+      blob_id: 5394
+    - id: 537077
+      asset_id: 93599
+      name: epr-10290
+      size: 32768
+      blob_id: 5395
+    - id: 537078
+      asset_id: 93599
+      name: epr-10291
+      size: 32768
+      blob_id: 5396
+    - id: 537079
+      asset_id: 93599
+      name: epr-10292
+      size: 32768
+      blob_id: 5397
+    - id: 537080
+      asset_id: 93599
+      name: epr10299.bin
+      size: 32768
+      blob_id: 238710
+    - id: 537081
+      asset_id: 93599
+      name: epr10300.bin
+      size: 32768
+      blob_id: 238711
+    - id: 537082
+      asset_id: 93599
+      name: epr10301.bin
+      size: 32768
+      blob_id: 238712
+    - id: 537083
+      asset_id: 93599
+      name: epr10302.bin
+      size: 32768
+      blob_id: 238713
+    - id: 537084
+      asset_id: 93599
+      name: epr10303.bin
+      size: 32768
+      blob_id: 238714
+    - id: 537085
+      asset_id: 93599
+      name: epr10304.bin
+      size: 32768
+      blob_id: 238715
+- release:
+    id: 79053
+    game_id: 585
+    description: ""
+    release_date: 19860000
+  names:
+  - id: 202840
+    kind: 3
+    kind_id: 79053
+    language: 1
+    name: Action Fighter (FD1089B 317-unknown, analog controls)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 93600
+      kind: 3
+      kind_id: 79053
+      type: 1
+      name: afighterd.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 537086
+      asset_id: 93600
+      name: 317-0018.key
+      size: 8192
+      blob_id: 202038
+    - id: 537087
+      asset_id: 93600
+      name: epr-10281.95
+      size: 65536
+      blob_id: 5386
+    - id: 537088
+      asset_id: 93600
+      name: epr-10282.94
+      size: 65536
+      blob_id: 5387
+    - id: 537089
+      asset_id: 93600
+      name: epr-10283.93
+      size: 65536
+      blob_id: 5388
+    - id: 537090
+      asset_id: 93600
+      name: epr-10284.12
+      size: 32768
+      blob_id: 5389
+    - id: 537091
+      asset_id: 93600
+      name: epr-10285
+      size: 32768
+      blob_id: 5390
+    - id: 537092
+      asset_id: 93600
+      name: epr-10286
+      size: 32768
+      blob_id: 5391
+    - id: 537093
+      asset_id: 93600
+      name: epr-10287
+      size: 32768
+      blob_id: 5392
+    - id: 537094
+      asset_id: 93600
+      name: epr-10288
+      size: 32768
+      blob_id: 5393
+    - id: 537095
+      asset_id: 93600
+      name: epr-10289
+      size: 32768
+      blob_id: 5394
+    - id: 537096
+      asset_id: 93600
+      name: epr-10290
+      size: 32768
+      blob_id: 5395
+    - id: 537097
+      asset_id: 93600
+      name: epr-10291
+      size: 32768
+      blob_id: 5396
+    - id: 537098
+      asset_id: 93600
+      name: epr-10292
+      size: 32768
+      blob_id: 5397
+    - id: 537099
+      asset_id: 93600
+      name: epr10275.bin
+      size: 32768
+      blob_id: 238716
+    - id: 537100
+      asset_id: 93600
+      name: epr10276.bin
+      size: 32768
+      blob_id: 238711
+    - id: 537101
+      asset_id: 93600
+      name: epr10277.bin
+      size: 32768
+      blob_id: 238717
+    - id: 537102
+      asset_id: 93600
+      name: epr10278.bin
+      size: 32768
+      blob_id: 238718
+    - id: 537103
+      asset_id: 93600
+      name: epr10279.bin
+      size: 32768
+      blob_id: 238714
+    - id: 537104
+      asset_id: 93600
+      name: epr10280.bin
+      size: 32768
+      blob_id: 238719
+- release:
+    id: 79054
+    game_id: 585
+    description: ""
+    release_date: 19860000
+  names:
+  - id: 202841
+    kind: 3
+    kind_id: 79054
+    language: 1
+    name: Action Fighter (System 16B, unprotected, analog controls)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 93601
+      kind: 3
+      kind_id: 79054
+      type: 1
+      name: afightere.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 537105
+      asset_id: 93601
+      name: epr10039.bin
+      size: 32768
+      blob_id: 238720
+    - id: 537106
+      asset_id: 93601
+      name: epr10040.bin
+      size: 32768
+      blob_id: 238721
+    - id: 537107
+      asset_id: 93601
+      name: epr10041.bin
+      size: 32768
+      blob_id: 5391
+    - id: 537108
+      asset_id: 93601
+      name: epr10042.bin
+      size: 32768
+      blob_id: 238722
+    - id: 537109
+      asset_id: 93601
+      name: epr10043.bin
+      size: 32768
+      blob_id: 238723
+    - id: 537110
+      asset_id: 93601
+      name: epr10044.bin
+      size: 32768
+      blob_id: 238724
+    - id: 537111
+      asset_id: 93601
+      name: epr10045.bin
+      size: 32768
+      blob_id: 5395
+    - id: 537112
+      asset_id: 93601
+      name: epr10046.bin
+      size: 32768
+      blob_id: 238725
+    - id: 537113
+      asset_id: 93601
+      name: epr10047.bin
+      size: 32768
+      blob_id: 238726
+    - id: 537114
+      asset_id: 93601
+      name: epr10048.bin
+      size: 65536
+      blob_id: 238727
+    - id: 537115
+      asset_id: 93601
+      name: epr10049.bin
+      size: 65536
+      blob_id: 238728
+    - id: 537116
+      asset_id: 93601
+      name: epr10050.bin
+      size: 65536
+      blob_id: 238729
+    - id: 537117
+      asset_id: 93601
+      name: epr10269.bin
+      size: 32768
+      blob_id: 238730
+    - id: 537118
+      asset_id: 93601
+      name: epr10270.bin
+      size: 32768
+      blob_id: 238731
+    - id: 537119
+      asset_id: 93601
+      name: epr10271.bin
+      size: 32768
+      blob_id: 238732
+    - id: 537120
+      asset_id: 93601
+      name: epr10272.bin
+      size: 32768
+      blob_id: 238733
+    - id: 537121
+      asset_id: 93601
+      name: epr10273.bin
+      size: 32768
+      blob_id: 238734
+    - id: 537122
+      asset_id: 93601
+      name: epr10274.bin
+      size: 32768
+      blob_id: 238735
+- release:
+    id: 79055
+    game_id: 585
+    description: ""
+    release_date: 19860000
+  names:
+  - id: 202842
+    kind: 3
+    kind_id: 79055
+    language: 1
+    name: Action Fighter (System 16B, FD1089B 317-unknown, analog controls)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 93602
+      kind: 3
+      kind_id: 79055
+      type: 1
+      name: afighterf.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 537123
+      asset_id: 93602
+      name: 317-0018.key
+      size: 8192
+      blob_id: 202038
+    - id: 537124
+      asset_id: 93602
+      name: epr10033.bin
+      size: 32768
+      blob_id: 238736
+    - id: 537125
+      asset_id: 93602
+      name: epr10034.bin
+      size: 32768
+      blob_id: 238737
+    - id: 537126
+      asset_id: 93602
+      name: epr10035.bin
+      size: 32768
+      blob_id: 238738
+    - id: 537127
+      asset_id: 93602
+      name: epr10036.bin
+      size: 32768
+      blob_id: 238739
+    - id: 537128
+      asset_id: 93602
+      name: epr10037.bin
+      size: 32768
+      blob_id: 238740
+    - id: 537129
+      asset_id: 93602
+      name: epr10038.bin
+      size: 32768
+      blob_id: 238741
+    - id: 537130
+      asset_id: 93602
+      name: epr10039.bin
+      size: 32768
+      blob_id: 238720
+    - id: 537131
+      asset_id: 93602
+      name: epr10040.bin
+      size: 32768
+      blob_id: 238721
+    - id: 537132
+      asset_id: 93602
+      name: epr10041.bin
+      size: 32768
+      blob_id: 5391
+    - id: 537133
+      asset_id: 93602
+      name: epr10042.bin
+      size: 32768
+      blob_id: 238722
+    - id: 537134
+      asset_id: 93602
+      name: epr10043.bin
+      size: 32768
+      blob_id: 238723
+    - id: 537135
+      asset_id: 93602
+      name: epr10044.bin
+      size: 32768
+      blob_id: 238724
+    - id: 537136
+      asset_id: 93602
+      name: epr10045.bin
+      size: 32768
+      blob_id: 5395
+    - id: 537137
+      asset_id: 93602
+      name: epr10046.bin
+      size: 32768
+      blob_id: 238725
+    - id: 537138
+      asset_id: 93602
+      name: epr10047.bin
+      size: 32768
+      blob_id: 238726
+    - id: 537139
+      asset_id: 93602
+      name: epr10048.bin
+      size: 65536
+      blob_id: 238727
+    - id: 537140
+      asset_id: 93602
+      name: epr10049.bin
+      size: 65536
+      blob_id: 238728
+    - id: 537141
+      asset_id: 93602
+      name: epr10050.bin
+      size: 65536
+      blob_id: 238729
+- release:
+    id: 79056
+    game_id: 585
+    description: ""
+    release_date: 19860000
+  names:
+  - id: 202843
+    kind: 3
+    kind_id: 79056
+    language: 1
+    name: Action Fighter (System 16B, FD1089B 317-unknown)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 93603
+      kind: 3
+      kind_id: 79056
+      type: 1
+      name: afighterg.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 537142
+      asset_id: 93603
+      name: 317-0018.key
+      size: 8192
+      blob_id: 202038
+    - id: 537143
+      asset_id: 93603
+      name: epr10039.bin
+      size: 32768
+      blob_id: 238720
+    - id: 537144
+      asset_id: 93603
+      name: epr10040.bin
+      size: 32768
+      blob_id: 238721
+    - id: 537145
+      asset_id: 93603
+      name: epr10041.bin
+      size: 32768
+      blob_id: 5391
+    - id: 537146
+      asset_id: 93603
+      name: epr10042.bin
+      size: 32768
+      blob_id: 238722
+    - id: 537147
+      asset_id: 93603
+      name: epr10043.bin
+      size: 32768
+      blob_id: 238723
+    - id: 537148
+      asset_id: 93603
+      name: epr10044.bin
+      size: 32768
+      blob_id: 238724
+    - id: 537149
+      asset_id: 93603
+      name: epr10045.bin
+      size: 32768
+      blob_id: 5395
+    - id: 537150
+      asset_id: 93603
+      name: epr10046.bin
+      size: 32768
+      blob_id: 238725
+    - id: 537151
+      asset_id: 93603
+      name: epr10047.bin
+      size: 32768
+      blob_id: 238726
+    - id: 537152
+      asset_id: 93603
+      name: epr10048.bin
+      size: 65536
+      blob_id: 238727
+    - id: 537153
+      asset_id: 93603
+      name: epr10049.bin
+      size: 65536
+      blob_id: 238728
+    - id: 537154
+      asset_id: 93603
+      name: epr10050.bin
+      size: 65536
+      blob_id: 238729
+    - id: 537155
+      asset_id: 93603
+      name: epr10160.bin
+      size: 32768
+      blob_id: 238742
+    - id: 537156
+      asset_id: 93603
+      name: epr10161.bin
+      size: 32768
+      blob_id: 238737
+    - id: 537157
+      asset_id: 93603
+      name: epr10162.bin
+      size: 32768
+      blob_id: 238743
+    - id: 537158
+      asset_id: 93603
+      name: epr10163.bin
+      size: 32768
+      blob_id: 238744
+    - id: 537159
+      asset_id: 93603
+      name: epr10164.bin
+      size: 32768
+      blob_id: 238740
+    - id: 537160
+      asset_id: 93603
+      name: epr10165.bin
+      size: 32768
+      blob_id: 238745
+- release:
+    id: 79057
+    game_id: 585
+    description: ""
+    release_date: 19860000
+  names:
+  - id: 202844
+    kind: 3
+    kind_id: 79057
+    language: 1
+    name: Action Fighter (System 16B, FD1089A 317-0018)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 93604
+      kind: 3
+      kind_id: 79057
+      type: 1
+      name: afighterh.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 537161
+      asset_id: 93604
+      name: 317-0018.key
+      size: 8192
+      blob_id: 202038
+    - id: 537162
+      asset_id: 93604
+      name: epr10039.bin
+      size: 32768
+      blob_id: 238720
+    - id: 537163
+      asset_id: 93604
+      name: epr10040.bin
+      size: 32768
+      blob_id: 238721
+    - id: 537164
+      asset_id: 93604
+      name: epr10041.bin
+      size: 32768
+      blob_id: 5391
+    - id: 537165
+      asset_id: 93604
+      name: epr10042.bin
+      size: 32768
+      blob_id: 238722
+    - id: 537166
+      asset_id: 93604
+      name: epr10043.bin
+      size: 32768
+      blob_id: 238723
+    - id: 537167
+      asset_id: 93604
+      name: epr10044.bin
+      size: 32768
+      blob_id: 238724
+    - id: 537168
+      asset_id: 93604
+      name: epr10045.bin
+      size: 32768
+      blob_id: 5395
+    - id: 537169
+      asset_id: 93604
+      name: epr10046.bin
+      size: 32768
+      blob_id: 238725
+    - id: 537170
+      asset_id: 93604
+      name: epr10047.bin
+      size: 32768
+      blob_id: 238726
+    - id: 537171
+      asset_id: 93604
+      name: epr10048.bin
+      size: 65536
+      blob_id: 238727
+    - id: 537172
+      asset_id: 93604
+      name: epr10049.bin
+      size: 65536
+      blob_id: 238728
+    - id: 537173
+      asset_id: 93604
+      name: epr10050.bin
+      size: 65536
+      blob_id: 238729
+    - id: 537174
+      asset_id: 93604
+      name: epr10354.bin
+      size: 32768
+      blob_id: 238746
+    - id: 537175
+      asset_id: 93604
+      name: epr10355.bin
+      size: 32768
+      blob_id: 238747
+    - id: 537176
+      asset_id: 93604
+      name: epr10356.bin
+      size: 32768
+      blob_id: 238748
+    - id: 537177
+      asset_id: 93604
+      name: epr10357.bin
+      size: 32768
+      blob_id: 238749
+    - id: 537178
+      asset_id: 93604
+      name: epr10358.bin
+      size: 32768
+      blob_id: 238750
+    - id: 537179
+      asset_id: 93604
+      name: epr10359.bin
+      size: 32768
+      blob_id: 238751

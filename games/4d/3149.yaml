@@ -16,6 +16,30 @@ names:
   language: 2
   name: 海战 (Latest 版本)
   source: trimui
+- id: 194988
+  kind: 2
+  kind_id: 3149
+  language: 1
+  name: Polaris (second revision)
+  source: mame
+- id: 194989
+  kind: 2
+  kind_id: 3149
+  language: 1
+  name: Polaris (first revision)
+  source: mame
+- id: 194990
+  kind: 2
+  kind_id: 3149
+  language: 1
+  name: Polaris (Brazil)
+  source: mame
+- id: 194991
+  kind: 2
+  kind_id: 3149
+  language: 1
+  name: Polaris (original version)
+  source: mame
 game_developers:
 - game_id: 3149
   developer_id: 35
@@ -134,24 +158,10 @@ releases:
       blob_id: 90326
       debug: arcade/wheel/polaris.png
     entries: []
-- release:
-    id: 61983
-    game_id: 3149
-    description: ""
-    release_date: 19800000
-  names:
-  - id: 154265
-    kind: 3
-    kind_id: 61983
-    language: 1
-    name: Polaris (latest version)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 75053
+      id: 107853
       kind: 3
-      kind_id: 61983
+      kind_id: 3149
       type: 1
       name: polaris.zip
       description: ""
@@ -160,48 +170,322 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 304787
-      asset_id: 75053
+    - id: 698821
+      asset_id: 107853
       name: ps01-1.ic71
       size: 2048
-      blob_id: 160479
-    - id: 304788
-      asset_id: 75053
+      blob_id: 267231
+    - id: 698822
+      asset_id: 107853
       name: ps02-9.ic70
       size: 2048
       blob_id: 33531
-    - id: 304789
-      asset_id: 75053
+    - id: 698823
+      asset_id: 107853
       name: ps03-1.ic69
       size: 2048
-      blob_id: 160480
-    - id: 304790
-      asset_id: 75053
+      blob_id: 267232
+    - id: 698824
+      asset_id: 107853
       name: ps04-18.ic62
       size: 2048
-      blob_id: 160481
-    - id: 304791
-      asset_id: 75053
+      blob_id: 267233
+    - id: 698825
+      asset_id: 107853
       name: ps05.ic61
       size: 2048
       blob_id: 33529
-    - id: 304792
-      asset_id: 75053
+    - id: 698826
+      asset_id: 107853
       name: ps06-10.ic60
       size: 2048
       blob_id: 33532
-    - id: 304793
-      asset_id: 75053
+    - id: 698827
+      asset_id: 107853
       name: ps07.2c
       size: 256
       blob_id: 33526
-    - id: 304794
-      asset_id: 75053
+    - id: 698828
+      asset_id: 107853
       name: ps08.1b
       size: 1024
       blob_id: 33533
-    - id: 304795
-      asset_id: 75053
+    - id: 698829
+      asset_id: 107853
       name: ps26.ic60a
       size: 2048
-      blob_id: 160482
+      blob_id: 267234
+- release:
+    id: 92356
+    game_id: 3149
+    description: ""
+    release_date: 19800000
+  names:
+  - id: 223232
+    kind: 3
+    kind_id: 92356
+    language: 1
+    name: Polaris (second revision)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 107854
+      kind: 3
+      kind_id: 92356
+      type: 1
+      name: polarisa.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 698830
+      asset_id: 107854
+      name: ps01-1.ic71
+      size: 2048
+      blob_id: 267231
+    - id: 698831
+      asset_id: 107854
+      name: ps02-9.ic70
+      size: 2048
+      blob_id: 33531
+    - id: 698832
+      asset_id: 107854
+      name: ps03-1.ic69
+      size: 2048
+      blob_id: 267232
+    - id: 698833
+      asset_id: 107854
+      name: ps04.ic62
+      size: 2048
+      blob_id: 33528
+    - id: 698834
+      asset_id: 107854
+      name: ps05.ic61
+      size: 2048
+      blob_id: 33529
+    - id: 698835
+      asset_id: 107854
+      name: ps06-10.ic60
+      size: 2048
+      blob_id: 33532
+    - id: 698836
+      asset_id: 107854
+      name: ps07.2c
+      size: 256
+      blob_id: 33526
+    - id: 698837
+      asset_id: 107854
+      name: ps08.1b
+      size: 1024
+      blob_id: 33533
+    - id: 698838
+      asset_id: 107854
+      name: ps26.ic60a
+      size: 2048
+      blob_id: 267234
+- release:
+    id: 92357
+    game_id: 3149
+    description: ""
+    release_date: 19800000
+  names:
+  - id: 223233
+    kind: 3
+    kind_id: 92357
+    language: 1
+    name: Polaris (first revision)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 107855
+      kind: 3
+      kind_id: 92357
+      type: 1
+      name: polarisb.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 698839
+      asset_id: 107855
+      name: ps01.ic71
+      size: 2048
+      blob_id: 33527
+    - id: 698840
+      asset_id: 107855
+      name: ps02-9.ic70
+      size: 2048
+      blob_id: 33531
+    - id: 698841
+      asset_id: 107855
+      name: ps03.ic69
+      size: 2048
+      blob_id: 33530
+    - id: 698842
+      asset_id: 107855
+      name: ps04.ic62
+      size: 2048
+      blob_id: 33528
+    - id: 698843
+      asset_id: 107855
+      name: ps05.ic61
+      size: 2048
+      blob_id: 33529
+    - id: 698844
+      asset_id: 107855
+      name: ps06-10.ic60
+      size: 2048
+      blob_id: 33532
+    - id: 698845
+      asset_id: 107855
+      name: ps07.2c
+      size: 256
+      blob_id: 33526
+    - id: 698846
+      asset_id: 107855
+      name: ps08.1b
+      size: 1024
+      blob_id: 33533
+- release:
+    id: 92358
+    game_id: 3149
+    description: ""
+    release_date: 19810000
+  names:
+  - id: 223234
+    kind: 3
+    kind_id: 92358
+    language: 1
+    name: Polaris (Brazil)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 107856
+      kind: 3
+      kind_id: 92358
+      type: 1
+      name: polarisbr.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 698847
+      asset_id: 107856
+      name: "1"
+      size: 2048
+      blob_id: 267235
+    - id: 698848
+      asset_id: 107856
+      name: "2"
+      size: 2048
+      blob_id: 33531
+    - id: 698849
+      asset_id: 107856
+      name: "3"
+      size: 2048
+      blob_id: 267236
+    - id: 698850
+      asset_id: 107856
+      name: "4"
+      size: 2048
+      blob_id: 33528
+    - id: 698851
+      asset_id: 107856
+      name: "5"
+      size: 2048
+      blob_id: 267237
+    - id: 698852
+      asset_id: 107856
+      name: "6"
+      size: 2048
+      blob_id: 33532
+    - id: 698853
+      asset_id: 107856
+      name: "7"
+      size: 2048
+      blob_id: 267238
+    - id: 698854
+      asset_id: 107856
+      name: ps07.2c
+      size: 256
+      blob_id: 33526
+    - id: 698855
+      asset_id: 107856
+      name: ps08.1b
+      size: 1024
+      blob_id: 33533
+- release:
+    id: 92359
+    game_id: 3149
+    description: ""
+    release_date: 19800000
+  names:
+  - id: 223235
+    kind: 3
+    kind_id: 92359
+    language: 1
+    name: Polaris (original version)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 107857
+      kind: 3
+      kind_id: 92359
+      type: 1
+      name: polariso.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 698856
+      asset_id: 107857
+      name: ps01.ic71
+      size: 2048
+      blob_id: 33527
+    - id: 698857
+      asset_id: 107857
+      name: ps02.ic70
+      size: 2048
+      blob_id: 267239
+    - id: 698858
+      asset_id: 107857
+      name: ps03.ic69
+      size: 2048
+      blob_id: 33530
+    - id: 698859
+      asset_id: 107857
+      name: ps04.ic62
+      size: 2048
+      blob_id: 33528
+    - id: 698860
+      asset_id: 107857
+      name: ps05.ic61
+      size: 2048
+      blob_id: 33529
+    - id: 698861
+      asset_id: 107857
+      name: ps06.ic60
+      size: 2048
+      blob_id: 267240
+    - id: 698862
+      asset_id: 107857
+      name: ps07.2c
+      size: 256
+      blob_id: 33526
+    - id: 698863
+      asset_id: 107857
+      name: ps08.1b
+      size: 1024
+      blob_id: 33533

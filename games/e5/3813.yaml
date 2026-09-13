@@ -10,6 +10,30 @@ names:
   language: 1
   name: smgolf
   source: ""
+- id: 192486
+  kind: 2
+  kind_id: 3813
+  language: 1
+  name: Vs. Stroke & Match Golf (Ladies Version, set LG4 ?)
+  source: mame
+- id: 192487
+  kind: 2
+  kind_id: 3813
+  language: 1
+  name: Vs. Stroke & Match Golf (Ladies Version, set LG4 E)
+  source: mame
+- id: 199199
+  kind: 2
+  kind_id: 3813
+  language: 1
+  name: Vs. Stroke & Match Golf (Men Version, set GF4-2 ?)
+  source: mame
+- id: 199200
+  kind: 2
+  kind_id: 3813
+  language: 1
+  name: Vs. Stroke & Match Golf (Men Version) (Japan, set GF3 B)
+  source: mame
 game_developers: []
 game_genres:
 - game_id: 3813
@@ -116,6 +140,53 @@ releases:
       blob_id: 89842
       debug: arcade/wheel/smgolf.png
     entries: []
+  - asset:
+      id: 113800
+      kind: 3
+      kind_id: 3813
+      type: 1
+      name: smgolf.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 748904
+      asset_id: 113800
+      name: mds-gf4-2 f.1a or 6a
+      size: 8192
+      blob_id: 40997
+    - id: 748905
+      asset_id: 113800
+      name: mds-gf4-2 f.1b or 6b
+      size: 8192
+      blob_id: 40998
+    - id: 748906
+      asset_id: 113800
+      name: mds-gf4-2 f.1c or 6c
+      size: 8192
+      blob_id: 40999
+    - id: 748907
+      asset_id: 113800
+      name: mds-gf4-2 f.1d or 6d
+      size: 8192
+      blob_id: 41000
+    - id: 748908
+      asset_id: 113800
+      name: mds-gf4-2 f.2a or 8a
+      size: 8192
+      blob_id: 40985
+    - id: 748909
+      asset_id: 113800
+      name: mds-gf4-2 f.2b or 8b
+      size: 8192
+      blob_id: 40986
+    - id: 748910
+      asset_id: 113800
+      name: rp2c04-0002.pal
+      size: 192
+      blob_id: 41001
 - release:
     id: 3814
     game_id: 3813
@@ -289,63 +360,246 @@ releases:
       size: 192
       blob_id: 41008
 - release:
-    id: 70666
+    id: 98084
     game_id: 3813
     description: ""
     release_date: 19840000
   names:
-  - id: 171420
+  - id: 230577
     kind: 3
-    kind_id: 70666
+    kind_id: 98084
     language: 1
-    name: Vs. Stroke & Match Golf (Men Version, set GF4-2 F)
+    name: Vs. Stroke & Match Golf (Men Version, set GF4-2 ?)
     source: mame
   release_publishers: []
   assets:
   - asset:
-      id: 83736
+      id: 113801
       kind: 3
-      kind_id: 70666
+      kind_id: 98084
       type: 1
-      name: smgolf.zip
+      name: smgolfb.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 368752
-      asset_id: 83736
-      name: mds-gf4-2 f.1a or 6a
-      size: 8192
-      blob_id: 40997
-    - id: 368753
-      asset_id: 83736
-      name: mds-gf4-2 f.1b or 6b
-      size: 8192
-      blob_id: 40998
-    - id: 368754
-      asset_id: 83736
-      name: mds-gf4-2 f.1c or 6c
-      size: 8192
-      blob_id: 40999
-    - id: 368755
-      asset_id: 83736
-      name: mds-gf4-2 f.1d or 6d
-      size: 8192
-      blob_id: 41000
-    - id: 368756
-      asset_id: 83736
+    - id: 748911
+      asset_id: 113801
       name: mds-gf4-2 f.2a or 8a
       size: 8192
       blob_id: 40985
-    - id: 368757
-      asset_id: 83736
+    - id: 748912
+      asset_id: 113801
       name: mds-gf4-2 f.2b or 8b
       size: 8192
       blob_id: 40986
-    - id: 368758
-      asset_id: 83736
+    - id: 748913
+      asset_id: 113801
+      name: mds-gf4-2.1a
+      size: 8192
+      blob_id: 40981
+    - id: 748914
+      asset_id: 113801
+      name: mds-gf4-2.1b
+      size: 8192
+      blob_id: 40982
+    - id: 748915
+      asset_id: 113801
+      name: mds-gf4-2.1c
+      size: 8192
+      blob_id: 40983
+    - id: 748916
+      asset_id: 113801
+      name: mds-gf4-2.1d
+      size: 8192
+      blob_id: 40984
+    - id: 748917
+      asset_id: 113801
+      name: rp2c04-0002.pal
+      size: 192
+      blob_id: 41001
+- release:
+    id: 98085
+    game_id: 3813
+    description: ""
+    release_date: 19840000
+  names:
+  - id: 230578
+    kind: 3
+    kind_id: 98085
+    language: 1
+    name: Vs. Stroke & Match Golf (Men Version) (Japan, set GF3 B)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 113802
+      kind: 3
+      kind_id: 98085
+      type: 1
+      name: smgolfj.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 748918
+      asset_id: 113802
+      name: mds-gf3 b.6a
+      size: 8192
+      blob_id: 41002
+    - id: 748919
+      asset_id: 113802
+      name: mds-gf3 b.6b
+      size: 8192
+      blob_id: 41003
+    - id: 748920
+      asset_id: 113802
+      name: mds-gf3 b.6c
+      size: 8192
+      blob_id: 41004
+    - id: 748921
+      asset_id: 113802
+      name: mds-gf3 b.6d
+      size: 8192
+      blob_id: 41005
+    - id: 748922
+      asset_id: 113802
+      name: mds-gf3 b.8a
+      size: 8192
+      blob_id: 41006
+    - id: 748923
+      asset_id: 113802
+      name: mds-gf3 b.8b
+      size: 8192
+      blob_id: 41007
+    - id: 748924
+      asset_id: 113802
+      name: rp2c0x.pal
+      size: 192
+      blob_id: 41008
+- release:
+    id: 104352
+    game_id: 3813
+    description: ""
+    release_date: 19840000
+  names:
+  - id: 239328
+    kind: 3
+    kind_id: 104352
+    language: 1
+    name: Vs. Stroke & Match Golf (Ladies Version, set LG4 ?)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 102790
+      kind: 3
+      kind_id: 104352
+      type: 1
+      name: ladygolf.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 646655
+      asset_id: 102790
+      name: lg-1a
+      size: 8192
+      blob_id: 40987
+    - id: 646656
+      asset_id: 102790
+      name: lg-1b
+      size: 8192
+      blob_id: 40988
+    - id: 646657
+      asset_id: 102790
+      name: lg-1c
+      size: 8192
+      blob_id: 40989
+    - id: 646658
+      asset_id: 102790
+      name: lg-1d
+      size: 8192
+      blob_id: 40990
+    - id: 646659
+      asset_id: 102790
+      name: mds-lg4 e.2a or 8a
+      size: 8192
+      blob_id: 40991
+    - id: 646660
+      asset_id: 102790
+      name: mds-lg4 e.2b or 8b
+      size: 8192
+      blob_id: 40992
+    - id: 646661
+      asset_id: 102790
+      name: rp2c04-0002.pal
+      size: 192
+      blob_id: 41001
+- release:
+    id: 104353
+    game_id: 3813
+    description: ""
+    release_date: 19840000
+  names:
+  - id: 239329
+    kind: 3
+    kind_id: 104353
+    language: 1
+    name: Vs. Stroke & Match Golf (Ladies Version, set LG4 E)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 102791
+      kind: 3
+      kind_id: 104353
+      type: 1
+      name: ladygolfe.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 646662
+      asset_id: 102791
+      name: mds-lg4 e.1a or 6a
+      size: 8192
+      blob_id: 40993
+    - id: 646663
+      asset_id: 102791
+      name: mds-lg4 e.1b or 6b
+      size: 8192
+      blob_id: 40994
+    - id: 646664
+      asset_id: 102791
+      name: mds-lg4 e.1c or 6c
+      size: 8192
+      blob_id: 40995
+    - id: 646665
+      asset_id: 102791
+      name: mds-lg4 e.1d or 6d
+      size: 8192
+      blob_id: 40996
+    - id: 646666
+      asset_id: 102791
+      name: mds-lg4 e.2a or 8a
+      size: 8192
+      blob_id: 40991
+    - id: 646667
+      asset_id: 102791
+      name: mds-lg4 e.2b or 8b
+      size: 8192
+      blob_id: 40992
+    - id: 646668
+      asset_id: 102791
       name: rp2c04-0002.pal
       size: 192
       blob_id: 41001

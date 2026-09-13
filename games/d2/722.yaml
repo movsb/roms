@@ -10,6 +10,18 @@ names:
   language: 1
   name: asuka
   source: ""
+- id: 188157
+  kind: 2
+  kind_id: 722
+  language: 1
+  name: Asuka & Asuka (Japan, rev 1)
+  source: mame
+- id: 188158
+  kind: 2
+  kind_id: 722
+  language: 1
+  name: Asuka & Asuka (Japan)
+  source: mame
 game_developers: []
 game_genres:
 - game_id: 722
@@ -131,6 +143,73 @@ releases:
       blob_id: 89608
       debug: arcade/wheel/asuka.png
     entries: []
+  - asset:
+      id: 94264
+      kind: 3
+      kind_id: 722
+      type: 1
+      name: asuka.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 545928
+      asset_id: 94264
+      name: b68-01.ic3
+      size: 524288
+      blob_id: 7191
+    - id: 545929
+      asset_id: 94264
+      name: b68-02.ic6
+      size: 524288
+      blob_id: 7192
+    - id: 545930
+      asset_id: 94264
+      name: b68-03.ic30
+      size: 524288
+      blob_id: 7193
+    - id: 545931
+      asset_id: 94264
+      name: b68-04.ic32
+      size: 324
+      blob_id: 7202
+    - id: 545932
+      asset_id: 94264
+      name: b68-05.ic43
+      size: 260
+      blob_id: 7203
+    - id: 545933
+      asset_id: 94264
+      name: b68-06.ic4
+      size: 65536
+      blob_id: 7194
+    - id: 545934
+      asset_id: 94264
+      name: b68-07.ic5
+      size: 65536
+      blob_id: 7195
+    - id: 545935
+      asset_id: 94264
+      name: b68-10.ic24
+      size: 65536
+      blob_id: 7196
+    - id: 545936
+      asset_id: 94264
+      name: b68-11.ic27
+      size: 65536
+      blob_id: 7197
+    - id: 545937
+      asset_id: 94264
+      name: b68-12.ic8
+      size: 131072
+      blob_id: 7198
+    - id: 545938
+      asset_id: 94264
+      name: b68-13.ic23
+      size: 131072
+      blob_id: 7199
 - release:
     id: 723
     game_id: 722
@@ -326,83 +405,164 @@ releases:
       size: 131072
       blob_id: 7208
 - release:
-    id: 37295
+    id: 79668
     game_id: 722
     description: ""
     release_date: 19880000
   names:
-  - id: 105725
+  - id: 203780
     kind: 3
-    kind_id: 37295
+    kind_id: 79668
     language: 1
-    name: Asuka & Asuka (World)
+    name: Asuka & Asuka (Japan, rev 1)
     source: mame
   release_publishers: []
   assets:
   - asset:
-      id: 50365
+      id: 94265
       kind: 3
-      kind_id: 37295
+      kind_id: 79668
       type: 1
-      name: asuka.zip
+      name: asukaj.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 107085
-      asset_id: 50365
+    - id: 545939
+      asset_id: 94265
       name: b68-01.ic3
       size: 524288
       blob_id: 7191
-    - id: 107086
-      asset_id: 50365
+    - id: 545940
+      asset_id: 94265
       name: b68-02.ic6
       size: 524288
       blob_id: 7192
-    - id: 107087
-      asset_id: 50365
+    - id: 545941
+      asset_id: 94265
       name: b68-03.ic30
       size: 524288
       blob_id: 7193
-    - id: 107088
-      asset_id: 50365
+    - id: 545942
+      asset_id: 94265
       name: b68-04.ic32
       size: 324
       blob_id: 7202
-    - id: 107089
-      asset_id: 50365
+    - id: 545943
+      asset_id: 94265
       name: b68-05.ic43
       size: 260
       blob_id: 7203
-    - id: 107090
-      asset_id: 50365
+    - id: 545944
+      asset_id: 94265
       name: b68-06.ic4
       size: 65536
       blob_id: 7194
-    - id: 107091
-      asset_id: 50365
+    - id: 545945
+      asset_id: 94265
       name: b68-07.ic5
       size: 65536
       blob_id: 7195
-    - id: 107092
-      asset_id: 50365
+    - id: 545946
+      asset_id: 94265
+      name: b68-08-1.ic8
+      size: 131072
+      blob_id: 239719
+    - id: 545947
+      asset_id: 94265
+      name: b68-09-1.ic23
+      size: 131072
+      blob_id: 239720
+    - id: 545948
+      asset_id: 94265
       name: b68-10.ic24
       size: 65536
       blob_id: 7196
-    - id: 107093
-      asset_id: 50365
+    - id: 545949
+      asset_id: 94265
       name: b68-11.ic27
       size: 65536
       blob_id: 7197
-    - id: 107094
-      asset_id: 50365
-      name: b68-12.ic8
+- release:
+    id: 79669
+    game_id: 722
+    description: ""
+    release_date: 19880000
+  names:
+  - id: 203781
+    kind: 3
+    kind_id: 79669
+    language: 1
+    name: Asuka & Asuka (Japan)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 94266
+      kind: 3
+      kind_id: 79669
+      type: 1
+      name: asukaja.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 545950
+      asset_id: 94266
+      name: b68-01.ic3
+      size: 524288
+      blob_id: 7191
+    - id: 545951
+      asset_id: 94266
+      name: b68-02.ic6
+      size: 524288
+      blob_id: 7192
+    - id: 545952
+      asset_id: 94266
+      name: b68-03.ic30
+      size: 524288
+      blob_id: 7193
+    - id: 545953
+      asset_id: 94266
+      name: b68-04.ic32
+      size: 324
+      blob_id: 7202
+    - id: 545954
+      asset_id: 94266
+      name: b68-05.ic43
+      size: 260
+      blob_id: 7203
+    - id: 545955
+      asset_id: 94266
+      name: b68-06.ic4
+      size: 65536
+      blob_id: 7194
+    - id: 545956
+      asset_id: 94266
+      name: b68-07.ic5
+      size: 65536
+      blob_id: 7195
+    - id: 545957
+      asset_id: 94266
+      name: b68-08.ic8
       size: 131072
-      blob_id: 7198
-    - id: 107095
-      asset_id: 50365
-      name: b68-13.ic23
+      blob_id: 7200
+    - id: 545958
+      asset_id: 94266
+      name: b68-09.ic23
       size: 131072
-      blob_id: 7199
+      blob_id: 7201
+    - id: 545959
+      asset_id: 94266
+      name: b68-10.ic24
+      size: 65536
+      blob_id: 7196
+    - id: 545960
+      asset_id: 94266
+      name: b68-11.ic27
+      size: 65536
+      blob_id: 7197

@@ -16,6 +16,18 @@ names:
   language: 2
   name: 抢 8 撞球 (DK 转换版)
   source: trimui
+- id: 187442
+  kind: 2
+  kind_id: 52
+  language: 1
+  name: Eight Ball Action (DKJr conversion)
+  source: mame
+- id: 187443
+  kind: 2
+  kind_id: 52
+  language: 1
+  name: Eight Ball Action (Pac-Man conversion)
+  source: mame
 game_developers:
 - game_id: 52
   developer_id: 612
@@ -164,24 +176,10 @@ releases:
       blob_id: 87348
       debug: arcade/wheel/8ballact.png
     entries: []
-- release:
-    id: 35879
-    game_id: 52
-    description: ""
-    release_date: 19840000
-  names:
-  - id: 102949
-    kind: 3
-    kind_id: 35879
-    language: 1
-    name: Eight Ball Action (DK conversion)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 48949
+      id: 93101
       kind: 3
-      kind_id: 35879
+      kind_id: 52
       type: 1
       name: 8ballact.zip
       description: ""
@@ -190,78 +188,215 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 93806
-      asset_id: 48949
+    - id: 533568
+      asset_id: 93101
       name: 82s147.prm
       size: 512
       blob_id: 22138
-    - id: 93807
-      asset_id: 48949
+    - id: 533569
+      asset_id: 93101
       name: 8b-dk.3h
       size: 2048
       blob_id: 776
-    - id: 93808
-      asset_id: 48949
+    - id: 533570
+      asset_id: 93101
       name: 8b-dk.3n
       size: 2048
       blob_id: 777
-    - id: 93809
-      asset_id: 48949
+    - id: 533571
+      asset_id: 93101
       name: 8b-dk.3p
       size: 2048
       blob_id: 778
-    - id: 93810
-      asset_id: 48949
+    - id: 533572
+      asset_id: 93101
       name: 8b-dk.5a
       size: 4096
       blob_id: 779
-    - id: 93811
-      asset_id: 48949
+    - id: 533573
+      asset_id: 93101
       name: 8b-dk.5b
       size: 4096
       blob_id: 780
-    - id: 93812
-      asset_id: 48949
+    - id: 533574
+      asset_id: 93101
       name: 8b-dk.5c
       size: 4096
       blob_id: 781
-    - id: 93813
-      asset_id: 48949
+    - id: 533575
+      asset_id: 93101
       name: 8b-dk.5e
       size: 4096
       blob_id: 782
-    - id: 93814
-      asset_id: 48949
+    - id: 533576
+      asset_id: 93101
       name: 8b-dk.7c
       size: 2048
       blob_id: 783
-    - id: 93815
-      asset_id: 48949
+    - id: 533577
+      asset_id: 93101
       name: 8b-dk.7d
       size: 2048
       blob_id: 784
-    - id: 93816
-      asset_id: 48949
+    - id: 533578
+      asset_id: 93101
       name: 8b-dk.7e
       size: 2048
       blob_id: 785
-    - id: 93817
-      asset_id: 48949
+    - id: 533579
+      asset_id: 93101
       name: 8b-dk.7f
       size: 2048
       blob_id: 786
-    - id: 93818
-      asset_id: 48949
+    - id: 533580
+      asset_id: 93101
       name: 8b.2e
       size: 256
       blob_id: 787
-    - id: 93819
-      asset_id: 48949
+    - id: 533581
+      asset_id: 93101
       name: 8b.2f
       size: 256
       blob_id: 788
-    - id: 93820
-      asset_id: 48949
+    - id: 533582
+      asset_id: 93101
       name: 8b.2n
       size: 256
       blob_id: 789
+- release:
+    id: 78569
+    game_id: 52
+    description: ""
+    release_date: 19840000
+  names:
+  - id: 202154
+    kind: 3
+    kind_id: 78569
+    language: 1
+    name: Eight Ball Action (DKJr conversion)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 93102
+      kind: 3
+      kind_id: 78569
+      type: 1
+      name: 8ballact2.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 533583
+      asset_id: 93102
+      name: 82s147.prm
+      size: 512
+      blob_id: 22138
+    - id: 533584
+      asset_id: 93102
+      name: 8b-jr.3h
+      size: 4096
+      blob_id: 238252
+    - id: 533585
+      asset_id: 93102
+      name: 8b-jr.3n
+      size: 4096
+      blob_id: 238253
+    - id: 533586
+      asset_id: 93102
+      name: 8b-jr.3p
+      size: 4096
+      blob_id: 238254
+    - id: 533587
+      asset_id: 93102
+      name: 8b-jr.5b
+      size: 8192
+      blob_id: 238255
+    - id: 533588
+      asset_id: 93102
+      name: 8b-jr.5c
+      size: 8192
+      blob_id: 238256
+    - id: 533589
+      asset_id: 93102
+      name: 8b-jr.7c
+      size: 2048
+      blob_id: 783
+    - id: 533590
+      asset_id: 93102
+      name: 8b-jr.7d
+      size: 2048
+      blob_id: 784
+    - id: 533591
+      asset_id: 93102
+      name: 8b-jr.7e
+      size: 2048
+      blob_id: 785
+    - id: 533592
+      asset_id: 93102
+      name: 8b-jr.7f
+      size: 2048
+      blob_id: 786
+    - id: 533593
+      asset_id: 93102
+      name: 8b.2e
+      size: 256
+      blob_id: 787
+    - id: 533594
+      asset_id: 93102
+      name: 8b.2f
+      size: 256
+      blob_id: 788
+    - id: 533595
+      asset_id: 93102
+      name: 8b.2n
+      size: 256
+      blob_id: 789
+- release:
+    id: 78570
+    game_id: 52
+    description: ""
+    release_date: 19850000
+  names:
+  - id: 202155
+    kind: 3
+    kind_id: 78570
+    language: 1
+    name: Eight Ball Action (Pac-Man conversion)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 93103
+      kind: 3
+      kind_id: 78570
+      type: 1
+      name: 8bpm.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 533596
+      asset_id: 93103
+      name: 8bpm.4a
+      size: 256
+      blob_id: 201203
+    - id: 533597
+      asset_id: 93103
+      name: 8bpm.7f
+      size: 32
+      blob_id: 201204
+    - id: 533598
+      asset_id: 93103
+      name: 8bpmc.bin
+      size: 16384
+      blob_id: 201205
+    - id: 533599
+      asset_id: 93103
+      name: 8bpmp.bin
+      size: 16384
+      blob_id: 201206

@@ -10,6 +10,18 @@ names:
   language: 1
   name: ghox
   source: ""
+- id: 191149
+  kind: 2
+  kind_id: 1799
+  language: 1
+  name: Ghox (joystick)
+  source: mame
+- id: 191150
+  kind: 2
+  kind_id: 1799
+  language: 1
+  name: Ghox (joystick, older)
+  source: mame
 game_developers:
 - game_id: 1799
   developer_id: 504
@@ -108,6 +120,43 @@ releases:
       blob_id: 85601
       debug: arcade/wheel/ghox.png
     entries: []
+  - asset:
+      id: 99980
+      kind: 3
+      kind_id: 1799
+      type: 1
+      name: ghox.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 614673
+      asset_id: 99980
+      name: hd647180.021
+      size: 32768
+      blob_id: 19965
+    - id: 614674
+      asset_id: 99980
+      name: tp021-01.u10
+      size: 131072
+      blob_id: 19957
+    - id: 614675
+      asset_id: 99980
+      name: tp021-02.u11
+      size: 131072
+      blob_id: 19958
+    - id: 614676
+      asset_id: 99980
+      name: tp021-03.u36
+      size: 524288
+      blob_id: 19959
+    - id: 614677
+      asset_id: 99980
+      name: tp021-04.u37
+      size: 524288
+      blob_id: 19960
 - release:
     id: 1800
     game_id: 1799
@@ -186,53 +235,104 @@ releases:
       size: 524288
       blob_id: 19960
 - release:
-    id: 44723
+    id: 84950
     game_id: 1799
     description: ""
     release_date: 19910000
   names:
-  - id: 120182
+  - id: 211816
     kind: 3
-    kind_id: 44723
+    kind_id: 84950
     language: 1
-    name: Ghox (spinner)
+    name: Ghox (joystick)
     source: mame
   release_publishers: []
   assets:
   - asset:
-      id: 57793
+      id: 99981
       kind: 3
-      kind_id: 44723
+      kind_id: 84950
       type: 1
-      name: ghox.zip
+      name: ghoxj.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 182989
-      asset_id: 57793
+    - id: 614678
+      asset_id: 99981
       name: hd647180.021
       size: 32768
       blob_id: 19965
-    - id: 182990
-      asset_id: 57793
-      name: tp021-01.u10
+    - id: 614679
+      asset_id: 99981
+      name: tp021-01a.u10
       size: 131072
-      blob_id: 19957
-    - id: 182991
-      asset_id: 57793
-      name: tp021-02.u11
+      blob_id: 19961
+    - id: 614680
+      asset_id: 99981
+      name: tp021-02a.u11
       size: 131072
-      blob_id: 19958
-    - id: 182992
-      asset_id: 57793
+      blob_id: 19962
+    - id: 614681
+      asset_id: 99981
       name: tp021-03.u36
       size: 524288
       blob_id: 19959
-    - id: 182993
-      asset_id: 57793
+    - id: 614682
+      asset_id: 99981
+      name: tp021-04.u37
+      size: 524288
+      blob_id: 19960
+- release:
+    id: 84951
+    game_id: 1799
+    description: ""
+    release_date: 19910000
+  names:
+  - id: 211817
+    kind: 3
+    kind_id: 84951
+    language: 1
+    name: Ghox (joystick, older)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 99982
+      kind: 3
+      kind_id: 84951
+      type: 1
+      name: ghoxjo.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 614683
+      asset_id: 99982
+      name: hd647180.021
+      size: 32768
+      blob_id: 19965
+    - id: 614684
+      asset_id: 99982
+      name: tp021-01.ghoxsticker.u10
+      size: 131072
+      blob_id: 19963
+    - id: 614685
+      asset_id: 99982
+      name: tp021-02.ghoxsticker.u11
+      size: 131072
+      blob_id: 19964
+    - id: 614686
+      asset_id: 99982
+      name: tp021-03.u36
+      size: 524288
+      blob_id: 19959
+    - id: 614687
+      asset_id: 99982
       name: tp021-04.u37
       size: 524288
       blob_id: 19960

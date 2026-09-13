@@ -16,6 +16,18 @@ names:
   language: 2
   name: 三轮车物语 (315-5xxx)
   source: trimui
+- id: 199360
+  kind: 2
+  kind_id: 3879
+  language: 1
+  name: Spatter (315-5099)
+  source: mame
+- id: 199525
+  kind: 2
+  kind_id: 3879
+  language: 1
+  name: Sanrin San Chan (Japan, 315-5096)
+  source: mame
 game_developers:
 - game_id: 3879
   developer_id: 110
@@ -169,24 +181,10 @@ releases:
       blob_id: 91221
       debug: arcade/wheel/spatter.png
     entries: []
-- release:
-    id: 71471
-    game_id: 3879
-    description: ""
-    release_date: 19840000
-  names:
-  - id: 173003
-    kind: 3
-    kind_id: 71471
-    language: 1
-    name: Spatter (315-5096)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 84541
+      id: 114069
       kind: 3
-      kind_id: 71471
+      kind_id: 3879
       type: 1
       name: spatter.zip
       description: ""
@@ -195,78 +193,284 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 373233
-      asset_id: 84541
+    - id: 751870
+      asset_id: 114069
       name: epr-6306.04
       size: 16384
       blob_id: 41603
-    - id: 373234
-      asset_id: 84541
+    - id: 751871
+      asset_id: 114069
       name: epr-6307.05
       size: 16384
       blob_id: 41604
-    - id: 373235
-      asset_id: 84541
+    - id: 751872
+      asset_id: 114069
       name: epr-6308.117
       size: 16384
       blob_id: 41605
-    - id: 373236
-      asset_id: 84541
+    - id: 751873
+      asset_id: 114069
       name: epr-6309.110
       size: 16384
       blob_id: 41606
-    - id: 373237
-      asset_id: 84541
+    - id: 751874
+      asset_id: 114069
       name: epr-6316.120
       size: 8192
       blob_id: 41607
-    - id: 373238
-      asset_id: 84541
+    - id: 751875
+      asset_id: 114069
       name: epr-6324.66
       size: 8192
       blob_id: 41608
-    - id: 373239
-      asset_id: 84541
+    - id: 751876
+      asset_id: 114069
       name: epr-6326.64
       size: 8192
       blob_id: 41609
-    - id: 373240
-      asset_id: 84541
+    - id: 751877
+      asset_id: 114069
       name: epr-6328.62
       size: 8192
       blob_id: 41610
-    - id: 373241
-      asset_id: 84541
+    - id: 751878
+      asset_id: 114069
       name: epr-6392.116
       size: 16384
       blob_id: 41611
-    - id: 373242
-      asset_id: 84541
+    - id: 751879
+      asset_id: 114069
       name: epr-6393.109
       size: 16384
       blob_id: 41612
-    - id: 373243
-      asset_id: 84541
+    - id: 751880
+      asset_id: 114069
       name: epr-6394.96
       size: 16384
       blob_id: 41613
-    - id: 373244
-      asset_id: 84541
+    - id: 751881
+      asset_id: 114069
       name: epr-6395.65
       size: 8192
       blob_id: 41614
-    - id: 373245
-      asset_id: 84541
+    - id: 751882
+      asset_id: 114069
       name: epr-6396.63
       size: 8192
       blob_id: 41615
-    - id: 373246
-      asset_id: 84541
+    - id: 751883
+      asset_id: 114069
       name: epr-6397.61
       size: 8192
       blob_id: 41616
-    - id: 373247
-      asset_id: 84541
+    - id: 751884
+      asset_id: 114069
+      name: pr-5317.106
+      size: 256
+      blob_id: 668
+- release:
+    id: 98326
+    game_id: 3879
+    description: ""
+    release_date: 19840000
+  names:
+  - id: 230912
+    kind: 3
+    kind_id: 98326
+    language: 1
+    name: Spatter (315-5099)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 114070
+      kind: 3
+      kind_id: 98326
+      type: 1
+      name: spattera.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/3569296281
+    entries:
+    - id: 751885
+      asset_id: 114070
+      name: epr-6306.04
+      size: 16384
+      blob_id: 41603
+    - id: 751886
+      asset_id: 114070
+      name: epr-6307.05
+      size: 16384
+      blob_id: 41604
+    - id: 751887
+      asset_id: 114070
+      name: epr-6308.117
+      size: 16384
+      blob_id: 41605
+    - id: 751888
+      asset_id: 114070
+      name: epr-6309.110
+      size: 16384
+      blob_id: 41606
+    - id: 751889
+      asset_id: 114070
+      name: epr-6316.120
+      size: 8192
+      blob_id: 41607
+    - id: 751890
+      asset_id: 114070
+      name: epr-6324.66
+      size: 8192
+      blob_id: 41608
+    - id: 751891
+      asset_id: 114070
+      name: epr-6326.64
+      size: 8192
+      blob_id: 41609
+    - id: 751892
+      asset_id: 114070
+      name: epr-6328.62
+      size: 8192
+      blob_id: 41610
+    - id: 751893
+      asset_id: 114070
+      name: epr-6395.65
+      size: 8192
+      blob_id: 41614
+    - id: 751894
+      asset_id: 114070
+      name: epr-6396.63
+      size: 8192
+      blob_id: 41615
+    - id: 751895
+      asset_id: 114070
+      name: epr-6397.61
+      size: 8192
+      blob_id: 41616
+    - id: 751896
+      asset_id: 114070
+      name: epr-6597.116
+      size: 16384
+      blob_id: 301555
+    - id: 751897
+      asset_id: 114070
+      name: epr-6598.109
+      size: 16384
+      blob_id: 301556
+    - id: 751898
+      asset_id: 114070
+      name: epr-6599.96
+      size: 16384
+      blob_id: 301557
+    - id: 751899
+      asset_id: 114070
+      name: pr-5317.106
+      size: 256
+      blob_id: 668
+- release:
+    id: 98597
+    game_id: 3879
+    description: ""
+    release_date: 19840000
+  names:
+  - id: 231309
+    kind: 3
+    kind_id: 98597
+    language: 1
+    name: Sanrin San Chan (Japan, 315-5096)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 114364
+      kind: 3
+      kind_id: 98597
+      type: 1
+      name: ssanchan.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/2447313718
+    entries:
+    - id: 755697
+      asset_id: 114364
+      name: epr-6306.04
+      size: 16384
+      blob_id: 41603
+    - id: 755698
+      asset_id: 114364
+      name: epr-6307.05
+      size: 16384
+      blob_id: 41604
+    - id: 755699
+      asset_id: 114364
+      name: epr-6308.117
+      size: 16384
+      blob_id: 41605
+    - id: 755700
+      asset_id: 114364
+      name: epr-6309.110
+      size: 16384
+      blob_id: 41606
+    - id: 755701
+      asset_id: 114364
+      name: epr-6310.116
+      size: 16384
+      blob_id: 302863
+    - id: 755702
+      asset_id: 114364
+      name: epr-6311.109
+      size: 16384
+      blob_id: 302864
+    - id: 755703
+      asset_id: 114364
+      name: epr-6312.96
+      size: 16384
+      blob_id: 302865
+    - id: 755704
+      asset_id: 114364
+      name: epr-6316.120
+      size: 8192
+      blob_id: 41607
+    - id: 755705
+      asset_id: 114364
+      name: epr-6323.65
+      size: 8192
+      blob_id: 302866
+    - id: 755706
+      asset_id: 114364
+      name: epr-6324.66
+      size: 8192
+      blob_id: 41608
+    - id: 755707
+      asset_id: 114364
+      name: epr-6325.63
+      size: 8192
+      blob_id: 302867
+    - id: 755708
+      asset_id: 114364
+      name: epr-6326.64
+      size: 8192
+      blob_id: 41609
+    - id: 755709
+      asset_id: 114364
+      name: epr-6327.61
+      size: 8192
+      blob_id: 302868
+    - id: 755710
+      asset_id: 114364
+      name: epr-6328.62
+      size: 8192
+      blob_id: 41610
+    - id: 755711
+      asset_id: 114364
       name: pr-5317.106
       size: 256
       blob_id: 668

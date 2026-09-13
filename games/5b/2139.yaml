@@ -10,6 +10,18 @@ names:
   language: 1
   name: jumpcoas
   source: ""
+- id: 192204
+  kind: 2
+  kind_id: 2139
+  language: 1
+  name: Jump Coaster
+  source: mame
+- id: 192205
+  kind: 2
+  kind_id: 2139
+  language: 1
+  name: Jump Coaster (Taito)
+  source: mame
 game_developers:
 - game_id: 2139
   developer_id: 555
@@ -138,6 +150,68 @@ releases:
       blob_id: 88331
       debug: arcade/wheel/jumpcoas.png
     entries: []
+  - asset:
+      id: 102198
+      kind: 3
+      kind_id: 2139
+      type: 1
+      name: jumpcoas.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 639036
+      asset_id: 102198
+      name: 1.d1
+      size: 8192
+      blob_id: 226545
+    - id: 639037
+      asset_id: 102198
+      name: 2.d2
+      size: 8192
+      blob_id: 226546
+    - id: 639038
+      asset_id: 102198
+      name: 3.d3
+      size: 8192
+      blob_id: 226547
+    - id: 639039
+      asset_id: 102198
+      name: 4.d5
+      size: 8192
+      blob_id: 226548
+    - id: 639040
+      asset_id: 102198
+      name: 5.h10
+      size: 4096
+      blob_id: 23990
+    - id: 639041
+      asset_id: 102198
+      name: 6.h11
+      size: 4096
+      blob_id: 23991
+    - id: 639042
+      asset_id: 102198
+      name: 7.h12
+      size: 4096
+      blob_id: 23992
+    - id: 639043
+      asset_id: 102198
+      name: tbp24s10n_b.e12
+      size: 256
+      blob_id: 23993
+    - id: 639044
+      asset_id: 102198
+      name: tbp24s10n_g.e11
+      size: 256
+      blob_id: 23994
+    - id: 639045
+      asset_id: 102198
+      name: tbp24s10n_r.e10
+      size: 256
+      blob_id: 23995
 - release:
     id: 2140
     game_id: 2139
@@ -226,78 +300,154 @@ releases:
       size: 440
       blob_id: 23996
 - release:
-    id: 48644
+    id: 87006
     game_id: 2139
     description: ""
     release_date: 19830000
   names:
-  - id: 127881
+  - id: 215067
     kind: 3
-    kind_id: 48644
+    kind_id: 87006
     language: 1
-    name: Jump Coaster (World)
+    name: Jump Coaster
     source: mame
   release_publishers: []
   assets:
   - asset:
-      id: 61714
+      id: 102199
       kind: 3
-      kind_id: 48644
+      kind_id: 87006
       type: 1
-      name: jumpcoas.zip
+      name: jumpcoasa.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 212933
-      asset_id: 61714
+    - id: 639046
+      asset_id: 102199
       name: 1.d1
       size: 8192
-      blob_id: 130674
-    - id: 212934
-      asset_id: 61714
+      blob_id: 23986
+    - id: 639047
+      asset_id: 102199
       name: 2.d2
       size: 8192
-      blob_id: 130675
-    - id: 212935
-      asset_id: 61714
+      blob_id: 23987
+    - id: 639048
+      asset_id: 102199
       name: 3.d3
       size: 8192
-      blob_id: 130676
-    - id: 212936
-      asset_id: 61714
+      blob_id: 23988
+    - id: 639049
+      asset_id: 102199
       name: 4.d5
       size: 8192
-      blob_id: 130677
-    - id: 212937
-      asset_id: 61714
+      blob_id: 23989
+    - id: 639050
+      asset_id: 102199
       name: 5.h10
       size: 4096
       blob_id: 23990
-    - id: 212938
-      asset_id: 61714
+    - id: 639051
+      asset_id: 102199
       name: 6.h11
       size: 4096
       blob_id: 23991
-    - id: 212939
-      asset_id: 61714
+    - id: 639052
+      asset_id: 102199
       name: 7.h12
       size: 4096
       blob_id: 23992
-    - id: 212940
-      asset_id: 61714
+    - id: 639053
+      asset_id: 102199
       name: tbp24s10n_b.e12
       size: 256
       blob_id: 23993
-    - id: 212941
-      asset_id: 61714
+    - id: 639054
+      asset_id: 102199
       name: tbp24s10n_g.e11
       size: 256
       blob_id: 23994
-    - id: 212942
-      asset_id: 61714
+    - id: 639055
+      asset_id: 102199
+      name: tbp24s10n_r.e10
+      size: 256
+      blob_id: 23995
+- release:
+    id: 87007
+    game_id: 2139
+    description: ""
+    release_date: 19830000
+  names:
+  - id: 215068
+    kind: 3
+    kind_id: 87007
+    language: 1
+    name: Jump Coaster (Taito)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 102200
+      kind: 3
+      kind_id: 87007
+      type: 1
+      name: jumpcoast.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 639056
+      asset_id: 102200
+      name: 1.d1
+      size: 8192
+      blob_id: 251007
+    - id: 639057
+      asset_id: 102200
+      name: 2.d2
+      size: 8192
+      blob_id: 23987
+    - id: 639058
+      asset_id: 102200
+      name: 3.d3
+      size: 8192
+      blob_id: 251008
+    - id: 639059
+      asset_id: 102200
+      name: 4.d5
+      size: 8192
+      blob_id: 23989
+    - id: 639060
+      asset_id: 102200
+      name: 5.h10
+      size: 4096
+      blob_id: 23990
+    - id: 639061
+      asset_id: 102200
+      name: 6.h11
+      size: 4096
+      blob_id: 23991
+    - id: 639062
+      asset_id: 102200
+      name: 7.h12
+      size: 4096
+      blob_id: 23992
+    - id: 639063
+      asset_id: 102200
+      name: tbp24s10n_b.e12
+      size: 256
+      blob_id: 23993
+    - id: 639064
+      asset_id: 102200
+      name: tbp24s10n_g.e11
+      size: 256
+      blob_id: 23994
+    - id: 639065
+      asset_id: 102200
       name: tbp24s10n_r.e10
       size: 256
       blob_id: 23995

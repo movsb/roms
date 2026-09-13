@@ -16,6 +16,36 @@ names:
   language: 2
   name: 魔蝎 (第一套)
   source: trimui
+- id: 188047
+  kind: 2
+  kind_id: 3534
+  language: 1
+  name: Aracnis (bootleg of Scorpion on Moon Cresta hardware, set 1)
+  source: mame
+- id: 188048
+  kind: 2
+  kind_id: 3534
+  language: 1
+  name: Aracnis (bootleg of Scorpion on Moon Cresta hardware, set 2)
+  source: mame
+- id: 198701
+  kind: 2
+  kind_id: 3534
+  language: 1
+  name: Scorpion (set 2)
+  source: mame
+- id: 198702
+  kind: 2
+  kind_id: 3534
+  language: 1
+  name: Scorpion (set 3)
+  source: mame
+- id: 198704
+  kind: 2
+  kind_id: 3534
+  language: 1
+  name: Scorpion (Moon Cresta hardware)
+  source: mame
 game_developers:
 - game_id: 3534
   developer_id: 467
@@ -159,24 +189,10 @@ releases:
       blob_id: 85226
       debug: arcade/wheel/scorpion.png
     entries: []
-- release:
-    id: 69696
-    game_id: 3534
-    description: ""
-    release_date: 19820000
-  names:
-  - id: 169559
-    kind: 3
-    kind_id: 69696
-    language: 1
-    name: Scorpion (set 1)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 82766
+      id: 112945
       kind: 3
-      kind_id: 69696
+      kind_id: 3534
       type: 1
       name: scorpion.zip
       description: ""
@@ -185,68 +201,498 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 354814
-      asset_id: 82766
+    - id: 735696
+      asset_id: 112945
       name: 1.2d
       size: 4096
       blob_id: 37959
-    - id: 354815
-      asset_id: 82766
+    - id: 735697
+      asset_id: 112945
       name: 2.2f
       size: 4096
       blob_id: 37960
-    - id: 354816
-      asset_id: 82766
+    - id: 735698
+      asset_id: 112945
       name: 3.2g
       size: 4096
       blob_id: 37961
-    - id: 354817
-      asset_id: 82766
+    - id: 735699
+      asset_id: 112945
       name: 4.2h
       size: 4096
       blob_id: 37967
-    - id: 354818
-      asset_id: 82766
+    - id: 735700
+      asset_id: 112945
       name: 5.2k
       size: 4096
       blob_id: 37968
-    - id: 354819
-      asset_id: 82766
+    - id: 735701
+      asset_id: 112945
       name: igr_scorpion_32_a1.ic23
       size: 4096
       blob_id: 37962
-    - id: 354820
-      asset_id: 82766
+    - id: 735702
+      asset_id: 112945
       name: igr_scorpion_32_a2.ic24
       size: 4096
       blob_id: 37963
-    - id: 354821
-      asset_id: 82766
+    - id: 735703
+      asset_id: 112945
       name: igr_scorpion_32_a3.ic25
       size: 4096
-      blob_id: 179842
-    - id: 354822
-      asset_id: 82766
+      blob_id: 279079
+    - id: 735704
+      asset_id: 112945
       name: igr_scorpion_32_a4.ic12
       size: 4096
       blob_id: 37965
-    - id: 354823
-      asset_id: 82766
+    - id: 735705
+      asset_id: 112945
       name: igr_scorpion_32_a5.ic13
       size: 4096
       blob_id: 37966
-    - id: 354824
-      asset_id: 82766
+    - id: 735706
+      asset_id: 112945
       name: igr_scorpion_32_f5.ic72
       size: 4096
       blob_id: 37958
-    - id: 354825
-      asset_id: 82766
+    - id: 735707
+      asset_id: 112945
       name: igr_scorpion_32_h5.ic73
       size: 4096
       blob_id: 37957
-    - id: 354826
-      asset_id: 82766
+    - id: 735708
+      asset_id: 112945
       name: mmi6331_6e.ic59
       size: 32
       blob_id: 901
+- release:
+    id: 97309
+    game_id: 3534
+    description: ""
+    release_date: 19820000
+  names:
+  - id: 229510
+    kind: 3
+    kind_id: 97309
+    language: 1
+    name: Scorpion (set 2)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 112946
+      kind: 3
+      kind_id: 97309
+      type: 1
+      name: scorpiona.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 735709
+      asset_id: 112946
+      name: igr_scorpion_16_k2.ic113
+      size: 2048
+      blob_id: 279080
+    - id: 735710
+      asset_id: 112946
+      name: igr_scorpion_16_l2.ic114
+      size: 2048
+      blob_id: 279081
+    - id: 735711
+      asset_id: 112946
+      name: igr_scorpion_32_a1.ic23
+      size: 4096
+      blob_id: 37962
+    - id: 735712
+      asset_id: 112946
+      name: igr_scorpion_32_a2.ic24
+      size: 4096
+      blob_id: 37963
+    - id: 735713
+      asset_id: 112946
+      name: igr_scorpion_32_a3.ic25
+      size: 4096
+      blob_id: 279079
+    - id: 735714
+      asset_id: 112946
+      name: igr_scorpion_32_a4.ic12
+      size: 4096
+      blob_id: 37965
+    - id: 735715
+      asset_id: 112946
+      name: igr_scorpion_32_a5.ic13
+      size: 4096
+      blob_id: 37966
+    - id: 735716
+      asset_id: 112946
+      name: igr_scorpion_32_d2.ic109
+      size: 4096
+      blob_id: 279082
+    - id: 735717
+      asset_id: 112946
+      name: igr_scorpion_32_e2.ic110
+      size: 4096
+      blob_id: 279083
+    - id: 735718
+      asset_id: 112946
+      name: igr_scorpion_32_f5.ic72
+      size: 4096
+      blob_id: 37958
+    - id: 735719
+      asset_id: 112946
+      name: igr_scorpion_32_g2.ic111
+      size: 4096
+      blob_id: 279084
+    - id: 735720
+      asset_id: 112946
+      name: igr_scorpion_32_h2.ic112
+      size: 4096
+      blob_id: 279085
+    - id: 735721
+      asset_id: 112946
+      name: igr_scorpion_32_h5.ic73
+      size: 4096
+      blob_id: 37957
+    - id: 735722
+      asset_id: 112946
+      name: mmi6331_6e.ic59
+      size: 32
+      blob_id: 901
+- release:
+    id: 97310
+    game_id: 3534
+    description: ""
+    release_date: 19820000
+  names:
+  - id: 229511
+    kind: 3
+    kind_id: 97310
+    language: 1
+    name: Scorpion (set 3)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 112947
+      kind: 3
+      kind_id: 97310
+      type: 1
+      name: scorpionb.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 735723
+      asset_id: 112947
+      name: ic109.2d
+      size: 4096
+      blob_id: 279086
+    - id: 735724
+      asset_id: 112947
+      name: ic110.2e
+      size: 4096
+      blob_id: 279087
+    - id: 735725
+      asset_id: 112947
+      name: ic111.2g
+      size: 4096
+      blob_id: 279088
+    - id: 735726
+      asset_id: 112947
+      name: ic112.2h
+      size: 4096
+      blob_id: 279089
+    - id: 735727
+      asset_id: 112947
+      name: ic113.2k
+      size: 4096
+      blob_id: 279090
+    - id: 735728
+      asset_id: 112947
+      name: igr_scorpion_32_a1.ic23
+      size: 4096
+      blob_id: 37962
+    - id: 735729
+      asset_id: 112947
+      name: igr_scorpion_32_a2.ic24
+      size: 4096
+      blob_id: 37963
+    - id: 735730
+      asset_id: 112947
+      name: igr_scorpion_32_a3.ic25
+      size: 4096
+      blob_id: 279079
+    - id: 735731
+      asset_id: 112947
+      name: igr_scorpion_32_a4.ic12
+      size: 4096
+      blob_id: 37965
+    - id: 735732
+      asset_id: 112947
+      name: igr_scorpion_32_a5.ic13
+      size: 4096
+      blob_id: 37966
+    - id: 735733
+      asset_id: 112947
+      name: igr_scorpion_32_f5.ic72
+      size: 4096
+      blob_id: 37958
+    - id: 735734
+      asset_id: 112947
+      name: igr_scorpion_32_h5.ic73
+      size: 4096
+      blob_id: 37957
+    - id: 735735
+      asset_id: 112947
+      name: mmi6331_6e.ic59
+      size: 32
+      blob_id: 901
+- release:
+    id: 97312
+    game_id: 3534
+    description: ""
+    release_date: 0
+  names:
+  - id: 229514
+    kind: 3
+    kind_id: 97312
+    language: 1
+    name: Scorpion (Moon Cresta hardware)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 112949
+      kind: 3
+      kind_id: 97312
+      type: 1
+      name: scorpionmc.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 735754
+      asset_id: 112949
+      name: h.bin
+      size: 4096
+      blob_id: 37958
+    - id: 735755
+      asset_id: 112949
+      name: k.bin
+      size: 4096
+      blob_id: 37957
+    - id: 735756
+      asset_id: 112949
+      name: mmi6331.bpr
+      size: 32
+      blob_id: 2421
+    - id: 735757
+      asset_id: 112949
+      name: p1.bin
+      size: 2048
+      blob_id: 279109
+    - id: 735758
+      asset_id: 112949
+      name: p10.bin
+      size: 2048
+      blob_id: 279110
+    - id: 735759
+      asset_id: 112949
+      name: p2.bin
+      size: 2048
+      blob_id: 279111
+    - id: 735760
+      asset_id: 112949
+      name: p3.bin
+      size: 2048
+      blob_id: 279112
+    - id: 735761
+      asset_id: 112949
+      name: p4.bin
+      size: 2048
+      blob_id: 279113
+    - id: 735762
+      asset_id: 112949
+      name: p5.bin
+      size: 2048
+      blob_id: 279114
+    - id: 735763
+      asset_id: 112949
+      name: p6.bin
+      size: 2048
+      blob_id: 279115
+    - id: 735764
+      asset_id: 112949
+      name: p7.bin
+      size: 2048
+      blob_id: 279116
+    - id: 735765
+      asset_id: 112949
+      name: p8.bin
+      size: 2048
+      blob_id: 279117
+    - id: 735766
+      asset_id: 112949
+      name: p9.bin
+      size: 4096
+      blob_id: 279118
+- release:
+    id: 103374
+    game_id: 3534
+    description: ""
+    release_date: 0
+  names:
+  - id: 238350
+    kind: 3
+    kind_id: 103374
+    language: 1
+    name: Aracnis (bootleg of Scorpion on Moon Cresta hardware, set 1)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 94095
+      kind: 3
+      kind_id: 103374
+      type: 1
+      name: aracnis.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 543579
+      asset_id: 94095
+      name: 00sc.bin
+      size: 4096
+      blob_id: 239473
+    - id: 543580
+      asset_id: 94095
+      name: 01sc.bin
+      size: 4096
+      blob_id: 239474
+    - id: 543581
+      asset_id: 94095
+      name: 02sc.bin
+      size: 4096
+      blob_id: 239475
+    - id: 543582
+      asset_id: 94095
+      name: 03sc.bin
+      size: 4096
+      blob_id: 239476
+    - id: 543583
+      asset_id: 94095
+      name: 05sc.bin
+      size: 4096
+      blob_id: 239477
+    - id: 543584
+      asset_id: 94095
+      name: 06sc.bin
+      size: 2048
+      blob_id: 239478
+    - id: 543585
+      asset_id: 94095
+      name: 07sc.1k
+      size: 4096
+      blob_id: 37957
+    - id: 543586
+      asset_id: 94095
+      name: 08sc.1h
+      size: 4096
+      blob_id: 37958
+    - id: 543587
+      asset_id: 94095
+      name: mmi6331-1.6l
+      size: 32
+      blob_id: 3251
+- release:
+    id: 103375
+    game_id: 3534
+    description: ""
+    release_date: 0
+  names:
+  - id: 238351
+    kind: 3
+    kind_id: 103375
+    language: 1
+    name: Aracnis (bootleg of Scorpion on Moon Cresta hardware, set 2)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 94096
+      kind: 3
+      kind_id: 103375
+      type: 1
+      name: aracnisa.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 543588
+      asset_id: 94096
+      name: 82s123.bin
+      size: 32
+      blob_id: 901
+    - id: 543589
+      asset_id: 94096
+      name: promboard-mmi6309.bin
+      size: 256
+      blob_id: 239479
+    - id: 543590
+      asset_id: 94096
+      name: promboard-tbp28l22n.bin
+      size: 256
+      blob_id: 239480
+    - id: 543591
+      asset_id: 94096
+      name: scorpio-1-2732.bin
+      size: 4096
+      blob_id: 239481
+    - id: 543592
+      asset_id: 94096
+      name: scorpio-2-2732.bin
+      size: 4096
+      blob_id: 239482
+    - id: 543593
+      asset_id: 94096
+      name: scorpio-3-2732.bin
+      size: 4096
+      blob_id: 239483
+    - id: 543594
+      asset_id: 94096
+      name: scorpio-4-2732.bin
+      size: 4096
+      blob_id: 239484
+    - id: 543595
+      asset_id: 94096
+      name: scorpio-5-2732.bin
+      size: 4096
+      blob_id: 239477
+    - id: 543596
+      asset_id: 94096
+      name: scorpio-6-2716.bin
+      size: 2048
+      blob_id: 239478
+    - id: 543597
+      asset_id: 94096
+      name: scorpio-c1-2732.bin
+      size: 4096
+      blob_id: 37957
+    - id: 543598
+      asset_id: 94096
+      name: scorpio-c2-2732.bin
+      size: 4096
+      blob_id: 37958

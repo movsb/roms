@@ -16,6 +16,30 @@ names:
   language: 2
   name: 环球飞行
   source: trimui
+- id: 192685
+  kind: 2
+  kind_id: 2550
+  language: 1
+  name: Looping (US, set 1)
+  source: mame
+- id: 192686
+  kind: 2
+  kind_id: 2550
+  language: 1
+  name: Looping (US, set 2)
+  source: mame
+- id: 192687
+  kind: 2
+  kind_id: 2550
+  language: 1
+  name: Looping (US, set 3)
+  source: mame
+- id: 192688
+  kind: 2
+  kind_id: 2550
+  language: 1
+  name: Looping (US, set 4)
+  source: mame
 game_developers:
 - game_id: 2550
   developer_id: 703
@@ -149,24 +173,10 @@ releases:
       blob_id: 89851
       debug: arcade/wheel/looping.png
     entries: []
-- release:
-    id: 49627
-    game_id: 2550
-    description: ""
-    release_date: 19820000
-  names:
-  - id: 129759
-    kind: 3
-    kind_id: 49627
-    language: 1
-    name: Looping (Europe)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 62697
+      id: 103144
       kind: 3
-      kind_id: 49627
+      kind_id: 2550
       type: 1
       name: looping.zip
       description: ""
@@ -175,73 +185,681 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 226216
-      asset_id: 62697
+    - id: 650638
+      asset_id: 103144
       name: cop420-njd_n
       size: 1024
-      blob_id: 134112
-    - id: 226217
-      asset_id: 62697
+      blob_id: 228844
+    - id: 650639
+      asset_id: 103144
       name: loop551.bin
       size: 4096
-      blob_id: 134113
-    - id: 226218
-      asset_id: 62697
+      blob_id: 228845
+    - id: 650640
+      asset_id: 103144
       name: loop552.bin
       size: 4096
-      blob_id: 134114
-    - id: 226219
-      asset_id: 62697
+      blob_id: 228846
+    - id: 650641
+      asset_id: 103144
       name: loop553.bin
       size: 4096
-      blob_id: 134115
-    - id: 226220
-      asset_id: 62697
+      blob_id: 228847
+    - id: 650642
+      asset_id: 103144
       name: loop554b.bin
       size: 4096
-      blob_id: 134116
-    - id: 226221
-      asset_id: 62697
+      blob_id: 228848
+    - id: 650643
+      asset_id: 103144
       name: loop555.bin
       size: 4096
-      blob_id: 134117
-    - id: 226222
-      asset_id: 62697
+      blob_id: 228849
+    - id: 650644
+      asset_id: 103144
       name: loop556.bin
       size: 4096
-      blob_id: 134118
-    - id: 226223
-      asset_id: 62697
+      blob_id: 228850
+    - id: 650645
+      asset_id: 103144
       name: loop557.bin
       size: 4096
-      blob_id: 134119
-    - id: 226224
-      asset_id: 62697
+      blob_id: 228851
+    - id: 650646
+      asset_id: 103144
       name: loopa11.bin
       size: 4096
       blob_id: 27171
-    - id: 226225
-      asset_id: 62697
+    - id: 650647
+      asset_id: 103144
       name: loopa13.bin
       size: 4096
       blob_id: 27172
-    - id: 226226
-      asset_id: 62697
+    - id: 650648
+      asset_id: 103144
       name: loopaa6.bin
       size: 2048
       blob_id: 27175
-    - id: 226227
-      asset_id: 62697
+    - id: 650649
+      asset_id: 103144
       name: loopaa8.bin
       size: 2048
       blob_id: 27176
-    - id: 226228
-      asset_id: 62697
+    - id: 650650
+      asset_id: 103144
       name: loopc13.bin
       size: 4096
-      blob_id: 134120
-    - id: 226229
-      asset_id: 62697
+      blob_id: 228852
+    - id: 650651
+      asset_id: 103144
       name: loopvp1.bin
       size: 32
       blob_id: 2421
+  - asset:
+      id: 120615
+      kind: 3
+      kind_id: 2550
+      type: 1
+      name: looping.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.259
+    entries:
+    - id: 869464
+      asset_id: 120615
+      name: cop.bin
+      size: 1024
+      blob_id: 228844
+    - id: 869465
+      asset_id: 120615
+      name: loop551.bin
+      size: 4096
+      blob_id: 228845
+    - id: 869466
+      asset_id: 120615
+      name: loop552.bin
+      size: 4096
+      blob_id: 228846
+    - id: 869467
+      asset_id: 120615
+      name: loop553.bin
+      size: 4096
+      blob_id: 228847
+    - id: 869468
+      asset_id: 120615
+      name: loop554b.bin
+      size: 4096
+      blob_id: 228848
+    - id: 869469
+      asset_id: 120615
+      name: loop555.bin
+      size: 4096
+      blob_id: 228849
+    - id: 869470
+      asset_id: 120615
+      name: loop556.bin
+      size: 4096
+      blob_id: 228850
+    - id: 869471
+      asset_id: 120615
+      name: loop557.bin
+      size: 4096
+      blob_id: 228851
+    - id: 869472
+      asset_id: 120615
+      name: loopa11.bin
+      size: 4096
+      blob_id: 27171
+    - id: 869473
+      asset_id: 120615
+      name: loopa13.bin
+      size: 4096
+      blob_id: 27172
+    - id: 869474
+      asset_id: 120615
+      name: loopaa6.bin
+      size: 2048
+      blob_id: 27175
+    - id: 869475
+      asset_id: 120615
+      name: loopaa8.bin
+      size: 2048
+      blob_id: 27176
+    - id: 869476
+      asset_id: 120615
+      name: loopc13.bin
+      size: 4096
+      blob_id: 228852
+    - id: 869477
+      asset_id: 120615
+      name: loopvp1.bin
+      size: 32
+      blob_id: 2421
+- release:
+    id: 87862
+    game_id: 2550
+    description: ""
+    release_date: 19820000
+  names:
+  - id: 216395
+    kind: 3
+    kind_id: 87862
+    language: 1
+    name: Looping (US, set 1)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 103145
+      kind: 3
+      kind_id: 87862
+      type: 1
+      name: loopingu.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 650652
+      asset_id: 103145
+      name: 18s030.11b
+      size: 32
+      blob_id: 2421
+    - id: 650653
+      asset_id: 103145
+      name: cop420
+      size: 1024
+      blob_id: 228844
+    - id: 650654
+      asset_id: 103145
+      name: i-o.11a
+      size: 4096
+      blob_id: 27171
+    - id: 650655
+      asset_id: 103145
+      name: i-o.13a
+      size: 4096
+      blob_id: 27172
+    - id: 650656
+      asset_id: 103145
+      name: i-o.13c
+      size: 2048
+      blob_id: 27173
+    - id: 650657
+      asset_id: 103145
+      name: l056-6.9a
+      size: 8192
+      blob_id: 27174
+    - id: 650658
+      asset_id: 103145
+      name: log1-9-3.6a
+      size: 2048
+      blob_id: 27175
+    - id: 650659
+      asset_id: 103145
+      name: log2.8a
+      size: 2048
+      blob_id: 27176
+    - id: 650660
+      asset_id: 103145
+      name: vli1.2a
+      size: 8192
+      blob_id: 27177
+    - id: 650661
+      asset_id: 103145
+      name: vli3.5a
+      size: 8192
+      blob_id: 27178
+    - id: 650662
+      asset_id: 103145
+      name: vli9-5.8a
+      size: 8192
+      blob_id: 27179
+- release:
+    id: 87863
+    game_id: 2550
+    description: ""
+    release_date: 19820000
+  names:
+  - id: 216396
+    kind: 3
+    kind_id: 87863
+    language: 1
+    name: Looping (US, set 2)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 103146
+      kind: 3
+      kind_id: 87863
+      type: 1
+      name: loopingua.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 650663
+      asset_id: 103146
+      name: 18s030.11b
+      size: 32
+      blob_id: 2421
+    - id: 650664
+      asset_id: 103146
+      name: cop420
+      size: 1024
+      blob_id: 228844
+    - id: 650665
+      asset_id: 103146
+      name: i-o-v2.13c
+      size: 2048
+      blob_id: 252145
+    - id: 650666
+      asset_id: 103146
+      name: i-o.11a
+      size: 4096
+      blob_id: 27171
+    - id: 650667
+      asset_id: 103146
+      name: i-o.13a
+      size: 4096
+      blob_id: 27172
+    - id: 650668
+      asset_id: 103146
+      name: l056-6.9a
+      size: 8192
+      blob_id: 27174
+    - id: 650669
+      asset_id: 103146
+      name: log1-9-3.6a
+      size: 2048
+      blob_id: 27175
+    - id: 650670
+      asset_id: 103146
+      name: log2.8a
+      size: 2048
+      blob_id: 27176
+    - id: 650671
+      asset_id: 103146
+      name: vli-4-3
+      size: 4096
+      blob_id: 252146
+    - id: 650672
+      asset_id: 103146
+      name: vli-8-4
+      size: 4096
+      blob_id: 252147
+    - id: 650673
+      asset_id: 103146
+      name: vli3.5a
+      size: 8192
+      blob_id: 27178
+    - id: 650674
+      asset_id: 103146
+      name: vli9-5.8a
+      size: 8192
+      blob_id: 27179
+- release:
+    id: 87864
+    game_id: 2550
+    description: ""
+    release_date: 19820000
+  names:
+  - id: 216397
+    kind: 3
+    kind_id: 87864
+    language: 1
+    name: Looping (US, set 3)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 103147
+      kind: 3
+      kind_id: 87864
+      type: 1
+      name: loopingub.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 650675
+      asset_id: 103147
+      name: 11a
+      size: 4096
+      blob_id: 27171
+    - id: 650676
+      asset_id: 103147
+      name: 2v-v.13c
+      size: 4096
+      blob_id: 228852
+    - id: 650677
+      asset_id: 103147
+      name: 6a
+      size: 2048
+      blob_id: 27175
+    - id: 650678
+      asset_id: 103147
+      name: 8a
+      size: 2048
+      blob_id: 27176
+    - id: 650679
+      asset_id: 103147
+      name: cop420-njd_n
+      size: 1024
+      blob_id: 228844
+    - id: 650680
+      asset_id: 103147
+      name: lo12-1.2a
+      size: 4096
+      blob_id: 252148
+    - id: 650681
+      asset_id: 103147
+      name: lo12-2.4a
+      size: 4096
+      blob_id: 252149
+    - id: 650682
+      asset_id: 103147
+      name: lo56-5.8a
+      size: 4096
+      blob_id: 252150
+    - id: 650683
+      asset_id: 103147
+      name: lo56-6.9a
+      size: 4096
+      blob_id: 252151
+    - id: 650684
+      asset_id: 103147
+      name: tbp18s030.11b
+      size: 32
+      blob_id: 2421
+    - id: 650685
+      asset_id: 103147
+      name: v-2.13a
+      size: 4096
+      blob_id: 27172
+    - id: 650686
+      asset_id: 103147
+      name: vli-2-4.7a
+      size: 4096
+      blob_id: 252152
+    - id: 650687
+      asset_id: 103147
+      name: vli-3-7.10a
+      size: 4096
+      blob_id: 252153
+    - id: 650688
+      asset_id: 103147
+      name: vli-4-3.5a
+      size: 4096
+      blob_id: 252146
+- release:
+    id: 87865
+    game_id: 2550
+    description: ""
+    release_date: 19820000
+  names:
+  - id: 216398
+    kind: 3
+    kind_id: 87865
+    language: 1
+    name: Looping (US, set 4)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 103148
+      kind: 3
+      kind_id: 87865
+      type: 1
+      name: loopinguc.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 650689
+      asset_id: 103148
+      name: cop420-njd_n
+      size: 1024
+      blob_id: 228844
+    - id: 650690
+      asset_id: 103148
+      name: lo401.a2
+      size: 4096
+      blob_id: 252154
+    - id: 650691
+      asset_id: 103148
+      name: lo402.a4
+      size: 4096
+      blob_id: 252155
+    - id: 650692
+      asset_id: 103148
+      name: lo403.a5
+      size: 4096
+      blob_id: 252156
+    - id: 650693
+      asset_id: 103148
+      name: lo404.a7
+      size: 4096
+      blob_id: 252157
+    - id: 650694
+      asset_id: 103148
+      name: lo405.a8
+      size: 4096
+      blob_id: 252158
+    - id: 650695
+      asset_id: 103148
+      name: lo406.a9
+      size: 4096
+      blob_id: 252159
+    - id: 650696
+      asset_id: 103148
+      name: lo407.a10
+      size: 4096
+      blob_id: 252160
+    - id: 650697
+      asset_id: 103148
+      name: lo40a.a11
+      size: 4096
+      blob_id: 27171
+    - id: 650698
+      asset_id: 103148
+      name: lo40a.a13
+      size: 4096
+      blob_id: 27172
+    - id: 650699
+      asset_id: 103148
+      name: lo40a.c13
+      size: 4096
+      blob_id: 228852
+    - id: 650700
+      asset_id: 103148
+      name: tbp18s030.b11
+      size: 32
+      blob_id: 2421
+    - id: 650701
+      asset_id: 103148
+      name: video.a6
+      size: 2048
+      blob_id: 27175
+    - id: 650702
+      asset_id: 103148
+      name: video.a8
+      size: 2048
+      blob_id: 27176
+- release:
+    id: 105237
+    game_id: 2550
+    description: ""
+    release_date: 19820000
+  names:
+  - id: 241933
+    kind: 3
+    kind_id: 105237
+    language: 1
+    name: Looping (Venture Line license, set 1)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 120616
+      kind: 3
+      kind_id: 105237
+      type: 1
+      name: loopingv.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.259
+    entries:
+    - id: 869478
+      asset_id: 120616
+      name: 18s030.11b
+      size: 32
+      blob_id: 2421
+    - id: 869479
+      asset_id: 120616
+      name: cop.bin
+      size: 1024
+      blob_id: 228844
+    - id: 869480
+      asset_id: 120616
+      name: i-o.11a
+      size: 4096
+      blob_id: 27171
+    - id: 869481
+      asset_id: 120616
+      name: i-o.13a
+      size: 4096
+      blob_id: 27172
+    - id: 869482
+      asset_id: 120616
+      name: i-o.13c
+      size: 2048
+      blob_id: 27173
+    - id: 869483
+      asset_id: 120616
+      name: l056-6.9a
+      size: 8192
+      blob_id: 27174
+    - id: 869484
+      asset_id: 120616
+      name: log1-9-3.6a
+      size: 2048
+      blob_id: 27175
+    - id: 869485
+      asset_id: 120616
+      name: log2.8a
+      size: 2048
+      blob_id: 27176
+    - id: 869486
+      asset_id: 120616
+      name: vli1.2a
+      size: 8192
+      blob_id: 27177
+    - id: 869487
+      asset_id: 120616
+      name: vli3.5a
+      size: 8192
+      blob_id: 27178
+    - id: 869488
+      asset_id: 120616
+      name: vli9-5.8a
+      size: 8192
+      blob_id: 27179
+- release:
+    id: 105238
+    game_id: 2550
+    description: ""
+    release_date: 19820000
+  names:
+  - id: 241934
+    kind: 3
+    kind_id: 105238
+    language: 1
+    name: Looping (Venture Line license, set 2)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 120617
+      kind: 3
+      kind_id: 105238
+      type: 1
+      name: loopingva.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.259
+    entries:
+    - id: 869489
+      asset_id: 120617
+      name: 18s030.11b
+      size: 32
+      blob_id: 2421
+    - id: 869490
+      asset_id: 120617
+      name: cop.bin
+      size: 1024
+      blob_id: 228844
+    - id: 869491
+      asset_id: 120617
+      name: i-o-v2.13c
+      size: 2048
+      blob_id: 252145
+    - id: 869492
+      asset_id: 120617
+      name: i-o.11a
+      size: 4096
+      blob_id: 27171
+    - id: 869493
+      asset_id: 120617
+      name: i-o.13a
+      size: 4096
+      blob_id: 27172
+    - id: 869494
+      asset_id: 120617
+      name: l056-6.9a
+      size: 8192
+      blob_id: 27174
+    - id: 869495
+      asset_id: 120617
+      name: log1-9-3.6a
+      size: 2048
+      blob_id: 27175
+    - id: 869496
+      asset_id: 120617
+      name: log2.8a
+      size: 2048
+      blob_id: 27176
+    - id: 869497
+      asset_id: 120617
+      name: vli-4-3
+      size: 4096
+      blob_id: 252146
+    - id: 869498
+      asset_id: 120617
+      name: vli-8-4
+      size: 4096
+      blob_id: 252147
+    - id: 869499
+      asset_id: 120617
+      name: vli3.5a
+      size: 8192
+      blob_id: 27178
+    - id: 869500
+      asset_id: 120617
+      name: vli9-5.8a
+      size: 8192
+      blob_id: 27179

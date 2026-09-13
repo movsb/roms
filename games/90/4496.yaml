@@ -10,6 +10,12 @@ names:
   language: 1
   name: vspinbal
   source: ""
+- id: 201241
+  kind: 2
+  kind_id: 4496
+  language: 1
+  name: Vs. Pinball (Japan, set PN3 B)
+  source: mame
 game_developers: []
 game_genres: []
 assets: []
@@ -108,24 +114,10 @@ releases:
       blob_id: 85077
       debug: arcade/wheel/vspinbal.png
     entries: []
-- release:
-    id: 75181
-    game_id: 4496
-    description: ""
-    release_date: 19840000
-  names:
-  - id: 180211
-    kind: 3
-    kind_id: 75181
-    language: 1
-    name: Vs. Pinball (US, set PN4 E-1)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 88251
+      id: 117478
       kind: 3
-      kind_id: 75181
+      kind_id: 4496
       type: 1
       name: vspinbal.zip
       description: ""
@@ -134,38 +126,101 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 413270
-      asset_id: 88251
+    - id: 790214
+      asset_id: 117478
       name: mds-pn4_1__6a_e.6a
       size: 8192
       blob_id: 48945
-    - id: 413271
-      asset_id: 88251
+    - id: 790215
+      asset_id: 117478
       name: mds-pn4_1__6b_e.6b
       size: 8192
       blob_id: 48946
-    - id: 413272
-      asset_id: 88251
+    - id: 790216
+      asset_id: 117478
       name: mds-pn4_1__6c_e.6c
       size: 8192
       blob_id: 48947
-    - id: 413273
-      asset_id: 88251
+    - id: 790217
+      asset_id: 117478
       name: mds-pn4_1__6d_e.6d
       size: 8192
       blob_id: 48948
-    - id: 413274
-      asset_id: 88251
+    - id: 790218
+      asset_id: 117478
       name: mds-pn4_1__8a_e.8a
       size: 8192
       blob_id: 48949
-    - id: 413275
-      asset_id: 88251
+    - id: 790219
+      asset_id: 117478
       name: mds-pn4_1__8b_e.8b
       size: 8192
       blob_id: 48950
-    - id: 413276
-      asset_id: 88251
+    - id: 790220
+      asset_id: 117478
       name: rp2c04-0001.pal
       size: 192
       blob_id: 48916
+- release:
+    id: 101504
+    game_id: 4496
+    description: ""
+    release_date: 19840000
+  names:
+  - id: 235434
+    kind: 3
+    kind_id: 101504
+    language: 1
+    name: Vs. Pinball (Japan, set PN3 B)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 117479
+      kind: 3
+      kind_id: 101504
+      type: 1
+      name: vspinbalj.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/2586537544
+    entries:
+    - id: 790221
+      asset_id: 117479
+      name: mds-pn3 b.6a
+      size: 8192
+      blob_id: 312251
+    - id: 790222
+      asset_id: 117479
+      name: mds-pn3 b.6b
+      size: 8192
+      blob_id: 312252
+    - id: 790223
+      asset_id: 117479
+      name: mds-pn3 b.6c
+      size: 8192
+      blob_id: 312253
+    - id: 790224
+      asset_id: 117479
+      name: mds-pn3 b.6d
+      size: 8192
+      blob_id: 312254
+    - id: 790225
+      asset_id: 117479
+      name: mds-pn3 b.8a
+      size: 8192
+      blob_id: 312255
+    - id: 790226
+      asset_id: 117479
+      name: mds-pn3 b.8b
+      size: 8192
+      blob_id: 312256
+    - id: 790227
+      asset_id: 117479
+      name: rp2c0x.pal
+      size: 192
+      blob_id: 41008

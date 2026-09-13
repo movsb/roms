@@ -10,6 +10,18 @@ names:
   language: 1
   name: ELEVATOR
   source: ""
+- id: 190158
+  kind: 2
+  kind_id: 175
+  language: 1
+  name: Elevator Action (EA, 5 PCB version, 1.1)
+  source: mame
+- id: 190159
+  kind: 2
+  kind_id: 175
+  language: 1
+  name: Elevator Action (bootleg)
+  source: mame
 game_developers:
 - game_id: 175
   developer_id: 35
@@ -188,6 +200,83 @@ releases:
       blob_id: 91379
       debug: arcade/wheel/elevator.png
     entries: []
+  - asset:
+      id: 98289
+      kind: 3
+      kind_id: 175
+      type: 1
+      name: elevator.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 595998
+      asset_id: 98289
+      name: ba3__01.2764.ic1
+      size: 8192
+      blob_id: 16642
+    - id: 595999
+      asset_id: 98289
+      name: ba3__02.2764.ic2
+      size: 8192
+      blob_id: 16643
+    - id: 596000
+      asset_id: 98289
+      name: ba3__03-1.2764.ic3
+      size: 8192
+      blob_id: 16644
+    - id: 596001
+      asset_id: 98289
+      name: ba3__04-1.2764.ic6
+      size: 8192
+      blob_id: 16645
+    - id: 596002
+      asset_id: 98289
+      name: ba3__05.2764.ic4
+      size: 8192
+      blob_id: 16646
+    - id: 596003
+      asset_id: 98289
+      name: ba3__06.2764.ic5
+      size: 8192
+      blob_id: 16647
+    - id: 596004
+      asset_id: 98289
+      name: ba3__07.2764.ic9
+      size: 8192
+      blob_id: 16648
+    - id: 596005
+      asset_id: 98289
+      name: ba3__08.2764.ic10
+      size: 8192
+      blob_id: 16649
+    - id: 596006
+      asset_id: 98289
+      name: ba3__09.2732.ic70
+      size: 4096
+      blob_id: 1754
+    - id: 596007
+      asset_id: 98289
+      name: ba3__10.2732.ic71
+      size: 4096
+      blob_id: 1766
+    - id: 596008
+      asset_id: 98289
+      name: ba3__11.mc68705p3.ic24
+      size: 2048
+      blob_id: 1767
+    - id: 596009
+      asset_id: 98289
+      name: eb16.ic22
+      size: 256
+      blob_id: 1775
+    - id: 596010
+      asset_id: 98289
+      name: ww15.pal16l8.ic24.jed.bin
+      size: 279
+      blob_id: 16650
 - release:
     id: 1526
     game_id: 175
@@ -396,93 +485,264 @@ releases:
       size: 279
       blob_id: 16650
 - release:
-    id: 42105
+    id: 83380
     game_id: 175
     description: ""
     release_date: 19830000
   names:
-  - id: 115061
+  - id: 209496
     kind: 3
-    kind_id: 42105
+    kind_id: 83380
     language: 1
-    name: Elevator Action (BA3, 4 PCB version, 1.1)
+    name: Elevator Action (EA, 5 PCB version, 1.1)
     source: mame
   release_publishers: []
   assets:
   - asset:
-      id: 55175
+      id: 98290
       kind: 3
-      kind_id: 42105
+      kind_id: 83380
       type: 1
-      name: elevator.zip
+      name: elevatora.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 160416
-      asset_id: 55175
-      name: ba3__01.2764.ic1
-      size: 8192
-      blob_id: 16642
-    - id: 160417
-      asset_id: 55175
-      name: ba3__02.2764.ic2
-      size: 8192
-      blob_id: 16643
-    - id: 160418
-      asset_id: 55175
-      name: ba3__03-1.2764.ic3
-      size: 8192
-      blob_id: 16644
-    - id: 160419
-      asset_id: 55175
-      name: ba3__04-1.2764.ic6
-      size: 8192
-      blob_id: 16645
-    - id: 160420
-      asset_id: 55175
-      name: ba3__05.2764.ic4
-      size: 8192
-      blob_id: 16646
-    - id: 160421
-      asset_id: 55175
-      name: ba3__06.2764.ic5
-      size: 8192
-      blob_id: 16647
-    - id: 160422
-      asset_id: 55175
-      name: ba3__07.2764.ic9
-      size: 8192
-      blob_id: 16648
-    - id: 160423
-      asset_id: 55175
-      name: ba3__08.2764.ic10
-      size: 8192
-      blob_id: 16649
-    - id: 160424
-      asset_id: 55175
-      name: ba3__09.2732.ic70
-      size: 4096
-      blob_id: 1754
-    - id: 160425
-      asset_id: 55175
-      name: ba3__10.2732.ic71
-      size: 4096
-      blob_id: 1766
-    - id: 160426
-      asset_id: 55175
-      name: ba3__11.mc68705p3.ic24
+    - id: 596011
+      asset_id: 98290
+      name: ba3__11.mc68705p3.ic4
       size: 2048
       blob_id: 1767
-    - id: 160427
-      asset_id: 55175
+    - id: 596012
+      asset_id: 98290
+      name: ea_10.2732.ic71
+      size: 4096
+      blob_id: 1766
+    - id: 596013
+      asset_id: 98290
+      name: ea_12.2732.ic69
+      size: 4096
+      blob_id: 1773
+    - id: 596014
+      asset_id: 98290
+      name: ea_13.2732.ic68
+      size: 4096
+      blob_id: 1764
+    - id: 596015
+      asset_id: 98290
+      name: ea_14.2732.ic67
+      size: 4096
+      blob_id: 1763
+    - id: 596016
+      asset_id: 98290
+      name: ea_15.2732.ic66
+      size: 4096
+      blob_id: 1772
+    - id: 596017
+      asset_id: 98290
+      name: ea_16.2732.ic65
+      size: 4096
+      blob_id: 1761
+    - id: 596018
+      asset_id: 98290
+      name: ea_17.2732.ic64
+      size: 4096
+      blob_id: 1760
+    - id: 596019
+      asset_id: 98290
+      name: ea_18.2732.ic55
+      size: 4096
+      blob_id: 1770
+    - id: 596020
+      asset_id: 98290
+      name: ea_19.2732.ic54
+      size: 4096
+      blob_id: 1769
+    - id: 596021
+      asset_id: 98290
+      name: ea_20.2732.ic1
+      size: 4096
+      blob_id: 1768
+    - id: 596022
+      asset_id: 98290
+      name: ea_21.2732.ic2
+      size: 4096
+      blob_id: 1750
+    - id: 596023
+      asset_id: 98290
+      name: ea_22.2732.ic3
+      size: 4096
+      blob_id: 1751
+    - id: 596024
+      asset_id: 98290
+      name: ea_23.2732.ic4
+      size: 4096
+      blob_id: 1752
+    - id: 596025
+      asset_id: 98290
+      name: ea_24.2732.ic5
+      size: 4096
+      blob_id: 1753
+    - id: 596026
+      asset_id: 98290
+      name: ea_25.2732.ic6
+      size: 4096
+      blob_id: 1771
+    - id: 596027
+      asset_id: 98290
+      name: ea_26.2732.ic7
+      size: 4096
+      blob_id: 1755
+    - id: 596028
+      asset_id: 98290
+      name: ea_27.2732.ic8
+      size: 4096
+      blob_id: 1774
+    - id: 596029
+      asset_id: 98290
+      name: ea_9.2732.ic70
+      size: 4096
+      blob_id: 1754
+    - id: 596030
+      asset_id: 98290
       name: eb16.ic22
       size: 256
       blob_id: 1775
-    - id: 160428
-      asset_id: 55175
+    - id: 596031
+      asset_id: 98290
+      name: ww15.pal16l8.ic24.jed.bin
+      size: 279
+      blob_id: 16650
+- release:
+    id: 83381
+    game_id: 175
+    description: ""
+    release_date: 19830000
+  names:
+  - id: 209497
+    kind: 3
+    kind_id: 83381
+    language: 1
+    name: Elevator Action (bootleg)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 98291
+      kind: 3
+      kind_id: 83381
+      type: 1
+      name: elevatorb.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 596032
+      asset_id: 98291
+      name: ea_10.2732.ic71
+      size: 4096
+      blob_id: 1766
+    - id: 596033
+      asset_id: 98291
+      name: ea_13.2732.ic68
+      size: 4096
+      blob_id: 1764
+    - id: 596034
+      asset_id: 98291
+      name: ea_14.2732.ic67
+      size: 4096
+      blob_id: 1763
+    - id: 596035
+      asset_id: 98291
+      name: ea_16.2732.ic65
+      size: 4096
+      blob_id: 1761
+    - id: 596036
+      asset_id: 98291
+      name: ea_17.2732.ic64
+      size: 4096
+      blob_id: 1760
+    - id: 596037
+      asset_id: 98291
+      name: ea_20.2732.ic1
+      size: 4096
+      blob_id: 1768
+    - id: 596038
+      asset_id: 98291
+      name: ea_21.2732.ic2
+      size: 4096
+      blob_id: 1750
+    - id: 596039
+      asset_id: 98291
+      name: ea_22.2732.ic3
+      size: 4096
+      blob_id: 1751
+    - id: 596040
+      asset_id: 98291
+      name: ea_23.2732.ic4
+      size: 4096
+      blob_id: 1752
+    - id: 596041
+      asset_id: 98291
+      name: ea_24.2732.ic5
+      size: 4096
+      blob_id: 1753
+    - id: 596042
+      asset_id: 98291
+      name: ea_25.2732.ic6
+      size: 4096
+      blob_id: 1771
+    - id: 596043
+      asset_id: 98291
+      name: ea_26.2732.ic7
+      size: 4096
+      blob_id: 1755
+    - id: 596044
+      asset_id: 98291
+      name: ea_9.2732.ic70
+      size: 4096
+      blob_id: 1754
+    - id: 596045
+      asset_id: 98291
+      name: eabl.2732.ic52
+      size: 4096
+      blob_id: 1757
+    - id: 596046
+      asset_id: 98291
+      name: eabl_12.2732.ic69
+      size: 4096
+      blob_id: 1765
+    - id: 596047
+      asset_id: 98291
+      name: eabl_15.2732.ic66
+      size: 4096
+      blob_id: 1762
+    - id: 596048
+      asset_id: 98291
+      name: eabl_18.2732.ic55
+      size: 4096
+      blob_id: 1759
+    - id: 596049
+      asset_id: 98291
+      name: eabl_19.2732.ic54
+      size: 4096
+      blob_id: 1758
+    - id: 596050
+      asset_id: 98291
+      name: eabl_27.2732.ic8
+      size: 4096
+      blob_id: 1756
+    - id: 596051
+      asset_id: 98291
+      name: eb16.ic22
+      size: 256
+      blob_id: 1775
+    - id: 596052
+      asset_id: 98291
       name: ww15.pal16l8.ic24.jed.bin
       size: 279
       blob_id: 16650

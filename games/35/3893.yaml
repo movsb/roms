@@ -16,10 +16,44 @@ names:
   language: 2
   name: 光普 2000 (纵版, 韩版)
   source: trimui
+- id: 186827
+  kind: 2
+  kind_id: 3893
+  language: 1
+  name: firehawk
+  source: ""
+- id: 186828
+  kind: 2
+  kind_id: 3893
+  language: 2
+  name: 火鹰（横版）
+  source: ""
+- id: 186829
+  kind: 2
+  kind_id: 3893
+  language: 2
+  name: 火鹰 (世界版) / 火狐传说 (中版) (横版)
+  source: trimui
+- id: 190567
+  kind: 2
+  kind_id: 3893
+  language: 1
+  name: Fire Hawk (World) / Huohu Chuanshuo (China) (switchable orientation)
+  source: mame
+- id: 199383
+  kind: 2
+  kind_id: 3893
+  language: 1
+  name: Spectrum 2000 (horizontal, buggy) (Europe)
+  source: mame
 game_developers:
+- game_id: 3893
+  developer_id: 604
 - game_id: 3893
   developer_id: 618
 game_genres:
+- game_id: 3893
+  genre_id: 3
 - game_id: 3893
   genre_id: 39
 assets: []
@@ -139,3 +173,216 @@ releases:
       blob_id: 87437
       debug: arcade/wheel/spec2k.png
     entries: []
+- release:
+    id: 77558
+    game_id: 3893
+    description: ""
+    release_date: 20011201
+  names:
+  - id: 185162
+    kind: 3
+    kind_id: 77558
+    language: 1
+    name: firehawk
+    source: ""
+  - id: 185163
+    kind: 3
+    kind_id: 77558
+    language: 2
+    name: 火鹰 (世界版) / 火狐传说 (中版) (横版)
+    source: trimui
+  release_publishers:
+  - release_id: 77558
+    publisher_id: 504
+  assets:
+  - asset:
+      id: 1658
+      kind: 3
+      kind_id: 77558
+      type: 1
+      name: firehawk.zip
+      description: ""
+      format: 2
+      size: 2523050
+      blob_id: 0
+      debug: firehawk.zip
+    entries:
+    - id: 26288
+      asset_id: 1658
+      name: fhawk_g1.uc6
+      size: 2097152
+      blob_id: 18224
+    - id: 26289
+      asset_id: 1658
+      name: fhawk_g2.uc5
+      size: 2097152
+      blob_id: 18225
+    - id: 26290
+      asset_id: 1658
+      name: fhawk_g3.uc2
+      size: 2097152
+      blob_id: 18226
+    - id: 26291
+      asset_id: 1658
+      name: fhawk_p1.u59
+      size: 524288
+      blob_id: 18227
+    - id: 26292
+      asset_id: 1658
+      name: fhawk_p2.u60
+      size: 524288
+      blob_id: 18228
+    - id: 26293
+      asset_id: 1658
+      name: fhawk_s1.u40
+      size: 131072
+      blob_id: 18229
+    - id: 26294
+      asset_id: 1658
+      name: fhawk_s2.u36
+      size: 262144
+      blob_id: 18230
+    - id: 26295
+      asset_id: 1658
+      name: fhawk_s3.u41
+      size: 262144
+      blob_id: 18231
+- release:
+    id: 98363
+    game_id: 3893
+    description: ""
+    release_date: 20000000
+  names:
+  - id: 230965
+    kind: 3
+    kind_id: 98363
+    language: 1
+    name: Spectrum 2000 (horizontal, buggy) (Europe)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 114115
+      kind: 3
+      kind_id: 98363
+      type: 1
+      name: spec2kh.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/160004379
+    entries:
+    - id: 752429
+      asset_id: 114115
+      name: u152.bin
+      size: 2097152
+      blob_id: 301767
+    - id: 752430
+      asset_id: 114115
+      name: u153.bin
+      size: 2097152
+      blob_id: 301768
+    - id: 752431
+      asset_id: 114115
+      name: u154.bin
+      size: 2097152
+      blob_id: 301769
+    - id: 752432
+      asset_id: 114115
+      name: yonatech1.u103
+      size: 65536
+      blob_id: 301770
+    - id: 752433
+      asset_id: 114115
+      name: yonatech2.u101
+      size: 131072
+      blob_id: 301771
+    - id: 752434
+      asset_id: 114115
+      name: yonatech3.u106
+      size: 524288
+      blob_id: 301772
+    - id: 752435
+      asset_id: 114115
+      name: yonatech4.u3
+      size: 131072
+      blob_id: 301773
+    - id: 752436
+      asset_id: 114115
+      name: yonatech5.u124
+      size: 262144
+      blob_id: 301774
+    - id: 752437
+      asset_id: 114115
+      name: yonatech6.u120
+      size: 262144
+      blob_id: 301775
+- release:
+    id: 103921
+    game_id: 3893
+    description: ""
+    release_date: 20010000
+  names:
+  - id: 238897
+    kind: 3
+    kind_id: 103921
+    language: 1
+    name: Fire Hawk (World) / Huohu Chuanshuo (China) (switchable orientation)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 99012
+      kind: 3
+      kind_id: 103921
+      type: 1
+      name: firehawkv.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 604048
+      asset_id: 99012
+      name: fhawk_g1.uc6
+      size: 2097152
+      blob_id: 18224
+    - id: 604049
+      asset_id: 99012
+      name: fhawk_g2.uc5
+      size: 2097152
+      blob_id: 18225
+    - id: 604050
+      asset_id: 99012
+      name: fhawk_g3.uc2
+      size: 2097152
+      blob_id: 18226
+    - id: 604051
+      asset_id: 99012
+      name: fhawk_s1.u38
+      size: 131072
+      blob_id: 18229
+    - id: 604052
+      asset_id: 99012
+      name: fhawk_s2.u36
+      size: 262144
+      blob_id: 18230
+    - id: 604053
+      asset_id: 99012
+      name: fhawk_s3.u41
+      size: 262144
+      blob_id: 18231
+    - id: 604054
+      asset_id: 99012
+      name: fire_hawk_cn1.u53
+      size: 524288
+      blob_id: 246224
+    - id: 604055
+      asset_id: 99012
+      name: fire_hawk_cn2.u59
+      size: 524288
+      blob_id: 246225

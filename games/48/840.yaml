@@ -16,6 +16,30 @@ names:
   language: 2
   name: 大联盟足球
   source: trimui
+- id: 188403
+  kind: 2
+  kind_id: 840
+  language: 1
+  name: Best League (bootleg of Big Striker, Italian Serie A)
+  source: mame
+- id: 188404
+  kind: 2
+  kind_id: 840
+  language: 1
+  name: Best League (bootleg of Big Striker, World Cup)
+  source: mame
+- id: 188434
+  kind: 2
+  kind_id: 840
+  language: 1
+  name: Big Striker (bootleg)
+  source: mame
+- id: 188435
+  kind: 2
+  kind_id: 840
+  language: 1
+  name: Big Striker (bootleg w/Italian teams)
+  source: mame
 game_developers:
 - game_id: 840
   developer_id: 493
@@ -47,9 +71,73 @@ releases:
     publisher_id: 71
   assets:
   - asset:
-      id: 840
+      id: 42572
       kind: 3
       kind_id: 840
+      type: 4
+      name: bigstrik.png
+      description: ""
+      format: 1
+      size: 70416
+      blob_id: 86094
+      debug: arcade/downloaded_images/bigstrik.png
+    entries: []
+  - asset:
+      id: 42573
+      kind: 3
+      kind_id: 840
+      type: 6
+      name: bigstrik.mp4
+      description: ""
+      format: 1
+      size: 1893248
+      blob_id: 86095
+      debug: arcade/snap/bigstrik.mp4
+    entries: []
+  - asset:
+      id: 42574
+      kind: 3
+      kind_id: 840
+      type: 7
+      name: bigstrik.png
+      description: ""
+      format: 1
+      size: 72850
+      blob_id: 86096
+      debug: arcade/wheel/bigstrik.png
+    entries: []
+- release:
+    id: 38002
+    game_id: 840
+    description: ""
+    release_date: 19920000
+  names:
+  - id: 107101
+    kind: 3
+    kind_id: 38002
+    language: 1
+    name: Big Striker
+    source: mame
+  - id: 183992
+    kind: 3
+    kind_id: 38002
+    language: 1
+    name: bigstrik
+    source: ""
+  - id: 183993
+    kind: 3
+    kind_id: 38002
+    language: 2
+    name: 大联盟足球
+    source: trimui
+  release_publishers:
+  - release_id: 38002
+    publisher_id: 71
+  assets:
+  - asset:
+      id: 840
+      kind: 3
+      kind_id: 38002
       type: 1
       name: bigstrik.zip
       description: ""
@@ -114,57 +202,7 @@ releases:
       size: 131072
       blob_id: 8615
   - asset:
-      id: 42572
-      kind: 3
-      kind_id: 840
-      type: 4
-      name: bigstrik.png
-      description: ""
-      format: 1
-      size: 70416
-      blob_id: 86094
-      debug: arcade/downloaded_images/bigstrik.png
-    entries: []
-  - asset:
-      id: 42573
-      kind: 3
-      kind_id: 840
-      type: 6
-      name: bigstrik.mp4
-      description: ""
-      format: 1
-      size: 1893248
-      blob_id: 86095
-      debug: arcade/snap/bigstrik.mp4
-    entries: []
-  - asset:
-      id: 42574
-      kind: 3
-      kind_id: 840
-      type: 7
-      name: bigstrik.png
-      description: ""
-      format: 1
-      size: 72850
-      blob_id: 86096
-      debug: arcade/wheel/bigstrik.png
-    entries: []
-- release:
-    id: 38002
-    game_id: 840
-    description: ""
-    release_date: 19920000
-  names:
-  - id: 107101
-    kind: 3
-    kind_id: 38002
-    language: 1
-    name: Big Striker
-    source: mame
-  release_publishers: []
-  assets:
-  - asset:
-      id: 51072
+      id: 94892
       kind: 3
       kind_id: 38002
       type: 1
@@ -175,63 +213,442 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 113844
-      asset_id: 51072
+    - id: 552382
+      asset_id: 94892
       name: 82s131.12
       size: 512
       blob_id: 8605
-    - id: 113845
-      asset_id: 51072
+    - id: 552383
+      asset_id: 94892
       name: 91021-01.1
       size: 524288
       blob_id: 8606
-    - id: 113846
-      asset_id: 51072
+    - id: 552384
+      asset_id: 94892
       name: 91021-02.5
       size: 524288
       blob_id: 8607
-    - id: 113847
-      asset_id: 51072
+    - id: 552385
+      asset_id: 94892
       name: 91021-03.6
       size: 524288
       blob_id: 8608
-    - id: 113848
-      asset_id: 51072
+    - id: 552386
+      asset_id: 94892
       name: 91105v10.10
       size: 262144
       blob_id: 8609
-    - id: 113849
-      asset_id: 51072
+    - id: 552387
+      asset_id: 94892
       name: 91105v10.11
       size: 262144
       blob_id: 8610
-    - id: 113850
-      asset_id: 51072
+    - id: 552388
+      asset_id: 94892
       name: 91105v10.7
       size: 65536
       blob_id: 8611
-    - id: 113851
-      asset_id: 51072
+    - id: 552389
+      asset_id: 94892
       name: 91105v10.8
       size: 65536
       blob_id: 8612
-    - id: 113852
-      asset_id: 51072
+    - id: 552390
+      asset_id: 94892
       name: 91105v11.2
       size: 131072
       blob_id: 8613
-    - id: 113853
-      asset_id: 51072
+    - id: 552391
+      asset_id: 94892
       name: 91105v11.3
       size: 131072
       blob_id: 8614
-    - id: 113854
-      asset_id: 51072
+    - id: 552392
+      asset_id: 94892
       name: 91105v11.9
       size: 131072
       blob_id: 8615
-    - id: 113855
-      asset_id: 51072
+    - id: 552393
+      asset_id: 94892
       name: mo-91021.mcu
       size: 16384
-      blob_id: 99157
+      blob_id: 205884
+- release:
+    id: 80251
+    game_id: 840
+    description: ""
+    release_date: 19920000
+  names:
+  - id: 204725
+    kind: 3
+    kind_id: 80251
+    language: 1
+    name: Big Striker (bootleg)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 94893
+      kind: 3
+      kind_id: 80251
+      type: 1
+      name: bigstrkb.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 552394
+      asset_id: 94893
+      name: footgaa.001
+      size: 524288
+      blob_id: 205885
+    - id: 552395
+      asset_id: 94893
+      name: footgaa.002
+      size: 524288
+      blob_id: 205886
+    - id: 552396
+      asset_id: 94893
+      name: footgaa.003
+      size: 524288
+      blob_id: 205887
+    - id: 552397
+      asset_id: 94893
+      name: footgaa.004
+      size: 524288
+      blob_id: 205888
+    - id: 552398
+      asset_id: 94893
+      name: footgaa.005
+      size: 65536
+      blob_id: 205889
+    - id: 552399
+      asset_id: 94893
+      name: footgaa.006
+      size: 65536
+      blob_id: 205890
+    - id: 552400
+      asset_id: 94893
+      name: footgaa.007
+      size: 65536
+      blob_id: 205891
+    - id: 552401
+      asset_id: 94893
+      name: footgaa.008
+      size: 65536
+      blob_id: 205892
+    - id: 552402
+      asset_id: 94893
+      name: footgaa.009
+      size: 262144
+      blob_id: 205893
+    - id: 552403
+      asset_id: 94893
+      name: footgaa.010
+      size: 262144
+      blob_id: 205894
+    - id: 552404
+      asset_id: 94893
+      name: footgaa.011
+      size: 131072
+      blob_id: 205895
+    - id: 552405
+      asset_id: 94893
+      name: footgaa.012
+      size: 131072
+      blob_id: 205896
+    - id: 552406
+      asset_id: 94893
+      name: footgaa.013
+      size: 131072
+      blob_id: 205897
+    - id: 552407
+      asset_id: 94893
+      name: footgaa.014
+      size: 131072
+      blob_id: 205898
+    - id: 552408
+      asset_id: 94893
+      name: footgaa.015
+      size: 262144
+      blob_id: 205899
+    - id: 552409
+      asset_id: 94893
+      name: footgaa.016
+      size: 262144
+      blob_id: 205900
+- release:
+    id: 80252
+    game_id: 840
+    description: ""
+    release_date: 19920000
+  names:
+  - id: 204726
+    kind: 3
+    kind_id: 80252
+    language: 1
+    name: Big Striker (bootleg w/Italian teams)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 94894
+      kind: 3
+      kind_id: 80252
+      type: 1
+      name: bigstrkba.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 552410
+      asset_id: 94894
+      name: 1.bin
+      size: 524288
+      blob_id: 205901
+    - id: 552411
+      asset_id: 94894
+      name: 12.bin
+      size: 131072
+      blob_id: 205902
+    - id: 552412
+      asset_id: 94894
+      name: 15.cpu16
+      size: 262144
+      blob_id: 205903
+    - id: 552413
+      asset_id: 94894
+      name: 16.cpu17
+      size: 262144
+      blob_id: 205904
+    - id: 552414
+      asset_id: 94894
+      name: 2.bin
+      size: 524288
+      blob_id: 205905
+    - id: 552415
+      asset_id: 94894
+      name: 3.bin
+      size: 524288
+      blob_id: 205906
+    - id: 552416
+      asset_id: 94894
+      name: 4.bin
+      size: 524288
+      blob_id: 205907
+    - id: 552417
+      asset_id: 94894
+      name: 5.bin
+      size: 65536
+      blob_id: 205908
+    - id: 552418
+      asset_id: 94894
+      name: 6.bin
+      size: 65536
+      blob_id: 205909
+    - id: 552419
+      asset_id: 94894
+      name: 7.bin
+      size: 65536
+      blob_id: 205910
+    - id: 552420
+      asset_id: 94894
+      name: 8.bin
+      size: 65536
+      blob_id: 205911
+    - id: 552421
+      asset_id: 94894
+      name: footgaa.009
+      size: 262144
+      blob_id: 205893
+    - id: 552422
+      asset_id: 94894
+      name: footgaa.010
+      size: 262144
+      blob_id: 205894
+    - id: 552423
+      asset_id: 94894
+      name: footgaa.011
+      size: 131072
+      blob_id: 205895
+    - id: 552424
+      asset_id: 94894
+      name: footgaa.013
+      size: 131072
+      blob_id: 205897
+    - id: 552425
+      asset_id: 94894
+      name: footgaa.014
+      size: 131072
+      blob_id: 205898
+- release:
+    id: 103469
+    game_id: 840
+    description: ""
+    release_date: 19930000
+  names:
+  - id: 238445
+    kind: 3
+    kind_id: 103469
+    language: 1
+    name: Best League (bootleg of Big Striker, Italian Serie A)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 94827
+      kind: 3
+      kind_id: 103469
+      type: 1
+      name: bestleag.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 550920
+      asset_id: 94827
+      name: 2.bin
+      size: 131072
+      blob_id: 205671
+    - id: 550921
+      asset_id: 94827
+      name: 20_27c040.u16
+      size: 524288
+      blob_id: 205672
+    - id: 550922
+      asset_id: 94827
+      name: 27_27c010.u86
+      size: 131072
+      blob_id: 205673
+    - id: 550923
+      asset_id: 94827
+      name: 28_27c010.u85
+      size: 131072
+      blob_id: 205674
+    - id: 550924
+      asset_id: 94827
+      name: 29_27c010.u84
+      size: 131072
+      blob_id: 205675
+    - id: 550925
+      asset_id: 94827
+      name: 3.bin
+      size: 131072
+      blob_id: 205676
+    - id: 550926
+      asset_id: 94827
+      name: 30_27c010.u83
+      size: 131072
+      blob_id: 205677
+    - id: 550927
+      asset_id: 94827
+      name: 4.bin
+      size: 524288
+      blob_id: 205678
+    - id: 550928
+      asset_id: 94827
+      name: 5.bin
+      size: 524288
+      blob_id: 205679
+    - id: 550929
+      asset_id: 94827
+      name: 6.bin
+      size: 524288
+      blob_id: 205680
+    - id: 550930
+      asset_id: 94827
+      name: 7.bin
+      size: 524288
+      blob_id: 205681
+- release:
+    id: 103470
+    game_id: 840
+    description: ""
+    release_date: 19930000
+  names:
+  - id: 238446
+    kind: 3
+    kind_id: 103470
+    language: 1
+    name: Best League (bootleg of Big Striker, World Cup)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 94828
+      kind: 3
+      kind_id: 103470
+      type: 1
+      name: bestleaw.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 550931
+      asset_id: 94828
+      name: 20_27c040.u16
+      size: 524288
+      blob_id: 205672
+    - id: 550932
+      asset_id: 94828
+      name: 21_27c101.u67
+      size: 131072
+      blob_id: 205682
+    - id: 550933
+      asset_id: 94828
+      name: 22_27c010.u66
+      size: 131072
+      blob_id: 205683
+    - id: 550934
+      asset_id: 94828
+      name: 23_27c040.u36
+      size: 524288
+      blob_id: 205684
+    - id: 550935
+      asset_id: 94828
+      name: 24_27c040.u42
+      size: 524288
+      blob_id: 205685
+    - id: 550936
+      asset_id: 94828
+      name: 25_27c040.u38
+      size: 524288
+      blob_id: 205686
+    - id: 550937
+      asset_id: 94828
+      name: 26_27c4001.u45
+      size: 524288
+      blob_id: 205687
+    - id: 550938
+      asset_id: 94828
+      name: 27_27c010.u86
+      size: 131072
+      blob_id: 205673
+    - id: 550939
+      asset_id: 94828
+      name: 28_27c010.u85
+      size: 131072
+      blob_id: 205674
+    - id: 550940
+      asset_id: 94828
+      name: 29_27c010.u84
+      size: 131072
+      blob_id: 205675
+    - id: 550941
+      asset_id: 94828
+      name: 30_27c010.u83
+      size: 131072
+      blob_id: 205677
+    - id: 550942
+      asset_id: 94828
+      name: 85c060.bin
+      size: 815
+      blob_id: 205688

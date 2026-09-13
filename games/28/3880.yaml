@@ -16,6 +16,24 @@ names:
   language: 2
   name: 太空武力 (第 1 套)
   source: trimui
+- id: 193171
+  kind: 2
+  kind_id: 3880
+  language: 1
+  name: Meteoroids
+  source: mame
+- id: 193176
+  kind: 2
+  kind_id: 3880
+  language: 1
+  name: Meteors
+  source: mame
+- id: 199369
+  kind: 2
+  kind_id: 3880
+  language: 1
+  name: Space Force (set 2)
+  source: mame
 game_developers:
 - game_id: 3880
   developer_id: 531
@@ -164,24 +182,10 @@ releases:
       blob_id: 90695
       debug: arcade/wheel/spcforce.png
     entries: []
-- release:
-    id: 71490
-    game_id: 3880
-    description: ""
-    release_date: 19800000
-  names:
-  - id: 173039
-    kind: 3
-    kind_id: 71490
-    language: 1
-    name: Space Force (set 1)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 84560
+      id: 114088
       kind: 3
-      kind_id: 71490
+      kind_id: 3880
       type: 1
       name: spcforce.zip
       description: ""
@@ -190,73 +194,363 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 373432
-      asset_id: 84560
+    - id: 752069
+      asset_id: 114088
       name: bm1v2.6m
       size: 2048
       blob_id: 41617
-    - id: 373433
-      asset_id: 84560
+    - id: 752070
+      asset_id: 114088
       name: bm2v1.7m
       size: 2048
       blob_id: 41618
-    - id: 373434
-      asset_id: 84560
+    - id: 752071
+      asset_id: 114088
       name: gm1v2.6p
       size: 2048
       blob_id: 41619
-    - id: 373435
-      asset_id: 84560
+    - id: 752072
+      asset_id: 114088
       name: gm2v1.7p
       size: 2048
       blob_id: 41620
-    - id: 373436
-      asset_id: 84560
+    - id: 752073
+      asset_id: 114088
       name: m1v4f.1a
       size: 2048
       blob_id: 41621
-    - id: 373437
-      asset_id: 84560
+    - id: 752074
+      asset_id: 114088
       name: m2v4f.1c
       size: 2048
       blob_id: 41622
-    - id: 373438
-      asset_id: 84560
+    - id: 752075
+      asset_id: 114088
       name: m3v5f.2a
       size: 2048
       blob_id: 41623
-    - id: 373439
-      asset_id: 84560
+    - id: 752076
+      asset_id: 114088
       name: m4v5f.2c
       size: 2048
       blob_id: 41624
-    - id: 373440
-      asset_id: 84560
+    - id: 752077
+      asset_id: 114088
       name: m6v4f.3c
       size: 2048
       blob_id: 41625
-    - id: 373441
-      asset_id: 84560
+    - id: 752078
+      asset_id: 114088
       name: m7v4f.4a
       size: 2048
       blob_id: 41626
-    - id: 373442
-      asset_id: 84560
+    - id: 752079
+      asset_id: 114088
       name: m8v4f.4c
       size: 2048
       blob_id: 41627
-    - id: 373443
-      asset_id: 84560
+    - id: 752080
+      asset_id: 114088
       name: rm1v2.6s
       size: 2048
       blob_id: 41628
-    - id: 373444
-      asset_id: 84560
+    - id: 752081
+      asset_id: 114088
       name: rm2v1.7s
       size: 2048
       blob_id: 41629
-    - id: 373445
-      asset_id: 84560
+    - id: 752082
+      asset_id: 114088
+      name: vm5.k10
+      size: 2048
+      blob_id: 41630
+- release:
+    id: 104453
+    game_id: 3880
+    description: ""
+    release_date: 19810000
+  names:
+  - id: 239429
+    kind: 3
+    kind_id: 104453
+    language: 1
+    name: Meteoroids
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 104177
+      kind: 3
+      kind_id: 104453
+      type: 1
+      name: meteor.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 659959
+      asset_id: 104177
+      name: bm1v
+      size: 2048
+      blob_id: 236776
+    - id: 659960
+      asset_id: 104177
+      name: bm2v
+      size: 2048
+      blob_id: 236777
+    - id: 659961
+      asset_id: 104177
+      name: gm1v
+      size: 2048
+      blob_id: 236778
+    - id: 659962
+      asset_id: 104177
+      name: gm2v
+      size: 2048
+      blob_id: 236779
+    - id: 659963
+      asset_id: 104177
+      name: rm1v
+      size: 2048
+      blob_id: 236780
+    - id: 659964
+      asset_id: 104177
+      name: rm2v
+      size: 2048
+      blob_id: 236781
+    - id: 659965
+      asset_id: 104177
+      name: vm1
+      size: 2048
+      blob_id: 236782
+    - id: 659966
+      asset_id: 104177
+      name: vm2
+      size: 2048
+      blob_id: 236783
+    - id: 659967
+      asset_id: 104177
+      name: vm3
+      size: 2048
+      blob_id: 236784
+    - id: 659968
+      asset_id: 104177
+      name: vm4
+      size: 2048
+      blob_id: 236785
+    - id: 659969
+      asset_id: 104177
+      name: vm5
+      size: 2048
+      blob_id: 236786
+    - id: 659970
+      asset_id: 104177
+      name: vm6
+      size: 2048
+      blob_id: 236787
+    - id: 659971
+      asset_id: 104177
+      name: vm7
+      size: 2048
+      blob_id: 236788
+    - id: 659972
+      asset_id: 104177
+      name: vm8
+      size: 2048
+      blob_id: 236789
+- release:
+    id: 104455
+    game_id: 3880
+    description: ""
+    release_date: 0
+  names:
+  - id: 239431
+    kind: 3
+    kind_id: 104455
+    language: 1
+    name: Meteors
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 104182
+      kind: 3
+      kind_id: 104455
+      type: 1
+      name: meteors.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 660013
+      asset_id: 104182
+      name: 1hz1_2.1ab
+      size: 2048
+      blob_id: 257229
+    - id: 660014
+      asset_id: 104182
+      name: 2hz1_2.1cd
+      size: 2048
+      blob_id: 257230
+    - id: 660015
+      asset_id: 104182
+      name: 3hz1_2.2ab
+      size: 2048
+      blob_id: 257231
+    - id: 660016
+      asset_id: 104182
+      name: 4hz1_2.2cd
+      size: 2048
+      blob_id: 257232
+    - id: 660017
+      asset_id: 104182
+      name: 6hz1_2.3cd
+      size: 2048
+      blob_id: 257233
+    - id: 660018
+      asset_id: 104182
+      name: 7hz1_2.4ab
+      size: 2048
+      blob_id: 257234
+    - id: 660019
+      asset_id: 104182
+      name: bm1h1_2.6nm
+      size: 2048
+      blob_id: 257235
+    - id: 660020
+      asset_id: 104182
+      name: bm2h1_2.7nm
+      size: 2048
+      blob_id: 236777
+    - id: 660021
+      asset_id: 104182
+      name: gm1h1_2.6pr
+      size: 2048
+      blob_id: 257236
+    - id: 660022
+      asset_id: 104182
+      name: gm2h1_2.7pr
+      size: 2048
+      blob_id: 236779
+    - id: 660023
+      asset_id: 104182
+      name: mbv21_2.4cd
+      size: 2048
+      blob_id: 41627
+    - id: 660024
+      asset_id: 104182
+      name: rm1h1_2.6st
+      size: 2048
+      blob_id: 257237
+    - id: 660025
+      asset_id: 104182
+      name: rm2h1_2.7st
+      size: 2048
+      blob_id: 236781
+    - id: 660026
+      asset_id: 104182
+      name: vms.10l
+      size: 2048
+      blob_id: 236786
+- release:
+    id: 104873
+    game_id: 3880
+    description: ""
+    release_date: 0
+  names:
+  - id: 239849
+    kind: 3
+    kind_id: 104873
+    language: 1
+    name: Space Force (set 2)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 114087
+      kind: 3
+      kind_id: 104873
+      type: 1
+      name: spcforc2.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/1751954532
+    entries:
+    - id: 752055
+      asset_id: 114087
+      name: bm1v2.6m
+      size: 2048
+      blob_id: 41617
+    - id: 752056
+      asset_id: 114087
+      name: bm2v1.7m
+      size: 2048
+      blob_id: 41618
+    - id: 752057
+      asset_id: 114087
+      name: gm2v1.7p
+      size: 2048
+      blob_id: 41620
+    - id: 752058
+      asset_id: 114087
+      name: m8v4f.4c
+      size: 2048
+      blob_id: 41627
+    - id: 752059
+      asset_id: 114087
+      name: rm2v1.7s
+      size: 2048
+      blob_id: 41629
+    - id: 752060
+      asset_id: 114087
+      name: spacefor.1a
+      size: 2048
+      blob_id: 301644
+    - id: 752061
+      asset_id: 114087
+      name: spacefor.1c
+      size: 2048
+      blob_id: 301645
+    - id: 752062
+      asset_id: 114087
+      name: spacefor.2a
+      size: 2048
+      blob_id: 301646
+    - id: 752063
+      asset_id: 114087
+      name: spacefor.3c
+      size: 2048
+      blob_id: 301647
+    - id: 752064
+      asset_id: 114087
+      name: spacefor.4a
+      size: 2048
+      blob_id: 301648
+    - id: 752065
+      asset_id: 114087
+      name: spacefor.6p
+      size: 2048
+      blob_id: 301649
+    - id: 752066
+      asset_id: 114087
+      name: spacefor.6s
+      size: 2048
+      blob_id: 301650
+    - id: 752067
+      asset_id: 114087
+      name: vm4
+      size: 2048
+      blob_id: 236785
+    - id: 752068
+      asset_id: 114087
       name: vm5.k10
       size: 2048
       blob_id: 41630

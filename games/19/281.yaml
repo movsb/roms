@@ -16,6 +16,66 @@ names:
   language: 2
   name: 月球营救
   source: trimui
+- id: 186589
+  kind: 2
+  kind_id: 281
+  language: 1
+  name: DESTERTH
+  source: ""
+- id: 186590
+  kind: 2
+  kind_id: 281
+  language: 2
+  name: 目标地球 (D版 月球营救)
+  source: trimui
+- id: 190209
+  kind: 2
+  kind_id: 281
+  language: 1
+  name: Escape from Mars (bootleg of Lunar Rescue)
+  source: mame
+- id: 191356
+  kind: 2
+  kind_id: 281
+  language: 1
+  name: Galaxy Rescue
+  source: mame
+- id: 192705
+  kind: 2
+  kind_id: 281
+  language: 1
+  name: Lunar Rescue (Artic bootleg)
+  source: mame
+- id: 192706
+  kind: 2
+  kind_id: 281
+  language: 1
+  name: Lunar Rescue (Model Racing bootleg, set 1)
+  source: mame
+- id: 192707
+  kind: 2
+  kind_id: 281
+  language: 1
+  name: Lunar Rescue (Model Racing bootleg, set 2)
+  source: mame
+- id: 193380
+  kind: 2
+  kind_id: 281
+  language: 1
+  name: Moon Lander (bootleg of Lunar Rescue, set 1)
+  source: mame
+- id: 193381
+  kind: 2
+  kind_id: 281
+  language: 1
+  name: Moon Lander (bootleg of Lunar Rescue, set 2)
+  source: mame
+- id: 195629
+  kind: 2
+  kind_id: 281
+  language: 1
+  name: Rescate Lunar (Spanish bootleg of Lunar Rescue)
+  source: mame
 game_developers:
 - game_id: 281
   developer_id: 35
@@ -129,24 +189,10 @@ releases:
       blob_id: 88243
       debug: arcade/wheel/lrescue.png
     entries: []
-- release:
-    id: 49720
-    game_id: 281
-    description: ""
-    release_date: 19790000
-  names:
-  - id: 129941
-    kind: 3
-    kind_id: 49720
-    language: 1
-    name: Lunar Rescue
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 62790
+      id: 103185
       kind: 3
-      kind_id: 49720
+      kind_id: 281
       type: 1
       name: lrescue.zip
       description: ""
@@ -155,38 +201,683 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 227446
-      asset_id: 62790
+    - id: 651416
+      asset_id: 103185
       name: 7643-1.cpu
       size: 1024
-      blob_id: 108601
-    - id: 227447
-      asset_id: 62790
+      blob_id: 228991
+    - id: 651417
+      asset_id: 103185
       name: lrescue.1
       size: 2048
       blob_id: 2708
-    - id: 227448
-      asset_id: 62790
+    - id: 651418
+      asset_id: 103185
       name: lrescue.2
       size: 2048
       blob_id: 2712
-    - id: 227449
-      asset_id: 62790
+    - id: 651419
+      asset_id: 103185
       name: lrescue.3
       size: 2048
       blob_id: 2711
-    - id: 227450
-      asset_id: 62790
+    - id: 651420
+      asset_id: 103185
       name: lrescue.4
       size: 2048
       blob_id: 2710
-    - id: 227451
-      asset_id: 62790
+    - id: 651421
+      asset_id: 103185
       name: lrescue.5
       size: 2048
       blob_id: 2709
-    - id: 227452
-      asset_id: 62790
+    - id: 651422
+      asset_id: 103185
+      name: lrescue.6
+      size: 2048
+      blob_id: 2713
+- release:
+    id: 87899
+    game_id: 281
+    description: ""
+    release_date: 19790000
+  names:
+  - id: 216450
+    kind: 3
+    kind_id: 87899
+    language: 1
+    name: Lunar Rescue (Artic bootleg)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 103186
+      kind: 3
+      kind_id: 87899
+      type: 1
+      name: lrescueabl.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 651423
+      asset_id: 103186
+      name: "2708_1.1"
+      size: 1024
+      blob_id: 228992
+    - id: 651424
+      asset_id: 103186
+      name: "2708_10.10"
+      size: 1024
+      blob_id: 228993
+    - id: 651425
+      asset_id: 103186
+      name: "2708_11.11"
+      size: 1024
+      blob_id: 228994
+    - id: 651426
+      asset_id: 103186
+      name: "2708_12.12"
+      size: 1024
+      blob_id: 228995
+    - id: 651427
+      asset_id: 103186
+      name: "2708_2.2"
+      size: 1024
+      blob_id: 228996
+    - id: 651428
+      asset_id: 103186
+      name: "2708_3.3"
+      size: 1024
+      blob_id: 228997
+    - id: 651429
+      asset_id: 103186
+      name: "2708_4.4"
+      size: 1024
+      blob_id: 228998
+    - id: 651430
+      asset_id: 103186
+      name: "2708_5.5"
+      size: 1024
+      blob_id: 228999
+    - id: 651431
+      asset_id: 103186
+      name: "2708_6.6"
+      size: 1024
+      blob_id: 229000
+    - id: 651432
+      asset_id: 103186
+      name: "2708_7.7"
+      size: 1024
+      blob_id: 229001
+    - id: 651433
+      asset_id: 103186
+      name: "2708_8.8"
+      size: 1024
+      blob_id: 229002
+    - id: 651434
+      asset_id: 103186
+      name: "2708_9.9"
+      size: 1024
+      blob_id: 229003
+    - id: 651435
+      asset_id: 103186
+      name: cv01-7643.2c
+      size: 1024
+      blob_id: 31984
+    - id: 651436
+      asset_id: 103186
+      name: cv02-7643.1c
+      size: 1024
+      blob_id: 31985
+- release:
+    id: 87900
+    game_id: 281
+    description: ""
+    release_date: 19790000
+  names:
+  - id: 216451
+    kind: 3
+    kind_id: 87900
+    language: 1
+    name: Lunar Rescue (Model Racing bootleg, set 1)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 103187
+      kind: 3
+      kind_id: 87900
+      type: 1
+      name: lrescuem.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 651437
+      asset_id: 103187
+      name: 48.ic36
+      size: 1024
+      blob_id: 229004
+    - id: 651438
+      asset_id: 103187
+      name: 49.ic35
+      size: 1024
+      blob_id: 229005
+    - id: 651439
+      asset_id: 103187
+      name: 50.ic34
+      size: 1024
+      blob_id: 228997
+    - id: 651440
+      asset_id: 103187
+      name: 51.ic33
+      size: 1024
+      blob_id: 228998
+    - id: 651441
+      asset_id: 103187
+      name: 52.ic32
+      size: 1024
+      blob_id: 228999
+    - id: 651442
+      asset_id: 103187
+      name: 53.ic31
+      size: 1024
+      blob_id: 229000
+    - id: 651443
+      asset_id: 103187
+      name: 54.ic42
+      size: 1024
+      blob_id: 229006
+    - id: 651444
+      asset_id: 103187
+      name: 55.ic41
+      size: 1024
+      blob_id: 229007
+    - id: 651445
+      asset_id: 103187
+      name: 56.ic40
+      size: 1024
+      blob_id: 229003
+    - id: 651446
+      asset_id: 103187
+      name: 57.ic39
+      size: 1024
+      blob_id: 228993
+    - id: 651447
+      asset_id: 103187
+      name: 58.ic38
+      size: 1024
+      blob_id: 228994
+    - id: 651448
+      asset_id: 103187
+      name: 59.ic37
+      size: 1024
+      blob_id: 228995
+    - id: 651449
+      asset_id: 103187
+      name: cv01-7643.2c
+      size: 1024
+      blob_id: 31984
+    - id: 651450
+      asset_id: 103187
+      name: cv02-7643.1c
+      size: 1024
+      blob_id: 31985
+- release:
+    id: 87901
+    game_id: 281
+    description: ""
+    release_date: 19790000
+  names:
+  - id: 216452
+    kind: 3
+    kind_id: 87901
+    language: 1
+    name: Lunar Rescue (Model Racing bootleg, set 2)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 103188
+      kind: 3
+      kind_id: 87901
+      type: 1
+      name: lrescuem2.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 651451
+      asset_id: 103188
+      name: 0.bin
+      size: 2048
+      blob_id: 229008
+    - id: 651452
+      asset_id: 103188
+      name: 1.bin
+      size: 2048
+      blob_id: 229009
+    - id: 651453
+      asset_id: 103188
+      name: 2.bin
+      size: 2048
+      blob_id: 229010
+    - id: 651454
+      asset_id: 103188
+      name: 3.bin
+      size: 2048
+      blob_id: 229011
+    - id: 651455
+      asset_id: 103188
+      name: 4.bin
+      size: 2048
+      blob_id: 229012
+    - id: 651456
+      asset_id: 103188
+      name: 5.bin
+      size: 2048
+      blob_id: 229013
+    - id: 651457
+      asset_id: 103188
+      name: 6.bin
+      size: 2048
+      blob_id: 229014
+    - id: 651458
+      asset_id: 103188
+      name: cv01-7643.2c
+      size: 1024
+      blob_id: 31984
+    - id: 651459
+      asset_id: 103188
+      name: cv02-7643.1c
+      size: 1024
+      blob_id: 31985
+- release:
+    id: 89267
+    game_id: 281
+    description: ""
+    release_date: 19800000
+  names:
+  - id: 218570
+    kind: 3
+    kind_id: 89267
+    language: 1
+    name: Moon Lander (bootleg of Lunar Rescue, set 1)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 104617
+      kind: 3
+      kind_id: 89267
+      type: 1
+      name: mlander.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 664236
+      asset_id: 104617
+      name: 01.bin
+      size: 1024
+      blob_id: 31984
+    - id: 664237
+      asset_id: 104617
+      name: 02.bin
+      size: 1024
+      blob_id: 31985
+    - id: 664238
+      asset_id: 104617
+      name: ml1.u36
+      size: 2048
+      blob_id: 257722
+    - id: 664239
+      asset_id: 104617
+      name: ml2.u35
+      size: 2048
+      blob_id: 257723
+    - id: 664240
+      asset_id: 104617
+      name: ml3.u34
+      size: 2048
+      blob_id: 257724
+    - id: 664241
+      asset_id: 104617
+      name: ml4.u33
+      size: 2048
+      blob_id: 257725
+    - id: 664242
+      asset_id: 104617
+      name: ml5.u32
+      size: 2048
+      blob_id: 257726
+    - id: 664243
+      asset_id: 104617
+      name: ml6.u31
+      size: 2048
+      blob_id: 2713
+- release:
+    id: 89268
+    game_id: 281
+    description: ""
+    release_date: 19800000
+  names:
+  - id: 218571
+    kind: 3
+    kind_id: 89268
+    language: 1
+    name: Moon Lander (bootleg of Lunar Rescue, set 2)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 104618
+      kind: 3
+      kind_id: 89268
+      type: 1
+      name: mlandera.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 664244
+      asset_id: 104618
+      name: cv01.bin
+      size: 1024
+      blob_id: 31984
+    - id: 664245
+      asset_id: 104618
+      name: cv02.bin
+      size: 1024
+      blob_id: 31985
+    - id: 664246
+      asset_id: 104618
+      name: ml-1_u36.u36
+      size: 2048
+      blob_id: 2708
+    - id: 664247
+      asset_id: 104618
+      name: ml-2_u35.u35
+      size: 2048
+      blob_id: 257727
+    - id: 664248
+      asset_id: 104618
+      name: ml-3_u34.u34
+      size: 2048
+      blob_id: 257724
+    - id: 664249
+      asset_id: 104618
+      name: ml-4_u33.u33
+      size: 2048
+      blob_id: 257725
+    - id: 664250
+      asset_id: 104618
+      name: ml-5_u32_rev_d.u32
+      size: 2048
+      blob_id: 257728
+    - id: 664251
+      asset_id: 104618
+      name: ml-6_u31.u31
+      size: 2048
+      blob_id: 2713
+- release:
+    id: 93521
+    game_id: 281
+    description: ""
+    release_date: 19800000
+  names:
+  - id: 224943
+    kind: 3
+    kind_id: 93521
+    language: 1
+    name: Rescate Lunar (Spanish bootleg of Lunar Rescue)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 109093
+      kind: 3
+      kind_id: 93521
+      type: 1
+      name: resclunar.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 713820
+      asset_id: 109093
+      name: 1-2716.h1
+      size: 2048
+      blob_id: 269764
+    - id: 713821
+      asset_id: 109093
+      name: 2-2516.g1
+      size: 2048
+      blob_id: 269765
+    - id: 713822
+      asset_id: 109093
+      name: 3-2716.f1
+      size: 2048
+      blob_id: 269766
+    - id: 713823
+      asset_id: 109093
+      name: 4-2716.e1
+      size: 2048
+      blob_id: 269767
+    - id: 713824
+      asset_id: 109093
+      name: 5-2716.d1
+      size: 2048
+      blob_id: 269768
+    - id: 713825
+      asset_id: 109093
+      name: 6-8516.c1
+      size: 2048
+      blob_id: 269769
+    - id: 713826
+      asset_id: 109093
+      name: 7-2516.b1
+      size: 2048
+      blob_id: 269770
+- release:
+    id: 102830
+    game_id: 281
+    description: ""
+    release_date: 0
+  names:
+  - id: 237446
+    kind: 3
+    kind_id: 102830
+    language: 1
+    name: DESTERTH
+    source: ""
+  - id: 237447
+    kind: 3
+    kind_id: 102830
+    language: 2
+    name: 目标地球 (D版 月球营救)
+    source: trimui
+  release_publishers: []
+  assets:
+  - asset:
+      id: 97466
+      kind: 3
+      kind_id: 102830
+      type: 1
+      name: desterth.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 586123
+      asset_id: 97466
+      name: 31_c.bin
+      size: 2048
+      blob_id: 1522
+    - id: 586124
+      asset_id: 97466
+      name: 32_d.bin
+      size: 2048
+      blob_id: 1523
+    - id: 586125
+      asset_id: 97466
+      name: 33_e.bin
+      size: 2048
+      blob_id: 1524
+    - id: 586126
+      asset_id: 97466
+      name: 34_f.bin
+      size: 2048
+      blob_id: 1525
+    - id: 586127
+      asset_id: 97466
+      name: 35_g.bin
+      size: 2048
+      blob_id: 1526
+    - id: 586128
+      asset_id: 97466
+      name: 36_h.bin
+      size: 2048
+      blob_id: 1527
+    - id: 586129
+      asset_id: 97466
+      name: 42_b.bin
+      size: 2048
+      blob_id: 1521
+    - id: 586130
+      asset_id: 97466
+      name: 7643-1.cpu
+      size: 1024
+      blob_id: 228991
+- release:
+    id: 103833
+    game_id: 281
+    description: ""
+    release_date: 19800000
+  names:
+  - id: 238809
+    kind: 3
+    kind_id: 103833
+    language: 1
+    name: Escape from Mars (bootleg of Lunar Rescue)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 98433
+      kind: 3
+      kind_id: 103833
+      type: 1
+      name: escmars.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 597600
+      asset_id: 98433
+      name: 2516_em.m5
+      size: 2048
+      blob_id: 245397
+    - id: 597601
+      asset_id: 98433
+      name: 2516_em.p5
+      size: 2048
+      blob_id: 2711
+    - id: 597602
+      asset_id: 98433
+      name: 2516_em.r5
+      size: 2048
+      blob_id: 245398
+    - id: 597603
+      asset_id: 98433
+      name: 2716_em.n5
+      size: 2048
+      blob_id: 2712
+    - id: 597604
+      asset_id: 98433
+      name: 2716_em.s5
+      size: 2048
+      blob_id: 245399
+    - id: 597605
+      asset_id: 98433
+      name: 2716_em.t5
+      size: 2048
+      blob_id: 2713
+- release:
+    id: 104068
+    game_id: 281
+    description: ""
+    release_date: 19790000
+  names:
+  - id: 239044
+    kind: 3
+    kind_id: 104068
+    language: 1
+    name: Galaxy Rescue
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 100396
+      kind: 3
+      kind_id: 104068
+      type: 1
+      name: grescue.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 619900
+      asset_id: 100396
+      name: 7643-1.cpu
+      size: 1024
+      blob_id: 228991
+    - id: 619901
+      asset_id: 100396
+      name: grescue.4
+      size: 2048
+      blob_id: 248068
+    - id: 619902
+      asset_id: 100396
+      name: grescue.5
+      size: 2048
+      blob_id: 248069
+    - id: 619903
+      asset_id: 100396
+      name: lrescue.1
+      size: 2048
+      blob_id: 2708
+    - id: 619904
+      asset_id: 100396
+      name: lrescue.2
+      size: 2048
+      blob_id: 2712
+    - id: 619905
+      asset_id: 100396
+      name: lrescue.3
+      size: 2048
+      blob_id: 2711
+    - id: 619906
+      asset_id: 100396
       name: lrescue.6
       size: 2048
       blob_id: 2713

@@ -10,6 +10,18 @@ names:
   language: 1
   name: finalb
   source: ""
+- id: 190551
+  kind: 2
+  kind_id: 1649
+  language: 1
+  name: Final Blow (Japan)
+  source: mame
+- id: 190553
+  kind: 2
+  kind_id: 1649
+  language: 1
+  name: Final Blow (US, rev 1)
+  source: mame
 game_developers:
 - game_id: 1649
   developer_id: 35
@@ -40,93 +52,6 @@ releases:
   - release_id: 1649
     publisher_id: 306
   assets:
-  - asset:
-      id: 1649
-      kind: 3
-      kind_id: 1649
-      type: 1
-      name: finalb.zip
-      description: ""
-      format: 2
-      size: 1506756
-      blob_id: 0
-      debug: finalb.zip
-    entries:
-    - id: 26113
-      asset_id: 1649
-      name: b82-01.2
-      size: 524288
-      blob_id: 18097
-    - id: 26114
-      asset_id: 1649
-      name: b82-02.1
-      size: 524288
-      blob_id: 18098
-    - id: 26115
-      asset_id: 1649
-      name: b82-03.5
-      size: 524288
-      blob_id: 18099
-    - id: 26116
-      asset_id: 1649
-      name: b82-04.4
-      size: 524288
-      blob_id: 18100
-    - id: 26117
-      asset_id: 1649
-      name: b82-05.3
-      size: 524288
-      blob_id: 18101
-    - id: 26118
-      asset_id: 1649
-      name: b82-06.19
-      size: 131072
-      blob_id: 18102
-    - id: 26119
-      asset_id: 1649
-      name: b82-07.18
-      size: 131072
-      blob_id: 18103
-    - id: 26120
-      asset_id: 1649
-      name: b82-09.10
-      size: 131072
-      blob_id: 18104
-    - id: 26121
-      asset_id: 1649
-      name: b82-17.11
-      size: 131072
-      blob_id: 18105
-    - id: 26122
-      asset_id: 1649
-      name: b82_10.16
-      size: 65536
-      blob_id: 18106
-    - id: 26123
-      asset_id: 1649
-      name: gal16v8.ic13
-      size: 279
-      blob_id: 18107
-    - id: 26124
-      asset_id: 1649
-      name: gal16v8.ic35
-      size: 279
-      blob_id: 18108
-    - id: 26125
-      asset_id: 1649
-      name: tibpal16l8.ic41
-      size: 260
-      blob_id: 18109
-    - id: 26126
-      asset_id: 1649
-      name: tibpal16l8.ic42
-      size: 260
-      blob_id: 18110
-    - id: 26127
-      asset_id: 1649
-      name: tibpal16l8.ic51
-      size: 260
-      blob_id: 18111
   - asset:
       id: 43672
       kind: 3
@@ -297,10 +222,111 @@ releases:
     language: 1
     name: Final Blow (World)
     source: mame
-  release_publishers: []
+  - id: 184024
+    kind: 3
+    kind_id: 43669
+    language: 1
+    name: finalb
+    source: ""
+  - id: 184025
+    kind: 3
+    kind_id: 43669
+    language: 2
+    name: 最终打击 (世界版)
+    source: trimui
+  release_publishers:
+  - release_id: 43669
+    publisher_id: 306
   assets:
   - asset:
-      id: 56739
+      id: 1649
+      kind: 3
+      kind_id: 43669
+      type: 1
+      name: finalb.zip
+      description: ""
+      format: 2
+      size: 1506756
+      blob_id: 0
+      debug: finalb.zip
+    entries:
+    - id: 26113
+      asset_id: 1649
+      name: b82-01.2
+      size: 524288
+      blob_id: 18097
+    - id: 26114
+      asset_id: 1649
+      name: b82-02.1
+      size: 524288
+      blob_id: 18098
+    - id: 26115
+      asset_id: 1649
+      name: b82-03.5
+      size: 524288
+      blob_id: 18099
+    - id: 26116
+      asset_id: 1649
+      name: b82-04.4
+      size: 524288
+      blob_id: 18100
+    - id: 26117
+      asset_id: 1649
+      name: b82-05.3
+      size: 524288
+      blob_id: 18101
+    - id: 26118
+      asset_id: 1649
+      name: b82-06.19
+      size: 131072
+      blob_id: 18102
+    - id: 26119
+      asset_id: 1649
+      name: b82-07.18
+      size: 131072
+      blob_id: 18103
+    - id: 26120
+      asset_id: 1649
+      name: b82-09.10
+      size: 131072
+      blob_id: 18104
+    - id: 26121
+      asset_id: 1649
+      name: b82-17.11
+      size: 131072
+      blob_id: 18105
+    - id: 26122
+      asset_id: 1649
+      name: b82_10.16
+      size: 65536
+      blob_id: 18106
+    - id: 26123
+      asset_id: 1649
+      name: gal16v8.ic13
+      size: 279
+      blob_id: 18107
+    - id: 26124
+      asset_id: 1649
+      name: gal16v8.ic35
+      size: 279
+      blob_id: 18108
+    - id: 26125
+      asset_id: 1649
+      name: tibpal16l8.ic41
+      size: 260
+      blob_id: 18109
+    - id: 26126
+      asset_id: 1649
+      name: tibpal16l8.ic42
+      size: 260
+      blob_id: 18110
+    - id: 26127
+      asset_id: 1649
+      name: tibpal16l8.ic51
+      size: 260
+      blob_id: 18111
+  - asset:
+      id: 98982
       kind: 3
       kind_id: 43669
       type: 1
@@ -311,78 +337,454 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 171198
-      asset_id: 56739
+    - id: 603349
+      asset_id: 98982
       name: b82-01.ic2
       size: 524288
       blob_id: 18097
-    - id: 171199
-      asset_id: 56739
+    - id: 603350
+      asset_id: 98982
       name: b82-02.ic1
       size: 524288
       blob_id: 18098
-    - id: 171200
-      asset_id: 56739
+    - id: 603351
+      asset_id: 98982
       name: b82-03.ic9
       size: 524288
       blob_id: 18099
-    - id: 171201
-      asset_id: 56739
+    - id: 603352
+      asset_id: 98982
       name: b82-04.ic8
       size: 524288
       blob_id: 18100
-    - id: 171202
-      asset_id: 56739
+    - id: 603353
+      asset_id: 98982
       name: b82-05.ic7
       size: 524288
       blob_id: 18101
-    - id: 171203
-      asset_id: 56739
+    - id: 603354
+      asset_id: 98982
       name: b82-06.ic33
       size: 131072
       blob_id: 18102
-    - id: 171204
-      asset_id: 56739
+    - id: 603355
+      asset_id: 98982
       name: b82-07.ic34
       size: 131072
       blob_id: 18103
-    - id: 171205
-      asset_id: 56739
+    - id: 603356
+      asset_id: 98982
       name: b82-09.ic23
       size: 131072
       blob_id: 18104
-    - id: 171206
-      asset_id: 56739
+    - id: 603357
+      asset_id: 98982
       name: b82-17.ic11
       size: 131072
       blob_id: 18105
-    - id: 171207
-      asset_id: 56739
+    - id: 603358
+      asset_id: 98982
       name: b82_10.ic5
       size: 65536
       blob_id: 18106
-    - id: 171208
-      asset_id: 56739
+    - id: 603359
+      asset_id: 98982
       name: gal16v8.ic13
       size: 279
       blob_id: 18107
-    - id: 171209
-      asset_id: 56739
+    - id: 603360
+      asset_id: 98982
       name: gal16v8.ic35
       size: 279
       blob_id: 18108
-    - id: 171210
-      asset_id: 56739
+    - id: 603361
+      asset_id: 98982
       name: tibpal16l8.ic41
       size: 260
       blob_id: 18109
-    - id: 171211
-      asset_id: 56739
+    - id: 603362
+      asset_id: 98982
       name: tibpal16l8.ic42
       size: 260
       blob_id: 18110
-    - id: 171212
-      asset_id: 56739
+    - id: 603363
+      asset_id: 98982
+      name: tibpal16l8.ic51
+      size: 260
+      blob_id: 18111
+- release:
+    id: 84022
+    game_id: 1649
+    description: ""
+    release_date: 19880000
+  names:
+  - id: 210473
+    kind: 3
+    kind_id: 84022
+    language: 1
+    name: Final Blow (Japan)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 98983
+      kind: 3
+      kind_id: 84022
+      type: 1
+      name: finalbj.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 603364
+      asset_id: 98983
+      name: b82-01.ic2
+      size: 524288
+      blob_id: 18097
+    - id: 603365
+      asset_id: 98983
+      name: b82-02.ic1
+      size: 524288
+      blob_id: 18098
+    - id: 603366
+      asset_id: 98983
+      name: b82-03.ic9
+      size: 524288
+      blob_id: 18099
+    - id: 603367
+      asset_id: 98983
+      name: b82-04.ic8
+      size: 524288
+      blob_id: 18100
+    - id: 603368
+      asset_id: 98983
+      name: b82-05.ic7
+      size: 524288
+      blob_id: 18101
+    - id: 603369
+      asset_id: 98983
+      name: b82-06.ic33
+      size: 131072
+      blob_id: 18102
+    - id: 603370
+      asset_id: 98983
+      name: b82-07.ic34
+      size: 131072
+      blob_id: 18103
+    - id: 603371
+      asset_id: 98983
+      name: b82-08.ic11
+      size: 131072
+      blob_id: 18112
+    - id: 603372
+      asset_id: 98983
+      name: b82-09.ic23
+      size: 131072
+      blob_id: 18104
+    - id: 603373
+      asset_id: 98983
+      name: b82_10.ic5
+      size: 65536
+      blob_id: 18106
+    - id: 603374
+      asset_id: 98983
+      name: gal16v8.ic13
+      size: 279
+      blob_id: 18107
+    - id: 603375
+      asset_id: 98983
+      name: gal16v8.ic35
+      size: 279
+      blob_id: 18108
+    - id: 603376
+      asset_id: 98983
+      name: tibpal16l8.ic41
+      size: 260
+      blob_id: 18109
+    - id: 603377
+      asset_id: 98983
+      name: tibpal16l8.ic42
+      size: 260
+      blob_id: 18110
+    - id: 603378
+      asset_id: 98983
+      name: tibpal16l8.ic51
+      size: 260
+      blob_id: 18111
+  - asset:
+      id: 118774
+      kind: 3
+      kind_id: 84022
+      type: 1
+      name: finalbj.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 812260
+      asset_id: 118774
+      name: b82-01.2
+      size: 524288
+      blob_id: 18097
+    - id: 812261
+      asset_id: 118774
+      name: b82-02.1
+      size: 524288
+      blob_id: 18098
+    - id: 812262
+      asset_id: 118774
+      name: b82-03.5
+      size: 524288
+      blob_id: 18099
+    - id: 812263
+      asset_id: 118774
+      name: b82-04.4
+      size: 524288
+      blob_id: 18100
+    - id: 812264
+      asset_id: 118774
+      name: b82-05.3
+      size: 524288
+      blob_id: 18101
+    - id: 812265
+      asset_id: 118774
+      name: b82-06.19
+      size: 131072
+      blob_id: 18102
+    - id: 812266
+      asset_id: 118774
+      name: b82-07.18
+      size: 131072
+      blob_id: 18103
+    - id: 812267
+      asset_id: 118774
+      name: b82-08.11
+      size: 131072
+      blob_id: 18112
+    - id: 812268
+      asset_id: 118774
+      name: b82-09.10
+      size: 131072
+      blob_id: 18104
+    - id: 812269
+      asset_id: 118774
+      name: b82_10.16
+      size: 65536
+      blob_id: 18106
+    - id: 812270
+      asset_id: 118774
+      name: gal16v8.ic13
+      size: 279
+      blob_id: 18107
+    - id: 812271
+      asset_id: 118774
+      name: gal16v8.ic35
+      size: 279
+      blob_id: 18108
+    - id: 812272
+      asset_id: 118774
+      name: tibpal16l8.ic41
+      size: 260
+      blob_id: 18109
+    - id: 812273
+      asset_id: 118774
+      name: tibpal16l8.ic42
+      size: 260
+      blob_id: 18110
+    - id: 812274
+      asset_id: 118774
+      name: tibpal16l8.ic51
+      size: 260
+      blob_id: 18111
+- release:
+    id: 84024
+    game_id: 1649
+    description: ""
+    release_date: 19880000
+  names:
+  - id: 210476
+    kind: 3
+    kind_id: 84024
+    language: 1
+    name: Final Blow (US, rev 1)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 98985
+      kind: 3
+      kind_id: 84024
+      type: 1
+      name: finalbu.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 603398
+      asset_id: 98985
+      name: b82-01.ic2
+      size: 524288
+      blob_id: 18097
+    - id: 603399
+      asset_id: 98985
+      name: b82-02.ic1
+      size: 524288
+      blob_id: 18098
+    - id: 603400
+      asset_id: 98985
+      name: b82-03.ic9
+      size: 524288
+      blob_id: 18099
+    - id: 603401
+      asset_id: 98985
+      name: b82-04.ic8
+      size: 524288
+      blob_id: 18100
+    - id: 603402
+      asset_id: 98985
+      name: b82-05.ic7
+      size: 524288
+      blob_id: 18101
+    - id: 603403
+      asset_id: 98985
+      name: b82-06.ic33
+      size: 131072
+      blob_id: 18102
+    - id: 603404
+      asset_id: 98985
+      name: b82-07.ic34
+      size: 131072
+      blob_id: 18103
+    - id: 603405
+      asset_id: 98985
+      name: b82-09-1.ic23
+      size: 131072
+      blob_id: 18113
+    - id: 603406
+      asset_id: 98985
+      name: b82-16-1.ic11
+      size: 131072
+      blob_id: 18114
+    - id: 603407
+      asset_id: 98985
+      name: b82_10.ic5
+      size: 65536
+      blob_id: 18106
+    - id: 603408
+      asset_id: 98985
+      name: gal16v8.ic13
+      size: 279
+      blob_id: 18107
+    - id: 603409
+      asset_id: 98985
+      name: gal16v8.ic35
+      size: 279
+      blob_id: 18108
+    - id: 603410
+      asset_id: 98985
+      name: tibpal16l8.ic41
+      size: 260
+      blob_id: 18109
+    - id: 603411
+      asset_id: 98985
+      name: tibpal16l8.ic42
+      size: 260
+      blob_id: 18110
+    - id: 603412
+      asset_id: 98985
+      name: tibpal16l8.ic51
+      size: 260
+      blob_id: 18111
+  - asset:
+      id: 118775
+      kind: 3
+      kind_id: 84024
+      type: 1
+      name: finalbu.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 812275
+      asset_id: 118775
+      name: b82-01.2
+      size: 524288
+      blob_id: 18097
+    - id: 812276
+      asset_id: 118775
+      name: b82-02.1
+      size: 524288
+      blob_id: 18098
+    - id: 812277
+      asset_id: 118775
+      name: b82-03.5
+      size: 524288
+      blob_id: 18099
+    - id: 812278
+      asset_id: 118775
+      name: b82-04.4
+      size: 524288
+      blob_id: 18100
+    - id: 812279
+      asset_id: 118775
+      name: b82-05.3
+      size: 524288
+      blob_id: 18101
+    - id: 812280
+      asset_id: 118775
+      name: b82-06.19
+      size: 131072
+      blob_id: 18102
+    - id: 812281
+      asset_id: 118775
+      name: b82-07.18
+      size: 131072
+      blob_id: 18103
+    - id: 812282
+      asset_id: 118775
+      name: b82-09-1
+      size: 131072
+      blob_id: 18113
+    - id: 812283
+      asset_id: 118775
+      name: b82-6-14
+      size: 131072
+      blob_id: 18114
+    - id: 812284
+      asset_id: 118775
+      name: b82_10.16
+      size: 65536
+      blob_id: 18106
+    - id: 812285
+      asset_id: 118775
+      name: gal16v8.ic13
+      size: 279
+      blob_id: 18107
+    - id: 812286
+      asset_id: 118775
+      name: gal16v8.ic35
+      size: 279
+      blob_id: 18108
+    - id: 812287
+      asset_id: 118775
+      name: tibpal16l8.ic41
+      size: 260
+      blob_id: 18109
+    - id: 812288
+      asset_id: 118775
+      name: tibpal16l8.ic42
+      size: 260
+      blob_id: 18110
+    - id: 812289
+      asset_id: 118775
       name: tibpal16l8.ic51
       size: 260
       blob_id: 18111

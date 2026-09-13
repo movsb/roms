@@ -10,6 +10,12 @@ names:
   language: 1
   name: fhawk
   source: ""
+- id: 190525
+  kind: 2
+  kind_id: 1635
+  language: 1
+  name: Fighting Hawk (Japan)
+  source: mame
 game_developers:
 - game_id: 1635
   developer_id: 35
@@ -118,6 +124,48 @@ releases:
       blob_id: 90414
       debug: arcade/wheel/fhawk.png
     entries: []
+  - asset:
+      id: 98945
+      kind: 3
+      kind_id: 1635
+      type: 1
+      name: fhawk.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 602804
+      asset_id: 98945
+      name: b70-01.ic1
+      size: 524288
+      blob_id: 17921
+    - id: 602805
+      asset_id: 98945
+      name: b70-02.ic2
+      size: 524288
+      blob_id: 17922
+    - id: 602806
+      asset_id: 98945
+      name: b70-03.ic2
+      size: 524288
+      blob_id: 17923
+    - id: 602807
+      asset_id: 98945
+      name: b70-08.ic12
+      size: 131072
+      blob_id: 17924
+    - id: 602808
+      asset_id: 98945
+      name: b70-09.ic31
+      size: 65536
+      blob_id: 17925
+    - id: 602809
+      asset_id: 98945
+      name: b70-11.ic3
+      size: 131072
+      blob_id: 17926
 - release:
     id: 1636
     game_id: 1635
@@ -186,58 +234,58 @@ releases:
       size: 131072
       blob_id: 17927
 - release:
-    id: 43631
+    id: 83991
     game_id: 1635
     description: ""
     release_date: 19880000
   names:
-  - id: 118070
+  - id: 210426
     kind: 3
-    kind_id: 43631
+    kind_id: 83991
     language: 1
-    name: Fighting Hawk (World)
+    name: Fighting Hawk (Japan)
     source: mame
   release_publishers: []
   assets:
   - asset:
-      id: 56701
+      id: 98946
       kind: 3
-      kind_id: 43631
+      kind_id: 83991
       type: 1
-      name: fhawk.zip
+      name: fhawkj.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 170637
-      asset_id: 56701
+    - id: 602810
+      asset_id: 98946
       name: b70-01.ic1
       size: 524288
       blob_id: 17921
-    - id: 170638
-      asset_id: 56701
+    - id: 602811
+      asset_id: 98946
       name: b70-02.ic2
       size: 524288
       blob_id: 17922
-    - id: 170639
-      asset_id: 56701
+    - id: 602812
+      asset_id: 98946
       name: b70-03.ic2
       size: 524288
       blob_id: 17923
-    - id: 170640
-      asset_id: 56701
+    - id: 602813
+      asset_id: 98946
+      name: b70-07.ic3
+      size: 131072
+      blob_id: 17927
+    - id: 602814
+      asset_id: 98946
       name: b70-08.ic12
       size: 131072
       blob_id: 17924
-    - id: 170641
-      asset_id: 56701
+    - id: 602815
+      asset_id: 98946
       name: b70-09.ic31
       size: 65536
       blob_id: 17925
-    - id: 170642
-      asset_id: 56701
-      name: b70-11.ic3
-      size: 131072
-      blob_id: 17926

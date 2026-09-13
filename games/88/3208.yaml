@@ -16,6 +16,12 @@ names:
   language: 2
   name: 吃豆人与皮卡丘
   source: trimui
+- id: 192099
+  kind: 2
+  kind_id: 3208
+  language: 1
+  name: Jingling Jiazu Genie 2000
+  source: mame
 game_developers:
 - game_id: 3208
   developer_id: 659
@@ -119,24 +125,10 @@ releases:
       blob_id: 88575
       debug: arcade/wheel/puckpkmn.png
     entries: []
-- release:
-    id: 62593
-    game_id: 3208
-    description: ""
-    release_date: 20000000
-  names:
-  - id: 155468
-    kind: 3
-    kind_id: 62593
-    language: 1
-    name: Puckman Pockimon Genie 2000
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 75663
+      id: 108293
       kind: 3
-      kind_id: 62593
+      kind_id: 3208
       type: 1
       name: puckpkmn.zip
       description: ""
@@ -145,28 +137,130 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 310038
-      asset_id: 75663
+    - id: 703506
+      asset_id: 108293
       name: 200060.u4
       size: 524288
-      blob_id: 162357
-    - id: 310039
-      asset_id: 75663
+      blob_id: 268809
+    - id: 703507
+      asset_id: 108293
       name: 200061.u5
       size: 524288
-      blob_id: 162358
-    - id: 310040
-      asset_id: 75663
+      blob_id: 268810
+    - id: 703508
+      asset_id: 108293
       name: 200062.u7
       size: 524288
-      blob_id: 162359
-    - id: 310041
-      asset_id: 75663
+      blob_id: 268811
+    - id: 703509
+      asset_id: 108293
       name: 200063.u8
       size: 524288
-      blob_id: 162360
-    - id: 310042
-      asset_id: 75663
+      blob_id: 268812
+    - id: 703510
+      asset_id: 108293
       name: 206295.u3
       size: 262144
       blob_id: 34278
+- release:
+    id: 92778
+    game_id: 3208
+    description: ""
+    release_date: 20000000
+  names:
+  - id: 223865
+    kind: 3
+    kind_id: 92778
+    language: 1
+    name: Puckman Pockimon Genie 2000 (bootleg)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 108294
+      kind: 3
+      kind_id: 92778
+      type: 1
+      name: puckpkmnb.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 703511
+      asset_id: 108294
+      name: puckpoke.u3
+      size: 262144
+      blob_id: 34278
+    - id: 703512
+      asset_id: 108294
+      name: puckpoke.u4
+      size: 524288
+      blob_id: 34279
+    - id: 703513
+      asset_id: 108294
+      name: puckpoke.u5
+      size: 524288
+      blob_id: 34280
+    - id: 703514
+      asset_id: 108294
+      name: puckpoke.u7
+      size: 524288
+      blob_id: 34281
+    - id: 703515
+      asset_id: 108294
+      name: puckpoke.u8
+      size: 524288
+      blob_id: 34282
+- release:
+    id: 104258
+    game_id: 3208
+    description: ""
+    release_date: 20000000
+  names:
+  - id: 239234
+    kind: 3
+    kind_id: 104258
+    language: 1
+    name: Jingling Jiazu Genie 2000
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 102002
+      kind: 3
+      kind_id: 104258
+      type: 1
+      name: jingling.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 637474
+      asset_id: 102002
+      name: a.u3
+      size: 524288
+      blob_id: 226099
+    - id: 637475
+      asset_id: 102002
+      name: b1.u59
+      size: 1048576
+      blob_id: 226100
+    - id: 637476
+      asset_id: 102002
+      name: b2.u59
+      size: 1048576
+      blob_id: 226101
+    - id: 637477
+      asset_id: 102002
+      name: b3.u59
+      size: 1048576
+      blob_id: 226102
+    - id: 637478
+      asset_id: 102002
+      name: b4.u59
+      size: 1048576
+      blob_id: 226103

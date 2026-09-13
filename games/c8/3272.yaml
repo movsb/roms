@@ -16,6 +16,12 @@ names:
   language: 2
   name: "问答大搜查线 - 最后倒计时 (NGM-023 ~ NGH-023)"
   source: trimui
+- id: 195355
+  kind: 2
+  kind_id: 3272
+  language: 1
+  name: "Quiz Salibtamjeong - The Last Count Down (Korean localized Quiz Daisousa Sen)"
+  source: mame
 game_developers: []
 game_genres: []
 assets: []
@@ -38,6 +44,12 @@ releases:
     language: 2
     name: "问答大搜查线 - 最后倒计时 (NGM-023 ~ NGH-023)"
     source: trimui
+  - id: 184735
+    kind: 3
+    kind_id: 3272
+    language: 1
+    name: "Quiz Daisousa Sen - The Last Count Down (NGM-023 ~ NGH-023)"
+    source: fbneo
   release_publishers: []
   assets:
   - asset:
@@ -264,24 +276,10 @@ releases:
       blob_id: 85622
       debug: arcade/downloaded_images/quizdais.png
     entries: []
-- release:
-    id: 77028
-    game_id: 3272
-    description: ""
-    release_date: 19910000
-  names:
-  - id: 183280
-    kind: 3
-    kind_id: 77028
-    language: 1
-    name: "Quiz Daisousa Sen - The Last Count Down (NGM-023 ~ NGH-023)"
-    source: fbneo
-  release_publishers: []
-  assets:
   - asset:
-      id: 90098
+      id: 119313
       kind: 3
-      kind_id: 77028
+      kind_id: 3272
       type: 1
       name: quizdais.zip
       description: ""
@@ -290,223 +288,683 @@ releases:
       blob_id: 0
       debug: dat:fbneo:5fa9b68a
     entries:
-    - id: 450105
-      asset_id: 90098
+    - id: 827375
+      asset_id: 119313
       name: 000-lo.lo
       size: 131072
       blob_id: 6263
-    - id: 450106
-      asset_id: 90098
+    - id: 827376
+      asset_id: 119313
       name: 023-c1.c1
       size: 1048576
       blob_id: 34816
-    - id: 450107
-      asset_id: 90098
+    - id: 827377
+      asset_id: 119313
       name: 023-c2.c2
       size: 1048576
       blob_id: 34817
-    - id: 450108
-      asset_id: 90098
+    - id: 827378
+      asset_id: 119313
       name: 023-m1.m1
       size: 131072
       blob_id: 34818
-    - id: 450109
-      asset_id: 90098
+    - id: 827379
+      asset_id: 119313
       name: 023-p1.p1
       size: 1048576
       blob_id: 34819
-    - id: 450110
-      asset_id: 90098
+    - id: 827380
+      asset_id: 119313
       name: 023-s1.s1
       size: 131072
       blob_id: 34820
-    - id: 450111
-      asset_id: 90098
+    - id: 827381
+      asset_id: 119313
       name: 023-v1.v1
       size: 1048576
       blob_id: 34821
-    - id: 450112
-      asset_id: 90098
+    - id: 827382
+      asset_id: 119313
       name: japan-j3.bin
       size: 131072
       blob_id: 6276
-    - id: 450113
-      asset_id: 90098
+    - id: 827383
+      asset_id: 119313
       name: neo-epo.bin
       size: 131072
       blob_id: 6297
-    - id: 450114
-      asset_id: 90098
+    - id: 827384
+      asset_id: 119313
       name: neo-po.bin
       size: 131072
       blob_id: 6298
-    - id: 450115
-      asset_id: 90098
+    - id: 827385
+      asset_id: 119313
       name: neodebug.bin
       size: 131072
       blob_id: 6299
-    - id: 450116
-      asset_id: 90098
+    - id: 827386
+      asset_id: 119313
       name: neopen.sp1
       size: 131072
       blob_id: 11900
-    - id: 450117
-      asset_id: 90098
+    - id: 827387
+      asset_id: 119313
       name: sfix.sfix
       size: 131072
       blob_id: 6264
-    - id: 450118
-      asset_id: 90098
+    - id: 827388
+      asset_id: 119313
       name: sm1.sm1
       size: 131072
       blob_id: 6277
-    - id: 450119
-      asset_id: 90098
+    - id: 827389
+      asset_id: 119313
       name: sp-1v1_3db8c.bin
       size: 131072
       blob_id: 6278
-    - id: 450120
-      asset_id: 90098
+    - id: 827390
+      asset_id: 119313
       name: sp-45.sp1
       size: 524288
       blob_id: 6279
-    - id: 450121
-      asset_id: 90098
+    - id: 827391
+      asset_id: 119313
       name: sp-e.sp1
       size: 131072
       blob_id: 6280
-    - id: 450122
-      asset_id: 90098
+    - id: 827392
+      asset_id: 119313
       name: sp-j2.sp1
       size: 131072
       blob_id: 6281
-    - id: 450123
-      asset_id: 90098
+    - id: 827393
+      asset_id: 119313
       name: sp-j3.sp1
       size: 524288
       blob_id: 6282
-    - id: 450124
-      asset_id: 90098
+    - id: 827394
+      asset_id: 119313
       name: sp-s.sp1
       size: 131072
       blob_id: 6283
-    - id: 450125
-      asset_id: 90098
+    - id: 827395
+      asset_id: 119313
       name: sp-s2.sp1
       size: 131072
       blob_id: 6284
-    - id: 450126
-      asset_id: 90098
+    - id: 827396
+      asset_id: 119313
       name: sp-s3.sp1
       size: 131072
       blob_id: 6285
-    - id: 450127
-      asset_id: 90098
+    - id: 827397
+      asset_id: 119313
       name: sp-u2.sp1
       size: 131072
       blob_id: 6286
-    - id: 450128
-      asset_id: 90098
+    - id: 827398
+      asset_id: 119313
       name: sp1-j3.bin
       size: 131072
       blob_id: 6287
-    - id: 450129
-      asset_id: 90098
+    - id: 827399
+      asset_id: 119313
       name: sp1-u2
       size: 131072
       blob_id: 6288
-    - id: 450130
-      asset_id: 90098
+    - id: 827400
+      asset_id: 119313
       name: sp1-u3.bin
       size: 131072
       blob_id: 6289
-    - id: 450131
-      asset_id: 90098
+    - id: 827401
+      asset_id: 119313
       name: sp1-u4.bin
       size: 131072
       blob_id: 6296
-    - id: 450132
-      asset_id: 90098
+    - id: 827402
+      asset_id: 119313
       name: sp1.jipan.1024
       size: 131072
       blob_id: 6290
-    - id: 450133
-      asset_id: 90098
+    - id: 827403
+      asset_id: 119313
       name: uni-bios_1_0.rom
       size: 131072
       blob_id: 6291
-    - id: 450134
-      asset_id: 90098
+    - id: 827404
+      asset_id: 119313
       name: uni-bios_1_1.rom
       size: 131072
       blob_id: 6292
-    - id: 450135
-      asset_id: 90098
+    - id: 827405
+      asset_id: 119313
       name: uni-bios_1_2.rom
       size: 131072
       blob_id: 6293
-    - id: 450136
-      asset_id: 90098
+    - id: 827406
+      asset_id: 119313
       name: uni-bios_1_2o.rom
       size: 131072
       blob_id: 6294
-    - id: 450137
-      asset_id: 90098
+    - id: 827407
+      asset_id: 119313
       name: uni-bios_1_3.rom
       size: 131072
       blob_id: 6265
-    - id: 450138
-      asset_id: 90098
+    - id: 827408
+      asset_id: 119313
       name: uni-bios_2_0.rom
       size: 131072
       blob_id: 6266
-    - id: 450139
-      asset_id: 90098
+    - id: 827409
+      asset_id: 119313
       name: uni-bios_2_1.rom
       size: 131072
       blob_id: 6267
-    - id: 450140
-      asset_id: 90098
+    - id: 827410
+      asset_id: 119313
       name: uni-bios_2_2.rom
       size: 131072
       blob_id: 6268
-    - id: 450141
-      asset_id: 90098
+    - id: 827411
+      asset_id: 119313
       name: uni-bios_2_3.rom
       size: 131072
       blob_id: 6269
-    - id: 450142
-      asset_id: 90098
+    - id: 827412
+      asset_id: 119313
       name: uni-bios_2_3o.rom
       size: 131072
       blob_id: 6270
-    - id: 450143
-      asset_id: 90098
+    - id: 827413
+      asset_id: 119313
       name: uni-bios_3_0.rom
       size: 131072
       blob_id: 6271
-    - id: 450144
-      asset_id: 90098
+    - id: 827414
+      asset_id: 119313
       name: uni-bios_3_1.rom
       size: 131072
       blob_id: 6272
-    - id: 450145
-      asset_id: 90098
+    - id: 827415
+      asset_id: 119313
       name: uni-bios_3_2.rom
       size: 131072
       blob_id: 6273
-    - id: 450146
-      asset_id: 90098
+    - id: 827416
+      asset_id: 119313
       name: uni-bios_3_3.rom
       size: 131072
       blob_id: 6274
-    - id: 450147
-      asset_id: 90098
+    - id: 827417
+      asset_id: 119313
       name: uni-bios_4_0.rom
       size: 131072
       blob_id: 6275
-    - id: 450148
-      asset_id: 90098
+    - id: 827418
+      asset_id: 119313
+      name: vs-bios.rom
+      size: 131072
+      blob_id: 6295
+- release:
+    id: 93062
+    game_id: 3272
+    description: ""
+    release_date: 19950000
+  names:
+  - id: 224293
+    kind: 3
+    kind_id: 93062
+    language: 1
+    name: "Quiz Salibtamjeong - The Last Count Down (Korean localized Quiz Daisousa Sen)"
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 108599
+      kind: 3
+      kind_id: 93062
+      type: 1
+      name: quizdaisk.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/3150166407
+    entries:
+    - id: 707367
+      asset_id: 108599
+      name: 000-lo.lo
+      size: 131072
+      blob_id: 6263
+    - id: 707368
+      asset_id: 108599
+      name: 123-c1.c1
+      size: 1048576
+      blob_id: 300693
+    - id: 707369
+      asset_id: 108599
+      name: 123-c2.c2
+      size: 1048576
+      blob_id: 300694
+    - id: 707370
+      asset_id: 108599
+      name: 123-m1.m1
+      size: 131072
+      blob_id: 300695
+    - id: 707371
+      asset_id: 108599
+      name: 123-p1.p1
+      size: 1048576
+      blob_id: 300696
+    - id: 707372
+      asset_id: 108599
+      name: 123-s1.s1
+      size: 131072
+      blob_id: 300697
+    - id: 707373
+      asset_id: 108599
+      name: 123-v1.v1
+      size: 2097152
+      blob_id: 300698
+    - id: 707374
+      asset_id: 108599
+      name: japan-j3.bin
+      size: 131072
+      blob_id: 6276
+    - id: 707375
+      asset_id: 108599
+      name: sfix.sfix
+      size: 131072
+      blob_id: 6264
+    - id: 707376
+      asset_id: 108599
+      name: sm1.sm1
+      size: 131072
+      blob_id: 6277
+    - id: 707377
+      asset_id: 108599
+      name: sp-1v1_3db8c.bin
+      size: 131072
+      blob_id: 6278
+    - id: 707378
+      asset_id: 108599
+      name: sp-45.sp1
+      size: 524288
+      blob_id: 6279
+    - id: 707379
+      asset_id: 108599
+      name: sp-e.sp1
+      size: 131072
+      blob_id: 6280
+    - id: 707380
+      asset_id: 108599
+      name: sp-j2.sp1
+      size: 131072
+      blob_id: 6281
+    - id: 707381
+      asset_id: 108599
+      name: sp-j3.sp1
+      size: 524288
+      blob_id: 6282
+    - id: 707382
+      asset_id: 108599
+      name: sp-s.sp1
+      size: 131072
+      blob_id: 6283
+    - id: 707383
+      asset_id: 108599
+      name: sp-s2.sp1
+      size: 131072
+      blob_id: 6284
+    - id: 707384
+      asset_id: 108599
+      name: sp-s3.sp1
+      size: 131072
+      blob_id: 6285
+    - id: 707385
+      asset_id: 108599
+      name: sp-u2.sp1
+      size: 131072
+      blob_id: 6286
+    - id: 707386
+      asset_id: 108599
+      name: sp1-j3.bin
+      size: 131072
+      blob_id: 6287
+    - id: 707387
+      asset_id: 108599
+      name: sp1-u2
+      size: 131072
+      blob_id: 6288
+    - id: 707388
+      asset_id: 108599
+      name: sp1-u3.bin
+      size: 131072
+      blob_id: 6289
+    - id: 707389
+      asset_id: 108599
+      name: sp1-u4.bin
+      size: 131072
+      blob_id: 6296
+    - id: 707390
+      asset_id: 108599
+      name: sp1.jipan.1024
+      size: 131072
+      blob_id: 6290
+    - id: 707391
+      asset_id: 108599
+      name: uni-bios_1_0.rom
+      size: 131072
+      blob_id: 6291
+    - id: 707392
+      asset_id: 108599
+      name: uni-bios_1_1.rom
+      size: 131072
+      blob_id: 6292
+    - id: 707393
+      asset_id: 108599
+      name: uni-bios_1_2.rom
+      size: 131072
+      blob_id: 6293
+    - id: 707394
+      asset_id: 108599
+      name: uni-bios_1_2o.rom
+      size: 131072
+      blob_id: 6294
+    - id: 707395
+      asset_id: 108599
+      name: uni-bios_1_3.rom
+      size: 131072
+      blob_id: 6265
+    - id: 707396
+      asset_id: 108599
+      name: uni-bios_2_0.rom
+      size: 131072
+      blob_id: 6266
+    - id: 707397
+      asset_id: 108599
+      name: uni-bios_2_1.rom
+      size: 131072
+      blob_id: 6267
+    - id: 707398
+      asset_id: 108599
+      name: uni-bios_2_2.rom
+      size: 131072
+      blob_id: 6268
+    - id: 707399
+      asset_id: 108599
+      name: uni-bios_2_3.rom
+      size: 131072
+      blob_id: 6269
+    - id: 707400
+      asset_id: 108599
+      name: uni-bios_2_3o.rom
+      size: 131072
+      blob_id: 6270
+    - id: 707401
+      asset_id: 108599
+      name: uni-bios_3_0.rom
+      size: 131072
+      blob_id: 6271
+    - id: 707402
+      asset_id: 108599
+      name: uni-bios_3_1.rom
+      size: 131072
+      blob_id: 6272
+    - id: 707403
+      asset_id: 108599
+      name: uni-bios_3_2.rom
+      size: 131072
+      blob_id: 6273
+    - id: 707404
+      asset_id: 108599
+      name: uni-bios_3_3.rom
+      size: 131072
+      blob_id: 6274
+    - id: 707405
+      asset_id: 108599
+      name: uni-bios_4_0.rom
+      size: 131072
+      blob_id: 6275
+    - id: 707406
+      asset_id: 108599
+      name: vs-bios.rom
+      size: 131072
+      blob_id: 6295
+  - asset:
+      id: 119317
+      kind: 3
+      kind_id: 93062
+      type: 1
+      name: quizdaisk.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 827562
+      asset_id: 119317
+      name: 000-lo.lo
+      size: 131072
+      blob_id: 6263
+    - id: 827563
+      asset_id: 119317
+      name: 123-c1.c1
+      size: 1048576
+      blob_id: 283485
+    - id: 827564
+      asset_id: 119317
+      name: 123-c2.c2
+      size: 1048576
+      blob_id: 283486
+    - id: 827565
+      asset_id: 119317
+      name: 123-m1.m1
+      size: 131072
+      blob_id: 283487
+    - id: 827566
+      asset_id: 119317
+      name: 123-p1.p1
+      size: 1048576
+      blob_id: 283488
+    - id: 827567
+      asset_id: 119317
+      name: 123-s1.s1
+      size: 131072
+      blob_id: 283489
+    - id: 827568
+      asset_id: 119317
+      name: 123-v1.v1
+      size: 2097152
+      blob_id: 283490
+    - id: 827569
+      asset_id: 119317
+      name: japan-j3.bin
+      size: 131072
+      blob_id: 6276
+    - id: 827570
+      asset_id: 119317
+      name: neo-epo.bin
+      size: 131072
+      blob_id: 6297
+    - id: 827571
+      asset_id: 119317
+      name: neo-po.bin
+      size: 131072
+      blob_id: 6298
+    - id: 827572
+      asset_id: 119317
+      name: neodebug.bin
+      size: 131072
+      blob_id: 6299
+    - id: 827573
+      asset_id: 119317
+      name: neopen.sp1
+      size: 131072
+      blob_id: 11900
+    - id: 827574
+      asset_id: 119317
+      name: sfix.sfix
+      size: 131072
+      blob_id: 6264
+    - id: 827575
+      asset_id: 119317
+      name: sm1.sm1
+      size: 131072
+      blob_id: 6277
+    - id: 827576
+      asset_id: 119317
+      name: sp-1v1_3db8c.bin
+      size: 131072
+      blob_id: 6278
+    - id: 827577
+      asset_id: 119317
+      name: sp-45.sp1
+      size: 524288
+      blob_id: 6279
+    - id: 827578
+      asset_id: 119317
+      name: sp-e.sp1
+      size: 131072
+      blob_id: 6280
+    - id: 827579
+      asset_id: 119317
+      name: sp-j2.sp1
+      size: 131072
+      blob_id: 6281
+    - id: 827580
+      asset_id: 119317
+      name: sp-j3.sp1
+      size: 524288
+      blob_id: 6282
+    - id: 827581
+      asset_id: 119317
+      name: sp-s.sp1
+      size: 131072
+      blob_id: 6283
+    - id: 827582
+      asset_id: 119317
+      name: sp-s2.sp1
+      size: 131072
+      blob_id: 6284
+    - id: 827583
+      asset_id: 119317
+      name: sp-s3.sp1
+      size: 131072
+      blob_id: 6285
+    - id: 827584
+      asset_id: 119317
+      name: sp-u2.sp1
+      size: 131072
+      blob_id: 6286
+    - id: 827585
+      asset_id: 119317
+      name: sp1-j3.bin
+      size: 131072
+      blob_id: 6287
+    - id: 827586
+      asset_id: 119317
+      name: sp1-u2
+      size: 131072
+      blob_id: 6288
+    - id: 827587
+      asset_id: 119317
+      name: sp1-u3.bin
+      size: 131072
+      blob_id: 6289
+    - id: 827588
+      asset_id: 119317
+      name: sp1-u4.bin
+      size: 131072
+      blob_id: 6296
+    - id: 827589
+      asset_id: 119317
+      name: sp1.jipan.1024
+      size: 131072
+      blob_id: 6290
+    - id: 827590
+      asset_id: 119317
+      name: uni-bios_1_0.rom
+      size: 131072
+      blob_id: 6291
+    - id: 827591
+      asset_id: 119317
+      name: uni-bios_1_1.rom
+      size: 131072
+      blob_id: 6292
+    - id: 827592
+      asset_id: 119317
+      name: uni-bios_1_2.rom
+      size: 131072
+      blob_id: 6293
+    - id: 827593
+      asset_id: 119317
+      name: uni-bios_1_2o.rom
+      size: 131072
+      blob_id: 6294
+    - id: 827594
+      asset_id: 119317
+      name: uni-bios_1_3.rom
+      size: 131072
+      blob_id: 6265
+    - id: 827595
+      asset_id: 119317
+      name: uni-bios_2_0.rom
+      size: 131072
+      blob_id: 6266
+    - id: 827596
+      asset_id: 119317
+      name: uni-bios_2_1.rom
+      size: 131072
+      blob_id: 6267
+    - id: 827597
+      asset_id: 119317
+      name: uni-bios_2_2.rom
+      size: 131072
+      blob_id: 6268
+    - id: 827598
+      asset_id: 119317
+      name: uni-bios_2_3.rom
+      size: 131072
+      blob_id: 6269
+    - id: 827599
+      asset_id: 119317
+      name: uni-bios_2_3o.rom
+      size: 131072
+      blob_id: 6270
+    - id: 827600
+      asset_id: 119317
+      name: uni-bios_3_0.rom
+      size: 131072
+      blob_id: 6271
+    - id: 827601
+      asset_id: 119317
+      name: uni-bios_3_1.rom
+      size: 131072
+      blob_id: 6272
+    - id: 827602
+      asset_id: 119317
+      name: uni-bios_3_2.rom
+      size: 131072
+      blob_id: 6273
+    - id: 827603
+      asset_id: 119317
+      name: uni-bios_3_3.rom
+      size: 131072
+      blob_id: 6274
+    - id: 827604
+      asset_id: 119317
+      name: uni-bios_4_0.rom
+      size: 131072
+      blob_id: 6275
+    - id: 827605
+      asset_id: 119317
       name: vs-bios.rom
       size: 131072
       blob_id: 6295

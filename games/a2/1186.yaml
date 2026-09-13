@@ -16,8 +16,30 @@ names:
   language: 2
   name: 逻辑 PRO (韩版)
   source: trimui
-game_developers: []
-game_genres: []
+- id: 186994
+  kind: 2
+  kind_id: 1186
+  language: 1
+  name: logicpro
+  source: ""
+- id: 186995
+  kind: 2
+  kind_id: 1186
+  language: 2
+  name: 逻辑 PRO (日版)
+  source: trimui
+- id: 189327
+  kind: 2
+  kind_id: 1186
+  language: 1
+  name: Croquis (Germany)
+  source: mame
+game_developers:
+- game_id: 1186
+  developer_id: 476
+game_genres:
+- game_id: 1186
+  genre_id: 22
 assets: []
 releases:
 - release:
@@ -117,24 +139,10 @@ releases:
       name: sys_o0
       size: 262144
       blob_id: 12733
-- release:
-    id: 39955
-    game_id: 1186
-    description: ""
-    release_date: 19960000
-  names:
-  - id: 110875
-    kind: 3
-    kind_id: 39955
-    language: 1
-    name: Croquis (Korea)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 53025
+      id: 96708
       kind: 3
-      kind_id: 39955
+      kind_id: 1186
       type: 1
       name: croquis.zip
       description: ""
@@ -143,48 +151,198 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 136544
-      asset_id: 53025
+    - id: 573915
+      asset_id: 96708
       name: logicpro.r1
       size: 524288
       blob_id: 12723
-    - id: 136545
-      asset_id: 53025
+    - id: 573916
+      asset_id: 96708
       name: logicpro.r2
       size: 65536
       blob_id: 12724
-    - id: 136546
-      asset_id: 53025
+    - id: 573917
+      asset_id: 96708
       name: logicpro.r5
       size: 524288
       blob_id: 12725
-    - id: 136547
-      asset_id: 53025
+    - id: 573918
+      asset_id: 96708
       name: logicpro.r6
       size: 524288
       blob_id: 12726
-    - id: 136548
-      asset_id: 53025
+    - id: 573919
+      asset_id: 96708
       name: logicpro.r7
       size: 524288
       blob_id: 12727
-    - id: 136549
-      asset_id: 53025
+    - id: 573920
+      asset_id: 96708
       name: logicpro.r8
       size: 524288
       blob_id: 12728
-    - id: 136550
-      asset_id: 53025
+    - id: 573921
+      asset_id: 96708
       name: logicpro.r9
       size: 524288
       blob_id: 12729
-    - id: 136551
-      asset_id: 53025
+    - id: 573922
+      asset_id: 96708
       name: sys_e0
       size: 262144
       blob_id: 12732
-    - id: 136552
-      asset_id: 53025
+    - id: 573923
+      asset_id: 96708
       name: sys_o0
       size: 262144
       blob_id: 12733
+- release:
+    id: 77592
+    game_id: 1186
+    description: ""
+    release_date: 19960000
+  names:
+  - id: 185255
+    kind: 3
+    kind_id: 77592
+    language: 1
+    name: logicpro
+    source: ""
+  - id: 185256
+    kind: 3
+    kind_id: 77592
+    language: 2
+    name: 逻辑 PRO (日版)
+    source: trimui
+  release_publishers:
+  - release_id: 77592
+    publisher_id: 341
+  assets:
+  - asset:
+      id: 2534
+      kind: 3
+      kind_id: 77592
+      type: 1
+      name: logicpro.zip
+      description: ""
+      format: 2
+      size: 1666285
+      blob_id: 0
+      debug: logicpro.zip
+    entries:
+    - id: 40937
+      asset_id: 2534
+      name: logicpro.r1
+      size: 524288
+      blob_id: 12723
+    - id: 40938
+      asset_id: 2534
+      name: logicpro.r2
+      size: 65536
+      blob_id: 12724
+    - id: 40939
+      asset_id: 2534
+      name: logicpro.r3
+      size: 262144
+      blob_id: 12730
+    - id: 40940
+      asset_id: 2534
+      name: logicpro.r4
+      size: 262144
+      blob_id: 12731
+    - id: 40941
+      asset_id: 2534
+      name: logicpro.r5
+      size: 524288
+      blob_id: 12725
+    - id: 40942
+      asset_id: 2534
+      name: logicpro.r6
+      size: 524288
+      blob_id: 12726
+    - id: 40943
+      asset_id: 2534
+      name: logicpro.r7
+      size: 524288
+      blob_id: 12727
+    - id: 40944
+      asset_id: 2534
+      name: logicpro.r8
+      size: 524288
+      blob_id: 12728
+    - id: 40945
+      asset_id: 2534
+      name: logicpro.r9
+      size: 524288
+      blob_id: 12729
+- release:
+    id: 81922
+    game_id: 1186
+    description: ""
+    release_date: 19960000
+  names:
+  - id: 207309
+    kind: 3
+    kind_id: 81922
+    language: 1
+    name: Croquis (Germany)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 96709
+      kind: 3
+      kind_id: 81922
+      type: 1
+      name: croquisg.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 573924
+      asset_id: 96709
+      name: logicpro.r1
+      size: 524288
+      blob_id: 12723
+    - id: 573925
+      asset_id: 96709
+      name: logicpro.r2
+      size: 65536
+      blob_id: 12724
+    - id: 573926
+      asset_id: 96709
+      name: logicpro.r5
+      size: 524288
+      blob_id: 12725
+    - id: 573927
+      asset_id: 96709
+      name: logicpro.r6
+      size: 524288
+      blob_id: 12726
+    - id: 573928
+      asset_id: 96709
+      name: logicpro.r7
+      size: 524288
+      blob_id: 12727
+    - id: 573929
+      asset_id: 96709
+      name: logicpro.r8
+      size: 524288
+      blob_id: 12728
+    - id: 573930
+      asset_id: 96709
+      name: logicpro.r9
+      size: 524288
+      blob_id: 12729
+    - id: 573931
+      asset_id: 96709
+      name: r3.bin
+      size: 262144
+      blob_id: 12721
+    - id: 573932
+      asset_id: 96709
+      name: r4.bin
+      size: 262144
+      blob_id: 12722

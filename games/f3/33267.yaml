@@ -16,10 +16,92 @@ names:
   language: 2
   name: "粉红甜心: 铸蔷薇续 (2006/04/06 主版本....)"
   source: trimui
+- id: 187077
+  kind: 2
+  kind_id: 33267
+  language: 1
+  name: pinkswtssc
+  source: ""
+- id: 187078
+  kind: 2
+  kind_id: 33267
+  language: 2
+  name: "粉红甜心: 自杀俱乐部 (2017/10/31 自杀俱乐部版., D版)"
+  source: trimui
+- id: 194838
+  kind: 2
+  kind_id: 33267
+  language: 1
+  name: "Pink Sweets: Ibara Sorekara (Japan, 2006/04/06 MASTER VER...)"
+  source: mame
+- id: 194839
+  kind: 2
+  kind_id: 33267
+  language: 1
+  name: "Pink Sweets: Ibara Sorekara (Japan, 2006/04/06 MASTER VER.)"
+  source: mame
+- id: 194840
+  kind: 2
+  kind_id: 33267
+  language: 1
+  name: "Pink Sweets: Ibara Sorekara (Japan, 2006/xx/xx MASTER VER.)"
+  source: mame
 game_developers: []
 game_genres: []
 assets: []
 releases:
+- release:
+    id: 3108
+    game_id: 33267
+    description: ""
+    release_date: 0
+  names:
+  - id: 6217
+    kind: 3
+    kind_id: 3108
+    language: 1
+    name: pinkswtssc
+    source: ""
+  - id: 99737
+    kind: 3
+    kind_id: 3108
+    language: 2
+    name: "粉红甜心: 自杀俱乐部 (2017/10/31 自杀俱乐部版., D版)"
+    source: trimui
+  release_publishers: []
+  assets:
+  - asset:
+      id: 3093
+      kind: 3
+      kind_id: 3108
+      type: 1
+      name: pinkswtssc.zip
+      description: ""
+      format: 2
+      size: 41851058
+      blob_id: 0
+      debug: pinkswtssc.zip
+    entries:
+    - id: 50910
+      asset_id: 3093
+      name: suicideclub.u2
+      size: 138412032
+      blob_id: 33111
+    - id: 50911
+      asset_id: 3093
+      name: suicideclub.u4
+      size: 2097152
+      blob_id: 33112
+    - id: 50912
+      asset_id: 3093
+      name: u23
+      size: 4194304
+      blob_id: 33113
+    - id: 50913
+      asset_id: 3093
+      name: u24
+      size: 4194304
+      blob_id: 33114
 - release:
     id: 33267
     game_id: 33267
@@ -107,24 +189,10 @@ releases:
       name: u24
       size: 4194304
       blob_id: 33114
-- release:
-    id: 61648
-    game_id: 33267
-    description: ""
-    release_date: 20060000
-  names:
-  - id: 153614
-    kind: 3
-    kind_id: 61648
-    language: 1
-    name: "Pink Sweets: Ibara Sorekara (Japan, 2006/04/06 MASTER VER....)"
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 74718
+      id: 107562
       kind: 3
-      kind_id: 61648
+      kind_id: 33267
       type: 1
       name: pinkswts.zip
       description: ""
@@ -133,23 +201,161 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 301607
-      asset_id: 74718
+    - id: 695970
+      asset_id: 107562
       name: pinkswts_u2
       size: 138412032
       blob_id: 79246
-    - id: 301608
-      asset_id: 74718
+    - id: 695971
+      asset_id: 107562
       name: pinkswts_u4
       size: 2097152
       blob_id: 79247
-    - id: 301609
-      asset_id: 74718
+    - id: 695972
+      asset_id: 107562
       name: u23
       size: 4194304
       blob_id: 33113
-    - id: 301610
-      asset_id: 74718
+    - id: 695973
+      asset_id: 107562
+      name: u24
+      size: 4194304
+      blob_id: 33114
+- release:
+    id: 92085
+    game_id: 33267
+    description: ""
+    release_date: 20060000
+  names:
+  - id: 222829
+    kind: 3
+    kind_id: 92085
+    language: 1
+    name: "Pink Sweets: Ibara Sorekara (Japan, 2006/04/06 MASTER VER...)"
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 107563
+      kind: 3
+      kind_id: 92085
+      type: 1
+      name: pinkswtsa.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 695974
+      asset_id: 107563
+      name: pnkswtsa_u2
+      size: 138412032
+      blob_id: 79248
+    - id: 695975
+      asset_id: 107563
+      name: pnkswtsa_u4
+      size: 2097152
+      blob_id: 79249
+    - id: 695976
+      asset_id: 107563
+      name: u23
+      size: 4194304
+      blob_id: 33113
+    - id: 695977
+      asset_id: 107563
+      name: u24
+      size: 4194304
+      blob_id: 33114
+- release:
+    id: 92086
+    game_id: 33267
+    description: ""
+    release_date: 20060000
+  names:
+  - id: 222830
+    kind: 3
+    kind_id: 92086
+    language: 1
+    name: "Pink Sweets: Ibara Sorekara (Japan, 2006/04/06 MASTER VER.)"
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 107564
+      kind: 3
+      kind_id: 92086
+      type: 1
+      name: pinkswtsb.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 695978
+      asset_id: 107564
+      name: pnkswtsb_u4
+      size: 2097152
+      blob_id: 79250
+    - id: 695979
+      asset_id: 107564
+      name: pnkswtsx_u2
+      size: 138412032
+      blob_id: 79251
+    - id: 695980
+      asset_id: 107564
+      name: u23
+      size: 4194304
+      blob_id: 33113
+    - id: 695981
+      asset_id: 107564
+      name: u24
+      size: 4194304
+      blob_id: 33114
+- release:
+    id: 92087
+    game_id: 33267
+    description: ""
+    release_date: 20060000
+  names:
+  - id: 222831
+    kind: 3
+    kind_id: 92087
+    language: 1
+    name: "Pink Sweets: Ibara Sorekara (Japan, 2006/xx/xx MASTER VER.)"
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 107565
+      kind: 3
+      kind_id: 92087
+      type: 1
+      name: pinkswtsx.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 695982
+      asset_id: 107565
+      name: pnkswtsx_u2
+      size: 138412032
+      blob_id: 79251
+    - id: 695983
+      asset_id: 107565
+      name: pnkswtsx_u4
+      size: 2097152
+      blob_id: 79252
+    - id: 695984
+      asset_id: 107565
+      name: u23
+      size: 4194304
+      blob_id: 33113
+    - id: 695985
+      asset_id: 107565
       name: u24
       size: 4194304
       blob_id: 33114

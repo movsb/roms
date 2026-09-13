@@ -16,6 +16,48 @@ names:
   language: 2
   name: 魂之利刃1
   source: trimui
+- id: 199296
+  kind: 2
+  kind_id: 3865
+  language: 1
+  name: Soul Calibur (Asia, SOC14/VER.B)
+  source: mame
+- id: 199297
+  kind: 2
+  kind_id: 3865
+  language: 1
+  name: Soul Calibur (Asia, SOC14/VER.C)
+  source: mame
+- id: 199298
+  kind: 2
+  kind_id: 3865
+  language: 1
+  name: Soul Calibur (Japan, SOC11/VER.A2)
+  source: mame
+- id: 199299
+  kind: 2
+  kind_id: 3865
+  language: 1
+  name: Soul Calibur (Japan, SOC11/VER.B)
+  source: mame
+- id: 199300
+  kind: 2
+  kind_id: 3865
+  language: 1
+  name: Soul Calibur (Japan, SOC11/VER.C)
+  source: mame
+- id: 199301
+  kind: 2
+  kind_id: 3865
+  language: 1
+  name: Soul Calibur (US, SOC13/VER.B)
+  source: mame
+- id: 199302
+  kind: 2
+  kind_id: 3865
+  language: 1
+  name: Soul Calibur (US, SOC13/VER.C)
+  source: mame
 game_developers: []
 game_genres: []
 assets: []
@@ -167,24 +209,10 @@ releases:
       name: soulclbrwb/soc14verb.2p
       size: 2097152
       blob_id: 41429
-- release:
-    id: 70876
-    game_id: 3865
-    description: ""
-    release_date: 19980000
-  names:
-  - id: 171825
-    kind: 3
-    kind_id: 70876
-    language: 1
-    name: Soul Calibur (World, SOC12/VER.A2)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 83946
+      id: 113979
       kind: 3
-      kind_id: 70876
+      kind_id: 3865
       type: 1
       name: soulclbr.zip
       description: ""
@@ -193,48 +221,744 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 371015
-      asset_id: 83946
+    - id: 750857
+      asset_id: 113979
       name: soc12vera.2l
       size: 2097152
       blob_id: 41416
-    - id: 371016
-      asset_id: 83946
+    - id: 750858
+      asset_id: 113979
       name: soc12vera.2p
       size: 2097152
       blob_id: 41417
-    - id: 371017
-      asset_id: 83946
+    - id: 750859
+      asset_id: 113979
       name: soc1fl3.6
       size: 4194304
       blob_id: 41409
-    - id: 371018
-      asset_id: 83946
+    - id: 750860
+      asset_id: 113979
       name: soc1fl4.5
       size: 4194304
       blob_id: 41410
-    - id: 371019
-      asset_id: 83946
+    - id: 750861
+      asset_id: 113979
       name: soc1rom0.7
       size: 8388608
       blob_id: 41411
-    - id: 371020
-      asset_id: 83946
+    - id: 750862
+      asset_id: 113979
       name: soc1rom1.8
       size: 8388608
       blob_id: 41412
-    - id: 371021
-      asset_id: 83946
+    - id: 750863
+      asset_id: 113979
       name: soc1rom2.9
       size: 8388608
       blob_id: 41413
-    - id: 371022
-      asset_id: 83946
+    - id: 750864
+      asset_id: 113979
       name: soc1vera.11s
       size: 524288
       blob_id: 41414
-    - id: 371023
-      asset_id: 83946
+    - id: 750865
+      asset_id: 113979
+      name: soc1wave0.2
+      size: 8388608
+      blob_id: 41415
+  - asset:
+      id: 121059
+      kind: 3
+      kind_id: 3865
+      type: 1
+      name: soulclbr.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.259
+    entries:
+    - id: 885398
+      asset_id: 121059
+      name: soc14verc.2e
+      size: 2097152
+      blob_id: 41407
+    - id: 885399
+      asset_id: 121059
+      name: soc14verc.2j
+      size: 2097152
+      blob_id: 41408
+    - id: 885400
+      asset_id: 121059
+      name: soc1fl3.6
+      size: 4194304
+      blob_id: 41409
+    - id: 885401
+      asset_id: 121059
+      name: soc1fl4.5
+      size: 4194304
+      blob_id: 41410
+    - id: 885402
+      asset_id: 121059
+      name: soc1rom0.7
+      size: 8388608
+      blob_id: 41411
+    - id: 885403
+      asset_id: 121059
+      name: soc1rom1.8
+      size: 8388608
+      blob_id: 41412
+    - id: 885404
+      asset_id: 121059
+      name: soc1rom2.9
+      size: 8388608
+      blob_id: 41413
+    - id: 885405
+      asset_id: 121059
+      name: soc1vera.11s
+      size: 524288
+      blob_id: 41414
+    - id: 885406
+      asset_id: 121059
+      name: soc1wave0.2
+      size: 8388608
+      blob_id: 41415
+- release:
+    id: 98248
+    game_id: 3865
+    description: ""
+    release_date: 19980000
+  names:
+  - id: 230807
+    kind: 3
+    kind_id: 98248
+    language: 1
+    name: Soul Calibur (Asia, SOC14/VER.B)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 113980
+      kind: 3
+      kind_id: 98248
+      type: 1
+      name: soulclbrab.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 750866
+      asset_id: 113980
+      name: soc14verb.2l
+      size: 2097152
+      blob_id: 41428
+    - id: 750867
+      asset_id: 113980
+      name: soc14verb.2p
+      size: 2097152
+      blob_id: 41429
+    - id: 750868
+      asset_id: 113980
+      name: soc1fl3.6
+      size: 4194304
+      blob_id: 41409
+    - id: 750869
+      asset_id: 113980
+      name: soc1fl4.5
+      size: 4194304
+      blob_id: 41410
+    - id: 750870
+      asset_id: 113980
+      name: soc1rom0.7
+      size: 8388608
+      blob_id: 41411
+    - id: 750871
+      asset_id: 113980
+      name: soc1rom1.8
+      size: 8388608
+      blob_id: 41412
+    - id: 750872
+      asset_id: 113980
+      name: soc1rom2.9
+      size: 8388608
+      blob_id: 41413
+    - id: 750873
+      asset_id: 113980
+      name: soc1vera.11s
+      size: 524288
+      blob_id: 41414
+    - id: 750874
+      asset_id: 113980
+      name: soc1wave0.2
+      size: 8388608
+      blob_id: 41415
+- release:
+    id: 98249
+    game_id: 3865
+    description: ""
+    release_date: 19980000
+  names:
+  - id: 230808
+    kind: 3
+    kind_id: 98249
+    language: 1
+    name: Soul Calibur (Asia, SOC14/VER.C)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 113981
+      kind: 3
+      kind_id: 98249
+      type: 1
+      name: soulclbrac.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 750875
+      asset_id: 113981
+      name: soc14verc.2e
+      size: 2097152
+      blob_id: 41407
+    - id: 750876
+      asset_id: 113981
+      name: soc14verc.2j
+      size: 2097152
+      blob_id: 41408
+    - id: 750877
+      asset_id: 113981
+      name: soc1fl3.6
+      size: 4194304
+      blob_id: 41409
+    - id: 750878
+      asset_id: 113981
+      name: soc1fl4.5
+      size: 4194304
+      blob_id: 41410
+    - id: 750879
+      asset_id: 113981
+      name: soc1rom0.7
+      size: 8388608
+      blob_id: 41411
+    - id: 750880
+      asset_id: 113981
+      name: soc1rom1.8
+      size: 8388608
+      blob_id: 41412
+    - id: 750881
+      asset_id: 113981
+      name: soc1rom2.9
+      size: 8388608
+      blob_id: 41413
+    - id: 750882
+      asset_id: 113981
+      name: soc1vera.11s
+      size: 524288
+      blob_id: 41414
+    - id: 750883
+      asset_id: 113981
+      name: soc1wave0.2
+      size: 8388608
+      blob_id: 41415
+- release:
+    id: 98250
+    game_id: 3865
+    description: ""
+    release_date: 19980000
+  names:
+  - id: 230809
+    kind: 3
+    kind_id: 98250
+    language: 1
+    name: Soul Calibur (Japan, SOC11/VER.A2)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 113982
+      kind: 3
+      kind_id: 98250
+      type: 1
+      name: soulclbrja2.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 750884
+      asset_id: 113982
+      name: soc1fl3.6
+      size: 4194304
+      blob_id: 41409
+    - id: 750885
+      asset_id: 113982
+      name: soc1fl4.5
+      size: 4194304
+      blob_id: 41410
+    - id: 750886
+      asset_id: 113982
+      name: soc1rom0.7
+      size: 8388608
+      blob_id: 41411
+    - id: 750887
+      asset_id: 113982
+      name: soc1rom1.8
+      size: 8388608
+      blob_id: 41412
+    - id: 750888
+      asset_id: 113982
+      name: soc1rom2.9
+      size: 8388608
+      blob_id: 41413
+    - id: 750889
+      asset_id: 113982
+      name: soc1vera.11s
+      size: 524288
+      blob_id: 41414
+    - id: 750890
+      asset_id: 113982
+      name: soc1vera.2l
+      size: 2097152
+      blob_id: 41418
+    - id: 750891
+      asset_id: 113982
+      name: soc1vera.2p
+      size: 2097152
+      blob_id: 41419
+    - id: 750892
+      asset_id: 113982
+      name: soc1wave0.2
+      size: 8388608
+      blob_id: 41415
+- release:
+    id: 98251
+    game_id: 3865
+    description: ""
+    release_date: 19980000
+  names:
+  - id: 230810
+    kind: 3
+    kind_id: 98251
+    language: 1
+    name: Soul Calibur (Japan, SOC11/VER.B)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 113983
+      kind: 3
+      kind_id: 98251
+      type: 1
+      name: soulclbrjb.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 750893
+      asset_id: 113983
+      name: soc11verb.2e
+      size: 2097152
+      blob_id: 41420
+    - id: 750894
+      asset_id: 113983
+      name: soc11verb.2j
+      size: 2097152
+      blob_id: 41421
+    - id: 750895
+      asset_id: 113983
+      name: soc1fl3.6
+      size: 4194304
+      blob_id: 41409
+    - id: 750896
+      asset_id: 113983
+      name: soc1fl4.5
+      size: 4194304
+      blob_id: 41410
+    - id: 750897
+      asset_id: 113983
+      name: soc1rom0.7
+      size: 8388608
+      blob_id: 41411
+    - id: 750898
+      asset_id: 113983
+      name: soc1rom1.8
+      size: 8388608
+      blob_id: 41412
+    - id: 750899
+      asset_id: 113983
+      name: soc1rom2.9
+      size: 8388608
+      blob_id: 41413
+    - id: 750900
+      asset_id: 113983
+      name: soc1vera.11s
+      size: 524288
+      blob_id: 41414
+    - id: 750901
+      asset_id: 113983
+      name: soc1wave0.2
+      size: 8388608
+      blob_id: 41415
+- release:
+    id: 98252
+    game_id: 3865
+    description: ""
+    release_date: 19980000
+  names:
+  - id: 230811
+    kind: 3
+    kind_id: 98252
+    language: 1
+    name: Soul Calibur (Japan, SOC11/VER.C)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 113984
+      kind: 3
+      kind_id: 98252
+      type: 1
+      name: soulclbrjc.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 750902
+      asset_id: 113984
+      name: soc11verc.2l
+      size: 2097152
+      blob_id: 41422
+    - id: 750903
+      asset_id: 113984
+      name: soc11verc.2p
+      size: 2097152
+      blob_id: 41423
+    - id: 750904
+      asset_id: 113984
+      name: soc1fl3.6
+      size: 4194304
+      blob_id: 41409
+    - id: 750905
+      asset_id: 113984
+      name: soc1fl4.5
+      size: 4194304
+      blob_id: 41410
+    - id: 750906
+      asset_id: 113984
+      name: soc1rom0.7
+      size: 8388608
+      blob_id: 41411
+    - id: 750907
+      asset_id: 113984
+      name: soc1rom1.8
+      size: 8388608
+      blob_id: 41412
+    - id: 750908
+      asset_id: 113984
+      name: soc1rom2.9
+      size: 8388608
+      blob_id: 41413
+    - id: 750909
+      asset_id: 113984
+      name: soc1vera.11s
+      size: 524288
+      blob_id: 41414
+    - id: 750910
+      asset_id: 113984
+      name: soc1wave0.2
+      size: 8388608
+      blob_id: 41415
+- release:
+    id: 98253
+    game_id: 3865
+    description: ""
+    release_date: 19980000
+  names:
+  - id: 230812
+    kind: 3
+    kind_id: 98253
+    language: 1
+    name: Soul Calibur (US, SOC13/VER.B)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 113985
+      kind: 3
+      kind_id: 98253
+      type: 1
+      name: soulclbrub.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 750911
+      asset_id: 113985
+      name: soc13verb.2e
+      size: 2097152
+      blob_id: 41424
+    - id: 750912
+      asset_id: 113985
+      name: soc13verb.2j
+      size: 2097152
+      blob_id: 41425
+    - id: 750913
+      asset_id: 113985
+      name: soc1fl3.6
+      size: 4194304
+      blob_id: 41409
+    - id: 750914
+      asset_id: 113985
+      name: soc1fl4.5
+      size: 4194304
+      blob_id: 41410
+    - id: 750915
+      asset_id: 113985
+      name: soc1rom0.7
+      size: 8388608
+      blob_id: 41411
+    - id: 750916
+      asset_id: 113985
+      name: soc1rom1.8
+      size: 8388608
+      blob_id: 41412
+    - id: 750917
+      asset_id: 113985
+      name: soc1rom2.9
+      size: 8388608
+      blob_id: 41413
+    - id: 750918
+      asset_id: 113985
+      name: soc1vera.11s
+      size: 524288
+      blob_id: 41414
+    - id: 750919
+      asset_id: 113985
+      name: soc1wave0.2
+      size: 8388608
+      blob_id: 41415
+- release:
+    id: 98254
+    game_id: 3865
+    description: ""
+    release_date: 19980000
+  names:
+  - id: 230813
+    kind: 3
+    kind_id: 98254
+    language: 1
+    name: Soul Calibur (US, SOC13/VER.C)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 113986
+      kind: 3
+      kind_id: 98254
+      type: 1
+      name: soulclbruc.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 750920
+      asset_id: 113986
+      name: soc13verc.2l
+      size: 2097152
+      blob_id: 41426
+    - id: 750921
+      asset_id: 113986
+      name: soc13verc.2p
+      size: 2097152
+      blob_id: 41427
+    - id: 750922
+      asset_id: 113986
+      name: soc1fl3.6
+      size: 4194304
+      blob_id: 41409
+    - id: 750923
+      asset_id: 113986
+      name: soc1fl4.5
+      size: 4194304
+      blob_id: 41410
+    - id: 750924
+      asset_id: 113986
+      name: soc1rom0.7
+      size: 8388608
+      blob_id: 41411
+    - id: 750925
+      asset_id: 113986
+      name: soc1rom1.8
+      size: 8388608
+      blob_id: 41412
+    - id: 750926
+      asset_id: 113986
+      name: soc1rom2.9
+      size: 8388608
+      blob_id: 41413
+    - id: 750927
+      asset_id: 113986
+      name: soc1vera.11s
+      size: 524288
+      blob_id: 41414
+    - id: 750928
+      asset_id: 113986
+      name: soc1wave0.2
+      size: 8388608
+      blob_id: 41415
+- release:
+    id: 105276
+    game_id: 3865
+    description: ""
+    release_date: 19980000
+  names:
+  - id: 241980
+    kind: 3
+    kind_id: 105276
+    language: 1
+    name: Soul Calibur (World, SOC12/VER.A2)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 121060
+      kind: 3
+      kind_id: 105276
+      type: 1
+      name: soulclbra.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.259
+    entries:
+    - id: 885407
+      asset_id: 121060
+      name: soc12vera.2l
+      size: 2097152
+      blob_id: 41416
+    - id: 885408
+      asset_id: 121060
+      name: soc12vera.2p
+      size: 2097152
+      blob_id: 41417
+    - id: 885409
+      asset_id: 121060
+      name: soc1fl3.6
+      size: 4194304
+      blob_id: 41409
+    - id: 885410
+      asset_id: 121060
+      name: soc1fl4.5
+      size: 4194304
+      blob_id: 41410
+    - id: 885411
+      asset_id: 121060
+      name: soc1rom0.7
+      size: 8388608
+      blob_id: 41411
+    - id: 885412
+      asset_id: 121060
+      name: soc1rom1.8
+      size: 8388608
+      blob_id: 41412
+    - id: 885413
+      asset_id: 121060
+      name: soc1rom2.9
+      size: 8388608
+      blob_id: 41413
+    - id: 885414
+      asset_id: 121060
+      name: soc1vera.11s
+      size: 524288
+      blob_id: 41414
+    - id: 885415
+      asset_id: 121060
+      name: soc1wave0.2
+      size: 8388608
+      blob_id: 41415
+- release:
+    id: 105277
+    game_id: 3865
+    description: ""
+    release_date: 19980000
+  names:
+  - id: 241981
+    kind: 3
+    kind_id: 105277
+    language: 1
+    name: Soul Calibur (Japan, SOC11/VER.A2)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 121061
+      kind: 3
+      kind_id: 105277
+      type: 1
+      name: soulclbrja.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.259
+    entries:
+    - id: 885416
+      asset_id: 121061
+      name: soc1fl3.6
+      size: 4194304
+      blob_id: 41409
+    - id: 885417
+      asset_id: 121061
+      name: soc1fl4.5
+      size: 4194304
+      blob_id: 41410
+    - id: 885418
+      asset_id: 121061
+      name: soc1rom0.7
+      size: 8388608
+      blob_id: 41411
+    - id: 885419
+      asset_id: 121061
+      name: soc1rom1.8
+      size: 8388608
+      blob_id: 41412
+    - id: 885420
+      asset_id: 121061
+      name: soc1rom2.9
+      size: 8388608
+      blob_id: 41413
+    - id: 885421
+      asset_id: 121061
+      name: soc1vera.11s
+      size: 524288
+      blob_id: 41414
+    - id: 885422
+      asset_id: 121061
+      name: soc1vera.2l
+      size: 2097152
+      blob_id: 41418
+    - id: 885423
+      asset_id: 121061
+      name: soc1vera.2p
+      size: 2097152
+      blob_id: 41419
+    - id: 885424
+      asset_id: 121061
       name: soc1wave0.2
       size: 8388608
       blob_id: 41415

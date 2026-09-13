@@ -16,6 +16,36 @@ names:
   language: 2
   name: 太空驱逐舰 (新版)
   source: trimui
+- id: 188589
+  kind: 2
+  kind_id: 81
+  language: 1
+  name: "Bosconian - Star Destroyer (version 1, newer)"
+  source: mame
+- id: 188590
+  kind: 2
+  kind_id: 81
+  language: 1
+  name: "Bosconian - Star Destroyer (version 1, older)"
+  source: mame
+- id: 188591
+  kind: 2
+  kind_id: 81
+  language: 1
+  name: "Bosconian - Star Destroyer (version 3)"
+  source: mame
+- id: 188592
+  kind: 2
+  kind_id: 81
+  language: 1
+  name: "Bosconian - Star Destroyer (Midway, new version)"
+  source: mame
+- id: 188593
+  kind: 2
+  kind_id: 81
+  language: 1
+  name: "Bosconian - Star Destroyer (Midway, old version)"
+  source: mame
 game_developers:
 - game_id: 81
   developer_id: 19
@@ -159,24 +189,10 @@ releases:
       blob_id: 85536
       debug: arcade/wheel/bosco.png
     entries: []
-- release:
-    id: 38400
-    game_id: 81
-    description: ""
-    release_date: 19810000
-  names:
-  - id: 107865
-    kind: 3
-    kind_id: 38400
-    language: 1
-    name: "Bosconian - Star Destroyer (version 5)"
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 51470
+      id: 95235
       kind: 3
-      kind_id: 38400
+      kind_id: 81
       type: 1
       name: bosco.zip
       description: ""
@@ -185,98 +201,703 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 118224
-      asset_id: 51470
+    - id: 556422
+      asset_id: 95235
       name: bos1-1.1d
       size: 256
-      blob_id: 100622
-    - id: 118225
-      asset_id: 51470
+      blob_id: 206882
+    - id: 556423
+      asset_id: 95235
       name: bos1-2.5c
       size: 256
       blob_id: 1465
-    - id: 118226
-      asset_id: 51470
+    - id: 556424
+      asset_id: 95235
       name: bos1-3.2d
       size: 32
-      blob_id: 100623
-    - id: 118227
-      asset_id: 51470
+      blob_id: 206883
+    - id: 556425
+      asset_id: 95235
       name: bos1-4.2r
       size: 256
-      blob_id: 100624
-    - id: 118228
-      asset_id: 51470
+      blob_id: 206884
+    - id: 556426
+      asset_id: 95235
       name: bos1-5.4m
       size: 256
-      blob_id: 100625
-    - id: 118229
-      asset_id: 51470
+      blob_id: 206885
+    - id: 556427
+      asset_id: 95235
       name: bos1-6.6b
       size: 32
-      blob_id: 100626
-    - id: 118230
-      asset_id: 51470
+      blob_id: 206886
+    - id: 556428
+      asset_id: 95235
       name: bos1-7.7h
       size: 32
-      blob_id: 100627
-    - id: 118231
-      asset_id: 51470
+      blob_id: 206887
+    - id: 556429
+      asset_id: 95235
       name: bos1_10.5m
       size: 4096
       blob_id: 1096
-    - id: 118232
-      asset_id: 51470
+    - id: 556430
+      asset_id: 95235
       name: bos1_11.5k
       size: 4096
       blob_id: 1097
-    - id: 118233
-      asset_id: 51470
+    - id: 556431
+      asset_id: 95235
       name: bos1_13.5e
       size: 4096
       blob_id: 1098
-    - id: 118234
-      asset_id: 51470
+    - id: 556432
+      asset_id: 95235
       name: bos1_14.5d
       size: 4096
       blob_id: 1099
-    - id: 118235
-      asset_id: 51470
+    - id: 556433
+      asset_id: 95235
       name: bos1_7.2c
       size: 4096
       blob_id: 1094
-    - id: 118236
-      asset_id: 51470
+    - id: 556434
+      asset_id: 95235
       name: bos1_9.5n
       size: 4096
       blob_id: 1095
-    - id: 118237
-      asset_id: 51470
+    - id: 556435
+      asset_id: 95235
       name: bos5_1.3p
       size: 4096
-      blob_id: 100628
-    - id: 118238
-      asset_id: 51470
+      blob_id: 206888
+    - id: 556436
+      asset_id: 95235
       name: bos5_2.3m
       size: 4096
-      blob_id: 100629
-    - id: 118239
-      asset_id: 51470
+      blob_id: 206889
+    - id: 556437
+      asset_id: 95235
       name: bos5_3.2m
       size: 4096
-      blob_id: 100630
-    - id: 118240
-      asset_id: 51470
+      blob_id: 206890
+    - id: 556438
+      asset_id: 95235
       name: bos5_4.2l
       size: 4096
-      blob_id: 100631
-    - id: 118241
-      asset_id: 51470
+      blob_id: 206891
+    - id: 556439
+      asset_id: 95235
       name: bos5_5.3f
       size: 4096
-      blob_id: 100632
-    - id: 118242
-      asset_id: 51470
+      blob_id: 206892
+    - id: 556440
+      asset_id: 95235
       name: bos5_6.3j
       size: 4096
-      blob_id: 100633
+      blob_id: 206893
+- release:
+    id: 80558
+    game_id: 81
+    description: ""
+    release_date: 19810000
+  names:
+  - id: 205195
+    kind: 3
+    kind_id: 80558
+    language: 1
+    name: "Bosconian - Star Destroyer (version 1, newer)"
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 95236
+      kind: 3
+      kind_id: 80558
+      type: 1
+      name: bosco1.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 556441
+      asset_id: 95236
+      name: bos1-1.1d
+      size: 256
+      blob_id: 206882
+    - id: 556442
+      asset_id: 95236
+      name: bos1-2.5c
+      size: 256
+      blob_id: 1465
+    - id: 556443
+      asset_id: 95236
+      name: bos1-3.2d
+      size: 32
+      blob_id: 206883
+    - id: 556444
+      asset_id: 95236
+      name: bos1-4.2r
+      size: 256
+      blob_id: 206884
+    - id: 556445
+      asset_id: 95236
+      name: bos1-5.4m
+      size: 256
+      blob_id: 206885
+    - id: 556446
+      asset_id: 95236
+      name: bos1-6.6b
+      size: 32
+      blob_id: 206886
+    - id: 556447
+      asset_id: 95236
+      name: bos1-7.7h
+      size: 32
+      blob_id: 206887
+    - id: 556448
+      asset_id: 95236
+      name: bos1_1.3n
+      size: 4096
+      blob_id: 1104
+    - id: 556449
+      asset_id: 95236
+      name: bos1_10.5m
+      size: 4096
+      blob_id: 1096
+    - id: 556450
+      asset_id: 95236
+      name: bos1_11.5k
+      size: 4096
+      blob_id: 1097
+    - id: 556451
+      asset_id: 95236
+      name: bos1_13.5e
+      size: 4096
+      blob_id: 1098
+    - id: 556452
+      asset_id: 95236
+      name: bos1_14.5d
+      size: 4096
+      blob_id: 1099
+    - id: 556453
+      asset_id: 95236
+      name: bos1_2.3m
+      size: 4096
+      blob_id: 1103
+    - id: 556454
+      asset_id: 95236
+      name: bos1_3.3l
+      size: 4096
+      blob_id: 1102
+    - id: 556455
+      asset_id: 95236
+      name: bos1_4b.3k
+      size: 4096
+      blob_id: 1101
+    - id: 556456
+      asset_id: 95236
+      name: bos1_5c.3j
+      size: 4096
+      blob_id: 1100
+    - id: 556457
+      asset_id: 95236
+      name: bos1_6.3h
+      size: 4096
+      blob_id: 1093
+    - id: 556458
+      asset_id: 95236
+      name: bos1_7.3e
+      size: 4096
+      blob_id: 1094
+    - id: 556459
+      asset_id: 95236
+      name: bos1_9.5n
+      size: 4096
+      blob_id: 1095
+- release:
+    id: 80559
+    game_id: 81
+    description: ""
+    release_date: 19810000
+  names:
+  - id: 205196
+    kind: 3
+    kind_id: 80559
+    language: 1
+    name: "Bosconian - Star Destroyer (version 1, older)"
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 95237
+      kind: 3
+      kind_id: 80559
+      type: 1
+      name: bosco1o.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 556460
+      asset_id: 95237
+      name: bos1-1.1d
+      size: 256
+      blob_id: 206882
+    - id: 556461
+      asset_id: 95237
+      name: bos1-2.5c
+      size: 256
+      blob_id: 1465
+    - id: 556462
+      asset_id: 95237
+      name: bos1-3.2d
+      size: 32
+      blob_id: 206883
+    - id: 556463
+      asset_id: 95237
+      name: bos1-4.2r
+      size: 256
+      blob_id: 206884
+    - id: 556464
+      asset_id: 95237
+      name: bos1-5.4m
+      size: 256
+      blob_id: 206885
+    - id: 556465
+      asset_id: 95237
+      name: bos1-6.6b
+      size: 32
+      blob_id: 206886
+    - id: 556466
+      asset_id: 95237
+      name: bos1-7.7h
+      size: 32
+      blob_id: 206887
+    - id: 556467
+      asset_id: 95237
+      name: bos1_1.3n
+      size: 4096
+      blob_id: 1104
+    - id: 556468
+      asset_id: 95237
+      name: bos1_10.5m
+      size: 4096
+      blob_id: 1096
+    - id: 556469
+      asset_id: 95237
+      name: bos1_11.5k
+      size: 4096
+      blob_id: 1097
+    - id: 556470
+      asset_id: 95237
+      name: bos1_13.5e
+      size: 4096
+      blob_id: 1098
+    - id: 556471
+      asset_id: 95237
+      name: bos1_14.5d
+      size: 4096
+      blob_id: 1099
+    - id: 556472
+      asset_id: 95237
+      name: bos1_2.3m
+      size: 4096
+      blob_id: 1103
+    - id: 556473
+      asset_id: 95237
+      name: bos1_3.3l
+      size: 4096
+      blob_id: 1102
+    - id: 556474
+      asset_id: 95237
+      name: bos1_4.3k
+      size: 4096
+      blob_id: 240789
+    - id: 556475
+      asset_id: 95237
+      name: bos1_5b.3j
+      size: 4096
+      blob_id: 240790
+    - id: 556476
+      asset_id: 95237
+      name: bos1_6.3h
+      size: 4096
+      blob_id: 1093
+    - id: 556477
+      asset_id: 95237
+      name: bos1_7.3e
+      size: 4096
+      blob_id: 1094
+    - id: 556478
+      asset_id: 95237
+      name: bos1_9.5n
+      size: 4096
+      blob_id: 1095
+- release:
+    id: 80560
+    game_id: 81
+    description: ""
+    release_date: 19810000
+  names:
+  - id: 205197
+    kind: 3
+    kind_id: 80560
+    language: 1
+    name: "Bosconian - Star Destroyer (version 3)"
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 95238
+      kind: 3
+      kind_id: 80560
+      type: 1
+      name: bosco3.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 556479
+      asset_id: 95238
+      name: bos1-1.1d
+      size: 256
+      blob_id: 206882
+    - id: 556480
+      asset_id: 95238
+      name: bos1-2.5c
+      size: 256
+      blob_id: 1465
+    - id: 556481
+      asset_id: 95238
+      name: bos1-3.2d
+      size: 32
+      blob_id: 206883
+    - id: 556482
+      asset_id: 95238
+      name: bos1-4.2r
+      size: 256
+      blob_id: 206884
+    - id: 556483
+      asset_id: 95238
+      name: bos1-5.4m
+      size: 256
+      blob_id: 206885
+    - id: 556484
+      asset_id: 95238
+      name: bos1-6.6b
+      size: 32
+      blob_id: 206886
+    - id: 556485
+      asset_id: 95238
+      name: bos1-7.7h
+      size: 32
+      blob_id: 206887
+    - id: 556486
+      asset_id: 95238
+      name: bos1_10.5m
+      size: 4096
+      blob_id: 1096
+    - id: 556487
+      asset_id: 95238
+      name: bos1_11.5k
+      size: 4096
+      blob_id: 1097
+    - id: 556488
+      asset_id: 95238
+      name: bos1_13.5e
+      size: 4096
+      blob_id: 1098
+    - id: 556489
+      asset_id: 95238
+      name: bos1_14.5d
+      size: 4096
+      blob_id: 1099
+    - id: 556490
+      asset_id: 95238
+      name: bos1_2.3m
+      size: 4096
+      blob_id: 1103
+    - id: 556491
+      asset_id: 95238
+      name: bos1_3.3l
+      size: 4096
+      blob_id: 1102
+    - id: 556492
+      asset_id: 95238
+      name: bos1_4b.3k
+      size: 4096
+      blob_id: 1101
+    - id: 556493
+      asset_id: 95238
+      name: bos1_5c.3j
+      size: 4096
+      blob_id: 1100
+    - id: 556494
+      asset_id: 95238
+      name: bos1_7.3e
+      size: 4096
+      blob_id: 1094
+    - id: 556495
+      asset_id: 95238
+      name: bos1_9.5n
+      size: 4096
+      blob_id: 1095
+    - id: 556496
+      asset_id: 95238
+      name: bos3_1.3n
+      size: 4096
+      blob_id: 240791
+    - id: 556497
+      asset_id: 95238
+      name: bos3_6.3h
+      size: 4096
+      blob_id: 240792
+- release:
+    id: 80561
+    game_id: 81
+    description: ""
+    release_date: 19810000
+  names:
+  - id: 205198
+    kind: 3
+    kind_id: 80561
+    language: 1
+    name: "Bosconian - Star Destroyer (Midway, new version)"
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 95239
+      kind: 3
+      kind_id: 80561
+      type: 1
+      name: boscomd.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 556498
+      asset_id: 95239
+      name: 2900.3e
+      size: 4096
+      blob_id: 1094
+    - id: 556499
+      asset_id: 95239
+      name: 3h
+      size: 4096
+      blob_id: 240793
+    - id: 556500
+      asset_id: 95239
+      name: 3j
+      size: 4096
+      blob_id: 240794
+    - id: 556501
+      asset_id: 95239
+      name: 3k
+      size: 4096
+      blob_id: 240795
+    - id: 556502
+      asset_id: 95239
+      name: 3l
+      size: 4096
+      blob_id: 240796
+    - id: 556503
+      asset_id: 95239
+      name: 3m
+      size: 4096
+      blob_id: 240797
+    - id: 556504
+      asset_id: 95239
+      name: 3n
+      size: 4096
+      blob_id: 240798
+    - id: 556505
+      asset_id: 95239
+      name: 4900.5n
+      size: 4096
+      blob_id: 1095
+    - id: 556506
+      asset_id: 95239
+      name: 5000.5m
+      size: 4096
+      blob_id: 1096
+    - id: 556507
+      asset_id: 95239
+      name: 5100.5l
+      size: 4096
+      blob_id: 1097
+    - id: 556508
+      asset_id: 95239
+      name: 5200.5e
+      size: 4096
+      blob_id: 1098
+    - id: 556509
+      asset_id: 95239
+      name: 5300.5d
+      size: 4096
+      blob_id: 1099
+    - id: 556510
+      asset_id: 95239
+      name: bosco.4m
+      size: 256
+      blob_id: 206885
+    - id: 556511
+      asset_id: 95239
+      name: bosco.6b
+      size: 32
+      blob_id: 206886
+    - id: 556512
+      asset_id: 95239
+      name: prom.1d
+      size: 256
+      blob_id: 206882
+    - id: 556513
+      asset_id: 95239
+      name: prom.2d
+      size: 256
+      blob_id: 206884
+    - id: 556514
+      asset_id: 95239
+      name: prom.2r
+      size: 32
+      blob_id: 206883
+    - id: 556515
+      asset_id: 95239
+      name: prom.5c
+      size: 256
+      blob_id: 1465
+    - id: 556516
+      asset_id: 95239
+      name: prom.7h
+      size: 32
+      blob_id: 206887
+- release:
+    id: 80562
+    game_id: 81
+    description: ""
+    release_date: 19810000
+  names:
+  - id: 205199
+    kind: 3
+    kind_id: 80562
+    language: 1
+    name: "Bosconian - Star Destroyer (Midway, old version)"
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 95240
+      kind: 3
+      kind_id: 80562
+      type: 1
+      name: boscomdo.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 556517
+      asset_id: 95240
+      name: 2300.3n
+      size: 4096
+      blob_id: 1088
+    - id: 556518
+      asset_id: 95240
+      name: 2400.3m
+      size: 4096
+      blob_id: 1089
+    - id: 556519
+      asset_id: 95240
+      name: 2500.3l
+      size: 4096
+      blob_id: 1090
+    - id: 556520
+      asset_id: 95240
+      name: 2600.3k
+      size: 4096
+      blob_id: 1091
+    - id: 556521
+      asset_id: 95240
+      name: 2700.3j
+      size: 4096
+      blob_id: 1092
+    - id: 556522
+      asset_id: 95240
+      name: 2800.3h
+      size: 4096
+      blob_id: 1093
+    - id: 556523
+      asset_id: 95240
+      name: 2900.3e
+      size: 4096
+      blob_id: 1094
+    - id: 556524
+      asset_id: 95240
+      name: 4900.5n
+      size: 4096
+      blob_id: 1095
+    - id: 556525
+      asset_id: 95240
+      name: 5000.5m
+      size: 4096
+      blob_id: 1096
+    - id: 556526
+      asset_id: 95240
+      name: 5100.5l
+      size: 4096
+      blob_id: 1097
+    - id: 556527
+      asset_id: 95240
+      name: 5200.5e
+      size: 4096
+      blob_id: 1098
+    - id: 556528
+      asset_id: 95240
+      name: 5300.5d
+      size: 4096
+      blob_id: 1099
+    - id: 556529
+      asset_id: 95240
+      name: bosco.4m
+      size: 256
+      blob_id: 206885
+    - id: 556530
+      asset_id: 95240
+      name: bosco.6b
+      size: 32
+      blob_id: 206886
+    - id: 556531
+      asset_id: 95240
+      name: prom.1d
+      size: 256
+      blob_id: 206882
+    - id: 556532
+      asset_id: 95240
+      name: prom.2d
+      size: 256
+      blob_id: 206884
+    - id: 556533
+      asset_id: 95240
+      name: prom.2r
+      size: 32
+      blob_id: 206883
+    - id: 556534
+      asset_id: 95240
+      name: prom.5c
+      size: 256
+      blob_id: 1465
+    - id: 556535
+      asset_id: 95240
+      name: prom.7h
+      size: 32
+      blob_id: 206887

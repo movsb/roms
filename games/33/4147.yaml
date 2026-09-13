@@ -10,6 +10,12 @@ names:
   language: 1
   name: tankbatt
   source: ""
+- id: 199917
+  kind: 2
+  kind_id: 4147
+  language: 1
+  name: Tank Battalion (bootleg)
+  source: mame
 game_developers:
 - game_id: 4147
   developer_id: 19
@@ -118,6 +124,50 @@ releases:
       blob_id: 90118
       debug: arcade/wheel/tankbatt.png
     entries: []
+  - asset:
+      id: 115158
+      kind: 3
+      kind_id: 4147
+      type: 1
+      name: tankbatt.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/2331884027
+    entries:
+    - id: 764899
+      asset_id: 115158
+      name: bct1-1.l3
+      size: 256
+      blob_id: 305474
+    - id: 764900
+      asset_id: 115158
+      name: tb1-1.1a
+      size: 2048
+      blob_id: 44472
+    - id: 764901
+      asset_id: 115158
+      name: tb1-2.1b
+      size: 2048
+      blob_id: 44473
+    - id: 764902
+      asset_id: 115158
+      name: tb1-3.1c
+      size: 2048
+      blob_id: 44474
+    - id: 764903
+      asset_id: 115158
+      name: tb1-4.1d
+      size: 2048
+      blob_id: 44475
+    - id: 764904
+      asset_id: 115158
+      name: tb1-5.2k
+      size: 2048
+      blob_id: 44476
 - release:
     id: 4148
     game_id: 4147
@@ -181,58 +231,60 @@ releases:
       size: 2048
       blob_id: 44476
 - release:
-    id: 72697
+    id: 99317
     game_id: 4147
     description: ""
     release_date: 19800000
   names:
-  - id: 175364
+  - id: 232344
     kind: 3
-    kind_id: 72697
+    kind_id: 99317
     language: 1
-    name: Tank Battalion
+    name: Tank Battalion (bootleg)
     source: mame
   release_publishers: []
   assets:
   - asset:
-      id: 85767
+      id: 115159
       kind: 3
-      kind_id: 72697
+      kind_id: 99317
       type: 1
-      name: tankbatt.zip
+      name: tankbattb.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
-      debug: dat:mame:0.289
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/3219786591
     entries:
-    - id: 387141
-      asset_id: 85767
+    - id: 764905
+      asset_id: 115159
       name: bct1-1.l3
       size: 256
-      blob_id: 188643
-    - id: 387142
-      asset_id: 85767
+      blob_id: 305474
+    - id: 764906
+      asset_id: 115159
+      name: e.2k
+      size: 2048
+      blob_id: 305475
+    - id: 764907
+      asset_id: 115159
       name: tb1-1.1a
       size: 2048
       blob_id: 44472
-    - id: 387143
-      asset_id: 85767
+    - id: 764908
+      asset_id: 115159
       name: tb1-2.1b
       size: 2048
       blob_id: 44473
-    - id: 387144
-      asset_id: 85767
+    - id: 764909
+      asset_id: 115159
       name: tb1-3.1c
       size: 2048
       blob_id: 44474
-    - id: 387145
-      asset_id: 85767
+    - id: 764910
+      asset_id: 115159
       name: tb1-4.1d
       size: 2048
       blob_id: 44475
-    - id: 387146
-      asset_id: 85767
-      name: tb1-5.2k
-      size: 2048
-      blob_id: 44476

@@ -16,6 +16,12 @@ names:
   language: 2
   name: 青蛙觅食
   source: trimui
+- id: 195675
+  kind: 2
+  kind_id: 3357
+  language: 1
+  name: Ribbit! (Japan)
+  source: mame
 game_developers: []
 game_genres:
 - game_id: 3357
@@ -117,24 +123,10 @@ releases:
       blob_id: 87470
       debug: arcade/wheel/ribbit.png
     entries: []
-- release:
-    id: 63492
-    game_id: 3357
-    description: ""
-    release_date: 19910000
-  names:
-  - id: 157210
-    kind: 3
-    kind_id: 63492
-    language: 1
-    name: Ribbit!
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 76562
+      id: 109163
       kind: 3
-      kind_id: 63492
+      kind_id: 3357
       type: 1
       name: ribbit.zip
       description: ""
@@ -143,28 +135,79 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 321697
-      asset_id: 76562
+    - id: 714690
+      asset_id: 109163
       name: epr-13832.ic31
       size: 262144
       blob_id: 36019
-    - id: 321698
-      asset_id: 76562
+    - id: 714691
+      asset_id: 109163
       name: epr-13833.ic32
       size: 262144
       blob_id: 36020
-    - id: 321699
-      asset_id: 76562
+    - id: 714692
+      asset_id: 109163
       name: epr-13834.ic4
       size: 131072
       blob_id: 36021
-    - id: 321700
-      asset_id: 76562
+    - id: 714693
+      asset_id: 109163
       name: epr-13837.ic33
       size: 524288
       blob_id: 36022
-    - id: 321701
-      asset_id: 76562
+    - id: 714694
+      asset_id: 109163
+      name: epr-13838.ic34
+      size: 524288
+      blob_id: 36023
+- release:
+    id: 93587
+    game_id: 3357
+    description: ""
+    release_date: 19910000
+  names:
+  - id: 225047
+    kind: 3
+    kind_id: 93587
+    language: 1
+    name: Ribbit! (Japan)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 109164
+      kind: 3
+      kind_id: 93587
+      type: 1
+      name: ribbitj.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 714695
+      asset_id: 109164
+      name: epr-13834.ic4
+      size: 131072
+      blob_id: 36021
+    - id: 714696
+      asset_id: 109164
+      name: epr-13835.ic31
+      size: 262144
+      blob_id: 270008
+    - id: 714697
+      asset_id: 109164
+      name: epr-13836.ic32
+      size: 262144
+      blob_id: 270009
+    - id: 714698
+      asset_id: 109164
+      name: epr-13837.ic33
+      size: 524288
+      blob_id: 36022
+    - id: 714699
+      asset_id: 109164
       name: epr-13838.ic34
       size: 524288
       blob_id: 36023

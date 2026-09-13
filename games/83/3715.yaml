@@ -16,8 +16,30 @@ names:
   language: 2
   name: 超级高尔夫大师赛 (世界版?, 磁盘版, FD1094 317-0058-05d?)
   source: trimui
-game_developers: []
-game_genres: []
+- id: 187226
+  kind: 2
+  kind_id: 3715
+  language: 1
+  name: sgmastc
+  source: ""
+- id: 187227
+  kind: 2
+  kind_id: 3715
+  language: 2
+  name: 超级高尔夫大师赛 (世界版, 磁盘版, FD1094 317-0058-05c)
+  source: trimui
+- id: 198976
+  kind: 2
+  kind_id: 3715
+  language: 1
+  name: Jumbo Ozaki Super Masters Golf (Japan, Floppy Based, FD1094 317-0058-05b)
+  source: mame
+game_developers:
+- game_id: 3715
+  developer_id: 110
+game_genres:
+- game_id: 3715
+  genre_id: 6
 assets: []
 releases:
 - release:
@@ -92,24 +114,10 @@ releases:
       name: sgmastj/ds3-5000-05b.img
       size: 1843200
       blob_id: 39714
-- release:
-    id: 70151
-    game_id: 3715
-    description: ""
-    release_date: 19890000
-  names:
-  - id: 170428
-    kind: 3
-    kind_id: 70151
-    language: 1
-    name: Super Masters Golf (World?, Floppy Based, FD1094 317-0058-05d?)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 83221
+      id: 113378
       kind: 3
-      kind_id: 70151
+      kind_id: 3715
       type: 1
       name: sgmast.zip
       description: ""
@@ -118,23 +126,123 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 361270
-      asset_id: 83221
+    - id: 741963
+      asset_id: 113378
       name: 317-0058-05d.key
       size: 8192
       blob_id: 39709
-    - id: 361271
-      asset_id: 83221
+    - id: 741964
+      asset_id: 113378
       name: ds3-5000-05d.img
       size: 1843200
       blob_id: 39710
-    - id: 361272
-      asset_id: 83221
+    - id: 741965
+      asset_id: 113378
       name: epr-12186.ic1
       size: 131072
       blob_id: 9468
-    - id: 361273
-      asset_id: 83221
+    - id: 741966
+      asset_id: 113378
+      name: epr-12187.ic2
+      size: 131072
+      blob_id: 9469
+- release:
+    id: 97700
+    game_id: 3715
+    description: ""
+    release_date: 19890000
+  names:
+  - id: 230031
+    kind: 3
+    kind_id: 97700
+    language: 1
+    name: Jumbo Ozaki Super Masters Golf (Japan, Floppy Based, FD1094 317-0058-05b)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 113380
+      kind: 3
+      kind_id: 97700
+      type: 1
+      name: sgmastj.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 741971
+      asset_id: 113380
+      name: 317-0058-05b.key
+      size: 8192
+      blob_id: 39713
+    - id: 741972
+      asset_id: 113380
+      name: ds3-5000-05b.img
+      size: 1843200
+      blob_id: 39714
+    - id: 741973
+      asset_id: 113380
+      name: epr-12186.ic1
+      size: 131072
+      blob_id: 9468
+    - id: 741974
+      asset_id: 113380
+      name: epr-12187.ic2
+      size: 131072
+      blob_id: 9469
+- release:
+    id: 103134
+    game_id: 3715
+    description: ""
+    release_date: 19890000
+  names:
+  - id: 238054
+    kind: 3
+    kind_id: 103134
+    language: 1
+    name: sgmastc
+    source: ""
+  - id: 238055
+    kind: 3
+    kind_id: 103134
+    language: 2
+    name: 超级高尔夫大师赛 (世界版, 磁盘版, FD1094 317-0058-05c)
+    source: trimui
+  release_publishers:
+  - release_id: 103134
+    publisher_id: 56
+  assets:
+  - asset:
+      id: 113379
+      kind: 3
+      kind_id: 103134
+      type: 1
+      name: sgmastc.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 741967
+      asset_id: 113379
+      name: 317-0058-05c.key
+      size: 8192
+      blob_id: 39711
+    - id: 741968
+      asset_id: 113379
+      name: ds3-5000-05c.img
+      size: 1843200
+      blob_id: 39712
+    - id: 741969
+      asset_id: 113379
+      name: epr-12186.ic1
+      size: 131072
+      blob_id: 9468
+    - id: 741970
+      asset_id: 113379
       name: epr-12187.ic2
       size: 131072
       blob_id: 9469

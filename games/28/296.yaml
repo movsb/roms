@@ -16,6 +16,42 @@ names:
   language: 2
   name: 太空浩劫 (修订版 3)
   source: trimui
+- id: 186629
+  kind: 2
+  kind_id: 296
+  language: 1
+  name: MHAVOCRV
+  source: ""
+- id: 186630
+  kind: 2
+  kind_id: 296
+  language: 2
+  name: "太空浩劫 - 回转瓦克斯"
+  source: trimui
+- id: 187851
+  kind: 2
+  kind_id: 296
+  language: 1
+  name: Alpha One (prototype, 3 lives)
+  source: mame
+- id: 187852
+  kind: 2
+  kind_id: 296
+  language: 1
+  name: Alpha One (prototype, 5 lives)
+  source: mame
+- id: 193231
+  kind: 2
+  kind_id: 296
+  language: 1
+  name: Major Havoc (rev 2)
+  source: mame
+- id: 193232
+  kind: 2
+  kind_id: 296
+  language: 1
+  name: Major Havoc (prototype)
+  source: mame
 game_developers:
 - game_id: 296
   developer_id: 654
@@ -139,24 +175,10 @@ releases:
       blob_id: 88423
       debug: arcade/wheel/mhavoc.png
     entries: []
-- release:
-    id: 58279
-    game_id: 296
-    description: ""
-    release_date: 19830000
-  names:
-  - id: 147016
-    kind: 3
-    kind_id: 58279
-    language: 1
-    name: Major Havoc (rev 3)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 71349
+      id: 104282
       kind: 3
-      kind_id: 58279
+      kind_id: 296
       type: 1
       name: mhavoc.zip
       description: ""
@@ -165,48 +187,409 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 265433
-      asset_id: 71349
+    - id: 660982
+      asset_id: 104282
       name: 136002-125.6c
       size: 256
-      blob_id: 94304
-    - id: 265434
-      asset_id: 71349
+      blob_id: 207034
+    - id: 660983
+      asset_id: 104282
       name: "136025.106"
       size: 16384
       blob_id: 2214
-    - id: 265435
-      asset_id: 71349
+    - id: 660984
+      asset_id: 104282
       name: "136025.107"
       size: 16384
       blob_id: 2213
-    - id: 265436
-      asset_id: 71349
+    - id: 660985
+      asset_id: 104282
       name: "136025.108"
       size: 16384
       blob_id: 2212
-    - id: 265437
-      asset_id: 71349
+    - id: 660986
+      asset_id: 104282
       name: "136025.210"
       size: 8192
       blob_id: 2773
-    - id: 265438
-      asset_id: 71349
+    - id: 660987
+      asset_id: 104282
       name: "136025.215"
       size: 16384
       blob_id: 2774
-    - id: 265439
-      asset_id: 71349
+    - id: 660988
+      asset_id: 104282
       name: "136025.216"
       size: 16384
       blob_id: 2775
-    - id: 265440
-      asset_id: 71349
+    - id: 660989
+      asset_id: 104282
       name: "136025.217"
       size: 16384
       blob_id: 2776
-    - id: 265441
-      asset_id: 71349
+    - id: 660990
+      asset_id: 104282
       name: "136025.318"
       size: 16384
       blob_id: 2777
+- release:
+    id: 88950
+    game_id: 296
+    description: ""
+    release_date: 19830000
+  names:
+  - id: 218072
+    kind: 3
+    kind_id: 88950
+    language: 1
+    name: Major Havoc (rev 2)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 104283
+      kind: 3
+      kind_id: 88950
+      type: 1
+      name: mhavoc2.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 660991
+      asset_id: 104283
+      name: 136002-125.6c
+      size: 256
+      blob_id: 207034
+    - id: 660992
+      asset_id: 104283
+      name: "136025.101"
+      size: 16384
+      blob_id: 2209
+    - id: 660993
+      asset_id: 104283
+      name: "136025.103"
+      size: 16384
+      blob_id: 2216
+    - id: 660994
+      asset_id: 104283
+      name: "136025.104"
+      size: 16384
+      blob_id: 2215
+    - id: 660995
+      asset_id: 104283
+      name: "136025.106"
+      size: 16384
+      blob_id: 2214
+    - id: 660996
+      asset_id: 104283
+      name: "136025.107"
+      size: 16384
+      blob_id: 2213
+    - id: 660997
+      asset_id: 104283
+      name: "136025.108"
+      size: 16384
+      blob_id: 2212
+    - id: 660998
+      asset_id: 104283
+      name: "136025.109"
+      size: 16384
+      blob_id: 2211
+    - id: 660999
+      asset_id: 104283
+      name: "136025.110"
+      size: 8192
+      blob_id: 2210
+- release:
+    id: 88951
+    game_id: 296
+    description: ""
+    release_date: 19830000
+  names:
+  - id: 218073
+    kind: 3
+    kind_id: 88951
+    language: 1
+    name: Major Havoc (prototype)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 104284
+      kind: 3
+      kind_id: 88951
+      type: 1
+      name: mhavocp.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 661000
+      asset_id: 104284
+      name: 136002-125.6c
+      size: 256
+      blob_id: 207034
+    - id: 661001
+      asset_id: 104284
+      name: "136025.006"
+      size: 16384
+      blob_id: 257341
+    - id: 661002
+      asset_id: 104284
+      name: "136025.007"
+      size: 16384
+      blob_id: 257342
+    - id: 661003
+      asset_id: 104284
+      name: "136025.008"
+      size: 16384
+      blob_id: 257343
+    - id: 661004
+      asset_id: 104284
+      name: "136025.010"
+      size: 8192
+      blob_id: 257344
+    - id: 661005
+      asset_id: 104284
+      name: "136025.015"
+      size: 16384
+      blob_id: 257345
+    - id: 661006
+      asset_id: 104284
+      name: "136025.016"
+      size: 16384
+      blob_id: 257346
+    - id: 661007
+      asset_id: 104284
+      name: "136025.017"
+      size: 16384
+      blob_id: 257347
+    - id: 661008
+      asset_id: 104284
+      name: "136025.018"
+      size: 16384
+      blob_id: 257348
+- release:
+    id: 102850
+    game_id: 296
+    description: ""
+    release_date: 0
+  names:
+  - id: 237486
+    kind: 3
+    kind_id: 102850
+    language: 1
+    name: MHAVOCRV
+    source: ""
+  - id: 237487
+    kind: 3
+    kind_id: 102850
+    language: 2
+    name: "太空浩劫 - 回转瓦克斯"
+    source: trimui
+  release_publishers: []
+  assets:
+  - asset:
+      id: 104285
+      kind: 3
+      kind_id: 102850
+      type: 1
+      name: mhavocrv.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 661009
+      asset_id: 104285
+      name: 136002-125.6c
+      size: 256
+      blob_id: 207034
+    - id: 661010
+      asset_id: 104285
+      name: "136025.106"
+      size: 16384
+      blob_id: 2214
+    - id: 661011
+      asset_id: 104285
+      name: "136025.210"
+      size: 8192
+      blob_id: 2773
+    - id: 661012
+      asset_id: 104285
+      name: "136025.907"
+      size: 16384
+      blob_id: 2840
+    - id: 661013
+      asset_id: 104285
+      name: "136025.908"
+      size: 16384
+      blob_id: 2839
+    - id: 661014
+      asset_id: 104285
+      name: "136025.915"
+      size: 16384
+      blob_id: 2838
+    - id: 661015
+      asset_id: 104285
+      name: "136025.916"
+      size: 16384
+      blob_id: 2837
+    - id: 661016
+      asset_id: 104285
+      name: "136025.917"
+      size: 16384
+      blob_id: 2836
+    - id: 661017
+      asset_id: 104285
+      name: "136025.918"
+      size: 16384
+      blob_id: 2835
+- release:
+    id: 103318
+    game_id: 296
+    description: ""
+    release_date: 19830000
+  names:
+  - id: 238294
+    kind: 3
+    kind_id: 103318
+    language: 1
+    name: Alpha One (prototype, 3 lives)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 93747
+      kind: 3
+      kind_id: 103318
+      type: 1
+      name: alphaone.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 539076
+      asset_id: 93747
+      name: 136002-125.6c
+      size: 256
+      blob_id: 207034
+    - id: 539077
+      asset_id: 93747
+      name: 8000.tw
+      size: 8192
+      blob_id: 238913
+    - id: 539078
+      asset_id: 93747
+      name: a000.tw
+      size: 8192
+      blob_id: 238914
+    - id: 539079
+      asset_id: 93747
+      name: e000.tw
+      size: 4096
+      blob_id: 238915
+    - id: 539080
+      asset_id: 93747
+      name: page01.tw
+      size: 16384
+      blob_id: 238916
+    - id: 539081
+      asset_id: 93747
+      name: twjk1.bin
+      size: 8192
+      blob_id: 238917
+    - id: 539082
+      asset_id: 93747
+      name: vec5000.tw
+      size: 4096
+      blob_id: 238918
+    - id: 539083
+      asset_id: 93747
+      name: vec_pg01.tw
+      size: 16384
+      blob_id: 238919
+    - id: 539084
+      asset_id: 93747
+      name: vec_pg23.tw
+      size: 16384
+      blob_id: 238920
+- release:
+    id: 103319
+    game_id: 296
+    description: ""
+    release_date: 19830000
+  names:
+  - id: 238295
+    kind: 3
+    kind_id: 103319
+    language: 1
+    name: Alpha One (prototype, 5 lives)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 93748
+      kind: 3
+      kind_id: 103319
+      type: 1
+      name: alphaonea.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 539085
+      asset_id: 93748
+      name: 136002-125.6c
+      size: 256
+      blob_id: 207034
+    - id: 539086
+      asset_id: 93748
+      name: 8000.tw
+      size: 8192
+      blob_id: 238913
+    - id: 539087
+      asset_id: 93748
+      name: a000.tw
+      size: 8192
+      blob_id: 238914
+    - id: 539088
+      asset_id: 93748
+      name: c000.tw
+      size: 8192
+      blob_id: 238921
+    - id: 539089
+      asset_id: 93748
+      name: e000.tw
+      size: 4096
+      blob_id: 238915
+    - id: 539090
+      asset_id: 93748
+      name: page01.tw
+      size: 16384
+      blob_id: 238916
+    - id: 539091
+      asset_id: 93748
+      name: vec5000.tw
+      size: 4096
+      blob_id: 238918
+    - id: 539092
+      asset_id: 93748
+      name: vec_pg01.tw
+      size: 16384
+      blob_id: 238919
+    - id: 539093
+      asset_id: 93748
+      name: vec_pg23.tw
+      size: 16384
+      blob_id: 238920

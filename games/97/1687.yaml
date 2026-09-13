@@ -10,6 +10,24 @@ names:
   language: 1
   name: footchmp
   source: ""
+- id: 190681
+  kind: 2
+  kind_id: 1687
+  language: 1
+  name: Football Champ / Euro Football Champ (World) (bootleg)
+  source: mame
+- id: 191788
+  kind: 2
+  kind_id: 1687
+  language: 1
+  name: Hat Trick Hero (Japan)
+  source: mame
+- id: 191789
+  kind: 2
+  kind_id: 1687
+  language: 1
+  name: Hat Trick Hero (US)
+  source: mame
 game_developers:
 - game_id: 1687
   developer_id: 35
@@ -138,6 +156,78 @@ releases:
       blob_id: 86762
       debug: arcade/wheel/footchmp.png
     entries: []
+  - asset:
+      id: 99172
+      kind: 3
+      kind_id: 1687
+      type: 1
+      name: footchmp.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 605739
+      asset_id: 99172
+      name: c80-01.9
+      size: 1048576
+      blob_id: 18525
+    - id: 605740
+      asset_id: 99172
+      name: c80-02.10
+      size: 1048576
+      blob_id: 17077
+    - id: 605741
+      asset_id: 99172
+      name: c80-03.57
+      size: 1048576
+      blob_id: 17078
+    - id: 605742
+      asset_id: 99172
+      name: c80-04.1
+      size: 524288
+      blob_id: 18526
+    - id: 605743
+      asset_id: 99172
+      name: c80-05.2
+      size: 524288
+      blob_id: 18527
+    - id: 605744
+      asset_id: 99172
+      name: c80-08.ic45
+      size: 260
+      blob_id: 18533
+    - id: 605745
+      asset_id: 99172
+      name: c80-09.ic46
+      size: 260
+      blob_id: 18534
+    - id: 605746
+      asset_id: 99172
+      name: c80-10.4
+      size: 131072
+      blob_id: 18528
+    - id: 605747
+      asset_id: 99172
+      name: c80-11.6
+      size: 131072
+      blob_id: 18529
+    - id: 605748
+      asset_id: 99172
+      name: c80-12.7
+      size: 131072
+      blob_id: 18530
+    - id: 605749
+      asset_id: 99172
+      name: c80-14.5
+      size: 131072
+      blob_id: 18531
+    - id: 605750
+      asset_id: 99172
+      name: c80-15.70
+      size: 65536
+      blob_id: 18532
 - release:
     id: 1688
     game_id: 1687
@@ -326,88 +416,346 @@ releases:
       size: 131072
       blob_id: 18553
 - release:
-    id: 43881
+    id: 84195
     game_id: 1687
     description: ""
-    release_date: 19900000
+    release_date: 19920000
   names:
-  - id: 118547
+  - id: 210706
     kind: 3
-    kind_id: 43881
+    kind_id: 84195
     language: 1
-    name: Football Champ / Euro Football Champ (World)
+    name: Football Champ / Euro Football Champ (World) (bootleg)
     source: mame
   release_publishers: []
   assets:
   - asset:
-      id: 56951
+      id: 99173
       kind: 3
-      kind_id: 43881
+      kind_id: 84195
       type: 1
-      name: footchmp.zip
+      name: footchmpbl.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 173728
-      asset_id: 56951
+    - id: 605751
+      asset_id: 99173
+      name: bk1.rom6
+      size: 524288
+      blob_id: 18535
+    - id: 605752
+      asset_id: 99173
+      name: bk2.rom7
+      size: 524288
+      blob_id: 18536
+    - id: 605753
+      asset_id: 99173
+      name: bk3.rom8
+      size: 524288
+      blob_id: 18537
+    - id: 605754
+      asset_id: 99173
+      name: bk30.rom13
+      size: 65536
+      blob_id: 18538
+    - id: 605755
+      asset_id: 99173
+      name: bk31.rom14
+      size: 65536
+      blob_id: 18539
+    - id: 605756
+      asset_id: 99173
+      name: bk32.rom15
+      size: 65536
+      blob_id: 18540
+    - id: 605757
+      asset_id: 99173
+      name: bk33.rom16
+      size: 65536
+      blob_id: 18541
+    - id: 605758
+      asset_id: 99173
+      name: bk4.rom9
+      size: 524288
+      blob_id: 18542
+    - id: 605759
+      asset_id: 99173
+      name: cpu7.rom10
+      size: 262144
+      blob_id: 18543
+    - id: 605760
+      asset_id: 99173
+      name: cpu8.rom11
+      size: 262144
+      blob_id: 18544
+    - id: 605761
+      asset_id: 99173
+      name: ob14.rom4
+      size: 524288
+      blob_id: 18545
+    - id: 605762
+      asset_id: 99173
+      name: ob15.rom3
+      size: 524288
+      blob_id: 18546
+    - id: 605763
+      asset_id: 99173
+      name: ob16.rom2
+      size: 524288
+      blob_id: 18547
+    - id: 605764
+      asset_id: 99173
+      name: ob17.rom1
+      size: 524288
+      blob_id: 18548
+    - id: 605765
+      asset_id: 99173
+      name: so3.rom5
+      size: 524288
+      blob_id: 18549
+    - id: 605766
+      asset_id: 99173
+      name: so7.rom12
+      size: 32768
+      blob_id: 18550
+- release:
+    id: 86136
+    game_id: 1687
+    description: ""
+    release_date: 19900000
+  names:
+  - id: 213671
+    kind: 3
+    kind_id: 86136
+    language: 1
+    name: Hat Trick Hero (Japan)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 101272
+      kind: 3
+      kind_id: 86136
+      type: 1
+      name: htheroj.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 630799
+      asset_id: 101272
       name: c80-01.9
       size: 1048576
       blob_id: 18525
-    - id: 173729
-      asset_id: 56951
+    - id: 630800
+      asset_id: 101272
       name: c80-02.10
       size: 1048576
       blob_id: 17077
-    - id: 173730
-      asset_id: 56951
+    - id: 630801
+      asset_id: 101272
       name: c80-03.57
       size: 1048576
       blob_id: 17078
-    - id: 173731
-      asset_id: 56951
+    - id: 630802
+      asset_id: 101272
       name: c80-04.1
       size: 524288
       blob_id: 18526
-    - id: 173732
-      asset_id: 56951
+    - id: 630803
+      asset_id: 101272
       name: c80-05.2
       size: 524288
       blob_id: 18527
-    - id: 173733
-      asset_id: 56951
-      name: c80-08.ic45
-      size: 260
-      blob_id: 18533
-    - id: 173734
-      asset_id: 56951
-      name: c80-09.ic46
-      size: 260
-      blob_id: 18534
-    - id: 173735
-      asset_id: 56951
-      name: c80-10.4
-      size: 131072
-      blob_id: 18528
-    - id: 173736
-      asset_id: 56951
-      name: c80-11.6
-      size: 131072
-      blob_id: 18529
-    - id: 173737
-      asset_id: 56951
+    - id: 630804
+      asset_id: 101272
       name: c80-12.7
       size: 131072
       blob_id: 18530
-    - id: 173738
-      asset_id: 56951
-      name: c80-14.5
-      size: 131072
-      blob_id: 18531
-    - id: 173739
-      asset_id: 56951
+    - id: 630805
+      asset_id: 101272
       name: c80-15.70
       size: 65536
       blob_id: 18532
+    - id: 630806
+      asset_id: 101272
+      name: c80-16.6
+      size: 131072
+      blob_id: 18551
+    - id: 630807
+      asset_id: 101272
+      name: c80-17.4
+      size: 131072
+      blob_id: 18552
+    - id: 630808
+      asset_id: 101272
+      name: c80-18.5
+      size: 131072
+      blob_id: 18553
+- release:
+    id: 86137
+    game_id: 1687
+    description: ""
+    release_date: 19900000
+  names:
+  - id: 213672
+    kind: 3
+    kind_id: 86137
+    language: 1
+    name: Hat Trick Hero (US)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 101273
+      kind: 3
+      kind_id: 86137
+      type: 1
+      name: htherou.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 630809
+      asset_id: 101273
+      name: c80-01.9
+      size: 1048576
+      blob_id: 18525
+    - id: 630810
+      asset_id: 101273
+      name: c80-02.10
+      size: 1048576
+      blob_id: 17077
+    - id: 630811
+      asset_id: 101273
+      name: c80-03.57
+      size: 1048576
+      blob_id: 17078
+    - id: 630812
+      asset_id: 101273
+      name: c80-04.1
+      size: 524288
+      blob_id: 18526
+    - id: 630813
+      asset_id: 101273
+      name: c80-05.2
+      size: 524288
+      blob_id: 18527
+    - id: 630814
+      asset_id: 101273
+      name: c80-08.ic45
+      size: 260
+      blob_id: 18533
+    - id: 630815
+      asset_id: 101273
+      name: c80-09.ic46
+      size: 260
+      blob_id: 18534
+    - id: 630816
+      asset_id: 101273
+      name: c80-10.4
+      size: 131072
+      blob_id: 18528
+    - id: 630817
+      asset_id: 101273
+      name: c80-11.6
+      size: 131072
+      blob_id: 18529
+    - id: 630818
+      asset_id: 101273
+      name: c80-12.7
+      size: 131072
+      blob_id: 18530
+    - id: 630819
+      asset_id: 101273
+      name: c80-13.5
+      size: 131072
+      blob_id: 249136
+    - id: 630820
+      asset_id: 101273
+      name: c80-15.70
+      size: 65536
+      blob_id: 18532
+- release:
+    id: 102533
+    game_id: 1687
+    description: ""
+    release_date: 19900000
+  names:
+  - id: 236948
+    kind: 3
+    kind_id: 102533
+    language: 1
+    name: Hat Trick Hero (Japan)
+    source: fbneo
+  release_publishers: []
+  assets:
+  - asset:
+      id: 118882
+      kind: 3
+      kind_id: 102533
+      type: 1
+      name: hthero.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 814873
+      asset_id: 118882
+      name: c80-01.9
+      size: 1048576
+      blob_id: 18525
+    - id: 814874
+      asset_id: 118882
+      name: c80-02.10
+      size: 1048576
+      blob_id: 17077
+    - id: 814875
+      asset_id: 118882
+      name: c80-03.57
+      size: 1048576
+      blob_id: 17078
+    - id: 814876
+      asset_id: 118882
+      name: c80-04.1
+      size: 524288
+      blob_id: 18526
+    - id: 814877
+      asset_id: 118882
+      name: c80-05.2
+      size: 524288
+      blob_id: 18527
+    - id: 814878
+      asset_id: 118882
+      name: c80-12.7
+      size: 131072
+      blob_id: 18530
+    - id: 814879
+      asset_id: 118882
+      name: c80-15.70
+      size: 65536
+      blob_id: 18532
+    - id: 814880
+      asset_id: 118882
+      name: c80-16.6
+      size: 131072
+      blob_id: 18551
+    - id: 814881
+      asset_id: 118882
+      name: c80-17.4
+      size: 131072
+      blob_id: 18552
+    - id: 814882
+      asset_id: 118882
+      name: c80-18.5
+      size: 131072
+      blob_id: 18553

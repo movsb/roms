@@ -16,8 +16,84 @@ names:
   language: 2
   name: 空战之路 (欧版 / 美版 / 日版 / 亚版) (Sat Feb 3 1996)
   source: trimui
-game_developers: []
-game_genres: []
+- id: 186723
+  kind: 2
+  kind_id: 830
+  language: 1
+  name: battleg
+  source: ""
+- id: 186724
+  kind: 2
+  kind_id: 830
+  language: 1
+  name: bgareggabl
+  source: ""
+- id: 186725
+  kind: 2
+  kind_id: 830
+  language: 2
+  name: 1945 二代 (Battle Garegga 的中文修改版)
+  source: trimui
+- id: 186726
+  kind: 2
+  kind_id: 830
+  language: 1
+  name: bgareggabla
+  source: ""
+- id: 186727
+  kind: 2
+  kind_id: 830
+  language: 2
+  name: 雷神传 (Battle Garegga 的中文改版)
+  source: trimui
+- id: 188408
+  kind: 2
+  kind_id: 830
+  language: 1
+  name: Battle Garegga (Japan, bootleg) (Sat Feb 3 1996)
+  source: mame
+- id: 188409
+  kind: 2
+  kind_id: 830
+  language: 1
+  name: Battle Garegga (Austria / Hong Kong) (Sat Feb 3 1996)
+  source: mame
+- id: 188410
+  kind: 2
+  kind_id: 830
+  language: 1
+  name: Battle Garegga (Korea / Greece) (Wed Feb 7 1996)
+  source: mame
+- id: 188411
+  kind: 2
+  kind_id: 830
+  language: 1
+  name: "Battle Garegga - New Version (Austria / Hong Kong) (Sat Mar 2 1996)"
+  source: mame
+- id: 188412
+  kind: 2
+  kind_id: 830
+  language: 1
+  name: Battle Garegga (location test) (Wed Jan 17 1996)
+  source: mame
+- id: 188413
+  kind: 2
+  kind_id: 830
+  language: 1
+  name: "Battle Garegga - Type 2 (Europe / USA / Japan / Asia) (Sat Mar 2 1996)"
+  source: mame
+- id: 188414
+  kind: 2
+  kind_id: 830
+  language: 1
+  name: Battle Garegga (Taiwan / Germany) (Thu Feb 1 1996)
+  source: mame
+game_developers:
+- game_id: 830
+  developer_id: 481
+game_genres:
+- game_id: 830
+  genre_id: 39
 assets: []
 releases:
 - release:
@@ -207,24 +283,10 @@ releases:
       name: text.u81
       size: 32768
       blob_id: 8037
-- release:
-    id: 37940
-    game_id: 830
-    description: ""
-    release_date: 19960000
-  names:
-  - id: 106981
-    kind: 3
-    kind_id: 37940
-    language: 1
-    name: Battle Garegga (Europe / USA / Japan / Asia) (Sat Feb 3 1996)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 51010
+      id: 94843
       kind: 3
-      kind_id: 37940
+      kind_id: 830
       type: 1
       name: bgaregga.zip
       description: ""
@@ -233,48 +295,894 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 112502
-      asset_id: 51010
+    - id: 551093
+      asset_id: 94843
       name: prg0.bin
       size: 524288
       blob_id: 8462
-    - id: 112503
-      asset_id: 51010
+    - id: 551094
+      asset_id: 94843
       name: prg1.bin
       size: 524288
       blob_id: 8463
-    - id: 112504
-      asset_id: 51010
+    - id: 551095
+      asset_id: 94843
       name: rom1.bin
       size: 2097152
       blob_id: 8031
-    - id: 112505
-      asset_id: 51010
+    - id: 551096
+      asset_id: 94843
       name: rom2.bin
       size: 2097152
       blob_id: 8032
-    - id: 112506
-      asset_id: 51010
+    - id: 551097
+      asset_id: 94843
       name: rom3.bin
       size: 2097152
       blob_id: 8033
-    - id: 112507
-      asset_id: 51010
+    - id: 551098
+      asset_id: 94843
       name: rom4.bin
       size: 2097152
       blob_id: 8034
-    - id: 112508
-      asset_id: 51010
+    - id: 551099
+      asset_id: 94843
       name: rom5.bin
       size: 1048576
       blob_id: 8035
-    - id: 112509
-      asset_id: 51010
+    - id: 551100
+      asset_id: 94843
       name: snd.bin
       size: 131072
       blob_id: 8036
-    - id: 112510
-      asset_id: 51010
+    - id: 551101
+      asset_id: 94843
       name: text.u81
       size: 32768
       blob_id: 8037
+- release:
+    id: 832
+    game_id: 830
+    description: ""
+    release_date: 0
+  names:
+  - id: 1665
+    kind: 3
+    kind_id: 832
+    language: 1
+    name: bgareggabla
+    source: ""
+  - id: 98761
+    kind: 3
+    kind_id: 832
+    language: 2
+    name: 雷神传 (Battle Garegga 的中文改版)
+    source: trimui
+  release_publishers: []
+  assets:
+  - asset:
+      id: 832
+      kind: 3
+      kind_id: 832
+      type: 1
+      name: bgareggabla.zip
+      description: ""
+      format: 2
+      size: 4171530
+      blob_id: 0
+      debug: bgareggabla.zip
+    entries:
+    - id: 11469
+      asset_id: 832
+      name: rom5.bin
+      size: 1048576
+      blob_id: 8035
+    - id: 11470
+      asset_id: 832
+      name: rom1.bin
+      size: 2097152
+      blob_id: 8031
+    - id: 11471
+      asset_id: 832
+      name: rom2.bin
+      size: 2097152
+      blob_id: 8032
+    - id: 11472
+      asset_id: 832
+      name: snd.bin
+      size: 131072
+      blob_id: 8036
+    - id: 11473
+      asset_id: 832
+      name: rom4.bin
+      size: 2097152
+      blob_id: 8034
+    - id: 11474
+      asset_id: 832
+      name: rom3.bin
+      size: 2097152
+      blob_id: 8033
+    - id: 11475
+      asset_id: 832
+      name: base.bin
+      size: 32768
+      blob_id: 8443
+    - id: 11476
+      asset_id: 832
+      name: 27c8100.mon-sys
+      size: 1048576
+      blob_id: 8447
+    - id: 11477
+      asset_id: 832
+      name: text.bin
+      size: 32768
+      blob_id: 8448
+- release:
+    id: 77545
+    game_id: 830
+    description: ""
+    release_date: 19960203
+  names:
+  - id: 185131
+    kind: 3
+    kind_id: 77545
+    language: 1
+    name: battleg
+    source: ""
+  release_publishers:
+  - release_id: 77545
+    publisher_id: 349
+  assets:
+  - asset:
+      id: 797
+      kind: 3
+      kind_id: 77545
+      type: 1
+      name: battleg.zip
+      description: ""
+      format: 2
+      size: 4198709
+      blob_id: 0
+      debug: battleg.zip
+    entries:
+    - id: 10891
+      asset_id: 797
+      name: rom1.bin
+      size: 2097152
+      blob_id: 8031
+    - id: 10892
+      asset_id: 797
+      name: rom2.bin
+      size: 2097152
+      blob_id: 8032
+    - id: 10893
+      asset_id: 797
+      name: rom3.bin
+      size: 2097152
+      blob_id: 8033
+    - id: 10894
+      asset_id: 797
+      name: rom4.bin
+      size: 2097152
+      blob_id: 8034
+    - id: 10895
+      asset_id: 797
+      name: rom5.bin
+      size: 1048576
+      blob_id: 8035
+    - id: 10896
+      asset_id: 797
+      name: snd.bin
+      size: 131072
+      blob_id: 8036
+    - id: 10897
+      asset_id: 797
+      name: text.u81
+      size: 32768
+      blob_id: 8037
+    - id: 10898
+      asset_id: 797
+      name: u123
+      size: 524288
+      blob_id: 8038
+    - id: 10899
+      asset_id: 797
+      name: u65
+      size: 524288
+      blob_id: 8039
+- release:
+    id: 80206
+    game_id: 830
+    description: ""
+    release_date: 19960000
+  names:
+  - id: 204654
+    kind: 3
+    kind_id: 80206
+    language: 1
+    name: Battle Garegga (Japan, bootleg) (Sat Feb 3 1996)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 94845
+      kind: 3
+      kind_id: 80206
+      type: 1
+      name: bgareggablj.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 551109
+      asset_id: 94845
+      name: 322_1.bin
+      size: 4194304
+      blob_id: 8444
+    - id: 551110
+      asset_id: 94845
+      name: 322_2.bin
+      size: 4194304
+      blob_id: 8445
+    - id: 551111
+      asset_id: 94845
+      name: base.bin
+      size: 32768
+      blob_id: 8443
+    - id: 551112
+      asset_id: 94845
+      name: rom5.bin
+      size: 1048576
+      blob_id: 8035
+    - id: 551113
+      asset_id: 94845
+      name: snd.bin
+      size: 131072
+      blob_id: 8036
+    - id: 551114
+      asset_id: 94845
+      name: sys.bin
+      size: 2097152
+      blob_id: 8449
+    - id: 551115
+      asset_id: 94845
+      name: text.bin
+      size: 32768
+      blob_id: 8037
+- release:
+    id: 80207
+    game_id: 830
+    description: ""
+    release_date: 19960000
+  names:
+  - id: 204655
+    kind: 3
+    kind_id: 80207
+    language: 1
+    name: "Battle Garegga - Type 2 (Denmark / China) (Tue Apr 2 1996)"
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 94846
+      kind: 3
+      kind_id: 80207
+      type: 1
+      name: bgareggacn.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 551116
+      asset_id: 94846
+      name: rom1.bin
+      size: 2097152
+      blob_id: 8031
+    - id: 551117
+      asset_id: 94846
+      name: rom2.bin
+      size: 2097152
+      blob_id: 8032
+    - id: 551118
+      asset_id: 94846
+      name: rom3.bin
+      size: 2097152
+      blob_id: 8033
+    - id: 551119
+      asset_id: 94846
+      name: rom4.bin
+      size: 2097152
+      blob_id: 8034
+    - id: 551120
+      asset_id: 94846
+      name: rom5.bin
+      size: 1048576
+      blob_id: 8035
+    - id: 551121
+      asset_id: 94846
+      name: snd.bin
+      size: 131072
+      blob_id: 8036
+    - id: 551122
+      asset_id: 94846
+      name: text.u81
+      size: 32768
+      blob_id: 8037
+    - id: 551123
+      asset_id: 94846
+      name: u123
+      size: 524288
+      blob_id: 8038
+    - id: 551124
+      asset_id: 94846
+      name: u65
+      size: 524288
+      blob_id: 8039
+- release:
+    id: 80208
+    game_id: 830
+    description: ""
+    release_date: 19960000
+  names:
+  - id: 204656
+    kind: 3
+    kind_id: 80208
+    language: 1
+    name: Battle Garegga (Austria / Hong Kong) (Sat Feb 3 1996)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 94847
+      kind: 3
+      kind_id: 80208
+      type: 1
+      name: bgareggahk.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 551125
+      asset_id: 94847
+      name: prg_0.rom
+      size: 524288
+      blob_id: 8450
+    - id: 551126
+      asset_id: 94847
+      name: prg_1.rom
+      size: 524288
+      blob_id: 8463
+    - id: 551127
+      asset_id: 94847
+      name: rom1.bin
+      size: 2097152
+      blob_id: 8031
+    - id: 551128
+      asset_id: 94847
+      name: rom2.bin
+      size: 2097152
+      blob_id: 8032
+    - id: 551129
+      asset_id: 94847
+      name: rom3.bin
+      size: 2097152
+      blob_id: 8033
+    - id: 551130
+      asset_id: 94847
+      name: rom4.bin
+      size: 2097152
+      blob_id: 8034
+    - id: 551131
+      asset_id: 94847
+      name: rom5.bin
+      size: 1048576
+      blob_id: 8035
+    - id: 551132
+      asset_id: 94847
+      name: snd.bin
+      size: 131072
+      blob_id: 8036
+    - id: 551133
+      asset_id: 94847
+      name: text.u81
+      size: 32768
+      blob_id: 8037
+- release:
+    id: 80209
+    game_id: 830
+    description: ""
+    release_date: 19960000
+  names:
+  - id: 204657
+    kind: 3
+    kind_id: 80209
+    language: 1
+    name: Battle Garegga (Korea / Greece) (Wed Feb 7 1996)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 94848
+      kind: 3
+      kind_id: 80209
+      type: 1
+      name: bgareggak.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 551134
+      asset_id: 94848
+      name: prg0.bin
+      size: 524288
+      blob_id: 8451
+    - id: 551135
+      asset_id: 94848
+      name: prg1.bin
+      size: 524288
+      blob_id: 8452
+    - id: 551136
+      asset_id: 94848
+      name: rom1.bin
+      size: 2097152
+      blob_id: 8031
+    - id: 551137
+      asset_id: 94848
+      name: rom2.bin
+      size: 2097152
+      blob_id: 8032
+    - id: 551138
+      asset_id: 94848
+      name: rom3.bin
+      size: 2097152
+      blob_id: 8033
+    - id: 551139
+      asset_id: 94848
+      name: rom4.bin
+      size: 2097152
+      blob_id: 8034
+    - id: 551140
+      asset_id: 94848
+      name: rom5.bin
+      size: 1048576
+      blob_id: 8035
+    - id: 551141
+      asset_id: 94848
+      name: snd.bin
+      size: 131072
+      blob_id: 8036
+    - id: 551142
+      asset_id: 94848
+      name: text.u81
+      size: 32768
+      blob_id: 8037
+- release:
+    id: 80210
+    game_id: 830
+    description: ""
+    release_date: 19960000
+  names:
+  - id: 204658
+    kind: 3
+    kind_id: 80210
+    language: 1
+    name: "Battle Garegga - New Version (Austria / Hong Kong) (Sat Mar 2 1996)"
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 94849
+      kind: 3
+      kind_id: 80210
+      type: 1
+      name: bgaregganv.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 551143
+      asset_id: 94849
+      name: prg_0.bin
+      size: 524288
+      blob_id: 8453
+    - id: 551144
+      asset_id: 94849
+      name: prg_1.bin
+      size: 524288
+      blob_id: 8454
+    - id: 551145
+      asset_id: 94849
+      name: rom1.bin
+      size: 2097152
+      blob_id: 8031
+    - id: 551146
+      asset_id: 94849
+      name: rom2.bin
+      size: 2097152
+      blob_id: 8032
+    - id: 551147
+      asset_id: 94849
+      name: rom3.bin
+      size: 2097152
+      blob_id: 8033
+    - id: 551148
+      asset_id: 94849
+      name: rom4.bin
+      size: 2097152
+      blob_id: 8034
+    - id: 551149
+      asset_id: 94849
+      name: rom5.bin
+      size: 1048576
+      blob_id: 8035
+    - id: 551150
+      asset_id: 94849
+      name: snd.bin
+      size: 131072
+      blob_id: 8036
+    - id: 551151
+      asset_id: 94849
+      name: text.u81
+      size: 32768
+      blob_id: 8037
+- release:
+    id: 80211
+    game_id: 830
+    description: ""
+    release_date: 19960000
+  names:
+  - id: 204659
+    kind: 3
+    kind_id: 80211
+    language: 1
+    name: Battle Garegga (location test) (Wed Jan 17 1996)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 94850
+      kind: 3
+      kind_id: 80211
+      type: 1
+      name: bgareggat.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 551152
+      asset_id: 94850
+      name: battlegaregga-prg0-8-1-17.bin
+      size: 524288
+      blob_id: 8455
+    - id: 551153
+      asset_id: 94850
+      name: battlegaregga-prg1-8-1-17.bin
+      size: 524288
+      blob_id: 8456
+    - id: 551154
+      asset_id: 94850
+      name: battlegaregga-snd-8-1-18-loke-ver.bin
+      size: 131072
+      blob_id: 8457
+    - id: 551155
+      asset_id: 94850
+      name: rom1.bin
+      size: 2097152
+      blob_id: 8031
+    - id: 551156
+      asset_id: 94850
+      name: rom2.bin
+      size: 2097152
+      blob_id: 8032
+    - id: 551157
+      asset_id: 94850
+      name: rom3.bin
+      size: 2097152
+      blob_id: 8033
+    - id: 551158
+      asset_id: 94850
+      name: rom4.bin
+      size: 2097152
+      blob_id: 8034
+    - id: 551159
+      asset_id: 94850
+      name: rom5.bin
+      size: 1048576
+      blob_id: 8035
+    - id: 551160
+      asset_id: 94850
+      name: text.u81
+      size: 32768
+      blob_id: 8037
+- release:
+    id: 80212
+    game_id: 830
+    description: ""
+    release_date: 19960000
+  names:
+  - id: 204660
+    kind: 3
+    kind_id: 80212
+    language: 1
+    name: "Battle Garegga - Type 2 (Europe / USA / Japan / Asia) (Sat Mar 2 1996)"
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 94851
+      kind: 3
+      kind_id: 80212
+      type: 1
+      name: bgareggat2.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 551161
+      asset_id: 94851
+      name: prg0
+      size: 524288
+      blob_id: 8458
+    - id: 551162
+      asset_id: 94851
+      name: prg1
+      size: 524288
+      blob_id: 8459
+    - id: 551163
+      asset_id: 94851
+      name: rom1.bin
+      size: 2097152
+      blob_id: 8031
+    - id: 551164
+      asset_id: 94851
+      name: rom2.bin
+      size: 2097152
+      blob_id: 8032
+    - id: 551165
+      asset_id: 94851
+      name: rom3.bin
+      size: 2097152
+      blob_id: 8033
+    - id: 551166
+      asset_id: 94851
+      name: rom4.bin
+      size: 2097152
+      blob_id: 8034
+    - id: 551167
+      asset_id: 94851
+      name: rom5.bin
+      size: 1048576
+      blob_id: 8035
+    - id: 551168
+      asset_id: 94851
+      name: snd.bin
+      size: 131072
+      blob_id: 8036
+    - id: 551169
+      asset_id: 94851
+      name: text.u81
+      size: 32768
+      blob_id: 8037
+- release:
+    id: 80213
+    game_id: 830
+    description: ""
+    release_date: 19960000
+  names:
+  - id: 204661
+    kind: 3
+    kind_id: 80213
+    language: 1
+    name: Battle Garegga (Taiwan / Germany) (Thu Feb 1 1996)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 94852
+      kind: 3
+      kind_id: 80213
+      type: 1
+      name: bgareggatw.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 551170
+      asset_id: 94852
+      name: garegga_prg0.u123
+      size: 524288
+      blob_id: 8460
+    - id: 551171
+      asset_id: 94852
+      name: garegga_prg1.u65
+      size: 524288
+      blob_id: 8461
+    - id: 551172
+      asset_id: 94852
+      name: rom1.bin
+      size: 2097152
+      blob_id: 8031
+    - id: 551173
+      asset_id: 94852
+      name: rom2.bin
+      size: 2097152
+      blob_id: 8032
+    - id: 551174
+      asset_id: 94852
+      name: rom3.bin
+      size: 2097152
+      blob_id: 8033
+    - id: 551175
+      asset_id: 94852
+      name: rom4.bin
+      size: 2097152
+      blob_id: 8034
+    - id: 551176
+      asset_id: 94852
+      name: rom5.bin
+      size: 1048576
+      blob_id: 8035
+    - id: 551177
+      asset_id: 94852
+      name: snd.bin
+      size: 131072
+      blob_id: 8036
+    - id: 551178
+      asset_id: 94852
+      name: text.u81
+      size: 32768
+      blob_id: 8037
+- release:
+    id: 102430
+    game_id: 830
+    description: ""
+    release_date: 20190000
+  names:
+  - id: 236791
+    kind: 3
+    kind_id: 102430
+    language: 1
+    name: Battle Garegga Zakk version (Europe / USA / Japan / Asia) (Sat Feb 3 1996)
+    source: fbneo
+  release_publishers: []
+  assets:
+  - asset:
+      id: 118519
+      kind: 3
+      kind_id: 102430
+      type: 1
+      name: bgareggaz.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 806379
+      asset_id: 118519
+      name: garegga-prg0.bin
+      size: 524288
+      blob_id: 298122
+    - id: 806380
+      asset_id: 118519
+      name: garegga-prg1.bin
+      size: 524288
+      blob_id: 298123
+    - id: 806381
+      asset_id: 118519
+      name: rom1.bin
+      size: 2097152
+      blob_id: 8031
+    - id: 806382
+      asset_id: 118519
+      name: rom2.bin
+      size: 2097152
+      blob_id: 8032
+    - id: 806383
+      asset_id: 118519
+      name: rom3.bin
+      size: 2097152
+      blob_id: 8033
+    - id: 806384
+      asset_id: 118519
+      name: rom4.bin
+      size: 2097152
+      blob_id: 8034
+    - id: 806385
+      asset_id: 118519
+      name: rom5.bin
+      size: 1048576
+      blob_id: 8035
+    - id: 806386
+      asset_id: 118519
+      name: snd.bin
+      size: 131072
+      blob_id: 8036
+    - id: 806387
+      asset_id: 118519
+      name: text.u81
+      size: 32768
+      blob_id: 8037
+- release:
+    id: 102894
+    game_id: 830
+    description: ""
+    release_date: 0
+  names:
+  - id: 237574
+    kind: 3
+    kind_id: 102894
+    language: 1
+    name: bgareggabl
+    source: ""
+  - id: 237575
+    kind: 3
+    kind_id: 102894
+    language: 2
+    name: 1945 二代 (Battle Garegga 的中文修改版)
+    source: trimui
+  release_publishers: []
+  assets:
+  - asset:
+      id: 94844
+      kind: 3
+      kind_id: 102894
+      type: 1
+      name: bgareggabl.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 551102
+      asset_id: 94844
+      name: 1@-256
+      size: 32768
+      blob_id: 8442
+    - id: 551103
+      asset_id: 94844
+      name: 2@-256
+      size: 32768
+      blob_id: 8443
+    - id: 551104
+      asset_id: 94844
+      name: 5@-322
+      size: 4194304
+      blob_id: 8444
+    - id: 551105
+      asset_id: 94844
+      name: 6@-322
+      size: 4194304
+      blob_id: 8445
+    - id: 551106
+      asset_id: 94844
+      name: rom5.bin
+      size: 1048576
+      blob_id: 8035
+    - id: 551107
+      asset_id: 94844
+      name: snd.bin
+      size: 131072
+      blob_id: 8036
+    - id: 551108
+      asset_id: 94844
+      name: xt-8m.bin
+      size: 1048576
+      blob_id: 8446

@@ -10,6 +10,18 @@ names:
   language: 1
   name: dcclub
   source: ""
+- id: 189586
+  kind: 2
+  kind_id: 1289
+  language: 1
+  name: Dynamic Country Club (US, Floppy Based, FD1094 317-0058-09d)
+  source: mame
+- id: 189587
+  kind: 2
+  kind_id: 1289
+  language: 1
+  name: Dynamic Country Club (Japan, ROM Based)
+  source: mame
 game_developers:
 - game_id: 1289
   developer_id: 110
@@ -118,6 +130,48 @@ releases:
       blob_id: 85193
       debug: arcade/wheel/dcclub.png
     entries: []
+  - asset:
+      id: 97189
+      kind: 3
+      kind_id: 1289
+      type: 1
+      name: dcclub.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 582025
+      asset_id: 97189
+      name: epr-15344.1
+      size: 524288
+      blob_id: 14146
+    - id: 582026
+      asset_id: 97189
+      name: epr-15345.2
+      size: 524288
+      blob_id: 14147
+    - id: 582027
+      asset_id: 97189
+      name: epr13947.bin
+      size: 131072
+      blob_id: 14144
+    - id: 582028
+      asset_id: 97189
+      name: epr13948.bin
+      size: 131072
+      blob_id: 14145
+    - id: 582029
+      asset_id: 97189
+      name: mpr-14096-t.3
+      size: 524288
+      blob_id: 14148
+    - id: 582030
+      asset_id: 97189
+      name: mpr-14097-t.4
+      size: 524288
+      blob_id: 14149
 - release:
     id: 1290
     game_id: 1289
@@ -211,58 +265,104 @@ releases:
       size: 524288
       blob_id: 14149
 - release:
-    id: 40473
+    id: 82367
     game_id: 1289
     description: ""
     release_date: 19910000
   names:
-  - id: 111877
+  - id: 207964
     kind: 3
-    kind_id: 40473
+    kind_id: 82367
     language: 1
-    name: Dynamic Country Club (World, ROM Based)
+    name: Dynamic Country Club (US, Floppy Based, FD1094 317-0058-09d)
     source: mame
   release_publishers: []
   assets:
   - asset:
-      id: 53543
+      id: 97190
       kind: 3
-      kind_id: 40473
+      kind_id: 82367
       type: 1
-      name: dcclub.zip
+      name: dcclubfd.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 145166
-      asset_id: 53543
-      name: epr-15344.1
+    - id: 582031
+      asset_id: 97190
+      name: 317-0058-09d.key
+      size: 8192
+      blob_id: 14150
+    - id: 582032
+      asset_id: 97190
+      name: ds3-5000-09d.img
+      size: 1843200
+      blob_id: 14151
+    - id: 582033
+      asset_id: 97190
+      name: epr-12186.ic1
+      size: 131072
+      blob_id: 9468
+    - id: 582034
+      asset_id: 97190
+      name: epr-12187.ic2
+      size: 131072
+      blob_id: 9469
+- release:
+    id: 82368
+    game_id: 1289
+    description: ""
+    release_date: 19910000
+  names:
+  - id: 207965
+    kind: 3
+    kind_id: 82368
+    language: 1
+    name: Dynamic Country Club (Japan, ROM Based)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 97191
+      kind: 3
+      kind_id: 82368
+      type: 1
+      name: dcclubj.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 582035
+      asset_id: 97191
+      name: epr-14094a.1
       size: 524288
-      blob_id: 14146
-    - id: 145167
-      asset_id: 53543
-      name: epr-15345.2
+      blob_id: 14152
+    - id: 582036
+      asset_id: 97191
+      name: epr-14095a.2
       size: 524288
-      blob_id: 14147
-    - id: 145168
-      asset_id: 53543
+      blob_id: 14153
+    - id: 582037
+      asset_id: 97191
       name: epr13947.bin
       size: 131072
       blob_id: 14144
-    - id: 145169
-      asset_id: 53543
+    - id: 582038
+      asset_id: 97191
       name: epr13948.bin
       size: 131072
       blob_id: 14145
-    - id: 145170
-      asset_id: 53543
+    - id: 582039
+      asset_id: 97191
       name: mpr-14096-t.3
       size: 524288
       blob_id: 14148
-    - id: 145171
-      asset_id: 53543
+    - id: 582040
+      asset_id: 97191
       name: mpr-14097-t.4
       size: 524288
       blob_id: 14149

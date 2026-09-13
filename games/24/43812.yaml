@@ -10,6 +10,12 @@ names:
   language: 1
   name: Galaksija
   source: mame
+- id: 190859
+  kind: 2
+  kind_id: 43812
+  language: 1
+  name: Galaksija plus
+  source: mame
 game_developers: []
 game_genres: []
 assets: []
@@ -29,7 +35,49 @@ releases:
   release_publishers: []
   assets:
   - asset:
-      id: 57327
+      id: 90636
+      kind: 3
+      kind_id: 44257
+      type: 1
+      name: galaxy.zip
+      description: ""
+      format: 2
+      size: 15793
+      blob_id: 0
+      debug: /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/4076352043
+    entries:
+    - id: 467517
+      asset_id: 90636
+      name: chr_eling.dd3
+      size: 2048
+      blob_id: 218482
+    - id: 467518
+      asset_id: 90636
+      name: chr_mipro.dd3
+      size: 2048
+      blob_id: 218483
+    - id: 467519
+      asset_id: 90636
+      name: rom_a_v28.dd8
+      size: 4096
+      blob_id: 218484
+    - id: 467520
+      asset_id: 90636
+      name: rom_a_v28p.dd8
+      size: 4096
+      blob_id: 218485
+    - id: 467521
+      asset_id: 90636
+      name: rom_a_v29.dd8
+      size: 4096
+      blob_id: 218486
+    - id: 467522
+      asset_id: 90636
+      name: rom_b_v5.dd9
+      size: 4096
+      blob_id: 218487
+  - asset:
+      id: 99513
       kind: 3
       kind_id: 44257
       type: 1
@@ -40,73 +88,84 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 177598
-      asset_id: 57327
+    - id: 609400
+      asset_id: 99513
       name: chr_eling.dd3
       size: 2048
-      blob_id: 118499
-    - id: 177599
-      asset_id: 57327
+      blob_id: 218482
+    - id: 609401
+      asset_id: 99513
       name: chr_mipro.dd3
       size: 2048
-      blob_id: 118500
-    - id: 177600
-      asset_id: 57327
-      name: chr_mipro.dd3
-      size: 2048
-      blob_id: 118500
-    - id: 177601
-      asset_id: 57327
-      name: chr_mipro.dd3
-      size: 2048
-      blob_id: 118500
-    - id: 177602
-      asset_id: 57327
-      name: chr_mipro.dd3
-      size: 2048
-      blob_id: 118500
-    - id: 177603
-      asset_id: 57327
+      blob_id: 218483
+    - id: 609405
+      asset_id: 99513
       name: rom_a_v28.dd8
       size: 4096
-      blob_id: 118501
-    - id: 177604
-      asset_id: 57327
-      name: rom_a_v28.dd8
-      size: 4096
-      blob_id: 118501
-    - id: 177605
-      asset_id: 57327
+      blob_id: 218484
+    - id: 609407
+      asset_id: 99513
       name: rom_a_v28p.dd8
       size: 4096
-      blob_id: 118502
-    - id: 177606
-      asset_id: 57327
+      blob_id: 218485
+    - id: 609408
+      asset_id: 99513
       name: rom_a_v29.dd8
       size: 4096
-      blob_id: 118503
-    - id: 177607
-      asset_id: 57327
+      blob_id: 218486
+    - id: 609410
+      asset_id: 99513
+      name: rom_b_v5.dd9
+      size: 4096
+      blob_id: 218487
+- release:
+    id: 84510
+    game_id: 43812
+    description: ""
+    release_date: 19850000
+  names:
+  - id: 211192
+    kind: 3
+    kind_id: 84510
+    language: 1
+    name: Galaksija plus
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 99517
+      kind: 3
+      kind_id: 84510
+      type: 1
+      name: galaxyp.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 609451
+      asset_id: 99517
+      name: chr_mipro.dd3
+      size: 2048
+      blob_id: 218483
+    - id: 609452
+      asset_id: 99517
       name: rom_a_v29.dd8
       size: 4096
-      blob_id: 118503
-    - id: 177608
-      asset_id: 57327
+      blob_id: 218486
+    - id: 609453
+      asset_id: 99517
+      name: rom_a_v29c.dd8
+      size: 4096
+      blob_id: 246983
+    - id: 609454
+      asset_id: 99517
       name: rom_b_v5.dd9
       size: 4096
-      blob_id: 118504
-    - id: 177609
-      asset_id: 57327
-      name: rom_b_v5.dd9
+      blob_id: 218487
+    - id: 609455
+      asset_id: 99517
+      name: rom_c.bin
       size: 4096
-      blob_id: 118504
-    - id: 177610
-      asset_id: 57327
-      name: rom_b_v5.dd9
-      size: 4096
-      blob_id: 118504
-    - id: 177611
-      asset_id: 57327
-      name: rom_b_v5.dd9
-      size: 4096
-      blob_id: 118504
+      blob_id: 246984

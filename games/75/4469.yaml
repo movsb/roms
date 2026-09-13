@@ -16,6 +16,18 @@ names:
   language: 2
   name: 银河战机 (世界版, 第一套)
   source: trimui
+- id: 201142
+  kind: 2
+  kind_id: 4469
+  language: 1
+  name: Vimana (Japan)
+  source: mame
+- id: 201143
+  kind: 2
+  kind_id: 4469
+  language: 1
+  name: Vimana (World)
+  source: mame
 game_developers:
 - game_id: 4469
   developer_id: 504
@@ -47,9 +59,73 @@ releases:
     publisher_id: 376
   assets:
   - asset:
-      id: 4451
+      id: 42539
       kind: 3
       kind_id: 4469
+      type: 4
+      name: vimana.png
+      description: ""
+      format: 1
+      size: 76302
+      blob_id: 86061
+      debug: arcade/downloaded_images/vimana.png
+    entries: []
+  - asset:
+      id: 42540
+      kind: 3
+      kind_id: 4469
+      type: 6
+      name: vimana.mp4
+      description: ""
+      format: 1
+      size: 2322603
+      blob_id: 86062
+      debug: arcade/snap/vimana.mp4
+    entries: []
+  - asset:
+      id: 42541
+      kind: 3
+      kind_id: 4469
+      type: 7
+      name: vimana.png
+      description: ""
+      format: 1
+      size: 60057
+      blob_id: 86063
+      debug: arcade/wheel/vimana.png
+    entries: []
+- release:
+    id: 74974
+    game_id: 4469
+    description: ""
+    release_date: 19910000
+  names:
+  - id: 179806
+    kind: 3
+    kind_id: 74974
+    language: 1
+    name: Vimana (World, rev A)
+    source: mame
+  - id: 184130
+    kind: 3
+    kind_id: 74974
+    language: 1
+    name: vimana
+    source: ""
+  - id: 184131
+    kind: 3
+    kind_id: 74974
+    language: 2
+    name: 银河战机 (世界版, 第一套)
+    source: trimui
+  release_publishers:
+  - release_id: 74974
+    publisher_id: 376
+  assets:
+  - asset:
+      id: 4451
+      kind: 3
+      kind_id: 74974
       type: 1
       name: vimana.zip
       description: ""
@@ -114,57 +190,7 @@ releases:
       size: 131072
       blob_id: 48519
   - asset:
-      id: 42539
-      kind: 3
-      kind_id: 4469
-      type: 4
-      name: vimana.png
-      description: ""
-      format: 1
-      size: 76302
-      blob_id: 86061
-      debug: arcade/downloaded_images/vimana.png
-    entries: []
-  - asset:
-      id: 42540
-      kind: 3
-      kind_id: 4469
-      type: 6
-      name: vimana.mp4
-      description: ""
-      format: 1
-      size: 2322603
-      blob_id: 86062
-      debug: arcade/snap/vimana.mp4
-    entries: []
-  - asset:
-      id: 42541
-      kind: 3
-      kind_id: 4469
-      type: 7
-      name: vimana.png
-      description: ""
-      format: 1
-      size: 60057
-      blob_id: 86063
-      debug: arcade/wheel/vimana.png
-    entries: []
-- release:
-    id: 74974
-    game_id: 4469
-    description: ""
-    release_date: 19910000
-  names:
-  - id: 179806
-    kind: 3
-    kind_id: 74974
-    language: 1
-    name: Vimana (World, rev A)
-    source: mame
-  release_publishers: []
-  assets:
-  - asset:
-      id: 88044
+      id: 117279
       kind: 3
       kind_id: 74974
       type: 1
@@ -175,58 +201,358 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 410286
-      asset_id: 88044
+    - id: 787287
+      asset_id: 117279
       name: 019rom10.prom10.4h
       size: 32
       blob_id: 14809
-    - id: 410287
-      asset_id: 88044
+    - id: 787288
+      asset_id: 117279
       name: 019rom9.prom9.4d
       size: 32
       blob_id: 14808
-    - id: 410288
-      asset_id: 88044
+    - id: 787289
+      asset_id: 117279
       name: hd647180_tp-019.4m
       size: 32768
       blob_id: 48511
-    - id: 410289
-      asset_id: 88044
+    - id: 787290
+      asset_id: 117279
       name: tp-019-08a.12k
       size: 131072
       blob_id: 48513
-    - id: 410290
-      asset_id: 88044
+    - id: 787291
+      asset_id: 117279
       name: tp-019_07a.12h
       size: 131072
       blob_id: 48512
-    - id: 410291
-      asset_id: 88044
+    - id: 787292
+      asset_id: 117279
       name: tp-019_rom1.20a
       size: 524288
       blob_id: 48514
-    - id: 410292
-      asset_id: 88044
+    - id: 787293
+      asset_id: 117279
       name: tp-019_rom2.20b
       size: 524288
       blob_id: 48515
-    - id: 410293
-      asset_id: 88044
+    - id: 787294
+      asset_id: 117279
       name: tp-019_rom3.18f
       size: 131072
       blob_id: 48516
-    - id: 410294
-      asset_id: 88044
+    - id: 787295
+      asset_id: 117279
       name: tp-019_rom4.20f
       size: 131072
       blob_id: 48517
-    - id: 410295
-      asset_id: 88044
+    - id: 787296
+      asset_id: 117279
       name: tp-019_rom5.22f
       size: 131072
       blob_id: 48518
-    - id: 410296
-      asset_id: 88044
+    - id: 787297
+      asset_id: 117279
       name: tp-019_rom6.24f
+      size: 131072
+      blob_id: 48519
+- release:
+    id: 101315
+    game_id: 4469
+    description: ""
+    release_date: 19910000
+  names:
+  - id: 235153
+    kind: 3
+    kind_id: 101315
+    language: 1
+    name: Vimana (Japan)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 117280
+      kind: 3
+      kind_id: 101315
+      type: 1
+      name: vimanaj.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/865161283
+    entries:
+    - id: 787298
+      asset_id: 117280
+      name: 019rom10.prom10.4h
+      size: 32
+      blob_id: 14809
+    - id: 787299
+      asset_id: 117280
+      name: 019rom9.prom9.4d
+      size: 32
+      blob_id: 14808
+    - id: 787300
+      asset_id: 117280
+      name: hd647180_tp-019.4m
+      size: 32768
+      blob_id: 48511
+    - id: 787301
+      asset_id: 117280
+      name: tp-019_07.12h
+      size: 131072
+      blob_id: 311625
+    - id: 787302
+      asset_id: 117280
+      name: tp-019_08.12k
+      size: 131072
+      blob_id: 311626
+    - id: 787303
+      asset_id: 117280
+      name: tp-019_rom1.20a
+      size: 524288
+      blob_id: 48514
+    - id: 787304
+      asset_id: 117280
+      name: tp-019_rom2.20b
+      size: 524288
+      blob_id: 48515
+    - id: 787305
+      asset_id: 117280
+      name: tp-019_rom3.18f
+      size: 131072
+      blob_id: 48516
+    - id: 787306
+      asset_id: 117280
+      name: tp-019_rom4.20f
+      size: 131072
+      blob_id: 48517
+    - id: 787307
+      asset_id: 117280
+      name: tp-019_rom5.22f
+      size: 131072
+      blob_id: 48518
+    - id: 787308
+      asset_id: 117280
+      name: tp-019_rom6.24f
+      size: 131072
+      blob_id: 48519
+  - asset:
+      id: 119783
+      kind: 3
+      kind_id: 101315
+      type: 1
+      name: vimanaj.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 843229
+      asset_id: 119783
+      name: hd647180.019
+      size: 32768
+      blob_id: 48511
+    - id: 843230
+      asset_id: 119783
+      name: tp019-09.bpr
+      size: 32
+      blob_id: 14808
+    - id: 843231
+      asset_id: 119783
+      name: tp019-10.bpr
+      size: 32
+      blob_id: 14809
+    - id: 843232
+      asset_id: 119783
+      name: vim07.bin
+      size: 131072
+      blob_id: 294441
+    - id: 843233
+      asset_id: 119783
+      name: vim08.bin
+      size: 131072
+      blob_id: 294442
+    - id: 843234
+      asset_id: 119783
+      name: vim1.bin
+      size: 524288
+      blob_id: 48514
+    - id: 843235
+      asset_id: 119783
+      name: vim2.bin
+      size: 524288
+      blob_id: 48515
+    - id: 843236
+      asset_id: 119783
+      name: vim3.bin
+      size: 131072
+      blob_id: 48516
+    - id: 843237
+      asset_id: 119783
+      name: vim4.bin
+      size: 131072
+      blob_id: 48517
+    - id: 843238
+      asset_id: 119783
+      name: vim5.bin
+      size: 131072
+      blob_id: 48518
+    - id: 843239
+      asset_id: 119783
+      name: vim6.bin
+      size: 131072
+      blob_id: 48519
+- release:
+    id: 101316
+    game_id: 4469
+    description: ""
+    release_date: 19910000
+  names:
+  - id: 235154
+    kind: 3
+    kind_id: 101316
+    language: 1
+    name: Vimana (World)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 117281
+      kind: 3
+      kind_id: 101316
+      type: 1
+      name: vimanan.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/1026104878
+    entries:
+    - id: 787309
+      asset_id: 117281
+      name: 019rom10.prom10.4h
+      size: 32
+      blob_id: 14809
+    - id: 787310
+      asset_id: 117281
+      name: 019rom9.prom9.4d
+      size: 32
+      blob_id: 14808
+    - id: 787311
+      asset_id: 117281
+      name: hd647180_tp-019.4m
+      size: 32768
+      blob_id: 48511
+    - id: 787312
+      asset_id: 117281
+      name: tp-019_07.12h
+      size: 131072
+      blob_id: 311627
+    - id: 787313
+      asset_id: 117281
+      name: tp-019_08.12k
+      size: 131072
+      blob_id: 311628
+    - id: 787314
+      asset_id: 117281
+      name: tp-019_rom1.20a
+      size: 524288
+      blob_id: 48514
+    - id: 787315
+      asset_id: 117281
+      name: tp-019_rom2.20b
+      size: 524288
+      blob_id: 48515
+    - id: 787316
+      asset_id: 117281
+      name: tp-019_rom3.18f
+      size: 131072
+      blob_id: 48516
+    - id: 787317
+      asset_id: 117281
+      name: tp-019_rom4.20f
+      size: 131072
+      blob_id: 48517
+    - id: 787318
+      asset_id: 117281
+      name: tp-019_rom5.22f
+      size: 131072
+      blob_id: 48518
+    - id: 787319
+      asset_id: 117281
+      name: tp-019_rom6.24f
+      size: 131072
+      blob_id: 48519
+  - asset:
+      id: 119784
+      kind: 3
+      kind_id: 101316
+      type: 1
+      name: vimanan.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 843240
+      asset_id: 119784
+      name: hd647180.019
+      size: 32768
+      blob_id: 48511
+    - id: 843241
+      asset_id: 119784
+      name: tp019-07.rom
+      size: 131072
+      blob_id: 294443
+    - id: 843242
+      asset_id: 119784
+      name: tp019-08.rom
+      size: 131072
+      blob_id: 294444
+    - id: 843243
+      asset_id: 119784
+      name: tp019-09.bpr
+      size: 32
+      blob_id: 14808
+    - id: 843244
+      asset_id: 119784
+      name: tp019-10.bpr
+      size: 32
+      blob_id: 14809
+    - id: 843245
+      asset_id: 119784
+      name: vim1.bin
+      size: 524288
+      blob_id: 48514
+    - id: 843246
+      asset_id: 119784
+      name: vim2.bin
+      size: 524288
+      blob_id: 48515
+    - id: 843247
+      asset_id: 119784
+      name: vim3.bin
+      size: 131072
+      blob_id: 48516
+    - id: 843248
+      asset_id: 119784
+      name: vim4.bin
+      size: 131072
+      blob_id: 48517
+    - id: 843249
+      asset_id: 119784
+      name: vim5.bin
+      size: 131072
+      blob_id: 48518
+    - id: 843250
+      asset_id: 119784
+      name: vim6.bin
       size: 131072
       blob_id: 48519

@@ -16,6 +16,42 @@ names:
   language: 2
   name: 驼背骑士 (第一套)
   source: trimui
+- id: 191792
+  kind: 2
+  kind_id: 2038
+  language: 1
+  name: Hunchback (set 2)
+  source: mame
+- id: 191793
+  kind: 2
+  kind_id: 2038
+  language: 1
+  name: Hunchback (FAR S.A. bootleg on Galaxian hardware)
+  source: mame
+- id: 191794
+  kind: 2
+  kind_id: 2038
+  language: 1
+  name: Hunchback (DK conversion)
+  source: mame
+- id: 191795
+  kind: 2
+  kind_id: 2038
+  language: 1
+  name: Hunchback (Galaxian hardware)
+  source: mame
+- id: 191796
+  kind: 2
+  kind_id: 2038
+  language: 1
+  name: Hunchback (Scramble hardware)
+  source: mame
+- id: 191797
+  kind: 2
+  kind_id: 2038
+  language: 1
+  name: Hunchback (Scramble hardware, bootleg)
+  source: mame
 game_developers:
 - game_id: 2038
   developer_id: 483
@@ -144,24 +180,10 @@ releases:
       blob_id: 89848
       debug: arcade/wheel/hunchbak.png
     entries: []
-- release:
-    id: 46280
-    game_id: 2038
-    description: ""
-    release_date: 19830000
-  names:
-  - id: 123200
-    kind: 3
-    kind_id: 46280
-    language: 1
-    name: Hunchback (set 1)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 59350
+      id: 101282
       kind: 3
-      kind_id: 46280
+      kind_id: 2038
       type: 1
       name: hunchbak.zip
       description: ""
@@ -170,68 +192,594 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 200242
-      asset_id: 59350
+    - id: 630859
+      asset_id: 101282
       name: 10a.cp2
       size: 2048
       blob_id: 2236
-    - id: 200243
-      asset_id: 59350
+    - id: 630860
+      asset_id: 101282
       name: 11a.cp1
       size: 2048
       blob_id: 2237
-    - id: 200244
-      asset_id: 59350
+    - id: 630861
+      asset_id: 101282
       name: 5b.bin
       size: 2048
       blob_id: 2243
-    - id: 200245
-      asset_id: 59350
+    - id: 630862
+      asset_id: 101282
       name: 6c.sdp1
       size: 4096
       blob_id: 2244
-    - id: 200246
-      asset_id: 59350
+    - id: 630863
+      asset_id: 101282
       name: 82s123.10k
       size: 32
       blob_id: 13154
-    - id: 200247
-      asset_id: 59350
+    - id: 630864
+      asset_id: 101282
       name: 82s185.10h
       size: 2048
       blob_id: 13155
-    - id: 200248
-      asset_id: 59350
+    - id: 630865
+      asset_id: 101282
       name: 8a.sp1
       size: 2048
       blob_id: 2245
-    - id: 200249
-      asset_id: 59350
+    - id: 630866
+      asset_id: 101282
       name: 9a.cp3
       size: 2048
       blob_id: 2246
-    - id: 200250
-      asset_id: 59350
+    - id: 630867
+      asset_id: 101282
       name: hb-gp1.bin
       size: 4096
       blob_id: 22796
-    - id: 200251
-      asset_id: 59350
+    - id: 630868
+      asset_id: 101282
       name: hb-gp2.bin
       size: 4096
       blob_id: 22797
-    - id: 200252
-      asset_id: 59350
+    - id: 630869
+      asset_id: 101282
       name: hb-gp3.bin
       size: 4096
       blob_id: 22798
-    - id: 200253
-      asset_id: 59350
+    - id: 630870
+      asset_id: 101282
       name: hb-gp4.bin
       size: 4096
       blob_id: 22799
-    - id: 200254
-      asset_id: 59350
+    - id: 630871
+      asset_id: 101282
       name: hb-gp5.bin
       size: 4096
       blob_id: 22800
+- release:
+    id: 86146
+    game_id: 2038
+    description: ""
+    release_date: 19830000
+  names:
+  - id: 213688
+    kind: 3
+    kind_id: 86146
+    language: 1
+    name: Hunchback (set 2)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 101283
+      kind: 3
+      kind_id: 86146
+      type: 1
+      name: hunchbaka.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 630872
+      asset_id: 101283
+      name: 10a.cp2
+      size: 2048
+      blob_id: 2236
+    - id: 630873
+      asset_id: 101283
+      name: 11a.cp1
+      size: 2048
+      blob_id: 2237
+    - id: 630874
+      asset_id: 101283
+      name: 1b.gp1
+      size: 4096
+      blob_id: 2238
+    - id: 630875
+      asset_id: 101283
+      name: 2a.gp2
+      size: 4096
+      blob_id: 2239
+    - id: 630876
+      asset_id: 101283
+      name: 3a.gp3
+      size: 4096
+      blob_id: 2240
+    - id: 630877
+      asset_id: 101283
+      name: 4c.gp4
+      size: 4096
+      blob_id: 2241
+    - id: 630878
+      asset_id: 101283
+      name: 5a.gp5
+      size: 4096
+      blob_id: 2242
+    - id: 630879
+      asset_id: 101283
+      name: 5b.bin
+      size: 2048
+      blob_id: 2243
+    - id: 630880
+      asset_id: 101283
+      name: 6c.sdp1
+      size: 4096
+      blob_id: 2244
+    - id: 630881
+      asset_id: 101283
+      name: 82s123.10k
+      size: 32
+      blob_id: 13154
+    - id: 630882
+      asset_id: 101283
+      name: 82s185.10h
+      size: 2048
+      blob_id: 13155
+    - id: 630883
+      asset_id: 101283
+      name: 8a.sp1
+      size: 2048
+      blob_id: 2245
+    - id: 630884
+      asset_id: 101283
+      name: 9a.cp3
+      size: 2048
+      blob_id: 2246
+- release:
+    id: 86147
+    game_id: 2038
+    description: ""
+    release_date: 19830000
+  names:
+  - id: 213689
+    kind: 3
+    kind_id: 86147
+    language: 1
+    name: Hunchback (FAR S.A. bootleg on Galaxian hardware)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 101284
+      kind: 3
+      kind_id: 86147
+      type: 1
+      name: hunchbgb.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 630885
+      asset_id: 101284
+      name: 1.bin
+      size: 2048
+      blob_id: 222691
+    - id: 630886
+      asset_id: 101284
+      name: 2.bin
+      size: 2048
+      blob_id: 222692
+    - id: 630887
+      asset_id: 101284
+      name: 3.bin
+      size: 2048
+      blob_id: 222693
+    - id: 630888
+      asset_id: 101284
+      name: 4.bin
+      size: 2048
+      blob_id: 222694
+    - id: 630889
+      asset_id: 101284
+      name: 5.bin
+      size: 2048
+      blob_id: 222695
+    - id: 630890
+      asset_id: 101284
+      name: 6.bin
+      size: 2048
+      blob_id: 222696
+    - id: 630891
+      asset_id: 101284
+      name: 7.bin
+      size: 2048
+      blob_id: 222697
+    - id: 630892
+      asset_id: 101284
+      name: 74s288n.bin
+      size: 32
+      blob_id: 222698
+    - id: 630893
+      asset_id: 101284
+      name: 8.bin
+      size: 2048
+      blob_id: 222699
+    - id: 630894
+      asset_id: 101284
+      name: jh.bin
+      size: 2048
+      blob_id: 222700
+    - id: 630895
+      asset_id: 101284
+      name: lk.bin
+      size: 2048
+      blob_id: 222701
+- release:
+    id: 86148
+    game_id: 2038
+    description: ""
+    release_date: 19830000
+  names:
+  - id: 213690
+    kind: 3
+    kind_id: 86148
+    language: 1
+    name: Hunchback (DK conversion)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 101285
+      kind: 3
+      kind_id: 86148
+      type: 1
+      name: hunchbkd.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 630896
+      asset_id: 101285
+      name: 82s147.prm
+      size: 512
+      blob_id: 22138
+    - id: 630897
+      asset_id: 101285
+      name: hb.3h
+      size: 2048
+      blob_id: 222702
+    - id: 630898
+      asset_id: 101285
+      name: hb.3n
+      size: 2048
+      blob_id: 222703
+    - id: 630899
+      asset_id: 101285
+      name: hb.3p
+      size: 2048
+      blob_id: 222704
+    - id: 630900
+      asset_id: 101285
+      name: hb.5a
+      size: 4096
+      blob_id: 222705
+    - id: 630901
+      asset_id: 101285
+      name: hb.5b
+      size: 4096
+      blob_id: 222706
+    - id: 630902
+      asset_id: 101285
+      name: hb.5e
+      size: 4096
+      blob_id: 222707
+    - id: 630903
+      asset_id: 101285
+      name: hb.7c
+      size: 2048
+      blob_id: 222708
+    - id: 630904
+      asset_id: 101285
+      name: hb.7d
+      size: 2048
+      blob_id: 222709
+    - id: 630905
+      asset_id: 101285
+      name: hb.7e
+      size: 2048
+      blob_id: 222710
+    - id: 630906
+      asset_id: 101285
+      name: hb.7f
+      size: 2048
+      blob_id: 222711
+    - id: 630907
+      asset_id: 101285
+      name: hbprom.2e
+      size: 256
+      blob_id: 222712
+    - id: 630908
+      asset_id: 101285
+      name: hbprom.2f
+      size: 256
+      blob_id: 222713
+    - id: 630909
+      asset_id: 101285
+      name: hbprom.2n
+      size: 256
+      blob_id: 222714
+    - id: 630910
+      asset_id: 101285
+      name: hbsc-1.5c
+      size: 4096
+      blob_id: 222715
+- release:
+    id: 86149
+    game_id: 2038
+    description: ""
+    release_date: 19830000
+  names:
+  - id: 213691
+    kind: 3
+    kind_id: 86149
+    language: 1
+    name: Hunchback (Galaxian hardware)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 101286
+      kind: 3
+      kind_id: 86149
+      type: 1
+      name: hunchbkg.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 630911
+      asset_id: 101286
+      name: gal_hb_1
+      size: 2048
+      blob_id: 222691
+    - id: 630912
+      asset_id: 101286
+      name: gal_hb_2
+      size: 2048
+      blob_id: 222692
+    - id: 630913
+      asset_id: 101286
+      name: gal_hb_3
+      size: 2048
+      blob_id: 222693
+    - id: 630914
+      asset_id: 101286
+      name: gal_hb_4
+      size: 2048
+      blob_id: 222694
+    - id: 630915
+      asset_id: 101286
+      name: gal_hb_5
+      size: 2048
+      blob_id: 222695
+    - id: 630916
+      asset_id: 101286
+      name: gal_hb_6
+      size: 2048
+      blob_id: 222696
+    - id: 630917
+      asset_id: 101286
+      name: gal_hb_7
+      size: 2048
+      blob_id: 222697
+    - id: 630918
+      asset_id: 101286
+      name: gal_hb_8
+      size: 2048
+      blob_id: 222699
+    - id: 630919
+      asset_id: 101286
+      name: gal_hb_cp
+      size: 32
+      blob_id: 222716
+    - id: 630920
+      asset_id: 101286
+      name: gal_hb_hj
+      size: 2048
+      blob_id: 222717
+    - id: 630921
+      asset_id: 101286
+      name: gal_hb_kl
+      size: 2048
+      blob_id: 222718
+- release:
+    id: 86150
+    game_id: 2038
+    description: ""
+    release_date: 19830000
+  names:
+  - id: 213692
+    kind: 3
+    kind_id: 86150
+    language: 1
+    name: Hunchback (Scramble hardware)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 101287
+      kind: 3
+      kind_id: 86150
+      type: 1
+      name: hunchbks.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 630922
+      asset_id: 101287
+      name: 11d_snd.bin
+      size: 2048
+      blob_id: 222719
+    - id: 630923
+      asset_id: 101287
+      name: 2c_hb01.bin
+      size: 2048
+      blob_id: 222720
+    - id: 630924
+      asset_id: 101287
+      name: 2e_hb02.bin
+      size: 2048
+      blob_id: 222721
+    - id: 630925
+      asset_id: 101287
+      name: 2f_hb03.bin
+      size: 2048
+      blob_id: 222722
+    - id: 630926
+      asset_id: 101287
+      name: 2h_hb04.bin
+      size: 2048
+      blob_id: 222723
+    - id: 630927
+      asset_id: 101287
+      name: 2j_hb05.bin
+      size: 2048
+      blob_id: 222724
+    - id: 630928
+      asset_id: 101287
+      name: 2l_hb06.bin
+      size: 2048
+      blob_id: 222725
+    - id: 630929
+      asset_id: 101287
+      name: 2m_hb07.bin
+      size: 2048
+      blob_id: 222726
+    - id: 630930
+      asset_id: 101287
+      name: 2p_hb08.bin
+      size: 2048
+      blob_id: 222727
+    - id: 630931
+      asset_id: 101287
+      name: 5f_hb09.bin
+      size: 2048
+      blob_id: 222717
+    - id: 630932
+      asset_id: 101287
+      name: 5h_hb10.bin
+      size: 2048
+      blob_id: 222718
+    - id: 630933
+      asset_id: 101287
+      name: 6e_prom.bin
+      size: 32
+      blob_id: 222728
+- release:
+    id: 86151
+    game_id: 2038
+    description: ""
+    release_date: 19830000
+  names:
+  - id: 213693
+    kind: 3
+    kind_id: 86151
+    language: 1
+    name: Hunchback (Scramble hardware, bootleg)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 101288
+      kind: 3
+      kind_id: 86151
+      type: 1
+      name: hunchbks2.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 630934
+      asset_id: 101288
+      name: 11d_snd.bin
+      size: 2048
+      blob_id: 222719
+    - id: 630935
+      asset_id: 101288
+      name: 2e_hb02.bin
+      size: 2048
+      blob_id: 222721
+    - id: 630936
+      asset_id: 101288
+      name: 2f_hb03.bin
+      size: 2048
+      blob_id: 222722
+    - id: 630937
+      asset_id: 101288
+      name: 2j_hb05.bin
+      size: 2048
+      blob_id: 222724
+    - id: 630938
+      asset_id: 101288
+      name: 2l_hb06.bin
+      size: 2048
+      blob_id: 222725
+    - id: 630939
+      asset_id: 101288
+      name: 2m_hb07.bin
+      size: 2048
+      blob_id: 222726
+    - id: 630940
+      asset_id: 101288
+      name: 2p_hb08.bin
+      size: 2048
+      blob_id: 222727
+    - id: 630941
+      asset_id: 101288
+      name: 5f_hb09.bin
+      size: 2048
+      blob_id: 222717
+    - id: 630942
+      asset_id: 101288
+      name: 5h_hb10.bin
+      size: 2048
+      blob_id: 222718
+    - id: 630943
+      asset_id: 101288
+      name: 6e_prom.bin
+      size: 32
+      blob_id: 222728
+    - id: 630944
+      asset_id: 101288
+      name: hb01.bin
+      size: 2048
+      blob_id: 222729
+    - id: 630945
+      asset_id: 101288
+      name: hb04.bin
+      size: 2048
+      blob_id: 222730

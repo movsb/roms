@@ -16,6 +16,24 @@ names:
   language: 2
   name: 坦克部队（美版, 2人版）
   source: ""
+- id: 199918
+  kind: 2
+  kind_id: 4150
+  language: 1
+  name: Tank Force (US, 4 Players)
+  source: mame
+- id: 199919
+  kind: 2
+  kind_id: 4150
+  language: 1
+  name: Tank Force (bootleg)
+  source: mame
+- id: 199920
+  kind: 2
+  kind_id: 4150
+  language: 1
+  name: Tank Force (Japan)
+  source: mame
 game_developers: []
 game_genres: []
 assets: []
@@ -130,6 +148,98 @@ releases:
     - id: 70860
       asset_id: 4133
       name: tf1prg7.bin
+      size: 131072
+      blob_id: 44510
+  - asset:
+      id: 115161
+      kind: 3
+      kind_id: 4150
+      type: 1
+      name: tankfrce.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 764915
+      asset_id: 115161
+      name: cus64-64a1.mcu
+      size: 4096
+      blob_id: 7725
+    - id: 764916
+      asset_id: 115161
+      name: tf1_chr0.bin
+      size: 131072
+      blob_id: 44496
+    - id: 764917
+      asset_id: 115161
+      name: tf1_chr1.bin
+      size: 131072
+      blob_id: 44497
+    - id: 764918
+      asset_id: 115161
+      name: tf1_chr2.bin
+      size: 131072
+      blob_id: 44498
+    - id: 764919
+      asset_id: 115161
+      name: tf1_chr3.bin
+      size: 131072
+      blob_id: 44499
+    - id: 764920
+      asset_id: 115161
+      name: tf1_chr4.bin
+      size: 131072
+      blob_id: 44500
+    - id: 764921
+      asset_id: 115161
+      name: tf1_chr5.bin
+      size: 131072
+      blob_id: 44501
+    - id: 764922
+      asset_id: 115161
+      name: tf1_chr8.bin
+      size: 131072
+      blob_id: 44502
+    - id: 764923
+      asset_id: 115161
+      name: tf1_obj0.bin
+      size: 131072
+      blob_id: 44503
+    - id: 764924
+      asset_id: 115161
+      name: tf1_obj1.bin
+      size: 131072
+      blob_id: 44504
+    - id: 764925
+      asset_id: 115161
+      name: tf1_prg0.bin
+      size: 131072
+      blob_id: 44505
+    - id: 764926
+      asset_id: 115161
+      name: tf1_prg1.bin
+      size: 131072
+      blob_id: 44506
+    - id: 764927
+      asset_id: 115161
+      name: tf1_snd0.bin
+      size: 131072
+      blob_id: 44507
+    - id: 764928
+      asset_id: 115161
+      name: tf1_voi0.bin
+      size: 131072
+      blob_id: 44508
+    - id: 764929
+      asset_id: 115161
+      name: tf1_voi1.bin
+      size: 131072
+      blob_id: 44509
+    - id: 764930
+      asset_id: 115161
+      name: tf6_prg7.bin
       size: 131072
       blob_id: 44510
 - release:
@@ -290,108 +400,280 @@ releases:
       size: 131072
       blob_id: 44510
 - release:
-    id: 72700
+    id: 99319
     game_id: 4150
     description: ""
     release_date: 19910000
   names:
-  - id: 175369
+  - id: 232347
     kind: 3
-    kind_id: 72700
+    kind_id: 99319
     language: 1
-    name: Tank Force (US, 2 Players)
+    name: Tank Force (US, 4 Players)
     source: mame
   release_publishers: []
   assets:
   - asset:
-      id: 85770
+      id: 115162
       kind: 3
-      kind_id: 72700
+      kind_id: 99319
       type: 1
-      name: tankfrce.zip
+      name: tankfrce4.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 387157
-      asset_id: 85770
+    - id: 764931
+      asset_id: 115162
       name: cus64-64a1.mcu
       size: 4096
       blob_id: 7725
-    - id: 387158
-      asset_id: 85770
+    - id: 764932
+      asset_id: 115162
       name: tf1_chr0.bin
       size: 131072
       blob_id: 44496
-    - id: 387159
-      asset_id: 85770
+    - id: 764933
+      asset_id: 115162
       name: tf1_chr1.bin
       size: 131072
       blob_id: 44497
-    - id: 387160
-      asset_id: 85770
+    - id: 764934
+      asset_id: 115162
       name: tf1_chr2.bin
       size: 131072
       blob_id: 44498
-    - id: 387161
-      asset_id: 85770
+    - id: 764935
+      asset_id: 115162
       name: tf1_chr3.bin
       size: 131072
       blob_id: 44499
-    - id: 387162
-      asset_id: 85770
+    - id: 764936
+      asset_id: 115162
       name: tf1_chr4.bin
       size: 131072
       blob_id: 44500
-    - id: 387163
-      asset_id: 85770
+    - id: 764937
+      asset_id: 115162
       name: tf1_chr5.bin
       size: 131072
       blob_id: 44501
-    - id: 387164
-      asset_id: 85770
+    - id: 764938
+      asset_id: 115162
       name: tf1_chr8.bin
       size: 131072
       blob_id: 44502
-    - id: 387165
-      asset_id: 85770
+    - id: 764939
+      asset_id: 115162
       name: tf1_obj0.bin
       size: 131072
       blob_id: 44503
-    - id: 387166
-      asset_id: 85770
+    - id: 764940
+      asset_id: 115162
       name: tf1_obj1.bin
       size: 131072
       blob_id: 44504
-    - id: 387167
-      asset_id: 85770
+    - id: 764941
+      asset_id: 115162
       name: tf1_prg0.bin
       size: 131072
       blob_id: 44505
-    - id: 387168
-      asset_id: 85770
+    - id: 764942
+      asset_id: 115162
       name: tf1_prg1.bin
       size: 131072
       blob_id: 44506
-    - id: 387169
-      asset_id: 85770
+    - id: 764943
+      asset_id: 115162
       name: tf1_snd0.bin
       size: 131072
       blob_id: 44507
-    - id: 387170
-      asset_id: 85770
+    - id: 764944
+      asset_id: 115162
       name: tf1_voi0.bin
       size: 131072
       blob_id: 44508
-    - id: 387171
-      asset_id: 85770
+    - id: 764945
+      asset_id: 115162
       name: tf1_voi1.bin
       size: 131072
       blob_id: 44509
-    - id: 387172
-      asset_id: 85770
-      name: tf6_prg7.bin
+    - id: 764946
+      asset_id: 115162
+      name: tfu4prg7.bin
       size: 131072
-      blob_id: 44510
+      blob_id: 44511
+- release:
+    id: 99320
+    game_id: 4150
+    description: ""
+    release_date: 0
+  names:
+  - id: 232348
+    kind: 3
+    kind_id: 99320
+    language: 1
+    name: Tank Force (bootleg)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 115163
+      kind: 3
+      kind_id: 99320
+      type: 1
+      name: tankfrceb.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 764947
+      asset_id: 115163
+      name: tk_r1-su4.su4
+      size: 524288
+      blob_id: 44512
+    - id: 764948
+      asset_id: 115163
+      name: tk_r2-su5.su5
+      size: 524288
+      blob_id: 44513
+    - id: 764949
+      asset_id: 115163
+      name: tk_r3-su6.su6
+      size: 524288
+      blob_id: 44514
+    - id: 764950
+      asset_id: 115163
+      name: tk_r4-ug25.ug25
+      size: 524288
+      blob_id: 44515
+    - id: 764951
+      asset_id: 115163
+      name: tk_r5-uj24.uj24
+      size: 262144
+      blob_id: 44516
+    - id: 764952
+      asset_id: 115163
+      name: tk_r6-rom4.010
+      size: 131072
+      blob_id: 44502
+    - id: 764953
+      asset_id: 115163
+      name: tk_r7-rom5.040
+      size: 524288
+      blob_id: 44517
+    - id: 764954
+      asset_id: 115163
+      name: tk_r8-rom6.020
+      size: 262144
+      blob_id: 44518
+- release:
+    id: 99321
+    game_id: 4150
+    description: ""
+    release_date: 19910000
+  names:
+  - id: 232349
+    kind: 3
+    kind_id: 99321
+    language: 1
+    name: Tank Force (Japan)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 115164
+      kind: 3
+      kind_id: 99321
+      type: 1
+      name: tankfrcej.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 764955
+      asset_id: 115164
+      name: cus64-64a1.mcu
+      size: 4096
+      blob_id: 7725
+    - id: 764956
+      asset_id: 115164
+      name: tf1_chr0.bin
+      size: 131072
+      blob_id: 44496
+    - id: 764957
+      asset_id: 115164
+      name: tf1_chr1.bin
+      size: 131072
+      blob_id: 44497
+    - id: 764958
+      asset_id: 115164
+      name: tf1_chr2.bin
+      size: 131072
+      blob_id: 44498
+    - id: 764959
+      asset_id: 115164
+      name: tf1_chr3.bin
+      size: 131072
+      blob_id: 44499
+    - id: 764960
+      asset_id: 115164
+      name: tf1_chr4.bin
+      size: 131072
+      blob_id: 44500
+    - id: 764961
+      asset_id: 115164
+      name: tf1_chr5.bin
+      size: 131072
+      blob_id: 44501
+    - id: 764962
+      asset_id: 115164
+      name: tf1_chr8.bin
+      size: 131072
+      blob_id: 44502
+    - id: 764963
+      asset_id: 115164
+      name: tf1_obj0.bin
+      size: 131072
+      blob_id: 44503
+    - id: 764964
+      asset_id: 115164
+      name: tf1_obj1.bin
+      size: 131072
+      blob_id: 44504
+    - id: 764965
+      asset_id: 115164
+      name: tf1_prg0.bin
+      size: 131072
+      blob_id: 44505
+    - id: 764966
+      asset_id: 115164
+      name: tf1_prg1.bin
+      size: 131072
+      blob_id: 44506
+    - id: 764967
+      asset_id: 115164
+      name: tf1_prg7.bin
+      size: 131072
+      blob_id: 44519
+    - id: 764968
+      asset_id: 115164
+      name: tf1_snd0.bin
+      size: 131072
+      blob_id: 44507
+    - id: 764969
+      asset_id: 115164
+      name: tf1_voi0.bin
+      size: 131072
+      blob_id: 44508
+    - id: 764970
+      asset_id: 115164
+      name: tf1_voi1.bin
+      size: 131072
+      blob_id: 44509

@@ -10,6 +10,24 @@ names:
   language: 1
   name: spacedx
   source: ""
+- id: 199326
+  kind: 2
+  kind_id: 3869
+  language: 1
+  name: Space Invaders DX (Japan, v2.1)
+  source: mame
+- id: 199327
+  kind: 2
+  kind_id: 3869
+  language: 1
+  name: Space Invaders DX (Japan, v2.0)
+  source: mame
+- id: 199371
+  kind: 2
+  kind_id: 3869
+  language: 1
+  name: Space Invaders DX (Ver 2.6J 1994/09/14) (F3 Version)
+  source: mame
 game_developers:
 - game_id: 3869
   developer_id: 35
@@ -143,6 +161,73 @@ releases:
       blob_id: 90226
       debug: arcade/wheel/spacedx.png
     entries: []
+  - asset:
+      id: 114020
+      kind: 3
+      kind_id: 3869
+      type: 1
+      name: spacedx.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 751242
+      asset_id: 114020
+      name: d89-01.ic9
+      size: 524288
+      blob_id: 41480
+    - id: 751243
+      asset_id: 114020
+      name: d89-02.ic14
+      size: 524288
+      blob_id: 41481
+    - id: 751244
+      asset_id: 114020
+      name: d89-03.ic15
+      size: 524288
+      blob_id: 41482
+    - id: 751245
+      asset_id: 114020
+      name: d89-06.ic18
+      size: 262144
+      blob_id: 41483
+    - id: 751246
+      asset_id: 114020
+      name: d89-07.ic27
+      size: 65536
+      blob_id: 41484
+    - id: 751247
+      asset_id: 114020
+      name: d89-xx.ic2
+      size: 262144
+      blob_id: 41485
+    - id: 751248
+      asset_id: 114020
+      name: pal16l8-d72-05.ic37
+      size: 260
+      blob_id: 41486
+    - id: 751249
+      asset_id: 114020
+      name: pal16l8-d72-06.ic50
+      size: 260
+      blob_id: 41487
+    - id: 751250
+      asset_id: 114020
+      name: palce16v8-d72-10.ic12
+      size: 279
+      blob_id: 41488
+    - id: 751251
+      asset_id: 114020
+      name: palce20v8-d72-07.ic28
+      size: 343
+      blob_id: 41489
+    - id: 751252
+      asset_id: 114020
+      name: palce20v8-d72-09.ic47
+      size: 343
+      blob_id: 41490
 - release:
     id: 3870
     game_id: 3869
@@ -326,83 +411,235 @@ releases:
       size: 524288
       blob_id: 9992
 - release:
-    id: 71412
+    id: 98285
     game_id: 3869
     description: ""
     release_date: 19940000
   names:
-  - id: 172893
+  - id: 230859
     kind: 3
-    kind_id: 71412
+    kind_id: 98285
     language: 1
-    name: Space Invaders DX (US, v2.1)
+    name: Space Invaders DX (Japan, v2.1)
     source: mame
   release_publishers: []
   assets:
   - asset:
-      id: 84482
+      id: 114021
       kind: 3
-      kind_id: 71412
+      kind_id: 98285
       type: 1
-      name: spacedx.zip
+      name: spacedxj.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 372551
-      asset_id: 84482
+    - id: 751253
+      asset_id: 114021
       name: d89-01.ic9
       size: 524288
       blob_id: 41480
-    - id: 372552
-      asset_id: 84482
+    - id: 751254
+      asset_id: 114021
       name: d89-02.ic14
       size: 524288
       blob_id: 41481
-    - id: 372553
-      asset_id: 84482
+    - id: 751255
+      asset_id: 114021
       name: d89-03.ic15
       size: 524288
       blob_id: 41482
-    - id: 372554
-      asset_id: 84482
+    - id: 751256
+      asset_id: 114021
+      name: d89-05.ic2
+      size: 262144
+      blob_id: 41491
+    - id: 751257
+      asset_id: 114021
       name: d89-06.ic18
       size: 262144
       blob_id: 41483
-    - id: 372555
-      asset_id: 84482
+    - id: 751258
+      asset_id: 114021
       name: d89-07.ic27
       size: 65536
       blob_id: 41484
-    - id: 372556
-      asset_id: 84482
-      name: d89-xx.ic2
-      size: 262144
-      blob_id: 41485
-    - id: 372557
-      asset_id: 84482
+    - id: 751259
+      asset_id: 114021
       name: pal16l8-d72-05.ic37
       size: 260
       blob_id: 41486
-    - id: 372558
-      asset_id: 84482
+    - id: 751260
+      asset_id: 114021
       name: pal16l8-d72-06.ic50
       size: 260
       blob_id: 41487
-    - id: 372559
-      asset_id: 84482
+    - id: 751261
+      asset_id: 114021
       name: palce16v8-d72-10.ic12
       size: 279
       blob_id: 41488
-    - id: 372560
-      asset_id: 84482
+    - id: 751262
+      asset_id: 114021
       name: palce20v8-d72-07.ic28
       size: 343
       blob_id: 41489
-    - id: 372561
-      asset_id: 84482
+    - id: 751263
+      asset_id: 114021
       name: palce20v8-d72-09.ic47
       size: 343
       blob_id: 41490
+- release:
+    id: 98286
+    game_id: 3869
+    description: ""
+    release_date: 19940000
+  names:
+  - id: 230860
+    kind: 3
+    kind_id: 98286
+    language: 1
+    name: Space Invaders DX (Japan, v2.0)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 114022
+      kind: 3
+      kind_id: 98286
+      type: 1
+      name: spacedxo.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 751264
+      asset_id: 114022
+      name: d89-03.ic15
+      size: 524288
+      blob_id: 41482
+    - id: 751265
+      asset_id: 114022
+      name: d89-07.ic27
+      size: 65536
+      blob_id: 41484
+    - id: 751266
+      asset_id: 114022
+      name: d89-08.bin
+      size: 131072
+      blob_id: 41492
+    - id: 751267
+      asset_id: 114022
+      name: d89-09.bin
+      size: 131072
+      blob_id: 41493
+    - id: 751268
+      asset_id: 114022
+      name: d89-12.bin
+      size: 524288
+      blob_id: 41494
+    - id: 751269
+      asset_id: 114022
+      name: d89-13.bin
+      size: 524288
+      blob_id: 41495
+- release:
+    id: 98345
+    game_id: 3869
+    description: ""
+    release_date: 19940000
+  names:
+  - id: 230940
+    kind: 3
+    kind_id: 98345
+    language: 1
+    name: Space Invaders DX (Ver 2.6J 1994/09/14) (F3 Version)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 114093
+      kind: 3
+      kind_id: 98345
+      type: 1
+      name: spcinvdj.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 752139
+      asset_id: 114093
+      name: d93-01.bin
+      size: 131072
+      blob_id: 41496
+    - id: 752140
+      asset_id: 114093
+      name: d93-02.bin
+      size: 131072
+      blob_id: 41497
+    - id: 752141
+      asset_id: 114093
+      name: d93-03.bin
+      size: 131072
+      blob_id: 41498
+    - id: 752142
+      asset_id: 114093
+      name: d93-04.bin
+      size: 131072
+      blob_id: 41499
+    - id: 752143
+      asset_id: 114093
+      name: d93-05.bin
+      size: 131072
+      blob_id: 41500
+    - id: 752144
+      asset_id: 114093
+      name: d93-06.bin
+      size: 131072
+      blob_id: 41501
+    - id: 752145
+      asset_id: 114093
+      name: d93-07.12
+      size: 524288
+      blob_id: 41502
+    - id: 752146
+      asset_id: 114093
+      name: d93-08.08
+      size: 524288
+      blob_id: 41503
+    - id: 752147
+      asset_id: 114093
+      name: d93-09.47
+      size: 131072
+      blob_id: 41504
+    - id: 752148
+      asset_id: 114093
+      name: d93-10.45
+      size: 131072
+      blob_id: 41505
+    - id: 752149
+      asset_id: 114093
+      name: d93-11.38
+      size: 524288
+      blob_id: 41506
+    - id: 752150
+      asset_id: 114093
+      name: d93-12.39
+      size: 524288
+      blob_id: 41507
+    - id: 752151
+      asset_id: 114093
+      name: d93-13.40
+      size: 524288
+      blob_id: 9993
+    - id: 752152
+      asset_id: 114093
+      name: d93-14.41
+      size: 524288
+      blob_id: 9992

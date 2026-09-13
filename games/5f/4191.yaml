@@ -16,6 +16,12 @@ names:
   language: 2
   name: 南梦宫迷你游戏98
   source: trimui
+- id: 200038
+  kind: 2
+  kind_id: 4191
+  language: 1
+  name: Tenkomori Shooting (Japan, TKM1/VER.A1)
+  source: mame
 game_developers: []
 game_genres: []
 assets: []
@@ -127,24 +133,10 @@ releases:
       name: tkm2vera.2j
       size: 2097152
       blob_id: 45050
-- release:
-    id: 72933
-    game_id: 4191
-    description: ""
-    release_date: 19980000
-  names:
-  - id: 175812
-    kind: 3
-    kind_id: 72933
-    language: 1
-    name: Tenkomori Shooting (World, TKM2/VER.A1)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 86003
+      id: 115384
       kind: 3
-      kind_id: 72933
+      kind_id: 4191
       type: 1
       name: tenkomor.zip
       description: ""
@@ -153,68 +145,250 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 389412
-      asset_id: 86003
+    - id: 767100
+      asset_id: 115384
       name: tkm1fl1l.9
       size: 2097152
       blob_id: 45038
-    - id: 389413
-      asset_id: 86003
+    - id: 767101
+      asset_id: 115384
       name: tkm1fl1u.10
       size: 2097152
       blob_id: 45039
-    - id: 389414
-      asset_id: 86003
+    - id: 767102
+      asset_id: 115384
       name: tkm1fl2l.7
       size: 2097152
       blob_id: 45040
-    - id: 389415
-      asset_id: 86003
+    - id: 767103
+      asset_id: 115384
       name: tkm1fl2u.8
       size: 2097152
       blob_id: 45041
-    - id: 389416
-      asset_id: 86003
+    - id: 767104
+      asset_id: 115384
       name: tkm1fl3l.5
       size: 2097152
       blob_id: 45042
-    - id: 389417
-      asset_id: 86003
+    - id: 767105
+      asset_id: 115384
       name: tkm1fl3u.6
       size: 2097152
       blob_id: 45043
-    - id: 389418
-      asset_id: 86003
+    - id: 767106
+      asset_id: 115384
       name: tkm1rom0l.12
       size: 8388608
       blob_id: 45044
-    - id: 389419
-      asset_id: 86003
+    - id: 767107
+      asset_id: 115384
       name: tkm1rom0u.11
       size: 8388608
       blob_id: 45045
-    - id: 389420
-      asset_id: 86003
+    - id: 767108
+      asset_id: 115384
       name: tkm1vera.11s
       size: 524288
       blob_id: 45046
-    - id: 389421
-      asset_id: 86003
+    - id: 767109
+      asset_id: 115384
       name: tkm1wave0.2
       size: 8388608
       blob_id: 45047
-    - id: 389422
-      asset_id: 86003
+    - id: 767110
+      asset_id: 115384
       name: tkm1wave1.1
       size: 8388608
       blob_id: 45048
-    - id: 389423
-      asset_id: 86003
+    - id: 767111
+      asset_id: 115384
       name: tkm2vera.2e
       size: 2097152
       blob_id: 45049
-    - id: 389424
-      asset_id: 86003
+    - id: 767112
+      asset_id: 115384
       name: tkm2vera.2j
       size: 2097152
       blob_id: 45050
+- release:
+    id: 99519
+    game_id: 4191
+    description: ""
+    release_date: 19980000
+  names:
+  - id: 232638
+    kind: 3
+    kind_id: 99519
+    language: 1
+    name: Tenkomori Shooting (Japan, TKM1/VER.A1)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 115385
+      kind: 3
+      kind_id: 99519
+      type: 1
+      name: tenkomorja1.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 767113
+      asset_id: 115385
+      name: tkm1fl1l.9
+      size: 2097152
+      blob_id: 45038
+    - id: 767114
+      asset_id: 115385
+      name: tkm1fl1u.10
+      size: 2097152
+      blob_id: 45039
+    - id: 767115
+      asset_id: 115385
+      name: tkm1fl2l.7
+      size: 2097152
+      blob_id: 45040
+    - id: 767116
+      asset_id: 115385
+      name: tkm1fl2u.8
+      size: 2097152
+      blob_id: 45041
+    - id: 767117
+      asset_id: 115385
+      name: tkm1fl3l.5
+      size: 2097152
+      blob_id: 45042
+    - id: 767118
+      asset_id: 115385
+      name: tkm1fl3u.6
+      size: 2097152
+      blob_id: 45043
+    - id: 767119
+      asset_id: 115385
+      name: tkm1rom0l.12
+      size: 8388608
+      blob_id: 45044
+    - id: 767120
+      asset_id: 115385
+      name: tkm1rom0u.11
+      size: 8388608
+      blob_id: 45045
+    - id: 767121
+      asset_id: 115385
+      name: tkm1vera.11s
+      size: 524288
+      blob_id: 45046
+    - id: 767122
+      asset_id: 115385
+      name: tkm1vera.2e
+      size: 2097152
+      blob_id: 45036
+    - id: 767123
+      asset_id: 115385
+      name: tkm1vera.2j
+      size: 2097152
+      blob_id: 45037
+    - id: 767124
+      asset_id: 115385
+      name: tkm1wave0.2
+      size: 8388608
+      blob_id: 45047
+    - id: 767125
+      asset_id: 115385
+      name: tkm1wave1.1
+      size: 8388608
+      blob_id: 45048
+- release:
+    id: 105281
+    game_id: 4191
+    description: ""
+    release_date: 19980000
+  names:
+  - id: 241986
+    kind: 3
+    kind_id: 105281
+    language: 1
+    name: Tenkomori Shooting (Japan, TKM1/VER.A1)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 121163
+      kind: 3
+      kind_id: 105281
+      type: 1
+      name: tenkomorja.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.259
+    entries:
+    - id: 888396
+      asset_id: 121163
+      name: tkm1fl1l.9
+      size: 2097152
+      blob_id: 45038
+    - id: 888397
+      asset_id: 121163
+      name: tkm1fl1u.10
+      size: 2097152
+      blob_id: 45039
+    - id: 888398
+      asset_id: 121163
+      name: tkm1fl2l.7
+      size: 2097152
+      blob_id: 45040
+    - id: 888399
+      asset_id: 121163
+      name: tkm1fl2u.8
+      size: 2097152
+      blob_id: 45041
+    - id: 888400
+      asset_id: 121163
+      name: tkm1fl3l.5
+      size: 2097152
+      blob_id: 45042
+    - id: 888401
+      asset_id: 121163
+      name: tkm1fl3u.6
+      size: 2097152
+      blob_id: 45043
+    - id: 888402
+      asset_id: 121163
+      name: tkm1rom0l.12
+      size: 8388608
+      blob_id: 45044
+    - id: 888403
+      asset_id: 121163
+      name: tkm1rom0u.11
+      size: 8388608
+      blob_id: 45045
+    - id: 888404
+      asset_id: 121163
+      name: tkm1vera.11s
+      size: 524288
+      blob_id: 45046
+    - id: 888405
+      asset_id: 121163
+      name: tkm1vera.2e
+      size: 2097152
+      blob_id: 45036
+    - id: 888406
+      asset_id: 121163
+      name: tkm1vera.2j
+      size: 2097152
+      blob_id: 45037
+    - id: 888407
+      asset_id: 121163
+      name: tkm1wave0.2
+      size: 8388608
+      blob_id: 45047
+    - id: 888408
+      asset_id: 121163
+      name: tkm1wave1.1
+      size: 8388608
+      blob_id: 45048

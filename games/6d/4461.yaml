@@ -16,6 +16,12 @@ names:
   language: 2
   name: 电视弹珠台
   source: trimui
+- id: 201130
+  kind: 2
+  kind_id: 4461
+  language: 1
+  name: Video Pinball (4 ROMs version)
+  source: mame
 game_developers:
 - game_id: 4461
   developer_id: 101
@@ -192,3 +198,71 @@ releases:
       blob_id: 86485
       debug: arcade/wheel/videopin.png
     entries: []
+- release:
+    id: 101300
+    game_id: 4461
+    description: ""
+    release_date: 19790000
+  names:
+  - id: 235134
+    kind: 3
+    kind_id: 101300
+    language: 1
+    name: Video Pinball (4 ROMs version)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 117263
+      kind: 3
+      kind_id: 101300
+      type: 1
+      name: videopina.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/961955499
+    entries:
+    - id: 787050
+      asset_id: 117263
+      name: 034253-01.m0
+      size: 2048
+      blob_id: 311602
+    - id: 787051
+      asset_id: 117263
+      name: 034254-01.h2
+      size: 2048
+      blob_id: 311603
+    - id: 787052
+      asset_id: 117263
+      name: 034255-01.j2
+      size: 2048
+      blob_id: 311604
+    - id: 787053
+      asset_id: 117263
+      name: 034256-01.k2
+      size: 2048
+      blob_id: 311605
+    - id: 787054
+      asset_id: 117263
+      name: 34257-01.m1
+      size: 32
+      blob_id: 48429
+    - id: 787055
+      asset_id: 117263
+      name: 34258-01.c5
+      size: 512
+      blob_id: 48430
+    - id: 787056
+      asset_id: 117263
+      name: 34259-01.d5
+      size: 512
+      blob_id: 48431
+    - id: 787057
+      asset_id: 117263
+      name: 9402-01.h4
+      size: 256
+      blob_id: 10676

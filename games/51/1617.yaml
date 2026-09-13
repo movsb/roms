@@ -16,6 +16,12 @@ names:
   language: 2
   name: 快打旋风3 D版
   source: trimui
+- id: 190498
+  kind: 2
+  kind_id: 1617
+  language: 1
+  name: Final Fight 3 (SNES bootleg, set 2)
+  source: mame
 game_developers: []
 game_genres: []
 assets: []
@@ -72,24 +78,10 @@ releases:
       name: spc700.rom
       size: 64
       blob_id: 14927
-- release:
-    id: 43562
-    game_id: 1617
-    description: ""
-    release_date: 0
-  names:
-  - id: 117939
-    kind: 3
-    kind_id: 43562
-    language: 1
-    name: Final Fight 3 (SNES bootleg, set 1)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 56632
+      id: 98906
       kind: 3
-      kind_id: 43562
+      kind_id: 1617
       type: 1
       name: ffight3b.zip
       description: ""
@@ -98,18 +90,64 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 169816
-      asset_id: 56632
+    - id: 602178
+      asset_id: 98906
       name: 801.u6
       size: 1048576
       blob_id: 17747
-    - id: 169817
-      asset_id: 56632
+    - id: 602179
+      asset_id: 98906
       name: 801.u7
       size: 1048576
       blob_id: 17748
-    - id: 169818
-      asset_id: 56632
+    - id: 602180
+      asset_id: 98906
       name: 801.u8
       size: 1048576
       blob_id: 17749
+- release:
+    id: 83959
+    game_id: 1617
+    description: ""
+    release_date: 0
+  names:
+  - id: 210389
+    kind: 3
+    kind_id: 83959
+    language: 1
+    name: Final Fight 3 (SNES bootleg, set 2)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 98907
+      kind: 3
+      kind_id: 83959
+      type: 1
+      name: ffight3b2.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 602181
+      asset_id: 98907
+      name: 1.u37
+      size: 524288
+      blob_id: 246034
+    - id: 602182
+      asset_id: 98907
+      name: 2.u36
+      size: 1048576
+      blob_id: 17749
+    - id: 602183
+      asset_id: 98907
+      name: 3.u35
+      size: 1048576
+      blob_id: 17748
+    - id: 602184
+      asset_id: 98907
+      name: 4.u34
+      size: 524288
+      blob_id: 246035

@@ -16,6 +16,18 @@ names:
   language: 2
   name: 谜之侵略者 II
   source: trimui
+- id: 190190
+  kind: 2
+  kind_id: 1537
+  language: 1
+  name: Enigma II (Space Invaders hardware)
+  source: mame
+- id: 190191
+  kind: 2
+  kind_id: 1537
+  language: 1
+  name: Phantoms II (Space Invaders hardware)
+  source: mame
 game_developers:
 - game_id: 1537
   developer_id: 480
@@ -139,24 +151,10 @@ releases:
       blob_id: 86482
       debug: arcade/wheel/enigma2.png
     entries: []
-- release:
-    id: 42192
-    game_id: 1537
-    description: ""
-    release_date: 19810000
-  names:
-  - id: 115227
-    kind: 3
-    kind_id: 42192
-    language: 1
-    name: Enigma II
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 55262
+      id: 98351
       kind: 3
-      kind_id: 42192
+      kind_id: 1537
       type: 1
       name: enigma2.zip
       description: ""
@@ -165,48 +163,170 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 161745
-      asset_id: 55262
+    - id: 597126
+      asset_id: 98351
       name: 1.5d
       size: 2048
       blob_id: 16830
-    - id: 161746
-      asset_id: 55262
+    - id: 597127
+      asset_id: 98351
       name: 2.7d
       size: 2048
       blob_id: 16831
-    - id: 161747
-      asset_id: 55262
+    - id: 597128
+      asset_id: 98351
       name: 3.8d
       size: 2048
       blob_id: 16832
-    - id: 161748
-      asset_id: 55262
+    - id: 597129
+      asset_id: 98351
       name: 4.10d
       size: 2048
       blob_id: 16833
-    - id: 161749
-      asset_id: 55262
+    - id: 597130
+      asset_id: 98351
       name: 5.11d
       size: 2048
       blob_id: 16834
-    - id: 161750
-      asset_id: 55262
+    - id: 597131
+      asset_id: 98351
       name: 6.13d
       size: 2048
       blob_id: 16835
-    - id: 161751
-      asset_id: 55262
+    - id: 597132
+      asset_id: 98351
       name: 7.11f
       size: 2048
       blob_id: 16836
-    - id: 161752
-      asset_id: 55262
+    - id: 597133
+      asset_id: 98351
       name: 8.13f
       size: 2048
       blob_id: 16837
-    - id: 161753
-      asset_id: 55262
+    - id: 597134
+      asset_id: 98351
       name: 9.2f
       size: 4096
-      blob_id: 112453
+      blob_id: 214649
+- release:
+    id: 83434
+    game_id: 1537
+    description: ""
+    release_date: 19840000
+  names:
+  - id: 209579
+    kind: 3
+    kind_id: 83434
+    language: 1
+    name: Enigma II (Space Invaders hardware)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 98352
+      kind: 3
+      kind_id: 83434
+      type: 1
+      name: enigma2a.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 597135
+      asset_id: 98352
+      name: 33_en4.bin
+      size: 2048
+      blob_id: 244793
+    - id: 597136
+      asset_id: 98352
+      name: 34_en3.bin
+      size: 2048
+      blob_id: 244794
+    - id: 597137
+      asset_id: 98352
+      name: 35_en2.bin
+      size: 2048
+      blob_id: 244795
+    - id: 597138
+      asset_id: 98352
+      name: 36_en1.bin
+      size: 2048
+      blob_id: 244796
+    - id: 597139
+      asset_id: 98352
+      name: 5.11d
+      size: 2048
+      blob_id: 16834
+    - id: 597140
+      asset_id: 98352
+      name: 6.13d
+      size: 2048
+      blob_id: 16835
+    - id: 597141
+      asset_id: 98352
+      name: sound.bin
+      size: 2048
+      blob_id: 244797
+- release:
+    id: 83435
+    game_id: 1537
+    description: ""
+    release_date: 19810000
+  names:
+  - id: 209580
+    kind: 3
+    kind_id: 83435
+    language: 1
+    name: Phantoms II (Space Invaders hardware)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 98353
+      kind: 3
+      kind_id: 83435
+      type: 1
+      name: enigma2b.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 597142
+      asset_id: 98353
+      name: ic32.bin
+      size: 2048
+      blob_id: 16834
+    - id: 597143
+      asset_id: 98353
+      name: ic33.bin
+      size: 2048
+      blob_id: 244798
+    - id: 597144
+      asset_id: 98353
+      name: ic34.bin
+      size: 2048
+      blob_id: 244799
+    - id: 597145
+      asset_id: 98353
+      name: ic35.bin
+      size: 2048
+      blob_id: 244795
+    - id: 597146
+      asset_id: 98353
+      name: ic36.bin
+      size: 2048
+      blob_id: 244800
+    - id: 597147
+      asset_id: 98353
+      name: ic42.bin
+      size: 2048
+      blob_id: 16835
+    - id: 597148
+      asset_id: 98353
+      name: sound.bin
+      size: 2048
+      blob_id: 244797

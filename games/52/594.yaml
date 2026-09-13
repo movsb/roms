@@ -10,6 +10,18 @@ names:
   language: 1
   name: airbustr
   source: ""
+- id: 187792
+  kind: 2
+  kind_id: 594
+  language: 1
+  name: "Air Buster: Trouble Specialty Raid Unit (bootleg)"
+  source: mame
+- id: 187793
+  kind: 2
+  kind_id: 594
+  language: 1
+  name: "Air Buster: Trouble Specialty Raid Unit (Japan)"
+  source: mame
 game_developers:
 - game_id: 594
   developer_id: 453
@@ -40,53 +52,6 @@ releases:
   - release_id: 594
     publisher_id: 384
   assets:
-  - asset:
-      id: 594
-      kind: 3
-      kind_id: 594
-      type: 1
-      name: airbustr.zip
-      description: ""
-      format: 2
-      size: 693968
-      blob_id: 0
-      debug: airbustr.zip
-    entries:
-    - id: 7044
-      asset_id: 594
-      name: pr-000.bin
-      size: 524288
-      blob_id: 5485
-    - id: 7045
-      asset_id: 594
-      name: pr-001.bin
-      size: 524288
-      blob_id: 5486
-    - id: 7046
-      asset_id: 594
-      name: pr-02.bin
-      size: 65536
-      blob_id: 5487
-    - id: 7047
-      asset_id: 594
-      name: pr-200.bin
-      size: 262144
-      blob_id: 5488
-    - id: 7048
-      asset_id: 594
-      name: pr-21.bin
-      size: 131072
-      blob_id: 5489
-    - id: 7049
-      asset_id: 594
-      name: pr12.h19
-      size: 131072
-      blob_id: 5490
-    - id: 7050
-      asset_id: 594
-      name: pr13.l15
-      size: 131072
-      blob_id: 5491
   - asset:
       id: 42172
       kind: 3
@@ -267,10 +232,71 @@ releases:
     language: 1
     name: "Air Buster: Trouble Specialty Raid Unit (World)"
     source: mame
-  release_publishers: []
+  - id: 183984
+    kind: 3
+    kind_id: 36458
+    language: 1
+    name: airbustr
+    source: ""
+  - id: 183985
+    kind: 3
+    kind_id: 36458
+    language: 2
+    name: "空战克星 : 克难小队 (世界版)"
+    source: trimui
+  release_publishers:
+  - release_id: 36458
+    publisher_id: 384
   assets:
   - asset:
-      id: 49528
+      id: 594
+      kind: 3
+      kind_id: 36458
+      type: 1
+      name: airbustr.zip
+      description: ""
+      format: 2
+      size: 693968
+      blob_id: 0
+      debug: airbustr.zip
+    entries:
+    - id: 7044
+      asset_id: 594
+      name: pr-000.bin
+      size: 524288
+      blob_id: 5485
+    - id: 7045
+      asset_id: 594
+      name: pr-001.bin
+      size: 524288
+      blob_id: 5486
+    - id: 7046
+      asset_id: 594
+      name: pr-02.bin
+      size: 65536
+      blob_id: 5487
+    - id: 7047
+      asset_id: 594
+      name: pr-200.bin
+      size: 262144
+      blob_id: 5488
+    - id: 7048
+      asset_id: 594
+      name: pr-21.bin
+      size: 131072
+      blob_id: 5489
+    - id: 7049
+      asset_id: 594
+      name: pr12.h19
+      size: 131072
+      blob_id: 5490
+    - id: 7050
+      asset_id: 594
+      name: pr13.l15
+      size: 131072
+      blob_id: 5491
+  - asset:
+      id: 93638
       kind: 3
       kind_id: 36458
       type: 1
@@ -281,48 +307,262 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 97886
-      asset_id: 49528
+    - id: 537651
+      asset_id: 93638
       name: gal16v8a-pr-501.13j
       size: 279
-      blob_id: 93919
-    - id: 97887
-      asset_id: 49528
+      blob_id: 202126
+    - id: 537652
+      asset_id: 93638
       name: pal16l8-pr-500.16f
       size: 260
-      blob_id: 93920
-    - id: 97888
-      asset_id: 49528
+      blob_id: 202127
+    - id: 537653
+      asset_id: 93638
       name: pr-000.bin
       size: 524288
       blob_id: 5485
-    - id: 97889
-      asset_id: 49528
+    - id: 537654
+      asset_id: 93638
       name: pr-001.bin
       size: 524288
       blob_id: 5486
-    - id: 97890
-      asset_id: 49528
+    - id: 537655
+      asset_id: 93638
       name: pr-02.bin
       size: 65536
       blob_id: 5487
-    - id: 97891
-      asset_id: 49528
+    - id: 537656
+      asset_id: 93638
       name: pr-200.bin
       size: 262144
       blob_id: 5488
-    - id: 97892
-      asset_id: 49528
+    - id: 537657
+      asset_id: 93638
       name: pr-21.bin
       size: 131072
       blob_id: 5489
-    - id: 97893
-      asset_id: 49528
+    - id: 537658
+      asset_id: 93638
       name: pr12.h19
       size: 131072
       blob_id: 5490
-    - id: 97894
-      asset_id: 49528
+    - id: 537659
+      asset_id: 93638
       name: pr13.l15
       size: 131072
       blob_id: 5491
+- release:
+    id: 79090
+    game_id: 594
+    description: ""
+    release_date: 19900000
+  names:
+  - id: 202894
+    kind: 3
+    kind_id: 79090
+    language: 1
+    name: "Air Buster: Trouble Specialty Raid Unit (bootleg)"
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 93639
+      kind: 3
+      kind_id: 79090
+      type: 1
+      name: airbustrb.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 537660
+      asset_id: 93639
+      name: 1.bin
+      size: 131072
+      blob_id: 5492
+    - id: 537661
+      asset_id: 93639
+      name: 10.bin
+      size: 131072
+      blob_id: 5493
+    - id: 537662
+      asset_id: 93639
+      name: 11.bin
+      size: 131072
+      blob_id: 5494
+    - id: 537663
+      asset_id: 93639
+      name: 12.bin
+      size: 131072
+      blob_id: 5495
+    - id: 537664
+      asset_id: 93639
+      name: 13.bin
+      size: 131072
+      blob_id: 5496
+    - id: 537665
+      asset_id: 93639
+      name: 14.bin
+      size: 65536
+      blob_id: 5487
+    - id: 537666
+      asset_id: 93639
+      name: 2.bin
+      size: 131072
+      blob_id: 5489
+    - id: 537667
+      asset_id: 93639
+      name: 3.bin
+      size: 131072
+      blob_id: 5497
+    - id: 537668
+      asset_id: 93639
+      name: 4.bin
+      size: 131072
+      blob_id: 5498
+    - id: 537669
+      asset_id: 93639
+      name: 5.bin
+      size: 131072
+      blob_id: 5499
+    - id: 537670
+      asset_id: 93639
+      name: 6.bin
+      size: 131072
+      blob_id: 5500
+    - id: 537671
+      asset_id: 93639
+      name: 7.bin
+      size: 131072
+      blob_id: 5501
+    - id: 537672
+      asset_id: 93639
+      name: 8.bin
+      size: 131072
+      blob_id: 5502
+    - id: 537673
+      asset_id: 93639
+      name: 9.bin
+      size: 131072
+      blob_id: 5503
+- release:
+    id: 79091
+    game_id: 594
+    description: ""
+    release_date: 19900000
+  names:
+  - id: 202895
+    kind: 3
+    kind_id: 79091
+    language: 1
+    name: "Air Buster: Trouble Specialty Raid Unit (Japan)"
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 93640
+      kind: 3
+      kind_id: 79091
+      type: 1
+      name: airbustrj.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 537674
+      asset_id: 93640
+      name: gal16v8a-pr-501.13j
+      size: 279
+      blob_id: 202126
+    - id: 537675
+      asset_id: 93640
+      name: pal16l8-pr-500.16f
+      size: 260
+      blob_id: 202127
+    - id: 537676
+      asset_id: 93640
+      name: pr-000.bin
+      size: 524288
+      blob_id: 5485
+    - id: 537677
+      asset_id: 93640
+      name: pr-001.bin
+      size: 524288
+      blob_id: 5486
+    - id: 537678
+      asset_id: 93640
+      name: pr-02.bin
+      size: 65536
+      blob_id: 5487
+    - id: 537679
+      asset_id: 93640
+      name: pr-11j.bin
+      size: 131072
+      blob_id: 5492
+    - id: 537680
+      asset_id: 93640
+      name: pr-14j.bin
+      size: 131072
+      blob_id: 5504
+    - id: 537681
+      asset_id: 93640
+      name: pr-200.bin
+      size: 262144
+      blob_id: 5488
+    - id: 537682
+      asset_id: 93640
+      name: pr-21.bin
+      size: 131072
+      blob_id: 5489
+  - asset:
+      id: 118466
+      kind: 3
+      kind_id: 79091
+      type: 1
+      name: airbustrj.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 804920
+      asset_id: 118466
+      name: pr-000.bin
+      size: 524288
+      blob_id: 5485
+    - id: 804921
+      asset_id: 118466
+      name: pr-001.bin
+      size: 524288
+      blob_id: 5486
+    - id: 804922
+      asset_id: 118466
+      name: pr-02.bin
+      size: 65536
+      blob_id: 5487
+    - id: 804923
+      asset_id: 118466
+      name: pr-11j.bin
+      size: 131072
+      blob_id: 5492
+    - id: 804924
+      asset_id: 118466
+      name: pr-14j.bin
+      size: 131072
+      blob_id: 5504
+    - id: 804925
+      asset_id: 118466
+      name: pr-200.bin
+      size: 262144
+      blob_id: 5488
+    - id: 804926
+      asset_id: 118466
+      name: pr-21.bin
+      size: 131072
+      blob_id: 5489

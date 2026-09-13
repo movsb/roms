@@ -16,6 +16,12 @@ names:
   language: 2
   name: 安卓 (工程版, 后期版)
   source: trimui
+- id: 187924
+  kind: 2
+  kind_id: 645
+  language: 1
+  name: Android (prototype, early build)
+  source: mame
 game_developers: []
 game_genres: []
 assets: []
@@ -127,24 +133,10 @@ releases:
       name: androidpo/ricoh_7a2_19__epl10p8bp_japan_m.j3.jed
       size: 1139
       blob_id: 6244
-- release:
-    id: 36720
-    game_id: 645
-    description: ""
-    release_date: 19870000
-  names:
-  - id: 104602
-    kind: 3
-    kind_id: 36720
-    language: 1
-    name: Android (prototype, later build)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 49790
+      id: 93882
       kind: 3
-      kind_id: 36720
+      kind_id: 645
       type: 1
       name: androidp.zip
       description: ""
@@ -153,33 +145,104 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 100943
-      asset_id: 49790
+    - id: 540581
+      asset_id: 93882
       name: andr1.bin
       size: 32768
       blob_id: 6230
-    - id: 100944
-      asset_id: 49790
+    - id: 540582
+      asset_id: 93882
       name: andr3.bin
       size: 32768
       blob_id: 6231
-    - id: 100945
-      asset_id: 49790
+    - id: 540583
+      asset_id: 93882
       name: andr4.bin
       size: 32768
       blob_id: 6232
-    - id: 100946
-      asset_id: 49790
+    - id: 540584
+      asset_id: 93882
       name: andr5.bin
       size: 65536
       blob_id: 6233
-    - id: 100947
-      asset_id: 49790
+    - id: 540585
+      asset_id: 93882
       name: andr6.bin
       size: 65536
       blob_id: 6234
-    - id: 100948
-      asset_id: 49790
+    - id: 540586
+      asset_id: 93882
       name: andr7.bin
       size: 65536
       blob_id: 6235
+- release:
+    id: 79315
+    game_id: 645
+    description: ""
+    release_date: 0
+  names:
+  - id: 203266
+    kind: 3
+    kind_id: 79315
+    language: 1
+    name: Android (prototype, early build)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 93883
+      kind: 3
+      kind_id: 79315
+      type: 1
+      name: androidpo.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 540587
+      asset_id: 93883
+      name: mitsubishi__ad-3__m5l27256k.toppcb.g1
+      size: 32768
+      blob_id: 6236
+    - id: 540588
+      asset_id: 93883
+      name: mitsubishi__ad-4__m5l27256k.toppcb.n6
+      size: 32768
+      blob_id: 6237
+    - id: 540589
+      asset_id: 93883
+      name: mitsubishi__ad-5__m5l27512k.toppcb.f5
+      size: 65536
+      blob_id: 6238
+    - id: 540590
+      asset_id: 93883
+      name: mitsubishi__ad-6__m5l27512k.botpcb.def9
+      size: 65536
+      blob_id: 6239
+    - id: 540591
+      asset_id: 93883
+      name: mitsubishi__ad-7__m5l27512k.botpcb.bc9
+      size: 65536
+      blob_id: 6240
+    - id: 540592
+      asset_id: 93883
+      name: mitsubishi__ad1__m5l27256k.toppcb.k1
+      size: 32768
+      blob_id: 6241
+    - id: 540593
+      asset_id: 93883
+      name: mitsubishi__ad2__m5l27256k.toppcb.j1
+      size: 32768
+      blob_id: 6242
+    - id: 540594
+      asset_id: 93883
+      name: ricoh_7a2_19__epl10p8bp_japan_i.f1.jed
+      size: 1139
+      blob_id: 6243
+    - id: 540595
+      asset_id: 93883
+      name: ricoh_7a2_19__epl10p8bp_japan_m.j3.jed
+      size: 1139
+      blob_id: 6244

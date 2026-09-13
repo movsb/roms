@@ -10,6 +10,42 @@ names:
   language: 1
   name: bayroute
   source: ""
+- id: 188340
+  kind: 2
+  kind_id: 804
+  language: 1
+  name: Bay Route (set 1, US) (unprotected)
+  source: mame
+- id: 188341
+  kind: 2
+  kind_id: 804
+  language: 1
+  name: Bay Route (encrypted, protected bootleg)
+  source: mame
+- id: 188342
+  kind: 2
+  kind_id: 804
+  language: 1
+  name: Bay Route (Datsu bootleg)
+  source: mame
+- id: 188343
+  kind: 2
+  kind_id: 804
+  language: 1
+  name: Bay Route (set 3, World) (bootleg of FD1094 317-0116 set)
+  source: mame
+- id: 188344
+  kind: 2
+  kind_id: 804
+  language: 1
+  name: Bay Route (set 2, Japan) (FD1094 317-0115)
+  source: mame
+- id: 188345
+  kind: 2
+  kind_id: 804
+  language: 1
+  name: Bay Route (set 2, Japan) (bootleg of FD1094 317-0115 set)
+  source: mame
 game_developers:
 - game_id: 804
   developer_id: 258
@@ -163,6 +199,98 @@ releases:
       blob_id: 88542
       debug: arcade/wheel/bayroute.png
     entries: []
+  - asset:
+      id: 94688
+      kind: 3
+      kind_id: 804
+      type: 1
+      name: bayroute.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 549415
+      asset_id: 94688
+      name: 315-5298.b9
+      size: 235
+      blob_id: 6061
+    - id: 549416
+      asset_id: 94688
+      name: 317-0116.key
+      size: 8192
+      blob_id: 8107
+    - id: 549417
+      asset_id: 94688
+      name: epr-12456.a6
+      size: 131072
+      blob_id: 8108
+    - id: 549418
+      asset_id: 94688
+      name: epr-12458.a8
+      size: 131072
+      blob_id: 8109
+    - id: 549419
+      asset_id: 94688
+      name: epr-12459.a10
+      size: 32768
+      blob_id: 8110
+    - id: 549420
+      asset_id: 94688
+      name: epr-12516.a5
+      size: 131072
+      blob_id: 8111
+    - id: 549421
+      asset_id: 94688
+      name: epr-12517.a7
+      size: 131072
+      blob_id: 8112
+    - id: 549422
+      asset_id: 94688
+      name: mpr-12460.a11
+      size: 131072
+      blob_id: 8113
+    - id: 549423
+      asset_id: 94688
+      name: mpr-12461.a12
+      size: 131072
+      blob_id: 8114
+    - id: 549424
+      asset_id: 94688
+      name: mpr-12465.b1
+      size: 131072
+      blob_id: 8115
+    - id: 549425
+      asset_id: 94688
+      name: mpr-12466.b2
+      size: 131072
+      blob_id: 8116
+    - id: 549426
+      asset_id: 94688
+      name: mpr-12467.b5
+      size: 131072
+      blob_id: 8117
+    - id: 549427
+      asset_id: 94688
+      name: mpr-12468.b6
+      size: 131072
+      blob_id: 8118
+    - id: 549428
+      asset_id: 94688
+      name: opr-12462.a14
+      size: 65536
+      blob_id: 8119
+    - id: 549429
+      asset_id: 94688
+      name: opr-12463.a15
+      size: 65536
+      blob_id: 8120
+    - id: 549430
+      asset_id: 94688
+      name: opr-12464.a16
+      size: 65536
+      blob_id: 8121
 - release:
     id: 805
     game_id: 804
@@ -461,108 +589,912 @@ releases:
       size: 65536
       blob_id: 8121
 - release:
-    id: 37742
+    id: 80062
     game_id: 804
     description: ""
     release_date: 19890000
   names:
-  - id: 106592
+  - id: 204428
     kind: 3
-    kind_id: 37742
+    kind_id: 80062
     language: 1
-    name: Bay Route (set 3, World) (FD1094 317-0116)
+    name: Bay Route (set 1, US) (unprotected)
     source: mame
   release_publishers: []
   assets:
   - asset:
-      id: 50812
+      id: 94689
       kind: 3
-      kind_id: 37742
+      kind_id: 80062
       type: 1
-      name: bayroute.zip
+      name: bayroute1.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 110760
-      asset_id: 50812
-      name: 315-5298.b9
-      size: 235
-      blob_id: 6061
-    - id: 110761
-      asset_id: 50812
-      name: 317-0116.key
-      size: 8192
-      blob_id: 8107
-    - id: 110762
-      asset_id: 50812
-      name: epr-12456.a6
-      size: 131072
-      blob_id: 8108
-    - id: 110763
-      asset_id: 50812
-      name: epr-12458.a8
-      size: 131072
-      blob_id: 8109
-    - id: 110764
-      asset_id: 50812
-      name: epr-12459.a10
-      size: 32768
-      blob_id: 8110
-    - id: 110765
-      asset_id: 50812
-      name: epr-12516.a5
-      size: 131072
-      blob_id: 8111
-    - id: 110766
-      asset_id: 50812
-      name: epr-12517.a7
-      size: 131072
-      blob_id: 8112
-    - id: 110767
-      asset_id: 50812
-      name: mpr-12460.a11
-      size: 131072
-      blob_id: 8113
-    - id: 110768
-      asset_id: 50812
-      name: mpr-12461.a12
-      size: 131072
-      blob_id: 8114
-    - id: 110769
-      asset_id: 50812
-      name: mpr-12465.b1
-      size: 131072
-      blob_id: 8115
-    - id: 110770
-      asset_id: 50812
-      name: mpr-12466.b2
-      size: 131072
-      blob_id: 8116
-    - id: 110771
-      asset_id: 50812
-      name: mpr-12467.b5
-      size: 131072
-      blob_id: 8117
-    - id: 110772
-      asset_id: 50812
-      name: mpr-12468.b6
-      size: 131072
-      blob_id: 8118
-    - id: 110773
-      asset_id: 50812
+    - id: 549431
+      asset_id: 94689
+      name: br.a1
+      size: 65536
+      blob_id: 8122
+    - id: 549432
+      asset_id: 94689
+      name: br.a2
+      size: 65536
+      blob_id: 8123
+    - id: 549433
+      asset_id: 94689
+      name: br.a3
+      size: 65536
+      blob_id: 8124
+    - id: 549434
+      asset_id: 94689
+      name: br.a4
+      size: 65536
+      blob_id: 8125
+    - id: 549435
+      asset_id: 94689
+      name: br.a5
+      size: 65536
+      blob_id: 8126
+    - id: 549436
+      asset_id: 94689
+      name: br.a6
+      size: 65536
+      blob_id: 8127
+    - id: 549437
+      asset_id: 94689
+      name: br.b8
+      size: 65536
+      blob_id: 8128
+    - id: 549438
+      asset_id: 94689
+      name: br_obj0e.b5
+      size: 65536
+      blob_id: 8129
+    - id: 549439
+      asset_id: 94689
+      name: br_obj0o.b1
+      size: 65536
+      blob_id: 8130
+    - id: 549440
+      asset_id: 94689
+      name: br_obj1e.b6
+      size: 65536
+      blob_id: 8131
+    - id: 549441
+      asset_id: 94689
+      name: br_obj1o.b2
+      size: 65536
+      blob_id: 8132
+    - id: 549442
+      asset_id: 94689
+      name: br_obj2e.b7
+      size: 65536
+      blob_id: 8133
+    - id: 549443
+      asset_id: 94689
+      name: br_obj2o.b3
+      size: 65536
+      blob_id: 8134
+    - id: 549444
+      asset_id: 94689
+      name: br_obj3o.b4
+      size: 65536
+      blob_id: 8135
+    - id: 549445
+      asset_id: 94689
       name: opr-12462.a14
       size: 65536
       blob_id: 8119
-    - id: 110774
-      asset_id: 50812
+    - id: 549446
+      asset_id: 94689
       name: opr-12463.a15
       size: 65536
       blob_id: 8120
-    - id: 110775
-      asset_id: 50812
+    - id: 549447
+      asset_id: 94689
+      name: opr-12464.a16
+      size: 65536
+      blob_id: 8121
+    - id: 549448
+      asset_id: 94689
+      name: sound.a10
+      size: 65536
+      blob_id: 240133
+    - id: 549449
+      asset_id: 94689
+      name: sound.a11
+      size: 65536
+      blob_id: 240134
+    - id: 549450
+      asset_id: 94689
+      name: sound.a7
+      size: 65536
+      blob_id: 240135
+    - id: 549451
+      asset_id: 94689
+      name: sound.a8
+      size: 65536
+      blob_id: 240136
+    - id: 549452
+      asset_id: 94689
+      name: sound.a9
+      size: 65536
+      blob_id: 240137
+  - asset:
+      id: 118525
+      kind: 3
+      kind_id: 80062
+      type: 1
+      name: bayroute1.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 806487
+      asset_id: 118525
+      name: br.a1
+      size: 65536
+      blob_id: 8122
+    - id: 806488
+      asset_id: 118525
+      name: br.a2
+      size: 65536
+      blob_id: 8123
+    - id: 806489
+      asset_id: 118525
+      name: br.a3
+      size: 65536
+      blob_id: 8124
+    - id: 806490
+      asset_id: 118525
+      name: br.a4
+      size: 65536
+      blob_id: 8125
+    - id: 806491
+      asset_id: 118525
+      name: br.a5
+      size: 65536
+      blob_id: 8126
+    - id: 806492
+      asset_id: 118525
+      name: br.a6
+      size: 65536
+      blob_id: 8127
+    - id: 806493
+      asset_id: 118525
+      name: br.b8
+      size: 65536
+      blob_id: 8128
+    - id: 806494
+      asset_id: 118525
+      name: br_obj0e.b5
+      size: 65536
+      blob_id: 8129
+    - id: 806495
+      asset_id: 118525
+      name: br_obj0o.b1
+      size: 65536
+      blob_id: 8130
+    - id: 806496
+      asset_id: 118525
+      name: br_obj1e.b6
+      size: 65536
+      blob_id: 8131
+    - id: 806497
+      asset_id: 118525
+      name: br_obj1o.b2
+      size: 65536
+      blob_id: 8132
+    - id: 806498
+      asset_id: 118525
+      name: br_obj2e.b7
+      size: 65536
+      blob_id: 8133
+    - id: 806499
+      asset_id: 118525
+      name: br_obj2o.b3
+      size: 65536
+      blob_id: 8134
+    - id: 806500
+      asset_id: 118525
+      name: br_obj3o.b4
+      size: 65536
+      blob_id: 8135
+    - id: 806501
+      asset_id: 118525
+      name: opr-12462.a14
+      size: 65536
+      blob_id: 8119
+    - id: 806502
+      asset_id: 118525
+      name: opr-12463.a15
+      size: 65536
+      blob_id: 8120
+    - id: 806503
+      asset_id: 118525
+      name: opr-12464.a16
+      size: 65536
+      blob_id: 8121
+    - id: 806504
+      asset_id: 118525
+      name: sound.a10
+      size: 65536
+      blob_id: 240133
+    - id: 806505
+      asset_id: 118525
+      name: sound.a11
+      size: 65536
+      blob_id: 240134
+    - id: 806506
+      asset_id: 118525
+      name: sound.a7
+      size: 32768
+      blob_id: 298124
+    - id: 806507
+      asset_id: 118525
+      name: sound.a8
+      size: 65536
+      blob_id: 240136
+    - id: 806508
+      asset_id: 118525
+      name: sound.a9
+      size: 65536
+      blob_id: 240137
+  - asset:
+      id: 119976
+      kind: 3
+      kind_id: 80062
+      type: 1
+      name: bayroute1.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.259
+    entries:
+    - id: 849342
+      asset_id: 119976
+      name: br.a1
+      size: 65536
+      blob_id: 8122
+    - id: 849343
+      asset_id: 119976
+      name: br.a2
+      size: 65536
+      blob_id: 8123
+    - id: 849344
+      asset_id: 119976
+      name: br.a3
+      size: 65536
+      blob_id: 8124
+    - id: 849345
+      asset_id: 119976
+      name: br.a4
+      size: 65536
+      blob_id: 8125
+    - id: 849346
+      asset_id: 119976
+      name: br.a5
+      size: 65536
+      blob_id: 8126
+    - id: 849347
+      asset_id: 119976
+      name: br.a6
+      size: 65536
+      blob_id: 8127
+    - id: 849348
+      asset_id: 119976
+      name: br.b8
+      size: 65536
+      blob_id: 8128
+    - id: 849349
+      asset_id: 119976
+      name: br_obj0e.b5
+      size: 65536
+      blob_id: 8129
+    - id: 849350
+      asset_id: 119976
+      name: br_obj0o.b1
+      size: 65536
+      blob_id: 8130
+    - id: 849351
+      asset_id: 119976
+      name: br_obj1e.b6
+      size: 65536
+      blob_id: 8131
+    - id: 849352
+      asset_id: 119976
+      name: br_obj1o.b2
+      size: 65536
+      blob_id: 8132
+    - id: 849353
+      asset_id: 119976
+      name: br_obj2e.b7
+      size: 65536
+      blob_id: 8133
+    - id: 849354
+      asset_id: 119976
+      name: br_obj2o.b3
+      size: 65536
+      blob_id: 8134
+    - id: 849355
+      asset_id: 119976
+      name: br_obj3o.b4
+      size: 65536
+      blob_id: 8135
+    - id: 849356
+      asset_id: 119976
+      name: opr-12462.a14
+      size: 65536
+      blob_id: 8119
+    - id: 849357
+      asset_id: 119976
+      name: opr-12463.a15
+      size: 65536
+      blob_id: 8120
+    - id: 849358
+      asset_id: 119976
+      name: opr-12464.a16
+      size: 65536
+      blob_id: 8121
+- release:
+    id: 80063
+    game_id: 804
+    description: ""
+    release_date: 19890000
+  names:
+  - id: 204429
+    kind: 3
+    kind_id: 80063
+    language: 1
+    name: Bay Route (encrypted, protected bootleg)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 94690
+      kind: 3
+      kind_id: 80063
+      type: 1
+      name: bayrouteb1.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 549453
+      asset_id: 94690
+      name: "12.12"
+      size: 32768
+      blob_id: 8136
+    - id: 549454
+      asset_id: 94690
+      name: b2.bin
+      size: 65536
+      blob_id: 8137
+    - id: 549455
+      asset_id: 94690
+      name: b4.bin
+      size: 65536
+      blob_id: 8138
+    - id: 549456
+      asset_id: 94690
+      name: b6.bin
+      size: 65536
+      blob_id: 8139
+    - id: 549457
+      asset_id: 94690
+      name: b8.bin
+      size: 65536
+      blob_id: 8140
+    - id: 549458
+      asset_id: 94690
+      name: br.2a
+      size: 65536
+      blob_id: 8123
+    - id: 549459
+      asset_id: 94690
+      name: br.5a
+      size: 65536
+      blob_id: 8126
+    - id: 549460
+      asset_id: 94690
+      name: br_obj0e.5b
+      size: 65536
+      blob_id: 8129
+    - id: 549461
+      asset_id: 94690
+      name: br_obj0o.1b
+      size: 65536
+      blob_id: 8130
+    - id: 549462
+      asset_id: 94690
+      name: br_obj1e.6b
+      size: 65536
+      blob_id: 8131
+    - id: 549463
+      asset_id: 94690
+      name: br_obj1o.2b
+      size: 65536
+      blob_id: 8132
+    - id: 549464
+      asset_id: 94690
+      name: br_obj2e.7b
+      size: 65536
+      blob_id: 8133
+    - id: 549465
+      asset_id: 94690
+      name: br_obj2o.3b
+      size: 65536
+      blob_id: 8134
+    - id: 549466
+      asset_id: 94690
+      name: br_obj3o.4b
+      size: 65536
+      blob_id: 8135
+    - id: 549467
+      asset_id: 94690
+      name: bs12.bin
+      size: 65536
+      blob_id: 8141
+    - id: 549468
+      asset_id: 94690
+      name: bs14.bin
+      size: 65536
+      blob_id: 8142
+    - id: 549469
+      asset_id: 94690
+      name: bs16.bin
+      size: 65536
+      blob_id: 8143
+    - id: 549470
+      asset_id: 94690
+      name: bs7.bin
+      size: 65536
+      blob_id: 8144
+    - id: 549471
+      asset_id: 94690
+      name: epr12459.a10
+      size: 32768
+      blob_id: 8110
+    - id: 549472
+      asset_id: 94690
+      name: mpr12460.a11
+      size: 131072
+      blob_id: 8113
+    - id: 549473
+      asset_id: 94690
+      name: mpr12461.a12
+      size: 131072
+      blob_id: 8114
+    - id: 549474
+      asset_id: 94690
+      name: protdata
+      size: 4096
+      blob_id: 8145
+- release:
+    id: 80064
+    game_id: 804
+    description: ""
+    release_date: 19890000
+  names:
+  - id: 204430
+    kind: 3
+    kind_id: 80064
+    language: 1
+    name: Bay Route (Datsu bootleg)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 94691
+      kind: 3
+      kind_id: 80064
+      type: 1
+      name: bayrouteb2.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 549475
+      asset_id: 94691
+      name: br_01
+      size: 65536
+      blob_id: 8146
+    - id: 549476
+      asset_id: 94691
+      name: br_02
+      size: 65536
+      blob_id: 8147
+    - id: 549477
+      asset_id: 94691
+      name: br_03
+      size: 131072
+      blob_id: 8148
+    - id: 549478
+      asset_id: 94691
+      name: br_04
+      size: 65536
+      blob_id: 8149
+    - id: 549479
+      asset_id: 94691
+      name: br_05
+      size: 131072
+      blob_id: 8150
+    - id: 549480
+      asset_id: 94691
+      name: br_06
+      size: 65536
+      blob_id: 8151
+    - id: 549481
+      asset_id: 94691
+      name: br_obj0e.5b
+      size: 65536
+      blob_id: 8129
+    - id: 549482
+      asset_id: 94691
+      name: br_obj0o.1b
+      size: 65536
+      blob_id: 8130
+    - id: 549483
+      asset_id: 94691
+      name: br_obj1e.6b
+      size: 65536
+      blob_id: 8131
+    - id: 549484
+      asset_id: 94691
+      name: br_obj1o.2b
+      size: 65536
+      blob_id: 8132
+    - id: 549485
+      asset_id: 94691
+      name: br_obj2e.7b
+      size: 65536
+      blob_id: 8133
+    - id: 549486
+      asset_id: 94691
+      name: br_obj2o.3b
+      size: 65536
+      blob_id: 8134
+    - id: 549487
+      asset_id: 94691
+      name: br_obj3o.4b
+      size: 65536
+      blob_id: 8135
+    - id: 549488
+      asset_id: 94691
+      name: bs12.bin
+      size: 65536
+      blob_id: 8141
+    - id: 549489
+      asset_id: 94691
+      name: bs14.bin
+      size: 65536
+      blob_id: 8142
+    - id: 549490
+      asset_id: 94691
+      name: bs16.bin
+      size: 65536
+      blob_id: 8143
+    - id: 549491
+      asset_id: 94691
+      name: bs7.bin
+      size: 65536
+      blob_id: 8144
+- release:
+    id: 80065
+    game_id: 804
+    description: ""
+    release_date: 19890000
+  names:
+  - id: 204431
+    kind: 3
+    kind_id: 80065
+    language: 1
+    name: Bay Route (set 3, World) (bootleg of FD1094 317-0116 set)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 94692
+      kind: 3
+      kind_id: 80065
+      type: 1
+      name: bayrouted.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 549492
+      asset_id: 94692
+      name: 315-5298.b9
+      size: 235
+      blob_id: 6061
+    - id: 549493
+      asset_id: 94692
+      name: bootleg_epr-12516.a5
+      size: 131072
+      blob_id: 8152
+    - id: 549494
+      asset_id: 94692
+      name: bootleg_epr-12517.a7
+      size: 131072
+      blob_id: 8153
+    - id: 549495
+      asset_id: 94692
+      name: epr-12456.a6
+      size: 131072
+      blob_id: 8108
+    - id: 549496
+      asset_id: 94692
+      name: epr-12458.a8
+      size: 131072
+      blob_id: 8109
+    - id: 549497
+      asset_id: 94692
+      name: epr-12459.a10
+      size: 32768
+      blob_id: 8110
+    - id: 549498
+      asset_id: 94692
+      name: mpr-12460.a11
+      size: 131072
+      blob_id: 8113
+    - id: 549499
+      asset_id: 94692
+      name: mpr-12461.a12
+      size: 131072
+      blob_id: 8114
+    - id: 549500
+      asset_id: 94692
+      name: mpr-12465.b1
+      size: 131072
+      blob_id: 8115
+    - id: 549501
+      asset_id: 94692
+      name: mpr-12466.b2
+      size: 131072
+      blob_id: 8116
+    - id: 549502
+      asset_id: 94692
+      name: mpr-12467.b5
+      size: 131072
+      blob_id: 8117
+    - id: 549503
+      asset_id: 94692
+      name: mpr-12468.b6
+      size: 131072
+      blob_id: 8118
+    - id: 549504
+      asset_id: 94692
+      name: opr-12462.a14
+      size: 65536
+      blob_id: 8119
+    - id: 549505
+      asset_id: 94692
+      name: opr-12463.a15
+      size: 65536
+      blob_id: 8120
+    - id: 549506
+      asset_id: 94692
+      name: opr-12464.a16
+      size: 65536
+      blob_id: 8121
+- release:
+    id: 80066
+    game_id: 804
+    description: ""
+    release_date: 19890000
+  names:
+  - id: 204432
+    kind: 3
+    kind_id: 80066
+    language: 1
+    name: Bay Route (set 2, Japan) (FD1094 317-0115)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 94693
+      kind: 3
+      kind_id: 80066
+      type: 1
+      name: bayroutej.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 549507
+      asset_id: 94693
+      name: 315-5298.b9
+      size: 235
+      blob_id: 6061
+    - id: 549508
+      asset_id: 94693
+      name: 317-0115.key
+      size: 8192
+      blob_id: 8154
+    - id: 549509
+      asset_id: 94693
+      name: epr-12455.a5
+      size: 131072
+      blob_id: 8155
+    - id: 549510
+      asset_id: 94693
+      name: epr-12456.a6
+      size: 131072
+      blob_id: 8108
+    - id: 549511
+      asset_id: 94693
+      name: epr-12457.a7
+      size: 131072
+      blob_id: 8156
+    - id: 549512
+      asset_id: 94693
+      name: epr-12458.a8
+      size: 131072
+      blob_id: 8109
+    - id: 549513
+      asset_id: 94693
+      name: epr-12459.a10
+      size: 32768
+      blob_id: 8110
+    - id: 549514
+      asset_id: 94693
+      name: mpr-12460.a11
+      size: 131072
+      blob_id: 8113
+    - id: 549515
+      asset_id: 94693
+      name: mpr-12461.a12
+      size: 131072
+      blob_id: 8114
+    - id: 549516
+      asset_id: 94693
+      name: mpr-12465.b1
+      size: 131072
+      blob_id: 8115
+    - id: 549517
+      asset_id: 94693
+      name: mpr-12466.b2
+      size: 131072
+      blob_id: 8116
+    - id: 549518
+      asset_id: 94693
+      name: mpr-12467.b5
+      size: 131072
+      blob_id: 8117
+    - id: 549519
+      asset_id: 94693
+      name: mpr-12468.b6
+      size: 131072
+      blob_id: 8118
+    - id: 549520
+      asset_id: 94693
+      name: opr-12462.a14
+      size: 65536
+      blob_id: 8119
+    - id: 549521
+      asset_id: 94693
+      name: opr-12463.a15
+      size: 65536
+      blob_id: 8120
+    - id: 549522
+      asset_id: 94693
+      name: opr-12464.a16
+      size: 65536
+      blob_id: 8121
+- release:
+    id: 80067
+    game_id: 804
+    description: ""
+    release_date: 19890000
+  names:
+  - id: 204433
+    kind: 3
+    kind_id: 80067
+    language: 1
+    name: Bay Route (set 2, Japan) (bootleg of FD1094 317-0115 set)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 94694
+      kind: 3
+      kind_id: 80067
+      type: 1
+      name: bayroutejd.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 549523
+      asset_id: 94694
+      name: 315-5298.b9
+      size: 235
+      blob_id: 6061
+    - id: 549524
+      asset_id: 94694
+      name: bootleg_epr-12455.a5
+      size: 131072
+      blob_id: 8157
+    - id: 549525
+      asset_id: 94694
+      name: bootleg_epr-12457.a7
+      size: 131072
+      blob_id: 8158
+    - id: 549526
+      asset_id: 94694
+      name: epr-12456.a6
+      size: 131072
+      blob_id: 8108
+    - id: 549527
+      asset_id: 94694
+      name: epr-12458.a8
+      size: 131072
+      blob_id: 8109
+    - id: 549528
+      asset_id: 94694
+      name: epr-12459.a10
+      size: 32768
+      blob_id: 8110
+    - id: 549529
+      asset_id: 94694
+      name: mpr-12460.a11
+      size: 131072
+      blob_id: 8113
+    - id: 549530
+      asset_id: 94694
+      name: mpr-12461.a12
+      size: 131072
+      blob_id: 8114
+    - id: 549531
+      asset_id: 94694
+      name: mpr-12465.b1
+      size: 131072
+      blob_id: 8115
+    - id: 549532
+      asset_id: 94694
+      name: mpr-12466.b2
+      size: 131072
+      blob_id: 8116
+    - id: 549533
+      asset_id: 94694
+      name: mpr-12467.b5
+      size: 131072
+      blob_id: 8117
+    - id: 549534
+      asset_id: 94694
+      name: mpr-12468.b6
+      size: 131072
+      blob_id: 8118
+    - id: 549535
+      asset_id: 94694
+      name: opr-12462.a14
+      size: 65536
+      blob_id: 8119
+    - id: 549536
+      asset_id: 94694
+      name: opr-12463.a15
+      size: 65536
+      blob_id: 8120
+    - id: 549537
+      asset_id: 94694
       name: opr-12464.a16
       size: 65536
       blob_id: 8121

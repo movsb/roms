@@ -16,6 +16,12 @@ names:
   language: 2
   name: 杀虫记 (4/4/86)
   source: trimui
+- id: 199693
+  kind: 2
+  kind_id: 4021
+  language: 1
+  name: Stompin' (prototype?)
+  source: mame
 game_developers: []
 game_genres:
 - game_id: 4021
@@ -147,24 +153,10 @@ releases:
       blob_id: 85208
       debug: arcade/wheel/stompin.png
     entries: []
-- release:
-    id: 72116
-    game_id: 4021
-    description: ""
-    release_date: 19860000
-  names:
-  - id: 174244
-    kind: 3
-    kind_id: 72116
-    language: 1
-    name: Stompin' (4/4/86)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 85186
+      id: 114656
       kind: 3
-      kind_id: 72116
+      kind_id: 4021
       type: 1
       name: stompin.zip
       description: ""
@@ -173,58 +165,136 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 381373
-      asset_id: 85186
+    - id: 759665
+      asset_id: 114656
       name: ab 01.u8a
       size: 16384
       blob_id: 43167
-    - id: 381374
-      asset_id: 85186
+    - id: 759666
+      asset_id: 114656
       name: ab 23.u7a
       size: 16384
       blob_id: 43168
-    - id: 381375
-      asset_id: 85186
+    - id: 759667
+      asset_id: 114656
       name: ab 45.u6a
       size: 16384
       blob_id: 43169
-    - id: 381376
-      asset_id: 85186
+    - id: 759668
+      asset_id: 114656
       name: ab 67.u5a
       size: 16384
       blob_id: 43170
-    - id: 381377
-      asset_id: 85186
+    - id: 759669
+      asset_id: 114656
       name: cd 23.u3a
       size: 16384
       blob_id: 43171
-    - id: 381378
-      asset_id: 85186
+    - id: 759670
+      asset_id: 114656
       name: cd 6 ef.u1a
       size: 16384
       blob_id: 43172
-    - id: 381379
-      asset_id: 85186
+    - id: 759671
+      asset_id: 114656
       name: gr 01.u4c
       size: 16384
       blob_id: 43173
-    - id: 381380
-      asset_id: 85186
+    - id: 759672
+      asset_id: 114656
       name: gr 23.u3c
       size: 16384
       blob_id: 43174
-    - id: 381381
-      asset_id: 85186
+    - id: 759673
+      asset_id: 114656
       name: gr 45.u2c
       size: 16384
       blob_id: 43175
-    - id: 381382
-      asset_id: 85186
+    - id: 759674
+      asset_id: 114656
       name: gr 67.u2c
       size: 16384
       blob_id: 43176
-    - id: 381383
-      asset_id: 85186
+    - id: 759675
+      asset_id: 114656
       name: u01508001100b.u20f
       size: 260
-      blob_id: 106456
+      blob_id: 210589
+- release:
+    id: 98862
+    game_id: 4021
+    description: ""
+    release_date: 19850000
+  names:
+  - id: 231653
+    kind: 3
+    kind_id: 98862
+    language: 1
+    name: Stompin' (prototype?)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 114657
+      kind: 3
+      kind_id: 98862
+      type: 1
+      name: stompina.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/3596693192
+    entries:
+    - id: 759676
+      asset_id: 114657
+      name: st-ab 01.u8a
+      size: 16384
+      blob_id: 303730
+    - id: 759677
+      asset_id: 114657
+      name: st-ab 23.u7a
+      size: 16384
+      blob_id: 303731
+    - id: 759678
+      asset_id: 114657
+      name: st-ab 45.u6a
+      size: 16384
+      blob_id: 303732
+    - id: 759679
+      asset_id: 114657
+      name: st-ab 67.u5a
+      size: 16384
+      blob_id: 303733
+    - id: 759680
+      asset_id: 114657
+      name: st-cd 6 ef.u1a
+      size: 16384
+      blob_id: 303734
+    - id: 759681
+      asset_id: 114657
+      name: st-gr 01.u6b
+      size: 16384
+      blob_id: 303735
+    - id: 759682
+      asset_id: 114657
+      name: st-gr 23.u5b
+      size: 16384
+      blob_id: 303736
+    - id: 759683
+      asset_id: 114657
+      name: st-gr 45.u4b
+      size: 16384
+      blob_id: 303737
+    - id: 759684
+      asset_id: 114657
+      name: st-gr 67.u3b
+      size: 16384
+      blob_id: 303738
+    - id: 759685
+      asset_id: 114657
+      name: u01508001100b.u20f
+      size: 260
+      blob_id: 210589

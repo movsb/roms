@@ -16,6 +16,24 @@ names:
   language: 2
   name: "宇宙侵略者 - 太空攻击 (竖立机台 第 1 套)"
   source: trimui
+- id: 199592
+  kind: 2
+  kind_id: 491
+  language: 1
+  name: Space Attack (upright set 2)
+  source: mame
+- id: 199593
+  kind: 2
+  kind_id: 491
+  language: 1
+  name: Space Attack (upright set 3)
+  source: mame
+- id: 199594
+  kind: 2
+  kind_id: 491
+  language: 1
+  name: Space Attack (cocktail)
+  source: mame
 game_developers:
 - game_id: 491
   developer_id: 110
@@ -139,24 +157,10 @@ releases:
       blob_id: 87568
       debug: arcade/wheel/sspaceat.png
     entries: []
-- release:
-    id: 71910
-    game_id: 491
-    description: ""
-    release_date: 19790000
-  names:
-  - id: 173852
-    kind: 3
-    kind_id: 71910
-    language: 1
-    name: Space Attack (upright set 1)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 84980
+      id: 114479
       kind: 3
-      kind_id: 71910
+      kind_id: 491
       type: 1
       name: sspaceat.zip
       description: ""
@@ -165,58 +169,307 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 378658
-      asset_id: 84980
+    - id: 757126
+      asset_id: 114479
       name: 155.u27
       size: 1024
       blob_id: 4401
-    - id: 378659
-      asset_id: 84980
+    - id: 757127
+      asset_id: 114479
       name: 156.u26
       size: 1024
       blob_id: 4402
-    - id: 378660
-      asset_id: 84980
+    - id: 757128
+      asset_id: 114479
       name: 157.u25
       size: 1024
       blob_id: 4403
-    - id: 378661
-      asset_id: 84980
+    - id: 757129
+      asset_id: 114479
       name: 158.u24
       size: 1024
       blob_id: 4404
-    - id: 378662
-      asset_id: 84980
+    - id: 757130
+      asset_id: 114479
       name: 159.u23
       size: 1024
       blob_id: 4405
-    - id: 378663
-      asset_id: 84980
+    - id: 757131
+      asset_id: 114479
       name: 160.u22
       size: 1024
       blob_id: 4406
-    - id: 378664
-      asset_id: 84980
+    - id: 757132
+      asset_id: 114479
       name: 161.u21
       size: 1024
       blob_id: 4407
-    - id: 378665
-      asset_id: 84980
+    - id: 757133
+      asset_id: 114479
       name: 162.u20
       size: 1024
       blob_id: 4408
-    - id: 378666
-      asset_id: 84980
+    - id: 757134
+      asset_id: 114479
       name: 316-0042.u66
       size: 32
       blob_id: 4274
-    - id: 378667
-      asset_id: 84980
+    - id: 757135
+      asset_id: 114479
       name: 316-0043.u65
       size: 32
       blob_id: 4275
-    - id: 378668
-      asset_id: 84980
+    - id: 757136
+      asset_id: 114479
+      name: 316-0138.u44
+      size: 32
+      blob_id: 4409
+- release:
+    id: 98707
+    game_id: 491
+    description: ""
+    release_date: 19790000
+  names:
+  - id: 231446
+    kind: 3
+    kind_id: 98707
+    language: 1
+    name: Space Attack (upright set 2)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 114480
+      kind: 3
+      kind_id: 98707
+      type: 1
+      name: sspaceat2.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/2585689365
+    entries:
+    - id: 757137
+      asset_id: 114480
+      name: 150.u45
+      size: 1024
+      blob_id: 303086
+    - id: 757138
+      asset_id: 114480
+      name: 151.u44
+      size: 1024
+      blob_id: 303087
+    - id: 757139
+      asset_id: 114480
+      name: 152.u43
+      size: 1024
+      blob_id: 303088
+    - id: 757140
+      asset_id: 114480
+      name: 153.u42
+      size: 1024
+      blob_id: 303089
+    - id: 757141
+      asset_id: 114480
+      name: 156a.u41
+      size: 1024
+      blob_id: 303090
+    - id: 757142
+      asset_id: 114480
+      name: 316-0042.u66
+      size: 32
+      blob_id: 4274
+    - id: 757143
+      asset_id: 114480
+      name: 316-0043.u65
+      size: 32
+      blob_id: 4275
+    - id: 757144
+      asset_id: 114480
+      name: 316-0138.u44
+      size: 32
+      blob_id: 4409
+    - id: 757145
+      asset_id: 114480
+      name: 58.u47
+      size: 1024
+      blob_id: 303091
+    - id: 757146
+      asset_id: 114480
+      name: 59.u46
+      size: 1024
+      blob_id: 303092
+    - id: 757147
+      asset_id: 114480
+      name: 81.u48
+      size: 1024
+      blob_id: 303093
+- release:
+    id: 98708
+    game_id: 491
+    description: ""
+    release_date: 19790000
+  names:
+  - id: 231447
+    kind: 3
+    kind_id: 98708
+    language: 1
+    name: Space Attack (upright set 3)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 114481
+      kind: 3
+      kind_id: 98708
+      type: 1
+      name: sspaceat3.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/2836045086
+    entries:
+    - id: 757148
+      asset_id: 114481
+      name: 316-0042.u66
+      size: 32
+      blob_id: 4274
+    - id: 757149
+      asset_id: 114481
+      name: 316-0043.u65
+      size: 32
+      blob_id: 4275
+    - id: 757150
+      asset_id: 114481
+      name: 316-0138.u44
+      size: 32
+      blob_id: 4409
+    - id: 757151
+      asset_id: 114481
+      name: epr-115.u48
+      size: 1024
+      blob_id: 303094
+    - id: 757152
+      asset_id: 114481
+      name: epr-116.u47
+      size: 1024
+      blob_id: 303095
+    - id: 757153
+      asset_id: 114481
+      name: epr-117.u46
+      size: 1024
+      blob_id: 303096
+    - id: 757154
+      asset_id: 114481
+      name: epr-118.u45
+      size: 1024
+      blob_id: 303097
+    - id: 757155
+      asset_id: 114481
+      name: epr-119.u44
+      size: 1024
+      blob_id: 303098
+    - id: 757156
+      asset_id: 114481
+      name: epr-120.u43
+      size: 1024
+      blob_id: 303099
+    - id: 757157
+      asset_id: 114481
+      name: epr-121.u42
+      size: 1024
+      blob_id: 303100
+    - id: 757158
+      asset_id: 114481
+      name: epr-122.u41
+      size: 1024
+      blob_id: 303101
+- release:
+    id: 98709
+    game_id: 491
+    description: ""
+    release_date: 19790000
+  names:
+  - id: 231448
+    kind: 3
+    kind_id: 98709
+    language: 1
+    name: Space Attack (cocktail)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 114482
+      kind: 3
+      kind_id: 98709
+      type: 1
+      name: sspaceatc.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/1816934154
+    entries:
+    - id: 757159
+      asset_id: 114482
+      name: 139.u27
+      size: 1024
+      blob_id: 303102
+    - id: 757160
+      asset_id: 114482
+      name: 140.u26
+      size: 1024
+      blob_id: 303103
+    - id: 757161
+      asset_id: 114482
+      name: 141.u25
+      size: 1024
+      blob_id: 303104
+    - id: 757162
+      asset_id: 114482
+      name: 142.u24
+      size: 1024
+      blob_id: 303105
+    - id: 757163
+      asset_id: 114482
+      name: 143.u23
+      size: 1024
+      blob_id: 303106
+    - id: 757164
+      asset_id: 114482
+      name: 144.u22
+      size: 1024
+      blob_id: 303107
+    - id: 757165
+      asset_id: 114482
+      name: 145.u21
+      size: 1024
+      blob_id: 303108
+    - id: 757166
+      asset_id: 114482
+      name: 146.u20
+      size: 1024
+      blob_id: 303109
+    - id: 757167
+      asset_id: 114482
+      name: 316-0042.u66
+      size: 32
+      blob_id: 4274
+    - id: 757168
+      asset_id: 114482
+      name: 316-0043.u65
+      size: 32
+      blob_id: 4275
+    - id: 757169
+      asset_id: 114482
       name: 316-0138.u44
       size: 32
       blob_id: 4409

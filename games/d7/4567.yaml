@@ -16,6 +16,18 @@ names:
   language: 2
   name: 铁翼飞龙
   source: trimui
+- id: 201530
+  kind: 2
+  kind_id: 4567
+  language: 1
+  name: Wyvern Wings (set 1)
+  source: mame
+- id: 201531
+  kind: 2
+  kind_id: 4567
+  language: 1
+  name: Wyvern Wings (set 2)
+  source: mame
 game_developers: []
 game_genres: []
 assets: []
@@ -147,24 +159,10 @@ releases:
       name: wyvernwga/rom2.rom
       size: 524288
       blob_id: 49677
-- release:
-    id: 75526
-    game_id: 4567
-    description: ""
-    release_date: 20010000
-  names:
-  - id: 180880
-    kind: 3
-    kind_id: 75526
-    language: 1
-    name: Wivern Wings
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 88596
+      id: 117811
       kind: 3
-      kind_id: 75526
+      kind_id: 4567
       type: 1
       name: wivernwg.zip
       description: ""
@@ -173,68 +171,250 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 418953
-      asset_id: 88596
+    - id: 795777
+      asset_id: 117811
       name: h03
       size: 2097152
       blob_id: 49660
-    - id: 418954
-      asset_id: 88596
+    - id: 795778
+      asset_id: 117811
       name: l03
       size: 2097152
       blob_id: 49661
-    - id: 418955
-      asset_id: 88596
+    - id: 795779
+      asset_id: 117811
       name: qs1001a
       size: 524288
       blob_id: 8180
-    - id: 418956
-      asset_id: 88596
+    - id: 795780
+      asset_id: 117811
       name: rom1
       size: 524288
       blob_id: 49662
-    - id: 418957
-      asset_id: 88596
+    - id: 795781
+      asset_id: 117811
       name: rom2
       size: 524288
       blob_id: 49663
-    - id: 418958
-      asset_id: 88596
+    - id: 795782
+      asset_id: 117811
       name: romh00
       size: 2097152
       blob_id: 49664
-    - id: 418959
-      asset_id: 88596
+    - id: 795783
+      asset_id: 117811
       name: romh01
       size: 2097152
       blob_id: 49665
-    - id: 418960
-      asset_id: 88596
+    - id: 795784
+      asset_id: 117811
       name: romh02
       size: 2097152
       blob_id: 49666
-    - id: 418961
-      asset_id: 88596
+    - id: 795785
+      asset_id: 117811
       name: roml00
       size: 2097152
       blob_id: 49667
-    - id: 418962
-      asset_id: 88596
+    - id: 795786
+      asset_id: 117811
       name: roml01
       size: 2097152
       blob_id: 49668
-    - id: 418963
-      asset_id: 88596
+    - id: 795787
+      asset_id: 117811
       name: roml02
       size: 2097152
       blob_id: 49669
-    - id: 418964
-      asset_id: 88596
+    - id: 795788
+      asset_id: 117811
       name: romsnd.u15a
       size: 2097152
       blob_id: 49670
-    - id: 418965
-      asset_id: 88596
+    - id: 795789
+      asset_id: 117811
+      name: u7
+      size: 131072
+      blob_id: 49671
+- release:
+    id: 102028
+    game_id: 4567
+    description: ""
+    release_date: 20010000
+  names:
+  - id: 236185
+    kind: 3
+    kind_id: 102028
+    language: 1
+    name: Wyvern Wings (set 1)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 118046
+      kind: 3
+      kind_id: 102028
+      type: 1
+      name: wyvernwg.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 799741
+      asset_id: 118046
+      name: qs1001a
+      size: 524288
+      blob_id: 8180
+    - id: 799742
+      asset_id: 118046
+      name: rom1.bin
+      size: 524288
+      blob_id: 49672
+    - id: 799743
+      asset_id: 118046
+      name: rom2.bin
+      size: 524288
+      blob_id: 49673
+    - id: 799744
+      asset_id: 118046
+      name: romh00
+      size: 2097152
+      blob_id: 49664
+    - id: 799745
+      asset_id: 118046
+      name: romh01
+      size: 2097152
+      blob_id: 49665
+    - id: 799746
+      asset_id: 118046
+      name: romh02
+      size: 2097152
+      blob_id: 49666
+    - id: 799747
+      asset_id: 118046
+      name: romh03
+      size: 2097152
+      blob_id: 49674
+    - id: 799748
+      asset_id: 118046
+      name: roml00
+      size: 2097152
+      blob_id: 49667
+    - id: 799749
+      asset_id: 118046
+      name: roml01
+      size: 2097152
+      blob_id: 49668
+    - id: 799750
+      asset_id: 118046
+      name: roml02
+      size: 2097152
+      blob_id: 49669
+    - id: 799751
+      asset_id: 118046
+      name: roml03
+      size: 2097152
+      blob_id: 49675
+    - id: 799752
+      asset_id: 118046
+      name: romsnd.u15a
+      size: 2097152
+      blob_id: 49670
+    - id: 799753
+      asset_id: 118046
+      name: u7
+      size: 131072
+      blob_id: 49671
+- release:
+    id: 102029
+    game_id: 4567
+    description: ""
+    release_date: 20010000
+  names:
+  - id: 236186
+    kind: 3
+    kind_id: 102029
+    language: 1
+    name: Wyvern Wings (set 2)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 118047
+      kind: 3
+      kind_id: 102029
+      type: 1
+      name: wyvernwga.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 799754
+      asset_id: 118047
+      name: qs1001a
+      size: 524288
+      blob_id: 8180
+    - id: 799755
+      asset_id: 118047
+      name: rom1.rom
+      size: 524288
+      blob_id: 49676
+    - id: 799756
+      asset_id: 118047
+      name: rom2.rom
+      size: 524288
+      blob_id: 49677
+    - id: 799757
+      asset_id: 118047
+      name: romh00
+      size: 2097152
+      blob_id: 49664
+    - id: 799758
+      asset_id: 118047
+      name: romh01
+      size: 2097152
+      blob_id: 49665
+    - id: 799759
+      asset_id: 118047
+      name: romh02
+      size: 2097152
+      blob_id: 49666
+    - id: 799760
+      asset_id: 118047
+      name: romh03
+      size: 2097152
+      blob_id: 49674
+    - id: 799761
+      asset_id: 118047
+      name: roml00
+      size: 2097152
+      blob_id: 49667
+    - id: 799762
+      asset_id: 118047
+      name: roml01
+      size: 2097152
+      blob_id: 49668
+    - id: 799763
+      asset_id: 118047
+      name: roml02
+      size: 2097152
+      blob_id: 49669
+    - id: 799764
+      asset_id: 118047
+      name: roml03
+      size: 2097152
+      blob_id: 49675
+    - id: 799765
+      asset_id: 118047
+      name: romsnd.u15a
+      size: 2097152
+      blob_id: 49670
+    - id: 799766
+      asset_id: 118047
       name: u7
       size: 131072
       blob_id: 49671

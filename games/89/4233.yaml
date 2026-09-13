@@ -16,6 +16,36 @@ names:
   language: 2
   name: 钍行者 (非北美版, 版本 1.0, 校验码 020E0867)
   source: trimui
+- id: 185104
+  kind: 2
+  kind_id: 4233
+  language: 1
+  name: TH Strikes Back (non North America, version 1.0, checksum 020E0867)
+  source: mame
+- id: 200129
+  kind: 2
+  kind_id: 4233
+  language: 1
+  name: TH Strikes Back (non North America, version 1.0, checksum 020EB346)
+  source: mame
+- id: 200130
+  kind: 2
+  kind_id: 4233
+  language: 1
+  name: TH Strikes Back (non North America, version 1.0, checksum 020E154A)
+  source: mame
+- id: 200131
+  kind: 2
+  kind_id: 4233
+  language: 1
+  name: TH Strikes Back (non North America, version 1.0, checksum 0206DF91)
+  source: mame
+- id: 200132
+  kind: 2
+  kind_id: 4233
+  language: 1
+  name: TH Strikes Back (non North America, version 1.0, checksum 0206DF91, without title)
+  source: mame
 game_developers: []
 game_genres: []
 assets: []
@@ -117,24 +147,10 @@ releases:
       name: thoop2a/3.c23
       size: 524288
       blob_id: 45527
-- release:
-    id: 73111
-    game_id: 4233
-    description: ""
-    release_date: 19940000
-  names:
-  - id: 176157
-    kind: 3
-    kind_id: 73111
-    language: 1
-    name: TH Strikes Back (non North America, version 1.0, checksum 020EB356)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 86181
+      id: 115533
       kind: 3
-      kind_id: 73111
+      kind_id: 4233
       type: 1
       name: thoop2.zip
       description: ""
@@ -143,58 +159,830 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 391504
-      asset_id: 86181
+    - id: 769018
+      asset_id: 115533
       name: 2.c22
       size: 524288
       blob_id: 45526
-    - id: 391505
-      asset_id: 86181
+    - id: 769019
+      asset_id: 115533
       name: 3.c23
       size: 524288
       blob_id: 45527
-    - id: 391506
-      asset_id: 86181
+    - id: 769020
+      asset_id: 115533
       name: pal16r4-3.e2
       size: 260
       blob_id: 45515
-    - id: 391507
-      asset_id: 86181
+    - id: 769021
+      asset_id: 115533
       name: pal16r8-1.b16
       size: 260
       blob_id: 45516
-    - id: 391508
-      asset_id: 86181
+    - id: 769022
+      asset_id: 115533
       name: pal20l8-2.b23
       size: 324
       blob_id: 45517
-    - id: 391509
-      asset_id: 86181
+    - id: 769023
+      asset_id: 115533
       name: pal20l8-4.h15
       size: 324
       blob_id: 45518
-    - id: 391510
-      asset_id: 86181
+    - id: 769024
+      asset_id: 115533
       name: palce16v8-5.h21
       size: 279
       blob_id: 45519
-    - id: 391511
-      asset_id: 86181
+    - id: 769025
+      asset_id: 115533
       name: th2-c1.c1
       size: 1048576
       blob_id: 45520
-    - id: 391512
-      asset_id: 86181
+    - id: 769026
+      asset_id: 115533
       name: th2-h12.h12
       size: 4194304
       blob_id: 45521
-    - id: 391513
-      asset_id: 86181
+    - id: 769027
+      asset_id: 115533
       name: th2-h8.h8
       size: 4194304
       blob_id: 45522
-    - id: 391514
-      asset_id: 86181
+    - id: 769028
+      asset_id: 115533
+      name: thoop2_ds5002fp.bin
+      size: 32768
+      blob_id: 45525
+  - asset:
+      id: 119595
+      kind: 3
+      kind_id: 4233
+      type: 1
+      name: thoop2.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 835498
+      asset_id: 119595
+      name: pal16r4-3.e2
+      size: 260
+      blob_id: 45515
+    - id: 835499
+      asset_id: 119595
+      name: pal16r8-1.b16
+      size: 260
+      blob_id: 45516
+    - id: 835500
+      asset_id: 119595
+      name: pal20l8-2.b23
+      size: 324
+      blob_id: 45517
+    - id: 835501
+      asset_id: 119595
+      name: pal20l8-4.h15
+      size: 324
+      blob_id: 45518
+    - id: 835502
+      asset_id: 119595
+      name: palce16v8-5.h21
+      size: 279
+      blob_id: 45519
+    - id: 835503
+      asset_id: 119595
+      name: th2-c1.c1
+      size: 1048576
+      blob_id: 45520
+    - id: 835504
+      asset_id: 119595
+      name: th2-h12.h12
+      size: 4194304
+      blob_id: 45521
+    - id: 835505
+      asset_id: 119595
+      name: th2-h8.h8
+      size: 4194304
+      blob_id: 45522
+    - id: 835506
+      asset_id: 119595
+      name: th2c22.c22
+      size: 524288
+      blob_id: 45523
+    - id: 835507
+      asset_id: 119595
+      name: th2c23.c23
+      size: 524288
+      blob_id: 45524
+    - id: 835508
+      asset_id: 119595
+      name: thoop2_ds5002fp.bin
+      size: 32768
+      blob_id: 45525
+- release:
+    id: 99656
+    game_id: 4233
+    description: ""
+    release_date: 19940000
+  names:
+  - id: 232823
+    kind: 3
+    kind_id: 99656
+    language: 1
+    name: TH Strikes Back (non North America, version 1.0, checksum 020EB346)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 115534
+      kind: 3
+      kind_id: 99656
+      type: 1
+      name: thoop2a.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/1592585468
+    entries:
+    - id: 769029
+      asset_id: 115534
+      name: pal16r4-3.e2
+      size: 260
+      blob_id: 45515
+    - id: 769030
+      asset_id: 115534
+      name: pal16r8-1.b16
+      size: 260
+      blob_id: 45516
+    - id: 769031
+      asset_id: 115534
+      name: pal20l8-2.b23
+      size: 324
+      blob_id: 45517
+    - id: 769032
+      asset_id: 115534
+      name: pal20l8-4.h15
+      size: 324
+      blob_id: 45518
+    - id: 769033
+      asset_id: 115534
+      name: palce16v8-5.h21
+      size: 279
+      blob_id: 45519
+    - id: 769034
+      asset_id: 115534
+      name: th2-c1.c1
+      size: 1048576
+      blob_id: 45520
+    - id: 769035
+      asset_id: 115534
+      name: th2-h12.h12
+      size: 4194304
+      blob_id: 45521
+    - id: 769036
+      asset_id: 115534
+      name: th2-h8.h8
+      size: 4194304
+      blob_id: 45522
+    - id: 769037
+      asset_id: 115534
+      name: th2_impar_10-5_f8fe_27c4001.bin
+      size: 524288
+      blob_id: 45526
+    - id: 769038
+      asset_id: 115534
+      name: th2_par_10-5_no_corta_3ead_27c4001.bin
+      size: 524288
+      blob_id: 306421
+    - id: 769039
+      asset_id: 115534
+      name: thoop2_ds5002fp.bin
+      size: 32768
+      blob_id: 45525
+  - asset:
+      id: 119596
+      kind: 3
+      kind_id: 99656
+      type: 1
+      name: thoop2a.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 835509
+      asset_id: 119596
+      name: 2.c22
+      size: 524288
+      blob_id: 45526
+    - id: 835510
+      asset_id: 119596
+      name: 3.c23
+      size: 524288
+      blob_id: 45527
+    - id: 835511
+      asset_id: 119596
+      name: pal16r4-3.e2
+      size: 260
+      blob_id: 45515
+    - id: 835512
+      asset_id: 119596
+      name: pal16r8-1.b16
+      size: 260
+      blob_id: 45516
+    - id: 835513
+      asset_id: 119596
+      name: pal20l8-2.b23
+      size: 324
+      blob_id: 45517
+    - id: 835514
+      asset_id: 119596
+      name: pal20l8-4.h15
+      size: 324
+      blob_id: 45518
+    - id: 835515
+      asset_id: 119596
+      name: palce16v8-5.h21
+      size: 279
+      blob_id: 45519
+    - id: 835516
+      asset_id: 119596
+      name: th2-c1.c1
+      size: 1048576
+      blob_id: 45520
+    - id: 835517
+      asset_id: 119596
+      name: th2-h12.h12
+      size: 4194304
+      blob_id: 45521
+    - id: 835518
+      asset_id: 119596
+      name: th2-h8.h8
+      size: 4194304
+      blob_id: 45522
+    - id: 835519
+      asset_id: 119596
+      name: thoop2_ds5002fp.bin
+      size: 32768
+      blob_id: 45525
+- release:
+    id: 99657
+    game_id: 4233
+    description: ""
+    release_date: 19940000
+  names:
+  - id: 232824
+    kind: 3
+    kind_id: 99657
+    language: 1
+    name: TH Strikes Back (non North America, version 1.0, checksum 020E0867)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 115535
+      kind: 3
+      kind_id: 99657
+      type: 1
+      name: thoop2b.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 769040
+      asset_id: 115535
+      name: pal16r4-3.e2
+      size: 260
+      blob_id: 45515
+    - id: 769041
+      asset_id: 115535
+      name: pal16r8-1.b16
+      size: 260
+      blob_id: 45516
+    - id: 769042
+      asset_id: 115535
+      name: pal20l8-2.b23
+      size: 324
+      blob_id: 45517
+    - id: 769043
+      asset_id: 115535
+      name: pal20l8-4.h15
+      size: 324
+      blob_id: 45518
+    - id: 769044
+      asset_id: 115535
+      name: palce16v8-5.h21
+      size: 279
+      blob_id: 45519
+    - id: 769045
+      asset_id: 115535
+      name: th2-c1.c1
+      size: 1048576
+      blob_id: 45520
+    - id: 769046
+      asset_id: 115535
+      name: th2-h12.h12
+      size: 4194304
+      blob_id: 45521
+    - id: 769047
+      asset_id: 115535
+      name: th2-h8.h8
+      size: 4194304
+      blob_id: 45522
+    - id: 769048
+      asset_id: 115535
+      name: th2c22.c22
+      size: 524288
+      blob_id: 45523
+    - id: 769049
+      asset_id: 115535
+      name: th2c23.c23
+      size: 524288
+      blob_id: 45524
+    - id: 769050
+      asset_id: 115535
+      name: thoop2_ds5002fp.bin
+      size: 32768
+      blob_id: 45525
+- release:
+    id: 99658
+    game_id: 4233
+    description: ""
+    release_date: 19940000
+  names:
+  - id: 232825
+    kind: 3
+    kind_id: 99658
+    language: 1
+    name: TH Strikes Back (non North America, version 1.0, checksum 020E154A)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 115536
+      kind: 3
+      kind_id: 99658
+      type: 1
+      name: thoop2c.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/1230649105
+    entries:
+    - id: 769051
+      asset_id: 115536
+      name: a00_3677_27c4001.bin
+      size: 524288
+      blob_id: 306422
+    - id: 769052
+      asset_id: 115536
+      name: a01_0a9e_27c4001.bin
+      size: 524288
+      blob_id: 306423
+    - id: 769053
+      asset_id: 115536
+      name: a10_563b_27c4001.bin
+      size: 524288
+      blob_id: 306424
+    - id: 769054
+      asset_id: 115536
+      name: a11_a200_27c4001.bin
+      size: 524288
+      blob_id: 306425
+    - id: 769055
+      asset_id: 115536
+      name: b00_75b5_27c4001.bin
+      size: 524288
+      blob_id: 306426
+    - id: 769056
+      asset_id: 115536
+      name: b01_e5ad_27c4001.bin
+      size: 524288
+      blob_id: 306427
+    - id: 769057
+      asset_id: 115536
+      name: b10_2426_27c4001.bin
+      size: 524288
+      blob_id: 306428
+    - id: 769058
+      asset_id: 115536
+      name: b11_d1b8_27c4001.bin
+      size: 524288
+      blob_id: 306429
+    - id: 769059
+      asset_id: 115536
+      name: c00_6ec3_27c4001.bin
+      size: 524288
+      blob_id: 306430
+    - id: 769060
+      asset_id: 115536
+      name: c01_6d42_27c4001.bin
+      size: 524288
+      blob_id: 306431
+    - id: 769061
+      asset_id: 115536
+      name: c10_84dd_27c4001.bin
+      size: 524288
+      blob_id: 306432
+    - id: 769062
+      asset_id: 115536
+      name: c11_d6c8_27c4001.bin
+      size: 524288
+      blob_id: 306433
+    - id: 769063
+      asset_id: 115536
+      name: d00_1520_27c4001.bin
+      size: 524288
+      blob_id: 306434
+    - id: 769064
+      asset_id: 115536
+      name: d01_c590_27c4001.bin
+      size: 524288
+      blob_id: 306435
+    - id: 769065
+      asset_id: 115536
+      name: d10_d199_27c4001.bin
+      size: 524288
+      blob_id: 306436
+    - id: 769066
+      asset_id: 115536
+      name: d11_7261_27c4001.bin
+      size: 524288
+      blob_id: 306437
+    - id: 769067
+      asset_id: 115536
+      name: pal16r4-3.e2
+      size: 260
+      blob_id: 45515
+    - id: 769068
+      asset_id: 115536
+      name: pal16r8-1.b16
+      size: 260
+      blob_id: 45516
+    - id: 769069
+      asset_id: 115536
+      name: pal20l8-2.b23
+      size: 324
+      blob_id: 45517
+    - id: 769070
+      asset_id: 115536
+      name: pal20l8-4.h15
+      size: 324
+      blob_id: 45518
+    - id: 769071
+      asset_id: 115536
+      name: palce16v8-5.h21
+      size: 279
+      blob_id: 45519
+    - id: 769072
+      asset_id: 115536
+      name: sh_7a29_27c040.bin
+      size: 524288
+      blob_id: 306438
+    - id: 769073
+      asset_id: 115536
+      name: sl_d84e_27c040.bin
+      size: 524288
+      blob_id: 306439
+    - id: 769074
+      asset_id: 115536
+      name: th-2_c-22_83c9_25-4_27c040.bin
+      size: 524288
+      blob_id: 306440
+    - id: 769075
+      asset_id: 115536
+      name: th-2_c-23_f3d3_25-4_27c040.bin
+      size: 524288
+      blob_id: 306441
+    - id: 769076
+      asset_id: 115536
+      name: thoop2_ds5002fp.bin
+      size: 32768
+      blob_id: 45525
+- release:
+    id: 99659
+    game_id: 4233
+    description: ""
+    release_date: 19940000
+  names:
+  - id: 232826
+    kind: 3
+    kind_id: 99659
+    language: 1
+    name: TH Strikes Back (non North America, version 1.0, checksum 0206DF91)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 115537
+      kind: 3
+      kind_id: 99659
+      type: 1
+      name: thoop2d.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/2244449086
+    entries:
+    - id: 769077
+      asset_id: 115537
+      name: a00_3677_27c4001.bin
+      size: 524288
+      blob_id: 306422
+    - id: 769078
+      asset_id: 115537
+      name: a01_0a9e_27c4001.bin
+      size: 524288
+      blob_id: 306423
+    - id: 769079
+      asset_id: 115537
+      name: a10_563b_27c4001.bin
+      size: 524288
+      blob_id: 306424
+    - id: 769080
+      asset_id: 115537
+      name: a11_a200_27c4001.bin
+      size: 524288
+      blob_id: 306425
+    - id: 769081
+      asset_id: 115537
+      name: amb_titol_th-2_c-23_274a_14-4 27c4001.bin
+      size: 524288
+      blob_id: 306442
+    - id: 769082
+      asset_id: 115537
+      name: b00_75b5_27c4001.bin
+      size: 524288
+      blob_id: 306426
+    - id: 769083
+      asset_id: 115537
+      name: b01_e5ad_27c4001.bin
+      size: 524288
+      blob_id: 306427
+    - id: 769084
+      asset_id: 115537
+      name: b10_2426_27c4001.bin
+      size: 524288
+      blob_id: 306428
+    - id: 769085
+      asset_id: 115537
+      name: b11_d1b8_27c4001.bin
+      size: 524288
+      blob_id: 306429
+    - id: 769086
+      asset_id: 115537
+      name: c00_6ec3_27c4001.bin
+      size: 524288
+      blob_id: 306430
+    - id: 769087
+      asset_id: 115537
+      name: c01_6d42_27c4001.bin
+      size: 524288
+      blob_id: 306431
+    - id: 769088
+      asset_id: 115537
+      name: c10_84dd_27c4001.bin
+      size: 524288
+      blob_id: 306432
+    - id: 769089
+      asset_id: 115537
+      name: c11_d6c8_27c4001.bin
+      size: 524288
+      blob_id: 306433
+    - id: 769090
+      asset_id: 115537
+      name: d00_1520_27c4001.bin
+      size: 524288
+      blob_id: 306434
+    - id: 769091
+      asset_id: 115537
+      name: d01_c590_27c4001.bin
+      size: 524288
+      blob_id: 306435
+    - id: 769092
+      asset_id: 115537
+      name: d10_d199_27c4001.bin
+      size: 524288
+      blob_id: 306436
+    - id: 769093
+      asset_id: 115537
+      name: d11_7261_27c4001.bin
+      size: 524288
+      blob_id: 306437
+    - id: 769094
+      asset_id: 115537
+      name: pal16r4-3.e2
+      size: 260
+      blob_id: 45515
+    - id: 769095
+      asset_id: 115537
+      name: pal16r8-1.b16
+      size: 260
+      blob_id: 45516
+    - id: 769096
+      asset_id: 115537
+      name: pal20l8-2.b23
+      size: 324
+      blob_id: 45517
+    - id: 769097
+      asset_id: 115537
+      name: pal20l8-4.h15
+      size: 324
+      blob_id: 45518
+    - id: 769098
+      asset_id: 115537
+      name: palce16v8-5.h21
+      size: 279
+      blob_id: 45519
+    - id: 769099
+      asset_id: 115537
+      name: sh_7a29_27c040.bin
+      size: 524288
+      blob_id: 306438
+    - id: 769100
+      asset_id: 115537
+      name: sl_d84e_27c040.bin
+      size: 524288
+      blob_id: 306439
+    - id: 769101
+      asset_id: 115537
+      name: th-2_c-22_2daa_14-4_27c4001.bin
+      size: 524288
+      blob_id: 306443
+    - id: 769102
+      asset_id: 115537
+      name: thoop2_ds5002fp.bin
+      size: 32768
+      blob_id: 45525
+- release:
+    id: 99660
+    game_id: 4233
+    description: ""
+    release_date: 19940000
+  names:
+  - id: 232827
+    kind: 3
+    kind_id: 99660
+    language: 1
+    name: TH Strikes Back (non North America, version 1.0, checksum 0206DF91, without title)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 115538
+      kind: 3
+      kind_id: 99660
+      type: 1
+      name: thoop2e.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/1886109741
+    entries:
+    - id: 769103
+      asset_id: 115538
+      name: a00_3677_27c4001.bin
+      size: 524288
+      blob_id: 306422
+    - id: 769104
+      asset_id: 115538
+      name: a01_0a9e_27c4001.bin
+      size: 524288
+      blob_id: 306423
+    - id: 769105
+      asset_id: 115538
+      name: a10_563b_27c4001.bin
+      size: 524288
+      blob_id: 306424
+    - id: 769106
+      asset_id: 115538
+      name: a11_a200_27c4001.bin
+      size: 524288
+      blob_id: 306425
+    - id: 769107
+      asset_id: 115538
+      name: b00_75b5_27c4001.bin
+      size: 524288
+      blob_id: 306426
+    - id: 769108
+      asset_id: 115538
+      name: b01_e5ad_27c4001.bin
+      size: 524288
+      blob_id: 306427
+    - id: 769109
+      asset_id: 115538
+      name: b10_2426_27c4001.bin
+      size: 524288
+      blob_id: 306428
+    - id: 769110
+      asset_id: 115538
+      name: b11_d1b8_27c4001.bin
+      size: 524288
+      blob_id: 306429
+    - id: 769111
+      asset_id: 115538
+      name: c00_6ec3_27c4001.bin
+      size: 524288
+      blob_id: 306430
+    - id: 769112
+      asset_id: 115538
+      name: c01_6d42_27c4001.bin
+      size: 524288
+      blob_id: 306431
+    - id: 769113
+      asset_id: 115538
+      name: c10_84dd_27c4001.bin
+      size: 524288
+      blob_id: 306432
+    - id: 769114
+      asset_id: 115538
+      name: c11_d6c8_27c4001.bin
+      size: 524288
+      blob_id: 306433
+    - id: 769115
+      asset_id: 115538
+      name: d00_1520_27c4001.bin
+      size: 524288
+      blob_id: 306434
+    - id: 769116
+      asset_id: 115538
+      name: d01_c590_27c4001.bin
+      size: 524288
+      blob_id: 306435
+    - id: 769117
+      asset_id: 115538
+      name: d10_d199_27c4001.bin
+      size: 524288
+      blob_id: 306436
+    - id: 769118
+      asset_id: 115538
+      name: d11_7261_27c4001.bin
+      size: 524288
+      blob_id: 306437
+    - id: 769119
+      asset_id: 115538
+      name: pal16r4-3.e2
+      size: 260
+      blob_id: 45515
+    - id: 769120
+      asset_id: 115538
+      name: pal16r8-1.b16
+      size: 260
+      blob_id: 45516
+    - id: 769121
+      asset_id: 115538
+      name: pal20l8-2.b23
+      size: 324
+      blob_id: 45517
+    - id: 769122
+      asset_id: 115538
+      name: pal20l8-4.h15
+      size: 324
+      blob_id: 45518
+    - id: 769123
+      asset_id: 115538
+      name: palce16v8-5.h21
+      size: 279
+      blob_id: 45519
+    - id: 769124
+      asset_id: 115538
+      name: sense_titol_th-2_c-23_274a_14-4_27c4001.bin
+      size: 524288
+      blob_id: 306444
+    - id: 769125
+      asset_id: 115538
+      name: sh_7a29_27c040.bin
+      size: 524288
+      blob_id: 306438
+    - id: 769126
+      asset_id: 115538
+      name: sl_d84e_27c040.bin
+      size: 524288
+      blob_id: 306439
+    - id: 769127
+      asset_id: 115538
+      name: th-2_c-22_2daa_14-4_27c4001.bin
+      size: 524288
+      blob_id: 306443
+    - id: 769128
+      asset_id: 115538
       name: thoop2_ds5002fp.bin
       size: 32768
       blob_id: 45525

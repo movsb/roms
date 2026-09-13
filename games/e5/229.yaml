@@ -16,6 +16,12 @@ names:
   language: 2
   name: 魔法宝石
   source: trimui
+- id: 191659
+  kind: 2
+  kind_id: 229
+  language: 1
+  name: Hexa (with 2xZ80, protected)
+  source: mame
 game_developers: []
 game_genres: []
 assets: []
@@ -102,24 +108,10 @@ releases:
       name: hexaa/sub2.bin
       size: 8192
       blob_id: 2234
-- release:
-    id: 45918
-    game_id: 229
-    description: ""
-    release_date: 19900000
-  names:
-  - id: 122496
-    kind: 3
-    kind_id: 45918
-    language: 1
-    name: Hexa
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 58988
+      id: 100961
       kind: 3
-      kind_id: 45918
+      kind_id: 229
       type: 1
       name: hexa.zip
       description: ""
@@ -128,43 +120,114 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 195893
-      asset_id: 58988
+    - id: 626687
+      asset_id: 100961
       name: hexa.001
       size: 256
       blob_id: 2225
-    - id: 195894
-      asset_id: 58988
+    - id: 626688
+      asset_id: 100961
       name: hexa.002
       size: 256
       blob_id: 2226
-    - id: 195895
-      asset_id: 58988
+    - id: 626689
+      asset_id: 100961
       name: hexa.003
       size: 256
       blob_id: 2227
-    - id: 195896
-      asset_id: 58988
+    - id: 626690
+      asset_id: 100961
       name: hexa.17
       size: 32768
       blob_id: 2228
-    - id: 195897
-      asset_id: 58988
+    - id: 626691
+      asset_id: 100961
       name: hexa.18
       size: 32768
       blob_id: 2229
-    - id: 195898
-      asset_id: 58988
+    - id: 626692
+      asset_id: 100961
       name: hexa.19
       size: 32768
       blob_id: 2230
-    - id: 195899
-      asset_id: 58988
+    - id: 626693
+      asset_id: 100961
       name: hexa.20
       size: 32768
       blob_id: 2231
-    - id: 195900
-      asset_id: 58988
+    - id: 626694
+      asset_id: 100961
       name: hexa.21
       size: 32768
       blob_id: 2232
+- release:
+    id: 85847
+    game_id: 229
+    description: ""
+    release_date: 19900000
+  names:
+  - id: 213196
+    kind: 3
+    kind_id: 85847
+    language: 1
+    name: Hexa (with 2xZ80, protected)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 100962
+      kind: 3
+      kind_id: 85847
+      type: 1
+      name: hexaa.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 626695
+      asset_id: 100962
+      name: hexa.001
+      size: 256
+      blob_id: 2225
+    - id: 626696
+      asset_id: 100962
+      name: hexa.002
+      size: 256
+      blob_id: 2226
+    - id: 626697
+      asset_id: 100962
+      name: hexa.003
+      size: 256
+      blob_id: 2227
+    - id: 626698
+      asset_id: 100962
+      name: main1.bin
+      size: 32768
+      blob_id: 2228
+    - id: 626699
+      asset_id: 100962
+      name: main2.bin
+      size: 32768
+      blob_id: 2229
+    - id: 626700
+      asset_id: 100962
+      name: main3.bin
+      size: 32768
+      blob_id: 2230
+    - id: 626701
+      asset_id: 100962
+      name: main4.bin
+      size: 32768
+      blob_id: 2232
+    - id: 626702
+      asset_id: 100962
+      name: sub1.bin
+      size: 32768
+      blob_id: 2233
+    - id: 626703
+      asset_id: 100962
+      name: sub2.bin
+      size: 8192
+      blob_id: 2234

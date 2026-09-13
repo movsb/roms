@@ -16,6 +16,12 @@ names:
   language: 2
   name: 大渔方块 (修订版 B)
   source: trimui
+- id: 195248
+  kind: 2
+  kind_id: 3243
+  language: 1
+  name: Puzzli (Japan revision A)
+  source: mame
 game_developers:
 - game_id: 3243
   developer_id: 495
@@ -134,24 +140,10 @@ releases:
       blob_id: 85859
       debug: arcade/wheel/puzzli.png
     entries: []
-- release:
-    id: 62667
-    game_id: 3243
-    description: ""
-    release_date: 19950000
-  names:
-  - id: 155607
-    kind: 3
-    kind_id: 62667
-    language: 1
-    name: Puzzli (Japan revision B)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 75737
+      id: 108376
       kind: 3
-      kind_id: 62667
+      kind_id: 3243
       type: 1
       name: puzzli.zip
       description: ""
@@ -160,43 +152,111 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 310925
-      asset_id: 75737
+    - id: 704371
+      asset_id: 108376
       name: pz_jb1.12i
       size: 524288
       blob_id: 34533
-    - id: 310926
-      asset_id: 75737
+    - id: 704372
+      asset_id: 108376
       name: pz_jb2.14i
       size: 524288
       blob_id: 34534
-    - id: 310927
-      asset_id: 75737
+    - id: 704373
+      asset_id: 108376
       name: pz_jb3.16i
       size: 524288
       blob_id: 34535
-    - id: 310928
-      asset_id: 75737
+    - id: 704374
+      asset_id: 108376
       name: pz_jb4.18i
       size: 524288
       blob_id: 34536
-    - id: 310929
-      asset_id: 75737
+    - id: 704375
+      asset_id: 108376
       name: pz_jb5.20e
       size: 131072
       blob_id: 34537
-    - id: 310930
-      asset_id: 75737
+    - id: 704376
+      asset_id: 108376
       name: pz_jb6.20c
       size: 131072
       blob_id: 34538
-    - id: 310931
-      asset_id: 75737
+    - id: 704377
+      asset_id: 108376
       name: pz_jb7.3g
       size: 262144
       blob_id: 34539
-    - id: 310932
-      asset_id: 75737
+    - id: 704378
+      asset_id: 108376
       name: pz_jb8.3i
       size: 131072
       blob_id: 34540
+- release:
+    id: 92851
+    game_id: 3243
+    description: ""
+    release_date: 19950000
+  names:
+  - id: 223980
+    kind: 3
+    kind_id: 92851
+    language: 1
+    name: Puzzli (Japan revision A)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 108378
+      kind: 3
+      kind_id: 92851
+      type: 1
+      name: puzzlia.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/3121841018
+    entries:
+    - id: 704388
+      asset_id: 108378
+      name: pz-ja-1.12i
+      size: 524288
+      blob_id: 34533
+    - id: 704389
+      asset_id: 108378
+      name: pz-ja-2.14i
+      size: 524288
+      blob_id: 34534
+    - id: 704390
+      asset_id: 108378
+      name: pz-ja-3.16i
+      size: 524288
+      blob_id: 34535
+    - id: 704391
+      asset_id: 108378
+      name: pz-ja-4.18i
+      size: 524288
+      blob_id: 34536
+    - id: 704392
+      asset_id: 108378
+      name: pz-ja-5.20e
+      size: 131072
+      blob_id: 299848
+    - id: 704393
+      asset_id: 108378
+      name: pz-ja-6.20c
+      size: 131072
+      blob_id: 299849
+    - id: 704394
+      asset_id: 108378
+      name: pz-ja-7.3g
+      size: 262144
+      blob_id: 299850
+    - id: 704395
+      asset_id: 108378
+      name: pz-ja-8.3i
+      size: 131072
+      blob_id: 299851

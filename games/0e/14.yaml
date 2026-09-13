@@ -16,6 +16,30 @@ names:
   language: 2
   name: "1944 - 征服世界（美版 000620）"
   source: ""
+- id: 186560
+  kind: 2
+  kind_id: 14
+  language: 1
+  name: 1944j
+  source: ""
+- id: 186561
+  kind: 2
+  kind_id: 14
+  language: 2
+  name: "1944 - 空翻之王 (000620 日版)"
+  source: trimui
+- id: 187353
+  kind: 2
+  kind_id: 14
+  language: 1
+  name: "1944: The Loop Master (USA 000620 Phoenix Edition) (bootleg)"
+  source: mame
+- id: 187354
+  kind: 2
+  kind_id: 14
+  language: 1
+  name: "1944: The Loop Master (USA 000620)"
+  source: mame
 game_developers:
 - game_id: 14
   developer_id: 41
@@ -169,6 +193,93 @@ releases:
       blob_id: 86431
       debug: arcade/wheel/1944.png
     entries: []
+  - asset:
+      id: 92947
+      kind: 3
+      kind_id: 14
+      type: 1
+      name: 1944.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 531093
+      asset_id: 92947
+      name: 1944.key
+      size: 20
+      blob_id: 288
+    - id: 531094
+      asset_id: 92947
+      name: nff.01
+      size: 131072
+      blob_id: 274
+    - id: 531095
+      asset_id: 92947
+      name: nff.11m
+      size: 4194304
+      blob_id: 276
+    - id: 531096
+      asset_id: 92947
+      name: nff.12m
+      size: 4194304
+      blob_id: 277
+    - id: 531097
+      asset_id: 92947
+      name: nff.13m
+      size: 4194304
+      blob_id: 278
+    - id: 531098
+      asset_id: 92947
+      name: nff.14m
+      size: 1048576
+      blob_id: 279
+    - id: 531099
+      asset_id: 92947
+      name: nff.15m
+      size: 4194304
+      blob_id: 280
+    - id: 531100
+      asset_id: 92947
+      name: nff.16m
+      size: 1048576
+      blob_id: 281
+    - id: 531101
+      asset_id: 92947
+      name: nff.17m
+      size: 4194304
+      blob_id: 282
+    - id: 531102
+      asset_id: 92947
+      name: nff.18m
+      size: 1048576
+      blob_id: 283
+    - id: 531103
+      asset_id: 92947
+      name: nff.19m
+      size: 4194304
+      blob_id: 284
+    - id: 531104
+      asset_id: 92947
+      name: nff.20m
+      size: 1048576
+      blob_id: 285
+    - id: 531105
+      asset_id: 92947
+      name: nffe.03
+      size: 524288
+      blob_id: 294
+    - id: 531106
+      asset_id: 92947
+      name: nffe.04
+      size: 524288
+      blob_id: 275
+    - id: 531107
+      asset_id: 92947
+      name: nffe.05
+      size: 524288
+      blob_id: 295
 - release:
     id: 15
     game_id: 14
@@ -317,103 +428,412 @@ releases:
       size: 524288
       blob_id: 295
 - release:
-    id: 35720
+    id: 16
+    game_id: 14
+    description: ""
+    release_date: 0
+  names:
+  - id: 33
+    kind: 3
+    kind_id: 16
+    language: 1
+    name: 1944j
+    source: ""
+  - id: 98360
+    kind: 3
+    kind_id: 16
+    language: 2
+    name: "1944 - 空翻之王 (000620 日版)"
+    source: trimui
+  release_publishers: []
+  assets:
+  - asset:
+      id: 16
+      kind: 3
+      kind_id: 16
+      type: 1
+      name: 1944j.zip
+      description: ""
+      format: 2
+      size: 460019
+      blob_id: 0
+      debug: 1944j.zip
+    entries:
+    - id: 498
+      asset_id: 16
+      name: 1944j.key
+      size: 20
+      blob_id: 291
+    - id: 499
+      asset_id: 16
+      name: nffj.03
+      size: 524288
+      blob_id: 292
+    - id: 500
+      asset_id: 16
+      name: nffj.05
+      size: 524288
+      blob_id: 293
+    - id: 91237
+      asset_id: 16
+      name: nff.01
+      size: 131072
+      blob_id: 274
+    - id: 91238
+      asset_id: 16
+      name: nff.11m
+      size: 4194304
+      blob_id: 276
+    - id: 91239
+      asset_id: 16
+      name: nff.12m
+      size: 4194304
+      blob_id: 277
+    - id: 91240
+      asset_id: 16
+      name: nff.13m
+      size: 4194304
+      blob_id: 278
+    - id: 91241
+      asset_id: 16
+      name: nff.14m
+      size: 1048576
+      blob_id: 279
+    - id: 91242
+      asset_id: 16
+      name: nff.15m
+      size: 4194304
+      blob_id: 280
+    - id: 91243
+      asset_id: 16
+      name: nff.16m
+      size: 1048576
+      blob_id: 281
+    - id: 91244
+      asset_id: 16
+      name: nff.17m
+      size: 4194304
+      blob_id: 282
+    - id: 91245
+      asset_id: 16
+      name: nff.18m
+      size: 1048576
+      blob_id: 283
+    - id: 91246
+      asset_id: 16
+      name: nff.19m
+      size: 4194304
+      blob_id: 284
+    - id: 91247
+      asset_id: 16
+      name: nff.20m
+      size: 1048576
+      blob_id: 285
+    - id: 91248
+      asset_id: 16
+      name: nffj.04
+      size: 524288
+      blob_id: 275
+- release:
+    id: 78424
     game_id: 14
     description: ""
     release_date: 20000000
   names:
-  - id: 102640
+  - id: 201933
     kind: 3
-    kind_id: 35720
+    kind_id: 78424
     language: 1
-    name: "1944: The Loop Master (Europe 000620)"
+    name: "1944: The Loop Master (USA 000620 Phoenix Edition) (bootleg)"
     source: mame
   release_publishers: []
   assets:
   - asset:
-      id: 48790
+      id: 92948
       kind: 3
-      kind_id: 35720
+      kind_id: 78424
       type: 1
-      name: 1944.zip
+      name: 1944d.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 91207
-      asset_id: 48790
-      name: 1944.key
-      size: 20
-      blob_id: 288
-    - id: 91208
-      asset_id: 48790
+    - id: 531108
+      asset_id: 92948
       name: nff.01
       size: 131072
       blob_id: 274
-    - id: 91209
-      asset_id: 48790
+    - id: 531109
+      asset_id: 92948
+      name: nff.04
+      size: 524288
+      blob_id: 275
+    - id: 531110
+      asset_id: 92948
       name: nff.11m
       size: 4194304
       blob_id: 276
-    - id: 91210
-      asset_id: 48790
+    - id: 531111
+      asset_id: 92948
       name: nff.12m
       size: 4194304
       blob_id: 277
-    - id: 91211
-      asset_id: 48790
+    - id: 531112
+      asset_id: 92948
       name: nff.13m
       size: 4194304
       blob_id: 278
-    - id: 91212
-      asset_id: 48790
+    - id: 531113
+      asset_id: 92948
       name: nff.14m
       size: 1048576
       blob_id: 279
-    - id: 91213
-      asset_id: 48790
+    - id: 531114
+      asset_id: 92948
       name: nff.15m
       size: 4194304
       blob_id: 280
-    - id: 91214
-      asset_id: 48790
+    - id: 531115
+      asset_id: 92948
       name: nff.16m
       size: 1048576
       blob_id: 281
-    - id: 91215
-      asset_id: 48790
+    - id: 531116
+      asset_id: 92948
       name: nff.17m
       size: 4194304
       blob_id: 282
-    - id: 91216
-      asset_id: 48790
+    - id: 531117
+      asset_id: 92948
       name: nff.18m
       size: 1048576
       blob_id: 283
-    - id: 91217
-      asset_id: 48790
+    - id: 531118
+      asset_id: 92948
       name: nff.19m
       size: 4194304
       blob_id: 284
-    - id: 91218
-      asset_id: 48790
+    - id: 531119
+      asset_id: 92948
       name: nff.20m
       size: 1048576
       blob_id: 285
-    - id: 91219
-      asset_id: 48790
-      name: nffe.03
+    - id: 531120
+      asset_id: 92948
+      name: nffu.05
       size: 524288
-      blob_id: 294
-    - id: 91220
-      asset_id: 48790
-      name: nffe.04
+      blob_id: 287
+    - id: 531121
+      asset_id: 92948
+      name: nffud.03
+      size: 524288
+      blob_id: 289
+    - id: 531122
+      asset_id: 92948
+      name: phoenix.key
+      size: 20
+      blob_id: 290
+- release:
+    id: 78425
+    game_id: 14
+    description: ""
+    release_date: 20000000
+  names:
+  - id: 201934
+    kind: 3
+    kind_id: 78425
+    language: 1
+    name: "1944: The Loop Master (USA 000620)"
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 92949
+      kind: 3
+      kind_id: 78425
+      type: 1
+      name: 1944u.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 531123
+      asset_id: 92949
+      name: 1944u.key
+      size: 20
+      blob_id: 273
+    - id: 531124
+      asset_id: 92949
+      name: nff.01
+      size: 131072
+      blob_id: 274
+    - id: 531125
+      asset_id: 92949
+      name: nff.04
       size: 524288
       blob_id: 275
-    - id: 91221
-      asset_id: 48790
-      name: nffe.05
+    - id: 531126
+      asset_id: 92949
+      name: nff.11m
+      size: 4194304
+      blob_id: 276
+    - id: 531127
+      asset_id: 92949
+      name: nff.12m
+      size: 4194304
+      blob_id: 277
+    - id: 531128
+      asset_id: 92949
+      name: nff.13m
+      size: 4194304
+      blob_id: 278
+    - id: 531129
+      asset_id: 92949
+      name: nff.14m
+      size: 1048576
+      blob_id: 279
+    - id: 531130
+      asset_id: 92949
+      name: nff.15m
+      size: 4194304
+      blob_id: 280
+    - id: 531131
+      asset_id: 92949
+      name: nff.16m
+      size: 1048576
+      blob_id: 281
+    - id: 531132
+      asset_id: 92949
+      name: nff.17m
+      size: 4194304
+      blob_id: 282
+    - id: 531133
+      asset_id: 92949
+      name: nff.18m
+      size: 1048576
+      blob_id: 283
+    - id: 531134
+      asset_id: 92949
+      name: nff.19m
+      size: 4194304
+      blob_id: 284
+    - id: 531135
+      asset_id: 92949
+      name: nff.20m
+      size: 1048576
+      blob_id: 285
+    - id: 531136
+      asset_id: 92949
+      name: nffu.03
       size: 524288
-      blob_id: 295
+      blob_id: 286
+    - id: 531137
+      asset_id: 92949
+      name: nffu.05
+      size: 524288
+      blob_id: 287
+- release:
+    id: 102411
+    game_id: 14
+    description: ""
+    release_date: 20000000
+  names:
+  - id: 236755
+    kind: 3
+    kind_id: 102411
+    language: 1
+    name: "1944 - the loop master (000620 USA Phoenix Edition, alt)"
+    source: fbneo
+  release_publishers: []
+  assets:
+  - asset:
+      id: 118451
+      kind: 3
+      kind_id: 102411
+      type: 1
+      name: 1944ad.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 804394
+      asset_id: 118451
+      name: nff.01
+      size: 131072
+      blob_id: 274
+    - id: 804395
+      asset_id: 118451
+      name: nff.04
+      size: 524288
+      blob_id: 275
+    - id: 804396
+      asset_id: 118451
+      name: nff.11m
+      size: 4194304
+      blob_id: 276
+    - id: 804397
+      asset_id: 118451
+      name: nff.12m
+      size: 4194304
+      blob_id: 277
+    - id: 804398
+      asset_id: 118451
+      name: nff.13m
+      size: 4194304
+      blob_id: 278
+    - id: 804399
+      asset_id: 118451
+      name: nff.14m
+      size: 1048576
+      blob_id: 279
+    - id: 804400
+      asset_id: 118451
+      name: nff.15m
+      size: 4194304
+      blob_id: 280
+    - id: 804401
+      asset_id: 118451
+      name: nff.16m
+      size: 1048576
+      blob_id: 281
+    - id: 804402
+      asset_id: 118451
+      name: nff.17m
+      size: 4194304
+      blob_id: 282
+    - id: 804403
+      asset_id: 118451
+      name: nff.18m
+      size: 1048576
+      blob_id: 283
+    - id: 804404
+      asset_id: 118451
+      name: nff.19m
+      size: 4194304
+      blob_id: 284
+    - id: 804405
+      asset_id: 118451
+      name: nff.20m
+      size: 1048576
+      blob_id: 285
+    - id: 804406
+      asset_id: 118451
+      name: nffu.05
+      size: 524288
+      blob_id: 287
+    - id: 804407
+      asset_id: 118451
+      name: nffuad.03
+      size: 524288
+      blob_id: 298081
+    - id: 804408
+      asset_id: 118451
+      name: phoenix.key
+      size: 20
+      blob_id: 290

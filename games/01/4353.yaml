@@ -16,6 +16,12 @@ names:
   language: 2
   name: 闪电出击 (第 1 套)
   source: trimui
+- id: 200519
+  kind: 2
+  kind_id: 4353
+  language: 1
+  name: Thunder Strike (set 2, older)
+  source: mame
 game_developers:
 - game_id: 4353
   developer_id: 735
@@ -209,24 +215,10 @@ releases:
       blob_id: 90961
       debug: arcade/wheel/tstrike.png
     entries: []
-- release:
-    id: 73965
-    game_id: 4353
-    description: ""
-    release_date: 19910000
-  names:
-  - id: 177822
-    kind: 3
-    kind_id: 73965
-    language: 1
-    name: Thunder Strike (set 1)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 87035
+      id: 116309
       kind: 3
-      kind_id: 73965
+      kind_id: 4353
       type: 1
       name: tstrike.zip
       description: ""
@@ -235,118 +227,261 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 401252
-      asset_id: 87035
+    - id: 778325
+      asset_id: 116309
       name: 21j-9
       size: 65536
       blob_id: 13948
-    - id: 401253
-      asset_id: 87035
+    - id: 778326
+      asset_id: 116309
       name: 21j-b
       size: 65536
       blob_id: 14348
-    - id: 401254
-      asset_id: 87035
+    - id: 778327
+      asset_id: 116309
       name: 21j-d
       size: 65536
       blob_id: 13949
-    - id: 401255
-      asset_id: 87035
+    - id: 778328
+      asset_id: 116309
       name: 21j-f
       size: 65536
       blob_id: 14351
-    - id: 401256
-      asset_id: 87035
+    - id: 778329
+      asset_id: 116309
       name: 21j-h
       size: 65536
       blob_id: 13950
-    - id: 401257
-      asset_id: 87035
+    - id: 778330
+      asset_id: 116309
       name: 21j-j
       size: 65536
       blob_id: 13951
-    - id: 401258
-      asset_id: 87035
+    - id: 778331
+      asset_id: 116309
       name: 21j-k-0.101
       size: 256
       blob_id: 11582
-    - id: 401259
-      asset_id: 87035
+    - id: 778332
+      asset_id: 116309
       name: 21j-l-0.16
       size: 512
       blob_id: 11587
-    - id: 401260
-      asset_id: 87035
+    - id: 778333
+      asset_id: 116309
       name: 63701.bin
       size: 16384
       blob_id: 13952
-    - id: 401261
-      asset_id: 87035
+    - id: 778334
+      asset_id: 116309
       name: 68705prt.mcu
       size: 2048
       blob_id: 13953
-    - id: 401262
-      asset_id: 87035
+    - id: 778335
+      asset_id: 116309
       name: alpha.rom
       size: 32768
       blob_id: 47240
-    - id: 401263
-      asset_id: 87035
+    - id: 778336
+      asset_id: 116309
       name: prog.rom
       size: 32768
       blob_id: 47241
-    - id: 401264
-      asset_id: 87035
+    - id: 778337
+      asset_id: 116309
       name: tstrike.109
       size: 65536
       blob_id: 47242
-    - id: 401265
-      asset_id: 87035
+    - id: 778338
+      asset_id: 116309
       name: tstrike.111
       size: 65536
       blob_id: 47243
-    - id: 401266
-      asset_id: 87035
+    - id: 778339
+      asset_id: 116309
       name: tstrike.113
       size: 65536
       blob_id: 47244
-    - id: 401267
-      asset_id: 87035
+    - id: 778340
+      asset_id: 116309
       name: tstrike.115
       size: 65536
       blob_id: 47245
-    - id: 401268
-      asset_id: 87035
+    - id: 778341
+      asset_id: 116309
       name: tstrike.117
       size: 65536
       blob_id: 47246
-    - id: 401269
-      asset_id: 87035
+    - id: 778342
+      asset_id: 116309
       name: tstrike.24
       size: 32768
       blob_id: 47247
-    - id: 401270
-      asset_id: 87035
+    - id: 778343
+      asset_id: 116309
       name: tstrike.25
       size: 32768
       blob_id: 47248
-    - id: 401271
-      asset_id: 87035
+    - id: 778344
+      asset_id: 116309
       name: tstrike.30
       size: 32768
       blob_id: 47249
-    - id: 401272
-      asset_id: 87035
+    - id: 778345
+      asset_id: 116309
       name: tstrike.78
       size: 65536
       blob_id: 47250
-    - id: 401273
-      asset_id: 87035
+    - id: 778346
+      asset_id: 116309
       name: tstrike.94
       size: 65536
       blob_id: 47251
-    - id: 401274
-      asset_id: 87035
+    - id: 778347
+      asset_id: 116309
+      name: tstrike.95
+      size: 32768
+      blob_id: 47252
+- release:
+    id: 100387
+    game_id: 4353
+    description: ""
+    release_date: 19910000
+  names:
+  - id: 233905
+    kind: 3
+    kind_id: 100387
+    language: 1
+    name: Thunder Strike (set 2, older)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 116310
+      kind: 3
+      kind_id: 100387
+      type: 1
+      name: tstrikea.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/3117771320
+    entries:
+    - id: 778348
+      asset_id: 116310
+      name: 21j-9
+      size: 65536
+      blob_id: 13948
+    - id: 778349
+      asset_id: 116310
+      name: 21j-b
+      size: 65536
+      blob_id: 14348
+    - id: 778350
+      asset_id: 116310
+      name: 21j-d
+      size: 65536
+      blob_id: 13949
+    - id: 778351
+      asset_id: 116310
+      name: 21j-f
+      size: 65536
+      blob_id: 14351
+    - id: 778352
+      asset_id: 116310
+      name: 21j-h
+      size: 65536
+      blob_id: 13950
+    - id: 778353
+      asset_id: 116310
+      name: 21j-j
+      size: 65536
+      blob_id: 13951
+    - id: 778354
+      asset_id: 116310
+      name: 21j-k-0.101
+      size: 256
+      blob_id: 11582
+    - id: 778355
+      asset_id: 116310
+      name: 21j-l-0.16
+      size: 512
+      blob_id: 11587
+    - id: 778356
+      asset_id: 116310
+      name: 63701.bin
+      size: 16384
+      blob_id: 13952
+    - id: 778357
+      asset_id: 116310
+      name: 68705prt.mcu
+      size: 2048
+      blob_id: 13953
+    - id: 778358
+      asset_id: 116310
+      name: tstrike.109
+      size: 65536
+      blob_id: 47242
+    - id: 778359
+      asset_id: 116310
+      name: tstrike.111
+      size: 65536
+      blob_id: 47243
+    - id: 778360
+      asset_id: 116310
+      name: tstrike.113
+      size: 65536
+      blob_id: 47244
+    - id: 778361
+      asset_id: 116310
+      name: tstrike.115
+      size: 65536
+      blob_id: 47245
+    - id: 778362
+      asset_id: 116310
+      name: tstrike.117
+      size: 65536
+      blob_id: 47246
+    - id: 778363
+      asset_id: 116310
+      name: tstrike.20
+      size: 32768
+      blob_id: 309020
+    - id: 778364
+      asset_id: 116310
+      name: tstrike.24
+      size: 32768
+      blob_id: 47247
+    - id: 778365
+      asset_id: 116310
+      name: tstrike.25
+      size: 32768
+      blob_id: 47248
+    - id: 778366
+      asset_id: 116310
+      name: tstrike.26
+      size: 32768
+      blob_id: 309021
+    - id: 778367
+      asset_id: 116310
+      name: tstrike.30
+      size: 32768
+      blob_id: 47249
+    - id: 778368
+      asset_id: 116310
+      name: tstrike.78
+      size: 65536
+      blob_id: 47250
+    - id: 778369
+      asset_id: 116310
+      name: tstrike.94
+      size: 65536
+      blob_id: 47251
+    - id: 778370
+      asset_id: 116310
       name: tstrike.95
       size: 32768
       blob_id: 47252

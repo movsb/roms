@@ -10,6 +10,12 @@ names:
   language: 1
   name: gground
   source: ""
+- id: 191143
+  kind: 2
+  kind_id: 1790
+  language: 1
+  name: Gain Ground (Japan, 2 Players, Floppy Based, FD1094 317-0058-03b)
+  source: mame
 game_developers:
 - game_id: 1790
   developer_id: 110
@@ -170,3 +176,49 @@ releases:
       name: ggroundj/ds3-5000-03b.img
       size: 1843200
       blob_id: 19859
+- release:
+    id: 84932
+    game_id: 1790
+    description: ""
+    release_date: 19880000
+  names:
+  - id: 211786
+    kind: 3
+    kind_id: 84932
+    language: 1
+    name: Gain Ground (Japan, 2 Players, Floppy Based, FD1094 317-0058-03b)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 99960
+      kind: 3
+      kind_id: 84932
+      type: 1
+      name: ggroundj.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 614388
+      asset_id: 99960
+      name: 317-0058-03b.key
+      size: 8192
+      blob_id: 19858
+    - id: 614389
+      asset_id: 99960
+      name: ds3-5000-03b.img
+      size: 1843200
+      blob_id: 19859
+    - id: 614390
+      asset_id: 99960
+      name: epr-12186.ic1
+      size: 131072
+      blob_id: 9468
+    - id: 614391
+      asset_id: 99960
+      name: epr-12187.ic2
+      size: 131072
+      blob_id: 9469

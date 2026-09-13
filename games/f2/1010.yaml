@@ -10,6 +10,36 @@ names:
   language: 1
   name: capbowl
   source: ""
+- id: 186752
+  kind: 2
+  kind_id: 1010
+  language: 1
+  name: clbowl
+  source: ""
+- id: 186753
+  kind: 2
+  kind_id: 1010
+  language: 2
+  name: 酷尔斯保龄球
+  source: trimui
+- id: 188819
+  kind: 2
+  kind_id: 1010
+  language: 1
+  name: Capcom Bowling (set 2)
+  source: mame
+- id: 188820
+  kind: 2
+  kind_id: 1010
+  language: 1
+  name: Capcom Bowling (set 3)
+  source: mame
+- id: 188821
+  kind: 2
+  kind_id: 1010
+  language: 1
+  name: Capcom Bowling (set 4)
+  source: mame
 game_developers:
 - game_id: 1010
   developer_id: 464
@@ -113,6 +143,43 @@ releases:
       blob_id: 89141
       debug: arcade/wheel/capbowl.png
     entries: []
+  - asset:
+      id: 95647
+      kind: 3
+      kind_id: 1010
+      type: 1
+      name: capbowl.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 562350
+      asset_id: 95647
+      name: grom0-gr0
+      size: 32768
+      blob_id: 10683
+    - id: 562351
+      asset_id: 95647
+      name: grom1-gr1
+      size: 32768
+      blob_id: 10684
+    - id: 562352
+      asset_id: 95647
+      name: grom2-gr2
+      size: 32768
+      blob_id: 10685
+    - id: 562353
+      asset_id: 95647
+      name: program_rev3_u6.u6
+      size: 32768
+      blob_id: 10687
+    - id: 562354
+      asset_id: 95647
+      name: sound_v2.1_u30.u30
+      size: 32768
+      blob_id: 10686
 - release:
     id: 1011
     game_id: 1010
@@ -171,53 +238,212 @@ releases:
       size: 32768
       blob_id: 10687
 - release:
-    id: 38837
+    id: 80934
     game_id: 1010
     description: ""
     release_date: 19880000
   names:
-  - id: 108707
+  - id: 205752
     kind: 3
-    kind_id: 38837
+    kind_id: 80934
     language: 1
-    name: Capcom Bowling (set 1)
+    name: Capcom Bowling (set 2)
     source: mame
   release_publishers: []
   assets:
   - asset:
-      id: 51907
+      id: 95648
       kind: 3
-      kind_id: 38837
+      kind_id: 80934
       type: 1
-      name: capbowl.zip
+      name: capbowl2.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 124322
-      asset_id: 51907
+    - id: 562355
+      asset_id: 95648
       name: grom0-gr0
       size: 32768
       blob_id: 10683
-    - id: 124323
-      asset_id: 51907
+    - id: 562356
+      asset_id: 95648
       name: grom1-gr1
       size: 32768
       blob_id: 10684
-    - id: 124324
-      asset_id: 51907
+    - id: 562357
+      asset_id: 95648
       name: grom2-gr2
       size: 32768
       blob_id: 10685
-    - id: 124325
-      asset_id: 51907
-      name: program_rev3_u6.u6
+    - id: 562358
+      asset_id: 95648
+      name: program_rev_3_u6.u6
       size: 32768
-      blob_id: 10687
-    - id: 124326
-      asset_id: 51907
+      blob_id: 241387
+    - id: 562359
+      asset_id: 95648
       name: sound_v2.1_u30.u30
       size: 32768
       blob_id: 10686
+- release:
+    id: 80935
+    game_id: 1010
+    description: ""
+    release_date: 19880000
+  names:
+  - id: 205753
+    kind: 3
+    kind_id: 80935
+    language: 1
+    name: Capcom Bowling (set 3)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 95649
+      kind: 3
+      kind_id: 80935
+      type: 1
+      name: capbowl3.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 562360
+      asset_id: 95649
+      name: 3.0_bowl.u6
+      size: 32768
+      blob_id: 207716
+    - id: 562361
+      asset_id: 95649
+      name: grom0-gr0.gr0
+      size: 32768
+      blob_id: 207717
+    - id: 562362
+      asset_id: 95649
+      name: grom1-gr1.gr1
+      size: 32768
+      blob_id: 207718
+    - id: 562363
+      asset_id: 95649
+      name: grom2-gr2.gr2
+      size: 32768
+      blob_id: 207719
+    - id: 562364
+      asset_id: 95649
+      name: sound_r-2_u30.u30
+      size: 32768
+      blob_id: 207720
+- release:
+    id: 80936
+    game_id: 1010
+    description: ""
+    release_date: 19880000
+  names:
+  - id: 205754
+    kind: 3
+    kind_id: 80936
+    language: 1
+    name: Capcom Bowling (set 4)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 95650
+      kind: 3
+      kind_id: 80936
+      type: 1
+      name: capbowl4.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 562365
+      asset_id: 95650
+      name: bfb.u30
+      size: 32768
+      blob_id: 207721
+    - id: 562366
+      asset_id: 95650
+      name: bfb.u6
+      size: 32768
+      blob_id: 207722
+    - id: 562367
+      asset_id: 95650
+      name: grom0-gr0.gr0
+      size: 32768
+      blob_id: 207717
+    - id: 562368
+      asset_id: 95650
+      name: grom1-gr1.gr1
+      size: 32768
+      blob_id: 207718
+    - id: 562369
+      asset_id: 95650
+      name: grom2-gr2.gr2
+      size: 32768
+      blob_id: 207719
+- release:
+    id: 102904
+    game_id: 1010
+    description: ""
+    release_date: 0
+  names:
+  - id: 237593
+    kind: 3
+    kind_id: 102904
+    language: 1
+    name: clbowl
+    source: ""
+  - id: 237594
+    kind: 3
+    kind_id: 102904
+    language: 2
+    name: 酷尔斯保龄球
+    source: trimui
+  release_publishers: []
+  assets:
+  - asset:
+      id: 96196
+      kind: 3
+      kind_id: 102904
+      type: 1
+      name: clbowl.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 568455
+      asset_id: 96196
+      name: coors_bowling_grom0.gr0
+      size: 32768
+      blob_id: 11830
+    - id: 568456
+      asset_id: 96196
+      name: coors_bowling_grom1.gr1
+      size: 32768
+      blob_id: 11831
+    - id: 568457
+      asset_id: 96196
+      name: coors_bowling_grom2.gr2
+      size: 32768
+      blob_id: 11832
+    - id: 568458
+      asset_id: 96196
+      name: coors_bowling_program.u6
+      size: 32768
+      blob_id: 11835
+    - id: 568459
+      asset_id: 96196
+      name: coors_bowling_sound.u30
+      size: 32768
+      blob_id: 11834

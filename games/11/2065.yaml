@@ -16,8 +16,54 @@ names:
   language: 2
   name: 怒 (美版 JAMMA)
   source: trimui
-game_developers: []
-game_genres: []
+- id: 186881
+  kind: 2
+  kind_id: 2065
+  language: 1
+  name: ikarijpb
+  source: ""
+- id: 186882
+  kind: 2
+  kind_id: 2065
+  language: 2
+  name: 怒 (摇杆控制 修改版 D版)
+  source: trimui
+- id: 191907
+  kind: 2
+  kind_id: 2065
+  language: 1
+  name: Ikari Warriors (US, set 1)
+  source: mame
+- id: 191908
+  kind: 2
+  kind_id: 2065
+  language: 1
+  name: Ikari Warriors (US, set 2)
+  source: mame
+- id: 191909
+  kind: 2
+  kind_id: 2065
+  language: 1
+  name: Ikari (Japan No Continues)
+  source: mame
+- id: 191910
+  kind: 2
+  kind_id: 2065
+  language: 1
+  name: Ikari Warriors (US No Continues)
+  source: mame
+- id: 191911
+  kind: 2
+  kind_id: 2065
+  language: 1
+  name: Rambo 3 (bootleg of Ikari, Joystick hack)
+  source: mame
+game_developers:
+- game_id: 2065
+  developer_id: 326
+game_genres:
+- game_id: 2065
+  genre_id: 4
 assets: []
 releases:
 - release:
@@ -272,24 +318,10 @@ releases:
       name: p9.3f
       size: 32768
       blob_id: 23172
-- release:
-    id: 46507
-    game_id: 2065
-    description: ""
-    release_date: 19860000
-  names:
-  - id: 123642
-    kind: 3
-    kind_id: 46507
-    language: 1
-    name: Ikari Warriors (US JAMMA)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 59577
+      id: 101486
       kind: 3
-      kind_id: 46507
+      kind_id: 2065
       type: 1
       name: ikari.zip
       description: ""
@@ -298,103 +330,1042 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 201965
-      asset_id: 59577
+    - id: 632453
+      asset_id: 101486
       name: 1.4p
       size: 65536
       blob_id: 23129
-    - id: 201966
-      asset_id: 59577
+    - id: 632454
+      asset_id: 101486
       name: 2.8p
       size: 65536
       blob_id: 23130
-    - id: 201967
-      asset_id: 59577
+    - id: 632455
+      asset_id: 101486
       name: 3.7k
       size: 65536
       blob_id: 23131
-    - id: 201968
-      asset_id: 59577
+    - id: 632456
+      asset_id: 101486
       name: a6002-1.1k
       size: 1024
       blob_id: 23132
-    - id: 201969
-      asset_id: 59577
+    - id: 632457
+      asset_id: 101486
       name: a6002-2.2l
       size: 1024
       blob_id: 23133
-    - id: 201970
-      asset_id: 59577
+    - id: 632458
+      asset_id: 101486
       name: a6002-3.1l
       size: 1024
       blob_id: 23134
-    - id: 201971
-      asset_id: 59577
+    - id: 632459
+      asset_id: 101486
       name: p10.3h
       size: 32768
       blob_id: 23159
-    - id: 201972
-      asset_id: 59577
+    - id: 632460
+      asset_id: 101486
       name: p11.4m
       size: 32768
       blob_id: 23160
-    - id: 201973
-      asset_id: 59577
+    - id: 632461
+      asset_id: 101486
       name: p12.4p
       size: 32768
       blob_id: 23161
-    - id: 201974
-      asset_id: 59577
+    - id: 632462
+      asset_id: 101486
       name: p13.4r
       size: 32768
       blob_id: 23162
-    - id: 201975
-      asset_id: 59577
+    - id: 632463
+      asset_id: 101486
       name: p14.2m
       size: 32768
       blob_id: 23163
-    - id: 201976
-      asset_id: 59577
+    - id: 632464
+      asset_id: 101486
       name: p15.2p
       size: 32768
       blob_id: 23164
-    - id: 201977
-      asset_id: 59577
+    - id: 632465
+      asset_id: 101486
       name: p16.2r
       size: 32768
       blob_id: 23165
-    - id: 201978
-      asset_id: 59577
+    - id: 632466
+      asset_id: 101486
       name: p17.4d
       size: 32768
       blob_id: 23166
-    - id: 201979
-      asset_id: 59577
+    - id: 632467
+      asset_id: 101486
       name: p18.2d
       size: 32768
       blob_id: 23167
-    - id: 201980
-      asset_id: 59577
+    - id: 632468
+      asset_id: 101486
       name: p19.4b
       size: 32768
       blob_id: 23168
-    - id: 201981
-      asset_id: 59577
+    - id: 632469
+      asset_id: 101486
       name: p20.2b
       size: 32768
       blob_id: 23169
-    - id: 201982
-      asset_id: 59577
+    - id: 632470
+      asset_id: 101486
       name: p7.3b
       size: 16384
       blob_id: 23170
-    - id: 201983
-      asset_id: 59577
+    - id: 632471
+      asset_id: 101486
       name: p8.3d
       size: 32768
       blob_id: 23171
-    - id: 201984
-      asset_id: 59577
+    - id: 632472
+      asset_id: 101486
       name: p9.3f
       size: 32768
       blob_id: 23172
+- release:
+    id: 86338
+    game_id: 2065
+    description: ""
+    release_date: 19860000
+  names:
+  - id: 214002
+    kind: 3
+    kind_id: 86338
+    language: 1
+    name: Ikari Warriors (US, set 1)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 101492
+      kind: 3
+      kind_id: 86338
+      type: 1
+      name: ikaria.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 632592
+      asset_id: 101492
+      name: 1.1h
+      size: 1024
+      blob_id: 23132
+    - id: 632593
+      asset_id: 101492
+      name: 2.2j
+      size: 1024
+      blob_id: 23133
+    - id: 632594
+      asset_id: 101492
+      name: 3.1j
+      size: 1024
+      blob_id: 23134
+    - id: 632595
+      asset_id: 101492
+      name: ampal16l8a-a5004-3.2n
+      size: 260
+      blob_id: 23135
+    - id: 632596
+      asset_id: 101492
+      name: ampal16l8a-a5004-4.8s
+      size: 260
+      blob_id: 23135
+    - id: 632597
+      asset_id: 101492
+      name: ampal16r6a-a5004-1.6d
+      size: 260
+      blob_id: 23136
+    - id: 632598
+      asset_id: 101492
+      name: p1.4l
+      size: 16384
+      blob_id: 23137
+    - id: 632599
+      asset_id: 101492
+      name: p10.3h
+      size: 32768
+      blob_id: 23159
+    - id: 632600
+      asset_id: 101492
+      name: p11.4m
+      size: 32768
+      blob_id: 23160
+    - id: 632601
+      asset_id: 101492
+      name: p12.4p
+      size: 32768
+      blob_id: 23161
+    - id: 632602
+      asset_id: 101492
+      name: p13.4r
+      size: 32768
+      blob_id: 23162
+    - id: 632603
+      asset_id: 101492
+      name: p14.2m
+      size: 32768
+      blob_id: 23163
+    - id: 632604
+      asset_id: 101492
+      name: p15.2p
+      size: 32768
+      blob_id: 23164
+    - id: 632605
+      asset_id: 101492
+      name: p16.2r
+      size: 32768
+      blob_id: 23165
+    - id: 632606
+      asset_id: 101492
+      name: p17.4d
+      size: 32768
+      blob_id: 23166
+    - id: 632607
+      asset_id: 101492
+      name: p18.2d
+      size: 32768
+      blob_id: 23167
+    - id: 632608
+      asset_id: 101492
+      name: p19.4b
+      size: 32768
+      blob_id: 23168
+    - id: 632609
+      asset_id: 101492
+      name: p2.4k
+      size: 32768
+      blob_id: 23138
+    - id: 632610
+      asset_id: 101492
+      name: p20.2b
+      size: 32768
+      blob_id: 23169
+    - id: 632611
+      asset_id: 101492
+      name: p3.8l
+      size: 16384
+      blob_id: 23139
+    - id: 632612
+      asset_id: 101492
+      name: p4.8k
+      size: 32768
+      blob_id: 23140
+    - id: 632613
+      asset_id: 101492
+      name: p5.6e
+      size: 16384
+      blob_id: 23141
+    - id: 632614
+      asset_id: 101492
+      name: p6.6f
+      size: 32768
+      blob_id: 23142
+    - id: 632615
+      asset_id: 101492
+      name: p7.3b
+      size: 16384
+      blob_id: 23170
+    - id: 632616
+      asset_id: 101492
+      name: p8.3d
+      size: 32768
+      blob_id: 23171
+    - id: 632617
+      asset_id: 101492
+      name: p9.3f
+      size: 32768
+      blob_id: 23172
+    - id: 632618
+      asset_id: 101492
+      name: pal20l8a-a5004-2.6m
+      size: 324
+      blob_id: 23143
+- release:
+    id: 86339
+    game_id: 2065
+    description: ""
+    release_date: 19860000
+  names:
+  - id: 214003
+    kind: 3
+    kind_id: 86339
+    language: 1
+    name: Ikari Warriors (US, set 2)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 101493
+      kind: 3
+      kind_id: 86339
+      type: 1
+      name: ikaria2.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 632619
+      asset_id: 101493
+      name: 1.1h
+      size: 1024
+      blob_id: 23132
+    - id: 632620
+      asset_id: 101493
+      name: 2.2j
+      size: 1024
+      blob_id: 23133
+    - id: 632621
+      asset_id: 101493
+      name: 3.1j
+      size: 1024
+      blob_id: 23134
+    - id: 632622
+      asset_id: 101493
+      name: ampal16l8a-a5004-3.2n
+      size: 260
+      blob_id: 23135
+    - id: 632623
+      asset_id: 101493
+      name: ampal16l8a-a5004-4.8s
+      size: 260
+      blob_id: 23135
+    - id: 632624
+      asset_id: 101493
+      name: ampal16r6a-a5004-1.6d
+      size: 260
+      blob_id: 23136
+    - id: 632625
+      asset_id: 101493
+      name: p1.4l
+      size: 16384
+      blob_id: 23144
+    - id: 632626
+      asset_id: 101493
+      name: p10.3h
+      size: 32768
+      blob_id: 23159
+    - id: 632627
+      asset_id: 101493
+      name: p11.4m
+      size: 32768
+      blob_id: 23160
+    - id: 632628
+      asset_id: 101493
+      name: p12.4p
+      size: 32768
+      blob_id: 23161
+    - id: 632629
+      asset_id: 101493
+      name: p13.4r
+      size: 32768
+      blob_id: 23162
+    - id: 632630
+      asset_id: 101493
+      name: p14.2m
+      size: 32768
+      blob_id: 23163
+    - id: 632631
+      asset_id: 101493
+      name: p15.2p
+      size: 32768
+      blob_id: 23164
+    - id: 632632
+      asset_id: 101493
+      name: p16.2r
+      size: 32768
+      blob_id: 23165
+    - id: 632633
+      asset_id: 101493
+      name: p17.4d
+      size: 32768
+      blob_id: 23166
+    - id: 632634
+      asset_id: 101493
+      name: p18.2d
+      size: 32768
+      blob_id: 23167
+    - id: 632635
+      asset_id: 101493
+      name: p19.4b
+      size: 32768
+      blob_id: 23168
+    - id: 632636
+      asset_id: 101493
+      name: p2.4k
+      size: 32768
+      blob_id: 23138
+    - id: 632637
+      asset_id: 101493
+      name: p20.2b
+      size: 32768
+      blob_id: 23169
+    - id: 632638
+      asset_id: 101493
+      name: p3.8l
+      size: 16384
+      blob_id: 23139
+    - id: 632639
+      asset_id: 101493
+      name: p4.8k
+      size: 32768
+      blob_id: 23140
+    - id: 632640
+      asset_id: 101493
+      name: p5.6e
+      size: 16384
+      blob_id: 23141
+    - id: 632641
+      asset_id: 101493
+      name: p6.6f
+      size: 32768
+      blob_id: 23142
+    - id: 632642
+      asset_id: 101493
+      name: p7.3b
+      size: 16384
+      blob_id: 23170
+    - id: 632643
+      asset_id: 101493
+      name: p8.3d
+      size: 32768
+      blob_id: 23171
+    - id: 632644
+      asset_id: 101493
+      name: p9.3f
+      size: 32768
+      blob_id: 23172
+    - id: 632645
+      asset_id: 101493
+      name: pal20l8a-a5004-2.6m
+      size: 324
+      blob_id: 23143
+- release:
+    id: 86340
+    game_id: 2065
+    description: ""
+    release_date: 19860000
+  names:
+  - id: 214004
+    kind: 3
+    kind_id: 86340
+    language: 1
+    name: Ikari (Japan No Continues)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 101494
+      kind: 3
+      kind_id: 86340
+      type: 1
+      name: ikarijp.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 632646
+      asset_id: 101494
+      name: 1.1h
+      size: 1024
+      blob_id: 23132
+    - id: 632647
+      asset_id: 101494
+      name: 2.2j
+      size: 1024
+      blob_id: 23133
+    - id: 632648
+      asset_id: 101494
+      name: 3.1j
+      size: 1024
+      blob_id: 23134
+    - id: 632649
+      asset_id: 101494
+      name: ampal16l8a-a5004-3.2n
+      size: 260
+      blob_id: 23135
+    - id: 632650
+      asset_id: 101494
+      name: ampal16l8a-a5004-4.8s
+      size: 260
+      blob_id: 23135
+    - id: 632651
+      asset_id: 101494
+      name: ampal16r6a-a5004-1.6d
+      size: 260
+      blob_id: 23136
+    - id: 632652
+      asset_id: 101494
+      name: p1.4l
+      size: 16384
+      blob_id: 23145
+    - id: 632653
+      asset_id: 101494
+      name: p10.3h
+      size: 32768
+      blob_id: 23146
+    - id: 632654
+      asset_id: 101494
+      name: p11.4m
+      size: 32768
+      blob_id: 23160
+    - id: 632655
+      asset_id: 101494
+      name: p12.4p
+      size: 32768
+      blob_id: 23161
+    - id: 632656
+      asset_id: 101494
+      name: p13.4r
+      size: 32768
+      blob_id: 23162
+    - id: 632657
+      asset_id: 101494
+      name: p14.2m
+      size: 32768
+      blob_id: 23163
+    - id: 632658
+      asset_id: 101494
+      name: p15.2p
+      size: 32768
+      blob_id: 23164
+    - id: 632659
+      asset_id: 101494
+      name: p16.2r
+      size: 32768
+      blob_id: 23165
+    - id: 632660
+      asset_id: 101494
+      name: p17.4d
+      size: 32768
+      blob_id: 23166
+    - id: 632661
+      asset_id: 101494
+      name: p18.2d
+      size: 32768
+      blob_id: 23167
+    - id: 632662
+      asset_id: 101494
+      name: p19.4b
+      size: 32768
+      blob_id: 23147
+    - id: 632663
+      asset_id: 101494
+      name: p2.4k
+      size: 32768
+      blob_id: 23148
+    - id: 632664
+      asset_id: 101494
+      name: p20.2b
+      size: 32768
+      blob_id: 23169
+    - id: 632665
+      asset_id: 101494
+      name: p3.8l
+      size: 16384
+      blob_id: 23149
+    - id: 632666
+      asset_id: 101494
+      name: p4.8k
+      size: 32768
+      blob_id: 23150
+    - id: 632667
+      asset_id: 101494
+      name: p5.6e
+      size: 16384
+      blob_id: 23141
+    - id: 632668
+      asset_id: 101494
+      name: p6.6f
+      size: 32768
+      blob_id: 23142
+    - id: 632669
+      asset_id: 101494
+      name: p7.3b
+      size: 16384
+      blob_id: 23151
+    - id: 632670
+      asset_id: 101494
+      name: p8.3d
+      size: 32768
+      blob_id: 23152
+    - id: 632671
+      asset_id: 101494
+      name: p9.3f
+      size: 32768
+      blob_id: 23153
+    - id: 632672
+      asset_id: 101494
+      name: pal20l8a-a5004-2.6m
+      size: 324
+      blob_id: 23143
+- release:
+    id: 86341
+    game_id: 2065
+    description: ""
+    release_date: 19860000
+  names:
+  - id: 214005
+    kind: 3
+    kind_id: 86341
+    language: 1
+    name: Ikari Warriors (US No Continues)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 101496
+      kind: 3
+      kind_id: 86341
+      type: 1
+      name: ikarinc.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 632696
+      asset_id: 101496
+      name: 1.1h
+      size: 1024
+      blob_id: 23132
+    - id: 632697
+      asset_id: 101496
+      name: 2.2j
+      size: 1024
+      blob_id: 23133
+    - id: 632698
+      asset_id: 101496
+      name: 3.1j
+      size: 1024
+      blob_id: 23134
+    - id: 632699
+      asset_id: 101496
+      name: ampal16l8a-a5004-3.2n
+      size: 260
+      blob_id: 23135
+    - id: 632700
+      asset_id: 101496
+      name: ampal16l8a-a5004-4.8s
+      size: 260
+      blob_id: 23135
+    - id: 632701
+      asset_id: 101496
+      name: ampal16r6a-a5004-1.6d
+      size: 260
+      blob_id: 23136
+    - id: 632702
+      asset_id: 101496
+      name: p1.4l
+      size: 16384
+      blob_id: 23155
+    - id: 632703
+      asset_id: 101496
+      name: p10.3h
+      size: 32768
+      blob_id: 23159
+    - id: 632704
+      asset_id: 101496
+      name: p11.4m
+      size: 32768
+      blob_id: 23160
+    - id: 632705
+      asset_id: 101496
+      name: p12.4p
+      size: 32768
+      blob_id: 23161
+    - id: 632706
+      asset_id: 101496
+      name: p13.4r
+      size: 32768
+      blob_id: 23162
+    - id: 632707
+      asset_id: 101496
+      name: p14.2m
+      size: 32768
+      blob_id: 23163
+    - id: 632708
+      asset_id: 101496
+      name: p15.2p
+      size: 32768
+      blob_id: 23164
+    - id: 632709
+      asset_id: 101496
+      name: p16.2r
+      size: 32768
+      blob_id: 23165
+    - id: 632710
+      asset_id: 101496
+      name: p17.4d
+      size: 32768
+      blob_id: 23166
+    - id: 632711
+      asset_id: 101496
+      name: p18.2d
+      size: 32768
+      blob_id: 23167
+    - id: 632712
+      asset_id: 101496
+      name: p19.4b
+      size: 32768
+      blob_id: 23168
+    - id: 632713
+      asset_id: 101496
+      name: p2.4k
+      size: 32768
+      blob_id: 23156
+    - id: 632714
+      asset_id: 101496
+      name: p20.2b
+      size: 32768
+      blob_id: 23169
+    - id: 632715
+      asset_id: 101496
+      name: p3.8l
+      size: 16384
+      blob_id: 23139
+    - id: 632716
+      asset_id: 101496
+      name: p4.8k
+      size: 32768
+      blob_id: 23140
+    - id: 632717
+      asset_id: 101496
+      name: p5.6e
+      size: 16384
+      blob_id: 23141
+    - id: 632718
+      asset_id: 101496
+      name: p6.6f
+      size: 32768
+      blob_id: 23142
+    - id: 632719
+      asset_id: 101496
+      name: p7.3b
+      size: 16384
+      blob_id: 23170
+    - id: 632720
+      asset_id: 101496
+      name: p8.3d
+      size: 32768
+      blob_id: 23171
+    - id: 632721
+      asset_id: 101496
+      name: p9.3f
+      size: 32768
+      blob_id: 23172
+    - id: 632722
+      asset_id: 101496
+      name: pal20l8a-a5004-2.6m
+      size: 324
+      blob_id: 23143
+- release:
+    id: 86342
+    game_id: 2065
+    description: ""
+    release_date: 19860000
+  names:
+  - id: 214006
+    kind: 3
+    kind_id: 86342
+    language: 1
+    name: Rambo 3 (bootleg of Ikari, Joystick hack)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 101497
+      kind: 3
+      kind_id: 86342
+      type: 1
+      name: ikariram.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 632723
+      asset_id: 101497
+      name: 1.1h
+      size: 1024
+      blob_id: 23132
+    - id: 632724
+      asset_id: 101497
+      name: 1.4l
+      size: 16384
+      blob_id: 23157
+    - id: 632725
+      asset_id: 101497
+      name: 2.2j
+      size: 1024
+      blob_id: 23133
+    - id: 632726
+      asset_id: 101497
+      name: 3.1j
+      size: 1024
+      blob_id: 23134
+    - id: 632727
+      asset_id: 101497
+      name: 82s191.bin
+      size: 2048
+      blob_id: 23158
+    - id: 632728
+      asset_id: 101497
+      name: p10.3h
+      size: 32768
+      blob_id: 23146
+    - id: 632729
+      asset_id: 101497
+      name: p11.4m
+      size: 32768
+      blob_id: 23160
+    - id: 632730
+      asset_id: 101497
+      name: p12.4p
+      size: 32768
+      blob_id: 23161
+    - id: 632731
+      asset_id: 101497
+      name: p13.4r
+      size: 32768
+      blob_id: 23162
+    - id: 632732
+      asset_id: 101497
+      name: p14.2m
+      size: 32768
+      blob_id: 23163
+    - id: 632733
+      asset_id: 101497
+      name: p15.2p
+      size: 32768
+      blob_id: 23164
+    - id: 632734
+      asset_id: 101497
+      name: p16.2r
+      size: 32768
+      blob_id: 23165
+    - id: 632735
+      asset_id: 101497
+      name: p17.4d
+      size: 32768
+      blob_id: 23166
+    - id: 632736
+      asset_id: 101497
+      name: p18.2d
+      size: 32768
+      blob_id: 23167
+    - id: 632737
+      asset_id: 101497
+      name: p19.4b
+      size: 32768
+      blob_id: 23147
+    - id: 632738
+      asset_id: 101497
+      name: p2.4k
+      size: 32768
+      blob_id: 23148
+    - id: 632739
+      asset_id: 101497
+      name: p20.2b
+      size: 32768
+      blob_id: 23169
+    - id: 632740
+      asset_id: 101497
+      name: p3.8l
+      size: 16384
+      blob_id: 23149
+    - id: 632741
+      asset_id: 101497
+      name: p4.8k
+      size: 32768
+      blob_id: 23150
+    - id: 632742
+      asset_id: 101497
+      name: p5.6e
+      size: 16384
+      blob_id: 23141
+    - id: 632743
+      asset_id: 101497
+      name: p6.6f
+      size: 32768
+      blob_id: 23142
+    - id: 632744
+      asset_id: 101497
+      name: p7.3b
+      size: 16384
+      blob_id: 23151
+    - id: 632745
+      asset_id: 101497
+      name: p8.3d
+      size: 32768
+      blob_id: 23152
+    - id: 632746
+      asset_id: 101497
+      name: p9.3f
+      size: 32768
+      blob_id: 23153
+- release:
+    id: 102954
+    game_id: 2065
+    description: ""
+    release_date: 19860101
+  names:
+  - id: 237694
+    kind: 3
+    kind_id: 102954
+    language: 1
+    name: ikarijpb
+    source: ""
+  - id: 237695
+    kind: 3
+    kind_id: 102954
+    language: 2
+    name: 怒 (摇杆控制 修改版 D版)
+    source: trimui
+  release_publishers:
+  - release_id: 102954
+    publisher_id: 224
+  assets:
+  - asset:
+      id: 101495
+      kind: 3
+      kind_id: 102954
+      type: 1
+      name: ikarijpb.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 632673
+      asset_id: 101495
+      name: 1.1h
+      size: 1024
+      blob_id: 23132
+    - id: 632674
+      asset_id: 101495
+      name: 2.2j
+      size: 1024
+      blob_id: 23133
+    - id: 632675
+      asset_id: 101495
+      name: 3.1j
+      size: 1024
+      blob_id: 23134
+    - id: 632676
+      asset_id: 101495
+      name: ik1.4l
+      size: 16384
+      blob_id: 23154
+    - id: 632677
+      asset_id: 101495
+      name: p10.3h
+      size: 32768
+      blob_id: 23146
+    - id: 632678
+      asset_id: 101495
+      name: p11.4m
+      size: 32768
+      blob_id: 23160
+    - id: 632679
+      asset_id: 101495
+      name: p12.4p
+      size: 32768
+      blob_id: 23161
+    - id: 632680
+      asset_id: 101495
+      name: p13.4r
+      size: 32768
+      blob_id: 23162
+    - id: 632681
+      asset_id: 101495
+      name: p14.2m
+      size: 32768
+      blob_id: 23163
+    - id: 632682
+      asset_id: 101495
+      name: p15.2p
+      size: 32768
+      blob_id: 23164
+    - id: 632683
+      asset_id: 101495
+      name: p16.2r
+      size: 32768
+      blob_id: 23165
+    - id: 632684
+      asset_id: 101495
+      name: p17.4d
+      size: 32768
+      blob_id: 23166
+    - id: 632685
+      asset_id: 101495
+      name: p18.2d
+      size: 32768
+      blob_id: 23167
+    - id: 632686
+      asset_id: 101495
+      name: p19.4b
+      size: 32768
+      blob_id: 23147
+    - id: 632687
+      asset_id: 101495
+      name: p2.4k
+      size: 32768
+      blob_id: 23148
+    - id: 632688
+      asset_id: 101495
+      name: p20.2b
+      size: 32768
+      blob_id: 23169
+    - id: 632689
+      asset_id: 101495
+      name: p3.8l
+      size: 16384
+      blob_id: 23149
+    - id: 632690
+      asset_id: 101495
+      name: p4.8k
+      size: 32768
+      blob_id: 23150
+    - id: 632691
+      asset_id: 101495
+      name: p5.6e
+      size: 16384
+      blob_id: 23141
+    - id: 632692
+      asset_id: 101495
+      name: p6.6f
+      size: 32768
+      blob_id: 23142
+    - id: 632693
+      asset_id: 101495
+      name: p7.3b
+      size: 16384
+      blob_id: 23151
+    - id: 632694
+      asset_id: 101495
+      name: p8.3d
+      size: 32768
+      blob_id: 23152
+    - id: 632695
+      asset_id: 101495
+      name: p9.3f
+      size: 32768
+      blob_id: 23153

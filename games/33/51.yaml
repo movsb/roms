@@ -16,6 +16,12 @@ names:
   language: 2
   name: 电视抢 8 撞球
   source: trimui
+- id: 187441
+  kind: 2
+  kind_id: 51
+  language: 1
+  name: Video Eight Ball (Rev.1)
+  source: mame
 game_developers:
 - game_id: 51
   developer_id: 483
@@ -144,24 +150,10 @@ releases:
       blob_id: 87667
       debug: arcade/wheel/8ball.png
     entries: []
-- release:
-    id: 35877
-    game_id: 51
-    description: ""
-    release_date: 19820000
-  names:
-  - id: 102946
-    kind: 3
-    kind_id: 35877
-    language: 1
-    name: Video Eight Ball
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 48947
+      id: 93099
       kind: 3
-      kind_id: 35877
+      kind_id: 51
       type: 1
       name: 8ball.zip
       description: ""
@@ -170,68 +162,159 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 93780
-      asset_id: 48947
+    - id: 533542
+      asset_id: 93099
       name: 5b.bin
       size: 2048
       blob_id: 2243
-    - id: 93781
-      asset_id: 48947
+    - id: 533543
+      asset_id: 93099
       name: 82s123.10k
       size: 32
       blob_id: 13154
-    - id: 93782
-      asset_id: 48947
+    - id: 533544
+      asset_id: 93099
       name: 82s185.10h
       size: 2048
       blob_id: 13155
-    - id: 93783
-      asset_id: 48947
+    - id: 533545
+      asset_id: 93099
       name: 8b-cp1.bin
       size: 2048
       blob_id: 766
-    - id: 93784
-      asset_id: 48947
+    - id: 533546
+      asset_id: 93099
       name: 8b-cp2.bin
       size: 2048
       blob_id: 767
-    - id: 93785
-      asset_id: 48947
+    - id: 533547
+      asset_id: 93099
       name: 8b-cp3.bin
       size: 2048
       blob_id: 768
-    - id: 93786
-      asset_id: 48947
+    - id: 533548
+      asset_id: 93099
       name: 8b-gp1.bin
       size: 4096
       blob_id: 769
-    - id: 93787
-      asset_id: 48947
+    - id: 533549
+      asset_id: 93099
       name: 8b-gp2.bin
       size: 4096
       blob_id: 770
-    - id: 93788
-      asset_id: 48947
+    - id: 533550
+      asset_id: 93099
       name: 8b-gp3.bin
       size: 4096
       blob_id: 771
-    - id: 93789
-      asset_id: 48947
+    - id: 533551
+      asset_id: 93099
       name: 8b-gp4.bin
       size: 4096
       blob_id: 772
-    - id: 93790
-      asset_id: 48947
+    - id: 533552
+      asset_id: 93099
       name: 8b-gp5.bin
       size: 4096
       blob_id: 773
-    - id: 93791
-      asset_id: 48947
+    - id: 533553
+      asset_id: 93099
       name: 8b-sdp1.bin
       size: 4096
       blob_id: 774
-    - id: 93792
-      asset_id: 48947
+    - id: 533554
+      asset_id: 93099
+      name: 8b-sp1.bin
+      size: 2048
+      blob_id: 775
+- release:
+    id: 78568
+    game_id: 51
+    description: ""
+    release_date: 19820000
+  names:
+  - id: 202153
+    kind: 3
+    kind_id: 78568
+    language: 1
+    name: Video Eight Ball (Rev.1)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 93100
+      kind: 3
+      kind_id: 78568
+      type: 1
+      name: 8ball1.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 533555
+      asset_id: 93100
+      name: 5b.bin
+      size: 2048
+      blob_id: 2243
+    - id: 533556
+      asset_id: 93100
+      name: 82s123.10k
+      size: 32
+      blob_id: 13154
+    - id: 533557
+      asset_id: 93100
+      name: 82s185.10h
+      size: 2048
+      blob_id: 13155
+    - id: 533558
+      asset_id: 93100
+      name: 8a-cp1.bin
+      size: 2048
+      blob_id: 238244
+    - id: 533559
+      asset_id: 93100
+      name: 8a-cp2.bin
+      size: 2048
+      blob_id: 238245
+    - id: 533560
+      asset_id: 93100
+      name: 8a-cp3.bin
+      size: 2048
+      blob_id: 238246
+    - id: 533561
+      asset_id: 93100
+      name: 8a-gp1.bin
+      size: 4096
+      blob_id: 238247
+    - id: 533562
+      asset_id: 93100
+      name: 8a-gp2.bin
+      size: 4096
+      blob_id: 238248
+    - id: 533563
+      asset_id: 93100
+      name: 8a-gp3.bin
+      size: 4096
+      blob_id: 238249
+    - id: 533564
+      asset_id: 93100
+      name: 8a-gp4.bin
+      size: 4096
+      blob_id: 238250
+    - id: 533565
+      asset_id: 93100
+      name: 8a-gp5.bin
+      size: 4096
+      blob_id: 238251
+    - id: 533566
+      asset_id: 93100
+      name: 8b-sdp1.bin
+      size: 4096
+      blob_id: 774
+    - id: 533567
+      asset_id: 93100
       name: 8b-sp1.bin
       size: 2048
       blob_id: 775

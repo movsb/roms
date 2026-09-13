@@ -16,6 +16,36 @@ names:
   language: 2
   name: "海之王者 - 七海方块大冒险 (世界版)"
   source: trimui
+- id: 190170
+  kind: 2
+  kind_id: 1531
+  language: 1
+  name: Emeraldia (Japan)
+  source: mame
+- id: 190171
+  kind: 2
+  kind_id: 1531
+  language: 1
+  name: Emeraldia (Japan Version B)
+  source: mame
+- id: 190172
+  kind: 2
+  kind_id: 1531
+  language: 1
+  name: Emeraldia (Japan Version D)
+  source: mame
+- id: 241738
+  kind: 2
+  kind_id: 1531
+  language: 1
+  name: Emeraldia (Bankbank New Rotate Hack)
+  source: fbneo
+- id: 241739
+  kind: 2
+  kind_id: 1531
+  language: 1
+  name: Emeraldia (Japan)
+  source: fbneo
 game_developers:
 - game_id: 1531
   developer_id: 19
@@ -114,24 +144,10 @@ releases:
       blob_id: 85059
       debug: arcade/wheel/emeralda.png
     entries: []
-- release:
-    id: 42155
-    game_id: 1531
-    description: ""
-    release_date: 19930000
-  names:
-  - id: 115156
-    kind: 3
-    kind_id: 42155
-    language: 1
-    name: Emeraldia (World)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 55225
+      id: 98316
       kind: 3
-      kind_id: 42155
+      kind_id: 1531
       type: 1
       name: emeralda.zip
       description: ""
@@ -140,44 +156,30 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 160856
-      asset_id: 55225
+    - id: 596243
+      asset_id: 98316
       name: em2-ep0l.6c
       size: 524288
-      blob_id: 112364
-    - id: 160857
-      asset_id: 55225
+      blob_id: 214598
+    - id: 596244
+      asset_id: 98316
       name: em2-ep0u.6f
       size: 524288
-      blob_id: 112365
-    - id: 160858
-      asset_id: 55225
+      blob_id: 214599
+    - id: 596245
+      asset_id: 98316
       name: em2-ep1l.7c
       size: 524288
-      blob_id: 112366
-    - id: 160859
-      asset_id: 55225
+      blob_id: 214600
+    - id: 596246
+      asset_id: 98316
       name: em2-ep1u.7f
       size: 524288
-      blob_id: 112367
-- release:
-    id: 76514
-    game_id: 1531
-    description: ""
-    release_date: 19930000
-  names:
-  - id: 182634
-    kind: 3
-    kind_id: 76514
-    language: 1
-    name: Emeraldia (World)
-    source: fbneo
-  release_publishers: []
-  assets:
+      blob_id: 214601
   - asset:
-      id: 89584
+      id: 118750
       kind: 3
-      kind_id: 76514
+      kind_id: 1531
       type: 1
       name: emeralda.zip
       description: ""
@@ -186,28 +188,369 @@ releases:
       blob_id: 0
       debug: dat:fbneo:5fa9b68a
     entries:
-    - id: 434663
-      asset_id: 89584
-      name: c70.bin
-      size: 16384
-      blob_id: 199633
-    - id: 434664
-      asset_id: 89584
+    - id: 811438
+      asset_id: 118750
       name: em2-ep0l.6c
       size: 524288
-      blob_id: 112364
-    - id: 434665
-      asset_id: 89584
+      blob_id: 214598
+    - id: 811439
+      asset_id: 118750
       name: em2-ep0u.6f
       size: 524288
-      blob_id: 112365
-    - id: 434666
-      asset_id: 89584
+      blob_id: 214599
+    - id: 811440
+      asset_id: 118750
       name: em2-ep1l.7c
       size: 524288
-      blob_id: 112366
-    - id: 434667
-      asset_id: 89584
+      blob_id: 214600
+    - id: 811441
+      asset_id: 118750
       name: em2-ep1u.7f
       size: 524288
-      blob_id: 112367
+      blob_id: 214601
+    - id: 811442
+      asset_id: 118750
+      name: c70.bin
+      size: 16384
+      blob_id: 298477
+- release:
+    id: 83402
+    game_id: 1531
+    description: ""
+    release_date: 19930000
+  names:
+  - id: 209533
+    kind: 3
+    kind_id: 83402
+    language: 1
+    name: Emeraldia (Japan)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 98317
+      kind: 3
+      kind_id: 83402
+      type: 1
+      name: emeraldaj.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 596247
+      asset_id: 98317
+      name: em1-ep0l.6c
+      size: 524288
+      blob_id: 214602
+    - id: 596248
+      asset_id: 98317
+      name: em1-ep0u.6f
+      size: 524288
+      blob_id: 214603
+    - id: 596249
+      asset_id: 98317
+      name: em1-ep1l.7c
+      size: 524288
+      blob_id: 16687
+    - id: 596250
+      asset_id: 98317
+      name: em1-ep1u.7c
+      size: 524288
+      blob_id: 16688
+  - asset:
+      id: 118748
+      kind: 3
+      kind_id: 83402
+      type: 1
+      name: emeraldaj.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 811428
+      asset_id: 118748
+      name: c69.bin
+      size: 16384
+      blob_id: 17229
+    - id: 811429
+      asset_id: 118748
+      name: em1-ep0lb.6c
+      size: 524288
+      blob_id: 16689
+    - id: 811430
+      asset_id: 118748
+      name: em1-ep0ub.6f
+      size: 524288
+      blob_id: 16690
+    - id: 811431
+      asset_id: 118748
+      name: em1-ep1l.7c
+      size: 524288
+      blob_id: 16687
+    - id: 811432
+      asset_id: 118748
+      name: em1-ep1u.7f
+      size: 524288
+      blob_id: 16688
+  - asset:
+      id: 120259
+      kind: 3
+      kind_id: 83402
+      type: 1
+      name: emeraldaj.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.259
+    entries:
+    - id: 859756
+      asset_id: 120259
+      name: em1-ep0lb.6c
+      size: 524288
+      blob_id: 16689
+    - id: 859757
+      asset_id: 120259
+      name: em1-ep0ub.6f
+      size: 524288
+      blob_id: 16690
+    - id: 859758
+      asset_id: 120259
+      name: em1-ep1l.7c
+      size: 524288
+      blob_id: 16687
+    - id: 859759
+      asset_id: 120259
+      name: em1-ep1u.7f
+      size: 524288
+      blob_id: 16688
+- release:
+    id: 83403
+    game_id: 1531
+    description: ""
+    release_date: 19930000
+  names:
+  - id: 209534
+    kind: 3
+    kind_id: 83403
+    language: 1
+    name: Emeraldia (Japan Version B)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 98318
+      kind: 3
+      kind_id: 83403
+      type: 1
+      name: emeraldajb.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 596251
+      asset_id: 98318
+      name: em1-ep0lb.6c
+      size: 524288
+      blob_id: 16689
+    - id: 596252
+      asset_id: 98318
+      name: em1-ep0ub.6f
+      size: 524288
+      blob_id: 16690
+    - id: 596253
+      asset_id: 98318
+      name: em1-ep1l.7c
+      size: 524288
+      blob_id: 16687
+    - id: 596254
+      asset_id: 98318
+      name: em1-ep1u.7f
+      size: 524288
+      blob_id: 16688
+- release:
+    id: 83404
+    game_id: 1531
+    description: ""
+    release_date: 19930000
+  names:
+  - id: 209535
+    kind: 3
+    kind_id: 83404
+    language: 1
+    name: Emeraldia (Japan Version D)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 98319
+      kind: 3
+      kind_id: 83404
+      type: 1
+      name: emeraldajd.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 596255
+      asset_id: 98319
+      name: em1-ep0ld.6c
+      size: 524288
+      blob_id: 214604
+    - id: 596256
+      asset_id: 98319
+      name: em1-ep0ud.6f
+      size: 524288
+      blob_id: 214605
+    - id: 596257
+      asset_id: 98319
+      name: em1-ep1l.7c
+      size: 524288
+      blob_id: 16687
+    - id: 596258
+      asset_id: 98319
+      name: em1-ep1u.7f
+      size: 524288
+      blob_id: 16688
+- release:
+    id: 105056
+    game_id: 1531
+    description: ""
+    release_date: 20220000
+  names:
+  - id: 240032
+    kind: 3
+    kind_id: 105056
+    language: 1
+    name: Emeraldia (Bankbank New Rotate Hack)
+    source: fbneo
+  release_publishers: []
+  assets:
+  - asset:
+      id: 118747
+      kind: 3
+      kind_id: 105056
+      type: 1
+      name: emeraldah.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 811423
+      asset_id: 118747
+      name: c70.bin
+      size: 16384
+      blob_id: 298477
+    - id: 811424
+      asset_id: 118747
+      name: em1-ep0l.6c
+      size: 524288
+      blob_id: 298478
+    - id: 811425
+      asset_id: 118747
+      name: em1-ep0u.6f
+      size: 524288
+      blob_id: 298479
+    - id: 811426
+      asset_id: 118747
+      name: em1-ep1l.7c
+      size: 524288
+      blob_id: 214600
+    - id: 811427
+      asset_id: 118747
+      name: em1-ep1u.7f
+      size: 524288
+      blob_id: 214601
+- release:
+    id: 105057
+    game_id: 1531
+    description: ""
+    release_date: 19930000
+  names:
+  - id: 240033
+    kind: 3
+    kind_id: 105057
+    language: 1
+    name: Emeraldia (Japan)
+    source: fbneo
+  release_publishers: []
+  assets:
+  - asset:
+      id: 118749
+      kind: 3
+      kind_id: 105057
+      type: 1
+      name: emeraldaja.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 811433
+      asset_id: 118749
+      name: c69.bin
+      size: 16384
+      blob_id: 17229
+    - id: 811434
+      asset_id: 118749
+      name: em1-ep0l.6c
+      size: 524288
+      blob_id: 214602
+    - id: 811435
+      asset_id: 118749
+      name: em1-ep0u.6f
+      size: 524288
+      blob_id: 214603
+    - id: 811436
+      asset_id: 118749
+      name: em1-ep1l.7c
+      size: 524288
+      blob_id: 16687
+    - id: 811437
+      asset_id: 118749
+      name: em1-ep1u.7c
+      size: 524288
+      blob_id: 16688
+  - asset:
+      id: 120260
+      kind: 3
+      kind_id: 105057
+      type: 1
+      name: emeraldaja.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.259
+    entries:
+    - id: 859760
+      asset_id: 120260
+      name: em1-ep0l.6c
+      size: 524288
+      blob_id: 214602
+    - id: 859761
+      asset_id: 120260
+      name: em1-ep0u.6f
+      size: 524288
+      blob_id: 214603
+    - id: 859762
+      asset_id: 120260
+      name: em1-ep1l.7c
+      size: 524288
+      blob_id: 16687
+    - id: 859763
+      asset_id: 120260
+      name: em1-ep1u.7c
+      size: 524288
+      blob_id: 16688

@@ -174,6 +174,103 @@ releases:
       blob_id: 85495
       debug: arcade/wheel/backfirt.png
     entries: []
+  - asset:
+      id: 94530
+      kind: 3
+      kind_id: 758
+      type: 1
+      name: backfirt.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 547914
+      asset_id: 94530
+      name: 1.6b
+      size: 32768
+      blob_id: 204844
+    - id: 547915
+      asset_id: 94530
+      name: 10.1p
+      size: 65536
+      blob_id: 4077
+    - id: 547916
+      asset_id: 94530
+      name: 11.2p
+      size: 65536
+      blob_id: 4078
+    - id: 547917
+      asset_id: 94530
+      name: 12.3p
+      size: 65536
+      blob_id: 7542
+    - id: 547918
+      asset_id: 94530
+      name: 13.4p
+      size: 65536
+      blob_id: 7541
+    - id: 547919
+      asset_id: 94530
+      name: 14.1s
+      size: 65536
+      blob_id: 4081
+    - id: 547920
+      asset_id: 94530
+      name: 15.2s
+      size: 65536
+      blob_id: 4082
+    - id: 547921
+      asset_id: 94530
+      name: 16.3s
+      size: 65536
+      blob_id: 7544
+    - id: 547922
+      asset_id: 94530
+      name: 17.4s
+      size: 65536
+      blob_id: 204845
+    - id: 547923
+      asset_id: 94530
+      name: 2.3j
+      size: 32768
+      blob_id: 7546
+    - id: 547924
+      asset_id: 94530
+      name: 3.5j
+      size: 32768
+      blob_id: 204846
+    - id: 547925
+      asset_id: 94530
+      name: 4.5s
+      size: 65536
+      blob_id: 7548
+    - id: 547926
+      asset_id: 94530
+      name: 5.6s
+      size: 65536
+      blob_id: 7547
+    - id: 547927
+      asset_id: 94530
+      name: 6.2c
+      size: 65536
+      blob_id: 7549
+    - id: 547928
+      asset_id: 94530
+      name: 7.2d
+      size: 65536
+      blob_id: 7550
+    - id: 547929
+      asset_id: 94530
+      name: 8.2e
+      size: 65536
+      blob_id: 7551
+    - id: 547930
+      asset_id: 94530
+      name: 9.2h
+      size: 65536
+      blob_id: 7552
 - release:
     id: 37569
     game_id: 758
@@ -186,102 +283,217 @@ releases:
     language: 1
     name: Back Fire (Tecmo)
     source: mame
-  release_publishers: []
+  - id: 183988
+    kind: 3
+    kind_id: 37569
+    language: 1
+    name: backfirt
+    source: ""
+  - id: 183989
+    kind: 3
+    kind_id: 37569
+    language: 2
+    name: 烽火佳人 (Tecmo, D版)
+    source: trimui
+  release_publishers:
+  - release_id: 37569
+    publisher_id: 14
   assets:
   - asset:
-      id: 50639
+      id: 90691
       kind: 3
       kind_id: 37569
       type: 1
       name: backfirt.zip
       description: ""
       format: 2
+      size: 318498
+      blob_id: 0
+      debug: backfirt.zip
+    entries:
+    - id: 468059
+      asset_id: 90691
+      name: b10-p3.bin
+      size: 65536
+      blob_id: 7541
+    - id: 468060
+      asset_id: 90691
+      name: b11-p2.bin
+      size: 65536
+      blob_id: 7542
+    - id: 468061
+      asset_id: 90691
+      name: b12-p2.bin
+      size: 65536
+      blob_id: 4078
+    - id: 468062
+      asset_id: 90691
+      name: b13-p1.bin
+      size: 65536
+      blob_id: 4077
+    - id: 468063
+      asset_id: 90691
+      name: b14-s3.bin
+      size: 32768
+      blob_id: 7543
+    - id: 468064
+      asset_id: 90691
+      name: b15-s2.bin
+      size: 65536
+      blob_id: 7544
+    - id: 468065
+      asset_id: 90691
+      name: b16-s2.bin
+      size: 65536
+      blob_id: 4082
+    - id: 468066
+      asset_id: 90691
+      name: b17-s1.bin
+      size: 65536
+      blob_id: 4081
+    - id: 468067
+      asset_id: 90691
+      name: b2-e10.bin
+      size: 32768
+      blob_id: 7545
+    - id: 468068
+      asset_id: 90691
+      name: b3-c10.bin
+      size: 32768
+      blob_id: 7546
+    - id: 468069
+      asset_id: 90691
+      name: b4-f3.bin
+      size: 65536
+      blob_id: 7547
+    - id: 468070
+      asset_id: 90691
+      name: b5-e3.bin
+      size: 65536
+      blob_id: 7548
+    - id: 468071
+      asset_id: 90691
+      name: b6-c2.bin
+      size: 65536
+      blob_id: 7549
+    - id: 468072
+      asset_id: 90691
+      name: b7-d2.bin
+      size: 65536
+      blob_id: 7550
+    - id: 468073
+      asset_id: 90691
+      name: b8-e2.bin
+      size: 65536
+      blob_id: 7551
+    - id: 468074
+      asset_id: 90691
+      name: b9-h2.bin
+      size: 65536
+      blob_id: 7552
+- release:
+    id: 79919
+    game_id: 758
+    description: ""
+    release_date: 19880000
+  names:
+  - id: 204197
+    kind: 3
+    kind_id: 79919
+    language: 1
+    name: Back Fire (Tecmo, bootleg)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 94531
+      kind: 3
+      kind_id: 79919
+      type: 1
+      name: backfirtb.zip
+      description: ""
+      format: 2
       size: 0
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 109155
-      asset_id: 50639
-      name: 1.6b
-      size: 32768
-      blob_id: 97623
-    - id: 109156
-      asset_id: 50639
-      name: 10.1p
-      size: 65536
-      blob_id: 4077
-    - id: 109157
-      asset_id: 50639
-      name: 11.2p
-      size: 65536
-      blob_id: 4078
-    - id: 109158
-      asset_id: 50639
-      name: 12.3p
-      size: 65536
-      blob_id: 7542
-    - id: 109159
-      asset_id: 50639
-      name: 13.4p
+    - id: 547931
+      asset_id: 94531
+      name: b10-p3.bin
       size: 65536
       blob_id: 7541
-    - id: 109160
-      asset_id: 50639
-      name: 14.1s
+    - id: 547932
+      asset_id: 94531
+      name: b11-p2.bin
       size: 65536
-      blob_id: 4081
-    - id: 109161
-      asset_id: 50639
-      name: 15.2s
+      blob_id: 7542
+    - id: 547933
+      asset_id: 94531
+      name: b12-p2.bin
       size: 65536
-      blob_id: 4082
-    - id: 109162
-      asset_id: 50639
-      name: 16.3s
+      blob_id: 4078
+    - id: 547934
+      asset_id: 94531
+      name: b13-p1.bin
+      size: 65536
+      blob_id: 4077
+    - id: 547935
+      asset_id: 94531
+      name: b14-s3.bin
+      size: 32768
+      blob_id: 7543
+    - id: 547936
+      asset_id: 94531
+      name: b15-s2.bin
       size: 65536
       blob_id: 7544
-    - id: 109163
-      asset_id: 50639
-      name: 17.4s
+    - id: 547937
+      asset_id: 94531
+      name: b16-s2.bin
       size: 65536
-      blob_id: 97624
-    - id: 109164
-      asset_id: 50639
-      name: 2.3j
+      blob_id: 4082
+    - id: 547938
+      asset_id: 94531
+      name: b17-s1.bin
+      size: 65536
+      blob_id: 4081
+    - id: 547939
+      asset_id: 94531
+      name: b2-e10.bin
+      size: 32768
+      blob_id: 7545
+    - id: 547940
+      asset_id: 94531
+      name: b3-c10.bin
       size: 32768
       blob_id: 7546
-    - id: 109165
-      asset_id: 50639
-      name: 3.5j
-      size: 32768
-      blob_id: 97625
-    - id: 109166
-      asset_id: 50639
-      name: 4.5s
-      size: 65536
-      blob_id: 7548
-    - id: 109167
-      asset_id: 50639
-      name: 5.6s
+    - id: 547941
+      asset_id: 94531
+      name: b4-f3.bin
       size: 65536
       blob_id: 7547
-    - id: 109168
-      asset_id: 50639
-      name: 6.2c
+    - id: 547942
+      asset_id: 94531
+      name: b5-e3.bin
+      size: 65536
+      blob_id: 7548
+    - id: 547943
+      asset_id: 94531
+      name: b6-c2.bin
       size: 65536
       blob_id: 7549
-    - id: 109169
-      asset_id: 50639
-      name: 7.2d
+    - id: 547944
+      asset_id: 94531
+      name: b7-d2.bin
       size: 65536
       blob_id: 7550
-    - id: 109170
-      asset_id: 50639
-      name: 8.2e
+    - id: 547945
+      asset_id: 94531
+      name: b8-e2.bin
       size: 65536
       blob_id: 7551
-    - id: 109171
-      asset_id: 50639
-      name: 9.2h
+    - id: 547946
+      asset_id: 94531
+      name: b9-h2.bin
       size: 65536
       blob_id: 7552

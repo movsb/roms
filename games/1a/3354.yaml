@@ -10,6 +10,12 @@ names:
   language: 1
   name: rezon
   source: ""
+- id: 241809
+  kind: 2
+  kind_id: 3354
+  language: 1
+  name: Rezon (Taito)
+  source: fbneo
 game_developers:
 - game_id: 3354
   developer_id: 686
@@ -133,6 +139,63 @@ releases:
       blob_id: 90914
       debug: arcade/wheel/rezon.png
     entries: []
+  - asset:
+      id: 109147
+      kind: 3
+      kind_id: 3354
+      type: 1
+      name: rezon.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 714475
+      asset_id: 109147
+      name: rezon_1_p.u4
+      size: 131072
+      blob_id: 35975
+    - id: 714476
+      asset_id: 109147
+      name: us001001.u3
+      size: 131072
+      blob_id: 35966
+    - id: 714477
+      asset_id: 109147
+      name: us001003.102
+      size: 131072
+      blob_id: 35968
+    - id: 714478
+      asset_id: 109147
+      name: us001004.103
+      size: 131072
+      blob_id: 35969
+    - id: 714479
+      asset_id: 109147
+      name: us001005.u63
+      size: 524288
+      blob_id: 35970
+    - id: 714480
+      asset_id: 109147
+      name: us001006.u64
+      size: 524288
+      blob_id: 35971
+    - id: 714481
+      asset_id: 109147
+      name: us001007.u66
+      size: 524288
+      blob_id: 35972
+    - id: 714482
+      asset_id: 109147
+      name: us001008.u68
+      size: 524288
+      blob_id: 35973
+    - id: 714483
+      asset_id: 109147
+      name: us001009.u70
+      size: 1048576
+      blob_id: 35974
 - release:
     id: 3355
     game_id: 3354
@@ -227,62 +290,218 @@ releases:
     language: 1
     name: Rezon
     source: mame
-  release_publishers: []
+  - id: 184096
+    kind: 3
+    kind_id: 63469
+    language: 1
+    name: rezon
+    source: ""
+  - id: 184097
+    kind: 3
+    kind_id: 63469
+    language: 2
+    name: 雷杀之星
+    source: trimui
+  release_publishers:
+  - release_id: 63469
+    publisher_id: 585
   assets:
   - asset:
-      id: 76539
+      id: 90693
       kind: 3
       kind_id: 63469
       type: 1
       name: rezon.zip
       description: ""
       format: 2
+      size: 1252383
+      blob_id: 0
+      debug: rezon.zip
+    entries:
+    - id: 468098
+      asset_id: 90693
+      name: us001001.u3
+      size: 131072
+      blob_id: 35966
+    - id: 468099
+      asset_id: 90693
+      name: us001002.u4
+      size: 131072
+      blob_id: 35967
+    - id: 468100
+      asset_id: 90693
+      name: us001003.102
+      size: 131072
+      blob_id: 35968
+    - id: 468101
+      asset_id: 90693
+      name: us001004.103
+      size: 131072
+      blob_id: 35969
+    - id: 468102
+      asset_id: 90693
+      name: us001005.u63
+      size: 524288
+      blob_id: 35970
+    - id: 468103
+      asset_id: 90693
+      name: us001006.u64
+      size: 524288
+      blob_id: 35971
+    - id: 468104
+      asset_id: 90693
+      name: us001007.u66
+      size: 524288
+      blob_id: 35972
+    - id: 468105
+      asset_id: 90693
+      name: us001008.u68
+      size: 524288
+      blob_id: 35973
+    - id: 468106
+      asset_id: 90693
+      name: us001009.u70
+      size: 1048576
+      blob_id: 35974
+- release:
+    id: 93573
+    game_id: 3354
+    description: ""
+    release_date: 19910000
+  names:
+  - id: 225029
+    kind: 3
+    kind_id: 93573
+    language: 1
+    name: Rezon (earlier)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 109148
+      kind: 3
+      kind_id: 93573
+      type: 1
+      name: rezono.zip
+      description: ""
+      format: 2
       size: 0
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 321457
-      asset_id: 76539
-      name: rezon_1_p.u4
-      size: 131072
-      blob_id: 35975
-    - id: 321458
-      asset_id: 76539
+    - id: 714484
+      asset_id: 109148
       name: us001001.u3
       size: 131072
       blob_id: 35966
-    - id: 321459
-      asset_id: 76539
+    - id: 714485
+      asset_id: 109148
+      name: us001002.u4
+      size: 131072
+      blob_id: 35967
+    - id: 714486
+      asset_id: 109148
       name: us001003.102
       size: 131072
       blob_id: 35968
-    - id: 321460
-      asset_id: 76539
+    - id: 714487
+      asset_id: 109148
       name: us001004.103
       size: 131072
       blob_id: 35969
-    - id: 321461
-      asset_id: 76539
+    - id: 714488
+      asset_id: 109148
       name: us001005.u63
       size: 524288
       blob_id: 35970
-    - id: 321462
-      asset_id: 76539
+    - id: 714489
+      asset_id: 109148
       name: us001006.u64
       size: 524288
       blob_id: 35971
-    - id: 321463
-      asset_id: 76539
+    - id: 714490
+      asset_id: 109148
       name: us001007.u66
       size: 524288
       blob_id: 35972
-    - id: 321464
-      asset_id: 76539
+    - id: 714491
+      asset_id: 109148
       name: us001008.u68
       size: 524288
       blob_id: 35973
-    - id: 321465
-      asset_id: 76539
+    - id: 714492
+      asset_id: 109148
+      name: us001009.u70
+      size: 1048576
+      blob_id: 35974
+- release:
+    id: 105127
+    game_id: 3354
+    description: ""
+    release_date: 19920000
+  names:
+  - id: 240103
+    kind: 3
+    kind_id: 105127
+    language: 1
+    name: Rezon (Taito)
+    source: fbneo
+  release_publishers: []
+  assets:
+  - asset:
+      id: 119362
+      kind: 3
+      kind_id: 105127
+      type: 1
+      name: rezont.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 828867
+      asset_id: 119362
+      name: rezon_1_p.u4
+      size: 131072
+      blob_id: 35975
+    - id: 828868
+      asset_id: 119362
+      name: us001001.u3
+      size: 131072
+      blob_id: 35966
+    - id: 828869
+      asset_id: 119362
+      name: us001003.102
+      size: 131072
+      blob_id: 35968
+    - id: 828870
+      asset_id: 119362
+      name: us001004.103
+      size: 131072
+      blob_id: 35969
+    - id: 828871
+      asset_id: 119362
+      name: us001005.u63
+      size: 524288
+      blob_id: 35970
+    - id: 828872
+      asset_id: 119362
+      name: us001006.u64
+      size: 524288
+      blob_id: 35971
+    - id: 828873
+      asset_id: 119362
+      name: us001007.u66
+      size: 524288
+      blob_id: 35972
+    - id: 828874
+      asset_id: 119362
+      name: us001008.u68
+      size: 524288
+      blob_id: 35973
+    - id: 828875
+      asset_id: 119362
       name: us001009.u70
       size: 1048576
       blob_id: 35974

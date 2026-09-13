@@ -16,6 +16,12 @@ names:
   language: 2
   name: "重子战机 - 未来攻略 (第一套)"
   source: trimui
+- id: 188301
+  kind: 2
+  kind_id: 781
+  language: 1
+  name: "Baryon - Future Assault (set 2)"
+  source: mame
 game_developers: []
 game_genres: []
 assets: []
@@ -132,24 +138,10 @@ releases:
       name: mcu.bin
       size: 8192
       blob_id: 7831
-- release:
-    id: 37679
-    game_id: 781
-    description: ""
-    release_date: 19970000
-  names:
-  - id: 106469
-    kind: 3
-    kind_id: 37679
-    language: 1
-    name: "Baryon - Future Assault (set 1)"
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 50749
+      id: 94634
       kind: 3
-      kind_id: 37679
+      kind_id: 781
       type: 1
       name: baryon.zip
       description: ""
@@ -158,63 +150,149 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 110091
-      asset_id: 50749
+    - id: 548777
+      asset_id: 94634
       name: 10_semicom
       size: 2097152
       blob_id: 7816
-    - id: 110092
-      asset_id: 50749
+    - id: 548778
+      asset_id: 94634
       name: 11_semicom
       size: 2097152
       blob_id: 7817
-    - id: 110093
-      asset_id: 50749
+    - id: 548779
+      asset_id: 94634
       name: 1_semicom
       size: 524288
       blob_id: 7818
-    - id: 110094
-      asset_id: 50749
+    - id: 548780
+      asset_id: 94634
       name: 2_semicom
       size: 262144
       blob_id: 7819
-    - id: 110095
-      asset_id: 50749
+    - id: 548781
+      asset_id: 94634
       name: 3_semicom
       size: 262144
       blob_id: 7820
-    - id: 110096
-      asset_id: 50749
+    - id: 548782
+      asset_id: 94634
       name: 4_semicom
       size: 262144
       blob_id: 7821
-    - id: 110097
-      asset_id: 50749
+    - id: 548783
+      asset_id: 94634
       name: 5_semicom
       size: 262144
       blob_id: 7822
-    - id: 110098
-      asset_id: 50749
+    - id: 548784
+      asset_id: 94634
       name: 6_semicom
       size: 131072
       blob_id: 7823
-    - id: 110099
-      asset_id: 50749
+    - id: 548785
+      asset_id: 94634
       name: 7_semicom
       size: 131072
       blob_id: 7824
-    - id: 110100
-      asset_id: 50749
+    - id: 548786
+      asset_id: 94634
       name: 8_semicom
       size: 2097152
       blob_id: 7825
-    - id: 110101
-      asset_id: 50749
+    - id: 548787
+      asset_id: 94634
       name: 9_semicom
       size: 65536
       blob_id: 7826
-    - id: 110102
-      asset_id: 50749
+    - id: 548788
+      asset_id: 94634
+      name: mcu.bin
+      size: 8192
+      blob_id: 7831
+- release:
+    id: 80012
+    game_id: 781
+    description: ""
+    release_date: 19970000
+  names:
+  - id: 204354
+    kind: 3
+    kind_id: 80012
+    language: 1
+    name: "Baryon - Future Assault (set 2)"
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 94635
+      kind: 3
+      kind_id: 80012
+      type: 1
+      name: baryona.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 548789
+      asset_id: 94635
+      name: 1.bin
+      size: 524288
+      blob_id: 7818
+    - id: 548790
+      asset_id: 94635
+      name: 10.bin
+      size: 131072
+      blob_id: 7824
+    - id: 548791
+      asset_id: 94635
+      name: 11.bin
+      size: 2097152
+      blob_id: 7817
+    - id: 548792
+      asset_id: 94635
+      name: 2.bin
+      size: 2097152
+      blob_id: 7825
+    - id: 548793
+      asset_id: 94635
+      name: 3.bin
+      size: 262144
+      blob_id: 7827
+    - id: 548794
+      asset_id: 94635
+      name: 4.bin
+      size: 262144
+      blob_id: 7828
+    - id: 548795
+      asset_id: 94635
+      name: 5.bin
+      size: 262144
+      blob_id: 7829
+    - id: 548796
+      asset_id: 94635
+      name: 6.bin
+      size: 262144
+      blob_id: 7830
+    - id: 548797
+      asset_id: 94635
+      name: 7.bin
+      size: 65536
+      blob_id: 7826
+    - id: 548798
+      asset_id: 94635
+      name: 8.bin
+      size: 131072
+      blob_id: 7823
+    - id: 548799
+      asset_id: 94635
+      name: 9.bin
+      size: 2097152
+      blob_id: 7816
+    - id: 548800
+      asset_id: 94635
       name: mcu.bin
       size: 8192
       blob_id: 7831

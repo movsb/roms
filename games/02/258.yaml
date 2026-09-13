@@ -16,6 +16,30 @@ names:
   language: 2
   name: 跳跳车
   source: trimui
+- id: 192201
+  kind: 2
+  kind_id: 258
+  language: 1
+  name: Jump Bug (bootleg, set 1)
+  source: mame
+- id: 192202
+  kind: 2
+  kind_id: 258
+  language: 1
+  name: Jump Bug (bootleg, set 3)
+  source: mame
+- id: 192203
+  kind: 2
+  kind_id: 258
+  language: 1
+  name: Jump Bug (bootleg, set 2)
+  source: mame
+- id: 194012
+  kind: 2
+  kind_id: 258
+  language: 1
+  name: Oli Bug (bootleg of Jump Bug)
+  source: mame
 game_developers:
 - game_id: 258
   developer_id: 691
@@ -169,24 +193,10 @@ releases:
       blob_id: 89809
       debug: arcade/wheel/jumpbug.png
     entries: []
-- release:
-    id: 48640
-    game_id: 258
-    description: ""
-    release_date: 19810000
-  names:
-  - id: 127874
-    kind: 3
-    kind_id: 48640
-    language: 1
-    name: Jump Bug
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 61710
+      id: 102194
       kind: 3
-      kind_id: 48640
+      kind_id: 258
       type: 1
       name: jumpbug.zip
       description: ""
@@ -195,73 +205,442 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 212878
-      asset_id: 61710
+    - id: 638981
+      asset_id: 102194
       name: jb1
       size: 4096
       blob_id: 2501
-    - id: 212879
-      asset_id: 61710
+    - id: 638982
+      asset_id: 102194
       name: jb2
       size: 4096
       blob_id: 2502
-    - id: 212880
-      asset_id: 61710
+    - id: 638983
+      asset_id: 102194
       name: jb3
       size: 4096
       blob_id: 2503
-    - id: 212881
-      asset_id: 61710
+    - id: 638984
+      asset_id: 102194
       name: jb4
       size: 4096
       blob_id: 2504
-    - id: 212882
-      asset_id: 61710
+    - id: 638985
+      asset_id: 102194
       name: jb5
       size: 4096
       blob_id: 2505
-    - id: 212883
-      asset_id: 61710
+    - id: 638986
+      asset_id: 102194
       name: jb6
       size: 4096
       blob_id: 2506
-    - id: 212884
-      asset_id: 61710
+    - id: 638987
+      asset_id: 102194
       name: jb7
       size: 2048
-      blob_id: 130658
-    - id: 212885
-      asset_id: 61710
+      blob_id: 226544
+    - id: 638988
+      asset_id: 102194
       name: jbi
       size: 2048
       blob_id: 2508
-    - id: 212886
-      asset_id: 61710
+    - id: 638989
+      asset_id: 102194
       name: jbj
       size: 2048
       blob_id: 2509
-    - id: 212887
-      asset_id: 61710
+    - id: 638990
+      asset_id: 102194
       name: jbk
       size: 2048
       blob_id: 2510
-    - id: 212888
-      asset_id: 61710
+    - id: 638991
+      asset_id: 102194
       name: jbl
       size: 2048
       blob_id: 2511
-    - id: 212889
-      asset_id: 61710
+    - id: 638992
+      asset_id: 102194
       name: jbm
       size: 2048
       blob_id: 2512
-    - id: 212890
-      asset_id: 61710
+    - id: 638993
+      asset_id: 102194
       name: jbn
       size: 2048
       blob_id: 2513
-    - id: 212891
-      asset_id: 61710
+    - id: 638994
+      asset_id: 102194
       name: l06_prom.bin
       size: 32
       blob_id: 2421
+- release:
+    id: 87003
+    game_id: 258
+    description: ""
+    release_date: 19810000
+  names:
+  - id: 215064
+    kind: 3
+    kind_id: 87003
+    language: 1
+    name: Jump Bug (bootleg, set 1)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 102195
+      kind: 3
+      kind_id: 87003
+      type: 1
+      name: jumpbugb.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 638995
+      asset_id: 102195
+      name: jb1
+      size: 4096
+      blob_id: 2501
+    - id: 638996
+      asset_id: 102195
+      name: jb2
+      size: 4096
+      blob_id: 2502
+    - id: 638997
+      asset_id: 102195
+      name: jb3b
+      size: 4096
+      blob_id: 250992
+    - id: 638998
+      asset_id: 102195
+      name: jb4
+      size: 4096
+      blob_id: 2504
+    - id: 638999
+      asset_id: 102195
+      name: jb5b
+      size: 4096
+      blob_id: 250993
+    - id: 639000
+      asset_id: 102195
+      name: jb6b
+      size: 4096
+      blob_id: 250994
+    - id: 639001
+      asset_id: 102195
+      name: jb7b
+      size: 2048
+      blob_id: 250995
+    - id: 639002
+      asset_id: 102195
+      name: jbi
+      size: 2048
+      blob_id: 2508
+    - id: 639003
+      asset_id: 102195
+      name: jbj
+      size: 2048
+      blob_id: 2509
+    - id: 639004
+      asset_id: 102195
+      name: jbk
+      size: 2048
+      blob_id: 2510
+    - id: 639005
+      asset_id: 102195
+      name: jbl
+      size: 2048
+      blob_id: 2511
+    - id: 639006
+      asset_id: 102195
+      name: jbm
+      size: 2048
+      blob_id: 2512
+    - id: 639007
+      asset_id: 102195
+      name: jbn
+      size: 2048
+      blob_id: 2513
+    - id: 639008
+      asset_id: 102195
+      name: l06_prom.bin
+      size: 32
+      blob_id: 2421
+- release:
+    id: 87004
+    game_id: 258
+    description: ""
+    release_date: 19820000
+  names:
+  - id: 215065
+    kind: 3
+    kind_id: 87004
+    language: 1
+    name: Jump Bug (bootleg, set 3)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 102196
+      kind: 3
+      kind_id: 87004
+      type: 1
+      name: jumpbugbc.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 639009
+      asset_id: 102196
+      name: 74s288.bin
+      size: 32
+      blob_id: 2421
+    - id: 639010
+      asset_id: 102196
+      name: c1_2716_sub.bin
+      size: 2048
+      blob_id: 2511
+    - id: 639011
+      asset_id: 102196
+      name: c2_2716_sub.bin
+      size: 2048
+      blob_id: 2508
+    - id: 639012
+      asset_id: 102196
+      name: c3_2532_sub.bin
+      size: 4096
+      blob_id: 250996
+    - id: 639013
+      asset_id: 102196
+      name: c4_2532_sub.bin
+      size: 4096
+      blob_id: 250997
+    - id: 639014
+      asset_id: 102196
+      name: j1_2732_e0572.a5
+      size: 4096
+      blob_id: 250998
+    - id: 639015
+      asset_id: 102196
+      name: j2_2732_e0572.a4
+      size: 4096
+      blob_id: 250999
+    - id: 639016
+      asset_id: 102196
+      name: j3_2732_e0572.a3
+      size: 4096
+      blob_id: 251000
+    - id: 639017
+      asset_id: 102196
+      name: j4_2732_e0572.a2
+      size: 4096
+      blob_id: 251001
+    - id: 639018
+      asset_id: 102196
+      name: j5_2732_e0572.a1
+      size: 4096
+      blob_id: 251002
+    - id: 639019
+      asset_id: 102196
+      name: j6_2732_e0572.b1
+      size: 4096
+      blob_id: 251003
+    - id: 639020
+      asset_id: 102196
+      name: j7_2716_e0572.b2
+      size: 2048
+      blob_id: 251004
+    - id: 639021
+      asset_id: 102196
+      name: j8_2716_e0572.b3
+      size: 2048
+      blob_id: 251005
+- release:
+    id: 87005
+    game_id: 258
+    description: ""
+    release_date: 19820000
+  names:
+  - id: 215066
+    kind: 3
+    kind_id: 87005
+    language: 1
+    name: Jump Bug (bootleg, set 2)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 102197
+      kind: 3
+      kind_id: 87005
+      type: 1
+      name: jumpbugbrf.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 639022
+      asset_id: 102197
+      name: 82s123.bin
+      size: 32
+      blob_id: 901
+    - id: 639023
+      asset_id: 102197
+      name: bg1-2732.bin
+      size: 4096
+      blob_id: 2501
+    - id: 639024
+      asset_id: 102197
+      name: bg2-2732.bin
+      size: 4096
+      blob_id: 2502
+    - id: 639025
+      asset_id: 102197
+      name: bg3-2732.bin
+      size: 4096
+      blob_id: 250992
+    - id: 639026
+      asset_id: 102197
+      name: bg4-2732.bin
+      size: 4096
+      blob_id: 2504
+    - id: 639027
+      asset_id: 102197
+      name: bg5-2732.bin
+      size: 4096
+      blob_id: 250993
+    - id: 639028
+      asset_id: 102197
+      name: bg6-2732.bin
+      size: 4096
+      blob_id: 250994
+    - id: 639029
+      asset_id: 102197
+      name: bg7-2732.bin
+      size: 4096
+      blob_id: 251006
+    - id: 639030
+      asset_id: 102197
+      name: jbi
+      size: 2048
+      blob_id: 2508
+    - id: 639031
+      asset_id: 102197
+      name: jbj
+      size: 2048
+      blob_id: 2509
+    - id: 639032
+      asset_id: 102197
+      name: jbk
+      size: 2048
+      blob_id: 2510
+    - id: 639033
+      asset_id: 102197
+      name: jbl
+      size: 2048
+      blob_id: 2511
+    - id: 639034
+      asset_id: 102197
+      name: jbm
+      size: 2048
+      blob_id: 2512
+    - id: 639035
+      asset_id: 102197
+      name: jbn
+      size: 2048
+      blob_id: 2513
+- release:
+    id: 90539
+    game_id: 258
+    description: ""
+    release_date: 19820000
+  names:
+  - id: 220543
+    kind: 3
+    kind_id: 90539
+    language: 1
+    name: Oli Bug (bootleg of Jump Bug)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 105960
+      kind: 3
+      kind_id: 90539
+      type: 1
+      name: olibug.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 678831
+      asset_id: 105960
+      name: b1.bin
+      size: 4096
+      blob_id: 2501
+    - id: 678832
+      asset_id: 105960
+      name: b10.bin
+      size: 2048
+      blob_id: 2511
+    - id: 678833
+      asset_id: 105960
+      name: b11.bin
+      size: 2048
+      blob_id: 261869
+    - id: 678834
+      asset_id: 105960
+      name: b2.bin
+      size: 4096
+      blob_id: 2502
+    - id: 678835
+      asset_id: 105960
+      name: b3.bin
+      size: 4096
+      blob_id: 250992
+    - id: 678836
+      asset_id: 105960
+      name: b4.bin
+      size: 4096
+      blob_id: 2504
+    - id: 678837
+      asset_id: 105960
+      name: b5.bin
+      size: 4096
+      blob_id: 250993
+    - id: 678838
+      asset_id: 105960
+      name: b6.bin
+      size: 4096
+      blob_id: 261870
+    - id: 678839
+      asset_id: 105960
+      name: b7.bin
+      size: 4096
+      blob_id: 261871
+    - id: 678840
+      asset_id: 105960
+      name: b8.bin
+      size: 4096
+      blob_id: 261872
+    - id: 678841
+      asset_id: 105960
+      name: b9.bin
+      size: 4096
+      blob_id: 261873
+    - id: 678842
+      asset_id: 105960
+      name: m866l_im5610.6l
+      size: 32
+      blob_id: 218544

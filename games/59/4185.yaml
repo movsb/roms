@@ -16,6 +16,48 @@ names:
   language: 2
   name: 铁拳2
   source: trimui
+- id: 199998
+  kind: 2
+  kind_id: 4185
+  language: 1
+  name: Tekken 2 (World, TES2/VER.A)
+  source: mame
+- id: 199999
+  kind: 2
+  kind_id: 4185
+  language: 1
+  name: Tekken 2 Ver.B (World, TES2/VER.B)
+  source: mame
+- id: 200000
+  kind: 2
+  kind_id: 4185
+  language: 1
+  name: Tekken 2 Ver.B (Japan, TES1/VER.B)
+  source: mame
+- id: 200001
+  kind: 2
+  kind_id: 4185
+  language: 1
+  name: Tekken 2 Ver.B (Japan, TES1/VER.C)
+  source: mame
+- id: 200002
+  kind: 2
+  kind_id: 4185
+  language: 1
+  name: Tekken 2 (US, TES3/VER.A)
+  source: mame
+- id: 200003
+  kind: 2
+  kind_id: 4185
+  language: 1
+  name: Tekken 2 Ver.B (US, TES3/VER.B)
+  source: mame
+- id: 200004
+  kind: 2
+  kind_id: 4185
+  language: 1
+  name: Tekken 2 Ver.B (US, TES3/VER.D)
+  source: mame
 game_developers: []
 game_genres: []
 assets: []
@@ -192,99 +234,843 @@ releases:
       name: tes3verd.2l
       size: 1048576
       blob_id: 44990
-- release:
-    id: 72869
-    game_id: 4185
-    description: ""
-    release_date: 19960000
-  names:
-  - id: 175690
-    kind: 3
-    kind_id: 72869
-    language: 1
-    name: Tekken 2 Ver.B (World, TES2/VER.D)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 85939
+      id: 115320
       kind: 3
-      kind_id: 72869
+      kind_id: 4185
       type: 1
       name: tekken2.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
-      debug: dat:mame:0.289
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/3084588249
     entries:
-    - id: 388761
-      asset_id: 85939
+    - id: 766458
+      asset_id: 115320
       name: tes1rom0l.ic6
       size: 2097152
       blob_id: 44977
-    - id: 388762
-      asset_id: 85939
+    - id: 766459
+      asset_id: 115320
       name: tes1rom0u.ic5
       size: 2097152
       blob_id: 44978
-    - id: 388763
-      asset_id: 85939
+    - id: 766460
+      asset_id: 115320
       name: tes1rom1l.ic8
       size: 2097152
       blob_id: 44979
-    - id: 388764
-      asset_id: 85939
+    - id: 766461
+      asset_id: 115320
       name: tes1rom1u.ic3
       size: 2097152
       blob_id: 44980
-    - id: 388765
-      asset_id: 85939
+    - id: 766462
+      asset_id: 115320
       name: tes1rom2l.ic7
       size: 2097152
       blob_id: 44981
-    - id: 388766
-      asset_id: 85939
+    - id: 766463
+      asset_id: 115320
       name: tes1rom2u.ic4
       size: 2097152
       blob_id: 44982
-    - id: 388767
-      asset_id: 85939
+    - id: 766464
+      asset_id: 115320
       name: tes1rom3l.ic9
       size: 2097152
       blob_id: 44983
-    - id: 388768
-      asset_id: 85939
+    - id: 766465
+      asset_id: 115320
       name: tes1rom3u.ic1
       size: 2097152
       blob_id: 44984
-    - id: 388769
-      asset_id: 85939
+    - id: 766466
+      asset_id: 115320
       name: tes1sprog.6d
       size: 262144
       blob_id: 44985
-    - id: 388770
-      asset_id: 85939
+    - id: 766467
+      asset_id: 115320
       name: tes1verd.2f
       size: 1048576
       blob_id: 44987
-    - id: 388771
-      asset_id: 85939
+    - id: 766468
+      asset_id: 115320
       name: tes1verd.2k
       size: 1048576
       blob_id: 44989
-    - id: 388772
-      asset_id: 85939
+    - id: 766469
+      asset_id: 115320
       name: tes1wave.8k
       size: 4194304
       blob_id: 44986
-    - id: 388773
-      asset_id: 85939
+    - id: 766470
+      asset_id: 115320
       name: tes2verd.2j
       size: 1048576
-      blob_id: 189056
-    - id: 388774
-      asset_id: 85939
+      blob_id: 305855
+    - id: 766471
+      asset_id: 115320
       name: tes2verd.2l
       size: 1048576
-      blob_id: 189057
+      blob_id: 305856
+  - asset:
+      id: 121148
+      kind: 3
+      kind_id: 4185
+      type: 1
+      name: tekken2.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.259
+    entries:
+    - id: 888193
+      asset_id: 121148
+      name: tes1rom0l.ic6
+      size: 2097152
+      blob_id: 44977
+    - id: 888194
+      asset_id: 121148
+      name: tes1rom0u.ic5
+      size: 2097152
+      blob_id: 44978
+    - id: 888195
+      asset_id: 121148
+      name: tes1rom1l.ic8
+      size: 2097152
+      blob_id: 44979
+    - id: 888196
+      asset_id: 121148
+      name: tes1rom1u.ic3
+      size: 2097152
+      blob_id: 44980
+    - id: 888197
+      asset_id: 121148
+      name: tes1rom2l.ic7
+      size: 2097152
+      blob_id: 44981
+    - id: 888198
+      asset_id: 121148
+      name: tes1rom2u.ic4
+      size: 2097152
+      blob_id: 44982
+    - id: 888199
+      asset_id: 121148
+      name: tes1rom3l.ic9
+      size: 2097152
+      blob_id: 44983
+    - id: 888200
+      asset_id: 121148
+      name: tes1rom3u.ic1
+      size: 2097152
+      blob_id: 44984
+    - id: 888201
+      asset_id: 121148
+      name: tes1sprog.6d
+      size: 262144
+      blob_id: 44985
+    - id: 888202
+      asset_id: 121148
+      name: tes1wave.8k
+      size: 4194304
+      blob_id: 44986
+    - id: 888203
+      asset_id: 121148
+      name: tes3verd.2f
+      size: 1048576
+      blob_id: 44987
+    - id: 888204
+      asset_id: 121148
+      name: tes3verd.2j
+      size: 1048576
+      blob_id: 44988
+    - id: 888205
+      asset_id: 121148
+      name: tes3verd.2k
+      size: 1048576
+      blob_id: 44989
+    - id: 888206
+      asset_id: 121148
+      name: tes3verd.2l
+      size: 1048576
+      blob_id: 44990
+- release:
+    id: 99461
+    game_id: 4185
+    description: ""
+    release_date: 19950000
+  names:
+  - id: 232562
+    kind: 3
+    kind_id: 99461
+    language: 1
+    name: Tekken 2 (World, TES2/VER.A)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 115321
+      kind: 3
+      kind_id: 99461
+      type: 1
+      name: tekken2a.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 766472
+      asset_id: 115321
+      name: tes1rom0l.ic6
+      size: 2097152
+      blob_id: 44977
+    - id: 766473
+      asset_id: 115321
+      name: tes1rom0u.ic5
+      size: 2097152
+      blob_id: 44978
+    - id: 766474
+      asset_id: 115321
+      name: tes1rom1l.ic8
+      size: 2097152
+      blob_id: 44979
+    - id: 766475
+      asset_id: 115321
+      name: tes1rom1u.ic3
+      size: 2097152
+      blob_id: 44980
+    - id: 766476
+      asset_id: 115321
+      name: tes1rom2l.ic7
+      size: 2097152
+      blob_id: 44981
+    - id: 766477
+      asset_id: 115321
+      name: tes1rom2u.ic4
+      size: 2097152
+      blob_id: 44982
+    - id: 766478
+      asset_id: 115321
+      name: tes1rom3l.ic9
+      size: 2097152
+      blob_id: 44983
+    - id: 766479
+      asset_id: 115321
+      name: tes1rom3u.ic1
+      size: 2097152
+      blob_id: 44984
+    - id: 766480
+      asset_id: 115321
+      name: tes1sprog.6d
+      size: 262144
+      blob_id: 44985
+    - id: 766481
+      asset_id: 115321
+      name: tes1vera.2f
+      size: 1048576
+      blob_id: 44963
+    - id: 766482
+      asset_id: 115321
+      name: tes1vera.2k
+      size: 1048576
+      blob_id: 44964
+    - id: 766483
+      asset_id: 115321
+      name: tes1wave.8k
+      size: 4194304
+      blob_id: 44986
+    - id: 766484
+      asset_id: 115321
+      name: tes2vera.2j
+      size: 1048576
+      blob_id: 44965
+    - id: 766485
+      asset_id: 115321
+      name: tes2vera.2l
+      size: 1048576
+      blob_id: 44966
+- release:
+    id: 99462
+    game_id: 4185
+    description: ""
+    release_date: 19950000
+  names:
+  - id: 232563
+    kind: 3
+    kind_id: 99462
+    language: 1
+    name: Tekken 2 Ver.B (World, TES2/VER.B)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 115322
+      kind: 3
+      kind_id: 99462
+      type: 1
+      name: tekken2b.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 766486
+      asset_id: 115322
+      name: tes1rom0l.ic6
+      size: 2097152
+      blob_id: 44977
+    - id: 766487
+      asset_id: 115322
+      name: tes1rom0u.ic5
+      size: 2097152
+      blob_id: 44978
+    - id: 766488
+      asset_id: 115322
+      name: tes1rom1l.ic8
+      size: 2097152
+      blob_id: 44979
+    - id: 766489
+      asset_id: 115322
+      name: tes1rom1u.ic3
+      size: 2097152
+      blob_id: 44980
+    - id: 766490
+      asset_id: 115322
+      name: tes1rom2l.ic7
+      size: 2097152
+      blob_id: 44981
+    - id: 766491
+      asset_id: 115322
+      name: tes1rom2u.ic4
+      size: 2097152
+      blob_id: 44982
+    - id: 766492
+      asset_id: 115322
+      name: tes1rom3l.ic9
+      size: 2097152
+      blob_id: 44983
+    - id: 766493
+      asset_id: 115322
+      name: tes1rom3u.ic1
+      size: 2097152
+      blob_id: 44984
+    - id: 766494
+      asset_id: 115322
+      name: tes1sprog.6d
+      size: 262144
+      blob_id: 44985
+    - id: 766495
+      asset_id: 115322
+      name: tes1verb.2f
+      size: 1048576
+      blob_id: 44967
+    - id: 766496
+      asset_id: 115322
+      name: tes1verb.2k
+      size: 1048576
+      blob_id: 44968
+    - id: 766497
+      asset_id: 115322
+      name: tes1wave.8k
+      size: 4194304
+      blob_id: 44986
+    - id: 766498
+      asset_id: 115322
+      name: tes2verb.2j
+      size: 1048576
+      blob_id: 44969
+    - id: 766499
+      asset_id: 115322
+      name: tes2verb.2l
+      size: 1048576
+      blob_id: 44970
+- release:
+    id: 99463
+    game_id: 4185
+    description: ""
+    release_date: 19950000
+  names:
+  - id: 232564
+    kind: 3
+    kind_id: 99463
+    language: 1
+    name: Tekken 2 Ver.B (Japan, TES1/VER.B)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 115323
+      kind: 3
+      kind_id: 99463
+      type: 1
+      name: tekken2jb.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 766500
+      asset_id: 115323
+      name: tes1rom0l.ic6
+      size: 2097152
+      blob_id: 44977
+    - id: 766501
+      asset_id: 115323
+      name: tes1rom0u.ic5
+      size: 2097152
+      blob_id: 44978
+    - id: 766502
+      asset_id: 115323
+      name: tes1rom1l.ic8
+      size: 2097152
+      blob_id: 44979
+    - id: 766503
+      asset_id: 115323
+      name: tes1rom1u.ic3
+      size: 2097152
+      blob_id: 44980
+    - id: 766504
+      asset_id: 115323
+      name: tes1rom2l.ic7
+      size: 2097152
+      blob_id: 44981
+    - id: 766505
+      asset_id: 115323
+      name: tes1rom2u.ic4
+      size: 2097152
+      blob_id: 44982
+    - id: 766506
+      asset_id: 115323
+      name: tes1rom3l.ic9
+      size: 2097152
+      blob_id: 44983
+    - id: 766507
+      asset_id: 115323
+      name: tes1rom3u.ic1
+      size: 2097152
+      blob_id: 44984
+    - id: 766508
+      asset_id: 115323
+      name: tes1sprog.6d
+      size: 262144
+      blob_id: 44985
+    - id: 766509
+      asset_id: 115323
+      name: tes1verb.2f
+      size: 1048576
+      blob_id: 44967
+    - id: 766510
+      asset_id: 115323
+      name: tes1verb.2j
+      size: 1048576
+      blob_id: 44971
+    - id: 766511
+      asset_id: 115323
+      name: tes1verb.2k
+      size: 1048576
+      blob_id: 44968
+    - id: 766512
+      asset_id: 115323
+      name: tes1verb.2l
+      size: 1048576
+      blob_id: 44972
+    - id: 766513
+      asset_id: 115323
+      name: tes1wave.8k
+      size: 4194304
+      blob_id: 44986
+- release:
+    id: 99464
+    game_id: 4185
+    description: ""
+    release_date: 19950000
+  names:
+  - id: 232565
+    kind: 3
+    kind_id: 99464
+    language: 1
+    name: Tekken 2 Ver.B (Japan, TES1/VER.C)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 115324
+      kind: 3
+      kind_id: 99464
+      type: 1
+      name: tekken2jc.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 766514
+      asset_id: 115324
+      name: tes1rom0l.ic6
+      size: 2097152
+      blob_id: 44977
+    - id: 766515
+      asset_id: 115324
+      name: tes1rom0u.ic5
+      size: 2097152
+      blob_id: 44978
+    - id: 766516
+      asset_id: 115324
+      name: tes1rom1l.ic8
+      size: 2097152
+      blob_id: 44979
+    - id: 766517
+      asset_id: 115324
+      name: tes1rom1u.ic3
+      size: 2097152
+      blob_id: 44980
+    - id: 766518
+      asset_id: 115324
+      name: tes1rom2l.ic7
+      size: 2097152
+      blob_id: 44981
+    - id: 766519
+      asset_id: 115324
+      name: tes1rom2u.ic4
+      size: 2097152
+      blob_id: 44982
+    - id: 766520
+      asset_id: 115324
+      name: tes1rom3l.ic9
+      size: 2097152
+      blob_id: 44983
+    - id: 766521
+      asset_id: 115324
+      name: tes1rom3u.ic1
+      size: 2097152
+      blob_id: 44984
+    - id: 766522
+      asset_id: 115324
+      name: tes1sprog.6d
+      size: 262144
+      blob_id: 44985
+    - id: 766523
+      asset_id: 115324
+      name: tes1verb.2f
+      size: 1048576
+      blob_id: 44967
+    - id: 766524
+      asset_id: 115324
+      name: tes1verb.2k
+      size: 1048576
+      blob_id: 44968
+    - id: 766525
+      asset_id: 115324
+      name: tes1verc.2j
+      size: 1048576
+      blob_id: 44973
+    - id: 766526
+      asset_id: 115324
+      name: tes1verc.2l
+      size: 1048576
+      blob_id: 44974
+    - id: 766527
+      asset_id: 115324
+      name: tes1wave.8k
+      size: 4194304
+      blob_id: 44986
+- release:
+    id: 99465
+    game_id: 4185
+    description: ""
+    release_date: 19950000
+  names:
+  - id: 232566
+    kind: 3
+    kind_id: 99465
+    language: 1
+    name: Tekken 2 (US, TES3/VER.A)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 115325
+      kind: 3
+      kind_id: 99465
+      type: 1
+      name: tekken2ua.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/2519380047
+    entries:
+    - id: 766528
+      asset_id: 115325
+      name: tes1rom0l.ic6
+      size: 2097152
+      blob_id: 44977
+    - id: 766529
+      asset_id: 115325
+      name: tes1rom0u.ic5
+      size: 2097152
+      blob_id: 44978
+    - id: 766530
+      asset_id: 115325
+      name: tes1rom1l.ic8
+      size: 2097152
+      blob_id: 44979
+    - id: 766531
+      asset_id: 115325
+      name: tes1rom1u.ic3
+      size: 2097152
+      blob_id: 44980
+    - id: 766532
+      asset_id: 115325
+      name: tes1rom2l.ic7
+      size: 2097152
+      blob_id: 44981
+    - id: 766533
+      asset_id: 115325
+      name: tes1rom2u.ic4
+      size: 2097152
+      blob_id: 44982
+    - id: 766534
+      asset_id: 115325
+      name: tes1rom3l.ic9
+      size: 2097152
+      blob_id: 44983
+    - id: 766535
+      asset_id: 115325
+      name: tes1rom3u.ic1
+      size: 2097152
+      blob_id: 44984
+    - id: 766536
+      asset_id: 115325
+      name: tes1sprog.6d
+      size: 262144
+      blob_id: 44985
+    - id: 766537
+      asset_id: 115325
+      name: tes1vera.2f
+      size: 1048576
+      blob_id: 44963
+    - id: 766538
+      asset_id: 115325
+      name: tes1vera.2k
+      size: 1048576
+      blob_id: 44964
+    - id: 766539
+      asset_id: 115325
+      name: tes1wave.8k
+      size: 4194304
+      blob_id: 44986
+    - id: 766540
+      asset_id: 115325
+      name: tes3vera.2j
+      size: 1048576
+      blob_id: 305857
+    - id: 766541
+      asset_id: 115325
+      name: tes3vera.2l
+      size: 1048576
+      blob_id: 305858
+- release:
+    id: 99466
+    game_id: 4185
+    description: ""
+    release_date: 19950000
+  names:
+  - id: 232567
+    kind: 3
+    kind_id: 99466
+    language: 1
+    name: Tekken 2 Ver.B (US, TES3/VER.B)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 115326
+      kind: 3
+      kind_id: 99466
+      type: 1
+      name: tekken2ub.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 766542
+      asset_id: 115326
+      name: tes1rom0l.ic6
+      size: 2097152
+      blob_id: 44977
+    - id: 766543
+      asset_id: 115326
+      name: tes1rom0u.ic5
+      size: 2097152
+      blob_id: 44978
+    - id: 766544
+      asset_id: 115326
+      name: tes1rom1l.ic8
+      size: 2097152
+      blob_id: 44979
+    - id: 766545
+      asset_id: 115326
+      name: tes1rom1u.ic3
+      size: 2097152
+      blob_id: 44980
+    - id: 766546
+      asset_id: 115326
+      name: tes1rom2l.ic7
+      size: 2097152
+      blob_id: 44981
+    - id: 766547
+      asset_id: 115326
+      name: tes1rom2u.ic4
+      size: 2097152
+      blob_id: 44982
+    - id: 766548
+      asset_id: 115326
+      name: tes1rom3l.ic9
+      size: 2097152
+      blob_id: 44983
+    - id: 766549
+      asset_id: 115326
+      name: tes1rom3u.ic1
+      size: 2097152
+      blob_id: 44984
+    - id: 766550
+      asset_id: 115326
+      name: tes1sprog.6d
+      size: 262144
+      blob_id: 44985
+    - id: 766551
+      asset_id: 115326
+      name: tes1verb.2f
+      size: 1048576
+      blob_id: 44967
+    - id: 766552
+      asset_id: 115326
+      name: tes1verb.2k
+      size: 1048576
+      blob_id: 44968
+    - id: 766553
+      asset_id: 115326
+      name: tes1wave.8k
+      size: 4194304
+      blob_id: 44986
+    - id: 766554
+      asset_id: 115326
+      name: tes3verb.2j
+      size: 1048576
+      blob_id: 44975
+    - id: 766555
+      asset_id: 115326
+      name: tes3verb.2l
+      size: 1048576
+      blob_id: 44976
+- release:
+    id: 99467
+    game_id: 4185
+    description: ""
+    release_date: 19960000
+  names:
+  - id: 232568
+    kind: 3
+    kind_id: 99467
+    language: 1
+    name: Tekken 2 Ver.B (US, TES3/VER.D)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 115327
+      kind: 3
+      kind_id: 99467
+      type: 1
+      name: tekken2ud.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 766556
+      asset_id: 115327
+      name: tes1rom0l.ic6
+      size: 2097152
+      blob_id: 44977
+    - id: 766557
+      asset_id: 115327
+      name: tes1rom0u.ic5
+      size: 2097152
+      blob_id: 44978
+    - id: 766558
+      asset_id: 115327
+      name: tes1rom1l.ic8
+      size: 2097152
+      blob_id: 44979
+    - id: 766559
+      asset_id: 115327
+      name: tes1rom1u.ic3
+      size: 2097152
+      blob_id: 44980
+    - id: 766560
+      asset_id: 115327
+      name: tes1rom2l.ic7
+      size: 2097152
+      blob_id: 44981
+    - id: 766561
+      asset_id: 115327
+      name: tes1rom2u.ic4
+      size: 2097152
+      blob_id: 44982
+    - id: 766562
+      asset_id: 115327
+      name: tes1rom3l.ic9
+      size: 2097152
+      blob_id: 44983
+    - id: 766563
+      asset_id: 115327
+      name: tes1rom3u.ic1
+      size: 2097152
+      blob_id: 44984
+    - id: 766564
+      asset_id: 115327
+      name: tes1sprog.6d
+      size: 262144
+      blob_id: 44985
+    - id: 766565
+      asset_id: 115327
+      name: tes1verd.2f
+      size: 1048576
+      blob_id: 44987
+    - id: 766566
+      asset_id: 115327
+      name: tes1verd.2k
+      size: 1048576
+      blob_id: 44989
+    - id: 766567
+      asset_id: 115327
+      name: tes1wave.8k
+      size: 4194304
+      blob_id: 44986
+    - id: 766568
+      asset_id: 115327
+      name: tes3verd.2j
+      size: 1048576
+      blob_id: 44988
+    - id: 766569
+      asset_id: 115327
+      name: tes3verd.2l
+      size: 1048576
+      blob_id: 44990

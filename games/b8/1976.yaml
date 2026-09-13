@@ -16,6 +16,24 @@ names:
   language: 2
   name: 赛车精灵 2
   source: trimui
+- id: 188834
+  kind: 2
+  kind_id: 1976
+  language: 1
+  name: Car 2 (bootleg of Head On 2)
+  source: mame
+- id: 191629
+  kind: 2
+  kind_id: 1976
+  language: 1
+  name: Head On 2 (Sidam bootleg)
+  source: mame
+- id: 191630
+  kind: 2
+  kind_id: 1976
+  language: 1
+  name: Head On 2 (Sega Slimline)
+  source: mame
 game_developers:
 - game_id: 1976
   developer_id: 110
@@ -149,24 +167,10 @@ releases:
       blob_id: 87871
       debug: arcade/wheel/headon2.png
     entries: []
-- release:
-    id: 45866
-    game_id: 1976
-    description: ""
-    release_date: 19790000
-  names:
-  - id: 122398
-    kind: 3
-    kind_id: 45866
-    language: 1
-    name: Head On 2
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 58936
+      id: 100915
       kind: 3
-      kind_id: 45866
+      kind_id: 1976
       type: 1
       name: headon2.zip
       description: ""
@@ -175,53 +179,281 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 195150
-      asset_id: 58936
+    - id: 625983
+      asset_id: 100915
       name: 316-0138.u44
       size: 32
       blob_id: 4409
-    - id: 195151
-      asset_id: 58936
+    - id: 625984
+      asset_id: 100915
       name: 316-0206.u65
       size: 32
       blob_id: 2304
-    - id: 195152
-      asset_id: 58936
+    - id: 625985
+      asset_id: 100915
       name: u20.bin
       size: 1024
       blob_id: 22006
-    - id: 195153
-      asset_id: 58936
+    - id: 625986
+      asset_id: 100915
       name: u21.bin
       size: 1024
       blob_id: 22007
-    - id: 195154
-      asset_id: 58936
+    - id: 625987
+      asset_id: 100915
       name: u22.bin
       size: 1024
       blob_id: 22008
-    - id: 195155
-      asset_id: 58936
+    - id: 625988
+      asset_id: 100915
       name: u23.bin
       size: 1024
       blob_id: 22009
-    - id: 195156
-      asset_id: 58936
+    - id: 625989
+      asset_id: 100915
       name: u24.bin
       size: 1024
       blob_id: 22010
-    - id: 195157
-      asset_id: 58936
+    - id: 625990
+      asset_id: 100915
       name: u25.bin
       size: 1024
       blob_id: 22011
-    - id: 195158
-      asset_id: 58936
+    - id: 625991
+      asset_id: 100915
       name: u26.bin
       size: 1024
       blob_id: 22012
-    - id: 195159
-      asset_id: 58936
+    - id: 625992
+      asset_id: 100915
       name: u27.bin
       size: 1024
       blob_id: 22013
+- release:
+    id: 85808
+    game_id: 1976
+    description: ""
+    release_date: 19790000
+  names:
+  - id: 213143
+    kind: 3
+    kind_id: 85808
+    language: 1
+    name: Head On 2 (Sidam bootleg)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 100916
+      kind: 3
+      kind_id: 85808
+      type: 1
+      name: headon2s.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 625993
+      asset_id: 100916
+      name: 10302.2e
+      size: 32
+      blob_id: 4274
+    - id: 625994
+      asset_id: 100916
+      name: 10303.3e
+      size: 32
+      blob_id: 4275
+    - id: 625995
+      asset_id: 100916
+      name: 10304.0.9a
+      size: 1024
+      blob_id: 248742
+    - id: 625996
+      asset_id: 100916
+      name: 10304.1.8a
+      size: 1024
+      blob_id: 22012
+    - id: 625997
+      asset_id: 100916
+      name: 10304.2.7a
+      size: 1024
+      blob_id: 241402
+    - id: 625998
+      asset_id: 100916
+      name: 10304.3.6a
+      size: 1024
+      blob_id: 22010
+    - id: 625999
+      asset_id: 100916
+      name: 10304.4.5a
+      size: 1024
+      blob_id: 241403
+    - id: 626000
+      asset_id: 100916
+      name: 10304.5.4a
+      size: 1024
+      blob_id: 241404
+    - id: 626001
+      asset_id: 100916
+      name: 10304.6.3a
+      size: 1024
+      blob_id: 248743
+    - id: 626002
+      asset_id: 100916
+      name: 10304.7b.2a
+      size: 1024
+      blob_id: 248744
+- release:
+    id: 85809
+    game_id: 1976
+    description: ""
+    release_date: 19790000
+  names:
+  - id: 213144
+    kind: 3
+    kind_id: 85809
+    language: 1
+    name: Head On 2 (Sega Slimline)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 100917
+      kind: 3
+      kind_id: 85809
+      type: 1
+      name: headon2sl.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 626003
+      asset_id: 100917
+      name: 316-0042.u15
+      size: 32
+      blob_id: 4274
+    - id: 626004
+      asset_id: 100917
+      name: 316-0043.u14
+      size: 32
+      blob_id: 4275
+    - id: 626005
+      asset_id: 100917
+      name: 316-0138.u49
+      size: 32
+      blob_id: 4409
+    - id: 626006
+      asset_id: 100917
+      name: epr-170.u33
+      size: 1024
+      blob_id: 248745
+    - id: 626007
+      asset_id: 100917
+      name: epr-171.u32
+      size: 1024
+      blob_id: 248746
+    - id: 626008
+      asset_id: 100917
+      name: epr-172.u31
+      size: 1024
+      blob_id: 248747
+    - id: 626009
+      asset_id: 100917
+      name: epr-173.u30
+      size: 1024
+      blob_id: 248748
+    - id: 626010
+      asset_id: 100917
+      name: epr-174.u29
+      size: 1024
+      blob_id: 248749
+    - id: 626011
+      asset_id: 100917
+      name: epr-175.u28
+      size: 1024
+      blob_id: 248750
+    - id: 626012
+      asset_id: 100917
+      name: epr-176.u27
+      size: 1024
+      blob_id: 248751
+    - id: 626013
+      asset_id: 100917
+      name: epr-177.u26
+      size: 1024
+      blob_id: 248752
+- release:
+    id: 103553
+    game_id: 1976
+    description: ""
+    release_date: 19790000
+  names:
+  - id: 238529
+    kind: 3
+    kind_id: 103553
+    language: 1
+    name: Car 2 (bootleg of Head On 2)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 95670
+      kind: 3
+      kind_id: 103553
+      type: 1
+      name: car2.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 562814
+      asset_id: 95670
+      name: 316-0206.u65
+      size: 32
+      blob_id: 2304
+    - id: 562815
+      asset_id: 95670
+      name: car2.0
+      size: 1024
+      blob_id: 241401
+    - id: 562816
+      asset_id: 95670
+      name: car2.1
+      size: 1024
+      blob_id: 22012
+    - id: 562817
+      asset_id: 95670
+      name: car2.2
+      size: 1024
+      blob_id: 241402
+    - id: 562818
+      asset_id: 95670
+      name: car2.3
+      size: 1024
+      blob_id: 22010
+    - id: 562819
+      asset_id: 95670
+      name: car2.4
+      size: 1024
+      blob_id: 241403
+    - id: 562820
+      asset_id: 95670
+      name: car2.5
+      size: 1024
+      blob_id: 241404
+    - id: 562821
+      asset_id: 95670
+      name: car2.6
+      size: 1024
+      blob_id: 22007
+    - id: 562822
+      asset_id: 95670
+      name: car2.7
+      size: 1024
+      blob_id: 241405

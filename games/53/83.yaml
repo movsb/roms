@@ -16,6 +16,30 @@ names:
   language: 2
   name: 强行突破 (美版)
   source: trimui
+- id: 188627
+  kind: 2
+  kind_id: 83
+  language: 1
+  name: Kyoukou Toppa (Japan)
+  source: mame
+- id: 188628
+  kind: 2
+  kind_id: 83
+  language: 1
+  name: Break Thru (Tecfri license)
+  source: mame
+- id: 190682
+  kind: 2
+  kind_id: 83
+  language: 1
+  name: Force Break (bootleg)
+  source: mame
+- id: 241715
+  kind: 2
+  kind_id: 83
+  language: 1
+  name: Break Thru (bootleg)
+  source: fbneo
 game_developers:
 - game_id: 83
   developer_id: 225
@@ -164,6 +188,88 @@ releases:
       blob_id: 85395
       debug: arcade/wheel/brkthru.png
     entries: []
+  - asset:
+      id: 95316
+      kind: 3
+      kind_id: 83
+      type: 1
+      name: brkthru.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 557587
+      asset_id: 95316
+      name: 1.f9
+      size: 16384
+      blob_id: 207179
+    - id: 557588
+      asset_id: 95316
+      name: 10.bin
+      size: 32768
+      blob_id: 1106
+    - id: 557589
+      asset_id: 95316
+      name: 11.bin
+      size: 32768
+      blob_id: 1107
+    - id: 557590
+      asset_id: 95316
+      name: 12.bin
+      size: 8192
+      blob_id: 1108
+    - id: 557591
+      asset_id: 95316
+      name: 13.bin
+      size: 256
+      blob_id: 1109
+    - id: 557592
+      asset_id: 95316
+      name: 14.bin
+      size: 256
+      blob_id: 1110
+    - id: 557593
+      asset_id: 95316
+      name: 2.f11
+      size: 32768
+      blob_id: 207180
+    - id: 557594
+      asset_id: 95316
+      name: 3.f12
+      size: 32768
+      blob_id: 1112
+    - id: 557595
+      asset_id: 95316
+      name: 4.f14
+      size: 32768
+      blob_id: 207181
+    - id: 557596
+      asset_id: 95316
+      name: 5.d6
+      size: 32768
+      blob_id: 1114
+    - id: 557597
+      asset_id: 95316
+      name: 6.b4
+      size: 32768
+      blob_id: 1115
+    - id: 557598
+      asset_id: 95316
+      name: 7.b6
+      size: 32768
+      blob_id: 1116
+    - id: 557599
+      asset_id: 95316
+      name: 8.b7
+      size: 32768
+      blob_id: 1117
+    - id: 557600
+      asset_id: 95316
+      name: 9.bin
+      size: 32768
+      blob_id: 1118
 - release:
     id: 38491
     game_id: 83
@@ -176,87 +282,581 @@ releases:
     language: 1
     name: Break Thru (World)
     source: mame
-  release_publishers: []
+  - id: 183964
+    kind: 3
+    kind_id: 38491
+    language: 1
+    name: BRKTHRU
+    source: ""
+  - id: 183965
+    kind: 3
+    kind_id: 38491
+    language: 2
+    name: 强行突破 (美版)
+    source: trimui
+  release_publishers:
+  - release_id: 38491
+    publisher_id: 352
   assets:
   - asset:
-      id: 51561
+      id: 90689
       kind: 3
       kind_id: 38491
       type: 1
       name: brkthru.zip
       description: ""
       format: 2
+      size: 132835
+      blob_id: 0
+      debug: BRKTHRU.ZIP
+    entries:
+    - id: 468029
+      asset_id: 90689
+      name: brkthru.1
+      size: 16384
+      blob_id: 1105
+    - id: 468030
+      asset_id: 90689
+      name: brkthru.10
+      size: 32768
+      blob_id: 1106
+    - id: 468031
+      asset_id: 90689
+      name: brkthru.11
+      size: 32768
+      blob_id: 1107
+    - id: 468032
+      asset_id: 90689
+      name: brkthru.12
+      size: 8192
+      blob_id: 1108
+    - id: 468033
+      asset_id: 90689
+      name: brkthru.13
+      size: 256
+      blob_id: 1109
+    - id: 468034
+      asset_id: 90689
+      name: brkthru.14
+      size: 256
+      blob_id: 1110
+    - id: 468035
+      asset_id: 90689
+      name: brkthru.2
+      size: 32768
+      blob_id: 1111
+    - id: 468036
+      asset_id: 90689
+      name: brkthru.3
+      size: 32768
+      blob_id: 1112
+    - id: 468037
+      asset_id: 90689
+      name: brkthru.4
+      size: 32768
+      blob_id: 1113
+    - id: 468038
+      asset_id: 90689
+      name: brkthru.5
+      size: 32768
+      blob_id: 1114
+    - id: 468039
+      asset_id: 90689
+      name: brkthru.6
+      size: 32768
+      blob_id: 1115
+    - id: 468040
+      asset_id: 90689
+      name: brkthru.7
+      size: 32768
+      blob_id: 1116
+    - id: 468041
+      asset_id: 90689
+      name: brkthru.8
+      size: 32768
+      blob_id: 1117
+    - id: 468042
+      asset_id: 90689
+      name: brkthru.9
+      size: 32768
+      blob_id: 1118
+- release:
+    id: 80634
+    game_id: 83
+    description: ""
+    release_date: 19860000
+  names:
+  - id: 205317
+    kind: 3
+    kind_id: 80634
+    language: 1
+    name: Kyoukou Toppa (Japan)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 95317
+      kind: 3
+      kind_id: 80634
+      type: 1
+      name: brkthruj.zip
+      description: ""
+      format: 2
       size: 0
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 119499
-      asset_id: 51561
-      name: 1.f9
+    - id: 557601
+      asset_id: 95317
+      name: "1"
       size: 16384
-      blob_id: 101117
-    - id: 119500
-      asset_id: 51561
-      name: 10.bin
+      blob_id: 240985
+    - id: 557602
+      asset_id: 95317
+      name: "12"
+      size: 8192
+      blob_id: 240986
+    - id: 557603
+      asset_id: 95317
+      name: "2"
+      size: 32768
+      blob_id: 240987
+    - id: 557604
+      asset_id: 95317
+      name: "4"
+      size: 32768
+      blob_id: 240988
+    - id: 557605
+      asset_id: 95317
+      name: "6"
+      size: 32768
+      blob_id: 240989
+    - id: 557606
+      asset_id: 95317
+      name: "8"
+      size: 32768
+      blob_id: 240990
+    - id: 557607
+      asset_id: 95317
+      name: brkthru.10
       size: 32768
       blob_id: 1106
-    - id: 119501
-      asset_id: 51561
-      name: 11.bin
+    - id: 557608
+      asset_id: 95317
+      name: brkthru.11
       size: 32768
       blob_id: 1107
-    - id: 119502
-      asset_id: 51561
-      name: 12.bin
-      size: 8192
-      blob_id: 1108
-    - id: 119503
-      asset_id: 51561
-      name: 13.bin
+    - id: 557609
+      asset_id: 95317
+      name: brkthru.13
       size: 256
       blob_id: 1109
-    - id: 119504
-      asset_id: 51561
-      name: 14.bin
+    - id: 557610
+      asset_id: 95317
+      name: brkthru.14
       size: 256
       blob_id: 1110
-    - id: 119505
-      asset_id: 51561
-      name: 2.f11
-      size: 32768
-      blob_id: 101118
-    - id: 119506
-      asset_id: 51561
-      name: 3.f12
+    - id: 557611
+      asset_id: 95317
+      name: brkthru.3
       size: 32768
       blob_id: 1112
-    - id: 119507
-      asset_id: 51561
-      name: 4.f14
-      size: 32768
-      blob_id: 101119
-    - id: 119508
-      asset_id: 51561
-      name: 5.d6
+    - id: 557612
+      asset_id: 95317
+      name: brkthru.5
       size: 32768
       blob_id: 1114
-    - id: 119509
-      asset_id: 51561
-      name: 6.b4
-      size: 32768
-      blob_id: 1115
-    - id: 119510
-      asset_id: 51561
-      name: 7.b6
+    - id: 557613
+      asset_id: 95317
+      name: brkthru.7
       size: 32768
       blob_id: 1116
-    - id: 119511
-      asset_id: 51561
-      name: 8.b7
-      size: 32768
-      blob_id: 1117
-    - id: 119512
-      asset_id: 51561
-      name: 9.bin
+    - id: 557614
+      asset_id: 95317
+      name: brkthru.9
       size: 32768
       blob_id: 1118
+- release:
+    id: 80635
+    game_id: 83
+    description: ""
+    release_date: 19860000
+  names:
+  - id: 205318
+    kind: 3
+    kind_id: 80635
+    language: 1
+    name: Break Thru (Tecfri license)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 95318
+      kind: 3
+      kind_id: 80635
+      type: 1
+      name: brkthrut.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 557615
+      asset_id: 95318
+      name: 10_de-0231-2_27156.h2
+      size: 32768
+      blob_id: 1118
+    - id: 557616
+      asset_id: 95318
+      name: 11_de-0231-2_27156.h4
+      size: 32768
+      blob_id: 1106
+    - id: 557617
+      asset_id: 95318
+      name: 12_de-0231-2_27156.h5
+      size: 32768
+      blob_id: 1107
+    - id: 557618
+      asset_id: 95318
+      name: 1_de-0230-2_27256.a5
+      size: 32768
+      blob_id: 1115
+    - id: 557619
+      asset_id: 95318
+      name: 2_de-0230-2_27256.a6
+      size: 32768
+      blob_id: 1116
+    - id: 557620
+      asset_id: 95318
+      name: 3_de-0230-2_27256.a8
+      size: 32768
+      blob_id: 1117
+    - id: 557621
+      asset_id: 95318
+      name: 4_de-0230-2_27256.d6
+      size: 32768
+      blob_id: 1114
+    - id: 557622
+      asset_id: 95318
+      name: 5_de-0230-2_27128.f9
+      size: 16384
+      blob_id: 240991
+    - id: 557623
+      asset_id: 95318
+      name: 6301.c1
+      size: 256
+      blob_id: 1110
+    - id: 557624
+      asset_id: 95318
+      name: 6309.c2
+      size: 512
+      blob_id: 240992
+    - id: 557625
+      asset_id: 95318
+      name: 6_de-0230-2_27256.f11
+      size: 32768
+      blob_id: 240993
+    - id: 557626
+      asset_id: 95318
+      name: 7_de-0230-2_27256.f12
+      size: 32768
+      blob_id: 1112
+    - id: 557627
+      asset_id: 95318
+      name: 8_de-0230-2_27256.f13
+      size: 32768
+      blob_id: 1113
+    - id: 557628
+      asset_id: 95318
+      name: 9_de-0231-2_2764.c8
+      size: 8192
+      blob_id: 1108
+- release:
+    id: 80636
+    game_id: 83
+    description: ""
+    release_date: 19860000
+  names:
+  - id: 205319
+    kind: 3
+    kind_id: 80636
+    language: 1
+    name: Break Thru (US)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 95319
+      kind: 3
+      kind_id: 80636
+      type: 1
+      name: brkthruu.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 557629
+      asset_id: 95319
+      name: brkthru.1
+      size: 16384
+      blob_id: 1105
+    - id: 557630
+      asset_id: 95319
+      name: brkthru.10
+      size: 32768
+      blob_id: 1106
+    - id: 557631
+      asset_id: 95319
+      name: brkthru.11
+      size: 32768
+      blob_id: 1107
+    - id: 557632
+      asset_id: 95319
+      name: brkthru.12
+      size: 8192
+      blob_id: 1108
+    - id: 557633
+      asset_id: 95319
+      name: brkthru.13
+      size: 256
+      blob_id: 1109
+    - id: 557634
+      asset_id: 95319
+      name: brkthru.14
+      size: 256
+      blob_id: 1110
+    - id: 557635
+      asset_id: 95319
+      name: brkthru.2
+      size: 32768
+      blob_id: 1111
+    - id: 557636
+      asset_id: 95319
+      name: brkthru.3
+      size: 32768
+      blob_id: 1112
+    - id: 557637
+      asset_id: 95319
+      name: brkthru.4
+      size: 32768
+      blob_id: 1113
+    - id: 557638
+      asset_id: 95319
+      name: brkthru.5
+      size: 32768
+      blob_id: 1114
+    - id: 557639
+      asset_id: 95319
+      name: brkthru.6
+      size: 32768
+      blob_id: 1115
+    - id: 557640
+      asset_id: 95319
+      name: brkthru.7
+      size: 32768
+      blob_id: 1116
+    - id: 557641
+      asset_id: 95319
+      name: brkthru.8
+      size: 32768
+      blob_id: 1117
+    - id: 557642
+      asset_id: 95319
+      name: brkthru.9
+      size: 32768
+      blob_id: 1118
+- release:
+    id: 84196
+    game_id: 83
+    description: ""
+    release_date: 19860000
+  names:
+  - id: 210707
+    kind: 3
+    kind_id: 84196
+    language: 1
+    name: Force Break (bootleg)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 99174
+      kind: 3
+      kind_id: 84196
+      type: 1
+      name: forcebrk.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 605767
+      asset_id: 99174
+      name: "1"
+      size: 16384
+      blob_id: 240985
+    - id: 605768
+      asset_id: 99174
+      name: "12"
+      size: 8192
+      blob_id: 240986
+    - id: 605769
+      asset_id: 99174
+      name: "2"
+      size: 32768
+      blob_id: 240987
+    - id: 605770
+      asset_id: 99174
+      name: brkthru.10
+      size: 32768
+      blob_id: 1106
+    - id: 605771
+      asset_id: 99174
+      name: brkthru.11
+      size: 32768
+      blob_id: 1107
+    - id: 605772
+      asset_id: 99174
+      name: brkthru.13
+      size: 256
+      blob_id: 1109
+    - id: 605773
+      asset_id: 99174
+      name: brkthru.14
+      size: 256
+      blob_id: 1110
+    - id: 605774
+      asset_id: 99174
+      name: brkthru.3
+      size: 32768
+      blob_id: 1112
+    - id: 605775
+      asset_id: 99174
+      name: brkthru.5
+      size: 32768
+      blob_id: 1114
+    - id: 605776
+      asset_id: 99174
+      name: brkthru.7
+      size: 32768
+      blob_id: 1116
+    - id: 605777
+      asset_id: 99174
+      name: brkthru.9
+      size: 32768
+      blob_id: 1118
+    - id: 605778
+      asset_id: 99174
+      name: forcebrk4
+      size: 32768
+      blob_id: 246449
+    - id: 605779
+      asset_id: 99174
+      name: forcebrk6
+      size: 32768
+      blob_id: 246450
+    - id: 605780
+      asset_id: 99174
+      name: forcebrk8
+      size: 32768
+      blob_id: 246451
+- release:
+    id: 105033
+    game_id: 83
+    description: ""
+    release_date: 19860000
+  names:
+  - id: 240009
+    kind: 3
+    kind_id: 105033
+    language: 1
+    name: Break Thru (bootleg)
+    source: fbneo
+  release_publishers: []
+  assets:
+  - asset:
+      id: 118579
+      kind: 3
+      kind_id: 105033
+      type: 1
+      name: brkthrubl.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 807510
+      asset_id: 118579
+      name: "1"
+      size: 32768
+      blob_id: 207181
+    - id: 807511
+      asset_id: 118579
+      name: "10"
+      size: 32768
+      blob_id: 1106
+    - id: 807512
+      asset_id: 118579
+      name: "11"
+      size: 32768
+      blob_id: 1107
+    - id: 807513
+      asset_id: 118579
+      name: "12"
+      size: 8192
+      blob_id: 1108
+    - id: 807514
+      asset_id: 118579
+      name: "2"
+      size: 32768
+      blob_id: 1112
+    - id: 807515
+      asset_id: 118579
+      name: "3"
+      size: 32768
+      blob_id: 207180
+    - id: 807516
+      asset_id: 118579
+      name: "4"
+      size: 16384
+      blob_id: 207179
+    - id: 807517
+      asset_id: 118579
+      name: "5"
+      size: 32768
+      blob_id: 1114
+    - id: 807518
+      asset_id: 118579
+      name: "6"
+      size: 32768
+      blob_id: 1115
+    - id: 807519
+      asset_id: 118579
+      name: "7"
+      size: 32768
+      blob_id: 1116
+    - id: 807520
+      asset_id: 118579
+      name: "8"
+      size: 32768
+      blob_id: 1117
+    - id: 807521
+      asset_id: 118579
+      name: "9"
+      size: 32768
+      blob_id: 1118
+    - id: 807522
+      asset_id: 118579
+      name: brkthru.13
+      size: 256
+      blob_id: 1109
+    - id: 807523
+      asset_id: 118579
+      name: brkthru.14
+      size: 256
+      blob_id: 1110

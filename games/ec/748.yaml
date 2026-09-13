@@ -16,6 +16,42 @@ names:
   language: 2
   name: 异形对铁血战士（940520 欧版）
   source: ""
+- id: 186715
+  kind: 2
+  kind_id: 748
+  language: 1
+  name: avspu
+  source: ""
+- id: 186716
+  kind: 2
+  kind_id: 748
+  language: 2
+  name: 异形 对 铁血战士 (940520 美版)
+  source: trimui
+- id: 188238
+  kind: 2
+  kind_id: 748
+  language: 1
+  name: Alien vs. Predator (Asia 940520)
+  source: mame
+- id: 188239
+  kind: 2
+  kind_id: 748
+  language: 1
+  name: Alien vs. Predator (Europe 940520 Phoenix Edition) (bootleg)
+  source: mame
+- id: 188240
+  kind: 2
+  kind_id: 748
+  language: 1
+  name: Alien vs. Predator (Hispanic 940520)
+  source: mame
+- id: 188241
+  kind: 2
+  kind_id: 748
+  language: 1
+  name: Alien vs. Predator (Japan 940520)
+  source: mame
 game_developers:
 - game_id: 748
   developer_id: 41
@@ -174,6 +210,98 @@ releases:
       blob_id: 86318
       debug: arcade/wheel/avsp.png
     entries: []
+  - asset:
+      id: 94449
+      kind: 3
+      kind_id: 748
+      type: 1
+      name: avsp.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 547521
+      asset_id: 94449
+      name: avp.01
+      size: 131072
+      blob_id: 7449
+    - id: 547522
+      asset_id: 94449
+      name: avp.05d
+      size: 524288
+      blob_id: 7450
+    - id: 547523
+      asset_id: 94449
+      name: avp.06
+      size: 524288
+      blob_id: 7451
+    - id: 547524
+      asset_id: 94449
+      name: avp.11m
+      size: 2097152
+      blob_id: 7452
+    - id: 547525
+      asset_id: 94449
+      name: avp.12m
+      size: 2097152
+      blob_id: 7453
+    - id: 547526
+      asset_id: 94449
+      name: avp.13m
+      size: 2097152
+      blob_id: 7454
+    - id: 547527
+      asset_id: 94449
+      name: avp.14m
+      size: 1048576
+      blob_id: 7465
+    - id: 547528
+      asset_id: 94449
+      name: avp.15m
+      size: 2097152
+      blob_id: 7456
+    - id: 547529
+      asset_id: 94449
+      name: avp.16m
+      size: 1048576
+      blob_id: 7466
+    - id: 547530
+      asset_id: 94449
+      name: avp.17m
+      size: 2097152
+      blob_id: 7458
+    - id: 547531
+      asset_id: 94449
+      name: avp.18m
+      size: 1048576
+      blob_id: 7467
+    - id: 547532
+      asset_id: 94449
+      name: avp.19m
+      size: 2097152
+      blob_id: 7460
+    - id: 547533
+      asset_id: 94449
+      name: avp.20m
+      size: 1048576
+      blob_id: 7468
+    - id: 547534
+      asset_id: 94449
+      name: avpe.03d
+      size: 524288
+      blob_id: 7462
+    - id: 547535
+      asset_id: 94449
+      name: avpe.04d
+      size: 524288
+      blob_id: 7463
+    - id: 547536
+      asset_id: 94449
+      name: avsp.key
+      size: 20
+      blob_id: 7464
 - release:
     id: 749
     game_id: 748
@@ -479,108 +607,538 @@ releases:
       size: 20
       blob_id: 7464
 - release:
-    id: 37479
+    id: 753
+    game_id: 748
+    description: ""
+    release_date: 0
+  names:
+  - id: 1507
+    kind: 3
+    kind_id: 753
+    language: 1
+    name: avspu
+    source: ""
+  - id: 98721
+    kind: 3
+    kind_id: 753
+    language: 2
+    name: 异形 对 铁血战士 (940520 美版)
+    source: trimui
+  release_publishers: []
+  assets:
+  - asset:
+      id: 753
+      kind: 3
+      kind_id: 753
+      type: 1
+      name: avspu.zip
+      description: ""
+      format: 2
+      size: 8709982
+      blob_id: 0
+      debug: avspu.zip
+    entries:
+    - id: 10126
+      asset_id: 753
+      name: avp.01
+      size: 131072
+      blob_id: 7449
+    - id: 10127
+      asset_id: 753
+      name: avp.05d
+      size: 524288
+      blob_id: 7450
+    - id: 10128
+      asset_id: 753
+      name: avp.06
+      size: 524288
+      blob_id: 7451
+    - id: 10129
+      asset_id: 753
+      name: avp.11m
+      size: 2097152
+      blob_id: 7452
+    - id: 10130
+      asset_id: 753
+      name: avp.12m
+      size: 2097152
+      blob_id: 7453
+    - id: 10131
+      asset_id: 753
+      name: avp.13m
+      size: 2097152
+      blob_id: 7454
+    - id: 10132
+      asset_id: 753
+      name: avp.14m
+      size: 1048576
+      blob_id: 7465
+    - id: 10133
+      asset_id: 753
+      name: avp.15m
+      size: 2097152
+      blob_id: 7456
+    - id: 10134
+      asset_id: 753
+      name: avp.16m
+      size: 1048576
+      blob_id: 7466
+    - id: 10135
+      asset_id: 753
+      name: avp.17m
+      size: 2097152
+      blob_id: 7458
+    - id: 10136
+      asset_id: 753
+      name: avp.18m
+      size: 1048576
+      blob_id: 7467
+    - id: 10137
+      asset_id: 753
+      name: avp.19m
+      size: 2097152
+      blob_id: 7460
+    - id: 10138
+      asset_id: 753
+      name: avp.20m
+      size: 1048576
+      blob_id: 7468
+    - id: 10139
+      asset_id: 753
+      name: avpu.03d
+      size: 524288
+      blob_id: 7481
+    - id: 10140
+      asset_id: 753
+      name: avpu.04d
+      size: 524288
+      blob_id: 7482
+    - id: 10141
+      asset_id: 753
+      name: avspu.key
+      size: 20
+      blob_id: 7483
+- release:
+    id: 79842
     game_id: 748
     description: ""
     release_date: 19940000
   names:
-  - id: 106084
+  - id: 204070
     kind: 3
-    kind_id: 37479
+    kind_id: 79842
     language: 1
-    name: Alien vs. Predator (Europe 940520)
+    name: Alien vs. Predator (Asia 940520)
     source: mame
   release_publishers: []
   assets:
   - asset:
-      id: 50549
+      id: 94450
       kind: 3
-      kind_id: 37479
+      kind_id: 79842
       type: 1
-      name: avsp.zip
+      name: avspa.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 108694
-      asset_id: 50549
+    - id: 547537
+      asset_id: 94450
       name: avp.01
       size: 131072
       blob_id: 7449
-    - id: 108695
-      asset_id: 50549
+    - id: 547538
+      asset_id: 94450
       name: avp.05d
       size: 524288
       blob_id: 7450
-    - id: 108696
-      asset_id: 50549
+    - id: 547539
+      asset_id: 94450
       name: avp.06
       size: 524288
       blob_id: 7451
-    - id: 108697
-      asset_id: 50549
+    - id: 547540
+      asset_id: 94450
       name: avp.11m
       size: 2097152
       blob_id: 7452
-    - id: 108698
-      asset_id: 50549
+    - id: 547541
+      asset_id: 94450
       name: avp.12m
       size: 2097152
       blob_id: 7453
-    - id: 108699
-      asset_id: 50549
+    - id: 547542
+      asset_id: 94450
       name: avp.13m
       size: 2097152
       blob_id: 7454
-    - id: 108700
-      asset_id: 50549
+    - id: 547543
+      asset_id: 94450
       name: avp.14m
       size: 1048576
       blob_id: 7465
-    - id: 108701
-      asset_id: 50549
+    - id: 547544
+      asset_id: 94450
       name: avp.15m
       size: 2097152
       blob_id: 7456
-    - id: 108702
-      asset_id: 50549
+    - id: 547545
+      asset_id: 94450
       name: avp.16m
       size: 1048576
       blob_id: 7466
-    - id: 108703
-      asset_id: 50549
+    - id: 547546
+      asset_id: 94450
       name: avp.17m
       size: 2097152
       blob_id: 7458
-    - id: 108704
-      asset_id: 50549
+    - id: 547547
+      asset_id: 94450
       name: avp.18m
       size: 1048576
       blob_id: 7467
-    - id: 108705
-      asset_id: 50549
+    - id: 547548
+      asset_id: 94450
       name: avp.19m
       size: 2097152
       blob_id: 7460
-    - id: 108706
-      asset_id: 50549
+    - id: 547549
+      asset_id: 94450
       name: avp.20m
       size: 1048576
       blob_id: 7468
-    - id: 108707
-      asset_id: 50549
-      name: avpe.03d
+    - id: 547550
+      asset_id: 94450
+      name: avpa.03d
       size: 524288
-      blob_id: 7462
-    - id: 108708
-      asset_id: 50549
-      name: avpe.04d
+      blob_id: 7469
+    - id: 547551
+      asset_id: 94450
+      name: avpa.04d
       size: 524288
-      blob_id: 7463
-    - id: 108709
-      asset_id: 50549
-      name: avsp.key
+      blob_id: 7470
+    - id: 547552
+      asset_id: 94450
+      name: avspa.key
       size: 20
-      blob_id: 7464
+      blob_id: 7471
+- release:
+    id: 79843
+    game_id: 748
+    description: ""
+    release_date: 19940000
+  names:
+  - id: 204071
+    kind: 3
+    kind_id: 79843
+    language: 1
+    name: Alien vs. Predator (Europe 940520 Phoenix Edition) (bootleg)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 94451
+      kind: 3
+      kind_id: 79843
+      type: 1
+      name: avspd.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 547553
+      asset_id: 94451
+      name: avp.01
+      size: 131072
+      blob_id: 7449
+    - id: 547554
+      asset_id: 94451
+      name: avp.05d
+      size: 524288
+      blob_id: 7450
+    - id: 547555
+      asset_id: 94451
+      name: avp.11m
+      size: 2097152
+      blob_id: 7452
+    - id: 547556
+      asset_id: 94451
+      name: avp.12m
+      size: 2097152
+      blob_id: 7453
+    - id: 547557
+      asset_id: 94451
+      name: avp.13m
+      size: 2097152
+      blob_id: 7454
+    - id: 547558
+      asset_id: 94451
+      name: avp.14m
+      size: 1048576
+      blob_id: 7465
+    - id: 547559
+      asset_id: 94451
+      name: avp.15m
+      size: 2097152
+      blob_id: 7456
+    - id: 547560
+      asset_id: 94451
+      name: avp.16m
+      size: 1048576
+      blob_id: 7466
+    - id: 547561
+      asset_id: 94451
+      name: avp.17m
+      size: 2097152
+      blob_id: 7458
+    - id: 547562
+      asset_id: 94451
+      name: avp.18m
+      size: 1048576
+      blob_id: 7467
+    - id: 547563
+      asset_id: 94451
+      name: avp.19m
+      size: 2097152
+      blob_id: 7460
+    - id: 547564
+      asset_id: 94451
+      name: avp.20m
+      size: 1048576
+      blob_id: 7468
+    - id: 547565
+      asset_id: 94451
+      name: avpd.06
+      size: 524288
+      blob_id: 7472
+    - id: 547566
+      asset_id: 94451
+      name: avped.03d
+      size: 524288
+      blob_id: 7473
+    - id: 547567
+      asset_id: 94451
+      name: avped.04d
+      size: 524288
+      blob_id: 7474
+    - id: 547568
+      asset_id: 94451
+      name: phoenix.key
+      size: 20
+      blob_id: 290
+- release:
+    id: 79844
+    game_id: 748
+    description: ""
+    release_date: 19940000
+  names:
+  - id: 204072
+    kind: 3
+    kind_id: 79844
+    language: 1
+    name: Alien vs. Predator (Hispanic 940520)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 94452
+      kind: 3
+      kind_id: 79844
+      type: 1
+      name: avsph.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 547569
+      asset_id: 94452
+      name: avp.01
+      size: 131072
+      blob_id: 7449
+    - id: 547570
+      asset_id: 94452
+      name: avp.05d
+      size: 524288
+      blob_id: 7450
+    - id: 547571
+      asset_id: 94452
+      name: avp.06
+      size: 524288
+      blob_id: 7451
+    - id: 547572
+      asset_id: 94452
+      name: avp.11m
+      size: 2097152
+      blob_id: 7452
+    - id: 547573
+      asset_id: 94452
+      name: avp.12m
+      size: 2097152
+      blob_id: 7453
+    - id: 547574
+      asset_id: 94452
+      name: avp.13m
+      size: 2097152
+      blob_id: 7454
+    - id: 547575
+      asset_id: 94452
+      name: avp.14m
+      size: 1048576
+      blob_id: 7465
+    - id: 547576
+      asset_id: 94452
+      name: avp.15m
+      size: 2097152
+      blob_id: 7456
+    - id: 547577
+      asset_id: 94452
+      name: avp.16m
+      size: 1048576
+      blob_id: 7466
+    - id: 547578
+      asset_id: 94452
+      name: avp.17m
+      size: 2097152
+      blob_id: 7458
+    - id: 547579
+      asset_id: 94452
+      name: avp.18m
+      size: 1048576
+      blob_id: 7467
+    - id: 547580
+      asset_id: 94452
+      name: avp.19m
+      size: 2097152
+      blob_id: 7460
+    - id: 547581
+      asset_id: 94452
+      name: avp.20m
+      size: 1048576
+      blob_id: 7468
+    - id: 547582
+      asset_id: 94452
+      name: avph.03d
+      size: 524288
+      blob_id: 7475
+    - id: 547583
+      asset_id: 94452
+      name: avph.04d
+      size: 524288
+      blob_id: 7476
+    - id: 547584
+      asset_id: 94452
+      name: avsph.key
+      size: 20
+      blob_id: 7477
+- release:
+    id: 79845
+    game_id: 748
+    description: ""
+    release_date: 19940000
+  names:
+  - id: 204073
+    kind: 3
+    kind_id: 79845
+    language: 1
+    name: Alien vs. Predator (Japan 940520)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 94454
+      kind: 3
+      kind_id: 79845
+      type: 1
+      name: avspj.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 547597
+      asset_id: 94454
+      name: avp.01
+      size: 131072
+      blob_id: 7449
+    - id: 547598
+      asset_id: 94454
+      name: avp.05d
+      size: 524288
+      blob_id: 7450
+    - id: 547599
+      asset_id: 94454
+      name: avp.06
+      size: 524288
+      blob_id: 7451
+    - id: 547600
+      asset_id: 94454
+      name: avp.11m
+      size: 2097152
+      blob_id: 7452
+    - id: 547601
+      asset_id: 94454
+      name: avp.12m
+      size: 2097152
+      blob_id: 7453
+    - id: 547602
+      asset_id: 94454
+      name: avp.13m
+      size: 2097152
+      blob_id: 7454
+    - id: 547603
+      asset_id: 94454
+      name: avp.14m
+      size: 1048576
+      blob_id: 7465
+    - id: 547604
+      asset_id: 94454
+      name: avp.15m
+      size: 2097152
+      blob_id: 7456
+    - id: 547605
+      asset_id: 94454
+      name: avp.16m
+      size: 1048576
+      blob_id: 7466
+    - id: 547606
+      asset_id: 94454
+      name: avp.17m
+      size: 2097152
+      blob_id: 7458
+    - id: 547607
+      asset_id: 94454
+      name: avp.18m
+      size: 1048576
+      blob_id: 7467
+    - id: 547608
+      asset_id: 94454
+      name: avp.19m
+      size: 2097152
+      blob_id: 7460
+    - id: 547609
+      asset_id: 94454
+      name: avp.20m
+      size: 1048576
+      blob_id: 7468
+    - id: 547610
+      asset_id: 94454
+      name: avpj.03d
+      size: 524288
+      blob_id: 7478
+    - id: 547611
+      asset_id: 94454
+      name: avpj.04d
+      size: 524288
+      blob_id: 7479
+    - id: 547612
+      asset_id: 94454
+      name: avspj.key
+      size: 20
+      blob_id: 7480

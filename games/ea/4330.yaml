@@ -16,6 +16,12 @@ names:
   language: 2
   name: 变形金刚
   source: trimui
+- id: 188152
+  kind: 2
+  kind_id: 4330
+  language: 1
+  name: Astro Flash (Japan)
+  source: mame
 game_developers:
 - game_id: 4330
   developer_id: 110
@@ -119,24 +125,10 @@ releases:
       blob_id: 87122
       debug: arcade/wheel/transfrm.png
     entries: []
-- release:
-    id: 73715
-    game_id: 4330
-    description: ""
-    release_date: 19860000
-  names:
-  - id: 177334
-    kind: 3
-    kind_id: 73715
-    language: 1
-    name: Transformer
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 86785
+      id: 116088
       kind: 3
-      kind_id: 73715
+      kind_id: 4330
       type: 1
       name: transfrm.zip
       description: ""
@@ -145,28 +137,79 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 398898
-      asset_id: 86785
+    - id: 776105
+      asset_id: 116088
       name: epr-7347.ic5
       size: 32768
       blob_id: 46981
-    - id: 398899
-      asset_id: 86785
+    - id: 776106
+      asset_id: 116088
       name: epr-7348.ic4
       size: 32768
       blob_id: 46982
-    - id: 398900
-      asset_id: 86785
+    - id: 776107
+      asset_id: 116088
       name: epr-7350.ic2
       size: 32768
       blob_id: 46983
-    - id: 398901
-      asset_id: 86785
+    - id: 776108
+      asset_id: 116088
       name: epr-7605.ic7
       size: 32768
       blob_id: 46985
-    - id: 398902
-      asset_id: 86785
+    - id: 776109
+      asset_id: 116088
       name: epr-7606.ic3
       size: 32768
       blob_id: 46984
+- release:
+    id: 103397
+    game_id: 4330
+    description: ""
+    release_date: 19860000
+  names:
+  - id: 238373
+    kind: 3
+    kind_id: 103397
+    language: 1
+    name: Astro Flash (Japan)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 94256
+      kind: 3
+      kind_id: 103397
+      type: 1
+      name: astrofl.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 545829
+      asset_id: 94256
+      name: epr-7347.ic5
+      size: 32768
+      blob_id: 46981
+    - id: 545830
+      asset_id: 94256
+      name: epr-7348.ic4
+      size: 32768
+      blob_id: 46982
+    - id: 545831
+      asset_id: 94256
+      name: epr-7349.ic3
+      size: 32768
+      blob_id: 239709
+    - id: 545832
+      asset_id: 94256
+      name: epr-7350.ic2
+      size: 32768
+      blob_id: 46983
+    - id: 545833
+      asset_id: 94256
+      name: epr-7723.ic7
+      size: 32768
+      blob_id: 239710

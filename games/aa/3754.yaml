@@ -16,6 +16,12 @@ names:
   language: 2
   name: 射击机车手
   source: trimui
+- id: 199051
+  kind: 2
+  kind_id: 3754
+  language: 1
+  name: Shot Rider (bootleg)
+  source: mame
 game_developers:
 - game_id: 3754
   developer_id: 469
@@ -169,24 +175,10 @@ releases:
       blob_id: 88853
       debug: arcade/wheel/shtrider.png
     entries: []
-- release:
-    id: 70311
-    game_id: 3754
-    description: ""
-    release_date: 19850000
-  names:
-  - id: 170735
-    kind: 3
-    kind_id: 70311
-    language: 1
-    name: Shot Rider
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 83381
+      id: 113528
       kind: 3
-      kind_id: 70311
+      kind_id: 3754
       type: 1
       name: shtrider.zip
       description: ""
@@ -195,78 +187,275 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 364590
-      asset_id: 83381
+    - id: 745151
+      asset_id: 113528
       name: 1.bpr
       size: 256
       blob_id: 40318
-    - id: 364591
-      asset_id: 83381
+    - id: 745152
+      asset_id: 113528
       name: 2.bpr
       size: 256
       blob_id: 40322
-    - id: 364592
-      asset_id: 83381
+    - id: 745153
+      asset_id: 113528
       name: 3.bpr
       size: 256
       blob_id: 40324
-    - id: 364593
-      asset_id: 83381
+    - id: 745154
+      asset_id: 113528
       name: 4.bpr
       size: 32
       blob_id: 40326
-    - id: 364594
-      asset_id: 83381
+    - id: 745155
+      asset_id: 113528
       name: sr01a.bin
       size: 8192
-      blob_id: 181567
-    - id: 364595
-      asset_id: 83381
+      blob_id: 280719
+    - id: 745156
+      asset_id: 113528
       name: sr02a.bin
       size: 8192
-      blob_id: 181568
-    - id: 364596
-      asset_id: 83381
+      blob_id: 280720
+    - id: 745157
+      asset_id: 113528
       name: sr03a.bin
       size: 8192
-      blob_id: 181569
-    - id: 364597
-      asset_id: 83381
+      blob_id: 280721
+    - id: 745158
+      asset_id: 113528
       name: sr04a.bin
       size: 8192
       blob_id: 40325
-    - id: 364598
-      asset_id: 83381
+    - id: 745159
+      asset_id: 113528
       name: sr05a.bin
       size: 8192
       blob_id: 40327
-    - id: 364599
-      asset_id: 83381
+    - id: 745160
+      asset_id: 113528
       name: sr06a.bin
       size: 8192
       blob_id: 40328
-    - id: 364600
-      asset_id: 83381
+    - id: 745161
+      asset_id: 113528
       name: sr07a.bin
       size: 8192
       blob_id: 40329
-    - id: 364601
-      asset_id: 83381
+    - id: 745162
+      asset_id: 113528
       name: sr08a.bin
       size: 8192
       blob_id: 40330
-    - id: 364602
-      asset_id: 83381
+    - id: 745163
+      asset_id: 113528
       name: sr09a.bin
       size: 8192
       blob_id: 40331
-    - id: 364603
-      asset_id: 83381
+    - id: 745164
+      asset_id: 113528
       name: sr10b.bin
       size: 8192
       blob_id: 40319
-    - id: 364604
-      asset_id: 83381
+    - id: 745165
+      asset_id: 113528
       name: sr11a.bin
       size: 8192
       blob_id: 40320
+- release:
+    id: 97836
+    game_id: 3754
+    description: ""
+    release_date: 19840000
+  names:
+  - id: 230229
+    kind: 3
+    kind_id: 97836
+    language: 1
+    name: Shot Rider (Sigma license)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 113529
+      kind: 3
+      kind_id: 97836
+      type: 1
+      name: shtridera.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 745166
+      asset_id: 113529
+      name: 1.bin
+      size: 8192
+      blob_id: 40317
+    - id: 745167
+      asset_id: 113529
+      name: 1.bpr
+      size: 256
+      blob_id: 40318
+    - id: 745168
+      asset_id: 113529
+      name: 10.bin
+      size: 8192
+      blob_id: 40319
+    - id: 745169
+      asset_id: 113529
+      name: 11.bin
+      size: 8192
+      blob_id: 40320
+    - id: 745170
+      asset_id: 113529
+      name: 2.bin
+      size: 8192
+      blob_id: 40321
+    - id: 745171
+      asset_id: 113529
+      name: 2.bpr
+      size: 256
+      blob_id: 40322
+    - id: 745172
+      asset_id: 113529
+      name: 3.bin
+      size: 8192
+      blob_id: 40323
+    - id: 745173
+      asset_id: 113529
+      name: 3.bpr
+      size: 256
+      blob_id: 40324
+    - id: 745174
+      asset_id: 113529
+      name: 4.bin
+      size: 8192
+      blob_id: 40325
+    - id: 745175
+      asset_id: 113529
+      name: 4.bpr
+      size: 32
+      blob_id: 40326
+    - id: 745176
+      asset_id: 113529
+      name: 5.bin
+      size: 8192
+      blob_id: 40327
+    - id: 745177
+      asset_id: 113529
+      name: 6.bin
+      size: 8192
+      blob_id: 40328
+    - id: 745178
+      asset_id: 113529
+      name: 7.bin
+      size: 8192
+      blob_id: 40329
+    - id: 745179
+      asset_id: 113529
+      name: 8.bin
+      size: 8192
+      blob_id: 40330
+    - id: 745180
+      asset_id: 113529
+      name: 9.bin
+      size: 8192
+      blob_id: 40331
+- release:
+    id: 97837
+    game_id: 3754
+    description: ""
+    release_date: 19850000
+  names:
+  - id: 230230
+    kind: 3
+    kind_id: 97837
+    language: 1
+    name: Shot Rider (bootleg)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 113530
+      kind: 3
+      kind_id: 97837
+      type: 1
+      name: shtriderb.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 745181
+      asset_id: 113530
+      name: 6349-2.k2
+      size: 512
+      blob_id: 280722
+    - id: 745182
+      asset_id: 113530
+      name: prom1.6.f1
+      size: 32
+      blob_id: 40326
+    - id: 745183
+      asset_id: 113530
+      name: prom2.12.h2
+      size: 256
+      blob_id: 40324
+    - id: 745184
+      asset_id: 113530
+      name: sr1.20.m3
+      size: 8192
+      blob_id: 280723
+    - id: 745185
+      asset_id: 113530
+      name: sr10.19.k3
+      size: 8192
+      blob_id: 40319
+    - id: 745186
+      asset_id: 113530
+      name: sr11.7.a1
+      size: 8192
+      blob_id: 40320
+    - id: 745187
+      asset_id: 113530
+      name: sr2.21.l3
+      size: 8192
+      blob_id: 280724
+    - id: 745188
+      asset_id: 113530
+      name: sr3.22.k3
+      size: 8192
+      blob_id: 280725
+    - id: 745189
+      asset_id: 113530
+      name: sr4.23.h3
+      size: 8192
+      blob_id: 40325
+    - id: 745190
+      asset_id: 113530
+      name: sr5.f3
+      size: 8192
+      blob_id: 40327
+    - id: 745191
+      asset_id: 113530
+      name: sr6.c3
+      size: 8192
+      blob_id: 40328
+    - id: 745192
+      asset_id: 113530
+      name: sr7.a3
+      size: 8192
+      blob_id: 40329
+    - id: 745193
+      asset_id: 113530
+      name: sr8.17.n3
+      size: 8192
+      blob_id: 40330
+    - id: 745194
+      asset_id: 113530
+      name: sr9.18.m3
+      size: 8192
+      blob_id: 40331

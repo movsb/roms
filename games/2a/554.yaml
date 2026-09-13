@@ -16,6 +16,48 @@ names:
   language: 2
   name: 铁板阵 (Namco)
   source: trimui
+- id: 188335
+  kind: 2
+  kind_id: 554
+  language: 1
+  name: Battles (set 1)
+  source: mame
+- id: 188336
+  kind: 2
+  kind_id: 554
+  language: 1
+  name: Battles (set 2)
+  source: mame
+- id: 201554
+  kind: 2
+  kind_id: 554
+  language: 1
+  name: Xevios
+  source: mame
+- id: 201555
+  kind: 2
+  kind_id: 554
+  language: 1
+  name: Xevious (Atari, harder)
+  source: mame
+- id: 201556
+  kind: 2
+  kind_id: 554
+  language: 1
+  name: Xevious (Atari)
+  source: mame
+- id: 201557
+  kind: 2
+  kind_id: 554
+  language: 1
+  name: Xevious (Atari, Namco PCB)
+  source: mame
+- id: 201558
+  kind: 2
+  kind_id: 554
+  language: 1
+  name: Xevious (Atari, set 4)
+  source: mame
 game_developers:
 - game_id: 554
   developer_id: 19
@@ -224,164 +266,1249 @@ releases:
       blob_id: 88110
       debug: arcade/wheel/xevious.png
     entries: []
-- release:
-    id: 75899
-    game_id: 554
-    description: ""
-    release_date: 19820000
-  names:
-  - id: 181604
-    kind: 3
-    kind_id: 75899
-    language: 1
-    name: Xevious (Namco)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 88969
+      id: 118110
       kind: 3
-      kind_id: 75899
+      kind_id: 554
       type: 1
       name: xevious.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
-      debug: dat:mame:0.289
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/958630944
     entries:
-    - id: 423924
-      asset_id: 88969
+    - id: 800367
+      asset_id: 118110
       name: xvi-1.5n
       size: 256
       blob_id: 1465
-    - id: 423925
-      asset_id: 88969
+    - id: 800368
+      asset_id: 118110
       name: xvi-10.6e
       size: 256
       blob_id: 4899
-    - id: 423926
-      asset_id: 88969
+    - id: 800369
+      asset_id: 118110
       name: xvi-2.7n
       size: 256
       blob_id: 4902
-    - id: 423927
-      asset_id: 88969
+    - id: 800370
+      asset_id: 118110
       name: xvi-3.1f
       size: 279
-      blob_id: 198238
-    - id: 423928
-      asset_id: 88969
+      blob_id: 314168
+    - id: 800371
+      asset_id: 118110
       name: xvi-4.3l
       size: 512
       blob_id: 4905
-    - id: 423929
-      asset_id: 88969
+    - id: 800372
+      asset_id: 118110
       name: xvi-5.3m
       size: 512
       blob_id: 4907
-    - id: 423930
-      asset_id: 88969
+    - id: 800373
+      asset_id: 118110
       name: xvi-6.4f
       size: 512
       blob_id: 4909
-    - id: 423931
-      asset_id: 88969
+    - id: 800374
+      asset_id: 118110
       name: xvi-7.4h
       size: 512
       blob_id: 4910
-    - id: 423932
-      asset_id: 88969
+    - id: 800375
+      asset_id: 118110
       name: xvi-8.6a
       size: 256
       blob_id: 4911
-    - id: 423933
-      asset_id: 88969
+    - id: 800376
+      asset_id: 118110
       name: xvi-9.6d
       size: 256
       blob_id: 4912
-    - id: 423934
-      asset_id: 88969
+    - id: 800377
+      asset_id: 118110
       name: xvi_1.3p
       size: 4096
       blob_id: 4900
-    - id: 423935
-      asset_id: 88969
+    - id: 800378
+      asset_id: 118110
       name: xvi_10.2b
       size: 8192
       blob_id: 4515
-    - id: 423936
-      asset_id: 88969
+    - id: 800379
+      asset_id: 118110
       name: xvi_11.2c
       size: 4096
       blob_id: 4510
-    - id: 423937
-      asset_id: 88969
+    - id: 800380
+      asset_id: 118110
       name: xvi_12.3b
       size: 4096
       blob_id: 4511
-    - id: 423938
-      asset_id: 88969
+    - id: 800381
+      asset_id: 118110
       name: xvi_13.3c
       size: 4096
       blob_id: 4512
-    - id: 423939
-      asset_id: 88969
+    - id: 800382
+      asset_id: 118110
       name: xvi_14.3d
       size: 4096
       blob_id: 4513
-    - id: 423940
-      asset_id: 88969
+    - id: 800383
+      asset_id: 118110
       name: xvi_15.4m
       size: 8192
       blob_id: 4516
-    - id: 423941
-      asset_id: 88969
+    - id: 800384
+      asset_id: 118110
       name: xvi_16.4n
       size: 4096
       blob_id: 4518
-    - id: 423942
-      asset_id: 88969
+    - id: 800385
+      asset_id: 118110
       name: xvi_17.4p
       size: 8192
       blob_id: 4517
-    - id: 423943
-      asset_id: 88969
+    - id: 800386
+      asset_id: 118110
       name: xvi_18.4r
       size: 8192
       blob_id: 4514
-    - id: 423944
-      asset_id: 88969
+    - id: 800387
+      asset_id: 118110
       name: xvi_2.3m
       size: 4096
       blob_id: 4901
-    - id: 423945
-      asset_id: 88969
+    - id: 800388
+      asset_id: 118110
       name: xvi_3.2m
       size: 4096
       blob_id: 4903
-    - id: 423946
-      asset_id: 88969
+    - id: 800389
+      asset_id: 118110
       name: xvi_4.2l
       size: 4096
       blob_id: 4904
-    - id: 423947
-      asset_id: 88969
+    - id: 800390
+      asset_id: 118110
       name: xvi_5.3f
       size: 4096
       blob_id: 4906
-    - id: 423948
-      asset_id: 88969
+    - id: 800391
+      asset_id: 118110
       name: xvi_6.3j
       size: 4096
       blob_id: 4908
-    - id: 423949
-      asset_id: 88969
+    - id: 800392
+      asset_id: 118110
       name: xvi_7.2c
       size: 4096
       blob_id: 4502
-    - id: 423950
-      asset_id: 88969
+    - id: 800393
+      asset_id: 118110
       name: xvi_9.2a
       size: 4096
       blob_id: 4509
+- release:
+    id: 102089
+    game_id: 554
+    description: ""
+    release_date: 19820000
+  names:
+  - id: 236280
+    kind: 3
+    kind_id: 102089
+    language: 1
+    name: Xevious (Atari, harder)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 118111
+      kind: 3
+      kind_id: 102089
+      type: 1
+      name: xeviousa.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/1262156479
+    entries:
+    - id: 800394
+      asset_id: 118111
+      name: xea-1l-a.bin
+      size: 8192
+      blob_id: 314169
+    - id: 800395
+      asset_id: 118111
+      name: xea-1m-a.bin
+      size: 8192
+      blob_id: 314170
+    - id: 800396
+      asset_id: 118111
+      name: xea-4c-a.bin
+      size: 8192
+      blob_id: 314171
+    - id: 800397
+      asset_id: 118111
+      name: xvi-1.5n
+      size: 256
+      blob_id: 1465
+    - id: 800398
+      asset_id: 118111
+      name: xvi-10.6e
+      size: 256
+      blob_id: 4899
+    - id: 800399
+      asset_id: 118111
+      name: xvi-2.7n
+      size: 256
+      blob_id: 4902
+    - id: 800400
+      asset_id: 118111
+      name: xvi-3.1f
+      size: 279
+      blob_id: 314168
+    - id: 800401
+      asset_id: 118111
+      name: xvi-4.3l
+      size: 512
+      blob_id: 4905
+    - id: 800402
+      asset_id: 118111
+      name: xvi-5.3m
+      size: 512
+      blob_id: 4907
+    - id: 800403
+      asset_id: 118111
+      name: xvi-6.4f
+      size: 512
+      blob_id: 4909
+    - id: 800404
+      asset_id: 118111
+      name: xvi-7.4h
+      size: 512
+      blob_id: 4910
+    - id: 800405
+      asset_id: 118111
+      name: xvi-8.6a
+      size: 256
+      blob_id: 4911
+    - id: 800406
+      asset_id: 118111
+      name: xvi-9.6d
+      size: 256
+      blob_id: 4912
+    - id: 800407
+      asset_id: 118111
+      name: xvi_10.2b
+      size: 8192
+      blob_id: 4515
+    - id: 800408
+      asset_id: 118111
+      name: xvi_11.2c
+      size: 4096
+      blob_id: 4510
+    - id: 800409
+      asset_id: 118111
+      name: xvi_12.3b
+      size: 4096
+      blob_id: 4511
+    - id: 800410
+      asset_id: 118111
+      name: xvi_13.3c
+      size: 4096
+      blob_id: 4512
+    - id: 800411
+      asset_id: 118111
+      name: xvi_14.3d
+      size: 4096
+      blob_id: 4513
+    - id: 800412
+      asset_id: 118111
+      name: xvi_15.4m
+      size: 8192
+      blob_id: 4516
+    - id: 800413
+      asset_id: 118111
+      name: xvi_16.4n
+      size: 4096
+      blob_id: 4518
+    - id: 800414
+      asset_id: 118111
+      name: xvi_17.4p
+      size: 8192
+      blob_id: 4517
+    - id: 800415
+      asset_id: 118111
+      name: xvi_18.4r
+      size: 8192
+      blob_id: 4514
+    - id: 800416
+      asset_id: 118111
+      name: xvi_7.2c
+      size: 4096
+      blob_id: 4502
+    - id: 800417
+      asset_id: 118111
+      name: xvi_9.2a
+      size: 4096
+      blob_id: 4509
+- release:
+    id: 102090
+    game_id: 554
+    description: ""
+    release_date: 19820000
+  names:
+  - id: 236281
+    kind: 3
+    kind_id: 102090
+    language: 1
+    name: Xevious (Atari)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 118112
+      kind: 3
+      kind_id: 102090
+      type: 1
+      name: xeviousb.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/1708605096
+    entries:
+    - id: 800418
+      asset_id: 118112
+      name: 1l.bin
+      size: 8192
+      blob_id: 314172
+    - id: 800419
+      asset_id: 118112
+      name: 1m.bin
+      size: 8192
+      blob_id: 314173
+    - id: 800420
+      asset_id: 118112
+      name: 4c.bin
+      size: 8192
+      blob_id: 314174
+    - id: 800421
+      asset_id: 118112
+      name: xvi-1.5n
+      size: 256
+      blob_id: 1465
+    - id: 800422
+      asset_id: 118112
+      name: xvi-10.6e
+      size: 256
+      blob_id: 4899
+    - id: 800423
+      asset_id: 118112
+      name: xvi-2.7n
+      size: 256
+      blob_id: 4902
+    - id: 800424
+      asset_id: 118112
+      name: xvi-3.1f
+      size: 279
+      blob_id: 314168
+    - id: 800425
+      asset_id: 118112
+      name: xvi-4.3l
+      size: 512
+      blob_id: 4905
+    - id: 800426
+      asset_id: 118112
+      name: xvi-5.3m
+      size: 512
+      blob_id: 4907
+    - id: 800427
+      asset_id: 118112
+      name: xvi-6.4f
+      size: 512
+      blob_id: 4909
+    - id: 800428
+      asset_id: 118112
+      name: xvi-7.4h
+      size: 512
+      blob_id: 4910
+    - id: 800429
+      asset_id: 118112
+      name: xvi-8.6a
+      size: 256
+      blob_id: 4911
+    - id: 800430
+      asset_id: 118112
+      name: xvi-9.6d
+      size: 256
+      blob_id: 4912
+    - id: 800431
+      asset_id: 118112
+      name: xvi_10.2b
+      size: 8192
+      blob_id: 4515
+    - id: 800432
+      asset_id: 118112
+      name: xvi_11.2c
+      size: 4096
+      blob_id: 4510
+    - id: 800433
+      asset_id: 118112
+      name: xvi_12.3b
+      size: 4096
+      blob_id: 4511
+    - id: 800434
+      asset_id: 118112
+      name: xvi_13.3c
+      size: 4096
+      blob_id: 4512
+    - id: 800435
+      asset_id: 118112
+      name: xvi_14.3d
+      size: 4096
+      blob_id: 4513
+    - id: 800436
+      asset_id: 118112
+      name: xvi_15.4m
+      size: 8192
+      blob_id: 4516
+    - id: 800437
+      asset_id: 118112
+      name: xvi_16.4n
+      size: 4096
+      blob_id: 4518
+    - id: 800438
+      asset_id: 118112
+      name: xvi_17.4p
+      size: 8192
+      blob_id: 4517
+    - id: 800439
+      asset_id: 118112
+      name: xvi_18.4r
+      size: 8192
+      blob_id: 4514
+    - id: 800440
+      asset_id: 118112
+      name: xvi_7.2c
+      size: 4096
+      blob_id: 4502
+    - id: 800441
+      asset_id: 118112
+      name: xvi_9.2a
+      size: 4096
+      blob_id: 4509
+- release:
+    id: 102091
+    game_id: 554
+    description: ""
+    release_date: 19820000
+  names:
+  - id: 236282
+    kind: 3
+    kind_id: 102091
+    language: 1
+    name: Xevious (Atari, Namco PCB)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 118113
+      kind: 3
+      kind_id: 102091
+      type: 1
+      name: xeviousc.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/2439401890
+    entries:
+    - id: 800442
+      asset_id: 118113
+      name: xv2_5.3f
+      size: 4096
+      blob_id: 314175
+    - id: 800443
+      asset_id: 118113
+      name: xv_2-2.3m
+      size: 4096
+      blob_id: 314176
+    - id: 800444
+      asset_id: 118113
+      name: xv_2-3.2m
+      size: 4096
+      blob_id: 314177
+    - id: 800445
+      asset_id: 118113
+      name: xvi-1.5n
+      size: 256
+      blob_id: 1465
+    - id: 800446
+      asset_id: 118113
+      name: xvi-10.6e
+      size: 256
+      blob_id: 4899
+    - id: 800447
+      asset_id: 118113
+      name: xvi-2.7n
+      size: 256
+      blob_id: 4902
+    - id: 800448
+      asset_id: 118113
+      name: xvi-3.1f
+      size: 279
+      blob_id: 314168
+    - id: 800449
+      asset_id: 118113
+      name: xvi-4.3l
+      size: 512
+      blob_id: 4905
+    - id: 800450
+      asset_id: 118113
+      name: xvi-5.3m
+      size: 512
+      blob_id: 4907
+    - id: 800451
+      asset_id: 118113
+      name: xvi-6.4f
+      size: 512
+      blob_id: 4909
+    - id: 800452
+      asset_id: 118113
+      name: xvi-7.4h
+      size: 512
+      blob_id: 4910
+    - id: 800453
+      asset_id: 118113
+      name: xvi-8.6a
+      size: 256
+      blob_id: 4911
+    - id: 800454
+      asset_id: 118113
+      name: xvi-9.6d
+      size: 256
+      blob_id: 4912
+    - id: 800455
+      asset_id: 118113
+      name: xvi_10.2b
+      size: 8192
+      blob_id: 4515
+    - id: 800456
+      asset_id: 118113
+      name: xvi_11.2c
+      size: 4096
+      blob_id: 4510
+    - id: 800457
+      asset_id: 118113
+      name: xvi_12.3b
+      size: 4096
+      blob_id: 4511
+    - id: 800458
+      asset_id: 118113
+      name: xvi_13.3c
+      size: 4096
+      blob_id: 4512
+    - id: 800459
+      asset_id: 118113
+      name: xvi_14.3d
+      size: 4096
+      blob_id: 4513
+    - id: 800460
+      asset_id: 118113
+      name: xvi_15.4m
+      size: 8192
+      blob_id: 4516
+    - id: 800461
+      asset_id: 118113
+      name: xvi_16.4n
+      size: 4096
+      blob_id: 4518
+    - id: 800462
+      asset_id: 118113
+      name: xvi_17.4p
+      size: 8192
+      blob_id: 4517
+    - id: 800463
+      asset_id: 118113
+      name: xvi_18.4r
+      size: 8192
+      blob_id: 4514
+    - id: 800464
+      asset_id: 118113
+      name: xvi_6.3j
+      size: 4096
+      blob_id: 4908
+    - id: 800465
+      asset_id: 118113
+      name: xvi_7.2c
+      size: 4096
+      blob_id: 4502
+    - id: 800466
+      asset_id: 118113
+      name: xvi_9.2a
+      size: 4096
+      blob_id: 4509
+    - id: 800467
+      asset_id: 118113
+      name: xvi_u_.2l
+      size: 4096
+      blob_id: 314178
+    - id: 800468
+      asset_id: 118113
+      name: xvi_u_.3p
+      size: 4096
+      blob_id: 314179
+- release:
+    id: 102092
+    game_id: 554
+    description: ""
+    release_date: 19830000
+  names:
+  - id: 236283
+    kind: 3
+    kind_id: 102092
+    language: 1
+    name: Xevious (Atari, set 4)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 118114
+      kind: 3
+      kind_id: 102092
+      type: 1
+      name: xeviousd.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/3345278246
+    entries:
+    - id: 800469
+      asset_id: 118114
+      name: 1983_atari_136018_111.3l
+      size: 512
+      blob_id: 4905
+    - id: 800470
+      asset_id: 118114
+      name: 1983_atari_136018_112.3m
+      size: 512
+      blob_id: 4907
+    - id: 800471
+      asset_id: 118114
+      name: 1983_atari_136018_113.4f
+      size: 512
+      blob_id: 4909
+    - id: 800472
+      asset_id: 118114
+      name: 1983_atari_136018_114.4h
+      size: 512
+      blob_id: 4910
+    - id: 800473
+      asset_id: 118114
+      name: 1983_atari_136018_115.6a
+      size: 256
+      blob_id: 4911
+    - id: 800474
+      asset_id: 118114
+      name: 1983_atari_136018_116.6d
+      size: 256
+      blob_id: 4912
+    - id: 800475
+      asset_id: 118114
+      name: 1983_atari_136018_117.6e
+      size: 256
+      blob_id: 4899
+    - id: 800476
+      asset_id: 118114
+      name: 1983_atari_136018_128.6m
+      size: 256
+      blob_id: 1465
+    - id: 800477
+      asset_id: 118114
+      name: 1983_atari_136018_129.8m
+      size: 256
+      blob_id: 4902
+    - id: 800478
+      asset_id: 118114
+      name: 1983_atari_8306_136018_120.4c
+      size: 8192
+      blob_id: 314171
+    - id: 800479
+      asset_id: 118114
+      name: 1983_atari_8306_136018_127.2c
+      size: 4096
+      blob_id: 4502
+    - id: 800480
+      asset_id: 118114
+      name: 1983_atari_8307_136018_101.2a
+      size: 4096
+      blob_id: 4509
+    - id: 800481
+      asset_id: 118114
+      name: 1983_atari_8307_136018_102.2b
+      size: 8192
+      blob_id: 4515
+    - id: 800482
+      asset_id: 118114
+      name: 1983_atari_8307_136018_103.2c
+      size: 4096
+      blob_id: 4510
+    - id: 800483
+      asset_id: 118114
+      name: 1983_atari_8307_136018_104.3b
+      size: 4096
+      blob_id: 4511
+    - id: 800484
+      asset_id: 118114
+      name: 1983_atari_8307_136018_105.3c
+      size: 4096
+      blob_id: 4512
+    - id: 800485
+      asset_id: 118114
+      name: 1983_atari_8307_136018_106.3d
+      size: 4096
+      blob_id: 4513
+    - id: 800486
+      asset_id: 118114
+      name: 1983_atari_8307_136018_107.4m
+      size: 8192
+      blob_id: 4516
+    - id: 800487
+      asset_id: 118114
+      name: 1983_atari_8307_136018_108.4n
+      size: 4096
+      blob_id: 4518
+    - id: 800488
+      asset_id: 118114
+      name: 1983_atari_8307_136018_109.4p
+      size: 8192
+      blob_id: 4517
+    - id: 800489
+      asset_id: 118114
+      name: 1983_atari_8307_136018_110.4r
+      size: 8192
+      blob_id: 4514
+    - id: 800490
+      asset_id: 118114
+      name: 1983_atari_8307_136018_219.1l
+      size: 8192
+      blob_id: 314180
+    - id: 800491
+      asset_id: 118114
+      name: 1983_atari_8309_136018_218.1m
+      size: 8192
+      blob_id: 314181
+    - id: 800492
+      asset_id: 118114
+      name: n82s153n.1f
+      size: 279
+      blob_id: 314168
+- release:
+    id: 103457
+    game_id: 554
+    description: ""
+    release_date: 19820000
+  names:
+  - id: 238433
+    kind: 3
+    kind_id: 103457
+    language: 1
+    name: Battles (set 1)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 94681
+      kind: 3
+      kind_id: 103457
+      type: 1
+      name: battles.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 549338
+      asset_id: 94681
+      name: b_-bpr.bin
+      size: 512
+      blob_id: 4910
+    - id: 549339
+      asset_id: 94681
+      name: b_4bpr.bin
+      size: 512
+      blob_id: 4905
+    - id: 549340
+      asset_id: 94681
+      name: b_5bpr.bin
+      size: 512
+      blob_id: 4907
+    - id: 549341
+      asset_id: 94681
+      name: b_6bpr.bin
+      size: 512
+      blob_id: 4909
+    - id: 549342
+      asset_id: 94681
+      name: bg1.d9
+      size: 8192
+      blob_id: 240102
+    - id: 549343
+      asset_id: 94681
+      name: bg10.c8
+      size: 4096
+      blob_id: 240103
+    - id: 549344
+      asset_id: 94681
+      name: bg11.c7
+      size: 4096
+      blob_id: 240104
+    - id: 549345
+      asset_id: 94681
+      name: bg12.c8
+      size: 4096
+      blob_id: 4518
+    - id: 549346
+      asset_id: 94681
+      name: bg13.c6
+      size: 8192
+      blob_id: 4516
+    - id: 549347
+      asset_id: 94681
+      name: bg14.c4
+      size: 8192
+      blob_id: 4517
+    - id: 549348
+      asset_id: 94681
+      name: bg15.c2
+      size: 8192
+      blob_id: 4514
+    - id: 549349
+      asset_id: 94681
+      name: bg2.d10
+      size: 8192
+      blob_id: 240105
+    - id: 549350
+      asset_id: 94681
+      name: bg3.d12
+      size: 8192
+      blob_id: 4915
+    - id: 549351
+      asset_id: 94681
+      name: bg4.d13
+      size: 4096
+      blob_id: 4502
+    - id: 549352
+      asset_id: 94681
+      name: bg5.h5
+      size: 4096
+      blob_id: 240106
+    - id: 549353
+      asset_id: 94681
+      name: bg6.b14
+      size: 4096
+      blob_id: 4509
+    - id: 549354
+      asset_id: 94681
+      name: bg7.b12
+      size: 8192
+      blob_id: 4515
+    - id: 549355
+      asset_id: 94681
+      name: bg8.b11
+      size: 4096
+      blob_id: 4510
+    - id: 549356
+      asset_id: 94681
+      name: bg9.c10
+      size: 4096
+      blob_id: 240107
+    - id: 549357
+      asset_id: 94681
+      name: xvi-1.5n
+      size: 256
+      blob_id: 1465
+    - id: 549358
+      asset_id: 94681
+      name: xvi-10.6e
+      size: 256
+      blob_id: 4899
+    - id: 549359
+      asset_id: 94681
+      name: xvi-2.7n
+      size: 256
+      blob_id: 4902
+    - id: 549360
+      asset_id: 94681
+      name: xvi-8.6a
+      size: 256
+      blob_id: 4911
+    - id: 549361
+      asset_id: 94681
+      name: xvi-9.6d
+      size: 256
+      blob_id: 4912
+- release:
+    id: 103458
+    game_id: 554
+    description: ""
+    release_date: 19820000
+  names:
+  - id: 238434
+    kind: 3
+    kind_id: 103458
+    language: 1
+    name: Battles (set 2)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 94682
+      kind: 3
+      kind_id: 103458
+      type: 1
+      name: battles2.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 549362
+      asset_id: 94682
+      name: 7643_bg.c5
+      size: 512
+      blob_id: 4905
+    - id: 549363
+      asset_id: 94682
+      name: 7643_bg.c6
+      size: 512
+      blob_id: 4907
+    - id: 549364
+      asset_id: 94682
+      name: 7643_bg.f13
+      size: 512
+      blob_id: 4909
+    - id: 549365
+      asset_id: 94682
+      name: 7643_bg.f14
+      size: 512
+      blob_id: 4910
+    - id: 549366
+      asset_id: 94682
+      name: 82s123_bg.c10
+      size: 256
+      blob_id: 1465
+    - id: 549367
+      asset_id: 94682
+      name: 82s123_bg.f10
+      size: 256
+      blob_id: 4902
+    - id: 549368
+      asset_id: 94682
+      name: 82s123_bg.h12
+      size: 256
+      blob_id: 4911
+    - id: 549369
+      asset_id: 94682
+      name: 82s123_bg.h13
+      size: 256
+      blob_id: 4912
+    - id: 549370
+      asset_id: 94682
+      name: 82s123_bg.h14
+      size: 256
+      blob_id: 4899
+    - id: 549371
+      asset_id: 94682
+      name: bg1.h7
+      size: 4096
+      blob_id: 240108
+    - id: 549372
+      asset_id: 94682
+      name: bg10.d1
+      size: 4096
+      blob_id: 240109
+    - id: 549373
+      asset_id: 94682
+      name: bg11.d2
+      size: 8192
+      blob_id: 4515
+    - id: 549374
+      asset_id: 94682
+      name: bg12.d3
+      size: 4096
+      blob_id: 240110
+    - id: 549375
+      asset_id: 94682
+      name: bg13.d4
+      size: 8192
+      blob_id: 4516
+    - id: 549376
+      asset_id: 94682
+      name: bg14.d6
+      size: 4096
+      blob_id: 4518
+    - id: 549377
+      asset_id: 94682
+      name: bg15.d7
+      size: 8192
+      blob_id: 4517
+    - id: 549378
+      asset_id: 94682
+      name: bg16.d8
+      size: 8192
+      blob_id: 240111
+    - id: 549379
+      asset_id: 94682
+      name: bg17.f8
+      size: 4096
+      blob_id: 240112
+    - id: 549380
+      asset_id: 94682
+      name: bg18.f9
+      size: 4096
+      blob_id: 240103
+    - id: 549381
+      asset_id: 94682
+      name: bg19.f11
+      size: 4096
+      blob_id: 240104
+    - id: 549382
+      asset_id: 94682
+      name: bg2.h6
+      size: 4096
+      blob_id: 240113
+    - id: 549383
+      asset_id: 94682
+      name: bg3.h5
+      size: 4096
+      blob_id: 4903
+    - id: 549384
+      asset_id: 94682
+      name: bg4.h4
+      size: 4096
+      blob_id: 240114
+    - id: 549385
+      asset_id: 94682
+      name: bg5.h2
+      size: 4096
+      blob_id: 4906
+    - id: 549386
+      asset_id: 94682
+      name: bg6.h1
+      size: 4096
+      blob_id: 4908
+    - id: 549387
+      asset_id: 94682
+      name: bg7.h8
+      size: 4096
+      blob_id: 4502
+    - id: 549388
+      asset_id: 94682
+      name: bg8.b17
+      size: 8192
+      blob_id: 240115
+    - id: 549389
+      asset_id: 94682
+      name: bg9.j16
+      size: 4096
+      blob_id: 240116
+    - id: 549390
+      asset_id: 94682
+      name: pal10l8_bg.a16
+      size: 44
+      blob_id: 240117
+- release:
+    id: 105010
+    game_id: 554
+    description: ""
+    release_date: 19820000
+  names:
+  - id: 239986
+    kind: 3
+    kind_id: 105010
+    language: 1
+    name: Xevios
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 118109
+      kind: 3
+      kind_id: 105010
+      type: 1
+      name: xevios.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/2919777492
+    entries:
+    - id: 800338
+      asset_id: 118109
+      name: 1.10f
+      size: 256
+      blob_id: 4902
+    - id: 800339
+      asset_id: 118109
+      name: 1.16j
+      size: 4096
+      blob_id: 240116
+    - id: 800340
+      asset_id: 118109
+      name: 10.14h
+      size: 256
+      blob_id: 4899
+    - id: 800341
+      asset_id: 118109
+      name: 10.1d
+      size: 4096
+      blob_id: 240109
+    - id: 800342
+      asset_id: 118109
+      name: 11.2d
+      size: 8192
+      blob_id: 4515
+    - id: 800343
+      asset_id: 118109
+      name: 12.3d
+      size: 4096
+      blob_id: 240110
+    - id: 800344
+      asset_id: 118109
+      name: 13.4d
+      size: 8192
+      blob_id: 4516
+    - id: 800345
+      asset_id: 118109
+      name: 14.6d
+      size: 4096
+      blob_id: 4518
+    - id: 800346
+      asset_id: 118109
+      name: 15.7d
+      size: 8192
+      blob_id: 4517
+    - id: 800347
+      asset_id: 118109
+      name: 16.8d
+      size: 8192
+      blob_id: 240111
+    - id: 800348
+      asset_id: 118109
+      name: 17.8f
+      size: 4096
+      blob_id: 4511
+    - id: 800349
+      asset_id: 118109
+      name: 18.9f
+      size: 4096
+      blob_id: 4512
+    - id: 800350
+      asset_id: 118109
+      name: 19.11f
+      size: 4096
+      blob_id: 4513
+    - id: 800351
+      asset_id: 118109
+      name: 2.10c
+      size: 256
+      blob_id: 1465
+    - id: 800352
+      asset_id: 118109
+      name: 2.17b
+      size: 8192
+      blob_id: 240115
+    - id: 800353
+      asset_id: 118109
+      name: 3.9h
+      size: 4096
+      blob_id: 4502
+    - id: 800354
+      asset_id: 118109
+      name: 4.7h
+      size: 4096
+      blob_id: 314164
+    - id: 800355
+      asset_id: 118109
+      name: 5.6c
+      size: 512
+      blob_id: 4907
+    - id: 800356
+      asset_id: 118109
+      name: 5.6h
+      size: 4096
+      blob_id: 314165
+    - id: 800357
+      asset_id: 118109
+      name: 6.13f
+      size: 512
+      blob_id: 4909
+    - id: 800358
+      asset_id: 118109
+      name: 6.5c
+      size: 512
+      blob_id: 4905
+    - id: 800359
+      asset_id: 118109
+      name: 6.5h
+      size: 4096
+      blob_id: 4903
+    - id: 800360
+      asset_id: 118109
+      name: 7.14f
+      size: 512
+      blob_id: 4910
+    - id: 800361
+      asset_id: 118109
+      name: 7.4h
+      size: 4096
+      blob_id: 314166
+    - id: 800362
+      asset_id: 118109
+      name: 8.12h
+      size: 256
+      blob_id: 4911
+    - id: 800363
+      asset_id: 118109
+      name: 8.2h
+      size: 4096
+      blob_id: 4906
+    - id: 800364
+      asset_id: 118109
+      name: 9.13h
+      size: 256
+      blob_id: 4912
+    - id: 800365
+      asset_id: 118109
+      name: 9.1h
+      size: 4096
+      blob_id: 4908
+    - id: 800366
+      asset_id: 118109
+      name: pal10l8.16a.bin
+      size: 44
+      blob_id: 314167

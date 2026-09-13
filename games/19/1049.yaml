@@ -16,6 +16,12 @@ names:
   language: 2
   name: 蜜蜂方块 (美版)
   source: trimui
+- id: 188950
+  kind: 2
+  kind_id: 1049
+  language: 1
+  name: Cosmo Gang the Puzzle (Japan)
+  source: mame
 game_developers:
 - game_id: 1049
   developer_id: 19
@@ -104,24 +110,10 @@ releases:
       blob_id: 88972
       debug: arcade/wheel/cgangpzl.png
     entries: []
-- release:
-    id: 39143
-    game_id: 1049
-    description: ""
-    release_date: 19920000
-  names:
-  - id: 109301
-    kind: 3
-    kind_id: 39143
-    language: 1
-    name: Cosmo Gang the Puzzle (US)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 52213
+      id: 95930
       kind: 3
-      kind_id: 39143
+      kind_id: 1049
       type: 1
       name: cgangpzl.zip
       description: ""
@@ -130,39 +122,25 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 127766
-      asset_id: 52213
+    - id: 565611
+      asset_id: 95930
       name: cp2-ep0l.4c
       size: 524288
       blob_id: 11232
-    - id: 127767
-      asset_id: 52213
+    - id: 565612
+      asset_id: 95930
       name: cp2-ep0u.4f
       size: 524288
       blob_id: 11233
-    - id: 127768
-      asset_id: 52213
+    - id: 565613
+      asset_id: 95930
       name: eeprom_cgangpzl
       size: 2048
-      blob_id: 103204
-- release:
-    id: 76415
-    game_id: 1049
-    description: ""
-    release_date: 19920000
-  names:
-  - id: 182492
-    kind: 3
-    kind_id: 76415
-    language: 1
-    name: Cosmo Gang the Puzzle (US)
-    source: fbneo
-  release_publishers: []
-  assets:
+      blob_id: 208399
   - asset:
-      id: 89485
+      id: 118636
       kind: 3
-      kind_id: 76415
+      kind_id: 1049
       type: 1
       name: cgangpzl.zip
       description: ""
@@ -171,23 +149,96 @@ releases:
       blob_id: 0
       debug: dat:fbneo:5fa9b68a
     entries:
-    - id: 432588
-      asset_id: 89485
-      name: c69.bin
-      size: 16384
-      blob_id: 17229
-    - id: 432589
-      asset_id: 89485
+    - id: 809133
+      asset_id: 118636
       name: cp2-ep0l.4c
       size: 524288
       blob_id: 11232
-    - id: 432590
-      asset_id: 89485
+    - id: 809134
+      asset_id: 118636
       name: cp2-ep0u.4f
       size: 524288
       blob_id: 11233
-    - id: 432591
-      asset_id: 89485
+    - id: 809135
+      asset_id: 118636
       name: eeprom_cgangpzl
       size: 2048
-      blob_id: 103204
+      blob_id: 208399
+    - id: 809136
+      asset_id: 118636
+      name: c69.bin
+      size: 16384
+      blob_id: 17229
+- release:
+    id: 81198
+    game_id: 1049
+    description: ""
+    release_date: 19920000
+  names:
+  - id: 206185
+    kind: 3
+    kind_id: 81198
+    language: 1
+    name: Cosmo Gang the Puzzle (Japan)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 95931
+      kind: 3
+      kind_id: 81198
+      type: 1
+      name: cgangpzlj.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 565614
+      asset_id: 95931
+      name: cp1-ep0l.4c
+      size: 524288
+      blob_id: 241779
+    - id: 565615
+      asset_id: 95931
+      name: cp1-ep0u.4f
+      size: 524288
+      blob_id: 241780
+    - id: 565616
+      asset_id: 95931
+      name: eeprom_cgangpzlj
+      size: 2048
+      blob_id: 241781
+  - asset:
+      id: 118635
+      kind: 3
+      kind_id: 81198
+      type: 1
+      name: cgangpzlj.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 809129
+      asset_id: 118635
+      name: cp1-ep0l.4c
+      size: 524288
+      blob_id: 241779
+    - id: 809130
+      asset_id: 118635
+      name: cp1-ep0u.4f
+      size: 524288
+      blob_id: 241780
+    - id: 809131
+      asset_id: 118635
+      name: eeprom_cgangpzlj
+      size: 2048
+      blob_id: 241781
+    - id: 809132
+      asset_id: 118635
+      name: c69.bin
+      size: 16384
+      blob_id: 17229

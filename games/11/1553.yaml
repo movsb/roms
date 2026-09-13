@@ -16,6 +16,12 @@ names:
   language: 2
   name: 古今东西干支物语 (日版)
   source: trimui
+- id: 190231
+  kind: 2
+  kind_id: 1553
+  language: 1
+  name: Kokontouzai Eto Monogatari (Japan, prototype?)
+  source: mame
 game_developers:
 - game_id: 1553
   developer_id: 508
@@ -124,3 +130,59 @@ releases:
       blob_id: 88075
       debug: arcade/wheel/eto.png
     entries: []
+- release:
+    id: 83542
+    game_id: 1553
+    description: ""
+    release_date: 19940000
+  names:
+  - id: 209763
+    kind: 3
+    kind_id: 83542
+    language: 1
+    name: Kokontouzai Eto Monogatari (Japan, prototype?)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 98469
+      kind: 3
+      kind_id: 83542
+      type: 1
+      name: etoa.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 598094
+      asset_id: 98469
+      name: ob.ic6
+      size: 524288
+      blob_id: 17074
+    - id: 598095
+      asset_id: 98469
+      name: pd.ic30
+      size: 524288
+      blob_id: 245428
+    - id: 598096
+      asset_id: 98469
+      name: pe.ic23
+      size: 131072
+      blob_id: 245429
+    - id: 598097
+      asset_id: 98469
+      name: po.ic8
+      size: 131072
+      blob_id: 245430
+    - id: 598098
+      asset_id: 98469
+      name: sc.ic3
+      size: 524288
+      blob_id: 17075
+    - id: 598099
+      asset_id: 98469
+      name: sd.ic27
+      size: 65536
+      blob_id: 17076

@@ -16,6 +16,18 @@ names:
   language: 2
   name: 仓库番 (世界版, SB2)
   source: trimui
+- id: 188604
+  kind: 2
+  kind_id: 937
+  language: 1
+  name: Boxy Boy (SB?)
+  source: mame
+- id: 199292
+  kind: 2
+  kind_id: 937
+  language: 1
+  name: Souko Ban Deluxe (Japan, SB1)
+  source: mame
 game_developers:
 - game_id: 937
   developer_id: 19
@@ -154,24 +166,10 @@ releases:
       blob_id: 91248
       debug: arcade/wheel/boxyboy.png
     entries: []
-- release:
-    id: 38431
-    game_id: 937
-    description: ""
-    release_date: 19900000
-  names:
-  - id: 107925
-    kind: 3
-    kind_id: 38431
-    language: 1
-    name: Boxy Boy (World, SB2)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 51501
+      id: 95262
       kind: 3
-      kind_id: 38431
+      kind_id: 937
       type: 1
       name: boxyboy.zip
       description: ""
@@ -180,63 +178,235 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 118609
-      asset_id: 51501
+    - id: 556789
+      asset_id: 95262
       name: cus64-64a1.mcu
       size: 4096
       blob_id: 7725
-    - id: 118610
-      asset_id: 51501
+    - id: 556790
+      asset_id: 95262
       name: sb1_chr0.bin
       size: 131072
       blob_id: 9720
-    - id: 118611
-      asset_id: 51501
+    - id: 556791
+      asset_id: 95262
       name: sb1_chr1.bin
       size: 131072
       blob_id: 9721
-    - id: 118612
-      asset_id: 51501
+    - id: 556792
+      asset_id: 95262
       name: sb1_chr2.bin
       size: 131072
       blob_id: 9722
-    - id: 118613
-      asset_id: 51501
+    - id: 556793
+      asset_id: 95262
       name: sb1_chr3.bin
       size: 131072
       blob_id: 9723
-    - id: 118614
-      asset_id: 51501
+    - id: 556794
+      asset_id: 95262
       name: sb1_chr8.bin
       size: 65536
       blob_id: 9724
-    - id: 118615
-      asset_id: 51501
+    - id: 556795
+      asset_id: 95262
       name: sb1_obj0.bin
       size: 65536
       blob_id: 9725
-    - id: 118616
-      asset_id: 51501
+    - id: 556796
+      asset_id: 95262
       name: sb1_prg0.bin
       size: 131072
       blob_id: 9726
-    - id: 118617
-      asset_id: 51501
+    - id: 556797
+      asset_id: 95262
       name: sb1_prg1.bin
       size: 131072
       blob_id: 9727
-    - id: 118618
-      asset_id: 51501
+    - id: 556798
+      asset_id: 95262
       name: sb1_snd0.bin
       size: 65536
       blob_id: 9728
-    - id: 118619
-      asset_id: 51501
+    - id: 556799
+      asset_id: 95262
       name: sb1_voi0.bin
       size: 65536
       blob_id: 9729
-    - id: 118620
-      asset_id: 51501
+    - id: 556800
+      asset_id: 95262
       name: sb2_prg7.bin
       size: 65536
-      blob_id: 100785
+      blob_id: 206999
+- release:
+    id: 80583
+    game_id: 937
+    description: ""
+    release_date: 19900000
+  names:
+  - id: 205232
+    kind: 3
+    kind_id: 80583
+    language: 1
+    name: Boxy Boy (SB?)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 95263
+      kind: 3
+      kind_id: 80583
+      type: 1
+      name: boxyboya.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 556801
+      asset_id: 95263
+      name: cus64-64a1.mcu
+      size: 4096
+      blob_id: 7725
+    - id: 556802
+      asset_id: 95263
+      name: sb1_chr0.bin
+      size: 131072
+      blob_id: 9720
+    - id: 556803
+      asset_id: 95263
+      name: sb1_chr1.bin
+      size: 131072
+      blob_id: 9721
+    - id: 556804
+      asset_id: 95263
+      name: sb1_chr2.bin
+      size: 131072
+      blob_id: 9722
+    - id: 556805
+      asset_id: 95263
+      name: sb1_chr3.bin
+      size: 131072
+      blob_id: 9723
+    - id: 556806
+      asset_id: 95263
+      name: sb1_chr8.bin
+      size: 65536
+      blob_id: 9724
+    - id: 556807
+      asset_id: 95263
+      name: sb1_obj0.bin
+      size: 65536
+      blob_id: 9725
+    - id: 556808
+      asset_id: 95263
+      name: sb1_prg0.bin
+      size: 131072
+      blob_id: 9726
+    - id: 556809
+      asset_id: 95263
+      name: sb1_prg1.bin
+      size: 131072
+      blob_id: 9727
+    - id: 556810
+      asset_id: 95263
+      name: sb1_snd0.bin
+      size: 65536
+      blob_id: 9728
+    - id: 556811
+      asset_id: 95263
+      name: sb1_voi0.bin
+      size: 65536
+      blob_id: 9729
+    - id: 556812
+      asset_id: 95263
+      name: sbx_prg7.bin
+      size: 65536
+      blob_id: 9730
+- release:
+    id: 98239
+    game_id: 937
+    description: ""
+    release_date: 19900000
+  names:
+  - id: 230792
+    kind: 3
+    kind_id: 98239
+    language: 1
+    name: Souko Ban Deluxe (Japan, SB1)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 113970
+      kind: 3
+      kind_id: 98239
+      type: 1
+      name: soukobdx.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 750824
+      asset_id: 113970
+      name: cus64-64a1.mcu
+      size: 4096
+      blob_id: 7725
+    - id: 750825
+      asset_id: 113970
+      name: sb1_chr0.bin
+      size: 131072
+      blob_id: 9720
+    - id: 750826
+      asset_id: 113970
+      name: sb1_chr1.bin
+      size: 131072
+      blob_id: 9721
+    - id: 750827
+      asset_id: 113970
+      name: sb1_chr2.bin
+      size: 131072
+      blob_id: 9722
+    - id: 750828
+      asset_id: 113970
+      name: sb1_chr3.bin
+      size: 131072
+      blob_id: 9723
+    - id: 750829
+      asset_id: 113970
+      name: sb1_chr8.bin
+      size: 65536
+      blob_id: 9724
+    - id: 750830
+      asset_id: 113970
+      name: sb1_obj0.bin
+      size: 65536
+      blob_id: 9725
+    - id: 750831
+      asset_id: 113970
+      name: sb1_prg0.bin
+      size: 131072
+      blob_id: 9726
+    - id: 750832
+      asset_id: 113970
+      name: sb1_prg1.bin
+      size: 131072
+      blob_id: 9727
+    - id: 750833
+      asset_id: 113970
+      name: sb1_prg7.bin
+      size: 65536
+      blob_id: 282123
+    - id: 750834
+      asset_id: 113970
+      name: sb1_snd0.bin
+      size: 65536
+      blob_id: 9728
+    - id: 750835
+      asset_id: 113970
+      name: sb1_voi0.bin
+      size: 65536
+      blob_id: 9729

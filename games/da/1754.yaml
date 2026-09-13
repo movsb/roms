@@ -16,6 +16,18 @@ names:
   language: 2
   name: 巡弋飞艇 (317-0006)
   source: trimui
+- id: 191064
+  kind: 2
+  kind_id: 1754
+  language: 1
+  name: Gardia (317-0007?, bootleg)
+  source: mame
+- id: 191065
+  kind: 2
+  kind_id: 1754
+  language: 1
+  name: Gardia (Japan, 317-0006)
+  source: mame
 game_developers:
 - game_id: 1754
   developer_id: 110
@@ -169,24 +181,10 @@ releases:
       blob_id: 89836
       debug: arcade/wheel/gardia.png
     entries: []
-- release:
-    id: 44552
-    game_id: 1754
-    description: ""
-    release_date: 19860000
-  names:
-  - id: 119856
-    kind: 3
-    kind_id: 44552
-    language: 1
-    name: Gardia (317-0006)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 57622
+      id: 99808
       kind: 3
-      kind_id: 44552
+      kind_id: 1754
       type: 1
       name: gardia.zip
       description: ""
@@ -195,78 +193,290 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 180218
-      asset_id: 57622
+    - id: 611986
+      asset_id: 99808
       name: epr-10233.110
       size: 32768
       blob_id: 19436
-    - id: 180219
-      asset_id: 57622
+    - id: 611987
+      asset_id: 99808
       name: epr-10234.117
       size: 32768
       blob_id: 19437
-    - id: 180220
-      asset_id: 57622
+    - id: 611988
+      asset_id: 99808
       name: epr-10235.5
       size: 32768
       blob_id: 19438
-    - id: 180221
-      asset_id: 57622
+    - id: 611989
+      asset_id: 99808
       name: epr-10236.04
       size: 32768
       blob_id: 19439
-    - id: 180222
-      asset_id: 57622
+    - id: 611990
+      asset_id: 99808
       name: epr-10243.120
       size: 16384
       blob_id: 19440
-    - id: 180223
-      asset_id: 57622
+    - id: 611991
+      asset_id: 99808
       name: epr-10247.66
       size: 16384
       blob_id: 19441
-    - id: 180224
-      asset_id: 57622
+    - id: 611992
+      asset_id: 99808
       name: epr-10248.64
       size: 16384
       blob_id: 19442
-    - id: 180225
-      asset_id: 57622
+    - id: 611993
+      asset_id: 99808
       name: epr-10249.61
       size: 16384
       blob_id: 19443
-    - id: 180226
-      asset_id: 57622
+    - id: 611994
+      asset_id: 99808
       name: epr-10253.3
       size: 32768
       blob_id: 19444
-    - id: 180227
-      asset_id: 57622
+    - id: 611995
+      asset_id: 99808
       name: epr-10254.2
       size: 32768
       blob_id: 19445
-    - id: 180228
-      asset_id: 57622
+    - id: 611996
+      asset_id: 99808
       name: epr-10255.1
       size: 32768
       blob_id: 19446
-    - id: 180229
-      asset_id: 57622
+    - id: 611997
+      asset_id: 99808
       name: pr-7343.1
       size: 256
       blob_id: 9741
-    - id: 180230
-      asset_id: 57622
+    - id: 611998
+      asset_id: 99808
       name: pr-7344.2
       size: 256
       blob_id: 9742
-    - id: 180231
-      asset_id: 57622
+    - id: 611999
+      asset_id: 99808
       name: pr-7345.3
       size: 256
       blob_id: 9743
-    - id: 180232
-      asset_id: 57622
+    - id: 612000
+      asset_id: 99808
       name: pr5317.4
+      size: 256
+      blob_id: 668
+- release:
+    id: 84794
+    game_id: 1754
+    description: ""
+    release_date: 19860000
+  names:
+  - id: 211577
+    kind: 3
+    kind_id: 84794
+    language: 1
+    name: Gardia (317-0007?, bootleg)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 99809
+      kind: 3
+      kind_id: 84794
+      type: 1
+      name: gardiab.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 612001
+      asset_id: 99809
+      name: epr-10233.110
+      size: 32768
+      blob_id: 19436
+    - id: 612002
+      asset_id: 99809
+      name: epr-10234.117
+      size: 32768
+      blob_id: 19437
+    - id: 612003
+      asset_id: 99809
+      name: epr-10235.5
+      size: 32768
+      blob_id: 19438
+    - id: 612004
+      asset_id: 99809
+      name: epr-10236.04
+      size: 32768
+      blob_id: 19439
+    - id: 612005
+      asset_id: 99809
+      name: epr-10243.120
+      size: 16384
+      blob_id: 19440
+    - id: 612006
+      asset_id: 99809
+      name: gardiabl.10
+      size: 16384
+      blob_id: 247340
+    - id: 612007
+      asset_id: 99809
+      name: gardiabl.5
+      size: 32768
+      blob_id: 247341
+    - id: 612008
+      asset_id: 99809
+      name: gardiabl.6
+      size: 32768
+      blob_id: 247342
+    - id: 612009
+      asset_id: 99809
+      name: gardiabl.7
+      size: 32768
+      blob_id: 247343
+    - id: 612010
+      asset_id: 99809
+      name: gardiabl.8
+      size: 16384
+      blob_id: 247344
+    - id: 612011
+      asset_id: 99809
+      name: gardiabl.9
+      size: 16384
+      blob_id: 247345
+    - id: 612012
+      asset_id: 99809
+      name: pr-7343.1
+      size: 256
+      blob_id: 9741
+    - id: 612013
+      asset_id: 99809
+      name: pr-7344.2
+      size: 256
+      blob_id: 9742
+    - id: 612014
+      asset_id: 99809
+      name: pr-7345.3
+      size: 256
+      blob_id: 9743
+    - id: 612015
+      asset_id: 99809
+      name: pr5317.4
+      size: 256
+      blob_id: 668
+- release:
+    id: 84795
+    game_id: 1754
+    description: ""
+    release_date: 19860000
+  names:
+  - id: 211578
+    kind: 3
+    kind_id: 84795
+    language: 1
+    name: Gardia (Japan, 317-0006)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 99810
+      kind: 3
+      kind_id: 84795
+      type: 1
+      name: gardiaj.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 612016
+      asset_id: 99810
+      name: 315-5137.bin
+      size: 260
+      blob_id: 40298
+    - id: 612017
+      asset_id: 99810
+      name: 315-5138.bin
+      size: 260
+      blob_id: 11658
+    - id: 612018
+      asset_id: 99810
+      name: epr-10233.ic86
+      size: 32768
+      blob_id: 19436
+    - id: 612019
+      asset_id: 99810
+      name: epr-10234.ic87
+      size: 32768
+      blob_id: 19437
+    - id: 612020
+      asset_id: 99810
+      name: epr-10235.ic88
+      size: 32768
+      blob_id: 19438
+    - id: 612021
+      asset_id: 99810
+      name: epr-10236.ic89
+      size: 32768
+      blob_id: 19439
+    - id: 612022
+      asset_id: 99810
+      name: epr-10240.ic4
+      size: 32768
+      blob_id: 247346
+    - id: 612023
+      asset_id: 99810
+      name: epr-10241.ic5
+      size: 32768
+      blob_id: 247347
+    - id: 612024
+      asset_id: 99810
+      name: epr-10242.ic6
+      size: 32768
+      blob_id: 247348
+    - id: 612025
+      asset_id: 99810
+      name: epr-10243.ic126
+      size: 16384
+      blob_id: 19440
+    - id: 612026
+      asset_id: 99810
+      name: epr-10250.ic90
+      size: 32768
+      blob_id: 247349
+    - id: 612027
+      asset_id: 99810
+      name: epr-10251.ic91
+      size: 32768
+      blob_id: 247342
+    - id: 612028
+      asset_id: 99810
+      name: epr-10252.ic92
+      size: 32768
+      blob_id: 247343
+    - id: 612029
+      asset_id: 99810
+      name: pr-7343.ic8
+      size: 256
+      blob_id: 9741
+    - id: 612030
+      asset_id: 99810
+      name: pr-7344.ic14
+      size: 256
+      blob_id: 9742
+    - id: 612031
+      asset_id: 99810
+      name: pr-7345.ic20
+      size: 256
+      blob_id: 9743
+    - id: 612032
+      asset_id: 99810
+      name: pr5317.ic28
       size: 256
       blob_id: 668

@@ -16,6 +16,18 @@ names:
   language: 2
   name: 马赫战机 3
   source: trimui
+- id: 192808
+  kind: 2
+  kind_id: 288
+  language: 1
+  name: M.A.C.H. 3 (set 2)
+  source: mame
+- id: 192809
+  kind: 2
+  kind_id: 288
+  language: 1
+  name: M.A.C.H. 3 (set 3)
+  source: mame
 game_developers: []
 game_genres: []
 assets: []
@@ -122,24 +134,10 @@ releases:
       name: MACH3FG3.BIN
       size: 8192
       blob_id: 2772
-- release:
-    id: 57417
-    game_id: 288
-    description: ""
-    release_date: 19830000
-  names:
-  - id: 145331
-    kind: 3
-    kind_id: 57417
-    language: 1
-    name: M.A.C.H. 3 (set 1)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 70487
+      id: 103444
       kind: 3
-      kind_id: 57417
+      kind_id: 288
       type: 1
       name: mach3.zip
       description: ""
@@ -148,68 +146,250 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 257330
-      asset_id: 70487
+    - id: 653236
+      asset_id: 103444
       name: m3drom1.bin
       size: 4096
       blob_id: 2759
-    - id: 257331
-      asset_id: 70487
+    - id: 653237
+      asset_id: 103444
       name: m3rom0.bin
       size: 8192
       blob_id: 2760
-    - id: 257332
-      asset_id: 70487
+    - id: 653238
+      asset_id: 103444
       name: m3rom1.bin
       size: 8192
       blob_id: 2761
-    - id: 257333
-      asset_id: 70487
+    - id: 653239
+      asset_id: 103444
       name: m3rom2.bin
       size: 8192
       blob_id: 2762
-    - id: 257334
-      asset_id: 70487
+    - id: 653240
+      asset_id: 103444
       name: m3rom3.bin
       size: 8192
       blob_id: 2763
-    - id: 257335
-      asset_id: 70487
+    - id: 653241
+      asset_id: 103444
       name: m3rom4.bin
       size: 8192
       blob_id: 2764
-    - id: 257336
-      asset_id: 70487
+    - id: 653242
+      asset_id: 103444
       name: m3yrom1.bin
       size: 4096
       blob_id: 2765
-    - id: 257337
-      asset_id: 70487
+    - id: 653243
+      asset_id: 103444
       name: mach3bg0.bin
       size: 4096
       blob_id: 2767
-    - id: 257338
-      asset_id: 70487
+    - id: 653244
+      asset_id: 103444
       name: mach3bg1.bin
       size: 4096
       blob_id: 2768
-    - id: 257339
-      asset_id: 70487
+    - id: 653245
+      asset_id: 103444
       name: mach3fg0.bin
       size: 8192
       blob_id: 2769
-    - id: 257340
-      asset_id: 70487
+    - id: 653246
+      asset_id: 103444
       name: mach3fg1.bin
       size: 8192
       blob_id: 2770
-    - id: 257341
-      asset_id: 70487
+    - id: 653247
+      asset_id: 103444
       name: mach3fg2.bin
       size: 8192
       blob_id: 2771
-    - id: 257342
-      asset_id: 70487
+    - id: 653248
+      asset_id: 103444
       name: mach3fg3.bin
       size: 8192
       blob_id: 2772
+- release:
+    id: 88154
+    game_id: 288
+    description: ""
+    release_date: 19830000
+  names:
+  - id: 216865
+    kind: 3
+    kind_id: 88154
+    language: 1
+    name: M.A.C.H. 3 (set 2)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 103445
+      kind: 3
+      kind_id: 88154
+      type: 1
+      name: mach3a.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 653249
+      asset_id: 103445
+      name: m3drom1.bin
+      size: 4096
+      blob_id: 2759
+    - id: 653250
+      asset_id: 103445
+      name: m3rom0.bin
+      size: 8192
+      blob_id: 2760
+    - id: 653251
+      asset_id: 103445
+      name: m3rom1.bin
+      size: 8192
+      blob_id: 2761
+    - id: 653252
+      asset_id: 103445
+      name: m3rom2-1.bin
+      size: 8192
+      blob_id: 256302
+    - id: 653253
+      asset_id: 103445
+      name: m3rom3.bin
+      size: 8192
+      blob_id: 2763
+    - id: 653254
+      asset_id: 103445
+      name: m3rom4.bin
+      size: 8192
+      blob_id: 2764
+    - id: 653255
+      asset_id: 103445
+      name: m3yrom1.bin
+      size: 4096
+      blob_id: 2765
+    - id: 653256
+      asset_id: 103445
+      name: mach3bg0.bin
+      size: 4096
+      blob_id: 2767
+    - id: 653257
+      asset_id: 103445
+      name: mach3bg1.bin
+      size: 4096
+      blob_id: 2768
+    - id: 653258
+      asset_id: 103445
+      name: mach3fg0.bin
+      size: 8192
+      blob_id: 2769
+    - id: 653259
+      asset_id: 103445
+      name: mach3fg1.bin
+      size: 8192
+      blob_id: 2770
+    - id: 653260
+      asset_id: 103445
+      name: mach3fg2.bin
+      size: 8192
+      blob_id: 2771
+    - id: 653261
+      asset_id: 103445
+      name: mach3fg3.bin
+      size: 8192
+      blob_id: 2772
+- release:
+    id: 88155
+    game_id: 288
+    description: ""
+    release_date: 19830000
+  names:
+  - id: 216866
+    kind: 3
+    kind_id: 88155
+    language: 1
+    name: M.A.C.H. 3 (set 3)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 103446
+      kind: 3
+      kind_id: 88155
+      type: 1
+      name: mach3b.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 653262
+      asset_id: 103446
+      name: m3drom1.bin
+      size: 4096
+      blob_id: 2759
+    - id: 653263
+      asset_id: 103446
+      name: m3yrom1.bin
+      size: 4096
+      blob_id: 2765
+    - id: 653264
+      asset_id: 103446
+      name: mach3bg0.bin
+      size: 4096
+      blob_id: 2767
+    - id: 653265
+      asset_id: 103446
+      name: mach3bg1.bin
+      size: 4096
+      blob_id: 2768
+    - id: 653266
+      asset_id: 103446
+      name: mach3fg0.bin
+      size: 8192
+      blob_id: 2769
+    - id: 653267
+      asset_id: 103446
+      name: mach3fg1.bin
+      size: 8192
+      blob_id: 2770
+    - id: 653268
+      asset_id: 103446
+      name: mach3fg2.bin
+      size: 8192
+      blob_id: 2771
+    - id: 653269
+      asset_id: 103446
+      name: mach3fg3.bin
+      size: 8192
+      blob_id: 2772
+    - id: 653270
+      asset_id: 103446
+      name: rom0
+      size: 8192
+      blob_id: 256303
+    - id: 653271
+      asset_id: 103446
+      name: rom1
+      size: 8192
+      blob_id: 256304
+    - id: 653272
+      asset_id: 103446
+      name: rom2
+      size: 8192
+      blob_id: 256305
+    - id: 653273
+      asset_id: 103446
+      name: rom3
+      size: 8192
+      blob_id: 256306
+    - id: 653274
+      asset_id: 103446
+      name: rom4
+      size: 8192
+      blob_id: 256307

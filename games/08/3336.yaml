@@ -10,6 +10,12 @@ names:
   language: 1
   name: recordbr
   source: ""
+- id: 191250
+  kind: 2
+  kind_id: 3336
+  language: 1
+  name: Go For The Gold (Japan)
+  source: mame
 game_developers:
 - game_id: 3336
   developer_id: 35
@@ -40,98 +46,6 @@ releases:
   - release_id: 3336
     publisher_id: 306
   assets:
-  - asset:
-      id: 3321
-      kind: 3
-      kind_id: 3336
-      type: 1
-      name: recordbr.zip
-      description: ""
-      format: 2
-      size: 1168063
-      blob_id: 0
-      debug: recordbr.zip
-    entries:
-    - id: 55008
-      asset_id: 3321
-      name: b56-01.bin
-      size: 131072
-      blob_id: 35709
-    - id: 55009
-      asset_id: 3321
-      name: b56-02.bin
-      size: 131072
-      blob_id: 35710
-    - id: 55010
-      asset_id: 3321
-      name: b56-03.bin
-      size: 131072
-      blob_id: 35711
-    - id: 55011
-      asset_id: 3321
-      name: b56-04.bin
-      size: 131072
-      blob_id: 35712
-    - id: 55012
-      asset_id: 3321
-      name: b56-05.bin
-      size: 131072
-      blob_id: 35713
-    - id: 55013
-      asset_id: 3321
-      name: b56-06.bin
-      size: 131072
-      blob_id: 35714
-    - id: 55014
-      asset_id: 3321
-      name: b56-07.bin
-      size: 131072
-      blob_id: 35715
-    - id: 55015
-      asset_id: 3321
-      name: b56-08.bin
-      size: 131072
-      blob_id: 35716
-    - id: 55016
-      asset_id: 3321
-      name: b56-09.bin
-      size: 524288
-      blob_id: 35717
-    - id: 55017
-      asset_id: 3321
-      name: b56-10.bin
-      size: 524288
-      blob_id: 35718
-    - id: 55018
-      asset_id: 3321
-      name: b56-15.bin
-      size: 131072
-      blob_id: 35719
-    - id: 55019
-      asset_id: 3321
-      name: b56-16.bin
-      size: 131072
-      blob_id: 35720
-    - id: 55020
-      asset_id: 3321
-      name: b56-17.bin
-      size: 131072
-      blob_id: 35721
-    - id: 55021
-      asset_id: 3321
-      name: b56-18.bin
-      size: 8192
-      blob_id: 15376
-    - id: 55022
-      asset_id: 3321
-      name: b56-19.bin
-      size: 65536
-      blob_id: 35722
-    - id: 55023
-      asset_id: 3321
-      name: b56-21.bin
-      size: 131072
-      blob_id: 35723
   - asset:
       id: 45126
       kind: 3
@@ -297,10 +211,116 @@ releases:
     language: 1
     name: Recordbreaker (World)
     source: mame
-  release_publishers: []
+  - id: 184092
+    kind: 3
+    kind_id: 63353
+    language: 1
+    name: recordbr
+    source: ""
+  - id: 184093
+    kind: 3
+    kind_id: 63353
+    language: 2
+    name: 世界铁人运动会 (世界版)
+    source: trimui
+  release_publishers:
+  - release_id: 63353
+    publisher_id: 306
   assets:
   - asset:
-      id: 76423
+      id: 3321
+      kind: 3
+      kind_id: 63353
+      type: 1
+      name: recordbr.zip
+      description: ""
+      format: 2
+      size: 1168063
+      blob_id: 0
+      debug: recordbr.zip
+    entries:
+    - id: 55008
+      asset_id: 3321
+      name: b56-01.bin
+      size: 131072
+      blob_id: 35709
+    - id: 55009
+      asset_id: 3321
+      name: b56-02.bin
+      size: 131072
+      blob_id: 35710
+    - id: 55010
+      asset_id: 3321
+      name: b56-03.bin
+      size: 131072
+      blob_id: 35711
+    - id: 55011
+      asset_id: 3321
+      name: b56-04.bin
+      size: 131072
+      blob_id: 35712
+    - id: 55012
+      asset_id: 3321
+      name: b56-05.bin
+      size: 131072
+      blob_id: 35713
+    - id: 55013
+      asset_id: 3321
+      name: b56-06.bin
+      size: 131072
+      blob_id: 35714
+    - id: 55014
+      asset_id: 3321
+      name: b56-07.bin
+      size: 131072
+      blob_id: 35715
+    - id: 55015
+      asset_id: 3321
+      name: b56-08.bin
+      size: 131072
+      blob_id: 35716
+    - id: 55016
+      asset_id: 3321
+      name: b56-09.bin
+      size: 524288
+      blob_id: 35717
+    - id: 55017
+      asset_id: 3321
+      name: b56-10.bin
+      size: 524288
+      blob_id: 35718
+    - id: 55018
+      asset_id: 3321
+      name: b56-15.bin
+      size: 131072
+      blob_id: 35719
+    - id: 55019
+      asset_id: 3321
+      name: b56-16.bin
+      size: 131072
+      blob_id: 35720
+    - id: 55020
+      asset_id: 3321
+      name: b56-17.bin
+      size: 131072
+      blob_id: 35721
+    - id: 55021
+      asset_id: 3321
+      name: b56-18.bin
+      size: 8192
+      blob_id: 15376
+    - id: 55022
+      asset_id: 3321
+      name: b56-19.bin
+      size: 65536
+      blob_id: 35722
+    - id: 55023
+      asset_id: 3321
+      name: b56-21.bin
+      size: 131072
+      blob_id: 35723
+  - asset:
+      id: 109031
       kind: 3
       kind_id: 63353
       type: 1
@@ -311,83 +331,281 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 319766
-      asset_id: 76423
+    - id: 712794
+      asset_id: 109031
       name: b56-01.ic48
       size: 131072
       blob_id: 35709
-    - id: 319767
-      asset_id: 76423
+    - id: 712795
+      asset_id: 109031
       name: b56-02.ic49
       size: 131072
       blob_id: 35710
-    - id: 319768
-      asset_id: 76423
+    - id: 712796
+      asset_id: 109031
       name: b56-03.ic50
       size: 131072
       blob_id: 35711
-    - id: 319769
-      asset_id: 76423
+    - id: 712797
+      asset_id: 109031
       name: b56-04.ic51
       size: 131072
       blob_id: 35712
-    - id: 319770
-      asset_id: 76423
+    - id: 712798
+      asset_id: 109031
       name: b56-05.ic62
       size: 131072
       blob_id: 35713
-    - id: 319771
-      asset_id: 76423
+    - id: 712799
+      asset_id: 109031
       name: b56-06.ic63
       size: 131072
       blob_id: 35714
-    - id: 319772
-      asset_id: 76423
+    - id: 712800
+      asset_id: 109031
       name: b56-07.ic64
       size: 131072
       blob_id: 35715
-    - id: 319773
-      asset_id: 76423
+    - id: 712801
+      asset_id: 109031
       name: b56-08.ic65
       size: 131072
       blob_id: 35716
-    - id: 319774
-      asset_id: 76423
+    - id: 712802
+      asset_id: 109031
       name: b56-09.ic42
       size: 524288
       blob_id: 35717
-    - id: 319775
-      asset_id: 76423
+    - id: 712803
+      asset_id: 109031
       name: b56-10.ic41
       size: 524288
       blob_id: 35718
-    - id: 319776
-      asset_id: 76423
+    - id: 712804
+      asset_id: 109031
       name: b56-15.ic35
       size: 131072
       blob_id: 35719
-    - id: 319777
-      asset_id: 76423
+    - id: 712805
+      asset_id: 109031
       name: b56-16.ic18
       size: 131072
       blob_id: 35720
-    - id: 319778
-      asset_id: 76423
+    - id: 712806
+      asset_id: 109031
       name: b56-17.ic36
       size: 131072
       blob_id: 35721
-    - id: 319779
-      asset_id: 76423
+    - id: 712807
+      asset_id: 109031
       name: b56-18.ic39
       size: 8192
       blob_id: 15376
-    - id: 319780
-      asset_id: 76423
+    - id: 712808
+      asset_id: 109031
       name: b56-19.ic56
       size: 65536
       blob_id: 35722
-    - id: 319781
-      asset_id: 76423
+    - id: 712809
+      asset_id: 109031
       name: b56-21.ic17
       size: 131072
       blob_id: 35723
+- release:
+    id: 104047
+    game_id: 3336
+    description: ""
+    release_date: 19880000
+  names:
+  - id: 239023
+    kind: 3
+    kind_id: 104047
+    language: 1
+    name: Go For The Gold (Japan)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 100217
+      kind: 3
+      kind_id: 104047
+      type: 1
+      name: gogold.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 616994
+      asset_id: 100217
+      name: b56-01.ic48
+      size: 131072
+      blob_id: 35709
+    - id: 616995
+      asset_id: 100217
+      name: b56-02.ic49
+      size: 131072
+      blob_id: 35710
+    - id: 616996
+      asset_id: 100217
+      name: b56-03.ic50
+      size: 131072
+      blob_id: 35711
+    - id: 616997
+      asset_id: 100217
+      name: b56-04.ic51
+      size: 131072
+      blob_id: 35712
+    - id: 616998
+      asset_id: 100217
+      name: b56-05.ic62
+      size: 131072
+      blob_id: 35713
+    - id: 616999
+      asset_id: 100217
+      name: b56-06.ic63
+      size: 131072
+      blob_id: 35714
+    - id: 617000
+      asset_id: 100217
+      name: b56-07.ic64
+      size: 131072
+      blob_id: 35715
+    - id: 617001
+      asset_id: 100217
+      name: b56-08.ic65
+      size: 131072
+      blob_id: 35716
+    - id: 617002
+      asset_id: 100217
+      name: b56-09.ic42
+      size: 524288
+      blob_id: 35717
+    - id: 617003
+      asset_id: 100217
+      name: b56-10.ic41
+      size: 524288
+      blob_id: 35718
+    - id: 617004
+      asset_id: 100217
+      name: b56-14.ic17
+      size: 131072
+      blob_id: 35724
+    - id: 617005
+      asset_id: 100217
+      name: b56-15.ic35
+      size: 131072
+      blob_id: 35719
+    - id: 617006
+      asset_id: 100217
+      name: b56-16.ic18
+      size: 131072
+      blob_id: 35720
+    - id: 617007
+      asset_id: 100217
+      name: b56-17.ic36
+      size: 131072
+      blob_id: 35721
+    - id: 617008
+      asset_id: 100217
+      name: b56-18.ic39
+      size: 8192
+      blob_id: 15376
+    - id: 617009
+      asset_id: 100217
+      name: b56-19.ic56
+      size: 65536
+      blob_id: 35722
+  - asset:
+      id: 118849
+      kind: 3
+      kind_id: 104047
+      type: 1
+      name: gogold.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 814230
+      asset_id: 118849
+      name: b56-01.bin
+      size: 131072
+      blob_id: 35709
+    - id: 814231
+      asset_id: 118849
+      name: b56-02.bin
+      size: 131072
+      blob_id: 35710
+    - id: 814232
+      asset_id: 118849
+      name: b56-03.bin
+      size: 131072
+      blob_id: 35711
+    - id: 814233
+      asset_id: 118849
+      name: b56-04.bin
+      size: 131072
+      blob_id: 35712
+    - id: 814234
+      asset_id: 118849
+      name: b56-05.bin
+      size: 131072
+      blob_id: 35713
+    - id: 814235
+      asset_id: 118849
+      name: b56-06.bin
+      size: 131072
+      blob_id: 35714
+    - id: 814236
+      asset_id: 118849
+      name: b56-07.bin
+      size: 131072
+      blob_id: 35715
+    - id: 814237
+      asset_id: 118849
+      name: b56-08.bin
+      size: 131072
+      blob_id: 35716
+    - id: 814238
+      asset_id: 118849
+      name: b56-09.bin
+      size: 524288
+      blob_id: 35717
+    - id: 814239
+      asset_id: 118849
+      name: b56-10.bin
+      size: 524288
+      blob_id: 35718
+    - id: 814240
+      asset_id: 118849
+      name: b56-14.bin
+      size: 131072
+      blob_id: 35724
+    - id: 814241
+      asset_id: 118849
+      name: b56-15.bin
+      size: 131072
+      blob_id: 35719
+    - id: 814242
+      asset_id: 118849
+      name: b56-16.bin
+      size: 131072
+      blob_id: 35720
+    - id: 814243
+      asset_id: 118849
+      name: b56-17.bin
+      size: 131072
+      blob_id: 35721
+    - id: 814244
+      asset_id: 118849
+      name: b56-18.bin
+      size: 8192
+      blob_id: 15376
+    - id: 814245
+      asset_id: 118849
+      name: b56-19.bin
+      size: 65536
+      blob_id: 35722

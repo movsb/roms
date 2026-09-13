@@ -16,6 +16,24 @@ names:
   language: 2
   name: 台球少女 V.I.P (第一套)
   source: trimui
+- id: 190865
+  kind: 2
+  kind_id: 3080
+  language: 1
+  name: Gals Hustler (set 1)
+  source: mame
+- id: 190866
+  kind: 2
+  kind_id: 3080
+  language: 1
+  name: Gals Hustler (set 2)
+  source: mame
+- id: 194783
+  kind: 2
+  kind_id: 3080
+  language: 1
+  name: Pocket Gals V.I.P (set 2)
+  source: mame
 game_developers: []
 game_genres: []
 assets: []
@@ -122,24 +140,10 @@ releases:
       name: pgalvipa/pgalvip_5.u5
       size: 524288
       blob_id: 32779
-- release:
-    id: 61520
-    game_id: 3080
-    description: ""
-    release_date: 19960000
-  names:
-  - id: 153368
-    kind: 3
-    kind_id: 61520
-    language: 1
-    name: Pocket Gals V.I.P (set 1)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 74590
+      id: 107438
       kind: 3
-      kind_id: 61520
+      kind_id: 3080
       type: 1
       name: pgalvip.zip
       description: ""
@@ -148,38 +152,191 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 300214
-      asset_id: 74590
+    - id: 694666
+      asset_id: 107438
       name: afega_11.uc6
       size: 524288
       blob_id: 32766
-    - id: 300215
-      asset_id: 74590
+    - id: 694667
+      asset_id: 107438
       name: afega_12.ub6
       size: 131072
       blob_id: 32767
-    - id: 300216
-      asset_id: 74590
+    - id: 694668
+      asset_id: 107438
       name: afega_13.rob1
       size: 524288
       blob_id: 32768
-    - id: 300217
-      asset_id: 74590
+    - id: 694669
+      asset_id: 107438
       name: afega_14.roa1
       size: 524288
       blob_id: 32769
-    - id: 300218
-      asset_id: 74590
+    - id: 694670
+      asset_id: 107438
       name: afega_15.ue17
       size: 131072
       blob_id: 32770
-    - id: 300219
-      asset_id: 74590
+    - id: 694671
+      asset_id: 107438
       name: afega_16.ud17
       size: 131072
       blob_id: 32771
-    - id: 300220
-      asset_id: 74590
+    - id: 694672
+      asset_id: 107438
       name: afega_17.u5
       size: 524288
       blob_id: 32772
+- release:
+    id: 91972
+    game_id: 3080
+    description: ""
+    release_date: 19970000
+  names:
+  - id: 222658
+    kind: 3
+    kind_id: 91972
+    language: 1
+    name: Pocket Gals V.I.P (set 2)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 107439
+      kind: 3
+      kind_id: 91972
+      type: 1
+      name: pgalvipa.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 694673
+      asset_id: 107439
+      name: pgalvip_1.ub6
+      size: 131072
+      blob_id: 32767
+    - id: 694674
+      asset_id: 107439
+      name: pgalvip_2.uc6
+      size: 524288
+      blob_id: 32766
+    - id: 694675
+      asset_id: 107439
+      name: pgalvip_3.ue17
+      size: 524288
+      blob_id: 32777
+    - id: 694676
+      asset_id: 107439
+      name: pgalvip_4.ud17
+      size: 524288
+      blob_id: 32778
+    - id: 694677
+      asset_id: 107439
+      name: pgalvip_5.u5
+      size: 524288
+      blob_id: 32779
+- release:
+    id: 103974
+    game_id: 3080
+    description: ""
+    release_date: 19970000
+  names:
+  - id: 238950
+    kind: 3
+    kind_id: 103974
+    language: 1
+    name: Gals Hustler (set 1)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 99533
+      kind: 3
+      kind_id: 103974
+      type: 1
+      name: galhustl.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 609586
+      asset_id: 99533
+      name: galhstl1.ub6
+      size: 524288
+      blob_id: 32773
+    - id: 609587
+      asset_id: 99533
+      name: galhstl2.uc6
+      size: 524288
+      blob_id: 32766
+    - id: 609588
+      asset_id: 99533
+      name: galhstl5.u5
+      size: 524288
+      blob_id: 32774
+    - id: 609589
+      asset_id: 99533
+      name: ud17.4
+      size: 524288
+      blob_id: 32775
+    - id: 609590
+      asset_id: 99533
+      name: ue17.3
+      size: 524288
+      blob_id: 32776
+- release:
+    id: 103975
+    game_id: 3080
+    description: ""
+    release_date: 19970000
+  names:
+  - id: 238951
+    kind: 3
+    kind_id: 103975
+    language: 1
+    name: Gals Hustler (set 2)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 99534
+      kind: 3
+      kind_id: 103975
+      type: 1
+      name: galhustla.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 609591
+      asset_id: 99534
+      name: afega_1.ub6
+      size: 524288
+      blob_id: 247015
+    - id: 609592
+      asset_id: 99534
+      name: afega_2.uc6
+      size: 524288
+      blob_id: 32766
+    - id: 609593
+      asset_id: 99534
+      name: afega_3.uc17
+      size: 524288
+      blob_id: 247016
+    - id: 609594
+      asset_id: 99534
+      name: afega_4.ud17
+      size: 524288
+      blob_id: 247017
+    - id: 609595
+      asset_id: 99534
+      name: afega_5.u5
+      size: 524288
+      blob_id: 247018

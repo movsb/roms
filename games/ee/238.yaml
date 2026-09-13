@@ -16,6 +16,36 @@ names:
   language: 2
   name: 宇宙侵略者 II (Taito)
   source: trimui
+- id: 191961
+  kind: 2
+  kind_id: 238
+  language: 1
+  name: Space Invaders Deluxe
+  source: mame
+- id: 191966
+  kind: 2
+  kind_id: 238
+  language: 1
+  name: Space Invaders Part II (Taito, smaller ROMs)
+  source: mame
+- id: 191967
+  kind: 2
+  kind_id: 238
+  language: 1
+  name: Space Invaders Part II (Brazil)
+  source: mame
+- id: 193464
+  kind: 2
+  kind_id: 238
+  language: 1
+  name: Moon Base Zeta (set 1)
+  source: mame
+- id: 193465
+  kind: 2
+  kind_id: 238
+  language: 1
+  name: Moon Base Zeta (set 2)
+  source: mame
 game_developers:
 - game_id: 238
   developer_id: 35
@@ -129,24 +159,10 @@ releases:
       blob_id: 85017
       debug: arcade/wheel/invadpt2.png
     entries: []
-- release:
-    id: 46668
-    game_id: 238
-    description: ""
-    release_date: 19790000
-  names:
-  - id: 123956
-    kind: 3
-    kind_id: 46668
-    language: 1
-    name: Space Invaders Part II (Taito, bigger ROMs)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 59738
+      id: 101636
       kind: 3
-      kind_id: 46668
+      kind_id: 238
       type: 1
       name: invadpt2.zip
       description: ""
@@ -155,38 +171,408 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 204611
-      asset_id: 59738
+    - id: 635097
+      asset_id: 101636
       name: pv01
       size: 2048
       blob_id: 2292
-    - id: 204612
-      asset_id: 59738
+    - id: 635098
+      asset_id: 101636
       name: pv02
       size: 2048
       blob_id: 2293
-    - id: 204613
-      asset_id: 59738
+    - id: 635099
+      asset_id: 101636
       name: pv03
       size: 2048
       blob_id: 2294
-    - id: 204614
-      asset_id: 59738
+    - id: 635100
+      asset_id: 101636
       name: pv04
       size: 2048
       blob_id: 2295
-    - id: 204615
-      asset_id: 59738
+    - id: 635101
+      asset_id: 101636
       name: pv05
       size: 2048
       blob_id: 2296
-    - id: 204616
-      asset_id: 59738
+    - id: 635102
+      asset_id: 101636
       name: pv06.1
       size: 1024
       blob_id: 2297
-    - id: 204617
-      asset_id: 59738
+    - id: 635103
+      asset_id: 101636
       name: pv07.2
       size: 1024
       blob_id: 2298
+- release:
+    id: 86474
+    game_id: 238
+    description: ""
+    release_date: 19790000
+  names:
+  - id: 214217
+    kind: 3
+    kind_id: 86474
+    language: 1
+    name: Space Invaders Part II (Taito, smaller ROMs)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 101637
+      kind: 3
+      kind_id: 86474
+      type: 1
+      name: invadpt2a.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 635104
+      asset_id: 101637
+      name: pv06
+      size: 1024
+      blob_id: 2297
+    - id: 635105
+      asset_id: 101637
+      name: pv07
+      size: 1024
+      blob_id: 2298
+    - id: 635106
+      asset_id: 101637
+      name: uv01.36
+      size: 1024
+      blob_id: 249542
+    - id: 635107
+      asset_id: 101637
+      name: uv02.35
+      size: 1024
+      blob_id: 249543
+    - id: 635108
+      asset_id: 101637
+      name: uv03.34
+      size: 1024
+      blob_id: 249544
+    - id: 635109
+      asset_id: 101637
+      name: uv04.33
+      size: 1024
+      blob_id: 249545
+    - id: 635110
+      asset_id: 101637
+      name: uv05.32
+      size: 1024
+      blob_id: 249546
+    - id: 635111
+      asset_id: 101637
+      name: uv06.31
+      size: 1024
+      blob_id: 249547
+    - id: 635112
+      asset_id: 101637
+      name: uv07.42
+      size: 1024
+      blob_id: 249548
+    - id: 635113
+      asset_id: 101637
+      name: uv08.41
+      size: 1024
+      blob_id: 249549
+    - id: 635114
+      asset_id: 101637
+      name: uv09.40
+      size: 1024
+      blob_id: 249550
+    - id: 635115
+      asset_id: 101637
+      name: uv10.39
+      size: 1024
+      blob_id: 249551
+- release:
+    id: 86475
+    game_id: 238
+    description: ""
+    release_date: 19790000
+  names:
+  - id: 214218
+    kind: 3
+    kind_id: 86475
+    language: 1
+    name: Space Invaders Part II (Brazil)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 101638
+      kind: 3
+      kind_id: 86475
+      type: 1
+      name: invadpt2br.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 635116
+      asset_id: 101638
+      name: br_pv02
+      size: 2048
+      blob_id: 249552
+    - id: 635117
+      asset_id: 101638
+      name: br_pv03
+      size: 2048
+      blob_id: 249553
+    - id: 635118
+      asset_id: 101638
+      name: br_pv04
+      size: 2048
+      blob_id: 249554
+    - id: 635119
+      asset_id: 101638
+      name: br_pv05
+      size: 2048
+      blob_id: 249555
+    - id: 635120
+      asset_id: 101638
+      name: pv01
+      size: 2048
+      blob_id: 2292
+    - id: 635121
+      asset_id: 101638
+      name: pv06.1
+      size: 1024
+      blob_id: 2297
+    - id: 635122
+      asset_id: 101638
+      name: pv07.2
+      size: 1024
+      blob_id: 2298
+- release:
+    id: 89445
+    game_id: 238
+    description: ""
+    release_date: 19790000
+  names:
+  - id: 218845
+    kind: 3
+    kind_id: 89445
+    language: 1
+    name: Moon Base Zeta (set 1)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 104804
+      kind: 3
+      kind_id: 89445
+      type: 1
+      name: moonbase.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 665732
+      asset_id: 104804
+      name: cv01.g7
+      size: 1024
+      blob_id: 31984
+    - id: 665733
+      asset_id: 104804
+      name: cv02.h7
+      size: 1024
+      blob_id: 31985
+    - id: 665734
+      asset_id: 104804
+      name: ze3-1.a4
+      size: 1024
+      blob_id: 249542
+    - id: 665735
+      asset_id: 104804
+      name: ze3-10.f5
+      size: 1024
+      blob_id: 258228
+    - id: 665736
+      asset_id: 104804
+      name: ze3-2.c4
+      size: 1024
+      blob_id: 249543
+    - id: 665737
+      asset_id: 104804
+      name: ze3-3.e4
+      size: 1024
+      blob_id: 249544
+    - id: 665738
+      asset_id: 104804
+      name: ze3-4.f4
+      size: 1024
+      blob_id: 249545
+    - id: 665739
+      asset_id: 104804
+      name: ze3-5.h4
+      size: 1024
+      blob_id: 258229
+    - id: 665740
+      asset_id: 104804
+      name: ze3-6.l4
+      size: 1024
+      blob_id: 258230
+    - id: 665741
+      asset_id: 104804
+      name: ze3-7.a5
+      size: 1024
+      blob_id: 258231
+    - id: 665742
+      asset_id: 104804
+      name: ze3-8.c5
+      size: 1024
+      blob_id: 258232
+    - id: 665743
+      asset_id: 104804
+      name: ze3-9.e5
+      size: 1024
+      blob_id: 258233
+- release:
+    id: 89446
+    game_id: 238
+    description: ""
+    release_date: 19790000
+  names:
+  - id: 218846
+    kind: 3
+    kind_id: 89446
+    language: 1
+    name: Moon Base Zeta (set 2)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 104805
+      kind: 3
+      kind_id: 89446
+      type: 1
+      name: moonbasea.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 665744
+      asset_id: 104805
+      name: cv01.g7
+      size: 1024
+      blob_id: 31984
+    - id: 665745
+      asset_id: 104805
+      name: cv02.h7
+      size: 1024
+      blob_id: 31985
+    - id: 665746
+      asset_id: 104805
+      name: ze3-1.a4
+      size: 1024
+      blob_id: 249542
+    - id: 665747
+      asset_id: 104805
+      name: ze3-10.f5
+      size: 1024
+      blob_id: 258228
+    - id: 665748
+      asset_id: 104805
+      name: ze3-2.c4
+      size: 1024
+      blob_id: 249543
+    - id: 665749
+      asset_id: 104805
+      name: ze3-3.e4
+      size: 1024
+      blob_id: 249544
+    - id: 665750
+      asset_id: 104805
+      name: ze3-4_alt.f4
+      size: 1024
+      blob_id: 258234
+    - id: 665751
+      asset_id: 104805
+      name: ze3-5.h4
+      size: 1024
+      blob_id: 258229
+    - id: 665752
+      asset_id: 104805
+      name: ze3-6.l4
+      size: 1024
+      blob_id: 258230
+    - id: 665753
+      asset_id: 104805
+      name: ze3-7.a5
+      size: 1024
+      blob_id: 258231
+    - id: 665754
+      asset_id: 104805
+      name: ze3-8.c5
+      size: 1024
+      blob_id: 258232
+    - id: 665755
+      asset_id: 104805
+      name: ze3-9.e5
+      size: 1024
+      blob_id: 258233
+- release:
+    id: 104234
+    game_id: 238
+    description: ""
+    release_date: 19800000
+  names:
+  - id: 239210
+    kind: 3
+    kind_id: 104234
+    language: 1
+    name: Space Invaders Deluxe
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 101630
+      kind: 3
+      kind_id: 104234
+      type: 1
+      name: invaddlx.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 635063
+      asset_id: 101630
+      name: invdelux.d
+      size: 2048
+      blob_id: 2299
+    - id: 635064
+      asset_id: 101630
+      name: invdelux.e
+      size: 2048
+      blob_id: 2300
+    - id: 635065
+      asset_id: 101630
+      name: invdelux.f
+      size: 2048
+      blob_id: 2301
+    - id: 635066
+      asset_id: 101630
+      name: invdelux.g
+      size: 2048
+      blob_id: 2302
+    - id: 635067
+      asset_id: 101630
+      name: invdelux.h
+      size: 2048
+      blob_id: 2303

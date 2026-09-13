@@ -16,6 +16,24 @@ names:
   language: 2
   name: 警骑
   source: trimui
+- id: 186717
+  kind: 2
+  kind_id: 3733
+  language: 1
+  name: bandido
+  source: ""
+- id: 186718
+  kind: 2
+  kind_id: 3733
+  language: 2
+  name: 警骑与抢匪
+  source: trimui
+- id: 201346
+  kind: 2
+  kind_id: 3733
+  language: 1
+  name: Western Gun Part II
+  source: mame
 game_developers:
 - game_id: 3733
   developer_id: 137
@@ -144,24 +162,10 @@ releases:
       blob_id: 86662
       debug: arcade/wheel/sheriff.png
     entries: []
-- release:
-    id: 70221
-    game_id: 3733
-    description: ""
-    release_date: 19790000
-  names:
-  - id: 170559
-    kind: 3
-    kind_id: 70221
-    language: 1
-    name: Sheriff
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 83291
+      id: 113445
       kind: 3
-      kind_id: 70221
+      kind_id: 3733
       type: 1
       name: sheriff.zip
       description: ""
@@ -170,58 +174,213 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 362648
-      asset_id: 83291
+    - id: 743339
+      asset_id: 113445
       name: 82s137.3l
       size: 1024
-      blob_id: 97855
-    - id: 362649
-      asset_id: 83291
+      blob_id: 280365
+    - id: 743340
+      asset_id: 113445
       name: sh.f1
       size: 1024
       blob_id: 40087
-    - id: 362650
-      asset_id: 83291
+    - id: 743341
+      asset_id: 113445
       name: sh.f2
       size: 1024
       blob_id: 7768
-    - id: 362651
-      asset_id: 83291
+    - id: 743342
+      asset_id: 113445
       name: sh.g1
       size: 1024
       blob_id: 7769
-    - id: 362652
-      asset_id: 83291
+    - id: 743343
+      asset_id: 113445
       name: sh.g2
       size: 1024
       blob_id: 7770
-    - id: 362653
-      asset_id: 83291
+    - id: 743344
+      asset_id: 113445
       name: sh.h1
       size: 1024
       blob_id: 40088
-    - id: 362654
-      asset_id: 83291
+    - id: 743345
+      asset_id: 113445
       name: sh.h2
       size: 1024
       blob_id: 7772
-    - id: 362655
-      asset_id: 83291
+    - id: 743346
+      asset_id: 113445
       name: sh.i1
       size: 1024
       blob_id: 7773
-    - id: 362656
-      asset_id: 83291
+    - id: 743347
+      asset_id: 113445
       name: sh.i2
       size: 1024
       blob_id: 7774
-    - id: 362657
-      asset_id: 83291
+    - id: 743348
+      asset_id: 113445
       name: sh.j1
       size: 1024
       blob_id: 7775
-    - id: 362658
-      asset_id: 83291
+    - id: 743349
+      asset_id: 113445
+      name: sh.snd
+      size: 1024
+      blob_id: 7777
+- release:
+    id: 101707
+    game_id: 3733
+    description: ""
+    release_date: 19800000
+  names:
+  - id: 235723
+    kind: 3
+    kind_id: 101707
+    language: 1
+    name: Western Gun Part II
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 117697
+      kind: 3
+      kind_id: 101707
+      type: 1
+      name: westgun2.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/680467007
+    entries:
+    - id: 793032
+      asset_id: 117697
+      name: 82s137.3l
+      size: 1024
+      blob_id: 280365
+    - id: 793033
+      asset_id: 117697
+      name: rf01.ic36
+      size: 2048
+      blob_id: 312878
+    - id: 793034
+      asset_id: 117697
+      name: rf02.ic35
+      size: 2048
+      blob_id: 312879
+    - id: 793035
+      asset_id: 117697
+      name: rf03.ic34
+      size: 2048
+      blob_id: 312880
+    - id: 793036
+      asset_id: 117697
+      name: rf04.ic33
+      size: 2048
+      blob_id: 312881
+    - id: 793037
+      asset_id: 117697
+      name: rf05.ic32
+      size: 2048
+      blob_id: 312882
+    - id: 793038
+      asset_id: 117697
+      name: rf06.ic35
+      size: 2048
+      blob_id: 312883
+- release:
+    id: 102892
+    game_id: 3733
+    description: ""
+    release_date: 0
+  names:
+  - id: 237570
+    kind: 3
+    kind_id: 102892
+    language: 1
+    name: bandido
+    source: ""
+  - id: 237571
+    kind: 3
+    kind_id: 102892
+    language: 2
+    name: 警骑与抢匪
+    source: trimui
+  release_publishers: []
+  assets:
+  - asset:
+      id: 94600
+      kind: 3
+      kind_id: 102892
+      type: 1
+      name: bandido.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 548479
+      asset_id: 94600
+      name: 82s137.3l
+      size: 1024
+      blob_id: 280365
+    - id: 548480
+      asset_id: 94600
+      name: sh-a.f1
+      size: 1024
+      blob_id: 7767
+    - id: 548481
+      asset_id: 94600
+      name: sh-a.h1
+      size: 1024
+      blob_id: 7771
+    - id: 548482
+      asset_id: 94600
+      name: sh-a.j2
+      size: 1024
+      blob_id: 7776
+    - id: 548483
+      asset_id: 94600
+      name: sh.f2
+      size: 1024
+      blob_id: 7768
+    - id: 548484
+      asset_id: 94600
+      name: sh.g1
+      size: 1024
+      blob_id: 7769
+    - id: 548485
+      asset_id: 94600
+      name: sh.g2
+      size: 1024
+      blob_id: 7770
+    - id: 548486
+      asset_id: 94600
+      name: sh.h2
+      size: 1024
+      blob_id: 7772
+    - id: 548487
+      asset_id: 94600
+      name: sh.i1
+      size: 1024
+      blob_id: 7773
+    - id: 548488
+      asset_id: 94600
+      name: sh.i2
+      size: 1024
+      blob_id: 7774
+    - id: 548489
+      asset_id: 94600
+      name: sh.j1
+      size: 1024
+      blob_id: 7775
+    - id: 548490
+      asset_id: 94600
       name: sh.snd
       size: 1024
       blob_id: 7777

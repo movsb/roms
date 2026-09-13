@@ -10,6 +10,30 @@ names:
   language: 1
   name: saturn
   source: ""
+- id: 191680
+  kind: 2
+  kind_id: 3501
+  language: 1
+  name: HiSaturn
+  source: mame
+- id: 195977
+  kind: 2
+  kind_id: 3501
+  language: 1
+  name: Saturn (Japan)
+  source: mame
+- id: 195978
+  kind: 2
+  kind_id: 3501
+  language: 1
+  name: Saturn (Korea)
+  source: mame
+- id: 201219
+  kind: 2
+  kind_id: 3501
+  language: 1
+  name: V-Saturn
+  source: mame
 game_developers:
 - game_id: 3501
   developer_id: 684
@@ -147,24 +171,10 @@ releases:
       blob_id: 89293
       debug: arcade/wheel/saturn.png
     entries: []
-- release:
-    id: 64075
-    game_id: 3501
-    description: ""
-    release_date: 19940000
-  names:
-  - id: 158331
-    kind: 3
-    kind_id: 64075
-    language: 1
-    name: Saturn (USA)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 77145
+      id: 109690
       kind: 3
-      kind_id: 64075
+      kind_id: 3501
       type: 1
       name: saturn.zip
       description: ""
@@ -173,13 +183,190 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 330184
-      asset_id: 77145
+    - id: 722396
+      asset_id: 109690
       name: mpr-17933.bin
       size: 524288
-      blob_id: 167300
-    - id: 330185
-      asset_id: 77145
+      blob_id: 271777
+    - id: 722397
+      asset_id: 109690
       name: sega_100a.bin
       size: 524288
-      blob_id: 167301
+      blob_id: 271778
+- release:
+    id: 94067
+    game_id: 3501
+    description: ""
+    release_date: 19940000
+  names:
+  - id: 225722
+    kind: 3
+    kind_id: 94067
+    language: 1
+    name: Saturn (PAL)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 109691
+      kind: 3
+      kind_id: 94067
+      type: 1
+      name: saturneu.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 722398
+      asset_id: 109691
+      name: mpr-17933.bin
+      size: 524288
+      blob_id: 271777
+    - id: 722399
+      asset_id: 109691
+      name: sega_100a.bin
+      size: 524288
+      blob_id: 271778
+- release:
+    id: 94068
+    game_id: 3501
+    description: ""
+    release_date: 19940000
+  names:
+  - id: 225723
+    kind: 3
+    kind_id: 94068
+    language: 1
+    name: Saturn (Japan)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 109692
+      kind: 3
+      kind_id: 94068
+      type: 1
+      name: saturnjp.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 722400
+      asset_id: 109692
+      name: sega1003.bin
+      size: 524288
+      blob_id: 271779
+    - id: 722401
+      asset_id: 109692
+      name: sega_100.bin
+      size: 524288
+      blob_id: 271780
+    - id: 722402
+      asset_id: 109692
+      name: sega_101.bin
+      size: 524288
+      blob_id: 271781
+- release:
+    id: 94069
+    game_id: 3501
+    description: ""
+    release_date: 19950000
+  names:
+  - id: 225724
+    kind: 3
+    kind_id: 94069
+    language: 1
+    name: Saturn (Korea)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 109693
+      kind: 3
+      kind_id: 94069
+      type: 1
+      name: saturnkr.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 722403
+      asset_id: 109693
+      name: sega_101.bin
+      size: 524288
+      blob_id: 271781
+- release:
+    id: 101465
+    game_id: 3501
+    description: ""
+    release_date: 19950000
+  names:
+  - id: 235378
+    kind: 3
+    kind_id: 101465
+    language: 1
+    name: V-Saturn
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 117437
+      kind: 3
+      kind_id: 101465
+      type: 1
+      name: vsaturn.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/2244827971
+    entries:
+    - id: 789815
+      asset_id: 117437
+      name: vsaturn.bin
+      size: 524288
+      blob_id: 312134
+- release:
+    id: 104150
+    game_id: 3501
+    description: ""
+    release_date: 19950000
+  names:
+  - id: 239126
+    kind: 3
+    kind_id: 104150
+    language: 1
+    name: HiSaturn
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 101009
+      kind: 3
+      kind_id: 104150
+      type: 1
+      name: hisaturn.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 627313
+      asset_id: 101009
+      name: hisaturn.bin
+      size: 524288
+      blob_id: 221679
+    - id: 627314
+      asset_id: 101009
+      name: mpr-18100.bin
+      size: 524288
+      blob_id: 221680

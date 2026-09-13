@@ -16,6 +16,72 @@ names:
   language: 2
   name: 蜈蚣 (修订版 4)
   source: trimui
+- id: 188859
+  kind: 2
+  kind_id: 109
+  language: 1
+  name: Caterpillar (bootleg of Centipede)
+  source: mame
+- id: 188936
+  kind: 2
+  kind_id: 109
+  language: 1
+  name: Centipede (bootleg, set 1)
+  source: mame
+- id: 188937
+  kind: 2
+  kind_id: 109
+  language: 1
+  name: Centipede (bootleg, set 2)
+  source: mame
+- id: 188938
+  kind: 2
+  kind_id: 109
+  language: 1
+  name: Centipede Dux (hack)
+  source: mame
+- id: 188939
+  kind: 2
+  kind_id: 109
+  language: 1
+  name: Centipede (revision 1)
+  source: mame
+- id: 188940
+  kind: 2
+  kind_id: 109
+  language: 1
+  name: Centipede (revision 2)
+  source: mame
+- id: 188941
+  kind: 2
+  kind_id: 109
+  language: 1
+  name: Centipede (revision 3)
+  source: mame
+- id: 188942
+  kind: 2
+  kind_id: 109
+  language: 1
+  name: Centipede (Japan, revision 3)
+  source: mame
+- id: 192911
+  kind: 2
+  kind_id: 109
+  language: 1
+  name: Magic Worm (bootleg of Centipede, set 1)
+  source: mame
+- id: 192912
+  kind: 2
+  kind_id: 109
+  language: 1
+  name: Magic Worm (bootleg of Centipede, set 2)
+  source: mame
+- id: 193265
+  kind: 2
+  kind_id: 109
+  language: 1
+  name: Millpac (bootleg of Centipede)
+  source: mame
 game_developers:
 - game_id: 109
   developer_id: 101
@@ -159,24 +225,10 @@ releases:
       blob_id: 88471
       debug: arcade/wheel/centiped.png
     entries: []
-- release:
-    id: 39099
-    game_id: 109
-    description: ""
-    release_date: 19800000
-  names:
-  - id: 109215
-    kind: 3
-    kind_id: 39099
-    language: 1
-    name: Centipede (revision 4)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 52169
+      id: 95892
       kind: 3
-      kind_id: 39099
+      kind_id: 109
       type: 1
       name: centiped.zip
       description: ""
@@ -185,38 +237,704 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 127205
-      asset_id: 52169
+    - id: 565161
+      asset_id: 95892
       name: 136001-211.f7
       size: 2048
       blob_id: 1269
-    - id: 127206
-      asset_id: 52169
+    - id: 565162
+      asset_id: 95892
       name: 136001-212.hj7
       size: 2048
       blob_id: 1270
-    - id: 127207
-      asset_id: 52169
+    - id: 565163
+      asset_id: 95892
       name: 136001-213.p4
       size: 256
       blob_id: 2859
-    - id: 127208
-      asset_id: 52169
+    - id: 565164
+      asset_id: 95892
       name: 136001-407.d1
       size: 2048
-      blob_id: 103058
-    - id: 127209
-      asset_id: 52169
+      blob_id: 208305
+    - id: 565165
+      asset_id: 95892
       name: 136001-408.e1
       size: 2048
-      blob_id: 103059
-    - id: 127210
-      asset_id: 52169
+      blob_id: 208306
+    - id: 565166
+      asset_id: 95892
       name: 136001-409.fh1
       size: 2048
-      blob_id: 103060
-    - id: 127211
-      asset_id: 52169
+      blob_id: 208307
+    - id: 565167
+      asset_id: 95892
       name: 136001-410.j1
       size: 2048
-      blob_id: 103061
+      blob_id: 208308
+- release:
+    id: 81162
+    game_id: 109
+    description: ""
+    release_date: 19800000
+  names:
+  - id: 206123
+    kind: 3
+    kind_id: 81162
+    language: 1
+    name: Centipede (revision 1)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 95893
+      kind: 3
+      kind_id: 81162
+      type: 1
+      name: centiped1.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 565168
+      asset_id: 95893
+      name: 136001-107.d1
+      size: 2048
+      blob_id: 241727
+    - id: 565169
+      asset_id: 95893
+      name: 136001-108.e1
+      size: 2048
+      blob_id: 241728
+    - id: 565170
+      asset_id: 95893
+      name: 136001-109.fh1
+      size: 2048
+      blob_id: 241729
+    - id: 565171
+      asset_id: 95893
+      name: 136001-110.j1
+      size: 2048
+      blob_id: 241730
+    - id: 565172
+      asset_id: 95893
+      name: 136001-111.f7
+      size: 2048
+      blob_id: 1269
+    - id: 565173
+      asset_id: 95893
+      name: 136001-112.hj7
+      size: 2048
+      blob_id: 1270
+    - id: 565174
+      asset_id: 95893
+      name: 136001-113.p4
+      size: 256
+      blob_id: 241731
+- release:
+    id: 81163
+    game_id: 109
+    description: ""
+    release_date: 19800000
+  names:
+  - id: 206124
+    kind: 3
+    kind_id: 81163
+    language: 1
+    name: Centipede (revision 2)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 95894
+      kind: 3
+      kind_id: 81163
+      type: 1
+      name: centiped2.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 565175
+      asset_id: 95894
+      name: 136001-207.d1
+      size: 2048
+      blob_id: 1271
+    - id: 565176
+      asset_id: 95894
+      name: 136001-208.e1
+      size: 2048
+      blob_id: 1272
+    - id: 565177
+      asset_id: 95894
+      name: 136001-209.fh1
+      size: 2048
+      blob_id: 1273
+    - id: 565178
+      asset_id: 95894
+      name: 136001-210.j1
+      size: 2048
+      blob_id: 1274
+    - id: 565179
+      asset_id: 95894
+      name: 136001-211.f7
+      size: 2048
+      blob_id: 1269
+    - id: 565180
+      asset_id: 95894
+      name: 136001-212.hj7
+      size: 2048
+      blob_id: 1270
+    - id: 565181
+      asset_id: 95894
+      name: 136001-213.p4
+      size: 256
+      blob_id: 2859
+- release:
+    id: 81164
+    game_id: 109
+    description: ""
+    release_date: 19800000
+  names:
+  - id: 206125
+    kind: 3
+    kind_id: 81164
+    language: 1
+    name: Centipede (revision 3)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 95895
+      kind: 3
+      kind_id: 81164
+      type: 1
+      name: centiped3.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 565182
+      asset_id: 95895
+      name: 136001-211.f7
+      size: 2048
+      blob_id: 1269
+    - id: 565183
+      asset_id: 95895
+      name: 136001-212.hj7
+      size: 2048
+      blob_id: 1270
+    - id: 565184
+      asset_id: 95895
+      name: 136001-213.p4
+      size: 256
+      blob_id: 2859
+    - id: 565185
+      asset_id: 95895
+      name: 136001-307.d1
+      size: 2048
+      blob_id: 1275
+    - id: 565186
+      asset_id: 95895
+      name: 136001-308.e1
+      size: 2048
+      blob_id: 1276
+    - id: 565187
+      asset_id: 95895
+      name: 136001-309.fh1
+      size: 2048
+      blob_id: 1277
+    - id: 565188
+      asset_id: 95895
+      name: 136001-310.j1
+      size: 2048
+      blob_id: 1278
+- release:
+    id: 81165
+    game_id: 109
+    description: ""
+    release_date: 19800000
+  names:
+  - id: 206126
+    kind: 3
+    kind_id: 81165
+    language: 1
+    name: Centipede (Japan, revision 3)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 95896
+      kind: 3
+      kind_id: 81165
+      type: 1
+      name: centipedj.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 565189
+      asset_id: 95896
+      name: cen-00.8e
+      size: 8192
+      blob_id: 241732
+    - id: 565190
+      asset_id: 95896
+      name: cen-20.3b
+      size: 4096
+      blob_id: 241733
+    - id: 565191
+      asset_id: 95896
+      name: cen-21.3c
+      size: 4096
+      blob_id: 241734
+    - id: 565192
+      asset_id: 95896
+      name: cen_60.1h
+      size: 256
+      blob_id: 2859
+- release:
+    id: 88353
+    game_id: 109
+    description: ""
+    release_date: 19800000
+  names:
+  - id: 217152
+    kind: 3
+    kind_id: 88353
+    language: 1
+    name: Magic Worm (bootleg of Centipede, set 1)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 103653
+      kind: 3
+      kind_id: 88353
+      type: 1
+      name: magworm.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 655007
+      asset_id: 103653
+      name: 11005-0.k0
+      size: 2048
+      blob_id: 235417
+    - id: 655008
+      asset_id: 103653
+      name: 11005-1.k1
+      size: 2048
+      blob_id: 235418
+    - id: 655009
+      asset_id: 103653
+      name: 11005-2.k2
+      size: 2048
+      blob_id: 235419
+    - id: 655010
+      asset_id: 103653
+      name: 11005-3p.k3
+      size: 2048
+      blob_id: 235420
+    - id: 655011
+      asset_id: 103653
+      name: 11005-4.c4
+      size: 2048
+      blob_id: 235421
+    - id: 655012
+      asset_id: 103653
+      name: 11005-5.c5
+      size: 2048
+      blob_id: 235422
+- release:
+    id: 88354
+    game_id: 109
+    description: ""
+    release_date: 19800000
+  names:
+  - id: 217153
+    kind: 3
+    kind_id: 88354
+    language: 1
+    name: Magic Worm (bootleg of Centipede, set 2)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 103654
+      kind: 3
+      kind_id: 88354
+      type: 1
+      name: magworma.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 655013
+      asset_id: 103654
+      name: h41.1d
+      size: 2048
+      blob_id: 235423
+    - id: 655014
+      asset_id: 103654
+      name: h42.1e
+      size: 2048
+      blob_id: 235424
+    - id: 655015
+      asset_id: 103654
+      name: h43.1fh
+      size: 2048
+      blob_id: 235425
+    - id: 655016
+      asset_id: 103654
+      name: h44.1j
+      size: 2048
+      blob_id: 235426
+    - id: 655017
+      asset_id: 103654
+      name: h45.7f
+      size: 2048
+      blob_id: 235422
+    - id: 655018
+      asset_id: 103654
+      name: h45.7hj
+      size: 2048
+      blob_id: 235421
+    - id: 655019
+      asset_id: 103654
+      name: prom.4p
+      size: 512
+      blob_id: 235427
+- release:
+    id: 89012
+    game_id: 109
+    description: ""
+    release_date: 19800000
+  names:
+  - id: 218170
+    kind: 3
+    kind_id: 89012
+    language: 1
+    name: Millpac (bootleg of Centipede)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 104349
+      kind: 3
+      kind_id: 89012
+      type: 1
+      name: millpac.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 661625
+      asset_id: 104349
+      name: millpac.4p
+      size: 256
+      blob_id: 237235
+    - id: 661626
+      asset_id: 104349
+      name: millpac1.1d
+      size: 2048
+      blob_id: 237236
+    - id: 661627
+      asset_id: 104349
+      name: millpac2.1e
+      size: 2048
+      blob_id: 237237
+    - id: 661628
+      asset_id: 104349
+      name: millpac3.1h
+      size: 2048
+      blob_id: 237238
+    - id: 661629
+      asset_id: 104349
+      name: millpac4.1j
+      size: 2048
+      blob_id: 237239
+    - id: 661630
+      asset_id: 104349
+      name: millpac5.1k
+      size: 2048
+      blob_id: 237240
+    - id: 661631
+      asset_id: 104349
+      name: millpac6.7f
+      size: 2048
+      blob_id: 237241
+    - id: 661632
+      asset_id: 104349
+      name: millpac7.7j
+      size: 2048
+      blob_id: 237242
+- release:
+    id: 103559
+    game_id: 109
+    description: ""
+    release_date: 19800000
+  names:
+  - id: 238535
+    kind: 3
+    kind_id: 103559
+    language: 1
+    name: Caterpillar (bootleg of Centipede)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 95734
+      kind: 3
+      kind_id: 103559
+      type: 1
+      name: caterplr.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 563462
+      asset_id: 95734
+      name: 136001-213.p4
+      size: 256
+      blob_id: 2859
+    - id: 563463
+      asset_id: 95734
+      name: olympia.c28
+      size: 2048
+      blob_id: 241521
+    - id: 563464
+      asset_id: 95734
+      name: olympia.c29
+      size: 2048
+      blob_id: 241522
+    - id: 563465
+      asset_id: 95734
+      name: olympia.c30
+      size: 2048
+      blob_id: 241523
+    - id: 563466
+      asset_id: 95734
+      name: olympia.c31
+      size: 2048
+      blob_id: 241524
+    - id: 563467
+      asset_id: 95734
+      name: olympia.c32
+      size: 2048
+      blob_id: 241525
+    - id: 563468
+      asset_id: 95734
+      name: olympia.c33
+      size: 2048
+      blob_id: 241526
+- release:
+    id: 103602
+    game_id: 109
+    description: ""
+    release_date: 19800000
+  names:
+  - id: 238578
+    kind: 3
+    kind_id: 103602
+    language: 1
+    name: Centipede (bootleg, set 1)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 95889
+      kind: 3
+      kind_id: 103602
+      type: 1
+      name: centipdb.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 565138
+      asset_id: 95889
+      name: 136001-211.f7
+      size: 2048
+      blob_id: 1269
+    - id: 565139
+      asset_id: 95889
+      name: 136001-212.hj7
+      size: 2048
+      blob_id: 1270
+    - id: 565140
+      asset_id: 95889
+      name: 136001-213.p4
+      size: 256
+      blob_id: 2859
+    - id: 565141
+      asset_id: 95889
+      name: d1
+      size: 2048
+      blob_id: 241718
+    - id: 565142
+      asset_id: 95889
+      name: e1
+      size: 2048
+      blob_id: 241719
+    - id: 565143
+      asset_id: 95889
+      name: h1
+      size: 2048
+      blob_id: 241720
+    - id: 565144
+      asset_id: 95889
+      name: j1
+      size: 2048
+      blob_id: 241721
+    - id: 565145
+      asset_id: 95889
+      name: k1
+      size: 2048
+      blob_id: 241722
+- release:
+    id: 103603
+    game_id: 109
+    description: ""
+    release_date: 19800000
+  names:
+  - id: 238579
+    kind: 3
+    kind_id: 103603
+    language: 1
+    name: Centipede (bootleg, set 2)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 95890
+      kind: 3
+      kind_id: 103603
+      type: 1
+      name: centipdb2.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 565146
+      asset_id: 95890
+      name: 82s129.p4
+      size: 256
+      blob_id: 2859
+    - id: 565147
+      asset_id: 95890
+      name: mp1.d1
+      size: 2048
+      blob_id: 241718
+    - id: 565148
+      asset_id: 95890
+      name: mp2.e1
+      size: 2048
+      blob_id: 241719
+    - id: 565149
+      asset_id: 95890
+      name: mp3.h1
+      size: 2048
+      blob_id: 241720
+    - id: 565150
+      asset_id: 95890
+      name: mp4.j1
+      size: 2048
+      blob_id: 241723
+    - id: 565151
+      asset_id: 95890
+      name: mp5.k1
+      size: 2048
+      blob_id: 241724
+    - id: 565152
+      asset_id: 95890
+      name: mp6.f7
+      size: 2048
+      blob_id: 1269
+    - id: 565153
+      asset_id: 95890
+      name: mp7.j7
+      size: 2048
+      blob_id: 1270
+- release:
+    id: 103604
+    game_id: 109
+    description: ""
+    release_date: 19890000
+  names:
+  - id: 238580
+    kind: 3
+    kind_id: 103604
+    language: 1
+    name: Centipede Dux (hack)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 95891
+      kind: 3
+      kind_id: 103604
+      type: 1
+      name: centipdd.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 565154
+      asset_id: 95891
+      name: 136001-213.p4
+      size: 256
+      blob_id: 2859
+    - id: 565155
+      asset_id: 95891
+      name: 136001-307.d1
+      size: 2048
+      blob_id: 1275
+    - id: 565156
+      asset_id: 95891
+      name: 136001-308.e1
+      size: 2048
+      blob_id: 1276
+    - id: 565157
+      asset_id: 95891
+      name: 136001-309.fh1
+      size: 2048
+      blob_id: 1277
+    - id: 565158
+      asset_id: 95891
+      name: 136001-310.j1
+      size: 2048
+      blob_id: 1278
+    - id: 565159
+      asset_id: 95891
+      name: dux-211.f7
+      size: 2048
+      blob_id: 241725
+    - id: 565160
+      asset_id: 95891
+      name: dux-212.hj7
+      size: 2048
+      blob_id: 241726

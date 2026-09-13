@@ -16,6 +16,24 @@ names:
   language: 2
   name: 勇气之刃
   source: trimui
+- id: 188631
+  kind: 2
+  kind_id: 951
+  language: 1
+  name: Brave Blade (Asia)
+  source: mame
+- id: 188632
+  kind: 2
+  kind_id: 951
+  language: 1
+  name: Brave Blade (Japan)
+  source: mame
+- id: 188633
+  kind: 2
+  kind_id: 951
+  language: 1
+  name: Brave Blade (USA)
+  source: mame
 game_developers: []
 game_genres: []
 assets: []
@@ -107,24 +125,10 @@ releases:
       name: spu1u412.bin
       size: 524288
       blob_id: 9840
-- release:
-    id: 38502
-    game_id: 951
-    description: ""
-    release_date: 20000000
-  names:
-  - id: 108062
-    kind: 3
-    kind_id: 38502
-    language: 1
-    name: Brave Blade (World)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 51572
+      id: 95326
       kind: 3
-      kind_id: 38502
+      kind_id: 951
       type: 1
       name: brvblade.zip
       description: ""
@@ -133,53 +137,281 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 119583
-      asset_id: 51572
+    - id: 557709
+      asset_id: 95326
       name: at28c16_world
       size: 2048
       blob_id: 9830
-    - id: 119584
-      asset_id: 51572
+    - id: 557710
+      asset_id: 95326
       name: flash0.021
       size: 2097152
       blob_id: 9834
-    - id: 119585
-      asset_id: 51572
+    - id: 557711
+      asset_id: 95326
       name: flash1.024
       size: 2097152
       blob_id: 9835
-    - id: 119586
-      asset_id: 51572
+    - id: 557712
+      asset_id: 95326
       name: m534002c-61.ic353
       size: 524288
       blob_id: 11965
-    - id: 119587
-      asset_id: 51572
+    - id: 557713
+      asset_id: 95326
       name: mg01.ic652
       size: 8
       blob_id: 11966
-    - id: 119588
-      asset_id: 51572
+    - id: 557714
+      asset_id: 95326
       name: mg11
       size: 8
       blob_id: 9836
-    - id: 119589
-      asset_id: 51572
+    - id: 557715
+      asset_id: 95326
       name: ra-bbl_rom1.028
       size: 4194304
       blob_id: 9837
-    - id: 119590
-      asset_id: 51572
+    - id: 557716
+      asset_id: 95326
       name: ra-bbl_rom2.336
       size: 4194304
       blob_id: 9838
-    - id: 119591
-      asset_id: 51572
+    - id: 557717
+      asset_id: 95326
       name: spu0u049.bin
       size: 524288
       blob_id: 9839
-    - id: 119592
-      asset_id: 51572
+    - id: 557718
+      asset_id: 95326
+      name: spu1u412.bin
+      size: 524288
+      blob_id: 9840
+- release:
+    id: 80640
+    game_id: 951
+    description: ""
+    release_date: 20000000
+  names:
+  - id: 205326
+    kind: 3
+    kind_id: 80640
+    language: 1
+    name: Brave Blade (Asia)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 95327
+      kind: 3
+      kind_id: 80640
+      type: 1
+      name: brvbladea.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 557719
+      asset_id: 95327
+      name: at28c16_asia
+      size: 2048
+      blob_id: 9831
+    - id: 557720
+      asset_id: 95327
+      name: flash0.021
+      size: 2097152
+      blob_id: 9834
+    - id: 557721
+      asset_id: 95327
+      name: flash1.024
+      size: 2097152
+      blob_id: 9835
+    - id: 557722
+      asset_id: 95327
+      name: m534002c-61.ic353
+      size: 524288
+      blob_id: 11965
+    - id: 557723
+      asset_id: 95327
+      name: mg01.ic652
+      size: 8
+      blob_id: 11966
+    - id: 557724
+      asset_id: 95327
+      name: mg11
+      size: 8
+      blob_id: 9836
+    - id: 557725
+      asset_id: 95327
+      name: ra-bbl_rom1.028
+      size: 4194304
+      blob_id: 9837
+    - id: 557726
+      asset_id: 95327
+      name: ra-bbl_rom2.336
+      size: 4194304
+      blob_id: 9838
+    - id: 557727
+      asset_id: 95327
+      name: spu0u049.bin
+      size: 524288
+      blob_id: 9839
+    - id: 557728
+      asset_id: 95327
+      name: spu1u412.bin
+      size: 524288
+      blob_id: 9840
+- release:
+    id: 80642
+    game_id: 951
+    description: ""
+    release_date: 20000000
+  names:
+  - id: 205329
+    kind: 3
+    kind_id: 80642
+    language: 1
+    name: Brave Blade (Japan)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 95329
+      kind: 3
+      kind_id: 80642
+      type: 1
+      name: brvbladej.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 557737
+      asset_id: 95329
+      name: at28c16_japan
+      size: 2048
+      blob_id: 9832
+    - id: 557738
+      asset_id: 95329
+      name: flash0.021
+      size: 2097152
+      blob_id: 9834
+    - id: 557739
+      asset_id: 95329
+      name: flash1.024
+      size: 2097152
+      blob_id: 9835
+    - id: 557740
+      asset_id: 95329
+      name: m534002c-61.ic353
+      size: 524288
+      blob_id: 11965
+    - id: 557741
+      asset_id: 95329
+      name: mg01.ic652
+      size: 8
+      blob_id: 11966
+    - id: 557742
+      asset_id: 95329
+      name: mg11
+      size: 8
+      blob_id: 9836
+    - id: 557743
+      asset_id: 95329
+      name: ra-bbl_rom1.028
+      size: 4194304
+      blob_id: 9837
+    - id: 557744
+      asset_id: 95329
+      name: ra-bbl_rom2.336
+      size: 4194304
+      blob_id: 9838
+    - id: 557745
+      asset_id: 95329
+      name: spu0u049.bin
+      size: 524288
+      blob_id: 9839
+    - id: 557746
+      asset_id: 95329
+      name: spu1u412.bin
+      size: 524288
+      blob_id: 9840
+- release:
+    id: 80643
+    game_id: 951
+    description: ""
+    release_date: 20000000
+  names:
+  - id: 205330
+    kind: 3
+    kind_id: 80643
+    language: 1
+    name: Brave Blade (USA)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 95330
+      kind: 3
+      kind_id: 80643
+      type: 1
+      name: brvbladeu.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 557747
+      asset_id: 95330
+      name: at28c16_usa
+      size: 2048
+      blob_id: 9833
+    - id: 557748
+      asset_id: 95330
+      name: flash0.021
+      size: 2097152
+      blob_id: 9834
+    - id: 557749
+      asset_id: 95330
+      name: flash1.024
+      size: 2097152
+      blob_id: 9835
+    - id: 557750
+      asset_id: 95330
+      name: m534002c-61.ic353
+      size: 524288
+      blob_id: 11965
+    - id: 557751
+      asset_id: 95330
+      name: mg01.ic652
+      size: 8
+      blob_id: 11966
+    - id: 557752
+      asset_id: 95330
+      name: mg11
+      size: 8
+      blob_id: 9836
+    - id: 557753
+      asset_id: 95330
+      name: ra-bbl_rom1.028
+      size: 4194304
+      blob_id: 9837
+    - id: 557754
+      asset_id: 95330
+      name: ra-bbl_rom2.336
+      size: 4194304
+      blob_id: 9838
+    - id: 557755
+      asset_id: 95330
+      name: spu0u049.bin
+      size: 524288
+      blob_id: 9839
+    - id: 557756
+      asset_id: 95330
       name: spu1u412.bin
       size: 524288
       blob_id: 9840

@@ -16,6 +16,12 @@ names:
   language: 2
   name: 原生兽 (工程版)
   source: trimui
+- id: 189006
+  kind: 2
+  kind_id: 1075
+  language: 1
+  name: Chimera Beast (Japan, prototype, set 2)
+  source: mame
 game_developers:
 - game_id: 1075
   developer_id: 493
@@ -47,9 +53,73 @@ releases:
     publisher_id: 71
   assets:
   - asset:
-      id: 1075
+      id: 42861
       kind: 3
       kind_id: 1075
+      type: 4
+      name: chimerab.png
+      description: ""
+      format: 1
+      size: 10139
+      blob_id: 86361
+      debug: arcade/downloaded_images/chimerab.png
+    entries: []
+  - asset:
+      id: 42862
+      kind: 3
+      kind_id: 1075
+      type: 6
+      name: chimerab.mp4
+      description: ""
+      format: 1
+      size: 1841120
+      blob_id: 86362
+      debug: arcade/snap/chimerab.mp4
+    entries: []
+  - asset:
+      id: 42863
+      kind: 3
+      kind_id: 1075
+      type: 7
+      name: chimerab.png
+      description: ""
+      format: 1
+      size: 80261
+      blob_id: 86363
+      debug: arcade/wheel/chimerab.png
+    entries: []
+- release:
+    id: 39268
+    game_id: 1075
+    description: ""
+    release_date: 19930000
+  names:
+  - id: 109542
+    kind: 3
+    kind_id: 39268
+    language: 1
+    name: Chimera Beast (Japan, prototype, set 1)
+    source: mame
+  - id: 184004
+    kind: 3
+    kind_id: 39268
+    language: 1
+    name: chimerab
+    source: ""
+  - id: 184005
+    kind: 3
+    kind_id: 39268
+    language: 2
+    name: 原生兽 (工程版)
+    source: trimui
+  release_publishers:
+  - release_id: 39268
+    publisher_id: 71
+  assets:
+  - asset:
+      id: 1075
+      kind: 3
+      kind_id: 39268
       type: 1
       name: chimerab.zip
       description: ""
@@ -119,57 +189,7 @@ releases:
       size: 262144
       blob_id: 11577
   - asset:
-      id: 42861
-      kind: 3
-      kind_id: 1075
-      type: 4
-      name: chimerab.png
-      description: ""
-      format: 1
-      size: 10139
-      blob_id: 86361
-      debug: arcade/downloaded_images/chimerab.png
-    entries: []
-  - asset:
-      id: 42862
-      kind: 3
-      kind_id: 1075
-      type: 6
-      name: chimerab.mp4
-      description: ""
-      format: 1
-      size: 1841120
-      blob_id: 86362
-      debug: arcade/snap/chimerab.mp4
-    entries: []
-  - asset:
-      id: 42863
-      kind: 3
-      kind_id: 1075
-      type: 7
-      name: chimerab.png
-      description: ""
-      format: 1
-      size: 80261
-      blob_id: 86363
-      debug: arcade/wheel/chimerab.png
-    entries: []
-- release:
-    id: 39268
-    game_id: 1075
-    description: ""
-    release_date: 19930000
-  names:
-  - id: 109542
-    kind: 3
-    kind_id: 39268
-    language: 1
-    name: Chimera Beast (Japan, prototype, set 1)
-    source: mame
-  release_publishers: []
-  assets:
-  - asset:
-      id: 52338
+      id: 96050
       kind: 3
       kind_id: 39268
       type: 1
@@ -180,68 +200,154 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 129143
-      asset_id: 52338
+    - id: 566928
+      asset_id: 96050
       name: b1.bin
       size: 524288
       blob_id: 11567
-    - id: 129144
-      asset_id: 52338
+    - id: 566929
+      asset_id: 96050
       name: b2.bin
       size: 524288
       blob_id: 11568
-    - id: 129145
-      asset_id: 52338
+    - id: 566930
+      asset_id: 96050
       name: mo-91028.mcu
       size: 16384
-      blob_id: 103637
-    - id: 129146
-      asset_id: 52338
+      blob_id: 208706
+    - id: 566931
+      asset_id: 96050
       name: pr-91044
       size: 512
       blob_id: 685
-    - id: 129147
-      asset_id: 52338
+    - id: 566932
+      asset_id: 96050
       name: prg2.bin
       size: 262144
       blob_id: 11569
-    - id: 129148
-      asset_id: 52338
+    - id: 566933
+      asset_id: 96050
       name: prg3.bin
       size: 262144
       blob_id: 11570
-    - id: 129149
-      asset_id: 52338
+    - id: 566934
+      asset_id: 96050
       name: prg7.bin
       size: 65536
       blob_id: 11571
-    - id: 129150
-      asset_id: 52338
+    - id: 566935
+      asset_id: 96050
       name: prg8.bin
       size: 65536
       blob_id: 11572
-    - id: 129151
-      asset_id: 52338
+    - id: 566936
+      asset_id: 96050
       name: s1.bin
       size: 524288
       blob_id: 11573
-    - id: 129152
-      asset_id: 52338
+    - id: 566937
+      asset_id: 96050
       name: s2.bin
       size: 524288
       blob_id: 11574
-    - id: 129153
-      asset_id: 52338
+    - id: 566938
+      asset_id: 96050
       name: scr3.bin
       size: 131072
       blob_id: 11575
-    - id: 129154
-      asset_id: 52338
+    - id: 566939
+      asset_id: 96050
       name: voi10.bin
       size: 262144
       blob_id: 11576
-    - id: 129155
-      asset_id: 52338
+    - id: 566940
+      asset_id: 96050
+      name: voi11.bin
+      size: 262144
+      blob_id: 11577
+- release:
+    id: 81309
+    game_id: 1075
+    description: ""
+    release_date: 19930000
+  names:
+  - id: 206356
+    kind: 3
+    kind_id: 81309
+    language: 1
+    name: Chimera Beast (Japan, prototype, set 2)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 96051
+      kind: 3
+      kind_id: 81309
+      type: 1
+      name: chimeraba.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 566941
+      asset_id: 96051
+      name: b1.bin
+      size: 524288
+      blob_id: 11567
+    - id: 566942
+      asset_id: 96051
+      name: b2.bin
+      size: 524288
+      blob_id: 11568
+    - id: 566943
+      asset_id: 96051
+      name: chim2.bin
+      size: 262144
+      blob_id: 241921
+    - id: 566944
+      asset_id: 96051
+      name: chim3.bin
+      size: 262144
+      blob_id: 241922
+    - id: 566945
+      asset_id: 96051
+      name: pr-91044
+      size: 512
+      blob_id: 685
+    - id: 566946
+      asset_id: 96051
+      name: prg7.bin
+      size: 65536
+      blob_id: 11571
+    - id: 566947
+      asset_id: 96051
+      name: prg8.bin
+      size: 65536
+      blob_id: 11572
+    - id: 566948
+      asset_id: 96051
+      name: s1.bin
+      size: 524288
+      blob_id: 11573
+    - id: 566949
+      asset_id: 96051
+      name: s2.bin
+      size: 524288
+      blob_id: 11574
+    - id: 566950
+      asset_id: 96051
+      name: scr3.bin
+      size: 131072
+      blob_id: 11575
+    - id: 566951
+      asset_id: 96051
+      name: voi10.bin
+      size: 262144
+      blob_id: 11576
+    - id: 566952
+      asset_id: 96051
       name: voi11.bin
       size: 262144
       blob_id: 11577

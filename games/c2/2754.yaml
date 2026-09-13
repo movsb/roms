@@ -16,6 +16,12 @@ names:
   language: 2
   name: 老鼠不得了
   source: trimui
+- id: 193505
+  kind: 2
+  kind_id: 2754
+  language: 1
+  name: Mouser (Cosmos)
+  source: mame
 game_developers:
 - game_id: 2754
   developer_id: 427
@@ -144,24 +150,10 @@ releases:
       blob_id: 88299
       debug: arcade/wheel/mouser.png
     entries: []
-- release:
-    id: 58899
-    game_id: 2754
-    description: ""
-    release_date: 19830000
-  names:
-  - id: 148226
-    kind: 3
-    kind_id: 58899
-    language: 1
-    name: Mouser
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 71969
+      id: 104865
       kind: 3
-      kind_id: 58899
+      kind_id: 2754
       type: 1
       name: mouser.zip
       description: ""
@@ -170,53 +162,129 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 271413
-      asset_id: 71969
+    - id: 666746
+      asset_id: 104865
       name: m0.5e
       size: 8192
       blob_id: 29304
-    - id: 271414
-      asset_id: 71969
+    - id: 666747
+      asset_id: 104865
       name: m1.5f
       size: 8192
       blob_id: 29305
-    - id: 271415
-      asset_id: 71969
+    - id: 666748
+      asset_id: 104865
       name: m2.5j
       size: 8192
       blob_id: 29306
-    - id: 271416
-      asset_id: 71969
+    - id: 666749
+      asset_id: 104865
       name: m3.11h
       size: 8192
       blob_id: 29307
-    - id: 271417
-      asset_id: 71969
+    - id: 666750
+      asset_id: 104865
       name: m4.11k
       size: 8192
       blob_id: 29308
-    - id: 271418
-      asset_id: 71969
+    - id: 666751
+      asset_id: 104865
       name: m5.3v
       size: 4096
       blob_id: 29309
-    - id: 271419
-      asset_id: 71969
+    - id: 666752
+      asset_id: 104865
       name: tbp18s030n.5u
       size: 32
       blob_id: 29302
-    - id: 271420
-      asset_id: 71969
+    - id: 666753
+      asset_id: 104865
       name: tbp18s030n.5v
       size: 32
       blob_id: 29303
-    - id: 271421
-      asset_id: 71969
+    - id: 666754
+      asset_id: 104865
       name: tbp24s10n.4b
       size: 256
       blob_id: 29300
-    - id: 271422
-      asset_id: 71969
+    - id: 666755
+      asset_id: 104865
+      name: tbp24s10n.4c
+      size: 256
+      blob_id: 29301
+- release:
+    id: 89501
+    game_id: 2754
+    description: ""
+    release_date: 19830000
+  names:
+  - id: 218927
+    kind: 3
+    kind_id: 89501
+    language: 1
+    name: Mouser (Cosmos)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 104866
+      kind: 3
+      kind_id: 89501
+      type: 1
+      name: mouserc.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 666756
+      asset_id: 104866
+      name: "83001.0"
+      size: 8192
+      blob_id: 258491
+    - id: 666757
+      asset_id: 104866
+      name: "83001.1"
+      size: 8192
+      blob_id: 29305
+    - id: 666758
+      asset_id: 104866
+      name: "83001.2"
+      size: 8192
+      blob_id: 29306
+    - id: 666759
+      asset_id: 104866
+      name: "83001.3"
+      size: 8192
+      blob_id: 29307
+    - id: 666760
+      asset_id: 104866
+      name: "83001.4"
+      size: 8192
+      blob_id: 29308
+    - id: 666761
+      asset_id: 104866
+      name: "83001.5"
+      size: 4096
+      blob_id: 29309
+    - id: 666762
+      asset_id: 104866
+      name: tbp18s030n.5u
+      size: 32
+      blob_id: 29302
+    - id: 666763
+      asset_id: 104866
+      name: tbp18s030n.5v
+      size: 32
+      blob_id: 29303
+    - id: 666764
+      asset_id: 104866
+      name: tbp24s10n.4b
+      size: 256
+      blob_id: 29300
+    - id: 666765
+      asset_id: 104866
       name: tbp24s10n.4c
       size: 256
       blob_id: 29301

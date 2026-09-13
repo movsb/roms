@@ -16,8 +16,28 @@ names:
   language: 2
   name: "撞球高手 - 折磨 (程序代码 L)"
   source: trimui
+- id: 187281
+  kind: 2
+  kind_id: 3284
+  language: 1
+  name: thehustl
+  source: ""
+- id: 187282
+  kind: 2
+  kind_id: 3284
+  language: 2
+  name: "撞球高手 - 骗子 (日版, 程序代码 M)"
+  source: trimui
+- id: 200109
+  kind: 2
+  kind_id: 3284
+  language: 1
+  name: The Hustler (Japan, version J)
+  source: mame
 game_developers: []
-game_genres: []
+game_genres:
+- game_id: 3284
+  genre_id: 6
 assets: []
 releases:
 - release:
@@ -97,24 +117,10 @@ releases:
       name: thehustlj/765_j02.7e
       size: 32768
       blob_id: 34941
-- release:
-    id: 63020
-    game_id: 3284
-    description: ""
-    release_date: 19870000
-  names:
-  - id: 156301
-    kind: 3
-    kind_id: 63020
-    language: 1
-    name: Rack 'em Up (version L)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 76090
+      id: 108711
       kind: 3
-      kind_id: 63020
+      kind_id: 3284
       type: 1
       name: rackemup.zip
       description: ""
@@ -123,28 +129,138 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 315783
-      asset_id: 76090
+    - id: 709052
+      asset_id: 108711
       name: 765_j01.10a
       size: 32768
       blob_id: 34933
-    - id: 315784
-      asset_id: 76090
+    - id: 709053
+      asset_id: 108711
       name: 765_j03.8e
       size: 65536
       blob_id: 34934
-    - id: 315785
-      asset_id: 76090
+    - id: 709054
+      asset_id: 108711
       name: 765_l02.7e
       size: 32768
       blob_id: 34935
-    - id: 315786
-      asset_id: 76090
+    - id: 709055
+      asset_id: 108711
       name: 765_l04.13a
       size: 262144
       blob_id: 34936
-    - id: 315787
-      asset_id: 76090
+    - id: 709056
+      asset_id: 108711
       name: 765_l05.13e
       size: 262144
       blob_id: 34937
+- release:
+    id: 99630
+    game_id: 3284
+    description: ""
+    release_date: 19870000
+  names:
+  - id: 232791
+    kind: 3
+    kind_id: 99630
+    language: 1
+    name: The Hustler (Japan, version J)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 115505
+      kind: 3
+      kind_id: 99630
+      type: 1
+      name: thehustlj.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 768541
+      asset_id: 115505
+      name: 765_e04.13a
+      size: 262144
+      blob_id: 34938
+    - id: 768542
+      asset_id: 115505
+      name: 765_e05.13e
+      size: 262144
+      blob_id: 34939
+    - id: 768543
+      asset_id: 115505
+      name: 765_j01.10a
+      size: 32768
+      blob_id: 34933
+    - id: 768544
+      asset_id: 115505
+      name: 765_j02.7e
+      size: 32768
+      blob_id: 34941
+    - id: 768545
+      asset_id: 115505
+      name: 765_j03.8e
+      size: 65536
+      blob_id: 34934
+- release:
+    id: 103155
+    game_id: 3284
+    description: ""
+    release_date: 19870000
+  names:
+  - id: 238096
+    kind: 3
+    kind_id: 103155
+    language: 1
+    name: thehustl
+    source: ""
+  - id: 238097
+    kind: 3
+    kind_id: 103155
+    language: 2
+    name: "撞球高手 - 骗子 (日版, 程序代码 M)"
+    source: trimui
+  release_publishers:
+  - release_id: 103155
+    publisher_id: 2
+  assets:
+  - asset:
+      id: 115504
+      kind: 3
+      kind_id: 103155
+      type: 1
+      name: thehustl.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 768536
+      asset_id: 115504
+      name: 765_e04.13a
+      size: 262144
+      blob_id: 34938
+    - id: 768537
+      asset_id: 115504
+      name: 765_e05.13e
+      size: 262144
+      blob_id: 34939
+    - id: 768538
+      asset_id: 115504
+      name: 765_j01.10a
+      size: 32768
+      blob_id: 34933
+    - id: 768539
+      asset_id: 115504
+      name: 765_j03.8e
+      size: 65536
+      blob_id: 34934
+    - id: 768540
+      asset_id: 115504
+      name: 765_m02.7e
+      size: 32768
+      blob_id: 34940

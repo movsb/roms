@@ -16,6 +16,18 @@ names:
   language: 2
   name: 琉球 (修订版 A, 日版) (FD1094 317-5023A)
   source: trimui
+- id: 195899
+  kind: 2
+  kind_id: 3452
+  language: 1
+  name: RyuKyu (Japan) (FD1094 317-5023)
+  source: mame
+- id: 195900
+  kind: 2
+  kind_id: 3452
+  language: 1
+  name: RyuKyu (Japan) (bootleg of FD1094 317-5023 set)
+  source: mame
 game_developers: []
 game_genres: []
 assets: []
@@ -142,24 +154,10 @@ releases:
       name: ryukyud/bootleg_epr-13348.a7
       size: 65536
       blob_id: 37269
-- release:
-    id: 63930
-    game_id: 3452
-    description: ""
-    release_date: 19900000
-  names:
-  - id: 158050
-    kind: 3
-    kind_id: 63930
-    language: 1
-    name: RyuKyu (Rev A, Japan) (FD1094 317-5023A)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 77000
+      id: 109543
       kind: 3
-      kind_id: 63930
+      kind_id: 3452
       type: 1
       name: ryukyu.zip
       description: ""
@@ -168,68 +166,245 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 327938
-      asset_id: 77000
+    - id: 720502
+      asset_id: 109543
       name: 315-5298.b9
       size: 235
       blob_id: 6061
-    - id: 327939
-      asset_id: 77000
+    - id: 720503
+      asset_id: 109543
       name: 317-5023a.key
       size: 8192
       blob_id: 37253
-    - id: 327940
-      asset_id: 77000
+    - id: 720504
+      asset_id: 109543
       name: epr-13347a.a5
       size: 65536
       blob_id: 37254
-    - id: 327941
-      asset_id: 77000
+    - id: 720505
+      asset_id: 109543
       name: epr-13348a.a7
       size: 65536
       blob_id: 37255
-    - id: 327942
-      asset_id: 77000
+    - id: 720506
+      asset_id: 109543
       name: epr-13349.a10
       size: 32768
       blob_id: 37256
-    - id: 327943
-      asset_id: 77000
+    - id: 720507
+      asset_id: 109543
       name: opr-13350.a11
       size: 131072
       blob_id: 37257
-    - id: 327944
-      asset_id: 77000
+    - id: 720508
+      asset_id: 109543
       name: opr-13351.a14
       size: 131072
       blob_id: 37258
-    - id: 327945
-      asset_id: 77000
+    - id: 720509
+      asset_id: 109543
       name: opr-13352.a15
       size: 131072
       blob_id: 37259
-    - id: 327946
-      asset_id: 77000
+    - id: 720510
+      asset_id: 109543
       name: opr-13353.a16
       size: 131072
       blob_id: 37260
-    - id: 327947
-      asset_id: 77000
+    - id: 720511
+      asset_id: 109543
       name: opr-13354.b1
       size: 131072
       blob_id: 37261
-    - id: 327948
-      asset_id: 77000
+    - id: 720512
+      asset_id: 109543
       name: opr-13355.b2
       size: 131072
       blob_id: 37262
-    - id: 327949
-      asset_id: 77000
+    - id: 720513
+      asset_id: 109543
       name: opr-13356.b5
       size: 131072
       blob_id: 37263
-    - id: 327950
-      asset_id: 77000
+    - id: 720514
+      asset_id: 109543
+      name: opr-13357.b6
+      size: 131072
+      blob_id: 37264
+- release:
+    id: 93929
+    game_id: 3452
+    description: ""
+    release_date: 19900000
+  names:
+  - id: 225519
+    kind: 3
+    kind_id: 93929
+    language: 1
+    name: RyuKyu (Japan) (FD1094 317-5023)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 109544
+      kind: 3
+      kind_id: 93929
+      type: 1
+      name: ryukyua.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 720515
+      asset_id: 109544
+      name: 315-5298.b9
+      size: 235
+      blob_id: 6061
+    - id: 720516
+      asset_id: 109544
+      name: 317-5023.key
+      size: 8192
+      blob_id: 37265
+    - id: 720517
+      asset_id: 109544
+      name: epr-13347.a5
+      size: 65536
+      blob_id: 37266
+    - id: 720518
+      asset_id: 109544
+      name: epr-13348.a7
+      size: 65536
+      blob_id: 37267
+    - id: 720519
+      asset_id: 109544
+      name: epr-13349.a10
+      size: 32768
+      blob_id: 37256
+    - id: 720520
+      asset_id: 109544
+      name: opr-13350.a11
+      size: 131072
+      blob_id: 37257
+    - id: 720521
+      asset_id: 109544
+      name: opr-13351.a14
+      size: 131072
+      blob_id: 37258
+    - id: 720522
+      asset_id: 109544
+      name: opr-13352.a15
+      size: 131072
+      blob_id: 37259
+    - id: 720523
+      asset_id: 109544
+      name: opr-13353.a16
+      size: 131072
+      blob_id: 37260
+    - id: 720524
+      asset_id: 109544
+      name: opr-13354.b1
+      size: 131072
+      blob_id: 37261
+    - id: 720525
+      asset_id: 109544
+      name: opr-13355.b2
+      size: 131072
+      blob_id: 37262
+    - id: 720526
+      asset_id: 109544
+      name: opr-13356.b5
+      size: 131072
+      blob_id: 37263
+    - id: 720527
+      asset_id: 109544
+      name: opr-13357.b6
+      size: 131072
+      blob_id: 37264
+- release:
+    id: 93930
+    game_id: 3452
+    description: ""
+    release_date: 19900000
+  names:
+  - id: 225520
+    kind: 3
+    kind_id: 93930
+    language: 1
+    name: RyuKyu (Japan) (bootleg of FD1094 317-5023 set)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 109545
+      kind: 3
+      kind_id: 93930
+      type: 1
+      name: ryukyud.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 720528
+      asset_id: 109545
+      name: 315-5298.b9
+      size: 235
+      blob_id: 6061
+    - id: 720529
+      asset_id: 109545
+      name: bootleg_epr-13347.a5
+      size: 65536
+      blob_id: 37268
+    - id: 720530
+      asset_id: 109545
+      name: bootleg_epr-13348.a7
+      size: 65536
+      blob_id: 37269
+    - id: 720531
+      asset_id: 109545
+      name: epr-13349.a10
+      size: 32768
+      blob_id: 37256
+    - id: 720532
+      asset_id: 109545
+      name: opr-13350.a11
+      size: 131072
+      blob_id: 37257
+    - id: 720533
+      asset_id: 109545
+      name: opr-13351.a14
+      size: 131072
+      blob_id: 37258
+    - id: 720534
+      asset_id: 109545
+      name: opr-13352.a15
+      size: 131072
+      blob_id: 37259
+    - id: 720535
+      asset_id: 109545
+      name: opr-13353.a16
+      size: 131072
+      blob_id: 37260
+    - id: 720536
+      asset_id: 109545
+      name: opr-13354.b1
+      size: 131072
+      blob_id: 37261
+    - id: 720537
+      asset_id: 109545
+      name: opr-13355.b2
+      size: 131072
+      blob_id: 37262
+    - id: 720538
+      asset_id: 109545
+      name: opr-13356.b5
+      size: 131072
+      blob_id: 37263
+    - id: 720539
+      asset_id: 109545
       name: opr-13357.b6
       size: 131072
       blob_id: 37264

@@ -16,6 +16,18 @@ names:
   language: 2
   name: 追击赛车 (第一套)
   source: trimui
+- id: 194932
+  kind: 2
+  kind_id: 3119
+  language: 1
+  name: "Pit & Run - F-1 Race"
+  source: mame
+- id: 194933
+  kind: 2
+  kind_id: 3119
+  language: 1
+  name: "Pit & Run - F-1 Race (location test?)"
+  source: mame
 game_developers: []
 game_genres:
 - game_id: 3119
@@ -45,9 +57,73 @@ releases:
     publisher_id: 267
   assets:
   - asset:
-      id: 3104
+      id: 48553
       kind: 3
       kind_id: 3119
+      type: 4
+      name: pitnrun.png
+      description: ""
+      format: 1
+      size: 2145
+      blob_id: 91410
+      debug: arcade/downloaded_images/pitnrun.png
+    entries: []
+  - asset:
+      id: 48554
+      kind: 3
+      kind_id: 3119
+      type: 6
+      name: pitnrun.mp4
+      description: ""
+      format: 1
+      size: 467135
+      blob_id: 91411
+      debug: arcade/snap/pitnrun.mp4
+    entries: []
+  - asset:
+      id: 48555
+      kind: 3
+      kind_id: 3119
+      type: 7
+      name: pitnrun.png
+      description: ""
+      format: 1
+      size: 59339
+      blob_id: 91412
+      debug: arcade/wheel/pitnrun.png
+    entries: []
+- release:
+    id: 61773
+    game_id: 3119
+    description: ""
+    release_date: 19840000
+  names:
+  - id: 153855
+    kind: 3
+    kind_id: 61773
+    language: 1
+    name: "Pit & Run - F-1 Race (rev 1)"
+    source: mame
+  - id: 184084
+    kind: 3
+    kind_id: 61773
+    language: 1
+    name: pitnrun
+    source: ""
+  - id: 184085
+    kind: 3
+    kind_id: 61773
+    language: 2
+    name: 追击赛车 (第一套)
+    source: trimui
+  release_publishers:
+  - release_id: 61773
+    publisher_id: 267
+  assets:
+  - asset:
+      id: 3104
+      kind: 3
+      kind_id: 61773
       type: 1
       name: pitnrun.zip
       description: ""
@@ -142,57 +218,7 @@ releases:
       size: 8192
       blob_id: 33276
   - asset:
-      id: 48553
-      kind: 3
-      kind_id: 3119
-      type: 4
-      name: pitnrun.png
-      description: ""
-      format: 1
-      size: 2145
-      blob_id: 91410
-      debug: arcade/downloaded_images/pitnrun.png
-    entries: []
-  - asset:
-      id: 48554
-      kind: 3
-      kind_id: 3119
-      type: 6
-      name: pitnrun.mp4
-      description: ""
-      format: 1
-      size: 467135
-      blob_id: 91411
-      debug: arcade/snap/pitnrun.mp4
-    entries: []
-  - asset:
-      id: 48555
-      kind: 3
-      kind_id: 3119
-      type: 7
-      name: pitnrun.png
-      description: ""
-      format: 1
-      size: 59339
-      blob_id: 91412
-      debug: arcade/wheel/pitnrun.png
-    entries: []
-- release:
-    id: 61773
-    game_id: 3119
-    description: ""
-    release_date: 19840000
-  names:
-  - id: 153855
-    kind: 3
-    kind_id: 61773
-    language: 1
-    name: "Pit & Run - F-1 Race (rev 1)"
-    source: mame
-  release_publishers: []
-  assets:
-  - asset:
-      id: 74843
+      id: 107683
       kind: 3
       kind_id: 61773
       type: 1
@@ -203,88 +229,407 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 303134
-      asset_id: 74843
+    - id: 697484
+      asset_id: 107683
       name: a11_17.3a
       size: 2048
       blob_id: 33260
-    - id: 303135
-      asset_id: 74843
+    - id: 697485
+      asset_id: 107683
       name: clr.1
       size: 32
       blob_id: 33261
-    - id: 303136
-      asset_id: 74843
+    - id: 697486
+      asset_id: 107683
       name: clr.2
       size: 32
       blob_id: 33262
-    - id: 303137
-      asset_id: 74843
+    - id: 697487
+      asset_id: 107683
       name: clr.3
       size: 32
       blob_id: 33263
-    - id: 303138
-      asset_id: 74843
+    - id: 697488
+      asset_id: 107683
       name: pr-1.1k
       size: 8192
       blob_id: 33264
-    - id: 303139
-      asset_id: 74843
+    - id: 697489
+      asset_id: 107683
       name: pr-13
       size: 4096
-      blob_id: 159793
-    - id: 303140
-      asset_id: 74843
+      blob_id: 266609
+    - id: 697490
+      asset_id: 107683
       name: pr-2.1m
       size: 8192
       blob_id: 33269
-    - id: 303141
-      asset_id: 74843
+    - id: 697491
+      asset_id: 107683
       name: pr-3.1n
       size: 8192
       blob_id: 33270
-    - id: 303142
-      asset_id: 74843
+    - id: 697492
+      asset_id: 107683
       name: pr-4.6d
       size: 8192
       blob_id: 33271
-    - id: 303143
-      asset_id: 74843
+    - id: 697493
+      asset_id: 107683
       name: pr-5.6f
       size: 8192
       blob_id: 33272
-    - id: 303144
-      asset_id: 74843
+    - id: 697494
+      asset_id: 107683
       name: pr-6.3m
       size: 4096
       blob_id: 33273
-    - id: 303145
-      asset_id: 74843
+    - id: 697495
+      asset_id: 107683
       name: pr-7.3p
       size: 4096
       blob_id: 33274
-    - id: 303146
-      asset_id: 74843
+    - id: 697496
+      asset_id: 107683
       name: pr-8.4j
       size: 8192
       blob_id: 33275
-    - id: 303147
-      asset_id: 74843
+    - id: 697497
+      asset_id: 107683
       name: pr_10-1.5b
       size: 8192
-      blob_id: 159794
-    - id: 303148
-      asset_id: 74843
+      blob_id: 266610
+    - id: 697498
+      asset_id: 107683
       name: pr_11-1.5c
       size: 8192
-      blob_id: 159795
-    - id: 303149
-      asset_id: 74843
+      blob_id: 266611
+    - id: 697499
+      asset_id: 107683
       name: pr_12-1.5d
       size: 8192
-      blob_id: 159796
-    - id: 303150
-      asset_id: 74843
+      blob_id: 266612
+    - id: 697500
+      asset_id: 107683
       name: pr_9-1.5a
       size: 8192
-      blob_id: 159797
+      blob_id: 266613
+- release:
+    id: 92197
+    game_id: 3119
+    description: ""
+    release_date: 19840000
+  names:
+  - id: 222964
+    kind: 3
+    kind_id: 92197
+    language: 1
+    name: "Pit & Run - F-1 Race"
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 107684
+      kind: 3
+      kind_id: 92197
+      type: 1
+      name: pitnruna.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 697501
+      asset_id: 107684
+      name: a11_17.3a
+      size: 2048
+      blob_id: 33260
+    - id: 697502
+      asset_id: 107684
+      name: clr.1
+      size: 32
+      blob_id: 33261
+    - id: 697503
+      asset_id: 107684
+      name: clr.2
+      size: 32
+      blob_id: 33262
+    - id: 697504
+      asset_id: 107684
+      name: clr.3
+      size: 32
+      blob_id: 33263
+    - id: 697505
+      asset_id: 107684
+      name: pr-1.1k
+      size: 8192
+      blob_id: 33264
+    - id: 697506
+      asset_id: 107684
+      name: pr-2.1m
+      size: 8192
+      blob_id: 33269
+    - id: 697507
+      asset_id: 107684
+      name: pr-3.1n
+      size: 8192
+      blob_id: 33270
+    - id: 697508
+      asset_id: 107684
+      name: pr-4.6d
+      size: 8192
+      blob_id: 33271
+    - id: 697509
+      asset_id: 107684
+      name: pr-5.6f
+      size: 8192
+      blob_id: 33272
+    - id: 697510
+      asset_id: 107684
+      name: pr-6.3m
+      size: 4096
+      blob_id: 33273
+    - id: 697511
+      asset_id: 107684
+      name: pr-7.3p
+      size: 4096
+      blob_id: 33274
+    - id: 697512
+      asset_id: 107684
+      name: pr-8.4j
+      size: 8192
+      blob_id: 33275
+    - id: 697513
+      asset_id: 107684
+      name: pr13
+      size: 4096
+      blob_id: 33268
+    - id: 697514
+      asset_id: 107684
+      name: pr_10.5b
+      size: 8192
+      blob_id: 33265
+    - id: 697515
+      asset_id: 107684
+      name: pr_11.5c
+      size: 8192
+      blob_id: 33266
+    - id: 697516
+      asset_id: 107684
+      name: pr_12.5d
+      size: 8192
+      blob_id: 33267
+    - id: 697517
+      asset_id: 107684
+      name: pr_9.5a
+      size: 8192
+      blob_id: 33276
+  - asset:
+      id: 119274
+      kind: 3
+      kind_id: 92197
+      type: 1
+      name: pitnruna.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 826337
+      asset_id: 119274
+      name: a11_17.3a
+      size: 2048
+      blob_id: 33260
+    - id: 826338
+      asset_id: 119274
+      name: clr.1
+      size: 32
+      blob_id: 33261
+    - id: 826339
+      asset_id: 119274
+      name: clr.2
+      size: 32
+      blob_id: 33262
+    - id: 826340
+      asset_id: 119274
+      name: clr.3
+      size: 32
+      blob_id: 33263
+    - id: 826341
+      asset_id: 119274
+      name: pr-1.1k
+      size: 8192
+      blob_id: 33264
+    - id: 826342
+      asset_id: 119274
+      name: pr-13
+      size: 4096
+      blob_id: 266609
+    - id: 826343
+      asset_id: 119274
+      name: pr-2.1m
+      size: 8192
+      blob_id: 33269
+    - id: 826344
+      asset_id: 119274
+      name: pr-3.1n
+      size: 8192
+      blob_id: 33270
+    - id: 826345
+      asset_id: 119274
+      name: pr-4.6d
+      size: 8192
+      blob_id: 33271
+    - id: 826346
+      asset_id: 119274
+      name: pr-5.6f
+      size: 8192
+      blob_id: 33272
+    - id: 826347
+      asset_id: 119274
+      name: pr-6.3m
+      size: 4096
+      blob_id: 33273
+    - id: 826348
+      asset_id: 119274
+      name: pr-7.3p
+      size: 4096
+      blob_id: 33274
+    - id: 826349
+      asset_id: 119274
+      name: pr-8.4j
+      size: 8192
+      blob_id: 33275
+    - id: 826350
+      asset_id: 119274
+      name: pr_10-1.5b
+      size: 8192
+      blob_id: 266610
+    - id: 826351
+      asset_id: 119274
+      name: pr_11-1.5c
+      size: 8192
+      blob_id: 266611
+    - id: 826352
+      asset_id: 119274
+      name: pr_12-1.5d
+      size: 8192
+      blob_id: 266612
+    - id: 826353
+      asset_id: 119274
+      name: pr_9-1.5a
+      size: 8192
+      blob_id: 266613
+- release:
+    id: 92198
+    game_id: 3119
+    description: ""
+    release_date: 19840000
+  names:
+  - id: 222965
+    kind: 3
+    kind_id: 92198
+    language: 1
+    name: "Pit & Run - F-1 Race (location test?)"
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 107685
+      kind: 3
+      kind_id: 92198
+      type: 1
+      name: pitnrunb.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 697518
+      asset_id: 107685
+      name: a11_17.3a
+      size: 2048
+      blob_id: 33260
+    - id: 697519
+      asset_id: 107685
+      name: bp1
+      size: 32
+      blob_id: 33261
+    - id: 697520
+      asset_id: 107685
+      name: bp2
+      size: 32
+      blob_id: 33262
+    - id: 697521
+      asset_id: 107685
+      name: bp3
+      size: 32
+      blob_id: 33263
+    - id: 697522
+      asset_id: 107685
+      name: bsc1
+      size: 4096
+      blob_id: 33273
+    - id: 697523
+      asset_id: 107685
+      name: bsc2
+      size: 4096
+      blob_id: 33274
+    - id: 697524
+      asset_id: 107685
+      name: chr1
+      size: 8192
+      blob_id: 33271
+    - id: 697525
+      asset_id: 107685
+      name: chr2
+      size: 8192
+      blob_id: 33272
+    - id: 697526
+      asset_id: 107685
+      name: lightdata
+      size: 8192
+      blob_id: 33275
+    - id: 697527
+      asset_id: 107685
+      name: obj1
+      size: 8192
+      blob_id: 33270
+    - id: 697528
+      asset_id: 107685
+      name: obj2
+      size: 8192
+      blob_id: 33269
+    - id: 697529
+      asset_id: 107685
+      name: obj3
+      size: 8192
+      blob_id: 33264
+    - id: 697530
+      asset_id: 107685
+      name: sound
+      size: 4096
+      blob_id: 266614
+    - id: 697531
+      asset_id: 107685
+      name: test.a1
+      size: 8192
+      blob_id: 266615
+    - id: 697532
+      asset_id: 107685
+      name: test.a2
+      size: 8192
+      blob_id: 266616
+    - id: 697533
+      asset_id: 107685
+      name: test.a3
+      size: 8192
+      blob_id: 266617
+    - id: 697534
+      asset_id: 107685
+      name: test.a4
+      size: 8192
+      blob_id: 266618

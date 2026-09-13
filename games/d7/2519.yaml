@@ -10,6 +10,18 @@ names:
   language: 1
   name: leprechn
   source: ""
+- id: 192572
+  kind: 2
+  kind_id: 2519
+  language: 1
+  name: Leprechaun (set 2)
+  source: mame
+- id: 195081
+  kind: 2
+  kind_id: 2519
+  language: 1
+  name: Pot of Gold
+  source: mame
 game_developers:
 - game_id: 2519
   developer_id: 745
@@ -133,6 +145,63 @@ releases:
       blob_id: 91324
       debug: arcade/wheel/leprechn.png
     entries: []
+  - asset:
+      id: 102947
+      kind: 3
+      kind_id: 2519
+      type: 1
+      name: leprechn.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 648415
+      asset_id: 102947
+      name: 1.u13
+      size: 4096
+      blob_id: 26813
+    - id: 648416
+      asset_id: 102947
+      name: 2.u14
+      size: 4096
+      blob_id: 26814
+    - id: 648417
+      asset_id: 102947
+      name: 3.u15
+      size: 4096
+      blob_id: 228343
+    - id: 648418
+      asset_id: 102947
+      name: 4.u16
+      size: 4096
+      blob_id: 26816
+    - id: 648419
+      asset_id: 102947
+      name: 5.u17
+      size: 4096
+      blob_id: 26817
+    - id: 648420
+      asset_id: 102947
+      name: 6.u18
+      size: 4096
+      blob_id: 26818
+    - id: 648421
+      asset_id: 102947
+      name: 7.u19
+      size: 4096
+      blob_id: 26819
+    - id: 648422
+      asset_id: 102947
+      name: 8.u20
+      size: 4096
+      blob_id: 26820
+    - id: 648423
+      asset_id: 102947
+      name: lepsound
+      size: 4096
+      blob_id: 26821
 - release:
     id: 2520
     game_id: 2519
@@ -211,73 +280,144 @@ releases:
       size: 4096
       blob_id: 26821
 - release:
-    id: 49428
+    id: 87676
     game_id: 2519
     description: ""
     release_date: 19820000
   names:
-  - id: 129371
+  - id: 216113
     kind: 3
-    kind_id: 49428
+    kind_id: 87676
     language: 1
-    name: Leprechaun (set 1)
+    name: Leprechaun (set 2)
     source: mame
   release_publishers: []
   assets:
   - asset:
-      id: 62498
+      id: 102948
       kind: 3
-      kind_id: 49428
+      kind_id: 87676
       type: 1
-      name: leprechn.zip
+      name: leprechna.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 223985
-      asset_id: 62498
-      name: 1.u13
+    - id: 648424
+      asset_id: 102948
+      name: lep1.u13
       size: 4096
       blob_id: 26813
-    - id: 223986
-      asset_id: 62498
-      name: 2.u14
+    - id: 648425
+      asset_id: 102948
+      name: lep2.u14
       size: 4096
       blob_id: 26814
-    - id: 223987
-      asset_id: 62498
-      name: 3.u15
+    - id: 648426
+      asset_id: 102948
+      name: lep3.u15
       size: 4096
-      blob_id: 133390
-    - id: 223988
-      asset_id: 62498
-      name: 4.u16
+      blob_id: 26815
+    - id: 648427
+      asset_id: 102948
+      name: lep4.u16
       size: 4096
       blob_id: 26816
-    - id: 223989
-      asset_id: 62498
-      name: 5.u17
+    - id: 648428
+      asset_id: 102948
+      name: lep5.u17
       size: 4096
       blob_id: 26817
-    - id: 223990
-      asset_id: 62498
-      name: 6.u18
+    - id: 648429
+      asset_id: 102948
+      name: lep6.u18
       size: 4096
       blob_id: 26818
-    - id: 223991
-      asset_id: 62498
-      name: 7.u19
+    - id: 648430
+      asset_id: 102948
+      name: lep7.u19
       size: 4096
       blob_id: 26819
-    - id: 223992
-      asset_id: 62498
-      name: 8.u20
+    - id: 648431
+      asset_id: 102948
+      name: lep8.u20
       size: 4096
       blob_id: 26820
-    - id: 223993
-      asset_id: 62498
+    - id: 648432
+      asset_id: 102948
       name: lepsound
       size: 4096
       blob_id: 26821
+- release:
+    id: 92503
+    game_id: 2519
+    description: ""
+    release_date: 19820000
+  names:
+  - id: 223448
+    kind: 3
+    kind_id: 92503
+    language: 1
+    name: Pot of Gold
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 108005
+      kind: 3
+      kind_id: 92503
+      type: 1
+      name: potogold.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 700701
+      asset_id: 108005
+      name: pog.pg1
+      size: 4096
+      blob_id: 267885
+    - id: 700702
+      asset_id: 108005
+      name: pog.pg2
+      size: 4096
+      blob_id: 267886
+    - id: 700703
+      asset_id: 108005
+      name: pog.pg3
+      size: 4096
+      blob_id: 267887
+    - id: 700704
+      asset_id: 108005
+      name: pog.pg4
+      size: 4096
+      blob_id: 267888
+    - id: 700705
+      asset_id: 108005
+      name: pog.pg5
+      size: 4096
+      blob_id: 267889
+    - id: 700706
+      asset_id: 108005
+      name: pog.pg6
+      size: 4096
+      blob_id: 267890
+    - id: 700707
+      asset_id: 108005
+      name: pog.pg7
+      size: 4096
+      blob_id: 267891
+    - id: 700708
+      asset_id: 108005
+      name: pog.pg8
+      size: 4096
+      blob_id: 267892
+    - id: 700709
+      asset_id: 108005
+      name: pog.snd
+      size: 4096
+      blob_id: 267893

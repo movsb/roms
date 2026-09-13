@@ -10,6 +10,36 @@ names:
   language: 1
   name: killbld
   source: ""
+- id: 186916
+  kind: 2
+  kind_id: 2218
+  language: 1
+  name: killbld104
+  source: ""
+- id: 186917
+  kind: 2
+  kind_id: 2218
+  language: 2
+  name: 傲剑狂刀 (V104)
+  source: trimui
+- id: 192347
+  kind: 2
+  kind_id: 2218
+  language: 1
+  name: The Killing Blade / Ao Jian Kuang Dao (ver. 100)
+  source: mame
+- id: 192348
+  kind: 2
+  kind_id: 2218
+  language: 1
+  name: The Killing Blade / Ao Jian Kuang Dao (ver. 106)
+  source: mame
+- id: 241844
+  kind: 2
+  kind_id: 2218
+  language: 1
+  name: The Killing Blade (V109 alt, China)
+  source: fbneo
 game_developers:
 - game_id: 2218
   developer_id: 524
@@ -148,21 +178,221 @@ releases:
       blob_id: 90217
       debug: arcade/wheel/killbld.png
     entries: []
+  - asset:
+      id: 102473
+      kind: 3
+      kind_id: 2218
+      type: 1
+      name: killbld.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 641861
+      asset_id: 102473
+      name: kb_u2_v109.u2
+      size: 65536
+      blob_id: 24641
+    - id: 641862
+      asset_id: 102473
+      name: p0300_v109.u9
+      size: 2097152
+      blob_id: 24643
+    - id: 641863
+      asset_id: 102473
+      name: pgm_a0300.u9
+      size: 4194304
+      blob_id: 24633
+    - id: 641864
+      asset_id: 102473
+      name: pgm_a0301.u10
+      size: 4194304
+      blob_id: 24634
+    - id: 641865
+      asset_id: 102473
+      name: pgm_a0303.u11
+      size: 4194304
+      blob_id: 24635
+    - id: 641866
+      asset_id: 102473
+      name: pgm_a0306.u12
+      size: 4194304
+      blob_id: 24636
+    - id: 641867
+      asset_id: 102473
+      name: pgm_a0307.u2
+      size: 4194304
+      blob_id: 24637
+    - id: 641868
+      asset_id: 102473
+      name: pgm_b0300.u13
+      size: 4194304
+      blob_id: 24638
+    - id: 641869
+      asset_id: 102473
+      name: pgm_b0302.u14
+      size: 4194304
+      blob_id: 24639
+    - id: 641870
+      asset_id: 102473
+      name: pgm_b0303.u15
+      size: 2097152
+      blob_id: 24640
+    - id: 641871
+      asset_id: 102473
+      name: pgm_m01s.rom
+      size: 2097152
+      blob_id: 14294
+    - id: 641872
+      asset_id: 102473
+      name: pgm_m0300.u1
+      size: 4194304
+      blob_id: 24642
+    - id: 641873
+      asset_id: 102473
+      name: pgm_p01s.u20
+      size: 131072
+      blob_id: 14308
+    - id: 641874
+      asset_id: 102473
+      name: pgm_p02s.u20
+      size: 131072
+      blob_id: 14309
+    - id: 641875
+      asset_id: 102473
+      name: pgm_t01s.rom
+      size: 2097152
+      blob_id: 14295
+    - id: 641876
+      asset_id: 102473
+      name: pgm_t0300.u14
+      size: 4194304
+      blob_id: 24644
+  - asset:
+      id: 119607
+      kind: 3
+      kind_id: 2218
+      type: 1
+      name: killbld.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 835696
+      asset_id: 119607
+      name: bios.u42
+      size: 131072
+      blob_id: 14326
+    - id: 835697
+      asset_id: 119607
+      name: ddp3_bios.u37
+      size: 524288
+      blob_id: 14290
+    - id: 835698
+      asset_id: 119607
+      name: kb_u2_v109.u2
+      size: 65536
+      blob_id: 24641
+    - id: 835699
+      asset_id: 119607
+      name: p0300_v109.u9
+      size: 2097152
+      blob_id: 24643
+    - id: 835700
+      asset_id: 119607
+      name: pgm_a0300.u9
+      size: 4194304
+      blob_id: 24633
+    - id: 835701
+      asset_id: 119607
+      name: pgm_a0301.u10
+      size: 4194304
+      blob_id: 24634
+    - id: 835702
+      asset_id: 119607
+      name: pgm_a0303.u11
+      size: 4194304
+      blob_id: 24635
+    - id: 835703
+      asset_id: 119607
+      name: pgm_a0306.u12
+      size: 4194304
+      blob_id: 24636
+    - id: 835704
+      asset_id: 119607
+      name: pgm_a0307.u2
+      size: 4194304
+      blob_id: 24637
+    - id: 835705
+      asset_id: 119607
+      name: pgm_b0300.u13
+      size: 4194304
+      blob_id: 24638
+    - id: 835706
+      asset_id: 119607
+      name: pgm_b0302.u14
+      size: 4194304
+      blob_id: 24639
+    - id: 835707
+      asset_id: 119607
+      name: pgm_b0303.u15
+      size: 2097152
+      blob_id: 24640
+    - id: 835708
+      asset_id: 119607
+      name: pgm_m01s.rom
+      size: 2097152
+      blob_id: 14294
+    - id: 835709
+      asset_id: 119607
+      name: pgm_m0300.u1
+      size: 4194304
+      blob_id: 24642
+    - id: 835710
+      asset_id: 119607
+      name: pgm_p01s.u20
+      size: 131072
+      blob_id: 14308
+    - id: 835711
+      asset_id: 119607
+      name: pgm_p02s.u20
+      size: 131072
+      blob_id: 14309
+    - id: 835712
+      asset_id: 119607
+      name: pgm_t01s.rom
+      size: 2097152
+      blob_id: 14295
+    - id: 835713
+      asset_id: 119607
+      name: pgm_t0300.u14
+      size: 4194304
+      blob_id: 24644
 - release:
-    id: 2220
+    id: 48929
     game_id: 2218
     description: ""
-    release_date: 0
+    release_date: 19980000
   names:
-  - id: 94430
+  - id: 128427
     kind: 3
-    kind_id: 2220
+    kind_id: 48929
+    language: 1
+    name: The Killing Blade / Ao Jian Kuang Dao (ver. 109, Chinese Board)
+    source: mame
+  - id: 184048
+    kind: 3
+    kind_id: 48929
     language: 1
     name: killbld
     source: ""
-  - id: 101347
+  - id: 184049
     kind: 3
-    kind_id: 2220
+    kind_id: 48929
     language: 2
     name: 傲剑狂刀 (V109, 中版)
     source: trimui
@@ -171,7 +401,7 @@ releases:
   - asset:
       id: 2219
       kind: 3
-      kind_id: 2220
+      kind_id: 48929
       type: 1
       name: killbld.zip
       description: ""
@@ -271,108 +501,859 @@ releases:
       size: 131072
       blob_id: 14326
 - release:
-    id: 48929
+    id: 77573
+    game_id: 2218
+    description: ""
+    release_date: 0
+  names:
+  - id: 185201
+    kind: 3
+    kind_id: 77573
+    language: 1
+    name: killbld104
+    source: ""
+  - id: 185202
+    kind: 3
+    kind_id: 77573
+    language: 2
+    name: 傲剑狂刀 (V104)
+    source: trimui
+  - id: 185203
+    kind: 3
+    kind_id: 77573
+    language: 1
+    name: The Killing Blade (V104)
+    source: fbneo
+  release_publishers: []
+  assets:
+  - asset:
+      id: 2218
+      kind: 3
+      kind_id: 77573
+      type: 1
+      name: killbld104.zip
+      description: ""
+      format: 2
+      size: 692092
+      blob_id: 0
+      debug: killbld104.zip
+    entries:
+    - id: 36083
+      asset_id: 2218
+      name: kb_u2_v104.u2
+      size: 65536
+      blob_id: 24645
+    - id: 36084
+      asset_id: 2218
+      name: kb_u3_v104.u3
+      size: 524288
+      blob_id: 24646
+    - id: 36085
+      asset_id: 2218
+      name: kb_u4_v104.u4
+      size: 524288
+      blob_id: 24647
+    - id: 36086
+      asset_id: 2218
+      name: kb_u5_v104.u5
+      size: 524288
+      blob_id: 24648
+    - id: 36087
+      asset_id: 2218
+      name: kb_u6_v104.u6
+      size: 524288
+      blob_id: 24649
+    - id: 216260
+      asset_id: 2218
+      name: pgm_a0300.u9
+      size: 4194304
+      blob_id: 24633
+    - id: 216261
+      asset_id: 2218
+      name: pgm_a0301.u10
+      size: 4194304
+      blob_id: 24634
+    - id: 216262
+      asset_id: 2218
+      name: pgm_a0303.u11
+      size: 4194304
+      blob_id: 24635
+    - id: 216263
+      asset_id: 2218
+      name: pgm_a0306.u12
+      size: 4194304
+      blob_id: 24636
+    - id: 216264
+      asset_id: 2218
+      name: pgm_a0307.u2
+      size: 4194304
+      blob_id: 24637
+    - id: 216265
+      asset_id: 2218
+      name: pgm_b0300.u13
+      size: 4194304
+      blob_id: 24638
+    - id: 216266
+      asset_id: 2218
+      name: pgm_b0302.u14
+      size: 4194304
+      blob_id: 24639
+    - id: 216267
+      asset_id: 2218
+      name: pgm_b0303.u15
+      size: 2097152
+      blob_id: 24640
+    - id: 216268
+      asset_id: 2218
+      name: pgm_m01s.rom
+      size: 2097152
+      blob_id: 14294
+    - id: 216269
+      asset_id: 2218
+      name: pgm_m0300.u1
+      size: 4194304
+      blob_id: 24642
+    - id: 216270
+      asset_id: 2218
+      name: pgm_p01s.u20
+      size: 131072
+      blob_id: 14308
+    - id: 216271
+      asset_id: 2218
+      name: pgm_p02s.u20
+      size: 131072
+      blob_id: 14309
+    - id: 216272
+      asset_id: 2218
+      name: pgm_t01s.rom
+      size: 2097152
+      blob_id: 14295
+    - id: 216273
+      asset_id: 2218
+      name: pgm_t0300.u14
+      size: 4194304
+      blob_id: 24644
+  - asset:
+      id: 119604
+      kind: 3
+      kind_id: 77573
+      type: 1
+      name: killbld104.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 835633
+      asset_id: 119604
+      name: bios.u42
+      size: 131072
+      blob_id: 14326
+    - id: 835634
+      asset_id: 119604
+      name: ddp3_bios.u37
+      size: 524288
+      blob_id: 14290
+    - id: 835635
+      asset_id: 119604
+      name: kb_u2_v104.u2
+      size: 65536
+      blob_id: 24645
+    - id: 835636
+      asset_id: 119604
+      name: kb_u3_v104.u3
+      size: 524288
+      blob_id: 24646
+    - id: 835637
+      asset_id: 119604
+      name: kb_u4_v104.u4
+      size: 524288
+      blob_id: 24647
+    - id: 835638
+      asset_id: 119604
+      name: kb_u5_v104.u5
+      size: 524288
+      blob_id: 24648
+    - id: 835639
+      asset_id: 119604
+      name: kb_u6_v104.u6
+      size: 524288
+      blob_id: 24649
+    - id: 835640
+      asset_id: 119604
+      name: pgm_a0300.u9
+      size: 4194304
+      blob_id: 24633
+    - id: 835641
+      asset_id: 119604
+      name: pgm_a0301.u10
+      size: 4194304
+      blob_id: 24634
+    - id: 835642
+      asset_id: 119604
+      name: pgm_a0303.u11
+      size: 4194304
+      blob_id: 24635
+    - id: 835643
+      asset_id: 119604
+      name: pgm_a0306.u12
+      size: 4194304
+      blob_id: 24636
+    - id: 835644
+      asset_id: 119604
+      name: pgm_a0307.u2
+      size: 4194304
+      blob_id: 24637
+    - id: 835645
+      asset_id: 119604
+      name: pgm_b0300.u13
+      size: 4194304
+      blob_id: 24638
+    - id: 835646
+      asset_id: 119604
+      name: pgm_b0302.u14
+      size: 4194304
+      blob_id: 24639
+    - id: 835647
+      asset_id: 119604
+      name: pgm_b0303.u15
+      size: 2097152
+      blob_id: 24640
+    - id: 835648
+      asset_id: 119604
+      name: pgm_m01s.rom
+      size: 2097152
+      blob_id: 14294
+    - id: 835649
+      asset_id: 119604
+      name: pgm_m0300.u1
+      size: 4194304
+      blob_id: 24642
+    - id: 835650
+      asset_id: 119604
+      name: pgm_p01s.u20
+      size: 131072
+      blob_id: 14308
+    - id: 835651
+      asset_id: 119604
+      name: pgm_p02s.u20
+      size: 131072
+      blob_id: 14309
+    - id: 835652
+      asset_id: 119604
+      name: pgm_t01s.rom
+      size: 2097152
+      blob_id: 14295
+    - id: 835653
+      asset_id: 119604
+      name: pgm_t0300.u14
+      size: 4194304
+      blob_id: 24644
+- release:
+    id: 87257
     game_id: 2218
     description: ""
     release_date: 19980000
   names:
-  - id: 128427
+  - id: 215471
     kind: 3
-    kind_id: 48929
+    kind_id: 87257
     language: 1
-    name: The Killing Blade / Ao Jian Kuang Dao (ver. 109, Chinese Board)
+    name: The Killing Blade / Ao Jian Kuang Dao (ver. 100)
     source: mame
   release_publishers: []
   assets:
   - asset:
-      id: 61999
+      id: 102474
       kind: 3
-      kind_id: 48929
+      kind_id: 87257
       type: 1
-      name: killbld.zip
+      name: killbld100.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 216225
-      asset_id: 61999
-      name: kb_u2_v109.u2
+    - id: 641877
+      asset_id: 102474
+      name: kb_u2_v100.u2
       size: 65536
-      blob_id: 24641
-    - id: 216226
-      asset_id: 61999
-      name: p0300_v109.u9
-      size: 2097152
-      blob_id: 24643
-    - id: 216227
-      asset_id: 61999
+      blob_id: 251348
+    - id: 641878
+      asset_id: 102474
+      name: kb_u3_v100.u3
+      size: 524288
+      blob_id: 251349
+    - id: 641879
+      asset_id: 102474
+      name: kb_u4_v100.u4
+      size: 524288
+      blob_id: 251350
+    - id: 641880
+      asset_id: 102474
+      name: kb_u5_v100.u5
+      size: 524288
+      blob_id: 251351
+    - id: 641881
+      asset_id: 102474
+      name: kb_u6_v100.u6
+      size: 524288
+      blob_id: 251352
+    - id: 641882
+      asset_id: 102474
       name: pgm_a0300.u9
       size: 4194304
       blob_id: 24633
-    - id: 216228
-      asset_id: 61999
+    - id: 641883
+      asset_id: 102474
       name: pgm_a0301.u10
       size: 4194304
       blob_id: 24634
-    - id: 216229
-      asset_id: 61999
+    - id: 641884
+      asset_id: 102474
       name: pgm_a0303.u11
       size: 4194304
       blob_id: 24635
-    - id: 216230
-      asset_id: 61999
+    - id: 641885
+      asset_id: 102474
       name: pgm_a0306.u12
       size: 4194304
       blob_id: 24636
-    - id: 216231
-      asset_id: 61999
+    - id: 641886
+      asset_id: 102474
       name: pgm_a0307.u2
       size: 4194304
       blob_id: 24637
-    - id: 216232
-      asset_id: 61999
+    - id: 641887
+      asset_id: 102474
       name: pgm_b0300.u13
       size: 4194304
       blob_id: 24638
-    - id: 216233
-      asset_id: 61999
+    - id: 641888
+      asset_id: 102474
       name: pgm_b0302.u14
       size: 4194304
       blob_id: 24639
-    - id: 216234
-      asset_id: 61999
+    - id: 641889
+      asset_id: 102474
       name: pgm_b0303.u15
       size: 2097152
       blob_id: 24640
-    - id: 216235
-      asset_id: 61999
+    - id: 641890
+      asset_id: 102474
       name: pgm_m01s.rom
       size: 2097152
       blob_id: 14294
-    - id: 216236
-      asset_id: 61999
+    - id: 641891
+      asset_id: 102474
       name: pgm_m0300.u1
       size: 4194304
       blob_id: 24642
-    - id: 216237
-      asset_id: 61999
+    - id: 641892
+      asset_id: 102474
       name: pgm_p01s.u20
       size: 131072
       blob_id: 14308
-    - id: 216238
-      asset_id: 61999
+    - id: 641893
+      asset_id: 102474
       name: pgm_p02s.u20
       size: 131072
       blob_id: 14309
-    - id: 216239
-      asset_id: 61999
+    - id: 641894
+      asset_id: 102474
       name: pgm_t01s.rom
       size: 2097152
       blob_id: 14295
-    - id: 216240
-      asset_id: 61999
+    - id: 641895
+      asset_id: 102474
+      name: pgm_t0300.u14
+      size: 4194304
+      blob_id: 24644
+  - asset:
+      id: 119603
+      kind: 3
+      kind_id: 87257
+      type: 1
+      name: killbld100.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 835612
+      asset_id: 119603
+      name: bios.u42
+      size: 131072
+      blob_id: 14326
+    - id: 835613
+      asset_id: 119603
+      name: ddp3_bios.u37
+      size: 524288
+      blob_id: 14290
+    - id: 835614
+      asset_id: 119603
+      name: kb_u2_v100.u2
+      size: 65536
+      blob_id: 251348
+    - id: 835615
+      asset_id: 119603
+      name: kb_u3_v100.u3
+      size: 524288
+      blob_id: 251349
+    - id: 835616
+      asset_id: 119603
+      name: kb_u4_v100.u4
+      size: 524288
+      blob_id: 251350
+    - id: 835617
+      asset_id: 119603
+      name: kb_u5_v100.u5
+      size: 524288
+      blob_id: 251351
+    - id: 835618
+      asset_id: 119603
+      name: kb_u6_v100.u6
+      size: 524288
+      blob_id: 251352
+    - id: 835619
+      asset_id: 119603
+      name: pgm_a0300.u9
+      size: 4194304
+      blob_id: 24633
+    - id: 835620
+      asset_id: 119603
+      name: pgm_a0301.u10
+      size: 4194304
+      blob_id: 24634
+    - id: 835621
+      asset_id: 119603
+      name: pgm_a0303.u11
+      size: 4194304
+      blob_id: 24635
+    - id: 835622
+      asset_id: 119603
+      name: pgm_a0306.u12
+      size: 4194304
+      blob_id: 24636
+    - id: 835623
+      asset_id: 119603
+      name: pgm_a0307.u2
+      size: 4194304
+      blob_id: 24637
+    - id: 835624
+      asset_id: 119603
+      name: pgm_b0300.u13
+      size: 4194304
+      blob_id: 24638
+    - id: 835625
+      asset_id: 119603
+      name: pgm_b0302.u14
+      size: 4194304
+      blob_id: 24639
+    - id: 835626
+      asset_id: 119603
+      name: pgm_b0303.u15
+      size: 2097152
+      blob_id: 24640
+    - id: 835627
+      asset_id: 119603
+      name: pgm_m01s.rom
+      size: 2097152
+      blob_id: 14294
+    - id: 835628
+      asset_id: 119603
+      name: pgm_m0300.u1
+      size: 4194304
+      blob_id: 24642
+    - id: 835629
+      asset_id: 119603
+      name: pgm_p01s.u20
+      size: 131072
+      blob_id: 14308
+    - id: 835630
+      asset_id: 119603
+      name: pgm_p02s.u20
+      size: 131072
+      blob_id: 14309
+    - id: 835631
+      asset_id: 119603
+      name: pgm_t01s.rom
+      size: 2097152
+      blob_id: 14295
+    - id: 835632
+      asset_id: 119603
+      name: pgm_t0300.u14
+      size: 4194304
+      blob_id: 24644
+- release:
+    id: 87258
+    game_id: 2218
+    description: ""
+    release_date: 19980000
+  names:
+  - id: 215472
+    kind: 3
+    kind_id: 87258
+    language: 1
+    name: The Killing Blade / Ao Jian Kuang Dao (ver. 106)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 102475
+      kind: 3
+      kind_id: 87258
+      type: 1
+      name: killbld106.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 641896
+      asset_id: 102475
+      name: kb_u2_v106.u2
+      size: 65536
+      blob_id: 251353
+    - id: 641897
+      asset_id: 102475
+      name: kb_u3_v106.u3
+      size: 524288
+      blob_id: 251354
+    - id: 641898
+      asset_id: 102475
+      name: kb_u4_v106.u4
+      size: 524288
+      blob_id: 251355
+    - id: 641899
+      asset_id: 102475
+      name: kb_u5_v106.u5
+      size: 524288
+      blob_id: 251356
+    - id: 641900
+      asset_id: 102475
+      name: kb_u6_v106.u6
+      size: 524288
+      blob_id: 251357
+    - id: 641901
+      asset_id: 102475
+      name: pgm_a0300.u9
+      size: 4194304
+      blob_id: 24633
+    - id: 641902
+      asset_id: 102475
+      name: pgm_a0301.u10
+      size: 4194304
+      blob_id: 24634
+    - id: 641903
+      asset_id: 102475
+      name: pgm_a0303.u11
+      size: 4194304
+      blob_id: 24635
+    - id: 641904
+      asset_id: 102475
+      name: pgm_a0306.u12
+      size: 4194304
+      blob_id: 24636
+    - id: 641905
+      asset_id: 102475
+      name: pgm_a0307.u2
+      size: 4194304
+      blob_id: 24637
+    - id: 641906
+      asset_id: 102475
+      name: pgm_b0300.u13
+      size: 4194304
+      blob_id: 24638
+    - id: 641907
+      asset_id: 102475
+      name: pgm_b0302.u14
+      size: 4194304
+      blob_id: 24639
+    - id: 641908
+      asset_id: 102475
+      name: pgm_b0303.u15
+      size: 2097152
+      blob_id: 24640
+    - id: 641909
+      asset_id: 102475
+      name: pgm_m01s.rom
+      size: 2097152
+      blob_id: 14294
+    - id: 641910
+      asset_id: 102475
+      name: pgm_m0300.u1
+      size: 4194304
+      blob_id: 24642
+    - id: 641911
+      asset_id: 102475
+      name: pgm_p01s.u20
+      size: 131072
+      blob_id: 14308
+    - id: 641912
+      asset_id: 102475
+      name: pgm_p02s.u20
+      size: 131072
+      blob_id: 14309
+    - id: 641913
+      asset_id: 102475
+      name: pgm_t01s.rom
+      size: 2097152
+      blob_id: 14295
+    - id: 641914
+      asset_id: 102475
+      name: pgm_t0300.u14
+      size: 4194304
+      blob_id: 24644
+  - asset:
+      id: 119605
+      kind: 3
+      kind_id: 87258
+      type: 1
+      name: killbld106.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 835654
+      asset_id: 119605
+      name: bios.u42
+      size: 131072
+      blob_id: 14326
+    - id: 835655
+      asset_id: 119605
+      name: ddp3_bios.u37
+      size: 524288
+      blob_id: 14290
+    - id: 835656
+      asset_id: 119605
+      name: kb_u2_v106.u2
+      size: 65536
+      blob_id: 251353
+    - id: 835657
+      asset_id: 119605
+      name: kb_u3_v106.u3
+      size: 524288
+      blob_id: 251354
+    - id: 835658
+      asset_id: 119605
+      name: kb_u4_v106.u4
+      size: 524288
+      blob_id: 251355
+    - id: 835659
+      asset_id: 119605
+      name: kb_u5_v106.u5
+      size: 524288
+      blob_id: 251356
+    - id: 835660
+      asset_id: 119605
+      name: kb_u6_v106.u6
+      size: 524288
+      blob_id: 251357
+    - id: 835661
+      asset_id: 119605
+      name: pgm_a0300.u9
+      size: 4194304
+      blob_id: 24633
+    - id: 835662
+      asset_id: 119605
+      name: pgm_a0301.u10
+      size: 4194304
+      blob_id: 24634
+    - id: 835663
+      asset_id: 119605
+      name: pgm_a0303.u11
+      size: 4194304
+      blob_id: 24635
+    - id: 835664
+      asset_id: 119605
+      name: pgm_a0306.u12
+      size: 4194304
+      blob_id: 24636
+    - id: 835665
+      asset_id: 119605
+      name: pgm_a0307.u2
+      size: 4194304
+      blob_id: 24637
+    - id: 835666
+      asset_id: 119605
+      name: pgm_b0300.u13
+      size: 4194304
+      blob_id: 24638
+    - id: 835667
+      asset_id: 119605
+      name: pgm_b0302.u14
+      size: 4194304
+      blob_id: 24639
+    - id: 835668
+      asset_id: 119605
+      name: pgm_b0303.u15
+      size: 2097152
+      blob_id: 24640
+    - id: 835669
+      asset_id: 119605
+      name: pgm_m01s.rom
+      size: 2097152
+      blob_id: 14294
+    - id: 835670
+      asset_id: 119605
+      name: pgm_m0300.u1
+      size: 4194304
+      blob_id: 24642
+    - id: 835671
+      asset_id: 119605
+      name: pgm_p01s.u20
+      size: 131072
+      blob_id: 14308
+    - id: 835672
+      asset_id: 119605
+      name: pgm_p02s.u20
+      size: 131072
+      blob_id: 14309
+    - id: 835673
+      asset_id: 119605
+      name: pgm_t01s.rom
+      size: 2097152
+      blob_id: 14295
+    - id: 835674
+      asset_id: 119605
+      name: pgm_t0300.u14
+      size: 4194304
+      blob_id: 24644
+- release:
+    id: 105162
+    game_id: 2218
+    description: ""
+    release_date: 19980000
+  names:
+  - id: 240138
+    kind: 3
+    kind_id: 105162
+    language: 1
+    name: The Killing Blade (V109 alt, China)
+    source: fbneo
+  release_publishers: []
+  assets:
+  - asset:
+      id: 119606
+      kind: 3
+      kind_id: 105162
+      type: 1
+      name: killbld109.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 835675
+      asset_id: 119606
+      name: bios.u42
+      size: 131072
+      blob_id: 14326
+    - id: 835676
+      asset_id: 119606
+      name: ddp3_bios.u37
+      size: 524288
+      blob_id: 14290
+    - id: 835677
+      asset_id: 119606
+      name: kb_u2_v109.u2
+      size: 65536
+      blob_id: 24641
+    - id: 835678
+      asset_id: 119606
+      name: kb_u3_v109.u3
+      size: 524288
+      blob_id: 299287
+    - id: 835679
+      asset_id: 119606
+      name: kb_u4_v109.u4
+      size: 524288
+      blob_id: 299288
+    - id: 835680
+      asset_id: 119606
+      name: kb_u5_v109.u5
+      size: 524288
+      blob_id: 299289
+    - id: 835681
+      asset_id: 119606
+      name: kb_u6_v109.u6
+      size: 524288
+      blob_id: 299290
+    - id: 835682
+      asset_id: 119606
+      name: pgm_a0300.u9
+      size: 4194304
+      blob_id: 24633
+    - id: 835683
+      asset_id: 119606
+      name: pgm_a0301.u10
+      size: 4194304
+      blob_id: 24634
+    - id: 835684
+      asset_id: 119606
+      name: pgm_a0303.u11
+      size: 4194304
+      blob_id: 24635
+    - id: 835685
+      asset_id: 119606
+      name: pgm_a0306.u12
+      size: 4194304
+      blob_id: 24636
+    - id: 835686
+      asset_id: 119606
+      name: pgm_a0307.u2
+      size: 4194304
+      blob_id: 24637
+    - id: 835687
+      asset_id: 119606
+      name: pgm_b0300.u13
+      size: 4194304
+      blob_id: 24638
+    - id: 835688
+      asset_id: 119606
+      name: pgm_b0302.u14
+      size: 4194304
+      blob_id: 24639
+    - id: 835689
+      asset_id: 119606
+      name: pgm_b0303.u15
+      size: 2097152
+      blob_id: 24640
+    - id: 835690
+      asset_id: 119606
+      name: pgm_m01s.rom
+      size: 2097152
+      blob_id: 14294
+    - id: 835691
+      asset_id: 119606
+      name: pgm_m0300.u1
+      size: 4194304
+      blob_id: 24642
+    - id: 835692
+      asset_id: 119606
+      name: pgm_p01s.u20
+      size: 131072
+      blob_id: 14308
+    - id: 835693
+      asset_id: 119606
+      name: pgm_p02s.u20
+      size: 131072
+      blob_id: 14309
+    - id: 835694
+      asset_id: 119606
+      name: pgm_t01s.rom
+      size: 2097152
+      blob_id: 14295
+    - id: 835695
+      asset_id: 119606
       name: pgm_t0300.u14
       size: 4194304
       blob_id: 24644

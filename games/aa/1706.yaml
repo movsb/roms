@@ -10,6 +10,18 @@ names:
   language: 1
   name: fround
   source: ""
+- id: 190743
+  kind: 2
+  kind_id: 1706
+  language: 1
+  name: The Final Round (version L)
+  source: mame
+- id: 191764
+  kind: 2
+  kind_id: 1706
+  language: 1
+  name: Hard Puncher (Japan)
+  source: mame
 game_developers:
 - game_id: 1706
   developer_id: 2
@@ -138,6 +150,73 @@ releases:
       blob_id: 90164
       debug: arcade/wheel/fround.png
     entries: []
+  - asset:
+      id: 99276
+      kind: 3
+      kind_id: 1706
+      type: 1
+      name: fround.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 607294
+      asset_id: 99276
+      name: 63s141n.e16
+      size: 256
+      blob_id: 217843
+    - id: 607295
+      asset_id: 99276
+      name: 870_c01.5a
+      size: 131072
+      blob_id: 18818
+    - id: 607296
+      asset_id: 99276
+      name: 870_c02.7c
+      size: 131072
+      blob_id: 18819
+    - id: 607297
+      asset_id: 99276
+      name: 870_f03.10a
+      size: 32768
+      blob_id: 18820
+    - id: 607298
+      asset_id: 99276
+      name: 870_f14.d8
+      size: 16384
+      blob_id: 18821
+    - id: 607299
+      asset_id: 99276
+      name: 870_m20.bin
+      size: 131072
+      blob_id: 18822
+    - id: 607300
+      asset_id: 99276
+      name: 870_m21.bin
+      size: 131072
+      blob_id: 18823
+    - id: 607301
+      asset_id: 99276
+      name: 870c15.p13
+      size: 524288
+      blob_id: 18824
+    - id: 607302
+      asset_id: 99276
+      name: 870c16.p15
+      size: 524288
+      blob_id: 18825
+    - id: 607303
+      asset_id: 99276
+      name: 870c17.p16
+      size: 524288
+      blob_id: 18826
+    - id: 607304
+      asset_id: 99276
+      name: 870c18.p18
+      size: 524288
+      blob_id: 18827
 - release:
     id: 1707
     game_id: 1706
@@ -266,83 +345,184 @@ releases:
       size: 65536
       blob_id: 18836
 - release:
-    id: 43999
+    id: 84290
     game_id: 1706
     description: ""
     release_date: 19880000
   names:
-  - id: 118774
+  - id: 210838
     kind: 3
-    kind_id: 43999
+    kind_id: 84290
     language: 1
-    name: The Final Round (version M)
+    name: The Final Round (version L)
     source: mame
   release_publishers: []
   assets:
   - asset:
-      id: 57069
+      id: 99277
       kind: 3
-      kind_id: 43999
+      kind_id: 84290
       type: 1
-      name: fround.zip
+      name: froundl.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 175383
-      asset_id: 57069
+    - id: 607305
+      asset_id: 99277
       name: 63s141n.e16
       size: 256
-      blob_id: 117624
-    - id: 175384
-      asset_id: 57069
+      blob_id: 217843
+    - id: 607306
+      asset_id: 99277
       name: 870_c01.5a
       size: 131072
       blob_id: 18818
-    - id: 175385
-      asset_id: 57069
+    - id: 607307
+      asset_id: 99277
       name: 870_c02.7c
       size: 131072
       blob_id: 18819
-    - id: 175386
-      asset_id: 57069
+    - id: 607308
+      asset_id: 99277
       name: 870_f03.10a
       size: 32768
       blob_id: 18820
-    - id: 175387
-      asset_id: 57069
+    - id: 607309
+      asset_id: 99277
       name: 870_f14.d8
       size: 16384
       blob_id: 18821
-    - id: 175388
-      asset_id: 57069
-      name: 870_m20.bin
+    - id: 607310
+      asset_id: 99277
+      name: 870_l20.bin
       size: 131072
-      blob_id: 18822
-    - id: 175389
-      asset_id: 57069
-      name: 870_m21.bin
+      blob_id: 18828
+    - id: 607311
+      asset_id: 99277
+      name: 870_l21.bin
       size: 131072
-      blob_id: 18823
-    - id: 175390
-      asset_id: 57069
+      blob_id: 18829
+    - id: 607312
+      asset_id: 99277
       name: 870c15.p13
       size: 524288
       blob_id: 18824
-    - id: 175391
-      asset_id: 57069
+    - id: 607313
+      asset_id: 99277
       name: 870c16.p15
       size: 524288
       blob_id: 18825
-    - id: 175392
-      asset_id: 57069
+    - id: 607314
+      asset_id: 99277
       name: 870c17.p16
       size: 524288
       blob_id: 18826
-    - id: 175393
-      asset_id: 57069
+    - id: 607315
+      asset_id: 99277
+      name: 870c18.p18
+      size: 524288
+      blob_id: 18827
+- release:
+    id: 86096
+    game_id: 1706
+    description: ""
+    release_date: 19880000
+  names:
+  - id: 213607
+    kind: 3
+    kind_id: 86096
+    language: 1
+    name: Hard Puncher (Japan)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 101228
+      kind: 3
+      kind_id: 86096
+      type: 1
+      name: hpuncher.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 630263
+      asset_id: 101228
+      name: 63s141n.e16
+      size: 256
+      blob_id: 217843
+    - id: 630264
+      asset_id: 101228
+      name: 870_c01.5a
+      size: 131072
+      blob_id: 18818
+    - id: 630265
+      asset_id: 101228
+      name: 870_c02.7c
+      size: 131072
+      blob_id: 18819
+    - id: 630266
+      asset_id: 101228
+      name: 870_f14.d8
+      size: 16384
+      blob_id: 18821
+    - id: 630267
+      asset_id: 101228
+      name: 870_g03.10a
+      size: 32768
+      blob_id: 18830
+    - id: 630268
+      asset_id: 101228
+      name: 870_h04.4n
+      size: 65536
+      blob_id: 18831
+    - id: 630269
+      asset_id: 101228
+      name: 870_h05.6n
+      size: 65536
+      blob_id: 18832
+    - id: 630270
+      asset_id: 101228
+      name: 870_h06.8n
+      size: 65536
+      blob_id: 18833
+    - id: 630271
+      asset_id: 101228
+      name: 870_h07.10n
+      size: 65536
+      blob_id: 18834
+    - id: 630272
+      asset_id: 101228
+      name: 870_h08.4r
+      size: 65536
+      blob_id: 18835
+    - id: 630273
+      asset_id: 101228
+      name: 870_h09.6r
+      size: 65536
+      blob_id: 18836
+    - id: 630274
+      asset_id: 101228
+      name: 870c15.p13
+      size: 524288
+      blob_id: 18824
+    - id: 630275
+      asset_id: 101228
+      name: 870c16.p15
+      size: 524288
+      blob_id: 18825
+    - id: 630276
+      asset_id: 101228
+      name: 870c17.p16
+      size: 524288
+      blob_id: 18826
+    - id: 630277
+      asset_id: 101228
       name: 870c18.p18
       size: 524288
       blob_id: 18827

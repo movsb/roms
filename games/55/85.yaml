@@ -16,6 +16,30 @@ names:
   language: 2
   name: 金龟车
   source: trimui
+- id: 186574
+  kind: 2
+  kind_id: 85
+  language: 1
+  name: BNJ
+  source: ""
+- id: 186743
+  kind: 2
+  kind_id: 85
+  language: 1
+  name: caractn
+  source: ""
+- id: 188549
+  kind: 2
+  kind_id: 85
+  language: 1
+  name: Bump 'n' Jump (Midway)
+  source: mame
+- id: 188835
+  kind: 2
+  kind_id: 85
+  language: 1
+  name: Car Action (set 2)
+  source: mame
 game_developers:
 - game_id: 85
   developer_id: 225
@@ -139,24 +163,10 @@ releases:
       blob_id: 85498
       debug: arcade/wheel/brubber.png
     entries: []
-- release:
-    id: 38499
-    game_id: 85
-    description: ""
-    release_date: 19820000
-  names:
-  - id: 108057
-    kind: 3
-    kind_id: 38499
-    language: 1
-    name: Burnin' Rubber
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 51569
+      id: 95322
       kind: 3
-      kind_id: 38499
+      kind_id: 85
       type: 1
       name: brubber.zip
       description: ""
@@ -165,43 +175,368 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 119568
-      asset_id: 51569
+    - id: 557665
+      asset_id: 95322
       name: bnj10e.bin
       size: 4096
       blob_id: 1051
-    - id: 119569
-      asset_id: 51569
+    - id: 557666
+      asset_id: 95322
       name: bnj10f.bin
       size: 4096
       blob_id: 1052
-    - id: 119570
-      asset_id: 51569
+    - id: 557667
+      asset_id: 95322
       name: bnj4e.bin
       size: 8192
       blob_id: 1048
-    - id: 119571
-      asset_id: 51569
+    - id: 557668
+      asset_id: 95322
       name: bnj4f.bin
       size: 8192
       blob_id: 1049
-    - id: 119572
-      asset_id: 51569
+    - id: 557669
+      asset_id: 95322
       name: bnj4h.bin
       size: 8192
       blob_id: 1050
-    - id: 119573
-      asset_id: 51569
+    - id: 557670
+      asset_id: 95322
       name: bnj6c.bin
       size: 4096
       blob_id: 1047
-    - id: 119574
-      asset_id: 51569
+    - id: 557671
+      asset_id: 95322
       name: brubber.12c
       size: 8192
       blob_id: 1125
-    - id: 119575
-      asset_id: 51569
+    - id: 557672
+      asset_id: 95322
       name: brubber.12d
       size: 8192
       blob_id: 1124
+- release:
+    id: 80953
+    game_id: 85
+    description: ""
+    release_date: 19820000
+  names:
+  - id: 205776
+    kind: 3
+    kind_id: 80953
+    language: 1
+    name: Car Action (set 2)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 95672
+      kind: 3
+      kind_id: 80953
+      type: 1
+      name: caractn2.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 562835
+      asset_id: 95672
+      name: 7.c12
+      size: 8192
+      blob_id: 241409
+    - id: 562836
+      asset_id: 95672
+      name: c0.4e
+      size: 8192
+      blob_id: 10833
+    - id: 562837
+      asset_id: 95672
+      name: c1.4f
+      size: 8192
+      blob_id: 10834
+    - id: 562838
+      asset_id: 95672
+      name: c2.4h
+      size: 8192
+      blob_id: 10835
+    - id: 562839
+      asset_id: 95672
+      name: c3.10e
+      size: 4096
+      blob_id: 1051
+    - id: 562840
+      asset_id: 95672
+      name: c4.10f
+      size: 4096
+      blob_id: 1052
+    - id: 562841
+      asset_id: 95672
+      name: c5.6c
+      size: 4096
+      blob_id: 1047
+    - id: 562842
+      asset_id: 95672
+      name: c6.12d
+      size: 8192
+      blob_id: 10832
+    - id: 562843
+      asset_id: 95672
+      name: pal10l8.10k
+      size: 44
+      blob_id: 240607
+    - id: 562844
+      asset_id: 95672
+      name: pal16r4a.2d
+      size: 260
+      blob_id: 241406
+    - id: 562845
+      asset_id: 95672
+      name: tbp18s030.11a
+      size: 32
+      blob_id: 241407
+    - id: 562846
+      asset_id: 95672
+      name: tbp18s030.cpu
+      size: 32
+      blob_id: 241408
+- release:
+    id: 102822
+    game_id: 85
+    description: ""
+    release_date: 0
+  names:
+  - id: 237430
+    kind: 3
+    kind_id: 102822
+    language: 1
+    name: BNJ
+    source: ""
+  - id: 237431
+    kind: 3
+    kind_id: 102822
+    language: 2
+    name: 金龟车
+    source: trimui
+  release_publishers: []
+  assets:
+  - asset:
+      id: 95166
+      kind: 3
+      kind_id: 102822
+      type: 1
+      name: bnj.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 555414
+      asset_id: 95166
+      name: ad00.4e
+      size: 8192
+      blob_id: 1048
+    - id: 555415
+      asset_id: 95166
+      name: ad01.4f
+      size: 8192
+      blob_id: 1049
+    - id: 555416
+      asset_id: 95166
+      name: ad02.4h
+      size: 8192
+      blob_id: 1050
+    - id: 555417
+      asset_id: 95166
+      name: ad03.10e
+      size: 4096
+      blob_id: 1051
+    - id: 555418
+      asset_id: 95166
+      name: ad04.10f
+      size: 4096
+      blob_id: 1052
+    - id: 555419
+      asset_id: 95166
+      name: ad05.6c
+      size: 4096
+      blob_id: 1047
+    - id: 555420
+      asset_id: 95166
+      name: ad06.12d
+      size: 8192
+      blob_id: 240604
+    - id: 555421
+      asset_id: 95166
+      name: ad07.12c
+      size: 8192
+      blob_id: 240605
+    - id: 555422
+      asset_id: 95166
+      name: ad08.12b
+      size: 8192
+      blob_id: 240606
+    - id: 555423
+      asset_id: 95166
+      name: pb-5.10k.bin
+      size: 44
+      blob_id: 240607
+- release:
+    id: 102899
+    game_id: 85
+    description: ""
+    release_date: 0
+  names:
+  - id: 237584
+    kind: 3
+    kind_id: 102899
+    language: 1
+    name: caractn
+    source: ""
+  release_publishers: []
+  assets:
+  - asset:
+      id: 95671
+      kind: 3
+      kind_id: 102899
+      type: 1
+      name: caractn.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 562823
+      asset_id: 95671
+      name: c0.4e
+      size: 8192
+      blob_id: 10833
+    - id: 562824
+      asset_id: 95671
+      name: c1.4f
+      size: 8192
+      blob_id: 10834
+    - id: 562825
+      asset_id: 95671
+      name: c2.4h
+      size: 8192
+      blob_id: 10835
+    - id: 562826
+      asset_id: 95671
+      name: c3.10e
+      size: 4096
+      blob_id: 1051
+    - id: 562827
+      asset_id: 95671
+      name: c4.10f
+      size: 4096
+      blob_id: 1052
+    - id: 562828
+      asset_id: 95671
+      name: c5.6c
+      size: 4096
+      blob_id: 1047
+    - id: 562829
+      asset_id: 95671
+      name: c6.12d
+      size: 8192
+      blob_id: 10832
+    - id: 562830
+      asset_id: 95671
+      name: c7.12c
+      size: 8192
+      blob_id: 1125
+    - id: 562831
+      asset_id: 95671
+      name: pal10l8.10k
+      size: 44
+      blob_id: 240607
+    - id: 562832
+      asset_id: 95671
+      name: pal16r4a.2d
+      size: 260
+      blob_id: 241406
+    - id: 562833
+      asset_id: 95671
+      name: tbp18s030.11a
+      size: 32
+      blob_id: 241407
+    - id: 562834
+      asset_id: 95671
+      name: tbp18s030.cpu
+      size: 32
+      blob_id: 241408
+- release:
+    id: 103496
+    game_id: 85
+    description: ""
+    release_date: 19820000
+  names:
+  - id: 238472
+    kind: 3
+    kind_id: 103496
+    language: 1
+    name: Bump 'n' Jump (Midway)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 95167
+      kind: 3
+      kind_id: 103496
+      type: 1
+      name: bnjm.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 555424
+      asset_id: 95167
+      name: bnj10e.bin
+      size: 4096
+      blob_id: 1051
+    - id: 555425
+      asset_id: 95167
+      name: bnj10f.bin
+      size: 4096
+      blob_id: 1052
+    - id: 555426
+      asset_id: 95167
+      name: bnj12b.bin
+      size: 8192
+      blob_id: 1044
+    - id: 555427
+      asset_id: 95167
+      name: bnj12c.bin
+      size: 8192
+      blob_id: 1045
+    - id: 555428
+      asset_id: 95167
+      name: bnj12d.bin
+      size: 8192
+      blob_id: 1046
+    - id: 555429
+      asset_id: 95167
+      name: bnj4e.bin
+      size: 8192
+      blob_id: 1048
+    - id: 555430
+      asset_id: 95167
+      name: bnj4f.bin
+      size: 8192
+      blob_id: 1049
+    - id: 555431
+      asset_id: 95167
+      name: bnj4h.bin
+      size: 8192
+      blob_id: 1050
+    - id: 555432
+      asset_id: 95167
+      name: bnj6c.bin
+      size: 4096
+      blob_id: 1047

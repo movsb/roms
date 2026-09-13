@@ -10,6 +10,18 @@ names:
   language: 1
   name: stonebal
   source: ""
+- id: 199695
+  kind: 2
+  kind_id: 4022
+  language: 1
+  name: Stone Ball (2 Players, v1-20 7/11/1994)
+  source: mame
+- id: 199696
+  kind: 2
+  kind_id: 4022
+  language: 1
+  name: Stone Ball (2 Players, v1-20 21/10/1994)
+  source: mame
 game_developers:
 - game_id: 4022
   developer_id: 445
@@ -113,6 +125,43 @@ releases:
       blob_id: 84993
       debug: arcade/wheel/stonebal.png
     entries: []
+  - asset:
+      id: 114659
+      kind: 3
+      kind_id: 4022
+      type: 1
+      name: stonebal.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 759703
+      asset_id: 114659
+      name: sb_snd_9-9-94.u1801
+      size: 524288
+      blob_id: 43181
+    - id: 759704
+      asset_id: 114659
+      name: u101
+      size: 262144
+      blob_id: 43177
+    - id: 759705
+      asset_id: 114659
+      name: u102
+      size: 262144
+      blob_id: 43178
+    - id: 759706
+      asset_id: 114659
+      name: u1600.bin
+      size: 2097152
+      blob_id: 43179
+    - id: 759707
+      asset_id: 114659
+      name: u1601.bin
+      size: 2097152
+      blob_id: 43180
 - release:
     id: 4023
     game_id: 4022
@@ -191,53 +240,104 @@ releases:
       size: 2097152
       blob_id: 43180
 - release:
-    id: 72119
+    id: 98864
     game_id: 4022
     description: ""
     release_date: 19940000
   names:
-  - id: 174249
+  - id: 231655
     kind: 3
-    kind_id: 72119
+    kind_id: 98864
     language: 1
-    name: Stone Ball (4 Players, v1-20 13/12/1994)
+    name: Stone Ball (2 Players, v1-20 7/11/1994)
     source: mame
   release_publishers: []
   assets:
   - asset:
-      id: 85189
+      id: 114660
       kind: 3
-      kind_id: 72119
+      kind_id: 98864
       type: 1
-      name: stonebal.zip
+      name: stonebal2.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 381411
-      asset_id: 85189
+    - id: 759708
+      asset_id: 114660
       name: sb_snd_9-9-94.u1801
       size: 524288
       blob_id: 43181
-    - id: 381412
-      asset_id: 85189
-      name: u101
+    - id: 759709
+      asset_id: 114660
+      name: u101.bin
       size: 262144
-      blob_id: 43177
-    - id: 381413
-      asset_id: 85189
-      name: u102
+      blob_id: 43182
+    - id: 759710
+      asset_id: 114660
+      name: u102.bin
       size: 262144
-      blob_id: 43178
-    - id: 381414
-      asset_id: 85189
+      blob_id: 43183
+    - id: 759711
+      asset_id: 114660
       name: u1600.bin
       size: 2097152
       blob_id: 43179
-    - id: 381415
-      asset_id: 85189
+    - id: 759712
+      asset_id: 114660
+      name: u1601.bin
+      size: 2097152
+      blob_id: 43180
+- release:
+    id: 98865
+    game_id: 4022
+    description: ""
+    release_date: 19940000
+  names:
+  - id: 231656
+    kind: 3
+    kind_id: 98865
+    language: 1
+    name: Stone Ball (2 Players, v1-20 21/10/1994)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 114661
+      kind: 3
+      kind_id: 98865
+      type: 1
+      name: stonebal2o.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 759713
+      asset_id: 114661
+      name: sb_e_2p_24-10.u101
+      size: 262144
+      blob_id: 43184
+    - id: 759714
+      asset_id: 114661
+      name: sb_o_2p_24-10.u102
+      size: 262144
+      blob_id: 43185
+    - id: 759715
+      asset_id: 114661
+      name: sb_snd_9-9-94.u1801
+      size: 524288
+      blob_id: 43181
+    - id: 759716
+      asset_id: 114661
+      name: u1600.bin
+      size: 2097152
+      blob_id: 43179
+    - id: 759717
+      asset_id: 114661
       name: u1601.bin
       size: 2097152
       blob_id: 43180

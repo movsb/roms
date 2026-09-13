@@ -16,6 +16,18 @@ names:
   language: 2
   name: 争先拉力赛车 (原型版)
   source: trimui
+- id: 191367
+  kind: 2
+  kind_id: 1873
+  language: 1
+  name: Grudge Match (v00.90, Italy, location test?)
+  source: mame
+- id: 191368
+  kind: 2
+  kind_id: 1873
+  language: 1
+  name: Grudge Match (v00.80, prototype)
+  source: mame
 game_developers: []
 game_genres:
 - game_id: 1873
@@ -122,24 +134,10 @@ releases:
       blob_id: 87983
       debug: arcade/wheel/grudge.png
     entries: []
-- release:
-    id: 45259
-    game_id: 1873
-    description: ""
-    release_date: 19870000
-  names:
-  - id: 121227
-    kind: 3
-    kind_id: 45259
-    language: 1
-    name: Grudge Match (v00.90, prototype)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 58329
+      id: 100417
       kind: 3
-      kind_id: 45259
+      kind_id: 1873
       type: 1
       name: grudge.zip
       description: ""
@@ -148,38 +146,160 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 189134
-      asset_id: 58329
+    - id: 620182
+      asset_id: 100417
       name: ab0.8a.romab0
       size: 32768
-      blob_id: 121490
-    - id: 189135
-      asset_id: 58329
+      blob_id: 220291
+    - id: 620183
+      asset_id: 100417
       name: ab4.9a.romab4
       size: 32768
-      blob_id: 121491
-    - id: 189136
-      asset_id: 58329
+      blob_id: 220292
+    - id: 620184
+      asset_id: 100417
       name: cd12.18a.romcd12
       size: 32768
-      blob_id: 121492
-    - id: 189137
-      asset_id: 58329
+      blob_id: 220293
+    - id: 620185
+      asset_id: 100417
       name: cd4.15a.romcd4
       size: 32768
-      blob_id: 121492
-    - id: 189138
-      asset_id: 58329
+      blob_id: 220293
+    - id: 620186
+      asset_id: 100417
       name: g.m._cd-0_9-21-87.13a.romcd0
       size: 32768
-      blob_id: 121493
-    - id: 189139
-      asset_id: 58329
+      blob_id: 220294
+    - id: 620187
+      asset_id: 100417
       name: g.m._gr0_9-21-87.8a.gr0
       size: 32768
       blob_id: 20874
-    - id: 189140
-      asset_id: 58329
+    - id: 620188
+      asset_id: 100417
       name: u01508001100b.u20f
       size: 260
-      blob_id: 106456
+      blob_id: 210589
+- release:
+    id: 85357
+    game_id: 1873
+    description: ""
+    release_date: 19870000
+  names:
+  - id: 212461
+    kind: 3
+    kind_id: 85357
+    language: 1
+    name: Grudge Match (v00.90, Italy, location test?)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 100418
+      kind: 3
+      kind_id: 85357
+      type: 1
+      name: grudgei.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 620189
+      asset_id: 100418
+      name: gm-1a.bin
+      size: 32768
+      blob_id: 220294
+    - id: 620190
+      asset_id: 100418
+      name: gm-2a.bin
+      size: 32768
+      blob_id: 220293
+    - id: 620191
+      asset_id: 100418
+      name: gm-3a.bin
+      size: 32768
+      blob_id: 220291
+    - id: 620192
+      asset_id: 100418
+      name: gm-4a.bin
+      size: 32768
+      blob_id: 248081
+    - id: 620193
+      asset_id: 100418
+      name: gm-5a.u5a
+      size: 32768
+      blob_id: 220293
+    - id: 620194
+      asset_id: 100418
+      name: gm-6a.u6a
+      size: 8192
+      blob_id: 248082
+    - id: 620195
+      asset_id: 100418
+      name: gm-6b.u6b
+      size: 32768
+      blob_id: 20874
+    - id: 620196
+      asset_id: 100418
+      name: u01508001100b.u20f
+      size: 260
+      blob_id: 210589
+- release:
+    id: 85358
+    game_id: 1873
+    description: ""
+    release_date: 19870000
+  names:
+  - id: 212462
+    kind: 3
+    kind_id: 85358
+    language: 1
+    name: Grudge Match (v00.80, prototype)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 100419
+      kind: 3
+      kind_id: 85358
+      type: 1
+      name: grudgep.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 620197
+      asset_id: 100419
+      name: grudge.ab0
+      size: 32768
+      blob_id: 20870
+    - id: 620198
+      asset_id: 100419
+      name: grudge.ab4
+      size: 32768
+      blob_id: 20871
+    - id: 620199
+      asset_id: 100419
+      name: grudge.cd0
+      size: 32768
+      blob_id: 20872
+    - id: 620200
+      asset_id: 100419
+      name: grudge.cd4
+      size: 32768
+      blob_id: 20873
+    - id: 620201
+      asset_id: 100419
+      name: grudge.gr0
+      size: 32768
+      blob_id: 20874
+    - id: 620202
+      asset_id: 100419
+      name: u01508001100b.u20f
+      size: 260
+      blob_id: 210589

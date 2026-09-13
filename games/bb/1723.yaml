@@ -16,6 +16,12 @@ names:
   language: 2
   name: "虫姬 2 黑标 - 其他版 (2009/11/27 国际 BL)"
   source: trimui
+- id: 190802
+  kind: 2
+  kind_id: 1723
+  language: 1
+  name: Mushihime-Sama Futari Black Label (Japan, 2007/12/11 BLACK LABEL VER)
+  source: mame
 game_developers: []
 game_genres: []
 assets: []
@@ -77,24 +83,10 @@ releases:
       name: futariblk_u2
       size: 138412032
       blob_id: 19045
-- release:
-    id: 44141
-    game_id: 1723
-    description: ""
-    release_date: 20070000
-  names:
-  - id: 119049
-    kind: 3
-    kind_id: 44141
-    language: 1
-    name: "Mushihime-Sama Futari Black Label - Another Ver (World, 2009/11/27 INTERNATIONAL BL)"
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 57211
+      id: 99403
       kind: 3
-      kind_id: 44141
+      kind_id: 1723
       type: 1
       name: futaribl.zip
       description: ""
@@ -103,23 +95,69 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 176432
-      asset_id: 57211
+    - id: 608256
+      asset_id: 99403
       name: futaribli_u4
       size: 2097152
       blob_id: 19043
-    - id: 176433
-      asset_id: 57211
+    - id: 608257
+      asset_id: 99403
       name: futariblk_u2
       size: 138412032
       blob_id: 19045
-    - id: 176434
-      asset_id: 57211
+    - id: 608258
+      asset_id: 99403
       name: u23
       size: 4194304
       blob_id: 19041
-    - id: 176435
-      asset_id: 57211
+    - id: 608259
+      asset_id: 99403
+      name: u24
+      size: 4194304
+      blob_id: 19042
+- release:
+    id: 84407
+    game_id: 1723
+    description: ""
+    release_date: 20070000
+  names:
+  - id: 211027
+    kind: 3
+    kind_id: 84407
+    language: 1
+    name: Mushihime-Sama Futari Black Label (Japan, 2007/12/11 BLACK LABEL VER)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 99404
+      kind: 3
+      kind_id: 84407
+      type: 1
+      name: futariblj.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 608260
+      asset_id: 99404
+      name: futariblk_u2
+      size: 138412032
+      blob_id: 19045
+    - id: 608261
+      asset_id: 99404
+      name: futariblk_u4
+      size: 2097152
+      blob_id: 246867
+    - id: 608262
+      asset_id: 99404
+      name: u23
+      size: 4194304
+      blob_id: 19041
+    - id: 608263
+      asset_id: 99404
       name: u24
       size: 4194304
       blob_id: 19042

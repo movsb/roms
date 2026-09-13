@@ -10,6 +10,18 @@ names:
   language: 1
   name: avspirit
   source: ""
+- id: 193433
+  kind: 2
+  kind_id: 751
+  language: 1
+  name: Monky Elf (Korean bootleg of Avenging Spirit)
+  source: mame
+- id: 194787
+  kind: 2
+  kind_id: 751
+  language: 1
+  name: Phantasm (Japan)
+  source: mame
 game_developers:
 - game_id: 751
   developer_id: 493
@@ -40,73 +52,6 @@ releases:
   - release_id: 751
     publisher_id: 71
   assets:
-  - asset:
-      id: 751
-      kind: 3
-      kind_id: 751
-      type: 1
-      name: avspirit.zip
-      description: ""
-      format: 2
-      size: 1060778
-      blob_id: 0
-      debug: avspirit.zip
-    entries:
-    - id: 10095
-      asset_id: 751
-      name: ph.bin
-      size: 512
-      blob_id: 7485
-    - id: 10096
-      asset_id: 751
-      name: spirit01.rom
-      size: 131072
-      blob_id: 7486
-    - id: 10097
-      asset_id: 751
-      name: spirit02.rom
-      size: 131072
-      blob_id: 7487
-    - id: 10098
-      asset_id: 751
-      name: spirit05.rom
-      size: 262144
-      blob_id: 7488
-    - id: 10099
-      asset_id: 751
-      name: spirit06.rom
-      size: 262144
-      blob_id: 7489
-    - id: 10100
-      asset_id: 751
-      name: spirit09.rom
-      size: 131072
-      blob_id: 7490
-    - id: 10101
-      asset_id: 751
-      name: spirit10.rom
-      size: 524288
-      blob_id: 7491
-    - id: 10102
-      asset_id: 751
-      name: spirit11.rom
-      size: 524288
-      blob_id: 7492
-    - id: 10103
-      asset_id: 751
-      name: spirit12.rom
-      size: 524288
-      blob_id: 7493
-    - id: 10104
-      asset_id: 751
-      name: spirit13.rom
-      size: 262144
-      blob_id: 7494
-    - id: 10105
-      asset_id: 751
-      name: spirit14.rom
-      size: 262144
-      blob_id: 7495
   - asset:
       id: 42948
       kind: 3
@@ -287,10 +232,91 @@ releases:
     language: 1
     name: Avenging Spirit
     source: mame
-  release_publishers: []
+  - id: 183986
+    kind: 3
+    kind_id: 37483
+    language: 1
+    name: avspirit
+    source: ""
+  - id: 183987
+    kind: 3
+    kind_id: 37483
+    language: 2
+    name: 复仇精灵
+    source: trimui
+  release_publishers:
+  - release_id: 37483
+    publisher_id: 71
   assets:
   - asset:
-      id: 50553
+      id: 751
+      kind: 3
+      kind_id: 37483
+      type: 1
+      name: avspirit.zip
+      description: ""
+      format: 2
+      size: 1060778
+      blob_id: 0
+      debug: avspirit.zip
+    entries:
+    - id: 10095
+      asset_id: 751
+      name: ph.bin
+      size: 512
+      blob_id: 7485
+    - id: 10096
+      asset_id: 751
+      name: spirit01.rom
+      size: 131072
+      blob_id: 7486
+    - id: 10097
+      asset_id: 751
+      name: spirit02.rom
+      size: 131072
+      blob_id: 7487
+    - id: 10098
+      asset_id: 751
+      name: spirit05.rom
+      size: 262144
+      blob_id: 7488
+    - id: 10099
+      asset_id: 751
+      name: spirit06.rom
+      size: 262144
+      blob_id: 7489
+    - id: 10100
+      asset_id: 751
+      name: spirit09.rom
+      size: 131072
+      blob_id: 7490
+    - id: 10101
+      asset_id: 751
+      name: spirit10.rom
+      size: 524288
+      blob_id: 7491
+    - id: 10102
+      asset_id: 751
+      name: spirit11.rom
+      size: 524288
+      blob_id: 7492
+    - id: 10103
+      asset_id: 751
+      name: spirit12.rom
+      size: 524288
+      blob_id: 7493
+    - id: 10104
+      asset_id: 751
+      name: spirit13.rom
+      size: 262144
+      blob_id: 7494
+    - id: 10105
+      asset_id: 751
+      name: spirit14.rom
+      size: 262144
+      blob_id: 7495
+  - asset:
+      id: 94453
       kind: 3
       kind_id: 37483
       type: 1
@@ -301,63 +327,235 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 108758
-      asset_id: 50553
+    - id: 547585
+      asset_id: 94453
       name: avspirit.mcu
       size: 16384
-      blob_id: 97386
-    - id: 108759
-      asset_id: 50553
+      blob_id: 204628
+    - id: 547586
+      asset_id: 94453
       name: ph.bin
       size: 512
       blob_id: 7485
-    - id: 108760
-      asset_id: 50553
+    - id: 547587
+      asset_id: 94453
       name: spirit01.rom
       size: 131072
       blob_id: 7486
-    - id: 108761
-      asset_id: 50553
+    - id: 547588
+      asset_id: 94453
       name: spirit02.rom
       size: 131072
       blob_id: 7487
-    - id: 108762
-      asset_id: 50553
+    - id: 547589
+      asset_id: 94453
       name: spirit05.rom
       size: 262144
       blob_id: 7488
-    - id: 108763
-      asset_id: 50553
+    - id: 547590
+      asset_id: 94453
       name: spirit06.rom
       size: 262144
       blob_id: 7489
-    - id: 108764
-      asset_id: 50553
+    - id: 547591
+      asset_id: 94453
       name: spirit09.rom
       size: 131072
       blob_id: 7490
-    - id: 108765
-      asset_id: 50553
+    - id: 547592
+      asset_id: 94453
       name: spirit10.rom
       size: 524288
       blob_id: 7491
-    - id: 108766
-      asset_id: 50553
+    - id: 547593
+      asset_id: 94453
       name: spirit11.rom
       size: 524288
       blob_id: 7492
-    - id: 108767
-      asset_id: 50553
+    - id: 547594
+      asset_id: 94453
       name: spirit12.rom
       size: 524288
       blob_id: 7493
-    - id: 108768
-      asset_id: 50553
+    - id: 547595
+      asset_id: 94453
       name: spirit13.rom
       size: 262144
       blob_id: 7494
-    - id: 108769
-      asset_id: 50553
+    - id: 547596
+      asset_id: 94453
+      name: spirit14.rom
+      size: 262144
+      blob_id: 7495
+- release:
+    id: 89392
+    game_id: 751
+    description: ""
+    release_date: 19900000
+  names:
+  - id: 218768
+    kind: 3
+    kind_id: 89392
+    language: 1
+    name: Monky Elf (Korean bootleg of Avenging Spirit)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 104746
+      kind: 3
+      kind_id: 89392
+      type: 1
+      name: monkelf.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 665233
+      asset_id: 104746
+      name: "1"
+      size: 262144
+      blob_id: 7495
+    - id: 665234
+      asset_id: 104746
+      name: "10"
+      size: 131072
+      blob_id: 7490
+    - id: 665235
+      asset_id: 104746
+      name: "2"
+      size: 262144
+      blob_id: 7494
+    - id: 665236
+      asset_id: 104746
+      name: "3"
+      size: 131072
+      blob_id: 7487
+    - id: 665237
+      asset_id: 104746
+      name: "4"
+      size: 131072
+      blob_id: 7486
+    - id: 665238
+      asset_id: 104746
+      name: "5"
+      size: 262144
+      blob_id: 7496
+    - id: 665239
+      asset_id: 104746
+      name: "6"
+      size: 262144
+      blob_id: 7497
+    - id: 665240
+      asset_id: 104746
+      name: "7"
+      size: 524288
+      blob_id: 7491
+    - id: 665241
+      asset_id: 104746
+      name: "8"
+      size: 524288
+      blob_id: 7493
+    - id: 665242
+      asset_id: 104746
+      name: 82s147
+      size: 512
+      blob_id: 7498
+    - id: 665243
+      asset_id: 104746
+      name: "9"
+      size: 524288
+      blob_id: 7492
+- release:
+    id: 91978
+    game_id: 751
+    description: ""
+    release_date: 19900000
+  names:
+  - id: 222666
+    kind: 3
+    kind_id: 91978
+    language: 1
+    name: Phantasm (Japan)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 107445
+      kind: 3
+      kind_id: 91978
+      type: 1
+      name: phantasm.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 694754
+      asset_id: 107445
+      name: ph.14m
+      size: 512
+      blob_id: 7485
+    - id: 694755
+      asset_id: 107445
+      name: phntsm01.bin
+      size: 131072
+      blob_id: 7499
+    - id: 694756
+      asset_id: 107445
+      name: phntsm02.bin
+      size: 131072
+      blob_id: 7500
+    - id: 694757
+      asset_id: 107445
+      name: phntsm03.bin
+      size: 65536
+      blob_id: 7501
+    - id: 694758
+      asset_id: 107445
+      name: phntsm04.bin
+      size: 65536
+      blob_id: 7502
+    - id: 694759
+      asset_id: 107445
+      name: phntsm05.bin
+      size: 65536
+      blob_id: 7503
+    - id: 694760
+      asset_id: 107445
+      name: phntsm06.bin
+      size: 65536
+      blob_id: 7504
+    - id: 694761
+      asset_id: 107445
+      name: spirit09.rom
+      size: 131072
+      blob_id: 7490
+    - id: 694762
+      asset_id: 107445
+      name: spirit10.rom
+      size: 524288
+      blob_id: 7491
+    - id: 694763
+      asset_id: 107445
+      name: spirit11.rom
+      size: 524288
+      blob_id: 7492
+    - id: 694764
+      asset_id: 107445
+      name: spirit12.rom
+      size: 524288
+      blob_id: 7493
+    - id: 694765
+      asset_id: 107445
+      name: spirit13.rom
+      size: 262144
+      blob_id: 7494
+    - id: 694766
+      asset_id: 107445
       name: spirit14.rom
       size: 262144
       blob_id: 7495

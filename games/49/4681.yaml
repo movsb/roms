@@ -16,6 +16,18 @@ names:
   language: 2
   name: 小熊推钻石 雅姆雅姆
   source: trimui
+- id: 201396
+  kind: 2
+  kind_id: 4681
+  language: 1
+  name: Wise Guy
+  source: mame
+- id: 201628
+  kind: 2
+  kind_id: 4681
+  language: 1
+  name: Yam! Yam! (Korea)
+  source: mame
 game_developers: []
 game_genres:
 - game_id: 4681
@@ -107,24 +119,10 @@ releases:
       blob_id: 87339
       debug: arcade/wheel/yamyam.png
     entries: []
-- release:
-    id: 76021
-    game_id: 4681
-    description: ""
-    release_date: 19900000
-  names:
-  - id: 181840
-    kind: 3
-    kind_id: 76021
-    language: 1
-    name: Yam! Yam!?
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 89091
+      id: 118226
       kind: 3
-      kind_id: 76021
+      kind_id: 4681
       type: 1
       name: yamyam.zip
       description: ""
@@ -133,18 +131,104 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 425551
-      asset_id: 89091
+    - id: 801996
+      asset_id: 118226
       name: 1.16a
       size: 131072
       blob_id: 50800
-    - id: 425552
-      asset_id: 89091
+    - id: 801997
+      asset_id: 118226
       name: 3.10f
       size: 131072
       blob_id: 50802
-    - id: 425553
-      asset_id: 89091
+    - id: 801998
+      asset_id: 118226
       name: b2.16d
       size: 65536
       blob_id: 50801
+- release:
+    id: 102197
+    game_id: 4681
+    description: ""
+    release_date: 19900000
+  names:
+  - id: 236426
+    kind: 3
+    kind_id: 102197
+    language: 1
+    name: Yam! Yam! (Korea)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 118227
+      kind: 3
+      kind_id: 102197
+      type: 1
+      name: yamyamk.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/2340813568
+    entries:
+    - id: 801999
+      asset_id: 118227
+      name: 1.16a
+      size: 131072
+      blob_id: 50800
+    - id: 802000
+      asset_id: 118227
+      name: 2.16d
+      size: 65536
+      blob_id: 314410
+    - id: 802001
+      asset_id: 118227
+      name: 3.10f
+      size: 131072
+      blob_id: 50802
+- release:
+    id: 104997
+    game_id: 4681
+    description: ""
+    release_date: 19900000
+  names:
+  - id: 239973
+    kind: 3
+    kind_id: 104997
+    language: 1
+    name: Wise Guy
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 117791
+      kind: 3
+      kind_id: 104997
+      type: 1
+      name: wiseguy.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/818896577
+    entries:
+    - id: 795655
+      asset_id: 117791
+      name: 1.16a
+      size: 131072
+      blob_id: 50800
+    - id: 795656
+      asset_id: 117791
+      name: b3.f10
+      size: 131072
+      blob_id: 50802
+    - id: 795657
+      asset_id: 117791
+      name: wguyb2.16d
+      size: 65536
+      blob_id: 313313

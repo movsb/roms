@@ -16,6 +16,18 @@ names:
   language: 2
   name: 超级一掷 (第 1 套)
   source: trimui
+- id: 199590
+  kind: 2
+  kind_id: 3963
+  language: 1
+  name: Super Slam (set 2)
+  source: mame
+- id: 199591
+  kind: 2
+  kind_id: 3963
+  language: 1
+  name: Super Slam (set 3)
+  source: mame
 game_developers:
 - game_id: 3963
   developer_id: 558
@@ -149,84 +161,236 @@ releases:
       blob_id: 86437
       debug: arcade/wheel/sslam.png
     entries: []
-- release:
-    id: 71903
-    game_id: 3963
-    description: ""
-    release_date: 19930000
-  names:
-  - id: 173840
-    kind: 3
-    kind_id: 71903
-    language: 1
-    name: Super Slam (set 1)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 84973
+      id: 114472
       kind: 3
-      kind_id: 71903
+      kind_id: 3963
       type: 1
       name: sslam.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
-      debug: dat:mame:0.289
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/3319784128
     entries:
-    - id: 378585
-      asset_id: 84973
+    - id: 757053
+      asset_id: 114472
       name: 1.u56
       size: 524288
-      blob_id: 185911
-    - id: 378586
-      asset_id: 84973
+      blob_id: 303067
+    - id: 757054
+      asset_id: 114472
       name: 10.u85
       size: 524288
       blob_id: 42551
-    - id: 378587
-      asset_id: 84973
+    - id: 757055
+      asset_id: 114472
       name: 11.u86
       size: 524288
       blob_id: 42552
-    - id: 378588
-      asset_id: 84973
+    - id: 757056
+      asset_id: 114472
       name: 2.u67
       size: 524288
       blob_id: 42543
-    - id: 378589
-      asset_id: 84973
+    - id: 757057
+      asset_id: 114472
       name: 3.u13
       size: 524288
       blob_id: 42542
-    - id: 378590
-      asset_id: 84973
+    - id: 757058
+      asset_id: 114472
       name: 4.u36
       size: 524288
       blob_id: 42545
-    - id: 378591
-      asset_id: 84973
+    - id: 757059
+      asset_id: 114472
       name: 5.u42
       size: 524288
       blob_id: 42546
-    - id: 378592
-      asset_id: 84973
+    - id: 757060
+      asset_id: 114472
       name: 6.u39
       size: 524288
       blob_id: 42547
-    - id: 378593
-      asset_id: 84973
+    - id: 757061
+      asset_id: 114472
       name: 7.u45
       size: 524288
       blob_id: 42548
-    - id: 378594
-      asset_id: 84973
+    - id: 757062
+      asset_id: 114472
       name: 8.u83
       size: 524288
       blob_id: 42549
-    - id: 378595
-      asset_id: 84973
+    - id: 757063
+      asset_id: 114472
+      name: 9.u84
+      size: 524288
+      blob_id: 42550
+- release:
+    id: 98702
+    game_id: 3963
+    description: ""
+    release_date: 19930000
+  names:
+  - id: 231438
+    kind: 3
+    kind_id: 98702
+    language: 1
+    name: Super Slam (set 2)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 114473
+      kind: 3
+      kind_id: 98702
+      type: 1
+      name: sslama.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 757064
+      asset_id: 114473
+      name: 10.u85
+      size: 524288
+      blob_id: 42551
+    - id: 757065
+      asset_id: 114473
+      name: 11.u86
+      size: 524288
+      blob_id: 42552
+    - id: 757066
+      asset_id: 114473
+      name: 2.u67
+      size: 524288
+      blob_id: 42543
+    - id: 757067
+      asset_id: 114473
+      name: 3.u13
+      size: 524288
+      blob_id: 42542
+    - id: 757068
+      asset_id: 114473
+      name: 4.u36
+      size: 524288
+      blob_id: 42545
+    - id: 757069
+      asset_id: 114473
+      name: 5.u42
+      size: 524288
+      blob_id: 42546
+    - id: 757070
+      asset_id: 114473
+      name: 6.u39
+      size: 524288
+      blob_id: 42547
+    - id: 757071
+      asset_id: 114473
+      name: 7.u45
+      size: 524288
+      blob_id: 42548
+    - id: 757072
+      asset_id: 114473
+      name: 8.u83
+      size: 524288
+      blob_id: 42549
+    - id: 757073
+      asset_id: 114473
+      name: 9.u84
+      size: 524288
+      blob_id: 42550
+    - id: 757074
+      asset_id: 114473
+      name: it_22.bin
+      size: 524288
+      blob_id: 42544
+- release:
+    id: 98703
+    game_id: 3963
+    description: ""
+    release_date: 19930000
+  names:
+  - id: 231439
+    kind: 3
+    kind_id: 98703
+    language: 1
+    name: Super Slam (set 3)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 114474
+      kind: 3
+      kind_id: 98703
+      type: 1
+      name: sslamb.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/2272652688
+    entries:
+    - id: 757075
+      asset_id: 114474
+      name: 10.u85
+      size: 524288
+      blob_id: 42551
+    - id: 757076
+      asset_id: 114474
+      name: 11.u86
+      size: 524288
+      blob_id: 42552
+    - id: 757077
+      asset_id: 114474
+      name: 21.u67
+      size: 524288
+      blob_id: 303068
+    - id: 757078
+      asset_id: 114474
+      name: 22.u68
+      size: 524288
+      blob_id: 303069
+    - id: 757079
+      asset_id: 114474
+      name: 3.u13
+      size: 524288
+      blob_id: 42542
+    - id: 757080
+      asset_id: 114474
+      name: 4.u36
+      size: 524288
+      blob_id: 42545
+    - id: 757081
+      asset_id: 114474
+      name: 5.u42
+      size: 524288
+      blob_id: 42546
+    - id: 757082
+      asset_id: 114474
+      name: 6.u39
+      size: 524288
+      blob_id: 42547
+    - id: 757083
+      asset_id: 114474
+      name: 7.u45
+      size: 524288
+      blob_id: 42548
+    - id: 757084
+      asset_id: 114474
+      name: 8.u83
+      size: 524288
+      blob_id: 42549
+    - id: 757085
+      asset_id: 114474
       name: 9.u84
       size: 524288
       blob_id: 42550

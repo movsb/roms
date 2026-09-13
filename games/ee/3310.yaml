@@ -16,6 +16,24 @@ names:
   language: 2
   name: 堡垒防卫战 (轨迹球控制)
   source: trimui
+- id: 195499
+  kind: 2
+  kind_id: 3310
+  language: 1
+  name: Rampart (Joystick, bigger ROMs)
+  source: mame
+- id: 195500
+  kind: 2
+  kind_id: 3310
+  language: 1
+  name: Rampart (Joystick, smaller ROMs)
+  source: mame
+- id: 195501
+  kind: 2
+  kind_id: 3310
+  language: 1
+  name: Rampart (Japan, Joystick)
+  source: mame
 game_developers:
 - game_id: 3310
   developer_id: 345
@@ -129,24 +147,10 @@ releases:
       blob_id: 88921
       debug: arcade/wheel/rampart.png
     entries: []
-- release:
-    id: 63174
-    game_id: 3310
-    description: ""
-    release_date: 19900000
-  names:
-  - id: 156597
-    kind: 3
-    kind_id: 63174
-    language: 1
-    name: Rampart (Trackball)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 76244
+      id: 108878
       kind: 3
-      kind_id: 63174
+      kind_id: 3310
       type: 1
       name: rampart.zip
       description: ""
@@ -155,73 +159,401 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 317242
-      asset_id: 76244
+    - id: 710509
+      asset_id: 108878
       name: 136082-1007.2d
       size: 131072
       blob_id: 35320
-    - id: 317243
-      asset_id: 76244
+    - id: 710510
+      asset_id: 108878
       name: 136082-1008.1d
       size: 131072
       blob_id: 35321
-    - id: 317244
-      asset_id: 76244
+    - id: 710511
+      asset_id: 108878
       name: 136082-1009.2n
       size: 131072
       blob_id: 35322
-    - id: 317245
-      asset_id: 76244
+    - id: 710512
+      asset_id: 108878
       name: 136082-1032.13j
       size: 524288
       blob_id: 35323
-    - id: 317246
-      asset_id: 76244
+    - id: 710513
+      asset_id: 108878
       name: 136082-1033.13l
       size: 524288
       blob_id: 35324
-    - id: 317247
-      asset_id: 76244
+    - id: 710514
+      asset_id: 108878
       name: 136082-2030.13h
       size: 65536
       blob_id: 35325
-    - id: 317248
-      asset_id: 76244
+    - id: 710515
+      asset_id: 108878
       name: 136082-2031.13l
       size: 65536
       blob_id: 35326
-    - id: 317249
-      asset_id: 76244
+    - id: 710516
+      asset_id: 108878
       name: gal16v8-136082-1000.1j
       size: 279
-      blob_id: 164382
-    - id: 317250
-      asset_id: 76244
+      blob_id: 269154
+    - id: 710517
+      asset_id: 108878
       name: gal16v8-136082-1001.4l
       size: 279
-      blob_id: 164383
-    - id: 317251
-      asset_id: 76244
+      blob_id: 269155
+    - id: 710518
+      asset_id: 108878
       name: gal16v8-136082-1002.7k
       size: 279
-      blob_id: 164384
-    - id: 317252
-      asset_id: 76244
+      blob_id: 269156
+    - id: 710519
+      asset_id: 108878
       name: gal16v8-136082-1006.12c
       size: 279
-      blob_id: 164385
-    - id: 317253
-      asset_id: 76244
+      blob_id: 269157
+    - id: 710520
+      asset_id: 108878
       name: gal20v8-136082-1003.8j
       size: 343
-      blob_id: 164386
-    - id: 317254
-      asset_id: 76244
+      blob_id: 269158
+    - id: 710521
+      asset_id: 108878
       name: gal20v8-136082-1004.8m
       size: 343
-      blob_id: 164387
-    - id: 317255
-      asset_id: 76244
+      blob_id: 269159
+    - id: 710522
+      asset_id: 108878
       name: rampart-eeprom.bin
       size: 2048
-      blob_id: 164388
+      blob_id: 269160
+- release:
+    id: 93327
+    game_id: 3310
+    description: ""
+    release_date: 19900000
+  names:
+  - id: 224669
+    kind: 3
+    kind_id: 93327
+    language: 1
+    name: Rampart (Joystick, bigger ROMs)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 108879
+      kind: 3
+      kind_id: 93327
+      type: 1
+      name: rampart2p.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 710523
+      asset_id: 108879
+      name: 136082-1007.2d
+      size: 131072
+      blob_id: 35320
+    - id: 710524
+      asset_id: 108879
+      name: 136082-1008.1d
+      size: 131072
+      blob_id: 35321
+    - id: 710525
+      asset_id: 108879
+      name: 136082-1019.2n
+      size: 131072
+      blob_id: 269161
+    - id: 710526
+      asset_id: 108879
+      name: 136082-1032.13j
+      size: 524288
+      blob_id: 35323
+    - id: 710527
+      asset_id: 108879
+      name: 136082-1033.13l
+      size: 524288
+      blob_id: 35324
+    - id: 710528
+      asset_id: 108879
+      name: 136082-2050.13h
+      size: 131072
+      blob_id: 269162
+    - id: 710529
+      asset_id: 108879
+      name: 136082-2051.13kl
+      size: 131072
+      blob_id: 269163
+    - id: 710530
+      asset_id: 108879
+      name: gal16v8-136082-1000.1j
+      size: 279
+      blob_id: 269154
+    - id: 710531
+      asset_id: 108879
+      name: gal16v8-136082-1001.4l
+      size: 279
+      blob_id: 269155
+    - id: 710532
+      asset_id: 108879
+      name: gal16v8-136082-1002.7k
+      size: 279
+      blob_id: 269156
+    - id: 710533
+      asset_id: 108879
+      name: gal16v8-136082-1056.12c
+      size: 279
+      blob_id: 269164
+    - id: 710534
+      asset_id: 108879
+      name: gal20v8-136082-1003.8j
+      size: 343
+      blob_id: 269158
+    - id: 710535
+      asset_id: 108879
+      name: gal20v8-136082-1004.8m
+      size: 343
+      blob_id: 269159
+    - id: 710536
+      asset_id: 108879
+      name: rampart-eeprom.bin
+      size: 2048
+      blob_id: 269160
+- release:
+    id: 93328
+    game_id: 3310
+    description: ""
+    release_date: 19900000
+  names:
+  - id: 224670
+    kind: 3
+    kind_id: 93328
+    language: 1
+    name: Rampart (Joystick, smaller ROMs)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 108880
+      kind: 3
+      kind_id: 93328
+      type: 1
+      name: rampart2pa.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 710537
+      asset_id: 108880
+      name: 0h.13k-l
+      size: 131072
+      blob_id: 269163
+    - id: 710538
+      asset_id: 108880
+      name: 0l.13h
+      size: 131072
+      blob_id: 269162
+    - id: 710539
+      asset_id: 108880
+      name: 1h.13l
+      size: 131072
+      blob_id: 269165
+    - id: 710540
+      asset_id: 108880
+      name: 1l.13h-j
+      size: 131072
+      blob_id: 269166
+    - id: 710541
+      asset_id: 108880
+      name: 2h.13m
+      size: 131072
+      blob_id: 269167
+    - id: 710542
+      asset_id: 108880
+      name: 2l.13j
+      size: 131072
+      blob_id: 269168
+    - id: 710543
+      asset_id: 108880
+      name: 3h.13n
+      size: 131072
+      blob_id: 269169
+    - id: 710544
+      asset_id: 108880
+      name: 3l.13k
+      size: 131072
+      blob_id: 269170
+    - id: 710545
+      asset_id: 108880
+      name: arom0_2_player_136082-1007.2d
+      size: 131072
+      blob_id: 35320
+    - id: 710546
+      asset_id: 108880
+      name: arom1_2_player_136082-1006.1d
+      size: 131072
+      blob_id: 35321
+    - id: 710547
+      asset_id: 108880
+      name: atr.2n
+      size: 131072
+      blob_id: 269161
+    - id: 710548
+      asset_id: 108880
+      name: gal16v8-136082-1000.1j
+      size: 279
+      blob_id: 269154
+    - id: 710549
+      asset_id: 108880
+      name: gal16v8-136082-1001.4l
+      size: 279
+      blob_id: 269155
+    - id: 710550
+      asset_id: 108880
+      name: gal16v8-136082-1002.7k
+      size: 279
+      blob_id: 269156
+    - id: 710551
+      asset_id: 108880
+      name: gal16v8-136082-1005.12c
+      size: 279
+      blob_id: 269171
+    - id: 710552
+      asset_id: 108880
+      name: gal20v8-136082-1003.8j
+      size: 343
+      blob_id: 269158
+    - id: 710553
+      asset_id: 108880
+      name: gal20v8-136082-1004.8m
+      size: 343
+      blob_id: 269159
+    - id: 710554
+      asset_id: 108880
+      name: rampart-eeprom.bin
+      size: 2048
+      blob_id: 269160
+- release:
+    id: 93329
+    game_id: 3310
+    description: ""
+    release_date: 19900000
+  names:
+  - id: 224671
+    kind: 3
+    kind_id: 93329
+    language: 1
+    name: Rampart (Japan, Joystick)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 108881
+      kind: 3
+      kind_id: 93329
+      type: 1
+      name: rampartj.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 710555
+      asset_id: 108881
+      name: 136082-1007.2d
+      size: 131072
+      blob_id: 35320
+    - id: 710556
+      asset_id: 108881
+      name: 136082-1008.1d
+      size: 131072
+      blob_id: 35321
+    - id: 710557
+      asset_id: 108881
+      name: 136082-1462.13hj
+      size: 131072
+      blob_id: 269172
+    - id: 710558
+      asset_id: 108881
+      name: 136082-1463.13l
+      size: 131072
+      blob_id: 269173
+    - id: 710559
+      asset_id: 108881
+      name: 136082-1464.13j
+      size: 131072
+      blob_id: 269174
+    - id: 710560
+      asset_id: 108881
+      name: 136082-1465.13m
+      size: 131072
+      blob_id: 269175
+    - id: 710561
+      asset_id: 108881
+      name: 136082-1466.13k
+      size: 131072
+      blob_id: 269176
+    - id: 710562
+      asset_id: 108881
+      name: 136082-1467.13n
+      size: 131072
+      blob_id: 269177
+    - id: 710563
+      asset_id: 108881
+      name: 136082-2419.2m
+      size: 131072
+      blob_id: 269178
+    - id: 710564
+      asset_id: 108881
+      name: 136082-3450.13h
+      size: 131072
+      blob_id: 269179
+    - id: 710565
+      asset_id: 108881
+      name: 136082-3451.13kl
+      size: 131072
+      blob_id: 269180
+    - id: 710566
+      asset_id: 108881
+      name: gal16v8-136082-1000.1j
+      size: 279
+      blob_id: 269154
+    - id: 710567
+      asset_id: 108881
+      name: gal16v8-136082-1001.4l
+      size: 279
+      blob_id: 269155
+    - id: 710568
+      asset_id: 108881
+      name: gal16v8-136082-1002.7k
+      size: 279
+      blob_id: 269156
+    - id: 710569
+      asset_id: 108881
+      name: gal16v8-136082-1005.12c
+      size: 279
+      blob_id: 269171
+    - id: 710570
+      asset_id: 108881
+      name: gal20v8-136082-1003.8j
+      size: 343
+      blob_id: 269158
+    - id: 710571
+      asset_id: 108881
+      name: gal20v8-136082-1004.8m
+      size: 343
+      blob_id: 269159
+    - id: 710572
+      asset_id: 108881
+      name: rampartj-eeprom.13f
+      size: 2048
+      blob_id: 269181

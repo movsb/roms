@@ -16,6 +16,12 @@ names:
   language: 2
   name: 海底探宝
   source: trimui
+- id: 192243
+  kind: 2
+  kind_id: 2158
+  language: 1
+  name: Kaitei Takara Sagashi (Namco license)
+  source: mame
 game_developers:
 - game_id: 2158
   developer_id: 616
@@ -129,3 +135,44 @@ releases:
       blob_id: 87401
       debug: arcade/wheel/kaitei.png
     entries: []
+- release:
+    id: 87086
+    game_id: 2158
+    description: ""
+    release_date: 19800000
+  names:
+  - id: 215194
+    kind: 3
+    kind_id: 87086
+    language: 1
+    name: Kaitei Takara Sagashi (Namco license)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 102282
+      kind: 3
+      kind_id: 87086
+      type: 1
+      name: kaitein.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 639891
+      asset_id: 102282
+      name: kaitein.chr
+      size: 2048
+      blob_id: 226831
+    - id: 639892
+      asset_id: 102282
+      name: kaitein.p1
+      size: 2048
+      blob_id: 226832
+    - id: 639893
+      asset_id: 102282
+      name: kaitein.p2
+      size: 2048
+      blob_id: 226833

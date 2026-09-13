@@ -16,6 +16,24 @@ names:
   language: 2
   name: "首尾相连 - 锦标赛 / 超级方程式"
   source: trimui
+- id: 198910
+  kind: 2
+  kind_id: 4140
+  language: 1
+  name: Super Formula (Japan, set 1)
+  source: mame
+- id: 198911
+  kind: 2
+  kind_id: 4140
+  language: 1
+  name: Super Formula (Japan, set 2)
+  source: mame
+- id: 199906
+  kind: 2
+  kind_id: 4140
+  language: 1
+  name: "Tail to Nose - Great Championship"
+  source: mame
 game_developers: []
 game_genres:
 - game_id: 4140
@@ -162,120 +180,94 @@ releases:
       blob_id: 90051
       debug: arcade/wheel/tail2nos.png
     entries: []
-- release:
-    id: 72645
-    game_id: 4140
-    description: ""
-    release_date: 19890000
-  names:
-  - id: 175264
-    kind: 3
-    kind_id: 72645
-    language: 1
-    name: "Tail to Nose - Great Championship / Super Formula"
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 85715
+      id: 115109
       kind: 3
-      kind_id: 72645
+      kind_id: 4140
       type: 1
       name: tail2nos.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
-      debug: dat:mame:0.289
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/1371806099
     entries:
-    - id: 386921
-      asset_id: 85715
+    - id: 764684
+      asset_id: 115109
       name: a23.ic96
       size: 524288
       blob_id: 44392
-    - id: 386922
-      asset_id: 85715
+    - id: 764685
+      asset_id: 115109
       name: a24.ic34
       size: 524288
       blob_id: 44393
-    - id: 386923
-      asset_id: 85715
+    - id: 764686
+      asset_id: 115109
       name: o1s.ic18
       size: 262144
       blob_id: 44394
-    - id: 386924
-      asset_id: 85715
+    - id: 764687
+      asset_id: 115109
       name: oj1.ic93
       size: 262144
       blob_id: 44395
-    - id: 386925
-      asset_id: 85715
+    - id: 764688
+      asset_id: 115109
       name: oj2.ic79
       size: 262144
       blob_id: 44396
-    - id: 386926
-      asset_id: 85715
+    - id: 764689
+      asset_id: 115109
       name: osb.ic127
       size: 131072
       blob_id: 44397
-    - id: 386927
-      asset_id: 85715
+    - id: 764690
+      asset_id: 115109
       name: s2-h.ic129
       size: 65536
-      blob_id: 188530
-    - id: 386928
-      asset_id: 85715
+      blob_id: 305367
+    - id: 764691
+      asset_id: 115109
       name: s2-l.ic130
       size: 65536
-      blob_id: 188531
-    - id: 386929
-      asset_id: 85715
+      blob_id: 305368
+    - id: 764692
+      asset_id: 115109
       name: v1.ic137
       size: 65536
       blob_id: 44398
-    - id: 386930
-      asset_id: 85715
+    - id: 764693
+      asset_id: 115109
       name: v2.ic125
       size: 32768
       blob_id: 44399
-    - id: 386931
-      asset_id: 85715
+    - id: 764694
+      asset_id: 115109
       name: v3.ic141
       size: 65536
       blob_id: 44400
-    - id: 386932
-      asset_id: 85715
+    - id: 764695
+      asset_id: 115109
       name: v5.ic119
       size: 65536
       blob_id: 44402
-    - id: 386933
-      asset_id: 85715
+    - id: 764696
+      asset_id: 115109
       name: v6.ic142
       size: 65536
       blob_id: 44403
-    - id: 386934
-      asset_id: 85715
+    - id: 764697
+      asset_id: 115109
       name: v8.ic120
       size: 65536
       blob_id: 44405
-- release:
-    id: 77257
-    game_id: 4140
-    description: ""
-    release_date: 19890000
-  names:
-  - id: 183567
-    kind: 3
-    kind_id: 77257
-    language: 1
-    name: "Tail to Nose - Great Championship / Super Formula"
-    source: fbneo
-  release_publishers: []
-  assets:
   - asset:
-      id: 90327
+      id: 119570
       kind: 3
-      kind_id: 77257
+      kind_id: 4140
       type: 1
       name: tail2nos.zip
       description: ""
@@ -284,78 +276,637 @@ releases:
       blob_id: 0
       debug: dat:fbneo:5fa9b68a
     entries:
-    - id: 457303
-      asset_id: 90327
+    - id: 834853
+      asset_id: 119570
       name: a23.ic96
       size: 524288
       blob_id: 44392
-    - id: 457304
-      asset_id: 90327
+    - id: 834854
+      asset_id: 119570
       name: a24.ic34
       size: 524288
       blob_id: 44393
-    - id: 457305
-      asset_id: 90327
+    - id: 834855
+      asset_id: 119570
       name: o1s.ic18
       size: 262144
       blob_id: 44394
-    - id: 457306
-      asset_id: 90327
+    - id: 834856
+      asset_id: 119570
       name: oj1.ic93
       size: 262144
       blob_id: 44395
-    - id: 457307
-      asset_id: 90327
+    - id: 834857
+      asset_id: 119570
       name: oj2.ic79
       size: 262144
       blob_id: 44396
-    - id: 457308
-      asset_id: 90327
+    - id: 834858
+      asset_id: 119570
       name: osb.ic127
       size: 131072
       blob_id: 44397
-    - id: 457309
-      asset_id: 90327
+    - id: 834859
+      asset_id: 119570
       name: s2-h.ic129
       size: 65536
-      blob_id: 188530
-    - id: 457310
-      asset_id: 90327
+      blob_id: 288165
+    - id: 834860
+      asset_id: 119570
       name: s2-l.ic130
       size: 65536
-      blob_id: 188531
-    - id: 457311
-      asset_id: 90327
+      blob_id: 288166
+    - id: 834861
+      asset_id: 119570
       name: v1.ic137
       size: 65536
       blob_id: 44398
-    - id: 457312
-      asset_id: 90327
+    - id: 834862
+      asset_id: 119570
       name: v2.ic125
       size: 32768
       blob_id: 44399
-    - id: 457313
-      asset_id: 90327
+    - id: 834863
+      asset_id: 119570
       name: v3.ic141
       size: 65536
       blob_id: 44400
-    - id: 457314
-      asset_id: 90327
+    - id: 834864
+      asset_id: 119570
       name: v5.ic119
       size: 65536
       blob_id: 44402
-    - id: 457315
-      asset_id: 90327
+    - id: 834865
+      asset_id: 119570
       name: v6.ic142
       size: 65536
       blob_id: 44403
-    - id: 457316
-      asset_id: 90327
+    - id: 834866
+      asset_id: 119570
       name: v8.ic120
       size: 65536
       blob_id: 44405
-    - id: 457317
-      asset_id: 90327
+    - id: 834867
+      asset_id: 119570
+      name: ym2608_adpcm_rom.bin
+      size: 8192
+      blob_id: 50804
+- release:
+    id: 99272
+    game_id: 4140
+    description: ""
+    release_date: 19890000
+  names:
+  - id: 232263
+    kind: 3
+    kind_id: 99272
+    language: 1
+    name: "Tail to Nose - Great Championship"
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 115110
+      kind: 3
+      kind_id: 99272
+      type: 1
+      name: tail2nosa.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 764698
+      asset_id: 115110
+      name: a23.ic96
+      size: 524288
+      blob_id: 44392
+    - id: 764699
+      asset_id: 115110
+      name: a24.ic34
+      size: 524288
+      blob_id: 44393
+    - id: 764700
+      asset_id: 115110
+      name: o1s.ic18
+      size: 262144
+      blob_id: 44394
+    - id: 764701
+      asset_id: 115110
+      name: oj1.ic93
+      size: 262144
+      blob_id: 44395
+    - id: 764702
+      asset_id: 115110
+      name: oj2.ic79
+      size: 262144
+      blob_id: 44396
+    - id: 764703
+      asset_id: 115110
+      name: osb.ic127
+      size: 131072
+      blob_id: 44397
+    - id: 764704
+      asset_id: 115110
+      name: v1.ic137
+      size: 65536
+      blob_id: 44398
+    - id: 764705
+      asset_id: 115110
+      name: v2.ic125
+      size: 32768
+      blob_id: 44399
+    - id: 764706
+      asset_id: 115110
+      name: v3.ic141
+      size: 65536
+      blob_id: 44400
+    - id: 764707
+      asset_id: 115110
+      name: v4.ic129
+      size: 65536
+      blob_id: 44401
+    - id: 764708
+      asset_id: 115110
+      name: v5.ic119
+      size: 65536
+      blob_id: 44402
+    - id: 764709
+      asset_id: 115110
+      name: v6.ic142
+      size: 65536
+      blob_id: 44403
+    - id: 764710
+      asset_id: 115110
+      name: v7.ic130
+      size: 65536
+      blob_id: 44404
+    - id: 764711
+      asset_id: 115110
+      name: v8.ic120
+      size: 65536
+      blob_id: 44405
+  - asset:
+      id: 119571
+      kind: 3
+      kind_id: 99272
+      type: 1
+      name: tail2nosa.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 834868
+      asset_id: 119571
+      name: a23.ic96
+      size: 524288
+      blob_id: 44392
+    - id: 834869
+      asset_id: 119571
+      name: a24.ic34
+      size: 524288
+      blob_id: 44393
+    - id: 834870
+      asset_id: 119571
+      name: o1s.ic18
+      size: 262144
+      blob_id: 44394
+    - id: 834871
+      asset_id: 119571
+      name: oj1.ic93
+      size: 262144
+      blob_id: 44395
+    - id: 834872
+      asset_id: 119571
+      name: oj2.ic79
+      size: 262144
+      blob_id: 44396
+    - id: 834873
+      asset_id: 119571
+      name: osb.ic127
+      size: 131072
+      blob_id: 44397
+    - id: 834874
+      asset_id: 119571
+      name: v1.ic137
+      size: 65536
+      blob_id: 44398
+    - id: 834875
+      asset_id: 119571
+      name: v2.ic125
+      size: 32768
+      blob_id: 44399
+    - id: 834876
+      asset_id: 119571
+      name: v3.ic141
+      size: 65536
+      blob_id: 44400
+    - id: 834877
+      asset_id: 119571
+      name: v4.ic129
+      size: 65536
+      blob_id: 44401
+    - id: 834878
+      asset_id: 119571
+      name: v5.ic119
+      size: 65536
+      blob_id: 44402
+    - id: 834879
+      asset_id: 119571
+      name: v6.ic142
+      size: 65536
+      blob_id: 44403
+    - id: 834880
+      asset_id: 119571
+      name: v7.ic130
+      size: 65536
+      blob_id: 44404
+    - id: 834881
+      asset_id: 119571
+      name: v8.ic120
+      size: 65536
+      blob_id: 44405
+    - id: 834882
+      asset_id: 119571
+      name: ym2608_adpcm_rom.bin
+      size: 8192
+      blob_id: 50804
+- release:
+    id: 104840
+    game_id: 4140
+    description: ""
+    release_date: 19890000
+  names:
+  - id: 239816
+    kind: 3
+    kind_id: 104840
+    language: 1
+    name: Super Formula (Japan, set 1)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 113299
+      kind: 3
+      kind_id: 104840
+      type: 1
+      name: sformula.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 740874
+      asset_id: 113299
+      name: 4.ic129
+      size: 65536
+      blob_id: 280026
+    - id: 740875
+      asset_id: 113299
+      name: 7.ic130
+      size: 65536
+      blob_id: 280027
+    - id: 740876
+      asset_id: 113299
+      name: a23.ic96
+      size: 524288
+      blob_id: 44392
+    - id: 740877
+      asset_id: 113299
+      name: a24.ic34
+      size: 524288
+      blob_id: 44393
+    - id: 740878
+      asset_id: 113299
+      name: o1s.ic18
+      size: 262144
+      blob_id: 44394
+    - id: 740879
+      asset_id: 113299
+      name: oj1.ic93
+      size: 262144
+      blob_id: 44395
+    - id: 740880
+      asset_id: 113299
+      name: oj2.ic79
+      size: 262144
+      blob_id: 44396
+    - id: 740881
+      asset_id: 113299
+      name: osb.ic127
+      size: 131072
+      blob_id: 44397
+    - id: 740882
+      asset_id: 113299
+      name: v1.ic137
+      size: 65536
+      blob_id: 44398
+    - id: 740883
+      asset_id: 113299
+      name: v2.ic125
+      size: 32768
+      blob_id: 44399
+    - id: 740884
+      asset_id: 113299
+      name: v3.ic141
+      size: 65536
+      blob_id: 44400
+    - id: 740885
+      asset_id: 113299
+      name: v5.ic119
+      size: 65536
+      blob_id: 44402
+    - id: 740886
+      asset_id: 113299
+      name: v6.ic142
+      size: 65536
+      blob_id: 44403
+    - id: 740887
+      asset_id: 113299
+      name: v8.ic120
+      size: 65536
+      blob_id: 44405
+  - asset:
+      id: 119537
+      kind: 3
+      kind_id: 104840
+      type: 1
+      name: sformula.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 834156
+      asset_id: 119537
+      name: 4.ic129
+      size: 65536
+      blob_id: 280026
+    - id: 834157
+      asset_id: 119537
+      name: 7.ic130
+      size: 65536
+      blob_id: 280027
+    - id: 834158
+      asset_id: 119537
+      name: a23.ic96
+      size: 524288
+      blob_id: 44392
+    - id: 834159
+      asset_id: 119537
+      name: a24.ic34
+      size: 524288
+      blob_id: 44393
+    - id: 834160
+      asset_id: 119537
+      name: o1s.ic18
+      size: 262144
+      blob_id: 44394
+    - id: 834161
+      asset_id: 119537
+      name: oj1.ic93
+      size: 262144
+      blob_id: 44395
+    - id: 834162
+      asset_id: 119537
+      name: oj2.ic79
+      size: 262144
+      blob_id: 44396
+    - id: 834163
+      asset_id: 119537
+      name: osb.ic127
+      size: 131072
+      blob_id: 44397
+    - id: 834164
+      asset_id: 119537
+      name: v1.ic137
+      size: 65536
+      blob_id: 44398
+    - id: 834165
+      asset_id: 119537
+      name: v2.ic125
+      size: 32768
+      blob_id: 44399
+    - id: 834166
+      asset_id: 119537
+      name: v3.ic141
+      size: 65536
+      blob_id: 44400
+    - id: 834167
+      asset_id: 119537
+      name: v5.ic119
+      size: 65536
+      blob_id: 44402
+    - id: 834168
+      asset_id: 119537
+      name: v6.ic142
+      size: 65536
+      blob_id: 44403
+    - id: 834169
+      asset_id: 119537
+      name: v8.ic120
+      size: 65536
+      blob_id: 44405
+    - id: 834170
+      asset_id: 119537
+      name: ym2608_adpcm_rom.bin
+      size: 8192
+      blob_id: 50804
+- release:
+    id: 104841
+    game_id: 4140
+    description: ""
+    release_date: 19890000
+  names:
+  - id: 239817
+    kind: 3
+    kind_id: 104841
+    language: 1
+    name: Super Formula (Japan, set 2)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 113300
+      kind: 3
+      kind_id: 104841
+      type: 1
+      name: sformulaa.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 740888
+      asset_id: 113300
+      name: 04.ic29
+      size: 65536
+      blob_id: 280028
+    - id: 740889
+      asset_id: 113300
+      name: 07.ic30
+      size: 65536
+      blob_id: 280029
+    - id: 740890
+      asset_id: 113300
+      name: 9.ic3
+      size: 32768
+      blob_id: 280030
+    - id: 740891
+      asset_id: 113300
+      name: a23.ic96
+      size: 524288
+      blob_id: 44392
+    - id: 740892
+      asset_id: 113300
+      name: a24.ic34
+      size: 524288
+      blob_id: 44393
+    - id: 740893
+      asset_id: 113300
+      name: o1s.ic18
+      size: 262144
+      blob_id: 44394
+    - id: 740894
+      asset_id: 113300
+      name: oj1.ic93
+      size: 262144
+      blob_id: 44395
+    - id: 740895
+      asset_id: 113300
+      name: oj2.ic79
+      size: 262144
+      blob_id: 44396
+    - id: 740896
+      asset_id: 113300
+      name: osb.ic127
+      size: 131072
+      blob_id: 44397
+    - id: 740897
+      asset_id: 113300
+      name: v1.ic137
+      size: 65536
+      blob_id: 44398
+    - id: 740898
+      asset_id: 113300
+      name: v2.ic125
+      size: 32768
+      blob_id: 44399
+    - id: 740899
+      asset_id: 113300
+      name: v3.ic141
+      size: 65536
+      blob_id: 44400
+    - id: 740900
+      asset_id: 113300
+      name: v5.ic119
+      size: 65536
+      blob_id: 44402
+    - id: 740901
+      asset_id: 113300
+      name: v6.ic142
+      size: 65536
+      blob_id: 44403
+    - id: 740902
+      asset_id: 113300
+      name: v8.ic120
+      size: 65536
+      blob_id: 44405
+  - asset:
+      id: 119538
+      kind: 3
+      kind_id: 104841
+      type: 1
+      name: sformulaa.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 834171
+      asset_id: 119538
+      name: 04.ic29
+      size: 65536
+      blob_id: 280028
+    - id: 834172
+      asset_id: 119538
+      name: 07.ic30
+      size: 65536
+      blob_id: 280029
+    - id: 834173
+      asset_id: 119538
+      name: 9.ic3
+      size: 32768
+      blob_id: 280030
+    - id: 834174
+      asset_id: 119538
+      name: a23.ic96
+      size: 524288
+      blob_id: 44392
+    - id: 834175
+      asset_id: 119538
+      name: a24.ic34
+      size: 524288
+      blob_id: 44393
+    - id: 834176
+      asset_id: 119538
+      name: o1s.ic18
+      size: 262144
+      blob_id: 44394
+    - id: 834177
+      asset_id: 119538
+      name: oj1.ic93
+      size: 262144
+      blob_id: 44395
+    - id: 834178
+      asset_id: 119538
+      name: oj2.ic79
+      size: 262144
+      blob_id: 44396
+    - id: 834179
+      asset_id: 119538
+      name: osb.ic127
+      size: 131072
+      blob_id: 44397
+    - id: 834180
+      asset_id: 119538
+      name: v1.ic137
+      size: 65536
+      blob_id: 44398
+    - id: 834181
+      asset_id: 119538
+      name: v2.ic125
+      size: 32768
+      blob_id: 44399
+    - id: 834182
+      asset_id: 119538
+      name: v3.ic141
+      size: 65536
+      blob_id: 44400
+    - id: 834183
+      asset_id: 119538
+      name: v5.ic119
+      size: 65536
+      blob_id: 44402
+    - id: 834184
+      asset_id: 119538
+      name: v6.ic142
+      size: 65536
+      blob_id: 44403
+    - id: 834185
+      asset_id: 119538
+      name: v8.ic120
+      size: 65536
+      blob_id: 44405
+    - id: 834186
+      asset_id: 119538
       name: ym2608_adpcm_rom.bin
       size: 8192
       blob_id: 50804

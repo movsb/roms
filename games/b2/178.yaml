@@ -16,6 +16,24 @@ names:
   language: 2
   name: 星球战略 (欧版)
   source: trimui
+- id: 190214
+  kind: 2
+  kind_id: 178
+  language: 1
+  name: Espial (Japan)
+  source: mame
+- id: 190215
+  kind: 2
+  kind_id: 178
+  language: 1
+  name: Espial (Nova Apparate license)
+  source: mame
+- id: 190216
+  kind: 2
+  kind_id: 178
+  language: 1
+  name: Espial (US?)
+  source: mame
 game_developers:
 - game_id: 178
   developer_id: 528
@@ -149,24 +167,10 @@ releases:
       blob_id: 86561
       debug: arcade/wheel/espial.png
     entries: []
-- release:
-    id: 43084
-    game_id: 178
-    description: ""
-    release_date: 19830000
-  names:
-  - id: 117004
-    kind: 3
-    kind_id: 43084
-    language: 1
-    name: Espial (Europe)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 56154
+      id: 98444
       kind: 3
-      kind_id: 43084
+      kind_id: 178
       type: 1
       name: espial.zip
       description: ""
@@ -175,63 +179,321 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 165105
-      asset_id: 56154
+    - id: 597666
+      asset_id: 98444
       name: esp1.4n
       size: 4096
       blob_id: 16950
-    - id: 165106
-      asset_id: 56154
+    - id: 597667
+      asset_id: 98444
       name: esp2.4r
       size: 4096
       blob_id: 16951
-    - id: 165107
-      asset_id: 56154
+    - id: 597668
+      asset_id: 98444
       name: esp3.4f
       size: 8192
       blob_id: 16952
-    - id: 165108
-      asset_id: 56154
+    - id: 597669
+      asset_id: 98444
       name: esp4.4h
       size: 8192
       blob_id: 16953
-    - id: 165109
-      asset_id: 56154
+    - id: 597670
+      asset_id: 98444
       name: esp5.bin
       size: 4096
       blob_id: 16954
-    - id: 165110
-      asset_id: 56154
+    - id: 597671
+      asset_id: 98444
       name: esp6.bin
       size: 4096
       blob_id: 16955
-    - id: 165111
-      asset_id: 56154
+    - id: 597672
+      asset_id: 98444
       name: espial10.4e
       size: 4096
       blob_id: 1806
-    - id: 165112
-      asset_id: 56154
+    - id: 597673
+      asset_id: 98444
       name: espial7.4a
       size: 4096
       blob_id: 1812
-    - id: 165113
-      asset_id: 56154
+    - id: 597674
+      asset_id: 98444
       name: espial8.4b
       size: 8192
       blob_id: 1813
-    - id: 165114
-      asset_id: 56154
+    - id: 597675
+      asset_id: 98444
       name: espial9.4d
       size: 4096
       blob_id: 1814
-    - id: 165115
-      asset_id: 56154
+    - id: 597676
+      asset_id: 98444
       name: mmi6301.1f
       size: 256
-      blob_id: 114508
-    - id: 165116
-      asset_id: 56154
+      blob_id: 216074
+    - id: 597677
+      asset_id: 98444
       name: mmi6301.1h
       size: 256
-      blob_id: 114509
+      blob_id: 216075
+- release:
+    id: 83519
+    game_id: 178
+    description: ""
+    release_date: 19830000
+  names:
+  - id: 209734
+    kind: 3
+    kind_id: 83519
+    language: 1
+    name: Espial (Japan)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 98445
+      kind: 3
+      kind_id: 83519
+      type: 1
+      name: espialj.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 597678
+      asset_id: 98445
+      name: esp1.4n
+      size: 4096
+      blob_id: 16950
+    - id: 597679
+      asset_id: 98445
+      name: esp2.4r
+      size: 4096
+      blob_id: 16951
+    - id: 597680
+      asset_id: 98445
+      name: espial.5
+      size: 4096
+      blob_id: 1810
+    - id: 597681
+      asset_id: 98445
+      name: espial.6
+      size: 4096
+      blob_id: 1811
+    - id: 597682
+      asset_id: 98445
+      name: espial10.4e
+      size: 4096
+      blob_id: 1806
+    - id: 597683
+      asset_id: 98445
+      name: espial3.4f
+      size: 8192
+      blob_id: 1808
+    - id: 597684
+      asset_id: 98445
+      name: espial4.4h
+      size: 8192
+      blob_id: 1809
+    - id: 597685
+      asset_id: 98445
+      name: espial7.4a
+      size: 4096
+      blob_id: 1812
+    - id: 597686
+      asset_id: 98445
+      name: espial8.4b
+      size: 8192
+      blob_id: 1813
+    - id: 597687
+      asset_id: 98445
+      name: espial9.4d
+      size: 4096
+      blob_id: 1814
+    - id: 597688
+      asset_id: 98445
+      name: mmi6301.1f
+      size: 256
+      blob_id: 216074
+    - id: 597689
+      asset_id: 98445
+      name: mmi6301.1h
+      size: 256
+      blob_id: 216075
+- release:
+    id: 83520
+    game_id: 178
+    description: ""
+    release_date: 19830000
+  names:
+  - id: 209735
+    kind: 3
+    kind_id: 83520
+    language: 1
+    name: Espial (Nova Apparate license)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 98446
+      kind: 3
+      kind_id: 83520
+      type: 1
+      name: espialn.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 597690
+      asset_id: 98446
+      name: esp1.4n
+      size: 4096
+      blob_id: 16950
+    - id: 597691
+      asset_id: 98446
+      name: esp2.4r
+      size: 4096
+      blob_id: 16951
+    - id: 597692
+      asset_id: 98446
+      name: espial.6
+      size: 4096
+      blob_id: 1811
+    - id: 597693
+      asset_id: 98446
+      name: espial10.4e
+      size: 4096
+      blob_id: 1806
+    - id: 597694
+      asset_id: 98446
+      name: espial3.4f
+      size: 8192
+      blob_id: 1808
+    - id: 597695
+      asset_id: 98446
+      name: espial4.4h
+      size: 8192
+      blob_id: 1809
+    - id: 597696
+      asset_id: 98446
+      name: espial7.4a
+      size: 4096
+      blob_id: 1812
+    - id: 597697
+      asset_id: 98446
+      name: espial8.4b
+      size: 8192
+      blob_id: 1813
+    - id: 597698
+      asset_id: 98446
+      name: espial9.4d
+      size: 4096
+      blob_id: 1814
+    - id: 597699
+      asset_id: 98446
+      name: espialn.5
+      size: 4096
+      blob_id: 245418
+    - id: 597700
+      asset_id: 98446
+      name: mmi6301.1f
+      size: 256
+      blob_id: 216074
+    - id: 597701
+      asset_id: 98446
+      name: mmi6301.1h
+      size: 256
+      blob_id: 216075
+- release:
+    id: 83521
+    game_id: 178
+    description: ""
+    release_date: 19830000
+  names:
+  - id: 209736
+    kind: 3
+    kind_id: 83521
+    language: 1
+    name: Espial (US?)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 98447
+      kind: 3
+      kind_id: 83521
+      type: 1
+      name: espialu.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 597702
+      asset_id: 98447
+      name: espial.5
+      size: 4096
+      blob_id: 1810
+    - id: 597703
+      asset_id: 98447
+      name: espial.6
+      size: 4096
+      blob_id: 1811
+    - id: 597704
+      asset_id: 98447
+      name: espial1.4n
+      size: 4096
+      blob_id: 1805
+    - id: 597705
+      asset_id: 98447
+      name: espial10.4e
+      size: 4096
+      blob_id: 1806
+    - id: 597706
+      asset_id: 98447
+      name: espial2.4r
+      size: 4096
+      blob_id: 1807
+    - id: 597707
+      asset_id: 98447
+      name: espial3.4f
+      size: 8192
+      blob_id: 1808
+    - id: 597708
+      asset_id: 98447
+      name: espial4.4h
+      size: 8192
+      blob_id: 1809
+    - id: 597709
+      asset_id: 98447
+      name: espial7.4a
+      size: 4096
+      blob_id: 1812
+    - id: 597710
+      asset_id: 98447
+      name: espial8.4b
+      size: 8192
+      blob_id: 1813
+    - id: 597711
+      asset_id: 98447
+      name: espial9.4d
+      size: 4096
+      blob_id: 1814
+    - id: 597712
+      asset_id: 98447
+      name: mmi6301.1f
+      size: 256
+      blob_id: 216074
+    - id: 597713
+      asset_id: 98447
+      name: mmi6301.1h
+      size: 256
+      blob_id: 216075

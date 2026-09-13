@@ -16,6 +16,12 @@ names:
   language: 2
   name: 太空登陆艇
   source: trimui
+- id: 201666
+  kind: 2
+  kind_id: 4686
+  language: 1
+  name: Zaviga (Japan)
+  source: mame
 game_developers:
 - game_id: 4686
   developer_id: 225
@@ -149,24 +155,10 @@ releases:
       blob_id: 88019
       debug: arcade/wheel/zaviga.png
     entries: []
-- release:
-    id: 76100
-    game_id: 4686
-    description: ""
-    release_date: 19840000
-  names:
-  - id: 181996
-    kind: 3
-    kind_id: 76100
-    language: 1
-    name: Zaviga
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 89170
+      id: 118304
       kind: 3
-      kind_id: 76100
+      kind_id: 4686
       type: 1
       name: zaviga.zip
       description: ""
@@ -175,58 +167,141 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 426247
-      asset_id: 89170
+    - id: 802675
+      asset_id: 118304
       name: as00.4a
       size: 16384
       blob_id: 50837
-    - id: 426248
-      asset_id: 89170
+    - id: 802676
+      asset_id: 118304
       name: as02.7a
       size: 16384
       blob_id: 50838
-    - id: 426249
-      asset_id: 89170
+    - id: 802677
+      asset_id: 118304
       name: as04.10a
       size: 16384
       blob_id: 50839
-    - id: 426250
-      asset_id: 89170
+    - id: 802678
+      asset_id: 118304
       name: as05.13a
       size: 8192
       blob_id: 50840
-    - id: 426251
-      asset_id: 89170
+    - id: 802679
+      asset_id: 118304
       name: as06.7d
       size: 8192
       blob_id: 50841
-    - id: 426252
-      asset_id: 89170
+    - id: 802680
+      asset_id: 118304
       name: as07.9d
       size: 8192
       blob_id: 50842
-    - id: 426253
-      asset_id: 89170
+    - id: 802681
+      asset_id: 118304
       name: as08.10d
       size: 8192
       blob_id: 50843
-    - id: 426254
-      asset_id: 89170
+    - id: 802682
+      asset_id: 118304
       name: as11.1l
       size: 16384
       blob_id: 50844
-    - id: 426255
-      asset_id: 89170
+    - id: 802683
+      asset_id: 118304
       name: as12.1k
       size: 16384
       blob_id: 50845
-    - id: 426256
-      asset_id: 89170
+    - id: 802684
+      asset_id: 118304
       name: as13.1h
       size: 16384
       blob_id: 50846
-    - id: 426257
-      asset_id: 89170
+    - id: 802685
+      asset_id: 118304
+      name: as14.5c
+      size: 4096
+      blob_id: 50847
+- release:
+    id: 102273
+    game_id: 4686
+    description: ""
+    release_date: 19840000
+  names:
+  - id: 236540
+    kind: 3
+    kind_id: 102273
+    language: 1
+    name: Zaviga (Japan)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 118305
+      kind: 3
+      kind_id: 102273
+      type: 1
+      name: zavigaj.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/2671356196
+    entries:
+    - id: 802686
+      asset_id: 118305
+      name: as00.4a
+      size: 16384
+      blob_id: 50837
+    - id: 802687
+      asset_id: 118305
+      name: as02.7a
+      size: 16384
+      blob_id: 50838
+    - id: 802688
+      asset_id: 118305
+      name: as04.10a
+      size: 16384
+      blob_id: 50839
+    - id: 802689
+      asset_id: 118305
+      name: as05.13a
+      size: 8192
+      blob_id: 50840
+    - id: 802690
+      asset_id: 118305
+      name: as06-.7d
+      size: 8192
+      blob_id: 314681
+    - id: 802691
+      asset_id: 118305
+      name: as07.9d
+      size: 8192
+      blob_id: 50842
+    - id: 802692
+      asset_id: 118305
+      name: as08.10d
+      size: 8192
+      blob_id: 50843
+    - id: 802693
+      asset_id: 118305
+      name: as11.1l
+      size: 16384
+      blob_id: 50844
+    - id: 802694
+      asset_id: 118305
+      name: as12.1k
+      size: 16384
+      blob_id: 50845
+    - id: 802695
+      asset_id: 118305
+      name: as13.1h
+      size: 16384
+      blob_id: 50846
+    - id: 802696
+      asset_id: 118305
       name: as14.5c
       size: 4096
       blob_id: 50847

@@ -10,6 +10,18 @@ names:
   language: 1
   name: rambo3
   source: ""
+- id: 195496
+  kind: 2
+  kind_id: 3307
+  language: 1
+  name: Rambo III (Europe, Proto?)
+  source: mame
+- id: 195497
+  kind: 2
+  kind_id: 3307
+  language: 1
+  name: Rambo III (US)
+  source: mame
 game_developers:
 - game_id: 3307
   developer_id: 311
@@ -40,68 +52,6 @@ releases:
   - release_id: 3307
     publisher_id: 56
   assets:
-  - asset:
-      id: 3292
-      kind: 3
-      kind_id: 3307
-      type: 1
-      name: rambo3.zip
-      description: ""
-      format: 2
-      size: 1491725
-      blob_id: 0
-      debug: rambo3.zip
-    entries:
-    - id: 54238
-      asset_id: 3292
-      name: ramb3-01.bin
-      size: 524288
-      blob_id: 35282
-    - id: 54239
-      asset_id: 3292
-      name: ramb3-02.bin
-      size: 524288
-      blob_id: 35283
-    - id: 54240
-      asset_id: 3292
-      name: ramb3-03.bin
-      size: 524288
-      blob_id: 35284
-    - id: 54241
-      asset_id: 3292
-      name: ramb3-04.bin
-      size: 524288
-      blob_id: 35285
-    - id: 54242
-      asset_id: 3292
-      name: ramb3-05.bin
-      size: 524288
-      blob_id: 35286
-    - id: 54243
-      asset_id: 3292
-      name: ramb3-06.bin
-      size: 131072
-      blob_id: 35287
-    - id: 54244
-      asset_id: 3292
-      name: ramb3-07.bin
-      size: 131072
-      blob_id: 35288
-    - id: 54245
-      asset_id: 3292
-      name: ramb3-10.bin
-      size: 65536
-      blob_id: 35289
-    - id: 54246
-      asset_id: 3292
-      name: ramb3-11.bin
-      size: 131072
-      blob_id: 35290
-    - id: 54247
-      asset_id: 3292
-      name: ramb3-14.bin
-      size: 131072
-      blob_id: 35291
   - asset:
       id: 42675
       kind: 3
@@ -362,10 +312,86 @@ releases:
     language: 1
     name: Rambo III (Europe)
     source: mame
-  release_publishers: []
+  - id: 184090
+    kind: 3
+    kind_id: 63169
+    language: 1
+    name: rambo3
+    source: ""
+  - id: 184091
+    kind: 3
+    kind_id: 63169
+    language: 2
+    name: 兰博 Ⅲ (欧版)
+    source: trimui
+  release_publishers:
+  - release_id: 63169
+    publisher_id: 56
   assets:
   - asset:
-      id: 76239
+      id: 3292
+      kind: 3
+      kind_id: 63169
+      type: 1
+      name: rambo3.zip
+      description: ""
+      format: 2
+      size: 1491725
+      blob_id: 0
+      debug: rambo3.zip
+    entries:
+    - id: 54238
+      asset_id: 3292
+      name: ramb3-01.bin
+      size: 524288
+      blob_id: 35282
+    - id: 54239
+      asset_id: 3292
+      name: ramb3-02.bin
+      size: 524288
+      blob_id: 35283
+    - id: 54240
+      asset_id: 3292
+      name: ramb3-03.bin
+      size: 524288
+      blob_id: 35284
+    - id: 54241
+      asset_id: 3292
+      name: ramb3-04.bin
+      size: 524288
+      blob_id: 35285
+    - id: 54242
+      asset_id: 3292
+      name: ramb3-05.bin
+      size: 524288
+      blob_id: 35286
+    - id: 54243
+      asset_id: 3292
+      name: ramb3-06.bin
+      size: 131072
+      blob_id: 35287
+    - id: 54244
+      asset_id: 3292
+      name: ramb3-07.bin
+      size: 131072
+      blob_id: 35288
+    - id: 54245
+      asset_id: 3292
+      name: ramb3-10.bin
+      size: 65536
+      blob_id: 35289
+    - id: 54246
+      asset_id: 3292
+      name: ramb3-11.bin
+      size: 131072
+      blob_id: 35290
+    - id: 54247
+      asset_id: 3292
+      name: ramb3-14.bin
+      size: 131072
+      blob_id: 35291
+  - asset:
+      id: 108872
       kind: 3
       kind_id: 63169
       type: 1
@@ -376,63 +402,290 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 317171
-      asset_id: 76239
+    - id: 710437
+      asset_id: 108872
       name: b93-01.ic1
       size: 524288
       blob_id: 35283
-    - id: 317172
-      asset_id: 76239
+    - id: 710438
+      asset_id: 108872
       name: b93-02.ic2
       size: 524288
       blob_id: 35282
-    - id: 317173
-      asset_id: 76239
+    - id: 710439
+      asset_id: 108872
       name: b93-03.ic3
       size: 524288
       blob_id: 35284
-    - id: 317174
-      asset_id: 76239
+    - id: 710440
+      asset_id: 108872
       name: b93-04.ic4
       size: 524288
       blob_id: 35285
-    - id: 317175
-      asset_id: 76239
+    - id: 710441
+      asset_id: 108872
       name: b93-05.roma.ic46
       size: 524288
       blob_id: 35286
-    - id: 317176
-      asset_id: 76239
+    - id: 710442
+      asset_id: 108872
       name: b93-06-rom1o.ic22
       size: 131072
       blob_id: 35287
-    - id: 317177
-      asset_id: 76239
+    - id: 710443
+      asset_id: 108872
       name: b93-07.rom1e.ic8
       size: 131072
       blob_id: 35288
-    - id: 317178
-      asset_id: 76239
+    - id: 710444
+      asset_id: 108872
       name: b93-08-pal16l8b.ic11
       size: 260
-      blob_id: 164380
-    - id: 317179
-      asset_id: 76239
+      blob_id: 269152
+    - id: 710445
+      asset_id: 108872
       name: b93-09-pal16l8b.ic25
       size: 260
-      blob_id: 164381
-    - id: 317180
-      asset_id: 76239
+      blob_id: 269153
+    - id: 710446
+      asset_id: 108872
       name: b93-10.ic36
       size: 65536
       blob_id: 35289
-    - id: 317181
-      asset_id: 76239
+    - id: 710447
+      asset_id: 108872
       name: b93-11.rom0e.ic9
       size: 131072
       blob_id: 35290
-    - id: 317182
-      asset_id: 76239
+    - id: 710448
+      asset_id: 108872
       name: b93-14.rom0o.ic23
       size: 131072
       blob_id: 35291
+- release:
+    id: 93323
+    game_id: 3307
+    description: ""
+    release_date: 19890000
+  names:
+  - id: 224665
+    kind: 3
+    kind_id: 93323
+    language: 1
+    name: Rambo III (Europe, Proto?)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 108873
+      kind: 3
+      kind_id: 93323
+      type: 1
+      name: rambo3p.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 710449
+      asset_id: 108873
+      name: r3-00.rom
+      size: 65536
+      blob_id: 35292
+    - id: 710450
+      asset_id: 108873
+      name: r3-0e.rom
+      size: 65536
+      blob_id: 35293
+    - id: 710451
+      asset_id: 108873
+      name: r3-0o.rom
+      size: 65536
+      blob_id: 35294
+    - id: 710452
+      asset_id: 108873
+      name: r3-1e.rom
+      size: 131072
+      blob_id: 35295
+    - id: 710453
+      asset_id: 108873
+      name: r3-1o.rom
+      size: 131072
+      blob_id: 35296
+    - id: 710454
+      asset_id: 108873
+      name: r3-a1.rom
+      size: 131072
+      blob_id: 35297
+    - id: 710455
+      asset_id: 108873
+      name: r3-a2.rom
+      size: 131072
+      blob_id: 35298
+    - id: 710456
+      asset_id: 108873
+      name: r3-a3.rom
+      size: 131072
+      blob_id: 35299
+    - id: 710457
+      asset_id: 108873
+      name: r3-a4.rom
+      size: 131072
+      blob_id: 35300
+    - id: 710458
+      asset_id: 108873
+      name: r3-ch0hh.rom
+      size: 131072
+      blob_id: 35301
+    - id: 710459
+      asset_id: 108873
+      name: r3-ch0hl.rom
+      size: 131072
+      blob_id: 35302
+    - id: 710460
+      asset_id: 108873
+      name: r3-ch0lh.rom
+      size: 131072
+      blob_id: 35303
+    - id: 710461
+      asset_id: 108873
+      name: r3-ch0ll.rom
+      size: 131072
+      blob_id: 35304
+    - id: 710462
+      asset_id: 108873
+      name: r3-ch1hh.rom
+      size: 131072
+      blob_id: 35305
+    - id: 710463
+      asset_id: 108873
+      name: r3-ch1hl.rom
+      size: 131072
+      blob_id: 35306
+    - id: 710464
+      asset_id: 108873
+      name: r3-ch1lh.rom
+      size: 131072
+      blob_id: 35307
+    - id: 710465
+      asset_id: 108873
+      name: r3-ch1ll.rom
+      size: 131072
+      blob_id: 35308
+    - id: 710466
+      asset_id: 108873
+      name: r3-ch2hh.rom
+      size: 131072
+      blob_id: 35309
+    - id: 710467
+      asset_id: 108873
+      name: r3-ch2hl.rom
+      size: 131072
+      blob_id: 35310
+    - id: 710468
+      asset_id: 108873
+      name: r3-ch2lh.rom
+      size: 131072
+      blob_id: 35311
+    - id: 710469
+      asset_id: 108873
+      name: r3-ch2ll.rom
+      size: 131072
+      blob_id: 35312
+    - id: 710470
+      asset_id: 108873
+      name: r3-ch3hh.rom
+      size: 131072
+      blob_id: 35313
+    - id: 710471
+      asset_id: 108873
+      name: r3-ch3hl.rom
+      size: 131072
+      blob_id: 35314
+    - id: 710472
+      asset_id: 108873
+      name: r3-ch3lh.rom
+      size: 131072
+      blob_id: 35315
+    - id: 710473
+      asset_id: 108873
+      name: r3-ch3ll.rom
+      size: 131072
+      blob_id: 35316
+- release:
+    id: 93324
+    game_id: 3307
+    description: ""
+    release_date: 19890000
+  names:
+  - id: 224666
+    kind: 3
+    kind_id: 93324
+    language: 1
+    name: Rambo III (US)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 108874
+      kind: 3
+      kind_id: 93324
+      type: 1
+      name: rambo3u.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 710474
+      asset_id: 108874
+      name: ramb3-01.bin
+      size: 524288
+      blob_id: 35282
+    - id: 710475
+      asset_id: 108874
+      name: ramb3-02.bin
+      size: 524288
+      blob_id: 35283
+    - id: 710476
+      asset_id: 108874
+      name: ramb3-03.bin
+      size: 524288
+      blob_id: 35284
+    - id: 710477
+      asset_id: 108874
+      name: ramb3-04.bin
+      size: 524288
+      blob_id: 35285
+    - id: 710478
+      asset_id: 108874
+      name: ramb3-05.bin
+      size: 524288
+      blob_id: 35286
+    - id: 710479
+      asset_id: 108874
+      name: ramb3-06.bin
+      size: 131072
+      blob_id: 35287
+    - id: 710480
+      asset_id: 108874
+      name: ramb3-07.bin
+      size: 131072
+      blob_id: 35288
+    - id: 710481
+      asset_id: 108874
+      name: ramb3-10.bin
+      size: 65536
+      blob_id: 35289
+    - id: 710482
+      asset_id: 108874
+      name: ramb3-11.bin
+      size: 131072
+      blob_id: 35290
+    - id: 710483
+      asset_id: 108874
+      name: ramb3-13.bin
+      size: 131072
+      blob_id: 35317

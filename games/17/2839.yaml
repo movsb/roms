@@ -16,6 +16,24 @@ names:
   language: 2
   name: 我的英雄 (美版, 未加密版)
   source: trimui
+- id: 193715
+  kind: 2
+  kind_id: 2839
+  language: 1
+  name: My Hero (bootleg, 315-5132 encryption)
+  source: mame
+- id: 193716
+  kind: 2
+  kind_id: 2839
+  language: 1
+  name: Cheongchun Ilbeonji (Korea)
+  source: mame
+- id: 199526
+  kind: 2
+  kind_id: 2839
+  language: 1
+  name: Seishun Scandal (315-5132, Japan)
+  source: mame
 game_developers:
 - game_id: 2839
   developer_id: 562
@@ -169,24 +187,10 @@ releases:
       blob_id: 86512
       debug: arcade/wheel/myhero.png
     entries: []
-- release:
-    id: 59388
-    game_id: 2839
-    description: ""
-    release_date: 19850000
-  names:
-  - id: 149187
-    kind: 3
-    kind_id: 59388
-    language: 1
-    name: My Hero (US, not encrypted)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 72458
+      id: 105345
       kind: 3
-      kind_id: 59388
+      kind_id: 2839
       type: 1
       name: myhero.zip
       description: ""
@@ -195,78 +199,358 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 276940
-      asset_id: 72458
+    - id: 671796
+      asset_id: 105345
       name: epr-6921.117
       size: 16384
       blob_id: 30113
-    - id: 276941
-      asset_id: 72458
+    - id: 671797
+      asset_id: 105345
       name: epr-6922.110
       size: 16384
       blob_id: 30114
-    - id: 276942
-      asset_id: 72458
+    - id: 671798
+      asset_id: 105345
       name: epr-6923.04
       size: 16384
       blob_id: 30115
-    - id: 276943
-      asset_id: 72458
+    - id: 671799
+      asset_id: 105345
       name: epr-6924.05
       size: 16384
       blob_id: 30116
-    - id: 276944
-      asset_id: 72458
+    - id: 671800
+      asset_id: 105345
       name: epr-6927.96
       size: 16384
       blob_id: 30117
-    - id: 276945
-      asset_id: 72458
+    - id: 671801
+      asset_id: 105345
       name: epr-6957.65
       size: 8192
       blob_id: 30118
-    - id: 276946
-      asset_id: 72458
+    - id: 671802
+      asset_id: 105345
       name: epr-6958.66
       size: 8192
       blob_id: 30119
-    - id: 276947
-      asset_id: 72458
+    - id: 671803
+      asset_id: 105345
       name: epr-6959.63
       size: 8192
       blob_id: 30120
-    - id: 276948
-      asset_id: 72458
+    - id: 671804
+      asset_id: 105345
       name: epr-6960.64
       size: 8192
       blob_id: 30121
-    - id: 276949
-      asset_id: 72458
+    - id: 671805
+      asset_id: 105345
       name: epr-6961.61
       size: 8192
       blob_id: 30122
-    - id: 276950
-      asset_id: 72458
+    - id: 671806
+      asset_id: 105345
       name: epr-6963b.116
       size: 16384
       blob_id: 30125
-    - id: 276951
-      asset_id: 72458
+    - id: 671807
+      asset_id: 105345
       name: epr-6964a.109
       size: 16384
       blob_id: 30126
-    - id: 276952
-      asset_id: 72458
+    - id: 671808
+      asset_id: 105345
       name: epr-6966.62
       size: 8192
       blob_id: 30123
-    - id: 276953
-      asset_id: 72458
+    - id: 671809
+      asset_id: 105345
       name: epr-69xx.120
       size: 8192
       blob_id: 30124
-    - id: 276954
-      asset_id: 72458
+    - id: 671810
+      asset_id: 105345
+      name: pr-5317.76
+      size: 256
+      blob_id: 668
+- release:
+    id: 89963
+    game_id: 2839
+    description: ""
+    release_date: 19850000
+  names:
+  - id: 219656
+    kind: 3
+    kind_id: 89963
+    language: 1
+    name: My Hero (bootleg, 315-5132 encryption)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 105346
+      kind: 3
+      kind_id: 89963
+      type: 1
+      name: myherobl.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 671811
+      asset_id: 105346
+      name: 1.f2
+      size: 16384
+      blob_id: 259865
+    - id: 671812
+      asset_id: 105346
+      name: 2.g2
+      size: 16384
+      blob_id: 259866
+    - id: 671813
+      asset_id: 105346
+      name: 3.h2
+      size: 16384
+      blob_id: 30117
+    - id: 671814
+      asset_id: 105346
+      name: 4.f4
+      size: 16384
+      blob_id: 30113
+    - id: 671815
+      asset_id: 105346
+      name: "6.e10"
+      size: 8192
+      blob_id: 259867
+    - id: 671816
+      asset_id: 105346
+      name: b11.r7
+      size: 16384
+      blob_id: 259868
+    - id: 671817
+      asset_id: 105346
+      name: b13.r10
+      size: 16384
+      blob_id: 259869
+    - id: 671818
+      asset_id: 105346
+      name: b7.k4
+      size: 16384
+      blob_id: 30116
+    - id: 671819
+      asset_id: 105346
+      name: pr-5317.76
+      size: 256
+      blob_id: 668
+    - id: 671820
+      asset_id: 105346
+      name: prom.a2
+      size: 512
+      blob_id: 259870
+    - id: 671821
+      asset_id: 105346
+      name: x.g4
+      size: 16384
+      blob_id: 30114
+    - id: 671822
+      asset_id: 105346
+      name: x.h4
+      size: 16384
+      blob_id: 30115
+    - id: 671823
+      asset_id: 105346
+      name: x.r8
+      size: 16384
+      blob_id: 259871
+- release:
+    id: 89964
+    game_id: 2839
+    description: ""
+    release_date: 19850000
+  names:
+  - id: 219657
+    kind: 3
+    kind_id: 89964
+    language: 1
+    name: Cheongchun Ilbeonji (Korea)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 105347
+      kind: 3
+      kind_id: 89964
+      type: 1
+      name: myherok.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 671824
+      asset_id: 105347
+      name: epr-6921.117
+      size: 16384
+      blob_id: 30113
+    - id: 671825
+      asset_id: 105347
+      name: epr-6922.110
+      size: 16384
+      blob_id: 30114
+    - id: 671826
+      asset_id: 105347
+      name: epr-6923.04
+      size: 16384
+      blob_id: 30115
+    - id: 671827
+      asset_id: 105347
+      name: epr-6924.05
+      size: 16384
+      blob_id: 30116
+    - id: 671828
+      asset_id: 105347
+      name: epr-6934.120
+      size: 8192
+      blob_id: 259867
+    - id: 671829
+      asset_id: 105347
+      name: pr-5317.76
+      size: 256
+      blob_id: 668
+    - id: 671830
+      asset_id: 105347
+      name: ry-02.rom
+      size: 16384
+      blob_id: 259872
+    - id: 671831
+      asset_id: 105347
+      name: ry-03.rom
+      size: 16384
+      blob_id: 259873
+    - id: 671832
+      asset_id: 105347
+      name: ry-04.rom
+      size: 16384
+      blob_id: 259874
+    - id: 671833
+      asset_id: 105347
+      name: ry-07.rom
+      size: 16384
+      blob_id: 259875
+    - id: 671834
+      asset_id: 105347
+      name: ry-09.rom
+      size: 16384
+      blob_id: 259876
+    - id: 671835
+      asset_id: 105347
+      name: ry-11.rom
+      size: 16384
+      blob_id: 259877
+- release:
+    id: 98600
+    game_id: 2839
+    description: ""
+    release_date: 19850000
+  names:
+  - id: 231314
+    kind: 3
+    kind_id: 98600
+    language: 1
+    name: Seishun Scandal (315-5132, Japan)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 114367
+      kind: 3
+      kind_id: 98600
+      type: 1
+      name: sscandal.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/3898698228
+    entries:
+    - id: 755718
+      asset_id: 114367
+      name: epr-6921.117
+      size: 16384
+      blob_id: 30113
+    - id: 755719
+      asset_id: 114367
+      name: epr-6922.110
+      size: 16384
+      blob_id: 30114
+    - id: 755720
+      asset_id: 114367
+      name: epr-6923.04
+      size: 16384
+      blob_id: 30115
+    - id: 755721
+      asset_id: 114367
+      name: epr-6924.05
+      size: 16384
+      blob_id: 30116
+    - id: 755722
+      asset_id: 114367
+      name: epr-6925b.116
+      size: 16384
+      blob_id: 302875
+    - id: 755723
+      asset_id: 114367
+      name: epr-6926a.109
+      size: 16384
+      blob_id: 302876
+    - id: 755724
+      asset_id: 114367
+      name: epr-6927.96
+      size: 16384
+      blob_id: 30117
+    - id: 755725
+      asset_id: 114367
+      name: epr-6928.65
+      size: 8192
+      blob_id: 302877
+    - id: 755726
+      asset_id: 114367
+      name: epr-6929.66
+      size: 8192
+      blob_id: 302878
+    - id: 755727
+      asset_id: 114367
+      name: epr-6930.63
+      size: 8192
+      blob_id: 302879
+    - id: 755728
+      asset_id: 114367
+      name: epr-6931.64
+      size: 8192
+      blob_id: 302880
+    - id: 755729
+      asset_id: 114367
+      name: epr-6932.61
+      size: 8192
+      blob_id: 302881
+    - id: 755730
+      asset_id: 114367
+      name: epr-6933.62
+      size: 8192
+      blob_id: 302882
+    - id: 755731
+      asset_id: 114367
+      name: epr-6934.120
+      size: 8192
+      blob_id: 259867
+    - id: 755732
+      asset_id: 114367
       name: pr-5317.76
       size: 256
       blob_id: 668

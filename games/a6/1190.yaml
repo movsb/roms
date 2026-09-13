@@ -10,6 +10,18 @@ names:
   language: 1
   name: crshrace
   source: ""
+- id: 189331
+  kind: 2
+  kind_id: 1190
+  language: 1
+  name: Lethal Crash Race / Bakuretsu Crash Race (set 2)
+  source: mame
+- id: 189332
+  kind: 2
+  kind_id: 1190
+  language: 1
+  name: Lethal Crash Race / Bakuretsu Crash Race (set 2, alternate sound ROM)
+  source: mame
 game_developers:
 - game_id: 1190
   developer_id: 418
@@ -148,6 +160,78 @@ releases:
       blob_id: 88531
       debug: arcade/wheel/crshrace.png
     entries: []
+  - asset:
+      id: 96718
+      kind: 3
+      kind_id: 1190
+      type: 1
+      name: crshrace.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 574044
+      asset_id: 96718
+      name: 1.ic10
+      size: 524288
+      blob_id: 12792
+    - id: 574045
+      asset_id: 96718
+      name: 2.ic58
+      size: 131072
+      blob_id: 12793
+    - id: 574046
+      asset_id: 96718
+      name: h893.ic69
+      size: 1048576
+      blob_id: 12794
+    - id: 574047
+      asset_id: 96718
+      name: h894.ic73
+      size: 1048576
+      blob_id: 12795
+    - id: 574048
+      asset_id: 96718
+      name: h895.ic50
+      size: 1048576
+      blob_id: 12796
+    - id: 574049
+      asset_id: 96718
+      name: h896.ic75
+      size: 2097152
+      blob_id: 12797
+    - id: 574050
+      asset_id: 96718
+      name: h897.ic29
+      size: 2097152
+      blob_id: 12798
+    - id: 574051
+      asset_id: 96718
+      name: w18.rom-a
+      size: 1048576
+      blob_id: 12799
+    - id: 574052
+      asset_id: 96718
+      name: w19.rom-b
+      size: 1048576
+      blob_id: 12800
+    - id: 574053
+      asset_id: 96718
+      name: w20.rom-c
+      size: 1048576
+      blob_id: 12801
+    - id: 574054
+      asset_id: 96718
+      name: w21.ic14
+      size: 1048576
+      blob_id: 12802
+    - id: 574055
+      asset_id: 96718
+      name: w22.ic13
+      size: 1048576
+      blob_id: 12803
 - release:
     id: 1191
     game_id: 1190
@@ -251,88 +335,174 @@ releases:
       size: 1048576
       blob_id: 12803
 - release:
-    id: 39967
+    id: 81930
     game_id: 1190
     description: ""
     release_date: 19930000
   names:
-  - id: 110897
+  - id: 207321
     kind: 3
-    kind_id: 39967
+    kind_id: 81930
     language: 1
-    name: Lethal Crash Race / Bakuretsu Crash Race (set 1)
+    name: Lethal Crash Race / Bakuretsu Crash Race (set 2)
     source: mame
   release_publishers: []
   assets:
   - asset:
-      id: 53037
+      id: 96719
       kind: 3
-      kind_id: 39967
+      kind_id: 81930
       type: 1
-      name: crshrace.zip
+      name: crshrace2.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 136677
-      asset_id: 53037
-      name: 1.ic10
+    - id: 574056
+      asset_id: 96719
+      name: 01.ic10
       size: 524288
-      blob_id: 12792
-    - id: 136678
-      asset_id: 53037
+      blob_id: 12804
+    - id: 574057
+      asset_id: 96719
       name: 2.ic58
       size: 131072
       blob_id: 12793
-    - id: 136679
-      asset_id: 53037
+    - id: 574058
+      asset_id: 96719
       name: h893.ic69
       size: 1048576
       blob_id: 12794
-    - id: 136680
-      asset_id: 53037
+    - id: 574059
+      asset_id: 96719
       name: h894.ic73
       size: 1048576
       blob_id: 12795
-    - id: 136681
-      asset_id: 53037
+    - id: 574060
+      asset_id: 96719
       name: h895.ic50
       size: 1048576
       blob_id: 12796
-    - id: 136682
-      asset_id: 53037
+    - id: 574061
+      asset_id: 96719
       name: h896.ic75
       size: 2097152
       blob_id: 12797
-    - id: 136683
-      asset_id: 53037
+    - id: 574062
+      asset_id: 96719
       name: h897.ic29
       size: 2097152
       blob_id: 12798
-    - id: 136684
-      asset_id: 53037
+    - id: 574063
+      asset_id: 96719
       name: w18.rom-a
       size: 1048576
       blob_id: 12799
-    - id: 136685
-      asset_id: 53037
+    - id: 574064
+      asset_id: 96719
       name: w19.rom-b
       size: 1048576
       blob_id: 12800
-    - id: 136686
-      asset_id: 53037
+    - id: 574065
+      asset_id: 96719
       name: w20.rom-c
       size: 1048576
       blob_id: 12801
-    - id: 136687
-      asset_id: 53037
+    - id: 574066
+      asset_id: 96719
       name: w21.ic14
       size: 1048576
       blob_id: 12802
-    - id: 136688
-      asset_id: 53037
+    - id: 574067
+      asset_id: 96719
+      name: w22.ic13
+      size: 1048576
+      blob_id: 12803
+- release:
+    id: 81931
+    game_id: 1190
+    description: ""
+    release_date: 19930000
+  names:
+  - id: 207322
+    kind: 3
+    kind_id: 81931
+    language: 1
+    name: Lethal Crash Race / Bakuretsu Crash Race (set 2, alternate sound ROM)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 96720
+      kind: 3
+      kind_id: 81931
+      type: 1
+      name: crshrace2a.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 574068
+      asset_id: 96720
+      name: 01.ic10
+      size: 524288
+      blob_id: 12804
+    - id: 574069
+      asset_id: 96720
+      name: 2.ic58
+      size: 131072
+      blob_id: 12805
+    - id: 574070
+      asset_id: 96720
+      name: h893.ic69
+      size: 1048576
+      blob_id: 12794
+    - id: 574071
+      asset_id: 96720
+      name: h894.ic73
+      size: 1048576
+      blob_id: 12795
+    - id: 574072
+      asset_id: 96720
+      name: h895.ic50
+      size: 1048576
+      blob_id: 12796
+    - id: 574073
+      asset_id: 96720
+      name: h896.ic75
+      size: 2097152
+      blob_id: 12797
+    - id: 574074
+      asset_id: 96720
+      name: h897.ic29
+      size: 2097152
+      blob_id: 12798
+    - id: 574075
+      asset_id: 96720
+      name: w18.rom-a
+      size: 1048576
+      blob_id: 12799
+    - id: 574076
+      asset_id: 96720
+      name: w19.rom-b
+      size: 1048576
+      blob_id: 12800
+    - id: 574077
+      asset_id: 96720
+      name: w20.rom-c
+      size: 1048576
+      blob_id: 12801
+    - id: 574078
+      asset_id: 96720
+      name: w21.ic14
+      size: 1048576
+      blob_id: 12802
+    - id: 574079
+      asset_id: 96720
       name: w22.ic13
       size: 1048576
       blob_id: 12803

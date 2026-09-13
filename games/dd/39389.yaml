@@ -10,6 +10,72 @@ names:
   language: 1
   name: Color Computer 1/2
   source: mame
+- id: 188933
+  kind: 2
+  kind_id: 39389
+  language: 1
+  name: CD-6809
+  source: mame
+- id: 189180
+  kind: 2
+  kind_id: 39389
+  language: 1
+  name: Color Computer 2B
+  source: mame
+- id: 189181
+  kind: 2
+  kind_id: 39389
+  language: 1
+  name: Color Computer 3 (NTSC)
+  source: mame
+- id: 189182
+  kind: 2
+  kind_id: 39389
+  language: 1
+  name: Color Computer 3 (PAL)
+  source: mame
+- id: 189278
+  kind: 2
+  kind_id: 39389
+  language: 1
+  name: CP400
+  source: mame
+- id: 189720
+  kind: 2
+  kind_id: 39389
+  language: 1
+  name: Deluxe Color Computer
+  source: mame
+- id: 192784
+  kind: 2
+  kind_id: 39389
+  language: 1
+  name: Color64
+  source: mame
+- id: 193545
+  kind: 2
+  kind_id: 39389
+  language: 1
+  name: Micro-SEP 1600
+  source: mame
+- id: 193584
+  kind: 2
+  kind_id: 39389
+  language: 1
+  name: Micro-Sep Model 3
+  source: mame
+- id: 193709
+  kind: 2
+  kind_id: 39389
+  language: 1
+  name: MX-1600
+  source: mame
+- id: 199897
+  kind: 2
+  kind_id: 39389
+  language: 1
+  name: Terco 4426 CNC Programming station
+  source: mame
 game_developers: []
 game_genres: []
 assets: []
@@ -29,7 +95,44 @@ releases:
   release_publishers: []
   assets:
   - asset:
-      id: 52674
+      id: 90626
+      kind: 3
+      kind_id: 39604
+      type: 1
+      name: coco.zip
+      description: ""
+      format: 2
+      size: 36592
+      blob_id: 0
+      debug: /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/756331701
+    entries:
+    - id: 467369
+      asset_id: 90626
+      name: bas10.rom
+      size: 8192
+      blob_id: 209479
+    - id: 467370
+      asset_id: 90626
+      name: bas11.rom
+      size: 8192
+      blob_id: 209480
+    - id: 467371
+      asset_id: 90626
+      name: bas12.rom
+      size: 8192
+      blob_id: 209481
+    - id: 467372
+      asset_id: 90626
+      name: extbas10.rom
+      size: 8192
+      blob_id: 209482
+    - id: 467373
+      asset_id: 90626
+      name: extbas11.rom
+      size: 8192
+      blob_id: 209483
+  - asset:
+      id: 96373
       kind: 3
       kind_id: 39604
       type: 1
@@ -40,78 +143,570 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 133221
-      asset_id: 52674
+    - id: 570875
+      asset_id: 96373
       name: bas10.rom
       size: 8192
-      blob_id: 104872
-    - id: 133222
-      asset_id: 52674
+      blob_id: 209479
+    - id: 570878
+      asset_id: 96373
+      name: bas11.rom
+      size: 8192
+      blob_id: 209480
+    - id: 570881
+      asset_id: 96373
+      name: bas12.rom
+      size: 8192
+      blob_id: 209481
+    - id: 570884
+      asset_id: 96373
+      name: extbas10.rom
+      size: 8192
+      blob_id: 209482
+    - id: 570887
+      asset_id: 96373
+      name: extbas11.rom
+      size: 8192
+      blob_id: 209483
+- release:
+    id: 81614
+    game_id: 39389
+    description: ""
+    release_date: 0
+  names:
+  - id: 206818
+    kind: 3
+    kind_id: 81614
+    language: 1
+    name: Color Computer 2B
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 96374
+      kind: 3
+      kind_id: 81614
+      type: 1
+      name: coco2b.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 570890
+      asset_id: 96374
+      name: bas13.rom
+      size: 8192
+      blob_id: 242391
+    - id: 570891
+      asset_id: 96374
+      name: extbas11.rom
+      size: 8192
+      blob_id: 209483
+- release:
+    id: 81615
+    game_id: 39389
+    description: ""
+    release_date: 0
+  names:
+  - id: 206819
+    kind: 3
+    kind_id: 81615
+    language: 1
+    name: Color Computer 2B (HD6309)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 96375
+      kind: 3
+      kind_id: 81615
+      type: 1
+      name: coco2bh.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 570892
+      asset_id: 96375
+      name: bas13.rom
+      size: 8192
+      blob_id: 242391
+    - id: 570893
+      asset_id: 96375
+      name: extbas11.rom
+      size: 8192
+      blob_id: 209483
+- release:
+    id: 81616
+    game_id: 39389
+    description: ""
+    release_date: 19860000
+  names:
+  - id: 206820
+    kind: 3
+    kind_id: 81616
+    language: 1
+    name: Color Computer 3 (NTSC)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 96376
+      kind: 3
+      kind_id: 81616
+      type: 1
+      name: coco3.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 570894
+      asset_id: 96376
+      name: coco3.rom
+      size: 32768
+      blob_id: 209484
+- release:
+    id: 81617
+    game_id: 39389
+    description: ""
+    release_date: 0
+  names:
+  - id: 206821
+    kind: 3
+    kind_id: 81617
+    language: 1
+    name: Color Computer 3 (NTSC; HD6309)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 96377
+      kind: 3
+      kind_id: 81617
+      type: 1
+      name: coco3h.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 570895
+      asset_id: 96377
+      name: coco3.rom
+      size: 32768
+      blob_id: 209484
+- release:
+    id: 81618
+    game_id: 39389
+    description: ""
+    release_date: 19860000
+  names:
+  - id: 206822
+    kind: 3
+    kind_id: 81618
+    language: 1
+    name: Color Computer 3 (PAL)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 96378
+      kind: 3
+      kind_id: 81618
+      type: 1
+      name: coco3p.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 570896
+      asset_id: 96378
+      name: coco3p.rom
+      size: 32768
+      blob_id: 209485
+- release:
+    id: 81619
+    game_id: 39389
+    description: ""
+    release_date: 0
+  names:
+  - id: 206823
+    kind: 3
+    kind_id: 81619
+    language: 1
+    name: Color Computer 1/2 (HD6309)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 96379
+      kind: 3
+      kind_id: 81619
+      type: 1
+      name: cocoh.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 570897
+      asset_id: 96379
       name: bas10.rom
       size: 8192
-      blob_id: 104872
-    - id: 133223
-      asset_id: 52674
-      name: bas10.rom
-      size: 8192
-      blob_id: 104872
-    - id: 133224
-      asset_id: 52674
+      blob_id: 209479
+    - id: 570900
+      asset_id: 96379
       name: bas11.rom
       size: 8192
-      blob_id: 104873
-    - id: 133225
-      asset_id: 52674
-      name: bas11.rom
-      size: 8192
-      blob_id: 104873
-    - id: 133226
-      asset_id: 52674
-      name: bas11.rom
-      size: 8192
-      blob_id: 104873
-    - id: 133227
-      asset_id: 52674
+      blob_id: 209480
+    - id: 570903
+      asset_id: 96379
       name: bas12.rom
       size: 8192
-      blob_id: 104874
-    - id: 133228
-      asset_id: 52674
-      name: bas12.rom
-      size: 8192
-      blob_id: 104874
-    - id: 133229
-      asset_id: 52674
-      name: bas12.rom
-      size: 8192
-      blob_id: 104874
-    - id: 133230
-      asset_id: 52674
+      blob_id: 209481
+    - id: 570906
+      asset_id: 96379
       name: extbas10.rom
       size: 8192
-      blob_id: 104875
-    - id: 133231
-      asset_id: 52674
-      name: extbas10.rom
-      size: 8192
-      blob_id: 104875
-    - id: 133232
-      asset_id: 52674
-      name: extbas10.rom
-      size: 8192
-      blob_id: 104875
-    - id: 133233
-      asset_id: 52674
+      blob_id: 209482
+    - id: 570909
+      asset_id: 96379
       name: extbas11.rom
       size: 8192
-      blob_id: 104876
-    - id: 133234
-      asset_id: 52674
-      name: extbas11.rom
+      blob_id: 209483
+- release:
+    id: 81824
+    game_id: 39389
+    description: ""
+    release_date: 19830000
+  names:
+  - id: 207160
+    kind: 3
+    kind_id: 81824
+    language: 1
+    name: CP400
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 96604
+      kind: 3
+      kind_id: 81824
+      type: 1
+      name: cp400.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 572941
+      asset_id: 96604
+      name: cp400bas.rom
+      size: 16384
+      blob_id: 210021
+- release:
+    id: 81825
+    game_id: 39389
+    description: ""
+    release_date: 19850000
+  names:
+  - id: 207161
+    kind: 3
+    kind_id: 81825
+    language: 1
+    name: CP400 Color II
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 96605
+      kind: 3
+      kind_id: 81825
+      type: 1
+      name: cp400c2.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 572942
+      asset_id: 96605
+      name: cp400bas.rom
+      size: 16384
+      blob_id: 210021
+- release:
+    id: 82580
+    game_id: 39389
+    description: ""
+    release_date: 19830000
+  names:
+  - id: 208260
+    kind: 3
+    kind_id: 82580
+    language: 1
+    name: Deluxe Color Computer
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 97424
+      kind: 3
+      kind_id: 82580
+      type: 1
+      name: deluxecoco.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 585387
+      asset_id: 97424
+      name: adv070_u24.rom
       size: 8192
-      blob_id: 104876
-    - id: 133235
-      asset_id: 52674
-      name: extbas11.rom
+      blob_id: 211975
+    - id: 585388
+      asset_id: 97424
+      name: adv071_u24.rom
       size: 8192
-      blob_id: 104876
+      blob_id: 211976
+    - id: 585389
+      asset_id: 97424
+      name: adv072_u24.rom
+      size: 8192
+      blob_id: 211977
+    - id: 585390
+      asset_id: 97424
+      name: adv073-2_u24.rom
+      size: 8192
+      blob_id: 211978
+- release:
+    id: 88093
+    game_id: 39389
+    description: ""
+    release_date: 19830000
+  names:
+  - id: 216765
+    kind: 3
+    kind_id: 88093
+    language: 1
+    name: Color64
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 103383
+      kind: 3
+      kind_id: 88093
+      type: 1
+      name: lzcolor64.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 652979
+      asset_id: 103383
+      name: color_basic.ci24
+      size: 8192
+      blob_id: 229471
+    - id: 652980
+      asset_id: 103383
+      name: extendido.ci23
+      size: 8192
+      blob_id: 229472
+- release:
+    id: 89604
+    game_id: 39389
+    description: ""
+    release_date: 19870000
+  names:
+  - id: 219097
+    kind: 3
+    kind_id: 89604
+    language: 1
+    name: Micro-SEP 1600
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 104977
+      kind: 3
+      kind_id: 89604
+      type: 1
+      name: ms1600.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 667736
+      asset_id: 104977
+      name: ms1600.rom
+      size: 32768
+      blob_id: 258830
+- release:
+    id: 89664
+    game_id: 39389
+    description: ""
+    release_date: 19870000
+  names:
+  - id: 219181
+    kind: 3
+    kind_id: 89664
+    language: 1
+    name: Micro-Sep Model 3
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 105038
+      kind: 3
+      kind_id: 89664
+      type: 1
+      name: msm3.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 668685
+      asset_id: 105038
+      name: msm3.rom
+      size: 32768
+      blob_id: 258960
+- release:
+    id: 89939
+    game_id: 39389
+    description: ""
+    release_date: 19840000
+  names:
+  - id: 219615
+    kind: 3
+    kind_id: 89939
+    language: 1
+    name: MX-1600
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 105320
+      kind: 3
+      kind_id: 89939
+      type: 1
+      name: mx1600.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 671679
+      asset_id: 105320
+      name: mx1600bas.rom
+      size: 8192
+      blob_id: 259777
+    - id: 671680
+      asset_id: 105320
+      name: mx1600extbas.rom
+      size: 8192
+      blob_id: 259778
+- release:
+    id: 99239
+    game_id: 39389
+    description: ""
+    release_date: 19860000
+  names:
+  - id: 232205
+    kind: 3
+    kind_id: 99239
+    language: 1
+    name: Terco 4426 CNC Programming station
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 115075
+      kind: 3
+      kind_id: 99239
+      type: 1
+      name: t4426.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/1379355290
+    entries:
+    - id: 764446
+      asset_id: 115075
+      name: soft4426-u13-1.2.bin
+      size: 8192
+      blob_id: 305283
+    - id: 764447
+      asset_id: 115075
+      name: soft4426-u14-1.2.bin
+      size: 8192
+      blob_id: 305284
+- release:
+    id: 103599
+    game_id: 39389
+    description: ""
+    release_date: 19830000
+  names:
+  - id: 238575
+    kind: 3
+    kind_id: 103599
+    language: 1
+    name: CD-6809
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 95862
+      kind: 3
+      kind_id: 103599
+      type: 1
+      name: cd6809.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 564901
+      asset_id: 95862
+      name: cd6809bas83.rom
+      size: 8192
+      blob_id: 208203
+    - id: 564902
+      asset_id: 95862
+      name: cd6809bas84.rom
+      size: 8192
+      blob_id: 208204
+    - id: 564903
+      asset_id: 95862
+      name: cd6809extbas83.rom
+      size: 8192
+      blob_id: 208205
+    - id: 564904
+      asset_id: 95862
+      name: cd6809extbas84.rom
+      size: 8192
+      blob_id: 208206

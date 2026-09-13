@@ -16,6 +16,12 @@ names:
   language: 2
   name: "麒麟 - OS 战警 (世界版)"
   source: trimui
+- id: 188807
+  kind: 2
+  kind_id: 3003
+  language: 1
+  name: Cannon Dancer (Japan)
+  source: mame
 game_developers: []
 game_genres: []
 assets: []
@@ -102,24 +108,10 @@ releases:
       name: eeprom-osman.bin
       size: 128
       blob_id: 31765
-- release:
-    id: 60207
-    game_id: 3003
-    description: ""
-    release_date: 19960000
-  names:
-  - id: 150776
-    kind: 3
-    kind_id: 60207
-    language: 1
-    name: Osman (World)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 73277
+      id: 106105
       kind: 3
-      kind_id: 60207
+      kind_id: 3003
       type: 1
       name: osman.zip
       description: ""
@@ -128,48 +120,119 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 286059
-      asset_id: 73277
+    - id: 680380
+      asset_id: 106105
       name: eeprom-osman.bin
       size: 128
       blob_id: 31765
-    - id: 286060
-      asset_id: 73277
+    - id: 680381
+      asset_id: 106105
       name: mcf-00.9a
       size: 2097152
       blob_id: 31757
-    - id: 286061
-      asset_id: 73277
+    - id: 680382
+      asset_id: 106105
       name: mcf-01.13a
       size: 2097152
       blob_id: 31758
-    - id: 286062
-      asset_id: 73277
+    - id: 680383
+      asset_id: 106105
       name: mcf-02.14a
       size: 2097152
       blob_id: 31759
-    - id: 286063
-      asset_id: 73277
+    - id: 680384
+      asset_id: 106105
       name: mcf-03.14d
       size: 2097152
       blob_id: 31760
-    - id: 286064
-      asset_id: 73277
+    - id: 680385
+      asset_id: 106105
       name: mcf-04.14h
       size: 2097152
       blob_id: 31761
-    - id: 286065
-      asset_id: 73277
+    - id: 680386
+      asset_id: 106105
       name: mcf-05.12f
       size: 2097152
       blob_id: 31762
-    - id: 286066
-      asset_id: 73277
+    - id: 680387
+      asset_id: 106105
       name: sa00-0.1e
       size: 524288
       blob_id: 31763
-    - id: 286067
-      asset_id: 73277
+    - id: 680388
+      asset_id: 106105
+      name: sa01-0.13h
+      size: 262144
+      blob_id: 31764
+- release:
+    id: 103546
+    game_id: 3003
+    description: ""
+    release_date: 19960000
+  names:
+  - id: 238522
+    kind: 3
+    kind_id: 103546
+    language: 1
+    name: Cannon Dancer (Japan)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 95625
+      kind: 3
+      kind_id: 103546
+      type: 1
+      name: candance.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 562194
+      asset_id: 95625
+      name: eeprom-candance.bin
+      size: 128
+      blob_id: 31756
+    - id: 562195
+      asset_id: 95625
+      name: mcf-00.9a
+      size: 2097152
+      blob_id: 31757
+    - id: 562196
+      asset_id: 95625
+      name: mcf-01.13a
+      size: 2097152
+      blob_id: 31758
+    - id: 562197
+      asset_id: 95625
+      name: mcf-02.14a
+      size: 2097152
+      blob_id: 31759
+    - id: 562198
+      asset_id: 95625
+      name: mcf-03.14d
+      size: 2097152
+      blob_id: 31760
+    - id: 562199
+      asset_id: 95625
+      name: mcf-04.14h
+      size: 2097152
+      blob_id: 31761
+    - id: 562200
+      asset_id: 95625
+      name: mcf-05.12f
+      size: 2097152
+      blob_id: 31762
+    - id: 562201
+      asset_id: 95625
+      name: sa00-0.1e
+      size: 524288
+      blob_id: 31763
+    - id: 562202
+      asset_id: 95625
       name: sa01-0.13h
       size: 262144
       blob_id: 31764

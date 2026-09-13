@@ -16,6 +16,12 @@ names:
   language: 2
   name: 赛车杀阵
   source: trimui
+- id: 199932
+  kind: 2
+  kind_id: 519
+  language: 1
+  name: Targ (cocktail?)
+  source: mame
 game_developers:
 - game_id: 519
   developer_id: 569
@@ -124,79 +130,145 @@ releases:
       blob_id: 91292
       debug: arcade/wheel/targ.png
     entries: []
-- release:
-    id: 72720
-    game_id: 519
-    description: ""
-    release_date: 19800000
-  names:
-  - id: 175407
-    kind: 3
-    kind_id: 72720
-    language: 1
-    name: Targ
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 85790
+      id: 115182
       kind: 3
-      kind_id: 72720
+      kind_id: 519
       type: 1
       name: targ.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
-      debug: dat:mame:0.289
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/1566108261
     entries:
-    - id: 387346
-      asset_id: 85790
+    - id: 765106
+      asset_id: 115182
       name: hra2b-1
       size: 32
-      blob_id: 188695
-    - id: 387347
-      asset_id: 85790
+      blob_id: 305526
+    - id: 765107
+      asset_id: 115182
       name: hrl_10a1.10a
       size: 2048
       blob_id: 4580
-    - id: 387348
-      asset_id: 85790
+    - id: 765108
+      asset_id: 115182
       name: hrl_11d-1.11d
       size: 1024
       blob_id: 4581
-    - id: 387349
-      asset_id: 85790
+    - id: 765109
+      asset_id: 115182
       name: hrl_14h-1.14h
       size: 32
-      blob_id: 115586
-    - id: 387350
-      asset_id: 85790
+      blob_id: 216737
+    - id: 765110
+      asset_id: 115182
       name: hrl_5c-1.5c
       size: 256
-      blob_id: 188696
-    - id: 387351
-      asset_id: 85790
+      blob_id: 305527
+    - id: 765111
+      asset_id: 115182
       name: hrl_6a3.6a
       size: 2048
       blob_id: 4576
-    - id: 387352
-      asset_id: 85790
+    - id: 765112
+      asset_id: 115182
       name: hrl_7a4.7a
       size: 2048
       blob_id: 4577
-    - id: 387353
-      asset_id: 85790
+    - id: 765113
+      asset_id: 115182
       name: hrl_8a1.8a
       size: 2048
       blob_id: 4578
-    - id: 387354
-      asset_id: 85790
+    - id: 765114
+      asset_id: 115182
       name: hrl_9a1.9a
       size: 2048
       blob_id: 4579
-    - id: 387355
-      asset_id: 85790
+    - id: 765115
+      asset_id: 115182
       name: stl_6d-1.6d
       size: 32
-      blob_id: 152196
+      blob_id: 259297
+- release:
+    id: 99338
+    game_id: 519
+    description: ""
+    release_date: 19800000
+  names:
+  - id: 232370
+    kind: 3
+    kind_id: 99338
+    language: 1
+    name: Targ (cocktail?)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 115183
+      kind: 3
+      kind_id: 99338
+      type: 1
+      name: targc.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/202001279
+    entries:
+    - id: 765116
+      asset_id: 115183
+      name: 358_ctl_10a-1_tsv_11-10-80.10a
+      size: 2048
+      blob_id: 305528
+    - id: 765117
+      asset_id: 115183
+      name: 358_ctl_6a-1_tsv_11-10-80.6a
+      size: 2048
+      blob_id: 305529
+    - id: 765118
+      asset_id: 115183
+      name: 358_ctl_7a-1_tsv_11-10-80.7a
+      size: 2048
+      blob_id: 305530
+    - id: 765119
+      asset_id: 115183
+      name: 358_ctl_8a-1_tsv_11-10-80.8a
+      size: 2048
+      blob_id: 305531
+    - id: 765120
+      asset_id: 115183
+      name: 358_ctl_9a-1_tsv_11-10-80.9a
+      size: 2048
+      blob_id: 305532
+    - id: 765121
+      asset_id: 115183
+      name: hra2b-1
+      size: 32
+      blob_id: 305526
+    - id: 765122
+      asset_id: 115183
+      name: hrl_11d-1.11d
+      size: 1024
+      blob_id: 4581
+    - id: 765123
+      asset_id: 115183
+      name: hrl_14h-1.14h
+      size: 32
+      blob_id: 216737
+    - id: 765124
+      asset_id: 115183
+      name: hrl_5c-1.5c
+      size: 256
+      blob_id: 305527
+    - id: 765125
+      asset_id: 115183
+      name: stl_6d-1.6d
+      size: 32
+      blob_id: 259297

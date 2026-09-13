@@ -16,6 +16,24 @@ names:
   language: 2
   name: 超级篮球 (版本 I, 加密版)
   source: trimui
+- id: 195993
+  kind: 2
+  kind_id: 445
+  language: 1
+  name: Super Basketball (version E, encrypted)
+  source: mame
+- id: 195994
+  kind: 2
+  kind_id: 445
+  language: 1
+  name: Super Basketball (version G, encrypted)
+  source: mame
+- id: 195995
+  kind: 2
+  kind_id: 445
+  language: 1
+  name: Super Basketball (version H, unprotected)
+  source: mame
 game_developers:
 - game_id: 445
   developer_id: 2
@@ -189,24 +207,10 @@ releases:
       blob_id: 89384
       debug: arcade/wheel/sbasketb.png
     entries: []
-- release:
-    id: 64106
-    game_id: 445
-    description: ""
-    release_date: 19840000
-  names:
-  - id: 158387
-    kind: 3
-    kind_id: 64106
-    language: 1
-    name: Super Basketball (version I, encrypted)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 77176
+      id: 109723
       kind: 3
-      kind_id: 64106
+      kind_id: 445
       type: 1
       name: sbasketb.zip
       description: ""
@@ -215,73 +219,411 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 330523
-      asset_id: 77176
+    - id: 722721
+      asset_id: 109723
       name: 405e12.22f
       size: 16384
       blob_id: 3898
-    - id: 330524
-      asset_id: 77176
+    - id: 722722
+      asset_id: 109723
       name: 405e13.7a
       size: 8192
       blob_id: 3899
-    - id: 330525
-      asset_id: 77176
+    - id: 722723
+      asset_id: 109723
       name: 405e15.11f
       size: 8192
       blob_id: 3900
-    - id: 330526
-      asset_id: 77176
+    - id: 722724
+      asset_id: 109723
       name: 405e16.4a
       size: 256
       blob_id: 3901
-    - id: 330527
-      asset_id: 77176
+    - id: 722725
+      asset_id: 109723
       name: 405e17.5a
       size: 256
       blob_id: 3902
-    - id: 330528
-      asset_id: 77176
+    - id: 722726
+      asset_id: 109723
       name: 405e18.6a
       size: 256
       blob_id: 3903
-    - id: 330529
-      asset_id: 77176
+    - id: 722727
+      asset_id: 109723
       name: 405e19.16d
       size: 256
       blob_id: 3904
-    - id: 330530
-      asset_id: 77176
+    - id: 722728
+      asset_id: 109723
       name: 405e20.19d
       size: 256
       blob_id: 3905
-    - id: 330531
-      asset_id: 77176
+    - id: 722729
+      asset_id: 109723
       name: 405g05.14j
       size: 8192
       blob_id: 3910
-    - id: 330532
-      asset_id: 77176
+    - id: 722730
+      asset_id: 109723
       name: 405h06.14g
       size: 16384
-      blob_id: 167383
-    - id: 330533
-      asset_id: 77176
+      blob_id: 271866
+    - id: 722731
+      asset_id: 109723
       name: 405h08.17g
       size: 16384
-      blob_id: 167384
-    - id: 330534
-      asset_id: 77176
+      blob_id: 271867
+    - id: 722732
+      asset_id: 109723
       name: 405h10.20g
       size: 16384
-      blob_id: 167385
-    - id: 330535
-      asset_id: 77176
+      blob_id: 271868
+    - id: 722733
+      asset_id: 109723
       name: 405i01.9j
       size: 16384
-      blob_id: 167386
-    - id: 330536
-      asset_id: 77176
+      blob_id: 271869
+    - id: 722734
+      asset_id: 109723
       name: 405i03.11j
       size: 16384
-      blob_id: 167387
+      blob_id: 271870
+- release:
+    id: 94094
+    game_id: 445
+    description: ""
+    release_date: 19840000
+  names:
+  - id: 225760
+    kind: 3
+    kind_id: 94094
+    language: 1
+    name: Super Basketball (version E, encrypted)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 109724
+      kind: 3
+      kind_id: 94094
+      type: 1
+      name: sbaskete.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 722735
+      asset_id: 109724
+      name: 405e01.9j
+      size: 8192
+      blob_id: 271871
+    - id: 722736
+      asset_id: 109724
+      name: 405e02.10j
+      size: 8192
+      blob_id: 271872
+    - id: 722737
+      asset_id: 109724
+      name: 405e03.11j
+      size: 8192
+      blob_id: 271873
+    - id: 722738
+      asset_id: 109724
+      name: 405e04.13j
+      size: 8192
+      blob_id: 271874
+    - id: 722739
+      asset_id: 109724
+      name: 405e05.14j
+      size: 8192
+      blob_id: 271875
+    - id: 722740
+      asset_id: 109724
+      name: 405e06.14g
+      size: 8192
+      blob_id: 3892
+    - id: 722741
+      asset_id: 109724
+      name: 405e07.16g
+      size: 8192
+      blob_id: 3893
+    - id: 722742
+      asset_id: 109724
+      name: 405e08.17g
+      size: 8192
+      blob_id: 3894
+    - id: 722743
+      asset_id: 109724
+      name: 405e09.19g
+      size: 8192
+      blob_id: 3895
+    - id: 722744
+      asset_id: 109724
+      name: 405e10.20g
+      size: 8192
+      blob_id: 3896
+    - id: 722745
+      asset_id: 109724
+      name: 405e11.22g
+      size: 8192
+      blob_id: 3897
+    - id: 722746
+      asset_id: 109724
+      name: 405e12.22f
+      size: 16384
+      blob_id: 3898
+    - id: 722747
+      asset_id: 109724
+      name: 405e13.7a
+      size: 8192
+      blob_id: 3899
+    - id: 722748
+      asset_id: 109724
+      name: 405e15.11f
+      size: 8192
+      blob_id: 3900
+    - id: 722749
+      asset_id: 109724
+      name: 405e16.4a
+      size: 256
+      blob_id: 3901
+    - id: 722750
+      asset_id: 109724
+      name: 405e17.5a
+      size: 256
+      blob_id: 3902
+    - id: 722751
+      asset_id: 109724
+      name: 405e18.6a
+      size: 256
+      blob_id: 3903
+    - id: 722752
+      asset_id: 109724
+      name: 405e19.16d
+      size: 256
+      blob_id: 3904
+    - id: 722753
+      asset_id: 109724
+      name: 405e20.19d
+      size: 256
+      blob_id: 3905
+- release:
+    id: 94095
+    game_id: 445
+    description: ""
+    release_date: 19840000
+  names:
+  - id: 225761
+    kind: 3
+    kind_id: 94095
+    language: 1
+    name: Super Basketball (version G, encrypted)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 109725
+      kind: 3
+      kind_id: 94095
+      type: 1
+      name: sbasketg.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 722754
+      asset_id: 109725
+      name: 405e06.14g
+      size: 8192
+      blob_id: 3892
+    - id: 722755
+      asset_id: 109725
+      name: 405e07.16g
+      size: 8192
+      blob_id: 3893
+    - id: 722756
+      asset_id: 109725
+      name: 405e08.17g
+      size: 8192
+      blob_id: 3894
+    - id: 722757
+      asset_id: 109725
+      name: 405e09.19g
+      size: 8192
+      blob_id: 3895
+    - id: 722758
+      asset_id: 109725
+      name: 405e10.20g
+      size: 8192
+      blob_id: 3896
+    - id: 722759
+      asset_id: 109725
+      name: 405e11.22g
+      size: 8192
+      blob_id: 3897
+    - id: 722760
+      asset_id: 109725
+      name: 405e12.22f
+      size: 16384
+      blob_id: 3898
+    - id: 722761
+      asset_id: 109725
+      name: 405e13.7a
+      size: 8192
+      blob_id: 3899
+    - id: 722762
+      asset_id: 109725
+      name: 405e15.11f
+      size: 8192
+      blob_id: 3900
+    - id: 722763
+      asset_id: 109725
+      name: 405e16.4a
+      size: 256
+      blob_id: 3901
+    - id: 722764
+      asset_id: 109725
+      name: 405e17.5a
+      size: 256
+      blob_id: 3902
+    - id: 722765
+      asset_id: 109725
+      name: 405e18.6a
+      size: 256
+      blob_id: 3903
+    - id: 722766
+      asset_id: 109725
+      name: 405e19.16d
+      size: 256
+      blob_id: 3904
+    - id: 722767
+      asset_id: 109725
+      name: 405e20.19d
+      size: 256
+      blob_id: 3905
+    - id: 722768
+      asset_id: 109725
+      name: 405g01.9j
+      size: 8192
+      blob_id: 3906
+    - id: 722769
+      asset_id: 109725
+      name: 405g02.10j
+      size: 8192
+      blob_id: 3907
+    - id: 722770
+      asset_id: 109725
+      name: 405g03.11j
+      size: 8192
+      blob_id: 3908
+    - id: 722771
+      asset_id: 109725
+      name: 405g04.13j
+      size: 8192
+      blob_id: 3909
+    - id: 722772
+      asset_id: 109725
+      name: 405g05.14j
+      size: 8192
+      blob_id: 3910
+- release:
+    id: 94096
+    game_id: 445
+    description: ""
+    release_date: 19840000
+  names:
+  - id: 225762
+    kind: 3
+    kind_id: 94096
+    language: 1
+    name: Super Basketball (version H, unprotected)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 109726
+      kind: 3
+      kind_id: 94096
+      type: 1
+      name: sbasketh.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 722773
+      asset_id: 109726
+      name: 405e12.22f
+      size: 16384
+      blob_id: 3898
+    - id: 722774
+      asset_id: 109726
+      name: 405e13.7a
+      size: 8192
+      blob_id: 3899
+    - id: 722775
+      asset_id: 109726
+      name: 405e15.11f
+      size: 8192
+      blob_id: 3900
+    - id: 722776
+      asset_id: 109726
+      name: 405e16.4a
+      size: 256
+      blob_id: 3901
+    - id: 722777
+      asset_id: 109726
+      name: 405e17.5a
+      size: 256
+      blob_id: 3902
+    - id: 722778
+      asset_id: 109726
+      name: 405e18.6a
+      size: 256
+      blob_id: 3903
+    - id: 722779
+      asset_id: 109726
+      name: 405e19.16d
+      size: 256
+      blob_id: 3904
+    - id: 722780
+      asset_id: 109726
+      name: 405e20.19d
+      size: 256
+      blob_id: 3905
+    - id: 722781
+      asset_id: 109726
+      name: 405h01.9j
+      size: 16384
+      blob_id: 271876
+    - id: 722782
+      asset_id: 109726
+      name: 405h03.11j
+      size: 16384
+      blob_id: 271877
+    - id: 722783
+      asset_id: 109726
+      name: 405h05.14j
+      size: 8192
+      blob_id: 271878
+    - id: 722784
+      asset_id: 109726
+      name: 405h06.14g
+      size: 16384
+      blob_id: 271866
+    - id: 722785
+      asset_id: 109726
+      name: 405h08.17g
+      size: 16384
+      blob_id: 271867
+    - id: 722786
+      asset_id: 109726
+      name: 405h10.20g
+      size: 16384
+      blob_id: 271868

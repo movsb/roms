@@ -10,6 +10,12 @@ names:
   language: 1
   name: lethalth
   source: ""
+- id: 200120
+  kind: 2
+  kind_id: 2521
+  language: 1
+  name: Thunder Blaster (Japan)
+  source: mame
 game_developers:
 - game_id: 2521
   developer_id: 224
@@ -163,6 +169,118 @@ releases:
       blob_id: 88099
       debug: arcade/wheel/lethalth.png
     entries: []
+  - asset:
+      id: 102963
+      kind: 3
+      kind_id: 2521
+      type: 1
+      name: lethalth.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 648573
+      asset_id: 102963
+      name: lt_000.ic33
+      size: 262144
+      blob_id: 26826
+    - id: 648574
+      asset_id: 102963
+      name: lt_010.ic34
+      size: 262144
+      blob_id: 26827
+    - id: 648575
+      asset_id: 102963
+      name: lt_020.ic35
+      size: 262144
+      blob_id: 26828
+    - id: 648576
+      asset_id: 102963
+      name: lt_030.ic36
+      size: 262144
+      blob_id: 26829
+    - id: 648577
+      asset_id: 102963
+      name: lt_c0.ic9
+      size: 262144
+      blob_id: 26822
+    - id: 648578
+      asset_id: 102963
+      name: lt_c1.ic10
+      size: 262144
+      blob_id: 26823
+    - id: 648579
+      asset_id: 102963
+      name: lt_c2.ic11
+      size: 262144
+      blob_id: 26824
+    - id: 648580
+      asset_id: 102963
+      name: lt_c3.ic12
+      size: 262144
+      blob_id: 26825
+    - id: 648581
+      asset_id: 102963
+      name: lt_d-h0-b.ic25
+      size: 131072
+      blob_id: 26831
+    - id: 648582
+      asset_id: 102963
+      name: lt_d-h1-.ic24
+      size: 131072
+      blob_id: 26832
+    - id: 648583
+      asset_id: 102963
+      name: lt_d-l0-b.ic38
+      size: 131072
+      blob_id: 26833
+    - id: 648584
+      asset_id: 102963
+      name: lt_d-l1-.ic37
+      size: 131072
+      blob_id: 26834
+    - id: 648585
+      asset_id: 102963
+      name: lt_d-sh0-.ic27
+      size: 65536
+      blob_id: 26835
+    - id: 648586
+      asset_id: 102963
+      name: lt_d-sl0-.ic28
+      size: 65536
+      blob_id: 26836
+    - id: 648587
+      asset_id: 102963
+      name: lt_da.ic11
+      size: 262144
+      blob_id: 26830
+    - id: 648588
+      asset_id: 102963
+      name: m92_a-3m-.ic11
+      size: 279
+      blob_id: 206549
+    - id: 648589
+      asset_id: 102963
+      name: m92_a-7j-.ic41
+      size: 279
+      blob_id: 206550
+    - id: 648590
+      asset_id: 102963
+      name: m92_a-9j-.ic51
+      size: 279
+      blob_id: 206551
+    - id: 648591
+      asset_id: 102963
+      name: m92_d-3j-c.ic26
+      size: 279
+      blob_id: 221973
+    - id: 648592
+      asset_id: 102963
+      name: m92_d-3p-.ic29
+      size: 279
+      blob_id: 221974
 - release:
     id: 2522
     game_id: 2521
@@ -281,128 +399,130 @@ releases:
       size: 131072
       blob_id: 26838
 - release:
-    id: 49444
+    id: 99644
     game_id: 2521
     description: ""
     release_date: 19910000
   names:
-  - id: 129402
+  - id: 232808
     kind: 3
-    kind_id: 49444
+    kind_id: 99644
     language: 1
-    name: Lethal Thunder (World)
+    name: Thunder Blaster (Japan)
     source: mame
   release_publishers: []
   assets:
   - asset:
-      id: 62514
+      id: 115520
       kind: 3
-      kind_id: 49444
+      kind_id: 99644
       type: 1
-      name: lethalth.zip
+      name: thndblst.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
-      debug: dat:mame:0.289
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/1429599268
     entries:
-    - id: 224143
-      asset_id: 62514
-      name: lt_000.ic33
+    - id: 768689
+      asset_id: 115520
+      name: lt_000.ic38
       size: 262144
       blob_id: 26826
-    - id: 224144
-      asset_id: 62514
-      name: lt_010.ic34
+    - id: 768690
+      asset_id: 115520
+      name: lt_010.ic39
       size: 262144
       blob_id: 26827
-    - id: 224145
-      asset_id: 62514
-      name: lt_020.ic35
+    - id: 768691
+      asset_id: 115520
+      name: lt_020.ic40
       size: 262144
       blob_id: 26828
-    - id: 224146
-      asset_id: 62514
-      name: lt_030.ic36
+    - id: 768692
+      asset_id: 115520
+      name: lt_030.ic41
       size: 262144
       blob_id: 26829
-    - id: 224147
-      asset_id: 62514
+    - id: 768693
+      asset_id: 115520
+      name: lt_c-h0-.ic28
+      size: 131072
+      blob_id: 26837
+    - id: 768694
+      asset_id: 115520
+      name: lt_c-h1-.ic27
+      size: 131072
+      blob_id: 26832
+    - id: 768695
+      asset_id: 115520
+      name: lt_c-l0-.ic25
+      size: 131072
+      blob_id: 26838
+    - id: 768696
+      asset_id: 115520
+      name: lt_c-l1-.ic26
+      size: 131072
+      blob_id: 26834
+    - id: 768697
+      asset_id: 115520
+      name: lt_c-sh0-a.ic14
+      size: 32768
+      blob_id: 306407
+    - id: 768698
+      asset_id: 115520
+      name: lt_c-sl0-a.ic17
+      size: 32768
+      blob_id: 306408
+    - id: 768699
+      asset_id: 115520
       name: lt_c0.ic9
       size: 262144
       blob_id: 26822
-    - id: 224148
-      asset_id: 62514
+    - id: 768700
+      asset_id: 115520
       name: lt_c1.ic10
       size: 262144
       blob_id: 26823
-    - id: 224149
-      asset_id: 62514
+    - id: 768701
+      asset_id: 115520
       name: lt_c2.ic11
       size: 262144
       blob_id: 26824
-    - id: 224150
-      asset_id: 62514
+    - id: 768702
+      asset_id: 115520
       name: lt_c3.ic12
       size: 262144
       blob_id: 26825
-    - id: 224151
-      asset_id: 62514
-      name: lt_d-h0-b.ic25
-      size: 131072
-      blob_id: 26831
-    - id: 224152
-      asset_id: 62514
-      name: lt_d-h1-.ic24
-      size: 131072
-      blob_id: 26832
-    - id: 224153
-      asset_id: 62514
-      name: lt_d-l0-b.ic38
-      size: 131072
-      blob_id: 26833
-    - id: 224154
-      asset_id: 62514
-      name: lt_d-l1-.ic37
-      size: 131072
-      blob_id: 26834
-    - id: 224155
-      asset_id: 62514
-      name: lt_d-sh0-.ic27
-      size: 65536
-      blob_id: 26835
-    - id: 224156
-      asset_id: 62514
-      name: lt_d-sl0-.ic28
-      size: 65536
-      blob_id: 26836
-    - id: 224157
-      asset_id: 62514
-      name: lt_da.ic11
+    - id: 768703
+      asset_id: 115520
+      name: lt_da.ic8
       size: 262144
       blob_id: 26830
-    - id: 224158
-      asset_id: 62514
+    - id: 768704
+      asset_id: 115520
       name: m92_a-3m-.ic11
       size: 279
-      blob_id: 100050
-    - id: 224159
-      asset_id: 62514
+      blob_id: 206549
+    - id: 768705
+      asset_id: 115520
       name: m92_a-7j-.ic41
       size: 279
-      blob_id: 100051
-    - id: 224160
-      asset_id: 62514
+      blob_id: 206550
+    - id: 768706
+      asset_id: 115520
       name: m92_a-9j-.ic51
       size: 279
-      blob_id: 100052
-    - id: 224161
-      asset_id: 62514
-      name: m92_d-3j-c.ic26
+      blob_id: 206551
+    - id: 768707
+      asset_id: 115520
+      name: m92_c-2l-.ic7
       size: 279
-      blob_id: 105876
-    - id: 224162
-      asset_id: 62514
-      name: m92_d-3p-.ic29
+      blob_id: 223378
+    - id: 768708
+      asset_id: 115520
+      name: m92_c-7h-c.ic43
       size: 279
-      blob_id: 105877
+      blob_id: 271135

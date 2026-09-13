@@ -16,6 +16,24 @@ names:
   language: 2
   name: 上海 Ⅲ (世界版)
   source: trimui
+- id: 198987
+  kind: 2
+  kind_id: 3724
+  language: 1
+  name: Shanghai III (Japan)
+  source: mame
+- id: 198988
+  kind: 2
+  kind_id: 3724
+  language: 1
+  name: Shanghai III (US)
+  source: mame
+- id: 198989
+  kind: 2
+  kind_id: 3724
+  language: 1
+  name: Shanghai III (US, prototype)
+  source: mame
 game_developers: []
 game_genres: []
 assets: []
@@ -132,24 +150,10 @@ releases:
       name: shangha3up/syan3u_odd_10-7.ic2
       size: 262144
       blob_id: 39818
-- release:
-    id: 70183
-    game_id: 3724
-    description: ""
-    release_date: 19930000
-  names:
-  - id: 170487
-    kind: 3
-    kind_id: 70183
-    language: 1
-    name: Shanghai III (World)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 83253
+      id: 113409
       kind: 3
-      kind_id: 70183
+      kind_id: 3724
       type: 1
       name: shangha3.zip
       description: ""
@@ -158,28 +162,181 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 361932
-      asset_id: 83253
+    - id: 742628
+      asset_id: 113409
       name: 27c4000.ic44
       size: 524288
       blob_id: 39803
-    - id: 361933
-      asset_id: 83253
+    - id: 742629
+      asset_id: 113409
       name: ic2
       size: 262144
       blob_id: 39804
-    - id: 361934
-      asset_id: 83253
+    - id: 742630
+      asset_id: 113409
       name: ic3
       size: 262144
       blob_id: 39805
-    - id: 361935
-      asset_id: 83253
+    - id: 742631
+      asset_id: 113409
       name: s3j_char-a1.ic43
       size: 2097152
       blob_id: 39806
-    - id: 361936
-      asset_id: 83253
+    - id: 742632
+      asset_id: 113409
       name: s3j_v10.ic75
       size: 262144
       blob_id: 39807
+- release:
+    id: 97726
+    game_id: 3724
+    description: ""
+    release_date: 19930000
+  names:
+  - id: 230072
+    kind: 3
+    kind_id: 97726
+    language: 1
+    name: Shanghai III (Japan)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 113410
+      kind: 3
+      kind_id: 97726
+      type: 1
+      name: shangha3j.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 742633
+      asset_id: 113410
+      name: s3j_char-a1.ic43
+      size: 2097152
+      blob_id: 39806
+    - id: 742634
+      asset_id: 113410
+      name: s3j_v10.ic75
+      size: 262144
+      blob_id: 39807
+    - id: 742635
+      asset_id: 113410
+      name: s3j_v11.ic2
+      size: 262144
+      blob_id: 39808
+    - id: 742636
+      asset_id: 113410
+      name: s3j_v11.ic3
+      size: 262144
+      blob_id: 39809
+- release:
+    id: 97727
+    game_id: 3724
+    description: ""
+    release_date: 19930000
+  names:
+  - id: 230073
+    kind: 3
+    kind_id: 97727
+    language: 1
+    name: Shanghai III (US)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 113411
+      kind: 3
+      kind_id: 97727
+      type: 1
+      name: shangha3u.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 742637
+      asset_id: 113411
+      name: s3j_char-a1.ic43
+      size: 2097152
+      blob_id: 39806
+    - id: 742638
+      asset_id: 113411
+      name: s3j_ic75v1.0.ic75
+      size: 524288
+      blob_id: 39812
+    - id: 742639
+      asset_id: 113411
+      name: s3u_ic2_v1.0.ic2
+      size: 524288
+      blob_id: 39810
+    - id: 742640
+      asset_id: 113411
+      name: s3u_ic3_v1.0.ic3
+      size: 524288
+      blob_id: 39811
+- release:
+    id: 97728
+    game_id: 3724
+    description: ""
+    release_date: 19930000
+  names:
+  - id: 230074
+    kind: 3
+    kind_id: 97728
+    language: 1
+    name: Shanghai III (US, prototype)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 113412
+      kind: 3
+      kind_id: 97728
+      type: 1
+      name: shangha3up.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 742641
+      asset_id: 113412
+      name: pcm_9-16_0166.ic75
+      size: 262144
+      blob_id: 39807
+    - id: 742642
+      asset_id: 113412
+      name: s3j_chr-a1_1_sum_53b1_93.9.20.ic80
+      size: 524288
+      blob_id: 39813
+    - id: 742643
+      asset_id: 113412
+      name: s3j_chr-a1_2_sum_0e32_93.9.20.ic81
+      size: 524288
+      blob_id: 39814
+    - id: 742644
+      asset_id: 113412
+      name: s3j_chr-a1_3_sum_0d9a_93.9.20.ic82
+      size: 524288
+      blob_id: 39815
+    - id: 742645
+      asset_id: 113412
+      name: s3j_chr-a1_4_sum_27e7_93.9.20.ic83
+      size: 524288
+      blob_id: 39816
+    - id: 742646
+      asset_id: 113412
+      name: syan3u_evn_10-7.ic3
+      size: 262144
+      blob_id: 39817
+    - id: 742647
+      asset_id: 113412
+      name: syan3u_odd_10-7.ic2
+      size: 262144
+      blob_id: 39818

@@ -16,6 +16,18 @@ names:
   language: 2
   name: 武装袭击
   source: trimui
+- id: 188091
+  kind: 2
+  kind_id: 699
+  language: 1
+  name: Armor Attack (prototype)
+  source: mame
+- id: 188092
+  kind: 2
+  kind_id: 699
+  language: 1
+  name: Armor Attack (Rock-Ola)
+  source: mame
 game_developers:
 - game_id: 699
   developer_id: 583
@@ -114,24 +126,10 @@ releases:
       blob_id: 89881
       debug: arcade/wheel/armora.png
     entries: []
-- release:
-    id: 37025
-    game_id: 699
-    description: ""
-    release_date: 19800000
-  names:
-  - id: 105194
-    kind: 3
-    kind_id: 37025
-    language: 1
-    name: Armor Attack
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 50095
+      id: 94168
       kind: 3
-      kind_id: 37025
+      kind_id: 699
       type: 1
       name: armora.zip
       description: ""
@@ -140,53 +138,205 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 105139
-      asset_id: 50095
+    - id: 544533
+      asset_id: 94168
       name: ar414le.t6
       size: 4096
       blob_id: 6809
-    - id: 105140
-      asset_id: 50095
+    - id: 544534
+      asset_id: 94168
       name: ar414lo.p6
       size: 4096
       blob_id: 6810
-    - id: 105141
-      asset_id: 50095
+    - id: 544535
+      asset_id: 94168
       name: ar414ue.u6
       size: 4096
       blob_id: 6811
-    - id: 105142
-      asset_id: 50095
+    - id: 544536
+      asset_id: 94168
       name: ar414uo.r6
       size: 4096
       blob_id: 6812
-    - id: 105143
-      asset_id: 50095
+    - id: 544537
+      asset_id: 94168
       name: prom.c14
       size: 32
       blob_id: 34669
-    - id: 105144
-      asset_id: 50095
+    - id: 544538
+      asset_id: 94168
       name: prom.d14
       size: 32
       blob_id: 34670
-    - id: 105145
-      asset_id: 50095
+    - id: 544539
+      asset_id: 94168
       name: prom.e14
       size: 32
       blob_id: 34671
-    - id: 105146
-      asset_id: 50095
+    - id: 544540
+      asset_id: 94168
       name: prom.e8
       size: 32
       blob_id: 34672
-    - id: 105147
-      asset_id: 50095
+    - id: 544541
+      asset_id: 94168
       name: prom.f14
       size: 256
       blob_id: 34673
-    - id: 105148
-      asset_id: 50095
+    - id: 544542
+      asset_id: 94168
+      name: prom.j14
+      size: 32
+      blob_id: 34674
+- release:
+    id: 79581
+    game_id: 699
+    description: ""
+    release_date: 19800000
+  names:
+  - id: 203658
+    kind: 3
+    kind_id: 79581
+    language: 1
+    name: Armor Attack (prototype)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 94169
+      kind: 3
+      kind_id: 79581
+      type: 1
+      name: armorap.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 544543
+      asset_id: 94169
+      name: ar414le.t6
+      size: 4096
+      blob_id: 6809
+    - id: 544544
+      asset_id: 94169
+      name: ar414lo.p6
+      size: 4096
+      blob_id: 6810
+    - id: 544545
+      asset_id: 94169
+      name: armorp.r7
+      size: 4096
+      blob_id: 239539
+    - id: 544546
+      asset_id: 94169
+      name: armorp.u7
+      size: 4096
+      blob_id: 239540
+    - id: 544547
+      asset_id: 94169
+      name: prom.c14
+      size: 32
+      blob_id: 34669
+    - id: 544548
+      asset_id: 94169
+      name: prom.d14
+      size: 32
+      blob_id: 34670
+    - id: 544549
+      asset_id: 94169
+      name: prom.e14
+      size: 32
+      blob_id: 34671
+    - id: 544550
+      asset_id: 94169
+      name: prom.e8
+      size: 32
+      blob_id: 34672
+    - id: 544551
+      asset_id: 94169
+      name: prom.f14
+      size: 256
+      blob_id: 34673
+    - id: 544552
+      asset_id: 94169
+      name: prom.j14
+      size: 32
+      blob_id: 34674
+- release:
+    id: 79582
+    game_id: 699
+    description: ""
+    release_date: 19800000
+  names:
+  - id: 203659
+    kind: 3
+    kind_id: 79582
+    language: 1
+    name: Armor Attack (Rock-Ola)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 94170
+      kind: 3
+      kind_id: 79582
+      type: 1
+      name: armorar.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 544553
+      asset_id: 94170
+      name: armorr.p7
+      size: 2048
+      blob_id: 239541
+    - id: 544554
+      asset_id: 94170
+      name: armorr.r7
+      size: 2048
+      blob_id: 239542
+    - id: 544555
+      asset_id: 94170
+      name: armorr.t7
+      size: 2048
+      blob_id: 239543
+    - id: 544556
+      asset_id: 94170
+      name: armorr.u7
+      size: 2048
+      blob_id: 239544
+    - id: 544557
+      asset_id: 94170
+      name: prom.c14
+      size: 32
+      blob_id: 34669
+    - id: 544558
+      asset_id: 94170
+      name: prom.d14
+      size: 32
+      blob_id: 34670
+    - id: 544559
+      asset_id: 94170
+      name: prom.e14
+      size: 32
+      blob_id: 34671
+    - id: 544560
+      asset_id: 94170
+      name: prom.e8
+      size: 32
+      blob_id: 34672
+    - id: 544561
+      asset_id: 94170
+      name: prom.f14
+      size: 256
+      blob_id: 34673
+    - id: 544562
+      asset_id: 94170
       name: prom.j14
       size: 32
       blob_id: 34674

@@ -10,6 +10,24 @@ names:
   language: 1
   name: JOUST
   source: ""
+- id: 186883
+  kind: 2
+  kind_id: 254
+  language: 1
+  name: joustr
+  source: ""
+- id: 186884
+  kind: 2
+  kind_id: 254
+  language: 2
+  name: 鸵鸟骑士 (红标)
+  source: trimui
+- id: 192176
+  kind: 2
+  kind_id: 254
+  language: 1
+  name: Joust (Yellow label)
+  source: mame
 game_developers:
 - game_id: 254
   developer_id: 581
@@ -153,6 +171,93 @@ releases:
       blob_id: 87219
       debug: arcade/wheel/joust.png
     entries: []
+  - asset:
+      id: 102131
+      kind: 3
+      kind_id: 254
+      type: 1
+      name: joust.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 638472
+      asset_id: 102131
+      name: decoder_rom_4.3g
+      size: 512
+      blob_id: 23939
+    - id: 638473
+      asset_id: 102131
+      name: decoder_rom_6.3c
+      size: 512
+      blob_id: 23940
+    - id: 638474
+      asset_id: 102131
+      name: joust_rom_10b_3006-22.a7
+      size: 4096
+      blob_id: 2486
+    - id: 638475
+      asset_id: 102131
+      name: joust_rom_11b_3006-23.c7
+      size: 4096
+      blob_id: 2487
+    - id: 638476
+      asset_id: 102131
+      name: joust_rom_12b_3006-24.e7
+      size: 4096
+      blob_id: 2488
+    - id: 638477
+      asset_id: 102131
+      name: joust_rom_1b_3006-13.e4
+      size: 4096
+      blob_id: 2477
+    - id: 638478
+      asset_id: 102131
+      name: joust_rom_2b_3006-14.c4
+      size: 4096
+      blob_id: 2478
+    - id: 638479
+      asset_id: 102131
+      name: joust_rom_3b_3006-15.a4
+      size: 4096
+      blob_id: 2479
+    - id: 638480
+      asset_id: 102131
+      name: joust_rom_4b_3006-16.e5
+      size: 4096
+      blob_id: 2480
+    - id: 638481
+      asset_id: 102131
+      name: joust_rom_5b_3006-17.c5
+      size: 4096
+      blob_id: 2481
+    - id: 638482
+      asset_id: 102131
+      name: joust_rom_6b_3006-18.a5
+      size: 4096
+      blob_id: 2482
+    - id: 638483
+      asset_id: 102131
+      name: joust_rom_7b_3006-19.e6
+      size: 4096
+      blob_id: 2483
+    - id: 638484
+      asset_id: 102131
+      name: joust_rom_8b_3006-20.c6
+      size: 4096
+      blob_id: 2484
+    - id: 638485
+      asset_id: 102131
+      name: joust_rom_9b_3006-21.a6
+      size: 4096
+      blob_id: 2485
+    - id: 638486
+      asset_id: 102131
+      name: video_sound_rom_4_std_780.ic12
+      size: 4096
+      blob_id: 2476
 - release:
     id: 2133
     game_id: 254
@@ -311,103 +416,210 @@ releases:
       size: 4096
       blob_id: 2476
 - release:
-    id: 48570
+    id: 86947
     game_id: 254
     description: ""
     release_date: 19820000
   names:
-  - id: 127739
+  - id: 214972
     kind: 3
-    kind_id: 48570
+    kind_id: 86947
     language: 1
-    name: Joust (Green label)
+    name: Joust (Yellow label)
     source: mame
   release_publishers: []
   assets:
   - asset:
-      id: 61640
+      id: 102135
       kind: 3
-      kind_id: 48570
+      kind_id: 86947
       type: 1
-      name: joust.zip
+      name: jousty.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 212307
-      asset_id: 61640
+    - id: 638558
+      asset_id: 102135
       name: decoder_rom_4.3g
       size: 512
       blob_id: 23939
-    - id: 212308
-      asset_id: 61640
+    - id: 638559
+      asset_id: 102135
       name: decoder_rom_6.3c
       size: 512
       blob_id: 23940
-    - id: 212309
-      asset_id: 61640
-      name: joust_rom_10b_3006-22.a7
+    - id: 638560
+      asset_id: 102135
+      name: joust_rom_10a_3006-10.a7
       size: 4096
-      blob_id: 2486
-    - id: 212310
-      asset_id: 61640
-      name: joust_rom_11b_3006-23.c7
+      blob_id: 2490
+    - id: 638561
+      asset_id: 102135
+      name: joust_rom_11a_3006-11.c7
       size: 4096
       blob_id: 2487
-    - id: 212311
-      asset_id: 61640
-      name: joust_rom_12b_3006-24.e7
+    - id: 638562
+      asset_id: 102135
+      name: joust_rom_12a_3006-12.e7
       size: 4096
       blob_id: 2488
-    - id: 212312
-      asset_id: 61640
-      name: joust_rom_1b_3006-13.e4
+    - id: 638563
+      asset_id: 102135
+      name: joust_rom_1a_3006-1.e4
       size: 4096
       blob_id: 2477
-    - id: 212313
-      asset_id: 61640
-      name: joust_rom_2b_3006-14.c4
+    - id: 638564
+      asset_id: 102135
+      name: joust_rom_2a_3006-2.c4
       size: 4096
       blob_id: 2478
-    - id: 212314
-      asset_id: 61640
-      name: joust_rom_3b_3006-15.a4
+    - id: 638565
+      asset_id: 102135
+      name: joust_rom_3a_3006-3.a4
       size: 4096
       blob_id: 2479
-    - id: 212315
-      asset_id: 61640
-      name: joust_rom_4b_3006-16.e5
+    - id: 638566
+      asset_id: 102135
+      name: joust_rom_4a_3006-4.e5
       size: 4096
       blob_id: 2480
-    - id: 212316
-      asset_id: 61640
-      name: joust_rom_5b_3006-17.c5
+    - id: 638567
+      asset_id: 102135
+      name: joust_rom_5a_3006-5.c5
       size: 4096
       blob_id: 2481
-    - id: 212317
-      asset_id: 61640
-      name: joust_rom_6b_3006-18.a5
+    - id: 638568
+      asset_id: 102135
+      name: joust_rom_6a_3006-6.a5
       size: 4096
       blob_id: 2482
-    - id: 212318
-      asset_id: 61640
-      name: joust_rom_7b_3006-19.e6
+    - id: 638569
+      asset_id: 102135
+      name: joust_rom_7a_3006-7.e6
       size: 4096
-      blob_id: 2483
-    - id: 212319
-      asset_id: 61640
-      name: joust_rom_8b_3006-20.c6
+      blob_id: 2489
+    - id: 638570
+      asset_id: 102135
+      name: joust_rom_8a_3006-8.c6
       size: 4096
       blob_id: 2484
-    - id: 212320
-      asset_id: 61640
-      name: joust_rom_9b_3006-21.a6
+    - id: 638571
+      asset_id: 102135
+      name: joust_rom_9a_3006-9.a6
       size: 4096
       blob_id: 2485
-    - id: 212321
-      asset_id: 61640
+    - id: 638572
+      asset_id: 102135
+      name: video_sound_rom_4_std_780.ic12
+      size: 4096
+      blob_id: 2476
+- release:
+    id: 102956
+    game_id: 254
+    description: ""
+    release_date: 0
+  names:
+  - id: 237698
+    kind: 3
+    kind_id: 102956
+    language: 1
+    name: joustr
+    source: ""
+  - id: 237699
+    kind: 3
+    kind_id: 102956
+    language: 2
+    name: 鸵鸟骑士 (红标)
+    source: trimui
+  release_publishers: []
+  assets:
+  - asset:
+      id: 102134
+      kind: 3
+      kind_id: 102956
+      type: 1
+      name: joustr.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 638543
+      asset_id: 102134
+      name: decoder_rom_4.3g
+      size: 512
+      blob_id: 23939
+    - id: 638544
+      asset_id: 102134
+      name: decoder_rom_6.3c
+      size: 512
+      blob_id: 23940
+    - id: 638545
+      asset_id: 102134
+      name: joust_rom_10a_3006-37.a7
+      size: 4096
+      blob_id: 23941
+    - id: 638546
+      asset_id: 102134
+      name: joust_rom_11a_3006-38.c7
+      size: 4096
+      blob_id: 23942
+    - id: 638547
+      asset_id: 102134
+      name: joust_rom_12a_3006-39.e7
+      size: 4096
+      blob_id: 23943
+    - id: 638548
+      asset_id: 102134
+      name: joust_rom_1a_3006-28.e4
+      size: 4096
+      blob_id: 2477
+    - id: 638549
+      asset_id: 102134
+      name: joust_rom_2a_3006-29.c4
+      size: 4096
+      blob_id: 2478
+    - id: 638550
+      asset_id: 102134
+      name: joust_rom_3a_3006-30.a4
+      size: 4096
+      blob_id: 2479
+    - id: 638551
+      asset_id: 102134
+      name: joust_rom_4a_3006-31.e5
+      size: 4096
+      blob_id: 23944
+    - id: 638552
+      asset_id: 102134
+      name: joust_rom_5a_3006-32.c5
+      size: 4096
+      blob_id: 2481
+    - id: 638553
+      asset_id: 102134
+      name: joust_rom_6a_3006-33.a5
+      size: 4096
+      blob_id: 23945
+    - id: 638554
+      asset_id: 102134
+      name: joust_rom_7a_3006-34.e6
+      size: 4096
+      blob_id: 23946
+    - id: 638555
+      asset_id: 102134
+      name: joust_rom_8a_3006-35.c6
+      size: 4096
+      blob_id: 23947
+    - id: 638556
+      asset_id: 102134
+      name: joust_rom_9a_3006-36.a6
+      size: 4096
+      blob_id: 23948
+    - id: 638557
+      asset_id: 102134
       name: video_sound_rom_4_std_780.ic12
       size: 4096
       blob_id: 2476

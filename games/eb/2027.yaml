@@ -10,6 +10,24 @@ names:
   language: 1
   name: hotrod
   source: ""
+- id: 191747
+  kind: 2
+  kind_id: 2027
+  language: 1
+  name: Hot Rod (World, 3 Players, Turbo set 2, Floppy Based)
+  source: mame
+- id: 191748
+  kind: 2
+  kind_id: 2027
+  language: 1
+  name: Hot Rod (Japan, 4 Players, Floppy Based, Rev C)
+  source: mame
+- id: 191749
+  kind: 2
+  kind_id: 2027
+  language: 1
+  name: Hot Rod (Japan, 4 Players, Floppy Based, Rev B)
+  source: mame
 game_developers:
 - game_id: 2027
   developer_id: 110
@@ -103,6 +121,33 @@ releases:
       blob_id: 86310
       debug: arcade/wheel/hotrod.png
     entries: []
+  - asset:
+      id: 101144
+      kind: 3
+      kind_id: 2027
+      type: 1
+      name: hotrod.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 629591
+      asset_id: 101144
+      name: ds3-5000-01d_3p_turbo.img
+      size: 1925120
+      blob_id: 22714
+    - id: 629592
+      asset_id: 101144
+      name: epr-11338.ic1
+      size: 131072
+      blob_id: 22712
+    - id: 629593
+      asset_id: 101144
+      name: epr-11339.ic2
+      size: 131072
+      blob_id: 22713
 - release:
     id: 2028
     game_id: 2027
@@ -166,43 +211,125 @@ releases:
       size: 1925120
       blob_id: 22717
 - release:
-    id: 46136
+    id: 86013
     game_id: 2027
     description: ""
     release_date: 19880000
   names:
-  - id: 122917
+  - id: 213459
     kind: 3
-    kind_id: 46136
+    kind_id: 86013
     language: 1
-    name: Hot Rod (World, 3 Players, Turbo set 1, Floppy Based)
+    name: Hot Rod (World, 3 Players, Turbo set 2, Floppy Based)
     source: mame
   release_publishers: []
   assets:
   - asset:
-      id: 59206
+      id: 101145
       kind: 3
-      kind_id: 46136
+      kind_id: 86013
       type: 1
-      name: hotrod.zip
+      name: hotroda.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 198963
-      asset_id: 59206
-      name: ds3-5000-01d_3p_turbo.img
+    - id: 629594
+      asset_id: 101145
+      name: ds3-5000-01d.img
       size: 1925120
-      blob_id: 22714
-    - id: 198964
-      asset_id: 59206
+      blob_id: 22715
+    - id: 629595
+      asset_id: 101145
       name: epr-11338.ic1
       size: 131072
       blob_id: 22712
-    - id: 198965
-      asset_id: 59206
+    - id: 629596
+      asset_id: 101145
+      name: epr-11339.ic2
+      size: 131072
+      blob_id: 22713
+- release:
+    id: 86014
+    game_id: 2027
+    description: ""
+    release_date: 19880000
+  names:
+  - id: 213460
+    kind: 3
+    kind_id: 86014
+    language: 1
+    name: Hot Rod (Japan, 4 Players, Floppy Based, Rev C)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 101146
+      kind: 3
+      kind_id: 86014
+      type: 1
+      name: hotrodj.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 629597
+      asset_id: 101146
+      name: ds3-5000-01a-rev-c.img
+      size: 1925120
+      blob_id: 22716
+    - id: 629598
+      asset_id: 101146
+      name: epr-11338.ic1
+      size: 131072
+      blob_id: 22712
+    - id: 629599
+      asset_id: 101146
+      name: epr-11339.ic2
+      size: 131072
+      blob_id: 22713
+- release:
+    id: 86015
+    game_id: 2027
+    description: ""
+    release_date: 19880000
+  names:
+  - id: 213461
+    kind: 3
+    kind_id: 86015
+    language: 1
+    name: Hot Rod (Japan, 4 Players, Floppy Based, Rev B)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 101147
+      kind: 3
+      kind_id: 86015
+      type: 1
+      name: hotrodja.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 629600
+      asset_id: 101147
+      name: ds3-5000-01a-rev-b.img
+      size: 1925120
+      blob_id: 22717
+    - id: 629601
+      asset_id: 101147
+      name: epr-11338.ic1
+      size: 131072
+      blob_id: 22712
+    - id: 629602
+      asset_id: 101147
       name: epr-11339.ic2
       size: 131072
       blob_id: 22713

@@ -16,8 +16,36 @@ names:
   language: 2
   name: 机械战警 2 (欧版/亚版 v0.10)
   source: trimui
-game_developers: []
-game_genres: []
+- id: 187104
+  kind: 2
+  kind_id: 3395
+  language: 1
+  name: robocop2j
+  source: ""
+- id: 187105
+  kind: 2
+  kind_id: 3395
+  language: 2
+  name: 机械战警 2 (日版 v0.11)
+  source: trimui
+- id: 195764
+  kind: 2
+  kind_id: 3395
+  language: 1
+  name: Robocop 2 (US v0.10)
+  source: mame
+- id: 195765
+  kind: 2
+  kind_id: 3395
+  language: 1
+  name: Robocop 2 (US v0.05)
+  source: mame
+game_developers:
+- game_id: 3395
+  developer_id: 225
+game_genres:
+- game_id: 3395
+  genre_id: 5
 assets: []
 releases:
 - release:
@@ -232,24 +260,10 @@ releases:
       name: robocop2ua/robo07.k3
       size: 131072
       blob_id: 36566
-- release:
-    id: 63651
-    game_id: 3395
-    description: ""
-    release_date: 19910000
-  names:
-  - id: 157514
-    kind: 3
-    kind_id: 63651
-    language: 1
-    name: Robocop 2 (Euro/Asia v0.10)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 76721
+      id: 109294
       kind: 3
-      kind_id: 63651
+      kind_id: 3395
       type: 1
       name: robocop2.zip
       description: ""
@@ -258,128 +272,589 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 324339
-      asset_id: 76721
+    - id: 717093
+      asset_id: 109294
       name: go-00.f1
       size: 131072
       blob_id: 36532
-    - id: 324340
-      asset_id: 76721
+    - id: 717094
+      asset_id: 109294
       name: go-01-1.h1
       size: 131072
       blob_id: 36533
-    - id: 324341
-      asset_id: 76721
+    - id: 717095
+      asset_id: 109294
       name: go-04.f3
       size: 131072
       blob_id: 36534
-    - id: 324342
-      asset_id: 76721
+    - id: 717096
+      asset_id: 109294
       name: go-05-1.h3
       size: 131072
       blob_id: 36535
-    - id: 324343
-      asset_id: 76721
+    - id: 717097
+      asset_id: 109294
       name: go-12.v7
       size: 1024
       blob_id: 16526
-    - id: 324344
-      asset_id: 76721
+    - id: 717098
+      asset_id: 109294
       name: gp-08.j13
       size: 131072
       blob_id: 36536
-    - id: 324345
-      asset_id: 76721
+    - id: 717099
+      asset_id: 109294
       name: gp-09.k13
       size: 65536
       blob_id: 36537
-    - id: 324346
-      asset_id: 76721
+    - id: 717100
+      asset_id: 109294
       name: gp10-1.y6
       size: 65536
       blob_id: 36538
-    - id: 324347
-      asset_id: 76721
+    - id: 717101
+      asset_id: 109294
       name: gp11-1.z6
       size: 65536
       blob_id: 36539
-    - id: 324348
-      asset_id: 76721
+    - id: 717102
+      asset_id: 109294
       name: gq-02.j1
       size: 131072
       blob_id: 36540
-    - id: 324349
-      asset_id: 76721
+    - id: 717103
+      asset_id: 109294
       name: gq-03.k1
       size: 131072
       blob_id: 36541
-    - id: 324350
-      asset_id: 76721
+    - id: 717104
+      asset_id: 109294
       name: gq-06.j3
       size: 131072
       blob_id: 36542
-    - id: 324351
-      asset_id: 76721
+    - id: 717105
+      asset_id: 109294
       name: gq-07.k3
       size: 131072
       blob_id: 36543
-    - id: 324352
-      asset_id: 76721
+    - id: 717106
+      asset_id: 109294
       name: mah-00.y1
       size: 524288
       blob_id: 36544
-    - id: 324353
-      asset_id: 76721
+    - id: 717107
+      asset_id: 109294
       name: mah-01.z1
       size: 524288
       blob_id: 36545
-    - id: 324354
-      asset_id: 76721
+    - id: 717108
+      asset_id: 109294
       name: mah-02.a1
       size: 524288
       blob_id: 36546
-    - id: 324355
-      asset_id: 76721
+    - id: 717109
+      asset_id: 109294
       name: mah-03.y4
       size: 524288
       blob_id: 36547
-    - id: 324356
-      asset_id: 76721
+    - id: 717110
+      asset_id: 109294
       name: mah-04.z4
       size: 524288
       blob_id: 36548
-    - id: 324357
-      asset_id: 76721
+    - id: 717111
+      asset_id: 109294
       name: mah-05.y9
       size: 524288
       blob_id: 36549
-    - id: 324358
-      asset_id: 76721
+    - id: 717112
+      asset_id: 109294
       name: mah-06.z9
       size: 524288
       blob_id: 36550
-    - id: 324359
-      asset_id: 76721
+    - id: 717113
+      asset_id: 109294
       name: mah-07.a9
       size: 524288
       blob_id: 36551
-    - id: 324360
-      asset_id: 76721
+    - id: 717114
+      asset_id: 109294
       name: mah-08.y12
       size: 524288
       blob_id: 36552
-    - id: 324361
-      asset_id: 76721
+    - id: 717115
+      asset_id: 109294
       name: mah-09.z12
       size: 524288
       blob_id: 36553
-    - id: 324362
-      asset_id: 76721
+    - id: 717116
+      asset_id: 109294
       name: mah-10.a12
       size: 524288
       blob_id: 36554
-    - id: 324363
-      asset_id: 76721
+    - id: 717117
+      asset_id: 109294
       name: mah-11.f13
       size: 524288
       blob_id: 36555
+- release:
+    id: 77607
+    game_id: 3395
+    description: ""
+    release_date: 19910501
+  names:
+  - id: 185294
+    kind: 3
+    kind_id: 77607
+    language: 1
+    name: robocop2j
+    source: ""
+  - id: 185295
+    kind: 3
+    kind_id: 77607
+    language: 2
+    name: 机械战警 2 (日版 v0.11)
+    source: trimui
+  release_publishers:
+  - release_id: 77607
+    publisher_id: 132
+  assets:
+  - asset:
+      id: 3381
+      kind: 3
+      kind_id: 77607
+      type: 1
+      name: robocop2j.zip
+      description: ""
+      format: 2
+      size: 2681351
+      blob_id: 0
+      debug: robocop2j.zip
+    entries:
+    - id: 56270
+      asset_id: 3381
+      name: go-00.f1
+      size: 131072
+      blob_id: 36532
+    - id: 56271
+      asset_id: 3381
+      name: go-01-1.h1
+      size: 131072
+      blob_id: 36533
+    - id: 56272
+      asset_id: 3381
+      name: go-02-1.j1
+      size: 131072
+      blob_id: 36556
+    - id: 56273
+      asset_id: 3381
+      name: go-03-1.k1
+      size: 131072
+      blob_id: 36557
+    - id: 56274
+      asset_id: 3381
+      name: go-04.f3
+      size: 131072
+      blob_id: 36534
+    - id: 56275
+      asset_id: 3381
+      name: go-05-1.h3
+      size: 131072
+      blob_id: 36535
+    - id: 56276
+      asset_id: 3381
+      name: go-06-1.j3
+      size: 131072
+      blob_id: 36558
+    - id: 56277
+      asset_id: 3381
+      name: go-07-1.k3
+      size: 131072
+      blob_id: 36559
+    - id: 56278
+      asset_id: 3381
+      name: go-12.v7
+      size: 1024
+      blob_id: 16526
+    - id: 56279
+      asset_id: 3381
+      name: gp-08.j13
+      size: 131072
+      blob_id: 36536
+    - id: 56280
+      asset_id: 3381
+      name: gp-09.k13
+      size: 65536
+      blob_id: 36537
+    - id: 56281
+      asset_id: 3381
+      name: gp10-1.y6
+      size: 65536
+      blob_id: 36538
+    - id: 56282
+      asset_id: 3381
+      name: gp11-1.z6
+      size: 65536
+      blob_id: 36539
+    - id: 56283
+      asset_id: 3381
+      name: mah-00.y1
+      size: 524288
+      blob_id: 36544
+    - id: 56284
+      asset_id: 3381
+      name: mah-01.z1
+      size: 524288
+      blob_id: 36545
+    - id: 56285
+      asset_id: 3381
+      name: mah-02.a1
+      size: 524288
+      blob_id: 36546
+    - id: 56286
+      asset_id: 3381
+      name: mah-03.y4
+      size: 524288
+      blob_id: 36547
+    - id: 56287
+      asset_id: 3381
+      name: mah-04.z4
+      size: 524288
+      blob_id: 36548
+    - id: 56288
+      asset_id: 3381
+      name: mah-05.y9
+      size: 524288
+      blob_id: 36549
+    - id: 56289
+      asset_id: 3381
+      name: mah-06.z9
+      size: 524288
+      blob_id: 36550
+    - id: 56290
+      asset_id: 3381
+      name: mah-07.a9
+      size: 524288
+      blob_id: 36551
+    - id: 56291
+      asset_id: 3381
+      name: mah-08.y12
+      size: 524288
+      blob_id: 36552
+    - id: 56292
+      asset_id: 3381
+      name: mah-09.z12
+      size: 524288
+      blob_id: 36553
+    - id: 56293
+      asset_id: 3381
+      name: mah-10.a12
+      size: 524288
+      blob_id: 36554
+    - id: 56294
+      asset_id: 3381
+      name: mah-11.f13
+      size: 524288
+      blob_id: 36555
+- release:
+    id: 93702
+    game_id: 3395
+    description: ""
+    release_date: 19910000
+  names:
+  - id: 225189
+    kind: 3
+    kind_id: 93702
+    language: 1
+    name: Robocop 2 (US v0.10)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 109295
+      kind: 3
+      kind_id: 93702
+      type: 1
+      name: robocop2u.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 717118
+      asset_id: 109295
+      name: go-12.v7
+      size: 1024
+      blob_id: 16526
+    - id: 717119
+      asset_id: 109295
+      name: gp-08.j13
+      size: 131072
+      blob_id: 36536
+    - id: 717120
+      asset_id: 109295
+      name: gp-09.k13
+      size: 65536
+      blob_id: 36537
+    - id: 717121
+      asset_id: 109295
+      name: gp00-.f1
+      size: 131072
+      blob_id: 36532
+    - id: 717122
+      asset_id: 109295
+      name: gp01-.h1
+      size: 131072
+      blob_id: 36533
+    - id: 717123
+      asset_id: 109295
+      name: gp02-3.j1
+      size: 131072
+      blob_id: 36540
+    - id: 717124
+      asset_id: 109295
+      name: gp03-3.k1
+      size: 131072
+      blob_id: 36560
+    - id: 717125
+      asset_id: 109295
+      name: gp04-.f3
+      size: 131072
+      blob_id: 36534
+    - id: 717126
+      asset_id: 109295
+      name: gp05-.h3
+      size: 131072
+      blob_id: 36535
+    - id: 717127
+      asset_id: 109295
+      name: gp06-3.j3
+      size: 131072
+      blob_id: 36561
+    - id: 717128
+      asset_id: 109295
+      name: gp07-3.k3
+      size: 131072
+      blob_id: 36562
+    - id: 717129
+      asset_id: 109295
+      name: gp10-1.y6
+      size: 65536
+      blob_id: 36538
+    - id: 717130
+      asset_id: 109295
+      name: gp11-1.z6
+      size: 65536
+      blob_id: 36539
+    - id: 717131
+      asset_id: 109295
+      name: mah-00.y1
+      size: 524288
+      blob_id: 36544
+    - id: 717132
+      asset_id: 109295
+      name: mah-01.z1
+      size: 524288
+      blob_id: 36545
+    - id: 717133
+      asset_id: 109295
+      name: mah-02.a1
+      size: 524288
+      blob_id: 36546
+    - id: 717134
+      asset_id: 109295
+      name: mah-03.y4
+      size: 524288
+      blob_id: 36547
+    - id: 717135
+      asset_id: 109295
+      name: mah-04.z4
+      size: 524288
+      blob_id: 36548
+    - id: 717136
+      asset_id: 109295
+      name: mah-05.y9
+      size: 524288
+      blob_id: 36549
+    - id: 717137
+      asset_id: 109295
+      name: mah-06.z9
+      size: 524288
+      blob_id: 36550
+    - id: 717138
+      asset_id: 109295
+      name: mah-07.a9
+      size: 524288
+      blob_id: 36551
+    - id: 717139
+      asset_id: 109295
+      name: mah-08.y12
+      size: 524288
+      blob_id: 36552
+    - id: 717140
+      asset_id: 109295
+      name: mah-09.z12
+      size: 524288
+      blob_id: 36553
+    - id: 717141
+      asset_id: 109295
+      name: mah-10.a12
+      size: 524288
+      blob_id: 36554
+    - id: 717142
+      asset_id: 109295
+      name: mah-11.f13
+      size: 524288
+      blob_id: 36555
+- release:
+    id: 93703
+    game_id: 3395
+    description: ""
+    release_date: 19910000
+  names:
+  - id: 225190
+    kind: 3
+    kind_id: 93703
+    language: 1
+    name: Robocop 2 (US v0.05)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 109296
+      kind: 3
+      kind_id: 93703
+      type: 1
+      name: robocop2ua.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 717143
+      asset_id: 109296
+      name: go-00.f1
+      size: 131072
+      blob_id: 36532
+    - id: 717144
+      asset_id: 109296
+      name: go-01-1.h1
+      size: 131072
+      blob_id: 36533
+    - id: 717145
+      asset_id: 109296
+      name: go-04.f3
+      size: 131072
+      blob_id: 36534
+    - id: 717146
+      asset_id: 109296
+      name: go-05-1.h3
+      size: 131072
+      blob_id: 36535
+    - id: 717147
+      asset_id: 109296
+      name: go-12.v7
+      size: 1024
+      blob_id: 16526
+    - id: 717148
+      asset_id: 109296
+      name: gp-08.j13
+      size: 131072
+      blob_id: 36536
+    - id: 717149
+      asset_id: 109296
+      name: gp-09.k13
+      size: 65536
+      blob_id: 36537
+    - id: 717150
+      asset_id: 109296
+      name: gp10-1.y6
+      size: 65536
+      blob_id: 36538
+    - id: 717151
+      asset_id: 109296
+      name: gp11-1.z6
+      size: 65536
+      blob_id: 36539
+    - id: 717152
+      asset_id: 109296
+      name: mah-00.y1
+      size: 524288
+      blob_id: 36544
+    - id: 717153
+      asset_id: 109296
+      name: mah-01.z1
+      size: 524288
+      blob_id: 36545
+    - id: 717154
+      asset_id: 109296
+      name: mah-02.a1
+      size: 524288
+      blob_id: 36546
+    - id: 717155
+      asset_id: 109296
+      name: mah-03.y4
+      size: 524288
+      blob_id: 36547
+    - id: 717156
+      asset_id: 109296
+      name: mah-04.z4
+      size: 524288
+      blob_id: 36548
+    - id: 717157
+      asset_id: 109296
+      name: mah-05.y9
+      size: 524288
+      blob_id: 36549
+    - id: 717158
+      asset_id: 109296
+      name: mah-06.z9
+      size: 524288
+      blob_id: 36550
+    - id: 717159
+      asset_id: 109296
+      name: mah-07.a9
+      size: 524288
+      blob_id: 36551
+    - id: 717160
+      asset_id: 109296
+      name: mah-08.y12
+      size: 524288
+      blob_id: 36552
+    - id: 717161
+      asset_id: 109296
+      name: mah-09.z12
+      size: 524288
+      blob_id: 36553
+    - id: 717162
+      asset_id: 109296
+      name: mah-10.a12
+      size: 524288
+      blob_id: 36554
+    - id: 717163
+      asset_id: 109296
+      name: mah-11.f13
+      size: 524288
+      blob_id: 36555
+    - id: 717164
+      asset_id: 109296
+      name: robo02.j1
+      size: 131072
+      blob_id: 36563
+    - id: 717165
+      asset_id: 109296
+      name: robo03.k1
+      size: 131072
+      blob_id: 36564
+    - id: 717166
+      asset_id: 109296
+      name: robo06.j3
+      size: 131072
+      blob_id: 36565
+    - id: 717167
+      asset_id: 109296
+      name: robo07.k3
+      size: 131072
+      blob_id: 36566

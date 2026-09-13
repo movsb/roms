@@ -10,6 +10,24 @@ names:
   language: 1
   name: kick
   source: ""
+- id: 186621
+  kind: 2
+  kind_id: 2205
+  language: 1
+  name: KICKMAN
+  source: ""
+- id: 186622
+  kind: 2
+  kind_id: 2205
+  language: 2
+  name: 小丑接气球 (直立型)
+  source: trimui
+- id: 192339
+  kind: 2
+  kind_id: 2205
+  language: 1
+  name: Kick (cocktail)
+  source: mame
 game_developers:
 - game_id: 2205
   developer_id: 74
@@ -40,103 +58,6 @@ releases:
   - release_id: 2205
     publisher_id: 46
   assets:
-  - asset:
-      id: 2204
-      kind: 3
-      kind_id: 2205
-      type: 1
-      name: kick.zip
-      description: ""
-      format: 2
-      size: 36183
-      blob_id: 0
-      debug: kick.zip
-    entries:
-    - id: 35878
-      asset_id: 2204
-      name: 1200a-v2.b3
-      size: 4096
-      blob_id: 2559
-    - id: 35879
-      asset_id: 2204
-      name: 1300b-v2.b4
-      size: 4096
-      blob_id: 2560
-    - id: 35880
-      asset_id: 2204
-      name: 1400c-v2.b5
-      size: 4096
-      blob_id: 2561
-    - id: 35881
-      asset_id: 2204
-      name: 1500d-v2.d4
-      size: 4096
-      blob_id: 2562
-    - id: 35882
-      asset_id: 2204
-      name: 1600e-v2.d5
-      size: 4096
-      blob_id: 2563
-    - id: 35883
-      asset_id: 2204
-      name: 1700f-v2.d6
-      size: 4096
-      blob_id: 2564
-    - id: 35884
-      asset_id: 2204
-      name: 1800g-v2.g4
-      size: 4096
-      blob_id: 2565
-    - id: 35885
-      asset_id: 2204
-      name: 1900h-v2.g5
-      size: 4096
-      blob_id: 2566
-    - id: 35886
-      asset_id: 2204
-      name: 2600a-v2.1e
-      size: 8192
-      blob_id: 2575
-    - id: 35887
-      asset_id: 2204
-      name: 2700b-v2.1d
-      size: 8192
-      blob_id: 2574
-    - id: 35888
-      asset_id: 2204
-      name: 2800c-v2.1b
-      size: 8192
-      blob_id: 2573
-    - id: 35889
-      asset_id: 2204
-      name: 2900d-v2.1a
-      size: 8192
-      blob_id: 2572
-    - id: 35890
-      asset_id: 2204
-      name: 4200-a.a7
-      size: 4096
-      blob_id: 2569
-    - id: 35891
-      asset_id: 2204
-      name: 4300-b.a8
-      size: 4096
-      blob_id: 2570
-    - id: 35892
-      asset_id: 2204
-      name: 4400-c.a9
-      size: 4096
-      blob_id: 2571
-    - id: 35893
-      asset_id: 2204
-      name: 4500-d.a10
-      size: 4096
-      blob_id: 2568
-    - id: 35894
-      asset_id: 2204
-      name: 82s123.12d
-      size: 32
-      blob_id: 1649
   - asset:
       id: 43778
       kind: 3
@@ -312,10 +233,121 @@ releases:
     language: 1
     name: Kick (upright)
     source: mame
-  release_publishers: []
+  - id: 184044
+    kind: 3
+    kind_id: 48902
+    language: 1
+    name: kick
+    source: ""
+  - id: 184045
+    kind: 3
+    kind_id: 48902
+    language: 2
+    name: 小丑踢气球 (直立型)
+    source: trimui
+  release_publishers:
+  - release_id: 48902
+    publisher_id: 46
   assets:
   - asset:
-      id: 61972
+      id: 2204
+      kind: 3
+      kind_id: 48902
+      type: 1
+      name: kick.zip
+      description: ""
+      format: 2
+      size: 36183
+      blob_id: 0
+      debug: kick.zip
+    entries:
+    - id: 35878
+      asset_id: 2204
+      name: 1200a-v2.b3
+      size: 4096
+      blob_id: 2559
+    - id: 35879
+      asset_id: 2204
+      name: 1300b-v2.b4
+      size: 4096
+      blob_id: 2560
+    - id: 35880
+      asset_id: 2204
+      name: 1400c-v2.b5
+      size: 4096
+      blob_id: 2561
+    - id: 35881
+      asset_id: 2204
+      name: 1500d-v2.d4
+      size: 4096
+      blob_id: 2562
+    - id: 35882
+      asset_id: 2204
+      name: 1600e-v2.d5
+      size: 4096
+      blob_id: 2563
+    - id: 35883
+      asset_id: 2204
+      name: 1700f-v2.d6
+      size: 4096
+      blob_id: 2564
+    - id: 35884
+      asset_id: 2204
+      name: 1800g-v2.g4
+      size: 4096
+      blob_id: 2565
+    - id: 35885
+      asset_id: 2204
+      name: 1900h-v2.g5
+      size: 4096
+      blob_id: 2566
+    - id: 35886
+      asset_id: 2204
+      name: 2600a-v2.1e
+      size: 8192
+      blob_id: 2575
+    - id: 35887
+      asset_id: 2204
+      name: 2700b-v2.1d
+      size: 8192
+      blob_id: 2574
+    - id: 35888
+      asset_id: 2204
+      name: 2800c-v2.1b
+      size: 8192
+      blob_id: 2573
+    - id: 35889
+      asset_id: 2204
+      name: 2900d-v2.1a
+      size: 8192
+      blob_id: 2572
+    - id: 35890
+      asset_id: 2204
+      name: 4200-a.a7
+      size: 4096
+      blob_id: 2569
+    - id: 35891
+      asset_id: 2204
+      name: 4300-b.a8
+      size: 4096
+      blob_id: 2570
+    - id: 35892
+      asset_id: 2204
+      name: 4400-c.a9
+      size: 4096
+      blob_id: 2571
+    - id: 35893
+      asset_id: 2204
+      name: 4500-d.a10
+      size: 4096
+      blob_id: 2568
+    - id: 35894
+      asset_id: 2204
+      name: 82s123.12d
+      size: 32
+      blob_id: 1649
+  - asset:
+      id: 102448
       kind: 3
       kind_id: 48902
       type: 1
@@ -326,83 +358,495 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 215847
-      asset_id: 61972
+    - id: 641490
+      asset_id: 102448
       name: 1200a-v2.b3
       size: 4096
       blob_id: 2559
-    - id: 215848
-      asset_id: 61972
+    - id: 641491
+      asset_id: 102448
       name: 1300b-v2.b4
       size: 4096
       blob_id: 2560
-    - id: 215849
-      asset_id: 61972
+    - id: 641492
+      asset_id: 102448
       name: 1400c-v2.b5
       size: 4096
       blob_id: 2561
-    - id: 215850
-      asset_id: 61972
+    - id: 641493
+      asset_id: 102448
       name: 1500d-v2.d4
       size: 4096
       blob_id: 2562
-    - id: 215851
-      asset_id: 61972
+    - id: 641494
+      asset_id: 102448
       name: 1600e-v2.d5
       size: 4096
       blob_id: 2563
-    - id: 215852
-      asset_id: 61972
+    - id: 641495
+      asset_id: 102448
       name: 1700f-v2.d6
       size: 4096
       blob_id: 2564
-    - id: 215853
-      asset_id: 61972
+    - id: 641496
+      asset_id: 102448
       name: 1800g-v2.g4
       size: 4096
       blob_id: 2565
-    - id: 215854
-      asset_id: 61972
+    - id: 641497
+      asset_id: 102448
       name: 1900h-v2.g5
       size: 4096
       blob_id: 2566
-    - id: 215855
-      asset_id: 61972
+    - id: 641498
+      asset_id: 102448
       name: 2600a-v2.1e
       size: 8192
       blob_id: 2575
-    - id: 215856
-      asset_id: 61972
+    - id: 641499
+      asset_id: 102448
       name: 2700b-v2.1d
       size: 8192
       blob_id: 2574
-    - id: 215857
-      asset_id: 61972
+    - id: 641500
+      asset_id: 102448
       name: 2800c-v2.1b
       size: 8192
       blob_id: 2573
-    - id: 215858
-      asset_id: 61972
+    - id: 641501
+      asset_id: 102448
       name: 2900d-v2.1a
       size: 8192
       blob_id: 2572
-    - id: 215859
-      asset_id: 61972
+    - id: 641502
+      asset_id: 102448
       name: 4200-a.a7
       size: 4096
       blob_id: 2569
-    - id: 215860
-      asset_id: 61972
+    - id: 641503
+      asset_id: 102448
       name: 4300-b.a8
       size: 4096
       blob_id: 2570
-    - id: 215861
-      asset_id: 61972
+    - id: 641504
+      asset_id: 102448
       name: 4400-c.a9
       size: 4096
       blob_id: 2571
-    - id: 215862
-      asset_id: 61972
+    - id: 641505
+      asset_id: 102448
       name: 4500-d.a10
       size: 4096
       blob_id: 2568
+- release:
+    id: 87245
+    game_id: 2205
+    description: ""
+    release_date: 19810000
+  names:
+  - id: 215454
+    kind: 3
+    kind_id: 87245
+    language: 1
+    name: Kick (cocktail)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 102452
+      kind: 3
+      kind_id: 87245
+      type: 1
+      name: kickc.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 641582
+      asset_id: 102452
+      name: 1000-g.g4
+      size: 4096
+      blob_id: 251291
+    - id: 641583
+      asset_id: 102452
+      name: 1100-h.g5
+      size: 4096
+      blob_id: 251292
+    - id: 641584
+      asset_id: 102452
+      name: 1200-a.b3
+      size: 4096
+      blob_id: 251293
+    - id: 641585
+      asset_id: 102452
+      name: 1300-b.b4
+      size: 4096
+      blob_id: 251294
+    - id: 641586
+      asset_id: 102452
+      name: 1400-c.b5
+      size: 4096
+      blob_id: 251295
+    - id: 641587
+      asset_id: 102452
+      name: 1500-d.d4
+      size: 4096
+      blob_id: 251296
+    - id: 641588
+      asset_id: 102452
+      name: 1600-e.d5
+      size: 4096
+      blob_id: 251297
+    - id: 641589
+      asset_id: 102452
+      name: 1700-f.d6
+      size: 4096
+      blob_id: 251298
+    - id: 641590
+      asset_id: 102452
+      name: 2600-a.1e
+      size: 8192
+      blob_id: 251299
+    - id: 641591
+      asset_id: 102452
+      name: 2700-b.1d
+      size: 8192
+      blob_id: 251300
+    - id: 641592
+      asset_id: 102452
+      name: 2800-c.1b
+      size: 8192
+      blob_id: 251301
+    - id: 641593
+      asset_id: 102452
+      name: 2900-d.1a
+      size: 8192
+      blob_id: 251302
+    - id: 641594
+      asset_id: 102452
+      name: 4200-a.a7
+      size: 4096
+      blob_id: 2569
+    - id: 641595
+      asset_id: 102452
+      name: 4300-b.a8
+      size: 4096
+      blob_id: 2570
+    - id: 641596
+      asset_id: 102452
+      name: 4400-c.a9
+      size: 4096
+      blob_id: 2571
+    - id: 641597
+      asset_id: 102452
+      name: 4500-d.a10
+      size: 4096
+      blob_id: 2568
+  - asset:
+      id: 118940
+      kind: 3
+      kind_id: 87245
+      type: 1
+      name: kickc.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 816311
+      asset_id: 118940
+      name: 1000-g.g4
+      size: 4096
+      blob_id: 251291
+    - id: 816312
+      asset_id: 118940
+      name: 1100-h.g5
+      size: 4096
+      blob_id: 251292
+    - id: 816313
+      asset_id: 118940
+      name: 1200-a.b3
+      size: 4096
+      blob_id: 251293
+    - id: 816314
+      asset_id: 118940
+      name: 1300-b.b4
+      size: 4096
+      blob_id: 251294
+    - id: 816315
+      asset_id: 118940
+      name: 1400-c.b5
+      size: 4096
+      blob_id: 251295
+    - id: 816316
+      asset_id: 118940
+      name: 1500-d.d4
+      size: 4096
+      blob_id: 251296
+    - id: 816317
+      asset_id: 118940
+      name: 1600-e.d5
+      size: 4096
+      blob_id: 251297
+    - id: 816318
+      asset_id: 118940
+      name: 1700-f.d6
+      size: 4096
+      blob_id: 251298
+    - id: 816319
+      asset_id: 118940
+      name: 2600-a.1e
+      size: 8192
+      blob_id: 251299
+    - id: 816320
+      asset_id: 118940
+      name: 2700-b.1d
+      size: 8192
+      blob_id: 251300
+    - id: 816321
+      asset_id: 118940
+      name: 2800-c.1b
+      size: 8192
+      blob_id: 251301
+    - id: 816322
+      asset_id: 118940
+      name: 2900-d.1a
+      size: 8192
+      blob_id: 251302
+    - id: 816323
+      asset_id: 118940
+      name: 4200-a.a7
+      size: 4096
+      blob_id: 2569
+    - id: 816324
+      asset_id: 118940
+      name: 4300-b.a8
+      size: 4096
+      blob_id: 2570
+    - id: 816325
+      asset_id: 118940
+      name: 4400-c.a9
+      size: 4096
+      blob_id: 2571
+    - id: 816326
+      asset_id: 118940
+      name: 4500-d.a10
+      size: 4096
+      blob_id: 2568
+    - id: 816327
+      asset_id: 118940
+      name: 82s123.12d
+      size: 32
+      blob_id: 1649
+- release:
+    id: 102846
+    game_id: 2205
+    description: ""
+    release_date: 0
+  names:
+  - id: 237478
+    kind: 3
+    kind_id: 102846
+    language: 1
+    name: KICKMAN
+    source: ""
+  - id: 237479
+    kind: 3
+    kind_id: 102846
+    language: 2
+    name: 小丑接气球 (直立型)
+    source: trimui
+  release_publishers: []
+  assets:
+  - asset:
+      id: 102456
+      kind: 3
+      kind_id: 102846
+      type: 1
+      name: kickman.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 641628
+      asset_id: 102456
+      name: 1200-a-ur.b3
+      size: 4096
+      blob_id: 251305
+    - id: 641629
+      asset_id: 102456
+      name: 1300-b-ur.b4
+      size: 4096
+      blob_id: 251306
+    - id: 641630
+      asset_id: 102456
+      name: 1400-c-ur.b5
+      size: 4096
+      blob_id: 251307
+    - id: 641631
+      asset_id: 102456
+      name: 1500-d-ur.d4
+      size: 4096
+      blob_id: 251308
+    - id: 641632
+      asset_id: 102456
+      name: 1600-e-ur.d5
+      size: 4096
+      blob_id: 251309
+    - id: 641633
+      asset_id: 102456
+      name: 1700-f-ur.d6
+      size: 4096
+      blob_id: 251310
+    - id: 641634
+      asset_id: 102456
+      name: 1800g-v2.g4
+      size: 4096
+      blob_id: 2565
+    - id: 641635
+      asset_id: 102456
+      name: 1900h-v2.g5
+      size: 4096
+      blob_id: 2566
+    - id: 641636
+      asset_id: 102456
+      name: 2600a-v2.1e
+      size: 8192
+      blob_id: 2575
+    - id: 641637
+      asset_id: 102456
+      name: 2700b-v2.1d
+      size: 8192
+      blob_id: 2574
+    - id: 641638
+      asset_id: 102456
+      name: 2800c-v2.1b
+      size: 8192
+      blob_id: 2573
+    - id: 641639
+      asset_id: 102456
+      name: 2900d-v2.1a
+      size: 8192
+      blob_id: 2572
+    - id: 641640
+      asset_id: 102456
+      name: 4200-a.a7
+      size: 4096
+      blob_id: 2569
+    - id: 641641
+      asset_id: 102456
+      name: 4300-b.a8
+      size: 4096
+      blob_id: 2570
+    - id: 641642
+      asset_id: 102456
+      name: 4400-c.a9
+      size: 4096
+      blob_id: 2571
+    - id: 641643
+      asset_id: 102456
+      name: 4500-d.a10
+      size: 4096
+      blob_id: 2568
+  - asset:
+      id: 118943
+      kind: 3
+      kind_id: 102846
+      type: 1
+      name: kickman.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 816359
+      asset_id: 118943
+      name: 1200-a-ur.b3
+      size: 4096
+      blob_id: 251305
+    - id: 816360
+      asset_id: 118943
+      name: 1300-b-ur.b4
+      size: 4096
+      blob_id: 251306
+    - id: 816361
+      asset_id: 118943
+      name: 1400-c-ur.b5
+      size: 4096
+      blob_id: 251307
+    - id: 816362
+      asset_id: 118943
+      name: 1500-d-ur.d4
+      size: 4096
+      blob_id: 251308
+    - id: 816363
+      asset_id: 118943
+      name: 1600-e-ur.d5
+      size: 4096
+      blob_id: 251309
+    - id: 816364
+      asset_id: 118943
+      name: 1700-f-ur.d6
+      size: 4096
+      blob_id: 251310
+    - id: 816365
+      asset_id: 118943
+      name: 1800g-v2.g4
+      size: 4096
+      blob_id: 2565
+    - id: 816366
+      asset_id: 118943
+      name: 1900h-v2.g5
+      size: 4096
+      blob_id: 2566
+    - id: 816367
+      asset_id: 118943
+      name: 2600a-v2.1e
+      size: 8192
+      blob_id: 2575
+    - id: 816368
+      asset_id: 118943
+      name: 2700b-v2.1d
+      size: 8192
+      blob_id: 2574
+    - id: 816369
+      asset_id: 118943
+      name: 2800c-v2.1b
+      size: 8192
+      blob_id: 2573
+    - id: 816370
+      asset_id: 118943
+      name: 2900d-v2.1a
+      size: 8192
+      blob_id: 2572
+    - id: 816371
+      asset_id: 118943
+      name: 4200-a.a7
+      size: 4096
+      blob_id: 2569
+    - id: 816372
+      asset_id: 118943
+      name: 4300-b.a8
+      size: 4096
+      blob_id: 2570
+    - id: 816373
+      asset_id: 118943
+      name: 4400-c.a9
+      size: 4096
+      blob_id: 2571
+    - id: 816374
+      asset_id: 118943
+      name: 4500-d.a10
+      size: 4096
+      blob_id: 2568
+    - id: 816375
+      asset_id: 118943
+      name: 82s123.12d
+      size: 32
+      blob_id: 1649

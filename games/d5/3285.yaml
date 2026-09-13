@@ -16,6 +16,24 @@ names:
   language: 2
   name: 雷达区域
   source: trimui
+- id: 194107
+  kind: 2
+  kind_id: 3285
+  language: 1
+  name: Outline
+  source: mame
+- id: 195425
+  kind: 2
+  kind_id: 3285
+  language: 1
+  name: Radar Zone (Rev.1)
+  source: mame
+- id: 195426
+  kind: 2
+  kind_id: 3285
+  language: 1
+  name: Radar Zone (Tuni)
+  source: mame
 game_developers:
 - game_id: 3285
   developer_id: 483
@@ -144,24 +162,10 @@ releases:
       blob_id: 88758
       debug: arcade/wheel/radarzon.png
     entries: []
-- release:
-    id: 63072
-    game_id: 3285
-    description: ""
-    release_date: 19820000
-  names:
-  - id: 156403
-    kind: 3
-    kind_id: 63072
-    language: 1
-    name: Radar Zone
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 76142
+      id: 108778
       kind: 3
-      kind_id: 63072
+      kind_id: 3285
       type: 1
       name: radarzon.zip
       description: ""
@@ -170,68 +174,341 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 315876
-      asset_id: 76142
+    - id: 709174
+      asset_id: 108778
       name: 5b.bin
       size: 2048
       blob_id: 2243
-    - id: 315877
-      asset_id: 76142
+    - id: 709175
+      asset_id: 108778
       name: 82s123.10k
       size: 32
       blob_id: 13154
-    - id: 315878
-      asset_id: 76142
+    - id: 709176
+      asset_id: 108778
       name: 82s185.10h
       size: 2048
       blob_id: 13155
-    - id: 315879
-      asset_id: 76142
+    - id: 709177
+      asset_id: 108778
       name: rd-cp1.bin
       size: 2048
       blob_id: 34942
-    - id: 315880
-      asset_id: 76142
+    - id: 709178
+      asset_id: 108778
       name: rd-cp2.bin
       size: 2048
       blob_id: 34943
-    - id: 315881
-      asset_id: 76142
+    - id: 709179
+      asset_id: 108778
       name: rd-cp3.bin
       size: 2048
       blob_id: 34944
-    - id: 315882
-      asset_id: 76142
+    - id: 709180
+      asset_id: 108778
       name: rd-gp1.bin
       size: 4096
       blob_id: 34945
-    - id: 315883
-      asset_id: 76142
+    - id: 709181
+      asset_id: 108778
       name: rd-gp2.bin
       size: 4096
       blob_id: 34946
-    - id: 315884
-      asset_id: 76142
+    - id: 709182
+      asset_id: 108778
       name: rd-gp3.bin
       size: 4096
       blob_id: 34947
-    - id: 315885
-      asset_id: 76142
+    - id: 709183
+      asset_id: 108778
       name: rd-gp4.bin
       size: 4096
       blob_id: 34948
-    - id: 315886
-      asset_id: 76142
+    - id: 709184
+      asset_id: 108778
       name: rd-gp5.bin
       size: 4096
       blob_id: 34949
-    - id: 315887
-      asset_id: 76142
+    - id: 709185
+      asset_id: 108778
       name: rd-sdp1.bin
       size: 2048
       blob_id: 34950
-    - id: 315888
-      asset_id: 76142
+    - id: 709186
+      asset_id: 108778
       name: rd-sp1.bin
       size: 2048
       blob_id: 34951
+- release:
+    id: 93237
+    game_id: 3285
+    description: ""
+    release_date: 19820000
+  names:
+  - id: 224561
+    kind: 3
+    kind_id: 93237
+    language: 1
+    name: Radar Zone (Rev.1)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 108779
+      kind: 3
+      kind_id: 93237
+      type: 1
+      name: radarzon1.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 709187
+      asset_id: 108779
+      name: 5b.bin
+      size: 2048
+      blob_id: 2243
+    - id: 709188
+      asset_id: 108779
+      name: 82s123.10k
+      size: 32
+      blob_id: 13154
+    - id: 709189
+      asset_id: 108779
+      name: 82s185.10h
+      size: 2048
+      blob_id: 13155
+    - id: 709190
+      asset_id: 108779
+      name: r1-gp1.bin
+      size: 4096
+      blob_id: 268976
+    - id: 709191
+      asset_id: 108779
+      name: r1-gp2.bin
+      size: 4096
+      blob_id: 268977
+    - id: 709192
+      asset_id: 108779
+      name: r1-gp3.bin
+      size: 4096
+      blob_id: 268978
+    - id: 709193
+      asset_id: 108779
+      name: r1-gp4.bin
+      size: 4096
+      blob_id: 268979
+    - id: 709194
+      asset_id: 108779
+      name: r1-gp5.bin
+      size: 4096
+      blob_id: 268980
+    - id: 709195
+      asset_id: 108779
+      name: rd-cp1.bin
+      size: 2048
+      blob_id: 34942
+    - id: 709196
+      asset_id: 108779
+      name: rd-cp2.bin
+      size: 2048
+      blob_id: 34943
+    - id: 709197
+      asset_id: 108779
+      name: rd-cp3.bin
+      size: 2048
+      blob_id: 34944
+    - id: 709198
+      asset_id: 108779
+      name: rd-sdp1.bin
+      size: 2048
+      blob_id: 34950
+    - id: 709199
+      asset_id: 108779
+      name: rd-sp1.bin
+      size: 2048
+      blob_id: 34951
+- release:
+    id: 93238
+    game_id: 3285
+    description: ""
+    release_date: 19820000
+  names:
+  - id: 224562
+    kind: 3
+    kind_id: 93238
+    language: 1
+    name: Radar Zone (Tuni)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 108780
+      kind: 3
+      kind_id: 93238
+      type: 1
+      name: radarzont.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 709200
+      asset_id: 108780
+      name: 5b.bin
+      size: 2048
+      blob_id: 2243
+    - id: 709201
+      asset_id: 108780
+      name: 82s123.10k
+      size: 32
+      blob_id: 13154
+    - id: 709202
+      asset_id: 108780
+      name: 82s185.10h
+      size: 2048
+      blob_id: 13155
+    - id: 709203
+      asset_id: 108780
+      name: rd-cp1.bin
+      size: 2048
+      blob_id: 34942
+    - id: 709204
+      asset_id: 108780
+      name: rd-cp2.bin
+      size: 2048
+      blob_id: 34943
+    - id: 709205
+      asset_id: 108780
+      name: rd-cp3.bin
+      size: 2048
+      blob_id: 34944
+    - id: 709206
+      asset_id: 108780
+      name: rd-sdp1.bin
+      size: 2048
+      blob_id: 34950
+    - id: 709207
+      asset_id: 108780
+      name: rd-sp1.bin
+      size: 2048
+      blob_id: 34951
+    - id: 709208
+      asset_id: 108780
+      name: rt-gp1.bin
+      size: 4096
+      blob_id: 262453
+    - id: 709209
+      asset_id: 108780
+      name: rt-gp2.bin
+      size: 4096
+      blob_id: 262454
+    - id: 709210
+      asset_id: 108780
+      name: rt-gp3.bin
+      size: 4096
+      blob_id: 268981
+    - id: 709211
+      asset_id: 108780
+      name: rt-gp4.bin
+      size: 4096
+      blob_id: 268982
+    - id: 709212
+      asset_id: 108780
+      name: rt-gp5.bin
+      size: 4096
+      blob_id: 268983
+- release:
+    id: 104587
+    game_id: 3285
+    description: ""
+    release_date: 19820000
+  names:
+  - id: 239563
+    kind: 3
+    kind_id: 104587
+    language: 1
+    name: Outline
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 106135
+      kind: 3
+      kind_id: 104587
+      type: 1
+      name: outline.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 680850
+      asset_id: 106135
+      name: 5b.bin
+      size: 2048
+      blob_id: 2243
+    - id: 680851
+      asset_id: 106135
+      name: 82s123.10k
+      size: 32
+      blob_id: 13154
+    - id: 680852
+      asset_id: 106135
+      name: 82s185.10h
+      size: 2048
+      blob_id: 13155
+    - id: 680853
+      asset_id: 106135
+      name: ot-gp3.bin
+      size: 4096
+      blob_id: 262449
+    - id: 680854
+      asset_id: 106135
+      name: ot-gp4.bin
+      size: 4096
+      blob_id: 262450
+    - id: 680855
+      asset_id: 106135
+      name: ot-gp5.bin
+      size: 4096
+      blob_id: 262451
+    - id: 680856
+      asset_id: 106135
+      name: ot-sdp1.bin
+      size: 2048
+      blob_id: 262452
+    - id: 680857
+      asset_id: 106135
+      name: ot-sp1.bin
+      size: 4096
+      blob_id: 22028
+    - id: 680858
+      asset_id: 106135
+      name: rd-cp1.bin
+      size: 2048
+      blob_id: 34942
+    - id: 680859
+      asset_id: 106135
+      name: rd-cp2.bin
+      size: 2048
+      blob_id: 34943
+    - id: 680860
+      asset_id: 106135
+      name: rd-cp3.bin
+      size: 2048
+      blob_id: 34944
+    - id: 680861
+      asset_id: 106135
+      name: rt-gp1.bin
+      size: 4096
+      blob_id: 262453
+    - id: 680862
+      asset_id: 106135
+      name: rt-gp2.bin
+      size: 4096
+      blob_id: 262454

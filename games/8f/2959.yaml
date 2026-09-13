@@ -16,6 +16,12 @@ names:
   language: 2
   name: 奇幻世界 (2/3-player 竖立机台)
   source: trimui
+- id: 194001
+  kind: 2
+  kind_id: 2959
+  language: 1
+  name: Off the Wall (2-player cocktail)
+  source: mame
 game_developers:
 - game_id: 2959
   developer_id: 339
@@ -139,24 +145,10 @@ releases:
       blob_id: 89259
       debug: arcade/wheel/offtwall.png
     entries: []
-- release:
-    id: 60032
-    game_id: 2959
-    description: ""
-    release_date: 19910000
-  names:
-  - id: 150442
-    kind: 3
-    kind_id: 60032
-    language: 1
-    name: Off the Wall (2/3-player upright)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 73102
+      id: 105935
       kind: 3
-      kind_id: 60032
+      kind_id: 2959
       type: 1
       name: offtwall.zip
       description: ""
@@ -165,58 +157,134 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 284111
-      asset_id: 73102
+    - id: 678511
+      asset_id: 105935
       name: 136090-1003.15f.bin
       size: 279
-      blob_id: 154809
-    - id: 284112
-      asset_id: 73102
+      blob_id: 261759
+    - id: 678512
+      asset_id: 105935
       name: 136090-1014.14s
       size: 131072
       blob_id: 31421
-    - id: 284113
-      asset_id: 73102
+    - id: 678513
+      asset_id: 105935
       name: 136090-1015.18s
       size: 131072
       blob_id: 31422
-    - id: 284114
-      asset_id: 73102
+    - id: 678514
+      asset_id: 105935
       name: 136090-1016.14p
       size: 131072
       blob_id: 31423
-    - id: 284115
-      asset_id: 73102
+    - id: 678515
+      asset_id: 105935
       name: 136090-1017.18p
       size: 131072
       blob_id: 31424
-    - id: 284116
-      asset_id: 73102
+    - id: 678516
+      asset_id: 105935
       name: 136090-1018.14m
       size: 131072
       blob_id: 31425
-    - id: 284117
-      asset_id: 73102
+    - id: 678517
+      asset_id: 105935
       name: 136090-1019.18m
       size: 131072
       blob_id: 31426
-    - id: 284118
-      asset_id: 73102
+    - id: 678518
+      asset_id: 105935
       name: 136090-1020.12c
       size: 65536
       blob_id: 31427
-    - id: 284119
-      asset_id: 73102
+    - id: 678519
+      asset_id: 105935
       name: 136090-2012.17e
       size: 131072
       blob_id: 31428
-    - id: 284120
-      asset_id: 73102
+    - id: 678520
+      asset_id: 105935
       name: 136090-2013.17j
       size: 131072
       blob_id: 31429
-    - id: 284121
-      asset_id: 73102
+    - id: 678521
+      asset_id: 105935
       name: offtwall-eeprom.17l
       size: 2048
-      blob_id: 154810
+      blob_id: 261760
+- release:
+    id: 90519
+    game_id: 2959
+    description: ""
+    release_date: 19910000
+  names:
+  - id: 220514
+    kind: 3
+    kind_id: 90519
+    language: 1
+    name: Off the Wall (2-player cocktail)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 105936
+      kind: 3
+      kind_id: 90519
+      type: 1
+      name: offtwallc.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 678522
+      asset_id: 105936
+      name: 090-1614.rom
+      size: 131072
+      blob_id: 261761
+    - id: 678523
+      asset_id: 105936
+      name: 090-1615.rom
+      size: 131072
+      blob_id: 261762
+    - id: 678524
+      asset_id: 105936
+      name: 090-1616.rom
+      size: 131072
+      blob_id: 261763
+    - id: 678525
+      asset_id: 105936
+      name: 090-1617.rom
+      size: 131072
+      blob_id: 261764
+    - id: 678526
+      asset_id: 105936
+      name: 090-1618.rom
+      size: 131072
+      blob_id: 261765
+    - id: 678527
+      asset_id: 105936
+      name: 090-1619.rom
+      size: 131072
+      blob_id: 261766
+    - id: 678528
+      asset_id: 105936
+      name: 090-2612.rom
+      size: 131072
+      blob_id: 261767
+    - id: 678529
+      asset_id: 105936
+      name: 090-2613.rom
+      size: 131072
+      blob_id: 261768
+    - id: 678530
+      asset_id: 105936
+      name: 136090-1020.12c
+      size: 65536
+      blob_id: 31427
+    - id: 678531
+      asset_id: 105936
+      name: offtwall-eeprom.17l
+      size: 2048
+      blob_id: 261760

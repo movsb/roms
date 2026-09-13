@@ -22,6 +22,12 @@ names:
   language: 2
   name: 雷电 Ⅱ 新版 / 雷电 DX (新版 V33 PCB) (雷电 DX EEPROM)
   source: trimui
+- id: 195363
+  kind: 2
+  kind_id: 3279
+  language: 1
+  name: Raiden II New / Raiden DX (newer V33 PCB) (Raiden II EEPROM)
+  source: mame
 game_developers:
 - game_id: 3279
   developer_id: 469
@@ -128,3 +134,71 @@ releases:
       blob_id: 88293
       debug: arcade/snap/r2dx_v33.mp4
     entries: []
+- release:
+    id: 93104
+    game_id: 3279
+    description: ""
+    release_date: 19960000
+  names:
+  - id: 224371
+    kind: 3
+    kind_id: 93104
+    language: 1
+    name: Raiden II New / Raiden DX (newer V33 PCB) (Raiden II EEPROM)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 108641
+      kind: 3
+      kind_id: 93104
+      type: 1
+      name: r2dx_v33_r2.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/1830368018
+    entries:
+    - id: 707768
+      asset_id: 108641
+      name: bg.612
+      size: 4194304
+      blob_id: 34846
+    - id: 707769
+      asset_id: 108641
+      name: copx_d3.357
+      size: 131072
+      blob_id: 31299
+    - id: 707770
+      asset_id: 108641
+      name: fix.613
+      size: 262144
+      blob_id: 34847
+    - id: 707771
+      asset_id: 108641
+      name: obj1.724
+      size: 4194304
+      blob_id: 34848
+    - id: 707772
+      asset_id: 108641
+      name: obj2.725
+      size: 4194304
+      blob_id: 34849
+    - id: 707773
+      asset_id: 108641
+      name: pcm.099
+      size: 1048576
+      blob_id: 34850
+    - id: 707774
+      asset_id: 108641
+      name: prg.223
+      size: 4194304
+      blob_id: 34851
+    - id: 707775
+      asset_id: 108641
+      name: raidenii_eeprom-r2dx_v33.bin
+      size: 128
+      blob_id: 300988

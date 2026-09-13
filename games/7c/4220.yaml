@@ -10,6 +10,42 @@ names:
   language: 1
   name: thepit
   source: ""
+- id: 200108
+  kind: 2
+  kind_id: 4220
+  language: 1
+  name: The Hole (bootleg of The Pit)
+  source: mame
+- id: 200111
+  kind: 2
+  kind_id: 4220
+  language: 1
+  name: The Pit (Japan)
+  source: mame
+- id: 200112
+  kind: 2
+  kind_id: 4220
+  language: 1
+  name: The Pit (bootleg on Moon Quasar hardware)
+  source: mame
+- id: 200113
+  kind: 2
+  kind_id: 4220
+  language: 1
+  name: The Pit (US set 1)
+  source: mame
+- id: 200114
+  kind: 2
+  kind_id: 4220
+  language: 1
+  name: The Pit (US set 2)
+  source: mame
+- id: 200115
+  kind: 2
+  kind_id: 4220
+  language: 1
+  name: The Pit (US set 3)
+  source: mame
 game_developers:
 - game_id: 4220
   developer_id: 684
@@ -133,6 +169,65 @@ releases:
       blob_id: 89387
       debug: arcade/wheel/thepit.png
     entries: []
+  - asset:
+      id: 115509
+      kind: 3
+      kind_id: 4220
+      type: 1
+      name: thepit.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/477746608
+    entries:
+    - id: 768583
+      asset_id: 115509
+      name: 82s123.ic4
+      size: 32
+      blob_id: 36843
+    - id: 768584
+      asset_id: 115509
+      name: pit1.bin
+      size: 4096
+      blob_id: 306333
+    - id: 768585
+      asset_id: 115509
+      name: pit2.bin
+      size: 4096
+      blob_id: 306334
+    - id: 768586
+      asset_id: 115509
+      name: pit3.bin
+      size: 4096
+      blob_id: 306361
+    - id: 768587
+      asset_id: 115509
+      name: pit4.bin
+      size: 4096
+      blob_id: 306362
+    - id: 768588
+      asset_id: 115509
+      name: pit5.bin
+      size: 4096
+      blob_id: 306363
+    - id: 768589
+      asset_id: 115509
+      name: pit6.bin
+      size: 2048
+      blob_id: 45355
+    - id: 768590
+      asset_id: 115509
+      name: pit7.bin
+      size: 2048
+      blob_id: 306338
+    - id: 768591
+      asset_id: 115509
+      name: pit8.bin
+      size: 2048
+      blob_id: 45362
 - release:
     id: 4221
     game_id: 4220
@@ -211,73 +306,458 @@ releases:
       size: 32
       blob_id: 36843
 - release:
-    id: 73084
+    id: 99634
     game_id: 4220
     description: ""
     release_date: 19820000
   names:
-  - id: 176105
+  - id: 232797
     kind: 3
-    kind_id: 73084
+    kind_id: 99634
     language: 1
-    name: The Pit
+    name: The Pit (Japan)
     source: mame
   release_publishers: []
   assets:
   - asset:
-      id: 86154
+      id: 115510
       kind: 3
-      kind_id: 73084
+      kind_id: 99634
       type: 1
-      name: thepit.zip
+      name: thepitj.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/4103977507
+    entries:
+    - id: 768592
+      asset_id: 115510
+      name: 82s123.ic4
+      size: 32
+      blob_id: 36843
+    - id: 768593
+      asset_id: 115510
+      name: pit01.ic38
+      size: 4096
+      blob_id: 306364
+    - id: 768594
+      asset_id: 115510
+      name: pit02.ic39
+      size: 4096
+      blob_id: 306365
+    - id: 768595
+      asset_id: 115510
+      name: pit03.ic40
+      size: 4096
+      blob_id: 306366
+    - id: 768596
+      asset_id: 115510
+      name: pit04.ic41
+      size: 4096
+      blob_id: 306367
+    - id: 768597
+      asset_id: 115510
+      name: pit05.ic33
+      size: 4096
+      blob_id: 306368
+    - id: 768598
+      asset_id: 115510
+      name: pit06.ic31
+      size: 2048
+      blob_id: 246235
+    - id: 768599
+      asset_id: 115510
+      name: pit07.ic30
+      size: 2048
+      blob_id: 306369
+    - id: 768600
+      asset_id: 115510
+      name: pit08.ic9
+      size: 2048
+      blob_id: 306370
+    - id: 768601
+      asset_id: 115510
+      name: pit09.ic8
+      size: 2048
+      blob_id: 306371
+- release:
+    id: 99635
+    game_id: 4220
+    description: ""
+    release_date: 0
+  names:
+  - id: 232798
+    kind: 3
+    kind_id: 99635
+    language: 1
+    name: The Pit (bootleg on Moon Quasar hardware)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 115511
+      kind: 3
+      kind_id: 99635
+      type: 1
+      name: thepitm.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/2718703706
+    entries:
+    - id: 768602
+      asset_id: 115511
+      name: 1.bin
+      size: 2048
+      blob_id: 306372
+    - id: 768603
+      asset_id: 115511
+      name: 1h.bin
+      size: 2048
+      blob_id: 306370
+    - id: 768604
+      asset_id: 115511
+      name: 1k.bin
+      size: 2048
+      blob_id: 306373
+    - id: 768605
+      asset_id: 115511
+      name: 2.bin
+      size: 2048
+      blob_id: 306374
+    - id: 768606
+      asset_id: 115511
+      name: 3.bin
+      size: 2048
+      blob_id: 306375
+    - id: 768607
+      asset_id: 115511
+      name: 4.bin
+      size: 2048
+      blob_id: 306376
+    - id: 768608
+      asset_id: 115511
+      name: 5.bin
+      size: 2048
+      blob_id: 306377
+    - id: 768609
+      asset_id: 115511
+      name: 6.bin
+      size: 2048
+      blob_id: 306378
+    - id: 768610
+      asset_id: 115511
+      name: 6l.bin
+      size: 32
+      blob_id: 2421
+    - id: 768611
+      asset_id: 115511
+      name: 7.bin
+      size: 2048
+      blob_id: 306379
+    - id: 768612
+      asset_id: 115511
+      name: 8.bin
+      size: 2048
+      blob_id: 306380
+    - id: 768613
+      asset_id: 115511
+      name: 9.bin
+      size: 2048
+      blob_id: 306381
+- release:
+    id: 99636
+    game_id: 4220
+    description: ""
+    release_date: 19820000
+  names:
+  - id: 232799
+    kind: 3
+    kind_id: 99636
+    language: 1
+    name: The Pit (US set 1)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 115512
+      kind: 3
+      kind_id: 99636
+      type: 1
+      name: thepitu1.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 391061
-      asset_id: 86154
+    - id: 768614
+      asset_id: 115512
       name: 82s123.ic4
       size: 32
       blob_id: 36843
-    - id: 391062
-      asset_id: 86154
-      name: pit1.bin
-      size: 4096
-      blob_id: 189592
-    - id: 391063
-      asset_id: 86154
-      name: pit2.bin
-      size: 4096
-      blob_id: 189593
-    - id: 391064
-      asset_id: 86154
-      name: pit3.bin
-      size: 4096
-      blob_id: 189620
-    - id: 391065
-      asset_id: 86154
-      name: pit4.bin
-      size: 4096
-      blob_id: 189621
-    - id: 391066
-      asset_id: 86154
-      name: pit5.bin
-      size: 4096
-      blob_id: 189622
-    - id: 391067
-      asset_id: 86154
-      name: pit6.bin
+    - id: 768615
+      asset_id: 115512
+      name: p30.ic30
       size: 2048
       blob_id: 45355
-    - id: 391068
-      asset_id: 86154
-      name: pit7.bin
+    - id: 768616
+      asset_id: 115512
+      name: p33b.ic33
+      size: 4096
+      blob_id: 45356
+    - id: 768617
+      asset_id: 115512
+      name: p38b.ic38
+      size: 4096
+      blob_id: 45357
+    - id: 768618
+      asset_id: 115512
+      name: p39b.ic39
+      size: 4096
+      blob_id: 45358
+    - id: 768619
+      asset_id: 115512
+      name: p40b.ic40
+      size: 4096
+      blob_id: 45359
+    - id: 768620
+      asset_id: 115512
+      name: p41b.ic41
+      size: 4096
+      blob_id: 45360
+    - id: 768621
+      asset_id: 115512
+      name: p8.ic8
       size: 2048
-      blob_id: 189597
-    - id: 391069
-      asset_id: 86154
-      name: pit8.bin
+      blob_id: 45361
+    - id: 768622
+      asset_id: 115512
+      name: p9.ic9
       size: 2048
       blob_id: 45362
+- release:
+    id: 99637
+    game_id: 4220
+    description: ""
+    release_date: 19820000
+  names:
+  - id: 232800
+    kind: 3
+    kind_id: 99637
+    language: 1
+    name: The Pit (US set 2)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 115513
+      kind: 3
+      kind_id: 99637
+      type: 1
+      name: thepitu2.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/3671814707
+    entries:
+    - id: 768623
+      asset_id: 115513
+      name: 82s123.ic4
+      size: 32
+      blob_id: 36843
+    - id: 768624
+      asset_id: 115513
+      name: p30.ic30
+      size: 2048
+      blob_id: 45355
+    - id: 768625
+      asset_id: 115513
+      name: p33.ic33
+      size: 4096
+      blob_id: 306382
+    - id: 768626
+      asset_id: 115513
+      name: p38.ic38
+      size: 4096
+      blob_id: 306383
+    - id: 768627
+      asset_id: 115513
+      name: p39.ic39
+      size: 4096
+      blob_id: 306384
+    - id: 768628
+      asset_id: 115513
+      name: p40.ic40
+      size: 4096
+      blob_id: 306385
+    - id: 768629
+      asset_id: 115513
+      name: p41.ic41
+      size: 4096
+      blob_id: 306386
+    - id: 768630
+      asset_id: 115513
+      name: p8b.ic8
+      size: 2048
+      blob_id: 45361
+    - id: 768631
+      asset_id: 115513
+      name: p9b.ic9
+      size: 2048
+      blob_id: 45362
+- release:
+    id: 99638
+    game_id: 4220
+    description: ""
+    release_date: 19820000
+  names:
+  - id: 232801
+    kind: 3
+    kind_id: 99638
+    language: 1
+    name: The Pit (US set 3)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 115514
+      kind: 3
+      kind_id: 99638
+      type: 1
+      name: thepitu3.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/2207948625
+    entries:
+    - id: 768632
+      asset_id: 115514
+      name: 82s123.ic4
+      size: 32
+      blob_id: 36843
+    - id: 768633
+      asset_id: 115514
+      name: pi-30.ic30
+      size: 2048
+      blob_id: 45355
+    - id: 768634
+      asset_id: 115514
+      name: pi-33.ic33
+      size: 4096
+      blob_id: 306387
+    - id: 768635
+      asset_id: 115514
+      name: pi-38.ic38
+      size: 4096
+      blob_id: 306333
+    - id: 768636
+      asset_id: 115514
+      name: pi-39.ic39
+      size: 4096
+      blob_id: 306334
+    - id: 768637
+      asset_id: 115514
+      name: pi-40.ic40
+      size: 4096
+      blob_id: 306361
+    - id: 768638
+      asset_id: 115514
+      name: pi-41.ic41
+      size: 4096
+      blob_id: 306388
+    - id: 768639
+      asset_id: 115514
+      name: pi-8.ic8
+      size: 2048
+      blob_id: 45361
+    - id: 768640
+      asset_id: 115514
+      name: pi-9.ic9
+      size: 2048
+      blob_id: 45362
+- release:
+    id: 104930
+    game_id: 4220
+    description: ""
+    release_date: 19820000
+  names:
+  - id: 239906
+    kind: 3
+    kind_id: 104930
+    language: 1
+    name: The Hole (bootleg of The Pit)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 115503
+      kind: 3
+      kind_id: 104930
+      type: 1
+      name: thehole.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/4246345185
+    entries:
+    - id: 768527
+      asset_id: 115503
+      name: 1.6e
+      size: 4096
+      blob_id: 306333
+    - id: 768528
+      asset_id: 115503
+      name: 2.8e
+      size: 4096
+      blob_id: 306334
+    - id: 768529
+      asset_id: 115503
+      name: 3.9e
+      size: 4096
+      blob_id: 306335
+    - id: 768530
+      asset_id: 115503
+      name: 4.10e
+      size: 4096
+      blob_id: 306336
+    - id: 768531
+      asset_id: 115503
+      name: 5.10d
+      size: 4096
+      blob_id: 306337
+    - id: 768532
+      asset_id: 115503
+      name: 6.6d
+      size: 2048
+      blob_id: 45355
+    - id: 768533
+      asset_id: 115503
+      name: 7.1l
+      size: 2048
+      blob_id: 306338
+    - id: 768534
+      asset_id: 115503
+      name: 74s288.5a
+      size: 32
+      blob_id: 36843
+    - id: 768535
+      asset_id: 115503
+      name: 8.3l
+      size: 2048
+      blob_id: 306339

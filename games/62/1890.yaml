@@ -16,6 +16,42 @@ names:
   language: 2
   name: 金牌高尔夫 '98 (v1.10)
   source: trimui
+- id: 191406
+  kind: 2
+  kind_id: 1890
+  language: 1
+  name: Golden Tee '98 (v1.00C)
+  source: mame
+- id: 191407
+  kind: 2
+  kind_id: 1890
+  language: 1
+  name: Golden Tee '98 (v1.00S)
+  source: mame
+- id: 191408
+  kind: 2
+  kind_id: 1890
+  language: 1
+  name: Golden Tee '98 Tournament (v3.02)
+  source: mame
+- id: 191409
+  kind: 2
+  kind_id: 1890
+  language: 1
+  name: Golden Tee '98 Tournament (v3.03)
+  source: mame
+- id: 191410
+  kind: 2
+  kind_id: 1890
+  language: 1
+  name: Golden Tee '98 (v1.00)
+  source: mame
+- id: 191416
+  kind: 2
+  kind_id: 1890
+  language: 1
+  name: Golden Tee Diamond Edition Tournament (v3.05T ELC)
+  source: mame
 game_developers: []
 game_genres:
 - game_id: 1890
@@ -187,24 +223,10 @@ releases:
       blob_id: 89577
       debug: arcade/wheel/gt98.png
     entries: []
-- release:
-    id: 45325
-    game_id: 1890
-    description: ""
-    release_date: 19980000
-  names:
-  - id: 121349
-    kind: 3
-    kind_id: 45325
-    language: 1
-    name: Golden Tee '98 (v1.10)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 58395
+      id: 100479
       kind: 3
-      kind_id: 45325
+      kind_id: 1890
       type: 1
       name: gt98.zip
       description: ""
@@ -213,98 +235,824 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 189962
-      asset_id: 58395
+    - id: 621005
+      asset_id: 100479
       name: gt98_grom0_0.grm0_0
       size: 524288
       blob_id: 21066
-    - id: 189963
-      asset_id: 58395
+    - id: 621006
+      asset_id: 100479
       name: gt98_grom0_1.grm0_1
       size: 524288
       blob_id: 21067
-    - id: 189964
-      asset_id: 58395
+    - id: 621007
+      asset_id: 100479
       name: gt98_grom0_2.grm0_2
       size: 524288
       blob_id: 21068
-    - id: 189965
-      asset_id: 58395
+    - id: 621008
+      asset_id: 100479
       name: gt98_grom0_3.grm0_3
       size: 524288
       blob_id: 21069
-    - id: 189966
-      asset_id: 58395
+    - id: 621009
+      asset_id: 100479
       name: gt98_grom1_0.grm1_0
       size: 524288
       blob_id: 21070
-    - id: 189967
-      asset_id: 58395
+    - id: 621010
+      asset_id: 100479
       name: gt98_grom1_1.grm1_1
       size: 524288
       blob_id: 21071
-    - id: 189968
-      asset_id: 58395
+    - id: 621011
+      asset_id: 100479
       name: gt98_grom1_2.grm1_2
       size: 524288
       blob_id: 21072
-    - id: 189969
-      asset_id: 58395
+    - id: 621012
+      asset_id: 100479
       name: gt98_grom1_3.grm1_3
       size: 524288
       blob_id: 21073
-    - id: 189970
-      asset_id: 58395
+    - id: 621013
+      asset_id: 100479
       name: gt98_grom2_0.grm2_0
       size: 524288
       blob_id: 21074
-    - id: 189971
-      asset_id: 58395
+    - id: 621014
+      asset_id: 100479
       name: gt98_grom2_1.grm2_1
       size: 524288
       blob_id: 21075
-    - id: 189972
-      asset_id: 58395
+    - id: 621015
+      asset_id: 100479
       name: gt98_grom2_2.grm2_2
       size: 524288
       blob_id: 21076
-    - id: 189973
-      asset_id: 58395
+    - id: 621016
+      asset_id: 100479
       name: gt98_grom2_3.grm2_3
       size: 524288
       blob_id: 21077
-    - id: 189974
-      asset_id: 58395
+    - id: 621017
+      asset_id: 100479
       name: gt98_prom0_v1.10.prom0
       size: 524288
       blob_id: 21078
-    - id: 189975
-      asset_id: 58395
+    - id: 621018
+      asset_id: 100479
       name: gt98_prom1_v1.10.prom1
       size: 524288
       blob_id: 21079
-    - id: 189976
-      asset_id: 58395
+    - id: 621019
+      asset_id: 100479
       name: gt98_prom2_v1.10.prom2
       size: 524288
       blob_id: 21080
-    - id: 189977
-      asset_id: 58395
+    - id: 621020
+      asset_id: 100479
       name: gt98_prom3_v1.10.prom3
       size: 524288
       blob_id: 21081
-    - id: 189978
-      asset_id: 58395
+    - id: 621021
+      asset_id: 100479
       name: gt98_srom0_nr.srom0
       size: 1048576
       blob_id: 21032
-    - id: 189979
-      asset_id: 58395
+    - id: 621022
+      asset_id: 100479
       name: gt98_srom1_nr.srom1
       size: 524288
       blob_id: 21033
-    - id: 189980
-      asset_id: 58395
+    - id: 621023
+      asset_id: 100479
+      name: gt98nr_u88_v1.0.u88
+      size: 131072
+      blob_id: 21031
+- release:
+    id: 85409
+    game_id: 1890
+    description: ""
+    release_date: 19980000
+  names:
+  - id: 212532
+    kind: 3
+    kind_id: 85409
+    language: 1
+    name: Golden Tee '98 (v1.00C)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 100480
+      kind: 3
+      kind_id: 85409
+      type: 1
+      name: gt98c100.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 621024
+      asset_id: 100480
+      name: gt98_grom0_0.grm0_0
+      size: 524288
+      blob_id: 21066
+    - id: 621025
+      asset_id: 100480
+      name: gt98_grom0_1.grm0_1
+      size: 524288
+      blob_id: 21067
+    - id: 621026
+      asset_id: 100480
+      name: gt98_grom0_2.grm0_2
+      size: 524288
+      blob_id: 21068
+    - id: 621027
+      asset_id: 100480
+      name: gt98_grom0_3.grm0_3
+      size: 524288
+      blob_id: 21069
+    - id: 621028
+      asset_id: 100480
+      name: gt98_grom1_0.grm1_0
+      size: 524288
+      blob_id: 21070
+    - id: 621029
+      asset_id: 100480
+      name: gt98_grom1_1.grm1_1
+      size: 524288
+      blob_id: 21071
+    - id: 621030
+      asset_id: 100480
+      name: gt98_grom1_2.grm1_2
+      size: 524288
+      blob_id: 21072
+    - id: 621031
+      asset_id: 100480
+      name: gt98_grom1_3.grm1_3
+      size: 524288
+      blob_id: 21073
+    - id: 621032
+      asset_id: 100480
+      name: gt98_grom2_0.grm2_0
+      size: 524288
+      blob_id: 21074
+    - id: 621033
+      asset_id: 100480
+      name: gt98_grom2_1.grm2_1
+      size: 524288
+      blob_id: 21075
+    - id: 621034
+      asset_id: 100480
+      name: gt98_grom2_2.grm2_2
+      size: 524288
+      blob_id: 21076
+    - id: 621035
+      asset_id: 100480
+      name: gt98_grom2_3.grm2_3
+      size: 524288
+      blob_id: 21077
+    - id: 621036
+      asset_id: 100480
+      name: gt98_prom0_v1.00c.prom0
+      size: 524288
+      blob_id: 248207
+    - id: 621037
+      asset_id: 100480
+      name: gt98_prom1_v1.00c.prom1
+      size: 524288
+      blob_id: 248208
+    - id: 621038
+      asset_id: 100480
+      name: gt98_prom2_v1.00c.prom2
+      size: 524288
+      blob_id: 248209
+    - id: 621039
+      asset_id: 100480
+      name: gt98_prom3_v1.00c.prom3
+      size: 524288
+      blob_id: 248210
+    - id: 621040
+      asset_id: 100480
+      name: gt98_srom0_nr.srom0
+      size: 1048576
+      blob_id: 21032
+    - id: 621041
+      asset_id: 100480
+      name: gt98_srom1_nr.srom1
+      size: 524288
+      blob_id: 21033
+    - id: 621042
+      asset_id: 100480
+      name: gt98nr_u88_v1.0.u88
+      size: 131072
+      blob_id: 21031
+- release:
+    id: 85410
+    game_id: 1890
+    description: ""
+    release_date: 19980000
+  names:
+  - id: 212533
+    kind: 3
+    kind_id: 85410
+    language: 1
+    name: Golden Tee '98 (v1.00S)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 100481
+      kind: 3
+      kind_id: 85410
+      type: 1
+      name: gt98s100.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 621043
+      asset_id: 100481
+      name: gt98_grom0_0.grm0_0
+      size: 524288
+      blob_id: 21066
+    - id: 621044
+      asset_id: 100481
+      name: gt98_grom0_1.grm0_1
+      size: 524288
+      blob_id: 21067
+    - id: 621045
+      asset_id: 100481
+      name: gt98_grom0_2.grm0_2
+      size: 524288
+      blob_id: 21068
+    - id: 621046
+      asset_id: 100481
+      name: gt98_grom0_3.grm0_3
+      size: 524288
+      blob_id: 21069
+    - id: 621047
+      asset_id: 100481
+      name: gt98_grom1_0.grm1_0
+      size: 524288
+      blob_id: 21070
+    - id: 621048
+      asset_id: 100481
+      name: gt98_grom1_1.grm1_1
+      size: 524288
+      blob_id: 21071
+    - id: 621049
+      asset_id: 100481
+      name: gt98_grom1_2.grm1_2
+      size: 524288
+      blob_id: 21072
+    - id: 621050
+      asset_id: 100481
+      name: gt98_grom1_3.grm1_3
+      size: 524288
+      blob_id: 21073
+    - id: 621051
+      asset_id: 100481
+      name: gt98_grom2_0.grm2_0
+      size: 524288
+      blob_id: 21074
+    - id: 621052
+      asset_id: 100481
+      name: gt98_grom2_1.grm2_1
+      size: 524288
+      blob_id: 21075
+    - id: 621053
+      asset_id: 100481
+      name: gt98_grom2_2.grm2_2
+      size: 524288
+      blob_id: 21076
+    - id: 621054
+      asset_id: 100481
+      name: gt98_grom2_3.grm2_3
+      size: 524288
+      blob_id: 21077
+    - id: 621055
+      asset_id: 100481
+      name: gt98_prom0_v1.00s.prom0
+      size: 524288
+      blob_id: 248211
+    - id: 621056
+      asset_id: 100481
+      name: gt98_prom1_v1.00s.prom1
+      size: 524288
+      blob_id: 248212
+    - id: 621057
+      asset_id: 100481
+      name: gt98_prom2_v1.00s.prom2
+      size: 524288
+      blob_id: 248213
+    - id: 621058
+      asset_id: 100481
+      name: gt98_prom3_v1.00s.prom3
+      size: 524288
+      blob_id: 248214
+    - id: 621059
+      asset_id: 100481
+      name: gtg3_nr_u23_v2.2.u23
+      size: 131072
+      blob_id: 248111
+    - id: 621060
+      asset_id: 100481
+      name: gtg3_srom1_nr++.srom1
+      size: 1048576
+      blob_id: 21032
+    - id: 621061
+      asset_id: 100481
+      name: gtg3_srom2_nr+.srom2
+      size: 524288
+      blob_id: 21033
+- release:
+    id: 85411
+    game_id: 1890
+    description: ""
+    release_date: 19980000
+  names:
+  - id: 212534
+    kind: 3
+    kind_id: 85411
+    language: 1
+    name: Golden Tee '98 Tournament (v3.02)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 100482
+      kind: 3
+      kind_id: 85411
+      type: 1
+      name: gt98t302.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 621062
+      asset_id: 100482
+      name: gt98_grom0_0.grm0_0
+      size: 524288
+      blob_id: 21066
+    - id: 621063
+      asset_id: 100482
+      name: gt98_grom0_1.grm0_1
+      size: 524288
+      blob_id: 21067
+    - id: 621064
+      asset_id: 100482
+      name: gt98_grom0_2.grm0_2
+      size: 524288
+      blob_id: 21068
+    - id: 621065
+      asset_id: 100482
+      name: gt98_grom0_3.grm0_3
+      size: 524288
+      blob_id: 21069
+    - id: 621066
+      asset_id: 100482
+      name: gt98_grom1_0.grm1_0
+      size: 524288
+      blob_id: 21070
+    - id: 621067
+      asset_id: 100482
+      name: gt98_grom1_1.grm1_1
+      size: 524288
+      blob_id: 21071
+    - id: 621068
+      asset_id: 100482
+      name: gt98_grom1_2.grm1_2
+      size: 524288
+      blob_id: 21072
+    - id: 621069
+      asset_id: 100482
+      name: gt98_grom1_3.grm1_3
+      size: 524288
+      blob_id: 21073
+    - id: 621070
+      asset_id: 100482
+      name: gt98_grom2_0.grm2_0
+      size: 524288
+      blob_id: 21074
+    - id: 621071
+      asset_id: 100482
+      name: gt98_grom2_1.grm2_1
+      size: 524288
+      blob_id: 21075
+    - id: 621072
+      asset_id: 100482
+      name: gt98_grom2_2.grm2_2
+      size: 524288
+      blob_id: 21076
+    - id: 621073
+      asset_id: 100482
+      name: gt98_grom2_3.grm2_3
+      size: 524288
+      blob_id: 21077
+    - id: 621074
+      asset_id: 100482
+      name: gt98_prom0_v3.02t.prom0
+      size: 1048576
+      blob_id: 248215
+    - id: 621075
+      asset_id: 100482
+      name: gt98_prom1_v3.02t.prom1
+      size: 1048576
+      blob_id: 248216
+    - id: 621076
+      asset_id: 100482
+      name: gt98_prom2_v3.02t.prom2
+      size: 1048576
+      blob_id: 248217
+    - id: 621077
+      asset_id: 100482
+      name: gt98_prom3_v3.02t.prom3
+      size: 1048576
+      blob_id: 248218
+    - id: 621078
+      asset_id: 100482
+      name: gt98_srom0_nr.srom0
+      size: 1048576
+      blob_id: 21032
+    - id: 621079
+      asset_id: 100482
+      name: gt98_srom1_nr.srom1
+      size: 524288
+      blob_id: 21033
+    - id: 621080
+      asset_id: 100482
+      name: gt98nr_u88_v1.0.u88
+      size: 131072
+      blob_id: 21031
+- release:
+    id: 85412
+    game_id: 1890
+    description: ""
+    release_date: 19980000
+  names:
+  - id: 212535
+    kind: 3
+    kind_id: 85412
+    language: 1
+    name: Golden Tee '98 Tournament (v3.03)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 100483
+      kind: 3
+      kind_id: 85412
+      type: 1
+      name: gt98t303.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 621081
+      asset_id: 100483
+      name: gt98_grom0_0.grm0_0
+      size: 524288
+      blob_id: 21066
+    - id: 621082
+      asset_id: 100483
+      name: gt98_grom0_1.grm0_1
+      size: 524288
+      blob_id: 21067
+    - id: 621083
+      asset_id: 100483
+      name: gt98_grom0_2.grm0_2
+      size: 524288
+      blob_id: 21068
+    - id: 621084
+      asset_id: 100483
+      name: gt98_grom0_3.grm0_3
+      size: 524288
+      blob_id: 21069
+    - id: 621085
+      asset_id: 100483
+      name: gt98_grom1_0.grm1_0
+      size: 524288
+      blob_id: 21070
+    - id: 621086
+      asset_id: 100483
+      name: gt98_grom1_1.grm1_1
+      size: 524288
+      blob_id: 21071
+    - id: 621087
+      asset_id: 100483
+      name: gt98_grom1_2.grm1_2
+      size: 524288
+      blob_id: 21072
+    - id: 621088
+      asset_id: 100483
+      name: gt98_grom1_3.grm1_3
+      size: 524288
+      blob_id: 21073
+    - id: 621089
+      asset_id: 100483
+      name: gt98_grom2_0.grm2_0
+      size: 524288
+      blob_id: 21074
+    - id: 621090
+      asset_id: 100483
+      name: gt98_grom2_1.grm2_1
+      size: 524288
+      blob_id: 21075
+    - id: 621091
+      asset_id: 100483
+      name: gt98_grom2_2.grm2_2
+      size: 524288
+      blob_id: 21076
+    - id: 621092
+      asset_id: 100483
+      name: gt98_grom2_3.grm2_3
+      size: 524288
+      blob_id: 21077
+    - id: 621093
+      asset_id: 100483
+      name: gt98_prom0_v3.03t.prom0
+      size: 1048576
+      blob_id: 248219
+    - id: 621094
+      asset_id: 100483
+      name: gt98_prom1_v3.03t.prom1
+      size: 1048576
+      blob_id: 248220
+    - id: 621095
+      asset_id: 100483
+      name: gt98_prom2_v3.03t.prom2
+      size: 1048576
+      blob_id: 248221
+    - id: 621096
+      asset_id: 100483
+      name: gt98_prom3_v3.03t.prom3
+      size: 1048576
+      blob_id: 248222
+    - id: 621097
+      asset_id: 100483
+      name: gt98_srom0_nr.srom0
+      size: 1048576
+      blob_id: 21032
+    - id: 621098
+      asset_id: 100483
+      name: gt98_srom1_nr.srom1
+      size: 524288
+      blob_id: 21033
+    - id: 621099
+      asset_id: 100483
+      name: gt98nr_u88_v1.0.u88
+      size: 131072
+      blob_id: 21031
+- release:
+    id: 85413
+    game_id: 1890
+    description: ""
+    release_date: 19980000
+  names:
+  - id: 212536
+    kind: 3
+    kind_id: 85413
+    language: 1
+    name: Golden Tee '98 (v1.00)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 100484
+      kind: 3
+      kind_id: 85413
+      type: 1
+      name: gt98v100.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 621100
+      asset_id: 100484
+      name: gt98_grom0_0.grm0_0
+      size: 524288
+      blob_id: 21066
+    - id: 621101
+      asset_id: 100484
+      name: gt98_grom0_1.grm0_1
+      size: 524288
+      blob_id: 21067
+    - id: 621102
+      asset_id: 100484
+      name: gt98_grom0_2.grm0_2
+      size: 524288
+      blob_id: 21068
+    - id: 621103
+      asset_id: 100484
+      name: gt98_grom0_3.grm0_3
+      size: 524288
+      blob_id: 21069
+    - id: 621104
+      asset_id: 100484
+      name: gt98_grom1_0.grm1_0
+      size: 524288
+      blob_id: 21070
+    - id: 621105
+      asset_id: 100484
+      name: gt98_grom1_1.grm1_1
+      size: 524288
+      blob_id: 21071
+    - id: 621106
+      asset_id: 100484
+      name: gt98_grom1_2.grm1_2
+      size: 524288
+      blob_id: 21072
+    - id: 621107
+      asset_id: 100484
+      name: gt98_grom1_3.grm1_3
+      size: 524288
+      blob_id: 21073
+    - id: 621108
+      asset_id: 100484
+      name: gt98_grom2_0.grm2_0
+      size: 524288
+      blob_id: 21074
+    - id: 621109
+      asset_id: 100484
+      name: gt98_grom2_1.grm2_1
+      size: 524288
+      blob_id: 21075
+    - id: 621110
+      asset_id: 100484
+      name: gt98_grom2_2.grm2_2
+      size: 524288
+      blob_id: 21076
+    - id: 621111
+      asset_id: 100484
+      name: gt98_grom2_3.grm2_3
+      size: 524288
+      blob_id: 21077
+    - id: 621112
+      asset_id: 100484
+      name: gt98_prom0_v1.00.prom0
+      size: 524288
+      blob_id: 248223
+    - id: 621113
+      asset_id: 100484
+      name: gt98_prom1_v1.00.prom1
+      size: 524288
+      blob_id: 248224
+    - id: 621114
+      asset_id: 100484
+      name: gt98_prom2_v1.00.prom2
+      size: 524288
+      blob_id: 248225
+    - id: 621115
+      asset_id: 100484
+      name: gt98_prom3_v1.00.prom3
+      size: 524288
+      blob_id: 248226
+    - id: 621116
+      asset_id: 100484
+      name: gt98_srom0_nr.srom0
+      size: 1048576
+      blob_id: 21032
+    - id: 621117
+      asset_id: 100484
+      name: gt98_srom1_nr.srom1
+      size: 524288
+      blob_id: 21033
+    - id: 621118
+      asset_id: 100484
+      name: gt98nr_u88_v1.0.u88
+      size: 131072
+      blob_id: 21031
+- release:
+    id: 85420
+    game_id: 1890
+    description: ""
+    release_date: 19980000
+  names:
+  - id: 212545
+    kind: 3
+    kind_id: 85420
+    language: 1
+    name: Golden Tee Diamond Edition Tournament (v3.05T ELC)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 100493
+      kind: 3
+      kind_id: 85420
+      type: 1
+      name: gtdiamond.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 621236
+      asset_id: 100493
+      name: gt98_golf_elc_prom0_v3.05tl.prom0
+      size: 1048576
+      blob_id: 248243
+    - id: 621237
+      asset_id: 100493
+      name: gt98_golf_elc_prom1_v3.05tl.prom1
+      size: 1048576
+      blob_id: 248244
+    - id: 621238
+      asset_id: 100493
+      name: gt98_golf_elc_prom2_v3.05tl.prom2
+      size: 1048576
+      blob_id: 248245
+    - id: 621239
+      asset_id: 100493
+      name: gt98_golf_elc_prom3_v3.05tl.prom3
+      size: 1048576
+      blob_id: 248246
+    - id: 621240
+      asset_id: 100493
+      name: gt98_grom0_0.grm0_0
+      size: 524288
+      blob_id: 21066
+    - id: 621241
+      asset_id: 100493
+      name: gt98_grom0_1.grm0_1
+      size: 524288
+      blob_id: 21067
+    - id: 621242
+      asset_id: 100493
+      name: gt98_grom0_2.grm0_2
+      size: 524288
+      blob_id: 21068
+    - id: 621243
+      asset_id: 100493
+      name: gt98_grom0_3.grm0_3
+      size: 524288
+      blob_id: 21069
+    - id: 621244
+      asset_id: 100493
+      name: gt98_grom1_0.grm1_0
+      size: 524288
+      blob_id: 21070
+    - id: 621245
+      asset_id: 100493
+      name: gt98_grom1_1.grm1_1
+      size: 524288
+      blob_id: 21071
+    - id: 621246
+      asset_id: 100493
+      name: gt98_grom1_2.grm1_2
+      size: 524288
+      blob_id: 21072
+    - id: 621247
+      asset_id: 100493
+      name: gt98_grom1_3.grm1_3
+      size: 524288
+      blob_id: 21073
+    - id: 621248
+      asset_id: 100493
+      name: gt98_grome2_0.grm2_0
+      size: 524288
+      blob_id: 248247
+    - id: 621249
+      asset_id: 100493
+      name: gt98_grome2_1.grm2_1
+      size: 524288
+      blob_id: 248248
+    - id: 621250
+      asset_id: 100493
+      name: gt98_grome2_2.grm2_2
+      size: 524288
+      blob_id: 248249
+    - id: 621251
+      asset_id: 100493
+      name: gt98_grome2_3.grm2_3
+      size: 524288
+      blob_id: 248250
+    - id: 621252
+      asset_id: 100493
+      name: gt98_srom0_nr.srom0
+      size: 1048576
+      blob_id: 21032
+    - id: 621253
+      asset_id: 100493
+      name: gt98_srom1_nr.srom1
+      size: 524288
+      blob_id: 21033
+    - id: 621254
+      asset_id: 100493
       name: gt98nr_u88_v1.0.u88
       size: 131072
       blob_id: 21031

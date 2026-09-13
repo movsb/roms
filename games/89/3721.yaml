@@ -16,6 +16,18 @@ names:
   language: 2
   name: 妖怪道中记 (YD3)
   source: trimui
+- id: 201640
+  kind: 2
+  kind_id: 3721
+  language: 1
+  name: Youkai Douchuuki (Japan, old version (YD1))
+  source: mame
+- id: 201641
+  kind: 2
+  kind_id: 3721
+  language: 1
+  name: Youkai Douchuuki (Japan, new version (YD2, Rev B))
+  source: mame
 game_developers:
 - game_id: 3721
   developer_id: 19
@@ -234,24 +246,10 @@ releases:
       blob_id: 85071
       debug: arcade/wheel/shadowld.png
     entries: []
-- release:
-    id: 70171
-    game_id: 3721
-    description: ""
-    release_date: 19870000
-  names:
-  - id: 170465
-    kind: 3
-    kind_id: 70171
-    language: 1
-    name: Shadowland (YD3)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 83241
+      id: 113397
       kind: 3
-      kind_id: 70171
+      kind_id: 3721
       type: 1
       name: shadowld.zip
       description: ""
@@ -260,143 +258,469 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 361562
-      asset_id: 83241
+    - id: 742258
+      asset_id: 113397
       name: cus64-64a1.mcu
       size: 4096
       blob_id: 7725
-    - id: 361563
-      asset_id: 83241
+    - id: 742259
+      asset_id: 113397
       name: yd1_p0.bin
       size: 65536
       blob_id: 39768
-    - id: 361564
-      asset_id: 83241
+    - id: 742260
+      asset_id: 113397
       name: yd1_p1.bin
       size: 65536
       blob_id: 39769
-    - id: 361565
-      asset_id: 83241
+    - id: 742261
+      asset_id: 113397
       name: yd1_p2.bin
       size: 65536
       blob_id: 39770
-    - id: 361566
-      asset_id: 83241
+    - id: 742262
+      asset_id: 113397
       name: yd1_p3.bin
       size: 65536
       blob_id: 39771
-    - id: 361567
-      asset_id: 83241
+    - id: 742263
+      asset_id: 113397
       name: yd1_p5.bin
       size: 65536
       blob_id: 39772
-    - id: 361568
-      asset_id: 83241
+    - id: 742264
+      asset_id: 113397
       name: yd1_s0.bin
       size: 65536
       blob_id: 39773
-    - id: 361569
-      asset_id: 83241
+    - id: 742265
+      asset_id: 113397
       name: yd1_s1.bin
       size: 65536
       blob_id: 39774
-    - id: 361570
-      asset_id: 83241
+    - id: 742266
+      asset_id: 113397
       name: yd3_obj5.bin
       size: 65536
       blob_id: 39775
-    - id: 361571
-      asset_id: 83241
+    - id: 742267
+      asset_id: 113397
       name: yd3_p6.bin
       size: 65536
       blob_id: 39776
-    - id: 361572
-      asset_id: 83241
+    - id: 742268
+      asset_id: 113397
       name: yd3_p7.bin
       size: 65536
       blob_id: 39777
-    - id: 361573
-      asset_id: 83241
+    - id: 742269
+      asset_id: 113397
       name: yd_chr-0.bin
       size: 131072
       blob_id: 39778
-    - id: 361574
-      asset_id: 83241
+    - id: 742270
+      asset_id: 113397
       name: yd_chr-1.bin
       size: 131072
       blob_id: 39779
-    - id: 361575
-      asset_id: 83241
+    - id: 742271
+      asset_id: 113397
       name: yd_chr-2.bin
       size: 131072
       blob_id: 39780
-    - id: 361576
-      asset_id: 83241
+    - id: 742272
+      asset_id: 113397
       name: yd_chr-3.bin
       size: 131072
       blob_id: 39781
-    - id: 361577
-      asset_id: 83241
+    - id: 742273
+      asset_id: 113397
       name: yd_chr-4.bin
       size: 131072
       blob_id: 39782
-    - id: 361578
-      asset_id: 83241
+    - id: 742274
+      asset_id: 113397
       name: yd_chr-5.bin
       size: 131072
       blob_id: 39783
-    - id: 361579
-      asset_id: 83241
+    - id: 742275
+      asset_id: 113397
       name: yd_chr-6.bin
       size: 131072
       blob_id: 39784
-    - id: 361580
-      asset_id: 83241
+    - id: 742276
+      asset_id: 113397
       name: yd_chr-7.bin
       size: 131072
       blob_id: 39785
-    - id: 361581
-      asset_id: 83241
+    - id: 742277
+      asset_id: 113397
       name: yd_chr-8.bin
       size: 131072
       blob_id: 39786
-    - id: 361582
-      asset_id: 83241
+    - id: 742278
+      asset_id: 113397
       name: yd_obj-0.bin
       size: 131072
       blob_id: 39787
-    - id: 361583
-      asset_id: 83241
+    - id: 742279
+      asset_id: 113397
       name: yd_obj-1.bin
       size: 131072
       blob_id: 39788
-    - id: 361584
-      asset_id: 83241
+    - id: 742280
+      asset_id: 113397
       name: yd_obj-2.bin
       size: 131072
       blob_id: 39789
-    - id: 361585
-      asset_id: 83241
+    - id: 742281
+      asset_id: 113397
       name: yd_obj-3.bin
       size: 131072
       blob_id: 39790
-    - id: 361586
-      asset_id: 83241
+    - id: 742282
+      asset_id: 113397
       name: yd_obj-4.bin
       size: 131072
       blob_id: 39791
-    - id: 361587
-      asset_id: 83241
+    - id: 742283
+      asset_id: 113397
       name: yd_voi-0.bin
       size: 131072
       blob_id: 39792
-    - id: 361588
-      asset_id: 83241
+    - id: 742284
+      asset_id: 113397
       name: yd_voi-1.bin
       size: 131072
       blob_id: 39793
-    - id: 361589
-      asset_id: 83241
+    - id: 742285
+      asset_id: 113397
+      name: yd_voi-2.bin
+      size: 131072
+      blob_id: 39794
+- release:
+    id: 102222
+    game_id: 3721
+    description: ""
+    release_date: 19870000
+  names:
+  - id: 236465
+    kind: 3
+    kind_id: 102222
+    language: 1
+    name: Youkai Douchuuki (Japan, old version (YD1))
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 118252
+      kind: 3
+      kind_id: 102222
+      type: 1
+      name: youkaidk1.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/1375123490
+    entries:
+    - id: 802234
+      asset_id: 118252
+      name: cus64-64a1.mcu
+      size: 4096
+      blob_id: 7725
+    - id: 802235
+      asset_id: 118252
+      name: yd1.sd0
+      size: 65536
+      blob_id: 39773
+    - id: 802236
+      asset_id: 118252
+      name: yd1.sd1
+      size: 65536
+      blob_id: 39774
+    - id: 802237
+      asset_id: 118252
+      name: yd1_p0.bin
+      size: 65536
+      blob_id: 39768
+    - id: 802238
+      asset_id: 118252
+      name: yd1_p1.bin
+      size: 65536
+      blob_id: 39769
+    - id: 802239
+      asset_id: 118252
+      name: yd1_p2.bin
+      size: 65536
+      blob_id: 39770
+    - id: 802240
+      asset_id: 118252
+      name: yd1_p3.bin
+      size: 65536
+      blob_id: 39771
+    - id: 802241
+      asset_id: 118252
+      name: yd1_p5.bin
+      size: 65536
+      blob_id: 39772
+    - id: 802242
+      asset_id: 118252
+      name: yd1_p6.bin
+      size: 65536
+      blob_id: 314523
+    - id: 802243
+      asset_id: 118252
+      name: yd2_p7.bin
+      size: 65536
+      blob_id: 314524
+    - id: 802244
+      asset_id: 118252
+      name: yd_chr-0.bin
+      size: 131072
+      blob_id: 39778
+    - id: 802245
+      asset_id: 118252
+      name: yd_chr-1.bin
+      size: 131072
+      blob_id: 39779
+    - id: 802246
+      asset_id: 118252
+      name: yd_chr-2.bin
+      size: 131072
+      blob_id: 39780
+    - id: 802247
+      asset_id: 118252
+      name: yd_chr-3.bin
+      size: 131072
+      blob_id: 39781
+    - id: 802248
+      asset_id: 118252
+      name: yd_chr-4.bin
+      size: 131072
+      blob_id: 39782
+    - id: 802249
+      asset_id: 118252
+      name: yd_chr-5.bin
+      size: 131072
+      blob_id: 39783
+    - id: 802250
+      asset_id: 118252
+      name: yd_chr-6.bin
+      size: 131072
+      blob_id: 39784
+    - id: 802251
+      asset_id: 118252
+      name: yd_chr-7.bin
+      size: 131072
+      blob_id: 39785
+    - id: 802252
+      asset_id: 118252
+      name: yd_chr-8.bin
+      size: 131072
+      blob_id: 39786
+    - id: 802253
+      asset_id: 118252
+      name: yd_obj-0.bin
+      size: 131072
+      blob_id: 39787
+    - id: 802254
+      asset_id: 118252
+      name: yd_obj-1.bin
+      size: 131072
+      blob_id: 39788
+    - id: 802255
+      asset_id: 118252
+      name: yd_obj-2.bin
+      size: 131072
+      blob_id: 39789
+    - id: 802256
+      asset_id: 118252
+      name: yd_obj-3.bin
+      size: 131072
+      blob_id: 39790
+    - id: 802257
+      asset_id: 118252
+      name: yd_obj-4.bin
+      size: 131072
+      blob_id: 39791
+    - id: 802258
+      asset_id: 118252
+      name: yd_voi-0.bin
+      size: 131072
+      blob_id: 39792
+    - id: 802259
+      asset_id: 118252
+      name: yd_voi-1.bin
+      size: 131072
+      blob_id: 39793
+    - id: 802260
+      asset_id: 118252
+      name: yd_voi-2.bin
+      size: 131072
+      blob_id: 39794
+- release:
+    id: 102223
+    game_id: 3721
+    description: ""
+    release_date: 19870000
+  names:
+  - id: 236466
+    kind: 3
+    kind_id: 102223
+    language: 1
+    name: Youkai Douchuuki (Japan, new version (YD2, Rev B))
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 118253
+      kind: 3
+      kind_id: 102223
+      type: 1
+      name: youkaidk2.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/2107297028
+    entries:
+    - id: 802261
+      asset_id: 118253
+      name: cus64-64a1.mcu
+      size: 4096
+      blob_id: 7725
+    - id: 802262
+      asset_id: 118253
+      name: yd1_p0.bin
+      size: 65536
+      blob_id: 39768
+    - id: 802263
+      asset_id: 118253
+      name: yd1_p1.bin
+      size: 65536
+      blob_id: 39769
+    - id: 802264
+      asset_id: 118253
+      name: yd1_p2.bin
+      size: 65536
+      blob_id: 39770
+    - id: 802265
+      asset_id: 118253
+      name: yd1_p3.bin
+      size: 65536
+      blob_id: 39771
+    - id: 802266
+      asset_id: 118253
+      name: yd1_p5.bin
+      size: 65536
+      blob_id: 39772
+    - id: 802267
+      asset_id: 118253
+      name: yd1_p6.bin
+      size: 65536
+      blob_id: 314523
+    - id: 802268
+      asset_id: 118253
+      name: yd1_s0.bin
+      size: 65536
+      blob_id: 39773
+    - id: 802269
+      asset_id: 118253
+      name: yd1_s1.bin
+      size: 65536
+      blob_id: 39774
+    - id: 802270
+      asset_id: 118253
+      name: yd2_p7b.bin
+      size: 65536
+      blob_id: 314525
+    - id: 802271
+      asset_id: 118253
+      name: yd_chr-0.bin
+      size: 131072
+      blob_id: 39778
+    - id: 802272
+      asset_id: 118253
+      name: yd_chr-1.bin
+      size: 131072
+      blob_id: 39779
+    - id: 802273
+      asset_id: 118253
+      name: yd_chr-2.bin
+      size: 131072
+      blob_id: 39780
+    - id: 802274
+      asset_id: 118253
+      name: yd_chr-3.bin
+      size: 131072
+      blob_id: 39781
+    - id: 802275
+      asset_id: 118253
+      name: yd_chr-4.bin
+      size: 131072
+      blob_id: 39782
+    - id: 802276
+      asset_id: 118253
+      name: yd_chr-5.bin
+      size: 131072
+      blob_id: 39783
+    - id: 802277
+      asset_id: 118253
+      name: yd_chr-6.bin
+      size: 131072
+      blob_id: 39784
+    - id: 802278
+      asset_id: 118253
+      name: yd_chr-7.bin
+      size: 131072
+      blob_id: 39785
+    - id: 802279
+      asset_id: 118253
+      name: yd_chr-8.bin
+      size: 131072
+      blob_id: 39786
+    - id: 802280
+      asset_id: 118253
+      name: yd_obj-0.bin
+      size: 131072
+      blob_id: 39787
+    - id: 802281
+      asset_id: 118253
+      name: yd_obj-1.bin
+      size: 131072
+      blob_id: 39788
+    - id: 802282
+      asset_id: 118253
+      name: yd_obj-2.bin
+      size: 131072
+      blob_id: 39789
+    - id: 802283
+      asset_id: 118253
+      name: yd_obj-3.bin
+      size: 131072
+      blob_id: 39790
+    - id: 802284
+      asset_id: 118253
+      name: yd_obj-4.bin
+      size: 131072
+      blob_id: 39791
+    - id: 802285
+      asset_id: 118253
+      name: yd_voi-0.bin
+      size: 131072
+      blob_id: 39792
+    - id: 802286
+      asset_id: 118253
+      name: yd_voi-1.bin
+      size: 131072
+      blob_id: 39793
+    - id: 802287
+      asset_id: 118253
       name: yd_voi-2.bin
       size: 131072
       blob_id: 39794

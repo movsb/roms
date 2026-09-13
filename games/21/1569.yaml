@@ -16,6 +16,18 @@ names:
   language: 2
   name: 魔城英雄物语 (世界版)
   source: trimui
+- id: 186810
+  kind: 2
+  kind_id: 1569
+  language: 1
+  name: exvaniaj
+  source: ""
+- id: 186811
+  kind: 2
+  kind_id: 1569
+  language: 2
+  name: 魔城英雄物语 (日版)
+  source: trimui
 game_developers:
 - game_id: 1569
   developer_id: 19
@@ -124,24 +136,10 @@ releases:
       blob_id: 86122
       debug: arcade/wheel/exvania.png
     entries: []
-- release:
-    id: 43219
-    game_id: 1569
-    description: ""
-    release_date: 19920000
-  names:
-  - id: 117267
-    kind: 3
-    kind_id: 43219
-    language: 1
-    name: Exvania (World)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 56289
+      id: 98573
       kind: 3
-      kind_id: 43219
+      kind_id: 1569
       type: 1
       name: exvania.zip
       description: ""
@@ -150,59 +148,45 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 166330
-      asset_id: 56289
+    - id: 598868
+      asset_id: 98573
       name: eeprom
       size: 2048
       blob_id: 17230
-    - id: 166331
-      asset_id: 56289
+    - id: 598869
+      asset_id: 98573
       name: ex1-ma0l.2c
       size: 1048576
       blob_id: 17225
-    - id: 166332
-      asset_id: 56289
+    - id: 598870
+      asset_id: 98573
       name: ex1-ma0u.2f
       size: 1048576
       blob_id: 17226
-    - id: 166333
-      asset_id: 56289
+    - id: 598871
+      asset_id: 98573
       name: ex1-ma1l.3c
       size: 1048576
       blob_id: 17227
-    - id: 166334
-      asset_id: 56289
+    - id: 598872
+      asset_id: 98573
       name: ex1-ma1u.3f
       size: 1048576
       blob_id: 17228
-    - id: 166335
-      asset_id: 56289
+    - id: 598873
+      asset_id: 98573
       name: ex2-ep0l.4c
       size: 524288
       blob_id: 17231
-    - id: 166336
-      asset_id: 56289
+    - id: 598874
+      asset_id: 98573
       name: ex2-ep0u.4f
       size: 524288
       blob_id: 17232
-- release:
-    id: 76517
-    game_id: 1569
-    description: ""
-    release_date: 19920000
-  names:
-  - id: 182637
-    kind: 3
-    kind_id: 76517
-    language: 1
-    name: Exvania (World)
-    source: fbneo
-  release_publishers: []
-  assets:
   - asset:
-      id: 89587
+      id: 118753
       kind: 3
-      kind_id: 76517
+      kind_id: 1569
       type: 1
       name: exvania.zip
       description: ""
@@ -211,43 +195,162 @@ releases:
       blob_id: 0
       debug: dat:fbneo:5fa9b68a
     entries:
-    - id: 434690
-      asset_id: 89587
-      name: c69.bin
-      size: 16384
-      blob_id: 17229
-    - id: 434691
-      asset_id: 89587
+    - id: 811465
+      asset_id: 118753
       name: eeprom
       size: 2048
       blob_id: 17230
-    - id: 434692
-      asset_id: 89587
+    - id: 811466
+      asset_id: 118753
       name: ex1-ma0l.2c
       size: 1048576
       blob_id: 17225
-    - id: 434693
-      asset_id: 89587
+    - id: 811467
+      asset_id: 118753
       name: ex1-ma0u.2f
       size: 1048576
       blob_id: 17226
-    - id: 434694
-      asset_id: 89587
+    - id: 811468
+      asset_id: 118753
       name: ex1-ma1l.3c
       size: 1048576
       blob_id: 17227
-    - id: 434695
-      asset_id: 89587
+    - id: 811469
+      asset_id: 118753
       name: ex1-ma1u.3f
       size: 1048576
       blob_id: 17228
-    - id: 434696
-      asset_id: 89587
+    - id: 811470
+      asset_id: 118753
       name: ex2-ep0l.4c
       size: 524288
       blob_id: 17231
-    - id: 434697
-      asset_id: 89587
+    - id: 811471
+      asset_id: 118753
       name: ex2-ep0u.4f
       size: 524288
       blob_id: 17232
+    - id: 811472
+      asset_id: 118753
+      name: c69.bin
+      size: 16384
+      blob_id: 17229
+- release:
+    id: 102927
+    game_id: 1569
+    description: ""
+    release_date: 0
+  names:
+  - id: 237640
+    kind: 3
+    kind_id: 102927
+    language: 1
+    name: exvaniaj
+    source: ""
+  - id: 237641
+    kind: 3
+    kind_id: 102927
+    language: 2
+    name: 魔城英雄物语 (日版)
+    source: trimui
+  release_publishers: []
+  assets:
+  - asset:
+      id: 98574
+      kind: 3
+      kind_id: 102927
+      type: 1
+      name: exvaniaj.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 598875
+      asset_id: 98574
+      name: eeprom
+      size: 2048
+      blob_id: 17230
+    - id: 598876
+      asset_id: 98574
+      name: ex1-ep0l.4c
+      size: 524288
+      blob_id: 17223
+    - id: 598877
+      asset_id: 98574
+      name: ex1-ep0u.4f
+      size: 524288
+      blob_id: 17224
+    - id: 598878
+      asset_id: 98574
+      name: ex1-ma0l.2c
+      size: 1048576
+      blob_id: 17225
+    - id: 598879
+      asset_id: 98574
+      name: ex1-ma0u.2f
+      size: 1048576
+      blob_id: 17226
+    - id: 598880
+      asset_id: 98574
+      name: ex1-ma1l.3c
+      size: 1048576
+      blob_id: 17227
+    - id: 598881
+      asset_id: 98574
+      name: ex1-ma1u.3f
+      size: 1048576
+      blob_id: 17228
+  - asset:
+      id: 118752
+      kind: 3
+      kind_id: 102927
+      type: 1
+      name: exvaniaj.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 811457
+      asset_id: 118752
+      name: c69.bin
+      size: 16384
+      blob_id: 17229
+    - id: 811458
+      asset_id: 118752
+      name: eeprom
+      size: 2048
+      blob_id: 17230
+    - id: 811459
+      asset_id: 118752
+      name: ex1-ep0l.4c
+      size: 524288
+      blob_id: 17223
+    - id: 811460
+      asset_id: 118752
+      name: ex1-ep0u.4f
+      size: 524288
+      blob_id: 17224
+    - id: 811461
+      asset_id: 118752
+      name: ex1-ma0l.2c
+      size: 1048576
+      blob_id: 17225
+    - id: 811462
+      asset_id: 118752
+      name: ex1-ma0u.2f
+      size: 1048576
+      blob_id: 17226
+    - id: 811463
+      asset_id: 118752
+      name: ex1-ma1l.3c
+      size: 1048576
+      blob_id: 17227
+    - id: 811464
+      asset_id: 118752
+      name: ex1-ma1u.3f
+      size: 1048576
+      blob_id: 17228

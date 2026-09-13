@@ -10,6 +10,18 @@ names:
   language: 1
   name: raimais
   source: ""
+- id: 195484
+  kind: 2
+  kind_id: 3301
+  language: 1
+  name: Raimais (Japan, rev 1)
+  source: mame
+- id: 195485
+  kind: 2
+  kind_id: 3301
+  language: 1
+  name: Raimais (Japan)
+  source: mame
 game_developers:
 - game_id: 3301
   developer_id: 35
@@ -123,6 +135,63 @@ releases:
       blob_id: 88528
       debug: arcade/wheel/raimais.png
     entries: []
+  - asset:
+      id: 108853
+      kind: 3
+      kind_id: 3301
+      type: 1
+      name: raimais.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 710254
+      asset_id: 108853
+      name: b36-01.ic6
+      size: 524288
+      blob_id: 35237
+    - id: 710255
+      asset_id: 108853
+      name: b36-02.ic12
+      size: 524288
+      blob_id: 35238
+    - id: 710256
+      asset_id: 108853
+      name: b36-03.ic28
+      size: 524288
+      blob_id: 35239
+    - id: 710257
+      asset_id: 108853
+      name: b36-04.ic3
+      size: 279
+      blob_id: 269096
+    - id: 710258
+      asset_id: 108853
+      name: b36-05.ic11
+      size: 279
+      blob_id: 269097
+    - id: 710259
+      asset_id: 108853
+      name: b36_06.ic24
+      size: 65536
+      blob_id: 35240
+    - id: 710260
+      asset_id: 108853
+      name: b36_07.ic2
+      size: 65536
+      blob_id: 35241
+    - id: 710261
+      asset_id: 108853
+      name: b36_09.ic13
+      size: 131072
+      blob_id: 35243
+    - id: 710262
+      asset_id: 108853
+      name: b36_11-1.ic7
+      size: 131072
+      blob_id: 35244
 - release:
     id: 3302
     game_id: 3301
@@ -201,73 +270,144 @@ releases:
       size: 131072
       blob_id: 35245
 - release:
-    id: 63148
+    id: 93306
     game_id: 3301
     description: ""
     release_date: 19880000
   names:
-  - id: 156549
+  - id: 224642
     kind: 3
-    kind_id: 63148
+    kind_id: 93306
     language: 1
-    name: Raimais (World, rev 1)
+    name: Raimais (Japan, rev 1)
     source: mame
   release_publishers: []
   assets:
   - asset:
-      id: 76218
+      id: 108854
       kind: 3
-      kind_id: 63148
+      kind_id: 93306
       type: 1
-      name: raimais.zip
+      name: raimaisj.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 316979
-      asset_id: 76218
+    - id: 710263
+      asset_id: 108854
       name: b36-01.ic6
       size: 524288
       blob_id: 35237
-    - id: 316980
-      asset_id: 76218
+    - id: 710264
+      asset_id: 108854
       name: b36-02.ic12
       size: 524288
       blob_id: 35238
-    - id: 316981
-      asset_id: 76218
+    - id: 710265
+      asset_id: 108854
       name: b36-03.ic28
       size: 524288
       blob_id: 35239
-    - id: 316982
-      asset_id: 76218
+    - id: 710266
+      asset_id: 108854
       name: b36-04.ic3
       size: 279
-      blob_id: 164313
-    - id: 316983
-      asset_id: 76218
+      blob_id: 269096
+    - id: 710267
+      asset_id: 108854
       name: b36-05.ic11
       size: 279
-      blob_id: 164314
-    - id: 316984
-      asset_id: 76218
+      blob_id: 269097
+    - id: 710268
+      asset_id: 108854
       name: b36_06.ic24
       size: 65536
       blob_id: 35240
-    - id: 316985
-      asset_id: 76218
+    - id: 710269
+      asset_id: 108854
       name: b36_07.ic2
       size: 65536
       blob_id: 35241
-    - id: 316986
-      asset_id: 76218
+    - id: 710270
+      asset_id: 108854
+      name: b36_08-1.ic7
+      size: 131072
+      blob_id: 35242
+    - id: 710271
+      asset_id: 108854
       name: b36_09.ic13
       size: 131072
       blob_id: 35243
-    - id: 316987
-      asset_id: 76218
-      name: b36_11-1.ic7
+- release:
+    id: 93307
+    game_id: 3301
+    description: ""
+    release_date: 19880000
+  names:
+  - id: 224643
+    kind: 3
+    kind_id: 93307
+    language: 1
+    name: Raimais (Japan)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 108855
+      kind: 3
+      kind_id: 93307
+      type: 1
+      name: raimaisjo.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 710272
+      asset_id: 108855
+      name: b36-01.ic6
+      size: 524288
+      blob_id: 35237
+    - id: 710273
+      asset_id: 108855
+      name: b36-02.ic12
+      size: 524288
+      blob_id: 35238
+    - id: 710274
+      asset_id: 108855
+      name: b36-03.ic28
+      size: 524288
+      blob_id: 35239
+    - id: 710275
+      asset_id: 108855
+      name: b36-04.ic3
+      size: 279
+      blob_id: 269096
+    - id: 710276
+      asset_id: 108855
+      name: b36-05.ic11
+      size: 279
+      blob_id: 269097
+    - id: 710277
+      asset_id: 108855
+      name: b36_06.ic24
+      size: 65536
+      blob_id: 35240
+    - id: 710278
+      asset_id: 108855
+      name: b36_07.ic2
+      size: 65536
+      blob_id: 35241
+    - id: 710279
+      asset_id: 108855
+      name: b36_08.ic7
       size: 131072
-      blob_id: 35244
+      blob_id: 35245
+    - id: 710280
+      asset_id: 108855
+      name: b36_09.ic13
+      size: 131072
+      blob_id: 35243

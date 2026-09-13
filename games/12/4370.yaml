@@ -16,6 +16,12 @@ names:
   language: 2
   name: Tecmo 世界杯足球 '90 (世界版, 第一套)
   source: trimui
+- id: 240885
+  kind: 2
+  kind_id: 4370
+  language: 1
+  name: Euro League (Gaelco bootleg, Modular System)
+  source: mame
 game_developers: []
 game_genres: []
 assets: []
@@ -457,24 +463,97 @@ releases:
       name: twcup90t/wc90a-3.bin
       size: 65536
       blob_id: 47548
-- release:
-    id: 77271
-    game_id: 4370
-    description: ""
-    release_date: 19890000
-  names:
-  - id: 183581
-    kind: 3
-    kind_id: 77271
-    language: 1
-    name: Tecmo World Cup '90 (World set 1)
-    source: fbneo
-  release_publishers: []
-  assets:
   - asset:
-      id: 90341
+      id: 116443
       kind: 3
-      kind_id: 77271
+      kind_id: 4370
+      type: 1
+      name: twcup90.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 780029
+      asset_id: 116443
+      name: ic50_12v.bin
+      size: 131072
+      blob_id: 47497
+    - id: 780030
+      asset_id: 116443
+      name: ic54_05.bin
+      size: 65536
+      blob_id: 47498
+    - id: 780031
+      asset_id: 116443
+      name: ic54_13v.bin
+      size: 131072
+      blob_id: 47499
+    - id: 780032
+      asset_id: 116443
+      name: ic56_03.bin
+      size: 65536
+      blob_id: 47500
+    - id: 780033
+      asset_id: 116443
+      name: ic60_14v.bin
+      size: 131072
+      blob_id: 47501
+    - id: 780034
+      asset_id: 116443
+      name: ic65_15v.bin
+      size: 131072
+      blob_id: 47502
+    - id: 780035
+      asset_id: 116443
+      name: ic67_04.bin
+      size: 65536
+      blob_id: 47503
+    - id: 780036
+      asset_id: 116443
+      name: ic82_06.bin
+      size: 131072
+      blob_id: 47504
+    - id: 780037
+      asset_id: 116443
+      name: ic85_07v.bin
+      size: 65536
+      blob_id: 47505
+    - id: 780038
+      asset_id: 116443
+      name: ic86_08v.bin
+      size: 131072
+      blob_id: 47506
+    - id: 780039
+      asset_id: 116443
+      name: ic87_01.bin
+      size: 32768
+      blob_id: 47507
+    - id: 780040
+      asset_id: 116443
+      name: ic87_10v.bin
+      size: 131072
+      blob_id: 47508
+    - id: 780041
+      asset_id: 116443
+      name: ic90_09v.bin
+      size: 131072
+      blob_id: 47509
+    - id: 780042
+      asset_id: 116443
+      name: ic91_11v.bin
+      size: 131072
+      blob_id: 47510
+    - id: 780043
+      asset_id: 116443
+      name: ic95_02.bin
+      size: 65536
+      blob_id: 47511
+  - asset:
+      id: 119584
+      kind: 3
+      kind_id: 4370
       type: 1
       name: twcup90.zip
       description: ""
@@ -483,83 +562,2121 @@ releases:
       blob_id: 0
       debug: dat:fbneo:5fa9b68a
     entries:
-    - id: 457617
-      asset_id: 90341
+    - id: 835167
+      asset_id: 119584
       name: ic50_12v.bin
       size: 131072
       blob_id: 47497
-    - id: 457618
-      asset_id: 90341
+    - id: 835168
+      asset_id: 119584
       name: ic54_05.bin
       size: 65536
       blob_id: 47498
-    - id: 457619
-      asset_id: 90341
+    - id: 835169
+      asset_id: 119584
       name: ic54_13v.bin
       size: 131072
       blob_id: 47499
-    - id: 457620
-      asset_id: 90341
+    - id: 835170
+      asset_id: 119584
       name: ic56_03.bin
       size: 65536
       blob_id: 47500
-    - id: 457621
-      asset_id: 90341
+    - id: 835171
+      asset_id: 119584
       name: ic60_14v.bin
       size: 131072
       blob_id: 47501
-    - id: 457622
-      asset_id: 90341
+    - id: 835172
+      asset_id: 119584
       name: ic65_15v.bin
       size: 131072
       blob_id: 47502
-    - id: 457623
-      asset_id: 90341
+    - id: 835173
+      asset_id: 119584
       name: ic67_04.bin
       size: 65536
       blob_id: 47503
-    - id: 457624
-      asset_id: 90341
+    - id: 835174
+      asset_id: 119584
       name: ic82_06.bin
       size: 131072
       blob_id: 47504
-    - id: 457625
-      asset_id: 90341
+    - id: 835175
+      asset_id: 119584
       name: ic85_07v.bin
       size: 65536
       blob_id: 47505
-    - id: 457626
-      asset_id: 90341
+    - id: 835176
+      asset_id: 119584
       name: ic86_08v.bin
       size: 131072
       blob_id: 47506
-    - id: 457627
-      asset_id: 90341
+    - id: 835177
+      asset_id: 119584
       name: ic87_01.bin
       size: 32768
       blob_id: 47507
-    - id: 457628
-      asset_id: 90341
+    - id: 835178
+      asset_id: 119584
       name: ic87_10v.bin
       size: 131072
       blob_id: 47508
-    - id: 457629
-      asset_id: 90341
+    - id: 835179
+      asset_id: 119584
       name: ic90_09v.bin
       size: 131072
       blob_id: 47509
-    - id: 457630
-      asset_id: 90341
+    - id: 835180
+      asset_id: 119584
       name: ic91_11v.bin
       size: 131072
       blob_id: 47510
-    - id: 457631
-      asset_id: 90341
+    - id: 835181
+      asset_id: 119584
       name: ic95_02.bin
       size: 65536
       blob_id: 47511
-    - id: 457632
-      asset_id: 90341
+    - id: 835182
+      asset_id: 119584
       name: ym2608_adpcm_rom.bin
       size: 8192
       blob_id: 50804
+- release:
+    id: 100512
+    game_id: 4370
+    description: ""
+    release_date: 19890000
+  names:
+  - id: 234108
+    kind: 3
+    kind_id: 100512
+    language: 1
+    name: Tecmo World Cup '90 (Europe set 1)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 116444
+      kind: 3
+      kind_id: 100512
+      type: 1
+      name: twcup90a.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 780044
+      asset_id: 116444
+      name: ic50_12v.bin
+      size: 131072
+      blob_id: 47497
+    - id: 780045
+      asset_id: 116444
+      name: ic54_05.bin
+      size: 65536
+      blob_id: 47498
+    - id: 780046
+      asset_id: 116444
+      name: ic54_13v.bin
+      size: 131072
+      blob_id: 47499
+    - id: 780047
+      asset_id: 116444
+      name: ic56_03.bin
+      size: 65536
+      blob_id: 47500
+    - id: 780048
+      asset_id: 116444
+      name: ic60_14v.bin
+      size: 131072
+      blob_id: 47501
+    - id: 780049
+      asset_id: 116444
+      name: ic65_15v.bin
+      size: 131072
+      blob_id: 47502
+    - id: 780050
+      asset_id: 116444
+      name: ic67_04.bin
+      size: 65536
+      blob_id: 47503
+    - id: 780051
+      asset_id: 116444
+      name: ic82_06.bin
+      size: 131072
+      blob_id: 47504
+    - id: 780052
+      asset_id: 116444
+      name: ic85_07v.bin
+      size: 65536
+      blob_id: 47505
+    - id: 780053
+      asset_id: 116444
+      name: ic86_08v.bin
+      size: 131072
+      blob_id: 47506
+    - id: 780054
+      asset_id: 116444
+      name: ic87_10v.bin
+      size: 131072
+      blob_id: 47508
+    - id: 780055
+      asset_id: 116444
+      name: ic90_09v.bin
+      size: 131072
+      blob_id: 47509
+    - id: 780056
+      asset_id: 116444
+      name: ic91_11v.bin
+      size: 131072
+      blob_id: 47510
+    - id: 780057
+      asset_id: 116444
+      name: ic95_02.bin
+      size: 65536
+      blob_id: 47511
+    - id: 780058
+      asset_id: 116444
+      name: wc90-1.bin
+      size: 32768
+      blob_id: 47512
+  - asset:
+      id: 119580
+      kind: 3
+      kind_id: 100512
+      type: 1
+      name: twcup90a.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 835103
+      asset_id: 119580
+      name: ic50_12v.bin
+      size: 131072
+      blob_id: 47497
+    - id: 835104
+      asset_id: 119580
+      name: ic54_05.bin
+      size: 65536
+      blob_id: 47498
+    - id: 835105
+      asset_id: 119580
+      name: ic54_13v.bin
+      size: 131072
+      blob_id: 47499
+    - id: 835106
+      asset_id: 119580
+      name: ic56_03.bin
+      size: 65536
+      blob_id: 47500
+    - id: 835107
+      asset_id: 119580
+      name: ic60_14v.bin
+      size: 131072
+      blob_id: 47501
+    - id: 835108
+      asset_id: 119580
+      name: ic65_15v.bin
+      size: 131072
+      blob_id: 47502
+    - id: 835109
+      asset_id: 119580
+      name: ic67_04.bin
+      size: 65536
+      blob_id: 47503
+    - id: 835110
+      asset_id: 119580
+      name: ic82_06.bin
+      size: 131072
+      blob_id: 47504
+    - id: 835111
+      asset_id: 119580
+      name: ic85_07v.bin
+      size: 65536
+      blob_id: 47505
+    - id: 835112
+      asset_id: 119580
+      name: ic86_08v.bin
+      size: 131072
+      blob_id: 47506
+    - id: 835113
+      asset_id: 119580
+      name: ic87_10v.bin
+      size: 131072
+      blob_id: 47508
+    - id: 835114
+      asset_id: 119580
+      name: ic90_09v.bin
+      size: 131072
+      blob_id: 47509
+    - id: 835115
+      asset_id: 119580
+      name: ic91_11v.bin
+      size: 131072
+      blob_id: 47510
+    - id: 835116
+      asset_id: 119580
+      name: ic95_02.bin
+      size: 65536
+      blob_id: 47511
+    - id: 835117
+      asset_id: 119580
+      name: wc90-1.bin
+      size: 32768
+      blob_id: 47512
+    - id: 835118
+      asset_id: 119580
+      name: ym2608_adpcm_rom.bin
+      size: 8192
+      blob_id: 50804
+- release:
+    id: 100513
+    game_id: 4370
+    description: ""
+    release_date: 19890000
+  names:
+  - id: 234109
+    kind: 3
+    kind_id: 100513
+    language: 1
+    name: Tecmo World Cup '90 (Europe set 2)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 116445
+      kind: 3
+      kind_id: 100513
+      type: 1
+      name: twcup90b.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 780059
+      asset_id: 116445
+      name: ic50_12v.bin
+      size: 131072
+      blob_id: 47497
+    - id: 780060
+      asset_id: 116445
+      name: ic54_05.bin
+      size: 65536
+      blob_id: 47498
+    - id: 780061
+      asset_id: 116445
+      name: ic54_13v.bin
+      size: 131072
+      blob_id: 47499
+    - id: 780062
+      asset_id: 116445
+      name: ic56_03.bin
+      size: 65536
+      blob_id: 47500
+    - id: 780063
+      asset_id: 116445
+      name: ic60_14v.bin
+      size: 131072
+      blob_id: 47501
+    - id: 780064
+      asset_id: 116445
+      name: ic65_15v.bin
+      size: 131072
+      blob_id: 47502
+    - id: 780065
+      asset_id: 116445
+      name: ic67_04.bin
+      size: 65536
+      blob_id: 47503
+    - id: 780066
+      asset_id: 116445
+      name: ic82_06.bin
+      size: 131072
+      blob_id: 47504
+    - id: 780067
+      asset_id: 116445
+      name: ic85_07v.bin
+      size: 65536
+      blob_id: 47505
+    - id: 780068
+      asset_id: 116445
+      name: ic86_08v.bin
+      size: 131072
+      blob_id: 47506
+    - id: 780069
+      asset_id: 116445
+      name: ic87-1b.bin
+      size: 32768
+      blob_id: 47513
+    - id: 780070
+      asset_id: 116445
+      name: ic87_10v.bin
+      size: 131072
+      blob_id: 47508
+    - id: 780071
+      asset_id: 116445
+      name: ic90_09v.bin
+      size: 131072
+      blob_id: 47509
+    - id: 780072
+      asset_id: 116445
+      name: ic91_11v.bin
+      size: 131072
+      blob_id: 47510
+    - id: 780073
+      asset_id: 116445
+      name: ic95_02.bin
+      size: 65536
+      blob_id: 47511
+  - asset:
+      id: 119581
+      kind: 3
+      kind_id: 100513
+      type: 1
+      name: twcup90b.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 835119
+      asset_id: 119581
+      name: ic50_12v.bin
+      size: 131072
+      blob_id: 47497
+    - id: 835120
+      asset_id: 119581
+      name: ic54_05.bin
+      size: 65536
+      blob_id: 47498
+    - id: 835121
+      asset_id: 119581
+      name: ic54_13v.bin
+      size: 131072
+      blob_id: 47499
+    - id: 835122
+      asset_id: 119581
+      name: ic56_03.bin
+      size: 65536
+      blob_id: 47500
+    - id: 835123
+      asset_id: 119581
+      name: ic60_14v.bin
+      size: 131072
+      blob_id: 47501
+    - id: 835124
+      asset_id: 119581
+      name: ic65_15v.bin
+      size: 131072
+      blob_id: 47502
+    - id: 835125
+      asset_id: 119581
+      name: ic67_04.bin
+      size: 65536
+      blob_id: 47503
+    - id: 835126
+      asset_id: 119581
+      name: ic82_06.bin
+      size: 131072
+      blob_id: 47504
+    - id: 835127
+      asset_id: 119581
+      name: ic85_07v.bin
+      size: 65536
+      blob_id: 47505
+    - id: 835128
+      asset_id: 119581
+      name: ic86_08v.bin
+      size: 131072
+      blob_id: 47506
+    - id: 835129
+      asset_id: 119581
+      name: ic87-1b.bin
+      size: 32768
+      blob_id: 47513
+    - id: 835130
+      asset_id: 119581
+      name: ic87_10v.bin
+      size: 131072
+      blob_id: 47508
+    - id: 835131
+      asset_id: 119581
+      name: ic90_09v.bin
+      size: 131072
+      blob_id: 47509
+    - id: 835132
+      asset_id: 119581
+      name: ic91_11v.bin
+      size: 131072
+      blob_id: 47510
+    - id: 835133
+      asset_id: 119581
+      name: ic95_02.bin
+      size: 65536
+      blob_id: 47511
+    - id: 835134
+      asset_id: 119581
+      name: ym2608_adpcm_rom.bin
+      size: 8192
+      blob_id: 50804
+- release:
+    id: 100514
+    game_id: 4370
+    description: ""
+    release_date: 19890000
+  names:
+  - id: 234110
+    kind: 3
+    kind_id: 100514
+    language: 1
+    name: Euro League (Italian hack of Tecmo World Cup '90, set 1)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 116446
+      kind: 3
+      kind_id: 100514
+      type: 1
+      name: twcup90b1.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 780074
+      asset_id: 116446
+      name: 146_a12.bin
+      size: 65536
+      blob_id: 47488
+    - id: 780075
+      asset_id: 116446
+      name: 147_a13.bin
+      size: 65536
+      blob_id: 47492
+    - id: 780076
+      asset_id: 116446
+      name: 148_a14.bin
+      size: 65536
+      blob_id: 47489
+    - id: 780077
+      asset_id: 116446
+      name: 149_a15.bin
+      size: 65536
+      blob_id: 47493
+    - id: 780078
+      asset_id: 116446
+      name: 150_a16.bin
+      size: 65536
+      blob_id: 47490
+    - id: 780079
+      asset_id: 116446
+      name: 151_a17.bin
+      size: 65536
+      blob_id: 47494
+    - id: 780080
+      asset_id: 116446
+      name: 152_a18.bin
+      size: 65536
+      blob_id: 47491
+    - id: 780081
+      asset_id: 116446
+      name: 153_a19.bin
+      size: 65536
+      blob_id: 47495
+    - id: 780082
+      asset_id: 116446
+      name: a01.bin
+      size: 65536
+      blob_id: 47514
+    - id: 780083
+      asset_id: 116446
+      name: a02.bin
+      size: 65536
+      blob_id: 47515
+    - id: 780084
+      asset_id: 116446
+      name: a03.bin
+      size: 65536
+      blob_id: 47472
+    - id: 780085
+      asset_id: 116446
+      name: a04.bin
+      size: 65536
+      blob_id: 47516
+    - id: 780086
+      asset_id: 116446
+      name: a05.bin
+      size: 65536
+      blob_id: 47474
+    - id: 780087
+      asset_id: 116446
+      name: a06.bin
+      size: 16384
+      blob_id: 47517
+    - id: 780088
+      asset_id: 116446
+      name: a07.bin
+      size: 131072
+      blob_id: 47518
+    - id: 780089
+      asset_id: 116446
+      name: a08.bin
+      size: 16384
+      blob_id: 47519
+    - id: 780090
+      asset_id: 116446
+      name: a09.bin
+      size: 131072
+      blob_id: 47520
+    - id: 780091
+      asset_id: 116446
+      name: a10.bin
+      size: 16384
+      blob_id: 47521
+    - id: 780092
+      asset_id: 116446
+      name: a11.bin
+      size: 131072
+      blob_id: 47522
+    - id: 780093
+      asset_id: 116446
+      name: a20.bin
+      size: 16384
+      blob_id: 47523
+    - id: 780094
+      asset_id: 116446
+      name: a21.bin
+      size: 131072
+      blob_id: 47524
+    - id: 780095
+      asset_id: 116446
+      name: pal16l8.1
+      size: 260
+      blob_id: 47525
+    - id: 780096
+      asset_id: 116446
+      name: pal16l8.2
+      size: 260
+      blob_id: 47526
+    - id: 780097
+      asset_id: 116446
+      name: pal16l8.3
+      size: 260
+      blob_id: 47527
+    - id: 780098
+      asset_id: 116446
+      name: pal16l8.5
+      size: 260
+      blob_id: 47528
+- release:
+    id: 100515
+    game_id: 4370
+    description: ""
+    release_date: 19890000
+  names:
+  - id: 234111
+    kind: 3
+    kind_id: 100515
+    language: 1
+    name: Worldcup '90 (hack)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 116447
+      kind: 3
+      kind_id: 100515
+      type: 1
+      name: twcup90b2.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 780099
+      asset_id: 116447
+      name: 146_a12.bin
+      size: 65536
+      blob_id: 47488
+    - id: 780100
+      asset_id: 116447
+      name: 147_a13
+      size: 65536
+      blob_id: 47529
+    - id: 780101
+      asset_id: 116447
+      name: 148_a14.bin
+      size: 65536
+      blob_id: 47489
+    - id: 780102
+      asset_id: 116447
+      name: 149_a15
+      size: 65536
+      blob_id: 47530
+    - id: 780103
+      asset_id: 116447
+      name: 150_a16.bin
+      size: 65536
+      blob_id: 47490
+    - id: 780104
+      asset_id: 116447
+      name: 151_a17
+      size: 65536
+      blob_id: 47531
+    - id: 780105
+      asset_id: 116447
+      name: 152_a18.bin
+      size: 65536
+      blob_id: 47491
+    - id: 780106
+      asset_id: 116447
+      name: 153_a19
+      size: 65536
+      blob_id: 47532
+    - id: 780107
+      asset_id: 116447
+      name: a01.bin
+      size: 65536
+      blob_id: 47514
+    - id: 780108
+      asset_id: 116447
+      name: a02
+      size: 32768
+      blob_id: 47533
+    - id: 780109
+      asset_id: 116447
+      name: a03.bin
+      size: 32768
+      blob_id: 47534
+    - id: 780110
+      asset_id: 116447
+      name: a04.bin
+      size: 65536
+      blob_id: 47516
+    - id: 780111
+      asset_id: 116447
+      name: a05.bin
+      size: 65536
+      blob_id: 47474
+    - id: 780112
+      asset_id: 116447
+      name: a06
+      size: 32768
+      blob_id: 47535
+    - id: 780113
+      asset_id: 116447
+      name: a07.bin
+      size: 131072
+      blob_id: 47518
+    - id: 780114
+      asset_id: 116447
+      name: a08
+      size: 32768
+      blob_id: 47536
+    - id: 780115
+      asset_id: 116447
+      name: a09.bin
+      size: 131072
+      blob_id: 47520
+    - id: 780116
+      asset_id: 116447
+      name: a10
+      size: 32768
+      blob_id: 47537
+    - id: 780117
+      asset_id: 116447
+      name: a11.bin
+      size: 131072
+      blob_id: 47522
+    - id: 780118
+      asset_id: 116447
+      name: a20
+      size: 32768
+      blob_id: 47538
+    - id: 780119
+      asset_id: 116447
+      name: a21.bin
+      size: 131072
+      blob_id: 47524
+    - id: 780120
+      asset_id: 116447
+      name: pal16l8.1
+      size: 260
+      blob_id: 47525
+    - id: 780121
+      asset_id: 116447
+      name: pal16l8.2
+      size: 260
+      blob_id: 47526
+    - id: 780122
+      asset_id: 116447
+      name: pal16l8.3
+      size: 260
+      blob_id: 47527
+    - id: 780123
+      asset_id: 116447
+      name: pal16l8.5
+      size: 260
+      blob_id: 47528
+- release:
+    id: 100516
+    game_id: 4370
+    description: ""
+    release_date: 19890000
+  names:
+  - id: 234112
+    kind: 3
+    kind_id: 100516
+    language: 1
+    name: Euro League (Italian hack of Tecmo World Cup '90, set 3)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 116448
+      kind: 3
+      kind_id: 100516
+      type: 1
+      name: twcup90b3.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/904784466
+    entries:
+    - id: 780124
+      asset_id: 116448
+      name: 01.bin
+      size: 65536
+      blob_id: 47514
+    - id: 780125
+      asset_id: 116448
+      name: 02.bin
+      size: 65536
+      blob_id: 47472
+    - id: 780126
+      asset_id: 116448
+      name: 03.bin
+      size: 65536
+      blob_id: 309595
+    - id: 780127
+      asset_id: 116448
+      name: 04.bin
+      size: 65536
+      blob_id: 47474
+    - id: 780128
+      asset_id: 116448
+      name: 05.bin
+      size: 65536
+      blob_id: 47516
+    - id: 780129
+      asset_id: 116448
+      name: 06.bin
+      size: 131072
+      blob_id: 47518
+    - id: 780130
+      asset_id: 116448
+      name: 07.bin
+      size: 65536
+      blob_id: 309596
+    - id: 780131
+      asset_id: 116448
+      name: 08.bin
+      size: 131072
+      blob_id: 47520
+    - id: 780132
+      asset_id: 116448
+      name: 09.bin
+      size: 65536
+      blob_id: 309597
+    - id: 780133
+      asset_id: 116448
+      name: 10.bin
+      size: 131072
+      blob_id: 47522
+    - id: 780134
+      asset_id: 116448
+      name: 11.bin
+      size: 65536
+      blob_id: 309598
+    - id: 780135
+      asset_id: 116448
+      name: 12.bin
+      size: 131072
+      blob_id: 47524
+    - id: 780136
+      asset_id: 116448
+      name: 13.bin
+      size: 65536
+      blob_id: 309599
+    - id: 780137
+      asset_id: 116448
+      name: 14.bin
+      size: 65536
+      blob_id: 47495
+    - id: 780138
+      asset_id: 116448
+      name: 15.bin
+      size: 65536
+      blob_id: 47491
+    - id: 780139
+      asset_id: 116448
+      name: 16.bin
+      size: 65536
+      blob_id: 47494
+    - id: 780140
+      asset_id: 116448
+      name: 17.bin
+      size: 65536
+      blob_id: 47490
+    - id: 780141
+      asset_id: 116448
+      name: 18.bin
+      size: 65536
+      blob_id: 47493
+    - id: 780142
+      asset_id: 116448
+      name: 19.bin
+      size: 65536
+      blob_id: 47489
+    - id: 780143
+      asset_id: 116448
+      name: 20.bin
+      size: 65536
+      blob_id: 47492
+    - id: 780144
+      asset_id: 116448
+      name: 21.bin
+      size: 65536
+      blob_id: 47488
+    - id: 780145
+      asset_id: 116448
+      name: pal16l8.1
+      size: 260
+      blob_id: 47525
+    - id: 780146
+      asset_id: 116448
+      name: pal16l8.2
+      size: 260
+      blob_id: 47526
+    - id: 780147
+      asset_id: 116448
+      name: pal16l8.3
+      size: 260
+      blob_id: 47527
+    - id: 780148
+      asset_id: 116448
+      name: pal16l8.5
+      size: 260
+      blob_id: 47528
+- release:
+    id: 100517
+    game_id: 4370
+    description: ""
+    release_date: 19890000
+  names:
+  - id: 234113
+    kind: 3
+    kind_id: 100517
+    language: 1
+    name: Euro League (Italian hack of Tecmo World Cup '90, set 2)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 116449
+      kind: 3
+      kind_id: 100517
+      type: 1
+      name: twcup90ba.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 780149
+      asset_id: 116449
+      name: 146_a12.bin
+      size: 65536
+      blob_id: 47488
+    - id: 780150
+      asset_id: 116449
+      name: 147_a13.bin
+      size: 65536
+      blob_id: 47492
+    - id: 780151
+      asset_id: 116449
+      name: 148_a14.bin
+      size: 65536
+      blob_id: 47489
+    - id: 780152
+      asset_id: 116449
+      name: 149_a15.bin
+      size: 65536
+      blob_id: 47493
+    - id: 780153
+      asset_id: 116449
+      name: 150_a16.bin
+      size: 65536
+      blob_id: 47490
+    - id: 780154
+      asset_id: 116449
+      name: 151_a17.bin
+      size: 65536
+      blob_id: 47494
+    - id: 780155
+      asset_id: 116449
+      name: 152_a18.bin
+      size: 65536
+      blob_id: 47491
+    - id: 780156
+      asset_id: 116449
+      name: 153_a19.bin
+      size: 65536
+      blob_id: 47495
+    - id: 780157
+      asset_id: 116449
+      name: a01.bin
+      size: 65536
+      blob_id: 47514
+    - id: 780158
+      asset_id: 116449
+      name: a02.bin
+      size: 65536
+      blob_id: 47515
+    - id: 780159
+      asset_id: 116449
+      name: a03.bin
+      size: 65536
+      blob_id: 47472
+    - id: 780160
+      asset_id: 116449
+      name: a04.bin
+      size: 65536
+      blob_id: 47516
+    - id: 780161
+      asset_id: 116449
+      name: a06.bin
+      size: 16384
+      blob_id: 47517
+    - id: 780162
+      asset_id: 116449
+      name: a07.bin
+      size: 131072
+      blob_id: 47518
+    - id: 780163
+      asset_id: 116449
+      name: a08.bin
+      size: 16384
+      blob_id: 47519
+    - id: 780164
+      asset_id: 116449
+      name: a09.bin
+      size: 131072
+      blob_id: 47520
+    - id: 780165
+      asset_id: 116449
+      name: a10.bin
+      size: 16384
+      blob_id: 47521
+    - id: 780166
+      asset_id: 116449
+      name: a11.bin
+      size: 131072
+      blob_id: 47522
+    - id: 780167
+      asset_id: 116449
+      name: a20.bin
+      size: 16384
+      blob_id: 47523
+    - id: 780168
+      asset_id: 116449
+      name: a21.bin
+      size: 131072
+      blob_id: 47524
+    - id: 780169
+      asset_id: 116449
+      name: el_ic98_27c512_05.bin
+      size: 65536
+      blob_id: 47539
+    - id: 780170
+      asset_id: 116449
+      name: pal16l8.1
+      size: 260
+      blob_id: 47525
+    - id: 780171
+      asset_id: 116449
+      name: pal16l8.2
+      size: 260
+      blob_id: 47526
+    - id: 780172
+      asset_id: 116449
+      name: pal16l8.3
+      size: 260
+      blob_id: 47527
+    - id: 780173
+      asset_id: 116449
+      name: pal16l8.5
+      size: 260
+      blob_id: 47528
+- release:
+    id: 100518
+    game_id: 4370
+    description: ""
+    release_date: 19890000
+  names:
+  - id: 234114
+    kind: 3
+    kind_id: 100518
+    language: 1
+    name: World Cup '90 (European hack, different title)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 116450
+      kind: 3
+      kind_id: 100518
+      type: 1
+      name: twcup90bb.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 780174
+      asset_id: 116450
+      name: "27128.10"
+      size: 16384
+      blob_id: 47521
+    - id: 780175
+      asset_id: 116450
+      name: 27128k.20
+      size: 16384
+      blob_id: 47523
+    - id: 780176
+      asset_id: 116450
+      name: "27256.08"
+      size: 32768
+      blob_id: 47536
+    - id: 780177
+      asset_id: 116450
+      name: 27c256.06
+      size: 32768
+      blob_id: 47535
+    - id: 780178
+      asset_id: 116450
+      name: 27c512.02
+      size: 65536
+      blob_id: 47515
+    - id: 780179
+      asset_id: 116450
+      name: 27c512.03
+      size: 65536
+      blob_id: 47472
+    - id: 780180
+      asset_id: 116450
+      name: 27c512.04
+      size: 65536
+      blob_id: 47516
+    - id: 780181
+      asset_id: 116450
+      name: 27c512.05
+      size: 65536
+      blob_id: 47474
+    - id: 780182
+      asset_id: 116450
+      name: 27c512.12
+      size: 65536
+      blob_id: 47540
+    - id: 780183
+      asset_id: 116450
+      name: 27c512.13
+      size: 65536
+      blob_id: 47541
+    - id: 780184
+      asset_id: 116450
+      name: 27c512.14
+      size: 65536
+      blob_id: 47489
+    - id: 780185
+      asset_id: 116450
+      name: 27c512.15
+      size: 65536
+      blob_id: 47542
+    - id: 780186
+      asset_id: 116450
+      name: 27c512.16
+      size: 65536
+      blob_id: 47490
+    - id: 780187
+      asset_id: 116450
+      name: 27c512.17
+      size: 65536
+      blob_id: 47543
+    - id: 780188
+      asset_id: 116450
+      name: 27c512.18
+      size: 65536
+      blob_id: 47491
+    - id: 780189
+      asset_id: 116450
+      name: 27c512.19
+      size: 65536
+      blob_id: 47544
+    - id: 780190
+      asset_id: 116450
+      name: 27c512.bin
+      size: 65536
+      blob_id: 47514
+    - id: 780191
+      asset_id: 116450
+      name: ds40986_27c010.07
+      size: 131072
+      blob_id: 47518
+    - id: 780192
+      asset_id: 116450
+      name: ds40986_27c010.09
+      size: 131072
+      blob_id: 47520
+    - id: 780193
+      asset_id: 116450
+      name: ds40986_27c010.11
+      size: 131072
+      blob_id: 47522
+    - id: 780194
+      asset_id: 116450
+      name: ds40986_27c010.21
+      size: 131072
+      blob_id: 47524
+    - id: 780195
+      asset_id: 116450
+      name: pal16l8.1
+      size: 260
+      blob_id: 47525
+    - id: 780196
+      asset_id: 116450
+      name: pal16l8.2
+      size: 260
+      blob_id: 47526
+    - id: 780197
+      asset_id: 116450
+      name: pal16l8.3
+      size: 260
+      blob_id: 47527
+    - id: 780198
+      asset_id: 116450
+      name: pal16l8.5
+      size: 260
+      blob_id: 47528
+- release:
+    id: 100519
+    game_id: 4370
+    description: ""
+    release_date: 19890000
+  names:
+  - id: 234115
+    kind: 3
+    kind_id: 100519
+    language: 1
+    name: Tecmo World Cup '90 (Europe set 3)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 116451
+      kind: 3
+      kind_id: 100519
+      type: 1
+      name: twcup90c.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 780199
+      asset_id: 116451
+      name: ic50_12v.bin
+      size: 131072
+      blob_id: 47497
+    - id: 780200
+      asset_id: 116451
+      name: ic54_05.bin
+      size: 65536
+      blob_id: 47498
+    - id: 780201
+      asset_id: 116451
+      name: ic54_13v.bin
+      size: 131072
+      blob_id: 47499
+    - id: 780202
+      asset_id: 116451
+      name: ic56_03.bin
+      size: 65536
+      blob_id: 47500
+    - id: 780203
+      asset_id: 116451
+      name: ic60_14v.bin
+      size: 131072
+      blob_id: 47501
+    - id: 780204
+      asset_id: 116451
+      name: ic65_15v.bin
+      size: 131072
+      blob_id: 47502
+    - id: 780205
+      asset_id: 116451
+      name: ic67_04.bin
+      size: 65536
+      blob_id: 47503
+    - id: 780206
+      asset_id: 116451
+      name: ic82_06.bin
+      size: 131072
+      blob_id: 47504
+    - id: 780207
+      asset_id: 116451
+      name: ic85_07v.bin
+      size: 65536
+      blob_id: 47505
+    - id: 780208
+      asset_id: 116451
+      name: ic86_08v.bin
+      size: 131072
+      blob_id: 47506
+    - id: 780209
+      asset_id: 116451
+      name: ic87_01.bin
+      size: 32768
+      blob_id: 47545
+    - id: 780210
+      asset_id: 116451
+      name: ic87_10v.bin
+      size: 131072
+      blob_id: 47508
+    - id: 780211
+      asset_id: 116451
+      name: ic90_09v.bin
+      size: 131072
+      blob_id: 47509
+    - id: 780212
+      asset_id: 116451
+      name: ic91_11v.bin
+      size: 131072
+      blob_id: 47510
+    - id: 780213
+      asset_id: 116451
+      name: ic95_02.bin
+      size: 65536
+      blob_id: 47511
+  - asset:
+      id: 119582
+      kind: 3
+      kind_id: 100519
+      type: 1
+      name: twcup90c.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 835135
+      asset_id: 119582
+      name: ic50_12v.bin
+      size: 131072
+      blob_id: 47497
+    - id: 835136
+      asset_id: 119582
+      name: ic54_05.bin
+      size: 65536
+      blob_id: 47498
+    - id: 835137
+      asset_id: 119582
+      name: ic54_13v.bin
+      size: 131072
+      blob_id: 47499
+    - id: 835138
+      asset_id: 119582
+      name: ic56_03.bin
+      size: 65536
+      blob_id: 47500
+    - id: 835139
+      asset_id: 119582
+      name: ic60_14v.bin
+      size: 131072
+      blob_id: 47501
+    - id: 835140
+      asset_id: 119582
+      name: ic65_15v.bin
+      size: 131072
+      blob_id: 47502
+    - id: 835141
+      asset_id: 119582
+      name: ic67_04.bin
+      size: 65536
+      blob_id: 47503
+    - id: 835142
+      asset_id: 119582
+      name: ic82_06.bin
+      size: 131072
+      blob_id: 47504
+    - id: 835143
+      asset_id: 119582
+      name: ic85_07v.bin
+      size: 65536
+      blob_id: 47505
+    - id: 835144
+      asset_id: 119582
+      name: ic86_08v.bin
+      size: 131072
+      blob_id: 47506
+    - id: 835145
+      asset_id: 119582
+      name: ic87_01.bin
+      size: 32768
+      blob_id: 47545
+    - id: 835146
+      asset_id: 119582
+      name: ic87_10v.bin
+      size: 131072
+      blob_id: 47508
+    - id: 835147
+      asset_id: 119582
+      name: ic90_09v.bin
+      size: 131072
+      blob_id: 47509
+    - id: 835148
+      asset_id: 119582
+      name: ic91_11v.bin
+      size: 131072
+      blob_id: 47510
+    - id: 835149
+      asset_id: 119582
+      name: ic95_02.bin
+      size: 65536
+      blob_id: 47511
+    - id: 835150
+      asset_id: 119582
+      name: ym2608_adpcm_rom.bin
+      size: 8192
+      blob_id: 50804
+- release:
+    id: 100520
+    game_id: 4370
+    description: ""
+    release_date: 19890000
+  names:
+  - id: 234116
+    kind: 3
+    kind_id: 100520
+    language: 1
+    name: Tecmo World Cup '90 (trackball set 1)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 116452
+      kind: 3
+      kind_id: 100520
+      type: 1
+      name: twcup90t.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 780214
+      asset_id: 116452
+      name: ic50_12v.bin
+      size: 131072
+      blob_id: 47497
+    - id: 780215
+      asset_id: 116452
+      name: ic54_05.bin
+      size: 65536
+      blob_id: 47498
+    - id: 780216
+      asset_id: 116452
+      name: ic54_13v.bin
+      size: 131072
+      blob_id: 47499
+    - id: 780217
+      asset_id: 116452
+      name: ic60_14v.bin
+      size: 131072
+      blob_id: 47501
+    - id: 780218
+      asset_id: 116452
+      name: ic65_15v.bin
+      size: 131072
+      blob_id: 47502
+    - id: 780219
+      asset_id: 116452
+      name: ic67_04.bin
+      size: 65536
+      blob_id: 47503
+    - id: 780220
+      asset_id: 116452
+      name: ic82_06.bin
+      size: 131072
+      blob_id: 47504
+    - id: 780221
+      asset_id: 116452
+      name: ic85_07v.bin
+      size: 65536
+      blob_id: 47505
+    - id: 780222
+      asset_id: 116452
+      name: ic86_08v.bin
+      size: 131072
+      blob_id: 47506
+    - id: 780223
+      asset_id: 116452
+      name: ic87_10v.bin
+      size: 131072
+      blob_id: 47508
+    - id: 780224
+      asset_id: 116452
+      name: ic90_09v.bin
+      size: 131072
+      blob_id: 47509
+    - id: 780225
+      asset_id: 116452
+      name: ic91_11v.bin
+      size: 131072
+      blob_id: 47510
+    - id: 780226
+      asset_id: 116452
+      name: wc90a-1.bin
+      size: 32768
+      blob_id: 47546
+    - id: 780227
+      asset_id: 116452
+      name: wc90a-2.bin
+      size: 65536
+      blob_id: 47547
+    - id: 780228
+      asset_id: 116452
+      name: wc90a-3.bin
+      size: 65536
+      blob_id: 47548
+  - asset:
+      id: 119583
+      kind: 3
+      kind_id: 100520
+      type: 1
+      name: twcup90t.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 835151
+      asset_id: 119583
+      name: ic50_12v.bin
+      size: 131072
+      blob_id: 47497
+    - id: 835152
+      asset_id: 119583
+      name: ic54_05.bin
+      size: 65536
+      blob_id: 47498
+    - id: 835153
+      asset_id: 119583
+      name: ic54_13v.bin
+      size: 131072
+      blob_id: 47499
+    - id: 835154
+      asset_id: 119583
+      name: ic60_14v.bin
+      size: 131072
+      blob_id: 47501
+    - id: 835155
+      asset_id: 119583
+      name: ic65_15v.bin
+      size: 131072
+      blob_id: 47502
+    - id: 835156
+      asset_id: 119583
+      name: ic67_04.bin
+      size: 65536
+      blob_id: 47503
+    - id: 835157
+      asset_id: 119583
+      name: ic82_06.bin
+      size: 131072
+      blob_id: 47504
+    - id: 835158
+      asset_id: 119583
+      name: ic85_07v.bin
+      size: 65536
+      blob_id: 47505
+    - id: 835159
+      asset_id: 119583
+      name: ic86_08v.bin
+      size: 131072
+      blob_id: 47506
+    - id: 835160
+      asset_id: 119583
+      name: ic87_10v.bin
+      size: 131072
+      blob_id: 47508
+    - id: 835161
+      asset_id: 119583
+      name: ic90_09v.bin
+      size: 131072
+      blob_id: 47509
+    - id: 835162
+      asset_id: 119583
+      name: ic91_11v.bin
+      size: 131072
+      blob_id: 47510
+    - id: 835163
+      asset_id: 119583
+      name: wc90a-1.bin
+      size: 32768
+      blob_id: 47546
+    - id: 835164
+      asset_id: 119583
+      name: wc90a-2.bin
+      size: 65536
+      blob_id: 47547
+    - id: 835165
+      asset_id: 119583
+      name: wc90a-3.bin
+      size: 65536
+      blob_id: 47548
+    - id: 835166
+      asset_id: 119583
+      name: ym2608_adpcm_rom.bin
+      size: 8192
+      blob_id: 50804
+- release:
+    id: 102798
+    game_id: 4370
+    description: ""
+    release_date: 19890000
+  names:
+  - id: 237389
+    kind: 3
+    kind_id: 102798
+    language: 1
+    name: World Cup '90 (hack, alt)
+    source: fbneo
+  release_publishers: []
+  assets:
+  - asset:
+      id: 119836
+      kind: 3
+      kind_id: 102798
+      type: 1
+      name: twcup90b4.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 843751
+      asset_id: 119836
+      name: 1.bin
+      size: 65536
+      blob_id: 299635
+    - id: 843752
+      asset_id: 119836
+      name: 146_a12.bin
+      size: 65536
+      blob_id: 47488
+    - id: 843753
+      asset_id: 119836
+      name: 147_a13
+      size: 65536
+      blob_id: 47529
+    - id: 843754
+      asset_id: 119836
+      name: 148_a14.bin
+      size: 65536
+      blob_id: 47489
+    - id: 843755
+      asset_id: 119836
+      name: 149_a15
+      size: 65536
+      blob_id: 47530
+    - id: 843756
+      asset_id: 119836
+      name: 150_a16.bin
+      size: 65536
+      blob_id: 47490
+    - id: 843757
+      asset_id: 119836
+      name: 151_a17
+      size: 65536
+      blob_id: 47531
+    - id: 843758
+      asset_id: 119836
+      name: 152_a18.bin
+      size: 65536
+      blob_id: 47491
+    - id: 843759
+      asset_id: 119836
+      name: 153_a19
+      size: 65536
+      blob_id: 47532
+    - id: 843760
+      asset_id: 119836
+      name: 2.bin
+      size: 32768
+      blob_id: 47533
+    - id: 843761
+      asset_id: 119836
+      name: a03.bin
+      size: 65536
+      blob_id: 47472
+    - id: 843762
+      asset_id: 119836
+      name: a04.bin
+      size: 65536
+      blob_id: 47516
+    - id: 843763
+      asset_id: 119836
+      name: a05.bin
+      size: 65536
+      blob_id: 47474
+    - id: 843764
+      asset_id: 119836
+      name: a06
+      size: 32768
+      blob_id: 47535
+    - id: 843765
+      asset_id: 119836
+      name: a07.bin
+      size: 131072
+      blob_id: 47518
+    - id: 843766
+      asset_id: 119836
+      name: a08
+      size: 32768
+      blob_id: 47536
+    - id: 843767
+      asset_id: 119836
+      name: a09.bin
+      size: 131072
+      blob_id: 47520
+    - id: 843768
+      asset_id: 119836
+      name: a10
+      size: 32768
+      blob_id: 47537
+    - id: 843769
+      asset_id: 119836
+      name: a11.bin
+      size: 131072
+      blob_id: 47522
+    - id: 843770
+      asset_id: 119836
+      name: a20
+      size: 32768
+      blob_id: 47538
+    - id: 843771
+      asset_id: 119836
+      name: a21.bin
+      size: 131072
+      blob_id: 47524
+    - id: 843772
+      asset_id: 119836
+      name: pal16l8.1
+      size: 260
+      blob_id: 47525
+    - id: 843773
+      asset_id: 119836
+      name: pal16l8.2
+      size: 260
+      blob_id: 47526
+    - id: 843774
+      asset_id: 119836
+      name: pal16l8.3
+      size: 260
+      blob_id: 47527
+    - id: 843775
+      asset_id: 119836
+      name: pal16l8.5
+      size: 260
+      blob_id: 47528
+- release:
+    id: 103839
+    game_id: 4370
+    description: ""
+    release_date: 19890000
+  names:
+  - id: 238815
+    kind: 3
+    kind_id: 103839
+    language: 1
+    name: Euro League (Gaelco bootleg, Modular System)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 98485
+      kind: 3
+      kind_id: 103839
+      type: 1
+      name: eurogael.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 598166
+      asset_id: 98485
+      name: 3z-1_3138_gal16v8.ic22
+      size: 279
+      blob_id: 216144
+    - id: 598167
+      asset_id: 98485
+      name: 3z-1_3238_gal16v8.ic24
+      size: 279
+      blob_id: 216145
+    - id: 598168
+      asset_id: 98485
+      name: 3z-1_fu301.ic17
+      size: 65536
+      blob_id: 47471
+    - id: 598169
+      asset_id: 98485
+      name: 3z-1_fu302.ic15
+      size: 65536
+      blob_id: 47472
+    - id: 598170
+      asset_id: 98485
+      name: 3z-1_fu303.ic19
+      size: 65536
+      blob_id: 47473
+    - id: 598171
+      asset_id: 98485
+      name: 3z-1_fu304.ic16
+      size: 65536
+      blob_id: 47474
+    - id: 598172
+      asset_id: 98485
+      name: r1_403_gal16v8.ic29
+      size: 279
+      blob_id: 7672
+    - id: 598173
+      asset_id: 98485
+      name: r1_fu401.ic17
+      size: 32768
+      blob_id: 47475
+    - id: 598174
+      asset_id: 98485
+      name: r1_fu402.ic16
+      size: 32768
+      blob_id: 47476
+    - id: 598175
+      asset_id: 98485
+      name: r1_fu403.ic15
+      size: 32768
+      blob_id: 47477
+    - id: 598176
+      asset_id: 98485
+      name: r1_fu404.ic14
+      size: 32768
+      blob_id: 47478
+    - id: 598177
+      asset_id: 98485
+      name: r2_fu4a01.ic17
+      size: 65536
+      blob_id: 47479
+    - id: 598178
+      asset_id: 98485
+      name: r2_fu4a02.ic16
+      size: 65536
+      blob_id: 47480
+    - id: 598179
+      asset_id: 98485
+      name: r2_fu4a03.ic15
+      size: 65536
+      blob_id: 47481
+    - id: 598180
+      asset_id: 98485
+      name: r2_fu4a04.ic14
+      size: 65536
+      blob_id: 47482
+    - id: 598181
+      asset_id: 98485
+      name: r2_p0403_pal16r8a.ic29
+      size: 260
+      blob_id: 7617
+    - id: 598182
+      asset_id: 98485
+      name: r3_fu4b01.ic17
+      size: 65536
+      blob_id: 47483
+    - id: 598183
+      asset_id: 98485
+      name: r3_fu4b02.ic16
+      size: 65536
+      blob_id: 47484
+    - id: 598184
+      asset_id: 98485
+      name: r3_fu4b03.ic15
+      size: 65536
+      blob_id: 47485
+    - id: 598185
+      asset_id: 98485
+      name: r3_fu4b04.ic14
+      size: 65536
+      blob_id: 47486
+    - id: 598186
+      asset_id: 98485
+      name: r3_p0403_pal16r8a.ic29
+      size: 260
+      blob_id: 47487
+    - id: 598187
+      asset_id: 98485
+      name: r4_fu501.bin
+      size: 65536
+      blob_id: 47488
+    - id: 598188
+      asset_id: 98485
+      name: r4_fu502.bin
+      size: 65536
+      blob_id: 47489
+    - id: 598189
+      asset_id: 98485
+      name: r4_fu503.bin
+      size: 65536
+      blob_id: 47490
+    - id: 598190
+      asset_id: 98485
+      name: r4_fu504.bin
+      size: 65536
+      blob_id: 47491
+    - id: 598191
+      asset_id: 98485
+      name: r4_fu5a01.bin
+      size: 65536
+      blob_id: 47492
+    - id: 598192
+      asset_id: 98485
+      name: r4_fu5a02.bin
+      size: 65536
+      blob_id: 47493
+    - id: 598193
+      asset_id: 98485
+      name: r4_fu5a03.bin
+      size: 65536
+      blob_id: 47494
+    - id: 598194
+      asset_id: 98485
+      name: r4_fu5a04.bin
+      size: 65536
+      blob_id: 47495
+    - id: 598195
+      asset_id: 98485
+      name: r4_p0502_82s129.ic10
+      size: 256
+      blob_id: 7622
+    - id: 598196
+      asset_id: 98485
+      name: r4_p0503_pal16r6.ic46
+      size: 260
+      blob_id: 7690
+    - id: 598197
+      asset_id: 98485
+      name: system2_9138_gal16v8.ic42
+      size: 279
+      blob_id: 216146
+    - id: 598198
+      asset_id: 98485
+      name: system2_9238_gal20v8.ic18
+      size: 343
+      blob_id: 216147
+    - id: 598199
+      asset_id: 98485
+      name: system2_9338_gal16v8.ic10
+      size: 279
+      blob_id: 205875
+    - id: 598200
+      asset_id: 98485
+      name: system2_fu101.ic6
+      size: 65536
+      blob_id: 47496
+  - asset:
+      id: 120265
+      kind: 3
+      kind_id: 103839
+      type: 1
+      name: eurogael.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.259
+    entries:
+    - id: 860168
+      asset_id: 120265
+      name: 3z-1_fu301.ic17
+      size: 65536
+      blob_id: 47471
+    - id: 860169
+      asset_id: 120265
+      name: 3z-1_fu302.ic15
+      size: 65536
+      blob_id: 47472
+    - id: 860170
+      asset_id: 120265
+      name: 3z-1_fu303.ic19
+      size: 65536
+      blob_id: 47473
+    - id: 860171
+      asset_id: 120265
+      name: 3z-1_fu304.ic16
+      size: 65536
+      blob_id: 47474
+    - id: 860172
+      asset_id: 120265
+      name: r1_fu401.ic17
+      size: 32768
+      blob_id: 47475
+    - id: 860173
+      asset_id: 120265
+      name: r1_fu402.ic16
+      size: 32768
+      blob_id: 47476
+    - id: 860174
+      asset_id: 120265
+      name: r1_fu403.ic15
+      size: 32768
+      blob_id: 47477
+    - id: 860175
+      asset_id: 120265
+      name: r1_fu404.ic14
+      size: 32768
+      blob_id: 47478
+    - id: 860176
+      asset_id: 120265
+      name: r2_fu4a01.ic17
+      size: 65536
+      blob_id: 47479
+    - id: 860177
+      asset_id: 120265
+      name: r2_fu4a02.ic16
+      size: 65536
+      blob_id: 47480
+    - id: 860178
+      asset_id: 120265
+      name: r2_fu4a03.ic15
+      size: 65536
+      blob_id: 47481
+    - id: 860179
+      asset_id: 120265
+      name: r2_fu4a04.ic14
+      size: 65536
+      blob_id: 47482
+    - id: 860180
+      asset_id: 120265
+      name: r2_p0403_pal16r8a.ic29
+      size: 260
+      blob_id: 7617
+    - id: 860181
+      asset_id: 120265
+      name: r3_fu4b01.ic17
+      size: 65536
+      blob_id: 47483
+    - id: 860182
+      asset_id: 120265
+      name: r3_fu4b02.ic16
+      size: 65536
+      blob_id: 47484
+    - id: 860183
+      asset_id: 120265
+      name: r3_fu4b03.ic15
+      size: 65536
+      blob_id: 47485
+    - id: 860184
+      asset_id: 120265
+      name: r3_fu4b04.ic14
+      size: 65536
+      blob_id: 47486
+    - id: 860185
+      asset_id: 120265
+      name: r3_p0403_pal16r8a.ic29
+      size: 260
+      blob_id: 47487
+    - id: 860186
+      asset_id: 120265
+      name: r4_fu501.bin
+      size: 65536
+      blob_id: 47488
+    - id: 860187
+      asset_id: 120265
+      name: r4_fu502.bin
+      size: 65536
+      blob_id: 47489
+    - id: 860188
+      asset_id: 120265
+      name: r4_fu503.bin
+      size: 65536
+      blob_id: 47490
+    - id: 860189
+      asset_id: 120265
+      name: r4_fu504.bin
+      size: 65536
+      blob_id: 47491
+    - id: 860190
+      asset_id: 120265
+      name: r4_fu5a01.bin
+      size: 65536
+      blob_id: 47492
+    - id: 860191
+      asset_id: 120265
+      name: r4_fu5a02.bin
+      size: 65536
+      blob_id: 47493
+    - id: 860192
+      asset_id: 120265
+      name: r4_fu5a03.bin
+      size: 65536
+      blob_id: 47494
+    - id: 860193
+      asset_id: 120265
+      name: r4_fu5a04.bin
+      size: 65536
+      blob_id: 47495
+    - id: 860194
+      asset_id: 120265
+      name: r4_p0502_82s129.ic10
+      size: 256
+      blob_id: 7622
+    - id: 860195
+      asset_id: 120265
+      name: r4_p0503_pal16r6.ic46
+      size: 260
+      blob_id: 7690
+    - id: 860196
+      asset_id: 120265
+      name: system2_fu101.ic6
+      size: 65536
+      blob_id: 47496

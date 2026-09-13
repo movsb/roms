@@ -16,6 +16,12 @@ names:
   language: 2
   name: 凶手是谁 (版本 9.0)
   source: trimui
+- id: 201372
+  kind: 2
+  kind_id: 4547
+  language: 1
+  name: Who Dunit (version 8.0)
+  source: mame
 game_developers:
 - game_id: 4547
   developer_id: 507
@@ -339,324 +345,628 @@ releases:
       blob_id: 91487
       debug: arcade/wheel/whodunit.png
     entries: []
-- release:
-    id: 75448
-    game_id: 4547
-    description: ""
-    release_date: 19880000
-  names:
-  - id: 180729
-    kind: 3
-    kind_id: 75448
-    language: 1
-    name: Who Dunit (version 9.0)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 88518
+      id: 117738
       kind: 3
-      kind_id: 75448
+      kind_id: 4547
       type: 1
       name: whodunit.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
-      debug: dat:mame:0.289
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/1267966527
     entries:
-    - id: 417588
-      asset_id: 88518
+    - id: 794444
+      asset_id: 117738
       name: 11b_xicor_2804a.bin
       size: 512
-      blob_id: 196903
-    - id: 417589
-      asset_id: 88518
+      blob_id: 313006
+    - id: 794445
+      asset_id: 117738
       name: wda-9_1-l.1l
       size: 8192
       blob_id: 49400
-    - id: 417590
-      asset_id: 88518
+    - id: 794446
+      asset_id: 117738
       name: wda-9_1-m.1m
       size: 8192
       blob_id: 49401
-    - id: 417591
-      asset_id: 88518
+    - id: 794447
+      asset_id: 117738
       name: wda-9_1-n.1n
       size: 8192
       blob_id: 12024
-    - id: 417592
-      asset_id: 88518
+    - id: 794448
+      asset_id: 117738
       name: wda-9_1-p.1p
       size: 8192
       blob_id: 49391
-    - id: 417593
-      asset_id: 88518
+    - id: 794449
+      asset_id: 117738
       name: wda-9_1-r.1r
       size: 8192
       blob_id: 49393
-    - id: 417594
-      asset_id: 88518
+    - id: 794450
+      asset_id: 117738
       name: wda-9_1-s.1s
       size: 8192
       blob_id: 49395
-    - id: 417595
-      asset_id: 88518
+    - id: 794451
+      asset_id: 117738
       name: wda-9_1-t.1t
       size: 8192
       blob_id: 49397
-    - id: 417596
-      asset_id: 88518
+    - id: 794452
+      asset_id: 117738
       name: wda-9_2-k.2k
       size: 8192
       blob_id: 49387
-    - id: 417597
-      asset_id: 88518
+    - id: 794453
+      asset_id: 117738
       name: wda-9_2-l.2l
       size: 8192
       blob_id: 49388
-    - id: 417598
-      asset_id: 88518
+    - id: 794454
+      asset_id: 117738
       name: wda-9_2-m.2m
       size: 8192
       blob_id: 49389
-    - id: 417599
-      asset_id: 88518
+    - id: 794455
+      asset_id: 117738
       name: wda-9_2-n.2n
       size: 8192
       blob_id: 49390
-    - id: 417600
-      asset_id: 88518
+    - id: 794456
+      asset_id: 117738
       name: wda-9_2-p.2p
       size: 8192
       blob_id: 49392
-    - id: 417601
-      asset_id: 88518
+    - id: 794457
+      asset_id: 117738
       name: wda-9_2-r.2r
       size: 8192
       blob_id: 49394
-    - id: 417602
-      asset_id: 88518
+    - id: 794458
+      asset_id: 117738
       name: wda-9_2-s.2s
       size: 8192
       blob_id: 49396
-    - id: 417603
-      asset_id: 88518
+    - id: 794459
+      asset_id: 117738
       name: wda-9_2-t.2t
       size: 8192
       blob_id: 49398
-    - id: 417604
-      asset_id: 88518
+    - id: 794460
+      asset_id: 117738
       name: wda-9_h-1.h1
       size: 8192
-      blob_id: 196904
-    - id: 417605
-      asset_id: 88518
+      blob_id: 313007
+    - id: 794461
+      asset_id: 117738
       name: wdl-9_1-a.1a
       size: 8192
-      blob_id: 196905
-    - id: 417606
-      asset_id: 88518
+      blob_id: 313008
+    - id: 794462
+      asset_id: 117738
       name: wdl-9_1-b.1b
       size: 8192
       blob_id: 49406
-    - id: 417607
-      asset_id: 88518
+    - id: 794463
+      asset_id: 117738
       name: wdl-9_1-c.1c
       size: 8192
       blob_id: 49421
-    - id: 417608
-      asset_id: 88518
+    - id: 794464
+      asset_id: 117738
       name: wdl-9_1-d.1d
       size: 8192
       blob_id: 49407
-    - id: 417609
-      asset_id: 88518
+    - id: 794465
+      asset_id: 117738
       name: wdl-9_10-b.10b
       size: 8192
-      blob_id: 196906
-    - id: 417610
-      asset_id: 88518
+      blob_id: 313009
+    - id: 794466
+      asset_id: 117738
       name: wdl-9_10-c.10c
       size: 8192
       blob_id: 49403
-    - id: 417611
-      asset_id: 88518
+    - id: 794467
+      asset_id: 117738
       name: wdl-9_10-d.10d
       size: 8192
       blob_id: 49404
-    - id: 417612
-      asset_id: 88518
+    - id: 794468
+      asset_id: 117738
       name: wdl-9_10-e.10e
       size: 8192
       blob_id: 49417
-    - id: 417613
-      asset_id: 88518
+    - id: 794469
+      asset_id: 117738
       name: wdl-9_11-c.11c
       size: 8192
       blob_id: 49405
-    - id: 417614
-      asset_id: 88518
+    - id: 794470
+      asset_id: 117738
       name: wdl-9_11-d.11d
       size: 8192
       blob_id: 49418
-    - id: 417615
-      asset_id: 88518
+    - id: 794471
+      asset_id: 117738
       name: wdl-9_11-e.11e
       size: 8192
       blob_id: 49419
-    - id: 417616
-      asset_id: 88518
+    - id: 794472
+      asset_id: 117738
       name: wdl-9_3-a.3a
       size: 8192
       blob_id: 49422
-    - id: 417617
-      asset_id: 88518
+    - id: 794473
+      asset_id: 117738
       name: wdl-9_3-b.3b
       size: 8192
       blob_id: 49408
-    - id: 417618
-      asset_id: 88518
+    - id: 794474
+      asset_id: 117738
       name: wdl-9_3-c.3c
       size: 8192
-      blob_id: 196907
-    - id: 417619
-      asset_id: 88518
+      blob_id: 313010
+    - id: 794475
+      asset_id: 117738
       name: wdl-9_3-d.3d
       size: 8192
       blob_id: 49409
-    - id: 417620
-      asset_id: 88518
+    - id: 794476
+      asset_id: 117738
       name: wdl-9_4-a.4a
       size: 8192
-      blob_id: 196908
-    - id: 417621
-      asset_id: 88518
+      blob_id: 313011
+    - id: 794477
+      asset_id: 117738
       name: wdl-9_4-b.4b
       size: 8192
       blob_id: 49425
-    - id: 417622
-      asset_id: 88518
+    - id: 794478
+      asset_id: 117738
       name: wdl-9_4-c.4c
       size: 8192
       blob_id: 49410
-    - id: 417623
-      asset_id: 88518
+    - id: 794479
+      asset_id: 117738
       name: wdl-9_4-d.4d
       size: 8192
       blob_id: 49426
-    - id: 417624
-      asset_id: 88518
+    - id: 794480
+      asset_id: 117738
       name: wdl-9_4-e.4e
       size: 8192
-      blob_id: 196909
-    - id: 417625
-      asset_id: 88518
+      blob_id: 313012
+    - id: 794481
+      asset_id: 117738
       name: wdl-9_6-a.6a
       size: 8192
-      blob_id: 196910
-    - id: 417626
-      asset_id: 88518
+      blob_id: 313013
+    - id: 794482
+      asset_id: 117738
       name: wdl-9_6-b.6b
       size: 8192
       blob_id: 49429
-    - id: 417627
-      asset_id: 88518
+    - id: 794483
+      asset_id: 117738
       name: wdl-9_6-c.6c
       size: 8192
-      blob_id: 196911
-    - id: 417628
-      asset_id: 88518
+      blob_id: 313014
+    - id: 794484
+      asset_id: 117738
       name: wdl-9_6-d.6d
       size: 8192
       blob_id: 49430
-    - id: 417629
-      asset_id: 88518
+    - id: 794485
+      asset_id: 117738
       name: wdl-9_6-e.6e
       size: 8192
-      blob_id: 196912
-    - id: 417630
-      asset_id: 88518
+      blob_id: 313015
+    - id: 794486
+      asset_id: 117738
       name: wdl-9_7-b.7b
       size: 8192
       blob_id: 49412
-    - id: 417631
-      asset_id: 88518
+    - id: 794487
+      asset_id: 117738
       name: wdl-9_7-c.7c
       size: 8192
       blob_id: 49413
-    - id: 417632
-      asset_id: 88518
+    - id: 794488
+      asset_id: 117738
       name: wdl-9_7-d.7d
       size: 8192
       blob_id: 49414
-    - id: 417633
-      asset_id: 88518
+    - id: 794489
+      asset_id: 117738
       name: wdl-9_7-e.7e
       size: 8192
-      blob_id: 196913
-    - id: 417634
-      asset_id: 88518
+      blob_id: 313016
+    - id: 794490
+      asset_id: 117738
       name: wdl-9_8-b.8b
       size: 8192
       blob_id: 49433
-    - id: 417635
-      asset_id: 88518
+    - id: 794491
+      asset_id: 117738
       name: wdl-9_8-c.8c
       size: 8192
       blob_id: 49415
-    - id: 417636
-      asset_id: 88518
+    - id: 794492
+      asset_id: 117738
       name: wdl-9_8-d.8d
       size: 8192
       blob_id: 49416
-    - id: 417637
-      asset_id: 88518
+    - id: 794493
+      asset_id: 117738
       name: wdl-9_8-e.8e
       size: 8192
-      blob_id: 196914
-    - id: 417638
-      asset_id: 88518
+      blob_id: 313017
+    - id: 794494
+      asset_id: 117738
       name: xbl-3k_mmi_6331.bin
       size: 32
-      blob_id: 102507
-    - id: 417639
-      asset_id: 88518
+      blob_id: 208667
+    - id: 794495
+      asset_id: 117738
       name: xbl.12h
       size: 256
-      blob_id: 102499
-    - id: 417640
-      asset_id: 88518
+      blob_id: 208659
+    - id: 794496
+      asset_id: 117738
       name: xbl.2h
       size: 256
-      blob_id: 102500
-    - id: 417641
-      asset_id: 88518
+      blob_id: 208660
+    - id: 794497
+      asset_id: 117738
       name: xbl.4k
       size: 256
-      blob_id: 102501
-    - id: 417642
-      asset_id: 88518
+      blob_id: 208661
+    - id: 794498
+      asset_id: 117738
       name: xbl.5k
       size: 256
-      blob_id: 102502
-    - id: 417643
-      asset_id: 88518
+      blob_id: 208662
+    - id: 794499
+      asset_id: 117738
       name: xbl.6k
       size: 256
-      blob_id: 102503
-    - id: 417644
-      asset_id: 88518
+      blob_id: 208663
+    - id: 794500
+      asset_id: 117738
       name: xbl.7k
       size: 256
-      blob_id: 102504
-    - id: 417645
-      asset_id: 88518
+      blob_id: 208664
+    - id: 794501
+      asset_id: 117738
       name: xbl.8k
       size: 256
-      blob_id: 102505
-    - id: 417646
-      asset_id: 88518
+      blob_id: 208665
+    - id: 794502
+      asset_id: 117738
       name: xbl.9h
       size: 256
-      blob_id: 102506
+      blob_id: 208666
+- release:
+    id: 101746
+    game_id: 4547
+    description: ""
+    release_date: 19880000
+  names:
+  - id: 235774
+    kind: 3
+    kind_id: 101746
+    language: 1
+    name: Who Dunit (version 8.0)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 117739
+      kind: 3
+      kind_id: 101746
+      type: 1
+      name: whodunit8.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 794503
+      asset_id: 117739
+      name: wda6.k2
+      size: 8192
+      blob_id: 49387
+    - id: 794504
+      asset_id: 117739
+      name: wda6.l2
+      size: 8192
+      blob_id: 49388
+    - id: 794505
+      asset_id: 117739
+      name: wda6.m2
+      size: 8192
+      blob_id: 49389
+    - id: 794506
+      asset_id: 117739
+      name: wda6.n2
+      size: 8192
+      blob_id: 49390
+    - id: 794507
+      asset_id: 117739
+      name: wda6.p1
+      size: 8192
+      blob_id: 49391
+    - id: 794508
+      asset_id: 117739
+      name: wda6.p2
+      size: 8192
+      blob_id: 49392
+    - id: 794509
+      asset_id: 117739
+      name: wda6.r1
+      size: 8192
+      blob_id: 49393
+    - id: 794510
+      asset_id: 117739
+      name: wda6.r2
+      size: 8192
+      blob_id: 49394
+    - id: 794511
+      asset_id: 117739
+      name: wda6.s1
+      size: 8192
+      blob_id: 49395
+    - id: 794512
+      asset_id: 117739
+      name: wda6.s2
+      size: 8192
+      blob_id: 49396
+    - id: 794513
+      asset_id: 117739
+      name: wda6.t1
+      size: 8192
+      blob_id: 49397
+    - id: 794514
+      asset_id: 117739
+      name: wda6.t2
+      size: 8192
+      blob_id: 49398
+    - id: 794515
+      asset_id: 117739
+      name: wda8.h1
+      size: 8192
+      blob_id: 49399
+    - id: 794516
+      asset_id: 117739
+      name: wda8.l1
+      size: 8192
+      blob_id: 49400
+    - id: 794517
+      asset_id: 117739
+      name: wda8.m1
+      size: 8192
+      blob_id: 49401
+    - id: 794518
+      asset_id: 117739
+      name: wdl6.10b
+      size: 8192
+      blob_id: 49402
+    - id: 794519
+      asset_id: 117739
+      name: wdl6.10c
+      size: 8192
+      blob_id: 49403
+    - id: 794520
+      asset_id: 117739
+      name: wdl6.10d
+      size: 8192
+      blob_id: 49404
+    - id: 794521
+      asset_id: 117739
+      name: wdl6.11c
+      size: 8192
+      blob_id: 49405
+    - id: 794522
+      asset_id: 117739
+      name: wdl6.1b
+      size: 8192
+      blob_id: 49406
+    - id: 794523
+      asset_id: 117739
+      name: wdl6.1d
+      size: 8192
+      blob_id: 49407
+    - id: 794524
+      asset_id: 117739
+      name: wdl6.3b
+      size: 8192
+      blob_id: 49408
+    - id: 794525
+      asset_id: 117739
+      name: wdl6.3d
+      size: 8192
+      blob_id: 49409
+    - id: 794526
+      asset_id: 117739
+      name: wdl6.4c
+      size: 8192
+      blob_id: 49410
+    - id: 794527
+      asset_id: 117739
+      name: wdl6.6c
+      size: 8192
+      blob_id: 49411
+    - id: 794528
+      asset_id: 117739
+      name: wdl6.7b
+      size: 8192
+      blob_id: 49412
+    - id: 794529
+      asset_id: 117739
+      name: wdl6.7c
+      size: 8192
+      blob_id: 49413
+    - id: 794530
+      asset_id: 117739
+      name: wdl6.7d
+      size: 8192
+      blob_id: 49414
+    - id: 794531
+      asset_id: 117739
+      name: wdl6.8c
+      size: 8192
+      blob_id: 49415
+    - id: 794532
+      asset_id: 117739
+      name: wdl6.8d
+      size: 8192
+      blob_id: 49416
+    - id: 794533
+      asset_id: 117739
+      name: wdl8.10e
+      size: 8192
+      blob_id: 49417
+    - id: 794534
+      asset_id: 117739
+      name: wdl8.11d
+      size: 8192
+      blob_id: 49418
+    - id: 794535
+      asset_id: 117739
+      name: wdl8.11e
+      size: 8192
+      blob_id: 49419
+    - id: 794536
+      asset_id: 117739
+      name: wdl8.1a
+      size: 8192
+      blob_id: 49420
+    - id: 794537
+      asset_id: 117739
+      name: wdl8.1c
+      size: 8192
+      blob_id: 49421
+    - id: 794538
+      asset_id: 117739
+      name: wdl8.3a
+      size: 8192
+      blob_id: 49422
+    - id: 794539
+      asset_id: 117739
+      name: wdl8.3c
+      size: 8192
+      blob_id: 49423
+    - id: 794540
+      asset_id: 117739
+      name: wdl8.4a
+      size: 8192
+      blob_id: 49424
+    - id: 794541
+      asset_id: 117739
+      name: wdl8.4b
+      size: 8192
+      blob_id: 49425
+    - id: 794542
+      asset_id: 117739
+      name: wdl8.4d
+      size: 8192
+      blob_id: 49426
+    - id: 794543
+      asset_id: 117739
+      name: wdl8.4e
+      size: 8192
+      blob_id: 49427
+    - id: 794544
+      asset_id: 117739
+      name: wdl8.6a
+      size: 8192
+      blob_id: 49428
+    - id: 794545
+      asset_id: 117739
+      name: wdl8.6b
+      size: 8192
+      blob_id: 49429
+    - id: 794546
+      asset_id: 117739
+      name: wdl8.6d
+      size: 8192
+      blob_id: 49430
+    - id: 794547
+      asset_id: 117739
+      name: wdl8.6e
+      size: 8192
+      blob_id: 49431
+    - id: 794548
+      asset_id: 117739
+      name: wdl8.7e
+      size: 8192
+      blob_id: 49432
+    - id: 794549
+      asset_id: 117739
+      name: wdl8.8b
+      size: 8192
+      blob_id: 49433
+    - id: 794550
+      asset_id: 117739
+      name: wdl8.8e
+      size: 8192
+      blob_id: 49434
+    - id: 794551
+      asset_id: 117739
+      name: xba1.1n
+      size: 8192
+      blob_id: 12024
+    - id: 794552
+      asset_id: 117739
+      name: xbl.12h
+      size: 256
+      blob_id: 208659
+    - id: 794553
+      asset_id: 117739
+      name: xbl.2h
+      size: 256
+      blob_id: 208660
+    - id: 794554
+      asset_id: 117739
+      name: xbl.4k
+      size: 256
+      blob_id: 208661
+    - id: 794555
+      asset_id: 117739
+      name: xbl.5k
+      size: 256
+      blob_id: 208662
+    - id: 794556
+      asset_id: 117739
+      name: xbl.6k
+      size: 256
+      blob_id: 208663
+    - id: 794557
+      asset_id: 117739
+      name: xbl.7k
+      size: 256
+      blob_id: 208664
+    - id: 794558
+      asset_id: 117739
+      name: xbl.8k
+      size: 256
+      blob_id: 208665
+    - id: 794559
+      asset_id: 117739
+      name: xbl.9h
+      size: 256
+      blob_id: 208666
+    - id: 794560
+      asset_id: 117739
+      name: xml-3k_mmi_6331.bin
+      size: 32
+      blob_id: 208667

@@ -16,8 +16,36 @@ names:
   language: 2
   name: 飞天男孩
   source: trimui
-game_developers: []
-game_genres: []
+- id: 186814
+  kind: 2
+  kind_id: 1680
+  language: 1
+  name: fastfred
+  source: ""
+- id: 186815
+  kind: 2
+  kind_id: 1680
+  language: 2
+  name: 飞天快手佛莱迪
+  source: trimui
+- id: 186832
+  kind: 2
+  kind_id: 1680
+  language: 1
+  name: flyboyb
+  source: ""
+- id: 186833
+  kind: 2
+  kind_id: 1680
+  language: 2
+  name: 飞天男孩 (D版)
+  source: trimui
+game_developers:
+- game_id: 1680
+  developer_id: 555
+game_genres:
+- game_id: 1680
+  genre_id: 6
 assets: []
 releases:
 - release:
@@ -152,24 +180,10 @@ releases:
       name: ROM19.ROM
       size: 4096
       blob_id: 18481
-- release:
-    id: 43842
-    game_id: 1680
-    description: ""
-    release_date: 19820000
-  names:
-  - id: 118471
-    kind: 3
-    kind_id: 43842
-    language: 1
-    name: Fly-Boy
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 56912
+      id: 99134
       kind: 3
-      kind_id: 43842
+      kind_id: 1680
       type: 1
       name: flyboy.zip
       description: ""
@@ -178,113 +192,399 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 173304
-      asset_id: 56912
+    - id: 605317
+      asset_id: 99134
       name: blue.7h
       size: 256
       blob_id: 18482
-    - id: 173305
-      asset_id: 56912
+    - id: 605318
+      asset_id: 99134
       name: flyboy01.cpu
       size: 4096
-      blob_id: 116979
-    - id: 173306
-      asset_id: 56912
+      blob_id: 217545
+    - id: 605319
+      asset_id: 99134
       name: flyboy02.cpu
       size: 4096
-      blob_id: 116980
-    - id: 173307
-      asset_id: 56912
+      blob_id: 217546
+    - id: 605320
+      asset_id: 99134
       name: flyboy05.cpu
       size: 4096
-      blob_id: 116981
-    - id: 173308
-      asset_id: 56912
+      blob_id: 217547
+    - id: 605321
+      asset_id: 99134
       name: green.8h
       size: 256
       blob_id: 18483
-    - id: 173309
-      asset_id: 56912
+    - id: 605322
+      asset_id: 99134
       name: red.9h
       size: 256
       blob_id: 18484
-    - id: 173310
-      asset_id: 56912
+    - id: 605323
+      asset_id: 99134
       name: rom10.cpu
       size: 4096
       blob_id: 18464
-    - id: 173311
-      asset_id: 56912
+    - id: 605324
+      asset_id: 99134
       name: rom11.rom
       size: 4096
       blob_id: 18480
-    - id: 173312
-      asset_id: 56912
+    - id: 605325
+      asset_id: 99134
       name: rom12.rom
       size: 4096
       blob_id: 18465
-    - id: 173313
-      asset_id: 56912
+    - id: 605326
+      asset_id: 99134
       name: rom13.rom
       size: 4096
       blob_id: 18466
-    - id: 173314
-      asset_id: 56912
+    - id: 605327
+      asset_id: 99134
       name: rom14.rom
       size: 4096
       blob_id: 18467
-    - id: 173315
-      asset_id: 56912
+    - id: 605328
+      asset_id: 99134
       name: rom15.rom
       size: 4096
       blob_id: 18468
-    - id: 173316
-      asset_id: 56912
+    - id: 605329
+      asset_id: 99134
       name: rom16.rom
       size: 4096
       blob_id: 18469
-    - id: 173317
-      asset_id: 56912
+    - id: 605330
+      asset_id: 99134
       name: rom17.rom
       size: 4096
       blob_id: 18470
-    - id: 173318
-      asset_id: 56912
+    - id: 605331
+      asset_id: 99134
       name: rom18.rom
       size: 4096
       blob_id: 18471
-    - id: 173319
-      asset_id: 56912
+    - id: 605332
+      asset_id: 99134
       name: rom19.rom
       size: 4096
       blob_id: 18481
-    - id: 173320
-      asset_id: 56912
+    - id: 605333
+      asset_id: 99134
       name: rom3.cpu
       size: 4096
       blob_id: 18473
-    - id: 173321
-      asset_id: 56912
+    - id: 605334
+      asset_id: 99134
       name: rom4.cpu
       size: 4096
       blob_id: 18474
-    - id: 173322
-      asset_id: 56912
+    - id: 605335
+      asset_id: 99134
       name: rom6.cpu
       size: 4096
       blob_id: 18476
-    - id: 173323
-      asset_id: 56912
+    - id: 605336
+      asset_id: 99134
       name: rom7.cpu
       size: 4096
       blob_id: 18477
-    - id: 173324
-      asset_id: 56912
+    - id: 605337
+      asset_id: 99134
       name: rom8.cpu
       size: 4096
       blob_id: 18478
-    - id: 173325
-      asset_id: 56912
+    - id: 605338
+      asset_id: 99134
       name: rom9.cpu
       size: 4096
       blob_id: 18479
+- release:
+    id: 77559
+    game_id: 1680
+    description: ""
+    release_date: 19820000
+  names:
+  - id: 185164
+    kind: 3
+    kind_id: 77559
+    language: 1
+    name: flyboyb
+    source: ""
+  - id: 185165
+    kind: 3
+    kind_id: 77559
+    language: 2
+    name: 飞天男孩 (D版)
+    source: trimui
+  release_publishers:
+  - release_id: 77559
+    publisher_id: 312
+  assets:
+  - asset:
+      id: 1681
+      kind: 3
+      kind_id: 77559
+      type: 1
+      name: flyboyb.zip
+      description: ""
+      format: 2
+      size: 39822
+      blob_id: 0
+      debug: flyboyb.zip
+    entries:
+    - id: 26631
+      asset_id: 1681
+      name: blue.7h
+      size: 256
+      blob_id: 18482
+    - id: 26632
+      asset_id: 1681
+      name: green.8h
+      size: 256
+      blob_id: 18483
+    - id: 26633
+      asset_id: 1681
+      name: red.9h
+      size: 256
+      blob_id: 18484
+    - id: 26634
+      asset_id: 1681
+      name: rom1.cpu
+      size: 4096
+      blob_id: 18463
+    - id: 26635
+      asset_id: 1681
+      name: rom10.cpu
+      size: 4096
+      blob_id: 18464
+    - id: 26636
+      asset_id: 1681
+      name: rom11.rom
+      size: 4096
+      blob_id: 18480
+    - id: 26637
+      asset_id: 1681
+      name: rom12.rom
+      size: 4096
+      blob_id: 18465
+    - id: 26638
+      asset_id: 1681
+      name: rom13.rom
+      size: 4096
+      blob_id: 18466
+    - id: 26639
+      asset_id: 1681
+      name: rom14.rom
+      size: 4096
+      blob_id: 18467
+    - id: 26640
+      asset_id: 1681
+      name: rom15.rom
+      size: 4096
+      blob_id: 18468
+    - id: 26641
+      asset_id: 1681
+      name: rom16.rom
+      size: 4096
+      blob_id: 18469
+    - id: 26642
+      asset_id: 1681
+      name: rom17.rom
+      size: 4096
+      blob_id: 18470
+    - id: 26643
+      asset_id: 1681
+      name: rom18.rom
+      size: 4096
+      blob_id: 18471
+    - id: 26644
+      asset_id: 1681
+      name: rom19.rom
+      size: 4096
+      blob_id: 18481
+    - id: 26645
+      asset_id: 1681
+      name: rom2.cpu
+      size: 4096
+      blob_id: 18472
+    - id: 26646
+      asset_id: 1681
+      name: rom3.cpu
+      size: 4096
+      blob_id: 18473
+    - id: 26647
+      asset_id: 1681
+      name: rom4.cpu
+      size: 4096
+      blob_id: 18474
+    - id: 26648
+      asset_id: 1681
+      name: rom5.cpu
+      size: 4096
+      blob_id: 18475
+    - id: 26649
+      asset_id: 1681
+      name: rom6.cpu
+      size: 4096
+      blob_id: 18476
+    - id: 26650
+      asset_id: 1681
+      name: rom7.cpu
+      size: 4096
+      blob_id: 18477
+    - id: 26651
+      asset_id: 1681
+      name: rom8.cpu
+      size: 4096
+      blob_id: 18478
+    - id: 26652
+      asset_id: 1681
+      name: rom9.cpu
+      size: 4096
+      blob_id: 18479
+- release:
+    id: 102929
+    game_id: 1680
+    description: ""
+    release_date: 0
+  names:
+  - id: 237644
+    kind: 3
+    kind_id: 102929
+    language: 1
+    name: fastfred
+    source: ""
+  - id: 237645
+    kind: 3
+    kind_id: 102929
+    language: 2
+    name: 飞天快手佛莱迪
+    source: trimui
+  release_publishers: []
+  assets:
+  - asset:
+      id: 98687
+      kind: 3
+      kind_id: 102929
+      type: 1
+      name: fastfred.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 600465
+      asset_id: 98687
+      name: blue.7h
+      size: 256
+      blob_id: 18482
+    - id: 600466
+      asset_id: 98687
+      name: ffr.01
+      size: 4096
+      blob_id: 17602
+    - id: 600467
+      asset_id: 98687
+      name: ffr.02
+      size: 4096
+      blob_id: 17603
+    - id: 600468
+      asset_id: 98687
+      name: ffr.03
+      size: 4096
+      blob_id: 17604
+    - id: 600469
+      asset_id: 98687
+      name: ffr.04
+      size: 4096
+      blob_id: 17605
+    - id: 600470
+      asset_id: 98687
+      name: ffr.05
+      size: 4096
+      blob_id: 17606
+    - id: 600471
+      asset_id: 98687
+      name: ffr.06
+      size: 4096
+      blob_id: 17607
+    - id: 600472
+      asset_id: 98687
+      name: ffr.07
+      size: 4096
+      blob_id: 17608
+    - id: 600473
+      asset_id: 98687
+      name: ffr.08
+      size: 4096
+      blob_id: 17609
+    - id: 600474
+      asset_id: 98687
+      name: ffr.09
+      size: 4096
+      blob_id: 17610
+    - id: 600475
+      asset_id: 98687
+      name: ffr.10
+      size: 4096
+      blob_id: 17611
+    - id: 600476
+      asset_id: 98687
+      name: ffr.11
+      size: 4096
+      blob_id: 17612
+    - id: 600477
+      asset_id: 98687
+      name: ffr.12
+      size: 4096
+      blob_id: 17613
+    - id: 600478
+      asset_id: 98687
+      name: ffr.13
+      size: 4096
+      blob_id: 17614
+    - id: 600479
+      asset_id: 98687
+      name: ffr.14
+      size: 4096
+      blob_id: 17615
+    - id: 600480
+      asset_id: 98687
+      name: ffr.15
+      size: 4096
+      blob_id: 17616
+    - id: 600481
+      asset_id: 98687
+      name: ffr.16
+      size: 4096
+      blob_id: 17617
+    - id: 600482
+      asset_id: 98687
+      name: ffr.17
+      size: 4096
+      blob_id: 17618
+    - id: 600483
+      asset_id: 98687
+      name: ffr.18
+      size: 4096
+      blob_id: 17619
+    - id: 600484
+      asset_id: 98687
+      name: ffr.19
+      size: 4096
+      blob_id: 17620
+    - id: 600485
+      asset_id: 98687
+      name: green.8h
+      size: 256
+      blob_id: 18483
+    - id: 600486
+      asset_id: 98687
+      name: red.9h
+      size: 256
+      blob_id: 18484

@@ -16,6 +16,12 @@ names:
   language: 2
   name: 打砖块卫星 (日版)
   source: trimui
+- id: 195346
+  kind: 2
+  kind_id: 3268
+  language: 1
+  name: Quester Special Edition (Japan)
+  source: mame
 game_developers:
 - game_id: 3268
   developer_id: 19
@@ -149,24 +155,10 @@ releases:
       blob_id: 90614
       debug: arcade/wheel/quester.png
     entries: []
-- release:
-    id: 62860
-    game_id: 3268
-    description: ""
-    release_date: 19870000
-  names:
-  - id: 155984
-    kind: 3
-    kind_id: 62860
-    language: 1
-    name: Quester (Japan)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 75930
+      id: 108565
       kind: 3
-      kind_id: 62860
+      kind_id: 3268
       type: 1
       name: quester.zip
       description: ""
@@ -175,58 +167,146 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 313771
-      asset_id: 75930
+    - id: 707204
+      asset_id: 108565
       name: cus64-64a1.mcu
       size: 4096
       blob_id: 7725
-    - id: 313772
-      asset_id: 75930
+    - id: 707205
+      asset_id: 108565
       name: qs1_c0.bin
       size: 131072
       blob_id: 34775
-    - id: 313773
-      asset_id: 75930
+    - id: 707206
+      asset_id: 108565
       name: qs1_c1.bin
       size: 131072
       blob_id: 34776
-    - id: 313774
-      asset_id: 75930
+    - id: 707207
+      asset_id: 108565
       name: qs1_c2.bin
       size: 131072
       blob_id: 34777
-    - id: 313775
-      asset_id: 75930
+    - id: 707208
+      asset_id: 108565
       name: qs1_c8.bin
       size: 65536
       blob_id: 34778
-    - id: 313776
-      asset_id: 75930
+    - id: 707209
+      asset_id: 108565
       name: qs1_o0.bin
       size: 65536
       blob_id: 34779
-    - id: 313777
-      asset_id: 75930
+    - id: 707210
+      asset_id: 108565
       name: qs1_o1.bin
       size: 65536
       blob_id: 34780
-    - id: 313778
-      asset_id: 75930
+    - id: 707211
+      asset_id: 108565
       name: qs1_p5.bin
       size: 65536
       blob_id: 34781
-    - id: 313779
-      asset_id: 75930
+    - id: 707212
+      asset_id: 108565
       name: qs1_p7b.bin
       size: 65536
       blob_id: 34782
-    - id: 313780
-      asset_id: 75930
+    - id: 707213
+      asset_id: 108565
       name: qs1_s0.bin
       size: 65536
       blob_id: 34783
-    - id: 313781
-      asset_id: 75930
+    - id: 707214
+      asset_id: 108565
       name: qs1_v0.bin
       size: 65536
       blob_id: 34784
+- release:
+    id: 93029
+    game_id: 3268
+    description: ""
+    release_date: 19870000
+  names:
+  - id: 224242
+    kind: 3
+    kind_id: 93029
+    language: 1
+    name: Quester Special Edition (Japan)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 108566
+      kind: 3
+      kind_id: 93029
+      type: 1
+      name: questers.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/3850319236
+    entries:
+    - id: 707215
+      asset_id: 108566
+      name: cus64-64a1.mcu
+      size: 4096
+      blob_id: 7725
+    - id: 707216
+      asset_id: 108566
+      name: qs1_c0.bin
+      size: 131072
+      blob_id: 34775
+    - id: 707217
+      asset_id: 108566
+      name: qs1_c1.bin
+      size: 131072
+      blob_id: 34776
+    - id: 707218
+      asset_id: 108566
+      name: qs1_c2.bin
+      size: 131072
+      blob_id: 34777
+    - id: 707219
+      asset_id: 108566
+      name: qs1_c8.bin
+      size: 65536
+      blob_id: 34778
+    - id: 707220
+      asset_id: 108566
+      name: qs1_o0.bin
+      size: 65536
+      blob_id: 34779
+    - id: 707221
+      asset_id: 108566
+      name: qs1_o1.bin
+      size: 65536
+      blob_id: 34780
+    - id: 707222
+      asset_id: 108566
+      name: qs1_s0.bin
+      size: 65536
+      blob_id: 34783
+    - id: 707223
+      asset_id: 108566
+      name: qs1_v0.bin
+      size: 65536
+      blob_id: 34784
+    - id: 707224
+      asset_id: 108566
+      name: qs2_p5.bin
+      size: 65536
+      blob_id: 300597
+    - id: 707225
+      asset_id: 108566
+      name: qs2_p6.bin
+      size: 65536
+      blob_id: 300598
+    - id: 707226
+      asset_id: 108566
+      name: qs2_p7.bin
+      size: 65536
+      blob_id: 300599

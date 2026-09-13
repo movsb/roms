@@ -10,6 +10,42 @@ names:
   language: 1
   name: timekill
   source: ""
+- id: 200227
+  kind: 2
+  kind_id: 4250
+  language: 1
+  name: Time Killers (v1.00)
+  source: mame
+- id: 200228
+  kind: 2
+  kind_id: 4250
+  language: 1
+  name: Time Killers (v1.20, alternate ROM board)
+  source: mame
+- id: 200229
+  kind: 2
+  kind_id: 4250
+  language: 1
+  name: Time Killers (v1.21)
+  source: mame
+- id: 200230
+  kind: 2
+  kind_id: 4250
+  language: 1
+  name: Time Killers (v1.21, alternate ROM board)
+  source: mame
+- id: 200231
+  kind: 2
+  kind_id: 4250
+  language: 1
+  name: Time Killers (v1.31)
+  source: mame
+- id: 200232
+  kind: 2
+  kind_id: 4250
+  language: 1
+  name: Time Killers (v1.32I)
+  source: mame
 game_developers:
 - game_id: 4250
   developer_id: 506
@@ -158,6 +194,88 @@ releases:
       blob_id: 90423
       debug: arcade/wheel/timekill.png
     entries: []
+  - asset:
+      id: 115705
+      kind: 3
+      kind_id: 4250
+      type: 1
+      name: timekill.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 771345
+      asset_id: 115705
+      name: time_killers_0.rom0
+      size: 2097152
+      blob_id: 45743
+    - id: 771346
+      asset_id: 115705
+      name: time_killers_1.rom1
+      size: 2097152
+      blob_id: 45744
+    - id: 771347
+      asset_id: 115705
+      name: time_killers_2.rom2
+      size: 2097152
+      blob_id: 45745
+    - id: 771348
+      asset_id: 115705
+      name: time_killers_3.rom3
+      size: 2097152
+      blob_id: 45746
+    - id: 771349
+      asset_id: 115705
+      name: timekill_grom01.grom1
+      size: 131072
+      blob_id: 45747
+    - id: 771350
+      asset_id: 115705
+      name: timekill_grom02.grom2
+      size: 131072
+      blob_id: 45748
+    - id: 771351
+      asset_id: 115705
+      name: timekill_grom03.grom3
+      size: 131072
+      blob_id: 45749
+    - id: 771352
+      asset_id: 115705
+      name: timekill_grom04.grom4
+      size: 131072
+      blob_id: 45750
+    - id: 771353
+      asset_id: 115705
+      name: tk00_v1.32_u54.u54
+      size: 262144
+      blob_id: 45741
+    - id: 771354
+      asset_id: 115705
+      name: tk01_v1.32_u53.u53
+      size: 262144
+      blob_id: 45742
+    - id: 771355
+      asset_id: 115705
+      name: tk_snd_v_4.1_u17.u17
+      size: 131072
+      blob_id: 45751
+    - id: 771356
+      asset_id: 115705
+      name: tksrom00_u18.u18
+      size: 524288
+      blob_id: 45752
+    - id: 771357
+      asset_id: 115705
+      name: tksrom01_u20.u20
+      size: 524288
+      blob_id: 45753
+    - id: 771358
+      asset_id: 115705
+      name: tksrom02_u26.u26
+      size: 524288
+      blob_id: 45754
 - release:
     id: 4251
     game_id: 4250
@@ -396,98 +514,698 @@ releases:
       size: 524288
       blob_id: 45754
 - release:
-    id: 73286
+    id: 99822
     game_id: 4250
     description: ""
     release_date: 19920000
   names:
-  - id: 176501
+  - id: 233058
     kind: 3
-    kind_id: 73286
+    kind_id: 99822
     language: 1
-    name: Time Killers (v1.32)
+    name: Time Killers (v1.00)
     source: mame
   release_publishers: []
   assets:
   - asset:
-      id: 86356
+      id: 115706
       kind: 3
-      kind_id: 73286
+      kind_id: 99822
       type: 1
-      name: timekill.zip
+      name: timekill100.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 393824
-      asset_id: 86356
-      name: time_killers_0.rom0
-      size: 2097152
-      blob_id: 45743
-    - id: 393825
-      asset_id: 86356
-      name: time_killers_1.rom1
-      size: 2097152
-      blob_id: 45744
-    - id: 393826
-      asset_id: 86356
-      name: time_killers_2.rom2
-      size: 2097152
-      blob_id: 45745
-    - id: 393827
-      asset_id: 86356
-      name: time_killers_3.rom3
-      size: 2097152
-      blob_id: 45746
-    - id: 393828
-      asset_id: 86356
-      name: timekill_grom01.grom1
+    - id: 771359
+      asset_id: 115706
+      name: timekill_grom00.grom00
+      size: 524288
+      blob_id: 45755
+    - id: 771360
+      asset_id: 115706
+      name: timekill_grom01.grom01
+      size: 524288
+      blob_id: 45756
+    - id: 771361
+      asset_id: 115706
+      name: timekill_grom02.grom02
+      size: 524288
+      blob_id: 45757
+    - id: 771362
+      asset_id: 115706
+      name: timekill_grom03.grom03
+      size: 524288
+      blob_id: 45758
+    - id: 771363
+      asset_id: 115706
+      name: timekill_grom04.grom04
       size: 131072
       blob_id: 45747
-    - id: 393829
-      asset_id: 86356
-      name: timekill_grom02.grom2
+    - id: 771364
+      asset_id: 115706
+      name: timekill_grom05.grom05
+      size: 524288
+      blob_id: 45759
+    - id: 771365
+      asset_id: 115706
+      name: timekill_grom06.grom06
+      size: 524288
+      blob_id: 45760
+    - id: 771366
+      asset_id: 115706
+      name: timekill_grom07.grom07
+      size: 524288
+      blob_id: 45761
+    - id: 771367
+      asset_id: 115706
+      name: timekill_grom08.grom08
+      size: 524288
+      blob_id: 45762
+    - id: 771368
+      asset_id: 115706
+      name: timekill_grom09.grom09
       size: 131072
       blob_id: 45748
-    - id: 393830
-      asset_id: 86356
-      name: timekill_grom03.grom3
+    - id: 771369
+      asset_id: 115706
+      name: timekill_grom10.grom10
+      size: 524288
+      blob_id: 45763
+    - id: 771370
+      asset_id: 115706
+      name: timekill_grom11.grom11
+      size: 524288
+      blob_id: 45764
+    - id: 771371
+      asset_id: 115706
+      name: timekill_grom12.grom12
+      size: 524288
+      blob_id: 45765
+    - id: 771372
+      asset_id: 115706
+      name: timekill_grom13.grom13
+      size: 524288
+      blob_id: 45766
+    - id: 771373
+      asset_id: 115706
+      name: timekill_grom14.grom14
       size: 131072
       blob_id: 45749
-    - id: 393831
-      asset_id: 86356
-      name: timekill_grom04.grom4
+    - id: 771374
+      asset_id: 115706
+      name: timekill_grom15.grom15
+      size: 524288
+      blob_id: 45767
+    - id: 771375
+      asset_id: 115706
+      name: timekill_grom16.grom16
+      size: 524288
+      blob_id: 45768
+    - id: 771376
+      asset_id: 115706
+      name: timekill_grom17.grom17
+      size: 524288
+      blob_id: 45769
+    - id: 771377
+      asset_id: 115706
+      name: timekill_grom18.grom18
+      size: 524288
+      blob_id: 45770
+    - id: 771378
+      asset_id: 115706
+      name: timekill_grom19.grom19
       size: 131072
       blob_id: 45750
-    - id: 393832
-      asset_id: 86356
-      name: tk00_v1.32_u54.u54
-      size: 262144
-      blob_id: 45741
-    - id: 393833
-      asset_id: 86356
-      name: tk01_v1.32_u53.u53
-      size: 262144
-      blob_id: 45742
-    - id: 393834
-      asset_id: 86356
-      name: tk_snd_v_4.1_u17.u17
+    - id: 771379
+      asset_id: 115706
+      name: timekillsnd_u17.u17
       size: 131072
-      blob_id: 45751
-    - id: 393835
-      asset_id: 86356
+      blob_id: 45771
+    - id: 771380
+      asset_id: 115706
+      name: tk00.bim_u54.u54
+      size: 262144
+      blob_id: 45772
+    - id: 771381
+      asset_id: 115706
+      name: tk01.bim_u53.u53
+      size: 262144
+      blob_id: 45773
+    - id: 771382
+      asset_id: 115706
       name: tksrom00_u18.u18
       size: 524288
       blob_id: 45752
-    - id: 393836
-      asset_id: 86356
+    - id: 771383
+      asset_id: 115706
       name: tksrom01_u20.u20
       size: 524288
       blob_id: 45753
-    - id: 393837
-      asset_id: 86356
+    - id: 771384
+      asset_id: 115706
+      name: tksrom02_u26.u26
+      size: 524288
+      blob_id: 45754
+- release:
+    id: 99823
+    game_id: 4250
+    description: ""
+    release_date: 19920000
+  names:
+  - id: 233059
+    kind: 3
+    kind_id: 99823
+    language: 1
+    name: Time Killers (v1.20, alternate ROM board)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 115707
+      kind: 3
+      kind_id: 99823
+      type: 1
+      name: timekill120.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 771385
+      asset_id: 115707
+      name: time_killers_0.rom0
+      size: 2097152
+      blob_id: 45743
+    - id: 771386
+      asset_id: 115707
+      name: time_killers_1.rom1
+      size: 2097152
+      blob_id: 45744
+    - id: 771387
+      asset_id: 115707
+      name: time_killers_2.rom2
+      size: 2097152
+      blob_id: 45745
+    - id: 771388
+      asset_id: 115707
+      name: time_killers_3.rom3
+      size: 2097152
+      blob_id: 45746
+    - id: 771389
+      asset_id: 115707
+      name: timekill_grom01.grom1
+      size: 131072
+      blob_id: 45747
+    - id: 771390
+      asset_id: 115707
+      name: timekill_grom02.grom2
+      size: 131072
+      blob_id: 45748
+    - id: 771391
+      asset_id: 115707
+      name: timekill_grom03.grom3
+      size: 131072
+      blob_id: 45749
+    - id: 771392
+      asset_id: 115707
+      name: timekill_grom04.grom4
+      size: 131072
+      blob_id: 45750
+    - id: 771393
+      asset_id: 115707
+      name: timekillsnd_u17.u17
+      size: 131072
+      blob_id: 45771
+    - id: 771394
+      asset_id: 115707
+      name: tk00_v1.2_u54.u54
+      size: 262144
+      blob_id: 45774
+    - id: 771395
+      asset_id: 115707
+      name: tk01_v1.2_u53.u53
+      size: 262144
+      blob_id: 45775
+    - id: 771396
+      asset_id: 115707
+      name: tksrom00_u18.u18
+      size: 524288
+      blob_id: 45752
+    - id: 771397
+      asset_id: 115707
+      name: tksrom01_u20.u20
+      size: 524288
+      blob_id: 45753
+    - id: 771398
+      asset_id: 115707
+      name: tksrom02_u26.u26
+      size: 524288
+      blob_id: 45754
+- release:
+    id: 99824
+    game_id: 4250
+    description: ""
+    release_date: 19920000
+  names:
+  - id: 233060
+    kind: 3
+    kind_id: 99824
+    language: 1
+    name: Time Killers (v1.21)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 115708
+      kind: 3
+      kind_id: 99824
+      type: 1
+      name: timekill121.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 771399
+      asset_id: 115708
+      name: time_killers_0.rom0
+      size: 2097152
+      blob_id: 45743
+    - id: 771400
+      asset_id: 115708
+      name: time_killers_1.rom1
+      size: 2097152
+      blob_id: 45744
+    - id: 771401
+      asset_id: 115708
+      name: time_killers_2.rom2
+      size: 2097152
+      blob_id: 45745
+    - id: 771402
+      asset_id: 115708
+      name: time_killers_3.rom3
+      size: 2097152
+      blob_id: 45746
+    - id: 771403
+      asset_id: 115708
+      name: timekill_grom01.grom1
+      size: 131072
+      blob_id: 45747
+    - id: 771404
+      asset_id: 115708
+      name: timekill_grom02.grom2
+      size: 131072
+      blob_id: 45748
+    - id: 771405
+      asset_id: 115708
+      name: timekill_grom03.grom3
+      size: 131072
+      blob_id: 45749
+    - id: 771406
+      asset_id: 115708
+      name: timekill_grom04.grom4
+      size: 131072
+      blob_id: 45750
+    - id: 771407
+      asset_id: 115708
+      name: timekillsnd_u17.u17
+      size: 131072
+      blob_id: 45771
+    - id: 771408
+      asset_id: 115708
+      name: tk00_v1.21_u54.u54
+      size: 262144
+      blob_id: 45776
+    - id: 771409
+      asset_id: 115708
+      name: tk01_v1.21_u53.u53
+      size: 262144
+      blob_id: 45777
+    - id: 771410
+      asset_id: 115708
+      name: tksrom00_u18.u18
+      size: 524288
+      blob_id: 45752
+    - id: 771411
+      asset_id: 115708
+      name: tksrom01_u20.u20
+      size: 524288
+      blob_id: 45753
+    - id: 771412
+      asset_id: 115708
+      name: tksrom02_u26.u26
+      size: 524288
+      blob_id: 45754
+- release:
+    id: 99825
+    game_id: 4250
+    description: ""
+    release_date: 19920000
+  names:
+  - id: 233061
+    kind: 3
+    kind_id: 99825
+    language: 1
+    name: Time Killers (v1.21, alternate ROM board)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 115709
+      kind: 3
+      kind_id: 99825
+      type: 1
+      name: timekill121a.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 771413
+      asset_id: 115709
+      name: timekill_grom00.grom00
+      size: 524288
+      blob_id: 45755
+    - id: 771414
+      asset_id: 115709
+      name: timekill_grom01.grom01
+      size: 524288
+      blob_id: 45756
+    - id: 771415
+      asset_id: 115709
+      name: timekill_grom02.grom02
+      size: 524288
+      blob_id: 45757
+    - id: 771416
+      asset_id: 115709
+      name: timekill_grom03.grom03
+      size: 524288
+      blob_id: 45758
+    - id: 771417
+      asset_id: 115709
+      name: timekill_grom04.grom04
+      size: 131072
+      blob_id: 45747
+    - id: 771418
+      asset_id: 115709
+      name: timekill_grom05.grom05
+      size: 524288
+      blob_id: 45759
+    - id: 771419
+      asset_id: 115709
+      name: timekill_grom06.grom06
+      size: 524288
+      blob_id: 45760
+    - id: 771420
+      asset_id: 115709
+      name: timekill_grom07.grom07
+      size: 524288
+      blob_id: 45761
+    - id: 771421
+      asset_id: 115709
+      name: timekill_grom08.grom08
+      size: 524288
+      blob_id: 45762
+    - id: 771422
+      asset_id: 115709
+      name: timekill_grom09.grom09
+      size: 131072
+      blob_id: 45748
+    - id: 771423
+      asset_id: 115709
+      name: timekill_grom10.grom10
+      size: 524288
+      blob_id: 45763
+    - id: 771424
+      asset_id: 115709
+      name: timekill_grom11.grom11
+      size: 524288
+      blob_id: 45764
+    - id: 771425
+      asset_id: 115709
+      name: timekill_grom12.grom12
+      size: 524288
+      blob_id: 45765
+    - id: 771426
+      asset_id: 115709
+      name: timekill_grom13.grom13
+      size: 524288
+      blob_id: 45766
+    - id: 771427
+      asset_id: 115709
+      name: timekill_grom14.grom14
+      size: 131072
+      blob_id: 45749
+    - id: 771428
+      asset_id: 115709
+      name: timekill_grom15.grom15
+      size: 524288
+      blob_id: 45767
+    - id: 771429
+      asset_id: 115709
+      name: timekill_grom16.grom16
+      size: 524288
+      blob_id: 45768
+    - id: 771430
+      asset_id: 115709
+      name: timekill_grom17.grom17
+      size: 524288
+      blob_id: 45769
+    - id: 771431
+      asset_id: 115709
+      name: timekill_grom18.grom18
+      size: 524288
+      blob_id: 45770
+    - id: 771432
+      asset_id: 115709
+      name: timekill_grom19.grom19
+      size: 131072
+      blob_id: 45750
+    - id: 771433
+      asset_id: 115709
+      name: timekillsnd_u17.u17
+      size: 131072
+      blob_id: 45771
+    - id: 771434
+      asset_id: 115709
+      name: tk00_v1.21_u54.u54
+      size: 262144
+      blob_id: 45776
+    - id: 771435
+      asset_id: 115709
+      name: tk01_v1.21_u53.u53
+      size: 262144
+      blob_id: 45777
+    - id: 771436
+      asset_id: 115709
+      name: tksrom00_u18.u18
+      size: 524288
+      blob_id: 45752
+    - id: 771437
+      asset_id: 115709
+      name: tksrom01_u20.u20
+      size: 524288
+      blob_id: 45753
+    - id: 771438
+      asset_id: 115709
+      name: tksrom02_u26.u26
+      size: 524288
+      blob_id: 45754
+- release:
+    id: 99826
+    game_id: 4250
+    description: ""
+    release_date: 19920000
+  names:
+  - id: 233062
+    kind: 3
+    kind_id: 99826
+    language: 1
+    name: Time Killers (v1.31)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 115710
+      kind: 3
+      kind_id: 99826
+      type: 1
+      name: timekill131.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 771439
+      asset_id: 115710
+      name: time_killers_0.rom0
+      size: 2097152
+      blob_id: 45743
+    - id: 771440
+      asset_id: 115710
+      name: time_killers_1.rom1
+      size: 2097152
+      blob_id: 45744
+    - id: 771441
+      asset_id: 115710
+      name: time_killers_2.rom2
+      size: 2097152
+      blob_id: 45745
+    - id: 771442
+      asset_id: 115710
+      name: time_killers_3.rom3
+      size: 2097152
+      blob_id: 45746
+    - id: 771443
+      asset_id: 115710
+      name: timekill_grom01.grom1
+      size: 131072
+      blob_id: 45747
+    - id: 771444
+      asset_id: 115710
+      name: timekill_grom02.grom2
+      size: 131072
+      blob_id: 45748
+    - id: 771445
+      asset_id: 115710
+      name: timekill_grom03.grom3
+      size: 131072
+      blob_id: 45749
+    - id: 771446
+      asset_id: 115710
+      name: timekill_grom04.grom4
+      size: 131072
+      blob_id: 45750
+    - id: 771447
+      asset_id: 115710
+      name: timekillsnd_u17.u17
+      size: 131072
+      blob_id: 45771
+    - id: 771448
+      asset_id: 115710
+      name: tk00_v1.31_u54.u54
+      size: 262144
+      blob_id: 45778
+    - id: 771449
+      asset_id: 115710
+      name: tk01_v1.31_u53.u53
+      size: 262144
+      blob_id: 45779
+    - id: 771450
+      asset_id: 115710
+      name: tksrom00_u18.u18
+      size: 524288
+      blob_id: 45752
+    - id: 771451
+      asset_id: 115710
+      name: tksrom01_u20.u20
+      size: 524288
+      blob_id: 45753
+    - id: 771452
+      asset_id: 115710
+      name: tksrom02_u26.u26
+      size: 524288
+      blob_id: 45754
+- release:
+    id: 99827
+    game_id: 4250
+    description: ""
+    release_date: 19920000
+  names:
+  - id: 233063
+    kind: 3
+    kind_id: 99827
+    language: 1
+    name: Time Killers (v1.32I)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 115711
+      kind: 3
+      kind_id: 99827
+      type: 1
+      name: timekill132i.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 771453
+      asset_id: 115711
+      name: time_killers_0.rom0
+      size: 2097152
+      blob_id: 45743
+    - id: 771454
+      asset_id: 115711
+      name: time_killers_1.rom1
+      size: 2097152
+      blob_id: 45744
+    - id: 771455
+      asset_id: 115711
+      name: time_killers_2.rom2
+      size: 2097152
+      blob_id: 45745
+    - id: 771456
+      asset_id: 115711
+      name: time_killers_3.rom3
+      size: 2097152
+      blob_id: 45746
+    - id: 771457
+      asset_id: 115711
+      name: timekill_grom01.grom1
+      size: 131072
+      blob_id: 45747
+    - id: 771458
+      asset_id: 115711
+      name: timekill_grom02.grom2
+      size: 131072
+      blob_id: 45748
+    - id: 771459
+      asset_id: 115711
+      name: timekill_grom03.grom3
+      size: 131072
+      blob_id: 45749
+    - id: 771460
+      asset_id: 115711
+      name: timekill_grom04.grom4
+      size: 131072
+      blob_id: 45750
+    - id: 771461
+      asset_id: 115711
+      name: tk00_v1.32i_u54.u54
+      size: 262144
+      blob_id: 45780
+    - id: 771462
+      asset_id: 115711
+      name: tk01_v1.32i_u53.u53
+      size: 262144
+      blob_id: 45781
+    - id: 771463
+      asset_id: 115711
+      name: tk_snd_v_4.1_u17.u17
+      size: 131072
+      blob_id: 45751
+    - id: 771464
+      asset_id: 115711
+      name: tksrom00_u18.u18
+      size: 524288
+      blob_id: 45752
+    - id: 771465
+      asset_id: 115711
+      name: tksrom01_u20.u20
+      size: 524288
+      blob_id: 45753
+    - id: 771466
+      asset_id: 115711
       name: tksrom02_u26.u26
       size: 524288
       blob_id: 45754

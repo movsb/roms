@@ -16,6 +16,18 @@ names:
   language: 2
   name: 金钱游戏 (第一套)
   source: trimui
+- id: 193455
+  kind: 2
+  kind_id: 304
+  language: 1
+  name: Money Money (set 2)
+  source: mame
+- id: 193456
+  kind: 2
+  kind_id: 304
+  language: 1
+  name: Money Money (set 3)
+  source: mame
 game_developers:
 - game_id: 304
   developer_id: 467
@@ -169,24 +181,10 @@ releases:
       blob_id: 90279
       debug: arcade/wheel/monymony.png
     entries: []
-- release:
-    id: 58819
-    game_id: 304
-    description: ""
-    release_date: 19830000
-  names:
-  - id: 148074
-    kind: 3
-    kind_id: 58819
-    language: 1
-    name: Money Money (set 1)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 71889
+      id: 104790
       kind: 3
-      kind_id: 58819
+      kind_id: 304
       type: 1
       name: monymony.zip
       description: ""
@@ -195,78 +193,290 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 270140
-      asset_id: 71889
+    - id: 665542
+      asset_id: 104790
       name: 9f
       size: 512
       blob_id: 2927
-    - id: 270141
-      asset_id: 71889
+    - id: 665543
+      asset_id: 104790
       name: 9g
       size: 512
       blob_id: 2928
-    - id: 270142
-      asset_id: 71889
+    - id: 665544
+      asset_id: 104790
       name: bg1.2d
       size: 8192
       blob_id: 2925
-    - id: 270143
-      asset_id: 71889
+    - id: 665545
+      asset_id: 104790
       name: bg2.1f
       size: 8192
       blob_id: 2919
-    - id: 270144
-      asset_id: 71889
+    - id: 665546
+      asset_id: 104790
       name: bg3.1e
       size: 8192
       blob_id: 2918
-    - id: 270145
-      asset_id: 71889
+    - id: 665547
+      asset_id: 104790
       name: cpu1.1a
       size: 8192
       blob_id: 2914
-    - id: 270146
-      asset_id: 71889
+    - id: 665548
+      asset_id: 104790
       name: cpu2.1b
       size: 8192
       blob_id: 2915
-    - id: 270147
-      asset_id: 71889
+    - id: 665549
+      asset_id: 104790
       name: cpu3.1c
       size: 8192
       blob_id: 2916
-    - id: 270148
-      asset_id: 71889
+    - id: 665550
+      asset_id: 104790
       name: cpu4.1d
       size: 8192
       blob_id: 2917
-    - id: 270149
-      asset_id: 71889
+    - id: 665551
+      asset_id: 104790
       name: cpu5.2a
       size: 8192
       blob_id: 2923
-    - id: 270150
-      asset_id: 71889
+    - id: 665552
+      asset_id: 104790
       name: cpu6.2c
       size: 8192
       blob_id: 2924
-    - id: 270151
-      asset_id: 71889
+    - id: 665553
+      asset_id: 104790
       name: snd13.2g
       size: 8192
       blob_id: 2926
-    - id: 270152
-      asset_id: 71889
+    - id: 665554
+      asset_id: 104790
       name: snd7.1g
       size: 8192
       blob_id: 2920
-    - id: 270153
-      asset_id: 71889
+    - id: 665555
+      asset_id: 104790
       name: snd8.1h
       size: 8192
       blob_id: 2921
-    - id: 270154
-      asset_id: 71889
+    - id: 665556
+      asset_id: 104790
       name: snd9.1i
       size: 8192
       blob_id: 2922
+- release:
+    id: 89434
+    game_id: 304
+    description: ""
+    release_date: 19830000
+  names:
+  - id: 218832
+    kind: 3
+    kind_id: 89434
+    language: 1
+    name: Money Money (set 2)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 104791
+      kind: 3
+      kind_id: 89434
+      type: 1
+      name: monymony2.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 665557
+      asset_id: 104791
+      name: 9f
+      size: 512
+      blob_id: 2927
+    - id: 665558
+      asset_id: 104791
+      name: 9g
+      size: 512
+      blob_id: 2928
+    - id: 665559
+      asset_id: 104791
+      name: bg1.2d
+      size: 8192
+      blob_id: 2925
+    - id: 665560
+      asset_id: 104791
+      name: bg2.1f
+      size: 8192
+      blob_id: 2919
+    - id: 665561
+      asset_id: 104791
+      name: bg3.1e
+      size: 8192
+      blob_id: 2918
+    - id: 665562
+      asset_id: 104791
+      name: cpu1.1a
+      size: 8192
+      blob_id: 258188
+    - id: 665563
+      asset_id: 104791
+      name: cpu2.1b
+      size: 8192
+      blob_id: 2915
+    - id: 665564
+      asset_id: 104791
+      name: cpu3.1c
+      size: 8192
+      blob_id: 258189
+    - id: 665565
+      asset_id: 104791
+      name: cpu4.1d
+      size: 8192
+      blob_id: 2917
+    - id: 665566
+      asset_id: 104791
+      name: cpu5.2a
+      size: 8192
+      blob_id: 2923
+    - id: 665567
+      asset_id: 104791
+      name: cpu6.2c
+      size: 8192
+      blob_id: 2924
+    - id: 665568
+      asset_id: 104791
+      name: snd13.2g
+      size: 8192
+      blob_id: 2926
+    - id: 665569
+      asset_id: 104791
+      name: snd7.1g
+      size: 8192
+      blob_id: 2920
+    - id: 665570
+      asset_id: 104791
+      name: snd8.1h
+      size: 8192
+      blob_id: 2921
+    - id: 665571
+      asset_id: 104791
+      name: snd9.1i
+      size: 8192
+      blob_id: 2922
+- release:
+    id: 89435
+    game_id: 304
+    description: ""
+    release_date: 19830000
+  names:
+  - id: 218833
+    kind: 3
+    kind_id: 89435
+    language: 1
+    name: Money Money (set 3)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 104792
+      kind: 3
+      kind_id: 89435
+      type: 1
+      name: monymony3.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 665572
+      asset_id: 104792
+      name: 01_pal16v8.ic6j
+      size: 279
+      blob_id: 258190
+    - id: 665573
+      asset_id: 104792
+      name: 01_pal16v8.ic6k
+      size: 279
+      blob_id: 258191
+    - id: 665574
+      asset_id: 104792
+      name: 82s123.ic9f
+      size: 512
+      blob_id: 2927
+    - id: 665575
+      asset_id: 104792
+      name: 82s123.ic9g
+      size: 512
+      blob_id: 2928
+    - id: 665576
+      asset_id: 104792
+      name: a-00281_assa_m5.1b
+      size: 8192
+      blob_id: 2915
+    - id: 665577
+      asset_id: 104792
+      name: a-00281_assa_m5.1c
+      size: 8192
+      blob_id: 258189
+    - id: 665578
+      asset_id: 104792
+      name: a-00281_assa_m5.1d
+      size: 8192
+      blob_id: 2917
+    - id: 665579
+      asset_id: 104792
+      name: a-00281_assa_m5.1e
+      size: 8192
+      blob_id: 2918
+    - id: 665580
+      asset_id: 104792
+      name: a-00281_assa_m5.1f
+      size: 8192
+      blob_id: 2919
+    - id: 665581
+      asset_id: 104792
+      name: a-00281_assa_m5.1g
+      size: 8192
+      blob_id: 2920
+    - id: 665582
+      asset_id: 104792
+      name: a-00281_assa_m5.1h
+      size: 8192
+      blob_id: 2921
+    - id: 665583
+      asset_id: 104792
+      name: a-00281_assa_m5.1i
+      size: 8192
+      blob_id: 2922
+    - id: 665584
+      asset_id: 104792
+      name: a-00281_assa_m5.2a
+      size: 8192
+      blob_id: 2923
+    - id: 665585
+      asset_id: 104792
+      name: a-00281_assa_m5.2c
+      size: 8192
+      blob_id: 2924
+    - id: 665586
+      asset_id: 104792
+      name: a-00281_assa_m5.2d
+      size: 8192
+      blob_id: 2925
+    - id: 665587
+      asset_id: 104792
+      name: a-00281_assa_m5.2g
+      size: 8192
+      blob_id: 2926
+    - id: 665588
+      asset_id: 104792
+      name: cpu1.1a
+      size: 8192
+      blob_id: 258192

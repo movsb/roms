@@ -16,6 +16,18 @@ names:
   language: 2
   name: 四分卫 (第 1 套)
   source: trimui
+- id: 195330
+  kind: 2
+  kind_id: 3265
+  language: 1
+  name: Quarterback (rev 2)
+  source: mame
+- id: 195331
+  kind: 2
+  kind_id: 3265
+  language: 1
+  name: Quarterback (rev 1, cocktail)
+  source: mame
 game_developers:
 - game_id: 3265
   developer_id: 455
@@ -214,154 +226,448 @@ releases:
       blob_id: 85086
       debug: arcade/wheel/quarterb.png
     entries: []
-- release:
-    id: 62837
-    game_id: 3265
-    description: ""
-    release_date: 19870000
-  names:
-  - id: 155940
-    kind: 3
-    kind_id: 62837
-    language: 1
-    name: Quarterback (rev 5)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 75907
+      id: 108542
       kind: 3
-      kind_id: 62837
+      kind_id: 3265
       type: 1
       name: quarterb.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
-      debug: dat:mame:0.289
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/331261901
     entries:
-    - id: 313497
-      asset_id: 75907
+    - id: 706930
+      asset_id: 108542
       name: 03-15200-01.u3
       size: 16384
       blob_id: 34713
-    - id: 313498
-      asset_id: 75907
+    - id: 706931
+      asset_id: 108542
       name: 03-15201-01.u4
       size: 16384
       blob_id: 34714
-    - id: 313499
-      asset_id: 75907
+    - id: 706932
+      asset_id: 108542
       name: 03-15202-01.u5
       size: 16384
       blob_id: 34715
-    - id: 313500
-      asset_id: 75907
+    - id: 706933
+      asset_id: 108542
       name: 03-15203-01.u6
       size: 16384
       blob_id: 34716
-    - id: 313501
-      asset_id: 75907
+    - id: 706934
+      asset_id: 108542
       name: 03-15204-01.u7
       size: 16384
       blob_id: 34717
-    - id: 313502
-      asset_id: 75907
+    - id: 706935
+      asset_id: 108542
       name: 03-15205-01.u8
       size: 16384
       blob_id: 34718
-    - id: 313503
-      asset_id: 75907
+    - id: 706936
+      asset_id: 108542
       name: 03-15206-01.u9
       size: 16384
       blob_id: 34719
-    - id: 313504
-      asset_id: 75907
+    - id: 706937
+      asset_id: 108542
       name: 03-15207-01.u67
       size: 16384
       blob_id: 34720
-    - id: 313505
-      asset_id: 75907
+    - id: 706938
+      asset_id: 108542
       name: 03-15208-01.u68
       size: 16384
       blob_id: 34721
-    - id: 313506
-      asset_id: 75907
+    - id: 706939
+      asset_id: 108542
       name: 03-15209-01.u69
       size: 16384
       blob_id: 34722
-    - id: 313507
-      asset_id: 75907
+    - id: 706940
+      asset_id: 108542
       name: 03-15210-01.u70
       size: 16384
       blob_id: 34723
-    - id: 313508
-      asset_id: 75907
+    - id: 706941
+      asset_id: 108542
       name: 03-15212-01.u90
       size: 16384
       blob_id: 34724
-    - id: 313509
-      asset_id: 75907
+    - id: 706942
+      asset_id: 108542
       name: 03-15214-01.u92
       size: 16384
       blob_id: 34725
-    - id: 313510
-      asset_id: 75907
+    - id: 706943
+      asset_id: 108542
       name: 03-15215-01.u93
       size: 16384
       blob_id: 34726
-    - id: 313511
-      asset_id: 75907
+    - id: 706944
+      asset_id: 108542
       name: 03-15216-01.u94
       size: 16384
       blob_id: 34735
-    - id: 313512
-      asset_id: 75907
+    - id: 706945
+      asset_id: 108542
       name: 03-15217-01.u95
       size: 16384
       blob_id: 34736
-    - id: 313513
-      asset_id: 75907
+    - id: 706946
+      asset_id: 108542
       name: 03-15218-05.u48t
       size: 65536
       blob_id: 34727
-    - id: 313514
-      asset_id: 75907
+    - id: 706947
+      asset_id: 108542
       name: 03-15219-05.u49t
       size: 65536
       blob_id: 34728
-    - id: 313515
-      asset_id: 75907
+    - id: 706948
+      asset_id: 108542
       name: 03-15220-02.u43t
       size: 65536
       blob_id: 34729
-    - id: 313516
-      asset_id: 75907
+    - id: 706949
+      asset_id: 108542
       name: 03-15221-02.u44t
       size: 65536
       blob_id: 34730
-    - id: 313517
-      asset_id: 75907
+    - id: 706950
+      asset_id: 108542
       name: 03-15222-02.u45t
       size: 65536
       blob_id: 34731
-    - id: 313518
-      asset_id: 75907
+    - id: 706951
+      asset_id: 108542
       name: 03-15223-02.u60t
       size: 65536
       blob_id: 34732
-    - id: 313519
-      asset_id: 75907
+    - id: 706952
+      asset_id: 108542
       name: 03-15224-02.u61t
       size: 65536
       blob_id: 34733
-    - id: 313520
-      asset_id: 75907
+    - id: 706953
+      asset_id: 108542
       name: 03-15225-02.u62t
       size: 65536
       blob_id: 34734
-    - id: 313521
-      asset_id: 75907
+    - id: 706954
+      asset_id: 108542
       name: eeprom-quarterb.bin
       size: 128
-      blob_id: 163281
+      blob_id: 300512
+- release:
+    id: 93008
+    game_id: 3265
+    description: ""
+    release_date: 19870000
+  names:
+  - id: 224216
+    kind: 3
+    kind_id: 93008
+    language: 1
+    name: Quarterback (rev 2)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 108543
+      kind: 3
+      kind_id: 93008
+      type: 1
+      name: quarterba.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/1681336748
+    entries:
+    - id: 706955
+      asset_id: 108543
+      name: 03-15200-01.u3
+      size: 16384
+      blob_id: 34713
+    - id: 706956
+      asset_id: 108543
+      name: 03-15201-01.u4
+      size: 16384
+      blob_id: 34714
+    - id: 706957
+      asset_id: 108543
+      name: 03-15202-01.u5
+      size: 16384
+      blob_id: 34715
+    - id: 706958
+      asset_id: 108543
+      name: 03-15203-01.u6
+      size: 16384
+      blob_id: 34716
+    - id: 706959
+      asset_id: 108543
+      name: 03-15204-01.u7
+      size: 16384
+      blob_id: 34717
+    - id: 706960
+      asset_id: 108543
+      name: 03-15205-01.u8
+      size: 16384
+      blob_id: 34718
+    - id: 706961
+      asset_id: 108543
+      name: 03-15206-01.u9
+      size: 16384
+      blob_id: 34719
+    - id: 706962
+      asset_id: 108543
+      name: 03-15207-01.u67
+      size: 16384
+      blob_id: 34720
+    - id: 706963
+      asset_id: 108543
+      name: 03-15208-01.u68
+      size: 16384
+      blob_id: 34721
+    - id: 706964
+      asset_id: 108543
+      name: 03-15209-01.u69
+      size: 16384
+      blob_id: 34722
+    - id: 706965
+      asset_id: 108543
+      name: 03-15210-01.u70
+      size: 16384
+      blob_id: 34723
+    - id: 706966
+      asset_id: 108543
+      name: 03-15212-01.u90
+      size: 16384
+      blob_id: 34724
+    - id: 706967
+      asset_id: 108543
+      name: 03-15214-01.u92
+      size: 16384
+      blob_id: 34725
+    - id: 706968
+      asset_id: 108543
+      name: 03-15215-01.u93
+      size: 16384
+      blob_id: 34726
+    - id: 706969
+      asset_id: 108543
+      name: 03-15216-01.u94
+      size: 16384
+      blob_id: 34735
+    - id: 706970
+      asset_id: 108543
+      name: 03-15217-01.u95
+      size: 16384
+      blob_id: 34736
+    - id: 706971
+      asset_id: 108543
+      name: 03-15218-02.u48t
+      size: 65536
+      blob_id: 300513
+    - id: 706972
+      asset_id: 108543
+      name: 03-15219-02.u49t
+      size: 65536
+      blob_id: 300514
+    - id: 706973
+      asset_id: 108543
+      name: 03-15220-01.u43t
+      size: 65536
+      blob_id: 300515
+    - id: 706974
+      asset_id: 108543
+      name: 03-15221-01.u44t
+      size: 65536
+      blob_id: 300516
+    - id: 706975
+      asset_id: 108543
+      name: 03-15222-01.u45t
+      size: 65536
+      blob_id: 300517
+    - id: 706976
+      asset_id: 108543
+      name: 03-15223-01.u60t
+      size: 65536
+      blob_id: 300518
+    - id: 706977
+      asset_id: 108543
+      name: 03-15224-01.u61t
+      size: 65536
+      blob_id: 300519
+    - id: 706978
+      asset_id: 108543
+      name: 03-15225-01.u62t
+      size: 65536
+      blob_id: 300520
+    - id: 706979
+      asset_id: 108543
+      name: eeprom-quarterb.bin
+      size: 128
+      blob_id: 300512
+- release:
+    id: 93009
+    game_id: 3265
+    description: ""
+    release_date: 19870000
+  names:
+  - id: 224217
+    kind: 3
+    kind_id: 93009
+    language: 1
+    name: Quarterback (rev 1, cocktail)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 108544
+      kind: 3
+      kind_id: 93009
+      type: 1
+      name: quarterbc.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/280396712
+    entries:
+    - id: 706980
+      asset_id: 108544
+      name: 03-15200-01.u3
+      size: 16384
+      blob_id: 34713
+    - id: 706981
+      asset_id: 108544
+      name: 03-15201-01.u4
+      size: 16384
+      blob_id: 34714
+    - id: 706982
+      asset_id: 108544
+      name: 03-15202-01.u5
+      size: 16384
+      blob_id: 34715
+    - id: 706983
+      asset_id: 108544
+      name: 03-15203-01.u6
+      size: 16384
+      blob_id: 34716
+    - id: 706984
+      asset_id: 108544
+      name: 03-15204-01.u7
+      size: 16384
+      blob_id: 34717
+    - id: 706985
+      asset_id: 108544
+      name: 03-15205-01.u8
+      size: 16384
+      blob_id: 34718
+    - id: 706986
+      asset_id: 108544
+      name: 03-15206-01.u9
+      size: 16384
+      blob_id: 34719
+    - id: 706987
+      asset_id: 108544
+      name: 03-15207-01.u67
+      size: 16384
+      blob_id: 34720
+    - id: 706988
+      asset_id: 108544
+      name: 03-15208-01.u68
+      size: 16384
+      blob_id: 34721
+    - id: 706989
+      asset_id: 108544
+      name: 03-15209-01.u69
+      size: 16384
+      blob_id: 34722
+    - id: 706990
+      asset_id: 108544
+      name: 03-15212-01.u90
+      size: 16384
+      blob_id: 34724
+    - id: 706991
+      asset_id: 108544
+      name: 03-15220-02.u43t
+      size: 65536
+      blob_id: 34729
+    - id: 706992
+      asset_id: 108544
+      name: 03-15221-02.u44t
+      size: 65536
+      blob_id: 34730
+    - id: 706993
+      asset_id: 108544
+      name: 03-15222-02.u45t
+      size: 65536
+      blob_id: 34731
+    - id: 706994
+      asset_id: 108544
+      name: 03-15223-02.u60t
+      size: 65536
+      blob_id: 34732
+    - id: 706995
+      asset_id: 108544
+      name: 03-15224-02.u61t
+      size: 65536
+      blob_id: 34733
+    - id: 706996
+      asset_id: 108544
+      name: 03-15225-02.u62t
+      size: 65536
+      blob_id: 34734
+    - id: 706997
+      asset_id: 108544
+      name: 03-15500-01.u70
+      size: 16384
+      blob_id: 300521
+    - id: 706998
+      asset_id: 108544
+      name: 03-15501-01.u92
+      size: 16384
+      blob_id: 300522
+    - id: 706999
+      asset_id: 108544
+      name: 03-15502-01.u93
+      size: 16384
+      blob_id: 300523
+    - id: 707000
+      asset_id: 108544
+      name: 03-15503-01.u94
+      size: 16384
+      blob_id: 300524
+    - id: 707001
+      asset_id: 108544
+      name: 03-15504-01.u95
+      size: 16384
+      blob_id: 300525
+    - id: 707002
+      asset_id: 108544
+      name: 03-15505-01.u48t
+      size: 65536
+      blob_id: 300526
+    - id: 707003
+      asset_id: 108544
+      name: 03-15506-01.u49t
+      size: 65536
+      blob_id: 300527
+    - id: 707004
+      asset_id: 108544
+      name: eeprom-quarterb.bin
+      size: 128
+      blob_id: 300512

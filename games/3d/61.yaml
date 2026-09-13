@@ -16,6 +16,90 @@ names:
   language: 2
   name: 爆破彗星 (修订版 4)
   source: trimui
+- id: 187761
+  kind: 2
+  kind_id: 61
+  language: 1
+  name: Aerolitos Espaciales (Spanish bootleg of Asteroids)
+  source: mame
+- id: 187762
+  kind: 2
+  kind_id: 61
+  language: 1
+  name: Aerolitos (Spanish bootleg of Asteroids)
+  source: mame
+- id: 188124
+  kind: 2
+  kind_id: 61
+  language: 1
+  name: Asterock (Sidam bootleg of Asteroids)
+  source: mame
+- id: 188125
+  kind: 2
+  kind_id: 61
+  language: 1
+  name: Asterock (Videotron bootleg of Asteroids)
+  source: mame
+- id: 188126
+  kind: 2
+  kind_id: 61
+  language: 1
+  name: Asteroids (rev 1)
+  source: mame
+- id: 188127
+  kind: 2
+  kind_id: 61
+  language: 1
+  name: Asteroids (rev 2)
+  source: mame
+- id: 188128
+  kind: 2
+  kind_id: 61
+  language: 1
+  name: Asteroids (bootleg on Lunar Lander hardware, set 1)
+  source: mame
+- id: 188129
+  kind: 2
+  kind_id: 61
+  language: 1
+  name: Asteroids (bootleg on Lunar Lander hardware, set 2)
+  source: mame
+- id: 191837
+  kind: 2
+  kind_id: 61
+  language: 1
+  name: Hyperspace (bootleg of Asteroids)
+  source: mame
+- id: 193173
+  kind: 2
+  kind_id: 61
+  language: 1
+  name: Meteor (bootleg of Asteroids)
+  source: mame
+- id: 193174
+  kind: 2
+  kind_id: 61
+  language: 1
+  name: Meteor (Hoei bootleg of Asteroids)
+  source: mame
+- id: 193175
+  kind: 2
+  kind_id: 61
+  language: 1
+  name: Meteorite (Proel bootleg of Asteroids)
+  source: mame
+- id: 193177
+  kind: 2
+  kind_id: 61
+  language: 1
+  name: Meteorites (VGG bootleg of Asteroids)
+  source: mame
+- id: 199377
+  kind: 2
+  kind_id: 61
+  language: 1
+  name: Space Rocks (Spanish clone of Asteroids)
+  source: mame
 game_developers:
 - game_id: 61
   developer_id: 101
@@ -119,24 +203,10 @@ releases:
       blob_id: 87427
       debug: arcade/wheel/asteroid.png
     entries: []
-- release:
-    id: 37252
-    game_id: 61
-    description: ""
-    release_date: 19790000
-  names:
-  - id: 105645
-    kind: 3
-    kind_id: 37252
-    language: 1
-    name: Asteroids (rev 4)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 50322
+      id: 94221
       kind: 3
-      kind_id: 37252
+      kind_id: 61
       type: 1
       name: asteroid.zip
       description: ""
@@ -145,28 +215,844 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 106487
-      asset_id: 50322
+    - id: 545330
+      asset_id: 94221
       name: 034602-01.c8
       size: 256
-      blob_id: 93694
-    - id: 106488
-      asset_id: 50322
+      blob_id: 203980
+    - id: 545331
+      asset_id: 94221
       name: 035127-02.np3
       size: 2048
-      blob_id: 96495
-    - id: 106489
-      asset_id: 50322
+      blob_id: 203991
+    - id: 545332
+      asset_id: 94221
       name: 035143-02.j2
       size: 2048
-      blob_id: 96496
-    - id: 106490
-      asset_id: 50322
+      blob_id: 203992
+    - id: 545333
+      asset_id: 94221
       name: 035144-04e.h2
       size: 2048
-      blob_id: 96497
-    - id: 106491
-      asset_id: 50322
+      blob_id: 203993
+    - id: 545334
+      asset_id: 94221
       name: 035145-04e.ef2
       size: 2048
-      blob_id: 96498
+      blob_id: 203994
+- release:
+    id: 79631
+    game_id: 61
+    description: ""
+    release_date: 19790000
+  names:
+  - id: 203733
+    kind: 3
+    kind_id: 79631
+    language: 1
+    name: Asteroids (rev 1)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 94222
+      kind: 3
+      kind_id: 79631
+      type: 1
+      name: asteroid1.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 545335
+      asset_id: 94222
+      name: 034602-01.c8
+      size: 256
+      blob_id: 203980
+    - id: 545336
+      asset_id: 94222
+      name: 035127-01.np3
+      size: 2048
+      blob_id: 882
+    - id: 545337
+      asset_id: 94222
+      name: 035143-01.j2
+      size: 2048
+      blob_id: 884
+    - id: 545338
+      asset_id: 94222
+      name: 035144-01.h2
+      size: 2048
+      blob_id: 883
+    - id: 545339
+      asset_id: 94222
+      name: 035145-01.ef2
+      size: 2048
+      blob_id: 885
+- release:
+    id: 79632
+    game_id: 61
+    description: ""
+    release_date: 19790000
+  names:
+  - id: 203734
+    kind: 3
+    kind_id: 79632
+    language: 1
+    name: Asteroids (rev 2)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 94223
+      kind: 3
+      kind_id: 79632
+      type: 1
+      name: asteroid2.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 545340
+      asset_id: 94223
+      name: 034602-01.c8
+      size: 256
+      blob_id: 203980
+    - id: 545341
+      asset_id: 94223
+      name: 035127-02.np3
+      size: 2048
+      blob_id: 203991
+    - id: 545342
+      asset_id: 94223
+      name: 035143-02.j2
+      size: 2048
+      blob_id: 203992
+    - id: 545343
+      asset_id: 94223
+      name: 035144-02.h2
+      size: 2048
+      blob_id: 238696
+    - id: 545344
+      asset_id: 94223
+      name: 035145-02.ef2
+      size: 2048
+      blob_id: 238697
+- release:
+    id: 79633
+    game_id: 61
+    description: ""
+    release_date: 19790000
+  names:
+  - id: 203735
+    kind: 3
+    kind_id: 79633
+    language: 1
+    name: Asteroids (bootleg on Lunar Lander hardware, set 1)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 94224
+      kind: 3
+      kind_id: 79633
+      type: 1
+      name: asteroidb1.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 545345
+      asset_id: 94224
+      name: 034602-01.c8
+      size: 256
+      blob_id: 203980
+    - id: 545346
+      asset_id: 94224
+      name: 035127-02.np3
+      size: 2048
+      blob_id: 203991
+    - id: 545347
+      asset_id: 94224
+      name: 035143ll.b1
+      size: 2048
+      blob_id: 239617
+    - id: 545348
+      asset_id: 94224
+      name: 035144ll.c1
+      size: 2048
+      blob_id: 239618
+    - id: 545349
+      asset_id: 94224
+      name: 035145ll.de1
+      size: 2048
+      blob_id: 239619
+- release:
+    id: 79634
+    game_id: 61
+    description: ""
+    release_date: 19790000
+  names:
+  - id: 203736
+    kind: 3
+    kind_id: 79634
+    language: 1
+    name: Asteroids (bootleg on Lunar Lander hardware, set 2)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 94225
+      kind: 3
+      kind_id: 79634
+      type: 1
+      name: asteroidb2.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 545350
+      asset_id: 94225
+      name: 034602-01.c8
+      size: 256
+      blob_id: 203980
+    - id: 545351
+      asset_id: 94225
+      name: p35.bin
+      size: 2048
+      blob_id: 239620
+    - id: 545352
+      asset_id: 94225
+      name: p37.bin
+      size: 2048
+      blob_id: 883
+    - id: 545353
+      asset_id: 94225
+      name: p86.bin
+      size: 2048
+      blob_id: 884
+    - id: 545354
+      asset_id: 94225
+      name: p88.bin
+      size: 2048
+      blob_id: 885
+- release:
+    id: 86214
+    game_id: 61
+    description: ""
+    release_date: 19790000
+  names:
+  - id: 213780
+    kind: 3
+    kind_id: 86214
+    language: 1
+    name: Hyperspace (bootleg of Asteroids)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 101359
+      kind: 3
+      kind_id: 86214
+      type: 1
+      name: hyperspc.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 631553
+      asset_id: 101359
+      name: 034602-01.c8
+      size: 256
+      blob_id: 203980
+    - id: 631554
+      asset_id: 101359
+      name: 035127-01.bin
+      size: 2048
+      blob_id: 249184
+    - id: 631555
+      asset_id: 101359
+      name: 035143-01.bin
+      size: 2048
+      blob_id: 884
+    - id: 631556
+      asset_id: 101359
+      name: 035144-01.bin
+      size: 2048
+      blob_id: 883
+    - id: 631557
+      asset_id: 101359
+      name: 035145-01.bin
+      size: 2048
+      blob_id: 885
+- release:
+    id: 88850
+    game_id: 61
+    description: ""
+    release_date: 19790000
+  names:
+  - id: 217923
+    kind: 3
+    kind_id: 88850
+    language: 1
+    name: Meteor (bootleg of Asteroids)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 104179
+      kind: 3
+      kind_id: 88850
+      type: 1
+      name: meteorbl.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 659986
+      asset_id: 104179
+      name: 034602-01.c8
+      size: 256
+      blob_id: 203980
+    - id: 659987
+      asset_id: 104179
+      name: 0as.10
+      size: 1024
+      blob_id: 257226
+    - id: 659988
+      asset_id: 104179
+      name: 1as.11
+      size: 1024
+      blob_id: 239609
+    - id: 659989
+      asset_id: 104179
+      name: 2as.12
+      size: 1024
+      blob_id: 239610
+    - id: 659990
+      asset_id: 104179
+      name: 3as.13
+      size: 1024
+      blob_id: 239611
+    - id: 659991
+      asset_id: 104179
+      name: 4as.14
+      size: 1024
+      blob_id: 239612
+    - id: 659992
+      asset_id: 104179
+      name: 5as.15
+      size: 1024
+      blob_id: 239613
+    - id: 659993
+      asset_id: 104179
+      name: 6as.16
+      size: 1024
+      blob_id: 239614
+    - id: 659994
+      asset_id: 104179
+      name: 7as.17
+      size: 1024
+      blob_id: 239615
+- release:
+    id: 88851
+    game_id: 61
+    description: ""
+    release_date: 19790000
+  names:
+  - id: 217924
+    kind: 3
+    kind_id: 88851
+    language: 1
+    name: Meteor (Hoei bootleg of Asteroids)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 104180
+      kind: 3
+      kind_id: 88851
+      type: 1
+      name: meteorho.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 659995
+      asset_id: 104180
+      name: a.bin
+      size: 1024
+      blob_id: 236790
+    - id: 659996
+      asset_id: 104180
+      name: b.bin
+      size: 1024
+      blob_id: 236791
+    - id: 659997
+      asset_id: 104180
+      name: c.bin
+      size: 1024
+      blob_id: 236792
+    - id: 659998
+      asset_id: 104180
+      name: d.bin
+      size: 1024
+      blob_id: 236793
+    - id: 659999
+      asset_id: 104180
+      name: e.bin
+      size: 1024
+      blob_id: 236794
+    - id: 660000
+      asset_id: 104180
+      name: f.bin
+      size: 1024
+      blob_id: 236795
+    - id: 660001
+      asset_id: 104180
+      name: g.bin
+      size: 1024
+      blob_id: 236796
+    - id: 660002
+      asset_id: 104180
+      name: h.bin
+      size: 1024
+      blob_id: 236797
+    - id: 660003
+      asset_id: 104180
+      name: prom.bin
+      size: 256
+      blob_id: 236798
+- release:
+    id: 88852
+    game_id: 61
+    description: ""
+    release_date: 19790000
+  names:
+  - id: 217925
+    kind: 3
+    kind_id: 88852
+    language: 1
+    name: Meteorite (Proel bootleg of Asteroids)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 104181
+      kind: 3
+      kind_id: 88852
+      type: 1
+      name: meteorite.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 660004
+      asset_id: 104181
+      name: "0"
+      size: 1024
+      blob_id: 257227
+    - id: 660005
+      asset_id: 104181
+      name: "1"
+      size: 1024
+      blob_id: 236791
+    - id: 660006
+      asset_id: 104181
+      name: "2"
+      size: 1024
+      blob_id: 239610
+    - id: 660007
+      asset_id: 104181
+      name: "3"
+      size: 1024
+      blob_id: 239611
+    - id: 660008
+      asset_id: 104181
+      name: "4"
+      size: 1024
+      blob_id: 239612
+    - id: 660009
+      asset_id: 104181
+      name: "5"
+      size: 1024
+      blob_id: 239613
+    - id: 660010
+      asset_id: 104181
+      name: "6"
+      size: 1024
+      blob_id: 257228
+    - id: 660011
+      asset_id: 104181
+      name: "7"
+      size: 1024
+      blob_id: 239615
+    - id: 660012
+      asset_id: 104181
+      name: meteorites_bprom.bin
+      size: 256
+      blob_id: 203980
+- release:
+    id: 88854
+    game_id: 61
+    description: ""
+    release_date: 19790000
+  names:
+  - id: 217928
+    kind: 3
+    kind_id: 88854
+    language: 1
+    name: Meteorites (VGG bootleg of Asteroids)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 104183
+      kind: 3
+      kind_id: 88854
+      type: 1
+      name: meteorts.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 660027
+      asset_id: 104183
+      name: 034602-01.c8
+      size: 256
+      blob_id: 203980
+    - id: 660028
+      asset_id: 104183
+      name: m0_c1.bin
+      size: 2048
+      blob_id: 257238
+    - id: 660029
+      asset_id: 104183
+      name: m1_f1.bin
+      size: 2048
+      blob_id: 883
+    - id: 660030
+      asset_id: 104183
+      name: m2_j1.bin
+      size: 2048
+      blob_id: 257239
+    - id: 660031
+      asset_id: 104183
+      name: mv_np3.bin
+      size: 2048
+      blob_id: 257240
+- release:
+    id: 98354
+    game_id: 61
+    description: ""
+    release_date: 19810000
+  names:
+  - id: 230952
+    kind: 3
+    kind_id: 98354
+    language: 1
+    name: Space Rocks (Spanish clone of Asteroids)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 114105
+      kind: 3
+      kind_id: 98354
+      type: 1
+      name: spcrocks.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/1112952321
+    entries:
+    - id: 752321
+      asset_id: 114105
+      name: 034602-01.c8
+      size: 256
+      blob_id: 203980
+    - id: 752322
+      asset_id: 114105
+      name: 1.bin
+      size: 2048
+      blob_id: 238697
+    - id: 752323
+      asset_id: 114105
+      name: 2.bin
+      size: 2048
+      blob_id: 238696
+    - id: 752324
+      asset_id: 114105
+      name: 3.bin
+      size: 2048
+      blob_id: 238695
+    - id: 752325
+      asset_id: 114105
+      name: e.bin
+      size: 2048
+      blob_id: 301721
+- release:
+    id: 103288
+    game_id: 61
+    description: ""
+    release_date: 19800000
+  names:
+  - id: 238264
+    kind: 3
+    kind_id: 103288
+    language: 1
+    name: Aerolitos Espaciales (Spanish bootleg of Asteroids)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 93591
+      kind: 3
+      kind_id: 103288
+      type: 1
+      name: aerolitol.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 536985
+      asset_id: 93591
+      name: 034602-01.c8
+      size: 256
+      blob_id: 203980
+    - id: 536986
+      asset_id: 93591
+      name: aerolito.1c
+      size: 2048
+      blob_id: 238695
+    - id: 536987
+      asset_id: 93591
+      name: aerolito.1d
+      size: 2048
+      blob_id: 238696
+    - id: 536988
+      asset_id: 93591
+      name: aerolito.1e
+      size: 2048
+      blob_id: 238697
+    - id: 536989
+      asset_id: 93591
+      name: aerolito.3n
+      size: 2048
+      blob_id: 238698
+- release:
+    id: 103289
+    game_id: 61
+    description: ""
+    release_date: 19800000
+  names:
+  - id: 238265
+    kind: 3
+    kind_id: 103289
+    language: 1
+    name: Aerolitos (Spanish bootleg of Asteroids)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 93592
+      kind: 3
+      kind_id: 103289
+      type: 1
+      name: aerolitos.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 536990
+      asset_id: 93592
+      name: 034602-01.c8
+      size: 256
+      blob_id: 203980
+    - id: 536991
+      asset_id: 93592
+      name: 2516_1c.bin
+      size: 2048
+      blob_id: 238695
+    - id: 536992
+      asset_id: 93592
+      name: 2516_1d.bin
+      size: 2048
+      blob_id: 238696
+    - id: 536993
+      asset_id: 93592
+      name: 2516_1e.bin
+      size: 2048
+      blob_id: 238697
+    - id: 536994
+      asset_id: 93592
+      name: 2716_3n.bin
+      size: 2048
+      blob_id: 238699
+- release:
+    id: 103392
+    game_id: 61
+    description: ""
+    release_date: 19790000
+  names:
+  - id: 238368
+    kind: 3
+    kind_id: 103392
+    language: 1
+    name: Asterock (Sidam bootleg of Asteroids)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 94219
+      kind: 3
+      kind_id: 103392
+      type: 1
+      name: asterock.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 545312
+      asset_id: 94219
+      name: 034602-01.c8
+      size: 256
+      blob_id: 203980
+    - id: 545313
+      asset_id: 94219
+      name: "10505.0"
+      size: 1024
+      blob_id: 239608
+    - id: 545314
+      asset_id: 94219
+      name: "10505.1"
+      size: 1024
+      blob_id: 239609
+    - id: 545315
+      asset_id: 94219
+      name: "10505.2"
+      size: 1024
+      blob_id: 239610
+    - id: 545316
+      asset_id: 94219
+      name: "10505.3"
+      size: 1024
+      blob_id: 239611
+    - id: 545317
+      asset_id: 94219
+      name: "10505.4"
+      size: 1024
+      blob_id: 239612
+    - id: 545318
+      asset_id: 94219
+      name: "10505.5"
+      size: 1024
+      blob_id: 239613
+    - id: 545319
+      asset_id: 94219
+      name: "10505.6"
+      size: 1024
+      blob_id: 239614
+    - id: 545320
+      asset_id: 94219
+      name: "10505.7"
+      size: 1024
+      blob_id: 239615
+- release:
+    id: 103393
+    game_id: 61
+    description: ""
+    release_date: 19790000
+  names:
+  - id: 238369
+    kind: 3
+    kind_id: 103393
+    language: 1
+    name: Asterock (Videotron bootleg of Asteroids)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 94220
+      kind: 3
+      kind_id: 103393
+      type: 1
+      name: asterockv.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 545321
+      asset_id: 94220
+      name: 034602-01.c8
+      size: 256
+      blob_id: 203980
+    - id: 545322
+      asset_id: 94220
+      name: "10505.1"
+      size: 1024
+      blob_id: 239609
+    - id: 545323
+      asset_id: 94220
+      name: "10505.2"
+      size: 1024
+      blob_id: 239610
+    - id: 545324
+      asset_id: 94220
+      name: "10505.3"
+      size: 1024
+      blob_id: 239611
+    - id: 545325
+      asset_id: 94220
+      name: "10505.4"
+      size: 1024
+      blob_id: 239612
+    - id: 545326
+      asset_id: 94220
+      name: "10505.5"
+      size: 1024
+      blob_id: 239613
+    - id: 545327
+      asset_id: 94220
+      name: "10505.6"
+      size: 1024
+      blob_id: 239614
+    - id: 545328
+      asset_id: 94220
+      name: "10505.7"
+      size: 1024
+      blob_id: 239615
+    - id: 545329
+      asset_id: 94220
+      name: videotronas.0
+      size: 1024
+      blob_id: 239616

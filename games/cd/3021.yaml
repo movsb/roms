@@ -16,6 +16,36 @@ names:
   language: 2
   name: 小精灵世界 (世界版)
   source: trimui
+- id: 194150
+  kind: 2
+  kind_id: 3021
+  language: 1
+  name: Pac-Land (Japan new)
+  source: mame
+- id: 194151
+  kind: 2
+  kind_id: 3021
+  language: 1
+  name: Pac-Land (Japan old)
+  source: mame
+- id: 194152
+  kind: 2
+  kind_id: 3021
+  language: 1
+  name: Pac-Land (Japan older)
+  source: mame
+- id: 194153
+  kind: 2
+  kind_id: 3021
+  language: 1
+  name: Pac-Land (Midway)
+  source: mame
+- id: 194154
+  kind: 2
+  kind_id: 3021
+  language: 1
+  name: Pac-Land (Bally-Midway)
+  source: mame
 game_developers:
 - game_id: 3021
   developer_id: 19
@@ -189,24 +219,10 @@ releases:
       blob_id: 89944
       debug: arcade/wheel/pacland.png
     entries: []
-- release:
-    id: 60306
-    game_id: 3021
-    description: ""
-    release_date: 19840000
-  names:
-  - id: 150967
-    kind: 3
-    kind_id: 60306
-    language: 1
-    name: Pac-Land (World)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 73376
+      id: 106213
       kind: 3
-      kind_id: 60306
+      kind_id: 3021
       type: 1
       name: pacland.zip
       description: ""
@@ -215,98 +231,703 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 287648
-      asset_id: 73376
+    - id: 681980
+      asset_id: 106213
       name: cus60-60a1.mcu
       size: 4096
       blob_id: 5815
-    - id: 287649
-      asset_id: 73376
+    - id: 681981
+      asset_id: 106213
       name: pl1-1.1r
       size: 1024
       blob_id: 32081
-    - id: 287650
-      asset_id: 73376
+    - id: 681982
+      asset_id: 106213
       name: pl1-10.7e
       size: 16384
       blob_id: 32082
-    - id: 287651
-      asset_id: 73376
+    - id: 681983
+      asset_id: 106213
       name: pl1-11.7f
       size: 16384
       blob_id: 32083
-    - id: 287652
-      asset_id: 73376
+    - id: 681984
+      asset_id: 106213
       name: pl1-2.1t
       size: 1024
       blob_id: 3235
-    - id: 287653
-      asset_id: 73376
+    - id: 681985
+      asset_id: 106213
       name: pl1-3.6l
       size: 1024
       blob_id: 32084
-    - id: 287654
-      asset_id: 73376
+    - id: 681986
+      asset_id: 106213
       name: pl1-4.4n
       size: 1024
       blob_id: 32085
-    - id: 287655
-      asset_id: 73376
+    - id: 681987
+      asset_id: 106213
       name: pl1-5.5t
       size: 1024
       blob_id: 32086
-    - id: 287656
-      asset_id: 73376
+    - id: 681988
+      asset_id: 106213
       name: pl1-8.6e
       size: 16384
       blob_id: 32087
-    - id: 287657
-      asset_id: 73376
+    - id: 681989
+      asset_id: 106213
       name: pl1-9.6f
       size: 16384
       blob_id: 32088
-    - id: 287658
-      asset_id: 73376
+    - id: 681990
+      asset_id: 106213
       name: pl1_3.8e
       size: 16384
       blob_id: 3222
-    - id: 287659
-      asset_id: 73376
+    - id: 681991
+      asset_id: 106213
       name: pl1_4.8f
       size: 16384
       blob_id: 3223
-    - id: 287660
-      asset_id: 73376
+    - id: 681992
+      asset_id: 106213
       name: pl1_5.8h
       size: 16384
       blob_id: 3224
-    - id: 287661
-      asset_id: 73376
+    - id: 681993
+      asset_id: 106213
       name: pl1_7.3e
       size: 8192
       blob_id: 3226
-    - id: 287662
-      asset_id: 73376
+    - id: 681994
+      asset_id: 106213
       name: pl2_12.6n
       size: 8192
       blob_id: 32089
-    - id: 287663
-      asset_id: 73376
+    - id: 681995
+      asset_id: 106213
       name: pl3_6.8j
       size: 16384
       blob_id: 32090
-    - id: 287664
-      asset_id: 73376
+    - id: 681996
+      asset_id: 106213
       name: pl4_13.6t
       size: 8192
       blob_id: 32091
-    - id: 287665
-      asset_id: 73376
+    - id: 681997
+      asset_id: 106213
       name: pl5_01b.8b
       size: 16384
       blob_id: 32092
-    - id: 287666
-      asset_id: 73376
+    - id: 681998
+      asset_id: 106213
       name: pl5_02.8d
       size: 16384
       blob_id: 32093
+- release:
+    id: 90774
+    game_id: 3021
+    description: ""
+    release_date: 19840000
+  names:
+  - id: 220878
+    kind: 3
+    kind_id: 90774
+    language: 1
+    name: Pac-Land (Japan new)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 106214
+      kind: 3
+      kind_id: 90774
+      type: 1
+      name: paclandj.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 681999
+      asset_id: 106214
+      name: cus60-60a1.mcu
+      size: 4096
+      blob_id: 5815
+    - id: 682000
+      asset_id: 106214
+      name: pl1-1.1r
+      size: 1024
+      blob_id: 32081
+    - id: 682001
+      asset_id: 106214
+      name: pl1-2.1t
+      size: 1024
+      blob_id: 3235
+    - id: 682002
+      asset_id: 106214
+      name: pl1-3.6l
+      size: 1024
+      blob_id: 32084
+    - id: 682003
+      asset_id: 106214
+      name: pl1-4.4n
+      size: 1024
+      blob_id: 32085
+    - id: 682004
+      asset_id: 106214
+      name: pl1-5.5t
+      size: 1024
+      blob_id: 32086
+    - id: 682005
+      asset_id: 106214
+      name: pl1_10b.7e
+      size: 16384
+      blob_id: 262652
+    - id: 682006
+      asset_id: 106214
+      name: pl1_11.7f
+      size: 16384
+      blob_id: 3230
+    - id: 682007
+      asset_id: 106214
+      name: pl1_13.6t
+      size: 8192
+      blob_id: 3232
+    - id: 682008
+      asset_id: 106214
+      name: pl1_3.8e
+      size: 16384
+      blob_id: 3222
+    - id: 682009
+      asset_id: 106214
+      name: pl1_4.8f
+      size: 16384
+      blob_id: 3223
+    - id: 682010
+      asset_id: 106214
+      name: pl1_5.8h
+      size: 16384
+      blob_id: 3224
+    - id: 682011
+      asset_id: 106214
+      name: pl1_6.8j
+      size: 16384
+      blob_id: 3225
+    - id: 682012
+      asset_id: 106214
+      name: pl1_7.3e
+      size: 8192
+      blob_id: 3226
+    - id: 682013
+      asset_id: 106214
+      name: pl1_8.6e
+      size: 16384
+      blob_id: 3227
+    - id: 682014
+      asset_id: 106214
+      name: pl1_9b.6f
+      size: 16384
+      blob_id: 3228
+    - id: 682015
+      asset_id: 106214
+      name: pl6_01.8b
+      size: 16384
+      blob_id: 262653
+    - id: 682016
+      asset_id: 106214
+      name: pl6_02.8d
+      size: 16384
+      blob_id: 262654
+    - id: 682017
+      asset_id: 106214
+      name: pl6_12.6n
+      size: 8192
+      blob_id: 262655
+- release:
+    id: 90775
+    game_id: 3021
+    description: ""
+    release_date: 19840000
+  names:
+  - id: 220879
+    kind: 3
+    kind_id: 90775
+    language: 1
+    name: Pac-Land (Japan old)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 106215
+      kind: 3
+      kind_id: 90775
+      type: 1
+      name: paclandjo.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 682018
+      asset_id: 106215
+      name: cus60-60a1.mcu
+      size: 4096
+      blob_id: 5815
+    - id: 682019
+      asset_id: 106215
+      name: pl1-1.1r
+      size: 1024
+      blob_id: 32081
+    - id: 682020
+      asset_id: 106215
+      name: pl1-2.1t
+      size: 1024
+      blob_id: 3235
+    - id: 682021
+      asset_id: 106215
+      name: pl1-3.6l
+      size: 1024
+      blob_id: 32084
+    - id: 682022
+      asset_id: 106215
+      name: pl1-4.4n
+      size: 1024
+      blob_id: 32085
+    - id: 682023
+      asset_id: 106215
+      name: pl1-5.5t
+      size: 1024
+      blob_id: 32086
+    - id: 682024
+      asset_id: 106215
+      name: pl1_1.8b
+      size: 16384
+      blob_id: 3220
+    - id: 682025
+      asset_id: 106215
+      name: pl1_10b.7e
+      size: 16384
+      blob_id: 262652
+    - id: 682026
+      asset_id: 106215
+      name: pl1_11.7f
+      size: 16384
+      blob_id: 3230
+    - id: 682027
+      asset_id: 106215
+      name: pl1_12.6n
+      size: 8192
+      blob_id: 3231
+    - id: 682028
+      asset_id: 106215
+      name: pl1_13.6t
+      size: 8192
+      blob_id: 3232
+    - id: 682029
+      asset_id: 106215
+      name: pl1_2.8d
+      size: 16384
+      blob_id: 3221
+    - id: 682030
+      asset_id: 106215
+      name: pl1_3.8e
+      size: 16384
+      blob_id: 3222
+    - id: 682031
+      asset_id: 106215
+      name: pl1_4.8f
+      size: 16384
+      blob_id: 3223
+    - id: 682032
+      asset_id: 106215
+      name: pl1_5.8h
+      size: 16384
+      blob_id: 3224
+    - id: 682033
+      asset_id: 106215
+      name: pl1_6.8j
+      size: 16384
+      blob_id: 3225
+    - id: 682034
+      asset_id: 106215
+      name: pl1_7.3e
+      size: 8192
+      blob_id: 3226
+    - id: 682035
+      asset_id: 106215
+      name: pl1_8.6e
+      size: 16384
+      blob_id: 3227
+    - id: 682036
+      asset_id: 106215
+      name: pl1_9b.6f
+      size: 16384
+      blob_id: 3228
+- release:
+    id: 90776
+    game_id: 3021
+    description: ""
+    release_date: 19840000
+  names:
+  - id: 220880
+    kind: 3
+    kind_id: 90776
+    language: 1
+    name: Pac-Land (Japan older)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 106216
+      kind: 3
+      kind_id: 90776
+      type: 1
+      name: paclandjo2.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 682037
+      asset_id: 106216
+      name: cus60-60a1.mcu
+      size: 4096
+      blob_id: 5815
+    - id: 682038
+      asset_id: 106216
+      name: pl1-1.1r
+      size: 1024
+      blob_id: 32081
+    - id: 682039
+      asset_id: 106216
+      name: pl1-2.1t
+      size: 1024
+      blob_id: 3235
+    - id: 682040
+      asset_id: 106216
+      name: pl1-3.6l
+      size: 1024
+      blob_id: 32084
+    - id: 682041
+      asset_id: 106216
+      name: pl1-4.4n
+      size: 1024
+      blob_id: 32085
+    - id: 682042
+      asset_id: 106216
+      name: pl1-5.5t
+      size: 1024
+      blob_id: 32086
+    - id: 682043
+      asset_id: 106216
+      name: pl1_1.8b
+      size: 16384
+      blob_id: 3220
+    - id: 682044
+      asset_id: 106216
+      name: pl1_10.7e
+      size: 16384
+      blob_id: 3229
+    - id: 682045
+      asset_id: 106216
+      name: pl1_11.7f
+      size: 16384
+      blob_id: 3230
+    - id: 682046
+      asset_id: 106216
+      name: pl1_12.6n
+      size: 8192
+      blob_id: 3231
+    - id: 682047
+      asset_id: 106216
+      name: pl1_13.6t
+      size: 8192
+      blob_id: 3232
+    - id: 682048
+      asset_id: 106216
+      name: pl1_2.8d
+      size: 16384
+      blob_id: 3221
+    - id: 682049
+      asset_id: 106216
+      name: pl1_3.8e
+      size: 16384
+      blob_id: 3222
+    - id: 682050
+      asset_id: 106216
+      name: pl1_4.8f
+      size: 16384
+      blob_id: 3223
+    - id: 682051
+      asset_id: 106216
+      name: pl1_5.8h
+      size: 16384
+      blob_id: 3224
+    - id: 682052
+      asset_id: 106216
+      name: pl1_6.8j
+      size: 16384
+      blob_id: 3225
+    - id: 682053
+      asset_id: 106216
+      name: pl1_7.3e
+      size: 8192
+      blob_id: 3226
+    - id: 682054
+      asset_id: 106216
+      name: pl1_8.6e
+      size: 16384
+      blob_id: 3227
+    - id: 682055
+      asset_id: 106216
+      name: pl1_9.6f
+      size: 16384
+      blob_id: 3228
+- release:
+    id: 90777
+    game_id: 3021
+    description: ""
+    release_date: 19840000
+  names:
+  - id: 220881
+    kind: 3
+    kind_id: 90777
+    language: 1
+    name: Pac-Land (Midway)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 106217
+      kind: 3
+      kind_id: 90777
+      type: 1
+      name: paclandm.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 682056
+      asset_id: 106217
+      name: cus60-60a1.mcu
+      size: 4096
+      blob_id: 5815
+    - id: 682057
+      asset_id: 106217
+      name: pl1-1
+      size: 16384
+      blob_id: 262656
+    - id: 682058
+      asset_id: 106217
+      name: pl1-1.1r
+      size: 1024
+      blob_id: 32081
+    - id: 682059
+      asset_id: 106217
+      name: pl1-10.7e
+      size: 16384
+      blob_id: 32082
+    - id: 682060
+      asset_id: 106217
+      name: pl1-11.7f
+      size: 16384
+      blob_id: 32083
+    - id: 682061
+      asset_id: 106217
+      name: pl1-2
+      size: 16384
+      blob_id: 262657
+    - id: 682062
+      asset_id: 106217
+      name: pl1-2.1t
+      size: 1024
+      blob_id: 3235
+    - id: 682063
+      asset_id: 106217
+      name: pl1-3.6l
+      size: 1024
+      blob_id: 32084
+    - id: 682064
+      asset_id: 106217
+      name: pl1-4.4n
+      size: 1024
+      blob_id: 32085
+    - id: 682065
+      asset_id: 106217
+      name: pl1-5.5t
+      size: 1024
+      blob_id: 32086
+    - id: 682066
+      asset_id: 106217
+      name: pl1-8.6e
+      size: 16384
+      blob_id: 32087
+    - id: 682067
+      asset_id: 106217
+      name: pl1-9.6f
+      size: 16384
+      blob_id: 32088
+    - id: 682068
+      asset_id: 106217
+      name: pl1_12.6n
+      size: 8192
+      blob_id: 3231
+    - id: 682069
+      asset_id: 106217
+      name: pl1_13.6t
+      size: 8192
+      blob_id: 3232
+    - id: 682070
+      asset_id: 106217
+      name: pl1_3.8e
+      size: 16384
+      blob_id: 3222
+    - id: 682071
+      asset_id: 106217
+      name: pl1_4.8f
+      size: 16384
+      blob_id: 3223
+    - id: 682072
+      asset_id: 106217
+      name: pl1_5.8h
+      size: 16384
+      blob_id: 3224
+    - id: 682073
+      asset_id: 106217
+      name: pl1_6.8j
+      size: 16384
+      blob_id: 3225
+    - id: 682074
+      asset_id: 106217
+      name: pl1_7.3e
+      size: 8192
+      blob_id: 3226
+- release:
+    id: 90778
+    game_id: 3021
+    description: ""
+    release_date: 19840000
+  names:
+  - id: 220882
+    kind: 3
+    kind_id: 90778
+    language: 1
+    name: Pac-Land (Bally-Midway)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 106218
+      kind: 3
+      kind_id: 90778
+      type: 1
+      name: paclandm2.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 682075
+      asset_id: 106218
+      name: cus60-60a1.mcu
+      size: 4096
+      blob_id: 5815
+    - id: 682076
+      asset_id: 106218
+      name: pl-8b.bin
+      size: 16384
+      blob_id: 262658
+    - id: 682077
+      asset_id: 106218
+      name: pl-8d.bin
+      size: 16384
+      blob_id: 262659
+    - id: 682078
+      asset_id: 106218
+      name: pl1-1.1r
+      size: 1024
+      blob_id: 32081
+    - id: 682079
+      asset_id: 106218
+      name: pl1-10.7e
+      size: 16384
+      blob_id: 32082
+    - id: 682080
+      asset_id: 106218
+      name: pl1-11.7f
+      size: 16384
+      blob_id: 32083
+    - id: 682081
+      asset_id: 106218
+      name: pl1-2.1t
+      size: 1024
+      blob_id: 3235
+    - id: 682082
+      asset_id: 106218
+      name: pl1-3.6l
+      size: 1024
+      blob_id: 32084
+    - id: 682083
+      asset_id: 106218
+      name: pl1-4.4n
+      size: 1024
+      blob_id: 32085
+    - id: 682084
+      asset_id: 106218
+      name: pl1-5.5t
+      size: 1024
+      blob_id: 32086
+    - id: 682085
+      asset_id: 106218
+      name: pl1-8.6e
+      size: 16384
+      blob_id: 32087
+    - id: 682086
+      asset_id: 106218
+      name: pl1-9.6f
+      size: 16384
+      blob_id: 32088
+    - id: 682087
+      asset_id: 106218
+      name: pl1_3.8e
+      size: 16384
+      blob_id: 3222
+    - id: 682088
+      asset_id: 106218
+      name: pl1_4.8f
+      size: 16384
+      blob_id: 3223
+    - id: 682089
+      asset_id: 106218
+      name: pl1_5.8h
+      size: 16384
+      blob_id: 3224
+    - id: 682090
+      asset_id: 106218
+      name: pl1_7.3e
+      size: 8192
+      blob_id: 3226
+    - id: 682091
+      asset_id: 106218
+      name: pl2_12.6n
+      size: 8192
+      blob_id: 32089
+    - id: 682092
+      asset_id: 106218
+      name: pl3_6.8j
+      size: 16384
+      blob_id: 32090
+    - id: 682093
+      asset_id: 106218
+      name: pl4_13.6t
+      size: 8192
+      blob_id: 32091

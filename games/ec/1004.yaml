@@ -10,6 +10,36 @@ names:
   language: 1
   name: cameltry
   source: ""
+- id: 186732
+  kind: 2
+  kind_id: 1004
+  language: 1
+  name: cameltryj
+  source: ""
+- id: 186733
+  kind: 2
+  kind_id: 1004
+  language: 2
+  name: 骆驼珠 (日版, YM2610)
+  source: trimui
+- id: 188804
+  kind: 2
+  kind_id: 1004
+  language: 1
+  name: Cameltry (World, YM2203 + M6295)
+  source: mame
+- id: 188805
+  kind: 2
+  kind_id: 1004
+  language: 1
+  name: Cameltry (US, YM2203 + M6295)
+  source: mame
+- id: 188806
+  kind: 2
+  kind_id: 1004
+  language: 1
+  name: Cameltry (US, YM2610)
+  source: mame
 game_developers:
 - game_id: 1004
   developer_id: 35
@@ -40,48 +70,6 @@ releases:
   - release_id: 1004
     publisher_id: 322
   assets:
-  - asset:
-      id: 1004
-      kind: 3
-      kind_id: 1004
-      type: 1
-      name: cameltry.zip
-      description: ""
-      format: 2
-      size: 469785
-      blob_id: 0
-      debug: cameltry.zip
-    entries:
-    - id: 14715
-      asset_id: 1004
-      name: c38-01.bin
-      size: 524288
-      blob_id: 10632
-    - id: 14716
-      asset_id: 1004
-      name: c38-02.bin
-      size: 131072
-      blob_id: 10633
-    - id: 14717
-      asset_id: 1004
-      name: c38-03.bin
-      size: 131072
-      blob_id: 10634
-    - id: 14718
-      asset_id: 1004
-      name: c38-08.bin
-      size: 65536
-      blob_id: 10635
-    - id: 14719
-      asset_id: 1004
-      name: c38-11
-      size: 131072
-      blob_id: 10636
-    - id: 14720
-      asset_id: 1004
-      name: c38-14
-      size: 131072
-      blob_id: 10637
   - asset:
       id: 42654
       kind: 3
@@ -217,10 +205,66 @@ releases:
     language: 1
     name: Cameltry (World, YM2610)
     source: mame
-  release_publishers: []
+  - id: 184000
+    kind: 3
+    kind_id: 38805
+    language: 1
+    name: cameltry
+    source: ""
+  - id: 184001
+    kind: 3
+    kind_id: 38805
+    language: 2
+    name: 骆驼珠 (美版, YM2610)
+    source: trimui
+  release_publishers:
+  - release_id: 38805
+    publisher_id: 322
   assets:
   - asset:
-      id: 51875
+      id: 1004
+      kind: 3
+      kind_id: 38805
+      type: 1
+      name: cameltry.zip
+      description: ""
+      format: 2
+      size: 469785
+      blob_id: 0
+      debug: cameltry.zip
+    entries:
+    - id: 14715
+      asset_id: 1004
+      name: c38-01.bin
+      size: 524288
+      blob_id: 10632
+    - id: 14716
+      asset_id: 1004
+      name: c38-02.bin
+      size: 131072
+      blob_id: 10633
+    - id: 14717
+      asset_id: 1004
+      name: c38-03.bin
+      size: 131072
+      blob_id: 10634
+    - id: 14718
+      asset_id: 1004
+      name: c38-08.bin
+      size: 65536
+      blob_id: 10635
+    - id: 14719
+      asset_id: 1004
+      name: c38-11
+      size: 131072
+      blob_id: 10636
+    - id: 14720
+      asset_id: 1004
+      name: c38-14
+      size: 131072
+      blob_id: 10637
+  - asset:
+      id: 95616
       kind: 3
       kind_id: 38805
       type: 1
@@ -231,38 +275,394 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 124022
-      asset_id: 51875
+    - id: 562052
+      asset_id: 95616
       name: c38-01.ic1
       size: 524288
       blob_id: 10632
-    - id: 124023
-      asset_id: 51875
+    - id: 562053
+      asset_id: 95616
       name: c38-02.ic27
       size: 131072
       blob_id: 10633
-    - id: 124024
-      asset_id: 51875
+    - id: 562054
+      asset_id: 95616
       name: c38-02.ic29
       size: 131072
       blob_id: 10633
-    - id: 124025
-      asset_id: 51875
+    - id: 562055
+      asset_id: 95616
       name: c38-03.ic2
       size: 131072
       blob_id: 10634
-    - id: 124026
-      asset_id: 51875
+    - id: 562056
+      asset_id: 95616
       name: c38-08.ic25
       size: 65536
       blob_id: 10635
-    - id: 124027
-      asset_id: 51875
+    - id: 562057
+      asset_id: 95616
       name: c38-11.ic10
       size: 131072
       blob_id: 10636
-    - id: 124028
-      asset_id: 51875
+    - id: 562058
+      asset_id: 95616
       name: c38-13.ic11
       size: 131072
-      blob_id: 102000
+      blob_id: 207646
+- release:
+    id: 80905
+    game_id: 1004
+    description: ""
+    release_date: 19890000
+  names:
+  - id: 205703
+    kind: 3
+    kind_id: 80905
+    language: 1
+    name: Cameltry (World, YM2203 + M6295)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 95617
+      kind: 3
+      kind_id: 80905
+      type: 1
+      name: cameltrya.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 562059
+      asset_id: 95617
+      name: c38-01.bin
+      size: 524288
+      blob_id: 10632
+    - id: 562060
+      asset_id: 95617
+      name: c38-02.bin
+      size: 131072
+      blob_id: 10633
+    - id: 562062
+      asset_id: 95617
+      name: c38-04.bin
+      size: 131072
+      blob_id: 10638
+    - id: 562063
+      asset_id: 95617
+      name: c38-11
+      size: 131072
+      blob_id: 10636
+    - id: 562064
+      asset_id: 95617
+      name: c38-15.bin
+      size: 65536
+      blob_id: 10639
+    - id: 562065
+      asset_id: 95617
+      name: c38-16
+      size: 131072
+      blob_id: 10640
+  - asset:
+      id: 118609
+      kind: 3
+      kind_id: 80905
+      type: 1
+      name: cameltrya.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 808504
+      asset_id: 118609
+      name: c38-01.bin
+      size: 524288
+      blob_id: 10632
+    - id: 808505
+      asset_id: 118609
+      name: c38-02.bin
+      size: 131072
+      blob_id: 10633
+    - id: 808506
+      asset_id: 118609
+      name: c38-04.bin
+      size: 131072
+      blob_id: 10638
+    - id: 808507
+      asset_id: 118609
+      name: c38-11
+      size: 131072
+      blob_id: 10636
+    - id: 808508
+      asset_id: 118609
+      name: c38-15.bin
+      size: 65536
+      blob_id: 10639
+    - id: 808509
+      asset_id: 118609
+      name: c38-16
+      size: 131072
+      blob_id: 10640
+- release:
+    id: 80906
+    game_id: 1004
+    description: ""
+    release_date: 19890000
+  names:
+  - id: 205704
+    kind: 3
+    kind_id: 80906
+    language: 1
+    name: Cameltry (US, YM2203 + M6295)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 95618
+      kind: 3
+      kind_id: 80906
+      type: 1
+      name: cameltryau.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 562066
+      asset_id: 95618
+      name: c38-01.bin
+      size: 524288
+      blob_id: 10632
+    - id: 562067
+      asset_id: 95618
+      name: c38-02.bin
+      size: 131072
+      blob_id: 10633
+    - id: 562069
+      asset_id: 95618
+      name: c38-04.bin
+      size: 131072
+      blob_id: 10638
+    - id: 562070
+      asset_id: 95618
+      name: c38-11
+      size: 131072
+      blob_id: 10636
+    - id: 562071
+      asset_id: 95618
+      name: c38-14
+      size: 131072
+      blob_id: 10637
+    - id: 562072
+      asset_id: 95618
+      name: c38-15.bin
+      size: 65536
+      blob_id: 10639
+  - asset:
+      id: 118610
+      kind: 3
+      kind_id: 80906
+      type: 1
+      name: cameltryau.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 808510
+      asset_id: 118610
+      name: c38-01.bin
+      size: 524288
+      blob_id: 10632
+    - id: 808511
+      asset_id: 118610
+      name: c38-02.bin
+      size: 131072
+      blob_id: 10633
+    - id: 808512
+      asset_id: 118610
+      name: c38-04.bin
+      size: 131072
+      blob_id: 10638
+    - id: 808513
+      asset_id: 118610
+      name: c38-11
+      size: 131072
+      blob_id: 10636
+    - id: 808514
+      asset_id: 118610
+      name: c38-14
+      size: 131072
+      blob_id: 10637
+    - id: 808515
+      asset_id: 118610
+      name: c38-15.bin
+      size: 65536
+      blob_id: 10639
+- release:
+    id: 80907
+    game_id: 1004
+    description: ""
+    release_date: 19890000
+  names:
+  - id: 205705
+    kind: 3
+    kind_id: 80907
+    language: 1
+    name: Cameltry (US, YM2610)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 95620
+      kind: 3
+      kind_id: 80907
+      type: 1
+      name: cameltryu.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 562080
+      asset_id: 95620
+      name: c38-01.bin
+      size: 524288
+      blob_id: 10632
+    - id: 562081
+      asset_id: 95620
+      name: c38-02.bin
+      size: 131072
+      blob_id: 10633
+    - id: 562083
+      asset_id: 95620
+      name: c38-03.bin
+      size: 131072
+      blob_id: 10634
+    - id: 562084
+      asset_id: 95620
+      name: c38-08.bin
+      size: 65536
+      blob_id: 10635
+    - id: 562085
+      asset_id: 95620
+      name: c38-11
+      size: 131072
+      blob_id: 10636
+    - id: 562086
+      asset_id: 95620
+      name: c38-14
+      size: 131072
+      blob_id: 10637
+- release:
+    id: 102896
+    game_id: 1004
+    description: ""
+    release_date: 0
+  names:
+  - id: 237578
+    kind: 3
+    kind_id: 102896
+    language: 1
+    name: cameltryj
+    source: ""
+  - id: 237579
+    kind: 3
+    kind_id: 102896
+    language: 2
+    name: 骆驼珠 (日版, YM2610)
+    source: trimui
+  release_publishers: []
+  assets:
+  - asset:
+      id: 95619
+      kind: 3
+      kind_id: 102896
+      type: 1
+      name: cameltryj.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 562073
+      asset_id: 95619
+      name: c38-01.bin
+      size: 524288
+      blob_id: 10632
+    - id: 562074
+      asset_id: 95619
+      name: c38-02.bin
+      size: 131072
+      blob_id: 10633
+    - id: 562076
+      asset_id: 95619
+      name: c38-03.bin
+      size: 131072
+      blob_id: 10634
+    - id: 562077
+      asset_id: 95619
+      name: c38-08.bin
+      size: 65536
+      blob_id: 10635
+    - id: 562078
+      asset_id: 95619
+      name: c38-09.bin
+      size: 131072
+      blob_id: 10641
+    - id: 562079
+      asset_id: 95619
+      name: c38-10.bin
+      size: 131072
+      blob_id: 10642
+  - asset:
+      id: 118608
+      kind: 3
+      kind_id: 102896
+      type: 1
+      name: cameltryj.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 808498
+      asset_id: 118608
+      name: c38-01.bin
+      size: 524288
+      blob_id: 10632
+    - id: 808499
+      asset_id: 118608
+      name: c38-02.bin
+      size: 131072
+      blob_id: 10633
+    - id: 808500
+      asset_id: 118608
+      name: c38-03.bin
+      size: 131072
+      blob_id: 10634
+    - id: 808501
+      asset_id: 118608
+      name: c38-08.bin
+      size: 65536
+      blob_id: 10635
+    - id: 808502
+      asset_id: 118608
+      name: c38-09.bin
+      size: 131072
+      blob_id: 10641
+    - id: 808503
+      asset_id: 118608
+      name: c38-10.bin
+      size: 131072
+      blob_id: 10642

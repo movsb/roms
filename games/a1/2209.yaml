@@ -16,6 +16,12 @@ names:
   language: 2
   name: 世界金足 (第一套)
   source: trimui
+- id: 192340
+  kind: 2
+  kind_id: 2209
+  language: 1
+  name: Kick Goal (set 2)
+  source: mame
 game_developers:
 - game_id: 2209
   developer_id: 646
@@ -129,24 +135,10 @@ releases:
       blob_id: 91524
       debug: arcade/wheel/kickgoal.png
     entries: []
-- release:
-    id: 48908
-    game_id: 2209
-    description: ""
-    release_date: 19950000
-  names:
-  - id: 128393
-    kind: 3
-    kind_id: 48908
-    language: 1
-    name: Kick Goal (set 1)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 61978
+      id: 102454
       kind: 3
-      kind_id: 48908
+      kind_id: 2209
       type: 1
       name: kickgoal.zip
       description: ""
@@ -155,48 +147,119 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 215967
-      asset_id: 61978
+    - id: 641610
+      asset_id: 102454
       name: 93c46_16bit.ic12
       size: 128
-      blob_id: 131640
-    - id: 215968
-      asset_id: 61978
+      blob_id: 227197
+    - id: 641611
+      asset_id: 102454
       name: ic5
       size: 262144
       blob_id: 24530
-    - id: 215969
-      asset_id: 61978
+    - id: 641612
+      asset_id: 102454
       name: ic6
       size: 262144
       blob_id: 24531
-    - id: 215970
-      asset_id: 61978
+    - id: 641613
+      asset_id: 102454
       name: pic16c57
       size: 4103
-      blob_id: 131641
-    - id: 215971
-      asset_id: 61978
+      blob_id: 227198
+    - id: 641614
+      asset_id: 102454
       name: tch__3.tms27c040.ic13
       size: 524288
-      blob_id: 131642
-    - id: 215972
-      asset_id: 61978
+      blob_id: 227199
+    - id: 641615
+      asset_id: 102454
       name: tch__4.tms27c040.ic33
       size: 524288
       blob_id: 24526
-    - id: 215973
-      asset_id: 61978
+    - id: 641616
+      asset_id: 102454
       name: tch__5.tms27c040.ic34
       size: 524288
       blob_id: 24527
-    - id: 215974
-      asset_id: 61978
+    - id: 641617
+      asset_id: 102454
       name: tch__6.tms27c040.ic35
       size: 524288
       blob_id: 24528
-    - id: 215975
-      asset_id: 61978
+    - id: 641618
+      asset_id: 102454
+      name: tch__7.tms27c040.ic36
+      size: 524288
+      blob_id: 24529
+- release:
+    id: 87246
+    game_id: 2209
+    description: ""
+    release_date: 19950000
+  names:
+  - id: 215455
+    kind: 3
+    kind_id: 87246
+    language: 1
+    name: Kick Goal (set 2)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 102455
+      kind: 3
+      kind_id: 87246
+      type: 1
+      name: kickgoala.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 641619
+      asset_id: 102455
+      name: 93c46_16bit.ic12
+      size: 128
+      blob_id: 227197
+    - id: 641620
+      asset_id: 102455
+      name: pic16c57
+      size: 4103
+      blob_id: 227198
+    - id: 641621
+      asset_id: 102455
+      name: tch__1.am27c020.ic5
+      size: 262144
+      blob_id: 251303
+    - id: 641622
+      asset_id: 102455
+      name: tch__2.mc27c2001.ic6
+      size: 262144
+      blob_id: 251304
+    - id: 641623
+      asset_id: 102455
+      name: tch__3.tms27c040.ic13
+      size: 524288
+      blob_id: 227199
+    - id: 641624
+      asset_id: 102455
+      name: tch__4.tms27c040.ic33
+      size: 524288
+      blob_id: 24526
+    - id: 641625
+      asset_id: 102455
+      name: tch__5.tms27c040.ic34
+      size: 524288
+      blob_id: 24527
+    - id: 641626
+      asset_id: 102455
+      name: tch__6.tms27c040.ic35
+      size: 524288
+      blob_id: 24528
+    - id: 641627
+      asset_id: 102455
       name: tch__7.tms27c040.ic36
       size: 524288
       blob_id: 24529

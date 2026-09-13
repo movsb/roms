@@ -10,6 +10,42 @@ names:
   language: 1
   name: route16
   source: ""
+- id: 195818
+  kind: 2
+  kind_id: 3422
+  language: 1
+  name: Route 16 (Centuri license, set 2)
+  source: mame
+- id: 195819
+  kind: 2
+  kind_id: 3422
+  language: 1
+  name: Route 16 (bootleg)
+  source: mame
+- id: 195820
+  kind: 2
+  kind_id: 3422
+  language: 1
+  name: Route 16 (Centuri license, set 3, bootleg?)
+  source: mame
+- id: 195821
+  kind: 2
+  kind_id: 3422
+  language: 1
+  name: Route 16 (Sun Electronics, set 2)
+  source: mame
+- id: 195822
+  kind: 2
+  kind_id: 3422
+  language: 1
+  name: Route X (bootleg, set 1)
+  source: mame
+- id: 195823
+  kind: 2
+  kind_id: 3422
+  language: 1
+  name: Route X (bootleg, set 2)
+  source: mame
 game_developers:
 - game_id: 3422
   developer_id: 510
@@ -148,6 +184,78 @@ releases:
       blob_id: 85823
       debug: arcade/wheel/route16.png
     entries: []
+  - asset:
+      id: 109389
+      kind: 3
+      kind_id: 3422
+      type: 1
+      name: route16.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 718439
+      asset_id: 109389
+      name: mb7052.59
+      size: 256
+      blob_id: 36880
+    - id: 718440
+      asset_id: 109389
+      name: mb7052.61
+      size: 256
+      blob_id: 36880
+    - id: 718441
+      asset_id: 109389
+      name: stvg54.a0
+      size: 2048
+      blob_id: 270824
+    - id: 718442
+      asset_id: 109389
+      name: stvg55.a1
+      size: 2048
+      blob_id: 36892
+    - id: 718443
+      asset_id: 109389
+      name: stvg56.a2
+      size: 2048
+      blob_id: 36893
+    - id: 718444
+      asset_id: 109389
+      name: stvg57.a3
+      size: 2048
+      blob_id: 36894
+    - id: 718445
+      asset_id: 109389
+      name: stvg58.a4
+      size: 2048
+      blob_id: 270825
+    - id: 718446
+      asset_id: 109389
+      name: stvg59.a5
+      size: 2048
+      blob_id: 270826
+    - id: 718447
+      asset_id: 109389
+      name: stvg60.b0
+      size: 2048
+      blob_id: 36897
+    - id: 718448
+      asset_id: 109389
+      name: stvg61.b1
+      size: 2048
+      blob_id: 36898
+    - id: 718449
+      asset_id: 109389
+      name: stvg62.b2
+      size: 2048
+      blob_id: 36899
+    - id: 718450
+      asset_id: 109389
+      name: stvg63.b3
+      size: 2048
+      blob_id: 36900
 - release:
     id: 3423
     game_id: 3422
@@ -236,88 +344,614 @@ releases:
       size: 68
       blob_id: 36901
 - release:
-    id: 63776
+    id: 93789
     game_id: 3422
     description: ""
     release_date: 19810000
   names:
-  - id: 157756
+  - id: 225317
     kind: 3
-    kind_id: 63776
+    kind_id: 93789
     language: 1
-    name: Route 16 (Sun Electronics, set 1)
+    name: Route 16 (Centuri license, set 1)
     source: mame
   release_publishers: []
   assets:
   - asset:
-      id: 76846
+      id: 109390
       kind: 3
-      kind_id: 63776
+      kind_id: 93789
       type: 1
-      name: route16.zip
+      name: route16a.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 325879
-      asset_id: 76846
+    - id: 718451
+      asset_id: 109390
       name: mb7052.59
       size: 256
       blob_id: 36880
-    - id: 325880
-      asset_id: 76846
+    - id: 718452
+      asset_id: 109390
       name: mb7052.61
       size: 256
       blob_id: 36880
-    - id: 325881
-      asset_id: 76846
-      name: stvg54.a0
+    - id: 718453
+      asset_id: 109390
+      name: tvg54.a0
       size: 2048
-      blob_id: 166307
-    - id: 325882
-      asset_id: 76846
-      name: stvg55.a1
+      blob_id: 36881
+    - id: 718454
+      asset_id: 109390
+      name: tvg55.a1
+      size: 2048
+      blob_id: 36882
+    - id: 718455
+      asset_id: 109390
+      name: tvg56.a2
+      size: 2048
+      blob_id: 36883
+    - id: 718456
+      asset_id: 109390
+      name: tvg57.a3
+      size: 2048
+      blob_id: 36884
+    - id: 718457
+      asset_id: 109390
+      name: tvg58.a4
+      size: 2048
+      blob_id: 36885
+    - id: 718458
+      asset_id: 109390
+      name: tvg59.a5
+      size: 2048
+      blob_id: 36886
+    - id: 718459
+      asset_id: 109390
+      name: tvg60.b0
+      size: 2048
+      blob_id: 36887
+    - id: 718460
+      asset_id: 109390
+      name: tvg61.b1
+      size: 2048
+      blob_id: 36888
+    - id: 718461
+      asset_id: 109390
+      name: tvg62.b2
+      size: 2048
+      blob_id: 36889
+    - id: 718462
+      asset_id: 109390
+      name: tvg63.b3
+      size: 2048
+      blob_id: 36890
+- release:
+    id: 93790
+    game_id: 3422
+    description: ""
+    release_date: 19810000
+  names:
+  - id: 225318
+    kind: 3
+    kind_id: 93790
+    language: 1
+    name: Route 16 (Centuri license, set 2)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 109391
+      kind: 3
+      kind_id: 93790
+      type: 1
+      name: route16b.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 718463
+      asset_id: 109391
+      name: im5623.f10
+      size: 256
+      blob_id: 36880
+    - id: 718464
+      asset_id: 109391
+      name: im5623.f12
+      size: 256
+      blob_id: 36880
+    - id: 718465
+      asset_id: 109391
+      name: route16.b0
+      size: 2048
+      blob_id: 36887
+    - id: 718466
+      asset_id: 109391
+      name: route16.b2
+      size: 2048
+      blob_id: 36889
+    - id: 718467
+      asset_id: 109391
+      name: route16.b3
+      size: 2048
+      blob_id: 36890
+    - id: 718468
+      asset_id: 109391
+      name: vg-54
+      size: 2048
+      blob_id: 270827
+    - id: 718469
+      asset_id: 109391
+      name: vg-55
+      size: 2048
+      blob_id: 270828
+    - id: 718470
+      asset_id: 109391
+      name: vg-56
+      size: 2048
+      blob_id: 270829
+    - id: 718471
+      asset_id: 109391
+      name: vg-57
+      size: 2048
+      blob_id: 270830
+    - id: 718472
+      asset_id: 109391
+      name: vg-58
+      size: 2048
+      blob_id: 270831
+    - id: 718473
+      asset_id: 109391
+      name: vg-59
+      size: 2048
+      blob_id: 270832
+    - id: 718474
+      asset_id: 109391
+      name: vg-61
+      size: 2048
+      blob_id: 270833
+- release:
+    id: 93791
+    game_id: 3422
+    description: ""
+    release_date: 19810000
+  names:
+  - id: 225319
+    kind: 3
+    kind_id: 93791
+    language: 1
+    name: Route 16 (bootleg)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 109392
+      kind: 3
+      kind_id: 93791
+      type: 1
+      name: route16bl.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 718475
+      asset_id: 109392
+      name: im5623.f10
+      size: 256
+      blob_id: 36880
+    - id: 718476
+      asset_id: 109392
+      name: im5623.f12
+      size: 256
+      blob_id: 36880
+    - id: 718477
+      asset_id: 109392
+      name: rt16.0
+      size: 2048
+      blob_id: 36891
+    - id: 718478
+      asset_id: 109392
+      name: rt16.1
       size: 2048
       blob_id: 36892
-    - id: 325883
-      asset_id: 76846
-      name: stvg56.a2
+    - id: 718479
+      asset_id: 109392
+      name: rt16.2
       size: 2048
       blob_id: 36893
-    - id: 325884
-      asset_id: 76846
-      name: stvg57.a3
+    - id: 718480
+      asset_id: 109392
+      name: rt16.3
       size: 2048
       blob_id: 36894
-    - id: 325885
-      asset_id: 76846
-      name: stvg58.a4
+    - id: 718481
+      asset_id: 109392
+      name: rt16.4
       size: 2048
-      blob_id: 166308
-    - id: 325886
-      asset_id: 76846
-      name: stvg59.a5
+      blob_id: 36895
+    - id: 718482
+      asset_id: 109392
+      name: rt16.5
       size: 2048
-      blob_id: 166309
-    - id: 325887
-      asset_id: 76846
-      name: stvg60.b0
+      blob_id: 36896
+    - id: 718483
+      asset_id: 109392
+      name: rt16.6
       size: 2048
       blob_id: 36897
-    - id: 325888
-      asset_id: 76846
-      name: stvg61.b1
+    - id: 718484
+      asset_id: 109392
+      name: rt16.7
       size: 2048
       blob_id: 36898
-    - id: 325889
-      asset_id: 76846
-      name: stvg62.b2
+    - id: 718485
+      asset_id: 109392
+      name: rt16.8
       size: 2048
       blob_id: 36899
-    - id: 325890
-      asset_id: 76846
-      name: stvg63.b3
+    - id: 718486
+      asset_id: 109392
+      name: rt16.9
       size: 2048
       blob_id: 36900
+- release:
+    id: 93792
+    game_id: 3422
+    description: ""
+    release_date: 19810000
+  names:
+  - id: 225320
+    kind: 3
+    kind_id: 93792
+    language: 1
+    name: Route 16 (Centuri license, set 3, bootleg?)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 109393
+      kind: 3
+      kind_id: 93792
+      type: 1
+      name: route16c.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 718487
+      asset_id: 109393
+      name: im5623.f10
+      size: 256
+      blob_id: 36880
+    - id: 718488
+      asset_id: 109393
+      name: im5623.f12
+      size: 256
+      blob_id: 36880
+    - id: 718489
+      asset_id: 109393
+      name: route16.a0
+      size: 2048
+      blob_id: 270834
+    - id: 718490
+      asset_id: 109393
+      name: route16.a1
+      size: 2048
+      blob_id: 36882
+    - id: 718491
+      asset_id: 109393
+      name: route16.a2
+      size: 2048
+      blob_id: 36883
+    - id: 718492
+      asset_id: 109393
+      name: route16.a3
+      size: 2048
+      blob_id: 36884
+    - id: 718493
+      asset_id: 109393
+      name: route16.a4
+      size: 2048
+      blob_id: 36885
+    - id: 718494
+      asset_id: 109393
+      name: route16.a5
+      size: 2048
+      blob_id: 36886
+    - id: 718495
+      asset_id: 109393
+      name: route16.b0
+      size: 2048
+      blob_id: 36887
+    - id: 718496
+      asset_id: 109393
+      name: route16.b1
+      size: 2048
+      blob_id: 36888
+    - id: 718497
+      asset_id: 109393
+      name: route16.b2
+      size: 2048
+      blob_id: 36889
+    - id: 718498
+      asset_id: 109393
+      name: route16.b3
+      size: 2048
+      blob_id: 36890
+- release:
+    id: 93793
+    game_id: 3422
+    description: ""
+    release_date: 19810000
+  names:
+  - id: 225321
+    kind: 3
+    kind_id: 93793
+    language: 1
+    name: Route 16 (Sun Electronics, set 2)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 109394
+      kind: 3
+      kind_id: 93793
+      type: 1
+      name: route16d.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 718499
+      asset_id: 109394
+      name: a0.7.bin
+      size: 2048
+      blob_id: 270835
+    - id: 718500
+      asset_id: 109394
+      name: a1.bin
+      size: 2048
+      blob_id: 270836
+    - id: 718501
+      asset_id: 109394
+      name: a2.8.bin
+      size: 2048
+      blob_id: 270837
+    - id: 718502
+      asset_id: 109394
+      name: a3.bin
+      size: 2048
+      blob_id: 270838
+    - id: 718503
+      asset_id: 109394
+      name: a4.bin
+      size: 2048
+      blob_id: 270839
+    - id: 718504
+      asset_id: 109394
+      name: a5.bin
+      size: 2048
+      blob_id: 270840
+    - id: 718505
+      asset_id: 109394
+      name: b0.bin
+      size: 2048
+      blob_id: 36897
+    - id: 718506
+      asset_id: 109394
+      name: b1.bin
+      size: 2048
+      blob_id: 270841
+    - id: 718507
+      asset_id: 109394
+      name: b2.bin
+      size: 2048
+      blob_id: 36899
+    - id: 718508
+      asset_id: 109394
+      name: b3.bin
+      size: 2048
+      blob_id: 36900
+    - id: 718509
+      asset_id: 109394
+      name: mb7052.59
+      size: 256
+      blob_id: 36880
+    - id: 718510
+      asset_id: 109394
+      name: mb7052.61
+      size: 256
+      blob_id: 36880
+- release:
+    id: 93794
+    game_id: 3422
+    description: ""
+    release_date: 19810000
+  names:
+  - id: 225322
+    kind: 3
+    kind_id: 93794
+    language: 1
+    name: Route X (bootleg, set 1)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 109395
+      kind: 3
+      kind_id: 93794
+      type: 1
+      name: routex.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 718511
+      asset_id: 109395
+      name: im5623.f10
+      size: 256
+      blob_id: 36880
+    - id: 718512
+      asset_id: 109395
+      name: im5623.f12
+      size: 256
+      blob_id: 36880
+    - id: 718513
+      asset_id: 109395
+      name: routex01.a0
+      size: 2048
+      blob_id: 270842
+    - id: 718514
+      asset_id: 109395
+      name: routex05.a4
+      size: 2048
+      blob_id: 270843
+    - id: 718515
+      asset_id: 109395
+      name: routex06.a5
+      size: 2048
+      blob_id: 270826
+    - id: 718516
+      asset_id: 109395
+      name: routex07.a6
+      size: 2048
+      blob_id: 270844
+    - id: 718517
+      asset_id: 109395
+      name: routex11.b0
+      size: 2048
+      blob_id: 270845
+    - id: 718518
+      asset_id: 109395
+      name: rt16.1
+      size: 2048
+      blob_id: 36892
+    - id: 718519
+      asset_id: 109395
+      name: rt16.2
+      size: 2048
+      blob_id: 36893
+    - id: 718520
+      asset_id: 109395
+      name: rt16.3
+      size: 2048
+      blob_id: 36894
+    - id: 718521
+      asset_id: 109395
+      name: rt16.7
+      size: 2048
+      blob_id: 36898
+    - id: 718522
+      asset_id: 109395
+      name: rt16.8
+      size: 2048
+      blob_id: 36899
+    - id: 718523
+      asset_id: 109395
+      name: rt16.9
+      size: 2048
+      blob_id: 36900
+- release:
+    id: 93795
+    game_id: 3422
+    description: ""
+    release_date: 19810000
+  names:
+  - id: 225323
+    kind: 3
+    kind_id: 93795
+    language: 1
+    name: Route X (bootleg, set 2)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 109396
+      kind: 3
+      kind_id: 93795
+      type: 1
+      name: routexa.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 718524
+      asset_id: 109396
+      name: im5623.f10
+      size: 256
+      blob_id: 36880
+    - id: 718525
+      asset_id: 109396
+      name: im5623.f12
+      size: 256
+      blob_id: 36880
+    - id: 718526
+      asset_id: 109396
+      name: r1.bin
+      size: 2048
+      blob_id: 270846
+    - id: 718527
+      asset_id: 109396
+      name: r10.bin
+      size: 2048
+      blob_id: 36899
+    - id: 718528
+      asset_id: 109396
+      name: r11.bin
+      size: 2048
+      blob_id: 36900
+    - id: 718529
+      asset_id: 109396
+      name: r2.bin
+      size: 2048
+      blob_id: 36892
+    - id: 718530
+      asset_id: 109396
+      name: r3.bin
+      size: 2048
+      blob_id: 36893
+    - id: 718531
+      asset_id: 109396
+      name: r4.bin
+      size: 2048
+      blob_id: 36894
+    - id: 718532
+      asset_id: 109396
+      name: r5.bin
+      size: 2048
+      blob_id: 270843
+    - id: 718533
+      asset_id: 109396
+      name: r6.bin
+      size: 2048
+      blob_id: 270826
+    - id: 718534
+      asset_id: 109396
+      name: r7.bin
+      size: 2048
+      blob_id: 270847
+    - id: 718535
+      asset_id: 109396
+      name: r8.bin
+      size: 2048
+      blob_id: 36897
+    - id: 718536
+      asset_id: 109396
+      name: r9.bin
+      size: 2048
+      blob_id: 36898

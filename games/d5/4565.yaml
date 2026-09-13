@@ -16,6 +16,30 @@ names:
   language: 2
   name: 冠军弹珠台
   source: trimui
+- id: 194249
+  kind: 2
+  kind_id: 4565
+  language: 1
+  name: Pinball Champ '95
+  source: mame
+- id: 201397
+  kind: 2
+  kind_id: 4565
+  language: 1
+  name: Witch (with ranking)
+  source: mame
+- id: 201409
+  kind: 2
+  kind_id: 4565
+  language: 1
+  name: Witch (Sega license)
+  source: mame
+- id: 201410
+  kind: 2
+  kind_id: 4565
+  language: 1
+  name: Witch Star
+  source: mame
 game_developers:
 - game_id: 4565
   developer_id: 110
@@ -119,59 +143,275 @@ releases:
       blob_id: 86470
       debug: arcade/wheel/witch.png
     entries: []
-- release:
-    id: 75507
-    game_id: 4565
-    description: ""
-    release_date: 19920000
-  names:
-  - id: 180843
-    kind: 3
-    kind_id: 75507
-    language: 1
-    name: Witch
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 88577
+      id: 117792
       kind: 3
-      kind_id: 75507
+      kind_id: 4565
       type: 1
       name: witch.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
-      debug: dat:mame:0.289
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/40977213
     entries:
-    - id: 418834
-      asset_id: 88577
+    - id: 795658
+      asset_id: 117792
       name: 1.v10
       size: 262144
       blob_id: 49651
-    - id: 418835
-      asset_id: 88577
+    - id: 795659
+      asset_id: 117792
       name: 3.u3
       size: 131072
       blob_id: 49649
-    - id: 418836
-      asset_id: 88577
+    - id: 795660
+      asset_id: 117792
       name: 5.a1
       size: 262144
-      blob_id: 197224
-    - id: 418837
-      asset_id: 88577
+      blob_id: 313314
+    - id: 795661
+      asset_id: 117792
       name: 6.s6
       size: 32768
       blob_id: 49648
-    - id: 418838
-      asset_id: 88577
+    - id: 795662
+      asset_id: 117792
       name: tbp24s10n.10k
       size: 256
-      blob_id: 131344
-    - id: 418839
-      asset_id: 88577
+      blob_id: 227029
+    - id: 795663
+      asset_id: 117792
       name: u_5b.u5
       size: 131072
-      blob_id: 197225
+      blob_id: 313315
+- release:
+    id: 101796
+    game_id: 4565
+    description: ""
+    release_date: 19920000
+  names:
+  - id: 235854
+    kind: 3
+    kind_id: 101796
+    language: 1
+    name: Witch (with ranking)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 117793
+      kind: 3
+      kind_id: 101796
+      type: 1
+      name: witchb.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/3128294656
+    entries:
+    - id: 795664
+      asset_id: 117793
+      name: 1.v10
+      size: 262144
+      blob_id: 49651
+    - id: 795665
+      asset_id: 117793
+      name: 3.u3
+      size: 131072
+      blob_id: 49649
+    - id: 795666
+      asset_id: 117793
+      name: 5.a1
+      size: 262144
+      blob_id: 313314
+    - id: 795667
+      asset_id: 117793
+      name: 6.s6
+      size: 32768
+      blob_id: 49648
+    - id: 795668
+      asset_id: 117793
+      name: tbp24s10n.10k
+      size: 256
+      blob_id: 227029
+    - id: 795669
+      asset_id: 117793
+      name: x.u5
+      size: 131072
+      blob_id: 313316
+- release:
+    id: 101812
+    game_id: 4565
+    description: ""
+    release_date: 19920000
+  names:
+  - id: 235874
+    kind: 3
+    kind_id: 101812
+    language: 1
+    name: Witch (Sega license)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 117809
+      kind: 3
+      kind_id: 101812
+      type: 1
+      name: witchs.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 795765
+      asset_id: 117809
+      name: 1.v10
+      size: 262144
+      blob_id: 49651
+    - id: 795766
+      asset_id: 117809
+      name: 3.u3
+      size: 131072
+      blob_id: 49649
+    - id: 795767
+      asset_id: 117809
+      name: 6.s6
+      size: 32768
+      blob_id: 49648
+    - id: 795768
+      asset_id: 117809
+      name: rom.a1
+      size: 262144
+      blob_id: 49647
+    - id: 795769
+      asset_id: 117809
+      name: rom.u5
+      size: 131072
+      blob_id: 49650
+    - id: 795770
+      asset_id: 117809
+      name: tbp24s10n.10k
+      size: 256
+      blob_id: 227029
+- release:
+    id: 101813
+    game_id: 4565
+    description: ""
+    release_date: 19940000
+  names:
+  - id: 235875
+    kind: 3
+    kind_id: 101813
+    language: 1
+    name: Witch Star
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 117810
+      kind: 3
+      kind_id: 101813
+      type: 1
+      name: witchstar.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/2335240969
+    entries:
+    - id: 795771
+      asset_id: 117810
+      name: 5_excellent.a1
+      size: 262144
+      blob_id: 313360
+    - id: 795772
+      asset_id: 117810
+      name: 6_excellent.u3
+      size: 131072
+      blob_id: 49649
+    - id: 795773
+      asset_id: 117810
+      name: 7_excellent.u5
+      size: 131072
+      blob_id: 313361
+    - id: 795774
+      asset_id: 117810
+      name: 8_excellent.s6
+      size: 32768
+      blob_id: 49648
+    - id: 795775
+      asset_id: 117810
+      name: 9_excellent.v10
+      size: 262144
+      blob_id: 49651
+    - id: 795776
+      asset_id: 117810
+      name: tbp24s10n.10k
+      size: 256
+      blob_id: 227029
+- release:
+    id: 104625
+    game_id: 4565
+    description: ""
+    release_date: 19950000
+  names:
+  - id: 239601
+    kind: 3
+    kind_id: 104625
+    language: 1
+    name: Pinball Champ '95
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 106381
+      kind: 3
+      kind_id: 104625
+      type: 1
+      name: pbchmp95.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 684199
+      asset_id: 106381
+      name: 1.bin
+      size: 262144
+      blob_id: 263185
+    - id: 684200
+      asset_id: 106381
+      name: 2.bin
+      size: 131072
+      blob_id: 49649
+    - id: 684201
+      asset_id: 106381
+      name: 3.bin
+      size: 131072
+      blob_id: 263186
+    - id: 684202
+      asset_id: 106381
+      name: 4.bin
+      size: 32768
+      blob_id: 49648
+    - id: 684203
+      asset_id: 106381
+      name: 5.bin
+      size: 262144
+      blob_id: 49651
+    - id: 684204
+      asset_id: 106381
+      name: tbp24s10n.10k
+      size: 256
+      blob_id: 227029

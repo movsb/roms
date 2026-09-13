@@ -16,6 +16,12 @@ names:
   language: 2
   name: 拯救入侵者 (5/11/87) (non-cartridge)
   source: trimui
+- id: 195630
+  kind: 2
+  kind_id: 3351
+  language: 1
+  name: Rescue Raider (stand-alone)
+  source: mame
 game_developers:
 - game_id: 3351
   developer_id: 473
@@ -129,24 +135,10 @@ releases:
       blob_id: 89571
       debug: arcade/wheel/rescraid.png
     entries: []
-- release:
-    id: 63416
-    game_id: 3351
-    description: ""
-    release_date: 19870000
-  names:
-  - id: 157062
-    kind: 3
-    kind_id: 63416
-    language: 1
-    name: Rescue Raider (5/11/87) (non-cartridge)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 76486
+      id: 109094
       kind: 3
-      kind_id: 63416
+      kind_id: 3351
       type: 1
       name: rescraid.zip
       description: ""
@@ -155,38 +147,99 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 320805
-      asset_id: 76486
+    - id: 713827
+      asset_id: 109094
       name: 11b.11b.bin
       size: 44
-      blob_id: 165062
-    - id: 320806
-      asset_id: 76486
+      blob_id: 269771
+    - id: 713828
+      asset_id: 109094
       name: ab 1.a10
       size: 32768
       blob_id: 35931
-    - id: 320807
-      asset_id: 76486
+    - id: 713829
+      asset_id: 109094
       name: ab 12.a12
       size: 32768
       blob_id: 35932
-    - id: 320808
-      asset_id: 76486
+    - id: 713830
+      asset_id: 109094
       name: cd 12.a18
       size: 32768
       blob_id: 35933
-    - id: 320809
-      asset_id: 76486
+    - id: 713831
+      asset_id: 109094
       name: cd 8.a16
       size: 32768
       blob_id: 35934
-    - id: 320810
-      asset_id: 76486
+    - id: 713832
+      asset_id: 109094
       name: gr 0.a5
       size: 32768
       blob_id: 35935
-    - id: 320811
-      asset_id: 76486
+    - id: 713833
+      asset_id: 109094
       name: gr 4.a7
       size: 32768
       blob_id: 35936
+- release:
+    id: 93522
+    game_id: 3351
+    description: ""
+    release_date: 19870000
+  names:
+  - id: 224944
+    kind: 3
+    kind_id: 93522
+    language: 1
+    name: Rescue Raider (stand-alone)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 109095
+      kind: 3
+      kind_id: 93522
+      type: 1
+      name: rescraida.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 713834
+      asset_id: 109095
+      name: ab1-sa.a10
+      size: 32768
+      blob_id: 269772
+    - id: 713835
+      asset_id: 109095
+      name: ab12-sa.a12
+      size: 32768
+      blob_id: 269773
+    - id: 713836
+      asset_id: 109095
+      name: cd12-sa.a18
+      size: 32768
+      blob_id: 269774
+    - id: 713837
+      asset_id: 109095
+      name: cd8-sa.a16
+      size: 32768
+      blob_id: 269775
+    - id: 713838
+      asset_id: 109095
+      name: gr0.a5
+      size: 32768
+      blob_id: 35935
+    - id: 713839
+      asset_id: 109095
+      name: gr4.a7
+      size: 32768
+      blob_id: 35936
+    - id: 713840
+      asset_id: 109095
+      name: u01508001100b.u20f
+      size: 260
+      blob_id: 210589

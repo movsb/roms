@@ -10,6 +10,12 @@ names:
   language: 1
   name: Acorn A500 Development System
   source: mame
+- id: 187476
+  kind: 2
+  kind_id: 35929
+  language: 1
+  name: Acorn A500 Domesday Development System
+  source: mame
 game_developers: []
 game_genres: []
 assets: []
@@ -29,7 +35,109 @@ releases:
   release_publishers: []
   assets:
   - asset:
-      id: 49013
+      id: 90614
+      kind: 3
+      kind_id: 35943
+      type: 1
+      name: aa500.zip
+      description: ""
+      format: 2
+      size: 2001692
+      blob_id: 0
+      debug: /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/2421828889
+    entries:
+    - id: 467235
+      asset_id: 90614
+      name: a500_riscos200_0.ic24
+      size: 131072
+      blob_id: 201380
+    - id: 467236
+      asset_id: 90614
+      name: a500_riscos200_1.ic25
+      size: 131072
+      blob_id: 201381
+    - id: 467237
+      asset_id: 90614
+      name: a500_riscos200_2.ic26
+      size: 131072
+      blob_id: 201382
+    - id: 467238
+      asset_id: 90614
+      name: a500_riscos200_3.ic27
+      size: 131072
+      blob_id: 201383
+    - id: 467239
+      asset_id: 90614
+      name: a500_riscos206_0.ic24
+      size: 131072
+      blob_id: 201384
+    - id: 467240
+      asset_id: 90614
+      name: a500_riscos206_1.ic25
+      size: 131072
+      blob_id: 201385
+    - id: 467241
+      asset_id: 90614
+      name: a500_riscos206_2.ic26
+      size: 131072
+      blob_id: 201386
+    - id: 467242
+      asset_id: 90614
+      name: a500_riscos206_3.ic27
+      size: 131072
+      blob_id: 201387
+    - id: 467243
+      asset_id: 90614
+      name: a500_ros200_rom0.ic24
+      size: 65536
+      blob_id: 201388
+    - id: 467244
+      asset_id: 90614
+      name: a500_ros200_rom1.ic25
+      size: 65536
+      blob_id: 201389
+    - id: 467245
+      asset_id: 90614
+      name: a500_ros200_rom2.ic26
+      size: 65536
+      blob_id: 201390
+    - id: 467246
+      asset_id: 90614
+      name: a500_ros200_rom3.ic27
+      size: 65536
+      blob_id: 201391
+    - id: 467247
+      asset_id: 90614
+      name: a500_ros310_rom0.ic24
+      size: 524288
+      blob_id: 201392
+    - id: 467248
+      asset_id: 90614
+      name: a500_ros310_rom1.ic25
+      size: 524288
+      blob_id: 201393
+    - id: 467249
+      asset_id: 90614
+      name: a500_ros310_rom2.ic26
+      size: 524288
+      blob_id: 201394
+    - id: 467250
+      asset_id: 90614
+      name: a500_ros310_rom3.ic27
+      size: 524288
+      blob_id: 201395
+    - id: 467251
+      asset_id: 90614
+      name: cmos_riscos2.bin
+      size: 256
+      blob_id: 201377
+    - id: 467252
+      asset_id: 90614
+      name: cmos_riscos3.bin
+      size: 256
+      blob_id: 201343
+  - asset:
+      id: 93188
       kind: 3
       kind_id: 35943
       type: 1
@@ -40,103 +148,144 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 94280
-      asset_id: 49013
+    - id: 534250
+      asset_id: 93188
       name: a500_riscos200_0.ic24
       size: 131072
-      blob_id: 92634
-    - id: 94281
-      asset_id: 49013
+      blob_id: 201380
+    - id: 534251
+      asset_id: 93188
       name: a500_riscos200_1.ic25
       size: 131072
-      blob_id: 92635
-    - id: 94282
-      asset_id: 49013
+      blob_id: 201381
+    - id: 534252
+      asset_id: 93188
       name: a500_riscos200_2.ic26
       size: 131072
-      blob_id: 92636
-    - id: 94283
-      asset_id: 49013
+      blob_id: 201382
+    - id: 534253
+      asset_id: 93188
       name: a500_riscos200_3.ic27
       size: 131072
-      blob_id: 92637
-    - id: 94284
-      asset_id: 49013
+      blob_id: 201383
+    - id: 534254
+      asset_id: 93188
       name: a500_riscos206_0.ic24
       size: 131072
-      blob_id: 92638
-    - id: 94285
-      asset_id: 49013
+      blob_id: 201384
+    - id: 534255
+      asset_id: 93188
       name: a500_riscos206_1.ic25
       size: 131072
-      blob_id: 92639
-    - id: 94286
-      asset_id: 49013
+      blob_id: 201385
+    - id: 534256
+      asset_id: 93188
       name: a500_riscos206_2.ic26
       size: 131072
-      blob_id: 92640
-    - id: 94287
-      asset_id: 49013
+      blob_id: 201386
+    - id: 534257
+      asset_id: 93188
       name: a500_riscos206_3.ic27
       size: 131072
-      blob_id: 92641
-    - id: 94288
-      asset_id: 49013
+      blob_id: 201387
+    - id: 534258
+      asset_id: 93188
       name: a500_ros200_rom0.ic24
       size: 65536
-      blob_id: 92642
-    - id: 94289
-      asset_id: 49013
+      blob_id: 201388
+    - id: 534259
+      asset_id: 93188
       name: a500_ros200_rom1.ic25
       size: 65536
-      blob_id: 92643
-    - id: 94290
-      asset_id: 49013
+      blob_id: 201389
+    - id: 534260
+      asset_id: 93188
       name: a500_ros200_rom2.ic26
       size: 65536
-      blob_id: 92644
-    - id: 94291
-      asset_id: 49013
+      blob_id: 201390
+    - id: 534261
+      asset_id: 93188
       name: a500_ros200_rom3.ic27
       size: 65536
-      blob_id: 92645
-    - id: 94292
-      asset_id: 49013
+      blob_id: 201391
+    - id: 534262
+      asset_id: 93188
       name: a500_ros310_rom0.ic24
       size: 524288
-      blob_id: 92646
-    - id: 94293
-      asset_id: 49013
+      blob_id: 201392
+    - id: 534263
+      asset_id: 93188
       name: a500_ros310_rom1.ic25
       size: 524288
-      blob_id: 92647
-    - id: 94294
-      asset_id: 49013
+      blob_id: 201393
+    - id: 534264
+      asset_id: 93188
       name: a500_ros310_rom2.ic26
       size: 524288
-      blob_id: 92648
-    - id: 94295
-      asset_id: 49013
+      blob_id: 201394
+    - id: 534265
+      asset_id: 93188
       name: a500_ros310_rom3.ic27
       size: 524288
-      blob_id: 92649
-    - id: 94296
-      asset_id: 49013
+      blob_id: 201395
+    - id: 534266
+      asset_id: 93188
       name: cmos_riscos2.bin
       size: 256
-      blob_id: 92610
-    - id: 94297
-      asset_id: 49013
-      name: cmos_riscos2.bin
-      size: 256
-      blob_id: 92610
-    - id: 94298
-      asset_id: 49013
-      name: cmos_riscos2.bin
-      size: 256
-      blob_id: 92610
-    - id: 94299
-      asset_id: 49013
+      blob_id: 201377
+    - id: 534269
+      asset_id: 93188
       name: cmos_riscos3.bin
       size: 256
-      blob_id: 92611
+      blob_id: 201343
+- release:
+    id: 78655
+    game_id: 35929
+    description: ""
+    release_date: 19860000
+  names:
+  - id: 202294
+    kind: 3
+    kind_id: 78655
+    language: 1
+    name: Acorn A500 Domesday Development System
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 93191
+      kind: 3
+      kind_id: 78655
+      type: 1
+      name: aa500d.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 534296
+      asset_id: 93191
+      name: a500_arthur_12_0.ic24
+      size: 65536
+      blob_id: 201396
+    - id: 534297
+      asset_id: 93191
+      name: a500_arthur_12_1.ic25
+      size: 65536
+      blob_id: 201397
+    - id: 534298
+      asset_id: 93191
+      name: a500_arthur_12_2.ic26
+      size: 65536
+      blob_id: 201398
+    - id: 534299
+      asset_id: 93191
+      name: a500_arthur_12_3.ic27
+      size: 65536
+      blob_id: 201399
+    - id: 534300
+      asset_id: 93191
+      name: cmos_arthur.bin
+      size: 256
+      blob_id: 201376

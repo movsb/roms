@@ -16,6 +16,30 @@ names:
   language: 2
   name: 疯狂方块 (保护版, 版本 1.0, 校验码 DEEE)
   source: trimui
+- id: 192948
+  kind: 2
+  kind_id: 2615
+  language: 1
+  name: Maniac Square (protected, version 1.0, checksum DEEE)
+  source: mame
+- id: 192949
+  kind: 2
+  kind_id: 2615
+  language: 1
+  name: Maniac Square (protected, version 1.0, checksum CF2D)
+  source: mame
+- id: 192950
+  kind: 2
+  kind_id: 2615
+  language: 1
+  name: Maniac Square (unprotected, version 1.0, checksum BEAE)
+  source: mame
+- id: 192951
+  kind: 2
+  kind_id: 2615
+  language: 1
+  name: Maniac Square (unprotected, version 1.0, checksum 66B1, 960419/1 PCB)
+  source: mame
 game_developers:
 - game_id: 2615
   developer_id: 559
@@ -124,24 +148,10 @@ releases:
       blob_id: 91481
       debug: arcade/wheel/maniacsq.png
     entries: []
-- release:
-    id: 57675
-    game_id: 2615
-    description: ""
-    release_date: 19960000
-  names:
-  - id: 145833
-    kind: 3
-    kind_id: 57675
-    language: 1
-    name: Maniac Square (unprotected, version 1.0, checksum BB73)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 70745
+      id: 103719
       kind: 3
-      kind_id: 57675
+      kind_id: 2615
       type: 1
       name: maniacsq.zip
       description: ""
@@ -150,69 +160,55 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 259977
-      asset_id: 70745
+    - id: 655795
+      asset_id: 103719
       name: d0-d7.1m
       size: 131072
       blob_id: 27743
-    - id: 259978
-      asset_id: 70745
+    - id: 655796
+      asset_id: 103719
       name: d0-d7.4m
       size: 524288
       blob_id: 27744
-    - id: 259979
-      asset_id: 70745
+    - id: 655797
+      asset_id: 103719
       name: d16-d23.1m
       size: 131072
       blob_id: 27745
-    - id: 259980
-      asset_id: 70745
+    - id: 655798
+      asset_id: 103719
       name: d24-d31.1m
       size: 131072
       blob_id: 27746
-    - id: 259981
-      asset_id: 70745
+    - id: 655799
+      asset_id: 103719
       name: d8-d15.1m
       size: 131072
       blob_id: 27747
-    - id: 259982
-      asset_id: 70745
+    - id: 655800
+      asset_id: 103719
       name: d8-d15.4m
       size: 524288
       blob_id: 27748
-    - id: 259983
-      asset_id: 70745
+    - id: 655801
+      asset_id: 103719
       name: mu.6_4769_pal16l8.bin
       size: 260
-      blob_id: 94235
-    - id: 259984
-      asset_id: 70745
+      blob_id: 202358
+    - id: 655802
+      asset_id: 103719
       name: mu.6_585b_palce16v8.bin
       size: 279
-      blob_id: 94236
-    - id: 259985
-      asset_id: 70745
+      blob_id: 202359
+    - id: 655803
+      asset_id: 103719
       name: mu.c5_3a65_pal16r8.bin
       size: 260
       blob_id: 45516
-- release:
-    id: 76782
-    game_id: 2615
-    description: ""
-    release_date: 19960000
-  names:
-  - id: 182957
-    kind: 3
-    kind_id: 76782
-    language: 1
-    name: Maniac Square (protected, Version 1.0, Checksum DEEE)
-    source: fbneo
-  release_publishers: []
-  assets:
   - asset:
-      id: 89852
+      id: 119048
       kind: 3
-      kind_id: 76782
+      kind_id: 2615
       type: 1
       name: maniacsq.zip
       description: ""
@@ -221,38 +217,477 @@ releases:
       blob_id: 0
       debug: dat:fbneo:5fa9b68a
     entries:
-    - id: 441957
-      asset_id: 89852
+    - id: 819092
+      asset_id: 119048
       name: maniacsq_ds5002fp_sram.bin
       size: 32768
-      blob_id: 146999
-    - id: 441958
-      asset_id: 89852
+      blob_id: 256716
+    - id: 819093
+      asset_id: 119048
       name: ms1
       size: 524288
       blob_id: 27744
-    - id: 441959
-      asset_id: 89852
+    - id: 819094
+      asset_id: 119048
       name: ms2
       size: 524288
       blob_id: 27748
-    - id: 441960
-      asset_id: 89852
+    - id: 819095
+      asset_id: 119048
       name: ms3
       size: 131072
       blob_id: 27745
-    - id: 441961
-      asset_id: 89852
+    - id: 819096
+      asset_id: 119048
       name: ms4
       size: 131072
       blob_id: 27746
-    - id: 441962
-      asset_id: 89852
+    - id: 819097
+      asset_id: 119048
       name: tms27c010a.msu44
       size: 131072
-      blob_id: 147000
-    - id: 441963
-      asset_id: 89852
+      blob_id: 256717
+    - id: 819098
+      asset_id: 119048
       name: tms27c010a.msu45
       size: 131072
-      blob_id: 147001
+      blob_id: 256718
+- release:
+    id: 88413
+    game_id: 2615
+    description: ""
+    release_date: 19960000
+  names:
+  - id: 217240
+    kind: 3
+    kind_id: 88413
+    language: 1
+    name: Maniac Square (protected, version 1.0, checksum DEEE)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 103720
+      kind: 3
+      kind_id: 88413
+      type: 1
+      name: maniacsqa.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 655804
+      asset_id: 103720
+      name: maniacsq_ds5002fp_sram.bin
+      size: 32768
+      blob_id: 256716
+    - id: 655805
+      asset_id: 103720
+      name: ms1
+      size: 524288
+      blob_id: 27744
+    - id: 655806
+      asset_id: 103720
+      name: ms2
+      size: 524288
+      blob_id: 27748
+    - id: 655807
+      asset_id: 103720
+      name: ms3
+      size: 131072
+      blob_id: 27745
+    - id: 655808
+      asset_id: 103720
+      name: ms4
+      size: 131072
+      blob_id: 27746
+    - id: 655809
+      asset_id: 103720
+      name: mu.6_4769_pal16l8.bin
+      size: 260
+      blob_id: 202358
+    - id: 655810
+      asset_id: 103720
+      name: mu.6_585b_palce16v8.bin
+      size: 279
+      blob_id: 202359
+    - id: 655811
+      asset_id: 103720
+      name: mu.c5_3a65_pal16r8.bin
+      size: 260
+      blob_id: 45516
+    - id: 655812
+      asset_id: 103720
+      name: tms27c010a.msu44
+      size: 131072
+      blob_id: 256717
+    - id: 655813
+      asset_id: 103720
+      name: tms27c010a.msu45
+      size: 131072
+      blob_id: 256718
+  - asset:
+      id: 119047
+      kind: 3
+      kind_id: 88413
+      type: 1
+      name: maniacsqa.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 819085
+      asset_id: 119047
+      name: maniacsq_ds5002fp_sram.bin
+      size: 32768
+      blob_id: 256716
+    - id: 819086
+      asset_id: 119047
+      name: ms1
+      size: 524288
+      blob_id: 27744
+    - id: 819087
+      asset_id: 119047
+      name: ms2
+      size: 524288
+      blob_id: 27748
+    - id: 819088
+      asset_id: 119047
+      name: ms3
+      size: 131072
+      blob_id: 27745
+    - id: 819089
+      asset_id: 119047
+      name: ms4
+      size: 131072
+      blob_id: 27746
+    - id: 819090
+      asset_id: 119047
+      name: ms_u_44.u44
+      size: 131072
+      blob_id: 256719
+    - id: 819091
+      asset_id: 119047
+      name: ms_u_45.u45
+      size: 131072
+      blob_id: 256720
+- release:
+    id: 88414
+    game_id: 2615
+    description: ""
+    release_date: 19960000
+  names:
+  - id: 217241
+    kind: 3
+    kind_id: 88414
+    language: 1
+    name: Maniac Square (protected, version 1.0, checksum CF2D)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 103721
+      kind: 3
+      kind_id: 88414
+      type: 1
+      name: maniacsqb.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 655814
+      asset_id: 103721
+      name: maniacsq_ds5002fp_sram.bin
+      size: 32768
+      blob_id: 256716
+    - id: 655815
+      asset_id: 103721
+      name: ms1
+      size: 524288
+      blob_id: 27744
+    - id: 655816
+      asset_id: 103721
+      name: ms2
+      size: 524288
+      blob_id: 27748
+    - id: 655817
+      asset_id: 103721
+      name: ms3
+      size: 131072
+      blob_id: 27745
+    - id: 655818
+      asset_id: 103721
+      name: ms4
+      size: 131072
+      blob_id: 27746
+    - id: 655819
+      asset_id: 103721
+      name: ms_u_44.u44
+      size: 131072
+      blob_id: 256719
+    - id: 655820
+      asset_id: 103721
+      name: ms_u_45.u45
+      size: 131072
+      blob_id: 256720
+    - id: 655821
+      asset_id: 103721
+      name: mu.6_4769_pal16l8.bin
+      size: 260
+      blob_id: 202358
+    - id: 655822
+      asset_id: 103721
+      name: mu.6_585b_palce16v8.bin
+      size: 279
+      blob_id: 202359
+    - id: 655823
+      asset_id: 103721
+      name: mu.c5_3a65_pal16r8.bin
+      size: 260
+      blob_id: 45516
+- release:
+    id: 88415
+    game_id: 2615
+    description: ""
+    release_date: 19960000
+  names:
+  - id: 217242
+    kind: 3
+    kind_id: 88415
+    language: 1
+    name: Maniac Square (unprotected, version 1.0, checksum BEAE)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 103722
+      kind: 3
+      kind_id: 88415
+      type: 1
+      name: maniacsqc.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 655824
+      asset_id: 103722
+      name: ms1
+      size: 524288
+      blob_id: 27744
+    - id: 655825
+      asset_id: 103722
+      name: ms2
+      size: 524288
+      blob_id: 27748
+    - id: 655826
+      asset_id: 103722
+      name: ms3
+      size: 131072
+      blob_id: 27745
+    - id: 655827
+      asset_id: 103722
+      name: ms4
+      size: 131072
+      blob_id: 27746
+    - id: 655828
+      asset_id: 103722
+      name: ms_44_no_dallas_23-5_27c010.bin
+      size: 131072
+      blob_id: 256721
+    - id: 655829
+      asset_id: 103722
+      name: ms_45_no_dallas_23-5_27c010.bin
+      size: 131072
+      blob_id: 256722
+    - id: 655830
+      asset_id: 103722
+      name: mu.6_4769_pal16l8.bin
+      size: 260
+      blob_id: 202358
+    - id: 655831
+      asset_id: 103722
+      name: mu.6_585b_palce16v8.bin
+      size: 279
+      blob_id: 202359
+    - id: 655832
+      asset_id: 103722
+      name: mu.c5_3a65_pal16r8.bin
+      size: 260
+      blob_id: 45516
+- release:
+    id: 88416
+    game_id: 2615
+    description: ""
+    release_date: 19960000
+  names:
+  - id: 217243
+    kind: 3
+    kind_id: 88416
+    language: 1
+    name: Maniac Square (unprotected, version 1.0, checksum 66B1, 960419/1 PCB)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 103723
+      kind: 3
+      kind_id: 88416
+      type: 1
+      name: maniacsqs.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 655833
+      asset_id: 103723
+      name: f0.bin
+      size: 524288
+      blob_id: 27744
+    - id: 655834
+      asset_id: 103723
+      name: f1.bin
+      size: 524288
+      blob_id: 27748
+    - id: 655835
+      asset_id: 103723
+      name: f2.bin
+      size: 131072
+      blob_id: 27745
+    - id: 655836
+      asset_id: 103723
+      name: f3.bin
+      size: 131072
+      blob_id: 27746
+    - id: 655837
+      asset_id: 103723
+      name: ms1.ic53
+      size: 131072
+      blob_id: 256723
+    - id: 655838
+      asset_id: 103723
+      name: ms2.ic55
+      size: 131072
+      blob_id: 256724
+    - id: 655839
+      asset_id: 103723
+      name: mu.6_4769_pal16l8.bin
+      size: 260
+      blob_id: 202358
+    - id: 655840
+      asset_id: 103723
+      name: mu.6_585b_palce16v8.bin
+      size: 279
+      blob_id: 202359
+    - id: 655841
+      asset_id: 103723
+      name: mu.c5_3a65_pal16r8.bin
+      size: 260
+      blob_id: 45516
+  - asset:
+      id: 120654
+      kind: 3
+      kind_id: 88416
+      type: 1
+      name: maniacsqs.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.259
+    entries:
+    - id: 870585
+      asset_id: 120654
+      name: f0.bin
+      size: 524288
+      blob_id: 27744
+    - id: 870586
+      asset_id: 120654
+      name: f1.bin
+      size: 524288
+      blob_id: 27748
+    - id: 870587
+      asset_id: 120654
+      name: f2.bin
+      size: 131072
+      blob_id: 27745
+    - id: 870588
+      asset_id: 120654
+      name: f3.bin
+      size: 131072
+      blob_id: 27746
+    - id: 870589
+      asset_id: 120654
+      name: ms1.ic53
+      size: 131072
+      blob_id: 256723
+    - id: 870590
+      asset_id: 120654
+      name: ms2.ic55
+      size: 131072
+      blob_id: 256724
+- release:
+    id: 102563
+    game_id: 2615
+    description: ""
+    release_date: 19960000
+  names:
+  - id: 236993
+    kind: 3
+    kind_id: 102563
+    language: 1
+    name: Maniac Square (unprotected, Version 1.0, Checksum BB73)
+    source: fbneo
+  release_publishers: []
+  assets:
+  - asset:
+      id: 119049
+      kind: 3
+      kind_id: 102563
+      type: 1
+      name: maniacsqu.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 819099
+      asset_id: 119049
+      name: d0-d7.1m
+      size: 131072
+      blob_id: 27743
+    - id: 819100
+      asset_id: 119049
+      name: d0-d7.4m
+      size: 524288
+      blob_id: 27744
+    - id: 819101
+      asset_id: 119049
+      name: d16-d23.1m
+      size: 131072
+      blob_id: 27745
+    - id: 819102
+      asset_id: 119049
+      name: d24-d31.1m
+      size: 131072
+      blob_id: 27746
+    - id: 819103
+      asset_id: 119049
+      name: d8-d15.1m
+      size: 131072
+      blob_id: 27747
+    - id: 819104
+      asset_id: 119049
+      name: d8-d15.4m
+      size: 524288
+      blob_id: 27748

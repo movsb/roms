@@ -16,6 +16,18 @@ names:
   language: 2
   name: 数字方块
   source: trimui
+- id: 191998
+  kind: 2
+  kind_id: 2091
+  language: 1
+  name: Shuzi Leyuan (China, V127M, gambling)
+  source: mame
+- id: 191999
+  kind: 2
+  kind_id: 2091
+  language: 1
+  name: IQ Block (V113FR, gambling)
+  source: mame
 game_developers:
 - game_id: 2091
   developer_id: 524
@@ -129,3 +141,105 @@ releases:
       blob_id: 85904
       debug: arcade/wheel/iqblock.png
     entries: []
+- release:
+    id: 86528
+    game_id: 2091
+    description: ""
+    release_date: 19960000
+  names:
+  - id: 214296
+    kind: 3
+    kind_id: 86528
+    language: 1
+    name: Shuzi Leyuan (China, V127M, gambling)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 101696
+      kind: 3
+      kind_id: 86528
+      type: 1
+      name: iqblocka.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 635458
+      asset_id: 101696
+      name: cg.u7
+      size: 524288
+      blob_id: 223668
+    - id: 635459
+      asset_id: 101696
+      name: igs_fixed_data.key
+      size: 21
+      blob_id: 219124
+    - id: 635460
+      asset_id: 101696
+      name: speech.u17
+      size: 262144
+      blob_id: 219125
+    - id: 635461
+      asset_id: 101696
+      name: text.u8
+      size: 524288
+      blob_id: 219126
+    - id: 635462
+      asset_id: 101696
+      name: v.u18
+      size: 262144
+      blob_id: 223669
+- release:
+    id: 86529
+    game_id: 2091
+    description: ""
+    release_date: 19970000
+  names:
+  - id: 214297
+    kind: 3
+    kind_id: 86529
+    language: 1
+    name: IQ Block (V113FR, gambling)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 101697
+      kind: 3
+      kind_id: 86529
+      type: 1
+      name: iqblockf.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 635463
+      asset_id: 101697
+      name: cg.u7
+      size: 524288
+      blob_id: 223668
+    - id: 635464
+      asset_id: 101697
+      name: igs_fixed_data.key
+      size: 21
+      blob_id: 219124
+    - id: 635465
+      asset_id: 101697
+      name: sp.u17
+      size: 262144
+      blob_id: 223670
+    - id: 635466
+      asset_id: 101697
+      name: text.u8
+      size: 524288
+      blob_id: 219126
+    - id: 635467
+      asset_id: 101697
+      name: v113fr.u18
+      size: 262144
+      blob_id: 223671

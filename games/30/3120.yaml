@@ -16,6 +16,24 @@ names:
   language: 2
   name: 美女花式台球 豪华版 (欧版 v3.00)
   source: trimui
+- id: 194945
+  kind: 2
+  kind_id: 3120
+  language: 1
+  name: Pocket Gal Deluxe (Asia v3.00)
+  source: mame
+- id: 194946
+  kind: 2
+  kind_id: 3120
+  language: 1
+  name: Pocket Gal Deluxe (Europe v3.00, bootleg)
+  source: mame
+- id: 194947
+  kind: 2
+  kind_id: 3120
+  language: 1
+  name: Pocket Gal Deluxe (Japan v3.00)
+  source: mame
 game_developers: []
 game_genres: []
 assets: []
@@ -142,24 +160,10 @@ releases:
       name: pktgaldxj/kg00-2.12a
       size: 524288
       blob_id: 33294
-- release:
-    id: 61807
-    game_id: 3120
-    description: ""
-    release_date: 19920000
-  names:
-  - id: 153922
-    kind: 3
-    kind_id: 61807
-    language: 1
-    name: Pocket Gal Deluxe (Europe v3.00)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 74877
+      id: 107716
       kind: 3
-      kind_id: 61807
+      kind_id: 3120
       type: 1
       name: pktgaldx.zip
       description: ""
@@ -168,33 +172,226 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 303487
-      asset_id: 74877
+    - id: 697833
+      asset_id: 107716
       name: ke00-2.12a
       size: 524288
       blob_id: 33277
-    - id: 303488
-      asset_id: 74877
+    - id: 697834
+      asset_id: 107716
       name: ke01.14f
       size: 131072
       blob_id: 33278
-    - id: 303489
-      asset_id: 74877
+    - id: 697835
+      asset_id: 107716
       name: maz-00.1b
       size: 524288
       blob_id: 33279
-    - id: 303490
-      asset_id: 74877
+    - id: 697836
+      asset_id: 107716
       name: maz-01.3b
       size: 524288
       blob_id: 33280
-    - id: 303491
-      asset_id: 74877
+    - id: 697837
+      asset_id: 107716
       name: maz-02.2h
       size: 1048576
       blob_id: 33281
-    - id: 303492
-      asset_id: 74877
+    - id: 697838
+      asset_id: 107716
+      name: maz-03.13f
+      size: 1048576
+      blob_id: 33282
+- release:
+    id: 92229
+    game_id: 3120
+    description: ""
+    release_date: 19920000
+  names:
+  - id: 223017
+    kind: 3
+    kind_id: 92229
+    language: 1
+    name: Pocket Gal Deluxe (Asia v3.00)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 107717
+      kind: 3
+      kind_id: 92229
+      type: 1
+      name: pktgaldxa.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 697839
+      asset_id: 107717
+      name: ke01.14f
+      size: 131072
+      blob_id: 33278
+    - id: 697840
+      asset_id: 107717
+      name: maz-00.1b
+      size: 524288
+      blob_id: 33279
+    - id: 697841
+      asset_id: 107717
+      name: maz-01.3b
+      size: 524288
+      blob_id: 33280
+    - id: 697842
+      asset_id: 107717
+      name: maz-02.2h
+      size: 1048576
+      blob_id: 33281
+    - id: 697843
+      asset_id: 107717
+      name: maz-03.13f
+      size: 1048576
+      blob_id: 33282
+    - id: 697844
+      asset_id: 107717
+      name: rom.12a
+      size: 524288
+      blob_id: 33283
+- release:
+    id: 92230
+    game_id: 3120
+    description: ""
+    release_date: 19930000
+  names:
+  - id: 223018
+    kind: 3
+    kind_id: 92230
+    language: 1
+    name: Pocket Gal Deluxe (Europe v3.00, bootleg)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 107718
+      kind: 3
+      kind_id: 92230
+      type: 1
+      name: pktgaldxb.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 697845
+      asset_id: 107718
+      name: 1.bin
+      size: 131072
+      blob_id: 33278
+    - id: 697846
+      asset_id: 107718
+      name: 10.bin
+      size: 524288
+      blob_id: 33284
+    - id: 697847
+      asset_id: 107718
+      name: 11.bin
+      size: 524288
+      blob_id: 33285
+    - id: 697848
+      asset_id: 107718
+      name: 2.bin
+      size: 524288
+      blob_id: 33286
+    - id: 697849
+      asset_id: 107718
+      name: 3.bin
+      size: 524288
+      blob_id: 33287
+    - id: 697850
+      asset_id: 107718
+      name: 4.bin
+      size: 524288
+      blob_id: 33288
+    - id: 697851
+      asset_id: 107718
+      name: 5.bin
+      size: 524288
+      blob_id: 33289
+    - id: 697852
+      asset_id: 107718
+      name: 6.bin
+      size: 524288
+      blob_id: 33290
+    - id: 697853
+      asset_id: 107718
+      name: 7.bin
+      size: 524288
+      blob_id: 33291
+    - id: 697854
+      asset_id: 107718
+      name: 8.bin
+      size: 524288
+      blob_id: 33292
+    - id: 697855
+      asset_id: 107718
+      name: 9.bin
+      size: 524288
+      blob_id: 33293
+- release:
+    id: 92231
+    game_id: 3120
+    description: ""
+    release_date: 19930000
+  names:
+  - id: 223019
+    kind: 3
+    kind_id: 92231
+    language: 1
+    name: Pocket Gal Deluxe (Japan v3.00)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 107719
+      kind: 3
+      kind_id: 92231
+      type: 1
+      name: pktgaldxj.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 697856
+      asset_id: 107719
+      name: ke01.14f
+      size: 131072
+      blob_id: 33278
+    - id: 697857
+      asset_id: 107719
+      name: kg00-2.12a
+      size: 524288
+      blob_id: 33294
+    - id: 697858
+      asset_id: 107719
+      name: maz-00.1b
+      size: 524288
+      blob_id: 33279
+    - id: 697859
+      asset_id: 107719
+      name: maz-01.3b
+      size: 524288
+      blob_id: 33280
+    - id: 697860
+      asset_id: 107719
+      name: maz-02.2h
+      size: 1048576
+      blob_id: 33281
+    - id: 697861
+      asset_id: 107719
       name: maz-03.13f
       size: 1048576
       blob_id: 33282

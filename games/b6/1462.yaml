@@ -16,6 +16,36 @@ names:
   language: 2
   name: 绿茵足球
   source: trimui
+- id: 189978
+  kind: 2
+  kind_id: 1462
+  language: 1
+  name: Dribbling (set 2)
+  source: mame
+- id: 189979
+  kind: 2
+  kind_id: 1462
+  language: 1
+  name: Dribbling (Automave)
+  source: mame
+- id: 189980
+  kind: 2
+  kind_id: 1462
+  language: 1
+  name: Dribbling (Olympia)
+  source: mame
+- id: 189981
+  kind: 2
+  kind_id: 1462
+  language: 1
+  name: Dribbling (Videomac bootleg, Brazil)
+  source: mame
+- id: 241737
+  kind: 2
+  kind_id: 1462
+  language: 1
+  name: Dribbling (bootleg, Brazil)
+  source: fbneo
 game_developers:
 - game_id: 1462
   developer_id: 658
@@ -144,24 +174,10 @@ releases:
       blob_id: 88572
       debug: arcade/wheel/dribling.png
     entries: []
-- release:
-    id: 41267
-    game_id: 1462
-    description: ""
-    release_date: 19830000
-  names:
-  - id: 113403
-    kind: 3
-    kind_id: 41267
-    language: 1
-    name: Dribbling (set 1)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 54337
+      id: 97940
       kind: 3
-      kind_id: 41267
+      kind_id: 1462
       type: 1
       name: dribling.zip
       description: ""
@@ -170,53 +186,433 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 155038
-      asset_id: 54337
+    - id: 591718
+      asset_id: 97940
       name: 3n.bin
       size: 4096
       blob_id: 15867
-    - id: 155039
-      asset_id: 54337
+    - id: 591719
+      asset_id: 97940
       name: 3p.bin
       size: 4096
       blob_id: 15868
-    - id: 155040
-      asset_id: 54337
+    - id: 591720
+      asset_id: 97940
       name: 5h.bin
       size: 4096
       blob_id: 15869
-    - id: 155041
-      asset_id: 54337
+    - id: 591721
+      asset_id: 97940
       name: 5k.bin
       size: 4096
       blob_id: 15870
-    - id: 155042
-      asset_id: 54337
+    - id: 591722
+      asset_id: 97940
       name: 5l.bin
       size: 4096
       blob_id: 15871
-    - id: 155043
-      asset_id: 54337
+    - id: 591723
+      asset_id: 97940
       name: 5n.bin
       size: 4096
       blob_id: 15872
-    - id: 155044
-      asset_id: 54337
+    - id: 591724
+      asset_id: 97940
       name: 5p.bin
       size: 4096
       blob_id: 15873
-    - id: 155045
-      asset_id: 54337
+    - id: 591725
+      asset_id: 97940
       name: 63s140-d8.3e
       size: 256
-      blob_id: 110272
-    - id: 155046
-      asset_id: 54337
+      blob_id: 213186
+    - id: 591726
+      asset_id: 97940
       name: 93453-d9.3c
       size: 1024
-      blob_id: 110273
-    - id: 155047
-      asset_id: 54337
+      blob_id: 213187
+    - id: 591727
+      asset_id: 97940
       name: tbp24s10.2d
       size: 256
-      blob_id: 110274
+      blob_id: 213188
+- release:
+    id: 83051
+    game_id: 1462
+    description: ""
+    release_date: 19830000
+  names:
+  - id: 208975
+    kind: 3
+    kind_id: 83051
+    language: 1
+    name: Dribbling (set 2)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 97941
+      kind: 3
+      kind_id: 83051
+      type: 1
+      name: driblinga.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 591728
+      asset_id: 97941
+      name: 3n.bin
+      size: 4096
+      blob_id: 15867
+    - id: 591729
+      asset_id: 97941
+      name: 3p.bin
+      size: 4096
+      blob_id: 15868
+    - id: 591730
+      asset_id: 97941
+      name: 63s140n-d8.3e
+      size: 256
+      blob_id: 213186
+    - id: 591731
+      asset_id: 97941
+      name: 93453pc-d9.3c
+      size: 1024
+      blob_id: 213187
+    - id: 591732
+      asset_id: 97941
+      name: dribling-type01-mem.n.1.5p
+      size: 4096
+      blob_id: 15873
+    - id: 591733
+      asset_id: 97941
+      name: dribling-type01-mem.n.2.5n
+      size: 4096
+      blob_id: 244077
+    - id: 591734
+      asset_id: 97941
+      name: dribling-type01-mem.n.3.5l
+      size: 4096
+      blob_id: 15871
+    - id: 591735
+      asset_id: 97941
+      name: dribling-type01-mem.n.4.5k
+      size: 4096
+      blob_id: 15870
+    - id: 591736
+      asset_id: 97941
+      name: dribling-type01-mem.n.5.5h
+      size: 4096
+      blob_id: 15869
+    - id: 591737
+      asset_id: 97941
+      name: tbp24s10n.2d
+      size: 256
+      blob_id: 213188
+- release:
+    id: 83052
+    game_id: 1462
+    description: ""
+    release_date: 19830000
+  names:
+  - id: 208976
+    kind: 3
+    kind_id: 83052
+    language: 1
+    name: Dribbling (Automave)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 97942
+      kind: 3
+      kind_id: 83052
+      type: 1
+      name: driblingam.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 591738
+      asset_id: 97942
+      name: 2532.3n
+      size: 4096
+      blob_id: 15867
+    - id: 591739
+      asset_id: 97942
+      name: 2532.3p
+      size: 4096
+      blob_id: 15868
+    - id: 591740
+      asset_id: 97942
+      name: 2532.5h
+      size: 4096
+      blob_id: 244078
+    - id: 591741
+      asset_id: 97942
+      name: 2532.5k
+      size: 4096
+      blob_id: 15870
+    - id: 591742
+      asset_id: 97942
+      name: 2532.5l
+      size: 4096
+      blob_id: 15871
+    - id: 591743
+      asset_id: 97942
+      name: 2532.5n
+      size: 4096
+      blob_id: 15872
+    - id: 591744
+      asset_id: 97942
+      name: 2532.5p
+      size: 4096
+      blob_id: 244079
+    - id: 591745
+      asset_id: 97942
+      name: 74s476.3c
+      size: 1024
+      blob_id: 213187
+    - id: 591746
+      asset_id: 97942
+      name: 93427.2d
+      size: 256
+      blob_id: 213188
+    - id: 591747
+      asset_id: 97942
+      name: 93427.3e
+      size: 256
+      blob_id: 213186
+- release:
+    id: 83053
+    game_id: 1462
+    description: ""
+    release_date: 19830000
+  names:
+  - id: 208977
+    kind: 3
+    kind_id: 83053
+    language: 1
+    name: Dribbling (Olympia)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 97943
+      kind: 3
+      kind_id: 83053
+      type: 1
+      name: driblingo.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 591748
+      asset_id: 97943
+      name: 3n.bin
+      size: 4096
+      blob_id: 15867
+    - id: 591749
+      asset_id: 97943
+      name: 3p.bin
+      size: 4096
+      blob_id: 15868
+    - id: 591750
+      asset_id: 97943
+      name: 5l.bin
+      size: 4096
+      blob_id: 15871
+    - id: 591751
+      asset_id: 97943
+      name: 5p.bin
+      size: 4096
+      blob_id: 15873
+    - id: 591752
+      asset_id: 97943
+      name: 63s140-d8.3e
+      size: 256
+      blob_id: 213186
+    - id: 591753
+      asset_id: 97943
+      name: 93453-d9.3c
+      size: 1024
+      blob_id: 213187
+    - id: 591754
+      asset_id: 97943
+      name: dribblng.5h
+      size: 4096
+      blob_id: 244080
+    - id: 591755
+      asset_id: 97943
+      name: dribblng.5j
+      size: 4096
+      blob_id: 244081
+    - id: 591756
+      asset_id: 97943
+      name: dribblng.5n
+      size: 4096
+      blob_id: 244082
+    - id: 591757
+      asset_id: 97943
+      name: tbp24s10.2d
+      size: 256
+      blob_id: 213188
+- release:
+    id: 83054
+    game_id: 1462
+    description: ""
+    release_date: 19830000
+  names:
+  - id: 208978
+    kind: 3
+    kind_id: 83054
+    language: 1
+    name: Dribbling (Videomac bootleg, Brazil)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 97944
+      kind: 3
+      kind_id: 83054
+      type: 1
+      name: driblingvm.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 591758
+      asset_id: 97944
+      name: "1"
+      size: 4096
+      blob_id: 244079
+    - id: 591759
+      asset_id: 97944
+      name: "2"
+      size: 4096
+      blob_id: 15872
+    - id: 591760
+      asset_id: 97944
+      name: "3"
+      size: 4096
+      blob_id: 15871
+    - id: 591761
+      asset_id: 97944
+      name: "4"
+      size: 4096
+      blob_id: 244083
+    - id: 591762
+      asset_id: 97944
+      name: "5"
+      size: 4096
+      blob_id: 244084
+    - id: 591763
+      asset_id: 97944
+      name: "6"
+      size: 4096
+      blob_id: 15868
+    - id: 591764
+      asset_id: 97944
+      name: 63s140-d8.3e
+      size: 256
+      blob_id: 213186
+    - id: 591765
+      asset_id: 97944
+      name: "7"
+      size: 4096
+      blob_id: 15867
+    - id: 591766
+      asset_id: 97944
+      name: 93453-d9.3c
+      size: 1024
+      blob_id: 213187
+    - id: 591767
+      asset_id: 97944
+      name: tbp24s10.2d
+      size: 256
+      blob_id: 213188
+- release:
+    id: 105055
+    game_id: 1462
+    description: ""
+    release_date: 19830000
+  names:
+  - id: 240031
+    kind: 3
+    kind_id: 105055
+    language: 1
+    name: Dribbling (bootleg, Brazil)
+    source: fbneo
+  release_publishers: []
+  assets:
+  - asset:
+      id: 118737
+      kind: 3
+      kind_id: 105055
+      type: 1
+      name: driblingbr.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 811198
+      asset_id: 118737
+      name: "1"
+      size: 4096
+      blob_id: 244079
+    - id: 811199
+      asset_id: 118737
+      name: "2"
+      size: 4096
+      blob_id: 15872
+    - id: 811200
+      asset_id: 118737
+      name: "3"
+      size: 4096
+      blob_id: 15871
+    - id: 811201
+      asset_id: 118737
+      name: "4"
+      size: 4096
+      blob_id: 244083
+    - id: 811202
+      asset_id: 118737
+      name: "5"
+      size: 4096
+      blob_id: 244084
+    - id: 811203
+      asset_id: 118737
+      name: "6"
+      size: 4096
+      blob_id: 15868
+    - id: 811204
+      asset_id: 118737
+      name: 63s140-d8.3e
+      size: 256
+      blob_id: 213186
+    - id: 811205
+      asset_id: 118737
+      name: "7"
+      size: 4096
+      blob_id: 15867
+    - id: 811206
+      asset_id: 118737
+      name: 93453-d9.3c
+      size: 1024
+      blob_id: 213187
+    - id: 811207
+      asset_id: 118737
+      name: tbp24s10.2d
+      size: 256
+      blob_id: 213188

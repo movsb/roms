@@ -16,6 +16,18 @@ names:
   language: 2
   name: "火箭任务 - 倒数计时 (第一套)"
   source: trimui
+- id: 201682
+  kind: 2
+  kind_id: 4691
+  language: 1
+  name: Zero Hour (set 2)
+  source: mame
+- id: 201683
+  kind: 2
+  kind_id: 4691
+  language: 1
+  name: Zero Hour (bootleg)
+  source: mame
 game_developers:
 - game_id: 4691
   developer_id: 498
@@ -154,24 +166,10 @@ releases:
       blob_id: 89929
       debug: arcade/wheel/zerohour.png
     entries: []
-- release:
-    id: 76131
-    game_id: 4691
-    description: ""
-    release_date: 19800000
-  names:
-  - id: 182055
-    kind: 3
-    kind_id: 76131
-    language: 1
-    name: Zero Hour (set 1)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 89201
+      id: 118332
       kind: 3
-      kind_id: 76131
+      kind_id: 4691
       type: 1
       name: zerohour.zip
       description: ""
@@ -180,63 +178,239 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 426580
-      asset_id: 89201
+    - id: 802970
+      asset_id: 118332
       name: z1.ic2
       size: 32
       blob_id: 50870
-    - id: 426581
-      asset_id: 89201
+    - id: 802971
+      asset_id: 118332
       name: z2.n2
       size: 32
       blob_id: 35726
-    - id: 426582
-      asset_id: 89201
+    - id: 802972
+      asset_id: 118332
       name: z3.u6
       size: 32
       blob_id: 1225
-    - id: 426583
-      asset_id: 89201
+    - id: 802973
+      asset_id: 118332
       name: z7
       size: 2048
       blob_id: 50867
-    - id: 426584
-      asset_id: 89201
+    - id: 802974
+      asset_id: 118332
       name: z8
       size: 2048
       blob_id: 50868
-    - id: 426585
-      asset_id: 89201
+    - id: 802975
+      asset_id: 118332
       name: z9
       size: 2048
       blob_id: 50869
-    - id: 426586
-      asset_id: 89201
+    - id: 802976
+      asset_id: 118332
       name: ze1_1.c8
       size: 2048
       blob_id: 50861
-    - id: 426587
-      asset_id: 89201
+    - id: 802977
+      asset_id: 118332
       name: ze2_2.c7
       size: 2048
       blob_id: 50862
-    - id: 426588
-      asset_id: 89201
+    - id: 802978
+      asset_id: 118332
       name: ze3_3.c6
       size: 2048
       blob_id: 50863
-    - id: 426589
-      asset_id: 89201
+    - id: 802979
+      asset_id: 118332
       name: ze4_4.c5
       size: 2048
       blob_id: 50864
-    - id: 426590
-      asset_id: 89201
+    - id: 802980
+      asset_id: 118332
       name: ze5_5.c4
       size: 2048
       blob_id: 50865
-    - id: 426591
-      asset_id: 89201
+    - id: 802981
+      asset_id: 118332
       name: ze6_6.c3
       size: 2048
       blob_id: 50866
+- release:
+    id: 102298
+    game_id: 4691
+    description: ""
+    release_date: 19800000
+  names:
+  - id: 236574
+    kind: 3
+    kind_id: 102298
+    language: 1
+    name: Zero Hour (set 2)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 118333
+      kind: 3
+      kind_id: 102298
+      type: 1
+      name: zerohoura.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/1905739524
+    entries:
+    - id: 802982
+      asset_id: 118333
+      name: z1.ic2
+      size: 32
+      blob_id: 50870
+    - id: 802983
+      asset_id: 118333
+      name: z1_1.c8
+      size: 2048
+      blob_id: 314757
+    - id: 802984
+      asset_id: 118333
+      name: z2.n2
+      size: 32
+      blob_id: 35726
+    - id: 802985
+      asset_id: 118333
+      name: z2_2.c7
+      size: 2048
+      blob_id: 314758
+    - id: 802986
+      asset_id: 118333
+      name: z3.u6
+      size: 32
+      blob_id: 1225
+    - id: 802987
+      asset_id: 118333
+      name: z3_3.c6
+      size: 2048
+      blob_id: 314759
+    - id: 802988
+      asset_id: 118333
+      name: z4_4.c5
+      size: 2048
+      blob_id: 314760
+    - id: 802989
+      asset_id: 118333
+      name: z5_5.c4
+      size: 2048
+      blob_id: 50865
+    - id: 802990
+      asset_id: 118333
+      name: z6_6.c3
+      size: 2048
+      blob_id: 50866
+    - id: 802991
+      asset_id: 118333
+      name: z7
+      size: 2048
+      blob_id: 50867
+    - id: 802992
+      asset_id: 118333
+      name: z8
+      size: 2048
+      blob_id: 50868
+    - id: 802993
+      asset_id: 118333
+      name: z9
+      size: 2048
+      blob_id: 50869
+- release:
+    id: 102299
+    game_id: 4691
+    description: ""
+    release_date: 19800000
+  names:
+  - id: 236575
+    kind: 3
+    kind_id: 102299
+    language: 1
+    name: Zero Hour (bootleg)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 118334
+      kind: 3
+      kind_id: 102299
+      type: 1
+      name: zerohouri.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/1343425162
+    entries:
+    - id: 802994
+      asset_id: 118334
+      name: z1.ic2
+      size: 32
+      blob_id: 50870
+    - id: 802995
+      asset_id: 118334
+      name: z2.n2
+      size: 32
+      blob_id: 35726
+    - id: 802996
+      asset_id: 118334
+      name: z3.u6
+      size: 32
+      blob_id: 1225
+    - id: 802997
+      asset_id: 118334
+      name: zhi.c3
+      size: 2048
+      blob_id: 314761
+    - id: 802998
+      asset_id: 118334
+      name: zhi.c4
+      size: 2048
+      blob_id: 50865
+    - id: 802999
+      asset_id: 118334
+      name: zhi.c5
+      size: 2048
+      blob_id: 50864
+    - id: 803000
+      asset_id: 118334
+      name: zhi.c6
+      size: 2048
+      blob_id: 314762
+    - id: 803001
+      asset_id: 118334
+      name: zhi.c7
+      size: 2048
+      blob_id: 314763
+    - id: 803002
+      asset_id: 118334
+      name: zhi.c8
+      size: 2048
+      blob_id: 50861
+    - id: 803003
+      asset_id: 118334
+      name: zhi.k4
+      size: 2048
+      blob_id: 50867
+    - id: 803004
+      asset_id: 118334
+      name: zhi.k5
+      size: 2048
+      blob_id: 50868
+    - id: 803005
+      asset_id: 118334
+      name: zhi.k7
+      size: 2048
+      blob_id: 50869

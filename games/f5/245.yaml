@@ -16,6 +16,24 @@ names:
   language: 2
   name: 火车大盗
   source: trimui
+- id: 186812
+  kind: 2
+  kind_id: 245
+  language: 1
+  name: farwest
+  source: ""
+- id: 186813
+  kind: 2
+  kind_id: 245
+  language: 2
+  name: "大列车强盗 - 遥远西部"
+  source: trimui
+- id: 189524
+  kind: 2
+  kind_id: 245
+  language: 1
+  name: Dai Ressya Goutou (Japan, version K)
+  source: mame
 game_developers:
 - game_id: 245
   developer_id: 2
@@ -154,24 +172,10 @@ releases:
       blob_id: 87315
       debug: arcade/wheel/ironhors.png
     entries: []
-- release:
-    id: 46745
-    game_id: 245
-    description: ""
-    release_date: 19860000
-  names:
-  - id: 124102
-    kind: 3
-    kind_id: 46745
-    language: 1
-    name: Iron Horse (version K)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 59815
+      id: 101711
       kind: 3
-      kind_id: 46745
+      kind_id: 245
       type: 1
       name: ironhors.zip
       description: ""
@@ -180,63 +184,342 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 205138
-      asset_id: 59815
+    - id: 635583
+      asset_id: 101711
       name: 03f_h08.bin
       size: 256
       blob_id: 2382
-    - id: 205139
-      asset_id: 59815
+    - id: 635584
+      asset_id: 101711
       name: 04f_h09.bin
       size: 256
       blob_id: 2383
-    - id: 205140
-      asset_id: 59815
+    - id: 635585
+      asset_id: 101711
       name: 05f_h10.bin
       size: 256
       blob_id: 2384
-    - id: 205141
-      asset_id: 59815
+    - id: 635586
+      asset_id: 101711
       name: 10f_h11.bin
       size: 256
       blob_id: 2390
-    - id: 205142
-      asset_id: 59815
+    - id: 635587
+      asset_id: 101711
       name: 10f_h12.bin
       size: 256
       blob_id: 2391
-    - id: 205143
-      asset_id: 59815
+    - id: 635588
+      asset_id: 101711
       name: 560_h01.10c
       size: 16384
       blob_id: 2389
-    - id: 205144
-      asset_id: 59815
+    - id: 635589
+      asset_id: 101711
       name: 560_h04.06f
       size: 32768
       blob_id: 2385
-    - id: 205145
-      asset_id: 59815
+    - id: 635590
+      asset_id: 101711
       name: 560_h05.07f
       size: 32768
       blob_id: 2386
-    - id: 205146
-      asset_id: 59815
+    - id: 635591
+      asset_id: 101711
       name: 560_h06.08f
       size: 32768
       blob_id: 2387
-    - id: 205147
-      asset_id: 59815
+    - id: 635592
+      asset_id: 101711
       name: 560_h07.09f
       size: 32768
       blob_id: 2388
-    - id: 205148
-      asset_id: 59815
+    - id: 635593
+      asset_id: 101711
       name: 560_k02.12c
       size: 16384
-      blob_id: 126427
-    - id: 205149
-      asset_id: 59815
+      blob_id: 223689
+    - id: 635594
+      asset_id: 101711
       name: 560_k03.13c
       size: 32768
-      blob_id: 126428
+      blob_id: 223690
+- release:
+    id: 86541
+    game_id: 245
+    description: ""
+    release_date: 19860000
+  names:
+  - id: 214316
+    kind: 3
+    kind_id: 86541
+    language: 1
+    name: Iron Horse (version H)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 101712
+      kind: 3
+      kind_id: 86541
+      type: 1
+      name: ironhorsh.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 635595
+      asset_id: 101712
+      name: 03f_h08.bin
+      size: 256
+      blob_id: 2382
+    - id: 635596
+      asset_id: 101712
+      name: 04f_h09.bin
+      size: 256
+      blob_id: 2383
+    - id: 635597
+      asset_id: 101712
+      name: 05f_h10.bin
+      size: 256
+      blob_id: 2384
+    - id: 635598
+      asset_id: 101712
+      name: 06f_h04.bin
+      size: 32768
+      blob_id: 2385
+    - id: 635599
+      asset_id: 101712
+      name: 07f_h05.bin
+      size: 32768
+      blob_id: 2386
+    - id: 635600
+      asset_id: 101712
+      name: 08f_h06.bin
+      size: 32768
+      blob_id: 2387
+    - id: 635601
+      asset_id: 101712
+      name: 09f_h07.bin
+      size: 32768
+      blob_id: 2388
+    - id: 635602
+      asset_id: 101712
+      name: 10c_h01.bin
+      size: 16384
+      blob_id: 2389
+    - id: 635603
+      asset_id: 101712
+      name: 10f_h11.bin
+      size: 256
+      blob_id: 2390
+    - id: 635604
+      asset_id: 101712
+      name: 10f_h12.bin
+      size: 256
+      blob_id: 2391
+    - id: 635605
+      asset_id: 101712
+      name: 12c_h02.bin
+      size: 16384
+      blob_id: 2392
+    - id: 635606
+      asset_id: 101712
+      name: 13c_h03.bin
+      size: 32768
+      blob_id: 2393
+- release:
+    id: 102928
+    game_id: 245
+    description: ""
+    release_date: 0
+  names:
+  - id: 237642
+    kind: 3
+    kind_id: 102928
+    language: 1
+    name: farwest
+    source: ""
+  - id: 237643
+    kind: 3
+    kind_id: 102928
+    language: 2
+    name: "大列车强盗 - 遥远西部"
+    source: trimui
+  release_publishers: []
+  assets:
+  - asset:
+      id: 98679
+      kind: 3
+      kind_id: 102928
+      type: 1
+      name: farwest.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 600417
+      asset_id: 98679
+      name: 10f_h12.bin
+      size: 256
+      blob_id: 2391
+    - id: 600418
+      asset_id: 98679
+      name: ironcol.001
+      size: 256
+      blob_id: 17601
+    - id: 600419
+      asset_id: 98679
+      name: ironcol.002
+      size: 256
+      blob_id: 17588
+    - id: 600420
+      asset_id: 98679
+      name: ironcol.003
+      size: 256
+      blob_id: 17589
+    - id: 600421
+      asset_id: 98679
+      name: ironcol.005
+      size: 256
+      blob_id: 17590
+    - id: 600422
+      asset_id: 98679
+      name: ironhors.001
+      size: 16384
+      blob_id: 17592
+    - id: 600423
+      asset_id: 98679
+      name: ironhors.002
+      size: 16384
+      blob_id: 17593
+    - id: 600424
+      asset_id: 98679
+      name: ironhors.003
+      size: 16384
+      blob_id: 17594
+    - id: 600425
+      asset_id: 98679
+      name: ironhors.004
+      size: 16384
+      blob_id: 17595
+    - id: 600426
+      asset_id: 98679
+      name: ironhors.005
+      size: 32768
+      blob_id: 17596
+    - id: 600427
+      asset_id: 98679
+      name: ironhors.006
+      size: 32768
+      blob_id: 17597
+    - id: 600428
+      asset_id: 98679
+      name: ironhors.007
+      size: 8192
+      blob_id: 17598
+    - id: 600429
+      asset_id: 98679
+      name: ironhors.008
+      size: 16384
+      blob_id: 17599
+    - id: 600430
+      asset_id: 98679
+      name: ironhors.009
+      size: 32768
+      blob_id: 17600
+    - id: 600431
+      asset_id: 98679
+      name: ironhors.010
+      size: 16384
+      blob_id: 17587
+- release:
+    id: 103692
+    game_id: 245
+    description: ""
+    release_date: 19860000
+  names:
+  - id: 238668
+    kind: 3
+    kind_id: 103692
+    language: 1
+    name: Dai Ressya Goutou (Japan, version K)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 97063
+      kind: 3
+      kind_id: 103692
+      type: 1
+      name: dairesya.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 579959
+      asset_id: 97063
+      name: 03f_h08.bin
+      size: 256
+      blob_id: 2382
+    - id: 579960
+      asset_id: 97063
+      name: 04f_h09.bin
+      size: 256
+      blob_id: 2383
+    - id: 579961
+      asset_id: 97063
+      name: 05f_h10.bin
+      size: 256
+      blob_id: 2384
+    - id: 579962
+      asset_id: 97063
+      name: 10f_h11.bin
+      size: 256
+      blob_id: 2390
+    - id: 579963
+      asset_id: 97063
+      name: 10f_h12.bin
+      size: 256
+      blob_id: 2391
+    - id: 579964
+      asset_id: 97063
+      name: 560-j01.10c
+      size: 16384
+      blob_id: 243148
+    - id: 579965
+      asset_id: 97063
+      name: 560-j05.7f
+      size: 32768
+      blob_id: 243149
+    - id: 579966
+      asset_id: 97063
+      name: 560-j06.8f
+      size: 32768
+      blob_id: 243150
+    - id: 579967
+      asset_id: 97063
+      name: 560-k02.12c
+      size: 16384
+      blob_id: 243151
+    - id: 579968
+      asset_id: 97063
+      name: 560-k03.13c
+      size: 32768
+      blob_id: 243152
+    - id: 579969
+      asset_id: 97063
+      name: 560-k04.6f
+      size: 32768
+      blob_id: 243153
+    - id: 579970
+      asset_id: 97063
+      name: 560-k07.9f
+      size: 32768
+      blob_id: 243154

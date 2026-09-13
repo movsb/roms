@@ -16,6 +16,12 @@ names:
   language: 2
   name: 堂堂 (版本 0526, 26/05/2000)
   source: trimui
+- id: 199912
+  kind: 2
+  kind_id: 4144
+  language: 1
+  name: Tang Tang (ver. 0526, 26/05/2000, set 2)
+  source: mame
 game_developers:
 - game_id: 4144
   developer_id: 604
@@ -149,89 +155,165 @@ releases:
       blob_id: 90060
       debug: arcade/wheel/tangtang.png
     entries: []
-- release:
-    id: 72690
-    game_id: 4144
-    description: ""
-    release_date: 20000000
-  names:
-  - id: 175351
-    kind: 3
-    kind_id: 72690
-    language: 1
-    name: Tang Tang (ver. 0526, 26/05/2000, set 1)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 85760
+      id: 115151
       kind: 3
-      kind_id: 72690
+      kind_id: 4144
       type: 1
       name: tangtang.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
-      debug: dat:mame:0.289
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/2659987168
     entries:
-    - id: 387084
-      asset_id: 85760
+    - id: 764842
+      asset_id: 115151
       name: eeprom
       size: 128
-      blob_id: 188626
-    - id: 387085
-      asset_id: 85760
+      blob_id: 305457
+    - id: 764843
+      asset_id: 115151
       name: esd1.cu03
       size: 262144
       blob_id: 44421
-    - id: 387086
-      asset_id: 85760
+    - id: 764844
+      asset_id: 115151
       name: esd2.cu02
       size: 262144
       blob_id: 44422
-    - id: 387087
-      asset_id: 85760
+    - id: 764845
+      asset_id: 115151
       name: esd3.su06
       size: 262144
       blob_id: 44423
-    - id: 387088
-      asset_id: 85760
+    - id: 764846
+      asset_id: 115151
       name: esd4.su10
       size: 131072
       blob_id: 44424
-    - id: 387089
-      asset_id: 85760
+    - id: 764847
+      asset_id: 115151
       name: fu34.bin
       size: 2097152
       blob_id: 44425
-    - id: 387090
-      asset_id: 85760
+    - id: 764848
+      asset_id: 115151
       name: fu35.bin
       size: 2097152
       blob_id: 44426
-    - id: 387091
-      asset_id: 85760
+    - id: 764849
+      asset_id: 115151
       name: xju04.bin
       size: 262144
       blob_id: 44427
-    - id: 387092
-      asset_id: 85760
+    - id: 764850
+      asset_id: 115151
       name: xju05.bin
       size: 262144
       blob_id: 44428
-    - id: 387093
-      asset_id: 85760
+    - id: 764851
+      asset_id: 115151
       name: xju06.bin
       size: 262144
       blob_id: 44429
-    - id: 387094
-      asset_id: 85760
+    - id: 764852
+      asset_id: 115151
       name: xju07.bin
       size: 262144
       blob_id: 44430
-    - id: 387095
-      asset_id: 85760
+    - id: 764853
+      asset_id: 115151
+      name: xju08.bin
+      size: 262144
+      blob_id: 44431
+- release:
+    id: 99311
+    game_id: 4144
+    description: ""
+    release_date: 20000000
+  names:
+  - id: 232337
+    kind: 3
+    kind_id: 99311
+    language: 1
+    name: Tang Tang (ver. 0526, 26/05/2000, set 2)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 115152
+      kind: 3
+      kind_id: 99311
+      type: 1
+      name: tangtanga.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/1405959070
+    entries:
+    - id: 764854
+      asset_id: 115152
+      name: eeprom
+      size: 128
+      blob_id: 305457
+    - id: 764855
+      asset_id: 115152
+      name: esd3.su06
+      size: 262144
+      blob_id: 44423
+    - id: 764856
+      asset_id: 115152
+      name: esd4.su10
+      size: 131072
+      blob_id: 44424
+    - id: 764857
+      asset_id: 115152
+      name: esd_1.cu03
+      size: 262144
+      blob_id: 305458
+    - id: 764858
+      asset_id: 115152
+      name: esd_2.cu02
+      size: 262144
+      blob_id: 305459
+    - id: 764859
+      asset_id: 115152
+      name: fu34.bin
+      size: 2097152
+      blob_id: 44425
+    - id: 764860
+      asset_id: 115152
+      name: fu35.bin
+      size: 2097152
+      blob_id: 44426
+    - id: 764861
+      asset_id: 115152
+      name: xju04.bin
+      size: 262144
+      blob_id: 44427
+    - id: 764862
+      asset_id: 115152
+      name: xju05.bin
+      size: 262144
+      blob_id: 44428
+    - id: 764863
+      asset_id: 115152
+      name: xju06.bin
+      size: 262144
+      blob_id: 44429
+    - id: 764864
+      asset_id: 115152
+      name: xju07.bin
+      size: 262144
+      blob_id: 44430
+    - id: 764865
+      asset_id: 115152
       name: xju08.bin
       size: 262144
       blob_id: 44431

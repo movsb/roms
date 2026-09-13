@@ -16,6 +16,48 @@ names:
   language: 2
   name: 小鸟妃奇 (128k 版本, 315-5051)
   source: trimui
+- id: 190644
+  kind: 2
+  kind_id: 1673
+  language: 1
+  name: Flicky (128k Version, 315-5051, larger ROMs)
+  source: mame
+- id: 190645
+  kind: 2
+  kind_id: 1673
+  language: 1
+  name: Flicky (128k Version, 315-5051, larger ROMs, newer)
+  source: mame
+- id: 190646
+  kind: 2
+  kind_id: 1673
+  language: 1
+  name: Flicky (64k Version, 315-5051, set 1)
+  source: mame
+- id: 190647
+  kind: 2
+  kind_id: 1673
+  language: 1
+  name: Flicky (64k Version, 315-5051, set 2)
+  source: mame
+- id: 190648
+  kind: 2
+  kind_id: 1673
+  language: 1
+  name: Flicky (128k Version, not encrypted)
+  source: mame
+- id: 190649
+  kind: 2
+  kind_id: 1673
+  language: 1
+  name: Flicky (64k Version, on Up'n Down boardset, set 1)
+  source: mame
+- id: 190650
+  kind: 2
+  kind_id: 1673
+  language: 1
+  name: Flicky (64k Version, on Up'n Down boardset, set 2)
+  source: mame
 game_developers:
 - game_id: 1673
   developer_id: 110
@@ -154,24 +196,10 @@ releases:
       blob_id: 85154
       debug: arcade/wheel/flicky.png
     entries: []
-- release:
-    id: 43817
-    game_id: 1673
-    description: ""
-    release_date: 19840000
-  names:
-  - id: 118424
-    kind: 3
-    kind_id: 43817
-    language: 1
-    name: Flicky (128k Version, 315-5051)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 56887
+      id: 99109
       kind: 3
-      kind_id: 43817
+      kind_id: 1673
       type: 1
       name: flicky.zip
       description: ""
@@ -180,63 +208,817 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 172972
-      asset_id: 56887
+    - id: 605016
+      asset_id: 99109
       name: epr-5855.117
       size: 16384
       blob_id: 18412
-    - id: 172973
-      asset_id: 56887
+    - id: 605017
+      asset_id: 99109
       name: epr-5856.110
       size: 16384
       blob_id: 18413
-    - id: 172974
-      asset_id: 56887
+    - id: 605018
+      asset_id: 99109
       name: epr-5863.65
       size: 8192
       blob_id: 18414
-    - id: 172975
-      asset_id: 56887
+    - id: 605019
+      asset_id: 99109
       name: epr-5864.66
       size: 8192
       blob_id: 18415
-    - id: 172976
-      asset_id: 56887
+    - id: 605020
+      asset_id: 99109
       name: epr-5865.63
       size: 8192
       blob_id: 18416
-    - id: 172977
-      asset_id: 56887
+    - id: 605021
+      asset_id: 99109
       name: epr-5866.64
       size: 8192
       blob_id: 18417
-    - id: 172978
-      asset_id: 56887
+    - id: 605022
+      asset_id: 99109
       name: epr-5867.61
       size: 8192
       blob_id: 18418
-    - id: 172979
-      asset_id: 56887
+    - id: 605023
+      asset_id: 99109
       name: epr-5868.62
       size: 8192
       blob_id: 18419
-    - id: 172980
-      asset_id: 56887
+    - id: 605024
+      asset_id: 99109
       name: epr-5869.120
       size: 8192
       blob_id: 18420
-    - id: 172981
-      asset_id: 56887
+    - id: 605025
+      asset_id: 99109
       name: epr-5978a.116
       size: 16384
       blob_id: 18421
-    - id: 172982
-      asset_id: 56887
+    - id: 605026
+      asset_id: 99109
       name: epr-5979a.109
       size: 16384
       blob_id: 18422
-    - id: 172983
-      asset_id: 56887
+    - id: 605027
+      asset_id: 99109
+      name: pr-5317.76
+      size: 256
+      blob_id: 668
+- release:
+    id: 84137
+    game_id: 1673
+    description: ""
+    release_date: 19840000
+  names:
+  - id: 210620
+    kind: 3
+    kind_id: 84137
+    language: 1
+    name: Flicky (128k Version, 315-5051, larger ROMs)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 99110
+      kind: 3
+      kind_id: 84137
+      type: 1
+      name: flickya.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 605028
+      asset_id: 99110
+      name: epr-5855.117
+      size: 16384
+      blob_id: 18412
+    - id: 605029
+      asset_id: 99110
+      name: epr-5856.110
+      size: 16384
+      blob_id: 18413
+    - id: 605030
+      asset_id: 99110
+      name: epr-5869.120
+      size: 8192
+      blob_id: 18420
+    - id: 605031
+      asset_id: 99110
+      name: epr-5978a.116
+      size: 16384
+      blob_id: 18421
+    - id: 605032
+      asset_id: 99110
+      name: epr-5979a.109
+      size: 16384
+      blob_id: 18422
+    - id: 605033
+      asset_id: 99110
+      name: epr-5999.66
+      size: 16384
+      blob_id: 246340
+    - id: 605034
+      asset_id: 99110
+      name: epr-6000.64
+      size: 16384
+      blob_id: 246341
+    - id: 605035
+      asset_id: 99110
+      name: epr-6001.62
+      size: 16384
+      blob_id: 246342
+    - id: 605036
+      asset_id: 99110
+      name: pr-5317.76
+      size: 256
+      blob_id: 668
+- release:
+    id: 84138
+    game_id: 1673
+    description: ""
+    release_date: 19840000
+  names:
+  - id: 210621
+    kind: 3
+    kind_id: 84138
+    language: 1
+    name: Flicky (128k Version, 315-5051, larger ROMs, newer)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 99111
+      kind: 3
+      kind_id: 84138
+      type: 1
+      name: flickyb.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 605037
+      asset_id: 99111
+      name: "109"
+      size: 16384
+      blob_id: 246343
+    - id: 605038
+      asset_id: 99111
+      name: e-2_0.116
+      size: 16384
+      blob_id: 246344
+    - id: 605039
+      asset_id: 99111
+      name: epr-5855.117
+      size: 16384
+      blob_id: 18412
+    - id: 605040
+      asset_id: 99111
+      name: epr-5856.110
+      size: 16384
+      blob_id: 18413
+    - id: 605041
+      asset_id: 99111
+      name: epr-5869.120
+      size: 8192
+      blob_id: 18420
+    - id: 605042
+      asset_id: 99111
+      name: epr-5999.66
+      size: 16384
+      blob_id: 246340
+    - id: 605043
+      asset_id: 99111
+      name: epr-6000.64
+      size: 16384
+      blob_id: 246341
+    - id: 605044
+      asset_id: 99111
+      name: epr-6001.62
+      size: 16384
+      blob_id: 246342
+    - id: 605045
+      asset_id: 99111
+      name: pr-5317.76
+      size: 256
+      blob_id: 668
+- release:
+    id: 84139
+    game_id: 1673
+    description: ""
+    release_date: 19840000
+  names:
+  - id: 210622
+    kind: 3
+    kind_id: 84139
+    language: 1
+    name: Flicky (64k Version, 315-5051, set 1)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 99112
+      kind: 3
+      kind_id: 84139
+      type: 1
+      name: flickyo.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 605046
+      asset_id: 99112
+      name: epr-5855.117
+      size: 16384
+      blob_id: 18412
+    - id: 605047
+      asset_id: 99112
+      name: epr-5856.110
+      size: 16384
+      blob_id: 18413
+    - id: 605048
+      asset_id: 99112
+      name: epr-5857.ic129
+      size: 8192
+      blob_id: 246345
+    - id: 605049
+      asset_id: 99112
+      name: epr-5858a.ic30
+      size: 8192
+      blob_id: 246346
+    - id: 605050
+      asset_id: 99112
+      name: epr-5859.ic31
+      size: 8192
+      blob_id: 246347
+    - id: 605051
+      asset_id: 99112
+      name: epr-5860.ic32
+      size: 8192
+      blob_id: 246348
+    - id: 605052
+      asset_id: 99112
+      name: epr-5863.65
+      size: 8192
+      blob_id: 18414
+    - id: 605053
+      asset_id: 99112
+      name: epr-5864.66
+      size: 8192
+      blob_id: 18415
+    - id: 605054
+      asset_id: 99112
+      name: epr-5865.63
+      size: 8192
+      blob_id: 18416
+    - id: 605055
+      asset_id: 99112
+      name: epr-5866.64
+      size: 8192
+      blob_id: 18417
+    - id: 605056
+      asset_id: 99112
+      name: epr-5867.61
+      size: 8192
+      blob_id: 18418
+    - id: 605057
+      asset_id: 99112
+      name: epr-5868.62
+      size: 8192
+      blob_id: 18419
+    - id: 605058
+      asset_id: 99112
+      name: epr-5869.120
+      size: 8192
+      blob_id: 18420
+    - id: 605059
+      asset_id: 99112
+      name: pr-5317.76
+      size: 256
+      blob_id: 668
+- release:
+    id: 84140
+    game_id: 1673
+    description: ""
+    release_date: 19840000
+  names:
+  - id: 210623
+    kind: 3
+    kind_id: 84140
+    language: 1
+    name: Flicky (64k Version, 315-5051, set 2)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 99113
+      kind: 3
+      kind_id: 84140
+      type: 1
+      name: flickys1.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 605060
+      asset_id: 99113
+      name: epr-5855.117
+      size: 16384
+      blob_id: 18412
+    - id: 605061
+      asset_id: 99113
+      name: epr-5856.110
+      size: 16384
+      blob_id: 18413
+    - id: 605062
+      asset_id: 99113
+      name: epr-5863.65
+      size: 8192
+      blob_id: 18414
+    - id: 605063
+      asset_id: 99113
+      name: epr-5864.66
+      size: 8192
+      blob_id: 18415
+    - id: 605064
+      asset_id: 99113
+      name: epr-5865.63
+      size: 8192
+      blob_id: 18416
+    - id: 605065
+      asset_id: 99113
+      name: epr-5866.64
+      size: 8192
+      blob_id: 18417
+    - id: 605066
+      asset_id: 99113
+      name: epr-5867.61
+      size: 8192
+      blob_id: 18418
+    - id: 605067
+      asset_id: 99113
+      name: epr-5868.62
+      size: 8192
+      blob_id: 18419
+    - id: 605068
+      asset_id: 99113
+      name: epr-5869.120
+      size: 8192
+      blob_id: 18420
+    - id: 605069
+      asset_id: 99113
+      name: ic129
+      size: 8192
+      blob_id: 246349
+    - id: 605070
+      asset_id: 99113
+      name: ic130
+      size: 8192
+      blob_id: 246350
+    - id: 605071
+      asset_id: 99113
+      name: ic131
+      size: 8192
+      blob_id: 246351
+    - id: 605072
+      asset_id: 99113
+      name: ic132
+      size: 8192
+      blob_id: 246352
+    - id: 605073
+      asset_id: 99113
+      name: pr-5317.76
+      size: 256
+      blob_id: 668
+- release:
+    id: 84141
+    game_id: 1673
+    description: ""
+    release_date: 19840000
+  names:
+  - id: 210624
+    kind: 3
+    kind_id: 84141
+    language: 1
+    name: Flicky (128k Version, not encrypted)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 99114
+      kind: 3
+      kind_id: 84141
+      type: 1
+      name: flickys2.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 605074
+      asset_id: 99114
+      name: epr-5855.117
+      size: 16384
+      blob_id: 18412
+    - id: 605075
+      asset_id: 99114
+      name: epr-5856.110
+      size: 16384
+      blob_id: 18413
+    - id: 605076
+      asset_id: 99114
+      name: epr-5863.65
+      size: 8192
+      blob_id: 18414
+    - id: 605077
+      asset_id: 99114
+      name: epr-5864.66
+      size: 8192
+      blob_id: 18415
+    - id: 605078
+      asset_id: 99114
+      name: epr-5865.63
+      size: 8192
+      blob_id: 18416
+    - id: 605079
+      asset_id: 99114
+      name: epr-5866.64
+      size: 8192
+      blob_id: 18417
+    - id: 605080
+      asset_id: 99114
+      name: epr-5867.61
+      size: 8192
+      blob_id: 18418
+    - id: 605081
+      asset_id: 99114
+      name: epr-5868.62
+      size: 8192
+      blob_id: 18419
+    - id: 605082
+      asset_id: 99114
+      name: epr-5869.120
+      size: 8192
+      blob_id: 18420
+    - id: 605083
+      asset_id: 99114
+      name: epr-6621.bin
+      size: 16384
+      blob_id: 246353
+    - id: 605084
+      asset_id: 99114
+      name: epr-6622.bin
+      size: 16384
+      blob_id: 246354
+    - id: 605085
+      asset_id: 99114
+      name: pr-5317.76
+      size: 256
+      blob_id: 668
+- release:
+    id: 84142
+    game_id: 1673
+    description: ""
+    release_date: 19840000
+  names:
+  - id: 210625
+    kind: 3
+    kind_id: 84142
+    language: 1
+    name: Flicky (64k Version, on Up'n Down boardset, set 1)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 99115
+      kind: 3
+      kind_id: 84142
+      type: 1
+      name: flickyup.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 605086
+      asset_id: 99115
+      name: 2764-ic29
+      size: 8192
+      blob_id: 246355
+    - id: 605087
+      asset_id: 99115
+      name: 2764-ic30
+      size: 8192
+      blob_id: 246356
+    - id: 605088
+      asset_id: 99115
+      name: 2764-ic31
+      size: 8192
+      blob_id: 246357
+    - id: 605089
+      asset_id: 99115
+      name: 2764-ic32
+      size: 8192
+      blob_id: 246358
+    - id: 605090
+      asset_id: 99115
+      name: epr-5855.117
+      size: 16384
+      blob_id: 18412
+    - id: 605091
+      asset_id: 99115
+      name: epr-5856.110
+      size: 16384
+      blob_id: 18413
+    - id: 605092
+      asset_id: 99115
+      name: epr-5863.65
+      size: 8192
+      blob_id: 18414
+    - id: 605093
+      asset_id: 99115
+      name: epr-5864.66
+      size: 8192
+      blob_id: 18415
+    - id: 605094
+      asset_id: 99115
+      name: epr-5865.63
+      size: 8192
+      blob_id: 18416
+    - id: 605095
+      asset_id: 99115
+      name: epr-5866.64
+      size: 8192
+      blob_id: 18417
+    - id: 605096
+      asset_id: 99115
+      name: epr-5867.61
+      size: 8192
+      blob_id: 18418
+    - id: 605097
+      asset_id: 99115
+      name: epr-5868.62
+      size: 8192
+      blob_id: 18419
+    - id: 605098
+      asset_id: 99115
+      name: epr-5869.120
+      size: 8192
+      blob_id: 18420
+    - id: 605099
+      asset_id: 99115
+      name: pr-5317.76
+      size: 256
+      blob_id: 668
+- release:
+    id: 84143
+    game_id: 1673
+    description: ""
+    release_date: 19840000
+  names:
+  - id: 210626
+    kind: 3
+    kind_id: 84143
+    language: 1
+    name: Flicky (64k Version, on Up'n Down boardset, set 2)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 99116
+      kind: 3
+      kind_id: 84143
+      type: 1
+      name: flickyupa.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 605100
+      asset_id: 99116
+      name: "1"
+      size: 8192
+      blob_id: 246359
+    - id: 605101
+      asset_id: 99116
+      name: "10.61"
+      size: 8192
+      blob_id: 18418
+    - id: 605102
+      asset_id: 99116
+      name: "11.110"
+      size: 16384
+      blob_id: 18413
+    - id: 605103
+      asset_id: 99116
+      name: "12.117"
+      size: 16384
+      blob_id: 18412
+    - id: 605104
+      asset_id: 99116
+      name: "13.120"
+      size: 8192
+      blob_id: 18420
+    - id: 605105
+      asset_id: 99116
+      name: "2"
+      size: 8192
+      blob_id: 246360
+    - id: 605106
+      asset_id: 99116
+      name: "3"
+      size: 8192
+      blob_id: 246361
+    - id: 605107
+      asset_id: 99116
+      name: "4"
+      size: 8192
+      blob_id: 246362
+    - id: 605108
+      asset_id: 99116
+      name: "5.66"
+      size: 8192
+      blob_id: 18415
+    - id: 605109
+      asset_id: 99116
+      name: "6.64"
+      size: 8192
+      blob_id: 18417
+    - id: 605110
+      asset_id: 99116
+      name: "7.62"
+      size: 8192
+      blob_id: 18419
+    - id: 605111
+      asset_id: 99116
+      name: "8.65"
+      size: 8192
+      blob_id: 18414
+    - id: 605112
+      asset_id: 99116
+      name: "9.63"
+      size: 8192
+      blob_id: 18416
+    - id: 605113
+      asset_id: 99116
+      name: pr-5317.76
+      size: 256
+      blob_id: 668
+- release:
+    id: 102521
+    game_id: 1673
+    description: ""
+    release_date: 19840000
+  names:
+  - id: 236927
+    kind: 3
+    kind_id: 102521
+    language: 1
+    name: Flicky (128k Version, System 2, 315-5051, alt graphics)
+    source: fbneo
+  release_publishers: []
+  assets:
+  - asset:
+      id: 118795
+      kind: 3
+      kind_id: 102521
+      type: 1
+      name: flickyg.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 812785
+      asset_id: 118795
+      name: 5999.ic66
+      size: 16384
+      blob_id: 246340
+    - id: 812786
+      asset_id: 118795
+      name: 66x0.ic64
+      size: 16384
+      blob_id: 246341
+    - id: 812787
+      asset_id: 118795
+      name: 66xx.ic62
+      size: 16384
+      blob_id: 246342
+    - id: 812788
+      asset_id: 118795
+      name: epr-5855.117
+      size: 16384
+      blob_id: 18412
+    - id: 812789
+      asset_id: 118795
+      name: epr-5856.110
+      size: 16384
+      blob_id: 18413
+    - id: 812790
+      asset_id: 118795
+      name: epr-5869.120
+      size: 8192
+      blob_id: 18420
+    - id: 812791
+      asset_id: 118795
+      name: epr5978a.116
+      size: 16384
+      blob_id: 18421
+    - id: 812792
+      asset_id: 118795
+      name: epr5979a.109
+      size: 16384
+      blob_id: 18422
+    - id: 812793
+      asset_id: 118795
+      name: pr-5317.76
+      size: 256
+      blob_id: 668
+- release:
+    id: 102522
+    game_id: 1673
+    description: ""
+    release_date: 19840000
+  names:
+  - id: 236928
+    kind: 3
+    kind_id: 102522
+    language: 1
+    name: Flicky (128k Version, System 2, not encrypted, alt graphics)
+    source: fbneo
+  release_publishers: []
+  assets:
+  - asset:
+      id: 118796
+      kind: 3
+      kind_id: 102522
+      type: 1
+      name: flickys2g.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 812794
+      asset_id: 118796
+      name: 5999.ic66
+      size: 16384
+      blob_id: 246340
+    - id: 812795
+      asset_id: 118796
+      name: 66x0.ic64
+      size: 16384
+      blob_id: 246341
+    - id: 812796
+      asset_id: 118796
+      name: 66xx.ic62
+      size: 16384
+      blob_id: 246342
+    - id: 812797
+      asset_id: 118796
+      name: epr-5855.117
+      size: 16384
+      blob_id: 18412
+    - id: 812798
+      asset_id: 118796
+      name: epr-5856.110
+      size: 16384
+      blob_id: 18413
+    - id: 812799
+      asset_id: 118796
+      name: epr-5869.120
+      size: 8192
+      blob_id: 18420
+    - id: 812800
+      asset_id: 118796
+      name: epr-6621.bin
+      size: 16384
+      blob_id: 246353
+    - id: 812801
+      asset_id: 118796
+      name: epr-6622.bin
+      size: 16384
+      blob_id: 246354
+    - id: 812802
+      asset_id: 118796
       name: pr-5317.76
       size: 256
       blob_id: 668

@@ -16,6 +16,36 @@ names:
   language: 2
   name: 宇宙巡航机4 复活
   source: trimui
+- id: 191330
+  kind: 2
+  kind_id: 1851
+  language: 1
+  name: Gradius IV (ver AAC)
+  source: mame
+- id: 191331
+  kind: 2
+  kind_id: 1851
+  language: 1
+  name: Gradius IV (ver AAA)
+  source: mame
+- id: 191332
+  kind: 2
+  kind_id: 1851
+  language: 1
+  name: "Gradius IV: Fukkatsu (ver JAA)"
+  source: mame
+- id: 191333
+  kind: 2
+  kind_id: 1851
+  language: 1
+  name: Gradius IV (ver UAC)
+  source: mame
+- id: 191334
+  kind: 2
+  kind_id: 1851
+  language: 1
+  name: Gradius IV (ver UAA)
+  source: mame
 game_developers: []
 game_genres: []
 assets: []
@@ -152,24 +182,10 @@ releases:
       name: security_eeprom_ja
       size: 548
       blob_id: 20593
-- release:
-    id: 45185
-    game_id: 1851
-    description: ""
-    release_date: 19980000
-  names:
-  - id: 121085
-    kind: 3
-    kind_id: 45185
-    language: 1
-    name: "Gradius IV: Fukkatsu (ver JAC)"
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 58255
+      id: 100355
       kind: 3
-      kind_id: 45185
+      kind_id: 1851
       type: 1
       name: gradius4.zip
       description: ""
@@ -178,63 +194,493 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 188296
-      asset_id: 58255
+    - id: 619408
+      asset_id: 100355
       name: 837a04.16t
       size: 2097152
       blob_id: 20574
-    - id: 188297
-      asset_id: 58255
+    - id: 619409
+      asset_id: 100355
       name: 837a05.14t
       size: 2097152
       blob_id: 20575
-    - id: 188298
-      asset_id: 58255
+    - id: 619410
+      asset_id: 100355
       name: 837a08.7s
       size: 524288
       blob_id: 20576
-    - id: 188299
-      asset_id: 58255
+    - id: 619411
+      asset_id: 100355
       name: 837a09.16p
       size: 4194304
       blob_id: 20577
-    - id: 188300
-      asset_id: 58255
+    - id: 619412
+      asset_id: 100355
       name: 837a10.14p
       size: 4194304
       blob_id: 20578
-    - id: 188301
-      asset_id: 58255
+    - id: 619413
+      asset_id: 100355
       name: 837a13.24u
       size: 4194304
       blob_id: 20579
-    - id: 188302
-      asset_id: 58255
+    - id: 619414
+      asset_id: 100355
       name: 837a14.32u
       size: 4194304
       blob_id: 20580
-    - id: 188303
-      asset_id: 58255
+    - id: 619415
+      asset_id: 100355
       name: 837a15.24v
       size: 4194304
       blob_id: 20581
-    - id: 188304
-      asset_id: 58255
+    - id: 619416
+      asset_id: 100355
       name: 837a16.32v
       size: 4194304
       blob_id: 20582
-    - id: 188305
-      asset_id: 58255
+    - id: 619417
+      asset_id: 100355
       name: 837c01.27p
       size: 2097152
       blob_id: 20583
-    - id: 188306
-      asset_id: 58255
+    - id: 619418
+      asset_id: 100355
       name: m48t58y-70pc1_jac
       size: 8192
       blob_id: 20592
-    - id: 188307
-      asset_id: 58255
+    - id: 619419
+      asset_id: 100355
       name: security_eeprom_ja
       size: 548
       blob_id: 20593
+- release:
+    id: 85302
+    game_id: 1851
+    description: ""
+    release_date: 19980000
+  names:
+  - id: 212383
+    kind: 3
+    kind_id: 85302
+    language: 1
+    name: Gradius IV (ver AAC)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 100356
+      kind: 3
+      kind_id: 85302
+      type: 1
+      name: gradius4a.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 619420
+      asset_id: 100356
+      name: 837a04.16t
+      size: 2097152
+      blob_id: 20574
+    - id: 619421
+      asset_id: 100356
+      name: 837a05.14t
+      size: 2097152
+      blob_id: 20575
+    - id: 619422
+      asset_id: 100356
+      name: 837a08.7s
+      size: 524288
+      blob_id: 20576
+    - id: 619423
+      asset_id: 100356
+      name: 837a09.16p
+      size: 4194304
+      blob_id: 20577
+    - id: 619424
+      asset_id: 100356
+      name: 837a10.14p
+      size: 4194304
+      blob_id: 20578
+    - id: 619425
+      asset_id: 100356
+      name: 837a13.24u
+      size: 4194304
+      blob_id: 20579
+    - id: 619426
+      asset_id: 100356
+      name: 837a14.32u
+      size: 4194304
+      blob_id: 20580
+    - id: 619427
+      asset_id: 100356
+      name: 837a15.24v
+      size: 4194304
+      blob_id: 20581
+    - id: 619428
+      asset_id: 100356
+      name: 837a16.32v
+      size: 4194304
+      blob_id: 20582
+    - id: 619429
+      asset_id: 100356
+      name: 837c01.27p
+      size: 2097152
+      blob_id: 20583
+    - id: 619430
+      asset_id: 100356
+      name: m48t58y-70pc1_aac
+      size: 8192
+      blob_id: 20584
+    - id: 619431
+      asset_id: 100356
+      name: security_eeprom_aa
+      size: 548
+      blob_id: 20585
+- release:
+    id: 85303
+    game_id: 1851
+    description: ""
+    release_date: 19980000
+  names:
+  - id: 212384
+    kind: 3
+    kind_id: 85303
+    language: 1
+    name: Gradius IV (ver AAA)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 100357
+      kind: 3
+      kind_id: 85303
+      type: 1
+      name: gradius4aa.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 619432
+      asset_id: 100357
+      name: 837a01.27p
+      size: 2097152
+      blob_id: 20586
+    - id: 619433
+      asset_id: 100357
+      name: 837a04.16t
+      size: 2097152
+      blob_id: 20574
+    - id: 619434
+      asset_id: 100357
+      name: 837a05.14t
+      size: 2097152
+      blob_id: 20575
+    - id: 619435
+      asset_id: 100357
+      name: 837a08.7s
+      size: 524288
+      blob_id: 20576
+    - id: 619436
+      asset_id: 100357
+      name: 837a09.16p
+      size: 4194304
+      blob_id: 20577
+    - id: 619437
+      asset_id: 100357
+      name: 837a10.14p
+      size: 4194304
+      blob_id: 20578
+    - id: 619438
+      asset_id: 100357
+      name: 837a13.24u
+      size: 4194304
+      blob_id: 20579
+    - id: 619439
+      asset_id: 100357
+      name: 837a14.32u
+      size: 4194304
+      blob_id: 20580
+    - id: 619440
+      asset_id: 100357
+      name: 837a15.24v
+      size: 4194304
+      blob_id: 20581
+    - id: 619441
+      asset_id: 100357
+      name: 837a16.32v
+      size: 4194304
+      blob_id: 20582
+    - id: 619442
+      asset_id: 100357
+      name: m48t58y-70pc1_aaa
+      size: 8192
+      blob_id: 20587
+    - id: 619443
+      asset_id: 100357
+      name: security_eeprom_aa
+      size: 548
+      blob_id: 20585
+- release:
+    id: 85304
+    game_id: 1851
+    description: ""
+    release_date: 19980000
+  names:
+  - id: 212385
+    kind: 3
+    kind_id: 85304
+    language: 1
+    name: "Gradius IV: Fukkatsu (ver JAA)"
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 100358
+      kind: 3
+      kind_id: 85304
+      type: 1
+      name: gradius4ja.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 619444
+      asset_id: 100358
+      name: 837a01.27p
+      size: 2097152
+      blob_id: 20586
+    - id: 619445
+      asset_id: 100358
+      name: 837a04.16t
+      size: 2097152
+      blob_id: 20574
+    - id: 619446
+      asset_id: 100358
+      name: 837a05.14t
+      size: 2097152
+      blob_id: 20575
+    - id: 619447
+      asset_id: 100358
+      name: 837a08.7s
+      size: 524288
+      blob_id: 20576
+    - id: 619448
+      asset_id: 100358
+      name: 837a09.16p
+      size: 4194304
+      blob_id: 20577
+    - id: 619449
+      asset_id: 100358
+      name: 837a10.14p
+      size: 4194304
+      blob_id: 20578
+    - id: 619450
+      asset_id: 100358
+      name: 837a13.24u
+      size: 4194304
+      blob_id: 20579
+    - id: 619451
+      asset_id: 100358
+      name: 837a14.32u
+      size: 4194304
+      blob_id: 20580
+    - id: 619452
+      asset_id: 100358
+      name: 837a15.24v
+      size: 4194304
+      blob_id: 20581
+    - id: 619453
+      asset_id: 100358
+      name: 837a16.32v
+      size: 4194304
+      blob_id: 20582
+    - id: 619454
+      asset_id: 100358
+      name: m48t58y-70pc1_jaa
+      size: 8192
+      blob_id: 20588
+    - id: 619455
+      asset_id: 100358
+      name: security_eeprom_ja
+      size: 548
+      blob_id: 20593
+- release:
+    id: 85305
+    game_id: 1851
+    description: ""
+    release_date: 19980000
+  names:
+  - id: 212386
+    kind: 3
+    kind_id: 85305
+    language: 1
+    name: Gradius IV (ver UAC)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 100359
+      kind: 3
+      kind_id: 85305
+      type: 1
+      name: gradius4u.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 619456
+      asset_id: 100359
+      name: 837a04.16t
+      size: 2097152
+      blob_id: 20574
+    - id: 619457
+      asset_id: 100359
+      name: 837a05.14t
+      size: 2097152
+      blob_id: 20575
+    - id: 619458
+      asset_id: 100359
+      name: 837a08.7s
+      size: 524288
+      blob_id: 20576
+    - id: 619459
+      asset_id: 100359
+      name: 837a09.16p
+      size: 4194304
+      blob_id: 20577
+    - id: 619460
+      asset_id: 100359
+      name: 837a10.14p
+      size: 4194304
+      blob_id: 20578
+    - id: 619461
+      asset_id: 100359
+      name: 837a13.24u
+      size: 4194304
+      blob_id: 20579
+    - id: 619462
+      asset_id: 100359
+      name: 837a14.32u
+      size: 4194304
+      blob_id: 20580
+    - id: 619463
+      asset_id: 100359
+      name: 837a15.24v
+      size: 4194304
+      blob_id: 20581
+    - id: 619464
+      asset_id: 100359
+      name: 837a16.32v
+      size: 4194304
+      blob_id: 20582
+    - id: 619465
+      asset_id: 100359
+      name: 837c01.27p
+      size: 2097152
+      blob_id: 20583
+    - id: 619466
+      asset_id: 100359
+      name: m48t58y-70pc1_uac
+      size: 8192
+      blob_id: 20589
+    - id: 619467
+      asset_id: 100359
+      name: security_eeprom_ua
+      size: 548
+      blob_id: 20590
+- release:
+    id: 85306
+    game_id: 1851
+    description: ""
+    release_date: 19980000
+  names:
+  - id: 212387
+    kind: 3
+    kind_id: 85306
+    language: 1
+    name: Gradius IV (ver UAA)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 100360
+      kind: 3
+      kind_id: 85306
+      type: 1
+      name: gradius4ua.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 619468
+      asset_id: 100360
+      name: 837a01.27p
+      size: 2097152
+      blob_id: 20586
+    - id: 619469
+      asset_id: 100360
+      name: 837a04.16t
+      size: 2097152
+      blob_id: 20574
+    - id: 619470
+      asset_id: 100360
+      name: 837a05.14t
+      size: 2097152
+      blob_id: 20575
+    - id: 619471
+      asset_id: 100360
+      name: 837a08.7s
+      size: 524288
+      blob_id: 20576
+    - id: 619472
+      asset_id: 100360
+      name: 837a09.16p
+      size: 4194304
+      blob_id: 20577
+    - id: 619473
+      asset_id: 100360
+      name: 837a10.14p
+      size: 4194304
+      blob_id: 20578
+    - id: 619474
+      asset_id: 100360
+      name: 837a13.24u
+      size: 4194304
+      blob_id: 20579
+    - id: 619475
+      asset_id: 100360
+      name: 837a14.32u
+      size: 4194304
+      blob_id: 20580
+    - id: 619476
+      asset_id: 100360
+      name: 837a15.24v
+      size: 4194304
+      blob_id: 20581
+    - id: 619477
+      asset_id: 100360
+      name: 837a16.32v
+      size: 4194304
+      blob_id: 20582
+    - id: 619478
+      asset_id: 100360
+      name: m48t58y-70pc1_uaa
+      size: 8192
+      blob_id: 20591
+    - id: 619479
+      asset_id: 100360
+      name: security_eeprom_ua
+      size: 548
+      blob_id: 20590

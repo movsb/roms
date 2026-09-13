@@ -16,6 +16,12 @@ names:
   language: 2
   name: 狂热篮球 (亚版, DM2/版本.C)
   source: trimui
+- id: 190040
+  kind: 2
+  kind_id: 1485
+  language: 1
+  name: Dunk Mania (Japan, DM1/VER.C)
+  source: mame
 game_developers:
 - game_id: 1485
   developer_id: 19
@@ -149,24 +155,10 @@ releases:
       blob_id: 85480
       debug: arcade/wheel/dunkmnia.png
     entries: []
-- release:
-    id: 41388
-    game_id: 1485
-    description: ""
-    release_date: 19950000
-  names:
-  - id: 113639
-    kind: 3
-    kind_id: 41388
-    language: 1
-    name: Dunk Mania (World, DM2/VER.C)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 54458
+      id: 98072
       kind: 3
-      kind_id: 41388
+      kind_id: 1485
       type: 1
       name: dunkmnia.zip
       description: ""
@@ -175,53 +167,129 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 156632
-      asset_id: 54458
+    - id: 593390
+      asset_id: 98072
       name: dm1rom0l.ic5
       size: 4194304
       blob_id: 16184
-    - id: 156633
-      asset_id: 54458
+    - id: 593391
+      asset_id: 98072
       name: dm1rom0u.ic6
       size: 4194304
       blob_id: 16185
-    - id: 156634
-      asset_id: 54458
+    - id: 593392
+      asset_id: 98072
       name: dm1rom1l.ic3
       size: 4194304
       blob_id: 16186
-    - id: 156635
-      asset_id: 54458
+    - id: 593393
+      asset_id: 98072
       name: dm1rom1u.ic8
       size: 4194304
       blob_id: 16187
-    - id: 156636
-      asset_id: 54458
+    - id: 593394
+      asset_id: 98072
       name: dm1sprog.6d
       size: 262144
       blob_id: 16188
-    - id: 156637
-      asset_id: 54458
+    - id: 593395
+      asset_id: 98072
       name: dm1verc.2f
       size: 1048576
       blob_id: 16189
-    - id: 156638
-      asset_id: 54458
+    - id: 593396
+      asset_id: 98072
       name: dm1verc.2k
       size: 1048576
       blob_id: 16190
-    - id: 156639
-      asset_id: 54458
+    - id: 593397
+      asset_id: 98072
       name: dm1wave.8k
       size: 4194304
-      blob_id: 110672
-    - id: 156640
-      asset_id: 54458
+      blob_id: 213456
+    - id: 593398
+      asset_id: 98072
       name: dm2verc.2j
       size: 1048576
       blob_id: 16192
-    - id: 156641
-      asset_id: 54458
+    - id: 593399
+      asset_id: 98072
       name: dm2verc.2l
       size: 1048576
       blob_id: 16193
+- release:
+    id: 83175
+    game_id: 1485
+    description: ""
+    release_date: 19950000
+  names:
+  - id: 209176
+    kind: 3
+    kind_id: 83175
+    language: 1
+    name: Dunk Mania (Japan, DM1/VER.C)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 98073
+      kind: 3
+      kind_id: 83175
+      type: 1
+      name: dunkmniajc.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 593400
+      asset_id: 98073
+      name: dm1rom0l.ic5
+      size: 4194304
+      blob_id: 16184
+    - id: 593401
+      asset_id: 98073
+      name: dm1rom0u.ic6
+      size: 4194304
+      blob_id: 16185
+    - id: 593402
+      asset_id: 98073
+      name: dm1rom1l.ic3
+      size: 4194304
+      blob_id: 16186
+    - id: 593403
+      asset_id: 98073
+      name: dm1rom1u.ic8
+      size: 4194304
+      blob_id: 16187
+    - id: 593404
+      asset_id: 98073
+      name: dm1sprog.6d
+      size: 262144
+      blob_id: 16188
+    - id: 593405
+      asset_id: 98073
+      name: dm1verc.2f
+      size: 1048576
+      blob_id: 16189
+    - id: 593406
+      asset_id: 98073
+      name: dm1verc.2j
+      size: 1048576
+      blob_id: 244201
+    - id: 593407
+      asset_id: 98073
+      name: dm1verc.2k
+      size: 1048576
+      blob_id: 16190
+    - id: 593408
+      asset_id: 98073
+      name: dm1verc.2l
+      size: 1048576
+      blob_id: 244202
+    - id: 593409
+      asset_id: 98073
+      name: dm1wave.8k
+      size: 4194304
+      blob_id: 213456

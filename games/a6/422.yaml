@@ -16,6 +16,12 @@ names:
   language: 2
   name: 雷达范围 (TRS02, 修订版 D)
   source: trimui
+- id: 195424
+  kind: 2
+  kind_id: 422
+  language: 1
+  name: Radar Scope (TRS01)
+  source: mame
 game_developers:
 - game_id: 422
   developer_id: 137
@@ -169,24 +175,10 @@ releases:
       blob_id: 88628
       debug: arcade/wheel/radarscp.png
     entries: []
-- release:
-    id: 63070
-    game_id: 422
-    description: ""
-    release_date: 19800000
-  names:
-  - id: 156400
-    kind: 3
-    kind_id: 63070
-    language: 1
-    name: Radar Scope (TRS02, rev. D)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 76140
+      id: 108775
       kind: 3
-      kind_id: 63070
+      kind_id: 422
       type: 1
       name: radarscp.zip
       description: ""
@@ -195,78 +187,295 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 315843
-      asset_id: 76140
+    - id: 709126
+      asset_id: 108775
       name: rs2-c.xxx
       size: 256
       blob_id: 3618
-    - id: 315844
-      asset_id: 76140
+    - id: 709127
+      asset_id: 108775
       name: rs2-v.1hc
       size: 256
       blob_id: 3619
-    - id: 315845
-      asset_id: 76140
+    - id: 709128
+      asset_id: 108775
       name: rs2-x.xxx
       size: 256
       blob_id: 3620
-    - id: 315846
-      asset_id: 76140
+    - id: 709129
+      asset_id: 108775
       name: trs2c5fd
       size: 4096
-      blob_id: 164174
-    - id: 315847
-      asset_id: 76140
+      blob_id: 268966
+    - id: 709130
+      asset_id: 108775
       name: trs2c5gd
       size: 4096
       blob_id: 3622
-    - id: 315848
-      asset_id: 76140
+    - id: 709131
+      asset_id: 108775
       name: trs2c5hd
       size: 4096
-      blob_id: 164175
-    - id: 315849
-      asset_id: 76140
+      blob_id: 268967
+    - id: 709132
+      asset_id: 108775
       name: trs2c5kd
       size: 4096
-      blob_id: 164176
-    - id: 315850
-      asset_id: 76140
+      blob_id: 268968
+    - id: 709133
+      asset_id: 108775
       name: trs2s3i
       size: 2048
       blob_id: 3625
-    - id: 315851
-      asset_id: 76140
+    - id: 709134
+      asset_id: 108775
       name: trs2v3ac
       size: 2048
       blob_id: 3626
-    - id: 315852
-      asset_id: 76140
+    - id: 709135
+      asset_id: 108775
       name: trs2v3bc
       size: 2048
       blob_id: 3627
-    - id: 315853
-      asset_id: 76140
+    - id: 709136
+      asset_id: 108775
       name: trs2v3cc
       size: 2048
       blob_id: 3628
-    - id: 315854
-      asset_id: 76140
+    - id: 709137
+      asset_id: 108775
       name: trs2v3dc
       size: 2048
       blob_id: 3629
-    - id: 315855
-      asset_id: 76140
+    - id: 709138
+      asset_id: 108775
       name: trs2v3ec
       size: 2048
       blob_id: 3630
-    - id: 315856
-      asset_id: 76140
+    - id: 709139
+      asset_id: 108775
       name: trs2v3gc
       size: 2048
       blob_id: 3631
-    - id: 315857
-      asset_id: 76140
+    - id: 709140
+      asset_id: 108775
+      name: trs2v3hc
+      size: 2048
+      blob_id: 3632
+- release:
+    id: 93235
+    game_id: 422
+    description: ""
+    release_date: 19800000
+  names:
+  - id: 224559
+    kind: 3
+    kind_id: 93235
+    language: 1
+    name: Radar Scope (TRS01)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 108776
+      kind: 3
+      kind_id: 93235
+      type: 1
+      name: radarscp1.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 709141
+      asset_id: 108776
+      name: trs-s__4h.4h
+      size: 2048
+      blob_id: 268969
+    - id: 709142
+      asset_id: 108776
+      name: trs-s__5a.5a
+      size: 2048
+      blob_id: 268970
+    - id: 709143
+      asset_id: 108776
+      name: trs011ha.bin
+      size: 2048
+      blob_id: 268971
+    - id: 709144
+      asset_id: 108776
+      name: trs01_5f
+      size: 4096
+      blob_id: 3621
+    - id: 709145
+      asset_id: 108776
+      name: trs01_5g
+      size: 4096
+      blob_id: 3622
+    - id: 709146
+      asset_id: 108776
+      name: trs01_5h
+      size: 4096
+      blob_id: 3623
+    - id: 709147
+      asset_id: 108776
+      name: trs01_5k
+      size: 4096
+      blob_id: 3624
+    - id: 709148
+      asset_id: 108776
+      name: trs01c2j.bin
+      size: 256
+      blob_id: 268972
+    - id: 709149
+      asset_id: 108776
+      name: trs01c2k.bin
+      size: 256
+      blob_id: 268973
+    - id: 709150
+      asset_id: 108776
+      name: trs01c2l.bin
+      size: 256
+      blob_id: 268974
+    - id: 709151
+      asset_id: 108776
+      name: trs01e3k.bin
+      size: 256
+      blob_id: 268975
+    - id: 709152
+      asset_id: 108776
+      name: trs01v1d.bin
+      size: 256
+      blob_id: 3619
+    - id: 709153
+      asset_id: 108776
+      name: trs01v3a
+      size: 2048
+      blob_id: 3626
+    - id: 709154
+      asset_id: 108776
+      name: trs01v3b
+      size: 2048
+      blob_id: 3627
+    - id: 709155
+      asset_id: 108776
+      name: trs01v3c
+      size: 2048
+      blob_id: 3628
+    - id: 709156
+      asset_id: 108776
+      name: trs01v3d
+      size: 2048
+      blob_id: 3629
+    - id: 709157
+      asset_id: 108776
+      name: trs01v3f
+      size: 2048
+      blob_id: 3631
+    - id: 709158
+      asset_id: 108776
+      name: trs01v3g
+      size: 2048
+      blob_id: 3632
+- release:
+    id: 93236
+    game_id: 422
+    description: ""
+    release_date: 19800000
+  names:
+  - id: 224560
+    kind: 3
+    kind_id: 93236
+    language: 1
+    name: Radar Scope (TRS02?, rev. C)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 108777
+      kind: 3
+      kind_id: 93236
+      type: 1
+      name: radarscpc.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 709159
+      asset_id: 108777
+      name: rs2-c.xxx
+      size: 256
+      blob_id: 3618
+    - id: 709160
+      asset_id: 108777
+      name: rs2-v.1hc
+      size: 256
+      blob_id: 3619
+    - id: 709161
+      asset_id: 108777
+      name: rs2-x.xxx
+      size: 256
+      blob_id: 3620
+    - id: 709162
+      asset_id: 108777
+      name: trs2c5fc
+      size: 4096
+      blob_id: 3621
+    - id: 709163
+      asset_id: 108777
+      name: trs2c5gc
+      size: 4096
+      blob_id: 3622
+    - id: 709164
+      asset_id: 108777
+      name: trs2c5hc
+      size: 4096
+      blob_id: 3623
+    - id: 709165
+      asset_id: 108777
+      name: trs2c5kc
+      size: 4096
+      blob_id: 3624
+    - id: 709166
+      asset_id: 108777
+      name: trs2s3i
+      size: 2048
+      blob_id: 3625
+    - id: 709167
+      asset_id: 108777
+      name: trs2v3ac
+      size: 2048
+      blob_id: 3626
+    - id: 709168
+      asset_id: 108777
+      name: trs2v3bc
+      size: 2048
+      blob_id: 3627
+    - id: 709169
+      asset_id: 108777
+      name: trs2v3cc
+      size: 2048
+      blob_id: 3628
+    - id: 709170
+      asset_id: 108777
+      name: trs2v3dc
+      size: 2048
+      blob_id: 3629
+    - id: 709171
+      asset_id: 108777
+      name: trs2v3ec
+      size: 2048
+      blob_id: 3630
+    - id: 709172
+      asset_id: 108777
+      name: trs2v3gc
+      size: 2048
+      blob_id: 3631
+    - id: 709173
+      asset_id: 108777
       name: trs2v3hc
       size: 2048
       blob_id: 3632

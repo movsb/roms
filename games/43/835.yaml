@@ -10,6 +10,18 @@ names:
   language: 1
   name: bigkarnk
   source: ""
+- id: 188427
+  kind: 2
+  kind_id: 835
+  language: 1
+  name: Big Karnak (ver. 1.0, checksum 1e38b94)
+  source: mame
+- id: 188428
+  kind: 2
+  kind_id: 835
+  language: 1
+  name: Big Karnak (Modular System)
+  source: mame
 game_developers:
 - game_id: 835
   developer_id: 559
@@ -128,6 +140,68 @@ releases:
       blob_id: 86780
       debug: arcade/wheel/bigkarnk.png
     entries: []
+  - asset:
+      id: 94881
+      kind: 3
+      kind_id: 835
+      type: 1
+      name: bigkarnk.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 551886
+      asset_id: 94881
+      name: bigkarnak_gal16v8.d6
+      size: 279
+      blob_id: 8516
+    - id: 551887
+      asset_id: 94881
+      name: bigkarnak_gal20v8.d21
+      size: 343
+      blob_id: 8517
+    - id: 551888
+      asset_id: 94881
+      name: d1
+      size: 262144
+      blob_id: 8508
+    - id: 551889
+      asset_id: 94881
+      name: d16
+      size: 262144
+      blob_id: 8509
+    - id: 551890
+      asset_id: 94881
+      name: d19
+      size: 262144
+      blob_id: 8510
+    - id: 551891
+      asset_id: 94881
+      name: d5
+      size: 65536
+      blob_id: 8511
+    - id: 551892
+      asset_id: 94881
+      name: h10
+      size: 524288
+      blob_id: 8512
+    - id: 551893
+      asset_id: 94881
+      name: h5
+      size: 524288
+      blob_id: 8513
+    - id: 551894
+      asset_id: 94881
+      name: h6
+      size: 524288
+      blob_id: 8514
+    - id: 551895
+      asset_id: 94881
+      name: h8
+      size: 524288
+      blob_id: 8515
 - release:
     id: 836
     game_id: 835
@@ -351,78 +425,461 @@ releases:
       size: 524288
       blob_id: 8515
 - release:
-    id: 37990
+    id: 80242
     game_id: 835
     description: ""
     release_date: 19910000
   names:
-  - id: 107079
+  - id: 204712
     kind: 3
-    kind_id: 37990
+    kind_id: 80242
     language: 1
-    name: Big Karnak (ver. 1.0, checksum 1e38c94)
+    name: Big Karnak (ver. 1.0, checksum 1e38b94)
     source: mame
   release_publishers: []
   assets:
   - asset:
-      id: 51060
+      id: 94882
       kind: 3
-      kind_id: 37990
+      kind_id: 80242
       type: 1
-      name: bigkarnk.zip
+      name: bigkarnka.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 113344
-      asset_id: 51060
-      name: bigkarnak_gal16v8.d6
+    - id: 551896
+      asset_id: 94882
+      name: 16_20_27c020.bin
+      size: 262144
+      blob_id: 240311
+    - id: 551897
+      asset_id: 94882
+      name: 20_19_27c020.bin
+      size: 262144
+      blob_id: 240312
+    - id: 551898
+      asset_id: 94882
+      name: f0_gal16v8.bin
       size: 279
-      blob_id: 8516
-    - id: 113345
-      asset_id: 51060
-      name: bigkarnak_gal20v8.d21
-      size: 343
-      blob_id: 8517
-    - id: 113346
-      asset_id: 51060
-      name: d1
+      blob_id: 240313
+    - id: 551899
+      asset_id: 94882
+      name: gaelco_1_karnak_27c020.bin
       size: 262144
       blob_id: 8508
-    - id: 113347
-      asset_id: 51060
-      name: d16
-      size: 262144
-      blob_id: 8509
-    - id: 113348
-      asset_id: 51060
-      name: d19
-      size: 262144
-      blob_id: 8510
-    - id: 113349
-      asset_id: 51060
-      name: d5
+    - id: 551900
+      asset_id: 94882
+      name: gaelco_2_karnak_27512.bin
       size: 65536
       blob_id: 8511
-    - id: 113350
-      asset_id: 51060
+    - id: 551901
+      asset_id: 94882
+      name: gal16v8.bin
+      size: 279
+      blob_id: 42145
+    - id: 551902
+      asset_id: 94882
       name: h10
       size: 524288
       blob_id: 8512
-    - id: 113351
-      asset_id: 51060
-      name: h5
-      size: 524288
-      blob_id: 8513
-    - id: 113352
-      asset_id: 51060
+    - id: 551903
+      asset_id: 94882
       name: h6
       size: 524288
       blob_id: 8514
-    - id: 113353
-      asset_id: 51060
+    - id: 551904
+      asset_id: 94882
       name: h8
       size: 524288
       blob_id: 8515
+    - id: 551905
+      asset_id: 94882
+      name: karnak_h5_23c4000.bin
+      size: 524288
+      blob_id: 8513
+- release:
+    id: 80243
+    game_id: 835
+    description: ""
+    release_date: 19910000
+  names:
+  - id: 204713
+    kind: 3
+    kind_id: 80243
+    language: 1
+    name: Big Karnak (Modular System)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 94883
+      kind: 3
+      kind_id: 80243
+      type: 1
+      name: bigkarnkm.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 551906
+      asset_id: 94883
+      name: 51_p0502_n82s129n.ic10
+      size: 256
+      blob_id: 7622
+    - id: 551907
+      asset_id: 94883
+      name: 51_p0503_pal16r6acn.ic48
+      size: 260
+      blob_id: 7690
+    - id: 551908
+      asset_id: 94883
+      name: 5_5148_gal16v8-25lnc.ic9
+      size: 279
+      blob_id: 205863
+    - id: 551909
+      asset_id: 94883
+      name: 5_5248_gal16v8-25lnc.ic8
+      size: 279
+      blob_id: 205864
+    - id: 551910
+      asset_id: 94883
+      name: 5_ka.ic13
+      size: 131072
+      blob_id: 8518
+    - id: 551911
+      asset_id: 94883
+      name: 5_ka.ic14
+      size: 131072
+      blob_id: 8519
+    - id: 551912
+      asset_id: 94883
+      name: 5_ka.ic15
+      size: 131072
+      blob_id: 8520
+    - id: 551913
+      asset_id: 94883
+      name: 5_ka.ic19
+      size: 131072
+      blob_id: 8521
+    - id: 551914
+      asset_id: 94883
+      name: 5_ka.ic20
+      size: 131072
+      blob_id: 8522
+    - id: 551915
+      asset_id: 94883
+      name: 5_ka.ic21
+      size: 131072
+      blob_id: 8523
+    - id: 551916
+      asset_id: 94883
+      name: 5_ka.ic25
+      size: 131072
+      blob_id: 8524
+    - id: 551917
+      asset_id: 94883
+      name: 5_ka.ic26
+      size: 131072
+      blob_id: 8525
+    - id: 551918
+      asset_id: 94883
+      name: 5_ka.ic27
+      size: 131072
+      blob_id: 8526
+    - id: 551919
+      asset_id: 94883
+      name: 5_ka.ic4
+      size: 131072
+      blob_id: 8527
+    - id: 551920
+      asset_id: 94883
+      name: 5_ka.ic5
+      size: 131072
+      blob_id: 8528
+    - id: 551921
+      asset_id: 94883
+      name: 5_ka.ic6
+      size: 131072
+      blob_id: 8529
+    - id: 551922
+      asset_id: 94883
+      name: 7_7148_gal20v8-25lp.ic7
+      size: 343
+      blob_id: 205865
+    - id: 551923
+      asset_id: 94883
+      name: 7_7248_gal20v8-25lp.ic54
+      size: 343
+      blob_id: 205866
+    - id: 551924
+      asset_id: 94883
+      name: 7_7348_gal16v8-25hb1.ic55
+      size: 279
+      blob_id: 205867
+    - id: 551925
+      asset_id: 94883
+      name: 7_7448_gal16v8-25hb1.ic9
+      size: 279
+      blob_id: 205868
+    - id: 551926
+      asset_id: 94883
+      name: 7_75flv_gal16v8-25hb1.ic59
+      size: 279
+      blob_id: 205869
+    - id: 551927
+      asset_id: 94883
+      name: 7_7648_gal20v8-25lp.ic44
+      size: 343
+      blob_id: 205870
+    - id: 551928
+      asset_id: 94883
+      name: 8_ka_814.ic14
+      size: 131072
+      blob_id: 8530
+    - id: 551929
+      asset_id: 94883
+      name: 8_ka_815.ic15
+      size: 131072
+      blob_id: 8531
+    - id: 551930
+      asset_id: 94883
+      name: 8_ka_821.ic21
+      size: 131072
+      blob_id: 8532
+    - id: 551931
+      asset_id: 94883
+      name: 8_ka_822.ic22
+      size: 131072
+      blob_id: 8533
+    - id: 551932
+      asset_id: 94883
+      name: 8_ka_829.ic29
+      size: 131072
+      blob_id: 8534
+    - id: 551933
+      asset_id: 94883
+      name: 8_ka_830.ic30
+      size: 131072
+      blob_id: 8535
+    - id: 551934
+      asset_id: 94883
+      name: 8_ka_836.ic36
+      size: 131072
+      blob_id: 8536
+    - id: 551935
+      asset_id: 94883
+      name: 8_ka_837.ic37
+      size: 131072
+      blob_id: 8537
+    - id: 551936
+      asset_id: 94883
+      name: cpu_606_gal16v8-25hb1.ic13
+      size: 279
+      blob_id: 205871
+    - id: 551937
+      asset_id: 94883
+      name: cpu_648_gal16v8-25ln.ic7
+      size: 279
+      blob_id: 205872
+    - id: 551938
+      asset_id: 94883
+      name: cpu_ka_6.ic11
+      size: 131072
+      blob_id: 8538
+    - id: 551939
+      asset_id: 94883
+      name: cpu_ka_6.ic17
+      size: 131072
+      blob_id: 8539
+    - id: 551940
+      asset_id: 94883
+      name: cpu_ka_6.ic20
+      size: 131072
+      blob_id: 8540
+    - id: 551941
+      asset_id: 94883
+      name: cpu_ka_6.ic8
+      size: 131072
+      blob_id: 8541
+    - id: 551942
+      asset_id: 94883
+      name: snd_9148_gal16v8-25hb1.ic142
+      size: 279
+      blob_id: 205873
+    - id: 551943
+      asset_id: 94883
+      name: snd_9248_gal20v8-25lp.ic18
+      size: 343
+      blob_id: 205874
+    - id: 551944
+      asset_id: 94883
+      name: snd_9348_gal16v8-25hb1.ic10
+      size: 279
+      blob_id: 205875
+    - id: 551945
+      asset_id: 94883
+      name: snd_ka.ic11
+      size: 131072
+      blob_id: 8542
+    - id: 551946
+      asset_id: 94883
+      name: snd_ka.ic6
+      size: 65536
+      blob_id: 8543
+  - asset:
+      id: 120007
+      kind: 3
+      kind_id: 80243
+      type: 1
+      name: bigkarnkm.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.259
+    entries:
+    - id: 850241
+      asset_id: 120007
+      name: 51_p0502_n82s129n.ic10
+      size: 256
+      blob_id: 7622
+    - id: 850242
+      asset_id: 120007
+      name: 51_p0503_pal16r6acn.ic48
+      size: 260
+      blob_id: 7690
+    - id: 850243
+      asset_id: 120007
+      name: 5_ka.ic13
+      size: 131072
+      blob_id: 8518
+    - id: 850244
+      asset_id: 120007
+      name: 5_ka.ic14
+      size: 131072
+      blob_id: 8519
+    - id: 850245
+      asset_id: 120007
+      name: 5_ka.ic15
+      size: 131072
+      blob_id: 8520
+    - id: 850246
+      asset_id: 120007
+      name: 5_ka.ic19
+      size: 131072
+      blob_id: 8521
+    - id: 850247
+      asset_id: 120007
+      name: 5_ka.ic20
+      size: 131072
+      blob_id: 8522
+    - id: 850248
+      asset_id: 120007
+      name: 5_ka.ic21
+      size: 131072
+      blob_id: 8523
+    - id: 850249
+      asset_id: 120007
+      name: 5_ka.ic25
+      size: 131072
+      blob_id: 8524
+    - id: 850250
+      asset_id: 120007
+      name: 5_ka.ic26
+      size: 131072
+      blob_id: 8525
+    - id: 850251
+      asset_id: 120007
+      name: 5_ka.ic27
+      size: 131072
+      blob_id: 8526
+    - id: 850252
+      asset_id: 120007
+      name: 5_ka.ic4
+      size: 131072
+      blob_id: 8527
+    - id: 850253
+      asset_id: 120007
+      name: 5_ka.ic5
+      size: 131072
+      blob_id: 8528
+    - id: 850254
+      asset_id: 120007
+      name: 5_ka.ic6
+      size: 131072
+      blob_id: 8529
+    - id: 850255
+      asset_id: 120007
+      name: 8_ka_814.ic14
+      size: 131072
+      blob_id: 8530
+    - id: 850256
+      asset_id: 120007
+      name: 8_ka_815.ic15
+      size: 131072
+      blob_id: 8531
+    - id: 850257
+      asset_id: 120007
+      name: 8_ka_821.ic21
+      size: 131072
+      blob_id: 8532
+    - id: 850258
+      asset_id: 120007
+      name: 8_ka_822.ic22
+      size: 131072
+      blob_id: 8533
+    - id: 850259
+      asset_id: 120007
+      name: 8_ka_829.ic29
+      size: 131072
+      blob_id: 8534
+    - id: 850260
+      asset_id: 120007
+      name: 8_ka_830.ic30
+      size: 131072
+      blob_id: 8535
+    - id: 850261
+      asset_id: 120007
+      name: 8_ka_836.ic36
+      size: 131072
+      blob_id: 8536
+    - id: 850262
+      asset_id: 120007
+      name: 8_ka_837.ic37
+      size: 131072
+      blob_id: 8537
+    - id: 850263
+      asset_id: 120007
+      name: cpu_ka_6.ic11
+      size: 131072
+      blob_id: 8538
+    - id: 850264
+      asset_id: 120007
+      name: cpu_ka_6.ic17
+      size: 131072
+      blob_id: 8539
+    - id: 850265
+      asset_id: 120007
+      name: cpu_ka_6.ic20
+      size: 131072
+      blob_id: 8540
+    - id: 850266
+      asset_id: 120007
+      name: cpu_ka_6.ic8
+      size: 131072
+      blob_id: 8541
+    - id: 850267
+      asset_id: 120007
+      name: snd_ka.ic11
+      size: 131072
+      blob_id: 8542
+    - id: 850268
+      asset_id: 120007
+      name: snd_ka.ic6
+      size: 65536
+      blob_id: 8543

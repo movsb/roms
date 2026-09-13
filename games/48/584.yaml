@@ -16,6 +16,18 @@ names:
   language: 2
   name: 四国战机 特别版
   source: trimui
+- id: 187760
+  kind: 2
+  kind_id: 584
+  language: 1
+  name: Aero Fighters Special (Taiwan)
+  source: mame
+- id: 199239
+  kind: 2
+  kind_id: 584
+  language: 1
+  name: Sonic Wings Limited (Japan)
+  source: mame
 game_developers: []
 game_genres: []
 assets: []
@@ -152,24 +164,10 @@ releases:
       name: sncwgltd/ic9.bin
       size: 524288
       blob_id: 5384
-- release:
-    id: 36394
-    game_id: 584
-    description: ""
-    release_date: 19960000
-  names:
-  - id: 103969
-    kind: 3
-    kind_id: 36394
-    language: 1
-    name: Aero Fighters Special (USA)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 49464
+      id: 93588
       kind: 3
-      kind_id: 36394
+      kind_id: 584
       type: 1
       name: aerofgts.zip
       description: ""
@@ -178,73 +176,265 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 97137
-      asset_id: 49464
+    - id: 536949
+      asset_id: 93588
       name: 1-8_prog0_usa_aa9e.ic5
       size: 524288
       blob_id: 5365
-    - id: 97138
-      asset_id: 49464
+    - id: 536950
+      asset_id: 93588
       name: 1-8_prog1_usa_0a1e.ic6
       size: 524288
       blob_id: 5366
-    - id: 97139
-      asset_id: 49464
+    - id: 536951
+      asset_id: 93588
       name: 1-8_prog2_usa_c4b3.ic7
       size: 524288
       blob_id: 5367
-    - id: 97140
-      asset_id: 49464
+    - id: 536952
+      asset_id: 93588
       name: 1-8_prog3_usa_e1d8.ic8
       size: 524288
       blob_id: 5368
-    - id: 97141
-      asset_id: 49464
+    - id: 536953
+      asset_id: 93588
       name: 1-8_prog4_usa_9127.ic9
       size: 524288
       blob_id: 5369
-    - id: 97142
-      asset_id: 49464
+    - id: 536954
+      asset_id: 93588
       name: coh-1002v.ic353
       size: 524288
       blob_id: 11967
-    - id: 97143
-      asset_id: 49464
+    - id: 536955
+      asset_id: 93588
       name: ic11.bin
       size: 4194304
       blob_id: 5374
-    - id: 97144
-      asset_id: 49464
+    - id: 536956
+      asset_id: 93588
       name: ic12.bin
       size: 4194304
       blob_id: 5375
-    - id: 97145
-      asset_id: 49464
+    - id: 536957
+      asset_id: 93588
       name: ic13.bin
       size: 4194304
       blob_id: 5376
-    - id: 97146
-      asset_id: 49464
+    - id: 536958
+      asset_id: 93588
       name: ic14.bin
       size: 4194304
       blob_id: 5377
-    - id: 97147
-      asset_id: 49464
+    - id: 536959
+      asset_id: 93588
       name: ic15.bin
       size: 4194304
       blob_id: 5378
-    - id: 97148
-      asset_id: 49464
+    - id: 536960
+      asset_id: 93588
       name: ic16.bin
       size: 4194304
       blob_id: 5379
-    - id: 97149
-      asset_id: 49464
+    - id: 536961
+      asset_id: 93588
       name: kn01.ic652
       size: 8
       blob_id: 11968
-    - id: 97150
-      asset_id: 49464
+    - id: 536962
+      asset_id: 93588
+      name: kn02
+      size: 8
+      blob_id: 5380
+- release:
+    id: 79044
+    game_id: 584
+    description: ""
+    release_date: 19960000
+  names:
+  - id: 202826
+    kind: 3
+    kind_id: 79044
+    language: 1
+    name: Aero Fighters Special (Taiwan)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 93590
+      kind: 3
+      kind_id: 79044
+      type: 1
+      name: aerofgtst.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 536971
+      asset_id: 93590
+      name: coh-1002v.ic353
+      size: 524288
+      blob_id: 11967
+    - id: 536972
+      asset_id: 93590
+      name: ic11.bin
+      size: 4194304
+      blob_id: 5374
+    - id: 536973
+      asset_id: 93590
+      name: ic12.bin
+      size: 4194304
+      blob_id: 5375
+    - id: 536974
+      asset_id: 93590
+      name: ic13.bin
+      size: 4194304
+      blob_id: 5376
+    - id: 536975
+      asset_id: 93590
+      name: ic14.bin
+      size: 4194304
+      blob_id: 5377
+    - id: 536976
+      asset_id: 93590
+      name: ic15.bin
+      size: 4194304
+      blob_id: 5378
+    - id: 536977
+      asset_id: 93590
+      name: ic16.bin
+      size: 4194304
+      blob_id: 5379
+    - id: 536978
+      asset_id: 93590
+      name: kn01.ic652
+      size: 8
+      blob_id: 11968
+    - id: 536979
+      asset_id: 93590
+      name: kn02
+      size: 8
+      blob_id: 5380
+    - id: 536980
+      asset_id: 93590
+      name: vs.ic5
+      size: 524288
+      blob_id: 5370
+    - id: 536981
+      asset_id: 93590
+      name: vs.ic6
+      size: 524288
+      blob_id: 5371
+    - id: 536982
+      asset_id: 93590
+      name: vs.ic7
+      size: 524288
+      blob_id: 5367
+    - id: 536983
+      asset_id: 93590
+      name: vs.ic8
+      size: 524288
+      blob_id: 5372
+    - id: 536984
+      asset_id: 93590
+      name: vs.ic9
+      size: 524288
+      blob_id: 5373
+- release:
+    id: 98153
+    game_id: 584
+    description: ""
+    release_date: 19960000
+  names:
+  - id: 230672
+    kind: 3
+    kind_id: 98153
+    language: 1
+    name: Sonic Wings Limited (Japan)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 113872
+      kind: 3
+      kind_id: 98153
+      type: 1
+      name: sncwgltd.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 749988
+      asset_id: 113872
+      name: coh-1002v.ic353
+      size: 524288
+      blob_id: 11967
+    - id: 749989
+      asset_id: 113872
+      name: ic11.bin
+      size: 4194304
+      blob_id: 5374
+    - id: 749990
+      asset_id: 113872
+      name: ic12.bin
+      size: 4194304
+      blob_id: 5375
+    - id: 749991
+      asset_id: 113872
+      name: ic13.bin
+      size: 4194304
+      blob_id: 5376
+    - id: 749992
+      asset_id: 113872
+      name: ic14.bin
+      size: 4194304
+      blob_id: 5377
+    - id: 749993
+      asset_id: 113872
+      name: ic15.bin
+      size: 4194304
+      blob_id: 5378
+    - id: 749994
+      asset_id: 113872
+      name: ic16.bin
+      size: 4194304
+      blob_id: 5379
+    - id: 749995
+      asset_id: 113872
+      name: ic5.bin
+      size: 524288
+      blob_id: 5381
+    - id: 749996
+      asset_id: 113872
+      name: ic6.bin
+      size: 524288
+      blob_id: 5382
+    - id: 749997
+      asset_id: 113872
+      name: ic7.bin
+      size: 524288
+      blob_id: 5367
+    - id: 749998
+      asset_id: 113872
+      name: ic8.bin
+      size: 524288
+      blob_id: 5383
+    - id: 749999
+      asset_id: 113872
+      name: ic9.bin
+      size: 524288
+      blob_id: 5384
+    - id: 750000
+      asset_id: 113872
+      name: kn01.ic652
+      size: 8
+      blob_id: 11968
+    - id: 750001
+      asset_id: 113872
       name: kn02
       size: 8
       blob_id: 5380

@@ -16,6 +16,12 @@ names:
   language: 2
   name: 小丑 (修正版. 2)
   source: trimui
+- id: 189091
+  kind: 2
+  kind_id: 120
+  language: 1
+  name: Clowns (rev. 1)
+  source: mame
 game_developers: []
 game_genres: []
 assets: []
@@ -87,24 +93,10 @@ releases:
       name: CHIPS.TXT
       size: 771
       blob_id: 1378
-- release:
-    id: 39443
-    game_id: 120
-    description: ""
-    release_date: 19780000
-  names:
-  - id: 109877
-    kind: 3
-    kind_id: 39443
-    language: 1
-    name: Clowns (rev. 2)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 52513
+      id: 96218
       kind: 3
-      kind_id: 39443
+      kind_id: 120
       type: 1
       name: clowns.zip
       description: ""
@@ -113,33 +105,89 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 131032
-      asset_id: 52513
+    - id: 568742
+      asset_id: 96218
       name: c2.cpu
       size: 1024
       blob_id: 1372
-    - id: 131033
-      asset_id: 52513
+    - id: 568743
+      asset_id: 96218
       name: d2.cpu
       size: 1024
       blob_id: 1373
-    - id: 131034
-      asset_id: 52513
+    - id: 568744
+      asset_id: 96218
       name: e2.cpu
       size: 1024
       blob_id: 1374
-    - id: 131035
-      asset_id: 52513
+    - id: 568745
+      asset_id: 96218
       name: f2.cpu
       size: 1024
       blob_id: 1375
-    - id: 131036
-      asset_id: 52513
+    - id: 568746
+      asset_id: 96218
       name: g2.cpu
       size: 1024
       blob_id: 1376
-    - id: 131037
-      asset_id: 52513
+    - id: 568747
+      asset_id: 96218
       name: h2.cpu
       size: 1024
       blob_id: 1377
+- release:
+    id: 81462
+    game_id: 120
+    description: ""
+    release_date: 19780000
+  names:
+  - id: 206593
+    kind: 3
+    kind_id: 81462
+    language: 1
+    name: Clowns (rev. 1)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 96219
+      kind: 3
+      kind_id: 81462
+      type: 1
+      name: clowns1.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 568748
+      asset_id: 96219
+      name: clownsv1.c
+      size: 1024
+      blob_id: 209113
+    - id: 568749
+      asset_id: 96219
+      name: clownsv1.d
+      size: 1024
+      blob_id: 209114
+    - id: 568750
+      asset_id: 96219
+      name: clownsv1.e
+      size: 1024
+      blob_id: 209115
+    - id: 568751
+      asset_id: 96219
+      name: clownsv1.f
+      size: 1024
+      blob_id: 209116
+    - id: 568752
+      asset_id: 96219
+      name: clownsv1.g
+      size: 1024
+      blob_id: 209117
+    - id: 568753
+      asset_id: 96219
+      name: clownsv1.h
+      size: 1024
+      blob_id: 209118

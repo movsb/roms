@@ -16,6 +16,12 @@ names:
   language: 2
   name: 国王与气球 (美版)
   source: trimui
+- id: 192349
+  kind: 2
+  kind_id: 2225
+  language: 1
+  name: King & Balloon (Japan)
+  source: mame
 game_developers: []
 game_genres:
 - game_id: 2225
@@ -142,24 +148,10 @@ releases:
       blob_id: 91307
       debug: arcade/wheel/kingball.png
     entries: []
-- release:
-    id: 48936
-    game_id: 2225
-    description: ""
-    release_date: 19800000
-  names:
-  - id: 128439
-    kind: 3
-    kind_id: 48936
-    language: 1
-    name: King & Balloon (US)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 62006
+      id: 102480
       kind: 3
-      kind_id: 48936
+      kind_id: 2225
       type: 1
       name: kingball.zip
       description: ""
@@ -168,53 +160,129 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 216314
-      asset_id: 62006
+    - id: 641936
+      asset_id: 102480
       name: chg1.1h
       size: 2048
       blob_id: 24670
-    - id: 216315
-      asset_id: 62006
+    - id: 641937
+      asset_id: 102480
       name: chg2.1k
       size: 2048
       blob_id: 24671
-    - id: 216316
-      asset_id: 62006
+    - id: 641938
+      asset_id: 102480
       name: kb2-1
       size: 32
       blob_id: 24672
-    - id: 216317
-      asset_id: 62006
+    - id: 641939
+      asset_id: 102480
       name: kbe1.ic4
       size: 2048
       blob_id: 24673
-    - id: 216318
-      asset_id: 62006
+    - id: 641940
+      asset_id: 102480
       name: kbe2.ic5
       size: 2048
       blob_id: 24674
-    - id: 216319
-      asset_id: 62006
+    - id: 641941
+      asset_id: 102480
       name: kbe2.ic7
       size: 2048
       blob_id: 24674
-    - id: 216320
-      asset_id: 62006
+    - id: 641942
+      asset_id: 102480
       name: kbe3.ic6
       size: 2048
-      blob_id: 131742
-    - id: 216321
-      asset_id: 62006
+      blob_id: 227244
+    - id: 641943
+      asset_id: 102480
       name: prg1.7f
       size: 4096
       blob_id: 24676
-    - id: 216322
-      asset_id: 62006
+    - id: 641944
+      asset_id: 102480
       name: prg2.7j
       size: 4096
       blob_id: 24677
-    - id: 216323
-      asset_id: 62006
+    - id: 641945
+      asset_id: 102480
+      name: prg3.7l
+      size: 2048
+      blob_id: 24678
+- release:
+    id: 87262
+    game_id: 2225
+    description: ""
+    release_date: 19800000
+  names:
+  - id: 215479
+    kind: 3
+    kind_id: 87262
+    language: 1
+    name: King & Balloon (Japan)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 102481
+      kind: 3
+      kind_id: 87262
+      type: 1
+      name: kingballj.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 641946
+      asset_id: 102481
+      name: chg1.1h
+      size: 2048
+      blob_id: 24670
+    - id: 641947
+      asset_id: 102481
+      name: chg2.1k
+      size: 2048
+      blob_id: 24671
+    - id: 641948
+      asset_id: 102481
+      name: kb2-1
+      size: 32
+      blob_id: 24672
+    - id: 641949
+      asset_id: 102481
+      name: kbj1.ic4
+      size: 2048
+      blob_id: 251358
+    - id: 641950
+      asset_id: 102481
+      name: kbj2.ic5
+      size: 2048
+      blob_id: 251359
+    - id: 641951
+      asset_id: 102481
+      name: kbj2.ic7
+      size: 2048
+      blob_id: 251359
+    - id: 641952
+      asset_id: 102481
+      name: kbj3.ic6
+      size: 2048
+      blob_id: 251360
+    - id: 641953
+      asset_id: 102481
+      name: prg1.7f
+      size: 4096
+      blob_id: 24676
+    - id: 641954
+      asset_id: 102481
+      name: prg2.7j
+      size: 4096
+      blob_id: 24677
+    - id: 641955
+      asset_id: 102481
       name: prg3.7l
       size: 2048
       blob_id: 24678

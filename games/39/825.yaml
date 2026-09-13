@@ -16,6 +16,18 @@ names:
   language: 2
   name: 柏林墙
   source: trimui
+- id: 188394
+  kind: 2
+  kind_id: 825
+  language: 1
+  name: The Berlin Wall (Korea)
+  source: mame
+- id: 188395
+  kind: 2
+  kind_id: 825
+  language: 1
+  name: The Berlin Wall (bootleg?)
+  source: mame
 game_developers:
 - game_id: 825
   developer_id: 555
@@ -47,9 +59,73 @@ releases:
     publisher_id: 312
   assets:
   - asset:
-      id: 825
+      id: 44940
       kind: 3
       kind_id: 825
+      type: 4
+      name: berlwall.png
+      description: ""
+      format: 1
+      size: 65969
+      blob_id: 88228
+      debug: arcade/downloaded_images/berlwall.png
+    entries: []
+  - asset:
+      id: 44941
+      kind: 3
+      kind_id: 825
+      type: 6
+      name: berlwall.mp4
+      description: ""
+      format: 1
+      size: 745671
+      blob_id: 88229
+      debug: arcade/snap/berlwall.mp4
+    entries: []
+  - asset:
+      id: 44942
+      kind: 3
+      kind_id: 825
+      type: 7
+      name: berlwall.png
+      description: ""
+      format: 1
+      size: 44171
+      blob_id: 88230
+      debug: arcade/wheel/berlwall.png
+    entries: []
+- release:
+    id: 37904
+    game_id: 825
+    description: ""
+    release_date: 19910000
+  names:
+  - id: 106912
+    kind: 3
+    kind_id: 37904
+    language: 1
+    name: The Berlin Wall
+    source: mame
+  - id: 183990
+    kind: 3
+    kind_id: 37904
+    language: 1
+    name: berlwall
+    source: ""
+  - id: 183991
+    kind: 3
+    kind_id: 37904
+    language: 2
+    name: 柏林墙
+    source: trimui
+  release_publishers:
+  - release_id: 37904
+    publisher_id: 312
+  assets:
+  - asset:
+      id: 825
+      kind: 3
+      kind_id: 37904
       type: 1
       name: berlwall.zip
       description: ""
@@ -134,57 +210,7 @@ releases:
       size: 131072
       blob_id: 8379
   - asset:
-      id: 44940
-      kind: 3
-      kind_id: 825
-      type: 4
-      name: berlwall.png
-      description: ""
-      format: 1
-      size: 65969
-      blob_id: 88228
-      debug: arcade/downloaded_images/berlwall.png
-    entries: []
-  - asset:
-      id: 44941
-      kind: 3
-      kind_id: 825
-      type: 6
-      name: berlwall.mp4
-      description: ""
-      format: 1
-      size: 745671
-      blob_id: 88229
-      debug: arcade/snap/berlwall.mp4
-    entries: []
-  - asset:
-      id: 44942
-      kind: 3
-      kind_id: 825
-      type: 7
-      name: berlwall.png
-      description: ""
-      format: 1
-      size: 44171
-      blob_id: 88230
-      debug: arcade/wheel/berlwall.png
-    entries: []
-- release:
-    id: 37904
-    game_id: 825
-    description: ""
-    release_date: 19910000
-  names:
-  - id: 106912
-    kind: 3
-    kind_id: 37904
-    language: 1
-    name: The Berlin Wall
-    source: mame
-  release_publishers: []
-  assets:
-  - asset:
-      id: 50974
+      id: 94814
       kind: 3
       kind_id: 37904
       type: 1
@@ -195,73 +221,275 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 112142
-      asset_id: 50974
+    - id: 550749
+      asset_id: 94814
       name: bw000.u46
       size: 262144
       blob_id: 8365
-    - id: 112143
-      asset_id: 50974
+    - id: 550750
+      asset_id: 94814
       name: bw001.u84
       size: 524288
       blob_id: 8366
-    - id: 112144
-      asset_id: 50974
+    - id: 550751
+      asset_id: 94814
       name: bw002.u83
       size: 524288
       blob_id: 8367
-    - id: 112145
-      asset_id: 50974
+    - id: 550752
+      asset_id: 94814
       name: bw003.u77
       size: 524288
       blob_id: 8368
-    - id: 112146
-      asset_id: 50974
+    - id: 550753
+      asset_id: 94814
       name: bw004.u73
       size: 524288
       blob_id: 8369
-    - id: 112147
-      asset_id: 50974
+    - id: 550754
+      asset_id: 94814
       name: bw005.u74
       size: 524288
       blob_id: 8370
-    - id: 112148
-      asset_id: 50974
+    - id: 550755
+      asset_id: 94814
       name: bw006.u75
       size: 524288
       blob_id: 8371
-    - id: 112149
-      asset_id: 50974
+    - id: 550756
+      asset_id: 94814
       name: bw007.u76
       size: 524288
       blob_id: 8372
-    - id: 112150
-      asset_id: 50974
+    - id: 550757
+      asset_id: 94814
       name: bw008.u65
       size: 524288
       blob_id: 8373
-    - id: 112151
-      asset_id: 50974
+    - id: 550758
+      asset_id: 94814
       name: bw009.u66
       size: 524288
       blob_id: 8374
-    - id: 112152
-      asset_id: 50974
+    - id: 550759
+      asset_id: 94814
       name: bw00a.u67
       size: 524288
       blob_id: 8375
-    - id: 112153
-      asset_id: 50974
+    - id: 550760
+      asset_id: 94814
       name: bw00b.u68
       size: 524288
       blob_id: 8376
-    - id: 112154
-      asset_id: 50974
+    - id: 550761
+      asset_id: 94814
       name: bw100e_u23-01.u23
       size: 131072
       blob_id: 8377
-    - id: 112155
-      asset_id: 50974
+    - id: 550762
+      asset_id: 94814
       name: bw101e_u39-01.u39
       size: 131072
       blob_id: 8378
+- release:
+    id: 80180
+    game_id: 825
+    description: ""
+    release_date: 19910000
+  names:
+  - id: 204611
+    kind: 3
+    kind_id: 80180
+    language: 1
+    name: The Berlin Wall (Korea)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 94815
+      kind: 3
+      kind_id: 80180
+      type: 1
+      name: berlwallk.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 550763
+      asset_id: 94815
+      name: bw000k.u46
+      size: 262144
+      blob_id: 240252
+    - id: 550764
+      asset_id: 94815
+      name: bw001.u84
+      size: 524288
+      blob_id: 8366
+    - id: 550765
+      asset_id: 94815
+      name: bw002.u83
+      size: 524288
+      blob_id: 8367
+    - id: 550766
+      asset_id: 94815
+      name: bw003.u77
+      size: 524288
+      blob_id: 8368
+    - id: 550767
+      asset_id: 94815
+      name: bw004.u73
+      size: 524288
+      blob_id: 8369
+    - id: 550768
+      asset_id: 94815
+      name: bw005.u74
+      size: 524288
+      blob_id: 8370
+    - id: 550769
+      asset_id: 94815
+      name: bw006.u75
+      size: 524288
+      blob_id: 8371
+    - id: 550770
+      asset_id: 94815
+      name: bw007.u76
+      size: 524288
+      blob_id: 8372
+    - id: 550771
+      asset_id: 94815
+      name: bw008.u65
+      size: 524288
+      blob_id: 8373
+    - id: 550772
+      asset_id: 94815
+      name: bw009.u66
+      size: 524288
+      blob_id: 8374
+    - id: 550773
+      asset_id: 94815
+      name: bw00a.u67
+      size: 524288
+      blob_id: 8375
+    - id: 550774
+      asset_id: 94815
+      name: bw00b.u68
+      size: 524288
+      blob_id: 8376
+    - id: 550775
+      asset_id: 94815
+      name: bw100k.u23
+      size: 131072
+      blob_id: 240253
+    - id: 550776
+      asset_id: 94815
+      name: bw101k.u39
+      size: 131072
+      blob_id: 240254
+    - id: 550777
+      asset_id: 94815
+      name: bw300k.u82
+      size: 131072
+      blob_id: 240255
+- release:
+    id: 80181
+    game_id: 825
+    description: ""
+    release_date: 19910000
+  names:
+  - id: 204612
+    kind: 3
+    kind_id: 80181
+    language: 1
+    name: The Berlin Wall (bootleg?)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 94816
+      kind: 3
+      kind_id: 80181
+      type: 1
+      name: berlwallt.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 550778
+      asset_id: 94816
+      name: bw000.u46
+      size: 262144
+      blob_id: 8365
+    - id: 550779
+      asset_id: 94816
+      name: bw001.u84
+      size: 524288
+      blob_id: 8366
+    - id: 550780
+      asset_id: 94816
+      name: bw002.u83
+      size: 524288
+      blob_id: 8367
+    - id: 550781
+      asset_id: 94816
+      name: bw003.u77
+      size: 524288
+      blob_id: 8368
+    - id: 550782
+      asset_id: 94816
+      name: bw004.u73
+      size: 524288
+      blob_id: 8369
+    - id: 550783
+      asset_id: 94816
+      name: bw005.u74
+      size: 524288
+      blob_id: 8370
+    - id: 550784
+      asset_id: 94816
+      name: bw006.u75
+      size: 524288
+      blob_id: 8371
+    - id: 550785
+      asset_id: 94816
+      name: bw007.u76
+      size: 524288
+      blob_id: 8372
+    - id: 550786
+      asset_id: 94816
+      name: bw008.u65
+      size: 524288
+      blob_id: 8373
+    - id: 550787
+      asset_id: 94816
+      name: bw009.u66
+      size: 524288
+      blob_id: 8374
+    - id: 550788
+      asset_id: 94816
+      name: bw00a.u67
+      size: 524288
+      blob_id: 8375
+    - id: 550789
+      asset_id: 94816
+      name: bw00b.u68
+      size: 524288
+      blob_id: 8376
+    - id: 550790
+      asset_id: 94816
+      name: bw100a.u23
+      size: 131072
+      blob_id: 240256
+    - id: 550791
+      asset_id: 94816
+      name: bw101a.u39
+      size: 131072
+      blob_id: 240257
+    - id: 550792
+      asset_id: 94816
+      name: bw300.u82
+      size: 131072
+      blob_id: 8379

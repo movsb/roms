@@ -10,6 +10,12 @@ names:
   language: 1
   name: sengekis
   source: ""
+- id: 198785
+  kind: 2
+  kind_id: 3560
+  language: 1
+  name: Sengeki Striker (Japan)
+  source: mame
 game_developers:
 - game_id: 3560
   developer_id: 555
@@ -36,6 +42,12 @@ releases:
     language: 2
     name: 闪激 (亚版)
     source: trimui
+  - id: 184815
+    kind: 3
+    kind_id: 3560
+    language: 1
+    name: Sengeki Striker (Asia)
+    source: fbneo
   release_publishers:
   - release_id: 3560
     publisher_id: 558
@@ -131,12 +143,12 @@ releases:
       asset_id: 3544
       name: supernova-modbios-korea.u10
       size: 524288
-      blob_id: 107139
+      blob_id: 281191
     - id: 356765
       asset_id: 3544
       name: supernova_modbios-japan.u10
       size: 524288
-      blob_id: 107140
+      blob_id: 281192
   - asset:
       id: 44748
       kind: 3
@@ -173,6 +185,93 @@ releases:
       blob_id: 88064
       debug: arcade/wheel/sengekis.png
     entries: []
+  - asset:
+      id: 119417
+      kind: 3
+      kind_id: 3560
+      type: 1
+      name: sengekis.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 830772
+      asset_id: 119417
+      name: sknsa1.u10
+      size: 524288
+      blob_id: 32305
+    - id: 830773
+      asset_id: 119417
+      name: sknse2.u10
+      size: 524288
+      blob_id: 32306
+    - id: 830774
+      asset_id: 119417
+      name: sknsj1.u10
+      size: 524288
+      blob_id: 32307
+    - id: 830775
+      asset_id: 119417
+      name: sknsk1.u10
+      size: 524288
+      blob_id: 32308
+    - id: 830776
+      asset_id: 119417
+      name: sknsu1.u10
+      size: 524288
+      blob_id: 32309
+    - id: 830777
+      asset_id: 119417
+      name: ss01a.u4
+      size: 524288
+      blob_id: 38283
+    - id: 830778
+      asset_id: 119417
+      name: ss01a.u6
+      size: 524288
+      blob_id: 38284
+    - id: 830779
+      asset_id: 119417
+      name: ss100-00.u21
+      size: 4194304
+      blob_id: 38285
+    - id: 830780
+      asset_id: 119417
+      name: ss101-00.u20
+      size: 4194304
+      blob_id: 38286
+    - id: 830781
+      asset_id: 119417
+      name: ss102-00.u8
+      size: 4194304
+      blob_id: 38287
+    - id: 830782
+      asset_id: 119417
+      name: ss103-00.u32
+      size: 4194304
+      blob_id: 38288
+    - id: 830783
+      asset_id: 119417
+      name: ss200-00.u17
+      size: 4194304
+      blob_id: 38289
+    - id: 830784
+      asset_id: 119417
+      name: ss201-00.u9
+      size: 4194304
+      blob_id: 38290
+    - id: 830785
+      asset_id: 119417
+      name: ss210-00.u3
+      size: 2097152
+      blob_id: 38291
+    - id: 830786
+      asset_id: 119417
+      name: ss300-00.u1
+      size: 4194304
+      blob_id: 38292
 - release:
     id: 3561
     game_id: 3560
@@ -266,103 +365,200 @@ releases:
       size: 4194304
       blob_id: 38292
 - release:
-    id: 77127
+    id: 97459
     game_id: 3560
     description: ""
     release_date: 19970000
   names:
-  - id: 183398
+  - id: 229744
     kind: 3
-    kind_id: 77127
+    kind_id: 97459
     language: 1
-    name: Sengeki Striker (Asia)
-    source: fbneo
+    name: Sengeki Striker (Japan)
+    source: mame
   release_publishers: []
   assets:
   - asset:
-      id: 90197
+      id: 113100
       kind: 3
-      kind_id: 77127
+      kind_id: 97459
       type: 1
-      name: sengekis.zip
+      name: sengekisj.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 737517
+      asset_id: 113100
+      name: sknsa1.u10
+      size: 524288
+      blob_id: 32305
+    - id: 737518
+      asset_id: 113100
+      name: sknse2.u10
+      size: 524288
+      blob_id: 32306
+    - id: 737519
+      asset_id: 113100
+      name: sknsj1.u10
+      size: 524288
+      blob_id: 32307
+    - id: 737520
+      asset_id: 113100
+      name: sknsk1.u10
+      size: 524288
+      blob_id: 32308
+    - id: 737521
+      asset_id: 113100
+      name: sknsu1.u10
+      size: 524288
+      blob_id: 32309
+    - id: 737522
+      asset_id: 113100
+      name: ss01j.u4
+      size: 524288
+      blob_id: 38293
+    - id: 737523
+      asset_id: 113100
+      name: ss01j.u6
+      size: 524288
+      blob_id: 38294
+    - id: 737524
+      asset_id: 113100
+      name: ss100-00.u21
+      size: 4194304
+      blob_id: 38285
+    - id: 737525
+      asset_id: 113100
+      name: ss101-00.u20
+      size: 4194304
+      blob_id: 38286
+    - id: 737526
+      asset_id: 113100
+      name: ss102-00.u8
+      size: 4194304
+      blob_id: 38287
+    - id: 737527
+      asset_id: 113100
+      name: ss103-00.u32
+      size: 4194304
+      blob_id: 38288
+    - id: 737528
+      asset_id: 113100
+      name: ss200-00.u17
+      size: 4194304
+      blob_id: 38289
+    - id: 737529
+      asset_id: 113100
+      name: ss201-00.u9
+      size: 4194304
+      blob_id: 38290
+    - id: 737530
+      asset_id: 113100
+      name: ss210-00.u3
+      size: 2097152
+      blob_id: 38291
+    - id: 737531
+      asset_id: 113100
+      name: ss300-00.u1
+      size: 4194304
+      blob_id: 38292
+    - id: 737532
+      asset_id: 113100
+      name: supernova-modbios-korea.u10
+      size: 524288
+      blob_id: 281191
+    - id: 737533
+      asset_id: 113100
+      name: supernova_modbios-japan.u10
+      size: 524288
+      blob_id: 281192
+  - asset:
+      id: 119418
+      kind: 3
+      kind_id: 97459
+      type: 1
+      name: sengekisj.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
       debug: dat:fbneo:5fa9b68a
     entries:
-    - id: 453521
-      asset_id: 90197
+    - id: 830787
+      asset_id: 119418
       name: sknsa1.u10
       size: 524288
       blob_id: 32305
-    - id: 453522
-      asset_id: 90197
+    - id: 830788
+      asset_id: 119418
       name: sknse2.u10
       size: 524288
       blob_id: 32306
-    - id: 453523
-      asset_id: 90197
+    - id: 830789
+      asset_id: 119418
       name: sknsj1.u10
       size: 524288
       blob_id: 32307
-    - id: 453524
-      asset_id: 90197
+    - id: 830790
+      asset_id: 119418
       name: sknsk1.u10
       size: 524288
       blob_id: 32308
-    - id: 453525
-      asset_id: 90197
+    - id: 830791
+      asset_id: 119418
       name: sknsu1.u10
       size: 524288
       blob_id: 32309
-    - id: 453526
-      asset_id: 90197
-      name: ss01a.u4
+    - id: 830792
+      asset_id: 119418
+      name: ss01j.u4
       size: 524288
-      blob_id: 38283
-    - id: 453527
-      asset_id: 90197
-      name: ss01a.u6
+      blob_id: 38293
+    - id: 830793
+      asset_id: 119418
+      name: ss01j.u6
       size: 524288
-      blob_id: 38284
-    - id: 453528
-      asset_id: 90197
+      blob_id: 38294
+    - id: 830794
+      asset_id: 119418
       name: ss100-00.u21
       size: 4194304
       blob_id: 38285
-    - id: 453529
-      asset_id: 90197
+    - id: 830795
+      asset_id: 119418
       name: ss101-00.u20
       size: 4194304
       blob_id: 38286
-    - id: 453530
-      asset_id: 90197
+    - id: 830796
+      asset_id: 119418
       name: ss102-00.u8
       size: 4194304
       blob_id: 38287
-    - id: 453531
-      asset_id: 90197
+    - id: 830797
+      asset_id: 119418
       name: ss103-00.u32
       size: 4194304
       blob_id: 38288
-    - id: 453532
-      asset_id: 90197
+    - id: 830798
+      asset_id: 119418
       name: ss200-00.u17
       size: 4194304
       blob_id: 38289
-    - id: 453533
-      asset_id: 90197
+    - id: 830799
+      asset_id: 119418
       name: ss201-00.u9
       size: 4194304
       blob_id: 38290
-    - id: 453534
-      asset_id: 90197
+    - id: 830800
+      asset_id: 119418
       name: ss210-00.u3
       size: 2097152
       blob_id: 38291
-    - id: 453535
-      asset_id: 90197
+    - id: 830801
+      asset_id: 119418
       name: ss300-00.u1
       size: 4194304
       blob_id: 38292

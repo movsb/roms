@@ -10,6 +10,24 @@ names:
   language: 1
   name: puyo
   source: ""
+- id: 195240
+  kind: 2
+  kind_id: 3227
+  language: 1
+  name: Puyo Puyo (World, bootleg)
+  source: mame
+- id: 195242
+  kind: 2
+  kind_id: 3227
+  language: 1
+  name: Puyo Puyo (Japan, Rev B)
+  source: mame
+- id: 195243
+  kind: 2
+  kind_id: 3227
+  language: 1
+  name: Puyo Puyo (Japan, Rev A)
+  source: mame
 game_developers:
 - game_id: 3227
   developer_id: 110
@@ -113,6 +131,43 @@ releases:
       blob_id: 90979
       debug: arcade/wheel/puyo.png
     entries: []
+  - asset:
+      id: 108353
+      kind: 3
+      kind_id: 3227
+      type: 1
+      name: puyo.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 704085
+      asset_id: 108353
+      name: epr-15196.ic4
+      size: 131072
+      blob_id: 34476
+    - id: 704086
+      asset_id: 108353
+      name: epr-15197.ic31
+      size: 131072
+      blob_id: 34477
+    - id: 704087
+      asset_id: 108353
+      name: epr-15198.ic32
+      size: 131072
+      blob_id: 34478
+    - id: 704088
+      asset_id: 108353
+      name: epr-15199.ic33
+      size: 131072
+      blob_id: 34479
+    - id: 704089
+      asset_id: 108353
+      name: epr-15200.ic34
+      size: 131072
+      blob_id: 34480
 - release:
     id: 3228
     game_id: 3227
@@ -216,53 +271,155 @@ releases:
       size: 131072
       blob_id: 34489
 - release:
-    id: 62646
+    id: 92833
     game_id: 3227
     description: ""
     release_date: 19920000
   names:
-  - id: 155569
+  - id: 223951
     kind: 3
-    kind_id: 62646
+    kind_id: 92833
     language: 1
-    name: Puyo Puyo (World)
+    name: Puyo Puyo (World, bootleg)
     source: mame
   release_publishers: []
   assets:
   - asset:
-      id: 75716
+      id: 108354
       kind: 3
-      kind_id: 62646
+      kind_id: 92833
       type: 1
-      name: puyo.zip
+      name: puyobl.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 310607
-      asset_id: 75716
-      name: epr-15196.ic4
+    - id: 704090
+      asset_id: 108354
+      name: puyopuyb.3bo
       size: 131072
-      blob_id: 34476
-    - id: 310608
-      asset_id: 75716
-      name: epr-15197.ic31
+      blob_id: 34481
+    - id: 704091
+      asset_id: 108354
+      name: puyopuyb.4bo
       size: 131072
-      blob_id: 34477
-    - id: 310609
-      asset_id: 75716
-      name: epr-15198.ic32
-      size: 131072
-      blob_id: 34478
-    - id: 310610
-      asset_id: 75716
-      name: epr-15199.ic33
+      blob_id: 34482
+    - id: 704092
+      asset_id: 108354
+      name: puyopuyb.5bo
       size: 131072
       blob_id: 34479
-    - id: 310611
-      asset_id: 75716
-      name: epr-15200.ic34
+    - id: 704093
+      asset_id: 108354
+      name: puyopuyb.6bo
       size: 131072
       blob_id: 34480
+    - id: 704094
+      asset_id: 108354
+      name: puyopuyb.abo
+      size: 131072
+      blob_id: 34476
+- release:
+    id: 92838
+    game_id: 3227
+    description: ""
+    release_date: 19920000
+  names:
+  - id: 223958
+    kind: 3
+    kind_id: 92838
+    language: 1
+    name: Puyo Puyo (Japan, Rev B)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 108359
+      kind: 3
+      kind_id: 92838
+      type: 1
+      name: puyoj.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 704208
+      asset_id: 108359
+      name: epr-15034.ic4
+      size: 131072
+      blob_id: 34483
+    - id: 704209
+      asset_id: 108359
+      name: epr-15035b.ic31
+      size: 131072
+      blob_id: 34484
+    - id: 704210
+      asset_id: 108359
+      name: epr-15036b.ic32
+      size: 131072
+      blob_id: 34485
+    - id: 704211
+      asset_id: 108359
+      name: epr-15037.ic33
+      size: 131072
+      blob_id: 34486
+    - id: 704212
+      asset_id: 108359
+      name: epr-15038.ic34
+      size: 131072
+      blob_id: 34487
+- release:
+    id: 92839
+    game_id: 3227
+    description: ""
+    release_date: 19920000
+  names:
+  - id: 223959
+    kind: 3
+    kind_id: 92839
+    language: 1
+    name: Puyo Puyo (Japan, Rev A)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 108360
+      kind: 3
+      kind_id: 92839
+      type: 1
+      name: puyoja.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 704213
+      asset_id: 108360
+      name: epr-15034.ic4
+      size: 131072
+      blob_id: 34483
+    - id: 704214
+      asset_id: 108360
+      name: epr-15035a.ic31
+      size: 131072
+      blob_id: 34488
+    - id: 704215
+      asset_id: 108360
+      name: epr-15036a.ic32
+      size: 131072
+      blob_id: 34489
+    - id: 704216
+      asset_id: 108360
+      name: epr-15037.ic33
+      size: 131072
+      blob_id: 34486
+    - id: 704217
+      asset_id: 108360
+      name: epr-15038.ic34
+      size: 131072
+      blob_id: 34487

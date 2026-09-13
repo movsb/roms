@@ -10,6 +10,18 @@ names:
   language: 1
   name: rainbow
   source: ""
+- id: 195486
+  kind: 2
+  kind_id: 3303
+  language: 1
+  name: Rainbow 100-A
+  source: mame
+- id: 195487
+  kind: 2
+  kind_id: 3303
+  language: 1
+  name: Rainbow 190-B
+  source: mame
 game_developers:
 - game_id: 3303
   developer_id: 35
@@ -137,6 +149,38 @@ releases:
       blob_id: 88952
       debug: arcade/wheel/rainbow.png
     entries: []
+  - asset:
+      id: 108856
+      kind: 3
+      kind_id: 3303
+      type: 1
+      name: rainbow.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 710281
+      asset_id: 108856
+      name: 23-020e5-00.bin
+      size: 16384
+      blob_id: 269098
+    - id: 710282
+      asset_id: 108856
+      name: 23-022e5-00.bin
+      size: 16384
+      blob_id: 269099
+    - id: 710283
+      asset_id: 108856
+      name: 23-037e3.bin
+      size: 4096
+      blob_id: 269100
+    - id: 710284
+      asset_id: 108856
+      name: 23-090b1.mmi6308-ij.e13
+      size: 256
+      blob_id: 269101
 - release:
     id: 3304
     game_id: 3303
@@ -234,48 +278,109 @@ releases:
       size: 524288
       blob_id: 35246
 - release:
-    id: 63152
+    id: 93308
     game_id: 3303
     description: ""
-    release_date: 19830000
+    release_date: 19820000
   names:
-  - id: 156556
+  - id: 224644
     kind: 3
-    kind_id: 63152
+    kind_id: 93308
     language: 1
-    name: Rainbow 100-B
+    name: Rainbow 100-A
     source: mame
   release_publishers: []
   assets:
   - asset:
-      id: 76222
+      id: 108857
       kind: 3
-      kind_id: 63152
+      kind_id: 93308
       type: 1
-      name: rainbow.zip
+      name: rainbow100a.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 317010
-      asset_id: 76222
-      name: 23-020e5-00.bin
-      size: 16384
-      blob_id: 164317
-    - id: 317011
-      asset_id: 76222
-      name: 23-022e5-00.bin
-      size: 16384
-      blob_id: 164318
-    - id: 317012
-      asset_id: 76222
+    - id: 710285
+      asset_id: 108857
+      name: 23-020e3-00.e98
+      size: 4096
+      blob_id: 269102
+    - id: 710286
+      asset_id: 108857
+      name: 23-090b1.mmi6308-ij.e11
+      size: 256
+      blob_id: 269101
+    - id: 710287
+      asset_id: 108857
+      name: 23-090e4-0_11-24.bin
+      size: 8192
+      blob_id: 269103
+    - id: 710288
+      asset_id: 108857
+      name: 23-091e4-0_11-24.bin
+      size: 8192
+      blob_id: 269104
+    - id: 710289
+      asset_id: 108857
+      name: 23-092e4-00.e91
+      size: 8192
+      blob_id: 269105
+    - id: 710290
+      asset_id: 108857
+      name: 23-176e4-00.e89
+      size: 8192
+      blob_id: 269106
+    - id: 710291
+      asset_id: 108857
+      name: 23-177e4-00.e90
+      size: 8192
+      blob_id: 269107
+- release:
+    id: 93309
+    game_id: 3303
+    description: ""
+    release_date: 19850000
+  names:
+  - id: 224645
+    kind: 3
+    kind_id: 93309
+    language: 1
+    name: Rainbow 190-B
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 108858
+      kind: 3
+      kind_id: 93309
+      type: 1
+      name: rainbow190.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 710292
+      asset_id: 108858
       name: 23-037e3.bin
       size: 4096
-      blob_id: 164319
-    - id: 317013
-      asset_id: 76222
+      blob_id: 269100
+    - id: 710293
+      asset_id: 108858
       name: 23-090b1.mmi6308-ij.e13
       size: 256
-      blob_id: 164320
+      blob_id: 269101
+    - id: 710294
+      asset_id: 108858
+      name: dec190rom0.bin
+      size: 16384
+      blob_id: 269108
+    - id: 710295
+      asset_id: 108858
+      name: dec190rom1.bin
+      size: 16384
+      blob_id: 269109

@@ -16,6 +16,36 @@ names:
   language: 2
   name: 动物也疯狂 (19th Sep. 1991, 保护版, 第一套)
   source: trimui
+- id: 186869
+  kind: 2
+  kind_id: 1942
+  language: 1
+  name: hachamfb
+  source: ""
+- id: 186870
+  kind: 2
+  kind_id: 1942
+  language: 2
+  name: 动物也疯狂 (19th Sep. 1991, 未保护, D版 雷龙 转换版)
+  source: trimui
+- id: 191536
+  kind: 2
+  kind_id: 1942
+  language: 1
+  name: Hacha Mecha Fighter (19th Sep. 1991, protected, set 2)
+  source: mame
+- id: 191537
+  kind: 2
+  kind_id: 1942
+  language: 1
+  name: Hacha Mecha Fighter (bootleg with Raiden sounds)
+  source: mame
+- id: 191538
+  kind: 2
+  kind_id: 1942
+  language: 1
+  name: Hacha Mecha Fighter (Location Test Prototype, 19th Sep. 1991)
+  source: mame
 game_developers:
 - game_id: 1942
   developer_id: 460
@@ -47,9 +77,61 @@ releases:
     publisher_id: 290
   assets:
   - asset:
-      id: 1941
+      id: 42270
       kind: 3
       kind_id: 1942
+      type: 6
+      name: hachamf.mp4
+      description: ""
+      format: 1
+      size: 3041078
+      blob_id: 85810
+      debug: arcade/snap/hachamf.mp4
+    entries: []
+  - asset:
+      id: 42271
+      kind: 3
+      kind_id: 1942
+      type: 7
+      name: hachamf.png
+      description: ""
+      format: 1
+      size: 66806
+      blob_id: 85811
+      debug: arcade/wheel/hachamf.png
+    entries: []
+- release:
+    id: 45564
+    game_id: 1942
+    description: ""
+    release_date: 19910000
+  names:
+  - id: 121809
+    kind: 3
+    kind_id: 45564
+    language: 1
+    name: Hacha Mecha Fighter (19th Sep. 1991, protected, set 1)
+    source: mame
+  - id: 184034
+    kind: 3
+    kind_id: 45564
+    language: 1
+    name: hachamf
+    source: ""
+  - id: 184035
+    kind: 3
+    kind_id: 45564
+    language: 2
+    name: 动物也疯狂 (19th Sep. 1991, 保护版, 第一套)
+    source: trimui
+  release_publishers:
+  - release_id: 45564
+    publisher_id: 290
+  assets:
+  - asset:
+      id: 1941
+      kind: 3
+      kind_id: 45564
       type: 1
       name: hachamf.zip
       description: ""
@@ -104,45 +186,7 @@ releases:
       size: 8192
       blob_id: 21613
   - asset:
-      id: 42270
-      kind: 3
-      kind_id: 1942
-      type: 6
-      name: hachamf.mp4
-      description: ""
-      format: 1
-      size: 3041078
-      blob_id: 85810
-      debug: arcade/snap/hachamf.mp4
-    entries: []
-  - asset:
-      id: 42271
-      kind: 3
-      kind_id: 1942
-      type: 7
-      name: hachamf.png
-      description: ""
-      format: 1
-      size: 66806
-      blob_id: 85811
-      debug: arcade/wheel/hachamf.png
-    entries: []
-- release:
-    id: 45564
-    game_id: 1942
-    description: ""
-    release_date: 19910000
-  names:
-  - id: 121809
-    kind: 3
-    kind_id: 45564
-    language: 1
-    name: Hacha Mecha Fighter (19th Sep. 1991, protected, set 1)
-    source: mame
-  release_publishers: []
-  assets:
-  - asset:
-      id: 58634
+      id: 100738
       kind: 3
       kind_id: 45564
       type: 1
@@ -153,58 +197,726 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 192793
-      asset_id: 58634
+    - id: 624049
+      asset_id: 100738
       name: "1.70"
       size: 65536
       blob_id: 21603
-    - id: 192794
-      asset_id: 58634
+    - id: 624050
+      asset_id: 100738
       name: "5.95"
       size: 131072
       blob_id: 21604
-    - id: 192795
-      asset_id: 58634
+    - id: 624051
+      asset_id: 100738
       name: "6.94"
       size: 131072
       blob_id: 21605
-    - id: 192796
-      asset_id: 58634
+    - id: 624052
+      asset_id: 100738
       name: "7.93"
       size: 131072
       blob_id: 21606
-    - id: 192797
-      asset_id: 58634
+    - id: 624053
+      asset_id: 100738
       name: 82s129.ic51
       size: 256
       blob_id: 5231
-    - id: 192798
-      asset_id: 58634
+    - id: 624054
+      asset_id: 100738
       name: 82s135.ic50
       size: 256
       blob_id: 5232
-    - id: 192799
-      asset_id: 58634
+    - id: 624055
+      asset_id: 100738
       name: 91076-2.46
       size: 524288
       blob_id: 21607
-    - id: 192800
-      asset_id: 58634
+    - id: 624056
+      asset_id: 100738
       name: 91076-3.45
       size: 524288
       blob_id: 21608
-    - id: 192801
-      asset_id: 58634
+    - id: 624057
+      asset_id: 100738
       name: 91076-4.101
       size: 1048576
       blob_id: 21609
-    - id: 192802
-      asset_id: 58634
+    - id: 624058
+      asset_id: 100738
       name: 91076-8.57
       size: 1048576
       blob_id: 21610
-    - id: 192803
-      asset_id: 58634
+    - id: 624059
+      asset_id: 100738
       name: nmk-113.bin
       size: 16384
-      blob_id: 122399
+      blob_id: 220749
+  - asset:
+      id: 120485
+      kind: 3
+      kind_id: 45564
+      type: 1
+      name: hachamf.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.259
+    entries:
+    - id: 864554
+      asset_id: 120485
+      name: "1.70"
+      size: 65536
+      blob_id: 21603
+    - id: 864555
+      asset_id: 120485
+      name: "5.95"
+      size: 131072
+      blob_id: 21604
+    - id: 864556
+      asset_id: 120485
+      name: "6.94"
+      size: 131072
+      blob_id: 21605
+    - id: 864557
+      asset_id: 120485
+      name: "7.93"
+      size: 131072
+      blob_id: 21606
+    - id: 864558
+      asset_id: 120485
+      name: 91076-2.46
+      size: 524288
+      blob_id: 21607
+    - id: 864559
+      asset_id: 120485
+      name: 91076-3.45
+      size: 524288
+      blob_id: 21608
+    - id: 864560
+      asset_id: 120485
+      name: 91076-4.101
+      size: 1048576
+      blob_id: 21609
+    - id: 864561
+      asset_id: 120485
+      name: 91076-8.57
+      size: 1048576
+      blob_id: 21610
+- release:
+    id: 77862
+    game_id: 1942
+    description: ""
+    release_date: 19910000
+  names:
+  - id: 185785
+    kind: 3
+    kind_id: 77862
+    language: 1
+    name: Hacha Mecha Fighter (19th Sep. 1991, unprotected, bootleg Thunder Dragon conversion)
+    source: mame
+  - id: 185786
+    kind: 3
+    kind_id: 77862
+    language: 1
+    name: hachamfb
+    source: ""
+  - id: 185787
+    kind: 3
+    kind_id: 77862
+    language: 2
+    name: 动物也疯狂 (19th Sep. 1991, 未保护, D版 雷龙 转换版)
+    source: trimui
+  release_publishers: []
+  assets:
+  - asset:
+      id: 1942
+      kind: 3
+      kind_id: 77862
+      type: 1
+      name: hachamfb.zip
+      description: ""
+      format: 2
+      size: 1207132
+      blob_id: 0
+      debug: hachamfb.zip
+    entries:
+    - id: 31552
+      asset_id: 1942
+      name: "1.70"
+      size: 65536
+      blob_id: 21603
+    - id: 31553
+      asset_id: 1942
+      name: "5.95"
+      size: 131072
+      blob_id: 21604
+    - id: 31554
+      asset_id: 1942
+      name: 7.bin
+      size: 131072
+      blob_id: 21611
+    - id: 31555
+      asset_id: 1942
+      name: 8.bin
+      size: 131072
+      blob_id: 21612
+    - id: 31556
+      asset_id: 1942
+      name: 91076-2.46
+      size: 524288
+      blob_id: 21607
+    - id: 31557
+      asset_id: 1942
+      name: 91076-3.45
+      size: 524288
+      blob_id: 21608
+    - id: 31558
+      asset_id: 1942
+      name: 91076-4.101
+      size: 1048576
+      blob_id: 21609
+    - id: 31559
+      asset_id: 1942
+      name: 91076-8.57
+      size: 1048576
+      blob_id: 21610
+    - id: 31560
+      asset_id: 1942
+      name: nmk004.bin
+      size: 8192
+      blob_id: 21613
+  - asset:
+      id: 100740
+      kind: 3
+      kind_id: 77862
+      type: 1
+      name: hachamfb.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 624071
+      asset_id: 100740
+      name: "1.70"
+      size: 65536
+      blob_id: 21603
+    - id: 624072
+      asset_id: 100740
+      name: "5.95"
+      size: 131072
+      blob_id: 21604
+    - id: 624073
+      asset_id: 100740
+      name: 7.bin
+      size: 131072
+      blob_id: 21611
+    - id: 624074
+      asset_id: 100740
+      name: 8.bin
+      size: 131072
+      blob_id: 21612
+    - id: 624075
+      asset_id: 100740
+      name: 82s129.ic51
+      size: 256
+      blob_id: 5231
+    - id: 624076
+      asset_id: 100740
+      name: 82s135.ic50
+      size: 256
+      blob_id: 5232
+    - id: 624077
+      asset_id: 100740
+      name: 91076-2.46
+      size: 524288
+      blob_id: 21607
+    - id: 624078
+      asset_id: 100740
+      name: 91076-3.45
+      size: 524288
+      blob_id: 21608
+    - id: 624079
+      asset_id: 100740
+      name: 91076-4.101
+      size: 1048576
+      blob_id: 21609
+    - id: 624080
+      asset_id: 100740
+      name: 91076-8.57
+      size: 1048576
+      blob_id: 21610
+  - asset:
+      id: 120487
+      kind: 3
+      kind_id: 77862
+      type: 1
+      name: hachamfb.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.259
+    entries:
+    - id: 864570
+      asset_id: 120487
+      name: "1.70"
+      size: 65536
+      blob_id: 21603
+    - id: 864571
+      asset_id: 120487
+      name: "5.95"
+      size: 131072
+      blob_id: 21604
+    - id: 864572
+      asset_id: 120487
+      name: 7.bin
+      size: 131072
+      blob_id: 21611
+    - id: 864573
+      asset_id: 120487
+      name: 8.bin
+      size: 131072
+      blob_id: 21612
+    - id: 864574
+      asset_id: 120487
+      name: 91076-2.46
+      size: 524288
+      blob_id: 21607
+    - id: 864575
+      asset_id: 120487
+      name: 91076-3.45
+      size: 524288
+      blob_id: 21608
+    - id: 864576
+      asset_id: 120487
+      name: 91076-4.101
+      size: 1048576
+      blob_id: 21609
+    - id: 864577
+      asset_id: 120487
+      name: 91076-8.57
+      size: 1048576
+      blob_id: 21610
+- release:
+    id: 85649
+    game_id: 1942
+    description: ""
+    release_date: 19910000
+  names:
+  - id: 212890
+    kind: 3
+    kind_id: 85649
+    language: 1
+    name: Hacha Mecha Fighter (19th Sep. 1991, protected, set 2)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 100739
+      kind: 3
+      kind_id: 85649
+      type: 1
+      name: hachamfa.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 624060
+      asset_id: 100739
+      name: "1.70"
+      size: 65536
+      blob_id: 21603
+    - id: 624061
+      asset_id: 100739
+      name: 5.ic95
+      size: 131072
+      blob_id: 248499
+    - id: 624062
+      asset_id: 100739
+      name: 6.ic94
+      size: 131072
+      blob_id: 248500
+    - id: 624063
+      asset_id: 100739
+      name: 7.ic93
+      size: 131072
+      blob_id: 248501
+    - id: 624064
+      asset_id: 100739
+      name: 82s129.ic51
+      size: 256
+      blob_id: 5231
+    - id: 624065
+      asset_id: 100739
+      name: 82s135.ic50
+      size: 256
+      blob_id: 5232
+    - id: 624066
+      asset_id: 100739
+      name: 91076-2.46
+      size: 524288
+      blob_id: 21607
+    - id: 624067
+      asset_id: 100739
+      name: 91076-3.45
+      size: 524288
+      blob_id: 21608
+    - id: 624068
+      asset_id: 100739
+      name: 91076-4.101
+      size: 1048576
+      blob_id: 21609
+    - id: 624069
+      asset_id: 100739
+      name: 91076-8.57
+      size: 1048576
+      blob_id: 21610
+    - id: 624070
+      asset_id: 100739
+      name: nmk-113.bin
+      size: 16384
+      blob_id: 220749
+  - asset:
+      id: 118871
+      kind: 3
+      kind_id: 85649
+      type: 1
+      name: hachamfa.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 814672
+      asset_id: 118871
+      name: "1.70"
+      size: 65536
+      blob_id: 21603
+    - id: 814673
+      asset_id: 118871
+      name: 5.ic95
+      size: 131072
+      blob_id: 248499
+    - id: 814674
+      asset_id: 118871
+      name: 6.ic94
+      size: 131072
+      blob_id: 248500
+    - id: 814675
+      asset_id: 118871
+      name: 7.ic93
+      size: 131072
+      blob_id: 248501
+    - id: 814676
+      asset_id: 118871
+      name: 91076-2.46
+      size: 524288
+      blob_id: 21607
+    - id: 814677
+      asset_id: 118871
+      name: 91076-3.45
+      size: 524288
+      blob_id: 21608
+    - id: 814678
+      asset_id: 118871
+      name: 91076-4.101
+      size: 1048576
+      blob_id: 21609
+    - id: 814679
+      asset_id: 118871
+      name: 91076-8.57
+      size: 1048576
+      blob_id: 21610
+    - id: 814680
+      asset_id: 118871
+      name: nmk004.bin
+      size: 8192
+      blob_id: 21613
+  - asset:
+      id: 120486
+      kind: 3
+      kind_id: 85649
+      type: 1
+      name: hachamfa.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.259
+    entries:
+    - id: 864562
+      asset_id: 120486
+      name: "1.70"
+      size: 65536
+      blob_id: 21603
+    - id: 864563
+      asset_id: 120486
+      name: 5.ic95
+      size: 131072
+      blob_id: 248499
+    - id: 864564
+      asset_id: 120486
+      name: 6.ic94
+      size: 131072
+      blob_id: 248500
+    - id: 864565
+      asset_id: 120486
+      name: 7.ic93
+      size: 131072
+      blob_id: 248501
+    - id: 864566
+      asset_id: 120486
+      name: 91076-2.46
+      size: 524288
+      blob_id: 21607
+    - id: 864567
+      asset_id: 120486
+      name: 91076-3.45
+      size: 524288
+      blob_id: 21608
+    - id: 864568
+      asset_id: 120486
+      name: 91076-4.101
+      size: 1048576
+      blob_id: 21609
+    - id: 864569
+      asset_id: 120486
+      name: 91076-8.57
+      size: 1048576
+      blob_id: 21610
+- release:
+    id: 85650
+    game_id: 1942
+    description: ""
+    release_date: 19910000
+  names:
+  - id: 212891
+    kind: 3
+    kind_id: 85650
+    language: 1
+    name: Hacha Mecha Fighter (bootleg with Raiden sounds)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 100741
+      kind: 3
+      kind_id: 85650
+      type: 1
+      name: hachamfb2.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 624081
+      asset_id: 100741
+      name: 1.14y
+      size: 65536
+      blob_id: 5233
+    - id: 624082
+      asset_id: 100741
+      name: 10c
+      size: 131072
+      blob_id: 248502
+    - id: 624083
+      asset_id: 100741
+      name: 10e
+      size: 131072
+      blob_id: 248503
+    - id: 624084
+      asset_id: 100741
+      name: 2.12w
+      size: 65536
+      blob_id: 5234
+    - id: 624085
+      asset_id: 100741
+      name: b.2k
+      size: 1048576
+      blob_id: 248504
+    - id: 624086
+      asset_id: 100741
+      name: bg.9w
+      size: 1048576
+      blob_id: 21609
+    - id: 624087
+      asset_id: 100741
+      name: c.2m
+      size: 1048576
+      blob_id: 248505
+    - id: 624088
+      asset_id: 100741
+      name: tile.10l
+      size: 131072
+      blob_id: 248499
+- release:
+    id: 85651
+    game_id: 1942
+    description: ""
+    release_date: 19910000
+  names:
+  - id: 212892
+    kind: 3
+    kind_id: 85651
+    language: 1
+    name: Hacha Mecha Fighter (Location Test Prototype, 19th Sep. 1991)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 100742
+      kind: 3
+      kind_id: 85651
+      type: 1
+      name: hachamfp.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 624089
+      asset_id: 100742
+      name: 82s129.ic51
+      size: 256
+      blob_id: 5231
+    - id: 624090
+      asset_id: 100742
+      name: 82s135.ic50
+      size: 256
+      blob_id: 5232
+    - id: 624091
+      asset_id: 100742
+      name: kf-68-pe-b.ic7
+      size: 131072
+      blob_id: 248506
+    - id: 624092
+      asset_id: 100742
+      name: kf-68-po-b.ic6
+      size: 131072
+      blob_id: 248507
+    - id: 624093
+      asset_id: 100742
+      name: kf-a0.ic2
+      size: 524288
+      blob_id: 248508
+    - id: 624094
+      asset_id: 100742
+      name: kf-a1.ic1
+      size: 524288
+      blob_id: 248509
+    - id: 624095
+      asset_id: 100742
+      name: kf-obj0.ic8
+      size: 524288
+      blob_id: 248510
+    - id: 624096
+      asset_id: 100742
+      name: kf-obj1.ic11
+      size: 524288
+      blob_id: 248511
+    - id: 624097
+      asset_id: 100742
+      name: kf-scl0.ic5
+      size: 524288
+      blob_id: 248512
+    - id: 624098
+      asset_id: 100742
+      name: kf-scl1.ic12
+      size: 524288
+      blob_id: 248513
+    - id: 624099
+      asset_id: 100742
+      name: kf-snd.ic4
+      size: 65536
+      blob_id: 248514
+    - id: 624100
+      asset_id: 100742
+      name: kf-vram.ic3
+      size: 131072
+      blob_id: 248499
+  - asset:
+      id: 118872
+      kind: 3
+      kind_id: 85651
+      type: 1
+      name: hachamfp.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 814681
+      asset_id: 118872
+      name: 82s129.ic51
+      size: 256
+      blob_id: 5231
+    - id: 814682
+      asset_id: 118872
+      name: 82s135.ic50
+      size: 256
+      blob_id: 5232
+    - id: 814683
+      asset_id: 118872
+      name: kf-68-pe-b.ic7
+      size: 131072
+      blob_id: 248506
+    - id: 814684
+      asset_id: 118872
+      name: kf-68-po-b.ic6
+      size: 131072
+      blob_id: 248507
+    - id: 814685
+      asset_id: 118872
+      name: kf-a0.ic2
+      size: 524288
+      blob_id: 248508
+    - id: 814686
+      asset_id: 118872
+      name: kf-a1.ic1
+      size: 524288
+      blob_id: 248509
+    - id: 814687
+      asset_id: 118872
+      name: kf-obj0.ic8
+      size: 524288
+      blob_id: 248510
+    - id: 814688
+      asset_id: 118872
+      name: kf-obj1.ic11
+      size: 524288
+      blob_id: 248511
+    - id: 814689
+      asset_id: 118872
+      name: kf-scl0.ic5
+      size: 524288
+      blob_id: 248512
+    - id: 814690
+      asset_id: 118872
+      name: kf-scl1.ic12
+      size: 524288
+      blob_id: 248513
+    - id: 814691
+      asset_id: 118872
+      name: kf-snd.ic4
+      size: 65536
+      blob_id: 248514
+    - id: 814692
+      asset_id: 118872
+      name: kf-vram.ic3
+      size: 131072
+      blob_id: 248499
+    - id: 814693
+      asset_id: 118872
+      name: nmk004.bin
+      size: 8192
+      blob_id: 21613

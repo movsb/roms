@@ -16,6 +16,42 @@ names:
   language: 2
   name: 星际武力
   source: trimui
+- id: 186627
+  kind: 2
+  kind_id: 492
+  language: 1
+  name: MEGAFORC
+  source: ""
+- id: 186628
+  kind: 2
+  kind_id: 492
+  language: 2
+  name: 星际武力 (世界版)
+  source: trimui
+- id: 193090
+  kind: 2
+  kind_id: 492
+  language: 1
+  name: Mega Force (US)
+  source: mame
+- id: 199644
+  kind: 2
+  kind_id: 492
+  language: 1
+  name: Star Force (encrypted, set 2)
+  source: mame
+- id: 199645
+  kind: 2
+  kind_id: 492
+  language: 1
+  name: Star Force (encrypted, bootleg)
+  source: mame
+- id: 199646
+  kind: 2
+  kind_id: 492
+  language: 1
+  name: Star Force (encrypted, set 1)
+  source: mame
 game_developers:
 - game_id: 492
   developer_id: 510
@@ -189,24 +225,10 @@ releases:
       blob_id: 89647
       debug: arcade/wheel/starforc.png
     entries: []
-- release:
-    id: 72010
-    game_id: 492
-    description: ""
-    release_date: 19840000
-  names:
-  - id: 174045
-    kind: 3
-    kind_id: 72010
-    language: 1
-    name: Star Force
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 85080
+      id: 114570
       kind: 3
-      kind_id: 72010
+      kind_id: 492
       type: 1
       name: starforc.zip
       description: ""
@@ -215,98 +237,917 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 379958
-      asset_id: 85080
+    - id: 758344
+      asset_id: 114570
       name: 07b.bin
       size: 32
       blob_id: 4410
-    - id: 379959
-      asset_id: 85080
+    - id: 758345
+      asset_id: 114570
       name: 1.3hj
       size: 8192
       blob_id: 2817
-    - id: 379960
-      asset_id: 85080
+    - id: 758346
+      asset_id: 114570
       name: 10.8de
       size: 8192
       blob_id: 2826
-    - id: 379961
-      asset_id: 85080
+    - id: 758347
+      asset_id: 114570
       name: 11.9de
       size: 8192
       blob_id: 2827
-    - id: 379962
-      asset_id: 85080
+    - id: 758348
+      asset_id: 114570
       name: 12.10de
       size: 8192
       blob_id: 2828
-    - id: 379963
-      asset_id: 85080
+    - id: 758349
+      asset_id: 114570
       name: 13.8jk
       size: 8192
       blob_id: 2829
-    - id: 379964
-      asset_id: 85080
+    - id: 758350
+      asset_id: 114570
       name: 14.9jk
       size: 8192
       blob_id: 2830
-    - id: 379965
-      asset_id: 85080
+    - id: 758351
+      asset_id: 114570
       name: 15.10jk
       size: 8192
       blob_id: 2831
-    - id: 379966
-      asset_id: 85080
+    - id: 758352
+      asset_id: 114570
       name: 16.8pq
       size: 4096
       blob_id: 4411
-    - id: 379967
-      asset_id: 85080
+    - id: 758353
+      asset_id: 114570
       name: 17.9pq
       size: 4096
       blob_id: 4412
-    - id: 379968
-      asset_id: 85080
+    - id: 758354
+      asset_id: 114570
       name: 18.10pq
       size: 4096
       blob_id: 4413
-    - id: 379969
-      asset_id: 85080
+    - id: 758355
+      asset_id: 114570
       name: 2.3mn
       size: 16384
       blob_id: 4414
-    - id: 379970
-      asset_id: 85080
+    - id: 758356
+      asset_id: 114570
       name: 3.3p
       size: 16384
       blob_id: 4415
-    - id: 379971
-      asset_id: 85080
+    - id: 758357
+      asset_id: 114570
       name: 4.8lm
       size: 16384
       blob_id: 2820
-    - id: 379972
-      asset_id: 85080
+    - id: 758358
+      asset_id: 114570
       name: 5.9lm
       size: 16384
       blob_id: 2821
-    - id: 379973
-      asset_id: 85080
+    - id: 758359
+      asset_id: 114570
       name: 6.10lm
       size: 16384
       blob_id: 2822
-    - id: 379974
-      asset_id: 85080
+    - id: 758360
+      asset_id: 114570
       name: 7.2fh
       size: 4096
       blob_id: 4416
-    - id: 379975
-      asset_id: 85080
+    - id: 758361
+      asset_id: 114570
       name: 8.3fh
       size: 4096
       blob_id: 4417
-    - id: 379976
-      asset_id: 85080
+    - id: 758362
+      asset_id: 114570
       name: 9.3fh
       size: 4096
       blob_id: 4418
+- release:
+    id: 98789
+    game_id: 492
+    description: ""
+    release_date: 19840000
+  names:
+  - id: 231556
+    kind: 3
+    kind_id: 98789
+    language: 1
+    name: Star Force (encrypted, set 2)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 114571
+      kind: 3
+      kind_id: 98789
+      type: 1
+      name: starforca.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/2007176570
+    entries:
+    - id: 758363
+      asset_id: 114571
+      name: 1.3hj
+      size: 8192
+      blob_id: 2817
+    - id: 758364
+      asset_id: 114571
+      name: 10.bin
+      size: 8192
+      blob_id: 303337
+    - id: 758365
+      asset_id: 114571
+      name: 11.bin
+      size: 8192
+      blob_id: 303338
+    - id: 758366
+      asset_id: 114571
+      name: 12.bin
+      size: 8192
+      blob_id: 303339
+    - id: 758367
+      asset_id: 114571
+      name: 13.bin
+      size: 8192
+      blob_id: 303340
+    - id: 758368
+      asset_id: 114571
+      name: 14.bin
+      size: 8192
+      blob_id: 303341
+    - id: 758369
+      asset_id: 114571
+      name: 15.bin
+      size: 8192
+      blob_id: 2829
+    - id: 758370
+      asset_id: 114571
+      name: 16.bin
+      size: 8192
+      blob_id: 2830
+    - id: 758371
+      asset_id: 114571
+      name: 17.bin
+      size: 8192
+      blob_id: 2831
+    - id: 758372
+      asset_id: 114571
+      name: 18.bin
+      size: 8192
+      blob_id: 2826
+    - id: 758373
+      asset_id: 114571
+      name: 19.bin
+      size: 8192
+      blob_id: 2827
+    - id: 758374
+      asset_id: 114571
+      name: 2.bin
+      size: 8192
+      blob_id: 303342
+    - id: 758375
+      asset_id: 114571
+      name: 20.bin
+      size: 8192
+      blob_id: 2828
+    - id: 758376
+      asset_id: 114571
+      name: 3.bin
+      size: 8192
+      blob_id: 303343
+    - id: 758377
+      asset_id: 114571
+      name: 4.bin
+      size: 8192
+      blob_id: 303344
+    - id: 758378
+      asset_id: 114571
+      name: 5.bin
+      size: 8192
+      blob_id: 303345
+    - id: 758379
+      asset_id: 114571
+      name: 6.bin
+      size: 4096
+      blob_id: 4418
+    - id: 758380
+      asset_id: 114571
+      name: 7.bin
+      size: 4096
+      blob_id: 4417
+    - id: 758381
+      asset_id: 114571
+      name: 8.bin
+      size: 4096
+      blob_id: 4416
+    - id: 758382
+      asset_id: 114571
+      name: 9.bin
+      size: 8192
+      blob_id: 303346
+    - id: 758383
+      asset_id: 114571
+      name: prom.bin
+      size: 32
+      blob_id: 4410
+    - id: 758384
+      asset_id: 114571
+      name: sw3.bin
+      size: 8192
+      blob_id: 303347
+    - id: 758385
+      asset_id: 114571
+      name: sw4.bin
+      size: 8192
+      blob_id: 303348
+    - id: 758386
+      asset_id: 114571
+      name: sw5.bin
+      size: 8192
+      blob_id: 303349
+- release:
+    id: 98790
+    game_id: 492
+    description: ""
+    release_date: 19840000
+  names:
+  - id: 231557
+    kind: 3
+    kind_id: 98790
+    language: 1
+    name: Star Force (encrypted, bootleg)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 114572
+      kind: 3
+      kind_id: 98790
+      type: 1
+      name: starforcb.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/666120579
+    entries:
+    - id: 758387
+      asset_id: 114572
+      name: a0.2e
+      size: 8192
+      blob_id: 303350
+    - id: 758388
+      asset_id: 114572
+      name: a18s030.7b
+      size: 32
+      blob_id: 4410
+    - id: 758389
+      asset_id: 114572
+      name: a2.8m
+      size: 8192
+      blob_id: 303351
+    - id: 758390
+      asset_id: 114572
+      name: a3.8k
+      size: 8192
+      blob_id: 303352
+    - id: 758391
+      asset_id: 114572
+      name: a4.8j
+      size: 8192
+      blob_id: 303353
+    - id: 758392
+      asset_id: 114572
+      name: a5.8f
+      size: 8192
+      blob_id: 303354
+    - id: 758393
+      asset_id: 114572
+      name: b10.8l
+      size: 8192
+      blob_id: 303337
+    - id: 758394
+      asset_id: 114572
+      name: b11.8m
+      size: 8192
+      blob_id: 303338
+    - id: 758395
+      asset_id: 114572
+      name: b12.8n
+      size: 8192
+      blob_id: 303339
+    - id: 758396
+      asset_id: 114572
+      name: b13.8p
+      size: 8192
+      blob_id: 303340
+    - id: 758397
+      asset_id: 114572
+      name: b14.8r
+      size: 8192
+      blob_id: 303341
+    - id: 758398
+      asset_id: 114572
+      name: b6.8d
+      size: 4096
+      blob_id: 4418
+    - id: 758399
+      asset_id: 114572
+      name: b7.8f
+      size: 4096
+      blob_id: 4417
+    - id: 758400
+      asset_id: 114572
+      name: b8.8h
+      size: 4096
+      blob_id: 4416
+    - id: 758401
+      asset_id: 114572
+      name: b9.8j
+      size: 8192
+      blob_id: 303346
+    - id: 758402
+      asset_id: 114572
+      name: c15.6a
+      size: 8192
+      blob_id: 2829
+    - id: 758403
+      asset_id: 114572
+      name: c16.7a
+      size: 8192
+      blob_id: 2830
+    - id: 758404
+      asset_id: 114572
+      name: c17.8a
+      size: 8192
+      blob_id: 2831
+    - id: 758405
+      asset_id: 114572
+      name: c18.6k
+      size: 8192
+      blob_id: 2826
+    - id: 758406
+      asset_id: 114572
+      name: c19.7k
+      size: 8192
+      blob_id: 2827
+    - id: 758407
+      asset_id: 114572
+      name: c20.8k
+      size: 8192
+      blob_id: 2828
+    - id: 758408
+      asset_id: 114572
+      name: c3.6n
+      size: 4096
+      blob_id: 4411
+    - id: 758409
+      asset_id: 114572
+      name: c4.7n
+      size: 4096
+      blob_id: 4412
+    - id: 758410
+      asset_id: 114572
+      name: c5.8n
+      size: 4096
+      blob_id: 4413
+    - id: 758411
+      asset_id: 114572
+      name: tbp18s030n.bin
+      size: 32
+      blob_id: 286152
+    - id: 758412
+      asset_id: 114572
+      name: tbp21s10n.bin
+      size: 256
+      blob_id: 286153
+  - asset:
+      id: 119473
+      kind: 3
+      kind_id: 98790
+      type: 1
+      name: starforcb.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 832463
+      asset_id: 119473
+      name: a0.2e
+      size: 8192
+      blob_id: 286147
+    - id: 832464
+      asset_id: 119473
+      name: a18s030.7b
+      size: 32
+      blob_id: 4410
+    - id: 832465
+      asset_id: 119473
+      name: a2.8m
+      size: 8192
+      blob_id: 286148
+    - id: 832466
+      asset_id: 119473
+      name: a3.8k
+      size: 8192
+      blob_id: 286149
+    - id: 832467
+      asset_id: 119473
+      name: a4.8j
+      size: 8192
+      blob_id: 286150
+    - id: 832468
+      asset_id: 119473
+      name: a5.8f
+      size: 8192
+      blob_id: 286151
+    - id: 832469
+      asset_id: 119473
+      name: b10.8l
+      size: 8192
+      blob_id: 286134
+    - id: 832470
+      asset_id: 119473
+      name: b11.8m
+      size: 8192
+      blob_id: 286135
+    - id: 832471
+      asset_id: 119473
+      name: b12.8n
+      size: 8192
+      blob_id: 286136
+    - id: 832472
+      asset_id: 119473
+      name: b13.8p
+      size: 8192
+      blob_id: 286137
+    - id: 832473
+      asset_id: 119473
+      name: b14.8r
+      size: 8192
+      blob_id: 286138
+    - id: 832474
+      asset_id: 119473
+      name: b6.8d
+      size: 4096
+      blob_id: 4418
+    - id: 832475
+      asset_id: 119473
+      name: b7.8f
+      size: 4096
+      blob_id: 4417
+    - id: 832476
+      asset_id: 119473
+      name: b8.8h
+      size: 4096
+      blob_id: 4416
+    - id: 832477
+      asset_id: 119473
+      name: b9.8j
+      size: 8192
+      blob_id: 286143
+    - id: 832478
+      asset_id: 119473
+      name: c15.6a
+      size: 8192
+      blob_id: 2829
+    - id: 832479
+      asset_id: 119473
+      name: c16.7a
+      size: 8192
+      blob_id: 2830
+    - id: 832480
+      asset_id: 119473
+      name: c17.8a
+      size: 8192
+      blob_id: 2831
+    - id: 832481
+      asset_id: 119473
+      name: c18.6k
+      size: 8192
+      blob_id: 2826
+    - id: 832482
+      asset_id: 119473
+      name: c19.7k
+      size: 8192
+      blob_id: 2827
+    - id: 832483
+      asset_id: 119473
+      name: c20.8k
+      size: 8192
+      blob_id: 2828
+    - id: 832484
+      asset_id: 119473
+      name: c3.6n
+      size: 4096
+      blob_id: 4411
+    - id: 832485
+      asset_id: 119473
+      name: c4.7n
+      size: 4096
+      blob_id: 4412
+    - id: 832486
+      asset_id: 119473
+      name: c5.8n
+      size: 4096
+      blob_id: 4413
+- release:
+    id: 98791
+    game_id: 492
+    description: ""
+    release_date: 19840000
+  names:
+  - id: 231558
+    kind: 3
+    kind_id: 98791
+    language: 1
+    name: Star Force (encrypted, set 1)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 114573
+      kind: 3
+      kind_id: 98791
+      type: 1
+      name: starforce.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/3133722645
+    entries:
+    - id: 758413
+      asset_id: 114573
+      name: 07b.bin
+      size: 32
+      blob_id: 4410
+    - id: 758414
+      asset_id: 114573
+      name: 1.3hj
+      size: 8192
+      blob_id: 2817
+    - id: 758415
+      asset_id: 114573
+      name: 10.8de
+      size: 8192
+      blob_id: 2826
+    - id: 758416
+      asset_id: 114573
+      name: 11.9de
+      size: 8192
+      blob_id: 2827
+    - id: 758417
+      asset_id: 114573
+      name: 12.10de
+      size: 8192
+      blob_id: 2828
+    - id: 758418
+      asset_id: 114573
+      name: 13.8jk
+      size: 8192
+      blob_id: 2829
+    - id: 758419
+      asset_id: 114573
+      name: 14.9jk
+      size: 8192
+      blob_id: 2830
+    - id: 758420
+      asset_id: 114573
+      name: 15.10jk
+      size: 8192
+      blob_id: 2831
+    - id: 758421
+      asset_id: 114573
+      name: 16.8pq
+      size: 4096
+      blob_id: 4411
+    - id: 758422
+      asset_id: 114573
+      name: 17.9pq
+      size: 4096
+      blob_id: 4412
+    - id: 758423
+      asset_id: 114573
+      name: 18.10pq
+      size: 4096
+      blob_id: 4413
+    - id: 758424
+      asset_id: 114573
+      name: 4.8lm
+      size: 16384
+      blob_id: 2820
+    - id: 758425
+      asset_id: 114573
+      name: 5.9lm
+      size: 16384
+      blob_id: 2821
+    - id: 758426
+      asset_id: 114573
+      name: 6.10lm
+      size: 16384
+      blob_id: 2822
+    - id: 758427
+      asset_id: 114573
+      name: 7.2fh
+      size: 4096
+      blob_id: 4416
+    - id: 758428
+      asset_id: 114573
+      name: 8.3fh
+      size: 4096
+      blob_id: 4417
+    - id: 758429
+      asset_id: 114573
+      name: 9.3fh
+      size: 4096
+      blob_id: 4418
+    - id: 758430
+      asset_id: 114573
+      name: starfore.002
+      size: 8192
+      blob_id: 303355
+    - id: 758431
+      asset_id: 114573
+      name: starfore.003
+      size: 8192
+      blob_id: 303356
+    - id: 758432
+      asset_id: 114573
+      name: starfore.004
+      size: 8192
+      blob_id: 303357
+    - id: 758433
+      asset_id: 114573
+      name: starfore.005
+      size: 8192
+      blob_id: 303358
+- release:
+    id: 102849
+    game_id: 492
+    description: ""
+    release_date: 0
+  names:
+  - id: 237484
+    kind: 3
+    kind_id: 102849
+    language: 1
+    name: MEGAFORC
+    source: ""
+  - id: 237485
+    kind: 3
+    kind_id: 102849
+    language: 2
+    name: 星际武力 (世界版)
+    source: trimui
+  release_publishers: []
+  assets:
+  - asset:
+      id: 104045
+      kind: 3
+      kind_id: 102849
+      type: 1
+      name: megaforc.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 658795
+      asset_id: 104045
+      name: 07b.bin
+      size: 32
+      blob_id: 4410
+    - id: 658796
+      asset_id: 104045
+      name: 1.3hj
+      size: 8192
+      blob_id: 2817
+    - id: 658797
+      asset_id: 104045
+      name: 10.8de
+      size: 8192
+      blob_id: 2826
+    - id: 658798
+      asset_id: 104045
+      name: 11.9de
+      size: 8192
+      blob_id: 2827
+    - id: 658799
+      asset_id: 104045
+      name: 12.10de
+      size: 8192
+      blob_id: 2828
+    - id: 658800
+      asset_id: 104045
+      name: 13.8jk
+      size: 8192
+      blob_id: 2829
+    - id: 658801
+      asset_id: 104045
+      name: 14.9jk
+      size: 8192
+      blob_id: 2830
+    - id: 658802
+      asset_id: 104045
+      name: 15.10jk
+      size: 8192
+      blob_id: 2831
+    - id: 658803
+      asset_id: 104045
+      name: 16.8pq
+      size: 4096
+      blob_id: 4411
+    - id: 658804
+      asset_id: 104045
+      name: 17.9pq
+      size: 4096
+      blob_id: 4412
+    - id: 658805
+      asset_id: 104045
+      name: 18.10pq
+      size: 4096
+      blob_id: 4413
+    - id: 658806
+      asset_id: 104045
+      name: 2.3mn
+      size: 16384
+      blob_id: 4414
+    - id: 658807
+      asset_id: 104045
+      name: 3.3p
+      size: 16384
+      blob_id: 4415
+    - id: 658808
+      asset_id: 104045
+      name: 4.8lm
+      size: 16384
+      blob_id: 2820
+    - id: 658809
+      asset_id: 104045
+      name: 5.9lm
+      size: 16384
+      blob_id: 2821
+    - id: 658810
+      asset_id: 104045
+      name: 6.10lm
+      size: 16384
+      blob_id: 2822
+    - id: 658811
+      asset_id: 104045
+      name: 7.2f
+      size: 4096
+      blob_id: 2823
+    - id: 658812
+      asset_id: 104045
+      name: 8.3f
+      size: 4096
+      blob_id: 2824
+    - id: 658813
+      asset_id: 104045
+      name: 9.4f
+      size: 4096
+      blob_id: 2825
+- release:
+    id: 104438
+    game_id: 492
+    description: ""
+    release_date: 19850000
+  names:
+  - id: 239414
+    kind: 3
+    kind_id: 104438
+    language: 1
+    name: Mega Force (US)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 104046
+      kind: 3
+      kind_id: 104438
+      type: 1
+      name: megaforcu.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 658814
+      asset_id: 104046
+      name: 07b.bin
+      size: 32
+      blob_id: 4410
+    - id: 658815
+      asset_id: 104046
+      name: 1.3hj
+      size: 8192
+      blob_id: 2817
+    - id: 658816
+      asset_id: 104046
+      name: 10.8de
+      size: 8192
+      blob_id: 2826
+    - id: 658817
+      asset_id: 104046
+      name: 11.9de
+      size: 8192
+      blob_id: 2827
+    - id: 658818
+      asset_id: 104046
+      name: 12.10de
+      size: 8192
+      blob_id: 2828
+    - id: 658819
+      asset_id: 104046
+      name: 13.8jk
+      size: 8192
+      blob_id: 2829
+    - id: 658820
+      asset_id: 104046
+      name: 14.9jk
+      size: 8192
+      blob_id: 2830
+    - id: 658821
+      asset_id: 104046
+      name: 15.10jk
+      size: 8192
+      blob_id: 2831
+    - id: 658822
+      asset_id: 104046
+      name: 16.8pq
+      size: 4096
+      blob_id: 4411
+    - id: 658823
+      asset_id: 104046
+      name: 17.9pq
+      size: 4096
+      blob_id: 4412
+    - id: 658824
+      asset_id: 104046
+      name: 18.10pq
+      size: 4096
+      blob_id: 4413
+    - id: 658825
+      asset_id: 104046
+      name: 4.8lm
+      size: 16384
+      blob_id: 2820
+    - id: 658826
+      asset_id: 104046
+      name: 5.9lm
+      size: 16384
+      blob_id: 2821
+    - id: 658827
+      asset_id: 104046
+      name: 6.10lm
+      size: 16384
+      blob_id: 2822
+    - id: 658828
+      asset_id: 104046
+      name: 7.2f
+      size: 4096
+      blob_id: 2823
+    - id: 658829
+      asset_id: 104046
+      name: 8.3f
+      size: 4096
+      blob_id: 2824
+    - id: 658830
+      asset_id: 104046
+      name: 9.4f
+      size: 4096
+      blob_id: 2825
+    - id: 658831
+      asset_id: 104046
+      name: mf2.3mn
+      size: 16384
+      blob_id: 2818
+    - id: 658832
+      asset_id: 104046
+      name: mf3.3p
+      size: 16384
+      blob_id: 2819

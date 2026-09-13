@@ -10,6 +10,18 @@ names:
   language: 1
   name: omegaf
   source: ""
+- id: 194027
+  kind: 2
+  kind_id: 2979
+  language: 1
+  name: Omega Fighter (set 2)
+  source: mame
+- id: 194028
+  kind: 2
+  kind_id: 2979
+  language: 1
+  name: Omega Fighter Special
+  source: mame
 game_developers:
 - game_id: 2979
   developer_id: 427
@@ -40,58 +52,6 @@ releases:
   - release_id: 2979
     publisher_id: 153
   assets:
-  - asset:
-      id: 2965
-      kind: 3
-      kind_id: 2979
-      type: 1
-      name: omegaf.zip
-      description: ""
-      format: 2
-      size: 498603
-      blob_id: 0
-      debug: omegaf.zip
-    entries:
-    - id: 48599
-      asset_id: 2965
-      name: "1.5"
-      size: 131072
-      blob_id: 31548
-    - id: 48600
-      asset_id: 2965
-      name: 1back2.15b
-      size: 524288
-      blob_id: 31549
-    - id: 48601
-      asset_id: 2965
-      name: 2back1.27b
-      size: 524288
-      blob_id: 31550
-    - id: 48602
-      asset_id: 2965
-      name: 3back3.5f
-      size: 524288
-      blob_id: 31551
-    - id: 48603
-      asset_id: 2965
-      name: 4.18h
-      size: 32768
-      blob_id: 31552
-    - id: 48604
-      asset_id: 2965
-      name: 6.4l
-      size: 131072
-      blob_id: 31553
-    - id: 48605
-      asset_id: 2965
-      name: 7.7m
-      size: 65536
-      blob_id: 31554
-    - id: 48606
-      asset_id: 2965
-      name: 8.23m
-      size: 131072
-      blob_id: 31555
   - asset:
       id: 44433
       kind: 3
@@ -217,10 +177,76 @@ releases:
     language: 1
     name: Omega Fighter (set 1)
     source: mame
-  release_publishers: []
+  - id: 184074
+    kind: 3
+    kind_id: 60090
+    language: 1
+    name: omegaf
+    source: ""
+  - id: 184075
+    kind: 3
+    kind_id: 60090
+    language: 2
+    name: 欧米加战机
+    source: trimui
+  release_publishers:
+  - release_id: 60090
+    publisher_id: 153
   assets:
   - asset:
-      id: 73160
+      id: 2965
+      kind: 3
+      kind_id: 60090
+      type: 1
+      name: omegaf.zip
+      description: ""
+      format: 2
+      size: 498603
+      blob_id: 0
+      debug: omegaf.zip
+    entries:
+    - id: 48599
+      asset_id: 2965
+      name: "1.5"
+      size: 131072
+      blob_id: 31548
+    - id: 48600
+      asset_id: 2965
+      name: 1back2.15b
+      size: 524288
+      blob_id: 31549
+    - id: 48601
+      asset_id: 2965
+      name: 2back1.27b
+      size: 524288
+      blob_id: 31550
+    - id: 48602
+      asset_id: 2965
+      name: 3back3.5f
+      size: 524288
+      blob_id: 31551
+    - id: 48603
+      asset_id: 2965
+      name: 4.18h
+      size: 32768
+      blob_id: 31552
+    - id: 48604
+      asset_id: 2965
+      name: 6.4l
+      size: 131072
+      blob_id: 31553
+    - id: 48605
+      asset_id: 2965
+      name: 7.7m
+      size: 65536
+      blob_id: 31554
+    - id: 48606
+      asset_id: 2965
+      name: 8.23m
+      size: 131072
+      blob_id: 31555
+  - asset:
+      id: 105990
       kind: 3
       kind_id: 60090
       type: 1
@@ -231,53 +257,257 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 284678
-      asset_id: 73160
+    - id: 679015
+      asset_id: 105990
       name: 1.5.3l
       size: 131072
       blob_id: 31548
-    - id: 284679
-      asset_id: 73160
+    - id: 679016
+      asset_id: 105990
       name: 10.20l
       size: 256
-      blob_id: 155015
-    - id: 284680
-      asset_id: 73160
+      blob_id: 261949
+    - id: 679017
+      asset_id: 105990
       name: 11.27n
       size: 1024
       blob_id: 34173
-    - id: 284681
-      asset_id: 73160
+    - id: 679018
+      asset_id: 105990
       name: 1back2.15b
       size: 524288
       blob_id: 31549
-    - id: 284682
-      asset_id: 73160
+    - id: 679019
+      asset_id: 105990
       name: 2back1.27b
       size: 524288
       blob_id: 31550
-    - id: 284683
-      asset_id: 73160
+    - id: 679020
+      asset_id: 105990
       name: 3back3.5f
       size: 524288
       blob_id: 31551
-    - id: 284684
-      asset_id: 73160
+    - id: 679021
+      asset_id: 105990
       name: 4.18h
       size: 32768
       blob_id: 31552
-    - id: 284685
-      asset_id: 73160
+    - id: 679022
+      asset_id: 105990
       name: 6.4l
       size: 131072
       blob_id: 31553
-    - id: 284686
-      asset_id: 73160
+    - id: 679023
+      asset_id: 105990
       name: 7.7m
       size: 65536
       blob_id: 31554
-    - id: 284687
-      asset_id: 73160
+    - id: 679024
+      asset_id: 105990
+      name: 8.23m
+      size: 131072
+      blob_id: 31555
+- release:
+    id: 90568
+    game_id: 2979
+    description: ""
+    release_date: 19890000
+  names:
+  - id: 220587
+    kind: 3
+    kind_id: 90568
+    language: 1
+    name: Omega Fighter (set 2)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 105991
+      kind: 3
+      kind_id: 90568
+      type: 1
+      name: omegafa.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 679025
+      asset_id: 105991
+      name: 10.20l
+      size: 256
+      blob_id: 261949
+    - id: 679026
+      asset_id: 105991
+      name: 11.27n
+      size: 1024
+      blob_id: 34173
+    - id: 679027
+      asset_id: 105991
+      name: 1back2.15b
+      size: 524288
+      blob_id: 31549
+    - id: 679028
+      asset_id: 105991
+      name: 2back1.27b
+      size: 524288
+      blob_id: 31550
+    - id: 679029
+      asset_id: 105991
+      name: 3back3.5f
+      size: 524288
+      blob_id: 31551
+    - id: 679030
+      asset_id: 105991
+      name: 4.18h
+      size: 32768
+      blob_id: 31552
+    - id: 679031
+      asset_id: 105991
+      name: 5_1.3l
+      size: 131072
+      blob_id: 261950
+    - id: 679032
+      asset_id: 105991
+      name: 6.4l
+      size: 131072
+      blob_id: 31553
+    - id: 679033
+      asset_id: 105991
+      name: 7.7m
+      size: 65536
+      blob_id: 31554
+    - id: 679034
+      asset_id: 105991
+      name: 8.23m
+      size: 131072
+      blob_id: 31555
+- release:
+    id: 90569
+    game_id: 2979
+    description: ""
+    release_date: 19890000
+  names:
+  - id: 220588
+    kind: 3
+    kind_id: 90569
+    language: 1
+    name: Omega Fighter Special
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 105992
+      kind: 3
+      kind_id: 90569
+      type: 1
+      name: omegafs.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 679035
+      asset_id: 105992
+      name: 10.20l
+      size: 256
+      blob_id: 261949
+    - id: 679036
+      asset_id: 105992
+      name: 11.27n
+      size: 1024
+      blob_id: 34173
+    - id: 679037
+      asset_id: 105992
+      name: 1back2.15b
+      size: 524288
+      blob_id: 31549
+    - id: 679038
+      asset_id: 105992
+      name: 2back1.27b
+      size: 524288
+      blob_id: 31550
+    - id: 679039
+      asset_id: 105992
+      name: 3back3.5f
+      size: 524288
+      blob_id: 31551
+    - id: 679040
+      asset_id: 105992
+      name: 4.18h
+      size: 32768
+      blob_id: 31552
+    - id: 679041
+      asset_id: 105992
+      name: 5.3l
+      size: 131072
+      blob_id: 31556
+    - id: 679042
+      asset_id: 105992
+      name: 6.4l
+      size: 131072
+      blob_id: 31553
+    - id: 679043
+      asset_id: 105992
+      name: 7.7m
+      size: 65536
+      blob_id: 31554
+    - id: 679044
+      asset_id: 105992
+      name: 8.23m
+      size: 131072
+      blob_id: 31555
+  - asset:
+      id: 119208
+      kind: 3
+      kind_id: 90569
+      type: 1
+      name: omegafs.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 825154
+      asset_id: 119208
+      name: 1back2.15b
+      size: 524288
+      blob_id: 31549
+    - id: 825155
+      asset_id: 119208
+      name: 2back1.27b
+      size: 524288
+      blob_id: 31550
+    - id: 825156
+      asset_id: 119208
+      name: 3back3.5f
+      size: 524288
+      blob_id: 31551
+    - id: 825157
+      asset_id: 119208
+      name: 4.18h
+      size: 32768
+      blob_id: 31552
+    - id: 825158
+      asset_id: 119208
+      name: 5.3l
+      size: 131072
+      blob_id: 31556
+    - id: 825159
+      asset_id: 119208
+      name: 6.4l
+      size: 131072
+      blob_id: 31553
+    - id: 825160
+      asset_id: 119208
+      name: 7.7m
+      size: 65536
+      blob_id: 31554
+    - id: 825161
+      asset_id: 119208
       name: 8.23m
       size: 131072
       blob_id: 31555

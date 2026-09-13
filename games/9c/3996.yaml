@@ -16,6 +16,42 @@ names:
   language: 2
   name: 星堡 (版本 3)
   source: trimui
+- id: 199335
+  kind: 2
+  kind_id: 3996
+  language: 1
+  name: Space Fortress (Zaccaria)
+  source: mame
+- id: 199636
+  kind: 2
+  kind_id: 3996
+  language: 1
+  name: Star Castle (older)
+  source: mame
+- id: 199637
+  kind: 2
+  kind_id: 3996
+  language: 1
+  name: Star Castle (cocktail)
+  source: mame
+- id: 199638
+  kind: 2
+  kind_id: 3996
+  language: 1
+  name: Star Castle (Mottoeis)
+  source: mame
+- id: 199639
+  kind: 2
+  kind_id: 3996
+  language: 1
+  name: Star Castle (prototype)
+  source: mame
+- id: 199680
+  kind: 2
+  kind_id: 3996
+  language: 1
+  name: Stellar Castle (Elettronolo)
+  source: mame
 game_developers:
 - game_id: 3996
   developer_id: 451
@@ -114,24 +150,10 @@ releases:
       blob_id: 88149
       debug: arcade/wheel/starcas.png
     entries: []
-- release:
-    id: 71996
-    game_id: 3996
-    description: ""
-    release_date: 19800000
-  names:
-  - id: 174019
-    kind: 3
-    kind_id: 71996
-    language: 1
-    name: Star Castle (version 3)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 85066
+      id: 114557
       kind: 3
-      kind_id: 71996
+      kind_id: 3996
       type: 1
       name: starcas.zip
       description: ""
@@ -140,53 +162,519 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 379633
-      asset_id: 85066
+    - id: 758009
+      asset_id: 114557
       name: prom.c14
       size: 32
       blob_id: 34669
-    - id: 379634
-      asset_id: 85066
+    - id: 758010
+      asset_id: 114557
       name: prom.d14
       size: 32
       blob_id: 34670
-    - id: 379635
-      asset_id: 85066
+    - id: 758011
+      asset_id: 114557
       name: prom.e14
       size: 32
       blob_id: 34671
-    - id: 379636
-      asset_id: 85066
+    - id: 758012
+      asset_id: 114557
       name: prom.e8
       size: 32
       blob_id: 34672
-    - id: 379637
-      asset_id: 85066
+    - id: 758013
+      asset_id: 114557
       name: prom.f14
       size: 256
       blob_id: 34673
-    - id: 379638
-      asset_id: 85066
+    - id: 758014
+      asset_id: 114557
       name: prom.j14
       size: 32
       blob_id: 34674
-    - id: 379639
-      asset_id: 85066
+    - id: 758015
+      asset_id: 114557
       name: starcas3.p7
       size: 2048
       blob_id: 42904
-    - id: 379640
-      asset_id: 85066
+    - id: 758016
+      asset_id: 114557
       name: starcas3.r7
       size: 2048
       blob_id: 42905
-    - id: 379641
-      asset_id: 85066
+    - id: 758017
+      asset_id: 114557
       name: starcas3.t7
       size: 2048
       blob_id: 42906
-    - id: 379642
-      asset_id: 85066
+    - id: 758018
+      asset_id: 114557
       name: starcas3.u7
       size: 2048
       blob_id: 42907
+- release:
+    id: 98779
+    game_id: 3996
+    description: ""
+    release_date: 19800000
+  names:
+  - id: 231544
+    kind: 3
+    kind_id: 98779
+    language: 1
+    name: Star Castle (older)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 114558
+      kind: 3
+      kind_id: 98779
+      type: 1
+      name: starcas1.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/2924618589
+    entries:
+    - id: 758019
+      asset_id: 114558
+      name: prom.c14
+      size: 32
+      blob_id: 34669
+    - id: 758020
+      asset_id: 114558
+      name: prom.d14
+      size: 32
+      blob_id: 34670
+    - id: 758021
+      asset_id: 114558
+      name: prom.e14
+      size: 32
+      blob_id: 34671
+    - id: 758022
+      asset_id: 114558
+      name: prom.e8
+      size: 32
+      blob_id: 34672
+    - id: 758023
+      asset_id: 114558
+      name: prom.f14
+      size: 256
+      blob_id: 34673
+    - id: 758024
+      asset_id: 114558
+      name: prom.j14
+      size: 32
+      blob_id: 34674
+    - id: 758025
+      asset_id: 114558
+      name: starcast.p7
+      size: 2048
+      blob_id: 282280
+    - id: 758026
+      asset_id: 114558
+      name: starcast.r7
+      size: 2048
+      blob_id: 303281
+    - id: 758027
+      asset_id: 114558
+      name: starcast.t7
+      size: 2048
+      blob_id: 282282
+    - id: 758028
+      asset_id: 114558
+      name: starcast.u7
+      size: 2048
+      blob_id: 303282
+- release:
+    id: 98780
+    game_id: 3996
+    description: ""
+    release_date: 19800000
+  names:
+  - id: 231545
+    kind: 3
+    kind_id: 98780
+    language: 1
+    name: Star Castle (cocktail)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 114559
+      kind: 3
+      kind_id: 98780
+      type: 1
+      name: starcasc.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/2976447338
+    entries:
+    - id: 758029
+      asset_id: 114559
+      name: ctsc926_l0_f707.r7
+      size: 2048
+      blob_id: 303283
+    - id: 758030
+      asset_id: 114559
+      name: ctsc926_le_deac.p7
+      size: 2048
+      blob_id: 303284
+    - id: 758031
+      asset_id: 114559
+      name: ctsc926_u0_48e7.u7
+      size: 2048
+      blob_id: 303285
+    - id: 758032
+      asset_id: 114559
+      name: ctsc926_ue_3265.t7
+      size: 2048
+      blob_id: 303286
+    - id: 758033
+      asset_id: 114559
+      name: prom.c14
+      size: 32
+      blob_id: 34669
+    - id: 758034
+      asset_id: 114559
+      name: prom.d14
+      size: 32
+      blob_id: 34670
+    - id: 758035
+      asset_id: 114559
+      name: prom.e14
+      size: 32
+      blob_id: 34671
+    - id: 758036
+      asset_id: 114559
+      name: prom.e8
+      size: 32
+      blob_id: 34672
+    - id: 758037
+      asset_id: 114559
+      name: prom.f14
+      size: 256
+      blob_id: 34673
+    - id: 758038
+      asset_id: 114559
+      name: prom.j14
+      size: 32
+      blob_id: 34674
+- release:
+    id: 98781
+    game_id: 3996
+    description: ""
+    release_date: 19800000
+  names:
+  - id: 231546
+    kind: 3
+    kind_id: 98781
+    language: 1
+    name: Star Castle (Mottoeis)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 114560
+      kind: 3
+      kind_id: 98781
+      type: 1
+      name: starcase.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/994225540
+    entries:
+    - id: 758039
+      asset_id: 114560
+      name: mottoeis.r7
+      size: 2048
+      blob_id: 282281
+    - id: 758040
+      asset_id: 114560
+      name: prom.c14
+      size: 32
+      blob_id: 34669
+    - id: 758041
+      asset_id: 114560
+      name: prom.d14
+      size: 32
+      blob_id: 34670
+    - id: 758042
+      asset_id: 114560
+      name: prom.e14
+      size: 32
+      blob_id: 34671
+    - id: 758043
+      asset_id: 114560
+      name: prom.e8
+      size: 32
+      blob_id: 34672
+    - id: 758044
+      asset_id: 114560
+      name: prom.f14
+      size: 256
+      blob_id: 34673
+    - id: 758045
+      asset_id: 114560
+      name: prom.j14
+      size: 32
+      blob_id: 34674
+    - id: 758046
+      asset_id: 114560
+      name: starcast.p7
+      size: 2048
+      blob_id: 282280
+    - id: 758047
+      asset_id: 114560
+      name: starcast.t7
+      size: 2048
+      blob_id: 282282
+    - id: 758048
+      asset_id: 114560
+      name: starcast.u7
+      size: 2048
+      blob_id: 303282
+- release:
+    id: 98782
+    game_id: 3996
+    description: ""
+    release_date: 19800000
+  names:
+  - id: 231547
+    kind: 3
+    kind_id: 98782
+    language: 1
+    name: Star Castle (prototype)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 114561
+      kind: 3
+      kind_id: 98782
+      type: 1
+      name: starcasp.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/245283178
+    entries:
+    - id: 758049
+      asset_id: 114561
+      name: prom.c14
+      size: 32
+      blob_id: 34669
+    - id: 758050
+      asset_id: 114561
+      name: prom.d14
+      size: 32
+      blob_id: 34670
+    - id: 758051
+      asset_id: 114561
+      name: prom.e14
+      size: 32
+      blob_id: 34671
+    - id: 758052
+      asset_id: 114561
+      name: prom.e8
+      size: 32
+      blob_id: 34672
+    - id: 758053
+      asset_id: 114561
+      name: prom.f14
+      size: 256
+      blob_id: 34673
+    - id: 758054
+      asset_id: 114561
+      name: prom.j14
+      size: 32
+      blob_id: 34674
+    - id: 758055
+      asset_id: 114561
+      name: starcasp.p7
+      size: 2048
+      blob_id: 303287
+    - id: 758056
+      asset_id: 114561
+      name: starcasp.r7
+      size: 2048
+      blob_id: 303288
+    - id: 758057
+      asset_id: 114561
+      name: starcasp.t7
+      size: 2048
+      blob_id: 303289
+    - id: 758058
+      asset_id: 114561
+      name: starcasp.u7
+      size: 2048
+      blob_id: 303290
+- release:
+    id: 98843
+    game_id: 3996
+    description: ""
+    release_date: 19800000
+  names:
+  - id: 231628
+    kind: 3
+    kind_id: 98843
+    language: 1
+    name: Stellar Castle (Elettronolo)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 114634
+      kind: 3
+      kind_id: 98843
+      type: 1
+      name: stellcas.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/3986408959
+    entries:
+    - id: 759408
+      asset_id: 114634
+      name: elttron.r7
+      size: 2048
+      blob_id: 303644
+    - id: 759409
+      asset_id: 114634
+      name: elttron.u7
+      size: 2048
+      blob_id: 303645
+    - id: 759410
+      asset_id: 114634
+      name: prom.c14
+      size: 32
+      blob_id: 34669
+    - id: 759411
+      asset_id: 114634
+      name: prom.d14
+      size: 32
+      blob_id: 34670
+    - id: 759412
+      asset_id: 114634
+      name: prom.e14
+      size: 32
+      blob_id: 34671
+    - id: 759413
+      asset_id: 114634
+      name: prom.e8
+      size: 32
+      blob_id: 34672
+    - id: 759414
+      asset_id: 114634
+      name: prom.f14
+      size: 256
+      blob_id: 34673
+    - id: 759415
+      asset_id: 114634
+      name: prom.j14
+      size: 32
+      blob_id: 34674
+    - id: 759416
+      asset_id: 114634
+      name: starcast.p7
+      size: 2048
+      blob_id: 282280
+    - id: 759417
+      asset_id: 114634
+      name: starcast.t7
+      size: 2048
+      blob_id: 282282
+- release:
+    id: 104868
+    game_id: 3996
+    description: ""
+    release_date: 19810000
+  names:
+  - id: 239844
+    kind: 3
+    kind_id: 104868
+    language: 1
+    name: Space Fortress (Zaccaria)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 114033
+      kind: 3
+      kind_id: 104868
+      type: 1
+      name: spaceftr.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 751388
+      asset_id: 114033
+      name: fortresp7.7p
+      size: 2048
+      blob_id: 282280
+    - id: 751389
+      asset_id: 114033
+      name: fortresr7.7r
+      size: 2048
+      blob_id: 282281
+    - id: 751390
+      asset_id: 114033
+      name: fortrest7.7t
+      size: 2048
+      blob_id: 282282
+    - id: 751391
+      asset_id: 114033
+      name: fortresu7.7u
+      size: 2048
+      blob_id: 282283
+    - id: 751392
+      asset_id: 114033
+      name: prom.c14
+      size: 32
+      blob_id: 34669
+    - id: 751393
+      asset_id: 114033
+      name: prom.d14
+      size: 32
+      blob_id: 34670
+    - id: 751394
+      asset_id: 114033
+      name: prom.e14
+      size: 32
+      blob_id: 34671
+    - id: 751395
+      asset_id: 114033
+      name: prom.f14
+      size: 256
+      blob_id: 34673
+    - id: 751396
+      asset_id: 114033
+      name: prom.j14
+      size: 32
+      blob_id: 34674
+    - id: 751397
+      asset_id: 114033
+      name: prom6331-1j.e8
+      size: 32
+      blob_id: 282284

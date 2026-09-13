@@ -16,6 +16,18 @@ names:
   language: 2
   name: 疯狂小精灵
   source: trimui
+- id: 194165
+  kind: 2
+  kind_id: 3022
+  language: 1
+  name: Pac-Mania (Japan)
+  source: mame
+- id: 194166
+  kind: 2
+  kind_id: 3022
+  language: 1
+  name: Pac-Mania (111187 sound program)
+  source: mame
 game_developers:
 - game_id: 3022
   developer_id: 19
@@ -159,24 +171,10 @@ releases:
       blob_id: 85907
       debug: arcade/wheel/pacmania.png
     entries: []
-- release:
-    id: 60326
-    game_id: 3022
-    description: ""
-    release_date: 19870000
-  names:
-  - id: 151005
-    kind: 3
-    kind_id: 60326
-    language: 1
-    name: Pac-Mania
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 73396
+      id: 106233
       kind: 3
-      kind_id: 60326
+      kind_id: 3022
       type: 1
       name: pacmania.zip
       description: ""
@@ -185,89 +183,75 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 287878
-      asset_id: 73396
+    - id: 682210
+      asset_id: 106233
       name: cus64-64a1.m4
       size: 4096
       blob_id: 7725
-    - id: 287879
-      asset_id: 73396
+    - id: 682211
+      asset_id: 106233
       name: pn1_c0.a8
       size: 131072
       blob_id: 32095
-    - id: 287880
-      asset_id: 73396
+    - id: 682212
+      asset_id: 106233
       name: pn1_c1.b8
       size: 131072
       blob_id: 32096
-    - id: 287881
-      asset_id: 73396
+    - id: 682213
+      asset_id: 106233
       name: pn1_c2.e8
       size: 131072
       blob_id: 32097
-    - id: 287882
-      asset_id: 73396
+    - id: 682214
+      asset_id: 106233
       name: pn1_c3.f8
       size: 131072
       blob_id: 32098
-    - id: 287883
-      asset_id: 73396
+    - id: 682215
+      asset_id: 106233
       name: pn1_c8.t8
       size: 65536
       blob_id: 32094
-    - id: 287884
-      asset_id: 73396
+    - id: 682216
+      asset_id: 106233
       name: pn1_o0.a9
       size: 131072
       blob_id: 32099
-    - id: 287885
-      asset_id: 73396
+    - id: 682217
+      asset_id: 106233
       name: pn1_o1.b9
       size: 131072
       blob_id: 32101
-    - id: 287886
-      asset_id: 73396
+    - id: 682218
+      asset_id: 106233
       name: pn1_p6.s10
       size: 131072
       blob_id: 32100
-    - id: 287887
-      asset_id: 73396
+    - id: 682219
+      asset_id: 106233
       name: pn2_p7.t10
       size: 65536
       blob_id: 32102
-    - id: 287888
-      asset_id: 73396
+    - id: 682220
+      asset_id: 106233
       name: pn2_s0.a10
       size: 65536
       blob_id: 32103
-    - id: 287889
-      asset_id: 73396
+    - id: 682221
+      asset_id: 106233
       name: pn2_s1.b10
       size: 65536
       blob_id: 32104
-    - id: 287890
-      asset_id: 73396
+    - id: 682222
+      asset_id: 106233
       name: pn2_v0.a4
       size: 65536
       blob_id: 32105
-- release:
-    id: 76974
-    game_id: 3022
-    description: ""
-    release_date: 19870000
-  names:
-  - id: 183213
-    kind: 3
-    kind_id: 76974
-    language: 1
-    name: Pac-Mania
-    source: fbneo
-  release_publishers: []
-  assets:
   - asset:
-      id: 90044
+      id: 119251
       kind: 3
-      kind_id: 76974
+      kind_id: 3022
       type: 1
       name: pacmania.zip
       description: ""
@@ -276,68 +260,404 @@ releases:
       blob_id: 0
       debug: dat:fbneo:5fa9b68a
     entries:
-    - id: 448738
-      asset_id: 90044
+    - id: 825897
+      asset_id: 119251
       name: cus64-64a1.mcu
       size: 4096
       blob_id: 7725
-    - id: 448739
-      asset_id: 90044
+    - id: 825898
+      asset_id: 119251
       name: pn2_c8.bin
       size: 65536
       blob_id: 32094
-    - id: 448740
-      asset_id: 90044
+    - id: 825899
+      asset_id: 119251
       name: pn2_p7.bin
       size: 65536
       blob_id: 32102
-    - id: 448741
-      asset_id: 90044
+    - id: 825900
+      asset_id: 119251
       name: pn2_s0.bin
       size: 65536
       blob_id: 32103
-    - id: 448742
-      asset_id: 90044
+    - id: 825901
+      asset_id: 119251
       name: pn2_s1.bin
       size: 65536
       blob_id: 32104
-    - id: 448743
-      asset_id: 90044
+    - id: 825902
+      asset_id: 119251
       name: pn2_v0.bin
       size: 65536
       blob_id: 32105
-    - id: 448744
-      asset_id: 90044
+    - id: 825903
+      asset_id: 119251
       name: pn_chr-0.bin
       size: 131072
       blob_id: 32095
-    - id: 448745
-      asset_id: 90044
+    - id: 825904
+      asset_id: 119251
       name: pn_chr-1.bin
       size: 131072
       blob_id: 32096
-    - id: 448746
-      asset_id: 90044
+    - id: 825905
+      asset_id: 119251
       name: pn_chr-2.bin
       size: 131072
       blob_id: 32097
-    - id: 448747
-      asset_id: 90044
+    - id: 825906
+      asset_id: 119251
       name: pn_chr-3.bin
       size: 131072
       blob_id: 32098
-    - id: 448748
-      asset_id: 90044
+    - id: 825907
+      asset_id: 119251
       name: pn_obj-0.bin
       size: 131072
       blob_id: 32099
-    - id: 448749
-      asset_id: 90044
+    - id: 825908
+      asset_id: 119251
       name: pn_prg-6.bin
       size: 131072
       blob_id: 32100
-    - id: 448750
-      asset_id: 90044
+    - id: 825909
+      asset_id: 119251
+      name: pnx_obj1.bin
+      size: 131072
+      blob_id: 32101
+- release:
+    id: 90792
+    game_id: 3022
+    description: ""
+    release_date: 19870000
+  names:
+  - id: 220908
+    kind: 3
+    kind_id: 90792
+    language: 1
+    name: Pac-Mania (Japan)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 106234
+      kind: 3
+      kind_id: 90792
+      type: 1
+      name: pacmaniaj.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 682223
+      asset_id: 106234
+      name: cus64-64a1.m4
+      size: 4096
+      blob_id: 7725
+    - id: 682224
+      asset_id: 106234
+      name: pn1_c0.a8
+      size: 131072
+      blob_id: 32095
+    - id: 682225
+      asset_id: 106234
+      name: pn1_c1.b8
+      size: 131072
+      blob_id: 32096
+    - id: 682226
+      asset_id: 106234
+      name: pn1_c2.e8
+      size: 131072
+      blob_id: 32097
+    - id: 682227
+      asset_id: 106234
+      name: pn1_c3.f8
+      size: 131072
+      blob_id: 32098
+    - id: 682228
+      asset_id: 106234
+      name: pn1_c8.t8
+      size: 65536
+      blob_id: 32094
+    - id: 682229
+      asset_id: 106234
+      name: pn1_o0.a9
+      size: 131072
+      blob_id: 32099
+    - id: 682230
+      asset_id: 106234
+      name: pn1_p6.s10
+      size: 131072
+      blob_id: 32100
+    - id: 682231
+      asset_id: 106234
+      name: pn1_p7.t10
+      size: 65536
+      blob_id: 262683
+    - id: 682232
+      asset_id: 106234
+      name: pn1_s0.a10
+      size: 65536
+      blob_id: 262684
+    - id: 682233
+      asset_id: 106234
+      name: pn1_s1.b10
+      size: 65536
+      blob_id: 262685
+    - id: 682234
+      asset_id: 106234
+      name: pn1_v0.a4
+      size: 65536
+      blob_id: 262686
+    - id: 682235
+      asset_id: 106234
+      name: pnx_o1.b9
+      size: 131072
+      blob_id: 262687
+  - asset:
+      id: 119250
+      kind: 3
+      kind_id: 90792
+      type: 1
+      name: pacmaniaj.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 825884
+      asset_id: 119250
+      name: cus64-64a1.mcu
+      size: 4096
+      blob_id: 7725
+    - id: 825885
+      asset_id: 119250
+      name: pn1_c8.bin
+      size: 65536
+      blob_id: 32094
+    - id: 825886
+      asset_id: 119250
+      name: pn1_p7.bin
+      size: 65536
+      blob_id: 262683
+    - id: 825887
+      asset_id: 119250
+      name: pn1_s0.bin
+      size: 65536
+      blob_id: 262684
+    - id: 825888
+      asset_id: 119250
+      name: pn1_s1.bin
+      size: 65536
+      blob_id: 262685
+    - id: 825889
+      asset_id: 119250
+      name: pn1_v0.bin
+      size: 65536
+      blob_id: 262686
+    - id: 825890
+      asset_id: 119250
+      name: pn_chr-0.bin
+      size: 131072
+      blob_id: 32095
+    - id: 825891
+      asset_id: 119250
+      name: pn_chr-1.bin
+      size: 131072
+      blob_id: 32096
+    - id: 825892
+      asset_id: 119250
+      name: pn_chr-2.bin
+      size: 131072
+      blob_id: 32097
+    - id: 825893
+      asset_id: 119250
+      name: pn_chr-3.bin
+      size: 131072
+      blob_id: 32098
+    - id: 825894
+      asset_id: 119250
+      name: pn_obj-0.bin
+      size: 131072
+      blob_id: 32099
+    - id: 825895
+      asset_id: 119250
+      name: pn_obj-1.bin
+      size: 131072
+      blob_id: 262687
+    - id: 825896
+      asset_id: 119250
+      name: pn_prg-6.bin
+      size: 131072
+      blob_id: 32100
+- release:
+    id: 90793
+    game_id: 3022
+    description: ""
+    release_date: 19870000
+  names:
+  - id: 220909
+    kind: 3
+    kind_id: 90793
+    language: 1
+    name: Pac-Mania (111187 sound program)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 106235
+      kind: 3
+      kind_id: 90793
+      type: 1
+      name: pacmaniao.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 682236
+      asset_id: 106235
+      name: cus64-64a1.m4
+      size: 4096
+      blob_id: 7725
+    - id: 682237
+      asset_id: 106235
+      name: pac-mania_111187.sound0
+      size: 65536
+      blob_id: 262688
+    - id: 682238
+      asset_id: 106235
+      name: pac-mania_111187.sound1
+      size: 65536
+      blob_id: 262685
+    - id: 682239
+      asset_id: 106235
+      name: pac-mania_111187.voice0
+      size: 65536
+      blob_id: 32105
+    - id: 682240
+      asset_id: 106235
+      name: pn1_c0.a8
+      size: 131072
+      blob_id: 32095
+    - id: 682241
+      asset_id: 106235
+      name: pn1_c1.b8
+      size: 131072
+      blob_id: 32096
+    - id: 682242
+      asset_id: 106235
+      name: pn1_c2.e8
+      size: 131072
+      blob_id: 32097
+    - id: 682243
+      asset_id: 106235
+      name: pn1_c3.f8
+      size: 131072
+      blob_id: 32098
+    - id: 682244
+      asset_id: 106235
+      name: pn1_c8.t8
+      size: 65536
+      blob_id: 32094
+    - id: 682245
+      asset_id: 106235
+      name: pn1_o0.a9
+      size: 131072
+      blob_id: 32099
+    - id: 682246
+      asset_id: 106235
+      name: pn1_o1.b9
+      size: 131072
+      blob_id: 32101
+    - id: 682247
+      asset_id: 106235
+      name: pn1_p6.s10
+      size: 131072
+      blob_id: 32100
+    - id: 682248
+      asset_id: 106235
+      name: pn2_p7.t10
+      size: 65536
+      blob_id: 32102
+  - asset:
+      id: 119249
+      kind: 3
+      kind_id: 90793
+      type: 1
+      name: pacmaniao.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 825871
+      asset_id: 119249
+      name: cus64-64a1.mcu
+      size: 4096
+      blob_id: 7725
+    - id: 825872
+      asset_id: 119249
+      name: pac-mania_111187.sound0
+      size: 65536
+      blob_id: 262688
+    - id: 825873
+      asset_id: 119249
+      name: pac-mania_111187.sound1
+      size: 65536
+      blob_id: 262685
+    - id: 825874
+      asset_id: 119249
+      name: pac-mania_111187.voice0
+      size: 65536
+      blob_id: 32105
+    - id: 825875
+      asset_id: 119249
+      name: pn1_c8.bin
+      size: 65536
+      blob_id: 32094
+    - id: 825876
+      asset_id: 119249
+      name: pn2_p7.bin
+      size: 65536
+      blob_id: 32102
+    - id: 825877
+      asset_id: 119249
+      name: pn_chr-0.bin
+      size: 131072
+      blob_id: 32095
+    - id: 825878
+      asset_id: 119249
+      name: pn_chr-1.bin
+      size: 131072
+      blob_id: 32096
+    - id: 825879
+      asset_id: 119249
+      name: pn_chr-2.bin
+      size: 131072
+      blob_id: 32097
+    - id: 825880
+      asset_id: 119249
+      name: pn_chr-3.bin
+      size: 131072
+      blob_id: 32098
+    - id: 825881
+      asset_id: 119249
+      name: pn_obj-0.bin
+      size: 131072
+      blob_id: 32099
+    - id: 825882
+      asset_id: 119249
+      name: pn_prg-6.bin
+      size: 131072
+      blob_id: 32100
+    - id: 825883
+      asset_id: 119249
       name: pnx_obj1.bin
       size: 131072
       blob_id: 32101

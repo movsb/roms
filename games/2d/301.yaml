@@ -16,6 +16,90 @@ names:
   language: 2
   name: 导弹指令 (修订版 3)
   source: trimui
+- id: 187258
+  kind: 2
+  kind_id: 301
+  language: 1
+  name: suprmatk
+  source: ""
+- id: 187259
+  kind: 2
+  kind_id: 301
+  language: 2
+  name: 超级导弹指令 (修订版 1)
+  source: trimui
+- id: 193063
+  kind: 2
+  kind_id: 301
+  language: 1
+  name: Missile Combat (Videotron bootleg, set 1)
+  source: mame
+- id: 193064
+  kind: 2
+  kind_id: 301
+  language: 1
+  name: Missile Combat (Videotron bootleg, set 2)
+  source: mame
+- id: 193065
+  kind: 2
+  kind_id: 301
+  language: 1
+  name: Missile Combat (Sidam bootleg)
+  source: mame
+- id: 193288
+  kind: 2
+  kind_id: 301
+  language: 1
+  name: Missile Command (rev 1, A035467-02 PCBs)
+  source: mame
+- id: 193289
+  kind: 2
+  kind_id: 301
+  language: 1
+  name: Missile Command (rev 1, A035467-01 PCBs)
+  source: mame
+- id: 193290
+  kind: 2
+  kind_id: 301
+  language: 1
+  name: Missile Command (rev 2, A035467-02/04 PCBs)
+  source: mame
+- id: 193291
+  kind: 2
+  kind_id: 301
+  language: 1
+  name: Missile Command (rev 2, A035467-01/03 PCBs)
+  source: mame
+- id: 193292
+  kind: 2
+  kind_id: 301
+  language: 1
+  name: Missile Command (rev 3, A035467-01/03 PCBs)
+  source: mame
+- id: 193293
+  kind: 2
+  kind_id: 301
+  language: 1
+  name: Missile Attack (U.Games bootleg of Missile Command)
+  source: mame
+- id: 193294
+  kind: 2
+  kind_id: 301
+  language: 1
+  name: Missile Command Multigame
+  source: mame
+- id: 199799
+  kind: 2
+  kind_id: 301
+  language: 1
+  name: Super Missile Attack (not encrypted)
+  source: mame
+- id: 201540
+  kind: 2
+  kind_id: 301
+  language: 1
+  name: "X80 - War Command (ManilaMatic bootleg of Missile Command)"
+  source: mame
 game_developers:
 - game_id: 301
   developer_id: 101
@@ -129,24 +213,10 @@ releases:
       blob_id: 85050
       debug: arcade/wheel/missile.png
     entries: []
-- release:
-    id: 58415
-    game_id: 301
-    description: ""
-    release_date: 19800000
-  names:
-  - id: 147278
-    kind: 3
-    kind_id: 58415
-    language: 1
-    name: Missile Command (rev 3, A035467-02/04 PCBs)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 71485
+      id: 104400
       kind: 3
-      kind_id: 58415
+      kind_id: 301
       type: 1
       name: missile.zip
       description: ""
@@ -155,59 +225,45 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 266650
-      asset_id: 71485
+    - id: 662088
+      asset_id: 104400
       name: 035820-02.h1
       size: 2048
       blob_id: 2876
-    - id: 266651
-      asset_id: 71485
+    - id: 662089
+      asset_id: 104400
       name: 035821-02.jk1
       size: 2048
       blob_id: 2877
-    - id: 266652
-      asset_id: 71485
+    - id: 662090
+      asset_id: 104400
       name: 035822-03e.kl1
       size: 2048
-      blob_id: 149610
-    - id: 266653
-      asset_id: 71485
+      blob_id: 237356
+    - id: 662091
+      asset_id: 104400
       name: 035823-02.lm1
       size: 2048
       blob_id: 2879
-    - id: 266654
-      asset_id: 71485
+    - id: 662092
+      asset_id: 104400
       name: 035824-02.np1
       size: 2048
       blob_id: 2880
-    - id: 266655
-      asset_id: 71485
+    - id: 662093
+      asset_id: 104400
       name: 035825-02.r1
       size: 2048
       blob_id: 2881
-    - id: 266656
-      asset_id: 71485
+    - id: 662094
+      asset_id: 104400
       name: 035826-01.l6
       size: 32
-      blob_id: 148146
-- release:
-    id: 76872
-    game_id: 301
-    description: ""
-    release_date: 19800000
-  names:
-  - id: 183085
-    kind: 3
-    kind_id: 76872
-    language: 1
-    name: Missile Command (rev 3)
-    source: fbneo
-  release_publishers: []
-  assets:
+      blob_id: 237357
   - asset:
-      id: 89942
+      id: 119142
       kind: 3
-      kind_id: 76872
+      kind_id: 301
       type: 1
       name: missile.zip
       description: ""
@@ -216,38 +272,1149 @@ releases:
       blob_id: 0
       debug: dat:fbneo:5fa9b68a
     entries:
-    - id: 445625
-      asset_id: 89942
+    - id: 822804
+      asset_id: 119142
       name: 035820-02.h1
       size: 2048
       blob_id: 2876
-    - id: 445626
-      asset_id: 89942
+    - id: 822805
+      asset_id: 119142
       name: 035821-02.jk1
       size: 2048
       blob_id: 2877
-    - id: 445627
-      asset_id: 89942
+    - id: 822806
+      asset_id: 119142
       name: 035822-03e.kl1
       size: 2048
-      blob_id: 149610
-    - id: 445628
-      asset_id: 89942
+      blob_id: 237356
+    - id: 822807
+      asset_id: 119142
       name: 035823-02.ln1
       size: 2048
       blob_id: 2879
-    - id: 445629
-      asset_id: 89942
+    - id: 822808
+      asset_id: 119142
       name: 035824-02.np1
       size: 2048
       blob_id: 2880
-    - id: 445630
-      asset_id: 89942
+    - id: 822809
+      asset_id: 119142
       name: 035825-02.r1
       size: 2048
       blob_id: 2881
-    - id: 445631
-      asset_id: 89942
+    - id: 822810
+      asset_id: 119142
       name: 035826-01.l6
       size: 32
-      blob_id: 148146
+      blob_id: 237357
+- release:
+    id: 89058
+    game_id: 301
+    description: ""
+    release_date: 19800000
+  names:
+  - id: 218240
+    kind: 3
+    kind_id: 89058
+    language: 1
+    name: Missile Command (rev 1, A035467-02 PCBs)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 104401
+      kind: 3
+      kind_id: 89058
+      type: 1
+      name: missile1.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 662095
+      asset_id: 104401
+      name: 035826-01.l6
+      size: 32
+      blob_id: 237357
+    - id: 662096
+      asset_id: 104401
+      name: 35820-01.h1
+      size: 2048
+      blob_id: 257480
+    - id: 662097
+      asset_id: 104401
+      name: 35821-01.jk1
+      size: 2048
+      blob_id: 257481
+    - id: 662098
+      asset_id: 104401
+      name: 35822-01.kl1
+      size: 2048
+      blob_id: 257482
+    - id: 662099
+      asset_id: 104401
+      name: 35823-01.lm1
+      size: 2048
+      blob_id: 257483
+    - id: 662100
+      asset_id: 104401
+      name: 35824-01.np1
+      size: 2048
+      blob_id: 257484
+    - id: 662101
+      asset_id: 104401
+      name: 35825-01.r1
+      size: 2048
+      blob_id: 257485
+  - asset:
+      id: 119140
+      kind: 3
+      kind_id: 89058
+      type: 1
+      name: missile1.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 822790
+      asset_id: 119140
+      name: 035826-01.l6
+      size: 32
+      blob_id: 237357
+    - id: 822791
+      asset_id: 119140
+      name: 35820-01.h1
+      size: 2048
+      blob_id: 257480
+    - id: 822792
+      asset_id: 119140
+      name: 35821-01.jk1
+      size: 2048
+      blob_id: 257481
+    - id: 822793
+      asset_id: 119140
+      name: 35822-01.kl1
+      size: 2048
+      blob_id: 257482
+    - id: 822794
+      asset_id: 119140
+      name: 35823-01.ln1
+      size: 2048
+      blob_id: 257483
+    - id: 822795
+      asset_id: 119140
+      name: 35824-01.np1
+      size: 2048
+      blob_id: 257484
+    - id: 822796
+      asset_id: 119140
+      name: 35825-01.r1
+      size: 2048
+      blob_id: 257485
+- release:
+    id: 89059
+    game_id: 301
+    description: ""
+    release_date: 19800000
+  names:
+  - id: 218241
+    kind: 3
+    kind_id: 89059
+    language: 1
+    name: Missile Command (rev 1, A035467-01 PCBs)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 104402
+      kind: 3
+      kind_id: 89059
+      type: 1
+      name: missile1a.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 662102
+      asset_id: 104402
+      name: 035826-01.l6
+      size: 32
+      blob_id: 237357
+    - id: 662103
+      asset_id: 104402
+      name: 35808-01.h1
+      size: 1024
+      blob_id: 257486
+    - id: 662104
+      asset_id: 104402
+      name: 35809-01.d1
+      size: 1024
+      blob_id: 257487
+    - id: 662105
+      asset_id: 104402
+      name: 35810-01.jk1
+      size: 1024
+      blob_id: 257488
+    - id: 662106
+      asset_id: 104402
+      name: 35811-01.e1
+      size: 1024
+      blob_id: 257489
+    - id: 662107
+      asset_id: 104402
+      name: 35812-01.kl1
+      size: 1024
+      blob_id: 257490
+    - id: 662108
+      asset_id: 104402
+      name: 35813-01.f1
+      size: 1024
+      blob_id: 257491
+    - id: 662109
+      asset_id: 104402
+      name: 35816-01.np1
+      size: 1024
+      blob_id: 257492
+    - id: 662110
+      asset_id: 104402
+      name: 35817-01.mn1
+      size: 1024
+      blob_id: 257493
+    - id: 662111
+      asset_id: 104402
+      name: 35818-01.r1
+      size: 1024
+      blob_id: 257494
+    - id: 662112
+      asset_id: 104402
+      name: 35819-01.r3
+      size: 1024
+      blob_id: 257495
+    - id: 662113
+      asset_id: 104402
+      name: 35823-01.lm1
+      size: 2048
+      blob_id: 257483
+- release:
+    id: 89060
+    game_id: 301
+    description: ""
+    release_date: 19800000
+  names:
+  - id: 218242
+    kind: 3
+    kind_id: 89060
+    language: 1
+    name: Missile Command (rev 2, A035467-02/04 PCBs)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 104403
+      kind: 3
+      kind_id: 89060
+      type: 1
+      name: missile2.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 662114
+      asset_id: 104403
+      name: 035820-02.h1
+      size: 2048
+      blob_id: 2876
+    - id: 662115
+      asset_id: 104403
+      name: 035821-02.jk1
+      size: 2048
+      blob_id: 2877
+    - id: 662116
+      asset_id: 104403
+      name: 035822-02.kl1
+      size: 2048
+      blob_id: 2878
+    - id: 662117
+      asset_id: 104403
+      name: 035823-02.lm1
+      size: 2048
+      blob_id: 2879
+    - id: 662118
+      asset_id: 104403
+      name: 035824-02.np1
+      size: 2048
+      blob_id: 2880
+    - id: 662119
+      asset_id: 104403
+      name: 035825-02.r1
+      size: 2048
+      blob_id: 2881
+    - id: 662120
+      asset_id: 104403
+      name: 035826-01.l6
+      size: 32
+      blob_id: 237357
+  - asset:
+      id: 119141
+      kind: 3
+      kind_id: 89060
+      type: 1
+      name: missile2.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 822797
+      asset_id: 119141
+      name: 035820-02.h1
+      size: 2048
+      blob_id: 2876
+    - id: 822798
+      asset_id: 119141
+      name: 035821-02.jk1
+      size: 2048
+      blob_id: 2877
+    - id: 822799
+      asset_id: 119141
+      name: 035822-02.kl1
+      size: 2048
+      blob_id: 2878
+    - id: 822800
+      asset_id: 119141
+      name: 035823-02.ln1
+      size: 2048
+      blob_id: 2879
+    - id: 822801
+      asset_id: 119141
+      name: 035824-02.np1
+      size: 2048
+      blob_id: 2880
+    - id: 822802
+      asset_id: 119141
+      name: 035825-02.r1
+      size: 2048
+      blob_id: 2881
+    - id: 822803
+      asset_id: 119141
+      name: 035826-01.l6
+      size: 32
+      blob_id: 237357
+- release:
+    id: 89061
+    game_id: 301
+    description: ""
+    release_date: 19800000
+  names:
+  - id: 218243
+    kind: 3
+    kind_id: 89061
+    language: 1
+    name: Missile Command (rev 2, A035467-01/03 PCBs)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 104404
+      kind: 3
+      kind_id: 89061
+      type: 1
+      name: missile2a.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 662121
+      asset_id: 104404
+      name: 035826-01.l6
+      size: 32
+      blob_id: 237357
+    - id: 662122
+      asset_id: 104404
+      name: 35808-02.h1
+      size: 1024
+      blob_id: 257496
+    - id: 662123
+      asset_id: 104404
+      name: 35809-02.d1
+      size: 1024
+      blob_id: 257497
+    - id: 662124
+      asset_id: 104404
+      name: 35810-02.jk1
+      size: 1024
+      blob_id: 257498
+    - id: 662125
+      asset_id: 104404
+      name: 35811-02.e1
+      size: 1024
+      blob_id: 257499
+    - id: 662126
+      asset_id: 104404
+      name: 35812-02.kl1
+      size: 1024
+      blob_id: 257500
+    - id: 662127
+      asset_id: 104404
+      name: 35813-02.f1
+      size: 1024
+      blob_id: 257501
+    - id: 662128
+      asset_id: 104404
+      name: 35816-02.np1
+      size: 1024
+      blob_id: 257502
+    - id: 662129
+      asset_id: 104404
+      name: 35817-02.mn1
+      size: 1024
+      blob_id: 257503
+    - id: 662130
+      asset_id: 104404
+      name: 35818-02.r1
+      size: 1024
+      blob_id: 257504
+    - id: 662131
+      asset_id: 104404
+      name: 35819-02.r3
+      size: 1024
+      blob_id: 257505
+    - id: 662132
+      asset_id: 104404
+      name: 35823-02.lm1
+      size: 2048
+      blob_id: 2879
+- release:
+    id: 89062
+    game_id: 301
+    description: ""
+    release_date: 19800000
+  names:
+  - id: 218244
+    kind: 3
+    kind_id: 89062
+    language: 1
+    name: Missile Command (rev 3, A035467-01/03 PCBs)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 104405
+      kind: 3
+      kind_id: 89062
+      type: 1
+      name: missilea.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 662133
+      asset_id: 104405
+      name: 035826-01.l6
+      size: 32
+      blob_id: 237357
+    - id: 662134
+      asset_id: 104405
+      name: 35808-02.h1
+      size: 1024
+      blob_id: 257496
+    - id: 662135
+      asset_id: 104405
+      name: 35809-02.d1
+      size: 1024
+      blob_id: 257497
+    - id: 662136
+      asset_id: 104405
+      name: 35810-02.jk1
+      size: 1024
+      blob_id: 257498
+    - id: 662137
+      asset_id: 104405
+      name: 35811-02.e1
+      size: 1024
+      blob_id: 257499
+    - id: 662138
+      asset_id: 104405
+      name: 35812-03e.kl1
+      size: 1024
+      blob_id: 257506
+    - id: 662139
+      asset_id: 104405
+      name: 35813-03e.f1
+      size: 1024
+      blob_id: 257507
+    - id: 662140
+      asset_id: 104405
+      name: 35816-02.np1
+      size: 1024
+      blob_id: 257502
+    - id: 662141
+      asset_id: 104405
+      name: 35817-02.mn1
+      size: 1024
+      blob_id: 257503
+    - id: 662142
+      asset_id: 104405
+      name: 35818-02.r1
+      size: 1024
+      blob_id: 257504
+    - id: 662143
+      asset_id: 104405
+      name: 35819-02.r3
+      size: 1024
+      blob_id: 257505
+    - id: 662144
+      asset_id: 104405
+      name: 35823-02.lm1
+      size: 2048
+      blob_id: 2879
+  - asset:
+      id: 120694
+      kind: 3
+      kind_id: 89062
+      type: 1
+      name: missilea.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.259
+    entries:
+    - id: 871639
+      asset_id: 120694
+      name: 1.1h
+      size: 2048
+      blob_id: 257508
+    - id: 871640
+      asset_id: 120694
+      name: 2.1j
+      size: 2048
+      blob_id: 257509
+    - id: 871641
+      asset_id: 120694
+      name: 2708.10c
+      size: 1024
+      blob_id: 257510
+    - id: 871642
+      asset_id: 120694
+      name: 2708.10e
+      size: 1024
+      blob_id: 257511
+    - id: 871643
+      asset_id: 120694
+      name: 3.1k
+      size: 2048
+      blob_id: 257512
+    - id: 871644
+      asset_id: 120694
+      name: 4.1l
+      size: 2048
+      blob_id: 257513
+    - id: 871645
+      asset_id: 120694
+      name: 5.1n
+      size: 2048
+      blob_id: 257514
+    - id: 871646
+      asset_id: 120694
+      name: 6.1r
+      size: 2048
+      blob_id: 257515
+    - id: 871647
+      asset_id: 120694
+      name: dm74s288n.6l
+      size: 32
+      blob_id: 237357
+- release:
+    id: 89063
+    game_id: 301
+    description: ""
+    release_date: 19810000
+  names:
+  - id: 218245
+    kind: 3
+    kind_id: 89063
+    language: 1
+    name: Missile Attack (U.Games bootleg of Missile Command)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 104406
+      kind: 3
+      kind_id: 89063
+      type: 1
+      name: missilebl.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 662145
+      asset_id: 104406
+      name: 1.1h
+      size: 2048
+      blob_id: 257508
+    - id: 662146
+      asset_id: 104406
+      name: 2.1j
+      size: 2048
+      blob_id: 257509
+    - id: 662147
+      asset_id: 104406
+      name: 2708.10c
+      size: 1024
+      blob_id: 257510
+    - id: 662148
+      asset_id: 104406
+      name: 2708.10e
+      size: 1024
+      blob_id: 257511
+    - id: 662149
+      asset_id: 104406
+      name: 3.1k
+      size: 2048
+      blob_id: 257512
+    - id: 662150
+      asset_id: 104406
+      name: 4.1l
+      size: 2048
+      blob_id: 257513
+    - id: 662151
+      asset_id: 104406
+      name: 5.1n
+      size: 2048
+      blob_id: 257514
+    - id: 662152
+      asset_id: 104406
+      name: 6.1r
+      size: 2048
+      blob_id: 257515
+    - id: 662153
+      asset_id: 104406
+      name: dm74s288n.6l
+      size: 32
+      blob_id: 237357
+- release:
+    id: 89064
+    game_id: 301
+    description: ""
+    release_date: 20050000
+  names:
+  - id: 218246
+    kind: 3
+    kind_id: 89064
+    language: 1
+    name: Missile Command Multigame
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 104407
+      kind: 3
+      kind_id: 89064
+      type: 1
+      name: missilem.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 662154
+      asset_id: 104407
+      name: 035826-01.l6
+      size: 32
+      blob_id: 237357
+    - id: 662155
+      asset_id: 104407
+      name: mcm001d.512
+      size: 65536
+      blob_id: 257516
+- release:
+    id: 99067
+    game_id: 301
+    description: ""
+    release_date: 19810000
+  names:
+  - id: 231963
+    kind: 3
+    kind_id: 99067
+    language: 1
+    name: Super Missile Attack (not encrypted)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 114883
+      kind: 3
+      kind_id: 99067
+      type: 1
+      name: suprmatkd.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 762417
+      asset_id: 114883
+      name: 035820_sma.h1
+      size: 2048
+      blob_id: 43821
+    - id: 762418
+      asset_id: 114883
+      name: 035821_sma.jk1
+      size: 2048
+      blob_id: 43820
+    - id: 762419
+      asset_id: 114883
+      name: 035822_sma.kl1
+      size: 2048
+      blob_id: 43819
+    - id: 762420
+      asset_id: 114883
+      name: 035823_sma.lm1
+      size: 2048
+      blob_id: 43818
+    - id: 762421
+      asset_id: 114883
+      name: 035824_sma.np1
+      size: 2048
+      blob_id: 43817
+    - id: 762422
+      asset_id: 114883
+      name: 035825_sma.r1
+      size: 2048
+      blob_id: 43816
+    - id: 762423
+      asset_id: 114883
+      name: 035826-01.l6
+      size: 32
+      blob_id: 237357
+  - asset:
+      id: 119541
+      kind: 3
+      kind_id: 99067
+      type: 1
+      name: suprmatkd.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 834229
+      asset_id: 119541
+      name: 035820.sma
+      size: 2048
+      blob_id: 43821
+    - id: 834230
+      asset_id: 119541
+      name: 035821.sma
+      size: 2048
+      blob_id: 43820
+    - id: 834231
+      asset_id: 119541
+      name: 035822.sma
+      size: 2048
+      blob_id: 43819
+    - id: 834232
+      asset_id: 119541
+      name: 035823.sma
+      size: 2048
+      blob_id: 43818
+    - id: 834233
+      asset_id: 119541
+      name: 035824.sma
+      size: 2048
+      blob_id: 43817
+    - id: 834234
+      asset_id: 119541
+      name: 035825.sma
+      size: 2048
+      blob_id: 43816
+    - id: 834235
+      asset_id: 119541
+      name: 035826-01.l6
+      size: 32
+      blob_id: 237357
+- release:
+    id: 102050
+    game_id: 301
+    description: ""
+    release_date: 19810000
+  names:
+  - id: 236220
+    kind: 3
+    kind_id: 102050
+    language: 1
+    name: "X80 - War Command (ManilaMatic bootleg of Missile Command)"
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 118069
+      kind: 3
+      kind_id: 102050
+      type: 1
+      name: x80wc.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/3682388301
+    entries:
+    - id: 800043
+      asset_id: 118069
+      name: 10mm.p1
+      size: 1024
+      blob_id: 314054
+    - id: 800044
+      asset_id: 118069
+      name: 11mm.r1
+      size: 1024
+      blob_id: 314055
+    - id: 800045
+      asset_id: 118069
+      name: 1mm.c1
+      size: 2048
+      blob_id: 314056
+    - id: 800046
+      asset_id: 118069
+      name: 20mm.b1
+      size: 1024
+      blob_id: 314057
+    - id: 800047
+      asset_id: 118069
+      name: 2mm.d1
+      size: 1024
+      blob_id: 314058
+    - id: 800048
+      asset_id: 118069
+      name: 3mm.e1
+      size: 1024
+      blob_id: 314059
+    - id: 800049
+      asset_id: 118069
+      name: 4mm.fh1
+      size: 1024
+      blob_id: 314060
+    - id: 800050
+      asset_id: 118069
+      name: 5mm.j1
+      size: 1024
+      blob_id: 314061
+    - id: 800051
+      asset_id: 118069
+      name: 6mm.k1
+      size: 1024
+      blob_id: 314062
+    - id: 800052
+      asset_id: 118069
+      name: 7mm.l1
+      size: 1024
+      blob_id: 314063
+    - id: 800053
+      asset_id: 118069
+      name: 8mm.m1
+      size: 1024
+      blob_id: 314064
+    - id: 800054
+      asset_id: 118069
+      name: 9mm.n1
+      size: 1024
+      blob_id: 314065
+    - id: 800055
+      asset_id: 118069
+      name: mmi6331.l6
+      size: 32
+      blob_id: 237357
+- release:
+    id: 103148
+    game_id: 301
+    description: ""
+    release_date: 0
+  names:
+  - id: 238082
+    kind: 3
+    kind_id: 103148
+    language: 1
+    name: suprmatk
+    source: ""
+  - id: 238083
+    kind: 3
+    kind_id: 103148
+    language: 2
+    name: 超级导弹指令 (修订版 1)
+    source: trimui
+  release_publishers: []
+  assets:
+  - asset:
+      id: 114882
+      kind: 3
+      kind_id: 103148
+      type: 1
+      name: suprmatk.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/1109869606
+    entries:
+    - id: 762406
+      asset_id: 114882
+      name: 035820-02.c1
+      size: 2048
+      blob_id: 2876
+    - id: 762407
+      asset_id: 114882
+      name: 035821-02.b1
+      size: 2048
+      blob_id: 2877
+    - id: 762408
+      asset_id: 114882
+      name: 035822-02.a1
+      size: 2048
+      blob_id: 2878
+    - id: 762409
+      asset_id: 114882
+      name: 035823-02.a5
+      size: 2048
+      blob_id: 2879
+    - id: 762410
+      asset_id: 114882
+      name: 035824-02.b5
+      size: 2048
+      blob_id: 2880
+    - id: 762411
+      asset_id: 114882
+      name: 035825-02.c5
+      size: 2048
+      blob_id: 2881
+    - id: 762412
+      asset_id: 114882
+      name: 035826-01.l6
+      size: 32
+      blob_id: 237357
+    - id: 762413
+      asset_id: 114882
+      name: 63s141.b2
+      size: 256
+      blob_id: 304655
+    - id: 762414
+      asset_id: 114882
+      name: 63s141.b4
+      size: 256
+      blob_id: 304656
+    - id: 762415
+      asset_id: 114882
+      name: e0.d5
+      size: 2048
+      blob_id: 304657
+    - id: 762416
+      asset_id: 114882
+      name: e1.e5
+      size: 2048
+      blob_id: 304658
+- release:
+    id: 104426
+    game_id: 301
+    description: ""
+    release_date: 19800000
+  names:
+  - id: 239402
+    kind: 3
+    kind_id: 104426
+    language: 1
+    name: Missile Combat (Videotron bootleg, set 1)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 103987
+      kind: 3
+      kind_id: 104426
+      type: 1
+      name: mcombat.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 658460
+      asset_id: 103987
+      name: 002-0-0.10a
+      size: 2048
+      blob_id: 257033
+    - id: 658461
+      asset_id: 103987
+      name: 002-1-1.9a
+      size: 2048
+      blob_id: 257034
+    - id: 658462
+      asset_id: 103987
+      name: 002-2-2.8a
+      size: 2048
+      blob_id: 257035
+    - id: 658463
+      asset_id: 103987
+      name: 002-3-3.7a
+      size: 2048
+      blob_id: 257036
+    - id: 658464
+      asset_id: 103987
+      name: 002-4-4.6a
+      size: 2048
+      blob_id: 257037
+    - id: 658465
+      asset_id: 103987
+      name: 002-5-5.5a
+      size: 2048
+      blob_id: 257038
+    - id: 658466
+      asset_id: 103987
+      name: mmi6331.6f
+      size: 32
+      blob_id: 237357
+- release:
+    id: 104427
+    game_id: 301
+    description: ""
+    release_date: 19800000
+  names:
+  - id: 239403
+    kind: 3
+    kind_id: 104427
+    language: 1
+    name: Missile Combat (Videotron bootleg, set 2)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 103988
+      kind: 3
+      kind_id: 104427
+      type: 1
+      name: mcombata.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 658467
+      asset_id: 103988
+      name: 002-0-0.10a
+      size: 2048
+      blob_id: 257033
+    - id: 658468
+      asset_id: 103988
+      name: 002-1-1.9a
+      size: 2048
+      blob_id: 257034
+    - id: 658469
+      asset_id: 103988
+      name: 002-2-2.8a
+      size: 2048
+      blob_id: 257035
+    - id: 658470
+      asset_id: 103988
+      name: 002-5-5.5a
+      size: 2048
+      blob_id: 257038
+    - id: 658471
+      asset_id: 103988
+      name: 3.bin
+      size: 2048
+      blob_id: 257039
+    - id: 658472
+      asset_id: 103988
+      name: 4.bin
+      size: 2048
+      blob_id: 257040
+    - id: 658473
+      asset_id: 103988
+      name: mmi6331.6f
+      size: 32
+      blob_id: 237357
+- release:
+    id: 104428
+    game_id: 301
+    description: ""
+    release_date: 19800000
+  names:
+  - id: 239404
+    kind: 3
+    kind_id: 104428
+    language: 1
+    name: Missile Combat (Sidam bootleg)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 103989
+      kind: 3
+      kind_id: 104428
+      type: 1
+      name: mcombats.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 658474
+      asset_id: 103989
+      name: 002-0-0.10a
+      size: 2048
+      blob_id: 257033
+    - id: 658475
+      asset_id: 103989
+      name: 002-1-1.9a
+      size: 2048
+      blob_id: 257034
+    - id: 658476
+      asset_id: 103989
+      name: 002-2-2.8a
+      size: 2048
+      blob_id: 257035
+    - id: 658477
+      asset_id: 103989
+      name: 002-3.3a
+      size: 2048
+      blob_id: 257041
+    - id: 658478
+      asset_id: 103989
+      name: 002-4.4a
+      size: 2048
+      blob_id: 257037
+    - id: 658479
+      asset_id: 103989
+      name: 002-5-5.5a
+      size: 2048
+      blob_id: 257038
+    - id: 658480
+      asset_id: 103989
+      name: mmi6331.6f
+      size: 32
+      blob_id: 237357

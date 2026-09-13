@@ -16,6 +16,18 @@ names:
   language: 2
   name: 决战外太空 (版本 2)
   source: trimui
+- id: 199310
+  kind: 2
+  kind_id: 473
+  language: 1
+  name: Space Duel (prototype)
+  source: mame
+- id: 199311
+  kind: 2
+  kind_id: 473
+  language: 1
+  name: Space Duel (version 1)
+  source: mame
 game_developers:
 - game_id: 473
   developer_id: 611
@@ -129,24 +141,10 @@ releases:
       blob_id: 87333
       debug: arcade/wheel/spacduel.png
     entries: []
-- release:
-    id: 71392
-    game_id: 473
-    description: ""
-    release_date: 19800000
-  names:
-  - id: 172855
-    kind: 3
-    kind_id: 71392
-    language: 1
-    name: Space Duel (version 2)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 84462
+      id: 114001
       kind: 3
-      kind_id: 71392
+      kind_id: 473
       type: 1
       name: spacduel.zip
       description: ""
@@ -155,43 +153,175 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 372412
-      asset_id: 84462
+    - id: 751107
+      asset_id: 114001
       name: 136002-125.n4
       size: 256
-      blob_id: 94304
-    - id: 372413
-      asset_id: 84462
+      blob_id: 207034
+    - id: 751108
+      asset_id: 114001
       name: 136006-102.np1
       size: 4096
       blob_id: 4185
-    - id: 372414
-      asset_id: 84462
+    - id: 751109
+      asset_id: 114001
       name: 136006-103.m1
       size: 4096
       blob_id: 4186
-    - id: 372415
-      asset_id: 84462
+    - id: 751110
+      asset_id: 114001
       name: 136006-104.kl1
       size: 4096
       blob_id: 4187
-    - id: 372416
-      asset_id: 84462
+    - id: 751111
+      asset_id: 114001
       name: 136006-105.j1
       size: 4096
       blob_id: 4188
-    - id: 372417
-      asset_id: 84462
+    - id: 751112
+      asset_id: 114001
       name: 136006-106.r7
       size: 2048
       blob_id: 4189
-    - id: 372418
-      asset_id: 84462
+    - id: 751113
+      asset_id: 114001
       name: 136006-107.np7
       size: 4096
       blob_id: 4190
-    - id: 372419
-      asset_id: 84462
+    - id: 751114
+      asset_id: 114001
       name: 136006-201.r1
       size: 4096
       blob_id: 4191
+- release:
+    id: 98268
+    game_id: 473
+    description: ""
+    release_date: 19800000
+  names:
+  - id: 230835
+    kind: 3
+    kind_id: 98268
+    language: 1
+    name: Space Duel (prototype)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 114002
+      kind: 3
+      kind_id: 98268
+      type: 1
+      name: spacduel0.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 751115
+      asset_id: 114002
+      name: 136002-125.n4
+      size: 256
+      blob_id: 207034
+    - id: 751116
+      asset_id: 114002
+      name: 136006-001.r1
+      size: 4096
+      blob_id: 282179
+    - id: 751117
+      asset_id: 114002
+      name: 136006-002.np1
+      size: 4096
+      blob_id: 282180
+    - id: 751118
+      asset_id: 114002
+      name: 136006-003.m1
+      size: 4096
+      blob_id: 282181
+    - id: 751119
+      asset_id: 114002
+      name: 136006-004.kl1
+      size: 4096
+      blob_id: 282182
+    - id: 751120
+      asset_id: 114002
+      name: 136006-005.j1
+      size: 4096
+      blob_id: 282183
+    - id: 751121
+      asset_id: 114002
+      name: 136006-006.r7
+      size: 2048
+      blob_id: 4189
+    - id: 751122
+      asset_id: 114002
+      name: 136006-007.np7
+      size: 4096
+      blob_id: 4190
+- release:
+    id: 98269
+    game_id: 473
+    description: ""
+    release_date: 19800000
+  names:
+  - id: 230836
+    kind: 3
+    kind_id: 98269
+    language: 1
+    name: Space Duel (version 1)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 114003
+      kind: 3
+      kind_id: 98269
+      type: 1
+      name: spacduel1.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 751123
+      asset_id: 114003
+      name: 136002-125.n4
+      size: 256
+      blob_id: 207034
+    - id: 751124
+      asset_id: 114003
+      name: 136006-101.r1
+      size: 4096
+      blob_id: 282184
+    - id: 751125
+      asset_id: 114003
+      name: 136006-102.np1
+      size: 4096
+      blob_id: 4185
+    - id: 751126
+      asset_id: 114003
+      name: 136006-103.m1
+      size: 4096
+      blob_id: 4186
+    - id: 751127
+      asset_id: 114003
+      name: 136006-104.kl1
+      size: 4096
+      blob_id: 4187
+    - id: 751128
+      asset_id: 114003
+      name: 136006-105.j1
+      size: 4096
+      blob_id: 4188
+    - id: 751129
+      asset_id: 114003
+      name: 136006-106.r7
+      size: 2048
+      blob_id: 4189
+    - id: 751130
+      asset_id: 114003
+      name: 136006-107.np7
+      size: 4096
+      blob_id: 4190

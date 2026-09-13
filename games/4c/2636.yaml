@@ -10,6 +10,24 @@ names:
   language: 1
   name: masterw
   source: ""
+- id: 192999
+  kind: 2
+  kind_id: 2636
+  language: 1
+  name: Master of Weapon (Japan)
+  source: mame
+- id: 193000
+  kind: 2
+  kind_id: 2636
+  language: 1
+  name: Master of Weapon (US)
+  source: mame
+- id: 201647
+  kind: 2
+  kind_id: 2636
+  language: 1
+  name: Yukiwo (World, prototype)
+  source: mame
 game_developers:
 - game_id: 2636
   developer_id: 608
@@ -123,6 +141,68 @@ releases:
       blob_id: 90106
       debug: arcade/wheel/masterw.png
     entries: []
+  - asset:
+      id: 103806
+      kind: 3
+      kind_id: 2636
+      type: 1
+      name: masterw.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 656949
+      asset_id: 103806
+      name: b72-01.5
+      size: 524288
+      blob_id: 27940
+    - id: 656950
+      asset_id: 103806
+      name: b72-02.6
+      size: 524288
+      blob_id: 27941
+    - id: 656951
+      asset_id: 103806
+      name: b72-08.ic3
+      size: 260
+      blob_id: 27947
+    - id: 656952
+      asset_id: 103806
+      name: b72-09.ic23
+      size: 260
+      blob_id: 27948
+    - id: 656953
+      asset_id: 103806
+      name: b72-10.ic32
+      size: 260
+      blob_id: 27949
+    - id: 656954
+      asset_id: 103806
+      name: b72_03.25
+      size: 131072
+      blob_id: 27942
+    - id: 656955
+      asset_id: 103806
+      name: b72_04.34
+      size: 131072
+      blob_id: 27943
+    - id: 656956
+      asset_id: 103806
+      name: b72_06.33
+      size: 131072
+      blob_id: 27944
+    - id: 656957
+      asset_id: 103806
+      name: b72_07.30
+      size: 65536
+      blob_id: 27945
+    - id: 656958
+      asset_id: 103806
+      name: b72_12.24
+      size: 131072
+      blob_id: 27946
 - release:
     id: 2637
     game_id: 2636
@@ -281,78 +361,322 @@ releases:
       size: 131072
       blob_id: 27964
 - release:
-    id: 57770
+    id: 88493
     game_id: 2636
     description: ""
     release_date: 19890000
   names:
-  - id: 146016
+  - id: 217350
     kind: 3
-    kind_id: 57770
+    kind_id: 88493
     language: 1
-    name: Master of Weapon (World)
+    name: Master of Weapon (Japan)
     source: mame
   release_publishers: []
   assets:
   - asset:
-      id: 70840
+      id: 103807
       kind: 3
-      kind_id: 57770
+      kind_id: 88493
       type: 1
-      name: masterw.zip
+      name: masterwj.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 261203
-      asset_id: 70840
+    - id: 656959
+      asset_id: 103807
       name: b72-01.5
       size: 524288
       blob_id: 27940
-    - id: 261204
-      asset_id: 70840
+    - id: 656960
+      asset_id: 103807
       name: b72-02.6
       size: 524288
       blob_id: 27941
-    - id: 261205
-      asset_id: 70840
+    - id: 656961
+      asset_id: 103807
       name: b72-08.ic3
       size: 260
       blob_id: 27947
-    - id: 261206
-      asset_id: 70840
+    - id: 656962
+      asset_id: 103807
       name: b72-09.ic23
       size: 260
       blob_id: 27948
-    - id: 261207
-      asset_id: 70840
+    - id: 656963
+      asset_id: 103807
       name: b72-10.ic32
       size: 260
       blob_id: 27949
-    - id: 261208
-      asset_id: 70840
+    - id: 656964
+      asset_id: 103807
       name: b72_03.25
       size: 131072
       blob_id: 27942
-    - id: 261209
-      asset_id: 70840
+    - id: 656965
+      asset_id: 103807
       name: b72_04.34
       size: 131072
       blob_id: 27943
-    - id: 261210
-      asset_id: 70840
+    - id: 656966
+      asset_id: 103807
+      name: b72_05.24
+      size: 131072
+      blob_id: 27950
+    - id: 656967
+      asset_id: 103807
       name: b72_06.33
       size: 131072
       blob_id: 27944
-    - id: 261211
-      asset_id: 70840
+    - id: 656968
+      asset_id: 103807
       name: b72_07.30
       size: 65536
       blob_id: 27945
-    - id: 261212
-      asset_id: 70840
-      name: b72_12.24
+- release:
+    id: 88494
+    game_id: 2636
+    description: ""
+    release_date: 19890000
+  names:
+  - id: 217351
+    kind: 3
+    kind_id: 88494
+    language: 1
+    name: Master of Weapon (US)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 103808
+      kind: 3
+      kind_id: 88494
+      type: 1
+      name: masterwu.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 656969
+      asset_id: 103808
+      name: b72-01.5
+      size: 524288
+      blob_id: 27940
+    - id: 656970
+      asset_id: 103808
+      name: b72-02.6
+      size: 524288
+      blob_id: 27941
+    - id: 656971
+      asset_id: 103808
+      name: b72-08.ic3
+      size: 260
+      blob_id: 27947
+    - id: 656972
+      asset_id: 103808
+      name: b72-09.ic23
+      size: 260
+      blob_id: 27948
+    - id: 656973
+      asset_id: 103808
+      name: b72-10.ic32
+      size: 260
+      blob_id: 27949
+    - id: 656974
+      asset_id: 103808
+      name: b72_03.25
       size: 131072
-      blob_id: 27946
+      blob_id: 27942
+    - id: 656975
+      asset_id: 103808
+      name: b72_04.34
+      size: 131072
+      blob_id: 27943
+    - id: 656976
+      asset_id: 103808
+      name: b72_06.33
+      size: 131072
+      blob_id: 27944
+    - id: 656977
+      asset_id: 103808
+      name: b72_07.30
+      size: 65536
+      blob_id: 27945
+    - id: 656978
+      asset_id: 103808
+      name: b72_11.24
+      size: 131072
+      blob_id: 27951
+- release:
+    id: 102232
+    game_id: 2636
+    description: ""
+    release_date: 19890000
+  names:
+  - id: 236478
+    kind: 3
+    kind_id: 102232
+    language: 1
+    name: Yukiwo (World, prototype)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 118262
+      kind: 3
+      kind_id: 102232
+      type: 1
+      name: yukiwo.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 802399
+      asset_id: 118262
+      name: ic1-a010.bin
+      size: 131072
+      blob_id: 27952
+    - id: 802400
+      asset_id: 118262
+      name: ic2-6588.bin
+      size: 131072
+      blob_id: 27953
+    - id: 802401
+      asset_id: 118262
+      name: ic24-e882.bin
+      size: 131072
+      blob_id: 27954
+    - id: 802402
+      asset_id: 118262
+      name: ic25-rom10.bin
+      size: 65536
+      blob_id: 27955
+    - id: 802403
+      asset_id: 118262
+      name: ic3-1305.bin
+      size: 131072
+      blob_id: 27956
+    - id: 802404
+      asset_id: 118262
+      name: ic30-snd.bin
+      size: 32768
+      blob_id: 27957
+    - id: 802405
+      asset_id: 118262
+      name: ic33-rom0e.bin
+      size: 131072
+      blob_id: 27958
+    - id: 802406
+      asset_id: 118262
+      name: ic34-rom1e.bin
+      size: 65536
+      blob_id: 27959
+    - id: 802407
+      asset_id: 118262
+      name: ic4-9e5e.bin
+      size: 131072
+      blob_id: 27960
+    - id: 802408
+      asset_id: 118262
+      name: ic5-9df1.bin
+      size: 131072
+      blob_id: 27961
+    - id: 802409
+      asset_id: 118262
+      name: ic6-6f3f.bin
+      size: 131072
+      blob_id: 27962
+    - id: 802410
+      asset_id: 118262
+      name: ic7-7c16.bin
+      size: 131072
+      blob_id: 27963
+    - id: 802411
+      asset_id: 118262
+      name: ic8-e28a.bin
+      size: 131072
+      blob_id: 27964
+  - asset:
+      id: 119863
+      kind: 3
+      kind_id: 102232
+      type: 1
+      name: yukiwo.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 844479
+      asset_id: 119863
+      name: ic1-a010.bin
+      size: 131072
+      blob_id: 27952
+    - id: 844480
+      asset_id: 119863
+      name: ic2-6588.bin
+      size: 131072
+      blob_id: 27953
+    - id: 844481
+      asset_id: 119863
+      name: ic24-e882.bin
+      size: 131072
+      blob_id: 27954
+    - id: 844482
+      asset_id: 119863
+      name: ic25-rom10.bin
+      size: 65536
+      blob_id: 27955
+    - id: 844483
+      asset_id: 119863
+      name: ic3-1305.bin
+      size: 131072
+      blob_id: 27956
+    - id: 844484
+      asset_id: 119863
+      name: ic30-snd.bin
+      size: 32768
+      blob_id: 27957
+    - id: 844486
+      asset_id: 119863
+      name: ic33-rom0e.bin
+      size: 131072
+      blob_id: 27958
+    - id: 844487
+      asset_id: 119863
+      name: ic34-rom1e.bin
+      size: 65536
+      blob_id: 27959
+    - id: 844488
+      asset_id: 119863
+      name: ic4-9e5e.bin
+      size: 131072
+      blob_id: 27960
+    - id: 844489
+      asset_id: 119863
+      name: ic5-9df1.bin
+      size: 131072
+      blob_id: 27961
+    - id: 844490
+      asset_id: 119863
+      name: ic6-6f3f.bin
+      size: 131072
+      blob_id: 27962
+    - id: 844491
+      asset_id: 119863
+      name: ic7-7c16.bin
+      size: 131072
+      blob_id: 27963
+    - id: 844492
+      asset_id: 119863
+      name: ic8-e28a.bin
+      size: 131072
+      blob_id: 27964

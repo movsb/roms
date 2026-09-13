@@ -16,6 +16,12 @@ names:
   language: 2
   name: 小黄人大作战 (工程版)
   source: trimui
+- id: 194148
+  kind: 2
+  kind_id: 3020
+  language: 1
+  name: Pack'n Bang Bang (prototype)
+  source: mame
 game_developers:
 - game_id: 3020
   developer_id: 453
@@ -152,24 +158,10 @@ releases:
       blob_id: 87664
       debug: arcade/wheel/packbang.png
     entries: []
-- release:
-    id: 60301
-    game_id: 3020
-    description: ""
-    release_date: 19940000
-  names:
-  - id: 150958
-    kind: 3
-    kind_id: 60301
-    language: 1
-    name: Pack'n Bang Bang
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 73371
+      id: 106208
       kind: 3
-      kind_id: 60301
+      kind_id: 3020
       type: 1
       name: packbang.zip
       description: ""
@@ -178,63 +170,221 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 287602
-      asset_id: 73371
+    - id: 681934
+      asset_id: 106208
       name: bb-u65-001__w16.u65
       size: 524288
       blob_id: 32070
-    - id: 287603
-      asset_id: 73371
+    - id: 681935
+      asset_id: 106208
       name: bb-u66-002__w17.u66
       size: 524288
       blob_id: 32071
-    - id: 287604
-      asset_id: 73371
+    - id: 681936
+      asset_id: 106208
       name: bb-u67-003__w18.u67
       size: 524288
       blob_id: 32072
-    - id: 287605
-      asset_id: 73371
+    - id: 681937
+      asset_id: 106208
       name: bb-u73-004__w19.u73
       size: 524288
       blob_id: 32073
-    - id: 287606
-      asset_id: 73371
+    - id: 681938
+      asset_id: 106208
       name: bb-u74-005__w20.u74
       size: 524288
       blob_id: 32074
-    - id: 287607
-      asset_id: 73371
+    - id: 681939
+      asset_id: 106208
       name: bb-u75-006__w21.u75
       size: 524288
       blob_id: 32075
-    - id: 287608
-      asset_id: 73371
+    - id: 681940
+      asset_id: 106208
       name: bb-u84-007__w22.u84
       size: 524288
       blob_id: 32076
-    - id: 287609
-      asset_id: 73371
+    - id: 681941
+      asset_id: 106208
       name: bbb0x1_u77.u77
       size: 524288
       blob_id: 32077
-    - id: 287610
-      asset_id: 73371
+    - id: 681942
+      asset_id: 106208
       name: bbp0x3_u23.u23
       size: 131072
-      blob_id: 155699
-    - id: 287611
-      asset_id: 73371
+      blob_id: 262639
+    - id: 681943
+      asset_id: 106208
       name: bbp1x3_u39.u39
       size: 131072
-      blob_id: 155700
-    - id: 287612
-      asset_id: 73371
+      blob_id: 262640
+    - id: 681944
+      asset_id: 106208
       name: bbs0x1_u83.u83
       size: 262144
-      blob_id: 155701
-    - id: 287613
-      asset_id: 73371
+      blob_id: 262641
+    - id: 681945
+      asset_id: 106208
       name: bw_u46.u46
       size: 262144
       blob_id: 8365
+- release:
+    id: 90770
+    game_id: 3020
+    description: ""
+    release_date: 19940000
+  names:
+  - id: 220872
+    kind: 3
+    kind_id: 90770
+    language: 1
+    name: Pack'n Bang Bang (prototype)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 106209
+      kind: 3
+      kind_id: 90770
+      type: 1
+      name: packbangp.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 681946
+      asset_id: 106209
+      name: bb.u65
+      size: 524288
+      blob_id: 32070
+    - id: 681947
+      asset_id: 106209
+      name: bb.u66
+      size: 524288
+      blob_id: 32071
+    - id: 681948
+      asset_id: 106209
+      name: bb.u67
+      size: 524288
+      blob_id: 32072
+    - id: 681949
+      asset_id: 106209
+      name: bb.u73
+      size: 524288
+      blob_id: 32073
+    - id: 681950
+      asset_id: 106209
+      name: bb.u74
+      size: 524288
+      blob_id: 32074
+    - id: 681951
+      asset_id: 106209
+      name: bb.u75
+      size: 524288
+      blob_id: 32075
+    - id: 681952
+      asset_id: 106209
+      name: bb.u84
+      size: 524288
+      blob_id: 32076
+    - id: 681953
+      asset_id: 106209
+      name: bbb0x1.u77
+      size: 524288
+      blob_id: 32077
+    - id: 681954
+      asset_id: 106209
+      name: bbp0x3_527b.u23
+      size: 131072
+      blob_id: 32078
+    - id: 681955
+      asset_id: 106209
+      name: bbp1x3_c5c8.u39
+      size: 131072
+      blob_id: 32079
+    - id: 681956
+      asset_id: 106209
+      name: bw000.u46
+      size: 262144
+      blob_id: 8365
+    - id: 681957
+      asset_id: 106209
+      name: pb_spr_ext_9_20_ver_ba63.u83
+      size: 262144
+      blob_id: 32080
+  - asset:
+      id: 119252
+      kind: 3
+      kind_id: 90770
+      type: 1
+      name: packbangp.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 825910
+      asset_id: 119252
+      name: bb.u65
+      size: 524288
+      blob_id: 32070
+    - id: 825911
+      asset_id: 119252
+      name: bb.u66
+      size: 524288
+      blob_id: 32071
+    - id: 825912
+      asset_id: 119252
+      name: bb.u67
+      size: 524288
+      blob_id: 32072
+    - id: 825913
+      asset_id: 119252
+      name: bb.u73
+      size: 524288
+      blob_id: 32073
+    - id: 825914
+      asset_id: 119252
+      name: bb.u74
+      size: 524288
+      blob_id: 32074
+    - id: 825915
+      asset_id: 119252
+      name: bb.u75
+      size: 524288
+      blob_id: 32075
+    - id: 825916
+      asset_id: 119252
+      name: bb.u84
+      size: 524288
+      blob_id: 32076
+    - id: 825917
+      asset_id: 119252
+      name: bbb0x1.u77
+      size: 524288
+      blob_id: 32077
+    - id: 825918
+      asset_id: 119252
+      name: bbp0x3_527b.u23
+      size: 131072
+      blob_id: 32078
+    - id: 825919
+      asset_id: 119252
+      name: bbp1x3_c5c8.u39
+      size: 131072
+      blob_id: 32079
+    - id: 825920
+      asset_id: 119252
+      name: bw000.u46
+      size: 262144
+      blob_id: 8365
+    - id: 825921
+      asset_id: 119252
+      name: pb_spr_ext_9_20_ver_ba63
+      size: 262144
+      blob_id: 32080

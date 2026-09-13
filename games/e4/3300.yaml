@@ -16,6 +16,18 @@ names:
   language: 2
   name: 大战略 5
   source: trimui
+- id: 195479
+  kind: 2
+  kind_id: 3300
+  language: 1
+  name: Raiders5 (Japan, set 1)
+  source: mame
+- id: 195480
+  kind: 2
+  kind_id: 3300
+  language: 1
+  name: Raiders5 (Japan, set 2, bootleg?)
+  source: mame
 game_developers:
 - game_id: 3300
   developer_id: 248
@@ -42,6 +54,12 @@ releases:
     language: 2
     name: 大战略 5
     source: trimui
+  - id: 184766
+    kind: 3
+    kind_id: 3300
+    language: 1
+    name: Raiders5
+    source: fbneo
   release_publishers:
   - release_id: 3300
     publisher_id: 153
@@ -119,24 +137,10 @@ releases:
       blob_id: 88507
       debug: arcade/wheel/raiders5.png
     entries: []
-- release:
-    id: 77059
-    game_id: 3300
-    description: ""
-    release_date: 19850000
-  names:
-  - id: 183311
-    kind: 3
-    kind_id: 77059
-    language: 1
-    name: Raiders5
-    source: fbneo
-  release_publishers: []
-  assets:
   - asset:
-      id: 90129
+      id: 119344
       kind: 3
-      kind_id: 77059
+      kind_id: 3300
       type: 1
       name: raiders5.zip
       description: ""
@@ -145,33 +149,204 @@ releases:
       blob_id: 0
       debug: dat:fbneo:5fa9b68a
     entries:
-    - id: 450819
-      asset_id: 90129
+    - id: 828089
+      asset_id: 119344
       name: raiders3.11f
       size: 16384
       blob_id: 35232
-    - id: 450820
-      asset_id: 90129
+    - id: 828090
+      asset_id: 119344
       name: raiders4.11g
       size: 16384
       blob_id: 35233
-    - id: 450821
-      asset_id: 90129
+    - id: 828091
+      asset_id: 119344
       name: raiders5.1
       size: 16384
       blob_id: 35234
-    - id: 450822
-      asset_id: 90129
+    - id: 828092
+      asset_id: 119344
       name: raiders5.11n
       size: 16384
       blob_id: 35235
-    - id: 450823
-      asset_id: 90129
+    - id: 828093
+      asset_id: 119344
       name: raiders5.2
       size: 16384
       blob_id: 35236
-    - id: 450824
-      asset_id: 90129
-      name: raiders5.2
+- release:
+    id: 93301
+    game_id: 3300
+    description: ""
+    release_date: 19850000
+  names:
+  - id: 224635
+    kind: 3
+    kind_id: 93301
+    language: 1
+    name: Raiders5 (Japan, set 1)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 108848
+      kind: 3
+      kind_id: 93301
+      type: 1
+      name: raiders5t.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 710201
+      asset_id: 108848
+      name: raiders1.4c
       size: 16384
-      blob_id: 35236
+      blob_id: 269068
+    - id: 710202
+      asset_id: 108848
+      name: raiders2.4d
+      size: 16384
+      blob_id: 269069
+    - id: 710203
+      asset_id: 108848
+      name: raiders3.11f
+      size: 16384
+      blob_id: 35232
+    - id: 710204
+      asset_id: 108848
+      name: raiders4.11g
+      size: 16384
+      blob_id: 35233
+    - id: 710205
+      asset_id: 108848
+      name: raiders5.11n
+      size: 16384
+      blob_id: 35235
+  - asset:
+      id: 119342
+      kind: 3
+      kind_id: 93301
+      type: 1
+      name: raiders5t.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 828077
+      asset_id: 119342
+      name: raiders1.4c
+      size: 16384
+      blob_id: 269068
+    - id: 828078
+      asset_id: 119342
+      name: raiders2.4d
+      size: 16384
+      blob_id: 269069
+    - id: 828080
+      asset_id: 119342
+      name: raiders3.11f
+      size: 16384
+      blob_id: 35232
+    - id: 828081
+      asset_id: 119342
+      name: raiders4.11g
+      size: 16384
+      blob_id: 35233
+    - id: 828082
+      asset_id: 119342
+      name: raiders5.11n
+      size: 16384
+      blob_id: 35235
+- release:
+    id: 93302
+    game_id: 3300
+    description: ""
+    release_date: 19850000
+  names:
+  - id: 224636
+    kind: 3
+    kind_id: 93302
+    language: 1
+    name: Raiders5 (Japan, set 2, bootleg?)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 108849
+      kind: 3
+      kind_id: 93302
+      type: 1
+      name: raiders5ta.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 710206
+      asset_id: 108849
+      name: 1.4c
+      size: 16384
+      blob_id: 269070
+    - id: 710207
+      asset_id: 108849
+      name: 2.4d
+      size: 16384
+      blob_id: 269071
+    - id: 710208
+      asset_id: 108849
+      name: 3.11f
+      size: 16384
+      blob_id: 35232
+    - id: 710209
+      asset_id: 108849
+      name: 4.11g
+      size: 16384
+      blob_id: 35233
+    - id: 710210
+      asset_id: 108849
+      name: 5.11n
+      size: 16384
+      blob_id: 269072
+  - asset:
+      id: 119343
+      kind: 3
+      kind_id: 93302
+      type: 1
+      name: raiders5ta.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 828083
+      asset_id: 119343
+      name: 1.4c
+      size: 16384
+      blob_id: 269070
+    - id: 828084
+      asset_id: 119343
+      name: 2.4d
+      size: 16384
+      blob_id: 269071
+    - id: 828086
+      asset_id: 119343
+      name: 3.11f
+      size: 16384
+      blob_id: 35232
+    - id: 828087
+      asset_id: 119343
+      name: 4.11g
+      size: 16384
+      blob_id: 35233
+    - id: 828088
+      asset_id: 119343
+      name: 5.11n
+      size: 16384
+      blob_id: 269072

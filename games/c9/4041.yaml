@@ -16,6 +16,24 @@ names:
   language: 2
   name: 出击飞龙2
   source: trimui
+- id: 199026
+  kind: 2
+  kind_id: 4041
+  language: 1
+  name: Strider Hiryu 2 (Japan 991213)
+  source: mame
+- id: 199723
+  kind: 2
+  kind_id: 4041
+  language: 1
+  name: Strider 2 (Asia 991213)
+  source: mame
+- id: 199724
+  kind: 2
+  kind_id: 4041
+  language: 1
+  name: Strider 2 (USA 991213)
+  source: mame
 game_developers: []
 game_genres: []
 assets: []
@@ -117,24 +135,10 @@ releases:
       name: strider2u/hr2u_04.2h
       size: 524288
       blob_id: 43319
-- release:
-    id: 72162
-    game_id: 4041
-    description: ""
-    release_date: 19990000
-  names:
-  - id: 174331
-    kind: 3
-    kind_id: 72162
-    language: 1
-    name: Strider 2 (Europe 991213)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 85232
+      id: 114700
       kind: 3
-      kind_id: 72162
+      kind_id: 4041
       type: 1
       name: strider2.zip
       description: ""
@@ -143,63 +147,321 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 381835
-      asset_id: 85232
+    - id: 760089
+      asset_id: 114700
       name: cp10.ic652
       size: 8
       blob_id: 11970
-    - id: 381836
-      asset_id: 85232
+    - id: 760090
+      asset_id: 114700
       name: cp13
       size: 8
       blob_id: 43307
-    - id: 381837
-      asset_id: 85232
+    - id: 760091
+      asset_id: 114700
       name: hr2-01m.3a
       size: 2097152
       blob_id: 43308
-    - id: 381838
-      asset_id: 85232
+    - id: 760092
+      asset_id: 114700
       name: hr2-05m.3h
       size: 8388608
       blob_id: 43309
-    - id: 381839
-      asset_id: 85232
+    - id: 760093
+      asset_id: 114700
       name: hr2-06m.4h
       size: 8388608
       blob_id: 43310
-    - id: 381840
-      asset_id: 85232
+    - id: 760094
+      asset_id: 114700
       name: hr2-07m.5h
       size: 8388608
       blob_id: 43311
-    - id: 381841
-      asset_id: 85232
+    - id: 760095
+      asset_id: 114700
       name: hr2-08m.2k
       size: 8388608
       blob_id: 43312
-    - id: 381842
-      asset_id: 85232
+    - id: 760096
+      asset_id: 114700
       name: hr2-09m.3k
       size: 8388608
       blob_id: 43313
-    - id: 381843
-      asset_id: 85232
+    - id: 760097
+      asset_id: 114700
       name: hr2-10m.4k
       size: 4194304
       blob_id: 43314
-    - id: 381844
-      asset_id: 85232
+    - id: 760098
+      asset_id: 114700
       name: hr2_02.2e
       size: 131072
       blob_id: 43315
-    - id: 381845
-      asset_id: 85232
+    - id: 760099
+      asset_id: 114700
       name: hr2e_04.2h
       size: 524288
       blob_id: 43316
-    - id: 381846
-      asset_id: 85232
+    - id: 760100
+      asset_id: 114700
+      name: m534002c-59.ic353
+      size: 524288
+      blob_id: 11969
+- release:
+    id: 98901
+    game_id: 4041
+    description: ""
+    release_date: 19990000
+  names:
+  - id: 231707
+    kind: 3
+    kind_id: 98901
+    language: 1
+    name: Strider 2 (Asia 991213)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 114701
+      kind: 3
+      kind_id: 98901
+      type: 1
+      name: strider2a.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 760101
+      asset_id: 114701
+      name: cp10.ic652
+      size: 8
+      blob_id: 11970
+    - id: 760102
+      asset_id: 114701
+      name: cp13
+      size: 8
+      blob_id: 43307
+    - id: 760103
+      asset_id: 114701
+      name: hr2-01m.3a
+      size: 2097152
+      blob_id: 43308
+    - id: 760104
+      asset_id: 114701
+      name: hr2-05m.3h
+      size: 8388608
+      blob_id: 43309
+    - id: 760105
+      asset_id: 114701
+      name: hr2-06m.4h
+      size: 8388608
+      blob_id: 43310
+    - id: 760106
+      asset_id: 114701
+      name: hr2-07m.5h
+      size: 8388608
+      blob_id: 43311
+    - id: 760107
+      asset_id: 114701
+      name: hr2-08m.2k
+      size: 8388608
+      blob_id: 43312
+    - id: 760108
+      asset_id: 114701
+      name: hr2-09m.3k
+      size: 8388608
+      blob_id: 43313
+    - id: 760109
+      asset_id: 114701
+      name: hr2-10m.4k
+      size: 4194304
+      blob_id: 43314
+    - id: 760110
+      asset_id: 114701
+      name: hr2_02.2e
+      size: 131072
+      blob_id: 43315
+    - id: 760111
+      asset_id: 114701
+      name: hr2a_04.2h
+      size: 524288
+      blob_id: 43318
+    - id: 760112
+      asset_id: 114701
+      name: m534002c-59.ic353
+      size: 524288
+      blob_id: 11969
+- release:
+    id: 98902
+    game_id: 4041
+    description: ""
+    release_date: 19990000
+  names:
+  - id: 231708
+    kind: 3
+    kind_id: 98902
+    language: 1
+    name: Strider 2 (USA 991213)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 114702
+      kind: 3
+      kind_id: 98902
+      type: 1
+      name: strider2u.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 760113
+      asset_id: 114702
+      name: cp10.ic652
+      size: 8
+      blob_id: 11970
+    - id: 760114
+      asset_id: 114702
+      name: cp13
+      size: 8
+      blob_id: 43307
+    - id: 760115
+      asset_id: 114702
+      name: hr2-01m.3a
+      size: 2097152
+      blob_id: 43308
+    - id: 760116
+      asset_id: 114702
+      name: hr2-05m.3h
+      size: 8388608
+      blob_id: 43309
+    - id: 760117
+      asset_id: 114702
+      name: hr2-06m.4h
+      size: 8388608
+      blob_id: 43310
+    - id: 760118
+      asset_id: 114702
+      name: hr2-07m.5h
+      size: 8388608
+      blob_id: 43311
+    - id: 760119
+      asset_id: 114702
+      name: hr2-08m.2k
+      size: 8388608
+      blob_id: 43312
+    - id: 760120
+      asset_id: 114702
+      name: hr2-09m.3k
+      size: 8388608
+      blob_id: 43313
+    - id: 760121
+      asset_id: 114702
+      name: hr2-10m.4k
+      size: 4194304
+      blob_id: 43314
+    - id: 760122
+      asset_id: 114702
+      name: hr2_02.2e
+      size: 131072
+      blob_id: 43315
+    - id: 760123
+      asset_id: 114702
+      name: hr2u_04.2h
+      size: 524288
+      blob_id: 43319
+    - id: 760124
+      asset_id: 114702
+      name: m534002c-59.ic353
+      size: 524288
+      blob_id: 11969
+- release:
+    id: 104845
+    game_id: 4041
+    description: ""
+    release_date: 19990000
+  names:
+  - id: 239821
+    kind: 3
+    kind_id: 104845
+    language: 1
+    name: Strider Hiryu 2 (Japan 991213)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 113472
+      kind: 3
+      kind_id: 104845
+      type: 1
+      name: shiryu2.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 743721
+      asset_id: 113472
+      name: cp10.ic652
+      size: 8
+      blob_id: 11970
+    - id: 743722
+      asset_id: 113472
+      name: cp13
+      size: 8
+      blob_id: 43307
+    - id: 743723
+      asset_id: 113472
+      name: hr2-01m.3a
+      size: 2097152
+      blob_id: 43308
+    - id: 743724
+      asset_id: 113472
+      name: hr2-05m.3h
+      size: 8388608
+      blob_id: 43309
+    - id: 743725
+      asset_id: 113472
+      name: hr2-06m.4h
+      size: 8388608
+      blob_id: 43310
+    - id: 743726
+      asset_id: 113472
+      name: hr2-07m.5h
+      size: 8388608
+      blob_id: 43311
+    - id: 743727
+      asset_id: 113472
+      name: hr2-08m.2k
+      size: 8388608
+      blob_id: 43312
+    - id: 743728
+      asset_id: 113472
+      name: hr2-09m.3k
+      size: 8388608
+      blob_id: 43313
+    - id: 743729
+      asset_id: 113472
+      name: hr2-10m.4k
+      size: 4194304
+      blob_id: 43314
+    - id: 743730
+      asset_id: 113472
+      name: hr2_02.2e
+      size: 131072
+      blob_id: 43315
+    - id: 743731
+      asset_id: 113472
+      name: hr2j_04.2h
+      size: 524288
+      blob_id: 43317
+    - id: 743732
+      asset_id: 113472
       name: m534002c-59.ic353
       size: 524288
       blob_id: 11969

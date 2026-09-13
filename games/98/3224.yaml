@@ -16,8 +16,42 @@ names:
   language: 2
   name: 庞克篮球 (美版 4P 版)
   source: trimui
-game_developers: []
-game_genres: []
+- id: 187090
+  kind: 2
+  kind_id: 3224
+  language: 1
+  name: punkshot2
+  source: ""
+- id: 187091
+  kind: 2
+  kind_id: 3224
+  language: 2
+  name: 庞克篮球 (美版 2P 版)
+  source: trimui
+- id: 195234
+  kind: 2
+  kind_id: 3224
+  language: 1
+  name: Punk Shot (Asia 2 Players, hacked?)
+  source: mame
+- id: 195235
+  kind: 2
+  kind_id: 3224
+  language: 1
+  name: Punk Shot (World 2 Players)
+  source: mame
+- id: 195236
+  kind: 2
+  kind_id: 3224
+  language: 1
+  name: Punk Shot (Japan 2 Players)
+  source: mame
+game_developers:
+- game_id: 3224
+  developer_id: 2
+game_genres:
+- game_id: 3224
+  genre_id: 6
 assets: []
 releases:
 - release:
@@ -122,24 +156,10 @@ releases:
       name: punkshotj/907z03.i10
       size: 131072
       blob_id: 34467
-- release:
-    id: 62633
-    game_id: 3224
-    description: ""
-    release_date: 19900000
-  names:
-  - id: 155546
-    kind: 3
-    kind_id: 62633
-    language: 1
-    name: Punk Shot (US 4 Players)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 75703
+      id: 108341
       kind: 3
-      kind_id: 62633
+      kind_id: 3224
       type: 1
       name: punkshot.zip
       description: ""
@@ -148,43 +168,315 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 310479
-      asset_id: 75703
+    - id: 703954
+      asset_id: 108341
       name: 907-j02.i7
       size: 131072
       blob_id: 34454
-    - id: 310480
-      asset_id: 75703
+    - id: 703955
+      asset_id: 108341
       name: 907-j03.i10
       size: 131072
       blob_id: 34455
-    - id: 310481
-      asset_id: 75703
+    - id: 703956
+      asset_id: 108341
       name: 907d04.d3
       size: 524288
       blob_id: 34456
-    - id: 310482
-      asset_id: 75703
+    - id: 703957
+      asset_id: 108341
       name: 907d05.e22
       size: 262144
       blob_id: 34457
-    - id: 310483
-      asset_id: 75703
+    - id: 703958
+      asset_id: 108341
       name: 907d06.e23
       size: 262144
       blob_id: 34458
-    - id: 310484
-      asset_id: 75703
+    - id: 703959
+      asset_id: 108341
       name: 907d07.k2
       size: 1048576
       blob_id: 34459
-    - id: 310485
-      asset_id: 75703
+    - id: 703960
+      asset_id: 108341
       name: 907d08.k7
       size: 1048576
       blob_id: 34460
-    - id: 310486
-      asset_id: 75703
+    - id: 703961
+      asset_id: 108341
       name: 907f01.e8
       size: 32768
       blob_id: 34461
+- release:
+    id: 92824
+    game_id: 3224
+    description: ""
+    release_date: 19900000
+  names:
+  - id: 223940
+    kind: 3
+    kind_id: 92824
+    language: 1
+    name: Punk Shot (Asia 2 Players, hacked?)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 108343
+      kind: 3
+      kind_id: 92824
+      type: 1
+      name: punkshot2a.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 703970
+      asset_id: 108343
+      name: 907d04.d3
+      size: 524288
+      blob_id: 34456
+    - id: 703971
+      asset_id: 108343
+      name: 907d05.e22
+      size: 262144
+      blob_id: 34457
+    - id: 703972
+      asset_id: 108343
+      name: 907d06.e23
+      size: 262144
+      blob_id: 34458
+    - id: 703973
+      asset_id: 108343
+      name: 907d07.k2
+      size: 1048576
+      blob_id: 34459
+    - id: 703974
+      asset_id: 108343
+      name: 907d08.k7
+      size: 1048576
+      blob_id: 34460
+    - id: 703975
+      asset_id: 108343
+      name: 907f01.e8
+      size: 32768
+      blob_id: 34461
+    - id: 703976
+      asset_id: 108343
+      name: i10
+      size: 131072
+      blob_id: 268859
+    - id: 703977
+      asset_id: 108343
+      name: i7
+      size: 131072
+      blob_id: 268860
+- release:
+    id: 92825
+    game_id: 3224
+    description: ""
+    release_date: 19900000
+  names:
+  - id: 223941
+    kind: 3
+    kind_id: 92825
+    language: 1
+    name: Punk Shot (World 2 Players)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 108344
+      kind: 3
+      kind_id: 92825
+      type: 1
+      name: punkshot2e.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 703978
+      asset_id: 108344
+      name: 907_2.i7
+      size: 131072
+      blob_id: 34464
+    - id: 703979
+      asset_id: 108344
+      name: 907_3.i10
+      size: 131072
+      blob_id: 34465
+    - id: 703980
+      asset_id: 108344
+      name: 907d04.d3
+      size: 524288
+      blob_id: 34456
+    - id: 703981
+      asset_id: 108344
+      name: 907d05.e22
+      size: 262144
+      blob_id: 34457
+    - id: 703982
+      asset_id: 108344
+      name: 907d06.e23
+      size: 262144
+      blob_id: 34458
+    - id: 703983
+      asset_id: 108344
+      name: 907d07.k2
+      size: 1048576
+      blob_id: 34459
+    - id: 703984
+      asset_id: 108344
+      name: 907d08.k7
+      size: 1048576
+      blob_id: 34460
+    - id: 703985
+      asset_id: 108344
+      name: 907f01.e8
+      size: 32768
+      blob_id: 34461
+- release:
+    id: 92826
+    game_id: 3224
+    description: ""
+    release_date: 19900000
+  names:
+  - id: 223942
+    kind: 3
+    kind_id: 92826
+    language: 1
+    name: Punk Shot (Japan 2 Players)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 108345
+      kind: 3
+      kind_id: 92826
+      type: 1
+      name: punkshotj.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 703986
+      asset_id: 108345
+      name: 907d04.d3
+      size: 524288
+      blob_id: 34456
+    - id: 703987
+      asset_id: 108345
+      name: 907d05.e22
+      size: 262144
+      blob_id: 34457
+    - id: 703988
+      asset_id: 108345
+      name: 907d06.e23
+      size: 262144
+      blob_id: 34458
+    - id: 703989
+      asset_id: 108345
+      name: 907d07.k2
+      size: 1048576
+      blob_id: 34459
+    - id: 703990
+      asset_id: 108345
+      name: 907d08.k7
+      size: 1048576
+      blob_id: 34460
+    - id: 703991
+      asset_id: 108345
+      name: 907f01.e8
+      size: 32768
+      blob_id: 34461
+    - id: 703992
+      asset_id: 108345
+      name: 907z02.i7
+      size: 131072
+      blob_id: 34466
+    - id: 703993
+      asset_id: 108345
+      name: 907z03.i10
+      size: 131072
+      blob_id: 34467
+- release:
+    id: 103059
+    game_id: 3224
+    description: ""
+    release_date: 19900000
+  names:
+  - id: 237904
+    kind: 3
+    kind_id: 103059
+    language: 1
+    name: punkshot2
+    source: ""
+  - id: 237905
+    kind: 3
+    kind_id: 103059
+    language: 2
+    name: 庞克篮球 (美版 2P 版)
+    source: trimui
+  release_publishers:
+  - release_id: 103059
+    publisher_id: 2
+  assets:
+  - asset:
+      id: 108342
+      kind: 3
+      kind_id: 103059
+      type: 1
+      name: punkshot2.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 703962
+      asset_id: 108342
+      name: 907d04.d3
+      size: 524288
+      blob_id: 34456
+    - id: 703963
+      asset_id: 108342
+      name: 907d05.e22
+      size: 262144
+      blob_id: 34457
+    - id: 703964
+      asset_id: 108342
+      name: 907d06.e23
+      size: 262144
+      blob_id: 34458
+    - id: 703965
+      asset_id: 108342
+      name: 907d07.k2
+      size: 1048576
+      blob_id: 34459
+    - id: 703966
+      asset_id: 108342
+      name: 907d08.k7
+      size: 1048576
+      blob_id: 34460
+    - id: 703967
+      asset_id: 108342
+      name: 907f01.e8
+      size: 32768
+      blob_id: 34461
+    - id: 703968
+      asset_id: 108342
+      name: 907m02.i7
+      size: 131072
+      blob_id: 34462
+    - id: 703969
+      asset_id: 108342
+      name: 907m03.i10
+      size: 131072
+      blob_id: 34463

@@ -16,6 +16,12 @@ names:
   language: 2
   name: 命运转轮 (第 1 套)
   source: trimui
+- id: 201356
+  kind: 2
+  kind_id: 4532
+  language: 1
+  name: Wheel Of Fortune (set 2)
+  source: mame
 game_developers:
 - game_id: 4532
   developer_id: 742
@@ -129,24 +135,10 @@ releases:
       blob_id: 91214
       debug: arcade/wheel/wfortune.png
     entries: []
-- release:
-    id: 75417
-    game_id: 4532
-    description: ""
-    release_date: 19890000
-  names:
-  - id: 180669
-    kind: 3
-    kind_id: 75417
-    language: 1
-    name: Wheel Of Fortune (set 1)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 88487
+      id: 117711
       kind: 3
-      kind_id: 75417
+      kind_id: 4532
       type: 1
       name: wfortune.zip
       description: ""
@@ -155,38 +147,101 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 416268
-      asset_id: 88487
+    - id: 793210
+      asset_id: 117711
       name: grom0-wof.grom0
       size: 65536
       blob_id: 49294
-    - id: 416269
-      asset_id: 88487
+    - id: 793211
+      asset_id: 117711
       name: grom1-wof.grom1
       size: 65536
       blob_id: 49295
-    - id: 416270
-      asset_id: 88487
+    - id: 793212
+      asset_id: 117711
       name: grom2-wof.grom2
       size: 65536
       blob_id: 49296
-    - id: 416271
-      asset_id: 88487
+    - id: 793213
+      asset_id: 117711
       name: grom3-wof.grom3
       size: 65536
       blob_id: 49297
-    - id: 416272
-      asset_id: 88487
+    - id: 793214
+      asset_id: 117711
       name: wof_snd-wof.u27
       size: 32768
       blob_id: 49300
-    - id: 416273
-      asset_id: 88487
+    - id: 793215
+      asset_id: 117711
       name: wof_vr-sbom0.srom0
       size: 131072
       blob_id: 49299
-    - id: 416274
-      asset_id: 88487
+    - id: 793216
+      asset_id: 117711
       name: wofpgm.u5
       size: 65536
       blob_id: 49298
+- release:
+    id: 101721
+    game_id: 4532
+    description: ""
+    release_date: 19890000
+  names:
+  - id: 235741
+    kind: 3
+    kind_id: 101721
+    language: 1
+    name: Wheel Of Fortune (set 2)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 117712
+      kind: 3
+      kind_id: 101721
+      type: 1
+      name: wfortunea.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/1416951156
+    entries:
+    - id: 793217
+      asset_id: 117712
+      name: grom0-wof.grom0
+      size: 65536
+      blob_id: 49294
+    - id: 793218
+      asset_id: 117712
+      name: grom1-wof.grom1
+      size: 65536
+      blob_id: 49295
+    - id: 793219
+      asset_id: 117712
+      name: grom2-wof.grom2
+      size: 65536
+      blob_id: 49296
+    - id: 793220
+      asset_id: 117712
+      name: grom3-wof.grom3
+      size: 65536
+      blob_id: 49297
+    - id: 793221
+      asset_id: 117712
+      name: wof-pgm_r1.u5
+      size: 65536
+      blob_id: 312925
+    - id: 793222
+      asset_id: 117712
+      name: wof_snd-wof.u27
+      size: 32768
+      blob_id: 49300
+    - id: 793223
+      asset_id: 117712
+      name: wof_vr-sbom0.srom0
+      size: 131072
+      blob_id: 49299

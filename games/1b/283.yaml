@@ -10,6 +10,30 @@ names:
   language: 1
   name: LWINGS
   source: ""
+- id: 192764
+  kind: 2
+  kind_id: 283
+  language: 1
+  name: Legendary Wings (US)
+  source: mame
+- id: 192765
+  kind: 2
+  kind_id: 283
+  language: 1
+  name: Legendary Wings (bootleg)
+  source: mame
+- id: 192766
+  kind: 2
+  kind_id: 283
+  language: 1
+  name: Ares no Tsubasa (Japan, rev. B)
+  source: mame
+- id: 192767
+  kind: 2
+  kind_id: 283
+  language: 1
+  name: Ares no Tsubasa (Japan, rev. A)
+  source: mame
 game_developers:
 - game_id: 283
   developer_id: 41
@@ -40,108 +64,6 @@ releases:
   - release_id: 283
     publisher_id: 30
   assets:
-  - asset:
-      id: 283
-      kind: 3
-      kind_id: 283
-      type: 1
-      name: lwings.zip
-      description: ""
-      format: 2
-      size: 228842
-      blob_id: 0
-      debug: LWINGS.ZIP
-    entries:
-    - id: 3649
-      asset_id: 283
-      name: 11e_lw04.bin
-      size: 32768
-      blob_id: 2722
-    - id: 3650
-      asset_id: 283
-      name: 1b_lw06.bin
-      size: 32768
-      blob_id: 2723
-    - id: 3651
-      asset_id: 283
-      name: 1d_lw07.bin
-      size: 32768
-      blob_id: 2724
-    - id: 3652
-      asset_id: 283
-      name: 1e_lw08.bin
-      size: 32768
-      blob_id: 2725
-    - id: 3653
-      asset_id: 283
-      name: 1f_lw09.bin
-      size: 32768
-      blob_id: 2726
-    - id: 3654
-      asset_id: 283
-      name: 1h_lw10.bin
-      size: 32768
-      blob_id: 2727
-    - id: 3655
-      asset_id: 283
-      name: 1j_lw11.bin
-      size: 32768
-      blob_id: 2728
-    - id: 3656
-      asset_id: 283
-      name: 3b_lw12.bin
-      size: 32768
-      blob_id: 2729
-    - id: 3657
-      asset_id: 283
-      name: 3d_lw13.bin
-      size: 32768
-      blob_id: 2730
-    - id: 3658
-      asset_id: 283
-      name: 3e_lw14.bin
-      size: 32768
-      blob_id: 2731
-    - id: 3659
-      asset_id: 283
-      name: 3f_lw15.bin
-      size: 32768
-      blob_id: 2732
-    - id: 3660
-      asset_id: 283
-      name: 3h_lw16.bin
-      size: 32768
-      blob_id: 2733
-    - id: 3661
-      asset_id: 283
-      name: 3j_lw17.bin
-      size: 32768
-      blob_id: 2734
-    - id: 3662
-      asset_id: 283
-      name: 63s141.15g
-      size: 256
-      blob_id: 2735
-    - id: 3663
-      asset_id: 283
-      name: 6c_lw01.bin
-      size: 32768
-      blob_id: 2736
-    - id: 3664
-      asset_id: 283
-      name: 7c_lw02.bin
-      size: 32768
-      blob_id: 2737
-    - id: 3665
-      asset_id: 283
-      name: 9c_lw03.bin
-      size: 32768
-      blob_id: 2738
-    - id: 3666
-      asset_id: 283
-      name: 9h_lw05.bin
-      size: 16384
-      blob_id: 2739
   - asset:
       id: 42416
       kind: 3
@@ -422,10 +344,126 @@ releases:
     language: 1
     name: Legendary Wings (US, rev. C)
     source: mame
-  release_publishers: []
+  - id: 183972
+    kind: 3
+    kind_id: 49850
+    language: 1
+    name: LWINGS
+    source: ""
+  - id: 183973
+    kind: 3
+    kind_id: 49850
+    language: 2
+    name: 翼人传说 (美版 第一套)
+    source: trimui
+  release_publishers:
+  - release_id: 49850
+    publisher_id: 30
   assets:
   - asset:
-      id: 62920
+      id: 283
+      kind: 3
+      kind_id: 49850
+      type: 1
+      name: lwings.zip
+      description: ""
+      format: 2
+      size: 228842
+      blob_id: 0
+      debug: LWINGS.ZIP
+    entries:
+    - id: 3649
+      asset_id: 283
+      name: 11e_lw04.bin
+      size: 32768
+      blob_id: 2722
+    - id: 3650
+      asset_id: 283
+      name: 1b_lw06.bin
+      size: 32768
+      blob_id: 2723
+    - id: 3651
+      asset_id: 283
+      name: 1d_lw07.bin
+      size: 32768
+      blob_id: 2724
+    - id: 3652
+      asset_id: 283
+      name: 1e_lw08.bin
+      size: 32768
+      blob_id: 2725
+    - id: 3653
+      asset_id: 283
+      name: 1f_lw09.bin
+      size: 32768
+      blob_id: 2726
+    - id: 3654
+      asset_id: 283
+      name: 1h_lw10.bin
+      size: 32768
+      blob_id: 2727
+    - id: 3655
+      asset_id: 283
+      name: 1j_lw11.bin
+      size: 32768
+      blob_id: 2728
+    - id: 3656
+      asset_id: 283
+      name: 3b_lw12.bin
+      size: 32768
+      blob_id: 2729
+    - id: 3657
+      asset_id: 283
+      name: 3d_lw13.bin
+      size: 32768
+      blob_id: 2730
+    - id: 3658
+      asset_id: 283
+      name: 3e_lw14.bin
+      size: 32768
+      blob_id: 2731
+    - id: 3659
+      asset_id: 283
+      name: 3f_lw15.bin
+      size: 32768
+      blob_id: 2732
+    - id: 3660
+      asset_id: 283
+      name: 3h_lw16.bin
+      size: 32768
+      blob_id: 2733
+    - id: 3661
+      asset_id: 283
+      name: 3j_lw17.bin
+      size: 32768
+      blob_id: 2734
+    - id: 3662
+      asset_id: 283
+      name: 63s141.15g
+      size: 256
+      blob_id: 2735
+    - id: 3663
+      asset_id: 283
+      name: 6c_lw01.bin
+      size: 32768
+      blob_id: 2736
+    - id: 3664
+      asset_id: 283
+      name: 7c_lw02.bin
+      size: 32768
+      blob_id: 2737
+    - id: 3665
+      asset_id: 283
+      name: 9c_lw03.bin
+      size: 32768
+      blob_id: 2738
+    - id: 3666
+      asset_id: 283
+      name: 9h_lw05.bin
+      size: 16384
+      blob_id: 2739
+  - asset:
+      id: 103309
       kind: 3
       kind_id: 49850
       type: 1
@@ -436,93 +474,673 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 228813
-      asset_id: 62920
+    - id: 652713
+      asset_id: 103309
       name: lw_03.9c
       size: 32768
       blob_id: 2738
-    - id: 228814
-      asset_id: 62920
+    - id: 652714
+      asset_id: 103309
       name: lw_04.11e
       size: 32768
       blob_id: 2722
-    - id: 228815
-      asset_id: 62920
+    - id: 652715
+      asset_id: 103309
       name: lw_05.9h
       size: 16384
       blob_id: 2739
-    - id: 228816
-      asset_id: 62920
+    - id: 652716
+      asset_id: 103309
       name: lw_06.1b
       size: 32768
       blob_id: 2723
-    - id: 228817
-      asset_id: 62920
+    - id: 652717
+      asset_id: 103309
       name: lw_07.1d
       size: 32768
       blob_id: 2724
-    - id: 228818
-      asset_id: 62920
+    - id: 652718
+      asset_id: 103309
       name: lw_08.1e
       size: 32768
       blob_id: 2725
-    - id: 228819
-      asset_id: 62920
+    - id: 652719
+      asset_id: 103309
       name: lw_09.1f
       size: 32768
       blob_id: 2726
-    - id: 228820
-      asset_id: 62920
+    - id: 652720
+      asset_id: 103309
       name: lw_10.1h
       size: 32768
       blob_id: 2727
-    - id: 228821
-      asset_id: 62920
+    - id: 652721
+      asset_id: 103309
       name: lw_11.1j
       size: 32768
       blob_id: 2728
-    - id: 228822
-      asset_id: 62920
+    - id: 652722
+      asset_id: 103309
       name: lw_12.3b
       size: 32768
       blob_id: 2729
-    - id: 228823
-      asset_id: 62920
+    - id: 652723
+      asset_id: 103309
       name: lw_13.3d
       size: 32768
       blob_id: 2730
-    - id: 228824
-      asset_id: 62920
+    - id: 652724
+      asset_id: 103309
       name: lw_14.3e
       size: 32768
       blob_id: 2731
-    - id: 228825
-      asset_id: 62920
+    - id: 652725
+      asset_id: 103309
       name: lw_15.3f
       size: 32768
       blob_id: 2732
-    - id: 228826
-      asset_id: 62920
+    - id: 652726
+      asset_id: 103309
       name: lw_16.3h
       size: 32768
       blob_id: 2733
-    - id: 228827
-      asset_id: 62920
+    - id: 652727
+      asset_id: 103309
       name: lw_17.3j
       size: 32768
       blob_id: 2734
-    - id: 228828
-      asset_id: 62920
+    - id: 652728
+      asset_id: 103309
       name: lwu_01c.6c
       size: 32768
       blob_id: 2736
-    - id: 228829
-      asset_id: 62920
+    - id: 652729
+      asset_id: 103309
       name: lwu_02c.7c
       size: 32768
       blob_id: 2737
-    - id: 228830
-      asset_id: 62920
+    - id: 652730
+      asset_id: 103309
       name: szb01.15g
       size: 256
       blob_id: 2735
+- release:
+    id: 88020
+    game_id: 283
+    description: ""
+    release_date: 19860000
+  names:
+  - id: 216634
+    kind: 3
+    kind_id: 88020
+    language: 1
+    name: Legendary Wings (US)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 103310
+      kind: 3
+      kind_id: 88020
+      type: 1
+      name: lwingsa.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 652731
+      asset_id: 103310
+      name: lw_03.9c
+      size: 32768
+      blob_id: 2738
+    - id: 652732
+      asset_id: 103310
+      name: lw_04.11e
+      size: 32768
+      blob_id: 2722
+    - id: 652733
+      asset_id: 103310
+      name: lw_05.9h
+      size: 16384
+      blob_id: 2739
+    - id: 652734
+      asset_id: 103310
+      name: lw_06.1b
+      size: 32768
+      blob_id: 2723
+    - id: 652735
+      asset_id: 103310
+      name: lw_07.1d
+      size: 32768
+      blob_id: 2724
+    - id: 652736
+      asset_id: 103310
+      name: lw_08.1e
+      size: 32768
+      blob_id: 2725
+    - id: 652737
+      asset_id: 103310
+      name: lw_09.1f
+      size: 32768
+      blob_id: 2726
+    - id: 652738
+      asset_id: 103310
+      name: lw_10.1h
+      size: 32768
+      blob_id: 2727
+    - id: 652739
+      asset_id: 103310
+      name: lw_11.1j
+      size: 32768
+      blob_id: 2728
+    - id: 652740
+      asset_id: 103310
+      name: lw_12.3b
+      size: 32768
+      blob_id: 2729
+    - id: 652741
+      asset_id: 103310
+      name: lw_13.3d
+      size: 32768
+      blob_id: 2730
+    - id: 652742
+      asset_id: 103310
+      name: lw_14.3e
+      size: 32768
+      blob_id: 2731
+    - id: 652743
+      asset_id: 103310
+      name: lw_15.3f
+      size: 32768
+      blob_id: 2732
+    - id: 652744
+      asset_id: 103310
+      name: lw_16.3h
+      size: 32768
+      blob_id: 2733
+    - id: 652745
+      asset_id: 103310
+      name: lw_17.3j
+      size: 32768
+      blob_id: 2734
+    - id: 652746
+      asset_id: 103310
+      name: szb01.15g
+      size: 256
+      blob_id: 2735
+    - id: 652747
+      asset_id: 103310
+      name: u13-l
+      size: 32768
+      blob_id: 27255
+    - id: 652748
+      asset_id: 103310
+      name: u14-k
+      size: 32768
+      blob_id: 27256
+- release:
+    id: 88021
+    game_id: 283
+    description: ""
+    release_date: 19860000
+  names:
+  - id: 216635
+    kind: 3
+    kind_id: 88021
+    language: 1
+    name: Legendary Wings (bootleg)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 103311
+      kind: 3
+      kind_id: 88021
+      type: 1
+      name: lwingsb.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 652749
+      asset_id: 103311
+      name: 63s141.15g
+      size: 256
+      blob_id: 2735
+    - id: 652750
+      asset_id: 103311
+      name: ic1.bin
+      size: 32768
+      blob_id: 2723
+    - id: 652751
+      asset_id: 103311
+      name: ic17.bin
+      size: 32768
+      blob_id: 27257
+    - id: 652752
+      asset_id: 103311
+      name: ic18.bin
+      size: 32768
+      blob_id: 27258
+    - id: 652753
+      asset_id: 103311
+      name: ic19.bin
+      size: 32768
+      blob_id: 2738
+    - id: 652754
+      asset_id: 103311
+      name: ic2.bin
+      size: 32768
+      blob_id: 2729
+    - id: 652755
+      asset_id: 103311
+      name: ic25.bin
+      size: 32768
+      blob_id: 2724
+    - id: 652756
+      asset_id: 103311
+      name: ic26.bin
+      size: 32768
+      blob_id: 2730
+    - id: 652757
+      asset_id: 103311
+      name: ic37.bin
+      size: 32768
+      blob_id: 2722
+    - id: 652758
+      asset_id: 103311
+      name: ic49.bin
+      size: 32768
+      blob_id: 27259
+    - id: 652759
+      asset_id: 103311
+      name: ic50.bin
+      size: 32768
+      blob_id: 2731
+    - id: 652760
+      asset_id: 103311
+      name: ic60.bin
+      size: 16384
+      blob_id: 2739
+    - id: 652761
+      asset_id: 103311
+      name: ic62.bin
+      size: 32768
+      blob_id: 2726
+    - id: 652762
+      asset_id: 103311
+      name: ic63.bin
+      size: 32768
+      blob_id: 2732
+    - id: 652763
+      asset_id: 103311
+      name: ic86.bin
+      size: 32768
+      blob_id: 2748
+    - id: 652764
+      asset_id: 103311
+      name: ic87.bin
+      size: 32768
+      blob_id: 27260
+    - id: 652765
+      asset_id: 103311
+      name: ic98.bin
+      size: 32768
+      blob_id: 2749
+    - id: 652766
+      asset_id: 103311
+      name: ic99.bin
+      size: 32768
+      blob_id: 27261
+- release:
+    id: 88022
+    game_id: 283
+    description: ""
+    release_date: 19860000
+  names:
+  - id: 216636
+    kind: 3
+    kind_id: 88022
+    language: 1
+    name: Ares no Tsubasa (Japan, rev. B)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 103312
+      kind: 3
+      kind_id: 88022
+      type: 1
+      name: lwingsj.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 652767
+      asset_id: 103312
+      name: at_01b.6c
+      size: 32768
+      blob_id: 2741
+    - id: 652768
+      asset_id: 103312
+      name: at_02.7c
+      size: 32768
+      blob_id: 2742
+    - id: 652769
+      asset_id: 103312
+      name: at_03.11e
+      size: 32768
+      blob_id: 2722
+    - id: 652770
+      asset_id: 103312
+      name: at_03.9c
+      size: 32768
+      blob_id: 2738
+    - id: 652771
+      asset_id: 103312
+      name: at_05.9h
+      size: 16384
+      blob_id: 2739
+    - id: 652772
+      asset_id: 103312
+      name: at_06.1b
+      size: 32768
+      blob_id: 2744
+    - id: 652773
+      asset_id: 103312
+      name: at_07.1d
+      size: 32768
+      blob_id: 2745
+    - id: 652774
+      asset_id: 103312
+      name: at_08.1e
+      size: 32768
+      blob_id: 2746
+    - id: 652775
+      asset_id: 103312
+      name: at_09.1f
+      size: 32768
+      blob_id: 2747
+    - id: 652776
+      asset_id: 103312
+      name: at_10.1h
+      size: 32768
+      blob_id: 2748
+    - id: 652777
+      asset_id: 103312
+      name: at_11.1j
+      size: 32768
+      blob_id: 2749
+    - id: 652778
+      asset_id: 103312
+      name: at_12.3b
+      size: 32768
+      blob_id: 2750
+    - id: 652779
+      asset_id: 103312
+      name: at_13.3d
+      size: 32768
+      blob_id: 2751
+    - id: 652780
+      asset_id: 103312
+      name: at_14.3e
+      size: 32768
+      blob_id: 2752
+    - id: 652781
+      asset_id: 103312
+      name: at_15.3f
+      size: 32768
+      blob_id: 2753
+    - id: 652782
+      asset_id: 103312
+      name: at_16.3h
+      size: 32768
+      blob_id: 2754
+    - id: 652783
+      asset_id: 103312
+      name: at_17.3j
+      size: 32768
+      blob_id: 2755
+    - id: 652784
+      asset_id: 103312
+      name: szb01.15g
+      size: 256
+      blob_id: 2735
+- release:
+    id: 88023
+    game_id: 283
+    description: ""
+    release_date: 19860000
+  names:
+  - id: 216637
+    kind: 3
+    kind_id: 88023
+    language: 1
+    name: Ares no Tsubasa (Japan, rev. A)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 103313
+      kind: 3
+      kind_id: 88023
+      type: 1
+      name: lwingsja.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 652785
+      asset_id: 103313
+      name: at_01a.6c
+      size: 32768
+      blob_id: 27262
+    - id: 652786
+      asset_id: 103313
+      name: at_02.7c
+      size: 32768
+      blob_id: 2742
+    - id: 652787
+      asset_id: 103313
+      name: at_03.11e
+      size: 32768
+      blob_id: 2722
+    - id: 652788
+      asset_id: 103313
+      name: at_03.9c
+      size: 32768
+      blob_id: 2738
+    - id: 652789
+      asset_id: 103313
+      name: at_05.9h
+      size: 16384
+      blob_id: 2739
+    - id: 652790
+      asset_id: 103313
+      name: at_06.1b
+      size: 32768
+      blob_id: 2744
+    - id: 652791
+      asset_id: 103313
+      name: at_07.1d
+      size: 32768
+      blob_id: 2745
+    - id: 652792
+      asset_id: 103313
+      name: at_08.1e
+      size: 32768
+      blob_id: 2746
+    - id: 652793
+      asset_id: 103313
+      name: at_09.1f
+      size: 32768
+      blob_id: 2747
+    - id: 652794
+      asset_id: 103313
+      name: at_10.1h
+      size: 32768
+      blob_id: 2748
+    - id: 652795
+      asset_id: 103313
+      name: at_11.1j
+      size: 32768
+      blob_id: 2749
+    - id: 652796
+      asset_id: 103313
+      name: at_12.3b
+      size: 32768
+      blob_id: 2750
+    - id: 652797
+      asset_id: 103313
+      name: at_13.3d
+      size: 32768
+      blob_id: 2751
+    - id: 652798
+      asset_id: 103313
+      name: at_14.3e
+      size: 32768
+      blob_id: 2752
+    - id: 652799
+      asset_id: 103313
+      name: at_15.3f
+      size: 32768
+      blob_id: 2753
+    - id: 652800
+      asset_id: 103313
+      name: at_16.3h
+      size: 32768
+      blob_id: 2754
+    - id: 652801
+      asset_id: 103313
+      name: at_17.3j
+      size: 32768
+      blob_id: 2755
+    - id: 652802
+      asset_id: 103313
+      name: szb01.15g
+      size: 256
+      blob_id: 2735
+- release:
+    id: 102556
+    game_id: 283
+    description: ""
+    release_date: 19860000
+  names:
+  - id: 236982
+    kind: 3
+    kind_id: 102556
+    language: 1
+    name: Legendary Wings (US set 2)
+    source: fbneo
+  release_publishers: []
+  assets:
+  - asset:
+      id: 119027
+      kind: 3
+      kind_id: 102556
+      type: 1
+      name: lwings2.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 818453
+      asset_id: 119027
+      name: 11e_lw04.bin
+      size: 32768
+      blob_id: 2722
+    - id: 818454
+      asset_id: 119027
+      name: 63s141.15g
+      size: 256
+      blob_id: 2735
+    - id: 818455
+      asset_id: 119027
+      name: 9c_lw03.bin
+      size: 32768
+      blob_id: 2738
+    - id: 818456
+      asset_id: 119027
+      name: 9h_lw05.bin
+      size: 16384
+      blob_id: 2739
+    - id: 818457
+      asset_id: 119027
+      name: b_01b.rom
+      size: 32768
+      blob_id: 2744
+    - id: 818458
+      asset_id: 119027
+      name: b_01d.rom
+      size: 32768
+      blob_id: 2745
+    - id: 818459
+      asset_id: 119027
+      name: b_01e.rom
+      size: 32768
+      blob_id: 2746
+    - id: 818460
+      asset_id: 119027
+      name: b_01f.rom
+      size: 32768
+      blob_id: 2747
+    - id: 818461
+      asset_id: 119027
+      name: b_01h.rom
+      size: 32768
+      blob_id: 2748
+    - id: 818462
+      asset_id: 119027
+      name: b_01j.rom
+      size: 32768
+      blob_id: 2749
+    - id: 818463
+      asset_id: 119027
+      name: b_03b.rom
+      size: 32768
+      blob_id: 2750
+    - id: 818464
+      asset_id: 119027
+      name: b_03d.rom
+      size: 32768
+      blob_id: 2751
+    - id: 818465
+      asset_id: 119027
+      name: b_03e.rom
+      size: 32768
+      blob_id: 2752
+    - id: 818466
+      asset_id: 119027
+      name: b_03f.rom
+      size: 32768
+      blob_id: 2753
+    - id: 818467
+      asset_id: 119027
+      name: b_03h.rom
+      size: 32768
+      blob_id: 2754
+    - id: 818468
+      asset_id: 119027
+      name: b_03j.rom
+      size: 32768
+      blob_id: 2755
+    - id: 818469
+      asset_id: 119027
+      name: u13-l
+      size: 32768
+      blob_id: 27255
+    - id: 818470
+      asset_id: 119027
+      name: u14-k
+      size: 32768
+      blob_id: 27256

@@ -10,6 +10,42 @@ names:
   language: 1
   name: ssi
   source: ""
+- id: 192915
+  kind: 2
+  kind_id: 3949
+  language: 1
+  name: "Majestic Twelve - The Space Invaders Part IV (Japan)"
+  source: mame
+- id: 192916
+  kind: 2
+  kind_id: 3949
+  language: 1
+  name: "Majestic Twelve - The Space Invaders Part IV (US, revised code, Rev 1)"
+  source: mame
+- id: 192917
+  kind: 2
+  kind_id: 3949
+  language: 1
+  name: "Majestic Twelve - The Space Invaders Part IV (US, revised code)"
+  source: mame
+- id: 192918
+  kind: 2
+  kind_id: 3949
+  language: 1
+  name: "Majestic Twelve - The Space Invaders Part IV (US, earlier code base)"
+  source: mame
+- id: 199586
+  kind: 2
+  kind_id: 3949
+  language: 1
+  name: Super Space Invaders '91 (World, revised code)
+  source: mame
+- id: 199587
+  kind: 2
+  kind_id: 3949
+  language: 1
+  name: Super Space Invaders '91 (World, earlier code base)
+  source: mame
 game_developers: []
 game_genres:
 - game_id: 3949
@@ -111,6 +147,53 @@ releases:
       blob_id: 91035
       debug: arcade/wheel/ssi.png
     entries: []
+  - asset:
+      id: 114463
+      kind: 3
+      kind_id: 3949
+      type: 1
+      name: ssi.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 756984
+      asset_id: 114463
+      name: c64-01.1
+      size: 1048576
+      blob_id: 42486
+    - id: 756985
+      asset_id: 114463
+      name: c64-02.2
+      size: 131072
+      blob_id: 42487
+    - id: 756986
+      asset_id: 114463
+      name: c64-09.13
+      size: 65536
+      blob_id: 42488
+    - id: 756987
+      asset_id: 114463
+      name: c64-10.ic42
+      size: 279
+      blob_id: 42491
+    - id: 756988
+      asset_id: 114463
+      name: c64-11.ic43
+      size: 279
+      blob_id: 42492
+    - id: 756989
+      asset_id: 114463
+      name: c64_15-1.ic9
+      size: 262144
+      blob_id: 42489
+    - id: 756990
+      asset_id: 114463
+      name: c64_16-1.ic8
+      size: 262144
+      blob_id: 42490
 - release:
     id: 3950
     game_id: 3949
@@ -234,63 +317,378 @@ releases:
       size: 262144
       blob_id: 42503
 - release:
-    id: 71894
+    id: 98694
     game_id: 3949
     description: ""
     release_date: 19900000
   names:
-  - id: 173823
+  - id: 231424
     kind: 3
-    kind_id: 71894
+    kind_id: 98694
     language: 1
-    name: Super Space Invaders '91 (World, revised code, Rev 1)
+    name: Super Space Invaders '91 (World, revised code)
     source: mame
   release_publishers: []
   assets:
   - asset:
-      id: 84964
+      id: 114464
       kind: 3
-      kind_id: 71894
+      kind_id: 98694
       type: 1
-      name: ssi.zip
+      name: ssia.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 378380
-      asset_id: 84964
+    - id: 756991
+      asset_id: 114464
       name: c64-01.1
       size: 1048576
       blob_id: 42486
-    - id: 378381
-      asset_id: 84964
+    - id: 756992
+      asset_id: 114464
       name: c64-02.2
       size: 131072
       blob_id: 42487
-    - id: 378382
-      asset_id: 84964
+    - id: 756993
+      asset_id: 114464
       name: c64-09.13
       size: 65536
       blob_id: 42488
-    - id: 378383
-      asset_id: 84964
+    - id: 756994
+      asset_id: 114464
       name: c64-10.ic42
       size: 279
       blob_id: 42491
-    - id: 378384
-      asset_id: 84964
+    - id: 756995
+      asset_id: 114464
       name: c64-11.ic43
       size: 279
       blob_id: 42492
-    - id: 378385
-      asset_id: 84964
+    - id: 756996
+      asset_id: 114464
+      name: c64_15.ic9
+      size: 262144
+      blob_id: 42498
+    - id: 756997
+      asset_id: 114464
+      name: c64_16.ic8
+      size: 262144
+      blob_id: 42502
+- release:
+    id: 98695
+    game_id: 3949
+    description: ""
+    release_date: 19900000
+  names:
+  - id: 231425
+    kind: 3
+    kind_id: 98695
+    language: 1
+    name: Super Space Invaders '91 (World, earlier code base)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 114465
+      kind: 3
+      kind_id: 98695
+      type: 1
+      name: ssib.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 756998
+      asset_id: 114465
+      name: c64-01.ic51
+      size: 1048576
+      blob_id: 42486
+    - id: 756999
+      asset_id: 114465
+      name: c64-02.ic1
+      size: 131072
+      blob_id: 42487
+    - id: 757000
+      asset_id: 114465
+      name: c64-09.ic38
+      size: 65536
+      blob_id: 42488
+    - id: 757001
+      asset_id: 114465
+      name: c64-10.ic42
+      size: 279
+      blob_id: 42491
+    - id: 757002
+      asset_id: 114465
+      name: c64-11.ic43
+      size: 279
+      blob_id: 42492
+    - id: 757003
+      asset_id: 114465
+      name: c64_12.ic9
+      size: 262144
+      blob_id: 42500
+    - id: 757004
+      asset_id: 114465
+      name: c64_13.ic8
+      size: 262144
+      blob_id: 42503
+- release:
+    id: 104412
+    game_id: 3949
+    description: ""
+    release_date: 19900000
+  names:
+  - id: 239388
+    kind: 3
+    kind_id: 104412
+    language: 1
+    name: "Majestic Twelve - The Space Invaders Part IV (Japan)"
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 103666
+      kind: 3
+      kind_id: 104412
+      type: 1
+      name: majest12j.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 655122
+      asset_id: 103666
+      name: c64-01.1
+      size: 1048576
+      blob_id: 42486
+    - id: 655123
+      asset_id: 103666
+      name: c64-02.2
+      size: 131072
+      blob_id: 42487
+    - id: 655124
+      asset_id: 103666
+      name: c64-05.5
+      size: 131072
+      blob_id: 42493
+    - id: 655125
+      asset_id: 103666
+      name: c64-06.4
+      size: 131072
+      blob_id: 42494
+    - id: 655126
+      asset_id: 103666
+      name: c64-07.10
+      size: 131072
+      blob_id: 42495
+    - id: 655127
+      asset_id: 103666
+      name: c64-08.11
+      size: 131072
+      blob_id: 42496
+    - id: 655128
+      asset_id: 103666
+      name: c64-09.13
+      size: 65536
+      blob_id: 42488
+    - id: 655129
+      asset_id: 103666
+      name: c64-10.ic42
+      size: 279
+      blob_id: 42491
+    - id: 655130
+      asset_id: 103666
+      name: c64-11.ic43
+      size: 279
+      blob_id: 42492
+- release:
+    id: 104413
+    game_id: 3949
+    description: ""
+    release_date: 19900000
+  names:
+  - id: 239389
+    kind: 3
+    kind_id: 104413
+    language: 1
+    name: "Majestic Twelve - The Space Invaders Part IV (US, revised code, Rev 1)"
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 103667
+      kind: 3
+      kind_id: 104413
+      type: 1
+      name: majest12u.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 655131
+      asset_id: 103667
+      name: c64-01.1
+      size: 1048576
+      blob_id: 42486
+    - id: 655132
+      asset_id: 103667
+      name: c64-02.2
+      size: 131072
+      blob_id: 42487
+    - id: 655133
+      asset_id: 103667
+      name: c64-09.13
+      size: 65536
+      blob_id: 42488
+    - id: 655134
+      asset_id: 103667
+      name: c64-10.ic42
+      size: 279
+      blob_id: 42491
+    - id: 655135
+      asset_id: 103667
+      name: c64-11.ic43
+      size: 279
+      blob_id: 42492
+    - id: 655136
+      asset_id: 103667
       name: c64_15-1.ic9
       size: 262144
       blob_id: 42489
-    - id: 378386
-      asset_id: 84964
-      name: c64_16-1.ic8
+    - id: 655137
+      asset_id: 103667
+      name: c64_17-1.ic8
       size: 262144
-      blob_id: 42490
+      blob_id: 42497
+- release:
+    id: 104414
+    game_id: 3949
+    description: ""
+    release_date: 19900000
+  names:
+  - id: 239390
+    kind: 3
+    kind_id: 104414
+    language: 1
+    name: "Majestic Twelve - The Space Invaders Part IV (US, revised code)"
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 103668
+      kind: 3
+      kind_id: 104414
+      type: 1
+      name: majest12ua.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 655138
+      asset_id: 103668
+      name: c64-01.1
+      size: 1048576
+      blob_id: 42486
+    - id: 655139
+      asset_id: 103668
+      name: c64-02.2
+      size: 131072
+      blob_id: 42487
+    - id: 655140
+      asset_id: 103668
+      name: c64-09.13
+      size: 65536
+      blob_id: 42488
+    - id: 655141
+      asset_id: 103668
+      name: c64-10.ic42
+      size: 279
+      blob_id: 42491
+    - id: 655142
+      asset_id: 103668
+      name: c64-11.ic43
+      size: 279
+      blob_id: 42492
+    - id: 655143
+      asset_id: 103668
+      name: c64_15.ic9
+      size: 262144
+      blob_id: 42498
+    - id: 655144
+      asset_id: 103668
+      name: c64_17.ic8
+      size: 262144
+      blob_id: 42499
+- release:
+    id: 104415
+    game_id: 3949
+    description: ""
+    release_date: 19900000
+  names:
+  - id: 239391
+    kind: 3
+    kind_id: 104415
+    language: 1
+    name: "Majestic Twelve - The Space Invaders Part IV (US, earlier code base)"
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 103669
+      kind: 3
+      kind_id: 104415
+      type: 1
+      name: majest12ub.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 655145
+      asset_id: 103669
+      name: c64-01.1
+      size: 1048576
+      blob_id: 42486
+    - id: 655146
+      asset_id: 103669
+      name: c64-02.2
+      size: 131072
+      blob_id: 42487
+    - id: 655147
+      asset_id: 103669
+      name: c64-09.13
+      size: 65536
+      blob_id: 42488
+    - id: 655148
+      asset_id: 103669
+      name: c64-10.ic42
+      size: 279
+      blob_id: 42491
+    - id: 655149
+      asset_id: 103669
+      name: c64-11.ic43
+      size: 279
+      blob_id: 42492
+    - id: 655150
+      asset_id: 103669
+      name: c64_12.ic9
+      size: 262144
+      blob_id: 42500
+    - id: 655151
+      asset_id: 103669
+      name: c64_14.ic8
+      size: 262144
+      blob_id: 42501

@@ -10,6 +10,30 @@ names:
   language: 1
   name: Macintosh Plus
   source: mame
+- id: 192806
+  kind: 2
+  kind_id: 56738
+  language: 1
+  name: Macintosh 512ke
+  source: mame
+- id: 192813
+  kind: 2
+  kind_id: 56738
+  language: 1
+  name: Macintosh Plus (Japan)
+  source: mame
+- id: 200637
+  kind: 2
+  kind_id: 56738
+  language: 1
+  name: Mac 512
+  source: mame
+- id: 200665
+  kind: 2
+  kind_id: 56738
+  language: 1
+  name: Unitron 1024
+  source: mame
 game_developers: []
 game_genres: []
 assets: []
@@ -29,7 +53,59 @@ releases:
   release_publishers: []
   assets:
   - asset:
-      id: 70517
+      id: 90651
+      kind: 3
+      kind_id: 57447
+      type: 1
+      name: macplus.zip
+      description: ""
+      format: 2
+      size: 1001148
+      blob_id: 0
+      debug: /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/3404831351
+    entries:
+    - id: 467707
+      asset_id: 90651
+      name: 342-0341-a.u6d
+      size: 65536
+      blob_id: 235118
+    - id: 467708
+      asset_id: 90651
+      name: 342-0341-b.u6d
+      size: 65536
+      blob_id: 235119
+    - id: 467709
+      asset_id: 90651
+      name: 342-0341-c.u6d
+      size: 65536
+      blob_id: 235120
+    - id: 467710
+      asset_id: 90651
+      name: 342-0342-a.u8d
+      size: 65536
+      blob_id: 235121
+    - id: 467711
+      asset_id: 90651
+      name: 342-0342-b.u8d
+      size: 65536
+      blob_id: 235122
+    - id: 467712
+      asset_id: 90651
+      name: modplus-harp2.bin
+      size: 163840
+      blob_id: 235123
+    - id: 467713
+      asset_id: 90651
+      name: rominator-20150225-hi.bin
+      size: 524288
+      blob_id: 235124
+    - id: 467714
+      asset_id: 90651
+      name: rominator-20150225-lo.bin
+      size: 524288
+      blob_id: 235125
+  - asset:
+      id: 103488
       kind: 3
       kind_id: 57447
       type: 1
@@ -40,48 +116,199 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 257506
-      asset_id: 70517
+    - id: 653435
+      asset_id: 103488
       name: 342-0341-a.u6d
       size: 65536
-      blob_id: 146076
-    - id: 257507
-      asset_id: 70517
+      blob_id: 235118
+    - id: 653436
+      asset_id: 103488
       name: 342-0341-b.u6d
       size: 65536
-      blob_id: 146077
-    - id: 257508
-      asset_id: 70517
+      blob_id: 235119
+    - id: 653437
+      asset_id: 103488
       name: 342-0341-c.u6d
       size: 65536
-      blob_id: 146078
-    - id: 257509
-      asset_id: 70517
+      blob_id: 235120
+    - id: 653438
+      asset_id: 103488
       name: 342-0342-a.u8d
       size: 65536
-      blob_id: 146079
-    - id: 257510
-      asset_id: 70517
-      name: 342-0342-a.u8d
-      size: 65536
-      blob_id: 146079
-    - id: 257511
-      asset_id: 70517
+      blob_id: 235121
+    - id: 653440
+      asset_id: 103488
       name: 342-0342-b.u8d
       size: 65536
-      blob_id: 146080
-    - id: 257512
-      asset_id: 70517
+      blob_id: 235122
+    - id: 653441
+      asset_id: 103488
       name: modplus-harp2.bin
       size: 163840
-      blob_id: 146198
-    - id: 257513
-      asset_id: 70517
+      blob_id: 235123
+    - id: 653442
+      asset_id: 103488
       name: rominator-20150225-hi.bin
       size: 524288
-      blob_id: 146199
-    - id: 257514
-      asset_id: 70517
+      blob_id: 235124
+    - id: 653443
+      asset_id: 103488
       name: rominator-20150225-lo.bin
       size: 524288
-      blob_id: 146200
+      blob_id: 235125
+- release:
+    id: 88195
+    game_id: 56738
+    description: ""
+    release_date: 19860000
+  names:
+  - id: 216931
+    kind: 3
+    kind_id: 88195
+    language: 1
+    name: Macintosh Plus (Japan)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 103489
+      kind: 3
+      kind_id: 88195
+      type: 1
+      name: macplusj.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 653444
+      asset_id: 103489
+      name: 342-0441-a.u6d
+      size: 131072
+      blob_id: 235126
+    - id: 653445
+      asset_id: 103489
+      name: 342-0442-a.u8d
+      size: 131072
+      blob_id: 235127
+- release:
+    id: 100620
+    game_id: 56738
+    description: ""
+    release_date: 19850000
+  names:
+  - id: 234257
+    kind: 3
+    kind_id: 100620
+    language: 1
+    name: Mac 512
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 116564
+      kind: 3
+      kind_id: 100620
+      type: 1
+      name: unitron.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/1818461398
+    entries:
+    - id: 781389
+      asset_id: 116564
+      name: unitron_512.rom
+      size: 65536
+      blob_id: 309972
+- release:
+    id: 100684
+    game_id: 56738
+    description: ""
+    release_date: 19850000
+  names:
+  - id: 234363
+    kind: 3
+    kind_id: 100684
+    language: 1
+    name: Unitron 1024
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 116633
+      kind: 3
+      kind_id: 100684
+      type: 1
+      name: utrn1024.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 781752
+      asset_id: 116633
+      name: 342-0341-a.u6d
+      size: 65536
+      blob_id: 235118
+    - id: 781753
+      asset_id: 116633
+      name: 342-0342-a.u8d
+      size: 65536
+      blob_id: 235121
+- release:
+    id: 104398
+    game_id: 56738
+    description: ""
+    release_date: 19860000
+  names:
+  - id: 239374
+    kind: 3
+    kind_id: 104398
+    language: 1
+    name: Macintosh 512ke
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 103436
+      kind: 3
+      kind_id: 104398
+      type: 1
+      name: mac512ke.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 653212
+      asset_id: 103436
+      name: 342-0341-a.u6d
+      size: 65536
+      blob_id: 235118
+    - id: 653213
+      asset_id: 103436
+      name: 342-0341-b.u6d
+      size: 65536
+      blob_id: 235119
+    - id: 653214
+      asset_id: 103436
+      name: 342-0341-c.u6d
+      size: 65536
+      blob_id: 235120
+    - id: 653215
+      asset_id: 103436
+      name: 342-0342-a.u8d
+      size: 65536
+      blob_id: 235121
+    - id: 653217
+      asset_id: 103436
+      name: 342-0342-b.u8d
+      size: 65536
+      blob_id: 235122

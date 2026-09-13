@@ -16,6 +16,24 @@ names:
   language: 2
   name: 国际机车大奖赛 (美版)
   source: trimui
+- id: 201359
+  kind: 2
+  kind_id: 4533
+  language: 1
+  name: "WGP: Real Race Feeling (Japan)"
+  source: mame
+- id: 201360
+  kind: 2
+  kind_id: 4533
+  language: 1
+  name: "WGP: Real Race Feeling (joystick version) (Japan, set 1)"
+  source: mame
+- id: 201361
+  kind: 2
+  kind_id: 4533
+  language: 1
+  name: "WGP: Real Race Feeling (joystick version) (Japan, set 2)"
+  source: mame
 game_developers:
 - game_id: 4533
   developer_id: 35
@@ -179,114 +197,552 @@ releases:
       blob_id: 86004
       debug: arcade/wheel/wgp.png
     entries: []
-- release:
-    id: 75422
-    game_id: 4533
-    description: ""
-    release_date: 19890000
-  names:
-  - id: 180678
-    kind: 3
-    kind_id: 75422
-    language: 1
-    name: "WGP: Real Race Feeling (World)"
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 88492
+      id: 117716
       kind: 3
-      kind_id: 75422
+      kind_id: 4533
       type: 1
       name: wgp.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
-      debug: dat:mame:0.289
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/3241800741
     entries:
-    - id: 416391
-      asset_id: 88492
+    - id: 793333
+      asset_id: 117716
       name: c32-01.12
       size: 524288
       blob_id: 49301
-    - id: 416392
-      asset_id: 88492
+    - id: 793334
+      asset_id: 117716
       name: c32-02.11
       size: 524288
       blob_id: 49302
-    - id: 416393
-      asset_id: 88492
+    - id: 793335
+      asset_id: 117716
       name: c32-03.10
       size: 524288
       blob_id: 49303
-    - id: 416394
-      asset_id: 88492
+    - id: 793336
+      asset_id: 117716
       name: c32-04.9
       size: 524288
       blob_id: 49304
-    - id: 416395
-      asset_id: 88492
+    - id: 793337
+      asset_id: 117716
       name: c32-05.71
       size: 524288
       blob_id: 49305
-    - id: 416396
-      asset_id: 88492
+    - id: 793338
+      asset_id: 117716
       name: c32-06.70
       size: 524288
       blob_id: 49306
-    - id: 416397
-      asset_id: 88492
+    - id: 793339
+      asset_id: 117716
       name: c32-07.69
       size: 524288
       blob_id: 49307
-    - id: 416398
-      asset_id: 88492
+    - id: 793340
+      asset_id: 117716
       name: c32-08.68
       size: 524288
       blob_id: 49308
-    - id: 416399
-      asset_id: 88492
+    - id: 793341
+      asset_id: 117716
       name: c32-09.16
       size: 524288
       blob_id: 49309
-    - id: 416400
-      asset_id: 88492
+    - id: 793342
+      asset_id: 117716
       name: c32-10.9
       size: 524288
       blob_id: 49310
-    - id: 416401
-      asset_id: 88492
+    - id: 793343
+      asset_id: 117716
       name: c32-11.8
       size: 524288
       blob_id: 49311
-    - id: 416402
-      asset_id: 88492
+    - id: 793344
+      asset_id: 117716
       name: c32-12.7
       size: 524288
       blob_id: 49312
-    - id: 416403
-      asset_id: 88492
+    - id: 793345
+      asset_id: 117716
       name: c32-24.34
       size: 65536
       blob_id: 49313
-    - id: 416404
-      asset_id: 88492
+    - id: 793346
+      asset_id: 117716
       name: c32-25++.12
       size: 131072
-      blob_id: 196818
-    - id: 416405
-      asset_id: 88492
+      blob_id: 312932
+    - id: 793347
+      asset_id: 117716
       name: c32-27+.63
       size: 131072
       blob_id: 49315
-    - id: 416406
-      asset_id: 88492
+    - id: 793348
+      asset_id: 117716
       name: c32-28+.64
       size: 131072
       blob_id: 49316
-    - id: 416407
-      asset_id: 88492
+    - id: 793349
+      asset_id: 117716
       name: c32-31++.13
       size: 131072
-      blob_id: 196819
+      blob_id: 312933
+- release:
+    id: 101727
+    game_id: 4533
+    description: ""
+    release_date: 19890000
+  names:
+  - id: 235750
+    kind: 3
+    kind_id: 101727
+    language: 1
+    name: "WGP: Real Race Feeling (Japan)"
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 117719
+      kind: 3
+      kind_id: 101727
+      type: 1
+      name: wgpj.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/265120693
+    entries:
+    - id: 793384
+      asset_id: 117719
+      name: c32-01.12
+      size: 524288
+      blob_id: 49301
+    - id: 793385
+      asset_id: 117719
+      name: c32-02.11
+      size: 524288
+      blob_id: 49302
+    - id: 793386
+      asset_id: 117719
+      name: c32-03.10
+      size: 524288
+      blob_id: 49303
+    - id: 793387
+      asset_id: 117719
+      name: c32-04.9
+      size: 524288
+      blob_id: 49304
+    - id: 793388
+      asset_id: 117719
+      name: c32-05.71
+      size: 524288
+      blob_id: 49305
+    - id: 793389
+      asset_id: 117719
+      name: c32-06.70
+      size: 524288
+      blob_id: 49306
+    - id: 793390
+      asset_id: 117719
+      name: c32-07.69
+      size: 524288
+      blob_id: 49307
+    - id: 793391
+      asset_id: 117719
+      name: c32-08.68
+      size: 524288
+      blob_id: 49308
+    - id: 793392
+      asset_id: 117719
+      name: c32-09.16
+      size: 524288
+      blob_id: 49309
+    - id: 793393
+      asset_id: 117719
+      name: c32-10.9
+      size: 524288
+      blob_id: 49310
+    - id: 793394
+      asset_id: 117719
+      name: c32-11.8
+      size: 524288
+      blob_id: 49311
+    - id: 793395
+      asset_id: 117719
+      name: c32-12.7
+      size: 524288
+      blob_id: 49312
+    - id: 793396
+      asset_id: 117719
+      name: c32-24.34
+      size: 65536
+      blob_id: 49313
+    - id: 793397
+      asset_id: 117719
+      name: c32-27.63
+      size: 131072
+      blob_id: 49315
+    - id: 793398
+      asset_id: 117719
+      name: c32-28.64
+      size: 131072
+      blob_id: 49316
+    - id: 793399
+      asset_id: 117719
+      name: c32-48.12
+      size: 131072
+      blob_id: 312944
+    - id: 793400
+      asset_id: 117719
+      name: c32-49.13
+      size: 131072
+      blob_id: 312945
+- release:
+    id: 101728
+    game_id: 4533
+    description: ""
+    release_date: 19890000
+  names:
+  - id: 235751
+    kind: 3
+    kind_id: 101728
+    language: 1
+    name: "WGP: Real Race Feeling (joystick version) (Japan, set 1)"
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 117720
+      kind: 3
+      kind_id: 101728
+      type: 1
+      name: wgpjoy.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/2809953988
+    entries:
+    - id: 793401
+      asset_id: 117720
+      name: c32-01.12
+      size: 524288
+      blob_id: 49301
+    - id: 793402
+      asset_id: 117720
+      name: c32-02.11
+      size: 524288
+      blob_id: 49302
+    - id: 793403
+      asset_id: 117720
+      name: c32-03.10
+      size: 524288
+      blob_id: 49303
+    - id: 793404
+      asset_id: 117720
+      name: c32-04.9
+      size: 524288
+      blob_id: 49304
+    - id: 793405
+      asset_id: 117720
+      name: c32-05.71
+      size: 524288
+      blob_id: 49305
+    - id: 793406
+      asset_id: 117720
+      name: c32-06.70
+      size: 524288
+      blob_id: 49306
+    - id: 793407
+      asset_id: 117720
+      name: c32-07.69
+      size: 524288
+      blob_id: 49307
+    - id: 793408
+      asset_id: 117720
+      name: c32-08.68
+      size: 524288
+      blob_id: 49308
+    - id: 793409
+      asset_id: 117720
+      name: c32-09.16
+      size: 524288
+      blob_id: 49309
+    - id: 793410
+      asset_id: 117720
+      name: c32-10.9
+      size: 524288
+      blob_id: 49310
+    - id: 793411
+      asset_id: 117720
+      name: c32-11.8
+      size: 524288
+      blob_id: 49311
+    - id: 793412
+      asset_id: 117720
+      name: c32-12.7
+      size: 524288
+      blob_id: 49312
+    - id: 793413
+      asset_id: 117720
+      name: c32-57.12
+      size: 131072
+      blob_id: 312946
+    - id: 793414
+      asset_id: 117720
+      name: c32-58.13
+      size: 131072
+      blob_id: 312947
+    - id: 793415
+      asset_id: 117720
+      name: c32-59.63
+      size: 131072
+      blob_id: 312948
+    - id: 793416
+      asset_id: 117720
+      name: c32-60.64
+      size: 131072
+      blob_id: 312949
+    - id: 793417
+      asset_id: 117720
+      name: c32-61.34
+      size: 65536
+      blob_id: 312950
+- release:
+    id: 101729
+    game_id: 4533
+    description: ""
+    release_date: 19890000
+  names:
+  - id: 235752
+    kind: 3
+    kind_id: 101729
+    language: 1
+    name: "WGP: Real Race Feeling (joystick version) (Japan, set 2)"
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 117721
+      kind: 3
+      kind_id: 101729
+      type: 1
+      name: wgpjoya.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/3060707242
+    entries:
+    - id: 793418
+      asset_id: 117721
+      name: c32-01.12
+      size: 524288
+      blob_id: 49301
+    - id: 793419
+      asset_id: 117721
+      name: c32-02.11
+      size: 524288
+      blob_id: 49302
+    - id: 793420
+      asset_id: 117721
+      name: c32-03.10
+      size: 524288
+      blob_id: 49303
+    - id: 793421
+      asset_id: 117721
+      name: c32-04.9
+      size: 524288
+      blob_id: 49304
+    - id: 793422
+      asset_id: 117721
+      name: c32-05.71
+      size: 524288
+      blob_id: 49305
+    - id: 793423
+      asset_id: 117721
+      name: c32-06.70
+      size: 524288
+      blob_id: 49306
+    - id: 793424
+      asset_id: 117721
+      name: c32-07.69
+      size: 524288
+      blob_id: 49307
+    - id: 793425
+      asset_id: 117721
+      name: c32-08.68
+      size: 524288
+      blob_id: 49308
+    - id: 793426
+      asset_id: 117721
+      name: c32-09.16
+      size: 524288
+      blob_id: 49309
+    - id: 793427
+      asset_id: 117721
+      name: c32-10.9
+      size: 524288
+      blob_id: 49310
+    - id: 793428
+      asset_id: 117721
+      name: c32-11.8
+      size: 524288
+      blob_id: 49311
+    - id: 793429
+      asset_id: 117721
+      name: c32-12.7
+      size: 524288
+      blob_id: 49312
+    - id: 793430
+      asset_id: 117721
+      name: c32-45.63
+      size: 131072
+      blob_id: 312951
+    - id: 793431
+      asset_id: 117721
+      name: c32-46.64
+      size: 131072
+      blob_id: 312952
+    - id: 793432
+      asset_id: 117721
+      name: c32-57.12
+      size: 131072
+      blob_id: 312946
+    - id: 793433
+      asset_id: 117721
+      name: c32-58.13
+      size: 131072
+      blob_id: 312947
+    - id: 793434
+      asset_id: 117721
+      name: c32-61.34
+      size: 65536
+      blob_id: 312950
+- release:
+    id: 101730
+    game_id: 4533
+    description: ""
+    release_date: 19890000
+  names:
+  - id: 235753
+    kind: 3
+    kind_id: 101730
+    language: 1
+    name: "WGP: Real Race Feeling (US)"
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 117722
+      kind: 3
+      kind_id: 101730
+      type: 1
+      name: wgpu.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 793435
+      asset_id: 117722
+      name: c32-01.12
+      size: 524288
+      blob_id: 49301
+    - id: 793436
+      asset_id: 117722
+      name: c32-02.11
+      size: 524288
+      blob_id: 49302
+    - id: 793437
+      asset_id: 117722
+      name: c32-03.10
+      size: 524288
+      blob_id: 49303
+    - id: 793438
+      asset_id: 117722
+      name: c32-04.9
+      size: 524288
+      blob_id: 49304
+    - id: 793439
+      asset_id: 117722
+      name: c32-05.71
+      size: 524288
+      blob_id: 49305
+    - id: 793440
+      asset_id: 117722
+      name: c32-06.70
+      size: 524288
+      blob_id: 49306
+    - id: 793441
+      asset_id: 117722
+      name: c32-07.69
+      size: 524288
+      blob_id: 49307
+    - id: 793442
+      asset_id: 117722
+      name: c32-08.68
+      size: 524288
+      blob_id: 49308
+    - id: 793443
+      asset_id: 117722
+      name: c32-09.16
+      size: 524288
+      blob_id: 49309
+    - id: 793444
+      asset_id: 117722
+      name: c32-10.9
+      size: 524288
+      blob_id: 49310
+    - id: 793445
+      asset_id: 117722
+      name: c32-11.8
+      size: 524288
+      blob_id: 49311
+    - id: 793446
+      asset_id: 117722
+      name: c32-12.7
+      size: 524288
+      blob_id: 49312
+    - id: 793447
+      asset_id: 117722
+      name: c32-24.34
+      size: 65536
+      blob_id: 49313
+    - id: 793448
+      asset_id: 117722
+      name: c32-25.12
+      size: 131072
+      blob_id: 49314
+    - id: 793449
+      asset_id: 117722
+      name: c32-27.63
+      size: 131072
+      blob_id: 49315
+    - id: 793450
+      asset_id: 117722
+      name: c32-28.64
+      size: 131072
+      blob_id: 49316
+    - id: 793451
+      asset_id: 117722
+      name: c32-29.13
+      size: 131072
+      blob_id: 49317

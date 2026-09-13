@@ -16,6 +16,18 @@ names:
   language: 2
   name: 超级汉堡时代 (世界版, 第一套)
   source: trimui
+- id: 199759
+  kind: 2
+  kind_id: 4064
+  language: 1
+  name: Super Burger Time (World, set 2)
+  source: mame
+- id: 199760
+  kind: 2
+  kind_id: 4064
+  language: 1
+  name: Super Burger Time (Japan)
+  source: mame
 game_developers:
 - game_id: 4064
   developer_id: 225
@@ -129,94 +141,208 @@ releases:
       blob_id: 89947
       debug: arcade/wheel/supbtime.png
     entries: []
-- release:
-    id: 72296
-    game_id: 4064
-    description: ""
-    release_date: 19900000
-  names:
-  - id: 174592
-    kind: 3
-    kind_id: 72296
-    language: 1
-    name: Super Burger Time (World, set 1)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 85366
+      id: 114794
       kind: 3
-      kind_id: 72296
+      kind_id: 4064
       type: 1
       name: supbtime.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
-      debug: dat:mame:0.289
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/2715048316
     entries:
-    - id: 383549
-      asset_id: 85366
+    - id: 761557
+      asset_id: 114794
       name: gc05.bin
       size: 131072
       blob_id: 43541
-    - id: 383550
-      asset_id: 85366
+    - id: 761558
+      asset_id: 114794
       name: gc06.bin
       size: 65536
       blob_id: 43542
-    - id: 383551
-      asset_id: 85366
+    - id: 761559
+      asset_id: 114794
       name: gk03
       size: 131072
       blob_id: 43543
-    - id: 383552
-      asset_id: 85366
+    - id: 761560
+      asset_id: 114794
       name: gk04
       size: 131072
       blob_id: 43544
-    - id: 383553
-      asset_id: 85366
+    - id: 761561
+      asset_id: 114794
       name: mae00.bin
       size: 524288
       blob_id: 43545
-    - id: 383554
-      asset_id: 85366
+    - id: 761562
+      asset_id: 114794
       name: mae01.bin
       size: 524288
       blob_id: 43546
-    - id: 383555
-      asset_id: 85366
+    - id: 761563
+      asset_id: 114794
       name: mae02.bin
       size: 524288
       blob_id: 43547
-    - id: 383556
-      asset_id: 85366
+    - id: 761564
+      asset_id: 114794
       name: tg0.a11
       size: 260
-      blob_id: 187362
-    - id: 383557
-      asset_id: 85366
+      blob_id: 304309
+    - id: 761565
+      asset_id: 114794
       name: tg1.b15
       size: 260
-      blob_id: 187363
-    - id: 383558
-      asset_id: 85366
+      blob_id: 304310
+    - id: 761566
+      asset_id: 114794
       name: tg2.c12
       size: 260
-      blob_id: 187364
-    - id: 383559
-      asset_id: 85366
+      blob_id: 304311
+    - id: 761567
+      asset_id: 114794
       name: tg3.c13
       size: 260
-      blob_id: 187365
-    - id: 383560
-      asset_id: 85366
+      blob_id: 304312
+    - id: 761568
+      asset_id: 114794
       name: tg4.c14
       size: 260
       blob_id: 28661
-    - id: 383561
-      asset_id: 85366
+    - id: 761569
+      asset_id: 114794
       name: tg5.j1
       size: 260
-      blob_id: 187366
+      blob_id: 304313
+- release:
+    id: 98987
+    game_id: 4064
+    description: ""
+    release_date: 19900000
+  names:
+  - id: 231845
+    kind: 3
+    kind_id: 98987
+    language: 1
+    name: Super Burger Time (World, set 2)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 114795
+      kind: 3
+      kind_id: 98987
+      type: 1
+      name: supbtimea.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/2365051247
+    entries:
+    - id: 761570
+      asset_id: 114795
+      name: 3.11f
+      size: 131072
+      blob_id: 304314
+    - id: 761571
+      asset_id: 114795
+      name: 4.12f
+      size: 131072
+      blob_id: 304315
+    - id: 761572
+      asset_id: 114795
+      name: gc05.bin
+      size: 131072
+      blob_id: 43541
+    - id: 761573
+      asset_id: 114795
+      name: gc06.bin
+      size: 65536
+      blob_id: 43542
+    - id: 761574
+      asset_id: 114795
+      name: mae00.bin
+      size: 524288
+      blob_id: 43545
+    - id: 761575
+      asset_id: 114795
+      name: mae01.bin
+      size: 524288
+      blob_id: 43546
+    - id: 761576
+      asset_id: 114795
+      name: mae02.bin
+      size: 524288
+      blob_id: 43547
+- release:
+    id: 98988
+    game_id: 4064
+    description: ""
+    release_date: 19900000
+  names:
+  - id: 231846
+    kind: 3
+    kind_id: 98988
+    language: 1
+    name: Super Burger Time (Japan)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 114796
+      kind: 3
+      kind_id: 98988
+      type: 1
+      name: supbtimej.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/2834252270
+    entries:
+    - id: 761577
+      asset_id: 114796
+      name: gc03.bin
+      size: 131072
+      blob_id: 304316
+    - id: 761578
+      asset_id: 114796
+      name: gc04.bin
+      size: 131072
+      blob_id: 304317
+    - id: 761579
+      asset_id: 114796
+      name: gc05.bin
+      size: 131072
+      blob_id: 43541
+    - id: 761580
+      asset_id: 114796
+      name: gc06.bin
+      size: 65536
+      blob_id: 43542
+    - id: 761581
+      asset_id: 114796
+      name: mae00.bin
+      size: 524288
+      blob_id: 43545
+    - id: 761582
+      asset_id: 114796
+      name: mae01.bin
+      size: 524288
+      blob_id: 43546
+    - id: 761583
+      asset_id: 114796
+      name: mae02.bin
+      size: 524288
+      blob_id: 43547

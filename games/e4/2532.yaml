@@ -16,8 +16,36 @@ names:
   language: 2
   name: 光明使者 (版本 2.2O 1994/04/08)
   source: trimui
-game_developers: []
-game_genres: []
+- id: 186802
+  kind: 2
+  kind_id: 2532
+  language: 1
+  name: dungeonm
+  source: ""
+- id: 186992
+  kind: 2
+  kind_id: 2532
+  language: 1
+  name: lightbrj
+  source: ""
+- id: 186993
+  kind: 2
+  kind_id: 2532
+  language: 2
+  name: 光明使者 (版本 2.1J 1994/02/18)
+  source: trimui
+- id: 190039
+  kind: 2
+  kind_id: 2532
+  language: 1
+  name: Dungeon Magic (Ver 2.1A 1994/02/18)
+  source: mame
+game_developers:
+- game_id: 2532
+  developer_id: 35
+game_genres:
+- game_id: 2532
+  genre_id: 21
 assets: []
 releases:
 - release:
@@ -167,24 +195,10 @@ releases:
       name: lightbrj/d69-14.bin
       size: 524288
       blob_id: 26928
-- release:
-    id: 49530
-    game_id: 2532
-    description: ""
-    release_date: 19930000
-  names:
-  - id: 129571
-    kind: 3
-    kind_id: 49530
-    language: 1
-    name: Light Bringer (Ver 2.2O 1994/04/08)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 62600
+      id: 103049
       kind: 3
-      kind_id: 49530
+      kind_id: 2532
       type: 1
       name: lightbr.zip
       description: ""
@@ -193,88 +207,435 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 225039
-      asset_id: 62600
+    - id: 649469
+      asset_id: 103049
       name: d69-01.bin
       size: 2097152
       blob_id: 16166
-    - id: 225040
-      asset_id: 62600
+    - id: 649470
+      asset_id: 103049
       name: d69-02.bin
       size: 2097152
       blob_id: 16167
-    - id: 225041
-      asset_id: 62600
+    - id: 649471
+      asset_id: 103049
       name: d69-03.bin
       size: 2097152
       blob_id: 16168
-    - id: 225042
-      asset_id: 62600
+    - id: 649472
+      asset_id: 103049
       name: d69-04.bin
       size: 2097152
       blob_id: 16169
-    - id: 225043
-      asset_id: 62600
+    - id: 649473
+      asset_id: 103049
       name: d69-05.bin
       size: 2097152
       blob_id: 16170
-    - id: 225044
-      asset_id: 62600
+    - id: 649474
+      asset_id: 103049
       name: d69-06.bin
       size: 2097152
       blob_id: 16171
-    - id: 225045
-      asset_id: 62600
+    - id: 649475
+      asset_id: 103049
       name: d69-07.bin
       size: 2097152
       blob_id: 16172
-    - id: 225046
-      asset_id: 62600
+    - id: 649476
+      asset_id: 103049
       name: d69-08.bin
       size: 2097152
       blob_id: 16173
-    - id: 225047
-      asset_id: 62600
+    - id: 649477
+      asset_id: 103049
       name: d69-09.bin
       size: 1048576
       blob_id: 16174
-    - id: 225048
-      asset_id: 62600
+    - id: 649478
+      asset_id: 103049
       name: d69-10.bin
       size: 1048576
       blob_id: 16175
-    - id: 225049
-      asset_id: 62600
+    - id: 649479
+      asset_id: 103049
       name: d69-11.bin
       size: 1048576
       blob_id: 16176
-    - id: 225050
-      asset_id: 62600
+    - id: 649480
+      asset_id: 103049
       name: d69-18.bin
       size: 131072
       blob_id: 16179
-    - id: 225051
-      asset_id: 62600
+    - id: 649481
+      asset_id: 103049
       name: d69-19.bin
       size: 131072
       blob_id: 16180
-    - id: 225052
-      asset_id: 62600
+    - id: 649482
+      asset_id: 103049
       name: d69-25.ic40
       size: 524288
       blob_id: 26923
-    - id: 225053
-      asset_id: 62600
+    - id: 649483
+      asset_id: 103049
       name: d69-26.ic38
       size: 524288
       blob_id: 26924
-    - id: 225054
-      asset_id: 62600
+    - id: 649484
+      asset_id: 103049
       name: d69-27.ic34
       size: 524288
       blob_id: 26925
-    - id: 225055
-      asset_id: 62600
+    - id: 649485
+      asset_id: 103049
       name: d69-28.ic36
       size: 524288
       blob_id: 26926
+- release:
+    id: 102922
+    game_id: 2532
+    description: ""
+    release_date: 19940101
+  names:
+  - id: 237630
+    kind: 3
+    kind_id: 102922
+    language: 1
+    name: dungeonm
+    source: ""
+  - id: 237631
+    kind: 3
+    kind_id: 102922
+    language: 2
+    name: 光明使者 (版本 2.1O 1994/02/18)
+    source: trimui
+  release_publishers:
+  - release_id: 102922
+    publisher_id: 112
+  assets:
+  - asset:
+      id: 98069
+      kind: 3
+      kind_id: 102922
+      type: 1
+      name: dungeonm.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 593350
+      asset_id: 98069
+      name: d69-01.bin
+      size: 2097152
+      blob_id: 16166
+    - id: 593351
+      asset_id: 98069
+      name: d69-02.bin
+      size: 2097152
+      blob_id: 16167
+    - id: 593352
+      asset_id: 98069
+      name: d69-03.bin
+      size: 2097152
+      blob_id: 16168
+    - id: 593353
+      asset_id: 98069
+      name: d69-04.bin
+      size: 2097152
+      blob_id: 16169
+    - id: 593354
+      asset_id: 98069
+      name: d69-05.bin
+      size: 2097152
+      blob_id: 16170
+    - id: 593355
+      asset_id: 98069
+      name: d69-06.bin
+      size: 2097152
+      blob_id: 16171
+    - id: 593356
+      asset_id: 98069
+      name: d69-07.bin
+      size: 2097152
+      blob_id: 16172
+    - id: 593357
+      asset_id: 98069
+      name: d69-08.bin
+      size: 2097152
+      blob_id: 16173
+    - id: 593358
+      asset_id: 98069
+      name: d69-09.bin
+      size: 1048576
+      blob_id: 16174
+    - id: 593359
+      asset_id: 98069
+      name: d69-10.bin
+      size: 1048576
+      blob_id: 16175
+    - id: 593360
+      asset_id: 98069
+      name: d69-11.bin
+      size: 1048576
+      blob_id: 16176
+    - id: 593361
+      asset_id: 98069
+      name: d69-13.bin
+      size: 524288
+      blob_id: 16177
+    - id: 593362
+      asset_id: 98069
+      name: d69-15.bin
+      size: 524288
+      blob_id: 16178
+    - id: 593363
+      asset_id: 98069
+      name: d69-18.bin
+      size: 131072
+      blob_id: 16179
+    - id: 593364
+      asset_id: 98069
+      name: d69-19.bin
+      size: 131072
+      blob_id: 16180
+    - id: 593365
+      asset_id: 98069
+      name: d69-20.bin
+      size: 524288
+      blob_id: 16181
+    - id: 593366
+      asset_id: 98069
+      name: d69-22.bin
+      size: 524288
+      blob_id: 16182
+- release:
+    id: 103021
+    game_id: 2532
+    description: ""
+    release_date: 0
+  names:
+  - id: 237828
+    kind: 3
+    kind_id: 103021
+    language: 1
+    name: lightbrj
+    source: ""
+  - id: 237829
+    kind: 3
+    kind_id: 103021
+    language: 2
+    name: 光明使者 (版本 2.1J 1994/02/18)
+    source: trimui
+  release_publishers: []
+  assets:
+  - asset:
+      id: 103050
+      kind: 3
+      kind_id: 103021
+      type: 1
+      name: lightbrj.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 649486
+      asset_id: 103050
+      name: d69-01.bin
+      size: 2097152
+      blob_id: 16166
+    - id: 649487
+      asset_id: 103050
+      name: d69-02.bin
+      size: 2097152
+      blob_id: 16167
+    - id: 649488
+      asset_id: 103050
+      name: d69-03.bin
+      size: 2097152
+      blob_id: 16168
+    - id: 649489
+      asset_id: 103050
+      name: d69-04.bin
+      size: 2097152
+      blob_id: 16169
+    - id: 649490
+      asset_id: 103050
+      name: d69-05.bin
+      size: 2097152
+      blob_id: 16170
+    - id: 649491
+      asset_id: 103050
+      name: d69-06.bin
+      size: 2097152
+      blob_id: 16171
+    - id: 649492
+      asset_id: 103050
+      name: d69-07.bin
+      size: 2097152
+      blob_id: 16172
+    - id: 649493
+      asset_id: 103050
+      name: d69-08.bin
+      size: 2097152
+      blob_id: 16173
+    - id: 649494
+      asset_id: 103050
+      name: d69-09.bin
+      size: 1048576
+      blob_id: 16174
+    - id: 649495
+      asset_id: 103050
+      name: d69-10.bin
+      size: 1048576
+      blob_id: 16175
+    - id: 649496
+      asset_id: 103050
+      name: d69-11.bin
+      size: 1048576
+      blob_id: 16176
+    - id: 649497
+      asset_id: 103050
+      name: d69-13.bin
+      size: 524288
+      blob_id: 16177
+    - id: 649498
+      asset_id: 103050
+      name: d69-14.bin
+      size: 524288
+      blob_id: 26928
+    - id: 649499
+      asset_id: 103050
+      name: d69-15.bin
+      size: 524288
+      blob_id: 16178
+    - id: 649500
+      asset_id: 103050
+      name: d69-18.bin
+      size: 131072
+      blob_id: 16179
+    - id: 649501
+      asset_id: 103050
+      name: d69-19.bin
+      size: 131072
+      blob_id: 16180
+    - id: 649502
+      asset_id: 103050
+      name: d69-20.bin
+      size: 524288
+      blob_id: 16181
+- release:
+    id: 103788
+    game_id: 2532
+    description: ""
+    release_date: 19930000
+  names:
+  - id: 238764
+    kind: 3
+    kind_id: 103788
+    language: 1
+    name: Dungeon Magic (Ver 2.1A 1994/02/18)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 98070
+      kind: 3
+      kind_id: 103788
+      type: 1
+      name: dungeonmu.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 593367
+      asset_id: 98070
+      name: d69-01.bin
+      size: 2097152
+      blob_id: 16166
+    - id: 593368
+      asset_id: 98070
+      name: d69-02.bin
+      size: 2097152
+      blob_id: 16167
+    - id: 593369
+      asset_id: 98070
+      name: d69-03.bin
+      size: 2097152
+      blob_id: 16168
+    - id: 593370
+      asset_id: 98070
+      name: d69-04.bin
+      size: 2097152
+      blob_id: 16169
+    - id: 593371
+      asset_id: 98070
+      name: d69-05.bin
+      size: 2097152
+      blob_id: 16170
+    - id: 593372
+      asset_id: 98070
+      name: d69-06.bin
+      size: 2097152
+      blob_id: 16171
+    - id: 593373
+      asset_id: 98070
+      name: d69-07.bin
+      size: 2097152
+      blob_id: 16172
+    - id: 593374
+      asset_id: 98070
+      name: d69-08.bin
+      size: 2097152
+      blob_id: 16173
+    - id: 593375
+      asset_id: 98070
+      name: d69-09.bin
+      size: 1048576
+      blob_id: 16174
+    - id: 593376
+      asset_id: 98070
+      name: d69-10.bin
+      size: 1048576
+      blob_id: 16175
+    - id: 593377
+      asset_id: 98070
+      name: d69-11.bin
+      size: 1048576
+      blob_id: 16176
+    - id: 593378
+      asset_id: 98070
+      name: d69-13.bin
+      size: 524288
+      blob_id: 16177
+    - id: 593379
+      asset_id: 98070
+      name: d69-15.bin
+      size: 524288
+      blob_id: 16178
+    - id: 593380
+      asset_id: 98070
+      name: d69-18.bin
+      size: 131072
+      blob_id: 16179
+    - id: 593381
+      asset_id: 98070
+      name: d69-19.bin
+      size: 131072
+      blob_id: 16180
+    - id: 593382
+      asset_id: 98070
+      name: d69-20.bin
+      size: 524288
+      blob_id: 16181
+    - id: 593383
+      asset_id: 98070
+      name: d69-21.bin
+      size: 524288
+      blob_id: 26927

@@ -10,6 +10,12 @@ names:
   language: 1
   name: ultennis
   source: ""
+- id: 200611
+  kind: 2
+  kind_id: 4404
+  language: 1
+  name: Ultimate Tennis (v 1.4, Japan)
+  source: mame
 game_developers:
 - game_id: 4404
   developer_id: 728
@@ -108,6 +114,38 @@ releases:
       blob_id: 90982
       debug: arcade/wheel/ultennis.png
     entries: []
+  - asset:
+      id: 116524
+      kind: 3
+      kind_id: 4404
+      type: 1
+      name: ultennis.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 781031
+      asset_id: 116524
+      name: a+m-001-01-a.ic133
+      size: 2097152
+      blob_id: 47761
+    - id: 781032
+      asset_id: 116524
+      name: a+m001b1093_12b_u101.u101
+      size: 262144
+      blob_id: 47759
+    - id: 781033
+      asset_id: 116524
+      name: a+m001b1093_13b_u102.u102
+      size: 262144
+      blob_id: 47760
+    - id: 781034
+      asset_id: 116524
+      name: a+m001b1093_14a_u151.u151
+      size: 262144
+      blob_id: 47762
 - release:
     id: 4405
     game_id: 4404
@@ -171,48 +209,48 @@ releases:
       size: 262144
       blob_id: 47764
 - release:
-    id: 74208
+    id: 100583
     game_id: 4404
     description: ""
     release_date: 19930000
   names:
-  - id: 178295
+  - id: 234209
     kind: 3
-    kind_id: 74208
+    kind_id: 100583
     language: 1
-    name: Ultimate Tennis
+    name: Ultimate Tennis (v 1.4, Japan)
     source: mame
   release_publishers: []
   assets:
   - asset:
-      id: 87278
+      id: 116525
       kind: 3
-      kind_id: 74208
+      kind_id: 100583
       type: 1
-      name: ultennis.zip
+      name: ultennisj.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 404056
-      asset_id: 87278
+    - id: 781035
+      asset_id: 116525
       name: a+m-001-01-a.ic133
       size: 2097152
       blob_id: 47761
-    - id: 404057
-      asset_id: 87278
-      name: a+m001b1093_12b_u101.u101
-      size: 262144
-      blob_id: 47759
-    - id: 404058
-      asset_id: 87278
-      name: a+m001b1093_13b_u102.u102
-      size: 262144
-      blob_id: 47760
-    - id: 404059
-      asset_id: 87278
-      name: a+m001b1093_14a_u151.u151
+    - id: 781036
+      asset_id: 116525
+      name: a+m001c1293-14a-u151.u151
       size: 262144
       blob_id: 47762
+    - id: 781037
+      asset_id: 116525
+      name: a+m001d0194-12c-u101-japan.u101
+      size: 262144
+      blob_id: 47763
+    - id: 781038
+      asset_id: 116525
+      name: a+m001d0194-13c-u102-japan.u102
+      size: 262144
+      blob_id: 47764

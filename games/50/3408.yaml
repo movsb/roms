@@ -16,6 +16,36 @@ names:
   language: 2
   name: 妖精物语 (世界版, 第一套)
   source: trimui
+- id: 195709
+  kind: 2
+  kind_id: 3408
+  language: 1
+  name: R&T (Rod-Land prototype)
+  source: mame
+- id: 195788
+  kind: 2
+  kind_id: 3408
+  language: 1
+  name: Rod-Land (World, set 2)
+  source: mame
+- id: 195789
+  kind: 2
+  kind_id: 3408
+  language: 1
+  name: Rod-Land (Japan)
+  source: mame
+- id: 195790
+  kind: 2
+  kind_id: 3408
+  language: 1
+  name: Rod-Land (Japan bootleg with unencrypted program)
+  source: mame
+- id: 195791
+  kind: 2
+  kind_id: 3408
+  language: 1
+  name: Rod-Land (Japan bootleg with unencrypted program and GFX)
+  source: mame
 game_developers:
 - game_id: 3408
   developer_id: 493
@@ -159,24 +189,10 @@ releases:
       blob_id: 90608
       debug: arcade/wheel/rodland.png
     entries: []
-- release:
-    id: 63707
-    game_id: 3408
-    description: ""
-    release_date: 19900000
-  names:
-  - id: 157623
-    kind: 3
-    kind_id: 63707
-    language: 1
-    name: Rod-Land (World, set 1)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 76777
+      id: 109335
       kind: 3
-      kind_id: 63707
+      kind_id: 3408
       type: 1
       name: rodland.zip
       description: ""
@@ -185,68 +201,678 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 325148
-      asset_id: 76777
+    - id: 717810
+      asset_id: 109335
       name: jaleco_rod_land_1.rom1
       size: 131072
       blob_id: 36705
-    - id: 325149
-      asset_id: 76777
+    - id: 717811
+      asset_id: 109335
       name: jaleco_rod_land_2.rom2
       size: 131072
       blob_id: 36706
-    - id: 325150
-      asset_id: 76777
+    - id: 717812
+      asset_id: 109335
       name: jaleco_rod_land_3.rom3
       size: 65536
       blob_id: 36707
-    - id: 325151
-      asset_id: 76777
+    - id: 717813
+      asset_id: 109335
       name: jaleco_rod_land_4.rom4
       size: 65536
       blob_id: 36708
-    - id: 325152
-      asset_id: 76777
+    - id: 717814
+      asset_id: 109335
       name: jaleco_rod_land_5.rom5
       size: 65536
       blob_id: 36709
-    - id: 325153
-      asset_id: 76777
+    - id: 717815
+      asset_id: 109335
       name: jaleco_rod_land_6.rom6
       size: 65536
       blob_id: 36710
-    - id: 325154
-      asset_id: 76777
+    - id: 717816
+      asset_id: 109335
       name: lh2311j0.rom19
       size: 131072
       blob_id: 36711
-    - id: 325155
-      asset_id: 76777
+    - id: 717817
+      asset_id: 109335
       name: lh5321t5.rom10
       size: 262144
       blob_id: 36712
-    - id: 325156
-      asset_id: 76777
+    - id: 717818
+      asset_id: 109335
       name: lh534h31.rom14
       size: 524288
       blob_id: 36713
-    - id: 325157
-      asset_id: 76777
+    - id: 717819
+      asset_id: 109335
       name: lh534h32.rom18
       size: 524288
       blob_id: 36714
-    - id: 325158
-      asset_id: 76777
+    - id: 717820
+      asset_id: 109335
       name: lh534h33.rom23
       size: 524288
       blob_id: 36715
-    - id: 325159
-      asset_id: 76777
+    - id: 717821
+      asset_id: 109335
       name: ps89013a.14m
       size: 512
       blob_id: 36716
-    - id: 325160
-      asset_id: 76777
+    - id: 717822
+      asset_id: 109335
       name: s202000dr.rom8
       size: 262144
       blob_id: 36717
+- release:
+    id: 93740
+    game_id: 3408
+    description: ""
+    release_date: 19900000
+  names:
+  - id: 225242
+    kind: 3
+    kind_id: 93740
+    language: 1
+    name: Rod-Land (World, set 2)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 109336
+      kind: 3
+      kind_id: 93740
+      type: 1
+      name: rodlanda.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 717823
+      asset_id: 109336
+      name: jaleco_rod_land_1.rom1
+      size: 131072
+      blob_id: 270595
+    - id: 717824
+      asset_id: 109336
+      name: jaleco_rod_land_2.rom2
+      size: 131072
+      blob_id: 270596
+    - id: 717825
+      asset_id: 109336
+      name: jaleco_rod_land_3.rom3
+      size: 65536
+      blob_id: 36707
+    - id: 717826
+      asset_id: 109336
+      name: jaleco_rod_land_4.rom4
+      size: 65536
+      blob_id: 36708
+    - id: 717827
+      asset_id: 109336
+      name: jaleco_rod_land_5.rom5
+      size: 65536
+      blob_id: 36709
+    - id: 717828
+      asset_id: 109336
+      name: jaleco_rod_land_6.rom6
+      size: 65536
+      blob_id: 36710
+    - id: 717829
+      asset_id: 109336
+      name: lh2311j0.rom19
+      size: 131072
+      blob_id: 36711
+    - id: 717830
+      asset_id: 109336
+      name: lh5321t5.rom10
+      size: 262144
+      blob_id: 36712
+    - id: 717831
+      asset_id: 109336
+      name: lh534h31.rom14
+      size: 524288
+      blob_id: 36713
+    - id: 717832
+      asset_id: 109336
+      name: lh534h32.rom18
+      size: 524288
+      blob_id: 36714
+    - id: 717833
+      asset_id: 109336
+      name: lh534h33.rom23
+      size: 524288
+      blob_id: 36715
+    - id: 717834
+      asset_id: 109336
+      name: ps89013a.14m
+      size: 512
+      blob_id: 36716
+    - id: 717835
+      asset_id: 109336
+      name: s202000dr.rom8
+      size: 262144
+      blob_id: 36717
+- release:
+    id: 93741
+    game_id: 3408
+    description: ""
+    release_date: 19900000
+  names:
+  - id: 225243
+    kind: 3
+    kind_id: 93741
+    language: 1
+    name: Rod-Land (Japan)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 109337
+      kind: 3
+      kind_id: 93741
+      type: 1
+      name: rodlandj.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 717836
+      asset_id: 109337
+      name: jaleco_rod_land_1.rom1
+      size: 131072
+      blob_id: 270597
+    - id: 717837
+      asset_id: 109337
+      name: jaleco_rod_land_2.rom2
+      size: 131072
+      blob_id: 270598
+    - id: 717838
+      asset_id: 109337
+      name: jaleco_rod_land_3.rom3
+      size: 65536
+      blob_id: 270599
+    - id: 717839
+      asset_id: 109337
+      name: jaleco_rod_land_4.rom4
+      size: 65536
+      blob_id: 270600
+    - id: 717840
+      asset_id: 109337
+      name: jaleco_rod_land_5.rom5
+      size: 65536
+      blob_id: 36709
+    - id: 717841
+      asset_id: 109337
+      name: jaleco_rod_land_6.rom6
+      size: 65536
+      blob_id: 36710
+    - id: 717842
+      asset_id: 109337
+      name: lh2311j0.rom19
+      size: 131072
+      blob_id: 36711
+    - id: 717843
+      asset_id: 109337
+      name: lh5321t5.rom10
+      size: 262144
+      blob_id: 36712
+    - id: 717844
+      asset_id: 109337
+      name: lh534h31.rom14
+      size: 524288
+      blob_id: 36713
+    - id: 717845
+      asset_id: 109337
+      name: lh534h32.rom18
+      size: 524288
+      blob_id: 36714
+    - id: 717846
+      asset_id: 109337
+      name: lh534h33.rom23
+      size: 524288
+      blob_id: 36715
+    - id: 717847
+      asset_id: 109337
+      name: ps89013a.14m
+      size: 512
+      blob_id: 36716
+    - id: 717848
+      asset_id: 109337
+      name: s202000dr.rom8
+      size: 262144
+      blob_id: 36717
+- release:
+    id: 93742
+    game_id: 3408
+    description: ""
+    release_date: 19900000
+  names:
+  - id: 225244
+    kind: 3
+    kind_id: 93742
+    language: 1
+    name: Rod-Land (Japan bootleg with unencrypted program)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 109338
+      kind: 3
+      kind_id: 93742
+      type: 1
+      name: rodlandjb.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 717849
+      asset_id: 109338
+      name: lh2311j0.rom19
+      size: 131072
+      blob_id: 36711
+    - id: 717850
+      asset_id: 109338
+      name: lh5321t5.rom10
+      size: 262144
+      blob_id: 36712
+    - id: 717851
+      asset_id: 109338
+      name: lh534h31.rom14
+      size: 524288
+      blob_id: 36713
+    - id: 717852
+      asset_id: 109338
+      name: lh534h32.rom18
+      size: 524288
+      blob_id: 36714
+    - id: 717853
+      asset_id: 109338
+      name: lh534h33.rom23
+      size: 524288
+      blob_id: 36715
+    - id: 717854
+      asset_id: 109338
+      name: ps89013a.14m
+      size: 512
+      blob_id: 36716
+    - id: 717855
+      asset_id: 109338
+      name: rl01.bin
+      size: 65536
+      blob_id: 270601
+    - id: 717856
+      asset_id: 109338
+      name: rl02.bin
+      size: 65536
+      blob_id: 270602
+    - id: 717857
+      asset_id: 109338
+      name: rl17.bin
+      size: 65536
+      blob_id: 270603
+    - id: 717858
+      asset_id: 109338
+      name: rl18.bin
+      size: 65536
+      blob_id: 270604
+    - id: 717859
+      asset_id: 109338
+      name: rl19.bin
+      size: 65536
+      blob_id: 270605
+    - id: 717860
+      asset_id: 109338
+      name: rl20.bin
+      size: 65536
+      blob_id: 270606
+    - id: 717861
+      asset_id: 109338
+      name: rl_3.bin
+      size: 65536
+      blob_id: 270599
+    - id: 717862
+      asset_id: 109338
+      name: rl_4.bin
+      size: 65536
+      blob_id: 270600
+    - id: 717863
+      asset_id: 109338
+      name: s202000dr.rom8
+      size: 262144
+      blob_id: 36717
+- release:
+    id: 93743
+    game_id: 3408
+    description: ""
+    release_date: 19900000
+  names:
+  - id: 225245
+    kind: 3
+    kind_id: 93743
+    language: 1
+    name: Rod-Land (Japan bootleg with unencrypted program and GFX)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 109339
+      kind: 3
+      kind_id: 93743
+      type: 1
+      name: rodlandjb2.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 717864
+      asset_id: 109339
+      name: 1.bin
+      size: 65536
+      blob_id: 270601
+    - id: 717865
+      asset_id: 109339
+      name: 10.bin
+      size: 65536
+      blob_id: 270607
+    - id: 717866
+      asset_id: 109339
+      name: 11.bin
+      size: 65536
+      blob_id: 270600
+    - id: 717867
+      asset_id: 109339
+      name: 12.bin
+      size: 65536
+      blob_id: 270599
+    - id: 717868
+      asset_id: 109339
+      name: 13.bin
+      size: 65536
+      blob_id: 270608
+    - id: 717869
+      asset_id: 109339
+      name: 14.bin
+      size: 65536
+      blob_id: 270609
+    - id: 717870
+      asset_id: 109339
+      name: 15.bin
+      size: 65536
+      blob_id: 270610
+    - id: 717871
+      asset_id: 109339
+      name: 16.bin
+      size: 65536
+      blob_id: 270611
+    - id: 717872
+      asset_id: 109339
+      name: 17.bin
+      size: 65536
+      blob_id: 270603
+    - id: 717873
+      asset_id: 109339
+      name: 18.bin
+      size: 65536
+      blob_id: 270604
+    - id: 717874
+      asset_id: 109339
+      name: 19.bin
+      size: 65536
+      blob_id: 270605
+    - id: 717875
+      asset_id: 109339
+      name: 2.bin
+      size: 65536
+      blob_id: 270602
+    - id: 717876
+      asset_id: 109339
+      name: 20.bin
+      size: 65536
+      blob_id: 270606
+    - id: 717877
+      asset_id: 109339
+      name: 21.bin
+      size: 65536
+      blob_id: 270612
+    - id: 717878
+      asset_id: 109339
+      name: 22.bin
+      size: 65536
+      blob_id: 270613
+    - id: 717879
+      asset_id: 109339
+      name: 23.bin
+      size: 65536
+      blob_id: 270614
+    - id: 717880
+      asset_id: 109339
+      name: 24.bin
+      size: 65536
+      blob_id: 270615
+    - id: 717881
+      asset_id: 109339
+      name: 25.bin
+      size: 65536
+      blob_id: 270616
+    - id: 717882
+      asset_id: 109339
+      name: 26.bin
+      size: 65536
+      blob_id: 270617
+    - id: 717883
+      asset_id: 109339
+      name: 27.bin
+      size: 65536
+      blob_id: 270618
+    - id: 717884
+      asset_id: 109339
+      name: 28.bin
+      size: 65536
+      blob_id: 270619
+    - id: 717885
+      asset_id: 109339
+      name: 29a.bin
+      size: 65536
+      blob_id: 270620
+    - id: 717886
+      asset_id: 109339
+      name: 29b.bin
+      size: 65536
+      blob_id: 270621
+    - id: 717887
+      asset_id: 109339
+      name: 3.bin
+      size: 65536
+      blob_id: 270622
+    - id: 717888
+      asset_id: 109339
+      name: 30.bin
+      size: 65536
+      blob_id: 270623
+    - id: 717889
+      asset_id: 109339
+      name: 31a.bin
+      size: 65536
+      blob_id: 270624
+    - id: 717890
+      asset_id: 109339
+      name: 31b.bin
+      size: 65536
+      blob_id: 270625
+    - id: 717891
+      asset_id: 109339
+      name: 4.bin
+      size: 65536
+      blob_id: 270626
+    - id: 717892
+      asset_id: 109339
+      name: 5.bin
+      size: 65536
+      blob_id: 270627
+    - id: 717893
+      asset_id: 109339
+      name: 6.bin
+      size: 65536
+      blob_id: 270628
+    - id: 717894
+      asset_id: 109339
+      name: 7.bin
+      size: 65536
+      blob_id: 270629
+    - id: 717895
+      asset_id: 109339
+      name: 8.bin
+      size: 65536
+      blob_id: 270630
+    - id: 717896
+      asset_id: 109339
+      name: 9.bin
+      size: 65536
+      blob_id: 270631
+    - id: 717897
+      asset_id: 109339
+      name: ps89013a.14m
+      size: 512
+      blob_id: 36716
+- release:
+    id: 104759
+    game_id: 3408
+    description: ""
+    release_date: 19900000
+  names:
+  - id: 239735
+    kind: 3
+    kind_id: 104759
+    language: 1
+    name: R&T (Rod-Land prototype)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 109213
+      kind: 3
+      kind_id: 104759
+      type: 1
+      name: rittam.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 715553
+      asset_id: 109213
+      name: 11.rom11
+      size: 131072
+      blob_id: 270090
+    - id: 715554
+      asset_id: 109213
+      name: 12.rom12
+      size: 131072
+      blob_id: 270091
+    - id: 715555
+      asset_id: 109213
+      name: 13.rom13
+      size: 131072
+      blob_id: 270092
+    - id: 715556
+      asset_id: 109213
+      name: 14.rom14
+      size: 131072
+      blob_id: 270093
+    - id: 715557
+      asset_id: 109213
+      name: 15.rom15
+      size: 131072
+      blob_id: 270094
+    - id: 715558
+      asset_id: 109213
+      name: 16.rom16
+      size: 131072
+      blob_id: 270095
+    - id: 715559
+      asset_id: 109213
+      name: 18.rom18
+      size: 131072
+      blob_id: 270096
+    - id: 715560
+      asset_id: 109213
+      name: 19.rom19
+      size: 131072
+      blob_id: 270097
+    - id: 715561
+      asset_id: 109213
+      name: 2.rom2
+      size: 131072
+      blob_id: 270098
+    - id: 715562
+      asset_id: 109213
+      name: 21.rom21
+      size: 131072
+      blob_id: 270099
+    - id: 715563
+      asset_id: 109213
+      name: 22.rom22
+      size: 131072
+      blob_id: 270100
+    - id: 715564
+      asset_id: 109213
+      name: 23.rom23
+      size: 131072
+      blob_id: 270101
+    - id: 715565
+      asset_id: 109213
+      name: jaleco_10.rom10
+      size: 131072
+      blob_id: 33410
+    - id: 715566
+      asset_id: 109213
+      name: jaleco_5.rom5
+      size: 65536
+      blob_id: 270102
+    - id: 715567
+      asset_id: 109213
+      name: jaleco_6.rom6
+      size: 65536
+      blob_id: 270103
+    - id: 715568
+      asset_id: 109213
+      name: jaleco_7.rom7
+      size: 131072
+      blob_id: 270104
+    - id: 715569
+      asset_id: 109213
+      name: jaleco_8.rom8
+      size: 131072
+      blob_id: 270105
+    - id: 715570
+      asset_id: 109213
+      name: jaleco_9.rom9
+      size: 131072
+      blob_id: 33430
+    - id: 715571
+      asset_id: 109213
+      name: ps89013a.14m
+      size: 512
+      blob_id: 36716
+    - id: 715572
+      asset_id: 109213
+      name: r+t_1.rom1
+      size: 131072
+      blob_id: 270106
+    - id: 715573
+      asset_id: 109213
+      name: r+t_20.rom20
+      size: 131072
+      blob_id: 270107

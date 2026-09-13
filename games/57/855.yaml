@@ -16,6 +16,30 @@ names:
   language: 2
   name: 炸弹杰克兄弟 (第一套)
   source: trimui
+- id: 188199
+  kind: 2
+  kind_id: 855
+  language: 1
+  name: Atom (bootleg of Bombjack Twin)
+  source: mame
+- id: 188456
+  kind: 2
+  kind_id: 855
+  language: 1
+  name: Bombjack Twin (set 2)
+  source: mame
+- id: 188457
+  kind: 2
+  kind_id: 855
+  language: 1
+  name: Bombjack Twin (prototype? with adult pictures, set 1)
+  source: mame
+- id: 188458
+  kind: 2
+  kind_id: 855
+  language: 1
+  name: Bombjack Twin (prototype? with adult pictures, set 2)
+  source: mame
 game_developers:
 - game_id: 855
   developer_id: 460
@@ -47,9 +71,73 @@ releases:
     publisher_id: 290
   assets:
   - asset:
-      id: 855
+      id: 42569
       kind: 3
       kind_id: 855
+      type: 4
+      name: bjtwin.png
+      description: ""
+      format: 1
+      size: 10364
+      blob_id: 86091
+      debug: arcade/downloaded_images/bjtwin.png
+    entries: []
+  - asset:
+      id: 42570
+      kind: 3
+      kind_id: 855
+      type: 6
+      name: bjtwin.mp4
+      description: ""
+      format: 1
+      size: 1269406
+      blob_id: 86092
+      debug: arcade/snap/bjtwin.mp4
+    entries: []
+  - asset:
+      id: 42571
+      kind: 3
+      kind_id: 855
+      type: 7
+      name: bjtwin.png
+      description: ""
+      format: 1
+      size: 59571
+      blob_id: 86093
+      debug: arcade/wheel/bjtwin.png
+    entries: []
+- release:
+    id: 38075
+    game_id: 855
+    description: ""
+    release_date: 19930000
+  names:
+  - id: 107242
+    kind: 3
+    kind_id: 38075
+    language: 1
+    name: Bombjack Twin (set 1)
+    source: mame
+  - id: 183994
+    kind: 3
+    kind_id: 38075
+    language: 1
+    name: bjtwin
+    source: ""
+  - id: 183995
+    kind: 3
+    kind_id: 38075
+    language: 2
+    name: 炸弹杰克兄弟 (第一套)
+    source: trimui
+  release_publishers:
+  - release_id: 38075
+    publisher_id: 290
+  assets:
+  - asset:
+      id: 855
+      kind: 3
+      kind_id: 38075
       type: 1
       name: bjtwin.zip
       description: ""
@@ -104,57 +192,7 @@ releases:
       size: 1048576
       blob_id: 8821
   - asset:
-      id: 42569
-      kind: 3
-      kind_id: 855
-      type: 4
-      name: bjtwin.png
-      description: ""
-      format: 1
-      size: 10364
-      blob_id: 86091
-      debug: arcade/downloaded_images/bjtwin.png
-    entries: []
-  - asset:
-      id: 42570
-      kind: 3
-      kind_id: 855
-      type: 6
-      name: bjtwin.mp4
-      description: ""
-      format: 1
-      size: 1269406
-      blob_id: 86092
-      debug: arcade/snap/bjtwin.mp4
-    entries: []
-  - asset:
-      id: 42571
-      kind: 3
-      kind_id: 855
-      type: 7
-      name: bjtwin.png
-      description: ""
-      format: 1
-      size: 59571
-      blob_id: 86093
-      debug: arcade/wheel/bjtwin.png
-    entries: []
-- release:
-    id: 38075
-    game_id: 855
-    description: ""
-    release_date: 19930000
-  names:
-  - id: 107242
-    kind: 3
-    kind_id: 38075
-    language: 1
-    name: Bombjack Twin (set 1)
-    source: mame
-  release_publishers: []
-  assets:
-  - asset:
-      id: 51145
+      id: 94962
       kind: 3
       kind_id: 38075
       type: 1
@@ -165,53 +203,608 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 114636
-      asset_id: 51145
+    - id: 553129
+      asset_id: 94962
       name: 8.ic37
       size: 256
       blob_id: 5232
-    - id: 114637
-      asset_id: 51145
+    - id: 553130
+      asset_id: 94962
       name: 9.ic51
       size: 256
       blob_id: 8814
-    - id: 114638
-      asset_id: 51145
+    - id: 553131
+      asset_id: 94962
       name: 93087-1.bin
       size: 131072
       blob_id: 8815
-    - id: 114639
-      asset_id: 51145
+    - id: 553132
+      asset_id: 94962
       name: 93087-2.bin
       size: 131072
       blob_id: 8816
-    - id: 114640
-      asset_id: 51145
+    - id: 553133
+      asset_id: 94962
       name: 93087-3.bin
       size: 65536
       blob_id: 8817
-    - id: 114641
-      asset_id: 51145
+    - id: 553134
+      asset_id: 94962
       name: 93087-4.bin
       size: 1048576
       blob_id: 8818
-    - id: 114642
-      asset_id: 51145
+    - id: 553135
+      asset_id: 94962
       name: 93087-5.bin
       size: 1048576
       blob_id: 8819
-    - id: 114643
-      asset_id: 51145
+    - id: 553136
+      asset_id: 94962
       name: 93087-6.bin
       size: 1048576
       blob_id: 8820
-    - id: 114644
-      asset_id: 51145
+    - id: 553137
+      asset_id: 94962
       name: 93087-7.bin
       size: 1048576
       blob_id: 8821
-    - id: 114645
-      asset_id: 51145
+    - id: 553138
+      asset_id: 94962
       name: nmk-215.bin
       size: 8192
-      blob_id: 99464
+      blob_id: 206135
+- release:
+    id: 80316
+    game_id: 855
+    description: ""
+    release_date: 19930000
+  names:
+  - id: 204835
+    kind: 3
+    kind_id: 80316
+    language: 1
+    name: Bombjack Twin (set 2)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 94963
+      kind: 3
+      kind_id: 80316
+      type: 1
+      name: bjtwina.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 553139
+      asset_id: 94963
+      name: 8.ic37
+      size: 256
+      blob_id: 5232
+    - id: 553140
+      asset_id: 94963
+      name: 9.ic51
+      size: 256
+      blob_id: 8814
+    - id: 553141
+      asset_id: 94963
+      name: 93087-3.bin
+      size: 65536
+      blob_id: 8817
+    - id: 553142
+      asset_id: 94963
+      name: 93087-4.bin
+      size: 1048576
+      blob_id: 8818
+    - id: 553143
+      asset_id: 94963
+      name: 93087-5.bin
+      size: 1048576
+      blob_id: 8819
+    - id: 553144
+      asset_id: 94963
+      name: 93087-6.bin
+      size: 1048576
+      blob_id: 8820
+    - id: 553145
+      asset_id: 94963
+      name: 93087-7.bin
+      size: 1048576
+      blob_id: 8821
+    - id: 553146
+      asset_id: 94963
+      name: "93087.1"
+      size: 131072
+      blob_id: 240389
+    - id: 553147
+      asset_id: 94963
+      name: "93087.2"
+      size: 131072
+      blob_id: 240390
+    - id: 553148
+      asset_id: 94963
+      name: nmk-215.bin
+      size: 8192
+      blob_id: 206135
+  - asset:
+      id: 118573
+      kind: 3
+      kind_id: 80316
+      type: 1
+      name: bjtwina.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 807410
+      asset_id: 118573
+      name: 8.bpr
+      size: 256
+      blob_id: 5232
+    - id: 807411
+      asset_id: 118573
+      name: 9.bpr
+      size: 256
+      blob_id: 8814
+    - id: 807412
+      asset_id: 118573
+      name: 93087-3.bin
+      size: 65536
+      blob_id: 8817
+    - id: 807413
+      asset_id: 118573
+      name: 93087-4.bin
+      size: 1048576
+      blob_id: 8818
+    - id: 807414
+      asset_id: 118573
+      name: 93087-5.bin
+      size: 1048576
+      blob_id: 8819
+    - id: 807415
+      asset_id: 118573
+      name: 93087-6.bin
+      size: 1048576
+      blob_id: 8820
+    - id: 807416
+      asset_id: 118573
+      name: 93087-7.bin
+      size: 1048576
+      blob_id: 8821
+    - id: 807417
+      asset_id: 118573
+      name: "93087.1"
+      size: 131072
+      blob_id: 240389
+    - id: 807418
+      asset_id: 118573
+      name: "93087.2"
+      size: 131072
+      blob_id: 240390
+- release:
+    id: 80317
+    game_id: 855
+    description: ""
+    release_date: 19930000
+  names:
+  - id: 204836
+    kind: 3
+    kind_id: 80317
+    language: 1
+    name: Bombjack Twin (prototype? with adult pictures, set 1)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 94964
+      kind: 3
+      kind_id: 80317
+      type: 1
+      name: bjtwinp.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 553149
+      asset_id: 94964
+      name: 8.ic37
+      size: 256
+      blob_id: 5232
+    - id: 553150
+      asset_id: 94964
+      name: 9.ic51
+      size: 256
+      blob_id: 8814
+    - id: 553151
+      asset_id: 94964
+      name: bottom.ic27
+      size: 524288
+      blob_id: 240391
+    - id: 553152
+      asset_id: 94964
+      name: bottom.ic30
+      size: 524288
+      blob_id: 240392
+    - id: 553153
+      asset_id: 94964
+      name: ic35
+      size: 65536
+      blob_id: 240393
+    - id: 553154
+      asset_id: 94964
+      name: ic75
+      size: 131072
+      blob_id: 240394
+    - id: 553155
+      asset_id: 94964
+      name: ic76
+      size: 131072
+      blob_id: 240395
+    - id: 553156
+      asset_id: 94964
+      name: top.ic27
+      size: 524288
+      blob_id: 240396
+    - id: 553157
+      asset_id: 94964
+      name: top.ic30
+      size: 524288
+      blob_id: 240397
+    - id: 553158
+      asset_id: 94964
+      name: u1.ic32
+      size: 524288
+      blob_id: 240398
+    - id: 553159
+      asset_id: 94964
+      name: u2.ic32
+      size: 524288
+      blob_id: 240399
+    - id: 553160
+      asset_id: 94964
+      name: u3.ic32
+      size: 524288
+      blob_id: 240400
+    - id: 553161
+      asset_id: 94964
+      name: u4.ic100
+      size: 524288
+      blob_id: 240401
+    - id: 553162
+      asset_id: 94964
+      name: u5.ic100
+      size: 524288
+      blob_id: 240402
+  - asset:
+      id: 118571
+      kind: 3
+      kind_id: 80317
+      type: 1
+      name: bjtwinp.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 807386
+      asset_id: 118571
+      name: bottom.ic27
+      size: 524288
+      blob_id: 240391
+    - id: 807387
+      asset_id: 118571
+      name: bottom.ic30
+      size: 524288
+      blob_id: 240392
+    - id: 807388
+      asset_id: 118571
+      name: ic35
+      size: 65536
+      blob_id: 240393
+    - id: 807389
+      asset_id: 118571
+      name: ic75
+      size: 131072
+      blob_id: 240394
+    - id: 807390
+      asset_id: 118571
+      name: ic76
+      size: 131072
+      blob_id: 240395
+    - id: 807391
+      asset_id: 118571
+      name: top.ic27
+      size: 524288
+      blob_id: 240396
+    - id: 807392
+      asset_id: 118571
+      name: top.ic30
+      size: 524288
+      blob_id: 240397
+    - id: 807393
+      asset_id: 118571
+      name: u1.ic32
+      size: 524288
+      blob_id: 240398
+    - id: 807394
+      asset_id: 118571
+      name: u2.ic32
+      size: 524288
+      blob_id: 240399
+    - id: 807395
+      asset_id: 118571
+      name: u3.ic32
+      size: 524288
+      blob_id: 240400
+    - id: 807396
+      asset_id: 118571
+      name: u4.ic100
+      size: 524288
+      blob_id: 240401
+    - id: 807397
+      asset_id: 118571
+      name: u5.ic100
+      size: 524288
+      blob_id: 240402
+- release:
+    id: 80318
+    game_id: 855
+    description: ""
+    release_date: 19930000
+  names:
+  - id: 204837
+    kind: 3
+    kind_id: 80318
+    language: 1
+    name: Bombjack Twin (prototype? with adult pictures, set 2)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 94965
+      kind: 3
+      kind_id: 80318
+      type: 1
+      name: bjtwinpa.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 553163
+      asset_id: 94965
+      name: 8.ic37
+      size: 256
+      blob_id: 5232
+    - id: 553164
+      asset_id: 94965
+      name: 9.ic51
+      size: 256
+      blob_id: 8814
+    - id: 553165
+      asset_id: 94965
+      name: bottom.ic27
+      size: 524288
+      blob_id: 240391
+    - id: 553166
+      asset_id: 94965
+      name: bottom.ic30
+      size: 524288
+      blob_id: 240392
+    - id: 553167
+      asset_id: 94965
+      name: ic100_1.bin
+      size: 524288
+      blob_id: 240403
+    - id: 553168
+      asset_id: 94965
+      name: ic100_2.bin
+      size: 524288
+      blob_id: 240404
+    - id: 553169
+      asset_id: 94965
+      name: ic32_1.bin
+      size: 524288
+      blob_id: 240405
+    - id: 553170
+      asset_id: 94965
+      name: ic32_2.bin
+      size: 524288
+      blob_id: 240406
+    - id: 553171
+      asset_id: 94965
+      name: ic32_3.bin
+      size: 524288
+      blob_id: 240407
+    - id: 553172
+      asset_id: 94965
+      name: ic35.bin
+      size: 65536
+      blob_id: 8817
+    - id: 553173
+      asset_id: 94965
+      name: ic75.bin
+      size: 131072
+      blob_id: 240408
+    - id: 553174
+      asset_id: 94965
+      name: ic76.bin
+      size: 131072
+      blob_id: 240409
+    - id: 553175
+      asset_id: 94965
+      name: nmk-215.bin
+      size: 8192
+      blob_id: 206135
+    - id: 553176
+      asset_id: 94965
+      name: top.ic27
+      size: 524288
+      blob_id: 240396
+    - id: 553177
+      asset_id: 94965
+      name: top.ic30
+      size: 524288
+      blob_id: 240397
+  - asset:
+      id: 118572
+      kind: 3
+      kind_id: 80318
+      type: 1
+      name: bjtwinpa.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 807398
+      asset_id: 118572
+      name: bottom.ic27
+      size: 524288
+      blob_id: 240391
+    - id: 807399
+      asset_id: 118572
+      name: bottom.ic30
+      size: 524288
+      blob_id: 240392
+    - id: 807400
+      asset_id: 118572
+      name: ic100_1.bin
+      size: 524288
+      blob_id: 240403
+    - id: 807401
+      asset_id: 118572
+      name: ic100_2.bin
+      size: 524288
+      blob_id: 240404
+    - id: 807402
+      asset_id: 118572
+      name: ic32_1.bin
+      size: 524288
+      blob_id: 240405
+    - id: 807403
+      asset_id: 118572
+      name: ic32_2.bin
+      size: 524288
+      blob_id: 240406
+    - id: 807404
+      asset_id: 118572
+      name: ic32_3.bin
+      size: 524288
+      blob_id: 240407
+    - id: 807405
+      asset_id: 118572
+      name: ic35.bin
+      size: 65536
+      blob_id: 8817
+    - id: 807406
+      asset_id: 118572
+      name: ic75.bin
+      size: 131072
+      blob_id: 240408
+    - id: 807407
+      asset_id: 118572
+      name: ic76.bin
+      size: 131072
+      blob_id: 240409
+    - id: 807408
+      asset_id: 118572
+      name: top.ic27
+      size: 524288
+      blob_id: 240396
+    - id: 807409
+      asset_id: 118572
+      name: top.ic30
+      size: 524288
+      blob_id: 240397
+- release:
+    id: 103418
+    game_id: 855
+    description: ""
+    release_date: 19930000
+  names:
+  - id: 238394
+    kind: 3
+    kind_id: 103418
+    language: 1
+    name: Atom (bootleg of Bombjack Twin)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 94330
+      kind: 3
+      kind_id: 103418
+      type: 1
+      name: atombjt.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 546646
+      asset_id: 94330
+      name: 20.u16
+      size: 524288
+      blob_id: 204312
+    - id: 546647
+      asset_id: 94330
+      name: 21.u66
+      size: 131072
+      blob_id: 204313
+    - id: 546648
+      asset_id: 94330
+      name: 22.u67
+      size: 131072
+      blob_id: 204314
+    - id: 546649
+      asset_id: 94330
+      name: 23.u36
+      size: 524288
+      blob_id: 204315
+    - id: 546650
+      asset_id: 94330
+      name: 24.u42
+      size: 524288
+      blob_id: 204316
+    - id: 546651
+      asset_id: 94330
+      name: 25.u39
+      size: 524288
+      blob_id: 204317
+    - id: 546652
+      asset_id: 94330
+      name: 26.u45
+      size: 524288
+      blob_id: 204318
+    - id: 546653
+      asset_id: 94330
+      name: 27.u86
+      size: 262144
+      blob_id: 204319
+    - id: 546654
+      asset_id: 94330
+      name: 28.u85
+      size: 262144
+      blob_id: 204320
+    - id: 546655
+      asset_id: 94330
+      name: 29.u84
+      size: 262144
+      blob_id: 204321
+    - id: 546656
+      asset_id: 94330
+      name: 30.u83
+      size: 262144
+      blob_id: 204322

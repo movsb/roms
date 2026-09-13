@@ -90,24 +90,10 @@ releases:
       blob_id: 86198
       debug: arcade/snap/25pacman.mp4
     entries: []
-- release:
-    id: 35751
-    game_id: 29
-    description: ""
-    release_date: 20060000
-  names:
-  - id: 102698
-    kind: 3
-    kind_id: 35751
-    language: 1
-    name: "Pac-Man - 25th Anniversary Edition (Rev 3.00)"
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 48821
+      id: 92974
       kind: 3
-      kind_id: 35751
+      kind_id: 29
       type: 1
       name: 25pacman.zip
       description: ""
@@ -116,13 +102,49 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 91676
-      asset_id: 48821
+    - id: 531492
+      asset_id: 92974
       name: pacman25ver3.u1
       size: 262144
-      blob_id: 91869
-    - id: 91677
-      asset_id: 48821
+      blob_id: 200857
+    - id: 531493
+      asset_id: 92974
       name: pacman_25th.u14
       size: 32768
       blob_id: 456
+- release:
+    id: 78447
+    game_id: 29
+    description: ""
+    release_date: 20050000
+  names:
+  - id: 201959
+    kind: 3
+    kind_id: 78447
+    language: 1
+    name: "Pac-Man - 25th Anniversary Edition (Rev 2.00)"
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 92975
+      kind: 3
+      kind_id: 78447
+      type: 1
+      name: 25pacmano.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 531494
+      asset_id: 92975
+      name: pacman_25th.u14
+      size: 32768
+      blob_id: 456
+    - id: 531495
+      asset_id: 92975
+      name: pacman_25th_rev2.0.u13
+      size: 262144
+      blob_id: 458

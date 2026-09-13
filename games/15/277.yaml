@@ -16,6 +16,18 @@ names:
   language: 2
   name: 登月 (修订版 2)
   source: trimui
+- id: 192651
+  kind: 2
+  kind_id: 277
+  language: 1
+  name: Lunar Lander (rev 1)
+  source: mame
+- id: 192652
+  kind: 2
+  kind_id: 277
+  language: 1
+  name: Lunar Lander (screen test)
+  source: mame
 game_developers:
 - game_id: 277
   developer_id: 654
@@ -154,24 +166,10 @@ releases:
       blob_id: 88501
       debug: arcade/wheel/llander.png
     entries: []
-- release:
-    id: 49572
-    game_id: 277
-    description: ""
-    release_date: 19790000
-  names:
-  - id: 129653
-    kind: 3
-    kind_id: 49572
-    language: 1
-    name: Lunar Lander (rev 2)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 62642
+      id: 103090
       kind: 3
-      kind_id: 49572
+      kind_id: 277
       type: 1
       name: llander.zip
       description: ""
@@ -180,43 +178,170 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 225530
-      asset_id: 62642
+    - id: 649958
+      asset_id: 103090
       name: 034569-02.b1
       size: 2048
       blob_id: 2667
-    - id: 225531
-      asset_id: 62642
+    - id: 649959
+      asset_id: 103090
       name: 034570-01.c1
       size: 2048
       blob_id: 2668
-    - id: 225532
-      asset_id: 62642
+    - id: 649960
+      asset_id: 103090
       name: 034571-02.de1
       size: 2048
       blob_id: 2670
-    - id: 225533
-      asset_id: 62642
+    - id: 649961
+      asset_id: 103090
       name: 034572-02.f1
       size: 2048
       blob_id: 2672
-    - id: 225534
-      asset_id: 62642
+    - id: 649962
+      asset_id: 103090
       name: 034597-01.m3
       size: 2048
-      blob_id: 133950
-    - id: 225535
-      asset_id: 62642
+      blob_id: 228726
+    - id: 649963
+      asset_id: 103090
       name: 034598-01.np3
       size: 2048
       blob_id: 2674
-    - id: 225536
-      asset_id: 62642
+    - id: 649964
+      asset_id: 103090
       name: 034599-01.r3
       size: 2048
       blob_id: 2675
-    - id: 225537
-      asset_id: 62642
+    - id: 649965
+      asset_id: 103090
       name: 034602-01.c8
       size: 256
-      blob_id: 93694
+      blob_id: 203980
+- release:
+    id: 87812
+    game_id: 277
+    description: ""
+    release_date: 19790000
+  names:
+  - id: 216325
+    kind: 3
+    kind_id: 87812
+    language: 1
+    name: Lunar Lander (rev 1)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 103091
+      kind: 3
+      kind_id: 87812
+      type: 1
+      name: llander1.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 649966
+      asset_id: 103091
+      name: 034569-01.b1
+      size: 2048
+      blob_id: 2666
+    - id: 649967
+      asset_id: 103091
+      name: 034570-01.c1
+      size: 2048
+      blob_id: 2668
+    - id: 649968
+      asset_id: 103091
+      name: 034571-01.de1
+      size: 2048
+      blob_id: 2669
+    - id: 649969
+      asset_id: 103091
+      name: 034572-01.f1
+      size: 2048
+      blob_id: 2671
+    - id: 649970
+      asset_id: 103091
+      name: 034597-01.m3
+      size: 2048
+      blob_id: 228726
+    - id: 649971
+      asset_id: 103091
+      name: 034598-01.np3
+      size: 2048
+      blob_id: 2674
+    - id: 649972
+      asset_id: 103091
+      name: 034599-01.r3
+      size: 2048
+      blob_id: 2675
+    - id: 649973
+      asset_id: 103091
+      name: 034602-01.c8
+      size: 256
+      blob_id: 203980
+- release:
+    id: 87813
+    game_id: 277
+    description: ""
+    release_date: 19790000
+  names:
+  - id: 216326
+    kind: 3
+    kind_id: 87813
+    language: 1
+    name: Lunar Lander (screen test)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 103092
+      kind: 3
+      kind_id: 87813
+      type: 1
+      name: llandert.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 649974
+      asset_id: 103092
+      name: 034602-01.c8
+      size: 256
+      blob_id: 203980
+    - id: 649975
+      asset_id: 103092
+      name: llprom0.de1
+      size: 2048
+      blob_id: 252080
+    - id: 649976
+      asset_id: 103092
+      name: llprom1.c1
+      size: 2048
+      blob_id: 252081
+    - id: 649977
+      asset_id: 103092
+      name: llprom2.b1
+      size: 2048
+      blob_id: 252082
+    - id: 649978
+      asset_id: 103092
+      name: llvrom0.r3
+      size: 2048
+      blob_id: 252083
+    - id: 649979
+      asset_id: 103092
+      name: llvrom1.np3
+      size: 2048
+      blob_id: 252084
+    - id: 649980
+      asset_id: 103092
+      name: llvrom2.m3
+      size: 2048
+      blob_id: 252085

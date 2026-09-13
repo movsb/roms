@@ -10,6 +10,60 @@ names:
   language: 1
   name: BBC Micro Model B
   source: mame
+- id: 188351
+  kind: 2
+  kind_id: 37684
+  language: 1
+  name: BBC Micro Model A
+  source: mame
+- id: 188352
+  kind: 2
+  kind_id: 37684
+  language: 1
+  name: BBC Micro Model B (German)
+  source: mame
+- id: 188353
+  kind: 2
+  kind_id: 37684
+  language: 1
+  name: BBC Micro Model B (Norway)
+  source: mame
+- id: 188354
+  kind: 2
+  kind_id: 37684
+  language: 1
+  name: BBC Micro Model B (US)
+  source: mame
+- id: 189909
+  kind: 2
+  kind_id: 37684
+  language: 1
+  name: Dolphin Microcomputer
+  source: mame
+- id: 199109
+  kind: 2
+  kind_id: 37684
+  language: 1
+  name: Cisco SIST1 Terminal
+  source: mame
+- id: 200367
+  kind: 2
+  kind_id: 37684
+  language: 1
+  name: Torch Model 301
+  source: mame
+- id: 200368
+  kind: 2
+  kind_id: 37684
+  language: 1
+  name: Torch Model 725
+  source: mame
+- id: 200369
+  kind: 2
+  kind_id: 37684
+  language: 1
+  name: Torch CF240
+  source: mame
 game_developers: []
 game_genres: []
 assets: []
@@ -29,7 +83,54 @@ releases:
   release_publishers: []
   assets:
   - asset:
-      id: 50850
+      id: 90619
+      kind: 3
+      kind_id: 37780
+      type: 1
+      name: bbcb.zip
+      description: ""
+      format: 2
+      size: 93429
+      blob_id: 0
+      debug: /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/3152164125
+    entries:
+    - id: 467297
+      asset_id: 90619
+      name: basic1.rom
+      size: 16384
+      blob_id: 205279
+    - id: 467298
+      asset_id: 90619
+      name: basic2.rom
+      size: 16384
+      blob_id: 205280
+    - id: 467299
+      asset_id: 90619
+      name: cm62024.bin
+      size: 16384
+      blob_id: 205281
+    - id: 467300
+      asset_id: 90619
+      name: os01.rom
+      size: 16384
+      blob_id: 205282
+    - id: 467301
+      asset_id: 90619
+      name: os092.rom
+      size: 16384
+      blob_id: 205283
+    - id: 467302
+      asset_id: 90619
+      name: os10.rom
+      size: 16384
+      blob_id: 205284
+    - id: 467303
+      asset_id: 90619
+      name: os12.rom
+      size: 16384
+      blob_id: 205285
+  - asset:
+      id: 94708
       kind: 3
       kind_id: 37780
       type: 1
@@ -40,48 +141,537 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 111055
-      asset_id: 50850
+    - id: 549672
+      asset_id: 94708
       name: basic1.rom
       size: 16384
-      blob_id: 98337
-    - id: 111056
-      asset_id: 50850
-      name: basic1.rom
-      size: 16384
-      blob_id: 98337
-    - id: 111057
-      asset_id: 50850
+      blob_id: 205279
+    - id: 549674
+      asset_id: 94708
       name: basic2.rom
       size: 16384
-      blob_id: 92752
-    - id: 111058
-      asset_id: 50850
-      name: basic2.rom
-      size: 16384
-      blob_id: 92752
-    - id: 111059
-      asset_id: 50850
+      blob_id: 205280
+    - id: 549676
+      asset_id: 94708
       name: cm62024.bin
       size: 16384
-      blob_id: 92753
-    - id: 111060
-      asset_id: 50850
+      blob_id: 205281
+    - id: 549677
+      asset_id: 94708
       name: os01.rom
       size: 16384
-      blob_id: 98338
-    - id: 111061
-      asset_id: 50850
+      blob_id: 205282
+    - id: 549678
+      asset_id: 94708
       name: os092.rom
       size: 16384
-      blob_id: 98339
-    - id: 111062
-      asset_id: 50850
+      blob_id: 205283
+    - id: 549679
+      asset_id: 94708
       name: os10.rom
       size: 16384
-      blob_id: 98340
-    - id: 111063
-      asset_id: 50850
+      blob_id: 205284
+    - id: 549680
+      asset_id: 94708
       name: os12.rom
       size: 16384
-      blob_id: 98341
+      blob_id: 205285
+- release:
+    id: 80080
+    game_id: 37684
+    description: ""
+    release_date: 19820000
+  names:
+  - id: 204453
+    kind: 3
+    kind_id: 80080
+    language: 1
+    name: BBC Micro Model B (German)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 94709
+      kind: 3
+      kind_id: 80080
+      type: 1
+      name: bbcb_de.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 549681
+      asset_id: 94709
+      name: basic2.rom
+      size: 16384
+      blob_id: 205280
+    - id: 549682
+      asset_id: 94709
+      name: cm62024.bin
+      size: 16384
+      blob_id: 205281
+    - id: 549683
+      asset_id: 94709
+      name: dfs10.rom
+      size: 16384
+      blob_id: 205287
+    - id: 549684
+      asset_id: 94709
+      name: os_de.rom
+      size: 16384
+      blob_id: 240155
+- release:
+    id: 80081
+    game_id: 37684
+    description: ""
+    release_date: 19840000
+  names:
+  - id: 204454
+    kind: 3
+    kind_id: 80081
+    language: 1
+    name: BBC Micro Model B (Norway)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 94710
+      kind: 3
+      kind_id: 80081
+      type: 1
+      name: bbcb_no.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 549685
+      asset_id: 94710
+      name: basic2.rom
+      size: 16384
+      blob_id: 205280
+    - id: 549686
+      asset_id: 94710
+      name: dfs0.9h.rom
+      size: 8192
+      blob_id: 240156
+    - id: 549687
+      asset_id: 94710
+      name: nos12.rom
+      size: 16384
+      blob_id: 240157
+    - id: 549688
+      asset_id: 94710
+      name: viewa210.rom
+      size: 16384
+      blob_id: 205289
+    - id: 549689
+      asset_id: 94710
+      name: vm61002.bin
+      size: 16384
+      blob_id: 205290
+- release:
+    id: 80082
+    game_id: 37684
+    description: ""
+    release_date: 19830000
+  names:
+  - id: 204455
+    kind: 3
+    kind_id: 80082
+    language: 1
+    name: BBC Micro Model B (US)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 94711
+      kind: 3
+      kind_id: 80082
+      type: 1
+      name: bbcb_us.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 549690
+      asset_id: 94711
+      name: usbasic3.rom
+      size: 16384
+      blob_id: 205286
+    - id: 549691
+      asset_id: 94711
+      name: usdnfs10.rom
+      size: 16384
+      blob_id: 205287
+    - id: 549692
+      asset_id: 94711
+      name: usmos10.rom
+      size: 16384
+      blob_id: 205288
+    - id: 549693
+      asset_id: 94711
+      name: viewa210.rom
+      size: 16384
+      blob_id: 205289
+    - id: 549694
+      asset_id: 94711
+      name: vm61002.bin
+      size: 16384
+      blob_id: 205290
+- release:
+    id: 82910
+    game_id: 37684
+    description: ""
+    release_date: 19890000
+  names:
+  - id: 208760
+    kind: 3
+    kind_id: 82910
+    language: 1
+    name: Dolphin Microcomputer
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 97781
+      kind: 3
+      kind_id: 82910
+      type: 1
+      name: dolphinm.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 589716
+      asset_id: 97781
+      name: hope_dfs.rom
+      size: 16384
+      blob_id: 212843
+    - id: 589717
+      asset_id: 97781
+      name: hope_os_basic.rom
+      size: 32768
+      blob_id: 212844
+- release:
+    id: 97925
+    game_id: 37684
+    description: ""
+    release_date: 0
+  names:
+  - id: 230350
+    kind: 3
+    kind_id: 97925
+    language: 1
+    name: Cisco SIST1 Terminal
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 113626
+      kind: 3
+      kind_id: 97925
+      type: 1
+      name: sist1.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 746614
+      asset_id: 113626
+      name: basic2.rom
+      size: 16384
+      blob_id: 205280
+    - id: 746615
+      asset_id: 113626
+      name: cm62024.bin
+      size: 16384
+      blob_id: 205281
+    - id: 746616
+      asset_id: 113626
+      name: dnfs120-201666.rom
+      size: 16384
+      blob_id: 238454
+    - id: 746617
+      asset_id: 113626
+      name: os12.rom
+      size: 16384
+      blob_id: 205285
+    - id: 746618
+      asset_id: 113626
+      name: sist1_progs.bin
+      size: 16384
+      blob_id: 281019
+    - id: 746619
+      asset_id: 113626
+      name: sist1_startup.bin
+      size: 16384
+      blob_id: 281020
+- release:
+    id: 100072
+    game_id: 37684
+    description: ""
+    release_date: 19830000
+  names:
+  - id: 233423
+    kind: 3
+    kind_id: 100072
+    language: 1
+    name: Torch Model 301
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 115977
+      kind: 3
+      kind_id: 100072
+      type: 1
+      name: torch301.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/2014686239
+    entries:
+    - id: 774660
+      asset_id: 115977
+      name: basic2.rom
+      size: 16384
+      blob_id: 205280
+    - id: 774661
+      asset_id: 115977
+      name: eco_3.35k.rom
+      size: 16384
+      blob_id: 307727
+    - id: 774662
+      asset_id: 115977
+      name: mcp_1.01_ci.rom
+      size: 16384
+      blob_id: 307728
+    - id: 774663
+      asset_id: 115977
+      name: os12.rom
+      size: 16384
+      blob_id: 205285
+    - id: 774664
+      asset_id: 115977
+      name: vm61002.bin
+      size: 16384
+      blob_id: 205290
+- release:
+    id: 100073
+    game_id: 37684
+    description: ""
+    release_date: 19830000
+  names:
+  - id: 233424
+    kind: 3
+    kind_id: 100073
+    language: 1
+    name: Torch Model 725
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 115978
+      kind: 3
+      kind_id: 100073
+      type: 1
+      name: torch725.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/3112017720
+    entries:
+    - id: 774665
+      asset_id: 115978
+      name: basic2.rom
+      size: 16384
+      blob_id: 205280
+    - id: 774666
+      asset_id: 115978
+      name: eco_3.35k.rom
+      size: 16384
+      blob_id: 307727
+    - id: 774667
+      asset_id: 115978
+      name: mcp_1.22_ci.rom
+      size: 16384
+      blob_id: 307729
+    - id: 774668
+      asset_id: 115978
+      name: os12.rom
+      size: 16384
+      blob_id: 205285
+    - id: 774669
+      asset_id: 115978
+      name: unix_1.00.rom
+      size: 16384
+      blob_id: 307730
+    - id: 774670
+      asset_id: 115978
+      name: vm61002.bin
+      size: 16384
+      blob_id: 205290
+- release:
+    id: 100074
+    game_id: 37684
+    description: ""
+    release_date: 19820000
+  names:
+  - id: 233425
+    kind: 3
+    kind_id: 100074
+    language: 1
+    name: Torch CF240
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 115979
+      kind: 3
+      kind_id: 100074
+      type: 1
+      name: torchf.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 774671
+      asset_id: 115979
+      name: basic2.rom
+      size: 16384
+      blob_id: 205280
+    - id: 774672
+      asset_id: 115979
+      name: dnfs120-201666.rom
+      size: 16384
+      blob_id: 238454
+    - id: 774673
+      asset_id: 115979
+      name: os12.rom
+      size: 16384
+      blob_id: 205285
+    - id: 774674
+      asset_id: 115979
+      name: vm61002.bin
+      size: 16384
+      blob_id: 205290
+- release:
+    id: 100075
+    game_id: 37684
+    description: ""
+    release_date: 19830000
+  names:
+  - id: 233426
+    kind: 3
+    kind_id: 100075
+    language: 1
+    name: Torch CH240
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 115980
+      kind: 3
+      kind_id: 100075
+      type: 1
+      name: torchh.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 774675
+      asset_id: 115980
+      name: basic2.rom
+      size: 16384
+      blob_id: 205280
+    - id: 774676
+      asset_id: 115980
+      name: dnfs120-201666.rom
+      size: 16384
+      blob_id: 238454
+    - id: 774677
+      asset_id: 115980
+      name: os12.rom
+      size: 16384
+      blob_id: 205285
+    - id: 774678
+      asset_id: 115980
+      name: vm61002.bin
+      size: 16384
+      blob_id: 205290
+- release:
+    id: 103460
+    game_id: 37684
+    description: ""
+    release_date: 19810000
+  names:
+  - id: 238436
+    kind: 3
+    kind_id: 103460
+    language: 1
+    name: BBC Micro Model A
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 94707
+      kind: 3
+      kind_id: 103460
+      type: 1
+      name: bbca.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 549664
+      asset_id: 94707
+      name: basic1.rom
+      size: 16384
+      blob_id: 205279
+    - id: 549666
+      asset_id: 94707
+      name: basic2.rom
+      size: 16384
+      blob_id: 205280
+    - id: 549668
+      asset_id: 94707
+      name: os01.rom
+      size: 16384
+      blob_id: 205282
+    - id: 549669
+      asset_id: 94707
+      name: os092.rom
+      size: 16384
+      blob_id: 205283
+    - id: 549670
+      asset_id: 94707
+      name: os10.rom
+      size: 16384
+      blob_id: 205284
+    - id: 549671
+      asset_id: 94707
+      name: os12.rom
+      size: 16384
+      blob_id: 205285

@@ -16,6 +16,24 @@ names:
   language: 2
   name: 食物大战 (修订版 3)
   source: trimui
+- id: 190675
+  kind: 2
+  kind_id: 189
+  language: 1
+  name: Food Fight (rev 1)
+  source: mame
+- id: 190676
+  kind: 2
+  kind_id: 189
+  language: 1
+  name: Food Fight (rev 2)
+  source: mame
+- id: 190677
+  kind: 2
+  kind_id: 189
+  language: 1
+  name: Food Fight (cocktail)
+  source: mame
 game_developers:
 - game_id: 189
   developer_id: 101
@@ -154,24 +172,10 @@ releases:
       blob_id: 89632
       debug: arcade/wheel/foodf.png
     entries: []
-- release:
-    id: 43871
-    game_id: 189
-    description: ""
-    release_date: 19820000
-  names:
-  - id: 118528
-    kind: 3
-    kind_id: 43871
-    language: 1
-    name: Food Fight (rev 3)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 56941
+      id: 99163
       kind: 3
-      kind_id: 43871
+      kind_id: 189
       type: 1
       name: foodf.zip
       description: ""
@@ -180,68 +184,341 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 173588
-      asset_id: 56941
+    - id: 605601
+      asset_id: 99163
       name: 136020-109.6lm
       size: 8192
       blob_id: 1957
-    - id: 173589
-      asset_id: 56941
+    - id: 605602
+      asset_id: 99163
       name: 136020-110.4e
       size: 8192
       blob_id: 1946
-    - id: 173590
-      asset_id: 56941
+    - id: 605603
+      asset_id: 99163
       name: 136020-111.4d
       size: 8192
       blob_id: 1952
-    - id: 173591
-      asset_id: 56941
+    - id: 605604
+      asset_id: 99163
       name: 136020-112.2p
       size: 256
-      blob_id: 117059
-    - id: 173592
-      asset_id: 56941
+      blob_id: 217600
+    - id: 605605
+      asset_id: 99163
       name: 136020-204.9d
       size: 8192
       blob_id: 1954
-    - id: 173593
-      asset_id: 56941
+    - id: 605606
+      asset_id: 99163
       name: 136020-208.9f
       size: 8192
       blob_id: 1953
-    - id: 173594
-      asset_id: 56941
+    - id: 605607
+      asset_id: 99163
       name: 136020-301.8c
       size: 8192
       blob_id: 1947
-    - id: 173595
-      asset_id: 56941
+    - id: 605608
+      asset_id: 99163
       name: 136020-302.9c
       size: 8192
       blob_id: 1948
-    - id: 173596
-      asset_id: 56941
+    - id: 605609
+      asset_id: 99163
       name: 136020-303.8d
       size: 8192
       blob_id: 1955
-    - id: 173597
-      asset_id: 56941
+    - id: 605610
+      asset_id: 99163
       name: 136020-305.8e
       size: 8192
       blob_id: 1949
-    - id: 173598
-      asset_id: 56941
+    - id: 605611
+      asset_id: 99163
       name: 136020-306.9e
       size: 8192
       blob_id: 1956
-    - id: 173599
-      asset_id: 56941
+    - id: 605612
+      asset_id: 99163
       name: 136020-307.8f
       size: 8192
       blob_id: 1950
-    - id: 173600
-      asset_id: 56941
+    - id: 605613
+      asset_id: 99163
       name: foodf.nv
       size: 256
-      blob_id: 117060
+      blob_id: 217601
+- release:
+    id: 84187
+    game_id: 189
+    description: ""
+    release_date: 19820000
+  names:
+  - id: 210696
+    kind: 3
+    kind_id: 84187
+    language: 1
+    name: Food Fight (rev 1)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 99164
+      kind: 3
+      kind_id: 84187
+      type: 1
+      name: foodf1.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 605614
+      asset_id: 99164
+      name: 136020-101.8c
+      size: 8192
+      blob_id: 246416
+    - id: 605615
+      asset_id: 99164
+      name: 136020-102.9c
+      size: 8192
+      blob_id: 246417
+    - id: 605616
+      asset_id: 99164
+      name: 136020-103.8d
+      size: 8192
+      blob_id: 246418
+    - id: 605617
+      asset_id: 99164
+      name: 136020-104.9d
+      size: 8192
+      blob_id: 246419
+    - id: 605618
+      asset_id: 99164
+      name: 136020-105.8e
+      size: 8192
+      blob_id: 246420
+    - id: 605619
+      asset_id: 99164
+      name: 136020-106.9e
+      size: 8192
+      blob_id: 246421
+    - id: 605620
+      asset_id: 99164
+      name: 136020-107.8f
+      size: 8192
+      blob_id: 246422
+    - id: 605621
+      asset_id: 99164
+      name: 136020-108.9f
+      size: 8192
+      blob_id: 246423
+    - id: 605622
+      asset_id: 99164
+      name: 136020-109.6lm
+      size: 8192
+      blob_id: 1957
+    - id: 605623
+      asset_id: 99164
+      name: 136020-110.4e
+      size: 8192
+      blob_id: 1946
+    - id: 605624
+      asset_id: 99164
+      name: 136020-111.4d
+      size: 8192
+      blob_id: 1952
+    - id: 605625
+      asset_id: 99164
+      name: 136020-112.2p
+      size: 256
+      blob_id: 217600
+    - id: 605626
+      asset_id: 99164
+      name: foodf.nv
+      size: 256
+      blob_id: 217601
+- release:
+    id: 84188
+    game_id: 189
+    description: ""
+    release_date: 19820000
+  names:
+  - id: 210697
+    kind: 3
+    kind_id: 84188
+    language: 1
+    name: Food Fight (rev 2)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 99165
+      kind: 3
+      kind_id: 84188
+      type: 1
+      name: foodf2.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 605627
+      asset_id: 99165
+      name: 136020-104.9d
+      size: 8192
+      blob_id: 246419
+    - id: 605628
+      asset_id: 99165
+      name: 136020-109.6lm
+      size: 8192
+      blob_id: 1957
+    - id: 605629
+      asset_id: 99165
+      name: 136020-110.4e
+      size: 8192
+      blob_id: 1946
+    - id: 605630
+      asset_id: 99165
+      name: 136020-111.4d
+      size: 8192
+      blob_id: 1952
+    - id: 605631
+      asset_id: 99165
+      name: 136020-112.2p
+      size: 256
+      blob_id: 217600
+    - id: 605632
+      asset_id: 99165
+      name: 136020-201.8c
+      size: 8192
+      blob_id: 246424
+    - id: 605633
+      asset_id: 99165
+      name: 136020-202.9c
+      size: 8192
+      blob_id: 246425
+    - id: 605634
+      asset_id: 99165
+      name: 136020-203.8d
+      size: 8192
+      blob_id: 246426
+    - id: 605635
+      asset_id: 99165
+      name: 136020-205.8e
+      size: 8192
+      blob_id: 246427
+    - id: 605636
+      asset_id: 99165
+      name: 136020-206.9e
+      size: 8192
+      blob_id: 246428
+    - id: 605637
+      asset_id: 99165
+      name: 136020-207.8f
+      size: 8192
+      blob_id: 246429
+    - id: 605638
+      asset_id: 99165
+      name: 136020-208.9f
+      size: 8192
+      blob_id: 1953
+    - id: 605639
+      asset_id: 99165
+      name: foodf.nv
+      size: 256
+      blob_id: 217601
+- release:
+    id: 84189
+    game_id: 189
+    description: ""
+    release_date: 19820000
+  names:
+  - id: 210698
+    kind: 3
+    kind_id: 84189
+    language: 1
+    name: Food Fight (cocktail)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 99166
+      kind: 3
+      kind_id: 84189
+      type: 1
+      name: foodfc.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 605640
+      asset_id: 99166
+      name: 136020-109.6lm
+      size: 8192
+      blob_id: 1957
+    - id: 605641
+      asset_id: 99166
+      name: 136020-110.4e
+      size: 8192
+      blob_id: 1946
+    - id: 605642
+      asset_id: 99166
+      name: 136020-111.4d
+      size: 8192
+      blob_id: 1952
+    - id: 605643
+      asset_id: 99166
+      name: 136020-112.2p
+      size: 256
+      blob_id: 217600
+    - id: 605644
+      asset_id: 99166
+      name: 136020-113.8c
+      size: 8192
+      blob_id: 246430
+    - id: 605645
+      asset_id: 99166
+      name: 136020-114.9c
+      size: 8192
+      blob_id: 246431
+    - id: 605646
+      asset_id: 99166
+      name: 136020-115.8d
+      size: 8192
+      blob_id: 1955
+    - id: 605647
+      asset_id: 99166
+      name: 136020-116.9d
+      size: 8192
+      blob_id: 1954
+    - id: 605648
+      asset_id: 99166
+      name: 136020-117.8e
+      size: 8192
+      blob_id: 246432
+    - id: 605649
+      asset_id: 99166
+      name: 136020-118.9e
+      size: 8192
+      blob_id: 246433
+    - id: 605650
+      asset_id: 99166
+      name: 136020-119.8f
+      size: 8192
+      blob_id: 246434
+    - id: 605651
+      asset_id: 99166
+      name: 136020-120.9f
+      size: 8192
+      blob_id: 246435
+    - id: 605652
+      asset_id: 99166
+      name: foodfc.nv
+      size: 256
+      blob_id: 246436

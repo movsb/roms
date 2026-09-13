@@ -16,6 +16,12 @@ names:
   language: 2
   name: 骨牌人 (第一套)
   source: trimui
+- id: 189919
+  kind: 2
+  kind_id: 153
+  language: 1
+  name: Domino Man (set 2)
+  source: mame
 game_developers:
 - game_id: 153
   developer_id: 473
@@ -47,9 +53,73 @@ releases:
     publisher_id: 338
   assets:
   - asset:
-      id: 153
+      id: 42713
       kind: 3
       kind_id: 153
+      type: 4
+      name: domino.png
+      description: ""
+      format: 1
+      size: 43699
+      blob_id: 86228
+      debug: arcade/downloaded_images/domino.png
+    entries: []
+  - asset:
+      id: 42714
+      kind: 3
+      kind_id: 153
+      type: 6
+      name: domino.mp4
+      description: ""
+      format: 1
+      size: 532906
+      blob_id: 86229
+      debug: arcade/snap/domino.mp4
+    entries: []
+  - asset:
+      id: 42715
+      kind: 3
+      kind_id: 153
+      type: 7
+      name: domino.png
+      description: ""
+      format: 1
+      size: 54106
+      blob_id: 86230
+      debug: arcade/wheel/domino.png
+    entries: []
+- release:
+    id: 41114
+    game_id: 153
+    description: ""
+    release_date: 19820000
+  names:
+  - id: 113115
+    kind: 3
+    kind_id: 41114
+    language: 1
+    name: Domino Man (set 1)
+    source: mame
+  - id: 183968
+    kind: 3
+    kind_id: 41114
+    language: 1
+    name: DOMINO
+    source: ""
+  - id: 183969
+    kind: 3
+    kind_id: 41114
+    language: 2
+    name: 骨牌人 (第一套)
+    source: trimui
+  release_publishers:
+  - release_id: 41114
+    publisher_id: 338
+  assets:
+  - asset:
+      id: 153
+      kind: 3
+      kind_id: 41114
       type: 1
       name: domino.zip
       description: ""
@@ -134,57 +204,7 @@ releases:
       size: 8192
       blob_id: 1663
   - asset:
-      id: 42713
-      kind: 3
-      kind_id: 153
-      type: 4
-      name: domino.png
-      description: ""
-      format: 1
-      size: 43699
-      blob_id: 86228
-      debug: arcade/downloaded_images/domino.png
-    entries: []
-  - asset:
-      id: 42714
-      kind: 3
-      kind_id: 153
-      type: 6
-      name: domino.mp4
-      description: ""
-      format: 1
-      size: 532906
-      blob_id: 86229
-      debug: arcade/snap/domino.mp4
-    entries: []
-  - asset:
-      id: 42715
-      kind: 3
-      kind_id: 153
-      type: 7
-      name: domino.png
-      description: ""
-      format: 1
-      size: 54106
-      blob_id: 86230
-      debug: arcade/wheel/domino.png
-    entries: []
-- release:
-    id: 41114
-    game_id: 153
-    description: ""
-    release_date: 19820000
-  names:
-  - id: 113115
-    kind: 3
-    kind_id: 41114
-    language: 1
-    name: Domino Man (set 1)
-    source: mame
-  release_publishers: []
-  assets:
-  - asset:
-      id: 54184
+      id: 97799
       kind: 3
       kind_id: 41114
       type: 1
@@ -195,73 +215,256 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 153360
-      asset_id: 54184
+    - id: 590106
+      asset_id: 97799
       name: dm-a10.snd
       size: 4096
       blob_id: 1650
-    - id: 153361
-      asset_id: 54184
+    - id: 590107
+      asset_id: 97799
       name: dm-a7.snd
       size: 4096
       blob_id: 1651
-    - id: 153362
-      asset_id: 54184
+    - id: 590108
+      asset_id: 97799
       name: dm-a8.snd
       size: 4096
       blob_id: 1652
-    - id: 153363
-      asset_id: 54184
+    - id: 590109
+      asset_id: 97799
       name: dm-a9.snd
       size: 4096
       blob_id: 1653
-    - id: 153364
-      asset_id: 54184
+    - id: 590110
+      asset_id: 97799
       name: dmanbg0.bin
       size: 8192
       blob_id: 1654
-    - id: 153365
-      asset_id: 54184
+    - id: 590111
+      asset_id: 97799
       name: dmanbg1.bin
       size: 8192
       blob_id: 1655
-    - id: 153366
-      asset_id: 54184
+    - id: 590112
+      asset_id: 97799
       name: dmanfg0.bin
       size: 8192
       blob_id: 1656
-    - id: 153367
-      asset_id: 54184
+    - id: 590113
+      asset_id: 97799
       name: dmanfg1.bin
       size: 8192
       blob_id: 1657
-    - id: 153368
-      asset_id: 54184
+    - id: 590114
+      asset_id: 97799
       name: dmanfg2.bin
       size: 8192
       blob_id: 1658
-    - id: 153369
-      asset_id: 54184
+    - id: 590115
+      asset_id: 97799
       name: dmanfg3.bin
       size: 8192
       blob_id: 1659
-    - id: 153370
-      asset_id: 54184
+    - id: 590116
+      asset_id: 97799
       name: dmanpg0.bin
       size: 8192
       blob_id: 1660
-    - id: 153371
-      asset_id: 54184
+    - id: 590117
+      asset_id: 97799
       name: dmanpg1.bin
       size: 8192
       blob_id: 1661
-    - id: 153372
-      asset_id: 54184
+    - id: 590118
+      asset_id: 97799
       name: dmanpg2.bin
       size: 8192
       blob_id: 1662
-    - id: 153373
-      asset_id: 54184
+    - id: 590119
+      asset_id: 97799
       name: dmanpg3.bin
       size: 8192
       blob_id: 1663
+- release:
+    id: 82928
+    game_id: 153
+    description: ""
+    release_date: 19820000
+  names:
+  - id: 208786
+    kind: 3
+    kind_id: 82928
+    language: 1
+    name: Domino Man (set 2)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 97800
+      kind: 3
+      kind_id: 82928
+      type: 1
+      name: dominoa.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 590120
+      asset_id: 97800
+      name: a1
+      size: 8192
+      blob_id: 1659
+    - id: 590121
+      asset_id: 97800
+      name: a10
+      size: 4096
+      blob_id: 1650
+    - id: 590122
+      asset_id: 97800
+      name: a7
+      size: 4096
+      blob_id: 1651
+    - id: 590123
+      asset_id: 97800
+      name: a8
+      size: 4096
+      blob_id: 1652
+    - id: 590124
+      asset_id: 97800
+      name: a9
+      size: 4096
+      blob_id: 1653
+    - id: 590125
+      asset_id: 97800
+      name: b1
+      size: 8192
+      blob_id: 1658
+    - id: 590126
+      asset_id: 97800
+      name: d1
+      size: 8192
+      blob_id: 1657
+    - id: 590127
+      asset_id: 97800
+      name: d2
+      size: 8192
+      blob_id: 243937
+    - id: 590128
+      asset_id: 97800
+      name: d3
+      size: 8192
+      blob_id: 243938
+    - id: 590129
+      asset_id: 97800
+      name: d4
+      size: 8192
+      blob_id: 243939
+    - id: 590130
+      asset_id: 97800
+      name: d5
+      size: 8192
+      blob_id: 243940
+    - id: 590131
+      asset_id: 97800
+      name: e1
+      size: 8192
+      blob_id: 1656
+    - id: 590132
+      asset_id: 97800
+      name: g3
+      size: 8192
+      blob_id: 1654
+    - id: 590133
+      asset_id: 97800
+      name: g4
+      size: 8192
+      blob_id: 1655
+  - asset:
+      id: 118675
+      kind: 3
+      kind_id: 82928
+      type: 1
+      name: dominoa.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 810045
+      asset_id: 118675
+      name: 82s123.12d
+      size: 32
+      blob_id: 1649
+    - id: 810046
+      asset_id: 118675
+      name: a1
+      size: 8192
+      blob_id: 1659
+    - id: 810047
+      asset_id: 118675
+      name: a10
+      size: 4096
+      blob_id: 1650
+    - id: 810048
+      asset_id: 118675
+      name: a7
+      size: 4096
+      blob_id: 1651
+    - id: 810049
+      asset_id: 118675
+      name: a8
+      size: 4096
+      blob_id: 1652
+    - id: 810050
+      asset_id: 118675
+      name: a9
+      size: 4096
+      blob_id: 1653
+    - id: 810051
+      asset_id: 118675
+      name: b1
+      size: 8192
+      blob_id: 1658
+    - id: 810052
+      asset_id: 118675
+      name: d1
+      size: 8192
+      blob_id: 1657
+    - id: 810053
+      asset_id: 118675
+      name: d2
+      size: 8192
+      blob_id: 243937
+    - id: 810054
+      asset_id: 118675
+      name: d3
+      size: 8192
+      blob_id: 243938
+    - id: 810055
+      asset_id: 118675
+      name: d4
+      size: 8192
+      blob_id: 243939
+    - id: 810056
+      asset_id: 118675
+      name: d5
+      size: 8192
+      blob_id: 243940
+    - id: 810057
+      asset_id: 118675
+      name: e1
+      size: 8192
+      blob_id: 1656
+    - id: 810058
+      asset_id: 118675
+      name: g3
+      size: 8192
+      blob_id: 1654
+    - id: 810059
+      asset_id: 118675
+      name: g4
+      size: 8192
+      blob_id: 1655

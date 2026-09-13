@@ -10,6 +10,12 @@ names:
   language: 1
   name: mrdrillr
   source: ""
+- id: 193533
+  kind: 2
+  kind_id: 2759
+  language: 1
+  name: Mr. Driller (Japan, DRI1/VER.A2)
+  source: mame
 game_developers:
 - game_id: 2759
   developer_id: 19
@@ -118,6 +124,48 @@ releases:
       blob_id: 87866
       debug: arcade/wheel/mrdrillr.png
     entries: []
+  - asset:
+      id: 104947
+      kind: 3
+      kind_id: 2759
+      type: 1
+      name: mrdrillr.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 667311
+      asset_id: 104947
+      name: dri1rom0l.6
+      size: 4194304
+      blob_id: 29351
+    - id: 667312
+      asset_id: 104947
+      name: dri1rom0u.9
+      size: 4194304
+      blob_id: 29352
+    - id: 667313
+      asset_id: 104947
+      name: dri1vera.11s
+      size: 524288
+      blob_id: 29353
+    - id: 667314
+      asset_id: 104947
+      name: dri1wave0.5
+      size: 8388608
+      blob_id: 29356
+    - id: 667315
+      asset_id: 104947
+      name: dri3vera2.2l
+      size: 2097152
+      blob_id: 29357
+    - id: 667316
+      asset_id: 104947
+      name: dri3vera2.2p
+      size: 2097152
+      blob_id: 29358
 - release:
     id: 2760
     game_id: 2759
@@ -191,58 +239,114 @@ releases:
       size: 2097152
       blob_id: 29355
 - release:
-    id: 58989
+    id: 89577
     game_id: 2759
     description: ""
     release_date: 19990000
   names:
-  - id: 148400
+  - id: 219055
     kind: 3
-    kind_id: 58989
+    kind_id: 89577
     language: 1
-    name: Mr. Driller (US, DRI3/VER.A2)
+    name: Mr. Driller (Japan, DRI1/VER.A2)
     source: mame
   release_publishers: []
   assets:
   - asset:
-      id: 72059
+      id: 104948
       kind: 3
-      kind_id: 58989
+      kind_id: 89577
       type: 1
-      name: mrdrillr.zip
+      name: mrdrillrja2.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 272030
-      asset_id: 72059
+    - id: 667317
+      asset_id: 104948
       name: dri1rom0l.6
       size: 4194304
       blob_id: 29351
-    - id: 272031
-      asset_id: 72059
+    - id: 667318
+      asset_id: 104948
       name: dri1rom0u.9
       size: 4194304
       blob_id: 29352
-    - id: 272032
-      asset_id: 72059
+    - id: 667319
+      asset_id: 104948
       name: dri1vera.11s
       size: 524288
       blob_id: 29353
-    - id: 272033
-      asset_id: 72059
+    - id: 667320
+      asset_id: 104948
+      name: dri1vera2.2l
+      size: 2097152
+      blob_id: 29354
+    - id: 667321
+      asset_id: 104948
+      name: dri1vera2.2p
+      size: 2097152
+      blob_id: 29355
+    - id: 667322
+      asset_id: 104948
       name: dri1wave0.5
       size: 8388608
       blob_id: 29356
-    - id: 272034
-      asset_id: 72059
-      name: dri3vera2.2l
+- release:
+    id: 105255
+    game_id: 2759
+    description: ""
+    release_date: 19990000
+  names:
+  - id: 241953
+    kind: 3
+    kind_id: 105255
+    language: 1
+    name: Mr. Driller (Japan, DRI1/VER.A2)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 120717
+      kind: 3
+      kind_id: 105255
+      type: 1
+      name: mrdrillrj.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.259
+    entries:
+    - id: 872375
+      asset_id: 120717
+      name: dri1rom0l.6
+      size: 4194304
+      blob_id: 29351
+    - id: 872376
+      asset_id: 120717
+      name: dri1rom0u.9
+      size: 4194304
+      blob_id: 29352
+    - id: 872377
+      asset_id: 120717
+      name: dri1vera.11s
+      size: 524288
+      blob_id: 29353
+    - id: 872378
+      asset_id: 120717
+      name: dri1vera2.2l
       size: 2097152
-      blob_id: 29357
-    - id: 272035
-      asset_id: 72059
-      name: dri3vera2.2p
+      blob_id: 29354
+    - id: 872379
+      asset_id: 120717
+      name: dri1vera2.2p
       size: 2097152
-      blob_id: 29358
+      blob_id: 29355
+    - id: 872380
+      asset_id: 120717
+      name: dri1wave0.5
+      size: 8388608
+      blob_id: 29356

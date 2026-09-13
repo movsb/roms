@@ -16,6 +16,12 @@ names:
   language: 2
   name: 扫雷
   source: trimui
+- id: 193274
+  kind: 2
+  kind_id: 2711
+  language: 1
+  name: Minesweeper (4-Player)
+  source: mame
 game_developers: []
 game_genres:
 - game_id: 2711
@@ -112,3 +118,49 @@ releases:
       blob_id: 90752
       debug: arcade/wheel/mineswpr.png
     entries: []
+- release:
+    id: 89025
+    game_id: 2711
+    description: ""
+    release_date: 19770000
+  names:
+  - id: 218187
+    kind: 3
+    kind_id: 89025
+    language: 1
+    name: Minesweeper (4-Player)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 104363
+      kind: 3
+      kind_id: 89025
+      type: 1
+      name: mineswpr4.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 661808
+      asset_id: 104363
+      name: mineswee.cls
+      size: 512
+      blob_id: 257453
+    - id: 661809
+      asset_id: 104363
+      name: mineswee.cms
+      size: 512
+      blob_id: 257454
+    - id: 661810
+      asset_id: 104363
+      name: mineswee.h0p
+      size: 1024
+      blob_id: 28756
+    - id: 661811
+      asset_id: 104363
+      name: mineswee.l0p
+      size: 1024
+      blob_id: 28757

@@ -16,6 +16,36 @@ names:
   language: 2
   name: 迷宫射击 (修订版 RC31A)
   source: trimui
+- id: 188398
+  kind: 2
+  kind_id: 72
+  language: 1
+  name: Berzerk (revision RC31)
+  source: mame
+- id: 188399
+  kind: 2
+  kind_id: 72
+  language: 1
+  name: Berzerk (revision RC28)
+  source: mame
+- id: 188400
+  kind: 2
+  kind_id: 72
+  language: 1
+  name: Berzerk (French Speech, revision RC31)
+  source: mame
+- id: 188401
+  kind: 2
+  kind_id: 72
+  language: 1
+  name: Berzerk (German Speech, revision RC32)
+  source: mame
+- id: 188402
+  kind: 2
+  kind_id: 72
+  language: 1
+  name: Berzerk (Spanish Speech, revision RC32)
+  source: mame
 game_developers:
 - game_id: 72
   developer_id: 446
@@ -124,24 +154,10 @@ releases:
       blob_id: 86806
       debug: arcade/wheel/berzerk.png
     entries: []
-- release:
-    id: 37911
-    game_id: 72
-    description: ""
-    release_date: 19800000
-  names:
-  - id: 106924
-    kind: 3
-    kind_id: 37911
-    language: 1
-    name: Berzerk (revision RC31A)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 50981
+      id: 94821
       kind: 3
-      kind_id: 37911
+      kind_id: 72
       type: 1
       name: berzerk.zip
       description: ""
@@ -150,43 +166,368 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 112266
-      asset_id: 50981
+    - id: 550873
+      asset_id: 94821
       name: berzerk_r_vo_1c.1c
       size: 2048
       blob_id: 1958
-    - id: 112267
-      asset_id: 50981
+    - id: 550874
+      asset_id: 94821
       name: berzerk_r_vo_2c.2c
       size: 2048
       blob_id: 1959
-    - id: 112268
-      asset_id: 50981
+    - id: 550875
+      asset_id: 94821
       name: berzerk_rc31_1c.rom0.1c
       size: 2048
       blob_id: 975
-    - id: 112269
-      asset_id: 50981
+    - id: 550876
+      asset_id: 94821
       name: berzerk_rc31_1d.rom1.1d
       size: 2048
       blob_id: 976
-    - id: 112270
-      asset_id: 50981
+    - id: 550877
+      asset_id: 94821
       name: berzerk_rc31_3d.rom2.3d
       size: 2048
       blob_id: 977
-    - id: 112271
-      asset_id: 50981
+    - id: 550878
+      asset_id: 94821
       name: berzerk_rc31_5d.rom3.5d
       size: 2048
       blob_id: 979
-    - id: 112272
-      asset_id: 50981
+    - id: 550879
+      asset_id: 94821
       name: berzerk_rc31_6d.rom4.6d
       size: 2048
       blob_id: 980
-    - id: 112273
-      asset_id: 50981
+    - id: 550880
+      asset_id: 94821
       name: berzerk_rc31a_5c.rom5.5c
       size: 2048
-      blob_id: 98852
+      blob_id: 205650
+- release:
+    id: 80185
+    game_id: 72
+    description: ""
+    release_date: 19800000
+  names:
+  - id: 204618
+    kind: 3
+    kind_id: 80185
+    language: 1
+    name: Berzerk (revision RC31)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 94822
+      kind: 3
+      kind_id: 80185
+      type: 1
+      name: berzerka.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 550881
+      asset_id: 94822
+      name: berzerk_r_vo_1c.1c
+      size: 2048
+      blob_id: 1958
+    - id: 550882
+      asset_id: 94822
+      name: berzerk_r_vo_2c.2c
+      size: 2048
+      blob_id: 1959
+    - id: 550883
+      asset_id: 94822
+      name: berzerk_rc31_1c.rom0.1c
+      size: 2048
+      blob_id: 975
+    - id: 550884
+      asset_id: 94822
+      name: berzerk_rc31_1d.rom1.1d
+      size: 2048
+      blob_id: 976
+    - id: 550885
+      asset_id: 94822
+      name: berzerk_rc31_3d.rom2.3d
+      size: 2048
+      blob_id: 977
+    - id: 550886
+      asset_id: 94822
+      name: berzerk_rc31_5c.rom5.5c
+      size: 2048
+      blob_id: 978
+    - id: 550887
+      asset_id: 94822
+      name: berzerk_rc31_5d.rom3.5d
+      size: 2048
+      blob_id: 979
+    - id: 550888
+      asset_id: 94822
+      name: berzerk_rc31_6d.rom4.6d
+      size: 2048
+      blob_id: 980
+- release:
+    id: 80186
+    game_id: 72
+    description: ""
+    release_date: 19800000
+  names:
+  - id: 204619
+    kind: 3
+    kind_id: 80186
+    language: 1
+    name: Berzerk (revision RC28)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 94823
+      kind: 3
+      kind_id: 80186
+      type: 1
+      name: berzerkb.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 550889
+      asset_id: 94823
+      name: berzerk_r_vo_1c.1c
+      size: 2048
+      blob_id: 1958
+    - id: 550890
+      asset_id: 94823
+      name: berzerk_r_vo_2c.2c
+      size: 2048
+      blob_id: 1959
+    - id: 550891
+      asset_id: 94823
+      name: berzerk_rc28_1c.rom0.1c
+      size: 2048
+      blob_id: 984
+    - id: 550892
+      asset_id: 94823
+      name: berzerk_rc28_1d.rom1.1d
+      size: 2048
+      blob_id: 986
+    - id: 550893
+      asset_id: 94823
+      name: berzerk_rc28_3d.rom2.3d
+      size: 2048
+      blob_id: 983
+    - id: 550894
+      asset_id: 94823
+      name: berzerk_rc28_5c.rom5.5c
+      size: 2048
+      blob_id: 981
+    - id: 550895
+      asset_id: 94823
+      name: berzerk_rc28_5d.rom3.5d
+      size: 2048
+      blob_id: 982
+    - id: 550896
+      asset_id: 94823
+      name: berzerk_rc28_6d.rom4.6d
+      size: 2048
+      blob_id: 985
+- release:
+    id: 80187
+    game_id: 72
+    description: ""
+    release_date: 19800000
+  names:
+  - id: 204620
+    kind: 3
+    kind_id: 80187
+    language: 1
+    name: Berzerk (French Speech, revision RC31)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 94824
+      kind: 3
+      kind_id: 80187
+      type: 1
+      name: berzerkf.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 550897
+      asset_id: 94824
+      name: berzerk_rc31f_1c.rom0.1c
+      size: 2048
+      blob_id: 205651
+    - id: 550898
+      asset_id: 94824
+      name: berzerk_rc31f_1d.rom1.1d
+      size: 2048
+      blob_id: 205652
+    - id: 550899
+      asset_id: 94824
+      name: berzerk_rc31f_3d.rom2.3d
+      size: 2048
+      blob_id: 205653
+    - id: 550900
+      asset_id: 94824
+      name: berzerk_rc31f_5c.rom5.5c
+      size: 2048
+      blob_id: 205654
+    - id: 550901
+      asset_id: 94824
+      name: berzerk_rc31f_5d.rom3.5d
+      size: 2048
+      blob_id: 205655
+    - id: 550902
+      asset_id: 94824
+      name: berzerk_rc31f_6d.rom4.6d
+      size: 2048
+      blob_id: 205656
+    - id: 550903
+      asset_id: 94824
+      name: berzerk_rvof_1c.1c
+      size: 2048
+      blob_id: 205657
+    - id: 550904
+      asset_id: 94824
+      name: berzerk_rvof_2c.2c
+      size: 2048
+      blob_id: 205658
+- release:
+    id: 80188
+    game_id: 72
+    description: ""
+    release_date: 19800000
+  names:
+  - id: 204621
+    kind: 3
+    kind_id: 80188
+    language: 1
+    name: Berzerk (German Speech, revision RC32)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 94825
+      kind: 3
+      kind_id: 80188
+      type: 1
+      name: berzerkg.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 550905
+      asset_id: 94825
+      name: berzerk_rc32_1c.rom0.1c
+      size: 2048
+      blob_id: 205659
+    - id: 550906
+      asset_id: 94825
+      name: berzerk_rc32_1d.rom1.1d
+      size: 2048
+      blob_id: 205660
+    - id: 550907
+      asset_id: 94825
+      name: berzerk_rc32_5d.rom3.5d
+      size: 2048
+      blob_id: 205661
+    - id: 550908
+      asset_id: 94825
+      name: berzerk_rc32g_3d.rom2.3d
+      size: 2048
+      blob_id: 205662
+    - id: 550909
+      asset_id: 94825
+      name: berzerk_rc32g_5c.rom5.5c
+      size: 2048
+      blob_id: 205663
+    - id: 550910
+      asset_id: 94825
+      name: berzerk_rc32g_6d.rom4.6d
+      size: 2048
+      blob_id: 205664
+    - id: 550911
+      asset_id: 94825
+      name: berzerk_rvog_1c.1c
+      size: 2048
+      blob_id: 205665
+    - id: 550912
+      asset_id: 94825
+      name: berzerk_rvog_2c.2c
+      size: 2048
+      blob_id: 205666
+- release:
+    id: 80189
+    game_id: 72
+    description: ""
+    release_date: 19800000
+  names:
+  - id: 204622
+    kind: 3
+    kind_id: 80189
+    language: 1
+    name: Berzerk (Spanish Speech, revision RC32)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 94826
+      kind: 3
+      kind_id: 80189
+      type: 1
+      name: berzerks.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 550913
+      asset_id: 94826
+      name: berzerk_rc32_1c.rom0.1c
+      size: 2048
+      blob_id: 205659
+    - id: 550914
+      asset_id: 94826
+      name: berzerk_rc32_1d.rom1.1d
+      size: 2048
+      blob_id: 205660
+    - id: 550915
+      asset_id: 94826
+      name: berzerk_rc32_3d.rom2.3d
+      size: 2048
+      blob_id: 205667
+    - id: 550916
+      asset_id: 94826
+      name: berzerk_rc32_5d.rom3.5d
+      size: 2048
+      blob_id: 205661
+    - id: 550917
+      asset_id: 94826
+      name: berzerk_rc32_6d.rom4.6d
+      size: 2048
+      blob_id: 205668
+    - id: 550918
+      asset_id: 94826
+      name: berzerk_rc32s_5c.rom5.5c
+      size: 2048
+      blob_id: 205669
+    - id: 550919
+      asset_id: 94826
+      name: berzerk_rvos_1c.1c
+      size: 2048
+      blob_id: 205670

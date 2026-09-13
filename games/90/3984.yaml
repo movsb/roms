@@ -16,6 +16,30 @@ names:
   language: 2
   name: 棒球英雄 '96 (欧版, EAJ)
   source: trimui
+- id: 199630
+  kind: 2
+  kind_id: 3984
+  language: 1
+  name: Stadium Hero '96 (Japan, EAD)
+  source: mame
+- id: 199631
+  kind: 2
+  kind_id: 3984
+  language: 1
+  name: Stadium Hero '96 (Japan?, EAE)
+  source: mame
+- id: 199632
+  kind: 2
+  kind_id: 3984
+  language: 1
+  name: Stadium Hero '96 (Korea, Dream Island license)
+  source: mame
+- id: 199633
+  kind: 2
+  kind_id: 3984
+  language: 1
+  name: Stadium Hero '96 (USA, EAH)
+  source: mame
 game_developers: []
 game_genres: []
 assets: []
@@ -157,24 +181,10 @@ releases:
       name: stadhr96u/eeprom-stadhr96u.bin
       size: 128
       blob_id: 42801
-- release:
-    id: 71982
-    game_id: 3984
-    description: ""
-    release_date: 19960000
-  names:
-  - id: 173993
-    kind: 3
-    kind_id: 71982
-    language: 1
-    name: Stadium Hero '96 (Europe, EAJ, Tuning license)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 85052
+      id: 114544
       kind: 3
-      kind_id: 71982
+      kind_id: 3984
       type: 1
       name: stadhr96.zip
       description: ""
@@ -183,58 +193,374 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 379358
-      asset_id: 85052
+    - id: 757806
+      asset_id: 114544
       name: eeprom-stadhr96.bin
       size: 128
       blob_id: 42781
-    - id: 379359
-      asset_id: 85052
+    - id: 757807
+      asset_id: 114544
       name: mcm-00.2e
       size: 4194304
       blob_id: 42782
-    - id: 379360
-      asset_id: 85052
+    - id: 757808
+      asset_id: 114544
       name: mcm-01.8m
       size: 4194304
       blob_id: 42783
-    - id: 379361
-      asset_id: 85052
+    - id: 757809
+      asset_id: 114544
       name: mcm-02.4e
       size: 4194304
       blob_id: 42784
-    - id: 379362
-      asset_id: 85052
+    - id: 757810
+      asset_id: 114544
       name: mcm-03.10m
       size: 4194304
       blob_id: 42785
-    - id: 379363
-      asset_id: 85052
+    - id: 757811
+      asset_id: 114544
       name: mcm-04.6e
       size: 4194304
       blob_id: 42786
-    - id: 379364
-      asset_id: 85052
+    - id: 757812
+      asset_id: 114544
       name: mcm-05.11m
       size: 4194304
       blob_id: 42787
-    - id: 379365
-      asset_id: 85052
+    - id: 757813
+      asset_id: 114544
       name: mcm-06.6a
       size: 4194304
       blob_id: 42788
-    - id: 379366
-      asset_id: 85052
+    - id: 757814
+      asset_id: 114544
       name: sh-eaf.6h
       size: 524288
       blob_id: 42789
-    - id: 379367
-      asset_id: 85052
+    - id: 757815
+      asset_id: 114544
       name: sh-eaj.2a
       size: 524288
       blob_id: 42790
-    - id: 379368
-      asset_id: 85052
+    - id: 757816
+      asset_id: 114544
       name: sh-eaj.2b
       size: 524288
       blob_id: 42791
+- release:
+    id: 98768
+    game_id: 3984
+    description: ""
+    release_date: 19960000
+  names:
+  - id: 231528
+    kind: 3
+    kind_id: 98768
+    language: 1
+    name: Stadium Hero '96 (Japan, EAD)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 114545
+      kind: 3
+      kind_id: 98768
+      type: 1
+      name: stadhr96j.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 757817
+      asset_id: 114545
+      name: ead00-4.2a
+      size: 524288
+      blob_id: 42792
+    - id: 757818
+      asset_id: 114545
+      name: ead01-4.2b
+      size: 524288
+      blob_id: 42793
+    - id: 757819
+      asset_id: 114545
+      name: ead02-0.6h
+      size: 524288
+      blob_id: 42794
+    - id: 757820
+      asset_id: 114545
+      name: eeprom-stadhr96j.bin
+      size: 128
+      blob_id: 42795
+    - id: 757821
+      asset_id: 114545
+      name: mcm-00.2e
+      size: 4194304
+      blob_id: 42782
+    - id: 757822
+      asset_id: 114545
+      name: mcm-01.8m
+      size: 4194304
+      blob_id: 42783
+    - id: 757823
+      asset_id: 114545
+      name: mcm-02.4e
+      size: 4194304
+      blob_id: 42784
+    - id: 757824
+      asset_id: 114545
+      name: mcm-03.10m
+      size: 4194304
+      blob_id: 42785
+    - id: 757825
+      asset_id: 114545
+      name: mcm-04.6e
+      size: 4194304
+      blob_id: 42786
+    - id: 757826
+      asset_id: 114545
+      name: mcm-05.11m
+      size: 4194304
+      blob_id: 42787
+    - id: 757827
+      asset_id: 114545
+      name: mcm-06.6a
+      size: 4194304
+      blob_id: 42788
+- release:
+    id: 98769
+    game_id: 3984
+    description: ""
+    release_date: 19960000
+  names:
+  - id: 231529
+    kind: 3
+    kind_id: 98769
+    language: 1
+    name: Stadium Hero '96 (Japan?, EAE)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 114546
+      kind: 3
+      kind_id: 98769
+      type: 1
+      name: stadhr96j2.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 757828
+      asset_id: 114546
+      name: eae00-5.2a
+      size: 524288
+      blob_id: 42796
+    - id: 757829
+      asset_id: 114546
+      name: eae01-5.2b
+      size: 524288
+      blob_id: 42797
+    - id: 757830
+      asset_id: 114546
+      name: eae02-0.6h
+      size: 524288
+      blob_id: 42798
+    - id: 757831
+      asset_id: 114546
+      name: mcm-00.2e
+      size: 4194304
+      blob_id: 42782
+    - id: 757832
+      asset_id: 114546
+      name: mcm-01.8m
+      size: 4194304
+      blob_id: 42783
+    - id: 757833
+      asset_id: 114546
+      name: mcm-02.4e
+      size: 4194304
+      blob_id: 42784
+    - id: 757834
+      asset_id: 114546
+      name: mcm-03.10m
+      size: 4194304
+      blob_id: 42785
+    - id: 757835
+      asset_id: 114546
+      name: mcm-04.6e
+      size: 4194304
+      blob_id: 42786
+    - id: 757836
+      asset_id: 114546
+      name: mcm-05.11m
+      size: 4194304
+      blob_id: 42787
+    - id: 757837
+      asset_id: 114546
+      name: mcm-06.6a
+      size: 4194304
+      blob_id: 42788
+- release:
+    id: 98770
+    game_id: 3984
+    description: ""
+    release_date: 19960000
+  names:
+  - id: 231530
+    kind: 3
+    kind_id: 98770
+    language: 1
+    name: Stadium Hero '96 (Korea, Dream Island license)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 114547
+      kind: 3
+      kind_id: 98770
+      type: 1
+      name: stadhr96k.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/467373111
+    entries:
+    - id: 757838
+      asset_id: 114547
+      name: eae02-0.6h
+      size: 524288
+      blob_id: 42798
+    - id: 757839
+      asset_id: 114547
+      name: mcm-00.2e
+      size: 4194304
+      blob_id: 42782
+    - id: 757840
+      asset_id: 114547
+      name: mcm-01.8m
+      size: 4194304
+      blob_id: 42783
+    - id: 757841
+      asset_id: 114547
+      name: mcm-02.4e
+      size: 4194304
+      blob_id: 42784
+    - id: 757842
+      asset_id: 114547
+      name: mcm-03.10m
+      size: 4194304
+      blob_id: 42785
+    - id: 757843
+      asset_id: 114547
+      name: mcm-04.6e
+      size: 4194304
+      blob_id: 42786
+    - id: 757844
+      asset_id: 114547
+      name: mcm-05.11m
+      size: 4194304
+      blob_id: 42787
+    - id: 757845
+      asset_id: 114547
+      name: mcm-06.6a
+      size: 4194304
+      blob_id: 42788
+    - id: 757846
+      asset_id: 114547
+      name: sh_kr.2a
+      size: 524288
+      blob_id: 303248
+    - id: 757847
+      asset_id: 114547
+      name: sh_kr.2b
+      size: 524288
+      blob_id: 303249
+- release:
+    id: 98771
+    game_id: 3984
+    description: ""
+    release_date: 19960000
+  names:
+  - id: 231531
+    kind: 3
+    kind_id: 98771
+    language: 1
+    name: Stadium Hero '96 (USA, EAH)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 114548
+      kind: 3
+      kind_id: 98771
+      type: 1
+      name: stadhr96u.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 757848
+      asset_id: 114548
+      name: eaf02-0.6h
+      size: 524288
+      blob_id: 42794
+    - id: 757849
+      asset_id: 114548
+      name: eah00-0.2a
+      size: 524288
+      blob_id: 42799
+    - id: 757850
+      asset_id: 114548
+      name: eah01-0.2b
+      size: 524288
+      blob_id: 42800
+    - id: 757851
+      asset_id: 114548
+      name: eeprom-stadhr96u.bin
+      size: 128
+      blob_id: 42801
+    - id: 757852
+      asset_id: 114548
+      name: mcm-00.2e
+      size: 4194304
+      blob_id: 42782
+    - id: 757853
+      asset_id: 114548
+      name: mcm-01.8m
+      size: 4194304
+      blob_id: 42783
+    - id: 757854
+      asset_id: 114548
+      name: mcm-02.4e
+      size: 4194304
+      blob_id: 42784
+    - id: 757855
+      asset_id: 114548
+      name: mcm-03.10m
+      size: 4194304
+      blob_id: 42785
+    - id: 757856
+      asset_id: 114548
+      name: mcm-04.6e
+      size: 4194304
+      blob_id: 42786
+    - id: 757857
+      asset_id: 114548
+      name: mcm-05.11m
+      size: 4194304
+      blob_id: 42787
+    - id: 757858
+      asset_id: 114548
+      name: mcm-06.6a
+      size: 4194304
+      blob_id: 42788

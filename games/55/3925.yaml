@@ -16,6 +16,36 @@ names:
   language: 2
   name: 超级电脑病毒防卫战 (世界版/日版, V1.2)
   source: trimui
+- id: 199498
+  kind: 2
+  kind_id: 3925
+  language: 1
+  name: Super Qix (bootleg of V1.0, 8031 MCU)
+  source: mame
+- id: 199499
+  kind: 2
+  kind_id: 3925
+  language: 1
+  name: Super Qix (bootleg, No MCU)
+  source: mame
+- id: 199500
+  kind: 2
+  kind_id: 3925
+  language: 1
+  name: Super Qix (World/Japan, V1.0)
+  source: mame
+- id: 199501
+  kind: 2
+  kind_id: 3925
+  language: 1
+  name: Super Qix (World/Japan, V1.1)
+  source: mame
+- id: 199502
+  kind: 2
+  kind_id: 3925
+  language: 1
+  name: Super Qix (US)
+  source: mame
 game_developers:
 - game_id: 3925
   developer_id: 35
@@ -124,59 +154,338 @@ releases:
       blob_id: 87613
       debug: arcade/wheel/sqix.png
     entries: []
-- release:
-    id: 71747
-    game_id: 3925
-    description: ""
-    release_date: 19870000
-  names:
-  - id: 173533
-    kind: 3
-    kind_id: 71747
-    language: 1
-    name: Super Qix (World/Japan, V1.2)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 84817
+      id: 114313
       kind: 3
-      kind_id: 71747
+      kind_id: 3925
       type: 1
       name: sqix.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
-      debug: dat:mame:0.289
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/2662450981
     entries:
-    - id: 376442
-      asset_id: 84817
+    - id: 754926
+      asset_id: 114313
       name: b03__01-2.ef3
       size: 32768
       blob_id: 42120
-    - id: 376443
-      asset_id: 84817
+    - id: 754927
+      asset_id: 114313
       name: b03__02.h3
       size: 65536
       blob_id: 42121
-    - id: 376444
-      asset_id: 84817
+    - id: 754928
+      asset_id: 114313
       name: b03__03.l2
       size: 4096
-      blob_id: 185346
-    - id: 376445
-      asset_id: 84817
+      blob_id: 302546
+    - id: 754929
+      asset_id: 114313
       name: b03__04.s8
       size: 32768
       blob_id: 42122
-    - id: 376446
-      asset_id: 84817
+    - id: 754930
+      asset_id: 114313
       name: b03__05.t8
       size: 65536
       blob_id: 42123
-    - id: 376447
-      asset_id: 84817
+    - id: 754931
+      asset_id: 114313
+      name: taito_sq-iu3__lh231041__sharp_japan__8709_d.p8
+      size: 131072
+      blob_id: 42124
+- release:
+    id: 98548
+    game_id: 3925
+    description: ""
+    release_date: 19870000
+  names:
+  - id: 231239
+    kind: 3
+    kind_id: 98548
+    language: 1
+    name: Super Qix (bootleg of V1.0, 8031 MCU)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 114314
+      kind: 3
+      kind_id: 98548
+      type: 1
+      name: sqixb1.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 754932
+      asset_id: 114314
+      name: b03-03
+      size: 65536
+      blob_id: 42126
+    - id: 754933
+      asset_id: 114314
+      name: b03-06
+      size: 65536
+      blob_id: 42127
+    - id: 754934
+      asset_id: 114314
+      name: b03__02.h3
+      size: 65536
+      blob_id: 42121
+    - id: 754935
+      asset_id: 114314
+      name: b03__04.s8
+      size: 32768
+      blob_id: 42122
+    - id: 754936
+      asset_id: 114314
+      name: b03__05.t8
+      size: 65536
+      blob_id: 42123
+    - id: 754937
+      asset_id: 114314
+      name: sq01.97
+      size: 32768
+      blob_id: 43715
+    - id: 754938
+      asset_id: 114314
+      name: sq07.ic108
+      size: 4096
+      blob_id: 42125
+- release:
+    id: 98549
+    game_id: 3925
+    description: ""
+    release_date: 19870000
+  names:
+  - id: 231240
+    kind: 3
+    kind_id: 98549
+    language: 1
+    name: Super Qix (bootleg, No MCU)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 114315
+      kind: 3
+      kind_id: 98549
+      type: 1
+      name: sqixb2.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 754939
+      asset_id: 114315
+      name: b03-03
+      size: 65536
+      blob_id: 42126
+    - id: 754940
+      asset_id: 114315
+      name: b03-06
+      size: 65536
+      blob_id: 42127
+    - id: 754941
+      asset_id: 114315
+      name: b03__02.h3
+      size: 65536
+      blob_id: 42121
+    - id: 754942
+      asset_id: 114315
+      name: b03__04.s8
+      size: 32768
+      blob_id: 42122
+    - id: 754943
+      asset_id: 114315
+      name: b03__05.t8
+      size: 65536
+      blob_id: 42123
+    - id: 754944
+      asset_id: 114315
+      name: cpu.2
+      size: 32768
+      blob_id: 42128
+- release:
+    id: 98550
+    game_id: 3925
+    description: ""
+    release_date: 19870000
+  names:
+  - id: 231241
+    kind: 3
+    kind_id: 98550
+    language: 1
+    name: Super Qix (World/Japan, V1.0)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 114316
+      kind: 3
+      kind_id: 98550
+      type: 1
+      name: sqixr0.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/3890776748
+    entries:
+    - id: 754945
+      asset_id: 114316
+      name: b03__01.ef3
+      size: 32768
+      blob_id: 43715
+    - id: 754946
+      asset_id: 114316
+      name: b03__02.h3
+      size: 65536
+      blob_id: 42121
+    - id: 754947
+      asset_id: 114316
+      name: b03__03.l2
+      size: 4096
+      blob_id: 302546
+    - id: 754948
+      asset_id: 114316
+      name: b03__04.s8
+      size: 32768
+      blob_id: 42122
+    - id: 754949
+      asset_id: 114316
+      name: b03__05.t8
+      size: 65536
+      blob_id: 42123
+    - id: 754950
+      asset_id: 114316
+      name: taito_sq-iu3__lh231041__sharp_japan__8709_d.p8
+      size: 131072
+      blob_id: 42124
+- release:
+    id: 98551
+    game_id: 3925
+    description: ""
+    release_date: 19870000
+  names:
+  - id: 231242
+    kind: 3
+    kind_id: 98551
+    language: 1
+    name: Super Qix (World/Japan, V1.1)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 114317
+      kind: 3
+      kind_id: 98551
+      type: 1
+      name: sqixr1.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/1226747665
+    entries:
+    - id: 754951
+      asset_id: 114317
+      name: b03__01-1.ef3
+      size: 32768
+      blob_id: 302547
+    - id: 754952
+      asset_id: 114317
+      name: b03__02.h3
+      size: 65536
+      blob_id: 42121
+    - id: 754953
+      asset_id: 114317
+      name: b03__03.l2
+      size: 4096
+      blob_id: 302546
+    - id: 754954
+      asset_id: 114317
+      name: b03__04.s8
+      size: 32768
+      blob_id: 42122
+    - id: 754955
+      asset_id: 114317
+      name: b03__05.t8
+      size: 65536
+      blob_id: 42123
+    - id: 754956
+      asset_id: 114317
+      name: taito_sq-iu3__lh231041__sharp_japan__8709_d.p8
+      size: 131072
+      blob_id: 42124
+- release:
+    id: 98552
+    game_id: 3925
+    description: ""
+    release_date: 19870000
+  names:
+  - id: 231243
+    kind: 3
+    kind_id: 98552
+    language: 1
+    name: Super Qix (US)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 114318
+      kind: 3
+      kind_id: 98552
+      type: 1
+      name: sqixu.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/2270297314
+    entries:
+    - id: 754957
+      asset_id: 114318
+      name: b03__04.s8
+      size: 32768
+      blob_id: 42122
+    - id: 754958
+      asset_id: 114318
+      name: b03__06.ef3
+      size: 32768
+      blob_id: 302548
+    - id: 754959
+      asset_id: 114318
+      name: b03__07.h3
+      size: 65536
+      blob_id: 302549
+    - id: 754960
+      asset_id: 114318
+      name: b03__08.l2
+      size: 4096
+      blob_id: 302550
+    - id: 754961
+      asset_id: 114318
+      name: b03__09.t8
+      size: 65536
+      blob_id: 302551
+    - id: 754962
+      asset_id: 114318
       name: taito_sq-iu3__lh231041__sharp_japan__8709_d.p8
       size: 131072
       blob_id: 42124

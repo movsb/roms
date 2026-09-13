@@ -10,6 +10,24 @@ names:
   language: 1
   name: Mahjong Reach (Ver. 1.00, set 1)
   source: mame
+- id: 193326
+  kind: 2
+  kind_id: 57760
+  language: 1
+  name: Mahjong Reach (Ver. 1.00, set 2)
+  source: mame
+- id: 193327
+  kind: 2
+  kind_id: 57760
+  language: 1
+  name: Mahjong Reach (Ver. 1.00, bootleg)
+  source: mame
+- id: 193328
+  kind: 2
+  kind_id: 57760
+  language: 1
+  name: Mahjong Reach Part II (Ver. D88)
+  source: mame
 game_developers: []
 game_genres: []
 assets: []
@@ -29,7 +47,39 @@ releases:
   release_publishers: []
   assets:
   - asset:
-      id: 71587
+      id: 90653
+      kind: 3
+      kind_id: 58517
+      type: 1
+      name: mjreach.zip
+      description: ""
+      format: 2
+      size: 354526
+      blob_id: 0
+      debug: /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/2589283227
+    entries:
+    - id: 467737
+      asset_id: 90653
+      name: cs16-1.u15
+      size: 262144
+      blob_id: 237839
+    - id: 467738
+      asset_id: 90653
+      name: cs16-2.u12
+      size: 262144
+      blob_id: 237840
+    - id: 467739
+      asset_id: 90653
+      name: cs16-3.u13
+      size: 524288
+      blob_id: 237841
+    - id: 467740
+      asset_id: 90653
+      name: mjreach-mcu.u3
+      size: 8192
+      blob_id: 207618
+  - asset:
+      id: 104512
       kind: 3
       kind_id: 58517
       type: 1
@@ -40,28 +90,183 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 267580
-      asset_id: 71587
+    - id: 663120
+      asset_id: 104512
       name: cs16-1.u15
       size: 262144
-      blob_id: 150210
-    - id: 267581
-      asset_id: 71587
+      blob_id: 237839
+    - id: 663121
+      asset_id: 104512
       name: cs16-2.u12
       size: 262144
-      blob_id: 150211
-    - id: 267582
-      asset_id: 71587
+      blob_id: 237840
+    - id: 663122
+      asset_id: 104512
       name: cs16-3.u13
       size: 524288
-      blob_id: 150212
-    - id: 267583
-      asset_id: 71587
-      name: cs16-3.u13
-      size: 524288
-      blob_id: 150212
-    - id: 267584
-      asset_id: 71587
+      blob_id: 237841
+    - id: 663124
+      asset_id: 104512
       name: mjreach-mcu.u3
       size: 8192
-      blob_id: 101954
+      blob_id: 207618
+  - asset:
+      id: 120697
+      kind: 3
+      kind_id: 58517
+      type: 1
+      name: mjreach.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.259
+    entries:
+    - id: 871686
+      asset_id: 120697
+      name: rom.u12
+      size: 262144
+      blob_id: 237849
+    - id: 871687
+      asset_id: 120697
+      name: rom.u13
+      size: 524288
+      blob_id: 237850
+    - id: 871688
+      asset_id: 120697
+      name: rom.u15
+      size: 262144
+      blob_id: 237851
+- release:
+    id: 89170
+    game_id: 57760
+    description: ""
+    release_date: 19940000
+  names:
+  - id: 218426
+    kind: 3
+    kind_id: 89170
+    language: 1
+    name: Mahjong Reach (Ver. 1.00, set 2)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 104515
+      kind: 3
+      kind_id: 89170
+      type: 1
+      name: mjreacha.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 663141
+      asset_id: 104515
+      name: cs16-1.u15
+      size: 262144
+      blob_id: 257615
+    - id: 663142
+      asset_id: 104515
+      name: cs16-2.u12
+      size: 262144
+      blob_id: 237840
+    - id: 663143
+      asset_id: 104515
+      name: cs16-3.u13
+      size: 524288
+      blob_id: 237841
+    - id: 663145
+      asset_id: 104515
+      name: mjreach-mcu.u3
+      size: 8192
+      blob_id: 207618
+- release:
+    id: 89171
+    game_id: 57760
+    description: ""
+    release_date: 19940000
+  names:
+  - id: 218427
+    kind: 3
+    kind_id: 89171
+    language: 1
+    name: Mahjong Reach Part II (Ver. D88)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 104517
+      kind: 3
+      kind_id: 89171
+      type: 1
+      name: mjreachp2.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 663150
+      asset_id: 104517
+      name: 8801.2c
+      size: 262144
+      blob_id: 257616
+    - id: 663151
+      asset_id: 104517
+      name: 8802.13b
+      size: 524288
+      blob_id: 237841
+    - id: 663153
+      asset_id: 104517
+      name: 8803.15b
+      size: 262144
+      blob_id: 257617
+    - id: 663154
+      asset_id: 104517
+      name: mjreach2-mcu.5b
+      size: 8192
+      blob_id: 207618
+- release:
+    id: 103193
+    game_id: 57760
+    description: ""
+    release_date: 19940000
+  names:
+  - id: 238167
+    kind: 3
+    kind_id: 103193
+    language: 1
+    name: Mahjong Reach (Ver. 1.00, bootleg)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 104516
+      kind: 3
+      kind_id: 103193
+      type: 1
+      name: mjreachbl.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 663146
+      asset_id: 104516
+      name: rom.u12
+      size: 262144
+      blob_id: 237849
+    - id: 663147
+      asset_id: 104516
+      name: rom.u13
+      size: 524288
+      blob_id: 237850
+    - id: 663149
+      asset_id: 104516
+      name: rom.u15
+      size: 262144
+      blob_id: 237851

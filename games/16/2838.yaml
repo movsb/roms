@@ -16,6 +16,24 @@ names:
   language: 2
   name: 冥王战机
   source: trimui
+- id: 185098
+  kind: 2
+  kind_id: 2838
+  language: 1
+  name: MX5000 (version R)
+  source: mame
+- id: 190652
+  kind: 2
+  kind_id: 2838
+  language: 1
+  name: Flak Attack (Japan, version P)
+  source: mame
+- id: 190653
+  kind: 2
+  kind_id: 2838
+  language: 1
+  name: Flak Attack (Japan, version P, PWB 450593 sub-board)
+  source: mame
 game_developers:
 - game_id: 2838
   developer_id: 2
@@ -114,24 +132,10 @@ releases:
       blob_id: 87980
       debug: arcade/wheel/mx5000.png
     entries: []
-- release:
-    id: 59366
-    game_id: 2838
-    description: ""
-    release_date: 19870000
-  names:
-  - id: 149144
-    kind: 3
-    kind_id: 59366
-    language: 1
-    name: MX5000 (version U)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 72436
+      id: 105323
       kind: 3
-      kind_id: 59366
+      kind_id: 2838
       type: 1
       name: mx5000.zip
       description: ""
@@ -140,23 +144,228 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 276842
-      asset_id: 72436
+    - id: 671698
+      asset_id: 105323
       name: 669_m02.16b
       size: 32768
       blob_id: 30109
-    - id: 276843
-      asset_id: 72436
+    - id: 671699
+      asset_id: 105323
       name: 669_u01.16c
       size: 65536
-      blob_id: 152713
-    - id: 276844
-      asset_id: 72436
+      blob_id: 259795
+    - id: 671700
+      asset_id: 105323
       name: gx669f03.5e
       size: 524288
       blob_id: 30111
-    - id: 276845
-      asset_id: 72436
+    - id: 671701
+      asset_id: 105323
+      name: gx669f04.11a
+      size: 262144
+      blob_id: 30110
+  - asset:
+      id: 119155
+      kind: 3
+      kind_id: 2838
+      type: 1
+      name: mx5000.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 823089
+      asset_id: 119155
+      name: 669_m02.16b
+      size: 32768
+      blob_id: 30109
+    - id: 823090
+      asset_id: 119155
+      name: 669_r01.16c
+      size: 65536
+      blob_id: 30112
+    - id: 823091
+      asset_id: 119155
+      name: gx669f03.5e
+      size: 524288
+      blob_id: 30111
+    - id: 823092
+      asset_id: 119155
+      name: gx669f04.11a
+      size: 262144
+      blob_id: 30110
+- release:
+    id: 89942
+    game_id: 2838
+    description: ""
+    release_date: 19870000
+  names:
+  - id: 219620
+    kind: 3
+    kind_id: 89942
+    language: 1
+    name: MX5000 (version R)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 105324
+      kind: 3
+      kind_id: 89942
+      type: 1
+      name: mx5000r.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 671702
+      asset_id: 105324
+      name: 669_m02.16b
+      size: 32768
+      blob_id: 30109
+    - id: 671703
+      asset_id: 105324
+      name: 669_r01.16c
+      size: 65536
+      blob_id: 30112
+    - id: 671704
+      asset_id: 105324
+      name: gx669f03.5e
+      size: 524288
+      blob_id: 30111
+    - id: 671705
+      asset_id: 105324
+      name: gx669f04.11a
+      size: 262144
+      blob_id: 30110
+- release:
+    id: 103929
+    game_id: 2838
+    description: ""
+    release_date: 19870000
+  names:
+  - id: 238905
+    kind: 3
+    kind_id: 103929
+    language: 1
+    name: Flak Attack (Japan, version P)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 99120
+      kind: 3
+      kind_id: 103929
+      type: 1
+      name: flkatck.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 605136
+      asset_id: 99120
+      name: 669_m02.16b
+      size: 32768
+      blob_id: 30109
+    - id: 605137
+      asset_id: 99120
+      name: 669_p01.16c
+      size: 65536
+      blob_id: 246363
+    - id: 605138
+      asset_id: 99120
+      name: gx669f03.5e
+      size: 524288
+      blob_id: 30111
+    - id: 605139
+      asset_id: 99120
+      name: gx669f04.11a
+      size: 262144
+      blob_id: 30110
+- release:
+    id: 103930
+    game_id: 2838
+    description: ""
+    release_date: 19870000
+  names:
+  - id: 238906
+    kind: 3
+    kind_id: 103930
+    language: 1
+    name: Flak Attack (Japan, version P, PWB 450593 sub-board)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 99121
+      kind: 3
+      kind_id: 103930
+      type: 1
+      name: flkatcka.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 605140
+      asset_id: 99121
+      name: 669_f03a.4b
+      size: 65536
+      blob_id: 246364
+    - id: 605141
+      asset_id: 99121
+      name: 669_f03b.5b
+      size: 65536
+      blob_id: 246365
+    - id: 605142
+      asset_id: 99121
+      name: 669_f03c.6b
+      size: 65536
+      blob_id: 246366
+    - id: 605143
+      asset_id: 99121
+      name: 669_f03d.7b
+      size: 65536
+      blob_id: 246367
+    - id: 605144
+      asset_id: 99121
+      name: 669_f03e.4d
+      size: 65536
+      blob_id: 246368
+    - id: 605145
+      asset_id: 99121
+      name: 669_f03f.5d
+      size: 65536
+      blob_id: 246369
+    - id: 605146
+      asset_id: 99121
+      name: 669_f03g.6d
+      size: 65536
+      blob_id: 246370
+    - id: 605147
+      asset_id: 99121
+      name: 669_f03h.7d
+      size: 65536
+      blob_id: 246371
+    - id: 605148
+      asset_id: 99121
+      name: 669_m02.16b
+      size: 32768
+      blob_id: 30109
+    - id: 605149
+      asset_id: 99121
+      name: 669_p01.16c
+      size: 65536
+      blob_id: 246363
+    - id: 605150
+      asset_id: 99121
       name: gx669f04.11a
       size: 262144
       blob_id: 30110

@@ -10,6 +10,42 @@ names:
   language: 1
   name: drgw2
   source: ""
+- id: 189969
+  kind: 2
+  kind_id: 1456
+  language: 1
+  name: Zhongguo Long II (ver. 100C, China)
+  source: mame
+- id: 189970
+  kind: 2
+  kind_id: 1456
+  language: 1
+  name: Dungfong Zi Zyu II (ver. 100H, Hong Kong)
+  source: mame
+- id: 189971
+  kind: 2
+  kind_id: 1456
+  language: 1
+  name: Chuugokuryuu II (ver. 100J, Japan)
+  source: mame
+- id: 189972
+  kind: 2
+  kind_id: 1456
+  language: 1
+  name: Dragon World II (ver. 100X, Export)
+  source: mame
+- id: 189973
+  kind: 2
+  kind_id: 1456
+  language: 1
+  name: Zhongguo Long II (ver. 101C, China)
+  source: mame
+- id: 241724
+  kind: 2
+  kind_id: 1456
+  language: 1
+  name: Chuugokuryuu II (V101, Japan)
+  source: fbneo
 game_developers:
 - game_id: 1456
   developer_id: 524
@@ -84,21 +120,141 @@ releases:
       blob_id: 86759
       debug: arcade/downloaded_images/drgw2.png
     entries: []
+  - asset:
+      id: 97928
+      kind: 3
+      kind_id: 1456
+      type: 1
+      name: drgw2.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 591609
+      asset_id: 97928
+      name: dragon_ii_v-110x.u2
+      size: 524288
+      blob_id: 15849
+    - id: 591610
+      asset_id: 97928
+      name: pgm_a0200.u5
+      size: 4194304
+      blob_id: 15846
+    - id: 591611
+      asset_id: 97928
+      name: pgm_b0200.u9
+      size: 4194304
+      blob_id: 15847
+    - id: 591612
+      asset_id: 97928
+      name: pgm_m01s.rom
+      size: 2097152
+      blob_id: 14294
+    - id: 591613
+      asset_id: 97928
+      name: pgm_p01s.u20
+      size: 131072
+      blob_id: 14308
+    - id: 591614
+      asset_id: 97928
+      name: pgm_p02s.u20
+      size: 131072
+      blob_id: 14309
+    - id: 591615
+      asset_id: 97928
+      name: pgm_t01s.rom
+      size: 2097152
+      blob_id: 14295
+    - id: 591616
+      asset_id: 97928
+      name: pgm_t0200.u7
+      size: 4194304
+      blob_id: 15848
+  - asset:
+      id: 118732
+      kind: 3
+      kind_id: 1456
+      type: 1
+      name: drgw2.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 811093
+      asset_id: 118732
+      name: bios.u42
+      size: 131072
+      blob_id: 14326
+    - id: 811094
+      asset_id: 118732
+      name: ddp3_bios.u37
+      size: 524288
+      blob_id: 14290
+    - id: 811095
+      asset_id: 118732
+      name: dragon_ii_v-110x.u2
+      size: 524288
+      blob_id: 15849
+    - id: 811096
+      asset_id: 118732
+      name: pgm_a0200.u5
+      size: 4194304
+      blob_id: 15846
+    - id: 811097
+      asset_id: 118732
+      name: pgm_b0200.u9
+      size: 4194304
+      blob_id: 15847
+    - id: 811098
+      asset_id: 118732
+      name: pgm_m01s.rom
+      size: 2097152
+      blob_id: 14294
+    - id: 811099
+      asset_id: 118732
+      name: pgm_p01s.u20
+      size: 131072
+      blob_id: 14308
+    - id: 811100
+      asset_id: 118732
+      name: pgm_p02s.u20
+      size: 131072
+      blob_id: 14309
+    - id: 811101
+      asset_id: 118732
+      name: pgm_t01s.rom
+      size: 2097152
+      blob_id: 14295
+    - id: 811102
+      asset_id: 118732
+      name: pgm_t0200.u7
+      size: 4194304
+      blob_id: 15848
 - release:
-    id: 1457
+    id: 41255
     game_id: 1456
     description: ""
-    release_date: 0
+    release_date: 19970000
   names:
-  - id: 94215
+  - id: 113381
     kind: 3
-    kind_id: 1457
+    kind_id: 41255
+    language: 1
+    name: Dragon World II (ver. 110X, Export)
+    source: mame
+  - id: 184020
+    kind: 3
+    kind_id: 41255
     language: 1
     name: drgw2
     source: ""
-  - id: 100945
+  - id: 184021
     kind: 3
-    kind_id: 1457
+    kind_id: 41255
     language: 2
     name: 中国龙 Ⅱ (V110X, 世界版)
     source: trimui
@@ -107,7 +263,7 @@ releases:
   - asset:
       id: 1457
       kind: 3
-      kind_id: 1457
+      kind_id: 41255
       type: 1
       name: drgw2.zip
       description: ""
@@ -167,68 +323,718 @@ releases:
       size: 131072
       blob_id: 14326
 - release:
-    id: 41255
+    id: 83041
     game_id: 1456
     description: ""
     release_date: 19970000
   names:
-  - id: 113381
+  - id: 208964
     kind: 3
-    kind_id: 41255
+    kind_id: 83041
     language: 1
-    name: Dragon World II (ver. 110X, Export)
+    name: Zhongguo Long II (ver. 100C, China)
     source: mame
   release_publishers: []
   assets:
   - asset:
-      id: 54325
+      id: 97929
       kind: 3
-      kind_id: 41255
+      kind_id: 83041
       type: 1
-      name: drgw2.zip
+      name: drgw2100c.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 154929
-      asset_id: 54325
-      name: dragon_ii_v-110x.u2
+    - id: 591617
+      asset_id: 97929
+      name: dragon_ii_v-100c.u2
       size: 524288
-      blob_id: 15849
-    - id: 154930
-      asset_id: 54325
+      blob_id: 15850
+    - id: 591618
+      asset_id: 97929
       name: pgm_a0200.u5
       size: 4194304
       blob_id: 15846
-    - id: 154931
-      asset_id: 54325
+    - id: 591619
+      asset_id: 97929
       name: pgm_b0200.u9
       size: 4194304
       blob_id: 15847
-    - id: 154932
-      asset_id: 54325
+    - id: 591620
+      asset_id: 97929
       name: pgm_m01s.rom
       size: 2097152
       blob_id: 14294
-    - id: 154933
-      asset_id: 54325
+    - id: 591621
+      asset_id: 97929
       name: pgm_p01s.u20
       size: 131072
       blob_id: 14308
-    - id: 154934
-      asset_id: 54325
+    - id: 591622
+      asset_id: 97929
       name: pgm_p02s.u20
       size: 131072
       blob_id: 14309
-    - id: 154935
-      asset_id: 54325
+    - id: 591623
+      asset_id: 97929
       name: pgm_t01s.rom
       size: 2097152
       blob_id: 14295
-    - id: 154936
-      asset_id: 54325
+    - id: 591624
+      asset_id: 97929
+      name: pgm_t0200.u7
+      size: 4194304
+      blob_id: 15848
+  - asset:
+      id: 119869
+      kind: 3
+      kind_id: 83041
+      type: 1
+      name: drgw2100c.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 844596
+      asset_id: 119869
+      name: bios.u42
+      size: 131072
+      blob_id: 14326
+    - id: 844597
+      asset_id: 119869
+      name: ddp3_bios.u37
+      size: 524288
+      blob_id: 14290
+    - id: 844598
+      asset_id: 119869
+      name: dragon_ii_v-100c.u2
+      size: 524288
+      blob_id: 15850
+    - id: 844599
+      asset_id: 119869
+      name: pgm_a0200.u5
+      size: 4194304
+      blob_id: 15846
+    - id: 844600
+      asset_id: 119869
+      name: pgm_b0200.u9
+      size: 4194304
+      blob_id: 15847
+    - id: 844601
+      asset_id: 119869
+      name: pgm_m01s.rom
+      size: 2097152
+      blob_id: 14294
+    - id: 844602
+      asset_id: 119869
+      name: pgm_p01s.u20
+      size: 131072
+      blob_id: 14308
+    - id: 844603
+      asset_id: 119869
+      name: pgm_p02s.u20
+      size: 131072
+      blob_id: 14309
+    - id: 844604
+      asset_id: 119869
+      name: pgm_t01s.rom
+      size: 2097152
+      blob_id: 14295
+    - id: 844605
+      asset_id: 119869
+      name: pgm_t0200.u7
+      size: 4194304
+      blob_id: 15848
+- release:
+    id: 83042
+    game_id: 1456
+    description: ""
+    release_date: 19970000
+  names:
+  - id: 208965
+    kind: 3
+    kind_id: 83042
+    language: 1
+    name: Dungfong Zi Zyu II (ver. 100H, Hong Kong)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 97930
+      kind: 3
+      kind_id: 83042
+      type: 1
+      name: drgw2100hk.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 591625
+      asset_id: 97930
+      name: dragon_ii_v-100-h.u2
+      size: 524288
+      blob_id: 15851
+    - id: 591626
+      asset_id: 97930
+      name: pgm_a0200.u5
+      size: 4194304
+      blob_id: 15846
+    - id: 591627
+      asset_id: 97930
+      name: pgm_b0200.u9
+      size: 4194304
+      blob_id: 15847
+    - id: 591628
+      asset_id: 97930
+      name: pgm_m01s.rom
+      size: 2097152
+      blob_id: 14294
+    - id: 591629
+      asset_id: 97930
+      name: pgm_p01s.u20
+      size: 131072
+      blob_id: 14308
+    - id: 591630
+      asset_id: 97930
+      name: pgm_p02s.u20
+      size: 131072
+      blob_id: 14309
+    - id: 591631
+      asset_id: 97930
+      name: pgm_t01s.rom
+      size: 2097152
+      blob_id: 14295
+    - id: 591632
+      asset_id: 97930
+      name: pgm_t0200.u7
+      size: 4194304
+      blob_id: 15848
+  - asset:
+      id: 118730
+      kind: 3
+      kind_id: 83042
+      type: 1
+      name: drgw2100hk.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 811073
+      asset_id: 118730
+      name: bios.u42
+      size: 131072
+      blob_id: 14326
+    - id: 811074
+      asset_id: 118730
+      name: ddp3_bios.u37
+      size: 524288
+      blob_id: 14290
+    - id: 811075
+      asset_id: 118730
+      name: dragon_ii_v-100-h.u2
+      size: 524288
+      blob_id: 15851
+    - id: 811076
+      asset_id: 118730
+      name: pgm_a0200.u5
+      size: 4194304
+      blob_id: 15846
+    - id: 811077
+      asset_id: 118730
+      name: pgm_b0200.u9
+      size: 4194304
+      blob_id: 15847
+    - id: 811078
+      asset_id: 118730
+      name: pgm_m01s.rom
+      size: 2097152
+      blob_id: 14294
+    - id: 811079
+      asset_id: 118730
+      name: pgm_p01s.u20
+      size: 131072
+      blob_id: 14308
+    - id: 811080
+      asset_id: 118730
+      name: pgm_p02s.u20
+      size: 131072
+      blob_id: 14309
+    - id: 811081
+      asset_id: 118730
+      name: pgm_t01s.rom
+      size: 2097152
+      blob_id: 14295
+    - id: 811082
+      asset_id: 118730
+      name: pgm_t0200.u7
+      size: 4194304
+      blob_id: 15848
+- release:
+    id: 83043
+    game_id: 1456
+    description: ""
+    release_date: 19970000
+  names:
+  - id: 208966
+    kind: 3
+    kind_id: 83043
+    language: 1
+    name: Chuugokuryuu II (ver. 100J, Japan)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 97931
+      kind: 3
+      kind_id: 83043
+      type: 1
+      name: drgw2100j.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 591633
+      asset_id: 97931
+      name: dragon_ii_v100j.u2
+      size: 524288
+      blob_id: 15852
+    - id: 591634
+      asset_id: 97931
+      name: pgm_a0200.u5
+      size: 4194304
+      blob_id: 15846
+    - id: 591635
+      asset_id: 97931
+      name: pgm_b0200.u9
+      size: 4194304
+      blob_id: 15847
+    - id: 591636
+      asset_id: 97931
+      name: pgm_m01s.rom
+      size: 2097152
+      blob_id: 14294
+    - id: 591637
+      asset_id: 97931
+      name: pgm_p01s.u20
+      size: 131072
+      blob_id: 14308
+    - id: 591638
+      asset_id: 97931
+      name: pgm_p02s.u20
+      size: 131072
+      blob_id: 14309
+    - id: 591639
+      asset_id: 97931
+      name: pgm_t01s.rom
+      size: 2097152
+      blob_id: 14295
+    - id: 591640
+      asset_id: 97931
+      name: pgm_t0200.u7
+      size: 4194304
+      blob_id: 15848
+  - asset:
+      id: 118626
+      kind: 3
+      kind_id: 83043
+      type: 1
+      name: drgw2100j.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 808944
+      asset_id: 118626
+      name: bios.u42
+      size: 131072
+      blob_id: 14326
+    - id: 808945
+      asset_id: 118626
+      name: ddp3_bios.u37
+      size: 524288
+      blob_id: 14290
+    - id: 808946
+      asset_id: 118626
+      name: dragon_ii_v100j.u2
+      size: 524288
+      blob_id: 15852
+    - id: 808947
+      asset_id: 118626
+      name: pgm_a0200.u5
+      size: 4194304
+      blob_id: 15846
+    - id: 808948
+      asset_id: 118626
+      name: pgm_b0200.u9
+      size: 4194304
+      blob_id: 15847
+    - id: 808949
+      asset_id: 118626
+      name: pgm_m01s.rom
+      size: 2097152
+      blob_id: 14294
+    - id: 808950
+      asset_id: 118626
+      name: pgm_p01s.u20
+      size: 131072
+      blob_id: 14308
+    - id: 808951
+      asset_id: 118626
+      name: pgm_p02s.u20
+      size: 131072
+      blob_id: 14309
+    - id: 808952
+      asset_id: 118626
+      name: pgm_t01s.rom
+      size: 2097152
+      blob_id: 14295
+    - id: 808953
+      asset_id: 118626
+      name: pgm_t0200.u7
+      size: 4194304
+      blob_id: 15848
+- release:
+    id: 83044
+    game_id: 1456
+    description: ""
+    release_date: 19970000
+  names:
+  - id: 208967
+    kind: 3
+    kind_id: 83044
+    language: 1
+    name: Dragon World II (ver. 100X, Export)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 97932
+      kind: 3
+      kind_id: 83044
+      type: 1
+      name: drgw2100x.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 591641
+      asset_id: 97932
+      name: dragon_ii_v-100x.u2
+      size: 524288
+      blob_id: 16236
+    - id: 591642
+      asset_id: 97932
+      name: pgm_a0200.u5
+      size: 4194304
+      blob_id: 15846
+    - id: 591643
+      asset_id: 97932
+      name: pgm_b0200.u9
+      size: 4194304
+      blob_id: 15847
+    - id: 591644
+      asset_id: 97932
+      name: pgm_m01s.rom
+      size: 2097152
+      blob_id: 14294
+    - id: 591645
+      asset_id: 97932
+      name: pgm_p01s.u20
+      size: 131072
+      blob_id: 14308
+    - id: 591646
+      asset_id: 97932
+      name: pgm_p02s.u20
+      size: 131072
+      blob_id: 14309
+    - id: 591647
+      asset_id: 97932
+      name: pgm_t01s.rom
+      size: 2097152
+      blob_id: 14295
+    - id: 591648
+      asset_id: 97932
+      name: pgm_t0200.u7
+      size: 4194304
+      blob_id: 15848
+  - asset:
+      id: 118731
+      kind: 3
+      kind_id: 83044
+      type: 1
+      name: drgw2100x.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 811083
+      asset_id: 118731
+      name: bios.u42
+      size: 131072
+      blob_id: 14326
+    - id: 811084
+      asset_id: 118731
+      name: ddp3_bios.u37
+      size: 524288
+      blob_id: 14290
+    - id: 811085
+      asset_id: 118731
+      name: dragon_ii_v-100x.u2
+      size: 524288
+      blob_id: 16236
+    - id: 811086
+      asset_id: 118731
+      name: pgm_a0200.u5
+      size: 4194304
+      blob_id: 15846
+    - id: 811087
+      asset_id: 118731
+      name: pgm_b0200.u9
+      size: 4194304
+      blob_id: 15847
+    - id: 811088
+      asset_id: 118731
+      name: pgm_m01s.rom
+      size: 2097152
+      blob_id: 14294
+    - id: 811089
+      asset_id: 118731
+      name: pgm_p01s.u20
+      size: 131072
+      blob_id: 14308
+    - id: 811090
+      asset_id: 118731
+      name: pgm_p02s.u20
+      size: 131072
+      blob_id: 14309
+    - id: 811091
+      asset_id: 118731
+      name: pgm_t01s.rom
+      size: 2097152
+      blob_id: 14295
+    - id: 811092
+      asset_id: 118731
+      name: pgm_t0200.u7
+      size: 4194304
+      blob_id: 15848
+- release:
+    id: 83045
+    game_id: 1456
+    description: ""
+    release_date: 19970000
+  names:
+  - id: 208968
+    kind: 3
+    kind_id: 83045
+    language: 1
+    name: Zhongguo Long II (ver. 101C, China)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 97933
+      kind: 3
+      kind_id: 83045
+      type: 1
+      name: drgw2101c.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 591649
+      asset_id: 97933
+      name: dragon_ii_v-101c.u2
+      size: 524288
+      blob_id: 244071
+    - id: 591650
+      asset_id: 97933
+      name: pgm_a0200.u5
+      size: 4194304
+      blob_id: 15846
+    - id: 591651
+      asset_id: 97933
+      name: pgm_b0200.u9
+      size: 4194304
+      blob_id: 15847
+    - id: 591652
+      asset_id: 97933
+      name: pgm_m01s.rom
+      size: 2097152
+      blob_id: 14294
+    - id: 591653
+      asset_id: 97933
+      name: pgm_p01s.u20
+      size: 131072
+      blob_id: 14308
+    - id: 591654
+      asset_id: 97933
+      name: pgm_p02s.u20
+      size: 131072
+      blob_id: 14309
+    - id: 591655
+      asset_id: 97933
+      name: pgm_t01s.rom
+      size: 2097152
+      blob_id: 14295
+    - id: 591656
+      asset_id: 97933
+      name: pgm_t0200.u7
+      size: 4194304
+      blob_id: 15848
+  - asset:
+      id: 119870
+      kind: 3
+      kind_id: 83045
+      type: 1
+      name: drgw2101c.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 844606
+      asset_id: 119870
+      name: bios.u42
+      size: 131072
+      blob_id: 14326
+    - id: 844607
+      asset_id: 119870
+      name: ddp3_bios.u37
+      size: 524288
+      blob_id: 14290
+    - id: 844608
+      asset_id: 119870
+      name: dragon_ii_v-101c.u2
+      size: 524288
+      blob_id: 244071
+    - id: 844609
+      asset_id: 119870
+      name: pgm_a0200.u5
+      size: 4194304
+      blob_id: 15846
+    - id: 844610
+      asset_id: 119870
+      name: pgm_b0200.u9
+      size: 4194304
+      blob_id: 15847
+    - id: 844611
+      asset_id: 119870
+      name: pgm_m01s.rom
+      size: 2097152
+      blob_id: 14294
+    - id: 844612
+      asset_id: 119870
+      name: pgm_p01s.u20
+      size: 131072
+      blob_id: 14308
+    - id: 844613
+      asset_id: 119870
+      name: pgm_p02s.u20
+      size: 131072
+      blob_id: 14309
+    - id: 844614
+      asset_id: 119870
+      name: pgm_t01s.rom
+      size: 2097152
+      blob_id: 14295
+    - id: 844615
+      asset_id: 119870
+      name: pgm_t0200.u7
+      size: 4194304
+      blob_id: 15848
+- release:
+    id: 105042
+    game_id: 1456
+    description: ""
+    release_date: 19970000
+  names:
+  - id: 240018
+    kind: 3
+    kind_id: 105042
+    language: 1
+    name: Chuugokuryuu II (V101, Japan)
+    source: fbneo
+  release_publishers: []
+  assets:
+  - asset:
+      id: 118627
+      kind: 3
+      kind_id: 105042
+      type: 1
+      name: drgw2101j.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 808954
+      asset_id: 118627
+      name: bios.u42
+      size: 131072
+      blob_id: 14326
+    - id: 808955
+      asset_id: 118627
+      name: ddp3_bios.u37
+      size: 524288
+      blob_id: 14290
+    - id: 808956
+      asset_id: 118627
+      name: dragon_ii_v101j.u2
+      size: 524288
+      blob_id: 15852
+    - id: 808957
+      asset_id: 118627
+      name: pgm_a0200.u5
+      size: 4194304
+      blob_id: 15846
+    - id: 808958
+      asset_id: 118627
+      name: pgm_b0200.u9
+      size: 4194304
+      blob_id: 15847
+    - id: 808959
+      asset_id: 118627
+      name: pgm_m01s.rom
+      size: 2097152
+      blob_id: 14294
+    - id: 808960
+      asset_id: 118627
+      name: pgm_p01s.u20
+      size: 131072
+      blob_id: 14308
+    - id: 808961
+      asset_id: 118627
+      name: pgm_p02s.u20
+      size: 131072
+      blob_id: 14309
+    - id: 808962
+      asset_id: 118627
+      name: pgm_t01s.rom
+      size: 2097152
+      blob_id: 14295
+    - id: 808963
+      asset_id: 118627
       name: pgm_t0200.u7
       size: 4194304
       blob_id: 15848

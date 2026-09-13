@@ -16,6 +16,30 @@ names:
   language: 2
   name: 汉堡时代 (东方数据 第一套)
   source: trimui
+- id: 188670
+  kind: 2
+  kind_id: 86
+  language: 1
+  name: Burger Time (Data East set 2)
+  source: mame
+- id: 188671
+  kind: 2
+  kind_id: 86
+  language: 1
+  name: Burger Time (Data East USA)
+  source: mame
+- id: 188672
+  kind: 2
+  kind_id: 86
+  language: 1
+  name: Burger Time (Midway)
+  source: mame
+- id: 189244
+  kind: 2
+  kind_id: 86
+  language: 1
+  name: Cook Race
+  source: mame
 game_developers:
 - game_id: 86
   developer_id: 225
@@ -179,24 +203,10 @@ releases:
       blob_id: 87354
       debug: arcade/wheel/btime.png
     entries: []
-- release:
-    id: 38564
-    game_id: 86
-    description: ""
-    release_date: 19820000
-  names:
-  - id: 108183
-    kind: 3
-    kind_id: 38564
-    language: 1
-    name: Burger Time (Data East set 1)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 51634
+      id: 95381
       kind: 3
-      kind_id: 38564
+      kind_id: 86
       type: 1
       name: btime.zip
       description: ""
@@ -205,78 +215,477 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 120145
-      asset_id: 51634
+    - id: 558178
+      asset_id: 95381
       name: aa04.9b
       size: 4096
-      blob_id: 101273
-    - id: 120146
-      asset_id: 51634
+      blob_id: 207236
+    - id: 558179
+      asset_id: 95381
       name: aa05.10b
       size: 4096
       blob_id: 1144
-    - id: 120147
-      asset_id: 51634
+    - id: 558180
+      asset_id: 95381
       name: aa06.13b
       size: 4096
       blob_id: 1145
-    - id: 120148
-      asset_id: 51634
+    - id: 558181
+      asset_id: 95381
       name: aa07.15b
       size: 4096
       blob_id: 1146
-    - id: 120149
-      asset_id: 51634
+    - id: 558182
+      asset_id: 95381
       name: aa12.7k
       size: 4096
       blob_id: 1147
-    - id: 120150
-      asset_id: 51634
+    - id: 558183
+      asset_id: 95381
       name: aa8.13k
       size: 4096
       blob_id: 1148
-    - id: 120151
-      asset_id: 51634
+    - id: 558184
+      asset_id: 95381
       name: ab00.1b
       size: 2048
       blob_id: 1131
-    - id: 120152
-      asset_id: 51634
+    - id: 558185
+      asset_id: 95381
       name: ab01.3b
       size: 2048
       blob_id: 1141
-    - id: 120153
-      asset_id: 51634
+    - id: 558186
+      asset_id: 95381
       name: ab02.4b
       size: 2048
       blob_id: 1140
-    - id: 120154
-      asset_id: 51634
+    - id: 558187
+      asset_id: 95381
       name: ab03.6b
       size: 2048
       blob_id: 1139
-    - id: 120155
-      asset_id: 51634
+    - id: 558188
+      asset_id: 95381
       name: ab10.10k
       size: 4096
       blob_id: 1133
-    - id: 120156
-      asset_id: 51634
+    - id: 558189
+      asset_id: 95381
       name: ab11.12k
       size: 4096
       blob_id: 1132
-    - id: 120157
-      asset_id: 51634
+    - id: 558190
+      asset_id: 95381
       name: ab13.9k
       size: 4096
       blob_id: 1130
-    - id: 120158
-      asset_id: 51634
+    - id: 558191
+      asset_id: 95381
       name: ab14.12h
       size: 4096
       blob_id: 1129
-    - id: 120159
-      asset_id: 51634
+    - id: 558192
+      asset_id: 95381
       name: ab9.15k
       size: 4096
       blob_id: 1127
+- release:
+    id: 80692
+    game_id: 86
+    description: ""
+    release_date: 19820000
+  names:
+  - id: 205394
+    kind: 3
+    kind_id: 80692
+    language: 1
+    name: Burger Time (Data East set 2)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 95382
+      kind: 3
+      kind_id: 80692
+      type: 1
+      name: btime2.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 558193
+      asset_id: 95382
+      name: aa04.9b2
+      size: 4096
+      blob_id: 1143
+    - id: 558194
+      asset_id: 95382
+      name: aa05.10b
+      size: 4096
+      blob_id: 1144
+    - id: 558195
+      asset_id: 95382
+      name: aa06.13b
+      size: 4096
+      blob_id: 1145
+    - id: 558196
+      asset_id: 95382
+      name: aa07.15b
+      size: 4096
+      blob_id: 1146
+    - id: 558197
+      asset_id: 95382
+      name: aa12.7k
+      size: 4096
+      blob_id: 1147
+    - id: 558198
+      asset_id: 95382
+      name: aa8.13k
+      size: 4096
+      blob_id: 1148
+    - id: 558199
+      asset_id: 95382
+      name: ab00.1b
+      size: 2048
+      blob_id: 1131
+    - id: 558200
+      asset_id: 95382
+      name: ab01.3b
+      size: 2048
+      blob_id: 1141
+    - id: 558201
+      asset_id: 95382
+      name: ab02.4b
+      size: 2048
+      blob_id: 1140
+    - id: 558202
+      asset_id: 95382
+      name: ab03.6b
+      size: 2048
+      blob_id: 1139
+    - id: 558203
+      asset_id: 95382
+      name: ab10.10k
+      size: 4096
+      blob_id: 1133
+    - id: 558204
+      asset_id: 95382
+      name: ab11.12k
+      size: 4096
+      blob_id: 1132
+    - id: 558205
+      asset_id: 95382
+      name: ab13.9k
+      size: 4096
+      blob_id: 1130
+    - id: 558206
+      asset_id: 95382
+      name: ab14.12h
+      size: 4096
+      blob_id: 1129
+    - id: 558207
+      asset_id: 95382
+      name: ab9.15k
+      size: 4096
+      blob_id: 1127
+- release:
+    id: 80693
+    game_id: 86
+    description: ""
+    release_date: 19820000
+  names:
+  - id: 205395
+    kind: 3
+    kind_id: 80693
+    language: 1
+    name: Burger Time (Data East USA)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 95383
+      kind: 3
+      kind_id: 80693
+      type: 1
+      name: btime3.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 558208
+      asset_id: 95383
+      name: ab00-1.1b
+      size: 2048
+      blob_id: 1131
+    - id: 558209
+      asset_id: 95383
+      name: ab01-1.3b
+      size: 2048
+      blob_id: 1141
+    - id: 558210
+      asset_id: 95383
+      name: ab02-1.4b
+      size: 2048
+      blob_id: 1140
+    - id: 558211
+      asset_id: 95383
+      name: ab03-3.6b
+      size: 2048
+      blob_id: 241071
+    - id: 558212
+      asset_id: 95383
+      name: ab04-3.9b
+      size: 4096
+      blob_id: 241072
+    - id: 558213
+      asset_id: 95383
+      name: ab05-3.10b
+      size: 4096
+      blob_id: 241073
+    - id: 558214
+      asset_id: 95383
+      name: ab05a-3.12b
+      size: 4096
+      blob_id: 241074
+    - id: 558215
+      asset_id: 95383
+      name: ab06-3.13b
+      size: 4096
+      blob_id: 241075
+    - id: 558216
+      asset_id: 95383
+      name: ab07-3.15b
+      size: 4096
+      blob_id: 241076
+    - id: 558217
+      asset_id: 95383
+      name: ab10-1.10k
+      size: 4096
+      blob_id: 1133
+    - id: 558218
+      asset_id: 95383
+      name: ab11-1.12k
+      size: 4096
+      blob_id: 1132
+    - id: 558219
+      asset_id: 95383
+      name: ab12-1.7k
+      size: 4096
+      blob_id: 1142
+    - id: 558220
+      asset_id: 95383
+      name: ab13-1.9k
+      size: 4096
+      blob_id: 1130
+    - id: 558221
+      asset_id: 95383
+      name: ab14-1.12h
+      size: 4096
+      blob_id: 1129
+    - id: 558222
+      asset_id: 95383
+      name: ab8-1.13k
+      size: 4096
+      blob_id: 1128
+    - id: 558223
+      asset_id: 95383
+      name: ab9-1.15k
+      size: 4096
+      blob_id: 1127
+- release:
+    id: 80694
+    game_id: 86
+    description: ""
+    release_date: 19820000
+  names:
+  - id: 205396
+    kind: 3
+    kind_id: 80694
+    language: 1
+    name: Burger Time (Midway)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 95384
+      kind: 3
+      kind_id: 80694
+      type: 1
+      name: btimem.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 558224
+      asset_id: 95384
+      name: ab00.1b
+      size: 2048
+      blob_id: 1131
+    - id: 558225
+      asset_id: 95384
+      name: ab01.3b
+      size: 2048
+      blob_id: 1141
+    - id: 558226
+      asset_id: 95384
+      name: ab02.4b
+      size: 2048
+      blob_id: 1140
+    - id: 558227
+      asset_id: 95384
+      name: ab03.6b
+      size: 2048
+      blob_id: 1139
+    - id: 558228
+      asset_id: 95384
+      name: ab04.9b
+      size: 4096
+      blob_id: 1138
+    - id: 558229
+      asset_id: 95384
+      name: ab05.10b
+      size: 4096
+      blob_id: 1137
+    - id: 558230
+      asset_id: 95384
+      name: ab05a1.12b
+      size: 4096
+      blob_id: 1136
+    - id: 558231
+      asset_id: 95384
+      name: ab06.13b
+      size: 4096
+      blob_id: 1135
+    - id: 558232
+      asset_id: 95384
+      name: ab07.15b
+      size: 4096
+      blob_id: 1134
+    - id: 558233
+      asset_id: 95384
+      name: ab10.10k
+      size: 4096
+      blob_id: 1133
+    - id: 558234
+      asset_id: 95384
+      name: ab11.12k
+      size: 4096
+      blob_id: 1132
+    - id: 558235
+      asset_id: 95384
+      name: ab12.7k
+      size: 4096
+      blob_id: 1142
+    - id: 558236
+      asset_id: 95384
+      name: ab13.9k
+      size: 4096
+      blob_id: 1130
+    - id: 558237
+      asset_id: 95384
+      name: ab14.12h
+      size: 4096
+      blob_id: 1129
+    - id: 558238
+      asset_id: 95384
+      name: ab8.13k
+      size: 4096
+      blob_id: 1128
+    - id: 558239
+      asset_id: 95384
+      name: ab9.15k
+      size: 4096
+      blob_id: 1127
+- release:
+    id: 81771
+    game_id: 86
+    description: ""
+    release_date: 19820000
+  names:
+  - id: 207079
+    kind: 3
+    kind_id: 81771
+    language: 1
+    name: Cook Race
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 96542
+      kind: 3
+      kind_id: 81771
+      type: 1
+      name: cookrace.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 572178
+      asset_id: 96542
+      name: 1f.1
+      size: 8192
+      blob_id: 21694
+    - id: 572179
+      asset_id: 96542
+      name: 2f.2
+      size: 8192
+      blob_id: 21695
+    - id: 572180
+      asset_id: 96542
+      name: 2f.3
+      size: 4096
+      blob_id: 21696
+    - id: 572181
+      asset_id: 96542
+      name: 2k
+      size: 32
+      blob_id: 209905
+    - id: 572182
+      asset_id: 96542
+      name: 4f.4
+      size: 4096
+      blob_id: 21697
+    - id: 572183
+      asset_id: 96542
+      name: 5f.5
+      size: 4096
+      blob_id: 21698
+    - id: 572184
+      asset_id: 96542
+      name: 6f.6
+      size: 4096
+      blob_id: 21699
+    - id: 572185
+      asset_id: 96542
+      name: b7
+      size: 32
+      blob_id: 209906
+    - id: 572186
+      asset_id: 96542
+      name: f9.clr
+      size: 32
+      blob_id: 209907
+    - id: 572187
+      asset_id: 96542
+      name: m6.9
+      size: 8192
+      blob_id: 21702
+    - id: 572188
+      asset_id: 96542
+      name: m7.8
+      size: 8192
+      blob_id: 21701
+    - id: 572189
+      asset_id: 96542
+      name: m8.7
+      size: 8192
+      blob_id: 21700

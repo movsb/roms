@@ -16,8 +16,34 @@ names:
   language: 2
   name: "城市快打 - 目击 (第一套)"
   source: trimui
+- id: 186797
+  kind: 2
+  kind_id: 1432
+  language: 1
+  name: downtownj
+  source: ""
+- id: 186798
+  kind: 2
+  kind_id: 1432
+  language: 2
+  name: "城市快打 - 目击 (摇杆控制 修改版)"
+  source: trimui
+- id: 189942
+  kind: 2
+  kind_id: 1432
+  language: 1
+  name: DownTown / Mokugeki (set 2)
+  source: mame
+- id: 189943
+  kind: 2
+  kind_id: 1432
+  language: 1
+  name: DownTown / Mokugeki (prototype)
+  source: mame
 game_developers: []
-game_genres: []
+game_genres:
+- game_id: 1432
+  genre_id: 21
 assets: []
 releases:
 - release:
@@ -142,24 +168,10 @@ releases:
       name: ud2001002.9b
       size: 65536
       blob_id: 15609
-- release:
-    id: 41161
-    game_id: 1432
-    description: ""
-    release_date: 19890000
-  names:
-  - id: 113204
-    kind: 3
-    kind_id: 41161
-    language: 1
-    name: DownTown / Mokugeki (set 1)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 54231
+      id: 97844
       kind: 3
-      kind_id: 41161
+      kind_id: 1432
       type: 1
       name: downtown.zip
       description: ""
@@ -168,63 +180,329 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 153784
-      asset_id: 54231
+    - id: 590493
+      asset_id: 97844
       name: ud2-001-000.3c
       size: 262144
       blob_id: 15598
-    - id: 153785
-      asset_id: 54231
+    - id: 590494
+      asset_id: 97844
       name: ud2-001-003.11c
       size: 262144
       blob_id: 15599
-    - id: 153786
-      asset_id: 54231
+    - id: 590495
+      asset_id: 97844
       name: ud2-001-005-t01.2n
       size: 524288
       blob_id: 15600
-    - id: 153787
-      asset_id: 54231
+    - id: 590496
+      asset_id: 97844
       name: ud2-001-006-t02.3n
       size: 524288
       blob_id: 15601
-    - id: 153788
-      asset_id: 54231
+    - id: 590497
+      asset_id: 97844
       name: ud2-001-007-t03.5n
       size: 524288
       blob_id: 15602
-    - id: 153789
-      asset_id: 54231
+    - id: 590498
+      asset_id: 97844
       name: ud2-001-008-t04.6n
       size: 524288
       blob_id: 15603
-    - id: 153790
-      asset_id: 54231
+    - id: 590499
+      asset_id: 97844
       name: ud2-001-009-t05.8n
       size: 524288
       blob_id: 15604
-    - id: 153791
-      asset_id: 54231
+    - id: 590500
+      asset_id: 97844
       name: ud2-001-010-t06.9n
       size: 524288
       blob_id: 15605
-    - id: 153792
-      asset_id: 54231
+    - id: 590501
+      asset_id: 97844
       name: ud2-001-011-t07.14n
       size: 524288
       blob_id: 15606
-    - id: 153793
-      asset_id: 54231
+    - id: 590502
+      asset_id: 97844
       name: ud2-002-004.17c
       size: 262144
       blob_id: 15607
-    - id: 153794
-      asset_id: 54231
+    - id: 590503
+      asset_id: 97844
       name: ud2001001.8b
       size: 65536
       blob_id: 15608
-    - id: 153795
-      asset_id: 54231
+    - id: 590504
+      asset_id: 97844
       name: ud2001002.9b
       size: 65536
       blob_id: 15609
+- release:
+    id: 82968
+    game_id: 1432
+    description: ""
+    release_date: 19890000
+  names:
+  - id: 208843
+    kind: 3
+    kind_id: 82968
+    language: 1
+    name: DownTown / Mokugeki (set 2)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 97845
+      kind: 3
+      kind_id: 82968
+      type: 1
+      name: downtown2.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 590505
+      asset_id: 97845
+      name: ud2-001-000.3c
+      size: 262144
+      blob_id: 15598
+    - id: 590506
+      asset_id: 97845
+      name: ud2-001-003.11c
+      size: 262144
+      blob_id: 15599
+    - id: 590507
+      asset_id: 97845
+      name: ud2-001-005-t01.2n
+      size: 524288
+      blob_id: 15600
+    - id: 590508
+      asset_id: 97845
+      name: ud2-001-006-t02.3n
+      size: 524288
+      blob_id: 15601
+    - id: 590509
+      asset_id: 97845
+      name: ud2-001-007-t03.5n
+      size: 524288
+      blob_id: 15602
+    - id: 590510
+      asset_id: 97845
+      name: ud2-001-008-t04.6n
+      size: 524288
+      blob_id: 15603
+    - id: 590511
+      asset_id: 97845
+      name: ud2-001-009-t05.8n
+      size: 524288
+      blob_id: 15604
+    - id: 590512
+      asset_id: 97845
+      name: ud2-001-010-t06.9n
+      size: 524288
+      blob_id: 15605
+    - id: 590513
+      asset_id: 97845
+      name: ud2-001-011-t07.14n
+      size: 524288
+      blob_id: 15606
+    - id: 590514
+      asset_id: 97845
+      name: ud2-002-004.17c
+      size: 262144
+      blob_id: 15607
+    - id: 590515
+      asset_id: 97845
+      name: ud2000001.8b
+      size: 65536
+      blob_id: 15592
+    - id: 590516
+      asset_id: 97845
+      name: ud2000002.9b
+      size: 65536
+      blob_id: 15593
+- release:
+    id: 82969
+    game_id: 1432
+    description: ""
+    release_date: 19890000
+  names:
+  - id: 208844
+    kind: 3
+    kind_id: 82969
+    language: 1
+    name: DownTown / Mokugeki (prototype)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 97847
+      kind: 3
+      kind_id: 82969
+      type: 1
+      name: downtownp.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 590529
+      asset_id: 97847
+      name: ud2-001-000.3c
+      size: 262144
+      blob_id: 15598
+    - id: 590530
+      asset_id: 97847
+      name: ud2-001-003.11c
+      size: 262144
+      blob_id: 15599
+    - id: 590531
+      asset_id: 97847
+      name: ud2-001-005-t01.2n
+      size: 524288
+      blob_id: 15600
+    - id: 590532
+      asset_id: 97847
+      name: ud2-001-006-t02.3n
+      size: 524288
+      blob_id: 15601
+    - id: 590533
+      asset_id: 97847
+      name: ud2-001-007-t03.5n
+      size: 524288
+      blob_id: 15602
+    - id: 590534
+      asset_id: 97847
+      name: ud2-001-008-t04.6n
+      size: 524288
+      blob_id: 15603
+    - id: 590535
+      asset_id: 97847
+      name: ud2-001-009-t05.8n
+      size: 524288
+      blob_id: 15604
+    - id: 590536
+      asset_id: 97847
+      name: ud2-001-010-t06.9n
+      size: 524288
+      blob_id: 15605
+    - id: 590537
+      asset_id: 97847
+      name: ud2-001-011-t07.14n
+      size: 524288
+      blob_id: 15606
+    - id: 590538
+      asset_id: 97847
+      name: ud2-002-004.17c
+      size: 262144
+      blob_id: 15607
+    - id: 590539
+      asset_id: 97847
+      name: ud2_even_v061.9b
+      size: 65536
+      blob_id: 15596
+    - id: 590540
+      asset_id: 97847
+      name: ud2_odd_v061.8b
+      size: 65536
+      blob_id: 15597
+- release:
+    id: 102920
+    game_id: 1432
+    description: ""
+    release_date: 0
+  names:
+  - id: 237626
+    kind: 3
+    kind_id: 102920
+    language: 1
+    name: downtownj
+    source: ""
+  - id: 237627
+    kind: 3
+    kind_id: 102920
+    language: 2
+    name: "城市快打 - 目击 (摇杆控制 修改版)"
+    source: trimui
+  release_publishers:
+  - release_id: 102920
+    publisher_id: 159
+  assets:
+  - asset:
+      id: 97846
+      kind: 3
+      kind_id: 102920
+      type: 1
+      name: downtownj.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 590517
+      asset_id: 97846
+      name: u31.8b
+      size: 65536
+      blob_id: 15594
+    - id: 590518
+      asset_id: 97846
+      name: u37.9b
+      size: 65536
+      blob_id: 15595
+    - id: 590519
+      asset_id: 97846
+      name: ud2-001-000.3c
+      size: 262144
+      blob_id: 15598
+    - id: 590520
+      asset_id: 97846
+      name: ud2-001-003.11c
+      size: 262144
+      blob_id: 15599
+    - id: 590521
+      asset_id: 97846
+      name: ud2-001-005-t01.2n
+      size: 524288
+      blob_id: 15600
+    - id: 590522
+      asset_id: 97846
+      name: ud2-001-006-t02.3n
+      size: 524288
+      blob_id: 15601
+    - id: 590523
+      asset_id: 97846
+      name: ud2-001-007-t03.5n
+      size: 524288
+      blob_id: 15602
+    - id: 590524
+      asset_id: 97846
+      name: ud2-001-008-t04.6n
+      size: 524288
+      blob_id: 15603
+    - id: 590525
+      asset_id: 97846
+      name: ud2-001-009-t05.8n
+      size: 524288
+      blob_id: 15604
+    - id: 590526
+      asset_id: 97846
+      name: ud2-001-010-t06.9n
+      size: 524288
+      blob_id: 15605
+    - id: 590527
+      asset_id: 97846
+      name: ud2-001-011-t07.14n
+      size: 524288
+      blob_id: 15606
+    - id: 590528
+      asset_id: 97846
+      name: ud2-002-004.17c
+      size: 262144
+      blob_id: 15607

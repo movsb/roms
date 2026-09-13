@@ -10,6 +10,12 @@ names:
   language: 1
   name: cachat
   source: ""
+- id: 200532
+  kind: 2
+  kind_id: 995
+  language: 1
+  name: Tube-It
+  source: mame
 game_developers:
 - game_id: 995
   developer_id: 35
@@ -113,6 +119,48 @@ releases:
       blob_id: 90530
       debug: arcade/wheel/cachat.png
     entries: []
+  - asset:
+      id: 95584
+      kind: 3
+      kind_id: 995
+      type: 1
+      name: cachat.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 561452
+      asset_id: 95584
+      name: cac10
+      size: 131072
+      blob_id: 10520
+    - id: 561453
+      asset_id: 95584
+      name: cac6
+      size: 131072
+      blob_id: 10521
+    - id: 561454
+      asset_id: 95584
+      name: cac7
+      size: 131072
+      blob_id: 10522
+    - id: 561455
+      asset_id: 95584
+      name: cac8
+      size: 131072
+      blob_id: 10523
+    - id: 561456
+      asset_id: 95584
+      name: cac9
+      size: 131072
+      blob_id: 10524
+    - id: 561457
+      asset_id: 95584
+      name: pal20l8b-c63-01.14
+      size: 324
+      blob_id: 10525
 - release:
     id: 996
     game_id: 995
@@ -191,58 +239,48 @@ releases:
       size: 262144
       blob_id: 10528
 - release:
-    id: 38774
+    id: 100423
     game_id: 995
     description: ""
     release_date: 19930000
   names:
-  - id: 108584
+  - id: 233964
     kind: 3
-    kind_id: 38774
+    kind_id: 100423
     language: 1
-    name: Cachat (Japan)
+    name: Tube-It
     source: mame
   release_publishers: []
   assets:
   - asset:
-      id: 51844
+      id: 116349
       kind: 3
-      kind_id: 38774
+      kind_id: 100423
       type: 1
-      name: cachat.zip
+      name: tubeit.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 123434
-      asset_id: 51844
-      name: cac10
-      size: 131072
-      blob_id: 10520
-    - id: 123435
-      asset_id: 51844
-      name: cac6
-      size: 131072
-      blob_id: 10521
-    - id: 123436
-      asset_id: 51844
-      name: cac7
-      size: 131072
-      blob_id: 10522
-    - id: 123437
-      asset_id: 51844
-      name: cac8
-      size: 131072
-      blob_id: 10523
-    - id: 123438
-      asset_id: 51844
-      name: cac9
-      size: 131072
-      blob_id: 10524
-    - id: 123439
-      asset_id: 51844
+    - id: 778582
+      asset_id: 116349
       name: pal20l8b-c63-01.14
       size: 324
       blob_id: 10525
+    - id: 778583
+      asset_id: 116349
+      name: t-i_02.6
+      size: 131072
+      blob_id: 10526
+    - id: 778584
+      asset_id: 116349
+      name: t-i_03.7
+      size: 262144
+      blob_id: 10527
+    - id: 778585
+      asset_id: 116349
+      name: t-i_04.9
+      size: 262144
+      blob_id: 10528

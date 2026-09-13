@@ -10,6 +10,18 @@ names:
   language: 1
   name: gunnail
   source: ""
+- id: 191509
+  kind: 2
+  kind_id: 1927
+  language: 1
+  name: GunNail (bootleg)
+  source: mame
+- id: 191510
+  kind: 2
+  kind_id: 1927
+  language: 1
+  name: GunNail (location test)
+  source: mame
 game_developers:
 - game_id: 1927
   developer_id: 460
@@ -40,78 +52,6 @@ releases:
   - release_id: 1927
     publisher_id: 395
   assets:
-  - asset:
-      id: 1926
-      kind: 3
-      kind_id: 1927
-      type: 1
-      name: gunnail.zip
-      description: ""
-      format: 2
-      size: 1912266
-      blob_id: 0
-      debug: gunnail.zip
-    entries:
-    - id: 31309
-      asset_id: 1926
-      name: 1.u21
-      size: 131072
-      blob_id: 21492
-    - id: 31310
-      asset_id: 1926
-      name: 10_82s123.u96
-      size: 32
-      blob_id: 21493
-    - id: 31311
-      asset_id: 1926
-      name: 3e.u131
-      size: 262144
-      blob_id: 21494
-    - id: 31312
-      asset_id: 1926
-      name: 3o.u133
-      size: 262144
-      blob_id: 21495
-    - id: 31313
-      asset_id: 1926
-      name: 8_82s129.u35
-      size: 256
-      blob_id: 6597
-    - id: 31314
-      asset_id: 1926
-      name: 92077-4.u19
-      size: 1048576
-      blob_id: 21496
-    - id: 31315
-      asset_id: 1926
-      name: 92077-5.u56
-      size: 524288
-      blob_id: 21497
-    - id: 31316
-      asset_id: 1926
-      name: 92077-6.u57
-      size: 524288
-      blob_id: 21498
-    - id: 31317
-      asset_id: 1926
-      name: 92077-7.u134
-      size: 2097152
-      blob_id: 21499
-    - id: 31318
-      asset_id: 1926
-      name: 92077_2.u101
-      size: 65536
-      blob_id: 21500
-    - id: 31319
-      asset_id: 1926
-      name: 9_82s135.u72
-      size: 256
-      blob_id: 5232
-    - id: 437615
-      asset_id: 1926
-      name: nmk004.bin
-      size: 8192
-      blob_id: 21613
   - asset:
       id: 44163
       kind: 3
@@ -287,10 +227,96 @@ releases:
     language: 1
     name: GunNail (28th May. 1992)
     source: mame
-  release_publishers: []
+  - id: 184032
+    kind: 3
+    kind_id: 45496
+    language: 1
+    name: gunnail
+    source: ""
+  - id: 184033
+    kind: 3
+    kind_id: 45496
+    language: 2
+    name: 炮钉 (28th May. 1992)
+    source: trimui
+  release_publishers:
+  - release_id: 45496
+    publisher_id: 395
   assets:
   - asset:
-      id: 58566
+      id: 1926
+      kind: 3
+      kind_id: 45496
+      type: 1
+      name: gunnail.zip
+      description: ""
+      format: 2
+      size: 1912266
+      blob_id: 0
+      debug: gunnail.zip
+    entries:
+    - id: 31309
+      asset_id: 1926
+      name: 1.u21
+      size: 131072
+      blob_id: 21492
+    - id: 31310
+      asset_id: 1926
+      name: 10_82s123.u96
+      size: 32
+      blob_id: 21493
+    - id: 31311
+      asset_id: 1926
+      name: 3e.u131
+      size: 262144
+      blob_id: 21494
+    - id: 31312
+      asset_id: 1926
+      name: 3o.u133
+      size: 262144
+      blob_id: 21495
+    - id: 31313
+      asset_id: 1926
+      name: 8_82s129.u35
+      size: 256
+      blob_id: 6597
+    - id: 31314
+      asset_id: 1926
+      name: 92077-4.u19
+      size: 1048576
+      blob_id: 21496
+    - id: 31315
+      asset_id: 1926
+      name: 92077-5.u56
+      size: 524288
+      blob_id: 21497
+    - id: 31316
+      asset_id: 1926
+      name: 92077-6.u57
+      size: 524288
+      blob_id: 21498
+    - id: 31317
+      asset_id: 1926
+      name: 92077-7.u134
+      size: 2097152
+      blob_id: 21499
+    - id: 31318
+      asset_id: 1926
+      name: 92077_2.u101
+      size: 65536
+      blob_id: 21500
+    - id: 31319
+      asset_id: 1926
+      name: 9_82s135.u72
+      size: 256
+      blob_id: 5232
+    - id: 437615
+      asset_id: 1926
+      name: nmk004.bin
+      size: 8192
+      blob_id: 21613
+  - asset:
+      id: 100679
       kind: 3
       kind_id: 45496
       type: 1
@@ -301,63 +327,401 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 191754
-      asset_id: 58566
+    - id: 623080
+      asset_id: 100679
       name: 1.u21
       size: 131072
       blob_id: 21492
-    - id: 191755
-      asset_id: 58566
+    - id: 623081
+      asset_id: 100679
       name: 10_82s123.u96
       size: 32
       blob_id: 21493
-    - id: 191756
-      asset_id: 58566
+    - id: 623082
+      asset_id: 100679
       name: 3e.u131
       size: 262144
       blob_id: 21494
-    - id: 191757
-      asset_id: 58566
+    - id: 623083
+      asset_id: 100679
       name: 3o.u133
       size: 262144
       blob_id: 21495
-    - id: 191758
-      asset_id: 58566
+    - id: 623084
+      asset_id: 100679
       name: 8_82s129.u35
       size: 256
       blob_id: 6597
-    - id: 191759
-      asset_id: 58566
+    - id: 623085
+      asset_id: 100679
       name: 92077-4.u19
       size: 1048576
       blob_id: 21496
-    - id: 191760
-      asset_id: 58566
+    - id: 623086
+      asset_id: 100679
       name: 92077-5.u56
       size: 524288
       blob_id: 21497
-    - id: 191761
-      asset_id: 58566
+    - id: 623087
+      asset_id: 100679
       name: 92077-6.u57
       size: 524288
       blob_id: 21498
-    - id: 191762
-      asset_id: 58566
+    - id: 623088
+      asset_id: 100679
       name: 92077-7.u134
       size: 2097152
       blob_id: 21499
-    - id: 191763
-      asset_id: 58566
+    - id: 623089
+      asset_id: 100679
       name: 92077_2.u101
       size: 65536
       blob_id: 21500
-    - id: 191764
-      asset_id: 58566
+    - id: 623090
+      asset_id: 100679
       name: 9_82s135.u72
       size: 256
       blob_id: 5232
-    - id: 191765
-      asset_id: 58566
+    - id: 623091
+      asset_id: 100679
       name: nmk-215.bin
       size: 8192
-      blob_id: 99464
+      blob_id: 206135
+  - asset:
+      id: 120477
+      kind: 3
+      kind_id: 45496
+      type: 1
+      name: gunnail.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.259
+    entries:
+    - id: 864261
+      asset_id: 120477
+      name: 1.u21
+      size: 131072
+      blob_id: 21492
+    - id: 864262
+      asset_id: 120477
+      name: 10_82s123.u96
+      size: 32
+      blob_id: 21493
+    - id: 864263
+      asset_id: 120477
+      name: 3e.u131
+      size: 262144
+      blob_id: 21494
+    - id: 864264
+      asset_id: 120477
+      name: 3o.u133
+      size: 262144
+      blob_id: 21495
+    - id: 864265
+      asset_id: 120477
+      name: 8_82s129.u35
+      size: 256
+      blob_id: 6597
+    - id: 864266
+      asset_id: 120477
+      name: 92077-4.u19
+      size: 1048576
+      blob_id: 21496
+    - id: 864267
+      asset_id: 120477
+      name: 92077-5.u56
+      size: 524288
+      blob_id: 21497
+    - id: 864268
+      asset_id: 120477
+      name: 92077-6.u57
+      size: 524288
+      blob_id: 21498
+    - id: 864269
+      asset_id: 120477
+      name: 92077-7.u134
+      size: 2097152
+      blob_id: 21499
+    - id: 864270
+      asset_id: 120477
+      name: 92077_2.u101
+      size: 65536
+      blob_id: 21500
+    - id: 864271
+      asset_id: 120477
+      name: 9_82s135.u72
+      size: 256
+      blob_id: 5232
+- release:
+    id: 85595
+    game_id: 1927
+    description: ""
+    release_date: 19920000
+  names:
+  - id: 212803
+    kind: 3
+    kind_id: 85595
+    language: 1
+    name: GunNail (bootleg)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 100680
+      kind: 3
+      kind_id: 85595
+      type: 1
+      name: gunnailb.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 623092
+      asset_id: 100680
+      name: 27c010.3b
+      size: 131072
+      blob_id: 5489
+    - id: 623093
+      asset_id: 100680
+      name: 27c010.5g
+      size: 131072
+      blob_id: 21501
+    - id: 623094
+      asset_id: 100680
+      name: 27c020.1c
+      size: 262144
+      blob_id: 21502
+    - id: 623095
+      asset_id: 100680
+      name: 27c020.6d
+      size: 262144
+      blob_id: 21503
+    - id: 623096
+      asset_id: 100680
+      name: 27c020.6e
+      size: 262144
+      blob_id: 21504
+    - id: 623097
+      asset_id: 100680
+      name: 27c160.a9
+      size: 2097152
+      blob_id: 21499
+    - id: 623098
+      asset_id: 100680
+      name: 27c160.k10
+      size: 2097152
+      blob_id: 21505
+- release:
+    id: 85596
+    game_id: 1927
+    description: ""
+    release_date: 19920000
+  names:
+  - id: 212804
+    kind: 3
+    kind_id: 85596
+    language: 1
+    name: GunNail (location test)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 100681
+      kind: 3
+      kind_id: 85596
+      type: 1
+      name: gunnailp.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 623099
+      asset_id: 100681
+      name: 1.u21
+      size: 131072
+      blob_id: 21506
+    - id: 623100
+      asset_id: 100681
+      name: 10_82s123.u96
+      size: 32
+      blob_id: 21493
+    - id: 623101
+      asset_id: 100681
+      name: 3.u132
+      size: 524288
+      blob_id: 21507
+    - id: 623102
+      asset_id: 100681
+      name: 8_82s129.u35
+      size: 256
+      blob_id: 6597
+    - id: 623103
+      asset_id: 100681
+      name: 92077-4.u19
+      size: 1048576
+      blob_id: 21496
+    - id: 623104
+      asset_id: 100681
+      name: 92077-5.u56
+      size: 524288
+      blob_id: 21497
+    - id: 623105
+      asset_id: 100681
+      name: 92077-6.u57
+      size: 524288
+      blob_id: 21498
+    - id: 623106
+      asset_id: 100681
+      name: 92077-7.u134
+      size: 2097152
+      blob_id: 21499
+    - id: 623107
+      asset_id: 100681
+      name: 92077_2.u101
+      size: 65536
+      blob_id: 21500
+    - id: 623108
+      asset_id: 100681
+      name: 9_82s135.u72
+      size: 256
+      blob_id: 5232
+    - id: 623109
+      asset_id: 100681
+      name: nmk-215.bin
+      size: 8192
+      blob_id: 206135
+  - asset:
+      id: 118867
+      kind: 3
+      kind_id: 85596
+      type: 1
+      name: gunnailp.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 814594
+      asset_id: 118867
+      name: 1.u21
+      size: 131072
+      blob_id: 21506
+    - id: 814595
+      asset_id: 118867
+      name: 10_82s123.u96
+      size: 32
+      blob_id: 21493
+    - id: 814596
+      asset_id: 118867
+      name: 3.u132
+      size: 524288
+      blob_id: 21507
+    - id: 814597
+      asset_id: 118867
+      name: 8_82s129.u35
+      size: 256
+      blob_id: 6597
+    - id: 814598
+      asset_id: 118867
+      name: 92077-4.u19
+      size: 1048576
+      blob_id: 21496
+    - id: 814599
+      asset_id: 118867
+      name: 92077-5.u56
+      size: 524288
+      blob_id: 21497
+    - id: 814600
+      asset_id: 118867
+      name: 92077-6.u57
+      size: 524288
+      blob_id: 21498
+    - id: 814601
+      asset_id: 118867
+      name: 92077-7.u134
+      size: 2097152
+      blob_id: 21499
+    - id: 814602
+      asset_id: 118867
+      name: 92077_2.u101
+      size: 65536
+      blob_id: 21500
+    - id: 814603
+      asset_id: 118867
+      name: 9_82s135.u72
+      size: 256
+      blob_id: 5232
+    - id: 814604
+      asset_id: 118867
+      name: nmk004.bin
+      size: 8192
+      blob_id: 21613
+  - asset:
+      id: 120478
+      kind: 3
+      kind_id: 85596
+      type: 1
+      name: gunnailp.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.259
+    entries:
+    - id: 864272
+      asset_id: 120478
+      name: 1.u21
+      size: 131072
+      blob_id: 21506
+    - id: 864273
+      asset_id: 120478
+      name: 10_82s123.u96
+      size: 32
+      blob_id: 21493
+    - id: 864274
+      asset_id: 120478
+      name: 3.u132
+      size: 524288
+      blob_id: 21507
+    - id: 864275
+      asset_id: 120478
+      name: 8_82s129.u35
+      size: 256
+      blob_id: 6597
+    - id: 864276
+      asset_id: 120478
+      name: 92077-4.u19
+      size: 1048576
+      blob_id: 21496
+    - id: 864277
+      asset_id: 120478
+      name: 92077-5.u56
+      size: 524288
+      blob_id: 21497
+    - id: 864278
+      asset_id: 120478
+      name: 92077-6.u57
+      size: 524288
+      blob_id: 21498
+    - id: 864279
+      asset_id: 120478
+      name: 92077-7.u134
+      size: 2097152
+      blob_id: 21499
+    - id: 864280
+      asset_id: 120478
+      name: 92077_2.u101
+      size: 65536
+      blob_id: 21500
+    - id: 864281
+      asset_id: 120478
+      name: 9_82s135.u72
+      size: 256
+      blob_id: 5232

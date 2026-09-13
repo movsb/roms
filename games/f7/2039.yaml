@@ -16,6 +16,18 @@ names:
   language: 2
   name: 驼背骑士运动会
   source: trimui
+- id: 191657
+  kind: 2
+  kind_id: 2039
+  language: 1
+  name: Herbie at the Olympics (DK conversion)
+  source: mame
+- id: 191703
+  kind: 2
+  kind_id: 2039
+  language: 1
+  name: Hunchback Olympic (Scramble hardware)
+  source: mame
 game_developers:
 - game_id: 2039
   developer_id: 483
@@ -144,24 +156,10 @@ releases:
       blob_id: 86732
       debug: arcade/wheel/huncholy.png
     entries: []
-- release:
-    id: 46287
-    game_id: 2039
-    description: ""
-    release_date: 19840000
-  names:
-  - id: 123213
-    kind: 3
-    kind_id: 46287
-    language: 1
-    name: Hunchback Olympic
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 59357
+      id: 101289
       kind: 3
-      kind_id: 46287
+      kind_id: 2039
       type: 1
       name: huncholy.zip
       description: ""
@@ -170,68 +168,265 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 200329
-      asset_id: 59357
+    - id: 630946
+      asset_id: 101289
       name: 5b.bin
       size: 2048
       blob_id: 2243
-    - id: 200330
-      asset_id: 59357
+    - id: 630947
+      asset_id: 101289
       name: 82s123.10k
       size: 32
       blob_id: 13154
-    - id: 200331
-      asset_id: 59357
+    - id: 630948
+      asset_id: 101289
       name: 82s185.10h
       size: 2048
       blob_id: 13155
-    - id: 200332
-      asset_id: 59357
+    - id: 630949
+      asset_id: 101289
       name: ho-cp1.bin
       size: 2048
       blob_id: 22801
-    - id: 200333
-      asset_id: 59357
+    - id: 630950
+      asset_id: 101289
       name: ho-cp2.bin
       size: 2048
       blob_id: 22802
-    - id: 200334
-      asset_id: 59357
+    - id: 630951
+      asset_id: 101289
       name: ho-cp3.bin
       size: 2048
       blob_id: 22803
-    - id: 200335
-      asset_id: 59357
+    - id: 630952
+      asset_id: 101289
       name: ho-gp1.bin
       size: 4096
       blob_id: 22804
-    - id: 200336
-      asset_id: 59357
+    - id: 630953
+      asset_id: 101289
       name: ho-gp2.bin
       size: 4096
       blob_id: 22805
-    - id: 200337
-      asset_id: 59357
+    - id: 630954
+      asset_id: 101289
       name: ho-gp3.bin
       size: 4096
       blob_id: 22806
-    - id: 200338
-      asset_id: 59357
+    - id: 630955
+      asset_id: 101289
       name: ho-gp4.bin
       size: 4096
       blob_id: 22807
-    - id: 200339
-      asset_id: 59357
+    - id: 630956
+      asset_id: 101289
       name: ho-gp5.bin
       size: 4096
       blob_id: 22808
-    - id: 200340
-      asset_id: 59357
+    - id: 630957
+      asset_id: 101289
       name: ho-sdp1.bin
       size: 4096
       blob_id: 22809
-    - id: 200341
-      asset_id: 59357
+    - id: 630958
+      asset_id: 101289
       name: ho-sp1.bin
       size: 4096
       blob_id: 22810
+- release:
+    id: 104144
+    game_id: 2039
+    description: ""
+    release_date: 19840000
+  names:
+  - id: 239120
+    kind: 3
+    kind_id: 104144
+    language: 1
+    name: Herbie at the Olympics (DK conversion)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 100956
+      kind: 3
+      kind_id: 104144
+      type: 1
+      name: herbiedk.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 626628
+      asset_id: 100956
+      name: 3i.snd
+      size: 2048
+      blob_id: 221500
+    - id: 626629
+      asset_id: 100956
+      name: 5f.cpu
+      size: 4096
+      blob_id: 221501
+    - id: 626630
+      asset_id: 100956
+      name: 5g.cpu
+      size: 4096
+      blob_id: 221502
+    - id: 626631
+      asset_id: 100956
+      name: 5h.cpu
+      size: 4096
+      blob_id: 221503
+    - id: 626632
+      asset_id: 100956
+      name: 5h.vid
+      size: 2048
+      blob_id: 221504
+    - id: 626633
+      asset_id: 100956
+      name: 5k.cpu
+      size: 4096
+      blob_id: 221505
+    - id: 626634
+      asset_id: 100956
+      name: 5k.vid
+      size: 2048
+      blob_id: 221506
+    - id: 626635
+      asset_id: 100956
+      name: 74s287.2j
+      size: 256
+      blob_id: 221507
+    - id: 626636
+      asset_id: 100956
+      name: 74s287.2k
+      size: 256
+      blob_id: 221508
+    - id: 626637
+      asset_id: 100956
+      name: 74s287.vid
+      size: 256
+      blob_id: 221509
+    - id: 626638
+      asset_id: 100956
+      name: 7c.clk
+      size: 2048
+      blob_id: 221510
+    - id: 626639
+      asset_id: 100956
+      name: 7d.clk
+      size: 2048
+      blob_id: 221511
+    - id: 626640
+      asset_id: 100956
+      name: 7e.clk
+      size: 2048
+      blob_id: 221512
+    - id: 626641
+      asset_id: 100956
+      name: 7f.clk
+      size: 2048
+      blob_id: 221513
+    - id: 626642
+      asset_id: 100956
+      name: 82s147.hh
+      size: 512
+      blob_id: 22138
+    - id: 626643
+      asset_id: 100956
+      name: pls153h.bin
+      size: 235
+      blob_id: 221514
+- release:
+    id: 104151
+    game_id: 2039
+    description: ""
+    release_date: 19840000
+  names:
+  - id: 239127
+    kind: 3
+    kind_id: 104151
+    language: 1
+    name: Hunchback Olympic (Scramble hardware)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 101048
+      kind: 3
+      kind_id: 104151
+      type: 1
+      name: hncholms.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 628237
+      asset_id: 101048
+      name: 82s147.1a
+      size: 512
+      blob_id: 221825
+    - id: 628238
+      asset_id: 101048
+      name: hncholym.2d
+      size: 2048
+      blob_id: 221826
+    - id: 628239
+      asset_id: 101048
+      name: hncholym.2e
+      size: 2048
+      blob_id: 221827
+    - id: 628240
+      asset_id: 101048
+      name: hncholym.2f
+      size: 2048
+      blob_id: 221828
+    - id: 628241
+      asset_id: 101048
+      name: hncholym.2h
+      size: 2048
+      blob_id: 221829
+    - id: 628242
+      asset_id: 101048
+      name: hncholym.2j
+      size: 2048
+      blob_id: 221830
+    - id: 628243
+      asset_id: 101048
+      name: hncholym.2l
+      size: 2048
+      blob_id: 221831
+    - id: 628244
+      asset_id: 101048
+      name: hncholym.2m
+      size: 2048
+      blob_id: 221832
+    - id: 628245
+      asset_id: 101048
+      name: hncholym.2p
+      size: 2048
+      blob_id: 221833
+    - id: 628246
+      asset_id: 101048
+      name: hncholym.5c
+      size: 2048
+      blob_id: 221834
+    - id: 628247
+      asset_id: 101048
+      name: hncholym.5f
+      size: 4096
+      blob_id: 221835
+    - id: 628248
+      asset_id: 101048
+      name: hncholym.5h
+      size: 4096
+      blob_id: 221836
+    - id: 628249
+      asset_id: 101048
+      name: prom.6e
+      size: 32
+      blob_id: 901

@@ -16,6 +16,24 @@ names:
   language: 2
   name: 星战四人组 (修订版 A, 8751 317-未知)
   source: trimui
+- id: 195334
+  kind: 2
+  kind_id: 3266
+  language: 1
+  name: Quartet 2 (8751 317-0010)
+  source: mame
+- id: 195335
+  kind: 2
+  kind_id: 3266
+  language: 1
+  name: Quartet 2 (unprotected)
+  source: mame
+- id: 195336
+  kind: 2
+  kind_id: 3266
+  language: 1
+  name: Quartet (8751 315-5194)
+  source: mame
 game_developers:
 - game_id: 3266
   developer_id: 110
@@ -214,154 +232,586 @@ releases:
       blob_id: 88429
       debug: arcade/wheel/quartet.png
     entries: []
-- release:
-    id: 62843
-    game_id: 3266
-    description: ""
-    release_date: 19860000
-  names:
-  - id: 155951
-    kind: 3
-    kind_id: 62843
-    language: 1
-    name: Quartet (Rev A, 8751 315-5194)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 75913
+      id: 108548
       kind: 3
-      kind_id: 62843
+      kind_id: 3266
       type: 1
       name: quartet.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
-      debug: dat:mame:0.289
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/1320745467
     entries:
-    - id: 313599
-      asset_id: 75913
+    - id: 707032
+      asset_id: 108548
       name: 315-5193.pls153.8j
       size: 235
       blob_id: 34759
-    - id: 313600
-      asset_id: 75913
+    - id: 707033
+      asset_id: 108548
       name: 315-5194.mcu
       size: 4096
-      blob_id: 163314
-    - id: 313601
-      asset_id: 75913
+      blob_id: 300545
+    - id: 707034
+      asset_id: 108548
       name: 7751.bin
       size: 1024
       blob_id: 2912
-    - id: 313602
-      asset_id: 75913
+    - id: 707035
+      asset_id: 108548
       name: epr-7455a.6b
       size: 32768
       blob_id: 34737
-    - id: 313603
-      asset_id: 75913
+    - id: 707036
+      asset_id: 108548
       name: epr-7456a.7b
       size: 32768
       blob_id: 34738
-    - id: 313604
-      asset_id: 75913
+    - id: 707037
+      asset_id: 108548
       name: epr-7457.8b
       size: 32768
       blob_id: 34739
-    - id: 313605
-      asset_id: 75913
+    - id: 707038
+      asset_id: 108548
       name: epr-7458a.9b
       size: 32768
       blob_id: 34740
-    - id: 313606
-      asset_id: 75913
+    - id: 707039
+      asset_id: 108548
       name: epr-7459a.10b
       size: 32768
       blob_id: 34741
-    - id: 313607
-      asset_id: 75913
+    - id: 707040
+      asset_id: 108548
       name: epr-7460.11b
       size: 32768
       blob_id: 34742
-    - id: 313608
-      asset_id: 75913
+    - id: 707041
+      asset_id: 108548
       name: epr-7461.9c
       size: 32768
       blob_id: 34743
-    - id: 313609
-      asset_id: 75913
+    - id: 707042
+      asset_id: 108548
       name: epr-7462.10c
       size: 32768
       blob_id: 34744
-    - id: 313610
-      asset_id: 75913
+    - id: 707043
+      asset_id: 108548
       name: epr-7463.11c
       size: 32768
       blob_id: 34745
-    - id: 313611
-      asset_id: 75913
+    - id: 707044
+      asset_id: 108548
       name: epr-7464.1b
       size: 32768
       blob_id: 34746
-    - id: 313612
-      asset_id: 75913
+    - id: 707045
+      asset_id: 108548
       name: epr-7465.5c
       size: 32768
       blob_id: 34747
-    - id: 313613
-      asset_id: 75913
+    - id: 707046
+      asset_id: 108548
       name: epr-7466.6c
       size: 32768
       blob_id: 34748
-    - id: 313614
-      asset_id: 75913
+    - id: 707047
+      asset_id: 108548
       name: epr-7467.7c
       size: 32768
       blob_id: 34749
-    - id: 313615
-      asset_id: 75913
+    - id: 707048
+      asset_id: 108548
       name: epr-7468.8c
       size: 32768
       blob_id: 34750
-    - id: 313616
-      asset_id: 75913
+    - id: 707049
+      asset_id: 108548
       name: epr-7469.2b
       size: 32768
       blob_id: 34751
-    - id: 313617
-      asset_id: 75913
+    - id: 707050
+      asset_id: 108548
       name: epr-7470.3b
       size: 32768
       blob_id: 34752
-    - id: 313618
-      asset_id: 75913
+    - id: 707051
+      asset_id: 108548
       name: epr-7471.4b
       size: 32768
       blob_id: 34753
-    - id: 313619
-      asset_id: 75913
+    - id: 707052
+      asset_id: 108548
       name: epr-7472.5b
       size: 32768
       blob_id: 34754
-    - id: 313620
-      asset_id: 75913
+    - id: 707053
+      asset_id: 108548
       name: epr-7473.1c
       size: 32768
       blob_id: 34755
-    - id: 313621
-      asset_id: 75913
+    - id: 707054
+      asset_id: 108548
       name: epr-7474.3c
       size: 32768
       blob_id: 34756
-    - id: 313622
-      asset_id: 75913
+    - id: 707055
+      asset_id: 108548
       name: epr-7475.2c
       size: 32768
       blob_id: 34757
-    - id: 313623
-      asset_id: 75913
+    - id: 707056
+      asset_id: 108548
+      name: epr-7476.4c
+      size: 32768
+      blob_id: 34758
+- release:
+    id: 93013
+    game_id: 3266
+    description: ""
+    release_date: 19860000
+  names:
+  - id: 224222
+    kind: 3
+    kind_id: 93013
+    language: 1
+    name: Quartet 2 (8751 317-0010)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 108549
+      kind: 3
+      kind_id: 93013
+      type: 1
+      name: quartet2.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/225383778
+    entries:
+    - id: 707057
+      asset_id: 108549
+      name: 317-0010.bin
+      size: 4096
+      blob_id: 300546
+    - id: 707058
+      asset_id: 108549
+      name: 7751.bin
+      size: 1024
+      blob_id: 2912
+    - id: 707059
+      asset_id: 108549
+      name: epr-7464.1b
+      size: 32768
+      blob_id: 34746
+    - id: 707060
+      asset_id: 108549
+      name: epr-7465.5c
+      size: 32768
+      blob_id: 34747
+    - id: 707061
+      asset_id: 108549
+      name: epr-7466.6c
+      size: 32768
+      blob_id: 34748
+    - id: 707062
+      asset_id: 108549
+      name: epr-7467.7c
+      size: 32768
+      blob_id: 34749
+    - id: 707063
+      asset_id: 108549
+      name: epr-7468.8c
+      size: 32768
+      blob_id: 34750
+    - id: 707064
+      asset_id: 108549
+      name: epr-7469.2b
+      size: 32768
+      blob_id: 34751
+    - id: 707065
+      asset_id: 108549
+      name: epr-7470.3b
+      size: 32768
+      blob_id: 34752
+    - id: 707066
+      asset_id: 108549
+      name: epr-7471.4b
+      size: 32768
+      blob_id: 34753
+    - id: 707067
+      asset_id: 108549
+      name: epr-7472.5b
+      size: 32768
+      blob_id: 34754
+    - id: 707068
+      asset_id: 108549
+      name: epr-7473.1c
+      size: 32768
+      blob_id: 34755
+    - id: 707069
+      asset_id: 108549
+      name: epr-7474.3c
+      size: 32768
+      blob_id: 34756
+    - id: 707070
+      asset_id: 108549
+      name: epr-7475.2c
+      size: 32768
+      blob_id: 34757
+    - id: 707071
+      asset_id: 108549
+      name: epr-7476.4c
+      size: 32768
+      blob_id: 34758
+    - id: 707072
+      asset_id: 108549
+      name: epr-7692.b6
+      size: 32768
+      blob_id: 300547
+    - id: 707073
+      asset_id: 108549
+      name: epr-7693.b7
+      size: 32768
+      blob_id: 300548
+    - id: 707074
+      asset_id: 108549
+      name: epr-7694.b8
+      size: 32768
+      blob_id: 300549
+    - id: 707075
+      asset_id: 108549
+      name: epr-7695.b9
+      size: 32768
+      blob_id: 300550
+    - id: 707076
+      asset_id: 108549
+      name: epr-7696.b10
+      size: 32768
+      blob_id: 300551
+    - id: 707077
+      asset_id: 108549
+      name: epr-7697.b11
+      size: 32768
+      blob_id: 300552
+    - id: 707078
+      asset_id: 108549
+      name: epr-7698.c9
+      size: 32768
+      blob_id: 300553
+    - id: 707079
+      asset_id: 108549
+      name: epr-7699.c10
+      size: 32768
+      blob_id: 300554
+    - id: 707080
+      asset_id: 108549
+      name: epr-7700.c11
+      size: 32768
+      blob_id: 300555
+- release:
+    id: 93014
+    game_id: 3266
+    description: ""
+    release_date: 19860000
+  names:
+  - id: 224223
+    kind: 3
+    kind_id: 93014
+    language: 1
+    name: Quartet 2 (unprotected)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 108550
+      kind: 3
+      kind_id: 93014
+      type: 1
+      name: quartet2a.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/1023118133
+    entries:
+    - id: 707081
+      asset_id: 108550
+      name: 7751.bin
+      size: 1024
+      blob_id: 2912
+    - id: 707082
+      asset_id: 108550
+      name: epr-7464.1b
+      size: 32768
+      blob_id: 34746
+    - id: 707083
+      asset_id: 108550
+      name: epr-7465.5c
+      size: 32768
+      blob_id: 34747
+    - id: 707084
+      asset_id: 108550
+      name: epr-7466.6c
+      size: 32768
+      blob_id: 34748
+    - id: 707085
+      asset_id: 108550
+      name: epr-7467.7c
+      size: 32768
+      blob_id: 34749
+    - id: 707086
+      asset_id: 108550
+      name: epr-7468.8c
+      size: 32768
+      blob_id: 34750
+    - id: 707087
+      asset_id: 108550
+      name: epr-7469.2b
+      size: 32768
+      blob_id: 34751
+    - id: 707088
+      asset_id: 108550
+      name: epr-7470.3b
+      size: 32768
+      blob_id: 34752
+    - id: 707089
+      asset_id: 108550
+      name: epr-7471.4b
+      size: 32768
+      blob_id: 34753
+    - id: 707090
+      asset_id: 108550
+      name: epr-7472.5b
+      size: 32768
+      blob_id: 34754
+    - id: 707091
+      asset_id: 108550
+      name: epr-7473.1c
+      size: 32768
+      blob_id: 34755
+    - id: 707092
+      asset_id: 108550
+      name: epr-7474.3c
+      size: 32768
+      blob_id: 34756
+    - id: 707093
+      asset_id: 108550
+      name: epr-7475.2c
+      size: 32768
+      blob_id: 34757
+    - id: 707094
+      asset_id: 108550
+      name: epr-7476.4c
+      size: 32768
+      blob_id: 34758
+    - id: 707095
+      asset_id: 108550
+      name: epr-7694.b8
+      size: 32768
+      blob_id: 300549
+    - id: 707096
+      asset_id: 108550
+      name: epr-7697.b11
+      size: 32768
+      blob_id: 300552
+    - id: 707097
+      asset_id: 108550
+      name: epr-7698.c9
+      size: 32768
+      blob_id: 300553
+    - id: 707098
+      asset_id: 108550
+      name: epr-7699.c10
+      size: 32768
+      blob_id: 300554
+    - id: 707099
+      asset_id: 108550
+      name: epr-7700.c11
+      size: 32768
+      blob_id: 300555
+    - id: 707100
+      asset_id: 108550
+      name: epr-7725.b6
+      size: 32768
+      blob_id: 300556
+    - id: 707101
+      asset_id: 108550
+      name: epr-7726.b7
+      size: 32768
+      blob_id: 300557
+    - id: 707102
+      asset_id: 108550
+      name: epr-7728.b9
+      size: 32768
+      blob_id: 300558
+    - id: 707103
+      asset_id: 108550
+      name: epr-7729.b10
+      size: 32768
+      blob_id: 300559
+- release:
+    id: 93015
+    game_id: 3266
+    description: ""
+    release_date: 19860000
+  names:
+  - id: 224224
+    kind: 3
+    kind_id: 93015
+    language: 1
+    name: Quartet (8751 315-5194)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 108551
+      kind: 3
+      kind_id: 93015
+      type: 1
+      name: quarteta.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/3198588599
+    entries:
+    - id: 707104
+      asset_id: 108551
+      name: 315-5193.pls153.8j
+      size: 235
+      blob_id: 34759
+    - id: 707105
+      asset_id: 108551
+      name: 315-5194.mcu
+      size: 4096
+      blob_id: 300545
+    - id: 707106
+      asset_id: 108551
+      name: 7751.bin
+      size: 1024
+      blob_id: 2912
+    - id: 707107
+      asset_id: 108551
+      name: epr-7455.6b
+      size: 32768
+      blob_id: 300560
+    - id: 707108
+      asset_id: 108551
+      name: epr-7456.7b
+      size: 32768
+      blob_id: 300561
+    - id: 707109
+      asset_id: 108551
+      name: epr-7457.8b
+      size: 32768
+      blob_id: 34739
+    - id: 707110
+      asset_id: 108551
+      name: epr-7458.9b
+      size: 32768
+      blob_id: 300562
+    - id: 707111
+      asset_id: 108551
+      name: epr-7459.10b
+      size: 32768
+      blob_id: 300563
+    - id: 707112
+      asset_id: 108551
+      name: epr-7460.11b
+      size: 32768
+      blob_id: 34742
+    - id: 707113
+      asset_id: 108551
+      name: epr-7461.9c
+      size: 32768
+      blob_id: 34743
+    - id: 707114
+      asset_id: 108551
+      name: epr-7462.10c
+      size: 32768
+      blob_id: 34744
+    - id: 707115
+      asset_id: 108551
+      name: epr-7463.11c
+      size: 32768
+      blob_id: 34745
+    - id: 707116
+      asset_id: 108551
+      name: epr-7464.1b
+      size: 32768
+      blob_id: 34746
+    - id: 707117
+      asset_id: 108551
+      name: epr-7465.5c
+      size: 32768
+      blob_id: 34747
+    - id: 707118
+      asset_id: 108551
+      name: epr-7466.6c
+      size: 32768
+      blob_id: 34748
+    - id: 707119
+      asset_id: 108551
+      name: epr-7467.7c
+      size: 32768
+      blob_id: 34749
+    - id: 707120
+      asset_id: 108551
+      name: epr-7468.8c
+      size: 32768
+      blob_id: 34750
+    - id: 707121
+      asset_id: 108551
+      name: epr-7469.2b
+      size: 32768
+      blob_id: 34751
+    - id: 707122
+      asset_id: 108551
+      name: epr-7470.3b
+      size: 32768
+      blob_id: 34752
+    - id: 707123
+      asset_id: 108551
+      name: epr-7471.4b
+      size: 32768
+      blob_id: 34753
+    - id: 707124
+      asset_id: 108551
+      name: epr-7472.5b
+      size: 32768
+      blob_id: 34754
+    - id: 707125
+      asset_id: 108551
+      name: epr-7473.1c
+      size: 32768
+      blob_id: 34755
+    - id: 707126
+      asset_id: 108551
+      name: epr-7474.3c
+      size: 32768
+      blob_id: 34756
+    - id: 707127
+      asset_id: 108551
+      name: epr-7475.2c
+      size: 32768
+      blob_id: 34757
+    - id: 707128
+      asset_id: 108551
       name: epr-7476.4c
       size: 32768
       blob_id: 34758

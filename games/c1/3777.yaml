@@ -16,6 +16,18 @@ names:
   language: 2
   name: 骸牙 (欧版 1.13)
   source: trimui
+- id: 199130
+  kind: 2
+  kind_id: 3777
+  language: 1
+  name: "Skull Fang - Kuhga Gaiden (Asia 1.13)"
+  source: mame
+- id: 199131
+  kind: 2
+  kind_id: 3777
+  language: 1
+  name: "Skull Fang - Kuhga Gaiden (Japan 1.09)"
+  source: mame
 game_developers: []
 game_genres: []
 assets: []
@@ -132,24 +144,10 @@ releases:
       name: sw02-0.6h
       size: 524288
       blob_id: 40550
-- release:
-    id: 70480
-    game_id: 3777
-    description: ""
-    release_date: 19960000
-  names:
-  - id: 171063
-    kind: 3
-    kind_id: 70480
-    language: 1
-    name: Skull Fang (Europe 1.13)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 83550
+      id: 113666
       kind: 3
-      kind_id: 70480
+      kind_id: 3777
       type: 1
       name: skullfng.zip
       description: ""
@@ -158,63 +156,235 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 366579
-      asset_id: 83550
+    - id: 746955
+      asset_id: 113666
       name: mch-00.2e
       size: 2097152
       blob_id: 40535
-    - id: 366580
-      asset_id: 83550
+    - id: 746956
+      asset_id: 113666
       name: mch-01.8m
       size: 2097152
       blob_id: 40536
-    - id: 366581
-      asset_id: 83550
+    - id: 746957
+      asset_id: 113666
       name: mch-02.4e
       size: 2097152
       blob_id: 40537
-    - id: 366582
-      asset_id: 83550
+    - id: 746958
+      asset_id: 113666
       name: mch-03.10m
       size: 2097152
       blob_id: 40538
-    - id: 366583
-      asset_id: 83550
+    - id: 746959
+      asset_id: 113666
       name: mch-04.6e
       size: 2097152
       blob_id: 40539
-    - id: 366584
-      asset_id: 83550
+    - id: 746960
+      asset_id: 113666
       name: mch-05.11m
       size: 2097152
       blob_id: 40540
-    - id: 366585
-      asset_id: 83550
+    - id: 746961
+      asset_id: 113666
       name: mch-06.6a
       size: 2097152
       blob_id: 40541
-    - id: 366586
-      asset_id: 83550
+    - id: 746962
+      asset_id: 113666
       name: mch-07.11j
       size: 2097152
       blob_id: 40542
-    - id: 366587
-      asset_id: 83550
+    - id: 746963
+      asset_id: 113666
       name: skullfng.eeprom
       size: 128
       blob_id: 40543
-    - id: 366588
-      asset_id: 83550
+    - id: 746964
+      asset_id: 113666
       name: sw00-0.2a
       size: 524288
       blob_id: 40548
-    - id: 366589
-      asset_id: 83550
+    - id: 746965
+      asset_id: 113666
       name: sw01-0.2b
       size: 524288
       blob_id: 40549
-    - id: 366590
-      asset_id: 83550
+    - id: 746966
+      asset_id: 113666
       name: sw02-0.6h
       size: 524288
       blob_id: 40550
+- release:
+    id: 97964
+    game_id: 3777
+    description: ""
+    release_date: 19960000
+  names:
+  - id: 230406
+    kind: 3
+    kind_id: 97964
+    language: 1
+    name: "Skull Fang - Kuhga Gaiden (Asia 1.13)"
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 113667
+      kind: 3
+      kind_id: 97964
+      type: 1
+      name: skullfnga.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 746967
+      asset_id: 113667
+      name: mch-00.2e
+      size: 2097152
+      blob_id: 40535
+    - id: 746968
+      asset_id: 113667
+      name: mch-01.8m
+      size: 2097152
+      blob_id: 40536
+    - id: 746969
+      asset_id: 113667
+      name: mch-02.4e
+      size: 2097152
+      blob_id: 40537
+    - id: 746970
+      asset_id: 113667
+      name: mch-03.10m
+      size: 2097152
+      blob_id: 40538
+    - id: 746971
+      asset_id: 113667
+      name: mch-04.6e
+      size: 2097152
+      blob_id: 40539
+    - id: 746972
+      asset_id: 113667
+      name: mch-05.11m
+      size: 2097152
+      blob_id: 40540
+    - id: 746973
+      asset_id: 113667
+      name: mch-06.6a
+      size: 2097152
+      blob_id: 40541
+    - id: 746974
+      asset_id: 113667
+      name: mch-07.11j
+      size: 2097152
+      blob_id: 40542
+    - id: 746975
+      asset_id: 113667
+      name: skullfng.eeprom
+      size: 128
+      blob_id: 40543
+    - id: 746976
+      asset_id: 113667
+      name: sx00-0.2a
+      size: 524288
+      blob_id: 40544
+    - id: 746977
+      asset_id: 113667
+      name: sx01-0.2b
+      size: 524288
+      blob_id: 40545
+    - id: 746978
+      asset_id: 113667
+      name: sx02-0.6h
+      size: 524288
+      blob_id: 40550
+- release:
+    id: 97965
+    game_id: 3777
+    description: ""
+    release_date: 19960000
+  names:
+  - id: 230407
+    kind: 3
+    kind_id: 97965
+    language: 1
+    name: "Skull Fang - Kuhga Gaiden (Japan 1.09)"
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 113668
+      kind: 3
+      kind_id: 97965
+      type: 1
+      name: skullfngj.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 746979
+      asset_id: 113668
+      name: mch-00.2e
+      size: 2097152
+      blob_id: 40535
+    - id: 746980
+      asset_id: 113668
+      name: mch-01.8m
+      size: 2097152
+      blob_id: 40536
+    - id: 746981
+      asset_id: 113668
+      name: mch-02.4e
+      size: 2097152
+      blob_id: 40537
+    - id: 746982
+      asset_id: 113668
+      name: mch-03.10m
+      size: 2097152
+      blob_id: 40538
+    - id: 746983
+      asset_id: 113668
+      name: mch-04.6e
+      size: 2097152
+      blob_id: 40539
+    - id: 746984
+      asset_id: 113668
+      name: mch-05.11m
+      size: 2097152
+      blob_id: 40540
+    - id: 746985
+      asset_id: 113668
+      name: mch-06.6a
+      size: 2097152
+      blob_id: 40541
+    - id: 746986
+      asset_id: 113668
+      name: mch-07.11j
+      size: 2097152
+      blob_id: 40542
+    - id: 746987
+      asset_id: 113668
+      name: sh00-0.2a
+      size: 524288
+      blob_id: 40546
+    - id: 746988
+      asset_id: 113668
+      name: sh01-0.2b
+      size: 524288
+      blob_id: 40547
+    - id: 746989
+      asset_id: 113668
+      name: sh02-0.6h
+      size: 524288
+      blob_id: 40550
+    - id: 746990
+      asset_id: 113668
+      name: skullfng.eeprom
+      size: 128
+      blob_id: 40543

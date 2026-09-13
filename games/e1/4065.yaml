@@ -16,6 +16,18 @@ names:
   language: 2
   name: 超级两轮车
   source: trimui
+- id: 195997
+  kind: 2
+  kind_id: 4065
+  language: 1
+  name: Super Bike (DK conversion)
+  source: mame
+- id: 199776
+  kind: 2
+  kind_id: 4065
+  language: 1
+  name: Superbike (Galaxian hardware)
+  source: mame
 game_developers:
 - game_id: 4065
   developer_id: 483
@@ -144,24 +156,10 @@ releases:
       blob_id: 86900
       debug: arcade/wheel/superbik.png
     entries: []
-- release:
-    id: 72326
-    game_id: 4065
-    description: ""
-    release_date: 19830000
-  names:
-  - id: 174651
-    kind: 3
-    kind_id: 72326
-    language: 1
-    name: Superbike
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 85396
+      id: 114824
       kind: 3
-      kind_id: 72326
+      kind_id: 4065
       type: 1
       name: superbik.zip
       description: ""
@@ -170,68 +168,252 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 383775
-      asset_id: 85396
+    - id: 761783
+      asset_id: 114824
       name: 5b.bin
       size: 2048
       blob_id: 2243
-    - id: 383776
-      asset_id: 85396
+    - id: 761784
+      asset_id: 114824
       name: 82s123.10k
       size: 32
       blob_id: 13154
-    - id: 383777
-      asset_id: 85396
+    - id: 761785
+      asset_id: 114824
       name: 82s185.10h
       size: 2048
       blob_id: 13155
-    - id: 383778
-      asset_id: 85396
+    - id: 761786
+      asset_id: 114824
       name: sb-cp1.bin
       size: 2048
       blob_id: 43548
-    - id: 383779
-      asset_id: 85396
+    - id: 761787
+      asset_id: 114824
       name: sb-cp2.bin
       size: 2048
       blob_id: 43549
-    - id: 383780
-      asset_id: 85396
+    - id: 761788
+      asset_id: 114824
       name: sb-cp3.bin
       size: 2048
       blob_id: 43550
-    - id: 383781
-      asset_id: 85396
+    - id: 761789
+      asset_id: 114824
       name: sb-gp1.bin
       size: 4096
       blob_id: 43551
-    - id: 383782
-      asset_id: 85396
+    - id: 761790
+      asset_id: 114824
       name: sb-gp2.bin
       size: 4096
       blob_id: 43552
-    - id: 383783
-      asset_id: 85396
+    - id: 761791
+      asset_id: 114824
       name: sb-gp3.bin
       size: 4096
       blob_id: 43553
-    - id: 383784
-      asset_id: 85396
+    - id: 761792
+      asset_id: 114824
       name: sb-gp4.bin
       size: 4096
       blob_id: 43554
-    - id: 383785
-      asset_id: 85396
+    - id: 761793
+      asset_id: 114824
       name: sb-gp5.bin
       size: 4096
       blob_id: 43555
-    - id: 383786
-      asset_id: 85396
+    - id: 761794
+      asset_id: 114824
       name: sb-sdp1.bin
       size: 2048
       blob_id: 43556
-    - id: 383787
-      asset_id: 85396
+    - id: 761795
+      asset_id: 114824
       name: sb-sp1.bin
       size: 2048
       blob_id: 43557
+- release:
+    id: 99016
+    game_id: 4065
+    description: ""
+    release_date: 19830000
+  names:
+  - id: 231887
+    kind: 3
+    kind_id: 99016
+    language: 1
+    name: Superbike (Galaxian hardware)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 114825
+      kind: 3
+      kind_id: 99016
+      type: 1
+      name: superbikg.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/256185008
+    entries:
+    - id: 761796
+      asset_id: 114825
+      name: m0hj-2716.bin
+      size: 2048
+      blob_id: 271884
+    - id: 761797
+      asset_id: 114825
+      name: m0kl-2716.bin
+      size: 2048
+      blob_id: 271885
+    - id: 761798
+      asset_id: 114825
+      name: mmi6309-mb.bin
+      size: 256
+      blob_id: 304462
+    - id: 761799
+      asset_id: 114825
+      name: mmi6331-db.bin
+      size: 32
+      blob_id: 304463
+    - id: 761800
+      asset_id: 114825
+      name: mmi6331.6l
+      size: 32
+      blob_id: 202730
+    - id: 761801
+      asset_id: 114825
+      name: moto1-2516.bin
+      size: 2048
+      blob_id: 304464
+    - id: 761802
+      asset_id: 114825
+      name: moto2-2516.bin
+      size: 2048
+      blob_id: 304465
+    - id: 761803
+      asset_id: 114825
+      name: moto3-2516.bin
+      size: 2048
+      blob_id: 304466
+    - id: 761804
+      asset_id: 114825
+      name: moto4-2516.bin
+      size: 2048
+      blob_id: 304467
+    - id: 761805
+      asset_id: 114825
+      name: moto5-2532.bin
+      size: 4096
+      blob_id: 304468
+    - id: 761806
+      asset_id: 114825
+      name: moto6-2532.bin
+      size: 4096
+      blob_id: 304469
+- release:
+    id: 104791
+    game_id: 4065
+    description: ""
+    release_date: 19840000
+  names:
+  - id: 239767
+    kind: 3
+    kind_id: 104791
+    language: 1
+    name: Super Bike (DK conversion)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 109730
+      kind: 3
+      kind_id: 104791
+      type: 1
+      name: sbdk.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 722802
+      asset_id: 109730
+      name: 82s147.prm
+      size: 512
+      blob_id: 22138
+    - id: 722803
+      asset_id: 109730
+      name: sb-dk.3h
+      size: 2048
+      blob_id: 271883
+    - id: 722804
+      asset_id: 109730
+      name: sb-dk.3n
+      size: 2048
+      blob_id: 271884
+    - id: 722805
+      asset_id: 109730
+      name: sb-dk.3p
+      size: 2048
+      blob_id: 271885
+    - id: 722806
+      asset_id: 109730
+      name: sb-dk.5a
+      size: 4096
+      blob_id: 271886
+    - id: 722807
+      asset_id: 109730
+      name: sb-dk.7c
+      size: 2048
+      blob_id: 271887
+    - id: 722808
+      asset_id: 109730
+      name: sb-dk.7d
+      size: 2048
+      blob_id: 271888
+    - id: 722809
+      asset_id: 109730
+      name: sb-dk.7e
+      size: 2048
+      blob_id: 271889
+    - id: 722810
+      asset_id: 109730
+      name: sb-dk.7f
+      size: 2048
+      blob_id: 271890
+    - id: 722811
+      asset_id: 109730
+      name: sb-dk.ap
+      size: 4096
+      blob_id: 271891
+    - id: 722812
+      asset_id: 109730
+      name: sb-dk.as
+      size: 4096
+      blob_id: 271892
+    - id: 722813
+      asset_id: 109730
+      name: sb-dk.ay
+      size: 4096
+      blob_id: 271893
+    - id: 722814
+      asset_id: 109730
+      name: sb.2e
+      size: 256
+      blob_id: 271894
+    - id: 722815
+      asset_id: 109730
+      name: sb.2f
+      size: 256
+      blob_id: 271895
+    - id: 722816
+      asset_id: 109730
+      name: sb.2n
+      size: 256
+      blob_id: 222714

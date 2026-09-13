@@ -10,6 +10,30 @@ names:
   language: 1
   name: donpachi
   source: ""
+- id: 189923
+  kind: 2
+  kind_id: 1424
+  language: 1
+  name: DonPachi (Hong Kong)
+  source: mame
+- id: 189924
+  kind: 2
+  kind_id: 1424
+  language: 1
+  name: DonPachi (Japan)
+  source: mame
+- id: 189925
+  kind: 2
+  kind_id: 1424
+  language: 1
+  name: DonPachi (Japan, Satsuei version)
+  source: mame
+- id: 189926
+  kind: 2
+  kind_id: 1424
+  language: 1
+  name: DonPachi (Korea)
+  source: mame
 game_developers:
 - game_id: 1424
   developer_id: 566
@@ -40,68 +64,6 @@ releases:
   - release_id: 1424
     publisher_id: 461
   assets:
-  - asset:
-      id: 1424
-      kind: 3
-      kind_id: 1424
-      type: 1
-      name: donpachi.zip
-      description: ""
-      format: 2
-      size: 4846905
-      blob_id: 0
-      debug: donpachi.zip
-    entries:
-    - id: 22059
-      asset_id: 1424
-      name: atdp.u32
-      size: 1048576
-      blob_id: 15540
-    - id: 22060
-      asset_id: 1424
-      name: atdp.u33
-      size: 2097152
-      blob_id: 15541
-    - id: 22061
-      asset_id: 1424
-      name: atdp.u44
-      size: 2097152
-      blob_id: 15542
-    - id: 22062
-      asset_id: 1424
-      name: atdp.u45
-      size: 2097152
-      blob_id: 15543
-    - id: 22063
-      asset_id: 1424
-      name: atdp.u54
-      size: 1048576
-      blob_id: 15544
-    - id: 22064
-      asset_id: 1424
-      name: atdp.u57
-      size: 1048576
-      blob_id: 15545
-    - id: 22065
-      asset_id: 1424
-      name: eeprom-donpachi.u10
-      size: 128
-      blob_id: 14255
-    - id: 22066
-      asset_id: 1424
-      name: peel18cv8p-15.u18
-      size: 341
-      blob_id: 15546
-    - id: 22067
-      asset_id: 1424
-      name: prgu.u29
-      size: 524288
-      blob_id: 15547
-    - id: 22068
-      asset_id: 1424
-      name: text.u58
-      size: 262144
-      blob_id: 15548
   - asset:
       id: 43494
       kind: 3
@@ -257,10 +219,86 @@ releases:
     language: 1
     name: DonPachi (US)
     source: mame
-  release_publishers: []
+  - id: 184018
+    kind: 3
+    kind_id: 41127
+    language: 1
+    name: donpachi
+    source: ""
+  - id: 184019
+    kind: 3
+    kind_id: 41127
+    language: 2
+    name: 首领蜂 (美版, 版本 1.12, 95/05/2x)
+    source: trimui
+  release_publishers:
+  - release_id: 41127
+    publisher_id: 461
   assets:
   - asset:
-      id: 54197
+      id: 1424
+      kind: 3
+      kind_id: 41127
+      type: 1
+      name: donpachi.zip
+      description: ""
+      format: 2
+      size: 4846905
+      blob_id: 0
+      debug: donpachi.zip
+    entries:
+    - id: 22059
+      asset_id: 1424
+      name: atdp.u32
+      size: 1048576
+      blob_id: 15540
+    - id: 22060
+      asset_id: 1424
+      name: atdp.u33
+      size: 2097152
+      blob_id: 15541
+    - id: 22061
+      asset_id: 1424
+      name: atdp.u44
+      size: 2097152
+      blob_id: 15542
+    - id: 22062
+      asset_id: 1424
+      name: atdp.u45
+      size: 2097152
+      blob_id: 15543
+    - id: 22063
+      asset_id: 1424
+      name: atdp.u54
+      size: 1048576
+      blob_id: 15544
+    - id: 22064
+      asset_id: 1424
+      name: atdp.u57
+      size: 1048576
+      blob_id: 15545
+    - id: 22065
+      asset_id: 1424
+      name: eeprom-donpachi.u10
+      size: 128
+      blob_id: 14255
+    - id: 22066
+      asset_id: 1424
+      name: peel18cv8p-15.u18
+      size: 341
+      blob_id: 15546
+    - id: 22067
+      asset_id: 1424
+      name: prgu.u29
+      size: 524288
+      blob_id: 15547
+    - id: 22068
+      asset_id: 1424
+      name: text.u58
+      size: 262144
+      blob_id: 15548
+  - asset:
+      id: 97811
       kind: 3
       kind_id: 41127
       type: 1
@@ -271,58 +309,605 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 153459
-      asset_id: 54197
+    - id: 590204
+      asset_id: 97811
       name: atdp.u32
       size: 1048576
       blob_id: 15540
-    - id: 153460
-      asset_id: 54197
+    - id: 590205
+      asset_id: 97811
       name: atdp.u33
       size: 2097152
       blob_id: 15541
-    - id: 153461
-      asset_id: 54197
-      name: atdp.u33
-      size: 2097152
-      blob_id: 15541
-    - id: 153462
-      asset_id: 54197
+    - id: 590207
+      asset_id: 97811
       name: atdp.u44
       size: 2097152
       blob_id: 15542
-    - id: 153463
-      asset_id: 54197
+    - id: 590208
+      asset_id: 97811
       name: atdp.u45
       size: 2097152
       blob_id: 15543
-    - id: 153464
-      asset_id: 54197
+    - id: 590209
+      asset_id: 97811
       name: atdp.u54
       size: 1048576
       blob_id: 15544
-    - id: 153465
-      asset_id: 54197
+    - id: 590210
+      asset_id: 97811
       name: atdp.u57
       size: 1048576
       blob_id: 15545
-    - id: 153466
-      asset_id: 54197
+    - id: 590211
+      asset_id: 97811
       name: eeprom-donpachi.u10
       size: 128
       blob_id: 14255
-    - id: 153467
-      asset_id: 54197
+    - id: 590212
+      asset_id: 97811
       name: peel18cv8p-15.u18
       size: 341
       blob_id: 15546
-    - id: 153468
-      asset_id: 54197
+    - id: 590213
+      asset_id: 97811
       name: prgu.u29
       size: 524288
       blob_id: 15547
-    - id: 153469
-      asset_id: 54197
+    - id: 590214
+      asset_id: 97811
+      name: text.u58
+      size: 262144
+      blob_id: 15548
+- release:
+    id: 82938
+    game_id: 1424
+    description: ""
+    release_date: 19950000
+  names:
+  - id: 208802
+    kind: 3
+    kind_id: 82938
+    language: 1
+    name: DonPachi (Hong Kong)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 97812
+      kind: 3
+      kind_id: 82938
+      type: 1
+      name: donpachihk.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 590215
+      asset_id: 97812
+      name: 37.u29
+      size: 524288
+      blob_id: 15549
+    - id: 590216
+      asset_id: 97812
+      name: atdp.u32
+      size: 1048576
+      blob_id: 15540
+    - id: 590217
+      asset_id: 97812
+      name: atdp.u33
+      size: 2097152
+      blob_id: 15541
+    - id: 590219
+      asset_id: 97812
+      name: atdp.u44
+      size: 2097152
+      blob_id: 15542
+    - id: 590220
+      asset_id: 97812
+      name: atdp.u45
+      size: 2097152
+      blob_id: 15543
+    - id: 590221
+      asset_id: 97812
+      name: atdp.u54
+      size: 1048576
+      blob_id: 15544
+    - id: 590222
+      asset_id: 97812
+      name: atdp.u57
+      size: 1048576
+      blob_id: 15545
+    - id: 590223
+      asset_id: 97812
+      name: eeprom-donpachi.bin
+      size: 128
+      blob_id: 14255
+    - id: 590224
+      asset_id: 97812
+      name: peel18cv8p-15.u18
+      size: 341
+      blob_id: 15546
+    - id: 590225
+      asset_id: 97812
+      name: u58.bin
+      size: 262144
+      blob_id: 15550
+  - asset:
+      id: 118704
+      kind: 3
+      kind_id: 82938
+      type: 1
+      name: donpachihk.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 810482
+      asset_id: 118704
+      name: 37.u29
+      size: 524288
+      blob_id: 15549
+    - id: 810483
+      asset_id: 118704
+      name: atdp.u32
+      size: 1048576
+      blob_id: 15540
+    - id: 810484
+      asset_id: 118704
+      name: atdp.u33
+      size: 2097152
+      blob_id: 15541
+    - id: 810485
+      asset_id: 118704
+      name: atdp.u44
+      size: 2097152
+      blob_id: 15542
+    - id: 810486
+      asset_id: 118704
+      name: atdp.u45
+      size: 2097152
+      blob_id: 15543
+    - id: 810487
+      asset_id: 118704
+      name: atdp.u54
+      size: 1048576
+      blob_id: 15544
+    - id: 810488
+      asset_id: 118704
+      name: atdp.u57
+      size: 1048576
+      blob_id: 15545
+    - id: 810489
+      asset_id: 118704
+      name: eeprom-donpachi.bin
+      size: 128
+      blob_id: 14255
+    - id: 810490
+      asset_id: 118704
+      name: peel18cv8p-15.u18
+      size: 341
+      blob_id: 15546
+    - id: 810491
+      asset_id: 118704
+      name: u58.bin
+      size: 262144
+      blob_id: 15550
+- release:
+    id: 82939
+    game_id: 1424
+    description: ""
+    release_date: 19950000
+  names:
+  - id: 208803
+    kind: 3
+    kind_id: 82939
+    language: 1
+    name: DonPachi (Japan)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 97813
+      kind: 3
+      kind_id: 82939
+      type: 1
+      name: donpachij.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 590226
+      asset_id: 97813
+      name: atdp.u32
+      size: 1048576
+      blob_id: 15540
+    - id: 590227
+      asset_id: 97813
+      name: atdp.u33
+      size: 2097152
+      blob_id: 15541
+    - id: 590229
+      asset_id: 97813
+      name: atdp.u44
+      size: 2097152
+      blob_id: 15542
+    - id: 590230
+      asset_id: 97813
+      name: atdp.u45
+      size: 2097152
+      blob_id: 15543
+    - id: 590231
+      asset_id: 97813
+      name: atdp.u54
+      size: 1048576
+      blob_id: 15544
+    - id: 590232
+      asset_id: 97813
+      name: atdp.u57
+      size: 1048576
+      blob_id: 15545
+    - id: 590233
+      asset_id: 97813
+      name: eeprom-donpachi.bin
+      size: 128
+      blob_id: 14255
+    - id: 590234
+      asset_id: 97813
+      name: peel18cv8p-15.u18
+      size: 341
+      blob_id: 15546
+    - id: 590235
+      asset_id: 97813
+      name: prg.u29
+      size: 524288
+      blob_id: 15551
+    - id: 590236
+      asset_id: 97813
+      name: u58.bin
+      size: 262144
+      blob_id: 15550
+  - asset:
+      id: 118706
+      kind: 3
+      kind_id: 82939
+      type: 1
+      name: donpachij.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 810502
+      asset_id: 118706
+      name: atdp.u32
+      size: 1048576
+      blob_id: 15540
+    - id: 810503
+      asset_id: 118706
+      name: atdp.u33
+      size: 2097152
+      blob_id: 15541
+    - id: 810504
+      asset_id: 118706
+      name: atdp.u44
+      size: 2097152
+      blob_id: 15542
+    - id: 810505
+      asset_id: 118706
+      name: atdp.u45
+      size: 2097152
+      blob_id: 15543
+    - id: 810506
+      asset_id: 118706
+      name: atdp.u54
+      size: 1048576
+      blob_id: 15544
+    - id: 810507
+      asset_id: 118706
+      name: atdp.u57
+      size: 1048576
+      blob_id: 15545
+    - id: 810508
+      asset_id: 118706
+      name: eeprom-donpachi.bin
+      size: 128
+      blob_id: 14255
+    - id: 810509
+      asset_id: 118706
+      name: peel18cv8p-15.u18
+      size: 341
+      blob_id: 15546
+    - id: 810510
+      asset_id: 118706
+      name: prg.u29
+      size: 524288
+      blob_id: 15551
+    - id: 810511
+      asset_id: 118706
+      name: u58.bin
+      size: 262144
+      blob_id: 15550
+- release:
+    id: 82940
+    game_id: 1424
+    description: ""
+    release_date: 19950000
+  names:
+  - id: 208804
+    kind: 3
+    kind_id: 82940
+    language: 1
+    name: DonPachi (Japan, Satsuei version)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 97814
+      kind: 3
+      kind_id: 82940
+      type: 1
+      name: donpachijs.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 590237
+      asset_id: 97814
+      name: atdp.u32
+      size: 1048576
+      blob_id: 15540
+    - id: 590238
+      asset_id: 97814
+      name: atdp.u33
+      size: 2097152
+      blob_id: 15541
+    - id: 590240
+      asset_id: 97814
+      name: atdp.u44
+      size: 2097152
+      blob_id: 15542
+    - id: 590241
+      asset_id: 97814
+      name: atdp.u45
+      size: 2097152
+      blob_id: 15543
+    - id: 590242
+      asset_id: 97814
+      name: atdp.u54
+      size: 1048576
+      blob_id: 15544
+    - id: 590243
+      asset_id: 97814
+      name: atdp.u57
+      size: 1048576
+      blob_id: 15545
+    - id: 590244
+      asset_id: 97814
+      name: eeprom-donpachi.u10
+      size: 128
+      blob_id: 14255
+    - id: 590245
+      asset_id: 97814
+      name: peel18cv8p-15.u18
+      size: 341
+      blob_id: 15546
+    - id: 590246
+      asset_id: 97814
+      name: prg.u29
+      size: 524288
+      blob_id: 15552
+    - id: 590247
+      asset_id: 97814
+      name: u58.bin
+      size: 262144
+      blob_id: 15550
+  - asset:
+      id: 118705
+      kind: 3
+      kind_id: 82940
+      type: 1
+      name: donpachijs.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 810492
+      asset_id: 118705
+      name: atdp.u32
+      size: 1048576
+      blob_id: 15540
+    - id: 810493
+      asset_id: 118705
+      name: atdp.u33
+      size: 2097152
+      blob_id: 15541
+    - id: 810494
+      asset_id: 118705
+      name: atdp.u44
+      size: 2097152
+      blob_id: 15542
+    - id: 810495
+      asset_id: 118705
+      name: atdp.u45
+      size: 2097152
+      blob_id: 15543
+    - id: 810496
+      asset_id: 118705
+      name: atdp.u54
+      size: 1048576
+      blob_id: 15544
+    - id: 810497
+      asset_id: 118705
+      name: atdp.u57
+      size: 1048576
+      blob_id: 15545
+    - id: 810498
+      asset_id: 118705
+      name: eeprom-donpachi.u10
+      size: 128
+      blob_id: 14255
+    - id: 810499
+      asset_id: 118705
+      name: peel18cv8p-15.u18
+      size: 341
+      blob_id: 15546
+    - id: 810500
+      asset_id: 118705
+      name: prg.u29
+      size: 524288
+      blob_id: 15552
+    - id: 810501
+      asset_id: 118705
+      name: u58.bin
+      size: 262144
+      blob_id: 15550
+- release:
+    id: 82941
+    game_id: 1424
+    description: ""
+    release_date: 19950000
+  names:
+  - id: 208805
+    kind: 3
+    kind_id: 82941
+    language: 1
+    name: DonPachi (Korea)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 97815
+      kind: 3
+      kind_id: 82941
+      type: 1
+      name: donpachikr.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 590248
+      asset_id: 97815
+      name: atdp.u32
+      size: 1048576
+      blob_id: 15540
+    - id: 590249
+      asset_id: 97815
+      name: atdp.u33
+      size: 2097152
+      blob_id: 15541
+    - id: 590251
+      asset_id: 97815
+      name: atdp.u44
+      size: 2097152
+      blob_id: 15542
+    - id: 590252
+      asset_id: 97815
+      name: atdp.u45
+      size: 2097152
+      blob_id: 15543
+    - id: 590253
+      asset_id: 97815
+      name: atdp.u54
+      size: 1048576
+      blob_id: 15544
+    - id: 590254
+      asset_id: 97815
+      name: atdp.u57
+      size: 1048576
+      blob_id: 15545
+    - id: 590255
+      asset_id: 97815
+      name: eeprom-donpachi.bin
+      size: 128
+      blob_id: 14255
+    - id: 590256
+      asset_id: 97815
+      name: peel18cv8p-15.u18
+      size: 341
+      blob_id: 15546
+    - id: 590257
+      asset_id: 97815
+      name: prgk.u26
+      size: 524288
+      blob_id: 15553
+    - id: 590258
+      asset_id: 97815
+      name: text.u58
+      size: 262144
+      blob_id: 15548
+  - asset:
+      id: 118707
+      kind: 3
+      kind_id: 82941
+      type: 1
+      name: donpachikr.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 810512
+      asset_id: 118707
+      name: atdp.u32
+      size: 1048576
+      blob_id: 15540
+    - id: 810513
+      asset_id: 118707
+      name: atdp.u33
+      size: 2097152
+      blob_id: 15541
+    - id: 810514
+      asset_id: 118707
+      name: atdp.u44
+      size: 2097152
+      blob_id: 15542
+    - id: 810515
+      asset_id: 118707
+      name: atdp.u45
+      size: 2097152
+      blob_id: 15543
+    - id: 810516
+      asset_id: 118707
+      name: atdp.u54
+      size: 1048576
+      blob_id: 15544
+    - id: 810517
+      asset_id: 118707
+      name: atdp.u57
+      size: 1048576
+      blob_id: 15545
+    - id: 810518
+      asset_id: 118707
+      name: eeprom-donpachi.bin
+      size: 128
+      blob_id: 14255
+    - id: 810519
+      asset_id: 118707
+      name: peel18cv8p-15.u18
+      size: 341
+      blob_id: 15546
+    - id: 810520
+      asset_id: 118707
+      name: prgk.u26
+      size: 524288
+      blob_id: 15553
+    - id: 810521
+      asset_id: 118707
       name: text.u58
       size: 262144
       blob_id: 15548

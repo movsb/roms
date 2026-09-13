@@ -16,6 +16,24 @@ names:
   language: 2
   name: 爆破 (版本 6.7)
   source: trimui
+- id: 188637
+  kind: 2
+  kind_id: 1030
+  language: 1
+  name: Carrera (Version 6.7) / Bomberman (Version 6.6)
+  source: mame
+- id: 188638
+  kind: 2
+  kind_id: 1030
+  language: 1
+  name: Bomberman (Version 6.6, Avraam bootleg)
+  source: mame
+- id: 188639
+  kind: 2
+  kind_id: 1030
+  language: 1
+  name: Bomberman (Version 6.6, J.T. bootleg)
+  source: mame
 game_developers: []
 game_genres:
 - game_id: 1030
@@ -127,24 +145,10 @@ releases:
       blob_id: 87050
       debug: arcade/wheel/carrera.png
     entries: []
-- release:
-    id: 38889
-    game_id: 1030
-    description: ""
-    release_date: 0
-  names:
-  - id: 108803
-    kind: 3
-    kind_id: 38889
-    language: 1
-    name: Carrera (Version 6.7)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 51959
+      id: 95697
       kind: 3
-      kind_id: 38889
+      kind_id: 1030
       type: 1
       name: carrera.zip
       description: ""
@@ -153,43 +157,278 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 125057
-      asset_id: 51959
+    - id: 563075
+      asset_id: 95697
       name: 27512.ic1
       size: 65536
       blob_id: 10882
-    - id: 125058
-      asset_id: 51959
+    - id: 563076
+      asset_id: 95697
       name: 27512.ic2
       size: 65536
       blob_id: 10883
-    - id: 125059
-      asset_id: 51959
+    - id: 563077
+      asset_id: 95697
       name: 27512.ic22
       size: 65536
       blob_id: 10884
-    - id: 125060
-      asset_id: 51959
+    - id: 563078
+      asset_id: 95697
       name: 27512.ic3
       size: 65536
       blob_id: 10885
-    - id: 125061
-      asset_id: 51959
+    - id: 563079
+      asset_id: 95697
       name: 27512.ic4
       size: 65536
       blob_id: 10886
-    - id: 125062
-      asset_id: 51959
+    - id: 563080
+      asset_id: 95697
       name: 27512.ic5
       size: 65536
       blob_id: 10887
-    - id: 125063
-      asset_id: 51959
+    - id: 563081
+      asset_id: 95697
       name: 82s123.ic39
       size: 32
       blob_id: 10888
-    - id: 125064
-      asset_id: 51959
+    - id: 563082
+      asset_id: 95697
       name: carrera_nvram.bin
       size: 2048
-      blob_id: 101197
+      blob_id: 207816
+- release:
+    id: 103514
+    game_id: 1030
+    description: ""
+    release_date: 0
+  names:
+  - id: 238490
+    kind: 3
+    kind_id: 103514
+    language: 1
+    name: Carrera (Version 6.7) / Bomberman (Version 6.6)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 95341
+      kind: 3
+      kind_id: 103514
+      type: 1
+      name: bsebman.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 557805
+      asset_id: 95341
+      name: am27s19.ic39
+      size: 32
+      blob_id: 10888
+    - id: 557806
+      asset_id: 95341
+      name: carrera_nvram.bin
+      size: 2048
+      blob_id: 207816
+    - id: 557807
+      asset_id: 95341
+      name: ic1
+      size: 65536
+      blob_id: 241017
+    - id: 557808
+      asset_id: 95341
+      name: ic2
+      size: 65536
+      blob_id: 241018
+    - id: 557809
+      asset_id: 95341
+      name: ic22
+      size: 65536
+      blob_id: 241019
+    - id: 557810
+      asset_id: 95341
+      name: ic3
+      size: 65536
+      blob_id: 241020
+    - id: 557811
+      asset_id: 95341
+      name: ic4
+      size: 65536
+      blob_id: 241021
+    - id: 557812
+      asset_id: 95341
+      name: ic5
+      size: 65536
+      blob_id: 241022
+  - asset:
+      id: 120036
+      kind: 3
+      kind_id: 103514
+      type: 1
+      name: bsebman.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.259
+    entries:
+    - id: 851528
+      asset_id: 120036
+      name: am27s19.ic39
+      size: 32
+      blob_id: 10888
+    - id: 851529
+      asset_id: 120036
+      name: ic1
+      size: 65536
+      blob_id: 241017
+    - id: 851530
+      asset_id: 120036
+      name: ic2
+      size: 65536
+      blob_id: 241018
+    - id: 851531
+      asset_id: 120036
+      name: ic22
+      size: 65536
+      blob_id: 241019
+    - id: 851532
+      asset_id: 120036
+      name: ic3
+      size: 65536
+      blob_id: 241020
+    - id: 851533
+      asset_id: 120036
+      name: ic4
+      size: 65536
+      blob_id: 241021
+    - id: 851534
+      asset_id: 120036
+      name: ic5
+      size: 65536
+      blob_id: 241022
+- release:
+    id: 103515
+    game_id: 1030
+    description: ""
+    release_date: 19990000
+  names:
+  - id: 238491
+    kind: 3
+    kind_id: 103515
+    language: 1
+    name: Bomberman (Version 6.6, Avraam bootleg)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 95342
+      kind: 3
+      kind_id: 103515
+      type: 1
+      name: bsebmanbl.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 557813
+      asset_id: 95342
+      name: 27512.ic1
+      size: 65536
+      blob_id: 10882
+    - id: 557814
+      asset_id: 95342
+      name: 27512.ic2
+      size: 65536
+      blob_id: 10883
+    - id: 557815
+      asset_id: 95342
+      name: 27512.ic22
+      size: 65536
+      blob_id: 241023
+    - id: 557816
+      asset_id: 95342
+      name: 27512.ic3
+      size: 65536
+      blob_id: 10885
+    - id: 557817
+      asset_id: 95342
+      name: 27512.ic4
+      size: 65536
+      blob_id: 10886
+    - id: 557818
+      asset_id: 95342
+      name: 27512.ic5
+      size: 65536
+      blob_id: 10887
+    - id: 557819
+      asset_id: 95342
+      name: 82s123.ic39
+      size: 32
+      blob_id: 10888
+- release:
+    id: 103516
+    game_id: 1030
+    description: ""
+    release_date: 19990000
+  names:
+  - id: 238492
+    kind: 3
+    kind_id: 103516
+    language: 1
+    name: Bomberman (Version 6.6, J.T. bootleg)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 95343
+      kind: 3
+      kind_id: 103516
+      type: 1
+      name: bsebmanbl2.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 557820
+      asset_id: 95343
+      name: 27512.ic1
+      size: 65536
+      blob_id: 241024
+    - id: 557821
+      asset_id: 95343
+      name: 27512.ic2
+      size: 65536
+      blob_id: 241025
+    - id: 557822
+      asset_id: 95343
+      name: 27512.ic22
+      size: 65536
+      blob_id: 241026
+    - id: 557823
+      asset_id: 95343
+      name: 27512.ic3
+      size: 65536
+      blob_id: 241027
+    - id: 557824
+      asset_id: 95343
+      name: 27512.ic4
+      size: 65536
+      blob_id: 241028
+    - id: 557825
+      asset_id: 95343
+      name: 27512.ic5
+      size: 65536
+      blob_id: 241029
+    - id: 557826
+      asset_id: 95343
+      name: 82s123.ic39
+      size: 32
+      blob_id: 10888

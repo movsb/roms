@@ -16,6 +16,18 @@ names:
   language: 2
   name: 坦克大战 (新版)
   source: trimui
+- id: 191362
+  kind: 2
+  kind_id: 1867
+  language: 1
+  name: Grobda (Old Ver. set 1)
+  source: mame
+- id: 191363
+  kind: 2
+  kind_id: 1867
+  language: 1
+  name: Grobda (Old Ver. set 2)
+  source: mame
 game_developers:
 - game_id: 1867
   developer_id: 19
@@ -149,24 +161,10 @@ releases:
       blob_id: 87778
       debug: arcade/wheel/grobda.png
     entries: []
-- release:
-    id: 45252
-    game_id: 1867
-    description: ""
-    release_date: 19840000
-  names:
-  - id: 121214
-    kind: 3
-    kind_id: 45252
-    language: 1
-    name: Grobda (New Ver.)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 58322
+      id: 100409
       kind: 3
-      kind_id: 45252
+      kind_id: 1867
       type: 1
       name: grobda.zip
       description: ""
@@ -175,58 +173,220 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 189043
-      asset_id: 58322
+    - id: 620085
+      asset_id: 100409
       name: gr1-3.3m
       size: 256
       blob_id: 20802
-    - id: 189044
-      asset_id: 58322
+    - id: 620086
+      asset_id: 100409
       name: gr1-4.1k
       size: 8192
       blob_id: 20794
-    - id: 189045
-      asset_id: 58322
+    - id: 620087
+      asset_id: 100409
       name: gr1-4.3l
       size: 256
       blob_id: 20801
-    - id: 189046
-      asset_id: 58322
+    - id: 620088
+      asset_id: 100409
       name: gr1-5.3f
       size: 8192
       blob_id: 20795
-    - id: 189047
-      asset_id: 58322
+    - id: 620089
+      asset_id: 100409
       name: gr1-5.4e
       size: 256
       blob_id: 20803
-    - id: 189048
-      asset_id: 58322
+    - id: 620090
+      asset_id: 100409
       name: gr1-6.3e
       size: 8192
       blob_id: 20796
-    - id: 189049
-      asset_id: 58322
+    - id: 620091
+      asset_id: 100409
       name: gr1-6.4c
       size: 32
       blob_id: 20793
-    - id: 189050
-      asset_id: 58322
+    - id: 620092
+      asset_id: 100409
       name: gr1-7.3c
       size: 4096
       blob_id: 20797
-    - id: 189051
-      asset_id: 58322
+    - id: 620093
+      asset_id: 100409
       name: gr2-1.1b
       size: 8192
       blob_id: 20798
-    - id: 189052
-      asset_id: 58322
+    - id: 620094
+      asset_id: 100409
       name: gr2-2.1c
       size: 8192
       blob_id: 20799
-    - id: 189053
-      asset_id: 58322
+    - id: 620095
+      asset_id: 100409
       name: gr2-3.1d
       size: 8192
       blob_id: 20800
+- release:
+    id: 85351
+    game_id: 1867
+    description: ""
+    release_date: 19840000
+  names:
+  - id: 212454
+    kind: 3
+    kind_id: 85351
+    language: 1
+    name: Grobda (Old Ver. set 1)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 100410
+      kind: 3
+      kind_id: 85351
+      type: 1
+      name: grobda2.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 620096
+      asset_id: 100410
+      name: gr1-1.1b
+      size: 8192
+      blob_id: 248077
+    - id: 620097
+      asset_id: 100410
+      name: gr1-3.1d
+      size: 8192
+      blob_id: 248078
+    - id: 620098
+      asset_id: 100410
+      name: gr1-3.3m
+      size: 256
+      blob_id: 20802
+    - id: 620099
+      asset_id: 100410
+      name: gr1-4.1k
+      size: 8192
+      blob_id: 20794
+    - id: 620100
+      asset_id: 100410
+      name: gr1-4.3l
+      size: 256
+      blob_id: 20801
+    - id: 620101
+      asset_id: 100410
+      name: gr1-5.3f
+      size: 8192
+      blob_id: 20795
+    - id: 620102
+      asset_id: 100410
+      name: gr1-5.4e
+      size: 256
+      blob_id: 20803
+    - id: 620103
+      asset_id: 100410
+      name: gr1-6.3e
+      size: 8192
+      blob_id: 20796
+    - id: 620104
+      asset_id: 100410
+      name: gr1-6.4c
+      size: 32
+      blob_id: 20793
+    - id: 620105
+      asset_id: 100410
+      name: gr1-7.3c
+      size: 4096
+      blob_id: 20797
+    - id: 620106
+      asset_id: 100410
+      name: gr2-2a.1c
+      size: 8192
+      blob_id: 248079
+- release:
+    id: 85352
+    game_id: 1867
+    description: ""
+    release_date: 19840000
+  names:
+  - id: 212455
+    kind: 3
+    kind_id: 85352
+    language: 1
+    name: Grobda (Old Ver. set 2)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 100411
+      kind: 3
+      kind_id: 85352
+      type: 1
+      name: grobda3.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 620107
+      asset_id: 100411
+      name: gr1-1.1b
+      size: 8192
+      blob_id: 248077
+    - id: 620108
+      asset_id: 100411
+      name: gr1-2.1c
+      size: 8192
+      blob_id: 248080
+    - id: 620109
+      asset_id: 100411
+      name: gr1-3.1d
+      size: 8192
+      blob_id: 248078
+    - id: 620110
+      asset_id: 100411
+      name: gr1-3.3m
+      size: 256
+      blob_id: 20802
+    - id: 620111
+      asset_id: 100411
+      name: gr1-4.1k
+      size: 8192
+      blob_id: 20794
+    - id: 620112
+      asset_id: 100411
+      name: gr1-4.3l
+      size: 256
+      blob_id: 20801
+    - id: 620113
+      asset_id: 100411
+      name: gr1-5.3f
+      size: 8192
+      blob_id: 20795
+    - id: 620114
+      asset_id: 100411
+      name: gr1-5.4e
+      size: 256
+      blob_id: 20803
+    - id: 620115
+      asset_id: 100411
+      name: gr1-6.3e
+      size: 8192
+      blob_id: 20796
+    - id: 620116
+      asset_id: 100411
+      name: gr1-6.4c
+      size: 32
+      blob_id: 20793
+    - id: 620117
+      asset_id: 100411
+      name: gr1-7.3c
+      size: 4096
+      blob_id: 20797

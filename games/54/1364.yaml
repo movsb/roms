@@ -16,6 +16,12 @@ names:
   language: 2
   name: 魔鬼地带
   source: trimui
+- id: 189747
+  kind: 2
+  kind_id: 1364
+  language: 1
+  name: Devil Zone (easier)
+  source: mame
 game_developers:
 - game_id: 1364
   developer_id: 498
@@ -154,24 +160,10 @@ releases:
       blob_id: 85744
       debug: arcade/wheel/devzone.png
     entries: []
-- release:
-    id: 40753
-    game_id: 1364
-    description: ""
-    release_date: 19800000
-  names:
-  - id: 112409
-    kind: 3
-    kind_id: 40753
-    language: 1
-    name: Devil Zone
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 53823
+      id: 97479
       kind: 3
-      kind_id: 40753
+      kind_id: 1364
       type: 1
       name: devzone.zip
       description: ""
@@ -180,63 +172,149 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 149301
-      asset_id: 53823
+    - id: 586240
+      asset_id: 97479
       name: 22.ic1
       size: 32
       blob_id: 15055
-    - id: 149302
-      asset_id: 53823
+    - id: 586241
+      asset_id: 97479
       name: db9.e2
       size: 1024
       blob_id: 15054
-    - id: 149303
-      asset_id: 53823
+    - id: 586242
+      asset_id: 97479
       name: dv1.e3
       size: 2048
       blob_id: 15046
-    - id: 149304
-      asset_id: 53823
+    - id: 586243
+      asset_id: 97479
       name: dv2.e4
       size: 2048
       blob_id: 15047
-    - id: 149305
-      asset_id: 53823
+    - id: 586244
+      asset_id: 97479
       name: dv3.e5
       size: 2048
       blob_id: 15048
-    - id: 149306
-      asset_id: 53823
+    - id: 586245
+      asset_id: 97479
       name: dv4.e6
       size: 2048
       blob_id: 15049
-    - id: 149307
-      asset_id: 53823
+    - id: 586246
+      asset_id: 97479
       name: dv5.e7
       size: 2048
       blob_id: 15050
-    - id: 149308
-      asset_id: 53823
+    - id: 586247
+      asset_id: 97479
       name: dv6.e8
       size: 2048
       blob_id: 15051
-    - id: 149309
-      asset_id: 53823
+    - id: 586248
+      asset_id: 97479
       name: dv7.n1
       size: 2048
       blob_id: 15052
-    - id: 149310
-      asset_id: 53823
+    - id: 586249
+      asset_id: 97479
       name: dv8.n2
       size: 2048
       blob_id: 15053
-    - id: 149311
-      asset_id: 53823
+    - id: 586250
+      asset_id: 97479
       name: dv9.ic12
       size: 2048
       blob_id: 15056
-    - id: 149312
-      asset_id: 53823
+    - id: 586251
+      asset_id: 97479
       name: m13.d9
       size: 32
       blob_id: 15057
+- release:
+    id: 82625
+    game_id: 1364
+    description: ""
+    release_date: 19800000
+  names:
+  - id: 208323
+    kind: 3
+    kind_id: 82625
+    language: 1
+    name: Devil Zone (easier)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 97480
+      kind: 3
+      kind_id: 82625
+      type: 1
+      name: devzone2.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 586252
+      asset_id: 97480
+      name: dz9.e2
+      size: 1024
+      blob_id: 15054
+    - id: 586253
+      asset_id: 97480
+      name: ic1.sub
+      size: 32
+      blob_id: 15055
+    - id: 586254
+      asset_id: 97480
+      name: ic12.sub
+      size: 2048
+      blob_id: 15056
+    - id: 586255
+      asset_id: 97480
+      name: ms.d9
+      size: 32
+      blob_id: 15057
+    - id: 586256
+      asset_id: 97480
+      name: ms6_3.e5
+      size: 2048
+      blob_id: 243535
+    - id: 586257
+      asset_id: 97480
+      name: mx3_7.n1
+      size: 2048
+      blob_id: 243536
+    - id: 586258
+      asset_id: 97480
+      name: mx6_5.e7
+      size: 2048
+      blob_id: 243537
+    - id: 586259
+      asset_id: 97480
+      name: my1_4.e6
+      size: 2048
+      blob_id: 243538
+    - id: 586260
+      asset_id: 97480
+      name: my4_2.e4
+      size: 2048
+      blob_id: 243539
+    - id: 586261
+      asset_id: 97480
+      name: my8_8.n2
+      size: 2048
+      blob_id: 243540
+    - id: 586262
+      asset_id: 97480
+      name: mz7_6.e8
+      size: 2048
+      blob_id: 243541
+    - id: 586263
+      asset_id: 97480
+      name: p10_1.e3
+      size: 2048
+      blob_id: 243542

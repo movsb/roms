@@ -16,6 +16,12 @@ names:
   language: 2
   name: 蜂巢俄罗斯方块 (日版 版本 JAB)
   source: trimui
+- id: 191660
+  kind: 2
+  kind_id: 1988
+  language: 1
+  name: Hexion (Asia ver AAA, bootleg)
+  source: mame
 game_developers:
 - game_id: 1988
   developer_id: 2
@@ -129,24 +135,10 @@ releases:
       blob_id: 89334
       debug: arcade/wheel/hexion.png
     entries: []
-- release:
-    id: 45923
-    game_id: 1988
-    description: ""
-    release_date: 19920000
-  names:
-  - id: 122505
-    kind: 3
-    kind_id: 45923
-    language: 1
-    name: Hexion (Japan ver JAB)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 58993
+      id: 100963
       kind: 3
-      kind_id: 45923
+      kind_id: 1988
       type: 1
       name: hexion.zip
       description: ""
@@ -155,38 +147,104 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 195921
-      asset_id: 58993
+    - id: 626704
+      asset_id: 100963
       name: 122__j_a__b01.16f
       size: 131072
       blob_id: 22170
-    - id: 195922
-      asset_id: 58993
+    - id: 626705
+      asset_id: 100963
       name: 122a02.13b
       size: 256
       blob_id: 22164
-    - id: 195923
-      asset_id: 58993
+    - id: 626706
+      asset_id: 100963
       name: 122a03.11b
       size: 256
       blob_id: 22165
-    - id: 195924
-      asset_id: 58993
+    - id: 626707
+      asset_id: 100963
       name: 122a04.10b
       size: 256
       blob_id: 22166
-    - id: 195925
-      asset_id: 58993
+    - id: 626708
+      asset_id: 100963
       name: 122a05.2f
       size: 262144
       blob_id: 22167
-    - id: 195926
-      asset_id: 58993
+    - id: 626709
+      asset_id: 100963
       name: 122a06.1g
       size: 262144
       blob_id: 22168
-    - id: 195927
-      asset_id: 58993
+    - id: 626710
+      asset_id: 100963
       name: 122a07.1h
+      size: 262144
+      blob_id: 22169
+- release:
+    id: 85848
+    game_id: 1988
+    description: ""
+    release_date: 19920000
+  names:
+  - id: 213197
+    kind: 3
+    kind_id: 85848
+    language: 1
+    name: Hexion (Asia ver AAA, bootleg)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 100964
+      kind: 3
+      kind_id: 85848
+      type: 1
+      name: hexionb.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 626711
+      asset_id: 100964
+      name: 82s129.u36
+      size: 256
+      blob_id: 22166
+    - id: 626712
+      asset_id: 100964
+      name: 82s129.u37
+      size: 256
+      blob_id: 22165
+    - id: 626713
+      asset_id: 100964
+      name: 82s129.u38
+      size: 256
+      blob_id: 22164
+    - id: 626714
+      asset_id: 100964
+      name: hexionb.u16
+      size: 262144
+      blob_id: 22167
+    - id: 626715
+      asset_id: 100964
+      name: hexionb.u18
+      size: 262144
+      blob_id: 248798
+    - id: 626716
+      asset_id: 100964
+      name: hexionb.u2
+      size: 131072
+      blob_id: 248799
+    - id: 626717
+      asset_id: 100964
+      name: hexionb.u29
+      size: 262144
+      blob_id: 22168
+    - id: 626718
+      asset_id: 100964
+      name: hexionb.u30
       size: 262144
       blob_id: 22169

@@ -16,6 +16,18 @@ names:
   language: 2
   name: "殖民地 7 - 星球保卫战 (第一套)"
   source: trimui
+- id: 186585
+  kind: 2
+  kind_id: 122
+  language: 1
+  name: COLONY7A
+  source: ""
+- id: 186586
+  kind: 2
+  kind_id: 122
+  language: 2
+  name: "殖民地 7 - 星球保卫战 (第二套)"
+  source: trimui
 game_developers:
 - game_id: 122
   developer_id: 35
@@ -154,24 +166,10 @@ releases:
       blob_id: 86055
       debug: arcade/wheel/colony7.png
     entries: []
-- release:
-    id: 39625
-    game_id: 122
-    description: ""
-    release_date: 19810000
-  names:
-  - id: 110237
-    kind: 3
-    kind_id: 39625
-    language: 1
-    name: Colony 7 (set 1)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 52695
+      id: 96398
       kind: 3
-      kind_id: 39625
+      kind_id: 122
       type: 1
       name: colony7.zip
       description: ""
@@ -180,58 +178,145 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 133324
-      asset_id: 52695
+    - id: 570990
+      asset_id: 96398
       name: cs01.bin
       size: 4096
       blob_id: 1394
-    - id: 133325
-      asset_id: 52695
+    - id: 570991
+      asset_id: 96398
       name: cs02.bin
       size: 4096
       blob_id: 1395
-    - id: 133326
-      asset_id: 52695
+    - id: 570992
+      asset_id: 96398
       name: cs03.bin
       size: 4096
       blob_id: 1396
-    - id: 133327
-      asset_id: 52695
+    - id: 570993
+      asset_id: 96398
       name: cs04.bin
       size: 2048
       blob_id: 1397
-    - id: 133328
-      asset_id: 52695
+    - id: 570994
+      asset_id: 96398
       name: cs05.bin
       size: 2048
       blob_id: 1398
-    - id: 133329
-      asset_id: 52695
+    - id: 570995
+      asset_id: 96398
       name: cs06.bin
       size: 2048
       blob_id: 1399
-    - id: 133330
-      asset_id: 52695
+    - id: 570996
+      asset_id: 96398
       name: cs07.bin
       size: 2048
       blob_id: 1400
-    - id: 133331
-      asset_id: 52695
+    - id: 570997
+      asset_id: 96398
       name: cs08.bin
       size: 2048
       blob_id: 1401
-    - id: 133332
-      asset_id: 52695
+    - id: 570998
+      asset_id: 96398
       name: cs10.bin
       size: 512
       blob_id: 1403
-    - id: 133333
-      asset_id: 52695
+    - id: 570999
+      asset_id: 96398
       name: cs11.bin
       size: 2048
       blob_id: 1404
-    - id: 133334
-      asset_id: 52695
+    - id: 571000
+      asset_id: 96398
+      name: decoder.3
+      size: 512
+      blob_id: 1402
+- release:
+    id: 102828
+    game_id: 122
+    description: ""
+    release_date: 0
+  names:
+  - id: 237442
+    kind: 3
+    kind_id: 102828
+    language: 1
+    name: COLONY7A
+    source: ""
+  - id: 237443
+    kind: 3
+    kind_id: 102828
+    language: 2
+    name: "殖民地 7 - 星球保卫战 (第二套)"
+    source: trimui
+  release_publishers: []
+  assets:
+  - asset:
+      id: 96399
+      kind: 3
+      kind_id: 102828
+      type: 1
+      name: colony7a.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 571001
+      asset_id: 96399
+      name: cs01a.bin
+      size: 4096
+      blob_id: 1408
+    - id: 571002
+      asset_id: 96399
+      name: cs02a.bin
+      size: 4096
+      blob_id: 1407
+    - id: 571003
+      asset_id: 96399
+      name: cs03a.bin
+      size: 4096
+      blob_id: 1406
+    - id: 571004
+      asset_id: 96399
+      name: cs04.bin
+      size: 2048
+      blob_id: 1397
+    - id: 571005
+      asset_id: 96399
+      name: cs05.bin
+      size: 2048
+      blob_id: 1398
+    - id: 571006
+      asset_id: 96399
+      name: cs06.bin
+      size: 2048
+      blob_id: 1399
+    - id: 571007
+      asset_id: 96399
+      name: cs07.bin
+      size: 2048
+      blob_id: 1400
+    - id: 571008
+      asset_id: 96399
+      name: cs08.bin
+      size: 2048
+      blob_id: 1401
+    - id: 571009
+      asset_id: 96399
+      name: cs10.bin
+      size: 512
+      blob_id: 1403
+    - id: 571010
+      asset_id: 96399
+      name: cs11.bin
+      size: 2048
+      blob_id: 1404
+    - id: 571011
+      asset_id: 96399
       name: decoder.3
       size: 512
       blob_id: 1402

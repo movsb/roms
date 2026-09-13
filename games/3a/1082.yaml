@@ -16,6 +16,18 @@ names:
   language: 2
   name: 救援直升机 (8751 315-5151)
   source: trimui
+- id: 189019
+  kind: 2
+  kind_id: 1082
+  language: 1
+  name: Choplifter (bootleg)
+  source: mame
+- id: 189020
+  kind: 2
+  kind_id: 1082
+  language: 1
+  name: Choplifter (unprotected)
+  source: mame
 game_developers:
 - game_id: 1082
   developer_id: 110
@@ -294,24 +306,10 @@ releases:
       blob_id: 91318
       debug: arcade/wheel/choplift.png
     entries: []
-- release:
-    id: 39293
-    game_id: 1082
-    description: ""
-    release_date: 19850000
-  names:
-  - id: 109590
-    kind: 3
-    kind_id: 39293
-    language: 1
-    name: Choplifter (8751 315-5151)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 52363
+      id: 96076
       kind: 3
-      kind_id: 39293
+      kind_id: 1082
       type: 1
       name: choplift.zip
       description: ""
@@ -320,98 +318,335 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 129390
-      asset_id: 52363
+    - id: 567177
+      asset_id: 96076
       name: 315-5138.ic11
       size: 260
       blob_id: 11658
-    - id: 129391
-      asset_id: 52363
+    - id: 567178
+      asset_id: 96076
       name: 315-5139.ic50
       size: 231
-      blob_id: 103759
-    - id: 129392
-      asset_id: 52363
+      blob_id: 208799
+    - id: 567179
+      asset_id: 96076
       name: 315-5151.ic74
       size: 4096
-      blob_id: 103760
-    - id: 129393
-      asset_id: 52363
+      blob_id: 208800
+    - id: 567180
+      asset_id: 96076
       name: 315-5152.ic10
       size: 260
       blob_id: 11660
-    - id: 129394
-      asset_id: 52363
+    - id: 567181
+      asset_id: 96076
       name: epr-7120.ic86
       size: 32768
       blob_id: 11661
-    - id: 129395
-      asset_id: 52363
+    - id: 567182
+      asset_id: 96076
       name: epr-7121.ic87
       size: 32768
       blob_id: 11662
-    - id: 129396
-      asset_id: 52363
+    - id: 567183
+      asset_id: 96076
       name: epr-7122.ic88
       size: 32768
       blob_id: 11663
-    - id: 129397
-      asset_id: 52363
+    - id: 567184
+      asset_id: 96076
       name: epr-7123.ic89
       size: 32768
       blob_id: 11664
-    - id: 129398
-      asset_id: 52363
+    - id: 567185
+      asset_id: 96076
       name: epr-7124.ic90
       size: 32768
       blob_id: 11665
-    - id: 129399
-      asset_id: 52363
+    - id: 567186
+      asset_id: 96076
       name: epr-7125.ic91
       size: 32768
       blob_id: 11666
-    - id: 129400
-      asset_id: 52363
+    - id: 567187
+      asset_id: 96076
       name: epr-7126.ic92
       size: 32768
       blob_id: 11667
-    - id: 129401
-      asset_id: 52363
+    - id: 567188
+      asset_id: 96076
       name: epr-7127.ic4
       size: 32768
       blob_id: 11668
-    - id: 129402
-      asset_id: 52363
+    - id: 567189
+      asset_id: 96076
       name: epr-7128.ic5
       size: 32768
       blob_id: 11669
-    - id: 129403
-      asset_id: 52363
+    - id: 567190
+      asset_id: 96076
       name: epr-7129.ic6
       size: 32768
       blob_id: 11670
-    - id: 129404
-      asset_id: 52363
+    - id: 567191
+      asset_id: 96076
       name: epr-7130.ic126
       size: 32768
       blob_id: 11671
-    - id: 129405
-      asset_id: 52363
+    - id: 567192
+      asset_id: 96076
       name: pr5317.ic28
       size: 256
       blob_id: 668
-    - id: 129406
-      asset_id: 52363
+    - id: 567193
+      asset_id: 96076
       name: pr7117.ic8
       size: 256
       blob_id: 11672
-    - id: 129407
-      asset_id: 52363
+    - id: 567194
+      asset_id: 96076
       name: pr7118.ic14
       size: 256
       blob_id: 11673
-    - id: 129408
-      asset_id: 52363
+    - id: 567195
+      asset_id: 96076
+      name: pr7119.ic20
+      size: 256
+      blob_id: 11674
+- release:
+    id: 81333
+    game_id: 1082
+    description: ""
+    release_date: 19850000
+  names:
+  - id: 206395
+    kind: 3
+    kind_id: 81333
+    language: 1
+    name: Choplifter (bootleg)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 96077
+      kind: 3
+      kind_id: 81333
+      type: 1
+      name: chopliftbl.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 567196
+      asset_id: 96077
+      name: ep7124bl.90
+      size: 32768
+      blob_id: 11680
+    - id: 567197
+      asset_id: 96077
+      name: epr-7120.86
+      size: 32768
+      blob_id: 11661
+    - id: 567198
+      asset_id: 96077
+      name: epr-7121.87
+      size: 32768
+      blob_id: 11662
+    - id: 567199
+      asset_id: 96077
+      name: epr-7122.88
+      size: 32768
+      blob_id: 11663
+    - id: 567200
+      asset_id: 96077
+      name: epr-7123.89
+      size: 32768
+      blob_id: 11664
+    - id: 567201
+      asset_id: 96077
+      name: epr-7125.91
+      size: 32768
+      blob_id: 11666
+    - id: 567202
+      asset_id: 96077
+      name: epr-7126.92
+      size: 32768
+      blob_id: 11667
+    - id: 567203
+      asset_id: 96077
+      name: epr-7127.4
+      size: 32768
+      blob_id: 11668
+    - id: 567204
+      asset_id: 96077
+      name: epr-7128.5
+      size: 32768
+      blob_id: 11669
+    - id: 567205
+      asset_id: 96077
+      name: epr-7129.6
+      size: 32768
+      blob_id: 11670
+    - id: 567206
+      asset_id: 96077
+      name: epr-7130.126
+      size: 32768
+      blob_id: 11671
+    - id: 567207
+      asset_id: 96077
+      name: pal16l8a-chopbl2.bin
+      size: 260
+      blob_id: 11679
+    - id: 567208
+      asset_id: 96077
+      name: pal16r4a-chopbl1.bin
+      size: 260
+      blob_id: 11678
+    - id: 567209
+      asset_id: 96077
+      name: pal16r4a.ic10
+      size: 260
+      blob_id: 11660
+    - id: 567210
+      asset_id: 96077
+      name: pal16r4a.ic9
+      size: 260
+      blob_id: 11658
+    - id: 567211
+      asset_id: 96077
+      name: pr5317.28
+      size: 256
+      blob_id: 668
+    - id: 567212
+      asset_id: 96077
+      name: pr7117.8
+      size: 256
+      blob_id: 11672
+    - id: 567213
+      asset_id: 96077
+      name: pr7118.14
+      size: 256
+      blob_id: 11673
+    - id: 567214
+      asset_id: 96077
+      name: pr7119.20
+      size: 256
+      blob_id: 11674
+- release:
+    id: 81334
+    game_id: 1082
+    description: ""
+    release_date: 19850000
+  names:
+  - id: 206396
+    kind: 3
+    kind_id: 81334
+    language: 1
+    name: Choplifter (unprotected)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 96078
+      kind: 3
+      kind_id: 81334
+      type: 1
+      name: chopliftu.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 567215
+      asset_id: 96078
+      name: 315-5138.ic11
+      size: 260
+      blob_id: 11658
+    - id: 567216
+      asset_id: 96078
+      name: 315-5139.ic50
+      size: 231
+      blob_id: 208799
+    - id: 567217
+      asset_id: 96078
+      name: 315-5152.ic10
+      size: 260
+      blob_id: 11660
+    - id: 567218
+      asset_id: 96078
+      name: epr-7120.ic86
+      size: 32768
+      blob_id: 11661
+    - id: 567219
+      asset_id: 96078
+      name: epr-7121.ic87
+      size: 32768
+      blob_id: 11662
+    - id: 567220
+      asset_id: 96078
+      name: epr-7122.ic88
+      size: 32768
+      blob_id: 11663
+    - id: 567221
+      asset_id: 96078
+      name: epr-7123.ic89
+      size: 32768
+      blob_id: 11664
+    - id: 567222
+      asset_id: 96078
+      name: epr-7127.ic4
+      size: 32768
+      blob_id: 11668
+    - id: 567223
+      asset_id: 96078
+      name: epr-7128.ic5
+      size: 32768
+      blob_id: 11669
+    - id: 567224
+      asset_id: 96078
+      name: epr-7129.ic6
+      size: 32768
+      blob_id: 11670
+    - id: 567225
+      asset_id: 96078
+      name: epr-7130.ic126
+      size: 32768
+      blob_id: 11671
+    - id: 567226
+      asset_id: 96078
+      name: epr-7152.ic90
+      size: 32768
+      blob_id: 11675
+    - id: 567227
+      asset_id: 96078
+      name: epr-7153.ic91
+      size: 32768
+      blob_id: 11676
+    - id: 567228
+      asset_id: 96078
+      name: epr-7154.ic92
+      size: 32768
+      blob_id: 11677
+    - id: 567229
+      asset_id: 96078
+      name: pr5317.ic28
+      size: 256
+      blob_id: 668
+    - id: 567230
+      asset_id: 96078
+      name: pr7117.ic8
+      size: 256
+      blob_id: 11672
+    - id: 567231
+      asset_id: 96078
+      name: pr7118.ic14
+      size: 256
+      blob_id: 11673
+    - id: 567232
+      asset_id: 96078
       name: pr7119.ic20
       size: 256
       blob_id: 11674

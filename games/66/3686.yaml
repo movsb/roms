@@ -16,6 +16,36 @@ names:
   language: 2
   name: 街头霸王 EX2
   source: trimui
+- id: 198875
+  kind: 2
+  kind_id: 3686
+  language: 1
+  name: Street Fighter EX2 (Asia 980312)
+  source: mame
+- id: 198876
+  kind: 2
+  kind_id: 3686
+  language: 1
+  name: Street Fighter EX2 (Hispanic 980312)
+  source: mame
+- id: 198877
+  kind: 2
+  kind_id: 3686
+  language: 1
+  name: Street Fighter EX2 (Japan 980312)
+  source: mame
+- id: 198882
+  kind: 2
+  kind_id: 3686
+  language: 1
+  name: Street Fighter EX2 (USA 980526)
+  source: mame
+- id: 198883
+  kind: 2
+  kind_id: 3686
+  language: 1
+  name: Street Fighter EX2 (USA 980312)
+  source: mame
 game_developers: []
 game_genres: []
 assets: []
@@ -122,24 +152,10 @@ releases:
       name: sfex2u1/ex2u_04.2h
       size: 524288
       blob_id: 39371
-- release:
-    id: 70023
-    game_id: 3686
-    description: ""
-    release_date: 19980000
-  names:
-  - id: 170186
-    kind: 3
-    kind_id: 70023
-    language: 1
-    name: Street Fighter EX2 (Europe 980312)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 83093
+      id: 113250
       kind: 3
-      kind_id: 70023
+      kind_id: 3686
       type: 1
       name: sfex2.zip
       description: ""
@@ -148,58 +164,463 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 359455
-      asset_id: 83093
+    - id: 740163
+      asset_id: 113250
       name: cp08
       size: 8
       blob_id: 39358
-    - id: 359456
-      asset_id: 83093
+    - id: 740164
+      asset_id: 113250
       name: cp10.ic652
       size: 8
       blob_id: 11970
-    - id: 359457
-      asset_id: 83093
+    - id: 740165
+      asset_id: 113250
       name: ex2-01m.3a
       size: 4194304
       blob_id: 39359
-    - id: 359458
-      asset_id: 83093
+    - id: 740166
+      asset_id: 113250
       name: ex2-05m.3h
       size: 8388608
       blob_id: 39360
-    - id: 359459
-      asset_id: 83093
+    - id: 740167
+      asset_id: 113250
       name: ex2-06m.4h
       size: 8388608
       blob_id: 39361
-    - id: 359460
-      asset_id: 83093
+    - id: 740168
+      asset_id: 113250
       name: ex2-07m.5h
       size: 8388608
       blob_id: 39362
-    - id: 359461
-      asset_id: 83093
+    - id: 740169
+      asset_id: 113250
       name: ex2-08m.2k
       size: 8388608
       blob_id: 39363
-    - id: 359462
-      asset_id: 83093
+    - id: 740170
+      asset_id: 113250
       name: ex2-09m.3k
       size: 4194304
       blob_id: 39364
-    - id: 359463
-      asset_id: 83093
+    - id: 740171
+      asset_id: 113250
       name: ex2_02.2e
       size: 131072
       blob_id: 39365
-    - id: 359464
-      asset_id: 83093
+    - id: 740172
+      asset_id: 113250
       name: ex2e_04.2h
       size: 524288
       blob_id: 39366
-    - id: 359465
-      asset_id: 83093
+    - id: 740173
+      asset_id: 113250
+      name: m534002c-59.ic353
+      size: 524288
+      blob_id: 11969
+- release:
+    id: 97586
+    game_id: 3686
+    description: ""
+    release_date: 19980000
+  names:
+  - id: 229903
+    kind: 3
+    kind_id: 97586
+    language: 1
+    name: Street Fighter EX2 (Asia 980312)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 113251
+      kind: 3
+      kind_id: 97586
+      type: 1
+      name: sfex2a.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 740174
+      asset_id: 113251
+      name: cp08
+      size: 8
+      blob_id: 39358
+    - id: 740175
+      asset_id: 113251
+      name: cp10.ic652
+      size: 8
+      blob_id: 11970
+    - id: 740176
+      asset_id: 113251
+      name: ex2-01m.3a
+      size: 4194304
+      blob_id: 39359
+    - id: 740177
+      asset_id: 113251
+      name: ex2-05m.3h
+      size: 8388608
+      blob_id: 39360
+    - id: 740178
+      asset_id: 113251
+      name: ex2-06m.4h
+      size: 8388608
+      blob_id: 39361
+    - id: 740179
+      asset_id: 113251
+      name: ex2-07m.5h
+      size: 8388608
+      blob_id: 39362
+    - id: 740180
+      asset_id: 113251
+      name: ex2-08m.2k
+      size: 8388608
+      blob_id: 39363
+    - id: 740181
+      asset_id: 113251
+      name: ex2-09m.3k
+      size: 4194304
+      blob_id: 39364
+    - id: 740182
+      asset_id: 113251
+      name: ex2_02.2e
+      size: 131072
+      blob_id: 39365
+    - id: 740183
+      asset_id: 113251
+      name: ex2a_04.2h
+      size: 524288
+      blob_id: 39367
+    - id: 740184
+      asset_id: 113251
+      name: m534002c-59.ic353
+      size: 524288
+      blob_id: 11969
+- release:
+    id: 97587
+    game_id: 3686
+    description: ""
+    release_date: 19980000
+  names:
+  - id: 229904
+    kind: 3
+    kind_id: 97587
+    language: 1
+    name: Street Fighter EX2 (Hispanic 980312)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 113252
+      kind: 3
+      kind_id: 97587
+      type: 1
+      name: sfex2h.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 740185
+      asset_id: 113252
+      name: cp08
+      size: 8
+      blob_id: 39358
+    - id: 740186
+      asset_id: 113252
+      name: cp10.ic652
+      size: 8
+      blob_id: 11970
+    - id: 740187
+      asset_id: 113252
+      name: ex2-01m.3a
+      size: 4194304
+      blob_id: 39359
+    - id: 740188
+      asset_id: 113252
+      name: ex2-05m.3h
+      size: 8388608
+      blob_id: 39360
+    - id: 740189
+      asset_id: 113252
+      name: ex2-06m.4h
+      size: 8388608
+      blob_id: 39361
+    - id: 740190
+      asset_id: 113252
+      name: ex2-07m.5h
+      size: 8388608
+      blob_id: 39362
+    - id: 740191
+      asset_id: 113252
+      name: ex2-08m.2k
+      size: 8388608
+      blob_id: 39363
+    - id: 740192
+      asset_id: 113252
+      name: ex2-09m.3k
+      size: 4194304
+      blob_id: 39364
+    - id: 740193
+      asset_id: 113252
+      name: ex2_02.2e
+      size: 131072
+      blob_id: 39365
+    - id: 740194
+      asset_id: 113252
+      name: ex2h_04.2h
+      size: 524288
+      blob_id: 39368
+    - id: 740195
+      asset_id: 113252
+      name: m534002c-59.ic353
+      size: 524288
+      blob_id: 11969
+- release:
+    id: 97588
+    game_id: 3686
+    description: ""
+    release_date: 19980000
+  names:
+  - id: 229905
+    kind: 3
+    kind_id: 97588
+    language: 1
+    name: Street Fighter EX2 (Japan 980312)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 113253
+      kind: 3
+      kind_id: 97588
+      type: 1
+      name: sfex2j.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 740196
+      asset_id: 113253
+      name: cp08
+      size: 8
+      blob_id: 39358
+    - id: 740197
+      asset_id: 113253
+      name: cp10.ic652
+      size: 8
+      blob_id: 11970
+    - id: 740198
+      asset_id: 113253
+      name: ex2-01m.3a
+      size: 4194304
+      blob_id: 39359
+    - id: 740199
+      asset_id: 113253
+      name: ex2-05m.3h
+      size: 8388608
+      blob_id: 39360
+    - id: 740200
+      asset_id: 113253
+      name: ex2-06m.4h
+      size: 8388608
+      blob_id: 39361
+    - id: 740201
+      asset_id: 113253
+      name: ex2-07m.5h
+      size: 8388608
+      blob_id: 39362
+    - id: 740202
+      asset_id: 113253
+      name: ex2-08m.2k
+      size: 8388608
+      blob_id: 39363
+    - id: 740203
+      asset_id: 113253
+      name: ex2-09m.3k
+      size: 4194304
+      blob_id: 39364
+    - id: 740204
+      asset_id: 113253
+      name: ex2_02.2e
+      size: 131072
+      blob_id: 39365
+    - id: 740205
+      asset_id: 113253
+      name: ex2j_04.2h
+      size: 524288
+      blob_id: 39369
+    - id: 740206
+      asset_id: 113253
+      name: m534002c-59.ic353
+      size: 524288
+      blob_id: 11969
+- release:
+    id: 97593
+    game_id: 3686
+    description: ""
+    release_date: 19980000
+  names:
+  - id: 229910
+    kind: 3
+    kind_id: 97593
+    language: 1
+    name: Street Fighter EX2 (USA 980526)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 113259
+      kind: 3
+      kind_id: 97593
+      type: 1
+      name: sfex2u.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 740272
+      asset_id: 113259
+      name: cp08
+      size: 8
+      blob_id: 39358
+    - id: 740273
+      asset_id: 113259
+      name: cp10.ic652
+      size: 8
+      blob_id: 11970
+    - id: 740274
+      asset_id: 113259
+      name: ex2-01m.3a
+      size: 4194304
+      blob_id: 39359
+    - id: 740275
+      asset_id: 113259
+      name: ex2-05m.3h
+      size: 8388608
+      blob_id: 39360
+    - id: 740276
+      asset_id: 113259
+      name: ex2-06m.4h
+      size: 8388608
+      blob_id: 39361
+    - id: 740277
+      asset_id: 113259
+      name: ex2-07m.5h
+      size: 8388608
+      blob_id: 39362
+    - id: 740278
+      asset_id: 113259
+      name: ex2-08m.2k
+      size: 8388608
+      blob_id: 39363
+    - id: 740279
+      asset_id: 113259
+      name: ex2-09m.3k
+      size: 4194304
+      blob_id: 39364
+    - id: 740280
+      asset_id: 113259
+      name: ex2_02.2e
+      size: 131072
+      blob_id: 39365
+    - id: 740281
+      asset_id: 113259
+      name: ex2u_04a.2h
+      size: 524288
+      blob_id: 39370
+    - id: 740282
+      asset_id: 113259
+      name: m534002c-59.ic353
+      size: 524288
+      blob_id: 11969
+- release:
+    id: 97594
+    game_id: 3686
+    description: ""
+    release_date: 19980000
+  names:
+  - id: 229911
+    kind: 3
+    kind_id: 97594
+    language: 1
+    name: Street Fighter EX2 (USA 980312)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 113260
+      kind: 3
+      kind_id: 97594
+      type: 1
+      name: sfex2u1.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 740283
+      asset_id: 113260
+      name: cp08
+      size: 8
+      blob_id: 39358
+    - id: 740284
+      asset_id: 113260
+      name: cp10.ic652
+      size: 8
+      blob_id: 11970
+    - id: 740285
+      asset_id: 113260
+      name: ex2-01m.3a
+      size: 4194304
+      blob_id: 39359
+    - id: 740286
+      asset_id: 113260
+      name: ex2-05m.3h
+      size: 8388608
+      blob_id: 39360
+    - id: 740287
+      asset_id: 113260
+      name: ex2-06m.4h
+      size: 8388608
+      blob_id: 39361
+    - id: 740288
+      asset_id: 113260
+      name: ex2-07m.5h
+      size: 8388608
+      blob_id: 39362
+    - id: 740289
+      asset_id: 113260
+      name: ex2-08m.2k
+      size: 8388608
+      blob_id: 39363
+    - id: 740290
+      asset_id: 113260
+      name: ex2-09m.3k
+      size: 4194304
+      blob_id: 39364
+    - id: 740291
+      asset_id: 113260
+      name: ex2_02.2e
+      size: 131072
+      blob_id: 39365
+    - id: 740292
+      asset_id: 113260
+      name: ex2u_04.2h
+      size: 524288
+      blob_id: 39371
+    - id: 740293
+      asset_id: 113260
       name: m534002c-59.ic353
       size: 524288
       blob_id: 11969

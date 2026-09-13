@@ -16,6 +16,60 @@ names:
   language: 2
   name: 赛车精灵 (2P 版)
   source: trimui
+- id: 188725
+  kind: 2
+  kind_id: 228
+  language: 1
+  name: Bumba (bootleg of Head On)
+  source: mame
+- id: 189187
+  kind: 2
+  kind_id: 228
+  language: 1
+  name: Colision (bootleg of Head On)
+  source: mame
+- id: 191628
+  kind: 2
+  kind_id: 228
+  language: 1
+  name: Head On (1 player)
+  source: mame
+- id: 191631
+  kind: 2
+  kind_id: 228
+  language: 1
+  name: Head On (bootleg, alt maze)
+  source: mame
+- id: 191632
+  kind: 2
+  kind_id: 228
+  language: 1
+  name: Head On N
+  source: mame
+- id: 191633
+  kind: 2
+  kind_id: 228
+  language: 1
+  name: Head On (Sidam bootleg, set 1)
+  source: mame
+- id: 191634
+  kind: 2
+  kind_id: 228
+  language: 1
+  name: Head On (Sidam bootleg, set 2)
+  source: mame
+- id: 191712
+  kind: 2
+  kind_id: 228
+  language: 1
+  name: Crash (bootleg of Head On)
+  source: mame
+- id: 199761
+  kind: 2
+  kind_id: 228
+  language: 1
+  name: Super Crash (bootleg of Head On)
+  source: mame
 game_developers: []
 game_genres: []
 assets: []
@@ -87,24 +141,10 @@ releases:
       name: 193A
       size: 1024
       blob_id: 2224
-- release:
-    id: 45864
-    game_id: 228
-    description: ""
-    release_date: 19790000
-  names:
-  - id: 122395
-    kind: 3
-    kind_id: 45864
-    language: 1
-    name: Head On (2 players)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 58934
+      id: 100913
       kind: 3
-      kind_id: 45864
+      kind_id: 228
       type: 1
       name: headon.zip
       description: ""
@@ -113,53 +153,765 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 195130
-      asset_id: 58934
+    - id: 625963
+      asset_id: 100913
       name: 316-0042.u88
       size: 32
       blob_id: 4274
-    - id: 195131
-      asset_id: 58934
+    - id: 625964
+      asset_id: 100913
       name: 316-0043.u87
       size: 32
       blob_id: 4275
-    - id: 195132
-      asset_id: 58934
+    - id: 625965
+      asset_id: 100913
       name: 316-0138.u44
       size: 32
       blob_id: 4409
-    - id: 195133
-      asset_id: 58934
+    - id: 625966
+      asset_id: 100913
       name: 316-163a.u27
       size: 1024
       blob_id: 2218
-    - id: 195134
-      asset_id: 58934
+    - id: 625967
+      asset_id: 100913
       name: 316-164a.u26
       size: 1024
       blob_id: 2219
-    - id: 195135
-      asset_id: 58934
+    - id: 625968
+      asset_id: 100913
       name: 316-165a.u25
       size: 1024
       blob_id: 2220
-    - id: 195136
-      asset_id: 58934
+    - id: 625969
+      asset_id: 100913
       name: 316-166c.u24
       size: 1024
       blob_id: 2221
-    - id: 195137
-      asset_id: 58934
+    - id: 625970
+      asset_id: 100913
       name: 316-167c.u23
       size: 1024
       blob_id: 2222
-    - id: 195138
-      asset_id: 58934
+    - id: 625971
+      asset_id: 100913
       name: 316-192a.u22
       size: 1024
       blob_id: 2223
-    - id: 195139
-      asset_id: 58934
+    - id: 625972
+      asset_id: 100913
       name: 316-193a.u21
       size: 1024
       blob_id: 2224
+- release:
+    id: 85807
+    game_id: 228
+    description: ""
+    release_date: 19790000
+  names:
+  - id: 213142
+    kind: 3
+    kind_id: 85807
+    language: 1
+    name: Head On (1 player)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 100914
+      kind: 3
+      kind_id: 85807
+      type: 1
+      name: headon1.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 625973
+      asset_id: 100914
+      name: 316-0042.u88
+      size: 32
+      blob_id: 4274
+    - id: 625974
+      asset_id: 100914
+      name: 316-0043.u87
+      size: 32
+      blob_id: 4275
+    - id: 625975
+      asset_id: 100914
+      name: 316-0138.u44
+      size: 32
+      blob_id: 4409
+    - id: 625976
+      asset_id: 100914
+      name: 316-163a.u27
+      size: 1024
+      blob_id: 2218
+    - id: 625977
+      asset_id: 100914
+      name: 316-164a.u26
+      size: 1024
+      blob_id: 2219
+    - id: 625978
+      asset_id: 100914
+      name: 316-165a.u25
+      size: 1024
+      blob_id: 2220
+    - id: 625979
+      asset_id: 100914
+      name: 316-166b.u24
+      size: 1024
+      blob_id: 248739
+    - id: 625980
+      asset_id: 100914
+      name: 316-167a.u23
+      size: 1024
+      blob_id: 248740
+    - id: 625981
+      asset_id: 100914
+      name: 316-192a.u22
+      size: 1024
+      blob_id: 2223
+    - id: 625982
+      asset_id: 100914
+      name: 316193a1.u21
+      size: 1024
+      blob_id: 248741
+- release:
+    id: 85811
+    game_id: 228
+    description: ""
+    release_date: 19790000
+  names:
+  - id: 213147
+    kind: 3
+    kind_id: 85811
+    language: 1
+    name: Head On (bootleg, alt maze)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 100919
+      kind: 3
+      kind_id: 85811
+      type: 1
+      name: headonmz.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 626020
+      asset_id: 100919
+      name: 0.bin
+      size: 1024
+      blob_id: 242396
+    - id: 626021
+      asset_id: 100919
+      name: 1.bin
+      size: 1024
+      blob_id: 2219
+    - id: 626022
+      asset_id: 100919
+      name: 10302.2e
+      size: 32
+      blob_id: 4274
+    - id: 626023
+      asset_id: 100919
+      name: 10303.3e
+      size: 32
+      blob_id: 4275
+    - id: 626024
+      asset_id: 100919
+      name: 2.bin
+      size: 1024
+      blob_id: 248753
+    - id: 626025
+      asset_id: 100919
+      name: 3.bin
+      size: 1024
+      blob_id: 248754
+    - id: 626026
+      asset_id: 100919
+      name: 316-0138.u44
+      size: 32
+      blob_id: 4409
+    - id: 626027
+      asset_id: 100919
+      name: 4.bin
+      size: 1024
+      blob_id: 248755
+    - id: 626028
+      asset_id: 100919
+      name: 5.bin
+      size: 1024
+      blob_id: 248756
+    - id: 626029
+      asset_id: 100919
+      name: 6.bin
+      size: 1024
+      blob_id: 248757
+- release:
+    id: 85812
+    game_id: 228
+    description: ""
+    release_date: 19790000
+  names:
+  - id: 213148
+    kind: 3
+    kind_id: 85812
+    language: 1
+    name: Head On N
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 100920
+      kind: 3
+      kind_id: 85812
+      type: 1
+      name: headonn.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 626030
+      asset_id: 100920
+      name: prom.b6
+      size: 32
+      blob_id: 248758
+    - id: 626031
+      asset_id: 100920
+      name: prom.f2
+      size: 32
+      blob_id: 4274
+    - id: 626032
+      asset_id: 100920
+      name: prom.g2
+      size: 32
+      blob_id: 4409
+    - id: 626033
+      asset_id: 100920
+      name: rom.e4
+      size: 1024
+      blob_id: 248759
+    - id: 626034
+      asset_id: 100920
+      name: rom.f4
+      size: 1024
+      blob_id: 248760
+    - id: 626035
+      asset_id: 100920
+      name: rom.g4
+      size: 1024
+      blob_id: 248761
+    - id: 626036
+      asset_id: 100920
+      name: rom.h4
+      size: 1024
+      blob_id: 248762
+    - id: 626037
+      asset_id: 100920
+      name: rom.i4
+      size: 1024
+      blob_id: 248763
+    - id: 626038
+      asset_id: 100920
+      name: rom.j4
+      size: 1024
+      blob_id: 248764
+    - id: 626039
+      asset_id: 100920
+      name: rom.k4
+      size: 1024
+      blob_id: 248765
+    - id: 626040
+      asset_id: 100920
+      name: rom.l4
+      size: 1024
+      blob_id: 248766
+- release:
+    id: 85813
+    game_id: 228
+    description: ""
+    release_date: 19790000
+  names:
+  - id: 213149
+    kind: 3
+    kind_id: 85813
+    language: 1
+    name: Head On (Sidam bootleg, set 1)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 100921
+      kind: 3
+      kind_id: 85813
+      type: 1
+      name: headons.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 626041
+      asset_id: 100921
+      name: 0.1a
+      size: 1024
+      blob_id: 2218
+    - id: 626042
+      asset_id: 100921
+      name: 1.3a
+      size: 1024
+      blob_id: 2219
+    - id: 626043
+      asset_id: 100921
+      name: 2.4a
+      size: 1024
+      blob_id: 2220
+    - id: 626044
+      asset_id: 100921
+      name: 3.6a
+      size: 1024
+      blob_id: 241210
+    - id: 626045
+      asset_id: 100921
+      name: 316-0042.u88
+      size: 32
+      blob_id: 4274
+    - id: 626046
+      asset_id: 100921
+      name: 316-0043.u87
+      size: 32
+      blob_id: 4275
+    - id: 626047
+      asset_id: 100921
+      name: 4.8a
+      size: 1024
+      blob_id: 248767
+    - id: 626048
+      asset_id: 100921
+      name: 5.9a
+      size: 1024
+      blob_id: 2223
+    - id: 626049
+      asset_id: 100921
+      name: 6.11a
+      size: 1024
+      blob_id: 248768
+- release:
+    id: 85814
+    game_id: 228
+    description: ""
+    release_date: 19790000
+  names:
+  - id: 213150
+    kind: 3
+    kind_id: 85814
+    language: 1
+    name: Head On (Sidam bootleg, set 2)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 100922
+      kind: 3
+      kind_id: 85814
+      type: 1
+      name: headonsa.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 626050
+      asset_id: 100922
+      name: 10302.2e
+      size: 32
+      blob_id: 4274
+    - id: 626051
+      asset_id: 100922
+      name: 10303.3e
+      size: 32
+      blob_id: 4275
+    - id: 626052
+      asset_id: 100922
+      name: 10305.0.9a
+      size: 1024
+      blob_id: 248769
+    - id: 626053
+      asset_id: 100922
+      name: 10305.1.8a
+      size: 1024
+      blob_id: 2219
+    - id: 626054
+      asset_id: 100922
+      name: 10305.2.7a
+      size: 1024
+      blob_id: 2220
+    - id: 626055
+      asset_id: 100922
+      name: 10305.3.6a
+      size: 1024
+      blob_id: 248770
+    - id: 626056
+      asset_id: 100922
+      name: 10305.4.5a
+      size: 1024
+      blob_id: 248771
+    - id: 626057
+      asset_id: 100922
+      name: 10305.5.4a
+      size: 1024
+      blob_id: 248772
+    - id: 626058
+      asset_id: 100922
+      name: 10305.6b.3a
+      size: 1024
+      blob_id: 248773
+- release:
+    id: 85940
+    game_id: 228
+    description: ""
+    release_date: 19790000
+  names:
+  - id: 213339
+    kind: 3
+    kind_id: 85940
+    language: 1
+    name: Crash (bootleg of Head On)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 101062
+      kind: 3
+      kind_id: 85940
+      type: 1
+      name: hocrash.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 628381
+      asset_id: 101062
+      name: 1-0s.0s
+      size: 1024
+      blob_id: 2218
+    - id: 628382
+      asset_id: 101062
+      name: 2-0r.0r
+      size: 1024
+      blob_id: 2219
+    - id: 628383
+      asset_id: 101062
+      name: 3-0p.0p
+      size: 1024
+      blob_id: 2220
+    - id: 628384
+      asset_id: 101062
+      name: 316-0042.u88
+      size: 32
+      blob_id: 4274
+    - id: 628385
+      asset_id: 101062
+      name: 316-0043.u87
+      size: 32
+      blob_id: 4275
+    - id: 628386
+      asset_id: 101062
+      name: 4-0m.0m
+      size: 1024
+      blob_id: 248949
+    - id: 628387
+      asset_id: 101062
+      name: 5-0l.0l
+      size: 1024
+      blob_id: 248740
+    - id: 628388
+      asset_id: 101062
+      name: 6-0k.0k
+      size: 1024
+      blob_id: 248950
+    - id: 628389
+      asset_id: 101062
+      name: 7-0j.0j
+      size: 1024
+      blob_id: 248741
+- release:
+    id: 98989
+    game_id: 228
+    description: ""
+    release_date: 19790000
+  names:
+  - id: 231847
+    kind: 3
+    kind_id: 98989
+    language: 1
+    name: Super Crash (bootleg of Head On)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 114797
+      kind: 3
+      kind_id: 98989
+      type: 1
+      name: supcrash.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/196953995
+    entries:
+    - id: 761584
+      asset_id: 114797
+      name: 1-2-scrash.bin
+      size: 2048
+      blob_id: 304318
+    - id: 761585
+      asset_id: 114797
+      name: 3-4-scrash.bin
+      size: 2048
+      blob_id: 304319
+    - id: 761586
+      asset_id: 114797
+      name: 316-0042.u88
+      size: 32
+      blob_id: 4274
+    - id: 761587
+      asset_id: 114797
+      name: 316-0043.u87
+      size: 32
+      blob_id: 4275
+    - id: 761588
+      asset_id: 114797
+      name: 5-6-scrash.bin
+      size: 2048
+      blob_id: 304320
+    - id: 761589
+      asset_id: 114797
+      name: 7-8-scrash.bin
+      size: 1024
+      blob_id: 304321
+- release:
+    id: 102534
+    game_id: 228
+    description: ""
+    release_date: 19790000
+  names:
+  - id: 236949
+    kind: 3
+    kind_id: 102534
+    language: 1
+    name: Head On (bootleg on dedicated hardware)
+    source: fbneo
+  release_publishers: []
+  assets:
+  - asset:
+      id: 118887
+      kind: 3
+      kind_id: 102534
+      type: 1
+      name: headonb.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 814919
+      asset_id: 118887
+      name: 1.bin
+      size: 1024
+      blob_id: 217602
+    - id: 814920
+      asset_id: 118887
+      name: 10.bin
+      size: 1024
+      blob_id: 217603
+    - id: 814921
+      asset_id: 118887
+      name: 2.bin
+      size: 1024
+      blob_id: 217604
+    - id: 814922
+      asset_id: 118887
+      name: 3.bin
+      size: 1024
+      blob_id: 217605
+    - id: 814923
+      asset_id: 118887
+      name: 4.bin
+      size: 1024
+      blob_id: 217606
+    - id: 814924
+      asset_id: 118887
+      name: 5.bin
+      size: 1024
+      blob_id: 217607
+    - id: 814925
+      asset_id: 118887
+      name: 6.bin
+      size: 1024
+      blob_id: 217608
+    - id: 814926
+      asset_id: 118887
+      name: 7.bin
+      size: 1024
+      blob_id: 217609
+    - id: 814927
+      asset_id: 118887
+      name: 8.bin
+      size: 1024
+      blob_id: 217610
+    - id: 814928
+      asset_id: 118887
+      name: 9.bin
+      size: 1024
+      blob_id: 217611
+- release:
+    id: 103526
+    game_id: 228
+    description: ""
+    release_date: 19790000
+  names:
+  - id: 238502
+    kind: 3
+    kind_id: 103526
+    language: 1
+    name: Bumba (bootleg of Head On)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 95469
+      kind: 3
+      kind_id: 103526
+      type: 1
+      name: bumba.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 560094
+      asset_id: 95469
+      name: 0.a1
+      size: 1024
+      blob_id: 2218
+    - id: 560095
+      asset_id: 95469
+      name: 1.a3
+      size: 1024
+      blob_id: 2219
+    - id: 560096
+      asset_id: 95469
+      name: 2.a5
+      size: 1024
+      blob_id: 2220
+    - id: 560097
+      asset_id: 95469
+      name: 3.a6
+      size: 1024
+      blob_id: 241210
+    - id: 560098
+      asset_id: 95469
+      name: 4.a8
+      size: 1024
+      blob_id: 241211
+    - id: 560099
+      asset_id: 95469
+      name: 5.a9
+      size: 1024
+      blob_id: 2223
+    - id: 560100
+      asset_id: 95469
+      name: 6.a11
+      size: 1024
+      blob_id: 241212
+- release:
+    id: 103640
+    game_id: 228
+    description: ""
+    release_date: 19790000
+  names:
+  - id: 238616
+    kind: 3
+    kind_id: 103640
+    language: 1
+    name: Colision (bootleg of Head On)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 96397
+      kind: 3
+      kind_id: 103640
+      type: 1
+      name: colision.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 570981
+      asset_id: 96397
+      name: 0_2708.a0
+      size: 1024
+      blob_id: 242396
+    - id: 570982
+      asset_id: 96397
+      name: 1_2708.b0
+      size: 1024
+      blob_id: 2219
+    - id: 570983
+      asset_id: 96397
+      name: 2_2708.d0
+      size: 1024
+      blob_id: 242397
+    - id: 570984
+      asset_id: 96397
+      name: "3_2708.e0"
+      size: 1024
+      blob_id: 242398
+    - id: 570985
+      asset_id: 96397
+      name: "4_2708.e0"
+      size: 1024
+      blob_id: 242399
+    - id: 570986
+      asset_id: 96397
+      name: 5_2708.h0
+      size: 1024
+      blob_id: 242400
+    - id: 570987
+      asset_id: 96397
+      name: 6_2708.l0
+      size: 1024
+      blob_id: 242401
+    - id: 570988
+      asset_id: 96397
+      name: p0.a4
+      size: 32
+      blob_id: 4275
+    - id: 570989
+      asset_id: 96397
+      name: p1.b4
+      size: 32
+      blob_id: 4274

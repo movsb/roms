@@ -16,6 +16,42 @@ names:
   language: 2
   name: 涡轮车手 (程序 1513-1515)
   source: trimui
+- id: 200541
+  kind: 2
+  kind_id: 4362
+  language: 1
+  name: Turbo (encrypted, program 1262-1264)
+  source: mame
+- id: 200542
+  kind: 2
+  kind_id: 4362
+  language: 1
+  name: Turbo (encrypted, program 1363-1365 rev C)
+  source: mame
+- id: 200543
+  kind: 2
+  kind_id: 4362
+  language: 1
+  name: Indianapolis (bootleg of Turbo)
+  source: mame
+- id: 200544
+  kind: 2
+  kind_id: 4362
+  language: 1
+  name: Turbo (encrypted, program 1363-1365 rev B)
+  source: mame
+- id: 200545
+  kind: 2
+  kind_id: 4362
+  language: 1
+  name: Turbo (encrypted, program 1363-1365 rev A)
+  source: mame
+- id: 200546
+  kind: 2
+  kind_id: 4362
+  language: 1
+  name: Turbo (encrypted, program 1363-1365)
+  source: mame
 game_developers:
 - game_id: 4362
   developer_id: 110
@@ -284,219 +320,1500 @@ releases:
       blob_id: 90464
       debug: arcade/wheel/turbo.png
     entries: []
-- release:
-    id: 74023
-    game_id: 4362
-    description: ""
-    release_date: 19810000
-  names:
-  - id: 177933
-    kind: 3
-    kind_id: 74023
-    language: 1
-    name: Turbo (program 1513-1515)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 87093
+      id: 116362
       kind: 3
-      kind_id: 74023
+      kind_id: 4362
       type: 1
       name: turbo.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
-      debug: dat:mame:0.289
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/4041007517
     entries:
-    - id: 401655
-      asset_id: 87093
+    - id: 778717
+      asset_id: 116362
       name: epr-1125.cpu-ic1
       size: 2048
       blob_id: 47370
-    - id: 401656
-      asset_id: 87093
+    - id: 778718
+      asset_id: 116362
       name: epr-1126.cpu-ic2
       size: 2048
       blob_id: 47371
-    - id: 401657
-      asset_id: 87093
+    - id: 778719
+      asset_id: 116362
       name: epr-1127.cpu-ic13
       size: 2048
       blob_id: 47372
-    - id: 401658
-      asset_id: 87093
+    - id: 778720
+      asset_id: 116362
       name: epr-1238.cpu-ic14
       size: 2048
       blob_id: 47373
-    - id: 401659
-      asset_id: 87093
+    - id: 778721
+      asset_id: 116362
       name: epr-1239.cpu-ic27
       size: 2048
       blob_id: 47374
-    - id: 401660
-      asset_id: 87093
+    - id: 778722
+      asset_id: 116362
       name: epr-1240.cpu-ic28
       size: 2048
       blob_id: 47375
-    - id: 401661
-      asset_id: 87093
+    - id: 778723
+      asset_id: 116362
       name: epr-1241.cpu-ic41
       size: 2048
       blob_id: 47376
-    - id: 401662
-      asset_id: 87093
+    - id: 778724
+      asset_id: 116362
       name: epr-1242.cpu-ic42
       size: 2048
       blob_id: 47377
-    - id: 401663
-      asset_id: 87093
+    - id: 778725
+      asset_id: 116362
       name: epr-1243.cpu-ic74
       size: 2048
       blob_id: 47378
-    - id: 401664
-      asset_id: 87093
+    - id: 778726
+      asset_id: 116362
       name: epr-1244.cpu-ic111
       size: 2048
       blob_id: 47379
-    - id: 401665
-      asset_id: 87093
+    - id: 778727
+      asset_id: 116362
       name: epr-1245.cpu-ic122
       size: 2048
       blob_id: 47380
-    - id: 401666
-      asset_id: 87093
+    - id: 778728
+      asset_id: 116362
       name: epr-1246.prom-ic84
       size: 8192
       blob_id: 47381
-    - id: 401667
-      asset_id: 87093
+    - id: 778729
+      asset_id: 116362
       name: epr-1247.prom-ic86
       size: 8192
       blob_id: 47382
-    - id: 401668
-      asset_id: 87093
+    - id: 778730
+      asset_id: 116362
       name: epr-1248.prom-ic88
       size: 8192
       blob_id: 47383
-    - id: 401669
-      asset_id: 87093
+    - id: 778731
+      asset_id: 116362
       name: epr-1249.prom-ic90
       size: 8192
       blob_id: 47384
-    - id: 401670
-      asset_id: 87093
+    - id: 778732
+      asset_id: 116362
       name: epr-1250.prom-ic108
       size: 8192
       blob_id: 47385
-    - id: 401671
-      asset_id: 87093
+    - id: 778733
+      asset_id: 116362
       name: epr-1251.prom-ic92
       size: 8192
       blob_id: 47386
-    - id: 401672
-      asset_id: 87093
+    - id: 778734
+      asset_id: 116362
       name: epr-1252.prom-ic110
       size: 8192
       blob_id: 47385
-    - id: 401673
-      asset_id: 87093
+    - id: 778735
+      asset_id: 116362
       name: epr-1253.prom-ic94
       size: 8192
       blob_id: 47387
-    - id: 401674
-      asset_id: 87093
+    - id: 778736
+      asset_id: 116362
       name: epr-1254.prom-ic112
       size: 8192
       blob_id: 47385
-    - id: 401675
-      asset_id: 87093
+    - id: 778737
+      asset_id: 116362
       name: epr-1255.prom-ic32
       size: 8192
       blob_id: 47388
-    - id: 401676
-      asset_id: 87093
+    - id: 778738
+      asset_id: 116362
       name: epr-1256.prom-ic47
       size: 8192
       blob_id: 47385
-    - id: 401677
-      asset_id: 87093
+    - id: 778739
+      asset_id: 116362
       name: epr-1257.prom-ic34
       size: 8192
       blob_id: 47389
-    - id: 401678
-      asset_id: 87093
+    - id: 778740
+      asset_id: 116362
       name: epr-1258.prom-ic49
       size: 8192
       blob_id: 47385
-    - id: 401679
-      asset_id: 87093
+    - id: 778741
+      asset_id: 116362
       name: epr-1513.cpu-ic76
       size: 8192
       blob_id: 47390
-    - id: 401680
-      asset_id: 87093
+    - id: 778742
+      asset_id: 116362
       name: epr-1514.cpu-ic89
       size: 8192
       blob_id: 47391
-    - id: 401681
-      asset_id: 87093
+    - id: 778743
+      asset_id: 116362
       name: epr-1515.cpu-ic103
       size: 8192
       blob_id: 47392
-    - id: 401682
-      asset_id: 87093
+    - id: 778744
+      asset_id: 116362
       name: pr-1114.prom-ic13
       size: 32
       blob_id: 47396
-    - id: 401683
-      asset_id: 87093
+    - id: 778745
+      asset_id: 116362
       name: pr-1115.prom-ic18
       size: 32
       blob_id: 47397
-    - id: 401684
-      asset_id: 87093
+    - id: 778746
+      asset_id: 116362
       name: pr-1116.prom-ic20
       size: 32
       blob_id: 47398
-    - id: 401685
-      asset_id: 87093
+    - id: 778747
+      asset_id: 116362
       name: pr-1117.prom-ic21
       size: 32
       blob_id: 47399
-    - id: 401686
-      asset_id: 87093
+    - id: 778748
+      asset_id: 116362
       name: pr-1118.cpu-ic99
       size: 256
       blob_id: 47393
-    - id: 401687
-      asset_id: 87093
+    - id: 778749
+      asset_id: 116362
       name: pr-1119.cpu-ic50
       size: 512
-      blob_id: 192684
-    - id: 401688
-      asset_id: 87093
+      blob_id: 309177
+    - id: 778750
+      asset_id: 116362
       name: pr-1120.cpu-ic62
       size: 512
-      blob_id: 192685
-    - id: 401689
-      asset_id: 87093
+      blob_id: 309178
+    - id: 778751
+      asset_id: 116362
       name: pr-1121.prom-ic29
       size: 512
       blob_id: 47400
-    - id: 401690
-      asset_id: 87093
+    - id: 778752
+      asset_id: 116362
       name: pr-1122.prom-ic11
       size: 1024
       blob_id: 47401
-    - id: 401691
-      asset_id: 87093
+    - id: 778753
+      asset_id: 116362
       name: pr-1123.prom-ic12
       size: 1024
       blob_id: 47402
-    - id: 401692
-      asset_id: 87093
+    - id: 778754
+      asset_id: 116362
+      name: pr-1279.sound-ic40
+      size: 32
+      blob_id: 47403
+- release:
+    id: 100436
+    game_id: 4362
+    description: ""
+    release_date: 19810000
+  names:
+  - id: 233984
+    kind: 3
+    kind_id: 100436
+    language: 1
+    name: Turbo (encrypted, program 1262-1264)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 116364
+      kind: 3
+      kind_id: 100436
+      type: 1
+      name: turboa.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/3711266382
+    entries:
+    - id: 778756
+      asset_id: 116364
+      name: epr-1125.cpu-ic1
+      size: 2048
+      blob_id: 47370
+    - id: 778757
+      asset_id: 116364
+      name: epr-1126.cpu-ic2
+      size: 2048
+      blob_id: 47371
+    - id: 778758
+      asset_id: 116364
+      name: epr-1127.cpu-ic13
+      size: 2048
+      blob_id: 47372
+    - id: 778759
+      asset_id: 116364
+      name: epr-1238.cpu-ic14
+      size: 2048
+      blob_id: 47373
+    - id: 778760
+      asset_id: 116364
+      name: epr-1239.cpu-ic27
+      size: 2048
+      blob_id: 47374
+    - id: 778761
+      asset_id: 116364
+      name: epr-1240.cpu-ic28
+      size: 2048
+      blob_id: 47375
+    - id: 778762
+      asset_id: 116364
+      name: epr-1241.cpu-ic41
+      size: 2048
+      blob_id: 47376
+    - id: 778763
+      asset_id: 116364
+      name: epr-1242.cpu-ic42
+      size: 2048
+      blob_id: 47377
+    - id: 778764
+      asset_id: 116364
+      name: epr-1243.cpu-ic74
+      size: 2048
+      blob_id: 47378
+    - id: 778765
+      asset_id: 116364
+      name: epr-1244.cpu-ic111
+      size: 2048
+      blob_id: 47379
+    - id: 778766
+      asset_id: 116364
+      name: epr-1245.cpu-ic122
+      size: 2048
+      blob_id: 47380
+    - id: 778767
+      asset_id: 116364
+      name: epr-1246.prom-ic84
+      size: 8192
+      blob_id: 47381
+    - id: 778768
+      asset_id: 116364
+      name: epr-1247.prom-ic86
+      size: 8192
+      blob_id: 47382
+    - id: 778769
+      asset_id: 116364
+      name: epr-1248.prom-ic88
+      size: 8192
+      blob_id: 47383
+    - id: 778770
+      asset_id: 116364
+      name: epr-1249.prom-ic90
+      size: 8192
+      blob_id: 47384
+    - id: 778771
+      asset_id: 116364
+      name: epr-1250.prom-ic108
+      size: 8192
+      blob_id: 47385
+    - id: 778772
+      asset_id: 116364
+      name: epr-1251.prom-ic92
+      size: 8192
+      blob_id: 47386
+    - id: 778773
+      asset_id: 116364
+      name: epr-1252.prom-ic110
+      size: 8192
+      blob_id: 47385
+    - id: 778774
+      asset_id: 116364
+      name: epr-1253.prom-ic94
+      size: 8192
+      blob_id: 47387
+    - id: 778775
+      asset_id: 116364
+      name: epr-1254.prom-ic112
+      size: 8192
+      blob_id: 47385
+    - id: 778776
+      asset_id: 116364
+      name: epr-1255.prom-ic32
+      size: 8192
+      blob_id: 47388
+    - id: 778777
+      asset_id: 116364
+      name: epr-1256.prom-ic47
+      size: 8192
+      blob_id: 47385
+    - id: 778778
+      asset_id: 116364
+      name: epr-1257.prom-ic34
+      size: 8192
+      blob_id: 47389
+    - id: 778779
+      asset_id: 116364
+      name: epr-1258.prom-ic49
+      size: 8192
+      blob_id: 47385
+    - id: 778780
+      asset_id: 116364
+      name: epr-1262.cpu-ic76
+      size: 8192
+      blob_id: 309179
+    - id: 778781
+      asset_id: 116364
+      name: epr-1263.cpu-ic89
+      size: 8192
+      blob_id: 309180
+    - id: 778782
+      asset_id: 116364
+      name: epr-1264.cpu-ic103
+      size: 8192
+      blob_id: 309181
+    - id: 778783
+      asset_id: 116364
+      name: pr-1114.prom-ic13
+      size: 32
+      blob_id: 47396
+    - id: 778784
+      asset_id: 116364
+      name: pr-1115.prom-ic18
+      size: 32
+      blob_id: 47397
+    - id: 778785
+      asset_id: 116364
+      name: pr-1116.prom-ic20
+      size: 32
+      blob_id: 47398
+    - id: 778786
+      asset_id: 116364
+      name: pr-1117.prom-ic21
+      size: 32
+      blob_id: 47399
+    - id: 778787
+      asset_id: 116364
+      name: pr-1118.cpu-ic99
+      size: 256
+      blob_id: 47393
+    - id: 778788
+      asset_id: 116364
+      name: pr-1119.cpu-ic50
+      size: 512
+      blob_id: 309177
+    - id: 778789
+      asset_id: 116364
+      name: pr-1120.cpu-ic62
+      size: 512
+      blob_id: 309178
+    - id: 778790
+      asset_id: 116364
+      name: pr-1121.prom-ic29
+      size: 512
+      blob_id: 47400
+    - id: 778791
+      asset_id: 116364
+      name: pr-1122.prom-ic11
+      size: 1024
+      blob_id: 47401
+    - id: 778792
+      asset_id: 116364
+      name: pr-1123.prom-ic12
+      size: 1024
+      blob_id: 47402
+    - id: 778793
+      asset_id: 116364
+      name: pr-1279.sound-ic40
+      size: 32
+      blob_id: 47403
+- release:
+    id: 100437
+    game_id: 4362
+    description: ""
+    release_date: 19810000
+  names:
+  - id: 233985
+    kind: 3
+    kind_id: 100437
+    language: 1
+    name: Turbo (encrypted, program 1363-1365 rev C)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 116365
+      kind: 3
+      kind_id: 100437
+      type: 1
+      name: turbob.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/2088036045
+    entries:
+    - id: 778794
+      asset_id: 116365
+      name: epr-1125.cpu-ic1
+      size: 2048
+      blob_id: 47370
+    - id: 778795
+      asset_id: 116365
+      name: epr-1126.cpu-ic2
+      size: 2048
+      blob_id: 47371
+    - id: 778796
+      asset_id: 116365
+      name: epr-1127.cpu-ic13
+      size: 2048
+      blob_id: 47372
+    - id: 778797
+      asset_id: 116365
+      name: epr-1238.cpu-ic14
+      size: 2048
+      blob_id: 47373
+    - id: 778798
+      asset_id: 116365
+      name: epr-1239.cpu-ic27
+      size: 2048
+      blob_id: 47374
+    - id: 778799
+      asset_id: 116365
+      name: epr-1240.cpu-ic28
+      size: 2048
+      blob_id: 47375
+    - id: 778800
+      asset_id: 116365
+      name: epr-1241.cpu-ic41
+      size: 2048
+      blob_id: 47376
+    - id: 778801
+      asset_id: 116365
+      name: epr-1242.cpu-ic42
+      size: 2048
+      blob_id: 47377
+    - id: 778802
+      asset_id: 116365
+      name: epr-1243.cpu-ic74
+      size: 2048
+      blob_id: 47378
+    - id: 778803
+      asset_id: 116365
+      name: epr-1244.cpu-ic111
+      size: 2048
+      blob_id: 47379
+    - id: 778804
+      asset_id: 116365
+      name: epr-1245.cpu-ic122
+      size: 2048
+      blob_id: 47380
+    - id: 778805
+      asset_id: 116365
+      name: epr-1246.prom-ic84
+      size: 8192
+      blob_id: 47381
+    - id: 778806
+      asset_id: 116365
+      name: epr-1247.prom-ic86
+      size: 8192
+      blob_id: 47382
+    - id: 778807
+      asset_id: 116365
+      name: epr-1248.prom-ic88
+      size: 8192
+      blob_id: 47383
+    - id: 778808
+      asset_id: 116365
+      name: epr-1249.prom-ic90
+      size: 8192
+      blob_id: 47384
+    - id: 778809
+      asset_id: 116365
+      name: epr-1250.prom-ic108
+      size: 8192
+      blob_id: 47385
+    - id: 778810
+      asset_id: 116365
+      name: epr-1251.prom-ic92
+      size: 8192
+      blob_id: 47386
+    - id: 778811
+      asset_id: 116365
+      name: epr-1252.prom-ic110
+      size: 8192
+      blob_id: 47385
+    - id: 778812
+      asset_id: 116365
+      name: epr-1253.prom-ic94
+      size: 8192
+      blob_id: 47387
+    - id: 778813
+      asset_id: 116365
+      name: epr-1254.prom-ic112
+      size: 8192
+      blob_id: 47385
+    - id: 778814
+      asset_id: 116365
+      name: epr-1255.prom-ic32
+      size: 8192
+      blob_id: 47388
+    - id: 778815
+      asset_id: 116365
+      name: epr-1256.prom-ic47
+      size: 8192
+      blob_id: 47385
+    - id: 778816
+      asset_id: 116365
+      name: epr-1257.prom-ic34
+      size: 8192
+      blob_id: 47389
+    - id: 778817
+      asset_id: 116365
+      name: epr-1258.prom-ic49
+      size: 8192
+      blob_id: 47385
+    - id: 778818
+      asset_id: 116365
+      name: epr-1363_t5c.ic76
+      size: 8192
+      blob_id: 309182
+    - id: 778819
+      asset_id: 116365
+      name: epr-1364_t5c.ic89
+      size: 8192
+      blob_id: 309183
+    - id: 778820
+      asset_id: 116365
+      name: epr-1365_t5c.ic103
+      size: 8192
+      blob_id: 309184
+    - id: 778821
+      asset_id: 116365
+      name: pr-1114.prom-ic13
+      size: 32
+      blob_id: 47396
+    - id: 778822
+      asset_id: 116365
+      name: pr-1115.prom-ic18
+      size: 32
+      blob_id: 47397
+    - id: 778823
+      asset_id: 116365
+      name: pr-1116.prom-ic20
+      size: 32
+      blob_id: 47398
+    - id: 778824
+      asset_id: 116365
+      name: pr-1117.prom-ic21
+      size: 32
+      blob_id: 47399
+    - id: 778825
+      asset_id: 116365
+      name: pr-1118.cpu-ic99
+      size: 256
+      blob_id: 47393
+    - id: 778826
+      asset_id: 116365
+      name: pr-1119.cpu-ic50
+      size: 512
+      blob_id: 309177
+    - id: 778827
+      asset_id: 116365
+      name: pr-1120.cpu-ic62
+      size: 512
+      blob_id: 309178
+    - id: 778828
+      asset_id: 116365
+      name: pr-1121.prom-ic29
+      size: 512
+      blob_id: 47400
+    - id: 778829
+      asset_id: 116365
+      name: pr-1122.prom-ic11
+      size: 1024
+      blob_id: 47401
+    - id: 778830
+      asset_id: 116365
+      name: pr-1123.prom-ic12
+      size: 1024
+      blob_id: 47402
+    - id: 778831
+      asset_id: 116365
+      name: pr-1279.sound-ic40
+      size: 32
+      blob_id: 47403
+- release:
+    id: 100438
+    game_id: 4362
+    description: ""
+    release_date: 19810000
+  names:
+  - id: 233986
+    kind: 3
+    kind_id: 100438
+    language: 1
+    name: Indianapolis (bootleg of Turbo)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 116366
+      kind: 3
+      kind_id: 100438
+      type: 1
+      name: turbobl.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/1288422517
+    entries:
+    - id: 778832
+      asset_id: 116366
+      name: 74s288.ic13
+      size: 32
+      blob_id: 47396
+    - id: 778833
+      asset_id: 116366
+      name: 74s288.ic18
+      size: 32
+      blob_id: 309185
+    - id: 778834
+      asset_id: 116366
+      name: 74s288.ic20
+      size: 32
+      blob_id: 47398
+    - id: 778835
+      asset_id: 116366
+      name: 74s288.ic21
+      size: 32
+      blob_id: 47399
+    - id: 778836
+      asset_id: 116366
+      name: a-ic84.bin
+      size: 8192
+      blob_id: 47381
+    - id: 778837
+      asset_id: 116366
+      name: b-ic86.bin
+      size: 8192
+      blob_id: 47383
+    - id: 778838
+      asset_id: 116366
+      name: c-ic88.bin
+      size: 8192
+      blob_id: 309186
+    - id: 778839
+      asset_id: 116366
+      name: d-ic99.bin
+      size: 8192
+      blob_id: 47385
+    - id: 778840
+      asset_id: 116366
+      name: e-ic90.bin
+      size: 8192
+      blob_id: 309187
+    - id: 778841
+      asset_id: 116366
+      name: f-ic100.bin
+      size: 8192
+      blob_id: 47385
+    - id: 778842
+      asset_id: 116366
+      name: g-ic92.bin
+      size: 8192
+      blob_id: 47386
+    - id: 778843
+      asset_id: 116366
+      name: h-ic101.bin
+      size: 8192
+      blob_id: 47385
+    - id: 778844
+      asset_id: 116366
+      name: ic1.bin
+      size: 4096
+      blob_id: 309188
+    - id: 778845
+      asset_id: 116366
+      name: ic103.bin
+      size: 8192
+      blob_id: 309189
+    - id: 778846
+      asset_id: 116366
+      name: ic111.bin
+      size: 2048
+      blob_id: 309190
+    - id: 778847
+      asset_id: 116366
+      name: ic122.bin
+      size: 2048
+      blob_id: 309191
+    - id: 778848
+      asset_id: 116366
+      name: ic13.bin
+      size: 4096
+      blob_id: 309192
+    - id: 778849
+      asset_id: 116366
+      name: ic27.bin
+      size: 4096
+      blob_id: 309193
+    - id: 778850
+      asset_id: 116366
+      name: ic41.bin
+      size: 4096
+      blob_id: 309194
+    - id: 778851
+      asset_id: 116366
+      name: ic74.bin
+      size: 2048
+      blob_id: 47378
+    - id: 778852
+      asset_id: 116366
+      name: ic76.bin
+      size: 8192
+      blob_id: 309195
+    - id: 778853
+      asset_id: 116366
+      name: ic89.bin
+      size: 8192
+      blob_id: 309196
+    - id: 778854
+      asset_id: 116366
+      name: ic90.bin
+      size: 256
+      blob_id: 309197
+    - id: 778855
+      asset_id: 116366
+      name: ic99.bin
+      size: 256
+      blob_id: 309198
+    - id: 778856
+      asset_id: 116366
+      name: k-ic94.bin
+      size: 8192
+      blob_id: 47387
+    - id: 778857
+      asset_id: 116366
+      name: l-ic49.bin
+      size: 8192
+      blob_id: 47385
+    - id: 778858
+      asset_id: 116366
+      name: m-ic34.bin
+      size: 8192
+      blob_id: 47389
+    - id: 778859
+      asset_id: 116366
+      name: n-ic47.bin
+      size: 8192
+      blob_id: 47385
+    - id: 778860
+      asset_id: 116366
+      name: p-ic32.bin
+      size: 8192
+      blob_id: 47388
+    - id: 778861
+      asset_id: 116366
+      name: pr-1119.cpu-ic50
+      size: 512
+      blob_id: 309177
+    - id: 778862
+      asset_id: 116366
+      name: pr-1120.cpu-ic62
+      size: 512
+      blob_id: 309178
+    - id: 778863
+      asset_id: 116366
+      name: pr-1121.prom-ic29
+      size: 512
+      blob_id: 47400
+    - id: 778864
+      asset_id: 116366
+      name: pr-1122.prom-ic11
+      size: 1024
+      blob_id: 47401
+    - id: 778865
+      asset_id: 116366
+      name: pr-1123.prom-ic12
+      size: 1024
+      blob_id: 47402
+    - id: 778866
+      asset_id: 116366
+      name: pr-1279.sound-ic40
+      size: 32
+      blob_id: 47403
+- release:
+    id: 100439
+    game_id: 4362
+    description: ""
+    release_date: 19810000
+  names:
+  - id: 233987
+    kind: 3
+    kind_id: 100439
+    language: 1
+    name: Turbo (encrypted, program 1363-1365 rev B)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 116367
+      kind: 3
+      kind_id: 100439
+      type: 1
+      name: turboc.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/250649294
+    entries:
+    - id: 778867
+      asset_id: 116367
+      name: epr-1125.cpu-ic1
+      size: 2048
+      blob_id: 47370
+    - id: 778868
+      asset_id: 116367
+      name: epr-1126.cpu-ic2
+      size: 2048
+      blob_id: 47371
+    - id: 778869
+      asset_id: 116367
+      name: epr-1127.cpu-ic13
+      size: 2048
+      blob_id: 47372
+    - id: 778870
+      asset_id: 116367
+      name: epr-1238.cpu-ic14
+      size: 2048
+      blob_id: 47373
+    - id: 778871
+      asset_id: 116367
+      name: epr-1239.cpu-ic27
+      size: 2048
+      blob_id: 47374
+    - id: 778872
+      asset_id: 116367
+      name: epr-1240.cpu-ic28
+      size: 2048
+      blob_id: 47375
+    - id: 778873
+      asset_id: 116367
+      name: epr-1241.cpu-ic41
+      size: 2048
+      blob_id: 47376
+    - id: 778874
+      asset_id: 116367
+      name: epr-1242.cpu-ic42
+      size: 2048
+      blob_id: 47377
+    - id: 778875
+      asset_id: 116367
+      name: epr-1243.cpu-ic74
+      size: 2048
+      blob_id: 47378
+    - id: 778876
+      asset_id: 116367
+      name: epr-1244.cpu-ic111
+      size: 2048
+      blob_id: 47379
+    - id: 778877
+      asset_id: 116367
+      name: epr-1245.cpu-ic122
+      size: 2048
+      blob_id: 47380
+    - id: 778878
+      asset_id: 116367
+      name: epr-1246.prom-ic84
+      size: 8192
+      blob_id: 47381
+    - id: 778879
+      asset_id: 116367
+      name: epr-1247.prom-ic86
+      size: 8192
+      blob_id: 47382
+    - id: 778880
+      asset_id: 116367
+      name: epr-1248.prom-ic88
+      size: 8192
+      blob_id: 47383
+    - id: 778881
+      asset_id: 116367
+      name: epr-1249.prom-ic90
+      size: 8192
+      blob_id: 47384
+    - id: 778882
+      asset_id: 116367
+      name: epr-1250.prom-ic108
+      size: 8192
+      blob_id: 47385
+    - id: 778883
+      asset_id: 116367
+      name: epr-1251.prom-ic92
+      size: 8192
+      blob_id: 47386
+    - id: 778884
+      asset_id: 116367
+      name: epr-1252.prom-ic110
+      size: 8192
+      blob_id: 47385
+    - id: 778885
+      asset_id: 116367
+      name: epr-1253.prom-ic94
+      size: 8192
+      blob_id: 47387
+    - id: 778886
+      asset_id: 116367
+      name: epr-1254.prom-ic112
+      size: 8192
+      blob_id: 47385
+    - id: 778887
+      asset_id: 116367
+      name: epr-1255.prom-ic32
+      size: 8192
+      blob_id: 47388
+    - id: 778888
+      asset_id: 116367
+      name: epr-1256.prom-ic47
+      size: 8192
+      blob_id: 47385
+    - id: 778889
+      asset_id: 116367
+      name: epr-1257.prom-ic34
+      size: 8192
+      blob_id: 47389
+    - id: 778890
+      asset_id: 116367
+      name: epr-1258.prom-ic49
+      size: 8192
+      blob_id: 47385
+    - id: 778891
+      asset_id: 116367
+      name: epr-1363_t5b.ic76
+      size: 8192
+      blob_id: 309199
+    - id: 778892
+      asset_id: 116367
+      name: epr-1364_t5a.ic89
+      size: 8192
+      blob_id: 309200
+    - id: 778893
+      asset_id: 116367
+      name: epr-1365_t5a.ic103
+      size: 8192
+      blob_id: 309201
+    - id: 778894
+      asset_id: 116367
+      name: pr-1114.prom-ic13
+      size: 32
+      blob_id: 47396
+    - id: 778895
+      asset_id: 116367
+      name: pr-1115.prom-ic18
+      size: 32
+      blob_id: 47397
+    - id: 778896
+      asset_id: 116367
+      name: pr-1116.prom-ic20
+      size: 32
+      blob_id: 47398
+    - id: 778897
+      asset_id: 116367
+      name: pr-1117.prom-ic21
+      size: 32
+      blob_id: 47399
+    - id: 778898
+      asset_id: 116367
+      name: pr-1118.cpu-ic99
+      size: 256
+      blob_id: 47393
+    - id: 778899
+      asset_id: 116367
+      name: pr-1119.cpu-ic50
+      size: 512
+      blob_id: 309177
+    - id: 778900
+      asset_id: 116367
+      name: pr-1120.cpu-ic62
+      size: 512
+      blob_id: 309178
+    - id: 778901
+      asset_id: 116367
+      name: pr-1121.prom-ic29
+      size: 512
+      blob_id: 47400
+    - id: 778902
+      asset_id: 116367
+      name: pr-1122.prom-ic11
+      size: 1024
+      blob_id: 47401
+    - id: 778903
+      asset_id: 116367
+      name: pr-1123.prom-ic12
+      size: 1024
+      blob_id: 47402
+    - id: 778904
+      asset_id: 116367
+      name: pr-1279.sound-ic40
+      size: 32
+      blob_id: 47403
+- release:
+    id: 100440
+    game_id: 4362
+    description: ""
+    release_date: 19810000
+  names:
+  - id: 233988
+    kind: 3
+    kind_id: 100440
+    language: 1
+    name: Turbo (encrypted, program 1363-1365 rev A)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 116368
+      kind: 3
+      kind_id: 100440
+      type: 1
+      name: turbod.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/3952822435
+    entries:
+    - id: 778905
+      asset_id: 116368
+      name: epr-1125.cpu-ic1
+      size: 2048
+      blob_id: 47370
+    - id: 778906
+      asset_id: 116368
+      name: epr-1126.cpu-ic2
+      size: 2048
+      blob_id: 47371
+    - id: 778907
+      asset_id: 116368
+      name: epr-1127.cpu-ic13
+      size: 2048
+      blob_id: 47372
+    - id: 778908
+      asset_id: 116368
+      name: epr-1238.cpu-ic14
+      size: 2048
+      blob_id: 47373
+    - id: 778909
+      asset_id: 116368
+      name: epr-1239.cpu-ic27
+      size: 2048
+      blob_id: 47374
+    - id: 778910
+      asset_id: 116368
+      name: epr-1240.cpu-ic28
+      size: 2048
+      blob_id: 47375
+    - id: 778911
+      asset_id: 116368
+      name: epr-1241.cpu-ic41
+      size: 2048
+      blob_id: 47376
+    - id: 778912
+      asset_id: 116368
+      name: epr-1242.cpu-ic42
+      size: 2048
+      blob_id: 47377
+    - id: 778913
+      asset_id: 116368
+      name: epr-1243.cpu-ic74
+      size: 2048
+      blob_id: 47378
+    - id: 778914
+      asset_id: 116368
+      name: epr-1244.cpu-ic111
+      size: 2048
+      blob_id: 47379
+    - id: 778915
+      asset_id: 116368
+      name: epr-1245.cpu-ic122
+      size: 2048
+      blob_id: 47380
+    - id: 778916
+      asset_id: 116368
+      name: epr-1246.prom-ic84
+      size: 8192
+      blob_id: 47381
+    - id: 778917
+      asset_id: 116368
+      name: epr-1247.prom-ic86
+      size: 8192
+      blob_id: 47382
+    - id: 778918
+      asset_id: 116368
+      name: epr-1248.prom-ic88
+      size: 8192
+      blob_id: 47383
+    - id: 778919
+      asset_id: 116368
+      name: epr-1249.prom-ic90
+      size: 8192
+      blob_id: 47384
+    - id: 778920
+      asset_id: 116368
+      name: epr-1250.prom-ic108
+      size: 8192
+      blob_id: 47385
+    - id: 778921
+      asset_id: 116368
+      name: epr-1251.prom-ic92
+      size: 8192
+      blob_id: 47386
+    - id: 778922
+      asset_id: 116368
+      name: epr-1252.prom-ic110
+      size: 8192
+      blob_id: 47385
+    - id: 778923
+      asset_id: 116368
+      name: epr-1253.prom-ic94
+      size: 8192
+      blob_id: 47387
+    - id: 778924
+      asset_id: 116368
+      name: epr-1254.prom-ic112
+      size: 8192
+      blob_id: 47385
+    - id: 778925
+      asset_id: 116368
+      name: epr-1255.prom-ic32
+      size: 8192
+      blob_id: 47388
+    - id: 778926
+      asset_id: 116368
+      name: epr-1256.prom-ic47
+      size: 8192
+      blob_id: 47385
+    - id: 778927
+      asset_id: 116368
+      name: epr-1257.prom-ic34
+      size: 8192
+      blob_id: 47389
+    - id: 778928
+      asset_id: 116368
+      name: epr-1258.prom-ic49
+      size: 8192
+      blob_id: 47385
+    - id: 778929
+      asset_id: 116368
+      name: epr-1363_t5a.ic76
+      size: 8192
+      blob_id: 309202
+    - id: 778930
+      asset_id: 116368
+      name: epr-1364_t5a.ic89
+      size: 8192
+      blob_id: 309200
+    - id: 778931
+      asset_id: 116368
+      name: epr-1365_t5a.ic103
+      size: 8192
+      blob_id: 309201
+    - id: 778932
+      asset_id: 116368
+      name: pr-1114.prom-ic13
+      size: 32
+      blob_id: 47396
+    - id: 778933
+      asset_id: 116368
+      name: pr-1115.prom-ic18
+      size: 32
+      blob_id: 47397
+    - id: 778934
+      asset_id: 116368
+      name: pr-1116.prom-ic20
+      size: 32
+      blob_id: 47398
+    - id: 778935
+      asset_id: 116368
+      name: pr-1117.prom-ic21
+      size: 32
+      blob_id: 47399
+    - id: 778936
+      asset_id: 116368
+      name: pr-1118.cpu-ic99
+      size: 256
+      blob_id: 47393
+    - id: 778937
+      asset_id: 116368
+      name: pr-1119.cpu-ic50
+      size: 512
+      blob_id: 309177
+    - id: 778938
+      asset_id: 116368
+      name: pr-1120.cpu-ic62
+      size: 512
+      blob_id: 309178
+    - id: 778939
+      asset_id: 116368
+      name: pr-1121.prom-ic29
+      size: 512
+      blob_id: 47400
+    - id: 778940
+      asset_id: 116368
+      name: pr-1122.prom-ic11
+      size: 1024
+      blob_id: 47401
+    - id: 778941
+      asset_id: 116368
+      name: pr-1123.prom-ic12
+      size: 1024
+      blob_id: 47402
+    - id: 778942
+      asset_id: 116368
+      name: pr-1279.sound-ic40
+      size: 32
+      blob_id: 47403
+- release:
+    id: 100441
+    game_id: 4362
+    description: ""
+    release_date: 19810000
+  names:
+  - id: 233989
+    kind: 3
+    kind_id: 100441
+    language: 1
+    name: Turbo (encrypted, program 1363-1365)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 116369
+      kind: 3
+      kind_id: 100441
+      type: 1
+      name: turboe.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/567961848
+    entries:
+    - id: 778943
+      asset_id: 116369
+      name: 1363.ic76
+      size: 8192
+      blob_id: 309203
+    - id: 778944
+      asset_id: 116369
+      name: 1364.ic89
+      size: 8192
+      blob_id: 309204
+    - id: 778945
+      asset_id: 116369
+      name: 1365.ic103
+      size: 8192
+      blob_id: 309205
+    - id: 778946
+      asset_id: 116369
+      name: epr-1125.cpu-ic1
+      size: 2048
+      blob_id: 47370
+    - id: 778947
+      asset_id: 116369
+      name: epr-1126.cpu-ic2
+      size: 2048
+      blob_id: 47371
+    - id: 778948
+      asset_id: 116369
+      name: epr-1127.cpu-ic13
+      size: 2048
+      blob_id: 47372
+    - id: 778949
+      asset_id: 116369
+      name: epr-1238.cpu-ic14
+      size: 2048
+      blob_id: 47373
+    - id: 778950
+      asset_id: 116369
+      name: epr-1239.cpu-ic27
+      size: 2048
+      blob_id: 47374
+    - id: 778951
+      asset_id: 116369
+      name: epr-1240.cpu-ic28
+      size: 2048
+      blob_id: 47375
+    - id: 778952
+      asset_id: 116369
+      name: epr-1241.cpu-ic41
+      size: 2048
+      blob_id: 47376
+    - id: 778953
+      asset_id: 116369
+      name: epr-1242.cpu-ic42
+      size: 2048
+      blob_id: 47377
+    - id: 778954
+      asset_id: 116369
+      name: epr-1243.cpu-ic74
+      size: 2048
+      blob_id: 47378
+    - id: 778955
+      asset_id: 116369
+      name: epr-1244.cpu-ic111
+      size: 2048
+      blob_id: 47379
+    - id: 778956
+      asset_id: 116369
+      name: epr-1245.cpu-ic122
+      size: 2048
+      blob_id: 47380
+    - id: 778957
+      asset_id: 116369
+      name: epr-1246.prom-ic84
+      size: 8192
+      blob_id: 47381
+    - id: 778958
+      asset_id: 116369
+      name: epr-1247.prom-ic86
+      size: 8192
+      blob_id: 47382
+    - id: 778959
+      asset_id: 116369
+      name: epr-1248.prom-ic88
+      size: 8192
+      blob_id: 47383
+    - id: 778960
+      asset_id: 116369
+      name: epr-1249.prom-ic90
+      size: 8192
+      blob_id: 47384
+    - id: 778961
+      asset_id: 116369
+      name: epr-1250.prom-ic108
+      size: 8192
+      blob_id: 47385
+    - id: 778962
+      asset_id: 116369
+      name: epr-1251.prom-ic92
+      size: 8192
+      blob_id: 47386
+    - id: 778963
+      asset_id: 116369
+      name: epr-1252.prom-ic110
+      size: 8192
+      blob_id: 47385
+    - id: 778964
+      asset_id: 116369
+      name: epr-1253.prom-ic94
+      size: 8192
+      blob_id: 47387
+    - id: 778965
+      asset_id: 116369
+      name: epr-1254.prom-ic112
+      size: 8192
+      blob_id: 47385
+    - id: 778966
+      asset_id: 116369
+      name: epr-1255.prom-ic32
+      size: 8192
+      blob_id: 47388
+    - id: 778967
+      asset_id: 116369
+      name: epr-1256.prom-ic47
+      size: 8192
+      blob_id: 47385
+    - id: 778968
+      asset_id: 116369
+      name: epr-1257.prom-ic34
+      size: 8192
+      blob_id: 47389
+    - id: 778969
+      asset_id: 116369
+      name: epr-1258.prom-ic49
+      size: 8192
+      blob_id: 47385
+    - id: 778970
+      asset_id: 116369
+      name: pr-1114.prom-ic13
+      size: 32
+      blob_id: 47396
+    - id: 778971
+      asset_id: 116369
+      name: pr-1115.prom-ic18
+      size: 32
+      blob_id: 47397
+    - id: 778972
+      asset_id: 116369
+      name: pr-1116.prom-ic20
+      size: 32
+      blob_id: 47398
+    - id: 778973
+      asset_id: 116369
+      name: pr-1117.prom-ic21
+      size: 32
+      blob_id: 47399
+    - id: 778974
+      asset_id: 116369
+      name: pr-1118.cpu-ic99
+      size: 256
+      blob_id: 47393
+    - id: 778975
+      asset_id: 116369
+      name: pr-1119.cpu-ic50
+      size: 512
+      blob_id: 309177
+    - id: 778976
+      asset_id: 116369
+      name: pr-1120.cpu-ic62
+      size: 512
+      blob_id: 309178
+    - id: 778977
+      asset_id: 116369
+      name: pr-1121.prom-ic29
+      size: 512
+      blob_id: 47400
+    - id: 778978
+      asset_id: 116369
+      name: pr-1122.prom-ic11
+      size: 1024
+      blob_id: 47401
+    - id: 778979
+      asset_id: 116369
+      name: pr-1123.prom-ic12
+      size: 1024
+      blob_id: 47402
+    - id: 778980
+      asset_id: 116369
       name: pr-1279.sound-ic40
       size: 32
       blob_id: 47403

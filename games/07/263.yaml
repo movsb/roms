@@ -16,6 +16,24 @@ names:
   language: 2
   name: 袋鼠
   source: trimui
+- id: 192247
+  kind: 2
+  kind_id: 263
+  language: 1
+  name: Kangaroo (Atari)
+  source: mame
+- id: 192248
+  kind: 2
+  kind_id: 263
+  language: 1
+  name: Kangaroo (bootleg)
+  source: mame
+- id: 192249
+  kind: 2
+  kind_id: 263
+  language: 1
+  name: Kangaroo (Löwen-Automaten)
+  source: mame
 game_developers:
 - game_id: 263
   developer_id: 447
@@ -47,9 +65,73 @@ releases:
     publisher_id: 304
   assets:
   - asset:
-      id: 263
+      id: 41431
       kind: 3
       kind_id: 263
+      type: 4
+      name: kangaroo.png
+      description: ""
+      format: 1
+      size: 45906
+      blob_id: 85003
+      debug: arcade/downloaded_images/kangaroo.png
+    entries: []
+  - asset:
+      id: 41432
+      kind: 3
+      kind_id: 263
+      type: 6
+      name: kangaroo.mp4
+      description: ""
+      format: 1
+      size: 671819
+      blob_id: 85004
+      debug: arcade/snap/kangaroo.mp4
+    entries: []
+  - asset:
+      id: 41433
+      kind: 3
+      kind_id: 263
+      type: 7
+      name: kangaroo.png
+      description: ""
+      format: 1
+      size: 48971
+      blob_id: 85005
+      debug: arcade/wheel/kangaroo.png
+    entries: []
+- release:
+    id: 48748
+    game_id: 263
+    description: ""
+    release_date: 19820000
+  names:
+  - id: 128085
+    kind: 3
+    kind_id: 48748
+    language: 1
+    name: Kangaroo
+    source: mame
+  - id: 183970
+    kind: 3
+    kind_id: 48748
+    language: 1
+    name: KANGAROO
+    source: ""
+  - id: 183971
+    kind: 3
+    kind_id: 48748
+    language: 2
+    name: 袋鼠
+    source: trimui
+  release_publishers:
+  - release_id: 48748
+    publisher_id: 304
+  assets:
+  - asset:
+      id: 263
+      kind: 3
+      kind_id: 48748
       type: 1
       name: kangaroo.zip
       description: ""
@@ -119,57 +201,7 @@ releases:
       size: 4096
       blob_id: 2551
   - asset:
-      id: 41431
-      kind: 3
-      kind_id: 263
-      type: 4
-      name: kangaroo.png
-      description: ""
-      format: 1
-      size: 45906
-      blob_id: 85003
-      debug: arcade/downloaded_images/kangaroo.png
-    entries: []
-  - asset:
-      id: 41432
-      kind: 3
-      kind_id: 263
-      type: 6
-      name: kangaroo.mp4
-      description: ""
-      format: 1
-      size: 671819
-      blob_id: 85004
-      debug: arcade/snap/kangaroo.mp4
-    entries: []
-  - asset:
-      id: 41433
-      kind: 3
-      kind_id: 263
-      type: 7
-      name: kangaroo.png
-      description: ""
-      format: 1
-      size: 48971
-      blob_id: 85005
-      debug: arcade/wheel/kangaroo.png
-    entries: []
-- release:
-    id: 48748
-    game_id: 263
-    description: ""
-    release_date: 19820000
-  names:
-  - id: 128085
-    kind: 3
-    kind_id: 48748
-    language: 1
-    name: Kangaroo
-    source: mame
-  release_publishers: []
-  assets:
-  - asset:
-      id: 61818
+      id: 102291
       kind: 3
       kind_id: 48748
       type: 1
@@ -180,68 +212,475 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 213948
-      asset_id: 61818
+    - id: 639972
+      asset_id: 102291
       name: mb8841_477m.ic29
       size: 2048
-      blob_id: 131097
-    - id: 213949
-      asset_id: 61818
+      blob_id: 226882
+    - id: 639973
+      asset_id: 102291
       name: tvg_75.0
       size: 4096
       blob_id: 2540
-    - id: 213950
-      asset_id: 61818
+    - id: 639974
+      asset_id: 102291
       name: tvg_76.1
       size: 4096
       blob_id: 2541
-    - id: 213951
-      asset_id: 61818
+    - id: 639975
+      asset_id: 102291
       name: tvg_77.2
       size: 4096
       blob_id: 2542
-    - id: 213952
-      asset_id: 61818
+    - id: 639976
+      asset_id: 102291
       name: tvg_78.3
       size: 4096
       blob_id: 2543
-    - id: 213953
-      asset_id: 61818
+    - id: 639977
+      asset_id: 102291
       name: tvg_79.4
       size: 4096
       blob_id: 2544
-    - id: 213954
-      asset_id: 61818
+    - id: 639978
+      asset_id: 102291
       name: tvg_80.5
       size: 4096
       blob_id: 2545
-    - id: 213955
-      asset_id: 61818
+    - id: 639979
+      asset_id: 102291
       name: tvg_81.8
       size: 4096
       blob_id: 2546
-    - id: 213956
-      asset_id: 61818
+    - id: 639980
+      asset_id: 102291
       name: tvg_82.12
       size: 2048
       blob_id: 2547
-    - id: 213957
-      asset_id: 61818
+    - id: 639981
+      asset_id: 102291
       name: tvg_83.v0
       size: 4096
       blob_id: 2548
-    - id: 213958
-      asset_id: 61818
+    - id: 639982
+      asset_id: 102291
       name: tvg_84.v1
       size: 4096
       blob_id: 2549
-    - id: 213959
-      asset_id: 61818
+    - id: 639983
+      asset_id: 102291
       name: tvg_85.v2
       size: 4096
       blob_id: 2550
-    - id: 213960
-      asset_id: 61818
+    - id: 639984
+      asset_id: 102291
       name: tvg_86.v3
+      size: 4096
+      blob_id: 2551
+- release:
+    id: 87095
+    game_id: 263
+    description: ""
+    release_date: 19820000
+  names:
+  - id: 215209
+    kind: 3
+    kind_id: 87095
+    language: 1
+    name: Kangaroo (Atari)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 102292
+      kind: 3
+      kind_id: 87095
+      type: 1
+      name: kangarooa.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 639985
+      asset_id: 102292
+      name: 136008-101.ic7
+      size: 4096
+      blob_id: 2540
+    - id: 639986
+      asset_id: 102292
+      name: 136008-102.ic8
+      size: 4096
+      blob_id: 2541
+    - id: 639987
+      asset_id: 102292
+      name: 136008-103.ic9
+      size: 4096
+      blob_id: 2542
+    - id: 639988
+      asset_id: 102292
+      name: 136008-104.ic10
+      size: 4096
+      blob_id: 2543
+    - id: 639989
+      asset_id: 102292
+      name: 136008-105.ic16
+      size: 4096
+      blob_id: 251093
+    - id: 639990
+      asset_id: 102292
+      name: 136008-106.ic17
+      size: 4096
+      blob_id: 251094
+    - id: 639991
+      asset_id: 102292
+      name: 136008-107.ic24
+      size: 4096
+      blob_id: 2546
+    - id: 639992
+      asset_id: 102292
+      name: 136008-108.ic76
+      size: 4096
+      blob_id: 2548
+    - id: 639993
+      asset_id: 102292
+      name: 136008-109.ic52
+      size: 4096
+      blob_id: 2549
+    - id: 639994
+      asset_id: 102292
+      name: 136008-110.ic77
+      size: 4096
+      blob_id: 2550
+    - id: 639995
+      asset_id: 102292
+      name: 136008-111.ic53
+      size: 4096
+      blob_id: 2551
+    - id: 639996
+      asset_id: 102292
+      name: 136008-112.ic28
+      size: 2048
+      blob_id: 2547
+    - id: 639997
+      asset_id: 102292
+      name: mb8841_477m.ic29
+      size: 2048
+      blob_id: 226882
+  - asset:
+      id: 118935
+      kind: 3
+      kind_id: 87095
+      type: 1
+      name: kangarooa.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 816168
+      asset_id: 118935
+      name: 136008-101.ic7
+      size: 4096
+      blob_id: 2540
+    - id: 816169
+      asset_id: 118935
+      name: 136008-102.ic8
+      size: 4096
+      blob_id: 2541
+    - id: 816170
+      asset_id: 118935
+      name: 136008-103.ic9
+      size: 4096
+      blob_id: 2542
+    - id: 816171
+      asset_id: 118935
+      name: 136008-104.ic10
+      size: 4096
+      blob_id: 2543
+    - id: 816172
+      asset_id: 118935
+      name: 136008-105.ic16
+      size: 4096
+      blob_id: 251093
+    - id: 816173
+      asset_id: 118935
+      name: 136008-106.ic17
+      size: 4096
+      blob_id: 251094
+    - id: 816174
+      asset_id: 118935
+      name: 136008-107.ic24
+      size: 4096
+      blob_id: 2546
+    - id: 816175
+      asset_id: 118935
+      name: 136008-108.ic76
+      size: 4096
+      blob_id: 2548
+    - id: 816176
+      asset_id: 118935
+      name: 136008-109.ic52
+      size: 4096
+      blob_id: 2549
+    - id: 816177
+      asset_id: 118935
+      name: 136008-110.ic77
+      size: 4096
+      blob_id: 2550
+    - id: 816178
+      asset_id: 118935
+      name: 136008-111.ic53
+      size: 4096
+      blob_id: 2551
+    - id: 816179
+      asset_id: 118935
+      name: 136008-112.ic28
+      size: 2048
+      blob_id: 2547
+- release:
+    id: 87096
+    game_id: 263
+    description: ""
+    release_date: 19820000
+  names:
+  - id: 215210
+    kind: 3
+    kind_id: 87096
+    language: 1
+    name: Kangaroo (bootleg)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 102293
+      kind: 3
+      kind_id: 87096
+      type: 1
+      name: kangaroob.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 639998
+      asset_id: 102293
+      name: k1.ic7
+      size: 4096
+      blob_id: 2540
+    - id: 639999
+      asset_id: 102293
+      name: k10.ic76
+      size: 4096
+      blob_id: 2548
+    - id: 640000
+      asset_id: 102293
+      name: k11.ic77
+      size: 4096
+      blob_id: 2550
+    - id: 640001
+      asset_id: 102293
+      name: k2.ic8
+      size: 4096
+      blob_id: 2541
+    - id: 640002
+      asset_id: 102293
+      name: k3.ic9
+      size: 4096
+      blob_id: 2542
+    - id: 640003
+      asset_id: 102293
+      name: k4.ic10
+      size: 4096
+      blob_id: 2543
+    - id: 640004
+      asset_id: 102293
+      name: k5.ic16
+      size: 4096
+      blob_id: 2544
+    - id: 640005
+      asset_id: 102293
+      name: k6.ic17
+      size: 4096
+      blob_id: 251095
+    - id: 640006
+      asset_id: 102293
+      name: k7.ic24
+      size: 4096
+      blob_id: 2546
+    - id: 640007
+      asset_id: 102293
+      name: k8.ic52
+      size: 4096
+      blob_id: 2549
+    - id: 640008
+      asset_id: 102293
+      name: k9.ic53
+      size: 4096
+      blob_id: 2551
+- release:
+    id: 87097
+    game_id: 263
+    description: ""
+    release_date: 19820000
+  names:
+  - id: 215211
+    kind: 3
+    kind_id: 87097
+    language: 1
+    name: Kangaroo (Löwen-Automaten)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 102294
+      kind: 3
+      kind_id: 87097
+      type: 1
+      name: kangarool.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 640009
+      asset_id: 102294
+      name: mb8841_477m.ic29
+      size: 2048
+      blob_id: 226882
+    - id: 640010
+      asset_id: 102294
+      name: tvg_75.ic7
+      size: 4096
+      blob_id: 2540
+    - id: 640011
+      asset_id: 102294
+      name: tvg_76.ic8
+      size: 4096
+      blob_id: 2541
+    - id: 640012
+      asset_id: 102294
+      name: tvg_77.ic9
+      size: 4096
+      blob_id: 2542
+    - id: 640013
+      asset_id: 102294
+      name: tvg_78.ic10
+      size: 4096
+      blob_id: 2543
+    - id: 640014
+      asset_id: 102294
+      name: tvg_79.ic16
+      size: 4096
+      blob_id: 2544
+    - id: 640015
+      asset_id: 102294
+      name: tvg_80.ic17
+      size: 4096
+      blob_id: 251096
+    - id: 640016
+      asset_id: 102294
+      name: tvg_81.ic24
+      size: 4096
+      blob_id: 2546
+    - id: 640017
+      asset_id: 102294
+      name: tvg_82.ic28
+      size: 2048
+      blob_id: 2547
+    - id: 640018
+      asset_id: 102294
+      name: tvg_83.ic76
+      size: 4096
+      blob_id: 2548
+    - id: 640019
+      asset_id: 102294
+      name: tvg_84.ic52
+      size: 4096
+      blob_id: 2549
+    - id: 640020
+      asset_id: 102294
+      name: tvg_85.ic77
+      size: 4096
+      blob_id: 2550
+    - id: 640021
+      asset_id: 102294
+      name: tvg_86.ic53
+      size: 4096
+      blob_id: 2551
+  - asset:
+      id: 118936
+      kind: 3
+      kind_id: 87097
+      type: 1
+      name: kangarool.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 816180
+      asset_id: 118936
+      name: tvg_75.ic7
+      size: 4096
+      blob_id: 2540
+    - id: 816181
+      asset_id: 118936
+      name: tvg_76.ic8
+      size: 4096
+      blob_id: 2541
+    - id: 816182
+      asset_id: 118936
+      name: tvg_77.ic9
+      size: 4096
+      blob_id: 2542
+    - id: 816183
+      asset_id: 118936
+      name: tvg_78.ic10
+      size: 4096
+      blob_id: 2543
+    - id: 816184
+      asset_id: 118936
+      name: tvg_79.ic16
+      size: 4096
+      blob_id: 2544
+    - id: 816185
+      asset_id: 118936
+      name: tvg_80.ic17
+      size: 4096
+      blob_id: 251096
+    - id: 816186
+      asset_id: 118936
+      name: tvg_81.ic24
+      size: 4096
+      blob_id: 2546
+    - id: 816187
+      asset_id: 118936
+      name: tvg_82.ic28
+      size: 2048
+      blob_id: 2547
+    - id: 816188
+      asset_id: 118936
+      name: tvg_83.ic76
+      size: 4096
+      blob_id: 2548
+    - id: 816189
+      asset_id: 118936
+      name: tvg_84.ic52
+      size: 4096
+      blob_id: 2549
+    - id: 816190
+      asset_id: 118936
+      name: tvg_85.ic77
+      size: 4096
+      blob_id: 2550
+    - id: 816191
+      asset_id: 118936
+      name: tvg_86.ic53
       size: 4096
       blob_id: 2551

@@ -16,6 +16,24 @@ names:
   language: 2
   name: 天堂鸟 (新版)
   source: trimui
+- id: 199139
+  kind: 2
+  kind_id: 3788
+  language: 1
+  name: Sky Kid (CUS60 version)
+  source: mame
+- id: 199141
+  kind: 2
+  kind_id: 3788
+  language: 1
+  name: Sky Kid (old version)
+  source: mame
+- id: 199142
+  kind: 2
+  kind_id: 3788
+  language: 1
+  name: Sky Kid (Sipem)
+  source: mame
 game_developers:
 - game_id: 3788
   developer_id: 19
@@ -164,24 +182,10 @@ releases:
       blob_id: 88563
       debug: arcade/wheel/skykid.png
     entries: []
-- release:
-    id: 70496
-    game_id: 3788
-    description: ""
-    release_date: 19850000
-  names:
-  - id: 171091
-    kind: 3
-    kind_id: 70496
-    language: 1
-    name: Sky Kid (new version)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 83566
+      id: 113682
       kind: 3
-      kind_id: 70496
+      kind_id: 3788
       type: 1
       name: skykid.zip
       description: ""
@@ -190,73 +194,361 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 367039
-      asset_id: 83566
+    - id: 747415
+      asset_id: 113682
       name: cus63-63a1.mcu
       size: 4096
       blob_id: 3233
-    - id: 367040
-      asset_id: 83566
+    - id: 747416
+      asset_id: 113682
       name: sk1-1.2n
       size: 256
       blob_id: 40691
-    - id: 367041
-      asset_id: 83566
+    - id: 747417
+      asset_id: 113682
       name: sk1-1c.6b
       size: 16384
       blob_id: 40692
-    - id: 367042
-      asset_id: 83566
+    - id: 747418
+      asset_id: 113682
       name: sk1-2.2p
       size: 256
       blob_id: 40693
-    - id: 367043
-      asset_id: 83566
+    - id: 747419
+      asset_id: 113682
       name: sk1-3.2r
       size: 256
       blob_id: 40694
-    - id: 367044
-      asset_id: 83566
+    - id: 747420
+      asset_id: 113682
       name: sk1-4.5n
       size: 512
       blob_id: 40695
-    - id: 367045
-      asset_id: 83566
+    - id: 747421
+      asset_id: 113682
       name: sk1-5.6n
       size: 512
       blob_id: 40696
-    - id: 367046
-      asset_id: 83566
+    - id: 747422
+      asset_id: 113682
       name: sk1_3.6d
       size: 16384
       blob_id: 40698
-    - id: 367047
-      asset_id: 83566
+    - id: 747423
+      asset_id: 113682
       name: sk1_5.7e
       size: 8192
       blob_id: 40700
-    - id: 367048
-      asset_id: 83566
+    - id: 747424
+      asset_id: 113682
       name: sk1_6.6l
       size: 8192
       blob_id: 40701
-    - id: 367049
-      asset_id: 83566
+    - id: 747425
+      asset_id: 113682
       name: sk1_7.10m
       size: 16384
       blob_id: 40702
-    - id: 367050
-      asset_id: 83566
+    - id: 747426
+      asset_id: 113682
       name: sk1_8.10n
       size: 16384
       blob_id: 40703
-    - id: 367051
-      asset_id: 83566
+    - id: 747427
+      asset_id: 113682
       name: sk2_2.6c
       size: 16384
       blob_id: 40697
-    - id: 367052
-      asset_id: 83566
+    - id: 747428
+      asset_id: 113682
       name: sk2_4.3c
       size: 8192
       blob_id: 40699
+- release:
+    id: 97976
+    game_id: 3788
+    description: ""
+    release_date: 19850000
+  names:
+  - id: 230422
+    kind: 3
+    kind_id: 97976
+    language: 1
+    name: Sky Kid (CUS60 version)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 113683
+      kind: 3
+      kind_id: 97976
+      type: 1
+      name: skykidd.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 747429
+      asset_id: 113683
+      name: cus60-60a1.mcu
+      size: 4096
+      blob_id: 5815
+    - id: 747430
+      asset_id: 113683
+      name: sk1-1.2n
+      size: 256
+      blob_id: 40691
+    - id: 747431
+      asset_id: 113683
+      name: sk1-2.2p
+      size: 256
+      blob_id: 40693
+    - id: 747432
+      asset_id: 113683
+      name: sk1-3.2r
+      size: 256
+      blob_id: 40694
+    - id: 747433
+      asset_id: 113683
+      name: sk1-4.5n
+      size: 512
+      blob_id: 40695
+    - id: 747434
+      asset_id: 113683
+      name: sk1-5.6n
+      size: 512
+      blob_id: 40696
+    - id: 747435
+      asset_id: 113683
+      name: sk1_1.6b
+      size: 16384
+      blob_id: 281238
+    - id: 747436
+      asset_id: 113683
+      name: sk1_2.6c
+      size: 16384
+      blob_id: 281239
+    - id: 747437
+      asset_id: 113683
+      name: sk1_3.6d
+      size: 16384
+      blob_id: 40698
+    - id: 747438
+      asset_id: 113683
+      name: sk1_4.3c
+      size: 8192
+      blob_id: 281240
+    - id: 747439
+      asset_id: 113683
+      name: sk1_5.7e
+      size: 8192
+      blob_id: 40700
+    - id: 747440
+      asset_id: 113683
+      name: sk1_6.6l
+      size: 8192
+      blob_id: 40701
+    - id: 747441
+      asset_id: 113683
+      name: sk1_7.10m
+      size: 16384
+      blob_id: 40702
+    - id: 747442
+      asset_id: 113683
+      name: sk1_8.10n
+      size: 16384
+      blob_id: 40703
+- release:
+    id: 97978
+    game_id: 3788
+    description: ""
+    release_date: 19850000
+  names:
+  - id: 230424
+    kind: 3
+    kind_id: 97978
+    language: 1
+    name: Sky Kid (old version)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 113685
+      kind: 3
+      kind_id: 97978
+      type: 1
+      name: skykido.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 747459
+      asset_id: 113685
+      name: cus63-63a1.mcu
+      size: 4096
+      blob_id: 3233
+    - id: 747460
+      asset_id: 113685
+      name: sk1-1.2n
+      size: 256
+      blob_id: 40691
+    - id: 747461
+      asset_id: 113685
+      name: sk1-2.2p
+      size: 256
+      blob_id: 40693
+    - id: 747462
+      asset_id: 113685
+      name: sk1-3.2r
+      size: 256
+      blob_id: 40694
+    - id: 747463
+      asset_id: 113685
+      name: sk1-4.5n
+      size: 512
+      blob_id: 40695
+    - id: 747464
+      asset_id: 113685
+      name: sk1-5.6n
+      size: 512
+      blob_id: 40696
+    - id: 747465
+      asset_id: 113685
+      name: sk1_1.6b
+      size: 16384
+      blob_id: 281238
+    - id: 747466
+      asset_id: 113685
+      name: sk1_3.6d
+      size: 16384
+      blob_id: 40698
+    - id: 747467
+      asset_id: 113685
+      name: sk1_5.7e
+      size: 8192
+      blob_id: 40700
+    - id: 747468
+      asset_id: 113685
+      name: sk1_6.6l
+      size: 8192
+      blob_id: 40701
+    - id: 747469
+      asset_id: 113685
+      name: sk1_7.10m
+      size: 16384
+      blob_id: 40702
+    - id: 747470
+      asset_id: 113685
+      name: sk1_8.10n
+      size: 16384
+      blob_id: 40703
+    - id: 747471
+      asset_id: 113685
+      name: sk2_2.6c
+      size: 16384
+      blob_id: 40697
+    - id: 747472
+      asset_id: 113685
+      name: sk2_4.3c
+      size: 8192
+      blob_id: 40699
+- release:
+    id: 97979
+    game_id: 3788
+    description: ""
+    release_date: 19850000
+  names:
+  - id: 230425
+    kind: 3
+    kind_id: 97979
+    language: 1
+    name: Sky Kid (Sipem)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 113686
+      kind: 3
+      kind_id: 97979
+      type: 1
+      name: skykids.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 747473
+      asset_id: 113686
+      name: cus63-63a1.mcu
+      size: 4096
+      blob_id: 3233
+    - id: 747474
+      asset_id: 113686
+      name: sk1-1.2n
+      size: 256
+      blob_id: 40691
+    - id: 747475
+      asset_id: 113686
+      name: sk1-2.2p
+      size: 256
+      blob_id: 40693
+    - id: 747476
+      asset_id: 113686
+      name: sk1-3.2r
+      size: 256
+      blob_id: 40694
+    - id: 747477
+      asset_id: 113686
+      name: sk1-4.5n
+      size: 512
+      blob_id: 40695
+    - id: 747478
+      asset_id: 113686
+      name: sk1-5.6n
+      size: 512
+      blob_id: 40696
+    - id: 747479
+      asset_id: 113686
+      name: sk1_3.6d
+      size: 16384
+      blob_id: 40698
+    - id: 747480
+      asset_id: 113686
+      name: sk1_5.7e
+      size: 8192
+      blob_id: 40700
+    - id: 747481
+      asset_id: 113686
+      name: sk1_6.6l
+      size: 8192
+      blob_id: 40701
+    - id: 747482
+      asset_id: 113686
+      name: sk1_7.10m
+      size: 16384
+      blob_id: 40702
+    - id: 747483
+      asset_id: 113686
+      name: sk1_8.10n
+      size: 16384
+      blob_id: 40703
+    - id: 747484
+      asset_id: 113686
+      name: sk1a.6b
+      size: 16384
+      blob_id: 281242
+    - id: 747485
+      asset_id: 113686
+      name: sk2_4.3c
+      size: 8192
+      blob_id: 40699
+    - id: 747486
+      asset_id: 113686
+      name: sk2a.6c
+      size: 16384
+      blob_id: 281243

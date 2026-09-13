@@ -16,6 +16,12 @@ names:
   language: 2
   name: 机器人方块
   source: trimui
+- id: 199997
+  kind: 2
+  kind_id: 4183
+  language: 1
+  name: Teki Paki (location test)
+  source: mame
 game_developers:
 - game_id: 4183
   developer_id: 504
@@ -114,54 +120,95 @@ releases:
       blob_id: 87309
       debug: arcade/wheel/tekipaki.png
     entries: []
-- release:
-    id: 72866
-    game_id: 4183
-    description: ""
-    release_date: 19910000
-  names:
-  - id: 175686
-    kind: 3
-    kind_id: 72866
-    language: 1
-    name: Teki Paki
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 85936
+      id: 115317
       kind: 3
-      kind_id: 72866
+      kind_id: 4183
       type: 1
       name: tekipaki.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
-      debug: dat:mame:0.289
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/679977266
     entries:
-    - id: 388739
-      asset_id: 85936
+    - id: 766436
+      asset_id: 115317
       name: hd647180.020
       size: 32768
-      blob_id: 189051
-    - id: 388740
-      asset_id: 85936
+      blob_id: 305850
+    - id: 766437
+      asset_id: 115317
       name: tp020-1.bin
       size: 65536
       blob_id: 44941
-    - id: 388741
-      asset_id: 85936
+    - id: 766438
+      asset_id: 115317
       name: tp020-2.bin
       size: 65536
       blob_id: 44942
-    - id: 388742
-      asset_id: 85936
+    - id: 766439
+      asset_id: 115317
       name: tp020-3.bin
       size: 524288
       blob_id: 44943
-    - id: 388743
-      asset_id: 85936
+    - id: 766440
+      asset_id: 115317
       name: tp020-4.bin
       size: 524288
       blob_id: 44944
+- release:
+    id: 99460
+    game_id: 4183
+    description: ""
+    release_date: 19910000
+  names:
+  - id: 232561
+    kind: 3
+    kind_id: 99460
+    language: 1
+    name: Teki Paki (location test)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 115318
+      kind: 3
+      kind_id: 99460
+      type: 1
+      name: tekipakit.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: |-
+        dat:mame:0.289
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/1878420796
+    entries:
+    - id: 766441
+      asset_id: 115318
+      name: 0-1_4.4_cb45.a16
+      size: 524288
+      blob_id: 305851
+    - id: 766442
+      asset_id: 115318
+      name: 3-4_4.4_547d.a15
+      size: 524288
+      blob_id: 305852
+    - id: 766443
+      asset_id: 115318
+      name: e.e5
+      size: 65536
+      blob_id: 305853
+    - id: 766444
+      asset_id: 115318
+      name: hd647180.020
+      size: 32768
+      blob_id: 305850
+    - id: 766445
+      asset_id: 115318
+      name: o.e6
+      size: 65536
+      blob_id: 305854

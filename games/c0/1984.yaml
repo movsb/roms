@@ -10,6 +10,24 @@ names:
   language: 1
   name: hellfire
   source: ""
+- id: 191653
+  kind: 2
+  kind_id: 1984
+  language: 1
+  name: Hellfire (1P set)
+  source: mame
+- id: 191654
+  kind: 2
+  kind_id: 1984
+  language: 1
+  name: Hellfire (1P set, older)
+  source: mame
+- id: 191655
+  kind: 2
+  kind_id: 1984
+  language: 1
+  name: Hellfire (2P set, older)
+  source: mame
 game_developers:
 - game_id: 1984
   developer_id: 504
@@ -40,83 +58,6 @@ releases:
   - release_id: 1984
     publisher_id: 555
   assets:
-  - asset:
-      id: 1983
-      kind: 3
-      kind_id: 1984
-      type: 1
-      name: hellfire.zip
-      description: ""
-      format: 2
-      size: 377423
-      blob_id: 0
-      debug: hellfire.zip
-    entries:
-    - id: 32250
-      asset_id: 1983
-      name: 12.6b
-      size: 32
-      blob_id: 14809
-    - id: 32251
-      asset_id: 1983
-      name: 13.3w
-      size: 32
-      blob_id: 14808
-    - id: 32252
-      asset_id: 1983
-      name: b90_03.2
-      size: 32768
-      blob_id: 22114
-    - id: 32253
-      asset_id: 1983
-      name: b90_04.3
-      size: 131072
-      blob_id: 22115
-    - id: 32254
-      asset_id: 1983
-      name: b90_05.4
-      size: 131072
-      blob_id: 22116
-    - id: 32255
-      asset_id: 1983
-      name: b90_06.5
-      size: 131072
-      blob_id: 22117
-    - id: 32256
-      asset_id: 1983
-      name: b90_07.6
-      size: 131072
-      blob_id: 22118
-    - id: 32257
-      asset_id: 1983
-      name: b90_08.7
-      size: 131072
-      blob_id: 22119
-    - id: 32258
-      asset_id: 1983
-      name: b90_09.8
-      size: 131072
-      blob_id: 22120
-    - id: 32259
-      asset_id: 1983
-      name: b90_10.9
-      size: 131072
-      blob_id: 22121
-    - id: 32260
-      asset_id: 1983
-      name: b90_11.10
-      size: 131072
-      blob_id: 22122
-    - id: 32261
-      asset_id: 1983
-      name: b90_14.0
-      size: 131072
-      blob_id: 22123
-    - id: 32262
-      asset_id: 1983
-      name: b90_15.1
-      size: 131072
-      blob_id: 22124
   - asset:
       id: 44701
       kind: 3
@@ -297,10 +238,101 @@ releases:
     language: 1
     name: Hellfire (2P set)
     source: mame
-  release_publishers: []
+  - id: 184038
+    kind: 3
+    kind_id: 45903
+    language: 1
+    name: hellfire
+    source: ""
+  - id: 184039
+    kind: 3
+    kind_id: 45903
+    language: 2
+    name: 地狱火 (2P 版)
+    source: trimui
+  release_publishers:
+  - release_id: 45903
+    publisher_id: 555
   assets:
   - asset:
-      id: 58973
+      id: 1983
+      kind: 3
+      kind_id: 45903
+      type: 1
+      name: hellfire.zip
+      description: ""
+      format: 2
+      size: 377423
+      blob_id: 0
+      debug: hellfire.zip
+    entries:
+    - id: 32250
+      asset_id: 1983
+      name: 12.6b
+      size: 32
+      blob_id: 14809
+    - id: 32251
+      asset_id: 1983
+      name: 13.3w
+      size: 32
+      blob_id: 14808
+    - id: 32252
+      asset_id: 1983
+      name: b90_03.2
+      size: 32768
+      blob_id: 22114
+    - id: 32253
+      asset_id: 1983
+      name: b90_04.3
+      size: 131072
+      blob_id: 22115
+    - id: 32254
+      asset_id: 1983
+      name: b90_05.4
+      size: 131072
+      blob_id: 22116
+    - id: 32255
+      asset_id: 1983
+      name: b90_06.5
+      size: 131072
+      blob_id: 22117
+    - id: 32256
+      asset_id: 1983
+      name: b90_07.6
+      size: 131072
+      blob_id: 22118
+    - id: 32257
+      asset_id: 1983
+      name: b90_08.7
+      size: 131072
+      blob_id: 22119
+    - id: 32258
+      asset_id: 1983
+      name: b90_09.8
+      size: 131072
+      blob_id: 22120
+    - id: 32259
+      asset_id: 1983
+      name: b90_10.9
+      size: 131072
+      blob_id: 22121
+    - id: 32260
+      asset_id: 1983
+      name: b90_11.10
+      size: 131072
+      blob_id: 22122
+    - id: 32261
+      asset_id: 1983
+      name: b90_14.0
+      size: 131072
+      blob_id: 22123
+    - id: 32262
+      asset_id: 1983
+      name: b90_15.1
+      size: 131072
+      blob_id: 22124
+  - asset:
+      id: 100951
       kind: 3
       kind_id: 45903
       type: 1
@@ -311,68 +343,572 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 195742
-      asset_id: 58973
+    - id: 626572
+      asset_id: 100951
       name: 12.rom12.6b
       size: 32
       blob_id: 14809
-    - id: 195743
-      asset_id: 58973
+    - id: 626573
+      asset_id: 100951
       name: 13.rom13.3w
       size: 32
       blob_id: 14808
-    - id: 195744
-      asset_id: 58973
+    - id: 626574
+      asset_id: 100951
       name: b90_03.11e
       size: 32768
       blob_id: 22114
-    - id: 195745
-      asset_id: 58973
+    - id: 626575
+      asset_id: 100951
       name: b90_04.7x
       size: 131072
       blob_id: 22115
-    - id: 195746
-      asset_id: 58973
+    - id: 626576
+      asset_id: 100951
       name: b90_05.7v
       size: 131072
       blob_id: 22116
-    - id: 195747
-      asset_id: 58973
+    - id: 626577
+      asset_id: 100951
       name: b90_06.7t
       size: 131072
       blob_id: 22117
-    - id: 195748
-      asset_id: 58973
+    - id: 626578
+      asset_id: 100951
       name: b90_07.7r
       size: 131072
       blob_id: 22118
-    - id: 195749
-      asset_id: 58973
+    - id: 626579
+      asset_id: 100951
       name: b90_08.3f
       size: 131072
       blob_id: 22119
-    - id: 195750
-      asset_id: 58973
+    - id: 626580
+      asset_id: 100951
       name: b90_09.3d
       size: 131072
       blob_id: 22120
-    - id: 195751
-      asset_id: 58973
+    - id: 626581
+      asset_id: 100951
       name: b90_10.3c
       size: 131072
       blob_id: 22121
-    - id: 195752
-      asset_id: 58973
+    - id: 626582
+      asset_id: 100951
       name: b90_11.3a
       size: 131072
       blob_id: 22122
-    - id: 195753
-      asset_id: 58973
+    - id: 626583
+      asset_id: 100951
       name: b90_14.10m
       size: 131072
       blob_id: 22123
-    - id: 195754
-      asset_id: 58973
+    - id: 626584
+      asset_id: 100951
       name: b90_15.9m
       size: 131072
       blob_id: 22124
+- release:
+    id: 85839
+    game_id: 1984
+    description: ""
+    release_date: 19890000
+  names:
+  - id: 213185
+    kind: 3
+    kind_id: 85839
+    language: 1
+    name: Hellfire (1P set)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 100952
+      kind: 3
+      kind_id: 85839
+      type: 1
+      name: hellfire1.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 626585
+      asset_id: 100952
+      name: 12.rom12.6b
+      size: 32
+      blob_id: 14809
+    - id: 626586
+      asset_id: 100952
+      name: 13.rom13.3w
+      size: 32
+      blob_id: 14808
+    - id: 626587
+      asset_id: 100952
+      name: b90_01.10m
+      size: 131072
+      blob_id: 22125
+    - id: 626588
+      asset_id: 100952
+      name: b90_02.9m
+      size: 131072
+      blob_id: 22126
+    - id: 626589
+      asset_id: 100952
+      name: b90_03.11e
+      size: 32768
+      blob_id: 22114
+    - id: 626590
+      asset_id: 100952
+      name: b90_04.7x
+      size: 131072
+      blob_id: 22115
+    - id: 626591
+      asset_id: 100952
+      name: b90_05.7v
+      size: 131072
+      blob_id: 22116
+    - id: 626592
+      asset_id: 100952
+      name: b90_06.7t
+      size: 131072
+      blob_id: 22117
+    - id: 626593
+      asset_id: 100952
+      name: b90_07.7r
+      size: 131072
+      blob_id: 22118
+    - id: 626594
+      asset_id: 100952
+      name: b90_08.3f
+      size: 131072
+      blob_id: 22119
+    - id: 626595
+      asset_id: 100952
+      name: b90_09.3d
+      size: 131072
+      blob_id: 22120
+    - id: 626596
+      asset_id: 100952
+      name: b90_10.3c
+      size: 131072
+      blob_id: 22121
+    - id: 626597
+      asset_id: 100952
+      name: b90_11.3a
+      size: 131072
+      blob_id: 22122
+  - asset:
+      id: 118890
+      kind: 3
+      kind_id: 85839
+      type: 1
+      name: hellfire1.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 814975
+      asset_id: 118890
+      name: 12.6b
+      size: 32
+      blob_id: 14809
+    - id: 814976
+      asset_id: 118890
+      name: 13.3w
+      size: 32
+      blob_id: 14808
+    - id: 814977
+      asset_id: 118890
+      name: b90_01.10m
+      size: 131072
+      blob_id: 22125
+    - id: 814978
+      asset_id: 118890
+      name: b90_02.9m
+      size: 131072
+      blob_id: 22126
+    - id: 814979
+      asset_id: 118890
+      name: b90_03.2
+      size: 32768
+      blob_id: 22114
+    - id: 814980
+      asset_id: 118890
+      name: b90_04.3
+      size: 131072
+      blob_id: 22115
+    - id: 814981
+      asset_id: 118890
+      name: b90_05.4
+      size: 131072
+      blob_id: 22116
+    - id: 814982
+      asset_id: 118890
+      name: b90_06.5
+      size: 131072
+      blob_id: 22117
+    - id: 814983
+      asset_id: 118890
+      name: b90_07.6
+      size: 131072
+      blob_id: 22118
+    - id: 814984
+      asset_id: 118890
+      name: b90_08.7
+      size: 131072
+      blob_id: 22119
+    - id: 814985
+      asset_id: 118890
+      name: b90_09.8
+      size: 131072
+      blob_id: 22120
+    - id: 814986
+      asset_id: 118890
+      name: b90_10.9
+      size: 131072
+      blob_id: 22121
+    - id: 814987
+      asset_id: 118890
+      name: b90_11.10
+      size: 131072
+      blob_id: 22122
+- release:
+    id: 85840
+    game_id: 1984
+    description: ""
+    release_date: 19890000
+  names:
+  - id: 213186
+    kind: 3
+    kind_id: 85840
+    language: 1
+    name: Hellfire (1P set, older)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 100953
+      kind: 3
+      kind_id: 85840
+      type: 1
+      name: hellfire1a.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 626598
+      asset_id: 100953
+      name: 12.rom12.6b
+      size: 32
+      blob_id: 14809
+    - id: 626599
+      asset_id: 100953
+      name: 13.rom13.3w
+      size: 32
+      blob_id: 14808
+    - id: 626600
+      asset_id: 100953
+      name: b90_03x.11e
+      size: 32768
+      blob_id: 22127
+    - id: 626601
+      asset_id: 100953
+      name: b90_04.7x
+      size: 131072
+      blob_id: 22115
+    - id: 626602
+      asset_id: 100953
+      name: b90_05.7v
+      size: 131072
+      blob_id: 22116
+    - id: 626603
+      asset_id: 100953
+      name: b90_06.7t
+      size: 131072
+      blob_id: 22117
+    - id: 626604
+      asset_id: 100953
+      name: b90_07.7r
+      size: 131072
+      blob_id: 22118
+    - id: 626605
+      asset_id: 100953
+      name: b90_08.3f
+      size: 131072
+      blob_id: 22119
+    - id: 626606
+      asset_id: 100953
+      name: b90_09.3d
+      size: 131072
+      blob_id: 22120
+    - id: 626607
+      asset_id: 100953
+      name: b90_10.3c
+      size: 131072
+      blob_id: 22121
+    - id: 626608
+      asset_id: 100953
+      name: b90_11.3a
+      size: 131072
+      blob_id: 22122
+    - id: 626609
+      asset_id: 100953
+      name: b90_14x.10m
+      size: 131072
+      blob_id: 22128
+    - id: 626610
+      asset_id: 100953
+      name: b90_15x.9m
+      size: 131072
+      blob_id: 22129
+  - asset:
+      id: 118891
+      kind: 3
+      kind_id: 85840
+      type: 1
+      name: hellfire1a.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 814988
+      asset_id: 118891
+      name: 12.6b
+      size: 32
+      blob_id: 14809
+    - id: 814989
+      asset_id: 118891
+      name: 13.3w
+      size: 32
+      blob_id: 14808
+    - id: 814990
+      asset_id: 118891
+      name: b90_03x.2
+      size: 32768
+      blob_id: 22127
+    - id: 814991
+      asset_id: 118891
+      name: b90_04.3
+      size: 131072
+      blob_id: 22115
+    - id: 814992
+      asset_id: 118891
+      name: b90_05.4
+      size: 131072
+      blob_id: 22116
+    - id: 814993
+      asset_id: 118891
+      name: b90_06.5
+      size: 131072
+      blob_id: 22117
+    - id: 814994
+      asset_id: 118891
+      name: b90_07.6
+      size: 131072
+      blob_id: 22118
+    - id: 814995
+      asset_id: 118891
+      name: b90_08.7
+      size: 131072
+      blob_id: 22119
+    - id: 814996
+      asset_id: 118891
+      name: b90_09.8
+      size: 131072
+      blob_id: 22120
+    - id: 814997
+      asset_id: 118891
+      name: b90_10.9
+      size: 131072
+      blob_id: 22121
+    - id: 814998
+      asset_id: 118891
+      name: b90_11.10
+      size: 131072
+      blob_id: 22122
+    - id: 814999
+      asset_id: 118891
+      name: b90_14x.0
+      size: 131072
+      blob_id: 22128
+    - id: 815000
+      asset_id: 118891
+      name: b90_15x.1
+      size: 131072
+      blob_id: 22129
+- release:
+    id: 85841
+    game_id: 1984
+    description: ""
+    release_date: 19890000
+  names:
+  - id: 213187
+    kind: 3
+    kind_id: 85841
+    language: 1
+    name: Hellfire (2P set, older)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 100954
+      kind: 3
+      kind_id: 85841
+      type: 1
+      name: hellfire2a.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 626611
+      asset_id: 100954
+      name: 12.rom12.6b
+      size: 32
+      blob_id: 14809
+    - id: 626612
+      asset_id: 100954
+      name: 13.rom13.3w
+      size: 32
+      blob_id: 14808
+    - id: 626613
+      asset_id: 100954
+      name: b90_01.10m
+      size: 131072
+      blob_id: 22130
+    - id: 626614
+      asset_id: 100954
+      name: b90_02.9m
+      size: 131072
+      blob_id: 22131
+    - id: 626615
+      asset_id: 100954
+      name: b90_03.11e
+      size: 32768
+      blob_id: 22114
+    - id: 626616
+      asset_id: 100954
+      name: b90_04.7x
+      size: 131072
+      blob_id: 22115
+    - id: 626617
+      asset_id: 100954
+      name: b90_05.7v
+      size: 131072
+      blob_id: 22116
+    - id: 626618
+      asset_id: 100954
+      name: b90_06.7t
+      size: 131072
+      blob_id: 22117
+    - id: 626619
+      asset_id: 100954
+      name: b90_07.7r
+      size: 131072
+      blob_id: 22118
+    - id: 626620
+      asset_id: 100954
+      name: b90_08.3f
+      size: 131072
+      blob_id: 22119
+    - id: 626621
+      asset_id: 100954
+      name: b90_09.3d
+      size: 131072
+      blob_id: 22120
+    - id: 626622
+      asset_id: 100954
+      name: b90_10.3c
+      size: 131072
+      blob_id: 22121
+    - id: 626623
+      asset_id: 100954
+      name: b90_11.3a
+      size: 131072
+      blob_id: 22122
+  - asset:
+      id: 118892
+      kind: 3
+      kind_id: 85841
+      type: 1
+      name: hellfire2a.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 815001
+      asset_id: 118892
+      name: 12.6b
+      size: 32
+      blob_id: 14809
+    - id: 815002
+      asset_id: 118892
+      name: 13.3w
+      size: 32
+      blob_id: 14808
+    - id: 815003
+      asset_id: 118892
+      name: b90_01.0
+      size: 131072
+      blob_id: 22130
+    - id: 815004
+      asset_id: 118892
+      name: b90_02.1
+      size: 131072
+      blob_id: 22131
+    - id: 815005
+      asset_id: 118892
+      name: b90_03.2
+      size: 32768
+      blob_id: 22114
+    - id: 815006
+      asset_id: 118892
+      name: b90_04.3
+      size: 131072
+      blob_id: 22115
+    - id: 815007
+      asset_id: 118892
+      name: b90_05.4
+      size: 131072
+      blob_id: 22116
+    - id: 815008
+      asset_id: 118892
+      name: b90_06.5
+      size: 131072
+      blob_id: 22117
+    - id: 815009
+      asset_id: 118892
+      name: b90_07.6
+      size: 131072
+      blob_id: 22118
+    - id: 815010
+      asset_id: 118892
+      name: b90_08.7
+      size: 131072
+      blob_id: 22119
+    - id: 815011
+      asset_id: 118892
+      name: b90_09.8
+      size: 131072
+      blob_id: 22120
+    - id: 815012
+      asset_id: 118892
+      name: b90_10.9
+      size: 131072
+      blob_id: 22121
+    - id: 815013
+      asset_id: 118892
+      name: b90_11.10
+      size: 131072
+      blob_id: 22122

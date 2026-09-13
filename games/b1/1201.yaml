@@ -16,6 +16,12 @@ names:
   language: 2
   name: 正集团达阵 (DECO 卡带版) (美版) (第一套)
   source: trimui
+- id: 189399
+  kind: 2
+  kind_id: 1201
+  language: 1
+  name: Scrum Try (DECO Cassette) (US) (set 2)
+  source: mame
 game_developers:
 - game_id: 1201
   developer_id: 225
@@ -56,7 +62,9 @@ releases:
       format: 2
       size: 28217
       blob_id: 0
-      debug: cscrtry.zip
+      debug: |-
+        cscrtry.zip
+        /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/656967135
     entries:
     - id: 18035
       asset_id: 1201
@@ -77,7 +85,7 @@ releases:
       asset_id: 1201
       name: dsp-3_p0-a.m9
       size: 2048
-      blob_id: 101930
+      blob_id: 211867
     - id: 138509
       asset_id: 1201
       name: dsp-3_p0-b.m9
@@ -87,28 +95,13 @@ releases:
       asset_id: 1201
       name: dsp-3_p0-c.m9
       size: 2048
-      blob_id: 101931
+      blob_id: 211868
     - id: 138511
       asset_id: 1201
       name: dsp-3_p0-d.m9
       size: 2048
-      blob_id: 101932
+      blob_id: 211869
     - id: 138512
-      asset_id: 1201
-      name: dsp-3_p1-.l9
-      size: 2048
-      blob_id: 14791
-    - id: 138513
-      asset_id: 1201
-      name: dsp-3_p1-.l9
-      size: 2048
-      blob_id: 14791
-    - id: 138514
-      asset_id: 1201
-      name: dsp-3_p1-.l9
-      size: 2048
-      blob_id: 14791
-    - id: 138515
       asset_id: 1201
       name: dsp-3_p1-.l9
       size: 2048
@@ -117,87 +110,27 @@ releases:
       asset_id: 1201
       name: dsp-3_p3-.e5
       size: 32
-      blob_id: 101933
-    - id: 138517
-      asset_id: 1201
-      name: dsp-3_p3-.e5
-      size: 32
-      blob_id: 101933
-    - id: 138518
-      asset_id: 1201
-      name: dsp-3_p3-.e5
-      size: 32
-      blob_id: 101933
-    - id: 138519
-      asset_id: 1201
-      name: dsp-3_p3-.e5
-      size: 32
-      blob_id: 101933
+      blob_id: 211870
     - id: 138520
       asset_id: 1201
       name: dsp-3_p5-.m4
       size: 32
-      blob_id: 101934
-    - id: 138521
-      asset_id: 1201
-      name: dsp-3_p5-.m4
-      size: 32
-      blob_id: 101934
-    - id: 138522
-      asset_id: 1201
-      name: dsp-3_p5-.m4
-      size: 32
-      blob_id: 101934
-    - id: 138523
-      asset_id: 1201
-      name: dsp-3_p5-.m4
-      size: 32
-      blob_id: 101934
+      blob_id: 211871
     - id: 138524
       asset_id: 1201
       name: rms-3_p2-.c9
       size: 1024
-      blob_id: 101936
-    - id: 138525
-      asset_id: 1201
-      name: rms-3_p2-.c9
-      size: 1024
-      blob_id: 101936
-    - id: 138526
-      asset_id: 1201
-      name: rms-3_p2-.c9
-      size: 1024
-      blob_id: 101936
-    - id: 138527
-      asset_id: 1201
-      name: rms-3_p2-.c9
-      size: 1024
-      blob_id: 101936
+      blob_id: 211872
     - id: 138528
       asset_id: 1201
       name: rms-3_p4-.f6
       size: 32
-      blob_id: 101937
-    - id: 138529
-      asset_id: 1201
-      name: rms-3_p4-.f6
-      size: 32
-      blob_id: 101937
-    - id: 138530
-      asset_id: 1201
-      name: rms-3_p4-.f6
-      size: 32
-      blob_id: 101937
-    - id: 138531
-      asset_id: 1201
-      name: rms-3_p4-.f6
-      size: 32
-      blob_id: 101937
+      blob_id: 211873
     - id: 138532
       asset_id: 1201
       name: v0a-.7e
       size: 4096
-      blob_id: 101938
+      blob_id: 211874
     - id: 138533
       asset_id: 1201
       name: v0b-.7e
@@ -207,28 +140,13 @@ releases:
       asset_id: 1201
       name: v0c-.7e
       size: 4096
-      blob_id: 101939
+      blob_id: 211875
     - id: 138535
       asset_id: 1201
       name: v0d-.7e
       size: 4096
-      blob_id: 101940
+      blob_id: 211876
     - id: 138536
-      asset_id: 1201
-      name: v1-.5a
-      size: 2048
-      blob_id: 14796
-    - id: 138537
-      asset_id: 1201
-      name: v1-.5a
-      size: 2048
-      blob_id: 14796
-    - id: 138538
-      asset_id: 1201
-      name: v1-.5a
-      size: 2048
-      blob_id: 14796
-    - id: 138539
       asset_id: 1201
       name: v1-.5a
       size: 2048
@@ -238,57 +156,12 @@ releases:
       name: v2.3m
       size: 32
       blob_id: 14793
-    - id: 138541
-      asset_id: 1201
-      name: v2.3m
-      size: 32
-      blob_id: 14793
-    - id: 138542
-      asset_id: 1201
-      name: v2.3m
-      size: 32
-      blob_id: 14793
-    - id: 138543
-      asset_id: 1201
-      name: v2.3m
-      size: 32
-      blob_id: 14793
     - id: 138544
       asset_id: 1201
       name: v3.3j
       size: 32
       blob_id: 14795
-    - id: 138545
-      asset_id: 1201
-      name: v3.3j
-      size: 32
-      blob_id: 14795
-    - id: 138546
-      asset_id: 1201
-      name: v3.3j
-      size: 32
-      blob_id: 14795
-    - id: 138547
-      asset_id: 1201
-      name: v3.3j
-      size: 32
-      blob_id: 14795
     - id: 138548
-      asset_id: 1201
-      name: v4.10d
-      size: 32
-      blob_id: 14792
-    - id: 138549
-      asset_id: 1201
-      name: v4.10d
-      size: 32
-      blob_id: 14792
-    - id: 138550
-      asset_id: 1201
-      name: v4.10d
-      size: 32
-      blob_id: 14792
-    - id: 138551
       asset_id: 1201
       name: v4.10d
       size: 32
@@ -329,3 +202,129 @@ releases:
       blob_id: 89860
       debug: arcade/wheel/cscrtry.png
     entries: []
+- release:
+    id: 82042
+    game_id: 1201
+    description: ""
+    release_date: 19840000
+  names:
+  - id: 207478
+    kind: 3
+    kind_id: 82042
+    language: 1
+    name: Scrum Try (DECO Cassette) (US) (set 2)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 96833
+      kind: 3
+      kind_id: 82042
+      type: 1
+      name: cscrtry2.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 575808
+      asset_id: 96833
+      name: cassmcu.1c
+      size: 1024
+      blob_id: 14789
+    - id: 575809
+      asset_id: 96833
+      name: cscrtry.pro
+      size: 32768
+      blob_id: 12899
+    - id: 575810
+      asset_id: 96833
+      name: cscrtry2.cas
+      size: 32768
+      blob_id: 242823
+    - id: 575811
+      asset_id: 96833
+      name: dsp-3_p0-a.m9
+      size: 2048
+      blob_id: 211867
+    - id: 575812
+      asset_id: 96833
+      name: dsp-3_p0-b.m9
+      size: 2048
+      blob_id: 14790
+    - id: 575813
+      asset_id: 96833
+      name: dsp-3_p0-c.m9
+      size: 2048
+      blob_id: 211868
+    - id: 575814
+      asset_id: 96833
+      name: dsp-3_p0-d.m9
+      size: 2048
+      blob_id: 211869
+    - id: 575815
+      asset_id: 96833
+      name: dsp-3_p1-.l9
+      size: 2048
+      blob_id: 14791
+    - id: 575819
+      asset_id: 96833
+      name: dsp-3_p3-.e5
+      size: 32
+      blob_id: 211870
+    - id: 575823
+      asset_id: 96833
+      name: dsp-3_p5-.m4
+      size: 32
+      blob_id: 211871
+    - id: 575827
+      asset_id: 96833
+      name: rms-3_p2-.c9
+      size: 1024
+      blob_id: 211872
+    - id: 575831
+      asset_id: 96833
+      name: rms-3_p4-.f6
+      size: 32
+      blob_id: 211873
+    - id: 575835
+      asset_id: 96833
+      name: v0a-.7e
+      size: 4096
+      blob_id: 211874
+    - id: 575836
+      asset_id: 96833
+      name: v0b-.7e
+      size: 4096
+      blob_id: 14794
+    - id: 575837
+      asset_id: 96833
+      name: v0c-.7e
+      size: 4096
+      blob_id: 211875
+    - id: 575838
+      asset_id: 96833
+      name: v0d-.7e
+      size: 4096
+      blob_id: 211876
+    - id: 575839
+      asset_id: 96833
+      name: v1-.5a
+      size: 2048
+      blob_id: 14796
+    - id: 575843
+      asset_id: 96833
+      name: v2.3m
+      size: 32
+      blob_id: 14793
+    - id: 575847
+      asset_id: 96833
+      name: v3.3j
+      size: 32
+      blob_id: 14795
+    - id: 575851
+      asset_id: 96833
+      name: v4.10d
+      size: 32
+      blob_id: 14792

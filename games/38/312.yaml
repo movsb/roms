@@ -16,6 +16,30 @@ names:
   language: 2
   name: 月球巡警
   source: trimui
+- id: 186635
+  kind: 2
+  kind_id: 312
+  language: 1
+  name: MRANGER
+  source: ""
+- id: 186636
+  kind: 2
+  kind_id: 312
+  language: 2
+  name: 月球游侠 (Moon Patrol 的D版)
+  source: trimui
+- id: 187014
+  kind: 2
+  kind_id: 312
+  language: 1
+  name: mpatrolw
+  source: ""
+- id: 187015
+  kind: 2
+  kind_id: 312
+  language: 2
+  name: 月球巡警 (威廉斯)
+  source: trimui
 game_developers:
 - game_id: 312
   developer_id: 224
@@ -174,24 +198,10 @@ releases:
       blob_id: 88337
       debug: arcade/wheel/mpatrol.png
     entries: []
-- release:
-    id: 58929
-    game_id: 312
-    description: ""
-    release_date: 19820000
-  names:
-  - id: 148285
-    kind: 3
-    kind_id: 58929
-    language: 1
-    name: Moon Patrol
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 71999
+      id: 104890
       kind: 3
-      kind_id: 58929
+      kind_id: 312
       type: 1
       name: mpatrol.zip
       description: ""
@@ -200,88 +210,317 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 271642
-      asset_id: 71999
+    - id: 666945
+      asset_id: 104890
       name: mp-s1.1a
       size: 4096
       blob_id: 3019
-    - id: 271643
-      asset_id: 71999
+    - id: 666946
+      asset_id: 104890
       name: mp_7621-5.7h
       size: 512
-      blob_id: 151407
-    - id: 271644
-      asset_id: 71999
+      blob_id: 258533
+    - id: 666947
+      asset_id: 104890
       name: mpa-1.3m
       size: 4096
       blob_id: 3011
-    - id: 271645
-      asset_id: 71999
+    - id: 666948
+      asset_id: 104890
       name: mpa-2.3l
       size: 4096
       blob_id: 3010
-    - id: 271646
-      asset_id: 71999
+    - id: 666949
+      asset_id: 104890
       name: mpa-3.3k
       size: 4096
       blob_id: 3009
-    - id: 271647
-      asset_id: 71999
+    - id: 666950
+      asset_id: 104890
       name: mpa-4.3j
       size: 4096
       blob_id: 3008
-    - id: 271648
-      asset_id: 71999
+    - id: 666951
+      asset_id: 104890
       name: mpb-1.3n
       size: 4096
       blob_id: 3013
-    - id: 271649
-      asset_id: 71999
+    - id: 666952
+      asset_id: 104890
       name: mpb-2.3m
       size: 4096
       blob_id: 3012
-    - id: 271650
-      asset_id: 71999
+    - id: 666953
+      asset_id: 104890
       name: mpc-1.1f
       size: 32
       blob_id: 3004
-    - id: 271651
-      asset_id: 71999
+    - id: 666954
+      asset_id: 104890
       name: mpc-2.2h
       size: 256
       blob_id: 3007
-    - id: 271652
-      asset_id: 71999
+    - id: 666955
+      asset_id: 104890
       name: mpc-3.1m
       size: 32
       blob_id: 3005
-    - id: 271653
-      asset_id: 71999
+    - id: 666956
+      asset_id: 104890
       name: mpc-4.2a
       size: 512
-      blob_id: 151408
-    - id: 271654
-      asset_id: 71999
+      blob_id: 258534
+    - id: 666957
+      asset_id: 104890
       name: mpe-1.3l
       size: 4096
       blob_id: 3018
-    - id: 271655
-      asset_id: 71999
+    - id: 666958
+      asset_id: 104890
       name: mpe-2.3k
       size: 4096
       blob_id: 3017
-    - id: 271656
-      asset_id: 71999
+    - id: 666959
+      asset_id: 104890
       name: mpe-3.3h
       size: 4096
       blob_id: 3016
-    - id: 271657
-      asset_id: 71999
+    - id: 666960
+      asset_id: 104890
       name: mpe-4.3f
       size: 4096
       blob_id: 3015
-    - id: 271658
-      asset_id: 71999
+    - id: 666961
+      asset_id: 104890
       name: mpe-5.3e
       size: 4096
       blob_id: 3014
+- release:
+    id: 102853
+    game_id: 312
+    description: ""
+    release_date: 0
+  names:
+  - id: 237492
+    kind: 3
+    kind_id: 102853
+    language: 1
+    name: MRANGER
+    source: ""
+  - id: 237493
+    kind: 3
+    kind_id: 102853
+    language: 2
+    name: 月球游侠 (Moon Patrol 的D版)
+    source: trimui
+  release_publishers: []
+  assets:
+  - asset:
+      id: 104939
+      kind: 3
+      kind_id: 102853
+      type: 1
+      name: mranger.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 667200
+      asset_id: 104939
+      name: mp-s1.1a
+      size: 4096
+      blob_id: 3019
+    - id: 667201
+      asset_id: 104939
+      name: mpa-1.3m
+      size: 4096
+      blob_id: 3011
+    - id: 667202
+      asset_id: 104939
+      name: mpb-1.3n
+      size: 4096
+      blob_id: 3013
+    - id: 667203
+      asset_id: 104939
+      name: mpb-2.3m
+      size: 4096
+      blob_id: 3012
+    - id: 667204
+      asset_id: 104939
+      name: mpc-1.1f
+      size: 32
+      blob_id: 3004
+    - id: 667205
+      asset_id: 104939
+      name: mpc-2.2h
+      size: 256
+      blob_id: 3007
+    - id: 667206
+      asset_id: 104939
+      name: mpc-3.1m
+      size: 32
+      blob_id: 3005
+    - id: 667207
+      asset_id: 104939
+      name: mpc-4.2a
+      size: 512
+      blob_id: 258534
+    - id: 667208
+      asset_id: 104939
+      name: mpe-1.3l
+      size: 4096
+      blob_id: 3018
+    - id: 667209
+      asset_id: 104939
+      name: mpe-2.3k
+      size: 4096
+      blob_id: 3017
+    - id: 667210
+      asset_id: 104939
+      name: mpe-3.3h
+      size: 4096
+      blob_id: 3016
+    - id: 667211
+      asset_id: 104939
+      name: mpe-4.3f
+      size: 4096
+      blob_id: 3015
+    - id: 667212
+      asset_id: 104939
+      name: mpe-5.3e
+      size: 4096
+      blob_id: 3014
+    - id: 667213
+      asset_id: 104939
+      name: mra-2.3l
+      size: 4096
+      blob_id: 3034
+    - id: 667214
+      asset_id: 104939
+      name: mra-3.3k
+      size: 4096
+      blob_id: 3035
+    - id: 667215
+      asset_id: 104939
+      name: mra-4.3j
+      size: 4096
+      blob_id: 3033
+- release:
+    id: 103033
+    game_id: 312
+    description: ""
+    release_date: 0
+  names:
+  - id: 237852
+    kind: 3
+    kind_id: 103033
+    language: 1
+    name: mpatrolw
+    source: ""
+  - id: 237853
+    kind: 3
+    kind_id: 103033
+    language: 2
+    name: 月球巡警 (威廉斯)
+    source: trimui
+  release_publishers: []
+  assets:
+  - asset:
+      id: 104891
+      kind: 3
+      kind_id: 103033
+      type: 1
+      name: mpatrolw.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 666962
+      asset_id: 104891
+      name: mp-s1.1a
+      size: 4096
+      blob_id: 3019
+    - id: 666963
+      asset_id: 104891
+      name: mp_7621-5.7h
+      size: 512
+      blob_id: 258533
+    - id: 666964
+      asset_id: 104891
+      name: mpa-1w.3m
+      size: 4096
+      blob_id: 29342
+    - id: 666965
+      asset_id: 104891
+      name: mpa-2w.3l
+      size: 4096
+      blob_id: 29343
+    - id: 666966
+      asset_id: 104891
+      name: mpa-3w.3k
+      size: 4096
+      blob_id: 29344
+    - id: 666967
+      asset_id: 104891
+      name: mpa-4w.3j
+      size: 4096
+      blob_id: 29345
+    - id: 666968
+      asset_id: 104891
+      name: mpb-1.3n
+      size: 4096
+      blob_id: 3013
+    - id: 666969
+      asset_id: 104891
+      name: mpb-2.3m
+      size: 4096
+      blob_id: 3012
+    - id: 666970
+      asset_id: 104891
+      name: mpc-1.1f
+      size: 32
+      blob_id: 3004
+    - id: 666971
+      asset_id: 104891
+      name: mpc-2.2h
+      size: 256
+      blob_id: 3007
+    - id: 666972
+      asset_id: 104891
+      name: mpc-3.1m
+      size: 32
+      blob_id: 3005
+    - id: 666973
+      asset_id: 104891
+      name: mpc-4a.2a
+      size: 512
+      blob_id: 258535
+    - id: 666974
+      asset_id: 104891
+      name: mpe-1.3l
+      size: 4096
+      blob_id: 3018
+    - id: 666975
+      asset_id: 104891
+      name: mpe-2.3k
+      size: 4096
+      blob_id: 3017
+    - id: 666976
+      asset_id: 104891
+      name: mpe-3.3h
+      size: 4096
+      blob_id: 3016
+    - id: 666977
+      asset_id: 104891
+      name: mpe-4w.3f
+      size: 4096
+      blob_id: 29340
+    - id: 666978
+      asset_id: 104891
+      name: mpe-5w.3e
+      size: 4096
+      blob_id: 29341

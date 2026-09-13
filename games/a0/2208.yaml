@@ -16,6 +16,24 @@ names:
   language: 2
   name: 少林路
   source: trimui
+- id: 186673
+  kind: 2
+  kind_id: 2208
+  language: 1
+  name: SHAOLINS
+  source: ""
+- id: 186674
+  kind: 2
+  kind_id: 2208
+  language: 2
+  name: 少林之道 (第一套)
+  source: trimui
+- id: 199000
+  kind: 2
+  kind_id: 2208
+  language: 1
+  name: Shao-lin's Road (set 2)
+  source: mame
 game_developers:
 - game_id: 2208
   developer_id: 2
@@ -154,24 +172,10 @@ releases:
       blob_id: 89040
       debug: arcade/wheel/kicker.png
     entries: []
-- release:
-    id: 48907
-    game_id: 2208
-    description: ""
-    release_date: 19850000
-  names:
-  - id: 128392
-    kind: 3
-    kind_id: 48907
-    language: 1
-    name: Kicker
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 61977
+      id: 102453
       kind: 3
-      kind_id: 48907
+      kind_id: 2208
       type: 1
       name: kicker.zip
       description: ""
@@ -180,63 +184,241 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 215955
-      asset_id: 61977
+    - id: 641598
+      asset_id: 102453
       name: 477j08.f16
       size: 256
       blob_id: 24520
-    - id: 215956
-      asset_id: 61977
+    - id: 641599
+      asset_id: 102453
       name: 477j09.b8
       size: 256
       blob_id: 24521
-    - id: 215957
-      asset_id: 61977
+    - id: 641600
+      asset_id: 102453
       name: 477j10.a12
       size: 256
       blob_id: 24522
-    - id: 215958
-      asset_id: 61977
+    - id: 641601
+      asset_id: 102453
       name: 477j11.a13
       size: 256
       blob_id: 24523
-    - id: 215959
-      asset_id: 61977
+    - id: 641602
+      asset_id: 102453
       name: 477j12.a14
       size: 256
       blob_id: 24524
-    - id: 215960
-      asset_id: 61977
+    - id: 641603
+      asset_id: 102453
       name: 477k01.h14
       size: 16384
       blob_id: 24516
-    - id: 215961
-      asset_id: 61977
+    - id: 641604
+      asset_id: 102453
       name: 477k02.h15
       size: 16384
       blob_id: 24517
-    - id: 215962
-      asset_id: 61977
+    - id: 641605
+      asset_id: 102453
       name: 477k06.a10
       size: 8192
       blob_id: 24518
-    - id: 215963
-      asset_id: 61977
+    - id: 641606
+      asset_id: 102453
       name: 477k07.a11
       size: 8192
       blob_id: 24519
-    - id: 215964
-      asset_id: 61977
+    - id: 641607
+      asset_id: 102453
       name: 477l03.d9
       size: 8192
       blob_id: 4011
-    - id: 215965
-      asset_id: 61977
+    - id: 641608
+      asset_id: 102453
       name: 477l04.d10
       size: 16384
       blob_id: 4012
-    - id: 215966
-      asset_id: 61977
+    - id: 641609
+      asset_id: 102453
+      name: 477l05.d11
+      size: 16384
+      blob_id: 4013
+- release:
+    id: 97744
+    game_id: 2208
+    description: ""
+    release_date: 19850000
+  names:
+  - id: 230095
+    kind: 3
+    kind_id: 97744
+    language: 1
+    name: Shao-lin's Road (set 2)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 113428
+      kind: 3
+      kind_id: 97744
+      type: 1
+      name: shaolinb.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 743022
+      asset_id: 113428
+      name: 1.l8
+      size: 16384
+      blob_id: 4009
+    - id: 743023
+      asset_id: 113428
+      name: 1.o6
+      size: 256
+      blob_id: 24520
+    - id: 743024
+      asset_id: 113428
+      name: 2.g2
+      size: 256
+      blob_id: 24521
+    - id: 743025
+      asset_id: 113428
+      name: 2.m8
+      size: 16384
+      blob_id: 4010
+    - id: 743026
+      asset_id: 113428
+      name: 3.h4
+      size: 8192
+      blob_id: 4011
+    - id: 743027
+      asset_id: 113428
+      name: 3.k1
+      size: 256
+      blob_id: 24522
+    - id: 743028
+      asset_id: 113428
+      name: 4.i4
+      size: 16384
+      blob_id: 4012
+    - id: 743029
+      asset_id: 113428
+      name: 4.l1
+      size: 256
+      blob_id: 24523
+    - id: 743030
+      asset_id: 113428
+      name: 5.j4
+      size: 16384
+      blob_id: 4013
+    - id: 743031
+      asset_id: 113428
+      name: 5.m1
+      size: 256
+      blob_id: 24524
+    - id: 743032
+      asset_id: 113428
+      name: 6.i1
+      size: 8192
+      blob_id: 4014
+    - id: 743033
+      asset_id: 113428
+      name: 7.j1
+      size: 16384
+      blob_id: 280332
+- release:
+    id: 102871
+    game_id: 2208
+    description: ""
+    release_date: 0
+  names:
+  - id: 237528
+    kind: 3
+    kind_id: 102871
+    language: 1
+    name: SHAOLINS
+    source: ""
+  - id: 237529
+    kind: 3
+    kind_id: 102871
+    language: 2
+    name: 少林之道 (第一套)
+    source: trimui
+  release_publishers: []
+  assets:
+  - asset:
+      id: 113429
+      kind: 3
+      kind_id: 102871
+      type: 1
+      name: shaolins.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 743034
+      asset_id: 113429
+      name: 477j01.h14
+      size: 16384
+      blob_id: 24516
+    - id: 743035
+      asset_id: 113429
+      name: 477j02.h15
+      size: 16384
+      blob_id: 24517
+    - id: 743036
+      asset_id: 113429
+      name: 477j06.a10
+      size: 8192
+      blob_id: 4014
+    - id: 743037
+      asset_id: 113429
+      name: 477j07.a11
+      size: 8192
+      blob_id: 4015
+    - id: 743038
+      asset_id: 113429
+      name: 477j08.f16
+      size: 256
+      blob_id: 24520
+    - id: 743039
+      asset_id: 113429
+      name: 477j09.b8
+      size: 256
+      blob_id: 24521
+    - id: 743040
+      asset_id: 113429
+      name: 477j10.a12
+      size: 256
+      blob_id: 24522
+    - id: 743041
+      asset_id: 113429
+      name: 477j11.a13
+      size: 256
+      blob_id: 24523
+    - id: 743042
+      asset_id: 113429
+      name: 477j12.a14
+      size: 256
+      blob_id: 24524
+    - id: 743043
+      asset_id: 113429
+      name: 477l03.d9
+      size: 8192
+      blob_id: 4011
+    - id: 743044
+      asset_id: 113429
+      name: 477l04.d10
+      size: 16384
+      blob_id: 4012
+    - id: 743045
+      asset_id: 113429
       name: 477l05.d11
       size: 16384
       blob_id: 4013

@@ -16,6 +16,12 @@ names:
   language: 2
   name: 比格小子 (摇杆版, v1.0)
   source: trimui
+- id: 194367
+  kind: 2
+  kind_id: 3069
+  language: 1
+  name: Peggle (Trackball, v1.0)
+  source: mame
 game_developers:
 - game_id: 3069
   developer_id: 557
@@ -124,3 +130,59 @@ releases:
       blob_id: 86428
       debug: arcade/wheel/peggle.png
     entries: []
+- release:
+    id: 91264
+    game_id: 3069
+    description: ""
+    release_date: 19910000
+  names:
+  - id: 221661
+    kind: 3
+    kind_id: 91264
+    language: 1
+    name: Peggle (Trackball, v1.0)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 106723
+      kind: 3
+      kind_id: 91264
+      type: 1
+      name: pegglet.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 689143
+      asset_id: 106723
+      name: grom0.bin
+      size: 131072
+      blob_id: 32677
+    - id: 689144
+      asset_id: 106723
+      name: grom1.bin
+      size: 131072
+      blob_id: 32678
+    - id: 689145
+      asset_id: 106723
+      name: grom2.bin
+      size: 131072
+      blob_id: 32679
+    - id: 689146
+      asset_id: 106723
+      name: sound.u27
+      size: 32768
+      blob_id: 32681
+    - id: 689147
+      asset_id: 106723
+      name: srom0
+      size: 131072
+      blob_id: 32682
+    - id: 689148
+      asset_id: 106723
+      name: trakball.u5
+      size: 65536
+      blob_id: 264336

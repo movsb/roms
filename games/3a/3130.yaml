@@ -10,6 +10,36 @@ names:
   language: 1
   name: plotting
   source: ""
+- id: 187081
+  kind: 2
+  kind_id: 3130
+  language: 1
+  name: plottinga
+  source: ""
+- id: 187082
+  kind: 2
+  kind_id: 3130
+  language: 2
+  name: 小鸡益智方块 (世界版 第二套, 保护版)
+  source: trimui
+- id: 190651
+  kind: 2
+  kind_id: 3130
+  language: 1
+  name: Flipull (Japan)
+  source: mame
+- id: 194962
+  kind: 2
+  kind_id: 3130
+  language: 1
+  name: Plotting (World set 3, earliest version)
+  source: mame
+- id: 194963
+  kind: 2
+  kind_id: 3130
+  language: 1
+  name: Plotting (US)
+  source: mame
 game_developers:
 - game_id: 3130
   developer_id: 35
@@ -103,6 +133,38 @@ releases:
       blob_id: 88680
       debug: arcade/wheel/plotting.png
     entries: []
+  - asset:
+      id: 107750
+      kind: 3
+      kind_id: 3130
+      type: 1
+      name: plotting.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 698127
+      asset_id: 107750
+      name: b96-07.ic9
+      size: 65536
+      blob_id: 33373
+    - id: 698128
+      asset_id: 107750
+      name: b96-08.ic8
+      size: 65536
+      blob_id: 33374
+    - id: 698129
+      asset_id: 107750
+      name: gal16v8-b86-04.bin
+      size: 279
+      blob_id: 33376
+    - id: 698130
+      asset_id: 107750
+      name: ic10
+      size: 65536
+      blob_id: 33377
 - release:
     id: 3131
     game_id: 3130
@@ -191,48 +253,192 @@ releases:
       size: 65536
       blob_id: 33380
 - release:
-    id: 61878
+    id: 92260
     game_id: 3130
     description: ""
     release_date: 19890000
   names:
-  - id: 154061
+  - id: 223063
     kind: 3
-    kind_id: 61878
+    kind_id: 92260
     language: 1
-    name: Plotting (World set 1)
+    name: Plotting (World set 3, earliest version)
     source: mame
   release_publishers: []
   assets:
   - asset:
-      id: 74948
+      id: 107752
       kind: 3
-      kind_id: 61878
+      kind_id: 92260
       type: 1
-      name: plotting.zip
+      name: plottingb.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 304071
-      asset_id: 74948
-      name: b96-07.ic9
+    - id: 698135
+      asset_id: 107752
+      name: b96-02.ic9
       size: 65536
-      blob_id: 33373
-    - id: 304072
-      asset_id: 74948
-      name: b96-08.ic8
+      blob_id: 33371
+    - id: 698136
+      asset_id: 107752
+      name: b96-03.ic8
       size: 65536
-      blob_id: 33374
-    - id: 304073
-      asset_id: 74948
+      blob_id: 33372
+    - id: 698137
+      asset_id: 107752
+      name: b96-06.ic10
+      size: 65536
+      blob_id: 33378
+    - id: 698138
+      asset_id: 107752
       name: gal16v8-b86-04.bin
       size: 279
       blob_id: 33376
-    - id: 304074
-      asset_id: 74948
-      name: ic10
+- release:
+    id: 92261
+    game_id: 3130
+    description: ""
+    release_date: 19890000
+  names:
+  - id: 223064
+    kind: 3
+    kind_id: 92261
+    language: 1
+    name: Plotting (US)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 107753
+      kind: 3
+      kind_id: 92261
+      type: 1
+      name: plottingu.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 698139
+      asset_id: 107753
+      name: b96-02.ic9
       size: 65536
-      blob_id: 33377
+      blob_id: 33371
+    - id: 698140
+      asset_id: 107753
+      name: b96-03.ic8
+      size: 65536
+      blob_id: 33372
+    - id: 698141
+      asset_id: 107753
+      name: b96-04.ic12
+      size: 260
+      blob_id: 33379
+    - id: 698142
+      asset_id: 107753
+      name: b96-05.ic10
+      size: 65536
+      blob_id: 33380
+- release:
+    id: 103055
+    game_id: 3130
+    description: ""
+    release_date: 0
+  names:
+  - id: 237896
+    kind: 3
+    kind_id: 103055
+    language: 1
+    name: plottinga
+    source: ""
+  - id: 237897
+    kind: 3
+    kind_id: 103055
+    language: 2
+    name: 小鸡益智方块 (世界版 第二套, 保护版)
+    source: trimui
+  release_publishers: []
+  assets:
+  - asset:
+      id: 107751
+      kind: 3
+      kind_id: 103055
+      type: 1
+      name: plottinga.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 698131
+      asset_id: 107751
+      name: b96-02.ic9
+      size: 65536
+      blob_id: 33371
+    - id: 698132
+      asset_id: 107751
+      name: b96-03.ic8
+      size: 65536
+      blob_id: 33372
+    - id: 698133
+      asset_id: 107751
+      name: gal16v8-b86-04.bin
+      size: 279
+      blob_id: 33376
+    - id: 698134
+      asset_id: 107751
+      name: plot01.ic10
+      size: 65536
+      blob_id: 33370
+- release:
+    id: 103928
+    game_id: 3130
+    description: ""
+    release_date: 19890000
+  names:
+  - id: 238904
+    kind: 3
+    kind_id: 103928
+    language: 1
+    name: Flipull (Japan)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 99119
+      kind: 3
+      kind_id: 103928
+      type: 1
+      name: flipull.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 605132
+      asset_id: 99119
+      name: b96-01.ic10
+      size: 65536
+      blob_id: 33375
+    - id: 605133
+      asset_id: 99119
+      name: b96-07.ic9
+      size: 65536
+      blob_id: 33373
+    - id: 605134
+      asset_id: 99119
+      name: b96-08.ic8
+      size: 65536
+      blob_id: 33374
+    - id: 605135
+      asset_id: 99119
+      name: gal16v8-b86-04.bin
+      size: 279
+      blob_id: 33376

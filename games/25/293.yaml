@@ -16,6 +16,60 @@ names:
   language: 2
   name: 马力欧兄弟 (美版, 修订版 G)
   source: trimui
+- id: 192958
+  kind: 2
+  kind_id: 293
+  language: 1
+  name: Mario Bros. (bootleg on Ambush Hardware, set 1)
+  source: mame
+- id: 192959
+  kind: 2
+  kind_id: 293
+  language: 1
+  name: Mario Bros. (bootleg on Ambush Hardware, set 2)
+  source: mame
+- id: 192960
+  kind: 2
+  kind_id: 293
+  language: 1
+  name: Mario Bros. (US, revision F)
+  source: mame
+- id: 192961
+  kind: 2
+  kind_id: 293
+  language: 1
+  name: Mario Bros. (US, revision G)
+  source: mame
+- id: 192962
+  kind: 2
+  kind_id: 293
+  language: 1
+  name: Mario Bros. (Japan, revision C)
+  source: mame
+- id: 192963
+  kind: 2
+  kind_id: 293
+  language: 1
+  name: Mario Bros. (Japan, older)
+  source: mame
+- id: 192972
+  kind: 2
+  kind_id: 293
+  language: 1
+  name: Masao
+  source: mame
+- id: 194733
+  kind: 2
+  kind_id: 293
+  language: 1
+  name: Pest Place
+  source: mame
+- id: 241761
+  kind: 2
+  kind_id: 293
+  language: 1
+  name: Mario Bros. (US, Revision E)
+  source: fbneo
 game_developers: []
 game_genres:
 - game_id: 293
@@ -43,9 +97,71 @@ releases:
   release_publishers: []
   assets:
   - asset:
-      id: 293
+      id: 45428
       kind: 3
       kind_id: 293
+      type: 4
+      name: mario.png
+      description: ""
+      format: 1
+      size: 2121
+      blob_id: 88653
+      debug: arcade/downloaded_images/mario.png
+    entries: []
+  - asset:
+      id: 45429
+      kind: 3
+      kind_id: 293
+      type: 6
+      name: mario.mp4
+      description: ""
+      format: 1
+      size: 589042
+      blob_id: 88654
+      debug: arcade/snap/mario.mp4
+    entries: []
+  - asset:
+      id: 45430
+      kind: 3
+      kind_id: 293
+      type: 7
+      name: mario.png
+      description: ""
+      format: 1
+      size: 41720
+      blob_id: 88655
+      debug: arcade/wheel/mario.png
+    entries: []
+- release:
+    id: 77957
+    game_id: 293
+    description: ""
+    release_date: 19830000
+  names:
+  - id: 185970
+    kind: 3
+    kind_id: 77957
+    language: 1
+    name: Mario Bros. (US, revision F)
+    source: mame
+  - id: 185971
+    kind: 3
+    kind_id: 77957
+    language: 1
+    name: MARIO
+    source: ""
+  - id: 185972
+    kind: 3
+    kind_id: 77957
+    language: 2
+    name: 马力欧兄弟 (美版, 修订版 G)
+    source: trimui
+  release_publishers: []
+  assets:
+  - asset:
+      id: 293
+      kind: 3
+      kind_id: 77957
       type: 1
       name: mario.zip
       description: ""
@@ -130,59 +246,9 @@ releases:
       size: 4096
       blob_id: 2806
   - asset:
-      id: 45428
+      id: 103746
       kind: 3
-      kind_id: 293
-      type: 4
-      name: mario.png
-      description: ""
-      format: 1
-      size: 2121
-      blob_id: 88653
-      debug: arcade/downloaded_images/mario.png
-    entries: []
-  - asset:
-      id: 45429
-      kind: 3
-      kind_id: 293
-      type: 6
-      name: mario.mp4
-      description: ""
-      format: 1
-      size: 589042
-      blob_id: 88654
-      debug: arcade/snap/mario.mp4
-    entries: []
-  - asset:
-      id: 45430
-      kind: 3
-      kind_id: 293
-      type: 7
-      name: mario.png
-      description: ""
-      format: 1
-      size: 41720
-      blob_id: 88655
-      debug: arcade/wheel/mario.png
-    entries: []
-- release:
-    id: 57702
-    game_id: 293
-    description: ""
-    release_date: 19830000
-  names:
-  - id: 145883
-    kind: 3
-    kind_id: 57702
-    language: 1
-    name: Mario Bros. (US, revision E)
-    source: mame
-  release_publishers: []
-  assets:
-  - asset:
-      id: 70772
-      kind: 3
-      kind_id: 57702
+      kind_id: 77957
       type: 1
       name: mario.zip
       description: ""
@@ -191,99 +257,85 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 260462
-      asset_id: 70772
+    - id: 656280
+      asset_id: 103746
       name: tma1-c-4p.4p
       size: 512
-      blob_id: 147124
-    - id: 260463
-      asset_id: 70772
+      blob_id: 235622
+    - id: 656281
+      asset_id: 103746
       name: tma1-c-5b.5b
       size: 32
       blob_id: 2793
-    - id: 260464
-      asset_id: 70772
+    - id: 656282
+      asset_id: 103746
       name: tma1-c-6k_e.6k
       size: 4096
       blob_id: 2794
-    - id: 260465
-      asset_id: 70772
+    - id: 656283
+      asset_id: 103746
       name: tma1-c-7c_e-3.7c
       size: 4096
-      blob_id: 147125
-    - id: 260466
-      asset_id: 70772
+      blob_id: 235623
+    - id: 656284
+      asset_id: 103746
       name: tma1-c-7d_e-1.7d
       size: 8192
       blob_id: 2796
-    - id: 260467
-      asset_id: 70772
+    - id: 656285
+      asset_id: 103746
       name: tma1-c-7e_e-3.7e
       size: 8192
-      blob_id: 147126
-    - id: 260468
-      asset_id: 70772
+      blob_id: 235624
+    - id: 656286
+      asset_id: 103746
       name: tma1-c-7f_e-1.7f
       size: 8192
       blob_id: 2798
-    - id: 260469
-      asset_id: 70772
+    - id: 656287
+      asset_id: 103746
       name: tma1-v-3f.3f
       size: 4096
       blob_id: 2799
-    - id: 260470
-      asset_id: 70772
+    - id: 656288
+      asset_id: 103746
       name: tma1-v-3j.3j
       size: 4096
       blob_id: 2800
-    - id: 260471
-      asset_id: 70772
+    - id: 656289
+      asset_id: 103746
       name: tma1-v-7n.7n
       size: 4096
       blob_id: 2802
-    - id: 260472
-      asset_id: 70772
+    - id: 656290
+      asset_id: 103746
       name: tma1-v-7p.7p
       size: 4096
       blob_id: 2803
-    - id: 260473
-      asset_id: 70772
+    - id: 656291
+      asset_id: 103746
       name: tma1-v-7t.7t
       size: 4096
       blob_id: 2805
-    - id: 260474
-      asset_id: 70772
+    - id: 656292
+      asset_id: 103746
       name: tma1-v.7m.7m
       size: 4096
-      blob_id: 147127
-    - id: 260475
-      asset_id: 70772
+      blob_id: 235625
+    - id: 656293
+      asset_id: 103746
       name: tma1-v.7s.7s
       size: 4096
-      blob_id: 147128
-    - id: 260476
-      asset_id: 70772
+      blob_id: 235626
+    - id: 656294
+      asset_id: 103746
       name: tma1-v.7u.7u
       size: 4096
-      blob_id: 147129
-- release:
-    id: 76785
-    game_id: 293
-    description: ""
-    release_date: 19830000
-  names:
-  - id: 182961
-    kind: 3
-    kind_id: 76785
-    language: 1
-    name: Mario Bros. (US, Revision G)
-    source: fbneo
-  release_publishers: []
-  assets:
+      blob_id: 235627
   - asset:
-      id: 89855
+      id: 119053
       kind: 3
-      kind_id: 76785
+      kind_id: 77957
       type: 1
       name: mario.zip
       description: ""
@@ -292,78 +344,1260 @@ releases:
       blob_id: 0
       debug: dat:fbneo:5fa9b68a
     entries:
-    - id: 441994
-      asset_id: 89855
+    - id: 819150
+      asset_id: 119053
       name: tma1-c-4p.4p
       size: 512
-      blob_id: 147124
-    - id: 441995
-      asset_id: 89855
+      blob_id: 235622
+    - id: 819151
+      asset_id: 119053
       name: tma1-c-5p.5p
       size: 32
       blob_id: 2793
-    - id: 441996
-      asset_id: 89855
+    - id: 819152
+      asset_id: 119053
       name: tma1-c-6k_e.6k
       size: 4096
       blob_id: 2794
-    - id: 441997
-      asset_id: 89855
+    - id: 819153
+      asset_id: 119053
       name: tma1-c-7c_g.7c
       size: 4096
       blob_id: 2795
-    - id: 441998
-      asset_id: 89855
+    - id: 819154
+      asset_id: 119053
       name: tma1-c-7d_g.7d
       size: 8192
       blob_id: 2796
-    - id: 441999
-      asset_id: 89855
+    - id: 819155
+      asset_id: 119053
       name: tma1-c-7e_g.7e
       size: 8192
-      blob_id: 147150
-    - id: 442000
-      asset_id: 89855
+      blob_id: 256749
+    - id: 819156
+      asset_id: 119053
       name: tma1-c-7f_g.7f
       size: 8192
       blob_id: 2798
-    - id: 442001
-      asset_id: 89855
+    - id: 819157
+      asset_id: 119053
       name: tma1-v-3f.3f
       size: 4096
       blob_id: 2799
-    - id: 442002
-      asset_id: 89855
+    - id: 819158
+      asset_id: 119053
       name: tma1-v-3j.3j
       size: 4096
       blob_id: 2800
-    - id: 442003
-      asset_id: 89855
+    - id: 819159
+      asset_id: 119053
       name: tma1-v-7m.7m
       size: 4096
       blob_id: 2801
-    - id: 442004
-      asset_id: 89855
+    - id: 819160
+      asset_id: 119053
       name: tma1-v-7n.7n
       size: 4096
       blob_id: 2802
-    - id: 442005
-      asset_id: 89855
+    - id: 819161
+      asset_id: 119053
       name: tma1-v-7p.7p
       size: 4096
       blob_id: 2803
-    - id: 442006
-      asset_id: 89855
+    - id: 819162
+      asset_id: 119053
       name: tma1-v-7s.7s
       size: 4096
       blob_id: 2804
-    - id: 442007
-      asset_id: 89855
+    - id: 819163
+      asset_id: 119053
       name: tma1-v-7t.7t
       size: 4096
       blob_id: 2805
-    - id: 442008
-      asset_id: 89855
+    - id: 819164
+      asset_id: 119053
       name: tma1-v-7u.7u
       size: 4096
       blob_id: 2806
+- release:
+    id: 88436
+    game_id: 293
+    description: ""
+    release_date: 19830000
+  names:
+  - id: 217276
+    kind: 3
+    kind_id: 88436
+    language: 1
+    name: Mario Bros. (bootleg on Ambush Hardware, set 1)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 103747
+      kind: 3
+      kind_id: 88436
+      type: 1
+      name: mariobl.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 656295
+      asset_id: 103747
+      name: 82s153.11
+      size: 235
+      blob_id: 235628
+    - id: 656296
+      asset_id: 103747
+      name: 82s153.2
+      size: 235
+      blob_id: 235629
+    - id: 656297
+      asset_id: 103747
+      name: 82s153.4
+      size: 235
+      blob_id: 235630
+    - id: 656298
+      asset_id: 103747
+      name: mbjba-1.3l
+      size: 8192
+      blob_id: 235631
+    - id: 656299
+      asset_id: 103747
+      name: mbjba-2.3ls
+      size: 8192
+      blob_id: 235632
+    - id: 656300
+      asset_id: 103747
+      name: mbjba-3.3ns
+      size: 8192
+      blob_id: 235633
+    - id: 656301
+      asset_id: 103747
+      name: mbjba-4.4l
+      size: 4096
+      blob_id: 235634
+    - id: 656302
+      asset_id: 103747
+      name: mbjba-5.4n
+      size: 4096
+      blob_id: 235635
+    - id: 656303
+      asset_id: 103747
+      name: mbjba-6.7f
+      size: 8192
+      blob_id: 235636
+    - id: 656304
+      asset_id: 103747
+      name: mbjba-7.7g
+      size: 8192
+      blob_id: 235637
+    - id: 656305
+      asset_id: 103747
+      name: mbjba-8.7h
+      size: 16384
+      blob_id: 235638
+    - id: 656306
+      asset_id: 103747
+      name: n82s147n.13
+      size: 512
+      blob_id: 235639
+    - id: 656307
+      asset_id: 103747
+      name: n82s147n.15
+      size: 512
+      blob_id: 235640
+    - id: 656308
+      asset_id: 103747
+      name: pal16x4cj.10
+      size: 260
+      blob_id: 235641
+  - asset:
+      id: 120656
+      kind: 3
+      kind_id: 88436
+      type: 1
+      name: mariobl.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.259
+    entries:
+    - id: 870628
+      asset_id: 120656
+      name: mbjba-1.3l
+      size: 8192
+      blob_id: 235631
+    - id: 870629
+      asset_id: 120656
+      name: mbjba-2.3ls
+      size: 8192
+      blob_id: 235632
+    - id: 870630
+      asset_id: 120656
+      name: mbjba-3.3ns
+      size: 8192
+      blob_id: 235633
+    - id: 870631
+      asset_id: 120656
+      name: mbjba-4.4l
+      size: 4096
+      blob_id: 235634
+    - id: 870632
+      asset_id: 120656
+      name: mbjba-5.4n
+      size: 4096
+      blob_id: 235635
+    - id: 870633
+      asset_id: 120656
+      name: mbjba-6.7f
+      size: 8192
+      blob_id: 235636
+    - id: 870634
+      asset_id: 120656
+      name: mbjba-7.7g
+      size: 8192
+      blob_id: 235637
+    - id: 870635
+      asset_id: 120656
+      name: mbjba-8.7h
+      size: 16384
+      blob_id: 235638
+    - id: 870636
+      asset_id: 120656
+      name: tma1-c-4p.4p
+      size: 512
+      blob_id: 235622
+- release:
+    id: 88437
+    game_id: 293
+    description: ""
+    release_date: 19830000
+  names:
+  - id: 217277
+    kind: 3
+    kind_id: 88437
+    language: 1
+    name: Mario Bros. (bootleg on Ambush Hardware, set 2)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 103748
+      kind: 3
+      kind_id: 88437
+      type: 1
+      name: mariobla.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 656309
+      asset_id: 103748
+      name: 2.7f
+      size: 8192
+      blob_id: 235642
+    - id: 656310
+      asset_id: 103748
+      name: 3.7g
+      size: 8192
+      blob_id: 235643
+    - id: 656311
+      asset_id: 103748
+      name: 4.7i
+      size: 16384
+      blob_id: 235644
+    - id: 656312
+      asset_id: 103748
+      name: 5.4n
+      size: 16384
+      blob_id: 235645
+    - id: 656313
+      asset_id: 103748
+      name: 6.4l
+      size: 8192
+      blob_id: 235632
+    - id: 656314
+      asset_id: 103748
+      name: 6349-2n-cpu.5b
+      size: 512
+      blob_id: 235646
+    - id: 656315
+      asset_id: 103748
+      name: 6349-2n.2m
+      size: 512
+      blob_id: 235639
+    - id: 656316
+      asset_id: 103748
+      name: 6349-2n.8h
+      size: 512
+      blob_id: 235640
+    - id: 656317
+      asset_id: 103748
+      name: 7.4n
+      size: 16384
+      blob_id: 235647
+    - id: 656318
+      asset_id: 103748
+      name: 82s153.7n
+      size: 235
+      blob_id: 235628
+- release:
+    id: 88438
+    game_id: 293
+    description: ""
+    release_date: 19830000
+  names:
+  - id: 217278
+    kind: 3
+    kind_id: 88438
+    language: 1
+    name: Mario Bros. (US, revision F)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 103749
+      kind: 3
+      kind_id: 88438
+      type: 1
+      name: mariof.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 656319
+      asset_id: 103749
+      name: tma1-c-4p_1.4p
+      size: 512
+      blob_id: 2792
+    - id: 656320
+      asset_id: 103749
+      name: tma1-c-5b.5b
+      size: 32
+      blob_id: 2793
+    - id: 656321
+      asset_id: 103749
+      name: tma1-c-6k_e.6k
+      size: 4096
+      blob_id: 2794
+    - id: 656322
+      asset_id: 103749
+      name: tma1-c-7c_f.7c
+      size: 4096
+      blob_id: 2795
+    - id: 656323
+      asset_id: 103749
+      name: tma1-c-7d_f.7d
+      size: 8192
+      blob_id: 2796
+    - id: 656324
+      asset_id: 103749
+      name: tma1-c-7e_f.7e
+      size: 8192
+      blob_id: 2797
+    - id: 656325
+      asset_id: 103749
+      name: tma1-c-7f_f.7f
+      size: 8192
+      blob_id: 2798
+    - id: 656326
+      asset_id: 103749
+      name: tma1-v-3f.3f
+      size: 4096
+      blob_id: 2799
+    - id: 656327
+      asset_id: 103749
+      name: tma1-v-3j.3j
+      size: 4096
+      blob_id: 2800
+    - id: 656328
+      asset_id: 103749
+      name: tma1-v-7m.7m
+      size: 4096
+      blob_id: 2801
+    - id: 656329
+      asset_id: 103749
+      name: tma1-v-7n.7n
+      size: 4096
+      blob_id: 2802
+    - id: 656330
+      asset_id: 103749
+      name: tma1-v-7p.7p
+      size: 4096
+      blob_id: 2803
+    - id: 656331
+      asset_id: 103749
+      name: tma1-v-7s.7s
+      size: 4096
+      blob_id: 2804
+    - id: 656332
+      asset_id: 103749
+      name: tma1-v-7t.7t
+      size: 4096
+      blob_id: 2805
+    - id: 656333
+      asset_id: 103749
+      name: tma1-v-7u.7u
+      size: 4096
+      blob_id: 2806
+  - asset:
+      id: 119052
+      kind: 3
+      kind_id: 88438
+      type: 1
+      name: mariof.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 819135
+      asset_id: 119052
+      name: tma1-c-4p_1.4p
+      size: 512
+      blob_id: 2792
+    - id: 819136
+      asset_id: 119052
+      name: tma1-c-5p.5p
+      size: 32
+      blob_id: 2793
+    - id: 819137
+      asset_id: 119052
+      name: tma1-c-6k_e.6k
+      size: 4096
+      blob_id: 2794
+    - id: 819138
+      asset_id: 119052
+      name: tma1-c-7c_f.7c
+      size: 4096
+      blob_id: 2795
+    - id: 819139
+      asset_id: 119052
+      name: tma1-c-7d_f.7d
+      size: 8192
+      blob_id: 2796
+    - id: 819140
+      asset_id: 119052
+      name: tma1-c-7e_f.7e
+      size: 8192
+      blob_id: 2797
+    - id: 819141
+      asset_id: 119052
+      name: tma1-c-7f_f.7f
+      size: 8192
+      blob_id: 2798
+    - id: 819142
+      asset_id: 119052
+      name: tma1-v-3f.3f
+      size: 4096
+      blob_id: 2799
+    - id: 819143
+      asset_id: 119052
+      name: tma1-v-3j.3j
+      size: 4096
+      blob_id: 2800
+    - id: 819144
+      asset_id: 119052
+      name: tma1-v-7m.7m
+      size: 4096
+      blob_id: 2801
+    - id: 819145
+      asset_id: 119052
+      name: tma1-v-7n.7n
+      size: 4096
+      blob_id: 2802
+    - id: 819146
+      asset_id: 119052
+      name: tma1-v-7p.7p
+      size: 4096
+      blob_id: 2803
+    - id: 819147
+      asset_id: 119052
+      name: tma1-v-7s.7s
+      size: 4096
+      blob_id: 2804
+    - id: 819148
+      asset_id: 119052
+      name: tma1-v-7t.7t
+      size: 4096
+      blob_id: 2805
+    - id: 819149
+      asset_id: 119052
+      name: tma1-v-7u.7u
+      size: 4096
+      blob_id: 2806
+- release:
+    id: 88439
+    game_id: 293
+    description: ""
+    release_date: 19830000
+  names:
+  - id: 217279
+    kind: 3
+    kind_id: 88439
+    language: 1
+    name: Mario Bros. (US, revision G)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 103750
+      kind: 3
+      kind_id: 88439
+      type: 1
+      name: mariog.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 656334
+      asset_id: 103750
+      name: tma1-c-4p.4p
+      size: 512
+      blob_id: 235622
+    - id: 656335
+      asset_id: 103750
+      name: tma1-c-5b.5b
+      size: 32
+      blob_id: 2793
+    - id: 656336
+      asset_id: 103750
+      name: tma1-c-6k_e.6k
+      size: 4096
+      blob_id: 2794
+    - id: 656337
+      asset_id: 103750
+      name: tma1-c-7c_g.7c
+      size: 4096
+      blob_id: 2795
+    - id: 656338
+      asset_id: 103750
+      name: tma1-c-7d_g.7d
+      size: 8192
+      blob_id: 2796
+    - id: 656339
+      asset_id: 103750
+      name: tma1-c-7e_g.7e
+      size: 8192
+      blob_id: 256749
+    - id: 656340
+      asset_id: 103750
+      name: tma1-c-7f_g.7f
+      size: 8192
+      blob_id: 2798
+    - id: 656341
+      asset_id: 103750
+      name: tma1-v-3f.3f
+      size: 4096
+      blob_id: 2799
+    - id: 656342
+      asset_id: 103750
+      name: tma1-v-3j.3j
+      size: 4096
+      blob_id: 2800
+    - id: 656343
+      asset_id: 103750
+      name: tma1-v-7m.7m
+      size: 4096
+      blob_id: 2801
+    - id: 656344
+      asset_id: 103750
+      name: tma1-v-7n.7n
+      size: 4096
+      blob_id: 2802
+    - id: 656345
+      asset_id: 103750
+      name: tma1-v-7p.7p
+      size: 4096
+      blob_id: 2803
+    - id: 656346
+      asset_id: 103750
+      name: tma1-v-7s.7s
+      size: 4096
+      blob_id: 2804
+    - id: 656347
+      asset_id: 103750
+      name: tma1-v-7t.7t
+      size: 4096
+      blob_id: 2805
+    - id: 656348
+      asset_id: 103750
+      name: tma1-v-7u.7u
+      size: 4096
+      blob_id: 2806
+- release:
+    id: 88440
+    game_id: 293
+    description: ""
+    release_date: 19830000
+  names:
+  - id: 217280
+    kind: 3
+    kind_id: 88440
+    language: 1
+    name: Mario Bros. (Japan, revision C)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 103751
+      kind: 3
+      kind_id: 88440
+      type: 1
+      name: marioj.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 656349
+      asset_id: 103751
+      name: tma1-c-4p.4p
+      size: 512
+      blob_id: 235622
+    - id: 656350
+      asset_id: 103751
+      name: tma1-c-5b.5b
+      size: 32
+      blob_id: 2793
+    - id: 656351
+      asset_id: 103751
+      name: tma1-c-a1.7d
+      size: 8192
+      blob_id: 256750
+    - id: 656352
+      asset_id: 103751
+      name: tma1-c-a1.7f
+      size: 8192
+      blob_id: 256751
+    - id: 656353
+      asset_id: 103751
+      name: tma1-c-a2.7c
+      size: 4096
+      blob_id: 256752
+    - id: 656354
+      asset_id: 103751
+      name: tma1-c-a2.7e
+      size: 8192
+      blob_id: 256753
+    - id: 656355
+      asset_id: 103751
+      name: tma1-v-a.3f
+      size: 4096
+      blob_id: 256754
+    - id: 656356
+      asset_id: 103751
+      name: tma1-v-a.3j
+      size: 4096
+      blob_id: 256755
+    - id: 656357
+      asset_id: 103751
+      name: tma1-v-a.7m
+      size: 4096
+      blob_id: 256756
+    - id: 656358
+      asset_id: 103751
+      name: tma1-v-a.7n
+      size: 4096
+      blob_id: 256757
+    - id: 656359
+      asset_id: 103751
+      name: tma1-v-a.7p
+      size: 4096
+      blob_id: 256758
+    - id: 656360
+      asset_id: 103751
+      name: tma1-v-a.7s
+      size: 4096
+      blob_id: 256759
+    - id: 656361
+      asset_id: 103751
+      name: tma1-v-a.7t
+      size: 4096
+      blob_id: 256760
+    - id: 656362
+      asset_id: 103751
+      name: tma1-v-a.7u
+      size: 4096
+      blob_id: 256761
+    - id: 656363
+      asset_id: 103751
+      name: tma1c-a.6k
+      size: 4096
+      blob_id: 2794
+  - asset:
+      id: 119050
+      kind: 3
+      kind_id: 88440
+      type: 1
+      name: marioj.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 819105
+      asset_id: 119050
+      name: tma1-c-4p.4p
+      size: 512
+      blob_id: 235622
+    - id: 819106
+      asset_id: 119050
+      name: tma1-c-5p.5p
+      size: 32
+      blob_id: 2793
+    - id: 819107
+      asset_id: 119050
+      name: tma1c-a.6k
+      size: 4096
+      blob_id: 2794
+    - id: 819108
+      asset_id: 119050
+      name: tma1c-a1.7d
+      size: 8192
+      blob_id: 256750
+    - id: 819109
+      asset_id: 119050
+      name: tma1c-a1.7f
+      size: 8192
+      blob_id: 256751
+    - id: 819110
+      asset_id: 119050
+      name: tma1c-a2.7c
+      size: 4096
+      blob_id: 256752
+    - id: 819111
+      asset_id: 119050
+      name: tma1c-a2.7e
+      size: 8192
+      blob_id: 256753
+    - id: 819112
+      asset_id: 119050
+      name: tma1v-a.3f
+      size: 4096
+      blob_id: 256754
+    - id: 819113
+      asset_id: 119050
+      name: tma1v-a.3j
+      size: 4096
+      blob_id: 256755
+    - id: 819114
+      asset_id: 119050
+      name: tma1v-a.7m
+      size: 4096
+      blob_id: 256756
+    - id: 819115
+      asset_id: 119050
+      name: tma1v-a.7n
+      size: 4096
+      blob_id: 256757
+    - id: 819116
+      asset_id: 119050
+      name: tma1v-a.7p
+      size: 4096
+      blob_id: 256758
+    - id: 819117
+      asset_id: 119050
+      name: tma1v-a.7s
+      size: 4096
+      blob_id: 256759
+    - id: 819118
+      asset_id: 119050
+      name: tma1v-a.7t
+      size: 4096
+      blob_id: 256760
+    - id: 819119
+      asset_id: 119050
+      name: tma1v-a.7u
+      size: 4096
+      blob_id: 256761
+- release:
+    id: 88441
+    game_id: 293
+    description: ""
+    release_date: 19830000
+  names:
+  - id: 217281
+    kind: 3
+    kind_id: 88441
+    language: 1
+    name: Mario Bros. (Japan, older)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 103752
+      kind: 3
+      kind_id: 88441
+      type: 1
+      name: marioja.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 656364
+      asset_id: 103752
+      name: tma1-c-4p.4p
+      size: 512
+      blob_id: 2792
+    - id: 656365
+      asset_id: 103752
+      name: tma1-c-5b.5b
+      size: 32
+      blob_id: 2793
+    - id: 656366
+      asset_id: 103752
+      name: tma1-c-6k.6k
+      size: 4096
+      blob_id: 2794
+    - id: 656367
+      asset_id: 103752
+      name: tma1-c-7c.7c
+      size: 4096
+      blob_id: 256762
+    - id: 656368
+      asset_id: 103752
+      name: tma1-c-7d.7d
+      size: 8192
+      blob_id: 256763
+    - id: 656369
+      asset_id: 103752
+      name: tma1-c-7e.7e
+      size: 8192
+      blob_id: 256764
+    - id: 656370
+      asset_id: 103752
+      name: tma1-c-7f.7f
+      size: 8192
+      blob_id: 256765
+    - id: 656371
+      asset_id: 103752
+      name: tma1-v-3f_c.3f
+      size: 4096
+      blob_id: 256754
+    - id: 656372
+      asset_id: 103752
+      name: tma1-v-3j_c.3j
+      size: 4096
+      blob_id: 256755
+    - id: 656373
+      asset_id: 103752
+      name: tma1-v-7m_c.7m
+      size: 4096
+      blob_id: 256766
+    - id: 656374
+      asset_id: 103752
+      name: tma1-v-7n_c.7n
+      size: 4096
+      blob_id: 256757
+    - id: 656375
+      asset_id: 103752
+      name: tma1-v-7p_c.7p
+      size: 4096
+      blob_id: 256758
+    - id: 656376
+      asset_id: 103752
+      name: tma1-v-7s_c.7s
+      size: 4096
+      blob_id: 256767
+    - id: 656377
+      asset_id: 103752
+      name: tma1-v-7t_c.7t
+      size: 4096
+      blob_id: 256760
+    - id: 656378
+      asset_id: 103752
+      name: tma1-v-7u_c.7u
+      size: 4096
+      blob_id: 256768
+- release:
+    id: 88459
+    game_id: 293
+    description: ""
+    release_date: 19830000
+  names:
+  - id: 217308
+    kind: 3
+    kind_id: 88459
+    language: 1
+    name: Masao
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 103772
+      kind: 3
+      kind_id: 88459
+      type: 1
+      name: masao.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 656674
+      asset_id: 103772
+      name: masao-1.rom
+      size: 4096
+      blob_id: 256814
+    - id: 656675
+      asset_id: 103772
+      name: masao-10.rom
+      size: 4096
+      blob_id: 2803
+    - id: 656676
+      asset_id: 103772
+      name: masao-11.rom
+      size: 4096
+      blob_id: 256759
+    - id: 656677
+      asset_id: 103772
+      name: masao-12.rom
+      size: 4096
+      blob_id: 256760
+    - id: 656678
+      asset_id: 103772
+      name: masao-13.rom
+      size: 4096
+      blob_id: 256761
+    - id: 656679
+      asset_id: 103772
+      name: masao-2.rom
+      size: 8192
+      blob_id: 256815
+    - id: 656680
+      asset_id: 103772
+      name: masao-3.rom
+      size: 8192
+      blob_id: 256816
+    - id: 656681
+      asset_id: 103772
+      name: masao-4.rom
+      size: 8192
+      blob_id: 256817
+    - id: 656682
+      asset_id: 103772
+      name: masao-5.rom
+      size: 4096
+      blob_id: 256818
+    - id: 656683
+      asset_id: 103772
+      name: masao-6.rom
+      size: 4096
+      blob_id: 256819
+    - id: 656684
+      asset_id: 103772
+      name: masao-7.rom
+      size: 4096
+      blob_id: 256820
+    - id: 656685
+      asset_id: 103772
+      name: masao-8.rom
+      size: 4096
+      blob_id: 256756
+    - id: 656686
+      asset_id: 103772
+      name: masao-9.rom
+      size: 4096
+      blob_id: 256821
+    - id: 656687
+      asset_id: 103772
+      name: tma1-c-4p.4p
+      size: 512
+      blob_id: 235622
+  - asset:
+      id: 119062
+      kind: 3
+      kind_id: 88459
+      type: 1
+      name: masao.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 819329
+      asset_id: 119062
+      name: mario.7p
+      size: 4096
+      blob_id: 2803
+    - id: 819330
+      asset_id: 119062
+      name: masao-1.rom
+      size: 4096
+      blob_id: 256814
+    - id: 819331
+      asset_id: 119062
+      name: masao-2.rom
+      size: 8192
+      blob_id: 256815
+    - id: 819332
+      asset_id: 119062
+      name: masao-3.rom
+      size: 8192
+      blob_id: 256816
+    - id: 819333
+      asset_id: 119062
+      name: masao-4.rom
+      size: 8192
+      blob_id: 256817
+    - id: 819334
+      asset_id: 119062
+      name: masao-5.rom
+      size: 4096
+      blob_id: 256818
+    - id: 819335
+      asset_id: 119062
+      name: masao-6.rom
+      size: 4096
+      blob_id: 256819
+    - id: 819336
+      asset_id: 119062
+      name: masao-7.rom
+      size: 4096
+      blob_id: 256820
+    - id: 819337
+      asset_id: 119062
+      name: masao-9.rom
+      size: 4096
+      blob_id: 256821
+    - id: 819338
+      asset_id: 119062
+      name: tma1-c-4p.4p
+      size: 512
+      blob_id: 235622
+    - id: 819339
+      asset_id: 119062
+      name: tma1v-a.7m
+      size: 4096
+      blob_id: 256756
+    - id: 819340
+      asset_id: 119062
+      name: tma1v-a.7s
+      size: 4096
+      blob_id: 256759
+    - id: 819341
+      asset_id: 119062
+      name: tma1v-a.7t
+      size: 4096
+      blob_id: 256760
+    - id: 819342
+      asset_id: 119062
+      name: tma1v-a.7u
+      size: 4096
+      blob_id: 256761
+- release:
+    id: 91732
+    game_id: 293
+    description: ""
+    release_date: 19830000
+  names:
+  - id: 222234
+    kind: 3
+    kind_id: 91732
+    language: 1
+    name: Pest Place
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 107196
+      kind: 3
+      kind_id: 91732
+      type: 1
+      name: pestplce.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 692923
+      asset_id: 107196
+      name: n82s129a.bin
+      size: 256
+      blob_id: 265417
+    - id: 692924
+      asset_id: 107196
+      name: n82s129b.bin
+      size: 256
+      blob_id: 265418
+    - id: 692925
+      asset_id: 107196
+      name: pest.0
+      size: 4096
+      blob_id: 265419
+    - id: 692926
+      asset_id: 107196
+      name: pest.1p
+      size: 8192
+      blob_id: 265420
+    - id: 692927
+      asset_id: 107196
+      name: pest.2p
+      size: 8192
+      blob_id: 265421
+    - id: 692928
+      asset_id: 107196
+      name: pest.3p
+      size: 8192
+      blob_id: 265422
+    - id: 692929
+      asset_id: 107196
+      name: pest.4
+      size: 4096
+      blob_id: 1574
+    - id: 692930
+      asset_id: 107196
+      name: pest.a
+      size: 4096
+      blob_id: 265423
+    - id: 692931
+      asset_id: 107196
+      name: pest.b
+      size: 4096
+      blob_id: 265424
+    - id: 692932
+      asset_id: 107196
+      name: pest.c
+      size: 4096
+      blob_id: 265425
+    - id: 692933
+      asset_id: 107196
+      name: pest.d
+      size: 4096
+      blob_id: 265426
+    - id: 692934
+      asset_id: 107196
+      name: pest.k
+      size: 4096
+      blob_id: 265427
+    - id: 692935
+      asset_id: 107196
+      name: pest.o
+      size: 4096
+      blob_id: 265428
+    - id: 692936
+      asset_id: 107196
+      name: sn74s288n.bin
+      size: 32
+      blob_id: 243721
+- release:
+    id: 105079
+    game_id: 293
+    description: ""
+    release_date: 19830000
+  names:
+  - id: 240055
+    kind: 3
+    kind_id: 105079
+    language: 1
+    name: Mario Bros. (US, Revision E)
+    source: fbneo
+  release_publishers: []
+  assets:
+  - asset:
+      id: 119051
+      kind: 3
+      kind_id: 105079
+      type: 1
+      name: marioe.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 819120
+      asset_id: 119051
+      name: tma1-c-4p_1.4p
+      size: 512
+      blob_id: 2792
+    - id: 819121
+      asset_id: 119051
+      name: tma1-c-5p.5p
+      size: 32
+      blob_id: 2793
+    - id: 819122
+      asset_id: 119051
+      name: tma1-c-6k_e.6k
+      size: 4096
+      blob_id: 2794
+    - id: 819123
+      asset_id: 119051
+      name: tma1-c-7c_e-3.7c
+      size: 4096
+      blob_id: 235623
+    - id: 819124
+      asset_id: 119051
+      name: tma1-c-7d_e-1.7d
+      size: 8192
+      blob_id: 2796
+    - id: 819125
+      asset_id: 119051
+      name: tma1-c-7e_e-3.7e
+      size: 8192
+      blob_id: 235624
+    - id: 819126
+      asset_id: 119051
+      name: tma1-c-7f_e-1.7f
+      size: 8192
+      blob_id: 2798
+    - id: 819127
+      asset_id: 119051
+      name: tma1-v-3f.3f
+      size: 4096
+      blob_id: 2799
+    - id: 819128
+      asset_id: 119051
+      name: tma1-v-3j.3j
+      size: 4096
+      blob_id: 2800
+    - id: 819129
+      asset_id: 119051
+      name: tma1-v-7n.7n
+      size: 4096
+      blob_id: 2802
+    - id: 819130
+      asset_id: 119051
+      name: tma1-v-7p.7p
+      size: 4096
+      blob_id: 2803
+    - id: 819131
+      asset_id: 119051
+      name: tma1-v-7t.7t
+      size: 4096
+      blob_id: 2805
+    - id: 819132
+      asset_id: 119051
+      name: tma1-v.7m
+      size: 4096
+      blob_id: 235625
+    - id: 819133
+      asset_id: 119051
+      name: tma1-v.7s
+      size: 4096
+      blob_id: 235626
+    - id: 819134
+      asset_id: 119051
+      name: tma1-v.7u
+      size: 4096
+      blob_id: 235627

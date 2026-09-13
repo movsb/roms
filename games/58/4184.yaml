@@ -16,6 +16,24 @@ names:
   language: 2
   name: 铁拳1
   source: trimui
+- id: 200018
+  kind: 2
+  kind_id: 4184
+  language: 1
+  name: Tekken (Asia, TE4/VER.C)
+  source: mame
+- id: 200019
+  kind: 2
+  kind_id: 4184
+  language: 1
+  name: Tekken (World, TE2/VER.B)
+  source: mame
+- id: 200020
+  kind: 2
+  kind_id: 4184
+  language: 1
+  name: Tekken (Japan, TE1/VER.B)
+  source: mame
 game_developers: []
 game_genres: []
 assets: []
@@ -142,24 +160,10 @@ releases:
       name: tekkenjb/te1verb.2l
       size: 1048576
       blob_id: 44962
-- release:
-    id: 72868
-    game_id: 4184
-    description: ""
-    release_date: 19940000
-  names:
-  - id: 175689
-    kind: 3
-    kind_id: 72868
-    language: 1
-    name: Tekken (World, TE2/VER.C)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 85938
+      id: 115319
       kind: 3
-      kind_id: 72868
+      kind_id: 4184
       type: 1
       name: tekken.zip
       description: ""
@@ -168,63 +172,321 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 388749
-      asset_id: 85938
+    - id: 766446
+      asset_id: 115319
       name: te1rom0l.ic5
       size: 2097152
       blob_id: 44945
-    - id: 388750
-      asset_id: 85938
+    - id: 766447
+      asset_id: 115319
       name: te1rom0u.ic6
       size: 2097152
       blob_id: 44946
-    - id: 388751
-      asset_id: 85938
+    - id: 766448
+      asset_id: 115319
       name: te1rom1l.ic3
       size: 2097152
       blob_id: 44947
-    - id: 388752
-      asset_id: 85938
+    - id: 766449
+      asset_id: 115319
       name: te1rom1u.ic8
       size: 2097152
       blob_id: 44948
-    - id: 388753
-      asset_id: 85938
+    - id: 766450
+      asset_id: 115319
       name: te1rom2l.ic4
       size: 2097152
       blob_id: 44949
-    - id: 388754
-      asset_id: 85938
+    - id: 766451
+      asset_id: 115319
       name: te1rom2u.ic7
       size: 2097152
       blob_id: 44950
-    - id: 388755
-      asset_id: 85938
+    - id: 766452
+      asset_id: 115319
       name: te1sprog.6d
       size: 262144
       blob_id: 44951
-    - id: 388756
-      asset_id: 85938
+    - id: 766453
+      asset_id: 115319
       name: te1verb.2f
       size: 1048576
       blob_id: 44952
-    - id: 388757
-      asset_id: 85938
+    - id: 766454
+      asset_id: 115319
       name: te1verb.2k
       size: 1048576
       blob_id: 44953
-    - id: 388758
-      asset_id: 85938
+    - id: 766455
+      asset_id: 115319
       name: te1wave.8k
       size: 2097152
       blob_id: 44954
-    - id: 388759
-      asset_id: 85938
+    - id: 766456
+      asset_id: 115319
       name: te2verc.2j
       size: 1048576
       blob_id: 44955
-    - id: 388760
-      asset_id: 85938
+    - id: 766457
+      asset_id: 115319
       name: te2verc.2l
       size: 1048576
       blob_id: 44956
+- release:
+    id: 99484
+    game_id: 4184
+    description: ""
+    release_date: 19940000
+  names:
+  - id: 232588
+    kind: 3
+    kind_id: 99484
+    language: 1
+    name: Tekken (Asia, TE4/VER.C)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 115345
+      kind: 3
+      kind_id: 99484
+      type: 1
+      name: tekkenac.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 766720
+      asset_id: 115345
+      name: te1rom0l.ic5
+      size: 2097152
+      blob_id: 44945
+    - id: 766721
+      asset_id: 115345
+      name: te1rom0u.ic6
+      size: 2097152
+      blob_id: 44946
+    - id: 766722
+      asset_id: 115345
+      name: te1rom1l.ic3
+      size: 2097152
+      blob_id: 44947
+    - id: 766723
+      asset_id: 115345
+      name: te1rom1u.ic8
+      size: 2097152
+      blob_id: 44948
+    - id: 766724
+      asset_id: 115345
+      name: te1rom2l.ic4
+      size: 2097152
+      blob_id: 44949
+    - id: 766725
+      asset_id: 115345
+      name: te1rom2u.ic7
+      size: 2097152
+      blob_id: 44950
+    - id: 766726
+      asset_id: 115345
+      name: te1sprog.6d
+      size: 262144
+      blob_id: 44951
+    - id: 766727
+      asset_id: 115345
+      name: te1verb.2f
+      size: 1048576
+      blob_id: 44952
+    - id: 766728
+      asset_id: 115345
+      name: te1verb.2k
+      size: 1048576
+      blob_id: 44953
+    - id: 766729
+      asset_id: 115345
+      name: te1wave.8k
+      size: 2097152
+      blob_id: 44954
+    - id: 766730
+      asset_id: 115345
+      name: te4verc.2j
+      size: 1048576
+      blob_id: 44957
+    - id: 766731
+      asset_id: 115345
+      name: te4verc.2l
+      size: 1048576
+      blob_id: 44958
+- release:
+    id: 99485
+    game_id: 4184
+    description: ""
+    release_date: 19940000
+  names:
+  - id: 232589
+    kind: 3
+    kind_id: 99485
+    language: 1
+    name: Tekken (World, TE2/VER.B)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 115346
+      kind: 3
+      kind_id: 99485
+      type: 1
+      name: tekkenb.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 766732
+      asset_id: 115346
+      name: te1rom0l.ic5
+      size: 2097152
+      blob_id: 44945
+    - id: 766733
+      asset_id: 115346
+      name: te1rom0u.ic6
+      size: 2097152
+      blob_id: 44946
+    - id: 766734
+      asset_id: 115346
+      name: te1rom1l.ic3
+      size: 2097152
+      blob_id: 44947
+    - id: 766735
+      asset_id: 115346
+      name: te1rom1u.ic8
+      size: 2097152
+      blob_id: 44948
+    - id: 766736
+      asset_id: 115346
+      name: te1rom2l.ic4
+      size: 2097152
+      blob_id: 44949
+    - id: 766737
+      asset_id: 115346
+      name: te1rom2u.ic7
+      size: 2097152
+      blob_id: 44950
+    - id: 766738
+      asset_id: 115346
+      name: te1sprog.6d
+      size: 262144
+      blob_id: 44951
+    - id: 766739
+      asset_id: 115346
+      name: te1verb.2f
+      size: 1048576
+      blob_id: 44952
+    - id: 766740
+      asset_id: 115346
+      name: te1verb.2k
+      size: 1048576
+      blob_id: 44953
+    - id: 766741
+      asset_id: 115346
+      name: te1wave.8k
+      size: 2097152
+      blob_id: 44954
+    - id: 766742
+      asset_id: 115346
+      name: te2verb.2j
+      size: 1048576
+      blob_id: 44959
+    - id: 766743
+      asset_id: 115346
+      name: te2verb.2l
+      size: 1048576
+      blob_id: 44960
+- release:
+    id: 99488
+    game_id: 4184
+    description: ""
+    release_date: 19940000
+  names:
+  - id: 232594
+    kind: 3
+    kind_id: 99488
+    language: 1
+    name: Tekken (Japan, TE1/VER.B)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 115349
+      kind: 3
+      kind_id: 99488
+      type: 1
+      name: tekkenjb.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 766756
+      asset_id: 115349
+      name: te1rom0l.ic5
+      size: 2097152
+      blob_id: 44945
+    - id: 766757
+      asset_id: 115349
+      name: te1rom0u.ic6
+      size: 2097152
+      blob_id: 44946
+    - id: 766758
+      asset_id: 115349
+      name: te1rom1l.ic3
+      size: 2097152
+      blob_id: 44947
+    - id: 766759
+      asset_id: 115349
+      name: te1rom1u.ic8
+      size: 2097152
+      blob_id: 44948
+    - id: 766760
+      asset_id: 115349
+      name: te1rom2l.ic4
+      size: 2097152
+      blob_id: 44949
+    - id: 766761
+      asset_id: 115349
+      name: te1rom2u.ic7
+      size: 2097152
+      blob_id: 44950
+    - id: 766762
+      asset_id: 115349
+      name: te1sprog.6d
+      size: 262144
+      blob_id: 44951
+    - id: 766763
+      asset_id: 115349
+      name: te1verb.2f
+      size: 1048576
+      blob_id: 44952
+    - id: 766764
+      asset_id: 115349
+      name: te1verb.2j
+      size: 1048576
+      blob_id: 44961
+    - id: 766765
+      asset_id: 115349
+      name: te1verb.2k
+      size: 1048576
+      blob_id: 44953
+    - id: 766766
+      asset_id: 115349
+      name: te1verb.2l
+      size: 1048576
+      blob_id: 44962
+    - id: 766767
+      asset_id: 115349
+      name: te1wave.8k
+      size: 2097152
+      blob_id: 44954

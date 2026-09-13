@@ -10,6 +10,12 @@ names:
   language: 1
   name: pbobble
   source: ""
+- id: 188691
+  kind: 2
+  kind_id: 3058
+  language: 1
+  name: Bubble Buster (USA, B-System)
+  source: mame
 game_developers:
 - game_id: 3058
   developer_id: 409
@@ -118,6 +124,48 @@ releases:
       blob_id: 91126
       debug: arcade/wheel/pbobble.png
     entries: []
+  - asset:
+      id: 106391
+      kind: 3
+      kind_id: 3058
+      type: 1
+      name: pbobble.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 684293
+      asset_id: 106391
+      name: pb-ic14.ic14
+      size: 524288
+      blob_id: 32530
+    - id: 684294
+      asset_id: 106391
+      name: pb-ic15.ic15
+      size: 1048576
+      blob_id: 32531
+    - id: 684295
+      asset_id: 106391
+      name: pb-ic18.ic18
+      size: 262144
+      blob_id: 32529
+    - id: 684296
+      asset_id: 106391
+      name: pb-ic2.ic2
+      size: 262144
+      blob_id: 32532
+    - id: 684297
+      asset_id: 106391
+      name: pb-ic27.ic27
+      size: 131072
+      blob_id: 32533
+    - id: 684298
+      asset_id: 106391
+      name: pb-ic9.ic9
+      size: 524288
+      blob_id: 32534
 - release:
     id: 3064
     game_id: 3058
@@ -221,58 +269,68 @@ releases:
       size: 524288
       blob_id: 32534
 - release:
-    id: 60492
+    id: 103522
     game_id: 3058
     description: ""
     release_date: 19940000
   names:
-  - id: 151324
+  - id: 238498
     kind: 3
-    kind_id: 60492
+    kind_id: 103522
     language: 1
-    name: Puzzle Bobble (Japan, B-System)
+    name: Bubble Buster (USA, B-System)
     source: mame
   release_publishers: []
   assets:
   - asset:
-      id: 73562
+      id: 95420
       kind: 3
-      kind_id: 60492
+      kind_id: 103522
       type: 1
-      name: pbobble.zip
+      name: bublbust.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 290083
-      asset_id: 73562
-      name: pb-ic14.ic14
+    - id: 558731
+      asset_id: 95420
+      name: cr40-kaigai-7bec.ic15_ach_0
       size: 524288
-      blob_id: 32530
-    - id: 290084
-      asset_id: 73562
-      name: pb-ic15.ic15
-      size: 1048576
-      blob_id: 32531
-    - id: 290085
-      asset_id: 73562
-      name: pb-ic18.ic18
+      blob_id: 32580
+    - id: 558732
+      asset_id: 95420
+      name: p.bobble_chr-0h_6-14_d180.ic8_ch_0_0h
       size: 262144
-      blob_id: 32529
-    - id: 290086
-      asset_id: 73562
-      name: pb-ic2.ic2
+      blob_id: 32581
+    - id: 558733
+      asset_id: 95420
+      name: p.bobble_chr-0l_6-14_86d5.ic7_ch_0_0l
       size: 262144
-      blob_id: 32532
-    - id: 290087
-      asset_id: 73562
-      name: pb-ic27.ic27
+      blob_id: 32582
+    - id: 558734
+      asset_id: 95420
+      name: p.bobble_chr-1h_6-14_1515.ic12_ch_1_0h
+      size: 262144
+      blob_id: 32583
+    - id: 558735
+      asset_id: 95420
+      name: p.bobble_chr-1l_6-14_eaa0.ic11_ch_1_0l
+      size: 262144
+      blob_id: 32584
+    - id: 558736
+      asset_id: 95420
+      name: p.bobble_prg_h_kyotsu_6-15_c681.ic18
+      size: 262144
+      blob_id: 32585
+    - id: 558737
+      asset_id: 95420
+      name: p.bobble_prg_l_usa_6-15_e9e1.ic2
+      size: 262144
+      blob_id: 32586
+    - id: 558738
+      asset_id: 95420
+      name: prg_snd.ic27
       size: 131072
-      blob_id: 32533
-    - id: 290088
-      asset_id: 73562
-      name: pb-ic9.ic9
-      size: 524288
-      blob_id: 32534
+      blob_id: 32587

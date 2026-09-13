@@ -10,6 +10,12 @@ names:
   language: 1
   name: sonic
   source: ""
+- id: 199283
+  kind: 2
+  kind_id: 3847
+  language: 1
+  name: SegaSonic The Hedgehog (Japan, prototype)
+  source: mame
 game_developers:
 - game_id: 3847
   developer_id: 697
@@ -178,6 +184,108 @@ releases:
       blob_id: 89668
       debug: arcade/wheel/sonic.png
     entries: []
+  - asset:
+      id: 113951
+      kind: 3
+      kind_id: 3847
+      type: 1
+      name: sonic.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 750631
+      asset_id: 113951
+      name: epr-15780c.ic9
+      size: 262144
+      blob_id: 41295
+    - id: 750632
+      asset_id: 113951
+      name: epr-15781c.ic18
+      size: 262144
+      blob_id: 41296
+    - id: 750633
+      asset_id: 113951
+      name: epr-15785.ic36
+      size: 262144
+      blob_id: 41299
+    - id: 750634
+      asset_id: 113951
+      name: epr-15786c.ic8
+      size: 131072
+      blob_id: 41297
+    - id: 750635
+      asset_id: 113951
+      name: epr-15787c.ic17
+      size: 131072
+      blob_id: 41298
+    - id: 750636
+      asset_id: 113951
+      name: mpr-15782.ic33
+      size: 1048576
+      blob_id: 41300
+    - id: 750637
+      asset_id: 113951
+      name: mpr-15783.ic34
+      size: 1048576
+      blob_id: 41301
+    - id: 750638
+      asset_id: 113951
+      name: mpr-15784.ic35
+      size: 1048576
+      blob_id: 41302
+    - id: 750639
+      asset_id: 113951
+      name: mpr-15788.ic5
+      size: 1048576
+      blob_id: 41303
+    - id: 750640
+      asset_id: 113951
+      name: mpr-15789.ic14
+      size: 1048576
+      blob_id: 41304
+    - id: 750641
+      asset_id: 113951
+      name: mpr-15790.ic32
+      size: 2097152
+      blob_id: 41305
+    - id: 750642
+      asset_id: 113951
+      name: mpr-15791.ic31
+      size: 1048576
+      blob_id: 41306
+    - id: 750643
+      asset_id: 113951
+      name: mpr-15792.ic30
+      size: 2097152
+      blob_id: 41307
+    - id: 750644
+      asset_id: 113951
+      name: mpr-15793.ic29
+      size: 1048576
+      blob_id: 41308
+    - id: 750645
+      asset_id: 113951
+      name: mpr-15794.ic28
+      size: 2097152
+      blob_id: 41309
+    - id: 750646
+      asset_id: 113951
+      name: mpr-15795.ic27
+      size: 1048576
+      blob_id: 41310
+    - id: 750647
+      asset_id: 113951
+      name: mpr-15796.ic26
+      size: 2097152
+      blob_id: 41311
+    - id: 750648
+      asset_id: 113951
+      name: mpr-15797.ic25
+      size: 1048576
+      blob_id: 41312
 - release:
     id: 3848
     game_id: 3847
@@ -396,118 +504,128 @@ releases:
       size: 1048576
       blob_id: 41331
 - release:
-    id: 70825
+    id: 98226
     game_id: 3847
     description: ""
     release_date: 19920000
   names:
-  - id: 171725
+  - id: 230775
     kind: 3
-    kind_id: 70825
+    kind_id: 98226
     language: 1
-    name: SegaSonic The Hedgehog (Japan, rev. C)
+    name: SegaSonic The Hedgehog (Japan, prototype)
     source: mame
   release_publishers: []
   assets:
   - asset:
-      id: 83895
+      id: 113957
       kind: 3
-      kind_id: 70825
+      kind_id: 98226
       type: 1
-      name: sonic.zip
+      name: sonicp.zip
       description: ""
       format: 2
       size: 0
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 370590
-      asset_id: 83895
-      name: epr-15780c.ic9
+    - id: 750683
+      asset_id: 113957
+      name: sonobj0.bin
+      size: 1048576
+      blob_id: 41313
+    - id: 750684
+      asset_id: 113957
+      name: sonobj1.bin
+      size: 1048576
+      blob_id: 41314
+    - id: 750685
+      asset_id: 113957
+      name: sonobj2.bin
+      size: 1048576
+      blob_id: 41315
+    - id: 750686
+      asset_id: 113957
+      name: sonobj3.bin
+      size: 1048576
+      blob_id: 41316
+    - id: 750687
+      asset_id: 113957
+      name: sonobj4.bin
+      size: 1048576
+      blob_id: 41317
+    - id: 750688
+      asset_id: 113957
+      name: sonobj5.bin
+      size: 1048576
+      blob_id: 41318
+    - id: 750689
+      asset_id: 113957
+      name: sonobj6.bin
+      size: 1048576
+      blob_id: 41319
+    - id: 750690
+      asset_id: 113957
+      name: sonobj7.bin
+      size: 1048576
+      blob_id: 41320
+    - id: 750691
+      asset_id: 113957
+      name: sonpd0.bin
       size: 262144
-      blob_id: 41295
-    - id: 370591
-      asset_id: 83895
-      name: epr-15781c.ic18
+      blob_id: 41321
+    - id: 750692
+      asset_id: 113957
+      name: sonpd1.bin
       size: 262144
-      blob_id: 41296
-    - id: 370592
-      asset_id: 83895
-      name: epr-15785.ic36
-      size: 262144
-      blob_id: 41299
-    - id: 370593
-      asset_id: 83895
-      name: epr-15786c.ic8
+      blob_id: 41322
+    - id: 750693
+      asset_id: 113957
+      name: sonpg0.bin
       size: 131072
-      blob_id: 41297
-    - id: 370594
-      asset_id: 83895
-      name: epr-15787c.ic17
+      blob_id: 41323
+    - id: 750694
+      asset_id: 113957
+      name: sonpg1.bin
       size: 131072
-      blob_id: 41298
-    - id: 370595
-      asset_id: 83895
-      name: mpr-15782.ic33
+      blob_id: 41324
+    - id: 750695
+      asset_id: 113957
+      name: sonscl0.bin
+      size: 524288
+      blob_id: 41325
+    - id: 750696
+      asset_id: 113957
+      name: sonscl1.bin
+      size: 524288
+      blob_id: 41326
+    - id: 750697
+      asset_id: 113957
+      name: sonscl2.bin
+      size: 524288
+      blob_id: 41327
+    - id: 750698
+      asset_id: 113957
+      name: sonscl3.bin
+      size: 524288
+      blob_id: 41328
+    - id: 750699
+      asset_id: 113957
+      name: sonsnd0.bin
+      size: 262144
+      blob_id: 41329
+    - id: 750700
+      asset_id: 113957
+      name: sonsnd1.bin
+      size: 1048576
+      blob_id: 41330
+    - id: 750701
+      asset_id: 113957
+      name: sonsnd2.bin
+      size: 1048576
+      blob_id: 41331
+    - id: 750702
+      asset_id: 113957
+      name: sonsnd3.bin
       size: 1048576
       blob_id: 41300
-    - id: 370596
-      asset_id: 83895
-      name: mpr-15783.ic34
-      size: 1048576
-      blob_id: 41301
-    - id: 370597
-      asset_id: 83895
-      name: mpr-15784.ic35
-      size: 1048576
-      blob_id: 41302
-    - id: 370598
-      asset_id: 83895
-      name: mpr-15788.ic5
-      size: 1048576
-      blob_id: 41303
-    - id: 370599
-      asset_id: 83895
-      name: mpr-15789.ic14
-      size: 1048576
-      blob_id: 41304
-    - id: 370600
-      asset_id: 83895
-      name: mpr-15790.ic32
-      size: 2097152
-      blob_id: 41305
-    - id: 370601
-      asset_id: 83895
-      name: mpr-15791.ic31
-      size: 1048576
-      blob_id: 41306
-    - id: 370602
-      asset_id: 83895
-      name: mpr-15792.ic30
-      size: 2097152
-      blob_id: 41307
-    - id: 370603
-      asset_id: 83895
-      name: mpr-15793.ic29
-      size: 1048576
-      blob_id: 41308
-    - id: 370604
-      asset_id: 83895
-      name: mpr-15794.ic28
-      size: 2097152
-      blob_id: 41309
-    - id: 370605
-      asset_id: 83895
-      name: mpr-15795.ic27
-      size: 1048576
-      blob_id: 41310
-    - id: 370606
-      asset_id: 83895
-      name: mpr-15796.ic26
-      size: 2097152
-      blob_id: 41311
-    - id: 370607
-      asset_id: 83895
-      name: mpr-15797.ic25
-      size: 1048576
-      blob_id: 41312

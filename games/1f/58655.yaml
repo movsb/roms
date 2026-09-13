@@ -10,48 +10,66 @@ names:
   language: 1
   name: Nintendo 64 (NTSC)
   source: mame
+- id: 186698
+  kind: 2
+  kind_id: 58655
+  language: 1
+  name: aleck64
+  source: ""
+- id: 193738
+  kind: 2
+  kind_id: 58655
+  language: 1
+  name: Nintendo 64DD
+  source: mame
+- id: 193739
+  kind: 2
+  kind_id: 58655
+  language: 1
+  name: Nintendo 64 (PAL)
+  source: mame
 game_developers: []
 game_genres: []
 assets: []
 releases:
 - release:
-    id: 59450
+    id: 77543
     game_id: 58655
     description: ""
-    release_date: 19960000
+    release_date: 0
   names:
-  - id: 149309
+  - id: 185128
     kind: 3
-    kind_id: 59450
+    kind_id: 77543
     language: 1
-    name: Nintendo 64 (NTSC)
-    source: mame
+    name: aleck64
+    source: ""
   release_publishers: []
   assets:
   - asset:
-      id: 72520
+      id: 90738
       kind: 3
-      kind_id: 59450
+      kind_id: 77543
       type: 1
-      name: n64.zip
+      name: aleck64.zip
       description: ""
       format: 2
-      size: 0
+      size: 1826
       blob_id: 0
-      debug: dat:mame:0.289
+      debug: aleck64.zip
     entries:
-    - id: 277720
-      asset_id: 72520
+    - id: 468909
+      asset_id: 90738
       name: normpnt.rom
       size: 128
       blob_id: 5693
-    - id: 277721
-      asset_id: 72520
+    - id: 468910
+      asset_id: 90738
       name: normslp.rom
       size: 128
       blob_id: 5694
-    - id: 277722
-      asset_id: 72520
-      name: pifntsc.bin
+    - id: 468911
+      asset_id: 90738
+      name: pifdata.bin
       size: 2048
       blob_id: 5695

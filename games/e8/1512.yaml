@@ -10,6 +10,36 @@ names:
   language: 1
   name: edf
   source: ""
+- id: 190111
+  kind: 2
+  kind_id: 1512
+  language: 1
+  name: "E.D.F.: Earth Defense Force (set 2)"
+  source: mame
+- id: 190112
+  kind: 2
+  kind_id: 1512
+  language: 1
+  name: "E.D.F.: Earth Defense Force (set 3)"
+  source: mame
+- id: 190113
+  kind: 2
+  kind_id: 1512
+  language: 1
+  name: "E.D.F.: Earth Defense Force (bootleg)"
+  source: mame
+- id: 190114
+  kind: 2
+  kind_id: 1512
+  language: 1
+  name: "E.D.F.: Earth Defense Force (Japan, prototype)"
+  source: mame
+- id: 190115
+  kind: 2
+  kind_id: 1512
+  language: 1
+  name: "E.D.F.: Earth Defense Force (North America)"
+  source: mame
 game_developers: []
 game_genres:
 - game_id: 1512
@@ -38,73 +68,6 @@ releases:
   - release_id: 1512
     publisher_id: 71
   assets:
-  - asset:
-      id: 1512
-      kind: 3
-      kind_id: 1512
-      type: 1
-      name: edf.zip
-      description: ""
-      format: 2
-      size: 1166516
-      blob_id: 0
-      debug: edf.zip
-    entries:
-    - id: 23516
-      asset_id: 1512
-      name: edf1.f5
-      size: 131072
-      blob_id: 16473
-    - id: 23517
-      asset_id: 1512
-      name: edf2.f3
-      size: 131072
-      blob_id: 16474
-    - id: 23518
-      asset_id: 1512
-      name: edf5.b5
-      size: 262144
-      blob_id: 16475
-    - id: 23519
-      asset_id: 1512
-      name: edf_06.rom
-      size: 262144
-      blob_id: 16476
-    - id: 23520
-      asset_id: 1512
-      name: edf_09.rom
-      size: 131072
-      blob_id: 16477
-    - id: 23521
-      asset_id: 1512
-      name: edf_m01.rom
-      size: 262144
-      blob_id: 16478
-    - id: 23522
-      asset_id: 1512
-      name: edf_m02.rom
-      size: 262144
-      blob_id: 16479
-    - id: 23523
-      asset_id: 1512
-      name: edf_m03.rom
-      size: 524288
-      blob_id: 16480
-    - id: 23524
-      asset_id: 1512
-      name: edf_m04.rom
-      size: 524288
-      blob_id: 16481
-    - id: 23525
-      asset_id: 1512
-      name: edf_m05.rom
-      size: 524288
-      blob_id: 16482
-    - id: 23526
-      asset_id: 1512
-      name: rd.20n
-      size: 512
-      blob_id: 16483
   - asset:
       id: 44235
       kind: 3
@@ -420,10 +383,91 @@ releases:
     language: 1
     name: "E.D.F.: Earth Defense Force (set 1)"
     source: mame
-  release_publishers: []
+  - id: 184022
+    kind: 3
+    kind_id: 42011
+    language: 1
+    name: edf
+    source: ""
+  - id: 184023
+    kind: 3
+    kind_id: 42011
+    language: 2
+    name: "E.D.F.: 地球防卫军 (第一套)"
+    source: trimui
+  release_publishers:
+  - release_id: 42011
+    publisher_id: 71
   assets:
   - asset:
-      id: 55081
+      id: 1512
+      kind: 3
+      kind_id: 42011
+      type: 1
+      name: edf.zip
+      description: ""
+      format: 2
+      size: 1166516
+      blob_id: 0
+      debug: edf.zip
+    entries:
+    - id: 23516
+      asset_id: 1512
+      name: edf1.f5
+      size: 131072
+      blob_id: 16473
+    - id: 23517
+      asset_id: 1512
+      name: edf2.f3
+      size: 131072
+      blob_id: 16474
+    - id: 23518
+      asset_id: 1512
+      name: edf5.b5
+      size: 262144
+      blob_id: 16475
+    - id: 23519
+      asset_id: 1512
+      name: edf_06.rom
+      size: 262144
+      blob_id: 16476
+    - id: 23520
+      asset_id: 1512
+      name: edf_09.rom
+      size: 131072
+      blob_id: 16477
+    - id: 23521
+      asset_id: 1512
+      name: edf_m01.rom
+      size: 262144
+      blob_id: 16478
+    - id: 23522
+      asset_id: 1512
+      name: edf_m02.rom
+      size: 262144
+      blob_id: 16479
+    - id: 23523
+      asset_id: 1512
+      name: edf_m03.rom
+      size: 524288
+      blob_id: 16480
+    - id: 23524
+      asset_id: 1512
+      name: edf_m04.rom
+      size: 524288
+      blob_id: 16481
+    - id: 23525
+      asset_id: 1512
+      name: edf_m05.rom
+      size: 524288
+      blob_id: 16482
+    - id: 23526
+      asset_id: 1512
+      name: rd.20n
+      size: 512
+      blob_id: 16483
+  - asset:
+      id: 98197
       kind: 3
       kind_id: 42011
       type: 1
@@ -434,63 +478,692 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 159424
-      asset_id: 55081
+    - id: 595034
+      asset_id: 98197
       name: edf.mcu
       size: 16384
-      blob_id: 111923
-    - id: 159425
-      asset_id: 55081
+      blob_id: 214342
+    - id: 595035
+      asset_id: 98197
       name: edf1.f5
       size: 131072
       blob_id: 16473
-    - id: 159426
-      asset_id: 55081
+    - id: 595036
+      asset_id: 98197
       name: edf2.f3
       size: 131072
       blob_id: 16474
-    - id: 159427
-      asset_id: 55081
+    - id: 595037
+      asset_id: 98197
       name: edf5.b5
       size: 262144
       blob_id: 16475
-    - id: 159428
-      asset_id: 55081
+    - id: 595038
+      asset_id: 98197
       name: edf_06.rom
       size: 262144
       blob_id: 16476
-    - id: 159429
-      asset_id: 55081
+    - id: 595039
+      asset_id: 98197
       name: edf_09.rom
       size: 131072
       blob_id: 16477
-    - id: 159430
-      asset_id: 55081
+    - id: 595040
+      asset_id: 98197
       name: edf_m01.rom
       size: 262144
       blob_id: 16478
-    - id: 159431
-      asset_id: 55081
+    - id: 595041
+      asset_id: 98197
       name: edf_m02.rom
       size: 262144
       blob_id: 16479
-    - id: 159432
-      asset_id: 55081
+    - id: 595042
+      asset_id: 98197
       name: edf_m03.rom
       size: 524288
       blob_id: 16480
-    - id: 159433
-      asset_id: 55081
+    - id: 595043
+      asset_id: 98197
       name: edf_m04.rom
       size: 524288
       blob_id: 16481
-    - id: 159434
-      asset_id: 55081
+    - id: 595044
+      asset_id: 98197
       name: edf_m05.rom
       size: 524288
       blob_id: 16482
-    - id: 159435
-      asset_id: 55081
+    - id: 595045
+      asset_id: 98197
+      name: rd.20n
+      size: 512
+      blob_id: 16483
+- release:
+    id: 83291
+    game_id: 1512
+    description: ""
+    release_date: 19910000
+  names:
+  - id: 209363
+    kind: 3
+    kind_id: 83291
+    language: 1
+    name: "E.D.F.: Earth Defense Force (set 2)"
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 98198
+      kind: 3
+      kind_id: 83291
+      type: 1
+      name: edfa.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 595046
+      asset_id: 98198
+      name: 5.b5
+      size: 262144
+      blob_id: 16484
+    - id: 595047
+      asset_id: 98198
+      name: 6.b3
+      size: 262144
+      blob_id: 16485
+    - id: 595048
+      asset_id: 98198
+      name: edf.mcu
+      size: 16384
+      blob_id: 214342
+    - id: 595049
+      asset_id: 98198
+      name: edf1.f5
+      size: 131072
+      blob_id: 16473
+    - id: 595050
+      asset_id: 98198
+      name: edf2.f3
+      size: 131072
+      blob_id: 16474
+    - id: 595051
+      asset_id: 98198
+      name: edf_09.rom
+      size: 131072
+      blob_id: 16477
+    - id: 595052
+      asset_id: 98198
+      name: edf_m01.rom
+      size: 262144
+      blob_id: 16478
+    - id: 595053
+      asset_id: 98198
+      name: edf_m02.rom
+      size: 262144
+      blob_id: 16479
+    - id: 595054
+      asset_id: 98198
+      name: edf_m03.rom
+      size: 524288
+      blob_id: 16480
+    - id: 595055
+      asset_id: 98198
+      name: edf_m04.rom
+      size: 524288
+      blob_id: 16481
+    - id: 595056
+      asset_id: 98198
+      name: edf_m05.rom
+      size: 524288
+      blob_id: 16482
+    - id: 595057
+      asset_id: 98198
+      name: rd.20n
+      size: 512
+      blob_id: 16483
+  - asset:
+      id: 118744
+      kind: 3
+      kind_id: 83291
+      type: 1
+      name: edfa.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 811351
+      asset_id: 118744
+      name: 5.b5
+      size: 262144
+      blob_id: 16484
+    - id: 811352
+      asset_id: 118744
+      name: 6.b3
+      size: 262144
+      blob_id: 16485
+    - id: 811353
+      asset_id: 118744
+      name: edf1.f5
+      size: 131072
+      blob_id: 16473
+    - id: 811354
+      asset_id: 118744
+      name: edf2.f3
+      size: 131072
+      blob_id: 16474
+    - id: 811355
+      asset_id: 118744
+      name: edf_09.rom
+      size: 131072
+      blob_id: 16477
+    - id: 811356
+      asset_id: 118744
+      name: edf_m01.rom
+      size: 262144
+      blob_id: 16478
+    - id: 811357
+      asset_id: 118744
+      name: edf_m02.rom
+      size: 262144
+      blob_id: 16479
+    - id: 811358
+      asset_id: 118744
+      name: edf_m03.rom
+      size: 524288
+      blob_id: 16480
+    - id: 811359
+      asset_id: 118744
+      name: edf_m04.rom
+      size: 524288
+      blob_id: 16481
+    - id: 811360
+      asset_id: 118744
+      name: edf_m05.rom
+      size: 524288
+      blob_id: 16482
+    - id: 811361
+      asset_id: 118744
+      name: rd.20n
+      size: 512
+      blob_id: 16483
+- release:
+    id: 83292
+    game_id: 1512
+    description: ""
+    release_date: 19910000
+  names:
+  - id: 209364
+    kind: 3
+    kind_id: 83292
+    language: 1
+    name: "E.D.F.: Earth Defense Force (set 3)"
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 98199
+      kind: 3
+      kind_id: 83292
+      type: 1
+      name: edfb.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 595058
+      asset_id: 98199
+      name: edf.mcu
+      size: 16384
+      blob_id: 214342
+    - id: 595059
+      asset_id: 98199
+      name: edf1.f5
+      size: 131072
+      blob_id: 16473
+    - id: 595060
+      asset_id: 98199
+      name: edf2.f3
+      size: 131072
+      blob_id: 16474
+    - id: 595061
+      asset_id: 98199
+      name: edf_09.rom
+      size: 131072
+      blob_id: 16477
+    - id: 595062
+      asset_id: 98199
+      name: edf_5_ver1.b5
+      size: 262144
+      blob_id: 244565
+    - id: 595063
+      asset_id: 98199
+      name: edf_6_ver1.b3
+      size: 262144
+      blob_id: 244566
+    - id: 595064
+      asset_id: 98199
+      name: edf_m01.rom
+      size: 262144
+      blob_id: 16478
+    - id: 595065
+      asset_id: 98199
+      name: edf_m02.rom
+      size: 262144
+      blob_id: 16479
+    - id: 595066
+      asset_id: 98199
+      name: edf_m03.rom
+      size: 524288
+      blob_id: 16480
+    - id: 595067
+      asset_id: 98199
+      name: edf_m04.rom
+      size: 524288
+      blob_id: 16481
+    - id: 595068
+      asset_id: 98199
+      name: edf_m05.rom
+      size: 524288
+      blob_id: 16482
+    - id: 595069
+      asset_id: 98199
+      name: rd.20n
+      size: 512
+      blob_id: 16483
+- release:
+    id: 83293
+    game_id: 1512
+    description: ""
+    release_date: 19910000
+  names:
+  - id: 209365
+    kind: 3
+    kind_id: 83293
+    language: 1
+    name: "E.D.F.: Earth Defense Force (bootleg)"
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 98200
+      kind: 3
+      kind_id: 83293
+      type: 1
+      name: edfbl.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 595070
+      asset_id: 98200
+      name: 01.bin
+      size: 262144
+      blob_id: 16486
+    - id: 595071
+      asset_id: 98200
+      name: 02.bin
+      size: 262144
+      blob_id: 16487
+    - id: 595072
+      asset_id: 98200
+      name: 03.bin
+      size: 262144
+      blob_id: 16488
+    - id: 595073
+      asset_id: 98200
+      name: 04.bin
+      size: 262144
+      blob_id: 16489
+    - id: 595074
+      asset_id: 98200
+      name: 05.bin
+      size: 131072
+      blob_id: 16477
+    - id: 595075
+      asset_id: 98200
+      name: 06.bin
+      size: 262144
+      blob_id: 16490
+    - id: 595076
+      asset_id: 98200
+      name: 07.bin
+      size: 262144
+      blob_id: 16491
+    - id: 595077
+      asset_id: 98200
+      name: 08.bin
+      size: 262144
+      blob_id: 16492
+    - id: 595078
+      asset_id: 98200
+      name: 09.bin
+      size: 262144
+      blob_id: 16493
+    - id: 595079
+      asset_id: 98200
+      name: 10.bin
+      size: 262144
+      blob_id: 16494
+    - id: 595080
+      asset_id: 98200
+      name: 11.bin
+      size: 262144
+      blob_id: 16495
+    - id: 595081
+      asset_id: 98200
+      name: 12.bin
+      size: 65536
+      blob_id: 16496
+    - id: 595082
+      asset_id: 98200
+      name: rd.20n
+      size: 512
+      blob_id: 16483
+- release:
+    id: 83294
+    game_id: 1512
+    description: ""
+    release_date: 19910000
+  names:
+  - id: 209366
+    kind: 3
+    kind_id: 83294
+    language: 1
+    name: "E.D.F.: Earth Defense Force (Japan, prototype)"
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 98201
+      kind: 3
+      kind_id: 83294
+      type: 1
+      name: edfp.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 595083
+      asset_id: 98201
+      name: 1.rom1.27c010
+      size: 131072
+      blob_id: 16497
+    - id: 595084
+      asset_id: 98201
+      name: 10.rom10.27c010
+      size: 131072
+      blob_id: 16498
+    - id: 595085
+      asset_id: 98201
+      name: 11.rom11.27c010
+      size: 131072
+      blob_id: 16499
+    - id: 595086
+      asset_id: 98201
+      name: 12.rom12.27c010
+      size: 131072
+      blob_id: 16500
+    - id: 595087
+      asset_id: 98201
+      name: 13.rom13.27c010
+      size: 131072
+      blob_id: 16501
+    - id: 595088
+      asset_id: 98201
+      name: 14.rom14.27c010
+      size: 131072
+      blob_id: 16502
+    - id: 595089
+      asset_id: 98201
+      name: 15.rom15.27c010
+      size: 131072
+      blob_id: 16503
+    - id: 595090
+      asset_id: 98201
+      name: 16.rom16.27c010
+      size: 131072
+      blob_id: 16504
+    - id: 595091
+      asset_id: 98201
+      name: 17.rom17.27c010
+      size: 131072
+      blob_id: 16505
+    - id: 595092
+      asset_id: 98201
+      name: 18.rom18.27c010
+      size: 131072
+      blob_id: 16506
+    - id: 595093
+      asset_id: 98201
+      name: 19.rom19.27c010
+      size: 131072
+      blob_id: 16477
+    - id: 595094
+      asset_id: 98201
+      name: 2.rom2.27c010
+      size: 131072
+      blob_id: 16507
+    - id: 595095
+      asset_id: 98201
+      name: 20.rom20.27c010
+      size: 131072
+      blob_id: 16508
+    - id: 595096
+      asset_id: 98201
+      name: 21.rom21.27c010
+      size: 131072
+      blob_id: 16509
+    - id: 595097
+      asset_id: 98201
+      name: 22.rom22.27c010
+      size: 131072
+      blob_id: 16510
+    - id: 595098
+      asset_id: 98201
+      name: 23.rom23.27c010
+      size: 131072
+      blob_id: 16511
+    - id: 595099
+      asset_id: 98201
+      name: 3.rom3.27512
+      size: 65536
+      blob_id: 16512
+    - id: 595100
+      asset_id: 98201
+      name: 4.rom4.27512
+      size: 65536
+      blob_id: 16513
+    - id: 595101
+      asset_id: 98201
+      name: 5.rom5.27512
+      size: 65536
+      blob_id: 16514
+    - id: 595102
+      asset_id: 98201
+      name: 6.rom6.27512
+      size: 65536
+      blob_id: 16515
+    - id: 595103
+      asset_id: 98201
+      name: 7.rom7.27c010
+      size: 131072
+      blob_id: 16516
+    - id: 595104
+      asset_id: 98201
+      name: 8.rom8.27c010
+      size: 131072
+      blob_id: 16517
+    - id: 595105
+      asset_id: 98201
+      name: 9.rom9.27c010
+      size: 131072
+      blob_id: 16518
+    - id: 595106
+      asset_id: 98201
+      name: rd.14m
+      size: 512
+      blob_id: 16483
+- release:
+    id: 83295
+    game_id: 1512
+    description: ""
+    release_date: 19910000
+  names:
+  - id: 209367
+    kind: 3
+    kind_id: 83295
+    language: 1
+    name: "E.D.F.: Earth Defense Force (North America)"
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 98202
+      kind: 3
+      kind_id: 83295
+      type: 1
+      name: edfu.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 595107
+      asset_id: 98202
+      name: edf.mcu
+      size: 16384
+      blob_id: 214342
+    - id: 595108
+      asset_id: 98202
+      name: edf1.f5
+      size: 131072
+      blob_id: 16473
+    - id: 595109
+      asset_id: 98202
+      name: edf2.f3
+      size: 131072
+      blob_id: 16474
+    - id: 595110
+      asset_id: 98202
+      name: edf5.b5
+      size: 262144
+      blob_id: 16475
+    - id: 595111
+      asset_id: 98202
+      name: edf6.b3
+      size: 262144
+      blob_id: 16519
+    - id: 595112
+      asset_id: 98202
+      name: edf_09.rom
+      size: 131072
+      blob_id: 16477
+    - id: 595113
+      asset_id: 98202
+      name: edf_m01.rom
+      size: 262144
+      blob_id: 16478
+    - id: 595114
+      asset_id: 98202
+      name: edf_m02.rom
+      size: 262144
+      blob_id: 16479
+    - id: 595115
+      asset_id: 98202
+      name: edf_m03.rom
+      size: 524288
+      blob_id: 16480
+    - id: 595116
+      asset_id: 98202
+      name: edf_m04.rom
+      size: 524288
+      blob_id: 16481
+    - id: 595117
+      asset_id: 98202
+      name: edf_m05.rom
+      size: 524288
+      blob_id: 16482
+    - id: 595118
+      asset_id: 98202
+      name: rd.20n
+      size: 512
+      blob_id: 16483
+  - asset:
+      id: 118743
+      kind: 3
+      kind_id: 83295
+      type: 1
+      name: edfu.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 811340
+      asset_id: 118743
+      name: edf1.f5
+      size: 131072
+      blob_id: 16473
+    - id: 811341
+      asset_id: 118743
+      name: edf2.f3
+      size: 131072
+      blob_id: 16474
+    - id: 811342
+      asset_id: 118743
+      name: edf5.b5
+      size: 262144
+      blob_id: 16475
+    - id: 811343
+      asset_id: 118743
+      name: edf6.b3
+      size: 262144
+      blob_id: 16519
+    - id: 811344
+      asset_id: 118743
+      name: edf_09.rom
+      size: 131072
+      blob_id: 16477
+    - id: 811345
+      asset_id: 118743
+      name: edf_m01.rom
+      size: 262144
+      blob_id: 16478
+    - id: 811346
+      asset_id: 118743
+      name: edf_m02.rom
+      size: 262144
+      blob_id: 16479
+    - id: 811347
+      asset_id: 118743
+      name: edf_m03.rom
+      size: 524288
+      blob_id: 16480
+    - id: 811348
+      asset_id: 118743
+      name: edf_m04.rom
+      size: 524288
+      blob_id: 16481
+    - id: 811349
+      asset_id: 118743
+      name: edf_m05.rom
+      size: 524288
+      blob_id: 16482
+    - id: 811350
+      asset_id: 118743
       name: rd.20n
       size: 512
       blob_id: 16483

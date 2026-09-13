@@ -16,6 +16,12 @@ names:
   language: 2
   name: 盗尸者之神 (亚版, OB2/版本.A)
   source: trimui
+- id: 194003
+  kind: 2
+  kind_id: 1792
+  language: 1
+  name: Oh! Bakyuuun (Japan, OB1/VER.A)
+  source: mame
 game_developers:
 - game_id: 1792
   developer_id: 688
@@ -124,24 +130,10 @@ releases:
       blob_id: 89423
       debug: arcade/wheel/ghlpanic.png
     entries: []
-- release:
-    id: 44714
-    game_id: 1792
-    description: ""
-    release_date: 19990000
-  names:
-  - id: 120166
-    kind: 3
-    kind_id: 44714
-    language: 1
-    name: Ghoul Panic (World, OB2/VER.A)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 57784
+      id: 99969
       kind: 3
-      kind_id: 44714
+      kind_id: 1792
       type: 1
       name: ghlpanic.zip
       description: ""
@@ -150,33 +142,89 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 182807
-      asset_id: 57784
+    - id: 614512
+      asset_id: 99969
       name: ob1rom0l.ic12
       size: 4194304
       blob_id: 19860
-    - id: 182808
-      asset_id: 57784
+    - id: 614513
+      asset_id: 99969
       name: ob1rom0u.ic11
       size: 4194304
       blob_id: 19861
-    - id: 182809
-      asset_id: 57784
+    - id: 614514
+      asset_id: 99969
       name: ob1vera.11s
       size: 524288
       blob_id: 19863
-    - id: 182810
-      asset_id: 57784
+    - id: 614515
+      asset_id: 99969
       name: ob1wave.ic2
       size: 8388608
       blob_id: 19862
-    - id: 182811
-      asset_id: 57784
+    - id: 614516
+      asset_id: 99969
       name: ob2vera.2e
       size: 2097152
       blob_id: 19864
-    - id: 182812
-      asset_id: 57784
+    - id: 614517
+      asset_id: 99969
       name: ob2vera.2j
       size: 2097152
       blob_id: 19865
+- release:
+    id: 90521
+    game_id: 1792
+    description: ""
+    release_date: 19990000
+  names:
+  - id: 220516
+    kind: 3
+    kind_id: 90521
+    language: 1
+    name: Oh! Bakyuuun (Japan, OB1/VER.A)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 105938
+      kind: 3
+      kind_id: 90521
+      type: 1
+      name: ohbakyuun.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 678556
+      asset_id: 105938
+      name: ob1rom0l.ic12
+      size: 4194304
+      blob_id: 19860
+    - id: 678557
+      asset_id: 105938
+      name: ob1rom0u.ic11
+      size: 4194304
+      blob_id: 19861
+    - id: 678558
+      asset_id: 105938
+      name: ob1vera.11s
+      size: 524288
+      blob_id: 19863
+    - id: 678559
+      asset_id: 105938
+      name: ob1vera.2l
+      size: 2097152
+      blob_id: 261773
+    - id: 678560
+      asset_id: 105938
+      name: ob1vera.2p
+      size: 2097152
+      blob_id: 261774
+    - id: 678561
+      asset_id: 105938
+      name: ob1wave.ic2
+      size: 8388608
+      blob_id: 19862

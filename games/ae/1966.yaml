@@ -16,6 +16,18 @@ names:
   language: 2
   name: 帽子方块 (美版)
   source: trimui
+- id: 191589
+  kind: 2
+  kind_id: 1966
+  language: 1
+  name: Hatris (Japan)
+  source: mame
+- id: 191590
+  kind: 2
+  kind_id: 1966
+  language: 1
+  name: Hatris (show version)
+  source: mame
 game_developers:
 - game_id: 1966
   developer_id: 418
@@ -129,24 +141,10 @@ releases:
       blob_id: 91266
       debug: arcade/wheel/hatris.png
     entries: []
-- release:
-    id: 45688
-    game_id: 1966
-    description: ""
-    release_date: 19900000
-  names:
-  - id: 122048
-    kind: 3
-    kind_id: 45688
-    language: 1
-    name: Hatris (US)
-    source: mame
-  release_publishers: []
-  assets:
   - asset:
-      id: 58758
+      id: 100837
       kind: 3
-      kind_id: 45688
+      kind_id: 1966
       type: 1
       name: hatris.zip
       description: ""
@@ -155,59 +153,45 @@ releases:
       blob_id: 0
       debug: dat:mame:0.289
     entries:
-    - id: 194413
-      asset_id: 58758
+    - id: 625455
+      asset_id: 100837
       name: 1.ic81
       size: 32768
       blob_id: 21890
-    - id: 194414
-      asset_id: 58758
+    - id: 625456
+      asset_id: 100837
       name: 2.ic79
       size: 32768
-      blob_id: 122947
-    - id: 194415
-      asset_id: 58758
+      blob_id: 221089
+    - id: 625457
+      asset_id: 100837
       name: a0.ic55
       size: 131072
       blob_id: 21892
-    - id: 194416
-      asset_id: 58758
+    - id: 625458
+      asset_id: 100837
       name: a1.ic60
       size: 131072
       blob_id: 21893
-    - id: 194417
-      asset_id: 58758
+    - id: 625459
+      asset_id: 100837
       name: b0.ic56
       size: 131072
       blob_id: 21894
-    - id: 194418
-      asset_id: 58758
+    - id: 625460
+      asset_id: 100837
       name: b1.ic73
       size: 32768
       blob_id: 21895
-    - id: 194419
-      asset_id: 58758
+    - id: 625461
+      asset_id: 100837
       name: pc.ic53
       size: 131072
       blob_id: 21896
-- release:
-    id: 76635
-    game_id: 1966
-    description: ""
-    release_date: 19900000
-  names:
-  - id: 182777
-    kind: 3
-    kind_id: 76635
-    language: 1
-    name: Hatris (US)
-    source: fbneo
-  release_publishers: []
-  assets:
   - asset:
-      id: 89705
+      id: 118886
       kind: 3
-      kind_id: 76635
+      kind_id: 1966
       type: 1
       name: hatris.zip
       description: ""
@@ -216,43 +200,269 @@ releases:
       blob_id: 0
       debug: dat:fbneo:5fa9b68a
     entries:
-    - id: 437899
-      asset_id: 89705
+    - id: 814911
+      asset_id: 118886
       name: 1.ic81
       size: 32768
       blob_id: 21890
-    - id: 437900
-      asset_id: 89705
+    - id: 814912
+      asset_id: 118886
       name: 2.ic79
       size: 32768
-      blob_id: 122947
-    - id: 437901
-      asset_id: 89705
+      blob_id: 221089
+    - id: 814913
+      asset_id: 118886
       name: a0.ic55
       size: 131072
       blob_id: 21892
-    - id: 437902
-      asset_id: 89705
+    - id: 814914
+      asset_id: 118886
       name: a1.ic60
       size: 131072
       blob_id: 21893
-    - id: 437903
-      asset_id: 89705
+    - id: 814915
+      asset_id: 118886
       name: b0.ic56
       size: 131072
       blob_id: 21894
-    - id: 437904
-      asset_id: 89705
+    - id: 814916
+      asset_id: 118886
       name: b1.ic73
       size: 32768
       blob_id: 21895
-    - id: 437905
-      asset_id: 89705
+    - id: 814917
+      asset_id: 118886
       name: pc.ic53
       size: 131072
       blob_id: 21896
-    - id: 437906
-      asset_id: 89705
+    - id: 814918
+      asset_id: 118886
+      name: ym2608_adpcm_rom.bin
+      size: 8192
+      blob_id: 50804
+- release:
+    id: 85736
+    game_id: 1966
+    description: ""
+    release_date: 19900000
+  names:
+  - id: 213015
+    kind: 3
+    kind_id: 85736
+    language: 1
+    name: Hatris (Japan)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 100838
+      kind: 3
+      kind_id: 85736
+      type: 1
+      name: hatrisj.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 625462
+      asset_id: 100838
+      name: 1.ic81
+      size: 32768
+      blob_id: 21890
+    - id: 625463
+      asset_id: 100838
+      name: 2-ic79.bin
+      size: 32768
+      blob_id: 21891
+    - id: 625464
+      asset_id: 100838
+      name: a0.ic55
+      size: 131072
+      blob_id: 21892
+    - id: 625465
+      asset_id: 100838
+      name: a1.ic60
+      size: 131072
+      blob_id: 21893
+    - id: 625466
+      asset_id: 100838
+      name: b0.ic56
+      size: 131072
+      blob_id: 21894
+    - id: 625467
+      asset_id: 100838
+      name: b1.ic73
+      size: 32768
+      blob_id: 21895
+    - id: 625468
+      asset_id: 100838
+      name: pc.ic53
+      size: 131072
+      blob_id: 21896
+  - asset:
+      id: 118884
+      kind: 3
+      kind_id: 85736
+      type: 1
+      name: hatrisj.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 814895
+      asset_id: 118884
+      name: 1.ic81
+      size: 32768
+      blob_id: 21890
+    - id: 814896
+      asset_id: 118884
+      name: 2-ic79.bin
+      size: 32768
+      blob_id: 21891
+    - id: 814897
+      asset_id: 118884
+      name: a0.ic55
+      size: 131072
+      blob_id: 21892
+    - id: 814898
+      asset_id: 118884
+      name: a1.ic60
+      size: 131072
+      blob_id: 21893
+    - id: 814899
+      asset_id: 118884
+      name: b0.ic56
+      size: 131072
+      blob_id: 21894
+    - id: 814900
+      asset_id: 118884
+      name: b1.ic73
+      size: 32768
+      blob_id: 21895
+    - id: 814901
+      asset_id: 118884
+      name: pc.ic53
+      size: 131072
+      blob_id: 21896
+    - id: 814902
+      asset_id: 118884
+      name: ym2608_adpcm_rom.bin
+      size: 8192
+      blob_id: 50804
+- release:
+    id: 85737
+    game_id: 1966
+    description: ""
+    release_date: 19900000
+  names:
+  - id: 213016
+    kind: 3
+    kind_id: 85737
+    language: 1
+    name: Hatris (show version)
+    source: mame
+  release_publishers: []
+  assets:
+  - asset:
+      id: 100839
+      kind: 3
+      kind_id: 85737
+      type: 1
+      name: hatrisp.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:mame:0.289
+    entries:
+    - id: 625469
+      asset_id: 100839
+      name: 3-6.ic94
+      size: 32768
+      blob_id: 248704
+    - id: 625470
+      asset_id: 100839
+      name: 3-6show.ic8
+      size: 32768
+      blob_id: 248705
+    - id: 625471
+      asset_id: 100839
+      name: a0.ic51+
+      size: 131072
+      blob_id: 21892
+    - id: 625472
+      asset_id: 100839
+      name: a1.ic51
+      size: 131072
+      blob_id: 21893
+    - id: 625473
+      asset_id: 100839
+      name: b0.ic76+
+      size: 131072
+      blob_id: 248706
+    - id: 625474
+      asset_id: 100839
+      name: b1.ic76
+      size: 131072
+      blob_id: 248707
+    - id: 625475
+      asset_id: 100839
+      name: pc.ic107
+      size: 131072
+      blob_id: 21896
+  - asset:
+      id: 118885
+      kind: 3
+      kind_id: 85737
+      type: 1
+      name: hatrisp.zip
+      description: ""
+      format: 2
+      size: 0
+      blob_id: 0
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 814903
+      asset_id: 118885
+      name: 3-6.ic94
+      size: 32768
+      blob_id: 248704
+    - id: 814904
+      asset_id: 118885
+      name: 3-6show.ic8
+      size: 32768
+      blob_id: 248705
+    - id: 814905
+      asset_id: 118885
+      name: a0.ic51+
+      size: 131072
+      blob_id: 21892
+    - id: 814906
+      asset_id: 118885
+      name: a1.ic51
+      size: 131072
+      blob_id: 21893
+    - id: 814907
+      asset_id: 118885
+      name: b0.ic76+
+      size: 131072
+      blob_id: 248706
+    - id: 814908
+      asset_id: 118885
+      name: b1.ic76
+      size: 131072
+      blob_id: 248707
+    - id: 814909
+      asset_id: 118885
+      name: pc.ic107
+      size: 131072
+      blob_id: 21896
+    - id: 814910
+      asset_id: 118885
       name: ym2608_adpcm_rom.bin
       size: 8192
       blob_id: 50804
