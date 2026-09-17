@@ -4,6 +4,18 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 66457
+  kind: 2
+  kind_id: 11957
+  language: 2
+  name: 欢乐屋 (美版) (益智)-Fun House (USA)
+  source: ""
+- id: 66458
+  kind: 2
+  kind_id: 11957
+  language: 1
+  name: Fun House (U) [!]
+  source: ""
 - id: 91926
   kind: 2
   kind_id: 11957
@@ -26,6 +38,18 @@ releases:
     language: 1
     name: Fun House (U) [!]
     source: ""
+  - id: 26212
+    kind: 3
+    kind_id: 11957
+    language: 1
+    name: Fun House (U)
+    source: ""
+  - id: 66459
+    kind: 3
+    kind_id: 11957
+    language: 2
+    name: 欢乐屋 (美版) (益智)-Fun House (USA)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -38,7 +62,10 @@ releases:
       format: 2
       size: 76136
       blob_id: 0
-      debug: Fun House (U) [!].zip
+      debug: |-
+        Fun House (U) [!].zip
+        Fun House (U).zip
+        欢乐屋 (美版) (益智)-Fun House (USA) + Fun House (U) [!].nes
     entries:
     - id: 82740
       asset_id: 11939
@@ -71,34 +98,3 @@ releases:
       blob_id: 57888
       debug: Fun House (U) [o1].nes
     entries: []
-- release:
-    id: 11959
-    game_id: 11957
-    description: ""
-    release_date: 0
-  names:
-  - id: 26212
-    kind: 3
-    kind_id: 11959
-    language: 1
-    name: Fun House (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 11941
-      kind: 3
-      kind_id: 11959
-      type: 1
-      name: Fun House (U).zip
-      description: ""
-      format: 2
-      size: 76143
-      blob_id: 0
-      debug: Fun House (U).zip
-    entries:
-    - id: 82741
-      asset_id: 11941
-      name: Fun House (U).nes
-      size: 131088
-      blob_id: 57887

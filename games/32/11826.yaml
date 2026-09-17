@@ -4,6 +4,24 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 71481
+  kind: 2
+  kind_id: 11826
+  language: 2
+  name: 飞行勇士
+  source: ""
+- id: 71511
+  kind: 2
+  kind_id: 11826
+  language: 2
+  name: 飞龙战士 (美版) (动作角色扮演)-Flying Warriors (USA)
+  source: ""
+- id: 71512
+  kind: 2
+  kind_id: 11826
+  language: 1
+  name: Flying Warriors (U) [!]
+  source: ""
 - id: 91907
   kind: 2
   kind_id: 11826
@@ -26,6 +44,24 @@ releases:
     language: 1
     name: Flying Warriors (U) [!]
     source: ""
+  - id: 25926
+    kind: 3
+    kind_id: 11826
+    language: 1
+    name: Flying Warriors (U)
+    source: ""
+  - id: 71482
+    kind: 3
+    kind_id: 11826
+    language: 2
+    name: 飞行勇士
+    source: ""
+  - id: 71513
+    kind: 3
+    kind_id: 11826
+    language: 2
+    name: 飞龙战士 (美版) (动作角色扮演)-Flying Warriors (USA)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -38,7 +74,11 @@ releases:
       format: 2
       size: 168618
       blob_id: 0
-      debug: Flying Warriors (U) [!].zip
+      debug: |-
+        Flying Warriors (U) [!].zip
+        Flying Warriors (U).zip
+        飞行勇士.zip
+        飞龙战士 (美版) (动作角色扮演)-Flying Warriors (USA) + Flying Warriors (U) [!].nes
     entries:
     - id: 82722
       asset_id: 11808
@@ -97,34 +137,3 @@ releases:
       blob_id: 57767
       debug: Flying Warriors (U) [o1].nes
     entries: []
-- release:
-    id: 11829
-    game_id: 11826
-    description: ""
-    release_date: 0
-  names:
-  - id: 25926
-    kind: 3
-    kind_id: 11829
-    language: 1
-    name: Flying Warriors (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 11811
-      kind: 3
-      kind_id: 11829
-      type: 1
-      name: Flying Warriors (U).zip
-      description: ""
-      format: 2
-      size: 168958
-      blob_id: 0
-      debug: Flying Warriors (U).zip
-    entries:
-    - id: 82723
-      asset_id: 11811
-      name: Flying Warriors (U).nes
-      size: 262160
-      blob_id: 57765

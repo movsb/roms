@@ -2,8 +2,26 @@ game:
   id: 15760
   platform_id: 2
   description: ""
-  series_id: 0
+  series_id: 3
 names:
+- id: 70359
+  kind: 2
+  kind_id: 15760
+  language: 2
+  name: 超级马里奥水管工
+  source: ""
+- id: 79614
+  kind: 2
+  kind_id: 15760
+  language: 2
+  name: 马里奥兄弟[Madcell汉化]
+  source: ""
+- id: 79615
+  kind: 2
+  kind_id: 15760
+  language: 1
+  name: Mario Bros. (W) [T+Chi20060804_madcell]
+  source: ""
 - id: 92405
   kind: 2
   kind_id: 15760
@@ -104,6 +122,12 @@ releases:
     language: 1
     name: Mario Bros. (U) [!]
     source: ""
+  - id: 35006
+    kind: 3
+    kind_id: 15763
+    language: 1
+    name: Mario Bros. (W) [!]
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -116,39 +140,15 @@ releases:
       format: 2
       size: 16502
       blob_id: 0
-      debug: Mario Bros. (U) [!].zip
+      debug: |-
+        Mario Bros. (U) [!].zip
+        Mario Bros. (W) [!].nes
     entries:
     - id: 83271
       asset_id: 15745
       name: Mario Bros. (U) [!].nes
       size: 24592
       blob_id: 61440
-- release:
-    id: 15764
-    game_id: 15760
-    description: ""
-    release_date: 0
-  names:
-  - id: 35006
-    kind: 3
-    kind_id: 15764
-    language: 1
-    name: Mario Bros. (W) [!]
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 15746
-      kind: 3
-      kind_id: 15764
-      type: 1
-      name: Mario Bros. (W) [!].nes
-      description: ""
-      format: 1
-      size: 24592
-      blob_id: 61440
-      debug: Mario Bros. (W) [!].nes
-    entries: []
 - release:
     id: 15765
     game_id: 15760
@@ -603,6 +603,12 @@ releases:
     language: 1
     name: Mario Bros. (W) [t2]
     source: ""
+  - id: 95256
+    kind: 3
+    kind_id: 15782
+    language: 2
+    name: 超级马里奥水管工
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -615,5 +621,52 @@ releases:
       format: 1
       size: 40976
       blob_id: 61458
-      debug: Mario Bros. (W) [t2].nes
+      debug: |-
+        Mario Bros. (W) [t2].nes
+        超级马里奥水管工_2.zip
     entries: []
+- release:
+    id: 29863
+    game_id: 15760
+    description: ""
+    release_date: 0
+  names:
+  - id: 70360
+    kind: 3
+    kind_id: 29863
+    language: 2
+    name: 超级马里奥水管工
+    source: ""
+  - id: 85306
+    kind: 3
+    kind_id: 29863
+    language: 2
+    name: 马里奥兄弟[Madcell汉化]
+    source: ""
+  - id: 85307
+    kind: 3
+    kind_id: 29863
+    language: 1
+    name: Mario Bros. (W) [T+Chi20060804_madcell]
+    source: ""
+  release_publishers: []
+  assets:
+  - asset:
+      id: 29845
+      kind: 3
+      kind_id: 29863
+      type: 1
+      name: 超级马里奥水管工.zip
+      description: ""
+      format: 2
+      size: 17859
+      blob_id: 0
+      debug: |-
+        超级马里奥水管工.zip
+        马里奥兄弟[Madcell汉化] + Mario Bros. (W) [T+Chi20060804_madcell].nes
+    entries:
+    - id: 85193
+      asset_id: 29845
+      name: 超级马里奥水管工.nes
+      size: 49168
+      blob_id: 73843

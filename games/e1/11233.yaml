@@ -208,6 +208,18 @@ releases:
     language: 1
     name: Fantasy Zone (Tengen) [!]
     source: ""
+  - id: 24436
+    kind: 3
+    kind_id: 11240
+    language: 1
+    name: Fantasy Zone (U)
+    source: ""
+  - id: 24438
+    kind: 3
+    kind_id: 11240
+    language: 1
+    name: Fantasy Zone (Unl) [!]
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -220,7 +232,10 @@ releases:
       format: 1
       size: 131088
       blob_id: 57208
-      debug: Fantasy Zone (Tengen) [!].nes
+      debug: |-
+        Fantasy Zone (Tengen) [!].nes
+        Fantasy Zone (U).zip
+        Fantasy Zone (Unl) [!].zip
     entries: []
 - release:
     id: 11241
@@ -248,65 +263,3 @@ releases:
       blob_id: 57209
       debug: Fantasy Zone (Tengen) [o1].nes
     entries: []
-- release:
-    id: 11242
-    game_id: 11233
-    description: ""
-    release_date: 0
-  names:
-  - id: 24436
-    kind: 3
-    kind_id: 11242
-    language: 1
-    name: Fantasy Zone (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 11224
-      kind: 3
-      kind_id: 11242
-      type: 1
-      name: Fantasy Zone (U).zip
-      description: ""
-      format: 2
-      size: 66168
-      blob_id: 0
-      debug: Fantasy Zone (U).zip
-    entries:
-    - id: 82665
-      asset_id: 11224
-      name: Fantasy Zone (U).nes
-      size: 131088
-      blob_id: 57208
-- release:
-    id: 11243
-    game_id: 11233
-    description: ""
-    release_date: 0
-  names:
-  - id: 24438
-    kind: 3
-    kind_id: 11243
-    language: 1
-    name: Fantasy Zone (Unl) [!]
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 11225
-      kind: 3
-      kind_id: 11243
-      type: 1
-      name: Fantasy Zone (Unl) [!].zip
-      description: ""
-      format: 2
-      size: 65966
-      blob_id: 0
-      debug: Fantasy Zone (Unl) [!].zip
-    entries:
-    - id: 82666
-      asset_id: 11225
-      name: Fantasy Zone (Unl) [!].nes
-      size: 131088
-      blob_id: 57208

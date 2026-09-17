@@ -4,6 +4,12 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 60515
+  kind: 2
+  kind_id: 7036
+  language: 2
+  name: 仿生突击队
+  source: ""
 - id: 91383
   kind: 2
   kind_id: 7036
@@ -78,6 +84,18 @@ releases:
     language: 1
     name: Bionic Commando (U) [!]
     source: ""
+  - id: 14750
+    kind: 3
+    kind_id: 7038
+    language: 1
+    name: Bionic Commando (U)
+    source: ""
+  - id: 60516
+    kind: 3
+    kind_id: 7038
+    language: 2
+    name: 仿生突击队
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -90,7 +108,11 @@ releases:
       format: 2
       size: 149933
       blob_id: 0
-      debug: Bionic Commando (U) [!].zip
+      debug: |-
+        Bionic Commando (U) [!].zip
+        Bionic Commando (U).zip
+        仿生突击队.nes
+        重复的/希特勒的复活 (美版) 动作)-Bionic Commando (USA) + Bionic Commando (U) [!].nes
     entries:
     - id: 82196
       asset_id: 7020
@@ -383,34 +405,3 @@ releases:
       blob_id: 53243
       debug: Bionic Commando (U) [o4].nes
     entries: []
-- release:
-    id: 7050
-    game_id: 7036
-    description: ""
-    release_date: 0
-  names:
-  - id: 14750
-    kind: 3
-    kind_id: 7050
-    language: 1
-    name: Bionic Commando (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 7032
-      kind: 3
-      kind_id: 7050
-      type: 1
-      name: Bionic Commando (U).zip
-      description: ""
-      format: 2
-      size: 150270
-      blob_id: 0
-      debug: Bionic Commando (U).zip
-    entries:
-    - id: 82197
-      asset_id: 7032
-      name: Bionic Commando (U).nes
-      size: 262160
-      blob_id: 53232

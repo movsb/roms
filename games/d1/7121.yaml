@@ -4,6 +4,18 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 69999
+  kind: 2
+  kind_id: 7121
+  language: 2
+  name: 超惑星战记 (美版) (动作射击)-Blaster Master (USA)
+  source: ""
+- id: 70000
+  kind: 2
+  kind_id: 7121
+  language: 1
+  name: Blaster Master (U) [!]
+  source: ""
 - id: 91396
   kind: 2
   kind_id: 7121
@@ -156,6 +168,18 @@ releases:
     language: 1
     name: Blaster Master (U) [!]
     source: ""
+  - id: 14952
+    kind: 3
+    kind_id: 7126
+    language: 1
+    name: Blaster Master (U)
+    source: ""
+  - id: 70001
+    kind: 3
+    kind_id: 7126
+    language: 2
+    name: 超惑星战记 (美版) (动作射击)-Blaster Master (USA)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -168,7 +192,10 @@ releases:
       format: 2
       size: 158466
       blob_id: 0
-      debug: Blaster Master (U) [!].zip
+      debug: |-
+        Blaster Master (U) [!].zip
+        Blaster Master (U).zip
+        超惑星战记 (美版) (动作射击)-Blaster Master (USA) + Blaster Master (U) [!].nes
     entries:
     - id: 82206
       asset_id: 7108
@@ -643,34 +670,3 @@ releases:
       blob_id: 53333
       debug: Blaster Master (U) [o3].nes
     entries: []
-- release:
-    id: 7145
-    game_id: 7121
-    description: ""
-    release_date: 0
-  names:
-  - id: 14952
-    kind: 3
-    kind_id: 7145
-    language: 1
-    name: Blaster Master (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 7127
-      kind: 3
-      kind_id: 7145
-      type: 1
-      name: Blaster Master (U).zip
-      description: ""
-      format: 2
-      size: 158801
-      blob_id: 0
-      debug: Blaster Master (U).zip
-    entries:
-    - id: 82207
-      asset_id: 7127
-      name: Blaster Master (U).nes
-      size: 262160
-      blob_id: 53315

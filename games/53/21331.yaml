@@ -78,6 +78,18 @@ releases:
     language: 1
     name: Sky Kid (U) [!p]
     source: ""
+  - id: 47524
+    kind: 3
+    kind_id: 21333
+    language: 1
+    name: Sky Kid (U) [b6]
+    source: ""
+  - id: 47528
+    kind: 3
+    kind_id: 21333
+    language: 1
+    name: Sky Kid (U)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -90,7 +102,10 @@ releases:
       format: 2
       size: 31884
       blob_id: 0
-      debug: Sky Kid (U) [!p].zip
+      debug: |-
+        Sky Kid (U) [!p].zip
+        Sky Kid (U) [b6].nes
+        Sky Kid (U).zip
     entries:
     - id: 83854
       asset_id: 21315
@@ -228,32 +243,6 @@ releases:
       debug: Sky Kid (U) [b5].nes
     entries: []
 - release:
-    id: 21339
-    game_id: 21331
-    description: ""
-    release_date: 0
-  names:
-  - id: 47524
-    kind: 3
-    kind_id: 21339
-    language: 1
-    name: Sky Kid (U) [b6]
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 21321
-      kind: 3
-      kind_id: 21339
-      type: 1
-      name: Sky Kid (U) [b6].nes
-      description: ""
-      format: 1
-      size: 98320
-      blob_id: 66722
-      debug: Sky Kid (U) [b6].nes
-    entries: []
-- release:
     id: 21340
     game_id: 21331
     description: ""
@@ -279,34 +268,3 @@ releases:
       blob_id: 66728
       debug: Sky Kid (U) [b6][o1].nes
     entries: []
-- release:
-    id: 21341
-    game_id: 21331
-    description: ""
-    release_date: 0
-  names:
-  - id: 47528
-    kind: 3
-    kind_id: 21341
-    language: 1
-    name: Sky Kid (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 21323
-      kind: 3
-      kind_id: 21341
-      type: 1
-      name: Sky Kid (U).zip
-      description: ""
-      format: 2
-      size: 32045
-      blob_id: 0
-      debug: Sky Kid (U).zip
-    entries:
-    - id: 83855
-      asset_id: 21323
-      name: Sky Kid (U).nes
-      size: 98320
-      blob_id: 66722

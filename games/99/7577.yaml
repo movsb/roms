@@ -4,6 +4,30 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 15961
+  kind: 2
+  kind_id: 7577
+  language: 1
+  name: BuraiFighter
+  source: ""
+- id: 65543
+  kind: 2
+  kind_id: 7577
+  language: 2
+  name: 无赖战士 (美版) (射击)-Burai Fighter (USA)
+  source: ""
+- id: 65544
+  kind: 2
+  kind_id: 7577
+  language: 1
+  name: Burai Fighter (U) [!]
+  source: ""
+- id: 65551
+  kind: 2
+  kind_id: 7577
+  language: 2
+  name: 无赖战士
+  source: ""
 - id: 91452
   kind: 2
   kind_id: 7577
@@ -26,6 +50,12 @@ releases:
     language: 1
     name: Burai Fighter (J) [t3]
     source: ""
+  - id: 65552
+    kind: 3
+    kind_id: 7577
+    language: 2
+    name: 无赖战士
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -38,7 +68,9 @@ releases:
       format: 1
       size: 65552
       blob_id: 53744
-      debug: Burai Fighter (J) [t3].nes
+      debug: |-
+        Burai Fighter (J) [t3].nes
+        无赖战士.zip
     entries: []
 - release:
     id: 7578
@@ -52,6 +84,24 @@ releases:
     language: 1
     name: Burai Fighter (U) [!]
     source: ""
+  - id: 15960
+    kind: 3
+    kind_id: 7578
+    language: 1
+    name: Burai Fighter (U)
+    source: ""
+  - id: 15962
+    kind: 3
+    kind_id: 7578
+    language: 1
+    name: BuraiFighter
+    source: ""
+  - id: 65545
+    kind: 3
+    kind_id: 7578
+    language: 2
+    name: 无赖战士 (美版) (射击)-Burai Fighter (USA)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -64,7 +114,11 @@ releases:
       format: 2
       size: 44579
       blob_id: 0
-      debug: Burai Fighter (U) [!].zip
+      debug: |-
+        Burai Fighter (U) [!].zip
+        Burai Fighter (U).zip
+        BuraiFighter.zip
+        无赖战士 (美版) (射击)-Burai Fighter (USA) + Burai Fighter (U) [!].nes
     entries:
     - id: 82261
       asset_id: 7560
@@ -175,34 +229,3 @@ releases:
       blob_id: 53749
       debug: Burai Fighter (U) [t2].nes
     entries: []
-- release:
-    id: 7583
-    game_id: 7577
-    description: ""
-    release_date: 0
-  names:
-  - id: 15960
-    kind: 3
-    kind_id: 7583
-    language: 1
-    name: Burai Fighter (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 7565
-      kind: 3
-      kind_id: 7583
-      type: 1
-      name: Burai Fighter (U).zip
-      description: ""
-      format: 2
-      size: 44624
-      blob_id: 0
-      debug: Burai Fighter (U).zip
-    entries:
-    - id: 82262
-      asset_id: 7565
-      name: Burai Fighter (U).nes
-      size: 65552
-      blob_id: 53745

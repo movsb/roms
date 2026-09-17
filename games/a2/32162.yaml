@@ -18,7 +18,7 @@ releases:
     id: 32162
     game_id: 32162
     description: ""
-    release_date: 0
+    release_date: 20040607
   names:
   - id: 75793
     kind: 3
@@ -26,7 +26,15 @@ releases:
     language: 1
     name: Sonic Advance 3 (U)(Venom)
     source: ""
-  release_publishers: []
+  - id: 75795
+    kind: 3
+    kind_id: 32162
+    language: 1
+    name: Sonic Advance 3 (USA) (En,Ja,Fr,De,Es,It)
+    source: ""
+  release_publishers:
+  - release_id: 32162
+    publisher_id: 56
   assets:
   - asset:
       id: 32124
@@ -38,7 +46,9 @@ releases:
       format: 2
       size: 4457982
       blob_id: 0
-      debug: Sonic Advance 3 (U)(Venom).zip
+      debug: |-
+        Sonic Advance 3 (U)(Venom).zip
+        Sonic Advance 3 (USA) (En,Ja,Fr,De,Es,It).zip
     entries:
     - id: 87012
       asset_id: 32124
@@ -50,34 +60,11 @@ releases:
     game_id: 32162
     description: ""
     release_date: 20040607
-  names:
-  - id: 75795
-    kind: 3
-    kind_id: 32163
-    language: 1
-    name: Sonic Advance 3 (USA) (En,Ja,Fr,De,Es,It)
-    source: ""
+  names: []
   release_publishers:
   - release_id: 32163
     publisher_id: 56
   assets:
-  - asset:
-      id: 32125
-      kind: 3
-      kind_id: 32163
-      type: 1
-      name: Sonic Advance 3 (USA) (En,Ja,Fr,De,Es,It).zip
-      description: ""
-      format: 2
-      size: 4385844
-      blob_id: 0
-      debug: Sonic Advance 3 (USA) (En,Ja,Fr,De,Es,It).zip
-    entries:
-    - id: 87013
-      asset_id: 32125
-      name: Sonic Advance 3 (USA) (En,Ja,Fr,De,Es,It).gba
-      size: 16777216
-      blob_id: 75848
   - asset:
       id: 34815
       kind: 3

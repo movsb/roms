@@ -18,7 +18,7 @@ releases:
     id: 32328
     game_id: 32328
     description: ""
-    release_date: 0
+    release_date: 20030318
   names:
   - id: 76137
     kind: 3
@@ -26,7 +26,15 @@ releases:
     language: 1
     name: Ultimate Brain Games (US)(Eurasia)
     source: ""
-  release_publishers: []
+  - id: 76139
+    kind: 3
+    kind_id: 32328
+    language: 1
+    name: Ultimate Brain Games (USA, Europe)
+    source: ""
+  release_publishers:
+  - release_id: 32328
+    publisher_id: 26
   assets:
   - asset:
       id: 32290
@@ -38,7 +46,9 @@ releases:
       format: 2
       size: 2030132
       blob_id: 0
-      debug: Ultimate Brain Games (US)(Eurasia).zip
+      debug: |-
+        Ultimate Brain Games (US)(Eurasia).zip
+        Ultimate Brain Games (USA, Europe).zip
     entries:
     - id: 87178
       asset_id: 32290
@@ -50,34 +60,11 @@ releases:
     game_id: 32328
     description: ""
     release_date: 20030318
-  names:
-  - id: 76139
-    kind: 3
-    kind_id: 32329
-    language: 1
-    name: Ultimate Brain Games (USA, Europe)
-    source: ""
+  names: []
   release_publishers:
   - release_id: 32329
     publisher_id: 26
   assets:
-  - asset:
-      id: 32291
-      kind: 3
-      kind_id: 32329
-      type: 1
-      name: Ultimate Brain Games (USA, Europe).zip
-      description: ""
-      format: 2
-      size: 2022691
-      blob_id: 0
-      debug: Ultimate Brain Games (USA, Europe).zip
-    entries:
-    - id: 87179
-      asset_id: 32291
-      name: Ultimate Brain Games (USA, Europe).gba
-      size: 4194304
-      blob_id: 76004
   - asset:
       id: 34784
       kind: 3

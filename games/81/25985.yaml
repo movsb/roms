@@ -4,6 +4,18 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 61097
+  kind: 2
+  kind_id: 25985
+  language: 2
+  name: 冬季运动会 (美版)(Rev A) (运动)-Winter Games (USA) (Rev A)
+  source: ""
+- id: 61098
+  kind: 2
+  kind_id: 25985
+  language: 1
+  name: Winter Games (U) (PRG1) [!]
+  source: ""
 - id: 93563
   kind: 2
   kind_id: 25985
@@ -26,6 +38,24 @@ releases:
     language: 1
     name: Winter Games (U) (PRG0) [!]
     source: ""
+  - id: 58096
+    kind: 3
+    kind_id: 25985
+    language: 1
+    name: Winter Games (U)
+    source: ""
+  - id: 61099
+    kind: 3
+    kind_id: 25985
+    language: 2
+    name: 冬季运动会 (美版)(Rev A) (运动)-Winter Games (USA) (Rev A)
+    source: ""
+  - id: 61100
+    kind: 3
+    kind_id: 25985
+    language: 1
+    name: Winter Games (U) (PRG1) [!]
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -38,7 +68,10 @@ releases:
       format: 2
       size: 42713
       blob_id: 0
-      debug: Winter Games (U) (PRG0) [!].zip
+      debug: |-
+        Winter Games (U) (PRG0) [!].zip
+        Winter Games (U).zip
+        冬季运动会 (美版)(Rev A) (运动)-Winter Games (USA) (Rev A) + Winter Games (U) (PRG1) [!].nes
     entries:
     - id: 84349
       asset_id: 25967
@@ -71,34 +104,3 @@ releases:
       blob_id: 71144
       debug: Winter Games (U) (PRG1) [o1].nes
     entries: []
-- release:
-    id: 25987
-    game_id: 25985
-    description: ""
-    release_date: 0
-  names:
-  - id: 58096
-    kind: 3
-    kind_id: 25987
-    language: 1
-    name: Winter Games (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 25969
-      kind: 3
-      kind_id: 25987
-      type: 1
-      name: Winter Games (U).zip
-      description: ""
-      format: 2
-      size: 42849
-      blob_id: 0
-      debug: Winter Games (U).zip
-    entries:
-    - id: 84350
-      asset_id: 25969
-      name: Winter Games (U).nes
-      size: 131088
-      blob_id: 71143

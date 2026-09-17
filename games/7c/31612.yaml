@@ -1,7 +1,7 @@
 game:
   id: 31612
   platform_id: 5
-  description: ""
+  description: This classic adventure includes 18 towns and castles, dozens of magical spells, and hundreds of monsters, weapons, and items to help players on their quests. The game features the astounding music, challenging adventures, and interesting storyline that are the hallmarks of the Final Fantasy franchise. Additional game elements also have been added to enhance the Game Boy Advance version.
   series_id: 0
 names:
 - id: 74690
@@ -10,15 +10,25 @@ names:
   language: 1
   name: Final Fantasy IV (U)
   source: ""
-game_developers: []
-game_genres: []
+- id: 74692
+  kind: 2
+  kind_id: 31612
+  language: 1
+  name: Final Fantasy IV Advance (USA, Australia)
+  source: ""
+game_developers:
+- game_id: 31612
+  developer_id: 53
+game_genres:
+- game_id: 31612
+  genre_id: 11
 assets: []
 releases:
 - release:
     id: 31612
     game_id: 31612
     description: ""
-    release_date: 0
+    release_date: 20051212
   names:
   - id: 74691
     kind: 3
@@ -26,7 +36,15 @@ releases:
     language: 1
     name: Final Fantasy IV (U)
     source: ""
-  release_publishers: []
+  - id: 74693
+    kind: 3
+    kind_id: 31612
+    language: 1
+    name: Final Fantasy IV Advance (USA, Australia)
+    source: ""
+  release_publishers:
+  - release_id: 31612
+    publisher_id: 61
   assets:
   - asset:
       id: 31574
@@ -38,10 +56,46 @@ releases:
       format: 2
       size: 4774138
       blob_id: 0
-      debug: Final Fantasy IV (U).zip
+      debug: |-
+        Final Fantasy IV (U).zip
+        Final Fantasy IV Advance (USA, Australia).zip
     entries:
     - id: 86469
       asset_id: 31574
       name: Final Fantasy IV (U).gba
       size: 8388608
       blob_id: 75344
+- release:
+    id: 31613
+    game_id: 31612
+    description: ""
+    release_date: 20051212
+  names: []
+  release_publishers:
+  - release_id: 31613
+    publisher_id: 61
+  assets:
+  - asset:
+      id: 34754
+      kind: 3
+      kind_id: 31613
+      type: 2
+      name: Final Fantasy IV Advance (USA, Australia).png
+      description: ""
+      format: 1
+      size: 114028
+      blob_id: 78389
+      debug: gba/boxart/Final Fantasy IV Advance (USA, Australia).png
+    entries: []
+  - asset:
+      id: 34755
+      kind: 3
+      kind_id: 31613
+      type: 6
+      name: Final Fantasy IV Advance (USA, Australia).mp4
+      description: ""
+      format: 1
+      size: 1538135
+      blob_id: 77892
+      debug: gba/snap/Final Fantasy IV Advance (USA, Australia).mp4
+    entries: []

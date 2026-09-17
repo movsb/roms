@@ -4,6 +4,18 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 68063
+  kind: 2
+  kind_id: 19778
+  language: 2
+  name: 疯狂大毁灭 (美版) (动作)-Rampage (USA)
+  source: ""
+- id: 68064
+  kind: 2
+  kind_id: 19778
+  language: 1
+  name: Rampage (U) [!]
+  source: ""
 - id: 92839
   kind: 2
   kind_id: 19778
@@ -26,6 +38,18 @@ releases:
     language: 1
     name: Rampage (U) [!]
     source: ""
+  - id: 44054
+    kind: 3
+    kind_id: 19778
+    language: 1
+    name: Rampage (U)
+    source: ""
+  - id: 68065
+    kind: 3
+    kind_id: 19778
+    language: 2
+    name: 疯狂大毁灭 (美版) (动作)-Rampage (USA)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -38,7 +62,10 @@ releases:
       format: 2
       size: 69114
       blob_id: 0
-      debug: Rampage (U) [!].zip
+      debug: |-
+        Rampage (U) [!].zip
+        Rampage (U).zip
+        疯狂大毁灭 (美版) (动作)-Rampage (USA) + Rampage (U) [!].nes
     entries:
     - id: 83684
       asset_id: 19760
@@ -227,34 +254,3 @@ releases:
       blob_id: 65258
       debug: Rampage (U) [o2].nes
     entries: []
-- release:
-    id: 19786
-    game_id: 19778
-    description: ""
-    release_date: 0
-  names:
-  - id: 44054
-    kind: 3
-    kind_id: 19786
-    language: 1
-    name: Rampage (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 19768
-      kind: 3
-      kind_id: 19786
-      type: 1
-      name: Rampage (U).zip
-      description: ""
-      format: 2
-      size: 69535
-      blob_id: 0
-      debug: Rampage (U).zip
-    entries:
-    - id: 83685
-      asset_id: 19768
-      name: Rampage (U).nes
-      size: 196624
-      blob_id: 65251

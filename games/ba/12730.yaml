@@ -4,6 +4,24 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 66533
+  kind: 2
+  kind_id: 12730
+  language: 2
+  name: 毁灭计划 (日版) (动作射击)-Gun-Dec (Japan)
+  source: ""
+- id: 66534
+  kind: 2
+  kind_id: 12730
+  language: 1
+  name: Gun-Dec (J)
+  source: ""
+- id: 67241
+  kind: 2
+  kind_id: 12730
+  language: 2
+  name: 火炮
+  source: ""
 - id: 92030
   kind: 2
   kind_id: 12730
@@ -26,6 +44,12 @@ releases:
     language: 1
     name: Gun-Dec (J) [t1]
     source: ""
+  - id: 95226
+    kind: 3
+    kind_id: 12730
+    language: 2
+    name: 火炮
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -38,7 +62,9 @@ releases:
       format: 1
       size: 262160
       blob_id: 58614
-      debug: Gun-Dec (J) [t1].nes
+      debug: |-
+        Gun-Dec (J) [t1].nes
+        火炮_2.zip
     entries: []
 - release:
     id: 12731
@@ -182,6 +208,18 @@ releases:
     language: 1
     name: Gun-Dec (Japan) (Translated En)
     source: ""
+  - id: 66535
+    kind: 3
+    kind_id: 12736
+    language: 2
+    name: 毁灭计划 (日版) (动作射击)-Gun-Dec (Japan)
+    source: ""
+  - id: 66536
+    kind: 3
+    kind_id: 12736
+    language: 1
+    name: Gun-Dec (J)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -194,7 +232,9 @@ releases:
       format: 2
       size: 170976
       blob_id: 0
-      debug: Gun-Dec (Japan) (Translated En).zip
+      debug: |-
+        Gun-Dec (Japan) (Translated En).zip
+        毁灭计划 (日版) (动作射击)-Gun-Dec (Japan) + Gun-Dec (J).nes
     entries:
     - id: 82850
       asset_id: 12718
@@ -225,3 +265,34 @@ releases:
       blob_id: 82037
       debug: ""
     entries: []
+- release:
+    id: 28935
+    game_id: 12730
+    description: ""
+    release_date: 0
+  names:
+  - id: 67242
+    kind: 3
+    kind_id: 28935
+    language: 2
+    name: 火炮
+    source: ""
+  release_publishers: []
+  assets:
+  - asset:
+      id: 28917
+      kind: 3
+      kind_id: 28935
+      type: 1
+      name: 火炮.zip
+      description: ""
+      format: 2
+      size: 187402
+      blob_id: 0
+      debug: 火炮.zip
+    entries:
+    - id: 84962
+      asset_id: 28917
+      name: 火炮.nes
+      size: 393232
+      blob_id: 73269

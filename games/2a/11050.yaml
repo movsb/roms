@@ -4,6 +4,18 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 24053
+  kind: 2
+  kind_id: 11050
+  language: 2
+  name: F-15 城市之战 (美版) (V1.1) (射击)-F15 City War (USA) (v1.1) (Unl)
+  source: ""
+- id: 24054
+  kind: 2
+  kind_id: 11050
+  language: 1
+  name: F-15 City War (AVE) (REV1.1) [!]
+  source: ""
 - id: 91822
   kind: 2
   kind_id: 11050
@@ -78,6 +90,12 @@ releases:
     language: 1
     name: F-15 City War (AVE) (REV1.x) [b2]
     source: ""
+  - id: 24028
+    kind: 3
+    kind_id: 11052
+    language: 1
+    name: F-15 City War (U)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -90,7 +108,9 @@ releases:
       format: 1
       size: 65552
       blob_id: 57032
-      debug: F-15 City War (AVE) (REV1.x) [b2].nes
+      debug: |-
+        F-15 City War (AVE) (REV1.x) [b2].nes
+        F-15 City War (U).zip
     entries: []
 - release:
     id: 11053
@@ -171,37 +191,6 @@ releases:
       debug: F-15 City War (AVE) (REV1.x) [o1].nes
     entries: []
 - release:
-    id: 11056
-    game_id: 11050
-    description: ""
-    release_date: 0
-  names:
-  - id: 24028
-    kind: 3
-    kind_id: 11056
-    language: 1
-    name: F-15 City War (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 11038
-      kind: 3
-      kind_id: 11056
-      type: 1
-      name: F-15 City War (U).zip
-      description: ""
-      format: 2
-      size: 36399
-      blob_id: 0
-      debug: F-15 City War (U).zip
-    entries:
-    - id: 82644
-      asset_id: 11038
-      name: F-15 City War (U).nes
-      size: 65552
-      blob_id: 57032
-- release:
     id: 11057
     game_id: 11050
     description: ""
@@ -212,6 +201,18 @@ releases:
     kind_id: 11057
     language: 1
     name: F-15 City War (Unl) (REV1.1) [!]
+    source: ""
+  - id: 24055
+    kind: 3
+    kind_id: 11057
+    language: 2
+    name: F-15 城市之战 (美版) (V1.1) (射击)-F15 City War (USA) (v1.1) (Unl)
+    source: ""
+  - id: 24056
+    kind: 3
+    kind_id: 11057
+    language: 1
+    name: F-15 City War (AVE) (REV1.1) [!]
     source: ""
   release_publishers: []
   assets:
@@ -225,7 +226,9 @@ releases:
       format: 2
       size: 36319
       blob_id: 0
-      debug: F-15 City War (Unl) (REV1.1) [!].zip
+      debug: |-
+        F-15 City War (Unl) (REV1.1) [!].zip
+        F-15 城市之战 (美版) (V1.1) (射击)-F15 City War (USA) (v1.1) (Unl) + F-15 City War (AVE) (REV1.1) [!].nes
     entries:
     - id: 82645
       asset_id: 11039

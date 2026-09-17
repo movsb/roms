@@ -4,6 +4,18 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 72139
+  kind: 2
+  kind_id: 9873
+  language: 2
+  name: 麦当劳世界 (日版) (动作)-Donald Land (Japan)
+  source: ""
+- id: 72141
+  kind: 2
+  kind_id: 9873
+  language: 2
+  name: 麦当劳世界
+  source: ""
 - id: 91680
   kind: 2
   kind_id: 9873
@@ -26,6 +38,12 @@ releases:
     language: 1
     name: Donald Land (J) [!]
     source: ""
+  - id: 72142
+    kind: 3
+    kind_id: 9873
+    language: 2
+    name: 麦当劳世界
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -38,7 +56,9 @@ releases:
       format: 1
       size: 262160
       blob_id: 55925
-      debug: Donald Land (J) [!].nes
+      debug: |-
+        Donald Land (J) [!].nes
+        麦当劳世界.zip
     entries: []
 - release:
     id: 9874
@@ -208,6 +228,12 @@ releases:
     language: 1
     name: Donald Land (Japan)
     source: ""
+  - id: 72140
+    kind: 3
+    kind_id: 9880
+    language: 2
+    name: 麦当劳世界 (日版) (动作)-Donald Land (Japan)
+    source: ""
   release_publishers:
   - release_id: 9880
     publisher_id: 132
@@ -222,7 +248,9 @@ releases:
       format: 2
       size: 119988
       blob_id: 0
-      debug: Donald Land (Japan).zip
+      debug: |-
+        Donald Land (Japan).zip
+        麦当劳世界 (日版) (动作)-Donald Land (Japan).nes
     entries:
     - id: 82509
       asset_id: 9862
@@ -253,3 +281,34 @@ releases:
       blob_id: 82284
       debug: ""
     entries: []
+- release:
+    id: 30396
+    game_id: 9873
+    description: ""
+    release_date: 0
+  names:
+  - id: 95277
+    kind: 3
+    kind_id: 30396
+    language: 2
+    name: 麦当劳世界
+    source: ""
+  release_publishers: []
+  assets:
+  - asset:
+      id: 30378
+      kind: 3
+      kind_id: 30396
+      type: 1
+      name: 麦当劳世界.zip
+      description: ""
+      format: 2
+      size: 120705
+      blob_id: 0
+      debug: 麦当劳世界_2.zip
+    entries:
+    - id: 85327
+      asset_id: 30378
+      name: 麦当劳世界.nes
+      size: 262672
+      blob_id: 74185

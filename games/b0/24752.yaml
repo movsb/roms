@@ -10,6 +10,12 @@ names:
   language: 1
   name: Tetris
   source: ""
+- id: 93648
+  kind: 2
+  kind_id: 24752
+  language: 2
+  name: 俄罗斯方块 (美版) (益智)-Tetris
+  source: ""
 game_developers: []
 game_genres: []
 assets: []
@@ -26,6 +32,12 @@ releases:
     language: 1
     name: Tetris (Bulletproof) (Japan)
     source: ""
+  - id: 55146
+    kind: 3
+    kind_id: 24684
+    language: 1
+    name: Tetris (J) (REV0) [!]
+    source: ""
   release_publishers:
   - release_id: 24684
     publisher_id: 17
@@ -40,7 +52,9 @@ releases:
       format: 2
       size: 24284
       blob_id: 0
-      debug: Tetris (Bulletproof) (Japan).zip
+      debug: |-
+        Tetris (Bulletproof) (Japan).zip
+        Tetris (J) (REV0) [!].nes
     entries:
     - id: 84136
       asset_id: 24666
@@ -186,32 +200,6 @@ releases:
       size: 49168
       blob_id: 69944
       debug: Tetris (E) [T+Rus_Cool-Spot][a1].nes
-    entries: []
-- release:
-    id: 24689
-    game_id: 24752
-    description: ""
-    release_date: 0
-  names:
-  - id: 55146
-    kind: 3
-    kind_id: 24689
-    language: 1
-    name: Tetris (J) (REV0) [!]
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 24671
-      kind: 3
-      kind_id: 24689
-      type: 1
-      name: Tetris (J) (REV0) [!].nes
-      description: ""
-      format: 1
-      size: 49168
-      blob_id: 69940
-      debug: Tetris (J) (REV0) [!].nes
     entries: []
 - release:
     id: 24690
@@ -875,6 +863,12 @@ releases:
     language: 1
     name: Tetris (U) [!]
     source: ""
+  - id: 60651
+    kind: 3
+    kind_id: 24715
+    language: 2
+    name: 俄罗斯方块 (美版) (益智)-Tetris (USA)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -887,7 +881,9 @@ releases:
       format: 2
       size: 25256
       blob_id: 0
-      debug: Tetris (U) [!].zip
+      debug: |-
+        Tetris (U) [!].zip
+        俄罗斯方块 (美版) (益智)-Tetris (USA) + Tetris (U) [!].nes
     entries:
     - id: 84137
       asset_id: 24697
@@ -1419,3 +1415,35 @@ releases:
       name: Tetris.nes
       size: 262160
       blob_id: 70007
+- release:
+    id: 26948
+    game_id: 24752
+    description: ""
+    release_date: 0
+  names:
+  - id: 60647
+    kind: 3
+    kind_id: 26948
+    language: 2
+    name: 俄罗斯方块 (美版) (益智)-Tetris (USA) (Unl)
+    source: ""
+  - id: 60648
+    kind: 3
+    kind_id: 26948
+    language: 1
+    name: Tetris (Tengen) [!]
+    source: ""
+  release_publishers: []
+  assets:
+  - asset:
+      id: 26930
+      kind: 3
+      kind_id: 26948
+      type: 1
+      name: 俄罗斯方块 (美版) (益智)-Tetris (USA) (Unl) + Tetris (Tengen) [!].nes
+      description: ""
+      format: 1
+      size: 49168
+      blob_id: 71962
+      debug: 俄罗斯方块 (美版) (益智)-Tetris (USA) (Unl) + Tetris (Tengen) [!].nes
+    entries: []

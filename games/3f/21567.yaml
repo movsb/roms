@@ -4,6 +4,18 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 65295
+  kind: 2
+  kind_id: 21567
+  language: 2
+  name: 接龙 (美版) (桌面平台)-Solitaire (USA) (Unl)
+  source: ""
+- id: 65296
+  kind: 2
+  kind_id: 21567
+  language: 1
+  name: Solitaire (AVE) (REV1.1) [!]
+  source: ""
 - id: 93061
   kind: 2
   kind_id: 21567
@@ -78,6 +90,12 @@ releases:
     language: 1
     name: Solitaire (AVE) (REV1.1) [b3]
     source: ""
+  - id: 48028
+    kind: 3
+    kind_id: 21569
+    language: 1
+    name: Solitaire (U)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -90,7 +108,9 @@ releases:
       format: 1
       size: 65552
       blob_id: 66947
-      debug: Solitaire (AVE) (REV1.1) [b3].nes
+      debug: |-
+        Solitaire (AVE) (REV1.1) [b3].nes
+        Solitaire (U).zip
     entries: []
 - release:
     id: 21570
@@ -145,37 +165,6 @@ releases:
       debug: Solitaire (AVE) (REV1.1) [o2].nes
     entries: []
 - release:
-    id: 21572
-    game_id: 21567
-    description: ""
-    release_date: 0
-  names:
-  - id: 48028
-    kind: 3
-    kind_id: 21572
-    language: 1
-    name: Solitaire (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 21554
-      kind: 3
-      kind_id: 21572
-      type: 1
-      name: Solitaire (U).zip
-      description: ""
-      format: 2
-      size: 16362
-      blob_id: 0
-      debug: Solitaire (U).zip
-    entries:
-    - id: 83877
-      asset_id: 21554
-      name: Solitaire (U).nes
-      size: 65552
-      blob_id: 66947
-- release:
     id: 21573
     game_id: 21567
     description: ""
@@ -186,6 +175,18 @@ releases:
     kind_id: 21573
     language: 1
     name: Solitaire (Unl) (REV1.1) [!]
+    source: ""
+  - id: 65297
+    kind: 3
+    kind_id: 21573
+    language: 2
+    name: 接龙 (美版) (桌面平台)-Solitaire (USA) (Unl)
+    source: ""
+  - id: 65298
+    kind: 3
+    kind_id: 21573
+    language: 1
+    name: Solitaire (AVE) (REV1.1) [!]
     source: ""
   release_publishers: []
   assets:
@@ -199,7 +200,9 @@ releases:
       format: 2
       size: 16313
       blob_id: 0
-      debug: Solitaire (Unl) (REV1.1) [!].zip
+      debug: |-
+        Solitaire (Unl) (REV1.1) [!].zip
+        接龙 (美版) (桌面平台)-Solitaire (USA) (Unl) + Solitaire (AVE) (REV1.1) [!].nes
     entries:
     - id: 83878
       asset_id: 21555

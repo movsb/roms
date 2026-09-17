@@ -4,6 +4,24 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 66447
+  kind: 2
+  kind_id: 18503
+  language: 2
+  name: 欢乐五子棋  (美版) (桌面平台)-Othello (USA)
+  source: ""
+- id: 66448
+  kind: 2
+  kind_id: 18503
+  language: 1
+  name: Othello (U) [!]
+  source: ""
+- id: 72249
+  kind: 2
+  kind_id: 18503
+  language: 2
+  name: 黑白棋
+  source: ""
 - id: 92679
   kind: 2
   kind_id: 18503
@@ -130,6 +148,18 @@ releases:
     language: 1
     name: Othello (U) [!]
     source: ""
+  - id: 41270
+    kind: 3
+    kind_id: 18507
+    language: 1
+    name: Othello (U)
+    source: ""
+  - id: 66449
+    kind: 3
+    kind_id: 18507
+    language: 2
+    name: 欢乐五子棋  (美版) (桌面平台)-Othello (USA)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -142,7 +172,10 @@ releases:
       format: 2
       size: 17790
       blob_id: 0
-      debug: Othello (U) [!].zip
+      debug: |-
+        Othello (U) [!].zip
+        Othello (U).zip
+        欢乐五子棋  (美版) (桌面平台)-Othello (USA) + Othello (U) [!].nes
     entries:
     - id: 83498
       asset_id: 18489
@@ -155,6 +188,12 @@ releases:
     description: ""
     release_date: 0
   names:
+  - id: 72250
+    kind: 3
+    kind_id: 18508
+    language: 2
+    name: 黑白棋
+    source: ""
   - id: 84097
     kind: 3
     kind_id: 18508
@@ -173,7 +212,9 @@ releases:
       format: 1
       size: 40976
       blob_id: 64065
-      debug: Othello (U) [T+Chi1.0_Jiuban].nes
+      debug: |-
+        Othello (U) [T+Chi1.0_Jiuban].nes
+        黑白棋.zip
     entries: []
 - release:
     id: 18509
@@ -253,34 +294,3 @@ releases:
       blob_id: 64068
       debug: Othello (U) [o2].nes
     entries: []
-- release:
-    id: 18512
-    game_id: 18503
-    description: ""
-    release_date: 0
-  names:
-  - id: 41270
-    kind: 3
-    kind_id: 18512
-    language: 1
-    name: Othello (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 18494
-      kind: 3
-      kind_id: 18512
-      type: 1
-      name: Othello (U).zip
-      description: ""
-      format: 2
-      size: 17797
-      blob_id: 0
-      debug: Othello (U).zip
-    entries:
-    - id: 83499
-      asset_id: 18494
-      name: Othello (U).nes
-      size: 40976
-      blob_id: 64064

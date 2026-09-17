@@ -4,6 +4,18 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 52895
+  kind: 2
+  kind_id: 23648
+  language: 1
+  name: Tank1990
+  source: ""
+- id: 62543
+  kind: 2
+  kind_id: 23648
+  language: 2
+  name: 坦克大战 烟山1990
+  source: ""
 - id: 93325
   kind: 2
   kind_id: 23648
@@ -26,6 +38,30 @@ releases:
     language: 1
     name: Tank 1990 (As) [p1]
     source: ""
+  - id: 52853
+    kind: 3
+    kind_id: 23648
+    language: 1
+    name: Tank 1990 (Unl) (YanShan)
+    source: ""
+  - id: 52854
+    kind: 3
+    kind_id: 23648
+    language: 1
+    name: Tank 1990 (Ch)
+    source: ""
+  - id: 52896
+    kind: 3
+    kind_id: 23648
+    language: 1
+    name: Tank1990
+    source: ""
+  - id: 62544
+    kind: 3
+    kind_id: 23648
+    language: 2
+    name: 坦克大战 烟山1990
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -38,7 +74,11 @@ releases:
       format: 2
       size: 21236
       blob_id: 0
-      debug: Tank 1990 (As) [p1].zip
+      debug: |-
+        Tank 1990 (As) [p1].zip
+        Tank 1990 (Unl) (YanShan) + Tank 1990 (Ch).nes
+        Tank1990.zip
+        坦克大战 烟山1990.zip
     entries:
     - id: 84089
       asset_id: 23630
@@ -252,36 +292,4 @@ releases:
       size: 24592
       blob_id: 68932
       debug: Tank 1990 (Ch) [p3].nes
-    entries: []
-- release:
-    id: 23657
-    game_id: 23648
-    description: ""
-    release_date: 0
-  names:
-  - id: 52853
-    kind: 3
-    kind_id: 23657
-    language: 1
-    name: Tank 1990 (Unl) (YanShan)
-    source: ""
-  - id: 52854
-    kind: 3
-    kind_id: 23657
-    language: 1
-    name: Tank 1990 (Ch)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 23639
-      kind: 3
-      kind_id: 23657
-      type: 1
-      name: Tank 1990 (Unl) (YanShan) + Tank 1990 (Ch).nes
-      description: ""
-      format: 1
-      size: 40976
-      blob_id: 68924
-      debug: Tank 1990 (Unl) (YanShan) + Tank 1990 (Ch).nes
     entries: []

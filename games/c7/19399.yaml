@@ -18,15 +18,29 @@ releases:
     id: 19399
     game_id: 19399
     description: ""
-    release_date: 0
+    release_date: 19930723
   names:
+  - id: 43200
+    kind: 3
+    kind_id: 19399
+    language: 1
+    name: Puyo Puyo (Japan) (Translated En)
+    source: ""
   - id: 84169
     kind: 3
     kind_id: 19399
     language: 1
     name: Puyo Puyo (J) [T+Eng1.0_AGTP]
     source: ""
-  release_publishers: []
+  - id: 84170
+    kind: 3
+    kind_id: 19399
+    language: 1
+    name: Puyo Puyo (J) [T+Eng1.0_Aeon Genesis]
+    source: ""
+  release_publishers:
+  - release_id: 19399
+    publisher_id: 190
   assets:
   - asset:
       id: 19381
@@ -38,39 +52,16 @@ releases:
       format: 2
       size: 37241
       blob_id: 0
-      debug: Puyo Puyo (J) [T+Eng1.0_AGTP].zip
+      debug: |-
+        Puyo Puyo (J) [T+Eng1.0_AGTP].zip
+        Puyo Puyo (J) [T+Eng1.0_Aeon Genesis].nes
+        Puyo Puyo (Japan) (Translated En).zip
     entries:
     - id: 83622
       asset_id: 19381
       name: Puyo Puyo (J) [T+Eng1.0_AGTP].nes
       size: 131088
       blob_id: 64903
-- release:
-    id: 19400
-    game_id: 19399
-    description: ""
-    release_date: 0
-  names:
-  - id: 84170
-    kind: 3
-    kind_id: 19400
-    language: 1
-    name: Puyo Puyo (J) [T+Eng1.0_Aeon Genesis]
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 19382
-      kind: 3
-      kind_id: 19400
-      type: 1
-      name: Puyo Puyo (J) [T+Eng1.0_Aeon Genesis].nes
-      description: ""
-      format: 1
-      size: 131088
-      blob_id: 64903
-      debug: Puyo Puyo (J) [T+Eng1.0_Aeon Genesis].nes
-    entries: []
 - release:
     id: 19401
     game_id: 19399
@@ -128,34 +119,11 @@ releases:
     game_id: 19399
     description: ""
     release_date: 19930723
-  names:
-  - id: 43200
-    kind: 3
-    kind_id: 19403
-    language: 1
-    name: Puyo Puyo (Japan) (Translated En)
-    source: ""
+  names: []
   release_publishers:
   - release_id: 19403
     publisher_id: 190
   assets:
-  - asset:
-      id: 19385
-      kind: 3
-      kind_id: 19403
-      type: 1
-      name: Puyo Puyo (Japan) (Translated En).zip
-      description: ""
-      format: 2
-      size: 36786
-      blob_id: 0
-      debug: Puyo Puyo (Japan) (Translated En).zip
-    entries:
-    - id: 83623
-      asset_id: 19385
-      name: Puyo Puyo (Japan) (Translated En).nes
-      size: 131088
-      blob_id: 64903
   - asset:
       id: 38626
       kind: 3

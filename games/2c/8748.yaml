@@ -4,6 +4,24 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 66465
+  kind: 2
+  kind_id: 8748
+  language: 2
+  name: 欢乐碰碰车
+  source: ""
+- id: 68253
+  kind: 2
+  kind_id: 8748
+  language: 2
+  name: 碰碰车 (美版) (动作)-City Connection (USA)
+  source: ""
+- id: 68254
+  kind: 2
+  kind_id: 8748
+  language: 1
+  name: City Connection (U) [!]
+  source: ""
 - id: 91553
   kind: 2
   kind_id: 8748
@@ -234,6 +252,12 @@ releases:
     language: 1
     name: City Connection (J) [t1]
     source: ""
+  - id: 66466
+    kind: 3
+    kind_id: 8756
+    language: 2
+    name: 欢乐碰碰车
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -246,7 +270,9 @@ releases:
       format: 1
       size: 32784
       blob_id: 54876
-      debug: City Connection (J) [t1].nes
+      debug: |-
+        City Connection (J) [t1].nes
+        欢乐碰碰车.zip
     entries: []
 - release:
     id: 8757
@@ -260,6 +286,18 @@ releases:
     language: 1
     name: City Connection (U) [!]
     source: ""
+  - id: 18638
+    kind: 3
+    kind_id: 8757
+    language: 1
+    name: City Connection (U)
+    source: ""
+  - id: 68255
+    kind: 3
+    kind_id: 8757
+    language: 2
+    name: 碰碰车 (美版) (动作)-City Connection (USA)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -272,7 +310,10 @@ releases:
       format: 2
       size: 26743
       blob_id: 0
-      debug: City Connection (U) [!].zip
+      debug: |-
+        City Connection (U) [!].zip
+        City Connection (U).zip
+        碰碰车 (美版) (动作)-City Connection (USA) + City Connection (U) [!].nes
     entries:
     - id: 82362
       asset_id: 8739
@@ -487,34 +528,3 @@ releases:
       blob_id: 54885
       debug: City Connection (U) [o5].nes
     entries: []
-- release:
-    id: 8766
-    game_id: 8748
-    description: ""
-    release_date: 0
-  names:
-  - id: 18638
-    kind: 3
-    kind_id: 8766
-    language: 1
-    name: City Connection (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 8748
-      kind: 3
-      kind_id: 8766
-      type: 1
-      name: City Connection (U).zip
-      description: ""
-      format: 2
-      size: 26822
-      blob_id: 0
-      debug: City Connection (U).zip
-    entries:
-    - id: 82363
-      asset_id: 8748
-      name: City Connection (U).nes
-      size: 65552
-      blob_id: 54877

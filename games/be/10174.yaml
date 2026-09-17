@@ -70,7 +70,7 @@ releases:
     id: 10176
     game_id: 10174
     description: ""
-    release_date: 0
+    release_date: 19921030
   names:
   - id: 21928
     kind: 3
@@ -78,7 +78,15 @@ releases:
     language: 1
     name: Double Moon Densetsu (J) [T-EngBeta]
     source: ""
-  release_publishers: []
+  - id: 21934
+    kind: 3
+    kind_id: 10176
+    language: 1
+    name: Double Moon Densetsu (Japan) (Translated En)
+    source: ""
+  release_publishers:
+  - release_id: 10176
+    publisher_id: 140
   assets:
   - asset:
       id: 10158
@@ -90,39 +98,11 @@ releases:
       format: 1
       size: 524304
       blob_id: 56212
-      debug: Double Moon Densetsu (J) [T-EngBeta].nes
+      debug: |-
+        Double Moon Densetsu (J) [T-EngBeta].nes
+        Double Moon Densetsu (J) [T-EngBeta].zip
+        Double Moon Densetsu (Japan) (Translated En).zip
     entries: []
-- release:
-    id: 10177
-    game_id: 10174
-    description: ""
-    release_date: 0
-  names:
-  - id: 21930
-    kind: 3
-    kind_id: 10177
-    language: 1
-    name: Double Moon Densetsu (J) [T-EngBeta]
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 10159
-      kind: 3
-      kind_id: 10177
-      type: 1
-      name: Double Moon Densetsu (J) [T-EngBeta].zip
-      description: ""
-      format: 2
-      size: 267924
-      blob_id: 0
-      debug: Double Moon Densetsu (J) [T-EngBeta].zip
-    entries:
-    - id: 82538
-      asset_id: 10159
-      name: Double Moon Densetsu (J) [T-EngBeta].nes
-      size: 524304
-      blob_id: 56212
 - release:
     id: 10178
     game_id: 10174
@@ -154,34 +134,11 @@ releases:
     game_id: 10174
     description: ""
     release_date: 19921030
-  names:
-  - id: 21934
-    kind: 3
-    kind_id: 10179
-    language: 1
-    name: Double Moon Densetsu (Japan) (Translated En)
-    source: ""
+  names: []
   release_publishers:
   - release_id: 10179
     publisher_id: 140
   assets:
-  - asset:
-      id: 10161
-      kind: 3
-      kind_id: 10179
-      type: 1
-      name: Double Moon Densetsu (Japan) (Translated En).zip
-      description: ""
-      format: 2
-      size: 267729
-      blob_id: 0
-      debug: Double Moon Densetsu (Japan) (Translated En).zip
-    entries:
-    - id: 82539
-      asset_id: 10161
-      name: Double Moon Densetsu (Japan) (Translated En).nes
-      size: 524304
-      blob_id: 56212
   - asset:
       id: 38077
       kind: 3

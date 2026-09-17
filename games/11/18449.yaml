@@ -4,6 +4,24 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 60139
+  kind: 2
+  kind_id: 18449
+  language: 2
+  name: 乌兹冲锋枪 (美版)(Rev A) (光线枪射击)-Operation Wolf (USA) (Rev 0A)
+  source: ""
+- id: 60140
+  kind: 2
+  kind_id: 18449
+  language: 1
+  name: Operation Wolf (U) [!]
+  source: ""
+- id: 70867
+  kind: 2
+  kind_id: 18449
+  language: 2
+  name: 野狼特工队
+  source: ""
 - id: 92674
   kind: 2
   kind_id: 18449
@@ -52,6 +70,24 @@ releases:
     language: 1
     name: Operation Wolf (U) [!]
     source: ""
+  - id: 41158
+    kind: 3
+    kind_id: 18450
+    language: 1
+    name: Operation Wolf (U)
+    source: ""
+  - id: 60141
+    kind: 3
+    kind_id: 18450
+    language: 2
+    name: 乌兹冲锋枪 (美版)(Rev A) (光线枪射击)-Operation Wolf (USA) (Rev 0A)
+    source: ""
+  - id: 70868
+    kind: 3
+    kind_id: 18450
+    language: 2
+    name: 野狼特工队
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -64,7 +100,11 @@ releases:
       format: 2
       size: 90025
       blob_id: 0
-      debug: Operation Wolf (U) [!].zip
+      debug: |-
+        Operation Wolf (U) [!].zip
+        Operation Wolf (U).zip
+        乌兹冲锋枪 (美版)(Rev A) (光线枪射击)-Operation Wolf (USA) (Rev 0A) + Operation Wolf (U) [!].nes
+        野狼特工队.zip
     entries:
     - id: 83493
       asset_id: 18432
@@ -343,6 +383,12 @@ releases:
     language: 1
     name: Operation Wolf (U) [t2]
     source: ""
+  - id: 95259
+    kind: 3
+    kind_id: 18461
+    language: 2
+    name: 野狼特工队
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -355,36 +401,7 @@ releases:
       format: 1
       size: 262287
       blob_id: 64022
-      debug: Operation Wolf (U) [t2].nes
+      debug: |-
+        Operation Wolf (U) [t2].nes
+        野狼特工队_2.zip
     entries: []
-- release:
-    id: 18462
-    game_id: 18449
-    description: ""
-    release_date: 0
-  names:
-  - id: 41158
-    kind: 3
-    kind_id: 18462
-    language: 1
-    name: Operation Wolf (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 18444
-      kind: 3
-      kind_id: 18462
-      type: 1
-      name: Operation Wolf (U).zip
-      description: ""
-      format: 2
-      size: 90635
-      blob_id: 0
-      debug: Operation Wolf (U).zip
-    entries:
-    - id: 83494
-      asset_id: 18444
-      name: Operation Wolf (U).nes
-      size: 262160
-      blob_id: 64011

@@ -4,6 +4,18 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 66691
+  kind: 2
+  kind_id: 9643
+  language: 2
+  name: 沙漠之狐 (美版) (策略)-Desert Commander (USA)
+  source: ""
+- id: 66692
+  kind: 2
+  kind_id: 9643
+  language: 1
+  name: Desert Commander (U) [!]
+  source: ""
 - id: 91646
   kind: 2
   kind_id: 9643
@@ -26,6 +38,18 @@ releases:
     language: 1
     name: Desert Commander (U) [!]
     source: ""
+  - id: 20672
+    kind: 3
+    kind_id: 9643
+    language: 1
+    name: Desert Commander (U)
+    source: ""
+  - id: 66693
+    kind: 3
+    kind_id: 9643
+    language: 2
+    name: 沙漠之狐 (美版) (策略)-Desert Commander (USA)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -38,7 +62,10 @@ releases:
       format: 2
       size: 80924
       blob_id: 0
-      debug: Desert Commander (U) [!].zip
+      debug: |-
+        Desert Commander (U) [!].zip
+        Desert Commander (U).zip
+        沙漠之狐 (美版) (策略)-Desert Commander (USA) + Desert Commander (U) [!].nes
     entries:
     - id: 82479
       asset_id: 9625
@@ -227,34 +254,3 @@ releases:
       blob_id: 55718
       debug: Desert Commander (U) [o4].nes
     entries: []
-- release:
-    id: 9651
-    game_id: 9643
-    description: ""
-    release_date: 0
-  names:
-  - id: 20672
-    kind: 3
-    kind_id: 9651
-    language: 1
-    name: Desert Commander (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 9633
-      kind: 3
-      kind_id: 9651
-      type: 1
-      name: Desert Commander (U).zip
-      description: ""
-      format: 2
-      size: 81348
-      blob_id: 0
-      debug: Desert Commander (U).zip
-    entries:
-    - id: 82480
-      asset_id: 9633
-      name: Desert Commander (U).nes
-      size: 262160
-      blob_id: 55711

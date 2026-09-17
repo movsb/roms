@@ -4,6 +4,12 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 25599
+  kind: 2
+  kind_id: 11535
+  language: 1
+  name: FinalFantasy3
+  source: ""
 - id: 91875
   kind: 2
   kind_id: 11535
@@ -226,15 +232,23 @@ releases:
     id: 11543
     game_id: 11535
     description: ""
-    release_date: 0
+    release_date: 19900427
   names:
+  - id: 25394
+    kind: 3
+    kind_id: 11543
+    language: 1
+    name: Final Fantasy III (Japan) (Translated En)
+    source: ""
   - id: 83066
     kind: 3
     kind_id: 11543
     language: 1
     name: Final Fantasy III (J) [T+EngR2_AWJ+NCorlett+SoM2Freak]
     source: ""
-  release_publishers: []
+  release_publishers:
+  - release_id: 11543
+    publisher_id: 126
   assets:
   - asset:
       id: 11525
@@ -246,7 +260,9 @@ releases:
       format: 1
       size: 524304
       blob_id: 57499
-      debug: Final Fantasy III (J) [T+EngR2_AWJ+NCorlett+SoM2Freak].nes
+      debug: |-
+        Final Fantasy III (J) [T+EngR2_AWJ+NCorlett+SoM2Freak].nes
+        Final Fantasy III (Japan) (Translated En).zip
     entries: []
 - release:
     id: 11544
@@ -844,39 +860,10 @@ releases:
       format: 1
       size: 524304
       blob_id: 57522
-      debug: Final Fantasy III (J) [T-Eng].nes
+      debug: |-
+        Final Fantasy III (J) [T-Eng].nes
+        Final Fantasy III (J) [T-Eng].zip
     entries: []
-- release:
-    id: 11567
-    game_id: 11535
-    description: ""
-    release_date: 0
-  names:
-  - id: 25318
-    kind: 3
-    kind_id: 11567
-    language: 1
-    name: Final Fantasy III (J) [T-Eng]
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 11549
-      kind: 3
-      kind_id: 11567
-      type: 1
-      name: Final Fantasy III (J) [T-Eng].zip
-      description: ""
-      format: 2
-      size: 334909
-      blob_id: 0
-      debug: Final Fantasy III (J) [T-Eng].zip
-    entries:
-    - id: 82689
-      asset_id: 11549
-      name: Final Fantasy III (J) [T-Eng].nes
-      size: 524304
-      blob_id: 57522
 - release:
     id: 11568
     game_id: 11535
@@ -993,6 +980,12 @@ releases:
     language: 1
     name: Final Fantasy III (J) [T-Eng][a5]
     source: ""
+  - id: 25600
+    kind: 3
+    kind_id: 11572
+    language: 1
+    name: FinalFantasy3
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -1005,7 +998,9 @@ releases:
       format: 1
       size: 524304
       blob_id: 57527
-      debug: Final Fantasy III (J) [T-Eng][a5].nes
+      debug: |-
+        Final Fantasy III (J) [T-Eng][a5].nes
+        FinalFantasy3.zip
     entries: []
 - release:
     id: 11573
@@ -1662,34 +1657,11 @@ releases:
     game_id: 11535
     description: ""
     release_date: 19900427
-  names:
-  - id: 25394
-    kind: 3
-    kind_id: 11598
-    language: 1
-    name: Final Fantasy III (Japan) (Translated En)
-    source: ""
+  names: []
   release_publishers:
   - release_id: 11598
     publisher_id: 126
   assets:
-  - asset:
-      id: 11580
-      kind: 3
-      kind_id: 11598
-      type: 1
-      name: Final Fantasy III (Japan) (Translated En).zip
-      description: ""
-      format: 2
-      size: 326208
-      blob_id: 0
-      debug: Final Fantasy III (Japan) (Translated En).zip
-    entries:
-    - id: 82690
-      asset_id: 11580
-      name: Final Fantasy III (Japan) (Translated En).nes
-      size: 524304
-      blob_id: 57499
   - asset:
       id: 37976
       kind: 3

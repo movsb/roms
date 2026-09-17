@@ -4,6 +4,30 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 30695
+  kind: 2
+  kind_id: 13922
+  language: 1
+  name: JamesBondJr
+  source: ""
+- id: 63819
+  kind: 2
+  kind_id: 13922
+  language: 2
+  name: 少年詹姆斯庞德 (美版) (动作)-James Bond Jr (USA)
+  source: ""
+- id: 63820
+  kind: 2
+  kind_id: 13922
+  language: 1
+  name: James Bond Jr (U) [!]
+  source: ""
+- id: 69789
+  kind: 2
+  kind_id: 13922
+  language: 2
+  name: 詹姆斯邦德007
+  source: ""
 - id: 92163
   kind: 2
   kind_id: 13922
@@ -26,6 +50,24 @@ releases:
     language: 1
     name: James Bond Jr (U) [!]
     source: ""
+  - id: 30694
+    kind: 3
+    kind_id: 13922
+    language: 1
+    name: James Bond Jr (U)
+    source: ""
+  - id: 30696
+    kind: 3
+    kind_id: 13922
+    language: 1
+    name: JamesBondJr
+    source: ""
+  - id: 63821
+    kind: 3
+    kind_id: 13922
+    language: 2
+    name: 少年詹姆斯庞德 (美版) (动作)-James Bond Jr (USA)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -38,7 +80,11 @@ releases:
       format: 2
       size: 171646
       blob_id: 0
-      debug: James Bond Jr (U) [!].zip
+      debug: |-
+        James Bond Jr (U) [!].zip
+        James Bond Jr (U).zip
+        JamesBondJr.zip
+        少年詹姆斯庞德 (美版) (动作)-James Bond Jr (USA) + James Bond Jr (U) [!].nes
     entries:
     - id: 82992
       asset_id: 13904
@@ -57,6 +103,12 @@ releases:
     language: 1
     name: James Bond Jr (U) [b1]
     source: ""
+  - id: 69790
+    kind: 3
+    kind_id: 13923
+    language: 2
+    name: 詹姆斯邦德007
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -69,7 +121,9 @@ releases:
       format: 1
       size: 262160
       blob_id: 59737
-      debug: James Bond Jr (U) [b1].nes
+      debug: |-
+        James Bond Jr (U) [b1].nes
+        詹姆斯邦德007.zip
     entries: []
 - release:
     id: 13924
@@ -123,34 +177,3 @@ releases:
       blob_id: 59739
       debug: James Bond Jr (U) [p1][!].nes
     entries: []
-- release:
-    id: 13926
-    game_id: 13922
-    description: ""
-    release_date: 0
-  names:
-  - id: 30694
-    kind: 3
-    kind_id: 13926
-    language: 1
-    name: James Bond Jr (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 13908
-      kind: 3
-      kind_id: 13926
-      type: 1
-      name: James Bond Jr (U).zip
-      description: ""
-      format: 2
-      size: 172088
-      blob_id: 0
-      debug: James Bond Jr (U).zip
-    entries:
-    - id: 82993
-      asset_id: 13908
-      name: James Bond Jr (U).nes
-      size: 262160
-      blob_id: 59736

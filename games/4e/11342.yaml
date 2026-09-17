@@ -18,7 +18,7 @@ releases:
     id: 11342
     game_id: 11342
     description: ""
-    release_date: 0
+    release_date: 19850709
   names:
   - id: 24672
     kind: 3
@@ -26,7 +26,21 @@ releases:
     language: 1
     name: Field Combat (J) [!]
     source: ""
-  release_publishers: []
+  - id: 24692
+    kind: 3
+    kind_id: 11342
+    language: 1
+    name: Field Combat (J) [o1]
+    source: ""
+  - id: 24698
+    kind: 3
+    kind_id: 11342
+    language: 1
+    name: Field Combat (Japan)
+    source: ""
+  release_publishers:
+  - release_id: 11342
+    publisher_id: 71
   assets:
   - asset:
       id: 11324
@@ -38,7 +52,10 @@ releases:
       format: 2
       size: 15173
       blob_id: 0
-      debug: Field Combat (J) [!].zip
+      debug: |-
+        Field Combat (J) [!].zip
+        Field Combat (J) [o1].nes
+        Field Combat (Japan).zip
     entries:
     - id: 82680
       asset_id: 11324
@@ -228,32 +245,6 @@ releases:
       debug: Field Combat (J) [b1][o4].nes
     entries: []
 - release:
-    id: 11350
-    game_id: 11342
-    description: ""
-    release_date: 0
-  names:
-  - id: 24692
-    kind: 3
-    kind_id: 11350
-    language: 1
-    name: Field Combat (J) [o1]
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 11332
-      kind: 3
-      kind_id: 11350
-      type: 1
-      name: Field Combat (J) [o1].nes
-      description: ""
-      format: 1
-      size: 40976
-      blob_id: 57302
-      debug: Field Combat (J) [o1].nes
-    entries: []
-- release:
     id: 11351
     game_id: 11342
     description: ""
@@ -310,34 +301,11 @@ releases:
     game_id: 11342
     description: ""
     release_date: 19850709
-  names:
-  - id: 24698
-    kind: 3
-    kind_id: 11353
-    language: 1
-    name: Field Combat (Japan)
-    source: ""
+  names: []
   release_publishers:
   - release_id: 11353
     publisher_id: 71
   assets:
-  - asset:
-      id: 11335
-      kind: 3
-      kind_id: 11353
-      type: 1
-      name: Field Combat (Japan).zip
-      description: ""
-      format: 2
-      size: 15019
-      blob_id: 0
-      debug: Field Combat (Japan).zip
-    entries:
-    - id: 82681
-      asset_id: 11335
-      name: Field Combat (Japan).nes
-      size: 40976
-      blob_id: 57302
   - asset:
       id: 38697
       kind: 3

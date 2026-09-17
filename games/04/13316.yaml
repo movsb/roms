@@ -10,6 +10,24 @@ names:
   language: 1
   name: Hook
   source: ""
+- id: 69477
+  kind: 2
+  kind_id: 13316
+  language: 2
+  name: 虎克船长 (美版) (动作)-Hook (USA)
+  source: ""
+- id: 69478
+  kind: 2
+  kind_id: 13316
+  language: 1
+  name: Hook (U) [!]
+  source: ""
+- id: 69481
+  kind: 2
+  kind_id: 13316
+  language: 2
+  name: 虎克船长
+  source: ""
 game_developers: []
 game_genres: []
 assets: []
@@ -78,6 +96,30 @@ releases:
     language: 1
     name: Hook (U) [!]
     source: ""
+  - id: 29266
+    kind: 3
+    kind_id: 13311
+    language: 1
+    name: Hook (U)
+    source: ""
+  - id: 29268
+    kind: 3
+    kind_id: 13311
+    language: 1
+    name: Hook
+    source: ""
+  - id: 69479
+    kind: 3
+    kind_id: 13311
+    language: 2
+    name: 虎克船长 (美版) (动作)-Hook (USA)
+    source: ""
+  - id: 69482
+    kind: 3
+    kind_id: 13311
+    language: 2
+    name: 虎克船长
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -90,7 +132,12 @@ releases:
       format: 2
       size: 113266
       blob_id: 0
-      debug: Hook (U) [!].zip
+      debug: |-
+        Hook (U) [!].zip
+        Hook (U).zip
+        Hook.zip
+        虎克船长 (美版) (动作)-Hook (USA) + Hook (U) [!].nes
+        虎克船长.zip
     entries:
     - id: 82903
       asset_id: 13293
@@ -175,65 +222,3 @@ releases:
       blob_id: 59174
       debug: Hook (U) [o1].nes
     entries: []
-- release:
-    id: 13315
-    game_id: 13316
-    description: ""
-    release_date: 0
-  names:
-  - id: 29266
-    kind: 3
-    kind_id: 13315
-    language: 1
-    name: Hook (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 13297
-      kind: 3
-      kind_id: 13315
-      type: 1
-      name: Hook (U).zip
-      description: ""
-      format: 2
-      size: 113773
-      blob_id: 0
-      debug: Hook (U).zip
-    entries:
-    - id: 82904
-      asset_id: 13297
-      name: Hook (U).nes
-      size: 262160
-      blob_id: 59171
-- release:
-    id: 13316
-    game_id: 13316
-    description: ""
-    release_date: 0
-  names:
-  - id: 29268
-    kind: 3
-    kind_id: 13316
-    language: 1
-    name: Hook
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 13298
-      kind: 3
-      kind_id: 13316
-      type: 1
-      name: Hook.zip
-      description: ""
-      format: 2
-      size: 113765
-      blob_id: 0
-      debug: Hook.zip
-    entries:
-    - id: 82905
-      asset_id: 13298
-      name: Hook.nes
-      size: 262160
-      blob_id: 59171

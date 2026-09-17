@@ -18,15 +18,23 @@ releases:
     id: 19117
     game_id: 19117
     description: ""
-    release_date: 0
+    release_date: 19900420
   names:
+  - id: 42616
+    kind: 3
+    kind_id: 19117
+    language: 1
+    name: Power Blazer (Japan) (Translated En)
+    source: ""
   - id: 84158
     kind: 3
     kind_id: 19117
     language: 1
     name: Power Blazer (J) [T+Eng1.0_Stardust Crusaders]
     source: ""
-  release_publishers: []
+  release_publishers:
+  - release_id: 19117
+    publisher_id: 112
   assets:
   - asset:
       id: 19099
@@ -38,7 +46,9 @@ releases:
       format: 1
       size: 262160
       blob_id: 64630
-      debug: Power Blazer (J) [T+Eng1.0_Stardust Crusaders].nes
+      debug: |-
+        Power Blazer (J) [T+Eng1.0_Stardust Crusaders].nes
+        Power Blazer (Japan) (Translated En).zip
     entries: []
 - release:
     id: 19118
@@ -175,34 +185,11 @@ releases:
     game_id: 19117
     description: ""
     release_date: 19900420
-  names:
-  - id: 42616
-    kind: 3
-    kind_id: 19123
-    language: 1
-    name: Power Blazer (Japan) (Translated En)
-    source: ""
+  names: []
   release_publishers:
   - release_id: 19123
     publisher_id: 112
   assets:
-  - asset:
-      id: 19105
-      kind: 3
-      kind_id: 19123
-      type: 1
-      name: Power Blazer (Japan) (Translated En).zip
-      description: ""
-      format: 2
-      size: 109952
-      blob_id: 0
-      debug: Power Blazer (Japan) (Translated En).zip
-    entries:
-    - id: 83595
-      asset_id: 19105
-      name: Power Blazer (Japan) (Translated En).nes
-      size: 262160
-      blob_id: 64630
   - asset:
       id: 38293
       kind: 3

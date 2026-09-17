@@ -4,6 +4,18 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 68447
+  kind: 2
+  kind_id: 5591
+  language: 2
+  name: 空中要塞 (美版) (射击)-Air Fortress (USA)
+  source: ""
+- id: 68448
+  kind: 2
+  kind_id: 5591
+  language: 1
+  name: Air Fortress (U) [!]
+  source: ""
 - id: 91226
   kind: 2
   kind_id: 5591
@@ -260,6 +272,18 @@ releases:
     language: 1
     name: Air Fortress (U) [!]
     source: ""
+  - id: 11484
+    kind: 3
+    kind_id: 5600
+    language: 1
+    name: Air Fortress (U)
+    source: ""
+  - id: 68449
+    kind: 3
+    kind_id: 5600
+    language: 2
+    name: 空中要塞 (美版) (射击)-Air Fortress (USA)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -272,7 +296,10 @@ releases:
       format: 2
       size: 86699
       blob_id: 0
-      debug: Air Fortress (U) [!].zip
+      debug: |-
+        Air Fortress (U) [!].zip
+        Air Fortress (U).zip
+        空中要塞 (美版) (射击)-Air Fortress (USA) + Air Fortress (U) [!].nes
     entries:
     - id: 82002
       asset_id: 5582
@@ -383,34 +410,3 @@ releases:
       blob_id: 51890
       debug: Air Fortress (U) [o2].nes
     entries: []
-- release:
-    id: 5605
-    game_id: 5591
-    description: ""
-    release_date: 0
-  names:
-  - id: 11484
-    kind: 3
-    kind_id: 5605
-    language: 1
-    name: Air Fortress (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 5587
-      kind: 3
-      kind_id: 5605
-      type: 1
-      name: Air Fortress (U).zip
-      description: ""
-      format: 2
-      size: 86794
-      blob_id: 0
-      debug: Air Fortress (U).zip
-    entries:
-    - id: 82003
-      asset_id: 5587
-      name: Air Fortress (U).nes
-      size: 163856
-      blob_id: 51886

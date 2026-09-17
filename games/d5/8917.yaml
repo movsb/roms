@@ -4,6 +4,12 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 71829
+  kind: 2
+  kind_id: 8917
+  language: 2
+  name: 魔法世界
+  source: ""
 - id: 91563
   kind: 2
   kind_id: 8917
@@ -18,15 +24,29 @@ releases:
     id: 8917
     game_id: 8917
     description: ""
-    release_date: 0
+    release_date: 19910503
   names:
+  - id: 18960
+    kind: 3
+    kind_id: 8917
+    language: 1
+    name: Cocoron (Japan) (Translated En)
+    source: ""
+  - id: 71830
+    kind: 3
+    kind_id: 8917
+    language: 2
+    name: 魔法世界
+    source: ""
   - id: 82579
     kind: 3
     kind_id: 8917
     language: 1
     name: Cocoron (J) [T+Eng1.0_Akujin]
     source: ""
-  release_publishers: []
+  release_publishers:
+  - release_id: 8917
+    publisher_id: 155
   assets:
   - asset:
       id: 8899
@@ -38,7 +58,10 @@ releases:
       format: 1
       size: 262160
       blob_id: 55032
-      debug: Cocoron (J) [T+Eng1.0_Akujin].nes
+      debug: |-
+        Cocoron (J) [T+Eng1.0_Akujin].nes
+        Cocoron (Japan) (Translated En).zip
+        魔法世界.zip
     entries: []
 - release:
     id: 8918
@@ -175,34 +198,11 @@ releases:
     game_id: 8917
     description: ""
     release_date: 19910503
-  names:
-  - id: 18960
-    kind: 3
-    kind_id: 8923
-    language: 1
-    name: Cocoron (Japan) (Translated En)
-    source: ""
+  names: []
   release_publishers:
   - release_id: 8923
     publisher_id: 155
   assets:
-  - asset:
-      id: 8905
-      kind: 3
-      kind_id: 8923
-      type: 1
-      name: Cocoron (Japan) (Translated En).zip
-      description: ""
-      format: 2
-      size: 143371
-      blob_id: 0
-      debug: Cocoron (Japan) (Translated En).zip
-    entries:
-    - id: 82375
-      asset_id: 8905
-      name: Cocoron (Japan) (Translated En).nes
-      size: 262160
-      blob_id: 55032
   - asset:
       id: 38225
       kind: 3

@@ -4,6 +4,30 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 41959
+  kind: 2
+  kind_id: 18817
+  language: 1
+  name: PhantomFighter
+  source: ""
+- id: 67303
+  kind: 2
+  kind_id: 18817
+  language: 2
+  name: 灵幻道士 (美版) (动作)-Phantom Fighter (USA)
+  source: ""
+- id: 67304
+  kind: 2
+  kind_id: 18817
+  language: 1
+  name: Phantom Fighter (U) [!]
+  source: ""
+- id: 67307
+  kind: 2
+  kind_id: 18817
+  language: 2
+  name: 灵幻道士
+  source: ""
 - id: 92729
   kind: 2
   kind_id: 18817
@@ -26,6 +50,18 @@ releases:
     language: 1
     name: Phantom Fighter (U) [!]
     source: ""
+  - id: 67305
+    kind: 3
+    kind_id: 18817
+    language: 2
+    name: 灵幻道士 (美版) (动作)-Phantom Fighter (USA)
+    source: ""
+  - id: 67308
+    kind: 3
+    kind_id: 18817
+    language: 2
+    name: 灵幻道士
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -38,7 +74,10 @@ releases:
       format: 2
       size: 120259
       blob_id: 0
-      debug: Phantom Fighter (U) [!].zip
+      debug: |-
+        Phantom Fighter (U) [!].zip
+        灵幻道士 (美版) (动作)-Phantom Fighter (USA) + Phantom Fighter (U) [!].nes
+        灵幻道士.zip
     entries:
     - id: 83552
       asset_id: 18799
@@ -187,6 +226,12 @@ releases:
     language: 1
     name: Phantom Fighter (U)
     source: ""
+  - id: 41960
+    kind: 3
+    kind_id: 18823
+    language: 1
+    name: PhantomFighter
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -199,10 +244,43 @@ releases:
       format: 2
       size: 120375
       blob_id: 0
-      debug: Phantom Fighter (U).zip
+      debug: |-
+        Phantom Fighter (U).zip
+        PhantomFighter.zip
     entries:
     - id: 83553
       asset_id: 18805
       name: Phantom Fighter (U).nes
       size: 262160
       blob_id: 64356
+- release:
+    id: 28959
+    game_id: 18817
+    description: ""
+    release_date: 0
+  names:
+  - id: 95227
+    kind: 3
+    kind_id: 28959
+    language: 2
+    name: 灵幻道士
+    source: ""
+  release_publishers: []
+  assets:
+  - asset:
+      id: 28941
+      kind: 3
+      kind_id: 28959
+      type: 1
+      name: 灵幻道士.zip
+      description: ""
+      format: 2
+      size: 123774
+      blob_id: 0
+      debug: 灵幻道士_2.zip
+    entries:
+    - id: 84974
+      asset_id: 28941
+      name: 灵幻道士.nes
+      size: 262160
+      blob_id: 73283

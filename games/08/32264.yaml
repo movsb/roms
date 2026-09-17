@@ -18,7 +18,7 @@ releases:
     id: 32264
     game_id: 32264
     description: ""
-    release_date: 0
+    release_date: 20031031
   names:
   - id: 75997
     kind: 3
@@ -26,7 +26,15 @@ releases:
     language: 1
     name: Teenage Mutant Ninja Turtles (U)
     source: ""
-  release_publishers: []
+  - id: 75999
+    kind: 3
+    kind_id: 32264
+    language: 1
+    name: Teenage Mutant Ninja Turtles (USA)
+    source: ""
+  release_publishers:
+  - release_id: 32264
+    publisher_id: 2
   assets:
   - asset:
       id: 32226
@@ -38,7 +46,9 @@ releases:
       format: 2
       size: 3806229
       blob_id: 0
-      debug: Teenage Mutant Ninja Turtles (U).zip
+      debug: |-
+        Teenage Mutant Ninja Turtles (U).zip
+        Teenage Mutant Ninja Turtles (USA).zip
     entries:
     - id: 87114
       asset_id: 32226
@@ -50,34 +60,11 @@ releases:
     game_id: 32264
     description: ""
     release_date: 20031031
-  names:
-  - id: 75999
-    kind: 3
-    kind_id: 32265
-    language: 1
-    name: Teenage Mutant Ninja Turtles (USA)
-    source: ""
+  names: []
   release_publishers:
   - release_id: 32265
     publisher_id: 2
   assets:
-  - asset:
-      id: 32227
-      kind: 3
-      kind_id: 32265
-      type: 1
-      name: Teenage Mutant Ninja Turtles (USA).zip
-      description: ""
-      format: 2
-      size: 3784173
-      blob_id: 0
-      debug: Teenage Mutant Ninja Turtles (USA).zip
-    entries:
-    - id: 87115
-      asset_id: 32227
-      name: Teenage Mutant Ninja Turtles (USA).gba
-      size: 8388608
-      blob_id: 75944
   - asset:
       id: 33230
       kind: 3

@@ -4,6 +4,24 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 64941
+  kind: 2
+  kind_id: 8973
+  language: 2
+  name: 战场之狼
+  source: ""
+- id: 64949
+  kind: 2
+  kind_id: 8973
+  language: 2
+  name: 战埸之狼 (美版) (动作射击)-Commando (USA)
+  source: ""
+- id: 64950
+  kind: 2
+  kind_id: 8973
+  language: 1
+  name: Commando (U) [!]
+  source: ""
 - id: 91568
   kind: 2
   kind_id: 8973
@@ -26,6 +44,24 @@ releases:
     language: 1
     name: Commando (U) [!]
     source: ""
+  - id: 19096
+    kind: 3
+    kind_id: 8973
+    language: 1
+    name: Commando (U)
+    source: ""
+  - id: 64942
+    kind: 3
+    kind_id: 8973
+    language: 2
+    name: 战场之狼
+    source: ""
+  - id: 64951
+    kind: 3
+    kind_id: 8973
+    language: 2
+    name: 战埸之狼 (美版) (动作射击)-Commando (USA)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -38,7 +74,11 @@ releases:
       format: 2
       size: 59370
       blob_id: 0
-      debug: Commando (U) [!].zip
+      debug: |-
+        Commando (U) [!].zip
+        Commando (U).zip
+        战场之狼.zip
+        战埸之狼 (美版) (动作射击)-Commando (USA) + Commando (U) [!].nes
     entries:
     - id: 82381
       asset_id: 8955
@@ -265,6 +305,12 @@ releases:
     language: 1
     name: Commando (U) [t1]
     source: ""
+  - id: 95195
+    kind: 3
+    kind_id: 8982
+    language: 2
+    name: 战场之狼
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -277,36 +323,7 @@ releases:
       format: 1
       size: 131088
       blob_id: 55093
-      debug: Commando (U) [t1].nes
+      debug: |-
+        Commando (U) [t1].nes
+        战场之狼_2.zip
     entries: []
-- release:
-    id: 8983
-    game_id: 8973
-    description: ""
-    release_date: 0
-  names:
-  - id: 19096
-    kind: 3
-    kind_id: 8983
-    language: 1
-    name: Commando (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 8965
-      kind: 3
-      kind_id: 8983
-      type: 1
-      name: Commando (U).zip
-      description: ""
-      format: 2
-      size: 59561
-      blob_id: 0
-      debug: Commando (U).zip
-    entries:
-    - id: 82382
-      asset_id: 8965
-      name: Commando (U).nes
-      size: 131088
-      blob_id: 55084

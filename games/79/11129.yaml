@@ -98,6 +98,12 @@ releases:
     description: ""
     release_date: 0
   names:
+  - id: 24216
+    kind: 3
+    kind_id: 11132
+    language: 1
+    name: Famicom Wars (J) [T-Eng0.99_akadewboy]
+    source: ""
   - id: 82979
     kind: 3
     kind_id: 11132
@@ -116,7 +122,9 @@ releases:
       format: 2
       size: 142288
       blob_id: 0
-      debug: Famicom Wars (J) [T+Eng0.99_akadewboy].zip
+      debug: |-
+        Famicom Wars (J) [T+Eng0.99_akadewboy].zip
+        Famicom Wars (J) [T-Eng0.99_akadewboy].nes
     entries:
     - id: 82656
       asset_id: 11114
@@ -127,15 +135,23 @@ releases:
     id: 11133
     game_id: 11129
     description: ""
-    release_date: 0
+    release_date: 19880812
   names:
+  - id: 24228
+    kind: 3
+    kind_id: 11133
+    language: 1
+    name: Famicom Wars (Japan) (Translated En)
+    source: ""
   - id: 82980
     kind: 3
     kind_id: 11133
     language: 1
     name: Famicom Wars (J) [T+Eng1.11_akadewboy]
     source: ""
-  release_publishers: []
+  release_publishers:
+  - release_id: 11133
+    publisher_id: 17
   assets:
   - asset:
       id: 11115
@@ -147,7 +163,9 @@ releases:
       format: 1
       size: 259917
       blob_id: 57107
-      debug: Famicom Wars (J) [T+Eng1.11_akadewboy].nes
+      debug: |-
+        Famicom Wars (J) [T+Eng1.11_akadewboy].nes
+        Famicom Wars (Japan) (Translated En).zip
     entries: []
 - release:
     id: 11134
@@ -174,32 +192,6 @@ releases:
       size: 262160
       blob_id: 57108
       debug: Famicom Wars (J) [T-Eng0.90_akadewboy].nes
-    entries: []
-- release:
-    id: 11135
-    game_id: 11129
-    description: ""
-    release_date: 0
-  names:
-  - id: 24216
-    kind: 3
-    kind_id: 11135
-    language: 1
-    name: Famicom Wars (J) [T-Eng0.99_akadewboy]
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 11117
-      kind: 3
-      kind_id: 11135
-      type: 1
-      name: Famicom Wars (J) [T-Eng0.99_akadewboy].nes
-      description: ""
-      format: 1
-      size: 262160
-      blob_id: 57106
-      debug: Famicom Wars (J) [T-Eng0.99_akadewboy].nes
     entries: []
 - release:
     id: 11136
@@ -336,34 +328,11 @@ releases:
     game_id: 11129
     description: ""
     release_date: 19880812
-  names:
-  - id: 24228
-    kind: 3
-    kind_id: 11141
-    language: 1
-    name: Famicom Wars (Japan) (Translated En)
-    source: ""
+  names: []
   release_publishers:
   - release_id: 11141
     publisher_id: 17
   assets:
-  - asset:
-      id: 11123
-      kind: 3
-      kind_id: 11141
-      type: 1
-      name: Famicom Wars (Japan) (Translated En).zip
-      description: ""
-      format: 2
-      size: 109665
-      blob_id: 0
-      debug: Famicom Wars (Japan) (Translated En).zip
-    entries:
-    - id: 82657
-      asset_id: 11123
-      name: Famicom Wars (Japan) (Translated En).nes
-      size: 259917
-      blob_id: 57107
   - asset:
       id: 38243
       kind: 3

@@ -4,6 +4,18 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 66521
+  kind: 2
+  kind_id: 21191
+  language: 2
+  name: 死亡潜航 (美版)(Rev A) (模拟)-Silent Service (USA) (Rev A)
+  source: ""
+- id: 66522
+  kind: 2
+  kind_id: 21191
+  language: 1
+  name: Silent Service (U) (PRG1) [!]
+  source: ""
 - id: 93026
   kind: 2
   kind_id: 21191
@@ -26,6 +38,18 @@ releases:
     language: 1
     name: Silent Service (U) (PRG1) [!]
     source: ""
+  - id: 47224
+    kind: 3
+    kind_id: 21191
+    language: 1
+    name: Silent Service (U)
+    source: ""
+  - id: 66523
+    kind: 3
+    kind_id: 21191
+    language: 2
+    name: 死亡潜航 (美版)(Rev A) (模拟)-Silent Service (USA) (Rev A)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -38,7 +62,10 @@ releases:
       format: 2
       size: 48727
       blob_id: 0
-      debug: Silent Service (U) (PRG1) [!].zip
+      debug: |-
+        Silent Service (U) (PRG1) [!].zip
+        Silent Service (U).zip
+        死亡潜航 (美版)(Rev A) (模拟)-Silent Service (USA) (Rev A) + Silent Service (U) (PRG1) [!].nes
     entries:
     - id: 83828
       asset_id: 21173
@@ -97,34 +124,3 @@ releases:
       blob_id: 66596
       debug: Silent Service (U) (PRG1) [o1].nes
     entries: []
-- release:
-    id: 21194
-    game_id: 21191
-    description: ""
-    release_date: 0
-  names:
-  - id: 47224
-    kind: 3
-    kind_id: 21194
-    language: 1
-    name: Silent Service (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 21176
-      kind: 3
-      kind_id: 21194
-      type: 1
-      name: Silent Service (U).zip
-      description: ""
-      format: 2
-      size: 48823
-      blob_id: 0
-      debug: Silent Service (U).zip
-    entries:
-    - id: 83829
-      asset_id: 21176
-      name: Silent Service (U).nes
-      size: 131088
-      blob_id: 66594

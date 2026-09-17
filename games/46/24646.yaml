@@ -4,6 +4,18 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 68349
+  kind: 2
+  kind_id: 24646
+  language: 2
+  name: 神鹰一号
+  source: ""
+- id: 68350
+  kind: 2
+  kind_id: 24646
+  language: 1
+  name: Terra Cresta (U) [!]
+  source: ""
 - id: 93376
   kind: 2
   kind_id: 24646
@@ -78,6 +90,12 @@ releases:
     language: 1
     name: Terra Cresta (U) [!]
     source: ""
+  - id: 68351
+    kind: 3
+    kind_id: 24648
+    language: 2
+    name: 神鹰一号
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -90,7 +108,9 @@ releases:
       format: 2
       size: 60017
       blob_id: 0
-      debug: Terra Cresta (U) [!].zip
+      debug: |-
+        Terra Cresta (U) [!].zip
+        神鹰一号 + Terra Cresta (U) [!].nes
     entries:
     - id: 84132
       asset_id: 24630
@@ -109,6 +129,12 @@ releases:
     language: 1
     name: Terra Cresta (U) [b1]
     source: ""
+  - id: 55060
+    kind: 3
+    kind_id: 24649
+    language: 1
+    name: Terra Cresta (U)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -121,7 +147,9 @@ releases:
       format: 1
       size: 131088
       blob_id: 69908
-      debug: Terra Cresta (U) [b1].nes
+      debug: |-
+        Terra Cresta (U) [b1].nes
+        Terra Cresta (U).zip
     entries: []
 - release:
     id: 24650
@@ -149,34 +177,3 @@ releases:
       blob_id: 69909
       debug: Terra Cresta (U) [b1][o1].nes
     entries: []
-- release:
-    id: 24651
-    game_id: 24646
-    description: ""
-    release_date: 0
-  names:
-  - id: 55060
-    kind: 3
-    kind_id: 24651
-    language: 1
-    name: Terra Cresta (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 24633
-      kind: 3
-      kind_id: 24651
-      type: 1
-      name: Terra Cresta (U).zip
-      description: ""
-      format: 2
-      size: 60080
-      blob_id: 0
-      debug: Terra Cresta (U).zip
-    entries:
-    - id: 84133
-      asset_id: 24633
-      name: Terra Cresta (U).nes
-      size: 131088
-      blob_id: 69908

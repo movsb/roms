@@ -4,6 +4,24 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 61513
+  kind: 2
+  kind_id: 17872
+  language: 2
+  name: 北与南 (美版) (策略)-North & South (USA)
+  source: ""
+- id: 61514
+  kind: 2
+  kind_id: 17872
+  language: 1
+  name: North & South (U) [!]
+  source: ""
+- id: 61627
+  kind: 2
+  kind_id: 17872
+  language: 2
+  name: 南北战争
+  source: ""
 - id: 92659
   kind: 2
   kind_id: 17872
@@ -52,6 +70,18 @@ releases:
     language: 1
     name: North & South (U) [!]
     source: ""
+  - id: 61515
+    kind: 3
+    kind_id: 17873
+    language: 2
+    name: 北与南 (美版) (策略)-North & South (USA)
+    source: ""
+  - id: 61628
+    kind: 3
+    kind_id: 17873
+    language: 2
+    name: 南北战争
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -64,7 +94,10 @@ releases:
       format: 2
       size: 111059
       blob_id: 0
-      debug: North & South (U) [!].zip
+      debug: |-
+        North & South (U) [!].zip
+        北与南 (美版) (策略)-North & South (USA) + North & South (U) [!].nes
+        南北战争.zip
     entries:
     - id: 83483
       asset_id: 17855
@@ -109,6 +142,12 @@ releases:
     language: 1
     name: North & South (U) [b1]
     source: ""
+  - id: 39978
+    kind: 3
+    kind_id: 17875
+    language: 1
+    name: North & South (U)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -121,7 +160,9 @@ releases:
       format: 1
       size: 262160
       blob_id: 63441
-      debug: North & South (U) [b1].nes
+      debug: |-
+        North & South (U) [b1].nes
+        North & South (U).zip
     entries: []
 - release:
     id: 17876
@@ -331,34 +372,3 @@ releases:
       blob_id: 63449
       debug: North & South (U) [b7].nes
     entries: []
-- release:
-    id: 17884
-    game_id: 17872
-    description: ""
-    release_date: 0
-  names:
-  - id: 39978
-    kind: 3
-    kind_id: 17884
-    language: 1
-    name: North & South (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 17866
-      kind: 3
-      kind_id: 17884
-      type: 1
-      name: North & South (U).zip
-      description: ""
-      format: 2
-      size: 111459
-      blob_id: 0
-      debug: North & South (U).zip
-    entries:
-    - id: 83484
-      asset_id: 17866
-      name: North & South (U).nes
-      size: 262160
-      blob_id: 63441

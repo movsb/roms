@@ -26,6 +26,18 @@ releases:
     language: 1
     name: Stunt Kids (Camerica) [!]
     source: ""
+  - id: 49346
+    kind: 3
+    kind_id: 22161
+    language: 1
+    name: Stunt Kids (U)
+    source: ""
+  - id: 49348
+    kind: 3
+    kind_id: 22161
+    language: 1
+    name: Stunt Kids (Unl) [!p]
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -38,7 +50,10 @@ releases:
       format: 1
       size: 131088
       blob_id: 67495
-      debug: Stunt Kids (Camerica) [!].nes
+      debug: |-
+        Stunt Kids (Camerica) [!].nes
+        Stunt Kids (U).zip
+        Stunt Kids (Unl) [!p].zip
     entries: []
 - release:
     id: 22162
@@ -66,65 +81,3 @@ releases:
       blob_id: 67496
       debug: Stunt Kids (Camerica) [o1].nes
     entries: []
-- release:
-    id: 22163
-    game_id: 22161
-    description: ""
-    release_date: 0
-  names:
-  - id: 49346
-    kind: 3
-    kind_id: 22163
-    language: 1
-    name: Stunt Kids (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 22145
-      kind: 3
-      kind_id: 22163
-      type: 1
-      name: Stunt Kids (U).zip
-      description: ""
-      format: 2
-      size: 86623
-      blob_id: 0
-      debug: Stunt Kids (U).zip
-    entries:
-    - id: 83976
-      asset_id: 22145
-      name: Stunt Kids (U).nes
-      size: 131088
-      blob_id: 67495
-- release:
-    id: 22164
-    game_id: 22161
-    description: ""
-    release_date: 0
-  names:
-  - id: 49348
-    kind: 3
-    kind_id: 22164
-    language: 1
-    name: Stunt Kids (Unl) [!p]
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 22146
-      kind: 3
-      kind_id: 22164
-      type: 1
-      name: Stunt Kids (Unl) [!p].zip
-      description: ""
-      format: 2
-      size: 86629
-      blob_id: 0
-      debug: Stunt Kids (Unl) [!p].zip
-    entries:
-    - id: 83977
-      asset_id: 22146
-      name: Stunt Kids (Unl) [!p].nes
-      size: 131088
-      blob_id: 67495

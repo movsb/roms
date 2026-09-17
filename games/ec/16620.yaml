@@ -4,6 +4,24 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 45761
+  kind: 2
+  kind_id: 16620
+  language: 2
+  name: SD 街头快打 (美版) (动作)-Mighty Final Fight (USA)
+  source: ""
+- id: 45762
+  kind: 2
+  kind_id: 16620
+  language: 1
+  name: Mighty Final Fight (U) [!]
+  source: ""
+- id: 64639
+  kind: 2
+  kind_id: 16620
+  language: 2
+  name: 快打旋风SD
+  source: ""
 - id: 92499
   kind: 2
   kind_id: 16620
@@ -130,6 +148,12 @@ releases:
     language: 1
     name: Mighty Final Fight (J) [T-Chi_EmuCn]
     source: ""
+  - id: 64640
+    kind: 3
+    kind_id: 16624
+    language: 2
+    name: 快打旋风SD
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -142,7 +166,9 @@ releases:
       format: 1
       size: 262160
       blob_id: 62259
-      debug: Mighty Final Fight (J) [T-Chi_EmuCn].nes
+      debug: |-
+        Mighty Final Fight (J) [T-Chi_EmuCn].nes
+        快打旋风SD.zip
     entries: []
 - release:
     id: 16625
@@ -338,6 +364,24 @@ releases:
     language: 1
     name: Mighty Final Fight (U) [!p]
     source: ""
+  - id: 37080
+    kind: 3
+    kind_id: 16632
+    language: 1
+    name: Mighty Final Fight (U)
+    source: ""
+  - id: 45763
+    kind: 3
+    kind_id: 16632
+    language: 2
+    name: SD 街头快打 (美版) (动作)-Mighty Final Fight (USA)
+    source: ""
+  - id: 45764
+    kind: 3
+    kind_id: 16632
+    language: 1
+    name: Mighty Final Fight (U) [!]
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -350,7 +394,10 @@ releases:
       format: 2
       size: 146310
       blob_id: 0
-      debug: Mighty Final Fight (U) [!p].zip
+      debug: |-
+        Mighty Final Fight (U) [!p].zip
+        Mighty Final Fight (U).zip
+        SD 街头快打 (美版) (动作)-Mighty Final Fight (USA) + Mighty Final Fight (U) [!].nes
     entries:
     - id: 83350
       asset_id: 16614
@@ -747,34 +794,3 @@ releases:
       blob_id: 62282
       debug: Mighty Final Fight (U) [t5].nes
     entries: []
-- release:
-    id: 16648
-    game_id: 16620
-    description: ""
-    release_date: 0
-  names:
-  - id: 37080
-    kind: 3
-    kind_id: 16648
-    language: 1
-    name: Mighty Final Fight (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 16630
-      kind: 3
-      kind_id: 16648
-      type: 1
-      name: Mighty Final Fight (U).zip
-      description: ""
-      format: 2
-      size: 146805
-      blob_id: 0
-      debug: Mighty Final Fight (U).zip
-    entries:
-    - id: 83351
-      asset_id: 16630
-      name: Mighty Final Fight (U).nes
-      size: 262160
-      blob_id: 62267

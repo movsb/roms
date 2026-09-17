@@ -4,6 +4,18 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 61571
+  kind: 2
+  kind_id: 11912
+  language: 2
+  name: 十三号星期五 (美版) (动作)-Friday the 13th (USA)
+  source: ""
+- id: 61572
+  kind: 2
+  kind_id: 11912
+  language: 1
+  name: Friday the 13th (U) [!]
+  source: ""
 - id: 91922
   kind: 2
   kind_id: 11912
@@ -26,6 +38,18 @@ releases:
     language: 1
     name: Friday the 13th (U) [!]
     source: ""
+  - id: 26136
+    kind: 3
+    kind_id: 11912
+    language: 1
+    name: Friday the 13th (U)
+    source: ""
+  - id: 61573
+    kind: 3
+    kind_id: 11912
+    language: 2
+    name: 十三号星期五 (美版) (动作)-Friday the 13th (USA)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -38,7 +62,10 @@ releases:
       format: 2
       size: 41903
       blob_id: 0
-      debug: Friday the 13th (U) [!].zip
+      debug: |-
+        Friday the 13th (U) [!].zip
+        Friday the 13th (U).zip
+        十三号星期五 (美版) (动作)-Friday the 13th (USA) + Friday the 13th (U) [!].nes
     entries:
     - id: 82736
       asset_id: 11894
@@ -357,34 +384,3 @@ releases:
       blob_id: 57856
       debug: Friday the 13th (U) [p1][o3].nes
     entries: []
-- release:
-    id: 11925
-    game_id: 11912
-    description: ""
-    release_date: 0
-  names:
-  - id: 26136
-    kind: 3
-    kind_id: 11925
-    language: 1
-    name: Friday the 13th (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 11907
-      kind: 3
-      kind_id: 11925
-      type: 1
-      name: Friday the 13th (U).zip
-      description: ""
-      format: 2
-      size: 41917
-      blob_id: 0
-      debug: Friday the 13th (U).zip
-    entries:
-    - id: 82737
-      asset_id: 11907
-      name: Friday the 13th (U).nes
-      size: 65552
-      blob_id: 57844

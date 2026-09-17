@@ -10,6 +10,18 @@ names:
   language: 1
   name: Volleyball
   source: ""
+- id: 60339
+  kind: 2
+  kind_id: 25642
+  language: 2
+  name: 任天堂排球 (美版,欧版) (运动)-Volleyball (USA, Europe)
+  source: ""
+- id: 60340
+  kind: 2
+  kind_id: 25642
+  language: 1
+  name: Volleyball (UE) [!]
+  source: ""
 game_developers: []
 game_genres: []
 assets: []
@@ -182,6 +194,18 @@ releases:
     language: 1
     name: Volleyball (U)
     source: ""
+  - id: 57298
+    kind: 3
+    kind_id: 25629
+    language: 1
+    name: Volleyball (UE) [!]
+    source: ""
+  - id: 60341
+    kind: 3
+    kind_id: 25629
+    language: 2
+    name: 任天堂排球 (美版,欧版) (运动)-Volleyball (USA, Europe)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -194,7 +218,10 @@ releases:
       format: 2
       size: 20625
       blob_id: 0
-      debug: Volleyball (U).zip
+      debug: |-
+        Volleyball (U).zip
+        Volleyball (UE) [!].zip
+        任天堂排球 (美版,欧版) (运动)-Volleyball (USA, Europe) + Volleyball (UE) [!].nes
     entries:
     - id: 84283
       asset_id: 25611
@@ -227,37 +254,6 @@ releases:
       blob_id: 70814
       debug: Volleyball (UE) (VC).nes
     entries: []
-- release:
-    id: 25631
-    game_id: 25642
-    description: ""
-    release_date: 0
-  names:
-  - id: 57298
-    kind: 3
-    kind_id: 25631
-    language: 1
-    name: Volleyball (UE) [!]
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 25613
-      kind: 3
-      kind_id: 25631
-      type: 1
-      name: Volleyball (UE) [!].zip
-      description: ""
-      format: 2
-      size: 20618
-      blob_id: 0
-      debug: Volleyball (UE) [!].zip
-    entries:
-    - id: 84284
-      asset_id: 25613
-      name: Volleyball (UE) [!].nes
-      size: 40976
-      blob_id: 70813
 - release:
     id: 25632
     game_id: 25642

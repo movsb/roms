@@ -4,6 +4,18 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 63461
+  kind: 2
+  kind_id: 11167
+  language: 2
+  name: 家庭对抗赛 (美版) (益智)-Family Feud (USA)
+  source: ""
+- id: 63462
+  kind: 2
+  kind_id: 11167
+  language: 1
+  name: Family Feud (U) [!]
+  source: ""
 - id: 91839
   kind: 2
   kind_id: 11167
@@ -26,6 +38,18 @@ releases:
     language: 1
     name: Family Feud (U) [!]
     source: ""
+  - id: 24288
+    kind: 3
+    kind_id: 11167
+    language: 1
+    name: Family Feud (U)
+    source: ""
+  - id: 63463
+    kind: 3
+    kind_id: 11167
+    language: 2
+    name: 家庭对抗赛 (美版) (益智)-Family Feud (USA)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -38,7 +62,10 @@ releases:
       format: 2
       size: 100656
       blob_id: 0
-      debug: Family Feud (U) [!].zip
+      debug: |-
+        Family Feud (U) [!].zip
+        Family Feud (U).zip
+        家庭对抗赛 (美版) (益智)-Family Feud (USA) + Family Feud (U) [!].nes
     entries:
     - id: 82658
       asset_id: 11149
@@ -97,34 +124,3 @@ releases:
       blob_id: 57141
       debug: Family Feud (U) [o1].nes
     entries: []
-- release:
-    id: 11170
-    game_id: 11167
-    description: ""
-    release_date: 0
-  names:
-  - id: 24288
-    kind: 3
-    kind_id: 11170
-    language: 1
-    name: Family Feud (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 11152
-      kind: 3
-      kind_id: 11170
-      type: 1
-      name: Family Feud (U).zip
-      description: ""
-      format: 2
-      size: 100645
-      blob_id: 0
-      debug: Family Feud (U).zip
-    entries:
-    - id: 82659
-      asset_id: 11152
-      name: Family Feud (U).nes
-      size: 163856
-      blob_id: 57139

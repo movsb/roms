@@ -26,6 +26,12 @@ releases:
     language: 1
     name: Pokemon Silver (Unl) [b1]
     source: ""
+  - id: 42292
+    kind: 3
+    kind_id: 18980
+    language: 1
+    name: Pokemon Silver (Unl)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -38,7 +44,9 @@ releases:
       format: 1
       size: 262160
       blob_id: 64501
-      debug: Pokemon Silver (Unl) [b1].nes
+      debug: |-
+        Pokemon Silver (Unl) [b1].nes
+        Pokemon Silver (Unl).zip
     entries: []
 - release:
     id: 18981
@@ -66,34 +74,3 @@ releases:
       blob_id: 64502
       debug: Pokemon Silver (Unl) [o1].nes
     entries: []
-- release:
-    id: 18982
-    game_id: 18980
-    description: ""
-    release_date: 0
-  names:
-  - id: 42292
-    kind: 3
-    kind_id: 18982
-    language: 1
-    name: Pokemon Silver (Unl)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 18964
-      kind: 3
-      kind_id: 18982
-      type: 1
-      name: Pokemon Silver (Unl).zip
-      description: ""
-      format: 2
-      size: 145677
-      blob_id: 0
-      debug: Pokemon Silver (Unl).zip
-    entries:
-    - id: 83579
-      asset_id: 18964
-      name: Pokemon Silver (Unl).nes
-      size: 262160
-      blob_id: 64501

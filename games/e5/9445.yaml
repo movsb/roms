@@ -4,6 +4,24 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 64733
+  kind: 2
+  kind_id: 9445
+  language: 2
+  name: 怪鸭历险记
+  source: ""
+- id: 70541
+  kind: 2
+  kind_id: 9445
+  language: 2
+  name: 达克鸭历险记 (美版) (动作)-Darkwing Duck (USA)
+  source: ""
+- id: 70542
+  kind: 2
+  kind_id: 9445
+  language: 1
+  name: Darkwing Duck (U) [!]
+  source: ""
 - id: 91617
   kind: 2
   kind_id: 9445
@@ -52,6 +70,24 @@ releases:
     language: 1
     name: Darkwing Duck (U) [!]
     source: ""
+  - id: 20302
+    kind: 3
+    kind_id: 9446
+    language: 1
+    name: Darkwing Duck (U)
+    source: ""
+  - id: 64734
+    kind: 3
+    kind_id: 9446
+    language: 2
+    name: 怪鸭历险记
+    source: ""
+  - id: 70543
+    kind: 3
+    kind_id: 9446
+    language: 2
+    name: 达克鸭历险记 (美版) (动作)-Darkwing Duck (USA)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -64,7 +100,11 @@ releases:
       format: 2
       size: 127152
       blob_id: 0
-      debug: Darkwing Duck (U) [!].zip
+      debug: |-
+        Darkwing Duck (U) [!].zip
+        Darkwing Duck (U).zip
+        怪鸭历险记.zip
+        达克鸭历险记 (美版) (动作)-Darkwing Duck (USA) + Darkwing Duck (U) [!].nes
     entries:
     - id: 82444
       asset_id: 9428
@@ -903,34 +943,3 @@ releases:
       blob_id: 55558
       debug: Darkwing Duck (U) [t6].nes
     entries: []
-- release:
-    id: 9479
-    game_id: 9445
-    description: ""
-    release_date: 0
-  names:
-  - id: 20302
-    kind: 3
-    kind_id: 9479
-    language: 1
-    name: Darkwing Duck (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 9461
-      kind: 3
-      kind_id: 9479
-      type: 1
-      name: Darkwing Duck (U).zip
-      description: ""
-      format: 2
-      size: 127503
-      blob_id: 0
-      debug: Darkwing Duck (U).zip
-    entries:
-    - id: 82445
-      asset_id: 9461
-      name: Darkwing Duck (U).nes
-      size: 262160
-      blob_id: 55526

@@ -4,6 +4,18 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 69143
+  kind: 2
+  kind_id: 15142
+  language: 2
+  name: 致命武器 (美版) (动作)-Lethal Weapon (USA)
+  source: ""
+- id: 69144
+  kind: 2
+  kind_id: 15142
+  language: 1
+  name: Lethal Weapon (U) [!]
+  source: ""
 - id: 92317
   kind: 2
   kind_id: 15142
@@ -52,6 +64,18 @@ releases:
     language: 1
     name: Lethal Weapon (U) [!]
     source: ""
+  - id: 33612
+    kind: 3
+    kind_id: 15143
+    language: 1
+    name: Lethal Weapon (U)
+    source: ""
+  - id: 69145
+    kind: 3
+    kind_id: 15143
+    language: 2
+    name: 致命武器 (美版) (动作)-Lethal Weapon (USA)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -64,7 +88,10 @@ releases:
       format: 2
       size: 89326
       blob_id: 0
-      debug: Lethal Weapon (U) [!].zip
+      debug: |-
+        Lethal Weapon (U) [!].zip
+        Lethal Weapon (U).zip
+        致命武器 (美版) (动作)-Lethal Weapon (USA) + Lethal Weapon (U) [!].nes
     entries:
     - id: 83168
       asset_id: 15125
@@ -175,34 +202,3 @@ releases:
       blob_id: 60868
       debug: Lethal Weapon (U) [p1].nes
     entries: []
-- release:
-    id: 15148
-    game_id: 15142
-    description: ""
-    release_date: 0
-  names:
-  - id: 33612
-    kind: 3
-    kind_id: 15148
-    language: 1
-    name: Lethal Weapon (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 15130
-      kind: 3
-      kind_id: 15148
-      type: 1
-      name: Lethal Weapon (U).zip
-      description: ""
-      format: 2
-      size: 89698
-      blob_id: 0
-      debug: Lethal Weapon (U).zip
-    entries:
-    - id: 83169
-      asset_id: 15130
-      name: Lethal Weapon (U).nes
-      size: 262160
-      blob_id: 60864

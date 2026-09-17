@@ -4,6 +4,18 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 66999
+  kind: 2
+  kind_id: 8412
+  language: 2
+  name: 淘金者
+  source: ""
+- id: 67001
+  kind: 2
+  kind_id: 8412
+  language: 2
+  name: 淘金者1
+  source: ""
 - id: 91513
   kind: 2
   kind_id: 8412
@@ -208,6 +220,12 @@ releases:
     language: 1
     name: Championship Lode Runner (J) [o1]
     source: ""
+  - id: 67000
+    kind: 3
+    kind_id: 8419
+    language: 2
+    name: 淘金者
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -220,7 +238,9 @@ releases:
       format: 1
       size: 40976
       blob_id: 54557
-      debug: Championship Lode Runner (J) [o1].nes
+      debug: |-
+        Championship Lode Runner (J) [o1].nes
+        淘金者.zip
     entries: []
 - release:
     id: 8420
@@ -286,6 +306,12 @@ releases:
     language: 1
     name: Championship Lode Runner (Japan)
     source: ""
+  - id: 67002
+    kind: 3
+    kind_id: 8422
+    language: 2
+    name: 淘金者1
+    source: ""
   release_publishers:
   - release_id: 8422
     publisher_id: 134
@@ -300,7 +326,10 @@ releases:
       format: 2
       size: 17236
       blob_id: 0
-      debug: Championship Lode Runner (Japan).zip
+      debug: |-
+        Championship Lode Runner (Japan).zip
+        淘金者1.nes
+        重复的/金牌掏金者 (日版) (益智)-Championship Lode Runner (Japan) + Championship Lode Runner (J) [!].nes
     entries:
     - id: 82326
       asset_id: 8404
@@ -331,3 +360,66 @@ releases:
       blob_id: 82116
       debug: ""
     entries: []
+- release:
+    id: 28868
+    game_id: 8412
+    description: ""
+    release_date: 0
+  names:
+  - id: 67007
+    kind: 3
+    kind_id: 28868
+    language: 2
+    name: 淘金者[叶枫汉化]
+    source: ""
+  - id: 67008
+    kind: 3
+    kind_id: 28868
+    language: 1
+    name: Championship Lode Runner (J) [T-Chi]
+    source: ""
+  release_publishers: []
+  assets:
+  - asset:
+      id: 28850
+      kind: 3
+      kind_id: 28868
+      type: 1
+      name: 淘金者[叶枫汉化] + Championship Lode Runner (J) [T-Chi].nes
+      description: ""
+      format: 1
+      size: 49168
+      blob_id: 73226
+      debug: 淘金者[叶枫汉化] + Championship Lode Runner (J) [T-Chi].nes
+    entries: []
+- release:
+    id: 28869
+    game_id: 8412
+    description: ""
+    release_date: 0
+  names:
+  - id: 95224
+    kind: 3
+    kind_id: 28869
+    language: 2
+    name: 淘金者
+    source: ""
+  release_publishers: []
+  assets:
+  - asset:
+      id: 28851
+      kind: 3
+      kind_id: 28869
+      type: 1
+      name: 淘金者.zip
+      description: ""
+      format: 2
+      size: 16359
+      blob_id: 0
+      debug: 淘金者_2.zip
+    entries:
+    - id: 84949
+      asset_id: 28851
+      name: 淘金者.nes
+      size: 24592
+      blob_id: 73227

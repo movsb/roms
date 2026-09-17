@@ -4,6 +4,18 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 68225
+  kind: 2
+  kind_id: 8910
+  language: 2
+  name: 眼镜蛇快艇 (美版) (射击)-Cobra Triangle (USA)
+  source: ""
+- id: 68226
+  kind: 2
+  kind_id: 8910
+  language: 1
+  name: Cobra Triangle (U) [!]
+  source: ""
 - id: 91562
   kind: 2
   kind_id: 8910
@@ -52,6 +64,18 @@ releases:
     language: 1
     name: Cobra Triangle (U) [!]
     source: ""
+  - id: 18940
+    kind: 3
+    kind_id: 8911
+    language: 1
+    name: Cobra Triangle (U)
+    source: ""
+  - id: 68227
+    kind: 3
+    kind_id: 8911
+    language: 2
+    name: 眼镜蛇快艇 (美版) (射击)-Cobra Triangle (USA)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -64,7 +88,10 @@ releases:
       format: 2
       size: 86615
       blob_id: 0
-      debug: Cobra Triangle (U) [!].zip
+      debug: |-
+        Cobra Triangle (U) [!].zip
+        Cobra Triangle (U).zip
+        眼镜蛇快艇 (美版) (射击)-Cobra Triangle (USA) + Cobra Triangle (U) [!].nes
     entries:
     - id: 82373
       asset_id: 8893
@@ -149,34 +176,3 @@ releases:
       blob_id: 55030
       debug: Cobra Triangle (U) [o1].nes
     entries: []
-- release:
-    id: 8915
-    game_id: 8910
-    description: ""
-    release_date: 0
-  names:
-  - id: 18940
-    kind: 3
-    kind_id: 8915
-    language: 1
-    name: Cobra Triangle (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 8897
-      kind: 3
-      kind_id: 8915
-      type: 1
-      name: Cobra Triangle (U).zip
-      description: ""
-      format: 2
-      size: 86663
-      blob_id: 0
-      debug: Cobra Triangle (U).zip
-    entries:
-    - id: 82374
-      asset_id: 8897
-      name: Cobra Triangle (U).nes
-      size: 131088
-      blob_id: 55027

@@ -4,6 +4,18 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 64105
+  kind: 2
+  kind_id: 12918
+  language: 2
+  name: 帽子方块 (美版) (益智)-Hatris (USA)
+  source: ""
+- id: 64106
+  kind: 2
+  kind_id: 12918
+  language: 1
+  name: Hatris (U) [!]
+  source: ""
 - id: 92052
   kind: 2
   kind_id: 12918
@@ -78,6 +90,24 @@ releases:
     language: 1
     name: Hatris (U) [!p]
     source: ""
+  - id: 28382
+    kind: 3
+    kind_id: 12920
+    language: 1
+    name: Hatris (U)
+    source: ""
+  - id: 64107
+    kind: 3
+    kind_id: 12920
+    language: 2
+    name: 帽子方块 (美版) (益智)-Hatris (USA)
+    source: ""
+  - id: 64108
+    kind: 3
+    kind_id: 12920
+    language: 1
+    name: Hatris (U) [!]
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -90,7 +120,10 @@ releases:
       format: 2
       size: 56521
       blob_id: 0
-      debug: Hatris (U) [!p].zip
+      debug: |-
+        Hatris (U) [!p].zip
+        Hatris (U).zip
+        帽子方块 (美版) (益智)-Hatris (USA) + Hatris (U) [!].nes
     entries:
     - id: 82863
       asset_id: 12902
@@ -175,34 +208,3 @@ releases:
       blob_id: 58805
       debug: Hatris (U) [o1].nes
     entries: []
-- release:
-    id: 12924
-    game_id: 12918
-    description: ""
-    release_date: 0
-  names:
-  - id: 28382
-    kind: 3
-    kind_id: 12924
-    language: 1
-    name: Hatris (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 12906
-      kind: 3
-      kind_id: 12924
-      type: 1
-      name: Hatris (U).zip
-      description: ""
-      format: 2
-      size: 56564
-      blob_id: 0
-      debug: Hatris (U).zip
-    entries:
-    - id: 82864
-      asset_id: 12906
-      name: Hatris (U).nes
-      size: 131088
-      blob_id: 58802

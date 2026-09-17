@@ -4,6 +4,18 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 72127
+  kind: 2
+  kind_id: 14107
+  language: 2
+  name: 鸵鸟骑士 (美版) (动作)-Joust (USA)
+  source: ""
+- id: 72128
+  kind: 2
+  kind_id: 14107
+  language: 1
+  name: Joust (U) [!]
+  source: ""
 - id: 92191
   kind: 2
   kind_id: 14107
@@ -52,6 +64,12 @@ releases:
     language: 1
     name: Joust (U) [!]
     source: ""
+  - id: 72129
+    kind: 3
+    kind_id: 14108
+    language: 2
+    name: 鸵鸟骑士 (美版) (动作)-Joust (USA)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -64,7 +82,9 @@ releases:
       format: 2
       size: 19148
       blob_id: 0
-      debug: Joust (U) [!].zip
+      debug: |-
+        Joust (U) [!].zip
+        鸵鸟骑士 (美版) (动作)-Joust (USA) + Joust (U) [!].nes
     entries:
     - id: 83022
       asset_id: 14090
@@ -83,6 +103,12 @@ releases:
     language: 1
     name: Joust (U) [b1]
     source: ""
+  - id: 31110
+    kind: 3
+    kind_id: 14109
+    language: 1
+    name: Joust (U)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -95,7 +121,9 @@ releases:
       format: 1
       size: 49168
       blob_id: 59905
-      debug: Joust (U) [b1].nes
+      debug: |-
+        Joust (U) [b1].nes
+        Joust (U).zip
     entries: []
 - release:
     id: 14110
@@ -175,34 +203,3 @@ releases:
       blob_id: 59908
       debug: Joust (U) [o2].nes
     entries: []
-- release:
-    id: 14113
-    game_id: 14107
-    description: ""
-    release_date: 0
-  names:
-  - id: 31110
-    kind: 3
-    kind_id: 14113
-    language: 1
-    name: Joust (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 14095
-      kind: 3
-      kind_id: 14113
-      type: 1
-      name: Joust (U).zip
-      description: ""
-      format: 2
-      size: 19324
-      blob_id: 0
-      debug: Joust (U).zip
-    entries:
-    - id: 83023
-      asset_id: 14095
-      name: Joust (U).nes
-      size: 49168
-      blob_id: 59905

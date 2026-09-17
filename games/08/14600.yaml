@@ -4,6 +4,24 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 62317
+  kind: 2
+  kind_id: 14600
+  language: 2
+  name: 国王骑士 (美版) (动作射击)-Kings Knight (USA)
+  source: ""
+- id: 62318
+  kind: 2
+  kind_id: 14600
+  language: 1
+  name: King's Knight (U) [!]
+  source: ""
+- id: 62321
+  kind: 2
+  kind_id: 14600
+  language: 2
+  name: 国王骑士
+  source: ""
 - id: 92247
   kind: 2
   kind_id: 14600
@@ -208,6 +226,24 @@ releases:
     language: 1
     name: King's Knight (U) [!]
     source: ""
+  - id: 32372
+    kind: 3
+    kind_id: 14607
+    language: 1
+    name: King's Knight (U)
+    source: ""
+  - id: 62319
+    kind: 3
+    kind_id: 14607
+    language: 2
+    name: 国王骑士 (美版) (动作射击)-Kings Knight (USA)
+    source: ""
+  - id: 62322
+    kind: 3
+    kind_id: 14607
+    language: 2
+    name: 国王骑士
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -220,7 +256,11 @@ releases:
       format: 2
       size: 41558
       blob_id: 0
-      debug: King's Knight (U) [!].zip
+      debug: |-
+        King's Knight (U) [!].zip
+        King's Knight (U).zip
+        国王骑士 (美版) (动作射击)-Kings Knight (USA) + King's Knight (U) [!].nes
+        国王骑士.zip
     entries:
     - id: 83098
       asset_id: 14589
@@ -435,34 +475,3 @@ releases:
       blob_id: 60370
       debug: King's Knight (U) [t1].nes
     entries: []
-- release:
-    id: 14616
-    game_id: 14600
-    description: ""
-    release_date: 0
-  names:
-  - id: 32372
-    kind: 3
-    kind_id: 14616
-    language: 1
-    name: King's Knight (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 14598
-      kind: 3
-      kind_id: 14616
-      type: 1
-      name: King's Knight (U).zip
-      description: ""
-      format: 2
-      size: 41597
-      blob_id: 0
-      debug: King's Knight (U).zip
-    entries:
-    - id: 83099
-      asset_id: 14598
-      name: King's Knight (U).nes
-      size: 65552
-      blob_id: 60362

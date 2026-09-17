@@ -4,6 +4,18 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 71101
+  kind: 2
+  kind_id: 12064
+  language: 2
+  name: 银河竞赛 5000 (美版) (竞赛)-Galaxy 5000 (USA)
+  source: ""
+- id: 71102
+  kind: 2
+  kind_id: 12064
+  language: 1
+  name: Galaxy 5000 (U) [!]
+  source: ""
 - id: 91943
   kind: 2
   kind_id: 12064
@@ -26,6 +38,18 @@ releases:
     language: 1
     name: Galaxy 5000 (U) [!]
     source: ""
+  - id: 26486
+    kind: 3
+    kind_id: 12064
+    language: 1
+    name: Galaxy 5000 (U)
+    source: ""
+  - id: 71103
+    kind: 3
+    kind_id: 12064
+    language: 2
+    name: 银河竞赛 5000 (美版) (竞赛)-Galaxy 5000 (USA)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -38,7 +62,10 @@ releases:
       format: 2
       size: 140406
       blob_id: 0
-      debug: Galaxy 5000 (U) [!].zip
+      debug: |-
+        Galaxy 5000 (U) [!].zip
+        Galaxy 5000 (U).zip
+        银河竞赛 5000 (美版) (竞赛)-Galaxy 5000 (USA) + Galaxy 5000 (U) [!].nes
     entries:
     - id: 82758
       asset_id: 12046
@@ -201,34 +228,3 @@ releases:
       blob_id: 57991
       debug: Galaxy 5000 (U) [o1].nes
     entries: []
-- release:
-    id: 12071
-    game_id: 12064
-    description: ""
-    release_date: 0
-  names:
-  - id: 26486
-    kind: 3
-    kind_id: 12071
-    language: 1
-    name: Galaxy 5000 (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 12053
-      kind: 3
-      kind_id: 12071
-      type: 1
-      name: Galaxy 5000 (U).zip
-      description: ""
-      format: 2
-      size: 140957
-      blob_id: 0
-      debug: Galaxy 5000 (U).zip
-    entries:
-    - id: 82759
-      asset_id: 12053
-      name: Galaxy 5000 (U).nes
-      size: 262160
-      blob_id: 57985

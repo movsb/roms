@@ -9,11 +9,35 @@ game:
     Unlike the sequel, the Famicom version was never released outside of Japan.
   series_id: 0
 names:
+- id: 19423
+  kind: 2
+  kind_id: 12491
+  language: 1
+  name: Contra 6 (Goonies Hack)
+  source: ""
 - id: 27397
   kind: 2
   kind_id: 12491
   language: 1
   name: Goonies (Japan)
+  source: ""
+- id: 59649
+  kind: 2
+  kind_id: 12491
+  language: 2
+  name: 七宝奇谋
+  source: ""
+- id: 59653
+  kind: 2
+  kind_id: 12491
+  language: 2
+  name: 七宝奇谋1
+  source: ""
+- id: 93641
+  kind: 2
+  kind_id: 12491
+  language: 1
+  name: Goonies, The
   source: ""
 game_developers:
 - game_id: 12491
@@ -23,6 +47,40 @@ game_genres:
   genre_id: 4
 assets: []
 releases:
+- release:
+    id: 9101
+    game_id: 12491
+    description: ""
+    release_date: 0
+  names:
+  - id: 19424
+    kind: 3
+    kind_id: 9101
+    language: 1
+    name: Contra 6 (Goonies Hack)
+    source: ""
+  - id: 95126
+    kind: 3
+    kind_id: 9101
+    language: 2
+    name: 七宝奇谋1
+    source: ""
+  release_publishers: []
+  assets:
+  - asset:
+      id: 9083
+      kind: 3
+      kind_id: 9101
+      type: 1
+      name: Contra 6 (Goonies Hack).nes
+      description: ""
+      format: 1
+      size: 49168
+      blob_id: 55207
+      debug: |-
+        Contra 6 (Goonies Hack).nes
+        七宝奇谋1_2.zip
+    entries: []
 - release:
     id: 12491
     game_id: 12491
@@ -34,6 +92,24 @@ releases:
     kind_id: 12491
     language: 1
     name: Goonies (Japan)
+    source: ""
+  - id: 59651
+    kind: 3
+    kind_id: 12491
+    language: 2
+    name: 七宝奇谋
+    source: ""
+  - id: 59652
+    kind: 3
+    kind_id: 12491
+    language: 1
+    name: Goonies, The (J) [!]
+    source: ""
+  - id: 59654
+    kind: 3
+    kind_id: 12491
+    language: 2
+    name: 七宝奇谋1
     source: ""
   release_publishers:
   - release_id: 12491
@@ -49,7 +125,10 @@ releases:
       format: 2
       size: 33413
       blob_id: 0
-      debug: Goonies (Japan).zip
+      debug: |-
+        Goonies (Japan).zip
+        七宝奇谋 + Goonies, The (J) [!].nes
+        七宝奇谋1.zip
     entries:
     - id: 82820
       asset_id: 12473
@@ -91,4 +170,32 @@ releases:
       size: 14918
       blob_id: 82158
       debug: ""
+    entries: []
+- release:
+    id: 26653
+    game_id: 12491
+    description: ""
+    release_date: 0
+  names:
+  - id: 59672
+    kind: 3
+    kind_id: 26653
+    language: 2
+    name: 七宝奇谋[汉化版]
+    source: ""
+  release_publishers: []
+  assets:
+  - asset:
+      id: 26635
+      kind: 3
+      kind_id: 26653
+      type: 1
+      name: 七宝奇谋[汉化版].nes
+      description: ""
+      format: 1
+      size: 49168
+      blob_id: 71756
+      debug: |-
+        七宝奇谋[汉化版].nes
+        重复的/Goonies, The (J) [hM03][T+Chi_MS emumax].nes
     entries: []

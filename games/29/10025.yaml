@@ -2,8 +2,20 @@ game:
   id: 10025
   platform_id: 2
   description: ""
-  series_id: 0
+  series_id: 4
 names:
+- id: 61742
+  kind: 2
+  kind_id: 10025
+  language: 1
+  name: Double Dragon (U) [!]
+  source: ""
+- id: 61745
+  kind: 2
+  kind_id: 10025
+  language: 2
+  name: 双截龙1
+  source: ""
 - id: 91699
   kind: 2
   kind_id: 10025
@@ -182,6 +194,12 @@ releases:
     language: 1
     name: Double Dragon (J) [t1]
     source: ""
+  - id: 95150
+    kind: 3
+    kind_id: 10031
+    language: 2
+    name: 双截龙1
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -194,7 +212,9 @@ releases:
       format: 1
       size: 262160
       blob_id: 56072
-      debug: Double Dragon (J) [t1].nes
+      debug: |-
+        Double Dragon (J) [t1].nes
+        双截龙1_2.zip
     entries: []
 - release:
     id: 10032
@@ -260,6 +280,18 @@ releases:
     language: 1
     name: Double Dragon (U) [!]
     source: ""
+  - id: 21630
+    kind: 3
+    kind_id: 10034
+    language: 1
+    name: Double Dragon (U)
+    source: ""
+  - id: 61743
+    kind: 3
+    kind_id: 10034
+    language: 2
+    name: 双截龙1
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -272,7 +304,10 @@ releases:
       format: 2
       size: 140670
       blob_id: 0
-      debug: Double Dragon (U) [!].zip
+      debug: |-
+        Double Dragon (U) [!].zip
+        Double Dragon (U).zip
+        双截龙1 + Double Dragon (U) [!].nes
     entries:
     - id: 82530
       asset_id: 10016
@@ -655,6 +690,12 @@ releases:
     language: 1
     name: Double Dragon (U) [o3]
     source: ""
+  - id: 61746
+    kind: 3
+    kind_id: 10049
+    language: 2
+    name: 双截龙1
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -667,7 +708,9 @@ releases:
       format: 1
       size: 262288
       blob_id: 56090
-      debug: Double Dragon (U) [o3].nes
+      debug: |-
+        Double Dragon (U) [o3].nes
+        双截龙1.zip
     entries: []
 - release:
     id: 10050
@@ -799,34 +842,3 @@ releases:
       blob_id: 56095
       debug: Double Dragon (U) [t3][T+Rus_Chief-Net,Multisoft].nes
     entries: []
-- release:
-    id: 10055
-    game_id: 10025
-    description: ""
-    release_date: 0
-  names:
-  - id: 21630
-    kind: 3
-    kind_id: 10055
-    language: 1
-    name: Double Dragon (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 10037
-      kind: 3
-      kind_id: 10055
-      type: 1
-      name: Double Dragon (U).zip
-      description: ""
-      format: 2
-      size: 140961
-      blob_id: 0
-      debug: Double Dragon (U).zip
-    entries:
-    - id: 82531
-      asset_id: 10037
-      name: Double Dragon (U).nes
-      size: 262160
-      blob_id: 56075

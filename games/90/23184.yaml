@@ -2,8 +2,14 @@ game:
   id: 23184
   platform_id: 2
   description: ""
-  series_id: 0
+  series_id: 3
 names:
+- id: 70343
+  kind: 2
+  kind_id: 23184
+  language: 2
+  name: 超级马里奥世界
+  source: ""
 - id: 93260
   kind: 2
   kind_id: 23184
@@ -104,6 +110,12 @@ releases:
     language: 1
     name: Super Mario World (Unl)
     source: ""
+  - id: 70344
+    kind: 3
+    kind_id: 23187
+    language: 2
+    name: 超级马里奥世界
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -116,36 +128,8 @@ releases:
       format: 1
       size: 786448
       blob_id: 68493
-      debug: Super Mario World (Unl).nes
+      debug: |-
+        Super Mario World (Unl).nes
+        Super Mario World (Unl).zip
+        超级马里奥世界.zip
     entries: []
-- release:
-    id: 23188
-    game_id: 23184
-    description: ""
-    release_date: 0
-  names:
-  - id: 51782
-    kind: 3
-    kind_id: 23188
-    language: 1
-    name: Super Mario World (Unl)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 23170
-      kind: 3
-      kind_id: 23188
-      type: 1
-      name: Super Mario World (Unl).zip
-      description: ""
-      format: 2
-      size: 206907
-      blob_id: 0
-      debug: Super Mario World (Unl).zip
-    entries:
-    - id: 84025
-      asset_id: 23170
-      name: Super Mario World (Unl).nes
-      size: 786448
-      blob_id: 68493

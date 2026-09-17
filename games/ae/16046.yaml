@@ -4,6 +4,18 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 66047
+  kind: 2
+  kind_id: 16046
+  language: 2
+  name: 机动突袭 (美版) (光线枪射击)-Mechanized Attack (USA)
+  source: ""
+- id: 66048
+  kind: 2
+  kind_id: 16046
+  language: 1
+  name: Mechanized Attack (U) [!]
+  source: ""
 - id: 92454
   kind: 2
   kind_id: 16046
@@ -26,6 +38,18 @@ releases:
     language: 1
     name: Mechanized Attack (U) [!]
     source: ""
+  - id: 35624
+    kind: 3
+    kind_id: 16046
+    language: 1
+    name: Mechanized Attack (U)
+    source: ""
+  - id: 66049
+    kind: 3
+    kind_id: 16046
+    language: 2
+    name: 机动突袭 (美版) (光线枪射击)-Mechanized Attack (USA)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -38,7 +62,10 @@ releases:
       format: 2
       size: 83475
       blob_id: 0
-      debug: Mechanized Attack (U) [!].zip
+      debug: |-
+        Mechanized Attack (U) [!].zip
+        Mechanized Attack (U).zip
+        机动突袭 (美版) (光线枪射击)-Mechanized Attack (USA) + Mechanized Attack (U) [!].nes
     entries:
     - id: 83284
       asset_id: 16028
@@ -253,34 +280,3 @@ releases:
       blob_id: 61724
       debug: Mechanized Attack (U) [t1].nes
     entries: []
-- release:
-    id: 16055
-    game_id: 16046
-    description: ""
-    release_date: 0
-  names:
-  - id: 35624
-    kind: 3
-    kind_id: 16055
-    language: 1
-    name: Mechanized Attack (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 16037
-      kind: 3
-      kind_id: 16055
-      type: 1
-      name: Mechanized Attack (U).zip
-      description: ""
-      format: 2
-      size: 83921
-      blob_id: 0
-      debug: Mechanized Attack (U).zip
-    entries:
-    - id: 83285
-      asset_id: 16037
-      name: Mechanized Attack (U).nes
-      size: 196624
-      blob_id: 61716

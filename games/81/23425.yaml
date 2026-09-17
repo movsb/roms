@@ -4,6 +4,12 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 68649
+  kind: 2
+  kind_id: 23425
+  language: 2
+  name: 糖果屋
+  source: ""
 - id: 93298
   kind: 2
   kind_id: 23425
@@ -70,15 +76,29 @@ releases:
     id: 23427
     game_id: 23425
     description: ""
-    release_date: 0
+    release_date: 19891215
   names:
+  - id: 52324
+    kind: 3
+    kind_id: 23427
+    language: 1
+    name: Sweet Home (Japan) (Translated En)
+    source: ""
+  - id: 68650
+    kind: 3
+    kind_id: 23427
+    language: 2
+    name: 糖果屋
+    source: ""
   - id: 84629
     kind: 3
     kind_id: 23427
     language: 1
     name: Sweet Home (J) [T+Eng1.00_Gaijin+Suicidal]
     source: ""
-  release_publishers: []
+  release_publishers:
+  - release_id: 23427
+    publisher_id: 30
   assets:
   - asset:
       id: 23409
@@ -90,39 +110,12 @@ releases:
       format: 1
       size: 262160
       blob_id: 68718
-      debug: Sweet Home (J) [T+Eng1.00_Gaijin+Suicidal].nes
+      debug: |-
+        Sweet Home (J) [T+Eng1.00_Gaijin+Suicidal].nes
+        Sweet Home (J) [T+Eng1.00_Gaijin+Suicidal].zip
+        Sweet Home (Japan) (Translated En).zip
+        糖果屋.zip
     entries: []
-- release:
-    id: 23428
-    game_id: 23425
-    description: ""
-    release_date: 0
-  names:
-  - id: 84630
-    kind: 3
-    kind_id: 23428
-    language: 1
-    name: Sweet Home (J) [T+Eng1.00_Gaijin+Suicidal]
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 23410
-      kind: 3
-      kind_id: 23428
-      type: 1
-      name: Sweet Home (J) [T+Eng1.00_Gaijin+Suicidal].zip
-      description: ""
-      format: 2
-      size: 169926
-      blob_id: 0
-      debug: Sweet Home (J) [T+Eng1.00_Gaijin+Suicidal].zip
-    entries:
-    - id: 84056
-      asset_id: 23410
-      name: Sweet Home (J) [T+Eng1.00_Gaijin+Suicidal].nes
-      size: 262160
-      blob_id: 68718
 - release:
     id: 23429
     game_id: 23425
@@ -414,34 +407,11 @@ releases:
     game_id: 23425
     description: ""
     release_date: 19891215
-  names:
-  - id: 52324
-    kind: 3
-    kind_id: 23440
-    language: 1
-    name: Sweet Home (Japan) (Translated En)
-    source: ""
+  names: []
   release_publishers:
   - release_id: 23440
     publisher_id: 30
   assets:
-  - asset:
-      id: 23422
-      kind: 3
-      kind_id: 23440
-      type: 1
-      name: Sweet Home (Japan) (Translated En).zip
-      description: ""
-      format: 2
-      size: 166821
-      blob_id: 0
-      debug: Sweet Home (Japan) (Translated En).zip
-    entries:
-    - id: 84057
-      asset_id: 23422
-      name: Sweet Home (Japan) (Translated En).nes
-      size: 262160
-      blob_id: 68718
   - asset:
       id: 38615
       kind: 3

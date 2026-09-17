@@ -49,15 +49,23 @@ releases:
     id: 6382
     game_id: 6176
     description: ""
-    release_date: 0
+    release_date: 19860908
   names:
+  - id: 13262
+    kind: 3
+    kind_id: 6382
+    language: 1
+    name: Banana (Japan) (Translated En)
+    source: ""
   - id: 82259
     kind: 3
     kind_id: 6382
     language: 1
     name: Banana (J) [T+Eng1.0_KingMike]
     source: ""
-  release_publishers: []
+  release_publishers:
+  - release_id: 6382
+    publisher_id: 173
   assets:
   - asset:
       id: 6364
@@ -69,7 +77,9 @@ releases:
       format: 1
       size: 49168
       blob_id: 52622
-      debug: Banana (J) [T+Eng1.0_KingMike].nes
+      debug: |-
+        Banana (J) [T+Eng1.0_KingMike].nes
+        Banana (Japan) (Translated En).zip
     entries: []
 - release:
     id: 6383
@@ -362,34 +372,11 @@ releases:
     game_id: 6176
     description: ""
     release_date: 19860908
-  names:
-  - id: 13262
-    kind: 3
-    kind_id: 6394
-    language: 1
-    name: Banana (Japan) (Translated En)
-    source: ""
+  names: []
   release_publishers:
   - release_id: 6394
     publisher_id: 173
   assets:
-  - asset:
-      id: 6376
-      kind: 3
-      kind_id: 6394
-      type: 1
-      name: Banana (Japan) (Translated En).zip
-      description: ""
-      format: 2
-      size: 24856
-      blob_id: 0
-      debug: Banana (Japan) (Translated En).zip
-    entries:
-    - id: 82097
-      asset_id: 6376
-      name: Banana (Japan) (Translated En).nes
-      size: 49168
-      blob_id: 52622
   - asset:
       id: 38441
       kind: 3

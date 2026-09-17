@@ -44,15 +44,23 @@ releases:
     id: 8434
     game_id: 8433
     description: ""
-    release_date: 0
+    release_date: 19911025
   names:
+  - id: 17872
+    kind: 3
+    kind_id: 8434
+    language: 1
+    name: Chaos World (Japan) (Translated En)
+    source: ""
   - id: 82517
     kind: 3
     kind_id: 8434
     language: 1
     name: Chaos World (J) [T+Eng.98f(Bugfix)_Aeon Genesis]
     source: ""
-  release_publishers: []
+  release_publishers:
+  - release_id: 8434
+    publisher_id: 181
   assets:
   - asset:
       id: 8416
@@ -64,7 +72,9 @@ releases:
       format: 1
       size: 393232
       blob_id: 54571
-      debug: Chaos World (J) [T+Eng.98f(Bugfix)_Aeon Genesis].nes
+      debug: |-
+        Chaos World (J) [T+Eng.98f(Bugfix)_Aeon Genesis].nes
+        Chaos World (Japan) (Translated En).zip
     entries: []
 - release:
     id: 8435
@@ -227,34 +237,11 @@ releases:
     game_id: 8433
     description: ""
     release_date: 19911025
-  names:
-  - id: 17872
-    kind: 3
-    kind_id: 8441
-    language: 1
-    name: Chaos World (Japan) (Translated En)
-    source: ""
+  names: []
   release_publishers:
   - release_id: 8441
     publisher_id: 181
   assets:
-  - asset:
-      id: 8423
-      kind: 3
-      kind_id: 8441
-      type: 1
-      name: Chaos World (Japan) (Translated En).zip
-      description: ""
-      format: 2
-      size: 202567
-      blob_id: 0
-      debug: Chaos World (Japan) (Translated En).zip
-    entries:
-    - id: 82330
-      asset_id: 8423
-      name: Chaos World (Japan) (Translated En).nes
-      size: 393232
-      blob_id: 54571
   - asset:
       id: 38505
       kind: 3

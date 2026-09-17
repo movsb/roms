@@ -10,6 +10,18 @@ names:
   language: 1
   name: Infiltrator
   source: ""
+- id: 68123
+  kind: 2
+  kind_id: 13755
+  language: 2
+  name: 百战飞狼 (美版) (模拟射击)-Infiltrator (USA)
+  source: ""
+- id: 68124
+  kind: 2
+  kind_id: 13755
+  language: 1
+  name: Infiltrator (U) [!]
+  source: ""
 game_developers: []
 game_genres: []
 assets: []
@@ -26,6 +38,18 @@ releases:
     language: 1
     name: Infiltrator (U) [!]
     source: ""
+  - id: 30280
+    kind: 3
+    kind_id: 13750
+    language: 1
+    name: Infiltrator
+    source: ""
+  - id: 68125
+    kind: 3
+    kind_id: 13750
+    language: 2
+    name: 百战飞狼 (美版) (模拟射击)-Infiltrator (USA)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -38,7 +62,10 @@ releases:
       format: 2
       size: 55064
       blob_id: 0
-      debug: Infiltrator (U) [!].zip
+      debug: |-
+        Infiltrator (U) [!].zip
+        Infiltrator.zip
+        百战飞狼 (美版) (模拟射击)-Infiltrator (USA) + Infiltrator (U) [!].nes
     entries:
     - id: 82963
       asset_id: 13732
@@ -57,6 +84,12 @@ releases:
     language: 1
     name: Infiltrator (U) [b1]
     source: ""
+  - id: 30278
+    kind: 3
+    kind_id: 13751
+    language: 1
+    name: Infiltrator (U)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -69,7 +102,9 @@ releases:
       format: 1
       size: 196624
       blob_id: 59581
-      debug: Infiltrator (U) [b1].nes
+      debug: |-
+        Infiltrator (U) [b1].nes
+        Infiltrator (U).zip
     entries: []
 - release:
     id: 13752
@@ -123,65 +158,3 @@ releases:
       blob_id: 59583
       debug: Infiltrator (U) [b2].nes
     entries: []
-- release:
-    id: 13754
-    game_id: 13755
-    description: ""
-    release_date: 0
-  names:
-  - id: 30278
-    kind: 3
-    kind_id: 13754
-    language: 1
-    name: Infiltrator (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 13736
-      kind: 3
-      kind_id: 13754
-      type: 1
-      name: Infiltrator (U).zip
-      description: ""
-      format: 2
-      size: 55091
-      blob_id: 0
-      debug: Infiltrator (U).zip
-    entries:
-    - id: 82964
-      asset_id: 13736
-      name: Infiltrator (U).nes
-      size: 196624
-      blob_id: 59581
-- release:
-    id: 13755
-    game_id: 13755
-    description: ""
-    release_date: 0
-  names:
-  - id: 30280
-    kind: 3
-    kind_id: 13755
-    language: 1
-    name: Infiltrator
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 13737
-      kind: 3
-      kind_id: 13755
-      type: 1
-      name: Infiltrator.zip
-      description: ""
-      format: 2
-      size: 55276
-      blob_id: 0
-      debug: Infiltrator.zip
-    entries:
-    - id: 82965
-      asset_id: 13737
-      name: Infiltrator.nes
-      size: 262160
-      blob_id: 59580

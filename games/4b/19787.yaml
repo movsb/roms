@@ -4,6 +4,18 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 71445
+  kind: 2
+  kind_id: 19787
+  language: 2
+  name: 领国战役 (美版) (动作射击)-Rampart (USA)
+  source: ""
+- id: 71446
+  kind: 2
+  kind_id: 19787
+  language: 1
+  name: Rampart (U) [!]
+  source: ""
 - id: 92840
   kind: 2
   kind_id: 19787
@@ -52,6 +64,18 @@ releases:
     language: 1
     name: Rampart (U) [!]
     source: ""
+  - id: 44068
+    kind: 3
+    kind_id: 19788
+    language: 1
+    name: Rampart (U)
+    source: ""
+  - id: 71447
+    kind: 3
+    kind_id: 19788
+    language: 2
+    name: 领国战役 (美版) (动作射击)-Rampart (USA)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -64,7 +88,10 @@ releases:
       format: 2
       size: 100227
       blob_id: 0
-      debug: Rampart (U) [!].zip
+      debug: |-
+        Rampart (U) [!].zip
+        Rampart (U).zip
+        领国战役 (美版) (动作射击)-Rampart (USA) + Rampart (U) [!].nes
     entries:
     - id: 83686
       asset_id: 19770
@@ -175,34 +202,3 @@ releases:
       blob_id: 65264
       debug: Rampart (U) [o1].nes
     entries: []
-- release:
-    id: 19793
-    game_id: 19787
-    description: ""
-    release_date: 0
-  names:
-  - id: 44068
-    kind: 3
-    kind_id: 19793
-    language: 1
-    name: Rampart (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 19775
-      kind: 3
-      kind_id: 19793
-      type: 1
-      name: Rampart (U).zip
-      description: ""
-      format: 2
-      size: 101578
-      blob_id: 0
-      debug: Rampart (U).zip
-    entries:
-    - id: 83687
-      asset_id: 19775
-      name: Rampart (U).nes
-      size: 262160
-      blob_id: 65260

@@ -4,6 +4,18 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 62733
+  kind: 2
+  kind_id: 16948
+  language: 2
+  name: 大卡车越野赛 (美版) (竞赛)-Monster Truck Rally (USA)
+  source: ""
+- id: 62734
+  kind: 2
+  kind_id: 16948
+  language: 1
+  name: Monster Truck Rally (U) [!]
+  source: ""
 - id: 92548
   kind: 2
   kind_id: 16948
@@ -52,6 +64,18 @@ releases:
     language: 1
     name: Monster Truck Rally (U) [!]
     source: ""
+  - id: 37794
+    kind: 3
+    kind_id: 16949
+    language: 1
+    name: Monster Truck Rally (U)
+    source: ""
+  - id: 62735
+    kind: 3
+    kind_id: 16949
+    language: 2
+    name: 大卡车越野赛 (美版) (竞赛)-Monster Truck Rally (USA)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -64,7 +88,10 @@ releases:
       format: 2
       size: 30881
       blob_id: 0
-      debug: Monster Truck Rally (U) [!].zip
+      debug: |-
+        Monster Truck Rally (U) [!].zip
+        Monster Truck Rally (U).zip
+        大卡车越野赛 (美版) (竞赛)-Monster Truck Rally (USA) + Monster Truck Rally (U) [!].nes
     entries:
     - id: 83387
       asset_id: 16931
@@ -175,34 +202,3 @@ releases:
       blob_id: 62568
       debug: Monster Truck Rally (U) [o1].nes
     entries: []
-- release:
-    id: 16954
-    game_id: 16948
-    description: ""
-    release_date: 0
-  names:
-  - id: 37794
-    kind: 3
-    kind_id: 16954
-    language: 1
-    name: Monster Truck Rally (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 16936
-      kind: 3
-      kind_id: 16954
-      type: 1
-      name: Monster Truck Rally (U).zip
-      description: ""
-      format: 2
-      size: 30891
-      blob_id: 0
-      debug: Monster Truck Rally (U).zip
-    entries:
-    - id: 83388
-      asset_id: 16936
-      name: Monster Truck Rally (U).nes
-      size: 65552
-      blob_id: 62564

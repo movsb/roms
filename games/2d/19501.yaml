@@ -10,6 +10,12 @@ names:
   language: 1
   name: R.B.I. Baseball
   source: ""
+- id: 92820
+  kind: 2
+  kind_id: 19501
+  language: 1
+  name: RBI Baseball
+  source: ""
 game_developers: []
 game_genres: []
 assets: []
@@ -104,6 +110,12 @@ releases:
     language: 1
     name: R.B.I. Baseball (U) [!]
     source: ""
+  - id: 43656
+    kind: 3
+    kind_id: 19504
+    language: 1
+    name: RBI Baseball (U)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -116,39 +128,11 @@ releases:
       format: 1
       size: 98320
       blob_id: 64997
-      debug: R.B.I. Baseball (U) [!].nes
+      debug: |-
+        R.B.I. Baseball (U) [!].nes
+        R.B.I. Baseball (U) [!].zip
+        RBI Baseball (U).zip
     entries: []
-- release:
-    id: 19505
-    game_id: 19501
-    description: ""
-    release_date: 0
-  names:
-  - id: 43426
-    kind: 3
-    kind_id: 19505
-    language: 1
-    name: R.B.I. Baseball (U) [!]
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 19487
-      kind: 3
-      kind_id: 19505
-      type: 1
-      name: R.B.I. Baseball (U) [!].zip
-      description: ""
-      format: 2
-      size: 40603
-      blob_id: 0
-      debug: R.B.I. Baseball (U) [!].zip
-    entries:
-    - id: 83648
-      asset_id: 19487
-      name: R.B.I. Baseball (U) [!].nes
-      size: 98320
-      blob_id: 64997
 - release:
     id: 19506
     game_id: 19501
@@ -383,3 +367,34 @@ releases:
       blob_id: 65006
       debug: R.B.I. Baseball (U) [o6].nes
     entries: []
+- release:
+    id: 19621
+    game_id: 19501
+    description: ""
+    release_date: 0
+  names:
+  - id: 43658
+    kind: 3
+    kind_id: 19621
+    language: 1
+    name: RBI Baseball (Unl) (U)
+    source: ""
+  release_publishers: []
+  assets:
+  - asset:
+      id: 19603
+      kind: 3
+      kind_id: 19621
+      type: 1
+      name: RBI Baseball (Unl) (U).zip
+      description: ""
+      format: 2
+      size: 40642
+      blob_id: 0
+      debug: RBI Baseball (Unl) (U).zip
+    entries:
+    - id: 83654
+      asset_id: 19603
+      name: RBI Baseball (Unl) (U).nes
+      size: 98320
+      blob_id: 65110

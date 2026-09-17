@@ -44,15 +44,29 @@ releases:
     id: 9689
     game_id: 9688
     description: ""
-    release_date: 0
+    release_date: 19910913
   names:
+  - id: 20780
+    kind: 3
+    kind_id: 9689
+    language: 1
+    name: Dezaemon (Japan) (Translated En)
+    source: ""
   - id: 82713
     kind: 3
     kind_id: 9689
     language: 1
     name: Dezaemon (J) [T+Eng1.1_AGTP]
     source: ""
-  release_publishers: []
+  - id: 82714
+    kind: 3
+    kind_id: 9689
+    language: 1
+    name: Dezaemon (J) [T+Eng1.1_Aeon Genesis]
+    source: ""
+  release_publishers:
+  - release_id: 9689
+    publisher_id: 110
   assets:
   - asset:
       id: 9671
@@ -64,39 +78,16 @@ releases:
       format: 2
       size: 76543
       blob_id: 0
-      debug: Dezaemon (J) [T+Eng1.1_AGTP].zip
+      debug: |-
+        Dezaemon (J) [T+Eng1.1_AGTP].zip
+        Dezaemon (J) [T+Eng1.1_Aeon Genesis].nes
+        Dezaemon (Japan) (Translated En).zip
     entries:
     - id: 82486
       asset_id: 9671
       name: Dezaemon (J) [T+Eng1.1_AGTP].nes
       size: 131088
       blob_id: 55753
-- release:
-    id: 9690
-    game_id: 9688
-    description: ""
-    release_date: 0
-  names:
-  - id: 82714
-    kind: 3
-    kind_id: 9690
-    language: 1
-    name: Dezaemon (J) [T+Eng1.1_Aeon Genesis]
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 9672
-      kind: 3
-      kind_id: 9690
-      type: 1
-      name: Dezaemon (J) [T+Eng1.1_Aeon Genesis].nes
-      description: ""
-      format: 1
-      size: 131088
-      blob_id: 55753
-      debug: Dezaemon (J) [T+Eng1.1_Aeon Genesis].nes
-    entries: []
 - release:
     id: 9691
     game_id: 9688
@@ -232,34 +223,11 @@ releases:
     game_id: 9688
     description: ""
     release_date: 19910913
-  names:
-  - id: 20780
-    kind: 3
-    kind_id: 9696
-    language: 1
-    name: Dezaemon (Japan) (Translated En)
-    source: ""
+  names: []
   release_publishers:
   - release_id: 9696
     publisher_id: 110
   assets:
-  - asset:
-      id: 9678
-      kind: 3
-      kind_id: 9696
-      type: 1
-      name: Dezaemon (Japan) (Translated En).zip
-      description: ""
-      format: 2
-      size: 75325
-      blob_id: 0
-      debug: Dezaemon (Japan) (Translated En).zip
-    entries:
-    - id: 82487
-      asset_id: 9678
-      name: Dezaemon (Japan) (Translated En).nes
-      size: 131088
-      blob_id: 55753
   - asset:
       id: 38634
       kind: 3

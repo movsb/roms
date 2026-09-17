@@ -4,6 +4,12 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 70641
+  kind: 2
+  kind_id: 16455
+  language: 2
+  name: 追赶跑跳蹦
+  source: ""
 - id: 92488
   kind: 2
   kind_id: 16455
@@ -18,7 +24,7 @@ releases:
     id: 16455
     game_id: 16455
     description: ""
-    release_date: 0
+    release_date: 19861216
   names:
   - id: 36630
     kind: 3
@@ -26,7 +32,21 @@ releases:
     language: 1
     name: Metro-Cross (J) [!]
     source: ""
-  release_publishers: []
+  - id: 36632
+    kind: 3
+    kind_id: 16455
+    language: 1
+    name: Metro-Cross (Japan)
+    source: ""
+  - id: 70642
+    kind: 3
+    kind_id: 16455
+    language: 2
+    name: 追赶跑跳蹦
+    source: ""
+  release_publishers:
+  - release_id: 16455
+    publisher_id: 4
   assets:
   - asset:
       id: 16437
@@ -38,41 +58,21 @@ releases:
       format: 1
       size: 65552
       blob_id: 62105
-      debug: Metro-Cross (J) [!].nes
+      debug: |-
+        Metro-Cross (J) [!].nes
+        Metro-Cross (Japan).zip
+        追赶跑跳蹦.zip
     entries: []
 - release:
     id: 16456
     game_id: 16455
     description: ""
     release_date: 19861216
-  names:
-  - id: 36632
-    kind: 3
-    kind_id: 16456
-    language: 1
-    name: Metro-Cross (Japan)
-    source: ""
+  names: []
   release_publishers:
   - release_id: 16456
     publisher_id: 4
   assets:
-  - asset:
-      id: 16438
-      kind: 3
-      kind_id: 16456
-      type: 1
-      name: Metro-Cross (Japan).zip
-      description: ""
-      format: 2
-      size: 37592
-      blob_id: 0
-      debug: Metro-Cross (Japan).zip
-    entries:
-    - id: 83322
-      asset_id: 16438
-      name: Metro-Cross (Japan).nes
-      size: 65552
-      blob_id: 62105
   - asset:
       id: 37996
       kind: 3

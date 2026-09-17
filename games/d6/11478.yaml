@@ -4,6 +4,18 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 63123
+  kind: 2
+  kind_id: 11478
+  language: 2
+  name: 太空战士 II (美版) (初版) (角色扮演)-Final Fantasy II (USA) (Proto)
+  source: ""
+- id: 63124
+  kind: 2
+  kind_id: 11478
+  language: 1
+  name: Final Fantasy II (U) (Prototype)
+  source: ""
 - id: 91874
   kind: 2
   kind_id: 11478
@@ -148,15 +160,23 @@ releases:
     id: 11483
     game_id: 11478
     description: ""
-    release_date: 0
+    release_date: 19910101
   names:
+  - id: 25154
+    kind: 3
+    kind_id: 11483
+    language: 1
+    name: Final Fantasy II (Japan) (Translated En)
+    source: ""
   - id: 83037
     kind: 3
     kind_id: 11483
     language: 1
     name: Final Fantasy II (J) [T+Eng1.03_Demiforce][f1] (Title & Weapon-Magic Exploit by Parasyte)
     source: ""
-  release_publishers: []
+  release_publishers:
+  - release_id: 11483
+    publisher_id: 61
   assets:
   - asset:
       id: 11465
@@ -168,7 +188,9 @@ releases:
       format: 1
       size: 262160
       blob_id: 57440
-      debug: Final Fantasy II (J) [T+Eng1.03_Demiforce][f1] (Title & Weapon-Magic Exploit by Parasyte).nes
+      debug: |-
+        Final Fantasy II (J) [T+Eng1.03_Demiforce][f1] (Title & Weapon-Magic Exploit by Parasyte).nes
+        Final Fantasy II (Japan) (Translated En).zip
     entries: []
 - release:
     id: 11484
@@ -1273,34 +1295,11 @@ releases:
     game_id: 11478
     description: ""
     release_date: 19910101
-  names:
-  - id: 25154
-    kind: 3
-    kind_id: 11526
-    language: 1
-    name: Final Fantasy II (Japan) (Translated En)
-    source: ""
+  names: []
   release_publishers:
   - release_id: 11526
     publisher_id: 61
   assets:
-  - asset:
-      id: 11508
-      kind: 3
-      kind_id: 11526
-      type: 1
-      name: Final Fantasy II (Japan) (Translated En).zip
-      description: ""
-      format: 2
-      size: 166466
-      blob_id: 0
-      debug: Final Fantasy II (Japan) (Translated En).zip
-    entries:
-    - id: 82687
-      asset_id: 11508
-      name: Final Fantasy II (Japan) (Translated En).nes
-      size: 262160
-      blob_id: 57440
   - asset:
       id: 38718
       kind: 3
@@ -1375,6 +1374,12 @@ releases:
     language: 1
     name: Final Fantasy II (U) (Prototype)
     source: ""
+  - id: 63125
+    kind: 3
+    kind_id: 11528
+    language: 2
+    name: 太空战士 II (美版) (初版) (角色扮演)-Final Fantasy II (USA) (Proto)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -1387,7 +1392,9 @@ releases:
       format: 2
       size: 170971
       blob_id: 0
-      debug: Final Fantasy II (U) (Prototype).zip
+      debug: |-
+        Final Fantasy II (U) (Prototype).zip
+        太空战士 II (美版) (初版) (角色扮演)-Final Fantasy II (USA) (Proto) + Final Fantasy II (U) (Prototype).nes
     entries:
     - id: 82688
       asset_id: 11510

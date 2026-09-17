@@ -4,6 +4,18 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 72245
+  kind: 2
+  kind_id: 7088
+  language: 2
+  name: 黑杰克 (美版) (桌面平台)-Blackjack (USA) (Unl)
+  source: ""
+- id: 72246
+  kind: 2
+  kind_id: 7088
+  language: 1
+  name: Blackjack (AVE) [!]
+  source: ""
 - id: 91390
   kind: 2
   kind_id: 7088
@@ -130,6 +142,12 @@ releases:
     language: 1
     name: Blackjack (AVE) [o4]
     source: ""
+  - id: 14836
+    kind: 3
+    kind_id: 7092
+    language: 1
+    name: Blackjack (U)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -142,39 +160,10 @@ releases:
       format: 1
       size: 98320
       blob_id: 53283
-      debug: Blackjack (AVE) [o4].nes
+      debug: |-
+        Blackjack (AVE) [o4].nes
+        Blackjack (U).zip
     entries: []
-- release:
-    id: 7093
-    game_id: 7088
-    description: ""
-    release_date: 0
-  names:
-  - id: 14836
-    kind: 3
-    kind_id: 7093
-    language: 1
-    name: Blackjack (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 7075
-      kind: 3
-      kind_id: 7093
-      type: 1
-      name: Blackjack (U).zip
-      description: ""
-      format: 2
-      size: 21605
-      blob_id: 0
-      debug: Blackjack (U).zip
-    entries:
-    - id: 82202
-      asset_id: 7075
-      name: Blackjack (U).nes
-      size: 98320
-      blob_id: 53283
 - release:
     id: 7094
     game_id: 7088
@@ -186,6 +175,18 @@ releases:
     kind_id: 7094
     language: 1
     name: Blackjack (Unl) [!]
+    source: ""
+  - id: 72247
+    kind: 3
+    kind_id: 7094
+    language: 2
+    name: 黑杰克 (美版) (桌面平台)-Blackjack (USA) (Unl)
+    source: ""
+  - id: 72248
+    kind: 3
+    kind_id: 7094
+    language: 1
+    name: Blackjack (AVE) [!]
     source: ""
   release_publishers: []
   assets:
@@ -199,7 +200,9 @@ releases:
       format: 2
       size: 18832
       blob_id: 0
-      debug: Blackjack (Unl) [!].zip
+      debug: |-
+        Blackjack (Unl) [!].zip
+        黑杰克 (美版) (桌面平台)-Blackjack (USA) (Unl) + Blackjack (AVE) [!].nes
     entries:
     - id: 82203
       asset_id: 7076

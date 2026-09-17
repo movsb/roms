@@ -1,7 +1,7 @@
 game:
   id: 31901
   platform_id: 5
-  description: ""
+  description: "Samus Aran returns in an all-new Metroid adventure!\n\nWhile lending mission support on planet SR388, interstellar bounty hunter Samus Aran is attacked by an X parasite, an organism with the ability to mimic the abilities of any creature it infects. Near death, Samus is saved by a vaccine made from the DNA of the last Metroid -- the X parasite's only natural predator. When the X spread to a research station in orbit around SR388, a weakened Samus is forced to exterminate them all ... or die trying."
   series_id: 0
 names:
 - id: 75268
@@ -10,15 +10,25 @@ names:
   language: 1
   name: "Metroid - Fusion (U)(GBANow)"
   source: ""
-game_developers: []
-game_genres: []
+- id: 75272
+  kind: 2
+  kind_id: 31901
+  language: 1
+  name: Metroid Fusion (USA, Australia)
+  source: ""
+game_developers:
+- game_id: 31901
+  developer_id: 51
+game_genres:
+- game_id: 31901
+  genre_id: 4
 assets: []
 releases:
 - release:
     id: 31901
     game_id: 31901
     description: ""
-    release_date: 0
+    release_date: 20021101
   names:
   - id: 75269
     kind: 3
@@ -26,7 +36,15 @@ releases:
     language: 1
     name: "Metroid - Fusion (U)(GBANow)"
     source: ""
-  release_publishers: []
+  - id: 75273
+    kind: 3
+    kind_id: 31901
+    language: 1
+    name: Metroid Fusion (USA, Australia)
+    source: ""
+  release_publishers:
+  - release_id: 31901
+    publisher_id: 17
   assets:
   - asset:
       id: 31863
@@ -38,10 +56,44 @@ releases:
       format: 2
       size: 4708559
       blob_id: 0
-      debug: "Metroid - Fusion (U)(GBANow).zip"
+      debug: "Metroid - Fusion (U)(GBANow).zip\nMetroid Fusion (USA, Australia).zip"
     entries:
     - id: 86753
       asset_id: 31863
       name: "Metroid - Fusion (U)(GBANow).gba"
       size: 8388608
       blob_id: 75603
+- release:
+    id: 31903
+    game_id: 31901
+    description: ""
+    release_date: 20021101
+  names: []
+  release_publishers:
+  - release_id: 31903
+    publisher_id: 17
+  assets:
+  - asset:
+      id: 33581
+      kind: 3
+      kind_id: 31903
+      type: 2
+      name: Metroid Fusion (USA, Australia).png
+      description: ""
+      format: 1
+      size: 99043
+      blob_id: 77251
+      debug: gba/boxart/Metroid Fusion (USA, Australia).png
+    entries: []
+  - asset:
+      id: 33582
+      kind: 3
+      kind_id: 31903
+      type: 6
+      name: Metroid Fusion (USA, Australia).mp4
+      description: ""
+      format: 1
+      size: 2474214
+      blob_id: 77252
+      debug: gba/snap/Metroid Fusion (USA, Australia).mp4
+    entries: []

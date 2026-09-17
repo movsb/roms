@@ -10,6 +10,18 @@ names:
   language: 1
   name: Battleship
   source: ""
+- id: 66953
+  kind: 2
+  kind_id: 6820
+  language: 2
+  name: 海战风云 (美版) (策略)-Battleship (USA)
+  source: ""
+- id: 66954
+  kind: 2
+  kind_id: 6820
+  language: 1
+  name: Battleship (U) [!]
+  source: ""
 game_developers: []
 game_genres: []
 assets: []
@@ -52,6 +64,12 @@ releases:
     language: 1
     name: Battleship (U) [!]
     source: ""
+  - id: 66955
+    kind: 3
+    kind_id: 6812
+    language: 2
+    name: 海战风云 (美版) (策略)-Battleship (USA)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -64,7 +82,9 @@ releases:
       format: 2
       size: 25656
       blob_id: 0
-      debug: Battleship (U) [!].zip
+      debug: |-
+        Battleship (U) [!].zip
+        海战风云 (美版) (策略)-Battleship (USA) + Battleship (U) [!].nes
     entries:
     - id: 82156
       asset_id: 6794
@@ -83,6 +103,12 @@ releases:
     language: 1
     name: Battleship (U) [b1]
     source: ""
+  - id: 14236
+    kind: 3
+    kind_id: 6813
+    language: 1
+    name: Battleship (U)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -95,7 +121,9 @@ releases:
       format: 1
       size: 65552
       blob_id: 53032
-      debug: Battleship (U) [b1].nes
+      debug: |-
+        Battleship (U) [b1].nes
+        Battleship (U).zip
     entries: []
 - release:
     id: 6814
@@ -109,6 +137,12 @@ releases:
     language: 1
     name: Battleship (U) [b1][o1]
     source: ""
+  - id: 14238
+    kind: 3
+    kind_id: 6814
+    language: 1
+    name: Battleship
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -121,7 +155,9 @@ releases:
       format: 1
       size: 65680
       blob_id: 53033
-      debug: Battleship (U) [b1][o1].nes
+      debug: |-
+        Battleship (U) [b1][o1].nes
+        Battleship.zip
     entries: []
 - release:
     id: 6815
@@ -227,65 +263,3 @@ releases:
       blob_id: 53037
       debug: Battleship (U) [b4].nes
     entries: []
-- release:
-    id: 6819
-    game_id: 6820
-    description: ""
-    release_date: 0
-  names:
-  - id: 14236
-    kind: 3
-    kind_id: 6819
-    language: 1
-    name: Battleship (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 6801
-      kind: 3
-      kind_id: 6819
-      type: 1
-      name: Battleship (U).zip
-      description: ""
-      format: 2
-      size: 25904
-      blob_id: 0
-      debug: Battleship (U).zip
-    entries:
-    - id: 82157
-      asset_id: 6801
-      name: Battleship (U).nes
-      size: 65552
-      blob_id: 53032
-- release:
-    id: 6820
-    game_id: 6820
-    description: ""
-    release_date: 0
-  names:
-  - id: 14238
-    kind: 3
-    kind_id: 6820
-    language: 1
-    name: Battleship
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 6802
-      kind: 3
-      kind_id: 6820
-      type: 1
-      name: Battleship.zip
-      description: ""
-      format: 2
-      size: 25944
-      blob_id: 0
-      debug: Battleship.zip
-    entries:
-    - id: 82158
-      asset_id: 6802
-      name: Battleship.nes
-      size: 65680
-      blob_id: 53033

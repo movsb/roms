@@ -4,11 +4,29 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 66565
+  kind: 2
+  kind_id: 6314
+  language: 2
+  name: 气球大战 (美版) (动作)-Balloon Fight (USA)
+  source: ""
+- id: 66566
+  kind: 2
+  kind_id: 6314
+  language: 1
+  name: Balloon Fight (U) [!]
+  source: ""
 - id: 91309
   kind: 2
   kind_id: 6314
   language: 1
   name: Balloon Fight
+  source: ""
+- id: 242038
+  kind: 2
+  kind_id: 6314
+  language: 2
+  name: 气球大战
   source: ""
 game_developers: []
 game_genres: []
@@ -922,7 +940,9 @@ releases:
       format: 1
       size: 24592
       blob_id: 52589
-      debug: Balloon Fight (J) [t1].nes
+      debug: |-
+        Balloon Fight (J) [t1].nes
+        气球大战_2.zip
     entries: []
 - release:
     id: 6349
@@ -1130,7 +1150,9 @@ releases:
       format: 2
       size: 15863
       blob_id: 0
-      debug: Balloon Fight (U) [!].zip
+      debug: |-
+        Balloon Fight (U) [!].zip
+        气球大战 (美版) (动作)-Balloon Fight (USA) + Balloon Fight (U) [!].nes
     entries:
     - id: 82093
       asset_id: 6338
@@ -1187,36 +1209,52 @@ releases:
       format: 1
       size: 49168
       blob_id: 52599
-      debug: Balloon Fight (VS) [!].nes
+      debug: |-
+        Balloon Fight (VS) [!].nes
+        Balloon Fight (VS) [!].zip
     entries: []
 - release:
-    id: 6359
+    id: 28737
     game_id: 6314
     description: ""
     release_date: 0
   names:
-  - id: 13180
+  - id: 66570
     kind: 3
-    kind_id: 6359
+    kind_id: 28737
+    language: 2
+    name: 气球大战
+    source: ""
+  - id: 85209
+    kind: 3
+    kind_id: 28737
+    language: 2
+    name: 气球大战[MS汉化]
+    source: ""
+  - id: 85210
+    kind: 3
+    kind_id: 28737
     language: 1
-    name: Balloon Fight (VS) [!]
+    name: Balloon Fight (J) [T+Chi_MS emumax]
     source: ""
   release_publishers: []
   assets:
   - asset:
-      id: 6341
+      id: 28719
       kind: 3
-      kind_id: 6359
+      kind_id: 28737
       type: 1
-      name: Balloon Fight (VS) [!].zip
+      name: 气球大战.zip
       description: ""
       format: 2
-      size: 28893
+      size: 16289
       blob_id: 0
-      debug: Balloon Fight (VS) [!].zip
+      debug: |-
+        气球大战.zip
+        气球大战[MS汉化] + Balloon Fight (J) [T+Chi_MS emumax].nes
     entries:
-    - id: 82094
-      asset_id: 6341
-      name: Balloon Fight (VS) [!].nes
-      size: 49168
-      blob_id: 52599
+    - id: 84920
+      asset_id: 28719
+      name: 气球大战.nes
+      size: 24592
+      blob_id: 73148

@@ -4,6 +4,24 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 17931
+  kind: 2
+  kind_id: 8460
+  language: 1
+  name: Chessmaster,The
+  source: ""
+- id: 69723
+  kind: 2
+  kind_id: 8460
+  language: 2
+  name: 西洋棋大师 (美版) (桌面平台)-Chessmaster, The (USA)
+  source: ""
+- id: 69724
+  kind: 2
+  kind_id: 8460
+  language: 1
+  name: Chessmaster, The (U) (PRG0) [!]
+  source: ""
 - id: 91520
   kind: 2
   kind_id: 8460
@@ -26,6 +44,18 @@ releases:
     language: 1
     name: Chessmaster, The (U) (PRG0) [!]
     source: ""
+  - id: 17930
+    kind: 3
+    kind_id: 8460
+    language: 1
+    name: Chessmaster, The (U)
+    source: ""
+  - id: 69725
+    kind: 3
+    kind_id: 8460
+    language: 2
+    name: 西洋棋大师 (美版) (桌面平台)-Chessmaster, The (USA)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -38,7 +68,10 @@ releases:
       format: 2
       size: 48806
       blob_id: 0
-      debug: Chessmaster, The (U) (PRG0) [!].zip
+      debug: |-
+        Chessmaster, The (U) (PRG0) [!].zip
+        Chessmaster, The (U).zip
+        西洋棋大师 (美版) (桌面平台)-Chessmaster, The (USA) + Chessmaster, The (U) (PRG0) [!].nes
     entries:
     - id: 82335
       asset_id: 8442
@@ -135,6 +168,12 @@ releases:
     language: 1
     name: Chessmaster, The (U) (PRG0) [o1]
     source: ""
+  - id: 17932
+    kind: 3
+    kind_id: 8464
+    language: 1
+    name: Chessmaster,The
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -147,7 +186,9 @@ releases:
       format: 1
       size: 163984
       blob_id: 54599
-      debug: Chessmaster, The (U) (PRG0) [o1].nes
+      debug: |-
+        Chessmaster, The (U) (PRG0) [o1].nes
+        Chessmaster,The.zip
     entries: []
 - release:
     id: 8465
@@ -253,34 +294,3 @@ releases:
       blob_id: 54603
       debug: Chessmaster, The (U) (PRG1) [!p].nes
     entries: []
-- release:
-    id: 8469
-    game_id: 8460
-    description: ""
-    release_date: 0
-  names:
-  - id: 17930
-    kind: 3
-    kind_id: 8469
-    language: 1
-    name: Chessmaster, The (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 8451
-      kind: 3
-      kind_id: 8469
-      type: 1
-      name: Chessmaster, The (U).zip
-      description: ""
-      format: 2
-      size: 48945
-      blob_id: 0
-      debug: Chessmaster, The (U).zip
-    entries:
-    - id: 82336
-      asset_id: 8451
-      name: Chessmaster, The (U).nes
-      size: 163856
-      blob_id: 54595

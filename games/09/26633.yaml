@@ -10,6 +10,18 @@ names:
   language: 1
   name: metal gear
   source: ""
+- id: 67701
+  kind: 2
+  kind_id: 26633
+  language: 2
+  name: 特攻神谍 (美版) (动作)-Metal Gear (USA)
+  source: ""
+- id: 67702
+  kind: 2
+  kind_id: 26633
+  language: 1
+  name: Metal Gear (U) [!]
+  source: ""
 game_developers: []
 game_genres: []
 assets: []
@@ -104,6 +116,12 @@ releases:
     language: 1
     name: Metal Gear (U) [!]
     source: ""
+  - id: 67703
+    kind: 3
+    kind_id: 16401
+    language: 2
+    name: 特攻神谍 (美版) (动作)-Metal Gear (USA)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -116,7 +134,9 @@ releases:
       format: 2
       size: 80239
       blob_id: 0
-      debug: Metal Gear (U) [!].zip
+      debug: |-
+        Metal Gear (U) [!].zip
+        特攻神谍 (美版) (动作)-Metal Gear (USA) + Metal Gear (U) [!].nes
     entries:
     - id: 83315
       asset_id: 16383
@@ -473,6 +493,18 @@ releases:
     language: 1
     name: Metal Gear (U) [f1]
     source: ""
+  - id: 36554
+    kind: 3
+    kind_id: 16415
+    language: 1
+    name: Metal Gear (U)
+    source: ""
+  - id: 59620
+    kind: 3
+    kind_id: 16415
+    language: 1
+    name: metal gear
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -485,7 +517,10 @@ releases:
       format: 1
       size: 131088
       blob_id: 62069
-      debug: Metal Gear (U) [f1].nes
+      debug: |-
+        Metal Gear (U) [f1].nes
+        Metal Gear (U).zip
+        metal gear.zip
     entries: []
 - release:
     id: 16416
@@ -643,65 +678,3 @@ releases:
       blob_id: 62075
       debug: Metal Gear (U) [p1].nes
     entries: []
-- release:
-    id: 16422
-    game_id: 26633
-    description: ""
-    release_date: 0
-  names:
-  - id: 36554
-    kind: 3
-    kind_id: 16422
-    language: 1
-    name: Metal Gear (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 16404
-      kind: 3
-      kind_id: 16422
-      type: 1
-      name: Metal Gear (U).zip
-      description: ""
-      format: 2
-      size: 80303
-      blob_id: 0
-      debug: Metal Gear (U).zip
-    entries:
-    - id: 83316
-      asset_id: 16404
-      name: Metal Gear (U).nes
-      size: 131088
-      blob_id: 62069
-- release:
-    id: 26633
-    game_id: 26633
-    description: ""
-    release_date: 0
-  names:
-  - id: 59620
-    kind: 3
-    kind_id: 26633
-    language: 1
-    name: metal gear
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 26615
-      kind: 3
-      kind_id: 26633
-      type: 1
-      name: metal gear.zip
-      description: ""
-      format: 2
-      size: 80295
-      blob_id: 0
-      debug: metal gear.zip
-    entries:
-    - id: 84430
-      asset_id: 26615
-      name: metal gear.nes
-      size: 131088
-      blob_id: 62069

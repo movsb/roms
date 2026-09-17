@@ -4,6 +4,18 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 71741
+  kind: 2
+  kind_id: 22317
+  language: 2
+  name: 魂斗罗2（美版）
+  source: ""
+- id: 71742
+  kind: 2
+  kind_id: 22317
+  language: 1
+  name: Super C (U) [!]
+  source: ""
 - id: 93159
   kind: 2
   kind_id: 22317
@@ -78,6 +90,18 @@ releases:
     language: 1
     name: Super C (U) [!]
     source: ""
+  - id: 49748
+    kind: 3
+    kind_id: 22319
+    language: 1
+    name: Super C (U)
+    source: ""
+  - id: 71743
+    kind: 3
+    kind_id: 22319
+    language: 2
+    name: 魂斗罗2（美版）
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -90,7 +114,10 @@ releases:
       format: 2
       size: 148613
       blob_id: 0
-      debug: Super C (U) [!].zip
+      debug: |-
+        Super C (U) [!].zip
+        Super C (U).zip
+        魂斗罗/魂斗罗2（美版） + Super C (U) [!].nes
     entries:
     - id: 83987
       asset_id: 22301
@@ -721,34 +748,3 @@ releases:
       blob_id: 67669
       debug: Super C (U) [t1][T+Rus_Yoshi].nes
     entries: []
-- release:
-    id: 22344
-    game_id: 22317
-    description: ""
-    release_date: 0
-  names:
-  - id: 49748
-    kind: 3
-    kind_id: 22344
-    language: 1
-    name: Super C (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 22326
-      kind: 3
-      kind_id: 22344
-      type: 1
-      name: Super C (U).zip
-      description: ""
-      format: 2
-      size: 148793
-      blob_id: 0
-      debug: Super C (U).zip
-    entries:
-    - id: 83988
-      asset_id: 22326
-      name: Super C (U).nes
-      size: 262160
-      blob_id: 67645

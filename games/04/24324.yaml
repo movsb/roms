@@ -4,6 +4,42 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 54571
+  kind: 2
+  kind_id: 24324
+  language: 1
+  name: Teenage_mutant_ninja_turtles
+  source: ""
+- id: 64391
+  kind: 2
+  kind_id: 24324
+  language: 2
+  name: 忍者神龟1
+  source: ""
+- id: 64609
+  kind: 2
+  kind_id: 24324
+  language: 2
+  name: "忍者龟 - 激龟忍者传 (美版) (动作)-Teenage Mutant Ninja Turtles (USA)"
+  source: ""
+- id: 64610
+  kind: 2
+  kind_id: 24324
+  language: 1
+  name: Teenage Mutant Ninja Turtles (U) [!]
+  source: ""
+- id: 67205
+  kind: 2
+  kind_id: 24324
+  language: 2
+  name: 激龟忍者传(第二版) BY 疾风之狼
+  source: ""
+- id: 67206
+  kind: 2
+  kind_id: 24324
+  language: 1
+  name: Gekikame Ninja Den (J) [t4]
+  source: ""
 - id: 93360
   kind: 2
   kind_id: 24324
@@ -312,6 +348,18 @@ releases:
     language: 1
     name: Teenage Mutant Ninja Turtles (U) [!]
     source: ""
+  - id: 64392
+    kind: 3
+    kind_id: 24335
+    language: 2
+    name: 忍者神龟1
+    source: ""
+  - id: 64611
+    kind: 3
+    kind_id: 24335
+    language: 2
+    name: "忍者龟 - 激龟忍者传 (美版) (动作)-Teenage Mutant Ninja Turtles (USA)"
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -324,7 +372,7 @@ releases:
       format: 2
       size: 145596
       blob_id: 0
-      debug: Teenage Mutant Ninja Turtles (U) [!].zip
+      debug: "Teenage Mutant Ninja Turtles (U) [!].zip\n忍者神龟1.zip\n忍者龟 - 激龟忍者传 (美版) (动作)-Teenage Mutant Ninja Turtles (USA) + Teenage Mutant Ninja Turtles (U) [!].nes"
     entries:
     - id: 84111
       asset_id: 24317
@@ -993,6 +1041,12 @@ releases:
     language: 1
     name: Teenage Mutant Ninja Turtles (U)
     source: ""
+  - id: 54572
+    kind: 3
+    kind_id: 24361
+    language: 1
+    name: Teenage_mutant_ninja_turtles
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -1005,10 +1059,57 @@ releases:
       format: 2
       size: 146020
       blob_id: 0
-      debug: Teenage Mutant Ninja Turtles (U).zip
+      debug: |-
+        Teenage Mutant Ninja Turtles (U).zip
+        Teenage_mutant_ninja_turtles.zip
     entries:
     - id: 84112
       asset_id: 24343
       name: Teenage Mutant Ninja Turtles (U).nes
       size: 262160
       blob_id: 69630
+- release:
+    id: 28083
+    game_id: 24324
+    description: ""
+    release_date: 0
+  names:
+  - id: 67207
+    kind: 3
+    kind_id: 28083
+    language: 2
+    name: 激龟忍者传(第二版) BY 疾风之狼
+    source: ""
+  - id: 67208
+    kind: 3
+    kind_id: 28083
+    language: 1
+    name: Gekikame Ninja Den (J) [t4]
+    source: ""
+  - id: 95176
+    kind: 3
+    kind_id: 28083
+    language: 2
+    name: 忍者神龟1
+    source: ""
+  release_publishers: []
+  assets:
+  - asset:
+      id: 28065
+      kind: 3
+      kind_id: 28083
+      type: 1
+      name: 忍者神龟1.zip
+      description: ""
+      format: 2
+      size: 146735
+      blob_id: 0
+      debug: |-
+        忍者神龟1_2.zip
+        激龟忍者传(第二版) BY 疾风之狼 + Gekikame Ninja Den (J) [t4].nes
+    entries:
+    - id: 84750
+      asset_id: 28065
+      name: 忍者神龟1.nes
+      size: 262160
+      blob_id: 72710

@@ -44,15 +44,23 @@ releases:
     id: 21212
     game_id: 21211
     description: ""
-    release_date: 0
+    release_date: 19920724
   names:
+  - id: 47276
+    kind: 3
+    kind_id: 21212
+    language: 1
+    name: Silva Saga (Japan) (Translated En)
+    source: ""
   - id: 84369
     kind: 3
     kind_id: 21212
     language: 1
     name: Silva Saga (J) [T+Eng1.01_Aishsha]
     source: ""
-  release_publishers: []
+  release_publishers:
+  - release_id: 21212
+    publisher_id: 159
   assets:
   - asset:
       id: 21194
@@ -64,7 +72,9 @@ releases:
       format: 1
       size: 786448
       blob_id: 66613
-      debug: Silva Saga (J) [T+Eng1.01_Aishsha].nes
+      debug: |-
+        Silva Saga (J) [T+Eng1.01_Aishsha].nes
+        Silva Saga (Japan) (Translated En).zip
     entries: []
 - release:
     id: 21213
@@ -175,34 +185,11 @@ releases:
     game_id: 21211
     description: ""
     release_date: 19920724
-  names:
-  - id: 47276
-    kind: 3
-    kind_id: 21217
-    language: 1
-    name: Silva Saga (Japan) (Translated En)
-    source: ""
+  names: []
   release_publishers:
   - release_id: 21217
     publisher_id: 159
   assets:
-  - asset:
-      id: 21199
-      kind: 3
-      kind_id: 21217
-      type: 1
-      name: Silva Saga (Japan) (Translated En).zip
-      description: ""
-      format: 2
-      size: 194510
-      blob_id: 0
-      debug: Silva Saga (Japan) (Translated En).zip
-    entries:
-    - id: 83832
-      asset_id: 21199
-      name: Silva Saga (Japan) (Translated En).nes
-      size: 786448
-      blob_id: 66613
   - asset:
       id: 38287
       kind: 3

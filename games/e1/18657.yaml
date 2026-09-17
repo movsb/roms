@@ -18,7 +18,7 @@ releases:
     id: 18657
     game_id: 18657
     description: ""
-    release_date: 0
+    release_date: 19910719
   names:
   - id: 41602
     kind: 3
@@ -26,7 +26,15 @@ releases:
     language: 1
     name: Pachinko Daisakusen (J) [b1]
     source: ""
-  release_publishers: []
+  - id: 41606
+    kind: 3
+    kind_id: 18657
+    language: 1
+    name: Pachinko Daisakusen (Japan) (Translated En)
+    source: ""
+  release_publishers:
+  - release_id: 18657
+    publisher_id: 133
   assets:
   - asset:
       id: 18639
@@ -38,7 +46,9 @@ releases:
       format: 1
       size: 262160
       blob_id: 64206
-      debug: Pachinko Daisakusen (J) [b1].nes
+      debug: |-
+        Pachinko Daisakusen (J) [b1].nes
+        Pachinko Daisakusen (Japan) (Translated En).zip
     entries: []
 - release:
     id: 18658
@@ -71,34 +81,11 @@ releases:
     game_id: 18657
     description: ""
     release_date: 19910719
-  names:
-  - id: 41606
-    kind: 3
-    kind_id: 18659
-    language: 1
-    name: Pachinko Daisakusen (Japan) (Translated En)
-    source: ""
+  names: []
   release_publishers:
   - release_id: 18659
     publisher_id: 133
   assets:
-  - asset:
-      id: 18641
-      kind: 3
-      kind_id: 18659
-      type: 1
-      name: Pachinko Daisakusen (Japan) (Translated En).zip
-      description: ""
-      format: 2
-      size: 85168
-      blob_id: 0
-      debug: Pachinko Daisakusen (Japan) (Translated En).zip
-    entries:
-    - id: 83518
-      asset_id: 18641
-      name: Pachinko Daisakusen (Japan) (Translated En).nes
-      size: 262160
-      blob_id: 64206
   - asset:
       id: 38030
       kind: 3

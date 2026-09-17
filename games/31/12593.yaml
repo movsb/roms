@@ -4,6 +4,18 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 63357
+  kind: 2
+  kind_id: 12593
+  language: 2
+  name: 宇宙巡航机2
+  source: ""
+- id: 66699
+  kind: 2
+  kind_id: 12593
+  language: 2
+  name: 沙罗曼蛇2
+  source: ""
 - id: 92011
   kind: 2
   kind_id: 12593
@@ -390,6 +402,12 @@ releases:
     language: 1
     name: Gradius II (J) [b2]
     source: ""
+  - id: 63358
+    kind: 3
+    kind_id: 12607
+    language: 2
+    name: 宇宙巡航机2
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -402,7 +420,9 @@ releases:
       format: 1
       size: 262160
       blob_id: 58497
-      debug: Gradius II (J) [b2].nes
+      debug: |-
+        Gradius II (J) [b2].nes
+        宇宙巡航机2.zip
     entries: []
 - release:
     id: 12608
@@ -590,7 +610,7 @@ releases:
     id: 12615
     game_id: 12593
     description: ""
-    release_date: 0
+    release_date: 19881216
   names:
   - id: 27698
     kind: 3
@@ -598,7 +618,27 @@ releases:
     language: 1
     name: Gradius II (J)
     source: ""
-  release_publishers: []
+  - id: 27700
+    kind: 3
+    kind_id: 12615
+    language: 1
+    name: Gradius II (Japan)
+    source: ""
+  - id: 66701
+    kind: 3
+    kind_id: 12615
+    language: 2
+    name: 沙罗曼蛇2
+    source: ""
+  - id: 66702
+    kind: 3
+    kind_id: 12615
+    language: 1
+    name: Gradius II (J) [!]
+    source: ""
+  release_publishers:
+  - release_id: 12615
+    publisher_id: 2
   assets:
   - asset:
       id: 12597
@@ -610,7 +650,10 @@ releases:
       format: 2
       size: 169253
       blob_id: 0
-      debug: Gradius II (J).zip
+      debug: |-
+        Gradius II (J).zip
+        Gradius II (Japan).zip
+        沙罗曼蛇2 + Gradius II (J) [!].nes
     entries:
     - id: 82829
       asset_id: 12597
@@ -622,34 +665,11 @@ releases:
     game_id: 12593
     description: ""
     release_date: 19881216
-  names:
-  - id: 27700
-    kind: 3
-    kind_id: 12616
-    language: 1
-    name: Gradius II (Japan)
-    source: ""
+  names: []
   release_publishers:
   - release_id: 12616
     publisher_id: 2
   assets:
-  - asset:
-      id: 12598
-      kind: 3
-      kind_id: 12616
-      type: 1
-      name: Gradius II (Japan).zip
-      description: ""
-      format: 2
-      size: 168891
-      blob_id: 0
-      debug: Gradius II (Japan).zip
-    entries:
-    - id: 82830
-      asset_id: 12598
-      name: Gradius II (Japan).nes
-      size: 262160
-      blob_id: 58505
   - asset:
       id: 38382
       kind: 3
@@ -685,4 +705,95 @@ releases:
       size: 15811
       blob_id: 82120
       debug: ""
+    entries: []
+- release:
+    id: 27780
+    game_id: 12593
+    description: ""
+    release_date: 0
+  names:
+  - id: 85134
+    kind: 3
+    kind_id: 27780
+    language: 2
+    name: 宇宙巡航机2[MS汉化]
+    source: ""
+  - id: 85135
+    kind: 3
+    kind_id: 27780
+    language: 1
+    name: Gradius II (J) [T+Chi_MS emumax]
+    source: ""
+  release_publishers: []
+  assets:
+  - asset:
+      id: 27762
+      kind: 3
+      kind_id: 27780
+      type: 1
+      name: 宇宙巡航机2[MS汉化] + Gradius II (J) [T+Chi_MS emumax].nes
+      description: ""
+      format: 1
+      size: 262160
+      blob_id: 72508
+      debug: 宇宙巡航机2[MS汉化] + Gradius II (J) [T+Chi_MS emumax].nes
+    entries: []
+- release:
+    id: 27781
+    game_id: 12593
+    description: ""
+    release_date: 0
+  names:
+  - id: 95167
+    kind: 3
+    kind_id: 27781
+    language: 2
+    name: 宇宙巡航机2
+    source: ""
+  release_publishers: []
+  assets:
+  - asset:
+      id: 27763
+      kind: 3
+      kind_id: 27781
+      type: 1
+      name: 宇宙巡航机2.zip
+      description: ""
+      format: 2
+      size: 169461
+      blob_id: 0
+      debug: 宇宙巡航机2_2.zip
+    entries:
+    - id: 84686
+      asset_id: 27763
+      name: 宇宙巡航机2.nes
+      size: 262160
+      blob_id: 72509
+- release:
+    id: 28774
+    game_id: 12593
+    description: ""
+    release_date: 0
+  names:
+  - id: 66704
+    kind: 3
+    kind_id: 28774
+    language: 2
+    name: 沙罗曼蛇2(汉化版)
+    source: ""
+  release_publishers: []
+  assets:
+  - asset:
+      id: 28756
+      kind: 3
+      kind_id: 28774
+      type: 1
+      name: 沙罗曼蛇2(汉化版).nes
+      description: ""
+      format: 1
+      size: 131088
+      blob_id: 73170
+      debug: |-
+        沙罗曼蛇2(汉化版).nes
+        重复的/沙罗曼蛇1 + Salamander (J) [!].nes
     entries: []

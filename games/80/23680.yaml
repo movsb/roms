@@ -18,15 +18,23 @@ releases:
     id: 23680
     game_id: 23680
     description: ""
-    release_date: 0
+    release_date: 19891201
   names:
+  - id: 52922
+    kind: 3
+    kind_id: 23680
+    language: 1
+    name: Tao (Japan) (Translated En)
+    source: ""
   - id: 84684
     kind: 3
     kind_id: 23680
     language: 1
     name: Tao (J) [T+Eng1.0_Snark]
     source: ""
-  release_publishers: []
+  release_publishers:
+  - release_id: 23680
+    publisher_id: 166
   assets:
   - asset:
       id: 23662
@@ -38,7 +46,9 @@ releases:
       format: 1
       size: 262160
       blob_id: 68954
-      debug: Tao (J) [T+Eng1.0_Snark].nes
+      debug: |-
+        Tao (J) [T+Eng1.0_Snark].nes
+        Tao (Japan) (Translated En).zip
     entries: []
 - release:
     id: 23681
@@ -175,34 +185,11 @@ releases:
     game_id: 23680
     description: ""
     release_date: 19891201
-  names:
-  - id: 52922
-    kind: 3
-    kind_id: 23686
-    language: 1
-    name: Tao (Japan) (Translated En)
-    source: ""
+  names: []
   release_publishers:
   - release_id: 23686
     publisher_id: 166
   assets:
-  - asset:
-      id: 23668
-      kind: 3
-      kind_id: 23686
-      type: 1
-      name: Tao (Japan) (Translated En).zip
-      description: ""
-      format: 2
-      size: 147115
-      blob_id: 0
-      debug: Tao (Japan) (Translated En).zip
-    entries:
-    - id: 84091
-      asset_id: 23668
-      name: Tao (Japan) (Translated En).nes
-      size: 262160
-      blob_id: 68954
   - asset:
       id: 38425
       kind: 3

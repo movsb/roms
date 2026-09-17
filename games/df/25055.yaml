@@ -4,6 +4,18 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 72037
+  kind: 2
+  kind_id: 25055
+  language: 2
+  name: 魔鬼总动员 (美版) (动作)-Total Recall (USA)
+  source: ""
+- id: 72038
+  kind: 2
+  kind_id: 25055
+  language: 1
+  name: Total Recall (U) [!]
+  source: ""
 - id: 93428
   kind: 2
   kind_id: 25055
@@ -26,6 +38,18 @@ releases:
     language: 1
     name: Total Recall (U) [!]
     source: ""
+  - id: 55996
+    kind: 3
+    kind_id: 25055
+    language: 1
+    name: Total Recall (U)
+    source: ""
+  - id: 72039
+    kind: 3
+    kind_id: 25055
+    language: 2
+    name: 魔鬼总动员 (美版) (动作)-Total Recall (USA)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -38,7 +62,10 @@ releases:
       format: 2
       size: 104049
       blob_id: 0
-      debug: Total Recall (U) [!].zip
+      debug: |-
+        Total Recall (U) [!].zip
+        Total Recall (U).zip
+        魔鬼总动员 (美版) (动作)-Total Recall (USA) + Total Recall (U) [!].nes
     entries:
     - id: 84197
       asset_id: 25037
@@ -97,34 +124,3 @@ releases:
       blob_id: 70285
       debug: Total Recall (U) [o2].nes
     entries: []
-- release:
-    id: 25058
-    game_id: 25055
-    description: ""
-    release_date: 0
-  names:
-  - id: 55996
-    kind: 3
-    kind_id: 25058
-    language: 1
-    name: Total Recall (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 25040
-      kind: 3
-      kind_id: 25058
-      type: 1
-      name: Total Recall (U).zip
-      description: ""
-      format: 2
-      size: 104077
-      blob_id: 0
-      debug: Total Recall (U).zip
-    entries:
-    - id: 84198
-      asset_id: 25040
-      name: Total Recall (U).nes
-      size: 131088
-      blob_id: 70283

@@ -156,6 +156,18 @@ releases:
     language: 1
     name: Chiller (AGCI) [b4]
     source: ""
+  - id: 18004
+    kind: 3
+    kind_id: 8499
+    language: 1
+    name: Chiller (U) [!]
+    source: ""
+  - id: 18006
+    kind: 3
+    kind_id: 8499
+    language: 1
+    name: Chiller (Unl) [!]
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -168,7 +180,10 @@ releases:
       format: 1
       size: 65552
       blob_id: 54630
-      debug: Chiller (AGCI) [b4].nes
+      debug: |-
+        Chiller (AGCI) [b4].nes
+        Chiller (U) [!].zip
+        Chiller (Unl) [!].zip
     entries: []
 - release:
     id: 8500
@@ -248,65 +263,3 @@ releases:
       blob_id: 54633
       debug: Chiller (HES) [!].nes
     entries: []
-- release:
-    id: 8503
-    game_id: 8494
-    description: ""
-    release_date: 0
-  names:
-  - id: 18004
-    kind: 3
-    kind_id: 8503
-    language: 1
-    name: Chiller (U) [!]
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 8485
-      kind: 3
-      kind_id: 8503
-      type: 1
-      name: Chiller (U) [!].zip
-      description: ""
-      format: 2
-      size: 29171
-      blob_id: 0
-      debug: Chiller (U) [!].zip
-    entries:
-    - id: 82340
-      asset_id: 8485
-      name: Chiller (U) [!].nes
-      size: 65552
-      blob_id: 54630
-- release:
-    id: 8504
-    game_id: 8494
-    description: ""
-    release_date: 0
-  names:
-  - id: 18006
-    kind: 3
-    kind_id: 8504
-    language: 1
-    name: Chiller (Unl) [!]
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 8486
-      kind: 3
-      kind_id: 8504
-      type: 1
-      name: Chiller (Unl) [!].zip
-      description: ""
-      format: 2
-      size: 29059
-      blob_id: 0
-      debug: Chiller (Unl) [!].zip
-    entries:
-    - id: 82341
-      asset_id: 8486
-      name: Chiller (Unl) [!].nes
-      size: 65552
-      blob_id: 54630

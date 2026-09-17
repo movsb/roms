@@ -4,6 +4,12 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 62825
+  kind: 2
+  kind_id: 14461
+  language: 2
+  name: 大眼蛙冒险1
+  source: ""
 - id: 92228
   kind: 2
   kind_id: 14461
@@ -46,6 +52,12 @@ releases:
     description: ""
     release_date: 0
   names:
+  - id: 62826
+    kind: 3
+    kind_id: 14462
+    language: 2
+    name: 大眼蛙冒险1
+    source: ""
   - id: 83518
     kind: 3
     kind_id: 14462
@@ -64,21 +76,31 @@ releases:
       format: 1
       size: 65552
       blob_id: 60233
-      debug: Kero Kero Keroppi no Daibouken (J) [T+Chi].nes
+      debug: |-
+        Kero Kero Keroppi no Daibouken (J) [T+Chi].nes
+        大眼蛙冒险1.zip
     entries: []
 - release:
     id: 14463
     game_id: 14461
     description: ""
-    release_date: 0
+    release_date: 19910329
   names:
+  - id: 32012
+    kind: 3
+    kind_id: 14463
+    language: 1
+    name: Kero Kero Keroppi no Daibouken (Japan) (Translated En)
+    source: ""
   - id: 83519
     kind: 3
     kind_id: 14463
     language: 1
     name: Kero Kero Keroppi no Daibouken (J) [T+Eng1.00_Gaijin]
     source: ""
-  release_publishers: []
+  release_publishers:
+  - release_id: 14463
+    publisher_id: 147
   assets:
   - asset:
       id: 14445
@@ -90,39 +112,11 @@ releases:
       format: 1
       size: 65552
       blob_id: 60234
-      debug: Kero Kero Keroppi no Daibouken (J) [T+Eng1.00_Gaijin].nes
+      debug: |-
+        Kero Kero Keroppi no Daibouken (J) [T+Eng1.00_Gaijin].nes
+        Kero Kero Keroppi no Daibouken (J) [T+Eng1.00_Gaijin].zip
+        Kero Kero Keroppi no Daibouken (Japan) (Translated En).zip
     entries: []
-- release:
-    id: 14464
-    game_id: 14461
-    description: ""
-    release_date: 0
-  names:
-  - id: 83520
-    kind: 3
-    kind_id: 14464
-    language: 1
-    name: Kero Kero Keroppi no Daibouken (J) [T+Eng1.00_Gaijin]
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 14446
-      kind: 3
-      kind_id: 14464
-      type: 1
-      name: Kero Kero Keroppi no Daibouken (J) [T+Eng1.00_Gaijin].zip
-      description: ""
-      format: 2
-      size: 35840
-      blob_id: 0
-      debug: Kero Kero Keroppi no Daibouken (J) [T+Eng1.00_Gaijin].zip
-    entries:
-    - id: 83071
-      asset_id: 14446
-      name: Kero Kero Keroppi no Daibouken (J) [T+Eng1.00_Gaijin].nes
-      size: 65552
-      blob_id: 60234
 - release:
     id: 14465
     game_id: 14461
@@ -232,34 +226,11 @@ releases:
     game_id: 14461
     description: ""
     release_date: 19910329
-  names:
-  - id: 32012
-    kind: 3
-    kind_id: 14469
-    language: 1
-    name: Kero Kero Keroppi no Daibouken (Japan) (Translated En)
-    source: ""
+  names: []
   release_publishers:
   - release_id: 14469
     publisher_id: 147
   assets:
-  - asset:
-      id: 14451
-      kind: 3
-      kind_id: 14469
-      type: 1
-      name: Kero Kero Keroppi no Daibouken (Japan) (Translated En).zip
-      description: ""
-      format: 2
-      size: 35186
-      blob_id: 0
-      debug: Kero Kero Keroppi no Daibouken (Japan) (Translated En).zip
-    entries:
-    - id: 83072
-      asset_id: 14451
-      name: Kero Kero Keroppi no Daibouken (Japan) (Translated En).nes
-      size: 65552
-      blob_id: 60234
   - asset:
       id: 38322
       kind: 3

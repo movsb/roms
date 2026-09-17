@@ -10,6 +10,18 @@ names:
   language: 1
   name: NARC
   source: ""
+- id: 68817
+  kind: 2
+  kind_id: 17205
+  language: 2
+  name: 缉毒特警 (美版) (动作)-NARC (USA)
+  source: ""
+- id: 68818
+  kind: 2
+  kind_id: 17205
+  language: 1
+  name: NARC (U) [!]
+  source: ""
 game_developers: []
 game_genres: []
 assets: []
@@ -52,6 +64,24 @@ releases:
     language: 1
     name: NARC (U) [!]
     source: ""
+  - id: 38370
+    kind: 3
+    kind_id: 17199
+    language: 1
+    name: NARC (U)
+    source: ""
+  - id: 38372
+    kind: 3
+    kind_id: 17199
+    language: 1
+    name: NARC
+    source: ""
+  - id: 68819
+    kind: 3
+    kind_id: 17199
+    language: 2
+    name: 缉毒特警 (美版) (动作)-NARC (USA)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -64,7 +94,11 @@ releases:
       format: 2
       size: 73719
       blob_id: 0
-      debug: NARC (U) [!].zip
+      debug: |-
+        NARC (U) [!].zip
+        NARC (U).zip
+        NARC.zip
+        缉毒特警 (美版) (动作)-NARC (USA) + NARC (U) [!].nes
     entries:
     - id: 83424
       asset_id: 17181
@@ -175,65 +209,3 @@ releases:
       blob_id: 62795
       debug: NARC (U) [t1].nes
     entries: []
-- release:
-    id: 17204
-    game_id: 17205
-    description: ""
-    release_date: 0
-  names:
-  - id: 38370
-    kind: 3
-    kind_id: 17204
-    language: 1
-    name: NARC (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 17186
-      kind: 3
-      kind_id: 17204
-      type: 1
-      name: NARC (U).zip
-      description: ""
-      format: 2
-      size: 73785
-      blob_id: 0
-      debug: NARC (U).zip
-    entries:
-    - id: 83425
-      asset_id: 17186
-      name: NARC (U).nes
-      size: 131088
-      blob_id: 62791
-- release:
-    id: 17205
-    game_id: 17205
-    description: ""
-    release_date: 0
-  names:
-  - id: 38372
-    kind: 3
-    kind_id: 17205
-    language: 1
-    name: NARC
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 17187
-      kind: 3
-      kind_id: 17205
-      type: 1
-      name: NARC.zip
-      description: ""
-      format: 2
-      size: 73777
-      blob_id: 0
-      debug: NARC.zip
-    entries:
-    - id: 83426
-      asset_id: 17187
-      name: NARC.NES
-      size: 131088
-      blob_id: 62791

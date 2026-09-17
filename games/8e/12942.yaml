@@ -4,6 +4,12 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 71383
+  kind: 2
+  kind_id: 12942
+  language: 2
+  name: 霹雳神兵
+  source: ""
 - id: 92057
   kind: 2
   kind_id: 12942
@@ -52,6 +58,12 @@ releases:
     language: 1
     name: Heavy Barrel (J) [t1]
     source: ""
+  - id: 95266
+    kind: 3
+    kind_id: 12943
+    language: 2
+    name: 霹雳神兵
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -64,7 +76,9 @@ releases:
       format: 1
       size: 262160
       blob_id: 58824
-      debug: Heavy Barrel (J) [t1].nes
+      debug: |-
+        Heavy Barrel (J) [t1].nes
+        霹雳神兵_2.zip
     entries: []
 - release:
     id: 12944
@@ -168,39 +182,10 @@ releases:
       format: 1
       size: 262160
       blob_id: 58828
-      debug: Heavy Barrel (U) [!].nes
+      debug: |-
+        Heavy Barrel (U) [!].nes
+        Heavy Barrel (U) [!].zip
     entries: []
-- release:
-    id: 12948
-    game_id: 12942
-    description: ""
-    release_date: 0
-  names:
-  - id: 28436
-    kind: 3
-    kind_id: 12948
-    language: 1
-    name: Heavy Barrel (U) [!]
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 12930
-      kind: 3
-      kind_id: 12948
-      type: 1
-      name: Heavy Barrel (U) [!].zip
-      description: ""
-      format: 2
-      size: 116619
-      blob_id: 0
-      debug: Heavy Barrel (U) [!].zip
-    entries:
-    - id: 82865
-      asset_id: 12930
-      name: Heavy Barrel (U) [!].nes
-      size: 262160
-      blob_id: 58828
 - release:
     id: 12949
     game_id: 12942
@@ -362,3 +347,66 @@ releases:
       name: Heavy Barrel (U).nes
       size: 262160
       blob_id: 58834
+- release:
+    id: 30166
+    game_id: 12942
+    description: ""
+    release_date: 0
+  names:
+  - id: 71384
+    kind: 3
+    kind_id: 30166
+    language: 2
+    name: 霹雳神兵
+    source: ""
+  release_publishers: []
+  assets:
+  - asset:
+      id: 30148
+      kind: 3
+      kind_id: 30166
+      type: 1
+      name: 霹雳神兵.zip
+      description: ""
+      format: 2
+      size: 115758
+      blob_id: 0
+      debug: 霹雳神兵.zip
+    entries:
+    - id: 85256
+      asset_id: 30148
+      name: 霹雳神兵.nes
+      size: 262160
+      blob_id: 74039
+- release:
+    id: 30167
+    game_id: 12942
+    description: ""
+    release_date: 0
+  names:
+  - id: 85304
+    kind: 3
+    kind_id: 30167
+    language: 2
+    name: 霹雳神兵[金明汉化]
+    source: ""
+  - id: 85305
+    kind: 3
+    kind_id: 30167
+    language: 1
+    name: Heavy Barrel (J) [T+Chi_Kamming]
+    source: ""
+  release_publishers: []
+  assets:
+  - asset:
+      id: 30149
+      kind: 3
+      kind_id: 30167
+      type: 1
+      name: 霹雳神兵[金明汉化] + Heavy Barrel (J) [T+Chi_Kamming].nes
+      description: ""
+      format: 1
+      size: 262160
+      blob_id: 74040
+      debug: 霹雳神兵[金明汉化] + Heavy Barrel (J) [T+Chi_Kamming].nes
+    entries: []

@@ -4,6 +4,12 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 72309
+  kind: 2
+  kind_id: 10445
+  language: 2
+  name: 龙之忍者
+  source: ""
 - id: 91733
   kind: 2
   kind_id: 10445
@@ -18,7 +24,7 @@ releases:
     id: 10445
     game_id: 10445
     description: ""
-    release_date: 0
+    release_date: 19900701
   names:
   - id: 22622
     kind: 3
@@ -26,7 +32,15 @@ releases:
     language: 1
     name: Dragon Ninja (J) (PRG0) [T-Eng_Stardust Crusaders]
     source: ""
-  release_publishers: []
+  - id: 22642
+    kind: 3
+    kind_id: 10445
+    language: 1
+    name: Dragon Ninja (Japan) (Translated En)
+    source: ""
+  release_publishers:
+  - release_id: 10445
+    publisher_id: 132
   assets:
   - asset:
       id: 10427
@@ -38,7 +52,9 @@ releases:
       format: 1
       size: 262160
       blob_id: 56457
-      debug: Dragon Ninja (J) (PRG0) [T-Eng_Stardust Crusaders].nes
+      debug: |-
+        Dragon Ninja (J) (PRG0) [T-Eng_Stardust Crusaders].nes
+        Dragon Ninja (Japan) (Translated En).zip
     entries: []
 - release:
     id: 10446
@@ -52,6 +68,12 @@ releases:
     language: 1
     name: Dragon Ninja (J) (PRG0) [t1]
     source: ""
+  - id: 95278
+    kind: 3
+    kind_id: 10446
+    language: 2
+    name: 龙之忍者
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -64,7 +86,9 @@ releases:
       format: 1
       size: 786464
       blob_id: 56458
-      debug: Dragon Ninja (J) (PRG0) [t1].nes
+      debug: |-
+        Dragon Ninja (J) (PRG0) [t1].nes
+        龙之忍者_2.zip
     entries: []
 - release:
     id: 10447
@@ -124,6 +148,12 @@ releases:
     description: ""
     release_date: 0
   names:
+  - id: 72310
+    kind: 3
+    kind_id: 10449
+    language: 2
+    name: 龙之忍者
+    source: ""
   - id: 82887
     kind: 3
     kind_id: 10449
@@ -142,7 +172,9 @@ releases:
       format: 1
       size: 262160
       blob_id: 56461
-      debug: Dragon Ninja (J) [T+Chi_MS emumax].nes
+      debug: |-
+        Dragon Ninja (J) [T+Chi_MS emumax].nes
+        龙之忍者.zip
     entries: []
 - release:
     id: 10450
@@ -227,34 +259,11 @@ releases:
     game_id: 10445
     description: ""
     release_date: 19900701
-  names:
-  - id: 22642
-    kind: 3
-    kind_id: 10453
-    language: 1
-    name: Dragon Ninja (Japan) (Translated En)
-    source: ""
+  names: []
   release_publishers:
   - release_id: 10453
     publisher_id: 132
   assets:
-  - asset:
-      id: 10435
-      kind: 3
-      kind_id: 10453
-      type: 1
-      name: Dragon Ninja (Japan) (Translated En).zip
-      description: ""
-      format: 2
-      size: 121493
-      blob_id: 0
-      debug: Dragon Ninja (Japan) (Translated En).zip
-    entries:
-    - id: 82571
-      asset_id: 10435
-      name: Dragon Ninja (Japan) (Translated En).nes
-      size: 262160
-      blob_id: 56457
   - asset:
       id: 38282
       kind: 3

@@ -4,6 +4,18 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 70561
+  kind: 2
+  kind_id: 10160
+  language: 2
+  name: 运球高手 (美版)(Rev A) (运动)-Double Dribble (USA) (Rev A)
+  source: ""
+- id: 70562
+  kind: 2
+  kind_id: 10160
+  language: 1
+  name: Double Dribble (U) (PRG1) [!]
+  source: ""
 - id: 91708
   kind: 2
   kind_id: 10160
@@ -78,6 +90,18 @@ releases:
     language: 1
     name: Double Dribble (U) (PRG 1) [!]
     source: ""
+  - id: 21910
+    kind: 3
+    kind_id: 10162
+    language: 1
+    name: Double Dribble (U) (PRG1) [!]
+    source: ""
+  - id: 70563
+    kind: 3
+    kind_id: 10162
+    language: 2
+    name: 运球高手 (美版)(Rev A) (运动)-Double Dribble (USA) (Rev A)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -90,7 +114,10 @@ releases:
       format: 2
       size: 85161
       blob_id: 0
-      debug: Double Dribble (U) (PRG 1) [!].zip
+      debug: |-
+        Double Dribble (U) (PRG 1) [!].zip
+        Double Dribble (U) (PRG1) [!].zip
+        运球高手 (美版)(Rev A) (运动)-Double Dribble (USA) (Rev A) + Double Dribble (U) (PRG1) [!].nes
     entries:
     - id: 82536
       asset_id: 10144
@@ -279,37 +306,6 @@ releases:
       blob_id: 56206
       debug: Double Dribble (U) (PRG0) [p1].nes
     entries: []
-- release:
-    id: 10170
-    game_id: 10160
-    description: ""
-    release_date: 0
-  names:
-  - id: 21910
-    kind: 3
-    kind_id: 10170
-    language: 1
-    name: Double Dribble (U) (PRG1) [!]
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 10152
-      kind: 3
-      kind_id: 10170
-      type: 1
-      name: Double Dribble (U) (PRG1) [!].zip
-      description: ""
-      format: 2
-      size: 85143
-      blob_id: 0
-      debug: Double Dribble (U) (PRG1) [!].zip
-    entries:
-    - id: 82537
-      asset_id: 10152
-      name: Double Dribble (U) (PRG1) [!].nes
-      size: 131088
-      blob_id: 56199
 - release:
     id: 10171
     game_id: 10160

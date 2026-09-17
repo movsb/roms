@@ -4,6 +4,18 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 69841
+  kind: 2
+  kind_id: 25560
+  language: 2
+  name: 赌城之梦 (美版) (博弈)-Vegas Dream (USA)
+  source: ""
+- id: 69842
+  kind: 2
+  kind_id: 25560
+  language: 1
+  name: Vegas Dream (U) [!]
+  source: ""
 - id: 93505
   kind: 2
   kind_id: 25560
@@ -26,6 +38,18 @@ releases:
     language: 1
     name: Vegas Dream (U) [!]
     source: ""
+  - id: 57144
+    kind: 3
+    kind_id: 25560
+    language: 1
+    name: Vegas Dream (U)
+    source: ""
+  - id: 69843
+    kind: 3
+    kind_id: 25560
+    language: 2
+    name: 赌城之梦 (美版) (博弈)-Vegas Dream (USA)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -38,7 +62,10 @@ releases:
       format: 2
       size: 94365
       blob_id: 0
-      debug: Vegas Dream (U) [!].zip
+      debug: |-
+        Vegas Dream (U) [!].zip
+        Vegas Dream (U).zip
+        赌城之梦 (美版) (博弈)-Vegas Dream (USA) + Vegas Dream (U) [!].nes
     entries:
     - id: 84271
       asset_id: 25542
@@ -97,34 +124,3 @@ releases:
       blob_id: 70754
       debug: Vegas Dream (U) [o1].nes
     entries: []
-- release:
-    id: 25563
-    game_id: 25560
-    description: ""
-    release_date: 0
-  names:
-  - id: 57144
-    kind: 3
-    kind_id: 25563
-    language: 1
-    name: Vegas Dream (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 25545
-      kind: 3
-      kind_id: 25563
-      type: 1
-      name: Vegas Dream (U).zip
-      description: ""
-      format: 2
-      size: 94858
-      blob_id: 0
-      debug: Vegas Dream (U).zip
-    entries:
-    - id: 84272
-      asset_id: 25545
-      name: Vegas Dream (U).nes
-      size: 262160
-      blob_id: 70752

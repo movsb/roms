@@ -4,6 +4,24 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 71571
+  kind: 2
+  kind_id: 8714
+  language: 2
+  name: 马戏团 (日版) (动作)-Circus Charlie (Japan)
+  source: ""
+- id: 71572
+  kind: 2
+  kind_id: 8714
+  language: 1
+  name: Circus Charlie (J) [!]
+  source: ""
+- id: 71575
+  kind: 2
+  kind_id: 8714
+  language: 2
+  name: 马戏团
+  source: ""
 - id: 91550
   kind: 2
   kind_id: 8714
@@ -208,6 +226,24 @@ releases:
     language: 1
     name: Circus Charlie (J) [b1]
     source: ""
+  - id: 18580
+    kind: 3
+    kind_id: 8721
+    language: 1
+    name: Circus Charlie (J)
+    source: ""
+  - id: 18582
+    kind: 3
+    kind_id: 8721
+    language: 1
+    name: Circus Charlie (JP)
+    source: ""
+  - id: 71576
+    kind: 3
+    kind_id: 8721
+    language: 2
+    name: 马戏团
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -220,7 +256,11 @@ releases:
       format: 1
       size: 24592
       blob_id: 54843
-      debug: Circus Charlie (J) [b1].nes
+      debug: |-
+        Circus Charlie (J) [b1].nes
+        Circus Charlie (J).zip
+        Circus Charlie (JP).zip
+        马戏团.zip
     entries: []
 - release:
     id: 8722
@@ -639,68 +679,6 @@ releases:
       debug: Circus Charlie (J) [p4].nes
     entries: []
 - release:
-    id: 8738
-    game_id: 8714
-    description: ""
-    release_date: 0
-  names:
-  - id: 18580
-    kind: 3
-    kind_id: 8738
-    language: 1
-    name: Circus Charlie (J)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 8720
-      kind: 3
-      kind_id: 8738
-      type: 1
-      name: Circus Charlie (J).zip
-      description: ""
-      format: 2
-      size: 17316
-      blob_id: 0
-      debug: Circus Charlie (J).zip
-    entries:
-    - id: 82358
-      asset_id: 8720
-      name: Circus Charlie (J).nes
-      size: 24592
-      blob_id: 54843
-- release:
-    id: 8739
-    game_id: 8714
-    description: ""
-    release_date: 0
-  names:
-  - id: 18582
-    kind: 3
-    kind_id: 8739
-    language: 1
-    name: Circus Charlie (JP)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 8721
-      kind: 3
-      kind_id: 8739
-      type: 1
-      name: Circus Charlie (JP).zip
-      description: ""
-      format: 2
-      size: 16999
-      blob_id: 0
-      debug: Circus Charlie (JP).zip
-    entries:
-    - id: 82359
-      asset_id: 8721
-      name: Circus Charlie (JP).nes
-      size: 24592
-      blob_id: 54843
-- release:
     id: 8740
     game_id: 8714
     description: ""
@@ -711,6 +689,18 @@ releases:
     kind_id: 8740
     language: 1
     name: Circus Charlie (Japan)
+    source: ""
+  - id: 71573
+    kind: 3
+    kind_id: 8740
+    language: 2
+    name: 马戏团 (日版) (动作)-Circus Charlie (Japan)
+    source: ""
+  - id: 71574
+    kind: 3
+    kind_id: 8740
+    language: 1
+    name: Circus Charlie (J) [!]
     source: ""
   release_publishers:
   - release_id: 8740
@@ -726,7 +716,9 @@ releases:
       format: 2
       size: 17312
       blob_id: 0
-      debug: Circus Charlie (Japan).zip
+      debug: |-
+        Circus Charlie (Japan).zip
+        马戏团 (日版) (动作)-Circus Charlie (Japan) + Circus Charlie (J) [!].nes
     entries:
     - id: 82360
       asset_id: 8722
@@ -797,6 +789,37 @@ releases:
         重复的/Circus Charlie (J) [b1][T+Chi_MS emumax].nes
         马戏团.nes
     entries: []
+- release:
+    id: 30224
+    game_id: 8714
+    description: ""
+    release_date: 0
+  names:
+  - id: 95269
+    kind: 3
+    kind_id: 30224
+    language: 2
+    name: 马戏团
+    source: ""
+  release_publishers: []
+  assets:
+  - asset:
+      id: 30206
+      kind: 3
+      kind_id: 30224
+      type: 1
+      name: 马戏团.zip
+      description: ""
+      format: 2
+      size: 19034
+      blob_id: 0
+      debug: 马戏团_2.zip
+    entries:
+    - id: 85270
+      asset_id: 30206
+      name: 马戏团.nes
+      size: 49168
+      blob_id: 74074
 - release:
     id: 33494
     game_id: 8714

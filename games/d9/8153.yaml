@@ -4,6 +4,18 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 68631
+  kind: 2
+  kind_id: 8153
+  language: 2
+  name: 精致之城 (美版) (益智)-Castlequest (USA)
+  source: ""
+- id: 68632
+  kind: 2
+  kind_id: 8153
+  language: 1
+  name: Castlequest (U) [!]
+  source: ""
 - id: 91489
   kind: 2
   kind_id: 8153
@@ -26,6 +38,18 @@ releases:
     language: 1
     name: Castlequest (U) [!]
     source: ""
+  - id: 17168
+    kind: 3
+    kind_id: 8153
+    language: 1
+    name: Castlequest (U)
+    source: ""
+  - id: 68633
+    kind: 3
+    kind_id: 8153
+    language: 2
+    name: 精致之城 (美版) (益智)-Castlequest (USA)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -38,7 +62,10 @@ releases:
       format: 2
       size: 38282
       blob_id: 0
-      debug: Castlequest (U) [!].zip
+      debug: |-
+        Castlequest (U) [!].zip
+        Castlequest (U).zip
+        精致之城 (美版) (益智)-Castlequest (USA) + Castlequest (U) [!].nes
     entries:
     - id: 82301
       asset_id: 8135
@@ -123,34 +150,3 @@ releases:
       blob_id: 54303
       debug: Castlequest (U) [o1].nes
     entries: []
-- release:
-    id: 8157
-    game_id: 8153
-    description: ""
-    release_date: 0
-  names:
-  - id: 17168
-    kind: 3
-    kind_id: 8157
-    language: 1
-    name: Castlequest (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 8139
-      kind: 3
-      kind_id: 8157
-      type: 1
-      name: Castlequest (U).zip
-      description: ""
-      format: 2
-      size: 38288
-      blob_id: 0
-      debug: Castlequest (U).zip
-    entries:
-    - id: 82302
-      asset_id: 8139
-      name: Castlequest (U).nes
-      size: 65552
-      blob_id: 54300

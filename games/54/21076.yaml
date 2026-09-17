@@ -4,6 +4,24 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 64285
+  kind: 2
+  kind_id: 21076
+  language: 2
+  name: 影武者
+  source: ""
+- id: 64325
+  kind: 2
+  kind_id: 21076
+  language: 2
+  name: 忍 (美版) (动作)-Shinobi (USA) (Unl)
+  source: ""
+- id: 64326
+  kind: 2
+  kind_id: 21076
+  language: 1
+  name: Shinobi (Tengen) [!]
+  source: ""
 - id: 93007
   kind: 2
   kind_id: 21076
@@ -156,6 +174,12 @@ releases:
     language: 1
     name: Shinobi (Tengen) [t2]
     source: ""
+  - id: 64286
+    kind: 3
+    kind_id: 21081
+    language: 2
+    name: 影武者
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -168,7 +192,9 @@ releases:
       format: 1
       size: 262160
       blob_id: 66495
-      debug: Shinobi (Tengen) [t2].nes
+      debug: |-
+        Shinobi (Tengen) [t2].nes
+        影武者.zip
     entries: []
 - release:
     id: 21082
@@ -182,6 +208,24 @@ releases:
     language: 1
     name: Shinobi (U)
     source: ""
+  - id: 46980
+    kind: 3
+    kind_id: 21082
+    language: 1
+    name: Shinobi (Unl) [!]
+    source: ""
+  - id: 64327
+    kind: 3
+    kind_id: 21082
+    language: 2
+    name: 忍 (美版) (动作)-Shinobi (USA) (Unl)
+    source: ""
+  - id: 64328
+    kind: 3
+    kind_id: 21082
+    language: 1
+    name: Shinobi (Tengen) [!]
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -194,41 +238,13 @@ releases:
       format: 2
       size: 82018
       blob_id: 0
-      debug: Shinobi (U).zip
+      debug: |-
+        Shinobi (U).zip
+        Shinobi (Unl) [!].zip
+        忍 (美版) (动作)-Shinobi (USA) (Unl) + Shinobi (Tengen) [!].nes
     entries:
     - id: 83809
       asset_id: 21064
       name: Shinobi (U).nes
-      size: 262160
-      blob_id: 66496
-- release:
-    id: 21083
-    game_id: 21076
-    description: ""
-    release_date: 0
-  names:
-  - id: 46980
-    kind: 3
-    kind_id: 21083
-    language: 1
-    name: Shinobi (Unl) [!]
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 21065
-      kind: 3
-      kind_id: 21083
-      type: 1
-      name: Shinobi (Unl) [!].zip
-      description: ""
-      format: 2
-      size: 81523
-      blob_id: 0
-      debug: Shinobi (Unl) [!].zip
-    entries:
-    - id: 83810
-      asset_id: 21065
-      name: Shinobi (Unl) [!].nes
       size: 262160
       blob_id: 66496

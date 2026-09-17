@@ -18,7 +18,7 @@ releases:
     id: 9979
     game_id: 9979
     description: ""
-    release_date: 0
+    release_date: 19860101
   names:
   - id: 21438
     kind: 3
@@ -26,7 +26,15 @@ releases:
     language: 1
     name: Door Door (J) [!]
     source: ""
-  release_publishers: []
+  - id: 21456
+    kind: 3
+    kind_id: 9979
+    language: 1
+    name: Door Door (Japan)
+    source: ""
+  release_publishers:
+  - release_id: 9979
+    publisher_id: 123
   assets:
   - asset:
       id: 9961
@@ -38,7 +46,9 @@ releases:
       format: 1
       size: 24592
       blob_id: 56025
-      debug: Door Door (J) [!].nes
+      debug: |-
+        Door Door (J) [!].nes
+        Door Door (Japan).zip
     entries: []
 - release:
     id: 9980
@@ -253,34 +263,11 @@ releases:
     game_id: 9979
     description: ""
     release_date: 19860101
-  names:
-  - id: 21456
-    kind: 3
-    kind_id: 9988
-    language: 1
-    name: Door Door (Japan)
-    source: ""
+  names: []
   release_publishers:
   - release_id: 9988
     publisher_id: 123
   assets:
-  - asset:
-      id: 9970
-      kind: 3
-      kind_id: 9988
-      type: 1
-      name: Door Door (Japan).zip
-      description: ""
-      format: 2
-      size: 14211
-      blob_id: 0
-      debug: Door Door (Japan).zip
-    entries:
-    - id: 82523
-      asset_id: 9970
-      name: Door Door (Japan).nes
-      size: 24592
-      blob_id: 56025
   - asset:
       id: 38568
       kind: 3

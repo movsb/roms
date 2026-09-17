@@ -4,6 +4,24 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 59633
+  kind: 2
+  kind_id: 21944
+  language: 1
+  name: starwars
+  source: ""
+- id: 65715
+  kind: 2
+  kind_id: 21944
+  language: 2
+  name: 星际大战 (美版) (动作)-Star Wars (USA)
+  source: ""
+- id: 65716
+  kind: 2
+  kind_id: 21944
+  language: 1
+  name: Star Wars (U) [!]
+  source: ""
 - id: 93109
   kind: 2
   kind_id: 21944
@@ -122,15 +140,23 @@ releases:
     id: 21948
     game_id: 21944
     description: ""
-    release_date: 0
+    release_date: 19911202
   names:
+  - id: 48896
+    kind: 3
+    kind_id: 21948
+    language: 1
+    name: Star Wars (Japan) (Namco) (Translated En)
+    source: ""
   - id: 84433
     kind: 3
     kind_id: 21948
     language: 1
     name: Star Wars (J) (Namco) [T+Eng1.1_Gil Galad]
     source: ""
-  release_publishers: []
+  release_publishers:
+  - release_id: 21948
+    publisher_id: 187
   assets:
   - asset:
       id: 21930
@@ -142,7 +168,9 @@ releases:
       format: 1
       size: 262160
       blob_id: 67305
-      debug: Star Wars (J) (Namco) [T+Eng1.1_Gil Galad].nes
+      debug: |-
+        Star Wars (J) (Namco) [T+Eng1.1_Gil Galad].nes
+        Star Wars (Japan) (Namco) (Translated En).zip
     entries: []
 - release:
     id: 21949
@@ -168,39 +196,10 @@ releases:
       format: 1
       size: 262160
       blob_id: 67306
-      debug: Star Wars (J) (Namco) [T+Eng_Mukimuki&Shinta].nes
+      debug: |-
+        Star Wars (J) (Namco) [T+Eng_Mukimuki&Shinta].nes
+        Star Wars (J) (Namco) [T+Eng_Mukimuki&Shinta].zip
     entries: []
-- release:
-    id: 21950
-    game_id: 21944
-    description: ""
-    release_date: 0
-  names:
-  - id: 84435
-    kind: 3
-    kind_id: 21950
-    language: 1
-    name: Star Wars (J) (Namco) [T+Eng_Mukimuki&Shinta]
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 21932
-      kind: 3
-      kind_id: 21950
-      type: 1
-      name: Star Wars (J) (Namco) [T+Eng_Mukimuki&Shinta].zip
-      description: ""
-      format: 2
-      size: 133741
-      blob_id: 0
-      debug: Star Wars (J) (Namco) [T+Eng_Mukimuki&Shinta].zip
-    entries:
-    - id: 83933
-      asset_id: 21932
-      name: Star Wars (J) (Namco) [T+Eng_Mukimuki&Shinta].nes
-      size: 262160
-      blob_id: 67306
 - release:
     id: 21951
     game_id: 21944
@@ -388,34 +387,11 @@ releases:
     game_id: 21944
     description: ""
     release_date: 19911202
-  names:
-  - id: 48896
-    kind: 3
-    kind_id: 21958
-    language: 1
-    name: Star Wars (Japan) (Namco) (Translated En)
-    source: ""
+  names: []
   release_publishers:
   - release_id: 21958
     publisher_id: 187
   assets:
-  - asset:
-      id: 21940
-      kind: 3
-      kind_id: 21958
-      type: 1
-      name: Star Wars (Japan) (Namco) (Translated En).zip
-      description: ""
-      format: 2
-      size: 131341
-      blob_id: 0
-      debug: Star Wars (Japan) (Namco) (Translated En).zip
-    entries:
-    - id: 83934
-      asset_id: 21940
-      name: Star Wars (Japan) (Namco) (Translated En).nes
-      size: 262160
-      blob_id: 67305
   - asset:
       id: 38583
       kind: 3
@@ -464,6 +440,24 @@ releases:
     language: 1
     name: Star Wars (U) [!]
     source: ""
+  - id: 48910
+    kind: 3
+    kind_id: 21959
+    language: 1
+    name: Star Wars (U)
+    source: ""
+  - id: 59634
+    kind: 3
+    kind_id: 21959
+    language: 1
+    name: starwars
+    source: ""
+  - id: 65717
+    kind: 3
+    kind_id: 21959
+    language: 2
+    name: 星际大战 (美版) (动作)-Star Wars (USA)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -476,7 +470,11 @@ releases:
       format: 2
       size: 154912
       blob_id: 0
-      debug: Star Wars (U) [!].zip
+      debug: |-
+        Star Wars (U) [!].zip
+        Star Wars (U).zip
+        starwars.zip
+        星际大战 (美版) (动作)-Star Wars (USA) + Star Wars (U) [!].nes
     entries:
     - id: 83935
       asset_id: 21941
@@ -587,34 +585,3 @@ releases:
       blob_id: 67318
       debug: Star Wars (U) [t1].nes
     entries: []
-- release:
-    id: 21964
-    game_id: 21944
-    description: ""
-    release_date: 0
-  names:
-  - id: 48910
-    kind: 3
-    kind_id: 21964
-    language: 1
-    name: Star Wars (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 21946
-      kind: 3
-      kind_id: 21964
-      type: 1
-      name: Star Wars (U).zip
-      description: ""
-      format: 2
-      size: 155376
-      blob_id: 0
-      debug: Star Wars (U).zip
-    entries:
-    - id: 83936
-      asset_id: 21946
-      name: Star Wars (U).nes
-      size: 262160
-      blob_id: 67314

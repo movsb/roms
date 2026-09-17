@@ -4,6 +4,18 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 67167
+  kind: 2
+  kind_id: 21809
+  language: 2
+  name: 潜艇大作战 (美版) (射击)-Sqoon (USA)
+  source: ""
+- id: 67168
+  kind: 2
+  kind_id: 21809
+  language: 1
+  name: Sqoon (U) [!]
+  source: ""
 - id: 93095
   kind: 2
   kind_id: 21809
@@ -18,15 +30,23 @@ releases:
     id: 21809
     game_id: 21809
     description: ""
-    release_date: 0
+    release_date: 19870901
   names:
+  - id: 48578
+    kind: 3
+    kind_id: 21809
+    language: 1
+    name: Sqoon (Japan) (Translated En)
+    source: ""
   - id: 84421
     kind: 3
     kind_id: 21809
     language: 1
     name: Sqoon (J) (PRG0) [T+Eng1.00_Stardust Crusaders]
     source: ""
-  release_publishers: []
+  release_publishers:
+  - release_id: 21809
+    publisher_id: 131
   assets:
   - asset:
       id: 21791
@@ -38,7 +58,9 @@ releases:
       format: 1
       size: 40976
       blob_id: 67173
-      debug: Sqoon (J) (PRG0) [T+Eng1.00_Stardust Crusaders].nes
+      debug: |-
+        Sqoon (J) (PRG0) [T+Eng1.00_Stardust Crusaders].nes
+        Sqoon (Japan) (Translated En).zip
     entries: []
 - release:
     id: 21810
@@ -149,34 +171,11 @@ releases:
     game_id: 21809
     description: ""
     release_date: 19870901
-  names:
-  - id: 48578
-    kind: 3
-    kind_id: 21814
-    language: 1
-    name: Sqoon (Japan) (Translated En)
-    source: ""
+  names: []
   release_publishers:
   - release_id: 21814
     publisher_id: 131
   assets:
-  - asset:
-      id: 21796
-      kind: 3
-      kind_id: 21814
-      type: 1
-      name: Sqoon (Japan) (Translated En).zip
-      description: ""
-      format: 2
-      size: 24492
-      blob_id: 0
-      debug: Sqoon (Japan) (Translated En).zip
-    entries:
-    - id: 83912
-      asset_id: 21796
-      name: Sqoon (Japan) (Translated En).nes
-      size: 40976
-      blob_id: 67173
   - asset:
       id: 38034
       kind: 3
@@ -225,6 +224,18 @@ releases:
     language: 1
     name: Sqoon (U) [!]
     source: ""
+  - id: 48592
+    kind: 3
+    kind_id: 21815
+    language: 1
+    name: Sqoon (U)
+    source: ""
+  - id: 67169
+    kind: 3
+    kind_id: 21815
+    language: 2
+    name: 潜艇大作战 (美版) (射击)-Sqoon (USA)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -237,7 +248,10 @@ releases:
       format: 2
       size: 24894
       blob_id: 0
-      debug: Sqoon (U) [!].zip
+      debug: |-
+        Sqoon (U) [!].zip
+        Sqoon (U).zip
+        潜艇大作战 (美版) (射击)-Sqoon (USA) + Sqoon (U) [!].nes
     entries:
     - id: 83913
       asset_id: 21797
@@ -374,34 +388,3 @@ releases:
       blob_id: 67183
       debug: Sqoon (U) [t1].nes
     entries: []
-- release:
-    id: 21821
-    game_id: 21809
-    description: ""
-    release_date: 0
-  names:
-  - id: 48592
-    kind: 3
-    kind_id: 21821
-    language: 1
-    name: Sqoon (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 21803
-      kind: 3
-      kind_id: 21821
-      type: 1
-      name: Sqoon (U).zip
-      description: ""
-      format: 2
-      size: 24898
-      blob_id: 0
-      debug: Sqoon (U).zip
-    entries:
-    - id: 83914
-      asset_id: 21803
-      name: Sqoon (U).nes
-      size: 40976
-      blob_id: 67178

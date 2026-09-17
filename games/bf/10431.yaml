@@ -4,6 +4,24 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 72323
+  kind: 2
+  kind_id: 10431
+  language: 2
+  name: 龙之斗士 (美版) (动作)-Dragon Fighter (USA)
+  source: ""
+- id: 72324
+  kind: 2
+  kind_id: 10431
+  language: 1
+  name: Dragon Fighter (U) [!]
+  source: ""
+- id: 72327
+  kind: 2
+  kind_id: 10431
+  language: 2
+  name: 龙战士
+  source: ""
 - id: 91732
   kind: 2
   kind_id: 10431
@@ -182,6 +200,18 @@ releases:
     language: 1
     name: Dragon Fighter (U) [!]
     source: ""
+  - id: 22614
+    kind: 3
+    kind_id: 10437
+    language: 1
+    name: Dragon Fighter (U)
+    source: ""
+  - id: 72325
+    kind: 3
+    kind_id: 10437
+    language: 2
+    name: 龙之斗士 (美版) (动作)-Dragon Fighter (USA)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -194,7 +224,10 @@ releases:
       format: 2
       size: 102637
       blob_id: 0
-      debug: Dragon Fighter (U) [!].zip
+      debug: |-
+        Dragon Fighter (U) [!].zip
+        Dragon Fighter (U).zip
+        龙之斗士 (美版) (动作)-Dragon Fighter (USA) + Dragon Fighter (U) [!].nes
     entries:
     - id: 82568
       asset_id: 10419
@@ -239,6 +272,12 @@ releases:
     language: 1
     name: Dragon Fighter (U) [o1]
     source: ""
+  - id: 72328
+    kind: 3
+    kind_id: 10439
+    language: 2
+    name: 龙战士
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -251,7 +290,9 @@ releases:
       format: 1
       size: 262288
       blob_id: 56452
-      debug: Dragon Fighter (U) [o1].nes
+      debug: |-
+        Dragon Fighter (U) [o1].nes
+        龙战士.zip
     entries: []
 - release:
     id: 10440
@@ -280,33 +321,33 @@ releases:
       debug: Dragon Fighter (U) [o2].nes
     entries: []
 - release:
-    id: 10441
+    id: 30446
     game_id: 10431
     description: ""
     release_date: 0
   names:
-  - id: 22614
+  - id: 95279
     kind: 3
-    kind_id: 10441
-    language: 1
-    name: Dragon Fighter (U)
+    kind_id: 30446
+    language: 2
+    name: 龙战士
     source: ""
   release_publishers: []
   assets:
   - asset:
-      id: 10423
+      id: 30428
       kind: 3
-      kind_id: 10441
+      kind_id: 30446
       type: 1
-      name: Dragon Fighter (U).zip
+      name: 龙战士.zip
       description: ""
       format: 2
-      size: 103252
+      size: 102180
       blob_id: 0
-      debug: Dragon Fighter (U).zip
+      debug: 龙战士_2.zip
     entries:
-    - id: 82569
-      asset_id: 10423
-      name: Dragon Fighter (U).nes
+    - id: 85332
+      asset_id: 30428
+      name: 龙战士.nes
       size: 262160
-      blob_id: 56450
+      blob_id: 74219

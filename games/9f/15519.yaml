@@ -4,6 +4,18 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 71825
+  kind: 2
+  kind_id: 15519
+  language: 2
+  name: 魔术飞镖 (美版) (运动)-Magic Darts (USA)
+  source: ""
+- id: 71826
+  kind: 2
+  kind_id: 15519
+  language: 1
+  name: Magic Darts (U) [!]
+  source: ""
 - id: 92364
   kind: 2
   kind_id: 15519
@@ -26,6 +38,18 @@ releases:
     language: 1
     name: Magic Darts (U) [!]
     source: ""
+  - id: 34470
+    kind: 3
+    kind_id: 15519
+    language: 1
+    name: Magic Darts (U)
+    source: ""
+  - id: 71827
+    kind: 3
+    kind_id: 15519
+    language: 2
+    name: 魔术飞镖 (美版) (运动)-Magic Darts (USA)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -38,7 +62,10 @@ releases:
       format: 2
       size: 77469
       blob_id: 0
-      debug: Magic Darts (U) [!].zip
+      debug: |-
+        Magic Darts (U) [!].zip
+        Magic Darts (U).zip
+        魔术飞镖 (美版) (运动)-Magic Darts (USA) + Magic Darts (U) [!].nes
     entries:
     - id: 83231
       asset_id: 15501
@@ -109,6 +136,12 @@ releases:
     language: 1
     name: Magic Darts (U) [b3]
     source: ""
+  - id: 34472
+    kind: 3
+    kind_id: 15522
+    language: 1
+    name: Magic Darts [b3]
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -121,7 +154,9 @@ releases:
       format: 1
       size: 262160
       blob_id: 61215
-      debug: Magic Darts (U) [b3].nes
+      debug: |-
+        Magic Darts (U) [b3].nes
+        Magic Darts [b3].zip
     entries: []
 - release:
     id: 15523
@@ -149,65 +184,3 @@ releases:
       blob_id: 61216
       debug: Magic Darts (U) [o1].nes
     entries: []
-- release:
-    id: 15524
-    game_id: 15519
-    description: ""
-    release_date: 0
-  names:
-  - id: 34470
-    kind: 3
-    kind_id: 15524
-    language: 1
-    name: Magic Darts (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 15506
-      kind: 3
-      kind_id: 15524
-      type: 1
-      name: Magic Darts (U).zip
-      description: ""
-      format: 2
-      size: 77994
-      blob_id: 0
-      debug: Magic Darts (U).zip
-    entries:
-    - id: 83232
-      asset_id: 15506
-      name: Magic Darts (U).nes
-      size: 262160
-      blob_id: 61212
-- release:
-    id: 15525
-    game_id: 15519
-    description: ""
-    release_date: 0
-  names:
-  - id: 34472
-    kind: 3
-    kind_id: 15525
-    language: 1
-    name: Magic Darts [b3]
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 15507
-      kind: 3
-      kind_id: 15525
-      type: 1
-      name: Magic Darts [b3].zip
-      description: ""
-      format: 2
-      size: 78000
-      blob_id: 0
-      debug: Magic Darts [b3].zip
-    entries:
-    - id: 83233
-      asset_id: 15507
-      name: Magic Darts [b3].nes
-      size: 262160
-      blob_id: 61215

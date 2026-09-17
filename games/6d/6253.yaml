@@ -4,6 +4,18 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 62511
+  kind: 2
+  kind_id: 6253
+  language: 2
+  name: 坏消息棒球 (美版) (运动)-Bad News Baseball (USA)
+  source: ""
+- id: 62512
+  kind: 2
+  kind_id: 6253
+  language: 1
+  name: Bad News Baseball (U) [!]
+  source: ""
 - id: 91300
   kind: 2
   kind_id: 6253
@@ -26,6 +38,18 @@ releases:
     language: 1
     name: Bad News Baseball (U) [!]
     source: ""
+  - id: 12944
+    kind: 3
+    kind_id: 6253
+    language: 1
+    name: Bad News Baseball (U)
+    source: ""
+  - id: 62513
+    kind: 3
+    kind_id: 6253
+    language: 2
+    name: 坏消息棒球 (美版) (运动)-Bad News Baseball (USA)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -38,7 +62,10 @@ releases:
       format: 2
       size: 133942
       blob_id: 0
-      debug: Bad News Baseball (U) [!].zip
+      debug: |-
+        Bad News Baseball (U) [!].zip
+        Bad News Baseball (U).zip
+        坏消息棒球 (美版) (运动)-Bad News Baseball (USA) + Bad News Baseball (U) [!].nes
     entries:
     - id: 82085
       asset_id: 6235
@@ -149,34 +176,3 @@ releases:
       blob_id: 52502
       debug: Bad News Baseball (U) [o2].nes
     entries: []
-- release:
-    id: 6258
-    game_id: 6253
-    description: ""
-    release_date: 0
-  names:
-  - id: 12944
-    kind: 3
-    kind_id: 6258
-    language: 1
-    name: Bad News Baseball (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 6240
-      kind: 3
-      kind_id: 6258
-      type: 1
-      name: Bad News Baseball (U).zip
-      description: ""
-      format: 2
-      size: 134643
-      blob_id: 0
-      debug: Bad News Baseball (U).zip
-    entries:
-    - id: 82086
-      asset_id: 6240
-      name: Bad News Baseball (U).nes
-      size: 262160
-      blob_id: 52498

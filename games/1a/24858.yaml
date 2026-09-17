@@ -4,6 +4,18 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 65603
+  kind: 2
+  kind_id: 24858
+  language: 2
+  name: 时间统治者 (美版) (动作)-Time Lord (USA)
+  source: ""
+- id: 65604
+  kind: 2
+  kind_id: 24858
+  language: 1
+  name: Time Lord (U) [!]
+  source: ""
 - id: 93397
   kind: 2
   kind_id: 24858
@@ -26,6 +38,18 @@ releases:
     language: 1
     name: Time Lord (U) [!]
     source: ""
+  - id: 55528
+    kind: 3
+    kind_id: 24858
+    language: 1
+    name: Time Lord (U)
+    source: ""
+  - id: 65605
+    kind: 3
+    kind_id: 24858
+    language: 2
+    name: 时间统治者 (美版) (动作)-Time Lord (USA)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -38,7 +62,10 @@ releases:
       format: 2
       size: 91855
       blob_id: 0
-      debug: Time Lord (U) [!].zip
+      debug: |-
+        Time Lord (U) [!].zip
+        Time Lord (U).zip
+        时间统治者 (美版) (动作)-Time Lord (USA) + Time Lord (U) [!].nes
     entries:
     - id: 84160
       asset_id: 24840
@@ -97,34 +124,3 @@ releases:
       blob_id: 70109
       debug: Time Lord (U) [t1].nes
     entries: []
-- release:
-    id: 24861
-    game_id: 24858
-    description: ""
-    release_date: 0
-  names:
-  - id: 55528
-    kind: 3
-    kind_id: 24861
-    language: 1
-    name: Time Lord (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 24843
-      kind: 3
-      kind_id: 24861
-      type: 1
-      name: Time Lord (U).zip
-      description: ""
-      format: 2
-      size: 91853
-      blob_id: 0
-      debug: Time Lord (U).zip
-    entries:
-    - id: 84161
-      asset_id: 24843
-      name: Time Lord (U).nes
-      size: 131088
-      blob_id: 70107

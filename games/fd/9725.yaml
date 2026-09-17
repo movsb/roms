@@ -4,6 +4,24 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 20853
+  kind: 2
+  kind_id: 9725
+  language: 1
+  name: DieHard
+  source: ""
+- id: 68755
+  kind: 2
+  kind_id: 9725
+  language: 2
+  name: 终极警探 (美版) 动作)-Die Hard (USA)
+  source: ""
+- id: 68756
+  kind: 2
+  kind_id: 9725
+  language: 1
+  name: Die Hard (U) [!]
+  source: ""
 - id: 91659
   kind: 2
   kind_id: 9725
@@ -78,6 +96,30 @@ releases:
     language: 1
     name: Die Hard (U) [!p]
     source: ""
+  - id: 20852
+    kind: 3
+    kind_id: 9727
+    language: 1
+    name: Die Hard (U)
+    source: ""
+  - id: 20854
+    kind: 3
+    kind_id: 9727
+    language: 1
+    name: DieHard
+    source: ""
+  - id: 68757
+    kind: 3
+    kind_id: 9727
+    language: 2
+    name: 终极警探 (美版) 动作)-Die Hard (USA)
+    source: ""
+  - id: 68758
+    kind: 3
+    kind_id: 9727
+    language: 1
+    name: Die Hard (U) [!]
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -90,7 +132,11 @@ releases:
       format: 2
       size: 126880
       blob_id: 0
-      debug: Die Hard (U) [!p].zip
+      debug: |-
+        Die Hard (U) [!p].zip
+        Die Hard (U).zip
+        DieHard.zip
+        终极警探 (美版) 动作)-Die Hard (USA) + Die Hard (U) [!].nes
     entries:
     - id: 82491
       asset_id: 9709
@@ -149,34 +195,3 @@ releases:
       blob_id: 55790
       debug: Die Hard (U) [t1].nes
     entries: []
-- release:
-    id: 9730
-    game_id: 9725
-    description: ""
-    release_date: 0
-  names:
-  - id: 20852
-    kind: 3
-    kind_id: 9730
-    language: 1
-    name: Die Hard (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 9712
-      kind: 3
-      kind_id: 9730
-      type: 1
-      name: Die Hard (U).zip
-      description: ""
-      format: 2
-      size: 127258
-      blob_id: 0
-      debug: Die Hard (U).zip
-    entries:
-    - id: 82492
-      asset_id: 9712
-      name: Die Hard (U).nes
-      size: 262160
-      blob_id: 55788

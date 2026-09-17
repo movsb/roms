@@ -4,6 +4,24 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 67331
+  kind: 2
+  kind_id: 7264
+  language: 2
+  name: 炸弹人1不死
+  source: ""
+- id: 70487
+  kind: 2
+  kind_id: 7264
+  language: 2
+  name: 轰炸超人 (美版) (动作)-Bomberman (USA)
+  source: ""
+- id: 70488
+  kind: 2
+  kind_id: 7264
+  language: 1
+  name: Bomberman (U) [!]
+  source: ""
 - id: 91414
   kind: 2
   kind_id: 7264
@@ -286,6 +304,12 @@ releases:
     language: 1
     name: Bomberman (J) [t1]
     source: ""
+  - id: 67332
+    kind: 3
+    kind_id: 7274
+    language: 2
+    name: 炸弹人1不死
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -298,7 +322,9 @@ releases:
       format: 1
       size: 24592
       blob_id: 53458
-      debug: Bomberman (J) [t1].nes
+      debug: |-
+        Bomberman (J) [t1].nes
+        炸弹人1不死.zip
     entries: []
 - release:
     id: 7275
@@ -390,6 +416,18 @@ releases:
     language: 1
     name: Bomberman (U) [!]
     source: ""
+  - id: 15286
+    kind: 3
+    kind_id: 7278
+    language: 1
+    name: Bomberman (U)
+    source: ""
+  - id: 70489
+    kind: 3
+    kind_id: 7278
+    language: 2
+    name: 轰炸超人 (美版) (动作)-Bomberman (USA)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -402,7 +440,10 @@ releases:
       format: 2
       size: 16173
       blob_id: 0
-      debug: Bomberman (U) [!].zip
+      debug: |-
+        Bomberman (U) [!].zip
+        Bomberman (U).zip
+        轰炸超人 (美版) (动作)-Bomberman (USA) + Bomberman (U) [!].nes
     entries:
     - id: 82222
       asset_id: 7260
@@ -669,34 +710,3 @@ releases:
       blob_id: 53472
       debug: Bomberman (U) [o1][T+Spa_PaladinKnights].nes
     entries: []
-- release:
-    id: 7289
-    game_id: 7264
-    description: ""
-    release_date: 0
-  names:
-  - id: 15286
-    kind: 3
-    kind_id: 7289
-    language: 1
-    name: Bomberman (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 7271
-      kind: 3
-      kind_id: 7289
-      type: 1
-      name: Bomberman (U).zip
-      description: ""
-      format: 2
-      size: 16162
-      blob_id: 0
-      debug: Bomberman (U).zip
-    entries:
-    - id: 82223
-      asset_id: 7271
-      name: Bomberman (U).nes
-      size: 24592
-      blob_id: 53462

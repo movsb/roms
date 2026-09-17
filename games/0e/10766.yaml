@@ -18,7 +18,7 @@ releases:
     id: 10766
     game_id: 10766
     description: ""
-    release_date: 0
+    release_date: 19870524
   names:
   - id: 23368
     kind: 3
@@ -26,7 +26,15 @@ releases:
     language: 1
     name: Dynamite Bowl (J) (REVA) [!]
     source: ""
-  release_publishers: []
+  - id: 23376
+    kind: 3
+    kind_id: 10766
+    language: 1
+    name: Dynamite Bowl (Japan)
+    source: ""
+  release_publishers:
+  - release_id: 10766
+    publisher_id: 146
   assets:
   - asset:
       id: 10748
@@ -38,7 +46,9 @@ releases:
       format: 1
       size: 65552
       blob_id: 56764
-      debug: Dynamite Bowl (J) (REVA) [!].nes
+      debug: |-
+        Dynamite Bowl (J) (REVA) [!].nes
+        Dynamite Bowl (Japan).zip
     entries: []
 - release:
     id: 10767
@@ -123,34 +133,11 @@ releases:
     game_id: 10766
     description: ""
     release_date: 19870524
-  names:
-  - id: 23376
-    kind: 3
-    kind_id: 10770
-    language: 1
-    name: Dynamite Bowl (Japan)
-    source: ""
+  names: []
   release_publishers:
   - release_id: 10770
     publisher_id: 146
   assets:
-  - asset:
-      id: 10752
-      kind: 3
-      kind_id: 10770
-      type: 1
-      name: Dynamite Bowl (Japan).zip
-      description: ""
-      format: 2
-      size: 25670
-      blob_id: 0
-      debug: Dynamite Bowl (Japan).zip
-    entries:
-    - id: 82609
-      asset_id: 10752
-      name: Dynamite Bowl (Japan).nes
-      size: 65552
-      blob_id: 56764
   - asset:
       id: 38429
       kind: 3

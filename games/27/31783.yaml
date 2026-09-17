@@ -26,6 +26,12 @@ releases:
     language: 1
     name: LEGO Bionicle (USA) (En,Fr)
     source: ""
+  - id: 75033
+    kind: 3
+    kind_id: 31782
+    language: 1
+    name: LEGO Bionicle
+    source: ""
   release_publishers:
   - release_id: 31782
     publisher_id: 5
@@ -40,7 +46,9 @@ releases:
       format: 2
       size: 4387241
       blob_id: 0
-      debug: LEGO Bionicle (USA) (En,Fr).zip
+      debug: |-
+        LEGO Bionicle (USA) (En,Fr).zip
+        LEGO Bionicle.zip
     entries:
     - id: 86635
       asset_id: 31744
@@ -71,34 +79,3 @@ releases:
       blob_id: 77507
       debug: gba/snap/LEGO Bionicle (USA) (En,Fr).mp4
     entries: []
-- release:
-    id: 31783
-    game_id: 31783
-    description: ""
-    release_date: 0
-  names:
-  - id: 75033
-    kind: 3
-    kind_id: 31783
-    language: 1
-    name: LEGO Bionicle
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 31745
-      kind: 3
-      kind_id: 31783
-      type: 1
-      name: LEGO Bionicle.zip
-      description: ""
-      format: 2
-      size: 4413654
-      blob_id: 0
-      debug: LEGO Bionicle.zip
-    entries:
-    - id: 86636
-      asset_id: 31745
-      name: LEGO Bionicle.gba
-      size: 8388608
-      blob_id: 75497

@@ -4,6 +4,18 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 64381
+  kind: 2
+  kind_id: 14860
+  language: 2
+  name: 忍者猫
+  source: ""
+- id: 80608
+  kind: 2
+  kind_id: 14860
+  language: 1
+  name: Kyatto Ninja Teyandee (J) [T+Eng4.5_Shadow]
+  source: ""
 - id: 92278
   kind: 2
   kind_id: 14860
@@ -96,15 +108,23 @@ releases:
     id: 14863
     game_id: 14860
     description: ""
-    release_date: 0
+    release_date: 19910719
   names:
+  - id: 33008
+    kind: 3
+    kind_id: 14863
+    language: 1
+    name: Kyatto Ninden Teyandee (Japan) (Translated En)
+    source: ""
   - id: 83598
     kind: 3
     kind_id: 14863
     language: 1
     name: Kyatto Ninden Teyandee (J) [T+Eng1.01KNT Anime_Vice Translations]
     source: ""
-  release_publishers: []
+  release_publishers:
+  - release_id: 14863
+    publisher_id: 14
   assets:
   - asset:
       id: 14845
@@ -116,7 +136,9 @@ releases:
       format: 1
       size: 393232
       blob_id: 60601
-      debug: Kyatto Ninden Teyandee (J) [T+Eng1.01KNT Anime_Vice Translations].nes
+      debug: |-
+        Kyatto Ninden Teyandee (J) [T+Eng1.01KNT Anime_Vice Translations].nes
+        Kyatto Ninden Teyandee (Japan) (Translated En).zip
     entries: []
 - release:
     id: 14864
@@ -156,6 +178,12 @@ releases:
     language: 1
     name: Kyatto Ninden Teyandee (J) [T+Eng4.5_Shadow]
     source: ""
+  - id: 83607
+    kind: 3
+    kind_id: 14865
+    language: 1
+    name: Kyatto Ninja Teyandee (J) [T+Eng4.5_Shadow]
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -168,7 +196,9 @@ releases:
       format: 1
       size: 262160
       blob_id: 60603
-      debug: Kyatto Ninden Teyandee (J) [T+Eng4.5_Shadow].nes
+      debug: |-
+        Kyatto Ninden Teyandee (J) [T+Eng4.5_Shadow].nes
+        Kyatto Ninja Teyandee (J) [T+Eng4.5_Shadow].zip
     entries: []
 - release:
     id: 14866
@@ -598,6 +628,12 @@ releases:
     language: 1
     name: Kyatto Ninden Teyandee (J) [t2]
     source: ""
+  - id: 95175
+    kind: 3
+    kind_id: 14882
+    language: 2
+    name: 忍者猫
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -610,7 +646,9 @@ releases:
       format: 1
       size: 262160
       blob_id: 60620
-      debug: Kyatto Ninden Teyandee (J) [t2].nes
+      debug: |-
+        Kyatto Ninden Teyandee (J) [t2].nes
+        忍者猫_2.zip
     entries: []
 - release:
     id: 14883
@@ -643,34 +681,11 @@ releases:
     game_id: 14860
     description: ""
     release_date: 19910719
-  names:
-  - id: 33008
-    kind: 3
-    kind_id: 14884
-    language: 1
-    name: Kyatto Ninden Teyandee (Japan) (Translated En)
-    source: ""
+  names: []
   release_publishers:
   - release_id: 14884
     publisher_id: 14
   assets:
-  - asset:
-      id: 14866
-      kind: 3
-      kind_id: 14884
-      type: 1
-      name: Kyatto Ninden Teyandee (Japan) (Translated En).zip
-      description: ""
-      format: 2
-      size: 249501
-      blob_id: 0
-      debug: Kyatto Ninden Teyandee (Japan) (Translated En).zip
-    entries:
-    - id: 83133
-      asset_id: 14866
-      name: Kyatto Ninden Teyandee (Japan) (Translated En).nes
-      size: 393232
-      blob_id: 60601
   - asset:
       id: 37957
       kind: 3
@@ -695,3 +710,34 @@ releases:
       blob_id: 81695
       debug: ""
     entries: []
+- release:
+    id: 28078
+    game_id: 14860
+    description: ""
+    release_date: 0
+  names:
+  - id: 64382
+    kind: 3
+    kind_id: 28078
+    language: 2
+    name: 忍者猫
+    source: ""
+  release_publishers: []
+  assets:
+  - asset:
+      id: 28060
+      kind: 3
+      kind_id: 28078
+      type: 1
+      name: 忍者猫.zip
+      description: ""
+      format: 2
+      size: 193428
+      blob_id: 0
+      debug: 忍者猫.zip
+    entries:
+    - id: 84746
+      asset_id: 28060
+      name: 忍者猫.nes
+      size: 524304
+      blob_id: 72707

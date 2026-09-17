@@ -10,6 +10,18 @@ names:
   language: 1
   name: EXERION
   source: ""
+- id: 61191
+  kind: 2
+  kind_id: 10791
+  language: 2
+  name: 凤凰战机
+  source: ""
+- id: 85363
+  kind: 2
+  kind_id: 10791
+  language: 1
+  name: Fire Pheonix (Exerion Hack)
+  source: ""
 game_developers: []
 game_genres: []
 assets: []
@@ -25,6 +37,12 @@ releases:
     kind_id: 10791
     language: 1
     name: EXERION
+    source: ""
+  - id: 85364
+    kind: 3
+    kind_id: 10791
+    language: 1
+    name: Fire Pheonix (Exerion Hack)
     source: ""
   release_publishers: []
   assets:
@@ -361,7 +379,7 @@ releases:
     id: 11017
     game_id: 10791
     description: ""
-    release_date: 0
+    release_date: 19850211
   names:
   - id: 23938
     kind: 3
@@ -369,7 +387,21 @@ releases:
     language: 1
     name: Exerion (J)
     source: ""
-  release_publishers: []
+  - id: 23940
+    kind: 3
+    kind_id: 11017
+    language: 1
+    name: Exerion (Japan)
+    source: ""
+  - id: 61192
+    kind: 3
+    kind_id: 11017
+    language: 2
+    name: 凤凰战机
+    source: ""
+  release_publishers:
+  - release_id: 11017
+    publisher_id: 112
   assets:
   - asset:
       id: 10999
@@ -381,7 +413,11 @@ releases:
       format: 2
       size: 13787
       blob_id: 0
-      debug: Exerion (J).zip
+      debug: |-
+        Exerion (J).zip
+        Exerion (Japan).zip
+        凤凰战机.nes
+        重复的/火凤凰 (日版) (射击)-Exerion (Japan) + Exerion (J) [!].nes
     entries:
     - id: 82637
       asset_id: 10999
@@ -393,34 +429,11 @@ releases:
     game_id: 10791
     description: ""
     release_date: 19850211
-  names:
-  - id: 23940
-    kind: 3
-    kind_id: 11018
-    language: 1
-    name: Exerion (Japan)
-    source: ""
+  names: []
   release_publishers:
   - release_id: 11018
     publisher_id: 112
   assets:
-  - asset:
-      id: 11000
-      kind: 3
-      kind_id: 11018
-      type: 1
-      name: Exerion (Japan).zip
-      description: ""
-      format: 2
-      size: 13634
-      blob_id: 0
-      debug: Exerion (Japan).zip
-    entries:
-    - id: 82638
-      asset_id: 11000
-      name: Exerion (Japan).nes
-      size: 24592
-      blob_id: 57002
   - asset:
       id: 38573
       kind: 3

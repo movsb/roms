@@ -4,6 +4,24 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 62505
+  kind: 2
+  kind_id: 7713
+  language: 2
+  name: 地球超人
+  source: ""
+- id: 65665
+  kind: 2
+  kind_id: 7713
+  language: 2
+  name: 星球拯救队 (美版) (射击)-Captain Planet and the Planeteers (USA)
+  source: ""
+- id: 65666
+  kind: 2
+  kind_id: 7713
+  language: 1
+  name: Captain Planet and The Planeteers (U) [!]
+  source: ""
 - id: 91465
   kind: 2
   kind_id: 7713
@@ -26,6 +44,18 @@ releases:
     language: 1
     name: Captain Planet and The Planeteers (U) [!]
     source: ""
+  - id: 16248
+    kind: 3
+    kind_id: 7713
+    language: 1
+    name: Captain Planet and the Planeteers (U)
+    source: ""
+  - id: 65667
+    kind: 3
+    kind_id: 7713
+    language: 2
+    name: 星球拯救队 (美版) (射击)-Captain Planet and the Planeteers (USA)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -38,7 +68,10 @@ releases:
       format: 2
       size: 136718
       blob_id: 0
-      debug: Captain Planet and The Planeteers (U) [!].zip
+      debug: |-
+        Captain Planet and The Planeteers (U) [!].zip
+        Captain Planet and the Planeteers (U).zip
+        星球拯救队 (美版) (射击)-Captain Planet and the Planeteers (USA) + Captain Planet and The Planeteers (U) [!].nes
     entries:
     - id: 82281
       asset_id: 7695
@@ -161,6 +194,12 @@ releases:
     language: 1
     name: Captain Planet and The Planeteers (U) [t1]
     source: ""
+  - id: 62506
+    kind: 3
+    kind_id: 7718
+    language: 2
+    name: 地球超人
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -173,36 +212,7 @@ releases:
       format: 1
       size: 262160
       blob_id: 53877
-      debug: Captain Planet and The Planeteers (U) [t1].nes
+      debug: |-
+        Captain Planet and The Planeteers (U) [t1].nes
+        地球超人.zip
     entries: []
-- release:
-    id: 7719
-    game_id: 7713
-    description: ""
-    release_date: 0
-  names:
-  - id: 16248
-    kind: 3
-    kind_id: 7719
-    language: 1
-    name: Captain Planet and the Planeteers (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 7701
-      kind: 3
-      kind_id: 7719
-      type: 1
-      name: Captain Planet and the Planeteers (U).zip
-      description: ""
-      format: 2
-      size: 137270
-      blob_id: 0
-      debug: Captain Planet and the Planeteers (U).zip
-    entries:
-    - id: 82282
-      asset_id: 7701
-      name: Captain Planet and the Planeteers (U).nes
-      size: 262160
-      blob_id: 53872

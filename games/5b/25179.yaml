@@ -26,6 +26,18 @@ releases:
     language: 1
     name: Trolls on Treasure Island (AVE) [!]
     source: ""
+  - id: 56278
+    kind: 3
+    kind_id: 25179
+    language: 1
+    name: Trolls on Treasure Island (U)
+    source: ""
+  - id: 56280
+    kind: 3
+    kind_id: 25179
+    language: 1
+    name: Trolls on Treasure Island (Unl) [!p]
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -38,7 +50,10 @@ releases:
       format: 1
       size: 65552
       blob_id: 70396
-      debug: Trolls on Treasure Island (AVE) [!].nes
+      debug: |-
+        Trolls on Treasure Island (AVE) [!].nes
+        Trolls on Treasure Island (U).zip
+        Trolls on Treasure Island (Unl) [!p].zip
     entries: []
 - release:
     id: 25180
@@ -92,65 +107,3 @@ releases:
       blob_id: 70398
       debug: Trolls on Treasure Island (AVE) [o1].nes
     entries: []
-- release:
-    id: 25182
-    game_id: 25179
-    description: ""
-    release_date: 0
-  names:
-  - id: 56278
-    kind: 3
-    kind_id: 25182
-    language: 1
-    name: Trolls on Treasure Island (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 25164
-      kind: 3
-      kind_id: 25182
-      type: 1
-      name: Trolls on Treasure Island (U).zip
-      description: ""
-      format: 2
-      size: 35235
-      blob_id: 0
-      debug: Trolls on Treasure Island (U).zip
-    entries:
-    - id: 84224
-      asset_id: 25164
-      name: Trolls on Treasure Island (U).nes
-      size: 65552
-      blob_id: 70396
-- release:
-    id: 25183
-    game_id: 25179
-    description: ""
-    release_date: 0
-  names:
-  - id: 56280
-    kind: 3
-    kind_id: 25183
-    language: 1
-    name: Trolls on Treasure Island (Unl) [!p]
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 25165
-      kind: 3
-      kind_id: 25183
-      type: 1
-      name: Trolls on Treasure Island (Unl) [!p].zip
-      description: ""
-      format: 2
-      size: 35191
-      blob_id: 0
-      debug: Trolls on Treasure Island (Unl) [!p].zip
-    entries:
-    - id: 84225
-      asset_id: 25165
-      name: Trolls on Treasure Island (Unl) [!p].nes
-      size: 65552
-      blob_id: 70396

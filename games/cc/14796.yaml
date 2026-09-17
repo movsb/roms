@@ -4,6 +4,12 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 61341
+  kind: 2
+  kind_id: 14796
+  language: 2
+  name: 功夫
+  source: ""
 - id: 92275
   kind: 2
   kind_id: 14796
@@ -130,6 +136,18 @@ releases:
     language: 1
     name: Kung Fu (U) [!]
     source: ""
+  - id: 32804
+    kind: 3
+    kind_id: 14800
+    language: 1
+    name: Kung Fu (U)
+    source: ""
+  - id: 61342
+    kind: 3
+    kind_id: 14800
+    language: 2
+    name: 功夫
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -142,7 +160,11 @@ releases:
       format: 2
       size: 29168
       blob_id: 0
-      debug: Kung Fu (U) [!].zip
+      debug: |-
+        Kung Fu (U) [!].zip
+        Kung Fu (U).zip
+        功夫.nes
+        重复的/功夫 (日版,美版) (动作)-Kung Fu (Japan, USA) + Kung Fu (U) [!].nes
     entries:
     - id: 83126
       asset_id: 14782
@@ -332,33 +354,42 @@ releases:
       debug: Kung Fu (U) [p1].nes
     entries: []
 - release:
-    id: 14808
+    id: 27166
     game_id: 14796
     description: ""
     release_date: 0
   names:
-  - id: 32804
+  - id: 61344
     kind: 3
-    kind_id: 14808
-    language: 1
-    name: Kung Fu (U)
+    kind_id: 27166
+    language: 2
+    name: 功夫
+    source: ""
+  - id: 61350
+    kind: 3
+    kind_id: 27166
+    language: 2
+    name: 功夫[汉化版]
     source: ""
   release_publishers: []
   assets:
   - asset:
-      id: 14790
+      id: 27148
       kind: 3
-      kind_id: 14808
+      kind_id: 27166
       type: 1
-      name: Kung Fu (U).zip
+      name: 功夫.zip
       description: ""
       format: 2
-      size: 29166
+      size: 16906
       blob_id: 0
-      debug: Kung Fu (U).zip
+      debug: |-
+        功夫.zip
+        功夫[汉化版].nes
+        重复的/Yie Ar Kung-Fu (J) (V1.4) [T+Chi1.0_Jiuban].nes
     entries:
-    - id: 83127
-      asset_id: 14790
-      name: Kung Fu (U).nes
-      size: 40976
-      blob_id: 60542
+    - id: 84540
+      asset_id: 27148
+      name: 功夫.nes
+      size: 24592
+      blob_id: 72103

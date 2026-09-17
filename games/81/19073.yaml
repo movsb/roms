@@ -10,6 +10,24 @@ names:
   language: 1
   name: Popeye
   source: ""
+- id: 62709
+  kind: 2
+  kind_id: 19073
+  language: 2
+  name: 大力水手 (世界版) (动作)-Popeye (World) (Rev A)
+  source: ""
+- id: 62710
+  kind: 2
+  kind_id: 19073
+  language: 1
+  name: Popeye (W) (PRG1) [!]
+  source: ""
+- id: 62717
+  kind: 2
+  kind_id: 19073
+  language: 2
+  name: 大力水手
+  source: ""
 game_developers: []
 game_genres: []
 assets: []
@@ -442,6 +460,12 @@ releases:
     language: 1
     name: Popeye (W) (PRG1) [!]
     source: ""
+  - id: 62711
+    kind: 3
+    kind_id: 19061
+    language: 2
+    name: 大力水手 (世界版) (动作)-Popeye (World) (Rev A)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -454,7 +478,9 @@ releases:
       format: 2
       size: 16629
       blob_id: 0
-      debug: Popeye (W) (PRG1) [!].zip
+      debug: |-
+        Popeye (W) (PRG1) [!].zip
+        大力水手 (世界版) (动作)-Popeye (World) (Rev A) + Popeye (W) (PRG1) [!].nes
     entries:
     - id: 83585
       asset_id: 19043
@@ -525,6 +551,12 @@ releases:
     language: 1
     name: Popeye (W) (PRG1) [t1]
     source: ""
+  - id: 95162
+    kind: 3
+    kind_id: 19064
+    language: 2
+    name: 大力水手
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -537,7 +569,9 @@ releases:
       format: 1
       size: 24592
       blob_id: 64582
-      debug: Popeye (W) (PRG1) [t1].nes
+      debug: |-
+        Popeye (W) (PRG1) [t1].nes
+        大力水手_2.zip
     entries: []
 - release:
     id: 19073
@@ -570,3 +604,76 @@ releases:
       name: Popeye.nes
       size: 24592
       blob_id: 64588
+- release:
+    id: 27585
+    game_id: 19073
+    description: ""
+    release_date: 0
+  names:
+  - id: 62718
+    kind: 3
+    kind_id: 27585
+    language: 2
+    name: 大力水手
+    source: ""
+  - id: 85124
+    kind: 3
+    kind_id: 27585
+    language: 2
+    name: 大力水手[MS汉化]
+    source: ""
+  - id: 85125
+    kind: 3
+    kind_id: 27585
+    language: 1
+    name: Popeye (W) (PRG1) [T+Chi_MS emumax]
+    source: ""
+  release_publishers: []
+  assets:
+  - asset:
+      id: 27567
+      kind: 3
+      kind_id: 27585
+      type: 1
+      name: 大力水手.zip
+      description: ""
+      format: 2
+      size: 16764
+      blob_id: 0
+      debug: |-
+        大力水手.zip
+        大力水手[MS汉化] + Popeye (W) (PRG1) [T+Chi_MS emumax].nes
+    entries:
+    - id: 84643
+      asset_id: 27567
+      name: 大力水手.nes
+      size: 24592
+      blob_id: 72382
+- release:
+    id: 27587
+    game_id: 19073
+    description: ""
+    release_date: 0
+  names:
+  - id: 62726
+    kind: 3
+    kind_id: 27587
+    language: 2
+    name: 大力水手[汉化版]
+    source: ""
+  release_publishers: []
+  assets:
+  - asset:
+      id: 27569
+      kind: 3
+      kind_id: 27587
+      type: 1
+      name: 大力水手[汉化版].nes
+      description: ""
+      format: 1
+      size: 24592
+      blob_id: 72383
+      debug: |-
+        大力水手[汉化版].nes
+        重复的/Popeye (W) (PRG1) [T-Chi_MS emumax].nes
+    entries: []

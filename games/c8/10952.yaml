@@ -4,6 +4,30 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 67263
+  kind: 2
+  kind_id: 10952
+  language: 2
+  name: 火爆机车赛 (日版,美版) (竞赛)-Excitebike (Japan, USA)
+  source: ""
+- id: 67264
+  kind: 2
+  kind_id: 10952
+  language: 1
+  name: Excitebike (JU) [!]
+  source: ""
+- id: 70419
+  kind: 2
+  kind_id: 10952
+  language: 2
+  name: 越野摩托
+  source: ""
+- id: 70423
+  kind: 2
+  kind_id: 10952
+  language: 2
+  name: 越野摩托车
+  source: ""
 - id: 91809
   kind: 2
   kind_id: 10952
@@ -130,6 +154,12 @@ releases:
     language: 1
     name: Excitebike (JU) [!]
     source: ""
+  - id: 67265
+    kind: 3
+    kind_id: 10956
+    language: 2
+    name: 火爆机车赛 (日版,美版) (竞赛)-Excitebike (Japan, USA)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -142,7 +172,9 @@ releases:
       format: 2
       size: 17521
       blob_id: 0
-      debug: Excitebike (JU) [!].zip
+      debug: |-
+        Excitebike (JU) [!].zip
+        火爆机车赛 (日版,美版) (竞赛)-Excitebike (Japan, USA) + Excitebike (JU) [!].nes
     entries:
     - id: 82633
       asset_id: 10938
@@ -551,6 +583,12 @@ releases:
     language: 1
     name: Excitebike (JU) [b5]
     source: ""
+  - id: 95257
+    kind: 3
+    kind_id: 10972
+    language: 2
+    name: 越野摩托
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -563,7 +601,9 @@ releases:
       format: 1
       size: 24592
       blob_id: 56959
-      debug: Excitebike (JU) [b5].nes
+      debug: |-
+        Excitebike (JU) [b5].nes
+        越野摩托_2.zip
     entries: []
 - release:
     id: 10973
@@ -903,3 +943,43 @@ releases:
       blob_id: 56972
       debug: Excitebike (VS).nes
     entries: []
+- release:
+    id: 29881
+    game_id: 10952
+    description: ""
+    release_date: 0
+  names:
+  - id: 70420
+    kind: 3
+    kind_id: 29881
+    language: 2
+    name: 越野摩托
+    source: ""
+  - id: 70424
+    kind: 3
+    kind_id: 29881
+    language: 2
+    name: 越野摩托车
+    source: ""
+  release_publishers: []
+  assets:
+  - asset:
+      id: 29863
+      kind: 3
+      kind_id: 29881
+      type: 1
+      name: 越野摩托.zip
+      description: ""
+      format: 2
+      size: 17684
+      blob_id: 0
+      debug: |-
+        越野摩托.zip
+        越野摩托车.nes
+        重复的/摩托车 + Excitebike (JU) [o1].nes
+    entries:
+    - id: 85198
+      asset_id: 29863
+      name: 越野摩托.nes
+      size: 41104
+      blob_id: 73855

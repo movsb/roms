@@ -70,15 +70,29 @@ releases:
     id: 16725
     game_id: 16723
     description: ""
-    release_date: 0
+    release_date: 19911122
   names:
+  - id: 37260
+    kind: 3
+    kind_id: 16725
+    language: 1
+    name: Minna no Taabou no Nakayoshi Daisakusen (J) [T-Eng1.01_Suicidal]
+    source: ""
+  - id: 37270
+    kind: 3
+    kind_id: 16725
+    language: 1
+    name: Minna no Taabou no Nakayoshi Daisakusen (Japan) (Translated En)
+    source: ""
   - id: 83885
     kind: 3
     kind_id: 16725
     language: 1
     name: Minna no Taabou no Nakayoshi Daisakusen (J) [T+Eng1.01_Suicidal]
     source: ""
-  release_publishers: []
+  release_publishers:
+  - release_id: 16725
+    publisher_id: 138
   assets:
   - asset:
       id: 16707
@@ -90,7 +104,10 @@ releases:
       format: 2
       size: 33859
       blob_id: 0
-      debug: Minna no Taabou no Nakayoshi Daisakusen (J) [T+Eng1.01_Suicidal].zip
+      debug: |-
+        Minna no Taabou no Nakayoshi Daisakusen (J) [T+Eng1.01_Suicidal].zip
+        Minna no Taabou no Nakayoshi Daisakusen (J) [T-Eng1.01_Suicidal].nes
+        Minna no Taabou no Nakayoshi Daisakusen (Japan) (Translated En).zip
     entries:
     - id: 83362
       asset_id: 16707
@@ -148,32 +165,6 @@ releases:
       size: 65552
       blob_id: 62356
       debug: Minna no Taabou no Nakayoshi Daisakusen (J) [T-Eng1.00_Suicidal].nes
-    entries: []
-- release:
-    id: 16728
-    game_id: 16723
-    description: ""
-    release_date: 0
-  names:
-  - id: 37260
-    kind: 3
-    kind_id: 16728
-    language: 1
-    name: Minna no Taabou no Nakayoshi Daisakusen (J) [T-Eng1.01_Suicidal]
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 16710
-      kind: 3
-      kind_id: 16728
-      type: 1
-      name: Minna no Taabou no Nakayoshi Daisakusen (J) [T-Eng1.01_Suicidal].nes
-      description: ""
-      format: 1
-      size: 65552
-      blob_id: 62354
-      debug: Minna no Taabou no Nakayoshi Daisakusen (J) [T-Eng1.01_Suicidal].nes
     entries: []
 - release:
     id: 16729
@@ -284,34 +275,11 @@ releases:
     game_id: 16723
     description: ""
     release_date: 19911122
-  names:
-  - id: 37270
-    kind: 3
-    kind_id: 16733
-    language: 1
-    name: Minna no Taabou no Nakayoshi Daisakusen (Japan) (Translated En)
-    source: ""
+  names: []
   release_publishers:
   - release_id: 16733
     publisher_id: 138
   assets:
-  - asset:
-      id: 16715
-      kind: 3
-      kind_id: 16733
-      type: 1
-      name: Minna no Taabou no Nakayoshi Daisakusen (Japan) (Translated En).zip
-      description: ""
-      format: 2
-      size: 33004
-      blob_id: 0
-      debug: Minna no Taabou no Nakayoshi Daisakusen (Japan) (Translated En).zip
-    entries:
-    - id: 83363
-      asset_id: 16715
-      name: Minna no Taabou no Nakayoshi Daisakusen (Japan) (Translated En).nes
-      size: 65552
-      blob_id: 62354
   - asset:
       id: 38408
       kind: 3

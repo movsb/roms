@@ -4,6 +4,24 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 43721
+  kind: 2
+  kind_id: 19646
+  language: 1
+  name: RaceAmerica
+  source: ""
+- id: 68909
+  kind: 2
+  kind_id: 19646
+  language: 2
+  name: 美国大赛车 (美版) (竞赛)-Race America (USA)
+  source: ""
+- id: 68910
+  kind: 2
+  kind_id: 19646
+  language: 1
+  name: Race America (U) [!]
+  source: ""
 - id: 92825
   kind: 2
   kind_id: 19646
@@ -26,6 +44,24 @@ releases:
     language: 1
     name: Race America (U) [!]
     source: ""
+  - id: 43720
+    kind: 3
+    kind_id: 19646
+    language: 1
+    name: Race America (U)
+    source: ""
+  - id: 43722
+    kind: 3
+    kind_id: 19646
+    language: 1
+    name: RaceAmerica
+    source: ""
+  - id: 68911
+    kind: 3
+    kind_id: 19646
+    language: 2
+    name: 美国大赛车 (美版) (竞赛)-Race America (USA)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -38,7 +74,11 @@ releases:
       format: 2
       size: 95780
       blob_id: 0
-      debug: Race America (U) [!].zip
+      debug: |-
+        Race America (U) [!].zip
+        Race America (U).zip
+        RaceAmerica.zip
+        美国大赛车 (美版) (竞赛)-Race America (USA) + Race America (U) [!].nes
     entries:
     - id: 83660
       asset_id: 19628
@@ -149,34 +189,3 @@ releases:
       blob_id: 65136
       debug: Race America (U) [o2].nes
     entries: []
-- release:
-    id: 19651
-    game_id: 19646
-    description: ""
-    release_date: 0
-  names:
-  - id: 43720
-    kind: 3
-    kind_id: 19651
-    language: 1
-    name: Race America (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 19633
-      kind: 3
-      kind_id: 19651
-      type: 1
-      name: Race America (U).zip
-      description: ""
-      format: 2
-      size: 96118
-      blob_id: 0
-      debug: Race America (U).zip
-    entries:
-    - id: 83661
-      asset_id: 19633
-      name: Race America (U).nes
-      size: 262160
-      blob_id: 65132

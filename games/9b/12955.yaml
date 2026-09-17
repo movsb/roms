@@ -4,6 +4,18 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 70863
+  kind: 2
+  kind_id: 12955
+  language: 2
+  name: 重装雪板
+  source: ""
+- id: 70864
+  kind: 2
+  kind_id: 12955
+  language: 1
+  name: Heavy Shreddin' (U) [!]
+  source: ""
 - id: 92058
   kind: 2
   kind_id: 12955
@@ -26,6 +38,18 @@ releases:
     language: 1
     name: Heavy Shreddin' (U) [!]
     source: ""
+  - id: 28466
+    kind: 3
+    kind_id: 12955
+    language: 1
+    name: Heavy Shreddin' (U)
+    source: ""
+  - id: 70865
+    kind: 3
+    kind_id: 12955
+    language: 2
+    name: 重装雪板
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -38,7 +62,10 @@ releases:
       format: 2
       size: 63658
       blob_id: 0
-      debug: Heavy Shreddin' (U) [!].zip
+      debug: |-
+        Heavy Shreddin' (U) [!].zip
+        Heavy Shreddin' (U).zip
+        重装雪板 + Heavy Shreddin' (U) [!].nes
     entries:
     - id: 82867
       asset_id: 12937
@@ -175,34 +202,3 @@ releases:
       blob_id: 58840
       debug: Heavy Shreddin' (U) [o2].nes
     entries: []
-- release:
-    id: 12961
-    game_id: 12955
-    description: ""
-    release_date: 0
-  names:
-  - id: 28466
-    kind: 3
-    kind_id: 12961
-    language: 1
-    name: Heavy Shreddin' (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 12943
-      kind: 3
-      kind_id: 12961
-      type: 1
-      name: Heavy Shreddin' (U).zip
-      description: ""
-      format: 2
-      size: 64276
-      blob_id: 0
-      debug: Heavy Shreddin' (U).zip
-    entries:
-    - id: 82868
-      asset_id: 12943
-      name: Heavy Shreddin' (U).nes
-      size: 262160
-      blob_id: 58835

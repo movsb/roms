@@ -70,15 +70,23 @@ releases:
     id: 14277
     game_id: 14275
     description: ""
-    release_date: 0
+    release_date: 19881118
   names:
+  - id: 31538
+    kind: 3
+    kind_id: 14277
+    language: 1
+    name: Kaijuu Monogatari (Japan) (Translated En)
+    source: ""
   - id: 83469
     kind: 3
     kind_id: 14277
     language: 1
     name: Kaijuu Monogatari (J) [T+Eng1.0b2_KingMike][a1]
     source: ""
-  release_publishers: []
+  release_publishers:
+  - release_id: 14277
+    publisher_id: 4
   assets:
   - asset:
       id: 14259
@@ -90,7 +98,9 @@ releases:
       format: 1
       size: 393232
       blob_id: 60061
-      debug: Kaijuu Monogatari (J) [T+Eng1.0b2_KingMike][a1].nes
+      debug: |-
+        Kaijuu Monogatari (J) [T+Eng1.0b2_KingMike][a1].nes
+        Kaijuu Monogatari (Japan) (Translated En).zip
     entries: []
 - release:
     id: 14278
@@ -124,6 +134,12 @@ releases:
     description: ""
     release_date: 0
   names:
+  - id: 31530
+    kind: 3
+    kind_id: 14279
+    language: 1
+    name: Kaijuu Monogatari (J) [T-Eng1.0b_KingMike]
+    source: ""
   - id: 83471
     kind: 3
     kind_id: 14279
@@ -142,39 +158,15 @@ releases:
       format: 2
       size: 226328
       blob_id: 0
-      debug: Kaijuu Monogatari (J) [T+Eng1.0b_KingMike].zip
+      debug: |-
+        Kaijuu Monogatari (J) [T+Eng1.0b_KingMike].zip
+        Kaijuu Monogatari (J) [T-Eng1.0b_KingMike].nes
     entries:
     - id: 83046
       asset_id: 14261
       name: Kaijuu Monogatari (J) [T+Eng1.0b_KingMike].nes
       size: 393232
       blob_id: 60063
-- release:
-    id: 14280
-    game_id: 14275
-    description: ""
-    release_date: 0
-  names:
-  - id: 31530
-    kind: 3
-    kind_id: 14280
-    language: 1
-    name: Kaijuu Monogatari (J) [T-Eng1.0b_KingMike]
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 14262
-      kind: 3
-      kind_id: 14280
-      type: 1
-      name: Kaijuu Monogatari (J) [T-Eng1.0b_KingMike].nes
-      description: ""
-      format: 1
-      size: 393232
-      blob_id: 60063
-      debug: Kaijuu Monogatari (J) [T-Eng1.0b_KingMike].nes
-    entries: []
 - release:
     id: 14281
     game_id: 14275
@@ -258,34 +250,11 @@ releases:
     game_id: 14275
     description: ""
     release_date: 19881118
-  names:
-  - id: 31538
-    kind: 3
-    kind_id: 14284
-    language: 1
-    name: Kaijuu Monogatari (Japan) (Translated En)
-    source: ""
+  names: []
   release_publishers:
   - release_id: 14284
     publisher_id: 4
   assets:
-  - asset:
-      id: 14266
-      kind: 3
-      kind_id: 14284
-      type: 1
-      name: Kaijuu Monogatari (Japan) (Translated En).zip
-      description: ""
-      format: 2
-      size: 221700
-      blob_id: 0
-      debug: Kaijuu Monogatari (Japan) (Translated En).zip
-    entries:
-    - id: 83047
-      asset_id: 14266
-      name: Kaijuu Monogatari (Japan) (Translated En).nes
-      size: 393232
-      blob_id: 60061
   - asset:
       id: 38039
       kind: 3

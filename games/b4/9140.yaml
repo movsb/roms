@@ -10,6 +10,18 @@ names:
   language: 1
   name: Contra
   source: ""
+- id: 71723
+  kind: 2
+  kind_id: 9140
+  language: 2
+  name: 魂斗罗1
+  source: ""
+- id: 71724
+  kind: 2
+  kind_id: 9140
+  language: 1
+  name: Contra (U) [!]
+  source: ""
 game_developers: []
 game_genres: []
 assets: []
@@ -1582,6 +1594,24 @@ releases:
     language: 1
     name: Contra (U) [!]
     source: ""
+  - id: 19404
+    kind: 3
+    kind_id: 9073
+    language: 1
+    name: Contra (U)
+    source: ""
+  - id: 59600
+    kind: 3
+    kind_id: 9073
+    language: 1
+    name: contra
+    source: ""
+  - id: 71725
+    kind: 3
+    kind_id: 9073
+    language: 2
+    name: 魂斗罗1
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -1594,7 +1624,11 @@ releases:
       format: 2
       size: 89901
       blob_id: 0
-      debug: Contra (U) [!].zip
+      debug: |-
+        Contra (U) [!].zip
+        Contra (U).zip
+        contra.zip
+        魂斗罗/魂斗罗1 + Contra (U) [!].nes
     entries:
     - id: 82390
       asset_id: 9055
@@ -2148,37 +2182,6 @@ releases:
       debug: Contra (U) [t3].nes
     entries: []
 - release:
-    id: 9095
-    game_id: 9140
-    description: ""
-    release_date: 0
-  names:
-  - id: 19404
-    kind: 3
-    kind_id: 9095
-    language: 1
-    name: Contra (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 9077
-      kind: 3
-      kind_id: 9095
-      type: 1
-      name: Contra (U).zip
-      description: ""
-      format: 2
-      size: 89904
-      blob_id: 0
-      debug: Contra (U).zip
-    entries:
-    - id: 82391
-      asset_id: 9077
-      name: Contra (U).nes
-      size: 131088
-      blob_id: 55180
-- release:
     id: 9096
     game_id: 9140
     description: ""
@@ -2311,34 +2314,3 @@ releases:
         重复的/Contra (U) [t1].nes
         魂斗罗/魂斗罗-30命S枪.nes
     entries: []
-- release:
-    id: 26623
-    game_id: 9140
-    description: ""
-    release_date: 0
-  names:
-  - id: 59600
-    kind: 3
-    kind_id: 26623
-    language: 1
-    name: contra
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 26605
-      kind: 3
-      kind_id: 26623
-      type: 1
-      name: contra.zip
-      description: ""
-      format: 2
-      size: 89896
-      blob_id: 0
-      debug: contra.zip
-    entries:
-    - id: 84420
-      asset_id: 26605
-      name: contra.nes
-      size: 131088
-      blob_id: 55180

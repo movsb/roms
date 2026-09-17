@@ -4,6 +4,18 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 72087
+  kind: 2
+  kind_id: 21342
+  language: 2
+  name: 鲨鱼战机 (美版)(Rev A) (射击)-Sky Shark (USA) (Rev 0A)
+  source: ""
+- id: 72088
+  kind: 2
+  kind_id: 21342
+  language: 1
+  name: Sky Shark (U) [!]
+  source: ""
 - id: 93045
   kind: 2
   kind_id: 21342
@@ -26,6 +38,18 @@ releases:
     language: 1
     name: Sky Shark (U) [!]
     source: ""
+  - id: 47546
+    kind: 3
+    kind_id: 21342
+    language: 1
+    name: Sky Shark (U)
+    source: ""
+  - id: 72089
+    kind: 3
+    kind_id: 21342
+    language: 2
+    name: 鲨鱼战机 (美版)(Rev A) (射击)-Sky Shark (USA) (Rev 0A)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -38,7 +62,10 @@ releases:
       format: 2
       size: 66340
       blob_id: 0
-      debug: Sky Shark (U) [!].zip
+      debug: |-
+        Sky Shark (U) [!].zip
+        Sky Shark (U).zip
+        鲨鱼战机 (美版)(Rev A) (射击)-Sky Shark (USA) (Rev 0A) + Sky Shark (U) [!].nes
     entries:
     - id: 83856
       asset_id: 21324
@@ -227,34 +254,3 @@ releases:
       blob_id: 66736
       debug: Sky Shark (U) [t2].nes
     entries: []
-- release:
-    id: 21350
-    game_id: 21342
-    description: ""
-    release_date: 0
-  names:
-  - id: 47546
-    kind: 3
-    kind_id: 21350
-    language: 1
-    name: Sky Shark (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 21332
-      kind: 3
-      kind_id: 21350
-      type: 1
-      name: Sky Shark (U).zip
-      description: ""
-      format: 2
-      size: 66540
-      blob_id: 0
-      debug: Sky Shark (U).zip
-    entries:
-    - id: 83857
-      asset_id: 21332
-      name: Sky Shark (U).nes
-      size: 196624
-      blob_id: 66729

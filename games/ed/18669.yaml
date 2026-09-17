@@ -4,6 +4,24 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 64019
+  kind: 2
+  kind_id: 18669
+  language: 2
+  name: 帕拉米狄斯方块
+  source: ""
+- id: 65779
+  kind: 2
+  kind_id: 18669
+  language: 2
+  name: 智慧方块 (美版) (益智)-Palamedes (USA)
+  source: ""
+- id: 65780
+  kind: 2
+  kind_id: 18669
+  language: 1
+  name: Palamedes (U) [!]
+  source: ""
 - id: 92704
   kind: 2
   kind_id: 18669
@@ -104,6 +122,24 @@ releases:
     language: 1
     name: Palamedes (U) [!]
     source: ""
+  - id: 41636
+    kind: 3
+    kind_id: 18672
+    language: 1
+    name: Palamedes (U)
+    source: ""
+  - id: 64020
+    kind: 3
+    kind_id: 18672
+    language: 2
+    name: 帕拉米狄斯方块
+    source: ""
+  - id: 65781
+    kind: 3
+    kind_id: 18672
+    language: 2
+    name: 智慧方块 (美版) (益智)-Palamedes (USA)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -116,7 +152,11 @@ releases:
       format: 2
       size: 31804
       blob_id: 0
-      debug: Palamedes (U) [!].zip
+      debug: |-
+        Palamedes (U) [!].zip
+        Palamedes (U).zip
+        帕拉米狄斯方块.zip
+        智慧方块 (美版) (益智)-Palamedes (USA) + Palamedes (U) [!].nes
     entries:
     - id: 83521
       asset_id: 18654
@@ -149,34 +189,3 @@ releases:
       blob_id: 64219
       debug: Palamedes (U) [o1].nes
     entries: []
-- release:
-    id: 18674
-    game_id: 18669
-    description: ""
-    release_date: 0
-  names:
-  - id: 41636
-    kind: 3
-    kind_id: 18674
-    language: 1
-    name: Palamedes (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 18656
-      kind: 3
-      kind_id: 18674
-      type: 1
-      name: Palamedes (U).zip
-      description: ""
-      format: 2
-      size: 31823
-      blob_id: 0
-      debug: Palamedes (U).zip
-    entries:
-    - id: 83522
-      asset_id: 18656
-      name: Palamedes (U).nes
-      size: 65552
-      blob_id: 64218

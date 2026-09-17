@@ -4,6 +4,12 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 59759
+  kind: 2
+  kind_id: 19029
+  language: 2
+  name: 三只小猪
+  source: ""
 - id: 92763
   kind: 2
   kind_id: 19029
@@ -364,6 +370,18 @@ releases:
     language: 1
     name: Pooyan (Japan)
     source: ""
+  - id: 59761
+    kind: 3
+    kind_id: 19042
+    language: 2
+    name: 三只小猪
+    source: ""
+  - id: 59762
+    kind: 3
+    kind_id: 19042
+    language: 1
+    name: Pooyan (J)
+    source: ""
   release_publishers:
   - release_id: 19042
     publisher_id: 2
@@ -378,7 +396,9 @@ releases:
       format: 2
       size: 15626
       blob_id: 0
-      debug: Pooyan (Japan).zip
+      debug: |-
+        Pooyan (Japan).zip
+        三只小猪 + Pooyan (J).nes
     entries:
     - id: 83584
       asset_id: 19024
@@ -421,3 +441,74 @@ releases:
       blob_id: 81682
       debug: ""
     entries: []
+- release:
+    id: 26679
+    game_id: 19029
+    description: ""
+    release_date: 0
+  names:
+  - id: 59764
+    kind: 3
+    kind_id: 26679
+    language: 2
+    name: 三只小猪
+    source: ""
+  - id: 59766
+    kind: 3
+    kind_id: 26679
+    language: 2
+    name: 三只小猪[汉化版]
+    source: ""
+  release_publishers: []
+  assets:
+  - asset:
+      id: 26661
+      kind: 3
+      kind_id: 26679
+      type: 1
+      name: 三只小猪.zip
+      description: ""
+      format: 2
+      size: 15789
+      blob_id: 0
+      debug: |-
+        三只小猪.zip
+        三只小猪[汉化版].nes
+        重复的/Pooyan (J) [T-Chi_MS emumax][a1].nes
+    entries:
+    - id: 84442
+      asset_id: 26661
+      name: 三只小猪.nes
+      size: 24592
+      blob_id: 71773
+- release:
+    id: 26681
+    game_id: 19029
+    description: ""
+    release_date: 0
+  names:
+  - id: 95128
+    kind: 3
+    kind_id: 26681
+    language: 2
+    name: 三只小猪
+    source: ""
+  release_publishers: []
+  assets:
+  - asset:
+      id: 26663
+      kind: 3
+      kind_id: 26681
+      type: 1
+      name: 三只小猪.zip
+      description: ""
+      format: 2
+      size: 15790
+      blob_id: 0
+      debug: 三只小猪_2.zip
+    entries:
+    - id: 84443
+      asset_id: 26663
+      name: 三只小猪.nes
+      size: 24592
+      blob_id: 71774

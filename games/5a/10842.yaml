@@ -46,6 +46,12 @@ releases:
     description: ""
     release_date: 0
   names:
+  - id: 23550
+    kind: 3
+    kind_id: 10843
+    language: 1
+    name: Egypt (J) [T-Eng1.00_Gil Galad]
+    source: ""
   - id: 82945
     kind: 3
     kind_id: 10843
@@ -64,7 +70,9 @@ releases:
       format: 2
       size: 44413
       blob_id: 0
-      debug: Egypt (J) [T+Eng1.00_Dodgy].zip
+      debug: |-
+        Egypt (J) [T+Eng1.00_Dodgy].zip
+        Egypt (J) [T-Eng1.00_Gil Galad].nes
     entries:
     - id: 82620
       asset_id: 10825
@@ -75,15 +83,23 @@ releases:
     id: 10844
     game_id: 10842
     description: ""
-    release_date: 0
+    release_date: 19910531
   names:
+  - id: 23556
+    kind: 3
+    kind_id: 10844
+    language: 1
+    name: Egypt (Japan) (Translated En)
+    source: ""
   - id: 82946
     kind: 3
     kind_id: 10844
     language: 1
     name: Egypt (J) [T+Eng1.01_Gil Galad]
     source: ""
-  release_publishers: []
+  release_publishers:
+  - release_id: 10844
+    publisher_id: 141
   assets:
   - asset:
       id: 10826
@@ -95,7 +111,9 @@ releases:
       format: 1
       size: 65552
       blob_id: 56839
-      debug: Egypt (J) [T+Eng1.01_Gil Galad].nes
+      debug: |-
+        Egypt (J) [T+Eng1.01_Gil Galad].nes
+        Egypt (Japan) (Translated En).zip
     entries: []
 - release:
     id: 10845
@@ -148,32 +166,6 @@ releases:
       size: 65552
       blob_id: 56841
       debug: Egypt (J) [T-Eng0.50_Gil Galad].nes
-    entries: []
-- release:
-    id: 10847
-    game_id: 10842
-    description: ""
-    release_date: 0
-  names:
-  - id: 23550
-    kind: 3
-    kind_id: 10847
-    language: 1
-    name: Egypt (J) [T-Eng1.00_Gil Galad]
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 10829
-      kind: 3
-      kind_id: 10847
-      type: 1
-      name: Egypt (J) [T-Eng1.00_Gil Galad].nes
-      description: ""
-      format: 1
-      size: 65552
-      blob_id: 56838
-      debug: Egypt (J) [T-Eng1.00_Gil Galad].nes
     entries: []
 - release:
     id: 10848
@@ -232,34 +224,11 @@ releases:
     game_id: 10842
     description: ""
     release_date: 19910531
-  names:
-  - id: 23556
-    kind: 3
-    kind_id: 10850
-    language: 1
-    name: Egypt (Japan) (Translated En)
-    source: ""
+  names: []
   release_publishers:
   - release_id: 10850
     publisher_id: 141
   assets:
-  - asset:
-      id: 10832
-      kind: 3
-      kind_id: 10850
-      type: 1
-      name: Egypt (Japan) (Translated En).zip
-      description: ""
-      format: 2
-      size: 43208
-      blob_id: 0
-      debug: Egypt (Japan) (Translated En).zip
-    entries:
-    - id: 82621
-      asset_id: 10832
-      name: Egypt (Japan) (Translated En).nes
-      size: 65552
-      blob_id: 56839
   - asset:
       id: 38079
       kind: 3

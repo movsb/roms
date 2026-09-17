@@ -4,6 +4,18 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 63339
+  kind: 2
+  kind_id: 21937
+  language: 2
+  name: 宇宙创世纪 (美版) (模拟射击)-Star Voyager (USA)
+  source: ""
+- id: 63340
+  kind: 2
+  kind_id: 21937
+  language: 1
+  name: Star Voyager (U) [!]
+  source: ""
 - id: 93108
   kind: 2
   kind_id: 21937
@@ -26,6 +38,12 @@ releases:
     language: 1
     name: Star Voyager (U) [!]
     source: ""
+  - id: 63341
+    kind: 3
+    kind_id: 21937
+    language: 2
+    name: 宇宙创世纪 (美版) (模拟射击)-Star Voyager (USA)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -38,7 +56,9 @@ releases:
       format: 2
       size: 34622
       blob_id: 0
-      debug: Star Voyager (U) [!].zip
+      debug: |-
+        Star Voyager (U) [!].zip
+        宇宙创世纪 (美版) (模拟射击)-Star Voyager (USA) + Star Voyager (U) [!].nes
     entries:
     - id: 83931
       asset_id: 21919
@@ -83,6 +103,12 @@ releases:
     language: 1
     name: Star Voyager (U) [b1]
     source: ""
+  - id: 48850
+    kind: 3
+    kind_id: 21939
+    language: 1
+    name: Star Voyager (U)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -95,7 +121,9 @@ releases:
       format: 1
       size: 65552
       blob_id: 67297
-      debug: Star Voyager (U) [b1].nes
+      debug: |-
+        Star Voyager (U) [b1].nes
+        Star Voyager (U).zip
     entries: []
 - release:
     id: 21940
@@ -175,34 +203,3 @@ releases:
       blob_id: 67300
       debug: Star Voyager (U) [b1][o3].nes
     entries: []
-- release:
-    id: 21943
-    game_id: 21937
-    description: ""
-    release_date: 0
-  names:
-  - id: 48850
-    kind: 3
-    kind_id: 21943
-    language: 1
-    name: Star Voyager (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 21925
-      kind: 3
-      kind_id: 21943
-      type: 1
-      name: Star Voyager (U).zip
-      description: ""
-      format: 2
-      size: 34666
-      blob_id: 0
-      debug: Star Voyager (U).zip
-    entries:
-    - id: 83932
-      asset_id: 21925
-      name: Star Voyager (U).nes
-      size: 65552
-      blob_id: 67297

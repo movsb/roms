@@ -18,15 +18,23 @@ releases:
     id: 10885
     game_id: 10885
     description: ""
-    release_date: 0
+    release_date: 19880428
   names:
+  - id: 23652
+    kind: 3
+    kind_id: 10885
+    language: 1
+    name: Elysion (Japan) (Translated En)
+    source: ""
   - id: 82948
     kind: 3
     kind_id: 10885
     language: 1
     name: Elysion (J) [T+Eng0.92_Tenshigami]
     source: ""
-  release_publishers: []
+  release_publishers:
+  - release_id: 10885
+    publisher_id: 169
   assets:
   - asset:
       id: 10867
@@ -38,7 +46,9 @@ releases:
       format: 1
       size: 262160
       blob_id: 56875
-      debug: Elysion (J) [T+Eng0.92_Tenshigami].nes
+      debug: |-
+        Elysion (J) [T+Eng0.92_Tenshigami].nes
+        Elysion (Japan) (Translated En).zip
     entries: []
 - release:
     id: 10886
@@ -279,34 +289,11 @@ releases:
     game_id: 10885
     description: ""
     release_date: 19880428
-  names:
-  - id: 23652
-    kind: 3
-    kind_id: 10895
-    language: 1
-    name: Elysion (Japan) (Translated En)
-    source: ""
+  names: []
   release_publishers:
   - release_id: 10895
     publisher_id: 169
   assets:
-  - asset:
-      id: 10877
-      kind: 3
-      kind_id: 10895
-      type: 1
-      name: Elysion (Japan) (Translated En).zip
-      description: ""
-      format: 2
-      size: 100970
-      blob_id: 0
-      debug: Elysion (Japan) (Translated En).zip
-    entries:
-    - id: 82627
-      asset_id: 10877
-      name: Elysion (Japan) (Translated En).nes
-      size: 262160
-      blob_id: 56875
   - asset:
       id: 38446
       kind: 3

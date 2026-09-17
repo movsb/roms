@@ -18,7 +18,7 @@ releases:
     id: 25618
     game_id: 25618
     description: ""
-    release_date: 0
+    release_date: 19851207
   names:
   - id: 57270
     kind: 3
@@ -26,7 +26,15 @@ releases:
     language: 1
     name: Volguard II (J) [!]
     source: ""
-  release_publishers: []
+  - id: 57280
+    kind: 3
+    kind_id: 25618
+    language: 1
+    name: Volguard II (Japan)
+    source: ""
+  release_publishers:
+  - release_id: 25618
+    publisher_id: 122
   assets:
   - asset:
       id: 25600
@@ -38,7 +46,9 @@ releases:
       format: 1
       size: 40976
       blob_id: 70803
-      debug: Volguard II (J) [!].nes
+      debug: |-
+        Volguard II (J) [!].nes
+        Volguard II (Japan).zip
     entries: []
 - release:
     id: 25619
@@ -123,34 +133,11 @@ releases:
     game_id: 25618
     description: ""
     release_date: 19851207
-  names:
-  - id: 57280
-    kind: 3
-    kind_id: 25622
-    language: 1
-    name: Volguard II (Japan)
-    source: ""
+  names: []
   release_publishers:
   - release_id: 25622
     publisher_id: 122
   assets:
-  - asset:
-      id: 25604
-      kind: 3
-      kind_id: 25622
-      type: 1
-      name: Volguard II (Japan).zip
-      description: ""
-      format: 2
-      size: 26576
-      blob_id: 0
-      debug: Volguard II (Japan).zip
-    entries:
-    - id: 84282
-      asset_id: 25604
-      name: Volguard II (Japan).nes
-      size: 40976
-      blob_id: 70803
   - asset:
       id: 37946
       kind: 3

@@ -4,6 +4,12 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 71405
+  kind: 2
+  kind_id: 21598
+  language: 2
+  name: 音速小子5代马里奥版
+  source: ""
 - id: 93066
   kind: 2
   kind_id: 21598
@@ -286,6 +292,18 @@ releases:
     language: 1
     name: Somari (Unl) [p1]
     source: ""
+  - id: 48114
+    kind: 3
+    kind_id: 21608
+    language: 1
+    name: Somari (Unl)
+    source: ""
+  - id: 71406
+    kind: 3
+    kind_id: 21608
+    language: 2
+    name: 音速小子5代马里奥版
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -298,7 +316,10 @@ releases:
       format: 1
       size: 524304
       blob_id: 66985
-      debug: Somari (Unl) [p1].nes
+      debug: |-
+        Somari (Unl) [p1].nes
+        Somari (Unl).zip
+        音速小子5代马里奥版.zip
     entries: []
 - release:
     id: 21609
@@ -326,34 +347,3 @@ releases:
       blob_id: 66986
       debug: Somari (Unl) [p2].nes
     entries: []
-- release:
-    id: 21610
-    game_id: 21598
-    description: ""
-    release_date: 0
-  names:
-  - id: 48114
-    kind: 3
-    kind_id: 21610
-    language: 1
-    name: Somari (Unl)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 21592
-      kind: 3
-      kind_id: 21610
-      type: 1
-      name: Somari (Unl).zip
-      description: ""
-      format: 2
-      size: 170710
-      blob_id: 0
-      debug: Somari (Unl).zip
-    entries:
-    - id: 83882
-      asset_id: 21592
-      name: Somari (Unl).nes
-      size: 524304
-      blob_id: 66985

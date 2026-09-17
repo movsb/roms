@@ -4,6 +4,18 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 61887
+  kind: 2
+  kind_id: 9432
+  language: 2
+  name: 变形黑侠 (美版) (动作)-Darkman (USA)
+  source: ""
+- id: 61888
+  kind: 2
+  kind_id: 9432
+  language: 1
+  name: Darkman (U) [!]
+  source: ""
 - id: 91615
   kind: 2
   kind_id: 9432
@@ -52,6 +64,18 @@ releases:
     language: 1
     name: Darkman (U) [!]
     source: ""
+  - id: 20192
+    kind: 3
+    kind_id: 9433
+    language: 1
+    name: Darkman (U)
+    source: ""
+  - id: 61889
+    kind: 3
+    kind_id: 9433
+    language: 2
+    name: 变形黑侠 (美版) (动作)-Darkman (USA)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -64,7 +88,10 @@ releases:
       format: 2
       size: 123019
       blob_id: 0
-      debug: Darkman (U) [!].zip
+      debug: |-
+        Darkman (U) [!].zip
+        Darkman (U).zip
+        变形黑侠 (美版) (动作)-Darkman (USA) + Darkman (U) [!].nes
     entries:
     - id: 82441
       asset_id: 9415
@@ -253,34 +280,3 @@ releases:
       blob_id: 55521
       debug: Darkman (U) [t2].nes
     entries: []
-- release:
-    id: 9441
-    game_id: 9432
-    description: ""
-    release_date: 0
-  names:
-  - id: 20192
-    kind: 3
-    kind_id: 9441
-    language: 1
-    name: Darkman (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 9423
-      kind: 3
-      kind_id: 9441
-      type: 1
-      name: Darkman (U).zip
-      description: ""
-      format: 2
-      size: 123663
-      blob_id: 0
-      debug: Darkman (U).zip
-    entries:
-    - id: 82442
-      asset_id: 9423
-      name: Darkman (U).nes
-      size: 262160
-      blob_id: 55514

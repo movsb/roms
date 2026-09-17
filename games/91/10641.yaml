@@ -18,15 +18,23 @@ releases:
     id: 10641
     game_id: 10641
     description: ""
-    release_date: 0
+    release_date: 19920922
   names:
+  - id: 23096
+    kind: 3
+    kind_id: 10641
+    language: 1
+    name: Dream Master (Japan) (Translated En)
+    source: ""
   - id: 82916
     kind: 3
     kind_id: 10641
     language: 1
     name: Dream Master (J) [T+Eng1.01_Aishsha]
     source: ""
-  release_publishers: []
+  release_publishers:
+  - release_id: 10641
+    publisher_id: 4
   assets:
   - asset:
       id: 10623
@@ -38,7 +46,9 @@ releases:
       format: 1
       size: 786448
       blob_id: 56646
-      debug: Dream Master (J) [T+Eng1.01_Aishsha].nes
+      debug: |-
+        Dream Master (J) [T+Eng1.01_Aishsha].nes
+        Dream Master (Japan) (Translated En).zip
     entries: []
 - release:
     id: 10642
@@ -227,34 +237,11 @@ releases:
     game_id: 10641
     description: ""
     release_date: 19920922
-  names:
-  - id: 23096
-    kind: 3
-    kind_id: 10649
-    language: 1
-    name: Dream Master (Japan) (Translated En)
-    source: ""
+  names: []
   release_publishers:
   - release_id: 10649
     publisher_id: 4
   assets:
-  - asset:
-      id: 10631
-      kind: 3
-      kind_id: 10649
-      type: 1
-      name: Dream Master (Japan) (Translated En).zip
-      description: ""
-      format: 2
-      size: 303268
-      blob_id: 0
-      debug: Dream Master (Japan) (Translated En).zip
-    entries:
-    - id: 82593
-      asset_id: 10631
-      name: Dream Master (Japan) (Translated En).nes
-      size: 786448
-      blob_id: 56646
   - asset:
       id: 38141
       kind: 3

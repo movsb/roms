@@ -18,7 +18,7 @@ releases:
     id: 32353
     game_id: 32353
     description: ""
-    release_date: 0
+    release_date: 20011119
   names:
   - id: 76187
     kind: 3
@@ -26,7 +26,15 @@ releases:
     language: 1
     name: Wario Land 4 (E)(-Q)
     source: ""
-  release_publishers: []
+  - id: 76189
+    kind: 3
+    kind_id: 32353
+    language: 1
+    name: Wario Land 4 (USA, Europe)
+    source: ""
+  release_publishers:
+  - release_id: 32353
+    publisher_id: 17
   assets:
   - asset:
       id: 32315
@@ -38,7 +46,10 @@ releases:
       format: 2
       size: 3929905
       blob_id: 0
-      debug: Wario Land 4 (E)(-Q).zip
+      debug: |-
+        Wario Land 4 (E)(-Q).zip
+        Wario Land 4 (USA, Europe).zip
+        瓦里奥世界4.zip
     entries:
     - id: 87203
       asset_id: 32315
@@ -50,36 +61,11 @@ releases:
     game_id: 32353
     description: ""
     release_date: 20011119
-  names:
-  - id: 76189
-    kind: 3
-    kind_id: 32354
-    language: 1
-    name: Wario Land 4 (USA, Europe)
-    source: ""
+  names: []
   release_publishers:
   - release_id: 32354
     publisher_id: 17
   assets:
-  - asset:
-      id: 32316
-      kind: 3
-      kind_id: 32354
-      type: 1
-      name: Wario Land 4 (USA, Europe).zip
-      description: ""
-      format: 2
-      size: 3920524
-      blob_id: 0
-      debug: |-
-        Wario Land 4 (USA, Europe).zip
-        瓦里奥世界4.zip
-    entries:
-    - id: 87204
-      asset_id: 32316
-      name: Wario Land 4 (USA, Europe).gba
-      size: 8388608
-      blob_id: 76028
   - asset:
       id: 34425
       kind: 3

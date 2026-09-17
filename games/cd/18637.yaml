@@ -4,6 +4,12 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 41621
+  kind: 2
+  kind_id: 18637
+  language: 1
+  name: Pacmania (U)
+  source: ""
 - id: 92695
   kind: 2
   kind_id: 18637
@@ -26,6 +32,18 @@ releases:
     language: 1
     name: Pac-Mania (Tengen) [!]
     source: ""
+  - id: 41568
+    kind: 3
+    kind_id: 18637
+    language: 1
+    name: Pac-Mania (Unl) [!]
+    source: ""
+  - id: 41622
+    kind: 3
+    kind_id: 18637
+    language: 1
+    name: Pacmania (U)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -38,7 +56,10 @@ releases:
       format: 1
       size: 98320
       blob_id: 64187
-      debug: Pac-Mania (Tengen) [!].nes
+      debug: |-
+        Pac-Mania (Tengen) [!].nes
+        Pac-Mania (Unl) [!].zip
+        Pacmania (U).zip
     entries: []
 - release:
     id: 18638
@@ -118,34 +139,3 @@ releases:
       blob_id: 64190
       debug: Pac-Mania (Tengen) [t1].nes
     entries: []
-- release:
-    id: 18641
-    game_id: 18637
-    description: ""
-    release_date: 0
-  names:
-  - id: 41568
-    kind: 3
-    kind_id: 18641
-    language: 1
-    name: Pac-Mania (Unl) [!]
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 18623
-      kind: 3
-      kind_id: 18641
-      type: 1
-      name: Pac-Mania (Unl) [!].zip
-      description: ""
-      format: 2
-      size: 35084
-      blob_id: 0
-      debug: Pac-Mania (Unl) [!].zip
-    entries:
-    - id: 83516
-      asset_id: 18623
-      name: Pac-Mania (Unl) [!].nes
-      size: 98320
-      blob_id: 64187

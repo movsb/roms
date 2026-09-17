@@ -4,6 +4,12 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 66939
+  kind: 2
+  kind_id: 11964
+  language: 2
+  name: 海底两万里
+  source: ""
 - id: 91929
   kind: 2
   kind_id: 11964
@@ -18,15 +24,29 @@ releases:
     id: 11964
     game_id: 11964
     description: ""
-    release_date: 0
+    release_date: 19910315
   names:
+  - id: 26246
+    kind: 3
+    kind_id: 11964
+    language: 1
+    name: Fushigi no Umi no Nadia (Japan) (Translated En)
+    source: ""
+  - id: 66940
+    kind: 3
+    kind_id: 11964
+    language: 2
+    name: 海底两万里
+    source: ""
   - id: 83136
     kind: 3
     kind_id: 11964
     language: 1
     name: Fushigi no Umi no Nadia (J) [T+Eng1.3_J2e]
     source: ""
-  release_publishers: []
+  release_publishers:
+  - release_id: 11964
+    publisher_id: 117
   assets:
   - asset:
       id: 11946
@@ -38,7 +58,10 @@ releases:
       format: 1
       size: 262160
       blob_id: 57893
-      debug: Fushigi no Umi no Nadia (J) [T+Eng1.3_J2e].nes
+      debug: |-
+        Fushigi no Umi no Nadia (J) [T+Eng1.3_J2e].nes
+        Fushigi no Umi no Nadia (Japan) (Translated En).zip
+        海底两万里.zip
     entries: []
 - release:
     id: 11965
@@ -116,39 +139,10 @@ releases:
       format: 1
       size: 262160
       blob_id: 57896
-      debug: Fushigi no Umi no Nadia (J) [T-Eng_J2e].nes
+      debug: |-
+        Fushigi no Umi no Nadia (J) [T-Eng_J2e].nes
+        Fushigi no Umi no Nadia (J) [T-Eng_J2e].zip
     entries: []
-- release:
-    id: 11968
-    game_id: 11964
-    description: ""
-    release_date: 0
-  names:
-  - id: 26236
-    kind: 3
-    kind_id: 11968
-    language: 1
-    name: Fushigi no Umi no Nadia (J) [T-Eng_J2e]
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 11950
-      kind: 3
-      kind_id: 11968
-      type: 1
-      name: Fushigi no Umi no Nadia (J) [T-Eng_J2e].zip
-      description: ""
-      format: 2
-      size: 103452
-      blob_id: 0
-      debug: Fushigi no Umi no Nadia (J) [T-Eng_J2e].zip
-    entries:
-    - id: 82742
-      asset_id: 11950
-      name: Fushigi no Umi no Nadia (J) [T-Eng_J2e].nes
-      size: 262160
-      blob_id: 57896
 - release:
     id: 11969
     game_id: 11964
@@ -232,34 +226,11 @@ releases:
     game_id: 11964
     description: ""
     release_date: 19910315
-  names:
-  - id: 26246
-    kind: 3
-    kind_id: 11972
-    language: 1
-    name: Fushigi no Umi no Nadia (Japan) (Translated En)
-    source: ""
+  names: []
   release_publishers:
   - release_id: 11972
     publisher_id: 117
   assets:
-  - asset:
-      id: 11954
-      kind: 3
-      kind_id: 11972
-      type: 1
-      name: Fushigi no Umi no Nadia (Japan) (Translated En).zip
-      description: ""
-      format: 2
-      size: 101542
-      blob_id: 0
-      debug: Fushigi no Umi no Nadia (Japan) (Translated En).zip
-    entries:
-    - id: 82743
-      asset_id: 11954
-      name: Fushigi no Umi no Nadia (Japan) (Translated En).nes
-      size: 262160
-      blob_id: 57893
   - asset:
       id: 37928
       kind: 3

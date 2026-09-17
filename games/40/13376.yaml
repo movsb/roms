@@ -4,6 +4,18 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 71641
+  kind: 2
+  kind_id: 13376
+  language: 2
+  name: 高桥名人之冒险岛 (美版) (动作)-Hudsons Adventure Island (USA)
+  source: ""
+- id: 71642
+  kind: 2
+  kind_id: 13376
+  language: 1
+  name: Hudson's Adventure Island (U) [!]
+  source: ""
 - id: 92103
   kind: 2
   kind_id: 13376
@@ -26,6 +38,18 @@ releases:
     language: 1
     name: Hudson's Adventure Island (U) [!]
     source: ""
+  - id: 29446
+    kind: 3
+    kind_id: 13376
+    language: 1
+    name: Hudson's Adventure Island (U)
+    source: ""
+  - id: 71643
+    kind: 3
+    kind_id: 13376
+    language: 2
+    name: 高桥名人之冒险岛 (美版) (动作)-Hudsons Adventure Island (USA)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -38,7 +62,10 @@ releases:
       format: 2
       size: 39568
       blob_id: 0
-      debug: Hudson's Adventure Island (U) [!].zip
+      debug: |-
+        Hudson's Adventure Island (U) [!].zip
+        Hudson's Adventure Island (U).zip
+        高桥名人之冒险岛 (美版) (动作)-Hudsons Adventure Island (USA) + Hudson's Adventure Island (U) [!].nes
     entries:
     - id: 82914
       asset_id: 13358
@@ -409,34 +436,3 @@ releases:
       blob_id: 59243
       debug: Hudson's Adventure Island (U) [t4].nes
     entries: []
-- release:
-    id: 13391
-    game_id: 13376
-    description: ""
-    release_date: 0
-  names:
-  - id: 29446
-    kind: 3
-    kind_id: 13391
-    language: 1
-    name: Hudson's Adventure Island (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 13373
-      kind: 3
-      kind_id: 13391
-      type: 1
-      name: Hudson's Adventure Island (U).zip
-      description: ""
-      format: 2
-      size: 39610
-      blob_id: 0
-      debug: Hudson's Adventure Island (U).zip
-    entries:
-    - id: 82915
-      asset_id: 13373
-      name: Hudson's Adventure Island (U).nes
-      size: 65552
-      blob_id: 59229

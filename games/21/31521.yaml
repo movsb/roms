@@ -26,6 +26,12 @@ releases:
     language: 1
     name: Dokapon (USA)
     source: ""
+  - id: 74509
+    kind: 3
+    kind_id: 31520
+    language: 1
+    name: Dokapon
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -38,7 +44,9 @@ releases:
       format: 2
       size: 3194496
       blob_id: 0
-      debug: Dokapon (USA).zip
+      debug: |-
+        Dokapon (USA).zip
+        Dokapon.zip
     entries:
     - id: 86379
       asset_id: 31482
@@ -69,34 +77,3 @@ releases:
       blob_id: 77551
       debug: gba/snap/Dokapon (USA).mp4
     entries: []
-- release:
-    id: 31521
-    game_id: 31521
-    description: ""
-    release_date: 0
-  names:
-  - id: 74509
-    kind: 3
-    kind_id: 31521
-    language: 1
-    name: Dokapon
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 31483
-      kind: 3
-      kind_id: 31521
-      type: 1
-      name: Dokapon.zip
-      description: ""
-      format: 2
-      size: 3208202
-      blob_id: 0
-      debug: Dokapon.zip
-    entries:
-    - id: 86380
-      asset_id: 31483
-      name: Dokapon.gba
-      size: 8388608
-      blob_id: 75257

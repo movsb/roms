@@ -4,6 +4,18 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 61073
+  kind: 2
+  kind_id: 19458
+  language: 2
+  name: "冒险游戏 - 4 合 1 (美版) (合卡)-Quattro Adventure (USA) (Unl)"
+  source: ""
+- id: 61074
+  kind: 2
+  kind_id: 19458
+  language: 1
+  name: Quattro Adventure (Camerica) (Aladdin) [!]
+  source: ""
 - id: 92807
   kind: 2
   kind_id: 19458
@@ -104,6 +116,12 @@ releases:
     language: 1
     name: Quattro Adventure (Camerica) [b1]
     source: ""
+  - id: 43340
+    kind: 3
+    kind_id: 19461
+    language: 1
+    name: Quattro Adventure (Unl) [!p]
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -116,7 +134,9 @@ releases:
       format: 1
       size: 262160
       blob_id: 64958
-      debug: Quattro Adventure (Camerica) [b1].nes
+      debug: |-
+        Quattro Adventure (Camerica) [b1].nes
+        Quattro Adventure (Unl) [!p].zip
     entries: []
 - release:
     id: 19462
@@ -156,6 +176,18 @@ releases:
     language: 1
     name: Quattro Adventure (U)
     source: ""
+  - id: 61075
+    kind: 3
+    kind_id: 19463
+    language: 2
+    name: "冒险游戏 - 4 合 1 (美版) (合卡)-Quattro Adventure (USA) (Unl)"
+    source: ""
+  - id: 61076
+    kind: 3
+    kind_id: 19463
+    language: 1
+    name: Quattro Adventure (Camerica) (Aladdin) [!]
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -168,41 +200,10 @@ releases:
       format: 2
       size: 181531
       blob_id: 0
-      debug: Quattro Adventure (U).zip
+      debug: "Quattro Adventure (U).zip\n冒险游戏 - 4 合 1 (美版) (合卡)-Quattro Adventure (USA) (Unl) + Quattro Adventure (Camerica) (Aladdin) [!].nes"
     entries:
     - id: 83640
       asset_id: 19445
       name: Quattro Adventure (U).nes
       size: 262160
       blob_id: 64960
-- release:
-    id: 19464
-    game_id: 19458
-    description: ""
-    release_date: 0
-  names:
-  - id: 43340
-    kind: 3
-    kind_id: 19464
-    language: 1
-    name: Quattro Adventure (Unl) [!p]
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 19446
-      kind: 3
-      kind_id: 19464
-      type: 1
-      name: Quattro Adventure (Unl) [!p].zip
-      description: ""
-      format: 2
-      size: 181319
-      blob_id: 0
-      debug: Quattro Adventure (Unl) [!p].zip
-    entries:
-    - id: 83641
-      asset_id: 19446
-      name: Quattro Adventure (Unl) [!p].nes
-      size: 262160
-      blob_id: 64958

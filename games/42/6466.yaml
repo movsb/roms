@@ -4,6 +4,18 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 60359
+  kind: 2
+  kind_id: 6466
+  language: 2
+  name: 任天堂棒球 (美版,欧版) (运动)-Baseball (USA, Europe)
+  source: ""
+- id: 60360
+  kind: 2
+  kind_id: 6466
+  language: 1
+  name: Baseball (U) [!]
+  source: ""
 - id: 91322
   kind: 2
   kind_id: 6466
@@ -364,6 +376,12 @@ releases:
     language: 1
     name: Baseball (U) [!]
     source: ""
+  - id: 60361
+    kind: 3
+    kind_id: 6479
+    language: 2
+    name: 任天堂棒球 (美版,欧版) (运动)-Baseball (USA, Europe)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -376,7 +394,9 @@ releases:
       format: 2
       size: 17009
       blob_id: 0
-      debug: Baseball (U) [!].zip
+      debug: |-
+        Baseball (U) [!].zip
+        任天堂棒球 (美版,欧版) (运动)-Baseball (USA, Europe) + Baseball (U) [!].nes
     entries:
     - id: 82115
       asset_id: 6461
@@ -655,6 +675,12 @@ releases:
     language: 1
     name: Baseball (VS) [!]
     source: ""
+  - id: 13468
+    kind: 3
+    kind_id: 6490
+    language: 1
+    name: Baseball (VS) [b1]
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -667,36 +693,12 @@ releases:
       format: 2
       size: 26861
       blob_id: 0
-      debug: Baseball (VS) [!].zip
+      debug: |-
+        Baseball (VS) [!].zip
+        Baseball (VS) [b1].nes
     entries:
     - id: 82116
       asset_id: 6472
       name: Baseball (VS) [!].nes
       size: 40976
       blob_id: 52724
-- release:
-    id: 6491
-    game_id: 6466
-    description: ""
-    release_date: 0
-  names:
-  - id: 13468
-    kind: 3
-    kind_id: 6491
-    language: 1
-    name: Baseball (VS) [b1]
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 6473
-      kind: 3
-      kind_id: 6491
-      type: 1
-      name: Baseball (VS) [b1].nes
-      description: ""
-      format: 1
-      size: 40976
-      blob_id: 52724
-      debug: Baseball (VS) [b1].nes
-    entries: []

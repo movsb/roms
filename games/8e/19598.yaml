@@ -4,6 +4,12 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 43667
+  kind: 2
+  kind_id: 19598
+  language: 1
+  name: RBI Baseball 3 (U)
+  source: ""
 - id: 92817
   kind: 2
   kind_id: 19598
@@ -26,6 +32,12 @@ releases:
     language: 1
     name: R.B.I. Baseball 3 (Tengen) [!]
     source: ""
+  - id: 43624
+    kind: 3
+    kind_id: 19598
+    language: 1
+    name: R.B.I. Baseball 3 (Unl) [!]
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -38,7 +50,9 @@ releases:
       format: 1
       size: 196624
       blob_id: 65089
-      debug: R.B.I. Baseball 3 (Tengen) [!].nes
+      debug: |-
+        R.B.I. Baseball 3 (Tengen) [!].nes
+        R.B.I. Baseball 3 (Unl) [!].zip
     entries: []
 - release:
     id: 19599
@@ -52,6 +66,12 @@ releases:
     language: 1
     name: R.B.I. Baseball 3 (Tengen) [b1]
     source: ""
+  - id: 43668
+    kind: 3
+    kind_id: 19599
+    language: 1
+    name: RBI Baseball 3 (U)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -64,7 +84,9 @@ releases:
       format: 1
       size: 196624
       blob_id: 65090
-      debug: R.B.I. Baseball 3 (Tengen) [b1].nes
+      debug: |-
+        R.B.I. Baseball 3 (Tengen) [b1].nes
+        RBI Baseball 3 (U).zip
     entries: []
 - release:
     id: 19600
@@ -170,34 +192,3 @@ releases:
       blob_id: 65094
       debug: R.B.I. Baseball 3 (Tengen) [b4].nes
     entries: []
-- release:
-    id: 19604
-    game_id: 19598
-    description: ""
-    release_date: 0
-  names:
-  - id: 43624
-    kind: 3
-    kind_id: 19604
-    language: 1
-    name: R.B.I. Baseball 3 (Unl) [!]
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 19586
-      kind: 3
-      kind_id: 19604
-      type: 1
-      name: R.B.I. Baseball 3 (Unl) [!].zip
-      description: ""
-      format: 2
-      size: 87626
-      blob_id: 0
-      debug: R.B.I. Baseball 3 (Unl) [!].zip
-    entries:
-    - id: 83650
-      asset_id: 19586
-      name: R.B.I. Baseball 3 (Unl) [!].nes
-      size: 196624
-      blob_id: 65089

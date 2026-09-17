@@ -4,6 +4,18 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 65211
+  kind: 2
+  kind_id: 14911
+  language: 2
+  name: 拿破仑 (美版) (策略)-Empereur, L (USA)
+  source: ""
+- id: 65212
+  kind: 2
+  kind_id: 14911
+  language: 1
+  name: L'Empereur (U) [!]
+  source: ""
 - id: 92287
   kind: 2
   kind_id: 14911
@@ -26,6 +38,24 @@ releases:
     language: 1
     name: L'Empereur (U) [!p]
     source: ""
+  - id: 33074
+    kind: 3
+    kind_id: 14911
+    language: 1
+    name: L'Empereur (U)
+    source: ""
+  - id: 65213
+    kind: 3
+    kind_id: 14911
+    language: 2
+    name: 拿破仑 (美版) (策略)-Empereur, L (USA)
+    source: ""
+  - id: 65214
+    kind: 3
+    kind_id: 14911
+    language: 1
+    name: L'Empereur (U) [!]
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -38,7 +68,10 @@ releases:
       format: 2
       size: 206368
       blob_id: 0
-      debug: L'Empereur (U) [!p].zip
+      debug: |-
+        L'Empereur (U) [!p].zip
+        L'Empereur (U).zip
+        拿破仑 (美版) (策略)-Empereur, L (USA) + L'Empereur (U) [!].nes
     entries:
     - id: 83136
       asset_id: 14893
@@ -123,34 +156,3 @@ releases:
       blob_id: 60649
       debug: L'Empereur (U) [o2].nes
     entries: []
-- release:
-    id: 14915
-    game_id: 14911
-    description: ""
-    release_date: 0
-  names:
-  - id: 33074
-    kind: 3
-    kind_id: 14915
-    language: 1
-    name: L'Empereur (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 14897
-      kind: 3
-      kind_id: 14915
-      type: 1
-      name: L'Empereur (U).zip
-      description: ""
-      format: 2
-      size: 207637
-      blob_id: 0
-      debug: L'Empereur (U).zip
-    entries:
-    - id: 83137
-      asset_id: 14897
-      name: L'Empereur (U).nes
-      size: 393232
-      blob_id: 60646

@@ -4,6 +4,24 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 63233
+  kind: 2
+  kind_id: 25106
+  language: 2
+  name: 奥运会1
+  source: ""
+- id: 70089
+  kind: 2
+  kind_id: 25106
+  language: 2
+  name: 超级奥林匹克运动会 (美版) (运动)-Track &amp; Field (USA)
+  source: ""
+- id: 70090
+  kind: 2
+  kind_id: 25106
+  language: 1
+  name: Track & Field (U) [!]
+  source: ""
 - id: 93438
   kind: 2
   kind_id: 25106
@@ -78,6 +96,24 @@ releases:
     language: 1
     name: Track & Field (U) [!]
     source: ""
+  - id: 56124
+    kind: 3
+    kind_id: 25108
+    language: 1
+    name: Track & Field (U)
+    source: ""
+  - id: 63234
+    kind: 3
+    kind_id: 25108
+    language: 2
+    name: 奥运会1
+    source: ""
+  - id: 70091
+    kind: 3
+    kind_id: 25108
+    language: 2
+    name: 超级奥林匹克运动会 (美版) (运动)-Track &amp; Field (USA)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -90,7 +126,11 @@ releases:
       format: 2
       size: 34935
       blob_id: 0
-      debug: Track & Field (U) [!].zip
+      debug: |-
+        Track & Field (U) [!].zip
+        Track & Field (U).zip
+        奥运会1.zip
+        超级奥林匹克运动会 (美版) (运动)-Track &amp; Field (USA) + Track & Field (U) [!].nes
     entries:
     - id: 84208
       asset_id: 25090
@@ -201,34 +241,3 @@ releases:
       blob_id: 70335
       debug: Track & Field (U) [p1].nes
     entries: []
-- release:
-    id: 25113
-    game_id: 25106
-    description: ""
-    release_date: 0
-  names:
-  - id: 56124
-    kind: 3
-    kind_id: 25113
-    language: 1
-    name: Track & Field (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 25095
-      kind: 3
-      kind_id: 25113
-      type: 1
-      name: Track & Field (U).zip
-      description: ""
-      format: 2
-      size: 35000
-      blob_id: 0
-      debug: Track & Field (U).zip
-    entries:
-    - id: 84209
-      asset_id: 25095
-      name: Track & Field (U).nes
-      size: 65552
-      blob_id: 70331

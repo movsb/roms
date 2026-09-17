@@ -4,6 +4,30 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 69197
+  kind: 2
+  kind_id: 6427
+  language: 2
+  name: 芭比娃娃 (美版) (动作)-Barbie (USA)
+  source: ""
+- id: 69198
+  kind: 2
+  kind_id: 6427
+  language: 1
+  name: Barbie (U) (REV0) [!]
+  source: ""
+- id: 69201
+  kind: 2
+  kind_id: 6427
+  language: 2
+  name: 芭比娃娃 (美版)(Rev A) (动作)-Barbie (USA) (Rev A)
+  source: ""
+- id: 69202
+  kind: 2
+  kind_id: 6427
+  language: 1
+  name: Barbie (U) (REVA) [!]
+  source: ""
 - id: 91316
   kind: 2
   kind_id: 6427
@@ -26,6 +50,24 @@ releases:
     language: 1
     name: Barbie (Rev 3) (U)
     source: ""
+  - id: 13350
+    kind: 3
+    kind_id: 6427
+    language: 1
+    name: Barbie (U) (REVA) [!]
+    source: ""
+  - id: 13356
+    kind: 3
+    kind_id: 6427
+    language: 1
+    name: Barbie (U) (Rev 3)
+    source: ""
+  - id: 69203
+    kind: 3
+    kind_id: 6427
+    language: 2
+    name: 芭比娃娃 (美版)(Rev A) (动作)-Barbie (USA) (Rev A)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -38,7 +80,11 @@ releases:
       format: 2
       size: 110948
       blob_id: 0
-      debug: Barbie (Rev 3) (U).zip
+      debug: |-
+        Barbie (Rev 3) (U).zip
+        Barbie (U) (REVA) [!].zip
+        Barbie (U) (Rev 3).zip
+        芭比娃娃 (美版)(Rev A) (动作)-Barbie (USA) (Rev A) + Barbie (U) (REVA) [!].nes
     entries:
     - id: 82102
       asset_id: 6409
@@ -202,37 +248,6 @@ releases:
       debug: Barbie (U) (REV0) [o2].nes
     entries: []
 - release:
-    id: 6434
-    game_id: 6427
-    description: ""
-    release_date: 0
-  names:
-  - id: 13350
-    kind: 3
-    kind_id: 6434
-    language: 1
-    name: Barbie (U) (REVA) [!]
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 6416
-      kind: 3
-      kind_id: 6434
-      type: 1
-      name: Barbie (U) (REVA) [!].zip
-      description: ""
-      format: 2
-      size: 110760
-      blob_id: 0
-      debug: Barbie (U) (REVA) [!].zip
-    entries:
-    - id: 82103
-      asset_id: 6416
-      name: Barbie (U) (REVA) [!].nes
-      size: 262160
-      blob_id: 52665
-- release:
     id: 6435
     game_id: 6427
     description: ""
@@ -285,37 +300,6 @@ releases:
       debug: Barbie (U) (REVA) [b2].nes
     entries: []
 - release:
-    id: 6437
-    game_id: 6427
-    description: ""
-    release_date: 0
-  names:
-  - id: 13356
-    kind: 3
-    kind_id: 6437
-    language: 1
-    name: Barbie (U) (Rev 3)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 6419
-      kind: 3
-      kind_id: 6437
-      type: 1
-      name: Barbie (U) (Rev 3).zip
-      description: ""
-      format: 2
-      size: 110948
-      blob_id: 0
-      debug: Barbie (U) (Rev 3).zip
-    entries:
-    - id: 82104
-      asset_id: 6419
-      name: Barbie (U) (Rev 3).nes
-      size: 262160
-      blob_id: 52665
-- release:
     id: 6438
     game_id: 6427
     description: ""
@@ -326,6 +310,18 @@ releases:
     kind_id: 6438
     language: 1
     name: Barbie (U) (Rev X)
+    source: ""
+  - id: 69199
+    kind: 3
+    kind_id: 6438
+    language: 2
+    name: 芭比娃娃 (美版) (动作)-Barbie (USA)
+    source: ""
+  - id: 69200
+    kind: 3
+    kind_id: 6438
+    language: 1
+    name: Barbie (U) (REV0) [!]
     source: ""
   release_publishers: []
   assets:
@@ -339,7 +335,9 @@ releases:
       format: 2
       size: 111122
       blob_id: 0
-      debug: Barbie (U) (Rev X).zip
+      debug: |-
+        Barbie (U) (Rev X).zip
+        芭比娃娃 (美版) (动作)-Barbie (USA) + Barbie (U) (REV0) [!].nes
     entries:
     - id: 82105
       asset_id: 6420

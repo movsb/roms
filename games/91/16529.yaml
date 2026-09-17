@@ -10,6 +10,24 @@ names:
   language: 1
   name: Metroid
   source: ""
+- id: 71069
+  kind: 2
+  kind_id: 16529
+  language: 2
+  name: 银河战士 (美版) (动作)-Metroid (USA)
+  source: ""
+- id: 71070
+  kind: 2
+  kind_id: 16529
+  language: 1
+  name: Metroid (U) [!]
+  source: ""
+- id: 71073
+  kind: 2
+  kind_id: 16529
+  language: 2
+  name: 银河战士
+  source: ""
 game_developers: []
 game_genres: []
 assets: []
@@ -104,6 +122,24 @@ releases:
     language: 1
     name: Metroid (U) (PRG0) [!]
     source: ""
+  - id: 36706
+    kind: 3
+    kind_id: 16460
+    language: 1
+    name: Metroid (USA)
+    source: ""
+  - id: 71071
+    kind: 3
+    kind_id: 16460
+    language: 2
+    name: 银河战士 (美版) (动作)-Metroid (USA)
+    source: ""
+  - id: 71072
+    kind: 3
+    kind_id: 16460
+    language: 1
+    name: Metroid (U) [!]
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -116,7 +152,10 @@ releases:
       format: 2
       size: 59767
       blob_id: 0
-      debug: Metroid (U) (PRG0) [!].zip
+      debug: |-
+        Metroid (U) (PRG0) [!].zip
+        Metroid (USA).zip
+        银河战士 (美版) (动作)-Metroid (USA) + Metroid (U) [!].nes
     entries:
     - id: 83323
       asset_id: 16442
@@ -603,6 +642,18 @@ releases:
     language: 1
     name: Metroid (U)
     source: ""
+  - id: 36808
+    kind: 3
+    kind_id: 16479
+    language: 1
+    name: Metroid
+    source: ""
+  - id: 71074
+    kind: 3
+    kind_id: 16479
+    language: 2
+    name: 银河战士
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -615,72 +666,13 @@ releases:
       format: 2
       size: 59825
       blob_id: 0
-      debug: Metroid (U).zip
+      debug: |-
+        Metroid (U).zip
+        Metroid.zip
+        银河战士.zip
     entries:
     - id: 83324
       asset_id: 16461
       name: Metroid (U).nes
-      size: 131088
-      blob_id: 62128
-- release:
-    id: 16480
-    game_id: 16529
-    description: ""
-    release_date: 0
-  names:
-  - id: 36706
-    kind: 3
-    kind_id: 16480
-    language: 1
-    name: Metroid (USA)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 16462
-      kind: 3
-      kind_id: 16480
-      type: 1
-      name: Metroid (USA).zip
-      description: ""
-      format: 2
-      size: 58930
-      blob_id: 0
-      debug: Metroid (USA).zip
-    entries:
-    - id: 83325
-      asset_id: 16462
-      name: Metroid (USA).nes
-      size: 131088
-      blob_id: 62109
-- release:
-    id: 16529
-    game_id: 16529
-    description: ""
-    release_date: 0
-  names:
-  - id: 36808
-    kind: 3
-    kind_id: 16529
-    language: 1
-    name: Metroid
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 16511
-      kind: 3
-      kind_id: 16529
-      type: 1
-      name: Metroid.zip
-      description: ""
-      format: 2
-      size: 59817
-      blob_id: 0
-      debug: Metroid.zip
-    entries:
-    - id: 83326
-      asset_id: 16511
-      name: Metroid.nes
       size: 131088
       blob_id: 62128

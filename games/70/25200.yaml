@@ -18,7 +18,7 @@ releases:
     id: 25200
     game_id: 25200
     description: ""
-    release_date: 0
+    release_date: 19880317
   names:
   - id: 56320
     kind: 3
@@ -26,7 +26,15 @@ releases:
     language: 1
     name: "Tsuri Kichi Sanpei - Blue Marlin Hen (J) [p1]"
     source: ""
-  release_publishers: []
+  - id: 56330
+    kind: 3
+    kind_id: 25200
+    language: 1
+    name: "Tsuri Kichi Sanpei - Blue Marlin Hen (Japan) (Translated En)"
+    source: ""
+  release_publishers:
+  - release_id: 25200
+    publisher_id: 157
   assets:
   - asset:
       id: 25182
@@ -38,7 +46,7 @@ releases:
       format: 1
       size: 131088
       blob_id: 70414
-      debug: "Tsuri Kichi Sanpei - Blue Marlin Hen (J) [p1].nes"
+      debug: "Tsuri Kichi Sanpei - Blue Marlin Hen (J) [p1].nes\nTsuri Kichi Sanpei - Blue Marlin Hen (Japan) (Translated En).zip"
     entries: []
 - release:
     id: 25201
@@ -149,34 +157,11 @@ releases:
     game_id: 25200
     description: ""
     release_date: 19880317
-  names:
-  - id: 56330
-    kind: 3
-    kind_id: 25205
-    language: 1
-    name: "Tsuri Kichi Sanpei - Blue Marlin Hen (Japan) (Translated En)"
-    source: ""
+  names: []
   release_publishers:
   - release_id: 25205
     publisher_id: 157
   assets:
-  - asset:
-      id: 25187
-      kind: 3
-      kind_id: 25205
-      type: 1
-      name: "Tsuri Kichi Sanpei - Blue Marlin Hen (Japan) (Translated En).zip"
-      description: ""
-      format: 2
-      size: 56613
-      blob_id: 0
-      debug: "Tsuri Kichi Sanpei - Blue Marlin Hen (Japan) (Translated En).zip"
-    entries:
-    - id: 84227
-      asset_id: 25187
-      name: "Tsuri Kichi Sanpei - Blue Marlin Hen (Japan) (Translated En).nes"
-      size: 131088
-      blob_id: 70414
   - asset:
       id: 38232
       kind: 3

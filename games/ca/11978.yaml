@@ -4,6 +4,12 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 63209
+  kind: 2
+  kind_id: 11978
+  language: 2
+  name: 奇幻射击
+  source: ""
 - id: 91931
   kind: 2
   kind_id: 11978
@@ -18,15 +24,29 @@ releases:
     id: 11978
     game_id: 11978
     description: ""
-    release_date: 0
+    release_date: 19910517
   names:
+  - id: 26300
+    kind: 3
+    kind_id: 11978
+    language: 1
+    name: Fuzzical Fighter (Japan) (Translated En)
+    source: ""
+  - id: 63210
+    kind: 3
+    kind_id: 11978
+    language: 2
+    name: 奇幻射击
+    source: ""
   - id: 83141
     kind: 3
     kind_id: 11978
     language: 1
     name: Fuzzical Fighter (J) [T+Eng1.00b_WakdHacks]
     source: ""
-  release_publishers: []
+  release_publishers:
+  - release_id: 11978
+    publisher_id: 125
   assets:
   - asset:
       id: 11960
@@ -38,7 +58,10 @@ releases:
       format: 1
       size: 262160
       blob_id: 57905
-      debug: Fuzzical Fighter (J) [T+Eng1.00b_WakdHacks].nes
+      debug: |-
+        Fuzzical Fighter (J) [T+Eng1.00b_WakdHacks].nes
+        Fuzzical Fighter (Japan) (Translated En).zip
+        奇幻射击.zip
     entries: []
 - release:
     id: 11979
@@ -194,39 +217,10 @@ releases:
       format: 1
       size: 262160
       blob_id: 57911
-      debug: Fuzzical Fighter (J) [b1][T+Eng1.00b_WakdHacks].nes
+      debug: |-
+        Fuzzical Fighter (J) [b1][T+Eng1.00b_WakdHacks].nes
+        Fuzzical Fighter (J) [b1][T+Eng1.00b_WakdHacks].zip
     entries: []
-- release:
-    id: 11985
-    game_id: 11978
-    description: ""
-    release_date: 0
-  names:
-  - id: 83147
-    kind: 3
-    kind_id: 11985
-    language: 1
-    name: Fuzzical Fighter (J) [b1][T+Eng1.00b_WakdHacks]
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 11967
-      kind: 3
-      kind_id: 11985
-      type: 1
-      name: Fuzzical Fighter (J) [b1][T+Eng1.00b_WakdHacks].zip
-      description: ""
-      format: 2
-      size: 125205
-      blob_id: 0
-      debug: Fuzzical Fighter (J) [b1][T+Eng1.00b_WakdHacks].zip
-    entries:
-    - id: 82744
-      asset_id: 11967
-      name: Fuzzical Fighter (J) [b1][T+Eng1.00b_WakdHacks].nes
-      size: 262160
-      blob_id: 57911
 - release:
     id: 11986
     game_id: 11978
@@ -336,34 +330,11 @@ releases:
     game_id: 11978
     description: ""
     release_date: 19910517
-  names:
-  - id: 26300
-    kind: 3
-    kind_id: 11990
-    language: 1
-    name: Fuzzical Fighter (Japan) (Translated En)
-    source: ""
+  names: []
   release_publishers:
   - release_id: 11990
     publisher_id: 125
   assets:
-  - asset:
-      id: 11972
-      kind: 3
-      kind_id: 11990
-      type: 1
-      name: Fuzzical Fighter (Japan) (Translated En).zip
-      description: ""
-      format: 2
-      size: 122243
-      blob_id: 0
-      debug: Fuzzical Fighter (Japan) (Translated En).zip
-    entries:
-    - id: 82745
-      asset_id: 11972
-      name: Fuzzical Fighter (Japan) (Translated En).nes
-      size: 262160
-      blob_id: 57905
   - asset:
       id: 38480
       kind: 3

@@ -4,6 +4,18 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 62649
+  kind: 2
+  kind_id: 26158
+  language: 2
+  name: 外星大作战 (美版) (动作射击)-Xenophobe (USA)
+  source: ""
+- id: 62650
+  kind: 2
+  kind_id: 26158
+  language: 1
+  name: Xenophobe (U) [!]
+  source: ""
 - id: 93588
   kind: 2
   kind_id: 26158
@@ -26,6 +38,18 @@ releases:
     language: 1
     name: Xenophobe (U) [!]
     source: ""
+  - id: 58470
+    kind: 3
+    kind_id: 26158
+    language: 1
+    name: Xenophobe (U)
+    source: ""
+  - id: 62651
+    kind: 3
+    kind_id: 26158
+    language: 2
+    name: 外星大作战 (美版) (动作射击)-Xenophobe (USA)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -38,7 +62,10 @@ releases:
       format: 2
       size: 43157
       blob_id: 0
-      debug: Xenophobe (U) [!].zip
+      debug: |-
+        Xenophobe (U) [!].zip
+        Xenophobe (U).zip
+        外星大作战 (美版) (动作射击)-Xenophobe (USA) + Xenophobe (U) [!].nes
     entries:
     - id: 84380
       asset_id: 26140
@@ -123,34 +150,3 @@ releases:
       blob_id: 71306
       debug: Xenophobe (U) [o2].nes
     entries: []
-- release:
-    id: 26162
-    game_id: 26158
-    description: ""
-    release_date: 0
-  names:
-  - id: 58470
-    kind: 3
-    kind_id: 26162
-    language: 1
-    name: Xenophobe (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 26144
-      kind: 3
-      kind_id: 26162
-      type: 1
-      name: Xenophobe (U).zip
-      description: ""
-      format: 2
-      size: 43248
-      blob_id: 0
-      debug: Xenophobe (U).zip
-    entries:
-    - id: 84381
-      asset_id: 26144
-      name: Xenophobe (U).nes
-      size: 163856
-      blob_id: 71303

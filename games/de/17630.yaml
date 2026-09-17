@@ -4,6 +4,18 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 64513
+  kind: 2
+  kind_id: 17630
+  language: 2
+  name: 忍者龙剑传 (美版) (动作)-Ninja Gaiden (USA)
+  source: ""
+- id: 64514
+  kind: 2
+  kind_id: 17630
+  language: 1
+  name: Ninja Gaiden (U) [!]
+  source: ""
 - id: 92635
   kind: 2
   kind_id: 17630
@@ -78,6 +90,24 @@ releases:
     language: 1
     name: Ninja Gaiden (U) [!]
     source: ""
+  - id: 39416
+    kind: 3
+    kind_id: 17632
+    language: 1
+    name: Ninja Gaiden (U)
+    source: ""
+  - id: 39418
+    kind: 3
+    kind_id: 17632
+    language: 1
+    name: Ninja Gaiden (USA)
+    source: ""
+  - id: 64515
+    kind: 3
+    kind_id: 17632
+    language: 2
+    name: 忍者龙剑传 (美版) (动作)-Ninja Gaiden (USA)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -90,7 +120,11 @@ releases:
       format: 2
       size: 141304
       blob_id: 0
-      debug: Ninja Gaiden (U) [!].zip
+      debug: |-
+        Ninja Gaiden (U) [!].zip
+        Ninja Gaiden (U).zip
+        Ninja Gaiden (USA).zip
+        忍者龙剑传 (美版) (动作)-Ninja Gaiden (USA) + Ninja Gaiden (U) [!].nes
     entries:
     - id: 83457
       asset_id: 17614
@@ -747,65 +781,3 @@ releases:
       blob_id: 63234
       debug: Ninja Gaiden (U) [t1].nes
     entries: []
-- release:
-    id: 17658
-    game_id: 17630
-    description: ""
-    release_date: 0
-  names:
-  - id: 39416
-    kind: 3
-    kind_id: 17658
-    language: 1
-    name: Ninja Gaiden (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 17640
-      kind: 3
-      kind_id: 17658
-      type: 1
-      name: Ninja Gaiden (U).zip
-      description: ""
-      format: 2
-      size: 141992
-      blob_id: 0
-      debug: Ninja Gaiden (U).zip
-    entries:
-    - id: 83458
-      asset_id: 17640
-      name: Ninja Gaiden (U).nes
-      size: 262160
-      blob_id: 63209
-- release:
-    id: 17659
-    game_id: 17630
-    description: ""
-    release_date: 0
-  names:
-  - id: 39418
-    kind: 3
-    kind_id: 17659
-    language: 1
-    name: Ninja Gaiden (USA)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 17641
-      kind: 3
-      kind_id: 17659
-      type: 1
-      name: Ninja Gaiden (USA).zip
-      description: ""
-      format: 2
-      size: 138428
-      blob_id: 0
-      debug: Ninja Gaiden (USA).zip
-    entries:
-    - id: 83459
-      asset_id: 17641
-      name: Ninja Gaiden (USA).nes
-      size: 262160
-      blob_id: 63209

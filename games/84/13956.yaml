@@ -52,6 +52,12 @@ releases:
     language: 1
     name: Jeopardy! (U) (PRG0) [b1]
     source: ""
+  - id: 30784
+    kind: 3
+    kind_id: 13957
+    language: 1
+    name: Jeopardy! (U)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -64,7 +70,9 @@ releases:
       format: 1
       size: 131088
       blob_id: 59768
-      debug: Jeopardy! (U) (PRG0) [b1].nes
+      debug: |-
+        Jeopardy! (U) (PRG0) [b1].nes
+        Jeopardy! (U).zip
     entries: []
 - release:
     id: 13958
@@ -194,67 +202,7 @@ releases:
       format: 1
       size: 131088
       blob_id: 59773
-      debug: Jeopardy! (U) (PRG1) [!].nes
+      debug: |-
+        Jeopardy! (U) (PRG1) [!].nes
+        Jeopardy! (U) (PRG1) [!].zip
     entries: []
-- release:
-    id: 13963
-    game_id: 13956
-    description: ""
-    release_date: 0
-  names:
-  - id: 30782
-    kind: 3
-    kind_id: 13963
-    language: 1
-    name: Jeopardy! (U) (PRG1) [!]
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 13945
-      kind: 3
-      kind_id: 13963
-      type: 1
-      name: Jeopardy! (U) (PRG1) [!].zip
-      description: ""
-      format: 2
-      size: 107255
-      blob_id: 0
-      debug: Jeopardy! (U) (PRG1) [!].zip
-    entries:
-    - id: 82997
-      asset_id: 13945
-      name: Jeopardy! (U) (PRG1) [!].nes
-      size: 131088
-      blob_id: 59773
-- release:
-    id: 13964
-    game_id: 13956
-    description: ""
-    release_date: 0
-  names:
-  - id: 30784
-    kind: 3
-    kind_id: 13964
-    language: 1
-    name: Jeopardy! (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 13946
-      kind: 3
-      kind_id: 13964
-      type: 1
-      name: Jeopardy! (U).zip
-      description: ""
-      format: 2
-      size: 106822
-      blob_id: 0
-      debug: Jeopardy! (U).zip
-    entries:
-    - id: 82998
-      asset_id: 13946
-      name: Jeopardy! (U).nes
-      size: 131088
-      blob_id: 59768

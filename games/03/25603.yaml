@@ -26,6 +26,18 @@ releases:
     language: 1
     name: Vindicators (Tengen) [!]
     source: ""
+  - id: 57254
+    kind: 3
+    kind_id: 25603
+    language: 1
+    name: Vindicators (U)
+    source: ""
+  - id: 57256
+    kind: 3
+    kind_id: 25603
+    language: 1
+    name: Vindicators (Unl) [!]
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -38,7 +50,10 @@ releases:
       format: 1
       size: 98320
       blob_id: 70790
-      debug: Vindicators (Tengen) [!].nes
+      debug: |-
+        Vindicators (Tengen) [!].nes
+        Vindicators (U).zip
+        Vindicators (Unl) [!].zip
     entries: []
 - release:
     id: 25604
@@ -196,65 +211,3 @@ releases:
       blob_id: 70796
       debug: Vindicators (Tengen) [t1].nes
     entries: []
-- release:
-    id: 25610
-    game_id: 25603
-    description: ""
-    release_date: 0
-  names:
-  - id: 57254
-    kind: 3
-    kind_id: 25610
-    language: 1
-    name: Vindicators (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 25592
-      kind: 3
-      kind_id: 25610
-      type: 1
-      name: Vindicators (U).zip
-      description: ""
-      format: 2
-      size: 49321
-      blob_id: 0
-      debug: Vindicators (U).zip
-    entries:
-    - id: 84280
-      asset_id: 25592
-      name: Vindicators (U).nes
-      size: 98320
-      blob_id: 70790
-- release:
-    id: 25611
-    game_id: 25603
-    description: ""
-    release_date: 0
-  names:
-  - id: 57256
-    kind: 3
-    kind_id: 25611
-    language: 1
-    name: Vindicators (Unl) [!]
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 25593
-      kind: 3
-      kind_id: 25611
-      type: 1
-      name: Vindicators (Unl) [!].zip
-      description: ""
-      format: 2
-      size: 49269
-      blob_id: 0
-      debug: Vindicators (Unl) [!].zip
-    entries:
-    - id: 84281
-      asset_id: 25593
-      name: Vindicators (Unl) [!].nes
-      size: 98320
-      blob_id: 70790

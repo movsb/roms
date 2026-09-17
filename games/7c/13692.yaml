@@ -4,6 +4,24 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 66383
+  kind: 2
+  kind_id: 13692
+  language: 2
+  name: 梦幻战机 (美版) (射击)-Image Fight (USA)
+  source: ""
+- id: 66384
+  kind: 2
+  kind_id: 13692
+  language: 1
+  name: Image Fight (U) [!]
+  source: ""
+- id: 66387
+  kind: 2
+  kind_id: 13692
+  language: 2
+  name: 梦幻战机
+  source: ""
 - id: 92135
   kind: 2
   kind_id: 13692
@@ -104,6 +122,12 @@ releases:
     language: 1
     name: Image Fight (J) [t1]
     source: ""
+  - id: 66388
+    kind: 3
+    kind_id: 13695
+    language: 2
+    name: 梦幻战机
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -116,7 +140,9 @@ releases:
       format: 1
       size: 262160
       blob_id: 59531
-      debug: Image Fight (J) [t1].nes
+      debug: |-
+        Image Fight (J) [t1].nes
+        梦幻战机.zip
     entries: []
 - release:
     id: 13696
@@ -130,6 +156,18 @@ releases:
     language: 1
     name: Image Fight (U) [!]
     source: ""
+  - id: 30158
+    kind: 3
+    kind_id: 13696
+    language: 1
+    name: Image Fight (U)
+    source: ""
+  - id: 66385
+    kind: 3
+    kind_id: 13696
+    language: 2
+    name: 梦幻战机 (美版) (射击)-Image Fight (USA)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -142,7 +180,10 @@ releases:
       format: 2
       size: 124972
       blob_id: 0
-      debug: Image Fight (U) [!].zip
+      debug: |-
+        Image Fight (U) [!].zip
+        Image Fight (U).zip
+        梦幻战机 (美版) (射击)-Image Fight (USA) + Image Fight (U) [!].nes
     entries:
     - id: 82949
       asset_id: 13678
@@ -201,34 +242,3 @@ releases:
       blob_id: 59534
       debug: Image Fight (U) [o1].nes
     entries: []
-- release:
-    id: 13699
-    game_id: 13692
-    description: ""
-    release_date: 0
-  names:
-  - id: 30158
-    kind: 3
-    kind_id: 13699
-    language: 1
-    name: Image Fight (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 13681
-      kind: 3
-      kind_id: 13699
-      type: 1
-      name: Image Fight (U).zip
-      description: ""
-      format: 2
-      size: 125220
-      blob_id: 0
-      debug: Image Fight (U).zip
-    entries:
-    - id: 82950
-      asset_id: 13681
-      name: Image Fight (U).nes
-      size: 262160
-      blob_id: 59532

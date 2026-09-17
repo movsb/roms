@@ -44,7 +44,7 @@ releases:
     id: 11172
     game_id: 11171
     description: ""
-    release_date: 0
+    release_date: 19870424
   names:
   - id: 24292
     kind: 3
@@ -52,7 +52,15 @@ releases:
     language: 1
     name: Family Jockey (J) [o1]
     source: ""
-  release_publishers: []
+  - id: 24294
+    kind: 3
+    kind_id: 11172
+    language: 1
+    name: Family Jockey (Japan) (Translated En)
+    source: ""
+  release_publishers:
+  - release_id: 11172
+    publisher_id: 4
   assets:
   - asset:
       id: 11154
@@ -64,41 +72,20 @@ releases:
       format: 1
       size: 589856
       blob_id: 57143
-      debug: Family Jockey (J) [o1].nes
+      debug: |-
+        Family Jockey (J) [o1].nes
+        Family Jockey (Japan) (Translated En).zip
     entries: []
 - release:
     id: 11173
     game_id: 11171
     description: ""
     release_date: 19870424
-  names:
-  - id: 24294
-    kind: 3
-    kind_id: 11173
-    language: 1
-    name: Family Jockey (Japan) (Translated En)
-    source: ""
+  names: []
   release_publishers:
   - release_id: 11173
     publisher_id: 4
   assets:
-  - asset:
-      id: 11155
-      kind: 3
-      kind_id: 11173
-      type: 1
-      name: Family Jockey (Japan) (Translated En).zip
-      description: ""
-      format: 2
-      size: 34743
-      blob_id: 0
-      debug: Family Jockey (Japan) (Translated En).zip
-    entries:
-    - id: 82660
-      asset_id: 11155
-      name: Family Jockey (Japan) (Translated En).nes
-      size: 589856
-      blob_id: 57143
   - asset:
       id: 38638
       kind: 3

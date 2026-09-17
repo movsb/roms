@@ -4,6 +4,12 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 64625
+  kind: 2
+  kind_id: 14124
+  language: 2
+  name: 快乐机器人格斗
+  source: ""
 - id: 92194
   kind: 2
   kind_id: 14124
@@ -44,15 +50,29 @@ releases:
     id: 14125
     game_id: 14124
     description: ""
-    release_date: 0
+    release_date: 19930521
   names:
+  - id: 31156
+    kind: 3
+    kind_id: 14125
+    language: 1
+    name: Joy Mech Fight (Japan) (Translated En)
+    source: ""
+  - id: 64626
+    kind: 3
+    kind_id: 14125
+    language: 2
+    name: 快乐机器人格斗
+    source: ""
   - id: 83431
     kind: 3
     kind_id: 14125
     language: 1
     name: Joy Mech Fight (J) [T+Eng100%_AlanMidas]
     source: ""
-  release_publishers: []
+  release_publishers:
+  - release_id: 14125
+    publisher_id: 17
   assets:
   - asset:
       id: 14107
@@ -64,39 +84,12 @@ releases:
       format: 1
       size: 524304
       blob_id: 59920
-      debug: Joy Mech Fight (J) [T+Eng100%_AlanMidas].nes
+      debug: |-
+        Joy Mech Fight (J) [T+Eng100%_AlanMidas].nes
+        Joy Mech Fight (J) [T+Eng100%_AlanMidas].zip
+        Joy Mech Fight (Japan) (Translated En).zip
+        快乐机器人格斗.zip
     entries: []
-- release:
-    id: 14126
-    game_id: 14124
-    description: ""
-    release_date: 0
-  names:
-  - id: 83432
-    kind: 3
-    kind_id: 14126
-    language: 1
-    name: Joy Mech Fight (J) [T+Eng100%_AlanMidas]
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 14108
-      kind: 3
-      kind_id: 14126
-      type: 1
-      name: Joy Mech Fight (J) [T+Eng100%_AlanMidas].zip
-      description: ""
-      format: 2
-      size: 237010
-      blob_id: 0
-      debug: Joy Mech Fight (J) [T+Eng100%_AlanMidas].zip
-    entries:
-    - id: 83025
-      asset_id: 14108
-      name: Joy Mech Fight (J) [T+Eng100%_AlanMidas].nes
-      size: 524304
-      blob_id: 59920
 - release:
     id: 14127
     game_id: 14124
@@ -206,34 +199,11 @@ releases:
     game_id: 14124
     description: ""
     release_date: 19930521
-  names:
-  - id: 31156
-    kind: 3
-    kind_id: 14131
-    language: 1
-    name: Joy Mech Fight (Japan) (Translated En)
-    source: ""
+  names: []
   release_publishers:
   - release_id: 14131
     publisher_id: 17
   assets:
-  - asset:
-      id: 14113
-      kind: 3
-      kind_id: 14131
-      type: 1
-      name: Joy Mech Fight (Japan) (Translated En).zip
-      description: ""
-      format: 2
-      size: 230854
-      blob_id: 0
-      debug: Joy Mech Fight (Japan) (Translated En).zip
-    entries:
-    - id: 83026
-      asset_id: 14113
-      name: Joy Mech Fight (Japan) (Translated En).nes
-      size: 524304
-      blob_id: 59920
   - asset:
       id: 38147
       kind: 3

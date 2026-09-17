@@ -4,6 +4,12 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 60629
+  kind: 2
+  kind_id: 11058
+  language: 2
+  name: 侵袭鹰F-15
+  source: ""
 - id: 91823
   kind: 2
   kind_id: 11058
@@ -130,6 +136,18 @@ releases:
     language: 1
     name: F-15 Strike Eagle (U) [!]
     source: ""
+  - id: 24048
+    kind: 3
+    kind_id: 11062
+    language: 1
+    name: F-15 Strike Eagle (U)
+    source: ""
+  - id: 60630
+    kind: 3
+    kind_id: 11062
+    language: 2
+    name: 侵袭鹰F-15
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -142,7 +160,11 @@ releases:
       format: 2
       size: 244323
       blob_id: 0
-      debug: F-15 Strike Eagle (U) [!].zip
+      debug: |-
+        F-15 Strike Eagle (U) [!].zip
+        F-15 Strike Eagle (U).zip
+        侵袭鹰F-15.nes
+        重复的/F-15 打击之鹰 (美版) (模拟射击)-F-15 Strike Eagle (USA) + F-15 Strike Eagle (U) [!].nes
     entries:
     - id: 82646
       asset_id: 11044
@@ -227,34 +249,3 @@ releases:
       blob_id: 57044
       debug: F-15 Strike Eagle (U) [o1].nes
     entries: []
-- release:
-    id: 11066
-    game_id: 11058
-    description: ""
-    release_date: 0
-  names:
-  - id: 24048
-    kind: 3
-    kind_id: 11066
-    language: 1
-    name: F-15 Strike Eagle (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 11048
-      kind: 3
-      kind_id: 11066
-      type: 1
-      name: F-15 Strike Eagle (U).zip
-      description: ""
-      format: 2
-      size: 246073
-      blob_id: 0
-      debug: F-15 Strike Eagle (U).zip
-    entries:
-    - id: 82647
-      asset_id: 11048
-      name: F-15 Strike Eagle (U).nes
-      size: 524304
-      blob_id: 57041

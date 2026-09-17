@@ -26,6 +26,12 @@ releases:
     language: 1
     name: Final Fight One (USA)
     source: ""
+  - id: 74705
+    kind: 3
+    kind_id: 31618
+    language: 1
+    name: Final Fight One
+    source: ""
   release_publishers:
   - release_id: 31618
     publisher_id: 30
@@ -40,7 +46,9 @@ releases:
       format: 2
       size: 2465237
       blob_id: 0
-      debug: Final Fight One (USA).zip
+      debug: |-
+        Final Fight One (USA).zip
+        Final Fight One.zip
     entries:
     - id: 86475
       asset_id: 31580
@@ -71,34 +79,3 @@ releases:
       blob_id: 77500
       debug: gba/snap/Final Fight One (USA).mp4
     entries: []
-- release:
-    id: 31619
-    game_id: 31619
-    description: ""
-    release_date: 0
-  names:
-  - id: 74705
-    kind: 3
-    kind_id: 31619
-    language: 1
-    name: Final Fight One
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 31581
-      kind: 3
-      kind_id: 31619
-      type: 1
-      name: Final Fight One.zip
-      description: ""
-      format: 2
-      size: 2469033
-      blob_id: 0
-      debug: Final Fight One.zip
-    entries:
-    - id: 86476
-      asset_id: 31581
-      name: Final Fight One.gba
-      size: 4194304
-      blob_id: 75348

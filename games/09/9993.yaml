@@ -4,6 +4,12 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 62103
+  kind: 2
+  kind_id: 9993
+  language: 2
+  name: 哆啦A梦
+  source: ""
 - id: 91696
   kind: 2
   kind_id: 9993
@@ -104,6 +110,12 @@ releases:
     language: 1
     name: Doraemon (J) (PRG0) [hM15][T+Eng1.1_Neokid]
     source: ""
+  - id: 82766
+    kind: 3
+    kind_id: 9996
+    language: 1
+    name: Doraemon (J) [hM15][T+Eng1.1_Neokid]
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -116,7 +128,9 @@ releases:
       format: 1
       size: 262672
       blob_id: 56041
-      debug: Doraemon (J) (PRG0) [hM15][T+Eng1.1_Neokid].nes
+      debug: |-
+        Doraemon (J) (PRG0) [hM15][T+Eng1.1_Neokid].nes
+        Doraemon (J) [hM15][T+Eng1.1_Neokid].zip
     entries: []
 - release:
     id: 9997
@@ -338,6 +352,12 @@ releases:
     language: 1
     name: Doraemon (J) (PRG0) [t2]
     source: ""
+  - id: 95156
+    kind: 3
+    kind_id: 10005
+    language: 2
+    name: 哆啦A梦
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -350,7 +370,9 @@ releases:
       format: 1
       size: 163856
       blob_id: 56050
-      debug: Doraemon (J) (PRG0) [t2].nes
+      debug: |-
+        Doraemon (J) (PRG0) [t2].nes
+        哆啦A梦_2.zip
     entries: []
 - release:
     id: 10006
@@ -404,37 +426,6 @@ releases:
       blob_id: 56052
       debug: Doraemon (J) (PRG1) [T+Rus_Chief-Net].nes
     entries: []
-- release:
-    id: 10008
-    game_id: 9993
-    description: ""
-    release_date: 0
-  names:
-  - id: 82766
-    kind: 3
-    kind_id: 10008
-    language: 1
-    name: Doraemon (J) [hM15][T+Eng1.1_Neokid]
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 9990
-      kind: 3
-      kind_id: 10008
-      type: 1
-      name: Doraemon (J) [hM15][T+Eng1.1_Neokid].zip
-      description: ""
-      format: 2
-      size: 105019
-      blob_id: 0
-      debug: Doraemon (J) [hM15][T+Eng1.1_Neokid].zip
-    entries:
-    - id: 82524
-      asset_id: 9990
-      name: Doraemon (J) [hM15][T+Eng1.1_Neokid].nes
-      size: 262672
-      blob_id: 56041
 - release:
     id: 10009
     game_id: 9993
@@ -492,3 +483,48 @@ releases:
       blob_id: 81785
       debug: ""
     entries: []
+- release:
+    id: 27407
+    game_id: 9993
+    description: ""
+    release_date: 0
+  names:
+  - id: 62104
+    kind: 3
+    kind_id: 27407
+    language: 2
+    name: 哆啦A梦
+    source: ""
+  - id: 85106
+    kind: 3
+    kind_id: 27407
+    language: 2
+    name: 哆啦A梦[Nokoh汉化]
+    source: ""
+  - id: 85107
+    kind: 3
+    kind_id: 27407
+    language: 1
+    name: Doraemon (J) (PRG0) [T+Chi20090616_HOKOH]
+    source: ""
+  release_publishers: []
+  assets:
+  - asset:
+      id: 27389
+      kind: 3
+      kind_id: 27407
+      type: 1
+      name: 哆啦A梦.zip
+      description: ""
+      format: 2
+      size: 88804
+      blob_id: 0
+      debug: |-
+        哆啦A梦.zip
+        哆啦A梦[Nokoh汉化] + Doraemon (J) (PRG0) [T+Chi20090616_HOKOH].nes
+    entries:
+    - id: 84597
+      asset_id: 27389
+      name: 哆啦A梦.nes
+      size: 180240
+      blob_id: 72265

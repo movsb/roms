@@ -4,6 +4,18 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 66051
+  kind: 2
+  kind_id: 20037
+  language: 2
+  name: 机器人战争
+  source: ""
+- id: 66065
+  kind: 2
+  kind_id: 20037
+  language: 2
+  name: 机器子战记
+  source: ""
 - id: 92869
   kind: 2
   kind_id: 20037
@@ -20,6 +32,12 @@ releases:
     description: ""
     release_date: 0
   names:
+  - id: 66066
+    kind: 3
+    kind_id: 20037
+    language: 2
+    name: 机器子战记
+    source: ""
   - id: 84235
     kind: 3
     kind_id: 20037
@@ -38,21 +56,31 @@ releases:
       format: 1
       size: 671760
       blob_id: 65494
-      debug: Robocco Wars (J) [T+Chi20111228_NOKOH].nes
+      debug: |-
+        Robocco Wars (J) [T+Chi20111228_NOKOH].nes
+        机器子战记.zip
     entries: []
 - release:
     id: 20038
     game_id: 20037
     description: ""
-    release_date: 0
+    release_date: 19910802
   names:
+  - id: 44634
+    kind: 3
+    kind_id: 20038
+    language: 1
+    name: Robocco Wars (Japan) (Translated En)
+    source: ""
   - id: 84236
     kind: 3
     kind_id: 20038
     language: 1
     name: Robocco Wars (J) [T+Eng1.0_Stardust Crusaders]
     source: ""
-  release_publishers: []
+  release_publishers:
+  - release_id: 20038
+    publisher_id: 163
   assets:
   - asset:
       id: 20020
@@ -64,7 +92,9 @@ releases:
       format: 1
       size: 393232
       blob_id: 65495
-      debug: Robocco Wars (J) [T+Eng1.0_Stardust Crusaders].nes
+      debug: |-
+        Robocco Wars (J) [T+Eng1.0_Stardust Crusaders].nes
+        Robocco Wars (Japan) (Translated En).zip
     entries: []
 - release:
     id: 20039
@@ -182,6 +212,12 @@ releases:
     language: 1
     name: Robocco Wars (J) [t4]
     source: ""
+  - id: 66052
+    kind: 3
+    kind_id: 20043
+    language: 2
+    name: 机器人战争
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -194,41 +230,20 @@ releases:
       format: 1
       size: 393232
       blob_id: 65500
-      debug: Robocco Wars (J) [t4].nes
+      debug: |-
+        Robocco Wars (J) [t4].nes
+        机器人战争.zip
     entries: []
 - release:
     id: 20044
     game_id: 20037
     description: ""
     release_date: 19910802
-  names:
-  - id: 44634
-    kind: 3
-    kind_id: 20044
-    language: 1
-    name: Robocco Wars (Japan) (Translated En)
-    source: ""
+  names: []
   release_publishers:
   - release_id: 20044
     publisher_id: 163
   assets:
-  - asset:
-      id: 20026
-      kind: 3
-      kind_id: 20044
-      type: 1
-      name: Robocco Wars (Japan) (Translated En).zip
-      description: ""
-      format: 2
-      size: 169647
-      blob_id: 0
-      debug: Robocco Wars (Japan) (Translated En).zip
-    entries:
-    - id: 83719
-      asset_id: 20026
-      name: Robocco Wars (Japan) (Translated En).nes
-      size: 393232
-      blob_id: 65495
   - asset:
       id: 38311
       kind: 3

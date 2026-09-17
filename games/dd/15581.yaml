@@ -4,6 +4,18 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 68721
+  kind: 2
+  kind_id: 15581
+  language: 2
+  name: 组合金刚 (美版) (射击)-Magmax (USA)
+  source: ""
+- id: 68722
+  kind: 2
+  kind_id: 15581
+  language: 1
+  name: Magmax (U) [!]
+  source: ""
 - id: 92376
   kind: 2
   kind_id: 15581
@@ -78,6 +90,12 @@ releases:
     language: 1
     name: Magmax (U) [!]
     source: ""
+  - id: 68723
+    kind: 3
+    kind_id: 15583
+    language: 2
+    name: 组合金刚 (美版) (射击)-Magmax (USA)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -90,7 +108,9 @@ releases:
       format: 2
       size: 25634
       blob_id: 0
-      debug: Magmax (U) [!].zip
+      debug: |-
+        Magmax (U) [!].zip
+        组合金刚 (美版) (射击)-Magmax (USA) + Magmax (U) [!].nes
     entries:
     - id: 83246
       asset_id: 15565
@@ -109,6 +129,12 @@ releases:
     language: 1
     name: Magmax (U) [b1]
     source: ""
+  - id: 34622
+    kind: 3
+    kind_id: 15584
+    language: 1
+    name: Magmax (U)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -121,7 +147,9 @@ releases:
       format: 1
       size: 40976
       blob_id: 61271
-      debug: Magmax (U) [b1].nes
+      debug: |-
+        Magmax (U) [b1].nes
+        Magmax (U).zip
     entries: []
 - release:
     id: 15585
@@ -383,34 +411,3 @@ releases:
       blob_id: 61281
       debug: Magmax (U) [o1].nes
     entries: []
-- release:
-    id: 15595
-    game_id: 15581
-    description: ""
-    release_date: 0
-  names:
-  - id: 34622
-    kind: 3
-    kind_id: 15595
-    language: 1
-    name: Magmax (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 15577
-      kind: 3
-      kind_id: 15595
-      type: 1
-      name: Magmax (U).zip
-      description: ""
-      format: 2
-      size: 25634
-      blob_id: 0
-      debug: Magmax (U).zip
-    entries:
-    - id: 83247
-      asset_id: 15577
-      name: Magmax (U).nes
-      size: 40976
-      blob_id: 61271

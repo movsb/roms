@@ -4,6 +4,12 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 61663
+  kind: 2
+  kind_id: 14395
+  language: 2
+  name: 卡诺夫
+  source: ""
 - id: 92224
   kind: 2
   kind_id: 14395
@@ -18,15 +24,23 @@ releases:
     id: 14395
     game_id: 14395
     description: ""
-    release_date: 0
+    release_date: 19880102
   names:
+  - id: 31846
+    kind: 3
+    kind_id: 14395
+    language: 1
+    name: Karnov (Japan) (Translated En)
+    source: ""
   - id: 83499
     kind: 3
     kind_id: 14395
     language: 1
     name: Karnov (J) [T+Eng1.10_Vice Translations]
     source: ""
-  release_publishers: []
+  release_publishers:
+  - release_id: 14395
+    publisher_id: 132
   assets:
   - asset:
       id: 14377
@@ -38,7 +52,9 @@ releases:
       format: 1
       size: 196624
       blob_id: 60170
-      debug: Karnov (J) [T+Eng1.10_Vice Translations].nes
+      debug: |-
+        Karnov (J) [T+Eng1.10_Vice Translations].nes
+        Karnov (Japan) (Translated En).zip
     entries: []
 - release:
     id: 14396
@@ -357,34 +373,11 @@ releases:
     game_id: 14395
     description: ""
     release_date: 19880102
-  names:
-  - id: 31846
-    kind: 3
-    kind_id: 14408
-    language: 1
-    name: Karnov (Japan) (Translated En)
-    source: ""
+  names: []
   release_publishers:
   - release_id: 14408
     publisher_id: 132
   assets:
-  - asset:
-      id: 14390
-      kind: 3
-      kind_id: 14408
-      type: 1
-      name: Karnov (Japan) (Translated En).zip
-      description: ""
-      format: 2
-      size: 93619
-      blob_id: 0
-      debug: Karnov (Japan) (Translated En).zip
-    entries:
-    - id: 83061
-      asset_id: 14390
-      name: Karnov (Japan) (Translated En).nes
-      size: 196624
-      blob_id: 60170
   - asset:
       id: 38024
       kind: 3
@@ -433,6 +426,12 @@ releases:
     language: 1
     name: Karnov (U) [!]
     source: ""
+  - id: 61664
+    kind: 3
+    kind_id: 14409
+    language: 2
+    name: 卡诺夫
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -445,7 +444,11 @@ releases:
       format: 2
       size: 98010
       blob_id: 0
-      debug: Karnov (U) [!].zip
+      debug: |-
+        Karnov (U) [!].zip
+        卡诺夫.nes
+        重复的/Karnov (U) [!].nes
+        卡诺夫.zip
     entries:
     - id: 83062
       asset_id: 14391
@@ -464,6 +467,12 @@ releases:
     language: 1
     name: Karnov (U) [b1]
     source: ""
+  - id: 31872
+    kind: 3
+    kind_id: 14410
+    language: 1
+    name: Karnov (U)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -476,7 +485,9 @@ releases:
       format: 1
       size: 196624
       blob_id: 60184
-      debug: Karnov (U) [b1].nes
+      debug: |-
+        Karnov (U) [b1].nes
+        Karnov (U).zip
     entries: []
 - release:
     id: 14411
@@ -738,34 +749,3 @@ releases:
       blob_id: 60194
       debug: Karnov (U) [t1].nes
     entries: []
-- release:
-    id: 14421
-    game_id: 14395
-    description: ""
-    release_date: 0
-  names:
-  - id: 31872
-    kind: 3
-    kind_id: 14421
-    language: 1
-    name: Karnov (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 14403
-      kind: 3
-      kind_id: 14421
-      type: 1
-      name: Karnov (U).zip
-      description: ""
-      format: 2
-      size: 98415
-      blob_id: 0
-      debug: Karnov (U).zip
-    entries:
-    - id: 83063
-      asset_id: 14403
-      name: Karnov (U).nes
-      size: 196624
-      blob_id: 60184

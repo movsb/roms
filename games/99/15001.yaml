@@ -4,6 +4,18 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 64271
+  kind: 2
+  kind_id: 15001
+  language: 2
+  name: 影子传说 (美版) (动作)-Legend of Kage, The (USA)
+  source: ""
+- id: 64272
+  kind: 2
+  kind_id: 15001
+  language: 1
+  name: Legend of Kage, The (U) [!]
+  source: ""
 - id: 92303
   kind: 2
   kind_id: 15001
@@ -52,6 +64,12 @@ releases:
     language: 1
     name: Legend of Kage, The (U) [!]
     source: ""
+  - id: 64273
+    kind: 3
+    kind_id: 15002
+    language: 2
+    name: 影子传说 (美版) (动作)-Legend of Kage, The (USA)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -64,7 +82,9 @@ releases:
       format: 2
       size: 26865
       blob_id: 0
-      debug: Legend of Kage, The (U) [!].zip
+      debug: |-
+        Legend of Kage, The (U) [!].zip
+        影子传说 (美版) (动作)-Legend of Kage, The (USA) + Legend of Kage, The (U) [!].nes
     entries:
     - id: 83155
       asset_id: 14984
@@ -213,6 +233,12 @@ releases:
     language: 1
     name: Legend of Kage, The (U) [o3]
     source: ""
+  - id: 33280
+    kind: 3
+    kind_id: 15008
+    language: 1
+    name: Legend of Kage, The (U)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -225,7 +251,9 @@ releases:
       format: 1
       size: 65552
       blob_id: 60734
-      debug: Legend of Kage, The (U) [o3].nes
+      debug: |-
+        Legend of Kage, The (U) [o3].nes
+        Legend of Kage, The (U).zip
     entries: []
 - release:
     id: 15009
@@ -253,34 +281,3 @@ releases:
       blob_id: 60735
       debug: Legend of Kage, The (U) [o4].nes
     entries: []
-- release:
-    id: 15010
-    game_id: 15001
-    description: ""
-    release_date: 0
-  names:
-  - id: 33280
-    kind: 3
-    kind_id: 15010
-    language: 1
-    name: Legend of Kage, The (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 14992
-      kind: 3
-      kind_id: 15010
-      type: 1
-      name: Legend of Kage, The (U).zip
-      description: ""
-      format: 2
-      size: 26788
-      blob_id: 0
-      debug: Legend of Kage, The (U).zip
-    entries:
-    - id: 83156
-      asset_id: 14992
-      name: Legend of Kage, The (U).nes
-      size: 65552
-      blob_id: 60734

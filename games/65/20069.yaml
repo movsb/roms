@@ -4,6 +4,24 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 67275
+  kind: 2
+  kind_id: 20069
+  language: 2
+  name: 火箭人 (美版) (动作)-Rocketeer, The (USA)
+  source: ""
+- id: 67276
+  kind: 2
+  kind_id: 20069
+  language: 1
+  name: Rocketeer, The (U) [!]
+  source: ""
+- id: 67279
+  kind: 2
+  kind_id: 20069
+  language: 2
+  name: 火箭人
+  source: ""
 - id: 92874
   kind: 2
   kind_id: 20069
@@ -26,6 +44,24 @@ releases:
     language: 1
     name: Rocketeer, The (U) [!]
     source: ""
+  - id: 44690
+    kind: 3
+    kind_id: 20069
+    language: 1
+    name: Rocketeer, The (U)
+    source: ""
+  - id: 67277
+    kind: 3
+    kind_id: 20069
+    language: 2
+    name: 火箭人 (美版) (动作)-Rocketeer, The (USA)
+    source: ""
+  - id: 67280
+    kind: 3
+    kind_id: 20069
+    language: 2
+    name: 火箭人
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -38,7 +74,11 @@ releases:
       format: 2
       size: 164897
       blob_id: 0
-      debug: Rocketeer, The (U) [!].zip
+      debug: |-
+        Rocketeer, The (U) [!].zip
+        Rocketeer, The (U).zip
+        火箭人 (美版) (动作)-Rocketeer, The (USA) + Rocketeer, The (U) [!].nes
+        火箭人.zip
     entries:
     - id: 83730
       asset_id: 20051
@@ -97,34 +137,3 @@ releases:
       blob_id: 65523
       debug: Rocketeer, The (U) [t1].nes
     entries: []
-- release:
-    id: 20072
-    game_id: 20069
-    description: ""
-    release_date: 0
-  names:
-  - id: 44690
-    kind: 3
-    kind_id: 20072
-    language: 1
-    name: Rocketeer, The (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 20054
-      kind: 3
-      kind_id: 20072
-      type: 1
-      name: Rocketeer, The (U).zip
-      description: ""
-      format: 2
-      size: 165019
-      blob_id: 0
-      debug: Rocketeer, The (U).zip
-    entries:
-    - id: 83731
-      asset_id: 20054
-      name: Rocketeer, The (U).nes
-      size: 262160
-      blob_id: 65521

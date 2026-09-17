@@ -4,6 +4,18 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 70169
+  kind: 2
+  kind_id: 23245
+  language: 2
+  name: 超级沙坑探险 (美版) (动作)-Super Pitfall (USA)
+  source: ""
+- id: 70170
+  kind: 2
+  kind_id: 23245
+  language: 1
+  name: Super Pitfall (U) [!]
+  source: ""
 - id: 93275
   kind: 2
   kind_id: 23245
@@ -78,6 +90,18 @@ releases:
     language: 1
     name: Super Pitfall (U) [!]
     source: ""
+  - id: 51916
+    kind: 3
+    kind_id: 23247
+    language: 1
+    name: Super Pitfall (U)
+    source: ""
+  - id: 70171
+    kind: 3
+    kind_id: 23247
+    language: 2
+    name: 超级沙坑探险 (美版) (动作)-Super Pitfall (USA)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -90,7 +114,10 @@ releases:
       format: 2
       size: 41145
       blob_id: 0
-      debug: Super Pitfall (U) [!].zip
+      debug: |-
+        Super Pitfall (U) [!].zip
+        Super Pitfall (U).zip
+        超级沙坑探险 (美版) (动作)-Super Pitfall (USA) + Super Pitfall (U) [!].nes
     entries:
     - id: 84031
       asset_id: 23229
@@ -227,34 +254,3 @@ releases:
       blob_id: 68556
       debug: Super Pitfall (U) [t1].nes
     entries: []
-- release:
-    id: 23253
-    game_id: 23245
-    description: ""
-    release_date: 0
-  names:
-  - id: 51916
-    kind: 3
-    kind_id: 23253
-    language: 1
-    name: Super Pitfall (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 23235
-      kind: 3
-      kind_id: 23253
-      type: 1
-      name: Super Pitfall (U).zip
-      description: ""
-      format: 2
-      size: 41312
-      blob_id: 0
-      debug: Super Pitfall (U).zip
-    entries:
-    - id: 84032
-      asset_id: 23235
-      name: Super Pitfall (U).nes
-      size: 131088
-      blob_id: 68551

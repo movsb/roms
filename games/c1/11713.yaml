@@ -4,6 +4,12 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 67259
+  kind: 2
+  kind_id: 11713
+  language: 2
+  name: 火焰纹章外传
+  source: ""
 - id: 91891
   kind: 2
   kind_id: 11713
@@ -122,15 +128,23 @@ releases:
     id: 11717
     game_id: 11713
     description: ""
-    release_date: 0
+    release_date: 19920314
   names:
+  - id: 25704
+    kind: 3
+    kind_id: 11717
+    language: 1
+    name: Fire Emblem Gaiden (Japan) (Translated En)
+    source: ""
   - id: 83107
     kind: 3
     kind_id: 11717
     language: 1
     name: Fire Emblem Gaiden (J) [T+Eng1.01_Artemis251]
     source: ""
-  release_publishers: []
+  release_publishers:
+  - release_id: 11717
+    publisher_id: 17
   assets:
   - asset:
       id: 11699
@@ -142,7 +156,9 @@ releases:
       format: 1
       size: 393232
       blob_id: 57666
-      debug: Fire Emblem Gaiden (J) [T+Eng1.01_Artemis251].nes
+      debug: |-
+        Fire Emblem Gaiden (J) [T+Eng1.01_Artemis251].nes
+        Fire Emblem Gaiden (Japan) (Translated En).zip
     entries: []
 - release:
     id: 11718
@@ -298,39 +314,10 @@ releases:
       format: 1
       size: 393232
       blob_id: 57672
-      debug: Fire Emblem Gaiden (J) [T-Eng97b_J2e].nes
+      debug: |-
+        Fire Emblem Gaiden (J) [T-Eng97b_J2e].nes
+        Fire Emblem Gaiden (J) [T-Eng97b_J2e].zip
     entries: []
-- release:
-    id: 11724
-    game_id: 11713
-    description: ""
-    release_date: 0
-  names:
-  - id: 25694
-    kind: 3
-    kind_id: 11724
-    language: 1
-    name: Fire Emblem Gaiden (J) [T-Eng97b_J2e]
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 11706
-      kind: 3
-      kind_id: 11724
-      type: 1
-      name: Fire Emblem Gaiden (J) [T-Eng97b_J2e].zip
-      description: ""
-      format: 2
-      size: 246130
-      blob_id: 0
-      debug: Fire Emblem Gaiden (J) [T-Eng97b_J2e].zip
-    entries:
-    - id: 82702
-      asset_id: 11706
-      name: Fire Emblem Gaiden (J) [T-Eng97b_J2e].nes
-      size: 393232
-      blob_id: 57672
 - release:
     id: 11725
     game_id: 11713
@@ -369,6 +356,12 @@ releases:
     language: 1
     name: Fire Emblem Gaiden (J) [b1]
     source: ""
+  - id: 67260
+    kind: 3
+    kind_id: 11726
+    language: 2
+    name: 火焰纹章外传
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -381,7 +374,9 @@ releases:
       format: 1
       size: 393232
       blob_id: 57674
-      debug: Fire Emblem Gaiden (J) [b1].nes
+      debug: |-
+        Fire Emblem Gaiden (J) [b1].nes
+        火焰纹章外传.zip
     entries: []
 - release:
     id: 11727
@@ -440,34 +435,11 @@ releases:
     game_id: 11713
     description: ""
     release_date: 19920314
-  names:
-  - id: 25704
-    kind: 3
-    kind_id: 11729
-    language: 1
-    name: Fire Emblem Gaiden (Japan) (Translated En)
-    source: ""
+  names: []
   release_publishers:
   - release_id: 11729
     publisher_id: 17
   assets:
-  - asset:
-      id: 11711
-      kind: 3
-      kind_id: 11729
-      type: 1
-      name: Fire Emblem Gaiden (Japan) (Translated En).zip
-      description: ""
-      format: 2
-      size: 241804
-      blob_id: 0
-      debug: Fire Emblem Gaiden (Japan) (Translated En).zip
-    entries:
-    - id: 82703
-      asset_id: 11711
-      name: Fire Emblem Gaiden (Japan) (Translated En).nes
-      size: 393232
-      blob_id: 57666
   - asset:
       id: 37905
       kind: 3

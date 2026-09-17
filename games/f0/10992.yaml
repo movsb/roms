@@ -44,7 +44,7 @@ releases:
     id: 10993
     game_id: 10992
     description: ""
-    release_date: 0
+    release_date: 19871216
   names:
   - id: 23880
     kind: 3
@@ -52,7 +52,15 @@ releases:
     language: 1
     name: Exciting Boxing (J)
     source: ""
-  release_publishers: []
+  - id: 23882
+    kind: 3
+    kind_id: 10993
+    language: 1
+    name: Exciting Boxing (Japan)
+    source: ""
+  release_publishers:
+  - release_id: 10993
+    publisher_id: 2
   assets:
   - asset:
       id: 10975
@@ -64,41 +72,20 @@ releases:
       format: 1
       size: 262160
       blob_id: 56980
-      debug: Exciting Boxing (J).nes
+      debug: |-
+        Exciting Boxing (J).nes
+        Exciting Boxing (Japan).zip
     entries: []
 - release:
     id: 10994
     game_id: 10992
     description: ""
     release_date: 19871216
-  names:
-  - id: 23882
-    kind: 3
-    kind_id: 10994
-    language: 1
-    name: Exciting Boxing (Japan)
-    source: ""
+  names: []
   release_publishers:
   - release_id: 10994
     publisher_id: 2
   assets:
-  - asset:
-      id: 10976
-      kind: 3
-      kind_id: 10994
-      type: 1
-      name: Exciting Boxing (Japan).zip
-      description: ""
-      format: 2
-      size: 89666
-      blob_id: 0
-      debug: Exciting Boxing (Japan).zip
-    entries:
-    - id: 82634
-      asset_id: 10976
-      name: Exciting Boxing (Japan).nes
-      size: 262160
-      blob_id: 56980
   - asset:
       id: 38221
       kind: 3

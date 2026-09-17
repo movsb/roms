@@ -4,6 +4,18 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 67555
+  kind: 2
+  kind_id: 13317
+  language: 2
+  name: 燃烧篮球 (美版) (运动)-Hoops (USA)
+  source: ""
+- id: 67556
+  kind: 2
+  kind_id: 13317
+  language: 1
+  name: Hoops (U) [!]
+  source: ""
 - id: 92094
   kind: 2
   kind_id: 13317
@@ -52,6 +64,18 @@ releases:
     language: 1
     name: Hoops (U) [!]
     source: ""
+  - id: 29284
+    kind: 3
+    kind_id: 13318
+    language: 1
+    name: Hoops (U)
+    source: ""
+  - id: 67557
+    kind: 3
+    kind_id: 13318
+    language: 2
+    name: 燃烧篮球 (美版) (运动)-Hoops (USA)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -64,7 +88,10 @@ releases:
       format: 2
       size: 128593
       blob_id: 0
-      debug: Hoops (U) [!].zip
+      debug: |-
+        Hoops (U) [!].zip
+        Hoops (U).zip
+        燃烧篮球 (美版) (运动)-Hoops (USA) + Hoops (U) [!].nes
     entries:
     - id: 82906
       asset_id: 13300
@@ -201,34 +228,3 @@ releases:
       blob_id: 59181
       debug: Hoops (U) [o2].nes
     entries: []
-- release:
-    id: 13324
-    game_id: 13317
-    description: ""
-    release_date: 0
-  names:
-  - id: 29284
-    kind: 3
-    kind_id: 13324
-    language: 1
-    name: Hoops (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 13306
-      kind: 3
-      kind_id: 13324
-      type: 1
-      name: Hoops (U).zip
-      description: ""
-      format: 2
-      size: 128959
-      blob_id: 0
-      debug: Hoops (U).zip
-    entries:
-    - id: 82907
-      asset_id: 13306
-      name: Hoops (U).nes
-      size: 262160
-      blob_id: 59176

@@ -4,6 +4,18 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 60005
+  kind: 2
+  kind_id: 26055
+  language: 2
+  name: 世界运动会 (美版) (运动)-World Games (USA)
+  source: ""
+- id: 60006
+  kind: 2
+  kind_id: 26055
+  language: 1
+  name: World Games (U) [!]
+  source: ""
 - id: 93580
   kind: 2
   kind_id: 26055
@@ -26,6 +38,18 @@ releases:
     language: 1
     name: World Games (U) [!]
     source: ""
+  - id: 58252
+    kind: 3
+    kind_id: 26055
+    language: 1
+    name: World Games (U)
+    source: ""
+  - id: 60007
+    kind: 3
+    kind_id: 26055
+    language: 2
+    name: 世界运动会 (美版) (运动)-World Games (USA)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -38,7 +62,10 @@ releases:
       format: 2
       size: 77421
       blob_id: 0
-      debug: World Games (U) [!].zip
+      debug: |-
+        World Games (U) [!].zip
+        World Games (U).zip
+        世界运动会 (美版) (运动)-World Games (USA) + World Games (U) [!].nes
     entries:
     - id: 84368
       asset_id: 26037
@@ -97,34 +124,3 @@ releases:
       blob_id: 71207
       debug: World Games (U) [o1].nes
     entries: []
-- release:
-    id: 26058
-    game_id: 26055
-    description: ""
-    release_date: 0
-  names:
-  - id: 58252
-    kind: 3
-    kind_id: 26058
-    language: 1
-    name: World Games (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 26040
-      kind: 3
-      kind_id: 26058
-      type: 1
-      name: World Games (U).zip
-      description: ""
-      format: 2
-      size: 77513
-      blob_id: 0
-      debug: World Games (U).zip
-    entries:
-    - id: 84369
-      asset_id: 26040
-      name: World Games (U).nes
-      size: 131088
-      blob_id: 71205

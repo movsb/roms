@@ -4,6 +4,24 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 61323
+  kind: 2
+  kind_id: 23443
+  language: 2
+  name: 剑术大师 (美版) (动作)-Sword Master (USA)
+  source: ""
+- id: 61324
+  kind: 2
+  kind_id: 23443
+  language: 1
+  name: Sword Master (U) [!]
+  source: ""
+- id: 61329
+  kind: 2
+  kind_id: 23443
+  language: 2
+  name: 剑王
+  source: ""
 - id: 93299
   kind: 2
   kind_id: 23443
@@ -78,6 +96,24 @@ releases:
     language: 1
     name: Sword Master (U) [!p]
     source: ""
+  - id: 52352
+    kind: 3
+    kind_id: 23445
+    language: 1
+    name: Sword Master (U)
+    source: ""
+  - id: 61325
+    kind: 3
+    kind_id: 23445
+    language: 2
+    name: 剑术大师 (美版) (动作)-Sword Master (USA)
+    source: ""
+  - id: 61326
+    kind: 3
+    kind_id: 23445
+    language: 1
+    name: Sword Master (U) [!]
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -90,7 +126,10 @@ releases:
       format: 2
       size: 132857
       blob_id: 0
-      debug: Sword Master (U) [!p].zip
+      debug: |-
+        Sword Master (U) [!p].zip
+        Sword Master (U).zip
+        剑术大师 (美版) (动作)-Sword Master (USA) + Sword Master (U) [!].nes
     entries:
     - id: 84058
       asset_id: 23427
@@ -239,6 +278,12 @@ releases:
     language: 1
     name: Sword Master (U) [t1]
     source: ""
+  - id: 95145
+    kind: 3
+    kind_id: 23451
+    language: 2
+    name: 剑王
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -251,36 +296,66 @@ releases:
       format: 1
       size: 262160
       blob_id: 68740
-      debug: Sword Master (U) [t1].nes
+      debug: |-
+        Sword Master (U) [t1].nes
+        剑王_2.zip
     entries: []
 - release:
-    id: 23452
+    id: 27159
     game_id: 23443
     description: ""
     release_date: 0
   names:
-  - id: 52352
+  - id: 61328
     kind: 3
-    kind_id: 23452
-    language: 1
-    name: Sword Master (U)
+    kind_id: 27159
+    language: 2
+    name: 剑王(汉化版)
     source: ""
   release_publishers: []
   assets:
   - asset:
-      id: 23434
+      id: 27141
       kind: 3
-      kind_id: 23452
+      kind_id: 27159
       type: 1
-      name: Sword Master (U).zip
+      name: 剑王(汉化版).nes
+      description: ""
+      format: 1
+      size: 262160
+      blob_id: 72098
+      debug: |-
+        剑王(汉化版).nes
+        重复的/剑王[金明汉化] + Sword Master (U) [T+Chi_kamming].nes
+    entries: []
+- release:
+    id: 27160
+    game_id: 23443
+    description: ""
+    release_date: 0
+  names:
+  - id: 61330
+    kind: 3
+    kind_id: 27160
+    language: 2
+    name: 剑王
+    source: ""
+  release_publishers: []
+  assets:
+  - asset:
+      id: 27142
+      kind: 3
+      kind_id: 27160
+      type: 1
+      name: 剑王.zip
       description: ""
       format: 2
-      size: 133078
+      size: 137084
       blob_id: 0
-      debug: Sword Master (U).zip
+      debug: 剑王.zip
     entries:
-    - id: 84059
-      asset_id: 23434
-      name: Sword Master (U).nes
-      size: 262160
-      blob_id: 68734
+    - id: 84536
+      asset_id: 27142
+      name: 剑王.nes
+      size: 786464
+      blob_id: 72099

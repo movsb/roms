@@ -4,6 +4,18 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 59781
+  kind: 2
+  kind_id: 20376
+  language: 2
+  name: 三国志 (美版) (策略)-Romance of the Three Kingdoms (USA)
+  source: ""
+- id: 59782
+  kind: 2
+  kind_id: 20376
+  language: 1
+  name: Romance of The Three Kingdoms (U) [!]
+  source: ""
 - id: 92908
   kind: 2
   kind_id: 20376
@@ -26,6 +38,18 @@ releases:
     language: 1
     name: Romance of The Three Kingdoms (U) [!]
     source: ""
+  - id: 45412
+    kind: 3
+    kind_id: 20376
+    language: 1
+    name: Romance of the Three Kingdoms (U)
+    source: ""
+  - id: 59783
+    kind: 3
+    kind_id: 20376
+    language: 2
+    name: 三国志 (美版) (策略)-Romance of the Three Kingdoms (USA)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -38,7 +62,10 @@ releases:
       format: 2
       size: 131124
       blob_id: 0
-      debug: Romance of The Three Kingdoms (U) [!].zip
+      debug: |-
+        Romance of The Three Kingdoms (U) [!].zip
+        Romance of the Three Kingdoms (U).zip
+        三国志 (美版) (策略)-Romance of the Three Kingdoms (USA) + Romance of The Three Kingdoms (U) [!].nes
     entries:
     - id: 83747
       asset_id: 20358
@@ -149,34 +176,3 @@ releases:
       blob_id: 65827
       debug: Romance of The Three Kingdoms (U) [o2].nes
     entries: []
-- release:
-    id: 20391
-    game_id: 20376
-    description: ""
-    release_date: 0
-  names:
-  - id: 45412
-    kind: 3
-    kind_id: 20391
-    language: 1
-    name: Romance of the Three Kingdoms (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 20373
-      kind: 3
-      kind_id: 20391
-      type: 1
-      name: Romance of the Three Kingdoms (U).zip
-      description: ""
-      format: 2
-      size: 131552
-      blob_id: 0
-      debug: Romance of the Three Kingdoms (U).zip
-    entries:
-    - id: 83749
-      asset_id: 20373
-      name: Romance of the Three Kingdoms (U).nes
-      size: 262160
-      blob_id: 65823

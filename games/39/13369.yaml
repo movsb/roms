@@ -4,6 +4,18 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 68743
+  kind: 2
+  kind_id: 13369
+  language: 2
+  name: 终极神鹰 (美版) (动作)-Hudson Hawk (USA)
+  source: ""
+- id: 68744
+  kind: 2
+  kind_id: 13369
+  language: 1
+  name: Hudson Hawk (U) [!]
+  source: ""
 - id: 92102
   kind: 2
   kind_id: 13369
@@ -26,6 +38,18 @@ releases:
     language: 1
     name: Hudson Hawk (U) [!]
     source: ""
+  - id: 29408
+    kind: 3
+    kind_id: 13369
+    language: 1
+    name: Hudson Hawk (U)
+    source: ""
+  - id: 68745
+    kind: 3
+    kind_id: 13369
+    language: 2
+    name: 终极神鹰 (美版) (动作)-Hudson Hawk (USA)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -38,7 +62,10 @@ releases:
       format: 2
       size: 122427
       blob_id: 0
-      debug: Hudson Hawk (U) [!].zip
+      debug: |-
+        Hudson Hawk (U) [!].zip
+        Hudson Hawk (U).zip
+        终极神鹰 (美版) (动作)-Hudson Hawk (USA) + Hudson Hawk (U) [!].nes
     entries:
     - id: 82912
       asset_id: 13351
@@ -175,34 +202,3 @@ releases:
       blob_id: 59228
       debug: Hudson Hawk (U) [o2].nes
     entries: []
-- release:
-    id: 13375
-    game_id: 13369
-    description: ""
-    release_date: 0
-  names:
-  - id: 29408
-    kind: 3
-    kind_id: 13375
-    language: 1
-    name: Hudson Hawk (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 13357
-      kind: 3
-      kind_id: 13375
-      type: 1
-      name: Hudson Hawk (U).zip
-      description: ""
-      format: 2
-      size: 122738
-      blob_id: 0
-      debug: Hudson Hawk (U).zip
-    entries:
-    - id: 82913
-      asset_id: 13357
-      name: Hudson Hawk (U).nes
-      size: 262160
-      blob_id: 59223

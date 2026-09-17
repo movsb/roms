@@ -18,7 +18,7 @@ releases:
     id: 31929
     game_id: 31929
     description: ""
-    release_date: 0
+    release_date: 20011212
   names:
   - id: 75325
     kind: 3
@@ -26,7 +26,15 @@ releases:
     language: 1
     name: Mortal Kombat Advance (U) (Venom) [0247]
     source: ""
-  release_publishers: []
+  - id: 75327
+    kind: 3
+    kind_id: 31929
+    language: 1
+    name: Mortal Kombat Advance (USA)
+    source: ""
+  release_publishers:
+  - release_id: 31929
+    publisher_id: 46
   assets:
   - asset:
       id: 31891
@@ -38,7 +46,9 @@ releases:
       format: 2
       size: 5890316
       blob_id: 0
-      debug: Mortal Kombat Advance (U) (Venom) [0247].zip
+      debug: |-
+        Mortal Kombat Advance (U) (Venom) [0247].zip
+        Mortal Kombat Advance (USA).zip
     entries:
     - id: 86781
       asset_id: 31891
@@ -50,34 +60,11 @@ releases:
     game_id: 31929
     description: ""
     release_date: 20011212
-  names:
-  - id: 75327
-    kind: 3
-    kind_id: 31930
-    language: 1
-    name: Mortal Kombat Advance (USA)
-    source: ""
+  names: []
   release_publishers:
   - release_id: 31930
     publisher_id: 46
   assets:
-  - asset:
-      id: 31892
-      kind: 3
-      kind_id: 31930
-      type: 1
-      name: Mortal Kombat Advance (USA).zip
-      description: ""
-      format: 2
-      size: 5882386
-      blob_id: 0
-      debug: Mortal Kombat Advance (USA).zip
-    entries:
-    - id: 86782
-      asset_id: 31892
-      name: Mortal Kombat Advance (USA).gba
-      size: 8388608
-      blob_id: 75628
   - asset:
       id: 34030
       kind: 3

@@ -4,6 +4,12 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 43659
+  kind: 2
+  kind_id: 19563
+  language: 1
+  name: RBI Baseball 2 (U)
+  source: ""
 - id: 92815
   kind: 2
   kind_id: 19563
@@ -26,6 +32,18 @@ releases:
     language: 1
     name: R.B.I. Baseball 2 (Tengen) [!]
     source: ""
+  - id: 43576
+    kind: 3
+    kind_id: 19563
+    language: 1
+    name: R.B.I. Baseball 2 (Unl) [!]
+    source: ""
+  - id: 43660
+    kind: 3
+    kind_id: 19563
+    language: 1
+    name: RBI Baseball 2 (U)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -38,7 +56,10 @@ releases:
       format: 1
       size: 196624
       blob_id: 65055
-      debug: R.B.I. Baseball 2 (Tengen) [!].nes
+      debug: |-
+        R.B.I. Baseball 2 (Tengen) [!].nes
+        R.B.I. Baseball 2 (Unl) [!].zip
+        RBI Baseball 2 (U).zip
     entries: []
 - release:
     id: 19564
@@ -456,34 +477,3 @@ releases:
       blob_id: 65071
       debug: R.B.I. Baseball 2 (Tengen) [o5].nes
     entries: []
-- release:
-    id: 19580
-    game_id: 19563
-    description: ""
-    release_date: 0
-  names:
-  - id: 43576
-    kind: 3
-    kind_id: 19580
-    language: 1
-    name: R.B.I. Baseball 2 (Unl) [!]
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 19562
-      kind: 3
-      kind_id: 19580
-      type: 1
-      name: R.B.I. Baseball 2 (Unl) [!].zip
-      description: ""
-      format: 2
-      size: 96257
-      blob_id: 0
-      debug: R.B.I. Baseball 2 (Unl) [!].zip
-    entries:
-    - id: 83649
-      asset_id: 19562
-      name: R.B.I. Baseball 2 (Unl) [!].nes
-      size: 196624
-      blob_id: 65055

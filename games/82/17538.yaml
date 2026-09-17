@@ -4,6 +4,12 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 68691
+  kind: 2
+  kind_id: 17538
+  language: 2
+  name: 纽约大拳猫
+  source: ""
 - id: 92623
   kind: 2
   kind_id: 17538
@@ -52,6 +58,12 @@ releases:
     language: 1
     name: New York Nyankies (J) [o1][t1]
     source: ""
+  - id: 95241
+    kind: 3
+    kind_id: 17539
+    language: 2
+    name: 纽约大拳猫
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -64,7 +76,9 @@ releases:
       format: 1
       size: 786464
       blob_id: 63121
-      debug: New York Nyankies (J) [o1][t1].nes
+      debug: |-
+        New York Nyankies (J) [o1][t1].nes
+        纽约大拳猫_2.zip
     entries: []
 - release:
     id: 17540
@@ -118,3 +132,48 @@ releases:
       blob_id: 63123
       debug: New York Nyankies (J) [t1].nes
     entries: []
+- release:
+    id: 29369
+    game_id: 17538
+    description: ""
+    release_date: 0
+  names:
+  - id: 68692
+    kind: 3
+    kind_id: 29369
+    language: 2
+    name: 纽约大拳猫
+    source: ""
+  - id: 85249
+    kind: 3
+    kind_id: 29369
+    language: 2
+    name: 纽约大拳猫[MS汉化]
+    source: ""
+  - id: 85250
+    kind: 3
+    kind_id: 29369
+    language: 1
+    name: New York Nyankies (J) [T+Chi]
+    source: ""
+  release_publishers: []
+  assets:
+  - asset:
+      id: 29351
+      kind: 3
+      kind_id: 29369
+      type: 1
+      name: 纽约大拳猫.zip
+      description: ""
+      format: 2
+      size: 144157
+      blob_id: 0
+      debug: |-
+        纽约大拳猫.zip
+        纽约大拳猫[MS汉化] + New York Nyankies (J) [T+Chi].nes
+    entries:
+    - id: 85066
+      asset_id: 29351
+      name: 纽约大拳猫.nes
+      size: 262160
+      blob_id: 73548

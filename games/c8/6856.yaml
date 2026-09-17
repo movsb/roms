@@ -26,6 +26,18 @@ releases:
     language: 1
     name: Bee 52 (Camerica) [!]
     source: ""
+  - id: 14322
+    kind: 3
+    kind_id: 6856
+    language: 1
+    name: Bee 52 (U)
+    source: ""
+  - id: 14324
+    kind: 3
+    kind_id: 6856
+    language: 1
+    name: Bee 52 (Unl) [!]
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -38,7 +50,10 @@ releases:
       format: 1
       size: 65552
       blob_id: 53069
-      debug: Bee 52 (Camerica) [!].nes
+      debug: |-
+        Bee 52 (Camerica) [!].nes
+        Bee 52 (U).zip
+        Bee 52 (Unl) [!].zip
     entries: []
 - release:
     id: 6857
@@ -92,65 +107,3 @@ releases:
       blob_id: 53071
       debug: Bee 52 (Camerica) [o1].nes
     entries: []
-- release:
-    id: 6859
-    game_id: 6856
-    description: ""
-    release_date: 0
-  names:
-  - id: 14322
-    kind: 3
-    kind_id: 6859
-    language: 1
-    name: Bee 52 (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 6841
-      kind: 3
-      kind_id: 6859
-      type: 1
-      name: Bee 52 (U).zip
-      description: ""
-      format: 2
-      size: 54084
-      blob_id: 0
-      debug: Bee 52 (U).zip
-    entries:
-    - id: 82164
-      asset_id: 6841
-      name: Bee 52 (U).nes
-      size: 65552
-      blob_id: 53069
-- release:
-    id: 6860
-    game_id: 6856
-    description: ""
-    release_date: 0
-  names:
-  - id: 14324
-    kind: 3
-    kind_id: 6860
-    language: 1
-    name: Bee 52 (Unl) [!]
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 6842
-      kind: 3
-      kind_id: 6860
-      type: 1
-      name: Bee 52 (Unl) [!].zip
-      description: ""
-      format: 2
-      size: 54099
-      blob_id: 0
-      debug: Bee 52 (Unl) [!].zip
-    entries:
-    - id: 82165
-      asset_id: 6842
-      name: Bee 52 (Unl) [!].nes
-      size: 65552
-      blob_id: 53069

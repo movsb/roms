@@ -4,6 +4,12 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 60069
+  kind: 2
+  kind_id: 8692
+  language: 2
+  name: 中华大仙
+  source: ""
 - id: 91548
   kind: 2
   kind_id: 8692
@@ -18,15 +24,23 @@ releases:
     id: 8692
     game_id: 8692
     description: ""
-    release_date: 0
+    release_date: 19890922
   names:
+  - id: 18492
+    kind: 3
+    kind_id: 8692
+    language: 1
+    name: Chuuka Taisen (Japan) (Translated En)
+    source: ""
   - id: 82563
     kind: 3
     kind_id: 8692
     language: 1
     name: Chuuka Taisen (J) [T+Eng1.00_Ice]
     source: ""
-  release_publishers: []
+  release_publishers:
+  - release_id: 8692
+    publisher_id: 112
   assets:
   - asset:
       id: 8674
@@ -38,7 +52,9 @@ releases:
       format: 1
       size: 262160
       blob_id: 54816
-      debug: Chuuka Taisen (J) [T+Eng1.00_Ice].nes
+      debug: |-
+        Chuuka Taisen (J) [T+Eng1.00_Ice].nes
+        Chuuka Taisen (Japan) (Translated En).zip
     entries: []
 - release:
     id: 8693
@@ -260,6 +276,12 @@ releases:
     language: 1
     name: Chuuka Taisen (J) [t1]
     source: ""
+  - id: 95131
+    kind: 3
+    kind_id: 8701
+    language: 2
+    name: 中华大仙
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -272,7 +294,9 @@ releases:
       format: 1
       size: 262160
       blob_id: 54825
-      debug: Chuuka Taisen (J) [t1].nes
+      debug: |-
+        Chuuka Taisen (J) [t1].nes
+        中华大仙_2.zip
     entries: []
 - release:
     id: 8702
@@ -331,34 +355,11 @@ releases:
     game_id: 8692
     description: ""
     release_date: 19890922
-  names:
-  - id: 18492
-    kind: 3
-    kind_id: 8704
-    language: 1
-    name: Chuuka Taisen (Japan) (Translated En)
-    source: ""
+  names: []
   release_publishers:
   - release_id: 8704
     publisher_id: 112
   assets:
-  - asset:
-      id: 8686
-      kind: 3
-      kind_id: 8704
-      type: 1
-      name: Chuuka Taisen (Japan) (Translated En).zip
-      description: ""
-      format: 2
-      size: 81610
-      blob_id: 0
-      debug: Chuuka Taisen (Japan) (Translated En).zip
-    entries:
-    - id: 82355
-      asset_id: 8686
-      name: Chuuka Taisen (Japan) (Translated En).nes
-      size: 262160
-      blob_id: 54816
   - asset:
       id: 38180
       kind: 3
@@ -394,4 +395,38 @@ releases:
       size: 52272
       blob_id: 81919
       debug: ""
+    entries: []
+- release:
+    id: 26774
+    game_id: 8692
+    description: ""
+    release_date: 0
+  names:
+  - id: 60068
+    kind: 3
+    kind_id: 26774
+    language: 2
+    name: 中华大仙(汉化版)
+    source: ""
+  - id: 60070
+    kind: 3
+    kind_id: 26774
+    language: 2
+    name: 中华大仙
+    source: ""
+  release_publishers: []
+  assets:
+  - asset:
+      id: 26756
+      kind: 3
+      kind_id: 26774
+      type: 1
+      name: 中华大仙(汉化版).nes
+      description: ""
+      format: 1
+      size: 262160
+      blob_id: 71840
+      debug: |-
+        中华大仙(汉化版).nes
+        中华大仙.zip
     entries: []

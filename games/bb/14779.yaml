@@ -4,6 +4,18 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 70161
+  kind: 2
+  kind_id: 14779
+  language: 2
+  name: 超级欢乐屋(美版)
+  source: ""
+- id: 70162
+  kind: 2
+  kind_id: 14779
+  language: 1
+  name: Krusty's Fun House (U) [!]
+  source: ""
 - id: 92272
   kind: 2
   kind_id: 14779
@@ -52,6 +64,18 @@ releases:
     language: 1
     name: Krusty's Fun House (U) [!]
     source: ""
+  - id: 32742
+    kind: 3
+    kind_id: 14780
+    language: 1
+    name: Krusty's Fun House (U)
+    source: ""
+  - id: 70163
+    kind: 3
+    kind_id: 14780
+    language: 2
+    name: 超级欢乐屋(美版)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -64,7 +88,10 @@ releases:
       format: 2
       size: 115846
       blob_id: 0
-      debug: Krusty's Fun House (U) [!].zip
+      debug: |-
+        Krusty's Fun House (U) [!].zip
+        Krusty's Fun House (U).zip
+        超级欢乐屋(美版) + Krusty's Fun House (U) [!].nes
     entries:
     - id: 83122
       asset_id: 14762
@@ -149,34 +176,3 @@ releases:
       blob_id: 60527
       debug: Krusty's Fun House (U) [o1].nes
     entries: []
-- release:
-    id: 14784
-    game_id: 14779
-    description: ""
-    release_date: 0
-  names:
-  - id: 32742
-    kind: 3
-    kind_id: 14784
-    language: 1
-    name: Krusty's Fun House (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 14766
-      kind: 3
-      kind_id: 14784
-      type: 1
-      name: Krusty's Fun House (U).zip
-      description: ""
-      format: 2
-      size: 116270
-      blob_id: 0
-      debug: Krusty's Fun House (U).zip
-    entries:
-    - id: 83123
-      asset_id: 14766
-      name: Krusty's Fun House (U).nes
-      size: 393232
-      blob_id: 60524

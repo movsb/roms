@@ -4,6 +4,18 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 70039
+  kind: 2
+  kind_id: 14809
+  language: 2
+  name: 超级中国人 (美版) (动作)-Kung-Fu Heroes (USA)
+  source: ""
+- id: 70040
+  kind: 2
+  kind_id: 14809
+  language: 1
+  name: Kung-Fu Heroes (U) [!]
+  source: ""
 - id: 92276
   kind: 2
   kind_id: 14809
@@ -26,6 +38,12 @@ releases:
     language: 1
     name: Kung-Fu Heroes (U) [!]
     source: ""
+  - id: 70041
+    kind: 3
+    kind_id: 14809
+    language: 2
+    name: 超级中国人 (美版) (动作)-Kung-Fu Heroes (USA)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -38,7 +56,9 @@ releases:
       format: 2
       size: 30433
       blob_id: 0
-      debug: Kung-Fu Heroes (U) [!].zip
+      debug: |-
+        Kung-Fu Heroes (U) [!].zip
+        超级中国人 (美版) (动作)-Kung-Fu Heroes (USA) + Kung-Fu Heroes (U) [!].nes
     entries:
     - id: 83128
       asset_id: 14791
@@ -109,6 +129,12 @@ releases:
     language: 1
     name: Kung-Fu Heroes (U) [b1]
     source: ""
+  - id: 32828
+    kind: 3
+    kind_id: 14812
+    language: 1
+    name: Kung-Fu Heroes (U)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -121,7 +147,9 @@ releases:
       format: 1
       size: 65552
       blob_id: 60553
-      debug: Kung-Fu Heroes (U) [b1].nes
+      debug: |-
+        Kung-Fu Heroes (U) [b1].nes
+        Kung-Fu Heroes (U).zip
     entries: []
 - release:
     id: 14813
@@ -253,34 +281,3 @@ releases:
       blob_id: 60558
       debug: Kung-Fu Heroes (U) [b2].nes
     entries: []
-- release:
-    id: 14818
-    game_id: 14809
-    description: ""
-    release_date: 0
-  names:
-  - id: 32828
-    kind: 3
-    kind_id: 14818
-    language: 1
-    name: Kung-Fu Heroes (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 14800
-      kind: 3
-      kind_id: 14818
-      type: 1
-      name: Kung-Fu Heroes (U).zip
-      description: ""
-      format: 2
-      size: 30494
-      blob_id: 0
-      debug: Kung-Fu Heroes (U).zip
-    entries:
-    - id: 83129
-      asset_id: 14800
-      name: Kung-Fu Heroes (U).nes
-      size: 65552
-      blob_id: 60553

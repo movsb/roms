@@ -4,11 +4,35 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 62009
+  kind: 2
+  kind_id: 18604
+  language: 2
+  name: 吃豆人
+  source: ""
+- id: 63637
+  kind: 2
+  kind_id: 18604
+  language: 2
+  name: 小精灵 (美版) (Namco) (动作)-Pac-Man (USA) (Namco)
+  source: ""
+- id: 63638
+  kind: 2
+  kind_id: 18604
+  language: 1
+  name: Pac-Man (U) (Namco) [!]
+  source: ""
 - id: 92690
   kind: 2
   kind_id: 18604
   language: 1
   name: Pac-Man
+  source: ""
+- id: 93669
+  kind: 2
+  kind_id: 18604
+  language: 2
+  name: 小精灵 (美版) (Tengen) (动作)-Pac-Man
   source: ""
 game_developers: []
 game_genres: []
@@ -286,6 +310,12 @@ releases:
     language: 1
     name: Pac-Man (J) (V1.0) [t2]
     source: ""
+  - id: 62010
+    kind: 3
+    kind_id: 18614
+    language: 2
+    name: 吃豆人
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -298,7 +328,9 @@ releases:
       format: 1
       size: 24592
       blob_id: 64165
-      debug: Pac-Man (J) (V1.0) [t2].nes
+      debug: |-
+        Pac-Man (J) (V1.0) [t2].nes
+        吃豆人.zip
     entries: []
 - release:
     id: 18615
@@ -338,6 +370,24 @@ releases:
     language: 1
     name: Pac-Man (U) (Namco) [!p]
     source: ""
+  - id: 41518
+    kind: 3
+    kind_id: 18616
+    language: 1
+    name: Pac-Man (U) (Namco)
+    source: ""
+  - id: 63639
+    kind: 3
+    kind_id: 18616
+    language: 2
+    name: 小精灵 (美版) (Namco) (动作)-Pac-Man (USA) (Namco)
+    source: ""
+  - id: 63640
+    kind: 3
+    kind_id: 18616
+    language: 1
+    name: Pac-Man (U) (Namco) [!]
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -350,7 +400,10 @@ releases:
       format: 2
       size: 11396
       blob_id: 0
-      debug: Pac-Man (U) (Namco) [!p].zip
+      debug: |-
+        Pac-Man (U) (Namco) [!p].zip
+        Pac-Man (U) (Namco).zip
+        小精灵 (美版) (Namco) (动作)-Pac-Man (USA) (Namco) + Pac-Man (U) (Namco) [!].nes
     entries:
     - id: 83512
       asset_id: 18598
@@ -383,37 +436,6 @@ releases:
       blob_id: 64168
       debug: Pac-Man (U) (Namco) [o1].nes
     entries: []
-- release:
-    id: 18618
-    game_id: 18604
-    description: ""
-    release_date: 0
-  names:
-  - id: 41518
-    kind: 3
-    kind_id: 18618
-    language: 1
-    name: Pac-Man (U) (Namco)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 18600
-      kind: 3
-      kind_id: 18618
-      type: 1
-      name: Pac-Man (U) (Namco).zip
-      description: ""
-      format: 2
-      size: 11415
-      blob_id: 0
-      debug: Pac-Man (U) (Namco).zip
-    entries:
-    - id: 83513
-      asset_id: 18600
-      name: Pac-Man (U) (Namco).nes
-      size: 24592
-      blob_id: 64167
 - release:
     id: 18619
     game_id: 18604
@@ -530,6 +552,18 @@ releases:
     language: 1
     name: Pac-Man (USA) (Tengen)
     source: ""
+  - id: 63647
+    kind: 3
+    kind_id: 18623
+    language: 2
+    name: 小精灵 (美版) (Tengen) (动作)-Pac-Man (USA) (Tengen)
+    source: ""
+  - id: 63648
+    kind: 3
+    kind_id: 18623
+    language: 1
+    name: Pac-Man (U) (Tengen) [!]
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -542,7 +576,9 @@ releases:
       format: 2
       size: 11196
       blob_id: 0
-      debug: Pac-Man (USA) (Tengen).zip
+      debug: |-
+        Pac-Man (USA) (Tengen).zip
+        小精灵 (美版) (Tengen) (动作)-Pac-Man (USA) (Tengen) + Pac-Man (U) (Tengen) [!].nes
     entries:
     - id: 83514
       asset_id: 18605
@@ -587,6 +623,18 @@ releases:
     language: 1
     name: Pac-Man (Unl) [!]
     source: ""
+  - id: 63643
+    kind: 3
+    kind_id: 18625
+    language: 2
+    name: 小精灵 (美版) (Tengen) (动作)-Pac-Man (USA) (Tengen) (Unl)
+    source: ""
+  - id: 63644
+    kind: 3
+    kind_id: 18625
+    language: 1
+    name: Pac-Man (Unl) (Tengen) [!]
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -599,7 +647,9 @@ releases:
       format: 2
       size: 11231
       blob_id: 0
-      debug: Pac-Man (Unl) [!].zip
+      debug: |-
+        Pac-Man (Unl) [!].zip
+        小精灵 (美版) (Tengen) (动作)-Pac-Man (USA) (Tengen) (Unl) + Pac-Man (Unl) (Tengen) [!].nes
     entries:
     - id: 83515
       asset_id: 18607

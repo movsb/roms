@@ -52,6 +52,12 @@ releases:
     language: 1
     name: Super Sprint (Tengen) [!]
     source: ""
+  - id: 52078
+    kind: 3
+    kind_id: 23313
+    language: 1
+    name: Super Sprint (Unl) [!]
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -64,7 +70,9 @@ releases:
       format: 1
       size: 131088
       blob_id: 68610
-      debug: Super Sprint (Tengen) [!].nes
+      debug: |-
+        Super Sprint (Tengen) [!].nes
+        Super Sprint (Unl) [!].zip
     entries: []
 - release:
     id: 23314
@@ -156,6 +164,12 @@ releases:
     language: 1
     name: Super Sprint (Tengen) [b2]
     source: ""
+  - id: 52076
+    kind: 3
+    kind_id: 23317
+    language: 1
+    name: Super Sprint (U)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -168,7 +182,9 @@ releases:
       format: 1
       size: 131088
       blob_id: 68614
-      debug: Super Sprint (Tengen) [b2].nes
+      debug: |-
+        Super Sprint (Tengen) [b2].nes
+        Super Sprint (U).zip
     entries: []
 - release:
     id: 23318
@@ -404,65 +420,3 @@ releases:
       blob_id: 68623
       debug: Super Sprint (Tengen) [ba].nes
     entries: []
-- release:
-    id: 23327
-    game_id: 23312
-    description: ""
-    release_date: 0
-  names:
-  - id: 52076
-    kind: 3
-    kind_id: 23327
-    language: 1
-    name: Super Sprint (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 23309
-      kind: 3
-      kind_id: 23327
-      type: 1
-      name: Super Sprint (U).zip
-      description: ""
-      format: 2
-      size: 45540
-      blob_id: 0
-      debug: Super Sprint (U).zip
-    entries:
-    - id: 84039
-      asset_id: 23309
-      name: Super Sprint (U).nes
-      size: 131088
-      blob_id: 68614
-- release:
-    id: 23328
-    game_id: 23312
-    description: ""
-    release_date: 0
-  names:
-  - id: 52078
-    kind: 3
-    kind_id: 23328
-    language: 1
-    name: Super Sprint (Unl) [!]
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 23310
-      kind: 3
-      kind_id: 23328
-      type: 1
-      name: Super Sprint (Unl) [!].zip
-      description: ""
-      format: 2
-      size: 43094
-      blob_id: 0
-      debug: Super Sprint (Unl) [!].zip
-    entries:
-    - id: 84040
-      asset_id: 23310
-      name: Super Sprint (Unl) [!].nes
-      size: 131088
-      blob_id: 68610

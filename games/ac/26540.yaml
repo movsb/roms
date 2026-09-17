@@ -4,6 +4,18 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 65843
+  kind: 2
+  kind_id: 26540
+  language: 2
+  name: 暴坊天狗 (美版) (射击)-Samurai Zombie Nation (USA)
+  source: ""
+- id: 65844
+  kind: 2
+  kind_id: 26540
+  language: 1
+  name: Zombie Nation (U) [!]
+  source: ""
 - id: 93638
   kind: 2
   kind_id: 26540
@@ -26,6 +38,18 @@ releases:
     language: 1
     name: Zombie Nation (U) [!]
     source: ""
+  - id: 59390
+    kind: 3
+    kind_id: 26540
+    language: 1
+    name: Zombie Nation (U)
+    source: ""
+  - id: 65845
+    kind: 3
+    kind_id: 26540
+    language: 2
+    name: 暴坊天狗 (美版) (射击)-Samurai Zombie Nation (USA)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -38,7 +62,10 @@ releases:
       format: 2
       size: 131287
       blob_id: 0
-      debug: Zombie Nation (U) [!].zip
+      debug: |-
+        Zombie Nation (U) [!].zip
+        Zombie Nation (U).zip
+        暴坊天狗 (美版) (射击)-Samurai Zombie Nation (USA) + Zombie Nation (U) [!].nes
     entries:
     - id: 84417
       asset_id: 26522
@@ -279,34 +306,3 @@ releases:
       blob_id: 71674
       debug: Zombie Nation (U) [p1][!].nes
     entries: []
-- release:
-    id: 26550
-    game_id: 26540
-    description: ""
-    release_date: 0
-  names:
-  - id: 59390
-    kind: 3
-    kind_id: 26550
-    language: 1
-    name: Zombie Nation (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 26532
-      kind: 3
-      kind_id: 26550
-      type: 1
-      name: Zombie Nation (U).zip
-      description: ""
-      format: 2
-      size: 131996
-      blob_id: 0
-      debug: Zombie Nation (U).zip
-    entries:
-    - id: 84418
-      asset_id: 26532
-      name: Zombie Nation (U).nes
-      size: 262160
-      blob_id: 71665

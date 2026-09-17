@@ -4,6 +4,24 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 70749
+  kind: 2
+  kind_id: 16444
+  language: 2
+  name: 重力装甲 (美版) (动作)-Metal Storm (USA)
+  source: ""
+- id: 70750
+  kind: 2
+  kind_id: 16444
+  language: 1
+  name: Metal Storm (U) [!]
+  source: ""
+- id: 70753
+  kind: 2
+  kind_id: 16444
+  language: 2
+  name: 重力装甲
+  source: ""
 - id: 92486
   kind: 2
   kind_id: 16444
@@ -26,6 +44,24 @@ releases:
     language: 1
     name: Metal Storm (U) [!]
     source: ""
+  - id: 36612
+    kind: 3
+    kind_id: 16444
+    language: 1
+    name: Metal Storm (U)
+    source: ""
+  - id: 70751
+    kind: 3
+    kind_id: 16444
+    language: 2
+    name: 重力装甲 (美版) (动作)-Metal Storm (USA)
+    source: ""
+  - id: 70754
+    kind: 3
+    kind_id: 16444
+    language: 2
+    name: 重力装甲
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -38,7 +74,11 @@ releases:
       format: 2
       size: 180073
       blob_id: 0
-      debug: Metal Storm (U) [!].zip
+      debug: |-
+        Metal Storm (U) [!].zip
+        Metal Storm (U).zip
+        重力装甲 (美版) (动作)-Metal Storm (USA) + Metal Storm (U) [!].nes
+        重力装甲.zip
     entries:
     - id: 83320
       asset_id: 16426
@@ -123,34 +163,3 @@ releases:
       blob_id: 62098
       debug: Metal Storm (U) [o1].nes
     entries: []
-- release:
-    id: 16448
-    game_id: 16444
-    description: ""
-    release_date: 0
-  names:
-  - id: 36612
-    kind: 3
-    kind_id: 16448
-    language: 1
-    name: Metal Storm (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 16430
-      kind: 3
-      kind_id: 16448
-      type: 1
-      name: Metal Storm (U).zip
-      description: ""
-      format: 2
-      size: 181160
-      blob_id: 0
-      debug: Metal Storm (U).zip
-    entries:
-    - id: 83321
-      asset_id: 16430
-      name: Metal Storm (U).nes
-      size: 393232
-      blob_id: 62095

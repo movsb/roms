@@ -4,6 +4,24 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 67815
+  kind: 2
+  kind_id: 15679
+  language: 2
+  name: 猫抓老鼠1
+  source: ""
+- id: 67835
+  kind: 2
+  kind_id: 15679
+  language: 2
+  name: 猫鼠大战 (日版) (动作)-Mappy (Japan)
+  source: ""
+- id: 67836
+  kind: 2
+  kind_id: 15679
+  language: 1
+  name: Mappy (J) [!]
+  source: ""
 - id: 92391
   kind: 2
   kind_id: 15679
@@ -18,7 +36,7 @@ releases:
     id: 15679
     game_id: 15679
     description: ""
-    release_date: 0
+    release_date: 19841114
   names:
   - id: 34806
     kind: 3
@@ -26,7 +44,27 @@ releases:
     language: 1
     name: Mappy (J) [!]
     source: ""
-  release_publishers: []
+  - id: 34862
+    kind: 3
+    kind_id: 15679
+    language: 1
+    name: Mappy (Japan)
+    source: ""
+  - id: 67816
+    kind: 3
+    kind_id: 15679
+    language: 2
+    name: 猫抓老鼠1
+    source: ""
+  - id: 67837
+    kind: 3
+    kind_id: 15679
+    language: 2
+    name: 猫鼠大战 (日版) (动作)-Mappy (Japan)
+    source: ""
+  release_publishers:
+  - release_id: 15679
+    publisher_id: 4
   assets:
   - asset:
       id: 15661
@@ -38,7 +76,11 @@ releases:
       format: 2
       size: 15473
       blob_id: 0
-      debug: Mappy (J) [!].zip
+      debug: |-
+        Mappy (J) [!].zip
+        Mappy (Japan).zip
+        猫抓老鼠1.zip
+        猫鼠大战 (日版) (动作)-Mappy (Japan) + Mappy (J) [!].nes
     entries:
     - id: 83261
       asset_id: 15661
@@ -518,34 +560,11 @@ releases:
     game_id: 15679
     description: ""
     release_date: 19841114
-  names:
-  - id: 34862
-    kind: 3
-    kind_id: 15698
-    language: 1
-    name: Mappy (Japan)
-    source: ""
+  names: []
   release_publishers:
   - release_id: 15698
     publisher_id: 4
   assets:
-  - asset:
-      id: 15680
-      kind: 3
-      kind_id: 15698
-      type: 1
-      name: Mappy (Japan).zip
-      description: ""
-      format: 2
-      size: 15454
-      blob_id: 0
-      debug: Mappy (Japan).zip
-    entries:
-    - id: 83262
-      asset_id: 15680
-      name: Mappy (Japan).nes
-      size: 24592
-      blob_id: 61361
   - asset:
       id: 38434
       kind: 3

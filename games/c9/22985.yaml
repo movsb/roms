@@ -4,6 +4,12 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 59615
+  kind: 2
+  kind_id: 22985
+  language: 1
+  name: mario2
+  source: ""
 - id: 93249
   kind: 2
   kind_id: 22985
@@ -52,6 +58,12 @@ releases:
     language: 1
     name: Super Mario Bros. 2 (E) [!]
     source: ""
+  - id: 59616
+    kind: 3
+    kind_id: 22986
+    language: 1
+    name: mario2
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -64,7 +76,9 @@ releases:
       format: 1
       size: 262160
       blob_id: 68298
-      debug: Super Mario Bros. 2 (E) [!].nes
+      debug: |-
+        Super Mario Bros. 2 (E) [!].nes
+        mario2.zip
     entries: []
 - release:
     id: 22987
@@ -1338,39 +1352,10 @@ releases:
       format: 1
       size: 262160
       blob_id: 68347
-      debug: Super Mario Bros. 2 (U) (PRG1) [!].nes
+      debug: |-
+        Super Mario Bros. 2 (U) (PRG1) [!].nes
+        Super Mario Bros. 2 (U) (PRG1) [!].zip
     entries: []
-- release:
-    id: 23036
-    game_id: 22985
-    description: ""
-    release_date: 0
-  names:
-  - id: 51390
-    kind: 3
-    kind_id: 23036
-    language: 1
-    name: Super Mario Bros. 2 (U) (PRG1) [!]
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 23018
-      kind: 3
-      kind_id: 23036
-      type: 1
-      name: Super Mario Bros. 2 (U) (PRG1) [!].zip
-      description: ""
-      format: 2
-      size: 77611
-      blob_id: 0
-      debug: Super Mario Bros. 2 (U) (PRG1) [!].zip
-    entries:
-    - id: 84018
-      asset_id: 23018
-      name: Super Mario Bros. 2 (U) (PRG1) [!].nes
-      size: 262160
-      blob_id: 68347
 - release:
     id: 23037
     game_id: 22985

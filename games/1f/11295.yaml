@@ -4,6 +4,18 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 69363
+  kind: 2
+  kind_id: 11295
+  language: 2
+  name: 菲力猫 (美版) (动作)-Felix the Cat (USA)
+  source: ""
+- id: 69364
+  kind: 2
+  kind_id: 11295
+  language: 1
+  name: Felix the Cat (U) [!]
+  source: ""
 - id: 91863
   kind: 2
   kind_id: 11295
@@ -52,6 +64,18 @@ releases:
     language: 1
     name: Felix the Cat (U) [!]
     source: ""
+  - id: 24616
+    kind: 3
+    kind_id: 11296
+    language: 1
+    name: Felix the Cat (U)
+    source: ""
+  - id: 69365
+    kind: 3
+    kind_id: 11296
+    language: 2
+    name: 菲力猫 (美版) (动作)-Felix the Cat (USA)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -64,7 +88,10 @@ releases:
       format: 2
       size: 132747
       blob_id: 0
-      debug: Felix the Cat (U) [!].zip
+      debug: |-
+        Felix the Cat (U) [!].zip
+        Felix the Cat (U).zip
+        菲力猫 (美版) (动作)-Felix the Cat (USA) + Felix the Cat (U) [!].nes
     entries:
     - id: 82674
       asset_id: 11278
@@ -539,34 +566,3 @@ releases:
       blob_id: 57276
       debug: Felix the Cat (U) [t2].nes
     entries: []
-- release:
-    id: 11315
-    game_id: 11295
-    description: ""
-    release_date: 0
-  names:
-  - id: 24616
-    kind: 3
-    kind_id: 11315
-    language: 1
-    name: Felix the Cat (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 11297
-      kind: 3
-      kind_id: 11315
-      type: 1
-      name: Felix the Cat (U).zip
-      description: ""
-      format: 2
-      size: 133270
-      blob_id: 0
-      debug: Felix the Cat (U).zip
-    entries:
-    - id: 82675
-      asset_id: 11297
-      name: Felix the Cat (U).nes
-      size: 262160
-      blob_id: 57258

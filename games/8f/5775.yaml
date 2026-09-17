@@ -4,6 +4,18 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 60875
+  kind: 2
+  kind_id: 5775
+  language: 2
+  name: 全美职业篮球赛 (美版) (运动)-All-Pro Basketball (USA)
+  source: ""
+- id: 60876
+  kind: 2
+  kind_id: 5775
+  language: 1
+  name: All-Pro Basketball (U) [!]
+  source: ""
 - id: 91246
   kind: 2
   kind_id: 5775
@@ -38,7 +50,10 @@ releases:
       format: 2
       size: 115942
       blob_id: 0
-      debug: All-Pro Basketball (U) [!].zip
+      debug: |-
+        All-Pro Basketball (U) [!].zip
+        全美职业篮球赛 (美版) (运动)-All-Pro Basketball (USA) + All-Pro Basketball (U) [!].nes
+        All-Pro Basketball (U).zip
     entries:
     - id: 82028
       asset_id: 5757
@@ -409,34 +424,3 @@ releases:
       blob_id: 52058
       debug: All-Pro Basketball (U) [o4].nes
     entries: []
-- release:
-    id: 5790
-    game_id: 5775
-    description: ""
-    release_date: 0
-  names:
-  - id: 11900
-    kind: 3
-    kind_id: 5790
-    language: 1
-    name: All-Pro Basketball (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 5772
-      kind: 3
-      kind_id: 5790
-      type: 1
-      name: All-Pro Basketball (U).zip
-      description: ""
-      format: 2
-      size: 116289
-      blob_id: 0
-      debug: All-Pro Basketball (U).zip
-    entries:
-    - id: 82029
-      asset_id: 5772
-      name: All-Pro Basketball (U).nes
-      size: 262160
-      blob_id: 52044

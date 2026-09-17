@@ -4,6 +4,18 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 72025
+  kind: 2
+  kind_id: 12293
+  language: 2
+  name: 魔鬼克星 (美版) (动作)-Ghostbusters (USA)
+  source: ""
+- id: 72026
+  kind: 2
+  kind_id: 12293
+  language: 1
+  name: Ghostbusters (U) [!]
+  source: ""
 - id: 91975
   kind: 2
   kind_id: 12293
@@ -78,6 +90,18 @@ releases:
     language: 1
     name: Ghostbusters (U) [!]
     source: ""
+  - id: 26996
+    kind: 3
+    kind_id: 12295
+    language: 1
+    name: Ghostbusters (U)
+    source: ""
+  - id: 72027
+    kind: 3
+    kind_id: 12295
+    language: 2
+    name: 魔鬼克星 (美版) (动作)-Ghostbusters (USA)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -90,7 +114,10 @@ releases:
       format: 2
       size: 31056
       blob_id: 0
-      debug: Ghostbusters (U) [!].zip
+      debug: |-
+        Ghostbusters (U) [!].zip
+        Ghostbusters (U).zip
+        魔鬼克星 (美版) (动作)-Ghostbusters (USA) + Ghostbusters (U) [!].nes
     entries:
     - id: 82789
       asset_id: 12277
@@ -175,34 +202,3 @@ releases:
       blob_id: 58205
       debug: Ghostbusters (U) [o2].nes
     entries: []
-- release:
-    id: 12299
-    game_id: 12293
-    description: ""
-    release_date: 0
-  names:
-  - id: 26996
-    kind: 3
-    kind_id: 12299
-    language: 1
-    name: Ghostbusters (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 12281
-      kind: 3
-      kind_id: 12299
-      type: 1
-      name: Ghostbusters (U).zip
-      description: ""
-      format: 2
-      size: 31100
-      blob_id: 0
-      debug: Ghostbusters (U).zip
-    entries:
-    - id: 82790
-      asset_id: 12281
-      name: Ghostbusters (U).nes
-      size: 65552
-      blob_id: 58202

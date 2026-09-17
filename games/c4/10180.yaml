@@ -4,6 +4,18 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 61831
+  kind: 2
+  kind_id: 10180
+  language: 2
+  name: "双重打击 (美版) (V1.1) (射击)-Double Strike - Aerial Attack Force (USA) (v1.1) (Unl)"
+  source: ""
+- id: 61832
+  kind: 2
+  kind_id: 10180
+  language: 1
+  name: Double Strike (AVE) (V1.1) [!]
+  source: ""
 - id: 91710
   kind: 2
   kind_id: 10180
@@ -52,6 +64,12 @@ releases:
     language: 1
     name: Double Strike (AVE) (V1.1) [b2]
     source: ""
+  - id: 21946
+    kind: 3
+    kind_id: 10181
+    language: 1
+    name: Double Strike (U) (V1.1)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -64,7 +82,9 @@ releases:
       format: 1
       size: 65552
       blob_id: 56215
-      debug: Double Strike (AVE) (V1.1) [b2].nes
+      debug: |-
+        Double Strike (AVE) (V1.1) [b2].nes
+        Double Strike (U) (V1.1).zip
     entries: []
 - release:
     id: 10182
@@ -145,37 +165,6 @@ releases:
       debug: Double Strike (AVE) (V1.1) [t1].nes
     entries: []
 - release:
-    id: 10185
-    game_id: 10180
-    description: ""
-    release_date: 0
-  names:
-  - id: 21946
-    kind: 3
-    kind_id: 10185
-    language: 1
-    name: Double Strike (U) (V1.1)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 10167
-      kind: 3
-      kind_id: 10185
-      type: 1
-      name: Double Strike (U) (V1.1).zip
-      description: ""
-      format: 2
-      size: 31673
-      blob_id: 0
-      debug: Double Strike (U) (V1.1).zip
-    entries:
-    - id: 82540
-      asset_id: 10167
-      name: Double Strike (U) (V1.1).nes
-      size: 65552
-      blob_id: 56215
-- release:
     id: 10186
     game_id: 10180
     description: ""
@@ -186,6 +175,18 @@ releases:
     kind_id: 10186
     language: 1
     name: Double Strike (Unl) [!p]
+    source: ""
+  - id: 61833
+    kind: 3
+    kind_id: 10186
+    language: 2
+    name: "双重打击 (美版) (V1.1) (射击)-Double Strike - Aerial Attack Force (USA) (v1.1) (Unl)"
+    source: ""
+  - id: 61834
+    kind: 3
+    kind_id: 10186
+    language: 1
+    name: Double Strike (AVE) (V1.1) [!]
     source: ""
   release_publishers: []
   assets:
@@ -199,7 +200,7 @@ releases:
       format: 2
       size: 31560
       blob_id: 0
-      debug: Double Strike (Unl) [!p].zip
+      debug: "Double Strike (Unl) [!p].zip\n双重打击 (美版) (V1.1) (射击)-Double Strike - Aerial Attack Force (USA) (v1.1) (Unl) + Double Strike (AVE) (V1.1) [!].nes"
     entries:
     - id: 82541
       asset_id: 10168

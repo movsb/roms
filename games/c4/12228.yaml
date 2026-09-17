@@ -18,7 +18,7 @@ releases:
     id: 12228
     game_id: 12228
     description: ""
-    release_date: 0
+    release_date: 19850801
   names:
   - id: 26838
     kind: 3
@@ -26,7 +26,15 @@ releases:
     language: 1
     name: Geimos (J) [!]
     source: ""
-  release_publishers: []
+  - id: 26842
+    kind: 3
+    kind_id: 12228
+    language: 1
+    name: Geimos (Japan)
+    source: ""
+  release_publishers:
+  - release_id: 12228
+    publisher_id: 161
   assets:
   - asset:
       id: 12210
@@ -38,7 +46,9 @@ releases:
       format: 1
       size: 40976
       blob_id: 58139
-      debug: Geimos (J) [!].nes
+      debug: |-
+        Geimos (J) [!].nes
+        Geimos (Japan).zip
     entries: []
 - release:
     id: 12229
@@ -71,34 +81,11 @@ releases:
     game_id: 12228
     description: ""
     release_date: 19850801
-  names:
-  - id: 26842
-    kind: 3
-    kind_id: 12230
-    language: 1
-    name: Geimos (Japan)
-    source: ""
+  names: []
   release_publishers:
   - release_id: 12230
     publisher_id: 161
   assets:
-  - asset:
-      id: 12212
-      kind: 3
-      kind_id: 12230
-      type: 1
-      name: Geimos (Japan).zip
-      description: ""
-      format: 2
-      size: 20123
-      blob_id: 0
-      debug: Geimos (Japan).zip
-    entries:
-    - id: 82777
-      asset_id: 12212
-      name: Geimos (Japan).nes
-      size: 40976
-      blob_id: 58139
   - asset:
       id: 38530
       kind: 3

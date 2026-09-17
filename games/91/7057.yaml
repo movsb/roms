@@ -278,7 +278,7 @@ releases:
     id: 7067
     game_id: 7057
     description: ""
-    release_date: 0
+    release_date: 19860603
   names:
   - id: 14784
     kind: 3
@@ -286,7 +286,15 @@ releases:
     language: 1
     name: Bird Week (J) [hM03]
     source: ""
-  release_publishers: []
+  - id: 14786
+    kind: 3
+    kind_id: 7067
+    language: 1
+    name: Bird Week (Japan)
+    source: ""
+  release_publishers:
+  - release_id: 7067
+    publisher_id: 146
   assets:
   - asset:
       id: 7049
@@ -298,41 +306,20 @@ releases:
       format: 1
       size: 32784
       blob_id: 53260
-      debug: Bird Week (J) [hM03].nes
+      debug: |-
+        Bird Week (J) [hM03].nes
+        Bird Week (Japan).zip
     entries: []
 - release:
     id: 7068
     game_id: 7057
     description: ""
     release_date: 19860603
-  names:
-  - id: 14786
-    kind: 3
-    kind_id: 7068
-    language: 1
-    name: Bird Week (Japan)
-    source: ""
+  names: []
   release_publishers:
   - release_id: 7068
     publisher_id: 146
   assets:
-  - asset:
-      id: 7050
-      kind: 3
-      kind_id: 7068
-      type: 1
-      name: Bird Week (Japan).zip
-      description: ""
-      format: 2
-      size: 15973
-      blob_id: 0
-      debug: Bird Week (Japan).zip
-    entries:
-    - id: 82198
-      asset_id: 7050
-      name: Bird Week (Japan).nes
-      size: 32784
-      blob_id: 53260
   - asset:
       id: 38403
       kind: 3

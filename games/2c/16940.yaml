@@ -4,6 +4,24 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 64723
+  kind: 2
+  kind_id: 16940
+  language: 2
+  name: 怪兽派对 (美版) (动作)-Monster Party (USA)
+  source: ""
+- id: 64724
+  kind: 2
+  kind_id: 16940
+  language: 1
+  name: Monster Party (U) [!]
+  source: ""
+- id: 64731
+  kind: 2
+  kind_id: 16940
+  language: 2
+  name: 怪物聚会
+  source: ""
 - id: 92547
   kind: 2
   kind_id: 16940
@@ -26,6 +44,24 @@ releases:
     language: 1
     name: Monster Party (U) [!]
     source: ""
+  - id: 37776
+    kind: 3
+    kind_id: 16940
+    language: 1
+    name: Monster Party (U)
+    source: ""
+  - id: 64725
+    kind: 3
+    kind_id: 16940
+    language: 2
+    name: 怪兽派对 (美版) (动作)-Monster Party (USA)
+    source: ""
+  - id: 64732
+    kind: 3
+    kind_id: 16940
+    language: 2
+    name: 怪物聚会
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -38,7 +74,11 @@ releases:
       format: 2
       size: 99641
       blob_id: 0
-      debug: Monster Party (U) [!].zip
+      debug: |-
+        Monster Party (U) [!].zip
+        Monster Party (U).zip
+        怪兽派对 (美版) (动作)-Monster Party (USA) + Monster Party (U) [!].nes
+        怪物聚会.zip
     entries:
     - id: 83385
       asset_id: 16922
@@ -201,34 +241,3 @@ releases:
       blob_id: 62562
       debug: Monster Party (U) [o1].nes
     entries: []
-- release:
-    id: 16947
-    game_id: 16940
-    description: ""
-    release_date: 0
-  names:
-  - id: 37776
-    kind: 3
-    kind_id: 16947
-    language: 1
-    name: Monster Party (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 16929
-      kind: 3
-      kind_id: 16947
-      type: 1
-      name: Monster Party (U).zip
-      description: ""
-      format: 2
-      size: 99988
-      blob_id: 0
-      debug: Monster Party (U).zip
-    entries:
-    - id: 83386
-      asset_id: 16929
-      name: Monster Party (U).nes
-      size: 262160
-      blob_id: 62556

@@ -18,15 +18,29 @@ releases:
     id: 26315
     game_id: 26315
     description: ""
-    release_date: 0
+    release_date: 19880101
   names:
+  - id: 58844
+    kind: 3
+    kind_id: 26315
+    language: 1
+    name: Ys (Japan) (Translated En)
+    source: ""
   - id: 84993
     kind: 3
     kind_id: 26315
     language: 1
     name: Ys (J) [T+EngR1_DMullen]
     source: ""
-  release_publishers: []
+  - id: 84994
+    kind: 3
+    kind_id: 26315
+    language: 1
+    name: Ys (J) [T+EngR1_David Mullen]
+    source: ""
+  release_publishers:
+  - release_id: 26315
+    publisher_id: 145
   assets:
   - asset:
       id: 26297
@@ -38,39 +52,16 @@ releases:
       format: 2
       size: 127980
       blob_id: 0
-      debug: Ys (J) [T+EngR1_DMullen].zip
+      debug: |-
+        Ys (J) [T+EngR1_DMullen].zip
+        Ys (J) [T+EngR1_David Mullen].nes
+        Ys (Japan) (Translated En).zip
     entries:
     - id: 84396
       asset_id: 26297
       name: Ys (J) [T+EngR1_DMullen].nes
       size: 262160
       blob_id: 71453
-- release:
-    id: 26316
-    game_id: 26315
-    description: ""
-    release_date: 0
-  names:
-  - id: 84994
-    kind: 3
-    kind_id: 26316
-    language: 1
-    name: Ys (J) [T+EngR1_David Mullen]
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 26298
-      kind: 3
-      kind_id: 26316
-      type: 1
-      name: Ys (J) [T+EngR1_David Mullen].nes
-      description: ""
-      format: 1
-      size: 262160
-      blob_id: 71453
-      debug: Ys (J) [T+EngR1_David Mullen].nes
-    entries: []
 - release:
     id: 26317
     game_id: 26315
@@ -388,34 +379,11 @@ releases:
     game_id: 26315
     description: ""
     release_date: 19880101
-  names:
-  - id: 58844
-    kind: 3
-    kind_id: 26329
-    language: 1
-    name: Ys (Japan) (Translated En)
-    source: ""
+  names: []
   release_publishers:
   - release_id: 26329
     publisher_id: 145
   assets:
-  - asset:
-      id: 26311
-      kind: 3
-      kind_id: 26329
-      type: 1
-      name: Ys (Japan) (Translated En).zip
-      description: ""
-      format: 2
-      size: 124744
-      blob_id: 0
-      debug: Ys (Japan) (Translated En).zip
-    entries:
-    - id: 84397
-      asset_id: 26311
-      name: Ys (Japan) (Translated En).nes
-      size: 262160
-      blob_id: 71453
   - asset:
       id: 38103
       kind: 3

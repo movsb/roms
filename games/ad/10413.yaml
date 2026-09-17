@@ -4,6 +4,12 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 63865
+  kind: 2
+  kind_id: 10413
+  language: 2
+  name: 屠龙战记
+  source: ""
 - id: 91729
   kind: 2
   kind_id: 10413
@@ -44,7 +50,7 @@ releases:
     id: 10414
     game_id: 10413
     description: ""
-    release_date: 0
+    release_date: 19870107
   names:
   - id: 22550
     kind: 3
@@ -52,7 +58,21 @@ releases:
     language: 1
     name: Dragon Buster (J) [!]
     source: ""
-  release_publishers: []
+  - id: 22562
+    kind: 3
+    kind_id: 10414
+    language: 1
+    name: Dragon Buster (Japan)
+    source: ""
+  - id: 63866
+    kind: 3
+    kind_id: 10414
+    language: 2
+    name: 屠龙战记
+    source: ""
+  release_publishers:
+  - release_id: 10414
+    publisher_id: 4
   assets:
   - asset:
       id: 10396
@@ -64,7 +84,10 @@ releases:
       format: 1
       size: 163856
       blob_id: 56430
-      debug: Dragon Buster (J) [!].nes
+      debug: |-
+        Dragon Buster (J) [!].nes
+        Dragon Buster (Japan).zip
+        屠龙战记.zip
     entries: []
 - release:
     id: 10415
@@ -175,34 +198,11 @@ releases:
     game_id: 10413
     description: ""
     release_date: 19870107
-  names:
-  - id: 22562
-    kind: 3
-    kind_id: 10419
-    language: 1
-    name: Dragon Buster (Japan)
-    source: ""
+  names: []
   release_publishers:
   - release_id: 10419
     publisher_id: 4
   assets:
-  - asset:
-      id: 10401
-      kind: 3
-      kind_id: 10419
-      type: 1
-      name: Dragon Buster (Japan).zip
-      description: ""
-      format: 2
-      size: 63754
-      blob_id: 0
-      debug: Dragon Buster (Japan).zip
-    entries:
-    - id: 82565
-      asset_id: 10401
-      name: Dragon Buster (Japan).nes
-      size: 163856
-      blob_id: 56430
   - asset:
       id: 37934
       kind: 3

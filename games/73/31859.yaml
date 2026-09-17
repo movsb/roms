@@ -18,7 +18,7 @@ releases:
     id: 31859
     game_id: 31859
     description: ""
-    release_date: 0
+    release_date: 20040524
   names:
   - id: 75185
     kind: 3
@@ -26,7 +26,15 @@ releases:
     language: 1
     name: Mario vs. Donkey Kong (U)(Venom)
     source: ""
-  release_publishers: []
+  - id: 75187
+    kind: 3
+    kind_id: 31859
+    language: 1
+    name: Mario vs. Donkey Kong (USA, Australia)
+    source: ""
+  release_publishers:
+  - release_id: 31859
+    publisher_id: 17
   assets:
   - asset:
       id: 31821
@@ -38,7 +46,10 @@ releases:
       format: 2
       size: 6980993
       blob_id: 0
-      debug: Mario vs. Donkey Kong (U)(Venom).zip
+      debug: |-
+        Mario vs. Donkey Kong (U)(Venom).zip
+        Mario vs. Donkey Kong (USA, Australia).zip
+        马里奥VS大金刚.zip
     entries:
     - id: 86711
       asset_id: 31821
@@ -50,36 +61,11 @@ releases:
     game_id: 31859
     description: ""
     release_date: 20040524
-  names:
-  - id: 75187
-    kind: 3
-    kind_id: 31860
-    language: 1
-    name: Mario vs. Donkey Kong (USA, Australia)
-    source: ""
+  names: []
   release_publishers:
   - release_id: 31860
     publisher_id: 17
   assets:
-  - asset:
-      id: 31822
-      kind: 3
-      kind_id: 31860
-      type: 1
-      name: Mario vs. Donkey Kong (USA, Australia).zip
-      description: ""
-      format: 2
-      size: 6944384
-      blob_id: 0
-      debug: |-
-        Mario vs. Donkey Kong (USA, Australia).zip
-        马里奥VS大金刚.zip
-    entries:
-    - id: 86712
-      asset_id: 31822
-      name: Mario vs. Donkey Kong (USA, Australia).gba
-      size: 16777216
-      blob_id: 75564
   - asset:
       id: 35194
       kind: 3

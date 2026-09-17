@@ -4,6 +4,18 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 63283
+  kind: 2
+  kind_id: 25927
+  language: 2
+  name: 威奇精灵 (美版) (动作)-Widget (USA)
+  source: ""
+- id: 63284
+  kind: 2
+  kind_id: 25927
+  language: 1
+  name: Widget (U) [!]
+  source: ""
 - id: 93556
   kind: 2
   kind_id: 25927
@@ -26,6 +38,18 @@ releases:
     language: 1
     name: Widget (U) [!]
     source: ""
+  - id: 57970
+    kind: 3
+    kind_id: 25927
+    language: 1
+    name: Widget (U)
+    source: ""
+  - id: 63285
+    kind: 3
+    kind_id: 25927
+    language: 2
+    name: 威奇精灵 (美版) (动作)-Widget (USA)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -38,7 +62,10 @@ releases:
       format: 2
       size: 119055
       blob_id: 0
-      debug: Widget (U) [!].zip
+      debug: |-
+        Widget (U) [!].zip
+        Widget (U).zip
+        威奇精灵 (美版) (动作)-Widget (USA) + Widget (U) [!].nes
     entries:
     - id: 84339
       asset_id: 25909
@@ -201,34 +228,3 @@ releases:
       blob_id: 71096
       debug: Widget (U) [t1].nes
     entries: []
-- release:
-    id: 25934
-    game_id: 25927
-    description: ""
-    release_date: 0
-  names:
-  - id: 57970
-    kind: 3
-    kind_id: 25934
-    language: 1
-    name: Widget (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 25916
-      kind: 3
-      kind_id: 25934
-      type: 1
-      name: Widget (U).zip
-      description: ""
-      format: 2
-      size: 119587
-      blob_id: 0
-      debug: Widget (U).zip
-    entries:
-    - id: 84340
-      asset_id: 25916
-      name: Widget (U).nes
-      size: 262160
-      blob_id: 71090

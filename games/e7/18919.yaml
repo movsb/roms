@@ -96,7 +96,7 @@ releases:
     id: 18922
     game_id: 18919
     description: ""
-    release_date: 0
+    release_date: 19920107
   names:
   - id: 42172
     kind: 3
@@ -104,7 +104,15 @@ releases:
     language: 1
     name: Pizza Pop! (J)
     source: ""
-  release_publishers: []
+  - id: 42174
+    kind: 3
+    kind_id: 18922
+    language: 1
+    name: Pizza Pop! (Japan)
+    source: ""
+  release_publishers:
+  - release_id: 18922
+    publisher_id: 71
   assets:
   - asset:
       id: 18904
@@ -116,41 +124,20 @@ releases:
       format: 1
       size: 262160
       blob_id: 64449
-      debug: Pizza Pop! (J).nes
+      debug: |-
+        Pizza Pop! (J).nes
+        Pizza Pop! (Japan).zip
     entries: []
 - release:
     id: 18923
     game_id: 18919
     description: ""
     release_date: 19920107
-  names:
-  - id: 42174
-    kind: 3
-    kind_id: 18923
-    language: 1
-    name: Pizza Pop! (Japan)
-    source: ""
+  names: []
   release_publishers:
   - release_id: 18923
     publisher_id: 71
   assets:
-  - asset:
-      id: 18905
-      kind: 3
-      kind_id: 18923
-      type: 1
-      name: Pizza Pop! (Japan).zip
-      description: ""
-      format: 2
-      size: 125974
-      blob_id: 0
-      debug: Pizza Pop! (Japan).zip
-    entries:
-    - id: 83568
-      asset_id: 18905
-      name: Pizza Pop! (Japan).nes
-      size: 262160
-      blob_id: 64449
   - asset:
       id: 37915
       kind: 3

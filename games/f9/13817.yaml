@@ -10,6 +10,18 @@ names:
   language: 1
   name: JACKAL
   source: ""
+- id: 69937
+  kind: 2
+  kind_id: 13817
+  language: 2
+  name: 赤色要塞（美版）
+  source: ""
+- id: 69938
+  kind: 2
+  kind_id: 13817
+  language: 1
+  name: Jackal (U) [!]
+  source: ""
 game_developers: []
 game_genres: []
 assets: []
@@ -26,6 +38,12 @@ releases:
     language: 1
     name: JACKAL
     source: ""
+  - id: 30546
+    kind: 3
+    kind_id: 13817
+    language: 1
+    name: Jackal (U)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -38,7 +56,9 @@ releases:
       format: 2
       size: 81309
       blob_id: 0
-      debug: JACKAL.zip
+      debug: |-
+        JACKAL.zip
+        Jackal (U).zip
     entries:
     - id: 82979
       asset_id: 13799
@@ -83,6 +103,12 @@ releases:
     language: 1
     name: Jackal (U) [!]
     source: ""
+  - id: 69939
+    kind: 3
+    kind_id: 13853
+    language: 2
+    name: 赤色要塞（美版）
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -95,7 +121,9 @@ releases:
       format: 2
       size: 81283
       blob_id: 0
-      debug: Jackal (U) [!].zip
+      debug: |-
+        Jackal (U) [!].zip
+        赤色要塞（美版） + Jackal (U) [!].nes
     entries:
     - id: 82985
       asset_id: 13835
@@ -466,34 +494,3 @@ releases:
       blob_id: 59686
       debug: Jackal (U) [t5].nes
     entries: []
-- release:
-    id: 13868
-    game_id: 13817
-    description: ""
-    release_date: 0
-  names:
-  - id: 30546
-    kind: 3
-    kind_id: 13868
-    language: 1
-    name: Jackal (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 13850
-      kind: 3
-      kind_id: 13868
-      type: 1
-      name: Jackal (U).zip
-      description: ""
-      format: 2
-      size: 81317
-      blob_id: 0
-      debug: Jackal (U).zip
-    entries:
-    - id: 82986
-      asset_id: 13850
-      name: Jackal (U).nes
-      size: 131088
-      blob_id: 59638

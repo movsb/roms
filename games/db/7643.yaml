@@ -18,15 +18,23 @@ releases:
     id: 7643
     game_id: 7643
     description: ""
-    release_date: 0
+    release_date: 19900202
   names:
+  - id: 16092
+    kind: 3
+    kind_id: 7643
+    language: 1
+    name: Cadillac (Japan) (Translated En)
+    source: ""
   - id: 82424
     kind: 3
     kind_id: 7643
     language: 1
     name: Cadillac (J) [T+Eng1.0_Gil Galad,Steve Martin]
     source: ""
-  release_publishers: []
+  release_publishers:
+  - release_id: 7643
+    publisher_id: 136
   assets:
   - asset:
       id: 7625
@@ -38,7 +46,9 @@ releases:
       format: 1
       size: 65552
       blob_id: 53804
-      debug: Cadillac (J) [T+Eng1.0_Gil Galad,Steve Martin].nes
+      debug: |-
+        Cadillac (J) [T+Eng1.0_Gil Galad,Steve Martin].nes
+        Cadillac (Japan) (Translated En).zip
     entries: []
 - release:
     id: 7644
@@ -123,34 +133,11 @@ releases:
     game_id: 7643
     description: ""
     release_date: 19900202
-  names:
-  - id: 16092
-    kind: 3
-    kind_id: 7647
-    language: 1
-    name: Cadillac (Japan) (Translated En)
-    source: ""
+  names: []
   release_publishers:
   - release_id: 7647
     publisher_id: 136
   assets:
-  - asset:
-      id: 7629
-      kind: 3
-      kind_id: 7647
-      type: 1
-      name: Cadillac (Japan) (Translated En).zip
-      description: ""
-      format: 2
-      size: 33283
-      blob_id: 0
-      debug: Cadillac (Japan) (Translated En).zip
-    entries:
-    - id: 82273
-      asset_id: 7629
-      name: Cadillac (Japan) (Translated En).nes
-      size: 65552
-      blob_id: 53804
   - asset:
       id: 38519
       kind: 3

@@ -1,7 +1,7 @@
 game:
   id: 31899
   platform_id: 5
-  description: ""
+  description: Now you can have all the 2D arcade action of Metal Slug in the palm of your hand, because Metal Slug Advance has arrived on the Game Boy Advance. Through five action-packed missions, you must move out on foot or in slug vehicles across rugged terrain and underwater bases. Your objective is to rescue hostages by destroying enemies and solving strategic puzzles. Completing your missions becomes easier when you collect more than 100 types of E-cards, which enhance your character's abilities.
   series_id: 0
 names:
 - id: 75264
@@ -10,15 +10,25 @@ names:
   language: 1
   name: "Metal Slug - Super Vehicle"
   source: ""
-game_developers: []
-game_genres: []
+- id: 75266
+  kind: 2
+  kind_id: 31899
+  language: 1
+  name: Metal Slug Advance (USA)
+  source: ""
+game_developers:
+- game_id: 31899
+  developer_id: 206
+game_genres:
+- game_id: 31899
+  genre_id: 5
 assets: []
 releases:
 - release:
     id: 31899
     game_id: 31899
     description: ""
-    release_date: 0
+    release_date: 20041102
   names:
   - id: 75265
     kind: 3
@@ -26,7 +36,15 @@ releases:
     language: 1
     name: "Metal Slug - Super Vehicle"
     source: ""
-  release_publishers: []
+  - id: 75267
+    kind: 3
+    kind_id: 31899
+    language: 1
+    name: Metal Slug Advance (USA)
+    source: ""
+  release_publishers:
+  - release_id: 31899
+    publisher_id: 108
   assets:
   - asset:
       id: 31861
@@ -38,10 +56,44 @@ releases:
       format: 2
       size: 3881512
       blob_id: 0
-      debug: "Metal Slug - Super Vehicle.zip"
+      debug: "Metal Slug - Super Vehicle.zip\nMetal Slug Advance (USA).zip"
     entries:
     - id: 86751
       asset_id: 31861
       name: "Metal Slug - Super Vehicle.gba"
       size: 8388608
       blob_id: 75602
+- release:
+    id: 31900
+    game_id: 31899
+    description: ""
+    release_date: 20041102
+  names: []
+  release_publishers:
+  - release_id: 31900
+    publisher_id: 108
+  assets:
+  - asset:
+      id: 35440
+      kind: 3
+      kind_id: 31900
+      type: 2
+      name: Metal Slug Advance (USA).png
+      description: ""
+      format: 1
+      size: 103765
+      blob_id: 79044
+      debug: gba/boxart/Metal Slug Advance (USA).png
+    entries: []
+  - asset:
+      id: 35441
+      kind: 3
+      kind_id: 31900
+      type: 6
+      name: Metal Slug Advance (USA).mp4
+      description: ""
+      format: 1
+      size: 2529959
+      blob_id: 78689
+      debug: gba/snap/Metal Slug Advance (USA).mp4
+    entries: []

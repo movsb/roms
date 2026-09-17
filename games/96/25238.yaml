@@ -44,7 +44,7 @@ releases:
     id: 25239
     game_id: 25238
     description: ""
-    release_date: 0
+    release_date: 19860104
   names:
   - id: 56406
     kind: 3
@@ -52,7 +52,15 @@ releases:
     language: 1
     name: TwinBee (J) [!]
     source: ""
-  release_publishers: []
+  - id: 56436
+    kind: 3
+    kind_id: 25239
+    language: 1
+    name: TwinBee (Japan)
+    source: ""
+  release_publishers:
+  - release_id: 25239
+    publisher_id: 2
   assets:
   - asset:
       id: 25221
@@ -64,7 +72,10 @@ releases:
       format: 1
       size: 49168
       blob_id: 70448
-      debug: TwinBee (J) [!].nes
+      debug: |-
+        TwinBee (J) [!].nes
+        TwinBee (Japan).zip
+        TwinBee (Japan)_2.zip
     entries: []
 - release:
     id: 25240
@@ -383,36 +394,11 @@ releases:
     game_id: 25238
     description: ""
     release_date: 19860104
-  names:
-  - id: 56436
-    kind: 3
-    kind_id: 25252
-    language: 1
-    name: TwinBee (Japan)
-    source: ""
+  names: []
   release_publishers:
   - release_id: 25252
     publisher_id: 2
   assets:
-  - asset:
-      id: 25234
-      kind: 3
-      kind_id: 25252
-      type: 1
-      name: TwinBee (Japan).zip
-      description: ""
-      format: 2
-      size: 29302
-      blob_id: 0
-      debug: |-
-        TwinBee (Japan).zip
-        TwinBee (Japan)_2.zip
-    entries:
-    - id: 84235
-      asset_id: 25234
-      name: TwinBee (Japan).nes
-      size: 49168
-      blob_id: 70448
   - asset:
       id: 38586
       kind: 3

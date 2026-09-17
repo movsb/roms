@@ -4,6 +4,12 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 62823
+  kind: 2
+  kind_id: 12099
+  language: 2
+  name: 大盗伍佑卫门2
+  source: ""
 - id: 91948
   kind: 2
   kind_id: 12099
@@ -18,15 +24,29 @@ releases:
     id: 12099
     game_id: 12099
     description: ""
-    release_date: 0
+    release_date: 19890104
   names:
+  - id: 26570
+    kind: 3
+    kind_id: 12099
+    language: 1
+    name: Ganbare Goemon 2 (Japan) (Translated En)
+    source: ""
+  - id: 62824
+    kind: 3
+    kind_id: 12099
+    language: 2
+    name: 大盗伍佑卫门2
+    source: ""
   - id: 83161
     kind: 3
     kind_id: 12099
     language: 1
     name: Ganbare Goemon 2 (J) [T+Eng1.02_Stardust Crusaders]
     source: ""
-  release_publishers: []
+  release_publishers:
+  - release_id: 12099
+    publisher_id: 2
   assets:
   - asset:
       id: 12081
@@ -38,7 +58,10 @@ releases:
       format: 1
       size: 262160
       blob_id: 58019
-      debug: Ganbare Goemon 2 (J) [T+Eng1.02_Stardust Crusaders].nes
+      debug: |-
+        Ganbare Goemon 2 (J) [T+Eng1.02_Stardust Crusaders].nes
+        Ganbare Goemon 2 (Japan) (Translated En).zip
+        大盗伍佑卫门2.zip
     entries: []
 - release:
     id: 12100
@@ -331,34 +354,11 @@ releases:
     game_id: 12099
     description: ""
     release_date: 19890104
-  names:
-  - id: 26570
-    kind: 3
-    kind_id: 12111
-    language: 1
-    name: Ganbare Goemon 2 (Japan) (Translated En)
-    source: ""
+  names: []
   release_publishers:
   - release_id: 12111
     publisher_id: 2
   assets:
-  - asset:
-      id: 12093
-      kind: 3
-      kind_id: 12111
-      type: 1
-      name: Ganbare Goemon 2 (Japan) (Translated En).zip
-      description: ""
-      format: 2
-      size: 158688
-      blob_id: 0
-      debug: Ganbare Goemon 2 (Japan) (Translated En).zip
-    entries:
-    - id: 82762
-      asset_id: 12093
-      name: Ganbare Goemon 2 (Japan) (Translated En).nes
-      size: 262160
-      blob_id: 58019
   - asset:
       id: 38448
       kind: 3

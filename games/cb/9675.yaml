@@ -18,15 +18,23 @@ releases:
     id: 9675
     game_id: 9675
     description: ""
-    release_date: 0
+    release_date: 19890425
   names:
+  - id: 20736
+    kind: 3
+    kind_id: 9675
+    language: 1
+    name: Devil Man (Japan) (Translated En)
+    source: ""
   - id: 82709
     kind: 3
     kind_id: 9675
     language: 1
     name: Devil Man (J) [T+Eng1.0_Snark]
     source: ""
-  release_publishers: []
+  release_publishers:
+  - release_id: 9675
+    publisher_id: 4
   assets:
   - asset:
       id: 9657
@@ -38,7 +46,9 @@ releases:
       format: 1
       size: 262160
       blob_id: 55740
-      debug: Devil Man (J) [T+Eng1.0_Snark].nes
+      debug: |-
+        Devil Man (J) [T+Eng1.0_Snark].nes
+        Devil Man (Japan) (Translated En).zip
     entries: []
 - release:
     id: 9676
@@ -149,34 +159,11 @@ releases:
     game_id: 9675
     description: ""
     release_date: 19890425
-  names:
-  - id: 20736
-    kind: 3
-    kind_id: 9680
-    language: 1
-    name: Devil Man (Japan) (Translated En)
-    source: ""
+  names: []
   release_publishers:
   - release_id: 9680
     publisher_id: 4
   assets:
-  - asset:
-      id: 9662
-      kind: 3
-      kind_id: 9680
-      type: 1
-      name: Devil Man (Japan) (Translated En).zip
-      description: ""
-      format: 2
-      size: 110847
-      blob_id: 0
-      debug: Devil Man (Japan) (Translated En).zip
-    entries:
-    - id: 82485
-      asset_id: 9662
-      name: Devil Man (Japan) (Translated En).nes
-      size: 262160
-      blob_id: 55740
   - asset:
       id: 38565
       kind: 3

@@ -4,6 +4,18 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 71353
+  kind: 2
+  kind_id: 24798
+  language: 2
+  name: 雷鸟神机队 (美版) (射击)-Thunderbirds (USA)
+  source: ""
+- id: 71354
+  kind: 2
+  kind_id: 24798
+  language: 1
+  name: Thunderbirds (U) [!]
+  source: ""
 - id: 93389
   kind: 2
   kind_id: 24798
@@ -78,6 +90,18 @@ releases:
     language: 1
     name: Thunderbirds (U) [!]
     source: ""
+  - id: 55410
+    kind: 3
+    kind_id: 24800
+    language: 1
+    name: Thunderbirds (U)
+    source: ""
+  - id: 71355
+    kind: 3
+    kind_id: 24800
+    language: 2
+    name: 雷鸟神机队 (美版) (射击)-Thunderbirds (USA)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -90,7 +114,10 @@ releases:
       format: 2
       size: 132252
       blob_id: 0
-      debug: Thunderbirds (U) [!].zip
+      debug: |-
+        Thunderbirds (U) [!].zip
+        Thunderbirds (U).zip
+        雷鸟神机队 (美版) (射击)-Thunderbirds (USA) + Thunderbirds (U) [!].nes
     entries:
     - id: 84150
       asset_id: 24782
@@ -201,34 +228,3 @@ releases:
       blob_id: 70058
       debug: Thunderbirds (U) [t1].nes
     entries: []
-- release:
-    id: 24805
-    game_id: 24798
-    description: ""
-    release_date: 0
-  names:
-  - id: 55410
-    kind: 3
-    kind_id: 24805
-    language: 1
-    name: Thunderbirds (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 24787
-      kind: 3
-      kind_id: 24805
-      type: 1
-      name: Thunderbirds (U).zip
-      description: ""
-      format: 2
-      size: 132764
-      blob_id: 0
-      debug: Thunderbirds (U).zip
-    entries:
-    - id: 84151
-      asset_id: 24787
-      name: Thunderbirds (U).nes
-      size: 262160
-      blob_id: 70054

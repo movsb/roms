@@ -4,6 +4,12 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 62447
+  kind: 2
+  kind_id: 13262
+  language: 2
+  name: 圣魔术师
+  source: ""
 - id: 92086
   kind: 2
   kind_id: 13262
@@ -18,15 +24,23 @@ releases:
     id: 13262
     game_id: 13262
     description: ""
-    release_date: 0
+    release_date: 19890428
   names:
+  - id: 29168
+    kind: 3
+    kind_id: 13262
+    language: 1
+    name: Holy Diver (Japan) (Translated En)
+    source: ""
   - id: 83299
     kind: 3
     kind_id: 13262
     language: 1
     name: Holy Diver (J) [T+Eng1.0_Monaco]
     source: ""
-  release_publishers: []
+  release_publishers:
+  - release_id: 13262
+    publisher_id: 131
   assets:
   - asset:
       id: 13244
@@ -38,7 +52,9 @@ releases:
       format: 1
       size: 262160
       blob_id: 59128
-      debug: Holy Diver (J) [T+Eng1.0_Monaco].nes
+      debug: |-
+        Holy Diver (J) [T+Eng1.0_Monaco].nes
+        Holy Diver (Japan) (Translated En).zip
     entries: []
 - release:
     id: 13263
@@ -260,6 +276,12 @@ releases:
     language: 1
     name: Holy Diver (J) [t3]
     source: ""
+  - id: 62448
+    kind: 3
+    kind_id: 13271
+    language: 2
+    name: 圣魔术师
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -272,41 +294,20 @@ releases:
       format: 1
       size: 262160
       blob_id: 59137
-      debug: Holy Diver (J) [t3].nes
+      debug: |-
+        Holy Diver (J) [t3].nes
+        圣魔术师.zip
     entries: []
 - release:
     id: 13272
     game_id: 13262
     description: ""
     release_date: 19890428
-  names:
-  - id: 29168
-    kind: 3
-    kind_id: 13272
-    language: 1
-    name: Holy Diver (Japan) (Translated En)
-    source: ""
+  names: []
   release_publishers:
   - release_id: 13272
     publisher_id: 131
   assets:
-  - asset:
-      id: 13254
-      kind: 3
-      kind_id: 13272
-      type: 1
-      name: Holy Diver (Japan) (Translated En).zip
-      description: ""
-      format: 2
-      size: 103093
-      blob_id: 0
-      debug: Holy Diver (Japan) (Translated En).zip
-    entries:
-    - id: 82894
-      asset_id: 13254
-      name: Holy Diver (Japan) (Translated En).nes
-      size: 262160
-      blob_id: 59128
   - asset:
       id: 38387
       kind: 3

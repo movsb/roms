@@ -10,6 +10,24 @@ names:
   language: 1
   name: Battle Tank
   source: ""
+- id: 64967
+  kind: 2
+  kind_id: 6790
+  language: 2
+  name: 战斗坦克 (美版) (模拟射击)-Battletank (USA)
+  source: ""
+- id: 64968
+  kind: 2
+  kind_id: 6790
+  language: 1
+  name: Battle Tank (U) [!]
+  source: ""
+- id: 64971
+  kind: 2
+  kind_id: 6790
+  language: 2
+  name: 战斗坦克
+  source: ""
 game_developers: []
 game_genres: []
 assets: []
@@ -26,6 +44,30 @@ releases:
     language: 1
     name: Battle Tank (U) [!]
     source: ""
+  - id: 14174
+    kind: 3
+    kind_id: 6784
+    language: 1
+    name: Battle Tank (U)
+    source: ""
+  - id: 14176
+    kind: 3
+    kind_id: 6784
+    language: 1
+    name: Battle Tank
+    source: ""
+  - id: 64969
+    kind: 3
+    kind_id: 6784
+    language: 2
+    name: 战斗坦克 (美版) (模拟射击)-Battletank (USA)
+    source: ""
+  - id: 64972
+    kind: 3
+    kind_id: 6784
+    language: 2
+    name: 战斗坦克
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -38,7 +80,12 @@ releases:
       format: 2
       size: 37764
       blob_id: 0
-      debug: Battle Tank (U) [!].zip
+      debug: |-
+        Battle Tank (U) [!].zip
+        Battle Tank (U).zip
+        Battle Tank.zip
+        战斗坦克 (美版) (模拟射击)-Battletank (USA) + Battle Tank (U) [!].nes
+        战斗坦克.zip
     entries:
     - id: 82146
       asset_id: 6766
@@ -135,6 +182,12 @@ releases:
     language: 1
     name: Battle Tank (U) [t1]
     source: ""
+  - id: 95197
+    kind: 3
+    kind_id: 6788
+    language: 2
+    name: 战斗坦克
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -147,67 +200,7 @@ releases:
       format: 1
       size: 65552
       blob_id: 53014
-      debug: Battle Tank (U) [t1].nes
+      debug: |-
+        Battle Tank (U) [t1].nes
+        战斗坦克_2.zip
     entries: []
-- release:
-    id: 6789
-    game_id: 6790
-    description: ""
-    release_date: 0
-  names:
-  - id: 14174
-    kind: 3
-    kind_id: 6789
-    language: 1
-    name: Battle Tank (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 6771
-      kind: 3
-      kind_id: 6789
-      type: 1
-      name: Battle Tank (U).zip
-      description: ""
-      format: 2
-      size: 37892
-      blob_id: 0
-      debug: Battle Tank (U).zip
-    entries:
-    - id: 82147
-      asset_id: 6771
-      name: Battle Tank (U).nes
-      size: 65552
-      blob_id: 53010
-- release:
-    id: 6790
-    game_id: 6790
-    description: ""
-    release_date: 0
-  names:
-  - id: 14176
-    kind: 3
-    kind_id: 6790
-    language: 1
-    name: Battle Tank
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 6772
-      kind: 3
-      kind_id: 6790
-      type: 1
-      name: Battle Tank.zip
-      description: ""
-      format: 2
-      size: 37884
-      blob_id: 0
-      debug: Battle Tank.zip
-    entries:
-    - id: 82148
-      asset_id: 6772
-      name: Battle Tank.nes
-      size: 65552
-      blob_id: 53010

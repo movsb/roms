@@ -4,6 +4,18 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 68499
+  kind: 2
+  kind_id: 21837
+  language: 2
+  name: 竞技运动场 (美版) (运动)-Stadium Events (USA)
+  source: ""
+- id: 68500
+  kind: 2
+  kind_id: 21837
+  language: 1
+  name: Stadium Events (U) [!]
+  source: ""
 - id: 93098
   kind: 2
   kind_id: 21837
@@ -26,6 +38,12 @@ releases:
     language: 1
     name: Stadium Events (U) [!]
     source: ""
+  - id: 68501
+    kind: 3
+    kind_id: 21837
+    language: 2
+    name: 竞技运动场 (美版) (运动)-Stadium Events (USA)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -38,7 +56,9 @@ releases:
       format: 2
       size: 33940
       blob_id: 0
-      debug: Stadium Events (U) [!].zip
+      debug: |-
+        Stadium Events (U) [!].zip
+        竞技运动场 (美版) (运动)-Stadium Events (USA) + Stadium Events (U) [!].nes
     entries:
     - id: 83918
       asset_id: 21819
@@ -109,6 +129,12 @@ releases:
     language: 1
     name: Stadium Events (U) [b2]
     source: ""
+  - id: 48638
+    kind: 3
+    kind_id: 21840
+    language: 1
+    name: Stadium Events (U)
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -121,36 +147,7 @@ releases:
       format: 1
       size: 65552
       blob_id: 67201
-      debug: Stadium Events (U) [b2].nes
+      debug: |-
+        Stadium Events (U) [b2].nes
+        Stadium Events (U).zip
     entries: []
-- release:
-    id: 21841
-    game_id: 21837
-    description: ""
-    release_date: 0
-  names:
-  - id: 48638
-    kind: 3
-    kind_id: 21841
-    language: 1
-    name: Stadium Events (U)
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 21823
-      kind: 3
-      kind_id: 21841
-      type: 1
-      name: Stadium Events (U).zip
-      description: ""
-      format: 2
-      size: 34043
-      blob_id: 0
-      debug: Stadium Events (U).zip
-    entries:
-    - id: 83919
-      asset_id: 21823
-      name: Stadium Events (U).nes
-      size: 65552
-      blob_id: 67201

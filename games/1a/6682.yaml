@@ -4,6 +4,18 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 14211
+  kind: 2
+  kind_id: 6682
+  language: 1
+  name: BattleCity
+  source: ""
+- id: 62539
+  kind: 2
+  kind_id: 6682
+  language: 2
+  name: 坦克大战
+  source: ""
 - id: 91342
   kind: 2
   kind_id: 6682
@@ -884,6 +896,24 @@ releases:
     language: 1
     name: Battle City (Japan)
     source: ""
+  - id: 14210
+    kind: 3
+    kind_id: 6715
+    language: 1
+    name: BattleCity (Japan)
+    source: ""
+  - id: 62541
+    kind: 3
+    kind_id: 6715
+    language: 2
+    name: 坦克大战
+    source: ""
+  - id: 62542
+    kind: 3
+    kind_id: 6715
+    language: 1
+    name: Battle City (J)
+    source: ""
   release_publishers:
   - release_id: 6715
     publisher_id: 4
@@ -898,7 +928,11 @@ releases:
       format: 2
       size: 15394
       blob_id: 0
-      debug: Battle City (Japan).zip
+      debug: |-
+        Battle City (Japan).zip
+        BattleCity (Japan).zip
+        坦克大战 + Battle City (J).nes
+        坦克大战.zip
     entries:
     - id: 82144
       asset_id: 6697
@@ -1044,4 +1078,99 @@ releases:
       size: 49168
       blob_id: 52945
       debug: Battle City (VS).nes
+    entries: []
+- release:
+    id: 6807
+    game_id: 6682
+    description: ""
+    release_date: 0
+  names:
+  - id: 14212
+    kind: 3
+    kind_id: 6807
+    language: 1
+    name: BattleCity
+    source: ""
+  release_publishers: []
+  assets:
+  - asset:
+      id: 6789
+      kind: 3
+      kind_id: 6807
+      type: 1
+      name: BattleCity.zip
+      description: ""
+      format: 2
+      size: 15562
+      blob_id: 0
+      debug: BattleCity.zip
+    entries:
+    - id: 82153
+      asset_id: 6789
+      name: BattleCity.nes
+      size: 24719
+      blob_id: 53027
+- release:
+    id: 27535
+    game_id: 6682
+    description: ""
+    release_date: 0
+  names:
+  - id: 85116
+    kind: 3
+    kind_id: 27535
+    language: 2
+    name: 坦克大战[ENTA汉化]
+    source: ""
+  - id: 85117
+    kind: 3
+    kind_id: 27535
+    language: 1
+    name: Battle City (J) [T+Chi][a3]
+    source: ""
+  release_publishers: []
+  assets:
+  - asset:
+      id: 27517
+      kind: 3
+      kind_id: 27535
+      type: 1
+      name: 坦克大战[ENTA汉化] + Battle City (J) [T+Chi][a3].nes
+      description: ""
+      format: 1
+      size: 24592
+      blob_id: 72349
+      debug: 坦克大战[ENTA汉化] + Battle City (J) [T+Chi][a3].nes
+    entries: []
+- release:
+    id: 27536
+    game_id: 6682
+    description: ""
+    release_date: 0
+  names:
+  - id: 62559
+    kind: 3
+    kind_id: 27536
+    language: 2
+    name: 坦克大战[郭元汉化]
+    source: ""
+  - id: 62560
+    kind: 3
+    kind_id: 27536
+    language: 1
+    name: Tank (Battle City Hack)
+    source: ""
+  release_publishers: []
+  assets:
+  - asset:
+      id: 27518
+      kind: 3
+      kind_id: 27536
+      type: 1
+      name: 坦克大战[郭元汉化] + Tank (Battle City Hack).nes
+      description: ""
+      format: 1
+      size: 24592
+      blob_id: 72350
+      debug: 坦克大战[郭元汉化] + Tank (Battle City Hack).nes
     entries: []

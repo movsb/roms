@@ -4,6 +4,12 @@ game:
   description: ""
   series_id: 0
 names:
+- id: 66193
+  kind: 2
+  kind_id: 13760
+  language: 2
+  name: 杀虫战记
+  source: ""
 - id: 92144
   kind: 2
   kind_id: 13760
@@ -18,15 +24,23 @@ releases:
     id: 13760
     game_id: 13760
     description: ""
-    release_date: 0
+    release_date: 19900921
   names:
+  - id: 30304
+    kind: 3
+    kind_id: 13760
+    language: 1
+    name: Insector X (Japan) (Translated En)
+    source: ""
   - id: 83374
     kind: 3
     kind_id: 13760
     language: 1
     name: Insector X (J) [T+Eng1.00_Stardust Crusaders]
     source: ""
-  release_publishers: []
+  release_publishers:
+  - release_id: 13760
+    publisher_id: 112
   assets:
   - asset:
       id: 13742
@@ -38,7 +52,9 @@ releases:
       format: 1
       size: 262160
       blob_id: 59588
-      debug: Insector X (J) [T+Eng1.00_Stardust Crusaders].nes
+      debug: |-
+        Insector X (J) [T+Eng1.00_Stardust Crusaders].nes
+        Insector X (Japan) (Translated En).zip
     entries: []
 - release:
     id: 13761
@@ -104,6 +120,12 @@ releases:
     language: 1
     name: Insector X (J) [o1]
     source: ""
+  - id: 66194
+    kind: 3
+    kind_id: 13763
+    language: 2
+    name: 杀虫战记
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -116,7 +138,9 @@ releases:
       format: 1
       size: 393232
       blob_id: 59591
-      debug: Insector X (J) [o1].nes
+      debug: |-
+        Insector X (J) [o1].nes
+        杀虫战记.zip
     entries: []
 - release:
     id: 13764
@@ -149,34 +173,11 @@ releases:
     game_id: 13760
     description: ""
     release_date: 19900921
-  names:
-  - id: 30304
-    kind: 3
-    kind_id: 13765
-    language: 1
-    name: Insector X (Japan) (Translated En)
-    source: ""
+  names: []
   release_publishers:
   - release_id: 13765
     publisher_id: 112
   assets:
-  - asset:
-      id: 13747
-      kind: 3
-      kind_id: 13765
-      type: 1
-      name: Insector X (Japan) (Translated En).zip
-      description: ""
-      format: 2
-      size: 93729
-      blob_id: 0
-      debug: Insector X (Japan) (Translated En).zip
-    entries:
-    - id: 82966
-      asset_id: 13747
-      name: Insector X (Japan) (Translated En).nes
-      size: 262160
-      blob_id: 59588
   - asset:
       id: 38192
       kind: 3
@@ -201,3 +202,34 @@ releases:
       blob_id: 81930
       debug: ""
     entries: []
+- release:
+    id: 28627
+    game_id: 13760
+    description: ""
+    release_date: 0
+  names:
+  - id: 95211
+    kind: 3
+    kind_id: 28627
+    language: 2
+    name: 杀虫战记
+    source: ""
+  release_publishers: []
+  assets:
+  - asset:
+      id: 28609
+      kind: 3
+      kind_id: 28627
+      type: 1
+      name: 杀虫战记.zip
+      description: ""
+      format: 2
+      size: 95892
+      blob_id: 0
+      debug: 杀虫战记_2.zip
+    entries:
+    - id: 84898
+      asset_id: 28609
+      name: 杀虫战记.nes
+      size: 262160
+      blob_id: 73075
