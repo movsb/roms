@@ -23,14 +23,14 @@ releases:
 - release:
     id: 9337
     game_id: 29321
-    description: ""
+    description: "两个版本属于不同作者的翻译版本，但是由于我本人不使用韩语版，所以暂时把它们放在一个发行版内了。\n\n9337 和 9338 是两套独立制作的韩文翻译，并不是同一补丁的新旧版本。\n\n| Release | 9337 | 9338 |\n|---|---|---|\n| 标记 | `T+Kor20051106_Project-G` | `T+Kor` |\n| 翻译者 | Project-G | 未注明 |\n| 日期 | 2005-11-06 | 未注明 |\n| Asset | 9319 | 9320 |\n| CRC32 | `f3646850` | `2d729b09` |\n| 镜像方式 | 垂直 | 水平 |\n| Mapper | 4 | 4 |\n| SRAM | 有 | 有 |\n\n二者直接比较：\n\n- 总计 38,148 字节不同\n- PRG 程序及文本：34,594 字节不同\n- CHR 字体及图形：3,553 字节不同\n- 主要变化集中在 PRG Bank 8、9，以及 CHR Bank 0、10、11\n- 大小均为 524,304 字节，没有 overdump\n\n更关键的是分别与日版原作比较：\n\n- 9337 Project-G：与日版有 35,184 字节不同\n- 9338 普通 `T+Kor`：与日版有 6,440 字节不同\n- 两套翻译对日版所作的修改中，只有 **37 个字节位置修改成了相同值**\n\n这说明 9337 不是在 9338 基础上继续完善的版本；它们几乎肯定采用了各自独立的字库、文本编码和程序修改方案。\n\n推断：\n\n- **9337**：Project-G 在 2005-11-06 发布的韩文化版本，修改规模较大，可能包含更完整的剧情、字库和排版改造。\n- **9338**：来源未知的另一套韩文化，修改规模明显较小，可能是菜单翻译、较早期翻译，或者使用了压缩程度更高的文本方案；仅凭差异量还不能断言完成度。\n- 9337 的垂直镜像头与日版不同，9338 则保留日版的水平镜像设置。不过 Mapper 4 可以在运行时切换镜像，因此不一定代表 9337 有问题。\n\n结论：两个发行版都应保留，不能合并为重复资源。名称可以整理为：\n\n- `韩文翻译版（Project-G，2005-11-06）`\n- `韩文翻译版（来源未知）`\n\n现有 ROM 目录也把它们列为两个不同韩文翻译版本。[NES Ninja 版本列表](https://nesninja.com/game/nes/dai-2-ji-super-robot-taisen/roms)"
     release_date: 0
   names:
-  - id: 242133
+  - id: 242135
     kind: 3
     kind_id: 9337
     language: 2
-    name: 韩文翻译版（Project-G，2005-11-06）
+    name: 韩版
     source: ""
   release_publishers: []
   assets:
@@ -46,24 +46,10 @@ releases:
       blob_id: 55424
       debug: "Dai-2-Ji - Super Robot Taisen (J) [T+Kor20051106_Project-G].nes"
     entries: []
-- release:
-    id: 9338
-    game_id: 29321
-    description: ""
-    release_date: 0
-  names:
-  - id: 242134
-    kind: 3
-    kind_id: 9338
-    language: 2
-    name: 韩文翻译版（来源未知）
-    source: ""
-  release_publishers: []
-  assets:
   - asset:
       id: 9320
       kind: 3
-      kind_id: 9338
+      kind_id: 9337
       type: 1
       name: "Dai-2-Ji - Super Robot Taisen (J) [T+Kor].nes"
       description: ""
@@ -73,42 +59,16 @@ releases:
       debug: "Dai-2-Ji - Super Robot Taisen (J) [T+Kor].nes"
     entries: []
 - release:
-    id: 9340
-    game_id: 29321
-    description: ""
-    release_date: 0
-  names:
-  - id: 19970
-    kind: 3
-    kind_id: 9340
-    language: 1
-    name: "Dai-2-Ji - Super Robot Taisen (J) [o1]"
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 9322
-      kind: 3
-      kind_id: 9340
-      type: 1
-      name: "Dai-2-Ji - Super Robot Taisen (J) [o1].nes"
-      description: ""
-      format: 1
-      size: 1048608
-      blob_id: 55427
-      debug: "Dai-2-Ji - Super Robot Taisen (J) [o1].nes"
-    entries: []
-- release:
     id: 9341
     game_id: 29321
-    description: ""
+    description: "6 个 PRG 差异实际上是三组两字节修改，而且正常版中的三处内容原本全部都是：\n\n```text\nE2 09\n```\n\n盗版版把它们改成：\n\n```text\n位置 1：00 00\n位置 2：00 00\n位置 3：01 00\n```\n\n具体位置：\n\n| 文件偏移 | PRG 偏移 | 正常版 | Pirate |\n|---:|---:|---|---|\n| `0x066D9` | `0x066C9` | `E2 09` | `00 00` |\n| `0x08E08` | `0x08DF8` | `E2 09` | `00 00` |\n| `0x15D3F` | `0x15D2F` | `E2 09` | `01 00` |\n\n全体 PRG 中恰好只有这三处 `E2 09`，Pirate 版把三处全部替换了，明显是一次有针对性的全局模式替换，不像随机读取错误。\n\n其中只有第二处位于可以可靠反汇编的 6502 程序代码中。\n\n正常版：\n\n```asm\nLDA ($18),Y\nBPL skip\nLDA $E2\nORA #$10\nSTA $E2\nskip:\nLDA $E3\nAND #$01\n```\n\nPirate 版：\n\n```asm\nLDA ($18),Y\nBPL skip\nLDA $00\nBRK          ; 后面的 $10 成为 BRK 的签名字节\nSTA $E2\nskip:\nLDA $E3\nAND #$01\n```\n\n实际变化是：\n\n```asm\n; 正常版\nLDA $E2\nORA #$10       ; 设置 $E2 的 bit 4\n\n; Pirate 版\nLDA $00\nBRK #$10       ; 触发软件中断\n```\n\n如果前面的 `BPL` 分支成立，这段差异会被完全跳过；只有分支不成立时才执行。因此正常游玩时可能很少触发，解释了 Pirate 版看起来基本相同。\n\n另外两处周围充满重复的 `09`、`0B`、`0F` 等字节，无法形成可信的 6502 指令流，更像压缩数据、脚本或查找表，不应强行反汇编。它们分别把同一个数据标记 `E2 09` 改成了 `00 00` 和 `01 00`。\n\n结论：这个 Pirate 版很可能用粗略的全局搜索替换修改了所有 `E2 09`。其中一处碰巧改变了真实程序逻辑，引入 `BRK` 软件中断；这可能是盗版卡带适配、保护绕过或特殊补丁机制，也可能带来某个罕见条件下的异常。它不是随机 bad dump，但修改方式很可疑。"
     release_date: 0
   names:
-  - id: 19972
+  - id: 242137
     kind: 3
     kind_id: 9341
-    language: 1
-    name: "Dai-2-Ji - Super Robot Taisen (J) [p1]"
+    language: 2
+    name: 日版（盗版）
     source: ""
   release_publishers: []
   assets:
@@ -136,6 +96,12 @@ releases:
     language: 1
     name: "Dai-2-Ji - Super Robot Taisen (J)"
     source: ""
+  - id: 242136
+    kind: 3
+    kind_id: 9342
+    language: 2
+    name: 日版
+    source: ""
   release_publishers: []
   assets:
   - asset:
@@ -149,32 +115,6 @@ releases:
       size: 524304
       blob_id: 55429
       debug: "Dai-2-Ji - Super Robot Taisen (J).nes"
-    entries: []
-- release:
-    id: 9343
-    game_id: 29321
-    description: ""
-    release_date: 0
-  names:
-  - id: 19976
-    kind: 3
-    kind_id: 9343
-    language: 1
-    name: "Dai-2-Ji - Super Robot Taisen (v100710) (Hack)"
-    source: ""
-  release_publishers: []
-  assets:
-  - asset:
-      id: 9325
-      kind: 3
-      kind_id: 9343
-      type: 1
-      name: "Dai-2-Ji - Super Robot Taisen (v100710) (Hack).nes"
-      description: ""
-      format: 1
-      size: 524304
-      blob_id: 55430
-      debug: "Dai-2-Ji - Super Robot Taisen (v100710) (Hack).nes"
     entries: []
 - release:
     id: 9370

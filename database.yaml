@@ -208372,6 +208372,18 @@ rom_import_exclusions:
   reason: 它是一个非常早期、非常不完整的英文民间翻译版。 AGTP 是 Aeon Genesis Translation Proclamation 的缩写；文件名里的 .6a 表示旧版翻译补丁版本，通常写作 0.6a，并不是游戏修订版。
   original_name: "Dai-2-Ji - Super Robot Taisen (J) [T+Eng.6a_AGTP].zip"
   created_at: 1791717179
+- id: 15
+  platform_id: 2
+  fingerprint: 0ee8a475e658da1ae5ac594c709dc765b6aef542c3fb41d4c52d817dd358d7b8
+  reason: overdump ，后面全部是空白字符
+  original_name: "Dai-2-Ji - Super Robot Taisen (J) [o1].nes"
+  created_at: 1791721502
+- id: 16
+  platform_id: 2
+  fingerprint: c5502cafb5b1eabb0aea8cdea88dcc529158f868a095ccc1f1305bab74160065
+  reason: unwanted 不知道是什么版本，看起来像是不显示中文的中文乱码版
+  original_name: "Dai-2-Ji - Super Robot Taisen (v100710) (Hack).nes"
+  created_at: 1791722042
 sqlite_sequence:
 - name: assets
   seq: 134957
@@ -208386,7 +208398,7 @@ sqlite_sequence:
 - name: genres
   seq: 96
 - name: names
-  seq: 242134
+  seq: 242138
 - name: options
   seq: 7
 - name: platforms
@@ -208396,7 +208408,7 @@ sqlite_sequence:
 - name: releases
   seq: 105297
 - name: rom_import_exclusions
-  seq: 14
+  seq: 16
 - name: rom_sets
   seq: 290078
 - name: series
