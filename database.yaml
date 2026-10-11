@@ -208414,6 +208414,12 @@ rom_import_exclusions:
   reason: overdump
   original_name: 2600 Bros (SMB1 Hack) [o1].nes
   created_at: 1791727894
+- id: 22
+  platform_id: 2
+  fingerprint: 7cccffb186e862d25cb47de8f6f82a08b7245525ba98fb6ecc9468d810eb2f88
+  reason: unwanted 看起来只有三目童子一个游戏可用
+  original_name: Well 7-in-1 (AB150) (from Pirate Mitsume ga Tooru) [p1].nes
+  created_at: 1791734979
 sqlite_sequence:
 - name: assets
   seq: 134957
@@ -208428,7 +208434,7 @@ sqlite_sequence:
 - name: genres
   seq: 96
 - name: names
-  seq: 242146
+  seq: 242147
 - name: options
   seq: 7
 - name: platforms
@@ -208438,7 +208444,7 @@ sqlite_sequence:
 - name: releases
   seq: 105297
 - name: rom_import_exclusions
-  seq: 21
+  seq: 22
 - name: rom_sets
   seq: 290078
 - name: series
