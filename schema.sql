@@ -82,6 +82,8 @@ CREATE TABLE `releases` (
 	`release_date` INTEGER NOT NULL
 );
 
+CREATE TABLE rom_import_exclusions (id INTEGER PRIMARY KEY AUTOINCREMENT, platform_id INTEGER NOT NULL, fingerprint TEXT NOT NULL, reason TEXT NOT NULL, original_name TEXT NOT NULL, created_at INTEGER NOT NULL, UNIQUE(platform_id,fingerprint));
+
 CREATE TABLE rom_sets (id INTEGER PRIMARY KEY AUTOINCREMENT, emulator TEXT NOT NULL, version TEXT NOT NULL, short_name TEXT NOT NULL, asset_id INTEGER NOT NULL, clone_of TEXT NOT NULL DEFAULT '', UNIQUE(emulator,version,short_name));
 
 CREATE TABLE series (id INTEGER PRIMARY KEY AUTOINCREMENT, description TEXT NOT NULL);
@@ -105,5 +107,7 @@ CREATE INDEX games_series_id ON games (series_id);
 CREATE INDEX names_kind_kind_id ON names (kind, kind_id);
 
 CREATE INDEX releases_game_id ON releases (game_id);
+
+CREATE INDEX rom_import_exclusions_platform_id ON rom_import_exclusions(platform_id);
 
 CREATE INDEX rom_sets_asset_id ON rom_sets(asset_id);

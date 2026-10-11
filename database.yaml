@@ -1,7 +1,7 @@
 options:
 - id: 1
   name: db_ver
-  value: "15"
+  value: "16"
 rom_sets:
 - id: 235950
   emulator: fbneo
@@ -208287,6 +208287,43 @@ rom_sets:
   short_name: zzyzzyxx2
   asset_id: 118447
   clone_of: zzyzzyxx
+rom_import_exclusions:
+- id: 1
+  platform_id: 2
+  fingerprint: d7fd43e62fad6f86feaaad6fb98001861737a63aa11b5a630b9a75b03558753c
+  reason: overdump
+  original_name: "Goonies 2, The - Fratelli Saigo no Chousen (J) [o1].nes"
+  created_at: 1791711882
+- id: 2
+  platform_id: 2
+  fingerprint: 9650b7249b9ffab66179273cb3bab27b74ff0d740f5d8bd49b1dc39a2f76365d
+  reason: bad_dump
+  original_name: "Goonies 2, The - Fratelli Saigo no Chousen (J) [b2].nes"
+  created_at: 1791712188
+- id: 3
+  platform_id: 2
+  fingerprint: c6c2fd6c6a29184b74e8fd1c8d221d3c3df813214a67356a41d7859d9472818e
+  reason: bad_dump
+  original_name: "Goonies 2, The - Fratelli Saigo no Chousen (J) [b1].nes"
+  created_at: 1791712194
+- id: 4
+  platform_id: 2
+  fingerprint: 36e337d09ac261b38e503b8f0e2d0e730b267eb94cdda66dcfa757e34601e9b2
+  reason: bad_dump
+  original_name: Goonies II, The (U) [b1].nes
+  created_at: 1791713669
+- id: 5
+  platform_id: 2
+  fingerprint: 82c3e983b3ec6ec2f039c23a5d61a32d8290a07430d107eaa9b79506f49113e3
+  reason: overdump
+  original_name: Goonies II, The (U) [o1].nes
+  created_at: 1791713673
+- id: 6
+  platform_id: 2
+  fingerprint: 3c8726c0192d5cea6732b3df12d1d8ae0a6ca5ea0b893b778296b3d134fa4590
+  reason: overdump
+  original_name: Goonies II, The (U) [o2].nes
+  created_at: 1791713677
 sqlite_sequence:
 - name: assets
   seq: 134957
@@ -208310,6 +208347,8 @@ sqlite_sequence:
   seq: 725
 - name: releases
   seq: 105297
+- name: rom_import_exclusions
+  seq: 6
 - name: rom_sets
   seq: 290078
 - name: series
