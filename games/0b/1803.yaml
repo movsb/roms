@@ -1,73 +1,57 @@
 game:
   id: 1803
   platform_id: 1
-  description: ""
-  series_id: 0
 names:
 - id: 3606
   kind: 2
   kind_id: 1803
   language: 1
   name: gigas
-  source: ""
-  deprecated: 0
 - id: 96445
   kind: 2
   kind_id: 1803
   language: 2
   name: 十亿 (MC-8123, 317-5002)
   source: trimui
-  deprecated: 0
 - id: 186851
   kind: 2
   kind_id: 1803
   language: 1
   name: gigasb
-  source: ""
-  deprecated: 0
 - id: 186852
   kind: 2
   kind_id: 1803
   language: 2
   name: 十亿 (D版)
   source: trimui
-  deprecated: 0
 - id: 194004
   kind: 2
   kind_id: 1803
   language: 1
   name: Oigas (bootleg)
   source: mame
-  deprecated: 0
 game_developers:
 - game_id: 1803
   developer_id: 110
 game_genres:
 - game_id: 1803
   genre_id: 4
-assets: []
 releases:
 - release:
     id: 1803
     game_id: 1803
-    description: ""
-    release_date: 0
   names:
   - id: 3607
     kind: 3
     kind_id: 1803
     language: 1
     name: gigas
-    source: ""
-    deprecated: 0
   - id: 99183
     kind: 3
     kind_id: 1803
     language: 2
     name: 十亿 (MC-8123, 317-5002)
     source: trimui
-    deprecated: 0
-  release_publishers: []
   assets:
   - asset:
       id: 1802
@@ -75,10 +59,8 @@ releases:
       kind_id: 1803
       type: 1
       name: gigas.zip
-      description: ""
       format: 2
       size: 174709
-      blob_id: 0
       debug: gigas.zip
     entries:
     - id: 29104
@@ -182,10 +164,8 @@ releases:
       kind_id: 1803
       type: 1
       name: gigas.zip
-      description: ""
       format: 2
       size: 79006
-      blob_id: 0
       debug: dat:mame:0.289
     entries:
     - id: 614765
@@ -269,7 +249,6 @@ releases:
       kind_id: 1803
       type: 9
       name: gigas.png
-      description: ""
       format: 1
       size: 1055
       blob_id: 317631
@@ -278,11 +257,9 @@ releases:
         repository=https://github.com/finalburnneo/FBNeo-extras
         revision=d61f692a027ad7bcbaccceda20e43ed47900dcda
         source=titles/gigas.png
-    entries: []
 - release:
     id: 90523
     game_id: 1803
-    description: ""
     release_date: 19860000
   names:
   - id: 220519
@@ -291,8 +268,6 @@ releases:
     language: 1
     name: Oigas (bootleg)
     source: mame
-    deprecated: 0
-  release_publishers: []
   assets:
   - asset:
       id: 105940
@@ -300,10 +275,8 @@ releases:
       kind_id: 90523
       type: 1
       name: oigas.zip
-      description: ""
       format: 2
       size: 75384
-      blob_id: 0
       debug: dat:mame:0.289
     entries:
     - id: 678574
@@ -379,7 +352,6 @@ releases:
 - release:
     id: 102941
     game_id: 1803
-    description: ""
     release_date: 19860000
   names:
   - id: 237668
@@ -387,15 +359,12 @@ releases:
     kind_id: 102941
     language: 1
     name: gigasb
-    source: ""
-    deprecated: 0
   - id: 237669
     kind: 3
     kind_id: 102941
     language: 2
     name: 十亿 (D版)
     source: trimui
-    deprecated: 0
   release_publishers:
   - release_id: 102941
     publisher_id: 56
@@ -406,10 +375,8 @@ releases:
       kind_id: 102941
       type: 1
       name: gigasb.zip
-      description: ""
       format: 2
       size: 101005
-      blob_id: 0
       debug: dat:mame:0.289
     entries:
     - id: 614780
@@ -488,7 +455,6 @@ releases:
       kind_id: 102941
       type: 9
       name: gigasb.png
-      description: ""
       format: 1
       size: 3325
       blob_id: 317630
@@ -497,4 +463,3 @@ releases:
         repository=https://github.com/finalburnneo/FBNeo-extras
         revision=d61f692a027ad7bcbaccceda20e43ed47900dcda
         source=titles/gigasb.png
-    entries: []

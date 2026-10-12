@@ -1,41 +1,27 @@
 game:
   id: 26649
   platform_id: 2
-  description: ""
-  series_id: 0
 names:
 - id: 59661
   kind: 2
   kind_id: 26649
   language: 2
   name: 七宝奇谋2
-  source: ""
-  deprecated: 0
 - id: 242123
   kind: 2
   kind_id: 26649
   language: 1
   name: The Goonies 2
-  source: ""
-  deprecated: 0
-game_developers: []
-game_genres: []
-assets: []
 releases:
 - release:
     id: 12492
     game_id: 26649
-    description: ""
-    release_date: 0
   names:
   - id: 242122
     kind: 3
     kind_id: 12492
     language: 2
     name: 美版
-    source: ""
-    deprecated: 0
-  release_publishers: []
   assets:
   - asset:
       id: 12474
@@ -43,10 +29,8 @@ releases:
       kind_id: 12492
       type: 1
       name: Goonies 2, The (U).zip
-      description: ""
       format: 2
       size: 85724
-      blob_id: 0
       debug: |-
         Goonies 2, The (U).zip
         Goonies II, The (U) [!].zip
@@ -61,38 +45,27 @@ releases:
 - release:
     id: 26648
     game_id: 26649
-    description: ""
-    release_date: 0
   names:
   - id: 242121
     kind: 3
     kind_id: 26648
     language: 2
     name: 日版
-    source: ""
-    deprecated: 0
   - id: 242124
     kind: 3
     kind_id: 26648
     language: 2
     name: 七宝奇谋2：弗拉特利家族最后的挑战
-    source: ""
-    deprecated: 0
   - id: 242125
     kind: 3
     kind_id: 26648
     language: 1
     name: "The Goonies 2 - Fratelli Saigo no Chousen"
-    source: ""
-    deprecated: 0
   - id: 242126
     kind: 3
     kind_id: 26648
     language: 3
     name: フラッテリー最後の挑戦
-    source: ""
-    deprecated: 0
-  release_publishers: []
   assets:
   - asset:
       id: 12475
@@ -100,38 +73,30 @@ releases:
       kind_id: 26648
       type: 1
       name: "Goonies 2, The - Fratelli Saigo no Chousen (J) (Prototype).nes"
-      description: ""
       format: 1
       size: 131088
       blob_id: 58389
       debug: "Goonies 2, The - Fratelli Saigo no Chousen (J) (Prototype).nes"
-    entries: []
   - asset:
       id: 26946
       kind: 3
       kind_id: 26648
       type: 1
       name: "Goonies 2, The - Fratelli Saigo no Chousen (J) [!].nes"
-      description: ""
       format: 1
       size: 131088
       blob_id: 71971
       debug: "信天翁2-最后的挑战.nes\n重复的/Goonies 2, The - Fratelli Saigo no Chousen (J) [!].nes"
-    entries: []
 - release:
     id: 26649
     game_id: 26649
     description: "这两个资源都是《七宝奇谋 2》，但不是同一个 ROM：\n\n| 资源 | 实际版本 | CRC32 |\n|---|---|---|\n| 12474 | `Goonies II, The (USA)` 美版原版 | `aa9ca482` |\n| 26631 | `Goonies II, The (Europe) [t4]` 欧版 Trainer 4 | `31295a3e` |\n\n其中 `aa9ca482` 可确认是 No-Intro 的美版原版校验值。[Romhack Plaza 校验资料](https://romhackplaza.org/translations/the-goonies-ii-spanish-translation-nes/)  \n`(E) [t4]` 在旧 ROM 命名中表示“欧版、训练/作弊修改第 4 版”。[NES Ninja 版本列表](https://nesninja.com/game/nes/goonies-ii.the/roms)\n\n字节比较结果：\n\n- 文件大小相同：131,088 字节\n- iNES 头完全相同\n- 两者都是 128 KiB PRG、使用 CHR RAM\n- 共 15,486 个字节不同\n- 差异主要集中在最后一个 32 KiB 程序区\n- 因为一个以美版为基础，另一个以欧版为基础并附加 Trainer，所以差异远大于上一组资源\n\n虽然代码差异很多，但关卡、画面和主要玩法仍是同一款游戏；地区差异及 Trainer 功能不一定在短时间正常游玩中明显出现。\n\n数据库归类也是合理的：\n\n- 12474 属于发行版 12492：美版原版\n- 26631 属于发行版 26649：欧版 Trainer 4\n- 两者都已经位于游戏 26649 `Goonies 2 / 七宝奇谋2` 下\n\n建议保留两个发行版，但把发行版 26649 的名称从笼统的“七宝奇谋2”改成“Goonies II (Europe) [Trainer 4] / 七宝奇谋2（欧版，训练版4）”。"
-    release_date: 0
   names:
   - id: 242120
     kind: 3
     kind_id: 26649
     language: 2
     name: 欧版
-    source: ""
-    deprecated: 0
-  release_publishers: []
   assets:
   - asset:
       id: 12479
@@ -139,55 +104,46 @@ releases:
       kind_id: 26649
       type: 1
       name: Goonies II, The (E) [!].nes
-      description: ""
       format: 1
       size: 131088
       blob_id: 58393
       debug: Goonies II, The (E) [!].nes
-    entries: []
   - asset:
       id: 12480
       kind: 3
       kind_id: 26649
       type: 1
       name: Goonies II, The (E) [t1].nes
-      description: ""
       format: 1
       size: 131088
       blob_id: 58394
       debug: Goonies II, The (E) [t1].nes
-    entries: []
   - asset:
       id: 12481
       kind: 3
       kind_id: 26649
       type: 1
       name: Goonies II, The (E) [t2].nes
-      description: ""
       format: 1
       size: 131088
       blob_id: 58395
       debug: Goonies II, The (E) [t2].nes
-    entries: []
   - asset:
       id: 12482
       kind: 3
       kind_id: 26649
       type: 1
       name: Goonies II, The (E) [t3].nes
-      description: ""
       format: 1
       size: 131088
       blob_id: 58396
       debug: Goonies II, The (E) [t3].nes
-    entries: []
   - asset:
       id: 26631
       kind: 3
       kind_id: 26649
       type: 1
       name: Goonies II, The (E) [t4].nes
-      description: ""
       format: 1
       size: 131088
       blob_id: 71755
@@ -195,4 +151,3 @@ releases:
         七宝奇谋2.nes
         重复的/Goonies II, The (E) [t4].nes
         七宝奇谋2_2.zip
-    entries: []

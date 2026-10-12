@@ -2,40 +2,27 @@ game:
   id: 23329
   platform_id: 2
   description: "不是同一款游戏，应该作为两个独立游戏保存。\n\n- **Spy Hunter（间谍猎人）**\n  - 原作是 Bally Midway 1983 年的街机游戏\n  - FC/NES 版由 Sunsoft 移植，1987 年在美国发行\n  - 属于原作的家用机移植版\n\n- **Super Spy Hunter（超级间谍猎人）**\n  - 1991 年首先在日本发行\n  - 日版正式名称是 **Battle Formula（バトルフォーミュラ，战斗方程式）**\n  - 欧美版取得了《Spy Hunter》授权，改名为 **Super Spy Hunter**\n  - 日本版和欧美版是同一款游戏的地区发行版，应当合并在一个游戏下\n\n关系比较特殊：欧美市场把 `Super Spy Hunter` 包装成《间谍猎人》的续作，但它最初是 Sunsoft 独立开发的 `Battle Formula`，并非为 Bally Midway 原作直接制作的正统续集。[GameFAQs 发行资料](https://gamefaqs.gamespot.com/nes/563466-super-spy-hunter/data)\n\n因此数据库建议：\n\n```text\n游戏一：Spy Hunter\n  └─ FC/NES 美版等发行版\n\n游戏二：Battle Formula / Super Spy Hunter\n  ├─ Battle Formula（日版）\n  ├─ Super Spy Hunter（美版）\n  └─ Super Spy Hunter（欧版等）\n```\n\n它们可以同时归入“Spy Hunter／间谍猎人”系列，但不要合并成同一个游戏。"
-  series_id: 0
 names:
 - id: 70291
   kind: 2
   kind_id: 23329
   language: 2
   name: 超级间谍猎人
-  source: ""
-  deprecated: 0
 - id: 93286
   kind: 2
   kind_id: 23329
   language: 1
   name: Super Spy Hunter
-  source: ""
-  deprecated: 0
-game_developers: []
-game_genres: []
-assets: []
 releases:
 - release:
     id: 6769
     game_id: 23329
-    description: ""
-    release_date: 0
   names:
   - id: 14134
     kind: 3
     kind_id: 6769
     language: 1
     name: Battle Formula (J) [b1]
-    source: ""
-    deprecated: 0
-  release_publishers: []
   assets:
   - asset:
       id: 6751
@@ -43,26 +30,19 @@ releases:
       kind_id: 6769
       type: 1
       name: Battle Formula (J) [b1].nes
-      description: ""
       format: 1
       size: 262160
       blob_id: 52995
       debug: Battle Formula (J) [b1].nes
-    entries: []
 - release:
     id: 6770
     game_id: 23329
-    description: ""
-    release_date: 0
   names:
   - id: 14136
     kind: 3
     kind_id: 6770
     language: 1
     name: Battle Formula (J) [t1]
-    source: ""
-    deprecated: 0
-  release_publishers: []
   assets:
   - asset:
       id: 6752
@@ -70,26 +50,19 @@ releases:
       kind_id: 6770
       type: 1
       name: Battle Formula (J) [t1].nes
-      description: ""
       format: 1
       size: 262160
       blob_id: 52996
       debug: Battle Formula (J) [t1].nes
-    entries: []
 - release:
     id: 23329
     game_id: 23329
-    description: ""
-    release_date: 0
   names:
   - id: 52080
     kind: 3
     kind_id: 23329
     language: 1
     name: Super Spy Hunter (E) [!]
-    source: ""
-    deprecated: 0
-  release_publishers: []
   assets:
   - asset:
       id: 23311
@@ -97,40 +70,29 @@ releases:
       kind_id: 23329
       type: 1
       name: Super Spy Hunter (E) [!].nes
-      description: ""
       format: 1
       size: 262160
       blob_id: 68624
       debug: Super Spy Hunter (E) [!].nes
-    entries: []
 - release:
     id: 23330
     game_id: 23329
-    description: ""
-    release_date: 0
   names:
   - id: 52082
     kind: 3
     kind_id: 23330
     language: 1
     name: Super Spy Hunter (U) [!]
-    source: ""
-    deprecated: 0
   - id: 70289
     kind: 3
     kind_id: 23330
     language: 2
     name: 超级间谍猎人(美版)
-    source: ""
-    deprecated: 0
   - id: 70292
     kind: 3
     kind_id: 23330
     language: 2
     name: 超级间谍猎人
-    source: ""
-    deprecated: 0
-  release_publishers: []
   assets:
   - asset:
       id: 23312
@@ -138,10 +100,8 @@ releases:
       kind_id: 23330
       type: 1
       name: Super Spy Hunter (U) [!].zip
-      description: ""
       format: 2
       size: 142125
-      blob_id: 0
       debug: |-
         Super Spy Hunter (U) [!].zip
         超级间谍猎人(美版) + Super Spy Hunter (U) [!].nes
@@ -155,17 +115,12 @@ releases:
 - release:
     id: 23331
     game_id: 23329
-    description: ""
-    release_date: 0
   names:
   - id: 52084
     kind: 3
     kind_id: 23331
     language: 1
     name: Super Spy Hunter (U) [b1]
-    source: ""
-    deprecated: 0
-  release_publishers: []
   assets:
   - asset:
       id: 23313
@@ -173,26 +128,19 @@ releases:
       kind_id: 23331
       type: 1
       name: Super Spy Hunter (U) [b1].nes
-      description: ""
       format: 1
       size: 262160
       blob_id: 68626
       debug: Super Spy Hunter (U) [b1].nes
-    entries: []
 - release:
     id: 23332
     game_id: 23329
-    description: ""
-    release_date: 0
   names:
   - id: 52086
     kind: 3
     kind_id: 23332
     language: 1
     name: Super Spy Hunter (U) [b2]
-    source: ""
-    deprecated: 0
-  release_publishers: []
   assets:
   - asset:
       id: 23314
@@ -200,26 +148,19 @@ releases:
       kind_id: 23332
       type: 1
       name: Super Spy Hunter (U) [b2].nes
-      description: ""
       format: 1
       size: 262160
       blob_id: 68627
       debug: Super Spy Hunter (U) [b2].nes
-    entries: []
 - release:
     id: 23333
     game_id: 23329
-    description: ""
-    release_date: 0
   names:
   - id: 52088
     kind: 3
     kind_id: 23333
     language: 1
     name: Super Spy Hunter (U) [o1]
-    source: ""
-    deprecated: 0
-  release_publishers: []
   assets:
   - asset:
       id: 23315
@@ -227,26 +168,19 @@ releases:
       kind_id: 23333
       type: 1
       name: Super Spy Hunter (U) [o1].nes
-      description: ""
       format: 1
       size: 262288
       blob_id: 68628
       debug: Super Spy Hunter (U) [o1].nes
-    entries: []
 - release:
     id: 23334
     game_id: 23329
-    description: ""
-    release_date: 0
   names:
   - id: 52090
     kind: 3
     kind_id: 23334
     language: 1
     name: Super Spy Hunter (U) [p1][!]
-    source: ""
-    deprecated: 0
-  release_publishers: []
   assets:
   - asset:
       id: 23316
@@ -254,26 +188,19 @@ releases:
       kind_id: 23334
       type: 1
       name: Super Spy Hunter (U) [p1][!].nes
-      description: ""
       format: 1
       size: 262160
       blob_id: 68629
       debug: Super Spy Hunter (U) [p1][!].nes
-    entries: []
 - release:
     id: 23335
     game_id: 23329
-    description: ""
-    release_date: 0
   names:
   - id: 52092
     kind: 3
     kind_id: 23335
     language: 1
     name: Super Spy Hunter (U) [t1]
-    source: ""
-    deprecated: 0
-  release_publishers: []
   assets:
   - asset:
       id: 23317
@@ -281,26 +208,19 @@ releases:
       kind_id: 23335
       type: 1
       name: Super Spy Hunter (U) [t1].nes
-      description: ""
       format: 1
       size: 262160
       blob_id: 68630
       debug: Super Spy Hunter (U) [t1].nes
-    entries: []
 - release:
     id: 23336
     game_id: 23329
-    description: ""
-    release_date: 0
   names:
   - id: 52094
     kind: 3
     kind_id: 23336
     language: 1
     name: Super Spy Hunter (U) [t2]
-    source: ""
-    deprecated: 0
-  release_publishers: []
   assets:
   - asset:
       id: 23318
@@ -308,26 +228,19 @@ releases:
       kind_id: 23336
       type: 1
       name: Super Spy Hunter (U) [t2].nes
-      description: ""
       format: 1
       size: 262160
       blob_id: 68631
       debug: Super Spy Hunter (U) [t2].nes
-    entries: []
 - release:
     id: 23337
     game_id: 23329
-    description: ""
-    release_date: 0
   names:
   - id: 52096
     kind: 3
     kind_id: 23337
     language: 1
     name: Super Spy Hunter (U) [t3]
-    source: ""
-    deprecated: 0
-  release_publishers: []
   assets:
   - asset:
       id: 23319
@@ -335,26 +248,19 @@ releases:
       kind_id: 23337
       type: 1
       name: Super Spy Hunter (U) [t3].nes
-      description: ""
       format: 1
       size: 262160
       blob_id: 68632
       debug: Super Spy Hunter (U) [t3].nes
-    entries: []
 - release:
     id: 23338
     game_id: 23329
-    description: ""
-    release_date: 0
   names:
   - id: 52098
     kind: 3
     kind_id: 23338
     language: 1
     name: Super Spy Hunter (U) [t4]
-    source: ""
-    deprecated: 0
-  release_publishers: []
   assets:
   - asset:
       id: 23320
@@ -362,33 +268,24 @@ releases:
       kind_id: 23338
       type: 1
       name: Super Spy Hunter (U) [t4].nes
-      description: ""
       format: 1
       size: 262160
       blob_id: 68633
       debug: Super Spy Hunter (U) [t4].nes
-    entries: []
 - release:
     id: 23339
     game_id: 23329
-    description: ""
-    release_date: 0
   names:
   - id: 52100
     kind: 3
     kind_id: 23339
     language: 1
     name: Super Spy Hunter (U) [t5]
-    source: ""
-    deprecated: 0
   - id: 95255
     kind: 3
     kind_id: 23339
     language: 2
     name: 超级间谍猎人
-    source: ""
-    deprecated: 0
-  release_publishers: []
   assets:
   - asset:
       id: 23321
@@ -396,28 +293,21 @@ releases:
       kind_id: 23339
       type: 1
       name: Super Spy Hunter (U) [t5].nes
-      description: ""
       format: 1
       size: 262160
       blob_id: 68634
       debug: |-
         Super Spy Hunter (U) [t5].nes
         超级间谍猎人_2.zip
-    entries: []
 - release:
     id: 23340
     game_id: 23329
-    description: ""
-    release_date: 0
   names:
   - id: 52102
     kind: 3
     kind_id: 23340
     language: 1
     name: Super Spy Hunter (U) [t6]
-    source: ""
-    deprecated: 0
-  release_publishers: []
   assets:
   - asset:
       id: 23322
@@ -425,26 +315,19 @@ releases:
       kind_id: 23340
       type: 1
       name: Super Spy Hunter (U) [t6].nes
-      description: ""
       format: 1
       size: 262160
       blob_id: 68635
       debug: Super Spy Hunter (U) [t6].nes
-    entries: []
 - release:
     id: 23341
     game_id: 23329
-    description: ""
-    release_date: 0
   names:
   - id: 52104
     kind: 3
     kind_id: 23341
     language: 1
     name: Super Spy Hunter (U) [t7]
-    source: ""
-    deprecated: 0
-  release_publishers: []
   assets:
   - asset:
       id: 23323
@@ -452,26 +335,19 @@ releases:
       kind_id: 23341
       type: 1
       name: Super Spy Hunter (U) [t7].nes
-      description: ""
       format: 1
       size: 262160
       blob_id: 68636
       debug: Super Spy Hunter (U) [t7].nes
-    entries: []
 - release:
     id: 23342
     game_id: 23329
-    description: ""
-    release_date: 0
   names:
   - id: 52106
     kind: 3
     kind_id: 23342
     language: 1
     name: Super Spy Hunter (U)
-    source: ""
-    deprecated: 0
-  release_publishers: []
   assets:
   - asset:
       id: 23324
@@ -479,10 +355,8 @@ releases:
       kind_id: 23342
       type: 1
       name: Super Spy Hunter (U).zip
-      description: ""
       format: 2
       size: 142435
-      blob_id: 0
       debug: Super Spy Hunter (U).zip
     entries:
     - id: 84042
@@ -493,24 +367,17 @@ releases:
 - release:
     id: 28275
     game_id: 23329
-    description: ""
-    release_date: 0
   names:
   - id: 64977
     kind: 3
     kind_id: 28275
     language: 2
     name: 战斗方程式赛车 (日版) (竞赛)-Battle Formula (Japan)
-    source: ""
-    deprecated: 0
   - id: 64978
     kind: 3
     kind_id: 28275
     language: 1
     name: Battle Formula (J)
-    source: ""
-    deprecated: 0
-  release_publishers: []
   assets:
   - asset:
       id: 28257
@@ -518,26 +385,19 @@ releases:
       kind_id: 28275
       type: 1
       name: 战斗方程式赛车 (日版) (竞赛)-Battle Formula (Japan) + Battle Formula (J).nes
-      description: ""
       format: 1
       size: 262160
       blob_id: 72831
       debug: 战斗方程式赛车 (日版) (竞赛)-Battle Formula (Japan) + Battle Formula (J).nes
-    entries: []
 - release:
     id: 29836
     game_id: 23329
-    description: ""
-    release_date: 0
   names:
   - id: 70286
     kind: 3
     kind_id: 29836
     language: 2
     name: 超级间谍猎人 (欧版) (动作)-Super Spy Hunter (Europe)
-    source: ""
-    deprecated: 0
-  release_publishers: []
   assets:
   - asset:
       id: 29818
@@ -545,9 +405,7 @@ releases:
       kind_id: 29836
       type: 1
       name: 超级间谍猎人 (欧版) (动作)-Super Spy Hunter (Europe).nes
-      description: ""
       format: 1
       size: 262160
       blob_id: 73828
       debug: 超级间谍猎人 (欧版) (动作)-Super Spy Hunter (Europe).nes
-    entries: []
