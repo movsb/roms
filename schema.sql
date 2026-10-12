@@ -54,7 +54,7 @@ CREATE TABLE `names` (
 	`kind_id` INTEGER NOT NULL, -- owner entity id.
 	`language` INTEGER NOT NULL,
 	`name` TEXT NOT NULL
-, source TEXT NOT NULL DEFAULT '');
+, source TEXT NOT NULL DEFAULT '', deprecated INTEGER NOT NULL DEFAULT 0);
 
 CREATE TABLE `options` (
     `id` INTEGER  PRIMARY KEY AUTOINCREMENT,
