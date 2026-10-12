@@ -1,7 +1,7 @@
 game:
   id: 23329
   platform_id: 2
-  description: ""
+  description: "不是同一款游戏，应该作为两个独立游戏保存。\n\n- **Spy Hunter（间谍猎人）**\n  - 原作是 Bally Midway 1983 年的街机游戏\n  - FC/NES 版由 Sunsoft 移植，1987 年在美国发行\n  - 属于原作的家用机移植版\n\n- **Super Spy Hunter（超级间谍猎人）**\n  - 1991 年首先在日本发行\n  - 日版正式名称是 **Battle Formula（バトルフォーミュラ，战斗方程式）**\n  - 欧美版取得了《Spy Hunter》授权，改名为 **Super Spy Hunter**\n  - 日本版和欧美版是同一款游戏的地区发行版，应当合并在一个游戏下\n\n关系比较特殊：欧美市场把 `Super Spy Hunter` 包装成《间谍猎人》的续作，但它最初是 Sunsoft 独立开发的 `Battle Formula`，并非为 Bally Midway 原作直接制作的正统续集。[GameFAQs 发行资料](https://gamefaqs.gamespot.com/nes/563466-super-spy-hunter/data)\n\n因此数据库建议：\n\n```text\n游戏一：Spy Hunter\n  └─ FC/NES 美版等发行版\n\n游戏二：Battle Formula / Super Spy Hunter\n  ├─ Battle Formula（日版）\n  ├─ Super Spy Hunter（美版）\n  └─ Super Spy Hunter（欧版等）\n```\n\n它们可以同时归入“Spy Hunter／间谍猎人”系列，但不要合并成同一个游戏。"
   series_id: 0
 names:
 - id: 70291
@@ -20,6 +20,58 @@ game_developers: []
 game_genres: []
 assets: []
 releases:
+- release:
+    id: 6769
+    game_id: 23329
+    description: ""
+    release_date: 0
+  names:
+  - id: 14134
+    kind: 3
+    kind_id: 6769
+    language: 1
+    name: Battle Formula (J) [b1]
+    source: ""
+  release_publishers: []
+  assets:
+  - asset:
+      id: 6751
+      kind: 3
+      kind_id: 6769
+      type: 1
+      name: Battle Formula (J) [b1].nes
+      description: ""
+      format: 1
+      size: 262160
+      blob_id: 52995
+      debug: Battle Formula (J) [b1].nes
+    entries: []
+- release:
+    id: 6770
+    game_id: 23329
+    description: ""
+    release_date: 0
+  names:
+  - id: 14136
+    kind: 3
+    kind_id: 6770
+    language: 1
+    name: Battle Formula (J) [t1]
+    source: ""
+  release_publishers: []
+  assets:
+  - asset:
+      id: 6752
+      kind: 3
+      kind_id: 6770
+      type: 1
+      name: Battle Formula (J) [t1].nes
+      description: ""
+      format: 1
+      size: 262160
+      blob_id: 52996
+      debug: Battle Formula (J) [t1].nes
+    entries: []
 - release:
     id: 23329
     game_id: 23329
@@ -417,3 +469,61 @@ releases:
       name: Super Spy Hunter (U).nes
       size: 262160
       blob_id: 68637
+- release:
+    id: 28275
+    game_id: 23329
+    description: ""
+    release_date: 0
+  names:
+  - id: 64977
+    kind: 3
+    kind_id: 28275
+    language: 2
+    name: 战斗方程式赛车 (日版) (竞赛)-Battle Formula (Japan)
+    source: ""
+  - id: 64978
+    kind: 3
+    kind_id: 28275
+    language: 1
+    name: Battle Formula (J)
+    source: ""
+  release_publishers: []
+  assets:
+  - asset:
+      id: 28257
+      kind: 3
+      kind_id: 28275
+      type: 1
+      name: 战斗方程式赛车 (日版) (竞赛)-Battle Formula (Japan) + Battle Formula (J).nes
+      description: ""
+      format: 1
+      size: 262160
+      blob_id: 72831
+      debug: 战斗方程式赛车 (日版) (竞赛)-Battle Formula (Japan) + Battle Formula (J).nes
+    entries: []
+- release:
+    id: 29836
+    game_id: 23329
+    description: ""
+    release_date: 0
+  names:
+  - id: 70286
+    kind: 3
+    kind_id: 29836
+    language: 2
+    name: 超级间谍猎人 (欧版) (动作)-Super Spy Hunter (Europe)
+    source: ""
+  release_publishers: []
+  assets:
+  - asset:
+      id: 29818
+      kind: 3
+      kind_id: 29836
+      type: 1
+      name: 超级间谍猎人 (欧版) (动作)-Super Spy Hunter (Europe).nes
+      description: ""
+      format: 1
+      size: 262160
+      blob_id: 73828
+      debug: 超级间谍猎人 (欧版) (动作)-Super Spy Hunter (Europe).nes
+    entries: []
