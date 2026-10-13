@@ -47,27 +47,13 @@ releases:
 - release:
     id: 20989
     game_id: 29732
+    release_type: 1
   names:
-  - id: 46770
-    kind: 3
-    kind_id: 20989
-    language: 1
-    name: Shadow of the Ninja (U) [!]
-  - id: 46790
-    kind: 3
-    kind_id: 20989
-    language: 1
-    name: Shadow of the Ninja (U)
-  - id: 46794
-    kind: 3
-    kind_id: 20989
-    language: 1
-    name: Shadow_of_the_ninja
-  - id: 69897
+  - id: 242220
     kind: 3
     kind_id: 20989
     language: 2
-    name: 赤影战士 (美版) (动作)-Shadow of the Ninja (USA)
+    name: 美版
   assets:
   - asset:
       id: 20971
@@ -129,26 +115,6 @@ releases:
       blob_id: 66411
       debug: Shadow of the Ninja (U) [T+Por].nes
 - release:
-    id: 20995
-    game_id: 29732
-  names:
-  - id: 46786
-    kind: 3
-    kind_id: 20995
-    language: 1
-    name: Shadow of the Ninja (U) [o1]
-  assets:
-  - asset:
-      id: 20977
-      kind: 3
-      kind_id: 20995
-      type: 1
-      name: Shadow of the Ninja (U) [o1].nes
-      format: 1
-      size: 262288
-      blob_id: 66415
-      debug: Shadow of the Ninja (U) [o1].nes
-- release:
     id: 20996
     game_id: 29732
   names:
@@ -191,49 +157,51 @@ releases:
 - release:
     id: 29729
     game_id: 29732
+    release_type: 2
   names:
-  - id: 85267
+  - id: 242219
     kind: 3
     kind_id: 29729
     language: 2
-    name: 赤影战士 (小字版)[来福汉化]
-  - id: 85268
-    kind: 3
-    kind_id: 29729
-    language: 1
-    name: Blue Shadow (E) [T+Chi]
+    name: 欧版，来福汉化（小字版）
   assets:
   - asset:
       id: 29711
       kind: 3
       kind_id: 29729
       type: 1
-      name: 赤影战士 (小字版)[来福汉化] + Blue Shadow (E) [T+Chi].nes
+      name: Blue Shadow (E) [T+Chi].nes
       format: 1
       size: 262160
       blob_id: 73759
       debug: 赤影战士 (小字版)[来福汉化] + Blue Shadow (E) [T+Chi].nes
+  - asset:
+      id: 134965
+      kind: 3
+      kind_id: 29729
+      type: 9
+      name: Blue Shadow (E) [T+Chi]-261014-024839.png
+      format: 1
+      size: 1470
+      blob_id: 321662
+      debug: fbui:retroarch-screenshot
 - release:
     id: 29730
     game_id: 29732
+    release_type: 1
   names:
-  - id: 69893
+  - id: 242218
     kind: 3
     kind_id: 29730
     language: 2
-    name: 赤影战士 (欧版) (动作)-Blue Shadow (Europe)
-  - id: 69894
-    kind: 3
-    kind_id: 29730
-    language: 1
-    name: Blue Shadow (E) [!]
+    name: 欧版
   assets:
   - asset:
       id: 29712
       kind: 3
       kind_id: 29730
       type: 1
-      name: 赤影战士 (欧版) (动作)-Blue Shadow (Europe) + Blue Shadow (E) [!].nes
+      name: Blue Shadow (E) [!].nes
       format: 1
       size: 262160
       blob_id: 73760
@@ -241,24 +209,20 @@ releases:
 - release:
     id: 29732
     game_id: 29732
+    release_type: 1
   names:
-  - id: 69901
+  - id: 242216
     kind: 3
     kind_id: 29732
     language: 2
-    name: 赤影战士
-  - id: 69902
-    kind: 3
-    kind_id: 29732
-    language: 1
-    name: Kage (J) [!]
+    name: 日本原版
   assets:
   - asset:
       id: 29714
       kind: 3
       kind_id: 29732
       type: 1
-      name: 赤影战士 + Kage (J) [!].nes
+      name: Kage (J) [!].nes
       format: 1
       size: 262160
       blob_id: 73761
@@ -267,36 +231,43 @@ releases:
     id: 29733
     game_id: 29732
   names:
-  - id: 85269
+  - id: 242215
     kind: 3
     kind_id: 29733
     language: 2
-    name: 赤影战士(中文)
-  - id: 85270
-    kind: 3
-    kind_id: 29733
-    language: 1
-    name: Kage (J) [T+Chi_Xingkong]
+    name: 星空汉化 v2.0
   assets:
   - asset:
       id: 29715
       kind: 3
       kind_id: 29733
       type: 1
-      name: 赤影战士(中文) + Kage (J) [T+Chi_Xingkong].nes
+      name: Kage (J) [T+Chi_Xingkong].nes
       format: 1
       size: 270352
       blob_id: 73762
       debug: 赤影战士(中文) + Kage (J) [T+Chi_Xingkong].nes
+  - asset:
+      id: 134964
+      kind: 3
+      kind_id: 29733
+      type: 9
+      name: Kage (J) [T+Chi_Xingkong]-261014-021930.png
+      format: 1
+      size: 3262
+      blob_id: 321661
+      debug: fbui:retroarch-screenshot
 - release:
     id: 29734
     game_id: 29732
+    release_date: 20020000
+    release_type: 2
   names:
-  - id: 69910
+  - id: 242214
     kind: 3
     kind_id: 29734
     language: 2
-    name: 赤影战士
+    name: GXB汉化
   assets:
   - asset:
       id: 29716
@@ -348,6 +319,7 @@ releases:
 - release:
     id: 29737
     game_id: 29732
+    release_type: 3
   names:
   - id: 69916
     kind: 3
@@ -373,6 +345,7 @@ releases:
 - release:
     id: 29738
     game_id: 29732
+    release_type: 3
   names:
   - id: 242213
     kind: 3

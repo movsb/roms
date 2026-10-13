@@ -80,7 +80,7 @@ CREATE TABLE `releases` (
 	`game_id` INTEGER NOT NULL,
 	`description` TEXT NOT NULL,
 	`release_date` INTEGER NOT NULL
-);
+, release_type INTEGER NOT NULL DEFAULT 0);
 
 CREATE TABLE rom_import_exclusions (id INTEGER PRIMARY KEY AUTOINCREMENT, platform_id INTEGER NOT NULL, fingerprint TEXT NOT NULL, reason TEXT NOT NULL, original_name TEXT NOT NULL, created_at INTEGER NOT NULL, UNIQUE(platform_id,fingerprint));
 

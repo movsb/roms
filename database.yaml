@@ -1,7 +1,7 @@
 options:
 - id: 1
   name: db_ver
-  value: "17"
+  value: "18"
 rom_sets:
 - id: 235950
   emulator: fbneo
@@ -195004,11 +195004,17 @@ rom_import_exclusions:
   reason: bad_dump
   original_name: Shadow of the Ninja (U) [b3].nes
   created_at: 1791904235
+- id: 31
+  platform_id: 2
+  fingerprint: 4b7a4d8199349b897412b6bec21f4e5334e572677d4e7f1fe94f36ba11df0cd7
+  reason: overdump
+  original_name: Shadow of the Ninja (U) [o1].nes
+  created_at: 1791917251
 sqlite_sequence:
 - name: assets
-  seq: 134962
+  seq: 134965
 - name: blobs
-  seq: 321659
+  seq: 321662
 - name: developers
   seq: 753
 - name: entries
@@ -195018,7 +195024,7 @@ sqlite_sequence:
 - name: genres
   seq: 96
 - name: names
-  seq: 242213
+  seq: 242220
 - name: options
   seq: 7
 - name: platforms
@@ -195028,7 +195034,7 @@ sqlite_sequence:
 - name: releases
   seq: 105297
 - name: rom_import_exclusions
-  seq: 30
+  seq: 31
 - name: rom_sets
   seq: 290078
 - name: series
