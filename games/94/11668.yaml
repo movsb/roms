@@ -18,6 +18,7 @@ names:
   kind_id: 11668
   language: 2
   name: 空中魂斗罗
+  deprecated: 1
 - id: 242169
   kind: 2
   kind_id: 11668
@@ -563,46 +564,6 @@ releases:
       blob_id: 65919
       debug: "S.C.A.T. - Special Cybernetic Attack Team (U) [T+Rus_Shedevr].nes"
 - release:
-    id: 20479
-    game_id: 11668
-  names:
-  - id: 45634
-    kind: 3
-    kind_id: 20479
-    language: 1
-    name: "S.C.A.T. - Special Cybernetic Attack Team (U) [b1]"
-  assets:
-  - asset:
-      id: 20461
-      kind: 3
-      kind_id: 20479
-      type: 1
-      name: "S.C.A.T. - Special Cybernetic Attack Team (U) [b1].nes"
-      format: 1
-      size: 262160
-      blob_id: 65920
-      debug: "S.C.A.T. - Special Cybernetic Attack Team (U) [b1].nes"
-- release:
-    id: 20480
-    game_id: 11668
-  names:
-  - id: 45636
-    kind: 3
-    kind_id: 20480
-    language: 1
-    name: "S.C.A.T. - Special Cybernetic Attack Team (U) [b2]"
-  assets:
-  - asset:
-      id: 20462
-      kind: 3
-      kind_id: 20480
-      type: 1
-      name: "S.C.A.T. - Special Cybernetic Attack Team (U) [b2].nes"
-      format: 1
-      size: 262160
-      blob_id: 65921
-      debug: "S.C.A.T. - Special Cybernetic Attack Team (U) [b2].nes"
-- release:
     id: 20481
     game_id: 11668
   names:
@@ -715,25 +676,46 @@ releases:
 - release:
     id: 30262
     game_id: 11668
+    release_type: 1
   names:
-  - id: 71709
+  - id: 242229
     kind: 3
     kind_id: 30262
     language: 2
-    name: 空中魂斗罗
-  - id: 71710
-    kind: 3
-    kind_id: 30262
-    language: 1
-    name: Final Mission (J) [!]
+    name: 日版
   assets:
   - asset:
       id: 30244
       kind: 3
       kind_id: 30262
       type: 1
-      name: 空中魂斗罗 + Final Mission (J) [!].nes
+      name: Final Mission (J) [!].nes
       format: 1
       size: 262160
       blob_id: 74096
       debug: 魂斗罗/空中魂斗罗 + Final Mission (J) [!].nes
+- release:
+    id: 30264
+    game_id: 11668
+  names:
+  - id: 71714
+    kind: 3
+    kind_id: 30264
+    language: 2
+    name: 空中魂斗罗可视化
+  assets:
+  - asset:
+      id: 30246
+      kind: 3
+      kind_id: 30264
+      type: 1
+      name: 空中魂斗罗可视化.zip
+      format: 2
+      size: 129433
+      debug: 魂斗罗/空中魂斗罗可视化.zip
+    entries:
+    - id: 85280
+      asset_id: 30246
+      name: 空中魂斗罗可视化.nes
+      size: 524304
+      blob_id: 74097
