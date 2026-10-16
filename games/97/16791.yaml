@@ -16,6 +16,7 @@ releases:
 - release:
     id: 16791
     game_id: 16791
+    release_type: 2
   names:
   - id: 83897
     kind: 3
@@ -36,6 +37,7 @@ releases:
 - release:
     id: 16792
     game_id: 16791
+    release_type: 2
   names:
   - id: 83898
     kind: 3
@@ -56,12 +58,19 @@ releases:
 - release:
     id: 16793
     game_id: 16791
+    description: 条目 16808 的 PRG/CHR 主体与 JEFF.MA 汉化版完全一致，已归并并保留 ROM。
+    release_type: 2
   names:
   - id: 83899
     kind: 3
     kind_id: 16793
     language: 1
     name: Mitsume ga Tooru (J) [T+Chi_JEFF.MA]
+  - id: 83908
+    kind: 3
+    kind_id: 16793
+    language: 1
+    name: Mitsume ga Tooru (J) [o1][T+Chi]
   assets:
   - asset:
       id: 16775
@@ -73,9 +82,20 @@ releases:
       size: 262160
       blob_id: 62414
       debug: Mitsume ga Tooru (J) [T+Chi_JEFF.MA].nes
+  - asset:
+      id: 16790
+      kind: 3
+      kind_id: 16793
+      type: 1
+      name: Mitsume ga Tooru (J) [o1][T+Chi].nes
+      format: 1
+      size: 786464
+      blob_id: 62428
+      debug: Mitsume ga Tooru (J) [o1][T+Chi].nes
 - release:
     id: 16794
     game_id: 16791
+    release_type: 2
   names:
   - id: 83900
     kind: 3
@@ -96,12 +116,18 @@ releases:
 - release:
     id: 16795
     game_id: 16791
+    release_type: 2
   names:
   - id: 83901
     kind: 3
     kind_id: 16795
     language: 1
     name: Mitsume ga Tooru (J) [T+Chi_Xingkong]
+  - id: 83902
+    kind: 3
+    kind_id: 16795
+    language: 1
+    name: Mitsume ga Tooru (J) [T+Chi_Xingkong][a1]
   assets:
   - asset:
       id: 16777
@@ -113,20 +139,10 @@ releases:
       size: 278544
       blob_id: 62416
       debug: Mitsume ga Tooru (J) [T+Chi_Xingkong].nes
-- release:
-    id: 16796
-    game_id: 16791
-  names:
-  - id: 83902
-    kind: 3
-    kind_id: 16796
-    language: 1
-    name: Mitsume ga Tooru (J) [T+Chi_Xingkong][a1]
-  assets:
   - asset:
       id: 16778
       kind: 3
-      kind_id: 16796
+      kind_id: 16795
       type: 1
       name: Mitsume ga Tooru (J) [T+Chi_Xingkong][a1].nes
       format: 1
@@ -136,6 +152,7 @@ releases:
 - release:
     id: 16797
     game_id: 16791
+    release_type: 2
   names:
   - id: 83903
     kind: 3
@@ -156,6 +173,7 @@ releases:
 - release:
     id: 16798
     game_id: 16791
+    release_type: 2
   names:
   - id: 83904
     kind: 3
@@ -178,12 +196,18 @@ releases:
 - release:
     id: 16800
     game_id: 16791
+    release_type: 2
   names:
   - id: 83906
     kind: 3
     kind_id: 16800
     language: 1
     name: Mitsume ga Tooru (J) [T+Rus_Alex S]
+  - id: 83907
+    kind: 3
+    kind_id: 16800
+    language: 1
+    name: Mitsume ga Tooru (J) [T+Rus_Alex S][a1]
   assets:
   - asset:
       id: 16782
@@ -195,20 +219,10 @@ releases:
       size: 262160
       blob_id: 62420
       debug: Mitsume ga Tooru (J) [T+Rus_Alex S].nes
-- release:
-    id: 16801
-    game_id: 16791
-  names:
-  - id: 83907
-    kind: 3
-    kind_id: 16801
-    language: 1
-    name: Mitsume ga Tooru (J) [T+Rus_Alex S][a1]
-  assets:
   - asset:
       id: 16783
       kind: 3
-      kind_id: 16801
+      kind_id: 16800
       type: 1
       name: Mitsume ga Tooru (J) [T+Rus_Alex S][a1].nes
       format: 1
@@ -218,12 +232,23 @@ releases:
 - release:
     id: 16802
     game_id: 16791
+    release_type: 2
   names:
   - id: 37452
     kind: 3
     kind_id: 16802
     language: 1
     name: Mitsume ga Tooru (J) [T-Chi_Flow Wolf]
+  - id: 37454
+    kind: 3
+    kind_id: 16802
+    language: 1
+    name: Mitsume ga Tooru (J) [T-Chi_Flow Wolf][a1]
+  - id: 37456
+    kind: 3
+    kind_id: 16802
+    language: 1
+    name: Mitsume ga Tooru (J) [T-Chi_Flow Wolf][o1]
   assets:
   - asset:
       id: 16784
@@ -235,40 +260,20 @@ releases:
       size: 262160
       blob_id: 62422
       debug: Mitsume ga Tooru (J) [T-Chi_Flow Wolf].nes
-- release:
-    id: 16803
-    game_id: 16791
-  names:
-  - id: 37454
-    kind: 3
-    kind_id: 16803
-    language: 1
-    name: Mitsume ga Tooru (J) [T-Chi_Flow Wolf][a1]
-  assets:
   - asset:
       id: 16785
       kind: 3
-      kind_id: 16803
+      kind_id: 16802
       type: 1
       name: Mitsume ga Tooru (J) [T-Chi_Flow Wolf][a1].nes
       format: 1
       size: 786464
       blob_id: 62423
       debug: Mitsume ga Tooru (J) [T-Chi_Flow Wolf][a1].nes
-- release:
-    id: 16804
-    game_id: 16791
-  names:
-  - id: 37456
-    kind: 3
-    kind_id: 16804
-    language: 1
-    name: Mitsume ga Tooru (J) [T-Chi_Flow Wolf][o1]
-  assets:
   - asset:
       id: 16786
       kind: 3
-      kind_id: 16804
+      kind_id: 16802
       type: 1
       name: Mitsume ga Tooru (J) [T-Chi_Flow Wolf][o1].nes
       format: 1
@@ -278,13 +283,20 @@ releases:
 - release:
     id: 16805
     game_id: 16791
+    description: 条目 16809 的 PRG/CHR 主体与此翻译版完全一致，仅文件附加数据等有差别，已归并并保留 ROM。
     release_date: 19920717
+    release_type: 2
   names:
   - id: 37458
     kind: 3
     kind_id: 16805
     language: 1
     name: Mitsume ga Tooru (J) [T-Eng1.01_Toma]
+  - id: 37468
+    kind: 3
+    kind_id: 16805
+    language: 1
+    name: Mitsume ga Tooru (J) [o1][T-Eng1.01_Toma]
   - id: 37490
     kind: 3
     kind_id: 16805
@@ -306,9 +318,20 @@ releases:
       debug: |-
         Mitsume ga Tooru (J) [T-Eng1.01_Toma].nes
         Mitsume ga Tooru (Japan) (Translated En).zip
+  - asset:
+      id: 16791
+      kind: 3
+      kind_id: 16805
+      type: 1
+      name: Mitsume ga Tooru (J) [o1][T-Eng1.01_Toma].nes
+      format: 1
+      size: 262288
+      blob_id: 62429
+      debug: Mitsume ga Tooru (J) [o1][T-Eng1.01_Toma].nes
 - release:
     id: 16806
     game_id: 16791
+    release_type: 2
   names:
   - id: 37460
     kind: 3
@@ -327,88 +350,9 @@ releases:
       blob_id: 62426
       debug: Mitsume ga Tooru (J) [T-Rus_Alex S].nes
 - release:
-    id: 16807
-    game_id: 16791
-  names:
-  - id: 37462
-    kind: 3
-    kind_id: 16807
-    language: 1
-    name: Mitsume ga Tooru (J) [o1]
-  assets:
-  - asset:
-      id: 16789
-      kind: 3
-      kind_id: 16807
-      type: 1
-      name: Mitsume ga Tooru (J) [o1].nes
-      format: 1
-      size: 262288
-      blob_id: 62427
-      debug: Mitsume ga Tooru (J) [o1].nes
-- release:
-    id: 16808
-    game_id: 16791
-  names:
-  - id: 83908
-    kind: 3
-    kind_id: 16808
-    language: 1
-    name: Mitsume ga Tooru (J) [o1][T+Chi]
-  assets:
-  - asset:
-      id: 16790
-      kind: 3
-      kind_id: 16808
-      type: 1
-      name: Mitsume ga Tooru (J) [o1][T+Chi].nes
-      format: 1
-      size: 786464
-      blob_id: 62428
-      debug: Mitsume ga Tooru (J) [o1][T+Chi].nes
-- release:
-    id: 16809
-    game_id: 16791
-  names:
-  - id: 37468
-    kind: 3
-    kind_id: 16809
-    language: 1
-    name: Mitsume ga Tooru (J) [o1][T-Eng1.01_Toma]
-  assets:
-  - asset:
-      id: 16791
-      kind: 3
-      kind_id: 16809
-      type: 1
-      name: Mitsume ga Tooru (J) [o1][T-Eng1.01_Toma].nes
-      format: 1
-      size: 262288
-      blob_id: 62429
-      debug: Mitsume ga Tooru (J) [o1][T-Eng1.01_Toma].nes
-- release:
-    id: 16810
-    game_id: 16791
-  names:
-  - id: 37470
-    kind: 3
-    kind_id: 16810
-    language: 1
-    name: Mitsume ga Tooru (J) [o2]
-  assets:
-  - asset:
-      id: 16792
-      kind: 3
-      kind_id: 16810
-      type: 1
-      name: Mitsume ga Tooru (J) [o2].nes
-      format: 1
-      size: 786464
-      blob_id: 62430
-      debug: Mitsume ga Tooru (J) [o2].nes
-- release:
     id: 16811
     game_id: 16791
+    release_type: 3
   names:
   - id: 37472
     kind: 3
@@ -436,6 +380,7 @@ releases:
 - release:
     id: 16812
     game_id: 16791
+    release_type: 3
   names:
   - id: 37474
     kind: 3
@@ -456,6 +401,7 @@ releases:
 - release:
     id: 16813
     game_id: 16791
+    release_type: 3
   names:
   - id: 37476
     kind: 3
@@ -476,6 +422,7 @@ releases:
 - release:
     id: 16814
     game_id: 16791
+    release_type: 3
   names:
   - id: 37478
     kind: 3
@@ -496,6 +443,7 @@ releases:
 - release:
     id: 16815
     game_id: 16791
+    release_type: 3
   names:
   - id: 37480
     kind: 3
@@ -516,6 +464,7 @@ releases:
 - release:
     id: 16816
     game_id: 16791
+    release_type: 3
   names:
   - id: 37482
     kind: 3
@@ -536,6 +485,7 @@ releases:
 - release:
     id: 16817
     game_id: 16791
+    release_type: 3
   names:
   - id: 37484
     kind: 3
@@ -556,6 +506,7 @@ releases:
 - release:
     id: 16818
     game_id: 16791
+    release_type: 3
   names:
   - id: 37486
     kind: 3
@@ -576,6 +527,7 @@ releases:
 - release:
     id: 16819
     game_id: 16791
+    release_type: 3
   names:
   - id: 37488
     kind: 3
@@ -594,34 +546,9 @@ releases:
       blob_id: 62439
       debug: Mitsume ga Tooru (J) [t7].nes
 - release:
-    id: 16820
-    game_id: 16791
-    release_date: 19920717
-  release_publishers:
-  - release_id: 16820
-    publisher_id: 144
-  assets:
-  - asset:
-      id: 38099
-      kind: 3
-      kind_id: 16820
-      type: 6
-      name: Mitsume ga Tooru (Japan) (Translated En).mp4
-      format: 1
-      size: 2076170
-      blob_id: 81836
-  - asset:
-      id: 38100
-      kind: 3
-      kind_id: 16820
-      type: 7
-      name: Mitsume ga Tooru (Japan) (Translated En).png
-      format: 1
-      size: 33140
-      blob_id: 81837
-- release:
     id: 16821
     game_id: 16791
+    release_type: 3
   names:
   - id: 37492
     kind: 3
@@ -640,33 +567,9 @@ releases:
       blob_id: 62440
       debug: "Mitsume ga Tooru - Bosozo Edition by ivex (Hack).nes"
 - release:
-    id: 26707
-    game_id: 16791
-  names:
-  - id: 59858
-    kind: 3
-    kind_id: 26707
-    language: 2
-    name: 三目童子
-  assets:
-  - asset:
-      id: 26689
-      kind: 3
-      kind_id: 26707
-      type: 1
-      name: 三目童子.zip
-      format: 2
-      size: 135761
-      debug: 三目童子.zip
-    entries:
-    - id: 84449
-      asset_id: 26689
-      name: 三目童子.nes
-      size: 786464
-      blob_id: 71795
-- release:
     id: 26708
     game_id: 16791
+    release_type: 2
   names:
   - id: 59860
     kind: 3
@@ -692,6 +595,7 @@ releases:
 - release:
     id: 26709
     game_id: 16791
+    release_type: 2
   names:
   - id: 59862
     kind: 3
@@ -717,6 +621,7 @@ releases:
 - release:
     id: 26710
     game_id: 16791
+    release_type: 3
   names:
   - id: 59864
     kind: 3
@@ -742,6 +647,7 @@ releases:
 - release:
     id: 26712
     game_id: 16791
+    release_type: 3
   names:
   - id: 59869
     kind: 3
@@ -767,24 +673,22 @@ releases:
 - release:
     id: 26713
     game_id: 16791
+    description: |
+
+    release_type: 1
   names:
-  - id: 59873
+  - id: 242256
     kind: 3
     kind_id: 26713
     language: 2
-    name: 三眼神童 (日版) (动作)-Mitsume ga Tooru (Japan)
-  - id: 59874
-    kind: 3
-    kind_id: 26713
-    language: 1
-    name: Mitsume ga Tooru (J)
+    name: 日版
   assets:
   - asset:
       id: 26695
       kind: 3
       kind_id: 26713
       type: 1
-      name: 三眼神童 (日版) (动作)-Mitsume ga Tooru (Japan) + Mitsume ga Tooru (J).nes
+      name: Mitsume ga Tooru (J).nes
       format: 1
       size: 262160
       blob_id: 71800

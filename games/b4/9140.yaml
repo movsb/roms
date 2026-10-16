@@ -22,12 +22,18 @@ releases:
 - release:
     id: 9015
     game_id: 9140
+    release_type: 3
   names:
   - id: 19172
     kind: 3
     kind_id: 9015
     language: 1
     name: Contra (Beta) [t1]
+  - id: 19174
+    kind: 3
+    kind_id: 9015
+    language: 1
+    name: Contra (Beta) [t1][o1]
   assets:
   - asset:
       id: 8997
@@ -39,20 +45,10 @@ releases:
       size: 131088
       blob_id: 55122
       debug: Contra (Beta) [t1].nes
-- release:
-    id: 9016
-    game_id: 9140
-  names:
-  - id: 19174
-    kind: 3
-    kind_id: 9016
-    language: 1
-    name: Contra (Beta) [t1][o1]
-  assets:
   - asset:
       id: 8998
       kind: 3
-      kind_id: 9016
+      kind_id: 9015
       type: 1
       name: Contra (Beta) [t1][o1].nes
       format: 1
@@ -62,6 +58,8 @@ releases:
 - release:
     id: 9017
     game_id: 9140
+    description: 此版本来源及具体改动尚未确认，暂归其他；不可仅凭 CN、Ch/Wxn、KC 或 R 命名标记视作官方地区原版。
+    release_type: 4
   names:
   - id: 19176
     kind: 3
@@ -87,6 +85,8 @@ releases:
 - release:
     id: 9018
     game_id: 9140
+    description: 此版本来源及具体改动尚未确认，暂归其他；不可仅凭 CN、Ch/Wxn、KC 或 R 命名标记视作官方地区原版。
+    release_type: 4
   names:
   - id: 19178
     kind: 3
@@ -107,12 +107,23 @@ releases:
 - release:
     id: 9019
     game_id: 9140
+    release_type: 2
   names:
   - id: 82595
     kind: 3
     kind_id: 9019
     language: 1
     name: Contra (J) [T+Chi]
+  - id: 82596
+    kind: 3
+    kind_id: 9019
+    language: 1
+    name: Contra (J) [T+Chi][a1]
+  - id: 82597
+    kind: 3
+    kind_id: 9019
+    language: 1
+    name: Contra (J) [T+Chi][a2]
   assets:
   - asset:
       id: 9001
@@ -124,40 +135,20 @@ releases:
       size: 262160
       blob_id: 55126
       debug: Contra (J) [T+Chi].nes
-- release:
-    id: 9020
-    game_id: 9140
-  names:
-  - id: 82596
-    kind: 3
-    kind_id: 9020
-    language: 1
-    name: Contra (J) [T+Chi][a1]
-  assets:
   - asset:
       id: 9002
       kind: 3
-      kind_id: 9020
+      kind_id: 9019
       type: 1
       name: Contra (J) [T+Chi][a1].nes
       format: 1
       size: 262160
       blob_id: 55127
       debug: Contra (J) [T+Chi][a1].nes
-- release:
-    id: 9021
-    game_id: 9140
-  names:
-  - id: 82597
-    kind: 3
-    kind_id: 9021
-    language: 1
-    name: Contra (J) [T+Chi][a2]
-  assets:
   - asset:
       id: 9003
       kind: 3
-      kind_id: 9021
+      kind_id: 9019
       type: 1
       name: Contra (J) [T+Chi][a2].nes
       format: 1
@@ -167,6 +158,7 @@ releases:
 - release:
     id: 9022
     game_id: 9140
+    release_type: 2
   names:
   - id: 82598
     kind: 3
@@ -187,6 +179,7 @@ releases:
 - release:
     id: 9023
     game_id: 9140
+    release_type: 2
   names:
   - id: 82599
     kind: 3
@@ -207,6 +200,7 @@ releases:
 - release:
     id: 9024
     game_id: 9140
+    release_type: 2
   names:
   - id: 82600
     kind: 3
@@ -227,12 +221,18 @@ releases:
 - release:
     id: 9025
     game_id: 9140
+    release_type: 2
   names:
   - id: 82601
     kind: 3
     kind_id: 9025
     language: 1
     name: Contra (J) [T+Chi_Xingkong]
+  - id: 82602
+    kind: 3
+    kind_id: 9025
+    language: 1
+    name: Contra (J) [T+Chi_Xingkong][a1]
   assets:
   - asset:
       id: 9007
@@ -244,20 +244,10 @@ releases:
       size: 270352
       blob_id: 55132
       debug: Contra (J) [T+Chi_Xingkong].nes
-- release:
-    id: 9026
-    game_id: 9140
-  names:
-  - id: 82602
-    kind: 3
-    kind_id: 9026
-    language: 1
-    name: Contra (J) [T+Chi_Xingkong][a1]
-  assets:
   - asset:
       id: 9008
       kind: 3
-      kind_id: 9026
+      kind_id: 9025
       type: 1
       name: Contra (J) [T+Chi_Xingkong][a1].nes
       format: 1
@@ -267,12 +257,18 @@ releases:
 - release:
     id: 9027
     game_id: 9140
+    release_type: 2
   names:
   - id: 82603
     kind: 3
     kind_id: 9027
     language: 1
     name: Contra (J) [T+Eng1.0_MadHacker]
+  - id: 82613
+    kind: 3
+    kind_id: 9027
+    language: 1
+    name: Contra (J) [o1][T+Eng1.0_MadHacker]
   assets:
   - asset:
       id: 9009
@@ -284,9 +280,20 @@ releases:
       size: 262160
       blob_id: 55134
       debug: Contra (J) [T+Eng1.0_MadHacker].nes
+  - asset:
+      id: 9032
+      kind: 3
+      kind_id: 9027
+      type: 1
+      name: Contra (J) [o1][T+Eng1.0_MadHacker].nes
+      format: 1
+      size: 262288
+      blob_id: 55157
+      debug: Contra (J) [o1][T+Eng1.0_MadHacker].nes
 - release:
     id: 9028
     game_id: 9140
+    release_type: 2
   names:
   - id: 82604
     kind: 3
@@ -307,6 +314,7 @@ releases:
 - release:
     id: 9029
     game_id: 9140
+    release_type: 2
   names:
   - id: 82605
     kind: 3
@@ -327,12 +335,18 @@ releases:
 - release:
     id: 9030
     game_id: 9140
+    release_type: 2
   names:
   - id: 82606
     kind: 3
     kind_id: 9030
     language: 1
     name: Contra (J) [T+Pol1.0_Dr00id88]
+  - id: 82607
+    kind: 3
+    kind_id: 9030
+    language: 1
+    name: Contra (J) [T+Pol1.0_Dr00id88][o1]
   assets:
   - asset:
       id: 9012
@@ -344,20 +358,10 @@ releases:
       size: 262160
       blob_id: 55137
       debug: Contra (J) [T+Pol1.0_Dr00id88].nes
-- release:
-    id: 9031
-    game_id: 9140
-  names:
-  - id: 82607
-    kind: 3
-    kind_id: 9031
-    language: 1
-    name: Contra (J) [T+Pol1.0_Dr00id88][o1]
-  assets:
   - asset:
       id: 9013
       kind: 3
-      kind_id: 9031
+      kind_id: 9030
       type: 1
       name: Contra (J) [T+Pol1.0_Dr00id88][o1].nes
       format: 1
@@ -367,6 +371,7 @@ releases:
 - release:
     id: 9032
     game_id: 9140
+    release_type: 2
   names:
   - id: 82608
     kind: 3
@@ -387,6 +392,7 @@ releases:
 - release:
     id: 9033
     game_id: 9140
+    release_type: 2
   names:
   - id: 82609
     kind: 3
@@ -407,6 +413,7 @@ releases:
 - release:
     id: 9034
     game_id: 9140
+    release_type: 2
   names:
   - id: 82610
     kind: 3
@@ -427,6 +434,7 @@ releases:
 - release:
     id: 9035
     game_id: 9140
+    release_type: 2
   names:
   - id: 82611
     kind: 3
@@ -447,6 +455,7 @@ releases:
 - release:
     id: 9036
     game_id: 9140
+    release_type: 2
   names:
   - id: 19248
     kind: 3
@@ -465,114 +474,25 @@ releases:
       blob_id: 55143
       debug: Contra (J) [T-Chi].nes
 - release:
-    id: 9037
-    game_id: 9140
-  names:
-  - id: 19250
-    kind: 3
-    kind_id: 9037
-    language: 1
-    name: Contra (J) [b1]
-  assets:
-  - asset:
-      id: 9019
-      kind: 3
-      kind_id: 9037
-      type: 1
-      name: Contra (J) [b1].nes
-      format: 1
-      size: 262160
-      blob_id: 55144
-      debug: Contra (J) [b1].nes
-- release:
-    id: 9038
-    game_id: 9140
-  names:
-  - id: 19252
-    kind: 3
-    kind_id: 9038
-    language: 1
-    name: Contra (J) [b2]
-  assets:
-  - asset:
-      id: 9020
-      kind: 3
-      kind_id: 9038
-      type: 1
-      name: Contra (J) [b2].nes
-      format: 1
-      size: 262160
-      blob_id: 55145
-      debug: Contra (J) [b2].nes
-- release:
-    id: 9039
-    game_id: 9140
-  names:
-  - id: 19254
-    kind: 3
-    kind_id: 9039
-    language: 1
-    name: Contra (J) [b3]
-  assets:
-  - asset:
-      id: 9021
-      kind: 3
-      kind_id: 9039
-      type: 1
-      name: Contra (J) [b3].nes
-      format: 1
-      size: 262160
-      blob_id: 55146
-      debug: Contra (J) [b3].nes
-- release:
-    id: 9040
-    game_id: 9140
-  names:
-  - id: 19256
-    kind: 3
-    kind_id: 9040
-    language: 1
-    name: Contra (J) [b4]
-  assets:
-  - asset:
-      id: 9022
-      kind: 3
-      kind_id: 9040
-      type: 1
-      name: Contra (J) [b4].nes
-      format: 1
-      size: 262160
-      blob_id: 55147
-      debug: Contra (J) [b4].nes
-- release:
-    id: 9041
-    game_id: 9140
-  names:
-  - id: 19258
-    kind: 3
-    kind_id: 9041
-    language: 1
-    name: Contra (J) [b5]
-  assets:
-  - asset:
-      id: 9023
-      kind: 3
-      kind_id: 9041
-      type: 1
-      name: Contra (J) [b5].nes
-      format: 1
-      size: 262160
-      blob_id: 55148
-      debug: Contra (J) [b5].nes
-- release:
     id: 9042
     game_id: 9140
+    release_type: 3
   names:
   - id: 19260
     kind: 3
     kind_id: 9042
     language: 1
     name: Contra (J) [hFFE]
+  - id: 19262
+    kind: 3
+    kind_id: 9042
+    language: 1
+    name: Contra (J) [hFFE][b1]
+  - id: 19264
+    kind: 3
+    kind_id: 9042
+    language: 1
+    name: Contra (J) [hFFE][b2]
   assets:
   - asset:
       id: 9024
@@ -584,40 +504,20 @@ releases:
       size: 262672
       blob_id: 55149
       debug: Contra (J) [hFFE].nes
-- release:
-    id: 9043
-    game_id: 9140
-  names:
-  - id: 19262
-    kind: 3
-    kind_id: 9043
-    language: 1
-    name: Contra (J) [hFFE][b1]
-  assets:
   - asset:
       id: 9025
       kind: 3
-      kind_id: 9043
+      kind_id: 9042
       type: 1
       name: Contra (J) [hFFE][b1].nes
       format: 1
       size: 262672
       blob_id: 55150
       debug: Contra (J) [hFFE][b1].nes
-- release:
-    id: 9044
-    game_id: 9140
-  names:
-  - id: 19264
-    kind: 3
-    kind_id: 9044
-    language: 1
-    name: Contra (J) [hFFE][b2]
-  assets:
   - asset:
       id: 9026
       kind: 3
-      kind_id: 9044
+      kind_id: 9042
       type: 1
       name: Contra (J) [hFFE][b2].nes
       format: 1
@@ -627,6 +527,7 @@ releases:
 - release:
     id: 9045
     game_id: 9140
+    release_type: 3
   names:
   - id: 19266
     kind: 3
@@ -647,6 +548,7 @@ releases:
 - release:
     id: 9046
     game_id: 9140
+    release_type: 3
   names:
   - id: 19268
     kind: 3
@@ -667,6 +569,7 @@ releases:
 - release:
     id: 9047
     game_id: 9140
+    release_type: 2
   names:
   - id: 82612
     kind: 3
@@ -687,6 +590,7 @@ releases:
 - release:
     id: 9048
     game_id: 9140
+    release_type: 3
   names:
   - id: 19274
     kind: 3
@@ -705,74 +609,20 @@ releases:
       blob_id: 55155
       debug: Contra (J) [hM04][p1].nes
 - release:
-    id: 9049
-    game_id: 9140
-  names:
-  - id: 19276
-    kind: 3
-    kind_id: 9049
-    language: 1
-    name: Contra (J) [o1]
-  assets:
-  - asset:
-      id: 9031
-      kind: 3
-      kind_id: 9049
-      type: 1
-      name: Contra (J) [o1].nes
-      format: 1
-      size: 262288
-      blob_id: 55156
-      debug: Contra (J) [o1].nes
-- release:
-    id: 9050
-    game_id: 9140
-  names:
-  - id: 82613
-    kind: 3
-    kind_id: 9050
-    language: 1
-    name: Contra (J) [o1][T+Eng1.0_MadHacker]
-  assets:
-  - asset:
-      id: 9032
-      kind: 3
-      kind_id: 9050
-      type: 1
-      name: Contra (J) [o1][T+Eng1.0_MadHacker].nes
-      format: 1
-      size: 262288
-      blob_id: 55157
-      debug: Contra (J) [o1][T+Eng1.0_MadHacker].nes
-- release:
-    id: 9051
-    game_id: 9140
-  names:
-  - id: 19282
-    kind: 3
-    kind_id: 9051
-    language: 1
-    name: Contra (J) [o2]
-  assets:
-  - asset:
-      id: 9033
-      kind: 3
-      kind_id: 9051
-      type: 1
-      name: Contra (J) [o2].nes
-      format: 1
-      size: 262288
-      blob_id: 55158
-      debug: Contra (J) [o2].nes
-- release:
     id: 9052
     game_id: 9140
+    release_type: 2
   names:
   - id: 82614
     kind: 3
     kind_id: 9052
     language: 1
     name: Contra (J) [p1][T+Eng1.0_MadHacker]
+  - id: 82616
+    kind: 3
+    kind_id: 9052
+    language: 1
+    name: Contra (J) [p1][T+Eng1.0_MadHacker][o1]
   assets:
   - asset:
       id: 9034
@@ -784,9 +634,20 @@ releases:
       size: 262160
       blob_id: 55159
       debug: Contra (J) [p1][T+Eng1.0_MadHacker].nes
+  - asset:
+      id: 9036
+      kind: 3
+      kind_id: 9052
+      type: 1
+      name: Contra (J) [p1][T+Eng1.0_MadHacker][o1].nes
+      format: 1
+      size: 262288
+      blob_id: 55161
+      debug: Contra (J) [p1][T+Eng1.0_MadHacker][o1].nes
 - release:
     id: 9053
     game_id: 9140
+    release_type: 2
   names:
   - id: 82615
     kind: 3
@@ -805,34 +666,20 @@ releases:
       blob_id: 55160
       debug: Contra (J) [p1][T+Eng1.0_MadHacker][f1] (by g8z).nes
 - release:
-    id: 9054
-    game_id: 9140
-  names:
-  - id: 82616
-    kind: 3
-    kind_id: 9054
-    language: 1
-    name: Contra (J) [p1][T+Eng1.0_MadHacker][o1]
-  assets:
-  - asset:
-      id: 9036
-      kind: 3
-      kind_id: 9054
-      type: 1
-      name: Contra (J) [p1][T+Eng1.0_MadHacker][o1].nes
-      format: 1
-      size: 262288
-      blob_id: 55161
-      debug: Contra (J) [p1][T+Eng1.0_MadHacker][o1].nes
-- release:
     id: 9055
     game_id: 9140
+    release_type: 2
   names:
   - id: 82617
     kind: 3
     kind_id: 9055
     language: 1
     name: Contra (J) [p2][T+Eng1.0_MadHacker]
+  - id: 82618
+    kind: 3
+    kind_id: 9055
+    language: 1
+    name: Contra (J) [p2][T+Eng1.0_MadHacker][o1]
   assets:
   - asset:
       id: 9037
@@ -844,20 +691,10 @@ releases:
       size: 262160
       blob_id: 55162
       debug: Contra (J) [p2][T+Eng1.0_MadHacker].nes
-- release:
-    id: 9056
-    game_id: 9140
-  names:
-  - id: 82618
-    kind: 3
-    kind_id: 9056
-    language: 1
-    name: Contra (J) [p2][T+Eng1.0_MadHacker][o1]
-  assets:
   - asset:
       id: 9038
       kind: 3
-      kind_id: 9056
+      kind_id: 9055
       type: 1
       name: Contra (J) [p2][T+Eng1.0_MadHacker][o1].nes
       format: 1
@@ -867,6 +704,7 @@ releases:
 - release:
     id: 9057
     game_id: 9140
+    release_type: 3
   names:
   - id: 19304
     kind: 3
@@ -887,6 +725,7 @@ releases:
 - release:
     id: 9058
     game_id: 9140
+    release_type: 3
   names:
   - id: 19306
     kind: 3
@@ -907,6 +746,7 @@ releases:
 - release:
     id: 9059
     game_id: 9140
+    release_type: 3
   names:
   - id: 19308
     kind: 3
@@ -927,6 +767,7 @@ releases:
 - release:
     id: 9060
     game_id: 9140
+    release_type: 3
   names:
   - id: 19310
     kind: 3
@@ -947,6 +788,7 @@ releases:
 - release:
     id: 9061
     game_id: 9140
+    release_type: 3
   names:
   - id: 19312
     kind: 3
@@ -967,6 +809,7 @@ releases:
 - release:
     id: 9062
     game_id: 9140
+    release_type: 3
   names:
   - id: 19314
     kind: 3
@@ -987,6 +830,7 @@ releases:
 - release:
     id: 9063
     game_id: 9140
+    release_type: 3
   names:
   - id: 19316
     kind: 3
@@ -1007,6 +851,7 @@ releases:
 - release:
     id: 9064
     game_id: 9140
+    release_type: 2
   names:
   - id: 82619
     kind: 3
@@ -1027,6 +872,7 @@ releases:
 - release:
     id: 9065
     game_id: 9140
+    release_type: 3
   names:
   - id: 19322
     kind: 3
@@ -1047,6 +893,7 @@ releases:
 - release:
     id: 9066
     game_id: 9140
+    release_type: 3
   names:
   - id: 19324
     kind: 3
@@ -1067,12 +914,13 @@ releases:
 - release:
     id: 9067
     game_id: 9140
+    release_type: 1
   names:
-  - id: 19326
+  - id: 242257
     kind: 3
     kind_id: 9067
-    language: 1
-    name: Contra (J)
+    language: 2
+    name: 日版
   assets:
   - asset:
       id: 9049
@@ -1084,10 +932,21 @@ releases:
       size: 262160
       blob_id: 55174
       debug: Contra (J).nes
+  - asset:
+      id: 134976
+      kind: 3
+      kind_id: 9067
+      type: 9
+      name: Contra (J)-261017-024847.png
+      format: 1
+      size: 5504
+      blob_id: 321670
+      debug: fbui:retroarch-screenshot
 - release:
     id: 9068
     game_id: 9140
     release_date: 19880201
+    release_type: 2
   names:
   - id: 19328
     kind: 3
@@ -1143,6 +1002,8 @@ releases:
 - release:
     id: 9069
     game_id: 9140
+    description: 此版本来源及具体改动尚未确认，暂归其他；不可仅凭 CN、Ch/Wxn、KC 或 R 命名标记视作官方地区原版。
+    release_type: 4
   names:
   - id: 19330
     kind: 3
@@ -1161,48 +1022,10 @@ releases:
       blob_id: 55176
       debug: Contra (KC).nes
 - release:
-    id: 9070
-    game_id: 9140
-  names:
-  - id: 19332
-    kind: 3
-    kind_id: 9070
-    language: 1
-    name: Contra (PC10) [b1]
-  assets:
-  - asset:
-      id: 9052
-      kind: 3
-      kind_id: 9070
-      type: 1
-      name: Contra (PC10) [b1].nes
-      format: 1
-      size: 131088
-      blob_id: 55177
-      debug: Contra (PC10) [b1].nes
-- release:
-    id: 9071
-    game_id: 9140
-  names:
-  - id: 19334
-    kind: 3
-    kind_id: 9071
-    language: 1
-    name: Contra (PC10)
-  assets:
-  - asset:
-      id: 9053
-      kind: 3
-      kind_id: 9071
-      type: 1
-      name: Contra (PC10).nes
-      format: 1
-      size: 139280
-      blob_id: 55178
-      debug: Contra (PC10).nes
-- release:
     id: 9072
     game_id: 9140
+    description: 此版本来源及具体改动尚未确认，暂归其他；不可仅凭 CN、Ch/Wxn、KC 或 R 命名标记视作官方地区原版。
+    release_type: 4
   names:
   - id: 19336
     kind: 3
@@ -1223,27 +1046,13 @@ releases:
 - release:
     id: 9073
     game_id: 9140
+    release_type: 1
   names:
-  - id: 19338
-    kind: 3
-    kind_id: 9073
-    language: 1
-    name: Contra (U) [!]
-  - id: 19404
-    kind: 3
-    kind_id: 9073
-    language: 1
-    name: Contra (U)
-  - id: 59600
-    kind: 3
-    kind_id: 9073
-    language: 1
-    name: contra
-  - id: 71725
+  - id: 242258
     kind: 3
     kind_id: 9073
     language: 2
-    name: 魂斗罗1
+    name: 美版
   assets:
   - asset:
       id: 9055
@@ -1264,9 +1073,20 @@ releases:
       name: Contra (U) [!].nes
       size: 131088
       blob_id: 55180
+  - asset:
+      id: 134977
+      kind: 3
+      kind_id: 9073
+      type: 9
+      name: Contra (U) [!]-261017-025002.png
+      format: 1
+      size: 6414
+      blob_id: 321671
+      debug: fbui:retroarch-screenshot
 - release:
     id: 9074
     game_id: 9140
+    release_type: 2
   names:
   - id: 82620
     kind: 3
@@ -1287,12 +1107,18 @@ releases:
 - release:
     id: 9075
     game_id: 9140
+    release_type: 2
   names:
   - id: 82621
     kind: 3
     kind_id: 9075
     language: 1
     name: Contra (U) [T+Pol]
+  - id: 82622
+    kind: 3
+    kind_id: 9075
+    language: 1
+    name: Contra (U) [T+Pol][a1]
   assets:
   - asset:
       id: 9057
@@ -1304,20 +1130,10 @@ releases:
       size: 131088
       blob_id: 55182
       debug: Contra (U) [T+Pol].nes
-- release:
-    id: 9076
-    game_id: 9140
-  names:
-  - id: 82622
-    kind: 3
-    kind_id: 9076
-    language: 1
-    name: Contra (U) [T+Pol][a1]
-  assets:
   - asset:
       id: 9058
       kind: 3
-      kind_id: 9076
+      kind_id: 9075
       type: 1
       name: Contra (U) [T+Pol][a1].nes
       format: 1
@@ -1327,6 +1143,7 @@ releases:
 - release:
     id: 9077
     game_id: 9140
+    release_type: 2
   names:
   - id: 82623
     kind: 3
@@ -1347,6 +1164,7 @@ releases:
 - release:
     id: 9078
     game_id: 9140
+    release_type: 2
   names:
   - id: 82624
     kind: 3
@@ -1367,6 +1185,7 @@ releases:
 - release:
     id: 9079
     game_id: 9140
+    release_type: 2
   names:
   - id: 82625
     kind: 3
@@ -1387,6 +1206,7 @@ releases:
 - release:
     id: 9080
     game_id: 9140
+    release_type: 2
   names:
   - id: 82626
     kind: 3
@@ -1407,6 +1227,7 @@ releases:
 - release:
     id: 9081
     game_id: 9140
+    release_type: 2
   names:
   - id: 82627
     kind: 3
@@ -1427,6 +1248,7 @@ releases:
 - release:
     id: 9082
     game_id: 9140
+    release_type: 2
   names:
   - id: 82628
     kind: 3
@@ -1447,12 +1269,18 @@ releases:
 - release:
     id: 9083
     game_id: 9140
+    release_type: 2
   names:
   - id: 82629
     kind: 3
     kind_id: 9083
     language: 1
     name: Contra (U) [T+Tur_KnighTeen87]
+  - id: 82630
+    kind: 3
+    kind_id: 9083
+    language: 1
+    name: Contra (U) [T+Tur_KnighTeen87][a1]
   assets:
   - asset:
       id: 9065
@@ -1464,20 +1292,10 @@ releases:
       size: 131127
       blob_id: 55190
       debug: Contra (U) [T+Tur_KnighTeen87].nes
-- release:
-    id: 9084
-    game_id: 9140
-  names:
-  - id: 82630
-    kind: 3
-    kind_id: 9084
-    language: 1
-    name: Contra (U) [T+Tur_KnighTeen87][a1]
-  assets:
   - asset:
       id: 9066
       kind: 3
-      kind_id: 9084
+      kind_id: 9083
       type: 1
       name: Contra (U) [T+Tur_KnighTeen87][a1].nes
       format: 1
@@ -1487,12 +1305,18 @@ releases:
 - release:
     id: 9085
     game_id: 9140
+    release_type: 3
   names:
   - id: 19384
     kind: 3
     kind_id: 9085
     language: 1
     name: Contra (U) [hM04]
+  - id: 19386
+    kind: 3
+    kind_id: 9085
+    language: 1
+    name: Contra (U) [hM04][a1]
   assets:
   - asset:
       id: 9067
@@ -1504,20 +1328,10 @@ releases:
       size: 131088
       blob_id: 55192
       debug: Contra (U) [hM04].nes
-- release:
-    id: 9086
-    game_id: 9140
-  names:
-  - id: 19386
-    kind: 3
-    kind_id: 9086
-    language: 1
-    name: Contra (U) [hM04][a1]
-  assets:
   - asset:
       id: 9068
       kind: 3
-      kind_id: 9086
+      kind_id: 9085
       type: 1
       name: Contra (U) [hM04][a1].nes
       format: 1
@@ -1525,108 +1339,9 @@ releases:
       blob_id: 55193
       debug: Contra (U) [hM04][a1].nes
 - release:
-    id: 9087
-    game_id: 9140
-  names:
-  - id: 19388
-    kind: 3
-    kind_id: 9087
-    language: 1
-    name: Contra (U) [o1]
-  assets:
-  - asset:
-      id: 9069
-      kind: 3
-      kind_id: 9087
-      type: 1
-      name: Contra (U) [o1].nes
-      format: 1
-      size: 131216
-      blob_id: 55194
-      debug: Contra (U) [o1].nes
-- release:
-    id: 9088
-    game_id: 9140
-  names:
-  - id: 19390
-    kind: 3
-    kind_id: 9088
-    language: 1
-    name: Contra (U) [o2]
-  assets:
-  - asset:
-      id: 9070
-      kind: 3
-      kind_id: 9088
-      type: 1
-      name: Contra (U) [o2].nes
-      format: 1
-      size: 131216
-      blob_id: 55195
-      debug: Contra (U) [o2].nes
-- release:
-    id: 9089
-    game_id: 9140
-  names:
-  - id: 19392
-    kind: 3
-    kind_id: 9089
-    language: 1
-    name: Contra (U) [o3]
-  assets:
-  - asset:
-      id: 9071
-      kind: 3
-      kind_id: 9089
-      type: 1
-      name: Contra (U) [o3].nes
-      format: 1
-      size: 131216
-      blob_id: 55196
-      debug: Contra (U) [o3].nes
-- release:
-    id: 9090
-    game_id: 9140
-  names:
-  - id: 19394
-    kind: 3
-    kind_id: 9090
-    language: 1
-    name: Contra (U) [o4]
-  assets:
-  - asset:
-      id: 9072
-      kind: 3
-      kind_id: 9090
-      type: 1
-      name: Contra (U) [o4].nes
-      format: 1
-      size: 131216
-      blob_id: 55197
-      debug: Contra (U) [o4].nes
-- release:
-    id: 9091
-    game_id: 9140
-  names:
-  - id: 19396
-    kind: 3
-    kind_id: 9091
-    language: 1
-    name: Contra (U) [o5]
-  assets:
-  - asset:
-      id: 9073
-      kind: 3
-      kind_id: 9091
-      type: 1
-      name: Contra (U) [o5].nes
-      format: 1
-      size: 131088
-      blob_id: 55198
-      debug: Contra (U) [o5].nes
-- release:
     id: 9092
     game_id: 9140
+    release_type: 3
   names:
   - id: 19398
     kind: 3
@@ -1647,6 +1362,7 @@ releases:
 - release:
     id: 9093
     game_id: 9140
+    release_type: 3
   names:
   - id: 19400
     kind: 3
@@ -1667,6 +1383,7 @@ releases:
 - release:
     id: 9094
     game_id: 9140
+    release_type: 3
   names:
   - id: 19402
     kind: 3
@@ -1685,48 +1402,9 @@ releases:
       blob_id: 55201
       debug: Contra (U) [t3].nes
 - release:
-    id: 9096
-    game_id: 9140
-  names:
-  - id: 82631
-    kind: 3
-    kind_id: 9096
-    language: 1
-    name: Contra (With +4 Menu) (Unl) [a1]
-  assets:
-  - asset:
-      id: 9078
-      kind: 3
-      kind_id: 9096
-      type: 1
-      name: Contra (With +4 Menu) (Unl) [a1].nes
-      format: 1
-      size: 131088
-      blob_id: 55202
-      debug: Contra (With +4 Menu) (Unl) [a1].nes
-- release:
-    id: 9097
-    game_id: 9140
-  names:
-  - id: 82632
-    kind: 3
-    kind_id: 9097
-    language: 1
-    name: Contra (With +4 Menu) (Unl) [o1]
-  assets:
-  - asset:
-      id: 9079
-      kind: 3
-      kind_id: 9097
-      type: 1
-      name: Contra (With +4 Menu) (Unl) [o1].nes
-      format: 1
-      size: 131120
-      blob_id: 55203
-      debug: Contra (With +4 Menu) (Unl) [o1].nes
-- release:
     id: 9098
     game_id: 9140
+    release_type: 3
   names:
   - id: 82633
     kind: 3
@@ -1747,13 +1425,44 @@ releases:
 - release:
     id: 9099
     game_id: 9140
+    release_type: 3
   names:
+  - id: 82631
+    kind: 3
+    kind_id: 9099
+    language: 1
+    name: Contra (With +4 Menu) (Unl) [a1]
+  - id: 82632
+    kind: 3
+    kind_id: 9099
+    language: 1
+    name: Contra (With +4 Menu) (Unl) [o1]
   - id: 82634
     kind: 3
     kind_id: 9099
     language: 1
     name: Contra (With +4 Menu) (Unl)
   assets:
+  - asset:
+      id: 9078
+      kind: 3
+      kind_id: 9099
+      type: 1
+      name: Contra (With +4 Menu) (Unl) [a1].nes
+      format: 1
+      size: 131088
+      blob_id: 55202
+      debug: Contra (With +4 Menu) (Unl) [a1].nes
+  - asset:
+      id: 9079
+      kind: 3
+      kind_id: 9099
+      type: 1
+      name: Contra (With +4 Menu) (Unl) [o1].nes
+      format: 1
+      size: 131120
+      blob_id: 55203
+      debug: Contra (With +4 Menu) (Unl) [o1].nes
   - asset:
       id: 9081
       kind: 3
@@ -1767,6 +1476,8 @@ releases:
 - release:
     id: 9140
     game_id: 9140
+    description: 与发行版 9073 美版原版逐字节比较：文件长度相同，仅文件偏移 0x1C472–0x1C476 及 0x1DAE2 的 6 字节不同。具体玩法改动与作者未确认；归类为改版。
+    release_type: 3
   names:
   - id: 19518
     kind: 3
@@ -1787,3 +1498,84 @@ releases:
         Contra.nes
         重复的/Contra (U) [t1].nes
         魂斗罗/魂斗罗-30命S枪.nes
+- release:
+    id: 30268
+    game_id: 9140
+    release_type: 2
+  names:
+  - id: 242259
+    kind: 3
+    kind_id: 30268
+    language: 2
+    name: 大字体汉化版
+  assets:
+  - asset:
+      id: 30250
+      kind: 3
+      kind_id: 30268
+      type: 1
+      name: 魂斗罗1.zip
+      format: 2
+      size: 137431
+      debug: 魂斗罗/魂斗罗1.zip
+    entries:
+    - id: 85281
+      asset_id: 30250
+      name: 魂斗罗1.nes
+      size: 393232
+      blob_id: 74100
+  - asset:
+      id: 134978
+      kind: 3
+      kind_id: 30268
+      type: 9
+      name: 魂斗罗1-261017-025605.png
+      format: 1
+      size: 5970
+      blob_id: 321672
+      debug: fbui:retroarch-screenshot
+- release:
+    id: 30269
+    game_id: 9140
+  names:
+  - id: 71730
+    kind: 3
+    kind_id: 30269
+    language: 2
+    name: 魂斗罗1加难版
+  assets:
+  - asset:
+      id: 30251
+      kind: 3
+      kind_id: 30269
+      type: 1
+      name: 魂斗罗1加难版.nes
+      format: 1
+      size: 131088
+      blob_id: 74101
+      debug: 魂斗罗/魂斗罗1加难版.nes
+- release:
+    id: 30270
+    game_id: 9140
+  names:
+  - id: 71732
+    kind: 3
+    kind_id: 30270
+    language: 2
+    name: 魂斗罗1可视化
+  assets:
+  - asset:
+      id: 30252
+      kind: 3
+      kind_id: 30270
+      type: 1
+      name: 魂斗罗1可视化.zip
+      format: 2
+      size: 132029
+      debug: 魂斗罗/魂斗罗1可视化.zip
+    entries:
+    - id: 85282
+      asset_id: 30252
+      name: 魂斗罗1可视化.nes
+      size: 393232
+      blob_id: 74102

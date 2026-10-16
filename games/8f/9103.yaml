@@ -3,31 +3,36 @@ game:
   platform_id: 2
   series_id: 15
 names:
-- id: 71745
-  kind: 2
-  kind_id: 9103
-  language: 2
-  name: 魂斗罗3 力量
-- id: 71749
-  kind: 2
-  kind_id: 9103
-  language: 2
-  name: 魂斗罗3力量
 - id: 91574
   kind: 2
   kind_id: 9103
   language: 1
   name: Contra Force
+- id: 242263
+  kind: 2
+  kind_id: 9103
+  language: 2
+  name: 魂斗罗力量
+- id: 242264
+  kind: 2
+  kind_id: 9103
+  language: 2
+  name: 魂斗罗3
+  deprecated: 1
+game_developers:
+- game_id: 9103
+  developer_id: 2
 releases:
 - release:
     id: 9103
     game_id: 9103
+    release_type: 1
   names:
-  - id: 19428
+  - id: 242265
     kind: 3
     kind_id: 9103
-    language: 1
-    name: Contra Force (U) [!]
+    language: 2
+    name: 美版
   assets:
   - asset:
       id: 9085
@@ -41,6 +46,16 @@ releases:
       debug: |-
         Contra Force (U) [!].nes
         Contra Force (U) [!].zip
+  - asset:
+      id: 134981
+      kind: 3
+      kind_id: 9103
+      type: 9
+      name: Contra Force (U) [!]-261017-031033.png
+      format: 1
+      size: 4138
+      blob_id: 321675
+      debug: fbui:retroarch-screenshot
 - release:
     id: 9105
     game_id: 9103
@@ -181,26 +196,6 @@ releases:
       size: 262160
       blob_id: 55216
       debug: Contra Force (U) [T+Rus_magic team].nes
-- release:
-    id: 9112
-    game_id: 9103
-  names:
-  - id: 19460
-    kind: 3
-    kind_id: 9112
-    language: 1
-    name: Contra Force (U) [o1]
-  assets:
-  - asset:
-      id: 9094
-      kind: 3
-      kind_id: 9112
-      type: 1
-      name: Contra Force (U) [o1].nes
-      format: 1
-      size: 262288
-      blob_id: 55217
-      debug: Contra Force (U) [o1].nes
 - release:
     id: 9113
     game_id: 9103
@@ -621,3 +616,59 @@ releases:
         重复的/Contra Force (U) [T+Chi_Xingkong].nes
         魂斗罗/魂斗罗-力量.nes
         魂斗罗/魂斗罗3 力量.zip
+- release:
+    id: 30277
+    game_id: 9103
+    description: "**30277 是删去版权信息的修改版，9103 是完整美版。** 两张已有标题截图也印证了这一点：\n\n- **9103**：显示 `KONAMI` 标志、©1992 和任天堂授权文字。\n- **30277**：上述内容消失，只留下游戏 Logo 和“PUSH START BUTTON”。\n\n二进制差异：\n\n| 区域 | 差异 |\n|---|---|\n| 程序／数据区 | **80 字节被清零**，集中在 `0x1556B–0x156B3` |\n| 图形素材区 | 完全相同 |\n| 文件头 | 镜像标志相差 1 位 |\n| 文件末尾 | 30277 多出 128 字节，含 `CONTRA FORCE fer iNES by Acey` 转储署名 |\n\n结合截图，清零区域应是标题画面的布局／文字数据。**没有发现这些区域之外的游戏内容改动。**\n\n建议以 **9103 为原版主条目**；30277 应归为“改版”，可注明“去版权标题版”。"
+  names:
+  - id: 71748
+    kind: 3
+    kind_id: 30277
+    language: 2
+    name: 魂斗罗3
+  assets:
+  - asset:
+      id: 30259
+      kind: 3
+      kind_id: 30277
+      type: 1
+      name: 魂斗罗3.nes
+      format: 1
+      size: 262288
+      blob_id: 74107
+      debug: 魂斗罗/魂斗罗3.nes
+  - asset:
+      id: 134980
+      kind: 3
+      kind_id: 30277
+      type: 9
+      name: 魂斗罗3-261017-030338.png
+      format: 1
+      size: 3228
+      blob_id: 321674
+      debug: fbui:retroarch-screenshot
+- release:
+    id: 30279
+    game_id: 9103
+  names:
+  - id: 71752
+    kind: 3
+    kind_id: 30279
+    language: 2
+    name: 魂斗罗3力量汉化版
+  assets:
+  - asset:
+      id: 30261
+      kind: 3
+      kind_id: 30279
+      type: 1
+      name: 魂斗罗3力量汉化版.zip
+      format: 2
+      size: 192075
+      debug: 魂斗罗/魂斗罗3力量汉化版.zip
+    entries:
+    - id: 85290
+      asset_id: 30261
+      name: 魂斗罗3力量无敌无限命全火力汉化版.nes
+      size: 524304
+      blob_id: 74108
