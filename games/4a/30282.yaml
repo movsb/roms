@@ -3,21 +3,53 @@ game:
   platform_id: 2
   series_id: 15
 names:
-- id: 71757
+- id: 242273
   kind: 2
   kind_id: 30282
   language: 2
-  name: 魂斗罗7超级战魂
+  name: 超级战魂
+- id: 242274
+  kind: 2
+  kind_id: 30282
+  language: 2
+  name: 魂斗罗7
+  deprecated: 1
 releases:
+- release:
+    id: 30281
+    game_id: 30282
+  names:
+  - id: 242271
+    kind: 3
+    kind_id: 30281
+    language: 2
+    name: 汉化版
+  assets:
+  - asset:
+      id: 30263
+      kind: 3
+      kind_id: 30281
+      type: 1
+      name: 魂斗罗7 超级战魂.zip
+      format: 2
+      size: 97911
+      debug: 魂斗罗/魂斗罗7 超级战魂.zip
+    entries:
+    - id: 85293
+      asset_id: 30263
+      name: 魂斗罗7 超级战魂.nes
+      size: 262160
+      blob_id: 74109
 - release:
     id: 30282
     game_id: 30282
+    release_type: 1
   names:
-  - id: 71758
+  - id: 242272
     kind: 3
     kind_id: 30282
     language: 2
-    name: 魂斗罗7超级战魂
+    name: 超级战魂
   assets:
   - asset:
       id: 30264
@@ -34,3 +66,13 @@ releases:
       name: 超级战魂.nes
       size: 262160
       blob_id: 74110
+  - asset:
+      id: 134983
+      kind: 3
+      kind_id: 30282
+      type: 9
+      name: 魂斗罗7超级战魂-261017-032626.png
+      format: 1
+      size: 4492
+      blob_id: 321677
+      debug: fbui:retroarch-screenshot

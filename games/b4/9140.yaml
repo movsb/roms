@@ -13,11 +13,17 @@ names:
   kind_id: 9140
   language: 2
   name: 魂斗罗1
+  deprecated: 1
 - id: 71724
   kind: 2
   kind_id: 9140
   language: 1
   name: Contra (U) [!]
+- id: 242270
+  kind: 2
+  kind_id: 9140
+  language: 2
+  name: 魂斗罗
 releases:
 - release:
     id: 9015
@@ -1579,3 +1585,39 @@ releases:
       name: 魂斗罗1可视化.nes
       size: 393232
       blob_id: 74102
+- release:
+    id: 30271
+    game_id: 9140
+    release_type: 3
+  names:
+  - id: 242267
+    kind: 3
+    kind_id: 30271
+    language: 2
+    name: 红隼的复仇
+  assets:
+  - asset:
+      id: 30253
+      kind: 3
+      kind_id: 30271
+      type: 1
+      name: 魂斗罗1红隼的复仇.zip
+      format: 2
+      size: 99862
+      debug: 魂斗罗/魂斗罗1红隼的复仇.zip
+    entries:
+    - id: 85283
+      asset_id: 30253
+      name: 魂斗罗1红隼的复仇.nes
+      size: 262160
+      blob_id: 74103
+  - asset:
+      id: 134982
+      kind: 3
+      kind_id: 30271
+      type: 9
+      name: 魂斗罗1红隼的复仇-261017-032255.png
+      format: 1
+      size: 5662
+      blob_id: 321676
+      debug: fbui:retroarch-screenshot

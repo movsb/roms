@@ -1,40 +1,89 @@
 game:
   id: 28331
   platform_id: 2
+  description: "[像素太空歌剧——FC《拉格朗日点》游戏赏析 - 奶牛关](https://cowlevel.net/article/1849142)"
 names:
 - id: 65163
   kind: 2
   kind_id: 28331
   language: 2
   name: 拉格朗日点
-- id: 65164
+- id: 242280
   kind: 2
   kind_id: 28331
   language: 1
-  name: Lagrange Point (J)
+  name: Lagrange Point
 releases:
 - release:
     id: 28331
     game_id: 28331
+    release_type: 1
   names:
-  - id: 65165
+  - id: 242281
     kind: 3
     kind_id: 28331
     language: 2
-    name: 拉格朗日点
-  - id: 65166
-    kind: 3
-    kind_id: 28331
-    language: 1
-    name: Lagrange Point (J)
+    name: 日版
   assets:
   - asset:
       id: 28313
       kind: 3
       kind_id: 28331
       type: 1
-      name: 拉格朗日点 + Lagrange Point (J).nes
+      name: Lagrange Point (J).nes
       format: 1
       size: 524304
       blob_id: 72870
       debug: 拉格朗日点 + Lagrange Point (J).nes
+  - asset:
+      id: 134985
+      kind: 3
+      kind_id: 28331
+      type: 9
+      name: Lagrange Point (J)-261017-033334.png
+      format: 1
+      size: 3870
+      blob_id: 321679
+      debug: fbui:retroarch-screenshot
+- release:
+    id: 28332
+    game_id: 28331
+    description: "**两者基于同一份汉化，但 28333（拉格朗日点汉化版.zip） 另外做了修改，并非重复 ROM。**\n\n- 大小均为 **1,048,592 字节**，文件头完全相同。\n- 都包含相同的 `ZENG GE JIANG GE / CN VER` 汉化署名。\n- 全文件仅 **86 字节不同**，集中在 11 处。\n\n其中比较明显的修改：\n\n| 位置 | 28333 的变化 |\n|---|---|\n| `0x3EC1D–0x3EC24` | 四个数值被统一改成 **9999** |\n| `0x42F47`、`0x42F50` | 将原来的加法指令改为直接赋固定值 |\n| `0x7DEA0–0x7DEDD` | 在原空白区域加入 62 字节代码 |\n\n这些特征**更像基于汉化版制作的数值强化／作弊版**，而非单纯汉化修正。但 9999 对应金钱、能力还是其他参数，尚未定位，不能直接下结论。\n\n建议 **28332 保留为汉化版，28333 暂标“汉化修改版（具体效果待核验）”**，先不合并。"
+    release_type: 2
+  names:
+  - id: 242282
+    kind: 3
+    kind_id: 28332
+    language: 2
+    name: 汉化版
+  assets:
+  - asset:
+      id: 28314
+      kind: 3
+      kind_id: 28332
+      type: 1
+      name: 拉格朗日点.zip
+      format: 2
+      size: 426143
+      debug: 拉格朗日点.zip
+    entries:
+    - id: 84842
+      asset_id: 28314
+      name: 拉格朗日点.nes
+      size: 1048592
+      blob_id: 72871
+  - asset:
+      id: 28315
+      kind: 3
+      kind_id: 28332
+      type: 1
+      name: 拉格朗日点汉化版.zip
+      format: 2
+      size: 418029
+      debug: 拉格朗日点汉化版.zip
+    entries:
+    - id: 84843
+      asset_id: 28315
+      name: 拉格朗日点汉化版.nes
+      size: 1048592
+      blob_id: 72872
