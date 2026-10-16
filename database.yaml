@@ -195208,21 +195208,273 @@ rom_import_exclusions:
   reason: unwanted
   original_name: "Super Mario Bros - Duck Hunt - Track Meet (U).zip"
   created_at: 1792171623
+- id: 65
+  platform_id: 2
+  fingerprint: c7245ade37b5464203cb103364c20063596270d6351cefb3ec269c4972cd8200
+  reason: 非官方玩法修改版。与世界版 ROM 相比仅文件偏移 0x04F4–0x04F8 的 5 字节不同，图形及关卡数据未改动。补丁将得分浮字处理中的分支和加命指令替换为 NOP、NOP、JMP $D925，跳入受伤处理；据静态分析，吃蘑菇等触发浮字的事件可能导致缩小或死亡。作者、正式名称及发布日期未确认；尚未实机验证。
+  original_name: Super Mario Bros. Mushroom.zip
+  created_at: 1792172241
+- id: 66
+  platform_id: 2
+  fingerprint: crc32:e92fff5f67e28deb491b53e0b1a38ce0193e8387c02b353a6b2647d4beae2a31
+  reason: 非官方玩法修改版。与世界版 ROM 相比仅文件偏移 0x04F4–0x04F8 的 5 字节不同，图形及关卡数据未改动。补丁将得分浮字处理中的分支和加命指令替换为 NOP、NOP、JMP $D925，跳入受伤处理；据静态分析，吃蘑菇等触发浮字的事件可能导致缩小或死亡。作者、正式名称及发布日期未确认；尚未实机验证。
+  original_name: Super Mario Bros. Mushroom.zip
+  created_at: 1792172241
+- id: 67
+  platform_id: 2
+  fingerprint: f586afeaaaa7a6cf2e3b69e5b17f2f0f1eb3fd9aa1de1e3e14b75f90dc21ae87
+  reason: unwanted 任天堂 PlayChoice-10 官方街机版本（PC10），非民间改版。实际 ROM 为 49,168 字节；前 40,976 字节（iNES 文件头、32 KiB PRG、8 KiB CHR）与发行版 22873 世界版完全一致，文件末尾另附 8 KiB 数据。PlayChoice-10 使用额外 ROM 提供说明/提示；此文件附加数据的具体内容尚未解码验证。
+  original_name: Super Mario Bros. (PC10).nes
+  created_at: 1792172472
+- id: 68
+  platform_id: 2
+  fingerprint: 749bc910330c1afefc6ca6f16a9cd2486b683fb4bb29a70c534e688b64a5d098
+  reason: unwanted
+  original_name: 超级马里奥1超级版.zip
+  created_at: 1792172656
+- id: 69
+  platform_id: 2
+  fingerprint: crc32:23cc45dbe90ced383d6b96c0ced28820d1ef70751728694f43a8ce58be1461fe
+  reason: unwanted
+  original_name: 超级马里奥1超级版.zip
+  created_at: 1792172656
+- id: 70
+  platform_id: 2
+  fingerprint: 89b3ce11c3cc67ab231ec3f15393f3d460a58cc4e7d554190fcb27887ea54f80
+  reason: unwanted 已比较 ROM：去掉 iNES 文件头后，全部游戏数据与发行版 22995 的美版 PRG0 完全相同。
+  original_name: Super_mario_brothers2.zip
+  created_at: 1792172862
+- id: 71
+  platform_id: 2
+  fingerprint: crc32:4169409d6b3f4f611ece606751566f705f82d0109148f1c0c5f8f3791480d0d6
+  reason: unwanted 已比较 ROM：去掉 iNES 文件头后，全部游戏数据与发行版 22995 的美版 PRG0 完全相同。
+  original_name: Super_mario_brothers2.zip
+  created_at: 1792172862
+- id: 72
+  platform_id: 2
+  fingerprint: 99bc293c018132c516b0bb7bb3f249bfc3bac22dc7aa7d34020ae5bc51b9a164
+  reason: unwanted
+  original_name: Super Mario Bros. 2 (PC10).nes
+  created_at: 1792172923
+- id: 73
+  platform_id: 2
+  fingerprint: ebbfbef539df0b87b5b1761cbfef33a8b95050abe953672265c7fb63775dadbd
+  reason: unwanted
+  original_name: Super Mario Bros. 2 (E) (VC).nes
+  created_at: 1792173212
+- id: 74
+  platform_id: 2
+  fingerprint: bbbce55645ef1b80c959d14991f557e27ae404177135e4a9071aee1e367198f6
+  reason: bad_dump
+  original_name: Super Mario Bros. 2 (U) (PRG0) [b1].nes
+  created_at: 1792173255
+- id: 75
+  platform_id: 2
+  fingerprint: 6970f16b868c9126be179e6248b2b0110292086061b77519950336af0e7615a5
+  reason: bad_dump
+  original_name: Super Mario Bros. 2 (U) (PRG0) [b2].nes
+  created_at: 1792173262
+- id: 76
+  platform_id: 2
+  fingerprint: 84e65b987d73351dc4868f6ad167bc8827dda27c45381cb80deb733b9816d127
+  reason: bad_dump
+  original_name: Super Mario Bros. 2 (U) (PRG0) [b3].nes
+  created_at: 1792173272
+- id: 77
+  platform_id: 2
+  fingerprint: 0f026754a627cbe5bf0ad19e71630342f4932df538ec5d852e7685b2b529d99b
+  reason: bad_dump
+  original_name: Super Mario Bros. 2 (U) (PRG0) [b4].nes
+  created_at: 1792173280
+- id: 78
+  platform_id: 2
+  fingerprint: d875c4468ba9bf863d3002c46feb9fd28db64ad24a4246cf7e81de1825cc7f34
+  reason: bad_dump
+  original_name: Super Mario Bros. 2 (U) (PRG0) [b5].nes
+  created_at: 1792173288
+- id: 79
+  platform_id: 2
+  fingerprint: 649beb829405cd686b2958c155b3c3c6983f55e833a12f62c3e76d54e47b8c8e
+  reason: bad_dump
+  original_name: Super Mario Bros. 2 (U) (PRG0) [b6].nes
+  created_at: 1792173297
+- id: 80
+  platform_id: 2
+  fingerprint: ebd32b5a73bc2529b5ffbf892381448f2e31c4eeb5b5a7bfc50f0393665f26ea
+  reason: bad_dump
+  original_name: Super Mario Bros. 2 (U) (PRG0) [b7].nes
+  created_at: 1792173304
+- id: 81
+  platform_id: 2
+  fingerprint: e2b123083d5a75891369d6e292d9590ddbdd89fa88de390fb77ace15317ba082
+  reason: bad_dump
+  original_name: Super Mario Bros. 2 (U) (PRG0) [b8].nes
+  created_at: 1792173311
+- id: 82
+  platform_id: 2
+  fingerprint: fb5d52e063cfdee517cf065e6c621347c8e6f7dd3e1252e750679f299f35b712
+  reason: overdump
+  original_name: Super Mario Bros. 2 (U) (PRG0) [b8][o1].nes
+  created_at: 1792173319
+- id: 83
+  platform_id: 2
+  fingerprint: 8d582a58a97fca9aa12436d12ee1006197f1251878f383d630daed0506c67070
+  reason: bad_dump
+  original_name: Super Mario Bros. 2 (U) (PRG0) [b9].nes
+  created_at: 1792173327
+- id: 84
+  platform_id: 2
+  fingerprint: d9e9618c39141f1987f5262f43077b8d4ba32b43d8f5becddad09b0d9f9ea752
+  reason: overdump
+  original_name: Super Mario Bros. 2 (U) (PRG0) [o1].nes
+  created_at: 1792173334
+- id: 85
+  platform_id: 2
+  fingerprint: 434828922ada7819ae5e5ba391c3d953c1bd8d291ab9deb76d0c71c764b94919
+  reason: overdump
+  original_name: Super Mario Bros. 2 (U) (PRG0) [o2].nes
+  created_at: 1792173340
+- id: 86
+  platform_id: 2
+  fingerprint: a54a56421cbd7f674868c6c398498dfa78576bae389f931d44074300deb9e6c5
+  reason: overdump
+  original_name: Super Mario Bros. 2 (U) (PRG0) [o3].nes
+  created_at: 1792173347
+- id: 87
+  platform_id: 2
+  fingerprint: 18f987d7c64cb28ff618f749fa14672b1917c4c6349995e9d6181cbacb85d670
+  reason: bad_dump
+  original_name: Super Mario Bros. 3 (U) (PRG1) [b1].nes
+  created_at: 1792173871
+- id: 88
+  platform_id: 2
+  fingerprint: 8c5709e424bfe313d56d20cf326918f13ca799005f4d053493ea7c587a0a0b67
+  reason: bad_dump
+  original_name: Super Mario Bros. 3 (U) (PRG1) [b2].nes
+  created_at: 1792173875
+- id: 89
+  platform_id: 2
+  fingerprint: 3d948a8e601fbfd50b2f426d0a687a254965901ddb8e14457a187b5128b0635e
+  reason: overdump
+  original_name: Super Mario Bros. 3 (U) (PRG1) [o1].nes
+  created_at: 1792173880
+- id: 90
+  platform_id: 2
+  fingerprint: 1d03702b88885f20c39c9b743228d92d51343e1e725c1c3d4cb7bc856fe1cdf3
+  reason: bad_dump
+  original_name: Super Mario Bros. 3 (U) (PRG1) [b7] + );.nes
+  created_at: 1792173884
+- id: 91
+  platform_id: 2
+  fingerprint: a0ae8d5fd1899c5ad1e530900137eebc5b1e42d53f6746871e3a370e0cca862d
+  reason: bad_dump
+  original_name: Super Mario Bros. 3 (U) (PRG1) [b6].nes
+  created_at: 1792173888
+- id: 92
+  platform_id: 2
+  fingerprint: 4b5d17114abb36db1f4ad92733832337f43d35ee189756cb23f725e9290b91fc
+  reason: bad_dump
+  original_name: Super Mario Bros. 3 (U) (PRG1) [b5].nes
+  created_at: 1792173892
+- id: 93
+  platform_id: 2
+  fingerprint: 181c9146eb065a36fb1911aa1a33a41c7bdeb039aaa7d873306f2ca5a44f5a2f
+  reason: bad_dump
+  original_name: Super Mario Bros. 3 (U) (PRG1) [b4].nes
+  created_at: 1792173895
+- id: 94
+  platform_id: 2
+  fingerprint: 1ab55f1cceb8fcb6904236de85901a16728485680e19475207ed5de177dda54f
+  reason: bad_dump
+  original_name: Super Mario Bros. 3 (U) (PRG1) [b3].nes
+  created_at: 1792173899
+- id: 95
+  platform_id: 2
+  fingerprint: 7fd8d168571b1538d87dccca3ec915504b609d022eff488001392d76f26fee6c
+  reason: unwanted
+  original_name: Super Mario Bros. 3 (E) (VC).nes
+  created_at: 1792173949
+- id: 96
+  platform_id: 2
+  fingerprint: 169bac28ed7d3985895b869feedeb15b34065f1257e4224e29e75825c56a8895
+  reason: bad_dump
+  original_name: Super Mario Bros. 3 (J) (PRG0) [b1].nes
+  created_at: 1792174036
+- id: 97
+  platform_id: 2
+  fingerprint: 541425b356f387a3b3bf6dd7999bbb653b2b94356e213892dd18b385ed80a663
+  reason: unwanted
+  original_name: Super Mario Bros. 3 (J) (PRG0).nes
+  created_at: 1792174058
+- id: 98
+  platform_id: 2
+  fingerprint: 6e1bcc1f479deffd394493070217d75e0ac3bd2df81e5020c517f1134fa6108a
+  reason: bad_dump
+  original_name: Super Mario Bros. 3 (J) (PRG1) [b1].nes
+  created_at: 1792174078
+- id: 99
+  platform_id: 2
+  fingerprint: 98589b2ff273bedee68cfd69a437cc1d68dc86363850394d4f1d61af8fc73f89
+  reason: bad_dump
+  original_name: Super Mario Bros. 3 (J) (PRG1) [b2].nes
+  created_at: 1792174081
+- id: 100
+  platform_id: 2
+  fingerprint: 4ed91d99ec7aa3e57080e40b071a99b7592595e3f9e0d22bb17c8364fe9b089e
+  reason: bad_dump
+  original_name: Super Mario Bros. 3 (J) (PRG1) [b3].nes
+  created_at: 1792174088
+- id: 101
+  platform_id: 2
+  fingerprint: 8c5ba68cdd64de52ce5810f29a760e59554f7cedbae1344e5f3758a8f22279db
+  reason: unwanted
+  original_name: Super Mario Bros. 3 (J) (VC).nes
+  created_at: 1792174105
+- id: 102
+  platform_id: 2
+  fingerprint: 0baac89cf673d0c642016384e29dae884edfb785711e85dd77b9af344dd3daab
+  reason: bad_dump
+  original_name: Super Mario Bros. 3 (PC10) [b1].nes
+  created_at: 1792174444
+- id: 103
+  platform_id: 2
+  fingerprint: 986880028f7d7fbbb17da521172bf2c0e9521a10a8bed58e4056fb6d5cef36d3
+  reason: unwanted
+  original_name: Super Mario Bros. 3 (PC10).nes
+  created_at: 1792174448
+- id: 104
+  platform_id: 2
+  fingerprint: ee237523530cf2d18300fe27529ef829a049cb341ccad2e18a64706acfbeee08
+  reason: bad_dump
+  original_name: Super Mario Bros. 3 (U) (PRG0) [b1].nes
+  created_at: 1792174464
+- id: 105
+  platform_id: 2
+  fingerprint: 6ea0777ca520ba7ad7b0ea0f6452140d59aa0b1dffe5045cb1e8020dde10c267
+  reason: unwanted
+  original_name: Super Mario Bros. 3 (U) (PRG0) [!].nes
+  created_at: 1792174467
+- id: 106
+  platform_id: 2
+  fingerprint: 91f45d5d2952753c0cfdcea3b013a6a93b34896d0088b8560e1e4e2e61c5265e
+  reason: unwanted
+  original_name: Super Mario Bros. 3 (U) (VC).nes
+  created_at: 1792174475
 sqlite_sequence:
 - name: assets
-  seq: 134974
+  seq: 134975
 - name: blobs
-  seq: 321668
+  seq: 321669
 - name: developers
   seq: 753
 - name: entries
   seq: 896494
 - name: games
-  seq: 86376
+  seq: 86377
 - name: genres
   seq: 96
 - name: names
-  seq: 242238
+  seq: 242254
 - name: options
   seq: 7
 - name: platforms
@@ -195232,7 +195484,7 @@ sqlite_sequence:
 - name: releases
   seq: 105297
 - name: rom_import_exclusions
-  seq: 64
+  seq: 106
 - name: rom_sets
   seq: 290078
 - name: series

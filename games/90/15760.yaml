@@ -3,26 +3,28 @@ game:
   platform_id: 2
   series_id: 3
 names:
-- id: 70359
-  kind: 2
-  kind_id: 15760
-  language: 2
-  name: 超级马里奥水管工
-- id: 79614
-  kind: 2
-  kind_id: 15760
-  language: 2
-  name: 马里奥兄弟[Madcell汉化]
-- id: 79615
-  kind: 2
-  kind_id: 15760
-  language: 1
-  name: Mario Bros. (W) [T+Chi20060804_madcell]
 - id: 92405
   kind: 2
   kind_id: 15760
   language: 1
   name: Mario Bros.
+- id: 242248
+  kind: 2
+  kind_id: 15760
+  language: 2
+  name: 马力欧兄弟
+- id: 242249
+  kind: 2
+  kind_id: 15760
+  language: 2
+  name: 超级马力欧水管工
+  deprecated: 1
+- id: 242250
+  kind: 2
+  kind_id: 15760
+  language: 2
+  name: 超级马里奥水管工
+  deprecated: 1
 releases:
 - release:
     id: 15760
@@ -465,11 +467,6 @@ releases:
     kind_id: 15782
     language: 1
     name: Mario Bros. (W) [t2]
-  - id: 95256
-    kind: 3
-    kind_id: 15782
-    language: 2
-    name: 超级马里奥水管工
   assets:
   - asset:
       id: 15764
@@ -487,21 +484,11 @@ releases:
     id: 29863
     game_id: 15760
   names:
-  - id: 70360
+  - id: 242251
     kind: 3
     kind_id: 29863
     language: 2
-    name: 超级马里奥水管工
-  - id: 85306
-    kind: 3
-    kind_id: 29863
-    language: 2
-    name: 马里奥兄弟[Madcell汉化]
-  - id: 85307
-    kind: 3
-    kind_id: 29863
-    language: 1
-    name: Mario Bros. (W) [T+Chi20060804_madcell]
+    name: 马里奥水管工
   assets:
   - asset:
       id: 29845
@@ -520,3 +507,28 @@ releases:
       name: 超级马里奥水管工.nes
       size: 49168
       blob_id: 73843
+- release:
+    id: 29865
+    game_id: 15760
+  names:
+  - id: 242252
+    kind: 3
+    kind_id: 29865
+    language: 2
+    name: 汉化版
+  assets:
+  - asset:
+      id: 29847
+      kind: 3
+      kind_id: 29865
+      type: 1
+      name: 超级马里奥水管工汉化版.zip
+      format: 2
+      size: 18470
+      debug: 超级马里奥水管工汉化版.zip
+    entries:
+    - id: 85195
+      asset_id: 29847
+      name: 超级马里奥水管工命时间POW不减.nes
+      size: 49168
+      blob_id: 73844
