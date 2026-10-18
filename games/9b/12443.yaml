@@ -11,7 +11,7 @@ names:
   kind: 2
   kind_id: 12443
   language: 2
-  name: 任天堂高尔夫 (美版) (运动)-Golf (USA)
+  name: 任天堂高尔夫 (运动)-Golf
 - id: 60504
   kind: 2
   kind_id: 12443
@@ -318,18 +318,13 @@ releases:
       kind: 3
       kind_id: 12433
       type: 1
-      name: Golf (U) [!].zip
-      format: 2
-      size: 16653
+      name: Golf (U) [!].nes
+      format: 1
+      size: 24592
+      blob_id: 58330
       debug: |-
         Golf (U) [!].zip
         任天堂高尔夫 (美版) (运动)-Golf (USA) + Golf (U) [!].nes
-    entries:
-    - id: 82812
-      asset_id: 12415
-      name: Golf (U) [!].nes
-      size: 24592
-      blob_id: 58330
 - release:
     id: 12443
     game_id: 12443
@@ -345,13 +340,8 @@ releases:
       kind: 3
       kind_id: 12443
       type: 1
-      name: Golf.zip
-      format: 2
-      size: 16715
-      debug: Golf.zip
-    entries:
-    - id: 82816
-      asset_id: 12425
       name: Golf.nes
+      format: 1
       size: 24719
       blob_id: 58340
+      debug: Golf.zip

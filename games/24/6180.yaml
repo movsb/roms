@@ -7,6 +7,12 @@ names:
   kind_id: 6180
   language: 1
   name: BATMAN
+- id: 247504
+  kind: 2
+  kind_id: 6180
+  language: 2
+  name: 蝙蝠侠
+  source: codex
 releases:
 - release:
     id: 6180
@@ -23,16 +29,11 @@ releases:
       kind: 3
       kind_id: 6180
       type: 1
-      name: BATMAN.zip
-      format: 2
-      size: 157006
-      debug: "BATMAN.zip\nBatman (U) [!].zip\n蝙蝠侠 (美版) (动作)-Batman - The Video Game (USA) + Batman (U) [!].nes"
-    entries:
-    - id: 82073
-      asset_id: 6162
       name: BATMAN.NES
+      format: 1
       size: 262160
       blob_id: 52430
+      debug: "BATMAN.zip\nBatman (U) [!].zip\n蝙蝠侠 (美版) (动作)-Batman - The Video Game (USA) + Batman (U) [!].nes"
 - release:
     id: 6566
     game_id: 6180
@@ -588,13 +589,8 @@ releases:
       kind: 3
       kind_id: 6594
       type: 1
-      name: Batman (U).zip
-      format: 2
-      size: 157014
-      debug: Batman (U).zip
-    entries:
-    - id: 82133
-      asset_id: 6576
       name: Batman (U).nes
+      format: 1
       size: 262160
       blob_id: 52824
+      debug: Batman (U).zip
