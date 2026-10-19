@@ -1,7 +1,6 @@
 game:
   id: 2349
   platform_id: 1
-  description: A special edition of the KoF series taking place outside of the established storyline with a whopping 38 selectable KoF alumni.
   series_id: 2
 names:
 - id: 4698
@@ -9,111 +8,16 @@ names:
   kind_id: 2349
   language: 1
   name: kof98
-- id: 90846
+- id: 257118
+  kind: 2
+  kind_id: 2349
+  language: 1
+  name: The King of Fighters '98
+- id: 257119
   kind: 2
   kind_id: 2349
   language: 2
-  name: "拳皇98 - 梦战斗未结束（NGM-2420）"
-- id: 186947
-  kind: 2
-  kind_id: 2349
-  language: 1
-  name: kof98h
-- id: 192400
-  kind: 2
-  kind_id: 2349
-  language: 1
-  name: "The King of Fighters '98 - The Slugfest / King of Fighters '98 - Dream Match Never Ends (NGM-2420, alt board)"
-  source: mame
-- id: 192401
-  kind: 2
-  kind_id: 2349
-  language: 1
-  name: "The King of Fighters '98 - The Slugfest / King of Fighters '98 - Dream Match Never Ends (Korean board, set 1)"
-  source: mame
-- id: 192402
-  kind: 2
-  kind_id: 2349
-  language: 1
-  name: "The King of Fighters '98 - The Slugfest / King of Fighters '98 - Dream Match Never Ends (Korean board, set 2)"
-  source: mame
-- id: 240232
-  kind: 2
-  kind_id: 2349
-  language: 1
-  name: kof98ae
-- id: 240233
-  kind: 2
-  kind_id: 2349
-  language: 2
-  name: "拳皇 '98 - 周年纪念版, (修改版)"
-  source: trimui
-- id: 240234
-  kind: 2
-  kind_id: 2349
-  language: 1
-  name: kof98cb
-- id: 240235
-  kind: 2
-  kind_id: 2349
-  language: 2
-  name: 拳皇98（连技版, 修改版）
-- id: 240236
-  kind: 2
-  kind_id: 2349
-  language: 1
-  name: kof98mix
-- id: 240237
-  kind: 2
-  kind_id: 2349
-  language: 2
-  name: "拳皇 '98 - 无限 (修改版)"
-  source: trimui
-- id: 240238
-  kind: 2
-  kind_id: 2349
-  language: 1
-  name: kof98pfe
-- id: 240239
-  kind: 2
-  kind_id: 2349
-  language: 2
-  name: "拳皇98 - 梦战斗未结束（Plus Final Edition 2017-07-23）"
-- id: 240240
-  kind: 2
-  kind_id: 2349
-  language: 2
-  name: "拳皇 '98 - 强化最终版 (修改版)"
-  source: trimui
-- id: 240241
-  kind: 2
-  kind_id: 2349
-  language: 1
-  name: kof98ult
-- id: 240242
-  kind: 2
-  kind_id: 2349
-  language: 2
-  name: "拳皇 '98 - 终极比赛 (修改版)"
-  source: trimui
-- id: 241752
-  kind: 2
-  kind_id: 2349
-  language: 1
-  name: "King of Fighters '98 - Easy Combo King (Hack)"
-  source: fbneo
-- id: 241849
-  kind: 2
-  kind_id: 2349
-  language: 1
-  name: "The King of Fighters '98 - Evolution (Hack)"
-  source: fbneo
-- id: 241850
-  kind: 2
-  kind_id: 2349
-  language: 1
-  name: "The King of Fighters '98 - Ratio (Hack)"
-  source: fbneo
+  name: 拳皇 '98
 game_genres:
 - game_id: 2349
   genre_id: 30
@@ -122,6 +26,7 @@ releases:
     id: 2349
     game_id: 2349
     release_date: 19980000
+    release_type: 1
   names:
   - id: 4699
     kind: 3
@@ -749,402 +654,1441 @@ releases:
         revision=d61f692a027ad7bcbaccceda20e43ed47900dcda
         source=titles/kof98.png
 - release:
-    id: 2350
+    id: 2352
     game_id: 2349
+    description: |
+      fba
+    release_type: 3
   names:
-  - id: 94466
+  - id: 4705
     kind: 3
-    kind_id: 2350
+    kind_id: 2352
     language: 1
-    name: kof98
-  - id: 101404
+    name: kof98ae
+  - id: 99408
     kind: 3
-    kind_id: 2350
+    kind_id: 2352
     language: 2
-    name: "拳皇 '98 - 梦战斗未结束 (NGM-2420)"
+    name: "拳皇 '98 - 周年纪念版, (修改版)"
     source: trimui
   assets:
   - asset:
-      id: 2341
+      id: 2343
       kind: 3
-      kind_id: 2350
+      kind_id: 2352
       type: 1
-      name: kof98.zip
+      name: kof98ae.zip
       format: 2
-      size: 42388605
-      debug: kof98_2.zip
+      size: 50612386
+      debug: kof98ae.zip
     entries:
-    - id: 38314
-      asset_id: 2341
-      name: 242-c1.c1
+    - id: 38383
+      asset_id: 2343
+      name: 242-c1ae.bin
       size: 8388608
-      blob_id: 25523
-    - id: 38315
-      asset_id: 2341
-      name: 242-c2.c2
+      blob_id: 25541
+    - id: 38384
+      asset_id: 2343
+      name: 242-c2ae.bin
       size: 8388608
-      blob_id: 25524
-    - id: 38316
-      asset_id: 2341
-      name: 242-c3.c3
+      blob_id: 25542
+    - id: 38385
+      asset_id: 2343
+      name: 242-c3.bin
       size: 8388608
       blob_id: 25525
-    - id: 38317
-      asset_id: 2341
-      name: 242-c4.c4
+    - id: 38386
+      asset_id: 2343
+      name: 242-c4.bin
       size: 8388608
       blob_id: 25526
-    - id: 38318
-      asset_id: 2341
+    - id: 38387
+      asset_id: 2343
+      name: 242-c5ae.bin
+      size: 8388608
+      blob_id: 25543
+    - id: 38388
+      asset_id: 2343
+      name: 242-c6ae.bin
+      size: 8388608
+      blob_id: 25544
+    - id: 38389
+      asset_id: 2343
+      name: 242-c7ae.bin
+      size: 8388608
+      blob_id: 25545
+    - id: 38390
+      asset_id: 2343
+      name: 242-c8ae.bin
+      size: 8388608
+      blob_id: 25546
+    - id: 38391
+      asset_id: 2343
+      name: 242-c91ae.bin
+      size: 8388608
+      blob_id: 25547
+    - id: 38392
+      asset_id: 2343
+      name: 242-c92ae.bin
+      size: 8388608
+      blob_id: 25548
+    - id: 38393
+      asset_id: 2343
+      name: 242-c93ae.bin
+      size: 8388608
+      blob_id: 25549
+    - id: 38394
+      asset_id: 2343
+      name: 242-c9ae.bin
+      size: 8388608
+      blob_id: 25550
+    - id: 38395
+      asset_id: 2343
+      name: 242-m1ae.bin
+      size: 262144
+      blob_id: 25551
+    - id: 38396
+      asset_id: 2343
+      name: 242-p1ae.bin
+      size: 1048576
+      blob_id: 25552
+    - id: 38397
+      asset_id: 2343
+      name: 242-p2ae.bin
+      size: 6291456
+      blob_id: 25553
+    - id: 38398
+      asset_id: 2343
+      name: 242-s1ae.bin
+      size: 131072
+      blob_id: 25554
+    - id: 38399
+      asset_id: 2343
+      name: 242-v1.bin
+      size: 4194304
+      blob_id: 25535
+    - id: 38400
+      asset_id: 2343
+      name: 242-v2.bin
+      size: 4194304
+      blob_id: 25536
+    - id: 38401
+      asset_id: 2343
+      name: 242-v3.bin
+      size: 4194304
+      blob_id: 25537
+    - id: 38402
+      asset_id: 2343
+      name: 242-v4.bin
+      size: 4194304
+      blob_id: 25538
+    - id: 38403
+      asset_id: 2343
+      name: 242-v5ae.bin
+      size: 4194304
+      blob_id: 25555
+  - asset:
+      id: 44355
+      kind: 3
+      kind_id: 2352
+      type: 4
+      name: kof98.png
+      format: 1
+      size: 54860
+      blob_id: 85009
+      debug: arcade/downloaded_images/kof98.png
+  - asset:
+      id: 44356
+      kind: 3
+      kind_id: 2352
+      type: 6
+      name: kof98.mp4
+      format: 1
+      size: 3420057
+      blob_id: 85010
+      debug: arcade/snap/kof98.mp4
+  - asset:
+      id: 44357
+      kind: 3
+      kind_id: 2352
+      type: 7
+      name: kof98.png
+      format: 1
+      size: 64707
+      blob_id: 85011
+      debug: arcade/wheel/kof98.png
+- release:
+    id: 2353
+    game_id: 2349
+  names:
+  - id: 4707
+    kind: 3
+    kind_id: 2353
+    language: 1
+    name: kof98ae2016
+  assets:
+  - asset:
+      id: 2344
+      kind: 3
+      kind_id: 2353
+      type: 1
+      name: kof98ae2016.zip
+      format: 2
+      size: 30371329
+      debug: kof98ae2016.zip
+    entries:
+    - id: 38404
+      asset_id: 2344
+      name: 242ae-c1.c1
+      size: 8388608
+      blob_id: 25556
+    - id: 38405
+      asset_id: 2344
+      name: 242ae-c10.c10
+      size: 8388608
+      blob_id: 25547
+    - id: 38406
+      asset_id: 2344
+      name: 242ae-c11.c11
+      size: 8388608
+      blob_id: 25557
+    - id: 38407
+      asset_id: 2344
+      name: 242ae-c12.c12
+      size: 8388608
+      blob_id: 25558
+    - id: 38408
+      asset_id: 2344
+      name: 242ae-c2.c2
+      size: 8388608
+      blob_id: 25559
+    - id: 38409
+      asset_id: 2344
+      name: 242ae-c5.c5
+      size: 8388608
+      blob_id: 25543
+    - id: 38410
+      asset_id: 2344
+      name: 242ae-c6.c6
+      size: 8388608
+      blob_id: 25544
+    - id: 38411
+      asset_id: 2344
+      name: 242ae-c7.c7
+      size: 8388608
+      blob_id: 25545
+    - id: 38412
+      asset_id: 2344
+      name: 242ae-c8.c8
+      size: 8388608
+      blob_id: 25546
+    - id: 38413
+      asset_id: 2344
+      name: 242ae-c9.c9
+      size: 8388608
+      blob_id: 25550
+    - id: 38414
+      asset_id: 2344
+      name: 242ae-m1.m1
+      size: 262144
+      blob_id: 25551
+    - id: 38415
+      asset_id: 2344
+      name: 242ae-p1.p1
+      size: 1048576
+      blob_id: 25560
+    - id: 38416
+      asset_id: 2344
+      name: 242ae-p2.sp2
+      size: 6291456
+      blob_id: 25561
+    - id: 38417
+      asset_id: 2344
+      name: 242ae-s1.s1
+      size: 262144
+      blob_id: 25562
+    - id: 38418
+      asset_id: 2344
+      name: 242ae-v5.v5
+      size: 4194304
+      blob_id: 25555
+  - asset:
+      id: 44588
+      kind: 3
+      kind_id: 2353
+      type: 4
+      name: kof98.png
+      format: 1
+      size: 54860
+      blob_id: 85009
+      debug: arcade/downloaded_images/kof98.png
+  - asset:
+      id: 44589
+      kind: 3
+      kind_id: 2353
+      type: 6
+      name: kof98.mp4
+      format: 1
+      size: 3420057
+      blob_id: 85010
+      debug: arcade/snap/kof98.mp4
+  - asset:
+      id: 44590
+      kind: 3
+      kind_id: 2353
+      type: 7
+      name: kof98.png
+      format: 1
+      size: 64707
+      blob_id: 85011
+      debug: arcade/wheel/kof98.png
+- release:
+    id: 2354
+    game_id: 2349
+  names:
+  - id: 4709
+    kind: 3
+    kind_id: 2354
+    language: 1
+    name: kof98cb
+  - id: 101406
+    kind: 3
+    kind_id: 2354
+    language: 2
+    name: "拳皇 '98 - 连技系列 (修改版)"
+    source: trimui
+  assets:
+  - asset:
+      id: 2345
+      kind: 3
+      kind_id: 2354
+      type: 1
+      name: kof98cb.zip
+      format: 2
+      size: 14262201
+      debug: kof98cb.zip
+    entries:
+    - id: 38419
+      asset_id: 2345
+      name: 242cb-c1.c1
+      size: 8388608
+      blob_id: 25563
+    - id: 38420
+      asset_id: 2345
+      name: 242cb-c2.c2
+      size: 8388608
+      blob_id: 25564
+    - id: 38421
+      asset_id: 2345
+      name: 242cb-c3.c3
+      size: 8388608
+      blob_id: 25565
+    - id: 38422
+      asset_id: 2345
+      name: 242cb-c4.c4
+      size: 8388608
+      blob_id: 25566
+    - id: 38423
+      asset_id: 2345
+      name: 242cb-m1.m1
+      size: 262144
+      blob_id: 25567
+    - id: 38424
+      asset_id: 2345
+      name: 242cb-p1.p1
+      size: 1048576
+      blob_id: 25568
+    - id: 38425
+      asset_id: 2345
+      name: 242cb-p2.sp2
+      size: 4194304
+      blob_id: 25569
+    - id: 38426
+      asset_id: 2345
+      name: 242cb-s1.s1
+      size: 131072
+      blob_id: 25570
+  - asset:
+      id: 2346
+      kind: 3
+      kind_id: 2354
+      type: 1
+      name: kof98cb.zip
+      format: 2
+      size: 39812574
+      debug: kof98cb_2.zip
+    entries:
+    - id: 38427
+      asset_id: 2346
       name: 242-c5.c5
       size: 8388608
       blob_id: 25527
-    - id: 38319
-      asset_id: 2341
+    - id: 38428
+      asset_id: 2346
       name: 242-c6.c6
       size: 8388608
       blob_id: 25528
-    - id: 38320
-      asset_id: 2341
+    - id: 38429
+      asset_id: 2346
       name: 242-c7.c7
       size: 8388608
       blob_id: 25529
-    - id: 38321
-      asset_id: 2341
+    - id: 38430
+      asset_id: 2346
       name: 242-c8.c8
       size: 8388608
       blob_id: 25530
-    - id: 38322
-      asset_id: 2341
-      name: 242-m1.m1
-      size: 262144
-      blob_id: 25531
-    - id: 38323
-      asset_id: 2341
-      name: 242-p1.p1
-      size: 2097152
-      blob_id: 25532
-    - id: 38324
-      asset_id: 2341
-      name: 242-p2.sp2
-      size: 4194304
-      blob_id: 25533
-    - id: 38325
-      asset_id: 2341
-      name: 242-s1.s1
-      size: 131072
-      blob_id: 25534
-    - id: 38326
-      asset_id: 2341
+    - id: 38431
+      asset_id: 2346
       name: 242-v1.v1
       size: 4194304
       blob_id: 25535
-    - id: 38327
-      asset_id: 2341
+    - id: 38432
+      asset_id: 2346
       name: 242-v2.v2
       size: 4194304
       blob_id: 25536
-    - id: 38328
-      asset_id: 2341
+    - id: 38433
+      asset_id: 2346
       name: 242-v3.v3
       size: 4194304
       blob_id: 25537
-    - id: 38329
-      asset_id: 2341
+    - id: 38434
+      asset_id: 2346
       name: 242-v4.v4
       size: 4194304
       blob_id: 25538
-    - id: 38330
-      asset_id: 2341
-      name: 000-lo.lo
+    - id: 38435
+      asset_id: 2346
+      name: 242cb-c1.c1
+      size: 8388608
+      blob_id: 25563
+    - id: 38436
+      asset_id: 2346
+      name: 242cb-c2.c2
+      size: 8388608
+      blob_id: 25564
+    - id: 38437
+      asset_id: 2346
+      name: 242cb-c3.c3
+      size: 8388608
+      blob_id: 25565
+    - id: 38438
+      asset_id: 2346
+      name: 242cb-c4.c4
+      size: 8388608
+      blob_id: 25566
+    - id: 38439
+      asset_id: 2346
+      name: 242cb-m1.m1
+      size: 262144
+      blob_id: 25567
+    - id: 38440
+      asset_id: 2346
+      name: 242cb-p1.p1
+      size: 1048576
+      blob_id: 25571
+    - id: 38441
+      asset_id: 2346
+      name: 242cb-p2.sp2
+      size: 4194304
+      blob_id: 25572
+    - id: 38442
+      asset_id: 2346
+      name: 242cb-s1.s1
       size: 131072
-      blob_id: 6263
-    - id: 38331
-      asset_id: 2341
-      name: sfix.sfix
-      size: 131072
-      blob_id: 6264
-    - id: 38332
-      asset_id: 2341
-      name: uni-bios_1_3.rom
-      size: 131072
-      blob_id: 6265
-    - id: 38333
-      asset_id: 2341
-      name: uni-bios_2_0.rom
-      size: 131072
-      blob_id: 6266
-    - id: 38334
-      asset_id: 2341
-      name: uni-bios_2_1.rom
-      size: 131072
-      blob_id: 6267
-    - id: 38335
-      asset_id: 2341
-      name: uni-bios_2_2.rom
-      size: 131072
-      blob_id: 6268
-    - id: 38336
-      asset_id: 2341
-      name: uni-bios_2_3.rom
-      size: 131072
-      blob_id: 6269
-    - id: 38337
-      asset_id: 2341
-      name: uni-bios_2_3o.rom
-      size: 131072
-      blob_id: 6270
-    - id: 38338
-      asset_id: 2341
-      name: uni-bios_3_0.rom
-      size: 131072
-      blob_id: 6271
-    - id: 38339
-      asset_id: 2341
-      name: uni-bios_3_1.rom
-      size: 131072
-      blob_id: 6272
-    - id: 38340
-      asset_id: 2341
-      name: uni-bios_3_2.rom
-      size: 131072
-      blob_id: 6273
-    - id: 38341
-      asset_id: 2341
-      name: uni-bios_3_3.rom
-      size: 131072
-      blob_id: 6274
-    - id: 38342
-      asset_id: 2341
-      name: uni-bios_4_0.rom
-      size: 131072
-      blob_id: 6275
-    - id: 38343
-      asset_id: 2341
-      name: japan-j3.bin
-      size: 131072
-      blob_id: 6276
-    - id: 38344
-      asset_id: 2341
-      name: sm1.sm1
-      size: 131072
-      blob_id: 6277
-    - id: 38345
-      asset_id: 2341
-      name: sp-1v1_3db8c.bin
-      size: 131072
-      blob_id: 6278
-    - id: 38346
-      asset_id: 2341
-      name: sp-45.sp1
-      size: 524288
-      blob_id: 6279
-    - id: 38347
-      asset_id: 2341
-      name: sp-e.sp1
-      size: 131072
-      blob_id: 6280
-    - id: 38348
-      asset_id: 2341
-      name: sp-j2.sp1
-      size: 131072
-      blob_id: 6281
-    - id: 38349
-      asset_id: 2341
-      name: sp-j3.sp1
-      size: 524288
-      blob_id: 6282
-    - id: 38350
-      asset_id: 2341
-      name: sp-s.sp1
-      size: 131072
-      blob_id: 6283
-    - id: 38351
-      asset_id: 2341
-      name: sp-s2.sp1
-      size: 131072
-      blob_id: 6284
-    - id: 38352
-      asset_id: 2341
+      blob_id: 25570
+    - id: 38443
+      asset_id: 2346
       name: sp-s3.sp1
       size: 131072
       blob_id: 6285
-    - id: 38353
-      asset_id: 2341
-      name: sp-u2.sp1
+  - asset:
+      id: 2347
+      kind: 3
+      kind_id: 2354
+      type: 1
+      name: kof98cb.zip
+      format: 2
+      size: 14261896
+      debug: kof98cb_2_2.zip
+    entries:
+    - id: 38444
+      asset_id: 2347
+      name: 242cb-c1.c1
+      size: 8388608
+      blob_id: 25563
+    - id: 38445
+      asset_id: 2347
+      name: 242cb-c2.c2
+      size: 8388608
+      blob_id: 25564
+    - id: 38446
+      asset_id: 2347
+      name: 242cb-c3.c3
+      size: 8388608
+      blob_id: 25565
+    - id: 38447
+      asset_id: 2347
+      name: 242cb-c4.c4
+      size: 8388608
+      blob_id: 25566
+    - id: 38448
+      asset_id: 2347
+      name: 242cb-m1.m1
+      size: 262144
+      blob_id: 25567
+    - id: 38449
+      asset_id: 2347
+      name: 242cb-p1.p1
+      size: 1048576
+      blob_id: 25573
+    - id: 38450
+      asset_id: 2347
+      name: 242cb-p2.sp2
+      size: 4194304
+      blob_id: 25574
+    - id: 38451
+      asset_id: 2347
+      name: 242cb-s1.s1
       size: 131072
-      blob_id: 6286
-    - id: 38354
-      asset_id: 2341
-      name: sp1-j3.bin
-      size: 131072
-      blob_id: 6287
-    - id: 38355
-      asset_id: 2341
-      name: sp1-u2
-      size: 131072
-      blob_id: 6288
-    - id: 38356
-      asset_id: 2341
-      name: sp1-u3.bin
-      size: 131072
-      blob_id: 6289
-    - id: 38357
-      asset_id: 2341
-      name: sp1.jipan.1024
-      size: 131072
-      blob_id: 6290
-    - id: 38358
-      asset_id: 2341
-      name: uni-bios_1_0.rom
-      size: 131072
-      blob_id: 6291
-    - id: 38359
-      asset_id: 2341
-      name: uni-bios_1_1.rom
-      size: 131072
-      blob_id: 6292
-    - id: 38360
-      asset_id: 2341
-      name: uni-bios_1_2.rom
-      size: 131072
-      blob_id: 6293
-    - id: 38361
-      asset_id: 2341
-      name: uni-bios_1_2o.rom
-      size: 131072
-      blob_id: 6294
-    - id: 38362
-      asset_id: 2341
-      name: vs-bios.rom
-      size: 131072
-      blob_id: 6295
-    - id: 38363
-      asset_id: 2341
-      name: sp1-u4.bin
-      size: 131072
-      blob_id: 6296
-    - id: 38364
-      asset_id: 2341
-      name: neo-epo.bin
-      size: 131072
-      blob_id: 6297
-    - id: 38365
-      asset_id: 2341
-      name: neo-po.bin
-      size: 131072
-      blob_id: 6298
-    - id: 38366
-      asset_id: 2341
-      name: neodebug.bin
-      size: 131072
-      blob_id: 6299
+      blob_id: 25570
+  - asset:
+      id: 48130
+      kind: 3
+      kind_id: 2354
+      type: 4
+      name: kof98.png
+      format: 1
+      size: 54860
+      blob_id: 85009
+      debug: arcade/downloaded_images/kof98.png
+  - asset:
+      id: 48131
+      kind: 3
+      kind_id: 2354
+      type: 6
+      name: kof98.mp4
+      format: 1
+      size: 3420057
+      blob_id: 85010
+      debug: arcade/snap/kof98.mp4
+  - asset:
+      id: 48132
+      kind: 3
+      kind_id: 2354
+      type: 7
+      name: kof98.png
+      format: 1
+      size: 64707
+      blob_id: 85011
+      debug: arcade/wheel/kof98.png
 - release:
-    id: 2351
+    id: 2357
     game_id: 2349
   names:
-  - id: 94467
+  - id: 4715
     kind: 3
-    kind_id: 2351
+    kind_id: 2357
     language: 1
-    name: kof98
-  - id: 101405
+    name: kof98cp
+  - id: 101409
     kind: 3
-    kind_id: 2351
+    kind_id: 2357
     language: 2
-    name: "拳皇 '98 - 梦战斗未结束 (NGM-2420)"
+    name: 拳皇98 连技加强版
     source: trimui
   assets:
   - asset:
-      id: 2342
+      id: 2348
       kind: 3
-      kind_id: 2351
+      kind_id: 2357
       type: 1
-      name: kof98.zip
+      name: kof98cp.zip
       format: 2
-      size: 40356106
-      debug: kof98_2_3.zip
+      size: 37316748
+      debug: kof98cp.zip
     entries:
-    - id: 38367
-      asset_id: 2342
-      name: KOF98_C5.ROM
+    - id: 38452
+      asset_id: 2348
+      name: 242-c10cp.c10
       size: 8388608
-      blob_id: 25527
-    - id: 38368
-      asset_id: 2342
-      name: KOF98_C2.ROM
+      blob_id: 25575
+    - id: 38453
+      asset_id: 2348
+      name: 242-c11cp.c11
       size: 8388608
-      blob_id: 25524
-    - id: 38369
-      asset_id: 2342
-      name: KOF98_C3.ROM
+      blob_id: 25557
+    - id: 38454
+      asset_id: 2348
+      name: 242-c12cp.c12
       size: 8388608
-      blob_id: 25525
-    - id: 38370
-      asset_id: 2342
-      name: KOF98_C4.ROM
+      blob_id: 25558
+    - id: 38455
+      asset_id: 2348
+      name: 242-c1cp.c1
       size: 8388608
-      blob_id: 25526
-    - id: 38371
-      asset_id: 2342
-      name: KOF98_C1.ROM
+      blob_id: 25576
+    - id: 38456
+      asset_id: 2348
+      name: 242-c2cp.c2
       size: 8388608
-      blob_id: 25523
-    - id: 38372
-      asset_id: 2342
-      name: KOF98_C6.ROM
+      blob_id: 25577
+    - id: 38457
+      asset_id: 2348
+      name: 242-c3cp.c3
       size: 8388608
-      blob_id: 25528
-    - id: 38373
-      asset_id: 2342
-      name: KOF98_C7.ROM
+      blob_id: 25565
+    - id: 38458
+      asset_id: 2348
+      name: 242-c4cp.c4
       size: 8388608
-      blob_id: 25529
-    - id: 38374
-      asset_id: 2342
-      name: KOF98_C8.ROM
+      blob_id: 25566
+    - id: 38459
+      asset_id: 2348
+      name: 242-c5cp.c5
       size: 8388608
-      blob_id: 25530
-    - id: 38375
-      asset_id: 2342
-      name: KOF98_M1.ROM
+      blob_id: 25543
+    - id: 38460
+      asset_id: 2348
+      name: 242-c6cp.c6
+      size: 8388608
+      blob_id: 25544
+    - id: 38461
+      asset_id: 2348
+      name: 242-c7cp.c7
+      size: 8388608
+      blob_id: 25545
+    - id: 38462
+      asset_id: 2348
+      name: 242-c8cp.c8
+      size: 8388608
+      blob_id: 25546
+    - id: 38463
+      asset_id: 2348
+      name: 242-c9cp.c9
+      size: 8388608
+      blob_id: 25578
+    - id: 38464
+      asset_id: 2348
+      name: 242-m1cp.m1
       size: 262144
-      blob_id: 25539
-    - id: 38376
-      asset_id: 2342
-      name: KOF98_P1.ROM
+      blob_id: 25579
+    - id: 38465
+      asset_id: 2348
+      name: 242-p2cp.sp2
+      size: 4194304
+      blob_id: 25580
+    - id: 38466
+      asset_id: 2348
+      name: 242-p3cp.p3
+      size: 4194304
+      blob_id: 25581
+    - id: 38467
+      asset_id: 2348
+      name: 242-p4cp.p4
+      size: 262144
+      blob_id: 25582
+    - id: 38468
+      asset_id: 2348
+      name: 242-pn1cp.p1
       size: 1048576
-      blob_id: 25540
-    - id: 38377
-      asset_id: 2342
-      name: KOF98_S1.ROM
+      blob_id: 25583
+    - id: 38469
+      asset_id: 2348
+      name: 242-s1cp.s1
       size: 131072
-      blob_id: 25534
-    - id: 38378
-      asset_id: 2342
-      name: KOF98_P2.ROM
+      blob_id: 25584
+    - id: 38470
+      asset_id: 2348
+      name: 242-v5cp.v5
       size: 4194304
-      blob_id: 25533
-    - id: 38379
-      asset_id: 2342
-      name: kof98_v4.rom
+      blob_id: 25555
+  - asset:
+      id: 2349
+      kind: 3
+      kind_id: 2357
+      type: 1
+      name: kof98cp.zip
+      format: 2
+      size: 44803304
+      debug: kof98cp_2.zip
+    entries:
+    - id: 38471
+      asset_id: 2349
+      name: 242-c10cp.c10
+      size: 8388608
+      blob_id: 25585
+    - id: 38472
+      asset_id: 2349
+      name: 242-c11cp.c11
+      size: 8388608
+      blob_id: 25557
+    - id: 38473
+      asset_id: 2349
+      name: 242-c12cp.c12
+      size: 8388608
+      blob_id: 25558
+    - id: 38474
+      asset_id: 2349
+      name: 242-c1cp.c1
+      size: 8388608
+      blob_id: 25586
+    - id: 38475
+      asset_id: 2349
+      name: 242-c2cp.c2
+      size: 8388608
+      blob_id: 25587
+    - id: 38476
+      asset_id: 2349
+      name: 242-c3cp.c3
+      size: 8388608
+      blob_id: 25588
+    - id: 38477
+      asset_id: 2349
+      name: 242-c4cp.c4
+      size: 8388608
+      blob_id: 25589
+    - id: 38478
+      asset_id: 2349
+      name: 242-c5cp.c5
+      size: 8388608
+      blob_id: 25590
+    - id: 38479
+      asset_id: 2349
+      name: 242-c6cp.c6
+      size: 8388608
+      blob_id: 25591
+    - id: 38480
+      asset_id: 2349
+      name: 242-c7cp.c7
+      size: 8388608
+      blob_id: 25592
+    - id: 38481
+      asset_id: 2349
+      name: 242-c8cp.c8
+      size: 8388608
+      blob_id: 25593
+    - id: 38482
+      asset_id: 2349
+      name: 242-c9cp.c9
+      size: 8388608
+      blob_id: 25594
+    - id: 38483
+      asset_id: 2349
+      name: 242-m1cp.m1
+      size: 262144
+      blob_id: 25595
+    - id: 38484
+      asset_id: 2349
+      name: 242-p2cp.sp2
       size: 4194304
-      blob_id: 25538
-    - id: 38380
-      asset_id: 2342
-      name: kof98_v3.rom
+      blob_id: 25596
+    - id: 38485
+      asset_id: 2349
+      name: 242-p3cp.p3
       size: 4194304
-      blob_id: 25537
-    - id: 38381
-      asset_id: 2342
-      name: kof98_v2.rom
-      size: 4194304
-      blob_id: 25536
-    - id: 38382
-      asset_id: 2342
-      name: kof98_v1.rom
+      blob_id: 25581
+    - id: 38486
+      asset_id: 2349
+      name: 242-p4cp.p4
+      size: 262144
+      blob_id: 25582
+    - id: 38487
+      asset_id: 2349
+      name: 242-pn1cp.p1
+      size: 1048576
+      blob_id: 25597
+    - id: 38488
+      asset_id: 2349
+      name: 242-s1cp.s1
+      size: 131072
+      blob_id: 25598
+    - id: 38489
+      asset_id: 2349
+      name: 242-v1.v1
       size: 4194304
       blob_id: 25535
+    - id: 38490
+      asset_id: 2349
+      name: 242-v2.v2
+      size: 4194304
+      blob_id: 25536
+    - id: 38491
+      asset_id: 2349
+      name: 242-v3.v3
+      size: 4194304
+      blob_id: 25537
+    - id: 38492
+      asset_id: 2349
+      name: 242-v4.v4
+      size: 4194304
+      blob_id: 25538
+    - id: 38493
+      asset_id: 2349
+      name: 242-v5cp.v5
+      size: 4194304
+      blob_id: 25555
+- release:
+    id: 2359
+    game_id: 2349
+  names:
+  - id: 4719
+    kind: 3
+    kind_id: 2359
+    language: 1
+    name: kof98eckg
+  assets:
+  - asset:
+      id: 2350
+      kind: 3
+      kind_id: 2359
+      type: 1
+      name: kof98eckg.zip
+      format: 2
+      size: 41446916
+      debug: kof98eckg.zip
+    entries:
+    - id: 38494
+      asset_id: 2350
+      name: 242-c1eckg.c1
+      size: 8388608
+      blob_id: 25599
+    - id: 38495
+      asset_id: 2350
+      name: 242-c2eckg.c2
+      size: 8388608
+      blob_id: 25600
+    - id: 38496
+      asset_id: 2350
+      name: 242-c3eckg.c3
+      size: 8388608
+      blob_id: 25601
+    - id: 38497
+      asset_id: 2350
+      name: 242-c4eckg.c4
+      size: 8388608
+      blob_id: 25602
+    - id: 38498
+      asset_id: 2350
+      name: 242-c5eckg.c5
+      size: 8388608
+      blob_id: 25603
+    - id: 38499
+      asset_id: 2350
+      name: 242-c6eckg.c6
+      size: 8388608
+      blob_id: 25604
+    - id: 38500
+      asset_id: 2350
+      name: 242-c7eckg.c7
+      size: 8388608
+      blob_id: 25605
+    - id: 38501
+      asset_id: 2350
+      name: 242-c8eckg.c8
+      size: 8388608
+      blob_id: 25606
+    - id: 38502
+      asset_id: 2350
+      name: 242-m1.m1
+      size: 262144
+      blob_id: 25539
+    - id: 38503
+      asset_id: 2350
+      name: 242-p1eckg.p1
+      size: 2097152
+      blob_id: 25607
+    - id: 38504
+      asset_id: 2350
+      name: 242-p2eckg.sp2
+      size: 4194304
+      blob_id: 25608
+    - id: 38505
+      asset_id: 2350
+      name: 242-s1eckg.s1
+      size: 131072
+      blob_id: 25609
+    - id: 38506
+      asset_id: 2350
+      name: 242-v1eckg.v1
+      size: 4194304
+      blob_id: 25610
+    - id: 38507
+      asset_id: 2350
+      name: 242-v2eckg.v2
+      size: 4194304
+      blob_id: 25611
+    - id: 38508
+      asset_id: 2350
+      name: 242-v3eckg.v3
+      size: 4194304
+      blob_id: 25612
+    - id: 38509
+      asset_id: 2350
+      name: 242-v4eckg.v4
+      size: 4194304
+      blob_id: 25613
+- release:
+    id: 2360
+    game_id: 2349
+  names:
+  - id: 4721
+    kind: 3
+    kind_id: 2360
+    language: 1
+    name: kof98ecky
+  assets:
+  - asset:
+      id: 2351
+      kind: 3
+      kind_id: 2360
+      type: 1
+      name: kof98ecky.zip
+      format: 2
+      size: 41452803
+      debug: kof98ecky.zip
+    entries:
+    - id: 38510
+      asset_id: 2351
+      name: 242-c1ecky.c1
+      size: 8388608
+      blob_id: 25614
+    - id: 38511
+      asset_id: 2351
+      name: 242-c2ecky.c2
+      size: 8388608
+      blob_id: 25615
+    - id: 38512
+      asset_id: 2351
+      name: 242-c3ecky.c3
+      size: 8388608
+      blob_id: 25616
+    - id: 38513
+      asset_id: 2351
+      name: 242-c4ecky.c4
+      size: 8388608
+      blob_id: 25617
+    - id: 38514
+      asset_id: 2351
+      name: 242-c5ecky.c5
+      size: 8388608
+      blob_id: 25618
+    - id: 38515
+      asset_id: 2351
+      name: 242-c6ecky.c6
+      size: 8388608
+      blob_id: 25619
+    - id: 38516
+      asset_id: 2351
+      name: 242-c7ecky.c7
+      size: 8388608
+      blob_id: 25620
+    - id: 38517
+      asset_id: 2351
+      name: 242-c8ecky.c8
+      size: 8388608
+      blob_id: 25621
+    - id: 38518
+      asset_id: 2351
+      name: 242-m1ecky.m1
+      size: 262144
+      blob_id: 25622
+    - id: 38519
+      asset_id: 2351
+      name: 242-p1ecky.p1
+      size: 2097152
+      blob_id: 25623
+    - id: 38520
+      asset_id: 2351
+      name: 242-p2ecky.sp2
+      size: 4194304
+      blob_id: 25624
+    - id: 38521
+      asset_id: 2351
+      name: 242-s1ecky.s1
+      size: 131072
+      blob_id: 25625
+    - id: 38522
+      asset_id: 2351
+      name: 242-v1ecky.v1
+      size: 4194304
+      blob_id: 25626
+    - id: 38523
+      asset_id: 2351
+      name: 242-v2ecky.v2
+      size: 4194304
+      blob_id: 25627
+    - id: 38524
+      asset_id: 2351
+      name: 242-v3ecky.v3
+      size: 4194304
+      blob_id: 25628
+    - id: 38525
+      asset_id: 2351
+      name: 242-v4ecky.v4
+      size: 4194304
+      blob_id: 25629
+- release:
+    id: 2362
+    game_id: 2349
+  names:
+  - id: 94471
+    kind: 3
+    kind_id: 2362
+    language: 1
+    name: kof98h
+  - id: 101412
+    kind: 3
+    kind_id: 2362
+    language: 2
+    name: "拳皇 '98 - 梦战斗未结束 (NGH-2420)"
+    source: trimui
+  assets:
+  - asset:
+      id: 2353
+      kind: 3
+      kind_id: 2362
+      type: 1
+      name: kof98h.zip
+      format: 2
+      size: 40353052
+      debug: kof98h_2.zip
+    entries:
+    - id: 38528
+      asset_id: 2353
+      name: 242-c1.c1
+      size: 8388608
+      blob_id: 25523
+    - id: 38529
+      asset_id: 2353
+      name: 242-c2.c2
+      size: 8388608
+      blob_id: 25524
+    - id: 38530
+      asset_id: 2353
+      name: 242-c3.c3
+      size: 8388608
+      blob_id: 25525
+    - id: 38531
+      asset_id: 2353
+      name: 242-c4.c4
+      size: 8388608
+      blob_id: 25526
+    - id: 38532
+      asset_id: 2353
+      name: 242-c5.c5
+      size: 8388608
+      blob_id: 25527
+    - id: 38533
+      asset_id: 2353
+      name: 242-c6.c6
+      size: 8388608
+      blob_id: 25528
+    - id: 38534
+      asset_id: 2353
+      name: 242-c7.c7
+      size: 8388608
+      blob_id: 25529
+    - id: 38535
+      asset_id: 2353
+      name: 242-c8.c8
+      size: 8388608
+      blob_id: 25530
+    - id: 38536
+      asset_id: 2353
+      name: 242-m1.m1
+      size: 262144
+      blob_id: 25539
+    - id: 38537
+      asset_id: 2353
+      name: 242-p2.sp2
+      size: 4194304
+      blob_id: 25631
+    - id: 38538
+      asset_id: 2353
+      name: 242-pn1.p1
+      size: 1048576
+      blob_id: 25632
+    - id: 38539
+      asset_id: 2353
+      name: 242-s1.s1
+      size: 131072
+      blob_id: 25534
+    - id: 38540
+      asset_id: 2353
+      name: 242-v1.v1
+      size: 4194304
+      blob_id: 25535
+    - id: 38541
+      asset_id: 2353
+      name: 242-v2.v2
+      size: 4194304
+      blob_id: 25536
+    - id: 38542
+      asset_id: 2353
+      name: 242-v3.v3
+      size: 4194304
+      blob_id: 25537
+    - id: 38543
+      asset_id: 2353
+      name: 242-v4.v4
+      size: 4194304
+      blob_id: 25538
+- release:
+    id: 2363
+    game_id: 2349
+  names:
+  - id: 4727
+    kind: 3
+    kind_id: 2363
+    language: 1
+    name: kof98mix
+  - id: 99409
+    kind: 3
+    kind_id: 2363
+    language: 2
+    name: "拳皇 '98 - 无限 (修改版)"
+    source: trimui
+  assets:
+  - asset:
+      id: 2354
+      kind: 3
+      kind_id: 2363
+      type: 1
+      name: kof98mix.zip
+      format: 2
+      size: 10012107
+      debug: kof98mix.zip
+    entries:
+    - id: 38544
+      asset_id: 2354
+      name: 242-mg1.m1
+      size: 262144
+      blob_id: 25539
+    - id: 38545
+      asset_id: 2354
+      name: 242mix.c10
+      size: 8388608
+      blob_id: 25633
+    - id: 38546
+      asset_id: 2354
+      name: 242mix.c7
+      size: 8388608
+      blob_id: 25634
+    - id: 38547
+      asset_id: 2354
+      name: 242mix.c8
+      size: 8388608
+      blob_id: 25635
+    - id: 38548
+      asset_id: 2354
+      name: 242mix.c9
+      size: 8388608
+      blob_id: 25636
+    - id: 38549
+      asset_id: 2354
+      name: 242mix.p1
+      size: 1048576
+      blob_id: 25637
+    - id: 38550
+      asset_id: 2354
+      name: 242mix.p2
+      size: 4194304
+      blob_id: 25638
+    - id: 38551
+      asset_id: 2354
+      name: 242mix.s1
+      size: 131072
+      blob_id: 25639
+- release:
+    id: 2364
+    game_id: 2349
+  names:
+  - id: 4729
+    kind: 3
+    kind_id: 2364
+    language: 1
+    name: kof98pfe
+  - id: 99410
+    kind: 3
+    kind_id: 2364
+    language: 2
+    name: "拳皇 '98 - 强化最终版 (修改版)"
+    source: trimui
+  assets:
+  - asset:
+      id: 2355
+      kind: 3
+      kind_id: 2364
+      type: 1
+      name: kof98pfe.zip
+      format: 2
+      size: 13832152
+      debug: kof98pfe.zip
+    entries:
+    - id: 38552
+      asset_id: 2355
+      name: 242-mg1.m1
+      size: 262144
+      blob_id: 25539
+    - id: 38553
+      asset_id: 2355
+      name: 242hx73.c1
+      size: 8388608
+      blob_id: 25640
+    - id: 38554
+      asset_id: 2355
+      name: 242hx73.c2
+      size: 8388608
+      blob_id: 25641
+    - id: 38555
+      asset_id: 2355
+      name: 242pfe.c7
+      size: 8388608
+      blob_id: 25642
+    - id: 38556
+      asset_id: 2355
+      name: 242pfe.c8
+      size: 8388608
+      blob_id: 25643
+    - id: 38557
+      asset_id: 2355
+      name: 242pfe.p1
+      size: 1048576
+      blob_id: 25644
+    - id: 38558
+      asset_id: 2355
+      name: 242pfe.p2
+      size: 4194304
+      blob_id: 25645
+    - id: 38559
+      asset_id: 2355
+      name: 242pfe.p3
+      size: 131072
+      blob_id: 25646
+    - id: 38560
+      asset_id: 2355
+      name: 242pfe.s1
+      size: 131072
+      blob_id: 25647
+  - asset:
+      id: 41437
+      kind: 3
+      kind_id: 2364
+      type: 4
+      name: kof98.png
+      format: 1
+      size: 54860
+      blob_id: 85009
+      debug: arcade/downloaded_images/kof98.png
+  - asset:
+      id: 41438
+      kind: 3
+      kind_id: 2364
+      type: 6
+      name: kof98.mp4
+      format: 1
+      size: 3420057
+      blob_id: 85010
+      debug: arcade/snap/kof98.mp4
+  - asset:
+      id: 41439
+      kind: 3
+      kind_id: 2364
+      type: 7
+      name: kof98.png
+      format: 1
+      size: 64707
+      blob_id: 85011
+      debug: arcade/wheel/kof98.png
+- release:
+    id: 2365
+    game_id: 2349
+  names:
+  - id: 4731
+    kind: 3
+    kind_id: 2365
+    language: 1
+    name: kof98ult
+  - id: 99411
+    kind: 3
+    kind_id: 2365
+    language: 2
+    name: "拳皇 '98 - 终极比赛 (修改版)"
+    source: trimui
+  assets:
+  - asset:
+      id: 2356
+      kind: 3
+      kind_id: 2365
+      type: 1
+      name: kof98ult.zip
+      format: 2
+      size: 30348483
+      debug: kof98ult.zip
+    entries:
+    - id: 38561
+      asset_id: 2356
+      name: 242ae-c11.c11
+      size: 8388608
+      blob_id: 25557
+    - id: 38562
+      asset_id: 2356
+      name: 242ae-c12.c12
+      size: 8388608
+      blob_id: 25558
+    - id: 38563
+      asset_id: 2356
+      name: 242ae-c5.c5
+      size: 8388608
+      blob_id: 25543
+    - id: 38564
+      asset_id: 2356
+      name: 242ae-c6.c6
+      size: 8388608
+      blob_id: 25544
+    - id: 38565
+      asset_id: 2356
+      name: 242ae-c7.c7
+      size: 8388608
+      blob_id: 25545
+    - id: 38566
+      asset_id: 2356
+      name: 242ae-c8.c8
+      size: 8388608
+      blob_id: 25546
+    - id: 38567
+      asset_id: 2356
+      name: 242ae-m1.m1
+      size: 262144
+      blob_id: 25551
+    - id: 38568
+      asset_id: 2356
+      name: 242ae-v5.v5
+      size: 4194304
+      blob_id: 25555
+    - id: 38569
+      asset_id: 2356
+      name: 242ult.c1
+      size: 8388608
+      blob_id: 25648
+    - id: 38570
+      asset_id: 2356
+      name: 242ult.c10
+      size: 8388608
+      blob_id: 25649
+    - id: 38571
+      asset_id: 2356
+      name: 242ult.c2
+      size: 8388608
+      blob_id: 25650
+    - id: 38572
+      asset_id: 2356
+      name: 242ult.c9
+      size: 8388608
+      blob_id: 25651
+    - id: 38573
+      asset_id: 2356
+      name: 242ult.p1
+      size: 1048576
+      blob_id: 25652
+    - id: 38574
+      asset_id: 2356
+      name: 242ult.p2
+      size: 6291456
+      blob_id: 25653
+    - id: 38575
+      asset_id: 2356
+      name: 242ult.s1
+      size: 262144
+      blob_id: 25654
+- release:
+    id: 33262
+    game_id: 2349
+  names:
+  - id: 78372
+    kind: 3
+    kind_id: 33262
+    language: 1
+    name: kof98umh
+  - id: 100429
+    kind: 3
+    kind_id: 33262
+    language: 2
+    name: 拳皇98 终极之战英雄
+    source: trimui
+  assets:
+  - asset:
+      id: 35484
+      kind: 3
+      kind_id: 33262
+      type: 1
+      name: kof98umh.zip
+      format: 2
+      size: 221122982
+      debug: kof98umh.zip
+    entries:
+    - id: 88392
+      asset_id: 35484
+      name: ig-d3_maph0.u15
+      size: 67108864
+      blob_id: 79168
+    - id: 88393
+      asset_id: 35484
+      name: ig-d3_mapl0.u13
+      size: 67108864
+      blob_id: 79169
+    - id: 88394
+      asset_id: 35484
+      name: ig-d3_spa0.u9
+      size: 67108864
+      blob_id: 79170
+    - id: 88395
+      asset_id: 35484
+      name: ig-d3_spa2.u10
+      size: 67108864
+      blob_id: 79171
+    - id: 88396
+      asset_id: 35484
+      name: ig-d3_spb0.u18
+      size: 67108864
+      blob_id: 79172
+    - id: 88397
+      asset_id: 35484
+      name: ig-d3_spb2.u20
+      size: 67108864
+      blob_id: 79173
+    - id: 88398
+      asset_id: 35484
+      name: ig-d3_text.u1
+      size: 2097152
+      blob_id: 79174
+    - id: 88399
+      asset_id: 35484
+      name: ig-d3_wave0.u12
+      size: 67108864
+      blob_id: 79175
+    - id: 88400
+      asset_id: 35484
+      name: ig-d3_wave1.u11
+      size: 67108864
+      blob_id: 79176
+    - id: 88401
+      asset_id: 35484
+      name: kof98umh_internal_rom.bin
+      size: 16384
+      blob_id: 79177
+    - id: 88402
+      asset_id: 35484
+      name: kof98umh_sram
+      size: 65536
+      blob_id: 79178
+    - id: 88403
+      asset_id: 35484
+      name: kof98umh_v100cn.u4
+      size: 16777216
+      blob_id: 79179
 - release:
     id: 77582
     game_id: 2349
