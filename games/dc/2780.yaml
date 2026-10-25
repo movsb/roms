@@ -4,46 +4,16 @@ game:
   description: "Metal Slug 2 - Super Vehicle-001/II (c) 1998 SNK.  The heroes of Metal Slug, Marco and Tarma, are called into action once again to take on the might of General Morden and his armies in this, the first of several sequels to the superb 1996 original. This t"
   series_id: 21
 names:
-- id: 5560
+- id: 257131
+  kind: 2
+  kind_id: 2780
+  language: 2
+  name: 合金弹头 2
+- id: 257132
   kind: 2
   kind_id: 2780
   language: 1
   name: mslug2
-- id: 187020
-  kind: 2
-  kind_id: 2780
-  language: 1
-  name: mslug2t
-- id: 187021
-  kind: 2
-  kind_id: 2780
-  language: 2
-  name: 合金弹头 2 加速版 (NGM-9410)
-  source: trimui
-- id: 241764
-  kind: 2
-  kind_id: 2780
-  language: 1
-  name: "Metal Slug 2 - Early Summer Starry Night (Hack)"
-  source: fbneo
-- id: 241765
-  kind: 2
-  kind_id: 2780
-  language: 1
-  name: "Metal Slug 2 - Extraction Green Turbo (Hack)"
-  source: fbneo
-- id: 241766
-  kind: 2
-  kind_id: 2780
-  language: 1
-  name: "Metal Slug 2 - Friendly Fire FC2 (Hack)"
-  source: fbneo
-- id: 241767
-  kind: 2
-  kind_id: 2780
-  language: 1
-  name: "Metal Slug 2 - Super Vehicle-001/II (Modified by AKS, Hack)"
-  source: fbneo
 game_developers:
 - game_id: 2780
   developer_id: 326
@@ -57,6 +27,7 @@ releases:
     id: 2780
     game_id: 2780
     release_date: 19980000
+    release_type: 1
   names:
   - id: 5561
     kind: 3
@@ -623,163 +594,6 @@ releases:
         repository=https://github.com/finalburnneo/FBNeo-extras
         revision=d61f692a027ad7bcbaccceda20e43ed47900dcda
         source=titles/mslug2.png
-- release:
-    id: 2781
-    game_id: 2780
-  names:
-  - id: 94561
-    kind: 3
-    kind_id: 2781
-    language: 1
-    name: mslug2
-  - id: 101578
-    kind: 3
-    kind_id: 2781
-    language: 2
-    name: "合金弹头 2 - 超级战车-001/II (NGM-2410 ~ NGH-2410)"
-    source: trimui
-  assets:
-  - asset:
-      id: 2768
-      kind: 3
-      kind_id: 2781
-      type: 1
-      name: mslug2.zip
-      format: 2
-      size: 17822669
-      debug: mslug2_2.zip
-    entries:
-    - id: 44787
-      asset_id: 2768
-      name: 241-c1.c1
-      size: 8388608
-      blob_id: 28429
-    - id: 44788
-      asset_id: 2768
-      name: 241-c2.c2
-      size: 8388608
-      blob_id: 28430
-    - id: 44789
-      asset_id: 2768
-      name: 241-c3.c3
-      size: 8388608
-      blob_id: 28431
-    - id: 44790
-      asset_id: 2768
-      name: 241-c4.c4
-      size: 8388608
-      blob_id: 28432
-    - id: 44791
-      asset_id: 2768
-      name: 241-m1.m1
-      size: 131072
-      blob_id: 28428
-    - id: 44792
-      asset_id: 2768
-      name: 241-p1.p1
-      size: 1048576
-      blob_id: 28425
-    - id: 44793
-      asset_id: 2768
-      name: 241-p2.sp2
-      size: 2097152
-      blob_id: 28426
-    - id: 44794
-      asset_id: 2768
-      name: 241-s1.s1
-      size: 131072
-      blob_id: 28433
-    - id: 44795
-      asset_id: 2768
-      name: 241-v1.v1
-      size: 4194304
-      blob_id: 28427
-    - id: 44796
-      asset_id: 2768
-      name: 241-v2.v2
-      size: 4194304
-      blob_id: 28424
-    - id: 44797
-      asset_id: 2768
-      name: mslug2t/941-p1.p1
-      size: 1048576
-      blob_id: 29598
-- release:
-    id: 2782
-    game_id: 2780
-  names:
-  - id: 94562
-    kind: 3
-    kind_id: 2782
-    language: 1
-    name: mslug2
-  - id: 101579
-    kind: 3
-    kind_id: 2782
-    language: 2
-    name: "合金弹头 2 - 超级战车-001/II (NGM-2410 ~ NGH-2410)"
-    source: trimui
-  assets:
-  - asset:
-      id: 2769
-      kind: 3
-      kind_id: 2782
-      type: 1
-      name: mslug2.zip
-      format: 2
-      size: 17473889
-      debug: mslug2_2_3.zip
-    entries:
-    - id: 44798
-      asset_id: 2769
-      name: 241-c1.bin
-      size: 8388608
-      blob_id: 28429
-    - id: 44799
-      asset_id: 2769
-      name: 241-c2.bin
-      size: 8388608
-      blob_id: 28430
-    - id: 44800
-      asset_id: 2769
-      name: 241-c3.bin
-      size: 8388608
-      blob_id: 28431
-    - id: 44801
-      asset_id: 2769
-      name: 241-c4.bin
-      size: 8388608
-      blob_id: 28432
-    - id: 44802
-      asset_id: 2769
-      name: 241-m1.bin
-      size: 131072
-      blob_id: 28428
-    - id: 44803
-      asset_id: 2769
-      name: 241-p1.bin
-      size: 1048576
-      blob_id: 28425
-    - id: 44804
-      asset_id: 2769
-      name: 241-p2.bin
-      size: 2097152
-      blob_id: 28426
-    - id: 44805
-      asset_id: 2769
-      name: 241-s1.bin
-      size: 131072
-      blob_id: 28433
-    - id: 44806
-      asset_id: 2769
-      name: 241-v1.bin
-      size: 4194304
-      blob_id: 28427
-    - id: 44807
-      asset_id: 2769
-      name: 241-v2.bin
-      size: 4194304
-      blob_id: 28424
 - release:
     id: 77595
     game_id: 2780
