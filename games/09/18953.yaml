@@ -1,18 +1,35 @@
 game:
   id: 18953
   platform_id: 2
+  description: "FC/Famicom/NES 上没有任天堂官方发行的《宝可梦／口袋妖怪》游戏。\n\n官方系列首作是1996年在 Game Boy 上发行的：\n- 《宝可梦 红》\n- 《宝可梦 绿》\n- 后续《宝可梦 蓝》《宝可梦 皮卡丘》\nFC 上流传的所谓：\n- 《口袋妖怪 黄》\n- 《口袋妖怪 金／银》\n- 《宠物小精灵》\n- 《皮卡丘》\n- Pokémon / Pocket Monster\n基本都是未经授权的盗版移植、改版、换皮或自制游戏，有些还是把其他 FC RPG 修改而成。"
 names:
 - id: 92749
   kind: 2
   kind_id: 18953
   language: 1
   name: Pocket Monster
-- id: 248362
+- id: 257141
+  kind: 2
+  kind_id: 18953
+  language: 2
+  name: 宝可梦
+  deprecated: 1
+- id: 257142
   kind: 2
   kind_id: 18953
   language: 2
   name: 口袋妖怪
-  source: codex
+assets:
+- asset:
+    id: 135027
+    kind: 2
+    kind_id: 18953
+    type: 9
+    name: Pocket Monster (Unl) [!]-261026-152755.png
+    format: 1
+    size: 4849
+    blob_id: 321722
+    debug: fbui:retroarch-screenshot
 releases:
 - release:
     id: 18953
@@ -36,23 +53,3 @@ releases:
       debug: |-
         Pocket Monster (Unl) [!].nes
         Pocket Monster (Unl) [!].zip
-- release:
-    id: 18955
-    game_id: 18953
-  names:
-  - id: 42238
-    kind: 3
-    kind_id: 18955
-    language: 1
-    name: Pocket Monster (Unl) [o1]
-  assets:
-  - asset:
-      id: 18937
-      kind: 3
-      kind_id: 18955
-      type: 1
-      name: Pocket Monster (Unl) [o1].nes
-      format: 1
-      size: 196678
-      blob_id: 64479
-      debug: Pocket Monster (Unl) [o1].nes
