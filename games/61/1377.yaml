@@ -216,6 +216,8 @@ releases:
 - release:
     id: 1382
     game_id: 1377
+    description: "查清楚了：发行版 1382 目前这份 ROM 无法通过简单补父集运行，因为 ROM 数据与任何已查到的标准清单都不匹配。\n\n有两条可行路线：\n\n1. 当前 FBNeo 路线，推荐\n\n当前 FBNeo 已正式支持 `dinods`，短名仍是 `dinods.zip`，但要求三个改版程序文件：\n\n- `cdds_23a.8f` — CRC `3c5c564d`\n- `cdds_22a.7f` — CRC `b0a03ae3`\n- `cdds_21a.6f` — CRC `463dbeed`\n- 再加原版 `dino` 的公共组件\n\n这是 FBNeo 当前源码定义的“Cadillacs and Dinosaurs (God of War, Hack)”。[FBNeo 官方源码](https://github.com/finalburnneo/FBNeo/blob/master/src/burn/drv/capcom/d_cps1.cpp)\n\n设备还需要一个用 TrimUI 旧版系统工具链编译的较新 FBNeo 核心。Libretro 通用 AArch64 nightly 虽然认识 `dinods`，但我实测它要求 `GLIBC_2.34`，246 的系统太旧，不能直接加载。因此需要：\n\n- 找到新版 TrimUI/CrossMix 专用 FBNeo 核心；或者\n- 用 TrimUI SDK/旧 glibc 工具链自行编译当前 FBNeo。\n\n2. 旧版 FBNeo 路线\n\n网上还能找到早期的两文件清单：\n\n- `dino.key` — CRC `230b6eb0`\n- `dinods.bin` — CRC `08a53082`\n- 并依赖父集 `dino`\n\n[Planet Emulation 的旧版清单](https://www.planetemu.net/en/rom/finalburn-neo-arcade-games/dinods)\n\n但 gm 现在的 `dinods.bin` CRC 是 `4639b278`，并不是 `08a53082`。因此即使找到支持旧版 `dinods` 的核心，现有文件仍然对不上。\n\n结论：最可靠的修复是取得与当前 FBNeo 源码匹配的三个 `cdds_*` 程序 ROM，加上已经存在的 `dino` 父集，重新建立发行版 1382；同时给 TrimUI 编译一颗新版 FBNeo 核心。FBNeo 官方文档也明确说明，`Romset is unknown` 表示核心的驱动数据库不认识该短名，不是缺父集文件。[Libretro FBNeo 文档](https://docs.libretro.com/library/fbneo/)\n\n当前设备上的正式核心没有被覆盖，77 MB 临时核心已经清理；原 split 包和刚生成的 non-merged 包都还保留着。"
+    release_type: 3
   names:
   - id: 2765
     kind: 3
@@ -228,6 +230,16 @@ releases:
     language: 2
     name: 恐龙新世纪 战神版
     source: trimui
+  - id: 257157
+    kind: 3
+    kind_id: 1382
+    language: 1
+    name: Cadillacs and Dinosaurs (God of War, Hack)
+  - id: 257158
+    kind: 3
+    kind_id: 1382
+    language: 2
+    name: 战神版
   assets:
   - asset:
       id: 1382
@@ -392,6 +404,8 @@ releases:
 - release:
     id: 1383
     game_id: 1377
+    description: "1383 和 1377 属于同一个游戏，但性质不同：\n\n| 项目 | 1377 | 1383 |\n|---|---|---|\n| 短名 | `dino` | `dinoeh` |\n| 身份 | 世界版原版 | 原版的民间修改版 |\n| 标题 | 世界版（930201） | Cadillacs and Dinosaurs (hack, 930201 etc) |\n| MAME 支持 | 0.259、0.289 | 库中没有 MAME 映射 |\n| FBNeo 支持 | 有 | 有，父集是 `dino` |\n| ROM 文件 | 28 个 | 16 个旧式 FBA 清单 |\n\nROM 的实际差异很小：\n\n- 8 个图形 ROM 完全相同。\n- 5 个 QSound 音频 ROM 完全相同。\n- `cde_22a` 主程序 ROM 相同。\n- 只修改了另外两个主程序 ROM：\n  - 原版 `cde_21a.6f` → 改版 `dinoeh.21`\n  - 原版 `cde_23a.8f` → 改版 `dinoeh.23`\n\n所以它不是续作，也不是“恐龙快打2”。一些廉价街机合集把 `dinoeh` 显示成 `Cadillacs & Dinosaurs 2`，只是营销名称。可靠清单只把它记作泛称的 “hack”，没有说明具体改了哪些数值或玩法。[旧版 FBNeo 清单及校验值](https://www.planetemu.net/en/rom/finalburn-neo-arcade-games/dinoeh)\n\n另外，246 当前的 FBNeo 核心确实内置了 `dinoeh` 驱动，理论上 1383 比刚才的 `dinods` 更容易运行。1383 的图形、音乐和基本内容都与原版一致，区别主要藏在程序逻辑中。建议中文显示名改为：\n\n**恐龙新世纪（修改版）**\n\n并把现在类似“恐龙快打 - 凯迪拉克和恐龙（修改版，930201 etc）”的长名字作为历史/搜索名。"
+    release_type: 3
   names:
   - id: 2767
     kind: 3
@@ -404,6 +418,16 @@ releases:
     language: 2
     name: "恐龙快打 - 凯迪拉克和恐龙 (修改版, 930201 etc)"
     source: trimui
+  - id: 257159
+    kind: 3
+    kind_id: 1383
+    language: 1
+    name: Cadillacs and Dinosaurs (hack, 930201 etc)
+  - id: 257160
+    kind: 3
+    kind_id: 1383
+    language: 2
+    name: 未知改版
   assets:
   - asset:
       id: 1383
@@ -524,6 +548,12 @@ releases:
     language: 2
     name: "恐龙快打 - 凯迪拉克和恐龙 (D版 第三套, 930223 亚版 中国台湾)"
     source: trimui
+    deprecated: 1
+  - id: 257161
+    kind: 3
+    kind_id: 1384
+    language: 2
+    name: 930223 亚版 台湾 盗版
   assets:
   - asset:
       id: 1384
