@@ -12,17 +12,28 @@ names:
   kind_id: 1377
   language: 2
   name: 恐龙新世纪
+  deprecated: 1
 - id: 257153
   kind: 2
   kind_id: 1377
   language: 2
   name: 恐龙快打
-  deprecated: 1
 - id: 257154
   kind: 2
   kind_id: 1377
   language: 2
   name: 恐龙二代
+  deprecated: 1
+- id: 257170
+  kind: 2
+  kind_id: 1377
+  language: 3
+  name: キャディラックス
+- id: 257171
+  kind: 2
+  kind_id: 1377
+  language: 2
+  name: 凯迪拉克与恐龙
   deprecated: 1
 releases:
 - release:
@@ -554,6 +565,12 @@ releases:
     kind_id: 1384
     language: 2
     name: 930223 亚版 台湾 盗版
+  - id: 257162
+    kind: 3
+    kind_id: 1384
+    language: 1
+    name: Bootleg set 3，930223 亚洲/台湾版
+    deprecated: 1
   assets:
   - asset:
       id: 1384
@@ -667,6 +684,7 @@ releases:
 - release:
     id: 1385
     game_id: 1377
+    description: "1384 和 1385 都是《恐龙新世纪》的非官方盗版，但不是同一套。\n\n| 项目 | 1384 | 1385 |\n|---|---|---|\n| 短名 | `dinoh` | `dinohc` |\n| 标准说明 | Bootleg set 3，930223 亚洲/台湾版 | Chinese bootleg，930223 亚洲/台湾版 |\n| 主程序 | 4 × 512 KiB | 3 × 512 KiB |\n| 图形 ROM | 8 个，与对方内容相同 | 8 个，与对方内容相同 |\n| 声音硬件 | 保留原版 QSound 数据 | 改用盗版 Z80 + OKI 声音结构 |\n| FBNeo 父集 | `dino` | `dino` |\n\n最明显的区别：\n\n- 两者的全部图形 ROM 完全相同，因此人物、场景和动画素材没有区别。\n- 主程序完全不同，属于两套不同的盗版程序。\n- 1384 保留了原版的 QSound 音频数据。\n- 1385 没有原版 QSound ROM，而是：\n  - 1 个 64 KiB 声音程序；\n  - 2 个 128 KiB OKI 采样文件。\n- 一些旧模拟器将 `dinohc` 标为 `MACHINE_NO_SOUND`，说明这种盗版声卡过去未能正确模拟；不代表原始盗版街机一定没有声音。[HBMAME 驱动记录](https://git.redump.net/hbmame/tree/docs/release/src/hbmame/drivers/mnw.cpp?h=mame0142u4&id=c6b166fd162309c3a09eb2a3939b443ec032bab4)\n\n开屏也不同：\n\n- 1384 把副标题改成了 `DINOSAURS & HUNTERS`。\n- 1385 仍显示原来的 `CADILLACS & DINOSAURS`。\n\n因此建议名称为：\n\n- **1384：恐龙新世纪（亚洲台湾盗版，第三套，930223）**\n- **1385：恐龙新世纪（中国盗版，930223）**\n\n当前 1385 名称里的“D版”就是“盗版”的模糊写法，直接写“盗版”更准确。它们都不是玩法改版或续作，主要是两种不同盗版硬件和程序实现。"
   names:
   - id: 2771
     kind: 3
@@ -679,6 +697,11 @@ releases:
     language: 2
     name: "恐龙快打 - 凯迪拉克和恐龙 (中国 D版, 930223 亚版 中国台湾)"
     source: trimui
+  - id: 257164
+    kind: 3
+    kind_id: 1385
+    language: 2
+    name: 930223 亚版 台湾 盗版
   assets:
   - asset:
       id: 1385
@@ -789,6 +812,11 @@ releases:
     language: 2
     name: "恐龙快打 - 恐龙猎人 (Cadillacs and Dinosaurs 的汉语D版)"
     source: trimui
+  - id: 257165
+    kind: 3
+    kind_id: 1386
+    language: 2
+    name: 恐龙猎人
   assets:
   - asset:
       id: 1386
@@ -892,6 +920,7 @@ releases:
 - release:
     id: 1387
     game_id: 1377
+    release_type: 1
   names:
   - id: 2775
     kind: 3
@@ -904,72 +933,12 @@ releases:
     language: 2
     name: "凯迪拉克: 恐龙新世纪 (日版 930201)"
     source: trimui
+  - id: 257167
+    kind: 3
+    kind_id: 1387
+    language: 2
+    name: 日版（930201）
   assets:
-  - asset:
-      id: 1387
-      kind: 3
-      kind_id: 1387
-      type: 1
-      name: dinoj.zip
-      format: 2
-      size: 2630962
-      debug: dinoj.zip
-    entries:
-    - id: 21637
-      asset_id: 1387
-      name: cd_01.3a
-      size: 524288
-      blob_id: 15169
-    - id: 21638
-      asset_id: 1387
-      name: cd_02.4a
-      size: 524288
-      blob_id: 15171
-    - id: 21639
-      asset_id: 1387
-      name: cd_03.5a
-      size: 524288
-      blob_id: 15170
-    - id: 21640
-      asset_id: 1387
-      name: cd_04.6a
-      size: 524288
-      blob_id: 15172
-    - id: 21641
-      asset_id: 1387
-      name: cd_05.7a
-      size: 524288
-      blob_id: 15173
-    - id: 21642
-      asset_id: 1387
-      name: cd_06.8a
-      size: 524288
-      blob_id: 15175
-    - id: 21643
-      asset_id: 1387
-      name: cd_07.9a
-      size: 524288
-      blob_id: 15174
-    - id: 21644
-      asset_id: 1387
-      name: cd_08.10a
-      size: 524288
-      blob_id: 15176
-    - id: 21645
-      asset_id: 1387
-      name: cdj_21a.6f
-      size: 524288
-      blob_id: 15183
-    - id: 21646
-      asset_id: 1387
-      name: cdj_22a.7f
-      size: 524288
-      blob_id: 15212
-    - id: 21647
-      asset_id: 1387
-      name: cdj_23a.8f
-      size: 524288
-      blob_id: 15213
   - asset:
       id: 97583
       kind: 3
@@ -1150,151 +1119,6 @@ releases:
     name: "恐龙快打 - 凯迪拉克和恐龙 (D版 第四套 (含 PIC16c57), 930201 etc)"
     source: trimui
   assets:
-  - asset:
-      id: 1388
-      kind: 3
-      kind_id: 1388
-      type: 1
-      name: dinopic4.zip
-      format: 2
-      size: 2926936
-      debug: dinopic4.zip
-    entries:
-    - id: 21648
-      asset_id: 1388
-      name: cad_09.bin
-      size: 65536
-      blob_id: 15257
-    - id: 21649
-      asset_id: 1388
-      name: cad_10.bin
-      size: 262144
-      blob_id: 15258
-    - id: 21650
-      asset_id: 1388
-      name: cad_11.bin
-      size: 262144
-      blob_id: 15259
-    - id: 21651
-      asset_id: 1388
-      name: cad_12.bin
-      size: 262144
-      blob_id: 15260
-    - id: 21652
-      asset_id: 1388
-      name: cad_13.bin
-      size: 262144
-      blob_id: 15261
-    - id: 21653
-      asset_id: 1388
-      name: cad_14.bin
-      size: 262144
-      blob_id: 15262
-    - id: 21654
-      asset_id: 1388
-      name: cad_15.bin
-      size: 262144
-      blob_id: 15263
-    - id: 21655
-      asset_id: 1388
-      name: cad_16.bin
-      size: 262144
-      blob_id: 15264
-    - id: 21656
-      asset_id: 1388
-      name: cad_17.bin
-      size: 262144
-      blob_id: 15265
-    - id: 21657
-      asset_id: 1388
-      name: cad_18.bin
-      size: 131072
-      blob_id: 15266
-    - id: 21658
-      asset_id: 1388
-      name: cad_19.bin
-      size: 131072
-      blob_id: 15267
-    - id: 21659
-      asset_id: 1388
-      name: cad_20.bin
-      size: 262144
-      blob_id: 15268
-    - id: 21660
-      asset_id: 1388
-      name: cad_21.bin
-      size: 262144
-      blob_id: 15269
-    - id: 21661
-      asset_id: 1388
-      name: cad_22.bin
-      size: 262144
-      blob_id: 15270
-    - id: 21662
-      asset_id: 1388
-      name: cad_23.bin
-      size: 262144
-      blob_id: 15271
-    - id: 21663
-      asset_id: 1388
-      name: cad_24.bin
-      size: 262144
-      blob_id: 15272
-    - id: 21664
-      asset_id: 1388
-      name: cad_25.bin
-      size: 262144
-      blob_id: 15273
-    - id: 21665
-      asset_id: 1388
-      name: cad_26.bin
-      size: 262144
-      blob_id: 15274
-    - id: 21666
-      asset_id: 1388
-      name: cad_27.bin
-      size: 262144
-      blob_id: 15275
-    - id: 21667
-      asset_id: 1388
-      name: cad_28.bin
-      size: 262144
-      blob_id: 15276
-    - id: 21668
-      asset_id: 1388
-      name: cad_29.bin
-      size: 262144
-      blob_id: 15277
-    - id: 21669
-      asset_id: 1388
-      name: cad_30.bin
-      size: 131072
-      blob_id: 15278
-    - id: 21670
-      asset_id: 1388
-      name: cad_31.bin
-      size: 131072
-      blob_id: 15279
-    - id: 21671
-      asset_id: 1388
-      name: cad_32.bin
-      size: 262144
-      blob_id: 15280
-    - id: 21672
-      asset_id: 1388
-      name: cad_33.bin
-      size: 262144
-      blob_id: 15281
-    - id: 21673
-      asset_id: 1388
-      name: cad_34.bin
-      size: 131072
-      blob_id: 15282
-    - id: 21674
-      asset_id: 1388
-      name: cad_35.bin
-      size: 131072
-      blob_id: 15283
   - asset:
       id: 118602
       kind: 3
@@ -1506,6 +1330,8 @@ releases:
 - release:
     id: 1391
     game_id: 1377
+    description: "```\nA：攻击\nB：跳跃\nC：炸弹雨\nStart：游戏中换人\n部分枪械无限子弹\n敌人伤害明显提高\n有时开场乱放炸弹会导致无法继续前进\n```"
+    release_type: 3
   names:
   - id: 2783
     kind: 3
@@ -1518,6 +1344,12 @@ releases:
     language: 2
     name: "恐龙快打 - 凯迪拉克和恐龙 - 97 恐龙二代 (D版 第一套, 930223 亚版 中国台湾)"
     source: trimui
+    deprecated: 1
+  - id: 257169
+    kind: 3
+    kind_id: 1391
+    language: 2
+    name: 恐龙二代 (盗版, 第一套, 930223 亚版 台湾)
   assets:
   - asset:
       id: 1391
@@ -1591,6 +1423,7 @@ releases:
 - release:
     id: 1392
     game_id: 1377
+    release_type: 3
   names:
   - id: 2785
     kind: 3
@@ -1603,6 +1436,11 @@ releases:
     language: 2
     name: 恐龙新世纪 天王版
     source: trimui
+  - id: 257168
+    kind: 3
+    kind_id: 1392
+    language: 1
+    name: Cadillacs and Dinosaurs (King, Hack)
   assets:
   - asset:
       id: 1392
