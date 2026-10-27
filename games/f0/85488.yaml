@@ -46,7 +46,6 @@ releases:
       type: 1
       name: van32.zip
       format: 2
-      size: 124520
       debug: |-
         dat:mame:0.289
         /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/1694203170
@@ -61,6 +60,11 @@ releases:
       name: vanc32.bin
       size: 262144
       blob_id: 311044
+    - id: 923567
+      asset_id: 117064
+      name: hd44780_a00.bin
+      size: 4096
+      blob_id: 321813
 - release:
     id: 101113
     game_id: 85488
@@ -80,7 +84,6 @@ releases:
       type: 1
       name: van32t.zip
       format: 2
-      size: 121169
       debug: |-
         dat:mame:0.289
         /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/2011637850
@@ -90,6 +93,11 @@ releases:
       name: vancouver_68030_tournament.bin
       size: 262144
       blob_id: 311045
+    - id: 923568
+      asset_id: 117065
+      name: hd44780_a00.bin
+      size: 4096
+      blob_id: 321813
 - release:
     id: 101114
     game_id: 85488
@@ -109,7 +117,6 @@ releases:
       type: 1
       name: van32t8.zip
       format: 2
-      size: 121174
       debug: |-
         dat:mame:0.289
         /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/3316765934
@@ -119,6 +126,11 @@ releases:
       name: vancouver_68030_tournament_8mb.bin
       size: 262144
       blob_id: 311046
+    - id: 923569
+      asset_id: 117066
+      name: hd44780_a00.bin
+      size: 4096
+      blob_id: 321813
 - release:
     id: 103467
     game_id: 85488
@@ -138,7 +150,6 @@ releases:
       type: 1
       name: berl32t8p.zip
       format: 2
-      size: 105460
       debug: dat:mame:0.289
     entries:
     - id: 550746
@@ -146,6 +157,11 @@ releases:
       name: berlin_68030_tournament_8mb.bin
       size: 262144
       blob_id: 205646
+    - id: 917805
+      asset_id: 94811
+      name: hd44780_a00.bin
+      size: 4096
+      blob_id: 321813
 - release:
     id: 104971
     game_id: 85488
@@ -182,6 +198,35 @@ releases:
       blob_id: 311042
     - id: 784634
       asset_id: 117063
+      name: vancouver_16_odd_v_309
+      size: 131072
+      blob_id: 311043
+  - asset:
+      id: 136611
+      kind: 3
+      kind_id: 104971
+      type: 1
+      name: van16.zip
+      format: 2
+      debug: dat:mame:0.289
+    entries:
+    - id: 923563
+      asset_id: 136611
+      name: hd44780_a00.bin
+      size: 4096
+      blob_id: 321813
+    - id: 923564
+      asset_id: 136611
+      name: sinus_15_bavaria
+      size: 32768
+      blob_id: 219102
+    - id: 923565
+      asset_id: 136611
+      name: vancouver_16_even_v_309
+      size: 131072
+      blob_id: 311042
+    - id: 923566
+      asset_id: 136611
       name: vancouver_16_odd_v_309
       size: 131072
       blob_id: 311043

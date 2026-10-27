@@ -63,7 +63,6 @@ releases:
       type: 1
       name: tdragon.zip
       format: 2
-      size: 1350879
       debug: |-
         dat:mame:0.289
         /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/996737204
@@ -118,6 +117,11 @@ releases:
       name: 91070_68k.8
       size: 131072
       blob_id: 305710
+    - id: 923190
+      asset_id: 115271
+      name: nmk004.bin
+      size: 8192
+      blob_id: 321817
   - asset:
       id: 119739
       kind: 3
@@ -151,12 +155,12 @@ releases:
       asset_id: 119739
       name: "91070.4"
       size: 1048576
-      blob_id: 288504
+      blob_id: 305706
     - id: 842113
       asset_id: 119739
       name: "91070.5"
       size: 1048576
-      blob_id: 288505
+      blob_id: 305707
     - id: 842114
       asset_id: 119739
       name: "91070.6"
@@ -353,6 +357,75 @@ releases:
         repository=https://github.com/finalburnneo/FBNeo-extras
         revision=d61f692a027ad7bcbaccceda20e43ed47900dcda
         source=titles/tdragon1.png
+  - asset:
+      id: 136592
+      kind: 3
+      kind_id: 99420
+      type: 1
+      name: tdragon1.zip
+      format: 2
+      debug: dat:mame:0.289
+    entries:
+    - id: 923191
+      asset_id: 136592
+      name: "91070.1"
+      size: 65536
+      blob_id: 305703
+    - id: 923192
+      asset_id: 136592
+      name: "91070.10"
+      size: 256
+      blob_id: 6598
+    - id: 923193
+      asset_id: 136592
+      name: "91070.2"
+      size: 524288
+      blob_id: 305704
+    - id: 923194
+      asset_id: 136592
+      name: "91070.3"
+      size: 524288
+      blob_id: 305705
+    - id: 923195
+      asset_id: 136592
+      name: "91070.4"
+      size: 1048576
+      blob_id: 305706
+    - id: 923196
+      asset_id: 136592
+      name: "91070.5"
+      size: 1048576
+      blob_id: 305707
+    - id: 923197
+      asset_id: 136592
+      name: "91070.6"
+      size: 131072
+      blob_id: 305708
+    - id: 923198
+      asset_id: 136592
+      name: "91070.9"
+      size: 256
+      blob_id: 5231
+    - id: 923199
+      asset_id: 136592
+      name: nmk-110-tdragon.bin
+      size: 16384
+      blob_id: 305711
+    - id: 923200
+      asset_id: 136592
+      name: nmk004.bin
+      size: 8192
+      blob_id: 321817
+    - id: 923201
+      asset_id: 136592
+      name: thund.7
+      size: 131072
+      blob_id: 305712
+    - id: 923202
+      asset_id: 136592
+      name: thund.8
+      size: 131072
+      blob_id: 305713
 - release:
     id: 99424
     game_id: 84825

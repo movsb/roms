@@ -1,75 +1,30 @@
 game:
   id: 2991
   platform_id: 1
+  series_id: 23
 names:
 - id: 5982
   kind: 2
   kind_id: 2991
   language: 1
   name: orleg2
-- id: 97203
-  kind: 2
-  kind_id: 2991
-  language: 2
-  name: 西游释厄传 2 (V104, 中国版)
-  source: trimui
-- id: 187047
+  deprecated: 1
+- id: 257239
   kind: 2
   kind_id: 2991
   language: 1
-  name: orleg2_104cn
-- id: 187048
+  name: Oriental Legend 2
+  source: codex
+- id: 257243
   kind: 2
   kind_id: 2991
   language: 2
   name: 西游释厄传2
-  source: trimui
-- id: 194076
-  kind: 2
-  kind_id: 2991
-  language: 1
-  name: Oriental Legend 2 (V101, Oversea)
-  source: mame
-- id: 194077
-  kind: 2
-  kind_id: 2991
-  language: 1
-  name: Xiyou Shi E Zhuan 2 (V101, China)
-  source: mame
-- id: 194078
-  kind: 2
-  kind_id: 2991
-  language: 1
-  name: Saiyuu Shakuyakuden 2 (V101, Japan)
-  source: mame
-- id: 194079
-  kind: 2
-  kind_id: 2991
-  language: 1
-  name: Oriental Legend 2 (V103, Oversea)
-  source: mame
-- id: 194080
-  kind: 2
-  kind_id: 2991
-  language: 1
-  name: Xiyou Shi E Zhuan 2 (V103, China)
-  source: mame
-- id: 194081
-  kind: 2
-  kind_id: 2991
-  language: 1
-  name: Saiyuu Shakuyakuden 2 (V103, Japan)
-  source: mame
-- id: 194082
-  kind: 2
-  kind_id: 2991
-  language: 1
-  name: Saiyuu Shakuyakuden 2 (V104, Japan)
-  source: mame
 releases:
 - release:
     id: 2991
     game_id: 2991
+    release_type: 1
   names:
   - id: 5983
     kind: 3
@@ -82,97 +37,13 @@ releases:
     language: 2
     name: 西游释厄传 2 (V104, 中国版)
     source: trimui
+    deprecated: 1
+  - id: 257248
+    kind: 3
+    kind_id: 2991
+    language: 2
+    name: 海外（V104）
   assets:
-  - asset:
-      id: 2977
-      kind: 3
-      kind_id: 2991
-      type: 1
-      name: orleg2.zip
-      format: 2
-      size: 62161479
-      debug: orleg2.zip
-    entries:
-    - id: 48798
-      asset_id: 2977
-      name: ig-a_bgh.u36
-      size: 8388608
-      blob_id: 31669
-    - id: 48799
-      asset_id: 2977
-      name: ig-a_bgl.u35
-      size: 8388608
-      blob_id: 31670
-    - id: 48800
-      asset_id: 2977
-      name: ig-a_bmh.u16
-      size: 16777216
-      blob_id: 31671
-    - id: 48801
-      asset_id: 2977
-      name: ig-a_bml.u12
-      size: 16777216
-      blob_id: 31672
-    - id: 48802
-      asset_id: 2977
-      name: ig-a_cgh.u26
-      size: 33554432
-      blob_id: 31673
-    - id: 48803
-      asset_id: 2977
-      name: ig-a_cgl.u18
-      size: 33554432
-      blob_id: 31674
-    - id: 48804
-      asset_id: 2977
-      name: ig-a_sp.u2
-      size: 16777216
-      blob_id: 31675
-    - id: 48805
-      asset_id: 2977
-      name: ig-a_text.u4
-      size: 2097152
-      blob_id: 31676
-    - id: 48806
-      asset_id: 2977
-      name: ol2_fa.igs036
-      size: 16384
-      blob_id: 31677
-    - id: 48807
-      asset_id: 2977
-      name: ol2_v104fa.u7
-      size: 8388608
-      blob_id: 31678
-    - id: 48808
-      asset_id: 2977
-      name: orleg2_101/ol2_v101fa.u7
-      size: 8388608
-      blob_id: 31679
-    - id: 48809
-      asset_id: 2977
-      name: orleg2_101cn/blank_orleg2_china_card.pg2
-      size: 264
-      blob_id: 31680
-    - id: 48810
-      asset_id: 2977
-      name: orleg2_101cn/xyj2_cn.igs036
-      size: 16384
-      blob_id: 31681
-    - id: 48811
-      asset_id: 2977
-      name: orleg2_101jp/ol2_a10.igs036
-      size: 16384
-      blob_id: 31682
-    - id: 48812
-      asset_id: 2977
-      name: orleg2_103/ol2_v103fa.u7
-      size: 8388608
-      blob_id: 31683
-    - id: 48813
-      asset_id: 2977
-      name: xyj2_nvram
-      size: 65536
-      blob_id: 31684
   - asset:
       id: 106074
       kind: 3
@@ -241,6 +112,7 @@ releases:
 - release:
     id: 2992
     game_id: 2991
+    release_type: 1
   names:
   - id: 5985
     kind: 3
@@ -253,6 +125,11 @@ releases:
     language: 2
     name: 西游释厄传2
     source: trimui
+  - id: 257250
+    kind: 3
+    kind_id: 2992
+    language: 2
+    name: 中国（V104）
   assets:
   - asset:
       id: 2978
@@ -328,6 +205,7 @@ releases:
     id: 90648
     game_id: 2991
     release_date: 20070000
+    release_type: 1
   names:
   - id: 220702
     kind: 3
@@ -335,6 +213,11 @@ releases:
     language: 1
     name: Oriental Legend 2 (V101, Oversea)
     source: mame
+  - id: 257249
+    kind: 3
+    kind_id: 90648
+    language: 2
+    name: 海外（V101）
   assets:
   - asset:
       id: 106075
@@ -405,6 +288,7 @@ releases:
     id: 90649
     game_id: 2991
     release_date: 20070000
+    release_type: 1
   names:
   - id: 220703
     kind: 3
@@ -412,6 +296,11 @@ releases:
     language: 1
     name: Xiyou Shi E Zhuan 2 (V101, China)
     source: mame
+  - id: 257246
+    kind: 3
+    kind_id: 90649
+    language: 2
+    name: 中国（V101）
   assets:
   - asset:
       id: 106076
@@ -487,6 +376,7 @@ releases:
     id: 90650
     game_id: 2991
     release_date: 20070000
+    release_type: 1
   names:
   - id: 220704
     kind: 3
@@ -494,6 +384,11 @@ releases:
     language: 1
     name: Saiyuu Shakuyakuden 2 (V101, Japan)
     source: mame
+  - id: 257247
+    kind: 3
+    kind_id: 90650
+    language: 2
+    name: 日本（V101）
   assets:
   - asset:
       id: 106077
@@ -564,6 +459,7 @@ releases:
     id: 90651
     game_id: 2991
     release_date: 20070000
+    release_type: 1
   names:
   - id: 220705
     kind: 3
@@ -571,6 +467,11 @@ releases:
     language: 1
     name: Oriental Legend 2 (V103, Oversea)
     source: mame
+  - id: 257251
+    kind: 3
+    kind_id: 90651
+    language: 2
+    name: 海外（V103）
   assets:
   - asset:
       id: 106078
@@ -641,6 +542,7 @@ releases:
     id: 90652
     game_id: 2991
     release_date: 20070000
+    release_type: 1
   names:
   - id: 220706
     kind: 3
@@ -648,6 +550,11 @@ releases:
     language: 1
     name: Xiyou Shi E Zhuan 2 (V103, China)
     source: mame
+  - id: 257252
+    kind: 3
+    kind_id: 90652
+    language: 2
+    name: 中国（V103）
   assets:
   - asset:
       id: 106079
@@ -723,6 +630,7 @@ releases:
     id: 90653
     game_id: 2991
     release_date: 20070000
+    release_type: 1
   names:
   - id: 220707
     kind: 3
@@ -730,6 +638,11 @@ releases:
     language: 1
     name: Saiyuu Shakuyakuden 2 (V103, Japan)
     source: mame
+  - id: 257253
+    kind: 3
+    kind_id: 90653
+    language: 2
+    name: 日本（V103）
   assets:
   - asset:
       id: 106080
@@ -800,6 +713,7 @@ releases:
     id: 90654
     game_id: 2991
     release_date: 20070000
+    release_type: 1
   names:
   - id: 220708
     kind: 3
@@ -807,6 +721,11 @@ releases:
     language: 1
     name: Saiyuu Shakuyakuden 2 (V104, Japan)
     source: mame
+  - id: 257254
+    kind: 3
+    kind_id: 90654
+    language: 2
+    name: 日本（V104）
   assets:
   - asset:
       id: 106081

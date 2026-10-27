@@ -1,38 +1,57 @@
 game:
   id: 2969
   platform_id: 1
+  series_id: 23
 names:
 - id: 5938
   kind: 2
   kind_id: 2969
   language: 1
   name: oldsplus
+  deprecated: 1
 - id: 91081
   kind: 2
   kind_id: 2969
   language: 2
   name: "西游释厄传 - 群魔乱舞（世界版, 中国版, 日版, 香港版, 台湾版）（版本 205）"
+  deprecated: 1
 - id: 194011
   kind: 2
   kind_id: 2969
   language: 1
   name: Oriental Legend 2 / Xiyou Shi E Zhuan Qunmoluanwu (World, China, Japan, Hong Kong, Taiwan) (ver. 203) [Oriental Ex]
   source: mame
+  deprecated: 1
 - id: 240306
   kind: 2
   kind_id: 2969
   language: 1
   name: oldsplusok
+  deprecated: 1
 - id: 240307
   kind: 2
   kind_id: 2969
   language: 2
   name: 西游释厄传 2 (一键版, 修改版)
   source: trimui
+  deprecated: 1
+- id: 257238
+  kind: 2
+  kind_id: 2969
+  language: 2
+  name: 西游释厄传：群魔乱舞
+  source: codex
+- id: 257242
+  kind: 2
+  kind_id: 2969
+  language: 1
+  name: Xiyou Shi E Zhuan Qunmoluanwu
+  source: codex
 releases:
 - release:
     id: 2969
     game_id: 2969
+    release_date: 20040000
   names:
   - id: 5939
     kind: 3
@@ -45,6 +64,12 @@ releases:
     language: 2
     name: "西游释厄传 2 (韩版) - 群魔乱舞 (世界版, 中版, 日版, 修改版, 台版) (V205)"
     source: trimui
+  - id: 257232
+    kind: 3
+    kind_id: 2969
+    language: 1
+    name: Oriental Legend 2 (Korea) / Xiyou Shi E Zhuan Qunmoluanwu (World, China, Japan, Hong Kong, Taiwan) (ver. 205) [Oriental Ex]
+    source: mame
   assets:
   - asset:
       id: 2955
@@ -98,6 +123,261 @@ releases:
       blob_id: 31486
     - id: 48491
       asset_id: 2955
+      name: t05301.rom
+      size: 8388608
+      blob_id: 31487
+  - asset:
+      id: 2956
+      kind: 3
+      kind_id: 2969
+      type: 1
+      name: oldsplus.zip
+      format: 2
+      size: 25242366
+      debug: oldsplus_2.zip
+    entries:
+    - id: 48492
+      asset_id: 2956
+      name: igs_a05301w064.u3
+      size: 8388608
+      blob_id: 31479
+    - id: 48493
+      asset_id: 2956
+      name: igs_a05302w064.u4
+      size: 8388608
+      blob_id: 31480
+    - id: 48494
+      asset_id: 2956
+      name: igs_a05303w064.u6
+      size: 8388608
+      blob_id: 31481
+    - id: 48495
+      asset_id: 2956
+      name: igs_a05304w064.u8
+      size: 8388608
+      blob_id: 31482
+    - id: 48496
+      asset_id: 2956
+      name: igs_b05301w064.u9
+      size: 8388608
+      blob_id: 31483
+    - id: 48497
+      asset_id: 2956
+      name: igs_b05302w064.u11
+      size: 8388608
+      blob_id: 31484
+    - id: 48498
+      asset_id: 2956
+      name: igs_t05301w064.u2
+      size: 8388608
+      blob_id: 31487
+    - id: 48499
+      asset_id: 2956
+      name: igs_w05301b032.u5
+      size: 4194304
+      blob_id: 31485
+    - id: 48500
+      asset_id: 2956
+      name: oldsplus203/v-203cn.u10
+      size: 4194304
+      blob_id: 31488
+    - id: 48501
+      asset_id: 2956
+      name: v-205cn.u10
+      size: 4194304
+      blob_id: 31486
+  - asset:
+      id: 2957
+      kind: 3
+      kind_id: 2969
+      type: 1
+      name: oldsplus.zip
+      format: 2
+      size: 25401524
+      debug: oldsplus_2_3.zip
+    entries:
+    - id: 48502
+      asset_id: 2957
+      name: bios.u42
+      size: 131072
+      blob_id: 14326
+    - id: 48503
+      asset_id: 2957
+      name: ddp3_bios.u37
+      size: 524288
+      blob_id: 14290
+    - id: 48504
+      asset_id: 2957
+      name: igs_a05301w064.u3
+      size: 8388608
+      blob_id: 31479
+    - id: 48505
+      asset_id: 2957
+      name: igs_a05302w064.u4
+      size: 8388608
+      blob_id: 31480
+    - id: 48506
+      asset_id: 2957
+      name: igs_a05303w064.u6
+      size: 8388608
+      blob_id: 31481
+    - id: 48507
+      asset_id: 2957
+      name: igs_a05304w064.u8
+      size: 8388608
+      blob_id: 31482
+    - id: 48508
+      asset_id: 2957
+      name: igs_b05301w064.u9
+      size: 8388608
+      blob_id: 31483
+    - id: 48509
+      asset_id: 2957
+      name: igs_b05302w064.u11
+      size: 8388608
+      blob_id: 31484
+    - id: 48510
+      asset_id: 2957
+      name: igs_t05301w064.u2
+      size: 8388608
+      blob_id: 31487
+    - id: 48511
+      asset_id: 2957
+      name: igs_w05301b032.u5
+      size: 4194304
+      blob_id: 31485
+    - id: 48512
+      asset_id: 2957
+      name: pgm_m01s.rom
+      size: 2097152
+      blob_id: 14294
+    - id: 48513
+      asset_id: 2957
+      name: pgm_p01s.u20
+      size: 131072
+      blob_id: 14308
+    - id: 48514
+      asset_id: 2957
+      name: pgm_p02s.u20
+      size: 131072
+      blob_id: 14309
+    - id: 48515
+      asset_id: 2957
+      name: pgm_t01s.rom
+      size: 2097152
+      blob_id: 14295
+    - id: 48516
+      asset_id: 2957
+      name: v-205cn.u10
+      size: 4194304
+      blob_id: 31489
+  - asset:
+      id: 2958
+      kind: 3
+      kind_id: 2969
+      type: 1
+      name: oldsplus.zip
+      format: 2
+      size: 26339156
+      debug: oldsplus_2_3_4.zip
+    entries:
+    - id: 48517
+      asset_id: 2958
+      name: igs_a05304w064.u8
+      size: 8388608
+      blob_id: 31490
+    - id: 48518
+      asset_id: 2958
+      name: igs_b05301w064.u9
+      size: 8388608
+      blob_id: 31491
+    - id: 48519
+      asset_id: 2958
+      name: igs_b05302w064.u11
+      size: 8388608
+      blob_id: 31492
+    - id: 48520
+      asset_id: 2958
+      name: igs_t05301w064.u2
+      size: 8388608
+      blob_id: 31493
+    - id: 48521
+      asset_id: 2958
+      name: igs_w05301b032.u5
+      size: 4194304
+      blob_id: 31494
+    - id: 48522
+      asset_id: 2958
+      name: v-205cn.u10
+      size: 4194304
+      blob_id: 31495
+    - id: 48523
+      asset_id: 2958
+      name: igs_a05301w064.u3
+      size: 8388608
+      blob_id: 31496
+    - id: 48524
+      asset_id: 2958
+      name: igs_a05302w064.u4
+      size: 8388608
+      blob_id: 31497
+    - id: 48525
+      asset_id: 2958
+      name: igs_a05303w064.u6
+      size: 8388608
+      blob_id: 31498
+  - asset:
+      id: 2959
+      kind: 3
+      kind_id: 2969
+      type: 1
+      name: oldsplus.zip
+      format: 2
+      size: 23057575
+      debug: oldsplus_2_3_4_5.zip
+    entries:
+    - id: 48526
+      asset_id: 2959
+      name: p05301.rom
+      size: 4194304
+      blob_id: 31499
+    - id: 48527
+      asset_id: 2959
+      name: a05301.rom
+      size: 8388608
+      blob_id: 31479
+    - id: 48528
+      asset_id: 2959
+      name: a05302.rom
+      size: 8388608
+      blob_id: 31480
+    - id: 48529
+      asset_id: 2959
+      name: a05303.rom
+      size: 8388608
+      blob_id: 31481
+    - id: 48530
+      asset_id: 2959
+      name: a05304.rom
+      size: 8388608
+      blob_id: 31482
+    - id: 48531
+      asset_id: 2959
+      name: b05301.rom
+      size: 8388608
+      blob_id: 31483
+    - id: 48532
+      asset_id: 2959
+      name: b05302.rom
+      size: 8388608
+      blob_id: 31484
+    - id: 48533
+      asset_id: 2959
+      name: m05301.rom
+      size: 4194304
+      blob_id: 31485
+    - id: 48534
+      asset_id: 2959
       name: t05301.rom
       size: 8388608
       blob_id: 31487
@@ -201,331 +481,175 @@ releases:
         revision=d61f692a027ad7bcbaccceda20e43ed47900dcda
         source=titles/oldsplus.png
 - release:
-    id: 2970
+    id: 2976
     game_id: 2969
   names:
-  - id: 94622
+  - id: 5953
     kind: 3
-    kind_id: 2970
+    kind_id: 2976
     language: 1
-    name: oldsplus
-  - id: 101691
+    name: oldsplusok
+  - id: 99675
     kind: 3
-    kind_id: 2970
+    kind_id: 2976
     language: 2
-    name: "西游释厄传 2 (韩版) - 群魔乱舞 (世界版, 中版, 日版, 修改版, 台版) (V205)"
+    name: 西游释厄传 2 (一键版, 修改版)
     source: trimui
   assets:
   - asset:
-      id: 2956
+      id: 2962
       kind: 3
-      kind_id: 2970
+      kind_id: 2976
       type: 1
-      name: oldsplus.zip
+      name: oldsplusok.zip
       format: 2
-      size: 25242366
-      debug: oldsplus_2.zip
+      size: 22172653
+      debug: oldsplusok.zip
     entries:
-    - id: 48492
-      asset_id: 2956
+    - id: 48553
+      asset_id: 2962
       name: igs_a05301w064.u3
       size: 8388608
       blob_id: 31479
-    - id: 48493
-      asset_id: 2956
+    - id: 48554
+      asset_id: 2962
       name: igs_a05302w064.u4
       size: 8388608
       blob_id: 31480
-    - id: 48494
-      asset_id: 2956
+    - id: 48555
+      asset_id: 2962
       name: igs_a05303w064.u6
       size: 8388608
       blob_id: 31481
-    - id: 48495
-      asset_id: 2956
+    - id: 48556
+      asset_id: 2962
       name: igs_a05304w064.u8
       size: 8388608
       blob_id: 31482
-    - id: 48496
-      asset_id: 2956
+    - id: 48557
+      asset_id: 2962
       name: igs_b05301w064.u9
       size: 8388608
       blob_id: 31483
-    - id: 48497
-      asset_id: 2956
+    - id: 48558
+      asset_id: 2962
       name: igs_b05302w064.u11
       size: 8388608
       blob_id: 31484
-    - id: 48498
-      asset_id: 2956
+    - id: 48559
+      asset_id: 2962
       name: igs_t05301w064.u2
       size: 8388608
       blob_id: 31487
-    - id: 48499
-      asset_id: 2956
+    - id: 48560
+      asset_id: 2962
       name: igs_w05301b032.u5
       size: 4194304
       blob_id: 31485
-    - id: 48500
-      asset_id: 2956
-      name: oldsplus203/v-203cn.u10
+    - id: 48561
+      asset_id: 2962
+      name: ok_v-205cn.u10
       size: 4194304
-      blob_id: 31488
-    - id: 48501
-      asset_id: 2956
-      name: v-205cn.u10
-      size: 4194304
-      blob_id: 31486
-- release:
-    id: 2972
-    game_id: 2969
-  names:
-  - id: 94624
-    kind: 3
-    kind_id: 2972
-    language: 1
-    name: oldsplus
-  - id: 101693
-    kind: 3
-    kind_id: 2972
-    language: 2
-    name: "西游释厄传 2 (韩版) - 群魔乱舞 (世界版, 中版, 日版, 修改版, 台版) (V205)"
-    source: trimui
-  assets:
+      blob_id: 31510
   - asset:
-      id: 2958
+      id: 119233
       kind: 3
-      kind_id: 2972
+      kind_id: 2976
       type: 1
-      name: oldsplus.zip
+      name: oldsplusok.zip
       format: 2
-      size: 26339156
-      debug: oldsplus_2_3_4.zip
+      size: 27067182
+      debug: dat:fbneo:5fa9b68a
     entries:
-    - id: 48517
-      asset_id: 2958
-      name: igs_a05304w064.u8
-      size: 8388608
-      blob_id: 31490
-    - id: 48518
-      asset_id: 2958
-      name: igs_b05301w064.u9
-      size: 8388608
-      blob_id: 31491
-    - id: 48519
-      asset_id: 2958
-      name: igs_b05302w064.u11
-      size: 8388608
-      blob_id: 31492
-    - id: 48520
-      asset_id: 2958
-      name: igs_t05301w064.u2
-      size: 8388608
-      blob_id: 31493
-    - id: 48521
-      asset_id: 2958
-      name: igs_w05301b032.u5
-      size: 4194304
-      blob_id: 31494
-    - id: 48522
-      asset_id: 2958
-      name: v-205cn.u10
-      size: 4194304
-      blob_id: 31495
-    - id: 48523
-      asset_id: 2958
-      name: igs_a05301w064.u3
-      size: 8388608
-      blob_id: 31496
-    - id: 48524
-      asset_id: 2958
-      name: igs_a05302w064.u4
-      size: 8388608
-      blob_id: 31497
-    - id: 48525
-      asset_id: 2958
-      name: igs_a05303w064.u6
-      size: 8388608
-      blob_id: 31498
-- release:
-    id: 2973
-    game_id: 2969
-  names:
-  - id: 94625
-    kind: 3
-    kind_id: 2973
-    language: 1
-    name: oldsplus
-  - id: 101694
-    kind: 3
-    kind_id: 2973
-    language: 2
-    name: "西游释厄传 2 (韩版) - 群魔乱舞 (世界版, 中版, 日版, 修改版, 台版) (V205)"
-    source: trimui
-  assets:
-  - asset:
-      id: 2959
-      kind: 3
-      kind_id: 2973
-      type: 1
-      name: oldsplus.zip
-      format: 2
-      size: 23057575
-      debug: oldsplus_2_3_4_5.zip
-    entries:
-    - id: 48526
-      asset_id: 2959
-      name: p05301.rom
-      size: 4194304
-      blob_id: 31499
-    - id: 48527
-      asset_id: 2959
-      name: a05301.rom
-      size: 8388608
-      blob_id: 31479
-    - id: 48528
-      asset_id: 2959
-      name: a05302.rom
-      size: 8388608
-      blob_id: 31480
-    - id: 48529
-      asset_id: 2959
-      name: a05303.rom
-      size: 8388608
-      blob_id: 31481
-    - id: 48530
-      asset_id: 2959
-      name: a05304.rom
-      size: 8388608
-      blob_id: 31482
-    - id: 48531
-      asset_id: 2959
-      name: b05301.rom
-      size: 8388608
-      blob_id: 31483
-    - id: 48532
-      asset_id: 2959
-      name: b05302.rom
-      size: 8388608
-      blob_id: 31484
-    - id: 48533
-      asset_id: 2959
-      name: m05301.rom
-      size: 4194304
-      blob_id: 31485
-    - id: 48534
-      asset_id: 2959
-      name: t05301.rom
-      size: 8388608
-      blob_id: 31487
-- release:
-    id: 60054
-    game_id: 2969
-    release_date: 20040000
-  names:
-  - id: 150483
-    kind: 3
-    kind_id: 60054
-    language: 1
-    name: Oriental Legend 2 (Korea) / Xiyou Shi E Zhuan Qunmoluanwu (World, China, Japan, Hong Kong, Taiwan) (ver. 205) [Oriental Ex]
-    source: mame
-  - id: 184072
-    kind: 3
-    kind_id: 60054
-    language: 1
-    name: oldsplus
-  - id: 184073
-    kind: 3
-    kind_id: 60054
-    language: 2
-    name: "西游释厄传 2 (韩版) - 群魔乱舞 (世界版, 中版, 日版, 修改版, 台版) (V205)"
-    source: trimui
-  assets:
-  - asset:
-      id: 2957
-      kind: 3
-      kind_id: 60054
-      type: 1
-      name: oldsplus.zip
-      format: 2
-      size: 25401524
-      debug: oldsplus_2_3.zip
-    entries:
-    - id: 48502
-      asset_id: 2957
+    - id: 825584
+      asset_id: 119233
       name: bios.u42
       size: 131072
       blob_id: 14326
-    - id: 48503
-      asset_id: 2957
+    - id: 825585
+      asset_id: 119233
       name: ddp3_bios.u37
       size: 524288
       blob_id: 14290
-    - id: 48504
-      asset_id: 2957
+    - id: 825586
+      asset_id: 119233
       name: igs_a05301w064.u3
       size: 8388608
       blob_id: 31479
-    - id: 48505
-      asset_id: 2957
+    - id: 825587
+      asset_id: 119233
       name: igs_a05302w064.u4
       size: 8388608
       blob_id: 31480
-    - id: 48506
-      asset_id: 2957
+    - id: 825588
+      asset_id: 119233
       name: igs_a05303w064.u6
       size: 8388608
       blob_id: 31481
-    - id: 48507
-      asset_id: 2957
+    - id: 825589
+      asset_id: 119233
       name: igs_a05304w064.u8
       size: 8388608
       blob_id: 31482
-    - id: 48508
-      asset_id: 2957
+    - id: 825590
+      asset_id: 119233
       name: igs_b05301w064.u9
       size: 8388608
       blob_id: 31483
-    - id: 48509
-      asset_id: 2957
+    - id: 825591
+      asset_id: 119233
       name: igs_b05302w064.u11
       size: 8388608
       blob_id: 31484
-    - id: 48510
-      asset_id: 2957
+    - id: 825592
+      asset_id: 119233
       name: igs_t05301w064.u2
       size: 8388608
       blob_id: 31487
-    - id: 48511
-      asset_id: 2957
+    - id: 825593
+      asset_id: 119233
       name: igs_w05301b032.u5
       size: 4194304
       blob_id: 31485
-    - id: 48512
-      asset_id: 2957
+    - id: 825594
+      asset_id: 119233
+      name: ok_v-205cn.u10
+      size: 4194304
+      blob_id: 31510
+    - id: 825595
+      asset_id: 119233
       name: pgm_m01s.rom
       size: 2097152
       blob_id: 14294
-    - id: 48513
-      asset_id: 2957
+    - id: 825596
+      asset_id: 119233
       name: pgm_p01s.u20
       size: 131072
       blob_id: 14308
-    - id: 48514
-      asset_id: 2957
+    - id: 825597
+      asset_id: 119233
       name: pgm_p02s.u20
       size: 131072
       blob_id: 14309
-    - id: 48515
-      asset_id: 2957
+    - id: 825598
+      asset_id: 119233
       name: pgm_t01s.rom
       size: 2097152
       blob_id: 14295
-    - id: 48516
-      asset_id: 2957
-      name: v-205cn.u10
-      size: 4194304
-      blob_id: 31489
+  - asset:
+      id: 134322
+      kind: 3
+      kind_id: 2976
+      type: 9
+      name: oldsplusok.png
+      format: 1
+      size: 45512
+      blob_id: 318890
+      debug: |-
+        importer=fbneo-extras
+        repository=https://github.com/finalburnneo/FBNeo-extras
+        revision=d61f692a027ad7bcbaccceda20e43ed47900dcda
+        source=titles/oldsplusok.png
 - release:
     id: 90538
     game_id: 2969
@@ -787,118 +911,3 @@ releases:
         repository=https://github.com/finalburnneo/FBNeo-extras
         revision=d61f692a027ad7bcbaccceda20e43ed47900dcda
         source=titles/oldsplusnr.png
-- release:
-    id: 103046
-    game_id: 2969
-  names:
-  - id: 237878
-    kind: 3
-    kind_id: 103046
-    language: 1
-    name: oldsplusok
-  - id: 237879
-    kind: 3
-    kind_id: 103046
-    language: 2
-    name: 西游释厄传 2 (一键版, 修改版)
-    source: trimui
-  assets:
-  - asset:
-      id: 119233
-      kind: 3
-      kind_id: 103046
-      type: 1
-      name: oldsplusok.zip
-      format: 2
-      size: 27067182
-      debug: dat:fbneo:5fa9b68a
-    entries:
-    - id: 825584
-      asset_id: 119233
-      name: bios.u42
-      size: 131072
-      blob_id: 14326
-    - id: 825585
-      asset_id: 119233
-      name: ddp3_bios.u37
-      size: 524288
-      blob_id: 14290
-    - id: 825586
-      asset_id: 119233
-      name: igs_a05301w064.u3
-      size: 8388608
-      blob_id: 31479
-    - id: 825587
-      asset_id: 119233
-      name: igs_a05302w064.u4
-      size: 8388608
-      blob_id: 31480
-    - id: 825588
-      asset_id: 119233
-      name: igs_a05303w064.u6
-      size: 8388608
-      blob_id: 31481
-    - id: 825589
-      asset_id: 119233
-      name: igs_a05304w064.u8
-      size: 8388608
-      blob_id: 31482
-    - id: 825590
-      asset_id: 119233
-      name: igs_b05301w064.u9
-      size: 8388608
-      blob_id: 31483
-    - id: 825591
-      asset_id: 119233
-      name: igs_b05302w064.u11
-      size: 8388608
-      blob_id: 31484
-    - id: 825592
-      asset_id: 119233
-      name: igs_t05301w064.u2
-      size: 8388608
-      blob_id: 31487
-    - id: 825593
-      asset_id: 119233
-      name: igs_w05301b032.u5
-      size: 4194304
-      blob_id: 31485
-    - id: 825594
-      asset_id: 119233
-      name: ok_v-205cn.u10
-      size: 4194304
-      blob_id: 31510
-    - id: 825595
-      asset_id: 119233
-      name: pgm_m01s.rom
-      size: 2097152
-      blob_id: 14294
-    - id: 825596
-      asset_id: 119233
-      name: pgm_p01s.u20
-      size: 131072
-      blob_id: 14308
-    - id: 825597
-      asset_id: 119233
-      name: pgm_p02s.u20
-      size: 131072
-      blob_id: 14309
-    - id: 825598
-      asset_id: 119233
-      name: pgm_t01s.rom
-      size: 2097152
-      blob_id: 14295
-  - asset:
-      id: 134322
-      kind: 3
-      kind_id: 103046
-      type: 9
-      name: oldsplusok.png
-      format: 1
-      size: 45512
-      blob_id: 318890
-      debug: |-
-        importer=fbneo-extras
-        repository=https://github.com/finalburnneo/FBNeo-extras
-        revision=d61f692a027ad7bcbaccceda20e43ed47900dcda
-        source=titles/oldsplusok.png

@@ -28,7 +28,6 @@ releases:
       type: 1
       name: macpd280.zip
       format: 2
-      size: 535078
       debug: dat:mame:0.289
     entries:
     - id: 653431
@@ -41,6 +40,11 @@ releases:
       name: duobatid.bin
       size: 8
       blob_id: 235114
+    - id: 920531
+      asset_id: 103486
+      name: pge_boot.bin
+      size: 512
+      blob_id: 322135
 - release:
     id: 88194
     game_id: 80480
@@ -73,3 +77,27 @@ releases:
       name: duobatid.bin
       size: 8
       blob_id: 235114
+  - asset:
+      id: 136449
+      kind: 3
+      kind_id: 88194
+      type: 1
+      name: macpd280c.zip
+      format: 2
+      debug: dat:mame:0.289
+    entries:
+    - id: 920532
+      asset_id: 136449
+      name: 015621d7.rom
+      size: 1048576
+      blob_id: 235117
+    - id: 920533
+      asset_id: 136449
+      name: duobatid.bin
+      size: 8
+      blob_id: 235114
+    - id: 920534
+      asset_id: 136449
+      name: pge_boot.bin
+      size: 512
+      blob_id: 322135

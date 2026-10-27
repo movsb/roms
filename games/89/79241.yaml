@@ -28,7 +28,6 @@ releases:
       type: 1
       name: hp9845b.zip
       format: 2
-      size: 90129
       debug: dat:mame:0.289
     entries:
     - id: 630169
@@ -51,6 +50,11 @@ releases:
       name: optional_chrgen.bin
       size: 2048
       blob_id: 222520
+    - id: 919978
+      asset_id: 101204
+      name: 1818-2687.bin
+      size: 2048
+      blob_id: 322079
 - release:
     id: 86073
     game_id: 79241
@@ -90,6 +94,40 @@ releases:
       blob_id: 222519
     - id: 630176
       asset_id: 101205
+      name: optional_chrgen.bin
+      size: 2048
+      blob_id: 222520
+  - asset:
+      id: 136400
+      kind: 3
+      kind_id: 86073
+      type: 1
+      name: hp9845b_de.zip
+      format: 2
+      debug: dat:mame:0.289
+    entries:
+    - id: 919979
+      asset_id: 136400
+      name: 1818-2687.bin
+      size: 2048
+      blob_id: 322079
+    - id: 919980
+      asset_id: 136400
+      name: 9845-lpu-standard-processor.bin
+      size: 65536
+      blob_id: 222517
+    - id: 919981
+      asset_id: 136400
+      name: 9845-ppu-standard-graphics-ger.bin
+      size: 65536
+      blob_id: 249107
+    - id: 919982
+      asset_id: 136400
+      name: chrgen.bin
+      size: 2048
+      blob_id: 222519
+    - id: 919983
+      asset_id: 136400
       name: optional_chrgen.bin
       size: 2048
       blob_id: 222520

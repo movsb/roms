@@ -28,7 +28,6 @@ releases:
       type: 1
       name: berl16.zip
       format: 2
-      size: 112269
       debug: dat:mame:0.289
     entries:
     - id: 550740
@@ -41,6 +40,11 @@ releases:
       name: berlin_68000_odd_b003.bin
       size: 65536
       blob_id: 205643
+    - id: 917800
+      asset_id: 94808
+      name: hd44780_a00.bin
+      size: 4096
+      blob_id: 321813
 - release:
     id: 80175
     game_id: 76173
@@ -73,6 +77,30 @@ releases:
       name: berlin_68000_odd_b002.bin
       size: 65536
       blob_id: 240251
+  - asset:
+      id: 136281
+      kind: 3
+      kind_id: 80175
+      type: 1
+      name: berl16a.zip
+      format: 2
+      debug: dat:mame:0.289
+    entries:
+    - id: 917801
+      asset_id: 136281
+      name: berlin_68000_even.bin
+      size: 65536
+      blob_id: 205642
+    - id: 917802
+      asset_id: 136281
+      name: berlin_68000_odd_b002.bin
+      size: 65536
+      blob_id: 240251
+    - id: 917803
+      asset_id: 136281
+      name: hd44780_a00.bin
+      size: 4096
+      blob_id: 321813
 - release:
     id: 80176
     game_id: 76173
@@ -92,7 +120,6 @@ releases:
       type: 1
       name: berl16l.zip
       format: 2
-      size: 112479
       debug: dat:mame:0.289
     entries:
     - id: 550744
@@ -105,3 +132,8 @@ releases:
       name: berlin_68000_london_odd.bin
       size: 65536
       blob_id: 205645
+    - id: 917804
+      asset_id: 94810
+      name: hd44780_a00.bin
+      size: 4096
+      blob_id: 321813

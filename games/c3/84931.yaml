@@ -28,7 +28,6 @@ releases:
       type: 1
       name: ti74.zip
       format: 2
-      size: 34333
       debug: |-
         dat:mame:0.289
         /var/folders/84/rtrsj7rx07j7w4gf57612s600000gn/T/1138380829
@@ -43,6 +42,11 @@ releases:
       name: c70009.ic2
       size: 4096
       blob_id: 306578
+    - id: 923299
+      asset_id: 115602
+      name: hd44780_a00.bin
+      size: 4096
+      blob_id: 321813
 - release:
     id: 99722
     game_id: 84931
@@ -77,3 +81,27 @@ releases:
       name: c70009.ic2
       size: 4096
       blob_id: 306578
+  - asset:
+      id: 136599
+      kind: 3
+      kind_id: 99722
+      type: 1
+      name: ti74a.zip
+      format: 2
+      debug: dat:mame:0.289
+    entries:
+    - id: 923300
+      asset_id: 136599
+      name: 001060281-1_hn61256pc93.ic1
+      size: 32768
+      blob_id: 306579
+    - id: 923301
+      asset_id: 136599
+      name: c70009.ic2
+      size: 4096
+      blob_id: 306578
+    - id: 923302
+      asset_id: 136599
+      name: hd44780_a00.bin
+      size: 4096
+      blob_id: 321813

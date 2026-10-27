@@ -1,6 +1,7 @@
 game:
   id: 1351
   platform_id: 1
+  description: "如果你说的是街机游戏，那么“电精”和“电神魔鬼”通常指的是同一款游戏，但正确标题是：\n\n- 日文正式名：**電神魔傀**\n- 罗马字/英文名：**Denjin Makai**\n- 中文常用简称：**电精**\n- “电神魔鬼”：属于误写，应为“电神魔傀”\n\n不过需要区分 SFC 版：\n\n- 街机版：**电神魔傀**\n- SFC 改编版：**Ghost Chaser 电精（ゴーストチェイサー電精）**\n\nSFC 版是街机版的改编移植，角色从 6 人减到 3 人，关卡和系统也有调整，所以最好作为不同发行版处理，不应当视为完全相同的 ROM。[资料说明](https://w.atwiki.jp/gcmatome/pages/1849.html)\n\n另外，续作是 **Guardians / 电神魔傀Ⅱ**，国内通常称“电精2”。"
 names:
 - id: 2702
   kind: 2
@@ -19,6 +20,12 @@ names:
   language: 1
   name: Ghost Chaser Densei (SNES bootleg, set 2)
   source: mame
+- id: 257231
+  kind: 2
+  kind_id: 1351
+  language: 2
+  name: 电神魔鬼
+  deprecated: 1
 releases:
 - release:
     id: 1351
@@ -35,92 +42,12 @@ releases:
     language: 2
     name: 电精
     source: trimui
+  - id: 257229
+    kind: 3
+    kind_id: 1351
+    language: 2
+    name: Ghost Chaser 电精（盗版，Set 1）
   assets:
-  - asset:
-      id: 1351
-      kind: 3
-      kind_id: 1351
-      type: 1
-      name: denseib.zip
-      format: 2
-      size: 2772355
-      debug: denseib.zip
-    entries:
-    - id: 21019
-      asset_id: 1351
-      name: u31.bin
-      size: 524288
-      blob_id: 14919
-    - id: 21020
-      asset_id: 1351
-      name: u32.bin
-      size: 524288
-      blob_id: 14920
-    - id: 21021
-      asset_id: 1351
-      name: u33.bin
-      size: 524288
-      blob_id: 14921
-    - id: 21022
-      asset_id: 1351
-      name: u34.bin
-      size: 524288
-      blob_id: 14922
-    - id: 21023
-      asset_id: 1351
-      name: dj.u14
-      size: 524288
-      blob_id: 14923
-    - id: 21024
-      asset_id: 1351
-      name: dj.u15
-      size: 524288
-      blob_id: 14924
-    - id: 21025
-      asset_id: 1351
-      name: dj.u16
-      size: 524288
-      blob_id: 14925
-    - id: 21026
-      asset_id: 1351
-      name: dj.u17
-      size: 524288
-      blob_id: 14926
-    - id: 21027
-      asset_id: 1351
-      name: spc700.rom
-      size: 64
-      blob_id: 14927
-  - asset:
-      id: 97445
-      kind: 3
-      kind_id: 1351
-      type: 1
-      name: denseib.zip
-      format: 2
-      size: 1330018
-      debug: dat:mame:0.289
-    entries:
-    - id: 585744
-      asset_id: 97445
-      name: dj.u14
-      size: 524288
-      blob_id: 14923
-    - id: 585745
-      asset_id: 97445
-      name: dj.u15
-      size: 524288
-      blob_id: 14924
-    - id: 585746
-      asset_id: 97445
-      name: dj.u16
-      size: 524288
-      blob_id: 14925
-    - id: 585747
-      asset_id: 97445
-      name: dj.u17
-      size: 524288
-      blob_id: 14926
   - asset:
       id: 135042
       kind: 3
@@ -131,6 +58,41 @@ releases:
       size: 23932
       blob_id: 321737
       debug: fbui:retroarch-screenshot
+  - asset:
+      id: 135241
+      kind: 3
+      kind_id: 1351
+      type: 1
+      name: denseib.zip
+      format: 2
+      size: 1330201
+      debug: dat:mame:0.259
+    entries:
+    - id: 899996
+      asset_id: 135241
+      name: dj.u14
+      size: 524288
+      blob_id: 14923
+    - id: 899997
+      asset_id: 135241
+      name: dj.u15
+      size: 524288
+      blob_id: 14924
+    - id: 899998
+      asset_id: 135241
+      name: dj.u16
+      size: 524288
+      blob_id: 14925
+    - id: 899999
+      asset_id: 135241
+      name: dj.u17
+      size: 524288
+      blob_id: 14926
+    - id: 900000
+      asset_id: 135241
+      name: spc700.rom
+      size: 64
+      blob_id: 14927
 - release:
     id: 82595
     game_id: 1351
@@ -142,34 +104,44 @@ releases:
     language: 1
     name: Ghost Chaser Densei (SNES bootleg, set 2)
     source: mame
+  - id: 257230
+    kind: 3
+    kind_id: 82595
+    language: 2
+    name: Ghost Chaser 电精（盗版，Set 2）
   assets:
   - asset:
-      id: 97446
+      id: 135242
       kind: 3
       kind_id: 82595
       type: 1
       name: denseib2.zip
       format: 2
-      size: 1510978
-      debug: dat:mame:0.289
+      size: 1511161
+      debug: dat:mame:0.259
     entries:
-    - id: 585748
-      asset_id: 97446
+    - id: 900001
+      asset_id: 135242
       name: u31.bin
       size: 524288
       blob_id: 14919
-    - id: 585749
-      asset_id: 97446
+    - id: 900002
+      asset_id: 135242
       name: u32.bin
       size: 524288
       blob_id: 14920
-    - id: 585750
-      asset_id: 97446
+    - id: 900003
+      asset_id: 135242
       name: u33.bin
       size: 524288
       blob_id: 14921
-    - id: 585751
-      asset_id: 97446
+    - id: 900004
+      asset_id: 135242
       name: u34.bin
       size: 524288
       blob_id: 14922
+    - id: 900005
+      asset_id: 135242
+      name: spc700.rom
+      size: 64
+      blob_id: 14927
