@@ -12,6 +12,13 @@ names:
   kind_id: 28507
   language: 1
   name: Star Force (E) [!]
+  deprecated: 1
+- id: 263039
+  kind: 2
+  kind_id: 28507
+  language: 1
+  name: Star Force
+  source: no-intro
 releases:
 - release:
     id: 28507
@@ -27,17 +34,26 @@ releases:
     kind_id: 28507
     language: 1
     name: Star Force (E) [!]
+    deprecated: 1
+  - id: 260673
+    kind: 3
+    kind_id: 28507
+    language: 1
+    name: Star Force (Europe)
+    source: no-intro
   assets:
   - asset:
       id: 28489
       kind: 3
       kind_id: 28507
       type: 1
-      name: 星际武装战机 (欧版) (射击)-Star Force (Europe) + Star Force (E) [!].nes
+      name: Star Force (Europe).nes
       format: 1
       size: 65552
       blob_id: 72991
-      debug: 星际武装战机 (欧版) (射击)-Star Force (Europe) + Star Force (E) [!].nes
+      debug: |-
+        星际武装战机 (欧版) (射击)-Star Force (Europe) + Star Force (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=a75903006b1ad7e0cb1dd18f9e59dbcf1b24b50e
   - asset:
       id: 137781
       kind: 3

@@ -7,12 +7,19 @@ names:
   kind_id: 26628
   language: 1
   name: gb
+  deprecated: 1
 - id: 248970
   kind: 2
   kind_id: 26628
   language: 2
   name: Game Boy
   source: codex
+- id: 262357
+  kind: 2
+  kind_id: 26628
+  language: 1
+  name: Ghostbusters
+  source: no-intro
 releases:
 - release:
     id: 26628
@@ -23,14 +30,34 @@ releases:
     kind_id: 26628
     language: 1
     name: gb
+    deprecated: 1
+  - id: 259917
+    kind: 3
+    kind_id: 26628
+    language: 1
+    name: Ghostbusters (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 26610
       kind: 3
       kind_id: 26628
       type: 1
-      name: gb.nes
+      name: Ghostbusters (Japan).nes
       format: 1
       size: 65552
       blob_id: 71747
-      debug: gb.zip
+      debug: |-
+        gb.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=38a64be0202db4761bc65065c1d9d8f3fc784f5e
+  - asset:
+      id: 139949
+      kind: 3
+      kind_id: 26628
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Ghostbusters%20%28Japan%29.png
+      format: 1
+      size: 1401
+      blob_id: 324723
+      debug: libretro-named-titles:rom-asset=26610:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Ghostbusters%20%28Japan%29.png

@@ -12,11 +12,19 @@ names:
   kind_id: 20031
   language: 1
   name: RoboCop Vs The Terminator (U) (Prototype)
+  deprecated: 1
 - id: 92868
   kind: 2
   kind_id: 20031
   language: 1
   name: RoboCop Vs The Terminator
+  deprecated: 1
+- id: 262057
+  kind: 2
+  kind_id: 20031
+  language: 1
+  name: RoboCop Versus The Terminator
+  source: no-intro
 releases:
 - release:
     id: 20034
@@ -27,24 +35,43 @@ releases:
     kind_id: 20034
     language: 1
     name: RoboCop Vs The Terminator (U) (Prototype)
+    deprecated: 1
   - id: 66125
     kind: 3
     kind_id: 20034
     language: 2
     name: 机器战警 VS 终结者 (美版) (动作)-RoboCop versus The Terminator (USA) (Proto)
+  - id: 259189
+    kind: 3
+    kind_id: 20034
+    language: 1
+    name: RoboCop Versus The Terminator (USA) (Proto)
+    source: no-intro
   assets:
   - asset:
       id: 20016
       kind: 3
       kind_id: 20034
       type: 1
-      name: RoboCop Vs The Terminator (U) (Prototype).nes
+      name: RoboCop Versus The Terminator (USA) (Proto).nes
       format: 1
       size: 262160
       blob_id: 65492
       debug: |-
         RoboCop Vs The Terminator (U) (Prototype).zip
         机器战警 VS 终结者 (美版) (动作)-RoboCop versus The Terminator (USA) (Proto) + RoboCop Vs The Terminator (U) (Prototype).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=ef814dfc42ea1461abed357992adcdae1c82d408
+  - asset:
+      id: 139705
+      kind: 3
+      kind_id: 20034
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/RoboCop%20versus%20The%20Terminator%20%28USA%29%20%28Proto%29.png
+      format: 1
+      size: 1745
+      blob_id: 325096
+      debug: libretro-named-titles:rom-asset=20016:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/RoboCop%20versus%20The%20Terminator%20%28USA%29%20%28Proto%29.png
 - release:
     id: 20048
     game_id: 20031
@@ -54,14 +81,34 @@ releases:
     kind_id: 20048
     language: 1
     name: Robocop Vs The Terminator (Prototype) (U)
+    deprecated: 1
+  - id: 259192
+    kind: 3
+    kind_id: 20048
+    language: 1
+    name: RoboCop Versus The Terminator (USA) (Proto)
+    source: no-intro
   assets:
   - asset:
       id: 20030
       kind: 3
       kind_id: 20048
       type: 1
-      name: Robocop Vs The Terminator (Prototype) (U).nes
+      name: RoboCop Versus The Terminator (USA) (Proto).nes
       format: 1
       size: 262160
       blob_id: 65503
-      debug: Robocop Vs The Terminator (Prototype) (U).zip
+      debug: |-
+        Robocop Vs The Terminator (Prototype) (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=ef814dfc42ea1461abed357992adcdae1c82d408
+  - asset:
+      id: 139707
+      kind: 3
+      kind_id: 20048
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/RoboCop%20versus%20The%20Terminator%20%28USA%29%20%28Proto%29.png
+      format: 1
+      size: 1745
+      blob_id: 325096
+      debug: libretro-named-titles:rom-asset=20030:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/RoboCop%20versus%20The%20Terminator%20%28USA%29%20%28Proto%29.png

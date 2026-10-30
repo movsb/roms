@@ -12,11 +12,18 @@ names:
   kind_id: 20057
   language: 1
   name: Rock 'n' Ball (U) [!]
+  deprecated: 1
 - id: 92871
   kind: 2
   kind_id: 20057
   language: 1
   name: Rock 'n' Ball
+- id: 262059
+  kind: 2
+  kind_id: 20057
+  language: 1
+  name: Rock 'n' Ball
+  source: no-intro
 releases:
 - release:
     id: 20057
@@ -27,23 +34,31 @@ releases:
     kind_id: 20057
     language: 1
     name: Rock 'n' Ball (U) [!]
+    deprecated: 1
   - id: 44668
     kind: 3
     kind_id: 20057
     language: 1
     name: Rock 'n' Ball (U)
+    deprecated: 1
   - id: 65325
     kind: 3
     kind_id: 20057
     language: 2
     name: 摇滚弹珠台 (美版) (桌面平台)-Rock n Ball (USA)
+  - id: 259193
+    kind: 3
+    kind_id: 20057
+    language: 1
+    name: Rock 'n' Ball (USA)
+    source: no-intro
   assets:
   - asset:
       id: 20039
       kind: 3
       kind_id: 20057
       type: 1
-      name: Rock 'n' Ball (U) [!].nes
+      name: Rock 'n' Ball (USA).nes
       format: 1
       size: 196624
       blob_id: 65510
@@ -51,6 +66,7 @@ releases:
         Rock 'n' Ball (U) [!].zip
         Rock 'n' Ball (U).zip
         摇滚弹珠台 (美版) (桌面平台)-Rock n Ball (USA) + Rock 'n' Ball (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=aebdcda1709deaa6e3e9a05c92d8531501f296cf
   - asset:
       id: 137251
       kind: 3

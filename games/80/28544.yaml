@@ -12,6 +12,13 @@ names:
   kind_id: 28544
   language: 1
   name: Zui You Ji Zhi Tang San Zang (NJ065) (Ch)
+  deprecated: 1
+- id: 263058
+  kind: 2
+  kind_id: 28544
+  language: 1
+  name: Zui Youji Zhi Tang Sanzang
+  source: no-intro
 releases:
 - release:
     id: 28544
@@ -27,14 +34,34 @@ releases:
     kind_id: 28544
     language: 1
     name: Zui You Ji Zhi Tang San Zang (NJ065) (Ch)
+    deprecated: 1
+  - id: 260694
+    kind: 3
+    kind_id: 28544
+    language: 1
+    name: Zui Youji Zhi Tang Sanzang (China) (Aftermarket) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 28526
       kind: 3
       kind_id: 28544
       type: 1
-      name: 最游记之唐三藏[南晶科技] + Zui You Ji Zhi Tang San Zang (NJ065) (Ch).nes
+      name: Zui Youji Zhi Tang Sanzang (China) (Aftermarket) (Unl).nes
       format: 1
       size: 524304
       blob_id: 73016
-      debug: 最游记之唐三藏[南晶科技] + Zui You Ji Zhi Tang San Zang (NJ065) (Ch).nes
+      debug: |-
+        最游记之唐三藏[南晶科技] + Zui You Ji Zhi Tang San Zang (NJ065) (Ch).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=7ca74177716b89d150e2a086cb0085e14dfae658
+  - asset:
+      id: 140129
+      kind: 3
+      kind_id: 28544
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Zui%20Youji%20Zhi%20Tang%20Sanzang%20%28China%29%20%28Aftermarket%29%20%28Unl%29.png
+      format: 1
+      size: 6991
+      blob_id: 325464
+      debug: libretro-named-titles:rom-asset=28526:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Zui%20Youji%20Zhi%20Tang%20Sanzang%20%28China%29%20%28Aftermarket%29%20%28Unl%29.png

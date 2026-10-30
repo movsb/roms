@@ -32,28 +32,37 @@ releases:
     kind_id: 18575
     language: 1
     name: POPERSIA
+    deprecated: 1
   - id: 42880
     kind: 3
     kind_id: 18575
     language: 1
     name: Prince of Persia (U) [!]
+    deprecated: 1
   - id: 42914
     kind: 3
     kind_id: 18575
     language: 1
     name: Prince of Persia (U)
+    deprecated: 1
   - id: 66805
     kind: 3
     kind_id: 18575
     language: 2
     name: 波斯王子 (美版) (动作)-Prince of Persia (USA)
+  - id: 258990
+    kind: 3
+    kind_id: 18575
+    language: 1
+    name: Prince of Persia (USA)
+    source: no-intro
   assets:
   - asset:
       id: 18557
       kind: 3
       kind_id: 18575
       type: 1
-      name: POPERSIA.NES
+      name: Prince of Persia (USA).nes
       format: 1
       size: 131088
       blob_id: 64129
@@ -62,6 +71,18 @@ releases:
         Prince of Persia (U) [!].zip
         Prince of Persia (U).zip
         波斯王子 (美版) (动作)-Prince of Persia (USA) + Prince of Persia (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=9bc0211cf659608e375aa2d29cec1ecde463cf29
+  - asset:
+      id: 139656
+      kind: 3
+      kind_id: 18575
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Prince%20of%20Persia%20%28USA%29.png
+      format: 1
+      size: 4702
+      blob_id: 325054
+      debug: libretro-named-titles:rom-asset=18557:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Prince%20of%20Persia%20%28USA%29.png
 - release:
     id: 19252
     game_id: 18575
@@ -71,17 +92,26 @@ releases:
     kind_id: 19252
     language: 1
     name: Prince of Persia (R) [!]
+    deprecated: 1
+  - id: 259090
+    kind: 3
+    kind_id: 19252
+    language: 1
+    name: Prince of Persia (Russia) (Electronica) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 19234
       kind: 3
       kind_id: 19252
       type: 1
-      name: Prince of Persia (R) [!].nes
+      name: Prince of Persia (Russia) (Electronica) (Pirate).nes
       format: 1
       size: 131088
       blob_id: 64760
-      debug: Prince of Persia (R) [!].nes
+      debug: |-
+        Prince of Persia (R) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=3b40cf5310f2d15a5f5f44ea205d2ac1e2a18657
   - asset:
       id: 137204
       kind: 3

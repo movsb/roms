@@ -12,11 +12,18 @@ names:
   kind_id: 7088
   language: 1
   name: Blackjack (AVE) [!]
+  deprecated: 1
 - id: 91390
   kind: 2
   kind_id: 7088
   language: 1
   name: Blackjack
+- id: 261563
+  kind: 2
+  kind_id: 7088
+  language: 1
+  name: Blackjack
+  source: no-intro
 releases:
 - release:
     id: 7094
@@ -27,6 +34,7 @@ releases:
     kind_id: 7094
     language: 1
     name: Blackjack (Unl) [!]
+    deprecated: 1
   - id: 72247
     kind: 3
     kind_id: 7094
@@ -37,16 +45,35 @@ releases:
     kind_id: 7094
     language: 1
     name: Blackjack (AVE) [!]
+    deprecated: 1
+  - id: 257786
+    kind: 3
+    kind_id: 7094
+    language: 1
+    name: Blackjack (USA) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 7076
       kind: 3
       kind_id: 7094
       type: 1
-      name: Blackjack (Unl) [!].nes
+      name: Blackjack (USA) (Unl).nes
       format: 1
       size: 65552
       blob_id: 53284
       debug: |-
         Blackjack (Unl) [!].zip
         黑杰克 (美版) (桌面平台)-Blackjack (USA) (Unl) + Blackjack (AVE) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=ab8342df2c3aa946f2b54a5df4a58ec2dfb8dc9e
+  - asset:
+      id: 139326
+      kind: 3
+      kind_id: 7094
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Blackjack%20%28USA%29%20%28Unl%29.png
+      format: 1
+      size: 1722
+      blob_id: 324776
+      debug: libretro-named-titles:rom-asset=7076:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Blackjack%20%28USA%29%20%28Unl%29.png

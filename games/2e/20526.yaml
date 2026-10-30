@@ -12,6 +12,13 @@ names:
   kind_id: 20526
   language: 1
   name: Great Battle Cyber (J)
+  deprecated: 1
+- id: 262075
+  kind: 2
+  kind_id: 20526
+  language: 1
+  name: Great Battle Cyber
+  source: no-intro
 releases:
 - release:
     id: 20526
@@ -27,17 +34,26 @@ releases:
     kind_id: 20526
     language: 1
     name: Great Battle Cyber (J)
+    deprecated: 1
+  - id: 259243
+    kind: 3
+    kind_id: 20526
+    language: 1
+    name: Great Battle Cyber (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 20508
       kind: 3
       kind_id: 20526
       type: 1
-      name: SD 英雄挑战 (日版) (动作)-Great Battle Cyber (Japan) + Great Battle Cyber (J).nes
+      name: Great Battle Cyber (Japan).nes
       format: 1
       size: 393232
       blob_id: 65965
-      debug: SD 英雄挑战 (日版) (动作)-Great Battle Cyber (Japan) + Great Battle Cyber (J).nes
+      debug: |-
+        SD 英雄挑战 (日版) (动作)-Great Battle Cyber (Japan) + Great Battle Cyber (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=839d7de8101a228a69c7a067aece9bee79f4fca7
   - asset:
       id: 138664
       kind: 3

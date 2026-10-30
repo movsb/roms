@@ -68,6 +68,7 @@ releases:
     kind_id: 21614
     language: 1
     name: Son Son (Japan)
+    deprecated: 1
   - id: 69729
     kind: 3
     kind_id: 21614
@@ -78,6 +79,13 @@ releases:
     kind_id: 21614
     language: 1
     name: Son Son (J) [!]
+    deprecated: 1
+  - id: 259374
+    kind: 3
+    kind_id: 21614
+    language: 1
+    name: Son Son (Japan) (En)
+    source: no-intro
   release_publishers:
   - release_id: 21614
     publisher_id: 30
@@ -87,13 +95,14 @@ releases:
       kind: 3
       kind_id: 21614
       type: 1
-      name: Son Son (Japan).nes
+      name: Son Son (Japan) (En).nes
       format: 1
       size: 40976
       blob_id: 66990
       debug: |-
         Son Son (Japan).zip
         西游记 (日版) (动作射击)-Son Son (Japan) + Son Son (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=cbc7e0328aa7242b7f8f99b2257d9849373e3680
   - asset:
       id: 138692
       kind: 3

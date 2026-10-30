@@ -71,19 +71,37 @@ releases:
     kind_id: 26687
     language: 1
     name: "San Guo Zhi - CaoCao Zhuan (NJ018) (Ch)"
+    deprecated: 1
   - id: 59810
     kind: 3
     kind_id: 26687
     language: 2
     name: 三国志 曹操传
+  - id: 259937
+    kind: 3
+    kind_id: 26687
+    language: 1
+    name: "Sanguozhi - Caocao Zhuan (China) (Aftermarket) (Unl)"
+    source: no-intro
   assets:
   - asset:
       id: 26669
       kind: 3
       kind_id: 26687
       type: 1
-      name: "三国志 - 曹操传[南晶科技] + San Guo Zhi - CaoCao Zhuan (NJ018) (Ch).nes"
+      name: "Sanguozhi - Caocao Zhuan (China) (Aftermarket) (Unl).nes"
       format: 1
       size: 2097168
       blob_id: 71779
-      debug: "三国志 - 曹操传[南晶科技] + San Guo Zhi - CaoCao Zhuan (NJ018) (Ch).nes\n三国志 曹操传.zip"
+      debug: "三国志 - 曹操传[南晶科技] + San Guo Zhi - CaoCao Zhuan (NJ018) (Ch).nes\n三国志 曹操传.zip\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=85c80e5eb053cd364461743a2110338e4b5afca2"
+  - asset:
+      id: 139957
+      kind: 3
+      kind_id: 26687
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Sanguozhi%20-%20Caocao%20Zhuan%20%28China%29%20%28Aftermarket%29%20%28Unl%29.png
+      format: 1
+      size: 8319
+      blob_id: 325314
+      debug: libretro-named-titles:rom-asset=26669:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Sanguozhi%20-%20Caocao%20Zhuan%20%28China%29%20%28Aftermarket%29%20%28Unl%29.png

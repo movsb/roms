@@ -12,6 +12,13 @@ names:
   kind_id: 29562
   language: 1
   name: Wild Gunman (U) (PRG0) [!]
+  deprecated: 1
+- id: 263421
+  kind: 2
+  kind_id: 29562
+  language: 1
+  name: Wild Gunman
+  source: no-intro
 releases:
 - release:
     id: 29562
@@ -27,17 +34,26 @@ releases:
     kind_id: 29562
     language: 1
     name: Wild Gunman (U) (PRG0) [!]
+    deprecated: 1
+  - id: 261103
+    kind: 3
+    kind_id: 29562
+    language: 1
+    name: Wild Gunman (Japan, USA) (En)
+    source: no-intro
   assets:
   - asset:
       id: 29544
       kind: 3
       kind_id: 29562
       type: 1
-      name: 荒野枪手 (日版,美版) (光线枪射击)-Wild Gunman (Japan, USA) + Wild Gunman (U) (PRG0) [!].nes
+      name: Wild Gunman (Japan, USA) (En).nes
       format: 1
       size: 24592
       blob_id: 73663
-      debug: 荒野枪手 (日版,美版) (光线枪射击)-Wild Gunman (Japan, USA) + Wild Gunman (U) (PRG0) [!].nes
+      debug: |-
+        荒野枪手 (日版,美版) (光线枪射击)-Wild Gunman (Japan, USA) + Wild Gunman (U) (PRG0) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=b038d3c653daa0e3d671e373a3813c971ee8ec85
   - asset:
       id: 137954
       kind: 3

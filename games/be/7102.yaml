@@ -12,6 +12,13 @@ names:
   kind_id: 7102
   language: 1
   name: Blade Buster by HLC! Project
+  deprecated: 1
+- id: 261564
+  kind: 2
+  kind_id: 7102
+  language: 1
+  name: Blade Buster
+  source: no-intro
 releases:
 - release:
     id: 7102
@@ -22,17 +29,26 @@ releases:
     kind_id: 7102
     language: 1
     name: Blade Buster by HLC! Project (20100928) (PD)
+    deprecated: 1
+  - id: 257787
+    kind: 3
+    kind_id: 7102
+    language: 1
+    name: Blade Buster (Japan) (En) (Aftermarket) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 7084
       kind: 3
       kind_id: 7102
       type: 1
-      name: Blade Buster by HLC! Project (20100928) (PD).nes
+      name: Blade Buster (Japan) (En) (Aftermarket) (Unl).nes
       format: 1
       size: 393232
       blob_id: 53292
-      debug: Blade Buster by HLC! Project (20100928) (PD).nes
+      debug: |-
+        Blade Buster by HLC! Project (20100928) (PD).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=00d4c61e408ed46946568f63e9517e46bc7faf9f
   - asset:
       id: 138224
       kind: 3
@@ -53,21 +69,40 @@ releases:
     kind_id: 7103
     language: 1
     name: Blade Buster by HLC! Project (20120301) (PD)
+    deprecated: 1
   - id: 61232
     kind: 3
     kind_id: 7103
     language: 2
     name: 刀锋战机
+  - id: 257788
+    kind: 3
+    kind_id: 7103
+    language: 1
+    name: Blade Buster (Japan) (En) (v1.1) (Aftermarket) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 7085
       kind: 3
       kind_id: 7103
       type: 1
-      name: Blade Buster by HLC! Project (20120301) (PD).nes
+      name: Blade Buster (Japan) (En) (v1.1) (Aftermarket) (Unl).nes
       format: 1
       size: 393232
       blob_id: 53293
       debug: |-
         Blade Buster by HLC! Project (20120301) (PD).nes
         刀锋战机.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=a0c9c9ee01cfc8de1956512480ddd1b42f82f518
+  - asset:
+      id: 139327
+      kind: 3
+      kind_id: 7103
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Blade%20Buster%20%28Japan%29%20%28En%29%20%28v1.1%29%20%28Aftermarket%29%20%28Unl%29.png
+      format: 1
+      size: 2357
+      blob_id: 324777
+      debug: libretro-named-titles:rom-asset=7085:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Blade%20Buster%20%28Japan%29%20%28En%29%20%28v1.1%29%20%28Aftermarket%29%20%28Unl%29.png

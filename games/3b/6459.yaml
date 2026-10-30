@@ -37,32 +37,52 @@ releases:
     kind_id: 6459
     language: 1
     name: BartmanMeetsRadioactiveMan
+    deprecated: 1
   - id: 47304
     kind: 3
     kind_id: 6459
     language: 1
     name: "Simpsons - Bartman Meets Radioactive Man, The (U)"
+    deprecated: 1
   - id: 47338
     kind: 3
     kind_id: 6459
     language: 1
     name: "Simpsons, The - Bartman Meets Radioactive Man (U) [!]"
+    deprecated: 1
   - id: 70527
     kind: 3
     kind_id: 6459
     language: 2
     name: "辛普森家庭 - 霸子超人与幅射人 (美版) (动作)-Simpsons, The - Bartman Meets Radioactive Man (USA)"
+  - id: 257711
+    kind: 3
+    kind_id: 6459
+    language: 1
+    name: "Simpsons, The - Bartman Meets Radioactive Man (USA)"
+    source: no-intro
   assets:
   - asset:
       id: 6441
       kind: 3
       kind_id: 6459
       type: 1
-      name: BartmanMeetsRadioactiveMan.nes
+      name: "Simpsons, The - Bartman Meets Radioactive Man (USA).nes"
       format: 1
       size: 393232
       blob_id: 52693
-      debug: "BartmanMeetsRadioactiveMan.zip\nSimpsons - Bartman Meets Radioactive Man, The (U).zip\nSimpsons, The - Bartman Meets Radioactive Man (U) [!].zip\n辛普森家庭 - 霸子超人与幅射人 (美版) (动作)-Simpsons, The - Bartman Meets Radioactive Man (USA) + Simpsons, The - Bartman Meets Radioactive Man (U) [!].nes"
+      debug: "BartmanMeetsRadioactiveMan.zip\nSimpsons - Bartman Meets Radioactive Man, The (U).zip\nSimpsons, The - Bartman Meets Radioactive Man (U) [!].zip\n辛普森家庭 - 霸子超人与幅射人 (美版) (动作)-Simpsons, The - Bartman Meets Radioactive Man (USA) + Simpsons, The - Bartman Meets Radioactive Man (U) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=617b59e8fa49cb78ef867dbe517695048f247f08"
+  - asset:
+      id: 139313
+      kind: 3
+      kind_id: 6459
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Simpsons%2C%20The%20-%20Bartman%20Meets%20Radioactive%20Man%20%28USA%29.png
+      format: 1
+      size: 3547
+      blob_id: 324765
+      debug: libretro-named-titles:rom-asset=6441:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Simpsons%2C%20The%20-%20Bartman%20Meets%20Radioactive%20Man%20%28USA%29.png
 - release:
     id: 21247
     game_id: 6459
@@ -72,17 +92,24 @@ releases:
     kind_id: 21247
     language: 1
     name: "Simpsons, The - Bartman Meets Radioactive Man (E) [!]"
+    deprecated: 1
+  - id: 259333
+    kind: 3
+    kind_id: 21247
+    language: 1
+    name: "Simpsons, The - Bartman Meets Radioactive Man (Europe)"
+    source: no-intro
   assets:
   - asset:
       id: 21229
       kind: 3
       kind_id: 21247
       type: 1
-      name: "Simpsons, The - Bartman Meets Radioactive Man (E) [!].nes"
+      name: "Simpsons, The - Bartman Meets Radioactive Man (Europe).nes"
       format: 1
       size: 393232
       blob_id: 66644
-      debug: "Simpsons, The - Bartman Meets Radioactive Man (E) [!].nes"
+      debug: "Simpsons, The - Bartman Meets Radioactive Man (E) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=7a63862db65ddf30a5129dc4bc83dcced9c80466"
   - asset:
       id: 137307
       kind: 3

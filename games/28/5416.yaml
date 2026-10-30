@@ -7,12 +7,19 @@ names:
   kind_id: 5416
   language: 1
   name: Adventure_island3
+  deprecated: 1
 - id: 251933
   kind: 2
   kind_id: 5416
   language: 2
   name: 冒险岛3
   source: codex
+- id: 261487
+  kind: 2
+  kind_id: 5416
+  language: 1
+  name: Adventure Island 3
+  source: no-intro
 releases:
 - release:
     id: 5416
@@ -23,17 +30,26 @@ releases:
     kind_id: 5416
     language: 1
     name: Adventure_island3
+    deprecated: 1
+  - id: 257594
+    kind: 3
+    kind_id: 5416
+    language: 1
+    name: Adventure Island 3 (USA)
+    source: no-intro
   assets:
   - asset:
       id: 5398
       kind: 3
       kind_id: 5416
       type: 1
-      name: Adventure_island3.nes
+      name: Adventure Island 3 (USA).nes
       format: 1
       size: 262160
       blob_id: 51710
-      debug: Adventure_island3.zip
+      debug: |-
+        Adventure_island3.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=f77eb86932844a92834ef12c059a3f5b815dac07
   - asset:
       id: 138146
       kind: 3

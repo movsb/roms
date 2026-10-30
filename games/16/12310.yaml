@@ -7,12 +7,19 @@ names:
   kind_id: 12310
   language: 1
   name: Ghostbusters III (Unl) [!]
+  deprecated: 1
 - id: 247853
   kind: 2
   kind_id: 12310
   language: 2
   name: 捉鬼敢死队3
   source: codex
+- id: 261738
+  kind: 2
+  kind_id: 12310
+  language: 1
+  name: Ghostbusters III
+  source: no-intro
 releases:
 - release:
     id: 12310
@@ -23,14 +30,34 @@ releases:
     kind_id: 12310
     language: 1
     name: Ghostbusters III (Unl) [!]
+    deprecated: 1
+  - id: 258315
+    kind: 3
+    kind_id: 12310
+    language: 1
+    name: Ghostbusters III (Asia) (En) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 12292
       kind: 3
       kind_id: 12310
       type: 1
-      name: Ghostbusters III (Unl) [!].nes
+      name: Ghostbusters III (Asia) (En) (Pirate).nes
       format: 1
       size: 262160
       blob_id: 58215
-      debug: Ghostbusters III (Unl) [!].nes
+      debug: |-
+        Ghostbusters III (Unl) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=347a8b55789cc177f96a9fce02bd9d7fb77b3260
+  - asset:
+      id: 139415
+      kind: 3
+      kind_id: 12310
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Ghostbusters%20III%20%28Asia%29%20%28En%29%20%28Pirate%29.png
+      format: 1
+      size: 3244
+      blob_id: 324851
+      debug: libretro-named-titles:rom-asset=12292:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Ghostbusters%20III%20%28Asia%29%20%28En%29%20%28Pirate%29.png

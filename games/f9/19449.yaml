@@ -12,11 +12,19 @@ names:
   kind_id: 19449
   language: 1
   name: Qix (U) [!]
+  deprecated: 1
 - id: 92806
   kind: 2
   kind_id: 19449
   language: 1
   name: Qix
+  deprecated: 1
+- id: 262026
+  kind: 2
+  kind_id: 19449
+  language: 1
+  name: QIX
+  source: no-intro
 releases:
 - release:
     id: 19449
@@ -27,11 +35,13 @@ releases:
     kind_id: 19449
     language: 1
     name: Qix (U) [!p]
+    deprecated: 1
   - id: 43314
     kind: 3
     kind_id: 19449
     language: 1
     name: Qix (U)
+    deprecated: 1
   - id: 71453
     kind: 3
     kind_id: 19449
@@ -42,13 +52,20 @@ releases:
     kind_id: 19449
     language: 1
     name: Qix (U) [!]
+    deprecated: 1
+  - id: 259126
+    kind: 3
+    kind_id: 19449
+    language: 1
+    name: QIX (USA)
+    source: no-intro
   assets:
   - asset:
       id: 19431
       kind: 3
       kind_id: 19449
       type: 1
-      name: Qix (U) [!p].nes
+      name: QIX (USA).nes
       format: 1
       size: 131088
       blob_id: 64947
@@ -56,3 +73,15 @@ releases:
         Qix (U) [!p].zip
         Qix (U).zip
         领土争夺战 (美版) (益智)-Qix (USA) + Qix (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=b0f6caf1292865c998b6a4a93dae3e66b7d00c39
+  - asset:
+      id: 139688
+      kind: 3
+      kind_id: 19449
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/QIX%20%28USA%29.png
+      format: 1
+      size: 2623
+      blob_id: 325083
+      debug: libretro-named-titles:rom-asset=19431:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/QIX%20%28USA%29.png

@@ -12,6 +12,13 @@ names:
   kind_id: 30120
   language: 1
   name: Abadox (J)
+  deprecated: 1
+- id: 263619
+  kind: 2
+  kind_id: 30120
+  language: 1
+  name: Abadox
+  source: no-intro
 releases:
 - release:
     id: 30120
@@ -27,17 +34,26 @@ releases:
     kind_id: 30120
     language: 1
     name: Abadox (J)
+    deprecated: 1
+  - id: 261312
+    kind: 3
+    kind_id: 30120
+    language: 1
+    name: Abadox (Japan) (En)
+    source: no-intro
   assets:
   - asset:
       id: 30102
       kind: 3
       kind_id: 30120
       type: 1
-      name: 阿贝道之战 (日版) (射击)-Abadox (Japan) + Abadox (J).nes
+      name: Abadox (Japan) (En).nes
       format: 1
       size: 262160
       blob_id: 74009
-      debug: 阿贝道之战 (日版) (射击)-Abadox (Japan) + Abadox (J).nes
+      debug: |-
+        阿贝道之战 (日版) (射击)-Abadox (Japan) + Abadox (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=07cde12d71be979f9fed6fc6313142524ff0aa20
   - asset:
       id: 139233
       kind: 3

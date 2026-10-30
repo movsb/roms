@@ -13,6 +13,13 @@ names:
   language: 1
   name: Ultraman Club 3
   source: codex
+  deprecated: 1
+- id: 263489
+  kind: 2
+  kind_id: 29754
+  language: 1
+  name: "Ultraman Club 3 - Matamata Shutsugeki!! Ultra Kyoudai"
+  source: no-intro
 releases:
 - release:
     id: 29754
@@ -23,14 +30,33 @@ releases:
     kind_id: 29754
     language: 2
     name: 超人力霸王俱乐部 III (日版) (角色扮演)-Ultraman Club 3 (Japan)
+  - id: 261174
+    kind: 3
+    kind_id: 29754
+    language: 1
+    name: "Ultraman Club 3 - Matamata Shutsugeki!! Ultra Kyoudai (Japan)"
+    source: no-intro
   assets:
   - asset:
       id: 29736
       kind: 3
       kind_id: 29754
       type: 1
-      name: 超人力霸王俱乐部 III (日版) (角色扮演)-Ultraman Club 3 (Japan).nes
+      name: "Ultraman Club 3 - Matamata Shutsugeki!! Ultra Kyoudai (Japan).nes"
       format: 1
       size: 393232
       blob_id: 73780
-      debug: 超人力霸王俱乐部 III (日版) (角色扮演)-Ultraman Club 3 (Japan).nes
+      debug: |-
+        超人力霸王俱乐部 III (日版) (角色扮演)-Ultraman Club 3 (Japan).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=cef84201b09f138c5552119f805b8ab2e4be07da
+  - asset:
+      id: 140227
+      kind: 3
+      kind_id: 29754
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Ultraman%20Club%203%20-%20Matamata%20Shutsugeki%21%21%20Ultra%20Kyoudai%20%28Japan%29.png
+      format: 1
+      size: 1665
+      blob_id: 325546
+      debug: libretro-named-titles:rom-asset=29736:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Ultraman%20Club%203%20-%20Matamata%20Shutsugeki%21%21%20Ultra%20Kyoudai%20%28Japan%29.png

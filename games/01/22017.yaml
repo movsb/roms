@@ -12,11 +12,18 @@ names:
   kind_id: 22017
   language: 1
   name: Stealth ATF (U) [!]
+  deprecated: 1
 - id: 93116
   kind: 2
   kind_id: 22017
   language: 1
   name: Stealth ATF
+- id: 262149
+  kind: 2
+  kind_id: 22017
+  language: 1
+  name: Stealth ATF
+  source: no-intro
 releases:
 - release:
     id: 22017
@@ -27,23 +34,31 @@ releases:
     kind_id: 22017
     language: 1
     name: Stealth ATF (U) [!]
+    deprecated: 1
   - id: 49034
     kind: 3
     kind_id: 22017
     language: 1
     name: Stealth ATF (U)
+    deprecated: 1
   - id: 71263
     kind: 3
     kind_id: 22017
     language: 2
     name: 隐形战机 (美版) (模拟射击)-Stealth ATF (USA)
+  - id: 259422
+    kind: 3
+    kind_id: 22017
+    language: 1
+    name: Stealth ATF (USA)
+    source: no-intro
   assets:
   - asset:
       id: 21999
       kind: 3
       kind_id: 22017
       type: 1
-      name: Stealth ATF (U) [!].nes
+      name: Stealth ATF (USA).nes
       format: 1
       size: 262160
       blob_id: 67368
@@ -51,6 +66,7 @@ releases:
         Stealth ATF (U) [!].zip
         Stealth ATF (U).zip
         隐形战机 (美版) (模拟射击)-Stealth ATF (USA) + Stealth ATF (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=974ba6a6c95551ff5b5f8842d876ba02a827a778
   - asset:
       id: 137343
       kind: 3

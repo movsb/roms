@@ -12,6 +12,13 @@ names:
   kind_id: 29137
   language: 1
   name: Mario Bros. (E) [!]
+  deprecated: 1
+- id: 263249
+  kind: 2
+  kind_id: 29137
+  language: 1
+  name: Mario Bros.
+  source: no-intro
 releases:
 - release:
     id: 29137
@@ -27,17 +34,26 @@ releases:
     kind_id: 29137
     language: 1
     name: Mario Bros. (E) [!]
+    deprecated: 1
+  - id: 260920
+    kind: 3
+    kind_id: 29137
+    language: 1
+    name: Mario Bros. (Europe) (PAL-MA-0)
+    source: no-intro
   assets:
   - asset:
       id: 29119
       kind: 3
       kind_id: 29137
       type: 1
-      name: 玛璃欧兄弟 (欧版)(Rev A) (动作)-Mario Bros. (Europe) (Rev A) + Mario Bros. (E) [!].nes
+      name: Mario Bros. (Europe) (PAL-MA-0).nes
       format: 1
       size: 24592
       blob_id: 73397
-      debug: 玛璃欧兄弟 (欧版)(Rev A) (动作)-Mario Bros. (Europe) (Rev A) + Mario Bros. (E) [!].nes
+      debug: |-
+        玛璃欧兄弟 (欧版)(Rev A) (动作)-Mario Bros. (Europe) (Rev A) + Mario Bros. (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=1760ff410b7ec5a4540e9844686ee91932eaa1ad
   - asset:
       id: 137872
       kind: 3

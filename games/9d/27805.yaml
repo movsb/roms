@@ -12,6 +12,13 @@ names:
   kind_id: 27805
   language: 1
   name: Family School (J)
+  deprecated: 1
+- id: 262783
+  kind: 2
+  kind_id: 27805
+  language: 1
+  name: Family School
+  source: no-intro
 releases:
 - release:
     id: 27805
@@ -27,17 +34,26 @@ releases:
     kind_id: 27805
     language: 1
     name: Family School (J)
+    deprecated: 1
+  - id: 260392
+    kind: 3
+    kind_id: 27805
+    language: 1
+    name: Family School (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 27787
       kind: 3
       kind_id: 27805
       type: 1
-      name: 家庭学院 (日版) (益智)-Family School (Japan) + Family School (J).nes
+      name: Family School (Japan).nes
       format: 1
       size: 262160
       blob_id: 72528
-      debug: 家庭学院 (日版) (益智)-Family School (Japan) + Family School (J).nes
+      debug: |-
+        家庭学院 (日版) (益智)-Family School (Japan) + Family School (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=ca9257c01f6e190f7ae7998a3c1c681903ee0530
   - asset:
       id: 138916
       kind: 3

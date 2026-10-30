@@ -7,12 +7,19 @@ names:
   kind_id: 5714
   language: 1
   name: "Aladdin - Return of Jaffar, The"
+  deprecated: 1
 - id: 249001
   kind: 2
   kind_id: 5714
   language: 2
   name: 阿拉丁：贾方归来
   source: codex
+- id: 261495
+  kind: 2
+  kind_id: 5714
+  language: 1
+  name: "Super Aladdin - The Return of Jafar"
+  source: no-intro
 releases:
 - release:
     id: 5714
@@ -23,14 +30,32 @@ releases:
     kind_id: 5714
     language: 1
     name: "Aladdin - Return of Jaffar, The (Unl) [!]"
+    deprecated: 1
+  - id: 257629
+    kind: 3
+    kind_id: 5714
+    language: 1
+    name: "Super Aladdin - The Return of Jafar (Asia) (Ja) (Pirate)"
+    source: no-intro
   assets:
   - asset:
       id: 5696
       kind: 3
       kind_id: 5714
       type: 1
-      name: "Aladdin - Return of Jaffar, The (Unl) [!].nes"
+      name: "Super Aladdin - The Return of Jafar (Asia) (Ja) (Pirate).nes"
       format: 1
       size: 262160
       blob_id: 51992
-      debug: "Aladdin - Return of Jaffar, The (Unl) [!].nes\nAladdin - Return of Jaffar, The (Unl) [!].zip"
+      debug: "Aladdin - Return of Jaffar, The (Unl) [!].nes\nAladdin - Return of Jaffar, The (Unl) [!].zip\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=5e945271889fe5dce141d88035b246f60bfb5965"
+  - asset:
+      id: 139299
+      kind: 3
+      kind_id: 5714
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Super%20Aladdin%20-%20The%20Return%20of%20Jafar%20%28Asia%29%20%28Ja%29%20%28Pirate%29.png
+      format: 1
+      size: 4568
+      blob_id: 324753
+      debug: libretro-named-titles:rom-asset=5696:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Super%20Aladdin%20-%20The%20Return%20of%20Jafar%20%28Asia%29%20%28Ja%29%20%28Pirate%29.png

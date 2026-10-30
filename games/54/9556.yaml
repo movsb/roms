@@ -7,11 +7,18 @@ names:
   kind_id: 9556
   language: 1
   name: Decathlon (Unl)
+  deprecated: 1
 - id: 61599
   kind: 2
   kind_id: 9556
   language: 2
   name: 十项全能 (亚洲版) (运动)-Decathlon (Unl)
+- id: 261633
+  kind: 2
+  kind_id: 9556
+  language: 1
+  name: Decathlon
+  source: no-intro
 releases:
 - release:
     id: 9556
@@ -22,21 +29,29 @@ releases:
     kind_id: 9556
     language: 1
     name: Decathlon (Unl)
+    deprecated: 1
   - id: 61601
     kind: 3
     kind_id: 9556
     language: 2
     name: 十项全能 (亚洲版) (运动)-Decathlon (Asia) (Unl)
+  - id: 257993
+    kind: 3
+    kind_id: 9556
+    language: 1
+    name: Decathlon (Taiwan) (En) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 9538
       kind: 3
       kind_id: 9556
       type: 1
-      name: Decathlon (Unl).nes
+      name: Decathlon (Taiwan) (En) (Unl).nes
       format: 1
       size: 196624
       blob_id: 55630
       debug: |-
         Decathlon (Unl).zip
         十项全能 (亚洲版) (运动)-Decathlon (Asia) (Unl) + Decathlon (Unl).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=da7fea10043e16d57d825b319fc613c0f8f50b92

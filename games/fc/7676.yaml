@@ -37,17 +37,37 @@ releases:
     kind_id: 7676
     language: 1
     name: Captain America and The Avengers (E)
+    deprecated: 1
+  - id: 257843
+    kind: 3
+    kind_id: 7676
+    language: 1
+    name: Captain America and the Avengers (Australia)
+    source: no-intro
   assets:
   - asset:
       id: 7658
       kind: 3
       kind_id: 7676
       type: 1
-      name: Captain America and The Avengers (E).nes
+      name: Captain America and the Avengers (Australia).nes
       format: 1
       size: 262160
       blob_id: 53835
-      debug: Captain America and The Avengers (E).nes
+      debug: |-
+        Captain America and The Avengers (E).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=558f5dc3cd1848084bad5297c46b67266e6f843f
+  - asset:
+      id: 139336
+      kind: 3
+      kind_id: 7676
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Captain%20America%20and%20the%20Avengers%20%28Australia%29.png
+      format: 1
+      size: 3628
+      blob_id: 324611
+      debug: libretro-named-titles:rom-asset=7658:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Captain%20America%20and%20the%20Avengers%20%28Australia%29.png
 - release:
     id: 7677
     game_id: 7676
@@ -57,23 +77,31 @@ releases:
     kind_id: 7677
     language: 1
     name: Captain America and The Avengers (U) [!]
+    deprecated: 1
   - id: 17020
     kind: 3
     kind_id: 7677
     language: 1
     name: Captain_america
+    deprecated: 1
   - id: 68969
     kind: 3
     kind_id: 7677
     language: 2
     name: 美国队长与复仇者 (美版) (动作)-Captain America and the Avengers (USA)
+  - id: 257844
+    kind: 3
+    kind_id: 7677
+    language: 1
+    name: Captain America and the Avengers (USA)
+    source: no-intro
   assets:
   - asset:
       id: 7659
       kind: 3
       kind_id: 7677
       type: 1
-      name: Captain America and The Avengers (U) [!].nes
+      name: Captain America and the Avengers (USA).nes
       format: 1
       size: 262160
       blob_id: 53836
@@ -81,6 +109,7 @@ releases:
         Captain America and The Avengers (U) [!].zip
         Captain_america.zip
         美国队长与复仇者 (美版) (动作)-Captain America and the Avengers (USA) + Captain America and The Avengers (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=a13aa4971f1421e93312fa3574fcbe178b87977e
   - asset:
       id: 136752
       kind: 3
@@ -388,17 +417,26 @@ releases:
     kind_id: 7698
     language: 1
     name: Captain America and the Avengers (U)
+    deprecated: 1
+  - id: 257845
+    kind: 3
+    kind_id: 7698
+    language: 1
+    name: Captain America and the Avengers (USA)
+    source: no-intro
   assets:
   - asset:
       id: 7680
       kind: 3
       kind_id: 7698
       type: 1
-      name: Captain America and the Avengers (U).nes
+      name: Captain America and the Avengers (USA).nes
       format: 1
       size: 262160
       blob_id: 53857
-      debug: Captain America and the Avengers (U).zip
+      debug: |-
+        Captain America and the Avengers (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=a13aa4971f1421e93312fa3574fcbe178b87977e
   - asset:
       id: 138460
       kind: 3

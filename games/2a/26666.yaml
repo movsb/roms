@@ -12,6 +12,13 @@ names:
   kind_id: 26666
   language: 1
   name: King of Kings, The (Wisdom Tree) (V1.1) [!p]
+  deprecated: 1
+- id: 262367
+  kind: 2
+  kind_id: 26666
+  language: 1
+  name: "King of Kings, The - The Early Years"
+  source: no-intro
 releases:
 - release:
     id: 26666
@@ -27,14 +34,34 @@ releases:
     kind_id: 26666
     language: 1
     name: King of Kings, The (Wisdom Tree) (V1.1) [!p]
+    deprecated: 1
+  - id: 259928
+    kind: 3
+    kind_id: 26666
+    language: 1
+    name: "King of Kings, The - The Early Years (USA) (v1.1) (Unl)"
+    source: no-intro
   assets:
   - asset:
       id: 26648
       kind: 3
       kind_id: 26666
       type: 1
-      name: 万王之王 (美版) (V1.1) (动作)-King of Kings, The (USA) (v1.1) (Unl) + King of Kings, The (Wisdom Tree) (V1.1) [!p].nes
+      name: "King of Kings, The - The Early Years (USA) (v1.1) (Unl).nes"
       format: 1
       size: 262160
       blob_id: 71765
-      debug: 万王之王 (美版) (V1.1) (动作)-King of Kings, The (USA) (v1.1) (Unl) + King of Kings, The (Wisdom Tree) (V1.1) [!p].nes
+      debug: |-
+        万王之王 (美版) (V1.1) (动作)-King of Kings, The (USA) (v1.1) (Unl) + King of Kings, The (Wisdom Tree) (V1.1) [!p].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=77d699d6b04bc55f14a1ccf931902a5f10eeea18
+  - asset:
+      id: 139952
+      kind: 3
+      kind_id: 26666
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/King%20of%20Kings%2C%20The%20-%20The%20Early%20Years%20%28USA%29%20%28v1.1%29%20%28Unl%29.png
+      format: 1
+      size: 5394
+      blob_id: 325311
+      debug: libretro-named-titles:rom-asset=26648:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/King%20of%20Kings%2C%20The%20-%20The%20Early%20Years%20%28USA%29%20%28v1.1%29%20%28Unl%29.png

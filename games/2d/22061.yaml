@@ -7,12 +7,19 @@ names:
   kind_id: 22061
   language: 1
   name: Street Blaster IV Pro 10 (YMH-SN2) (Unl)
+  deprecated: 1
 - id: 248633
   kind: 2
   kind_id: 22061
   language: 2
   name: 街头霸王4 Pro 10
   source: codex
+- id: 262153
+  kind: 2
+  kind_id: 22061
+  language: 1
+  name: "Street Blaster IV - Pro 10"
+  source: no-intro
 releases:
 - release:
     id: 22061
@@ -23,14 +30,34 @@ releases:
     kind_id: 22061
     language: 1
     name: Street Blaster IV Pro 10 (YMH-SN2) (Unl)
+    deprecated: 1
+  - id: 259427
+    kind: 3
+    kind_id: 22061
+    language: 1
+    name: "Street Blaster IV - Pro 10 (Asia) (En) (Pirate)"
+    source: no-intro
   assets:
   - asset:
       id: 22043
       kind: 3
       kind_id: 22061
       type: 1
-      name: Street Blaster IV Pro 10 (YMH-SN2) (Unl).nes
+      name: "Street Blaster IV - Pro 10 (Asia) (En) (Pirate).nes"
       format: 1
       size: 393232
       blob_id: 67407
-      debug: Street Blaster IV Pro 10 (YMH-SN2) (Unl).nes
+      debug: |-
+        Street Blaster IV Pro 10 (YMH-SN2) (Unl).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=b347ada727682f13c7ccf7b665f97ed975c80b29
+  - asset:
+      id: 139778
+      kind: 3
+      kind_id: 22061
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Street%20Blaster%20IV%20-%20Pro%2010%20%28Asia%29%20%28En%29%20%28Pirate%29.png
+      format: 1
+      size: 5133
+      blob_id: 325155
+      debug: libretro-named-titles:rom-asset=22043:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Street%20Blaster%20IV%20-%20Pro%2010%20%28Asia%29%20%28En%29%20%28Pirate%29.png

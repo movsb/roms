@@ -23,17 +23,37 @@ releases:
     kind_id: 26181
     language: 1
     name: Xi Chu Ba Wang (Ch) (Wxn)
+    deprecated: 1
+  - id: 259840
+    kind: 3
+    kind_id: 26181
+    language: 1
+    name: Xi Chu Bawang (China) (990031) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 26163
       kind: 3
       kind_id: 26181
       type: 1
-      name: Xi Chu Ba Wang (Ch) (Wxn).nes
+      name: Xi Chu Bawang (China) (990031) (Unl).nes
       format: 1
       size: 1048592
       blob_id: 71323
-      debug: Xi Chu Ba Wang (Ch) (Wxn).nes
+      debug: |-
+        Xi Chu Ba Wang (Ch) (Wxn).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=66cbd4726ec798d18abbc6a79ec28a8d19ce6798
+  - asset:
+      id: 139900
+      kind: 3
+      kind_id: 26181
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Xi%20Chu%20Bawang%20%28China%29%20%28990031%29%20%28Unl%29.png
+      format: 1
+      size: 5935
+      blob_id: 325268
+      debug: libretro-named-titles:rom-asset=26163:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Xi%20Chu%20Bawang%20%28China%29%20%28990031%29%20%28Unl%29.png
 - release:
     id: 26182
     game_id: 26181

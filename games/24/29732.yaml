@@ -394,13 +394,19 @@ releases:
     kind_id: 20989
     language: 2
     name: 美版
+  - id: 259283
+    kind: 3
+    kind_id: 20989
+    language: 1
+    name: Shadow of the Ninja (USA)
+    source: no-intro
   assets:
   - asset:
       id: 20971
       kind: 3
       kind_id: 20989
       type: 1
-      name: Shadow of the Ninja (U) [!].nes
+      name: Shadow of the Ninja (USA).nes
       format: 1
       size: 262160
       blob_id: 66409
@@ -409,6 +415,7 @@ releases:
         Shadow of the Ninja (U).zip
         Shadow_of_the_ninja.zip
         赤影战士 (美版) (动作)-Shadow of the Ninja (USA) + Shadow of the Ninja (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=b8f6bf251865a35571c04c509989a61065745440
 - release:
     id: 20990
     game_id: 29732
@@ -478,17 +485,26 @@ releases:
     kind_id: 20998
     language: 1
     name: Shadow of the Ninja (UE) (VC)
+    deprecated: 1
+  - id: 259284
+    kind: 3
+    kind_id: 20998
+    language: 1
+    name: Shadow of the Ninja (USA, Europe) (Virtual Console)
+    source: no-intro
   assets:
   - asset:
       id: 20980
       kind: 3
       kind_id: 20998
       type: 1
-      name: Shadow of the Ninja (UE) (VC).nes
+      name: Shadow of the Ninja (USA, Europe) (Virtual Console).nes
       format: 1
       size: 262160
       blob_id: 66417
-      debug: Shadow of the Ninja (UE) (VC).nes
+      debug: |-
+        Shadow of the Ninja (UE) (VC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=b93cd6b65c551c1685e705212140603e50164c5c
 - release:
     id: 29729
     game_id: 29732
@@ -530,17 +546,25 @@ releases:
     kind_id: 29730
     language: 2
     name: 欧版
+  - id: 261168
+    kind: 3
+    kind_id: 29730
+    language: 1
+    name: Blue Shadow (Europe)
+    source: no-intro
   assets:
   - asset:
       id: 29712
       kind: 3
       kind_id: 29730
       type: 1
-      name: Blue Shadow (E) [!].nes
+      name: Blue Shadow (Europe).nes
       format: 1
       size: 262160
       blob_id: 73760
-      debug: 赤影战士 (欧版) (动作)-Blue Shadow (Europe) + Blue Shadow (E) [!].nes
+      debug: |-
+        赤影战士 (欧版) (动作)-Blue Shadow (Europe) + Blue Shadow (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=a52a23560281455f8cbe6ae563153f7925caef7b
 - release:
     id: 29732
     game_id: 29732
@@ -551,17 +575,25 @@ releases:
     kind_id: 29732
     language: 2
     name: 日版
+  - id: 261169
+    kind: 3
+    kind_id: 29732
+    language: 1
+    name: Yami no Shigotonin Kage (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 29714
       kind: 3
       kind_id: 29732
       type: 1
-      name: Kage (J) [!].nes
+      name: Yami no Shigotonin Kage (Japan).nes
       format: 1
       size: 262160
       blob_id: 73761
-      debug: 赤影战士 + Kage (J) [!].nes
+      debug: |-
+        赤影战士 + Kage (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=1b5a681c8c2b80781a395a7039ae22e6151ca4fe
 - release:
     id: 29733
     game_id: 29732

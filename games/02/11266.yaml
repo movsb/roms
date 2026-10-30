@@ -252,6 +252,7 @@ releases:
     kind_id: 11287
     language: 1
     name: Faxanadu (U) (PRG1) [!]
+    deprecated: 1
   - id: 66727
     kind: 3
     kind_id: 11287
@@ -262,13 +263,19 @@ releases:
     kind_id: 11287
     language: 2
     name: 沙那多
+  - id: 258210
+    kind: 3
+    kind_id: 11287
+    language: 1
+    name: Faxanadu (USA) (Rev 1)
+    source: no-intro
   assets:
   - asset:
       id: 11269
       kind: 3
       kind_id: 11287
       type: 1
-      name: Faxanadu (U) (PRG1) [!].nes
+      name: Faxanadu (USA) (Rev 1).nes
       format: 1
       size: 262160
       blob_id: 57249
@@ -276,6 +283,7 @@ releases:
         Faxanadu (U) (PRG1) [!].zip
         沙那多 (美版)(Rev A) (动作角色扮演)-Faxanadu (USA) (Rev A) + Faxanadu (U) (PRG1) [!].nes
         沙那多.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=d0c6af83c44f2dc90bcb0792a69c93f8d167f988
   - asset:
       id: 136888
       kind: 3
@@ -316,17 +324,26 @@ releases:
     kind_id: 11289
     language: 1
     name: Faxanadu (U)
+    deprecated: 1
+  - id: 258211
+    kind: 3
+    kind_id: 11289
+    language: 1
+    name: Faxanadu (USA)
+    source: no-intro
   assets:
   - asset:
       id: 11271
       kind: 3
       kind_id: 11289
       type: 1
-      name: Faxanadu (U).nes
+      name: Faxanadu (USA).nes
       format: 1
       size: 262160
       blob_id: 57251
-      debug: Faxanadu (U).zip
+      debug: |-
+        Faxanadu (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=5b05c8859f356013d37f0545f5de5fa1693da5da
   - asset:
       id: 138486
       kind: 3

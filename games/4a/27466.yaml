@@ -12,6 +12,13 @@ names:
   kind_id: 27466
   language: 1
   name: King's Knight (J)
+  deprecated: 1
+- id: 262666
+  kind: 2
+  kind_id: 27466
+  language: 1
+  name: King's Knight
+  source: no-intro
 releases:
 - release:
     id: 27466
@@ -27,17 +34,26 @@ releases:
     kind_id: 27466
     language: 1
     name: King's Knight (J)
+    deprecated: 1
+  - id: 260263
+    kind: 3
+    kind_id: 27466
+    language: 1
+    name: King's Knight (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 27448
       kind: 3
       kind_id: 27466
       type: 1
-      name: 国王骑士 (日版) (动作射击)-Kings Knight (Japan) + King's Knight (J).nes
+      name: King's Knight (Japan).nes
       format: 1
       size: 65552
       blob_id: 72306
-      debug: 国王骑士 (日版) (动作射击)-Kings Knight (Japan) + King's Knight (J).nes
+      debug: |-
+        国王骑士 (日版) (动作射击)-Kings Knight (Japan) + King's Knight (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=5786c19ecb90f9c47a6c9a364b46b4e15bd57cfc
   - asset:
       id: 138876
       kind: 3

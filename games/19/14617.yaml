@@ -13,6 +13,12 @@ names:
   language: 2
   name: 国王密使5
   source: codex
+- id: 261829
+  kind: 2
+  kind_id: 14617
+  language: 1
+  name: King's Quest V
+  source: no-intro
 releases:
 - release:
     id: 14617
@@ -23,19 +29,27 @@ releases:
     kind_id: 14617
     language: 1
     name: King's Quest V (U) [!]
+    deprecated: 1
+  - id: 258579
+    kind: 3
+    kind_id: 14617
+    language: 1
+    name: King's Quest V (USA)
+    source: no-intro
   assets:
   - asset:
       id: 14599
       kind: 3
       kind_id: 14617
       type: 1
-      name: King's Quest V (U) [!].nes
+      name: King's Quest V (USA).nes
       format: 1
       size: 524304
       blob_id: 60371
       debug: |-
         King's Quest V (U) [!].nes
         King's Quest V (U) [!].zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=a39bcdaed0dffdec5e3fbeca39fe95d62cbdda8a
   - asset:
       id: 137029
       kind: 3
@@ -56,17 +70,26 @@ releases:
     kind_id: 14624
     language: 1
     name: King's Quest V (U)
+    deprecated: 1
+  - id: 258580
+    kind: 3
+    kind_id: 14624
+    language: 1
+    name: King's Quest V (USA)
+    source: no-intro
   assets:
   - asset:
       id: 14606
       kind: 3
       kind_id: 14624
       type: 1
-      name: King's Quest V (U).nes
+      name: King's Quest V (USA).nes
       format: 1
       size: 524304
       blob_id: 60377
-      debug: King's Quest V (U).zip
+      debug: |-
+        King's Quest V (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=a39bcdaed0dffdec5e3fbeca39fe95d62cbdda8a
   - asset:
       id: 138552
       kind: 3

@@ -22,23 +22,31 @@ releases:
     kind_id: 25366
     language: 1
     name: Ultimate Stuntman (Camerica) [!]
+    deprecated: 1
   - id: 56712
     kind: 3
     kind_id: 25366
     language: 1
     name: Ultimate Stuntman (Unl) [!]
+    deprecated: 1
   - id: 68732
     kind: 3
     kind_id: 25366
     language: 2
     name: 终极特技人
+  - id: 259740
+    kind: 3
+    kind_id: 25366
+    language: 1
+    name: Ultimate Stuntman, The (USA) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 25348
       kind: 3
       kind_id: 25366
       type: 1
-      name: Ultimate Stuntman (Camerica) [!].nes
+      name: Ultimate Stuntman, The (USA) (Unl).nes
       format: 1
       size: 262160
       blob_id: 70569
@@ -46,6 +54,7 @@ releases:
         Ultimate Stuntman (Camerica) [!].nes
         Ultimate Stuntman (Unl) [!].zip
         终极特技人.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=dfd47797dedddb36f5ca73f0e7d994ed792e2adf
   - asset:
       id: 137441
       kind: 3
@@ -86,14 +95,34 @@ releases:
     kind_id: 25370
     language: 1
     name: Ultimate Stuntman (U)
+    deprecated: 1
+  - id: 259741
+    kind: 3
+    kind_id: 25370
+    language: 1
+    name: Ultimate Stuntman, The (USA) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 25352
       kind: 3
       kind_id: 25370
       type: 1
-      name: Ultimate Stuntman (U).nes
+      name: Ultimate Stuntman, The (USA) (Unl).nes
       format: 1
       size: 262160
       blob_id: 70573
-      debug: Ultimate Stuntman (U).zip
+      debug: |-
+        Ultimate Stuntman (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=dfd47797dedddb36f5ca73f0e7d994ed792e2adf
+  - asset:
+      id: 139873
+      kind: 3
+      kind_id: 25370
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Ultimate%20Stuntman%2C%20The%20%28USA%29%20%28Unl%29.png
+      format: 1
+      size: 3282
+      blob_id: 324602
+      debug: libretro-named-titles:rom-asset=25352:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Ultimate%20Stuntman%2C%20The%20%28USA%29%20%28Unl%29.png

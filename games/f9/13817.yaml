@@ -27,24 +27,44 @@ releases:
     kind_id: 13817
     language: 1
     name: JACKAL
+    deprecated: 1
   - id: 30546
     kind: 3
     kind_id: 13817
     language: 1
     name: Jackal (U)
+    deprecated: 1
+  - id: 258484
+    kind: 3
+    kind_id: 13817
+    language: 1
+    name: Jackal (USA)
+    source: no-intro
   assets:
   - asset:
       id: 13799
       kind: 3
       kind_id: 13817
       type: 1
-      name: JACKAL.NES
+      name: Jackal (USA).nes
       format: 1
       size: 131088
       blob_id: 59638
       debug: |-
         JACKAL.zip
         Jackal (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=813e6a8bc0a502bb393f8729b1bc19836d5421a5
+  - asset:
+      id: 139467
+      kind: 3
+      kind_id: 13817
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Jackal%20%28USA%29.png
+      format: 1
+      size: 2392
+      blob_id: 324898
+      debug: libretro-named-titles:rom-asset=13799:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Jackal%20%28USA%29.png
 - release:
     id: 13852
     game_id: 13817
@@ -54,17 +74,26 @@ releases:
     kind_id: 13852
     language: 1
     name: Jackal (KC)
+    deprecated: 1
+  - id: 258488
+    kind: 3
+    kind_id: 13852
+    language: 1
+    name: Jackal (World) (Konami Collector's Series)
+    source: no-intro
   assets:
   - asset:
       id: 13834
       kind: 3
       kind_id: 13852
       type: 1
-      name: Jackal (KC).nes
+      name: Jackal (World) (Konami Collector's Series).nes
       format: 1
       size: 131088
       blob_id: 59671
-      debug: Jackal (KC).nes
+      debug: |-
+        Jackal (KC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=f89ef9da6e70c1fb83f0eb5a5f02a01d3bc8ce31
 - release:
     id: 13853
     game_id: 13817
@@ -74,24 +103,32 @@ releases:
     kind_id: 13853
     language: 1
     name: Jackal (U) [!]
+    deprecated: 1
   - id: 69939
     kind: 3
     kind_id: 13853
     language: 2
     name: 赤色要塞（美版）
+  - id: 258489
+    kind: 3
+    kind_id: 13853
+    language: 1
+    name: Jackal (USA)
+    source: no-intro
   assets:
   - asset:
       id: 13835
       kind: 3
       kind_id: 13853
       type: 1
-      name: Jackal (U) [!].nes
+      name: Jackal (USA).nes
       format: 1
       size: 131088
       blob_id: 59672
       debug: |-
         Jackal (U) [!].zip
         赤色要塞（美版） + Jackal (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=813e6a8bc0a502bb393f8729b1bc19836d5421a5
   - asset:
       id: 136989
       kind: 3

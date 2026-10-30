@@ -12,6 +12,13 @@ names:
   kind_id: 5161
   language: 1
   name: "'89 Dennou Kyuusei Uranai (J) [!]"
+  deprecated: 1
+- id: 261474
+  kind: 2
+  kind_id: 5161
+  language: 1
+  name: "'89 Dennou Kyuusei Uranai"
+  source: no-intro
 releases:
 - release:
     id: 5161
@@ -27,17 +34,26 @@ releases:
     kind_id: 5161
     language: 1
     name: "'89 Dennou Kyuusei Uranai (J) [!]"
+    deprecated: 1
+  - id: 257572
+    kind: 3
+    kind_id: 5161
+    language: 1
+    name: "'89 Dennou Kyuusei Uranai (Japan)"
+    source: no-intro
   assets:
   - asset:
       id: 5143
       kind: 3
       kind_id: 5161
       type: 1
-      name: 89 电脑占星术 (日版) (其他)-89 Dennou Kyuusei Uranai (Japan) + '89 Dennou Kyuusei Uranai (J) [!].nes
+      name: "'89 Dennou Kyuusei Uranai (Japan).nes"
       format: 1
       size: 262160
       blob_id: 51465
-      debug: 89 电脑占星术 (日版) (其他)-89 Dennou Kyuusei Uranai (Japan) + '89 Dennou Kyuusei Uranai (J) [!].nes
+      debug: |-
+        89 电脑占星术 (日版) (其他)-89 Dennou Kyuusei Uranai (Japan) + '89 Dennou Kyuusei Uranai (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=56fe858d1035dce4b68520f457a0858bae7bb16d
   - asset:
       id: 136658
       kind: 3

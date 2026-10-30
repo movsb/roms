@@ -7,12 +7,19 @@ names:
   kind_id: 25385
   language: 1
   name: Ultraman Club 3 (J) [!]
+  deprecated: 1
 - id: 248843
   kind: 2
   kind_id: 25385
   language: 2
   name: 奥特曼俱乐部3
   source: codex
+- id: 262271
+  kind: 2
+  kind_id: 25385
+  language: 1
+  name: "Ultraman Club 3 - Matamata Shutsugeki!! Ultra Kyoudai"
+  source: no-intro
 releases:
 - release:
     id: 25385
@@ -23,17 +30,26 @@ releases:
     kind_id: 25385
     language: 1
     name: Ultraman Club 3 (J) [!]
+    deprecated: 1
+  - id: 259743
+    kind: 3
+    kind_id: 25385
+    language: 1
+    name: "Ultraman Club 3 - Matamata Shutsugeki!! Ultra Kyoudai (Japan)"
+    source: no-intro
   assets:
   - asset:
       id: 25367
       kind: 3
       kind_id: 25385
       type: 1
-      name: Ultraman Club 3 (J) [!].nes
+      name: "Ultraman Club 3 - Matamata Shutsugeki!! Ultra Kyoudai (Japan).nes"
       format: 1
       size: 393232
       blob_id: 70586
-      debug: Ultraman Club 3 (J) [!].nes
+      debug: |-
+        Ultraman Club 3 (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=cef84201b09f138c5552119f805b8ab2e4be07da
   - asset:
       id: 137443
       kind: 3

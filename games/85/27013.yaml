@@ -12,6 +12,13 @@ names:
   kind_id: 27013
   language: 1
   name: "Tiny Toon Adventures 2 - Montana Land he Youkoso (J)"
+  deprecated: 1
+- id: 262514
+  kind: 2
+  kind_id: 27013
+  language: 1
+  name: "Tiny Toon Adventures 2 - Montana Land e Youkoso"
+  source: no-intro
 releases:
 - release:
     id: 27013
@@ -27,14 +34,32 @@ releases:
     kind_id: 27013
     language: 1
     name: "Tiny Toon Adventures 2 - Montana Land he Youkoso (J)"
+    deprecated: 1
+  - id: 260094
+    kind: 3
+    kind_id: 27013
+    language: 1
+    name: "Tiny Toon Adventures 2 - Montana Land e Youkoso (Japan)"
+    source: no-intro
   assets:
   - asset:
       id: 26995
       kind: 3
       kind_id: 27013
       type: 1
-      name: "兔宝宝大冒险 II - 蒙大拿岛历险记 (日版) (动作)-Tiny Toon Adventures 2 - Montana Land he Youkoso (Japan) + Tiny Toon Adventures 2 - Montana Land he Youkoso (J).nes"
+      name: "Tiny Toon Adventures 2 - Montana Land e Youkoso (Japan).nes"
       format: 1
       size: 262160
       blob_id: 72005
-      debug: "兔宝宝大冒险 II - 蒙大拿岛历险记 (日版) (动作)-Tiny Toon Adventures 2 - Montana Land he Youkoso (Japan) + Tiny Toon Adventures 2 - Montana Land he Youkoso (J).nes"
+      debug: "兔宝宝大冒险 II - 蒙大拿岛历险记 (日版) (动作)-Tiny Toon Adventures 2 - Montana Land he Youkoso (Japan) + Tiny Toon Adventures 2 - Montana Land he Youkoso (J).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=4a771856257130c4c867214bd173ba54ed80a919"
+  - asset:
+      id: 140004
+      kind: 3
+      kind_id: 27013
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Tiny%20Toon%20Adventures%202%20-%20Montana%20Land%20e%20Youkoso%20%28Japan%29.png
+      format: 1
+      size: 2272
+      blob_id: 325352
+      debug: libretro-named-titles:rom-asset=26995:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Tiny%20Toon%20Adventures%202%20-%20Montana%20Land%20e%20Youkoso%20%28Japan%29.png

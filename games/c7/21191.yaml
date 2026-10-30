@@ -12,11 +12,18 @@ names:
   kind_id: 21191
   language: 1
   name: Silent Service (U) (PRG1) [!]
+  deprecated: 1
 - id: 93026
   kind: 2
   kind_id: 21191
   language: 1
   name: Silent Service
+- id: 262120
+  kind: 2
+  kind_id: 21191
+  language: 1
+  name: Silent Service
+  source: no-intro
 releases:
 - release:
     id: 21191
@@ -27,23 +34,31 @@ releases:
     kind_id: 21191
     language: 1
     name: Silent Service (U) (PRG1) [!]
+    deprecated: 1
   - id: 47224
     kind: 3
     kind_id: 21191
     language: 1
     name: Silent Service (U)
+    deprecated: 1
   - id: 66523
     kind: 3
     kind_id: 21191
     language: 2
     name: 死亡潜航 (美版)(Rev A) (模拟)-Silent Service (USA) (Rev A)
+  - id: 259323
+    kind: 3
+    kind_id: 21191
+    language: 1
+    name: Silent Service (USA) (Rev 1)
+    source: no-intro
   assets:
   - asset:
       id: 21173
       kind: 3
       kind_id: 21191
       type: 1
-      name: Silent Service (U) (PRG1) [!].nes
+      name: Silent Service (USA) (Rev 1).nes
       format: 1
       size: 131088
       blob_id: 66594
@@ -51,6 +66,7 @@ releases:
         Silent Service (U) (PRG1) [!].zip
         Silent Service (U).zip
         死亡潜航 (美版)(Rev A) (模拟)-Silent Service (USA) (Rev A) + Silent Service (U) (PRG1) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=9dc360fa868d61ff1aeaf39a41e43b93157b317e
   - asset:
       id: 137302
       kind: 3

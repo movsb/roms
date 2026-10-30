@@ -12,6 +12,13 @@ names:
   kind_id: 28203
   language: 1
   name: Devil World (J) [h1]
+  deprecated: 1
+- id: 262919
+  kind: 2
+  kind_id: 28203
+  language: 1
+  name: Devil World
+  source: no-intro
 releases:
 - release:
     id: 28203
@@ -27,14 +34,34 @@ releases:
     kind_id: 28203
     language: 1
     name: Devil World (J) [h1]
+    deprecated: 1
+  - id: 260542
+    kind: 3
+    kind_id: 28203
+    language: 1
+    name: Devil World (Japan) (Rev 1)
+    source: no-intro
   assets:
   - asset:
       id: 28185
       kind: 3
       kind_id: 28203
       type: 1
-      name: 恶魔世界 (日版)(Rev A) (益智)-Devil World (Japan) (Rev A) + Devil World (J) [h1].nes
+      name: Devil World (Japan) (Rev 1).nes
       format: 1
       size: 24592
       blob_id: 72786
-      debug: 恶魔世界 (日版)(Rev A) (益智)-Devil World (Japan) (Rev A) + Devil World (J) [h1].nes
+      debug: |-
+        恶魔世界 (日版)(Rev A) (益智)-Devil World (Japan) (Rev A) + Devil World (J) [h1].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=b07c874be0c36b1d071f4e5005215926ed0f0d20
+  - asset:
+      id: 140108
+      kind: 3
+      kind_id: 28203
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Devil%20World%20%28Japan%29%20%28Rev%201%29.png
+      format: 1
+      size: 15303
+      blob_id: 325447
+      debug: libretro-named-titles:rom-asset=28185:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Devil%20World%20%28Japan%29%20%28Rev%201%29.png

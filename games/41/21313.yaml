@@ -12,11 +12,18 @@ names:
   kind_id: 21313
   language: 1
   name: Skull & Crossbones (Tengen) [!]
+  deprecated: 1
 - id: 93041
   kind: 2
   kind_id: 21313
   language: 1
   name: Skull & Crossbones
+- id: 262126
+  kind: 2
+  kind_id: 21313
+  language: 1
+  name: Skull & Crossbones
+  source: no-intro
 releases:
 - release:
     id: 21314
@@ -27,11 +34,13 @@ releases:
     kind_id: 21314
     language: 1
     name: Skull & Crossbones (U)
+    deprecated: 1
   - id: 47472
     kind: 3
     kind_id: 21314
     language: 1
     name: Skull & Crossbones (Unl) [!]
+    deprecated: 1
   - id: 66983
     kind: 3
     kind_id: 21314
@@ -42,13 +51,20 @@ releases:
     kind_id: 21314
     language: 1
     name: Skull & Crossbones (Tengen) [!]
+    deprecated: 1
+  - id: 259340
+    kind: 3
+    kind_id: 21314
+    language: 1
+    name: Skull & Crossbones (USA) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 21296
       kind: 3
       kind_id: 21314
       type: 1
-      name: Skull & Crossbones (U).nes
+      name: Skull & Crossbones (USA) (Unl).nes
       format: 1
       size: 196624
       blob_id: 66705
@@ -56,3 +72,15 @@ releases:
         Skull & Crossbones (U).zip
         Skull & Crossbones (Unl) [!].zip
         海盗船长大冒险 (美版) (动作)-Skull &amp; Crossbones (USA) (Unl) + Skull & Crossbones (Tengen) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=085ee66db817a06d97670e8a80a0c41ccad49e96
+  - asset:
+      id: 139755
+      kind: 3
+      kind_id: 21314
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Skull%20_%20Crossbones%20%28USA%29%20%28Unl%29.png
+      format: 1
+      size: 2658
+      blob_id: 325135
+      debug: libretro-named-titles:rom-asset=21296:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Skull%20_%20Crossbones%20%28USA%29%20%28Unl%29.png

@@ -12,6 +12,13 @@ names:
   kind_id: 30414
   language: 1
   name: Huang Jin Tai Yang (NJ020) (Ch)
+  deprecated: 1
+- id: 263728
+  kind: 2
+  kind_id: 30414
+  language: 1
+  name: Huangjin Taiyang
+  source: no-intro
 releases:
 - release:
     id: 30414
@@ -27,14 +34,34 @@ releases:
     kind_id: 30414
     language: 1
     name: Huang Jin Tai Yang (NJ020) (Ch)
+    deprecated: 1
+  - id: 261437
+    kind: 3
+    kind_id: 30414
+    language: 1
+    name: Huangjin Taiyang (China) (Aftermarket) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 30396
       kind: 3
       kind_id: 30414
       type: 1
-      name: 黄金太阳 + Huang Jin Tai Yang (NJ020) (Ch).nes
+      name: Huangjin Taiyang (China) (Aftermarket) (Pirate).nes
       format: 1
       size: 2097168
       blob_id: 74200
-      debug: 黄金太阳 + Huang Jin Tai Yang (NJ020) (Ch).nes
+      debug: |-
+        黄金太阳 + Huang Jin Tai Yang (NJ020) (Ch).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=3026a71c4eb388453771eff647dce2de817af7df
+  - asset:
+      id: 140261
+      kind: 3
+      kind_id: 30414
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Huangjin%20Taiyang%20%28China%29%20%28Aftermarket%29%20%28Pirate%29.png
+      format: 1
+      size: 7569
+      blob_id: 325575
+      debug: libretro-named-titles:rom-asset=30396:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Huangjin%20Taiyang%20%28China%29%20%28Aftermarket%29%20%28Pirate%29.png

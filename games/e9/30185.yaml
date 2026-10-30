@@ -12,6 +12,13 @@ names:
   kind_id: 30185
   language: 1
   name: Rampart (J) [!]
+  deprecated: 1
+- id: 263643
+  kind: 2
+  kind_id: 30185
+  language: 1
+  name: Rampart
+  source: no-intro
 releases:
 - release:
     id: 30185
@@ -27,17 +34,26 @@ releases:
     kind_id: 30185
     language: 1
     name: Rampart (J) [!]
+    deprecated: 1
+  - id: 261340
+    kind: 3
+    kind_id: 30185
+    language: 1
+    name: Rampart (Japan) (Konami)
+    source: no-intro
   assets:
   - asset:
       id: 30167
       kind: 3
       kind_id: 30185
       type: 1
-      name: 领国战役 (日版) (动作射击)-Rampart (Japan) + Rampart (J) [!].nes
+      name: Rampart (Japan) (Konami).nes
       format: 1
       size: 131088
       blob_id: 74050
-      debug: 领国战役 (日版) (动作射击)-Rampart (Japan) + Rampart (J) [!].nes
+      debug: |-
+        领国战役 (日版) (动作射击)-Rampart (Japan) + Rampart (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=3b54c4fd4cde3a576223b8a745ae0331a808fe33
   - asset:
       id: 138065
       kind: 3

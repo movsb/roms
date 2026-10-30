@@ -7,6 +7,7 @@ names:
   kind_id: 15924
   language: 1
   name: Mario's Time Machine!
+  deprecated: 1
 - id: 248141
   kind: 2
   kind_id: 15924
@@ -24,6 +25,12 @@ names:
   language: 2
   name: 马里奥的时光机器
   deprecated: 1
+- id: 261892
+  kind: 2
+  kind_id: 15924
+  language: 1
+  name: Mario's Time Machine
+  source: no-intro
 releases:
 - release:
     id: 15924
@@ -35,13 +42,19 @@ releases:
     kind_id: 15924
     language: 2
     name: 美版
+  - id: 258738
+    kind: 3
+    kind_id: 15924
+    language: 1
+    name: Mario's Time Machine (USA)
+    source: no-intro
   assets:
   - asset:
       id: 15906
       kind: 3
       kind_id: 15924
       type: 1
-      name: Mario's Time Machine! (U) [!].nes
+      name: Mario's Time Machine (USA).nes
       format: 1
       size: 262160
       blob_id: 61599
@@ -50,6 +63,7 @@ releases:
         Mario's Time Machine! (U) [!p].zip
         Mario's Time Machine! (U).zip
         MariosTimeMachine.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=fd51f5be5634724dbbb434a960ec2fa5a6bf5c4c
   - asset:
       id: 135025
       kind: 3

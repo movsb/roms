@@ -7,12 +7,19 @@ names:
   kind_id: 21936
   language: 1
   name: "Star Trek V - The Final Frontier (Prototype)"
+  deprecated: 1
 - id: 248625
   kind: 2
   kind_id: 21936
   language: 2
   name: 星际迷航5：终极先锋
   source: codex
+- id: 262147
+  kind: 2
+  kind_id: 21936
+  language: 1
+  name: "Star Trek V - The Final Frontier"
+  source: no-intro
 releases:
 - release:
     id: 21936
@@ -23,14 +30,32 @@ releases:
     kind_id: 21936
     language: 1
     name: "Star Trek V - The Final Frontier (Prototype)"
+    deprecated: 1
+  - id: 259409
+    kind: 3
+    kind_id: 21936
+    language: 1
+    name: "Star Trek V - The Final Frontier (USA) (Proto)"
+    source: no-intro
   assets:
   - asset:
       id: 21918
       kind: 3
       kind_id: 21936
       type: 1
-      name: "Star Trek V - The Final Frontier (Prototype).nes"
+      name: "Star Trek V - The Final Frontier (USA) (Proto).nes"
       format: 1
       size: 262160
       blob_id: 67294
-      debug: "Star Trek V - The Final Frontier (Prototype).nes"
+      debug: "Star Trek V - The Final Frontier (Prototype).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=8d32989b7b8bc53084f9fd98f81c8acc4a825721"
+  - asset:
+      id: 139770
+      kind: 3
+      kind_id: 21936
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Star%20Trek%20V%20-%20The%20Final%20Frontier%20%28USA%29%20%28Proto%29.png
+      format: 1
+      size: 7911
+      blob_id: 325149
+      debug: libretro-named-titles:rom-asset=21918:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Star%20Trek%20V%20-%20The%20Final%20Frontier%20%28USA%29%20%28Proto%29.png

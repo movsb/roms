@@ -13,6 +13,12 @@ names:
   language: 1
   name: "Gotta Protectors - Amazon's Running Diet"
   source: codex
+- id: 262778
+  kind: 2
+  kind_id: 27794
+  language: 1
+  name: "Gotta Protectors - Amazon's Running Diet"
+  source: no-intro
 releases:
 - release:
     id: 27794
@@ -23,14 +29,33 @@ releases:
     kind_id: 27794
     language: 2
     name: 守护骑士亚马逊减肥大作战
+  - id: 260387
+    kind: 3
+    kind_id: 27794
+    language: 1
+    name: "Gotta Protectors - Amazon's Running Diet (World) (Aftermarket) (Unl)"
+    source: no-intro
   assets:
   - asset:
       id: 27776
       kind: 3
       kind_id: 27794
       type: 1
-      name: 守护骑士亚马逊减肥大作战.nes
+      name: "Gotta Protectors - Amazon's Running Diet (World) (Aftermarket) (Unl).nes"
       format: 1
       size: 524304
       blob_id: 72521
-      debug: 守护骑士亚马逊减肥大作战.zip
+      debug: |-
+        守护骑士亚马逊减肥大作战.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=683404401d882e6a269944d42f03ee599f517f7d
+  - asset:
+      id: 140075
+      kind: 3
+      kind_id: 27794
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Gotta%20Protectors%20-%20Amazon%27s%20Running%20Diet%20%28World%29%20%28Aftermarket%29%20%28Unl%29.png
+      format: 1
+      size: 5609
+      blob_id: 325415
+      debug: libretro-named-titles:rom-asset=27776:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Gotta%20Protectors%20-%20Amazon%27s%20Running%20Diet%20%28World%29%20%28Aftermarket%29%20%28Unl%29.png

@@ -12,6 +12,13 @@ names:
   kind_id: 28505
   language: 1
   name: "Xing Ji Wu Shi - Super Fighter (Ch)"
+  deprecated: 1
+- id: 263037
+  kind: 2
+  kind_id: 28505
+  language: 1
+  name: "Xingji Wushi - Super Fighter"
+  source: no-intro
 releases:
 - release:
     id: 28505
@@ -27,14 +34,32 @@ releases:
     kind_id: 28505
     language: 1
     name: "Xing Ji Wu Shi - Super Fighter (Ch)"
+    deprecated: 1
+  - id: 260671
+    kind: 3
+    kind_id: 28505
+    language: 1
+    name: "Xingji Wushi - Super Fighter (China) (Pirate)"
+    source: no-intro
   assets:
   - asset:
       id: 28487
       kind: 3
       kind_id: 28505
       type: 1
-      name: "星际武士 + Xing Ji Wu Shi - Super Fighter (Ch).nes"
+      name: "Xingji Wushi - Super Fighter (China) (Pirate).nes"
       format: 1
       size: 524304
       blob_id: 72989
-      debug: "星际武士 + Xing Ji Wu Shi - Super Fighter (Ch).nes"
+      debug: "星际武士 + Xing Ji Wu Shi - Super Fighter (Ch).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=5e0a8eefa20fc911ae30f21c2601af20e2abd9da"
+  - asset:
+      id: 140125
+      kind: 3
+      kind_id: 28505
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Xingji%20Wushi%20-%20Super%20Fighter%20%28China%29%20%28Pirate%29.png
+      format: 1
+      size: 3908
+      blob_id: 325461
+      debug: libretro-named-titles:rom-asset=28487:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Xingji%20Wushi%20-%20Super%20Fighter%20%28China%29%20%28Pirate%29.png

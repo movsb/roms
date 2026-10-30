@@ -37,17 +37,37 @@ releases:
     kind_id: 10952
     language: 1
     name: Excitebike (E) (VC)
+    deprecated: 1
+  - id: 258141
+    kind: 3
+    kind_id: 10952
+    language: 1
+    name: Excitebike (Europe) (Virtual Console)
+    source: no-intro
   assets:
   - asset:
       id: 10934
       kind: 3
       kind_id: 10952
       type: 1
-      name: Excitebike (E) (VC).nes
+      name: Excitebike (Europe) (Virtual Console).nes
       format: 1
       size: 40976
       blob_id: 56939
-      debug: Excitebike (E) (VC).nes
+      debug: |-
+        Excitebike (E) (VC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=b814e7087046fda3ba6d7f30159316e0763a4e18
+  - asset:
+      id: 139388
+      kind: 3
+      kind_id: 10952
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Excitebike%20%28Europe%29%20%28Virtual%20Console%29.png
+      format: 1
+      size: 1151
+      blob_id: 324827
+      debug: libretro-named-titles:rom-asset=10934:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Excitebike%20%28Europe%29%20%28Virtual%20Console%29.png
 - release:
     id: 10953
     game_id: 10952
@@ -77,17 +97,26 @@ releases:
     kind_id: 10954
     language: 1
     name: Excitebike (GC)
+    deprecated: 1
+  - id: 258142
+    kind: 3
+    kind_id: 10954
+    language: 1
+    name: Excitebike (Japan, USA) (En) (Animal Crossing)
+    source: no-intro
   assets:
   - asset:
       id: 10936
       kind: 3
       kind_id: 10954
       type: 1
-      name: Excitebike (GC).nes
+      name: Excitebike (Japan, USA) (En) (Animal Crossing).nes
       format: 1
       size: 24592
       blob_id: 56941
-      debug: Excitebike (GC).nes
+      debug: |-
+        Excitebike (GC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=55450eef7cb640dc24d9f655bbfcd4623a788b43
 - release:
     id: 10955
     game_id: 10952
@@ -97,17 +126,26 @@ releases:
     kind_id: 10955
     language: 1
     name: Excitebike (J) (VC)
+    deprecated: 1
+  - id: 258143
+    kind: 3
+    kind_id: 10955
+    language: 1
+    name: Excitebike (Japan, USA) (En) (Virtual Console, Classic Mini)
+    source: no-intro
   assets:
   - asset:
       id: 10937
       kind: 3
       kind_id: 10955
       type: 1
-      name: Excitebike (J) (VC).nes
+      name: Excitebike (Japan, USA) (En) (Virtual Console, Classic Mini).nes
       format: 1
       size: 40976
       blob_id: 56942
-      debug: Excitebike (J) (VC).nes
+      debug: |-
+        Excitebike (J) (VC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=7be56b9461dcdc91fe82adfd1660ab0e47381bfb
 - release:
     id: 10956
     game_id: 10952
@@ -117,24 +155,32 @@ releases:
     kind_id: 10956
     language: 1
     name: Excitebike (JU) [!]
+    deprecated: 1
   - id: 67265
     kind: 3
     kind_id: 10956
     language: 2
     name: 火爆机车赛 (日版,美版) (竞赛)-Excitebike (Japan, USA)
+  - id: 258144
+    kind: 3
+    kind_id: 10956
+    language: 1
+    name: Excitebike (Japan, USA) (En)
+    source: no-intro
   assets:
   - asset:
       id: 10938
       kind: 3
       kind_id: 10956
       type: 1
-      name: Excitebike (JU) [!].nes
+      name: Excitebike (Japan, USA) (En).nes
       format: 1
       size: 24592
       blob_id: 56943
       debug: |-
         Excitebike (JU) [!].zip
         火爆机车赛 (日版,美版) (竞赛)-Excitebike (Japan, USA) + Excitebike (JU) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=ba8d9227a0d02b62ee6cb9e691fa5a5134c303a8
   - asset:
       id: 136856
       kind: 3
@@ -355,17 +401,26 @@ releases:
     kind_id: 10983
     language: 1
     name: Excitebike (U) (GBA e-Reader)
+    deprecated: 1
+  - id: 258145
+    kind: 3
+    kind_id: 10983
+    language: 1
+    name: Excitebike (USA) (e-Reader)
+    source: no-intro
   assets:
   - asset:
       id: 10965
       kind: 3
       kind_id: 10983
       type: 1
-      name: Excitebike (U) (GBA e-Reader).nes
+      name: Excitebike (USA) (e-Reader).nes
       format: 1
       size: 24592
       blob_id: 56970
-      debug: Excitebike (U) (GBA e-Reader).nes
+      debug: |-
+        Excitebike (U) (GBA e-Reader).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=ebc84fee38356bbb4a20fd0116b310fddd8cf21b
 - release:
     id: 10984
     game_id: 10952

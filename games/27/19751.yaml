@@ -7,12 +7,19 @@ names:
   kind_id: 19751
   language: 1
   name: Rally (Zippy Race) (R) [!]
+  deprecated: 1
 - id: 248430
   kind: 2
   kind_id: 19751
   language: 2
   name: 拉力赛
   source: codex
+- id: 262043
+  kind: 2
+  kind_id: 19751
+  language: 1
+  name: Rally
+  source: no-intro
 releases:
 - release:
     id: 19751
@@ -23,17 +30,26 @@ releases:
     kind_id: 19751
     language: 1
     name: Rally (Zippy Race) (R) [!]
+    deprecated: 1
+  - id: 259156
+    kind: 3
+    kind_id: 19751
+    language: 1
+    name: Rally (Russia) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 19733
       kind: 3
       kind_id: 19751
       type: 1
-      name: Rally (Zippy Race) (R) [!].nes
+      name: Rally (Russia) (Pirate).nes
       format: 1
       size: 24592
       blob_id: 65226
-      debug: Rally (Zippy Race) (R) [!].nes
+      debug: |-
+        Rally (Zippy Race) (R) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=2e9750a3aa68d4b740ecc50099f4ec71467364d6
   - asset:
       id: 137234
       kind: 3

@@ -7,12 +7,19 @@ names:
   kind_id: 21843
   language: 1
   name: "Stanley - The Search for Dr Livingston (U)"
+  deprecated: 1
 - id: 248619
   kind: 2
   kind_id: 21843
   language: 2
   name: 斯坦利：寻找利文斯通博士
   source: codex
+- id: 262144
+  kind: 2
+  kind_id: 21843
+  language: 1
+  name: "Stanley - The Search for Dr. Livingston"
+  source: no-intro
 releases:
 - release:
     id: 21843
@@ -23,14 +30,32 @@ releases:
     kind_id: 21843
     language: 1
     name: "Stanley - The Search for Dr Livingston (U)"
+    deprecated: 1
+  - id: 259398
+    kind: 3
+    kind_id: 21843
+    language: 1
+    name: "Stanley - The Search for Dr. Livingston (USA)"
+    source: no-intro
   assets:
   - asset:
       id: 21825
       kind: 3
       kind_id: 21843
       type: 1
-      name: "Stanley - The Search for Dr Livingston (U).nes"
+      name: "Stanley - The Search for Dr. Livingston (USA).nes"
       format: 1
       size: 262160
       blob_id: 67203
-      debug: "Stanley - The Search for Dr Livingston (U).zip"
+      debug: "Stanley - The Search for Dr Livingston (U).zip\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=e6dbba9afd18a3868c2280af2e796cf7af54882c"
+  - asset:
+      id: 139769
+      kind: 3
+      kind_id: 21843
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Stanley%20-%20The%20Search%20for%20Dr.%20Livingston%20%28USA%29.png
+      format: 1
+      size: 2623
+      blob_id: 325148
+      debug: libretro-named-titles:rom-asset=21825:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Stanley%20-%20The%20Search%20for%20Dr.%20Livingston%20%28USA%29.png

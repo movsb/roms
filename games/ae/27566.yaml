@@ -27,17 +27,37 @@ releases:
     kind_id: 27566
     language: 1
     name: Wai Xing Zhan Shi (Ch)
+    deprecated: 1
+  - id: 260298
+    kind: 3
+    kind_id: 27566
+    language: 1
+    name: Waixing Zhanshi (China) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 27548
       kind: 3
       kind_id: 27566
       type: 1
-      name: 外星战士 + Wai Xing Zhan Shi (Ch).nes
+      name: Waixing Zhanshi (China) (Unl).nes
       format: 1
       size: 524304
       blob_id: 72368
-      debug: 外星战士 + Wai Xing Zhan Shi (Ch).nes
+      debug: |-
+        外星战士 + Wai Xing Zhan Shi (Ch).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=9bdff9a19265d84979f43f0f6e925a735ddeb38b
+  - asset:
+      id: 140055
+      kind: 3
+      kind_id: 27566
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Waixing%20Zhanshi%20%28China%29%20%28Unl%29.png
+      format: 1
+      size: 6929
+      blob_id: 325397
+      debug: libretro-named-titles:rom-asset=27548:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Waixing%20Zhanshi%20%28China%29%20%28Unl%29.png
 - release:
     id: 27570
     game_id: 27566

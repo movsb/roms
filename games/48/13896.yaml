@@ -7,12 +7,19 @@ names:
   kind_id: 13896
   language: 1
   name: Jackpot (HES)
+  deprecated: 1
 - id: 249219
   kind: 2
   kind_id: 13896
   language: 2
   name: 累积奖金
   source: codex
+- id: 261805
+  kind: 2
+  kind_id: 13896
+  language: 1
+  name: Jackpot
+  source: no-intro
 releases:
 - release:
     id: 13896
@@ -23,14 +30,34 @@ releases:
     kind_id: 13896
     language: 1
     name: Jackpot (HES)
+    deprecated: 1
+  - id: 258491
+    kind: 3
+    kind_id: 13896
+    language: 1
+    name: Jackpot (Australia) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 13878
       kind: 3
       kind_id: 13896
       type: 1
-      name: Jackpot (HES).nes
+      name: Jackpot (Australia) (Unl).nes
       format: 1
       size: 65552
       blob_id: 59713
-      debug: Jackpot (HES).nes
+      debug: |-
+        Jackpot (HES).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=fcbfbabf3c6d26271ee4842c131fce97ab8697f4
+  - asset:
+      id: 139471
+      kind: 3
+      kind_id: 13896
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Jackpot%20%28Australia%29%20%28Unl%29.png
+      format: 1
+      size: 15496
+      blob_id: 324902
+      debug: libretro-named-titles:rom-asset=13878:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Jackpot%20%28Australia%29%20%28Unl%29.png

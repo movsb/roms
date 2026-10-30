@@ -13,6 +13,13 @@ names:
   language: 1
   name: "Datach - Dragon Ball Z - Gekitou Tenkaichi Budou Kai"
   source: codex
+  deprecated: 1
+- id: 262430
+  kind: 2
+  kind_id: 26840
+  language: 1
+  name: "Dragon Ball Z - Gekitou Tenkaichi Budoukai"
+  source: no-intro
 releases:
 - release:
     id: 26840
@@ -23,14 +30,31 @@ releases:
     kind_id: 26840
     language: 2
     name: "任天堂刷卡机 - 七龙珠Ｚ (日版) (格斗)-Datach - Dragon Ball Z - Gekitou Tenkaichi Budou Kai (Japan)"
+  - id: 260008
+    kind: 3
+    kind_id: 26840
+    language: 1
+    name: "Dragon Ball Z - Gekitou Tenkaichi Budoukai (Japan) (Datach)"
+    source: no-intro
   assets:
   - asset:
       id: 26822
       kind: 3
       kind_id: 26840
       type: 1
-      name: "任天堂刷卡机 - 七龙珠Ｚ (日版) (格斗)-Datach - Dragon Ball Z - Gekitou Tenkaichi Budou Kai (Japan).nes"
+      name: "Dragon Ball Z - Gekitou Tenkaichi Budoukai (Japan) (Datach).nes"
       format: 1
       size: 262160
       blob_id: 71886
-      debug: "任天堂刷卡机 - 七龙珠Ｚ (日版) (格斗)-Datach - Dragon Ball Z - Gekitou Tenkaichi Budou Kai (Japan).nes"
+      debug: "任天堂刷卡机 - 七龙珠Ｚ (日版) (格斗)-Datach - Dragon Ball Z - Gekitou Tenkaichi Budou Kai (Japan).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=87478b635fefb25fa13c4876e20f505a97426c1b"
+  - asset:
+      id: 139982
+      kind: 3
+      kind_id: 26840
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Dragon%20Ball%20Z%20-%20Gekitou%20Tenkaichi%20Budoukai%20%28Japan%29%20%28Datach%29.png
+      format: 1
+      size: 4394
+      blob_id: 325334
+      debug: libretro-named-titles:rom-asset=26822:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Dragon%20Ball%20Z%20-%20Gekitou%20Tenkaichi%20Budoukai%20%28Japan%29%20%28Datach%29.png

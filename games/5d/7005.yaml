@@ -27,17 +27,37 @@ releases:
     kind_id: 7005
     language: 1
     name: Bio Hazard (No-Bug) (Unl)
+    deprecated: 1
+  - id: 257782
+    kind: 3
+    kind_id: 7005
+    language: 1
+    name: "Shenghua Weiji - Bio Hazard (China) (200314121) (Pirate)"
+    source: no-intro
   assets:
   - asset:
       id: 6987
       kind: 3
       kind_id: 7005
       type: 1
-      name: Bio Hazard (No-Bug) (Unl).nes
+      name: "Shenghua Weiji - Bio Hazard (China) (200314121) (Pirate).nes"
       format: 1
       size: 1048592
       blob_id: 53201
-      debug: Bio Hazard (No-Bug) (Unl).nes
+      debug: |-
+        Bio Hazard (No-Bug) (Unl).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=3703c3f28174d5544f10b8d5ab8aa6660f1c1b7d
+  - asset:
+      id: 139325
+      kind: 3
+      kind_id: 7005
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Shenghua%20Weiji%20-%20Bio%20Hazard%20%28China%29%20%28200314121%29%20%28Pirate%29.png
+      format: 1
+      size: 2011
+      blob_id: 324775
+      debug: libretro-named-titles:rom-asset=6987:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Shenghua%20Weiji%20-%20Bio%20Hazard%20%28China%29%20%28200314121%29%20%28Pirate%29.png
 - release:
     id: 7006
     game_id: 7005

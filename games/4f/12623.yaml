@@ -13,6 +13,12 @@ names:
   language: 2
   name: 大战斗
   source: codex
+- id: 261754
+  kind: 2
+  kind_id: 12623
+  language: 1
+  name: Grand Combat
+  source: no-intro
 releases:
 - release:
     id: 12623
@@ -23,16 +29,24 @@ releases:
     kind_id: 12623
     language: 1
     name: Grand Combat (Unl) [!]
+    deprecated: 1
+  - id: 258358
+    kind: 3
+    kind_id: 12623
+    language: 1
+    name: Grand Combat (Asia) (Ja) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 12605
       kind: 3
       kind_id: 12623
       type: 1
-      name: Grand Combat (Unl) [!].nes
+      name: Grand Combat (Asia) (Ja) (Pirate).nes
       format: 1
       size: 262160
       blob_id: 58512
       debug: |-
         Grand Combat (Unl) [!].nes
         Grand Combat (Unl) [!].zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=c9b06997e67ed20cca88d6c831ae1edee9ed234a

@@ -12,11 +12,19 @@ names:
   kind_id: 9553
   language: 1
   name: Deblock (J)
+  deprecated: 1
 - id: 91635
   kind: 2
   kind_id: 9553
   language: 1
   name: Deblock
+  deprecated: 1
+- id: 261632
+  kind: 2
+  kind_id: 9553
+  language: 1
+  name: De-Block
+  source: no-intro
 releases:
 - release:
     id: 9555
@@ -28,6 +36,7 @@ releases:
     kind_id: 9555
     language: 1
     name: Deblock (Japan)
+    deprecated: 1
   - id: 65753
     kind: 3
     kind_id: 9555
@@ -38,6 +47,13 @@ releases:
     kind_id: 9555
     language: 1
     name: Deblock (J)
+    deprecated: 1
+  - id: 257992
+    kind: 3
+    kind_id: 9555
+    language: 1
+    name: De-Block (Japan)
+    source: no-intro
   release_publishers:
   - release_id: 9555
     publisher_id: 110
@@ -47,13 +63,14 @@ releases:
       kind: 3
       kind_id: 9555
       type: 1
-      name: Deblock (Japan).nes
+      name: De-Block (Japan).nes
       format: 1
       size: 65552
       blob_id: 55629
       debug: |-
         Deblock (Japan).zip
         星际方块 (日版) (益智)-Deblock (Japan) + Deblock (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=092e3772ec4117e83ba119326c4bb5a4865b77c3
   - asset:
       id: 138318
       kind: 3

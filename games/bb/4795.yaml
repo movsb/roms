@@ -12,6 +12,13 @@ names:
   kind_id: 4795
   language: 1
   name: 1942 (JU) [!]
+  deprecated: 1
+- id: 261466
+  kind: 2
+  kind_id: 4795
+  language: 1
+  name: "1942"
+  source: no-intro
 releases:
 - release:
     id: 4795
@@ -27,17 +34,26 @@ releases:
     kind_id: 4795
     language: 1
     name: 1942 (JU) [!]
+    deprecated: 1
+  - id: 257547
+    kind: 3
+    kind_id: 4795
+    language: 1
+    name: 1942 (Japan, USA) (En)
+    source: no-intro
   assets:
   - asset:
       id: 4777
       kind: 3
       kind_id: 4795
       type: 1
-      name: 1942  (日版,美版) (射击)-1942 (Japan, USA) + 1942 (JU) [!].nes
+      name: 1942 (Japan, USA) (En).nes
       format: 1
       size: 40976
       blob_id: 51112
-      debug: 1942  (日版,美版) (射击)-1942 (Japan, USA) + 1942 (JU) [!].nes
+      debug: |-
+        1942  (日版,美版) (射击)-1942 (Japan, USA) + 1942 (JU) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=7f57eace7cada7c36412a50f2299231b304527a8
   - asset:
       id: 136651
       kind: 3

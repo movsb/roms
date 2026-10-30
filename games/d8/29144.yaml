@@ -12,6 +12,13 @@ names:
   kind_id: 29144
   language: 1
   name: NES Open Tournament Golf (E) [!]
+  deprecated: 1
+- id: 263255
+  kind: 2
+  kind_id: 29144
+  language: 1
+  name: NES Open Tournament Golf
+  source: no-intro
 releases:
 - release:
     id: 29144
@@ -27,17 +34,26 @@ releases:
     kind_id: 29144
     language: 1
     name: NES Open Tournament Golf (E) [!]
+    deprecated: 1
+  - id: 260926
+    kind: 3
+    kind_id: 29144
+    language: 1
+    name: NES Open Tournament Golf (Europe)
+    source: no-intro
   assets:
   - asset:
       id: 29126
       kind: 3
       kind_id: 29144
       type: 1
-      name: 玛璃欧高尔夫公开赛 (欧版) (运动)-NES Open Tournament Golf (Europe) + NES Open Tournament Golf (E) [!].nes
+      name: NES Open Tournament Golf (Europe).nes
       format: 1
       size: 262160
       blob_id: 73403
-      debug: 玛璃欧高尔夫公开赛 (欧版) (运动)-NES Open Tournament Golf (Europe) + NES Open Tournament Golf (E) [!].nes
+      debug: |-
+        玛璃欧高尔夫公开赛 (欧版) (运动)-NES Open Tournament Golf (Europe) + NES Open Tournament Golf (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=4fd939373eed4add41a1c68c9c2412bd3b428f32
   - asset:
       id: 137877
       kind: 3

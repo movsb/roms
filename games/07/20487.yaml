@@ -7,12 +7,19 @@ names:
   kind_id: 20487
   language: 1
   name: "SCAT - Special Cybernetic Attack Team (U)"
+  deprecated: 1
 - id: 248467
   kind: 2
   kind_id: 20487
   language: 2
   name: 特殊部队
   source: codex
+- id: 262069
+  kind: 2
+  kind_id: 20487
+  language: 1
+  name: "S.C.A.T. - Special Cybernetic Attack Team"
+  source: no-intro
 releases:
 - release:
     id: 20487
@@ -23,14 +30,32 @@ releases:
     kind_id: 20487
     language: 1
     name: "SCAT - Special Cybernetic Attack Team (U)"
+    deprecated: 1
+  - id: 259230
+    kind: 3
+    kind_id: 20487
+    language: 1
+    name: "S.C.A.T. - Special Cybernetic Attack Team (USA)"
+    source: no-intro
   assets:
   - asset:
       id: 20469
       kind: 3
       kind_id: 20487
       type: 1
-      name: "SCAT - Special Cybernetic Attack Team (U).nes"
+      name: "S.C.A.T. - Special Cybernetic Attack Team (USA).nes"
       format: 1
       size: 262160
       blob_id: 65928
-      debug: "SCAT - Special Cybernetic Attack Team (U).zip"
+      debug: "SCAT - Special Cybernetic Attack Team (U).zip\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=0761b7987c2f86f697221a191cf61dd8eeb5c510"
+  - asset:
+      id: 139720
+      kind: 3
+      kind_id: 20487
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/S.C.A.T.%20-%20Special%20Cybernetic%20Attack%20Team%20%28USA%29.png
+      format: 1
+      size: 1622
+      blob_id: 325103
+      debug: libretro-named-titles:rom-asset=20469:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/S.C.A.T.%20-%20Special%20Cybernetic%20Attack%20Team%20%28USA%29.png

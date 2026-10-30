@@ -22,11 +22,13 @@ releases:
     kind_id: 12171
     language: 1
     name: "Gargoyle's Quest 2 - The Demon Darkness (U)"
+    deprecated: 1
   - id: 26714
     kind: 3
     kind_id: 12171
     language: 1
     name: "Gargoyle's Quest II - The Demon Darkness (U) [!]"
+    deprecated: 1
   - id: 71981
     kind: 3
     kind_id: 12171
@@ -37,17 +39,34 @@ releases:
     kind_id: 12171
     language: 2
     name: 魔界村外传2
+  - id: 258285
+    kind: 3
+    kind_id: 12171
+    language: 1
+    name: Gargoyle's Quest II (USA)
+    source: no-intro
   assets:
   - asset:
       id: 12153
       kind: 3
       kind_id: 12171
       type: 1
-      name: "Gargoyle's Quest 2 - The Demon Darkness (U).nes"
+      name: Gargoyle's Quest II (USA).nes
       format: 1
       size: 262160
       blob_id: 58086
-      debug: "Gargoyle's Quest 2 - The Demon Darkness (U).zip\nGargoyle's Quest II - The Demon Darkness (U) [!].zip\n魔界村外传 - 石像鬼历险记 II (美版) (角色扮演)-Gargoyles Quest II - The Demon Darkness (USA) + Gargoyle's Quest II - The Demon Darkness (U) [!].nes\n魔界村外传2.zip"
+      debug: "Gargoyle's Quest 2 - The Demon Darkness (U).zip\nGargoyle's Quest II - The Demon Darkness (U) [!].zip\n魔界村外传 - 石像鬼历险记 II (美版) (角色扮演)-Gargoyles Quest II - The Demon Darkness (USA) + Gargoyle's Quest II - The Demon Darkness (U) [!].nes\n魔界村外传2.zip\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=edc4f9cc3bced542e503a961e22d7b085ed17bcd"
+  - asset:
+      id: 139411
+      kind: 3
+      kind_id: 12171
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Gargoyle%27s%20Quest%20II%20%28USA%29.png
+      format: 1
+      size: 2514
+      blob_id: 324848
+      debug: libretro-named-titles:rom-asset=12153:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Gargoyle%27s%20Quest%20II%20%28USA%29.png
 - release:
     id: 12173
     game_id: 12171
@@ -102,17 +121,24 @@ releases:
     kind_id: 30345
     language: 1
     name: Red Arremar II (J) [!]
+    deprecated: 1
+  - id: 261408
+    kind: 3
+    kind_id: 30345
+    language: 1
+    name: Red Arremer II (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 30327
       kind: 3
       kind_id: 30345
       type: 1
-      name: "魔界村外传 - 石像鬼历险记 II (日版) (角色扮演)-Red Arremar 2 (Japan) + Red Arremar II (J) [!].nes"
+      name: Red Arremer II (Japan).nes
       format: 1
       size: 262160
       blob_id: 74154
-      debug: "魔界村外传 - 石像鬼历险记 II (日版) (角色扮演)-Red Arremar 2 (Japan) + Red Arremar II (J) [!].nes"
+      debug: "魔界村外传 - 石像鬼历险记 II (日版) (角色扮演)-Red Arremar 2 (Japan) + Red Arremar II (J) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=56ff3a2641fd2decd5b334aef586739b1532def3"
   - asset:
       id: 138100
       kind: 3
@@ -138,14 +164,32 @@ releases:
     kind_id: 30346
     language: 1
     name: "Gargoyle's Quest II - The Demon Darkness (E) [!]"
+    deprecated: 1
+  - id: 261409
+    kind: 3
+    kind_id: 30346
+    language: 1
+    name: Gargoyle's Quest II (Europe)
+    source: no-intro
   assets:
   - asset:
       id: 30328
       kind: 3
       kind_id: 30346
       type: 1
-      name: "魔界村外传 - 石像鬼历险记 II (欧版) (角色扮演)-Gargoyles Quest II - The Demon Darkness (Europe) + Gargoyle's Quest II - The Demon Darkness (E) [!].nes"
+      name: Gargoyle's Quest II (Europe).nes
       format: 1
       size: 262160
       blob_id: 74155
-      debug: "魔界村外传 - 石像鬼历险记 II (欧版) (角色扮演)-Gargoyles Quest II - The Demon Darkness (Europe) + Gargoyle's Quest II - The Demon Darkness (E) [!].nes"
+      debug: "魔界村外传 - 石像鬼历险记 II (欧版) (角色扮演)-Gargoyles Quest II - The Demon Darkness (Europe) + Gargoyle's Quest II - The Demon Darkness (E) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=19eea64cb2922d4e30797cf34c75597ee86f2538"
+  - asset:
+      id: 140256
+      kind: 3
+      kind_id: 30346
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Gargoyle%27s%20Quest%20II%20%28Europe%29.png
+      format: 1
+      size: 2397
+      blob_id: 325570
+      debug: libretro-named-titles:rom-asset=30328:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Gargoyle%27s%20Quest%20II%20%28Europe%29.png

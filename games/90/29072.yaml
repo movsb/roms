@@ -12,6 +12,13 @@ names:
   kind_id: 29072
   language: 1
   name: Tecmo Bowl (J)
+  deprecated: 1
+- id: 263230
+  kind: 2
+  kind_id: 29072
+  language: 1
+  name: Tecmo Bowl
+  source: no-intro
 releases:
 - release:
     id: 29072
@@ -27,17 +34,26 @@ releases:
     kind_id: 29072
     language: 1
     name: Tecmo Bowl (J)
+    deprecated: 1
+  - id: 260899
+    kind: 3
+    kind_id: 29072
+    language: 1
+    name: Tecmo Bowl (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 29054
       kind: 3
       kind_id: 29072
       type: 1
-      name: 特库摩美式足球 (日版) (运动)-Tecmo Bowl (Japan) + Tecmo Bowl (J).nes
+      name: Tecmo Bowl (Japan).nes
       format: 1
       size: 262160
       blob_id: 73359
-      debug: 特库摩美式足球 (日版) (运动)-Tecmo Bowl (Japan) + Tecmo Bowl (J).nes
+      debug: |-
+        特库摩美式足球 (日版) (运动)-Tecmo Bowl (Japan) + Tecmo Bowl (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=fa414894a761a6a7837edf8a032fbac05abc1249
   - asset:
       id: 139090
       kind: 3

@@ -12,6 +12,13 @@ names:
   kind_id: 29960
   language: 1
   name: R.C. Pro-Am (E) (PRG1)
+  deprecated: 1
+- id: 263557
+  kind: 2
+  kind_id: 29960
+  language: 1
+  name: R.C. Pro-Am
+  source: no-intro
 releases:
 - release:
     id: 29960
@@ -27,14 +34,34 @@ releases:
     kind_id: 29960
     language: 1
     name: R.C. Pro-Am (E) (PRG1)
+    deprecated: 1
+  - id: 261247
+    kind: 3
+    kind_id: 29960
+    language: 1
+    name: R.C. Pro-Am (Europe) (Rev 1)
+    source: no-intro
   assets:
   - asset:
       id: 29942
       kind: 3
       kind_id: 29960
       type: 1
-      name: 遥控车混合赛 (欧版)(Rev A) (竞赛)-R.C. Pro-Am (Europe) (Rev A) + R.C. Pro-Am (E) (PRG1).nes
+      name: R.C. Pro-Am (Europe) (Rev 1).nes
       format: 1
       size: 65552
       blob_id: 73907
-      debug: 遥控车混合赛 (欧版)(Rev A) (竞赛)-R.C. Pro-Am (Europe) (Rev A) + R.C. Pro-Am (E) (PRG1).nes
+      debug: |-
+        遥控车混合赛 (欧版)(Rev A) (竞赛)-R.C. Pro-Am (Europe) (Rev A) + R.C. Pro-Am (E) (PRG1).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=7fa39df49e4ef9dc5d826b38fd832a871bd876b3
+  - asset:
+      id: 140235
+      kind: 3
+      kind_id: 29960
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/R.C.%20Pro-Am%20%28Europe%29%20%28Rev%201%29.png
+      format: 1
+      size: 3423
+      blob_id: 325552
+      debug: libretro-named-titles:rom-asset=29942:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/R.C.%20Pro-Am%20%28Europe%29%20%28Rev%201%29.png

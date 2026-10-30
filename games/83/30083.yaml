@@ -12,6 +12,13 @@ names:
   kind_id: 30083
   language: 1
   name: Galaxy 5000 (E) [!]
+  deprecated: 1
+- id: 263601
+  kind: 2
+  kind_id: 30083
+  language: 1
+  name: "Galaxy 5000 - Racing in the 51st Century"
+  source: no-intro
 releases:
 - release:
     id: 30083
@@ -27,17 +34,26 @@ releases:
     kind_id: 30083
     language: 1
     name: Galaxy 5000 (E) [!]
+    deprecated: 1
+  - id: 261294
+    kind: 3
+    kind_id: 30083
+    language: 1
+    name: "Galaxy 5000 - Racing in the 51st Century (Europe)"
+    source: no-intro
   assets:
   - asset:
       id: 30065
       kind: 3
       kind_id: 30083
       type: 1
-      name: 银河竞赛 5000 (欧版) (竞赛)-Galaxy 5000 (Europe) + Galaxy 5000 (E) [!].nes
+      name: "Galaxy 5000 - Racing in the 51st Century (Europe).nes"
       format: 1
       size: 262160
       blob_id: 73984
-      debug: 银河竞赛 5000 (欧版) (竞赛)-Galaxy 5000 (Europe) + Galaxy 5000 (E) [!].nes
+      debug: |-
+        银河竞赛 5000 (欧版) (竞赛)-Galaxy 5000 (Europe) + Galaxy 5000 (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=0adda9f12af174bf7e724c9f23745e13f66194ba
   - asset:
       id: 138042
       kind: 3

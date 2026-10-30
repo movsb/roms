@@ -7,12 +7,19 @@ names:
   kind_id: 23378
   language: 1
   name: Super Wonderful Mario 5 (Ch) [!]
+  deprecated: 1
 - id: 249476
   kind: 2
   kind_id: 23378
   language: 2
   name: 超级神奇马力欧5
   source: codex
+- id: 262208
+  kind: 2
+  kind_id: 23378
+  language: 1
+  name: Super Bros. 5
+  source: no-intro
 releases:
 - release:
     id: 23378
@@ -23,17 +30,26 @@ releases:
     kind_id: 23378
     language: 1
     name: Super Wonderful Mario 5 (Ch) [!]
+    deprecated: 1
+  - id: 259557
+    kind: 3
+    kind_id: 23378
+    language: 1
+    name: Super Bros. 5 (Asia) (En) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 23360
       kind: 3
       kind_id: 23378
       type: 1
-      name: Super Wonderful Mario 5 (Ch) [!].nes
+      name: Super Bros. 5 (Asia) (En) (Pirate).nes
       format: 1
       size: 262160
       blob_id: 68672
-      debug: Super Wonderful Mario 5 (Ch) [!].nes
+      debug: |-
+        Super Wonderful Mario 5 (Ch) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=2822dc34182fa1825c5fc240a4f5a3dc044e16e5
   - asset:
       id: 137372
       kind: 3

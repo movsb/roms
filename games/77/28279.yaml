@@ -12,6 +12,13 @@ names:
   kind_id: 28279
   language: 1
   name: Battletoads (E) [!]
+  deprecated: 1
+- id: 262939
+  kind: 2
+  kind_id: 28279
+  language: 1
+  name: Battletoads
+  source: no-intro
 releases:
 - release:
     id: 28279
@@ -27,17 +34,26 @@ releases:
     kind_id: 28279
     language: 1
     name: Battletoads (E) [!]
+    deprecated: 1
+  - id: 260564
+    kind: 3
+    kind_id: 28279
+    language: 1
+    name: Battletoads (Europe)
+    source: no-intro
   assets:
   - asset:
       id: 28261
       kind: 3
       kind_id: 28279
       type: 1
-      name: 战斗蛙 (欧版) (动作)-Battletoads (Europe) + Battletoads (E) [!].nes
+      name: Battletoads (Europe).nes
       format: 1
       size: 262160
       blob_id: 72833
-      debug: 战斗蛙 (欧版) (动作)-Battletoads (Europe) + Battletoads (E) [!].nes
+      debug: |-
+        战斗蛙 (欧版) (动作)-Battletoads (Europe) + Battletoads (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=e13626a09ad745bc5d9fb0972383dbf358deaddc
   - asset:
       id: 137734
       kind: 3

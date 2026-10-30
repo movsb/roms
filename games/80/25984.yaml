@@ -7,12 +7,19 @@ names:
   kind_id: 25984
   language: 1
   name: Winning Goal 5 (Unl) [!]
+  deprecated: 1
 - id: 248891
   kind: 2
   kind_id: 25984
   language: 2
   name: 胜利足球5
   source: codex
+- id: 262302
+  kind: 2
+  kind_id: 25984
+  language: 1
+  name: Winning Goal 5
+  source: no-intro
 releases:
 - release:
     id: 25984
@@ -23,14 +30,34 @@ releases:
     kind_id: 25984
     language: 1
     name: Winning Goal 5 (Unl) [!]
+    deprecated: 1
+  - id: 259813
+    kind: 3
+    kind_id: 25984
+    language: 1
+    name: Winning Goal 5 (Asia) (Ja) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 25966
       kind: 3
       kind_id: 25984
       type: 1
-      name: Winning Goal 5 (Unl) [!].nes
+      name: Winning Goal 5 (Asia) (Ja) (Pirate).nes
       format: 1
       size: 262160
       blob_id: 71142
-      debug: Winning Goal 5 (Unl) [!].nes
+      debug: |-
+        Winning Goal 5 (Unl) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=57dc11b1ef8f1874725fe10814f8355459b05d60
+  - asset:
+      id: 139893
+      kind: 3
+      kind_id: 25984
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Winning%20Goal%205%20%28Asia%29%20%28Ja%29%20%28Pirate%29.png
+      format: 1
+      size: 2788
+      blob_id: 325261
+      debug: libretro-named-titles:rom-asset=25966:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Winning%20Goal%205%20%28Asia%29%20%28Ja%29%20%28Pirate%29.png

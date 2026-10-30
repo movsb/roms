@@ -13,6 +13,13 @@ names:
   kind_id: 27199
   language: 1
   name: Dragon Quest (J) [!]
+  deprecated: 1
+- id: 262565
+  kind: 2
+  kind_id: 27199
+  language: 1
+  name: Dragon Quest
+  source: no-intro
 releases:
 - release:
     id: 27199
@@ -28,17 +35,26 @@ releases:
     kind_id: 27199
     language: 1
     name: Dragon Quest (J) [!]
+    deprecated: 1
+  - id: 260152
+    kind: 3
+    kind_id: 27199
+    language: 1
+    name: Dragon Quest (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 27181
       kind: 3
       kind_id: 27199
       type: 1
-      name: 勇者斗恶龙 (日版) (角色扮演)-Dragon Quest (Japan) + Dragon Quest (J) [!].nes
+      name: Dragon Quest (Japan).nes
       format: 1
       size: 65552
       blob_id: 72126
-      debug: 勇者斗恶龙 (日版) (角色扮演)-Dragon Quest (Japan) + Dragon Quest (J) [!].nes
+      debug: |-
+        勇者斗恶龙 (日版) (角色扮演)-Dragon Quest (Japan) + Dragon Quest (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=4e72277dc2ab3b70b29086c0664014caf6e16cb2
   - asset:
       id: 137587
       kind: 3

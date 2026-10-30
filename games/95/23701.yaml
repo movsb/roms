@@ -7,12 +7,19 @@ names:
   kind_id: 23701
   language: 1
   name: Target Renegade (U)
+  deprecated: 1
 - id: 248745
   kind: 2
   kind_id: 23701
   language: 2
   name: 目标：叛徒
   source: codex
+- id: 262218
+  kind: 2
+  kind_id: 23701
+  language: 1
+  name: "Target - Renegade"
+  source: no-intro
 releases:
 - release:
     id: 23701
@@ -23,17 +30,26 @@ releases:
     kind_id: 23701
     language: 1
     name: Target Renegade (U)
+    deprecated: 1
+  - id: 259589
+    kind: 3
+    kind_id: 23701
+    language: 1
+    name: "Target - Renegade (USA)"
+    source: no-intro
   assets:
   - asset:
       id: 23683
       kind: 3
       kind_id: 23701
       type: 1
-      name: Target Renegade (U).nes
+      name: "Target - Renegade (USA).nes"
       format: 1
       size: 262160
       blob_id: 68974
-      debug: Target Renegade (U).zip
+      debug: |-
+        Target Renegade (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=a809c7cf028c7d71c1b18275dd178116c5f07196
   - asset:
       id: 138722
       kind: 3

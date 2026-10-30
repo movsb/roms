@@ -7,12 +7,19 @@ names:
   kind_id: 9500
   language: 1
   name: "Datach - SD Gundam - Gundam Wars (J)"
+  deprecated: 1
 - id: 247658
   kind: 2
   kind_id: 9500
   language: 2
   name: Datach：SD高达 高达战争
   source: codex
+- id: 261626
+  kind: 2
+  kind_id: 9500
+  language: 1
+  name: "SD Gundam - Gundam Wars"
+  source: no-intro
 releases:
 - release:
     id: 9500
@@ -23,17 +30,24 @@ releases:
     kind_id: 9500
     language: 1
     name: "Datach - SD Gundam - Gundam Wars (J)"
+    deprecated: 1
+  - id: 257980
+    kind: 3
+    kind_id: 9500
+    language: 1
+    name: "SD Gundam - Gundam Wars (Japan) (Datach)"
+    source: no-intro
   assets:
   - asset:
       id: 9482
       kind: 3
       kind_id: 9500
       type: 1
-      name: "Datach - SD Gundam - Gundam Wars (J).nes"
+      name: "SD Gundam - Gundam Wars (Japan) (Datach).nes"
       format: 1
       size: 262160
       blob_id: 55577
-      debug: "Datach - SD Gundam - Gundam Wars (J).nes"
+      debug: "Datach - SD Gundam - Gundam Wars (J).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=edd7a45a7f27e396b6d686f1861642d509863132"
   - asset:
       id: 138313
       kind: 3

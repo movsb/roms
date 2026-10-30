@@ -7,12 +7,19 @@ names:
   kind_id: 26351
   language: 1
   name: Yuan Shi Ren (Primitive) (NJ054) (Ch)
+  deprecated: 1
 - id: 248944
   kind: 2
   kind_id: 26351
   language: 2
   name: 原始人
   source: codex
+- id: 262326
+  kind: 2
+  kind_id: 26351
+  language: 1
+  name: Yuanshi
+  source: no-intro
 releases:
 - release:
     id: 26351
@@ -23,14 +30,34 @@ releases:
     kind_id: 26351
     language: 1
     name: Yuan Shi Ren (Primitive) (NJ054) (Ch)
+    deprecated: 1
+  - id: 259867
+    kind: 3
+    kind_id: 26351
+    language: 1
+    name: Yuanshi (China) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 26333
       kind: 3
       kind_id: 26351
       type: 1
-      name: Yuan Shi Ren (Primitive) (NJ054) (Ch).nes
+      name: Yuanshi (China) (Pirate).nes
       format: 1
       size: 524304
       blob_id: 71484
-      debug: Yuan Shi Ren (Primitive) (NJ054) (Ch).nes
+      debug: |-
+        Yuan Shi Ren (Primitive) (NJ054) (Ch).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=b5f626b37d030199fd4ca48dde30edee294faaa6
+  - asset:
+      id: 139915
+      kind: 3
+      kind_id: 26351
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Yuanshi%20%28China%29%20%28Pirate%29.png
+      format: 1
+      size: 4438
+      blob_id: 325281
+      debug: libretro-named-titles:rom-asset=26333:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Yuanshi%20%28China%29%20%28Pirate%29.png

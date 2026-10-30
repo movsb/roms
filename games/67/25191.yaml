@@ -23,17 +23,37 @@ releases:
     kind_id: 25191
     language: 1
     name: Tsuppari Oozumou (J) (VC)
+    deprecated: 1
+  - id: 259709
+    kind: 3
+    kind_id: 25191
+    language: 1
+    name: Tsuppari Oozumou (Japan) (Virtual Console)
+    source: no-intro
   assets:
   - asset:
       id: 25173
       kind: 3
       kind_id: 25191
       type: 1
-      name: Tsuppari Oozumou (J) (VC).nes
+      name: Tsuppari Oozumou (Japan) (Virtual Console).nes
       format: 1
       size: 65552
       blob_id: 70406
-      debug: Tsuppari Oozumou (J) (VC).nes
+      debug: |-
+        Tsuppari Oozumou (J) (VC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=59fffe2f098adee02584bb5f84b9b3a27b0be617
+  - asset:
+      id: 139866
+      kind: 3
+      kind_id: 25191
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Tsuppari%20Oozumou%20%28Japan%29%20%28Virtual%20Console%29.png
+      format: 1
+      size: 3048
+      blob_id: 325237
+      debug: libretro-named-titles:rom-asset=25173:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Tsuppari%20Oozumou%20%28Japan%29%20%28Virtual%20Console%29.png
 - release:
     id: 25192
     game_id: 25191

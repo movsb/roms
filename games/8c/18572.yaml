@@ -32,23 +32,31 @@ releases:
     kind_id: 18572
     language: 1
     name: PINBALLQ
+    deprecated: 1
   - id: 42094
     kind: 3
     kind_id: 18572
     language: 1
     name: Pinball Quest (U) [!]
+    deprecated: 1
   - id: 64243
     kind: 3
     kind_id: 18572
     language: 2
     name: 弹珠台高手 (美版) (桌面平台)-Pinball Quest (USA)
+  - id: 258988
+    kind: 3
+    kind_id: 18572
+    language: 1
+    name: Pinball Quest (USA)
+    source: no-intro
   assets:
   - asset:
       id: 18554
       kind: 3
       kind_id: 18572
       type: 1
-      name: PINBALLQ.NES
+      name: Pinball Quest (USA).nes
       format: 1
       size: 262160
       blob_id: 64126
@@ -56,6 +64,18 @@ releases:
         PINBALLQ.zip
         Pinball Quest (U) [!].zip
         弹珠台高手 (美版) (桌面平台)-Pinball Quest (USA) + Pinball Quest (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=897f017c7e5d5a19d5b72a9434ffb136d0da6d46
+  - asset:
+      id: 139654
+      kind: 3
+      kind_id: 18572
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Pinball%20Quest%20%28USA%29.png
+      format: 1
+      size: 1873
+      blob_id: 324110
+      debug: libretro-named-titles:rom-asset=18554:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Pinball%20Quest%20%28USA%29.png
 - release:
     id: 18887
     game_id: 18572
@@ -85,17 +105,26 @@ releases:
     kind_id: 18892
     language: 1
     name: Pinball Quest (U)
+    deprecated: 1
+  - id: 259037
+    kind: 3
+    kind_id: 18892
+    language: 1
+    name: Pinball Quest (USA)
+    source: no-intro
   assets:
   - asset:
       id: 18874
       kind: 3
       kind_id: 18892
       type: 1
-      name: Pinball Quest (U).nes
+      name: Pinball Quest (USA).nes
       format: 1
       size: 262160
       blob_id: 64422
-      debug: Pinball Quest (U).zip
+      debug: |-
+        Pinball Quest (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=897f017c7e5d5a19d5b72a9434ffb136d0da6d46
   - asset:
       id: 138617
       kind: 3

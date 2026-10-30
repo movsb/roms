@@ -12,11 +12,18 @@ names:
   kind_id: 17075
   language: 1
   name: Motor City Patrol (U) [!]
+  deprecated: 1
 - id: 92571
   kind: 2
   kind_id: 17075
   language: 1
   name: Motor City Patrol
+- id: 261938
+  kind: 2
+  kind_id: 17075
+  language: 1
+  name: Motor City Patrol
+  source: no-intro
 releases:
 - release:
     id: 17075
@@ -27,23 +34,31 @@ releases:
     kind_id: 17075
     language: 1
     name: Motor City Patrol (U) [!]
+    deprecated: 1
   - id: 38098
     kind: 3
     kind_id: 17075
     language: 1
     name: Motor City Patrol (U)
+    deprecated: 1
   - id: 62615
     kind: 3
     kind_id: 17075
     language: 2
     name: 城市巡警 (美版) (动作)-Motor City Patrol (USA)
+  - id: 258885
+    kind: 3
+    kind_id: 17075
+    language: 1
+    name: Motor City Patrol (USA)
+    source: no-intro
   assets:
   - asset:
       id: 17057
       kind: 3
       kind_id: 17075
       type: 1
-      name: Motor City Patrol (U) [!].nes
+      name: Motor City Patrol (USA).nes
       format: 1
       size: 262160
       blob_id: 62671
@@ -51,6 +66,7 @@ releases:
         Motor City Patrol (U) [!].zip
         Motor City Patrol (U).zip
         城市巡警 (美版) (动作)-Motor City Patrol (USA) + Motor City Patrol (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=1a24546ed1e0ab0010ba7f7205e06ec121583d17
   - asset:
       id: 137143
       kind: 3

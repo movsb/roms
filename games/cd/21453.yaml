@@ -13,6 +13,12 @@ names:
   language: 2
   name: 肥皂泡恐慌
   source: codex
+- id: 262134
+  kind: 2
+  kind_id: 21453
+  language: 1
+  name: Soap Panic
+  source: no-intro
 releases:
 - release:
     id: 21455
@@ -23,14 +29,34 @@ releases:
     kind_id: 21455
     language: 1
     name: Soap Panic (Hacker) [f1]
+    deprecated: 1
+  - id: 259359
+    kind: 3
+    kind_id: 21455
+    language: 1
+    name: Soap Panic (Japan) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 21437
       kind: 3
       kind_id: 21455
       type: 1
-      name: Soap Panic (Hacker) [f1].nes
+      name: Soap Panic (Japan) (Unl).nes
       format: 1
       size: 98320
       blob_id: 66836
-      debug: Soap Panic (Hacker) [f1].nes
+      debug: |-
+        Soap Panic (Hacker) [f1].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=e0da4346df6a6820e881f8ee66a9adf145947c31
+  - asset:
+      id: 139758
+      kind: 3
+      kind_id: 21455
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Soap%20Panic%20%28Japan%29%20%28Unl%29.png
+      format: 1
+      size: 2536
+      blob_id: 325138
+      debug: libretro-named-titles:rom-asset=21437:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Soap%20Panic%20%28Japan%29%20%28Unl%29.png

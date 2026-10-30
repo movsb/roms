@@ -7,12 +7,19 @@ names:
   kind_id: 7243
   language: 1
   name: Bomber 4K by RoboNES (PD)
+  deprecated: 1
 - id: 252149
   kind: 2
   kind_id: 7243
   language: 2
   name: 轰炸机4K
   source: codex
+- id: 261570
+  kind: 2
+  kind_id: 7243
+  language: 1
+  name: Bomber 4K
+  source: no-intro
 releases:
 - release:
     id: 7243
@@ -23,17 +30,26 @@ releases:
     kind_id: 7243
     language: 1
     name: Bomber 4K by RoboNES (PD)
+    deprecated: 1
+  - id: 257804
+    kind: 3
+    kind_id: 7243
+    language: 1
+    name: Bomber 4K (World) (Proto) (Aftermarket) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 7225
       kind: 3
       kind_id: 7243
       type: 1
-      name: Bomber 4K by RoboNES (PD).nes
+      name: Bomber 4K (World) (Proto) (Aftermarket) (Unl).nes
       format: 1
       size: 16400
       blob_id: 53428
-      debug: Bomber 4K by RoboNES (PD).nes
+      debug: |-
+        Bomber 4K by RoboNES (PD).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=e402d98bb929ef65ef1ccea533a9f5fedb15068e
   - asset:
       id: 138231
       kind: 3

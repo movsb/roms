@@ -17,6 +17,13 @@ names:
   kind_id: 27905
   language: 1
   name: "Magical Taruruuto-kun 2 - Mahou Daibouken (J)"
+  deprecated: 1
+- id: 262824
+  kind: 2
+  kind_id: 27905
+  language: 1
+  name: "Magical Taruruuto-kun 2 - Mahou Daibouken"
+  source: no-intro
 releases:
 - release:
     id: 27905
@@ -37,14 +44,32 @@ releases:
     kind_id: 27905
     language: 1
     name: "Magical Taruruuto-kun 2 - Mahou Daibouken (J)"
+    deprecated: 1
+  - id: 260434
+    kind: 3
+    kind_id: 27905
+    language: 1
+    name: "Magical Taruruuto-kun 2 - Mahou Daibouken (Japan)"
+    source: no-intro
   assets:
   - asset:
       id: 27887
       kind: 3
       kind_id: 27905
       type: 1
-      name: 小魔星达鲁鲁2.nes
+      name: "Magical Taruruuto-kun 2 - Mahou Daibouken (Japan).nes"
       format: 1
       size: 262160
       blob_id: 72593
-      debug: "小魔星达鲁鲁2.zip\n魔法台风 II - 魔法王国大冒险 (日版) (动作)-Magical Taruruuto Kun 2 - Mahou Daibouken (Japan) + Magical Taruruuto-kun 2 - Mahou Daibouken (J).nes"
+      debug: "小魔星达鲁鲁2.zip\n魔法台风 II - 魔法王国大冒险 (日版) (动作)-Magical Taruruuto Kun 2 - Mahou Daibouken (Japan) + Magical Taruruuto-kun 2 - Mahou Daibouken (J).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=eb29844fdbc7bdcebae9fd2db46dcc9dffb7bee5"
+  - asset:
+      id: 140082
+      kind: 3
+      kind_id: 27905
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Magical%20Taruruuto-kun%202%20-%20Mahou%20Daibouken%20%28Japan%29.png
+      format: 1
+      size: 2704
+      blob_id: 325422
+      debug: libretro-named-titles:rom-asset=27887:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Magical%20Taruruuto-kun%202%20-%20Mahou%20Daibouken%20%28Japan%29.png

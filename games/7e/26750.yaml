@@ -13,6 +13,12 @@ names:
   language: 1
   name: "World Grand-Prix - Pole to Finish"
   source: codex
+- id: 262392
+  kind: 2
+  kind_id: 26750
+  language: 1
+  name: "World Grand-Prix - Pole to Finish"
+  source: no-intro
 releases:
 - release:
     id: 26750
@@ -23,14 +29,31 @@ releases:
     kind_id: 26750
     language: 2
     name: 世界方程式大赛车
+  - id: 259964
+    kind: 3
+    kind_id: 26750
+    language: 1
+    name: "World Grand-Prix - Pole to Finish (Japan)"
+    source: no-intro
   assets:
   - asset:
       id: 26732
       kind: 3
       kind_id: 26750
       type: 1
-      name: 世界方程式大赛车.nes
+      name: "World Grand-Prix - Pole to Finish (Japan).nes"
       format: 1
       size: 262160
       blob_id: 71820
-      debug: "世界方程式大赛车.nes\n重复的/世界格兰披治大赛车 (日版) (竞赛)-World Grand-Prix - Pole To Finish (Japan) + World Grand-Prix - Pole To Finish (J) [!].nes"
+      debug: "世界方程式大赛车.nes\n重复的/世界格兰披治大赛车 (日版) (竞赛)-World Grand-Prix - Pole To Finish (Japan) + World Grand-Prix - Pole To Finish (J) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=58d85f49aa54b33ba211fe21d12ad75fef3a9754"
+  - asset:
+      id: 139964
+      kind: 3
+      kind_id: 26750
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/World%20Grand-Prix%20-%20Pole%20to%20Finish%20%28Japan%29.png
+      format: 1
+      size: 2233
+      blob_id: 325319
+      debug: libretro-named-titles:rom-asset=26732:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/World%20Grand-Prix%20-%20Pole%20to%20Finish%20%28Japan%29.png

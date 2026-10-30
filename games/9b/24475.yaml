@@ -7,12 +7,19 @@ names:
   kind_id: 24475
   language: 1
   name: Tekken Tag Tournament (Unl)
+  deprecated: 1
 - id: 248759
   kind: 2
   kind_id: 24475
   language: 2
   name: 铁拳Tag锦标赛
   source: codex
+- id: 262228
+  kind: 2
+  kind_id: 24475
+  language: 1
+  name: Tekken Tag Tournament
+  source: no-intro
 releases:
 - release:
     id: 24475
@@ -23,14 +30,23 @@ releases:
     kind_id: 24475
     language: 1
     name: Tekken Tag Tournament (Unl)
+    deprecated: 1
+  - id: 259621
+    kind: 3
+    kind_id: 24475
+    language: 1
+    name: Tekken Tag Tournament (Asia) (En) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 24457
       kind: 3
       kind_id: 24475
       type: 1
-      name: Tekken Tag Tournament (Unl).nes
+      name: Tekken Tag Tournament (Asia) (En) (Pirate).nes
       format: 1
       size: 393232
       blob_id: 69738
-      debug: Tekken Tag Tournament (Unl).nes
+      debug: |-
+        Tekken Tag Tournament (Unl).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=326d7c7cae8a9eb18c7b292cb27e68512ba3b25a

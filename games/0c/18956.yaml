@@ -7,6 +7,7 @@ names:
   kind_id: 18956
   language: 1
   name: Pocket Monsters Gold (Ch) (Wxn)
+  deprecated: 1
 - id: 248363
   kind: 2
   kind_id: 18956
@@ -19,6 +20,12 @@ names:
   language: 2
   name: 宝可梦
   deprecated: 1
+- id: 261989
+  kind: 2
+  kind_id: 18956
+  language: 1
+  name: "Koudai Jingling - Jin"
+  source: no-intro
 assets:
 - asset:
     id: 135028
@@ -40,14 +47,23 @@ releases:
     kind_id: 18956
     language: 1
     name: Pocket Monsters Gold (Ch) (Wxn)
+    deprecated: 1
+  - id: 259052
+    kind: 3
+    kind_id: 18956
+    language: 1
+    name: "Koudai Jingling - Jin (China) (Waixing) (Aftermarket) (Pirate)"
+    source: no-intro
   assets:
   - asset:
       id: 18938
       kind: 3
       kind_id: 18956
       type: 1
-      name: Pocket Monsters Gold (Ch) (Wxn).nes
+      name: "Koudai Jingling - Jin (China) (Waixing) (Aftermarket) (Pirate).nes"
       format: 1
       size: 1048592
       blob_id: 64480
-      debug: Pocket Monsters Gold (Ch) (Wxn).nes
+      debug: |-
+        Pocket Monsters Gold (Ch) (Wxn).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=78ecec9461d93881622aa5565209486b1dd67fa7

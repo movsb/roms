@@ -160,6 +160,7 @@ releases:
     kind_id: 13691
     language: 1
     name: Ikki (Japan)
+    deprecated: 1
   - id: 64369
     kind: 3
     kind_id: 13691
@@ -170,6 +171,13 @@ releases:
     kind_id: 13691
     language: 1
     name: Ikki (J)
+    deprecated: 1
+  - id: 258458
+    kind: 3
+    kind_id: 13691
+    language: 1
+    name: Ikki (Japan) (En)
+    source: no-intro
   release_publishers:
   - release_id: 13691
     publisher_id: 124
@@ -179,13 +187,14 @@ releases:
       kind: 3
       kind_id: 13691
       type: 1
-      name: Ikki (Japan).nes
+      name: Ikki (Japan) (En).nes
       format: 1
       size: 24592
       blob_id: 59527
       debug: |-
         Ikki (Japan).zip
         忍者大挑战 (日版) (动作)-Ikki (Japan) + Ikki (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=83a3acd2e1c51caa7e1460963facc1d96707f230
   - asset:
       id: 138532
       kind: 3

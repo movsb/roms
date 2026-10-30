@@ -52,27 +52,46 @@ releases:
     kind_id: 18576
     language: 1
     name: "POW - Prisoners of War (U)"
+    deprecated: 1
   - id: 41428
     kind: 3
     kind_id: 18576
     language: 1
     name: POW
+    deprecated: 1
   - id: 69098
     kind: 3
     kind_id: 18576
     language: 2
     name: 脱狱1
+  - id: 258991
+    kind: 3
+    kind_id: 18576
+    language: 1
+    name: "P.O.W. - Prisoners of War (USA)"
+    source: no-intro
   assets:
   - asset:
       id: 18558
       kind: 3
       kind_id: 18576
       type: 1
-      name: "POW - Prisoners of War (U).nes"
+      name: "P.O.W. - Prisoners of War (USA).nes"
       format: 1
       size: 262160
       blob_id: 64130
-      debug: "POW - Prisoners of War (U).zip\nPOW.zip\n脱狱1.nes\n脱狱1.zip"
+      debug: "POW - Prisoners of War (U).zip\nPOW.zip\n脱狱1.nes\n脱狱1.zip\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=b2a0b2525ba713d1c7c7130992917f62e18375fb"
+  - asset:
+      id: 139657
+      kind: 3
+      kind_id: 18576
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/P.O.W.%20-%20Prisoners%20of%20War%20%28USA%29.png
+      format: 1
+      size: 2140
+      blob_id: 324102
+      debug: libretro-named-titles:rom-asset=18558:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/P.O.W.%20-%20Prisoners%20of%20War%20%28USA%29.png
 - release:
     id: 29490
     game_id: 18576

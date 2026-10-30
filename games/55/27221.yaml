@@ -12,6 +12,13 @@ names:
   kind_id: 27221
   language: 1
   name: North & South (J)
+  deprecated: 1
+- id: 262574
+  kind: 2
+  kind_id: 27221
+  language: 1
+  name: "North & South - Wakuwaku Nanboku Sensou"
+  source: no-intro
 releases:
 - release:
     id: 27221
@@ -27,14 +34,32 @@ releases:
     kind_id: 27221
     language: 1
     name: North & South (J)
+    deprecated: 1
+  - id: 260162
+    kind: 3
+    kind_id: 27221
+    language: 1
+    name: "North & South - Wakuwaku Nanboku Sensou (Japan)"
+    source: no-intro
   assets:
   - asset:
       id: 27203
       kind: 3
       kind_id: 27221
       type: 1
-      name: "北与南 (日版) (策略)-North & South - Wakuwaku Nanboku Sensou (Japan) + North & South (J).nes"
+      name: "North & South - Wakuwaku Nanboku Sensou (Japan).nes"
       format: 1
       size: 262160
       blob_id: 72141
-      debug: "北与南 (日版) (策略)-North & South - Wakuwaku Nanboku Sensou (Japan) + North & South (J).nes"
+      debug: "北与南 (日版) (策略)-North & South - Wakuwaku Nanboku Sensou (Japan) + North & South (J).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=8e35196189e1a323fee941fd7da56ce1d04d3a15"
+  - asset:
+      id: 140025
+      kind: 3
+      kind_id: 27221
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/North%20_%20South%20-%20Wakuwaku%20Nanboku%20Sensou%20%28Japan%29.png
+      format: 1
+      size: 4017
+      blob_id: 325370
+      debug: libretro-named-titles:rom-asset=27203:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/North%20_%20South%20-%20Wakuwaku%20Nanboku%20Sensou%20%28Japan%29.png

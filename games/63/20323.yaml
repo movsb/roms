@@ -13,11 +13,18 @@ names:
   kind_id: 20323
   language: 1
   name: Rocman X (Sachen) (English) [!]
+  deprecated: 1
 - id: 92902
   kind: 2
   kind_id: 20323
   language: 1
   name: Rocman X
+- id: 262060
+  kind: 2
+  kind_id: 20323
+  language: 1
+  name: Rocman X
+  source: no-intro
 releases:
 - release:
     id: 20323
@@ -28,17 +35,26 @@ releases:
     kind_id: 20323
     language: 1
     name: Rocman X (Sachen) (Japan)
+    deprecated: 1
+  - id: 259206
+    kind: 3
+    kind_id: 20323
+    language: 1
+    name: Rocman X (China) (En) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 20305
       kind: 3
       kind_id: 20323
       type: 1
-      name: Rocman X (Sachen) (Japan).nes
+      name: Rocman X (China) (En) (Pirate).nes
       format: 1
       size: 524304
       blob_id: 65773
-      debug: Rocman X (Sachen) (Japan).nes
+      debug: |-
+        Rocman X (Sachen) (Japan).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=cdf1245ed1b543d8bfb7cf2fd8b3128f17032c23
 - release:
     id: 20324
     game_id: 20323
@@ -48,6 +64,7 @@ releases:
     kind_id: 20324
     language: 1
     name: Rocman X (Sachen) [!]
+    deprecated: 1
   - id: 66889
     kind: 3
     kind_id: 20324
@@ -58,19 +75,27 @@ releases:
     kind_id: 20324
     language: 1
     name: Rocman X (Sachen) (English) [!]
+    deprecated: 1
+  - id: 259207
+    kind: 3
+    kind_id: 20324
+    language: 1
+    name: Rocman X (Asia) (En) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 20306
       kind: 3
       kind_id: 20324
       type: 1
-      name: Rocman X (Sachen) [!].nes
+      name: Rocman X (Asia) (En) (Pirate).nes
       format: 1
       size: 524304
       blob_id: 65774
       debug: |-
         Rocman X (Sachen) [!].zip
         洛克人 X (亚洲版) (动作)-Rocman X (Asia) (Unl) + Rocman X (Sachen) (English) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=00180fe335a64173e1428f5ec84955067f0b7696
   - asset:
       id: 137259
       kind: 3

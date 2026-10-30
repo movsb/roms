@@ -12,6 +12,7 @@ names:
   kind_id: 25420
   language: 1
   name: Uninvited (U) [!]
+  deprecated: 1
 - id: 64855
   kind: 2
   kind_id: 25420
@@ -22,6 +23,12 @@ names:
   kind_id: 25420
   language: 1
   name: Uninvited
+- id: 262274
+  kind: 2
+  kind_id: 25420
+  language: 1
+  name: Uninvited
+  source: no-intro
 releases:
 - release:
     id: 25420
@@ -32,6 +39,7 @@ releases:
     kind_id: 25420
     language: 1
     name: Uninvited (U) [!]
+    deprecated: 1
   - id: 64853
     kind: 3
     kind_id: 25420
@@ -42,13 +50,19 @@ releases:
     kind_id: 25420
     language: 2
     name: 恶魔招待状
+  - id: 259746
+    kind: 3
+    kind_id: 25420
+    language: 1
+    name: Uninvited (USA)
+    source: no-intro
   assets:
   - asset:
       id: 25402
       kind: 3
       kind_id: 25420
       type: 1
-      name: Uninvited (U) [!].nes
+      name: Uninvited (USA).nes
       format: 1
       size: 262160
       blob_id: 70619
@@ -56,6 +70,7 @@ releases:
         Uninvited (U) [!].zip
         恶魔招待状 (美版) (解谜)-Uninvited (USA) + Uninvited (U) [!].nes
         恶魔招待状.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=6802a12a7a33d09c6da6185a59db69fdd5a9a6d9
   - asset:
       id: 137445
       kind: 3
@@ -76,17 +91,26 @@ releases:
     kind_id: 25425
     language: 1
     name: Uninvited (U)
+    deprecated: 1
+  - id: 259747
+    kind: 3
+    kind_id: 25425
+    language: 1
+    name: Uninvited (USA)
+    source: no-intro
   assets:
   - asset:
       id: 25407
       kind: 3
       kind_id: 25425
       type: 1
-      name: Uninvited (U).nes
+      name: Uninvited (USA).nes
       format: 1
       size: 262160
       blob_id: 70624
-      debug: Uninvited (U).zip
+      debug: |-
+        Uninvited (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=6802a12a7a33d09c6da6185a59db69fdd5a9a6d9
   - asset:
       id: 138748
       kind: 3

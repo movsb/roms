@@ -144,16 +144,24 @@ releases:
     kind_id: 11017
     language: 1
     name: Exerion (J)
+    deprecated: 1
   - id: 23940
     kind: 3
     kind_id: 11017
     language: 1
     name: Exerion (Japan)
+    deprecated: 1
   - id: 61192
     kind: 3
     kind_id: 11017
     language: 2
     name: 凤凰战机
+  - id: 258148
+    kind: 3
+    kind_id: 11017
+    language: 1
+    name: Exerion (Japan) (En)
+    source: no-intro
   release_publishers:
   - release_id: 11017
     publisher_id: 112
@@ -163,7 +171,7 @@ releases:
       kind: 3
       kind_id: 11017
       type: 1
-      name: Exerion (J).nes
+      name: Exerion (Japan) (En).nes
       format: 1
       size: 24592
       blob_id: 57002
@@ -172,6 +180,18 @@ releases:
         Exerion (Japan).zip
         凤凰战机.nes
         重复的/火凤凰 (日版) (射击)-Exerion (Japan) + Exerion (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=cc78791139cb5a7241a4458e0bd219d6b84814f8
+  - asset:
+      id: 139389
+      kind: 3
+      kind_id: 11017
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Exerion%20%28Japan%29%20%28En%29.png
+      format: 1
+      size: 1137
+      blob_id: 324828
+      debug: libretro-named-titles:rom-asset=10999:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Exerion%20%28Japan%29%20%28En%29.png
 - release:
     id: 11018
     game_id: 10791

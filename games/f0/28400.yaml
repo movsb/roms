@@ -12,6 +12,13 @@ names:
   kind_id: 28400
   language: 1
   name: Gun Sight (J) [!]
+  deprecated: 1
+- id: 262991
+  kind: 2
+  kind_id: 28400
+  language: 1
+  name: Gun Sight
+  source: no-intro
 releases:
 - release:
     id: 28400
@@ -27,17 +34,26 @@ releases:
     kind_id: 28400
     language: 1
     name: Gun Sight (J) [!]
+    deprecated: 1
+  - id: 260618
+    kind: 3
+    kind_id: 28400
+    language: 1
+    name: Gun Sight (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 28382
       kind: 3
       kind_id: 28400
       type: 1
-      name: 救难任务 (日版) (模拟射击)-Gun Sight (Japan) + Gun Sight (J) [!].nes
+      name: Gun Sight (Japan).nes
       format: 1
       size: 262160
       blob_id: 72917
-      debug: 救难任务 (日版) (模拟射击)-Gun Sight (Japan) + Gun Sight (J) [!].nes
+      debug: |-
+        救难任务 (日版) (模拟射击)-Gun Sight (Japan) + Gun Sight (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=cffac7d2ecb18a28c36e0e90a6682dfe5ba6e3d1
   - asset:
       id: 137756
       kind: 3

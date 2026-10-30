@@ -120,32 +120,52 @@ releases:
     kind_id: 22077
     language: 1
     name: Street Fighter 2010 (U)
+    deprecated: 1
   - id: 49154
     kind: 3
     kind_id: 22077
     language: 1
     name: "Street Fighter 2010 - The Final Fight (U) [!]"
+    deprecated: 1
   - id: 49292
     kind: 3
     kind_id: 22077
     language: 1
     name: Street_fighter_2010
+    deprecated: 1
   - id: 69644
     kind: 3
     kind_id: 22077
     language: 2
     name: 街头战士2010
+  - id: 259432
+    kind: 3
+    kind_id: 22077
+    language: 1
+    name: "Street Fighter 2010 - The Final Fight (USA)"
+    source: no-intro
   assets:
   - asset:
       id: 22059
       kind: 3
       kind_id: 22077
       type: 1
-      name: Street Fighter 2010 (U).nes
+      name: "Street Fighter 2010 - The Final Fight (USA).nes"
       format: 1
       size: 262160
       blob_id: 67422
-      debug: "Street Fighter 2010 (U).zip\nStreet Fighter 2010 - The Final Fight (U) [!].zip\nStreet_fighter_2010.zip\n街头战士2010.nes\n重复的/街头战士 2010 (美版) (格斗)-Street Fighter 2010 - The Final Fight (USA) + Street Fighter 2010 - The Final Fight (U) [!].nes"
+      debug: "Street Fighter 2010 (U).zip\nStreet Fighter 2010 - The Final Fight (U) [!].zip\nStreet_fighter_2010.zip\n街头战士2010.nes\n重复的/街头战士 2010 (美版) (格斗)-Street Fighter 2010 - The Final Fight (USA) + Street Fighter 2010 - The Final Fight (U) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=93fc7ccd3ce12bfc548e443a6ff80488c4dbadde"
+  - asset:
+      id: 139782
+      kind: 3
+      kind_id: 22077
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Street%20Fighter%202010%20-%20The%20Final%20Fight%20%28USA%29.png
+      format: 1
+      size: 3290
+      blob_id: 325159
+      debug: libretro-named-titles:rom-asset=22059:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Street%20Fighter%202010%20-%20The%20Final%20Fight%20%28USA%29.png
 - release:
     id: 22079
     game_id: 22072

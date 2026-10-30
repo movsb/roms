@@ -12,11 +12,18 @@ names:
   kind_id: 29241
   language: 1
   name: City Connection (J)
+  deprecated: 1
 - id: 68259
   kind: 2
   kind_id: 29241
   language: 2
   name: 碰碰车
+- id: 263300
+  kind: 2
+  kind_id: 29241
+  language: 1
+  name: City Connection
+  source: no-intro
 releases:
 - release:
     id: 29241
@@ -32,24 +39,32 @@ releases:
     kind_id: 29241
     language: 1
     name: City Connection (J)
+    deprecated: 1
   - id: 68260
     kind: 3
     kind_id: 29241
     language: 2
     name: 碰碰车
+  - id: 260973
+    kind: 3
+    kind_id: 29241
+    language: 1
+    name: City Connection (Japan) (En)
+    source: no-intro
   assets:
   - asset:
       id: 29223
       kind: 3
       kind_id: 29241
       type: 1
-      name: 碰碰车 (日版) (动作)-City Connection (Japan) + City Connection (J).nes
+      name: City Connection (Japan) (En).nes
       format: 1
       size: 32784
       blob_id: 73463
       debug: |-
         碰碰车 (日版) (动作)-City Connection (Japan) + City Connection (J).nes
         碰碰车.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=f2e03874495ccc5ab416d8682d00b176d2fd2c1a
   - asset:
       id: 139112
       kind: 3

@@ -8,11 +8,13 @@ names:
   kind_id: 22123
   language: 1
   name: Street Fighter Zero 2 97 (Unl) (Hummer Team)
+  deprecated: 1
 - id: 49270
   kind: 2
   kind_id: 22123
   language: 1
   name: Street Fighter Zero 2 '97 (Unl) [!]
+  deprecated: 1
 - id: 69681
   kind: 2
   kind_id: 22123
@@ -23,6 +25,12 @@ names:
   kind_id: 22123
   language: 1
   name: Street Fighter Zero 2 '97
+- id: 262165
+  kind: 2
+  kind_id: 22123
+  language: 1
+  name: Street Fighter Zero 2 '97
+  source: no-intro
 releases:
 - release:
     id: 22123
@@ -33,23 +41,31 @@ releases:
     kind_id: 22123
     language: 1
     name: Street Fighter Zero 2 '97 (Unl) [!]
+    deprecated: 1
   - id: 49271
     kind: 3
     kind_id: 22123
     language: 1
     name: Street Fighter Zero 2 97 (Unl) (Hummer Team)
+    deprecated: 1
   - id: 69682
     kind: 3
     kind_id: 22123
     language: 2
     name: 街霸 少年街霸2 97
+  - id: 259446
+    kind: 3
+    kind_id: 22123
+    language: 1
+    name: Street Fighter Zero 2 '97 (Taiwan) (En) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 22105
       kind: 3
       kind_id: 22123
       type: 1
-      name: Street Fighter Zero 2 '97 (Unl) [!].nes
+      name: Street Fighter Zero 2 '97 (Taiwan) (En) (Pirate).nes
       format: 1
       size: 786448
       blob_id: 67463
@@ -57,3 +73,4 @@ releases:
         Street Fighter Zero 2 '97 (Unl) [!].zip
         Street Fighter Zero 2 97 (Unl) (Hummer Team) + Street Fighter Zero 2 '97 (Unl) [!].nes
         街霸 少年街霸2 97.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=73468642e5e0f3d3aee47949945c39c1f02cfe78

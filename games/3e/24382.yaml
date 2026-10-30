@@ -8,12 +8,19 @@ names:
   kind_id: 24382
   language: 1
   name: Teenage Mutant Ninja Turtles 3 (U)
+  deprecated: 1
 - id: 248754
   kind: 2
   kind_id: 24382
   language: 2
   name: 忍者神龟3
   source: codex
+- id: 262225
+  kind: 2
+  kind_id: 24382
+  language: 1
+  name: "Teenage Mutant Ninja Turtles III - The Manhattan Project"
+  source: no-intro
 releases:
 - release:
     id: 24382
@@ -24,14 +31,34 @@ releases:
     kind_id: 24382
     language: 1
     name: Teenage Mutant Ninja Turtles 3 (U)
+    deprecated: 1
+  - id: 259613
+    kind: 3
+    kind_id: 24382
+    language: 1
+    name: "Teenage Mutant Ninja Turtles III - The Manhattan Project (USA)"
+    source: no-intro
   assets:
   - asset:
       id: 24364
       kind: 3
       kind_id: 24382
       type: 1
-      name: Teenage Mutant Ninja Turtles 3 (U).nes
+      name: "Teenage Mutant Ninja Turtles III - The Manhattan Project (USA).nes"
       format: 1
       size: 524304
       blob_id: 69651
-      debug: Teenage Mutant Ninja Turtles 3 (U).zip
+      debug: |-
+        Teenage Mutant Ninja Turtles 3 (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=b3228341c41edd6751af37fd3dc83b07899a6d55
+  - asset:
+      id: 139842
+      kind: 3
+      kind_id: 24382
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Teenage%20Mutant%20Ninja%20Turtles%20III%20-%20The%20Manhattan%20Project%20%28USA%29.png
+      format: 1
+      size: 2141
+      blob_id: 325215
+      debug: libretro-named-titles:rom-asset=24364:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Teenage%20Mutant%20Ninja%20Turtles%20III%20-%20The%20Manhattan%20Project%20%28USA%29.png

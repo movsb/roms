@@ -7,12 +7,19 @@ names:
   kind_id: 18941
   language: 1
   name: Playbox BASIC (Prototype V0.0)
+  deprecated: 1
 - id: 254393
   kind: 2
   kind_id: 18941
   language: 2
   name: Playbox BASIC
   source: codex
+- id: 261986
+  kind: 2
+  kind_id: 18941
+  language: 1
+  name: Playbox BASIC
+  source: no-intro
 releases:
 - release:
     id: 18941
@@ -23,14 +30,23 @@ releases:
     kind_id: 18941
     language: 1
     name: Playbox BASIC (Prototype V0.0)
+    deprecated: 1
+  - id: 259047
+    kind: 3
+    kind_id: 18941
+    language: 1
+    name: Playbox BASIC (Japan) (Sample)
+    source: no-intro
   assets:
   - asset:
       id: 18923
       kind: 3
       kind_id: 18941
       type: 1
-      name: Playbox BASIC (Prototype V0.0).nes
+      name: Playbox BASIC (Japan) (Sample).nes
       format: 1
       size: 40976
       blob_id: 64467
-      debug: Playbox BASIC (Prototype V0.0).nes
+      debug: |-
+        Playbox BASIC (Prototype V0.0).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=841499e9e87e24ad0afdc0c6a6f3152abe4e8643

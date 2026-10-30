@@ -12,6 +12,13 @@ names:
   kind_id: 27091
   language: 1
   name: Winter Games (U) (PRG0) [!]
+  deprecated: 1
+- id: 262531
+  kind: 2
+  kind_id: 27091
+  language: 1
+  name: Winter Games
+  source: no-intro
 releases:
 - release:
     id: 27091
@@ -27,17 +34,26 @@ releases:
     kind_id: 27091
     language: 1
     name: Winter Games (U) (PRG0) [!]
+    deprecated: 1
+  - id: 260112
+    kind: 3
+    kind_id: 27091
+    language: 1
+    name: Winter Games (USA)
+    source: no-intro
   assets:
   - asset:
       id: 27073
       kind: 3
       kind_id: 27091
       type: 1
-      name: 冬季运动会 (美版) (运动)-Winter Games (USA) + Winter Games (U) (PRG0) [!].nes
+      name: Winter Games (USA).nes
       format: 1
       size: 131088
       blob_id: 72060
-      debug: 冬季运动会 (美版) (运动)-Winter Games (USA) + Winter Games (U) (PRG0) [!].nes
+      debug: |-
+        冬季运动会 (美版) (运动)-Winter Games (USA) + Winter Games (U) (PRG0) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=14c46252ad24ee5c219a37e906751fea3fc0497f
   - asset:
       id: 137572
       kind: 3

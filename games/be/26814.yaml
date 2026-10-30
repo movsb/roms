@@ -13,6 +13,12 @@ names:
   language: 1
   name: Ide Yousuke Meijin no Jissen Mahjong
   source: codex
+- id: 262418
+  kind: 2
+  kind_id: 26814
+  language: 1
+  name: Ide Yousuke Meijin no Jissen Mahjong
+  source: no-intro
 releases:
 - release:
     id: 26814
@@ -23,14 +29,33 @@ releases:
     kind_id: 26814
     language: 2
     name: 井出洋介之实战麻雀 (日版)(Rev A) (桌面平台)-Ide Yousuke Meijin no Jissen Mahjong (Japan) (Rev A)
+  - id: 259996
+    kind: 3
+    kind_id: 26814
+    language: 1
+    name: Ide Yousuke Meijin no Jissen Mahjong (Japan) (Rev 1)
+    source: no-intro
   assets:
   - asset:
       id: 26796
       kind: 3
       kind_id: 26814
       type: 1
-      name: 井出洋介之实战麻雀 (日版)(Rev A) (桌面平台)-Ide Yousuke Meijin no Jissen Mahjong (Japan) (Rev A).nes
+      name: Ide Yousuke Meijin no Jissen Mahjong (Japan) (Rev 1).nes
       format: 1
       size: 131088
       blob_id: 71865
-      debug: 井出洋介之实战麻雀 (日版)(Rev A) (桌面平台)-Ide Yousuke Meijin no Jissen Mahjong (Japan) (Rev A).nes
+      debug: |-
+        井出洋介之实战麻雀 (日版)(Rev A) (桌面平台)-Ide Yousuke Meijin no Jissen Mahjong (Japan) (Rev A).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=7af71b17acd5d4c03c69c3cbbf38ba78a72d9aea
+  - asset:
+      id: 139977
+      kind: 3
+      kind_id: 26814
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Ide%20Yousuke%20Meijin%20no%20Jissen%20Mahjong%20%28Japan%29%20%28Rev%201%29.png
+      format: 1
+      size: 1830
+      blob_id: 325330
+      debug: libretro-named-titles:rom-asset=26796:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Ide%20Yousuke%20Meijin%20no%20Jissen%20Mahjong%20%28Japan%29%20%28Rev%201%29.png

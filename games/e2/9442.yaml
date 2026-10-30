@@ -47,21 +47,40 @@ releases:
     kind_id: 9444
     language: 1
     name: Darkseed (Unl)
+    deprecated: 1
   - id: 72243
     kind: 3
     kind_id: 9444
     language: 2
     name: 黑暗之蛊[火星电子]
+  - id: 257972
+    kind: 3
+    kind_id: 9444
+    language: 1
+    name: "Dark Seed - Heian Zhi Gu (China) (Pirate)"
+    source: no-intro
   assets:
   - asset:
       id: 9426
       kind: 3
       kind_id: 9444
       type: 1
-      name: Darkseed (Unl).nes
+      name: "Dark Seed - Heian Zhi Gu (China) (Pirate).nes"
       format: 1
       size: 524304
       blob_id: 55524
       debug: |-
         Darkseed (Unl).zip
         黑暗之蛊[火星电子] + Darkseed (Unl).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=ace42a9ea6154ca814a87ee32e8bd9570410f0d4
+  - asset:
+      id: 139362
+      kind: 3
+      kind_id: 9444
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Dark%20Seed%20-%20Heian%20Zhi%20Gu%20%28China%29%20%28Pirate%29.png
+      format: 1
+      size: 5133
+      blob_id: 324804
+      debug: libretro-named-titles:rom-asset=9426:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Dark%20Seed%20-%20Heian%20Zhi%20Gu%20%28China%29%20%28Pirate%29.png

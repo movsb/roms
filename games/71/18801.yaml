@@ -7,6 +7,7 @@ names:
   kind_id: 18801
   language: 1
   name: Pesterminator (U)
+  deprecated: 1
 - id: 63449
   kind: 2
   kind_id: 18801
@@ -17,11 +18,18 @@ names:
   kind_id: 18801
   language: 1
   name: "Pesterminator - The Western Exterminator (Color Dreams) [!]"
+  deprecated: 1
 - id: 92727
   kind: 2
   kind_id: 18801
   language: 1
   name: "Pesterminator - The Western Exterminator"
+- id: 261980
+  kind: 2
+  kind_id: 18801
+  language: 1
+  name: "Pesterminator - The Western Exterminator"
+  source: no-intro
 releases:
 - release:
     id: 18801
@@ -32,11 +40,13 @@ releases:
     kind_id: 18801
     language: 1
     name: Pesterminator (U)
+    deprecated: 1
   - id: 41918
     kind: 3
     kind_id: 18801
     language: 1
     name: "Pesterminator - The Western Exterminator (Unl) [!p]"
+    deprecated: 1
   - id: 63451
     kind: 3
     kind_id: 18801
@@ -47,14 +57,32 @@ releases:
     kind_id: 18801
     language: 1
     name: "Pesterminator - The Western Exterminator (Color Dreams) [!]"
+    deprecated: 1
+  - id: 259022
+    kind: 3
+    kind_id: 18801
+    language: 1
+    name: "Pesterminator - The Western Exterminator (USA) (Unl)"
+    source: no-intro
   assets:
   - asset:
       id: 18783
       kind: 3
       kind_id: 18801
       type: 1
-      name: Pesterminator (U).nes
+      name: "Pesterminator - The Western Exterminator (USA) (Unl).nes"
       format: 1
       size: 131088
       blob_id: 64335
-      debug: "Pesterminator (U).zip\nPesterminator - The Western Exterminator (Unl) [!p].zip\n害虫终结者 (美版) (动作)-Pesterminator (USA) (Unl) + Pesterminator - The Western Exterminator (Color Dreams) [!].nes"
+      debug: "Pesterminator (U).zip\nPesterminator - The Western Exterminator (Unl) [!p].zip\n害虫终结者 (美版) (动作)-Pesterminator (USA) (Unl) + Pesterminator - The Western Exterminator (Color Dreams) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=0cbcb3eb0aeb196d8564adb4823a270dc213b5bd"
+  - asset:
+      id: 139665
+      kind: 3
+      kind_id: 18801
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Pesterminator%20-%20The%20Western%20Exterminator%20%28USA%29%20%28Unl%29.png
+      format: 1
+      size: 6066
+      blob_id: 325062
+      debug: libretro-named-titles:rom-asset=18783:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Pesterminator%20-%20The%20Western%20Exterminator%20%28USA%29%20%28Unl%29.png

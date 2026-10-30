@@ -7,6 +7,7 @@ names:
   kind_id: 19563
   language: 1
   name: RBI Baseball 2 (U)
+  deprecated: 1
 - id: 92815
   kind: 2
   kind_id: 19563
@@ -18,6 +19,12 @@ names:
   language: 2
   name: R.B.I.棒球2
   source: codex
+- id: 262031
+  kind: 2
+  kind_id: 19563
+  language: 1
+  name: R.B.I. Baseball 2
+  source: no-intro
 releases:
 - release:
     id: 19563
@@ -28,23 +35,32 @@ releases:
     kind_id: 19563
     language: 1
     name: R.B.I. Baseball 2 (Tengen) [!]
+    deprecated: 1
   - id: 43576
     kind: 3
     kind_id: 19563
     language: 1
     name: R.B.I. Baseball 2 (Unl) [!]
+    deprecated: 1
   - id: 43660
     kind: 3
     kind_id: 19563
     language: 1
     name: RBI Baseball 2 (U)
+    deprecated: 1
+  - id: 259135
+    kind: 3
+    kind_id: 19563
+    language: 1
+    name: R.B.I. Baseball 2 (USA) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 19545
       kind: 3
       kind_id: 19563
       type: 1
-      name: R.B.I. Baseball 2 (Tengen) [!].nes
+      name: R.B.I. Baseball 2 (USA) (Unl).nes
       format: 1
       size: 196624
       blob_id: 65055
@@ -52,6 +68,7 @@ releases:
         R.B.I. Baseball 2 (Tengen) [!].nes
         R.B.I. Baseball 2 (Unl) [!].zip
         RBI Baseball 2 (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=43693dc477b86499760cfceb375ff040e4465516
   - asset:
       id: 137223
       kind: 3

@@ -43,14 +43,34 @@ releases:
     kind_id: 12645
     language: 1
     name: Great Tank
+    deprecated: 1
+  - id: 258363
+    kind: 3
+    kind_id: 12645
+    language: 1
+    name: Great Tank (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 12627
       kind: 3
       kind_id: 12645
       type: 1
-      name: Great Tank .nes
+      name: Great Tank (Japan).nes
       format: 1
       size: 262160
       blob_id: 58533
-      debug: Great Tank .zip
+      debug: |-
+        Great Tank .zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=060fb59a6c4c7f8e4744ce6ae44263238d7ab10e
+  - asset:
+      id: 139428
+      kind: 3
+      kind_id: 12645
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Great%20Tank%20%28Japan%29.png
+      format: 1
+      size: 1773
+      blob_id: 324364
+      debug: libretro-named-titles:rom-asset=12627:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Great%20Tank%20%28Japan%29.png

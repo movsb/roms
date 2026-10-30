@@ -12,6 +12,13 @@ names:
   kind_id: 27366
   language: 1
   name: Taiwan Mahjong 16 (Sachen) [!]
+  deprecated: 1
+- id: 262626
+  kind: 2
+  kind_id: 27366
+  language: 1
+  name: Taiwan 16 Maque
+  source: no-intro
 releases:
 - release:
     id: 27366
@@ -27,17 +34,26 @@ releases:
     kind_id: 27366
     language: 1
     name: Taiwan Mahjong 16 (Sachen) [!]
+    deprecated: 1
+  - id: 260219
+    kind: 3
+    kind_id: 27366
+    language: 1
+    name: Taiwan 16 Maque (Taiwan) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 27348
       kind: 3
       kind_id: 27366
       type: 1
-      name: 台湾麻雀[Sachen] + Taiwan Mahjong 16 (Sachen) [!].nes
+      name: Taiwan 16 Maque (Taiwan) (Unl).nes
       format: 1
       size: 49168
       blob_id: 72233
-      debug: 台湾麻雀[Sachen] + Taiwan Mahjong 16 (Sachen) [!].nes
+      debug: |-
+        台湾麻雀[Sachen] + Taiwan Mahjong 16 (Sachen) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=5239eeced4510ef3d540dd39d629d9e7c5e55251
   - asset:
       id: 137611
       kind: 3

@@ -7,12 +7,19 @@ names:
   kind_id: 21451
   language: 1
   name: Snowboard Challenge (E)
+  deprecated: 1
 - id: 248584
   kind: 2
   kind_id: 21451
   language: 2
   name: 单板滑雪挑战
   source: codex
+- id: 262133
+  kind: 2
+  kind_id: 21451
+  language: 1
+  name: Snowboard Challenge
+  source: no-intro
 releases:
 - release:
     id: 21451
@@ -23,17 +30,26 @@ releases:
     kind_id: 21451
     language: 1
     name: Snowboard Challenge (E)
+    deprecated: 1
+  - id: 259358
+    kind: 3
+    kind_id: 21451
+    language: 1
+    name: Snowboard Challenge (Europe)
+    source: no-intro
   assets:
   - asset:
       id: 21433
       kind: 3
       kind_id: 21451
       type: 1
-      name: Snowboard Challenge (E).nes
+      name: Snowboard Challenge (Europe).nes
       format: 1
       size: 262160
       blob_id: 66832
-      debug: Snowboard Challenge (E).nes
+      debug: |-
+        Snowboard Challenge (E).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=b5d3fcbd4a2c50dabb604af1471e20a80566d086
   - asset:
       id: 138690
       kind: 3

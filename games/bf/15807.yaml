@@ -13,6 +13,12 @@ names:
   language: 2
   name: 马力欧格斗3
   source: codex
+- id: 261889
+  kind: 2
+  kind_id: 15807
+  language: 1
+  name: Mario Fighter III
+  source: no-intro
 releases:
 - release:
     id: 15807
@@ -23,17 +29,37 @@ releases:
     kind_id: 15807
     language: 1
     name: Mario Fighter III (Unl) [!]
+    deprecated: 1
+  - id: 258732
+    kind: 3
+    kind_id: 15807
+    language: 1
+    name: Mario Fighter III (Asia) (En) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 15789
       kind: 3
       kind_id: 15807
       type: 1
-      name: Mario Fighter III (Unl) [!].nes
+      name: Mario Fighter III (Asia) (En) (Pirate).nes
       format: 1
       size: 524304
       blob_id: 61483
-      debug: Mario Fighter III (Unl) [!].nes
+      debug: |-
+        Mario Fighter III (Unl) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=0f7a1220f014bd0bc8ec41520c797886d3388c5b
+  - asset:
+      id: 139544
+      kind: 3
+      kind_id: 15807
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mario%20Fighter%20III%20%28Asia%29%20%28En%29%20%28Pirate%29.png
+      format: 1
+      size: 5612
+      blob_id: 324961
+      debug: libretro-named-titles:rom-asset=15789:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mario%20Fighter%20III%20%28Asia%29%20%28En%29%20%28Pirate%29.png
 - release:
     id: 15808
     game_id: 15807
@@ -43,14 +69,23 @@ releases:
     kind_id: 15808
     language: 1
     name: Mario Fighter III (Unl) [a1]
+    deprecated: 1
+  - id: 258733
+    kind: 3
+    kind_id: 15808
+    language: 1
+    name: Mario Fighter III (Asia) (En) (v1.1) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 15790
       kind: 3
       kind_id: 15808
       type: 1
-      name: Mario Fighter III (Unl) [a1].nes
+      name: Mario Fighter III (Asia) (En) (v1.1) (Pirate).nes
       format: 1
       size: 524304
       blob_id: 61484
-      debug: Mario Fighter III (Unl) [a1].nes
+      debug: |-
+        Mario Fighter III (Unl) [a1].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=3b141582621cbdb1b32f645707e843201641ff62

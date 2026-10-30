@@ -12,6 +12,13 @@ names:
   kind_id: 28344
   language: 1
   name: Namco Classic II (J) [!]
+  deprecated: 1
+- id: 262970
+  kind: 2
+  kind_id: 28344
+  language: 1
+  name: Namco Classic II
+  source: no-intro
 releases:
 - release:
     id: 28344
@@ -27,17 +34,26 @@ releases:
     kind_id: 28344
     language: 1
     name: Namco Classic II (J) [!]
+    deprecated: 1
+  - id: 260596
+    kind: 3
+    kind_id: 28344
+    language: 1
+    name: Namco Classic II (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 28326
       kind: 3
       kind_id: 28344
       type: 1
-      name: 拿姆科高尔夫 II (日版) (运动)-Namco Classic II (Japan) + Namco Classic II (J) [!].nes
+      name: Namco Classic II (Japan).nes
       format: 1
       size: 524304
       blob_id: 72881
-      debug: 拿姆科高尔夫 II (日版) (运动)-Namco Classic II (Japan) + Namco Classic II (J) [!].nes
+      debug: |-
+        拿姆科高尔夫 II (日版) (运动)-Namco Classic II (Japan) + Namco Classic II (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=02402f160743e867d4e3e98d66cb6b6c91ad9d02
   - asset:
       id: 137742
       kind: 3

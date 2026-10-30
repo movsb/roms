@@ -12,11 +12,18 @@ names:
   kind_id: 9548
   language: 1
   name: Deathbots (AVE) (V1.1) [!]
+  deprecated: 1
 - id: 91634
   kind: 2
   kind_id: 9548
   language: 1
   name: Deathbots
+- id: 261631
+  kind: 2
+  kind_id: 9548
+  language: 1
+  name: Deathbots
+  source: no-intro
 releases:
 - release:
     id: 9549
@@ -27,17 +34,26 @@ releases:
     kind_id: 9549
     language: 1
     name: Deathbots (U)
+    deprecated: 1
+  - id: 257990
+    kind: 3
+    kind_id: 9549
+    language: 1
+    name: Deathbots (USA) (Rev 1) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 9531
       kind: 3
       kind_id: 9549
       type: 1
-      name: Deathbots (U).nes
+      name: Deathbots (USA) (Rev 1) (Unl).nes
       format: 1
       size: 131088
       blob_id: 55623
-      debug: Deathbots (U).zip
+      debug: |-
+        Deathbots (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=0ae47bd83202a5a2235b0bc16278f56d66038ab5
   - asset:
       id: 138317
       kind: 3
@@ -58,6 +74,7 @@ releases:
     kind_id: 9550
     language: 1
     name: Deathbots (Unl) [!p]
+    deprecated: 1
   - id: 66507
     kind: 3
     kind_id: 9550
@@ -68,16 +85,35 @@ releases:
     kind_id: 9550
     language: 1
     name: Deathbots (AVE) (V1.1) [!]
+    deprecated: 1
+  - id: 257991
+    kind: 3
+    kind_id: 9550
+    language: 1
+    name: Deathbots (USA) (Rev 1) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 9532
       kind: 3
       kind_id: 9550
       type: 1
-      name: Deathbots (Unl) [!p].nes
+      name: Deathbots (USA) (Rev 1) (Unl).nes
       format: 1
       size: 131088
       blob_id: 55624
       debug: |-
         Deathbots (Unl) [!p].zip
         死亡机器 (美版) (Rev 1) (动作)-Deathbots (USA) (Rev 1) (Unl) + Deathbots (AVE) (V1.1) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=0ae47bd83202a5a2235b0bc16278f56d66038ab5
+  - asset:
+      id: 139363
+      kind: 3
+      kind_id: 9550
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Deathbots%20%28USA%29%20%28Rev%201%29%20%28Unl%29.png
+      format: 1
+      size: 2418
+      blob_id: 324805
+      debug: libretro-named-titles:rom-asset=9532:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Deathbots%20%28USA%29%20%28Rev%201%29%20%28Unl%29.png

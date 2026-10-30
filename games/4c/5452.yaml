@@ -12,11 +12,19 @@ names:
   kind_id: 5452
   language: 1
   name: Adventures of Dino Riki, The (U) [!]
+  deprecated: 1
 - id: 91210
   kind: 2
   kind_id: 5452
   language: 1
   name: Adventures of Dino Riki, The
+  deprecated: 1
+- id: 261489
+  kind: 2
+  kind_id: 5452
+  language: 1
+  name: Adventures of Dino Riki
+  source: no-intro
 releases:
 - release:
     id: 5452
@@ -27,24 +35,32 @@ releases:
     kind_id: 5452
     language: 1
     name: Adventures of Dino Riki, The (U) [!]
+    deprecated: 1
   - id: 65489
     kind: 3
     kind_id: 5452
     language: 2
     name: 新人类 (美版) (射击)-Adventures of Dino Riki, The (USA)
+  - id: 257599
+    kind: 3
+    kind_id: 5452
+    language: 1
+    name: Adventures of Dino Riki (USA)
+    source: no-intro
   assets:
   - asset:
       id: 5434
       kind: 3
       kind_id: 5452
       type: 1
-      name: Adventures of Dino Riki, The (U) [!].nes
+      name: Adventures of Dino Riki (USA).nes
       format: 1
       size: 65552
       blob_id: 51743
       debug: |-
         Adventures of Dino Riki, The (U) [!].zip
         新人类 (美版) (射击)-Adventures of Dino Riki, The (USA) + Adventures of Dino Riki, The (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=a042a3bd69c2ea5b944dda26ea5f47321b175eb5
   - asset:
       id: 136663
       kind: 3

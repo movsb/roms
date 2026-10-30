@@ -43,14 +43,34 @@ releases:
     kind_id: 20629
     language: 1
     name: Sai Ya Ren Mei Jue Ji Hua (Ch)
+    deprecated: 1
+  - id: 259256
+    kind: 3
+    kind_id: 20629
+    language: 1
+    name: Saiya Ren Miejue Jihua (China) (Aftermarket) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 20611
       kind: 3
       kind_id: 20629
       type: 1
-      name: Sai Ya Ren Mei Jue Ji Hua (Ch).nes
+      name: Saiya Ren Miejue Jihua (China) (Aftermarket) (Pirate).nes
       format: 1
       size: 786448
       blob_id: 66065
-      debug: Sai Ya Ren Mei Jue Ji Hua (Ch).nes
+      debug: |-
+        Sai Ya Ren Mei Jue Ji Hua (Ch).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=038a8ab485b3490ebd32e7ab140850b583e05018
+  - asset:
+      id: 139724
+      kind: 3
+      kind_id: 20629
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Saiya%20Ren%20Miejue%20Jihua%20%28China%29%20%28Aftermarket%29%20%28Pirate%29.png
+      format: 1
+      size: 6353
+      blob_id: 325108
+      debug: libretro-named-titles:rom-asset=20611:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Saiya%20Ren%20Miejue%20Jihua%20%28China%29%20%28Aftermarket%29%20%28Pirate%29.png

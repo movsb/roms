@@ -7,12 +7,19 @@ names:
   kind_id: 21035
   language: 1
   name: Shen Gui Chuan Qi (The Mummy) (ES-1109) (Ch)
+  deprecated: 1
 - id: 248531
   kind: 2
   kind_id: 21035
   language: 2
   name: 神鬼传奇
   source: codex
+- id: 262102
+  kind: 2
+  kind_id: 21035
+  language: 1
+  name: Shen Gui Chuanqi (Mummy)
+  source: no-intro
 releases:
 - release:
     id: 21035
@@ -23,14 +30,34 @@ releases:
     kind_id: 21035
     language: 1
     name: Shen Gui Chuan Qi (The Mummy) (ES-1109) (Ch)
+    deprecated: 1
+  - id: 259294
+    kind: 3
+    kind_id: 21035
+    language: 1
+    name: Shen Gui Chuanqi (Mummy) (China) (Aftermarket) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 21017
       kind: 3
       kind_id: 21035
       type: 1
-      name: Shen Gui Chuan Qi (The Mummy) (ES-1109) (Ch).nes
+      name: Shen Gui Chuanqi (Mummy) (China) (Aftermarket) (Unl).nes
       format: 1
       size: 1048592
       blob_id: 66451
-      debug: Shen Gui Chuan Qi (The Mummy) (ES-1109) (Ch).nes
+      debug: |-
+        Shen Gui Chuan Qi (The Mummy) (ES-1109) (Ch).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=6dc200340d4b7b9397e4d4f28fa307059ce834ec
+  - asset:
+      id: 139737
+      kind: 3
+      kind_id: 21035
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Shen%20Gui%20Chuanqi%20%28Mummy%29%20%28China%29%20%28Aftermarket%29%20%28Unl%29.png
+      format: 1
+      size: 6051
+      blob_id: 325118
+      debug: libretro-named-titles:rom-asset=21017:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Shen%20Gui%20Chuanqi%20%28Mummy%29%20%28China%29%20%28Aftermarket%29%20%28Unl%29.png

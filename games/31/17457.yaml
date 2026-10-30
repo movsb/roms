@@ -8,6 +8,7 @@ names:
   kind_id: 17457
   language: 1
   name: "Nekketsu Koukou Dodgeball Bu - Soccer Hen"
+  deprecated: 1
 - id: 248279
   kind: 2
   kind_id: 17457
@@ -21,6 +22,12 @@ names:
   name: 热血足球
   source: codex
   deprecated: 1
+- id: 261950
+  kind: 2
+  kind_id: 17457
+  language: 1
+  name: "Nekketsu Koukou Dodgeball-bu - Soccer Hen"
+  source: no-intro
 releases:
 - release:
     id: 17457
@@ -31,14 +38,32 @@ releases:
     kind_id: 17457
     language: 1
     name: "Nekketsu Koukou Dodgeball Bu - Soccer Hen (J) (VC)"
+    deprecated: 1
+  - id: 258928
+    kind: 3
+    kind_id: 17457
+    language: 1
+    name: "Nekketsu Koukou Dodgeball-bu - Soccer Hen (Japan) (Virtual Console)"
+    source: no-intro
   assets:
   - asset:
       id: 17439
       kind: 3
       kind_id: 17457
       type: 1
-      name: "Nekketsu Koukou Dodgeball Bu - Soccer Hen (J) (VC).nes"
+      name: "Nekketsu Koukou Dodgeball-bu - Soccer Hen (Japan) (Virtual Console).nes"
       format: 1
       size: 262160
       blob_id: 63041
-      debug: "Nekketsu Koukou Dodgeball Bu - Soccer Hen (J) (VC).nes"
+      debug: "Nekketsu Koukou Dodgeball Bu - Soccer Hen (J) (VC).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=74320da0ba20e059cf57128f80c9e7aa7eb0e3df"
+  - asset:
+      id: 139630
+      kind: 3
+      kind_id: 17457
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Nekketsu%20Koukou%20Dodgeball-bu%20-%20Soccer%20Hen%20%28Japan%29%20%28Virtual%20Console%29.png
+      format: 1
+      size: 2960
+      blob_id: 325032
+      debug: libretro-named-titles:rom-asset=17439:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Nekketsu%20Koukou%20Dodgeball-bu%20-%20Soccer%20Hen%20%28Japan%29%20%28Virtual%20Console%29.png

@@ -28,17 +28,26 @@ releases:
     kind_id: 11478
     language: 1
     name: Final Fantasy II (J) (VC)
+    deprecated: 1
+  - id: 258228
+    kind: 3
+    kind_id: 11478
+    language: 1
+    name: Final Fantasy II (Japan) (Wii and Wii U Virtual Console)
+    source: no-intro
   assets:
   - asset:
       id: 11460
       kind: 3
       kind_id: 11478
       type: 1
-      name: Final Fantasy II (J) (VC).nes
+      name: Final Fantasy II (Japan) (Wii and Wii U Virtual Console).nes
       format: 1
       size: 262160
       blob_id: 57435
-      debug: Final Fantasy II (J) (VC).nes
+      debug: |-
+        Final Fantasy II (J) (VC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=0a316cfc8e188ab0cb7033299022147164e16807
   - asset:
       id: 138389
       kind: 3
@@ -802,21 +811,40 @@ releases:
     kind_id: 11528
     language: 1
     name: Final Fantasy II (U) (Prototype)
+    deprecated: 1
   - id: 63125
     kind: 3
     kind_id: 11528
     language: 2
     name: 太空战士 II (美版) (初版) (角色扮演)-Final Fantasy II (USA) (Proto)
+  - id: 258229
+    kind: 3
+    kind_id: 11528
+    language: 1
+    name: Final Fantasy II (USA) (Proto)
+    source: no-intro
   assets:
   - asset:
       id: 11510
       kind: 3
       kind_id: 11528
       type: 1
-      name: Final Fantasy II (U) (Prototype).nes
+      name: Final Fantasy II (USA) (Proto).nes
       format: 1
       size: 262160
       blob_id: 57484
       debug: |-
         Final Fantasy II (U) (Prototype).zip
         太空战士 II (美版) (初版) (角色扮演)-Final Fantasy II (USA) (Proto) + Final Fantasy II (U) (Prototype).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=dc358d47102a7c4e2ace49121b9df3e4c771081a
+  - asset:
+      id: 139403
+      kind: 3
+      kind_id: 11528
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Final%20Fantasy%20II%20%28USA%29%20%28Proto%29.png
+      format: 1
+      size: 15275
+      blob_id: 324840
+      debug: libretro-named-titles:rom-asset=11510:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Final%20Fantasy%20II%20%28USA%29%20%28Proto%29.png

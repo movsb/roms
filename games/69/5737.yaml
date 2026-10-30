@@ -37,13 +37,20 @@ releases:
     kind_id: 5737
     language: 1
     name: Alien 3 (U) [!]
+    deprecated: 1
+  - id: 257638
+    kind: 3
+    kind_id: 5737
+    language: 1
+    name: Alien 3 (USA)
+    source: no-intro
   assets:
   - asset:
       id: 5719
       kind: 3
       kind_id: 5737
       type: 1
-      name: Alien 3 (U) [!].nes
+      name: Alien 3 (USA).nes
       format: 1
       size: 262160
       blob_id: 52008
@@ -51,6 +58,7 @@ releases:
         Alien 3 (U) [!].zip
         Alien3.zip
         异形 III (美版) (动作)-Alien 3 (USA) + Alien 3 (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=6e14d69218f890d5b4806e19c599329f1b5079a1
   - asset:
       id: 136669
       kind: 3
@@ -171,17 +179,37 @@ releases:
     kind_id: 5747
     language: 1
     name: Alien 3 (U) [p2]
+    deprecated: 1
+  - id: 257639
+    kind: 3
+    kind_id: 5747
+    language: 1
+    name: Alien 3 (Asia) (En) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 5729
       kind: 3
       kind_id: 5747
       type: 1
-      name: Alien 3 (U) [p2].nes
+      name: Alien 3 (Asia) (En) (Pirate).nes
       format: 1
       size: 262160
       blob_id: 52018
-      debug: Alien 3 (U) [p2].nes
+      debug: |-
+        Alien 3 (U) [p2].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=1cae585978c820100eefc003d836b37b7fbb66d8
+  - asset:
+      id: 139301
+      kind: 3
+      kind_id: 5747
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Alien%203%20%28Asia%29%20%28En%29%20%28Pirate%29.png
+      format: 1
+      size: 1033
+      blob_id: 324755
+      debug: libretro-named-titles:rom-asset=5729:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Alien%203%20%28Asia%29%20%28En%29%20%28Pirate%29.png
 - release:
     id: 5748
     game_id: 5737
@@ -231,19 +259,27 @@ releases:
     kind_id: 5750
     language: 1
     name: Alien 3 (U)
+    deprecated: 1
+  - id: 257640
+    kind: 3
+    kind_id: 5750
+    language: 1
+    name: Alien 3 (USA)
+    source: no-intro
   assets:
   - asset:
       id: 5732
       kind: 3
       kind_id: 5750
       type: 1
-      name: Alien 3 (U).nes
+      name: Alien 3 (USA).nes
       format: 1
       size: 262160
       blob_id: 52021
       debug: |-
         Alien 3 (U).zip
         异形3.nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=6e14d69218f890d5b4806e19c599329f1b5079a1
   - asset:
       id: 138434
       kind: 3

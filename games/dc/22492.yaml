@@ -7,12 +7,19 @@ names:
   kind_id: 22492
   language: 1
   name: Super Fighter III (Unl) [!]
+  deprecated: 1
 - id: 248675
   kind: 2
   kind_id: 22492
   language: 2
   name: 超级街头霸王3
   source: codex
+- id: 262183
+  kind: 2
+  kind_id: 22492
+  language: 1
+  name: Super Fighter III
+  source: no-intro
 releases:
 - release:
     id: 22492
@@ -23,14 +30,23 @@ releases:
     kind_id: 22492
     language: 1
     name: Super Fighter III (Unl) [!]
+    deprecated: 1
+  - id: 259492
+    kind: 3
+    kind_id: 22492
+    language: 1
+    name: Super Fighter III (Asia) (En) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 22474
       kind: 3
       kind_id: 22492
       type: 1
-      name: Super Fighter III (Unl) [!].nes
+      name: Super Fighter III (Asia) (En) (Pirate).nes
       format: 1
       size: 655376
       blob_id: 67811
-      debug: Super Fighter III (Unl) [!].nes
+      debug: |-
+        Super Fighter III (Unl) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=e05b0fca7ea2f6433fa06dd204f7265417b91bbe

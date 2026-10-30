@@ -7,6 +7,7 @@ names:
   kind_id: 20947
   language: 1
   name: "Sesame Street ABC - 123 (U)"
+  deprecated: 1
 - id: 69181
   kind: 2
   kind_id: 20947
@@ -17,11 +18,19 @@ names:
   kind_id: 20947
   language: 1
   name: "Sesame Street 123 - ABC (U) [!]"
+  deprecated: 1
 - id: 92991
   kind: 2
   kind_id: 20947
   language: 1
   name: "Sesame Street 123 - ABC"
+  deprecated: 1
+- id: 262097
+  kind: 2
+  kind_id: 20947
+  language: 1
+  name: "Sesame Street - ABC & 123"
+  source: no-intro
 releases:
 - release:
     id: 20947
@@ -32,27 +41,35 @@ releases:
     kind_id: 20947
     language: 1
     name: "Sesame Street 123 - ABC (U) [!]"
+    deprecated: 1
   - id: 46708
     kind: 3
     kind_id: 20947
     language: 1
     name: "Sesame Street ABC - 123 (U)"
+    deprecated: 1
   - id: 69183
     kind: 3
     kind_id: 20947
     language: 2
     name: "芝麻街 - 字母与数字游戏 (美版) (益智)-Sesame Street ABC &amp; 123 (USA)"
+  - id: 259280
+    kind: 3
+    kind_id: 20947
+    language: 1
+    name: "Sesame Street - ABC & 123 (USA)"
+    source: no-intro
   assets:
   - asset:
       id: 20929
       kind: 3
       kind_id: 20947
       type: 1
-      name: "Sesame Street 123 - ABC (U) [!].nes"
+      name: "Sesame Street - ABC & 123 (USA).nes"
       format: 1
       size: 262160
       blob_id: 66370
-      debug: "Sesame Street 123 - ABC (U) [!].zip\nSesame Street ABC - 123 (U).zip\n芝麻街 - 字母与数字游戏 (美版) (益智)-Sesame Street ABC &amp; 123 (USA) + Sesame Street 123 - ABC (U) [!].nes"
+      debug: "Sesame Street 123 - ABC (U) [!].zip\nSesame Street ABC - 123 (U).zip\n芝麻街 - 字母与数字游戏 (美版) (益智)-Sesame Street ABC &amp; 123 (USA) + Sesame Street 123 - ABC (U) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=a39e3badb40cc79c9b6cf40301aa2dbebd2e31fc"
   - asset:
       id: 137286
       kind: 3

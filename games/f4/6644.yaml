@@ -62,27 +62,35 @@ releases:
     kind_id: 6624
     language: 1
     name: Batman Returns (U) [!]
+    deprecated: 1
   - id: 13800
     kind: 3
     kind_id: 6624
     language: 1
     name: Batman Returns (U)
+    deprecated: 1
   - id: 69595
     kind: 3
     kind_id: 6624
     language: 2
     name: "蝙蝠侠 III - 大显神威 (美版) (动作)-Batman Returns (USA)"
+  - id: 257737
+    kind: 3
+    kind_id: 6624
+    language: 1
+    name: Batman Returns (USA)
+    source: no-intro
   assets:
   - asset:
       id: 6606
       kind: 3
       kind_id: 6624
       type: 1
-      name: Batman Returns (U) [!].nes
+      name: Batman Returns (USA).nes
       format: 1
       size: 393232
       blob_id: 52853
-      debug: "Batman Returns (U) [!].zip\nBatman Returns (U).zip\n蝙蝠侠 III - 大显神威 (美版) (动作)-Batman Returns (USA) + Batman Returns (U) [!].nes"
+      debug: "Batman Returns (U) [!].zip\nBatman Returns (U).zip\n蝙蝠侠 III - 大显神威 (美版) (动作)-Batman Returns (USA) + Batman Returns (U) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=c3615a7dbf65d6b6af607d5acd9919af48af0dd3"
   - asset:
       id: 136712
       kind: 3
@@ -143,17 +151,26 @@ releases:
     kind_id: 6630
     language: 1
     name: Batman Returns (U) [p1][!]
+    deprecated: 1
+  - id: 257738
+    kind: 3
+    kind_id: 6630
+    language: 1
+    name: Batman Returns (Asia) (En) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 6612
       kind: 3
       kind_id: 6630
       type: 1
-      name: Batman Returns (U) [p1][!].nes
+      name: Batman Returns (Asia) (En) (Pirate).nes
       format: 1
       size: 393232
       blob_id: 52859
-      debug: Batman Returns (U) [p1][!].nes
+      debug: |-
+        Batman Returns (U) [p1][!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=1f2fef7002fdd3d20164e4b3c9615b6201de8384
 - release:
     id: 6631
     game_id: 6644
@@ -290,23 +307,31 @@ releases:
     kind_id: 6644
     language: 1
     name: Batman3
+    deprecated: 1
   - id: 13818
     kind: 3
     kind_id: 6644
     language: 1
     name: Batman_returns
+    deprecated: 1
   - id: 69608
     kind: 3
     kind_id: 6644
     language: 2
     name: 蝙蝠侠3
+  - id: 257739
+    kind: 3
+    kind_id: 6644
+    language: 1
+    name: Batman III (Asia) (En) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 6626
       kind: 3
       kind_id: 6644
       type: 1
-      name: Batman3.nes
+      name: Batman III (Asia) (En) (Pirate).nes
       format: 1
       size: 393232
       blob_id: 52872
@@ -314,3 +339,15 @@ releases:
         Batman3.zip
         Batman_returns.zip
         蝙蝠侠3.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=372f4cb14180d8b962f87acd3228b81167e29f43
+  - asset:
+      id: 139320
+      kind: 3
+      kind_id: 6644
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Batman%20III%20%28Asia%29%20%28En%29%20%28Pirate%29.png
+      format: 1
+      size: 767
+      blob_id: 324770
+      debug: libretro-named-titles:rom-asset=6626:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Batman%20III%20%28Asia%29%20%28En%29%20%28Pirate%29.png

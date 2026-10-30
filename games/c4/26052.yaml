@@ -12,11 +12,18 @@ names:
   kind_id: 26052
   language: 1
   name: World Class Track Meet (U) (PRG1) [!]
+  deprecated: 1
 - id: 93579
   kind: 2
   kind_id: 26052
   language: 1
   name: World Class Track Meet
+- id: 262308
+  kind: 2
+  kind_id: 26052
+  language: 1
+  name: World Class Track Meet
+  source: no-intro
 releases:
 - release:
     id: 26052
@@ -27,27 +34,35 @@ releases:
     kind_id: 26052
     language: 1
     name: World Class Track Meet (U) (PRG1) [!]
+    deprecated: 1
   - id: 58244
     kind: 3
     kind_id: 26052
     language: 1
     name: World Class Track Meet (U)
+    deprecated: 1
   - id: 60445
     kind: 3
     kind_id: 26052
     language: 2
     name: "任天堂跳跳板 - 田径运动会 (美版)(Rev A) (运动)-World Class Track Meet (USA) (Rev A)"
+  - id: 259825
+    kind: 3
+    kind_id: 26052
+    language: 1
+    name: World Class Track Meet (USA) (Rev 1)
+    source: no-intro
   assets:
   - asset:
       id: 26034
       kind: 3
       kind_id: 26052
       type: 1
-      name: World Class Track Meet (U) (PRG1) [!].nes
+      name: World Class Track Meet (USA) (Rev 1).nes
       format: 1
       size: 65552
       blob_id: 71203
-      debug: "World Class Track Meet (U) (PRG1) [!].zip\nWorld Class Track Meet (U).zip\n任天堂跳跳板 - 田径运动会 (美版)(Rev A) (运动)-World Class Track Meet (USA) (Rev A) + World Class Track Meet (U) (PRG1) [!].nes"
+      debug: "World Class Track Meet (U) (PRG1) [!].zip\nWorld Class Track Meet (U).zip\n任天堂跳跳板 - 田径运动会 (美版)(Rev A) (运动)-World Class Track Meet (USA) (Rev A) + World Class Track Meet (U) (PRG1) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=07f71f67dca8d96d63e5cf4e1b90510de3fee67f"
   - asset:
       id: 137485
       kind: 3

@@ -12,11 +12,18 @@ names:
   kind_id: 10463
   language: 1
   name: Dragon Power (U) [!]
+  deprecated: 1
 - id: 91735
   kind: 2
   kind_id: 10463
   language: 1
   name: Dragon Power
+- id: 261656
+  kind: 2
+  kind_id: 10463
+  language: 1
+  name: Dragon Power
+  source: no-intro
 releases:
 - release:
     id: 10463
@@ -27,22 +34,29 @@ releases:
     kind_id: 10463
     language: 1
     name: Dragon Power (U) [!]
+    deprecated: 1
   - id: 59683
     kind: 3
     kind_id: 10463
     language: 2
     name: "七龙珠 - 神龙之谜 (美版) (动作)-Dragon Power (USA)"
+  - id: 258093
+    kind: 3
+    kind_id: 10463
+    language: 1
+    name: Dragon Power (USA)
+    source: no-intro
   assets:
   - asset:
       id: 10445
       kind: 3
       kind_id: 10463
       type: 1
-      name: Dragon Power (U) [!].nes
+      name: Dragon Power (USA).nes
       format: 1
       size: 163856
       blob_id: 56474
-      debug: "Dragon Power (U) [!].zip\n七龙珠 - 神龙之谜 (美版) (动作)-Dragon Power (USA) + Dragon Power (U) [!].nes"
+      debug: "Dragon Power (U) [!].zip\n七龙珠 - 神龙之谜 (美版) (动作)-Dragon Power (USA) + Dragon Power (U) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=184d7ba4ccfe4143bbe4b3c793f0a3554bbaea63"
   - asset:
       id: 136837
       kind: 3
@@ -63,17 +77,26 @@ releases:
     kind_id: 10467
     language: 1
     name: Dragon Power (U)
+    deprecated: 1
+  - id: 258094
+    kind: 3
+    kind_id: 10467
+    language: 1
+    name: Dragon Power (USA)
+    source: no-intro
   assets:
   - asset:
       id: 10449
       kind: 3
       kind_id: 10467
       type: 1
-      name: Dragon Power (U).nes
+      name: Dragon Power (USA).nes
       format: 1
       size: 163856
       blob_id: 56478
-      debug: Dragon Power (U).zip
+      debug: |-
+        Dragon Power (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=184d7ba4ccfe4143bbe4b3c793f0a3554bbaea63
   - asset:
       id: 138482
       kind: 3

@@ -12,6 +12,13 @@ names:
   kind_id: 26966
   language: 1
   name: "Nobunaga no Yabou - Zenkoku Han (J) [a1]"
+  deprecated: 1
+- id: 262495
+  kind: 2
+  kind_id: 26966
+  language: 1
+  name: "Nobunaga no Yabou - Zenkoku Ban"
+  source: no-intro
 releases:
 - release:
     id: 26966
@@ -27,14 +34,32 @@ releases:
     kind_id: 26966
     language: 1
     name: "Nobunaga no Yabou - Zenkoku Han (J) [a1]"
+    deprecated: 1
+  - id: 260074
+    kind: 3
+    kind_id: 26966
+    language: 1
+    name: "Nobunaga no Yabou - Zenkoku Ban (Japan) (Rev 1)"
+    source: no-intro
   assets:
   - asset:
       id: 26948
       kind: 3
       kind_id: 26966
       type: 1
-      name: "信长之野望 - 全国版 (日版)(Rev A) (策略)-Nobunaga no Yabou - Zenkoku Ban (Japan) (Rev A) + Nobunaga no Yabou - Zenkoku Han (J) [a1].nes"
+      name: "Nobunaga no Yabou - Zenkoku Ban (Japan) (Rev 1).nes"
       format: 1
       size: 262160
       blob_id: 71973
-      debug: "信长之野望 - 全国版 (日版)(Rev A) (策略)-Nobunaga no Yabou - Zenkoku Ban (Japan) (Rev A) + Nobunaga no Yabou - Zenkoku Han (J) [a1].nes"
+      debug: "信长之野望 - 全国版 (日版)(Rev A) (策略)-Nobunaga no Yabou - Zenkoku Ban (Japan) (Rev A) + Nobunaga no Yabou - Zenkoku Han (J) [a1].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=09d5fe3dbc077fcc3ac9438713f4e60b34749b43"
+  - asset:
+      id: 139998
+      kind: 3
+      kind_id: 26966
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Nobunaga%20no%20Yabou%20-%20Zenkoku%20Ban%20%28Japan%29%20%28Rev%201%29.png
+      format: 1
+      size: 1903
+      blob_id: 325347
+      debug: libretro-named-titles:rom-asset=26948:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Nobunaga%20no%20Yabou%20-%20Zenkoku%20Ban%20%28Japan%29%20%28Rev%201%29.png

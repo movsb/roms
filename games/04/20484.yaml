@@ -7,12 +7,19 @@ names:
   kind_id: 20484
   language: 1
   name: S.T.I.N.G by SMKDAN (PD)
+  deprecated: 1
 - id: 254717
   kind: 2
   kind_id: 20484
   language: 2
   name: S.T.I.N.G.
   source: codex
+- id: 262068
+  kind: 2
+  kind_id: 20484
+  language: 1
+  name: S.T.I.N.G.
+  source: no-intro
 releases:
 - release:
     id: 20484
@@ -23,14 +30,34 @@ releases:
     kind_id: 20484
     language: 1
     name: S.T.I.N.G by SMKDAN (PD)
+    deprecated: 1
+  - id: 259229
+    kind: 3
+    kind_id: 20484
+    language: 1
+    name: S.T.I.N.G. (World) (Aftermarket) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 20466
       kind: 3
       kind_id: 20484
       type: 1
-      name: S.T.I.N.G by SMKDAN (PD).nes
+      name: S.T.I.N.G. (World) (Aftermarket) (Unl).nes
       format: 1
       size: 40976
       blob_id: 65925
-      debug: S.T.I.N.G by SMKDAN (PD).nes
+      debug: |-
+        S.T.I.N.G by SMKDAN (PD).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=95c3824eb8a35ea246ddcd7d363dc33a97add02a
+  - asset:
+      id: 139719
+      kind: 3
+      kind_id: 20484
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/S.T.I.N.G.%20%28World%29%20%28Aftermarket%29%20%28Unl%29.png
+      format: 1
+      size: 3023
+      blob_id: 325104
+      debug: libretro-named-titles:rom-asset=20466:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/S.T.I.N.G.%20%28World%29%20%28Aftermarket%29%20%28Unl%29.png

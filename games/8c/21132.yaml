@@ -7,12 +7,19 @@ names:
   kind_id: 21132
   language: 1
   name: Shu Ma Bao Long III (NJ005) (Ch)
+  deprecated: 1
 - id: 248553
   kind: 2
   kind_id: 21132
   language: 2
   name: 数码暴龙3
   source: codex
+- id: 262114
+  kind: 2
+  kind_id: 21132
+  language: 1
+  name: Shuma Baolong III
+  source: no-intro
 releases:
 - release:
     id: 21132
@@ -23,14 +30,34 @@ releases:
     kind_id: 21132
     language: 1
     name: Shu Ma Bao Long III (NJ005) (Ch)
+    deprecated: 1
+  - id: 259310
+    kind: 3
+    kind_id: 21132
+    language: 1
+    name: Shuma Baolong III (China) (Aftermarket) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 21114
       kind: 3
       kind_id: 21132
       type: 1
-      name: Shu Ma Bao Long III (NJ005) (Ch).nes
+      name: Shuma Baolong III (China) (Aftermarket) (Pirate).nes
       format: 1
       size: 2097168
       blob_id: 66539
-      debug: Shu Ma Bao Long III (NJ005) (Ch).nes
+      debug: |-
+        Shu Ma Bao Long III (NJ005) (Ch).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=1363f20a542183007281aaab444dfaffa1d1be8b
+  - asset:
+      id: 139743
+      kind: 3
+      kind_id: 21132
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Shuma%20Baolong%20III%20%28China%29%20%28Aftermarket%29%20%28Pirate%29.png
+      format: 1
+      size: 8595
+      blob_id: 325124
+      debug: libretro-named-titles:rom-asset=21114:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Shuma%20Baolong%20III%20%28China%29%20%28Aftermarket%29%20%28Pirate%29.png

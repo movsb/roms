@@ -12,11 +12,18 @@ names:
   kind_id: 25560
   language: 1
   name: Vegas Dream (U) [!]
+  deprecated: 1
 - id: 93505
   kind: 2
   kind_id: 25560
   language: 1
   name: Vegas Dream
+- id: 262276
+  kind: 2
+  kind_id: 25560
+  language: 1
+  name: Vegas Dream
+  source: no-intro
 releases:
 - release:
     id: 25560
@@ -27,23 +34,31 @@ releases:
     kind_id: 25560
     language: 1
     name: Vegas Dream (U) [!]
+    deprecated: 1
   - id: 57144
     kind: 3
     kind_id: 25560
     language: 1
     name: Vegas Dream (U)
+    deprecated: 1
   - id: 69843
     kind: 3
     kind_id: 25560
     language: 2
     name: 赌城之梦 (美版) (博弈)-Vegas Dream (USA)
+  - id: 259755
+    kind: 3
+    kind_id: 25560
+    language: 1
+    name: Vegas Dream (USA)
+    source: no-intro
   assets:
   - asset:
       id: 25542
       kind: 3
       kind_id: 25560
       type: 1
-      name: Vegas Dream (U) [!].nes
+      name: Vegas Dream (USA).nes
       format: 1
       size: 262160
       blob_id: 70752
@@ -51,6 +66,7 @@ releases:
         Vegas Dream (U) [!].zip
         Vegas Dream (U).zip
         赌城之梦 (美版) (博弈)-Vegas Dream (USA) + Vegas Dream (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=cee869b39c4154723fef6184053dd37a9211bc23
   - asset:
       id: 137449
       kind: 3

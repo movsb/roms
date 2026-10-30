@@ -7,17 +7,25 @@ names:
   kind_id: 21229
   language: 1
   name: "Simpsons - Bart Vs the Space Mutants, The (U)"
+  deprecated: 1
 - id: 47353
   kind: 2
   kind_id: 21229
   language: 1
   name: Simpsons
+  deprecated: 1
 - id: 248569
   kind: 2
   kind_id: 21229
   language: 2
   name: 辛普森一家：巴特大战太空变种人
   source: codex
+- id: 262122
+  kind: 2
+  kind_id: 21229
+  language: 1
+  name: "Simpsons, The - Bart vs. the Space Mutants"
+  source: no-intro
 releases:
 - release:
     id: 21229
@@ -28,19 +36,38 @@ releases:
     kind_id: 21229
     language: 1
     name: "Simpsons - Bart Vs the Space Mutants, The (U)"
+    deprecated: 1
   - id: 47354
     kind: 3
     kind_id: 21229
     language: 1
     name: Simpsons
+    deprecated: 1
+  - id: 259329
+    kind: 3
+    kind_id: 21229
+    language: 1
+    name: "Simpsons, The - Bart vs. the Space Mutants (USA)"
+    source: no-intro
   assets:
   - asset:
       id: 21211
       kind: 3
       kind_id: 21229
       type: 1
-      name: "Simpsons - Bart Vs the Space Mutants, The (U).nes"
+      name: "Simpsons, The - Bart vs. the Space Mutants (USA).nes"
       format: 1
       size: 262160
       blob_id: 66629
-      debug: "Simpsons - Bart Vs the Space Mutants, The (U).zip\nSimpsons.zip"
+      debug: "Simpsons - Bart Vs the Space Mutants, The (U).zip\nSimpsons.zip\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=84675a1966384afdb0715672207ece3997b92033"
+  - asset:
+      id: 139750
+      kind: 3
+      kind_id: 21229
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Simpsons%2C%20The%20-%20Bart%20vs.%20the%20Space%20Mutants%20%28USA%29.png
+      format: 1
+      size: 3009
+      blob_id: 325131
+      debug: libretro-named-titles:rom-asset=21211:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Simpsons%2C%20The%20-%20Bart%20vs.%20the%20Space%20Mutants%20%28USA%29.png

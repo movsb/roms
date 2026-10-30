@@ -7,12 +7,19 @@ names:
   kind_id: 16827
   language: 1
   name: Mo Dao Shi Yin Mou
+  deprecated: 1
 - id: 248205
   kind: 2
   kind_id: 16827
   language: 2
   name: 魔导师阴谋
   source: codex
+- id: 261916
+  kind: 2
+  kind_id: 16827
+  language: 1
+  name: Mo Daoshi Yinmou
+  source: no-intro
 releases:
 - release:
     id: 16827
@@ -23,14 +30,34 @@ releases:
     kind_id: 16827
     language: 1
     name: Mo Dao Shi Yin Mou (Ch) [a1]
+    deprecated: 1
+  - id: 258834
+    kind: 3
+    kind_id: 16827
+    language: 1
+    name: Mo Daoshi Yinmou (China) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 16809
       kind: 3
       kind_id: 16827
       type: 1
-      name: Mo Dao Shi Yin Mou (Ch) [a1].nes
+      name: Mo Daoshi Yinmou (China) (Pirate).nes
       format: 1
       size: 393232
       blob_id: 62446
-      debug: Mo Dao Shi Yin Mou (Ch) [a1].nes
+      debug: |-
+        Mo Dao Shi Yin Mou (Ch) [a1].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=25a04b1f4b556fb0a2d75e9ef5a52c62ac22927b
+  - asset:
+      id: 139592
+      kind: 3
+      kind_id: 16827
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mo%20Daoshi%20Yinmou%20%28China%29%20%28Pirate%29.png
+      format: 1
+      size: 5944
+      blob_id: 324998
+      debug: libretro-named-titles:rom-asset=16809:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mo%20Daoshi%20Yinmou%20%28China%29%20%28Pirate%29.png

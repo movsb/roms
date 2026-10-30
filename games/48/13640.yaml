@@ -37,6 +37,7 @@ releases:
     kind_id: 13640
     language: 1
     name: Ikari Warriors (U) (PRG 0)
+    deprecated: 1
   - id: 64681
     kind: 3
     kind_id: 13640
@@ -47,19 +48,38 @@ releases:
     kind_id: 13640
     language: 1
     name: Ikari Warriors (U) (PRG0) [!]
+    deprecated: 1
+  - id: 258453
+    kind: 3
+    kind_id: 13640
+    language: 1
+    name: Ikari Warriors (USA)
+    source: no-intro
   assets:
   - asset:
       id: 13622
       kind: 3
       kind_id: 13640
       type: 1
-      name: Ikari Warriors (U) (PRG 0).nes
+      name: Ikari Warriors (USA).nes
       format: 1
       size: 131088
       blob_id: 59479
       debug: |-
         Ikari Warriors (U) (PRG 0).zip
         怒 (美版) (动作射击)-Ikari Warriors (USA) + Ikari Warriors (U) (PRG0) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=744c6638c3d7e39bd331a3b88f56affa9a0c4e4b
+  - asset:
+      id: 139460
+      kind: 3
+      kind_id: 13640
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Ikari%20Warriors%20%28USA%29.png
+      format: 1
+      size: 1617
+      blob_id: 324891
+      debug: libretro-named-titles:rom-asset=13622:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Ikari%20Warriors%20%28USA%29.png
 - release:
     id: 13641
     game_id: 13640
@@ -89,24 +109,32 @@ releases:
     kind_id: 13643
     language: 1
     name: Ikari Warriors (U) (PRG1) [!]
+    deprecated: 1
   - id: 64685
     kind: 3
     kind_id: 13643
     language: 2
     name: 怒 (美版)(Rev A) (动作射击)-Ikari Warriors (USA) (Rev A)
+  - id: 258454
+    kind: 3
+    kind_id: 13643
+    language: 1
+    name: Ikari Warriors (USA) (Rev 1)
+    source: no-intro
   assets:
   - asset:
       id: 13625
       kind: 3
       kind_id: 13643
       type: 1
-      name: Ikari Warriors (U) (PRG1) [!].nes
+      name: Ikari Warriors (USA) (Rev 1).nes
       format: 1
       size: 131088
       blob_id: 59482
       debug: |-
         Ikari Warriors (U) (PRG1) [!].zip
         怒 (美版)(Rev A) (动作射击)-Ikari Warriors (USA) (Rev A) + Ikari Warriors (U) (PRG1) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=3c7eecf8586d4c8370e27db1815a6ee0e33fb683
   - asset:
       id: 136976
       kind: 3

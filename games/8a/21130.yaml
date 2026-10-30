@@ -23,17 +23,37 @@ releases:
     kind_id: 21130
     language: 1
     name: Shu Ma Bao Bei (Digimon Crystal) (Ch) (Wxn)
+    deprecated: 1
+  - id: 259309
+    kind: 3
+    kind_id: 21130
+    language: 1
+    name: "Shuma Baolong 4 - Shuijing Ban (China) (2004SR01259) (Pirate)"
+    source: no-intro
   assets:
   - asset:
       id: 21112
       kind: 3
       kind_id: 21130
       type: 1
-      name: Shu Ma Bao Bei (Digimon Crystal) (Ch) (Wxn).nes
+      name: "Shuma Baolong 4 - Shuijing Ban (China) (2004SR01259) (Pirate).nes"
       format: 1
       size: 1048592
       blob_id: 66537
-      debug: Shu Ma Bao Bei (Digimon Crystal) (Ch) (Wxn).nes
+      debug: |-
+        Shu Ma Bao Bei (Digimon Crystal) (Ch) (Wxn).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=aa5e2482ab1980550d493692c0844b9c1133eea3
+  - asset:
+      id: 139742
+      kind: 3
+      kind_id: 21130
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Shuma%20Baolong%204%20-%20Shuijing%20Ban%20%28China%29%20%282004SR01259%29%20%28Pirate%29.png
+      format: 1
+      size: 5444
+      blob_id: 325123
+      debug: libretro-named-titles:rom-asset=21112:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Shuma%20Baolong%204%20-%20Shuijing%20Ban%20%28China%29%20%282004SR01259%29%20%28Pirate%29.png
 - release:
     id: 21131
     game_id: 21130

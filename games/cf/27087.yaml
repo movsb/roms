@@ -12,6 +12,12 @@ names:
   kind_id: 27087
   language: 1
   name: Strategist
+- id: 262529
+  kind: 2
+  kind_id: 27087
+  language: 1
+  name: Strategist
+  source: no-intro
 releases:
 - release:
     id: 27087
@@ -27,17 +33,37 @@ releases:
     kind_id: 27087
     language: 1
     name: Strategist (Sachen) [!]
+    deprecated: 1
+  - id: 260109
+    kind: 3
+    kind_id: 27087
+    language: 1
+    name: Strategist (Asia) (En) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 27069
       kind: 3
       kind_id: 27087
       type: 1
-      name: 军事家 (亚洲版) (桌面平台)-Strategist (Asia) (NTSC) (Unl) + Strategist (Sachen) [!].nes
+      name: Strategist (Asia) (En) (Unl).nes
       format: 1
       size: 65552
       blob_id: 72057
-      debug: 军事家 (亚洲版) (桌面平台)-Strategist (Asia) (NTSC) (Unl) + Strategist (Sachen) [!].nes
+      debug: |-
+        军事家 (亚洲版) (桌面平台)-Strategist (Asia) (NTSC) (Unl) + Strategist (Sachen) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=cb319ae39b41d8ed695fa40bdd899be4aa839f2d
+  - asset:
+      id: 140008
+      kind: 3
+      kind_id: 27087
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Strategist%20%28Asia%29%20%28En%29%20%28Unl%29.png
+      format: 1
+      size: 6448
+      blob_id: 325355
+      debug: libretro-named-titles:rom-asset=27069:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Strategist%20%28Asia%29%20%28En%29%20%28Unl%29.png
 - release:
     id: 27088
     game_id: 27087
@@ -52,14 +78,23 @@ releases:
     kind_id: 27088
     language: 1
     name: Strategist (With Intro) (Sachen) [!]
+    deprecated: 1
+  - id: 260110
+    kind: 3
+    kind_id: 27088
+    language: 1
+    name: Strategist (Taiwan) (En) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 27070
       kind: 3
       kind_id: 27088
       type: 1
-      name: 军事家 (亚洲版) (桌面平台)-Strategist (Asia) (PAL) (Unl) + Strategist (With Intro) (Sachen) [!].nes
+      name: Strategist (Taiwan) (En) (Unl).nes
       format: 1
       size: 65552
       blob_id: 72058
-      debug: 军事家 (亚洲版) (桌面平台)-Strategist (Asia) (PAL) (Unl) + Strategist (With Intro) (Sachen) [!].nes
+      debug: |-
+        军事家 (亚洲版) (桌面平台)-Strategist (Asia) (PAL) (Unl) + Strategist (With Intro) (Sachen) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=757560b286cb1064cd105acca55e5c2287adc673

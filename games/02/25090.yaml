@@ -47,6 +47,7 @@ releases:
     kind_id: 25093
     language: 1
     name: Tower of Druaga, The (Japan)
+    deprecated: 1
   - id: 70581
     kind: 3
     kind_id: 25093
@@ -57,16 +58,35 @@ releases:
     kind_id: 25093
     language: 1
     name: Tower of Druaga, The (J) [!]
+    deprecated: 1
+  - id: 259693
+    kind: 3
+    kind_id: 25093
+    language: 1
+    name: Druaga no Tou (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 25075
       kind: 3
       kind_id: 25093
       type: 1
-      name: Tower of Druaga, The (Japan).nes
+      name: Druaga no Tou (Japan).nes
       format: 1
       size: 40976
       blob_id: 70317
       debug: |-
         Tower of Druaga, The (Japan).zip
         迷宫塔 (日版) (益智)-Tower of Druaga, The (Japan) + Tower of Druaga, The (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=f1c5073919a0d0d86e05c331e5db6a94055edde6
+  - asset:
+      id: 139861
+      kind: 3
+      kind_id: 25093
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Druaga%20no%20Tou%20%28Japan%29.png
+      format: 1
+      size: 1127
+      blob_id: 325233
+      debug: libretro-named-titles:rom-asset=25075:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Druaga%20no%20Tou%20%28Japan%29.png

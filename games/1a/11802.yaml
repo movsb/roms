@@ -27,17 +27,24 @@ releases:
     kind_id: 11802
     language: 1
     name: "Flipull - An Exciting Cube Game (J) (REV1) [!]"
+    deprecated: 1
+  - id: 258252
+    kind: 3
+    kind_id: 11802
+    language: 1
+    name: "Flipull - An Exciting Cube Game (Japan) (En) (Rev 1)"
+    source: no-intro
   assets:
   - asset:
       id: 11784
       kind: 3
       kind_id: 11802
       type: 1
-      name: "Flipull - An Exciting Cube Game (J) (REV1) [!].nes"
+      name: "Flipull - An Exciting Cube Game (Japan) (En) (Rev 1).nes"
       format: 1
       size: 65552
       blob_id: 57742
-      debug: "Flipull - An Exciting Cube Game (J) (REV1) [!].nes"
+      debug: "Flipull - An Exciting Cube Game (J) (REV1) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=f4760ab2fb602c627aaaccf6f66a54fdb0734b07"
   - asset:
       id: 136902
       kind: 3
@@ -119,6 +126,7 @@ releases:
     kind_id: 11811
     language: 1
     name: "Flipull - An Exciting Cube Game (Japan)"
+    deprecated: 1
   - id: 70431
     kind: 3
     kind_id: 11811
@@ -129,6 +137,13 @@ releases:
     kind_id: 11811
     language: 1
     name: "Flipull - An Exciting Cube Game (J)"
+    deprecated: 1
+  - id: 258253
+    kind: 3
+    kind_id: 11811
+    language: 1
+    name: "Flipull - An Exciting Cube Game (Japan) (En)"
+    source: no-intro
   release_publishers:
   - release_id: 11811
     publisher_id: 112
@@ -138,8 +153,19 @@ releases:
       kind: 3
       kind_id: 11811
       type: 1
-      name: "Flipull - An Exciting Cube Game (Japan).nes"
+      name: "Flipull - An Exciting Cube Game (Japan) (En).nes"
       format: 1
       size: 65552
       blob_id: 57751
-      debug: "Flipull - An Exciting Cube Game (Japan).zip\n趣味方块 (日版) (益智)-Flipull - An Exciting Cube Game (Japan) + Flipull - An Exciting Cube Game (J).nes"
+      debug: "Flipull - An Exciting Cube Game (Japan).zip\n趣味方块 (日版) (益智)-Flipull - An Exciting Cube Game (Japan) + Flipull - An Exciting Cube Game (J).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=6dbee225f87271f033bfa165e3560267249a3d11"
+  - asset:
+      id: 139408
+      kind: 3
+      kind_id: 11811
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Flipull%20-%20An%20Exciting%20Cube%20Game%20%28Japan%29%20%28En%29.png
+      format: 1
+      size: 1327
+      blob_id: 324845
+      debug: libretro-named-titles:rom-asset=11793:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Flipull%20-%20An%20Exciting%20Cube%20Game%20%28Japan%29%20%28En%29.png

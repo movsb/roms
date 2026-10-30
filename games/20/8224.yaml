@@ -29,22 +29,41 @@ releases:
     kind_id: 8224
     language: 1
     name: "Castlevania 3 - Dracula's Curse (U)"
+    deprecated: 1
   - id: 17534
     kind: 3
     kind_id: 8224
     language: 1
     name: "Castlevania III - Dracula's Curse (U) [!]"
+    deprecated: 1
+  - id: 257865
+    kind: 3
+    kind_id: 8224
+    language: 1
+    name: "Castlevania III - Dracula's Curse (USA)"
+    source: no-intro
   assets:
   - asset:
       id: 8206
       kind: 3
       kind_id: 8224
       type: 1
-      name: "Castlevania 3 - Dracula's Curse (U).nes"
+      name: "Castlevania III - Dracula's Curse (USA).nes"
       format: 1
       size: 393232
       blob_id: 54370
-      debug: "Castlevania 3 - Dracula's Curse (U).zip\nCastlevania III - Dracula's Curse (U) [!].nes\nCastlevania III - Dracula's Curse (U) [!].zip"
+      debug: "Castlevania 3 - Dracula's Curse (U).zip\nCastlevania III - Dracula's Curse (U) [!].nes\nCastlevania III - Dracula's Curse (U) [!].zip\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=23c4dafcc17fa75e8d682931702277659cd59735"
+  - asset:
+      id: 139344
+      kind: 3
+      kind_id: 8224
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Castlevania%20III%20-%20Dracula%27s%20Curse%20%28USA%29.png
+      format: 1
+      size: 2559
+      blob_id: 324789
+      debug: libretro-named-titles:rom-asset=8206:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Castlevania%20III%20-%20Dracula%27s%20Curse%20%28USA%29.png
 - release:
     id: 8292
     game_id: 8224
@@ -54,17 +73,35 @@ releases:
     kind_id: 8292
     language: 1
     name: "Castlevania III - Dracula's Curse (E) (VC)"
+    deprecated: 1
+  - id: 257867
+    kind: 3
+    kind_id: 8292
+    language: 1
+    name: "Castlevania III - Dracula's Curse (Europe) (Wii Virtual Console)"
+    source: no-intro
   assets:
   - asset:
       id: 8274
       kind: 3
       kind_id: 8292
       type: 1
-      name: "Castlevania III - Dracula's Curse (E) (VC).nes"
+      name: "Castlevania III - Dracula's Curse (Europe) (Wii Virtual Console).nes"
       format: 1
       size: 393232
       blob_id: 54437
-      debug: "Castlevania III - Dracula's Curse (E) (VC).nes"
+      debug: "Castlevania III - Dracula's Curse (E) (VC).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=94d5f7a06031090a40071a03af77a3bd83a6eabb"
+  - asset:
+      id: 139345
+      kind: 3
+      kind_id: 8292
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Castlevania%20III%20-%20Dracula%27s%20Curse%20%28Europe%29%20%28Wii%20Virtual%20Console%29.png
+      format: 1
+      size: 5969
+      blob_id: 324790
+      debug: libretro-named-titles:rom-asset=8274:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Castlevania%20III%20-%20Dracula%27s%20Curse%20%28Europe%29%20%28Wii%20Virtual%20Console%29.png
 - release:
     id: 8293
     game_id: 8224
@@ -114,17 +151,24 @@ releases:
     kind_id: 8295
     language: 1
     name: "Castlevania III - Dracula's Curse (KC)"
+    deprecated: 1
+  - id: 257868
+    kind: 3
+    kind_id: 8295
+    language: 1
+    name: "Castlevania III - Dracula's Curse (World) (Konami Collector's Series)"
+    source: no-intro
   assets:
   - asset:
       id: 8277
       kind: 3
       kind_id: 8295
       type: 1
-      name: "Castlevania III - Dracula's Curse (KC).nes"
+      name: "Castlevania III - Dracula's Curse (World) (Konami Collector's Series).nes"
       format: 1
       size: 393232
       blob_id: 54440
-      debug: "Castlevania III - Dracula's Curse (KC).nes"
+      debug: "Castlevania III - Dracula's Curse (KC).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=7b832d8b587a66b58bbfe0eafddc08316c1e0f0a"
 - release:
     id: 8296
     game_id: 8224
@@ -134,17 +178,35 @@ releases:
     kind_id: 8296
     language: 1
     name: "Castlevania III - Dracula's Curse (U) (VC)"
+    deprecated: 1
+  - id: 257869
+    kind: 3
+    kind_id: 8296
+    language: 1
+    name: "Castlevania III - Dracula's Curse (USA, Europe) (USA Wii Virtual Console, Wii U Virtual Console)"
+    source: no-intro
   assets:
   - asset:
       id: 8278
       kind: 3
       kind_id: 8296
       type: 1
-      name: "Castlevania III - Dracula's Curse (U) (VC).nes"
+      name: "Castlevania III - Dracula's Curse (USA, Europe) (USA Wii Virtual Console, Wii U Virtual Console).nes"
       format: 1
       size: 393232
       blob_id: 54441
-      debug: "Castlevania III - Dracula's Curse (U) (VC).nes"
+      debug: "Castlevania III - Dracula's Curse (U) (VC).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=1f09468e300e9a8dee1fc55bb92a8d0bd06685a6"
+  - asset:
+      id: 139346
+      kind: 3
+      kind_id: 8296
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Castlevania%20III%20-%20Dracula%27s%20Curse%20%28USA%2C%20Europe%29%20%28USA%20Wii%20Virtual%20Console%2C%20Wii%20U%20Virtual%20Console%29.png
+      format: 1
+      size: 5969
+      blob_id: 324790
+      debug: libretro-named-titles:rom-asset=8278:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Castlevania%20III%20-%20Dracula%27s%20Curse%20%28USA%2C%20Europe%29%20%28USA%20Wii%20Virtual%20Console%2C%20Wii%20U%20Virtual%20Console%29.png
 - release:
     id: 8299
     game_id: 8224

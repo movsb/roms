@@ -13,6 +13,12 @@ names:
   language: 1
   name: "Top Gun - Dual Fighters"
   source: codex
+- id: 262693
+  kind: 2
+  kind_id: 27562
+  language: 1
+  name: "Top Gun - Dual Fighters"
+  source: no-intro
 releases:
 - release:
     id: 27562
@@ -23,14 +29,33 @@ releases:
     kind_id: 27562
     language: 2
     name: 壮志凌云2
+  - id: 260296
+    kind: 3
+    kind_id: 27562
+    language: 1
+    name: "Top Gun - Dual Fighters (Japan)"
+    source: no-intro
   assets:
   - asset:
       id: 27544
       kind: 3
       kind_id: 27562
       type: 1
-      name: 壮志凌云2.nes
+      name: "Top Gun - Dual Fighters (Japan).nes"
       format: 1
       size: 262160
       blob_id: 72366
-      debug: 壮志凌云2.zip
+      debug: |-
+        壮志凌云2.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=fd240d2b71f7f1bb723867c02827544ca89f0863
+  - asset:
+      id: 140053
+      kind: 3
+      kind_id: 27562
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Top%20Gun%20-%20Dual%20Fighters%20%28Japan%29.png
+      format: 1
+      size: 1358
+      blob_id: 324469
+      debug: libretro-named-titles:rom-asset=27544:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Top%20Gun%20-%20Dual%20Fighters%20%28Japan%29.png

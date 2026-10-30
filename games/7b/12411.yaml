@@ -7,12 +7,19 @@ names:
   kind_id: 12411
   language: 1
   name: Golden Axe IV (Unl)
+  deprecated: 1
 - id: 247869
   kind: 2
   kind_id: 12411
   language: 2
   name: 战斧4
   source: codex
+- id: 261752
+  kind: 2
+  kind_id: 12411
+  language: 1
+  name: Golden Axe IV
+  source: no-intro
 releases:
 - release:
     id: 12411
@@ -23,14 +30,34 @@ releases:
     kind_id: 12411
     language: 1
     name: Golden Axe IV (Unl)
+    deprecated: 1
+  - id: 258341
+    kind: 3
+    kind_id: 12411
+    language: 1
+    name: Golden Axe IV (Asia) (Ja) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 12393
       kind: 3
       kind_id: 12411
       type: 1
-      name: Golden Axe IV (Unl).nes
+      name: Golden Axe IV (Asia) (Ja) (Pirate).nes
       format: 1
       size: 262160
       blob_id: 58308
-      debug: Golden Axe IV (Unl).nes
+      debug: |-
+        Golden Axe IV (Unl).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=2648c8bd968116554cf563cf8a2b97dae0adfc4f
+  - asset:
+      id: 139422
+      kind: 3
+      kind_id: 12411
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Golden%20Axe%20IV%20%28Asia%29%20%28Ja%29%20%28Pirate%29.png
+      format: 1
+      size: 2749
+      blob_id: 324856
+      debug: libretro-named-titles:rom-asset=12393:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Golden%20Axe%20IV%20%28Asia%29%20%28Ja%29%20%28Pirate%29.png

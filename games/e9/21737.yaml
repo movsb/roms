@@ -27,11 +27,13 @@ releases:
     kind_id: 21737
     language: 1
     name: Spiritual Warfare (U) (Ver 6.1)
+    deprecated: 1
   - id: 48406
     kind: 3
     kind_id: 21737
     language: 1
     name: Spiritual Warfare (Unl) (V6.1) [!p]
+    deprecated: 1
   - id: 68287
     kind: 3
     kind_id: 21737
@@ -42,13 +44,20 @@ releases:
     kind_id: 21737
     language: 1
     name: Spiritual Warfare (Wisdom Tree) (V6.1) [!]
+    deprecated: 1
+  - id: 259387
+    kind: 3
+    kind_id: 21737
+    language: 1
+    name: Spiritual Warfare (USA) (v6.1) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 21719
       kind: 3
       kind_id: 21737
       type: 1
-      name: Spiritual Warfare (U) (Ver 6.1).nes
+      name: Spiritual Warfare (USA) (v6.1) (Unl).nes
       format: 1
       size: 262160
       blob_id: 67105
@@ -56,6 +65,18 @@ releases:
         Spiritual Warfare (U) (Ver 6.1).zip
         Spiritual Warfare (Unl) (V6.1) [!p].zip
         神圣战争 (美版) (V6.1) (动作角色扮演)-Spiritual Warfare (USA) (v6.1) (Unl) + Spiritual Warfare (Wisdom Tree) (V6.1) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=45c8f2c83cd25cfa7f8d4d01438ffe36b5f5aac8
+  - asset:
+      id: 139766
+      kind: 3
+      kind_id: 21737
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Spiritual%20Warfare%20%28USA%29%20%28v6.1%29%20%28Unl%29.png
+      format: 1
+      size: 2476
+      blob_id: 325145
+      debug: libretro-named-titles:rom-asset=21719:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Spiritual%20Warfare%20%28USA%29%20%28v6.1%29%20%28Unl%29.png
 - release:
     id: 21739
     game_id: 21737

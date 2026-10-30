@@ -32,17 +32,37 @@ releases:
     kind_id: 5464
     language: 1
     name: Adventures of Lolo (E) (VC)
+    deprecated: 1
+  - id: 257602
+    kind: 3
+    kind_id: 5464
+    language: 1
+    name: Adventures of Lolo (Europe) (Virtual Console)
+    source: no-intro
   assets:
   - asset:
       id: 5446
       kind: 3
       kind_id: 5464
       type: 1
-      name: Adventures of Lolo (E) (VC).nes
+      name: Adventures of Lolo (Europe) (Virtual Console).nes
       format: 1
       size: 65552
       blob_id: 51755
-      debug: Adventures of Lolo (E) (VC).nes
+      debug: |-
+        Adventures of Lolo (E) (VC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=ede082957ec64027c68ad619c5051d4cc72f6c12
+  - asset:
+      id: 139294
+      kind: 3
+      kind_id: 5464
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Adventures%20of%20Lolo%20%28Europe%29%20%28Virtual%20Console%29.png
+      format: 1
+      size: 3601
+      blob_id: 324749
+      debug: libretro-named-titles:rom-asset=5446:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Adventures%20of%20Lolo%20%28Europe%29%20%28Virtual%20Console%29.png
 - release:
     id: 5466
     game_id: 5464
@@ -52,17 +72,37 @@ releases:
     kind_id: 5466
     language: 1
     name: Adventures of Lolo (U) (VC)
+    deprecated: 1
+  - id: 257603
+    kind: 3
+    kind_id: 5466
+    language: 1
+    name: Adventures of Lolo (USA) (Virtual Console)
+    source: no-intro
   assets:
   - asset:
       id: 5448
       kind: 3
       kind_id: 5466
       type: 1
-      name: Adventures of Lolo (U) (VC).nes
+      name: Adventures of Lolo (USA) (Virtual Console).nes
       format: 1
       size: 65552
       blob_id: 51757
-      debug: Adventures of Lolo (U) (VC).nes
+      debug: |-
+        Adventures of Lolo (U) (VC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=7ff7b571c24c60784ee96e61876d6676bcc77fe6
+  - asset:
+      id: 139295
+      kind: 3
+      kind_id: 5466
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Adventures%20of%20Lolo%20%28USA%29%20%28Virtual%20Console%29.png
+      format: 1
+      size: 3601
+      blob_id: 324749
+      debug: libretro-named-titles:rom-asset=5448:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Adventures%20of%20Lolo%20%28USA%29%20%28Virtual%20Console%29.png
 - release:
     id: 5467
     game_id: 5464
@@ -72,24 +112,32 @@ releases:
     kind_id: 5467
     language: 1
     name: Adventures of Lolo (U) [!]
+    deprecated: 1
   - id: 69515
     kind: 3
     kind_id: 5467
     language: 2
     name: 蛋王子大冒险 (美版) (益智)-Adventures of Lolo (USA)
+  - id: 257604
+    kind: 3
+    kind_id: 5467
+    language: 1
+    name: Adventures of Lolo (USA)
+    source: no-intro
   assets:
   - asset:
       id: 5449
       kind: 3
       kind_id: 5467
       type: 1
-      name: Adventures of Lolo (U) [!].nes
+      name: Adventures of Lolo (USA).nes
       format: 1
       size: 65552
       blob_id: 51758
       debug: |-
         Adventures of Lolo (U) [!].zip
         蛋王子大冒险 (美版) (益智)-Adventures of Lolo (USA) + Adventures of Lolo (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=adfe24b8cfb6411ddea238058d027ec0458fa3c4
   - asset:
       id: 136699
       kind: 3

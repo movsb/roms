@@ -7,12 +7,19 @@ names:
   kind_id: 22171
   language: 1
   name: SuborWin 2000 (R) [!]
+  deprecated: 1
 - id: 254961
   kind: 2
   kind_id: 22171
   language: 2
   name: 小霸王Windows 2000
   source: codex
+- id: 262169
+  kind: 2
+  kind_id: 22171
+  language: 1
+  name: SuborWin 2000
+  source: no-intro
 releases:
 - release:
     id: 22171
@@ -23,17 +30,26 @@ releases:
     kind_id: 22171
     language: 1
     name: SuborWin 2000 (R) [!]
+    deprecated: 1
+  - id: 259453
+    kind: 3
+    kind_id: 22171
+    language: 1
+    name: SuborWin 2000 (Russia) (Subor Keyboard) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 22153
       kind: 3
       kind_id: 22171
       type: 1
-      name: SuborWin 2000 (R) [!].nes
+      name: SuborWin 2000 (Russia) (Subor Keyboard) (Pirate).nes
       format: 1
       size: 524304
       blob_id: 67503
-      debug: SuborWin 2000 (R) [!].nes
+      debug: |-
+        SuborWin 2000 (R) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=cd55c86c40208476eeda84b3dec482fe2c80f0b2
   - asset:
       id: 137352
       kind: 3

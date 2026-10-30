@@ -7,6 +7,7 @@ names:
   kind_id: 15493
   language: 1
   name: MadMax
+  deprecated: 1
 - id: 61175
   kind: 2
   kind_id: 15493
@@ -17,11 +18,18 @@ names:
   kind_id: 15493
   language: 1
   name: Mad Max (U) [!]
+  deprecated: 1
 - id: 92360
   kind: 2
   kind_id: 15493
   language: 1
   name: Mad Max
+- id: 261869
+  kind: 2
+  kind_id: 15493
+  language: 1
+  name: Mad Max
+  source: no-intro
 releases:
 - release:
     id: 15493
@@ -32,24 +40,32 @@ releases:
     kind_id: 15493
     language: 1
     name: Mad Max (U) [!]
+    deprecated: 1
   - id: 61177
     kind: 3
     kind_id: 15493
     language: 2
     name: 冲锋飞车队 (美版) (动作)-Mad Max (USA)
+  - id: 258693
+    kind: 3
+    kind_id: 15493
+    language: 1
+    name: Mad Max (USA)
+    source: no-intro
   assets:
   - asset:
       id: 15475
       kind: 3
       kind_id: 15493
       type: 1
-      name: Mad Max (U) [!].nes
+      name: Mad Max (USA).nes
       format: 1
       size: 262160
       blob_id: 61190
       debug: |-
         Mad Max (U) [!].zip
         冲锋飞车队 (美版) (动作)-Mad Max (USA) + Mad Max (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=998a7cd3140978fad0e827c8543092ca705c1fc7
   - asset:
       id: 137073
       kind: 3

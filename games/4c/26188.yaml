@@ -7,12 +7,19 @@ names:
   kind_id: 26188
   language: 1
   name: Xiao Ao Jiang Wu (Ch) (Wxn)
+  deprecated: 1
 - id: 248917
   kind: 2
   kind_id: 26188
   language: 2
   name: 笑傲江湖
   source: codex
+- id: 262317
+  kind: 2
+  kind_id: 26188
+  language: 1
+  name: Xiao Ao Jianghu
+  source: no-intro
 releases:
 - release:
     id: 26188
@@ -23,14 +30,34 @@ releases:
     kind_id: 26188
     language: 1
     name: Xiao Ao Jiang Wu (Ch) (Wxn)
+    deprecated: 1
+  - id: 259844
+    kind: 3
+    kind_id: 26188
+    language: 1
+    name: Xiao Ao Jianghu (China) (Aftermarket) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 26170
       kind: 3
       kind_id: 26188
       type: 1
-      name: Xiao Ao Jiang Wu (Ch) (Wxn).nes
+      name: Xiao Ao Jianghu (China) (Aftermarket) (Unl).nes
       format: 1
       size: 1048592
       blob_id: 71330
-      debug: Xiao Ao Jiang Wu (Ch) (Wxn).nes
+      debug: |-
+        Xiao Ao Jiang Wu (Ch) (Wxn).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=917667846a10942d74729c65eb4d47d5420d9026
+  - asset:
+      id: 139904
+      kind: 3
+      kind_id: 26188
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Xiao%20Ao%20Jianghu%20%28China%29%20%28Aftermarket%29%20%28Unl%29.png
+      format: 1
+      size: 7082
+      blob_id: 325272
+      debug: libretro-named-titles:rom-asset=26170:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Xiao%20Ao%20Jianghu%20%28China%29%20%28Aftermarket%29%20%28Unl%29.png

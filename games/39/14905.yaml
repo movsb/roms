@@ -22,17 +22,37 @@ releases:
     kind_id: 14907
     language: 1
     name: Kyuukyoku Tiger (J) [p1]
+    deprecated: 1
+  - id: 258607
+    kind: 3
+    kind_id: 14907
+    language: 1
+    name: Tiger (Asia) (En) (FK-C4-33) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 14889
       kind: 3
       kind_id: 14907
       type: 1
-      name: Kyuukyoku Tiger (J) [p1].nes
+      name: Tiger (Asia) (En) (FK-C4-33) (Pirate).nes
       format: 1
       size: 262160
       blob_id: 60642
-      debug: Kyuukyoku Tiger (J) [p1].nes
+      debug: |-
+        Kyuukyoku Tiger (J) [p1].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=e24ea1eb3a9268142e3c40f6cdb85a9ebc7645f1
+  - asset:
+      id: 139507
+      kind: 3
+      kind_id: 14907
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Tiger%20%28Asia%29%20%28En%29%20%28FK-C4-33%29%20%28Pirate%29.png
+      format: 1
+      size: 3611
+      blob_id: 324932
+      debug: libretro-named-titles:rom-asset=14889:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Tiger%20%28Asia%29%20%28En%29%20%28FK-C4-33%29%20%28Pirate%29.png
 - release:
     id: 14908
     game_id: 14905
@@ -109,14 +129,33 @@ releases:
     kind_id: 29294
     language: 2
     name: 究极虎
+  - id: 260996
+    kind: 3
+    kind_id: 29294
+    language: 1
+    name: Kyuukyoku Tiger (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 29276
       kind: 3
       kind_id: 29294
       type: 1
-      name: 究极虎.nes
+      name: Kyuukyoku Tiger (Japan).nes
       format: 1
       size: 262160
       blob_id: 73499
-      debug: 究极虎.zip
+      debug: |-
+        究极虎.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=61d0b87e5f0c6723ba203370dcf317f8fbae7f0b
+  - asset:
+      id: 140195
+      kind: 3
+      kind_id: 29294
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Kyuukyoku%20Tiger%20%28Japan%29.png
+      format: 1
+      size: 2292
+      blob_id: 324589
+      debug: libretro-named-titles:rom-asset=29276:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Kyuukyoku%20Tiger%20%28Japan%29.png

@@ -43,32 +43,52 @@ releases:
     kind_id: 24374
     language: 1
     name: Teenage Mutant Ninja Turtles 2 (U)
+    deprecated: 1
   - id: 54394
     kind: 3
     kind_id: 24374
     language: 1
     name: "Teenage Mutant Ninja Turtles II - The Arcade Game (U) [!]"
+    deprecated: 1
   - id: 54574
     kind: 3
     kind_id: 24374
     language: 1
     name: Teenage_mutant_ninja_turtles2
+    deprecated: 1
   - id: 64623
     kind: 3
     kind_id: 24374
     language: 2
     name: "忍者龟 - 街机移植版 (美版) (动作)-Teenage Mutant Ninja Turtles II - The Arcade Game (USA)"
+  - id: 259612
+    kind: 3
+    kind_id: 24374
+    language: 1
+    name: "Teenage Mutant Ninja Turtles II - The Arcade Game (USA)"
+    source: no-intro
   assets:
   - asset:
       id: 24356
       kind: 3
       kind_id: 24374
       type: 1
-      name: Teenage Mutant Ninja Turtles 2 (U).nes
+      name: "Teenage Mutant Ninja Turtles II - The Arcade Game (USA).nes"
       format: 1
       size: 524304
       blob_id: 69643
-      debug: "Teenage Mutant Ninja Turtles 2 (U).zip\nTeenage Mutant Ninja Turtles II - The Arcade Game (U) [!].zip\nTeenage_mutant_ninja_turtles2.zip\n忍者龟 - 街机移植版 (美版) (动作)-Teenage Mutant Ninja Turtles II - The Arcade Game (USA) + Teenage Mutant Ninja Turtles II - The Arcade Game (U) [!].nes"
+      debug: "Teenage Mutant Ninja Turtles 2 (U).zip\nTeenage Mutant Ninja Turtles II - The Arcade Game (U) [!].zip\nTeenage_mutant_ninja_turtles2.zip\n忍者龟 - 街机移植版 (美版) (动作)-Teenage Mutant Ninja Turtles II - The Arcade Game (USA) + Teenage Mutant Ninja Turtles II - The Arcade Game (U) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=dee9cf8dcc91de3f9c65181a07e7e84f7570363d"
+  - asset:
+      id: 139841
+      kind: 3
+      kind_id: 24374
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Teenage%20Mutant%20Ninja%20Turtles%20II%20-%20The%20Arcade%20Game%20%28USA%29.png
+      format: 1
+      size: 1771
+      blob_id: 325214
+      debug: libretro-named-titles:rom-asset=24356:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Teenage%20Mutant%20Ninja%20Turtles%20II%20-%20The%20Arcade%20Game%20%28USA%29.png
 - release:
     id: 24386
     game_id: 24374
@@ -78,17 +98,24 @@ releases:
     kind_id: 24386
     language: 1
     name: "Teenage Mutant Ninja Turtles II - The Arcade Game (A)"
+    deprecated: 1
+  - id: 259614
+    kind: 3
+    kind_id: 24386
+    language: 1
+    name: "Teenage Mutant Ninja Turtles II - The Arcade Game (Australia)"
+    source: no-intro
   assets:
   - asset:
       id: 24368
       kind: 3
       kind_id: 24386
       type: 1
-      name: "Teenage Mutant Ninja Turtles II - The Arcade Game (A).nes"
+      name: "Teenage Mutant Ninja Turtles II - The Arcade Game (Australia).nes"
       format: 1
       size: 524304
       blob_id: 69655
-      debug: "Teenage Mutant Ninja Turtles II - The Arcade Game (A).nes"
+      debug: "Teenage Mutant Ninja Turtles II - The Arcade Game (A).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=1ac6489cbfc032caf1bb8ab114157fa9f1e5b2eb"
   - asset:
       id: 138727
       kind: 3
@@ -149,17 +176,35 @@ releases:
     kind_id: 24389
     language: 1
     name: "Teenage Mutant Ninja Turtles II - The Arcade Game (U) (Sample)"
+    deprecated: 1
+  - id: 259615
+    kind: 3
+    kind_id: 24389
+    language: 1
+    name: "Teenage Mutant Ninja Turtles II - The Arcade Game (USA) (Sample) (1990-08-02)"
+    source: no-intro
   assets:
   - asset:
       id: 24371
       kind: 3
       kind_id: 24389
       type: 1
-      name: "Teenage Mutant Ninja Turtles II - The Arcade Game (U) (Sample).nes"
+      name: "Teenage Mutant Ninja Turtles II - The Arcade Game (USA) (Sample) (1990-08-02).nes"
       format: 1
       size: 524304
       blob_id: 69658
-      debug: "Teenage Mutant Ninja Turtles II - The Arcade Game (U) (Sample).nes"
+      debug: "Teenage Mutant Ninja Turtles II - The Arcade Game (U) (Sample).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=5d5f4d2c37fd68052fbcaf6219b8a2b545e3db13"
+  - asset:
+      id: 139843
+      kind: 3
+      kind_id: 24389
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Teenage%20Mutant%20Ninja%20Turtles%20II%20-%20The%20Arcade%20Game%20%28USA%29%20%28Sample%29%20%281990-08-02%29.png
+      format: 1
+      size: 10427
+      blob_id: 325216
+      debug: libretro-named-titles:rom-asset=24371:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Teenage%20Mutant%20Ninja%20Turtles%20II%20-%20The%20Arcade%20Game%20%28USA%29%20%28Sample%29%20%281990-08-02%29.png
 - release:
     id: 24391
     game_id: 24374

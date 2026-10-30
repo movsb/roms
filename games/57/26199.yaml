@@ -7,12 +7,19 @@ names:
   kind_id: 26199
   language: 1
   name: "Xuan Yuan Jian Wai Zhuan - Zhi Tian Zhi Hen (NJ045) (Ch)"
+  deprecated: 1
 - id: 248922
   kind: 2
   kind_id: 26199
   language: 2
   name: 轩辕剑外传：天之痕
   source: codex
+- id: 262319
+  kind: 2
+  kind_id: 26199
+  language: 1
+  name: "Xuanyuan Jian Waizhuan - Zhi Tian Zhi Hen"
+  source: no-intro
 releases:
 - release:
     id: 26199
@@ -23,14 +30,32 @@ releases:
     kind_id: 26199
     language: 1
     name: "Xuan Yuan Jian Wai Zhuan - Zhi Tian Zhi Hen (NJ045) (Ch)"
+    deprecated: 1
+  - id: 259846
+    kind: 3
+    kind_id: 26199
+    language: 1
+    name: "Xuanyuan Jian Waizhuan - Zhi Tian Zhi Hen (China) (Aftermarket) (Pirate)"
+    source: no-intro
   assets:
   - asset:
       id: 26181
       kind: 3
       kind_id: 26199
       type: 1
-      name: "Xuan Yuan Jian Wai Zhuan - Zhi Tian Zhi Hen (NJ045) (Ch).nes"
+      name: "Xuanyuan Jian Waizhuan - Zhi Tian Zhi Hen (China) (Aftermarket) (Pirate).nes"
       format: 1
       size: 2097168
       blob_id: 71341
-      debug: "Xuan Yuan Jian Wai Zhuan - Zhi Tian Zhi Hen (NJ045) (Ch).nes"
+      debug: "Xuan Yuan Jian Wai Zhuan - Zhi Tian Zhi Hen (NJ045) (Ch).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=750e2dc0cd7b6687b9e4cab7a7aa9f0f83fa2863"
+  - asset:
+      id: 139905
+      kind: 3
+      kind_id: 26199
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Xuanyuan%20Jian%20Waizhuan%20-%20Zhi%20Tian%20Zhi%20Hen%20%28China%29%20%28Aftermarket%29%20%28Pirate%29.png
+      format: 1
+      size: 4729
+      blob_id: 325273
+      debug: libretro-named-titles:rom-asset=26181:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Xuanyuan%20Jian%20Waizhuan%20-%20Zhi%20Tian%20Zhi%20Hen%20%28China%29%20%28Aftermarket%29%20%28Pirate%29.png

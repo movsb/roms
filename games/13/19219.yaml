@@ -7,12 +7,19 @@ names:
   kind_id: 19219
   language: 1
   name: PowerJoy 84-in-1 Split Game 80-Wisdom [p1]
+  deprecated: 1
 - id: 249391
   kind: 2
   kind_id: 19219
   language: 2
   name: PowerJoy 84合1：智慧方块
   source: codex
+- id: 262011
+  kind: 2
+  kind_id: 19219
+  language: 1
+  name: "Dou Zhi Pinpan - Wisdom Boy"
+  source: no-intro
 releases:
 - release:
     id: 19219
@@ -23,14 +30,23 @@ releases:
     kind_id: 19219
     language: 1
     name: PowerJoy 84-in-1 Split Game 80-Wisdom [p1]
+    deprecated: 1
+  - id: 259086
+    kind: 3
+    kind_id: 19219
+    language: 1
+    name: "Dou Zhi Pinpan - Wisdom Boy (Asia) (Pirate)"
+    source: no-intro
   assets:
   - asset:
       id: 19201
       kind: 3
       kind_id: 19219
       type: 1
-      name: PowerJoy 84-in-1 Split Game 80-Wisdom [p1].nes
+      name: "Dou Zhi Pinpan - Wisdom Boy (Asia) (Pirate).nes"
       format: 1
       size: 65552
       blob_id: 64727
-      debug: PowerJoy 84-in-1 Split Game 80-Wisdom [p1].nes
+      debug: |-
+        PowerJoy 84-in-1 Split Game 80-Wisdom [p1].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=72c0e389c513e92304eacbf2fed7bca9c6f1141f

@@ -7,6 +7,7 @@ names:
   kind_id: 12435
   language: 1
   name: GolfGrandSlam
+  deprecated: 1
 - id: 71627
   kind: 2
   kind_id: 12435
@@ -17,11 +18,18 @@ names:
   kind_id: 12435
   language: 1
   name: Golf Grand Slam (U) [!]
+  deprecated: 1
 - id: 91995
   kind: 2
   kind_id: 12435
   language: 1
   name: Golf Grand Slam
+- id: 261753
+  kind: 2
+  kind_id: 12435
+  language: 1
+  name: Golf Grand Slam
+  source: no-intro
 releases:
 - release:
     id: 12435
@@ -32,24 +40,32 @@ releases:
     kind_id: 12435
     language: 1
     name: Golf Grand Slam (U) [!]
+    deprecated: 1
   - id: 71629
     kind: 3
     kind_id: 12435
     language: 2
     name: 高尔夫大满贯 (美版) (运动)-Golf Grand Slam (USA)
+  - id: 258347
+    kind: 3
+    kind_id: 12435
+    language: 1
+    name: Golf Grand Slam (USA)
+    source: no-intro
   assets:
   - asset:
       id: 12417
       kind: 3
       kind_id: 12435
       type: 1
-      name: Golf Grand Slam (U) [!].nes
+      name: Golf Grand Slam (USA).nes
       format: 1
       size: 262160
       blob_id: 58332
       debug: |-
         Golf Grand Slam (U) [!].zip
         高尔夫大满贯 (美版) (运动)-Golf Grand Slam (USA) + Golf Grand Slam (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=b5f64e766f3fd5c4dec2673da83e111782daf0b1
   - asset:
       id: 136939
       kind: 3
@@ -70,24 +86,33 @@ releases:
     kind_id: 12440
     language: 1
     name: Golf Grand Slam (U)
+    deprecated: 1
   - id: 27298
     kind: 3
     kind_id: 12440
     language: 1
     name: GolfGrandSlam
+    deprecated: 1
+  - id: 258348
+    kind: 3
+    kind_id: 12440
+    language: 1
+    name: Golf Grand Slam (USA)
+    source: no-intro
   assets:
   - asset:
       id: 12422
       kind: 3
       kind_id: 12440
       type: 1
-      name: Golf Grand Slam (U).nes
+      name: Golf Grand Slam (USA).nes
       format: 1
       size: 262160
       blob_id: 58337
       debug: |-
         Golf Grand Slam (U).zip
         GolfGrandSlam.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=b5f64e766f3fd5c4dec2673da83e111782daf0b1
   - asset:
       id: 138507
       kind: 3

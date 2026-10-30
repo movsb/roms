@@ -7,12 +7,19 @@ names:
   kind_id: 9705
   language: 1
   name: Dian Shi Ma Li
+  deprecated: 1
 - id: 249111
   kind: 2
   kind_id: 9705
   language: 2
   name: 电视玛丽
   source: codex
+- id: 261640
+  kind: 2
+  kind_id: 9705
+  language: 1
+  name: "Dianshi Mali - Big TV Mary Bar"
+  source: no-intro
 releases:
 - release:
     id: 9705
@@ -23,17 +30,26 @@ releases:
     kind_id: 9705
     language: 1
     name: Dian Shi Ma Li (Ch) [!]
+    deprecated: 1
+  - id: 258013
+    kind: 3
+    kind_id: 9705
+    language: 1
+    name: "Dianshi Mali - Big TV Mary Bar (Taiwan) (En) (Pirate)"
+    source: no-intro
   assets:
   - asset:
       id: 9687
       kind: 3
       kind_id: 9705
       type: 1
-      name: Dian Shi Ma Li (Ch) [!].nes
+      name: "Dianshi Mali - Big TV Mary Bar (Taiwan) (En) (Pirate).nes"
       format: 1
       size: 65552
       blob_id: 55767
-      debug: Dian Shi Ma Li (Ch) [!].nes
+      debug: |-
+        Dian Shi Ma Li (Ch) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=2e4b52383afcc15c3b29838a67d4640925c60aa6
   - asset:
       id: 136809
       kind: 3

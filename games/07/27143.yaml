@@ -50,14 +50,34 @@ releases:
     kind_id: 27144
     language: 1
     name: Mashin Eiyuu Den Wataru Gaiden (J) [T+Chi_Waxing]
+    deprecated: 1
+  - id: 260132
+    kind: 3
+    kind_id: 27144
+    language: 1
+    name: Chuangshiji Yingxiong (China) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 27126
       kind: 3
       kind_id: 27144
       type: 1
-      name: 创世纪英雄[外星科技汉化] + Mashin Eiyuu Den Wataru Gaiden (J) [T+Chi_Waxing].nes
+      name: Chuangshiji Yingxiong (China) (Pirate).nes
       format: 1
       size: 524304
       blob_id: 72089
-      debug: 创世纪英雄[外星科技汉化] + Mashin Eiyuu Den Wataru Gaiden (J) [T+Chi_Waxing].nes
+      debug: |-
+        创世纪英雄[外星科技汉化] + Mashin Eiyuu Den Wataru Gaiden (J) [T+Chi_Waxing].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=054b4a90e66d28797ae8309f3515e4b074efd07e
+  - asset:
+      id: 140019
+      kind: 3
+      kind_id: 27144
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Chuangshiji%20Yingxiong%20%28China%29%20%28Pirate%29.png
+      format: 1
+      size: 2496
+      blob_id: 325366
+      debug: libretro-named-titles:rom-asset=27126:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Chuangshiji%20Yingxiong%20%28China%29%20%28Pirate%29.png

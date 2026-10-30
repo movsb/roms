@@ -12,6 +12,13 @@ names:
   kind_id: 27495
   language: 1
   name: Bible Adventures (Wisdom Tree) (V1.0)
+  deprecated: 1
+- id: 262676
+  kind: 2
+  kind_id: 27495
+  language: 1
+  name: Bible Adventures
+  source: no-intro
 releases:
 - release:
     id: 27495
@@ -27,14 +34,34 @@ releases:
     kind_id: 27495
     language: 1
     name: Bible Adventures (Wisdom Tree) (V1.0)
+    deprecated: 1
+  - id: 260276
+    kind: 3
+    kind_id: 27495
+    language: 1
+    name: Bible Adventures (USA) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 27477
       kind: 3
       kind_id: 27495
       type: 1
-      name: 圣经大冒险 + Bible Adventures (Wisdom Tree) (V1.0).nes
+      name: Bible Adventures (USA) (Unl).nes
       format: 1
       size: 131088
       blob_id: 72327
-      debug: 圣经大冒险 + Bible Adventures (Wisdom Tree) (V1.0).nes
+      debug: |-
+        圣经大冒险 + Bible Adventures (Wisdom Tree) (V1.0).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=cc61d76fd73fd6fe66c068c5b806988af78dca25
+  - asset:
+      id: 140048
+      kind: 3
+      kind_id: 27495
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Bible%20Adventures%20%28USA%29%20%28Unl%29.png
+      format: 1
+      size: 2703
+      blob_id: 325392
+      debug: libretro-named-titles:rom-asset=27477:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Bible%20Adventures%20%28USA%29%20%28Unl%29.png

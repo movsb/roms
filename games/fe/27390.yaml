@@ -12,6 +12,13 @@ names:
   kind_id: 27390
   language: 1
   name: "Mei Tantei Holmes - Kiri no London Satsujin Jiken (J)"
+  deprecated: 1
+- id: 262637
+  kind: 2
+  kind_id: 27390
+  language: 1
+  name: "Meitantei Holmes - Kiri no London Satsujin Jiken"
+  source: no-intro
 releases:
 - release:
     id: 27390
@@ -27,14 +34,32 @@ releases:
     kind_id: 27390
     language: 1
     name: "Mei Tantei Holmes - Kiri no London Satsujin Jiken (J)"
+    deprecated: 1
+  - id: 260230
+    kind: 3
+    kind_id: 27390
+    language: 1
+    name: "Meitantei Holmes - Kiri no London Satsujin Jiken (Japan)"
+    source: no-intro
   assets:
   - asset:
       id: 27372
       kind: 3
       kind_id: 27390
       type: 1
-      name: "名侦探霍姆斯 - 雾之伦敦杀人事件 (日版) (解谜)-Meitantei Holmes - Kiri no London Satsujin Jiken (Japan) + Mei Tantei Holmes - Kiri no London Satsujin Jiken (J).nes"
+      name: "Meitantei Holmes - Kiri no London Satsujin Jiken (Japan).nes"
       format: 1
       size: 262160
       blob_id: 72251
-      debug: "名侦探霍姆斯 - 雾之伦敦杀人事件 (日版) (解谜)-Meitantei Holmes - Kiri no London Satsujin Jiken (Japan) + Mei Tantei Holmes - Kiri no London Satsujin Jiken (J).nes"
+      debug: "名侦探霍姆斯 - 雾之伦敦杀人事件 (日版) (解谜)-Meitantei Holmes - Kiri no London Satsujin Jiken (Japan) + Mei Tantei Holmes - Kiri no London Satsujin Jiken (J).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=3070ae548a4cf11be2b21f1c05746e186b29c7a7"
+  - asset:
+      id: 140038
+      kind: 3
+      kind_id: 27390
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Meitantei%20Holmes%20-%20Kiri%20no%20London%20Satsujin%20Jiken%20%28Japan%29.png
+      format: 1
+      size: 2294
+      blob_id: 325383
+      debug: libretro-named-titles:rom-asset=27372:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Meitantei%20Holmes%20-%20Kiri%20no%20London%20Satsujin%20Jiken%20%28Japan%29.png

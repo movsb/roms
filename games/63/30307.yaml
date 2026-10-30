@@ -12,6 +12,13 @@ names:
   kind_id: 30307
   language: 1
   name: Magic Candle, The (J)
+  deprecated: 1
+- id: 263688
+  kind: 2
+  kind_id: 30307
+  language: 1
+  name: Magic Candle, The
+  source: no-intro
 releases:
 - release:
     id: 30307
@@ -27,17 +34,26 @@ releases:
     kind_id: 30307
     language: 1
     name: Magic Candle, The (J)
+    deprecated: 1
+  - id: 261389
+    kind: 3
+    kind_id: 30307
+    language: 1
+    name: Magic Candle, The (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 30289
       kind: 3
       kind_id: 30307
       type: 1
-      name: 魔法之烛 (日版) (角色扮演)-Magic Candle, The (Japan) + Magic Candle, The (J).nes
+      name: Magic Candle, The (Japan).nes
       format: 1
       size: 393232
       blob_id: 74128
-      debug: 魔法之烛 (日版) (角色扮演)-Magic Candle, The (Japan) + Magic Candle, The (J).nes
+      debug: |-
+        魔法之烛 (日版) (角色扮演)-Magic Candle, The (Japan) + Magic Candle, The (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=bd564d7c6b1c5ca9e81a531489a146523a1e2fce
   - asset:
       id: 139260
       kind: 3

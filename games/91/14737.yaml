@@ -23,17 +23,37 @@ releases:
     kind_id: 14737
     language: 1
     name: Korean Igo (Unl) [!]
+    deprecated: 1
+  - id: 258594
+    kind: 3
+    kind_id: 14737
+    language: 1
+    name: Korean Igo (Korea) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 14719
       kind: 3
       kind_id: 14737
       type: 1
-      name: Korean Igo (Unl) [!].nes
+      name: Korean Igo (Korea) (Unl).nes
       format: 1
       size: 147472
       blob_id: 60484
-      debug: Korean Igo (Unl) [!].nes
+      debug: |-
+        Korean Igo (Unl) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=b3fb53931d34cdb41efc2677cf7b949b2b84d616
+  - asset:
+      id: 139504
+      kind: 3
+      kind_id: 14737
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Korean%20Igo%20%28Korea%29%20%28Unl%29.png
+      format: 1
+      size: 2714
+      blob_id: 324702
+      debug: libretro-named-titles:rom-asset=14719:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Korean%20Igo%20%28Korea%29%20%28Unl%29.png
 - release:
     id: 14738
     game_id: 14737

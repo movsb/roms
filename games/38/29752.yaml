@@ -12,6 +12,13 @@ names:
   kind_id: 29752
   language: 1
   name: Superman (U) (Prototype) [!]
+  deprecated: 1
+- id: 263487
+  kind: 2
+  kind_id: 29752
+  language: 1
+  name: Superman
+  source: no-intro
 releases:
 - release:
     id: 29752
@@ -27,14 +34,34 @@ releases:
     kind_id: 29752
     language: 1
     name: Superman (U) (Prototype) [!]
+    deprecated: 1
+  - id: 261172
+    kind: 3
+    kind_id: 29752
+    language: 1
+    name: Superman (USA) (Proto) (Sunsoft)
+    source: no-intro
   assets:
   - asset:
       id: 29734
       kind: 3
       kind_id: 29752
       type: 1
-      name: 超人 (美版)(Proto) (动作)-Superman (USA) (Proto) + Superman (U) (Prototype) [!].nes
+      name: Superman (USA) (Proto) (Sunsoft).nes
       format: 1
       size: 262160
       blob_id: 73778
-      debug: 超人 (美版)(Proto) (动作)-Superman (USA) (Proto) + Superman (U) (Prototype) [!].nes
+      debug: |-
+        超人 (美版)(Proto) (动作)-Superman (USA) (Proto) + Superman (U) (Prototype) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=c1788b2d33027e39cc1f581a00fd7a9238c0ea4b
+  - asset:
+      id: 140226
+      kind: 3
+      kind_id: 29752
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Superman%20%28USA%29%20%28Proto%29%20%28Sunsoft%29.png
+      format: 1
+      size: 6663
+      blob_id: 325545
+      debug: libretro-named-titles:rom-asset=29734:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Superman%20%28USA%29%20%28Proto%29%20%28Sunsoft%29.png

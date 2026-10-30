@@ -7,12 +7,19 @@ names:
   kind_id: 25007
   language: 1
   name: Tombs and Treasure (U)
+  deprecated: 1
 - id: 248791
   kind: 2
   kind_id: 25007
   language: 2
   name: 墓穴与宝藏
   source: codex
+- id: 262250
+  kind: 2
+  kind_id: 25007
+  language: 1
+  name: Tombs & Treasure
+  source: no-intro
 releases:
 - release:
     id: 25007
@@ -23,14 +30,34 @@ releases:
     kind_id: 25007
     language: 1
     name: Tombs and Treasure (U)
+    deprecated: 1
+  - id: 259680
+    kind: 3
+    kind_id: 25007
+    language: 1
+    name: Tombs & Treasure (USA)
+    source: no-intro
   assets:
   - asset:
       id: 24989
       kind: 3
       kind_id: 25007
       type: 1
-      name: Tombs and Treasure (U).nes
+      name: Tombs & Treasure (USA).nes
       format: 1
       size: 262160
       blob_id: 70239
-      debug: Tombs and Treasure (U).zip
+      debug: |-
+        Tombs and Treasure (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=ea2187d4f7a15734f6b5a855421c635f298aae9e
+  - asset:
+      id: 139857
+      kind: 3
+      kind_id: 25007
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Tombs%20_%20Treasure%20%28USA%29.png
+      format: 1
+      size: 3214
+      blob_id: 325229
+      debug: libretro-named-titles:rom-asset=24989:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Tombs%20_%20Treasure%20%28USA%29.png

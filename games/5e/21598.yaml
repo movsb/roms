@@ -22,17 +22,26 @@ releases:
     kind_id: 21598
     language: 1
     name: Somari (SOMARI-P) (NT-616) (Unl) [!]
+    deprecated: 1
+  - id: 259371
+    kind: 3
+    kind_id: 21598
+    language: 1
+    name: Somari (Taiwan) (En) (v1.1) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 21580
       kind: 3
       kind_id: 21598
       type: 1
-      name: Somari (SOMARI-P) (NT-616) (Unl) [!].nes
+      name: Somari (Taiwan) (En) (v1.1) (Pirate).nes
       format: 1
       size: 524304
       blob_id: 66975
-      debug: Somari (SOMARI-P) (NT-616) (Unl) [!].nes
+      debug: |-
+        Somari (SOMARI-P) (NT-616) (Unl) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=5a91f54a6ff44762d98fc8d8974909d298eb52a8
 - release:
     id: 21599
     game_id: 21598
@@ -42,17 +51,26 @@ releases:
     kind_id: 21599
     language: 1
     name: Somari (SOMARI-W) (Unl) [!]
+    deprecated: 1
+  - id: 259372
+    kind: 3
+    kind_id: 21599
+    language: 1
+    name: Somari (Taiwan) (En) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 21581
       kind: 3
       kind_id: 21599
       type: 1
-      name: Somari (SOMARI-W) (Unl) [!].nes
+      name: Somari (Taiwan) (En) (Pirate).nes
       format: 1
       size: 524304
       blob_id: 66976
-      debug: Somari (SOMARI-W) (Unl) [!].nes
+      debug: |-
+        Somari (SOMARI-W) (Unl) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=e41f3fc1f9d334ab2d1672776b53452bf6b64871
 - release:
     id: 21608
     game_id: 21598
@@ -62,23 +80,31 @@ releases:
     kind_id: 21608
     language: 1
     name: Somari (Unl) [p1]
+    deprecated: 1
   - id: 48114
     kind: 3
     kind_id: 21608
     language: 1
     name: Somari (Unl)
+    deprecated: 1
   - id: 71406
     kind: 3
     kind_id: 21608
     language: 2
     name: 音速小子5代马里奥版
+  - id: 259373
+    kind: 3
+    kind_id: 21608
+    language: 1
+    name: Somari (Asia) (En) (NT-616) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 21590
       kind: 3
       kind_id: 21608
       type: 1
-      name: Somari (Unl) [p1].nes
+      name: Somari (Asia) (En) (NT-616) (Pirate).nes
       format: 1
       size: 524304
       blob_id: 66985
@@ -86,6 +112,18 @@ releases:
         Somari (Unl) [p1].nes
         Somari (Unl).zip
         音速小子5代马里奥版.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=b735c1fc25cede37345dc5a133814ee509cb8ccd
+  - asset:
+      id: 139762
+      kind: 3
+      kind_id: 21608
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Somari%20%28Asia%29%20%28En%29%20%28NT-616%29%20%28Pirate%29.png
+      format: 1
+      size: 11098
+      blob_id: 325141
+      debug: libretro-named-titles:rom-asset=21590:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Somari%20%28Asia%29%20%28En%29%20%28NT-616%29%20%28Pirate%29.png
 - release:
     id: 21609
     game_id: 21598

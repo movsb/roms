@@ -12,11 +12,18 @@ names:
   kind_id: 19824
   language: 1
   name: Remote Control (U) [!]
+  deprecated: 1
 - id: 92845
   kind: 2
   kind_id: 19824
   language: 1
   name: Remote Control
+- id: 262048
+  kind: 2
+  kind_id: 19824
+  language: 1
+  name: Remote Control
+  source: no-intro
 releases:
 - release:
     id: 19824
@@ -27,22 +34,29 @@ releases:
     kind_id: 19824
     language: 1
     name: Remote Control (U) [!]
+    deprecated: 1
   - id: 68003
     kind: 3
     kind_id: 19824
     language: 2
     name: "电视问答游戏 - 遥控 (美版) (益智)-Remote Control (USA)"
+  - id: 259165
+    kind: 3
+    kind_id: 19824
+    language: 1
+    name: Remote Control (USA)
+    source: no-intro
   assets:
   - asset:
       id: 19806
       kind: 3
       kind_id: 19824
       type: 1
-      name: Remote Control (U) [!].nes
+      name: Remote Control (USA).nes
       format: 1
       size: 262160
       blob_id: 65293
-      debug: "Remote Control (U) [!].zip\n电视问答游戏 - 遥控 (美版) (益智)-Remote Control (USA) + Remote Control (U) [!].nes"
+      debug: "Remote Control (U) [!].zip\n电视问答游戏 - 遥控 (美版) (益智)-Remote Control (USA) + Remote Control (U) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=9134c3c0d9aa8341a00872fb22e028e2c0df5d27"
   - asset:
       id: 137240
       kind: 3
@@ -63,17 +77,26 @@ releases:
     kind_id: 19829
     language: 1
     name: Remote Control (U)
+    deprecated: 1
+  - id: 259166
+    kind: 3
+    kind_id: 19829
+    language: 1
+    name: Remote Control (USA)
+    source: no-intro
   assets:
   - asset:
       id: 19811
       kind: 3
       kind_id: 19829
       type: 1
-      name: Remote Control (U).nes
+      name: Remote Control (USA).nes
       format: 1
       size: 262160
       blob_id: 65298
-      debug: Remote Control (U).zip
+      debug: |-
+        Remote Control (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=9134c3c0d9aa8341a00872fb22e028e2c0df5d27
   - asset:
       id: 138647
       kind: 3

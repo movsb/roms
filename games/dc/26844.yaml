@@ -12,6 +12,13 @@ names:
   kind_id: 26844
   language: 1
   name: Karaoke Studio Senyou Cassette Vol 1 (J)
+  deprecated: 1
+- id: 262434
+  kind: 2
+  kind_id: 26844
+  language: 1
+  name: "Karaoke Studio Senyou Cassette - Top Hit 20 Vol. 1"
+  source: no-intro
 releases:
 - release:
     id: 26844
@@ -27,14 +34,32 @@ releases:
     kind_id: 26844
     language: 1
     name: Karaoke Studio Senyou Cassette Vol 1 (J)
+    deprecated: 1
+  - id: 260012
+    kind: 3
+    kind_id: 26844
+    language: 1
+    name: "Karaoke Studio Senyou Cassette - Top Hit 20 Vol. 1 (Japan)"
+    source: no-intro
   assets:
   - asset:
       id: 26826
       kind: 3
       kind_id: 26844
       type: 1
-      name: "任天堂卡拉ＯＫ - 卡拉ＯＫ伴唱带 I (日版) (其他)-Karaoke Studio Senyou Cassette Vol. 1 (Japan) + Karaoke Studio Senyou Cassette Vol 1 (J).nes"
+      name: "Karaoke Studio Senyou Cassette - Top Hit 20 Vol. 1 (Japan).nes"
       format: 1
       size: 262160
       blob_id: 71890
-      debug: "任天堂卡拉ＯＫ - 卡拉ＯＫ伴唱带 I (日版) (其他)-Karaoke Studio Senyou Cassette Vol. 1 (Japan) + Karaoke Studio Senyou Cassette Vol 1 (J).nes"
+      debug: "任天堂卡拉ＯＫ - 卡拉ＯＫ伴唱带 I (日版) (其他)-Karaoke Studio Senyou Cassette Vol. 1 (Japan) + Karaoke Studio Senyou Cassette Vol 1 (J).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=153cf8e6d76a5d2de991c3c01fc966efe2e0ae7f"
+  - asset:
+      id: 139985
+      kind: 3
+      kind_id: 26844
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Karaoke%20Studio%20Senyou%20Cassette%20-%20Top%20Hit%2020%20Vol.%201%20%28Japan%29.png
+      format: 1
+      size: 3413
+      blob_id: 325337
+      debug: libretro-named-titles:rom-asset=26826:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Karaoke%20Studio%20Senyou%20Cassette%20-%20Top%20Hit%2020%20Vol.%201%20%28Japan%29.png

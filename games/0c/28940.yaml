@@ -12,6 +12,13 @@ names:
   kind_id: 28940
   language: 1
   name: "Honoo no Doukyuuji - Dodge Danpei 2 (J)"
+  deprecated: 1
+- id: 263203
+  kind: 2
+  kind_id: 28940
+  language: 1
+  name: "Honoo no Toukyuuji - Dodge Danpei 2"
+  source: no-intro
 releases:
 - release:
     id: 28940
@@ -27,14 +34,32 @@ releases:
     kind_id: 28940
     language: 1
     name: "Honoo no Doukyuuji - Dodge Danpei 2 (J)"
+    deprecated: 1
+  - id: 260865
+    kind: 3
+    kind_id: 28940
+    language: 1
+    name: "Honoo no Toukyuuji - Dodge Danpei 2 (Japan)"
+    source: no-intro
   assets:
   - asset:
       id: 28922
       kind: 3
       kind_id: 28940
       type: 1
-      name: "火焰斗球儿 - 躲避球弹平 II (日版) (角色扮演)-Honoo no Doukyuuji - Dodge Danpei 2 (Japan) + Honoo no Doukyuuji - Dodge Danpei 2 (J).nes"
+      name: "Honoo no Toukyuuji - Dodge Danpei 2 (Japan).nes"
       format: 1
       size: 524304
       blob_id: 73273
-      debug: "火焰斗球儿 - 躲避球弹平 II (日版) (角色扮演)-Honoo no Doukyuuji - Dodge Danpei 2 (Japan) + Honoo no Doukyuuji - Dodge Danpei 2 (J).nes"
+      debug: "火焰斗球儿 - 躲避球弹平 II (日版) (角色扮演)-Honoo no Doukyuuji - Dodge Danpei 2 (Japan) + Honoo no Doukyuuji - Dodge Danpei 2 (J).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=eb57555ee85606ff4974b37fbb5bcc6747bd2fee"
+  - asset:
+      id: 140168
+      kind: 3
+      kind_id: 28940
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Honoo%20no%20Toukyuuji%20-%20Dodge%20Danpei%202%20%28Japan%29.png
+      format: 1
+      size: 2392
+      blob_id: 325493
+      debug: libretro-named-titles:rom-asset=28922:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Honoo%20no%20Toukyuuji%20-%20Dodge%20Danpei%202%20%28Japan%29.png

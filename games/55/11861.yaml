@@ -7,12 +7,19 @@ names:
   kind_id: 11861
   language: 1
   name: Fortuna (R) [!]
+  deprecated: 1
 - id: 249168
   kind: 2
   kind_id: 11861
   language: 2
   name: 幸运
   source: codex
+- id: 261719
+  kind: 2
+  kind_id: 11861
+  language: 1
+  name: Fortuna
+  source: no-intro
 releases:
 - release:
     id: 11861
@@ -23,17 +30,26 @@ releases:
     kind_id: 11861
     language: 1
     name: Fortuna (R) [!]
+    deprecated: 1
+  - id: 258261
+    kind: 3
+    kind_id: 11861
+    language: 1
+    name: Fortuna (Russia) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 11843
       kind: 3
       kind_id: 11861
       type: 1
-      name: Fortuna (R) [!].nes
+      name: Fortuna (Russia) (Unl).nes
       format: 1
       size: 40976
       blob_id: 57795
-      debug: Fortuna (R) [!].nes
+      debug: |-
+        Fortuna (R) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=76494405eee01628338aa8efc5508e58d49eabb5
   - asset:
       id: 136905
       kind: 3

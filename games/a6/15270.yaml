@@ -7,11 +7,18 @@ names:
   kind_id: 15270
   language: 1
   name: Little Red Hood (Sachen-HES) [!]
+  deprecated: 1
 - id: 63657
   kind: 2
   kind_id: 15270
   language: 2
   name: 小红帽 (澳洲版) (动作)-Little Red Hood (Unl)
+- id: 261860
+  kind: 2
+  kind_id: 15270
+  language: 1
+  name: Little Red Hood
+  source: no-intro
 releases:
 - release:
     id: 15270
@@ -22,24 +29,32 @@ releases:
     kind_id: 15270
     language: 1
     name: Little Red Hood (Sachen-HES) [!]
+    deprecated: 1
   - id: 63659
     kind: 3
     kind_id: 15270
     language: 2
     name: 小红帽 (澳洲版) (动作)-Little Red Hood (Australia) (Unl)
+  - id: 258665
+    kind: 3
+    kind_id: 15270
+    language: 1
+    name: Little Red Hood (Europe) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 15252
       kind: 3
       kind_id: 15270
       type: 1
-      name: Little Red Hood (Sachen-HES) [!].nes
+      name: Little Red Hood (Europe) (Unl).nes
       format: 1
       size: 40976
       blob_id: 60978
       debug: |-
         Little Red Hood (Sachen-HES) [!].zip
         小红帽 (澳洲版) (动作)-Little Red Hood (Australia) (Unl) + Little Red Hood (Sachen-HES) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=fa1c3508673f0b7050a982597923f53991a31093
   - asset:
       id: 137063
       kind: 3

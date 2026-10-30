@@ -8,17 +8,25 @@ names:
   kind_id: 22109
   language: 1
   name: Street Fighter IV (Unl)
+  deprecated: 1
 - id: 49273
   kind: 2
   kind_id: 22109
   language: 1
   name: Street Fighter Ⅳ (Unl) (Gouder)
+  deprecated: 1
 - id: 248639
   kind: 2
   kind_id: 22109
   language: 2
   name: 街头霸王4
   source: codex
+- id: 262160
+  kind: 2
+  kind_id: 22109
+  language: 1
+  name: "Kuai Da Chuanshuo - Street Fighter IV"
+  source: no-intro
 releases:
 - release:
     id: 22109
@@ -29,21 +37,30 @@ releases:
     kind_id: 22109
     language: 1
     name: Street Fighter IV (Unl)
+    deprecated: 1
   - id: 49275
     kind: 3
     kind_id: 22109
     language: 1
     name: Street Fighter Ⅳ (Unl) (Gouder)
+    deprecated: 1
+  - id: 259439
+    kind: 3
+    kind_id: 22109
+    language: 1
+    name: "Kuai Da Chuanshuo - Street Fighter IV (Taiwan) (En) (Unl)"
+    source: no-intro
   assets:
   - asset:
       id: 22091
       kind: 3
       kind_id: 22109
       type: 1
-      name: Street Fighter IV (Unl).nes
+      name: "Kuai Da Chuanshuo - Street Fighter IV (Taiwan) (En) (Unl).nes"
       format: 1
       size: 393232
       blob_id: 67451
       debug: |-
         Street Fighter IV (Unl).zip
         Street Fighter Ⅳ (Unl) (Gouder) + Street Fighter IV (Unl).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=d565a9c2b117447c310e4f59e4afc30df299ea4f

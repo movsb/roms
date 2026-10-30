@@ -12,6 +12,13 @@ names:
   kind_id: 27694
   language: 1
   name: Tian Long Ba Bu (NJ035) (Ch)
+  deprecated: 1
+- id: 262735
+  kind: 2
+  kind_id: 27694
+  language: 1
+  name: Tianlong Ba Bu
+  source: no-intro
 releases:
 - release:
     id: 27694
@@ -27,14 +34,34 @@ releases:
     kind_id: 27694
     language: 1
     name: Tian Long Ba Bu (NJ035) (Ch)
+    deprecated: 1
+  - id: 260340
+    kind: 3
+    kind_id: 27694
+    language: 1
+    name: Tianlong Ba Bu (China) (Aftermarket) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 27676
       kind: 3
       kind_id: 27694
       type: 1
-      name: 天龙八部[南晶科技] + Tian Long Ba Bu (NJ035) (Ch).nes
+      name: Tianlong Ba Bu (China) (Aftermarket) (Unl).nes
       format: 1
       size: 1048592
       blob_id: 72457
-      debug: 天龙八部[南晶科技] + Tian Long Ba Bu (NJ035) (Ch).nes
+      debug: |-
+        天龙八部[南晶科技] + Tian Long Ba Bu (NJ035) (Ch).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=e7bda9278fa3b573044da6bef51d6d67c99713f9
+  - asset:
+      id: 140063
+      kind: 3
+      kind_id: 27694
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Tianlong%20Ba%20Bu%20%28China%29%20%28Aftermarket%29%20%28Unl%29.png
+      format: 1
+      size: 7939
+      blob_id: 325404
+      debug: libretro-named-titles:rom-asset=27676:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Tianlong%20Ba%20Bu%20%28China%29%20%28Aftermarket%29%20%28Unl%29.png

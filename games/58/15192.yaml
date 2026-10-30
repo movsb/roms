@@ -7,12 +7,19 @@ names:
   kind_id: 15192
   language: 1
   name: Lion King Legeng, The (Ch)
+  deprecated: 1
 - id: 248085
   kind: 2
   kind_id: 15192
   language: 2
   name: 狮子王传奇
   source: codex
+- id: 261857
+  kind: 2
+  kind_id: 15192
+  language: 1
+  name: Lion King Legeng, The
+  source: no-intro
 releases:
 - release:
     id: 15192
@@ -23,14 +30,34 @@ releases:
     kind_id: 15192
     language: 1
     name: Lion King Legeng, The (Ch)
+    deprecated: 1
+  - id: 258653
+    kind: 3
+    kind_id: 15192
+    language: 1
+    name: Lion King Legeng, The (China) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 15174
       kind: 3
       kind_id: 15192
       type: 1
-      name: Lion King Legeng, The (Ch).nes
+      name: Lion King Legeng, The (China) (Pirate).nes
       format: 1
       size: 524304
       blob_id: 60908
-      debug: Lion King Legeng, The (Ch).nes
+      debug: |-
+        Lion King Legeng, The (Ch).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=0752c330f20a4c882dc6dc3c8ef4da5a604d3645
+  - asset:
+      id: 139522
+      kind: 3
+      kind_id: 15192
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Lion%20King%20Legeng%2C%20The%20%28China%29%20%28Pirate%29.png
+      format: 1
+      size: 7916
+      blob_id: 324945
+      debug: libretro-named-titles:rom-asset=15174:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Lion%20King%20Legeng%2C%20The%20%28China%29%20%28Pirate%29.png

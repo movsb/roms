@@ -12,11 +12,18 @@ names:
   kind_id: 12898
   language: 1
   name: Harlem Globetrotters (U) [!]
+  deprecated: 1
 - id: 92047
   kind: 2
   kind_id: 12898
   language: 1
   name: Harlem Globetrotters
+- id: 261764
+  kind: 2
+  kind_id: 12898
+  language: 1
+  name: Harlem Globetrotters
+  source: no-intro
 releases:
 - release:
     id: 12898
@@ -27,24 +34,32 @@ releases:
     kind_id: 12898
     language: 1
     name: Harlem Globetrotters (U) [!]
+    deprecated: 1
   - id: 62121
     kind: 3
     kind_id: 12898
     language: 2
     name: 哈林篮球队 (美版) (运动)-Harlem Globetrotters (USA)
+  - id: 258391
+    kind: 3
+    kind_id: 12898
+    language: 1
+    name: Harlem Globetrotters (USA)
+    source: no-intro
   assets:
   - asset:
       id: 12880
       kind: 3
       kind_id: 12898
       type: 1
-      name: Harlem Globetrotters (U) [!].nes
+      name: Harlem Globetrotters (USA).nes
       format: 1
       size: 262160
       blob_id: 58781
       debug: |-
         Harlem Globetrotters (U) [!].zip
         哈林篮球队 (美版) (运动)-Harlem Globetrotters (USA) + Harlem Globetrotters (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=6bf4a9bf5eb2f512182a69073f42c09333473d38
   - asset:
       id: 136952
       kind: 3
@@ -65,17 +80,26 @@ releases:
     kind_id: 12904
     language: 1
     name: Harlem Globetrotters (U)
+    deprecated: 1
+  - id: 258392
+    kind: 3
+    kind_id: 12904
+    language: 1
+    name: Harlem Globetrotters (USA)
+    source: no-intro
   assets:
   - asset:
       id: 12886
       kind: 3
       kind_id: 12904
       type: 1
-      name: Harlem Globetrotters (U).nes
+      name: Harlem Globetrotters (USA).nes
       format: 1
       size: 262160
       blob_id: 58787
-      debug: Harlem Globetrotters (U).zip
+      debug: |-
+        Harlem Globetrotters (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=6bf4a9bf5eb2f512182a69073f42c09333473d38
   - asset:
       id: 138519
       kind: 3

@@ -170,24 +170,32 @@ releases:
     kind_id: 21872
     language: 1
     name: Star Force (U) [!]
+    deprecated: 1
   - id: 65773
     kind: 3
     kind_id: 21872
     language: 2
     name: 星际武装战机 (美版) (射击)-Star Force (USA)
+  - id: 259400
+    kind: 3
+    kind_id: 21872
+    language: 1
+    name: Star Force (USA)
+    source: no-intro
   assets:
   - asset:
       id: 21854
       kind: 3
       kind_id: 21872
       type: 1
-      name: Star Force (U) [!].nes
+      name: Star Force (USA).nes
       format: 1
       size: 65552
       blob_id: 67232
       debug: |-
         Star Force (U) [!].zip
         星际武装战机 (美版) (射击)-Star Force (USA) + Star Force (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=164f251a952776a3500e84d99186120f44d6f100
   - asset:
       id: 138699
       kind: 3
@@ -228,17 +236,26 @@ releases:
     kind_id: 21877
     language: 1
     name: Star Force (U)
+    deprecated: 1
+  - id: 259401
+    kind: 3
+    kind_id: 21877
+    language: 1
+    name: Star Force (USA)
+    source: no-intro
   assets:
   - asset:
       id: 21859
       kind: 3
       kind_id: 21877
       type: 1
-      name: Star Force (U).nes
+      name: Star Force (USA).nes
       format: 1
       size: 65552
       blob_id: 67237
-      debug: Star Force (U).zip
+      debug: |-
+        Star Force (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=164f251a952776a3500e84d99186120f44d6f100
   - asset:
       id: 138700
       kind: 3

@@ -7,12 +7,19 @@ names:
   kind_id: 6514
   language: 1
   name: Baseball Stars 2 (U)
+  deprecated: 1
 - id: 247527
   kind: 2
   kind_id: 6514
   language: 2
   name: 棒球之星2
   source: codex
+- id: 261536
+  kind: 2
+  kind_id: 6514
+  language: 1
+  name: Baseball Stars II
+  source: no-intro
 releases:
 - release:
     id: 6514
@@ -23,17 +30,26 @@ releases:
     kind_id: 6514
     language: 1
     name: Baseball Stars 2 (U)
+    deprecated: 1
+  - id: 257721
+    kind: 3
+    kind_id: 6514
+    language: 1
+    name: Baseball Stars II (USA)
+    source: no-intro
   assets:
   - asset:
       id: 6496
       kind: 3
       kind_id: 6514
       type: 1
-      name: Baseball Stars 2 (U).nes
+      name: Baseball Stars II (USA).nes
       format: 1
       size: 393232
       blob_id: 52746
-      debug: Baseball Stars 2 (U).zip
+      debug: |-
+        Baseball Stars 2 (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=2f8a9fd8cb6bb23e6c6285c2999a7d6e6b8cd686
   - asset:
       id: 138190
       kind: 3

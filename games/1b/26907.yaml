@@ -12,6 +12,13 @@ names:
   kind_id: 26907
   language: 1
   name: Penguin & Seal, The (Sachen-HES) [!]
+  deprecated: 1
+- id: 262467
+  kind: 2
+  kind_id: 26907
+  language: 1
+  name: "Arctic Adventure - Penguin & Seal"
+  source: no-intro
 releases:
 - release:
     id: 26907
@@ -27,14 +34,34 @@ releases:
     kind_id: 26907
     language: 1
     name: Penguin & Seal, The (Sachen-HES) [!]
+    deprecated: 1
+  - id: 260045
+    kind: 3
+    kind_id: 26907
+    language: 1
+    name: "Arctic Adventure - Penguin & Seal (Australia) (Unl)"
+    source: no-intro
   assets:
   - asset:
       id: 26889
       kind: 3
       kind_id: 26907
       type: 1
-      name: 企鹅与海豹 (亚洲版,澳大利亚) (益智)-Penguin &amp; Seal, The (Asia, Australia) (Unl) + Penguin & Seal, The (Sachen-HES) [!].nes
+      name: "Arctic Adventure - Penguin & Seal (Australia) (Unl).nes"
       format: 1
       size: 24592
       blob_id: 71932
-      debug: 企鹅与海豹 (亚洲版,澳大利亚) (益智)-Penguin &amp; Seal, The (Asia, Australia) (Unl) + Penguin & Seal, The (Sachen-HES) [!].nes
+      debug: |-
+        企鹅与海豹 (亚洲版,澳大利亚) (益智)-Penguin &amp; Seal, The (Asia, Australia) (Unl) + Penguin & Seal, The (Sachen-HES) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=f5fbb35cf460de78f22a2a99ed21594d42bcf6e7
+  - asset:
+      id: 139991
+      kind: 3
+      kind_id: 26907
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Arctic%20Adventure%20-%20Penguin%20_%20Seal%20%28Australia%29%20%28Unl%29.png
+      format: 1
+      size: 2524
+      blob_id: 325341
+      debug: libretro-named-titles:rom-asset=26889:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Arctic%20Adventure%20-%20Penguin%20_%20Seal%20%28Australia%29%20%28Unl%29.png

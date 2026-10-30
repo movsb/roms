@@ -7,12 +7,19 @@ names:
   kind_id: 7531
   language: 1
   name: BugTris (K) (Unl) [!]
+  deprecated: 1
 - id: 249065
   kind: 2
   kind_id: 7531
   language: 2
   name: 虫虫方块
   source: codex
+- id: 261576
+  kind: 2
+  kind_id: 7531
+  language: 1
+  name: BugTris
+  source: no-intro
 releases:
 - release:
     id: 7531
@@ -23,14 +30,34 @@ releases:
     kind_id: 7531
     language: 1
     name: BugTris (K) (Unl) [!]
+    deprecated: 1
+  - id: 257830
+    kind: 3
+    kind_id: 7531
+    language: 1
+    name: BugTris (Korea) (En) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 7513
       kind: 3
       kind_id: 7531
       type: 1
-      name: BugTris (K) (Unl) [!].nes
+      name: BugTris (Korea) (En) (Unl).nes
       format: 1
       size: 40976
       blob_id: 53703
-      debug: BugTris (K) (Unl) [!].nes
+      debug: |-
+        BugTris (K) (Unl) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=c9d2ff99aa02da462dc38f87a22b6f8819122595
+  - asset:
+      id: 139335
+      kind: 3
+      kind_id: 7531
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/BugTris%20%28Korea%29%20%28En%29%20%28Unl%29.png
+      format: 1
+      size: 716
+      blob_id: 324783
+      debug: libretro-named-titles:rom-asset=7513:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/BugTris%20%28Korea%29%20%28En%29%20%28Unl%29.png

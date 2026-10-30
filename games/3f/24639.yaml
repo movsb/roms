@@ -27,11 +27,13 @@ releases:
     kind_id: 24639
     language: 1
     name: Terminator, The (U) [!p]
+    deprecated: 1
   - id: 55046
     kind: 3
     kind_id: 24639
     language: 1
     name: Terminator, The (U)
+    deprecated: 1
   - id: 72057
     kind: 3
     kind_id: 24639
@@ -42,13 +44,20 @@ releases:
     kind_id: 24639
     language: 1
     name: Terminator, The (U) [!]
+    deprecated: 1
+  - id: 259631
+    kind: 3
+    kind_id: 24639
+    language: 1
+    name: Terminator, The (USA, Europe)
+    source: no-intro
   assets:
   - asset:
       id: 24621
       kind: 3
       kind_id: 24639
       type: 1
-      name: Terminator, The (U) [!p].nes
+      name: Terminator, The (USA, Europe).nes
       format: 1
       size: 262160
       blob_id: 69900
@@ -56,6 +65,18 @@ releases:
         Terminator, The (U) [!p].zip
         Terminator, The (U).zip
         魔鬼终结者 (美版,欧版) (动作)-Terminator, The (USA, Europe) + Terminator, The (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=b57c4e9ce3212f4e75b71a733ff2907970521d40
+  - asset:
+      id: 139848
+      kind: 3
+      kind_id: 24639
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Terminator%2C%20The%20%28USA%2C%20Europe%29.png
+      format: 1
+      size: 1713
+      blob_id: 325221
+      debug: libretro-named-titles:rom-asset=24621:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Terminator%2C%20The%20%28USA%2C%20Europe%29.png
 - release:
     id: 24640
     game_id: 24639

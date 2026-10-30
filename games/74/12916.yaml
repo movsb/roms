@@ -43,14 +43,34 @@ releases:
     kind_id: 12917
     language: 1
     name: Hassle (Unl)
+    deprecated: 1
+  - id: 258397
+    kind: 3
+    kind_id: 12917
+    language: 1
+    name: Hassle (Asia) (En) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 12899
       kind: 3
       kind_id: 12917
       type: 1
-      name: Hassle (Unl).nes
+      name: Hassle (Asia) (En) (Pirate).nes
       format: 1
       size: 24592
       blob_id: 58799
-      debug: Hassle (Unl).nes
+      debug: |-
+        Hassle (Unl).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=5286c84d6af816f0d5a0d54e52dc3bc2b5b49442
+  - asset:
+      id: 139441
+      kind: 3
+      kind_id: 12917
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Hassle%20%28Asia%29%20%28En%29%20%28Pirate%29.png
+      format: 1
+      size: 2100
+      blob_id: 324872
+      debug: libretro-named-titles:rom-asset=12899:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Hassle%20%28Asia%29%20%28En%29%20%28Pirate%29.png

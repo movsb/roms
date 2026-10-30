@@ -12,6 +12,13 @@ names:
   kind_id: 28595
   language: 1
   name: RoboCop (E) [!]
+  deprecated: 1
+- id: 263081
+  kind: 2
+  kind_id: 28595
+  language: 1
+  name: RoboCop
+  source: no-intro
 releases:
 - release:
     id: 28595
@@ -27,17 +34,26 @@ releases:
     kind_id: 28595
     language: 1
     name: RoboCop (E) [!]
+    deprecated: 1
+  - id: 260719
+    kind: 3
+    kind_id: 28595
+    language: 1
+    name: RoboCop (Europe)
+    source: no-intro
   assets:
   - asset:
       id: 28577
       kind: 3
       kind_id: 28595
       type: 1
-      name: 机器战警 (欧版) (动作)-RoboCop (Europe) + RoboCop (E) [!].nes
+      name: RoboCop (Europe).nes
       format: 1
       size: 262160
       blob_id: 73053
-      debug: 机器战警 (欧版) (动作)-RoboCop (Europe) + RoboCop (E) [!].nes
+      debug: |-
+        机器战警 (欧版) (动作)-RoboCop (Europe) + RoboCop (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=1f8dc272cd128597c050777f635bacdc6a0e20b1
   - asset:
       id: 137797
       kind: 3

@@ -12,6 +12,13 @@ names:
   kind_id: 29385
   language: 1
   name: Die Hard (J)
+  deprecated: 1
+- id: 263361
+  kind: 2
+  kind_id: 29385
+  language: 1
+  name: Die Hard
+  source: no-intro
 releases:
 - release:
     id: 29385
@@ -27,17 +34,26 @@ releases:
     kind_id: 29385
     language: 1
     name: Die Hard (J)
+    deprecated: 1
+  - id: 261037
+    kind: 3
+    kind_id: 29385
+    language: 1
+    name: Die Hard (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 29367
       kind: 3
       kind_id: 29385
       type: 1
-      name: 终极警探 (日版) (动作)-Die Hard (Japan) + Die Hard (J).nes
+      name: Die Hard (Japan).nes
       format: 1
       size: 262160
       blob_id: 73558
-      debug: 终极警探 (日版) (动作)-Die Hard (Japan) + Die Hard (J).nes
+      debug: |-
+        终极警探 (日版) (动作)-Die Hard (Japan) + Die Hard (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=78c6435af4c99d6b36994f26547bb04f0eadbe8d
   - asset:
       id: 139139
       kind: 3

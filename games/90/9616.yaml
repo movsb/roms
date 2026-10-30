@@ -17,6 +17,13 @@ names:
   kind_id: 9616
   language: 1
   name: Deja Vu (U) [!]
+  deprecated: 1
+- id: 261636
+  kind: 2
+  kind_id: 9616
+  language: 1
+  name: Deja Vu
+  source: no-intro
 releases:
 - release:
     id: 9611
@@ -27,24 +34,32 @@ releases:
     kind_id: 9611
     language: 1
     name: Deja Vu (U) [!]
+    deprecated: 1
   - id: 60599
     kind: 3
     kind_id: 9611
     language: 2
     name: 似曾相似 (美版) (冒险解谜)-Deja Vu (USA)
+  - id: 257998
+    kind: 3
+    kind_id: 9611
+    language: 1
+    name: Deja Vu (USA)
+    source: no-intro
   assets:
   - asset:
       id: 9593
       kind: 3
       kind_id: 9611
       type: 1
-      name: Deja Vu (U) [!].nes
+      name: Deja Vu (USA).nes
       format: 1
       size: 393232
       blob_id: 55680
       debug: |-
         Deja Vu (U) [!].zip
         似曾相似 (美版) (冒险解谜)-Deja Vu (USA) + Deja Vu (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=c8ca009cfb56edb86acd8bb8f05d96d19132ad66
   - asset:
       id: 136804
       kind: 3
@@ -65,17 +80,26 @@ releases:
     kind_id: 9615
     language: 1
     name: Deja Vu (U)
+    deprecated: 1
+  - id: 257999
+    kind: 3
+    kind_id: 9615
+    language: 1
+    name: Deja Vu (USA)
+    source: no-intro
   assets:
   - asset:
       id: 9597
       kind: 3
       kind_id: 9615
       type: 1
-      name: Deja Vu (U).nes
+      name: Deja Vu (USA).nes
       format: 1
       size: 393232
       blob_id: 55684
-      debug: Deja Vu (U).zip
+      debug: |-
+        Deja Vu (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=c8ca009cfb56edb86acd8bb8f05d96d19132ad66
   - asset:
       id: 138472
       kind: 3
@@ -96,14 +120,34 @@ releases:
     kind_id: 9616
     language: 1
     name: Deja Vu
+    deprecated: 1
+  - id: 258000
+    kind: 3
+    kind_id: 9616
+    language: 1
+    name: Deja Vu (USA)
+    source: no-intro
   assets:
   - asset:
       id: 9598
       kind: 3
       kind_id: 9616
       type: 1
-      name: Deja Vu.nes
+      name: Deja Vu (USA).nes
       format: 1
       size: 393232
       blob_id: 55685
-      debug: Deja Vu.zip
+      debug: |-
+        Deja Vu.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=c8ca009cfb56edb86acd8bb8f05d96d19132ad66
+  - asset:
+      id: 139364
+      kind: 3
+      kind_id: 9616
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Deja%20Vu%20%28USA%29.png
+      format: 1
+      size: 2478
+      blob_id: 323971
+      debug: libretro-named-titles:rom-asset=9598:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Deja%20Vu%20%28USA%29.png

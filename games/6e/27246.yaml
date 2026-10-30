@@ -2,17 +2,94 @@ game:
   id: 27246
   platform_id: 2
 names:
-- id: 61595
-  kind: 2
-  kind_id: 27246
-  language: 2
-  name: 十码大战 (运动)-10-Yard Fight
-- id: 61596
+- id: 262590
   kind: 2
   kind_id: 27246
   language: 1
-  name: 10-Yard Fight (U) [!]
+  name: 10-Yard Fight
+  source: no-intro
+- id: 263755
+  kind: 2
+  kind_id: 27246
+  language: 2
+  name: 十码大战
 releases:
+- release:
+    id: 4745
+    game_id: 27246
+  names:
+  - id: 9492
+    kind: 3
+    kind_id: 4745
+    language: 1
+    name: 10YardFight
+  assets:
+  - asset:
+      id: 4727
+      kind: 3
+      kind_id: 4745
+      type: 1
+      name: 10YardFight.nes
+      format: 1
+      size: 40976
+      blob_id: 51065
+      debug: 10YardFight.zip
+  - asset:
+      id: 138120
+      kind: 3
+      kind_id: 4745
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 1894
+      blob_id: 323230
+      debug: fc-title-trial:fceumm:rom-asset=4727:frame=180
+- release:
+    id: 27245
+    game_id: 27246
+  names:
+  - id: 61593
+    kind: 3
+    kind_id: 27245
+    language: 2
+    name: 十码大战 (日版)(Rev 1) (运动)-10-Yard Fight (Japan) (Rev 1)
+  - id: 61594
+    kind: 3
+    kind_id: 27245
+    language: 1
+    name: 10-Yard Fight (J) (PRG1) [!]
+    deprecated: 1
+  - id: 260177
+    kind: 3
+    kind_id: 27245
+    language: 1
+    name: 10-Yard Fight (Japan) (En) (Rev 1)
+    source: no-intro
+  assets:
+  - asset:
+      id: 27227
+      kind: 3
+      kind_id: 27245
+      type: 1
+      name: 10-Yard Fight (Japan) (En) (Rev 1).nes
+      format: 1
+      size: 24592
+      blob_id: 72159
+      debug: |-
+        十码大战 (日版)(Rev 1) (运动)-10-Yard Fight (Japan) (Rev 1) + 10-Yard Fight (J) (PRG1) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=d850b48aca4a3b1e503d2a483508564d774c536c
+  - asset:
+      id: 137599
+      kind: 3
+      kind_id: 27245
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 1894
+      blob_id: 323230
+      debug: fc-title-trial:fceumm:rom-asset=27227:frame=180
 - release:
     id: 27246
     game_id: 27246
@@ -27,17 +104,26 @@ releases:
     kind_id: 27246
     language: 1
     name: 10-Yard Fight (U) [!]
+    deprecated: 1
+  - id: 260178
+    kind: 3
+    kind_id: 27246
+    language: 1
+    name: 10-Yard Fight (USA, Europe)
+    source: no-intro
   assets:
   - asset:
       id: 27228
       kind: 3
       kind_id: 27246
       type: 1
-      name: 十码大战 (美版,欧版) (运动)-10-Yard Fight (USA, Europe) + 10-Yard Fight (U) [!].nes
+      name: 10-Yard Fight (USA, Europe).nes
       format: 1
       size: 40976
       blob_id: 51039
-      debug: 十码大战 (美版,欧版) (运动)-10-Yard Fight (USA, Europe) + 10-Yard Fight (U) [!].nes
+      debug: |-
+        十码大战 (美版,欧版) (运动)-10-Yard Fight (USA, Europe) + 10-Yard Fight (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=016818bf6baaf779f4f5c1658880b81d23ea40ca
   - asset:
       id: 137600
       kind: 3

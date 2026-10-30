@@ -17,6 +17,13 @@ names:
   kind_id: 13755
   language: 1
   name: Infiltrator (U) [!]
+  deprecated: 1
+- id: 261796
+  kind: 2
+  kind_id: 13755
+  language: 1
+  name: Infiltrator
+  source: no-intro
 releases:
 - release:
     id: 13750
@@ -27,23 +34,31 @@ releases:
     kind_id: 13750
     language: 1
     name: Infiltrator (U) [!]
+    deprecated: 1
   - id: 30280
     kind: 3
     kind_id: 13750
     language: 1
     name: Infiltrator
+    deprecated: 1
   - id: 68125
     kind: 3
     kind_id: 13750
     language: 2
     name: 百战飞狼 (美版) (模拟射击)-Infiltrator (USA)
+  - id: 258470
+    kind: 3
+    kind_id: 13750
+    language: 1
+    name: Infiltrator (USA)
+    source: no-intro
   assets:
   - asset:
       id: 13732
       kind: 3
       kind_id: 13750
       type: 1
-      name: Infiltrator (U) [!].nes
+      name: Infiltrator (USA).nes
       format: 1
       size: 262160
       blob_id: 59580
@@ -51,6 +66,7 @@ releases:
         Infiltrator (U) [!].zip
         Infiltrator.zip
         百战飞狼 (美版) (模拟射击)-Infiltrator (USA) + Infiltrator (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=4cc68474658b796954402fca71da5f2ff8baf5ae
   - asset:
       id: 136983
       kind: 3

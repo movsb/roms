@@ -12,11 +12,18 @@ names:
   kind_id: 13317
   language: 1
   name: Hoops (U) [!]
+  deprecated: 1
 - id: 92094
   kind: 2
   kind_id: 13317
   language: 1
   name: Hoops
+- id: 261777
+  kind: 2
+  kind_id: 13317
+  language: 1
+  name: Hoops
+  source: no-intro
 releases:
 - release:
     id: 13317
@@ -27,17 +34,26 @@ releases:
     kind_id: 13317
     language: 1
     name: Hoops (E)
+    deprecated: 1
+  - id: 258422
+    kind: 3
+    kind_id: 13317
+    language: 1
+    name: Hoops (Europe)
+    source: no-intro
   assets:
   - asset:
       id: 13299
       kind: 3
       kind_id: 13317
       type: 1
-      name: Hoops (E).nes
+      name: Hoops (Europe).nes
       format: 1
       size: 262160
       blob_id: 59175
-      debug: Hoops (E).nes
+      debug: |-
+        Hoops (E).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=98a0adea6b0fda9fec6a949e026dc24e3a4ee7b5
   - asset:
       id: 138524
       kind: 3
@@ -58,23 +74,31 @@ releases:
     kind_id: 13318
     language: 1
     name: Hoops (U) [!]
+    deprecated: 1
   - id: 29284
     kind: 3
     kind_id: 13318
     language: 1
     name: Hoops (U)
+    deprecated: 1
   - id: 67557
     kind: 3
     kind_id: 13318
     language: 2
     name: 燃烧篮球 (美版) (运动)-Hoops (USA)
+  - id: 258423
+    kind: 3
+    kind_id: 13318
+    language: 1
+    name: Hoops (USA)
+    source: no-intro
   assets:
   - asset:
       id: 13300
       kind: 3
       kind_id: 13318
       type: 1
-      name: Hoops (U) [!].nes
+      name: Hoops (USA).nes
       format: 1
       size: 262160
       blob_id: 59176
@@ -82,6 +106,7 @@ releases:
         Hoops (U) [!].zip
         Hoops (U).zip
         燃烧篮球 (美版) (运动)-Hoops (USA) + Hoops (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=086aaf77f6b1c726fbc36e2611625f50e36bc673
   - asset:
       id: 136965
       kind: 3

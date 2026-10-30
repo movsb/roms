@@ -12,6 +12,13 @@ names:
   kind_id: 28465
   language: 1
   name: Meiji Ishin (J)
+  deprecated: 1
+- id: 263020
+  kind: 2
+  kind_id: 28465
+  language: 1
+  name: Meiji Ishin
+  source: no-intro
 releases:
 - release:
     id: 28465
@@ -27,17 +34,26 @@ releases:
     kind_id: 28465
     language: 1
     name: Meiji Ishin (J)
+    deprecated: 1
+  - id: 260648
+    kind: 3
+    kind_id: 28465
+    language: 1
+    name: Meiji Ishin (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 28447
       kind: 3
       kind_id: 28465
       type: 1
-      name: 明治维新 (日版) (解谜)-Meiji Ishin (Japan) + Meiji Ishin (J).nes
+      name: Meiji Ishin (Japan).nes
       format: 1
       size: 262160
       blob_id: 72962
-      debug: 明治维新 (日版) (解谜)-Meiji Ishin (Japan) + Meiji Ishin (J).nes
+      debug: |-
+        明治维新 (日版) (解谜)-Meiji Ishin (Japan) + Meiji Ishin (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=a3e5b8d3fa1030dd3b877e7a37e8f803bdbb48b5
   - asset:
       id: 139012
       kind: 3

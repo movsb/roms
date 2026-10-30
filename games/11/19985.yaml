@@ -13,6 +13,12 @@ names:
   kind_id: 19985
   language: 1
   name: Robo Warrior
+- id: 262056
+  kind: 2
+  kind_id: 19985
+  language: 1
+  name: Robo Warrior
+  source: no-intro
 releases:
 - release:
     id: 19985
@@ -23,23 +29,31 @@ releases:
     kind_id: 19985
     language: 1
     name: Robo Warrior (U) [!]
+    deprecated: 1
   - id: 44494
     kind: 3
     kind_id: 19985
     language: 1
     name: Robo Warrior (U)
+    deprecated: 1
   - id: 67348
     kind: 3
     kind_id: 19985
     language: 2
     name: 炸弹人之王
+  - id: 259183
+    kind: 3
+    kind_id: 19985
+    language: 1
+    name: Robo Warrior (USA)
+    source: no-intro
   assets:
   - asset:
       id: 19967
       kind: 3
       kind_id: 19985
       type: 1
-      name: Robo Warrior (U) [!].nes
+      name: Robo Warrior (USA).nes
       format: 1
       size: 131088
       blob_id: 65444
@@ -48,6 +62,7 @@ releases:
         Robo Warrior (U).zip
         炸弹人之王.nes
         重复的/炸弹之王 (美版) (动作)-Robo Warrior (USA) + Robo Warrior (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=dcbb5b66e27ba66d90a3f11d35fb968a63033e8f
   - asset:
       id: 137248
       kind: 3

@@ -12,11 +12,19 @@ names:
   kind_id: 8941
   language: 1
   name: Color A Dinosaur (U) [!]
+  deprecated: 1
 - id: 91565
   kind: 2
   kind_id: 8941
   language: 1
   name: Color A Dinosaur
+  deprecated: 1
+- id: 261598
+  kind: 2
+  kind_id: 8941
+  language: 1
+  name: Color a Dinosaur
+  source: no-intro
 releases:
 - release:
     id: 8941
@@ -27,23 +35,31 @@ releases:
     kind_id: 8941
     language: 1
     name: Color A Dinosaur (U) [!]
+    deprecated: 1
   - id: 19008
     kind: 3
     kind_id: 8941
     language: 1
     name: Color A Dinosaur (U)
+    deprecated: 1
   - id: 64759
     kind: 3
     kind_id: 8941
     language: 2
     name: 恐龙着色家 (美版) (其他)-Color a Dinosaur (USA)
+  - id: 257925
+    kind: 3
+    kind_id: 8941
+    language: 1
+    name: Color a Dinosaur (USA)
+    source: no-intro
   assets:
   - asset:
       id: 8923
       kind: 3
       kind_id: 8941
       type: 1
-      name: Color A Dinosaur (U) [!].nes
+      name: Color a Dinosaur (USA).nes
       format: 1
       size: 131088
       blob_id: 55054
@@ -51,6 +67,7 @@ releases:
         Color A Dinosaur (U) [!].zip
         Color A Dinosaur (U).zip
         恐龙着色家 (美版) (其他)-Color a Dinosaur (USA) + Color A Dinosaur (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=b84c5a8ea62ef3f1eef920968284dc6cd4d6055d
   - asset:
       id: 136780
       kind: 3

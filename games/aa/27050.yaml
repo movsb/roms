@@ -12,6 +12,13 @@ names:
   kind_id: 27050
   language: 1
   name: Juuouki (J) [!]
+  deprecated: 1
+- id: 262523
+  kind: 2
+  kind_id: 27050
+  language: 1
+  name: Juuouki
+  source: no-intro
 releases:
 - release:
     id: 27050
@@ -27,17 +34,26 @@ releases:
     kind_id: 27050
     language: 1
     name: Juuouki (J) [!]
+    deprecated: 1
+  - id: 260103
+    kind: 3
+    kind_id: 27050
+    language: 1
+    name: Juuouki (Japan) (En)
+    source: no-intro
   assets:
   - asset:
       id: 27032
       kind: 3
       kind_id: 27050
       type: 1
-      name: 兽王记 (日版) (动作)-Juuouki (Japan) + Juuouki (J) [!].nes
+      name: Juuouki (Japan) (En).nes
       format: 1
       size: 262160
       blob_id: 72026
-      debug: 兽王记 (日版) (动作)-Juuouki (Japan) + Juuouki (J) [!].nes
+      debug: |-
+        兽王记 (日版) (动作)-Juuouki (Japan) + Juuouki (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=06267536575f0002bc84a35f9867f4dd80a1d8f3
   - asset:
       id: 137570
       kind: 3

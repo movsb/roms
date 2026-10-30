@@ -12,6 +12,12 @@ names:
   kind_id: 10022
   language: 1
   name: Double Dare
+- id: 261651
+  kind: 2
+  kind_id: 10022
+  language: 1
+  name: Double Dare
+  source: no-intro
 releases:
 - release:
     id: 10022
@@ -22,23 +28,31 @@ releases:
     kind_id: 10022
     language: 1
     name: Double Dare (U) [!]
+    deprecated: 1
   - id: 21550
     kind: 3
     kind_id: 10022
     language: 1
     name: Double Dare (U)
+    deprecated: 1
   - id: 61722
     kind: 3
     kind_id: 10022
     language: 2
     name: 双冒险
+  - id: 258054
+    kind: 3
+    kind_id: 10022
+    language: 1
+    name: Double Dare (USA)
+    source: no-intro
   assets:
   - asset:
       id: 10004
       kind: 3
       kind_id: 10022
       type: 1
-      name: Double Dare (U) [!].nes
+      name: Double Dare (USA).nes
       format: 1
       size: 262160
       blob_id: 56064
@@ -47,6 +61,7 @@ releases:
         Double Dare (U).zip
         双冒险.nes
         重复的/双人挑战赛 (美版) (益智)-Double Dare (USA) + Double Dare (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=4b0a6f62a5df2b6022357aa0c18978798299459b
   - asset:
       id: 136821
       kind: 3

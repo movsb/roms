@@ -38,24 +38,33 @@ releases:
     kind_id: 16058
     language: 1
     name: Mega Man (U)
+    deprecated: 1
   - id: 36330
     kind: 3
     kind_id: 16058
     language: 1
     name: Megaman
+    deprecated: 1
+  - id: 258747
+    kind: 3
+    kind_id: 16058
+    language: 1
+    name: Mega Man (USA)
+    source: no-intro
   assets:
   - asset:
       id: 16040
       kind: 3
       kind_id: 16058
       type: 1
-      name: Mega Man (U).nes
+      name: Mega Man (USA).nes
       format: 1
       size: 131088
       blob_id: 61727
       debug: |-
         Mega Man (U).zip
         Megaman.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=6047e52929dfe8ed4708d325766ccb8d3d583c7d
   - asset:
       id: 138572
       kind: 3
@@ -147,17 +156,37 @@ releases:
     kind_id: 16075
     language: 1
     name: Megaman (U) (VC)
+    deprecated: 1
+  - id: 258752
+    kind: 3
+    kind_id: 16075
+    language: 1
+    name: Mega Man (USA) (Virtual Console)
+    source: no-intro
   assets:
   - asset:
       id: 16057
       kind: 3
       kind_id: 16075
       type: 1
-      name: Megaman (U) (VC).nes
+      name: Mega Man (USA) (Virtual Console).nes
       format: 1
       size: 131088
       blob_id: 61744
-      debug: Megaman (U) (VC).nes
+      debug: |-
+        Megaman (U) (VC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=5f2bd49bcd284f76b8456e2ae5587e6ef6c64523
+  - asset:
+      id: 139552
+      kind: 3
+      kind_id: 16075
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mega%20Man%20%28USA%29%20%28Virtual%20Console%29.png
+      format: 1
+      size: 3104
+      blob_id: 324969
+      debug: libretro-named-titles:rom-asset=16057:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mega%20Man%20%28USA%29%20%28Virtual%20Console%29.png
 - release:
     id: 16076
     game_id: 16058
@@ -167,23 +196,31 @@ releases:
     kind_id: 16076
     language: 1
     name: Megaman (U) [!]
+    deprecated: 1
   - id: 36342
     kind: 3
     kind_id: 16076
     language: 1
     name: MegamanHD
+    deprecated: 1
   - id: 66937
     kind: 3
     kind_id: 16076
     language: 2
     name: 洛克人（美版）
+  - id: 258753
+    kind: 3
+    kind_id: 16076
+    language: 1
+    name: Mega Man (USA)
+    source: no-intro
   assets:
   - asset:
       id: 16058
       kind: 3
       kind_id: 16076
       type: 1
-      name: Megaman (U) [!].nes
+      name: Mega Man (USA).nes
       format: 1
       size: 131088
       blob_id: 61745
@@ -191,6 +228,7 @@ releases:
         Megaman (U) [!].zip
         MegamanHD.zip
         洛克人（美版） + Megaman (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=6047e52929dfe8ed4708d325766ccb8d3d583c7d
   - asset:
       id: 137100
       kind: 3

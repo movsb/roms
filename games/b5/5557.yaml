@@ -12,11 +12,18 @@ names:
   kind_id: 5557
   language: 1
   name: After Burner (Tengen) [!]
+  deprecated: 1
 - id: 91220
   kind: 2
   kind_id: 5557
   language: 1
   name: After Burner
+- id: 261493
+  kind: 2
+  kind_id: 5557
+  language: 1
+  name: After Burner
+  source: no-intro
 releases:
 - release:
     id: 5560
@@ -27,16 +34,19 @@ releases:
     kind_id: 5560
     language: 1
     name: After Burner (U)
+    deprecated: 1
   - id: 11384
     kind: 3
     kind_id: 5560
     language: 1
     name: After Burner (Unl) (U)
+    deprecated: 1
   - id: 11386
     kind: 3
     kind_id: 5560
     language: 1
     name: After Burner (Unl) [!]
+    deprecated: 1
   - id: 61159
     kind: 3
     kind_id: 5560
@@ -47,13 +57,20 @@ releases:
     kind_id: 5560
     language: 1
     name: After Burner (Tengen) [!]
+    deprecated: 1
+  - id: 257614
+    kind: 3
+    kind_id: 5560
+    language: 1
+    name: After Burner (USA) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 5542
       kind: 3
       kind_id: 5560
       type: 1
-      name: After Burner (U).nes
+      name: After Burner (USA) (Unl).nes
       format: 1
       size: 393232
       blob_id: 51848
@@ -62,6 +79,7 @@ releases:
         After Burner (Unl) (U).zip
         After Burner (Unl) [!].zip
         冲破火网 (美版) (射击)-After Burner (USA) (Unl) + After Burner (Tengen) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=56c3d55654d0e837082978505653f6e1e0d52d6f
   - asset:
       id: 138151
       kind: 3

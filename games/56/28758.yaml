@@ -12,6 +12,13 @@ names:
   kind_id: 28758
   language: 1
   name: BurgerTime (J) [!]
+  deprecated: 1
+- id: 263147
+  kind: 2
+  kind_id: 28758
+  language: 1
+  name: BurgerTime
+  source: no-intro
 releases:
 - release:
     id: 28758
@@ -27,17 +34,26 @@ releases:
     kind_id: 28758
     language: 1
     name: BurgerTime (J) [!]
+    deprecated: 1
+  - id: 260793
+    kind: 3
+    kind_id: 28758
+    language: 1
+    name: BurgerTime (Japan) (En)
+    source: no-intro
   assets:
   - asset:
       id: 28740
       kind: 3
       kind_id: 28758
       type: 1
-      name: 汉堡时代 (日版) (益智)-Burger Time (Japan) + BurgerTime (J) [!].nes
+      name: BurgerTime (Japan) (En).nes
       format: 1
       size: 24592
       blob_id: 73161
-      debug: 汉堡时代 (日版) (益智)-Burger Time (Japan) + BurgerTime (J) [!].nes
+      debug: |-
+        汉堡时代 (日版) (益智)-Burger Time (Japan) + BurgerTime (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=ad3fbccba6d180f89a33cb8f4368f820ec3f8fef
   - asset:
       id: 137821
       kind: 3

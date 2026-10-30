@@ -7,12 +7,19 @@ names:
   kind_id: 6221
   language: 1
   name: Back to the Future 2 & 3 (U)
+  deprecated: 1
 - id: 247509
   kind: 2
   kind_id: 6221
   language: 2
   name: 回到未来2与3
   source: codex
+- id: 261515
+  kind: 2
+  kind_id: 6221
+  language: 1
+  name: Back to the Future Part II & III
+  source: no-intro
 releases:
 - release:
     id: 6221
@@ -23,13 +30,20 @@ releases:
     kind_id: 6221
     language: 1
     name: Back to the Future 2 & 3 (U)
+    deprecated: 1
+  - id: 257682
+    kind: 3
+    kind_id: 6221
+    language: 1
+    name: Back to the Future Part II & III (USA)
+    source: no-intro
   assets:
   - asset:
       id: 6203
       kind: 3
       kind_id: 6221
       type: 1
-      name: Back to the Future 2 & 3 (U).nes
+      name: Back to the Future Part II & III (USA).nes
       format: 1
       size: 262160
       blob_id: 52467
@@ -37,6 +51,7 @@ releases:
         Back to the Future 2 & 3 (U).zip
         Back to the Future II & III (U) [!].zip
         回到未来 II + III (美版) (动作)-Back to the Future Part II &amp; III (USA) + Back to the Future Part II & III (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=4ef017ef87d84dc15b2c1f919e05066be9559dc8
   - asset:
       id: 138183
       kind: 3

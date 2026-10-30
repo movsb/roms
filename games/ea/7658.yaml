@@ -12,11 +12,18 @@ names:
   kind_id: 7658
   language: 1
   name: California Games (U) [!]
+  deprecated: 1
 - id: 91461
   kind: 2
   kind_id: 7658
   language: 1
   name: California Games
+- id: 261579
+  kind: 2
+  kind_id: 7658
+  language: 1
+  name: California Games
+  source: no-intro
 releases:
 - release:
     id: 7658
@@ -27,23 +34,31 @@ releases:
     kind_id: 7658
     language: 1
     name: California Games (U) [!]
+    deprecated: 1
   - id: 16124
     kind: 3
     kind_id: 7658
     language: 1
     name: California Games (U)
+    deprecated: 1
   - id: 61381
     kind: 3
     kind_id: 7658
     language: 2
     name: 加州运动会 (美版) (运动)-California Games (USA)
+  - id: 257840
+    kind: 3
+    kind_id: 7658
+    language: 1
+    name: California Games (USA)
+    source: no-intro
   assets:
   - asset:
       id: 7640
       kind: 3
       kind_id: 7658
       type: 1
-      name: California Games (U) [!].nes
+      name: California Games (USA).nes
       format: 1
       size: 131088
       blob_id: 53818
@@ -51,6 +66,7 @@ releases:
         California Games (U) [!].zip
         California Games (U).zip
         加州运动会 (美版) (运动)-California Games (USA) + California Games (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=0cff857e3f0e1da39e0f02a8a70b2ef9d263e503
   - asset:
       id: 136750
       kind: 3

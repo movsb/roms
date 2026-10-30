@@ -22,6 +22,7 @@ releases:
     kind_id: 12313
     language: 1
     name: Ghosts 'N Goblins (U) [!]
+    deprecated: 1
   - id: 71965
     kind: 3
     kind_id: 12313
@@ -32,13 +33,19 @@ releases:
     kind_id: 12313
     language: 2
     name: 魔界村
+  - id: 258316
+    kind: 3
+    kind_id: 12313
+    language: 1
+    name: Ghosts'n Goblins (USA)
+    source: no-intro
   assets:
   - asset:
       id: 12295
       kind: 3
       kind_id: 12313
       type: 1
-      name: Ghosts 'N Goblins (U) [!].nes
+      name: Ghosts'n Goblins (USA).nes
       format: 1
       size: 131088
       blob_id: 58218
@@ -46,6 +53,7 @@ releases:
         Ghosts 'N Goblins (U) [!].zip
         魔界村 (美版) (动作)-Ghostsn Goblins (USA) + Ghosts 'N Goblins (U) [!].nes
         魔界村.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=ca03c76b65f0fe5b1d05149d7e9a97b4d5f44a27
   - asset:
       id: 136929
       kind: 3
@@ -131,17 +139,26 @@ releases:
     kind_id: 30340
     language: 1
     name: Makaimura (J) [!]
+    deprecated: 1
+  - id: 261406
+    kind: 3
+    kind_id: 30340
+    language: 1
+    name: Makaimura (Japan) (En)
+    source: no-intro
   assets:
   - asset:
       id: 30322
       kind: 3
       kind_id: 30340
       type: 1
-      name: 魔界村 (日版) (动作)-Makai-Mura (Japan) + Makaimura (J) [!].nes
+      name: Makaimura (Japan) (En).nes
       format: 1
       size: 131088
       blob_id: 74151
-      debug: 魔界村 (日版) (动作)-Makai-Mura (Japan) + Makaimura (J) [!].nes
+      debug: |-
+        魔界村 (日版) (动作)-Makai-Mura (Japan) + Makaimura (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=f8b38262c2ac00cf4e3e653f2987bdadc86f839e
   - asset:
       id: 139265
       kind: 3
@@ -167,17 +184,37 @@ releases:
     kind_id: 30341
     language: 1
     name: Ghosts 'N Goblins (E) [!]
+    deprecated: 1
+  - id: 261407
+    kind: 3
+    kind_id: 30341
+    language: 1
+    name: Ghost'n Goblins (Europe)
+    source: no-intro
   assets:
   - asset:
       id: 30323
       kind: 3
       kind_id: 30341
       type: 1
-      name: 魔界村 (欧版) (动作)-Ghostn Goblins (Europe) + Ghosts 'N Goblins (E) [!].nes
+      name: Ghost'n Goblins (Europe).nes
       format: 1
       size: 131088
       blob_id: 74152
-      debug: 魔界村 (欧版) (动作)-Ghostn Goblins (Europe) + Ghosts 'N Goblins (E) [!].nes
+      debug: |-
+        魔界村 (欧版) (动作)-Ghostn Goblins (Europe) + Ghosts 'N Goblins (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=a369b2a4a468c9e69533709e0dc3495457c9b9b2
+  - asset:
+      id: 140255
+      kind: 3
+      kind_id: 30341
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Ghost%27n%20Goblins%20%28Europe%29.png
+      format: 1
+      size: 1435
+      blob_id: 325569
+      debug: libretro-named-titles:rom-asset=30323:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Ghost%27n%20Goblins%20%28Europe%29.png
 - release:
     id: 30344
     game_id: 12313

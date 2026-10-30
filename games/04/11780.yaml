@@ -28,22 +28,30 @@ releases:
     kind_id: 11780
     language: 1
     name: "Flintstones 2 - The Surprise at Dinosaur Peak!, The (U)"
+    deprecated: 1
   - id: 25844
     kind: 3
     kind_id: 11780
     language: 1
     name: "Flintstones, The - The Surprise at Dinosaur Peak! (U) [!]"
+    deprecated: 1
+  - id: 258249
+    kind: 3
+    kind_id: 11780
+    language: 1
+    name: "Flintstones, The - The Surprise at Dinosaur Peak! (USA)"
+    source: no-intro
   assets:
   - asset:
       id: 11762
       kind: 3
       kind_id: 11780
       type: 1
-      name: "Flintstones 2 - The Surprise at Dinosaur Peak!, The (U).nes"
+      name: "Flintstones, The - The Surprise at Dinosaur Peak! (USA).nes"
       format: 1
       size: 393232
       blob_id: 57723
-      debug: "Flintstones 2 - The Surprise at Dinosaur Peak!, The (U).zip\nFlintstones, The - The Surprise at Dinosaur Peak! (U) [!].nes"
+      debug: "Flintstones 2 - The Surprise at Dinosaur Peak!, The (U).zip\nFlintstones, The - The Surprise at Dinosaur Peak! (U) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=16685a7416e76ecdd79e6f492437a9aedf989ed8"
   - asset:
       id: 138396
       kind: 3
@@ -64,17 +72,35 @@ releases:
     kind_id: 11791
     language: 1
     name: "Flintstones, The - The Surprise at Dinosaur Peak! (E)"
+    deprecated: 1
+  - id: 258251
+    kind: 3
+    kind_id: 11791
+    language: 1
+    name: "Flintstones, The - The Surprise at Dinosaur Peak (Europe)"
+    source: no-intro
   assets:
   - asset:
       id: 11773
       kind: 3
       kind_id: 11791
       type: 1
-      name: "Flintstones, The - The Surprise at Dinosaur Peak! (E).nes"
+      name: "Flintstones, The - The Surprise at Dinosaur Peak (Europe).nes"
       format: 1
       size: 393232
       blob_id: 57733
-      debug: "Flintstones, The - The Surprise at Dinosaur Peak! (E).nes"
+      debug: "Flintstones, The - The Surprise at Dinosaur Peak! (E).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=8b1a335adf8f8ca372b3d84831f61a6571b3ded1"
+  - asset:
+      id: 139407
+      kind: 3
+      kind_id: 11791
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Flintstones%2C%20The%20-%20The%20Surprise%20at%20Dinosaur%20Peak%20%28Europe%29.png
+      format: 1
+      size: 3062
+      blob_id: 324844
+      debug: libretro-named-titles:rom-asset=11773:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Flintstones%2C%20The%20-%20The%20Surprise%20at%20Dinosaur%20Peak%20%28Europe%29.png
 - release:
     id: 11793
     game_id: 11780

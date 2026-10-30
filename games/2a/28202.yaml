@@ -12,6 +12,13 @@ names:
   kind_id: 28202
   language: 1
   name: Devil World (J) [!]
+  deprecated: 1
+- id: 262918
+  kind: 2
+  kind_id: 28202
+  language: 1
+  name: Devil World
+  source: no-intro
 releases:
 - release:
     id: 28202
@@ -27,17 +34,26 @@ releases:
     kind_id: 28202
     language: 1
     name: Devil World (J) [!]
+    deprecated: 1
+  - id: 260541
+    kind: 3
+    kind_id: 28202
+    language: 1
+    name: Devil World (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 28184
       kind: 3
       kind_id: 28202
       type: 1
-      name: 恶魔世界 (日版) (益智)-Devil World (Japan) + Devil World (J) [!].nes
+      name: Devil World (Japan).nes
       format: 1
       size: 24592
       blob_id: 72785
-      debug: 恶魔世界 (日版) (益智)-Devil World (Japan) + Devil World (J) [!].nes
+      debug: |-
+        恶魔世界 (日版) (益智)-Devil World (Japan) + Devil World (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=865a7a740f67b14be84d496e49d434cdedeaf210
   - asset:
       id: 137727
       kind: 3

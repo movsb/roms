@@ -12,6 +12,13 @@ names:
   kind_id: 30190
   language: 1
   name: Outlanders (J) [a1]
+  deprecated: 1
+- id: 263645
+  kind: 2
+  kind_id: 30190
+  language: 1
+  name: Outlanders
+  source: no-intro
 releases:
 - release:
     id: 30190
@@ -27,14 +34,34 @@ releases:
     kind_id: 30190
     language: 1
     name: Outlanders (J) [a1]
+    deprecated: 1
+  - id: 261342
+    kind: 3
+    kind_id: 30190
+    language: 1
+    name: Outlanders (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 30172
       kind: 3
       kind_id: 30190
       type: 1
-      name: 风神战士 (日版) (动作角色扮演)-Outlanders (Japan) + Outlanders (J) [a1].nes
+      name: Outlanders (Japan).nes
       format: 1
       size: 131088
       blob_id: 74053
-      debug: 风神战士 (日版) (动作角色扮演)-Outlanders (Japan) + Outlanders (J) [a1].nes
+      debug: |-
+        风神战士 (日版) (动作角色扮演)-Outlanders (Japan) + Outlanders (J) [a1].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=ff77d280a645ec2af30397c2e70c374e6f298c07
+  - asset:
+      id: 140247
+      kind: 3
+      kind_id: 30190
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Outlanders%20%28Japan%29.png
+      format: 1
+      size: 1227
+      blob_id: 324101
+      debug: libretro-named-titles:rom-asset=30172:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Outlanders%20%28Japan%29.png

@@ -43,14 +43,34 @@ releases:
     kind_id: 13996
     language: 1
     name: Ji Dou Sheng Zhan Shi (ES-1117) (Ch)
+    deprecated: 1
+  - id: 258506
+    kind: 3
+    kind_id: 13996
+    language: 1
+    name: Ji Dou Sheng Zhanshi (China) (Aftermarket) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 13978
       kind: 3
       kind_id: 13996
       type: 1
-      name: Ji Dou Sheng Zhan Shi (ES-1117) (Ch).nes
+      name: Ji Dou Sheng Zhanshi (China) (Aftermarket) (Pirate).nes
       format: 1
       size: 524304
       blob_id: 59799
-      debug: Ji Dou Sheng Zhan Shi (ES-1117) (Ch).nes
+      debug: |-
+        Ji Dou Sheng Zhan Shi (ES-1117) (Ch).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=6b2df23fb3c21742993a9d0fd1e6584d26657e7f
+  - asset:
+      id: 139475
+      kind: 3
+      kind_id: 13996
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Ji%20Dou%20Sheng%20Zhanshi%20%28China%29%20%28Aftermarket%29%20%28Pirate%29.png
+      format: 1
+      size: 7037
+      blob_id: 324906
+      debug: libretro-named-titles:rom-asset=13978:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Ji%20Dou%20Sheng%20Zhanshi%20%28China%29%20%28Aftermarket%29%20%28Pirate%29.png

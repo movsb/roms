@@ -23,17 +23,24 @@ releases:
     kind_id: 6180
     language: 1
     name: BATMAN
+    deprecated: 1
+  - id: 257675
+    kind: 3
+    kind_id: 6180
+    language: 1
+    name: "Batman - The Video Game (USA)"
+    source: no-intro
   assets:
   - asset:
       id: 6162
       kind: 3
       kind_id: 6180
       type: 1
-      name: BATMAN.NES
+      name: "Batman - The Video Game (USA).nes"
       format: 1
       size: 262160
       blob_id: 52430
-      debug: "BATMAN.zip\nBatman (U) [!].zip\n蝙蝠侠 (美版) (动作)-Batman - The Video Game (USA) + Batman (U) [!].nes"
+      debug: "BATMAN.zip\nBatman (U) [!].zip\n蝙蝠侠 (美版) (动作)-Batman - The Video Game (USA) + Batman (U) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=a6c56ac787ff11a67921867ffc9f79a57a382657"
   - asset:
       id: 138179
       kind: 3
@@ -534,14 +541,34 @@ releases:
     kind_id: 6594
     language: 1
     name: Batman (U)
+    deprecated: 1
+  - id: 257731
+    kind: 3
+    kind_id: 6594
+    language: 1
+    name: "Batman - The Video Game (USA)"
+    source: no-intro
   assets:
   - asset:
       id: 6576
       kind: 3
       kind_id: 6594
       type: 1
-      name: Batman (U).nes
+      name: "Batman - The Video Game (USA).nes"
       format: 1
       size: 262160
       blob_id: 52824
-      debug: Batman (U).zip
+      debug: |-
+        Batman (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=a6c56ac787ff11a67921867ffc9f79a57a382657
+  - asset:
+      id: 139315
+      kind: 3
+      kind_id: 6594
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Batman%20-%20The%20Video%20Game%20%28USA%29.png
+      format: 1
+      size: 2702
+      blob_id: 324632
+      debug: libretro-named-titles:rom-asset=6576:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Batman%20-%20The%20Video%20Game%20%28USA%29.png

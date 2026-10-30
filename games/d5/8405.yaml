@@ -12,11 +12,18 @@ names:
   kind_id: 8405
   language: 1
   name: Championship Bowling (U) [!]
+  deprecated: 1
 - id: 91512
   kind: 2
   kind_id: 8405
   language: 1
   name: Championship Bowling
+- id: 261585
+  kind: 2
+  kind_id: 8405
+  language: 1
+  name: Championship Bowling
+  source: no-intro
 releases:
 - release:
     id: 8407
@@ -27,24 +34,32 @@ releases:
     kind_id: 8407
     language: 1
     name: Championship Bowling (U) [!]
+    deprecated: 1
   - id: 60709
     kind: 3
     kind_id: 8407
     language: 2
     name: 保龄球锦标赛 (美版) (运动)-Championship Bowling (USA)
+  - id: 257877
+    kind: 3
+    kind_id: 8407
+    language: 1
+    name: Championship Bowling (USA)
+    source: no-intro
   assets:
   - asset:
       id: 8389
       kind: 3
       kind_id: 8407
       type: 1
-      name: Championship Bowling (U) [!].nes
+      name: Championship Bowling (USA).nes
       format: 1
       size: 65552
       blob_id: 54545
       debug: |-
         Championship Bowling (U) [!].zip
         保龄球锦标赛 (美版) (运动)-Championship Bowling (USA) + Championship Bowling (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=252c80259dae00076c667f1bad9b54c2d32079b3
   - asset:
       id: 136763
       kind: 3

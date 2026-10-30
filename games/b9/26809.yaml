@@ -12,6 +12,13 @@ names:
   kind_id: 26809
   language: 1
   name: Luan Shi San Guo (Ch) [a2]
+  deprecated: 1
+- id: 262415
+  kind: 2
+  kind_id: 26809
+  language: 1
+  name: Luanshi Sanguo
+  source: no-intro
 releases:
 - release:
     id: 26809
@@ -27,14 +34,34 @@ releases:
     kind_id: 26809
     language: 1
     name: Luan Shi San Guo (Ch) [a2]
+    deprecated: 1
+  - id: 259993
+    kind: 3
+    kind_id: 26809
+    language: 1
+    name: Luanshi Sanguo (China) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 26791
       kind: 3
       kind_id: 26809
       type: 1
-      name: 乱世三国 + Luan Shi San Guo (Ch) [a2].nes
+      name: Luanshi Sanguo (China) (Unl).nes
       format: 1
       size: 524304
       blob_id: 71862
-      debug: 乱世三国 + Luan Shi San Guo (Ch) [a2].nes
+      debug: |-
+        乱世三国 + Luan Shi San Guo (Ch) [a2].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=d003152e3f104fa556fec88b4d73a4642da7179f
+  - asset:
+      id: 139975
+      kind: 3
+      kind_id: 26809
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Luanshi%20Sanguo%20%28China%29%20%28Unl%29.png
+      format: 1
+      size: 7921
+      blob_id: 325328
+      debug: libretro-named-titles:rom-asset=26791:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Luanshi%20Sanguo%20%28China%29%20%28Unl%29.png

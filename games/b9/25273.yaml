@@ -123,14 +123,32 @@ releases:
     kind_id: 25278
     language: 1
     name: "U-four-ia - The Saga (UE) (VC)"
+    deprecated: 1
+  - id: 259719
+    kind: 3
+    kind_id: 25278
+    language: 1
+    name: "Ufouria - The Saga (USA, Europe) (Wii Virtual Console)"
+    source: no-intro
   assets:
   - asset:
       id: 25260
       kind: 3
       kind_id: 25278
       type: 1
-      name: "U-four-ia - The Saga (UE) (VC).nes"
+      name: "Ufouria - The Saga (USA, Europe) (Wii Virtual Console).nes"
       format: 1
       size: 262160
       blob_id: 70485
-      debug: "U-four-ia - The Saga (UE) (VC).nes"
+      debug: "U-four-ia - The Saga (UE) (VC).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=f79ec767c428d2026636f8042f263ae50b73bd01"
+  - asset:
+      id: 139869
+      kind: 3
+      kind_id: 25278
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Ufouria%20-%20The%20Saga%20%28USA%2C%20Europe%29%20%28Wii%20Virtual%20Console%29.png
+      format: 1
+      size: 3072
+      blob_id: 325240
+      debug: libretro-named-titles:rom-asset=25260:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Ufouria%20-%20The%20Saga%20%28USA%2C%20Europe%29%20%28Wii%20Virtual%20Console%29.png

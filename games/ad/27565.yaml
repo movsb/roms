@@ -12,6 +12,13 @@ names:
   kind_id: 27565
   language: 1
   name: Xing Zhan Qing Yuan (Ch)
+  deprecated: 1
+- id: 262694
+  kind: 2
+  kind_id: 27565
+  language: 1
+  name: Xing Zhan Qingyuan
+  source: no-intro
 releases:
 - release:
     id: 27565
@@ -27,14 +34,34 @@ releases:
     kind_id: 27565
     language: 1
     name: Xing Zhan Qing Yuan (Ch)
+    deprecated: 1
+  - id: 260297
+    kind: 3
+    kind_id: 27565
+    language: 1
+    name: Xing Zhan Qingyuan (China) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 27547
       kind: 3
       kind_id: 27565
       type: 1
-      name: 外星战士 (中国版) (角色扮演)-Xing Zhan Qing Yuan (China) (Unl) + Xing Zhan Qing Yuan (Ch).nes
+      name: Xing Zhan Qingyuan (China) (Unl).nes
       format: 1
       size: 1048592
       blob_id: 72367
-      debug: 外星战士 (中国版) (角色扮演)-Xing Zhan Qing Yuan (China) (Unl) + Xing Zhan Qing Yuan (Ch).nes
+      debug: |-
+        外星战士 (中国版) (角色扮演)-Xing Zhan Qing Yuan (China) (Unl) + Xing Zhan Qing Yuan (Ch).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=6fa15dd888ab43b5c464ad1b5c1da5fbd426f035
+  - asset:
+      id: 140054
+      kind: 3
+      kind_id: 27565
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Xing%20Zhan%20Qingyuan%20%28China%29%20%28Unl%29.png
+      format: 1
+      size: 6272
+      blob_id: 325396
+      debug: libretro-named-titles:rom-asset=27547:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Xing%20Zhan%20Qingyuan%20%28China%29%20%28Unl%29.png

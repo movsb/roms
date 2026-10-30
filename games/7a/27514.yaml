@@ -23,17 +23,37 @@ releases:
     kind_id: 21701
     language: 1
     name: Spelunker (J) (VC)
+    deprecated: 1
+  - id: 259383
+    kind: 3
+    kind_id: 21701
+    language: 1
+    name: Spelunker (Japan) (Virtual Console)
+    source: no-intro
   assets:
   - asset:
       id: 21683
       kind: 3
       kind_id: 21701
       type: 1
-      name: Spelunker (J) (VC).nes
+      name: Spelunker (Japan) (Virtual Console).nes
       format: 1
       size: 40976
       blob_id: 67071
-      debug: Spelunker (J) (VC).nes
+      debug: |-
+        Spelunker (J) (VC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=df744a707873bb991cd7f28d47ab9b19d0bdaa9c
+  - asset:
+      id: 139764
+      kind: 3
+      kind_id: 21701
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Spelunker%20%28Japan%29%20%28Virtual%20Console%29.png
+      format: 1
+      size: 44786
+      blob_id: 325143
+      debug: libretro-named-titles:rom-asset=21683:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Spelunker%20%28Japan%29%20%28Virtual%20Console%29.png
 - release:
     id: 21704
     game_id: 27514
@@ -63,24 +83,32 @@ releases:
     kind_id: 21705
     language: 1
     name: Spelunker (U) [!]
+    deprecated: 1
   - id: 62477
     kind: 3
     kind_id: 21705
     language: 2
     name: 地底探险 (美版) (益智)-Spelunker (USA)
+  - id: 259384
+    kind: 3
+    kind_id: 21705
+    language: 1
+    name: Spelunker (USA)
+    source: no-intro
   assets:
   - asset:
       id: 21687
       kind: 3
       kind_id: 21705
       type: 1
-      name: Spelunker (U) [!].nes
+      name: Spelunker (USA).nes
       format: 1
       size: 40976
       blob_id: 67075
       debug: |-
         Spelunker (U) [!].zip
         地底探险 (美版) (益智)-Spelunker (USA) + Spelunker (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=0bb2c29b35517e08e5dcba6db9aae4b18055a84f
   - asset:
       id: 137325
       kind: 3
@@ -201,17 +229,37 @@ releases:
     kind_id: 21713
     language: 1
     name: Spelunker (UE) (VC)
+    deprecated: 1
+  - id: 259385
+    kind: 3
+    kind_id: 21713
+    language: 1
+    name: Spelunker (USA, Europe) (Virtual Console)
+    source: no-intro
   assets:
   - asset:
       id: 21695
       kind: 3
       kind_id: 21713
       type: 1
-      name: Spelunker (UE) (VC).nes
+      name: Spelunker (USA, Europe) (Virtual Console).nes
       format: 1
       size: 40976
       blob_id: 67083
-      debug: Spelunker (UE) (VC).nes
+      debug: |-
+        Spelunker (UE) (VC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=93ac2e9d974b1123b9291a26d36e2ff387afdf09
+  - asset:
+      id: 139765
+      kind: 3
+      kind_id: 21713
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Spelunker%20%28USA%2C%20Europe%29%20%28Virtual%20Console%29.png
+      format: 1
+      size: 44786
+      blob_id: 325144
+      debug: libretro-named-titles:rom-asset=21695:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Spelunker%20%28USA%2C%20Europe%29%20%28Virtual%20Console%29.png
 - release:
     id: 27511
     game_id: 27514
@@ -226,24 +274,32 @@ releases:
     kind_id: 27511
     language: 1
     name: Spelunker (J) [!]
+    deprecated: 1
   - id: 62486
     kind: 3
     kind_id: 27511
     language: 2
     name: 地底探险1
+  - id: 260284
+    kind: 3
+    kind_id: 27511
+    language: 1
+    name: Spelunker (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 27493
       kind: 3
       kind_id: 27511
       type: 1
-      name: 地底探险 (日版) (益智)-Spelunker (Japan) + Spelunker (J) [!].nes
+      name: Spelunker (Japan).nes
       format: 1
       size: 40976
       blob_id: 72338
       debug: |-
         地底探险 (日版) (益智)-Spelunker (Japan) + Spelunker (J) [!].nes
         地底探险1.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=57e44ef692ff5dd190a323abead26855174a979e
   - asset:
       id: 138883
       kind: 3

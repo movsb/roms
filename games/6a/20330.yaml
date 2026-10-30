@@ -12,11 +12,18 @@ names:
   kind_id: 20330
   language: 1
   name: Roger Clemens' MVP Baseball (U) [!]
+  deprecated: 1
 - id: 92904
   kind: 2
   kind_id: 20330
   language: 1
   name: Roger Clemens' MVP Baseball
+- id: 262062
+  kind: 2
+  kind_id: 20330
+  language: 1
+  name: Roger Clemens' MVP Baseball
+  source: no-intro
 releases:
 - release:
     id: 20330
@@ -27,24 +34,32 @@ releases:
     kind_id: 20330
     language: 1
     name: Roger Clemens' MVP Baseball (U) [!]
+    deprecated: 1
   - id: 68865
     kind: 3
     kind_id: 20330
     language: 2
     name: 罗杰克莱门斯之 MVP 棒球 (美版) (运动)-Roger Clemens MVP Baseball (USA)
+  - id: 259209
+    kind: 3
+    kind_id: 20330
+    language: 1
+    name: Roger Clemens' MVP Baseball (USA)
+    source: no-intro
   assets:
   - asset:
       id: 20312
       kind: 3
       kind_id: 20330
       type: 1
-      name: Roger Clemens' MVP Baseball (U) [!].nes
+      name: Roger Clemens' MVP Baseball (USA).nes
       format: 1
       size: 393232
       blob_id: 65780
       debug: |-
         Roger Clemens' MVP Baseball (U) [!].zip
         罗杰克莱门斯之 MVP 棒球 (美版) (运动)-Roger Clemens MVP Baseball (USA) + Roger Clemens' MVP Baseball (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=f65cc1b8a916e55b8ac025755ac6dc7fa3e40919
   - asset:
       id: 137260
       kind: 3

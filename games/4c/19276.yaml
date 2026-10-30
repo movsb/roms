@@ -12,11 +12,18 @@ names:
   kind_id: 19276
   language: 1
   name: Pro Sport Hockey (U) [!]
+  deprecated: 1
 - id: 92780
   kind: 2
   kind_id: 19276
   language: 1
   name: Pro Sport Hockey
+- id: 262013
+  kind: 2
+  kind_id: 19276
+  language: 1
+  name: Pro Sport Hockey
+  source: no-intro
 releases:
 - release:
     id: 19276
@@ -27,24 +34,32 @@ releases:
     kind_id: 19276
     language: 1
     name: Pro Sport Hockey (U) [!]
+    deprecated: 1
   - id: 68899
     kind: 3
     kind_id: 19276
     language: 2
     name: 美国冰上曲棍球 (美版) (运动)-Pro Sport Hockey (USA)
+  - id: 259094
+    kind: 3
+    kind_id: 19276
+    language: 1
+    name: Pro Sport Hockey (USA)
+    source: no-intro
   assets:
   - asset:
       id: 19258
       kind: 3
       kind_id: 19276
       type: 1
-      name: Pro Sport Hockey (U) [!].nes
+      name: Pro Sport Hockey (USA).nes
       format: 1
       size: 262160
       blob_id: 64782
       debug: |-
         Pro Sport Hockey (U) [!].zip
         美国冰上曲棍球 (美版) (运动)-Pro Sport Hockey (USA) + Pro Sport Hockey (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=82be2d76a4ee8c391d673977a27180c4283e55b1
   - asset:
       id: 137206
       kind: 3
@@ -65,17 +80,26 @@ releases:
     kind_id: 19278
     language: 1
     name: Pro Sport Hockey (U)
+    deprecated: 1
+  - id: 259095
+    kind: 3
+    kind_id: 19278
+    language: 1
+    name: Pro Sport Hockey (USA)
+    source: no-intro
   assets:
   - asset:
       id: 19260
       kind: 3
       kind_id: 19278
       type: 1
-      name: Pro Sport Hockey (U).nes
+      name: Pro Sport Hockey (USA).nes
       format: 1
       size: 262160
       blob_id: 64784
-      debug: Pro Sport Hockey (U).zip
+      debug: |-
+        Pro Sport Hockey (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=82be2d76a4ee8c391d673977a27180c4283e55b1
   - asset:
       id: 138625
       kind: 3

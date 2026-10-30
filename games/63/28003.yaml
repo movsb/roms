@@ -12,6 +12,13 @@ names:
   kind_id: 28003
   language: 1
   name: Lucky 777 (Sachen) [!]
+  deprecated: 1
+- id: 262864
+  kind: 2
+  kind_id: 28003
+  language: 1
+  name: 777 Lucky Bingo
+  source: no-intro
 releases:
 - release:
     id: 28003
@@ -27,14 +34,34 @@ releases:
     kind_id: 28003
     language: 1
     name: Lucky 777 (Sachen) [!]
+    deprecated: 1
+  - id: 260477
+    kind: 3
+    kind_id: 28003
+    language: 1
+    name: 777 Lucky Bingo (Asia) (En) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 27985
       kind: 3
       kind_id: 28003
       type: 1
-      name: 幸运宾果 777 (亚洲版) (博弈)-Lucky Bingo 777 (Asia) (PAL) (Unl) + Lucky 777 (Sachen) [!].nes
+      name: 777 Lucky Bingo (Asia) (En) (Unl).nes
       format: 1
       size: 32784
       blob_id: 72659
-      debug: 幸运宾果 777 (亚洲版) (博弈)-Lucky Bingo 777 (Asia) (PAL) (Unl) + Lucky 777 (Sachen) [!].nes
+      debug: |-
+        幸运宾果 777 (亚洲版) (博弈)-Lucky Bingo 777 (Asia) (PAL) (Unl) + Lucky 777 (Sachen) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=0ab0b9780ff4f7f74911fba1ca24e750f82443b5
+  - asset:
+      id: 140091
+      kind: 3
+      kind_id: 28003
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/777%20Lucky%20Bingo%20%28Asia%29%20%28En%29%20%28Unl%29.png
+      format: 1
+      size: 2139
+      blob_id: 325430
+      debug: libretro-named-titles:rom-asset=27985:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/777%20Lucky%20Bingo%20%28Asia%29%20%28En%29%20%28Unl%29.png

@@ -12,6 +12,13 @@ names:
   kind_id: 28945
   language: 1
   name: Excitebike (E) [!]
+  deprecated: 1
+- id: 263205
+  kind: 2
+  kind_id: 28945
+  language: 1
+  name: Excitebike
+  source: no-intro
 releases:
 - release:
     id: 28945
@@ -27,17 +34,26 @@ releases:
     kind_id: 28945
     language: 1
     name: Excitebike (E) [!]
+    deprecated: 1
+  - id: 260867
+    kind: 3
+    kind_id: 28945
+    language: 1
+    name: Excitebike (Europe)
+    source: no-intro
   assets:
   - asset:
       id: 28927
       kind: 3
       kind_id: 28945
       type: 1
-      name: 火爆机车赛 (欧版) (竞赛)-Excitebike (Europe) + Excitebike (E) [!].nes
+      name: Excitebike (Europe).nes
       format: 1
       size: 24592
       blob_id: 73275
-      debug: 火爆机车赛 (欧版) (竞赛)-Excitebike (Europe) + Excitebike (E) [!].nes
+      debug: |-
+        火爆机车赛 (欧版) (竞赛)-Excitebike (Europe) + Excitebike (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=6281d62c1cbb34b1734d20747a8e3d8de2af1443
   - asset:
       id: 137851
       kind: 3

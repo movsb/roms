@@ -27,17 +27,26 @@ releases:
     kind_id: 12419
     language: 1
     name: Golf (E-GC)
+    deprecated: 1
+  - id: 258344
+    kind: 3
+    kind_id: 12419
+    language: 1
+    name: Golf (Europe) (Animal Crossing)
+    source: no-intro
   assets:
   - asset:
       id: 12401
       kind: 3
       kind_id: 12419
       type: 1
-      name: Golf (E-GC).nes
+      name: Golf (Europe) (Animal Crossing).nes
       format: 1
       size: 24592
       blob_id: 58316
-      debug: Golf (E-GC).nes
+      debug: |-
+        Golf (E-GC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=1528be329e978047439f8a96a7825a42074267b8
 - release:
     id: 12426
     game_id: 12443
@@ -87,17 +96,26 @@ releases:
     kind_id: 12430
     language: 1
     name: Golf (J-AC)
+    deprecated: 1
+  - id: 258345
+    kind: 3
+    kind_id: 12430
+    language: 1
+    name: Golf (Japan) (En) (Animal Crossing)
+    source: no-intro
   assets:
   - asset:
       id: 12412
       kind: 3
       kind_id: 12430
       type: 1
-      name: Golf (J-AC).nes
+      name: Golf (Japan) (En) (Animal Crossing).nes
       format: 1
       size: 40976
       blob_id: 58327
-      debug: Golf (J-AC).nes
+      debug: |-
+        Golf (J-AC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=2c8380c6b121fcd541cd162998bb4d3ff540511c
 - release:
     id: 12431
     game_id: 12443
@@ -147,24 +165,32 @@ releases:
     kind_id: 12433
     language: 1
     name: Golf (U) [!]
+    deprecated: 1
   - id: 60505
     kind: 3
     kind_id: 12433
     language: 2
     name: 任天堂高尔夫 (美版) (运动)-Golf (USA)
+  - id: 258346
+    kind: 3
+    kind_id: 12433
+    language: 1
+    name: Golf (USA, Asia) (En)
+    source: no-intro
   assets:
   - asset:
       id: 12415
       kind: 3
       kind_id: 12433
       type: 1
-      name: Golf (U) [!].nes
+      name: Golf (USA, Asia) (En).nes
       format: 1
       size: 24592
       blob_id: 58330
       debug: |-
         Golf (U) [!].zip
         任天堂高尔夫 (美版) (运动)-Golf (USA) + Golf (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=d4f52d21ef6c872ffacea083161dbda0234924d5
   - asset:
       id: 136938
       kind: 3

@@ -7,6 +7,7 @@ names:
   kind_id: 25009
   language: 1
   name: Toobin (U)
+  deprecated: 1
 - id: 93419
   kind: 2
   kind_id: 25009
@@ -18,6 +19,12 @@ names:
   language: 2
   name: 轮胎漂流
   source: codex
+- id: 262251
+  kind: 2
+  kind_id: 25009
+  language: 1
+  name: Toobin'
+  source: no-intro
 releases:
 - release:
     id: 25009
@@ -28,23 +35,32 @@ releases:
     kind_id: 25009
     language: 1
     name: Toobin (U)
+    deprecated: 1
   - id: 55894
     kind: 3
     kind_id: 25009
     language: 1
     name: Toobin' (Tengen) [!]
+    deprecated: 1
   - id: 55902
     kind: 3
     kind_id: 25009
     language: 1
     name: Toobin' (Unl) [!p]
+    deprecated: 1
+  - id: 259681
+    kind: 3
+    kind_id: 25009
+    language: 1
+    name: Toobin' (USA) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 24991
       kind: 3
       kind_id: 25009
       type: 1
-      name: Toobin (U).nes
+      name: Toobin' (USA) (Unl).nes
       format: 1
       size: 196624
       blob_id: 70241
@@ -52,3 +68,15 @@ releases:
         Toobin (U).zip
         Toobin' (Tengen) [!].nes
         Toobin' (Unl) [!p].zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=577017fd038b0f5d0b2835e3259c2165d4860a21
+  - asset:
+      id: 139858
+      kind: 3
+      kind_id: 25009
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Toobin%27%20%28USA%29%20%28Unl%29.png
+      format: 1
+      size: 1518
+      blob_id: 325230
+      debug: libretro-named-titles:rom-asset=24991:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Toobin%27%20%28USA%29%20%28Unl%29.png

@@ -12,6 +12,13 @@ names:
   kind_id: 28492
   language: 1
   name: Star Wars (E) [!]
+  deprecated: 1
+- id: 263032
+  kind: 2
+  kind_id: 28492
+  language: 1
+  name: Star Wars
+  source: no-intro
 releases:
 - release:
     id: 28492
@@ -27,17 +34,26 @@ releases:
     kind_id: 28492
     language: 1
     name: Star Wars (E) [!]
+    deprecated: 1
+  - id: 260666
+    kind: 3
+    kind_id: 28492
+    language: 1
+    name: Star Wars (Europe)
+    source: no-intro
   assets:
   - asset:
       id: 28474
       kind: 3
       kind_id: 28492
       type: 1
-      name: 星际大战 (欧版) (动作)-Star Wars (Europe) + Star Wars (E) [!].nes
+      name: Star Wars (Europe).nes
       format: 1
       size: 262160
       blob_id: 72981
-      debug: 星际大战 (欧版) (动作)-Star Wars (Europe) + Star Wars (E) [!].nes
+      debug: |-
+        星际大战 (欧版) (动作)-Star Wars (Europe) + Star Wars (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=94a054c4a4c8faf300c8a9a8ec7ab190332d6db4
   - asset:
       id: 137775
       kind: 3

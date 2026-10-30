@@ -23,17 +23,37 @@ releases:
     kind_id: 17630
     language: 1
     name: Ninja Gaiden (E) (VC)
+    deprecated: 1
+  - id: 258944
+    kind: 3
+    kind_id: 17630
+    language: 1
+    name: "Shadow Warriors - Ninja Gaiden (Europe) (Virtual Console)"
+    source: no-intro
   assets:
   - asset:
       id: 17612
       kind: 3
       kind_id: 17630
       type: 1
-      name: Ninja Gaiden (E) (VC).nes
+      name: "Shadow Warriors - Ninja Gaiden (Europe) (Virtual Console).nes"
       format: 1
       size: 262160
       blob_id: 63207
-      debug: Ninja Gaiden (E) (VC).nes
+      debug: |-
+        Ninja Gaiden (E) (VC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=6ed4cf06495cc6d7c4a4bfd102e241b3e0c1747a
+  - asset:
+      id: 139637
+      kind: 3
+      kind_id: 17630
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Shadow%20Warriors%20-%20Ninja%20Gaiden%20%28Europe%29%20%28Virtual%20Console%29.png
+      format: 1
+      size: 3080
+      blob_id: 325038
+      debug: libretro-named-titles:rom-asset=17612:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Shadow%20Warriors%20-%20Ninja%20Gaiden%20%28Europe%29%20%28Virtual%20Console%29.png
 - release:
     id: 17631
     game_id: 28129
@@ -63,11 +83,13 @@ releases:
     kind_id: 17632
     language: 1
     name: Ninja Gaiden (U) [!]
+    deprecated: 1
   - id: 39416
     kind: 3
     kind_id: 17632
     language: 1
     name: Ninja Gaiden (U)
+    deprecated: 1
   - id: 39418
     kind: 3
     kind_id: 17632
@@ -78,13 +100,19 @@ releases:
     kind_id: 17632
     language: 2
     name: 忍者龙剑传 (美版) (动作)-Ninja Gaiden (USA)
+  - id: 258945
+    kind: 3
+    kind_id: 17632
+    language: 1
+    name: Ninja Gaiden (USA)
+    source: no-intro
   assets:
   - asset:
       id: 17614
       kind: 3
       kind_id: 17632
       type: 1
-      name: Ninja Gaiden (U) [!].nes
+      name: Ninja Gaiden (USA).nes
       format: 1
       size: 262160
       blob_id: 63209
@@ -93,6 +121,7 @@ releases:
         Ninja Gaiden (U).zip
         Ninja Gaiden (USA).zip
         忍者龙剑传 (美版) (动作)-Ninja Gaiden (USA) + Ninja Gaiden (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=15f245161179ab1959b7dc20e82add024d23aa3d
   - asset:
       id: 137160
       kind: 3
@@ -338,24 +367,43 @@ releases:
     kind_id: 28120
     language: 1
     name: Ninja Ryukenden (J) [!]
+    deprecated: 1
   - id: 64546
     kind: 3
     kind_id: 28120
     language: 2
     name: 忍者龙剑传1
+  - id: 260514
+    kind: 3
+    kind_id: 28120
+    language: 1
+    name: Ninja Ryuuken Den (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 28102
       kind: 3
       kind_id: 28120
       type: 1
-      name: 忍者龙剑传 (日版) (动作)-Ninja Ryukenden (Japan) + Ninja Ryukenden (J) [!].nes
+      name: Ninja Ryuuken Den (Japan).nes
       format: 1
       size: 262160
       blob_id: 72732
       debug: |-
         忍者龙剑传 (日版) (动作)-Ninja Ryukenden (Japan) + Ninja Ryukenden (J) [!].nes
         忍者龙剑传1.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=c7d971420d6a2679904f3eb4c0dabc25bcc80c72
+  - asset:
+      id: 140101
+      kind: 3
+      kind_id: 28120
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Ninja%20Ryuuken%20Den%20%28Japan%29.png
+      format: 1
+      size: 2149
+      blob_id: 325440
+      debug: libretro-named-titles:rom-asset=28102:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Ninja%20Ryuuken%20Den%20%28Japan%29.png
 - release:
     id: 28121
     game_id: 28129
@@ -370,17 +418,26 @@ releases:
     kind_id: 28121
     language: 1
     name: Shadow Warriors (E) [!]
+    deprecated: 1
+  - id: 260515
+    kind: 3
+    kind_id: 28121
+    language: 1
+    name: "Shadow Warriors - Ninja Gaiden (Europe)"
+    source: no-intro
   assets:
   - asset:
       id: 28103
       kind: 3
       kind_id: 28121
       type: 1
-      name: 忍者龙剑传 (欧版) (动作)-Shadow Warriors (Europe) + Shadow Warriors (E) [!].nes
+      name: "Shadow Warriors - Ninja Gaiden (Europe).nes"
       format: 1
       size: 262160
       blob_id: 72733
-      debug: 忍者龙剑传 (欧版) (动作)-Shadow Warriors (Europe) + Shadow Warriors (E) [!].nes
+      debug: |-
+        忍者龙剑传 (欧版) (动作)-Shadow Warriors (Europe) + Shadow Warriors (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=cf5155ed1dc701dabd70ee8959214d07e91d8dab
   - asset:
       id: 138961
       kind: 3

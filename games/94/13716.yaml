@@ -27,11 +27,13 @@ releases:
     kind_id: 13716
     language: 1
     name: Incredible Crash Dummies, The (U) [!p]
+    deprecated: 1
   - id: 30212
     kind: 3
     kind_id: 13716
     language: 1
     name: Incredible Crash Dummies, The (U)
+    deprecated: 1
   - id: 59919
     kind: 3
     kind_id: 13716
@@ -42,13 +44,20 @@ releases:
     kind_id: 13716
     language: 1
     name: Incredible Crash Dummies, The (U) [!]
+    deprecated: 1
+  - id: 258465
+    kind: 3
+    kind_id: 13716
+    language: 1
+    name: Incredible Crash Dummies, The (USA)
+    source: no-intro
   assets:
   - asset:
       id: 13698
       kind: 3
       kind_id: 13716
       type: 1
-      name: Incredible Crash Dummies, The (U) [!p].nes
+      name: Incredible Crash Dummies, The (USA).nes
       format: 1
       size: 393232
       blob_id: 59550
@@ -56,6 +65,18 @@ releases:
         Incredible Crash Dummies, The (U) [!p].zip
         Incredible Crash Dummies, The (U).zip
         不可思议之人偶 (美版) (动作)-Incredible Crash Dummies, The (USA) + Incredible Crash Dummies, The (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=c78f57623c4fcb10ddfda88e519362be87e432c0
+  - asset:
+      id: 139462
+      kind: 3
+      kind_id: 13716
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Incredible%20Crash%20Dummies%2C%20The%20%28USA%29.png
+      format: 1
+      size: 3504
+      blob_id: 324893
+      debug: libretro-named-titles:rom-asset=13698:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Incredible%20Crash%20Dummies%2C%20The%20%28USA%29.png
 - release:
     id: 13721
     game_id: 13716

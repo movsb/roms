@@ -23,17 +23,37 @@ releases:
     kind_id: 16197
     language: 1
     name: Megaman IV (E) (VC)
+    deprecated: 1
+  - id: 258763
+    kind: 3
+    kind_id: 16197
+    language: 1
+    name: Mega Man 4 (Europe) (Virtual Console)
+    source: no-intro
   assets:
   - asset:
       id: 16179
       kind: 3
       kind_id: 16197
       type: 1
-      name: Megaman IV (E) (VC).nes
+      name: Mega Man 4 (Europe) (Virtual Console).nes
       format: 1
       size: 524304
       blob_id: 61864
-      debug: Megaman IV (E) (VC).nes
+      debug: |-
+        Megaman IV (E) (VC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=ff0167b9196b44454fe3ebf0f39a9d48a1391d8d
+  - asset:
+      id: 139560
+      kind: 3
+      kind_id: 16197
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mega%20Man%204%20%28Europe%29%20%28Virtual%20Console%29.png
+      format: 1
+      size: 3208
+      blob_id: 324973
+      debug: libretro-named-titles:rom-asset=16179:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mega%20Man%204%20%28Europe%29%20%28Virtual%20Console%29.png
 - release:
     id: 16198
     game_id: 16197
@@ -223,19 +243,27 @@ releases:
     kind_id: 16214
     language: 1
     name: Megaman IV (U) (PRG1) [!]
+    deprecated: 1
+  - id: 258764
+    kind: 3
+    kind_id: 16214
+    language: 1
+    name: Mega Man 4 (USA) (Rev 1)
+    source: no-intro
   assets:
   - asset:
       id: 16196
       kind: 3
       kind_id: 16214
       type: 1
-      name: Megaman IV (U) (PRG1) [!].nes
+      name: Mega Man 4 (USA) (Rev 1).nes
       format: 1
       size: 524304
       blob_id: 61881
       debug: |-
         Megaman IV (U) (PRG1) [!].nes
         Megaman IV (U) (PRG1) [!].zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=c70db279964e0f835427ca0a406d54a45ae7783a
   - asset:
       id: 137103
       kind: 3
@@ -296,14 +324,34 @@ releases:
     kind_id: 16218
     language: 1
     name: Megaman IV (U) (VC)
+    deprecated: 1
+  - id: 258765
+    kind: 3
+    kind_id: 16218
+    language: 1
+    name: Mega Man 4 (USA) (Virtual Console)
+    source: no-intro
   assets:
   - asset:
       id: 16200
       kind: 3
       kind_id: 16218
       type: 1
-      name: Megaman IV (U) (VC).nes
+      name: Mega Man 4 (USA) (Virtual Console).nes
       format: 1
       size: 524304
       blob_id: 61884
-      debug: Megaman IV (U) (VC).nes
+      debug: |-
+        Megaman IV (U) (VC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=5d09ea3a2028683cbcc88235fc2784596af862b1
+  - asset:
+      id: 139561
+      kind: 3
+      kind_id: 16218
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mega%20Man%204%20%28USA%29%20%28Virtual%20Console%29.png
+      format: 1
+      size: 3208
+      blob_id: 324973
+      debug: libretro-named-titles:rom-asset=16200:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mega%20Man%204%20%28USA%29%20%28Virtual%20Console%29.png

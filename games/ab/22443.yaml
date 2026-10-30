@@ -7,12 +7,19 @@ names:
   kind_id: 22443
   language: 1
   name: Super Daisenryaku (Ch) (Wxn)
+  deprecated: 1
 - id: 248669
   kind: 2
   kind_id: 22443
   language: 2
   name: 超级大战略
   source: codex
+- id: 262179
+  kind: 2
+  kind_id: 22443
+  language: 1
+  name: Chaoji Dazhanlue
+  source: no-intro
 releases:
 - release:
     id: 22443
@@ -23,14 +30,34 @@ releases:
     kind_id: 22443
     language: 1
     name: Super Daisenryaku (Ch) (Wxn)
+    deprecated: 1
+  - id: 259484
+    kind: 3
+    kind_id: 22443
+    language: 1
+    name: Chaoji Dazhanlue (China) (970487) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 22425
       kind: 3
       kind_id: 22443
       type: 1
-      name: Super Daisenryaku (Ch) (Wxn).nes
+      name: Chaoji Dazhanlue (China) (970487) (Pirate).nes
       format: 1
       size: 524304
       blob_id: 67766
-      debug: Super Daisenryaku (Ch) (Wxn).nes
+      debug: |-
+        Super Daisenryaku (Ch) (Wxn).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=f65aef22e91109c145051f73fff65c689c49370d
+  - asset:
+      id: 139797
+      kind: 3
+      kind_id: 22443
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Chaoji%20Dazhanlue%20%28China%29%20%28970487%29%20%28Pirate%29.png
+      format: 1
+      size: 2326
+      blob_id: 325173
+      debug: libretro-named-titles:rom-asset=22425:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Chaoji%20Dazhanlue%20%28China%29%20%28970487%29%20%28Pirate%29.png

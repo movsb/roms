@@ -88,6 +88,7 @@ releases:
     kind_id: 8399
     language: 1
     name: Challenger (Japan)
+    deprecated: 1
   - id: 61247
     kind: 3
     kind_id: 8399
@@ -98,6 +99,13 @@ releases:
     kind_id: 8399
     language: 1
     name: Challenger (J) [!]
+    deprecated: 1
+  - id: 257876
+    kind: 3
+    kind_id: 8399
+    language: 1
+    name: Challenger (Japan) (En)
+    source: no-intro
   release_publishers:
   - release_id: 8399
     publisher_id: 115
@@ -107,13 +115,14 @@ releases:
       kind: 3
       kind_id: 8399
       type: 1
-      name: Challenger (Japan).nes
+      name: Challenger (Japan) (En).nes
       format: 1
       size: 40976
       blob_id: 54537
       debug: |-
         Challenger (Japan).zip
         列车寻宝 (日版) (动作)-Challenger (Japan) + Challenger (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=49eaebb4a208c630704485704546a9e1056f41ee
   - asset:
       id: 138256
       kind: 3

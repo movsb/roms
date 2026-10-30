@@ -13,6 +13,13 @@ names:
   language: 1
   name: Wagan Land
   source: codex
+  deprecated: 1
+- id: 263257
+  kind: 2
+  kind_id: 29150
+  language: 1
+  name: Wagyan Land
+  source: no-intro
 releases:
 - release:
     id: 29150
@@ -23,14 +30,33 @@ releases:
     kind_id: 29150
     language: 2
     name: 瓦强世界 (日版) (动作)-Wagan Land (Japan)
+  - id: 260928
+    kind: 3
+    kind_id: 29150
+    language: 1
+    name: Wagyan Land (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 29132
       kind: 3
       kind_id: 29150
       type: 1
-      name: 瓦强世界 (日版) (动作)-Wagan Land (Japan).nes
+      name: Wagyan Land (Japan).nes
       format: 1
       size: 196624
       blob_id: 73407
-      debug: 瓦强世界 (日版) (动作)-Wagan Land (Japan).nes
+      debug: |-
+        瓦强世界 (日版) (动作)-Wagan Land (Japan).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=a4b57c424744d232c059ed7745ed41b280dfd73b
+  - asset:
+      id: 140178
+      kind: 3
+      kind_id: 29150
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Wagyan%20Land%20%28Japan%29.png
+      format: 1
+      size: 2107
+      blob_id: 325501
+      debug: libretro-named-titles:rom-asset=29132:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Wagyan%20Land%20%28Japan%29.png

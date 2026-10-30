@@ -12,6 +12,13 @@ names:
   kind_id: 28260
   language: 1
   name: Zhan Guo Qun Xiong Zhuan (Ch)
+  deprecated: 1
+- id: 262934
+  kind: 2
+  kind_id: 28260
+  language: 1
+  name: Zhanguo Qunxiong Zhuan
+  source: no-intro
 releases:
 - release:
     id: 28260
@@ -27,14 +34,34 @@ releases:
     kind_id: 28260
     language: 1
     name: Zhan Guo Qun Xiong Zhuan (Ch)
+    deprecated: 1
+  - id: 260558
+    kind: 3
+    kind_id: 28260
+    language: 1
+    name: Zhanguo Qunxiong Zhuan (China) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 28242
       kind: 3
       kind_id: 28260
       type: 1
-      name: 战国群雄传[外星科技] + Zhan Guo Qun Xiong Zhuan (Ch).nes
+      name: Zhanguo Qunxiong Zhuan (China) (Unl).nes
       format: 1
       size: 524304
       blob_id: 72823
-      debug: 战国群雄传[外星科技] + Zhan Guo Qun Xiong Zhuan (Ch).nes
+      debug: |-
+        战国群雄传[外星科技] + Zhan Guo Qun Xiong Zhuan (Ch).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=94323ac90c195f5aee4a447e919a6c3ed1ea7535
+  - asset:
+      id: 140110
+      kind: 3
+      kind_id: 28260
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Zhanguo%20Qunxiong%20Zhuan%20%28China%29%20%28Unl%29.png
+      format: 1
+      size: 3987
+      blob_id: 325449
+      debug: libretro-named-titles:rom-asset=28242:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Zhanguo%20Qunxiong%20Zhuan%20%28China%29%20%28Unl%29.png

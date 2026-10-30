@@ -37,28 +37,37 @@ releases:
     kind_id: 23481
     language: 1
     name: TINYTOON
+    deprecated: 1
   - id: 55600
     kind: 3
     kind_id: 23481
     language: 1
     name: Tiny Toon Adventures (U) [!]
+    deprecated: 1
   - id: 55654
     kind: 3
     kind_id: 23481
     language: 1
     name: Tiny Toon Adventures (U)
+    deprecated: 1
   - id: 60849
     kind: 3
     kind_id: 23481
     language: 2
     name: 兔宝宝大冒险 (美版) (动作)-Tiny Toon Adventures (USA)
+  - id: 259570
+    kind: 3
+    kind_id: 23481
+    language: 1
+    name: Tiny Toon Adventures (USA)
+    source: no-intro
   assets:
   - asset:
       id: 23463
       kind: 3
       kind_id: 23481
       type: 1
-      name: TINYTOON.NES
+      name: Tiny Toon Adventures (USA).nes
       format: 1
       size: 262160
       blob_id: 68766
@@ -67,6 +76,18 @@ releases:
         Tiny Toon Adventures (U) [!].zip
         Tiny Toon Adventures (U).zip
         兔宝宝大冒险 (美版) (动作)-Tiny Toon Adventures (USA) + Tiny Toon Adventures (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=3c011e4ea5eb7e93299347f8009e5bdf51e223eb
+  - asset:
+      id: 139828
+      kind: 3
+      kind_id: 23481
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Tiny%20Toon%20Adventures%20%28USA%29.png
+      format: 1
+      size: 2729
+      blob_id: 325202
+      debug: libretro-named-titles:rom-asset=23463:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Tiny%20Toon%20Adventures%20%28USA%29.png
 - release:
     id: 24885
     game_id: 23481
@@ -76,17 +97,26 @@ releases:
     kind_id: 24885
     language: 1
     name: Tiny Toon Adventures (E) [!]
+    deprecated: 1
+  - id: 259665
+    kind: 3
+    kind_id: 24885
+    language: 1
+    name: Tiny Toon Adventures (Europe)
+    source: no-intro
   assets:
   - asset:
       id: 24867
       kind: 3
       kind_id: 24885
       type: 1
-      name: Tiny Toon Adventures (E) [!].nes
+      name: Tiny Toon Adventures (Europe).nes
       format: 1
       size: 262160
       blob_id: 70130
-      debug: Tiny Toon Adventures (E) [!].nes
+      debug: |-
+        Tiny Toon Adventures (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=e374e472b7071a23ca966c5f002b79c85106802e
   - asset:
       id: 137412
       kind: 3

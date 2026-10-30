@@ -22,18 +22,25 @@ releases:
     kind_id: 25850
     language: 1
     name: Wayne's World (U) [!]
+    deprecated: 1
   - id: 61862
     kind: 3
     kind_id: 25850
     language: 2
     name: 反斗智多星
+  - id: 259793
+    kind: 3
+    kind_id: 25850
+    language: 1
+    name: Wayne's World (USA)
+    source: no-intro
   assets:
   - asset:
       id: 25832
       kind: 3
       kind_id: 25850
       type: 1
-      name: Wayne's World (U) [!].nes
+      name: Wayne's World (USA).nes
       format: 1
       size: 262160
       blob_id: 71018
@@ -41,6 +48,7 @@ releases:
         Wayne's World (U) [!].zip
         反斗智多星.nes
         重复的/反斗智多星 (美版) (动作)-Waynes World (USA) + Wayne's World (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=173d301ef2d7076c53011601e2848ab35de9a9cb
   - asset:
       id: 137467
       kind: 3
@@ -81,17 +89,26 @@ releases:
     kind_id: 25855
     language: 1
     name: Wayne's World (U)
+    deprecated: 1
+  - id: 259794
+    kind: 3
+    kind_id: 25855
+    language: 1
+    name: Wayne's World (USA)
+    source: no-intro
   assets:
   - asset:
       id: 25837
       kind: 3
       kind_id: 25855
       type: 1
-      name: Wayne's World (U).nes
+      name: Wayne's World (USA).nes
       format: 1
       size: 262160
       blob_id: 71023
-      debug: Wayne's World (U).zip
+      debug: |-
+        Wayne's World (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=173d301ef2d7076c53011601e2848ab35de9a9cb
   - asset:
       id: 138758
       kind: 3

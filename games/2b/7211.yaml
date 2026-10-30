@@ -12,11 +12,18 @@ names:
   kind_id: 7211
   language: 1
   name: Bo Jackson Baseball (U) [!]
+  deprecated: 1
 - id: 91407
   kind: 2
   kind_id: 7211
   language: 1
   name: Bo Jackson Baseball
+- id: 261566
+  kind: 2
+  kind_id: 7211
+  language: 1
+  name: Bo Jackson Baseball
+  source: no-intro
 releases:
 - release:
     id: 7211
@@ -27,24 +34,32 @@ releases:
     kind_id: 7211
     language: 1
     name: Bo Jackson Baseball (U) [!]
+    deprecated: 1
   - id: 66813
     kind: 3
     kind_id: 7211
     language: 2
     name: 波杰克森棒球 (美版) (运动)-Bo Jackson Baseball (USA)
+  - id: 257798
+    kind: 3
+    kind_id: 7211
+    language: 1
+    name: Bo Jackson Baseball (USA)
+    source: no-intro
   assets:
   - asset:
       id: 7193
       kind: 3
       kind_id: 7211
       type: 1
-      name: Bo Jackson Baseball (U) [!].nes
+      name: Bo Jackson Baseball (USA).nes
       format: 1
       size: 393232
       blob_id: 53396
       debug: |-
         Bo Jackson Baseball (U) [!].zip
         波杰克森棒球 (美版) (运动)-Bo Jackson Baseball (USA) + Bo Jackson Baseball (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=b079346eaa7f465042724791d921d91df3299c02
   - asset:
       id: 136734
       kind: 3
@@ -65,17 +80,26 @@ releases:
     kind_id: 7220
     language: 1
     name: Bo Jackson Baseball (U)
+    deprecated: 1
+  - id: 257799
+    kind: 3
+    kind_id: 7220
+    language: 1
+    name: Bo Jackson Baseball (USA)
+    source: no-intro
   assets:
   - asset:
       id: 7202
       kind: 3
       kind_id: 7220
       type: 1
-      name: Bo Jackson Baseball (U).nes
+      name: Bo Jackson Baseball (USA).nes
       format: 1
       size: 393232
       blob_id: 53405
-      debug: Bo Jackson Baseball (U).zip
+      debug: |-
+        Bo Jackson Baseball (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=b079346eaa7f465042724791d921d91df3299c02
   - asset:
       id: 138457
       kind: 3

@@ -7,12 +7,19 @@ names:
   kind_id: 20036
   language: 1
   name: Robo_warrior
+  deprecated: 1
 - id: 248445
   kind: 2
   kind_id: 20036
   language: 2
   name: 机器人战士
   source: codex
+- id: 262058
+  kind: 2
+  kind_id: 20036
+  language: 1
+  name: Robo Warrior
+  source: no-intro
 releases:
 - release:
     id: 20036
@@ -23,14 +30,34 @@ releases:
     kind_id: 20036
     language: 1
     name: Robo_warrior
+    deprecated: 1
+  - id: 259190
+    kind: 3
+    kind_id: 20036
+    language: 1
+    name: Robo Warrior (USA)
+    source: no-intro
   assets:
   - asset:
       id: 20018
       kind: 3
       kind_id: 20036
       type: 1
-      name: Robo_warrior.nes
+      name: Robo Warrior (USA).nes
       format: 1
       size: 131088
       blob_id: 65493
-      debug: Robo_warrior.zip
+      debug: |-
+        Robo_warrior.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=dcbb5b66e27ba66d90a3f11d35fb968a63033e8f
+  - asset:
+      id: 139706
+      kind: 3
+      kind_id: 20036
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Robo%20Warrior%20%28USA%29.png
+      format: 1
+      size: 2113
+      blob_id: 325097
+      debug: libretro-named-titles:rom-asset=20018:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Robo%20Warrior%20%28USA%29.png

@@ -12,6 +12,13 @@ names:
   kind_id: 27620
   language: 1
   name: Da Hang Hai VII (Ch)
+  deprecated: 1
+- id: 262715
+  kind: 2
+  kind_id: 27620
+  language: 1
+  name: Da Hanghai VII
+  source: no-intro
 releases:
 - release:
     id: 27620
@@ -27,14 +34,34 @@ releases:
     kind_id: 27620
     language: 1
     name: Da Hang Hai VII (Ch)
+    deprecated: 1
+  - id: 260319
+    kind: 3
+    kind_id: 27620
+    language: 1
+    name: Da Hanghai VII (China) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 27602
       kind: 3
       kind_id: 27620
       type: 1
-      name: 大航海7 + Da Hang Hai VII (Ch).nes
+      name: Da Hanghai VII (China) (Unl).nes
       format: 1
       size: 524304
       blob_id: 72403
-      debug: 大航海7 + Da Hang Hai VII (Ch).nes
+      debug: |-
+        大航海7 + Da Hang Hai VII (Ch).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=ee32e57122256925af045584b063050938408ab3
+  - asset:
+      id: 140059
+      kind: 3
+      kind_id: 27620
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Da%20Hanghai%20VII%20%28China%29%20%28Unl%29.png
+      format: 1
+      size: 1346
+      blob_id: 325401
+      debug: libretro-named-titles:rom-asset=27602:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Da%20Hanghai%20VII%20%28China%29%20%28Unl%29.png

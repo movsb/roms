@@ -13,6 +13,13 @@ names:
   language: 1
   name: Lasa-r Ishii no Childs Quest
   source: codex
+  deprecated: 1
+- id: 262961
+  kind: 2
+  kind_id: 28330
+  language: 1
+  name: Lasalle Ishii no Child's Quest
+  source: no-intro
 releases:
 - release:
     id: 28330
@@ -23,14 +30,33 @@ releases:
     kind_id: 28330
     language: 2
     name: 拉尔萨石井之孩童历险记 (日版) (角色扮演)-Lasa-r Ishii no Childs Quest (Japan)
+  - id: 260587
+    kind: 3
+    kind_id: 28330
+    language: 1
+    name: Lasalle Ishii no Child's Quest (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 28312
       kind: 3
       kind_id: 28330
       type: 1
-      name: 拉尔萨石井之孩童历险记 (日版) (角色扮演)-Lasa-r Ishii no Childs Quest (Japan).nes
+      name: Lasalle Ishii no Child's Quest (Japan).nes
       format: 1
       size: 196624
       blob_id: 72869
-      debug: 拉尔萨石井之孩童历险记 (日版) (角色扮演)-Lasa-r Ishii no Childs Quest (Japan).nes
+      debug: |-
+        拉尔萨石井之孩童历险记 (日版) (角色扮演)-Lasa-r Ishii no Childs Quest (Japan).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=136ee001e85eeba653ca11bc2378bd4d219969cb
+  - asset:
+      id: 140114
+      kind: 3
+      kind_id: 28330
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Lasalle%20Ishii%20no%20Child%27s%20Quest%20%28Japan%29.png
+      format: 1
+      size: 1960
+      blob_id: 325452
+      debug: libretro-named-titles:rom-asset=28312:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Lasalle%20Ishii%20no%20Child%27s%20Quest%20%28Japan%29.png

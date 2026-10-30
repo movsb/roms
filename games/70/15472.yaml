@@ -27,17 +27,37 @@ releases:
     kind_id: 15472
     language: 1
     name: Mach Rider (E) (VC)
+    deprecated: 1
+  - id: 258689
+    kind: 3
+    kind_id: 15472
+    language: 1
+    name: Mach Rider (Europe) (Virtual Console)
+    source: no-intro
   assets:
   - asset:
       id: 15454
       kind: 3
       kind_id: 15472
       type: 1
-      name: Mach Rider (E) (VC).nes
+      name: Mach Rider (Europe) (Virtual Console).nes
       format: 1
       size: 40976
       blob_id: 61170
-      debug: Mach Rider (E) (VC).nes
+      debug: |-
+        Mach Rider (E) (VC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=86b5feb477669ebdfe4182330ba049d57bc6afe6
+  - asset:
+      id: 139537
+      kind: 3
+      kind_id: 15472
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mach%20Rider%20%28Europe%29%20%28Virtual%20Console%29.png
+      format: 1
+      size: 2760
+      blob_id: 324957
+      debug: libretro-named-titles:rom-asset=15454:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mach%20Rider%20%28Europe%29%20%28Virtual%20Console%29.png
 - release:
     id: 15473
     game_id: 15472
@@ -47,17 +67,37 @@ releases:
     kind_id: 15473
     language: 1
     name: Mach Rider (J) (VC)
+    deprecated: 1
+  - id: 258690
+    kind: 3
+    kind_id: 15473
+    language: 1
+    name: Mach Rider (Japan, USA) (En) (Rev 1) (Virtual Console)
+    source: no-intro
   assets:
   - asset:
       id: 15455
       kind: 3
       kind_id: 15473
       type: 1
-      name: Mach Rider (J) (VC).nes
+      name: Mach Rider (Japan, USA) (En) (Rev 1) (Virtual Console).nes
       format: 1
       size: 40976
       blob_id: 61171
-      debug: Mach Rider (J) (VC).nes
+      debug: |-
+        Mach Rider (J) (VC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=e2efb869252f992f21ae5430283a2a60df6aabc4
+  - asset:
+      id: 139538
+      kind: 3
+      kind_id: 15473
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mach%20Rider%20%28Japan%2C%20USA%29%20%28En%29%20%28Rev%201%29%20%28Virtual%20Console%29.png
+      format: 1
+      size: 2760
+      blob_id: 324957
+      debug: libretro-named-titles:rom-asset=15455:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mach%20Rider%20%28Japan%2C%20USA%29%20%28En%29%20%28Rev%201%29%20%28Virtual%20Console%29.png
 - release:
     id: 15474
     game_id: 15472
@@ -187,17 +227,37 @@ releases:
     kind_id: 15483
     language: 1
     name: Mach Rider (U) (VC)
+    deprecated: 1
+  - id: 258691
+    kind: 3
+    kind_id: 15483
+    language: 1
+    name: Mach Rider (Japan, USA) (En) (Virtual Console)
+    source: no-intro
   assets:
   - asset:
       id: 15465
       kind: 3
       kind_id: 15483
       type: 1
-      name: Mach Rider (U) (VC).nes
+      name: Mach Rider (Japan, USA) (En) (Virtual Console).nes
       format: 1
       size: 40976
       blob_id: 61181
-      debug: Mach Rider (U) (VC).nes
+      debug: |-
+        Mach Rider (U) (VC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=c5b2366e8a43accece0c8e8b628ecddcbe89b609
+  - asset:
+      id: 139539
+      kind: 3
+      kind_id: 15483
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mach%20Rider%20%28Japan%2C%20USA%29%20%28En%29%20%28Virtual%20Console%29.png
+      format: 1
+      size: 2760
+      blob_id: 324957
+      debug: libretro-named-titles:rom-asset=15465:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mach%20Rider%20%28Japan%2C%20USA%29%20%28En%29%20%28Virtual%20Console%29.png
 - release:
     id: 15484
     game_id: 15472
@@ -207,6 +267,7 @@ releases:
     kind_id: 15484
     language: 1
     name: Mach Rider (U) [!]
+    deprecated: 1
   - id: 70401
     kind: 3
     kind_id: 15484
@@ -217,19 +278,27 @@ releases:
     kind_id: 15484
     language: 1
     name: Mach Rider (JU) (PRG0) [!]
+    deprecated: 1
+  - id: 258692
+    kind: 3
+    kind_id: 15484
+    language: 1
+    name: Mach Rider (Japan, USA) (En)
+    source: no-intro
   assets:
   - asset:
       id: 15466
       kind: 3
       kind_id: 15484
       type: 1
-      name: Mach Rider (U) [!].nes
+      name: Mach Rider (Japan, USA) (En).nes
       format: 1
       size: 40976
       blob_id: 61182
       debug: |-
         Mach Rider (U) [!].zip
         超音速机车赛 (日版,美版) (竞赛)-Mach Rider (Japan, USA) + Mach Rider (JU) (PRG0) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=3959de9e2f63b34bc992a60ddcc73027f401dc64
   - asset:
       id: 137072
       kind: 3

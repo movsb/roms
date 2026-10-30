@@ -7,12 +7,19 @@ names:
   kind_id: 14917
   language: 1
   name: LAN Master by shiru (PD)
+  deprecated: 1
 - id: 253313
   kind: 2
   kind_id: 14917
   language: 2
   name: 局域网大师
   source: codex
+- id: 261842
+  kind: 2
+  kind_id: 14917
+  language: 1
+  name: LAN Master
+  source: no-intro
 releases:
 - release:
     id: 14917
@@ -23,14 +30,23 @@ releases:
     kind_id: 14917
     language: 1
     name: LAN Master by shiru (PD)
+    deprecated: 1
+  - id: 258610
+    kind: 3
+    kind_id: 14917
+    language: 1
+    name: LAN Master (World) (v1.1) (Aftermarket) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 14899
       kind: 3
       kind_id: 14917
       type: 1
-      name: LAN Master by shiru (PD).nes
+      name: LAN Master (World) (v1.1) (Aftermarket) (Unl).nes
       format: 1
       size: 40976
       blob_id: 60651
-      debug: LAN Master by shiru (PD).nes
+      debug: |-
+        LAN Master by shiru (PD).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=f6cf4bed6dc8b745c5b3a9664b297ee53ccfa260

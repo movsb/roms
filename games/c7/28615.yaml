@@ -12,6 +12,13 @@ names:
   kind_id: 28615
   language: 1
   name: "Gun Hed - Arutanaru Tatakai (J) [!]"
+  deprecated: 1
+- id: 263088
+  kind: 2
+  kind_id: 28615
+  language: 1
+  name: "Gunhed - Aratanaru Tatakai"
+  source: no-intro
 releases:
 - release:
     id: 28615
@@ -27,14 +34,32 @@ releases:
     kind_id: 28615
     language: 1
     name: "Gun Hed - Arutanaru Tatakai (J) [!]"
+    deprecated: 1
+  - id: 260727
+    kind: 3
+    kind_id: 28615
+    language: 1
+    name: "Gunhed - Aratanaru Tatakai (Japan)"
+    source: no-intro
   assets:
   - asset:
       id: 28597
       kind: 3
       kind_id: 28615
       type: 1
-      name: "机甲争霸战 (日版) (策略)-Gun Hed (Japan) + Gun Hed - Arutanaru Tatakai (J) [!].nes"
+      name: "Gunhed - Aratanaru Tatakai (Japan).nes"
       format: 1
       size: 262160
       blob_id: 73065
-      debug: "机甲争霸战 (日版) (策略)-Gun Hed (Japan) + Gun Hed - Arutanaru Tatakai (J) [!].nes"
+      debug: "机甲争霸战 (日版) (策略)-Gun Hed (Japan) + Gun Hed - Arutanaru Tatakai (J) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=b3d401a0032d33a6484b054f3776c906ba194d2c"
+  - asset:
+      id: 140137
+      kind: 3
+      kind_id: 28615
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Gunhed%20-%20Aratanaru%20Tatakai%20%28Japan%29.png
+      format: 1
+      size: 1062
+      blob_id: 325468
+      debug: libretro-named-titles:rom-asset=28597:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Gunhed%20-%20Aratanaru%20Tatakai%20%28Japan%29.png

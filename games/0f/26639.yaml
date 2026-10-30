@@ -67,17 +67,26 @@ releases:
     kind_id: 24599
     language: 1
     name: Tennis (J-AC)
+    deprecated: 1
+  - id: 259627
+    kind: 3
+    kind_id: 24599
+    language: 1
+    name: Tennis (Japan, USA) (En) (Animal Crossing)
+    source: no-intro
   assets:
   - asset:
       id: 24581
       kind: 3
       kind_id: 24599
       type: 1
-      name: Tennis (J-AC).nes
+      name: Tennis (Japan, USA) (En) (Animal Crossing).nes
       format: 1
       size: 40976
       blob_id: 69860
-      debug: Tennis (J-AC).nes
+      debug: |-
+        Tennis (J-AC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=de4b39d509875284e9ff024430608847b36aab6b
 - release:
     id: 24600
     game_id: 26639
@@ -267,17 +276,26 @@ releases:
     kind_id: 24616
     language: 1
     name: Tennis (U) (GBA e-Reader)
+    deprecated: 1
+  - id: 259628
+    kind: 3
+    kind_id: 24616
+    language: 1
+    name: Tennis (USA) (e-Reader)
+    source: no-intro
   assets:
   - asset:
       id: 24598
       kind: 3
       kind_id: 24616
       type: 1
-      name: Tennis (U) (GBA e-Reader).nes
+      name: Tennis (USA) (e-Reader).nes
       format: 1
       size: 24592
       blob_id: 69877
-      debug: Tennis (U) (GBA e-Reader).nes
+      debug: |-
+        Tennis (U) (GBA e-Reader).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=be19a9d749f82061746ed39d93ac6145ad0f3776
 - release:
     id: 24617
     game_id: 26639
@@ -287,6 +305,7 @@ releases:
     kind_id: 24617
     language: 1
     name: Tennis (U) [!]
+    deprecated: 1
   - id: 60397
     kind: 3
     kind_id: 24617
@@ -297,19 +316,27 @@ releases:
     kind_id: 24617
     language: 1
     name: Tennis (JU) [!]
+    deprecated: 1
+  - id: 259629
+    kind: 3
+    kind_id: 24617
+    language: 1
+    name: Tennis (Japan, USA) (En)
+    source: no-intro
   assets:
   - asset:
       id: 24599
       kind: 3
       kind_id: 24617
       type: 1
-      name: Tennis (U) [!].nes
+      name: Tennis (Japan, USA) (En).nes
       format: 1
       size: 24592
       blob_id: 69878
       debug: |-
         Tennis (U) [!].zip
         任天堂网球 (日版,美版) (运动)-Tennis (Japan, USA) + Tennis (JU) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=dc851c8dd5f7d6b402d1402c4239400a88382a1f
   - asset:
       id: 137399
       kind: 3
@@ -370,14 +397,34 @@ releases:
     kind_id: 26639
     language: 1
     name: tennis
+    deprecated: 1
+  - id: 259919
+    kind: 3
+    kind_id: 26639
+    language: 1
+    name: Tennis (Japan, USA) (En)
+    source: no-intro
   assets:
   - asset:
       id: 26621
       kind: 3
       kind_id: 26639
       type: 1
-      name: tennis.nes
+      name: Tennis (Japan, USA) (En).nes
       format: 1
       size: 24592
       blob_id: 71751
-      debug: tennis.zip
+      debug: |-
+        tennis.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=dc851c8dd5f7d6b402d1402c4239400a88382a1f
+  - asset:
+      id: 139950
+      kind: 3
+      kind_id: 26639
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Tennis%20%28Japan%2C%20USA%29%20%28En%29.png
+      format: 1
+      size: 2313
+      blob_id: 325309
+      debug: libretro-named-titles:rom-asset=26621:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Tennis%20%28Japan%2C%20USA%29%20%28En%29.png

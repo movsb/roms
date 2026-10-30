@@ -47,24 +47,32 @@ releases:
     kind_id: 21458
     language: 1
     name: Soccer (JU) [!]
+    deprecated: 1
   - id: 60413
     kind: 3
     kind_id: 21458
     language: 2
     name: 任天堂足球（世界）
+  - id: 259360
+    kind: 3
+    kind_id: 21458
+    language: 1
+    name: Soccer (Japan, USA) (En)
+    source: no-intro
   assets:
   - asset:
       id: 21440
       kind: 3
       kind_id: 21458
       type: 1
-      name: Soccer (JU) [!].nes
+      name: Soccer (Japan, USA) (En).nes
       format: 1
       size: 40976
       blob_id: 66839
       debug: |-
         Soccer (JU) [!].zip
         任天堂足球（世界） + Soccer (JU) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=a54e246f1c4e7336ed71aed2656288d943c6e36c
   - asset:
       id: 137321
       kind: 3
@@ -165,17 +173,26 @@ releases:
     kind_id: 21467
     language: 1
     name: Soccer (JU) [p3]
+    deprecated: 1
+  - id: 259361
+    kind: 3
+    kind_id: 21467
+    language: 1
+    name: Soccer (Asia) (En) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 21449
       kind: 3
       kind_id: 21467
       type: 1
-      name: Soccer (JU) [p3].nes
+      name: Soccer (Asia) (En) (Pirate).nes
       format: 1
       size: 40976
       blob_id: 66848
-      debug: Soccer (JU) [p3].nes
+      debug: |-
+        Soccer (JU) [p3].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=1e1911d96f1724ffda532a6fab8aacbbb39f0216
 - release:
     id: 21468
     game_id: 21469

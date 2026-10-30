@@ -12,6 +12,13 @@ names:
   kind_id: 28913
   language: 1
   name: Sqoon (J) (PRG1)
+  deprecated: 1
+- id: 263197
+  kind: 2
+  kind_id: 28913
+  language: 1
+  name: Sqoon
+  source: no-intro
 releases:
 - release:
     id: 28913
@@ -27,14 +34,34 @@ releases:
     kind_id: 28913
     language: 1
     name: Sqoon (J) (PRG1)
+    deprecated: 1
+  - id: 260857
+    kind: 3
+    kind_id: 28913
+    language: 1
+    name: Sqoon (Japan) (Rev 1)
+    source: no-intro
   assets:
   - asset:
       id: 28895
       kind: 3
       kind_id: 28913
       type: 1
-      name: 潜艇大作战 (日版)(Rev A) (射击)-Sqoon (Japan) (Rev A) + Sqoon (J) (PRG1).nes
+      name: Sqoon (Japan) (Rev 1).nes
       format: 1
       size: 40976
       blob_id: 73256
-      debug: 潜艇大作战 (日版)(Rev A) (射击)-Sqoon (Japan) (Rev A) + Sqoon (J) (PRG1).nes
+      debug: |-
+        潜艇大作战 (日版)(Rev A) (射击)-Sqoon (Japan) (Rev A) + Sqoon (J) (PRG1).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=5cd657fbc29d9646aed6460ff798b16d15482d4f
+  - asset:
+      id: 140164
+      kind: 3
+      kind_id: 28913
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Sqoon%20%28Japan%29%20%28Rev%201%29.png
+      format: 1
+      size: 57724
+      blob_id: 325490
+      debug: libretro-named-titles:rom-asset=28895:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Sqoon%20%28Japan%29%20%28Rev%201%29.png

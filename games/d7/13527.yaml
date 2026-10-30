@@ -183,17 +183,26 @@ releases:
     kind_id: 13537
     language: 1
     name: Ice Climber (U) (GBA e-Reader)
+    deprecated: 1
+  - id: 258443
+    kind: 3
+    kind_id: 13537
+    language: 1
+    name: Ice Climber (USA) (e-Reader)
+    source: no-intro
   assets:
   - asset:
       id: 13519
       kind: 3
       kind_id: 13537
       type: 1
-      name: Ice Climber (U) (GBA e-Reader).nes
+      name: Ice Climber (USA) (e-Reader).nes
       format: 1
       size: 24592
       blob_id: 59381
-      debug: Ice Climber (U) (GBA e-Reader).nes
+      debug: |-
+        Ice Climber (U) (GBA e-Reader).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=d3c6f2d47fdb80a7b177442499308c01155307f6
 - release:
     id: 13538
     game_id: 13527
@@ -203,28 +212,38 @@ releases:
     kind_id: 13538
     language: 1
     name: Ice Climber (U) [!]
+    deprecated: 1
   - id: 29782
     kind: 3
     kind_id: 13538
     language: 1
     name: Ice Climber (U)
+    deprecated: 1
   - id: 29784
     kind: 3
     kind_id: 13538
     language: 1
     name: Ice Climber (UE) [!]
+    deprecated: 1
   - id: 29810
     kind: 3
     kind_id: 13538
     language: 1
     name: Ice Climber (USA, Europe)
+    deprecated: 1
+  - id: 258444
+    kind: 3
+    kind_id: 13538
+    language: 1
+    name: Ice Climber (USA, Europe, Asia) (En)
+    source: no-intro
   assets:
   - asset:
       id: 13520
       kind: 3
       kind_id: 13538
       type: 1
-      name: Ice Climber (U) [!].nes
+      name: Ice Climber (USA, Europe, Asia) (En).nes
       format: 1
       size: 24592
       blob_id: 59382
@@ -233,6 +252,7 @@ releases:
         Ice Climber (U).zip
         Ice Climber (UE) [!].nes
         Ice Climber (USA, Europe).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=22d57ac6066529d199fcd299159d94820042c7d0
   - asset:
       id: 136973
       kind: 3

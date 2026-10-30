@@ -7,6 +7,7 @@ names:
   kind_id: 16014
   language: 1
   name: McDonaldLand [!]
+  deprecated: 1
 - id: 72145
   kind: 2
   kind_id: 16014
@@ -17,6 +18,13 @@ names:
   kind_id: 16014
   language: 1
   name: McDonaldLand (E) [!]
+  deprecated: 1
+- id: 261894
+  kind: 2
+  kind_id: 16014
+  language: 1
+  name: McDonaldland
+  source: no-intro
 releases:
 - release:
     id: 16014
@@ -27,6 +35,7 @@ releases:
     kind_id: 16014
     language: 1
     name: McDonaldLand [!]
+    deprecated: 1
   - id: 72147
     kind: 3
     kind_id: 16014
@@ -37,19 +46,27 @@ releases:
     kind_id: 16014
     language: 1
     name: McDonaldLand (E) [!]
+    deprecated: 1
+  - id: 258745
+    kind: 3
+    kind_id: 16014
+    language: 1
+    name: McDonaldland (Europe)
+    source: no-intro
   assets:
   - asset:
       id: 15996
       kind: 3
       kind_id: 16014
       type: 1
-      name: McDonaldLand [!].nes
+      name: McDonaldland (Europe).nes
       format: 1
       size: 262160
       blob_id: 61684
       debug: |-
         McDonaldLand [!].zip
         麦当劳小子 (欧版) (动作)-McDonaldland (Europe) + McDonaldLand (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=9d5560da31b39c3a14f5e671b1090489e31c5ff1
   - asset:
       id: 137097
       kind: 3

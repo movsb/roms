@@ -13,6 +13,12 @@ names:
   language: 2
   name: 真人快打
   source: codex
+- id: 261928
+  kind: 2
+  kind_id: 16993
+  language: 1
+  name: Mortal Kombat
+  source: no-intro
 releases:
 - release:
     id: 16993
@@ -23,17 +29,37 @@ releases:
     kind_id: 16993
     language: 1
     name: Mortal Kombat (JJ-01) (Ch) [!]
+    deprecated: 1
+  - id: 258862
+    kind: 3
+    kind_id: 16993
+    language: 1
+    name: Mortal Kombat (Asia) (En) (JJ-01) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 16975
       kind: 3
       kind_id: 16993
       type: 1
-      name: Mortal Kombat (JJ-01) (Ch) [!].nes
+      name: Mortal Kombat (Asia) (En) (JJ-01) (Pirate).nes
       format: 1
       size: 393232
       blob_id: 62603
-      debug: Mortal Kombat (JJ-01) (Ch) [!].nes
+      debug: |-
+        Mortal Kombat (JJ-01) (Ch) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=6dd1ff8afa29dcdbe6dd0aa31087c1d381922193
+  - asset:
+      id: 139605
+      kind: 3
+      kind_id: 16993
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mortal%20Kombat%20%28Asia%29%20%28En%29%20%28JJ-01%29%20%28Pirate%29.png
+      format: 1
+      size: 5365
+      blob_id: 325008
+      debug: libretro-named-titles:rom-asset=16975:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mortal%20Kombat%20%28Asia%29%20%28En%29%20%28JJ-01%29%20%28Pirate%29.png
 - release:
     id: 16994
     game_id: 16993
@@ -43,14 +69,34 @@ releases:
     kind_id: 16994
     language: 1
     name: Mortal Kombat (YY-01) (Ch) [!]
+    deprecated: 1
+  - id: 258863
+    kind: 3
+    kind_id: 16994
+    language: 1
+    name: Mortal Kombat (Asia) (En) (YY-01) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 16976
       kind: 3
       kind_id: 16994
       type: 1
-      name: Mortal Kombat (YY-01) (Ch) [!].nes
+      name: Mortal Kombat (Asia) (En) (YY-01) (Pirate).nes
       format: 1
       size: 393232
       blob_id: 62604
-      debug: Mortal Kombat (YY-01) (Ch) [!].nes
+      debug: |-
+        Mortal Kombat (YY-01) (Ch) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=e26201251c540aea66e971d7cc9d1d58fb5836c3
+  - asset:
+      id: 139606
+      kind: 3
+      kind_id: 16994
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mortal%20Kombat%20%28Asia%29%20%28En%29%20%28YY-01%29%20%28Pirate%29.png
+      format: 1
+      size: 3243
+      blob_id: 325009
+      debug: libretro-named-titles:rom-asset=16976:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mortal%20Kombat%20%28Asia%29%20%28En%29%20%28YY-01%29%20%28Pirate%29.png

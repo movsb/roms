@@ -7,12 +7,19 @@ names:
   kind_id: 17056
   language: 1
   name: Mortal Kombat V Turbo 30 People
+  deprecated: 1
 - id: 248249
   kind: 2
   kind_id: 17056
   language: 2
   name: 真人快打5 Turbo：30人版
   source: codex
+- id: 261936
+  kind: 2
+  kind_id: 17056
+  language: 1
+  name: "Mortal Kombat V Turbo - 30 People"
+  source: no-intro
 releases:
 - release:
     id: 17056
@@ -23,17 +30,26 @@ releases:
     kind_id: 17056
     language: 1
     name: Mortal Kombat V Turbo 30 People (VT-482) (Ch) [!]
+    deprecated: 1
+  - id: 258882
+    kind: 3
+    kind_id: 17056
+    language: 1
+    name: "Mortal Kombat V Turbo - 30 People (Asia) (En) (VT-482) (Pirate)"
+    source: no-intro
   assets:
   - asset:
       id: 17038
       kind: 3
       kind_id: 17056
       type: 1
-      name: Mortal Kombat V Turbo 30 People (VT-482) (Ch) [!].nes
+      name: "Mortal Kombat V Turbo - 30 People (Asia) (En) (VT-482) (Pirate).nes"
       format: 1
       size: 393232
       blob_id: 62656
-      debug: Mortal Kombat V Turbo 30 People (VT-482) (Ch) [!].nes
+      debug: |-
+        Mortal Kombat V Turbo 30 People (VT-482) (Ch) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=6676db9cf9153a32d177cca58f0cd1b35554e1d4
   - asset:
       id: 137142
       kind: 3
@@ -54,14 +70,34 @@ releases:
     kind_id: 17057
     language: 1
     name: Mortal Kombat V Turbo 30 People (ZR006) (Ch) [!]
+    deprecated: 1
+  - id: 258883
+    kind: 3
+    kind_id: 17057
+    language: 1
+    name: "Mortal Kombat V Turbo - 30 People (Asia) (En) (ZR006) (Pirate)"
+    source: no-intro
   assets:
   - asset:
       id: 17039
       kind: 3
       kind_id: 17057
       type: 1
-      name: Mortal Kombat V Turbo 30 People (ZR006) (Ch) [!].nes
+      name: "Mortal Kombat V Turbo - 30 People (Asia) (En) (ZR006) (Pirate).nes"
       format: 1
       size: 393232
       blob_id: 62657
-      debug: Mortal Kombat V Turbo 30 People (ZR006) (Ch) [!].nes
+      debug: |-
+        Mortal Kombat V Turbo 30 People (ZR006) (Ch) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=a34ad9c470cd65c377eecd392033b747b9afc149
+  - asset:
+      id: 139611
+      kind: 3
+      kind_id: 17057
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mortal%20Kombat%20V%20Turbo%20-%2030%20People%20%28Asia%29%20%28En%29%20%28ZR006%29%20%28Pirate%29.png
+      format: 1
+      size: 7379
+      blob_id: 325014
+      debug: libretro-named-titles:rom-asset=17039:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mortal%20Kombat%20V%20Turbo%20-%2030%20People%20%28Asia%29%20%28En%29%20%28ZR006%29%20%28Pirate%29.png

@@ -57,17 +57,26 @@ releases:
     kind_id: 18606
     language: 1
     name: Pac-Man (J) (V1.0) [p1]
+    deprecated: 1
+  - id: 258998
+    kind: 3
+    kind_id: 18606
+    language: 1
+    name: Pac-Man (Asia) (En) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 18588
       kind: 3
       kind_id: 18606
       type: 1
-      name: Pac-Man (J) (V1.0) [p1].nes
+      name: Pac-Man (Asia) (En) (Pirate).nes
       format: 1
       size: 24592
       blob_id: 64157
-      debug: Pac-Man (J) (V1.0) [p1].nes
+      debug: |-
+        Pac-Man (J) (V1.0) [p1].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=d7ee5df533b0c33128f0c0afd05e8edd42c0b1d7
 - release:
     id: 18611
     game_id: 18604
@@ -144,17 +153,37 @@ releases:
     kind_id: 18615
     language: 1
     name: Pac-Man (U) (Namco) (VC)
+    deprecated: 1
+  - id: 258999
+    kind: 3
+    kind_id: 18615
+    language: 1
+    name: Pac-Man (USA) (Namco) (Virtual Console)
+    source: no-intro
   assets:
   - asset:
       id: 18597
       kind: 3
       kind_id: 18615
       type: 1
-      name: Pac-Man (U) (Namco) (VC).nes
+      name: Pac-Man (USA) (Namco) (Virtual Console).nes
       format: 1
       size: 24592
       blob_id: 64166
-      debug: Pac-Man (U) (Namco) (VC).nes
+      debug: |-
+        Pac-Man (U) (Namco) (VC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=e273b2533c0d73efed21498564eb82b6b932a205
+  - asset:
+      id: 139659
+      kind: 3
+      kind_id: 18615
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Pac-Man%20%28USA%29%20%28Namco%29%20%28Virtual%20Console%29.png
+      format: 1
+      size: 1760
+      blob_id: 325056
+      debug: libretro-named-titles:rom-asset=18597:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Pac-Man%20%28USA%29%20%28Namco%29%20%28Virtual%20Console%29.png
 - release:
     id: 18616
     game_id: 18604
@@ -164,11 +193,13 @@ releases:
     kind_id: 18616
     language: 1
     name: Pac-Man (U) (Namco) [!p]
+    deprecated: 1
   - id: 41518
     kind: 3
     kind_id: 18616
     language: 1
     name: Pac-Man (U) (Namco)
+    deprecated: 1
   - id: 63639
     kind: 3
     kind_id: 18616
@@ -179,13 +210,20 @@ releases:
     kind_id: 18616
     language: 1
     name: Pac-Man (U) (Namco) [!]
+    deprecated: 1
+  - id: 259000
+    kind: 3
+    kind_id: 18616
+    language: 1
+    name: Pac-Man (USA) (Namco)
+    source: no-intro
   assets:
   - asset:
       id: 18598
       kind: 3
       kind_id: 18616
       type: 1
-      name: Pac-Man (U) (Namco) [!p].nes
+      name: Pac-Man (USA) (Namco).nes
       format: 1
       size: 24592
       blob_id: 64167
@@ -193,6 +231,18 @@ releases:
         Pac-Man (U) (Namco) [!p].zip
         Pac-Man (U) (Namco).zip
         小精灵 (美版) (Namco) (动作)-Pac-Man (USA) (Namco) + Pac-Man (U) (Namco) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=92c3361b9e3b28a51fd30e7845c988a6d576ee65
+  - asset:
+      id: 139660
+      kind: 3
+      kind_id: 18616
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Pac-Man%20%28USA%29%20%28Namco%29.png
+      format: 1
+      size: 1555
+      blob_id: 325057
+      debug: libretro-named-titles:rom-asset=18598:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Pac-Man%20%28USA%29%20%28Namco%29.png
 - release:
     id: 18619
     game_id: 18604
@@ -252,6 +302,13 @@ releases:
     kind_id: 18623
     language: 1
     name: Pac-Man (U) (Tengen) [!]
+    deprecated: 1
+  - id: 259001
+    kind: 3
+    kind_id: 18623
+    language: 1
+    name: Pac-Man (USA) (Tengen)
+    source: no-intro
   assets:
   - asset:
       id: 18605
@@ -265,6 +322,7 @@ releases:
       debug: |-
         Pac-Man (USA) (Tengen).zip
         小精灵 (美版) (Tengen) (动作)-Pac-Man (USA) (Tengen) + Pac-Man (U) (Tengen) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=a34e68372082513209a795786c8eea493cc2cd14
   - asset:
       id: 138611
       kind: 3
@@ -285,6 +343,7 @@ releases:
     kind_id: 18625
     language: 1
     name: Pac-Man (Unl) [!]
+    deprecated: 1
   - id: 63643
     kind: 3
     kind_id: 18625
@@ -295,16 +354,35 @@ releases:
     kind_id: 18625
     language: 1
     name: Pac-Man (Unl) (Tengen) [!]
+    deprecated: 1
+  - id: 259002
+    kind: 3
+    kind_id: 18625
+    language: 1
+    name: Pac-Man (USA) (Tengen) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 18607
       kind: 3
       kind_id: 18625
       type: 1
-      name: Pac-Man (Unl) [!].nes
+      name: Pac-Man (USA) (Tengen) (Unl).nes
       format: 1
       size: 24592
       blob_id: 64175
       debug: |-
         Pac-Man (Unl) [!].zip
         小精灵 (美版) (Tengen) (动作)-Pac-Man (USA) (Tengen) (Unl) + Pac-Man (Unl) (Tengen) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=ab5dc98f1d6d220708f5dec4e87bec175bb635ab
+  - asset:
+      id: 139661
+      kind: 3
+      kind_id: 18625
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Pac-Man%20%28USA%29%20%28Tengen%29%20%28Unl%29.png
+      format: 1
+      size: 1269
+      blob_id: 325058
+      debug: libretro-named-titles:rom-asset=18607:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Pac-Man%20%28USA%29%20%28Tengen%29%20%28Unl%29.png

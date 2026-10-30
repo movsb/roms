@@ -12,11 +12,19 @@ names:
   kind_id: 6460
   language: 1
   name: "Base Wars - Cyber Stadium Series (U) [!]"
+  deprecated: 1
 - id: 91320
   kind: 2
   kind_id: 6460
   language: 1
   name: Base Wars
+  deprecated: 1
+- id: 261533
+  kind: 2
+  kind_id: 6460
+  language: 1
+  name: "Cyber Stadium Series - Base Wars"
+  source: no-intro
 releases:
 - release:
     id: 6460
@@ -27,6 +35,7 @@ releases:
     kind_id: 6460
     language: 1
     name: Base Wars (U) [!]
+    deprecated: 1
   - id: 66055
     kind: 3
     kind_id: 6460
@@ -37,17 +46,24 @@ releases:
     kind_id: 6460
     language: 1
     name: "Base Wars - Cyber Stadium Series (U) [!]"
+    deprecated: 1
+  - id: 257712
+    kind: 3
+    kind_id: 6460
+    language: 1
+    name: "Cyber Stadium Series - Base Wars (USA)"
+    source: no-intro
   assets:
   - asset:
       id: 6442
       kind: 3
       kind_id: 6460
       type: 1
-      name: Base Wars (U) [!].nes
+      name: "Cyber Stadium Series - Base Wars (USA).nes"
       format: 1
       size: 262160
       blob_id: 52694
-      debug: "Base Wars (U) [!].zip\n机器人棒球 (美版) (运动)-Base Wars - Cyber Stadium Series (USA) + Base Wars - Cyber Stadium Series (U) [!].nes"
+      debug: "Base Wars (U) [!].zip\n机器人棒球 (美版) (运动)-Base Wars - Cyber Stadium Series (USA) + Base Wars - Cyber Stadium Series (U) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=dbf2d8477836e6a372cdd191eb26a365fe602aef"
   - asset:
       id: 136702
       kind: 3
@@ -68,14 +84,34 @@ releases:
     kind_id: 6461
     language: 1
     name: Base Wars (U)
+    deprecated: 1
+  - id: 257713
+    kind: 3
+    kind_id: 6461
+    language: 1
+    name: "Cyber Stadium Series - Base Wars (USA)"
+    source: no-intro
   assets:
   - asset:
       id: 6443
       kind: 3
       kind_id: 6461
       type: 1
-      name: Base Wars (U).nes
+      name: "Cyber Stadium Series - Base Wars (USA).nes"
       format: 1
       size: 262160
       blob_id: 52695
-      debug: Base Wars (U).zip
+      debug: |-
+        Base Wars (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=dbf2d8477836e6a372cdd191eb26a365fe602aef
+  - asset:
+      id: 139314
+      kind: 3
+      kind_id: 6461
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Cyber%20Stadium%20Series%20-%20Base%20Wars%20%28USA%29.png
+      format: 1
+      size: 2560
+      blob_id: 324766
+      debug: libretro-named-titles:rom-asset=6443:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Cyber%20Stadium%20Series%20-%20Base%20Wars%20%28USA%29.png

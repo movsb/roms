@@ -23,17 +23,26 @@ releases:
     kind_id: 14043
     language: 1
     name: Jimmy Connor's Tennis (E) [!]
+    deprecated: 1
+  - id: 258511
+    kind: 3
+    kind_id: 14043
+    language: 1
+    name: Jimmy Connors Tennis (Europe)
+    source: no-intro
   assets:
   - asset:
       id: 14025
       kind: 3
       kind_id: 14043
       type: 1
-      name: Jimmy Connor's Tennis (E) [!].nes
+      name: Jimmy Connors Tennis (Europe).nes
       format: 1
       size: 131088
       blob_id: 59845
-      debug: Jimmy Connor's Tennis (E) [!].nes
+      debug: |-
+        Jimmy Connor's Tennis (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=a18e5d125ac4b057b3ec3ef3f0267577ef05f910
   - asset:
       id: 136999
       kind: 3
@@ -54,17 +63,37 @@ releases:
     kind_id: 14044
     language: 1
     name: Jimmy Connor's Tennis (R) [!]
+    deprecated: 1
+  - id: 258512
+    kind: 3
+    kind_id: 14044
+    language: 1
+    name: Jimmy Connors Tennis (Russia) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 14026
       kind: 3
       kind_id: 14044
       type: 1
-      name: Jimmy Connor's Tennis (R) [!].nes
+      name: Jimmy Connors Tennis (Russia) (Pirate).nes
       format: 1
       size: 131088
       blob_id: 59846
-      debug: Jimmy Connor's Tennis (R) [!].nes
+      debug: |-
+        Jimmy Connor's Tennis (R) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=300d617b0c7a516784908dc2f3d72ae1f1f432ff
+  - asset:
+      id: 139478
+      kind: 3
+      kind_id: 14044
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Jimmy%20Connors%20Tennis%20%28Russia%29%20%28Pirate%29.png
+      format: 1
+      size: 9190
+      blob_id: 324909
+      debug: libretro-named-titles:rom-asset=14026:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Jimmy%20Connors%20Tennis%20%28Russia%29%20%28Pirate%29.png
 - release:
     id: 14045
     game_id: 14043
@@ -74,23 +103,32 @@ releases:
     kind_id: 14045
     language: 1
     name: Jimmy Connor's Tennis (U) [!]
+    deprecated: 1
   - id: 30962
     kind: 3
     kind_id: 14045
     language: 1
     name: Jimmy Connor's Tennis (U) [!p]
+    deprecated: 1
   - id: 30970
     kind: 3
     kind_id: 14045
     language: 1
     name: Jimmy Connor's Tennis (U)
+    deprecated: 1
+  - id: 258513
+    kind: 3
+    kind_id: 14045
+    language: 1
+    name: Jimmy Connors Tennis (USA)
+    source: no-intro
   assets:
   - asset:
       id: 14027
       kind: 3
       kind_id: 14045
       type: 1
-      name: Jimmy Connor's Tennis (U) [!].nes
+      name: Jimmy Connors Tennis (USA).nes
       format: 1
       size: 131088
       blob_id: 59847
@@ -98,6 +136,18 @@ releases:
         Jimmy Connor's Tennis (U) [!].nes
         Jimmy Connor's Tennis (U) [!p].zip
         Jimmy Connor's Tennis (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=8957393a397db102bce5a64b4d85384d1f2e5d20
+  - asset:
+      id: 139479
+      kind: 3
+      kind_id: 14045
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Jimmy%20Connors%20Tennis%20%28USA%29.png
+      format: 1
+      size: 3815
+      blob_id: 324341
+      debug: libretro-named-titles:rom-asset=14027:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Jimmy%20Connors%20Tennis%20%28USA%29.png
 - release:
     id: 14049
     game_id: 14043

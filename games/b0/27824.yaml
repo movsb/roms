@@ -12,6 +12,13 @@ names:
   kind_id: 27824
   language: 1
   name: Silent Assault (Sachen-Joy Van) [!]
+  deprecated: 1
+- id: 262795
+  kind: 2
+  kind_id: 27824
+  language: 1
+  name: Silent Assault
+  source: no-intro
 releases:
 - release:
     id: 27824
@@ -27,14 +34,34 @@ releases:
     kind_id: 27824
     language: 1
     name: Silent Assault (Sachen-Joy Van) [!]
+    deprecated: 1
+  - id: 260404
+    kind: 3
+    kind_id: 27824
+    language: 1
+    name: Silent Assault (Asia) (En) (72 pin cart) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 27806
       kind: 3
       kind_id: 27824
       type: 1
-      name: 寂静突袭队 (亚洲版) (动作)-Silent Assault (Asia) (PAL) (Unl) + Silent Assault (Sachen-Joy Van) [!].nes
+      name: Silent Assault (Asia) (En) (72 pin cart) (Unl).nes
       format: 1
       size: 131088
       blob_id: 72543
-      debug: 寂静突袭队 (亚洲版) (动作)-Silent Assault (Asia) (PAL) (Unl) + Silent Assault (Sachen-Joy Van) [!].nes
+      debug: |-
+        寂静突袭队 (亚洲版) (动作)-Silent Assault (Asia) (PAL) (Unl) + Silent Assault (Sachen-Joy Van) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=7117413766abc02f3bb767c2ce96065b6f3cba85
+  - asset:
+      id: 140077
+      kind: 3
+      kind_id: 27824
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Silent%20Assault%20%28Asia%29%20%28En%29%20%2872%20pin%20cart%29%20%28Unl%29.png
+      format: 1
+      size: 6263
+      blob_id: 325417
+      debug: libretro-named-titles:rom-asset=27806:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Silent%20Assault%20%28Asia%29%20%28En%29%20%2872%20pin%20cart%29%20%28Unl%29.png

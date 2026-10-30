@@ -12,6 +12,13 @@ names:
   kind_id: 26877
   language: 1
   name: Soccer (E) [!]
+  deprecated: 1
+- id: 262448
+  kind: 2
+  kind_id: 26877
+  language: 1
+  name: Soccer
+  source: no-intro
 releases:
 - release:
     id: 26877
@@ -27,17 +34,26 @@ releases:
     kind_id: 26877
     language: 1
     name: Soccer (E) [!]
+    deprecated: 1
+  - id: 260026
+    kind: 3
+    kind_id: 26877
+    language: 1
+    name: Soccer (Europe)
+    source: no-intro
   assets:
   - asset:
       id: 26859
       kind: 3
       kind_id: 26877
       type: 1
-      name: 任天堂足球 (欧版)(Rev A) (运动)-Soccer (Europe) (Rev A) + Soccer (E) [!].nes
+      name: Soccer (Europe).nes
       format: 1
       size: 40976
       blob_id: 71912
-      debug: 任天堂足球 (欧版)(Rev A) (运动)-Soccer (Europe) (Rev A) + Soccer (E) [!].nes
+      debug: |-
+        任天堂足球 (欧版)(Rev A) (运动)-Soccer (Europe) (Rev A) + Soccer (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=65e12a86355aa7cf89fbf212ded36ec77b6e1e2d
   - asset:
       id: 137537
       kind: 3

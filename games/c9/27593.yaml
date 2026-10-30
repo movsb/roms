@@ -12,6 +12,13 @@ names:
   kind_id: 27593
   language: 1
   name: Great Tank (J)
+  deprecated: 1
+- id: 262701
+  kind: 2
+  kind_id: 27593
+  language: 1
+  name: Great Tank
+  source: no-intro
 releases:
 - release:
     id: 27593
@@ -27,17 +34,26 @@ releases:
     kind_id: 27593
     language: 1
     name: Great Tank (J)
+    deprecated: 1
+  - id: 260305
+    kind: 3
+    kind_id: 27593
+    language: 1
+    name: Great Tank (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 27575
       kind: 3
       kind_id: 27593
       type: 1
-      name: 大坦克 (日版) (动作射击)-Great Tank (Japan) + Great Tank (J).nes
+      name: Great Tank (Japan).nes
       format: 1
       size: 262160
       blob_id: 72386
-      debug: 大坦克 (日版) (动作射击)-Great Tank (Japan) + Great Tank (J).nes
+      debug: |-
+        大坦克 (日版) (动作射击)-Great Tank (Japan) + Great Tank (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=060fb59a6c4c7f8e4744ce6ae44263238d7ab10e
   - asset:
       id: 138889
       kind: 3

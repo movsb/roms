@@ -12,6 +12,13 @@ names:
   kind_id: 28500
   language: 1
   name: Star Soldier (J) [!]
+  deprecated: 1
+- id: 263035
+  kind: 2
+  kind_id: 28500
+  language: 1
+  name: Star Soldier
+  source: no-intro
 releases:
 - release:
     id: 28500
@@ -27,17 +34,26 @@ releases:
     kind_id: 28500
     language: 1
     name: Star Soldier (J) [!]
+    deprecated: 1
+  - id: 260669
+    kind: 3
+    kind_id: 28500
+    language: 1
+    name: Star Soldier (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 28482
       kind: 3
       kind_id: 28500
       type: 1
-      name: 星际战机 (日版) (射击)-Star Soldier (Japan) + Star Soldier (J) [!].nes
+      name: Star Soldier (Japan).nes
       format: 1
       size: 65552
       blob_id: 72986
-      debug: 星际战机 (日版) (射击)-Star Soldier (Japan) + Star Soldier (J) [!].nes
+      debug: |-
+        星际战机 (日版) (射击)-Star Soldier (Japan) + Star Soldier (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=f6d26fd9c06ec1637b44881287dc1115d6f5f4c9
   - asset:
       id: 137778
       kind: 3

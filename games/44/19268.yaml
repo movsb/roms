@@ -12,11 +12,19 @@ names:
   kind_id: 19268
   language: 1
   name: Princess Tomato in Salad Kingdom (U) [!]
+  deprecated: 1
 - id: 92778
   kind: 2
   kind_id: 19268
   language: 1
   name: Princess Tomato in Salad Kingdom
+  deprecated: 1
+- id: 262012
+  kind: 2
+  kind_id: 19268
+  language: 1
+  name: Princess Tomato in the Salad Kingdom
+  source: no-intro
 releases:
 - release:
     id: 19268
@@ -27,17 +35,37 @@ releases:
     kind_id: 19268
     language: 1
     name: Princess Tomato in Salad Kingdom (U) (VC)
+    deprecated: 1
+  - id: 259091
+    kind: 3
+    kind_id: 19268
+    language: 1
+    name: Princess Tomato in the Salad Kingdom (USA) (Virtual Console)
+    source: no-intro
   assets:
   - asset:
       id: 19250
       kind: 3
       kind_id: 19268
       type: 1
-      name: Princess Tomato in Salad Kingdom (U) (VC).nes
+      name: Princess Tomato in the Salad Kingdom (USA) (Virtual Console).nes
       format: 1
       size: 262160
       blob_id: 64774
-      debug: Princess Tomato in Salad Kingdom (U) (VC).nes
+      debug: |-
+        Princess Tomato in Salad Kingdom (U) (VC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=539a2e7e0cdb329f99f0a7c3347904241fa053c5
+  - asset:
+      id: 139680
+      kind: 3
+      kind_id: 19268
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Princess%20Tomato%20in%20the%20Salad%20Kingdom%20%28USA%29%20%28Virtual%20Console%29.png
+      format: 1
+      size: 3920
+      blob_id: 325076
+      debug: libretro-named-titles:rom-asset=19250:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Princess%20Tomato%20in%20the%20Salad%20Kingdom%20%28USA%29%20%28Virtual%20Console%29.png
 - release:
     id: 19269
     game_id: 19268
@@ -47,24 +75,32 @@ releases:
     kind_id: 19269
     language: 1
     name: Princess Tomato in Salad Kingdom (U) [!]
+    deprecated: 1
   - id: 69453
     kind: 3
     kind_id: 19269
     language: 2
     name: 蕃茄公主 (美版) (解谜)-Princess Tomato in Salad Kingdom (USA)
+  - id: 259092
+    kind: 3
+    kind_id: 19269
+    language: 1
+    name: Princess Tomato in the Salad Kingdom (USA)
+    source: no-intro
   assets:
   - asset:
       id: 19251
       kind: 3
       kind_id: 19269
       type: 1
-      name: Princess Tomato in Salad Kingdom (U) [!].nes
+      name: Princess Tomato in the Salad Kingdom (USA).nes
       format: 1
       size: 262160
       blob_id: 64775
       debug: |-
         Princess Tomato in Salad Kingdom (U) [!].zip
         蕃茄公主 (美版) (解谜)-Princess Tomato in Salad Kingdom (USA) + Princess Tomato in Salad Kingdom (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=6dd9020fd8d525a87be93f3a0e1a87d12100475e
   - asset:
       id: 137205
       kind: 3
@@ -85,14 +121,34 @@ releases:
     kind_id: 19273
     language: 1
     name: Princess Tomato in Salad Kingdom (U)
+    deprecated: 1
+  - id: 259093
+    kind: 3
+    kind_id: 19273
+    language: 1
+    name: Princess Tomato in the Salad Kingdom (USA)
+    source: no-intro
   assets:
   - asset:
       id: 19255
       kind: 3
       kind_id: 19273
       type: 1
-      name: Princess Tomato in Salad Kingdom (U).nes
+      name: Princess Tomato in the Salad Kingdom (USA).nes
       format: 1
       size: 262160
       blob_id: 64779
-      debug: Princess Tomato in Salad Kingdom (U).zip
+      debug: |-
+        Princess Tomato in Salad Kingdom (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=6dd9020fd8d525a87be93f3a0e1a87d12100475e
+  - asset:
+      id: 139681
+      kind: 3
+      kind_id: 19273
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Princess%20Tomato%20in%20the%20Salad%20Kingdom%20%28USA%29.png
+      format: 1
+      size: 2699
+      blob_id: 325077
+      debug: libretro-named-titles:rom-asset=19255:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Princess%20Tomato%20in%20the%20Salad%20Kingdom%20%28USA%29.png

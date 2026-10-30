@@ -7,12 +7,19 @@ names:
   kind_id: 13284
   language: 1
   name: "Home Run Nighter '90 - The Pennant League"
+  deprecated: 1
 - id: 247927
   kind: 2
   kind_id: 13284
   language: 2
   name: 全垒打之夜90：优胜联盟
   source: codex
+- id: 261774
+  kind: 2
+  kind_id: 13284
+  language: 1
+  name: "Pennant League, The - Home Run Nighter '90"
+  source: no-intro
 releases:
 - release:
     id: 13286
@@ -23,14 +30,32 @@ releases:
     kind_id: 13286
     language: 1
     name: "Home Run Nighter '90 - The Pennant League (J)"
+    deprecated: 1
+  - id: 258418
+    kind: 3
+    kind_id: 13286
+    language: 1
+    name: "Pennant League, The - Home Run Nighter '90 (Japan)"
+    source: no-intro
   assets:
   - asset:
       id: 13268
       kind: 3
       kind_id: 13286
       type: 1
-      name: "Home Run Nighter '90 - The Pennant League (J).nes"
+      name: "Pennant League, The - Home Run Nighter '90 (Japan).nes"
       format: 1
       size: 262160
       blob_id: 59149
-      debug: "Home Run Nighter '90 - The Pennant League (J).nes"
+      debug: "Home Run Nighter '90 - The Pennant League (J).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=485c257a8c84ef79157658edfc44a7c4b4855a39"
+  - asset:
+      id: 139449
+      kind: 3
+      kind_id: 13286
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Pennant%20League%2C%20The%20-%20Home%20Run%20Nighter%20%2790%20%28Japan%29.png
+      format: 1
+      size: 3596
+      blob_id: 324880
+      debug: libretro-named-titles:rom-asset=13268:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Pennant%20League%2C%20The%20-%20Home%20Run%20Nighter%20%2790%20%28Japan%29.png

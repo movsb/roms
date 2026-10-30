@@ -63,17 +63,35 @@ releases:
     kind_id: 29023
     language: 1
     name: "Downtown - Nekketsu Koushin Kyoku - Soreyuke Daiundoukai (J)"
+    deprecated: 1
+  - id: 260884
+    kind: 3
+    kind_id: 29023
+    language: 1
+    name: "Downtown - Nekketsu Koushinkyoku - Soreyuke Daiundoukai (Japan)"
+    source: no-intro
   assets:
   - asset:
       id: 29005
       kind: 3
       kind_id: 29023
       type: 1
-      name: "热血行进曲 + Downtown - Nekketsu Koushin Kyoku - Soreyuke Daiundoukai (J).nes"
+      name: "Downtown - Nekketsu Koushinkyoku - Soreyuke Daiundoukai (Japan).nes"
       format: 1
       size: 262160
       blob_id: 73326
-      debug: "热血行进曲 + Downtown - Nekketsu Koushin Kyoku - Soreyuke Daiundoukai (J).nes"
+      debug: "热血行进曲 + Downtown - Nekketsu Koushin Kyoku - Soreyuke Daiundoukai (J).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=8aaa8c63611c6ca64444dd4b12a4b3689bf3f0c9"
+  - asset:
+      id: 140172
+      kind: 3
+      kind_id: 29023
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Downtown%20-%20Nekketsu%20Koushinkyoku%20-%20Soreyuke%20Daiundoukai%20%28Japan%29.png
+      format: 1
+      size: 2496
+      blob_id: 325495
+      debug: libretro-named-titles:rom-asset=29005:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Downtown%20-%20Nekketsu%20Koushinkyoku%20-%20Soreyuke%20Daiundoukai%20%28Japan%29.png
 - release:
     id: 29032
     game_id: 10203

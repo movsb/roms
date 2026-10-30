@@ -12,11 +12,19 @@ names:
   kind_id: 21069
   language: 1
   name: Shingen The Ruler (U) [!]
+  deprecated: 1
 - id: 93006
   kind: 2
   kind_id: 21069
   language: 1
   name: Shingen The Ruler
+  deprecated: 1
+- id: 262108
+  kind: 2
+  kind_id: 21069
+  language: 1
+  name: Shingen the Ruler
+  source: no-intro
 releases:
 - release:
     id: 21069
@@ -27,24 +35,32 @@ releases:
     kind_id: 21069
     language: 1
     name: Shingen The Ruler (U) [!]
+    deprecated: 1
   - id: 66499
     kind: 3
     kind_id: 21069
     language: 2
     name: 武田信玄 II (美版) (策略)-Shingen the Ruler (USA)
+  - id: 259301
+    kind: 3
+    kind_id: 21069
+    language: 1
+    name: Shingen the Ruler (USA)
+    source: no-intro
   assets:
   - asset:
       id: 21051
       kind: 3
       kind_id: 21069
       type: 1
-      name: Shingen The Ruler (U) [!].nes
+      name: Shingen the Ruler (USA).nes
       format: 1
       size: 262160
       blob_id: 66483
       debug: |-
         Shingen The Ruler (U) [!].zip
         武田信玄 II (美版) (策略)-Shingen the Ruler (USA) + Shingen The Ruler (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=28d346fcd44cd94abbc02a93fa65b4df0d4216c8
   - asset:
       id: 137292
       kind: 3
@@ -65,17 +81,26 @@ releases:
     kind_id: 21075
     language: 1
     name: Shingen The Ruler (U)
+    deprecated: 1
+  - id: 259302
+    kind: 3
+    kind_id: 21075
+    language: 1
+    name: Shingen the Ruler (USA)
+    source: no-intro
   assets:
   - asset:
       id: 21057
       kind: 3
       kind_id: 21075
       type: 1
-      name: Shingen The Ruler (U).nes
+      name: Shingen the Ruler (USA).nes
       format: 1
       size: 262160
       blob_id: 66489
-      debug: Shingen The Ruler (U).zip
+      debug: |-
+        Shingen The Ruler (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=28d346fcd44cd94abbc02a93fa65b4df0d4216c8
   - asset:
       id: 138685
       kind: 3

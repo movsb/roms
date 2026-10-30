@@ -13,6 +13,13 @@ names:
   kind_id: 26591
   language: 1
   name: Final Fantasy VII (NJ063) (Ch)
+  deprecated: 1
+- id: 262339
+  kind: 2
+  kind_id: 26591
+  language: 1
+  name: "Final Fantasy VII - Zuizhong Huanxiang 7"
+  source: no-intro
 releases:
 - release:
     id: 26591
@@ -28,14 +35,32 @@ releases:
     kind_id: 26591
     language: 1
     name: Final Fantasy VII (NJ063) (Ch)
+    deprecated: 1
+  - id: 259897
+    kind: 3
+    kind_id: 26591
+    language: 1
+    name: "Final Fantasy VII - Zuizhong Huanxiang 7 (China) (Aftermarket) (Pirate)"
+    source: no-intro
   assets:
   - asset:
       id: 26573
       kind: 3
       kind_id: 26591
       type: 1
-      name: "[NJ063]最终幻想Ⅶ + Final Fantasy VII (NJ063) (Ch).nes"
+      name: "Final Fantasy VII - Zuizhong Huanxiang 7 (China) (Aftermarket) (Pirate).nes"
       format: 1
       size: 2097168
       blob_id: 71714
-      debug: "[NJ063]最终幻想Ⅶ + Final Fantasy VII (NJ063) (Ch).nes"
+      debug: "[NJ063]最终幻想Ⅶ + Final Fantasy VII (NJ063) (Ch).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=236020d728b2a796c787d5a37c6345eace833d7c"
+  - asset:
+      id: 139930
+      kind: 3
+      kind_id: 26591
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Final%20Fantasy%20VII%20-%20Zuizhong%20Huanxiang%207%20%28China%29%20%28Aftermarket%29%20%28Pirate%29.png
+      format: 1
+      size: 3876
+      blob_id: 325294
+      debug: libretro-named-titles:rom-asset=26573:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Final%20Fantasy%20VII%20-%20Zuizhong%20Huanxiang%207%20%28China%29%20%28Aftermarket%29%20%28Pirate%29.png

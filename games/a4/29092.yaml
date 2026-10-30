@@ -36,11 +36,13 @@ releases:
     kind_id: 21025
     language: 1
     name: Shatter_hand
+    deprecated: 1
   - id: 46852
     kind: 3
     kind_id: 21025
     language: 1
     name: Shatterhand (U) [!]
+    deprecated: 1
   - id: 67715
     kind: 3
     kind_id: 21025
@@ -51,13 +53,20 @@ releases:
     kind_id: 21025
     language: 1
     name: Shatterhand (U)
+    deprecated: 1
+  - id: 259292
+    kind: 3
+    kind_id: 21025
+    language: 1
+    name: Shatterhand (USA)
+    source: no-intro
   assets:
   - asset:
       id: 21007
       kind: 3
       kind_id: 21025
       type: 1
-      name: Shatter_hand.nes
+      name: Shatterhand (USA).nes
       format: 1
       size: 262160
       blob_id: 66443
@@ -66,6 +75,18 @@ releases:
         Shatterhand (U) [!].zip
         Shatterhand (U)_2.zip
         特救指令 (美版) (动作)-Shatterhand (USA) + Shatterhand (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=503eb23955475d105029fdd6ae082bcc14e7306a
+  - asset:
+      id: 139736
+      kind: 3
+      kind_id: 21025
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Shatterhand%20%28USA%29.png
+      format: 1
+      size: 1417
+      blob_id: 324172
+      debug: libretro-named-titles:rom-asset=21007:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Shatterhand%20%28USA%29.png
 - release:
     id: 21030
     game_id: 29092
@@ -142,17 +163,26 @@ releases:
     kind_id: 21033
     language: 1
     name: Shatterhand (U)
+    deprecated: 1
+  - id: 259293
+    kind: 3
+    kind_id: 21033
+    language: 1
+    name: Shatterhand (USA)
+    source: no-intro
   assets:
   - asset:
       id: 21015
       kind: 3
       kind_id: 21033
       type: 1
-      name: Shatterhand (U).nes
+      name: Shatterhand (USA).nes
       format: 1
       size: 262160
       blob_id: 66450
-      debug: Shatterhand (U).zip
+      debug: |-
+        Shatterhand (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=503eb23955475d105029fdd6ae082bcc14e7306a
   - asset:
       id: 138684
       kind: 3
@@ -347,17 +377,24 @@ releases:
     kind_id: 24976
     language: 1
     name: "Tokkyuu Shirei - Solbrain (J) [p1]"
+    deprecated: 1
+  - id: 259676
+    kind: 3
+    kind_id: 24976
+    language: 1
+    name: Super Rescue RoboCop 3 (Asia) (Ja) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 24958
       kind: 3
       kind_id: 24976
       type: 1
-      name: "Tokkyuu Shirei - Solbrain (J) [p1].nes"
+      name: Super Rescue RoboCop 3 (Asia) (Ja) (Pirate).nes
       format: 1
       size: 262160
       blob_id: 70212
-      debug: "Tokkyuu Shirei - Solbrain (J) [p1].nes"
+      debug: "Tokkyuu Shirei - Solbrain (J) [p1].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=5edee8585dcfe9eead6b48c73d9f7d88e17f2f5f"
 - release:
     id: 24977
     game_id: 29092
@@ -444,17 +481,35 @@ releases:
     kind_id: 29087
     language: 1
     name: "Tokkyuu Shirei - Solbrain (J)"
+    deprecated: 1
+  - id: 260906
+    kind: 3
+    kind_id: 29087
+    language: 1
+    name: Tokkyuu Shirei Solbrain (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 29069
       kind: 3
       kind_id: 29087
       type: 1
-      name: "特救指令 (日版) (动作)-Tokkyuu Shirei - Solbrain (Japan) + Tokkyuu Shirei - Solbrain (J).nes"
+      name: Tokkyuu Shirei Solbrain (Japan).nes
       format: 1
       size: 262160
       blob_id: 73367
-      debug: "特救指令 (日版) (动作)-Tokkyuu Shirei - Solbrain (Japan) + Tokkyuu Shirei - Solbrain (J).nes"
+      debug: "特救指令 (日版) (动作)-Tokkyuu Shirei - Solbrain (Japan) + Tokkyuu Shirei - Solbrain (J).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=5bd2fb8d783090d50357a3941c3b3433b3eb2b36"
+  - asset:
+      id: 140175
+      kind: 3
+      kind_id: 29087
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Tokkyuu%20Shirei%20Solbrain%20%28Japan%29.png
+      format: 1
+      size: 1962
+      blob_id: 325498
+      debug: libretro-named-titles:rom-asset=29069:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Tokkyuu%20Shirei%20Solbrain%20%28Japan%29.png
 - release:
     id: 29088
     game_id: 29092
@@ -469,17 +524,26 @@ releases:
     kind_id: 29088
     language: 1
     name: Shatterhand (E) [!]
+    deprecated: 1
+  - id: 260907
+    kind: 3
+    kind_id: 29088
+    language: 1
+    name: Shatterhand (Europe)
+    source: no-intro
   assets:
   - asset:
       id: 29070
       kind: 3
       kind_id: 29088
       type: 1
-      name: 特救指令 (欧版) (动作)-Shatterhand (Europe) + Shatterhand (E) [!].nes
+      name: Shatterhand (Europe).nes
       format: 1
       size: 262160
       blob_id: 73368
-      debug: 特救指令 (欧版) (动作)-Shatterhand (Europe) + Shatterhand (E) [!].nes
+      debug: |-
+        特救指令 (欧版) (动作)-Shatterhand (Europe) + Shatterhand (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=18ea387b2dfa717d3208e054af927f575963ed46
   - asset:
       id: 137865
       kind: 3

@@ -42,17 +42,24 @@ releases:
     kind_id: 8924
     language: 1
     name: "Code Name - Viper (U) [!]"
+    deprecated: 1
+  - id: 257923
+    kind: 3
+    kind_id: 8924
+    language: 1
+    name: "Code Name - Viper (USA)"
+    source: no-intro
   assets:
   - asset:
       id: 8906
       kind: 3
       kind_id: 8924
       type: 1
-      name: "Code Name - Viper (U) [!].nes"
+      name: "Code Name - Viper (USA).nes"
       format: 1
       size: 262160
       blob_id: 55038
-      debug: "Code Name - Viper (U) [!].nes\nCode Name - Viper (U) [!].zip"
+      debug: "Code Name - Viper (U) [!].nes\nCode Name - Viper (U) [!].zip\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=220939191a48fb2cf3a73c8fd713a60ad2ee34df"
   - asset:
       id: 136779
       kind: 3
@@ -193,17 +200,37 @@ releases:
     kind_id: 8937
     language: 1
     name: Code Name Viper (U)
+    deprecated: 1
+  - id: 257924
+    kind: 3
+    kind_id: 8937
+    language: 1
+    name: "Code Name - Viper (USA)"
+    source: no-intro
   assets:
   - asset:
       id: 8919
       kind: 3
       kind_id: 8937
       type: 1
-      name: Code Name Viper (U).nes
+      name: "Code Name - Viper (USA).nes"
       format: 1
       size: 262160
       blob_id: 55050
-      debug: Code Name Viper (U).zip
+      debug: |-
+        Code Name Viper (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=220939191a48fb2cf3a73c8fd713a60ad2ee34df
+  - asset:
+      id: 139355
+      kind: 3
+      kind_id: 8937
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Code%20Name%20-%20Viper%20%28USA%29.png
+      format: 1
+      size: 3706
+      blob_id: 324798
+      debug: libretro-named-titles:rom-asset=8919:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Code%20Name%20-%20Viper%20%28USA%29.png
 - release:
     id: 8939
     game_id: 26827

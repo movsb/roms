@@ -7,12 +7,19 @@ names:
   kind_id: 15151
   language: 1
   name: Lickshot 0.1 by NO CARRIER (PD)
+  deprecated: 1
 - id: 253346
   kind: 2
   kind_id: 15151
   language: 2
   name: Lickshot
   source: codex
+- id: 261851
+  kind: 2
+  kind_id: 15151
+  language: 1
+  name: Lickshot
+  source: no-intro
 releases:
 - release:
     id: 15151
@@ -23,14 +30,23 @@ releases:
     kind_id: 15151
     language: 1
     name: Lickshot 0.1 by NO CARRIER (PD)
+    deprecated: 1
+  - id: 258641
+    kind: 3
+    kind_id: 15151
+    language: 1
+    name: Lickshot (World) (Proto) (Aftermarket) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 15133
       kind: 3
       kind_id: 15151
       type: 1
-      name: Lickshot 0.1 by NO CARRIER (PD).nes
+      name: Lickshot (World) (Proto) (Aftermarket) (Unl).nes
       format: 1
       size: 40976
       blob_id: 60871
-      debug: Lickshot 0.1 by NO CARRIER (PD).nes
+      debug: |-
+        Lickshot 0.1 by NO CARRIER (PD).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=5425dc7714f95eab93f9018985ca6591bd642c72

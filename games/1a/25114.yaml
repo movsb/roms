@@ -17,6 +17,7 @@ names:
   kind_id: 25114
   language: 1
   name: Track & Field II (U) (PRG0) [!]
+  deprecated: 1
 - id: 70105
   kind: 2
   kind_id: 25114
@@ -27,11 +28,19 @@ names:
   kind_id: 25114
   language: 1
   name: Track & Field II (U) (REVA) [!]
+  deprecated: 1
 - id: 93439
   kind: 2
   kind_id: 25114
   language: 1
   name: Track & Field 2
+  deprecated: 1
+- id: 262256
+  kind: 2
+  kind_id: 25114
+  language: 1
+  name: Track & Field II
+  source: no-intro
 releases:
 - release:
     id: 25114
@@ -42,6 +51,7 @@ releases:
     kind_id: 25114
     language: 1
     name: Track & Field 2 (U) (PRG1) [!]
+    deprecated: 1
   - id: 63236
     kind: 3
     kind_id: 25114
@@ -57,13 +67,20 @@ releases:
     kind_id: 25114
     language: 1
     name: Track & Field II (U) (REVA) [!]
+    deprecated: 1
+  - id: 259698
+    kind: 3
+    kind_id: 25114
+    language: 1
+    name: Track & Field II (USA) (Rev 1)
+    source: no-intro
   assets:
   - asset:
       id: 25096
       kind: 3
       kind_id: 25114
       type: 1
-      name: Track & Field 2 (U) (PRG1) [!].nes
+      name: Track & Field II (USA) (Rev 1).nes
       format: 1
       size: 262160
       blob_id: 70336
@@ -71,6 +88,7 @@ releases:
         Track & Field 2 (U) (PRG1) [!].zip
         奥运会2.zip
         超级奥林匹克运动会 II (美版)(Rev A) (运动)-Track &amp; Field II (USA) (Rev A) + Track & Field II (U) (REVA) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=c835985e31c1194073f5a843419f220d41c8aafa
   - asset:
       id: 137425
       kind: 3
@@ -91,6 +109,7 @@ releases:
     kind_id: 25115
     language: 1
     name: Track & Field 2 (U)
+    deprecated: 1
   - id: 70103
     kind: 3
     kind_id: 25115
@@ -101,16 +120,35 @@ releases:
     kind_id: 25115
     language: 1
     name: Track & Field II (U) (PRG0) [!]
+    deprecated: 1
+  - id: 259699
+    kind: 3
+    kind_id: 25115
+    language: 1
+    name: Track & Field II (USA)
+    source: no-intro
   assets:
   - asset:
       id: 25097
       kind: 3
       kind_id: 25115
       type: 1
-      name: Track & Field 2 (U).nes
+      name: Track & Field II (USA).nes
       format: 1
       size: 262160
       blob_id: 70337
       debug: |-
         Track & Field 2 (U).zip
         超级奥林匹克运动会 II (美版) (运动)-Track &amp; Field II (USA) + Track & Field II (U) (PRG0) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=87e7943769ce95747ac80da044b2cf9e63410af2
+  - asset:
+      id: 139862
+      kind: 3
+      kind_id: 25115
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Track%20_%20Field%20II%20%28USA%29.png
+      format: 1
+      size: 1788
+      blob_id: 325234
+      debug: libretro-named-titles:rom-asset=25097:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Track%20_%20Field%20II%20%28USA%29.png

@@ -12,6 +12,13 @@ names:
   kind_id: 26740
   language: 1
   name: World Boxing (J)
+  deprecated: 1
+- id: 262386
+  kind: 2
+  kind_id: 26740
+  language: 1
+  name: World Boxing
+  source: no-intro
 releases:
 - release:
     id: 26740
@@ -27,17 +34,26 @@ releases:
     kind_id: 26740
     language: 1
     name: World Boxing (J)
+    deprecated: 1
+  - id: 259958
+    kind: 3
+    kind_id: 26740
+    language: 1
+    name: World Boxing (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 26722
       kind: 3
       kind_id: 26740
       type: 1
-      name: 世界拳击赛 (日版) (运动)-World Boxing (Japan) + World Boxing (J).nes
+      name: World Boxing (Japan).nes
       format: 1
       size: 262160
       blob_id: 71814
-      debug: 世界拳击赛 (日版) (运动)-World Boxing (Japan) + World Boxing (J).nes
+      debug: |-
+        世界拳击赛 (日版) (运动)-World Boxing (Japan) + World Boxing (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=133a3c81a63c329fc0946b5986729c2cdeb5020f
   - asset:
       id: 138783
       kind: 3

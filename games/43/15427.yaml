@@ -7,12 +7,19 @@ names:
   kind_id: 15427
   language: 1
   name: M.C. Mario [p1][!]
+  deprecated: 1
 - id: 249253
   kind: 2
   kind_id: 15427
   language: 2
   name: 麦当劳马力欧
   source: codex
+- id: 261864
+  kind: 2
+  kind_id: 15427
+  language: 1
+  name: M.C. Mario
+  source: no-intro
 releases:
 - release:
     id: 15427
@@ -23,14 +30,34 @@ releases:
     kind_id: 15427
     language: 1
     name: M.C. Mario [p1][!]
+    deprecated: 1
+  - id: 258684
+    kind: 3
+    kind_id: 15427
+    language: 1
+    name: M.C. Mario (Asia) (En) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 15409
       kind: 3
       kind_id: 15427
       type: 1
-      name: M.C. Mario [p1][!].nes
+      name: M.C. Mario (Asia) (En) (Pirate).nes
       format: 1
       size: 262160
       blob_id: 61127
-      debug: M.C. Mario [p1][!].nes
+      debug: |-
+        M.C. Mario [p1][!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=fc520c5fc21098282dfa2bf7b48420178eb9919b
+  - asset:
+      id: 139533
+      kind: 3
+      kind_id: 15427
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/M.C.%20Mario%20%28Asia%29%20%28En%29%20%28Pirate%29.png
+      format: 1
+      size: 4604
+      blob_id: 324953
+      debug: libretro-named-titles:rom-asset=15409:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/M.C.%20Mario%20%28Asia%29%20%28En%29%20%28Pirate%29.png

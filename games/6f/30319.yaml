@@ -12,6 +12,13 @@ names:
   kind_id: 30319
   language: 1
   name: Puyo Puyo (J)
+  deprecated: 1
+- id: 263691
+  kind: 2
+  kind_id: 30319
+  language: 1
+  name: Puyo Puyo
+  source: no-intro
 releases:
 - release:
     id: 30319
@@ -27,17 +34,26 @@ releases:
     kind_id: 30319
     language: 1
     name: Puyo Puyo (J)
+    deprecated: 1
+  - id: 261392
+    kind: 3
+    kind_id: 30319
+    language: 1
+    name: Puyo Puyo (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 30301
       kind: 3
       kind_id: 30319
       type: 1
-      name: 魔法气泡 (日版) (益智)-Puyo Puyo (Japan) + Puyo Puyo (J).nes
+      name: Puyo Puyo (Japan).nes
       format: 1
       size: 131088
       blob_id: 74135
-      debug: 魔法气泡 (日版) (益智)-Puyo Puyo (Japan) + Puyo Puyo (J).nes
+      debug: |-
+        魔法气泡 (日版) (益智)-Puyo Puyo (Japan) + Puyo Puyo (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=3dbd3b2c3a107d2fdd5085831abe8c7ea5601a5a
   - asset:
       id: 139261
       kind: 3

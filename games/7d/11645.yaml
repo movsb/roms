@@ -8,12 +8,19 @@ names:
   kind_id: 11645
   language: 1
   name: Final Fantasy X1 (Ch) [!]
+  deprecated: 1
 - id: 247810
   kind: 2
   kind_id: 11645
   language: 2
   name: 最终幻想X1
   source: codex
+- id: 261712
+  kind: 2
+  kind_id: 11645
+  language: 1
+  name: Zuizhong Huanxiang X1
+  source: no-intro
 releases:
 - release:
     id: 11645
@@ -24,17 +31,26 @@ releases:
     kind_id: 11645
     language: 1
     name: Final Fantasy X1 (Ch) [!]
+    deprecated: 1
+  - id: 258232
+    kind: 3
+    kind_id: 11645
+    language: 1
+    name: Zuizhong Huanxiang X1 (China) (Aftermarket) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 11627
       kind: 3
       kind_id: 11645
       type: 1
-      name: Final Fantasy X1 (Ch) [!].nes
+      name: Zuizhong Huanxiang X1 (China) (Aftermarket) (Pirate).nes
       format: 1
       size: 1048592
       blob_id: 57599
-      debug: Final Fantasy X1 (Ch) [!].nes
+      debug: |-
+        Final Fantasy X1 (Ch) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=6b57d61874c0eb080cd606e17f4aa55202127e5e
   - asset:
       id: 136894
       kind: 3

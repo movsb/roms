@@ -12,6 +12,13 @@ names:
   kind_id: 29179
   language: 1
   name: Parodius (E) [!]
+  deprecated: 1
+- id: 263271
+  kind: 2
+  kind_id: 29179
+  language: 1
+  name: Parodius
+  source: no-intro
 releases:
 - release:
     id: 29179
@@ -27,17 +34,26 @@ releases:
     kind_id: 29179
     language: 1
     name: Parodius (E) [!]
+    deprecated: 1
+  - id: 260943
+    kind: 3
+    kind_id: 29179
+    language: 1
+    name: Parodius (Europe)
+    source: no-intro
   assets:
   - asset:
       id: 29161
       kind: 3
       kind_id: 29179
       type: 1
-      name: 疯狂大射击 (欧版) (射击)-Parodius (Europe) + Parodius (E) [!].nes
+      name: Parodius (Europe).nes
       format: 1
       size: 262160
       blob_id: 73425
-      debug: 疯狂大射击 (欧版) (射击)-Parodius (Europe) + Parodius (E) [!].nes
+      debug: |-
+        疯狂大射击 (欧版) (射击)-Parodius (Europe) + Parodius (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=3d91043a9c56dd71f0759fd292e8adaf46eb10a1
   - asset:
       id: 137884
       kind: 3

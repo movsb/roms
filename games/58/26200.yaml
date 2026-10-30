@@ -7,12 +7,19 @@ names:
   kind_id: 26200
   language: 1
   name: Xybots (Unl) (Prototype)
+  deprecated: 1
 - id: 248923
   kind: 2
   kind_id: 26200
   language: 2
   name: 赛博坦克
   source: codex
+- id: 262320
+  kind: 2
+  kind_id: 26200
+  language: 1
+  name: Xybots
+  source: no-intro
 releases:
 - release:
     id: 26200
@@ -23,14 +30,34 @@ releases:
     kind_id: 26200
     language: 1
     name: Xybots (Unl) (Prototype)
+    deprecated: 1
+  - id: 259847
+    kind: 3
+    kind_id: 26200
+    language: 1
+    name: Xybots (USA) (Proto) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 26182
       kind: 3
       kind_id: 26200
       type: 1
-      name: Xybots (Unl) (Prototype).nes
+      name: Xybots (USA) (Proto) (Unl).nes
       format: 1
       size: 196624
       blob_id: 71342
-      debug: Xybots (Unl) (Prototype).nes
+      debug: |-
+        Xybots (Unl) (Prototype).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=24739e82364f8a85f7070a57ae38dd61bb98c21b
+  - asset:
+      id: 139906
+      kind: 3
+      kind_id: 26200
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Xybots%20%28USA%29%20%28Proto%29%20%28Unl%29.png
+      format: 1
+      size: 2519
+      blob_id: 324666
+      debug: libretro-named-titles:rom-asset=26182:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Xybots%20%28USA%29%20%28Proto%29%20%28Unl%29.png

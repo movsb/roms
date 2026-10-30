@@ -12,6 +12,13 @@ names:
   kind_id: 29424
   language: 1
   name: Crime Busters (Unl) [!]
+  deprecated: 1
+- id: 263374
+  kind: 2
+  kind_id: 29424
+  language: 1
+  name: Crime Busters
+  source: no-intro
 releases:
 - release:
     id: 29424
@@ -27,14 +34,34 @@ releases:
     kind_id: 29424
     language: 1
     name: Crime Busters (Unl) [!]
+    deprecated: 1
+  - id: 261050
+    kind: 3
+    kind_id: 29424
+    language: 1
+    name: Crime Busters (Brazil) (En) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 29406
       kind: 3
       kind_id: 29424
       type: 1
-      name: 罪犯克星 (亚洲版) (光线枪射击)-Crime Busters (Unknown) (Unl) + Crime Busters (Unl) [!].nes
+      name: Crime Busters (Brazil) (En) (Unl).nes
       format: 1
       size: 163856
       blob_id: 73584
-      debug: 罪犯克星 (亚洲版) (光线枪射击)-Crime Busters (Unknown) (Unl) + Crime Busters (Unl) [!].nes
+      debug: |-
+        罪犯克星 (亚洲版) (光线枪射击)-Crime Busters (Unknown) (Unl) + Crime Busters (Unl) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=8e7260f2f2775cff1a774f61a157f8b4477d1038
+  - asset:
+      id: 140201
+      kind: 3
+      kind_id: 29424
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Crime%20Busters%20%28Brazil%29%20%28En%29%20%28Unl%29.png
+      format: 1
+      size: 1837
+      blob_id: 325522
+      debug: libretro-named-titles:rom-asset=29406:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Crime%20Busters%20%28Brazil%29%20%28En%29%20%28Unl%29.png

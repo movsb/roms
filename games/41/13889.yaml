@@ -47,11 +47,13 @@ releases:
     kind_id: 13890
     language: 1
     name: Jackie Chan's Action Kung Fu (U) [!p]
+    deprecated: 1
   - id: 30618
     kind: 3
     kind_id: 13890
     language: 1
     name: Jackie Chan's Action Kung Fu (U)
+    deprecated: 1
   - id: 64885
     kind: 3
     kind_id: 13890
@@ -62,13 +64,20 @@ releases:
     kind_id: 13890
     language: 1
     name: Jackie Chan's Action Kung Fu (U) [!]
+    deprecated: 1
+  - id: 258490
+    kind: 3
+    kind_id: 13890
+    language: 1
+    name: Jackie Chan's Action Kung Fu (USA)
+    source: no-intro
   assets:
   - asset:
       id: 13872
       kind: 3
       kind_id: 13890
       type: 1
-      name: Jackie Chan's Action Kung Fu (U) [!p].nes
+      name: Jackie Chan's Action Kung Fu (USA).nes
       format: 1
       size: 262160
       blob_id: 59708
@@ -76,6 +85,18 @@ releases:
         Jackie Chan's Action Kung Fu (U) [!p].zip
         Jackie Chan's Action Kung Fu (U).zip
         成龙 (美版) (动作)-Jackie Chans Action Kung Fu (USA) + Jackie Chan's Action Kung Fu (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=a602168cd5e0143f28ebc59b914f84c0aba352c2
+  - asset:
+      id: 139470
+      kind: 3
+      kind_id: 13890
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Jackie%20Chan%27s%20Action%20Kung%20Fu%20%28USA%29.png
+      format: 1
+      size: 2350
+      blob_id: 324901
+      debug: libretro-named-titles:rom-asset=13872:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Jackie%20Chan%27s%20Action%20Kung%20Fu%20%28USA%29.png
 - release:
     id: 13891
     game_id: 13889

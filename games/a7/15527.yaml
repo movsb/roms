@@ -13,6 +13,12 @@ names:
   language: 2
   name: 魔龙
   source: codex
+- id: 261875
+  kind: 2
+  kind_id: 15527
+  language: 1
+  name: Magic Dragon
+  source: no-intro
 releases:
 - release:
     id: 15527
@@ -23,16 +29,24 @@ releases:
     kind_id: 15527
     language: 1
     name: Magic Dragon (Unl)
+    deprecated: 1
+  - id: 258701
+    kind: 3
+    kind_id: 15527
+    language: 1
+    name: Magic Dragon (Taiwan) (En) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 15509
       kind: 3
       kind_id: 15527
       type: 1
-      name: Magic Dragon (Unl).nes
+      name: Magic Dragon (Taiwan) (En) (Pirate).nes
       format: 1
       size: 196624
       blob_id: 61218
       debug: |-
         Magic Dragon (Unl).nes
         Magic Dragon (Unl).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=92d9695feb774f60965a8303cfe3e6aaee7b7b62

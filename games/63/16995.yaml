@@ -7,12 +7,19 @@ names:
   kind_id: 16995
   language: 1
   name: Mortal Kombat 2
+  deprecated: 1
 - id: 248231
   kind: 2
   kind_id: 16995
   language: 2
   name: 真人快打2
   source: codex
+- id: 261929
+  kind: 2
+  kind_id: 16995
+  language: 1
+  name: Mortal Kombat 2-in-1
+  source: no-intro
 releases:
 - release:
     id: 16995
@@ -23,16 +30,24 @@ releases:
     kind_id: 16995
     language: 1
     name: Mortal Kombat 2 (Unl) [!]
+    deprecated: 1
+  - id: 258864
+    kind: 3
+    kind_id: 16995
+    language: 1
+    name: Mortal Kombat 2-in-1 (Taiwan) (En) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 16977
       kind: 3
       kind_id: 16995
       type: 1
-      name: Mortal Kombat 2 (Unl) [!].nes
+      name: Mortal Kombat 2-in-1 (Taiwan) (En) (Pirate).nes
       format: 1
       size: 393232
       blob_id: 62605
       debug: |-
         Mortal Kombat 2 (Unl) [!].nes
         Mortal Kombat 2 (Unl) [!].zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=bfe1a8efe7539b20e09ffd472963f271ac9f2aec

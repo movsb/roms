@@ -27,17 +27,26 @@ releases:
     kind_id: 12593
     language: 1
     name: Gradius II (J) (VC)
+    deprecated: 1
+  - id: 258356
+    kind: 3
+    kind_id: 12593
+    language: 1
+    name: Gradius II (Japan) (En) (Virtual Console)
+    source: no-intro
   assets:
   - asset:
       id: 12575
       kind: 3
       kind_id: 12593
       type: 1
-      name: Gradius II (J) (VC).nes
+      name: Gradius II (Japan) (En) (Virtual Console).nes
       format: 1
       size: 262160
       blob_id: 58483
-      debug: Gradius II (J) (VC).nes
+      debug: |-
+        Gradius II (J) (VC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=bdc4aa3b19c72ab1ac8405621bfbda2132a1ddf5
 - release:
     id: 12594
     game_id: 12593
@@ -368,11 +377,13 @@ releases:
     kind_id: 12615
     language: 1
     name: Gradius II (J)
+    deprecated: 1
   - id: 27700
     kind: 3
     kind_id: 12615
     language: 1
     name: Gradius II (Japan)
+    deprecated: 1
   - id: 66701
     kind: 3
     kind_id: 12615
@@ -383,6 +394,13 @@ releases:
     kind_id: 12615
     language: 1
     name: Gradius II (J) [!]
+    deprecated: 1
+  - id: 258357
+    kind: 3
+    kind_id: 12615
+    language: 1
+    name: Gradius II (Japan) (En)
+    source: no-intro
   release_publishers:
   - release_id: 12615
     publisher_id: 2
@@ -392,7 +410,7 @@ releases:
       kind: 3
       kind_id: 12615
       type: 1
-      name: Gradius II (J).nes
+      name: Gradius II (Japan) (En).nes
       format: 1
       size: 262160
       blob_id: 58505
@@ -400,6 +418,7 @@ releases:
         Gradius II (J).zip
         Gradius II (Japan).zip
         沙罗曼蛇2 + Gradius II (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=6a493cc7a3745f44e2ec4ba0fa71bfa89ff5cf37
   - asset:
       id: 138510
       kind: 3
@@ -472,16 +491,34 @@ releases:
     kind_id: 28774
     language: 2
     name: 沙罗曼蛇2(汉化版)
+  - id: 260799
+    kind: 3
+    kind_id: 28774
+    language: 1
+    name: Salamander (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 28756
       kind: 3
       kind_id: 28774
       type: 1
-      name: 沙罗曼蛇2(汉化版).nes
+      name: Salamander (Japan).nes
       format: 1
       size: 131088
       blob_id: 73170
       debug: |-
         沙罗曼蛇2(汉化版).nes
         重复的/沙罗曼蛇1 + Salamander (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=2e8a1b6ef95c0c3ecc370a0eeb1afd7497c986de
+  - asset:
+      id: 140155
+      kind: 3
+      kind_id: 28774
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Salamander%20%28Japan%29.png
+      format: 1
+      size: 2790
+      blob_id: 325482
+      debug: libretro-named-titles:rom-asset=28756:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Salamander%20%28Japan%29.png

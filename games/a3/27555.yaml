@@ -13,6 +13,13 @@ names:
   kind_id: 27555
   language: 1
   name: "Zelda - Shen Qi De Mao Zi (NJ056) (Ch)"
+  deprecated: 1
+- id: 262692
+  kind: 2
+  kind_id: 27555
+  language: 1
+  name: "Zelda Chuanshuo - Shenqi de Maozi"
+  source: no-intro
 releases:
 - release:
     id: 27555
@@ -28,14 +35,32 @@ releases:
     kind_id: 27555
     language: 1
     name: "Zelda - Shen Qi De Mao Zi (NJ056) (Ch)"
+    deprecated: 1
+  - id: 260295
+    kind: 3
+    kind_id: 27555
+    language: 1
+    name: "Zelda Chuanshuo - Shenqi de Maozi (China) (Aftermarket) (Pirate)"
+    source: no-intro
   assets:
   - asset:
       id: 27537
       kind: 3
       kind_id: 27555
       type: 1
-      name: "塞尔达传说 - 神奇的帽子[南晶科技] + Zelda - Shen Qi De Mao Zi (NJ056) (Ch).nes"
+      name: "Zelda Chuanshuo - Shenqi de Maozi (China) (Aftermarket) (Pirate).nes"
       format: 1
       size: 2097168
       blob_id: 72364
-      debug: "塞尔达传说 - 神奇的帽子[南晶科技] + Zelda - Shen Qi De Mao Zi (NJ056) (Ch).nes"
+      debug: "塞尔达传说 - 神奇的帽子[南晶科技] + Zelda - Shen Qi De Mao Zi (NJ056) (Ch).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=d645e9b36ba9dc97c597774c7494df716c3f9d9b"
+  - asset:
+      id: 140052
+      kind: 3
+      kind_id: 27555
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Zelda%20Chuanshuo%20-%20Shenqi%20de%20Maozi%20%28China%29%20%28Aftermarket%29%20%28Pirate%29.png
+      format: 1
+      size: 6053
+      blob_id: 325395
+      debug: libretro-named-titles:rom-asset=27537:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Zelda%20Chuanshuo%20-%20Shenqi%20de%20Maozi%20%28China%29%20%28Aftermarket%29%20%28Pirate%29.png

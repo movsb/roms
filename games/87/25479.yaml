@@ -13,6 +13,12 @@ names:
   language: 2
   name: 都市攻击
   source: codex
+- id: 262275
+  kind: 2
+  kind_id: 25479
+  language: 1
+  name: Urban Strike
+  source: no-intro
 releases:
 - release:
     id: 25479
@@ -23,16 +29,35 @@ releases:
     kind_id: 25479
     language: 1
     name: Urban Strike (Unl) [!]
+    deprecated: 1
+  - id: 259752
+    kind: 3
+    kind_id: 25479
+    language: 1
+    name: Urban Strike (Asia) (Ja) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 25461
       kind: 3
       kind_id: 25479
       type: 1
-      name: Urban Strike (Unl) [!].nes
+      name: Urban Strike (Asia) (Ja) (Pirate).nes
       format: 1
       size: 262160
       blob_id: 70678
       debug: |-
         Urban Strike (Unl) [!].nes
         Urban Strike (Unl) [!].zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=544c1e296fc138e1e6f81339449f69e0f49f3d06
+  - asset:
+      id: 139876
+      kind: 3
+      kind_id: 25479
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Urban%20Strike%20%28Asia%29%20%28Ja%29%20%28Pirate%29.png
+      format: 1
+      size: 3527
+      blob_id: 325246
+      debug: libretro-named-titles:rom-asset=25461:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Urban%20Strike%20%28Asia%29%20%28Ja%29%20%28Pirate%29.png

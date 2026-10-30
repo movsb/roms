@@ -28,27 +28,46 @@ releases:
     kind_id: 8222
     language: 1
     name: "Castlevania 2 - Simon's Quest (U)"
+    deprecated: 1
   - id: 17356
     kind: 3
     kind_id: 8222
     language: 1
     name: "Castlevania II - Simon's Quest (U) [!]"
+    deprecated: 1
   - id: 64824
     kind: 3
     kind_id: 8222
     language: 2
     name: 恶魔城2
+  - id: 257864
+    kind: 3
+    kind_id: 8222
+    language: 1
+    name: "Castlevania II - Simon's Quest (USA)"
+    source: no-intro
   assets:
   - asset:
       id: 8204
       kind: 3
       kind_id: 8222
       type: 1
-      name: "Castlevania 2 - Simon's Quest (U).nes"
+      name: "Castlevania II - Simon's Quest (USA).nes"
       format: 1
       size: 262160
       blob_id: 54368
-      debug: "Castlevania 2 - Simon's Quest (U).zip\nCastlevania II - Simon's Quest (U) [!].zip\n恶魔城2.nes\n重复的/恶魔城 II - 西蒙的探险 (美版) (动作)-Castlevania II - Simons Quest (USA) + Castlevania II - Simon's Quest (U) [!].nes"
+      debug: "Castlevania 2 - Simon's Quest (U).zip\nCastlevania II - Simon's Quest (U) [!].zip\n恶魔城2.nes\n重复的/恶魔城 II - 西蒙的探险 (美版) (动作)-Castlevania II - Simons Quest (USA) + Castlevania II - Simon's Quest (U) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=2447d6133573f7ed2cc49dc95b3130427bd4dc35"
+  - asset:
+      id: 139343
+      kind: 3
+      kind_id: 8222
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Castlevania%20II%20-%20Simon%27s%20Quest%20%28USA%29.png
+      format: 1
+      size: 2737
+      blob_id: 324788
+      debug: libretro-named-titles:rom-asset=8204:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Castlevania%20II%20-%20Simon%27s%20Quest%20%28USA%29.png
 - release:
     id: 8226
     game_id: 8222
@@ -98,17 +117,24 @@ releases:
     kind_id: 8229
     language: 1
     name: "Castlevania II - Simon's Quest (KC)"
+    deprecated: 1
+  - id: 257866
+    kind: 3
+    kind_id: 8229
+    language: 1
+    name: "Castlevania II - Simon's Quest (World) (Konami Collector's Series)"
+    source: no-intro
   assets:
   - asset:
       id: 8211
       kind: 3
       kind_id: 8229
       type: 1
-      name: "Castlevania II - Simon's Quest (KC).nes"
+      name: "Castlevania II - Simon's Quest (World) (Konami Collector's Series).nes"
       format: 1
       size: 262160
       blob_id: 54375
-      debug: "Castlevania II - Simon's Quest (KC).nes"
+      debug: "Castlevania II - Simon's Quest (KC).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=4e01e292730c6cf7855f78eb47f9b686646ecca8"
 - release:
     id: 8231
     game_id: 8222

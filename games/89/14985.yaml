@@ -12,11 +12,18 @@ names:
   kind_id: 14985
   language: 1
   name: Lee Trevino's Fighting Golf (U) [!]
+  deprecated: 1
 - id: 92301
   kind: 2
   kind_id: 14985
   language: 1
   name: Lee Trevino's Fighting Golf
+- id: 261848
+  kind: 2
+  kind_id: 14985
+  language: 1
+  name: Lee Trevino's Fighting Golf
+  source: no-intro
 releases:
 - release:
     id: 14985
@@ -27,17 +34,26 @@ releases:
     kind_id: 14985
     language: 1
     name: Lee Trevino's Fighting Golf (E)
+    deprecated: 1
+  - id: 258622
+    kind: 3
+    kind_id: 14985
+    language: 1
+    name: Lee Trevino's Fighting Golf (Europe)
+    source: no-intro
   assets:
   - asset:
       id: 14967
       kind: 3
       kind_id: 14985
       type: 1
-      name: Lee Trevino's Fighting Golf (E).nes
+      name: Lee Trevino's Fighting Golf (Europe).nes
       format: 1
       size: 262160
       blob_id: 60713
-      debug: Lee Trevino's Fighting Golf (E).nes
+      debug: |-
+        Lee Trevino's Fighting Golf (E).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=79fcf28f18e93a77a320731916451a0778a42260
   - asset:
       id: 138556
       kind: 3
@@ -58,23 +74,31 @@ releases:
     kind_id: 14986
     language: 1
     name: Lee Trevino's Fighting Golf (U) [!]
+    deprecated: 1
   - id: 33240
     kind: 3
     kind_id: 14986
     language: 1
     name: Lee Trevino's Fighting Golf (U)
+    deprecated: 1
   - id: 65017
     kind: 3
     kind_id: 14986
     language: 2
     name: 战斗高尔夫 (美版) (运动)-Lee Trevinos Fighting Golf (USA)
+  - id: 258623
+    kind: 3
+    kind_id: 14986
+    language: 1
+    name: Lee Trevino's Fighting Golf (USA)
+    source: no-intro
   assets:
   - asset:
       id: 14968
       kind: 3
       kind_id: 14986
       type: 1
-      name: Lee Trevino's Fighting Golf (U) [!].nes
+      name: Lee Trevino's Fighting Golf (USA).nes
       format: 1
       size: 262160
       blob_id: 60714
@@ -82,6 +106,7 @@ releases:
         Lee Trevino's Fighting Golf (U) [!].zip
         Lee Trevino's Fighting Golf (U).zip
         战斗高尔夫 (美版) (运动)-Lee Trevinos Fighting Golf (USA) + Lee Trevino's Fighting Golf (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=85a115e87951b11a8a8dd48643d8cb3e57e3c1bf
   - asset:
       id: 137046
       kind: 3

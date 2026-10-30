@@ -17,6 +17,13 @@ names:
   kind_id: 6820
   language: 1
   name: Battleship (U) [!]
+  deprecated: 1
+- id: 261552
+  kind: 2
+  kind_id: 6820
+  language: 1
+  name: Battleship
+  source: no-intro
 releases:
 - release:
     id: 6811
@@ -27,17 +34,26 @@ releases:
     kind_id: 6811
     language: 1
     name: Battleship (R) [!]
+    deprecated: 1
+  - id: 257753
+    kind: 3
+    kind_id: 6811
+    language: 1
+    name: Battleship (Russia) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 6793
       kind: 3
       kind_id: 6811
       type: 1
-      name: Battleship (R) [!].nes
+      name: Battleship (Russia) (Pirate).nes
       format: 1
       size: 65552
       blob_id: 53030
-      debug: Battleship (R) [!].nes
+      debug: |-
+        Battleship (R) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=842e42d5bba28f7e5e0b6191c2dc908f2c3c0d2a
   - asset:
       id: 136717
       kind: 3
@@ -58,24 +74,32 @@ releases:
     kind_id: 6812
     language: 1
     name: Battleship (U) [!]
+    deprecated: 1
   - id: 66955
     kind: 3
     kind_id: 6812
     language: 2
     name: 海战风云 (美版) (策略)-Battleship (USA)
+  - id: 257754
+    kind: 3
+    kind_id: 6812
+    language: 1
+    name: Battleship (USA)
+    source: no-intro
   assets:
   - asset:
       id: 6794
       kind: 3
       kind_id: 6812
       type: 1
-      name: Battleship (U) [!].nes
+      name: Battleship (USA).nes
       format: 1
       size: 65552
       blob_id: 53031
       debug: |-
         Battleship (U) [!].zip
         海战风云 (美版) (策略)-Battleship (USA) + Battleship (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=4946ad51863998f11ba26394bbf4b49c864d2176
   - asset:
       id: 138452
       kind: 3

@@ -12,11 +12,18 @@ names:
   kind_id: 25393
   language: 1
   name: Uncharted Waters (U) [!]
+  deprecated: 1
 - id: 93486
   kind: 2
   kind_id: 25393
   language: 1
   name: Uncharted Waters
+- id: 262272
+  kind: 2
+  kind_id: 25393
+  language: 1
+  name: Uncharted Waters
+  source: no-intro
 releases:
 - release:
     id: 25393
@@ -27,23 +34,31 @@ releases:
     kind_id: 25393
     language: 1
     name: Uncharted Waters (U) [!]
+    deprecated: 1
   - id: 56766
     kind: 3
     kind_id: 25393
     language: 1
     name: Uncharted Waters (U)
+    deprecated: 1
   - id: 62845
     kind: 3
     kind_id: 25393
     language: 2
     name: 大航海时代 (美版) (角色扮演)-Uncharted Waters (USA)
+  - id: 259744
+    kind: 3
+    kind_id: 25393
+    language: 1
+    name: Uncharted Waters (USA)
+    source: no-intro
   assets:
   - asset:
       id: 25375
       kind: 3
       kind_id: 25393
       type: 1
-      name: Uncharted Waters (U) [!].nes
+      name: Uncharted Waters (USA).nes
       format: 1
       size: 655376
       blob_id: 70593
@@ -51,6 +66,7 @@ releases:
         Uncharted Waters (U) [!].zip
         Uncharted Waters (U).zip
         大航海时代 (美版) (角色扮演)-Uncharted Waters (USA) + Uncharted Waters (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=37267833c984f176db4b0bc9d45daba0fff45304
   - asset:
       id: 137444
       kind: 3

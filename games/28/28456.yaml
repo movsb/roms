@@ -12,6 +12,13 @@ names:
   kind_id: 28456
   language: 1
   name: Time Diver Eon Man (U) (Prototype) [a1]
+  deprecated: 1
+- id: 263015
+  kind: 2
+  kind_id: 28456
+  language: 1
+  name: "Time Diver - Eon Man"
+  source: no-intro
 releases:
 - release:
     id: 28456
@@ -27,14 +34,34 @@ releases:
     kind_id: 28456
     language: 1
     name: Time Diver Eon Man (U) (Prototype) [a1]
+    deprecated: 1
+  - id: 260643
+    kind: 3
+    kind_id: 28456
+    language: 1
+    name: "Time Diver - Eon Man (USA) (Proto)"
+    source: no-intro
   assets:
   - asset:
       id: 28438
       kind: 3
       kind_id: 28456
       type: 1
-      name: 时空复仇者 (美版) (动作)-Time Diver Eon Man (USA) (Proto) + Time Diver Eon Man (U) (Prototype) [a1].nes
+      name: "Time Diver - Eon Man (USA) (Proto).nes"
       format: 1
       size: 262160
       blob_id: 72957
-      debug: 时空复仇者 (美版) (动作)-Time Diver Eon Man (USA) (Proto) + Time Diver Eon Man (U) (Prototype) [a1].nes
+      debug: |-
+        时空复仇者 (美版) (动作)-Time Diver Eon Man (USA) (Proto) + Time Diver Eon Man (U) (Prototype) [a1].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=0e622f3436143a17ece63225c4eac5b1a8058711
+  - asset:
+      id: 140120
+      kind: 3
+      kind_id: 28456
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Time%20Diver%20-%20Eon%20Man%20%28USA%29%20%28Proto%29.png
+      format: 1
+      size: 4370
+      blob_id: 325457
+      debug: libretro-named-titles:rom-asset=28438:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Time%20Diver%20-%20Eon%20Man%20%28USA%29%20%28Proto%29.png

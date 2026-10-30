@@ -12,11 +12,19 @@ names:
   kind_id: 19128
   language: 1
   name: Power Punch 2 (U) [!]
+  deprecated: 1
 - id: 92771
   kind: 2
   kind_id: 19128
   language: 1
   name: Power Punch 2
+  deprecated: 1
+- id: 262003
+  kind: 2
+  kind_id: 19128
+  language: 1
+  name: Power Punch II
+  source: no-intro
 releases:
 - release:
     id: 19128
@@ -27,11 +35,13 @@ releases:
     kind_id: 19128
     language: 1
     name: Power Punch 2 (U) [!p]
+    deprecated: 1
   - id: 42634
     kind: 3
     kind_id: 19128
     language: 1
     name: Power Punch 2 (U)
+    deprecated: 1
   - id: 63277
     kind: 3
     kind_id: 19128
@@ -42,13 +52,20 @@ releases:
     kind_id: 19128
     language: 1
     name: Power Punch 2 (U) [!]
+    deprecated: 1
+  - id: 259077
+    kind: 3
+    kind_id: 19128
+    language: 1
+    name: Power Punch II (USA)
+    source: no-intro
   assets:
   - asset:
       id: 19110
       kind: 3
       kind_id: 19128
       type: 1
-      name: Power Punch 2 (U) [!p].nes
+      name: Power Punch II (USA).nes
       format: 1
       size: 393232
       blob_id: 64640
@@ -56,3 +73,15 @@ releases:
         Power Punch 2 (U) [!p].zip
         Power Punch 2 (U).zip
         威力拳击 II (美版) (运动)-Power Punch II (USA) + Power Punch 2 (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=efbbade43e5f820cc7e13ff70b25406856c5091f
+  - asset:
+      id: 139676
+      kind: 3
+      kind_id: 19128
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Power%20Punch%20II%20%28USA%29.png
+      format: 1
+      size: 2000
+      blob_id: 325073
+      debug: libretro-named-titles:rom-asset=19110:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Power%20Punch%20II%20%28USA%29.png

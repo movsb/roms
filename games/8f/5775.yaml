@@ -12,11 +12,18 @@ names:
   kind_id: 5775
   language: 1
   name: All-Pro Basketball (U) [!]
+  deprecated: 1
 - id: 91246
   kind: 2
   kind_id: 5775
   language: 1
   name: All-Pro Basketball
+- id: 261500
+  kind: 2
+  kind_id: 5775
+  language: 1
+  name: All-Pro Basketball
+  source: no-intro
 releases:
 - release:
     id: 5775
@@ -27,13 +34,20 @@ releases:
     kind_id: 5775
     language: 1
     name: All-Pro Basketball (U) [!]
+    deprecated: 1
+  - id: 257643
+    kind: 3
+    kind_id: 5775
+    language: 1
+    name: All-Pro Basketball (USA)
+    source: no-intro
   assets:
   - asset:
       id: 5757
       kind: 3
       kind_id: 5775
       type: 1
-      name: All-Pro Basketball (U) [!].nes
+      name: All-Pro Basketball (USA).nes
       format: 1
       size: 262160
       blob_id: 52044
@@ -41,6 +55,7 @@ releases:
         All-Pro Basketball (U) [!].zip
         全美职业篮球赛 (美版) (运动)-All-Pro Basketball (USA) + All-Pro Basketball (U) [!].nes
         All-Pro Basketball (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=8dd8b4d44297e10fdc814660f9a33edcda4b0484
   - asset:
       id: 136671
       kind: 3

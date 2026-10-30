@@ -7,12 +7,19 @@ names:
   kind_id: 11076
   language: 1
   name: F117StealthFighter
+  deprecated: 1
 - id: 247760
   kind: 2
   kind_id: 11076
   language: 2
   name: F-117隐形战斗机
   source: codex
+- id: 261682
+  kind: 2
+  kind_id: 11076
+  language: 1
+  name: F-117A Stealth Fighter
+  source: no-intro
 releases:
 - release:
     id: 11076
@@ -23,17 +30,26 @@ releases:
     kind_id: 11076
     language: 1
     name: F117StealthFighter
+    deprecated: 1
+  - id: 258169
+    kind: 3
+    kind_id: 11076
+    language: 1
+    name: F-117A Stealth Fighter (USA)
+    source: no-intro
   assets:
   - asset:
       id: 11058
       kind: 3
       kind_id: 11076
       type: 1
-      name: F117StealthFighter.nes
+      name: F-117A Stealth Fighter (USA).nes
       format: 1
       size: 524304
       blob_id: 57053
-      debug: F117StealthFighter.zip
+      debug: |-
+        F117StealthFighter.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=c8909540bc7c1ef643eadc8ab9477f5532e52945
   - asset:
       id: 138379
       kind: 3

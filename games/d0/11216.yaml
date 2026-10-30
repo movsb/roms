@@ -23,17 +23,37 @@ releases:
     kind_id: 11216
     language: 1
     name: Fan Kong Jing Ying (Ch) [a1]
+    deprecated: 1
+  - id: 258200
+    kind: 3
+    kind_id: 11216
+    language: 1
+    name: Grandia (China) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 11198
       kind: 3
       kind_id: 11216
       type: 1
-      name: Fan Kong Jing Ying (Ch) [a1].nes
+      name: Grandia (China) (Pirate).nes
       format: 1
       size: 1048592
       blob_id: 57186
-      debug: Fan Kong Jing Ying (Ch) [a1].nes
+      debug: |-
+        Fan Kong Jing Ying (Ch) [a1].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=a7398436a77953a17f14fdf06422875c72fb9e76
+  - asset:
+      id: 139394
+      kind: 3
+      kind_id: 11216
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Grandia%20%28China%29%20%28Pirate%29.png
+      format: 1
+      size: 9975
+      blob_id: 324833
+      debug: libretro-named-titles:rom-asset=11198:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Grandia%20%28China%29%20%28Pirate%29.png
 - release:
     id: 11217
     game_id: 11216
@@ -43,14 +63,34 @@ releases:
     kind_id: 11217
     language: 1
     name: Fan Kong Jing Ying (Ch) [a2]
+    deprecated: 1
+  - id: 258201
+    kind: 3
+    kind_id: 11217
+    language: 1
+    name: Grandia Chuanshuo (China) (981208) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 11199
       kind: 3
       kind_id: 11217
       type: 1
-      name: Fan Kong Jing Ying (Ch) [a2].nes
+      name: Grandia Chuanshuo (China) (981208) (Pirate).nes
       format: 1
       size: 1048592
       blob_id: 57187
-      debug: Fan Kong Jing Ying (Ch) [a2].nes
+      debug: |-
+        Fan Kong Jing Ying (Ch) [a2].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=2da44453b8276e5c2906c358cbb0f14e694f5125
+  - asset:
+      id: 139395
+      kind: 3
+      kind_id: 11217
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Grandia%20Chuanshuo%20%28China%29%20%28981208%29%20%28Pirate%29.png
+      format: 1
+      size: 11167
+      blob_id: 324834
+      debug: libretro-named-titles:rom-asset=11199:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Grandia%20Chuanshuo%20%28China%29%20%28981208%29%20%28Pirate%29.png

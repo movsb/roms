@@ -12,11 +12,18 @@ names:
   kind_id: 15711
   language: 1
   name: Mappy-Land (U) [!]
+  deprecated: 1
 - id: 92395
   kind: 2
   kind_id: 15711
   language: 1
   name: Mappy-Land
+- id: 261885
+  kind: 2
+  kind_id: 15711
+  language: 1
+  name: Mappy-Land
+  source: no-intro
 releases:
 - release:
     id: 15711
@@ -27,17 +34,26 @@ releases:
     kind_id: 15711
     language: 1
     name: Mappy-Land (J) [!]
+    deprecated: 1
+  - id: 258723
+    kind: 3
+    kind_id: 15711
+    language: 1
+    name: Mappy-Land (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 15693
       kind: 3
       kind_id: 15711
       type: 1
-      name: Mappy-Land (J) [!].nes
+      name: Mappy-Land (Japan).nes
       format: 1
       size: 163856
       blob_id: 61392
-      debug: Mappy-Land (J) [!].nes
+      debug: |-
+        Mappy-Land (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=43c4fea145a6812812f9f9a261816f05985c3f06
   - asset:
       id: 137091
       kind: 3
@@ -58,23 +74,31 @@ releases:
     kind_id: 15715
     language: 1
     name: Mappy-Land (U) [!]
+    deprecated: 1
   - id: 34910
     kind: 3
     kind_id: 15715
     language: 1
     name: Mappy-Land (U)
+    deprecated: 1
   - id: 67833
     kind: 3
     kind_id: 15715
     language: 2
     name: 猫鼠世界 (美版) (动作)-Mappy-Land (USA)
+  - id: 258724
+    kind: 3
+    kind_id: 15715
+    language: 1
+    name: Mappy-Land (USA)
+    source: no-intro
   assets:
   - asset:
       id: 15697
       kind: 3
       kind_id: 15715
       type: 1
-      name: Mappy-Land (U) [!].nes
+      name: Mappy-Land (USA).nes
       format: 1
       size: 163856
       blob_id: 61396
@@ -82,6 +106,7 @@ releases:
         Mappy-Land (U) [!].zip
         Mappy-Land (U).zip
         猫鼠世界 (美版) (动作)-Mappy-Land (USA) + Mappy-Land (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=18922d40d3a0c94d9c03539f31eb3f45aaea2123
   - asset:
       id: 138571
       kind: 3

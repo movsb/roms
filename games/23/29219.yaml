@@ -12,6 +12,13 @@ names:
   kind_id: 29219
   language: 1
   name: Master Chu & The Drunkard Hu (Color Dreams) [!]
+  deprecated: 1
+- id: 263291
+  kind: 2
+  kind_id: 29219
+  language: 1
+  name: Master Chu and the Drunkard Hu
+  source: no-intro
 releases:
 - release:
     id: 29219
@@ -27,14 +34,34 @@ releases:
     kind_id: 29219
     language: 1
     name: Master Chu & The Drunkard Hu (Color Dreams) [!]
+    deprecated: 1
+  - id: 260964
+    kind: 3
+    kind_id: 29219
+    language: 1
+    name: Master Chu and the Drunkard Hu (USA) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 29201
       kind: 3
       kind_id: 29219
       type: 1
-      name: 盗帅楚留香 (美版) (动作)-Master Chu &amp; The Drunkard Hu (USA) (Unl) + Master Chu & The Drunkard Hu (Color Dreams) [!].nes
+      name: Master Chu and the Drunkard Hu (USA) (Unl).nes
       format: 1
       size: 65552
       blob_id: 73452
-      debug: 盗帅楚留香 (美版) (动作)-Master Chu &amp; The Drunkard Hu (USA) (Unl) + Master Chu & The Drunkard Hu (Color Dreams) [!].nes
+      debug: |-
+        盗帅楚留香 (美版) (动作)-Master Chu &amp; The Drunkard Hu (USA) (Unl) + Master Chu & The Drunkard Hu (Color Dreams) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=171aa5e2375dc17bb5d7aae2a7b7b96806683969
+  - asset:
+      id: 140187
+      kind: 3
+      kind_id: 29219
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Master%20Chu%20and%20the%20Drunkard%20Hu%20%28USA%29%20%28Unl%29.png
+      format: 1
+      size: 3220
+      blob_id: 324965
+      debug: libretro-named-titles:rom-asset=29201:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Master%20Chu%20and%20the%20Drunkard%20Hu%20%28USA%29%20%28Unl%29.png

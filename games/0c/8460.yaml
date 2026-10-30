@@ -32,23 +32,31 @@ releases:
     kind_id: 8460
     language: 1
     name: Chessmaster, The (U) (PRG0) [!]
+    deprecated: 1
   - id: 17930
     kind: 3
     kind_id: 8460
     language: 1
     name: Chessmaster, The (U)
+    deprecated: 1
   - id: 69725
     kind: 3
     kind_id: 8460
     language: 2
     name: 西洋棋大师 (美版) (桌面平台)-Chessmaster, The (USA)
+  - id: 257884
+    kind: 3
+    kind_id: 8460
+    language: 1
+    name: Chessmaster, The (USA)
+    source: no-intro
   assets:
   - asset:
       id: 8442
       kind: 3
       kind_id: 8460
       type: 1
-      name: Chessmaster, The (U) (PRG0) [!].nes
+      name: Chessmaster, The (USA).nes
       format: 1
       size: 163856
       blob_id: 54595
@@ -56,6 +64,7 @@ releases:
         Chessmaster, The (U) (PRG0) [!].zip
         Chessmaster, The (U).zip
         西洋棋大师 (美版) (桌面平台)-Chessmaster, The (USA) + Chessmaster, The (U) (PRG0) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=010489462ceb0756dfb06d418f26445dda9c002b
   - asset:
       id: 136766
       kind: 3
@@ -136,17 +145,26 @@ releases:
     kind_id: 8467
     language: 1
     name: Chessmaster, The (U) (PRG0) [p3][!]
+    deprecated: 1
+  - id: 257885
+    kind: 3
+    kind_id: 8467
+    language: 1
+    name: Chessmaster, The (Asia) (En) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 8449
       kind: 3
       kind_id: 8467
       type: 1
-      name: Chessmaster, The (U) (PRG0) [p3][!].nes
+      name: Chessmaster, The (Asia) (En) (Pirate).nes
       format: 1
       size: 163856
       blob_id: 54602
-      debug: Chessmaster, The (U) (PRG0) [p3][!].nes
+      debug: |-
+        Chessmaster, The (U) (PRG0) [p3][!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=088da24211389aa269a09cb932a4731f442c3c39
 - release:
     id: 8468
     game_id: 8460
@@ -156,14 +174,34 @@ releases:
     kind_id: 8468
     language: 1
     name: Chessmaster, The (U) (PRG1) [!p]
+    deprecated: 1
+  - id: 257886
+    kind: 3
+    kind_id: 8468
+    language: 1
+    name: Chessmaster, The (USA) (Rev 1)
+    source: no-intro
   assets:
   - asset:
       id: 8450
       kind: 3
       kind_id: 8468
       type: 1
-      name: Chessmaster, The (U) (PRG1) [!p].nes
+      name: Chessmaster, The (USA) (Rev 1).nes
       format: 1
       size: 163856
       blob_id: 54603
-      debug: Chessmaster, The (U) (PRG1) [!p].nes
+      debug: |-
+        Chessmaster, The (U) (PRG1) [!p].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=fd4b9a3d25a10d34290c00f8985e6f88033e3d15
+  - asset:
+      id: 139351
+      kind: 3
+      kind_id: 8468
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Chessmaster%2C%20The%20%28USA%29%20%28Rev%201%29.png
+      format: 1
+      size: 1869
+      blob_id: 324794
+      debug: libretro-named-titles:rom-asset=8450:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Chessmaster%2C%20The%20%28USA%29%20%28Rev%201%29.png

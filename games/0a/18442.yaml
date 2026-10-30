@@ -48,6 +48,7 @@ releases:
     kind_id: 18444
     language: 1
     name: Onyanko Town (Japan) (Translated En)
+    deprecated: 1
   - id: 67811
     kind: 3
     kind_id: 18444
@@ -58,6 +59,13 @@ releases:
     kind_id: 18444
     language: 1
     name: Onyanko Town (J) [!]
+    deprecated: 1
+  - id: 258977
+    kind: 3
+    kind_id: 18444
+    language: 1
+    name: Onyanko Town (Japan)
+    source: no-intro
   release_publishers:
   - release_id: 18444
     publisher_id: 121
@@ -67,10 +75,22 @@ releases:
       kind: 3
       kind_id: 18444
       type: 1
-      name: Onyanko Town (Japan) (Translated En).nes
+      name: Onyanko Town (Japan).nes
       format: 1
       size: 40976
       blob_id: 64006
       debug: |-
         Onyanko Town (Japan) (Translated En).zip
         猫咪小镇 (日版) (动作)-Onyanko Town (Japan) + Onyanko Town (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=e57a8c9adf011a61d4bc6d9a5970e9b6ae542187
+  - asset:
+      id: 139651
+      kind: 3
+      kind_id: 18444
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Onyanko%20Town%20%28Japan%29.png
+      format: 1
+      size: 1721
+      blob_id: 325050
+      debug: libretro-named-titles:rom-asset=18426:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Onyanko%20Town%20%28Japan%29.png

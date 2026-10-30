@@ -7,12 +7,19 @@ names:
   kind_id: 21037
   language: 1
   name: Sheng Jian Chuan Shuo (Ch)
+  deprecated: 1
 - id: 248533
   kind: 2
   kind_id: 21037
   language: 2
   name: 圣剑传说
   source: codex
+- id: 262103
+  kind: 2
+  kind_id: 21037
+  language: 1
+  name: Sheng Jian Chuanshuo
+  source: no-intro
 releases:
 - release:
     id: 21037
@@ -23,14 +30,34 @@ releases:
     kind_id: 21037
     language: 1
     name: Sheng Jian Chuan Shuo (Ch)
+    deprecated: 1
+  - id: 259295
+    kind: 3
+    kind_id: 21037
+    language: 1
+    name: Sheng Jian Chuanshuo (China) (Aftermarket) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 21019
       kind: 3
       kind_id: 21037
       type: 1
-      name: Sheng Jian Chuan Shuo (Ch).nes
+      name: Sheng Jian Chuanshuo (China) (Aftermarket) (Pirate).nes
       format: 1
       size: 2097168
       blob_id: 66453
-      debug: Sheng Jian Chuan Shuo (Ch).nes
+      debug: |-
+        Sheng Jian Chuan Shuo (Ch).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=d9872164f42c8ea15e85b8d2d7a0706408e6c6b4
+  - asset:
+      id: 139738
+      kind: 3
+      kind_id: 21037
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Sheng%20Jian%20Chuanshuo%20%28China%29%20%28Aftermarket%29%20%28Pirate%29.png
+      format: 1
+      size: 8340
+      blob_id: 325119
+      debug: libretro-named-titles:rom-asset=21019:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Sheng%20Jian%20Chuanshuo%20%28China%29%20%28Aftermarket%29%20%28Pirate%29.png

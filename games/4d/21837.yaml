@@ -12,11 +12,18 @@ names:
   kind_id: 21837
   language: 1
   name: Stadium Events (U) [!]
+  deprecated: 1
 - id: 93098
   kind: 2
   kind_id: 21837
   language: 1
   name: Stadium Events
+- id: 262143
+  kind: 2
+  kind_id: 21837
+  language: 1
+  name: Stadium Events
+  source: no-intro
 releases:
 - release:
     id: 21837
@@ -27,24 +34,32 @@ releases:
     kind_id: 21837
     language: 1
     name: Stadium Events (U) [!]
+    deprecated: 1
   - id: 68501
     kind: 3
     kind_id: 21837
     language: 2
     name: 竞技运动场 (美版) (运动)-Stadium Events (USA)
+  - id: 259397
+    kind: 3
+    kind_id: 21837
+    language: 1
+    name: Stadium Events (USA)
+    source: no-intro
   assets:
   - asset:
       id: 21819
       kind: 3
       kind_id: 21837
       type: 1
-      name: Stadium Events (U) [!].nes
+      name: Stadium Events (USA).nes
       format: 1
       size: 65552
       blob_id: 67198
       debug: |-
         Stadium Events (U) [!].zip
         竞技运动场 (美版) (运动)-Stadium Events (USA) + Stadium Events (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=f671afb307e14d08419e55512d82d38f7f1da6a8
   - asset:
       id: 137332
       kind: 3

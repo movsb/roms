@@ -7,12 +7,19 @@ names:
   kind_id: 19872
   language: 1
   name: Return of the Jedi (Zen Intergalactic Ninja Hack) [p1][!]
+  deprecated: 1
 - id: 248438
   kind: 2
   kind_id: 19872
   language: 2
   name: 星球大战：绝地归来
   source: codex
+- id: 262052
+  kind: 2
+  kind_id: 19872
+  language: 1
+  name: Return of the Jedi
+  source: no-intro
 releases:
 - release:
     id: 19872
@@ -23,14 +30,34 @@ releases:
     kind_id: 19872
     language: 1
     name: Return of the Jedi (Zen Intergalactic Ninja Hack) [p1][!]
+    deprecated: 1
+  - id: 259173
+    kind: 3
+    kind_id: 19872
+    language: 1
+    name: Return of the Jedi (Asia) (En) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 19854
       kind: 3
       kind_id: 19872
       type: 1
-      name: Return of the Jedi (Zen Intergalactic Ninja Hack) [p1][!].nes
+      name: Return of the Jedi (Asia) (En) (Pirate).nes
       format: 1
       size: 262160
       blob_id: 65337
-      debug: Return of the Jedi (Zen Intergalactic Ninja Hack) [p1][!].nes
+      debug: |-
+        Return of the Jedi (Zen Intergalactic Ninja Hack) [p1][!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=1f7213f8f45211f1dc76a763f26d0660c9a87b2b
+  - asset:
+      id: 139700
+      kind: 3
+      kind_id: 19872
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Return%20of%20the%20Jedi%20%28Asia%29%20%28En%29%20%28Pirate%29.png
+      format: 1
+      size: 1024
+      blob_id: 325092
+      debug: libretro-named-titles:rom-asset=19854:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Return%20of%20the%20Jedi%20%28Asia%29%20%28En%29%20%28Pirate%29.png

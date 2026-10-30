@@ -7,12 +7,19 @@ names:
   kind_id: 11321
   language: 1
   name: Feng Se Huan Xiang (ES-1138) (Ch)
+  deprecated: 1
 - id: 247802
   kind: 2
   kind_id: 11321
   language: 2
   name: 风色幻想
   source: codex
+- id: 261708
+  kind: 2
+  kind_id: 11321
+  language: 1
+  name: Fengse Huanxiang
+  source: no-intro
 releases:
 - release:
     id: 11321
@@ -23,14 +30,34 @@ releases:
     kind_id: 11321
     language: 1
     name: Feng Se Huan Xiang (ES-1138) (Ch)
+    deprecated: 1
+  - id: 258217
+    kind: 3
+    kind_id: 11321
+    language: 1
+    name: Fengse Huanxiang (China) (Aftermarket) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 11303
       kind: 3
       kind_id: 11321
       type: 1
-      name: Feng Se Huan Xiang (ES-1138) (Ch).nes
+      name: Fengse Huanxiang (China) (Aftermarket) (Pirate).nes
       format: 1
       size: 524304
       blob_id: 57282
-      debug: Feng Se Huan Xiang (ES-1138) (Ch).nes
+      debug: |-
+        Feng Se Huan Xiang (ES-1138) (Ch).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=8148813ca6225c01088bbc9a4af2031176632b4d
+  - asset:
+      id: 139398
+      kind: 3
+      kind_id: 11321
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Fengse%20Huanxiang%20%28China%29%20%28Aftermarket%29%20%28Pirate%29.png
+      format: 1
+      size: 2215
+      blob_id: 324836
+      debug: libretro-named-titles:rom-asset=11303:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Fengse%20Huanxiang%20%28China%29%20%28Aftermarket%29%20%28Pirate%29.png

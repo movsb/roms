@@ -12,6 +12,13 @@ names:
   kind_id: 27469
   language: 1
   name: International Cricket (E) [!]
+  deprecated: 1
+- id: 262667
+  kind: 2
+  kind_id: 27469
+  language: 1
+  name: International Cricket
+  source: no-intro
 releases:
 - release:
     id: 27469
@@ -27,17 +34,26 @@ releases:
     kind_id: 27469
     language: 1
     name: International Cricket (E) [!]
+    deprecated: 1
+  - id: 260264
+    kind: 3
+    kind_id: 27469
+    language: 1
+    name: International Cricket (Australia)
+    source: no-intro
   assets:
   - asset:
       id: 27451
       kind: 3
       kind_id: 27469
       type: 1
-      name: 国际板球赛 (澳洲版) (运动)-International Cricket (Australia) + International Cricket (E) [!].nes
+      name: International Cricket (Australia).nes
       format: 1
       size: 262160
       blob_id: 72307
-      debug: 国际板球赛 (澳洲版) (运动)-International Cricket (Australia) + International Cricket (E) [!].nes
+      debug: |-
+        国际板球赛 (澳洲版) (运动)-International Cricket (Australia) + International Cricket (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=73396ba69aa122d64ded6f211f3548242dfdf229
   - asset:
       id: 137625
       kind: 3

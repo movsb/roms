@@ -13,6 +13,12 @@ names:
   language: 2
   name: 相聚一刻
   source: codex
+- id: 261883
+  kind: 2
+  kind_id: 15618
+  language: 1
+  name: Maison Ikkoku
+  source: no-intro
 releases:
 - release:
     id: 15618
@@ -23,17 +29,26 @@ releases:
     kind_id: 15618
     language: 1
     name: Maison Ikkoku (J) [!]
+    deprecated: 1
+  - id: 258715
+    kind: 3
+    kind_id: 15618
+    language: 1
+    name: Maison Ikkoku (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 15600
       kind: 3
       kind_id: 15618
       type: 1
-      name: Maison Ikkoku (J) [!].nes
+      name: Maison Ikkoku (Japan).nes
       format: 1
       size: 262160
       blob_id: 61302
-      debug: Maison Ikkoku (J) [!].nes
+      debug: |-
+        Maison Ikkoku (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=d75074c7b8d41fe7ccf07f3552512f0768cd4e7e
   - asset:
       id: 137087
       kind: 3

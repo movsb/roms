@@ -27,17 +27,37 @@ releases:
     kind_id: 14255
     language: 1
     name: Kage no Densetsu (J) (VC)
+    deprecated: 1
+  - id: 258538
+    kind: 3
+    kind_id: 14255
+    language: 1
+    name: Kage no Densetsu (Japan) (Virtual Console)
+    source: no-intro
   assets:
   - asset:
       id: 14237
       kind: 3
       kind_id: 14255
       type: 1
-      name: Kage no Densetsu (J) (VC).nes
+      name: Kage no Densetsu (Japan) (Virtual Console).nes
       format: 1
       size: 49168
       blob_id: 60040
-      debug: Kage no Densetsu (J) (VC).nes
+      debug: |-
+        Kage no Densetsu (J) (VC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=a3c88d3ed72bb1051d6504561cab1b29ce9af85b
+  - asset:
+      id: 139486
+      kind: 3
+      kind_id: 14255
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Kage%20no%20Densetsu%20%28Japan%29%20%28Virtual%20Console%29.png
+      format: 1
+      size: 5736
+      blob_id: 324915
+      debug: libretro-named-titles:rom-asset=14237:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Kage%20no%20Densetsu%20%28Japan%29%20%28Virtual%20Console%29.png
 - release:
     id: 14256
     game_id: 14254

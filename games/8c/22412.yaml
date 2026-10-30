@@ -8,12 +8,19 @@ names:
   kind_id: 22412
   language: 1
   name: Super Contra 5 (Unl)
+  deprecated: 1
 - id: 248665
   kind: 2
   kind_id: 22412
   language: 2
   name: 超级魂斗罗5
   source: codex
+- id: 262177
+  kind: 2
+  kind_id: 22412
+  language: 1
+  name: Super Contra 5
+  source: no-intro
 releases:
 - release:
     id: 22412
@@ -24,14 +31,34 @@ releases:
     kind_id: 22412
     language: 1
     name: Super Contra 5 (Unl)
+    deprecated: 1
+  - id: 259476
+    kind: 3
+    kind_id: 22412
+    language: 1
+    name: Super Contra 5 (Asia) (En) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 22394
       kind: 3
       kind_id: 22412
       type: 1
-      name: Super Contra 5 (Unl).nes
+      name: Super Contra 5 (Asia) (En) (Pirate).nes
       format: 1
       size: 393232
       blob_id: 67737
-      debug: Super Contra 5 (Unl).nes
+      debug: |-
+        Super Contra 5 (Unl).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=5534618c5eb2f8472f3832c5fb2661c1275349a3
+  - asset:
+      id: 139792
+      kind: 3
+      kind_id: 22412
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Super%20Contra%205%20%28Asia%29%20%28En%29%20%28Pirate%29.png
+      format: 1
+      size: 3584
+      blob_id: 325168
+      debug: libretro-named-titles:rom-asset=22394:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Super%20Contra%205%20%28Asia%29%20%28En%29%20%28Pirate%29.png

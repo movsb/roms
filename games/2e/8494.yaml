@@ -43,17 +43,26 @@ releases:
     kind_id: 8502
     language: 1
     name: Chiller (HES) [!]
+    deprecated: 1
+  - id: 257888
+    kind: 3
+    kind_id: 8502
+    language: 1
+    name: Chiller (Australia) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 8484
       kind: 3
       kind_id: 8502
       type: 1
-      name: Chiller (HES) [!].nes
+      name: Chiller (Australia) (Unl).nes
       format: 1
       size: 65552
       blob_id: 54633
-      debug: Chiller (HES) [!].nes
+      debug: |-
+        Chiller (HES) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=3f405f60a43b2b577a2baef1ff50480c83418209
   - asset:
       id: 136768
       kind: 3

@@ -13,6 +13,12 @@ names:
   language: 1
   name: Guaiwu Zhizao Zhe 1
   source: codex
+- id: 262911
+  kind: 2
+  kind_id: 28189
+  language: 1
+  name: Guaiwu Zhizao Zhe 1
+  source: no-intro
 releases:
 - release:
     id: 28189
@@ -23,14 +29,31 @@ releases:
     kind_id: 28189
     language: 2
     name: 怪物制造者1(汉化版)
+  - id: 260534
+    kind: 3
+    kind_id: 28189
+    language: 1
+    name: Guaiwu Zhizao Zhe 1 (China) (Aftermarket) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 28171
       kind: 3
       kind_id: 28189
       type: 1
-      name: 怪物制造者1(汉化版).nes
+      name: Guaiwu Zhizao Zhe 1 (China) (Aftermarket) (Pirate).nes
       format: 1
       size: 524304
       blob_id: 72775
-      debug: "怪物制造者1(汉化版).nes\n重复的/怪物制造者1[外星科技汉化] + Monster Maker - 7 Tsu no Hihou - Part 1 (Ch).nes"
+      debug: "怪物制造者1(汉化版).nes\n重复的/怪物制造者1[外星科技汉化] + Monster Maker - 7 Tsu no Hihou - Part 1 (Ch).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=248f0132ab9cfefde11e381c16f38eb104d2dde8"
+  - asset:
+      id: 140104
+      kind: 3
+      kind_id: 28189
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Guaiwu%20Zhizao%20Zhe%201%20%28China%29%20%28Aftermarket%29%20%28Pirate%29.png
+      format: 1
+      size: 4898
+      blob_id: 325443
+      debug: libretro-named-titles:rom-asset=28171:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Guaiwu%20Zhizao%20Zhe%201%20%28China%29%20%28Aftermarket%29%20%28Pirate%29.png

@@ -32,17 +32,37 @@ releases:
     kind_id: 14600
     language: 1
     name: King's Knight (J) (VC)
+    deprecated: 1
+  - id: 258576
+    kind: 3
+    kind_id: 14600
+    language: 1
+    name: King's Knight (Japan) (Virtual Console)
+    source: no-intro
   assets:
   - asset:
       id: 14582
       kind: 3
       kind_id: 14600
       type: 1
-      name: King's Knight (J) (VC).nes
+      name: King's Knight (Japan) (Virtual Console).nes
       format: 1
       size: 65552
       blob_id: 60355
-      debug: King's Knight (J) (VC).nes
+      debug: |-
+        King's Knight (J) (VC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=90adb97c71bb339a66f53d462df64056c32b3e97
+  - asset:
+      id: 139496
+      kind: 3
+      kind_id: 14600
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/King%27s%20Knight%20%28Japan%29%20%28Virtual%20Console%29.png
+      format: 1
+      size: 1431
+      blob_id: 324924
+      debug: libretro-named-titles:rom-asset=14582:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/King%27s%20Knight%20%28Japan%29%20%28Virtual%20Console%29.png
 - release:
     id: 14605
     game_id: 14600
@@ -72,17 +92,37 @@ releases:
     kind_id: 14606
     language: 1
     name: King's Knight (U) (VC)
+    deprecated: 1
+  - id: 258577
+    kind: 3
+    kind_id: 14606
+    language: 1
+    name: King's Knight (USA) (Virtual Console)
+    source: no-intro
   assets:
   - asset:
       id: 14588
       kind: 3
       kind_id: 14606
       type: 1
-      name: King's Knight (U) (VC).nes
+      name: King's Knight (USA) (Virtual Console).nes
       format: 1
       size: 65552
       blob_id: 60361
-      debug: King's Knight (U) (VC).nes
+      debug: |-
+        King's Knight (U) (VC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=5d4f5ffc02f4a18bda802d71330ee7de5c4d3fde
+  - asset:
+      id: 139497
+      kind: 3
+      kind_id: 14606
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/King%27s%20Knight%20%28USA%29%20%28Virtual%20Console%29.png
+      format: 1
+      size: 1431
+      blob_id: 324924
+      debug: libretro-named-titles:rom-asset=14588:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/King%27s%20Knight%20%28USA%29%20%28Virtual%20Console%29.png
 - release:
     id: 14607
     game_id: 14600
@@ -92,11 +132,13 @@ releases:
     kind_id: 14607
     language: 1
     name: King's Knight (U) [!]
+    deprecated: 1
   - id: 32372
     kind: 3
     kind_id: 14607
     language: 1
     name: King's Knight (U)
+    deprecated: 1
   - id: 62319
     kind: 3
     kind_id: 14607
@@ -107,13 +149,19 @@ releases:
     kind_id: 14607
     language: 2
     name: 国王骑士
+  - id: 258578
+    kind: 3
+    kind_id: 14607
+    language: 1
+    name: King's Knight (USA)
+    source: no-intro
   assets:
   - asset:
       id: 14589
       kind: 3
       kind_id: 14607
       type: 1
-      name: King's Knight (U) [!].nes
+      name: King's Knight (USA).nes
       format: 1
       size: 65552
       blob_id: 60362
@@ -122,6 +170,7 @@ releases:
         King's Knight (U).zip
         国王骑士 (美版) (动作射击)-Kings Knight (USA) + King's Knight (U) [!].nes
         国王骑士.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=fb4da8c4f212d4ed2c7552681b7105c9691ec6e1
   - asset:
       id: 137028
       kind: 3

@@ -32,6 +32,7 @@ releases:
     kind_id: 15673
     language: 1
     name: Maniac Mansion (U) [!]
+    deprecated: 1
   - id: 68053
     kind: 3
     kind_id: 15673
@@ -42,13 +43,19 @@ releases:
     kind_id: 15673
     language: 2
     name: 疯狂豪宅
+  - id: 258719
+    kind: 3
+    kind_id: 15673
+    language: 1
+    name: Maniac Mansion (USA)
+    source: no-intro
   assets:
   - asset:
       id: 15655
       kind: 3
       kind_id: 15673
       type: 1
-      name: Maniac Mansion (U) [!].nes
+      name: Maniac Mansion (USA).nes
       format: 1
       size: 262160
       blob_id: 61355
@@ -56,6 +63,7 @@ releases:
         Maniac Mansion (U) [!].zip
         疯狂大楼 (美版) (解谜)-Maniac Mansion (USA) + Maniac Mansion (U) [!].nes
         疯狂豪宅.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=8a8bbecc77fdf59826257754f357d38a7f825971
   - asset:
       id: 137089
       kind: 3
@@ -96,17 +104,26 @@ releases:
     kind_id: 15678
     language: 1
     name: Maniac Mansion (U)
+    deprecated: 1
+  - id: 258720
+    kind: 3
+    kind_id: 15678
+    language: 1
+    name: Maniac Mansion (USA)
+    source: no-intro
   assets:
   - asset:
       id: 15660
       kind: 3
       kind_id: 15678
       type: 1
-      name: Maniac Mansion (U).nes
+      name: Maniac Mansion (USA).nes
       format: 1
       size: 262160
       blob_id: 61360
-      debug: Maniac Mansion (U).zip
+      debug: |-
+        Maniac Mansion (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=8a8bbecc77fdf59826257754f357d38a7f825971
   - asset:
       id: 138570
       kind: 3

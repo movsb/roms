@@ -12,6 +12,13 @@ names:
   kind_id: 30045
   language: 1
   name: Gauntlet II (E) [!]
+  deprecated: 1
+- id: 263586
+  kind: 2
+  kind_id: 30045
+  language: 1
+  name: Gauntlet II
+  source: no-intro
 releases:
 - release:
     id: 30045
@@ -27,17 +34,26 @@ releases:
     kind_id: 30045
     language: 1
     name: Gauntlet II (E) [!]
+    deprecated: 1
+  - id: 261279
+    kind: 3
+    kind_id: 30045
+    language: 1
+    name: Gauntlet II (Europe)
+    source: no-intro
   assets:
   - asset:
       id: 30027
       kind: 3
       kind_id: 30045
       type: 1
-      name: 铁手套 II (欧版) (动作)-Gauntlet II (Europe) + Gauntlet II (E) [!].nes
+      name: Gauntlet II (Europe).nes
       format: 1
       size: 262160
       blob_id: 73959
-      debug: 铁手套 II (欧版) (动作)-Gauntlet II (Europe) + Gauntlet II (E) [!].nes
+      debug: |-
+        铁手套 II (欧版) (动作)-Gauntlet II (Europe) + Gauntlet II (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=89e2c88e15258fc40a2e0f13a8eb1a0d97e1d4b9
   - asset:
       id: 138032
       kind: 3

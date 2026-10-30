@@ -12,11 +12,19 @@ names:
   kind_id: 26003
   language: 1
   name: "Wizardry - The Knight of Diamonds (U) [!]"
+  deprecated: 1
 - id: 93566
   kind: 2
   kind_id: 26003
   language: 1
   name: "Wizardry - The Knight of Diamonds"
+  deprecated: 1
+- id: 262305
+  kind: 2
+  kind_id: 26003
+  language: 1
+  name: "Wizardry - Knight of Diamonds - The Second Scenario"
+  source: no-intro
 releases:
 - release:
     id: 26003
@@ -27,22 +35,29 @@ releases:
     kind_id: 26003
     language: 1
     name: "Wizardry - The Knight of Diamonds (U) [!]"
+    deprecated: 1
   - id: 63959
     kind: 3
     kind_id: 26003
     language: 2
     name: "巫术 III - 钻石骑士 (美版) (角色扮演)-Wizardry - The Knight of Diamonds (USA)"
+  - id: 259816
+    kind: 3
+    kind_id: 26003
+    language: 1
+    name: "Wizardry - Knight of Diamonds - The Second Scenario (USA)"
+    source: no-intro
   assets:
   - asset:
       id: 25985
       kind: 3
       kind_id: 26003
       type: 1
-      name: "Wizardry - The Knight of Diamonds (U) [!].nes"
+      name: "Wizardry - Knight of Diamonds - The Second Scenario (USA).nes"
       format: 1
       size: 262160
       blob_id: 71157
-      debug: "Wizardry - The Knight of Diamonds (U) [!].zip\n巫术 III - 钻石骑士 (美版) (角色扮演)-Wizardry - The Knight of Diamonds (USA) + Wizardry - The Knight of Diamonds (U) [!].nes"
+      debug: "Wizardry - The Knight of Diamonds (U) [!].zip\n巫术 III - 钻石骑士 (美版) (角色扮演)-Wizardry - The Knight of Diamonds (USA) + Wizardry - The Knight of Diamonds (U) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=98cbf6d8d410c6725b59c08c35a22f29c3531aa8"
   - asset:
       id: 137481
       kind: 3
@@ -63,14 +78,32 @@ releases:
     kind_id: 26005
     language: 1
     name: "Wizardry - The Knight of Diamonds (U)"
+    deprecated: 1
+  - id: 259817
+    kind: 3
+    kind_id: 26005
+    language: 1
+    name: "Wizardry - Knight of Diamonds - The Second Scenario (USA)"
+    source: no-intro
   assets:
   - asset:
       id: 25987
       kind: 3
       kind_id: 26005
       type: 1
-      name: "Wizardry - The Knight of Diamonds (U).nes"
+      name: "Wizardry - Knight of Diamonds - The Second Scenario (USA).nes"
       format: 1
       size: 262160
       blob_id: 71159
-      debug: "Wizardry - The Knight of Diamonds (U).zip"
+      debug: "Wizardry - The Knight of Diamonds (U).zip\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=98cbf6d8d410c6725b59c08c35a22f29c3531aa8"
+  - asset:
+      id: 139894
+      kind: 3
+      kind_id: 26005
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Wizardry%20-%20Knight%20of%20Diamonds%20-%20The%20Second%20Scenario%20%28USA%29.png
+      format: 1
+      size: 1194
+      blob_id: 325262
+      debug: libretro-named-titles:rom-asset=25987:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Wizardry%20-%20Knight%20of%20Diamonds%20-%20The%20Second%20Scenario%20%28USA%29.png

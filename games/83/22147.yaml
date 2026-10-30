@@ -47,17 +47,26 @@ releases:
     kind_id: 22138
     language: 1
     name: Strider (U) (GBA-Capcom Classics)
+    deprecated: 1
+  - id: 259448
+    kind: 3
+    kind_id: 22138
+    language: 1
+    name: Strider (USA) (Capcom Classics Mini Mix)
+    source: no-intro
   assets:
   - asset:
       id: 22120
       kind: 3
       kind_id: 22138
       type: 1
-      name: Strider (U) (GBA-Capcom Classics).nes
+      name: Strider (USA) (Capcom Classics Mini Mix).nes
       format: 1
       size: 262160
       blob_id: 67474
-      debug: Strider (U) (GBA-Capcom Classics).nes
+      debug: |-
+        Strider (U) (GBA-Capcom Classics).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=065f0219f24b1225b245f60c5a06512eed32b645
 - release:
     id: 22139
     game_id: 22147
@@ -67,23 +76,31 @@ releases:
     kind_id: 22139
     language: 1
     name: Strider (U) [!]
+    deprecated: 1
   - id: 49312
     kind: 3
     kind_id: 22139
     language: 1
     name: Strider (U)
+    deprecated: 1
   - id: 61221
     kind: 3
     kind_id: 22139
     language: 2
     name: 出击飞龙 (美版) (动作)-Strider (USA)
+  - id: 259449
+    kind: 3
+    kind_id: 22139
+    language: 1
+    name: Strider (USA)
+    source: no-intro
   assets:
   - asset:
       id: 22121
       kind: 3
       kind_id: 22139
       type: 1
-      name: Strider (U) [!].nes
+      name: Strider (USA).nes
       format: 1
       size: 262160
       blob_id: 67475
@@ -91,6 +108,7 @@ releases:
         Strider (U) [!].zip
         Strider (U).zip
         出击飞龙 (美版) (动作)-Strider (USA) + Strider (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=1df12a7b72f3d2a0c506216acf8acc0a81b923f7
   - asset:
       id: 137349
       kind: 3
@@ -151,14 +169,34 @@ releases:
     kind_id: 22147
     language: 1
     name: Strider
+    deprecated: 1
+  - id: 259450
+    kind: 3
+    kind_id: 22147
+    language: 1
+    name: Strider (USA)
+    source: no-intro
   assets:
   - asset:
       id: 22129
       kind: 3
       kind_id: 22147
       type: 1
-      name: Strider.nes
+      name: Strider (USA).nes
       format: 1
       size: 262160
       blob_id: 67482
-      debug: Strider.zip
+      debug: |-
+        Strider.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=1df12a7b72f3d2a0c506216acf8acc0a81b923f7
+  - asset:
+      id: 139785
+      kind: 3
+      kind_id: 22147
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Strider%20%28USA%29.png
+      format: 1
+      size: 2405
+      blob_id: 325162
+      debug: libretro-named-titles:rom-asset=22129:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Strider%20%28USA%29.png

@@ -13,6 +13,12 @@ names:
   language: 1
   name: "Sanrio Cup - Pon Pon Volley"
   source: codex
+- id: 262029
+  kind: 2
+  kind_id: 19497
+  language: 1
+  name: "Sanrio Cup - Pon Pon Volley"
+  source: no-intro
 releases:
 - release:
     id: 19497
@@ -23,14 +29,31 @@ releases:
     kind_id: 19497
     language: 2
     name: Q版排球
+  - id: 259132
+    kind: 3
+    kind_id: 19497
+    language: 1
+    name: "Sanrio Cup - Pon Pon Volley (Japan)"
+    source: no-intro
   assets:
   - asset:
       id: 19479
       kind: 3
       kind_id: 19497
       type: 1
-      name: Q版排球.nes
+      name: "Sanrio Cup - Pon Pon Volley (Japan).nes"
       format: 1
       size: 65552
       blob_id: 64991
-      debug: "Q版排球.nes\n重复的/卡通明星杯 - 碰碰排球 (日版) (运动)-Sanrio Cup - Pon Pon Volley (Japan) + Sanrio Cup - Pon Pon Volley (J).nes"
+      debug: "Q版排球.nes\n重复的/卡通明星杯 - 碰碰排球 (日版) (运动)-Sanrio Cup - Pon Pon Volley (Japan) + Sanrio Cup - Pon Pon Volley (J).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=7aeaeafb8c71f26f2e3dc2464be431b80f1c4636"
+  - asset:
+      id: 139692
+      kind: 3
+      kind_id: 19497
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Sanrio%20Cup%20-%20Pon%20Pon%20Volley%20%28Japan%29.png
+      format: 1
+      size: 2637
+      blob_id: 325086
+      debug: libretro-named-titles:rom-asset=19479:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Sanrio%20Cup%20-%20Pon%20Pon%20Volley%20%28Japan%29.png

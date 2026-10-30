@@ -12,11 +12,18 @@ names:
   kind_id: 6779
   language: 1
   name: Battle Storm (J)
+  deprecated: 1
 - id: 91352
   kind: 2
   kind_id: 6779
   language: 1
   name: Battle Storm
+- id: 261551
+  kind: 2
+  kind_id: 6779
+  language: 1
+  name: Battle Storm
+  source: no-intro
 releases:
 - release:
     id: 6783
@@ -28,6 +35,7 @@ releases:
     kind_id: 6783
     language: 1
     name: Battle Storm (Japan) (Translated En)
+    deprecated: 1
   - id: 65007
     kind: 3
     kind_id: 6783
@@ -38,6 +46,13 @@ releases:
     kind_id: 6783
     language: 1
     name: Battle Storm (J)
+    deprecated: 1
+  - id: 257748
+    kind: 3
+    kind_id: 6783
+    language: 1
+    name: Battle Storm (Japan)
+    source: no-intro
   release_publishers:
   - release_id: 6783
     publisher_id: 188
@@ -47,13 +62,14 @@ releases:
       kind: 3
       kind_id: 6783
       type: 1
-      name: Battle Storm (Japan) (Translated En).nes
+      name: Battle Storm (Japan).nes
       format: 1
       size: 262160
       blob_id: 53009
       debug: |-
         Battle Storm (Japan) (Translated En).zip
         战斗风暴 (日版) (即时策略)-Battle Storm (Japan) + Battle Storm (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=26e47e25ed56a8f8d730956ca10e9d203857f2b7
   - asset:
       id: 138212
       kind: 3

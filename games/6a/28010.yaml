@@ -12,6 +12,13 @@ names:
   kind_id: 28010
   language: 1
   name: Huan Xiang Chuan Shuo (NJ048) (Ch)
+  deprecated: 1
+- id: 262866
+  kind: 2
+  kind_id: 28010
+  language: 1
+  name: Huanxiang Chuanshuo
+  source: no-intro
 releases:
 - release:
     id: 28010
@@ -27,14 +34,34 @@ releases:
     kind_id: 28010
     language: 1
     name: Huan Xiang Chuan Shuo (NJ048) (Ch)
+    deprecated: 1
+  - id: 260479
+    kind: 3
+    kind_id: 28010
+    language: 1
+    name: Huanxiang Chuanshuo (China) (Aftermarket) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 27992
       kind: 3
       kind_id: 28010
       type: 1
-      name: 幻想传说[南晶科技] + Huan Xiang Chuan Shuo (NJ048) (Ch).nes
+      name: Huanxiang Chuanshuo (China) (Aftermarket) (Pirate).nes
       format: 1
       size: 2097168
       blob_id: 72661
-      debug: 幻想传说[南晶科技] + Huan Xiang Chuan Shuo (NJ048) (Ch).nes
+      debug: |-
+        幻想传说[南晶科技] + Huan Xiang Chuan Shuo (NJ048) (Ch).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=a0f14148f0e2ca310b4d0e84198a6d55a34158fc
+  - asset:
+      id: 140093
+      kind: 3
+      kind_id: 28010
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Huanxiang%20Chuanshuo%20%28China%29%20%28Aftermarket%29%20%28Pirate%29.png
+      format: 1
+      size: 6501
+      blob_id: 325432
+      debug: libretro-named-titles:rom-asset=27992:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Huanxiang%20Chuanshuo%20%28China%29%20%28Aftermarket%29%20%28Pirate%29.png

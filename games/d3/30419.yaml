@@ -12,6 +12,13 @@ names:
   kind_id: 30419
   language: 1
   name: Black Bass 2, The (J)
+  deprecated: 1
+- id: 263732
+  kind: 2
+  kind_id: 30419
+  language: 1
+  name: Black Bass II, The
+  source: no-intro
 releases:
 - release:
     id: 30419
@@ -27,14 +34,34 @@ releases:
     kind_id: 30419
     language: 1
     name: Black Bass 2, The (J)
+    deprecated: 1
+  - id: 261441
+    kind: 3
+    kind_id: 30419
+    language: 1
+    name: Black Bass II, The (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 30401
       kind: 3
       kind_id: 30419
       type: 1
-      name: 黑巴斯 II (日版) (运动休闲)-Black Bass 2, The (Japan) + Black Bass 2, The (J).nes
+      name: Black Bass II, The (Japan).nes
       format: 1
       size: 131088
       blob_id: 74204
-      debug: 黑巴斯 II (日版) (运动休闲)-Black Bass 2, The (Japan) + Black Bass 2, The (J).nes
+      debug: |-
+        黑巴斯 II (日版) (运动休闲)-Black Bass 2, The (Japan) + Black Bass 2, The (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=7a7a71a08b19d3357ac59187eb108887831752b4
+  - asset:
+      id: 140263
+      kind: 3
+      kind_id: 30419
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Black%20Bass%20II%2C%20The%20%28Japan%29.png
+      format: 1
+      size: 2066
+      blob_id: 325577
+      debug: libretro-named-titles:rom-asset=30401:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Black%20Bass%20II%2C%20The%20%28Japan%29.png

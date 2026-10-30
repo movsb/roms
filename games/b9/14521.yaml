@@ -27,6 +27,7 @@ releases:
     kind_id: 14521
     language: 1
     name: Kid Icarus (U) [!]
+    deprecated: 1
   - id: 60813
     kind: 3
     kind_id: 14521
@@ -37,17 +38,24 @@ releases:
     kind_id: 14521
     language: 1
     name: Kid Icarus (UE) [!]
+    deprecated: 1
+  - id: 258561
+    kind: 3
+    kind_id: 14521
+    language: 1
+    name: Kid Icarus (USA, Europe)
+    source: no-intro
   assets:
   - asset:
       id: 14503
       kind: 3
       kind_id: 14521
       type: 1
-      name: Kid Icarus (U) [!].nes
+      name: Kid Icarus (USA, Europe).nes
       format: 1
       size: 131088
       blob_id: 60283
-      debug: "Kid Icarus (U) [!].zip\n光神话 - 帕尔提娜之镜 (美版,欧版) (动作)-Kid Icarus - Angel Land Story (USA, Europe) + Kid Icarus (UE) [!].nes"
+      debug: "Kid Icarus (U) [!].zip\n光神话 - 帕尔提娜之镜 (美版,欧版) (动作)-Kid Icarus - Angel Land Story (USA, Europe) + Kid Icarus (UE) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=920b7e56f917690b89258a627edacf2a4650685d"
   - asset:
       id: 137023
       kind: 3
@@ -68,17 +76,37 @@ releases:
     kind_id: 14522
     language: 1
     name: Kid Icarus (UE) (VC)
+    deprecated: 1
+  - id: 258562
+    kind: 3
+    kind_id: 14522
+    language: 1
+    name: Kid Icarus (USA, Europe) (Rev 1) (Virtual Console)
+    source: no-intro
   assets:
   - asset:
       id: 14504
       kind: 3
       kind_id: 14522
       type: 1
-      name: Kid Icarus (UE) (VC).nes
+      name: Kid Icarus (USA, Europe) (Rev 1) (Virtual Console).nes
       format: 1
       size: 131088
       blob_id: 60284
-      debug: Kid Icarus (UE) (VC).nes
+      debug: |-
+        Kid Icarus (UE) (VC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=c052cb26e36e852477978e17d93a2b6e7e36ee19
+  - asset:
+      id: 139490
+      kind: 3
+      kind_id: 14522
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Kid%20Icarus%20%28USA%2C%20Europe%29%20%28Rev%201%29%20%28Virtual%20Console%29.png
+      format: 1
+      size: 4300
+      blob_id: 324918
+      debug: libretro-named-titles:rom-asset=14504:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Kid%20Icarus%20%28USA%2C%20Europe%29%20%28Rev%201%29%20%28Virtual%20Console%29.png
 - release:
     id: 14523
     game_id: 14521

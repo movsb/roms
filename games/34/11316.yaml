@@ -7,12 +7,19 @@ names:
   kind_id: 11316
   language: 1
   name: Felix the Cat by Dragon Co (Unl) [!]
+  deprecated: 1
 - id: 247799
   kind: 2
   kind_id: 11316
   language: 2
   name: 菲力猫
   source: codex
+- id: 261706
+  kind: 2
+  kind_id: 11316
+  language: 1
+  name: Felix the Cat
+  source: no-intro
 releases:
 - release:
     id: 11316
@@ -23,14 +30,34 @@ releases:
     kind_id: 11316
     language: 1
     name: Felix the Cat by Dragon Co (Unl) [!]
+    deprecated: 1
+  - id: 258214
+    kind: 3
+    kind_id: 11316
+    language: 1
+    name: Felix the Cat (China) (En) (Dragon Co.) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 11298
       kind: 3
       kind_id: 11316
       type: 1
-      name: Felix the Cat by Dragon Co (Unl) [!].nes
+      name: Felix the Cat (China) (En) (Dragon Co.) (Unl).nes
       format: 1
       size: 524304
       blob_id: 57277
-      debug: Felix the Cat by Dragon Co (Unl) [!].nes
+      debug: |-
+        Felix the Cat by Dragon Co (Unl) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=0dad6e91b420e6a3d41ec415bc9ff58331593559
+  - asset:
+      id: 139397
+      kind: 3
+      kind_id: 11316
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Felix%20the%20Cat%20%28China%29%20%28En%29%20%28Dragon%20Co.%29%20%28Unl%29.png
+      format: 1
+      size: 2091
+      blob_id: 324835
+      debug: libretro-named-titles:rom-asset=11298:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Felix%20the%20Cat%20%28China%29%20%28En%29%20%28Dragon%20Co.%29%20%28Unl%29.png

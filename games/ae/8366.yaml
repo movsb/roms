@@ -12,12 +12,19 @@ names:
   kind_id: 8366
   language: 1
   name: Kyatto Ninden Teyandee (J) [!]
+  deprecated: 1
 - id: 247589
   kind: 2
   kind_id: 8366
   language: 2
   name: 忍者猫
   source: codex
+- id: 261584
+  kind: 2
+  kind_id: 8366
+  language: 1
+  name: Cat Ninden Teyandee
+  source: no-intro
 releases:
 - release:
     id: 8366
@@ -33,17 +40,26 @@ releases:
     kind_id: 8366
     language: 1
     name: Kyatto Ninden Teyandee (J) [!]
+    deprecated: 1
+  - id: 257872
+    kind: 3
+    kind_id: 8366
+    language: 1
+    name: Cat Ninden Teyandee (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 8348
       kind: 3
       kind_id: 8366
       type: 1
-      name: Cat Ninden Teyandee (Japan) + Kyatto Ninden Teyandee (J) [!].nes
+      name: Cat Ninden Teyandee (Japan).nes
       format: 1
       size: 262160
       blob_id: 54507
-      debug: Cat Ninden Teyandee (Japan) + Kyatto Ninden Teyandee (J) [!].nes
+      debug: |-
+        Cat Ninden Teyandee (Japan) + Kyatto Ninden Teyandee (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=7d47cd172b886ece5b98ccb8feacbacefa465c3a
   - asset:
       id: 136760
       kind: 3

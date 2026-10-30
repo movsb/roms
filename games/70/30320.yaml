@@ -12,6 +12,13 @@ names:
   kind_id: 30320
   language: 1
   name: Adventures in the Magic Kingdom (E) [!]
+  deprecated: 1
+- id: 263692
+  kind: 2
+  kind_id: 30320
+  language: 1
+  name: Adventures in the Magic Kingdom
+  source: no-intro
 releases:
 - release:
     id: 30320
@@ -27,17 +34,26 @@ releases:
     kind_id: 30320
     language: 1
     name: Adventures in the Magic Kingdom (E) [!]
+    deprecated: 1
+  - id: 261393
+    kind: 3
+    kind_id: 30320
+    language: 1
+    name: Adventures in the Magic Kingdom (Europe)
+    source: no-intro
   assets:
   - asset:
       id: 30302
       kind: 3
       kind_id: 30320
       type: 1
-      name: 魔法王国大冒险 (欧版) (角色扮演)-Adventures in the Magic Kingdom (Europe) + Adventures in the Magic Kingdom (E) [!].nes
+      name: Adventures in the Magic Kingdom (Europe).nes
       format: 1
       size: 262160
       blob_id: 74136
-      debug: 魔法王国大冒险 (欧版) (角色扮演)-Adventures in the Magic Kingdom (Europe) + Adventures in the Magic Kingdom (E) [!].nes
+      debug: |-
+        魔法王国大冒险 (欧版) (角色扮演)-Adventures in the Magic Kingdom (Europe) + Adventures in the Magic Kingdom (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=68836aa74871f35a478dd66296c9da090e981c29
   - asset:
       id: 138093
       kind: 3

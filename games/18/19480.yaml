@@ -7,12 +7,19 @@ names:
   kind_id: 19480
   language: 1
   name: Queen Bee V (Unl) [!]
+  deprecated: 1
 - id: 248412
   kind: 2
   kind_id: 19480
   language: 2
   name: 蜂后5
   source: codex
+- id: 262028
+  kind: 2
+  kind_id: 19480
+  language: 1
+  name: Queen Bee V
+  source: no-intro
 releases:
 - release:
     id: 19480
@@ -23,14 +30,23 @@ releases:
     kind_id: 19480
     language: 1
     name: Queen Bee V (Unl) [!]
+    deprecated: 1
+  - id: 259131
+    kind: 3
+    kind_id: 19480
+    language: 1
+    name: Queen Bee V (Asia) (Ja) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 19462
       kind: 3
       kind_id: 19480
       type: 1
-      name: Queen Bee V (Unl) [!].nes
+      name: Queen Bee V (Asia) (Ja) (Pirate).nes
       format: 1
       size: 262160
       blob_id: 64974
-      debug: Queen Bee V (Unl) [!].nes
+      debug: |-
+        Queen Bee V (Unl) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=46d620c8f0b15e10bebe7dbf2a7f6902e168be70

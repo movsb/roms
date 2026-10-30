@@ -54,14 +54,32 @@ releases:
     kind_id: 12063
     language: 1
     name: "Galaxxon - The Third War by Sean Kelly (PD)"
+    deprecated: 1
+  - id: 258279
+    kind: 3
+    kind_id: 12063
+    language: 1
+    name: "Galaxxon - The Third War (World) (Aftermarket) (Unl)"
+    source: no-intro
   assets:
   - asset:
       id: 12045
       kind: 3
       kind_id: 12063
       type: 1
-      name: "Galaxxon - The Third War by Sean Kelly (PD).nes"
+      name: "Galaxxon - The Third War (World) (Aftermarket) (Unl).nes"
       format: 1
       size: 196624
       blob_id: 57984
-      debug: "Galaxxon - The Third War by Sean Kelly (PD).nes"
+      debug: "Galaxxon - The Third War by Sean Kelly (PD).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=167798018dcd6c3dfc665fe4577ff93664d2f78d"
+  - asset:
+      id: 139410
+      kind: 3
+      kind_id: 12063
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Galaxxon%20-%20The%20Third%20War%20%28World%29%20%28Aftermarket%29%20%28Unl%29.png
+      format: 1
+      size: 2062
+      blob_id: 324847
+      debug: libretro-named-titles:rom-asset=12045:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Galaxxon%20-%20The%20Third%20War%20%28World%29%20%28Aftermarket%29%20%28Unl%29.png

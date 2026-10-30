@@ -14,6 +14,12 @@ names:
   language: 2
   name: 宝可梦：蓝
   source: codex
+- id: 261993
+  kind: 2
+  kind_id: 18969
+  language: 1
+  name: Pokemon Blue
+  source: no-intro
 releases:
 - release:
     id: 18969
@@ -24,16 +30,24 @@ releases:
     kind_id: 18969
     language: 1
     name: Pokemon Blue (Unl) [!]
+    deprecated: 1
+  - id: 259058
+    kind: 3
+    kind_id: 18969
+    language: 1
+    name: Pokemon Blue (Asia) (En) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 18951
       kind: 3
       kind_id: 18969
       type: 1
-      name: Pokemon Blue (Unl) [!].nes
+      name: Pokemon Blue (Asia) (En) (Pirate).nes
       format: 1
       size: 262160
       blob_id: 64492
       debug: |-
         Pokemon Blue (Unl) [!].nes
         Pokemon Blue (Unl) [!].zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=c07abf3c1e39706c96a5bc1babbebf73052a443e

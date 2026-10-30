@@ -7,12 +7,19 @@ names:
   kind_id: 14974
   language: 1
   name: Lawn Mower by shiru
+  deprecated: 1
 - id: 249241
   kind: 2
   kind_id: 14974
   language: 2
   name: 割草机
   source: codex
+- id: 261847
+  kind: 2
+  kind_id: 14974
+  language: 1
+  name: Lawn Mower
+  source: no-intro
 releases:
 - release:
     id: 14974
@@ -23,17 +30,37 @@ releases:
     kind_id: 14974
     language: 1
     name: Lawn Mower by shiru (PD) (2011-05-30)
+    deprecated: 1
+  - id: 258619
+    kind: 3
+    kind_id: 14974
+    language: 1
+    name: Lawn Mower (World) (NESDev 2011) (Aftermarket) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 14956
       kind: 3
       kind_id: 14974
       type: 1
-      name: Lawn Mower by shiru (PD) (2011-05-30).nes
+      name: Lawn Mower (World) (NESDev 2011) (Aftermarket) (Unl).nes
       format: 1
       size: 24592
       blob_id: 60702
-      debug: Lawn Mower by shiru (PD) (2011-05-30).nes
+      debug: |-
+        Lawn Mower by shiru (PD) (2011-05-30).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=7ec93bc9ea959804fa2839f67739baf735a37e52
+  - asset:
+      id: 139511
+      kind: 3
+      kind_id: 14974
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Lawn%20Mower%20%28World%29%20%28NESDev%202011%29%20%28Aftermarket%29%20%28Unl%29.png
+      format: 1
+      size: 7211
+      blob_id: 324936
+      debug: libretro-named-titles:rom-asset=14956:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Lawn%20Mower%20%28World%29%20%28NESDev%202011%29%20%28Aftermarket%29%20%28Unl%29.png
 - release:
     id: 14975
     game_id: 14974
@@ -43,14 +70,23 @@ releases:
     kind_id: 14975
     language: 1
     name: Lawn Mower by shiru (PD)
+    deprecated: 1
+  - id: 258620
+    kind: 3
+    kind_id: 14975
+    language: 1
+    name: Lawn Mower (World) (v1.12) (Aftermarket) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 14957
       kind: 3
       kind_id: 14975
       type: 1
-      name: Lawn Mower by shiru (PD).nes
+      name: Lawn Mower (World) (v1.12) (Aftermarket) (Unl).nes
       format: 1
       size: 24592
       blob_id: 60703
-      debug: Lawn Mower by shiru (PD).nes
+      debug: |-
+        Lawn Mower by shiru (PD).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=3dbf2d5a39655160d32a4f2f21c2857f9e2380e6

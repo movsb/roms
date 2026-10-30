@@ -13,6 +13,12 @@ names:
   language: 2
   name: 家庭棒球90
   source: codex
+- id: 261700
+  kind: 2
+  kind_id: 11200
+  language: 1
+  name: Famista '90
+  source: no-intro
 releases:
 - release:
     id: 11200
@@ -23,17 +29,26 @@ releases:
     kind_id: 11200
     language: 1
     name: Famista '90 (J) [!]
+    deprecated: 1
+  - id: 258195
+    kind: 3
+    kind_id: 11200
+    language: 1
+    name: Famista '90 (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 11182
       kind: 3
       kind_id: 11200
       type: 1
-      name: Famista '90 (J) [!].nes
+      name: Famista '90 (Japan).nes
       format: 1
       size: 262160
       blob_id: 57170
-      debug: Famista '90 (J) [!].nes
+      debug: |-
+        Famista '90 (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=35e9b4576dc45d5e67cfad274d67d4fb37dfc921
   - asset:
       id: 136882
       kind: 3

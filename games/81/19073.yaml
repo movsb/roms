@@ -152,24 +152,32 @@ releases:
     kind_id: 19061
     language: 1
     name: Popeye (W) (PRG1) [!]
+    deprecated: 1
   - id: 62711
     kind: 3
     kind_id: 19061
     language: 2
     name: 大力水手 (世界版) (动作)-Popeye (World) (Rev A)
+  - id: 259070
+    kind: 3
+    kind_id: 19061
+    language: 1
+    name: Popeye (World) (Rev 1)
+    source: no-intro
   assets:
   - asset:
       id: 19043
       kind: 3
       kind_id: 19061
       type: 1
-      name: Popeye (W) (PRG1) [!].nes
+      name: Popeye (World) (Rev 1).nes
       format: 1
       size: 24592
       blob_id: 64579
       debug: |-
         Popeye (W) (PRG1) [!].zip
         大力水手 (世界版) (动作)-Popeye (World) (Rev A) + Popeye (W) (PRG1) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=7ce202e72b7942e3f6030ebf220e8bbb695de9d8
   - asset:
       id: 137199
       kind: 3
@@ -210,17 +218,26 @@ releases:
     kind_id: 19063
     language: 1
     name: Popeye (W) (PRG1) [p1]
+    deprecated: 1
+  - id: 259071
+    kind: 3
+    kind_id: 19063
+    language: 1
+    name: Popeye (Asia) (En) (v1.1) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 19045
       kind: 3
       kind_id: 19063
       type: 1
-      name: Popeye (W) (PRG1) [p1].nes
+      name: Popeye (Asia) (En) (v1.1) (Pirate).nes
       format: 1
       size: 24592
       blob_id: 64581
-      debug: Popeye (W) (PRG1) [p1].nes
+      debug: |-
+        Popeye (W) (PRG1) [p1].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=6c11725f82f233981c078b14e8692809398e49c6
 - release:
     id: 19064
     game_id: 19073
@@ -257,17 +274,37 @@ releases:
     kind_id: 19073
     language: 1
     name: Popeye
+    deprecated: 1
+  - id: 259073
+    kind: 3
+    kind_id: 19073
+    language: 1
+    name: Popeye (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 19055
       kind: 3
       kind_id: 19073
       type: 1
-      name: Popeye.nes
+      name: Popeye (Japan).nes
       format: 1
       size: 24592
       blob_id: 64588
-      debug: Popeye.zip
+      debug: |-
+        Popeye.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=5559687ccc4514a309390938884daf95f42c649e
+  - asset:
+      id: 139675
+      kind: 3
+      kind_id: 19073
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Popeye%20%28Japan%29.png
+      format: 1
+      size: 1189
+      blob_id: 325072
+      debug: libretro-named-titles:rom-asset=19055:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Popeye%20%28Japan%29.png
 - release:
     id: 27585
     game_id: 19073

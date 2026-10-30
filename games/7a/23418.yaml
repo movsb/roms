@@ -32,17 +32,26 @@ releases:
     kind_id: 23418
     language: 1
     name: Swamp Thing (E) [!]
+    deprecated: 1
+  - id: 259560
+    kind: 3
+    kind_id: 23418
+    language: 1
+    name: Swamp Thing (Europe)
+    source: no-intro
   assets:
   - asset:
       id: 23400
       kind: 3
       kind_id: 23418
       type: 1
-      name: Swamp Thing (E) [!].nes
+      name: Swamp Thing (Europe).nes
       format: 1
       size: 262160
       blob_id: 68709
-      debug: Swamp Thing (E) [!].nes
+      debug: |-
+        Swamp Thing (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=9904a7da9852c302f0df9181948f9ae9225fd2ab
   - asset:
       id: 137375
       kind: 3
@@ -63,24 +72,32 @@ releases:
     kind_id: 23419
     language: 1
     name: Swamp Thing (U) [!]
+    deprecated: 1
   - id: 66735
     kind: 3
     kind_id: 23419
     language: 2
     name: 沼泽怪
+  - id: 259561
+    kind: 3
+    kind_id: 23419
+    language: 1
+    name: Swamp Thing (USA)
+    source: no-intro
   assets:
   - asset:
       id: 23401
       kind: 3
       kind_id: 23419
       type: 1
-      name: Swamp Thing (U) [!].nes
+      name: Swamp Thing (USA).nes
       format: 1
       size: 262160
       blob_id: 68710
       debug: |-
         Swamp Thing (U) [!].zip
         沼泽怪 + Swamp Thing (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=4c6d53effdb90a421f8e92c11738dd2af2ec4495
   - asset:
       id: 138717
       kind: 3

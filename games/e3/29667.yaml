@@ -13,6 +13,12 @@ names:
   language: 1
   name: "Street Fighter 2010 - The Final Fight"
   source: codex
+- id: 263461
+  kind: 2
+  kind_id: 29667
+  language: 1
+  name: "Street Fighter 2010 - The Final Fight"
+  source: no-intro
 releases:
 - release:
     id: 29667
@@ -23,14 +29,33 @@ releases:
     kind_id: 29667
     language: 2
     name: 街霸2010
+  - id: 261143
+    kind: 3
+    kind_id: 29667
+    language: 1
+    name: "Street Fighter 2010 - The Final Fight (USA)"
+    source: no-intro
   assets:
   - asset:
       id: 29649
       kind: 3
       kind_id: 29667
       type: 1
-      name: 街霸2010.nes
+      name: "Street Fighter 2010 - The Final Fight (USA).nes"
       format: 1
       size: 262160
       blob_id: 73720
-      debug: 街霸2010.zip
+      debug: |-
+        街霸2010.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=93fc7ccd3ce12bfc548e443a6ff80488c4dbadde
+  - asset:
+      id: 140219
+      kind: 3
+      kind_id: 29667
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Street%20Fighter%202010%20-%20The%20Final%20Fight%20%28USA%29.png
+      format: 1
+      size: 3290
+      blob_id: 325159
+      debug: libretro-named-titles:rom-asset=29649:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Street%20Fighter%202010%20-%20The%20Final%20Fight%20%28USA%29.png

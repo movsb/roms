@@ -12,11 +12,18 @@ names:
   kind_id: 14070
   language: 1
   name: John Elway's Quarterback (U) [!]
+  deprecated: 1
 - id: 92186
   kind: 2
   kind_id: 14070
   language: 1
   name: John Elway's Quarterback
+- id: 261813
+  kind: 2
+  kind_id: 14070
+  language: 1
+  name: John Elway's Quarterback
+  source: no-intro
 releases:
 - release:
     id: 14070
@@ -27,24 +34,32 @@ releases:
     kind_id: 14070
     language: 1
     name: John Elway's Quarterback (U) [!]
+    deprecated: 1
   - id: 68689
     kind: 3
     kind_id: 14070
     language: 2
     name: 约翰艾尔维之传奇四分卫 (美版) (运动)-John Elways Quarterback (USA)
+  - id: 258517
+    kind: 3
+    kind_id: 14070
+    language: 1
+    name: John Elway's Quarterback (USA)
+    source: no-intro
   assets:
   - asset:
       id: 14052
       kind: 3
       kind_id: 14070
       type: 1
-      name: John Elway's Quarterback (U) [!].nes
+      name: John Elway's Quarterback (USA).nes
       format: 1
       size: 65552
       blob_id: 59869
       debug: |-
         John Elway's Quarterback (U) [!].zip
         约翰艾尔维之传奇四分卫 (美版) (运动)-John Elways Quarterback (USA) + John Elway's Quarterback (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=1c474ccdc66d9f39d5af8eb683090bdd94b8623b
   - asset:
       id: 137002
       kind: 3
@@ -65,17 +80,26 @@ releases:
     kind_id: 14075
     language: 1
     name: John Elway's Quarterback (U)
+    deprecated: 1
+  - id: 258518
+    kind: 3
+    kind_id: 14075
+    language: 1
+    name: John Elway's Quarterback (USA)
+    source: no-intro
   assets:
   - asset:
       id: 14057
       kind: 3
       kind_id: 14075
       type: 1
-      name: John Elway's Quarterback (U).nes
+      name: John Elway's Quarterback (USA).nes
       format: 1
       size: 65552
       blob_id: 59874
-      debug: John Elway's Quarterback (U).zip
+      debug: |-
+        John Elway's Quarterback (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=1c474ccdc66d9f39d5af8eb683090bdd94b8623b
   - asset:
       id: 138539
       kind: 3

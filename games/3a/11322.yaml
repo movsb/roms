@@ -54,17 +54,37 @@ releases:
     kind_id: 11323
     language: 1
     name: Feng Yun (Ch) (Wxn)
+    deprecated: 1
+  - id: 258218
+    kind: 3
+    kind_id: 11323
+    language: 1
+    name: "Fengyun - Traitor Legend (China) (980334) (Unl)"
+    source: no-intro
   assets:
   - asset:
       id: 11305
       kind: 3
       kind_id: 11323
       type: 1
-      name: Feng Yun (Ch) (Wxn).nes
+      name: "Fengyun - Traitor Legend (China) (980334) (Unl).nes"
       format: 1
       size: 786448
       blob_id: 57284
-      debug: Feng Yun (Ch) (Wxn).nes
+      debug: |-
+        Feng Yun (Ch) (Wxn).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=4970a41fa92c2c2fad8b6d4e2849709267e4a584
+  - asset:
+      id: 139399
+      kind: 3
+      kind_id: 11323
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Fengyun%20-%20Traitor%20Legend%20%28China%29%20%28980334%29%20%28Unl%29.png
+      format: 1
+      size: 1655
+      blob_id: 324837
+      debug: libretro-named-titles:rom-asset=11305:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Fengyun%20-%20Traitor%20Legend%20%28China%29%20%28980334%29%20%28Unl%29.png
 - release:
     id: 11324
     game_id: 11322

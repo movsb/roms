@@ -13,6 +13,13 @@ names:
   language: 1
   name: Mario Bros. Classic
   source: codex
+  deprecated: 1
+- id: 263250
+  kind: 2
+  kind_id: 29138
+  language: 1
+  name: Mario Bros.
+  source: no-intro
 releases:
 - release:
     id: 29138
@@ -23,17 +30,25 @@ releases:
     kind_id: 29138
     language: 2
     name: 玛璃欧兄弟典藏版 (欧版) (动作)-Mario Bros. Classic (Europe)
+  - id: 260921
+    kind: 3
+    kind_id: 29138
+    language: 1
+    name: Mario Bros. (Europe) (PAL-MC-0, Classic Series)
+    source: no-intro
   assets:
   - asset:
       id: 29120
       kind: 3
       kind_id: 29138
       type: 1
-      name: 玛璃欧兄弟典藏版 (欧版) (动作)-Mario Bros. Classic (Europe).nes
+      name: Mario Bros. (Europe) (PAL-MC-0, Classic Series).nes
       format: 1
       size: 40976
       blob_id: 73398
-      debug: 玛璃欧兄弟典藏版 (欧版) (动作)-Mario Bros. Classic (Europe).nes
+      debug: |-
+        玛璃欧兄弟典藏版 (欧版) (动作)-Mario Bros. Classic (Europe).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=dbd1bf833a9d89a9ac41ccced0fb508074a489d1
   - asset:
       id: 139100
       kind: 3

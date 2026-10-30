@@ -12,6 +12,13 @@ names:
   kind_id: 29606
   language: 1
   name: "Eggland - Meikyuu no Fukkatsu (J)"
+  deprecated: 1
+- id: 263440
+  kind: 2
+  kind_id: 29606
+  language: 1
+  name: "Eggerland - Meikyuu no Fukkatsu"
+  source: no-intro
 releases:
 - release:
     id: 29606
@@ -27,14 +34,32 @@ releases:
     kind_id: 29606
     language: 1
     name: "Eggland - Meikyuu no Fukkatsu (J)"
+    deprecated: 1
+  - id: 261122
+    kind: 3
+    kind_id: 29606
+    language: 1
+    name: "Eggerland - Meikyuu no Fukkatsu (Japan)"
+    source: no-intro
   assets:
   - asset:
       id: 29588
       kind: 3
       kind_id: 29606
       type: 1
-      name: "蛋王子 - 迷宫之复活 (日版) (益智)-Eggerland - Meikyuu no Fukkatsu (Japan) + Eggland - Meikyuu no Fukkatsu (J).nes"
+      name: "Eggerland - Meikyuu no Fukkatsu (Japan).nes"
       format: 1
       size: 163856
       blob_id: 73688
-      debug: "蛋王子 - 迷宫之复活 (日版) (益智)-Eggerland - Meikyuu no Fukkatsu (Japan) + Eggland - Meikyuu no Fukkatsu (J).nes"
+      debug: "蛋王子 - 迷宫之复活 (日版) (益智)-Eggerland - Meikyuu no Fukkatsu (Japan) + Eggland - Meikyuu no Fukkatsu (J).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=55e97984252fdd37ed8f95343792a41a4906d291"
+  - asset:
+      id: 140215
+      kind: 3
+      kind_id: 29606
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Eggerland%20-%20Meikyuu%20no%20Fukkatsu%20%28Japan%29.png
+      format: 1
+      size: 1763
+      blob_id: 325535
+      debug: libretro-named-titles:rom-asset=29588:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Eggerland%20-%20Meikyuu%20no%20Fukkatsu%20%28Japan%29.png

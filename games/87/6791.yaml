@@ -27,17 +27,26 @@ releases:
     kind_id: 6791
     language: 1
     name: Battle of Olympus, The (E) [!]
+    deprecated: 1
+  - id: 257750
+    kind: 3
+    kind_id: 6791
+    language: 1
+    name: Battle of Olympus, The (Europe)
+    source: no-intro
   assets:
   - asset:
       id: 6773
       kind: 3
       kind_id: 6791
       type: 1
-      name: Battle of Olympus, The (E) [!].nes
+      name: Battle of Olympus, The (Europe).nes
       format: 1
       size: 131088
       blob_id: 53015
-      debug: Battle of Olympus, The (E) [!].nes
+      debug: |-
+        Battle of Olympus, The (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=d70bca094b244fac0f126f80af31139fa3f0c49d
   - asset:
       id: 136716
       kind: 3
@@ -78,28 +87,37 @@ releases:
     kind_id: 6793
     language: 1
     name: Battle of Olympus, The (U) [!]
+    deprecated: 1
   - id: 14200
     kind: 3
     kind_id: 6793
     language: 1
     name: Battle of Olympus, The (U)
+    deprecated: 1
   - id: 14214
     kind: 3
     kind_id: 6793
     language: 1
     name: BattleOfOlympus
+    deprecated: 1
   - id: 63224
     kind: 3
     kind_id: 6793
     language: 2
     name: 奥利匹斯之战
+  - id: 257751
+    kind: 3
+    kind_id: 6793
+    language: 1
+    name: Battle of Olympus, The (USA)
+    source: no-intro
   assets:
   - asset:
       id: 6775
       kind: 3
       kind_id: 6793
       type: 1
-      name: Battle of Olympus, The (U) [!].nes
+      name: Battle of Olympus, The (USA).nes
       format: 1
       size: 131088
       blob_id: 53017
@@ -109,6 +127,7 @@ releases:
         Battle of Olympus, The (U).zip
         BattleOfOlympus.zip
         奥利匹斯之战.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=6027c3631b18c7352531e4339d7b33d12c4c4e97
   - asset:
       id: 138451
       kind: 3

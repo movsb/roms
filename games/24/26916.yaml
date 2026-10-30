@@ -13,6 +13,12 @@ names:
   language: 1
   name: Ikari Warriors
   source: codex
+- id: 262470
+  kind: 2
+  kind_id: 26916
+  language: 1
+  name: Ikari Warriors
+  source: no-intro
 releases:
 - release:
     id: 26916
@@ -23,16 +29,34 @@ releases:
     kind_id: 26916
     language: 2
     name: 伊卡瑞勇士
+  - id: 260048
+    kind: 3
+    kind_id: 26916
+    language: 1
+    name: Ikari Warriors (Europe)
+    source: no-intro
   assets:
   - asset:
       id: 26898
       kind: 3
       kind_id: 26916
       type: 1
-      name: 伊卡瑞勇士.nes
+      name: Ikari Warriors (Europe).nes
       format: 1
       size: 131088
       blob_id: 71939
       debug: |-
         伊卡瑞勇士.nes
         重复的/怒 (欧版) (动作射击)-Ikari Warriors (Europe) + Ikari Warriors (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=460bbe5f79bbb9a7526c5047974d17bb7cfe16c0
+  - asset:
+      id: 139993
+      kind: 3
+      kind_id: 26916
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Ikari%20Warriors%20%28Europe%29.png
+      format: 1
+      size: 1546
+      blob_id: 325343
+      debug: libretro-named-titles:rom-asset=26898:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Ikari%20Warriors%20%28Europe%29.png

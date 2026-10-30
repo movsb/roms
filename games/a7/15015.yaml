@@ -7,12 +7,19 @@ names:
   kind_id: 15015
   language: 1
   name: Legend of Robin Hood, The (U) (Prototype)
+  deprecated: 1
 - id: 248072
   kind: 2
   kind_id: 15015
   language: 2
   name: 罗宾汉传奇
   source: codex
+- id: 261849
+  kind: 2
+  kind_id: 15015
+  language: 1
+  name: Legend of Robin Hood, The
+  source: no-intro
 releases:
 - release:
     id: 15015
@@ -23,14 +30,23 @@ releases:
     kind_id: 15015
     language: 1
     name: Legend of Robin Hood, The (U) (Prototype)
+    deprecated: 1
+  - id: 258627
+    kind: 3
+    kind_id: 15015
+    language: 1
+    name: Legend of Robin Hood, The (USA) (Proto 1)
+    source: no-intro
   assets:
   - asset:
       id: 14997
       kind: 3
       kind_id: 15015
       type: 1
-      name: Legend of Robin Hood, The (U) (Prototype).nes
+      name: Legend of Robin Hood, The (USA) (Proto 1).nes
       format: 1
       size: 262160
       blob_id: 60740
-      debug: Legend of Robin Hood, The (U) (Prototype).nes
+      debug: |-
+        Legend of Robin Hood, The (U) (Prototype).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=3153024d2552898069cbd2daef1f45c53f089006

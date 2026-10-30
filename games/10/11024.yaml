@@ -13,6 +13,12 @@ names:
   language: 2
   name: 爆裂拳
   source: codex
+- id: 261673
+  kind: 2
+  kind_id: 11024
+  language: 1
+  name: Exploding Fist
+  source: no-intro
 releases:
 - release:
     id: 11024
@@ -23,17 +29,26 @@ releases:
     kind_id: 11024
     language: 1
     name: Exploding Fist (U) (Newer Prototype) [!]
+    deprecated: 1
+  - id: 258150
+    kind: 3
+    kind_id: 11024
+    language: 1
+    name: Exploding Fist (USA) (Proto 2)
+    source: no-intro
   assets:
   - asset:
       id: 11006
       kind: 3
       kind_id: 11024
       type: 1
-      name: Exploding Fist (U) (Newer Prototype) [!].nes
+      name: Exploding Fist (USA) (Proto 2).nes
       format: 1
       size: 65552
       blob_id: 57007
-      debug: Exploding Fist (U) (Newer Prototype) [!].nes
+      debug: |-
+        Exploding Fist (U) (Newer Prototype) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=0ef8723d77b65adc89e3638fb396f368efd141e4
   - asset:
       id: 136858
       kind: 3
@@ -54,14 +69,34 @@ releases:
     kind_id: 11025
     language: 1
     name: Exploding Fist (U) (Older Prototype) [!]
+    deprecated: 1
+  - id: 258151
+    kind: 3
+    kind_id: 11025
+    language: 1
+    name: Exploding Fist (USA) (Proto 1)
+    source: no-intro
   assets:
   - asset:
       id: 11007
       kind: 3
       kind_id: 11025
       type: 1
-      name: Exploding Fist (U) (Older Prototype) [!].nes
+      name: Exploding Fist (USA) (Proto 1).nes
       format: 1
       size: 65552
       blob_id: 57008
-      debug: Exploding Fist (U) (Older Prototype) [!].nes
+      debug: |-
+        Exploding Fist (U) (Older Prototype) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=570661c23d994fa299f1185afc1874dd10e5e0ab
+  - asset:
+      id: 139390
+      kind: 3
+      kind_id: 11025
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Exploding%20Fist%20%28USA%29%20%28Proto%201%29.png
+      format: 1
+      size: 1809
+      blob_id: 324829
+      debug: libretro-named-titles:rom-asset=11007:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Exploding%20Fist%20%28USA%29%20%28Proto%201%29.png

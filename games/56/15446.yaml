@@ -7,12 +7,19 @@ names:
   kind_id: 15446
   language: 1
   name: MC Kids (U)
+  deprecated: 1
 - id: 248103
   kind: 2
   kind_id: 15446
   language: 2
   name: 麦当劳小子
   source: codex
+- id: 261867
+  kind: 2
+  kind_id: 15446
+  language: 1
+  name: M.C. Kids
+  source: no-intro
 releases:
 - release:
     id: 15446
@@ -23,14 +30,34 @@ releases:
     kind_id: 15446
     language: 1
     name: MC Kids (U)
+    deprecated: 1
+  - id: 258687
+    kind: 3
+    kind_id: 15446
+    language: 1
+    name: M.C. Kids (USA)
+    source: no-intro
   assets:
   - asset:
       id: 15428
       kind: 3
       kind_id: 15446
       type: 1
-      name: MC Kids (U).nes
+      name: M.C. Kids (USA).nes
       format: 1
       size: 262160
       blob_id: 61144
-      debug: MC Kids (U).zip
+      debug: |-
+        MC Kids (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=f8faa774708e108984158fcd9bbc5482ed7165c4
+  - asset:
+      id: 139535
+      kind: 3
+      kind_id: 15446
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/M.C.%20Kids%20%28USA%29.png
+      format: 1
+      size: 2378
+      blob_id: 324955
+      debug: libretro-named-titles:rom-asset=15428:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/M.C.%20Kids%20%28USA%29.png

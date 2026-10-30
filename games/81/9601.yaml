@@ -12,11 +12,18 @@ names:
   kind_id: 9601
   language: 1
   name: Defenders of Dynatron City (U) [!]
+  deprecated: 1
 - id: 91640
   kind: 2
   kind_id: 9601
   language: 1
   name: Defenders of Dynatron City
+- id: 261635
+  kind: 2
+  kind_id: 9601
+  language: 1
+  name: Defenders of Dynatron City
+  source: no-intro
 releases:
 - release:
     id: 9601
@@ -27,24 +34,32 @@ releases:
     kind_id: 9601
     language: 1
     name: Defenders of Dynatron City (U) [!]
+    deprecated: 1
   - id: 62611
     kind: 3
     kind_id: 9601
     language: 2
     name: 城市保卫战 (美版) (动作)-Defenders of Dynatron City (USA)
+  - id: 257996
+    kind: 3
+    kind_id: 9601
+    language: 1
+    name: Defenders of Dynatron City (USA)
+    source: no-intro
   assets:
   - asset:
       id: 9583
       kind: 3
       kind_id: 9601
       type: 1
-      name: Defenders of Dynatron City (U) [!].nes
+      name: Defenders of Dynatron City (USA).nes
       format: 1
       size: 262160
       blob_id: 55670
       debug: |-
         Defenders of Dynatron City (U) [!].zip
         城市保卫战 (美版) (动作)-Defenders of Dynatron City (USA) + Defenders of Dynatron City (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=7352efa485690b93e8fc1869696206ce06254385
   - asset:
       id: 136803
       kind: 3
@@ -65,17 +80,26 @@ releases:
     kind_id: 9605
     language: 1
     name: Defenders of Dynatron City (U)
+    deprecated: 1
+  - id: 257997
+    kind: 3
+    kind_id: 9605
+    language: 1
+    name: Defenders of Dynatron City (USA)
+    source: no-intro
   assets:
   - asset:
       id: 9587
       kind: 3
       kind_id: 9605
       type: 1
-      name: Defenders of Dynatron City (U).nes
+      name: Defenders of Dynatron City (USA).nes
       format: 1
       size: 262160
       blob_id: 55674
-      debug: Defenders of Dynatron City (U).zip
+      debug: |-
+        Defenders of Dynatron City (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=7352efa485690b93e8fc1869696206ce06254385
   - asset:
       id: 138471
       kind: 3

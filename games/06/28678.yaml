@@ -12,6 +12,13 @@ names:
   kind_id: 28678
   language: 1
   name: Dream Master (J) [!]
+  deprecated: 1
+- id: 263109
+  kind: 2
+  kind_id: 28678
+  language: 1
+  name: "Namco Prism Zone - Dream Master"
+  source: no-intro
 releases:
 - release:
     id: 28678
@@ -27,17 +34,26 @@ releases:
     kind_id: 28678
     language: 1
     name: Dream Master (J) [!]
+    deprecated: 1
+  - id: 260753
+    kind: 3
+    kind_id: 28678
+    language: 1
+    name: "Namco Prism Zone - Dream Master (Japan)"
+    source: no-intro
   assets:
   - asset:
       id: 28660
       kind: 3
       kind_id: 28678
       type: 1
-      name: 梦境历险 (日版) (角色扮演)-Dream Master (Japan) + Dream Master (J) [!].nes
+      name: "Namco Prism Zone - Dream Master (Japan).nes"
       format: 1
       size: 524304
       blob_id: 73114
-      debug: 梦境历险 (日版) (角色扮演)-Dream Master (Japan) + Dream Master (J) [!].nes
+      debug: |-
+        梦境历险 (日版) (角色扮演)-Dream Master (Japan) + Dream Master (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=7fa51058307db50825c2d3a3a98c0da554bc3c92
   - asset:
       id: 137808
       kind: 3

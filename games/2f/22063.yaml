@@ -7,12 +7,19 @@ names:
   kind_id: 22063
   language: 1
   name: Street Blaster V Turbo 20 (Unl)
+  deprecated: 1
 - id: 248635
   kind: 2
   kind_id: 22063
   language: 2
   name: 街头霸王5 Turbo 20
   source: codex
+- id: 262155
+  kind: 2
+  kind_id: 22063
+  language: 1
+  name: "Street Blaster V - Turbo 20"
+  source: no-intro
 releases:
 - release:
     id: 22063
@@ -23,14 +30,34 @@ releases:
     kind_id: 22063
     language: 1
     name: Street Blaster V Turbo 20 (Unl)
+    deprecated: 1
+  - id: 259429
+    kind: 3
+    kind_id: 22063
+    language: 1
+    name: "Street Blaster V - Turbo 20 (Asia) (En) (Cony Soft) (Pirate)"
+    source: no-intro
   assets:
   - asset:
       id: 22045
       kind: 3
       kind_id: 22063
       type: 1
-      name: Street Blaster V Turbo 20 (Unl).nes
+      name: "Street Blaster V - Turbo 20 (Asia) (En) (Cony Soft) (Pirate).nes"
       format: 1
       size: 393232
       blob_id: 67409
-      debug: Street Blaster V Turbo 20 (Unl).nes
+      debug: |-
+        Street Blaster V Turbo 20 (Unl).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=e8eaba5687f0951a0d56e1efdcaff6348df002db
+  - asset:
+      id: 139780
+      kind: 3
+      kind_id: 22063
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Street%20Blaster%20V%20-%20Turbo%2020%20%28Asia%29%20%28En%29%20%28Cony%20Soft%29%20%28Pirate%29.png
+      format: 1
+      size: 8294
+      blob_id: 325157
+      debug: libretro-named-titles:rom-asset=22045:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Street%20Blaster%20V%20-%20Turbo%2020%20%28Asia%29%20%28En%29%20%28Cony%20Soft%29%20%28Pirate%29.png

@@ -13,6 +13,13 @@ names:
   language: 1
   name: Gomoku Narabe
   source: codex
+  deprecated: 1
+- id: 262427
+  kind: 2
+  kind_id: 26837
+  language: 1
+  name: Gomoku Narabe Renju
+  source: no-intro
 releases:
 - release:
     id: 26837
@@ -23,14 +30,33 @@ releases:
     kind_id: 26837
     language: 2
     name: 任天堂五子棋 (日版) (桌面平台)-Gomoku Narabe (Japan)
+  - id: 260005
+    kind: 3
+    kind_id: 26837
+    language: 1
+    name: Gomoku Narabe Renju (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 26819
       kind: 3
       kind_id: 26837
       type: 1
-      name: 任天堂五子棋 (日版) (桌面平台)-Gomoku Narabe (Japan).nes
+      name: Gomoku Narabe Renju (Japan).nes
       format: 1
       size: 24592
       blob_id: 71883
-      debug: 任天堂五子棋 (日版) (桌面平台)-Gomoku Narabe (Japan).nes
+      debug: |-
+        任天堂五子棋 (日版) (桌面平台)-Gomoku Narabe (Japan).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=f37aa34f80a6d87c121271a99e78b2416983fbbc
+  - asset:
+      id: 139981
+      kind: 3
+      kind_id: 26837
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Gomoku%20Narabe%20Renju%20%28Japan%29.png
+      format: 1
+      size: 1261
+      blob_id: 325329
+      debug: libretro-named-titles:rom-asset=26819:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Gomoku%20Narabe%20Renju%20%28Japan%29.png

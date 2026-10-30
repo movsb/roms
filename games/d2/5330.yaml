@@ -32,11 +32,13 @@ releases:
     kind_id: 5330
     language: 1
     name: "Addams Family - Pugsley's Scavenger Hunt, The (U)"
+    deprecated: 1
   - id: 10870
     kind: 3
     kind_id: 5330
     language: 1
     name: "Addams Family, The - Pugsley's Scavenger Hunt (U) [!p]"
+    deprecated: 1
   - id: 71251
     kind: 3
     kind_id: 5330
@@ -47,17 +49,35 @@ releases:
     kind_id: 5330
     language: 1
     name: "Addams Family, The - Pugsley's Scavenger Hunt (U) [!]"
+    deprecated: 1
+  - id: 257590
+    kind: 3
+    kind_id: 5330
+    language: 1
+    name: "Addams Family, The - Pugsley's Scavenger Hunt (USA)"
+    source: no-intro
   assets:
   - asset:
       id: 5312
       kind: 3
       kind_id: 5330
       type: 1
-      name: "Addams Family - Pugsley's Scavenger Hunt, The (U).nes"
+      name: "Addams Family, The - Pugsley's Scavenger Hunt (USA).nes"
       format: 1
       size: 262160
       blob_id: 51631
-      debug: "Addams Family - Pugsley's Scavenger Hunt, The (U).zip\nAddams Family, The - Pugsley's Scavenger Hunt (U) [!p].zip\n阿达一族 II (美版) (动作)-Addams Family, The - Pugsleys Scavenger Hunt (USA) + Addams Family, The - Pugsley's Scavenger Hunt (U) [!].nes"
+      debug: "Addams Family - Pugsley's Scavenger Hunt, The (U).zip\nAddams Family, The - Pugsley's Scavenger Hunt (U) [!p].zip\n阿达一族 II (美版) (动作)-Addams Family, The - Pugsleys Scavenger Hunt (USA) + Addams Family, The - Pugsley's Scavenger Hunt (U) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=0d565384e36f490a0a3b555bed51f28b7939663a"
+  - asset:
+      id: 139293
+      kind: 3
+      kind_id: 5330
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Addams%20Family%2C%20The%20-%20Pugsley%27s%20Scavenger%20Hunt%20%28USA%29.png
+      format: 1
+      size: 2317
+      blob_id: 324748
+      debug: libretro-named-titles:rom-asset=5312:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Addams%20Family%2C%20The%20-%20Pugsley%27s%20Scavenger%20Hunt%20%28USA%29.png
 - release:
     id: 5341
     game_id: 5330
@@ -67,17 +87,24 @@ releases:
     kind_id: 5341
     language: 1
     name: "Addams Family, The - Pugsley's Scavenger Hunt (E) [!]"
+    deprecated: 1
+  - id: 257591
+    kind: 3
+    kind_id: 5341
+    language: 1
+    name: "Addams Family, The - Pugsley's Scavenger Hunt (Europe)"
+    source: no-intro
   assets:
   - asset:
       id: 5323
       kind: 3
       kind_id: 5341
       type: 1
-      name: "Addams Family, The - Pugsley's Scavenger Hunt (E) [!].nes"
+      name: "Addams Family, The - Pugsley's Scavenger Hunt (Europe).nes"
       format: 1
       size: 262160
       blob_id: 51640
-      debug: "Addams Family, The - Pugsley's Scavenger Hunt (E) [!].nes"
+      debug: "Addams Family, The - Pugsley's Scavenger Hunt (E) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=5d08218e39ae4d76925c6888bc0f03a1a3b829b2"
   - asset:
       id: 136659
       kind: 3

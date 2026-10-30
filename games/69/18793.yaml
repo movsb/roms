@@ -12,11 +12,18 @@ names:
   kind_id: 18793
   language: 1
   name: Perfect Bowling (J)
+  deprecated: 1
 - id: 92724
   kind: 2
   kind_id: 18793
   language: 1
   name: Perfect Bowling
+- id: 261978
+  kind: 2
+  kind_id: 18793
+  language: 1
+  name: Perfect Bowling
+  source: no-intro
 releases:
 - release:
     id: 18794
@@ -38,6 +45,13 @@ releases:
     kind_id: 18794
     language: 1
     name: Perfect Bowling (J)
+    deprecated: 1
+  - id: 259020
+    kind: 3
+    kind_id: 18794
+    language: 1
+    name: Perfect Bowling (Japan)
+    source: no-intro
   release_publishers:
   - release_id: 18794
     publisher_id: 116
@@ -54,6 +68,7 @@ releases:
       debug: |-
         Perfect Bowling (Japan).zip
         完美保龄球 (日版) (运动)-Perfect Bowling (Japan) + Perfect Bowling (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=3ae1c82ad66c5dcdb915a26af3a8fcbaf68b1975
   - asset:
       id: 138615
       kind: 3

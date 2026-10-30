@@ -12,6 +12,13 @@ names:
   kind_id: 27242
   language: 1
   name: Juvei Quest (J) [a1]
+  deprecated: 1
+- id: 262586
+  kind: 2
+  kind_id: 27242
+  language: 1
+  name: Juvei Quest
+  source: no-intro
 releases:
 - release:
     id: 27242
@@ -27,14 +34,34 @@ releases:
     kind_id: 27242
     language: 1
     name: Juvei Quest (J) [a1]
+    deprecated: 1
+  - id: 260174
+    kind: 3
+    kind_id: 27242
+    language: 1
+    name: Juvei Quest (Japan) (Rev 1)
+    source: no-intro
   assets:
   - asset:
       id: 27224
       kind: 3
       kind_id: 27242
       type: 1
-      name: 十兵卫传说 (日版)(Rev 1) (角色扮演)-Juvei Quest (Japan) (Rev 1) + Juvei Quest (J) [a1].nes
+      name: Juvei Quest (Japan) (Rev 1).nes
       format: 1
       size: 524304
       blob_id: 72156
-      debug: 十兵卫传说 (日版)(Rev 1) (角色扮演)-Juvei Quest (Japan) (Rev 1) + Juvei Quest (J) [a1].nes
+      debug: |-
+        十兵卫传说 (日版)(Rev 1) (角色扮演)-Juvei Quest (Japan) (Rev 1) + Juvei Quest (J) [a1].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=65a674581f9d67e77d957274a5ce3d611d83cd06
+  - asset:
+      id: 140029
+      kind: 3
+      kind_id: 27242
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Juvei%20Quest%20%28Japan%29%20%28Rev%201%29.png
+      format: 1
+      size: 1644
+      blob_id: 325374
+      debug: libretro-named-titles:rom-asset=27224:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Juvei%20Quest%20%28Japan%29%20%28Rev%201%29.png

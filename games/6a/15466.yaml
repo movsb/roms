@@ -7,12 +7,19 @@ names:
   kind_id: 15466
   language: 1
   name: Ma Li 12
+  deprecated: 1
 - id: 248105
   kind: 2
   kind_id: 15466
   language: 2
   name: 马力欧12
   source: codex
+- id: 261868
+  kind: 2
+  kind_id: 15466
+  language: 1
+  name: Mario 12
+  source: no-intro
 releases:
 - release:
     id: 15467
@@ -23,14 +30,34 @@ releases:
     kind_id: 15467
     language: 1
     name: Ma Li 12 [p1]
+    deprecated: 1
+  - id: 258688
+    kind: 3
+    kind_id: 15467
+    language: 1
+    name: Mario 12 (Asia) (Ja) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 15449
       kind: 3
       kind_id: 15467
       type: 1
-      name: Ma Li 12 [p1].nes
+      name: Mario 12 (Asia) (Ja) (Pirate).nes
       format: 1
       size: 196624
       blob_id: 61165
-      debug: Ma Li 12 [p1].nes
+      debug: |-
+        Ma Li 12 [p1].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=ee951b0ef218257cfb3f9b700a42402c62252e8e
+  - asset:
+      id: 139536
+      kind: 3
+      kind_id: 15467
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mario%2012%20%28Asia%29%20%28Ja%29%20%28Pirate%29.png
+      format: 1
+      size: 4512
+      blob_id: 324956
+      debug: libretro-named-titles:rom-asset=15449:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mario%2012%20%28Asia%29%20%28Ja%29%20%28Pirate%29.png

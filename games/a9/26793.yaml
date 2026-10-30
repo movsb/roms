@@ -13,6 +13,12 @@ names:
   language: 1
   name: "Kame no Ongaeshi - Urashima Densetsu"
   source: codex
+- id: 262411
+  kind: 2
+  kind_id: 26793
+  language: 1
+  name: "Kame no Ongaeshi - Urashima Densetsu"
+  source: no-intro
 releases:
 - release:
     id: 26793
@@ -23,14 +29,31 @@ releases:
     kind_id: 26793
     language: 2
     name: 义龟报恩
+  - id: 259989
+    kind: 3
+    kind_id: 26793
+    language: 1
+    name: "Kame no Ongaeshi - Urashima Densetsu (Japan)"
+    source: no-intro
   assets:
   - asset:
       id: 26775
       kind: 3
       kind_id: 26793
       type: 1
-      name: 义龟报恩.nes
+      name: "Kame no Ongaeshi - Urashima Densetsu (Japan).nes"
       format: 1
       size: 262160
       blob_id: 71853
-      debug: "义龟报恩.nes\n重复的/乌龟报恩 (日版) (动作)-Kame no Ongaeshi - Urashima Densetsu (Japan) + Kame no Ongaeshi - Urashima Densetsu (J).nes"
+      debug: "义龟报恩.nes\n重复的/乌龟报恩 (日版) (动作)-Kame no Ongaeshi - Urashima Densetsu (Japan) + Kame no Ongaeshi - Urashima Densetsu (J).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=2f943c939196b0814863bc2f6ad590cfd3b91a6a"
+  - asset:
+      id: 139973
+      kind: 3
+      kind_id: 26793
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Kame%20no%20Ongaeshi%20-%20Urashima%20Densetsu%20%28Japan%29.png
+      format: 1
+      size: 2603
+      blob_id: 325326
+      debug: libretro-named-titles:rom-asset=26775:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Kame%20no%20Ongaeshi%20-%20Urashima%20Densetsu%20%28Japan%29.png

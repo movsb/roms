@@ -12,11 +12,18 @@ names:
   kind_id: 26981
   language: 1
   name: Idol Hakkenden (J)
+  deprecated: 1
 - id: 60769
   kind: 2
   kind_id: 26981
   language: 2
   name: 偶像八犬传
+- id: 262502
+  kind: 2
+  kind_id: 26981
+  language: 1
+  name: Idol Hakkenden
+  source: no-intro
 releases:
 - release:
     id: 26981
@@ -32,24 +39,32 @@ releases:
     kind_id: 26981
     language: 1
     name: Idol Hakkenden (J)
+    deprecated: 1
   - id: 60770
     kind: 3
     kind_id: 26981
     language: 2
     name: 偶像八犬传
+  - id: 260081
+    kind: 3
+    kind_id: 26981
+    language: 1
+    name: Idol Hakkenden (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 26963
       kind: 3
       kind_id: 26981
       type: 1
-      name: 偶像八犬传 (日版) (解谜)-Idol Hakkenden (Japan) + Idol Hakkenden (J).nes
+      name: Idol Hakkenden (Japan).nes
       format: 1
       size: 262160
       blob_id: 71983
       debug: |-
         偶像八犬传 (日版) (解谜)-Idol Hakkenden (Japan) + Idol Hakkenden (J).nes
         偶像八犬传.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=9e90a1e4b24a68aa006b09db607479c2feb19fc0
   - asset:
       id: 138822
       kind: 3

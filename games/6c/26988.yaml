@@ -13,6 +13,12 @@ names:
   language: 1
   name: Kyonshiizu 2
   source: codex
+- id: 262506
+  kind: 2
+  kind_id: 26988
+  language: 1
+  name: Kyonshiizu 2
+  source: no-intro
 releases:
 - release:
     id: 26988
@@ -23,16 +29,34 @@ releases:
     kind_id: 26988
     language: 2
     name: 僵尸小子2
+  - id: 260085
+    kind: 3
+    kind_id: 26988
+    language: 1
+    name: Kyonshiizu 2 (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 26970
       kind: 3
       kind_id: 26988
       type: 1
-      name: 僵尸小子2.nes
+      name: Kyonshiizu 2 (Japan).nes
       format: 1
       size: 262160
       blob_id: 71989
       debug: |-
         僵尸小子2.nes
         重复的/Kyonshiizu 2 (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=fae2635a6776eb9637a25f8d413d8de856dd718b
+  - asset:
+      id: 140002
+      kind: 3
+      kind_id: 26988
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Kyonshiizu%202%20%28Japan%29.png
+      format: 1
+      size: 1190
+      blob_id: 325350
+      debug: libretro-named-titles:rom-asset=26970:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Kyonshiizu%202%20%28Japan%29.png

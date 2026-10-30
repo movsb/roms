@@ -13,6 +13,12 @@ names:
   language: 1
   name: Hello Kitty no Ohanabatake
   source: codex
+- id: 262543
+  kind: 2
+  kind_id: 27124
+  language: 1
+  name: Hello Kitty no Ohanabatake
+  source: no-intro
 releases:
 - release:
     id: 27124
@@ -23,16 +29,34 @@ releases:
     kind_id: 27124
     language: 2
     name: 凯蒂猫冒险
+  - id: 260124
+    kind: 3
+    kind_id: 27124
+    language: 1
+    name: Hello Kitty no Ohanabatake (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 27106
       kind: 3
       kind_id: 27124
       type: 1
-      name: 凯蒂猫冒险.nes
+      name: Hello Kitty no Ohanabatake (Japan).nes
       format: 1
       size: 65552
       blob_id: 72078
       debug: |-
         凯蒂猫冒险.nes
         重复的/凯蒂猫花店 (日版) (动作)-Hello Kitty no Ohanabatake (Japan) + Hello Kitty no Ohanabatake (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=f763405d61bf894f7919dcf9637dcd8cc07522a9
+  - asset:
+      id: 140013
+      kind: 3
+      kind_id: 27124
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Hello%20Kitty%20no%20Ohanabatake%20%28Japan%29.png
+      format: 1
+      size: 3566
+      blob_id: 325360
+      debug: libretro-named-titles:rom-asset=27106:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Hello%20Kitty%20no%20Ohanabatake%20%28Japan%29.png

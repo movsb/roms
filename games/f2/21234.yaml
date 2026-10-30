@@ -27,22 +27,29 @@ releases:
     kind_id: 21234
     language: 1
     name: "Simpsons, The - Bart Vs. the Space Mutants (U) (PRG0) [!]"
+    deprecated: 1
   - id: 70511
     kind: 3
     kind_id: 21234
     language: 2
     name: "辛普森家庭 - 霸子与太空异种 (美版) (动作)-Simpsons, The - Bart vs. the Space Mutants (USA)"
+  - id: 259330
+    kind: 3
+    kind_id: 21234
+    language: 1
+    name: "Simpsons, The - Bart vs. the Space Mutants (USA)"
+    source: no-intro
   assets:
   - asset:
       id: 21216
       kind: 3
       kind_id: 21234
       type: 1
-      name: "Simpsons, The - Bart Vs. the Space Mutants (U) (PRG0) [!].nes"
+      name: "Simpsons, The - Bart vs. the Space Mutants (USA).nes"
       format: 1
       size: 262160
       blob_id: 66632
-      debug: "Simpsons, The - Bart Vs. the Space Mutants (U) (PRG0) [!].zip\n辛普森家庭 - 霸子与太空异种 (美版) (动作)-Simpsons, The - Bart vs. the Space Mutants (USA) + Simpsons, The - Bart Vs. the Space Mutants (U) (PRG0) [!].nes"
+      debug: "Simpsons, The - Bart Vs. the Space Mutants (U) (PRG0) [!].zip\n辛普森家庭 - 霸子与太空异种 (美版) (动作)-Simpsons, The - Bart vs. the Space Mutants (USA) + Simpsons, The - Bart Vs. the Space Mutants (U) (PRG0) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=84675a1966384afdb0715672207ece3997b92033"
   - asset:
       id: 137305
       kind: 3
@@ -83,14 +90,32 @@ releases:
     kind_id: 21241
     language: 1
     name: "Simpsons, The - Bart Vs. the Space Mutants (U) (PRG1) [!]"
+    deprecated: 1
+  - id: 259331
+    kind: 3
+    kind_id: 21241
+    language: 1
+    name: "Simpsons, The - Bart vs. the Space Mutants (USA) (Rev 1)"
+    source: no-intro
   assets:
   - asset:
       id: 21223
       kind: 3
       kind_id: 21241
       type: 1
-      name: "Simpsons, The - Bart Vs. the Space Mutants (U) (PRG1) [!].nes"
+      name: "Simpsons, The - Bart vs. the Space Mutants (USA) (Rev 1).nes"
       format: 1
       size: 262160
       blob_id: 66639
-      debug: "Simpsons, The - Bart Vs. the Space Mutants (U) (PRG1) [!].nes"
+      debug: "Simpsons, The - Bart Vs. the Space Mutants (U) (PRG1) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=e5ae9d92a951fda007acf02e5e7030a5115612fa"
+  - asset:
+      id: 139751
+      kind: 3
+      kind_id: 21241
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Simpsons%2C%20The%20-%20Bart%20vs.%20the%20Space%20Mutants%20%28USA%29%20%28Rev%201%29.png
+      format: 1
+      size: 3022
+      blob_id: 325132
+      debug: libretro-named-titles:rom-asset=21223:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Simpsons%2C%20The%20-%20Bart%20vs.%20the%20Space%20Mutants%20%28USA%29%20%28Rev%201%29.png

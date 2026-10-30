@@ -49,17 +49,37 @@ releases:
     kind_id: 11713
     language: 1
     name: Fire Emblem Gaiden (Ch) [a1]
+    deprecated: 1
+  - id: 258241
+    kind: 3
+    kind_id: 11713
+    language: 1
+    name: Shenghuo Huizhang Waizhuan (China) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 11695
       kind: 3
       kind_id: 11713
       type: 1
-      name: Fire Emblem Gaiden (Ch) [a1].nes
+      name: Shenghuo Huizhang Waizhuan (China) (Pirate).nes
       format: 1
       size: 655376
       blob_id: 57662
-      debug: Fire Emblem Gaiden (Ch) [a1].nes
+      debug: |-
+        Fire Emblem Gaiden (Ch) [a1].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=1fdeb0f5b17b260fbb3de25b5571ea1718e0b300
+  - asset:
+      id: 139405
+      kind: 3
+      kind_id: 11713
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Shenghuo%20Huizhang%20Waizhuan%20%28China%29%20%28Pirate%29.png
+      format: 1
+      size: 6084
+      blob_id: 324842
+      debug: libretro-named-titles:rom-asset=11695:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Shenghuo%20Huizhang%20Waizhuan%20%28China%29%20%28Pirate%29.png
 - release:
     id: 11714
     game_id: 11713
@@ -69,17 +89,37 @@ releases:
     kind_id: 11714
     language: 1
     name: Fire Emblem Gaiden (J) (VC)
+    deprecated: 1
+  - id: 258242
+    kind: 3
+    kind_id: 11714
+    language: 1
+    name: Fire Emblem Gaiden (Japan) (Virtual Console)
+    source: no-intro
   assets:
   - asset:
       id: 11696
       kind: 3
       kind_id: 11714
       type: 1
-      name: Fire Emblem Gaiden (J) (VC).nes
+      name: Fire Emblem Gaiden (Japan) (Virtual Console).nes
       format: 1
       size: 393232
       blob_id: 57663
-      debug: Fire Emblem Gaiden (J) (VC).nes
+      debug: |-
+        Fire Emblem Gaiden (J) (VC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=e55f5ebe01a767892c92848866d414031d9d0a90
+  - asset:
+      id: 139406
+      kind: 3
+      kind_id: 11714
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Fire%20Emblem%20Gaiden%20%28Japan%29%20%28Virtual%20Console%29.png
+      format: 1
+      size: 2456
+      blob_id: 324843
+      debug: libretro-named-titles:rom-asset=11696:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Fire%20Emblem%20Gaiden%20%28Japan%29%20%28Virtual%20Console%29.png
 - release:
     id: 11715
     game_id: 11713
@@ -394,17 +434,26 @@ releases:
     kind_id: 27486
     language: 1
     name: Fire Emblem Gaiden (Ch) [a2]
+    deprecated: 1
+  - id: 260271
+    kind: 3
+    kind_id: 27486
+    language: 1
+    name: "Shenghuo Huizhang - Sofia Fusu (China) (Pirate)"
+    source: no-intro
   assets:
   - asset:
       id: 27468
       kind: 3
       kind_id: 27486
       type: 1
-      name: 圣火徽章(索菲亚的复苏) + Fire Emblem Gaiden (Ch) [a2].nes
+      name: "Shenghuo Huizhang - Sofia Fusu (China) (Pirate).nes"
       format: 1
       size: 655376
       blob_id: 72321
-      debug: 圣火徽章(索菲亚的复苏) + Fire Emblem Gaiden (Ch) [a2].nes
+      debug: |-
+        圣火徽章(索菲亚的复苏) + Fire Emblem Gaiden (Ch) [a2].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=63eb59b92b91f97eb0495098c672e883a1fb3fca
 - release:
     id: 27490
     game_id: 11713
@@ -419,17 +468,26 @@ releases:
     kind_id: 27490
     language: 1
     name: Fire Emblem Gaiden (J) [!]
+    deprecated: 1
+  - id: 260273
+    kind: 3
+    kind_id: 27490
+    language: 1
+    name: Fire Emblem Gaiden (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 27472
       kind: 3
       kind_id: 27490
       type: 1
-      name: 圣火降魔录外传 (日版) (策略角色扮演)-Fire Emblem Gaiden (Japan) + Fire Emblem Gaiden (J) [!].nes
+      name: Fire Emblem Gaiden (Japan).nes
       format: 1
       size: 393232
       blob_id: 72324
-      debug: 圣火降魔录外传 (日版) (策略角色扮演)-Fire Emblem Gaiden (Japan) + Fire Emblem Gaiden (J) [!].nes
+      debug: |-
+        圣火降魔录外传 (日版) (策略角色扮演)-Fire Emblem Gaiden (Japan) + Fire Emblem Gaiden (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=49e7b12a17e9c339f93069895d5a98d10a43e266
   - asset:
       id: 137629
       kind: 3
@@ -455,14 +513,34 @@ releases:
     kind_id: 29357
     language: 1
     name: Fire Emblem Gaiden (Ch)
+    deprecated: 1
+  - id: 261026
+    kind: 3
+    kind_id: 29357
+    language: 1
+    name: "Shenghuo Huizhang - Sofia Fusu (China) (v1.1) (Pirate)"
+    source: no-intro
   assets:
   - asset:
       id: 29339
       kind: 3
       kind_id: 29357
       type: 1
-      name: 索菲亚复苏 + Fire Emblem Gaiden (Ch).nes
+      name: "Shenghuo Huizhang - Sofia Fusu (China) (v1.1) (Pirate).nes"
       format: 1
       size: 655376
       blob_id: 73542
-      debug: 索菲亚复苏 + Fire Emblem Gaiden (Ch).nes
+      debug: |-
+        索菲亚复苏 + Fire Emblem Gaiden (Ch).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=235d35a552b40dfaa54ff3c596b4bea9d8490f42
+  - asset:
+      id: 140198
+      kind: 3
+      kind_id: 29357
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Shenghuo%20Huizhang%20-%20Sofia%20Fusu%20%28China%29%20%28v1.1%29%20%28Pirate%29.png
+      format: 1
+      size: 6998
+      blob_id: 325519
+      debug: libretro-named-titles:rom-asset=29339:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Shenghuo%20Huizhang%20-%20Sofia%20Fusu%20%28China%29%20%28v1.1%29%20%28Pirate%29.png

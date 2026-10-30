@@ -7,12 +7,19 @@ names:
   kind_id: 7221
   language: 1
   name: BoXBoY by Neal Tew (PD)
+  deprecated: 1
 - id: 252140
   kind: 2
   kind_id: 7221
   language: 2
   name: 盒子男孩
   source: codex
+- id: 261567
+  kind: 2
+  kind_id: 7221
+  language: 1
+  name: Box Boy
+  source: no-intro
 releases:
 - release:
     id: 7221
@@ -23,17 +30,26 @@ releases:
     kind_id: 7221
     language: 1
     name: BoXBoY by Neal Tew (PD)
+    deprecated: 1
+  - id: 257800
+    kind: 3
+    kind_id: 7221
+    language: 1
+    name: Box Boy (World) (Aftermarket) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 7203
       kind: 3
       kind_id: 7221
       type: 1
-      name: BoXBoY by Neal Tew (PD).nes
+      name: Box Boy (World) (Aftermarket) (Unl).nes
       format: 1
       size: 16400
       blob_id: 53406
-      debug: BoXBoY by Neal Tew (PD).nes
+      debug: |-
+        BoXBoY by Neal Tew (PD).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=2b50ef2fe205b4ead02849cd0737e8d5b71bdba2
   - asset:
       id: 138228
       kind: 3

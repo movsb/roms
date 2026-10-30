@@ -14,6 +14,12 @@ names:
   language: 1
   name: "Super Donkey Kong - Xiang Jiao Chuan"
   source: codex
+- id: 262723
+  kind: 2
+  kind_id: 27642
+  language: 1
+  name: "Super Donkey Kong - Xiang Jiao Chuan"
+  source: no-intro
 releases:
 - release:
     id: 27642
@@ -24,16 +30,34 @@ releases:
     kind_id: 27642
     language: 2
     name: 大金刚-香蕉船(汉化版)
+  - id: 260327
+    kind: 3
+    kind_id: 27642
+    language: 1
+    name: "Super Donkey Kong - Xiang Jiao Chuan (China) (Unl)"
+    source: no-intro
   assets:
   - asset:
       id: 27624
       kind: 3
       kind_id: 27642
       type: 1
-      name: 大金刚-香蕉船(汉化版).nes
+      name: "Super Donkey Kong - Xiang Jiao Chuan (China) (Unl).nes"
       format: 1
       size: 524304
       blob_id: 72417
       debug: |-
         大金刚-香蕉船(汉化版).nes
         重复的/大金刚 香蕉船(两亦制作).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=23869551e49ae905e7923b04d23e0d43f874ebd3
+  - asset:
+      id: 140061
+      kind: 3
+      kind_id: 27642
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Super%20Donkey%20Kong%20-%20Xiang%20Jiao%20Chuan%20%28China%29%20%28Unl%29.png
+      format: 1
+      size: 7392
+      blob_id: 325402
+      debug: libretro-named-titles:rom-asset=27624:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Super%20Donkey%20Kong%20-%20Xiang%20Jiao%20Chuan%20%28China%29%20%28Unl%29.png

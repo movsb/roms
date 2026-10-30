@@ -12,6 +12,13 @@ names:
   kind_id: 27238
   language: 1
   name: Pi Nuo Cao De Fu Su (Ch)
+  deprecated: 1
+- id: 262583
+  kind: 2
+  kind_id: 27238
+  language: 1
+  name: Pinuocao de Fusu
+  source: no-intro
 releases:
 - release:
     id: 27238
@@ -27,14 +34,34 @@ releases:
     kind_id: 27238
     language: 1
     name: Pi Nuo Cao De Fu Su (Ch)
+    deprecated: 1
+  - id: 260171
+    kind: 3
+    kind_id: 27238
+    language: 1
+    name: Pinuocao de Fusu (China) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 27220
       kind: 3
       kind_id: 27238
       type: 1
-      name: 匹诺槽的复苏[外星科技] + Pi Nuo Cao De Fu Su (Ch).nes
+      name: Pinuocao de Fusu (China) (Unl).nes
       format: 1
       size: 524304
       blob_id: 72153
-      debug: 匹诺槽的复苏[外星科技] + Pi Nuo Cao De Fu Su (Ch).nes
+      debug: |-
+        匹诺槽的复苏[外星科技] + Pi Nuo Cao De Fu Su (Ch).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=3d8928cc04b43f1e60f4faec51751f332fd2e19e
+  - asset:
+      id: 140028
+      kind: 3
+      kind_id: 27238
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Pinuocao%20de%20Fusu%20%28China%29%20%28Unl%29.png
+      format: 1
+      size: 5303
+      blob_id: 325373
+      debug: libretro-named-titles:rom-asset=27220:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Pinuocao%20de%20Fusu%20%28China%29%20%28Unl%29.png

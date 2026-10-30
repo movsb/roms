@@ -67,6 +67,7 @@ releases:
     kind_id: 23521
     language: 1
     name: Taito Chase H.Q. (Japan) (Translated En)
+    deprecated: 1
   - id: 66847
     kind: 3
     kind_id: 23521
@@ -77,16 +78,35 @@ releases:
     kind_id: 23521
     language: 1
     name: Taito Chase H.Q. (J)
+    deprecated: 1
+  - id: 259577
+    kind: 3
+    kind_id: 23521
+    language: 1
+    name: Taito Chase H.Q. (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 23503
       kind: 3
       kind_id: 23521
       type: 1
-      name: Taito Chase H.Q. (Japan) (Translated En).nes
+      name: Taito Chase H.Q. (Japan).nes
       format: 1
       size: 262160
       blob_id: 68804
       debug: |-
         Taito Chase H.Q. (Japan) (Translated En).zip
         泰德追踪 HQ (日版) (竞赛)-Taito Chase H.Q. (Japan) + Taito Chase H.Q. (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=5659d62879efcb0a9d103862d8a4cc0ecaca62cd
+  - asset:
+      id: 139832
+      kind: 3
+      kind_id: 23521
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Taito%20Chase%20H.Q.%20%28Japan%29.png
+      format: 1
+      size: 1337
+      blob_id: 325206
+      debug: libretro-named-titles:rom-asset=23503:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Taito%20Chase%20H.Q.%20%28Japan%29.png

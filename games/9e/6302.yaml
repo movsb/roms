@@ -7,12 +7,19 @@ names:
   kind_id: 6302
   language: 1
   name: Balda (BBG) (R) [!]
+  deprecated: 1
 - id: 249029
   kind: 2
   kind_id: 6302
   language: 2
   name: 猜词
   source: codex
+- id: 261525
+  kind: 2
+  kind_id: 6302
+  language: 1
+  name: Balda
+  source: no-intro
 releases:
 - release:
     id: 6302
@@ -23,14 +30,34 @@ releases:
     kind_id: 6302
     language: 1
     name: Balda (BBG) (R) [!]
+    deprecated: 1
+  - id: 257694
+    kind: 3
+    kind_id: 6302
+    language: 1
+    name: Balda (Russia) (Subor Keyboard) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 6284
       kind: 3
       kind_id: 6302
       type: 1
-      name: Balda (BBG) (R) [!].nes
+      name: Balda (Russia) (Subor Keyboard) (Unl).nes
       format: 1
       size: 139280
       blob_id: 52544
-      debug: Balda (BBG) (R) [!].nes
+      debug: |-
+        Balda (BBG) (R) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=23f3ad340b258dcda12fe14d6e22d106427c161d
+  - asset:
+      id: 139309
+      kind: 3
+      kind_id: 6302
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Balda%20%28Russia%29%20%28Subor%20Keyboard%29%20%28Unl%29.png
+      format: 1
+      size: 3013
+      blob_id: 324762
+      debug: libretro-named-titles:rom-asset=6284:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Balda%20%28Russia%29%20%28Subor%20Keyboard%29%20%28Unl%29.png

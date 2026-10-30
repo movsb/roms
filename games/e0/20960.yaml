@@ -12,11 +12,19 @@ names:
   kind_id: 20960
   language: 1
   name: Sesame Street Countdown (U) [!]
+  deprecated: 1
 - id: 92993
   kind: 2
   kind_id: 20960
   language: 1
   name: Sesame Street Countdown
+  deprecated: 1
+- id: 262098
+  kind: 2
+  kind_id: 20960
+  language: 1
+  name: "Sesame Street - Countdown"
+  source: no-intro
 releases:
 - release:
     id: 20960
@@ -27,22 +35,29 @@ releases:
     kind_id: 20960
     language: 1
     name: Sesame Street Countdown (U) [!]
+    deprecated: 1
   - id: 69175
     kind: 3
     kind_id: 20960
     language: 2
     name: "芝麻街 - 倒数计时游戏 (美版) (益智)-Sesame Street Countdown (USA)"
+  - id: 259282
+    kind: 3
+    kind_id: 20960
+    language: 1
+    name: "Sesame Street - Countdown (USA)"
+    source: no-intro
   assets:
   - asset:
       id: 20942
       kind: 3
       kind_id: 20960
       type: 1
-      name: Sesame Street Countdown (U) [!].nes
+      name: "Sesame Street - Countdown (USA).nes"
       format: 1
       size: 262160
       blob_id: 66381
-      debug: "Sesame Street Countdown (U) [!].zip\n芝麻街 - 倒数计时游戏 (美版) (益智)-Sesame Street Countdown (USA) + Sesame Street Countdown (U) [!].nes"
+      debug: "Sesame Street Countdown (U) [!].zip\n芝麻街 - 倒数计时游戏 (美版) (益智)-Sesame Street Countdown (USA) + Sesame Street Countdown (U) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=1f79c15eeea159e1218167fb6258a843f2c6164a"
   - asset:
       id: 137287
       kind: 3

@@ -23,17 +23,37 @@ releases:
     kind_id: 15858
     language: 1
     name: Mario Open Golf (J) (VC)
+    deprecated: 1
+  - id: 258734
+    kind: 3
+    kind_id: 15858
+    language: 1
+    name: Mario Open Golf (Japan) (Rev 1) (Virtual Console)
+    source: no-intro
   assets:
   - asset:
       id: 15840
       kind: 3
       kind_id: 15858
       type: 1
-      name: Mario Open Golf (J) (VC).nes
+      name: Mario Open Golf (Japan) (Rev 1) (Virtual Console).nes
       format: 1
       size: 262160
       blob_id: 61534
-      debug: Mario Open Golf (J) (VC).nes
+      debug: |-
+        Mario Open Golf (J) (VC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=d1b6bab4f990039f76bca3a2e938810e84ff786d
+  - asset:
+      id: 139545
+      kind: 3
+      kind_id: 15858
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mario%20Open%20Golf%20%28Japan%29%20%28Rev%201%29%20%28Virtual%20Console%29.png
+      format: 1
+      size: 76765
+      blob_id: 324962
+      debug: libretro-named-titles:rom-asset=15840:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mario%20Open%20Golf%20%28Japan%29%20%28Rev%201%29%20%28Virtual%20Console%29.png
 - release:
     id: 15859
     game_id: 15856

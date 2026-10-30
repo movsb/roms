@@ -27,17 +27,26 @@ releases:
     kind_id: 21900
     language: 1
     name: Star Luster (J) (VC)
+    deprecated: 1
+  - id: 259402
+    kind: 3
+    kind_id: 21900
+    language: 1
+    name: Star Luster (Japan) (En) (Virtual Console)
+    source: no-intro
   assets:
   - asset:
       id: 21882
       kind: 3
       kind_id: 21900
       type: 1
-      name: Star Luster (J) (VC).nes
+      name: Star Luster (Japan) (En) (Virtual Console).nes
       format: 1
       size: 40976
       blob_id: 67260
-      debug: Star Luster (J) (VC).nes
+      debug: |-
+        Star Luster (J) (VC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=e3b99c2a0ac8adfc919476788dad31985cc3cda4
 - release:
     id: 21902
     game_id: 21900
@@ -68,6 +77,7 @@ releases:
     kind_id: 21903
     language: 1
     name: Star Luster (Japan)
+    deprecated: 1
   - id: 63151
     kind: 3
     kind_id: 21903
@@ -78,6 +88,13 @@ releases:
     kind_id: 21903
     language: 1
     name: Star Luster (J) [!]
+    deprecated: 1
+  - id: 259403
+    kind: 3
+    kind_id: 21903
+    language: 1
+    name: Star Luster (Japan) (En)
+    source: no-intro
   release_publishers:
   - release_id: 21903
     publisher_id: 4
@@ -87,13 +104,14 @@ releases:
       kind: 3
       kind_id: 21903
       type: 1
-      name: Star Luster (Japan).nes
+      name: Star Luster (Japan) (En).nes
       format: 1
       size: 40976
       blob_id: 67263
       debug: |-
         Star Luster (Japan).zip
         太空立体战 (日版) (模拟射击)-Star Luster (Japan) + Star Luster (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=feb3013505143ad926e5307acf2f2ec177e18d4f
   - asset:
       id: 138701
       kind: 3

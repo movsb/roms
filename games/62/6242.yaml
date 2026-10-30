@@ -13,6 +13,12 @@ names:
   language: 2
   name: 坏小子
   source: codex
+- id: 261517
+  kind: 2
+  kind_id: 6242
+  language: 1
+  name: Bad Dudes
+  source: no-intro
 releases:
 - release:
     id: 6242
@@ -23,13 +29,20 @@ releases:
     kind_id: 6242
     language: 1
     name: Bad Dudes (U) [!]
+    deprecated: 1
+  - id: 257684
+    kind: 3
+    kind_id: 6242
+    language: 1
+    name: Bad Dudes (USA)
+    source: no-intro
   assets:
   - asset:
       id: 6224
       kind: 3
       kind_id: 6242
       type: 1
-      name: Bad Dudes (U) [!].nes
+      name: Bad Dudes (USA).nes
       format: 1
       size: 262160
       blob_id: 52487
@@ -39,6 +52,7 @@ releases:
         重复的/龙之忍者 (美版) (动作)-Bad Dudes (USA) + Bad Dudes (U) [!].nes
         龙之忍者.nes
         龙行忍者.nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=19707a3b2444bf8d6edf8213c81245d9a785e8e6
   - asset:
       id: 136687
       kind: 3
@@ -59,17 +73,26 @@ releases:
     kind_id: 6249
     language: 1
     name: Bad Dudes (U)
+    deprecated: 1
+  - id: 257685
+    kind: 3
+    kind_id: 6249
+    language: 1
+    name: Bad Dudes (USA)
+    source: no-intro
   assets:
   - asset:
       id: 6231
       kind: 3
       kind_id: 6249
       type: 1
-      name: Bad Dudes (U).nes
+      name: Bad Dudes (USA).nes
       format: 1
       size: 262160
       blob_id: 52494
-      debug: Bad Dudes (U).zip
+      debug: |-
+        Bad Dudes (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=19707a3b2444bf8d6edf8213c81245d9a785e8e6
   - asset:
       id: 138441
       kind: 3

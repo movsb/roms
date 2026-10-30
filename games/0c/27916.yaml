@@ -13,6 +13,13 @@ names:
   language: 1
   name: Nigel Mansell's World Championship Racing
   source: codex
+  deprecated: 1
+- id: 262829
+  kind: 2
+  kind_id: 27916
+  language: 1
+  name: Nigel Mansell's World Championship
+  source: no-intro
 releases:
 - release:
     id: 27916
@@ -23,14 +30,33 @@ releases:
     kind_id: 27916
     language: 2
     name: 尼基曼赛尔之世界冠军挑战赛 (欧版) (竞赛)-Nigel Mansells World Championship Racing (Europe) (En,Fr,De,Es,It)
+  - id: 260439
+    kind: 3
+    kind_id: 27916
+    language: 1
+    name: Nigel Mansell's World Championship (Europe) (En,Fr,De,Es,It)
+    source: no-intro
   assets:
   - asset:
       id: 27898
       kind: 3
       kind_id: 27916
       type: 1
-      name: 尼基曼赛尔之世界冠军挑战赛 (欧版) (竞赛)-Nigel Mansells World Championship Racing (Europe) (En,Fr,De,Es,It).nes
+      name: Nigel Mansell's World Championship (Europe) (En,Fr,De,Es,It).nes
       format: 1
       size: 262160
       blob_id: 72601
-      debug: 尼基曼赛尔之世界冠军挑战赛 (欧版) (竞赛)-Nigel Mansells World Championship Racing (Europe) (En,Fr,De,Es,It).nes
+      debug: |-
+        尼基曼赛尔之世界冠军挑战赛 (欧版) (竞赛)-Nigel Mansells World Championship Racing (Europe) (En,Fr,De,Es,It).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=d6629f40ee344ee0657f8c48132f480c1faae424
+  - asset:
+      id: 140085
+      kind: 3
+      kind_id: 27916
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Nigel%20Mansell%27s%20World%20Championship%20%28Europe%29%20%28En%2CFr%2CDe%2CEs%2CIt%29.png
+      format: 1
+      size: 2882
+      blob_id: 325425
+      debug: libretro-named-titles:rom-asset=27898:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Nigel%20Mansell%27s%20World%20Championship%20%28Europe%29%20%28En%2CFr%2CDe%2CEs%2CIt%29.png

@@ -7,12 +7,19 @@ names:
   kind_id: 17115
   language: 1
   name: "Mr. Splash! - Mondo21 Version (Hack)"
+  deprecated: 1
 - id: 253622
   kind: 2
   kind_id: 17115
   language: 2
   name: 水花先生：Mondo21版
   source: codex
+- id: 261941
+  kind: 2
+  kind_id: 17115
+  language: 1
+  name: Mr. Splash
+  source: no-intro
 releases:
 - release:
     id: 17115
@@ -23,14 +30,32 @@ releases:
     kind_id: 17115
     language: 1
     name: "Mr. Splash! - Mondo21 Version (Hack)"
+    deprecated: 1
+  - id: 258890
+    kind: 3
+    kind_id: 17115
+    language: 1
+    name: Mr. Splash (Japan) (En) (Mondo21 Version) (Aftermarket) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 17097
       kind: 3
       kind_id: 17115
       type: 1
-      name: "Mr. Splash! - Mondo21 Version (Hack).nes"
+      name: Mr. Splash (Japan) (En) (Mondo21 Version) (Aftermarket) (Unl).nes
       format: 1
       size: 65552
       blob_id: 62709
-      debug: "Mr. Splash! - Mondo21 Version (Hack).nes"
+      debug: "Mr. Splash! - Mondo21 Version (Hack).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=1b76265d88d703dbdcf1360c21052901c8387e90"
+  - asset:
+      id: 139614
+      kind: 3
+      kind_id: 17115
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mr.%20Splash%20%28Japan%29%20%28En%29%20%28Mondo21%20Version%29%20%28Aftermarket%29%20%28Unl%29.png
+      format: 1
+      size: 3839
+      blob_id: 325017
+      debug: libretro-named-titles:rom-asset=17097:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mr.%20Splash%20%28Japan%29%20%28En%29%20%28Mondo21%20Version%29%20%28Aftermarket%29%20%28Unl%29.png

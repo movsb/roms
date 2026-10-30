@@ -23,17 +23,26 @@ releases:
     kind_id: 16602
     language: 1
     name: Mighty Bomb Jack (J) (PRG1)
+    deprecated: 1
+  - id: 258807
+    kind: 3
+    kind_id: 16602
+    language: 1
+    name: Mighty Bomb Jack (Japan) (En) (Rev 1)
+    source: no-intro
   assets:
   - asset:
       id: 16584
       kind: 3
       kind_id: 16602
       type: 1
-      name: Mighty Bomb Jack (J) (PRG1).nes
+      name: Mighty Bomb Jack (Japan) (En) (Rev 1).nes
       format: 1
       size: 40976
       blob_id: 62239
-      debug: Mighty Bomb Jack (J) (PRG1).nes
+      debug: |-
+        Mighty Bomb Jack (J) (PRG1).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=46e20cb20967bd28f6a65aa88da247226d2d8753
 - release:
     id: 16603
     game_id: 16601
@@ -43,17 +52,37 @@ releases:
     kind_id: 16603
     language: 1
     name: Mighty Bomb Jack (J) (VC)
+    deprecated: 1
+  - id: 258808
+    kind: 3
+    kind_id: 16603
+    language: 1
+    name: Mighty Bomb Jack (Japan) (Rev 1) (Virtual Console)
+    source: no-intro
   assets:
   - asset:
       id: 16585
       kind: 3
       kind_id: 16603
       type: 1
-      name: Mighty Bomb Jack (J) (VC).nes
+      name: Mighty Bomb Jack (Japan) (Rev 1) (Virtual Console).nes
       format: 1
       size: 49168
       blob_id: 62240
-      debug: Mighty Bomb Jack (J) (VC).nes
+      debug: |-
+        Mighty Bomb Jack (J) (VC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=c858e6fba546e29a3021118ad9d1dd331fc5d1ff
+  - asset:
+      id: 139580
+      kind: 3
+      kind_id: 16603
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mighty%20Bomb%20Jack%20%28Japan%29%20%28Rev%201%29%20%28Virtual%20Console%29.png
+      format: 1
+      size: 3354
+      blob_id: 324988
+      debug: libretro-named-titles:rom-asset=16585:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mighty%20Bomb%20Jack%20%28Japan%29%20%28Rev%201%29%20%28Virtual%20Console%29.png
 - release:
     id: 16604
     game_id: 16601

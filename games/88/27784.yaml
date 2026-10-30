@@ -12,6 +12,13 @@ names:
   kind_id: 27784
   language: 1
   name: Gradius (J) [!]
+  deprecated: 1
+- id: 262770
+  kind: 2
+  kind_id: 27784
+  language: 1
+  name: Gradius
+  source: no-intro
 releases:
 - release:
     id: 27784
@@ -27,17 +34,26 @@ releases:
     kind_id: 27784
     language: 1
     name: Gradius (J) [!]
+    deprecated: 1
+  - id: 260379
+    kind: 3
+    kind_id: 27784
+    language: 1
+    name: Gradius (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 27766
       kind: 3
       kind_id: 27784
       type: 1
-      name: 宇宙巡航舰 (日版) (射击)-Gradius (Japan) + Gradius (J) [!].nes
+      name: Gradius (Japan).nes
       format: 1
       size: 65552
       blob_id: 72512
-      debug: 宇宙巡航舰 (日版) (射击)-Gradius (Japan) + Gradius (J) [!].nes
+      debug: |-
+        宇宙巡航舰 (日版) (射击)-Gradius (Japan) + Gradius (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=c823768907793e5bf3becf52e8a654cee69ee116
   - asset:
       id: 137667
       kind: 3

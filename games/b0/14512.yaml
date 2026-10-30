@@ -37,16 +37,19 @@ releases:
     kind_id: 14496
     language: 1
     name: Kick Master (U) [!]
+    deprecated: 1
   - id: 32118
     kind: 3
     kind_id: 14496
     language: 1
     name: Kick Master (U)
+    deprecated: 1
   - id: 32124
     kind: 3
     kind_id: 14496
     language: 1
     name: Kick Master
+    deprecated: 1
   - id: 70472
     kind: 3
     kind_id: 14496
@@ -57,13 +60,19 @@ releases:
     kind_id: 14496
     language: 2
     name: 踢腿大师 (美版) (动作角色扮演)-Kick Master (USA)
+  - id: 258557
+    kind: 3
+    kind_id: 14496
+    language: 1
+    name: KickMaster (USA)
+    source: no-intro
   assets:
   - asset:
       id: 14478
       kind: 3
       kind_id: 14496
       type: 1
-      name: Kick Master (U) [!].nes
+      name: KickMaster (USA).nes
       format: 1
       size: 262160
       blob_id: 60261
@@ -73,6 +82,7 @@ releases:
         Kick Master .zip
         踢王.zip
         踢腿大师 (美版) (动作角色扮演)-Kick Master (USA) + Kick Master (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=6eafe44984fc52e27e55818534ecf84c8877c752
   - asset:
       id: 137021
       kind: 3
@@ -133,17 +143,37 @@ releases:
     kind_id: 14501
     language: 1
     name: Kick Master (U) [f1]
+    deprecated: 1
+  - id: 258558
+    kind: 3
+    kind_id: 14501
+    language: 1
+    name: Kick Master (Asia) (En) (NT-6079) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 14483
       kind: 3
       kind_id: 14501
       type: 1
-      name: Kick Master (U) [f1].nes
+      name: Kick Master (Asia) (En) (NT-6079) (Pirate).nes
       format: 1
       size: 262160
       blob_id: 60266
-      debug: Kick Master (U) [f1].nes
+      debug: |-
+        Kick Master (U) [f1].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=2fb88d8b08a6ea25b817e8995a9d3cb33af7db63
+  - asset:
+      id: 139488
+      kind: 3
+      kind_id: 14501
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Kick%20Master%20%28Asia%29%20%28En%29%20%28NT-6079%29%20%28Pirate%29.png
+      format: 1
+      size: 6165
+      blob_id: 324917
+      debug: libretro-named-titles:rom-asset=14483:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Kick%20Master%20%28Asia%29%20%28En%29%20%28NT-6079%29%20%28Pirate%29.png
 - release:
     id: 14503
     game_id: 14512
@@ -280,17 +310,37 @@ releases:
     kind_id: 14510
     language: 1
     name: Kick Master (Unl) [p1]
+    deprecated: 1
+  - id: 258559
+    kind: 3
+    kind_id: 14510
+    language: 1
+    name: Kick Master (Asia) (En) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 14492
       kind: 3
       kind_id: 14510
       type: 1
-      name: Kick Master (Unl) [p1].nes
+      name: Kick Master (Asia) (En) (Pirate).nes
       format: 1
       size: 262160
       blob_id: 60274
-      debug: Kick Master (Unl) [p1].nes
+      debug: |-
+        Kick Master (Unl) [p1].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=e8e64aa214651df7825589159e16dcbc5b219882
+  - asset:
+      id: 139489
+      kind: 3
+      kind_id: 14510
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Kick%20Master%20%28Asia%29%20%28En%29%20%28Pirate%29.png
+      format: 1
+      size: 6165
+      blob_id: 324917
+      debug: libretro-named-titles:rom-asset=14492:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Kick%20Master%20%28Asia%29%20%28En%29%20%28Pirate%29.png
 - release:
     id: 14511
     game_id: 14512

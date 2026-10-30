@@ -7,12 +7,19 @@ names:
   kind_id: 20814
   language: 1
   name: Sanma no Mei Tantei
+  deprecated: 1
 - id: 248500
   kind: 2
   kind_id: 20814
   language: 2
   name: 明石家秋刀鱼侦探
   source: codex
+- id: 262093
+  kind: 2
+  kind_id: 20814
+  language: 1
+  name: Sanma no Meitantei
+  source: no-intro
 releases:
 - release:
     id: 20814
@@ -23,17 +30,26 @@ releases:
     kind_id: 20814
     language: 1
     name: Sanma no Mei Tantei (J) [!]
+    deprecated: 1
+  - id: 259272
+    kind: 3
+    kind_id: 20814
+    language: 1
+    name: Sanma no Meitantei (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 20796
       kind: 3
       kind_id: 20814
       type: 1
-      name: Sanma no Mei Tantei (J) [!].nes
+      name: Sanma no Meitantei (Japan).nes
       format: 1
       size: 196624
       blob_id: 66245
-      debug: Sanma no Mei Tantei (J) [!].nes
+      debug: |-
+        Sanma no Mei Tantei (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=6d982910a8d70a2705e87af17c01ab6a676a9de1
   - asset:
       id: 137283
       kind: 3

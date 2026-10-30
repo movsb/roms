@@ -7,17 +7,25 @@ names:
   kind_id: 12319
   language: 1
   name: Ghosts'n Goblins (U)
+  deprecated: 1
 - id: 27047
   kind: 2
   kind_id: 12319
   language: 1
   name: GhostsNGoblins
+  deprecated: 1
 - id: 247854
   kind: 2
   kind_id: 12319
   language: 2
   name: 魔界村
   source: codex
+- id: 261739
+  kind: 2
+  kind_id: 12319
+  language: 1
+  name: Ghosts'n Goblins
+  source: no-intro
 releases:
 - release:
     id: 12319
@@ -28,24 +36,33 @@ releases:
     kind_id: 12319
     language: 1
     name: Ghosts'n Goblins (U)
+    deprecated: 1
   - id: 27048
     kind: 3
     kind_id: 12319
     language: 1
     name: GhostsNGoblins
+    deprecated: 1
+  - id: 258317
+    kind: 3
+    kind_id: 12319
+    language: 1
+    name: Ghosts'n Goblins (USA)
+    source: no-intro
   assets:
   - asset:
       id: 12301
       kind: 3
       kind_id: 12319
       type: 1
-      name: Ghosts'n Goblins (U).nes
+      name: Ghosts'n Goblins (USA).nes
       format: 1
       size: 131088
       blob_id: 58224
       debug: |-
         Ghosts'n Goblins (U).zip
         GhostsNGoblins.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=ca03c76b65f0fe5b1d05149d7e9a97b4d5f44a27
   - asset:
       id: 138427
       kind: 3

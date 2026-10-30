@@ -7,12 +7,19 @@ names:
   kind_id: 25399
   language: 1
   name: Underground Mission (Unl)
+  deprecated: 1
 - id: 248845
   kind: 2
   kind_id: 25399
   language: 2
   name: 地下任务
   source: codex
+- id: 262273
+  kind: 2
+  kind_id: 25399
+  language: 1
+  name: Underground Mission
+  source: no-intro
 releases:
 - release:
     id: 25399
@@ -23,14 +30,34 @@ releases:
     kind_id: 25399
     language: 1
     name: Underground Mission (Unl)
+    deprecated: 1
+  - id: 259745
+    kind: 3
+    kind_id: 25399
+    language: 1
+    name: Underground Mission (China) (Aftermarket) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 25381
       kind: 3
       kind_id: 25399
       type: 1
-      name: Underground Mission (Unl).nes
+      name: Underground Mission (China) (Aftermarket) (Unl).nes
       format: 1
       size: 262160
       blob_id: 70598
-      debug: Underground Mission (Unl).nes
+      debug: |-
+        Underground Mission (Unl).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=1fc9dd7726bfe74a2c9b44bae3ebfe8b704fe013
+  - asset:
+      id: 139874
+      kind: 3
+      kind_id: 25399
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Underground%20Mission%20%28China%29%20%28Aftermarket%29%20%28Unl%29.png
+      format: 1
+      size: 3556
+      blob_id: 325244
+      debug: libretro-named-titles:rom-asset=25381:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Underground%20Mission%20%28China%29%20%28Aftermarket%29%20%28Unl%29.png

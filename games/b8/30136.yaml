@@ -12,6 +12,13 @@ names:
   kind_id: 30136
   language: 1
   name: Jangou (J) [!]
+  deprecated: 1
+- id: 263628
+  kind: 2
+  kind_id: 30136
+  language: 1
+  name: Jangou
+  source: no-intro
 releases:
 - release:
     id: 30136
@@ -27,17 +34,26 @@ releases:
     kind_id: 30136
     language: 1
     name: Jangou (J) [!]
+    deprecated: 1
+  - id: 261321
+    kind: 3
+    kind_id: 30136
+    language: 1
+    name: Jangou (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 30118
       kind: 3
       kind_id: 30136
       type: 1
-      name: 雀豪 (日版) (桌面平台)-Jangou (Japan) + Jangou (J) [!].nes
+      name: Jangou (Japan).nes
       format: 1
       size: 262160
       blob_id: 74019
-      debug: 雀豪 (日版) (桌面平台)-Jangou (Japan) + Jangou (J) [!].nes
+      debug: |-
+        雀豪 (日版) (桌面平台)-Jangou (Japan) + Jangou (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=304f98ae79cbc933ef23ad419c5e518af1006669
   - asset:
       id: 138056
       kind: 3

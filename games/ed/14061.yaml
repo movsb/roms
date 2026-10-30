@@ -27,27 +27,35 @@ releases:
     kind_id: 14061
     language: 1
     name: Joe & Mac (U)
+    deprecated: 1
   - id: 30994
     kind: 3
     kind_id: 14061
     language: 1
     name: "Joe & Mac - Caveman Ninja (U) [!]"
+    deprecated: 1
   - id: 60154
     kind: 3
     kind_id: 14061
     language: 2
     name: 乔和麦克
+  - id: 258515
+    kind: 3
+    kind_id: 14061
+    language: 1
+    name: Joe & Mac (USA)
+    source: no-intro
   assets:
   - asset:
       id: 14043
       kind: 3
       kind_id: 14061
       type: 1
-      name: Joe & Mac (U).nes
+      name: Joe & Mac (USA).nes
       format: 1
       size: 262160
       blob_id: 59861
-      debug: "Joe & Mac (U).zip\nJoe & Mac - Caveman Ninja (U) [!].zip\n乔和麦克.nes\n重复的/摩登原始人 (美版) (动作)-Joe &amp; Mac (USA) + Joe & Mac - Caveman Ninja (U) [!].nes"
+      debug: "Joe & Mac (U).zip\nJoe & Mac - Caveman Ninja (U) [!].zip\n乔和麦克.nes\n重复的/摩登原始人 (美版) (动作)-Joe &amp; Mac (USA) + Joe & Mac - Caveman Ninja (U) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=76db18b90fb2b76fa685d6462846ed3a92f5cbd4"
   - asset:
       id: 138538
       kind: 3
@@ -68,17 +76,35 @@ releases:
     kind_id: 14065
     language: 1
     name: "Joe & Mac - Caveman Ninja (U) [p1][!]"
+    deprecated: 1
+  - id: 258516
+    kind: 3
+    kind_id: 14065
+    language: 1
+    name: Joe and Mac (Asia) (En) (J-C5) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 14047
       kind: 3
       kind_id: 14065
       type: 1
-      name: "Joe & Mac - Caveman Ninja (U) [p1][!].nes"
+      name: Joe and Mac (Asia) (En) (J-C5) (Pirate).nes
       format: 1
       size: 262160
       blob_id: 59864
-      debug: "Joe & Mac - Caveman Ninja (U) [p1][!].nes"
+      debug: "Joe & Mac - Caveman Ninja (U) [p1][!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=d05e2098d8d49044e7de830c9318e061f9da2771"
+  - asset:
+      id: 139480
+      kind: 3
+      kind_id: 14065
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Joe%20and%20Mac%20%28Asia%29%20%28En%29%20%28J-C5%29%20%28Pirate%29.png
+      format: 1
+      size: 5866
+      blob_id: 324910
+      debug: libretro-named-titles:rom-asset=14047:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Joe%20and%20Mac%20%28Asia%29%20%28En%29%20%28J-C5%29%20%28Pirate%29.png
 - release:
     id: 14066
     game_id: 14061

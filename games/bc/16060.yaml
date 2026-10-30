@@ -8,17 +8,25 @@ names:
   kind_id: 16060
   language: 1
   name: Mega Man 2 (U)
+  deprecated: 1
 - id: 36331
   kind: 2
   kind_id: 16060
   language: 1
   name: Megaman2
+  deprecated: 1
 - id: 248155
   kind: 2
   kind_id: 16060
   language: 2
   name: 洛克人2
   source: codex
+- id: 261895
+  kind: 2
+  kind_id: 16060
+  language: 1
+  name: Mega Man 2
+  source: no-intro
 releases:
 - release:
     id: 16060
@@ -29,24 +37,33 @@ releases:
     kind_id: 16060
     language: 1
     name: Mega Man 2 (U)
+    deprecated: 1
   - id: 36332
     kind: 3
     kind_id: 16060
     language: 1
     name: Megaman2
+    deprecated: 1
+  - id: 258748
+    kind: 3
+    kind_id: 16060
+    language: 1
+    name: Mega Man 2 (USA)
+    source: no-intro
   assets:
   - asset:
       id: 16042
       kind: 3
       kind_id: 16060
       type: 1
-      name: Mega Man 2 (U).nes
+      name: Mega Man 2 (USA).nes
       format: 1
       size: 262160
       blob_id: 61729
       debug: |-
         Mega Man 2 (U).zip
         Megaman2.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=2ec08f9341003ded125458df8697ca5ef09d2209
   - asset:
       id: 138574
       kind: 3

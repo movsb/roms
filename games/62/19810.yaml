@@ -13,6 +13,12 @@ names:
   language: 2
   name: 雷朋三世
   source: codex
+- id: 262047
+  kind: 2
+  kind_id: 19810
+  language: 1
+  name: Rayban the Third
+  source: no-intro
 releases:
 - release:
     id: 19810
@@ -23,16 +29,35 @@ releases:
     kind_id: 19810
     language: 1
     name: Rayban the Third (Unl) [!]
+    deprecated: 1
+  - id: 259164
+    kind: 3
+    kind_id: 19810
+    language: 1
+    name: Rayban the Third (Asia) (Ja) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 19792
       kind: 3
       kind_id: 19810
       type: 1
-      name: Rayban the Third (Unl) [!].nes
+      name: Rayban the Third (Asia) (Ja) (Pirate).nes
       format: 1
       size: 196624
       blob_id: 65281
       debug: |-
         Rayban the Third (Unl) [!].nes
         Rayban the Third (Unl) [!].zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=7c8f2ef76159d396fccc4ee3a93d1899b2b748b0
+  - asset:
+      id: 139696
+      kind: 3
+      kind_id: 19810
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Rayban%20the%20Third%20%28Asia%29%20%28Ja%29%20%28Pirate%29.png
+      format: 1
+      size: 3283
+      blob_id: 325089
+      debug: libretro-named-titles:rom-asset=19792:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Rayban%20the%20Third%20%28Asia%29%20%28Ja%29%20%28Pirate%29.png

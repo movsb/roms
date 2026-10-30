@@ -12,6 +12,13 @@ names:
   kind_id: 28198
   language: 1
   name: Kyouryuu Sentai Juuranger (J)
+  deprecated: 1
+- id: 262917
+  kind: 2
+  kind_id: 28198
+  language: 1
+  name: Kyouryuu Sentai Zyuranger
+  source: no-intro
 releases:
 - release:
     id: 28198
@@ -27,14 +34,34 @@ releases:
     kind_id: 28198
     language: 1
     name: Kyouryuu Sentai Juuranger (J)
+    deprecated: 1
+  - id: 260540
+    kind: 3
+    kind_id: 28198
+    language: 1
+    name: Kyouryuu Sentai Zyuranger (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 28180
       kind: 3
       kind_id: 28198
       type: 1
-      name: 恐龙战队 (日版) (动作)-Kyouryuu Sentai Juuranger (Japan) + Kyouryuu Sentai Juuranger (J).nes
+      name: Kyouryuu Sentai Zyuranger (Japan).nes
       format: 1
       size: 262160
       blob_id: 72782
-      debug: 恐龙战队 (日版) (动作)-Kyouryuu Sentai Juuranger (Japan) + Kyouryuu Sentai Juuranger (J).nes
+      debug: |-
+        恐龙战队 (日版) (动作)-Kyouryuu Sentai Juuranger (Japan) + Kyouryuu Sentai Juuranger (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=0a745ce1bce224c7a6972cb590b806bde7f61d80
+  - asset:
+      id: 140107
+      kind: 3
+      kind_id: 28198
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Kyouryuu%20Sentai%20Zyuranger%20%28Japan%29.png
+      format: 1
+      size: 1683
+      blob_id: 325446
+      debug: libretro-named-titles:rom-asset=28180:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Kyouryuu%20Sentai%20Zyuranger%20%28Japan%29.png

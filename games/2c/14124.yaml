@@ -22,17 +22,37 @@ releases:
     kind_id: 14124
     language: 1
     name: Joy Mech Fight (J) (VC)
+    deprecated: 1
+  - id: 258525
+    kind: 3
+    kind_id: 14124
+    language: 1
+    name: Joy Mech Fight (Japan) (Virtual Console)
+    source: no-intro
   assets:
   - asset:
       id: 14106
       kind: 3
       kind_id: 14124
       type: 1
-      name: Joy Mech Fight (J) (VC).nes
+      name: Joy Mech Fight (Japan) (Virtual Console).nes
       format: 1
       size: 524304
       blob_id: 59919
-      debug: Joy Mech Fight (J) (VC).nes
+      debug: |-
+        Joy Mech Fight (J) (VC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=a1aee4cd2176cb801a06ec5d7c1e95854495774c
+  - asset:
+      id: 139483
+      kind: 3
+      kind_id: 14124
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Joy%20Mech%20Fight%20%28Japan%29%20%28Virtual%20Console%29.png
+      format: 1
+      size: 4360
+      blob_id: 324912
+      debug: libretro-named-titles:rom-asset=14106:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Joy%20Mech%20Fight%20%28Japan%29%20%28Virtual%20Console%29.png
 - release:
     id: 14125
     game_id: 14124

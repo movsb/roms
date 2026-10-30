@@ -13,6 +13,13 @@ names:
   kind_id: 27710
   language: 1
   name: Final Fantasy III (J) [!]
+  deprecated: 1
+- id: 262740
+  kind: 2
+  kind_id: 27710
+  language: 1
+  name: Final Fantasy III
+  source: no-intro
 releases:
 - release:
     id: 27710
@@ -28,17 +35,26 @@ releases:
     kind_id: 27710
     language: 1
     name: Final Fantasy III (J) [!]
+    deprecated: 1
+  - id: 260346
+    kind: 3
+    kind_id: 27710
+    language: 1
+    name: Final Fantasy III (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 27692
       kind: 3
       kind_id: 27710
       type: 1
-      name: 太空战士 III (日版) (角色扮演)-Final Fantasy III (Japan) + Final Fantasy III (J) [!].nes
+      name: Final Fantasy III (Japan).nes
       format: 1
       size: 524304
       blob_id: 72465
-      debug: 太空战士 III (日版) (角色扮演)-Final Fantasy III (Japan) + Final Fantasy III (J) [!].nes
+      debug: |-
+        太空战士 III (日版) (角色扮演)-Final Fantasy III (Japan) + Final Fantasy III (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=8690012d6f4d6d11d16fd9af7b200d9b6ea2504e
   - asset:
       id: 138905
       kind: 3

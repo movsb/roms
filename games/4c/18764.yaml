@@ -7,12 +7,19 @@ names:
   kind_id: 18764
   language: 1
   name: PebbleBeachGolf
+  deprecated: 1
 - id: 248342
   kind: 2
   kind_id: 18764
   language: 2
   name: 圆石滩高尔夫
   source: codex
+- id: 261975
+  kind: 2
+  kind_id: 18764
+  language: 1
+  name: "Bandai Golf - Challenge Pebble Beach"
+  source: no-intro
 releases:
 - release:
     id: 18764
@@ -23,14 +30,34 @@ releases:
     kind_id: 18764
     language: 1
     name: PebbleBeachGolf
+    deprecated: 1
+  - id: 259015
+    kind: 3
+    kind_id: 18764
+    language: 1
+    name: "Bandai Golf - Challenge Pebble Beach (USA)"
+    source: no-intro
   assets:
   - asset:
       id: 18746
       kind: 3
       kind_id: 18764
       type: 1
-      name: PebbleBeachGolf.nes
+      name: "Bandai Golf - Challenge Pebble Beach (USA).nes"
       format: 1
       size: 65552
       blob_id: 64302
-      debug: PebbleBeachGolf.zip
+      debug: |-
+        PebbleBeachGolf.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=085d29641defc36fabb3d95a1dea5d1665902104
+  - asset:
+      id: 139662
+      kind: 3
+      kind_id: 18764
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Bandai%20Golf%20-%20Challenge%20Pebble%20Beach%20%28USA%29.png
+      format: 1
+      size: 3110
+      blob_id: 325059
+      debug: libretro-named-titles:rom-asset=18746:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Bandai%20Golf%20-%20Challenge%20Pebble%20Beach%20%28USA%29.png

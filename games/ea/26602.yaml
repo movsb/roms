@@ -12,6 +12,13 @@ names:
   kind_id: 26602
   language: 1
   name: Ye Ming Jue (Ch)
+  deprecated: 1
+- id: 262343
+  kind: 2
+  kind_id: 26602
+  language: 1
+  name: Yemingzhu (Pearl)
+  source: no-intro
 releases:
 - release:
     id: 26602
@@ -27,14 +34,32 @@ releases:
     kind_id: 26602
     language: 1
     name: Ye Ming Jue (Ch)
+    deprecated: 1
+  - id: 259903
+    kind: 3
+    kind_id: 26602
+    language: 1
+    name: Yemingzhu (Pearl) (China) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 26584
       kind: 3
       kind_id: 26602
       type: 1
-      name: "[WaiXing] 夜明珠 (C) + Ye Ming Jue (Ch).nes"
+      name: Yemingzhu (Pearl) (China) (Pirate).nes
       format: 1
       size: 393232
       blob_id: 71725
-      debug: "[WaiXing] 夜明珠 (C) + Ye Ming Jue (Ch).nes"
+      debug: "[WaiXing] 夜明珠 (C) + Ye Ming Jue (Ch).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=dbe569ce65baab1cef35def70ae68dc873a10446"
+  - asset:
+      id: 139936
+      kind: 3
+      kind_id: 26602
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Yemingzhu%20%28Pearl%29%20%28China%29%20%28Pirate%29.png
+      format: 1
+      size: 4779
+      blob_id: 325298
+      debug: libretro-named-titles:rom-asset=26584:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Yemingzhu%20%28Pearl%29%20%28China%29%20%28Pirate%29.png

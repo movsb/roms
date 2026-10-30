@@ -12,11 +12,19 @@ names:
   kind_id: 17865
   language: 1
   name: Nobunaga's Ambition 2 (U) [!]
+  deprecated: 1
 - id: 92658
   kind: 2
   kind_id: 17865
   language: 1
   name: Nobunaga's Ambition 2
+  deprecated: 1
+- id: 261962
+  kind: 2
+  kind_id: 17865
+  language: 1
+  name: Nobunaga's Ambition II
+  source: no-intro
 releases:
 - release:
     id: 17865
@@ -27,6 +35,7 @@ releases:
     kind_id: 17865
     language: 1
     name: Nobunaga's Ambition 2 (U) [!p]
+    deprecated: 1
   - id: 60731
     kind: 3
     kind_id: 17865
@@ -37,17 +46,35 @@ releases:
     kind_id: 17865
     language: 1
     name: Nobunaga's Ambition 2 (U) [!]
+    deprecated: 1
+  - id: 258968
+    kind: 3
+    kind_id: 17865
+    language: 1
+    name: Nobunaga's Ambition II (USA)
+    source: no-intro
   assets:
   - asset:
       id: 17847
       kind: 3
       kind_id: 17865
       type: 1
-      name: Nobunaga's Ambition 2 (U) [!p].nes
+      name: Nobunaga's Ambition II (USA).nes
       format: 1
       size: 393232
       blob_id: 63431
-      debug: "Nobunaga's Ambition 2 (U) [!p].zip\n信长之野望 - 战国群雄传 (美版) (策略)-Nobunagas Ambition II (USA) + Nobunaga's Ambition 2 (U) [!].nes"
+      debug: "Nobunaga's Ambition 2 (U) [!p].zip\n信长之野望 - 战国群雄传 (美版) (策略)-Nobunagas Ambition II (USA) + Nobunaga's Ambition 2 (U) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=66031e07d25b899ea3175a222c3939568d874883"
+  - asset:
+      id: 139647
+      kind: 3
+      kind_id: 17865
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Nobunaga%27s%20Ambition%20II%20%28USA%29.png
+      format: 1
+      size: 2153
+      blob_id: 325047
+      debug: libretro-named-titles:rom-asset=17847:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Nobunaga%27s%20Ambition%20II%20%28USA%29.png
 - release:
     id: 17868
     game_id: 17865
@@ -57,14 +84,34 @@ releases:
     kind_id: 17868
     language: 1
     name: Nobunaga's Ambition 2 (U)
+    deprecated: 1
+  - id: 258969
+    kind: 3
+    kind_id: 17868
+    language: 1
+    name: Nobunaga's Ambition II (USA)
+    source: no-intro
   assets:
   - asset:
       id: 17850
       kind: 3
       kind_id: 17868
       type: 1
-      name: Nobunaga's Ambition 2 (U).nes
+      name: Nobunaga's Ambition II (USA).nes
       format: 1
       size: 393232
       blob_id: 63434
-      debug: Nobunaga's Ambition 2 (U).zip
+      debug: |-
+        Nobunaga's Ambition 2 (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=66031e07d25b899ea3175a222c3939568d874883
+  - asset:
+      id: 139648
+      kind: 3
+      kind_id: 17868
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Nobunaga%27s%20Ambition%20II%20%28USA%29.png
+      format: 1
+      size: 2153
+      blob_id: 325047
+      debug: libretro-named-titles:rom-asset=17850:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Nobunaga%27s%20Ambition%20II%20%28USA%29.png

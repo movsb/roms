@@ -7,12 +7,19 @@ names:
   kind_id: 11354
   language: 1
   name: Fighter F-8000 (PD)
+  deprecated: 1
 - id: 252862
   kind: 2
   kind_id: 11354
   language: 2
   name: 战斗机F-8000
   source: codex
+- id: 261709
+  kind: 2
+  kind_id: 11354
+  language: 1
+  name: Fighter F-8000
+  source: no-intro
 releases:
 - release:
     id: 11354
@@ -23,17 +30,26 @@ releases:
     kind_id: 11354
     language: 1
     name: Fighter F-8000 (PD)
+    deprecated: 1
+  - id: 258222
+    kind: 3
+    kind_id: 11354
+    language: 1
+    name: Fighter F-8000 (World) (Fi) (Proto) (Aftermarket) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 11336
       kind: 3
       kind_id: 11354
       type: 1
-      name: Fighter F-8000 (PD).nes
+      name: Fighter F-8000 (World) (Fi) (Proto) (Aftermarket) (Unl).nes
       format: 1
       size: 24592
       blob_id: 57312
-      debug: Fighter F-8000 (PD).nes
+      debug: |-
+        Fighter F-8000 (PD).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=696b3570e7ed75dcdfdea762cda60297f5cfed1e
   - asset:
       id: 138388
       kind: 3

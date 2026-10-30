@@ -12,11 +12,18 @@ names:
   kind_id: 18766
   language: 1
   name: Peek-A-Boo Poker (Panesian) [!]
+  deprecated: 1
 - id: 92717
   kind: 2
   kind_id: 18766
   language: 1
   name: Peek-A-Boo Poker
+- id: 261976
+  kind: 2
+  kind_id: 18766
+  language: 1
+  name: Peek-A-Boo Poker
+  source: no-intro
 releases:
 - release:
     id: 18767
@@ -27,6 +34,7 @@ releases:
     kind_id: 18767
     language: 1
     name: Peek-A-Boo Poker (Unl) [!]
+    deprecated: 1
   - id: 68977
     kind: 3
     kind_id: 18767
@@ -37,16 +45,35 @@ releases:
     kind_id: 18767
     language: 1
     name: Peek-A-Boo Poker (Panesian) [!]
+    deprecated: 1
+  - id: 259016
+    kind: 3
+    kind_id: 18767
+    language: 1
+    name: Peek-A-Boo Poker (USA) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 18749
       kind: 3
       kind_id: 18767
       type: 1
-      name: Peek-A-Boo Poker (Unl) [!].nes
+      name: Peek-A-Boo Poker (USA) (Unl).nes
       format: 1
       size: 98320
       blob_id: 64305
       debug: |-
         Peek-A-Boo Poker (Unl) [!].zip
         美女扑克 (亚洲版) (桌面平台)-Peek-A-Boo Poker (Asia) (Unl) + Peek-A-Boo Poker (Panesian) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=39294394a0631708f58397371ce14075ae1fb7e6
+  - asset:
+      id: 139663
+      kind: 3
+      kind_id: 18767
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Peek-A-Boo%20Poker%20%28USA%29%20%28Unl%29.png
+      format: 1
+      size: 4209
+      blob_id: 325060
+      debug: libretro-named-titles:rom-asset=18749:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Peek-A-Boo%20Poker%20%28USA%29%20%28Unl%29.png

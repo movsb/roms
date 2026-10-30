@@ -23,23 +23,32 @@ releases:
     kind_id: 15179
     language: 1
     name: Linus Spacehead's Cosmic Crusade (Aladdin) (U)
+    deprecated: 1
   - id: 33676
     kind: 3
     kind_id: 15179
     language: 1
     name: Linus Spacehead's Cosmic Crusade (Camerica) (Aladdin) (M4) [!]
+    deprecated: 1
   - id: 33686
     kind: 3
     kind_id: 15179
     language: 1
     name: Linus Spacehead's Cosmic Crusade (Unl) (Aladdin) (M4) [!]
+    deprecated: 1
+  - id: 258648
+    kind: 3
+    kind_id: 15179
+    language: 1
+    name: Linus Spacehead's Cosmic Crusade (USA) (En,Fr,De,Es) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 15161
       kind: 3
       kind_id: 15179
       type: 1
-      name: Linus Spacehead's Cosmic Crusade (Aladdin) (U).nes
+      name: Linus Spacehead's Cosmic Crusade (USA) (En,Fr,De,Es) (Unl).nes
       format: 1
       size: 262160
       blob_id: 60898
@@ -47,6 +56,18 @@ releases:
         Linus Spacehead's Cosmic Crusade (Aladdin) (U).zip
         Linus Spacehead's Cosmic Crusade (Camerica) (Aladdin) (M4) [!].nes
         Linus Spacehead's Cosmic Crusade (Unl) (Aladdin) (M4) [!].zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=52621d0e0782cd94b588b50860a6de3da94f2e63
+  - asset:
+      id: 139520
+      kind: 3
+      kind_id: 15179
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Linus%20Spacehead%27s%20Cosmic%20Crusade%20%28USA%29%20%28En%2CFr%2CDe%2CEs%29%20%28Unl%29.png
+      format: 1
+      size: 2194
+      blob_id: 324943
+      debug: libretro-named-titles:rom-asset=15161:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Linus%20Spacehead%27s%20Cosmic%20Crusade%20%28USA%29%20%28En%2CFr%2CDe%2CEs%29%20%28Unl%29.png
 - release:
     id: 15184
     game_id: 15179

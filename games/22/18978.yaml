@@ -8,12 +8,19 @@ names:
   kind_id: 18978
   language: 1
   name: Pokemon II (Unl)
+  deprecated: 1
 - id: 248372
   kind: 2
   kind_id: 18978
   language: 2
   name: 宝可梦2
   source: codex
+- id: 261996
+  kind: 2
+  kind_id: 18978
+  language: 1
+  name: Mewtwo no Pokemon II
+  source: no-intro
 releases:
 - release:
     id: 18978
@@ -24,14 +31,23 @@ releases:
     kind_id: 18978
     language: 1
     name: Pokemon II (Unl)
+    deprecated: 1
+  - id: 259061
+    kind: 3
+    kind_id: 18978
+    language: 1
+    name: Mewtwo no Pokemon II (Asia) (En) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 18960
       kind: 3
       kind_id: 18978
       type: 1
-      name: Pokemon II (Unl).nes
+      name: Mewtwo no Pokemon II (Asia) (En) (Pirate).nes
       format: 1
       size: 262160
       blob_id: 64499
-      debug: Pokemon II (Unl).nes
+      debug: |-
+        Pokemon II (Unl).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=158e15c4ea1443bb05aee5a0b8811b106bc2bec6

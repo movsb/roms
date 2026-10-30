@@ -12,11 +12,18 @@ names:
   kind_id: 8910
   language: 1
   name: Cobra Triangle (U) [!]
+  deprecated: 1
 - id: 91562
   kind: 2
   kind_id: 8910
   language: 1
   name: Cobra Triangle
+- id: 261597
+  kind: 2
+  kind_id: 8910
+  language: 1
+  name: Cobra Triangle
+  source: no-intro
 releases:
 - release:
     id: 8910
@@ -27,17 +34,26 @@ releases:
     kind_id: 8910
     language: 1
     name: Cobra Triangle (E) [!]
+    deprecated: 1
+  - id: 257921
+    kind: 3
+    kind_id: 8910
+    language: 1
+    name: Cobra Triangle (Europe)
+    source: no-intro
   assets:
   - asset:
       id: 8892
       kind: 3
       kind_id: 8910
       type: 1
-      name: Cobra Triangle (E) [!].nes
+      name: Cobra Triangle (Europe).nes
       format: 1
       size: 131088
       blob_id: 55026
-      debug: Cobra Triangle (E) [!].nes
+      debug: |-
+        Cobra Triangle (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=d3c4b6ba78d0405ad95d5d5c17c10f0d4db27c6a
   - asset:
       id: 136778
       kind: 3
@@ -58,23 +74,31 @@ releases:
     kind_id: 8911
     language: 1
     name: Cobra Triangle (U) [!]
+    deprecated: 1
   - id: 18940
     kind: 3
     kind_id: 8911
     language: 1
     name: Cobra Triangle (U)
+    deprecated: 1
   - id: 68227
     kind: 3
     kind_id: 8911
     language: 2
     name: 眼镜蛇快艇 (美版) (射击)-Cobra Triangle (USA)
+  - id: 257922
+    kind: 3
+    kind_id: 8911
+    language: 1
+    name: Cobra Triangle (USA)
+    source: no-intro
   assets:
   - asset:
       id: 8893
       kind: 3
       kind_id: 8911
       type: 1
-      name: Cobra Triangle (U) [!].nes
+      name: Cobra Triangle (USA).nes
       format: 1
       size: 131088
       blob_id: 55027
@@ -82,6 +106,7 @@ releases:
         Cobra Triangle (U) [!].zip
         Cobra Triangle (U).zip
         眼镜蛇快艇 (美版) (射击)-Cobra Triangle (USA) + Cobra Triangle (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=1ee3dbbb6673fe1e22a432ab086fc317d6b1713e
   - asset:
       id: 138466
       kind: 3

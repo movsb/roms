@@ -7,17 +7,25 @@ names:
   kind_id: 12292
   language: 1
   name: Ghost_busters2
+  deprecated: 1
 - id: 26997
   kind: 2
   kind_id: 12292
   language: 1
   name: Ghostbusters 2 (U)
+  deprecated: 1
 - id: 247852
   kind: 2
   kind_id: 12292
   language: 2
   name: 捉鬼敢死队2
   source: codex
+- id: 261737
+  kind: 2
+  kind_id: 12292
+  language: 1
+  name: Ghostbusters II
+  source: no-intro
 releases:
 - release:
     id: 12292
@@ -28,21 +36,41 @@ releases:
     kind_id: 12292
     language: 1
     name: Ghost_busters2
+    deprecated: 1
   - id: 26998
     kind: 3
     kind_id: 12292
     language: 1
     name: Ghostbusters 2 (U)
+    deprecated: 1
+  - id: 258312
+    kind: 3
+    kind_id: 12292
+    language: 1
+    name: Ghostbusters II (USA)
+    source: no-intro
   assets:
   - asset:
       id: 12274
       kind: 3
       kind_id: 12292
       type: 1
-      name: Ghost_busters2.nes
+      name: Ghostbusters II (USA).nes
       format: 1
       size: 262160
       blob_id: 58199
       debug: |-
         Ghost_busters2.zip
         Ghostbusters 2 (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=2d48241f5453dda96fec840f9e9501979b07b73c
+  - asset:
+      id: 139414
+      kind: 3
+      kind_id: 12292
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Ghostbusters%20II%20%28USA%29.png
+      format: 1
+      size: 1488
+      blob_id: 324673
+      debug: libretro-named-titles:rom-asset=12274:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Ghostbusters%20II%20%28USA%29.png

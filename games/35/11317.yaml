@@ -7,12 +7,19 @@ names:
   kind_id: 11317
   language: 1
   name: Felix vs Jerry (Unl) [!]
+  deprecated: 1
 - id: 247800
   kind: 2
   kind_id: 11317
   language: 2
   name: 菲力猫大战杰瑞
   source: codex
+- id: 261707
+  kind: 2
+  kind_id: 11317
+  language: 1
+  name: Felix vs Jerry
+  source: no-intro
 releases:
 - release:
     id: 11317
@@ -23,14 +30,23 @@ releases:
     kind_id: 11317
     language: 1
     name: Felix vs Jerry (Unl) [!]
+    deprecated: 1
+  - id: 258215
+    kind: 3
+    kind_id: 11317
+    language: 1
+    name: Felix vs Jerry (Asia) (En) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 11299
       kind: 3
       kind_id: 11317
       type: 1
-      name: Felix vs Jerry (Unl) [!].nes
+      name: Felix vs Jerry (Asia) (En) (Pirate).nes
       format: 1
       size: 262160
       blob_id: 57278
-      debug: Felix vs Jerry (Unl) [!].nes
+      debug: |-
+        Felix vs Jerry (Unl) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=3a015292e1301ecd6f8f6c42c137a5147d6e2ace

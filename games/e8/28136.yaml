@@ -28,27 +28,46 @@ releases:
     kind_id: 17663
     language: 1
     name: "Ninja Gaiden 3 - The Ancient Ship of Doom (U)"
+    deprecated: 1
   - id: 39494
     kind: 3
     kind_id: 17663
     language: 1
     name: "Ninja Gaiden III - The Ancient Ship of Doom (U) [!]"
+    deprecated: 1
   - id: 64539
     kind: 3
     kind_id: 17663
     language: 2
     name: "忍者龙剑传 III - 黄泉之方舟 (美版) (动作)-Ninja Gaiden Episode III - The Ancient Ship of Doom (USA)"
+  - id: 258947
+    kind: 3
+    kind_id: 17663
+    language: 1
+    name: "Ninja Gaiden III - The Ancient Ship of Doom (USA)"
+    source: no-intro
   assets:
   - asset:
       id: 17645
       kind: 3
       kind_id: 17663
       type: 1
-      name: "Ninja Gaiden 3 - The Ancient Ship of Doom (U).nes"
+      name: "Ninja Gaiden III - The Ancient Ship of Doom (USA).nes"
       format: 1
       size: 262160
       blob_id: 63238
-      debug: "Ninja Gaiden 3 - The Ancient Ship of Doom (U).zip\nNinja Gaiden III - The Ancient Ship of Doom (U) [!].zip\n忍者龙剑传 III - 黄泉之方舟 (美版) (动作)-Ninja Gaiden Episode III - The Ancient Ship of Doom (USA) + Ninja Gaiden III - The Ancient Ship of Doom (U) [!].nes"
+      debug: "Ninja Gaiden 3 - The Ancient Ship of Doom (U).zip\nNinja Gaiden III - The Ancient Ship of Doom (U) [!].zip\n忍者龙剑传 III - 黄泉之方舟 (美版) (动作)-Ninja Gaiden Episode III - The Ancient Ship of Doom (USA) + Ninja Gaiden III - The Ancient Ship of Doom (U) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=503b64a28e0ead2ee7312a46a4646b334a899846"
+  - asset:
+      id: 139639
+      kind: 3
+      kind_id: 17663
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Ninja%20Gaiden%20III%20-%20The%20Ancient%20Ship%20of%20Doom%20%28USA%29.png
+      format: 1
+      size: 2488
+      blob_id: 325040
+      debug: libretro-named-titles:rom-asset=17645:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Ninja%20Gaiden%20III%20-%20The%20Ancient%20Ship%20of%20Doom%20%28USA%29.png
 - release:
     id: 17684
     game_id: 28136
@@ -78,17 +97,35 @@ releases:
     kind_id: 17685
     language: 1
     name: "Ninja Gaiden III - The Ancient Ship of Doom (U) (VC)"
+    deprecated: 1
+  - id: 258949
+    kind: 3
+    kind_id: 17685
+    language: 1
+    name: "Ninja Gaiden III - The Ancient Ship of Doom (USA) (Wii Virtual Console)"
+    source: no-intro
   assets:
   - asset:
       id: 17667
       kind: 3
       kind_id: 17685
       type: 1
-      name: "Ninja Gaiden III - The Ancient Ship of Doom (U) (VC).nes"
+      name: "Ninja Gaiden III - The Ancient Ship of Doom (USA) (Wii Virtual Console).nes"
       format: 1
       size: 262160
       blob_id: 63258
-      debug: "Ninja Gaiden III - The Ancient Ship of Doom (U) (VC).nes"
+      debug: "Ninja Gaiden III - The Ancient Ship of Doom (U) (VC).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=0a5619a562c5bd2ca028c708cec1c634b4099ec7"
+  - asset:
+      id: 139641
+      kind: 3
+      kind_id: 17685
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Ninja%20Gaiden%20III%20-%20The%20Ancient%20Ship%20of%20Doom%20%28USA%29%20%28Wii%20Virtual%20Console%29.png
+      format: 1
+      size: 5096
+      blob_id: 325042
+      debug: libretro-named-titles:rom-asset=17667:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Ninja%20Gaiden%20III%20-%20The%20Ancient%20Ship%20of%20Doom%20%28USA%29%20%28Wii%20Virtual%20Console%29.png
 - release:
     id: 17687
     game_id: 28136
@@ -243,17 +280,35 @@ releases:
     kind_id: 28127
     language: 1
     name: "Ninja Ryukenden III - Yomi no Hakobune (J)"
+    deprecated: 1
+  - id: 260518
+    kind: 3
+    kind_id: 28127
+    language: 1
+    name: "Ninja Ryuuken Den III - Yomi no Hakobune (Japan)"
+    source: no-intro
   assets:
   - asset:
       id: 28109
       kind: 3
       kind_id: 28127
       type: 1
-      name: "忍者龙剑传 III - 黄泉之方舟 (日版) (动作)-Ninja Ryukenden III - Yomi no Hakobune (Japan) + Ninja Ryukenden III - Yomi no Hakobune (J).nes"
+      name: "Ninja Ryuuken Den III - Yomi no Hakobune (Japan).nes"
       format: 1
       size: 262160
       blob_id: 72737
-      debug: "忍者龙剑传 III - 黄泉之方舟 (日版) (动作)-Ninja Ryukenden III - Yomi no Hakobune (Japan) + Ninja Ryukenden III - Yomi no Hakobune (J).nes"
+      debug: "忍者龙剑传 III - 黄泉之方舟 (日版) (动作)-Ninja Ryukenden III - Yomi no Hakobune (Japan) + Ninja Ryukenden III - Yomi no Hakobune (J).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=22e620ef21de748f49e425df1a35401922eb3406"
+  - asset:
+      id: 140103
+      kind: 3
+      kind_id: 28127
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Ninja%20Ryuuken%20Den%20III%20-%20Yomi%20no%20Hakobune%20%28Japan%29.png
+      format: 1
+      size: 3555
+      blob_id: 325442
+      debug: libretro-named-titles:rom-asset=28109:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Ninja%20Ryuuken%20Den%20III%20-%20Yomi%20no%20Hakobune%20%28Japan%29.png
 - release:
     id: 28136
     game_id: 28136

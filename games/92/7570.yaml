@@ -7,6 +7,7 @@ names:
   kind_id: 7570
   language: 1
   name: BumpNJump
+  deprecated: 1
 - id: 60913
   kind: 2
   kind_id: 7570
@@ -17,6 +18,13 @@ names:
   kind_id: 7570
   language: 1
   name: Bump'n'Jump
+  deprecated: 1
+- id: 261577
+  kind: 2
+  kind_id: 7570
+  language: 1
+  name: Bump 'n' Jump
+  source: no-intro
 releases:
 - release:
     id: 7570
@@ -27,23 +35,31 @@ releases:
     kind_id: 7570
     language: 1
     name: Bump'n'Jump (U) [!]
+    deprecated: 1
   - id: 15942
     kind: 3
     kind_id: 7570
     language: 1
     name: Bump'n'Jump (U)
+    deprecated: 1
   - id: 60914
     kind: 3
     kind_id: 7570
     language: 2
     name: 公路追逐赛
+  - id: 257833
+    kind: 3
+    kind_id: 7570
+    language: 1
+    name: Bump 'n' Jump (USA)
+    source: no-intro
   assets:
   - asset:
       id: 7552
       kind: 3
       kind_id: 7570
       type: 1
-      name: Bump'n'Jump (U) [!].nes
+      name: Bump 'n' Jump (USA).nes
       format: 1
       size: 65552
       blob_id: 53739
@@ -52,6 +68,7 @@ releases:
         Bump'n'Jump (U).zip
         公路追逐赛.nes
         重复的/碰碰飞车 (美版) (竞赛)-BumpnJump (USA) + Bump'n'Jump (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=880b523fd191564d71744fc891261cd0bbc4ed0c
   - asset:
       id: 136744
       kind: 3

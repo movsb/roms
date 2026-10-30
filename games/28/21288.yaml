@@ -7,17 +7,25 @@ names:
   kind_id: 21288
   language: 1
   name: SkateOrDie
+  deprecated: 1
 - id: 93037
   kind: 2
   kind_id: 21288
   language: 1
   name: Skate or Die!
+  deprecated: 1
 - id: 248570
   kind: 2
   kind_id: 21288
   language: 2
   name: 滑板生死斗
   source: codex
+- id: 262123
+  kind: 2
+  kind_id: 21288
+  language: 1
+  name: Skate or Die
+  source: no-intro
 releases:
 - release:
     id: 21288
@@ -28,17 +36,26 @@ releases:
     kind_id: 21288
     language: 1
     name: Skate or Die! (E) [!]
+    deprecated: 1
+  - id: 259335
+    kind: 3
+    kind_id: 21288
+    language: 1
+    name: Skate or Die (Europe)
+    source: no-intro
   assets:
   - asset:
       id: 21270
       kind: 3
       kind_id: 21288
       type: 1
-      name: Skate or Die! (E) [!].nes
+      name: Skate or Die (Europe).nes
       format: 1
       size: 131088
       blob_id: 66682
-      debug: Skate or Die! (E) [!].nes
+      debug: |-
+        Skate or Die! (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=1c8dda6e0f1797aa5b9cbb56b11c33bc760bc3eb
   - asset:
       id: 137309
       kind: 3
@@ -59,19 +76,38 @@ releases:
     kind_id: 21289
     language: 1
     name: Skate or Die! (U) [!]
+    deprecated: 1
+  - id: 259336
+    kind: 3
+    kind_id: 21289
+    language: 1
+    name: Skate or Die (USA)
+    source: no-intro
   assets:
   - asset:
       id: 21271
       kind: 3
       kind_id: 21289
       type: 1
-      name: Skate or Die! (U) [!].nes
+      name: Skate or Die (USA).nes
       format: 1
       size: 131088
       blob_id: 66683
       debug: |-
         Skate or Die! (U) [!].nes
         Skate or Die! (U) [!].zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=5a6f865718f24afc9b1d65fa9a33246481c91970
+  - asset:
+      id: 139752
+      kind: 3
+      kind_id: 21289
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Skate%20or%20Die%20%28USA%29.png
+      format: 1
+      size: 3125
+      blob_id: 325133
+      debug: libretro-named-titles:rom-asset=21271:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Skate%20or%20Die%20%28USA%29.png
 - release:
     id: 21295
     game_id: 21288
@@ -81,21 +117,41 @@ releases:
     kind_id: 21295
     language: 1
     name: Skate or Die! (U)
+    deprecated: 1
   - id: 47434
     kind: 3
     kind_id: 21295
     language: 1
     name: SkateOrDie
+    deprecated: 1
+  - id: 259337
+    kind: 3
+    kind_id: 21295
+    language: 1
+    name: Skate or Die (USA)
+    source: no-intro
   assets:
   - asset:
       id: 21277
       kind: 3
       kind_id: 21295
       type: 1
-      name: Skate or Die! (U).nes
+      name: Skate or Die (USA).nes
       format: 1
       size: 131088
       blob_id: 66688
       debug: |-
         Skate or Die! (U).zip
         SkateOrDie.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=5a6f865718f24afc9b1d65fa9a33246481c91970
+  - asset:
+      id: 139753
+      kind: 3
+      kind_id: 21295
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Skate%20or%20Die%20%28USA%29.png
+      format: 1
+      size: 3125
+      blob_id: 325133
+      debug: libretro-named-titles:rom-asset=21277:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Skate%20or%20Die%20%28USA%29.png

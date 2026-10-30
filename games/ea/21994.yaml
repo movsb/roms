@@ -32,17 +32,37 @@ releases:
     kind_id: 21994
     language: 1
     name: Startropics (E) (VC)
+    deprecated: 1
+  - id: 259415
+    kind: 3
+    kind_id: 21994
+    language: 1
+    name: StarTropics (Europe) (Virtual Console)
+    source: no-intro
   assets:
   - asset:
       id: 21976
       kind: 3
       kind_id: 21994
       type: 1
-      name: Startropics (E) (VC).nes
+      name: StarTropics (Europe) (Virtual Console).nes
       format: 1
       size: 524304
       blob_id: 67345
-      debug: Startropics (E) (VC).nes
+      debug: |-
+        Startropics (E) (VC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=59666993ef7a4a3310719a53aa8dfe04696ff8c0
+  - asset:
+      id: 139772
+      kind: 3
+      kind_id: 21994
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/StarTropics%20%28Europe%29%20%28Virtual%20Console%29.png
+      format: 1
+      size: 2507
+      blob_id: 325150
+      debug: libretro-named-titles:rom-asset=21976:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/StarTropics%20%28Europe%29%20%28Virtual%20Console%29.png
 - release:
     id: 21995
     game_id: 21994
@@ -72,17 +92,37 @@ releases:
     kind_id: 21996
     language: 1
     name: Startropics (U) (VC)
+    deprecated: 1
+  - id: 259416
+    kind: 3
+    kind_id: 21996
+    language: 1
+    name: StarTropics (USA) (Virtual Console)
+    source: no-intro
   assets:
   - asset:
       id: 21978
       kind: 3
       kind_id: 21996
       type: 1
-      name: Startropics (U) (VC).nes
+      name: StarTropics (USA) (Virtual Console).nes
       format: 1
       size: 524304
       blob_id: 67347
-      debug: Startropics (U) (VC).nes
+      debug: |-
+        Startropics (U) (VC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=59982dd6e269de61ba886c8cc5f978d995927746
+  - asset:
+      id: 139773
+      kind: 3
+      kind_id: 21996
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/StarTropics%20%28USA%29%20%28Virtual%20Console%29.png
+      format: 1
+      size: 2507
+      blob_id: 325150
+      debug: libretro-named-titles:rom-asset=21978:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/StarTropics%20%28USA%29%20%28Virtual%20Console%29.png
 - release:
     id: 21997
     game_id: 21994
@@ -92,6 +132,7 @@ releases:
     kind_id: 21997
     language: 1
     name: Startropics (U) [!]
+    deprecated: 1
   - id: 67385
     kind: 3
     kind_id: 21997
@@ -102,13 +143,19 @@ releases:
     kind_id: 21997
     language: 2
     name: 热带之星1
+  - id: 259417
+    kind: 3
+    kind_id: 21997
+    language: 1
+    name: StarTropics (USA)
+    source: no-intro
   assets:
   - asset:
       id: 21979
       kind: 3
       kind_id: 21997
       type: 1
-      name: Startropics (U) [!].nes
+      name: StarTropics (USA).nes
       format: 1
       size: 524304
       blob_id: 67348
@@ -116,6 +163,7 @@ releases:
         Startropics (U) [!].zip
         热带之星 (美版) (动作角色扮演)-Startropics (USA) + Startropics (U) [!].nes
         热带之星1.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=74c53fe9ac779f146c59ac01e701c9bf912b3c7b
   - asset:
       id: 137341
       kind: 3
@@ -156,17 +204,26 @@ releases:
     kind_id: 22005
     language: 1
     name: Startropics (U)
+    deprecated: 1
+  - id: 259418
+    kind: 3
+    kind_id: 22005
+    language: 1
+    name: StarTropics (USA)
+    source: no-intro
   assets:
   - asset:
       id: 21987
       kind: 3
       kind_id: 22005
       type: 1
-      name: Startropics (U).nes
+      name: StarTropics (USA).nes
       format: 1
       size: 524304
       blob_id: 67356
-      debug: Startropics (U).zip
+      debug: |-
+        Startropics (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=74c53fe9ac779f146c59ac01e701c9bf912b3c7b
   - asset:
       id: 138705
       kind: 3

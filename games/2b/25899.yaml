@@ -12,11 +12,19 @@ names:
   kind_id: 25899
   language: 1
   name: Where in Time is Carmen Sandiego (U) [!]
+  deprecated: 1
 - id: 93550
   kind: 2
   kind_id: 25899
   language: 1
   name: Where in Time is Carmen Sandiego
+  deprecated: 1
+- id: 262297
+  kind: 2
+  kind_id: 25899
+  language: 1
+  name: Where in Time Is Carmen Sandiego
+  source: no-intro
 releases:
 - release:
     id: 25899
@@ -27,22 +35,29 @@ releases:
     kind_id: 25899
     language: 1
     name: Where in Time is Carmen Sandiego (U) [!]
+    deprecated: 1
   - id: 67987
     kind: 3
     kind_id: 25899
     language: 2
     name: "电视动脑游戏 - 卡门圣地牙哥 (美版) (解谜)-Where in Time is Carmen Sandiego (USA)"
+  - id: 259802
+    kind: 3
+    kind_id: 25899
+    language: 1
+    name: Where in Time Is Carmen Sandiego (USA)
+    source: no-intro
   assets:
   - asset:
       id: 25881
       kind: 3
       kind_id: 25899
       type: 1
-      name: Where in Time is Carmen Sandiego (U) [!].nes
+      name: Where in Time Is Carmen Sandiego (USA).nes
       format: 1
       size: 393232
       blob_id: 71065
-      debug: "Where in Time is Carmen Sandiego (U) [!].zip\n电视动脑游戏 - 卡门圣地牙哥 (美版) (解谜)-Where in Time is Carmen Sandiego (USA) + Where in Time is Carmen Sandiego (U) [!].nes"
+      debug: "Where in Time is Carmen Sandiego (U) [!].zip\n电视动脑游戏 - 卡门圣地牙哥 (美版) (解谜)-Where in Time is Carmen Sandiego (USA) + Where in Time is Carmen Sandiego (U) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=3deb589c2551a4fea31ec5f6a5a6f67c59b19fae"
   - asset:
       id: 137472
       kind: 3
@@ -63,17 +78,26 @@ releases:
     kind_id: 25904
     language: 1
     name: Where in Time is Carmen Sandiego (U)
+    deprecated: 1
+  - id: 259803
+    kind: 3
+    kind_id: 25904
+    language: 1
+    name: Where in Time Is Carmen Sandiego (USA)
+    source: no-intro
   assets:
   - asset:
       id: 25886
       kind: 3
       kind_id: 25904
       type: 1
-      name: Where in Time is Carmen Sandiego (U).nes
+      name: Where in Time Is Carmen Sandiego (USA).nes
       format: 1
       size: 393232
       blob_id: 71070
-      debug: Where in Time is Carmen Sandiego (U).zip
+      debug: |-
+        Where in Time is Carmen Sandiego (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=3deb589c2551a4fea31ec5f6a5a6f67c59b19fae
   - asset:
       id: 138761
       kind: 3

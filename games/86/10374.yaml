@@ -7,12 +7,19 @@ names:
   kind_id: 10374
   language: 1
   name: Dragon Ball Z 5 (Ch)
+  deprecated: 1
 - id: 247707
   kind: 2
   kind_id: 10374
   language: 2
   name: 龙珠Z 5
   source: codex
+- id: 261655
+  kind: 2
+  kind_id: 10374
+  language: 1
+  name: Dragon Ball Z 5
+  source: no-intro
 releases:
 - release:
     id: 10374
@@ -23,17 +30,26 @@ releases:
     kind_id: 10374
     language: 1
     name: Dragon Ball Z 5 (Ch)
+    deprecated: 1
+  - id: 258082
+    kind: 3
+    kind_id: 10374
+    language: 1
+    name: Dragon Ball Z 5 (Taiwan) (En,Zh-Hant) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 10356
       kind: 3
       kind_id: 10374
       type: 1
-      name: Dragon Ball Z 5 (Ch).nes
+      name: Dragon Ball Z 5 (Taiwan) (En,Zh-Hant) (Pirate).nes
       format: 1
       size: 786448
       blob_id: 56395
-      debug: Dragon Ball Z 5 (Ch).nes
+      debug: |-
+        Dragon Ball Z 5 (Ch).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=bfddb66e49c1aa3557f3b0cdfad482db75518169
   - asset:
       id: 138348
       kind: 3

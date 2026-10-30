@@ -43,14 +43,34 @@ releases:
     kind_id: 22375
     language: 1
     name: Super City Tank (Unl)
+    deprecated: 1
+  - id: 259471
+    kind: 3
+    kind_id: 22375
+    language: 1
+    name: Super City Tank (Asia) (En) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 22357
       kind: 3
       kind_id: 22375
       type: 1
-      name: Super City Tank (Unl).nes
+      name: Super City Tank (Asia) (En) (Unl).nes
       format: 1
       size: 65552
       blob_id: 67700
-      debug: Super City Tank (Unl).nes
+      debug: |-
+        Super City Tank (Unl).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=45281c596b2491695dc044874385191d75c8f720
+  - asset:
+      id: 139790
+      kind: 3
+      kind_id: 22375
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Super%20City%20Tank%20%28Asia%29%20%28En%29%20%28Unl%29.png
+      format: 1
+      size: 4442
+      blob_id: 325166
+      debug: libretro-named-titles:rom-asset=22357:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Super%20City%20Tank%20%28Asia%29%20%28En%29%20%28Unl%29.png

@@ -12,11 +12,18 @@ names:
   kind_id: 19436
   language: 1
   name: Q-bert (U) [!]
+  deprecated: 1
 - id: 92804
   kind: 2
   kind_id: 19436
   language: 1
   name: Q-bert
+- id: 262022
+  kind: 2
+  kind_id: 19436
+  language: 1
+  name: Q-bert
+  source: no-intro
 releases:
 - release:
     id: 19436
@@ -32,19 +39,27 @@ releases:
     kind_id: 19436
     language: 1
     name: Q-bert (U) [!]
+    deprecated: 1
+  - id: 259121
+    kind: 3
+    kind_id: 19436
+    language: 1
+    name: Q-bert (USA)
+    source: no-intro
   assets:
   - asset:
       id: 19418
       kind: 3
       kind_id: 19436
       type: 1
-      name: Q 伯特 (美版) (益智)-Q-bert (USA) + Q-bert (U) [!].nes
+      name: Q-bert (USA).nes
       format: 1
       size: 65552
       blob_id: 64935
       debug: |-
         Q 伯特 (美版) (益智)-Q-bert (USA) + Q-bert (U) [!].nes
         Q-bert (U) [!].zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=38444a3b1291b805e1b6d7798687a020a2989d61
   - asset:
       id: 137220
       kind: 3
@@ -65,17 +80,26 @@ releases:
     kind_id: 19446
     language: 1
     name: Q-bert (U)
+    deprecated: 1
+  - id: 259125
+    kind: 3
+    kind_id: 19446
+    language: 1
+    name: Q-bert (USA)
+    source: no-intro
   assets:
   - asset:
       id: 19428
       kind: 3
       kind_id: 19446
       type: 1
-      name: Q-bert (U).nes
+      name: Q-bert (USA).nes
       format: 1
       size: 65552
       blob_id: 64944
-      debug: Q-bert (U).zip
+      debug: |-
+        Q-bert (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=38444a3b1291b805e1b6d7798687a020a2989d61
   - asset:
       id: 138635
       kind: 3

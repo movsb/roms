@@ -12,6 +12,13 @@ names:
   kind_id: 30122
   language: 1
   name: Addams Family, The (E) [!]
+  deprecated: 1
+- id: 263620
+  kind: 2
+  kind_id: 30122
+  language: 1
+  name: Addams Family, The
+  source: no-intro
 releases:
 - release:
     id: 30122
@@ -27,14 +34,34 @@ releases:
     kind_id: 30122
     language: 1
     name: Addams Family, The (E) [!]
+    deprecated: 1
+  - id: 261313
+    kind: 3
+    kind_id: 30122
+    language: 1
+    name: Addams Family, The (Europe) (En,Fr,De)
+    source: no-intro
   assets:
   - asset:
       id: 30104
       kind: 3
       kind_id: 30122
       type: 1
-      name: 阿达一族  (欧版) (动作)-Addams Family, The (Europe) (En,Fr,De) + Addams Family, The (E) [!].nes
+      name: Addams Family, The (Europe) (En,Fr,De).nes
       format: 1
       size: 262160
       blob_id: 74010
-      debug: 阿达一族  (欧版) (动作)-Addams Family, The (Europe) (En,Fr,De) + Addams Family, The (E) [!].nes
+      debug: |-
+        阿达一族  (欧版) (动作)-Addams Family, The (Europe) (En,Fr,De) + Addams Family, The (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=a04f1de29c02a602dd27e6f17ebb1991c5806c6a
+  - asset:
+      id: 140242
+      kind: 3
+      kind_id: 30122
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Addams%20Family%2C%20The%20%28Europe%29%20%28En%2CFr%2CDe%29.png
+      format: 1
+      size: 1749
+      blob_id: 325558
+      debug: libretro-named-titles:rom-asset=30104:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Addams%20Family%2C%20The%20%28Europe%29%20%28En%2CFr%2CDe%29.png

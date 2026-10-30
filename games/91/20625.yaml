@@ -7,12 +7,19 @@ names:
   kind_id: 20625
   language: 1
   name: Sack of Flour V1d by CMU NESdev Team
+  deprecated: 1
 - id: 249432
   kind: 2
   kind_id: 20625
   language: 2
   name: 一袋面粉
   source: codex
+- id: 262086
+  kind: 2
+  kind_id: 20625
+  language: 1
+  name: "Sack of Flour - Heart of Gold"
+  source: no-intro
 releases:
 - release:
     id: 20626
@@ -23,14 +30,23 @@ releases:
     kind_id: 20626
     language: 1
     name: Sack of Flour V1d by CMU NESdev Team (PD)
+    deprecated: 1
+  - id: 259254
+    kind: 3
+    kind_id: 20626
+    language: 1
+    name: "Sack of Flour - Heart of Gold (World) (Aftermarket) (Unl)"
+    source: no-intro
   assets:
   - asset:
       id: 20608
       kind: 3
       kind_id: 20626
       type: 1
-      name: Sack of Flour V1d by CMU NESdev Team (PD).nes
+      name: "Sack of Flour - Heart of Gold (World) (Aftermarket) (Unl).nes"
       format: 1
       size: 163856
       blob_id: 66062
-      debug: Sack of Flour V1d by CMU NESdev Team (PD).nes
+      debug: |-
+        Sack of Flour V1d by CMU NESdev Team (PD).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=491f1e1561c7a794b78430eba6d79bdf6a477c25

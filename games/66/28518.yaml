@@ -12,6 +12,13 @@ names:
   kind_id: 28518
   language: 1
   name: Shadowgate (Sw) [!]
+  deprecated: 1
+- id: 263047
+  kind: 2
+  kind_id: 28518
+  language: 1
+  name: Shadowgate
+  source: no-intro
 releases:
 - release:
     id: 28518
@@ -27,17 +34,26 @@ releases:
     kind_id: 28518
     language: 1
     name: Shadowgate (Sw) [!]
+    deprecated: 1
+  - id: 260681
+    kind: 3
+    kind_id: 28518
+    language: 1
+    name: Shadowgate (Sweden)
+    source: no-intro
   assets:
   - asset:
       id: 28500
       kind: 3
       kind_id: 28518
       type: 1
-      name: 暗影之门 (瑞典版) (解谜)-Shadowgate (Sweden) + Shadowgate (Sw) [!].nes
+      name: Shadowgate (Sweden).nes
       format: 1
       size: 262160
       blob_id: 73000
-      debug: 暗影之门 (瑞典版) (解谜)-Shadowgate (Sweden) + Shadowgate (Sw) [!].nes
+      debug: |-
+        暗影之门 (瑞典版) (解谜)-Shadowgate (Sweden) + Shadowgate (Sw) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=757ab53fbff0adf1c2c2e05a35ab861365021057
   - asset:
       id: 137785
       kind: 3

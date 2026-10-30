@@ -12,6 +12,13 @@ names:
   kind_id: 29693
   language: 1
   name: Western Kids (J)
+  deprecated: 1
+- id: 263466
+  kind: 2
+  kind_id: 29693
+  language: 1
+  name: Western Kids
+  source: no-intro
 releases:
 - release:
     id: 29693
@@ -27,17 +34,26 @@ releases:
     kind_id: 29693
     language: 1
     name: Western Kids (J)
+    deprecated: 1
+  - id: 261149
+    kind: 3
+    kind_id: 29693
+    language: 1
+    name: Western Kids (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 29675
       kind: 3
       kind_id: 29693
       type: 1
-      name: 西部小子 (日版) (动作)-Western Kids (Japan) + Western Kids (J).nes
+      name: Western Kids (Japan).nes
       format: 1
       size: 524304
       blob_id: 73738
-      debug: 西部小子 (日版) (动作)-Western Kids (Japan) + Western Kids (J).nes
+      debug: |-
+        西部小子 (日版) (动作)-Western Kids (Japan) + Western Kids (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=11a0605507a6191db0d52eaa567add08fb8374e6
   - asset:
       id: 139173
       kind: 3

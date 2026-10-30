@@ -17,6 +17,13 @@ names:
   kind_id: 27236
   language: 1
   name: Takeshi no Chousenjou (J) [!]
+  deprecated: 1
+- id: 262582
+  kind: 2
+  kind_id: 27236
+  language: 1
+  name: Takeshi no Chousenjou
+  source: no-intro
 releases:
 - release:
     id: 27236
@@ -37,16 +44,35 @@ releases:
     kind_id: 27236
     language: 1
     name: Takeshi no Chousenjou (J) [!]
+    deprecated: 1
+  - id: 260170
+    kind: 3
+    kind_id: 27236
+    language: 1
+    name: Takeshi no Chousenjou (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 27218
       kind: 3
       kind_id: 27236
       type: 1
-      name: 北野武之挑战书.nes
+      name: Takeshi no Chousenjou (Japan).nes
       format: 1
       size: 131088
       blob_id: 72152
       debug: |-
         北野武之挑战书.zip
         北野武之挑战状 (日版) (动作)-Takeshi no Chousenjou (Japan) + Takeshi no Chousenjou (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=66132a311799a9b98661ebab070d290bb881cb78
+  - asset:
+      id: 140027
+      kind: 3
+      kind_id: 27236
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Takeshi%20no%20Chousenjou%20%28Japan%29.png
+      format: 1
+      size: 15548
+      blob_id: 325372
+      debug: libretro-named-titles:rom-asset=27218:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Takeshi%20no%20Chousenjou%20%28Japan%29.png

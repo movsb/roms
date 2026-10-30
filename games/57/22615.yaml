@@ -68,24 +68,32 @@ releases:
     kind_id: 22617
     language: 1
     name: Super Mario Bros 2 (Lost Levels) (Unl)
+    deprecated: 1
   - id: 70187
     kind: 3
     kind_id: 22617
     language: 2
     name: 超级玛丽（Lost Levels）
+  - id: 259501
+    kind: 3
+    kind_id: 22617
+    language: 1
+    name: Super Mario Bros. II+ (Asia) (En) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 22599
       kind: 3
       kind_id: 22617
       type: 1
-      name: Super Mario Bros 2 (Lost Levels) (Unl).nes
+      name: Super Mario Bros. II+ (Asia) (En) (Pirate).nes
       format: 1
       size: 73744
       blob_id: 67932
       debug: |-
         Super Mario Bros 2 (Lost Levels) (Unl).zip
         超级玛丽（Lost Levels） + Super Mario Bros 2 (Lost Levels) (Unl).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=d2be67170dded1e1108eed2d4d8ca9d9cee9f9e2
 - release:
     id: 22619
     game_id: 22615
@@ -95,17 +103,37 @@ releases:
     kind_id: 22619
     language: 1
     name: Super Mario Bros 2 (U) (PRG 1)
+    deprecated: 1
+  - id: 259502
+    kind: 3
+    kind_id: 22619
+    language: 1
+    name: Super Mario Bros. 2 (USA) (Rev 1)
+    source: no-intro
   assets:
   - asset:
       id: 22601
       kind: 3
       kind_id: 22619
       type: 1
-      name: Super Mario Bros 2 (U) (PRG 1).nes
+      name: Super Mario Bros. 2 (USA) (Rev 1).nes
       format: 1
       size: 262160
       blob_id: 67934
-      debug: Super Mario Bros 2 (U) (PRG 1).zip
+      debug: |-
+        Super Mario Bros 2 (U) (PRG 1).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=ff5bcacf7417b4de1c49f9e54c2905d91391455b
+  - asset:
+      id: 139806
+      kind: 3
+      kind_id: 22619
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Super%20Mario%20Bros.%202%20%28USA%29%20%28Rev%201%29.png
+      format: 1
+      size: 2273
+      blob_id: 325181
+      debug: libretro-named-titles:rom-asset=22601:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Super%20Mario%20Bros.%202%20%28USA%29%20%28Rev%201%29.png
 - release:
     id: 29818
     game_id: 22615
@@ -120,14 +148,23 @@ releases:
     kind_id: 29818
     language: 1
     name: Super Mario Bros. 2 (J) (Kaiser) [p1]
+    deprecated: 1
+  - id: 261203
+    kind: 3
+    kind_id: 29818
+    language: 1
+    name: 1988 Jinpai Mali (Asia) (En) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 29800
       kind: 3
       kind_id: 29818
       type: 1
-      name: 超级玛丽（加强版） + Super Mario Bros. 2 (J) (Kaiser) [p1].nes
+      name: 1988 Jinpai Mali (Asia) (En) (Pirate).nes
       format: 1
       size: 131088
       blob_id: 73817
-      debug: 超级玛丽（加强版） + Super Mario Bros. 2 (J) (Kaiser) [p1].nes
+      debug: |-
+        超级玛丽（加强版） + Super Mario Bros. 2 (J) (Kaiser) [p1].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=dc8ddb78cbb575623b701954df951f05e81388ea

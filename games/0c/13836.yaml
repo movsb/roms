@@ -27,28 +27,37 @@ releases:
     kind_id: 13836
     language: 1
     name: JURASSIC
+    deprecated: 1
   - id: 31238
     kind: 3
     kind_id: 13836
     language: 1
     name: Jurassic Park (U) [!]
+    deprecated: 1
   - id: 31268
     kind: 3
     kind_id: 13836
     language: 1
     name: Jurassic Park (U)
+    deprecated: 1
   - id: 60608
     kind: 3
     kind_id: 13836
     language: 2
     name: 侏罗纪公园
+  - id: 258486
+    kind: 3
+    kind_id: 13836
+    language: 1
+    name: Jurassic Park (USA)
+    source: no-intro
   assets:
   - asset:
       id: 13818
       kind: 3
       kind_id: 13836
       type: 1
-      name: JURASSIC.NES
+      name: Jurassic Park (USA).nes
       format: 1
       size: 262160
       blob_id: 59656
@@ -59,6 +68,18 @@ releases:
         侏罗纪公园.nes
         重复的/侏儸纪公园 (美版) (动作)-Jurassic Park (USA) + Jurassic Park (U) [!].nes
         侏罗纪公园.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=57f755c6a10c6681761070b0350da72432a534e9
+  - asset:
+      id: 139468
+      kind: 3
+      kind_id: 13836
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Jurassic%20Park%20%28USA%29.png
+      format: 1
+      size: 3129
+      blob_id: 324899
+      debug: libretro-named-titles:rom-asset=13818:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Jurassic%20Park%20%28USA%29.png
 - release:
     id: 14167
     game_id: 13836
@@ -68,17 +89,26 @@ releases:
     kind_id: 14167
     language: 1
     name: Jurassic Park (E) [!]
+    deprecated: 1
+  - id: 258531
+    kind: 3
+    kind_id: 14167
+    language: 1
+    name: Jurassic Park (Europe) (En,Fr,De,Es)
+    source: no-intro
   assets:
   - asset:
       id: 14149
       kind: 3
       kind_id: 14167
       type: 1
-      name: Jurassic Park (E) [!].nes
+      name: Jurassic Park (Europe) (En,Fr,De,Es).nes
       format: 1
       size: 262160
       blob_id: 59959
-      debug: Jurassic Park (E) [!].nes
+      debug: |-
+        Jurassic Park (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=ee65317597d28b1b1207c6be4df18ec73da9fd1c
   - asset:
       id: 137010
       kind: 3
@@ -179,17 +209,26 @@ releases:
     kind_id: 14175
     language: 1
     name: Jurassic Park (U) [p1]
+    deprecated: 1
+  - id: 258532
+    kind: 3
+    kind_id: 14175
+    language: 1
+    name: Jurassic Park (Asia) (En) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 14157
       kind: 3
       kind_id: 14175
       type: 1
-      name: Jurassic Park (U) [p1].nes
+      name: Jurassic Park (Asia) (En) (Pirate).nes
       format: 1
       size: 262160
       blob_id: 59966
-      debug: Jurassic Park (U) [p1].nes
+      debug: |-
+        Jurassic Park (U) [p1].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=43613ea9c7b1bc65dd2d90f257bb17bd7356fa32
 - release:
     id: 14176
     game_id: 13836

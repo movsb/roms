@@ -7,6 +7,7 @@ names:
   kind_id: 7624
   language: 1
   name: CONAN
+  deprecated: 1
 - id: 67853
   kind: 2
   kind_id: 7624
@@ -17,11 +18,19 @@ names:
   kind_id: 7624
   language: 1
   name: "Conan - The Mysteries of Time (U) [!]"
+  deprecated: 1
 - id: 91569
   kind: 2
   kind_id: 7624
   language: 1
   name: "Conan - The Mysteries of Time"
+  deprecated: 1
+- id: 261578
+  kind: 2
+  kind_id: 7624
+  language: 1
+  name: Conan
+  source: no-intro
 releases:
 - release:
     id: 7624
@@ -32,16 +41,19 @@ releases:
     kind_id: 7624
     language: 1
     name: CONAN
+    deprecated: 1
   - id: 19106
     kind: 3
     kind_id: 7624
     language: 1
     name: Conan (U)
+    deprecated: 1
   - id: 19108
     kind: 3
     kind_id: 7624
     language: 1
     name: "Conan - The Mysteries of Time (U) [!p]"
+    deprecated: 1
   - id: 67855
     kind: 3
     kind_id: 7624
@@ -52,17 +64,24 @@ releases:
     kind_id: 7624
     language: 1
     name: "Conan - The Mysteries of Time (U) [!]"
+    deprecated: 1
+  - id: 257837
+    kind: 3
+    kind_id: 7624
+    language: 1
+    name: Conan (USA)
+    source: no-intro
   assets:
   - asset:
       id: 7606
       kind: 3
       kind_id: 7624
       type: 1
-      name: CONAN.NES
+      name: Conan (USA).nes
       format: 1
       size: 131088
       blob_id: 53786
-      debug: "CONAN.zip\nConan (U).zip\nConan - The Mysteries of Time (U) [!p].zip\n王者之剑 (美版) (动作)-Conan (USA) + Conan - The Mysteries of Time (U) [!].nes"
+      debug: "CONAN.zip\nConan (U).zip\nConan - The Mysteries of Time (U) [!p].zip\n王者之剑 (美版) (动作)-Conan (USA) + Conan - The Mysteries of Time (U) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=a596137b2300a326dd730efc7acd46a8c69f1bfe"
   - asset:
       id: 138249
       kind: 3

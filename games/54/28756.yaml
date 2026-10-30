@@ -12,6 +12,13 @@ names:
   kind_id: 28756
   language: 1
   name: Han Liu Bang (NJ013) (Ch) [a1]
+  deprecated: 1
+- id: 263146
+  kind: 2
+  kind_id: 28756
+  language: 1
+  name: Han Liubang
+  source: no-intro
 releases:
 - release:
     id: 28756
@@ -27,14 +34,34 @@ releases:
     kind_id: 28756
     language: 1
     name: Han Liu Bang (NJ013) (Ch) [a1]
+    deprecated: 1
+  - id: 260792
+    kind: 3
+    kind_id: 28756
+    language: 1
+    name: Han Liubang (China) (Aftermarket) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 28738
       kind: 3
       kind_id: 28756
       type: 1
-      name: 汉刘邦 + Han Liu Bang (NJ013) (Ch) [a1].nes
+      name: Han Liubang (China) (Aftermarket) (Unl).nes
       format: 1
       size: 1048592
       blob_id: 73159
-      debug: 汉刘邦 + Han Liu Bang (NJ013) (Ch) [a1].nes
+      debug: |-
+        汉刘邦 + Han Liu Bang (NJ013) (Ch) [a1].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=4eea2f59b877df252978c0343b3c6f0f9d06aa47
+  - asset:
+      id: 140154
+      kind: 3
+      kind_id: 28756
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Han%20Liubang%20%28China%29%20%28Aftermarket%29%20%28Unl%29.png
+      format: 1
+      size: 8833
+      blob_id: 325481
+      debug: libretro-named-titles:rom-asset=28738:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Han%20Liubang%20%28China%29%20%28Aftermarket%29%20%28Unl%29.png

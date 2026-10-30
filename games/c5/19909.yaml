@@ -28,17 +28,35 @@ releases:
     kind_id: 10204
     language: 1
     name: "Downtown - Nekketsu Monogatari (J) (VC)"
+    deprecated: 1
+  - id: 258070
+    kind: 3
+    kind_id: 10204
+    language: 1
+    name: "Downtown - Nekketsu Monogatari (Japan) (Virtual Console)"
+    source: no-intro
   assets:
   - asset:
       id: 10186
       kind: 3
       kind_id: 10204
       type: 1
-      name: "Downtown - Nekketsu Monogatari (J) (VC).nes"
+      name: "Downtown - Nekketsu Monogatari (Japan) (Virtual Console).nes"
       format: 1
       size: 262160
       blob_id: 56236
-      debug: "Downtown - Nekketsu Monogatari (J) (VC).nes"
+      debug: "Downtown - Nekketsu Monogatari (J) (VC).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=412c0045b4ca53cb6944e6b814b4939b010ef467"
+  - asset:
+      id: 139377
+      kind: 3
+      kind_id: 10204
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Downtown%20-%20Nekketsu%20Monogatari%20%28Japan%29%20%28Virtual%20Console%29.png
+      format: 1
+      size: 3512
+      blob_id: 324816
+      debug: libretro-named-titles:rom-asset=10186:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Downtown%20-%20Nekketsu%20Monogatari%20%28Japan%29%20%28Virtual%20Console%29.png
 - release:
     id: 10205
     game_id: 19909
@@ -133,23 +151,31 @@ releases:
     kind_id: 19909
     language: 1
     name: River City Ransom (U) [!]
+    deprecated: 1
   - id: 44346
     kind: 3
     kind_id: 19909
     language: 1
     name: River City Ransom (U)
+    deprecated: 1
   - id: 67443
     kind: 3
     kind_id: 19909
     language: 2
     name: 热血物语 (美版) (动作)-River City Ransom (USA)
+  - id: 259175
+    kind: 3
+    kind_id: 19909
+    language: 1
+    name: River City Ransom (USA)
+    source: no-intro
   assets:
   - asset:
       id: 19891
       kind: 3
       kind_id: 19909
       type: 1
-      name: River City Ransom (U) [!].nes
+      name: River City Ransom (USA).nes
       format: 1
       size: 262160
       blob_id: 65372
@@ -157,6 +183,7 @@ releases:
         River City Ransom (U) [!].zip
         River City Ransom (U).zip
         热血物语 (美版) (动作)-River City Ransom (USA) + River City Ransom (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=ca794e6a2b0ecf69b2be1753d379cce6434c49d7
   - asset:
       id: 137245
       kind: 3
@@ -342,17 +369,26 @@ releases:
     kind_id: 29006
     language: 1
     name: Street Gangs (E) [!]
+    deprecated: 1
+  - id: 260881
+    kind: 3
+    kind_id: 29006
+    language: 1
+    name: Street Gangs (Europe)
+    source: no-intro
   assets:
   - asset:
       id: 28988
       kind: 3
       kind_id: 29006
       type: 1
-      name: 热血物语 (欧版) (动作)-Street Gangs (Europe) + Street Gangs (E) [!].nes
+      name: Street Gangs (Europe).nes
       format: 1
       size: 262160
       blob_id: 73313
-      debug: 热血物语 (欧版) (动作)-Street Gangs (Europe) + Street Gangs (E) [!].nes
+      debug: |-
+        热血物语 (欧版) (动作)-Street Gangs (Europe) + Street Gangs (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=0c9f758585c9d552c4c7c83b888c941e7b0baa0a
   - asset:
       id: 139083
       kind: 3
@@ -378,17 +414,24 @@ releases:
     kind_id: 29008
     language: 1
     name: "Downtown - Nekketsu Monogatari (J)"
+    deprecated: 1
+  - id: 260882
+    kind: 3
+    kind_id: 29008
+    language: 1
+    name: "Downtown - Nekketsu Monogatari (Japan)"
+    source: no-intro
   assets:
   - asset:
       id: 28990
       kind: 3
       kind_id: 29008
       type: 1
-      name: "热血物语 + Downtown - Nekketsu Monogatari (J).nes"
+      name: "Downtown - Nekketsu Monogatari (Japan).nes"
       format: 1
       size: 262160
       blob_id: 73314
-      debug: "热血物语 + Downtown - Nekketsu Monogatari (J).nes"
+      debug: "热血物语 + Downtown - Nekketsu Monogatari (J).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=1da6db935bfccf9876bdb85667e7d814bce85842"
   - asset:
       id: 139084
       kind: 3

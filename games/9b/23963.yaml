@@ -12,11 +12,18 @@ names:
   kind_id: 23963
   language: 1
   name: Tecmo NBA Basketball (U) (REV0) [!]
+  deprecated: 1
 - id: 93347
   kind: 2
   kind_id: 23963
   language: 1
   name: Tecmo NBA Basketball
+- id: 262222
+  kind: 2
+  kind_id: 23963
+  language: 1
+  name: Tecmo NBA Basketball
+  source: no-intro
 releases:
 - release:
     id: 23963
@@ -27,6 +34,7 @@ releases:
     kind_id: 23963
     language: 1
     name: Tecmo NBA Basketball (U) (PRG0) [!]
+    deprecated: 1
   - id: 67641
     kind: 3
     kind_id: 23963
@@ -37,19 +45,27 @@ releases:
     kind_id: 23963
     language: 1
     name: Tecmo NBA Basketball (U) (REV0) [!]
+    deprecated: 1
+  - id: 259601
+    kind: 3
+    kind_id: 23963
+    language: 1
+    name: Tecmo NBA Basketball (USA) (NES-BK)
+    source: no-intro
   assets:
   - asset:
       id: 23945
       kind: 3
       kind_id: 23963
       type: 1
-      name: Tecmo NBA Basketball (U) (PRG0) [!].nes
+      name: Tecmo NBA Basketball (USA) (NES-BK).nes
       format: 1
       size: 393232
       blob_id: 69233
       debug: |-
         Tecmo NBA Basketball (U) (PRG0) [!].zip
         特库摩美国职篮 (美版) (运动)-Tecmo NBA Basketball (USA) + Tecmo NBA Basketball (U) (REV0) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=c87b3e1f17670c028ce60af3bbc7d688dc0f9df3
   - asset:
       id: 137391
       kind: 3
@@ -70,17 +86,26 @@ releases:
     kind_id: 23968
     language: 1
     name: Tecmo NBA Basketball (U)
+    deprecated: 1
+  - id: 259602
+    kind: 3
+    kind_id: 23968
+    language: 1
+    name: Tecmo NBA Basketball (USA) (NES-BK)
+    source: no-intro
   assets:
   - asset:
       id: 23950
       kind: 3
       kind_id: 23968
       type: 1
-      name: Tecmo NBA Basketball (U).nes
+      name: Tecmo NBA Basketball (USA) (NES-BK).nes
       format: 1
       size: 393232
       blob_id: 69238
-      debug: Tecmo NBA Basketball (U).zip
+      debug: |-
+        Tecmo NBA Basketball (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=c87b3e1f17670c028ce60af3bbc7d688dc0f9df3
   - asset:
       id: 138724
       kind: 3

@@ -12,6 +12,13 @@ names:
   kind_id: 27625
   language: 1
   name: Galaga (E) [!]
+  deprecated: 1
+- id: 262718
+  kind: 2
+  kind_id: 27625
+  language: 1
+  name: Galaga
+  source: no-intro
 releases:
 - release:
     id: 27625
@@ -27,17 +34,26 @@ releases:
     kind_id: 27625
     language: 1
     name: Galaga (E) [!]
+    deprecated: 1
+  - id: 260322
+    kind: 3
+    kind_id: 27625
+    language: 1
+    name: Galaga (Europe)
+    source: no-intro
   assets:
   - asset:
       id: 27607
       kind: 3
       kind_id: 27625
       type: 1
-      name: 大蜜蜂 (欧版) (射击)-Galaga (Europe) + Galaga (E) [!].nes
+      name: Galaga (Europe).nes
       format: 1
       size: 40976
       blob_id: 72406
-      debug: 大蜜蜂 (欧版) (射击)-Galaga (Europe) + Galaga (E) [!].nes
+      debug: |-
+        大蜜蜂 (欧版) (射击)-Galaga (Europe) + Galaga (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=6a21da874662c9b0f9c8f81241d5fbc89f3e2323
   - asset:
       id: 137643
       kind: 3

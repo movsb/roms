@@ -12,6 +12,13 @@ names:
   kind_id: 26903
   language: 1
   name: Mahjong (J) [!]
+  deprecated: 1
+- id: 262465
+  kind: 2
+  kind_id: 26903
+  language: 1
+  name: Mahjong
+  source: no-intro
 releases:
 - release:
     id: 26903
@@ -27,17 +34,26 @@ releases:
     kind_id: 26903
     language: 1
     name: Mahjong (J) [!]
+    deprecated: 1
+  - id: 260043
+    kind: 3
+    kind_id: 26903
+    language: 1
+    name: Mahjong (Japan) (Rev 2)
+    source: no-intro
   assets:
   - asset:
       id: 26885
       kind: 3
       kind_id: 26903
       type: 1
-      name: 任天堂麻雀 (日版)(Rev B) (桌面平台)-Mahjong (Japan) (Rev B) + Mahjong (J) [!].nes
+      name: Mahjong (Japan) (Rev 2).nes
       format: 1
       size: 24592
       blob_id: 71930
-      debug: 任天堂麻雀 (日版)(Rev B) (桌面平台)-Mahjong (Japan) (Rev B) + Mahjong (J) [!].nes
+      debug: |-
+        任天堂麻雀 (日版)(Rev B) (桌面平台)-Mahjong (Japan) (Rev B) + Mahjong (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=1128ed677399f969e25d9453320b85ef3d3ba35a
   - asset:
       id: 137551
       kind: 3

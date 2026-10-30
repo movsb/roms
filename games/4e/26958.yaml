@@ -12,6 +12,13 @@ names:
   kind_id: 26958
   language: 1
   name: Defender of the Crown (E) [!]
+  deprecated: 1
+- id: 262491
+  kind: 2
+  kind_id: 26958
+  language: 1
+  name: Defender of the Crown
+  source: no-intro
 releases:
 - release:
     id: 26958
@@ -27,17 +34,26 @@ releases:
     kind_id: 26958
     language: 1
     name: Defender of the Crown (E) [!]
+    deprecated: 1
+  - id: 260070
+    kind: 3
+    kind_id: 26958
+    language: 1
+    name: Defender of the Crown (Europe)
+    source: no-intro
   assets:
   - asset:
       id: 26940
       kind: 3
       kind_id: 26958
       type: 1
-      name: 保皇骑士 (欧版) (策略)-Defender of the Crown (Europe) + Defender of the Crown (E) [!].nes
+      name: Defender of the Crown (Europe).nes
       format: 1
       size: 262160
       blob_id: 71967
-      debug: 保皇骑士 (欧版) (策略)-Defender of the Crown (Europe) + Defender of the Crown (E) [!].nes
+      debug: |-
+        保皇骑士 (欧版) (策略)-Defender of the Crown (Europe) + Defender of the Crown (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=3aac8e5472a9d4c26ca50080d29d9ef937bddc0f
   - asset:
       id: 137560
       kind: 3

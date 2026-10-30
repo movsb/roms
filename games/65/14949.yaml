@@ -7,6 +7,7 @@ names:
   kind_id: 14949
   language: 1
   name: laser_invasion
+  deprecated: 1
 - id: 65395
   kind: 2
   kind_id: 14949
@@ -17,6 +18,7 @@ names:
   kind_id: 14949
   language: 1
   name: Laser Invasion (U) [!]
+  deprecated: 1
 - id: 67175
   kind: 2
   kind_id: 14949
@@ -27,6 +29,12 @@ names:
   kind_id: 14949
   language: 1
   name: Laser Invasion
+- id: 261846
+  kind: 2
+  kind_id: 14949
+  language: 1
+  name: Laser Invasion
+  source: no-intro
 releases:
 - release:
     id: 14949
@@ -37,16 +45,19 @@ releases:
     kind_id: 14949
     language: 1
     name: Laser Invasion (U) [!]
+    deprecated: 1
   - id: 33156
     kind: 3
     kind_id: 14949
     language: 1
     name: Laser Invasion (U)
+    deprecated: 1
   - id: 59614
     kind: 3
     kind_id: 14949
     language: 1
     name: laser_invasion
+    deprecated: 1
   - id: 65397
     kind: 3
     kind_id: 14949
@@ -57,13 +68,19 @@ releases:
     kind_id: 14949
     language: 2
     name: 激光入侵
+  - id: 258615
+    kind: 3
+    kind_id: 14949
+    language: 1
+    name: Laser Invasion (USA)
+    source: no-intro
   assets:
   - asset:
       id: 14931
       kind: 3
       kind_id: 14949
       type: 1
-      name: Laser Invasion (U) [!].nes
+      name: Laser Invasion (USA).nes
       format: 1
       size: 262160
       blob_id: 60680
@@ -73,6 +90,7 @@ releases:
         laser_invasion.zip
         救难任务 (美版) (模拟射击)-Laser Invasion (USA) + Laser Invasion (U) [!].nes
         激光入侵.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=fff7075db4ed32fd75ecb7bc714fef244940e182
   - asset:
       id: 137043
       kind: 3

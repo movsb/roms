@@ -27,17 +27,37 @@ releases:
     kind_id: 13558
     language: 1
     name: Ice Hockey (E) (VC)
+    deprecated: 1
+  - id: 258445
+    kind: 3
+    kind_id: 13558
+    language: 1
+    name: Ice Hockey (Europe) (Virtual Console)
+    source: no-intro
   assets:
   - asset:
       id: 13540
       kind: 3
       kind_id: 13558
       type: 1
-      name: Ice Hockey (E) (VC).nes
+      name: Ice Hockey (Europe) (Virtual Console).nes
       format: 1
       size: 40976
       blob_id: 59399
-      debug: Ice Hockey (E) (VC).nes
+      debug: |-
+        Ice Hockey (E) (VC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=ff10ec5aafc3778a3fee54cdeebbb6c9d0a21eeb
+  - asset:
+      id: 139458
+      kind: 3
+      kind_id: 13558
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Ice%20Hockey%20%28Europe%29%20%28Virtual%20Console%29.png
+      format: 1
+      size: 2656
+      blob_id: 324889
+      debug: libretro-named-titles:rom-asset=13540:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Ice%20Hockey%20%28Europe%29%20%28Virtual%20Console%29.png
 - release:
     id: 13559
     game_id: 13557
@@ -87,23 +107,31 @@ releases:
     kind_id: 13562
     language: 1
     name: Ice Hockey (U) [!]
+    deprecated: 1
   - id: 29870
     kind: 3
     kind_id: 13562
     language: 1
     name: Ice Hockey (U)
+    deprecated: 1
   - id: 61111
     kind: 3
     kind_id: 13562
     language: 2
     name: 冰上曲棍球 (美版) (运动)-Ice Hockey (USA)
+  - id: 258446
+    kind: 3
+    kind_id: 13562
+    language: 1
+    name: Ice Hockey (USA)
+    source: no-intro
   assets:
   - asset:
       id: 13544
       kind: 3
       kind_id: 13562
       type: 1
-      name: Ice Hockey (U) [!].nes
+      name: Ice Hockey (USA).nes
       format: 1
       size: 40976
       blob_id: 59403
@@ -111,6 +139,7 @@ releases:
         Ice Hockey (U) [!].zip
         Ice Hockey (U).zip
         冰上曲棍球 (美版) (运动)-Ice Hockey (USA) + Ice Hockey (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=40262a15ee764f676e752c90626a2f61da370a1a
   - asset:
       id: 136974
       kind: 3

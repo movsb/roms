@@ -12,6 +12,13 @@ names:
   kind_id: 28807
   language: 1
   name: Prince of Persia (S) [!]
+  deprecated: 1
+- id: 263165
+  kind: 2
+  kind_id: 28807
+  language: 1
+  name: Prince of Persia
+  source: no-intro
 releases:
 - release:
     id: 28807
@@ -27,17 +34,26 @@ releases:
     kind_id: 28807
     language: 1
     name: Prince of Persia (S) [!]
+    deprecated: 1
+  - id: 260812
+    kind: 3
+    kind_id: 28807
+    language: 1
+    name: Prince of Persia (Spain)
+    source: no-intro
   assets:
   - asset:
       id: 28789
       kind: 3
       kind_id: 28807
       type: 1
-      name: 波斯王子 (西班牙版) (动作)-Prince of Persia (Spain) + Prince of Persia (S) [!].nes
+      name: Prince of Persia (Spain).nes
       format: 1
       size: 131088
       blob_id: 73190
-      debug: 波斯王子 (西班牙版) (动作)-Prince of Persia (Spain) + Prince of Persia (S) [!].nes
+      debug: |-
+        波斯王子 (西班牙版) (动作)-Prince of Persia (Spain) + Prince of Persia (S) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=3f097632e2387fbc26d2f808438ea544cebe3d95
   - asset:
       id: 137831
       kind: 3

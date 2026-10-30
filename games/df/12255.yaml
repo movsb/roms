@@ -7,12 +7,19 @@ names:
   kind_id: 12255
   language: 1
   name: Geminim v0990 by Sivak (PD)
+  deprecated: 1
 - id: 253005
   kind: 2
   kind_id: 12255
   language: 2
   name: 双子座
   source: codex
+- id: 261734
+  kind: 2
+  kind_id: 12255
+  language: 1
+  name: Geminim
+  source: no-intro
 releases:
 - release:
     id: 12255
@@ -23,17 +30,26 @@ releases:
     kind_id: 12255
     language: 1
     name: Geminim v0990 by Sivak (PD)
+    deprecated: 1
+  - id: 258305
+    kind: 3
+    kind_id: 12255
+    language: 1
+    name: Geminim (World) (Demo 3) (Aftermarket) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 12237
       kind: 3
       kind_id: 12255
       type: 1
-      name: Geminim v0990 by Sivak (PD).nes
+      name: Geminim (World) (Demo 3) (Aftermarket) (Unl).nes
       format: 1
       size: 40976
       blob_id: 58165
-      debug: Geminim v0990 by Sivak (PD).nes
+      debug: |-
+        Geminim v0990 by Sivak (PD).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=ecc5d14bdd68ca1b99c9ad0b991a9e075867c8b3
   - asset:
       id: 138424
       kind: 3

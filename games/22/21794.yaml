@@ -12,6 +12,12 @@ names:
   kind_id: 21794
   language: 2
   name: 间谍猎人
+- id: 262140
+  kind: 2
+  kind_id: 21794
+  language: 1
+  name: Spy Hunter
+  source: no-intro
 releases:
 - release:
     id: 21794
@@ -22,24 +28,32 @@ releases:
     kind_id: 21794
     language: 1
     name: Spy Hunter (U) [!]
+    deprecated: 1
   - id: 71149
     kind: 3
     kind_id: 21794
     language: 2
     name: 间谍猎人 (美版) (动作)-Spy Hunter (USA)
+  - id: 259391
+    kind: 3
+    kind_id: 21794
+    language: 1
+    name: Spy Hunter (USA)
+    source: no-intro
   assets:
   - asset:
       id: 21776
       kind: 3
       kind_id: 21794
       type: 1
-      name: Spy Hunter (U) [!].nes
+      name: Spy Hunter (USA).nes
       format: 1
       size: 65552
       blob_id: 67159
       debug: |-
         Spy Hunter (U) [!].zip
         间谍猎人 (美版) (动作)-Spy Hunter (USA) + Spy Hunter (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=ad0f560ca3b41d8ef467a007e879d84dd0ccc045
   - asset:
       id: 137328
       kind: 3
@@ -60,17 +74,26 @@ releases:
     kind_id: 21800
     language: 1
     name: Spy Hunter (U)
+    deprecated: 1
+  - id: 259392
+    kind: 3
+    kind_id: 21800
+    language: 1
+    name: Spy Hunter (USA)
+    source: no-intro
   assets:
   - asset:
       id: 21782
       kind: 3
       kind_id: 21800
       type: 1
-      name: Spy Hunter (U).nes
+      name: Spy Hunter (USA).nes
       format: 1
       size: 65552
       blob_id: 67165
-      debug: Spy Hunter (U).zip
+      debug: |-
+        Spy Hunter (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=ad0f560ca3b41d8ef467a007e879d84dd0ccc045
   - asset:
       id: 138697
       kind: 3

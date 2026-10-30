@@ -7,6 +7,7 @@ names:
   kind_id: 26704
   language: 1
   name: San Guo Zhong Lie Zhuan (Ch) (Wxn)
+  deprecated: 1
 - id: 59845
   kind: 2
   kind_id: 26704
@@ -18,11 +19,18 @@ names:
   kind_id: 26704
   language: 1
   name: San Guo Zhong Lie Zhuan (Ch)
+  deprecated: 1
 - id: 257272
   kind: 2
   kind_id: 26704
   language: 2
   name: 三国忠烈传（外星科技）
+- id: 262090
+  kind: 2
+  kind_id: 26704
+  language: 1
+  name: "Sanguo Zhonglie Zhuan - The Story of Three Kingdoms"
+  source: no-intro
 releases:
 - release:
     id: 20720
@@ -33,17 +41,37 @@ releases:
     kind_id: 20720
     language: 1
     name: San Guo Zhong Lie Zhuan (Ch) (Wxn)
+    deprecated: 1
+  - id: 259265
+    kind: 3
+    kind_id: 20720
+    language: 1
+    name: "Sanguo Zhonglie Zhuan - The Story of Three Kingdoms (China) (FS005) (Unl)"
+    source: no-intro
   assets:
   - asset:
       id: 20702
       kind: 3
       kind_id: 20720
       type: 1
-      name: San Guo Zhong Lie Zhuan (Ch) (Wxn).nes
+      name: "Sanguo Zhonglie Zhuan - The Story of Three Kingdoms (China) (FS005) (Unl).nes"
       format: 1
       size: 524304
       blob_id: 66151
-      debug: San Guo Zhong Lie Zhuan (Ch) (Wxn).nes
+      debug: |-
+        San Guo Zhong Lie Zhuan (Ch) (Wxn).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=ca686333a9a0bd22ccef0d74c38bc9d3a5c4f4d5
+  - asset:
+      id: 139729
+      kind: 3
+      kind_id: 20720
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Sanguo%20Zhonglie%20Zhuan%20-%20The%20Story%20of%20Three%20Kingdoms%20%28China%29%20%28FS005%29%20%28Unl%29.png
+      format: 1
+      size: 4616
+      blob_id: 325112
+      debug: libretro-named-titles:rom-asset=20702:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Sanguo%20Zhonglie%20Zhuan%20-%20The%20Story%20of%20Three%20Kingdoms%20%28China%29%20%28FS005%29%20%28Unl%29.png
 - release:
     id: 26704
     game_id: 26704
@@ -58,14 +86,34 @@ releases:
     kind_id: 26704
     language: 1
     name: San Guo Zhong Lie Zhuan (Ch)
+    deprecated: 1
+  - id: 259947
+    kind: 3
+    kind_id: 26704
+    language: 1
+    name: "Sanguo Zhonglie Zhuan - The Story of Three Kingdoms (China) (FS305) (Unl)"
+    source: no-intro
   assets:
   - asset:
       id: 26686
       kind: 3
       kind_id: 26704
       type: 1
-      name: 三国忠烈传 + San Guo Zhong Lie Zhuan (Ch).nes
+      name: "Sanguo Zhonglie Zhuan - The Story of Three Kingdoms (China) (FS305) (Unl).nes"
       format: 1
       size: 524304
       blob_id: 71792
-      debug: 三国忠烈传 + San Guo Zhong Lie Zhuan (Ch).nes
+      debug: |-
+        三国忠烈传 + San Guo Zhong Lie Zhuan (Ch).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=5437f45450954ef46b97e92517a9b48304772596
+  - asset:
+      id: 139961
+      kind: 3
+      kind_id: 26704
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Sanguo%20Zhonglie%20Zhuan%20-%20The%20Story%20of%20Three%20Kingdoms%20%28China%29%20%28FS305%29%20%28Unl%29.png
+      format: 1
+      size: 4616
+      blob_id: 325112
+      debug: libretro-named-titles:rom-asset=26686:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Sanguo%20Zhonglie%20Zhuan%20-%20The%20Story%20of%20Three%20Kingdoms%20%28China%29%20%28FS305%29%20%28Unl%29.png

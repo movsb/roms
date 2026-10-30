@@ -176,17 +176,26 @@ releases:
     kind_id: 21436
     language: 1
     name: Snow Brothers (E) [!]
+    deprecated: 1
+  - id: 259357
+    kind: 3
+    kind_id: 21436
+    language: 1
+    name: Snow Brothers (Europe)
+    source: no-intro
   assets:
   - asset:
       id: 21418
       kind: 3
       kind_id: 21436
       type: 1
-      name: Snow Brothers (E) [!].nes
+      name: Snow Brothers (Europe).nes
       format: 1
       size: 262160
       blob_id: 66818
-      debug: Snow Brothers (E) [!].nes
+      debug: |-
+        Snow Brothers (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=0a571e3a0130d58431e5890966805230d2820c05
   - asset:
       id: 137320
       kind: 3
@@ -394,17 +403,37 @@ releases:
     kind_id: 30141
     language: 1
     name: Snow Brothers (J)
+    deprecated: 1
+  - id: 261323
+    kind: 3
+    kind_id: 30141
+    language: 1
+    name: Snow Bros. (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 30123
       kind: 3
       kind_id: 30141
       type: 1
-      name: 雪人兄弟 (日版) (动作)-Snow Bros. (Japan) + Snow Brothers (J).nes
+      name: Snow Bros. (Japan).nes
       format: 1
       size: 262160
       blob_id: 74022
-      debug: 雪人兄弟 (日版) (动作)-Snow Bros. (Japan) + Snow Brothers (J).nes
+      debug: |-
+        雪人兄弟 (日版) (动作)-Snow Bros. (Japan) + Snow Brothers (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=44f2ba467eae22e1d1133aff56171a1b9c734d56
+  - asset:
+      id: 140245
+      kind: 3
+      kind_id: 30141
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Snow%20Bros.%20%28Japan%29.png
+      format: 1
+      size: 4091
+      blob_id: 325560
+      debug: libretro-named-titles:rom-asset=30123:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Snow%20Bros.%20%28Japan%29.png
 - release:
     id: 30142
     game_id: 30144
@@ -414,17 +443,25 @@ releases:
     kind_id: 30142
     language: 2
     name: 雪人兄弟 (欧版) (动作)-Snow Brothers (Europe)
+  - id: 261324
+    kind: 3
+    kind_id: 30142
+    language: 1
+    name: Snow Brothers (Europe)
+    source: no-intro
   assets:
   - asset:
       id: 30124
       kind: 3
       kind_id: 30142
       type: 1
-      name: 雪人兄弟 (欧版) (动作)-Snow Brothers (Europe).nes
+      name: Snow Brothers (Europe).nes
       format: 1
       size: 262160
       blob_id: 74023
-      debug: 雪人兄弟 (欧版) (动作)-Snow Brothers (Europe).nes
+      debug: |-
+        雪人兄弟 (欧版) (动作)-Snow Brothers (Europe).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=0a571e3a0130d58431e5890966805230d2820c05
   - asset:
       id: 139236
       kind: 3
@@ -450,17 +487,26 @@ releases:
     kind_id: 30143
     language: 1
     name: Snow Brothers (U) [!]
+    deprecated: 1
+  - id: 261325
+    kind: 3
+    kind_id: 30143
+    language: 1
+    name: Snow Brothers (USA)
+    source: no-intro
   assets:
   - asset:
       id: 30125
       kind: 3
       kind_id: 30143
       type: 1
-      name: 雪人兄弟 (美版) (动作)-Snow Brothers (USA) + Snow Brothers (U) [!].nes
+      name: Snow Brothers (USA).nes
       format: 1
       size: 262160
       blob_id: 74024
-      debug: 雪人兄弟 (美版) (动作)-Snow Brothers (USA) + Snow Brothers (U) [!].nes
+      debug: |-
+        雪人兄弟 (美版) (动作)-Snow Brothers (USA) + Snow Brothers (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=76e71f32551d60d3af26eb4ad15f4bde7c6ca29b
   - asset:
       id: 139237
       kind: 3

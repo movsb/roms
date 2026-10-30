@@ -7,12 +7,19 @@ names:
   kind_id: 21019
   language: 1
   name: Shao Nian You Xia (Ch) (Wxn)
+  deprecated: 1
 - id: 248529
   kind: 2
   kind_id: 21019
   language: 2
   name: 少年游侠
   source: codex
+- id: 262101
+  kind: 2
+  kind_id: 21019
+  language: 1
+  name: "Shaonian Youxia - Guangming Zhi Shen (Young Chivalry)"
+  source: no-intro
 releases:
 - release:
     id: 21019
@@ -23,14 +30,34 @@ releases:
     kind_id: 21019
     language: 1
     name: Shao Nian You Xia (Ch) (Wxn)
+    deprecated: 1
+  - id: 259291
+    kind: 3
+    kind_id: 21019
+    language: 1
+    name: "Shaonian Youxia - Guangming Zhi Shen (Young Chivalry) (China) (FS005) (Unl)"
+    source: no-intro
   assets:
   - asset:
       id: 21001
       kind: 3
       kind_id: 21019
       type: 1
-      name: Shao Nian You Xia (Ch) (Wxn).nes
+      name: "Shaonian Youxia - Guangming Zhi Shen (Young Chivalry) (China) (FS005) (Unl).nes"
       format: 1
       size: 786448
       blob_id: 66437
-      debug: Shao Nian You Xia (Ch) (Wxn).nes
+      debug: |-
+        Shao Nian You Xia (Ch) (Wxn).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=7e3f2b6dec86d20b8d694c0728ef9729f14d16d9
+  - asset:
+      id: 139735
+      kind: 3
+      kind_id: 21019
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Shaonian%20Youxia%20-%20Guangming%20Zhi%20Shen%20%28Young%20Chivalry%29%20%28China%29%20%28FS005%29%20%28Unl%29.png
+      format: 1
+      size: 3423
+      blob_id: 325117
+      debug: libretro-named-titles:rom-asset=21001:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Shaonian%20Youxia%20-%20Guangming%20Zhi%20Shen%20%28Young%20Chivalry%29%20%28China%29%20%28FS005%29%20%28Unl%29.png

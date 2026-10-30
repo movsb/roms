@@ -7,11 +7,18 @@ names:
   kind_id: 13437
   language: 1
   name: Huge Insect (Sachen) [!]
+  deprecated: 1
 - id: 62847
   kind: 2
   kind_id: 13437
   language: 2
   name: 大蜜蜂 (亚洲版) (射击)-Huge Insect (Unl)
+- id: 261783
+  kind: 2
+  kind_id: 13437
+  language: 1
+  name: Huge Insect
+  source: no-intro
 releases:
 - release:
     id: 13437
@@ -22,24 +29,32 @@ releases:
     kind_id: 13437
     language: 1
     name: Huge Insect (Sachen) [!]
+    deprecated: 1
   - id: 62849
     kind: 3
     kind_id: 13437
     language: 2
     name: 大蜜蜂 (亚洲版) (射击)-Huge Insect (Asia) (Unl)
+  - id: 258432
+    kind: 3
+    kind_id: 13437
+    language: 1
+    name: Huge Insect (Taiwan) (En) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 13419
       kind: 3
       kind_id: 13437
       type: 1
-      name: Huge Insect (Sachen) [!].nes
+      name: Huge Insect (Taiwan) (En) (Unl).nes
       format: 1
       size: 65552
       blob_id: 59287
       debug: |-
         Huge Insect (Sachen) [!].zip
         大蜜蜂 (亚洲版) (射击)-Huge Insect (Asia) (Unl) + Huge Insect (Sachen) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=51b30f2559ad93629a59eba6e2ec96f1cb505a84
   - asset:
       id: 136969
       kind: 3

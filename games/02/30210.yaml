@@ -12,6 +12,13 @@ names:
   kind_id: 30210
   language: 1
   name: Xiang Shuai Chuan Qi (NJxxx) (Ch)
+  deprecated: 1
+- id: 263655
+  kind: 2
+  kind_id: 30210
+  language: 1
+  name: Xiang Shuai Chuanqi
+  source: no-intro
 releases:
 - release:
     id: 30210
@@ -27,14 +34,34 @@ releases:
     kind_id: 30210
     language: 1
     name: Xiang Shuai Chuan Qi (NJxxx) (Ch)
+    deprecated: 1
+  - id: 261352
+    kind: 3
+    kind_id: 30210
+    language: 1
+    name: Xiang Shuai Chuanqi (China) (Aftermarket) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 30192
       kind: 3
       kind_id: 30210
       type: 1
-      name: 香帅传奇[南晶科技] + Xiang Shuai Chuan Qi (NJxxx) (Ch).nes
+      name: Xiang Shuai Chuanqi (China) (Aftermarket) (Unl).nes
       format: 1
       size: 1048592
       blob_id: 74066
-      debug: 香帅传奇[南晶科技] + Xiang Shuai Chuan Qi (NJxxx) (Ch).nes
+      debug: |-
+        香帅传奇[南晶科技] + Xiang Shuai Chuan Qi (NJxxx) (Ch).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=c5498e1778e88895a7b34b92c24f18b36d12b9eb
+  - asset:
+      id: 140248
+      kind: 3
+      kind_id: 30210
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Xiang%20Shuai%20Chuanqi%20%28China%29%20%28Aftermarket%29%20%28Unl%29.png
+      format: 1
+      size: 2823
+      blob_id: 325562
+      debug: libretro-named-titles:rom-asset=30192:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Xiang%20Shuai%20Chuanqi%20%28China%29%20%28Aftermarket%29%20%28Unl%29.png

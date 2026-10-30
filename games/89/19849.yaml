@@ -23,17 +23,37 @@ releases:
     kind_id: 19839
     language: 1
     name: Renegade (U) (VC)
+    deprecated: 1
+  - id: 259170
+    kind: 3
+    kind_id: 19839
+    language: 1
+    name: Renegade (USA) (Virtual Console)
+    source: no-intro
   assets:
   - asset:
       id: 19821
       kind: 3
       kind_id: 19839
       type: 1
-      name: Renegade (U) (VC).nes
+      name: Renegade (USA) (Virtual Console).nes
       format: 1
       size: 131088
       blob_id: 65307
-      debug: Renegade (U) (VC).nes
+      debug: |-
+        Renegade (U) (VC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=330e223eb82dec490829b54247b54c43bc4b4185
+  - asset:
+      id: 139699
+      kind: 3
+      kind_id: 19839
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Renegade%20%28USA%29%20%28Virtual%20Console%29.png
+      format: 1
+      size: 43728
+      blob_id: 325091
+      debug: libretro-named-titles:rom-asset=19821:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Renegade%20%28USA%29%20%28Virtual%20Console%29.png
 - release:
     id: 19840
     game_id: 19849
@@ -43,18 +63,26 @@ releases:
     kind_id: 19840
     language: 1
     name: Renegade (U) [!]
+    deprecated: 1
   - id: 44180
     kind: 3
     kind_id: 19840
     language: 1
     name: Renegade (U)
+    deprecated: 1
+  - id: 259171
+    kind: 3
+    kind_id: 19840
+    language: 1
+    name: Renegade (USA)
+    source: no-intro
   assets:
   - asset:
       id: 19822
       kind: 3
       kind_id: 19840
       type: 1
-      name: Renegade (U) [!].nes
+      name: Renegade (USA).nes
       format: 1
       size: 131088
       blob_id: 65308
@@ -62,6 +90,7 @@ releases:
         Renegade (U) [!].nes
         Renegade (U) [!].zip
         Renegade (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=725fed2fd8b59aa96cd641b74b2a6a7506dbcb44
   - asset:
       id: 137242
       kind: 3

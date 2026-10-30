@@ -12,6 +12,13 @@ names:
   kind_id: 30004
   language: 1
   name: Ghostbusters II (E) [!]
+  deprecated: 1
+- id: 263568
+  kind: 2
+  kind_id: 30004
+  language: 1
+  name: Ghostbusters II
+  source: no-intro
 releases:
 - release:
     id: 30004
@@ -27,19 +34,27 @@ releases:
     kind_id: 30004
     language: 1
     name: Ghostbusters II (E) [!]
+    deprecated: 1
+  - id: 261259
+    kind: 3
+    kind_id: 30004
+    language: 1
+    name: Ghostbusters II (Europe)
+    source: no-intro
   assets:
   - asset:
       id: 29986
       kind: 3
       kind_id: 30004
       type: 1
-      name: 魔鬼克星 II (欧版) (动作)-Ghostbusters II (Europe) + Ghostbusters II (E) [!].nes
+      name: Ghostbusters II (Europe).nes
       format: 1
       size: 262160
       blob_id: 73934
       debug: |-
         重复的/魔鬼克星 II (欧版) (动作)-Ghostbusters II (Europe) + Ghostbusters II (E) [!].nes
         魔鬼克星II.nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=152b471669cfd9712dac55ecb87e33e4bb7a7e97
   - asset:
       id: 139210
       kind: 3

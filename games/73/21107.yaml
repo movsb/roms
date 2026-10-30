@@ -12,11 +12,18 @@ names:
   kind_id: 21107
   language: 1
   name: Shooting Range (U) [!]
+  deprecated: 1
 - id: 93011
   kind: 2
   kind_id: 21107
   language: 1
   name: Shooting Range
+- id: 262110
+  kind: 2
+  kind_id: 21107
+  language: 1
+  name: Shooting Range
+  source: no-intro
 releases:
 - release:
     id: 21107
@@ -27,23 +34,31 @@ releases:
     kind_id: 21107
     language: 1
     name: Shooting Range (U) [!]
+    deprecated: 1
   - id: 47042
     kind: 3
     kind_id: 21107
     language: 1
     name: Shooting Range (U)
+    deprecated: 1
   - id: 59703
     kind: 3
     kind_id: 21107
     language: 2
     name: 万岱射击场 (美版) (光线枪射击)-Shooting Range (USA)
+  - id: 259305
+    kind: 3
+    kind_id: 21107
+    language: 1
+    name: Shooting Range (USA)
+    source: no-intro
   assets:
   - asset:
       id: 21089
       kind: 3
       kind_id: 21107
       type: 1
-      name: Shooting Range (U) [!].nes
+      name: Shooting Range (USA).nes
       format: 1
       size: 65552
       blob_id: 66517
@@ -51,6 +66,7 @@ releases:
         Shooting Range (U) [!].zip
         Shooting Range (U).zip
         万岱射击场 (美版) (光线枪射击)-Shooting Range (USA) + Shooting Range (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=23dd98169c6ce2c6c2e805fe7546b9013a75962f
   - asset:
       id: 137293
       kind: 3

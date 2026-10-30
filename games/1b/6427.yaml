@@ -12,6 +12,7 @@ names:
   kind_id: 6427
   language: 1
   name: Barbie (U) (REV0) [!]
+  deprecated: 1
 - id: 69201
   kind: 2
   kind_id: 6427
@@ -22,11 +23,18 @@ names:
   kind_id: 6427
   language: 1
   name: Barbie (U) (REVA) [!]
+  deprecated: 1
 - id: 91316
   kind: 2
   kind_id: 6427
   language: 1
   name: Barbie
+- id: 261529
+  kind: 2
+  kind_id: 6427
+  language: 1
+  name: Barbie
+  source: no-intro
 releases:
 - release:
     id: 6427
@@ -37,28 +45,37 @@ releases:
     kind_id: 6427
     language: 1
     name: Barbie (Rev 3) (U)
+    deprecated: 1
   - id: 13350
     kind: 3
     kind_id: 6427
     language: 1
     name: Barbie (U) (REVA) [!]
+    deprecated: 1
   - id: 13356
     kind: 3
     kind_id: 6427
     language: 1
     name: Barbie (U) (Rev 3)
+    deprecated: 1
   - id: 69203
     kind: 3
     kind_id: 6427
     language: 2
     name: 芭比娃娃 (美版)(Rev A) (动作)-Barbie (USA) (Rev A)
+  - id: 257706
+    kind: 3
+    kind_id: 6427
+    language: 1
+    name: Barbie (USA) (Rev 1)
+    source: no-intro
   assets:
   - asset:
       id: 6409
       kind: 3
       kind_id: 6427
       type: 1
-      name: Barbie (Rev 3) (U).nes
+      name: Barbie (USA) (Rev 1).nes
       format: 1
       size: 262160
       blob_id: 52665
@@ -67,6 +84,7 @@ releases:
         Barbie (U) (REVA) [!].zip
         Barbie (U) (Rev 3).zip
         芭比娃娃 (美版)(Rev A) (动作)-Barbie (USA) (Rev A) + Barbie (U) (REVA) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=f18c7d82f624c6efeb73e0a212997a28b90bdf85
   - asset:
       id: 138188
       kind: 3
@@ -87,6 +105,7 @@ releases:
     kind_id: 6438
     language: 1
     name: Barbie (U) (Rev X)
+    deprecated: 1
   - id: 69199
     kind: 3
     kind_id: 6438
@@ -97,16 +116,35 @@ releases:
     kind_id: 6438
     language: 1
     name: Barbie (U) (REV0) [!]
+    deprecated: 1
+  - id: 257707
+    kind: 3
+    kind_id: 6438
+    language: 1
+    name: Barbie (USA)
+    source: no-intro
   assets:
   - asset:
       id: 6420
       kind: 3
       kind_id: 6438
       type: 1
-      name: Barbie (U) (Rev X).nes
+      name: Barbie (USA).nes
       format: 1
       size: 262160
       blob_id: 52674
       debug: |-
         Barbie (U) (Rev X).zip
         芭比娃娃 (美版) (动作)-Barbie (USA) + Barbie (U) (REV0) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=58011155ea6d62af65c8a9d776dd8363ff40eddd
+  - asset:
+      id: 139312
+      kind: 3
+      kind_id: 6438
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Barbie%20%28USA%29.png
+      format: 1
+      size: 3051
+      blob_id: 324617
+      debug: libretro-named-titles:rom-asset=6420:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Barbie%20%28USA%29.png

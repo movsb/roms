@@ -12,6 +12,13 @@ names:
   kind_id: 20525
   language: 1
   name: Battle Baseball (J)
+  deprecated: 1
+- id: 262074
+  kind: 2
+  kind_id: 20525
+  language: 1
+  name: Battle Baseball
+  source: no-intro
 releases:
 - release:
     id: 20525
@@ -27,17 +34,26 @@ releases:
     kind_id: 20525
     language: 1
     name: Battle Baseball (J)
+    deprecated: 1
+  - id: 259242
+    kind: 3
+    kind_id: 20525
+    language: 1
+    name: Battle Baseball (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 20507
       kind: 3
       kind_id: 20525
       type: 1
-      name: SD 战斗棒球 (日版) (运动)-Battle Baseball (Japan) + Battle Baseball (J).nes
+      name: Battle Baseball (Japan).nes
       format: 1
       size: 524304
       blob_id: 65964
-      debug: SD 战斗棒球 (日版) (运动)-Battle Baseball (Japan) + Battle Baseball (J).nes
+      debug: |-
+        SD 战斗棒球 (日版) (运动)-Battle Baseball (Japan) + Battle Baseball (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=e521aab5156ee802d9a3d064580249e2011158fe
   - asset:
       id: 138663
       kind: 3

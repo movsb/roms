@@ -22,17 +22,37 @@ releases:
     kind_id: 7104
     language: 1
     name: Blades of Steel (E) (VC)
+    deprecated: 1
+  - id: 257789
+    kind: 3
+    kind_id: 7104
+    language: 1
+    name: Blades of Steel (Europe) (Virtual Console)
+    source: no-intro
   assets:
   - asset:
       id: 7086
       kind: 3
       kind_id: 7104
       type: 1
-      name: Blades of Steel (E) (VC).nes
+      name: Blades of Steel (Europe) (Virtual Console).nes
       format: 1
       size: 131088
       blob_id: 53294
-      debug: Blades of Steel (E) (VC).nes
+      debug: |-
+        Blades of Steel (E) (VC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=1b1cf07c9b8b695d2b2f39722fa15526532a565f
+  - asset:
+      id: 139328
+      kind: 3
+      kind_id: 7104
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Blades%20of%20Steel%20%28Europe%29%20%28Virtual%20Console%29.png
+      format: 1
+      size: 3584
+      blob_id: 324778
+      debug: libretro-named-titles:rom-asset=7086:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Blades%20of%20Steel%20%28Europe%29%20%28Virtual%20Console%29.png
 - release:
     id: 7106
     game_id: 7104
@@ -42,17 +62,37 @@ releases:
     kind_id: 7106
     language: 1
     name: Blades of Steel (U) (VC)
+    deprecated: 1
+  - id: 257790
+    kind: 3
+    kind_id: 7106
+    language: 1
+    name: Blades of Steel (USA) (Virtual Console)
+    source: no-intro
   assets:
   - asset:
       id: 7088
       kind: 3
       kind_id: 7106
       type: 1
-      name: Blades of Steel (U) (VC).nes
+      name: Blades of Steel (USA) (Virtual Console).nes
       format: 1
       size: 131088
       blob_id: 53296
-      debug: Blades of Steel (U) (VC).nes
+      debug: |-
+        Blades of Steel (U) (VC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=928289c95458d4b5e6d43e69218726de5b9ed021
+  - asset:
+      id: 139329
+      kind: 3
+      kind_id: 7106
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Blades%20of%20Steel%20%28USA%29%20%28Virtual%20Console%29.png
+      format: 1
+      size: 3584
+      blob_id: 324778
+      debug: libretro-named-titles:rom-asset=7088:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Blades%20of%20Steel%20%28USA%29%20%28Virtual%20Console%29.png
 - release:
     id: 7107
     game_id: 7104
@@ -63,13 +103,19 @@ releases:
     kind_id: 7107
     language: 2
     name: 美版
+  - id: 257791
+    kind: 3
+    kind_id: 7107
+    language: 1
+    name: Blades of Steel (USA)
+    source: no-intro
   assets:
   - asset:
       id: 7089
       kind: 3
       kind_id: 7107
       type: 1
-      name: Blades of Steel (U) [!].nes
+      name: Blades of Steel (USA).nes
       format: 1
       size: 131088
       blob_id: 53297
@@ -77,6 +123,7 @@ releases:
         Blades of Steel (U) [!].zip
         Blades of Steel (U).zip
         钢刀曲棍球 (美版) (运动)-Blades of Steel (USA) + Blades of Steel (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=6519882612ba8d69dc6f580c9db4dc0df7fd8c56
   - asset:
       id: 135026
       kind: 3
@@ -117,17 +164,25 @@ releases:
     kind_id: 30037
     language: 2
     name: 欧版
+  - id: 261274
+    kind: 3
+    kind_id: 30037
+    language: 1
+    name: Blades of Steel (Europe)
+    source: no-intro
   assets:
   - asset:
       id: 30019
       kind: 3
       kind_id: 30037
       type: 1
-      name: 钢刀曲棍球 (欧版) (运动)-Blades of Steel (Europe) + Blades of Steel (E) [!].nes
+      name: Blades of Steel (Europe).nes
       format: 1
       size: 131088
       blob_id: 73954
-      debug: 钢刀曲棍球 (欧版) (运动)-Blades of Steel (Europe) + Blades of Steel (E) [!].nes
+      debug: |-
+        钢刀曲棍球 (欧版) (运动)-Blades of Steel (Europe) + Blades of Steel (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=72aef6054bf5e8b3301fea396187c71454c2465d
   - asset:
       id: 138030
       kind: 3

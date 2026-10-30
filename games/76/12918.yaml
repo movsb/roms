@@ -47,11 +47,13 @@ releases:
     kind_id: 12920
     language: 1
     name: Hatris (U) [!p]
+    deprecated: 1
   - id: 28382
     kind: 3
     kind_id: 12920
     language: 1
     name: Hatris (U)
+    deprecated: 1
   - id: 64107
     kind: 3
     kind_id: 12920
@@ -62,13 +64,20 @@ releases:
     kind_id: 12920
     language: 1
     name: Hatris (U) [!]
+    deprecated: 1
+  - id: 258398
+    kind: 3
+    kind_id: 12920
+    language: 1
+    name: Hatris (USA)
+    source: no-intro
   assets:
   - asset:
       id: 12902
       kind: 3
       kind_id: 12920
       type: 1
-      name: Hatris (U) [!p].nes
+      name: Hatris (USA).nes
       format: 1
       size: 131088
       blob_id: 58802
@@ -76,3 +85,15 @@ releases:
         Hatris (U) [!p].zip
         Hatris (U).zip
         帽子方块 (美版) (益智)-Hatris (USA) + Hatris (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=13d2e9997c02462214fa789bc939f4ddab6d65a1
+  - asset:
+      id: 139442
+      kind: 3
+      kind_id: 12920
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Hatris%20%28USA%29.png
+      format: 1
+      size: 4516
+      blob_id: 324873
+      debug: libretro-named-titles:rom-asset=12902:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Hatris%20%28USA%29.png

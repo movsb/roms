@@ -12,11 +12,19 @@ names:
   kind_id: 20942
   language: 1
   name: Sesame Street 123 (U) [!]
+  deprecated: 1
 - id: 92990
   kind: 2
   kind_id: 20942
   language: 1
   name: Sesame Street 123
+  deprecated: 1
+- id: 262096
+  kind: 2
+  kind_id: 20942
+  language: 1
+  name: "Sesame Street - 123"
+  source: no-intro
 releases:
 - release:
     id: 20942
@@ -27,27 +35,35 @@ releases:
     kind_id: 20942
     language: 1
     name: Sesame Street 123 (U) [!]
+    deprecated: 1
   - id: 46676
     kind: 3
     kind_id: 20942
     language: 1
     name: Sesame Street 123 (U)
+    deprecated: 1
   - id: 69191
     kind: 3
     kind_id: 20942
     language: 2
     name: "芝麻街 - 数字游戏 (美版) (益智)-Sesame Street 123 (USA)"
+  - id: 259279
+    kind: 3
+    kind_id: 20942
+    language: 1
+    name: "Sesame Street - 123 (USA)"
+    source: no-intro
   assets:
   - asset:
       id: 20924
       kind: 3
       kind_id: 20942
       type: 1
-      name: Sesame Street 123 (U) [!].nes
+      name: "Sesame Street - 123 (USA).nes"
       format: 1
       size: 65552
       blob_id: 66366
-      debug: "Sesame Street 123 (U) [!].zip\nSesame Street 123 (U).zip\n芝麻街 - 数字游戏 (美版) (益智)-Sesame Street 123 (USA) + Sesame Street 123 (U) [!].nes"
+      debug: "Sesame Street 123 (U) [!].zip\nSesame Street 123 (U).zip\n芝麻街 - 数字游戏 (美版) (益智)-Sesame Street 123 (USA) + Sesame Street 123 (U) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=263b3e3ff9feba62b646851fadaca3e1e20b6fc9"
   - asset:
       id: 138678
       kind: 3

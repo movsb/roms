@@ -57,6 +57,7 @@ releases:
     kind_id: 23752
     language: 1
     name: Tecmo Bowl (U) (PRG 0)
+    deprecated: 1
   - id: 67653
     kind: 3
     kind_id: 23752
@@ -67,19 +68,38 @@ releases:
     kind_id: 23752
     language: 1
     name: Tecmo Bowl (U) (PRG0) [!]
+    deprecated: 1
+  - id: 259597
+    kind: 3
+    kind_id: 23752
+    language: 1
+    name: Tecmo Bowl (USA)
+    source: no-intro
   assets:
   - asset:
       id: 23734
       kind: 3
       kind_id: 23752
       type: 1
-      name: Tecmo Bowl (U) (PRG 0).nes
+      name: Tecmo Bowl (USA).nes
       format: 1
       size: 262160
       blob_id: 69023
       debug: |-
         Tecmo Bowl (U) (PRG 0).zip
         特库摩美式足球 (美版) (运动)-Tecmo Bowl (USA) + Tecmo Bowl (U) (PRG0) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=8dfcacbd919f821d1fdc035184c278df77827b09
+  - asset:
+      id: 139837
+      kind: 3
+      kind_id: 23752
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Tecmo%20Bowl%20%28USA%29.png
+      format: 1
+      size: 1667
+      blob_id: 325211
+      debug: libretro-named-titles:rom-asset=23734:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Tecmo%20Bowl%20%28USA%29.png
 - release:
     id: 23756
     game_id: 23750
@@ -89,24 +109,32 @@ releases:
     kind_id: 23756
     language: 1
     name: Tecmo Bowl (U) (PRG1) [!]
+    deprecated: 1
   - id: 67661
     kind: 3
     kind_id: 23756
     language: 2
     name: 特库摩美式足球 (美版)(Rev A) (运动)-Tecmo Bowl (USA) (Rev A)
+  - id: 259598
+    kind: 3
+    kind_id: 23756
+    language: 1
+    name: Tecmo Bowl (USA) (Rev 1)
+    source: no-intro
   assets:
   - asset:
       id: 23738
       kind: 3
       kind_id: 23756
       type: 1
-      name: Tecmo Bowl (U) (PRG1) [!].nes
+      name: Tecmo Bowl (USA) (Rev 1).nes
       format: 1
       size: 262160
       blob_id: 69027
       debug: |-
         Tecmo Bowl (U) (PRG1) [!].zip
         特库摩美式足球 (美版)(Rev A) (运动)-Tecmo Bowl (USA) (Rev A) + Tecmo Bowl (U) (PRG1) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=3fe39ba5fcfa423c6591905c832c18d163d66e4c
   - asset:
       id: 137389
       kind: 3
@@ -127,14 +155,23 @@ releases:
     kind_id: 23757
     language: 1
     name: Tecmo Bowl (U) (VC)
+    deprecated: 1
+  - id: 259599
+    kind: 3
+    kind_id: 23757
+    language: 1
+    name: Tecmo Bowl (World) (Rev 1) (Virtual Console, Classic Mini, Switch Online)
+    source: no-intro
   assets:
   - asset:
       id: 23739
       kind: 3
       kind_id: 23757
       type: 1
-      name: Tecmo Bowl (U) (VC).nes
+      name: Tecmo Bowl (World) (Rev 1) (Virtual Console, Classic Mini, Switch Online).nes
       format: 1
       size: 262160
       blob_id: 69028
-      debug: Tecmo Bowl (U) (VC).nes
+      debug: |-
+        Tecmo Bowl (U) (VC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=6e0456e1534e7d4f421ca960a44e1b14d9adadbc

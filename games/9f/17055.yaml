@@ -7,17 +7,25 @@ names:
   kind_id: 17055
   language: 1
   name: Mortal Kombat V Turbo 30 (Unl) (Yoko)
+  deprecated: 1
 - id: 38038
   kind: 2
   kind_id: 17055
   language: 1
   name: Mortal Kombat V1996 Turbo 30 Peoples (Unl) [!]
+  deprecated: 1
 - id: 248248
   kind: 2
   kind_id: 17055
   language: 2
   name: 真人快打5 Turbo：30人版
   source: codex
+- id: 261935
+  kind: 2
+  kind_id: 17055
+  language: 1
+  name: "Mortal Kombat V Turbo - 30 People"
+  source: no-intro
 releases:
 - release:
     id: 17055
@@ -28,21 +36,41 @@ releases:
     kind_id: 17055
     language: 1
     name: Mortal Kombat V Turbo 30 (Unl) (Yoko)
+    deprecated: 1
   - id: 38040
     kind: 3
     kind_id: 17055
     language: 1
     name: Mortal Kombat V1996 Turbo 30 Peoples (Unl) [!]
+    deprecated: 1
+  - id: 258881
+    kind: 3
+    kind_id: 17055
+    language: 1
+    name: "Mortal Kombat V Turbo - 30 People (Asia) (En) (V1995) (Pirate)"
+    source: no-intro
   assets:
   - asset:
       id: 17037
       kind: 3
       kind_id: 17055
       type: 1
-      name: Mortal Kombat V Turbo 30 (Unl) (Yoko) + Mortal Kombat V1996 Turbo 30 Peoples (Unl) [!].nes
+      name: "Mortal Kombat V Turbo - 30 People (Asia) (En) (V1995) (Pirate).nes"
       format: 1
       size: 393232
       blob_id: 62655
       debug: |-
         Mortal Kombat V Turbo 30 (Unl) (Yoko) + Mortal Kombat V1996 Turbo 30 Peoples (Unl) [!].nes
         Mortal Kombat V1996 Turbo 30 Peoples (Unl) [!].zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=11fdd6ace7bb0fd549d8280e3c45c9b6f7237137
+  - asset:
+      id: 139610
+      kind: 3
+      kind_id: 17055
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mortal%20Kombat%20V%20Turbo%20-%2030%20People%20%28Asia%29%20%28En%29%20%28V1995%29%20%28Pirate%29.png
+      format: 1
+      size: 7374
+      blob_id: 325013
+      debug: libretro-named-titles:rom-asset=17037:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mortal%20Kombat%20V%20Turbo%20-%2030%20People%20%28Asia%29%20%28En%29%20%28V1995%29%20%28Pirate%29.png

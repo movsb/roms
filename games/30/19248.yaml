@@ -27,17 +27,37 @@ releases:
     kind_id: 19230
     language: 1
     name: Predator (E)
+    deprecated: 1
+  - id: 259087
+    kind: 3
+    kind_id: 19230
+    language: 1
+    name: Predator (Australia)
+    source: no-intro
   assets:
   - asset:
       id: 19212
       kind: 3
       kind_id: 19230
       type: 1
-      name: Predator (E).nes
+      name: Predator (Australia).nes
       format: 1
       size: 262160
       blob_id: 64738
-      debug: Predator (E).nes
+      debug: |-
+        Predator (E).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=6ab379ce2c96555a7f44e6ff7f3b0d4b2bfc6162
+  - asset:
+      id: 139679
+      kind: 3
+      kind_id: 19230
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Predator%20%28Australia%29.png
+      format: 1
+      size: 3253
+      blob_id: 324601
+      debug: libretro-named-titles:rom-asset=19212:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Predator%20%28Australia%29.png
 - release:
     id: 19234
     game_id: 19248
@@ -98,18 +118,25 @@ releases:
     kind_id: 19236
     language: 1
     name: Predator (U) [!]
+    deprecated: 1
   - id: 70811
     kind: 3
     kind_id: 19236
     language: 2
     name: 终极战士 (美版) (动作)-Predator (USA)
+  - id: 259088
+    kind: 3
+    kind_id: 19236
+    language: 1
+    name: Predator (USA)
+    source: no-intro
   assets:
   - asset:
       id: 19218
       kind: 3
       kind_id: 19236
       type: 1
-      name: Predator (U) [!].nes
+      name: Predator (USA).nes
       format: 1
       size: 262160
       blob_id: 64744
@@ -117,6 +144,7 @@ releases:
         Predator (U) [!].zip
         重复的/终极战士 (美版) (动作)-Predator (USA) + Predator (U) [!].nes
         铁血战士.nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=89bb4eb23ad71ff3e1ddc0c7957c09309c93e11f
   - asset:
       id: 137203
       kind: 3
@@ -157,17 +185,26 @@ releases:
     kind_id: 19245
     language: 1
     name: Predator (U)
+    deprecated: 1
+  - id: 259089
+    kind: 3
+    kind_id: 19245
+    language: 1
+    name: Predator (USA)
+    source: no-intro
   assets:
   - asset:
       id: 19227
       kind: 3
       kind_id: 19245
       type: 1
-      name: Predator (U).nes
+      name: Predator (USA).nes
       format: 1
       size: 262160
       blob_id: 64753
-      debug: Predator (U).zip
+      debug: |-
+        Predator (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=89bb4eb23ad71ff3e1ddc0c7957c09309c93e11f
   - asset:
       id: 138624
       kind: 3

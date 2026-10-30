@@ -13,6 +13,12 @@ names:
   language: 2
   name: 金属之光
   source: codex
+- id: 261903
+  kind: 2
+  kind_id: 16441
+  language: 1
+  name: Metal Slader Glory
+  source: no-intro
 releases:
 - release:
     id: 16441
@@ -23,14 +29,34 @@ releases:
     kind_id: 16441
     language: 1
     name: Metal Slader Glory (J) (VC)
+    deprecated: 1
+  - id: 258785
+    kind: 3
+    kind_id: 16441
+    language: 1
+    name: Metal Slader Glory (Japan) (Virtual Console)
+    source: no-intro
   assets:
   - asset:
       id: 16423
       kind: 3
       kind_id: 16441
       type: 1
-      name: Metal Slader Glory (J) (VC).nes
+      name: Metal Slader Glory (Japan) (Virtual Console).nes
       format: 1
       size: 1048592
       blob_id: 62092
-      debug: Metal Slader Glory (J) (VC).nes
+      debug: |-
+        Metal Slader Glory (J) (VC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=671c770b4095d5d2e10913d3e8ec61423311482f
+  - asset:
+      id: 139573
+      kind: 3
+      kind_id: 16441
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Metal%20Slader%20Glory%20%28Japan%29%20%28Virtual%20Console%29.png
+      format: 1
+      size: 2304
+      blob_id: 324983
+      debug: libretro-named-titles:rom-asset=16423:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Metal%20Slader%20Glory%20%28Japan%29%20%28Virtual%20Console%29.png

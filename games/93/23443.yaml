@@ -27,17 +27,37 @@ releases:
     kind_id: 23444
     language: 1
     name: Sword Master (J) [p1][!]
+    deprecated: 1
+  - id: 259563
+    kind: 3
+    kind_id: 23444
+    language: 1
+    name: Sword Master (Asia) (En) (S-R2) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 23426
       kind: 3
       kind_id: 23444
       type: 1
-      name: Sword Master (J) [p1][!].nes
+      name: Sword Master (Asia) (En) (S-R2) (Pirate).nes
       format: 1
       size: 262160
       blob_id: 68733
-      debug: Sword Master (J) [p1][!].nes
+      debug: |-
+        Sword Master (J) [p1][!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=bc8666fc34ce665122ac576509468a5ae6f223ed
+  - asset:
+      id: 139825
+      kind: 3
+      kind_id: 23444
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Sword%20Master%20%28Asia%29%20%28En%29%20%28S-R2%29%20%28Pirate%29.png
+      format: 1
+      size: 3501
+      blob_id: 325199
+      debug: libretro-named-titles:rom-asset=23426:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Sword%20Master%20%28Asia%29%20%28En%29%20%28S-R2%29%20%28Pirate%29.png
 - release:
     id: 23445
     game_id: 23443
@@ -47,11 +67,13 @@ releases:
     kind_id: 23445
     language: 1
     name: Sword Master (U) [!p]
+    deprecated: 1
   - id: 52352
     kind: 3
     kind_id: 23445
     language: 1
     name: Sword Master (U)
+    deprecated: 1
   - id: 61325
     kind: 3
     kind_id: 23445
@@ -62,13 +84,20 @@ releases:
     kind_id: 23445
     language: 1
     name: Sword Master (U) [!]
+    deprecated: 1
+  - id: 259564
+    kind: 3
+    kind_id: 23445
+    language: 1
+    name: Sword Master (USA)
+    source: no-intro
   assets:
   - asset:
       id: 23427
       kind: 3
       kind_id: 23445
       type: 1
-      name: Sword Master (U) [!p].nes
+      name: Sword Master (USA).nes
       format: 1
       size: 262160
       blob_id: 68734
@@ -76,6 +105,18 @@ releases:
         Sword Master (U) [!p].zip
         Sword Master (U).zip
         剑术大师 (美版) (动作)-Sword Master (USA) + Sword Master (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=58f3298537d85230cf4228de76c1b0723bd1f5c4
+  - asset:
+      id: 139826
+      kind: 3
+      kind_id: 23445
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Sword%20Master%20%28USA%29.png
+      format: 1
+      size: 1980
+      blob_id: 325200
+      debug: libretro-named-titles:rom-asset=23427:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Sword%20Master%20%28USA%29.png
 - release:
     id: 23446
     game_id: 23443
@@ -152,6 +193,7 @@ releases:
     kind_id: 23453
     language: 1
     name: SwordMaster
+    deprecated: 1
   - id: 61317
     kind: 3
     kind_id: 23453
@@ -162,19 +204,38 @@ releases:
     kind_id: 23453
     language: 1
     name: Sword Master (J) [!]
+    deprecated: 1
+  - id: 259565
+    kind: 3
+    kind_id: 23453
+    language: 1
+    name: Sword Master (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 23435
       kind: 3
       kind_id: 23453
       type: 1
-      name: SwordMaster.nes
+      name: Sword Master (Japan).nes
       format: 1
       size: 262160
       blob_id: 68741
       debug: |-
         SwordMaster.zip
         剑术大师 (日版) (动作)-Sword Master (Japan) + Sword Master (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=0f38022beccbf7054f7aabb966333964cbbd3a5e
+  - asset:
+      id: 139827
+      kind: 3
+      kind_id: 23453
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Sword%20Master%20%28Japan%29.png
+      format: 1
+      size: 2444
+      blob_id: 325201
+      debug: libretro-named-titles:rom-asset=23435:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Sword%20Master%20%28Japan%29.png
 - release:
     id: 27157
     game_id: 23443
@@ -189,17 +250,26 @@ releases:
     kind_id: 27157
     language: 1
     name: Sword Master (E) [!]
+    deprecated: 1
+  - id: 260136
+    kind: 3
+    kind_id: 27157
+    language: 1
+    name: Sword Master (Europe)
+    source: no-intro
   assets:
   - asset:
       id: 27139
       kind: 3
       kind_id: 27157
       type: 1
-      name: 剑术大师 (欧版) (动作)-Sword Master (Europe) + Sword Master (E) [!].nes
+      name: Sword Master (Europe).nes
       format: 1
       size: 262160
       blob_id: 72097
-      debug: 剑术大师 (欧版) (动作)-Sword Master (Europe) + Sword Master (E) [!].nes
+      debug: |-
+        剑术大师 (欧版) (动作)-Sword Master (Europe) + Sword Master (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=2b6cde1d114fdd1df91cafc8d5947966a3bc1fc5
   - asset:
       id: 137581
       kind: 3

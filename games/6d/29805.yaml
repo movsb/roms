@@ -12,6 +12,13 @@ names:
   kind_id: 29805
   language: 1
   name: Super Turrican (E) [!]
+  deprecated: 1
+- id: 263510
+  kind: 2
+  kind_id: 29805
+  language: 1
+  name: Super Turrican
+  source: no-intro
 releases:
 - release:
     id: 29805
@@ -27,17 +34,26 @@ releases:
     kind_id: 29805
     language: 1
     name: Super Turrican (E) [!]
+    deprecated: 1
+  - id: 261195
+    kind: 3
+    kind_id: 29805
+    language: 1
+    name: Super Turrican (Europe)
+    source: no-intro
   assets:
   - asset:
       id: 29787
       kind: 3
       kind_id: 29805
       type: 1
-      name: 超级星际战士 (欧版) (动作)-Super Turrican (Europe) + Super Turrican (E) [!].nes
+      name: Super Turrican (Europe).nes
       format: 1
       size: 262160
       blob_id: 73809
-      debug: 超级星际战士 (欧版) (动作)-Super Turrican (Europe) + Super Turrican (E) [!].nes
+      debug: |-
+        超级星际战士 (欧版) (动作)-Super Turrican (Europe) + Super Turrican (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=33487d9a013f81f434323960203e564434f8d2f8
   - asset:
       id: 137996
       kind: 3

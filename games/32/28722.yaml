@@ -12,6 +12,13 @@ names:
   kind_id: 28722
   language: 1
   name: Silent Service (E) [!]
+  deprecated: 1
+- id: 263133
+  kind: 2
+  kind_id: 28722
+  language: 1
+  name: Silent Service
+  source: no-intro
 releases:
 - release:
     id: 28722
@@ -27,17 +34,26 @@ releases:
     kind_id: 28722
     language: 1
     name: Silent Service (E) [!]
+    deprecated: 1
+  - id: 260779
+    kind: 3
+    kind_id: 28722
+    language: 1
+    name: Silent Service (Europe)
+    source: no-intro
   assets:
   - asset:
       id: 28704
       kind: 3
       kind_id: 28722
       type: 1
-      name: 死亡潜航 (欧版) (模拟)-Silent Service (Europe) + Silent Service (E) [!].nes
+      name: Silent Service (Europe).nes
       format: 1
       size: 131088
       blob_id: 73142
-      debug: 死亡潜航 (欧版) (模拟)-Silent Service (Europe) + Silent Service (E) [!].nes
+      debug: |-
+        死亡潜航 (欧版) (模拟)-Silent Service (Europe) + Silent Service (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=250fd2ffe1c7565e1469055147b67c4d4c799e56
   - asset:
       id: 137814
       kind: 3

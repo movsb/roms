@@ -23,17 +23,24 @@ releases:
     kind_id: 9785
     language: 1
     name: "Digital Devil Monogatari - Megami Tensei II (J) [!]"
+    deprecated: 1
+  - id: 258021
+    kind: 3
+    kind_id: 9785
+    language: 1
+    name: "Digital Devil Story - Megami Tensei II (Japan)"
+    source: no-intro
   assets:
   - asset:
       id: 9767
       kind: 3
       kind_id: 9785
       type: 1
-      name: "Digital Devil Monogatari - Megami Tensei II (J) [!].nes"
+      name: "Digital Devil Story - Megami Tensei II (Japan).nes"
       format: 1
       size: 524304
       blob_id: 55840
-      debug: "Digital Devil Monogatari - Megami Tensei II (J) [!].nes"
+      debug: "Digital Devil Monogatari - Megami Tensei II (J) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=5ae432ae1cf9e838e7a0f42c36125c33c699b527"
   - asset:
       id: 136813
       kind: 3
@@ -54,17 +61,35 @@ releases:
     kind_id: 9786
     language: 1
     name: "Digital Devil Monogatari - Megami Tensei II (J) [a1]"
+    deprecated: 1
+  - id: 258022
+    kind: 3
+    kind_id: 9786
+    language: 1
+    name: "Digital Devil Story - Megami Tensei II (Japan) (Rev 1)"
+    source: no-intro
   assets:
   - asset:
       id: 9768
       kind: 3
       kind_id: 9786
       type: 1
-      name: "Digital Devil Monogatari - Megami Tensei II (J) [a1].nes"
+      name: "Digital Devil Story - Megami Tensei II (Japan) (Rev 1).nes"
       format: 1
       size: 524304
       blob_id: 55841
-      debug: "Digital Devil Monogatari - Megami Tensei II (J) [a1].nes"
+      debug: "Digital Devil Monogatari - Megami Tensei II (J) [a1].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=4fe1d7fedb5416cd8e4e2488b9056073ad401b3c"
+  - asset:
+      id: 139368
+      kind: 3
+      kind_id: 9786
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Digital%20Devil%20Story%20-%20Megami%20Tensei%20II%20%28Japan%29%20%28Rev%201%29.png
+      format: 1
+      size: 2768
+      blob_id: 324809
+      debug: libretro-named-titles:rom-asset=9768:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Digital%20Devil%20Story%20-%20Megami%20Tensei%20II%20%28Japan%29%20%28Rev%201%29.png
 - release:
     id: 9787
     game_id: 9785

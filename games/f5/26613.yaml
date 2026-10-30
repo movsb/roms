@@ -12,11 +12,18 @@ names:
   kind_id: 26613
   language: 1
   name: Long Zhu Ying Xiong (Ch)
+  deprecated: 1
 - id: 61617
   kind: 2
   kind_id: 26613
   language: 2
   name: 半熟英雄
+- id: 262349
+  kind: 2
+  kind_id: 26613
+  language: 1
+  name: Longzhu Yingxiong
+  source: no-intro
 releases:
 - release:
     id: 26613
@@ -32,19 +39,37 @@ releases:
     kind_id: 26613
     language: 1
     name: Long Zhu Ying Xiong (Ch)
+    deprecated: 1
   - id: 61618
     kind: 3
     kind_id: 26613
     language: 2
     name: 半熟英雄
+  - id: 259909
+    kind: 3
+    kind_id: 26613
+    language: 1
+    name: Longzhu Yingxiong (China) (Waixing) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 26595
       kind: 3
       kind_id: 26613
       type: 1
-      name: "[WaiXing] 龙珠英雄 (C) + Long Zhu Ying Xiong (Ch).nes"
+      name: Longzhu Yingxiong (China) (Waixing) (Pirate).nes
       format: 1
       size: 262160
       blob_id: 71736
-      debug: "[WaiXing] 龙珠英雄 (C) + Long Zhu Ying Xiong (Ch).nes\n半熟英雄.zip"
+      debug: "[WaiXing] 龙珠英雄 (C) + Long Zhu Ying Xiong (Ch).nes\n半熟英雄.zip\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=6d082c627d6503d6701f5d79a5f15be3e86f2dbd"
+  - asset:
+      id: 139942
+      kind: 3
+      kind_id: 26613
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Longzhu%20Yingxiong%20%28China%29%20%28Waixing%29%20%28Pirate%29.png
+      format: 1
+      size: 3877
+      blob_id: 325303
+      debug: libretro-named-titles:rom-asset=26595:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Longzhu%20Yingxiong%20%28China%29%20%28Waixing%29%20%28Pirate%29.png

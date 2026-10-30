@@ -7,12 +7,19 @@ names:
   kind_id: 17143
   language: 1
   name: Munchie Attack by Memblers (PD)
+  deprecated: 1
 - id: 253633
   kind: 2
   kind_id: 17143
   language: 2
   name: 零食攻击
   source: codex
+- id: 261942
+  kind: 2
+  kind_id: 17143
+  language: 1
+  name: Munchie Attack
+  source: no-intro
 releases:
 - release:
     id: 17143
@@ -23,14 +30,34 @@ releases:
     kind_id: 17143
     language: 1
     name: Munchie Attack by Memblers (PD)
+    deprecated: 1
+  - id: 258895
+    kind: 3
+    kind_id: 17143
+    language: 1
+    name: Munchie Attack (World) (Aftermarket) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 17125
       kind: 3
       kind_id: 17143
       type: 1
-      name: Munchie Attack by Memblers (PD).nes
+      name: Munchie Attack (World) (Aftermarket) (Unl).nes
       format: 1
       size: 16400
       blob_id: 62737
-      debug: Munchie Attack by Memblers (PD).nes
+      debug: |-
+        Munchie Attack by Memblers (PD).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=b384314fba8e8de7a56b6c24f54cd4f7bee34def
+  - asset:
+      id: 139616
+      kind: 3
+      kind_id: 17143
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Munchie%20Attack%20%28World%29%20%28Aftermarket%29%20%28Unl%29.png
+      format: 1
+      size: 1586
+      blob_id: 325019
+      debug: libretro-named-titles:rom-asset=17125:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Munchie%20Attack%20%28World%29%20%28Aftermarket%29%20%28Unl%29.png

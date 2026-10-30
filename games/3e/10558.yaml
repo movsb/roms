@@ -7,12 +7,19 @@ names:
   kind_id: 10558
   language: 1
   name: Dragon Warrior 2 (U)
+  deprecated: 1
 - id: 247724
   kind: 2
   kind_id: 10558
   language: 2
   name: 勇者斗恶龙2
   source: codex
+- id: 261657
+  kind: 2
+  kind_id: 10558
+  language: 1
+  name: Dragon Warrior II
+  source: no-intro
 releases:
 - release:
     id: 10558
@@ -23,17 +30,26 @@ releases:
     kind_id: 10558
     language: 1
     name: Dragon Warrior 2 (U)
+    deprecated: 1
+  - id: 258100
+    kind: 3
+    kind_id: 10558
+    language: 1
+    name: Dragon Warrior II (USA)
+    source: no-intro
   assets:
   - asset:
       id: 10540
       kind: 3
       kind_id: 10558
       type: 1
-      name: Dragon Warrior 2 (U).nes
+      name: Dragon Warrior II (USA).nes
       format: 1
       size: 262160
       blob_id: 56566
-      debug: Dragon Warrior 2 (U).zip
+      debug: |-
+        Dragon Warrior 2 (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=191a131e7e27e121d094cc412fed87c708147b2c
   - asset:
       id: 138351
       kind: 3

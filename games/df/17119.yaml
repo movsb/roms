@@ -27,24 +27,43 @@ releases:
     kind_id: 17118
     language: 1
     name: Ms Pac-Man (U)
+    deprecated: 1
   - id: 63654
     kind: 3
     kind_id: 17118
     language: 2
     name: 小精灵小姐 (美版) (动作)-Ms. Pac-Man (USA) (Unl)
+  - id: 258891
+    kind: 3
+    kind_id: 17118
+    language: 1
+    name: Ms. Pac-Man (USA) (Tengen) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 17100
       kind: 3
       kind_id: 17118
       type: 1
-      name: Ms Pac-Man (U).nes
+      name: Ms. Pac-Man (USA) (Tengen) (Unl).nes
       format: 1
       size: 40976
       blob_id: 62712
       debug: |-
         Ms Pac-Man (U).zip
         小精灵小姐 (美版) (动作)-Ms. Pac-Man (USA) (Unl).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=78fafabff0ee4092cc505e003385cefa43af3cb5
+  - asset:
+      id: 139615
+      kind: 3
+      kind_id: 17118
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Ms.%20Pac-Man%20%28USA%29%20%28Tengen%29%20%28Unl%29.png
+      format: 1
+      size: 2417
+      blob_id: 325018
+      debug: libretro-named-titles:rom-asset=17100:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Ms.%20Pac-Man%20%28USA%29%20%28Tengen%29%20%28Unl%29.png
 - release:
     id: 17119
     game_id: 17119
@@ -54,17 +73,26 @@ releases:
     kind_id: 17119
     language: 1
     name: Ms. Pac-Man (Tengen) [!]
+    deprecated: 1
+  - id: 258892
+    kind: 3
+    kind_id: 17119
+    language: 1
+    name: Ms. Pac-Man (USA) (Tengen) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 17101
       kind: 3
       kind_id: 17119
       type: 1
-      name: Ms. Pac-Man (Tengen) [!].nes
+      name: Ms. Pac-Man (USA) (Tengen) (Unl).nes
       format: 1
       size: 40976
       blob_id: 62713
-      debug: Ms. Pac-Man (Tengen) [!].nes
+      debug: |-
+        Ms. Pac-Man (Tengen) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=78fafabff0ee4092cc505e003385cefa43af3cb5
   - asset:
       id: 137146
       kind: 3
@@ -85,17 +113,26 @@ releases:
     kind_id: 17126
     language: 1
     name: Ms. Pac-Man (U) [!]
+    deprecated: 1
+  - id: 258893
+    kind: 3
+    kind_id: 17126
+    language: 1
+    name: Ms. Pac-Man (USA) (Namco)
+    source: no-intro
   assets:
   - asset:
       id: 17108
       kind: 3
       kind_id: 17126
       type: 1
-      name: Ms. Pac-Man (U) [!].nes
+      name: Ms. Pac-Man (USA) (Namco).nes
       format: 1
       size: 40976
       blob_id: 62720
-      debug: Ms. Pac-Man (U) [!].nes
+      debug: |-
+        Ms. Pac-Man (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=f92161296e7cba0b9a573d00eabf8581914bca56
   - asset:
       id: 138592
       kind: 3
@@ -116,24 +153,32 @@ releases:
     kind_id: 17127
     language: 1
     name: Ms. Pac-Man (U) [!]
+    deprecated: 1
   - id: 63656
     kind: 3
     kind_id: 17127
     language: 2
     name: 小精灵小姐 (美版) (动作)-Ms. Pac-Man (USA)
+  - id: 258894
+    kind: 3
+    kind_id: 17127
+    language: 1
+    name: Ms. Pac-Man (USA) (Namco)
+    source: no-intro
   assets:
   - asset:
       id: 17109
       kind: 3
       kind_id: 17127
       type: 1
-      name: Ms. Pac-Man (U) [!].nes
+      name: Ms. Pac-Man (USA) (Namco).nes
       format: 1
       size: 40976
       blob_id: 62721
       debug: |-
         Ms. Pac-Man (U) [!].zip
         小精灵小姐 (美版) (动作)-Ms. Pac-Man (USA).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=f92161296e7cba0b9a573d00eabf8581914bca56
   - asset:
       id: 138593
       kind: 3

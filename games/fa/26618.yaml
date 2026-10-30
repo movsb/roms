@@ -12,6 +12,13 @@ names:
   kind_id: 26618
   language: 1
   name: Xing He Zhan Shi (Ch)
+  deprecated: 1
+- id: 262353
+  kind: 2
+  kind_id: 26618
+  language: 1
+  name: Xinghe Zhanshi
+  source: no-intro
 releases:
 - release:
     id: 26618
@@ -27,14 +34,32 @@ releases:
     kind_id: 26618
     language: 1
     name: Xing He Zhan Shi (Ch)
+    deprecated: 1
+  - id: 259913
+    kind: 3
+    kind_id: 26618
+    language: 1
+    name: Xinghe Zhanshi (China) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 26600
       kind: 3
       kind_id: 26618
       type: 1
-      name: "[恒格电子] 星河战士 + Xing He Zhan Shi (Ch).nes"
+      name: Xinghe Zhanshi (China) (Unl).nes
       format: 1
       size: 524304
       blob_id: 71741
-      debug: "[恒格电子] 星河战士 + Xing He Zhan Shi (Ch).nes"
+      debug: "[恒格电子] 星河战士 + Xing He Zhan Shi (Ch).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=17473c223453d2d80fcb9dcfa317947287dc5c52"
+  - asset:
+      id: 139945
+      kind: 3
+      kind_id: 26618
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Xinghe%20Zhanshi%20%28China%29%20%28Unl%29.png
+      format: 1
+      size: 4389
+      blob_id: 325305
+      debug: libretro-named-titles:rom-asset=26600:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Xinghe%20Zhanshi%20%28China%29%20%28Unl%29.png

@@ -99,6 +99,7 @@ releases:
     kind_id: 6381
     language: 1
     name: Baltron (Japan)
+    deprecated: 1
   - id: 63977
     kind: 3
     kind_id: 6381
@@ -109,6 +110,13 @@ releases:
     kind_id: 6381
     language: 1
     name: Baltron (J) [!]
+    deprecated: 1
+  - id: 257700
+    kind: 3
+    kind_id: 6381
+    language: 1
+    name: Baltron (Japan) (En)
+    source: no-intro
   release_publishers:
   - release_id: 6381
     publisher_id: 160
@@ -118,13 +126,14 @@ releases:
       kind: 3
       kind_id: 6381
       type: 1
-      name: Baltron (Japan).nes
+      name: Baltron (Japan) (En).nes
       format: 1
       size: 40976
       blob_id: 52621
       debug: |-
         Baltron (Japan).zip
         巴特隆战记 (日版) (射击)-Baltron (Japan) + Baltron (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=544203a8304a7922a46579512665c743527ca1e6
   - asset:
       id: 138443
       kind: 3

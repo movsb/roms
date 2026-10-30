@@ -12,11 +12,18 @@ names:
   kind_id: 25913
   language: 1
   name: Who Framed Roger Rabbit (U) [!]
+  deprecated: 1
 - id: 93553
   kind: 2
   kind_id: 25913
   language: 1
   name: Who Framed Roger Rabbit
+- id: 262299
+  kind: 2
+  kind_id: 25913
+  language: 1
+  name: Who Framed Roger Rabbit
+  source: no-intro
 releases:
 - release:
     id: 25913
@@ -27,23 +34,31 @@ releases:
     kind_id: 25913
     language: 1
     name: Who Framed Roger Rabbit (U) [!]
+    deprecated: 1
   - id: 57930
     kind: 3
     kind_id: 25913
     language: 1
     name: Who Framed Roger Rabbit (U)
+    deprecated: 1
   - id: 63297
     kind: 3
     kind_id: 25913
     language: 2
     name: 威探闯通关 (美版) (动作)-Who Framed Roger Rabbit (USA)
+  - id: 259805
+    kind: 3
+    kind_id: 25913
+    language: 1
+    name: Who Framed Roger Rabbit (USA)
+    source: no-intro
   assets:
   - asset:
       id: 25895
       kind: 3
       kind_id: 25913
       type: 1
-      name: Who Framed Roger Rabbit (U) [!].nes
+      name: Who Framed Roger Rabbit (USA).nes
       format: 1
       size: 131088
       blob_id: 71078
@@ -51,6 +66,7 @@ releases:
         Who Framed Roger Rabbit (U) [!].zip
         Who Framed Roger Rabbit (U).zip
         威探闯通关 (美版) (动作)-Who Framed Roger Rabbit (USA) + Who Framed Roger Rabbit (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=c8895753a379903f7b06f1d4a5cfb654f53390bb
   - asset:
       id: 137474
       kind: 3

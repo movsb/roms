@@ -12,6 +12,13 @@ names:
   kind_id: 11070
   language: 1
   name: F-15 Strike Eagle (F) [!]
+  deprecated: 1
+- id: 261679
+  kind: 2
+  kind_id: 11070
+  language: 1
+  name: F-15 Strike Eagle
+  source: no-intro
 releases:
 - release:
     id: 11070
@@ -27,17 +34,26 @@ releases:
     kind_id: 11070
     language: 1
     name: F-15 Strike Eagle (F) [!]
+    deprecated: 1
+  - id: 258166
+    kind: 3
+    kind_id: 11070
+    language: 1
+    name: F-15 Strike Eagle (France) (En,Fr,Nl)
+    source: no-intro
   assets:
   - asset:
       id: 11052
       kind: 3
       kind_id: 11070
       type: 1
-      name: F-15 打击之鹰 (法版) (模拟射击)-F-15 Strike Eagle (France) (En,Fr,Nl) + F-15 Strike Eagle (F) [!].nes
+      name: F-15 Strike Eagle (France) (En,Fr,Nl).nes
       format: 1
       size: 524304
       blob_id: 57047
-      debug: F-15 打击之鹰 (法版) (模拟射击)-F-15 Strike Eagle (France) (En,Fr,Nl) + F-15 Strike Eagle (F) [!].nes
+      debug: |-
+        F-15 打击之鹰 (法版) (模拟射击)-F-15 Strike Eagle (France) (En,Fr,Nl) + F-15 Strike Eagle (F) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=4a9396c427a89886c93ce6c794c2eb4ef96e750b
   - asset:
       id: 136863
       kind: 3

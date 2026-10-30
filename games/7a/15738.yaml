@@ -13,6 +13,12 @@ names:
   language: 2
   name: 马力欧16
   source: codex
+- id: 261888
+  kind: 2
+  kind_id: 15738
+  language: 1
+  name: Mario 16
+  source: no-intro
 releases:
 - release:
     id: 15740
@@ -23,17 +29,26 @@ releases:
     kind_id: 15740
     language: 1
     name: Mario 16 (1993) (Unl)
+    deprecated: 1
+  - id: 258727
+    kind: 3
+    kind_id: 15740
+    language: 1
+    name: Mario 16 (Asia) (En) (1993) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 15722
       kind: 3
       kind_id: 15740
       type: 1
-      name: Mario 16 (1993) (Unl).nes
+      name: Mario 16 (Asia) (En) (1993) (Pirate).nes
       format: 1
       size: 262160
       blob_id: 61419
-      debug: Mario 16 (1993) (Unl).nes
+      debug: |-
+        Mario 16 (1993) (Unl).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=a4646b1d9d93ec27ebffb4503545762250c72410
 - release:
     id: 15741
     game_id: 15738
@@ -43,16 +58,24 @@ releases:
     kind_id: 15741
     language: 1
     name: Mario 16 (1996) (Unl) [!]
+    deprecated: 1
+  - id: 258728
+    kind: 3
+    kind_id: 15741
+    language: 1
+    name: Mario 16 (Asia) (En) (1996) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 15723
       kind: 3
       kind_id: 15741
       type: 1
-      name: Mario 16 (1996) (Unl) [!].nes
+      name: Mario 16 (Asia) (En) (1996) (Pirate).nes
       format: 1
       size: 262160
       blob_id: 61420
       debug: |-
         Mario 16 (1996) (Unl) [!].nes
         Mario 16 (1996) (Unl) [!].zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=28c9fe8ddd5f80242a5fd024483350154aa54ec6

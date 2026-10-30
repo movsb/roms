@@ -8,12 +8,19 @@ names:
   kind_id: 22984
   language: 1
   name: Super Mario Bros. 17 (Unl) [!]
+  deprecated: 1
 - id: 248691
   kind: 2
   kind_id: 22984
   language: 2
   name: 超级马力欧兄弟17
   source: codex
+- id: 262194
+  kind: 2
+  kind_id: 22984
+  language: 1
+  name: Fighting of the Malilugi
+  source: no-intro
 releases:
 - release:
     id: 22984
@@ -24,14 +31,23 @@ releases:
     kind_id: 22984
     language: 1
     name: Super Mario Bros. 17 (Unl) [!]
+    deprecated: 1
+  - id: 259513
+    kind: 3
+    kind_id: 22984
+    language: 1
+    name: Fighting of the Malilugi (Asia) (Ja) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 22966
       kind: 3
       kind_id: 22984
       type: 1
-      name: Super Mario Bros. 17 (Unl) [!].nes
+      name: Fighting of the Malilugi (Asia) (Ja) (Pirate).nes
       format: 1
       size: 262160
       blob_id: 68296
-      debug: Super Mario Bros. 17 (Unl) [!].nes
+      debug: |-
+        Super Mario Bros. 17 (Unl) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=0f41e80d0a59459320fa4cb7ca0f30535eacaada

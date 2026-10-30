@@ -12,11 +12,19 @@ names:
   kind_id: 18828
   language: 1
   name: Pictionary (U) [!]
+  deprecated: 1
 - id: 92731
   kind: 2
   kind_id: 18828
   language: 1
   name: Pictionary
+  deprecated: 1
+- id: 261981
+  kind: 2
+  kind_id: 18828
+  language: 1
+  name: "Pictionary - The Game of Video Quick Draw"
+  source: no-intro
 releases:
 - release:
     id: 18828
@@ -27,22 +35,29 @@ releases:
     kind_id: 18828
     language: 1
     name: Pictionary (U) [!]
+    deprecated: 1
   - id: 68195
     kind: 3
     kind_id: 18828
     language: 2
     name: "看图猜字 (美版) (益智)-Pictionary - The Game of Video Quick Draw (USA)"
+  - id: 259027
+    kind: 3
+    kind_id: 18828
+    language: 1
+    name: "Pictionary - The Game of Video Quick Draw (USA)"
+    source: no-intro
   assets:
   - asset:
       id: 18810
       kind: 3
       kind_id: 18828
       type: 1
-      name: Pictionary (U) [!].nes
+      name: "Pictionary - The Game of Video Quick Draw (USA).nes"
       format: 1
       size: 262160
       blob_id: 64360
-      debug: "Pictionary (U) [!].zip\n看图猜字 (美版) (益智)-Pictionary - The Game of Video Quick Draw (USA) + Pictionary (U) [!].nes"
+      debug: "Pictionary (U) [!].zip\n看图猜字 (美版) (益智)-Pictionary - The Game of Video Quick Draw (USA) + Pictionary (U) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=83f6e20d75327c9b6586e9cbecf32996a1707d86"
   - asset:
       id: 137185
       kind: 3
@@ -63,14 +78,34 @@ releases:
     kind_id: 18832
     language: 1
     name: Pictionary (U)
+    deprecated: 1
+  - id: 259028
+    kind: 3
+    kind_id: 18832
+    language: 1
+    name: "Pictionary - The Game of Video Quick Draw (USA)"
+    source: no-intro
   assets:
   - asset:
       id: 18814
       kind: 3
       kind_id: 18832
       type: 1
-      name: Pictionary (U).nes
+      name: "Pictionary - The Game of Video Quick Draw (USA).nes"
       format: 1
       size: 262160
       blob_id: 64364
-      debug: Pictionary (U).zip
+      debug: |-
+        Pictionary (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=83f6e20d75327c9b6586e9cbecf32996a1707d86
+  - asset:
+      id: 139666
+      kind: 3
+      kind_id: 18832
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Pictionary%20-%20The%20Game%20of%20Video%20Quick%20Draw%20%28USA%29.png
+      format: 1
+      size: 2647
+      blob_id: 325063
+      debug: libretro-named-titles:rom-asset=18814:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Pictionary%20-%20The%20Game%20of%20Video%20Quick%20Draw%20%28USA%29.png

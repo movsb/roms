@@ -12,11 +12,18 @@ names:
   kind_id: 23510
   language: 1
   name: Tagin' Dragon (Bunch) [!]
+  deprecated: 1
 - id: 93308
   kind: 2
   kind_id: 23510
   language: 1
   name: Tagin' Dragon
+- id: 262213
+  kind: 2
+  kind_id: 23510
+  language: 1
+  name: Tagin' Dragon
+  source: no-intro
 releases:
 - release:
     id: 23514
@@ -27,11 +34,13 @@ releases:
     kind_id: 23514
     language: 1
     name: Tagin' Dragon (U)
+    deprecated: 1
   - id: 52480
     kind: 3
     kind_id: 23514
     language: 1
     name: Tagin' Dragon (Unl) [!]
+    deprecated: 1
   - id: 61897
     kind: 3
     kind_id: 23514
@@ -42,13 +51,20 @@ releases:
     kind_id: 23514
     language: 1
     name: Tagin' Dragon (Bunch) [!]
+    deprecated: 1
+  - id: 259576
+    kind: 3
+    kind_id: 23514
+    language: 1
+    name: Tagin' Dragon (USA) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 23496
       kind: 3
       kind_id: 23514
       type: 1
-      name: Tagin' Dragon (U).nes
+      name: Tagin' Dragon (USA) (Unl).nes
       format: 1
       size: 49168
       blob_id: 68798
@@ -56,3 +72,15 @@ releases:
         Tagin' Dragon (U).zip
         Tagin' Dragon (Unl) [!].zip
         变色龙 (美版) (益智)-Tagin Dragon (USA) (Unl) + Tagin' Dragon (Bunch) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=2028940cf7c757a3a7931a741d5ec79c3554d38c
+  - asset:
+      id: 139831
+      kind: 3
+      kind_id: 23514
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Tagin%27%20Dragon%20%28USA%29%20%28Unl%29.png
+      format: 1
+      size: 2400
+      blob_id: 325205
+      debug: libretro-named-titles:rom-asset=23496:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Tagin%27%20Dragon%20%28USA%29%20%28Unl%29.png

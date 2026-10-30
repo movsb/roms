@@ -19,6 +19,12 @@ names:
   language: 2
   name: 马里奥失踪记
   deprecated: 1
+- id: 261891
+  kind: 2
+  kind_id: 15905
+  language: 1
+  name: Mario is Missing!
+  source: no-intro
 assets:
 - asset:
     id: 135022
@@ -41,17 +47,25 @@ releases:
     kind_id: 15905
     language: 2
     name: 欧版
+  - id: 258736
+    kind: 3
+    kind_id: 15905
+    language: 1
+    name: Mario is Missing! (Europe)
+    source: no-intro
   assets:
   - asset:
       id: 15887
       kind: 3
       kind_id: 15905
       type: 1
-      name: Mario is Missing! (E) [!].nes
+      name: Mario is Missing! (Europe).nes
       format: 1
       size: 262160
       blob_id: 61581
-      debug: Mario is Missing! (E) [!].nes
+      debug: |-
+        Mario is Missing! (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=5b8b30e76de530895114ecc8c01119d64d65d40c
 - release:
     id: 15906
     game_id: 15905
@@ -62,16 +76,23 @@ releases:
     kind_id: 15906
     language: 2
     name: 美版
+  - id: 258737
+    kind: 3
+    kind_id: 15906
+    language: 1
+    name: Mario is Missing! (USA)
+    source: no-intro
   assets:
   - asset:
       id: 15888
       kind: 3
       kind_id: 15906
       type: 1
-      name: Mario is Missing! (U) [!].nes
+      name: Mario is Missing! (USA).nes
       format: 1
       size: 262160
       blob_id: 61582
       debug: |-
         Mario is Missing! (U) [!].nes
         Mario is Missing! (U) [!].zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=3a92c6fe11f730ac71023f80ad041d9813a93455

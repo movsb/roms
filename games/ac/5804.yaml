@@ -7,12 +7,19 @@ names:
   kind_id: 5804
   language: 1
   name: Alter Ego by Shiru (Spectrum Conversion) (PD)
+  deprecated: 1
 - id: 251955
   kind: 2
   kind_id: 5804
   language: 2
   name: 另一个我
   source: codex
+- id: 261502
+  kind: 2
+  kind_id: 5804
+  language: 1
+  name: Alter Ego
+  source: no-intro
 releases:
 - release:
     id: 5804
@@ -23,17 +30,26 @@ releases:
     kind_id: 5804
     language: 1
     name: Alter Ego by Shiru (Spectrum Conversion) (PD)
+    deprecated: 1
+  - id: 257646
+    kind: 3
+    kind_id: 5804
+    language: 1
+    name: Alter Ego (World) (NROM 256) (Aftermarket) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 5786
       kind: 3
       kind_id: 5804
       type: 1
-      name: Alter Ego by Shiru (Spectrum Conversion) (PD).nes
+      name: Alter Ego (World) (NROM 256) (Aftermarket) (Unl).nes
       format: 1
       size: 40976
       blob_id: 52071
-      debug: Alter Ego by Shiru (Spectrum Conversion) (PD).nes
+      debug: |-
+        Alter Ego by Shiru (Spectrum Conversion) (PD).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=54fc1a9a424298f3c5fe12f9c1a03b297cccb2bd
   - asset:
       id: 138162
       kind: 3

@@ -42,17 +42,26 @@ releases:
     kind_id: 11059
     language: 1
     name: F-15 Strike Eagle (G)
+    deprecated: 1
+  - id: 258161
+    kind: 3
+    kind_id: 11059
+    language: 1
+    name: F-15 Strike Eagle (Germany)
+    source: no-intro
   assets:
   - asset:
       id: 11041
       kind: 3
       kind_id: 11059
       type: 1
-      name: F-15 Strike Eagle (G).nes
+      name: F-15 Strike Eagle (Germany).nes
       format: 1
       size: 524304
       blob_id: 57038
-      debug: F-15 Strike Eagle (G).nes
+      debug: |-
+        F-15 Strike Eagle (G).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=0be209c47d70a764a5747617e35054e632d8526f
   - asset:
       id: 138484
       kind: 3
@@ -73,17 +82,26 @@ releases:
     kind_id: 11060
     language: 1
     name: F-15 Strike Eagle (I) [!]
+    deprecated: 1
+  - id: 258162
+    kind: 3
+    kind_id: 11060
+    language: 1
+    name: F-15 Strike Eagle (Italy) (En,It)
+    source: no-intro
   assets:
   - asset:
       id: 11042
       kind: 3
       kind_id: 11060
       type: 1
-      name: F-15 Strike Eagle (I) [!].nes
+      name: F-15 Strike Eagle (Italy) (En,It).nes
       format: 1
       size: 524304
       blob_id: 57039
-      debug: F-15 Strike Eagle (I) [!].nes
+      debug: |-
+        F-15 Strike Eagle (I) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=fb9d508379aea8fbe0477501c322efef0147c397
   - asset:
       id: 136862
       kind: 3
@@ -104,17 +122,37 @@ releases:
     kind_id: 11061
     language: 1
     name: F-15 Strike Eagle (Sw)
+    deprecated: 1
+  - id: 258163
+    kind: 3
+    kind_id: 11061
+    language: 1
+    name: F-15 Strike Eagle (Europe) (En,Sv,Da,Fi)
+    source: no-intro
   assets:
   - asset:
       id: 11043
       kind: 3
       kind_id: 11061
       type: 1
-      name: F-15 Strike Eagle (Sw).nes
+      name: F-15 Strike Eagle (Europe) (En,Sv,Da,Fi).nes
       format: 1
       size: 524304
       blob_id: 57040
-      debug: F-15 Strike Eagle (Sw).nes
+      debug: |-
+        F-15 Strike Eagle (Sw).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=0f4e4c212a6bccad4561ea31889d522007fd5d81
+  - asset:
+      id: 139391
+      kind: 3
+      kind_id: 11061
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/F-15%20Strike%20Eagle%20%28Europe%29%20%28En%2CSv%2CDa%2CFi%29.png
+      format: 1
+      size: 4107
+      blob_id: 324830
+      debug: libretro-named-titles:rom-asset=11043:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/F-15%20Strike%20Eagle%20%28Europe%29%20%28En%2CSv%2CDa%2CFi%29.png
 - release:
     id: 11062
     game_id: 11058
@@ -124,23 +162,31 @@ releases:
     kind_id: 11062
     language: 1
     name: F-15 Strike Eagle (U) [!]
+    deprecated: 1
   - id: 24048
     kind: 3
     kind_id: 11062
     language: 1
     name: F-15 Strike Eagle (U)
+    deprecated: 1
   - id: 60630
     kind: 3
     kind_id: 11062
     language: 2
     name: 侵袭鹰F-15
+  - id: 258164
+    kind: 3
+    kind_id: 11062
+    language: 1
+    name: F-15 Strike Eagle (USA)
+    source: no-intro
   assets:
   - asset:
       id: 11044
       kind: 3
       kind_id: 11062
       type: 1
-      name: F-15 Strike Eagle (U) [!].nes
+      name: F-15 Strike Eagle (USA).nes
       format: 1
       size: 524304
       blob_id: 57041
@@ -149,6 +195,7 @@ releases:
         F-15 Strike Eagle (U).zip
         侵袭鹰F-15.nes
         重复的/F-15 打击之鹰 (美版) (模拟射击)-F-15 Strike Eagle (USA) + F-15 Strike Eagle (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=c08bd7f4e786bcb1f6fe31b1bc4815ba83c69e23
   - asset:
       id: 138485
       kind: 3

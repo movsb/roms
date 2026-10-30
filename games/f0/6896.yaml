@@ -37,6 +37,7 @@ releases:
     kind_id: 6896
     language: 1
     name: Bible Adventures (U) (V1.3)
+    deprecated: 1
   - id: 62413
     kind: 3
     kind_id: 6896
@@ -47,19 +48,27 @@ releases:
     kind_id: 6896
     language: 1
     name: Bible Adventures (Wisdom Tree) (V1.3) [!]
+    deprecated: 1
+  - id: 257767
+    kind: 3
+    kind_id: 6896
+    language: 1
+    name: Bible Adventures (USA) (v1.3) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 6878
       kind: 3
       kind_id: 6896
       type: 1
-      name: Bible Adventures (U) (V1.3).nes
+      name: Bible Adventures (USA) (v1.3) (Unl).nes
       format: 1
       size: 131088
       blob_id: 53106
       debug: |-
         Bible Adventures (U) (V1.3).zip
         圣经大冒险 (美版) (V1.3) (动作)-Bible Adventures (USA) (v1.3) (Unl) + Bible Adventures (Wisdom Tree) (V1.3) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=d84c1c88fd0d5b0a65f6d8f28b1ca37a5ad36c91
   - asset:
       id: 138217
       kind: 3
@@ -80,6 +89,7 @@ releases:
     kind_id: 6897
     language: 1
     name: Bible Adventures (Unl) (V1.4) [!]
+    deprecated: 1
   - id: 62417
     kind: 3
     kind_id: 6897
@@ -90,19 +100,38 @@ releases:
     kind_id: 6897
     language: 1
     name: Bible Adventures (Wisdom Tree) (V1.4) [!]
+    deprecated: 1
+  - id: 257768
+    kind: 3
+    kind_id: 6897
+    language: 1
+    name: Bible Adventures (USA) (v1.4) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 6879
       kind: 3
       kind_id: 6897
       type: 1
-      name: Bible Adventures (Unl) (V1.4) [!].nes
+      name: Bible Adventures (USA) (v1.4) (Unl).nes
       format: 1
       size: 131088
       blob_id: 53107
       debug: |-
         Bible Adventures (Unl) (V1.4) [!].zip
         圣经大冒险 (美版) (V1.4) (动作)-Bible Adventures (USA) (v1.4) (Unl) + Bible Adventures (Wisdom Tree) (V1.4) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=d584942ea61915316302e85de652d9f20479c0f5
+  - asset:
+      id: 139324
+      kind: 3
+      kind_id: 6897
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Bible%20Adventures%20%28USA%29%20%28v1.4%29%20%28Unl%29.png
+      format: 1
+      size: 2830
+      blob_id: 324774
+      debug: libretro-named-titles:rom-asset=6879:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Bible%20Adventures%20%28USA%29%20%28v1.4%29%20%28Unl%29.png
 - release:
     id: 6902
     game_id: 6896

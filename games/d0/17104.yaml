@@ -7,12 +7,19 @@ names:
   kind_id: 17104
   language: 1
   name: Mr. Gimmick (E) [!]
+  deprecated: 1
 - id: 248256
   kind: 2
   kind_id: 17104
   language: 2
   name: 奇妙先生
   source: codex
+- id: 261939
+  kind: 2
+  kind_id: 17104
+  language: 1
+  name: Mr. Gimmick
+  source: no-intro
 releases:
 - release:
     id: 17104
@@ -23,17 +30,26 @@ releases:
     kind_id: 17104
     language: 1
     name: Mr. Gimmick (E) [!]
+    deprecated: 1
+  - id: 258888
+    kind: 3
+    kind_id: 17104
+    language: 1
+    name: Mr. Gimmick (Europe)
+    source: no-intro
   assets:
   - asset:
       id: 17086
       kind: 3
       kind_id: 17104
       type: 1
-      name: Mr. Gimmick (E) [!].nes
+      name: Mr. Gimmick (Europe).nes
       format: 1
       size: 393232
       blob_id: 62698
-      debug: Mr. Gimmick (E) [!].nes
+      debug: |-
+        Mr. Gimmick (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=985972817c937b24df9a06f354b5c3c0b51b15d2
   - asset:
       id: 137145
       kind: 3

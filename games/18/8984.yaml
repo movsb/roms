@@ -7,12 +7,19 @@ names:
   kind_id: 8984
   language: 1
   name: Commandos (Ch)
+  deprecated: 1
 - id: 247624
   kind: 2
   kind_id: 8984
   language: 2
   name: 盟军敢死队
   source: codex
+- id: 261599
+  kind: 2
+  kind_id: 8984
+  language: 1
+  name: Meng Jun Gansidui
+  source: no-intro
 releases:
 - release:
     id: 8984
@@ -23,17 +30,26 @@ releases:
     kind_id: 8984
     language: 1
     name: Commandos (Ch)
+    deprecated: 1
+  - id: 257927
+    kind: 3
+    kind_id: 8984
+    language: 1
+    name: Meng Jun Gansidui (China) (Aftermarket) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 8966
       kind: 3
       kind_id: 8984
       type: 1
-      name: Commandos (Ch).nes
+      name: Meng Jun Gansidui (China) (Aftermarket) (Unl).nes
       format: 1
       size: 524304
       blob_id: 55094
-      debug: Commandos (Ch).nes
+      debug: |-
+        Commandos (Ch).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=ad350f001db2e3c640b2bd9107b86a8f29b68ac0
   - asset:
       id: 138288
       kind: 3

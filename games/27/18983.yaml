@@ -8,12 +8,19 @@ names:
   kind_id: 18983
   language: 1
   name: Pokemon Yellow (Unl) [!]
+  deprecated: 1
 - id: 248375
   kind: 2
   kind_id: 18983
   language: 2
   name: 宝可梦：黄
   source: codex
+- id: 261997
+  kind: 2
+  kind_id: 18983
+  language: 1
+  name: "Pokemon - Yellow Version"
+  source: no-intro
 releases:
 - release:
     id: 18983
@@ -24,14 +31,23 @@ releases:
     kind_id: 18983
     language: 1
     name: Pokemon Yellow (Unl) [!]
+    deprecated: 1
+  - id: 259062
+    kind: 3
+    kind_id: 18983
+    language: 1
+    name: "Pokemon - Yellow Version (Asia) (En) (Pirate)"
+    source: no-intro
   assets:
   - asset:
       id: 18965
       kind: 3
       kind_id: 18983
       type: 1
-      name: Pokemon Yellow (Unl) [!].nes
+      name: "Pokemon - Yellow Version (Asia) (En) (Pirate).nes"
       format: 1
       size: 262160
       blob_id: 64503
-      debug: Pokemon Yellow (Unl) [!].nes
+      debug: |-
+        Pokemon Yellow (Unl) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=b3488e85f5364a31bfee895f2407c897735e6f52

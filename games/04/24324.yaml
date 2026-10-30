@@ -23,17 +23,37 @@ releases:
     kind_id: 24324
     language: 1
     name: Teenage Mutant Ninja Turtles (E) (VC)
+    deprecated: 1
+  - id: 259607
+    kind: 3
+    kind_id: 24324
+    language: 1
+    name: Teenage Mutant Hero Turtles (Europe) (Virtual Console)
+    source: no-intro
   assets:
   - asset:
       id: 24306
       kind: 3
       kind_id: 24324
       type: 1
-      name: Teenage Mutant Ninja Turtles (E) (VC).nes
+      name: Teenage Mutant Hero Turtles (Europe) (Virtual Console).nes
       format: 1
       size: 262160
       blob_id: 69593
-      debug: Teenage Mutant Ninja Turtles (E) (VC).nes
+      debug: |-
+        Teenage Mutant Ninja Turtles (E) (VC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=483bf275e32e132de65754479171d9ee284bb2a6
+  - asset:
+      id: 139838
+      kind: 3
+      kind_id: 24324
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Teenage%20Mutant%20Hero%20Turtles%20%28Europe%29%20%28Virtual%20Console%29.png
+      format: 1
+      size: 3728
+      blob_id: 325212
+      debug: libretro-named-titles:rom-asset=24306:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Teenage%20Mutant%20Hero%20Turtles%20%28Europe%29%20%28Virtual%20Console%29.png
 - release:
     id: 24327
     game_id: 24324
@@ -163,17 +183,37 @@ releases:
     kind_id: 24334
     language: 1
     name: Teenage Mutant Ninja Turtles (U) (VC)
+    deprecated: 1
+  - id: 259608
+    kind: 3
+    kind_id: 24334
+    language: 1
+    name: Teenage Mutant Ninja Turtles (USA) (Virtual Console)
+    source: no-intro
   assets:
   - asset:
       id: 24316
       kind: 3
       kind_id: 24334
       type: 1
-      name: Teenage Mutant Ninja Turtles (U) (VC).nes
+      name: Teenage Mutant Ninja Turtles (USA) (Virtual Console).nes
       format: 1
       size: 262160
       blob_id: 69603
-      debug: Teenage Mutant Ninja Turtles (U) (VC).nes
+      debug: |-
+        Teenage Mutant Ninja Turtles (U) (VC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=58cbdd733b2e60c38f301f2bf8369973a06da9b7
+  - asset:
+      id: 139839
+      kind: 3
+      kind_id: 24334
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Teenage%20Mutant%20Ninja%20Turtles%20%28USA%29%20%28Virtual%20Console%29.png
+      format: 1
+      size: 3728
+      blob_id: 325212
+      debug: libretro-named-titles:rom-asset=24316:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Teenage%20Mutant%20Ninja%20Turtles%20%28USA%29%20%28Virtual%20Console%29.png
 - release:
     id: 24335
     game_id: 24324
@@ -183,6 +223,7 @@ releases:
     kind_id: 24335
     language: 1
     name: Teenage Mutant Ninja Turtles (U) [!]
+    deprecated: 1
   - id: 64392
     kind: 3
     kind_id: 24335
@@ -193,17 +234,23 @@ releases:
     kind_id: 24335
     language: 2
     name: "忍者龟 - 激龟忍者传 (美版) (动作)-Teenage Mutant Ninja Turtles (USA)"
+  - id: 259609
+    kind: 3
+    kind_id: 24335
+    language: 1
+    name: Teenage Mutant Ninja Turtles (USA)
+    source: no-intro
   assets:
   - asset:
       id: 24317
       kind: 3
       kind_id: 24335
       type: 1
-      name: Teenage Mutant Ninja Turtles (U) [!].nes
+      name: Teenage Mutant Ninja Turtles (USA).nes
       format: 1
       size: 262160
       blob_id: 69604
-      debug: "Teenage Mutant Ninja Turtles (U) [!].zip\n忍者神龟1.zip\n忍者龟 - 激龟忍者传 (美版) (动作)-Teenage Mutant Ninja Turtles (USA) + Teenage Mutant Ninja Turtles (U) [!].nes"
+      debug: "Teenage Mutant Ninja Turtles (U) [!].zip\n忍者神龟1.zip\n忍者龟 - 激龟忍者传 (美版) (动作)-Teenage Mutant Ninja Turtles (USA) + Teenage Mutant Ninja Turtles (U) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=b239c2d48e84ca676dee4461d4d6a1f77f34255d"
   - asset:
       id: 137395
       kind: 3
@@ -484,24 +531,33 @@ releases:
     kind_id: 24361
     language: 1
     name: Teenage Mutant Ninja Turtles (U)
+    deprecated: 1
   - id: 54572
     kind: 3
     kind_id: 24361
     language: 1
     name: Teenage_mutant_ninja_turtles
+    deprecated: 1
+  - id: 259610
+    kind: 3
+    kind_id: 24361
+    language: 1
+    name: Teenage Mutant Ninja Turtles (USA)
+    source: no-intro
   assets:
   - asset:
       id: 24343
       kind: 3
       kind_id: 24361
       type: 1
-      name: Teenage Mutant Ninja Turtles (U).nes
+      name: Teenage Mutant Ninja Turtles (USA).nes
       format: 1
       size: 262160
       blob_id: 69630
       debug: |-
         Teenage Mutant Ninja Turtles (U).zip
         Teenage_mutant_ninja_turtles.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=b239c2d48e84ca676dee4461d4d6a1f77f34255d
   - asset:
       id: 138726
       kind: 3
@@ -559,17 +615,24 @@ releases:
     kind_id: 28147
     language: 1
     name: Teenage Mutant Ninja Turtles (I)
+    deprecated: 1
+  - id: 260521
+    kind: 3
+    kind_id: 28147
+    language: 1
+    name: Teenage Mutant Ninja Turtles (Australia)
+    source: no-intro
   assets:
   - asset:
       id: 28129
       kind: 3
       kind_id: 28147
       type: 1
-      name: "忍者龟 - 激龟忍者传 (义大利版) (动作)-Teenage Mutant Ninja Turtles (Italy) + Teenage Mutant Ninja Turtles (I).nes"
+      name: Teenage Mutant Ninja Turtles (Australia).nes
       format: 1
       size: 262160
       blob_id: 72753
-      debug: "忍者龟 - 激龟忍者传 (义大利版) (动作)-Teenage Mutant Ninja Turtles (Italy) + Teenage Mutant Ninja Turtles (I).nes"
+      debug: "忍者龟 - 激龟忍者传 (义大利版) (动作)-Teenage Mutant Ninja Turtles (Italy) + Teenage Mutant Ninja Turtles (I).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=e1933e741206a9976c5773e0c6c1b316fc8759b0"
   - asset:
       id: 138963
       kind: 3
@@ -595,17 +658,24 @@ releases:
     kind_id: 28148
     language: 1
     name: Gekikame Ninja Den (J)
+    deprecated: 1
+  - id: 260522
+    kind: 3
+    kind_id: 28148
+    language: 1
+    name: Gekikame Ninja Den (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 28130
       kind: 3
       kind_id: 28148
       type: 1
-      name: "忍者龟 - 激龟忍者传 (日版) (动作)-Gekikame Ninja Den (Japan) + Gekikame Ninja Den (J).nes"
+      name: Gekikame Ninja Den (Japan).nes
       format: 1
       size: 262160
       blob_id: 72754
-      debug: "忍者龟 - 激龟忍者传 (日版) (动作)-Gekikame Ninja Den (Japan) + Gekikame Ninja Den (J).nes"
+      debug: "忍者龟 - 激龟忍者传 (日版) (动作)-Gekikame Ninja Den (Japan) + Gekikame Ninja Den (J).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=d3cbc72802ac0d56e4f992652e16a60383bd93c3"
   - asset:
       id: 138964
       kind: 3
@@ -631,17 +701,24 @@ releases:
     kind_id: 28149
     language: 1
     name: Teenage Mutant Hero Turtles (E) [!]
+    deprecated: 1
+  - id: 260523
+    kind: 3
+    kind_id: 28149
+    language: 1
+    name: Teenage Mutant Hero Turtles (Europe)
+    source: no-intro
   assets:
   - asset:
       id: 28131
       kind: 3
       kind_id: 28149
       type: 1
-      name: "忍者龟 - 激龟忍者传 (欧版) (动作)-Teenage Mutant Hero Turtles (Europe) + Teenage Mutant Hero Turtles (E) [!].nes"
+      name: Teenage Mutant Hero Turtles (Europe).nes
       format: 1
       size: 262160
       blob_id: 72755
-      debug: "忍者龟 - 激龟忍者传 (欧版) (动作)-Teenage Mutant Hero Turtles (Europe) + Teenage Mutant Hero Turtles (E) [!].nes"
+      debug: "忍者龟 - 激龟忍者传 (欧版) (动作)-Teenage Mutant Hero Turtles (Europe) + Teenage Mutant Hero Turtles (E) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=9f42c6c9a34e808138eafdd314bae359d80e6ff9"
   - asset:
       id: 138965
       kind: 3

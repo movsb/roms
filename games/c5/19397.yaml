@@ -7,12 +7,19 @@ names:
   kind_id: 19397
   language: 1
   name: Puteshestvie po Evropa (R)
+  deprecated: 1
 - id: 248408
   kind: 2
   kind_id: 19397
   language: 2
   name: 欧洲旅行
   source: codex
+- id: 262020
+  kind: 2
+  kind_id: 19397
+  language: 1
+  name: Puteshestvie po Europe
+  source: no-intro
 releases:
 - release:
     id: 19397
@@ -23,14 +30,34 @@ releases:
     kind_id: 19397
     language: 1
     name: Puteshestvie po Evropa (R)
+    deprecated: 1
+  - id: 259113
+    kind: 3
+    kind_id: 19397
+    language: 1
+    name: Puteshestvie po Europe (Russia) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 19379
       kind: 3
       kind_id: 19397
       type: 1
-      name: Puteshestvie po Evropa (R).nes
+      name: Puteshestvie po Europe (Russia) (Unl).nes
       format: 1
       size: 32784
       blob_id: 64901
-      debug: Puteshestvie po Evropa (R).nes
+      debug: |-
+        Puteshestvie po Evropa (R).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=894bd6be70ced0181dcfebcdbc1230486b002a68
+  - asset:
+      id: 139686
+      kind: 3
+      kind_id: 19397
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Puteshestvie%20po%20Europe%20%28Russia%29%20%28Unl%29.png
+      format: 1
+      size: 1937
+      blob_id: 325081
+      debug: libretro-named-titles:rom-asset=19379:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Puteshestvie%20po%20Europe%20%28Russia%29%20%28Unl%29.png

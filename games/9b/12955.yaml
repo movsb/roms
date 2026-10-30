@@ -12,11 +12,18 @@ names:
   kind_id: 12955
   language: 1
   name: Heavy Shreddin' (U) [!]
+  deprecated: 1
 - id: 92058
   kind: 2
   kind_id: 12955
   language: 1
   name: Heavy Shreddin'
+- id: 261766
+  kind: 2
+  kind_id: 12955
+  language: 1
+  name: Heavy Shreddin'
+  source: no-intro
 releases:
 - release:
     id: 12955
@@ -27,23 +34,31 @@ releases:
     kind_id: 12955
     language: 1
     name: Heavy Shreddin' (U) [!]
+    deprecated: 1
   - id: 28466
     kind: 3
     kind_id: 12955
     language: 1
     name: Heavy Shreddin' (U)
+    deprecated: 1
   - id: 70865
     kind: 3
     kind_id: 12955
     language: 2
     name: 重装雪板
+  - id: 258403
+    kind: 3
+    kind_id: 12955
+    language: 1
+    name: Heavy Shreddin' (USA)
+    source: no-intro
   assets:
   - asset:
       id: 12937
       kind: 3
       kind_id: 12955
       type: 1
-      name: Heavy Shreddin' (U) [!].nes
+      name: Heavy Shreddin' (USA).nes
       format: 1
       size: 262160
       blob_id: 58835
@@ -51,6 +66,7 @@ releases:
         Heavy Shreddin' (U) [!].zip
         Heavy Shreddin' (U).zip
         重装雪板 + Heavy Shreddin' (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=3195b7813c7822a020c688cad6587a22b3835ceb
   - asset:
       id: 136955
       kind: 3

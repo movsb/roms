@@ -27,11 +27,13 @@ releases:
     kind_id: 14546
     language: 1
     name: Kid Klown (U) [!p]
+    deprecated: 1
   - id: 32228
     kind: 3
     kind_id: 14546
     language: 1
     name: Kid Klown (U)
+    deprecated: 1
   - id: 63575
     kind: 3
     kind_id: 14546
@@ -42,13 +44,20 @@ releases:
     kind_id: 14546
     language: 1
     name: Kid Klown (U) [!]
+    deprecated: 1
+  - id: 258563
+    kind: 3
+    kind_id: 14546
+    language: 1
+    name: Kid Klown in Night Mayor World (USA)
+    source: no-intro
   assets:
   - asset:
       id: 14528
       kind: 3
       kind_id: 14546
       type: 1
-      name: Kid Klown (U) [!p].nes
+      name: Kid Klown in Night Mayor World (USA).nes
       format: 1
       size: 262160
       blob_id: 60308
@@ -56,6 +65,18 @@ releases:
         Kid Klown (U) [!p].zip
         Kid Klown (U).zip
         小丑王子大冒险 (美版) (动作)-Kid Klown in Night Mayor World (USA) + Kid Klown (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=424c7f40f5cc383634c2e454d95c64b3d92118ab
+  - asset:
+      id: 139491
+      kind: 3
+      kind_id: 14546
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Kid%20Klown%20in%20Night%20Mayor%20World%20%28USA%29.png
+      format: 1
+      size: 3110
+      blob_id: 324919
+      debug: libretro-named-titles:rom-asset=14528:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Kid%20Klown%20in%20Night%20Mayor%20World%20%28USA%29.png
 - release:
     id: 14550
     game_id: 14546

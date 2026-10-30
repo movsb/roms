@@ -43,17 +43,26 @@ releases:
     kind_id: 23185
     language: 1
     name: Super Mario World (Unl) [a1]
+    deprecated: 1
+  - id: 259529
+    kind: 3
+    kind_id: 23185
+    language: 1
+    name: Super Mario World (Taiwan) (En) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 23167
       kind: 3
       kind_id: 23185
       type: 1
-      name: Super Mario World (Unl) [a1].nes
+      name: Super Mario World (Taiwan) (En) (Pirate).nes
       format: 1
       size: 786448
       blob_id: 68491
-      debug: Super Mario World (Unl) [a1].nes
+      debug: |-
+        Super Mario World (Unl) [a1].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=6c345af4b1ff48e9b0c695c02328383604d7cc48
 - release:
     id: 23187
     game_id: 23184
@@ -63,18 +72,25 @@ releases:
     kind_id: 23187
     language: 1
     name: Super Mario World (Unl)
+    deprecated: 1
   - id: 70344
     kind: 3
     kind_id: 23187
     language: 2
     name: 超级马里奥世界
+  - id: 259530
+    kind: 3
+    kind_id: 23187
+    language: 1
+    name: Super Mario World (Asia) (En) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 23169
       kind: 3
       kind_id: 23187
       type: 1
-      name: Super Mario World (Unl).nes
+      name: Super Mario World (Asia) (En) (Pirate).nes
       format: 1
       size: 786448
       blob_id: 68493
@@ -82,3 +98,15 @@ releases:
         Super Mario World (Unl).nes
         Super Mario World (Unl).zip
         超级马里奥世界.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=acec431cab42c1143374499482b0a1332a93aaa0
+  - asset:
+      id: 139821
+      kind: 3
+      kind_id: 23187
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Super%20Mario%20World%20%28Asia%29%20%28En%29%20%28Pirate%29.png
+      format: 1
+      size: 5223
+      blob_id: 325195
+      debug: libretro-named-titles:rom-asset=23169:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Super%20Mario%20World%20%28Asia%29%20%28En%29%20%28Pirate%29.png

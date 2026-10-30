@@ -12,6 +12,13 @@ names:
   kind_id: 28851
   language: 1
   name: Battle Fleet (J)
+  deprecated: 1
+- id: 263179
+  kind: 2
+  kind_id: 28851
+  language: 1
+  name: Battle Fleet
+  source: no-intro
 releases:
 - release:
     id: 28851
@@ -27,17 +34,26 @@ releases:
     kind_id: 28851
     language: 1
     name: Battle Fleet (J)
+    deprecated: 1
+  - id: 260827
+    kind: 3
+    kind_id: 28851
+    language: 1
+    name: Battle Fleet (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 28833
       kind: 3
       kind_id: 28851
       type: 1
-      name: 海战舰队 (日版) (策略)-Battle Fleet (Japan) + Battle Fleet (J).nes
+      name: Battle Fleet (Japan).nes
       format: 1
       size: 262160
       blob_id: 73217
-      debug: 海战舰队 (日版) (策略)-Battle Fleet (Japan) + Battle Fleet (J).nes
+      debug: |-
+        海战舰队 (日版) (策略)-Battle Fleet (Japan) + Battle Fleet (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=442e581079afb3a36fb110c5199f56bd2b5e496a
   - asset:
       id: 139072
       kind: 3

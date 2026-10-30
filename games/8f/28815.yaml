@@ -13,6 +13,13 @@ names:
   language: 1
   name: "Taito Grand Prix - Eikou heno License"
   source: codex
+  deprecated: 1
+- id: 263168
+  kind: 2
+  kind_id: 28815
+  language: 1
+  name: "Taito Grand Prix - Eikou e no License"
+  source: no-intro
 releases:
 - release:
     id: 28815
@@ -23,14 +30,31 @@ releases:
     kind_id: 28815
     language: 2
     name: "泰德格兰披治大赛车 (日版) (竞赛)-Taito Grand Prix - Eikou heno License (Japan)"
+  - id: 260816
+    kind: 3
+    kind_id: 28815
+    language: 1
+    name: "Taito Grand Prix - Eikou e no License (Japan)"
+    source: no-intro
   assets:
   - asset:
       id: 28797
       kind: 3
       kind_id: 28815
       type: 1
-      name: "泰德格兰披治大赛车 (日版) (竞赛)-Taito Grand Prix - Eikou heno License (Japan).nes"
+      name: "Taito Grand Prix - Eikou e no License (Japan).nes"
       format: 1
       size: 262160
       blob_id: 73195
-      debug: "泰德格兰披治大赛车 (日版) (竞赛)-Taito Grand Prix - Eikou heno License (Japan).nes"
+      debug: "泰德格兰披治大赛车 (日版) (竞赛)-Taito Grand Prix - Eikou heno License (Japan).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=5b90da517234e576358a278c4f36076ef57232f2"
+  - asset:
+      id: 140156
+      kind: 3
+      kind_id: 28815
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Taito%20Grand%20Prix%20-%20Eikou%20e%20no%20License%20%28Japan%29.png
+      format: 1
+      size: 1680
+      blob_id: 325483
+      debug: libretro-named-titles:rom-asset=28797:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Taito%20Grand%20Prix%20-%20Eikou%20e%20no%20License%20%28Japan%29.png

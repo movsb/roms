@@ -7,12 +7,19 @@ names:
   kind_id: 11100
   language: 1
   name: FIFA International 2' 96 (Unl) [!]
+  deprecated: 1
 - id: 249148
   kind: 2
   kind_id: 11100
   language: 2
   name: FIFA国际足球2 96
   source: codex
+- id: 261686
+  kind: 2
+  kind_id: 11100
+  language: 1
+  name: FIFA International 2 96
+  source: no-intro
 releases:
 - release:
     id: 11100
@@ -23,14 +30,23 @@ releases:
     kind_id: 11100
     language: 1
     name: FIFA International 2' 96 (Unl) [!]
+    deprecated: 1
+  - id: 258174
+    kind: 3
+    kind_id: 11100
+    language: 1
+    name: FIFA International 2 96 (Asia) (En) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 11082
       kind: 3
       kind_id: 11100
       type: 1
-      name: FIFA International 2' 96 (Unl) [!].nes
+      name: FIFA International 2 96 (Asia) (En) (Pirate).nes
       format: 1
       size: 262160
       blob_id: 57074
-      debug: FIFA International 2' 96 (Unl) [!].nes
+      debug: |-
+        FIFA International 2' 96 (Unl) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=54f6e9c7f59d7a1b961f694716f5d4967bb55aa8

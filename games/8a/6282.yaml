@@ -7,12 +7,19 @@ names:
   kind_id: 6282
   language: 1
   name: Bakushou! Star Monomane Shitennou (J)
+  deprecated: 1
 - id: 247514
   kind: 2
   kind_id: 6282
   language: 2
   name: 爆笑！明星模仿四天王
   source: codex
+- id: 261521
+  kind: 2
+  kind_id: 6282
+  language: 1
+  name: Bakushou! Star Monomane Shitennou
+  source: no-intro
 releases:
 - release:
     id: 6282
@@ -23,17 +30,26 @@ releases:
     kind_id: 6282
     language: 1
     name: Bakushou! Star Monomane Shitennou (J)
+    deprecated: 1
+  - id: 257689
+    kind: 3
+    kind_id: 6282
+    language: 1
+    name: Bakushou! Star Monomane Shitennou (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 6264
       kind: 3
       kind_id: 6282
       type: 1
-      name: Bakushou! Star Monomane Shitennou (J).nes
+      name: Bakushou! Star Monomane Shitennou (Japan).nes
       format: 1
       size: 131088
       blob_id: 52524
-      debug: Bakushou! Star Monomane Shitennou (J).nes
+      debug: |-
+        Bakushou! Star Monomane Shitennou (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=c880d8f166d99783bbca0ab8fb9cc5f9783147d9
   - asset:
       id: 138442
       kind: 3

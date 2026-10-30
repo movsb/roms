@@ -27,17 +27,26 @@ releases:
     kind_id: 9432
     language: 1
     name: Darkman (E) [!]
+    deprecated: 1
+  - id: 257970
+    kind: 3
+    kind_id: 9432
+    language: 1
+    name: Darkman (Europe)
+    source: no-intro
   assets:
   - asset:
       id: 9414
       kind: 3
       kind_id: 9432
       type: 1
-      name: Darkman (E) [!].nes
+      name: Darkman (Europe).nes
       format: 1
       size: 262160
       blob_id: 55513
-      debug: Darkman (E) [!].nes
+      debug: |-
+        Darkman (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=3c86f80062a16825b56a8669121a1cb1beec1168
   - asset:
       id: 136795
       kind: 3
@@ -58,23 +67,31 @@ releases:
     kind_id: 9433
     language: 1
     name: Darkman (U) [!]
+    deprecated: 1
   - id: 20192
     kind: 3
     kind_id: 9433
     language: 1
     name: Darkman (U)
+    deprecated: 1
   - id: 61889
     kind: 3
     kind_id: 9433
     language: 2
     name: 变形黑侠 (美版) (动作)-Darkman (USA)
+  - id: 257971
+    kind: 3
+    kind_id: 9433
+    language: 1
+    name: Darkman (USA)
+    source: no-intro
   assets:
   - asset:
       id: 9415
       kind: 3
       kind_id: 9433
       type: 1
-      name: Darkman (U) [!].nes
+      name: Darkman (USA).nes
       format: 1
       size: 262160
       blob_id: 55514
@@ -82,6 +99,7 @@ releases:
         Darkman (U) [!].zip
         Darkman (U).zip
         变形黑侠 (美版) (动作)-Darkman (USA) + Darkman (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=5594476de54a0a8182957111025ed9c37b615975
   - asset:
       id: 138468
       kind: 3

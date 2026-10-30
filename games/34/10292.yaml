@@ -7,12 +7,19 @@ names:
   kind_id: 10292
   language: 1
   name: Dragon Ball (F) (PRG0) [!]
+  deprecated: 1
 - id: 247702
   kind: 2
   kind_id: 10292
   language: 2
   name: 龙珠：神龙之谜
   source: codex
+- id: 261654
+  kind: 2
+  kind_id: 10292
+  language: 1
+  name: "Dragon Ball - Le Secret du Dragon"
+  source: no-intro
 releases:
 - release:
     id: 10292
@@ -23,17 +30,26 @@ releases:
     kind_id: 10292
     language: 1
     name: Dragon Ball (F) (PRG0) [!]
+    deprecated: 1
+  - id: 258076
+    kind: 3
+    kind_id: 10292
+    language: 1
+    name: "Dragon Ball - Le Secret du Dragon (France)"
+    source: no-intro
   assets:
   - asset:
       id: 10274
       kind: 3
       kind_id: 10292
       type: 1
-      name: Dragon Ball (F) (PRG0) [!].nes
+      name: "Dragon Ball - Le Secret du Dragon (France).nes"
       format: 1
       size: 163856
       blob_id: 56320
-      debug: Dragon Ball (F) (PRG0) [!].nes
+      debug: |-
+        Dragon Ball (F) (PRG0) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=36de100a55828576264b449895ef3ebc4bbbec3f
   - asset:
       id: 136828
       kind: 3

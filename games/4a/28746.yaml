@@ -12,6 +12,13 @@ names:
   kind_id: 28746
   language: 1
   name: Shui Hu Zhuan (Ch)
+  deprecated: 1
+- id: 263142
+  kind: 2
+  kind_id: 28746
+  language: 1
+  name: Shuihu Zhuan
+  source: no-intro
 releases:
 - release:
     id: 28746
@@ -27,14 +34,23 @@ releases:
     kind_id: 28746
     language: 1
     name: Shui Hu Zhuan (Ch)
+    deprecated: 1
+  - id: 260788
+    kind: 3
+    kind_id: 28746
+    language: 1
+    name: Shuihu Zhuan (China) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 28728
       kind: 3
       kind_id: 28746
       type: 1
-      name: 水浒传 + Shui Hu Zhuan (Ch).nes
+      name: Shuihu Zhuan (China) (Pirate).nes
       format: 1
       size: 524304
       blob_id: 73153
-      debug: 水浒传 + Shui Hu Zhuan (Ch).nes
+      debug: |-
+        水浒传 + Shui Hu Zhuan (Ch).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=83940bde54b5d51bef92a3906424d1d8e008eb48

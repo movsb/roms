@@ -7,17 +7,25 @@ names:
   kind_id: 23156
   language: 1
   name: Super Mario Kart Raider (Unl) [!]
+  deprecated: 1
 - id: 51717
   kind: 2
   kind_id: 23156
   language: 1
   name: Super Mario Kart Rider (Unl) [!]
+  deprecated: 1
 - id: 248694
   kind: 2
   kind_id: 23156
   language: 2
   name: 超级马力欧卡丁车
   source: codex
+- id: 262197
+  kind: 2
+  kind_id: 23156
+  language: 1
+  name: Super Mario Kart Rider
+  source: no-intro
 releases:
 - release:
     id: 23156
@@ -28,21 +36,41 @@ releases:
     kind_id: 23156
     language: 1
     name: Super Mario Kart Raider (Unl) [!]
+    deprecated: 1
   - id: 51718
     kind: 3
     kind_id: 23156
     language: 1
     name: Super Mario Kart Rider (Unl) [!]
+    deprecated: 1
+  - id: 259526
+    kind: 3
+    kind_id: 23156
+    language: 1
+    name: Super Mario Kart Rider (Asia) (En) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 23138
       kind: 3
       kind_id: 23156
       type: 1
-      name: Super Mario Kart Raider (Unl) [!].nes
+      name: Super Mario Kart Rider (Asia) (En) (Pirate).nes
       format: 1
       size: 196624
       blob_id: 68463
       debug: |-
         Super Mario Kart Raider (Unl) [!].zip
         Super Mario Kart Rider (Unl) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=39b637578cfeeab66ad7be9fb42763710c3e352f
+  - asset:
+      id: 139819
+      kind: 3
+      kind_id: 23156
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Super%20Mario%20Kart%20Rider%20%28Asia%29%20%28En%29%20%28Pirate%29.png
+      format: 1
+      size: 6863
+      blob_id: 325193
+      debug: libretro-named-titles:rom-asset=23138:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Super%20Mario%20Kart%20Rider%20%28Asia%29%20%28En%29%20%28Pirate%29.png

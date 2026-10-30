@@ -7,12 +7,19 @@ names:
   kind_id: 9315
   language: 1
   name: D-Pad Hero V1.1RC1 (2009.02.04) (PD)
+  deprecated: 1
 - id: 252658
   kind: 2
   kind_id: 9315
   language: 2
   name: 十字键英雄V1.1
   source: codex
+- id: 261613
+  kind: 2
+  kind_id: 9315
+  language: 1
+  name: D+Pad Hero
+  source: no-intro
 releases:
 - release:
     id: 9315
@@ -23,17 +30,26 @@ releases:
     kind_id: 9315
     language: 1
     name: D-Pad Hero V1.1RC1 (2009.02.04) (PD)
+    deprecated: 1
+  - id: 257960
+    kind: 3
+    kind_id: 9315
+    language: 1
+    name: D+Pad Hero (USA) (v1.1) (Aftermarket) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 9297
       kind: 3
       kind_id: 9315
       type: 1
-      name: D-Pad Hero V1.1RC1 (2009.02.04) (PD).nes
+      name: D+Pad Hero (USA) (v1.1) (Aftermarket) (Unl).nes
       format: 1
       size: 262160
       blob_id: 55405
-      debug: D-Pad Hero V1.1RC1 (2009.02.04) (PD).nes
+      debug: |-
+        D-Pad Hero V1.1RC1 (2009.02.04) (PD).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=1c15f179218ffc0a62ee98d9dc7a8474b65d1603
   - asset:
       id: 138302
       kind: 3

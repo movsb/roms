@@ -7,12 +7,19 @@ names:
   kind_id: 10730
   language: 1
   name: Duck Tales III
+  deprecated: 1
 - id: 247732
   kind: 2
   kind_id: 10730
   language: 2
   name: 唐老鸭梦冒险3
   source: codex
+- id: 261666
+  kind: 2
+  kind_id: 10730
+  language: 1
+  name: DuckTales III
+  source: no-intro
 releases:
 - release:
     id: 10730
@@ -23,19 +30,38 @@ releases:
     kind_id: 10730
     language: 1
     name: Duck Tales III (Duck Tales) [p1][!]
+    deprecated: 1
+  - id: 258120
+    kind: 3
+    kind_id: 10730
+    language: 1
+    name: DuckTales III (Asia) (En) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 10712
       kind: 3
       kind_id: 10730
       type: 1
-      name: Duck Tales III (Duck Tales) [p1][!].nes
+      name: DuckTales III (Asia) (En) (Pirate).nes
       format: 1
       size: 131088
       blob_id: 56732
       debug: |-
         Duck Tales III (Duck Tales) [p1][!].nes
         Duck Tales III (Duck Tales) [p1][!].zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=112780531d995b39b9592f2e04bd13690d9031cb
+  - asset:
+      id: 139386
+      kind: 3
+      kind_id: 10730
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/DuckTales%20III%20%28Asia%29%20%28En%29%20%28Pirate%29.png
+      format: 1
+      size: 2039
+      blob_id: 324825
+      debug: libretro-named-titles:rom-asset=10712:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/DuckTales%20III%20%28Asia%29%20%28En%29%20%28Pirate%29.png
 - release:
     id: 10732
     game_id: 10730
@@ -45,17 +71,26 @@ releases:
     kind_id: 10732
     language: 1
     name: Duck Tales III (R) [!]
+    deprecated: 1
+  - id: 258121
+    kind: 3
+    kind_id: 10732
+    language: 1
+    name: DuckTales III (Russia) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 10714
       kind: 3
       kind_id: 10732
       type: 1
-      name: Duck Tales III (R) [!].nes
+      name: DuckTales III (Russia) (Pirate).nes
       format: 1
       size: 131088
       blob_id: 56733
-      debug: Duck Tales III (R) [!].nes
+      debug: |-
+        Duck Tales III (R) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=ec1998d8b1af72628305daf15bd9dd100bf7d3ab
   - asset:
       id: 136848
       kind: 3

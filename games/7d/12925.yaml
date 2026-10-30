@@ -23,17 +23,26 @@ releases:
     kind_id: 12925
     language: 1
     name: Hayauchi Super Igo (J) (PRG0) [!]
+    deprecated: 1
+  - id: 258399
+    kind: 3
+    kind_id: 12925
+    language: 1
+    name: Hayauchi Super Igo (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 12907
       kind: 3
       kind_id: 12925
       type: 1
-      name: Hayauchi Super Igo (J) (PRG0) [!].nes
+      name: Hayauchi Super Igo (Japan).nes
       format: 1
       size: 65552
       blob_id: 58806
-      debug: Hayauchi Super Igo (J) (PRG0) [!].nes
+      debug: |-
+        Hayauchi Super Igo (J) (PRG0) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=e1a37fc82bd0ba7a20b4bc49c22ee82406f66f2f
   - asset:
       id: 136953
       kind: 3
@@ -54,17 +63,37 @@ releases:
     kind_id: 12926
     language: 1
     name: Hayauchi Super Igo (J) (PRG1)
+    deprecated: 1
+  - id: 258400
+    kind: 3
+    kind_id: 12926
+    language: 1
+    name: Hayauchi Super Igo (Japan) (Rev 1)
+    source: no-intro
   assets:
   - asset:
       id: 12908
       kind: 3
       kind_id: 12926
       type: 1
-      name: Hayauchi Super Igo (J) (PRG1).nes
+      name: Hayauchi Super Igo (Japan) (Rev 1).nes
       format: 1
       size: 65552
       blob_id: 58807
-      debug: Hayauchi Super Igo (J) (PRG1).nes
+      debug: |-
+        Hayauchi Super Igo (J) (PRG1).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=fd4bdd926bc499cd610df8ba0db0a0b5e2ba9685
+  - asset:
+      id: 139443
+      kind: 3
+      kind_id: 12926
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Hayauchi%20Super%20Igo%20%28Japan%29%20%28Rev%201%29.png
+      format: 1
+      size: 3616
+      blob_id: 324874
+      debug: libretro-named-titles:rom-asset=12908:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Hayauchi%20Super%20Igo%20%28Japan%29%20%28Rev%201%29.png
 - release:
     id: 12928
     game_id: 12925

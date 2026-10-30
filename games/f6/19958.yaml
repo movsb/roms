@@ -12,11 +12,18 @@ names:
   kind_id: 19958
   language: 1
   name: Road Runner (Tengen) [!]
+  deprecated: 1
 - id: 92859
   kind: 2
   kind_id: 19958
   language: 1
   name: Road Runner
+- id: 262054
+  kind: 2
+  kind_id: 19958
+  language: 1
+  name: Road Runner
+  source: no-intro
 releases:
 - release:
     id: 19964
@@ -27,17 +34,37 @@ releases:
     kind_id: 19964
     language: 1
     name: Road Runner (U)
+    deprecated: 1
+  - id: 259176
+    kind: 3
+    kind_id: 19964
+    language: 1
+    name: Road Runner (USA) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 19946
       kind: 3
       kind_id: 19964
       type: 1
-      name: Road Runner (U).nes
+      name: Road Runner (USA) (Unl).nes
       format: 1
       size: 196624
       blob_id: 65425
-      debug: Road Runner (U).zip
+      debug: |-
+        Road Runner (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=830ded7847f0c53a7872bc8685517f2b081b3354
+  - asset:
+      id: 139701
+      kind: 3
+      kind_id: 19964
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Road%20Runner%20%28USA%29%20%28Unl%29.png
+      format: 1
+      size: 3094
+      blob_id: 325093
+      debug: libretro-named-titles:rom-asset=19946:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Road%20Runner%20%28USA%29%20%28Unl%29.png
 - release:
     id: 19965
     game_id: 19958
@@ -47,6 +74,7 @@ releases:
     kind_id: 19965
     language: 1
     name: Road Runner (Unl) [!]
+    deprecated: 1
   - id: 64673
     kind: 3
     kind_id: 19965
@@ -57,16 +85,35 @@ releases:
     kind_id: 19965
     language: 1
     name: Road Runner (Tengen) [!]
+    deprecated: 1
+  - id: 259177
+    kind: 3
+    kind_id: 19965
+    language: 1
+    name: Road Runner (USA) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 19947
       kind: 3
       kind_id: 19965
       type: 1
-      name: Road Runner (Unl) [!].nes
+      name: Road Runner (USA) (Unl).nes
       format: 1
       size: 196624
       blob_id: 65426
       debug: |-
         Road Runner (Unl) [!].zip
         快腿哔哔鸟 (美版) (动作)-Road Runner (USA) (Unl) + Road Runner (Tengen) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=830ded7847f0c53a7872bc8685517f2b081b3354
+  - asset:
+      id: 139702
+      kind: 3
+      kind_id: 19965
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Road%20Runner%20%28USA%29%20%28Unl%29.png
+      format: 1
+      size: 3094
+      blob_id: 325093
+      debug: libretro-named-titles:rom-asset=19947:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Road%20Runner%20%28USA%29%20%28Unl%29.png

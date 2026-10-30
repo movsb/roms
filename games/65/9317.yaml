@@ -13,6 +13,12 @@ names:
   language: 2
   name: DJ小子
   source: codex
+- id: 261615
+  kind: 2
+  kind_id: 9317
+  language: 1
+  name: D.J. Boy
+  source: no-intro
 releases:
 - release:
     id: 9317
@@ -23,16 +29,35 @@ releases:
     kind_id: 9317
     language: 1
     name: D.J. Boy (Unl) [!]
+    deprecated: 1
+  - id: 257962
+    kind: 3
+    kind_id: 9317
+    language: 1
+    name: D.J. Boy (Asia) (En) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 9299
       kind: 3
       kind_id: 9317
       type: 1
-      name: D.J. Boy (Unl) [!].nes
+      name: D.J. Boy (Asia) (En) (Pirate).nes
       format: 1
       size: 262160
       blob_id: 55407
       debug: |-
         D.J. Boy (Unl) [!].nes
         D.J. Boy (Unl) [!].zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=c0f3af1861fcae039c0e4d7a26aab2878289afbe
+  - asset:
+      id: 139359
+      kind: 3
+      kind_id: 9317
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/D.J.%20Boy%20%28Asia%29%20%28En%29%20%28Pirate%29.png
+      format: 1
+      size: 769
+      blob_id: 324801
+      debug: libretro-named-titles:rom-asset=9299:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/D.J.%20Boy%20%28Asia%29%20%28En%29%20%28Pirate%29.png

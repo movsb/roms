@@ -13,6 +13,12 @@ names:
   language: 1
   name: "Zoda's Revenge - StarTropics II"
   source: codex
+- id: 263216
+  kind: 2
+  kind_id: 28989
+  language: 1
+  name: "Zoda's Revenge - StarTropics II"
+  source: no-intro
 releases:
 - release:
     id: 28989
@@ -23,14 +29,33 @@ releases:
     kind_id: 28989
     language: 2
     name: 热带之星2
+  - id: 260879
+    kind: 3
+    kind_id: 28989
+    language: 1
+    name: "Zoda's Revenge - StarTropics II (USA)"
+    source: no-intro
   assets:
   - asset:
       id: 28971
       kind: 3
       kind_id: 28989
       type: 1
-      name: 热带之星2.nes
+      name: "Zoda's Revenge - StarTropics II (USA).nes"
       format: 1
       size: 524304
       blob_id: 73300
-      debug: 热带之星2.zip
+      debug: |-
+        热带之星2.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=fcb1ef7398b842ebd28c3227852d7a132ce7b887
+  - asset:
+      id: 140169
+      kind: 3
+      kind_id: 28989
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Zoda%27s%20Revenge%20-%20StarTropics%20II%20%28USA%29.png
+      format: 1
+      size: 2625
+      blob_id: 325151
+      debug: libretro-named-titles:rom-asset=28971:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Zoda%27s%20Revenge%20-%20StarTropics%20II%20%28USA%29.png

@@ -7,12 +7,19 @@ names:
   kind_id: 14927
   language: 1
   name: La Bi Xiao Xin II (Ch)
+  deprecated: 1
 - id: 248067
   kind: 2
   kind_id: 14927
   language: 2
   name: 蜡笔小新2
   source: codex
+- id: 261845
+  kind: 2
+  kind_id: 14927
+  language: 1
+  name: Labi Xiao Xin II
+  source: no-intro
 releases:
 - release:
     id: 14927
@@ -23,14 +30,23 @@ releases:
     kind_id: 14927
     language: 1
     name: La Bi Xiao Xin II (Ch)
+    deprecated: 1
+  - id: 258614
+    kind: 3
+    kind_id: 14927
+    language: 1
+    name: Labi Xiao Xin II (Asia) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 14909
       kind: 3
       kind_id: 14927
       type: 1
-      name: La Bi Xiao Xin II (Ch).nes
+      name: Labi Xiao Xin II (Asia) (Pirate).nes
       format: 1
       size: 262160
       blob_id: 60660
-      debug: La Bi Xiao Xin II (Ch).nes
+      debug: |-
+        La Bi Xiao Xin II (Ch).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=f85b0368f42806643e66a981813590ad5fae2e0b

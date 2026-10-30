@@ -13,6 +13,13 @@ names:
   language: 1
   name: "TwinBee 3 - Poko Poko Dai Maou"
   source: codex
+  deprecated: 1
+- id: 262522
+  kind: 2
+  kind_id: 27039
+  language: 1
+  name: "TwinBee 3 - Poko Poko Daimaou"
+  source: no-intro
 releases:
 - release:
     id: 27039
@@ -23,14 +30,31 @@ releases:
     kind_id: 27039
     language: 2
     name: "兵蜂 III - 波可波可大魔王 (日版)(Beta) (射击)-TwinBee 3 - Poko Poko Dai Maou (Japan) (Beta)"
+  - id: 260102
+    kind: 3
+    kind_id: 27039
+    language: 1
+    name: "TwinBee 3 - Poko Poko Daimaou (Japan) (Sample)"
+    source: no-intro
   assets:
   - asset:
       id: 27021
       kind: 3
       kind_id: 27039
       type: 1
-      name: "兵蜂 III - 波可波可大魔王 (日版)(Beta) (射击)-TwinBee 3 - Poko Poko Dai Maou (Japan) (Beta).nes"
+      name: "TwinBee 3 - Poko Poko Daimaou (Japan) (Sample).nes"
       format: 1
       size: 262160
       blob_id: 72019
-      debug: "兵蜂 III - 波可波可大魔王 (日版)(Beta) (射击)-TwinBee 3 - Poko Poko Dai Maou (Japan) (Beta).nes"
+      debug: "兵蜂 III - 波可波可大魔王 (日版)(Beta) (射击)-TwinBee 3 - Poko Poko Dai Maou (Japan) (Beta).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=bdaa842f8c203d06cdcaa7b550d582dfa9d395ce"
+  - asset:
+      id: 140006
+      kind: 3
+      kind_id: 27039
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/TwinBee%203%20-%20Poko%20Poko%20Daimaou%20%28Japan%29%20%28Sample%29.png
+      format: 1
+      size: 2372
+      blob_id: 325239
+      debug: libretro-named-titles:rom-asset=27021:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/TwinBee%203%20-%20Poko%20Poko%20Daimaou%20%28Japan%29%20%28Sample%29.png

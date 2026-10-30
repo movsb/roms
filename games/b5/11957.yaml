@@ -12,11 +12,18 @@ names:
   kind_id: 11957
   language: 1
   name: Fun House (U) [!]
+  deprecated: 1
 - id: 91926
   kind: 2
   kind_id: 11957
   language: 1
   name: Fun House
+- id: 261722
+  kind: 2
+  kind_id: 11957
+  language: 1
+  name: Fun House
+  source: no-intro
 releases:
 - release:
     id: 11957
@@ -27,23 +34,31 @@ releases:
     kind_id: 11957
     language: 1
     name: Fun House (U) [!]
+    deprecated: 1
   - id: 26212
     kind: 3
     kind_id: 11957
     language: 1
     name: Fun House (U)
+    deprecated: 1
   - id: 66459
     kind: 3
     kind_id: 11957
     language: 2
     name: 欢乐屋 (美版) (益智)-Fun House (USA)
+  - id: 258271
+    kind: 3
+    kind_id: 11957
+    language: 1
+    name: Fun House (USA)
+    source: no-intro
   assets:
   - asset:
       id: 11939
       kind: 3
       kind_id: 11957
       type: 1
-      name: Fun House (U) [!].nes
+      name: Fun House (USA).nes
       format: 1
       size: 131088
       blob_id: 57887
@@ -51,6 +66,7 @@ releases:
         Fun House (U) [!].zip
         Fun House (U).zip
         欢乐屋 (美版) (益智)-Fun House (USA) + Fun House (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=1c155f37b098acc963d1ee181854aed47d2ea107
   - asset:
       id: 136910
       kind: 3

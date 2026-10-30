@@ -57,24 +57,32 @@ releases:
     kind_id: 8865
     language: 1
     name: Clu Clu Land (J-AC)
+    deprecated: 1
   - id: 67108
     kind: 3
     kind_id: 8865
     language: 2
     name: 滚球乐园
+  - id: 257915
+    kind: 3
+    kind_id: 8865
+    language: 1
+    name: Clu Clu Land (World) (Animal Crossing)
+    source: no-intro
   assets:
   - asset:
       id: 8847
       kind: 3
       kind_id: 8865
       type: 1
-      name: Clu Clu Land (J-AC).nes
+      name: Clu Clu Land (World) (Animal Crossing).nes
       format: 1
       size: 40976
       blob_id: 54983
       debug: |-
         Clu Clu Land (J-AC).nes
         滚球乐园.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=741d530b718b7c8749c4ef9b68e64039e37f982d
 - release:
     id: 8866
     game_id: 8864
@@ -84,17 +92,26 @@ releases:
     kind_id: 8866
     language: 1
     name: Clu Clu Land (U) (GBA e-Reader)
+    deprecated: 1
+  - id: 257916
+    kind: 3
+    kind_id: 8866
+    language: 1
+    name: Clu Clu Land (USA) (e-Reader)
+    source: no-intro
   assets:
   - asset:
       id: 8848
       kind: 3
       kind_id: 8866
       type: 1
-      name: Clu Clu Land (U) (GBA e-Reader).nes
+      name: Clu Clu Land (USA) (e-Reader).nes
       format: 1
       size: 24592
       blob_id: 54984
-      debug: Clu Clu Land (U) (GBA e-Reader).nes
+      debug: |-
+        Clu Clu Land (U) (GBA e-Reader).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=83d2c6209761524a9d8391f1db936e5fbf3d4dcb
 - release:
     id: 8867
     game_id: 8864
@@ -104,17 +121,37 @@ releases:
     kind_id: 8867
     language: 1
     name: Clu Clu Land (UE) (VC)
+    deprecated: 1
+  - id: 257917
+    kind: 3
+    kind_id: 8867
+    language: 1
+    name: Clu Clu Land (World) (Virtual Console)
+    source: no-intro
   assets:
   - asset:
       id: 8849
       kind: 3
       kind_id: 8867
       type: 1
-      name: Clu Clu Land (UE) (VC).nes
+      name: Clu Clu Land (World) (Virtual Console).nes
       format: 1
       size: 24592
       blob_id: 54985
-      debug: Clu Clu Land (UE) (VC).nes
+      debug: |-
+        Clu Clu Land (UE) (VC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=f3e3f5a8acde77b005c577cea98f9109e08e6f3a
+  - asset:
+      id: 139354
+      kind: 3
+      kind_id: 8867
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Clu%20Clu%20Land%20%28World%29%20%28Virtual%20Console%29.png
+      format: 1
+      size: 1648
+      blob_id: 324797
+      debug: libretro-named-titles:rom-asset=8849:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Clu%20Clu%20Land%20%28World%29%20%28Virtual%20Console%29.png
 - release:
     id: 8868
     game_id: 8864
@@ -144,24 +181,32 @@ releases:
     kind_id: 8869
     language: 1
     name: Clu Clu Land (W) [!]
+    deprecated: 1
   - id: 61973
     kind: 3
     kind_id: 8869
     language: 2
     name: 可鲁冒险世界 (世界版) (动作)-Clu Clu Land (World)
+  - id: 257918
+    kind: 3
+    kind_id: 8869
+    language: 1
+    name: Clu Clu Land (World)
+    source: no-intro
   assets:
   - asset:
       id: 8851
       kind: 3
       kind_id: 8869
       type: 1
-      name: Clu Clu Land (W) [!].nes
+      name: Clu Clu Land (World).nes
       format: 1
       size: 24592
       blob_id: 54987
       debug: |-
         Clu Clu Land (W) [!].zip
         可鲁冒险世界 (世界版) (动作)-Clu Clu Land (World) + Clu Clu Land (W) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=b04d740d624329826035e9ffcefa6bedebb4a80f
   - asset:
       id: 136775
       kind: 3

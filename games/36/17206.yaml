@@ -7,12 +7,19 @@ names:
   kind_id: 17206
   language: 1
   name: NBA Jam 2
+  deprecated: 1
 - id: 248265
   kind: 2
   kind_id: 17206
   language: 2
   name: NBA嘉年华2
   source: codex
+- id: 261944
+  kind: 2
+  kind_id: 17206
+  language: 1
+  name: Tecmo NBA Basketball
+  source: no-intro
 releases:
 - release:
     id: 17206
@@ -23,16 +30,35 @@ releases:
     kind_id: 17206
     language: 1
     name: NBA Jam 2 (Unl) [!]
+    deprecated: 1
+  - id: 258903
+    kind: 3
+    kind_id: 17206
+    language: 1
+    name: Tecmo NBA Basketball (Asia) (En) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 17188
       kind: 3
       kind_id: 17206
       type: 1
-      name: NBA Jam 2 (Unl) [!].nes
+      name: Tecmo NBA Basketball (Asia) (En) (Pirate).nes
       format: 1
       size: 393232
       blob_id: 62796
       debug: |-
         NBA Jam 2 (Unl) [!].nes
         NBA Jam 2 (Unl) [!].zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=7e1702d690eac996d9e8af29357ca7a5a76f5c6c
+  - asset:
+      id: 139618
+      kind: 3
+      kind_id: 17206
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Tecmo%20NBA%20Basketball%20%28Asia%29%20%28En%29%20%28Pirate%29.png
+      format: 1
+      size: 3116
+      blob_id: 325021
+      debug: libretro-named-titles:rom-asset=17188:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Tecmo%20NBA%20Basketball%20%28Asia%29%20%28En%29%20%28Pirate%29.png

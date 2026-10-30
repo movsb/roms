@@ -7,12 +7,19 @@ names:
   kind_id: 8744
   language: 1
   name: CircusCaper
+  deprecated: 1
 - id: 247617
   kind: 2
   kind_id: 8744
   language: 2
   name: 马戏团小子
   source: codex
+- id: 261594
+  kind: 2
+  kind_id: 8744
+  language: 1
+  name: Circus Caper
+  source: no-intro
 releases:
 - release:
     id: 8744
@@ -23,17 +30,26 @@ releases:
     kind_id: 8744
     language: 1
     name: CircusCaper
+    deprecated: 1
+  - id: 257908
+    kind: 3
+    kind_id: 8744
+    language: 1
+    name: Circus Caper (USA)
+    source: no-intro
   assets:
   - asset:
       id: 8726
       kind: 3
       kind_id: 8744
       type: 1
-      name: CircusCaper.nes
+      name: Circus Caper (USA).nes
       format: 1
       size: 262160
       blob_id: 54864
-      debug: CircusCaper.zip
+      debug: |-
+        CircusCaper.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=abe4c47ec657b90699766394f42f157c803a9784
   - asset:
       id: 138286
       kind: 3

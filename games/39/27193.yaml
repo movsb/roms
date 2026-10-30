@@ -13,6 +13,13 @@ names:
   language: 1
   name: The Tower of Turmoil
   source: codex
+  deprecated: 1
+- id: 262562
+  kind: 2
+  kind_id: 27193
+  language: 1
+  name: Tower of Turmoil, The
+  source: no-intro
 releases:
 - release:
     id: 27193
@@ -23,14 +30,33 @@ releases:
     kind_id: 27193
     language: 2
     name: 动荡之塔
+  - id: 260149
+    kind: 3
+    kind_id: 27193
+    language: 1
+    name: Tower of Turmoil, The (World) (v1.03) (Aftermarket) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 27175
       kind: 3
       kind_id: 27193
       type: 1
-      name: 动荡之塔.nes
+      name: Tower of Turmoil, The (World) (v1.03) (Aftermarket) (Unl).nes
       format: 1
       size: 524304
       blob_id: 72123
-      debug: 动荡之塔.zip
+      debug: |-
+        动荡之塔.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=c2a73834e24137c0a1311662228662f9fb195314
+  - asset:
+      id: 140023
+      kind: 3
+      kind_id: 27193
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Tower%20of%20Turmoil%2C%20The%20%28World%29%20%28v1.03%29%20%28Aftermarket%29%20%28Unl%29.png
+      format: 1
+      size: 4224
+      blob_id: 325368
+      debug: libretro-named-titles:rom-asset=27175:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Tower%20of%20Turmoil%2C%20The%20%28World%29%20%28v1.03%29%20%28Aftermarket%29%20%28Unl%29.png

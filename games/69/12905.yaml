@@ -28,24 +28,44 @@ releases:
     kind_id: 12905
     language: 1
     name: Harri's Legend (English) (Unl)
+    deprecated: 1
   - id: 28358
     kind: 3
     kind_id: 12905
     language: 1
     name: Harry's Legend (Eng) (Unl)
+    deprecated: 1
+  - id: 258393
+    kind: 3
+    kind_id: 12905
+    language: 1
+    name: Harry's Legend (Asia) (En) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 12887
       kind: 3
       kind_id: 12905
       type: 1
-      name: Harri's Legend (English) (Unl).nes
+      name: Harry's Legend (Asia) (En) (Unl).nes
       format: 1
       size: 262160
       blob_id: 58788
       debug: |-
         Harri's Legend (English) (Unl).zip
         Harry's Legend (Eng) (Unl).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=a195abbe10d1efcbc715ad89f057da87364aadfc
+  - asset:
+      id: 139439
+      kind: 3
+      kind_id: 12905
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Harry%27s%20Legend%20%28Asia%29%20%28En%29%20%28Unl%29.png
+      format: 1
+      size: 13557
+      blob_id: 324870
+      debug: libretro-named-titles:rom-asset=12887:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Harry%27s%20Legend%20%28Asia%29%20%28En%29%20%28Unl%29.png
 - release:
     id: 12911
     game_id: 12905

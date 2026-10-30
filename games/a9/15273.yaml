@@ -27,6 +27,7 @@ releases:
     kind_id: 15273
     language: 1
     name: Little Samson (U) [!p]
+    deprecated: 1
   - id: 62429
     kind: 3
     kind_id: 15273
@@ -37,19 +38,38 @@ releases:
     kind_id: 15273
     language: 1
     name: Little Samson (U) [!]
+    deprecated: 1
+  - id: 258666
+    kind: 3
+    kind_id: 15273
+    language: 1
+    name: Little Samson (USA)
+    source: no-intro
   assets:
   - asset:
       id: 15255
       kind: 3
       kind_id: 15273
       type: 1
-      name: Little Samson (U) [!p].nes
+      name: Little Samson (USA).nes
       format: 1
       size: 393232
       blob_id: 60981
       debug: |-
         Little Samson (U) [!p].zip
         圣铃传说 (美版) (动作)-Little Samson (USA) + Little Samson (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=5da05fdf6ac67b1dfee20e8def46aff2a88f1578
+  - asset:
+      id: 139526
+      kind: 3
+      kind_id: 15273
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Little%20Samson%20%28USA%29.png
+      format: 1
+      size: 1249
+      blob_id: 324055
+      debug: libretro-named-titles:rom-asset=15255:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Little%20Samson%20%28USA%29.png
 - release:
     id: 15274
     game_id: 15273
@@ -99,17 +119,26 @@ releases:
     kind_id: 15277
     language: 1
     name: Little Samson (U)
+    deprecated: 1
+  - id: 258667
+    kind: 3
+    kind_id: 15277
+    language: 1
+    name: Little Samson (USA)
+    source: no-intro
   assets:
   - asset:
       id: 15259
       kind: 3
       kind_id: 15277
       type: 1
-      name: Little Samson (U).nes
+      name: Little Samson (USA).nes
       format: 1
       size: 393232
       blob_id: 60985
-      debug: Little Samson (U).zip
+      debug: |-
+        Little Samson (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=5da05fdf6ac67b1dfee20e8def46aff2a88f1578
   - asset:
       id: 138560
       kind: 3

@@ -7,12 +7,19 @@ names:
   kind_id: 9325
   language: 1
   name: Da Hua Shui Hu (NJ100) (Ch) [!]
+  deprecated: 1
 - id: 249098
   kind: 2
   kind_id: 9325
   language: 2
   name: 大话水浒
   source: codex
+- id: 261616
+  kind: 2
+  kind_id: 9325
+  language: 1
+  name: Dahua Shuihu
+  source: no-intro
 releases:
 - release:
     id: 9325
@@ -23,17 +30,26 @@ releases:
     kind_id: 9325
     language: 1
     name: Da Hua Shui Hu (NJ100) (Ch) [!]
+    deprecated: 1
+  - id: 257963
+    kind: 3
+    kind_id: 9325
+    language: 1
+    name: Dahua Shuihu (China) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 9307
       kind: 3
       kind_id: 9325
       type: 1
-      name: Da Hua Shui Hu (NJ100) (Ch) [!].nes
+      name: Dahua Shuihu (China) (Unl).nes
       format: 1
       size: 1048592
       blob_id: 55414
-      debug: Da Hua Shui Hu (NJ100) (Ch) [!].nes
+      debug: |-
+        Da Hua Shui Hu (NJ100) (Ch) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=ab2d461c72583712917c61a33695f4748eb972cd
   - asset:
       id: 136792
       kind: 3

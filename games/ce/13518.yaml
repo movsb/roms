@@ -7,12 +7,19 @@ names:
   kind_id: 13518
   language: 1
   name: I Wanna Flip The Sky by Tom Livak (PD)
+  deprecated: 1
 - id: 253127
   kind: 2
   kind_id: 13518
   language: 2
   name: 我想翻转天空
   source: codex
+- id: 261786
+  kind: 2
+  kind_id: 13518
+  language: 1
+  name: I Wanna Flip the Sky
+  source: no-intro
 releases:
 - release:
     id: 13518
@@ -23,14 +30,34 @@ releases:
     kind_id: 13518
     language: 1
     name: I Wanna Flip The Sky by Tom Livak (PD)
+    deprecated: 1
+  - id: 258441
+    kind: 3
+    kind_id: 13518
+    language: 1
+    name: I Wanna Flip the Sky (World) (Aftermarket) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 13500
       kind: 3
       kind_id: 13518
       type: 1
-      name: I Wanna Flip The Sky by Tom Livak (PD).nes
+      name: I Wanna Flip the Sky (World) (Aftermarket) (Unl).nes
       format: 1
       size: 32784
       blob_id: 59362
-      debug: I Wanna Flip The Sky by Tom Livak (PD).nes
+      debug: |-
+        I Wanna Flip The Sky by Tom Livak (PD).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=3128606746a6334c7339e1a958403ba94ad59225
+  - asset:
+      id: 139457
+      kind: 3
+      kind_id: 13518
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/I%20Wanna%20Flip%20the%20Sky%20%28World%29%20%28Aftermarket%29%20%28Unl%29.png
+      format: 1
+      size: 2990
+      blob_id: 324888
+      debug: libretro-named-titles:rom-asset=13500:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/I%20Wanna%20Flip%20the%20Sky%20%28World%29%20%28Aftermarket%29%20%28Unl%29.png

@@ -12,6 +12,13 @@ names:
   kind_id: 30090
   language: 1
   name: Captain Silver (J) [!]
+  deprecated: 1
+- id: 263605
+  kind: 2
+  kind_id: 30090
+  language: 1
+  name: Captain Silver
+  source: no-intro
 releases:
 - release:
     id: 30090
@@ -27,17 +34,26 @@ releases:
     kind_id: 30090
     language: 1
     name: Captain Silver (J) [!]
+    deprecated: 1
+  - id: 261298
+    kind: 3
+    kind_id: 30090
+    language: 1
+    name: Captain Silver (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 30072
       kind: 3
       kind_id: 30090
       type: 1
-      name: 锡鲁巴船长 (日版) (动作)-Captain Silver (Japan) + Captain Silver (J) [!].nes
+      name: Captain Silver (Japan).nes
       format: 1
       size: 262160
       blob_id: 73989
-      debug: 锡鲁巴船长 (日版) (动作)-Captain Silver (Japan) + Captain Silver (J) [!].nes
+      debug: |-
+        锡鲁巴船长 (日版) (动作)-Captain Silver (Japan) + Captain Silver (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=7208ef3e502f895b604824f625992f1c78fbbbe8
   - asset:
       id: 138043
       kind: 3

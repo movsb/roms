@@ -32,32 +32,52 @@ releases:
     kind_id: 23490
     language: 1
     name: TNYTOON2
+    deprecated: 1
   - id: 55664
     kind: 3
     kind_id: 23490
     language: 1
     name: "Tiny Toon Adventures 2 - Trouble in Wackyland (U) [!]"
+    deprecated: 1
   - id: 55672
     kind: 3
     kind_id: 23490
     language: 1
     name: "Tiny Toon Adventures 2 - Trouble in Wackyland (U)"
+    deprecated: 1
   - id: 60867
     kind: 3
     kind_id: 23490
     language: 2
     name: "兔宝宝大冒险 II - 蒙大拿岛历险记 (美版) (动作)-Tiny Toon Adventures 2 - Trouble in Wackyland (USA)"
+  - id: 259571
+    kind: 3
+    kind_id: 23490
+    language: 1
+    name: "Tiny Toon Adventures 2 - Trouble in Wackyland (USA)"
+    source: no-intro
   assets:
   - asset:
       id: 23472
       kind: 3
       kind_id: 23490
       type: 1
-      name: TNYTOON2.NES
+      name: "Tiny Toon Adventures 2 - Trouble in Wackyland (USA).nes"
       format: 1
       size: 262160
       blob_id: 68775
-      debug: "TNYTOON2.zip\nTiny Toon Adventures 2 - Trouble in Wackyland (U) [!].zip\nTiny Toon Adventures 2 - Trouble in Wackyland (U).zip\n兔宝宝大冒险 II - 蒙大拿岛历险记 (美版) (动作)-Tiny Toon Adventures 2 - Trouble in Wackyland (USA) + Tiny Toon Adventures 2 - Trouble in Wackyland (U) [!].nes"
+      debug: "TNYTOON2.zip\nTiny Toon Adventures 2 - Trouble in Wackyland (U) [!].zip\nTiny Toon Adventures 2 - Trouble in Wackyland (U).zip\n兔宝宝大冒险 II - 蒙大拿岛历险记 (美版) (动作)-Tiny Toon Adventures 2 - Trouble in Wackyland (USA) + Tiny Toon Adventures 2 - Trouble in Wackyland (U) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=be4ef2b1260cbd0743b074bf3fc1d266c504d72d"
+  - asset:
+      id: 139829
+      kind: 3
+      kind_id: 23490
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Tiny%20Toon%20Adventures%202%20-%20Trouble%20in%20Wackyland%20%28USA%29.png
+      format: 1
+      size: 2992
+      blob_id: 325203
+      debug: libretro-named-titles:rom-asset=23472:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Tiny%20Toon%20Adventures%202%20-%20Trouble%20in%20Wackyland%20%28USA%29.png
 - release:
     id: 24914
     game_id: 23490
@@ -67,17 +87,24 @@ releases:
     kind_id: 24914
     language: 1
     name: "Tiny Toon Adventures 2 - Trouble in Wackyland (E) [!]"
+    deprecated: 1
+  - id: 259667
+    kind: 3
+    kind_id: 24914
+    language: 1
+    name: "Tiny Toon Adventures 2 - Trouble in Wackyland (Europe)"
+    source: no-intro
   assets:
   - asset:
       id: 24896
       kind: 3
       kind_id: 24914
       type: 1
-      name: "Tiny Toon Adventures 2 - Trouble in Wackyland (E) [!].nes"
+      name: "Tiny Toon Adventures 2 - Trouble in Wackyland (Europe).nes"
       format: 1
       size: 262160
       blob_id: 70157
-      debug: "Tiny Toon Adventures 2 - Trouble in Wackyland (E) [!].nes"
+      debug: "Tiny Toon Adventures 2 - Trouble in Wackyland (E) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=a8817276c2d287ce853a8cb725f4612c4b23806a"
   - asset:
       id: 137413
       kind: 3

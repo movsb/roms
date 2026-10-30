@@ -12,6 +12,13 @@ names:
   kind_id: 27164
   language: 1
   name: Kung Fu (E) [!]
+  deprecated: 1
+- id: 262554
+  kind: 2
+  kind_id: 27164
+  language: 1
+  name: Kung Fu
+  source: no-intro
 releases:
 - release:
     id: 27164
@@ -27,17 +34,26 @@ releases:
     kind_id: 27164
     language: 1
     name: Kung Fu (E) [!]
+    deprecated: 1
+  - id: 260137
+    kind: 3
+    kind_id: 27164
+    language: 1
+    name: Kung Fu (Europe, Hong Kong) (En)
+    source: no-intro
   assets:
   - asset:
       id: 27146
       kind: 3
       kind_id: 27164
       type: 1
-      name: 功夫 (欧版) (动作)-Kung Fu (Europe) + Kung Fu (E) [!].nes
+      name: Kung Fu (Europe, Hong Kong) (En).nes
       format: 1
       size: 40976
       blob_id: 72102
-      debug: 功夫 (欧版) (动作)-Kung Fu (Europe) + Kung Fu (E) [!].nes
+      debug: |-
+        功夫 (欧版) (动作)-Kung Fu (Europe) + Kung Fu (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=de7c148907f5e2de0946fa2022688be1ad5999a3
   - asset:
       id: 137582
       kind: 3

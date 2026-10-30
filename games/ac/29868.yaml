@@ -13,6 +13,12 @@ names:
   language: 1
   name: Super Pang II
   source: codex
+- id: 263521
+  kind: 2
+  kind_id: 29868
+  language: 1
+  name: Super Pang II
+  source: no-intro
 releases:
 - release:
     id: 29868
@@ -23,14 +29,33 @@ releases:
     kind_id: 29868
     language: 2
     name: 超级魔鬼气泡2
+  - id: 261209
+    kind: 3
+    kind_id: 29868
+    language: 1
+    name: Super Pang II (Asia) (En) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 29850
       kind: 3
       kind_id: 29868
       type: 1
-      name: 超级魔鬼气泡2.nes
+      name: Super Pang II (Asia) (En) (Unl).nes
       format: 1
       size: 98320
       blob_id: 73846
-      debug: 超级魔鬼气泡2.nes
+      debug: |-
+        超级魔鬼气泡2.nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=88e6ade9934efcde38d7482fdde1c00c4c13652d
+  - asset:
+      id: 140231
+      kind: 3
+      kind_id: 29868
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Super%20Pang%20II%20%28Asia%29%20%28En%29%20%28Unl%29.png
+      format: 1
+      size: 8826
+      blob_id: 325549
+      debug: libretro-named-titles:rom-asset=29850:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Super%20Pang%20II%20%28Asia%29%20%28En%29%20%28Unl%29.png

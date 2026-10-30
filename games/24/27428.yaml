@@ -12,6 +12,13 @@ names:
   kind_id: 27428
   language: 1
   name: Donald Duck (J)
+  deprecated: 1
+- id: 262648
+  kind: 2
+  kind_id: 27428
+  language: 1
+  name: Donald Duck
+  source: no-intro
 releases:
 - release:
     id: 27428
@@ -27,17 +34,26 @@ releases:
     kind_id: 27428
     language: 1
     name: Donald Duck (J)
+    deprecated: 1
+  - id: 260244
+    kind: 3
+    kind_id: 27428
+    language: 1
+    name: Donald Duck (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 27410
       kind: 3
       kind_id: 27428
       type: 1
-      name: 唐老鸭 (日版) (运动竞赛)-Donald Duck (Japan) + Donald Duck (J).nes
+      name: Donald Duck (Japan).nes
       format: 1
       size: 262160
       blob_id: 72277
-      debug: 唐老鸭 (日版) (运动竞赛)-Donald Duck (Japan) + Donald Duck (J).nes
+      debug: |-
+        唐老鸭 (日版) (运动竞赛)-Donald Duck (Japan) + Donald Duck (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=259c8f859f63301f5c4d1d6e6c4f3222d467ab49
   - asset:
       id: 138868
       kind: 3

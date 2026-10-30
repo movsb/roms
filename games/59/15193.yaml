@@ -23,17 +23,26 @@ releases:
     kind_id: 15193
     language: 1
     name: Lion King, The (1995) (Unl) [!]
+    deprecated: 1
+  - id: 258654
+    kind: 3
+    kind_id: 15193
+    language: 1
+    name: Lion King, The (1995) (Asia) (En) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 15175
       kind: 3
       kind_id: 15193
       type: 1
-      name: Lion King, The (1995) (Unl) [!].nes
+      name: Lion King, The (1995) (Asia) (En) (Pirate).nes
       format: 1
       size: 262160
       blob_id: 60909
-      debug: Lion King, The (1995) (Unl) [!].nes
+      debug: |-
+        Lion King, The (1995) (Unl) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=a6f1af2c2e49b5571746a7244a09ff4ca91d4c11
 - release:
     id: 15194
     game_id: 15193
@@ -43,17 +52,37 @@ releases:
     kind_id: 15194
     language: 1
     name: Lion King, The (Chiki-Chiki Dog) (Unl) [!]
+    deprecated: 1
+  - id: 258655
+    kind: 3
+    kind_id: 15194
+    language: 1
+    name: Lion King, The (Chiki-Chiki Dog) (Asia) (En) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 15176
       kind: 3
       kind_id: 15194
       type: 1
-      name: Lion King, The (Chiki-Chiki Dog) (Unl) [!].nes
+      name: Lion King, The (Chiki-Chiki Dog) (Asia) (En) (Pirate).nes
       format: 1
       size: 262160
       blob_id: 60910
-      debug: Lion King, The (Chiki-Chiki Dog) (Unl) [!].nes
+      debug: |-
+        Lion King, The (Chiki-Chiki Dog) (Unl) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=ec81b295759ed67a983d55f611d9665aeb9eb5e6
+  - asset:
+      id: 139523
+      kind: 3
+      kind_id: 15194
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Lion%20King%2C%20The%20%28Chiki-Chiki%20Dog%29%20%28Asia%29%20%28En%29%20%28Pirate%29.png
+      format: 1
+      size: 3747
+      blob_id: 324946
+      debug: libretro-named-titles:rom-asset=15176:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Lion%20King%2C%20The%20%28Chiki-Chiki%20Dog%29%20%28Asia%29%20%28En%29%20%28Pirate%29.png
 - release:
     id: 15195
     game_id: 15193
@@ -63,24 +92,33 @@ releases:
     kind_id: 15195
     language: 1
     name: Lion King, The (Mapper 182) (Unl)
+    deprecated: 1
   - id: 33710
     kind: 3
     kind_id: 15195
     language: 1
     name: Lion King, The (Unl) (Mapper 114)
+    deprecated: 1
+  - id: 258656
+    kind: 3
+    kind_id: 15195
+    language: 1
+    name: Super Lion King (Taiwan) (En) (v1.1) (Super Game) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 15177
       kind: 3
       kind_id: 15195
       type: 1
-      name: Lion King, The (Mapper 182) (Unl).nes
+      name: Super Lion King (Taiwan) (En) (v1.1) (Super Game) (Pirate).nes
       format: 1
       size: 524304
       blob_id: 60911
       debug: |-
         Lion King, The (Mapper 182) (Unl).zip
         Lion King, The (Unl) (Mapper 114).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=6bc97b7459db034d5dd5b5828678cc4cab073663
 - release:
     id: 15196
     game_id: 15193
@@ -90,24 +128,44 @@ releases:
     kind_id: 15196
     language: 1
     name: Lion King, The (Mapper 4) (Unl) [!]
+    deprecated: 1
   - id: 33712
     kind: 3
     kind_id: 15196
     language: 1
     name: Lion King, The (Unl) [!]
+    deprecated: 1
+  - id: 258657
+    kind: 3
+    kind_id: 15196
+    language: 1
+    name: Super Lion King (Asia) (En) (NT-656) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 15178
       kind: 3
       kind_id: 15196
       type: 1
-      name: Lion King, The (Mapper 4) (Unl) [!].nes
+      name: Super Lion King (Asia) (En) (NT-656) (Pirate).nes
       format: 1
       size: 524304
       blob_id: 60912
       debug: |-
         Lion King, The (Mapper 4) (Unl) [!].zip
         Lion King, The (Unl) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=ede9d8c05ca76c11ad4ab360cc32c7460330d6e2
+  - asset:
+      id: 139524
+      kind: 3
+      kind_id: 15196
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Super%20Lion%20King%20%28Asia%29%20%28En%29%20%28NT-656%29%20%28Pirate%29.png
+      format: 1
+      size: 10976
+      blob_id: 324947
+      debug: libretro-named-titles:rom-asset=15178:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Super%20Lion%20King%20%28Asia%29%20%28En%29%20%28NT-656%29%20%28Pirate%29.png
 - release:
     id: 15199
     game_id: 15193
@@ -157,14 +215,23 @@ releases:
     kind_id: 15201
     language: 1
     name: Lion King, The (Unl)
+    deprecated: 1
+  - id: 258658
+    kind: 3
+    kind_id: 15201
+    language: 1
+    name: Super Lion King (Taiwan) (En) (v1.1) (Super Game) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 15183
       kind: 3
       kind_id: 15201
       type: 1
-      name: Lion King, The (Unl).nes
+      name: Super Lion King (Taiwan) (En) (v1.1) (Super Game) (Pirate).nes
       format: 1
       size: 524304
       blob_id: 60915
-      debug: Lion King, The (Unl).zip
+      debug: |-
+        Lion King, The (Unl).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=6bc97b7459db034d5dd5b5828678cc4cab073663

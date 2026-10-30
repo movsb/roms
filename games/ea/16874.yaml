@@ -13,6 +13,12 @@ names:
   language: 2
   name: 燃烧职业足球
   source: codex
+- id: 261920
+  kind: 2
+  kind_id: 16874
+  language: 1
+  name: Moero!! Pro Soccer
+  source: no-intro
 releases:
 - release:
     id: 16875
@@ -23,17 +29,26 @@ releases:
     kind_id: 16875
     language: 1
     name: Moero!! Pro Soccer (J)
+    deprecated: 1
+  - id: 258844
+    kind: 3
+    kind_id: 16875
+    language: 1
+    name: Moero!! Pro Soccer (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 16857
       kind: 3
       kind_id: 16875
       type: 1
-      name: Moero!! Pro Soccer (J).nes
+      name: Moero!! Pro Soccer (Japan).nes
       format: 1
       size: 393232
       blob_id: 62492
-      debug: Moero!! Pro Soccer (J).nes
+      debug: |-
+        Moero!! Pro Soccer (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=42808d943102d97057f09d9c4235196825df55cc
   - asset:
       id: 138588
       kind: 3

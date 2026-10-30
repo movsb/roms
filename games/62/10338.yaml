@@ -23,17 +23,24 @@ releases:
     kind_id: 10338
     language: 1
     name: "Dragon Ball 3 - Gokuu Den (J) [!]"
+    deprecated: 1
+  - id: 258078
+    kind: 3
+    kind_id: 10338
+    language: 1
+    name: "Dragon Ball 3 - Gokuu Den (Japan)"
+    source: no-intro
   assets:
   - asset:
       id: 10320
       kind: 3
       kind_id: 10338
       type: 1
-      name: "Dragon Ball 3 - Gokuu Den (J) [!].nes"
+      name: "Dragon Ball 3 - Gokuu Den (Japan).nes"
       format: 1
       size: 393232
       blob_id: 56363
-      debug: "Dragon Ball 3 - Gokuu Den (J) [!].nes"
+      debug: "Dragon Ball 3 - Gokuu Den (J) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=656b6c5cad6f9b9cd15987c8120d08bf6b475d12"
   - asset:
       id: 136830
       kind: 3
@@ -119,14 +126,32 @@ releases:
     kind_id: 29984
     language: 1
     name: "Dragon Ball 3 - Gokuu Den (J) [a1]"
+    deprecated: 1
+  - id: 261257
+    kind: 3
+    kind_id: 29984
+    language: 1
+    name: "Dragon Ball 3 - Gokuu Den (Japan) (Rev 1)"
+    source: no-intro
   assets:
   - asset:
       id: 29966
       kind: 3
       kind_id: 29984
       type: 1
-      name: "Dragon Ball 3 - Gokuu Den (J) [a1].nes"
+      name: "Dragon Ball 3 - Gokuu Den (Japan) (Rev 1).nes"
       format: 1
       size: 393232
       blob_id: 73921
-      debug: "重复的/Dragon Ball 3 - Gokuu Den (J) [a1].nes\n龙珠3-悟空传.nes"
+      debug: "重复的/Dragon Ball 3 - Gokuu Den (J) [a1].nes\n龙珠3-悟空传.nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=4ebc1ed9665c36913d0f05129e6a54787bad3165"
+  - asset:
+      id: 140236
+      kind: 3
+      kind_id: 29984
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Dragon%20Ball%203%20-%20Gokuu%20Den%20%28Japan%29%20%28Rev%201%29.png
+      format: 1
+      size: 5168
+      blob_id: 325553
+      debug: libretro-named-titles:rom-asset=29966:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Dragon%20Ball%203%20-%20Gokuu%20Den%20%28Japan%29%20%28Rev%201%29.png

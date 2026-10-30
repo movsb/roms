@@ -12,11 +12,18 @@ names:
   kind_id: 29934
   language: 1
   name: Meikyuu Shima (J)
+  deprecated: 1
 - id: 70601
   kind: 2
   kind_id: 29934
   language: 2
   name: 迷宫岛
+- id: 263545
+  kind: 2
+  kind_id: 29934
+  language: 1
+  name: Meikyuu-jima
+  source: no-intro
 releases:
 - release:
     id: 29934
@@ -32,21 +39,40 @@ releases:
     kind_id: 29934
     language: 1
     name: Meikyuu Shima (J)
+    deprecated: 1
   - id: 70602
     kind: 3
     kind_id: 29934
     language: 2
     name: 迷宫岛
+  - id: 261235
+    kind: 3
+    kind_id: 29934
+    language: 1
+    name: Meikyuu-jima (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 29916
       kind: 3
       kind_id: 29934
       type: 1
-      name: 迷宫岛 (日版) (益智)-Meikyuu Jima (Japan) + Meikyuu Shima (J).nes
+      name: Meikyuu-jima (Japan).nes
       format: 1
       size: 262160
       blob_id: 73889
       debug: |-
         迷宫岛 (日版) (益智)-Meikyuu Jima (Japan) + Meikyuu Shima (J).nes
         迷宫岛.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=8aa7d534c115e788d862cfd821fa2731b80a2e04
+  - asset:
+      id: 140234
+      kind: 3
+      kind_id: 29934
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Meikyuu-jima%20%28Japan%29.png
+      format: 1
+      size: 1948
+      blob_id: 325551
+      debug: libretro-named-titles:rom-asset=29916:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Meikyuu-jima%20%28Japan%29.png

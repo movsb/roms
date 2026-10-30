@@ -23,17 +23,37 @@ releases:
     kind_id: 22188
     language: 1
     name: Sui Tang Yan Yi (Ch) (Wxn)
+    deprecated: 1
+  - id: 259455
+    kind: 3
+    kind_id: 22188
+    language: 1
+    name: Suitang Yanyi (China) (980185) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 22170
       kind: 3
       kind_id: 22188
       type: 1
-      name: Sui Tang Yan Yi (Ch) (Wxn).nes
+      name: Suitang Yanyi (China) (980185) (Unl).nes
       format: 1
       size: 524304
       blob_id: 67518
-      debug: Sui Tang Yan Yi (Ch) (Wxn).nes
+      debug: |-
+        Sui Tang Yan Yi (Ch) (Wxn).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=c85cf7b73fdd5264cb12a7c7efd3320254caa63b
+  - asset:
+      id: 139787
+      kind: 3
+      kind_id: 22188
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Suitang%20Yanyi%20%28China%29%20%28980185%29%20%28Unl%29.png
+      format: 1
+      size: 3939
+      blob_id: 325164
+      debug: libretro-named-titles:rom-asset=22170:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Suitang%20Yanyi%20%28China%29%20%28980185%29%20%28Unl%29.png
 - release:
     id: 22189
     game_id: 22188

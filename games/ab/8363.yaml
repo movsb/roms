@@ -7,12 +7,19 @@ names:
   kind_id: 8363
   language: 1
   name: Cat Killer by Neverware (PD)
+  deprecated: 1
 - id: 252558
   kind: 2
   kind_id: 8363
   language: 2
   name: 杀猫者
   source: codex
+- id: 261583
+  kind: 2
+  kind_id: 8363
+  language: 1
+  name: Cat Killer
+  source: no-intro
 releases:
 - release:
     id: 8363
@@ -23,17 +30,26 @@ releases:
     kind_id: 8363
     language: 1
     name: Cat Killer by Neverware (PD)
+    deprecated: 1
+  - id: 257871
+    kind: 3
+    kind_id: 8363
+    language: 1
+    name: Cat Killer (World) (Demo 1) (Aftermarket) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 8345
       kind: 3
       kind_id: 8363
       type: 1
-      name: Cat Killer by Neverware (PD).nes
+      name: Cat Killer (World) (Demo 1) (Aftermarket) (Unl).nes
       format: 1
       size: 40976
       blob_id: 54504
-      debug: Cat Killer by Neverware (PD).nes
+      debug: |-
+        Cat Killer by Neverware (PD).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=ccc6929fb6c9e677c3d7a8bf7461cd83a1c8bb02
   - asset:
       id: 138255
       kind: 3

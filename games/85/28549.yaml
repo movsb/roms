@@ -14,6 +14,13 @@ names:
   language: 1
   name: Final Fantasy III
   source: codex
+  deprecated: 1
+- id: 263059
+  kind: 2
+  kind_id: 28549
+  language: 1
+  name: Zuizhong Huanxiang III
+  source: no-intro
 releases:
 - release:
     id: 28549
@@ -24,17 +31,36 @@ releases:
     kind_id: 28549
     language: 2
     name: 最终幻想3
+  - id: 260696
+    kind: 3
+    kind_id: 28549
+    language: 1
+    name: Zuizhong Huanxiang III (China) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 28531
       kind: 3
       kind_id: 28549
       type: 1
-      name: 最终幻想3.nes
+      name: Zuizhong Huanxiang III (China) (Pirate).nes
       format: 1
       size: 1048592
       blob_id: 73021
-      debug: 最终幻想3.zip
+      debug: |-
+        最终幻想3.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=c9b62fa2928153576acb10e8e15d3ef36e3488ce
+  - asset:
+      id: 140130
+      kind: 3
+      kind_id: 28549
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Zuizhong%20Huanxiang%20III%20%28China%29%20%28Pirate%29.png
+      format: 1
+      size: 6959
+      blob_id: 325299
+      debug: libretro-named-titles:rom-asset=28531:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Zuizhong%20Huanxiang%20III%20%28China%29%20%28Pirate%29.png
 - release:
     id: 28550
     game_id: 28549
@@ -49,14 +75,34 @@ releases:
     kind_id: 28550
     language: 1
     name: Final Fantasy III (J) [T+Chi]
+    deprecated: 1
+  - id: 260697
+    kind: 3
+    kind_id: 28550
+    language: 1
+    name: Zuizhong Huanxiang III (China) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 28532
       kind: 3
       kind_id: 28550
       type: 1
-      name: 最终幻想3[外星科技汉化 SSforME记忆修正] + Final Fantasy III (J) [T+Chi].nes
+      name: Zuizhong Huanxiang III (China) (Pirate).nes
       format: 1
       size: 1048592
       blob_id: 73022
-      debug: 最终幻想3[外星科技汉化 SSforME记忆修正] + Final Fantasy III (J) [T+Chi].nes
+      debug: |-
+        最终幻想3[外星科技汉化 SSforME记忆修正] + Final Fantasy III (J) [T+Chi].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=c9b62fa2928153576acb10e8e15d3ef36e3488ce
+  - asset:
+      id: 140131
+      kind: 3
+      kind_id: 28550
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Zuizhong%20Huanxiang%20III%20%28China%29%20%28Pirate%29.png
+      format: 1
+      size: 6959
+      blob_id: 325299
+      debug: libretro-named-titles:rom-asset=28532:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Zuizhong%20Huanxiang%20III%20%28China%29%20%28Pirate%29.png

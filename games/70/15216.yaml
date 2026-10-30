@@ -147,17 +147,35 @@ releases:
     kind_id: 15222
     language: 1
     name: "Little Mermaid - Ningyo Hime (J) [p2]"
+    deprecated: 1
+  - id: 258660
+    kind: 3
+    kind_id: 15222
+    language: 1
+    name: Mermaid (Asia) (Ja) (M-U1) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 15204
       kind: 3
       kind_id: 15222
       type: 1
-      name: "Little Mermaid - Ningyo Hime (J) [p2].nes"
+      name: Mermaid (Asia) (Ja) (M-U1) (Pirate).nes
       format: 1
       size: 131088
       blob_id: 60934
-      debug: "Little Mermaid - Ningyo Hime (J) [p2].nes"
+      debug: "Little Mermaid - Ningyo Hime (J) [p2].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=746fa0d60f51307d38aca76b55259ba5eb80718a"
+  - asset:
+      id: 139525
+      kind: 3
+      kind_id: 15222
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mermaid%20%28Asia%29%20%28Ja%29%20%28M-U1%29%20%28Pirate%29.png
+      format: 1
+      size: 5413
+      blob_id: 324948
+      debug: libretro-named-titles:rom-asset=15204:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mermaid%20%28Asia%29%20%28Ja%29%20%28M-U1%29%20%28Pirate%29.png
 - release:
     id: 15223
     game_id: 15216

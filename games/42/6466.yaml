@@ -47,17 +47,26 @@ releases:
     kind_id: 6468
     language: 1
     name: Baseball (GC)
+    deprecated: 1
+  - id: 257714
+    kind: 3
+    kind_id: 6468
+    language: 1
+    name: Baseball (USA, Europe) (Animal Crossing)
+    source: no-intro
   assets:
   - asset:
       id: 6450
       kind: 3
       kind_id: 6468
       type: 1
-      name: Baseball (GC).nes
+      name: Baseball (USA, Europe) (Animal Crossing).nes
       format: 1
       size: 24592
       blob_id: 52702
-      debug: Baseball (GC).nes
+      debug: |-
+        Baseball (GC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=ef4dd4477dc933eeaf23b56e6876c087e732514c
 - release:
     id: 6469
     game_id: 6466
@@ -147,17 +156,26 @@ releases:
     kind_id: 6478
     language: 1
     name: Baseball (U) (GBA e-Reader)
+    deprecated: 1
+  - id: 257715
+    kind: 3
+    kind_id: 6478
+    language: 1
+    name: Baseball (USA) (e-Reader)
+    source: no-intro
   assets:
   - asset:
       id: 6460
       kind: 3
       kind_id: 6478
       type: 1
-      name: Baseball (U) (GBA e-Reader).nes
+      name: Baseball (USA) (e-Reader).nes
       format: 1
       size: 24592
       blob_id: 52712
-      debug: Baseball (U) (GBA e-Reader).nes
+      debug: |-
+        Baseball (U) (GBA e-Reader).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=c14831307095a5cd711bfad1ff5085f7982d0481
 - release:
     id: 6479
     game_id: 6466
@@ -167,24 +185,32 @@ releases:
     kind_id: 6479
     language: 1
     name: Baseball (U) [!]
+    deprecated: 1
   - id: 60361
     kind: 3
     kind_id: 6479
     language: 2
     name: 任天堂棒球 (美版,欧版) (运动)-Baseball (USA, Europe)
+  - id: 257716
+    kind: 3
+    kind_id: 6479
+    language: 1
+    name: Baseball (USA, Europe)
+    source: no-intro
   assets:
   - asset:
       id: 6461
       kind: 3
       kind_id: 6479
       type: 1
-      name: Baseball (U) [!].nes
+      name: Baseball (USA, Europe).nes
       format: 1
       size: 24592
       blob_id: 52713
       debug: |-
         Baseball (U) [!].zip
         任天堂棒球 (美版,欧版) (运动)-Baseball (USA, Europe) + Baseball (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=1168bcadc228f43b7fd9c66187d5f309131dd847
   - asset:
       id: 136703
       kind: 3

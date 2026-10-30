@@ -12,11 +12,19 @@ names:
   kind_id: 25891
   language: 1
   name: Wheel of Fortune Junior Edition (U) [!]
+  deprecated: 1
 - id: 93547
   kind: 2
   kind_id: 25891
   language: 1
   name: Wheel of Fortune Junior Edition
+  deprecated: 1
+- id: 262296
+  kind: 2
+  kind_id: 25891
+  language: 1
+  name: "Wheel of Fortune - Junior Edition"
+  source: no-intro
 releases:
 - release:
     id: 25893
@@ -27,6 +35,7 @@ releases:
     kind_id: 25893
     language: 1
     name: Wheel of Fortune Junior Edition (U)
+    deprecated: 1
   - id: 64147
     kind: 3
     kind_id: 25893
@@ -37,14 +46,32 @@ releases:
     kind_id: 25893
     language: 1
     name: Wheel of Fortune Junior Edition (U) [!]
+    deprecated: 1
+  - id: 259801
+    kind: 3
+    kind_id: 25893
+    language: 1
+    name: "Wheel of Fortune - Junior Edition (USA)"
+    source: no-intro
   assets:
   - asset:
       id: 25875
       kind: 3
       kind_id: 25893
       type: 1
-      name: Wheel of Fortune Junior Edition (U).nes
+      name: "Wheel of Fortune - Junior Edition (USA).nes"
       format: 1
       size: 131088
       blob_id: 71059
-      debug: "Wheel of Fortune Junior Edition (U).zip\n幸运轮盘儿童版 (美版) (博弈)-Wheel of Fortune - Junior Edition (USA) + Wheel of Fortune Junior Edition (U) [!].nes"
+      debug: "Wheel of Fortune Junior Edition (U).zip\n幸运轮盘儿童版 (美版) (博弈)-Wheel of Fortune - Junior Edition (USA) + Wheel of Fortune Junior Edition (U) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=5bcf47901533372b7d9828380fcf32f11c6f9ce8"
+  - asset:
+      id: 139890
+      kind: 3
+      kind_id: 25893
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Wheel%20of%20Fortune%20-%20Junior%20Edition%20%28USA%29.png
+      format: 1
+      size: 3004
+      blob_id: 325258
+      debug: libretro-named-titles:rom-asset=25875:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Wheel%20of%20Fortune%20-%20Junior%20Edition%20%28USA%29.png

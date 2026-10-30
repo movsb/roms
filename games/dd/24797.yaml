@@ -7,11 +7,18 @@ names:
   kind_id: 24797
   language: 1
   name: Thunder Warrior (Unl)
+  deprecated: 1
 - id: 70483
   kind: 2
   kind_id: 24797
   language: 2
   name: 轰天至尊[TXC]
+- id: 262233
+  kind: 2
+  kind_id: 24797
+  language: 1
+  name: Thunder Warrior
+  source: no-intro
 releases:
 - release:
     id: 24797
@@ -22,21 +29,29 @@ releases:
     kind_id: 24797
     language: 1
     name: Thunder Warrior (Unl)
+    deprecated: 1
   - id: 70485
     kind: 3
     kind_id: 24797
     language: 2
     name: 轰天至尊[TXC]
+  - id: 259648
+    kind: 3
+    kind_id: 24797
+    language: 1
+    name: Thunder Warrior (Taiwan) (En) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 24779
       kind: 3
       kind_id: 24797
       type: 1
-      name: Thunder Warrior (Unl).nes
+      name: Thunder Warrior (Taiwan) (En) (Unl).nes
       format: 1
       size: 262160
       blob_id: 70051
       debug: |-
         Thunder Warrior (Unl).zip
         轰天至尊[TXC] + Thunder Warrior (Unl).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=4704118a8525a2e4d8730d00e8d800b05fd3f2ac

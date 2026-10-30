@@ -12,6 +12,13 @@ names:
   kind_id: 26718
   language: 1
   name: Shanghai (J) (Sample) [!]
+  deprecated: 1
+- id: 262379
+  kind: 2
+  kind_id: 26718
+  language: 1
+  name: Shanghai
+  source: no-intro
 releases:
 - release:
     id: 26718
@@ -27,17 +34,26 @@ releases:
     kind_id: 26718
     language: 1
     name: Shanghai (J) (Sample) [!]
+    deprecated: 1
+  - id: 259951
+    kind: 3
+    kind_id: 26718
+    language: 1
+    name: Shanghai (Japan) (En) (Sample)
+    source: no-intro
   assets:
   - asset:
       id: 26700
       kind: 3
       kind_id: 26718
       type: 1
-      name: 上海 (日版)(Sample) (益智)-Shanghai (Japan) (Sample) + Shanghai (J) (Sample) [!].nes
+      name: Shanghai (Japan) (En) (Sample).nes
       format: 1
       size: 131088
       blob_id: 71802
-      debug: 上海 (日版)(Sample) (益智)-Shanghai (Japan) (Sample) + Shanghai (J) (Sample) [!].nes
+      debug: |-
+        上海 (日版)(Sample) (益智)-Shanghai (Japan) (Sample) + Shanghai (J) (Sample) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=a97667693162c5fa223ce5da39c31e8d83832417
   - asset:
       id: 137515
       kind: 3

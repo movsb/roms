@@ -128,6 +128,7 @@ releases:
     kind_id: 12793
     language: 1
     name: Gyrodine (Japan)
+    deprecated: 1
   - id: 64985
     kind: 3
     kind_id: 12793
@@ -138,6 +139,13 @@ releases:
     kind_id: 12793
     language: 1
     name: Gyrodine (J) [!]
+    deprecated: 1
+  - id: 258381
+    kind: 3
+    kind_id: 12793
+    language: 1
+    name: Gyrodine (Japan) (En)
+    source: no-intro
   release_publishers:
   - release_id: 12793
     publisher_id: 112
@@ -147,13 +155,14 @@ releases:
       kind: 3
       kind_id: 12793
       type: 1
-      name: Gyrodine (Japan).nes
+      name: Gyrodine (Japan) (En).nes
       format: 1
       size: 40976
       blob_id: 58676
       debug: |-
         Gyrodine (Japan).zip
         战斗直升机 (日版) (射击)-Gyrodine (Japan) + Gyrodine (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=7a5b0785ea57173c3d30e1ca0bc3814675652b7c
   - asset:
       id: 138516
       kind: 3

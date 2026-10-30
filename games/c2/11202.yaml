@@ -13,6 +13,12 @@ names:
   language: 2
   name: 家庭棒球91
   source: codex
+- id: 261701
+  kind: 2
+  kind_id: 11202
+  language: 1
+  name: Famista '91
+  source: no-intro
 releases:
 - release:
     id: 11202
@@ -23,17 +29,26 @@ releases:
     kind_id: 11202
     language: 1
     name: Famista '91 (J) [!]
+    deprecated: 1
+  - id: 258196
+    kind: 3
+    kind_id: 11202
+    language: 1
+    name: Famista '91 (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 11184
       kind: 3
       kind_id: 11202
       type: 1
-      name: Famista '91 (J) [!].nes
+      name: Famista '91 (Japan).nes
       format: 1
       size: 262160
       blob_id: 57172
-      debug: Famista '91 (J) [!].nes
+      debug: |-
+        Famista '91 (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=df2acbd6f6f89aeff03881dd3f9fe5041de05468
   - asset:
       id: 136883
       kind: 3

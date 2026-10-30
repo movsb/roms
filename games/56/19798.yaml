@@ -7,12 +7,19 @@ names:
   kind_id: 19798
   language: 1
   name: Rasaaru Ishii no Childs Quest
+  deprecated: 1
 - id: 248431
   kind: 2
   kind_id: 19798
   language: 2
   name: 石井光三的儿童任务
   source: codex
+- id: 262046
+  kind: 2
+  kind_id: 19798
+  language: 1
+  name: Lasalle Ishii no Child's Quest
+  source: no-intro
 releases:
 - release:
     id: 19798
@@ -23,17 +30,26 @@ releases:
     kind_id: 19798
     language: 1
     name: Rasaaru Ishii no Childs Quest (J) [!]
+    deprecated: 1
+  - id: 259163
+    kind: 3
+    kind_id: 19798
+    language: 1
+    name: Lasalle Ishii no Child's Quest (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 19780
       kind: 3
       kind_id: 19798
       type: 1
-      name: Rasaaru Ishii no Childs Quest (J) [!].nes
+      name: Lasalle Ishii no Child's Quest (Japan).nes
       format: 1
       size: 196624
       blob_id: 65269
-      debug: Rasaaru Ishii no Childs Quest (J) [!].nes
+      debug: |-
+        Rasaaru Ishii no Childs Quest (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=136ee001e85eeba653ca11bc2378bd4d219969cb
   - asset:
       id: 137239
       kind: 3

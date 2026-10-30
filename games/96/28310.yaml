@@ -12,6 +12,13 @@ names:
   kind_id: 28310
   language: 1
   name: Arkanoid (J) [!]
+  deprecated: 1
+- id: 262956
+  kind: 2
+  kind_id: 28310
+  language: 1
+  name: Arkanoid
+  source: no-intro
 releases:
 - release:
     id: 28310
@@ -27,17 +34,26 @@ releases:
     kind_id: 28310
     language: 1
     name: Arkanoid (J) [!]
+    deprecated: 1
+  - id: 260582
+    kind: 3
+    kind_id: 28310
+    language: 1
+    name: Arkanoid (Japan) (En)
+    source: no-intro
   assets:
   - asset:
       id: 28292
       kind: 3
       kind_id: 28310
       type: 1
-      name: 打砖块 (日版) (益智)-Arkanoid (Japan) + Arkanoid (J) [!].nes
+      name: Arkanoid (Japan) (En).nes
       format: 1
       size: 49168
       blob_id: 72856
-      debug: 打砖块 (日版) (益智)-Arkanoid (Japan) + Arkanoid (J) [!].nes
+      debug: |-
+        打砖块 (日版) (益智)-Arkanoid (Japan) + Arkanoid (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=efa19c34c9dc95f7511af979cad72884a6746a3b
   - asset:
       id: 137738
       kind: 3

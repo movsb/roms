@@ -12,6 +12,13 @@ names:
   kind_id: 6156
   language: 1
   name: B-Wings (J) [!]
+  deprecated: 1
+- id: 261511
+  kind: 2
+  kind_id: 6156
+  language: 1
+  name: B-Wings
+  source: no-intro
 releases:
 - release:
     id: 6156
@@ -27,17 +34,26 @@ releases:
     kind_id: 6156
     language: 1
     name: B-Wings (J) [!]
+    deprecated: 1
+  - id: 257674
+    kind: 3
+    kind_id: 6156
+    language: 1
+    name: B-Wings (Japan) (En)
+    source: no-intro
   assets:
   - asset:
       id: 6138
       kind: 3
       kind_id: 6156
       type: 1
-      name: B 计划 (日版) (射击)-B-Wings (Japan) + B-Wings (J) [!].nes
+      name: B-Wings (Japan) (En).nes
       format: 1
       size: 40976
       blob_id: 52406
-      debug: B 计划 (日版) (射击)-B-Wings (Japan) + B-Wings (J) [!].nes
+      debug: |-
+        B 计划 (日版) (射击)-B-Wings (Japan) + B-Wings (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=1862126a3d8b8e37ac0571aa76309d0bb2dd8db2
   - asset:
       id: 136684
       kind: 3

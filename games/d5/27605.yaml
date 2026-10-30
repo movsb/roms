@@ -12,6 +12,13 @@ names:
   kind_id: 27605
   language: 1
   name: Daisenryaku
+  deprecated: 1
+- id: 262708
+  kind: 2
+  kind_id: 27605
+  language: 1
+  name: Dazhanlue
+  source: no-intro
 releases:
 - release:
     id: 27606
@@ -27,17 +34,26 @@ releases:
     kind_id: 27606
     language: 1
     name: Daisenryaku (Ch) [!]
+    deprecated: 1
+  - id: 260312
+    kind: 3
+    kind_id: 27606
+    language: 1
+    name: Dazhanlue (China) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 27588
       kind: 3
       kind_id: 27606
       type: 1
-      name: 大战略[未知] + Daisenryaku (Ch) [!].nes
+      name: Dazhanlue (China) (Pirate).nes
       format: 1
       size: 262160
       blob_id: 72395
-      debug: 大战略[未知] + Daisenryaku (Ch) [!].nes
+      debug: |-
+        大战略[未知] + Daisenryaku (Ch) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=e67b1b39611c7f6dd54d38d4174dd6aad9827fd2
   - asset:
       id: 137639
       kind: 3

@@ -7,12 +7,19 @@ names:
   kind_id: 8455
   language: 1
   name: Cheng Ji Si Han (ES-1110) (Ch)
+  deprecated: 1
 - id: 247596
   kind: 2
   kind_id: 8455
   language: 2
   name: 成吉思汗
   source: codex
+- id: 261588
+  kind: 2
+  kind_id: 8455
+  language: 1
+  name: Chengjisi Han (Genghis Khan)
+  source: no-intro
 releases:
 - release:
     id: 8455
@@ -23,14 +30,34 @@ releases:
     kind_id: 8455
     language: 1
     name: Cheng Ji Si Han (ES-1110) (Ch)
+    deprecated: 1
+  - id: 257883
+    kind: 3
+    kind_id: 8455
+    language: 1
+    name: Chengjisi Han (Genghis Khan) (China) (Aftermarket) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 8437
       kind: 3
       kind_id: 8455
       type: 1
-      name: Cheng Ji Si Han (ES-1110) (Ch).nes
+      name: Chengjisi Han (Genghis Khan) (China) (Aftermarket) (Unl).nes
       format: 1
       size: 524304
       blob_id: 54590
-      debug: Cheng Ji Si Han (ES-1110) (Ch).nes
+      debug: |-
+        Cheng Ji Si Han (ES-1110) (Ch).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=ca7fe978a1926827c6d3eb670d8e1ff9903614b7
+  - asset:
+      id: 139350
+      kind: 3
+      kind_id: 8455
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Chengjisi%20Han%20%28Genghis%20Khan%29%20%28China%29%20%28Aftermarket%29%20%28Unl%29.png
+      format: 1
+      size: 4270
+      blob_id: 324793
+      debug: libretro-named-titles:rom-asset=8437:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Chengjisi%20Han%20%28Genghis%20Khan%29%20%28China%29%20%28Aftermarket%29%20%28Unl%29.png

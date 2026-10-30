@@ -7,11 +7,18 @@ names:
   kind_id: 23532
   language: 1
   name: Taiwan Mahjong 2 (Sachen) [!]
+  deprecated: 1
 - id: 61975
   kind: 2
   kind_id: 23532
   language: 2
   name: 台湾十六张麻将 II (亚洲版) (桌面平台)-Taiwan Mahjong 2 (Unl)
+- id: 262215
+  kind: 2
+  kind_id: 23532
+  language: 1
+  name: Taiwan Mahjong 2
+  source: no-intro
 releases:
 - release:
     id: 23532
@@ -22,24 +29,32 @@ releases:
     kind_id: 23532
     language: 1
     name: Taiwan Mahjong 2 (Sachen) [!]
+    deprecated: 1
   - id: 61977
     kind: 3
     kind_id: 23532
     language: 2
     name: 台湾十六张麻将 II (亚洲版) (桌面平台)-Taiwan Mahjong 2 (Asia) (Unl)
+  - id: 259580
+    kind: 3
+    kind_id: 23532
+    language: 1
+    name: Taiwan Mahjong 2 (Taiwan) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 23514
       kind: 3
       kind_id: 23532
       type: 1
-      name: Taiwan Mahjong 2 (Sachen) [!].nes
+      name: Taiwan Mahjong 2 (Taiwan) (Unl).nes
       format: 1
       size: 49168
       blob_id: 68815
       debug: |-
         Taiwan Mahjong 2 (Sachen) [!].zip
         台湾十六张麻将 II (亚洲版) (桌面平台)-Taiwan Mahjong 2 (Asia) (Unl) + Taiwan Mahjong 2 (Sachen) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=723cc5026f9dcc452d2099c9cc8bdb4bd3f166ba
   - asset:
       id: 137383
       kind: 3

@@ -68,6 +68,7 @@ releases:
     kind_id: 8626
     language: 1
     name: Choplifter (Japan)
+    deprecated: 1
   - id: 65383
     kind: 3
     kind_id: 8626
@@ -78,6 +79,13 @@ releases:
     kind_id: 8626
     language: 1
     name: Choplifter (J) [b1]
+    deprecated: 1
+  - id: 257899
+    kind: 3
+    kind_id: 8626
+    language: 1
+    name: Choplifter (Japan) (En) (Rev 1)
+    source: no-intro
   release_publishers:
   - release_id: 8626
     publisher_id: 71
@@ -87,13 +95,14 @@ releases:
       kind: 3
       kind_id: 8626
       type: 1
-      name: Choplifter (Japan).nes
+      name: Choplifter (Japan) (En) (Rev 1).nes
       format: 1
       size: 49168
       blob_id: 54753
       debug: |-
         Choplifter (Japan).zip
         救援直升机 (日版)(Rev 1) (动作)-Choplifter (Japan) (Rev 1) + Choplifter (J) [b1].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=2eb5525ad6540173f3086228788f3788023ee85d
   - asset:
       id: 138270
       kind: 3

@@ -7,12 +7,19 @@ names:
   kind_id: 15173
   language: 1
   name: Lines (R) [!]
+  deprecated: 1
 - id: 249248
   kind: 2
   kind_id: 15173
   language: 2
   name: 彩色线条
   source: codex
+- id: 261852
+  kind: 2
+  kind_id: 15173
+  language: 1
+  name: Lines
+  source: no-intro
 releases:
 - release:
     id: 15173
@@ -23,17 +30,26 @@ releases:
     kind_id: 15173
     language: 1
     name: Lines (R) [!]
+    deprecated: 1
+  - id: 258646
+    kind: 3
+    kind_id: 15173
+    language: 1
+    name: Lines (Russia) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 15155
       kind: 3
       kind_id: 15173
       type: 1
-      name: Lines (R) [!].nes
+      name: Lines (Russia) (Unl).nes
       format: 1
       size: 24592
       blob_id: 60892
-      debug: Lines (R) [!].nes
+      debug: |-
+        Lines (R) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=f4867214e6e6f11c9e3a75576e74059302fb7bbf
   - asset:
       id: 137058
       kind: 3

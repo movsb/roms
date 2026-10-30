@@ -12,11 +12,19 @@ names:
   kind_id: 26006
   language: 1
   name: "Wizardry II - Llylgamyn no Densetsu (J) [!]"
+  deprecated: 1
 - id: 93567
   kind: 2
   kind_id: 26006
   language: 1
   name: "Wizardry II - Llylgamyn no Densetsu"
+  deprecated: 1
+- id: 262306
+  kind: 2
+  kind_id: 26006
+  language: 1
+  name: "Wizardry II - Llylgamyn no Isan"
+  source: no-intro
 releases:
 - release:
     id: 26008
@@ -27,6 +35,7 @@ releases:
     kind_id: 26008
     language: 1
     name: "Wizardry II - Llylgamyn no Densetsu (Japan) (Translated En)"
+    deprecated: 1
   - id: 63951
     kind: 3
     kind_id: 26008
@@ -37,14 +46,32 @@ releases:
     kind_id: 26008
     language: 1
     name: "Wizardry II - Llylgamyn no Densetsu (J) [!]"
+    deprecated: 1
+  - id: 259818
+    kind: 3
+    kind_id: 26008
+    language: 1
+    name: "Wizardry II - Llylgamyn no Isan (Japan)"
+    source: no-intro
   assets:
   - asset:
       id: 25990
       kind: 3
       kind_id: 26008
       type: 1
-      name: "Wizardry II - Llylgamyn no Densetsu (Japan) (Translated En).nes"
+      name: "Wizardry II - Llylgamyn no Isan (Japan).nes"
       format: 1
       size: 262160
       blob_id: 71162
-      debug: "Wizardry II - Llylgamyn no Densetsu (Japan) (Translated En).zip\n巫术 II - 利加敏的遗产 (日版) (角色扮演)-Wizardry II - Llylgamyn no Densetsu (Japan) + Wizardry II - Llylgamyn no Densetsu (J) [!].nes"
+      debug: "Wizardry II - Llylgamyn no Densetsu (Japan) (Translated En).zip\n巫术 II - 利加敏的遗产 (日版) (角色扮演)-Wizardry II - Llylgamyn no Densetsu (Japan) + Wizardry II - Llylgamyn no Densetsu (J) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=ef849128916713a91a287660d819075059d39cba"
+  - asset:
+      id: 139895
+      kind: 3
+      kind_id: 26008
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Wizardry%20II%20-%20Llylgamyn%20no%20Isan%20%28Japan%29.png
+      format: 1
+      size: 1187
+      blob_id: 325263
+      debug: libretro-named-titles:rom-asset=25990:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Wizardry%20II%20-%20Llylgamyn%20no%20Isan%20%28Japan%29.png

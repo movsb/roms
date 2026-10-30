@@ -12,11 +12,18 @@ names:
   kind_id: 23745
   language: 1
   name: Tecmo Baseball (U) [!]
+  deprecated: 1
 - id: 93342
   kind: 2
   kind_id: 23745
   language: 1
   name: Tecmo Baseball
+- id: 262221
+  kind: 2
+  kind_id: 23745
+  language: 1
+  name: Tecmo Baseball
+  source: no-intro
 releases:
 - release:
     id: 23745
@@ -27,24 +34,32 @@ releases:
     kind_id: 23745
     language: 1
     name: Tecmo Baseball (U) [!]
+    deprecated: 1
   - id: 67637
     kind: 3
     kind_id: 23745
     language: 2
     name: 特库摩棒球 (美版) (运动)-Tecmo Baseball (USA)
+  - id: 259595
+    kind: 3
+    kind_id: 23745
+    language: 1
+    name: Tecmo Baseball (USA)
+    source: no-intro
   assets:
   - asset:
       id: 23727
       kind: 3
       kind_id: 23745
       type: 1
-      name: Tecmo Baseball (U) [!].nes
+      name: Tecmo Baseball (USA).nes
       format: 1
       size: 131088
       blob_id: 69016
       debug: |-
         Tecmo Baseball (U) [!].zip
         特库摩棒球 (美版) (运动)-Tecmo Baseball (USA) + Tecmo Baseball (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=b116bbaa57c1d3fcdce0cde22290fa92c7d8418e
   - asset:
       id: 137388
       kind: 3
@@ -65,17 +80,26 @@ releases:
     kind_id: 23749
     language: 1
     name: Tecmo Baseball (U)
+    deprecated: 1
+  - id: 259596
+    kind: 3
+    kind_id: 23749
+    language: 1
+    name: Tecmo Baseball (USA)
+    source: no-intro
   assets:
   - asset:
       id: 23731
       kind: 3
       kind_id: 23749
       type: 1
-      name: Tecmo Baseball (U).nes
+      name: Tecmo Baseball (USA).nes
       format: 1
       size: 131088
       blob_id: 69020
-      debug: Tecmo Baseball (U).zip
+      debug: |-
+        Tecmo Baseball (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=b116bbaa57c1d3fcdce0cde22290fa92c7d8418e
   - asset:
       id: 138723
       kind: 3

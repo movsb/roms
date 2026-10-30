@@ -12,6 +12,13 @@ names:
   kind_id: 28574
   language: 1
   name: Rygar (E) [!]
+  deprecated: 1
+- id: 263070
+  kind: 2
+  kind_id: 28574
+  language: 1
+  name: Rygar
+  source: no-intro
 releases:
 - release:
     id: 28574
@@ -27,17 +34,26 @@ releases:
     kind_id: 28574
     language: 1
     name: Rygar (E) [!]
+    deprecated: 1
+  - id: 260708
+    kind: 3
+    kind_id: 28574
+    language: 1
+    name: Rygar (Europe)
+    source: no-intro
   assets:
   - asset:
       id: 28556
       kind: 3
       kind_id: 28574
       type: 1
-      name: 未来战士 (欧版) (动作)-Rygar (Europe) + Rygar (E) [!].nes
+      name: Rygar (Europe).nes
       format: 1
       size: 131088
       blob_id: 73040
-      debug: 未来战士 (欧版) (动作)-Rygar (Europe) + Rygar (E) [!].nes
+      debug: |-
+        未来战士 (欧版) (动作)-Rygar (Europe) + Rygar (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=81cb1057c361acac0bb19bcc7b3b5e7c30d923fd
   - asset:
       id: 137792
       kind: 3

@@ -7,12 +7,19 @@ names:
   kind_id: 21417
   language: 1
   name: Snoopy's Silly Sports Spectacular
+  deprecated: 1
 - id: 248583
   kind: 2
   kind_id: 21417
   language: 2
   name: 史努比趣味运动会
   source: codex
+- id: 262132
+  kind: 2
+  kind_id: 21417
+  language: 1
+  name: Snoopy's Silly Sports Spectacular!
+  source: no-intro
 releases:
 - release:
     id: 21417
@@ -23,19 +30,27 @@ releases:
     kind_id: 21417
     language: 1
     name: Snoopy's Silly Sports Spectacular (U) [!]
+    deprecated: 1
+  - id: 259355
+    kind: 3
+    kind_id: 21417
+    language: 1
+    name: Snoopy's Silly Sports Spectacular! (USA)
+    source: no-intro
   assets:
   - asset:
       id: 21399
       kind: 3
       kind_id: 21417
       type: 1
-      name: Snoopy's Silly Sports Spectacular (U) [!].nes
+      name: Snoopy's Silly Sports Spectacular! (USA).nes
       format: 1
       size: 262160
       blob_id: 66801
       debug: |-
         Snoopy's Silly Sports Spectacular (U) [!].nes
         Snoopy's Silly Sports Spectacular (U) [!].zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=f3c02a8900cdd78ba777dedbe09701c1cce3531e
   - asset:
       id: 137319
       kind: 3
@@ -56,14 +71,34 @@ releases:
     kind_id: 21427
     language: 1
     name: Snoopy's Silly Sports Spectacular (U)
+    deprecated: 1
+  - id: 259356
+    kind: 3
+    kind_id: 21427
+    language: 1
+    name: Snoopy's Silly Sports Spectacular! (USA)
+    source: no-intro
   assets:
   - asset:
       id: 21409
       kind: 3
       kind_id: 21427
       type: 1
-      name: Snoopy's Silly Sports Spectacular (U).nes
+      name: Snoopy's Silly Sports Spectacular! (USA).nes
       format: 1
       size: 262160
       blob_id: 66810
-      debug: Snoopy's Silly Sports Spectacular (U).zip
+      debug: |-
+        Snoopy's Silly Sports Spectacular (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=f3c02a8900cdd78ba777dedbe09701c1cce3531e
+  - asset:
+      id: 139757
+      kind: 3
+      kind_id: 21427
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Snoopy%27s%20Silly%20Sports%20Spectacular%21%20%28USA%29.png
+      format: 1
+      size: 3015
+      blob_id: 325137
+      debug: libretro-named-titles:rom-asset=21409:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Snoopy%27s%20Silly%20Sports%20Spectacular%21%20%28USA%29.png

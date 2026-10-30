@@ -27,17 +27,37 @@ releases:
     kind_id: 28933
     language: 1
     name: Hottaaman no Chitei Tanken (J)
+    deprecated: 1
+  - id: 260863
+    kind: 3
+    kind_id: 28933
+    language: 1
+    name: Hottarman no Chitei Tanken (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 28915
       kind: 3
       kind_id: 28933
       type: 1
-      name: 火星人之地底探险 (日版) (益智)-Hottarman no Chitei Tanken (Japan) + Hottaaman no Chitei Tanken (J).nes
+      name: Hottarman no Chitei Tanken (Japan).nes
       format: 1
       size: 65552
       blob_id: 73267
-      debug: 火星人之地底探险 (日版) (益智)-Hottarman no Chitei Tanken (Japan) + Hottaaman no Chitei Tanken (J).nes
+      debug: |-
+        火星人之地底探险 (日版) (益智)-Hottarman no Chitei Tanken (Japan) + Hottaaman no Chitei Tanken (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=62eca1be825b00db305b4076cf6c078f6cf1965b
+  - asset:
+      id: 140166
+      kind: 3
+      kind_id: 28933
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Hottarman%20no%20Chitei%20Tanken%20%28Japan%29.png
+      format: 1
+      size: 2834
+      blob_id: 325491
+      debug: libretro-named-titles:rom-asset=28915:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Hottarman%20no%20Chitei%20Tanken%20%28Japan%29.png
 - release:
     id: 28934
     game_id: 28933

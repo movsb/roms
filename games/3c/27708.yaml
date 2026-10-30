@@ -13,6 +13,13 @@ names:
   kind_id: 27708
   language: 1
   name: Final Fantasy II (J) [!]
+  deprecated: 1
+- id: 262739
+  kind: 2
+  kind_id: 27708
+  language: 1
+  name: Final Fantasy II
+  source: no-intro
 releases:
 - release:
     id: 27708
@@ -28,17 +35,26 @@ releases:
     kind_id: 27708
     language: 1
     name: Final Fantasy II (J) [!]
+    deprecated: 1
+  - id: 260345
+    kind: 3
+    kind_id: 27708
+    language: 1
+    name: Final Fantasy II (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 27690
       kind: 3
       kind_id: 27708
       type: 1
-      name: 太空战士 II (日版) (角色扮演)-Final Fantasy II (Japan) + Final Fantasy II (J) [!].nes
+      name: Final Fantasy II (Japan).nes
       format: 1
       size: 262160
       blob_id: 72464
-      debug: 太空战士 II (日版) (角色扮演)-Final Fantasy II (Japan) + Final Fantasy II (J) [!].nes
+      debug: |-
+        太空战士 II (日版) (角色扮演)-Final Fantasy II (Japan) + Final Fantasy II (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=070d4ce87eb4abcc9f9d2a97b8010881cb57defa
   - asset:
       id: 137653
       kind: 3

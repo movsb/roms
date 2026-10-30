@@ -12,6 +12,13 @@ names:
   kind_id: 29601
   language: 1
   name: Tiger-Heli (E) [!]
+  deprecated: 1
+- id: 263439
+  kind: 2
+  kind_id: 29601
+  language: 1
+  name: Tiger-Heli
+  source: no-intro
 releases:
 - release:
     id: 29601
@@ -27,17 +34,26 @@ releases:
     kind_id: 29601
     language: 1
     name: Tiger-Heli (E) [!]
+    deprecated: 1
+  - id: 261121
+    kind: 3
+    kind_id: 29601
+    language: 1
+    name: Tiger-Heli (Europe)
+    source: no-intro
   assets:
   - asset:
       id: 29583
       kind: 3
       kind_id: 29601
       type: 1
-      name: 虎式直升机 (欧版) (射击)-Tiger-Heli (Europe) + Tiger-Heli (E) [!].nes
+      name: Tiger-Heli (Europe).nes
       format: 1
       size: 65552
       blob_id: 73686
-      debug: 虎式直升机 (欧版) (射击)-Tiger-Heli (Europe) + Tiger-Heli (E) [!].nes
+      debug: |-
+        虎式直升机 (欧版) (射击)-Tiger-Heli (Europe) + Tiger-Heli (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=5045a576844ed029103c997e7d18fa3d98e26a1e
   - asset:
       id: 139164
       kind: 3

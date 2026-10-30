@@ -8,11 +8,18 @@ names:
   kind_id: 23126
   language: 1
   name: Super Mario Bros. 8 (Unl) [!]
+  deprecated: 1
 - id: 242145
   kind: 2
   kind_id: 23126
   language: 2
   name: 超级马力欧兄弟8
+- id: 262195
+  kind: 2
+  kind_id: 23126
+  language: 1
+  name: Super Bros. 8
+  source: no-intro
 releases:
 - release:
     id: 23126
@@ -23,14 +30,22 @@ releases:
     kind_id: 23126
     language: 2
     name: 超级马力欧兄弟8
+  - id: 259523
+    kind: 3
+    kind_id: 23126
+    language: 1
+    name: Super Bros. 8 (Asia) (Ja) (v1.1) (JY211) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 23108
       kind: 3
       kind_id: 23126
       type: 1
-      name: Super Mario Bros. 8 (Unl) [!].nes
+      name: Super Bros. 8 (Asia) (Ja) (v1.1) (JY211) (Pirate).nes
       format: 1
       size: 393232
       blob_id: 68435
-      debug: Super Mario Bros. 8 (Unl) [!].nes
+      debug: |-
+        Super Mario Bros. 8 (Unl) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=18e26b352dfce579803ef41380dbf1b47a0df131

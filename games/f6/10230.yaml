@@ -7,6 +7,7 @@ names:
   kind_id: 10230
   language: 1
   name: Dr Jekyll and Mr Hyde (U)
+  deprecated: 1
 - id: 61503
   kind: 2
   kind_id: 10230
@@ -17,6 +18,12 @@ names:
   kind_id: 10230
   language: 1
   name: Dr. Jekyll and Mr. Hyde
+- id: 261653
+  kind: 2
+  kind_id: 10230
+  language: 1
+  name: Dr. Jekyll and Mr. Hyde
+  source: no-intro
 releases:
 - release:
     id: 10230
@@ -27,23 +34,31 @@ releases:
     kind_id: 10230
     language: 1
     name: Dr Jekyll and Mr Hyde (U)
+    deprecated: 1
   - id: 22108
     kind: 3
     kind_id: 10230
     language: 1
     name: Dr. Jekyll and Mr. Hyde (U) [!]
+    deprecated: 1
   - id: 61504
     kind: 3
     kind_id: 10230
     language: 2
     name: 化身博士与海德先生
+  - id: 258073
+    kind: 3
+    kind_id: 10230
+    language: 1
+    name: Dr. Jekyll and Mr. Hyde (USA)
+    source: no-intro
   assets:
   - asset:
       id: 10212
       kind: 3
       kind_id: 10230
       type: 1
-      name: Dr Jekyll and Mr Hyde (U).nes
+      name: Dr. Jekyll and Mr. Hyde (USA).nes
       format: 1
       size: 163856
       blob_id: 56261
@@ -52,6 +67,7 @@ releases:
         Dr. Jekyll and Mr. Hyde (U) [!].zip
         化身博士与海德先生.nes
         重复的/仿魔之刻 (美版) (动作)-Dr. Jekyll and Mr. Hyde (USA) + Dr. Jekyll and Mr. Hyde (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=b64ac92c97b3abcec8c4dd35a3261d11b159aa34
   - asset:
       id: 138346
       kind: 3

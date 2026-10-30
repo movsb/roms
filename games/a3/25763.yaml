@@ -12,11 +12,18 @@ names:
   kind_id: 25763
   language: 1
   name: Wall Street Kid (U) [!]
+  deprecated: 1
 - id: 93528
   kind: 2
   kind_id: 25763
   language: 1
   name: Wall Street Kid
+- id: 262288
+  kind: 2
+  kind_id: 25763
+  language: 1
+  name: Wall Street Kid
+  source: no-intro
 releases:
 - release:
     id: 25763
@@ -27,23 +34,31 @@ releases:
     kind_id: 25763
     language: 1
     name: Wall Street Kid (U) [!]
+    deprecated: 1
   - id: 57616
     kind: 3
     kind_id: 25763
     language: 1
     name: Wall Street Kid (U)
+    deprecated: 1
   - id: 61621
     kind: 3
     kind_id: 25763
     language: 2
     name: 华尔街小子 (美版) (策略经营)-Wall Street Kid (USA)
+  - id: 259785
+    kind: 3
+    kind_id: 25763
+    language: 1
+    name: Wall Street Kid (USA)
+    source: no-intro
   assets:
   - asset:
       id: 25745
       kind: 3
       kind_id: 25763
       type: 1
-      name: Wall Street Kid (U) [!].nes
+      name: Wall Street Kid (USA).nes
       format: 1
       size: 131088
       blob_id: 70935
@@ -51,6 +66,7 @@ releases:
         Wall Street Kid (U) [!].zip
         Wall Street Kid (U).zip
         华尔街小子 (美版) (策略经营)-Wall Street Kid (USA) + Wall Street Kid (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=c260d62429f2ae3a49c1f969f664d17f44319165
   - asset:
       id: 137463
       kind: 3

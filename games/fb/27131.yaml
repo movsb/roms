@@ -12,6 +12,13 @@ names:
   kind_id: 27131
   language: 1
   name: Power Blade (E) [!]
+  deprecated: 1
+- id: 262546
+  kind: 2
+  kind_id: 27131
+  language: 1
+  name: Power Blade
+  source: no-intro
 releases:
 - release:
     id: 27131
@@ -27,17 +34,26 @@ releases:
     kind_id: 27131
     language: 1
     name: Power Blade (E) [!]
+    deprecated: 1
+  - id: 260127
+    kind: 3
+    kind_id: 27131
+    language: 1
+    name: Power Blade (Europe)
+    source: no-intro
   assets:
   - asset:
       id: 27113
       kind: 3
       kind_id: 27131
       type: 1
-      name: 刀锋斗士 (欧版) (动作)-Power Blade (Europe) + Power Blade (E) [!].nes
+      name: Power Blade (Europe).nes
       format: 1
       size: 262160
       blob_id: 72082
-      debug: 刀锋斗士 (欧版) (动作)-Power Blade (Europe) + Power Blade (E) [!].nes
+      debug: |-
+        刀锋斗士 (欧版) (动作)-Power Blade (Europe) + Power Blade (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=45a600eee433132d97abb788f65e965a9ba5b5d7
   - asset:
       id: 137577
       kind: 3

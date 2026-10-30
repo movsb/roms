@@ -12,6 +12,13 @@ names:
   kind_id: 29388
   language: 1
   name: Ultimate League Soccer (AVE) (PAL) [!]
+  deprecated: 1
+- id: 263363
+  kind: 2
+  kind_id: 29388
+  language: 1
+  name: Ultimate League Soccer
+  source: no-intro
 releases:
 - release:
     id: 29388
@@ -27,14 +34,34 @@ releases:
     kind_id: 29388
     language: 1
     name: Ultimate League Soccer (AVE) (PAL) [!]
+    deprecated: 1
+  - id: 261039
+    kind: 3
+    kind_id: 29388
+    language: 1
+    name: Ultimate League Soccer (Europe) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 29370
       kind: 3
       kind_id: 29388
       type: 1
-      name: 终极足球联盟大赛 (义大利版) (运动)-Ultimate League Soccer (Italy) (Unl) + Ultimate League Soccer (AVE) (PAL) [!].nes
+      name: Ultimate League Soccer (Europe) (Unl).nes
       format: 1
       size: 98320
       blob_id: 73560
-      debug: 终极足球联盟大赛 (义大利版) (运动)-Ultimate League Soccer (Italy) (Unl) + Ultimate League Soccer (AVE) (PAL) [!].nes
+      debug: |-
+        终极足球联盟大赛 (义大利版) (运动)-Ultimate League Soccer (Italy) (Unl) + Ultimate League Soccer (AVE) (PAL) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=c8983b705d6a413debfdef1ce1567c11c39e212e
+  - asset:
+      id: 140200
+      kind: 3
+      kind_id: 29388
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Ultimate%20League%20Soccer%20%28Europe%29%20%28Unl%29.png
+      format: 1
+      size: 7048
+      blob_id: 325521
+      debug: libretro-named-titles:rom-asset=29370:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Ultimate%20League%20Soccer%20%28Europe%29%20%28Unl%29.png

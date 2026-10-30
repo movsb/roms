@@ -7,12 +7,19 @@ names:
   kind_id: 9697
   language: 1
   name: Di Dao Zhan (Ch) [a1]
+  deprecated: 1
 - id: 247672
   kind: 2
   kind_id: 9697
   language: 2
   name: 地道战
   source: codex
+- id: 261638
+  kind: 2
+  kind_id: 9697
+  language: 1
+  name: Didao Zhan
+  source: no-intro
 releases:
 - release:
     id: 9697
@@ -23,17 +30,26 @@ releases:
     kind_id: 9697
     language: 1
     name: Di Dao Zhan (Ch) [a1]
+    deprecated: 1
+  - id: 258009
+    kind: 3
+    kind_id: 9697
+    language: 1
+    name: Didao Zhan (China) (970266) (Aftermarket) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 9679
       kind: 3
       kind_id: 9697
       type: 1
-      name: Di Dao Zhan (Ch) [a1].nes
+      name: Didao Zhan (China) (970266) (Aftermarket) (Unl).nes
       format: 1
       size: 524304
       blob_id: 55759
-      debug: Di Dao Zhan (Ch) [a1].nes
+      debug: |-
+        Di Dao Zhan (Ch) [a1].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=cdca96279b53cf5c5f33e4c86138cbec742938f5
   - asset:
       id: 138321
       kind: 3

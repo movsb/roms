@@ -43,14 +43,34 @@ releases:
     kind_id: 25072
     language: 1
     name: Totsuzen! Machoman (J)
+    deprecated: 1
+  - id: 259691
+    kind: 3
+    kind_id: 25072
+    language: 1
+    name: Totsuzen! Macchoman (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 25054
       kind: 3
       kind_id: 25072
       type: 1
-      name: Totsuzen! Machoman (J).nes
+      name: Totsuzen! Macchoman (Japan).nes
       format: 1
       size: 131088
       blob_id: 70298
-      debug: Totsuzen! Machoman (J).nes
+      debug: |-
+        Totsuzen! Machoman (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=704bcb055eede102d2489dc4533b5be622db0a2b
+  - asset:
+      id: 139860
+      kind: 3
+      kind_id: 25072
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Totsuzen%21%20Macchoman%20%28Japan%29.png
+      format: 1
+      size: 1988
+      blob_id: 325232
+      debug: libretro-named-titles:rom-asset=25054:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Totsuzen%21%20Macchoman%20%28Japan%29.png

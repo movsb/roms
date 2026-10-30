@@ -7,12 +7,19 @@ names:
   kind_id: 11143
   language: 1
   name: Famicom Yarou 54 (Unl) [!]
+  deprecated: 1
 - id: 249152
   kind: 2
   kind_id: 11143
   language: 2
   name: 任天堂小子54合1
   source: codex
+- id: 261690
+  kind: 2
+  kind_id: 11143
+  language: 1
+  name: 54-in-1 Famicom Yarou
+  source: no-intro
 releases:
 - release:
     id: 11143
@@ -23,14 +30,23 @@ releases:
     kind_id: 11143
     language: 1
     name: Famicom Yarou 54 (Unl) [!]
+    deprecated: 1
+  - id: 258182
+    kind: 3
+    kind_id: 11143
+    language: 1
+    name: 54-in-1 Famicom Yarou (Japan) (En) (Aftermarket) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 11125
       kind: 3
       kind_id: 11143
       type: 1
-      name: Famicom Yarou 54 (Unl) [!].nes
+      name: 54-in-1 Famicom Yarou (Japan) (En) (Aftermarket) (Unl).nes
       format: 1
       size: 2097168
       blob_id: 57115
-      debug: Famicom Yarou 54 (Unl) [!].nes
+      debug: |-
+        Famicom Yarou 54 (Unl) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=7dc3e8dbf0c3ed0c49d90ac259b2c099ac965dd6

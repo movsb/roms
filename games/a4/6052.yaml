@@ -7,12 +7,19 @@ names:
   kind_id: 6052
   language: 1
   name: Assimilate Full Version (PD)
+  deprecated: 1
 - id: 251978
   kind: 2
   kind_id: 6052
   language: 2
   name: 同化：完整版
   source: codex
+- id: 261509
+  kind: 2
+  kind_id: 6052
+  language: 1
+  name: Assimilate
+  source: no-intro
 releases:
 - release:
     id: 6052
@@ -23,17 +30,26 @@ releases:
     kind_id: 6052
     language: 1
     name: Assimilate Full Version (PD)
+    deprecated: 1
+  - id: 257663
+    kind: 3
+    kind_id: 6052
+    language: 1
+    name: Assimilate (World) (Digital) (Aftermarket) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 6034
       kind: 3
       kind_id: 6052
       type: 1
-      name: Assimilate Full Version (PD).nes
+      name: Assimilate (World) (Digital) (Aftermarket) (Unl).nes
       format: 1
       size: 262160
       blob_id: 52306
-      debug: Assimilate Full Version (PD).nes
+      debug: |-
+        Assimilate Full Version (PD).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=fbe7117270b0823cc067a204ec23b72cd8ead93e
   - asset:
       id: 138172
       kind: 3

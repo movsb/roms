@@ -48,6 +48,7 @@ releases:
     kind_id: 10191
     language: 1
     name: Dough Boy (Japan)
+    deprecated: 1
   - id: 68903
     kind: 3
     kind_id: 10191
@@ -58,6 +59,13 @@ releases:
     kind_id: 10191
     language: 1
     name: Dough Boy (J) [!]
+    deprecated: 1
+  - id: 258069
+    kind: 3
+    kind_id: 10191
+    language: 1
+    name: Dough Boy (Japan) (En)
+    source: no-intro
   release_publishers:
   - release_id: 10191
     publisher_id: 51
@@ -67,13 +75,14 @@ releases:
       kind: 3
       kind_id: 10191
       type: 1
-      name: Dough Boy (Japan).nes
+      name: Dough Boy (Japan) (En).nes
       format: 1
       size: 40976
       blob_id: 56224
       debug: |-
         Dough Boy (Japan).zip
         美国大兵 (日版) (动作)-Dough Boy (Japan) + Dough Boy (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=d545bcffc46f5b6c577d189640c5c9c39e25cff5
   - asset:
       id: 138344
       kind: 3

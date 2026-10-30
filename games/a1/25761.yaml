@@ -7,11 +7,18 @@ names:
   kind_id: 25761
   language: 1
   name: Wait and See! (Unl)
+  deprecated: 1
 - id: 71463
   kind: 2
   kind_id: 25761
   language: 2
   name: 飞毛兔与大野狼 (动作)-Wait and See (Unl)
+- id: 262287
+  kind: 2
+  kind_id: 25761
+  language: 1
+  name: Wait and See!
+  source: no-intro
 releases:
 - release:
     id: 25761
@@ -22,21 +29,40 @@ releases:
     kind_id: 25761
     language: 1
     name: Wait and See! (Unl)
+    deprecated: 1
   - id: 71465
     kind: 3
     kind_id: 25761
     language: 2
     name: 飞毛兔与大野狼 (Russia) (动作)-Wait and See (Russia) (Unl)
+  - id: 259784
+    kind: 3
+    kind_id: 25761
+    language: 1
+    name: Wait and See! (Asia) (En) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 25743
       kind: 3
       kind_id: 25761
       type: 1
-      name: Wait and See! (Unl).nes
+      name: Wait and See! (Asia) (En) (Unl).nes
       format: 1
       size: 393232
       blob_id: 70933
       debug: |-
         Wait and See! (Unl).zip
         飞毛兔与大野狼 (Russia) (动作)-Wait and See (Russia) (Unl) + Wait and See! (Unl).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=547b72b4d8d808775c1bc261911a61025c5cdc78
+  - asset:
+      id: 139887
+      kind: 3
+      kind_id: 25761
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Wait%20and%20See%21%20%28Asia%29%20%28En%29%20%28Unl%29.png
+      format: 1
+      size: 6021
+      blob_id: 325255
+      debug: libretro-named-titles:rom-asset=25743:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Wait%20and%20See%21%20%28Asia%29%20%28En%29%20%28Unl%29.png

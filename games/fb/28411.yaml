@@ -12,6 +12,13 @@ names:
   kind_id: 28411
   language: 1
   name: Spot (J)
+  deprecated: 1
+- id: 262994
+  kind: 2
+  kind_id: 28411
+  language: 1
+  name: Spot
+  source: no-intro
 releases:
 - release:
     id: 28411
@@ -27,17 +34,26 @@ releases:
     kind_id: 28411
     language: 1
     name: Spot (J)
+    deprecated: 1
+  - id: 260622
+    kind: 3
+    kind_id: 28411
+    language: 1
+    name: Spot (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 28393
       kind: 3
       kind_id: 28411
       type: 1
-      name: 斑点棋 + Spot (J).nes
+      name: Spot (Japan).nes
       format: 1
       size: 131088
       blob_id: 72925
-      debug: 斑点棋 + Spot (J).nes
+      debug: |-
+        斑点棋 + Spot (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=8b62b3fc95957f52d146e7bc3c90ab33c4005aec
   - asset:
       id: 139001
       kind: 3

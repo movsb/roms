@@ -12,6 +12,13 @@ names:
   kind_id: 27599
   language: 1
   name: Monopoly (J)
+  deprecated: 1
+- id: 262704
+  kind: 2
+  kind_id: 27599
+  language: 1
+  name: Monopoly
+  source: no-intro
 releases:
 - release:
     id: 27599
@@ -27,17 +34,26 @@ releases:
     kind_id: 27599
     language: 1
     name: Monopoly (J)
+    deprecated: 1
+  - id: 260308
+    kind: 3
+    kind_id: 27599
+    language: 1
+    name: Monopoly (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 27581
       kind: 3
       kind_id: 27599
       type: 1
-      name: 大富翁 (日版) (桌面平台)-Monopoly (Japan) + Monopoly (J).nes
+      name: Monopoly (Japan).nes
       format: 1
       size: 262160
       blob_id: 72389
-      debug: 大富翁 (日版) (桌面平台)-Monopoly (Japan) + Monopoly (J).nes
+      debug: |-
+        大富翁 (日版) (桌面平台)-Monopoly (Japan) + Monopoly (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=e065a0a51bc01a85dc96492501086a13bf803a3a
   - asset:
       id: 138891
       kind: 3

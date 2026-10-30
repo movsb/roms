@@ -14,6 +14,12 @@ names:
   language: 1
   name: "Downtown Special - Kunio-kun no Jidaigeki Da yo Zenin Shuugou!"
   source: codex
+- id: 263217
+  kind: 2
+  kind_id: 28991
+  language: 1
+  name: "Downtown Special - Kunio-kun no Jidaigeki Da yo Zenin Shuugou!"
+  source: no-intro
 releases:
 - release:
     id: 28991
@@ -24,13 +30,19 @@ releases:
     kind_id: 28991
     language: 2
     name: 热血城市特派员
+  - id: 260880
+    kind: 3
+    kind_id: 28991
+    language: 1
+    name: "Downtown Special - Kunio-kun no Jidaigeki Da yo Zenin Shuugou! (Japan)"
+    source: no-intro
   assets:
   - asset:
       id: 28973
       kind: 3
       kind_id: 28991
       type: 1
-      name: 热血城市特派员.nes
+      name: "Downtown Special - Kunio-kun no Jidaigeki Da yo Zenin Shuugou! (Japan).nes"
       format: 1
       size: 262160
       blob_id: 73302
@@ -39,3 +51,15 @@ releases:
         热血时代剧.nes
         热血道中记.nes
         重复的/热血时代剧.nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=e42b77a11280eb0c99d654cd08b8933fa8ddb999
+  - asset:
+      id: 140170
+      kind: 3
+      kind_id: 28991
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Downtown%20Special%20-%20Kunio-kun%20no%20Jidaigeki%20Da%20yo%20Zenin%20Shuugou%21%20%28Japan%29.png
+      format: 1
+      size: 14870
+      blob_id: 324817
+      debug: libretro-named-titles:rom-asset=28973:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Downtown%20Special%20-%20Kunio-kun%20no%20Jidaigeki%20Da%20yo%20Zenin%20Shuugou%21%20%28Japan%29.png

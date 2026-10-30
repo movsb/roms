@@ -8,16 +8,24 @@ names:
   kind_id: 22117
   language: 1
   name: "Street Fighter VI - 16 Peoples (Unl) (Cony)"
+  deprecated: 1
 - id: 49244
   kind: 2
   kind_id: 22117
   language: 1
   name: Street Blaster II Pro (Unl) [p1]
+  deprecated: 1
 - id: 69661
   kind: 2
   kind_id: 22117
   language: 2
   name: 街霸 16人街霸
+- id: 262162
+  kind: 2
+  kind_id: 22117
+  language: 1
+  name: Street Fighter VI (16 People)
+  source: no-intro
 releases:
 - release:
     id: 22117
@@ -28,24 +36,43 @@ releases:
     kind_id: 22117
     language: 1
     name: "Street Fighter VI - 16 Peoples (Unl) (Cony)"
+    deprecated: 1
   - id: 49246
     kind: 3
     kind_id: 22117
     language: 1
     name: Street Blaster II Pro (Unl) [p1]
+    deprecated: 1
   - id: 69662
     kind: 3
     kind_id: 22117
     language: 2
     name: 街霸 16人街霸
+  - id: 259443
+    kind: 3
+    kind_id: 22117
+    language: 1
+    name: Street Fighter VI (16 People) (Asia) (En) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 22099
       kind: 3
       kind_id: 22117
       type: 1
-      name: "Street Fighter VI - 16 Peoples (Unl) (Cony) + Street Blaster II Pro (Unl) [p1].nes"
+      name: Street Fighter VI (16 People) (Asia) (En) (Pirate).nes
       format: 1
       size: 393232
       blob_id: 67458
-      debug: "Street Fighter VI - 16 Peoples (Unl) (Cony) + Street Blaster II Pro (Unl) [p1].nes\n街霸 16人街霸.zip"
+      debug: "Street Fighter VI - 16 Peoples (Unl) (Cony) + Street Blaster II Pro (Unl) [p1].nes\n街霸 16人街霸.zip\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=93a98d1d4061bc4178215933bb949877a14c2afd"
+  - asset:
+      id: 139784
+      kind: 3
+      kind_id: 22117
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Street%20Fighter%20VI%20%2816%20People%29%20%28Asia%29%20%28En%29%20%28Pirate%29.png
+      format: 1
+      size: 3242
+      blob_id: 325161
+      debug: libretro-named-titles:rom-asset=22099:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Street%20Fighter%20VI%20%2816%20People%29%20%28Asia%29%20%28En%29%20%28Pirate%29.png

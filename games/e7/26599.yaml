@@ -14,6 +14,13 @@ names:
   language: 1
   name: Yongzhe Dou Elong VII
   source: codex
+  deprecated: 1
+- id: 262342
+  kind: 2
+  kind_id: 26599
+  language: 1
+  name: Yongzhe Dou Elong VII (Dragon Quest VII)
+  source: no-intro
 releases:
 - release:
     id: 26599
@@ -24,14 +31,31 @@ releases:
     kind_id: 26599
     language: 2
     name: "[WaiXing] 勇者斗恶龙Ⅶ (C)"
+  - id: 259901
+    kind: 3
+    kind_id: 26599
+    language: 1
+    name: Yongzhe Dou Elong VII (Dragon Quest VII) (China) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 26581
       kind: 3
       kind_id: 26599
       type: 1
-      name: "[WaiXing] 勇者斗恶龙Ⅶ (C).nes"
+      name: Yongzhe Dou Elong VII (Dragon Quest VII) (China) (Pirate).nes
       format: 1
       size: 1048592
       blob_id: 71722
-      debug: "[WaiXing] 勇者斗恶龙Ⅶ (C).nes"
+      debug: "[WaiXing] 勇者斗恶龙Ⅶ (C).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=9c801071d1aac7b280468c38bf1b61fde99b5fd0"
+  - asset:
+      id: 139934
+      kind: 3
+      kind_id: 26599
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Yongzhe%20Dou%20Elong%20VII%20%28Dragon%20Quest%20VII%29%20%28China%29%20%28Pirate%29.png
+      format: 1
+      size: 4518
+      blob_id: 325278
+      debug: libretro-named-titles:rom-asset=26581:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Yongzhe%20Dou%20Elong%20VII%20%28Dragon%20Quest%20VII%29%20%28China%29%20%28Pirate%29.png

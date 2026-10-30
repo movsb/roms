@@ -7,12 +7,19 @@ names:
   kind_id: 9813
   language: 1
   name: Dive Man (Unl) [!]
+  deprecated: 1
 - id: 249116
   kind: 2
   kind_id: 9813
   language: 2
   name: 潜水人
   source: codex
+- id: 261645
+  kind: 2
+  kind_id: 9813
+  language: 1
+  name: Diveman
+  source: no-intro
 releases:
 - release:
     id: 9813
@@ -23,14 +30,23 @@ releases:
     kind_id: 9813
     language: 1
     name: Dive Man (Unl) [!]
+    deprecated: 1
+  - id: 258026
+    kind: 3
+    kind_id: 9813
+    language: 1
+    name: Diveman (Asia) (En) (Extract) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 9795
       kind: 3
       kind_id: 9813
       type: 1
-      name: Dive Man (Unl) [!].nes
+      name: Diveman (Asia) (En) (Extract) (Unl).nes
       format: 1
       size: 262160
       blob_id: 55868
-      debug: Dive Man (Unl) [!].nes
+      debug: |-
+        Dive Man (Unl) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=8bbe64ca02d1c39dc55b6be2c4d9f29e94e53031

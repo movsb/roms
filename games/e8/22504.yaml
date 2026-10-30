@@ -12,11 +12,18 @@ names:
   kind_id: 22504
   language: 1
   name: Super Glove Ball (U) [!]
+  deprecated: 1
 - id: 93185
   kind: 2
   kind_id: 22504
   language: 1
   name: Super Glove Ball
+- id: 262185
+  kind: 2
+  kind_id: 22504
+  language: 1
+  name: Super Glove Ball
+  source: no-intro
 releases:
 - release:
     id: 22504
@@ -27,23 +34,31 @@ releases:
     kind_id: 22504
     language: 1
     name: Super Glove Ball (U) [!]
+    deprecated: 1
   - id: 50122
     kind: 3
     kind_id: 22504
     language: 1
     name: Super Glove Ball (U)
+    deprecated: 1
   - id: 70255
     kind: 3
     kind_id: 22504
     language: 2
     name: 超级补球赛 (美版) (运动)-Super Glove Ball (USA)
+  - id: 259494
+    kind: 3
+    kind_id: 22504
+    language: 1
+    name: Super Glove Ball (USA)
+    source: no-intro
   assets:
   - asset:
       id: 22486
       kind: 3
       kind_id: 22504
       type: 1
-      name: Super Glove Ball (U) [!].nes
+      name: Super Glove Ball (USA).nes
       format: 1
       size: 131088
       blob_id: 67823
@@ -51,6 +66,7 @@ releases:
         Super Glove Ball (U) [!].zip
         Super Glove Ball (U).zip
         超级补球赛 (美版) (运动)-Super Glove Ball (USA) + Super Glove Ball (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=02d8d6a815fffc12c19e183eee11006c7d84109c
   - asset:
       id: 137358
       kind: 3

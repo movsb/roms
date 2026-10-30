@@ -7,12 +7,19 @@ names:
   kind_id: 25286
   language: 1
   name: US Championship V'Ball
+  deprecated: 1
 - id: 248833
   kind: 2
   kind_id: 25286
   language: 2
   name: 美国冠军排球
   source: codex
+- id: 262265
+  kind: 2
+  kind_id: 25286
+  language: 1
+  name: U.S. Championship V'Ball
+  source: no-intro
 releases:
 - release:
     id: 25286
@@ -23,17 +30,37 @@ releases:
     kind_id: 25286
     language: 1
     name: US Championship V'Ball (J) (Beta)
+    deprecated: 1
+  - id: 259720
+    kind: 3
+    kind_id: 25286
+    language: 1
+    name: U.S. Championship V'Ball (Japan) (Sample)
+    source: no-intro
   assets:
   - asset:
       id: 25268
       kind: 3
       kind_id: 25286
       type: 1
-      name: US Championship V'Ball (J) (Beta).nes
+      name: U.S. Championship V'Ball (Japan) (Sample).nes
       format: 1
       size: 262160
       blob_id: 70493
-      debug: US Championship V'Ball (J) (Beta).nes
+      debug: |-
+        US Championship V'Ball (J) (Beta).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=5656db8db3f4e52461354bb6e6a2b314b5fee5ff
+  - asset:
+      id: 139870
+      kind: 3
+      kind_id: 25286
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/U.S.%20Championship%20V%27Ball%20%28Japan%29%20%28Sample%29.png
+      format: 1
+      size: 10158
+      blob_id: 325241
+      debug: libretro-named-titles:rom-asset=25268:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/U.S.%20Championship%20V%27Ball%20%28Japan%29%20%28Sample%29.png
 - release:
     id: 25287
     game_id: 25286
@@ -43,17 +70,26 @@ releases:
     kind_id: 25287
     language: 1
     name: US Championship V'Ball (J) [!]
+    deprecated: 1
+  - id: 259721
+    kind: 3
+    kind_id: 25287
+    language: 1
+    name: U.S. Championship V'Ball (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 25269
       kind: 3
       kind_id: 25287
       type: 1
-      name: US Championship V'Ball (J) [!].nes
+      name: U.S. Championship V'Ball (Japan).nes
       format: 1
       size: 262160
       blob_id: 70494
-      debug: US Championship V'Ball (J) [!].nes
+      debug: |-
+        US Championship V'Ball (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=44b6ec42bebd50e9165e502880198b1804aaa775
   - asset:
       id: 137434
       kind: 3

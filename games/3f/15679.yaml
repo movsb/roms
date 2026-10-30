@@ -33,11 +33,13 @@ releases:
     kind_id: 15679
     language: 1
     name: Mappy (J) [!]
+    deprecated: 1
   - id: 34862
     kind: 3
     kind_id: 15679
     language: 1
     name: Mappy (Japan)
+    deprecated: 1
   - id: 67816
     kind: 3
     kind_id: 15679
@@ -48,6 +50,12 @@ releases:
     kind_id: 15679
     language: 2
     name: 猫鼠大战 (日版) (动作)-Mappy (Japan)
+  - id: 258721
+    kind: 3
+    kind_id: 15679
+    language: 1
+    name: Mappy (Japan) (En)
+    source: no-intro
   release_publishers:
   - release_id: 15679
     publisher_id: 4
@@ -57,7 +65,7 @@ releases:
       kind: 3
       kind_id: 15679
       type: 1
-      name: Mappy (J) [!].nes
+      name: Mappy (Japan) (En).nes
       format: 1
       size: 24592
       blob_id: 61361
@@ -66,6 +74,7 @@ releases:
         Mappy (Japan).zip
         猫抓老鼠1.zip
         猫鼠大战 (日版) (动作)-Mappy (Japan) + Mappy (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=e22b95c6687ad703fdec22f4fe79556da6a2256b
   - asset:
       id: 137090
       kind: 3
@@ -226,17 +235,26 @@ releases:
     kind_id: 15692
     language: 1
     name: Mappy (J) [p2]
+    deprecated: 1
+  - id: 258722
+    kind: 3
+    kind_id: 15692
+    language: 1
+    name: Mappy (Asia) (En) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 15674
       kind: 3
       kind_id: 15692
       type: 1
-      name: Mappy (J) [p2].nes
+      name: Mappy (Asia) (En) (Pirate).nes
       format: 1
       size: 24592
       blob_id: 61374
-      debug: Mappy (J) [p2].nes
+      debug: |-
+        Mappy (J) [p2].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=06e0a75c56d8eb496ca0a0b4939a60c4a3040569
 - release:
     id: 15693
     game_id: 15679

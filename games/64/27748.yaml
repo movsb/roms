@@ -12,6 +12,13 @@ names:
   kind_id: 27748
   language: 1
   name: Youkai Kurabu (J)
+  deprecated: 1
+- id: 262758
+  kind: 2
+  kind_id: 27748
+  language: 1
+  name: Youkai Club
+  source: no-intro
 releases:
 - release:
     id: 27748
@@ -27,14 +34,34 @@ releases:
     kind_id: 27748
     language: 1
     name: Youkai Kurabu (J)
+    deprecated: 1
+  - id: 260365
+    kind: 3
+    kind_id: 27748
+    language: 1
+    name: Youkai Club (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 27730
       kind: 3
       kind_id: 27748
       type: 1
-      name: 妖怪俱乐部 (日版) (动作)-Youkai Club (Japan) + Youkai Kurabu (J).nes
+      name: Youkai Club (Japan).nes
       format: 1
       size: 163856
       blob_id: 72488
-      debug: 妖怪俱乐部 (日版) (动作)-Youkai Club (Japan) + Youkai Kurabu (J).nes
+      debug: |-
+        妖怪俱乐部 (日版) (动作)-Youkai Club (Japan) + Youkai Kurabu (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=82dcc6650b17cd6cefc837753986c7e150a5714a
+  - asset:
+      id: 140071
+      kind: 3
+      kind_id: 27748
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Youkai%20Club%20%28Japan%29.png
+      format: 1
+      size: 2137
+      blob_id: 325412
+      debug: libretro-named-titles:rom-asset=27730:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Youkai%20Club%20%28Japan%29.png

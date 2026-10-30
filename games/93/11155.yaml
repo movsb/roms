@@ -13,6 +13,12 @@ names:
   language: 2
   name: 家庭赛车91
   source: codex
+- id: 261692
+  kind: 2
+  kind_id: 11155
+  language: 1
+  name: Family Circuit '91
+  source: no-intro
 releases:
 - release:
     id: 11155
@@ -23,17 +29,26 @@ releases:
     kind_id: 11155
     language: 1
     name: Family Circuit '91 (J) [!]
+    deprecated: 1
+  - id: 258184
+    kind: 3
+    kind_id: 11155
+    language: 1
+    name: Family Circuit '91 (Japan) (En)
+    source: no-intro
   assets:
   - asset:
       id: 11137
       kind: 3
       kind_id: 11155
       type: 1
-      name: Family Circuit '91 (J) [!].nes
+      name: Family Circuit '91 (Japan) (En).nes
       format: 1
       size: 655376
       blob_id: 57127
-      debug: Family Circuit '91 (J) [!].nes
+      debug: |-
+        Family Circuit '91 (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=1c476c795cfc17e987c22ffd6f09baf1396ed2c9
   - asset:
       id: 136871
       kind: 3

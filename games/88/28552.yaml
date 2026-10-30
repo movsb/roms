@@ -12,11 +12,18 @@ names:
   kind_id: 28552
   language: 1
   name: Moon Crystal (J) [!]
+  deprecated: 1
 - id: 65939
   kind: 2
   kind_id: 28552
   language: 2
   name: 月光宝石
+- id: 263060
+  kind: 2
+  kind_id: 28552
+  language: 1
+  name: Moon Crystal
+  source: no-intro
 releases:
 - release:
     id: 28552
@@ -32,24 +39,32 @@ releases:
     kind_id: 28552
     language: 1
     name: Moon Crystal (J) [!]
+    deprecated: 1
   - id: 65940
     kind: 3
     kind_id: 28552
     language: 2
     name: 月光宝石
+  - id: 260698
+    kind: 3
+    kind_id: 28552
+    language: 1
+    name: Moon Crystal (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 28534
       kind: 3
       kind_id: 28552
       type: 1
-      name: 月之水晶 (日版) (动作)-Moon Crystal (Japan) + Moon Crystal (J) [!].nes
+      name: Moon Crystal (Japan).nes
       format: 1
       size: 524304
       blob_id: 73024
       debug: |-
         月之水晶 (日版) (动作)-Moon Crystal (Japan) + Moon Crystal (J) [!].nes
         月光宝石.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=3dc0cf9ebcfa2ca98073ea5f0b34c4ce67d2582b
   - asset:
       id: 137788
       kind: 3

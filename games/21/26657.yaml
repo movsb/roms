@@ -13,6 +13,13 @@ names:
   language: 1
   name: "Dragon Ball - Dai Maou Fukkatsu"
   source: codex
+  deprecated: 1
+- id: 262362
+  kind: 2
+  kind_id: 26657
+  language: 1
+  name: "Dragon Ball - Daimaou Fukkatsu"
+  source: no-intro
 releases:
 - release:
     id: 26657
@@ -23,14 +30,31 @@ releases:
     kind_id: 26657
     language: 2
     name: "七龙珠 II - 大魔王复活 (日版) (角色扮演)-Dragon Ball - Dai Maou Fukkatsu (Japan)"
+  - id: 259923
+    kind: 3
+    kind_id: 26657
+    language: 1
+    name: "Dragon Ball - Daimaou Fukkatsu (Japan)"
+    source: no-intro
   assets:
   - asset:
       id: 26639
       kind: 3
       kind_id: 26657
       type: 1
-      name: "七龙珠 II - 大魔王复活 (日版) (角色扮演)-Dragon Ball - Dai Maou Fukkatsu (Japan).nes"
+      name: "Dragon Ball - Daimaou Fukkatsu (Japan).nes"
       format: 1
       size: 262160
       blob_id: 71759
-      debug: "七龙珠 II - 大魔王复活 (日版) (角色扮演)-Dragon Ball - Dai Maou Fukkatsu (Japan).nes"
+      debug: "七龙珠 II - 大魔王复活 (日版) (角色扮演)-Dragon Ball - Dai Maou Fukkatsu (Japan).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=757a4b9ed661dc6a6f33532ae64b0b063c79dbb3"
+  - asset:
+      id: 139951
+      kind: 3
+      kind_id: 26657
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Dragon%20Ball%20-%20Daimaou%20Fukkatsu%20%28Japan%29.png
+      format: 1
+      size: 2809
+      blob_id: 325310
+      debug: libretro-named-titles:rom-asset=26639:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Dragon%20Ball%20-%20Daimaou%20Fukkatsu%20%28Japan%29.png

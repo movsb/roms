@@ -12,6 +12,13 @@ names:
   kind_id: 29183
   language: 1
   name: Maniac Mansion (E)
+  deprecated: 1
+- id: 263275
+  kind: 2
+  kind_id: 29183
+  language: 1
+  name: Maniac Mansion
+  source: no-intro
 releases:
 - release:
     id: 29183
@@ -27,17 +34,26 @@ releases:
     kind_id: 29183
     language: 1
     name: Maniac Mansion (E)
+    deprecated: 1
+  - id: 260947
+    kind: 3
+    kind_id: 29183
+    language: 1
+    name: Maniac Mansion (Europe)
+    source: no-intro
   assets:
   - asset:
       id: 29165
       kind: 3
       kind_id: 29183
       type: 1
-      name: 疯狂大楼 (欧版) (解谜)-Maniac Mansion (Europe) + Maniac Mansion (E).nes
+      name: Maniac Mansion (Europe).nes
       format: 1
       size: 262160
       blob_id: 73429
-      debug: 疯狂大楼 (欧版) (解谜)-Maniac Mansion (Europe) + Maniac Mansion (E).nes
+      debug: |-
+        疯狂大楼 (欧版) (解谜)-Maniac Mansion (Europe) + Maniac Mansion (E).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=e22854daf598b94c3f8620d42e959d4bf2c81bdd
   - asset:
       id: 139106
       kind: 3

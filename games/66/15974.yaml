@@ -23,17 +23,26 @@ releases:
     kind_id: 15974
     language: 1
     name: Master Fighter II (Unl) (UT1374 PCB) [!]
+    deprecated: 1
+  - id: 258742
+    kind: 3
+    kind_id: 15974
+    language: 1
+    name: Master Fighter II (Asia) (En) (MRCM) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 15956
       kind: 3
       kind_id: 15974
       type: 1
-      name: Master Fighter II (Unl) (UT1374 PCB) [!].nes
+      name: Master Fighter II (Asia) (En) (MRCM) (Pirate).nes
       format: 1
       size: 262160
       blob_id: 61646
-      debug: Master Fighter II (Unl) (UT1374 PCB) [!].nes
+      debug: |-
+        Master Fighter II (Unl) (UT1374 PCB) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=b401fbf51a0cb7b2f8dfb89c5afde6761e10bc39
 - release:
     id: 15975
     game_id: 15974
@@ -43,19 +52,38 @@ releases:
     kind_id: 15975
     language: 1
     name: Master Fighter II (Unl) [!]
+    deprecated: 1
+  - id: 258743
+    kind: 3
+    kind_id: 15975
+    language: 1
+    name: Master Fighter II (Asia) (En) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 15957
       kind: 3
       kind_id: 15975
       type: 1
-      name: Master Fighter II (Unl) [!].nes
+      name: Master Fighter II (Asia) (En) (Pirate).nes
       format: 1
       size: 262160
       blob_id: 61647
       debug: |-
         Master Fighter II (Unl) [!].nes
         Master Fighter II (Unl) [!].zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=f1909844f201fd8a31a896352f6f890dd865d061
+  - asset:
+      id: 139550
+      kind: 3
+      kind_id: 15975
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Master%20Fighter%20II%20%28Asia%29%20%28En%29%20%28Pirate%29.png
+      format: 1
+      size: 5531
+      blob_id: 324967
+      debug: libretro-named-titles:rom-asset=15957:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Master%20Fighter%20II%20%28Asia%29%20%28En%29%20%28Pirate%29.png
 - release:
     id: 15977
     game_id: 15974

@@ -7,12 +7,19 @@ names:
   kind_id: 11099
   language: 1
   name: FIFA 99 (Unl)
+  deprecated: 1
 - id: 249147
   kind: 2
   kind_id: 11099
   language: 2
   name: FIFA 99
   source: codex
+- id: 261685
+  kind: 2
+  kind_id: 11099
+  language: 1
+  name: FIFA 99
+  source: no-intro
 releases:
 - release:
     id: 11099
@@ -23,14 +30,34 @@ releases:
     kind_id: 11099
     language: 1
     name: FIFA 99 (Unl)
+    deprecated: 1
+  - id: 258173
+    kind: 3
+    kind_id: 11099
+    language: 1
+    name: FIFA 99 (Asia) (En) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 11081
       kind: 3
       kind_id: 11099
       type: 1
-      name: FIFA 99 (Unl).nes
+      name: FIFA 99 (Asia) (En) (Pirate).nes
       format: 1
       size: 65552
       blob_id: 57073
-      debug: FIFA 99 (Unl).nes
+      debug: |-
+        FIFA 99 (Unl).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=7801d67c364d2bef71ef6762438f930814fcfa4b
+  - asset:
+      id: 139392
+      kind: 3
+      kind_id: 11099
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/FIFA%2099%20%28Asia%29%20%28En%29%20%28Pirate%29.png
+      format: 1
+      size: 1584
+      blob_id: 324831
+      debug: libretro-named-titles:rom-asset=11081:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/FIFA%2099%20%28Asia%29%20%28En%29%20%28Pirate%29.png

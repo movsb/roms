@@ -32,17 +32,26 @@ releases:
     kind_id: 18503
     language: 1
     name: Othello (HES) [!]
+    deprecated: 1
+  - id: 258981
+    kind: 3
+    kind_id: 18503
+    language: 1
+    name: Othello (Australia) (Bit Corp.) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 18485
       kind: 3
       kind_id: 18503
       type: 1
-      name: Othello (HES) [!].nes
+      name: Othello (Australia) (Bit Corp.) (Unl).nes
       format: 1
       size: 24592
       blob_id: 64060
-      debug: Othello (HES) [!].nes
+      debug: |-
+        Othello (HES) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=c10c526f26273c4a1e180b968665910b74c78b86
   - asset:
       id: 137169
       kind: 3
@@ -83,23 +92,31 @@ releases:
     kind_id: 18507
     language: 1
     name: Othello (U) [!]
+    deprecated: 1
   - id: 41270
     kind: 3
     kind_id: 18507
     language: 1
     name: Othello (U)
+    deprecated: 1
   - id: 66449
     kind: 3
     kind_id: 18507
     language: 2
     name: 欢乐五子棋  (美版) (桌面平台)-Othello (USA)
+  - id: 258982
+    kind: 3
+    kind_id: 18507
+    language: 1
+    name: Othello (USA) (HAL Laboratory)
+    source: no-intro
   assets:
   - asset:
       id: 18489
       kind: 3
       kind_id: 18507
       type: 1
-      name: Othello (U) [!].nes
+      name: Othello (USA) (HAL Laboratory).nes
       format: 1
       size: 40976
       blob_id: 64064
@@ -107,6 +124,7 @@ releases:
         Othello (U) [!].zip
         Othello (U).zip
         欢乐五子棋  (美版) (桌面平台)-Othello (USA) + Othello (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=27ca5ba9e920c21a6906f57e266a253c39ffadb6
   - asset:
       id: 138607
       kind: 3

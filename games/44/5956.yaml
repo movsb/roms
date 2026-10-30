@@ -12,11 +12,18 @@ names:
   kind_id: 5956
   language: 1
   name: Arctic (J)
+  deprecated: 1
 - id: 91267
   kind: 2
   kind_id: 5956
   language: 1
   name: Arctic
+- id: 261508
+  kind: 2
+  kind_id: 5956
+  language: 1
+  name: Arctic
+  source: no-intro
 releases:
 - release:
     id: 5961
@@ -28,6 +35,7 @@ releases:
     kind_id: 5961
     language: 1
     name: Arctic (Japan)
+    deprecated: 1
   - id: 61547
     kind: 3
     kind_id: 5961
@@ -38,6 +46,13 @@ releases:
     kind_id: 5961
     language: 1
     name: Arctic (J)
+    deprecated: 1
+  - id: 257657
+    kind: 3
+    kind_id: 5961
+    language: 1
+    name: Arctic (Japan) (En)
+    source: no-intro
   release_publishers:
   - release_id: 5961
     publisher_id: 121
@@ -47,13 +62,14 @@ releases:
       kind: 3
       kind_id: 5961
       type: 1
-      name: Arctic (Japan).nes
+      name: Arctic (Japan) (En).nes
       format: 1
       size: 131088
       blob_id: 52220
       debug: |-
         Arctic (Japan).zip
         北极星 (日版) (益智)-Arctic (Japan) + Arctic (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=37d8903ab381090873a6c51c39f6120a7213fb6d
   - asset:
       id: 138169
       kind: 3

@@ -47,11 +47,13 @@ releases:
     kind_id: 24846
     language: 1
     name: Tiles of Fate (U)
+    deprecated: 1
   - id: 55500
     kind: 3
     kind_id: 24846
     language: 1
     name: Tiles of Fate (Unl) [!p]
+    deprecated: 1
   - id: 62995
     kind: 3
     kind_id: 24846
@@ -62,13 +64,20 @@ releases:
     kind_id: 24846
     language: 1
     name: Tiles of Fate (AVE) [!]
+    deprecated: 1
+  - id: 259658
+    kind: 3
+    kind_id: 24846
+    language: 1
+    name: Tiles of Fate (USA) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 24828
       kind: 3
       kind_id: 24846
       type: 1
-      name: Tiles of Fate (U).nes
+      name: Tiles of Fate (USA) (Unl).nes
       format: 1
       size: 65552
       blob_id: 70098
@@ -76,3 +85,15 @@ releases:
         Tiles of Fate (U).zip
         Tiles of Fate (Unl) [!p].zip
         天命麻将 (美版) (益智)-Tiles of Fate (USA) (Unl) + Tiles of Fate (AVE) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=1d3b449f06d9698a42cd6255e684d313d1dd98bf
+  - asset:
+      id: 139852
+      kind: 3
+      kind_id: 24846
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Tiles%20of%20Fate%20%28USA%29%20%28Unl%29.png
+      format: 1
+      size: 1550
+      blob_id: 325224
+      debug: libretro-named-titles:rom-asset=24828:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Tiles%20of%20Fate%20%28USA%29%20%28Unl%29.png

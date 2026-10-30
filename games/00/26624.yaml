@@ -28,17 +28,26 @@ releases:
     kind_id: 9887
     language: 1
     name: Donkey Kong (J-AC)
+    deprecated: 1
+  - id: 258040
+    kind: 3
+    kind_id: 9887
+    language: 1
+    name: Donkey Kong (World) (Rev 1) (Animal Crossing)
+    source: no-intro
   assets:
   - asset:
       id: 9869
       kind: 3
       kind_id: 9887
       type: 1
-      name: Donkey Kong (J-AC).nes
+      name: Donkey Kong (World) (Rev 1) (Animal Crossing).nes
       format: 1
       size: 40976
       blob_id: 55939
-      debug: Donkey Kong (J-AC).nes
+      debug: |-
+        Donkey Kong (J-AC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=a851ec7302d07557d7558472877d1b88ebb13537
   - asset:
       id: 138338
       kind: 3
@@ -59,17 +68,26 @@ releases:
     kind_id: 9888
     language: 1
     name: Donkey Kong (U) (GBA e-Reader)
+    deprecated: 1
+  - id: 258041
+    kind: 3
+    kind_id: 9888
+    language: 1
+    name: Donkey Kong (USA) (Rev 1) (e-Reader)
+    source: no-intro
   assets:
   - asset:
       id: 9870
       kind: 3
       kind_id: 9888
       type: 1
-      name: Donkey Kong (U) (GBA e-Reader).nes
+      name: Donkey Kong (USA) (Rev 1) (e-Reader).nes
       format: 1
       size: 24592
       blob_id: 55940
-      debug: Donkey Kong (U) (GBA e-Reader).nes
+      debug: |-
+        Donkey Kong (U) (GBA e-Reader).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=0965b051b749aed785f6209488874e750edf501c
 - release:
     id: 9889
     game_id: 26624
@@ -79,6 +97,7 @@ releases:
     kind_id: 9889
     language: 1
     name: Donkey Kong (U) (PRG1) [!p]
+    deprecated: 1
   - id: 21270
     kind: 3
     kind_id: 9889
@@ -89,6 +108,7 @@ releases:
     kind_id: 9889
     language: 1
     name: donkey kong
+    deprecated: 1
   - id: 62891
     kind: 3
     kind_id: 9889
@@ -99,13 +119,20 @@ releases:
     kind_id: 9889
     language: 1
     name: Donkey Kong (W) (PRG1) [!]
+    deprecated: 1
+  - id: 258042
+    kind: 3
+    kind_id: 9889
+    language: 1
+    name: Donkey Kong (World) (Rev 1)
+    source: no-intro
   assets:
   - asset:
       id: 9871
       kind: 3
       kind_id: 9889
       type: 1
-      name: Donkey Kong (U) (PRG1) [!p].nes
+      name: Donkey Kong (World) (Rev 1).nes
       format: 1
       size: 24592
       blob_id: 55941
@@ -114,6 +141,18 @@ releases:
         Donkey Kong (World) (Rev 1).zip
         donkey kong.zip
         大金刚 (世界版)(Rev A) (动作)-Donkey Kong (World) (Rev A) + Donkey Kong (W) (PRG1) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=d222dbba5bd3716bbf62ca91167c6a9d15c60065
+  - asset:
+      id: 139371
+      kind: 3
+      kind_id: 9889
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Donkey%20Kong%20%28World%29%20%28Rev%201%29.png
+      format: 1
+      size: 1070
+      blob_id: 324811
+      debug: libretro-named-titles:rom-asset=9871:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Donkey%20Kong%20%28World%29%20%28Rev%201%29.png
 - release:
     id: 9890
     game_id: 26624

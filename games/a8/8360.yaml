@@ -38,17 +38,37 @@ releases:
     kind_id: 8158
     language: 1
     name: Castlevania (E) (VC)
+    deprecated: 1
+  - id: 257858
+    kind: 3
+    kind_id: 8158
+    language: 1
+    name: Castlevania (Europe) (Virtual Console)
+    source: no-intro
   assets:
   - asset:
       id: 8140
       kind: 3
       kind_id: 8158
       type: 1
-      name: Castlevania (E) (VC).nes
+      name: Castlevania (Europe) (Virtual Console).nes
       format: 1
       size: 131088
       blob_id: 54304
-      debug: Castlevania (E) (VC).nes
+      debug: |-
+        Castlevania (E) (VC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=063fdb12d7a10aac80211c3852361647f4c409bd
+  - asset:
+      id: 139339
+      kind: 3
+      kind_id: 8158
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Castlevania%20%28Europe%29%20%28Virtual%20Console%29.png
+      format: 1
+      size: 5149
+      blob_id: 324786
+      debug: libretro-named-titles:rom-asset=8140:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Castlevania%20%28Europe%29%20%28Virtual%20Console%29.png
 - release:
     id: 8159
     game_id: 8360
@@ -58,17 +78,26 @@ releases:
     kind_id: 8159
     language: 1
     name: Castlevania (E) [!]
+    deprecated: 1
+  - id: 257859
+    kind: 3
+    kind_id: 8159
+    language: 1
+    name: Castlevania (Europe)
+    source: no-intro
   assets:
   - asset:
       id: 8141
       kind: 3
       kind_id: 8159
       type: 1
-      name: Castlevania (E) [!].nes
+      name: Castlevania (Europe).nes
       format: 1
       size: 131088
       blob_id: 54305
-      debug: Castlevania (E) [!].nes
+      debug: |-
+        Castlevania (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=0ea29d38b0d1740234ded685546d5ed9e1b3699e
   - asset:
       id: 136759
       kind: 3
@@ -129,17 +158,26 @@ releases:
     kind_id: 8162
     language: 1
     name: Castlevania (KC)
+    deprecated: 1
+  - id: 257860
+    kind: 3
+    kind_id: 8162
+    language: 1
+    name: Castlevania (World) (Konami Collector's Series)
+    source: no-intro
   assets:
   - asset:
       id: 8144
       kind: 3
       kind_id: 8162
       type: 1
-      name: Castlevania (KC).nes
+      name: Castlevania (World) (Konami Collector's Series).nes
       format: 1
       size: 131088
       blob_id: 54308
-      debug: Castlevania (KC).nes
+      debug: |-
+        Castlevania (KC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=ec652ee1660e527098102e26a36a8b9b7bb3943f
 - release:
     id: 8164
     game_id: 8360
@@ -169,6 +207,7 @@ releases:
     kind_id: 8165
     language: 1
     name: Castlevania (U) (PRG 0)
+    deprecated: 1
   - id: 64795
     kind: 3
     kind_id: 8165
@@ -179,19 +218,38 @@ releases:
     kind_id: 8165
     language: 1
     name: Castlevania (U) (PRG0) [!]
+    deprecated: 1
+  - id: 257861
+    kind: 3
+    kind_id: 8165
+    language: 1
+    name: Castlevania (USA)
+    source: no-intro
   assets:
   - asset:
       id: 8147
       kind: 3
       kind_id: 8165
       type: 1
-      name: Castlevania (U) (PRG 0).nes
+      name: Castlevania (USA).nes
       format: 1
       size: 131088
       blob_id: 54311
       debug: |-
         Castlevania (U) (PRG 0).zip
         恶魔城 (美版) (动作)-Castlevania (USA) + Castlevania (U) (PRG0) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=ee09b857c90916edd92a20c463485a610b0a76fd
+  - asset:
+      id: 139340
+      kind: 3
+      kind_id: 8165
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Castlevania%20%28USA%29.png
+      format: 1
+      size: 2693
+      blob_id: 324787
+      debug: libretro-named-titles:rom-asset=8147:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Castlevania%20%28USA%29.png
 - release:
     id: 8167
     game_id: 8360
@@ -241,24 +299,43 @@ releases:
     kind_id: 8171
     language: 1
     name: Castlevania (U) (PRG1) [!]
+    deprecated: 1
   - id: 64799
     kind: 3
     kind_id: 8171
     language: 2
     name: 恶魔城 (美版)(Rev A) (动作)-Castlevania (USA) (Rev A)
+  - id: 257862
+    kind: 3
+    kind_id: 8171
+    language: 1
+    name: Castlevania (USA) (Rev 1)
+    source: no-intro
   assets:
   - asset:
       id: 8153
       kind: 3
       kind_id: 8171
       type: 1
-      name: Castlevania (U) (PRG1) [!].nes
+      name: Castlevania (USA) (Rev 1).nes
       format: 1
       size: 131088
       blob_id: 54317
       debug: |-
         Castlevania (U) (PRG1) [!].zip
         恶魔城 (美版)(Rev A) (动作)-Castlevania (USA) (Rev A) + Castlevania (U) (PRG1) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=3dcb69a8c861c041aeb56c04e39adf6d332eda3a
+  - asset:
+      id: 139341
+      kind: 3
+      kind_id: 8171
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Castlevania%20%28USA%29%20%28Rev%201%29.png
+      format: 1
+      size: 2693
+      blob_id: 324787
+      debug: libretro-named-titles:rom-asset=8153:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Castlevania%20%28USA%29%20%28Rev%201%29.png
 - release:
     id: 8172
     game_id: 8360
@@ -508,17 +585,37 @@ releases:
     kind_id: 8191
     language: 1
     name: Castlevania (U) (VC)
+    deprecated: 1
+  - id: 257863
+    kind: 3
+    kind_id: 8191
+    language: 1
+    name: Castlevania (USA) (Rev 1) (Virtual Console)
+    source: no-intro
   assets:
   - asset:
       id: 8173
       kind: 3
       kind_id: 8191
       type: 1
-      name: Castlevania (U) (VC).nes
+      name: Castlevania (USA) (Rev 1) (Virtual Console).nes
       format: 1
       size: 131088
       blob_id: 54337
-      debug: Castlevania (U) (VC).nes
+      debug: |-
+        Castlevania (U) (VC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=d15d214b713412edde406810fe1b39daac4b2147
+  - asset:
+      id: 139342
+      kind: 3
+      kind_id: 8191
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Castlevania%20%28USA%29%20%28Rev%201%29%20%28Virtual%20Console%29.png
+      format: 1
+      size: 5149
+      blob_id: 324786
+      debug: libretro-named-titles:rom-asset=8173:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Castlevania%20%28USA%29%20%28Rev%201%29%20%28Virtual%20Console%29.png
 - release:
     id: 8360
     game_id: 8360
@@ -528,17 +625,37 @@ releases:
     kind_id: 8360
     language: 1
     name: Castlevania
+    deprecated: 1
+  - id: 257870
+    kind: 3
+    kind_id: 8360
+    language: 1
+    name: Castlevania (USA) (Rev 1)
+    source: no-intro
   assets:
   - asset:
       id: 8342
       kind: 3
       kind_id: 8360
       type: 1
-      name: Castlevania.nes
+      name: Castlevania (USA) (Rev 1).nes
       format: 1
       size: 131088
       blob_id: 54501
-      debug: Castlevania.zip
+      debug: |-
+        Castlevania.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=3dcb69a8c861c041aeb56c04e39adf6d332eda3a
+  - asset:
+      id: 139347
+      kind: 3
+      kind_id: 8360
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Castlevania%20%28USA%29%20%28Rev%201%29.png
+      format: 1
+      size: 2693
+      blob_id: 324787
+      debug: libretro-named-titles:rom-asset=8342:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Castlevania%20%28USA%29%20%28Rev%201%29.png
 - release:
     id: 8445
     game_id: 8360

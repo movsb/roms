@@ -7,12 +7,19 @@ names:
   kind_id: 17565
   language: 1
   name: Nightman vs Justice Incarnate Demo
+  deprecated: 1
 - id: 253661
   kind: 2
   kind_id: 17565
   language: 2
   name: 夜行者大战正义化身演示
   source: codex
+- id: 261953
+  kind: 2
+  kind_id: 17565
+  language: 1
+  name: Nightman vs. Justice Incarnate
+  source: no-intro
 releases:
 - release:
     id: 17565
@@ -23,17 +30,26 @@ releases:
     kind_id: 17565
     language: 1
     name: Nightman vs Justice Incarnate Demo (r1_11.12.09) (PD)
+    deprecated: 1
+  - id: 258936
+    kind: 3
+    kind_id: 17565
+    language: 1
+    name: Nightman vs. Justice Incarnate (World) (Proto 1) (Aftermarket) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 17547
       kind: 3
       kind_id: 17565
       type: 1
-      name: Nightman vs Justice Incarnate Demo (r1_11.12.09) (PD).nes
+      name: Nightman vs. Justice Incarnate (World) (Proto 1) (Aftermarket) (Unl).nes
       format: 1
       size: 270352
       blob_id: 63146
-      debug: Nightman vs Justice Incarnate Demo (r1_11.12.09) (PD).nes
+      debug: |-
+        Nightman vs Justice Incarnate Demo (r1_11.12.09) (PD).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=137ba9eeffe1b6131a465a12c38d7198c9852a2c
 - release:
     id: 17566
     game_id: 17565
@@ -43,14 +59,34 @@ releases:
     kind_id: 17566
     language: 1
     name: Nightman vs Justice Incarnate Demo (r2_12.16.09) (PD)
+    deprecated: 1
+  - id: 258937
+    kind: 3
+    kind_id: 17566
+    language: 1
+    name: Nightman vs. Justice Incarnate (World) (Proto 2) (Aftermarket) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 17548
       kind: 3
       kind_id: 17566
       type: 1
-      name: Nightman vs Justice Incarnate Demo (r2_12.16.09) (PD).nes
+      name: Nightman vs. Justice Incarnate (World) (Proto 2) (Aftermarket) (Unl).nes
       format: 1
       size: 270352
       blob_id: 63147
-      debug: Nightman vs Justice Incarnate Demo (r2_12.16.09) (PD).nes
+      debug: |-
+        Nightman vs Justice Incarnate Demo (r2_12.16.09) (PD).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=a1c3b13f00b100e483ef4f583e0e2d30f7536443
+  - asset:
+      id: 139633
+      kind: 3
+      kind_id: 17566
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Nightman%20vs.%20Justice%20Incarnate%20%28World%29%20%28Proto%202%29%20%28Aftermarket%29%20%28Unl%29.png
+      format: 1
+      size: 6068
+      blob_id: 325035
+      debug: libretro-named-titles:rom-asset=17548:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Nightman%20vs.%20Justice%20Incarnate%20%28World%29%20%28Proto%202%29%20%28Aftermarket%29%20%28Unl%29.png

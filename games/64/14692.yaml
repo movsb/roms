@@ -12,11 +12,18 @@ names:
   kind_id: 14692
   language: 1
   name: Klax (Tengen) [!]
+  deprecated: 1
 - id: 92259
   kind: 2
   kind_id: 14692
   language: 1
   name: Klax
+- id: 261834
+  kind: 2
+  kind_id: 14692
+  language: 1
+  name: Klax
+  source: no-intro
 releases:
 - release:
     id: 14692
@@ -27,17 +34,26 @@ releases:
     kind_id: 14692
     language: 1
     name: Klax (J) [!]
+    deprecated: 1
+  - id: 258589
+    kind: 3
+    kind_id: 14692
+    language: 1
+    name: Klax (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 14674
       kind: 3
       kind_id: 14692
       type: 1
-      name: Klax (J) [!].nes
+      name: Klax (Japan).nes
       format: 1
       size: 196624
       blob_id: 60441
-      debug: Klax (J) [!].nes
+      debug: |-
+        Klax (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=bf67bd47c855dffd26d1cb1a37a0a4fe1b6afa27
   - asset:
       id: 137033
       kind: 3
@@ -58,11 +74,13 @@ releases:
     kind_id: 14698
     language: 1
     name: Klax (U)
+    deprecated: 1
   - id: 32552
     kind: 3
     kind_id: 14698
     language: 1
     name: Klax (Unl) [!]
+    deprecated: 1
   - id: 65525
     kind: 3
     kind_id: 14698
@@ -73,13 +91,20 @@ releases:
     kind_id: 14698
     language: 1
     name: Klax (Tengen) [!]
+    deprecated: 1
+  - id: 258590
+    kind: 3
+    kind_id: 14698
+    language: 1
+    name: Klax (USA) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 14680
       kind: 3
       kind_id: 14698
       type: 1
-      name: Klax (U).nes
+      name: Klax (USA) (Unl).nes
       format: 1
       size: 131088
       blob_id: 60447
@@ -87,3 +112,15 @@ releases:
         Klax (U).zip
         Klax (Unl) [!].zip
         旋转方块 (美版) (益智)-Klax (USA) (Unl) + Klax (Tengen) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=579fba48d99f9181ea39c42accfd430125f2614e
+  - asset:
+      id: 139502
+      kind: 3
+      kind_id: 14698
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Klax%20%28USA%29%20%28Unl%29.png
+      format: 1
+      size: 2894
+      blob_id: 324928
+      debug: libretro-named-titles:rom-asset=14680:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Klax%20%28USA%29%20%28Unl%29.png

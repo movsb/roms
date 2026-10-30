@@ -7,17 +7,25 @@ names:
   kind_id: 5940
   language: 1
   name: Arch Rivals (U)
+  deprecated: 1
 - id: 91265
   kind: 2
   kind_id: 5940
   language: 1
   name: "Arch Rivals - A BasketBrawl!"
+  deprecated: 1
 - id: 247494
   kind: 2
   kind_id: 5940
   language: 2
   name: 街头篮球争霸战
   source: codex
+- id: 261507
+  kind: 2
+  kind_id: 5940
+  language: 1
+  name: "Arch Rivals - A Basketbrawl!"
+  source: no-intro
 releases:
 - release:
     id: 5940
@@ -28,22 +36,41 @@ releases:
     kind_id: 5940
     language: 1
     name: Arch Rivals (U)
+    deprecated: 1
   - id: 12224
     kind: 3
     kind_id: 5940
     language: 1
     name: "Arch Rivals - A Basketbrawl! (U) [!]"
+    deprecated: 1
+  - id: 257653
+    kind: 3
+    kind_id: 5940
+    language: 1
+    name: "Arch Rivals - A Basketbrawl! (USA)"
+    source: no-intro
   assets:
   - asset:
       id: 5922
       kind: 3
       kind_id: 5940
       type: 1
-      name: Arch Rivals (U).nes
+      name: "Arch Rivals - A Basketbrawl! (USA).nes"
       format: 1
       size: 131088
       blob_id: 52201
-      debug: "Arch Rivals (U).zip\nArch Rivals - A Basketbrawl! (U) [!].nes\nArch Rivals - A Basketbrawl! (U) [!].zip"
+      debug: "Arch Rivals (U).zip\nArch Rivals - A Basketbrawl! (U) [!].nes\nArch Rivals - A Basketbrawl! (U) [!].zip\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=989c15904eb8f9f6e77ae59300a76ffa935abf43"
+  - asset:
+      id: 139305
+      kind: 3
+      kind_id: 5940
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Arch%20Rivals%20-%20A%20Basketbrawl%21%20%28USA%29.png
+      format: 1
+      size: 4206
+      blob_id: 324758
+      debug: libretro-named-titles:rom-asset=5922:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Arch%20Rivals%20-%20A%20Basketbrawl%21%20%28USA%29.png
 - release:
     id: 5941
     game_id: 5940
@@ -53,17 +80,24 @@ releases:
     kind_id: 5941
     language: 1
     name: "Arch Rivals - A BasketBrawl! (E) [!]"
+    deprecated: 1
+  - id: 257654
+    kind: 3
+    kind_id: 5941
+    language: 1
+    name: "Arch Rivals - A Basketbrawl! (Europe)"
+    source: no-intro
   assets:
   - asset:
       id: 5923
       kind: 3
       kind_id: 5941
       type: 1
-      name: "Arch Rivals - A BasketBrawl! (E) [!].nes"
+      name: "Arch Rivals - A Basketbrawl! (Europe).nes"
       format: 1
       size: 131088
       blob_id: 52202
-      debug: "Arch Rivals - A BasketBrawl! (E) [!].nes"
+      debug: "Arch Rivals - A BasketBrawl! (E) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=e5a1074a938001d01941b2bdd56f442090a267d1"
   - asset:
       id: 136676
       kind: 3

@@ -7,11 +7,13 @@ names:
   kind_id: 19614
   language: 1
   name: R.C. Pro-Am 2 (U) [!p]
+  deprecated: 1
 - id: 43685
   kind: 2
   kind_id: 19614
   language: 1
   name: RC Pro-Am 2 (U)
+  deprecated: 1
 - id: 70667
   kind: 2
   kind_id: 19614
@@ -27,6 +29,13 @@ names:
   kind_id: 19614
   language: 1
   name: R.C. Pro-Am II (U) [!]
+  deprecated: 1
+- id: 262033
+  kind: 2
+  kind_id: 19614
+  language: 1
+  name: R.C. Pro-Am II
+  source: no-intro
 releases:
 - release:
     id: 19614
@@ -37,11 +46,13 @@ releases:
     kind_id: 19614
     language: 1
     name: R.C. Pro-Am 2 (U) [!p]
+    deprecated: 1
   - id: 43686
     kind: 3
     kind_id: 19614
     language: 1
     name: RC Pro-Am 2 (U)
+    deprecated: 1
   - id: 70668
     kind: 3
     kind_id: 19614
@@ -57,13 +68,20 @@ releases:
     kind_id: 19614
     language: 1
     name: R.C. Pro-Am II (U) [!]
+    deprecated: 1
+  - id: 259138
+    kind: 3
+    kind_id: 19614
+    language: 1
+    name: R.C. Pro-Am II (USA)
+    source: no-intro
   assets:
   - asset:
       id: 19596
       kind: 3
       kind_id: 19614
       type: 1
-      name: R.C. Pro-Am 2 (U) [!p].nes
+      name: R.C. Pro-Am II (USA).nes
       format: 1
       size: 262160
       blob_id: 65104
@@ -72,3 +90,15 @@ releases:
         RC Pro-Am 2 (U).zip
         遥控赛车2.zip
         遥控车混合赛 II (美版) (竞赛)-R.C. Pro-Am II (USA) + R.C. Pro-Am II (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=fa189fc0f9277d5765e5de19274afbd28660f076
+  - asset:
+      id: 139693
+      kind: 3
+      kind_id: 19614
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/R.C.%20Pro-Am%20II%20%28USA%29.png
+      format: 1
+      size: 3752
+      blob_id: 325087
+      debug: libretro-named-titles:rom-asset=19596:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/R.C.%20Pro-Am%20II%20%28USA%29.png

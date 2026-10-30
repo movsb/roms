@@ -13,6 +13,12 @@ names:
   language: 2
   name: 真人快打2特别版
   source: codex
+- id: 261932
+  kind: 2
+  kind_id: 17035
+  language: 1
+  name: Mortal Kombat II Special
+  source: no-intro
 releases:
 - release:
     id: 17035
@@ -23,16 +29,24 @@ releases:
     kind_id: 17035
     language: 1
     name: Mortal Kombat II Special (Unl) [!]
+    deprecated: 1
+  - id: 258873
+    kind: 3
+    kind_id: 17035
+    language: 1
+    name: Mortal Kombat II Special (Taiwan) (En) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 17017
       kind: 3
       kind_id: 17035
       type: 1
-      name: Mortal Kombat II Special (Unl) [!] + Mortal Kombat II Special (Unl) [!].nes
+      name: Mortal Kombat II Special (Taiwan) (En) (Pirate).nes
       format: 1
       size: 655376
       blob_id: 62639
       debug: |-
         Mortal Kombat II Special (Unl) [!] + Mortal Kombat II Special (Unl) [!].nes
         Mortal Kombat II Special (Unl) [!].zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=0c4c9aa8002aece613bf74c2bcee12da79fe5ddc

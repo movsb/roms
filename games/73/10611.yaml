@@ -7,12 +7,19 @@ names:
   kind_id: 10611
   language: 1
   name: Dragon Wars (U) (Prototype)
+  deprecated: 1
 - id: 247726
   kind: 2
   kind_id: 10611
   language: 2
   name: 龙之战争
   source: codex
+- id: 261660
+  kind: 2
+  kind_id: 10611
+  language: 1
+  name: Dragon Wars
+  source: no-intro
 releases:
 - release:
     id: 10611
@@ -23,17 +30,26 @@ releases:
     kind_id: 10611
     language: 1
     name: Dragon Wars (U) (Prototype)
+    deprecated: 1
+  - id: 258105
+    kind: 3
+    kind_id: 10611
+    language: 1
+    name: Dragon Wars (USA) (Proto)
+    source: no-intro
   assets:
   - asset:
       id: 10593
       kind: 3
       kind_id: 10611
       type: 1
-      name: Dragon Wars (U) (Prototype).nes
+      name: Dragon Wars (USA) (Proto).nes
       format: 1
       size: 393232
       blob_id: 56618
-      debug: Dragon Wars (U) (Prototype).nes
+      debug: |-
+        Dragon Wars (U) (Prototype).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=c1d82f6be8af524f951fc7c9d41604e59f9fe92a
   - asset:
       id: 138354
       kind: 3

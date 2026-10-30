@@ -32,6 +32,7 @@ releases:
     kind_id: 16558
     language: 1
     name: Mickey Mousecapade (U) [!]
+    deprecated: 1
   - id: 68595
     kind: 3
     kind_id: 16558
@@ -42,13 +43,19 @@ releases:
     kind_id: 16558
     language: 2
     name: 米老鼠1代
+  - id: 258797
+    kind: 3
+    kind_id: 16558
+    language: 1
+    name: Mickey Mousecapade (USA)
+    source: no-intro
   assets:
   - asset:
       id: 16540
       kind: 3
       kind_id: 16558
       type: 1
-      name: Mickey Mousecapade (U) [!].nes
+      name: Mickey Mousecapade (USA).nes
       format: 1
       size: 65552
       blob_id: 62202
@@ -56,6 +63,7 @@ releases:
         Mickey Mousecapade (U) [!].zip
         米老鼠 (美版) (动作)-Mickey Mousecapade (USA) + Mickey Mousecapade (U) [!].nes
         米老鼠1代.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=1dbb1ffb39dde15a006667331b98d52f1020b21f
   - asset:
       id: 137113
       kind: 3
@@ -136,17 +144,26 @@ releases:
     kind_id: 16566
     language: 1
     name: Mickey Mousecapade (U)
+    deprecated: 1
+  - id: 258798
+    kind: 3
+    kind_id: 16566
+    language: 1
+    name: Mickey Mousecapade (USA)
+    source: no-intro
   assets:
   - asset:
       id: 16548
       kind: 3
       kind_id: 16566
       type: 1
-      name: Mickey Mousecapade (U).nes
+      name: Mickey Mousecapade (USA).nes
       format: 1
       size: 65552
       blob_id: 62210
-      debug: Mickey Mousecapade (U).zip
+      debug: |-
+        Mickey Mousecapade (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=1dbb1ffb39dde15a006667331b98d52f1020b21f
   - asset:
       id: 138582
       kind: 3

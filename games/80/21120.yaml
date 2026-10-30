@@ -7,12 +7,19 @@ names:
   kind_id: 21120
   language: 1
   name: Shougi Meikan '93 (J) [!]
+  deprecated: 1
 - id: 248548
   kind: 2
   kind_id: 21120
   language: 2
   name: 将棋名鉴93
   source: codex
+- id: 262113
+  kind: 2
+  kind_id: 21120
+  language: 1
+  name: Shougi Meikan '93
+  source: no-intro
 releases:
 - release:
     id: 21120
@@ -23,17 +30,26 @@ releases:
     kind_id: 21120
     language: 1
     name: Shougi Meikan '93 (J) [!]
+    deprecated: 1
+  - id: 259308
+    kind: 3
+    kind_id: 21120
+    language: 1
+    name: Shougi Meikan '93 (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 21102
       kind: 3
       kind_id: 21120
       type: 1
-      name: Shougi Meikan '93 (J) [!].nes
+      name: Shougi Meikan '93 (Japan).nes
       format: 1
       size: 262160
       blob_id: 66527
-      debug: Shougi Meikan '93 (J) [!].nes
+      debug: |-
+        Shougi Meikan '93 (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=0a808a7eb907d1690927ad3468679cdd7a9158ad
   - asset:
       id: 137296
       kind: 3

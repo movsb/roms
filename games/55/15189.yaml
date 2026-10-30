@@ -7,12 +7,19 @@ names:
   kind_id: 15189
   language: 1
   name: Lion King 6, The (Unl) [!]
+  deprecated: 1
 - id: 248083
   kind: 2
   kind_id: 15189
   language: 2
   name: 狮子王6
   source: codex
+- id: 261855
+  kind: 2
+  kind_id: 15189
+  language: 1
+  name: "Lion King 6, The - Timon & Pumbaa"
+  source: no-intro
 releases:
 - release:
     id: 15189
@@ -23,14 +30,34 @@ releases:
     kind_id: 15189
     language: 1
     name: Lion King 6, The (Unl) [!]
+    deprecated: 1
+  - id: 258651
+    kind: 3
+    kind_id: 15189
+    language: 1
+    name: "Lion King 6, The - Timon & Pumbaa (Asia) (En) (Pirate)"
+    source: no-intro
   assets:
   - asset:
       id: 15171
       kind: 3
       kind_id: 15189
       type: 1
-      name: Lion King 6, The (Unl) [!].nes
+      name: "Lion King 6, The - Timon & Pumbaa (Asia) (En) (Pirate).nes"
       format: 1
       size: 524304
       blob_id: 60906
-      debug: Lion King 6, The (Unl) [!].nes
+      debug: |-
+        Lion King 6, The (Unl) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=abbcbe32b918b9c2d19cc722e0de50bf4f3670d3
+  - asset:
+      id: 139521
+      kind: 3
+      kind_id: 15189
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Lion%20King%206%2C%20The%20-%20Timon%20_%20Pumbaa%20%28Asia%29%20%28En%29%20%28Pirate%29.png
+      format: 1
+      size: 7732
+      blob_id: 324944
+      debug: libretro-named-titles:rom-asset=15171:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Lion%20King%206%2C%20The%20-%20Timon%20_%20Pumbaa%20%28Asia%29%20%28En%29%20%28Pirate%29.png

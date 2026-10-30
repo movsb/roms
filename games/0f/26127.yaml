@@ -42,17 +42,37 @@ releases:
     kind_id: 26127
     language: 1
     name: Wrecking Crew (JU) (VC)
+    deprecated: 1
+  - id: 259832
+    kind: 3
+    kind_id: 26127
+    language: 1
+    name: Wrecking Crew (World) (Virtual Console)
+    source: no-intro
   assets:
   - asset:
       id: 26109
       kind: 3
       kind_id: 26127
       type: 1
-      name: Wrecking Crew (JU) (VC).nes
+      name: Wrecking Crew (World) (Virtual Console).nes
       format: 1
       size: 40976
       blob_id: 71273
-      debug: Wrecking Crew (JU) (VC).nes
+      debug: |-
+        Wrecking Crew (JU) (VC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=a72e7745f87032510286e6ed1dd097edd80c0cf0
+  - asset:
+      id: 139897
+      kind: 3
+      kind_id: 26127
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Wrecking%20Crew%20%28World%29%20%28Virtual%20Console%29.png
+      format: 1
+      size: 2776
+      blob_id: 325265
+      debug: libretro-named-titles:rom-asset=26109:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Wrecking%20Crew%20%28World%29%20%28Virtual%20Console%29.png
 - release:
     id: 26128
     game_id: 26127
@@ -63,24 +83,32 @@ releases:
     kind_id: 26128
     language: 1
     name: Wrecking Crew (U) [!]
+    deprecated: 1
   - id: 242245
     kind: 3
     kind_id: 26128
     language: 2
     name: 美版
+  - id: 259833
+    kind: 3
+    kind_id: 26128
+    language: 1
+    name: Wrecking Crew (World)
+    source: no-intro
   assets:
   - asset:
       id: 26110
       kind: 3
       kind_id: 26128
       type: 1
-      name: Wrecking Crew (U) [!].nes
+      name: Wrecking Crew (World).nes
       format: 1
       size: 40976
       blob_id: 71274
       debug: |-
         Wrecking Crew (U) [!].zip
         拆屋工 + Wrecking Crew (W) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=dee513dad7223cfc81bcd859d0aac6746349cb25
   - asset:
       id: 137489
       kind: 3
@@ -285,17 +313,26 @@ releases:
     kind_id: 26142
     language: 1
     name: Wrecking Crew (W) [p3]
+    deprecated: 1
+  - id: 259834
+    kind: 3
+    kind_id: 26142
+    language: 1
+    name: Wrecking Crew (Asia) (En) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 26124
       kind: 3
       kind_id: 26142
       type: 1
-      name: Wrecking Crew (W) [p3].nes
+      name: Wrecking Crew (Asia) (En) (Pirate).nes
       format: 1
       size: 40976
       blob_id: 71287
-      debug: Wrecking Crew (W) [p3].nes
+      debug: |-
+        Wrecking Crew (W) [p3].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=d9ddcef2daf13d13194c84b113d18ef71cfbb2e3
 - release:
     id: 26143
     game_id: 26127

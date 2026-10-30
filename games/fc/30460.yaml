@@ -12,6 +12,13 @@ names:
   kind_id: 30460
   language: 1
   name: Dragon's Lair (E) [!]
+  deprecated: 1
+- id: 263752
+  kind: 2
+  kind_id: 30460
+  language: 1
+  name: Dragon's Lair
+  source: no-intro
 releases:
 - release:
     id: 30460
@@ -27,17 +34,26 @@ releases:
     kind_id: 30460
     language: 1
     name: Dragon's Lair (E) [!]
+    deprecated: 1
+  - id: 261461
+    kind: 3
+    kind_id: 30460
+    language: 1
+    name: Dragon's Lair (Europe)
+    source: no-intro
   assets:
   - asset:
       id: 30442
       kind: 3
       kind_id: 30460
       type: 1
-      name: 龙穴历险记 (欧版) (动作)-Dragons Lair (Europe) + Dragon's Lair (E) [!].nes
+      name: Dragon's Lair (Europe).nes
       format: 1
       size: 262160
       blob_id: 74228
-      debug: 龙穴历险记 (欧版) (动作)-Dragons Lair (Europe) + Dragon's Lair (E) [!].nes
+      debug: |-
+        龙穴历险记 (欧版) (动作)-Dragons Lair (Europe) + Dragon's Lair (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=f98445c6b24af3fb590fdd8689a3b44c18339b79
   - asset:
       id: 138118
       kind: 3

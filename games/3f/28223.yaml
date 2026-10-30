@@ -14,6 +14,12 @@ names:
   language: 1
   name: "Castlevania II - Simon's Quest"
   source: codex
+- id: 262926
+  kind: 2
+  kind_id: 28223
+  language: 1
+  name: "Castlevania II - Simon's Quest"
+  source: no-intro
 releases:
 - release:
     id: 28223
@@ -24,14 +30,31 @@ releases:
     kind_id: 28223
     language: 2
     name: 恶魔城3
+  - id: 260549
+    kind: 3
+    kind_id: 28223
+    language: 1
+    name: "Castlevania II - Simon's Quest (Europe)"
+    source: no-intro
   assets:
   - asset:
       id: 28205
       kind: 3
       kind_id: 28223
       type: 1
-      name: 恶魔城3.nes
+      name: "Castlevania II - Simon's Quest (Europe).nes"
       format: 1
       size: 262160
       blob_id: 72798
-      debug: "恶魔城3.nes\n重复的/恶魔城 II - 西蒙的探险 (欧版) (动作)-Castlevania II - Simons Quest (Europe) + Castlevania II - Simon's Quest (E) [!].nes"
+      debug: "恶魔城3.nes\n重复的/恶魔城 II - 西蒙的探险 (欧版) (动作)-Castlevania II - Simons Quest (Europe) + Castlevania II - Simon's Quest (E) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=d3f455a15a5b21ea663a1e48af352e55818fe89d"
+  - asset:
+      id: 140109
+      kind: 3
+      kind_id: 28223
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Castlevania%20II%20-%20Simon%27s%20Quest%20%28Europe%29.png
+      format: 1
+      size: 2549
+      blob_id: 325448
+      debug: libretro-named-titles:rom-asset=28205:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Castlevania%20II%20-%20Simon%27s%20Quest%20%28Europe%29.png

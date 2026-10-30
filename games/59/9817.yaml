@@ -32,28 +32,37 @@ releases:
     kind_id: 9817
     language: 1
     name: Dizzy The Adventurer (Aladdin) (U)
+    deprecated: 1
   - id: 21052
     kind: 3
     kind_id: 9817
     language: 1
     name: Dizzy The Adventurer (Camerica) (Aladdin) [!]
+    deprecated: 1
   - id: 21076
     kind: 3
     kind_id: 9817
     language: 1
     name: Dizzy The Adventurer (Unl) (Aladdin) [!]
+    deprecated: 1
   - id: 60982
     kind: 3
     kind_id: 9817
     language: 2
     name: 冒险家迪兹
+  - id: 258028
+    kind: 3
+    kind_id: 9817
+    language: 1
+    name: Dizzy the Adventurer (USA) (Aladdin Compact Cartridge) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 9799
       kind: 3
       kind_id: 9817
       type: 1
-      name: Dizzy The Adventurer (Aladdin) (U).nes
+      name: Dizzy the Adventurer (USA) (Aladdin Compact Cartridge) (Unl).nes
       format: 1
       size: 131088
       blob_id: 55872
@@ -62,6 +71,18 @@ releases:
         Dizzy The Adventurer (Camerica) (Aladdin) [!].nes
         Dizzy The Adventurer (Unl) (Aladdin) [!].zip
         冒险家迪兹.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=5a4ef3b2f5880d3b4609ae4f3381d688b3a02cac
+  - asset:
+      id: 139369
+      kind: 3
+      kind_id: 9817
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Dizzy%20the%20Adventurer%20%28USA%29%20%28Aladdin%20Compact%20Cartridge%29%20%28Unl%29.png
+      format: 1
+      size: 3737
+      blob_id: 324663
+      debug: libretro-named-titles:rom-asset=9799:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Dizzy%20the%20Adventurer%20%28USA%29%20%28Aladdin%20Compact%20Cartridge%29%20%28Unl%29.png
 - release:
     id: 9819
     game_id: 9817
@@ -91,17 +112,26 @@ releases:
     kind_id: 9821
     language: 1
     name: Dizzy The Adventurer (Camerica) (Aladdin) [f1] (Sound)
+    deprecated: 1
+  - id: 258029
+    kind: 3
+    kind_id: 9821
+    language: 1
+    name: Dizzy the Adventurer (World) (Evercade) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 9803
       kind: 3
       kind_id: 9821
       type: 1
-      name: Dizzy The Adventurer (Camerica) (Aladdin) [f1] (Sound).nes
+      name: Dizzy the Adventurer (World) (Evercade) (Unl).nes
       format: 1
       size: 131088
       blob_id: 55875
-      debug: Dizzy The Adventurer (Camerica) (Aladdin) [f1] (Sound).nes
+      debug: |-
+        Dizzy The Adventurer (Camerica) (Aladdin) [f1] (Sound).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=66ae167bd635f91980f989eebdc9081045b3b453
 - release:
     id: 11221
     game_id: 9817
@@ -111,17 +141,26 @@ releases:
     kind_id: 11221
     language: 1
     name: Fantastic Adventures of Dizzy, The (Camerica) (Aladdin) [!]
+    deprecated: 1
+  - id: 258202
+    kind: 3
+    kind_id: 11221
+    language: 1
+    name: Fantastic Adventures of Dizzy, The (USA) (Aladdin Compact Cartridge) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 11203
       kind: 3
       kind_id: 11221
       type: 1
-      name: Fantastic Adventures of Dizzy, The (Camerica) (Aladdin) [!].nes
+      name: Fantastic Adventures of Dizzy, The (USA) (Aladdin Compact Cartridge) (Unl).nes
       format: 1
       size: 262160
       blob_id: 57190
-      debug: Fantastic Adventures of Dizzy, The (Camerica) (Aladdin) [!].nes
+      debug: |-
+        Fantastic Adventures of Dizzy, The (Camerica) (Aladdin) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=102bd0c46c5718c979eb1ac387dade6f6eb70ee4
   - asset:
       id: 136886
       kind: 3
@@ -222,23 +261,31 @@ releases:
     kind_id: 11230
     language: 1
     name: Fantastic Adventures of Dizzy, The (U)
+    deprecated: 1
   - id: 24414
     kind: 3
     kind_id: 11230
     language: 1
     name: Fantastic Adventures of Dizzy, The (Unl) [!]
+    deprecated: 1
   - id: 70572
     kind: 3
     kind_id: 11230
     language: 2
     name: 迪兹蛋幻想冒险
+  - id: 258203
+    kind: 3
+    kind_id: 11230
+    language: 1
+    name: Fantastic Adventures of Dizzy, The (USA) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 11212
       kind: 3
       kind_id: 11230
       type: 1
-      name: Fantastic Adventures of Dizzy, The (U).nes
+      name: Fantastic Adventures of Dizzy, The (USA) (Unl).nes
       format: 1
       size: 262160
       blob_id: 57199
@@ -248,3 +295,15 @@ releases:
         迪兹蛋幻想冒险.nes
         重复的/Fantastic Adventures of Dizzy, The (Camerica) [!].nes
         鸡蛋迪兹的幻想冒险.nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=90196dbfc5337b56106b33891c5fa4b2267f3732
+  - asset:
+      id: 139396
+      kind: 3
+      kind_id: 11230
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Fantastic%20Adventures%20of%20Dizzy%2C%20The%20%28USA%29%20%28Unl%29.png
+      format: 1
+      size: 3148
+      blob_id: 324664
+      debug: libretro-named-titles:rom-asset=11212:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Fantastic%20Adventures%20of%20Dizzy%2C%20The%20%28USA%29%20%28Unl%29.png

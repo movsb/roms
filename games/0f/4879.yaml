@@ -7,12 +7,19 @@ names:
   kind_id: 4879
   language: 1
   name: "1999"
+  deprecated: 1
 - id: 248980
   kind: 2
   kind_id: 4879
   language: 2
   name: "1999"
   source: codex
+- id: 261469
+  kind: 2
+  kind_id: 4879
+  language: 1
+  name: "1999 - Hore, Mitakotoka! Seikimatsu"
+  source: no-intro
 releases:
 - release:
     id: 4879
@@ -23,17 +30,26 @@ releases:
     kind_id: 4879
     language: 1
     name: "1999"
+    deprecated: 1
+  - id: 257552
+    kind: 3
+    kind_id: 4879
+    language: 1
+    name: "1999 - Hore, Mitakotoka! Seikimatsu (Japan)"
+    source: no-intro
   assets:
   - asset:
       id: 4861
       kind: 3
       kind_id: 4879
       type: 1
-      name: 1999.NES
+      name: "1999 - Hore, Mitakotoka! Seikimatsu (Japan).nes"
       format: 1
       size: 393232
       blob_id: 51189
-      debug: 1999.zip
+      debug: |-
+        1999.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=3e753d57f5f5e72810e8b11827fecdc714f1891a
   - asset:
       id: 138127
       kind: 3

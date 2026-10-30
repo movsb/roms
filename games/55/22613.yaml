@@ -8,12 +8,19 @@ names:
   kind_id: 22613
   language: 1
   name: Super Mario Bros 14 (Unl) [!]
+  deprecated: 1
 - id: 248683
   kind: 2
   kind_id: 22613
   language: 2
   name: 超级马力欧兄弟14
   source: codex
+- id: 262189
+  kind: 2
+  kind_id: 22613
+  language: 1
+  name: Mario Bros 14
+  source: no-intro
 releases:
 - release:
     id: 22613
@@ -24,14 +31,34 @@ releases:
     kind_id: 22613
     language: 1
     name: Super Mario Bros 14 (Unl) [!]
+    deprecated: 1
+  - id: 259499
+    kind: 3
+    kind_id: 22613
+    language: 1
+    name: Mario Bros 14 (Asia) (Ja) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 22595
       kind: 3
       kind_id: 22613
       type: 1
-      name: Super Mario Bros 14 (Unl) [!].nes
+      name: Mario Bros 14 (Asia) (Ja) (Pirate).nes
       format: 1
       size: 262160
       blob_id: 67928
-      debug: Super Mario Bros 14 (Unl) [!].nes
+      debug: |-
+        Super Mario Bros 14 (Unl) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=4a447e85394ae8c57c7e4bf04bee6bfc94d6ba9a
+  - asset:
+      id: 139804
+      kind: 3
+      kind_id: 22613
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mario%20Bros%2014%20%28Asia%29%20%28Ja%29%20%28Pirate%29.png
+      format: 1
+      size: 4270
+      blob_id: 325179
+      debug: libretro-named-titles:rom-asset=22595:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mario%20Bros%2014%20%28Asia%29%20%28Ja%29%20%28Pirate%29.png

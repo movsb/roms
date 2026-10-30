@@ -7,12 +7,19 @@ names:
   kind_id: 13029
   language: 1
   name: HexS by Sean Kelly (2004) (PD)
+  deprecated: 1
 - id: 253113
   kind: 2
   kind_id: 13029
   language: 2
   name: HexS
   source: codex
+- id: 261770
+  kind: 2
+  kind_id: 13029
+  language: 1
+  name: HexS
+  source: no-intro
 releases:
 - release:
     id: 13029
@@ -23,14 +30,34 @@ releases:
     kind_id: 13029
     language: 1
     name: HexS by Sean Kelly (2004) (PD)
+    deprecated: 1
+  - id: 258408
+    kind: 3
+    kind_id: 13029
+    language: 1
+    name: HexS (World) (Aftermarket) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 13011
       kind: 3
       kind_id: 13029
       type: 1
-      name: HexS by Sean Kelly (2004) (PD).nes
+      name: HexS (World) (Aftermarket) (Unl).nes
       format: 1
       size: 24592
       blob_id: 58902
-      debug: HexS by Sean Kelly (2004) (PD).nes
+      debug: |-
+        HexS by Sean Kelly (2004) (PD).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=c33122f91a994f01f2590b017e8f985a8d183139
+  - asset:
+      id: 139447
+      kind: 3
+      kind_id: 13029
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/HexS%20%28World%29%20%28Aftermarket%29%20%28Unl%29.png
+      format: 1
+      size: 7074
+      blob_id: 324878
+      debug: libretro-named-titles:rom-asset=13011:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/HexS%20%28World%29%20%28Aftermarket%29%20%28Unl%29.png

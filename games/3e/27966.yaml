@@ -12,6 +12,13 @@ names:
   kind_id: 27966
   language: 1
   name: Blues Brothers, The (E)
+  deprecated: 1
+- id: 262849
+  kind: 2
+  kind_id: 27966
+  language: 1
+  name: Blues Brothers, The
+  source: no-intro
 releases:
 - release:
     id: 27966
@@ -27,17 +34,26 @@ releases:
     kind_id: 27966
     language: 1
     name: Blues Brothers, The (E)
+    deprecated: 1
+  - id: 260459
+    kind: 3
+    kind_id: 27966
+    language: 1
+    name: Blues Brothers, The (Europe)
+    source: no-intro
   assets:
   - asset:
       id: 27948
       kind: 3
       kind_id: 27966
       type: 1
-      name: 布鲁斯兄弟 (欧版) (动作)-Blues Brothers, The (Europe) + Blues Brothers, The (E).nes
+      name: Blues Brothers, The (Europe).nes
       format: 1
       size: 131088
       blob_id: 72629
-      debug: 布鲁斯兄弟 (欧版) (动作)-Blues Brothers, The (Europe) + Blues Brothers, The (E).nes
+      debug: |-
+        布鲁斯兄弟 (欧版) (动作)-Blues Brothers, The (Europe) + Blues Brothers, The (E).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=e0c970fc9c2cf42afba958b056e2dd5f99097ed8
   - asset:
       id: 138941
       kind: 3

@@ -12,6 +12,13 @@ names:
   kind_id: 28699
   language: 1
   name: "Chu Han Zheng Ba - The War Between Chu & Han (Ch)"
+  deprecated: 1
+- id: 263121
+  kind: 2
+  kind_id: 28699
+  language: 1
+  name: "Chu Han Zhengba - The War Between Chu & Han"
+  source: no-intro
 releases:
 - release:
     id: 28699
@@ -27,14 +34,32 @@ releases:
     kind_id: 28699
     language: 1
     name: "Chu Han Zheng Ba - The War Between Chu & Han (Ch)"
+    deprecated: 1
+  - id: 260765
+    kind: 3
+    kind_id: 28699
+    language: 1
+    name: "Chu Han Zhengba - The War Between Chu & Han (China) (0100396) (Unl)"
+    source: no-intro
   assets:
   - asset:
       id: 28681
       kind: 3
       kind_id: 28699
       type: 1
-      name: "楚汉争霸[外星科技] + Chu Han Zheng Ba - The War Between Chu & Han (Ch).nes"
+      name: "Chu Han Zhengba - The War Between Chu & Han (China) (0100396) (Unl).nes"
       format: 1
       size: 524304
       blob_id: 73127
-      debug: "楚汉争霸[外星科技] + Chu Han Zheng Ba - The War Between Chu & Han (Ch).nes"
+      debug: "楚汉争霸[外星科技] + Chu Han Zheng Ba - The War Between Chu & Han (Ch).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=0228e5074d3810568fc72974195d921854f8ae7d"
+  - asset:
+      id: 140147
+      kind: 3
+      kind_id: 28699
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Chu%20Han%20Zhengba%20-%20The%20War%20Between%20Chu%20_%20Han%20%28China%29%20%280100396%29%20%28Unl%29.png
+      format: 1
+      size: 3136
+      blob_id: 325475
+      debug: libretro-named-titles:rom-asset=28681:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Chu%20Han%20Zhengba%20-%20The%20War%20Between%20Chu%20_%20Han%20%28China%29%20%280100396%29%20%28Unl%29.png

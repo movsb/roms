@@ -27,17 +27,26 @@ releases:
     kind_id: 5591
     language: 1
     name: Air Fortress (E)
+    deprecated: 1
+  - id: 257617
+    kind: 3
+    kind_id: 5591
+    language: 1
+    name: Air Fortress (Europe)
+    source: no-intro
   assets:
   - asset:
       id: 5573
       kind: 3
       kind_id: 5591
       type: 1
-      name: Air Fortress (E).nes
+      name: Air Fortress (Europe).nes
       format: 1
       size: 163856
       blob_id: 51877
-      debug: Air Fortress (E).nes
+      debug: |-
+        Air Fortress (E).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=3ea4e4f8996217f1c72fb8cba58cb438ef16206e
   - asset:
       id: 138433
       kind: 3
@@ -118,23 +127,31 @@ releases:
     kind_id: 5600
     language: 1
     name: Air Fortress (U) [!]
+    deprecated: 1
   - id: 11484
     kind: 3
     kind_id: 5600
     language: 1
     name: Air Fortress (U)
+    deprecated: 1
   - id: 68449
     kind: 3
     kind_id: 5600
     language: 2
     name: 空中要塞 (美版) (射击)-Air Fortress (USA)
+  - id: 257618
+    kind: 3
+    kind_id: 5600
+    language: 1
+    name: Air Fortress (USA)
+    source: no-intro
   assets:
   - asset:
       id: 5582
       kind: 3
       kind_id: 5600
       type: 1
-      name: Air Fortress (U) [!].nes
+      name: Air Fortress (USA).nes
       format: 1
       size: 163856
       blob_id: 51886
@@ -142,6 +159,7 @@ releases:
         Air Fortress (U) [!].zip
         Air Fortress (U).zip
         空中要塞 (美版) (射击)-Air Fortress (USA) + Air Fortress (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=3460727cb7e7eb3886c69e0e75006f7ed0857c4b
   - asset:
       id: 136667
       kind: 3

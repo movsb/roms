@@ -12,11 +12,18 @@ names:
   kind_id: 17246
   language: 1
   name: NES Play Action Football (U) [!]
+  deprecated: 1
 - id: 92594
   kind: 2
   kind_id: 17246
   language: 1
   name: NES Play Action Football
+- id: 261946
+  kind: 2
+  kind_id: 17246
+  language: 1
+  name: NES Play Action Football
+  source: no-intro
 releases:
 - release:
     id: 17246
@@ -27,17 +34,37 @@ releases:
     kind_id: 17246
     language: 1
     name: NES Play Action Football (U) (VC)
+    deprecated: 1
+  - id: 258908
+    kind: 3
+    kind_id: 17246
+    language: 1
+    name: NES Play Action Football (USA) (Virtual Console)
+    source: no-intro
   assets:
   - asset:
       id: 17228
       kind: 3
       kind_id: 17246
       type: 1
-      name: NES Play Action Football (U) (VC).nes
+      name: NES Play Action Football (USA) (Virtual Console).nes
       format: 1
       size: 393232
       blob_id: 62835
-      debug: NES Play Action Football (U) (VC).nes
+      debug: |-
+        NES Play Action Football (U) (VC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=7cc0a7c87a2437e312b82dbdf129324301220ac3
+  - asset:
+      id: 139621
+      kind: 3
+      kind_id: 17246
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/NES%20Play%20Action%20Football%20%28USA%29%20%28Virtual%20Console%29.png
+      format: 1
+      size: 2576
+      blob_id: 325024
+      debug: libretro-named-titles:rom-asset=17228:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/NES%20Play%20Action%20Football%20%28USA%29%20%28Virtual%20Console%29.png
 - release:
     id: 17247
     game_id: 17246
@@ -47,24 +74,32 @@ releases:
     kind_id: 17247
     language: 1
     name: NES Play Action Football (U) [!]
+    deprecated: 1
   - id: 60405
     kind: 3
     kind_id: 17247
     language: 2
     name: 任天堂美式足球 (美版) (运动)-NES Play Action Football (USA)
+  - id: 258909
+    kind: 3
+    kind_id: 17247
+    language: 1
+    name: NES Play Action Football (USA)
+    source: no-intro
   assets:
   - asset:
       id: 17229
       kind: 3
       kind_id: 17247
       type: 1
-      name: NES Play Action Football (U) [!].nes
+      name: NES Play Action Football (USA).nes
       format: 1
       size: 262160
       blob_id: 62836
       debug: |-
         NES Play Action Football (U) [!].zip
         任天堂美式足球 (美版) (运动)-NES Play Action Football (USA) + NES Play Action Football (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=80d04447c42a9c1394eeb9b7c6e00647ed58b11f
   - asset:
       id: 137151
       kind: 3
@@ -85,17 +120,26 @@ releases:
     kind_id: 17250
     language: 1
     name: NES Play Action Football (U)
+    deprecated: 1
+  - id: 258910
+    kind: 3
+    kind_id: 17250
+    language: 1
+    name: NES Play Action Football (USA)
+    source: no-intro
   assets:
   - asset:
       id: 17232
       kind: 3
       kind_id: 17250
       type: 1
-      name: NES Play Action Football (U).nes
+      name: NES Play Action Football (USA).nes
       format: 1
       size: 262160
       blob_id: 62839
-      debug: NES Play Action Football (U).zip
+      debug: |-
+        NES Play Action Football (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=80d04447c42a9c1394eeb9b7c6e00647ed58b11f
   - asset:
       id: 138597
       kind: 3

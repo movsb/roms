@@ -12,11 +12,18 @@ names:
   kind_id: 17859
   language: 1
   name: Nobunaga's Ambition (U) [!]
+  deprecated: 1
 - id: 92657
   kind: 2
   kind_id: 17859
   language: 1
   name: Nobunaga's Ambition
+- id: 261961
+  kind: 2
+  kind_id: 17859
+  language: 1
+  name: Nobunaga's Ambition
+  source: no-intro
 releases:
 - release:
     id: 17859
@@ -27,22 +34,29 @@ releases:
     kind_id: 17859
     language: 1
     name: Nobunaga's Ambition (U) [!]
+    deprecated: 1
   - id: 60723
     kind: 3
     kind_id: 17859
     language: 2
     name: "信长之野望 - 全国版 (美版) (策略)-Nobunagas Ambition (USA)"
+  - id: 258966
+    kind: 3
+    kind_id: 17859
+    language: 1
+    name: Nobunaga's Ambition (USA)
+    source: no-intro
   assets:
   - asset:
       id: 17841
       kind: 3
       kind_id: 17859
       type: 1
-      name: Nobunaga's Ambition (U) [!].nes
+      name: Nobunaga's Ambition (USA).nes
       format: 1
       size: 262160
       blob_id: 63425
-      debug: "Nobunaga's Ambition (U) [!].zip\n信长之野望 - 全国版 (美版) (策略)-Nobunagas Ambition (USA) + Nobunaga's Ambition (U) [!].nes"
+      debug: "Nobunaga's Ambition (U) [!].zip\n信长之野望 - 全国版 (美版) (策略)-Nobunagas Ambition (USA) + Nobunaga's Ambition (U) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=d9fe4f00109b7d75456e1673c2b30de68a125a5b"
   - asset:
       id: 137164
       kind: 3
@@ -63,17 +77,26 @@ releases:
     kind_id: 17864
     language: 1
     name: Nobunaga's Ambition (U)
+    deprecated: 1
+  - id: 258967
+    kind: 3
+    kind_id: 17864
+    language: 1
+    name: Nobunaga's Ambition (USA)
+    source: no-intro
   assets:
   - asset:
       id: 17846
       kind: 3
       kind_id: 17864
       type: 1
-      name: Nobunaga's Ambition (U).nes
+      name: Nobunaga's Ambition (USA).nes
       format: 1
       size: 262160
       blob_id: 63430
-      debug: Nobunaga's Ambition (U).zip
+      debug: |-
+        Nobunaga's Ambition (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=d9fe4f00109b7d75456e1673c2b30de68a125a5b
   - asset:
       id: 138604
       kind: 3

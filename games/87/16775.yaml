@@ -47,17 +47,37 @@ releases:
     kind_id: 16778
     language: 1
     name: Mission Cobra (U)
+    deprecated: 1
+  - id: 258828
+    kind: 3
+    kind_id: 16778
+    language: 1
+    name: Mission Cobra (USA) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 16760
       kind: 3
       kind_id: 16778
       type: 1
-      name: Mission Cobra (U).nes
+      name: Mission Cobra (USA) (Unl).nes
       format: 1
       size: 49168
       blob_id: 62401
-      debug: Mission Cobra (U).zip
+      debug: |-
+        Mission Cobra (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=3166bb69095b7cbbd514af6122c5ece1257d76db
+  - asset:
+      id: 139588
+      kind: 3
+      kind_id: 16778
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mission%20Cobra%20%28USA%29%20%28Unl%29.png
+      format: 1
+      size: 2168
+      blob_id: 324995
+      debug: libretro-named-titles:rom-asset=16760:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mission%20Cobra%20%28USA%29%20%28Unl%29.png
 - release:
     id: 16779
     game_id: 16775
@@ -67,6 +87,7 @@ releases:
     kind_id: 16779
     language: 1
     name: Mission Cobra (Unl) [!]
+    deprecated: 1
   - id: 68223
     kind: 3
     kind_id: 16779
@@ -77,16 +98,35 @@ releases:
     kind_id: 16779
     language: 1
     name: Mission Cobra (Bunch) [!]
+    deprecated: 1
+  - id: 258829
+    kind: 3
+    kind_id: 16779
+    language: 1
+    name: Mission Cobra (USA) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 16761
       kind: 3
       kind_id: 16779
       type: 1
-      name: Mission Cobra (Unl) [!].nes
+      name: Mission Cobra (USA) (Unl).nes
       format: 1
       size: 49168
       blob_id: 62402
       debug: |-
         Mission Cobra (Unl) [!].zip
         眼镜蛇任务 (美版) (射击)-Mission Cobra (USA) (Unl) + Mission Cobra (Bunch) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=3166bb69095b7cbbd514af6122c5ece1257d76db
+  - asset:
+      id: 139589
+      kind: 3
+      kind_id: 16779
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mission%20Cobra%20%28USA%29%20%28Unl%29.png
+      format: 1
+      size: 2168
+      blob_id: 324995
+      debug: libretro-named-titles:rom-asset=16761:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mission%20Cobra%20%28USA%29%20%28Unl%29.png

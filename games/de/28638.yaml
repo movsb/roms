@@ -13,6 +13,13 @@ names:
   language: 1
   name: Chip 'n Dale Rescue Rangers 2
   source: codex
+  deprecated: 1
+- id: 263099
+  kind: 2
+  kind_id: 28638
+  language: 1
+  name: "Chip 'n Dale - Rescue Rangers 2"
+  source: no-intro
 releases:
 - release:
     id: 28638
@@ -23,14 +30,31 @@ releases:
     kind_id: 28638
     language: 2
     name: "松鼠大作战 - 奇奇与蒂蒂 II (欧版) (动作)-Chip n Dale Rescue Rangers 2 (Europe)"
+  - id: 260739
+    kind: 3
+    kind_id: 28638
+    language: 1
+    name: "Chip 'n Dale - Rescue Rangers 2 (Europe)"
+    source: no-intro
   assets:
   - asset:
       id: 28620
       kind: 3
       kind_id: 28638
       type: 1
-      name: "松鼠大作战 - 奇奇与蒂蒂 II (欧版) (动作)-Chip n Dale Rescue Rangers 2 (Europe).nes"
+      name: "Chip 'n Dale - Rescue Rangers 2 (Europe).nes"
       format: 1
       size: 262160
       blob_id: 73083
-      debug: "松鼠大作战 - 奇奇与蒂蒂 II (欧版) (动作)-Chip n Dale Rescue Rangers 2 (Europe).nes"
+      debug: "松鼠大作战 - 奇奇与蒂蒂 II (欧版) (动作)-Chip n Dale Rescue Rangers 2 (Europe).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=c387d49b371c5bcd1faad1f5b138372347504294"
+  - asset:
+      id: 140142
+      kind: 3
+      kind_id: 28638
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Chip%20%27n%20Dale%20-%20Rescue%20Rangers%202%20%28Europe%29.png
+      format: 1
+      size: 3301
+      blob_id: 324795
+      debug: libretro-named-titles:rom-asset=28620:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Chip%20%27n%20Dale%20-%20Rescue%20Rangers%202%20%28Europe%29.png

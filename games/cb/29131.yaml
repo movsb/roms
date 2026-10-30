@@ -13,6 +13,13 @@ names:
   language: 1
   name: Minelvaton Saga
   source: codex
+  deprecated: 1
+- id: 263245
+  kind: 2
+  kind_id: 29131
+  language: 1
+  name: "Minelvaton Saga - Ragon no Fukkatsu"
+  source: no-intro
 releases:
 - release:
     id: 29131
@@ -23,14 +30,33 @@ releases:
     kind_id: 29131
     language: 2
     name: 王子复国记 (日版) (角色扮演)-Minelvaton Saga (Japan)
+  - id: 260916
+    kind: 3
+    kind_id: 29131
+    language: 1
+    name: "Minelvaton Saga - Ragon no Fukkatsu (Japan)"
+    source: no-intro
   assets:
   - asset:
       id: 29113
       kind: 3
       kind_id: 29131
       type: 1
-      name: 王子复国记 (日版) (角色扮演)-Minelvaton Saga (Japan).nes
+      name: "Minelvaton Saga - Ragon no Fukkatsu (Japan).nes"
       format: 1
       size: 262160
       blob_id: 73393
-      debug: 王子复国记 (日版) (角色扮演)-Minelvaton Saga (Japan).nes
+      debug: |-
+        王子复国记 (日版) (角色扮演)-Minelvaton Saga (Japan).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=86d2ed5bdf689cc0b0812654c21aebcad234de3c
+  - asset:
+      id: 140177
+      kind: 3
+      kind_id: 29131
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Minelvaton%20Saga%20-%20Ragon%20no%20Fukkatsu%20%28Japan%29.png
+      format: 1
+      size: 1471
+      blob_id: 325500
+      debug: libretro-named-titles:rom-asset=29113:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Minelvaton%20Saga%20-%20Ragon%20no%20Fukkatsu%20%28Japan%29.png

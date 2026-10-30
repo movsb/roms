@@ -12,11 +12,18 @@ names:
   kind_id: 29425
   language: 1
   name: Asterix (E) [!]
+  deprecated: 1
 - id: 68883
   kind: 2
   kind_id: 29425
   language: 2
   name: 美丽新世界
+- id: 263375
+  kind: 2
+  kind_id: 29425
+  language: 1
+  name: Asterix
+  source: no-intro
 releases:
 - release:
     id: 29425
@@ -32,21 +39,40 @@ releases:
     kind_id: 29425
     language: 1
     name: Asterix (E) [!]
+    deprecated: 1
   - id: 68884
     kind: 3
     kind_id: 29425
     language: 2
     name: 美丽新世界
+  - id: 261051
+    kind: 3
+    kind_id: 29425
+    language: 1
+    name: Asterix (Europe) (En,Fr,De,Es,It)
+    source: no-intro
   assets:
   - asset:
       id: 29407
       kind: 3
       kind_id: 29425
       type: 1
-      name: 美丽新世界 (欧版) (动作)-Asterix (Europe) (En,Fr,De,Es,It) + Asterix (E) [!].nes
+      name: Asterix (Europe) (En,Fr,De,Es,It).nes
       format: 1
       size: 131088
       blob_id: 73585
       debug: |-
         美丽新世界 (欧版) (动作)-Asterix (Europe) (En,Fr,De,Es,It) + Asterix (E) [!].nes
         美丽新世界.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=7b0b8d19bd56aa255501852136828300ee2d2457
+  - asset:
+      id: 140202
+      kind: 3
+      kind_id: 29425
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Asterix%20%28Europe%29%20%28En%2CFr%2CDe%2CEs%2CIt%29.png
+      format: 1
+      size: 1186
+      blob_id: 325523
+      debug: libretro-named-titles:rom-asset=29407:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Asterix%20%28Europe%29%20%28En%2CFr%2CDe%2CEs%2CIt%29.png

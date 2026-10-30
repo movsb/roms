@@ -23,17 +23,35 @@ releases:
     kind_id: 17435
     language: 1
     name: "Nekketsu Kouha - Kunio-kun (J) (VC)"
+    deprecated: 1
+  - id: 258926
+    kind: 3
+    kind_id: 17435
+    language: 1
+    name: Nekketsu Kouha Kunio-kun (Japan) (Virtual Console)
+    source: no-intro
   assets:
   - asset:
       id: 17417
       kind: 3
       kind_id: 17435
       type: 1
-      name: "Nekketsu Kouha - Kunio-kun (J) (VC).nes"
+      name: Nekketsu Kouha Kunio-kun (Japan) (Virtual Console).nes
       format: 1
       size: 131088
       blob_id: 63019
-      debug: "Nekketsu Kouha - Kunio-kun (J) (VC).nes"
+      debug: "Nekketsu Kouha - Kunio-kun (J) (VC).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=33ff75226f59a73171eac7bbd10e22232757f291"
+  - asset:
+      id: 139628
+      kind: 3
+      kind_id: 17435
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Nekketsu%20Kouha%20Kunio-kun%20%28Japan%29%20%28Virtual%20Console%29.png
+      format: 1
+      size: 43728
+      blob_id: 325030
+      debug: libretro-named-titles:rom-asset=17417:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Nekketsu%20Kouha%20Kunio-kun%20%28Japan%29%20%28Virtual%20Console%29.png
 - release:
     id: 17436
     game_id: 17435
@@ -188,17 +206,34 @@ releases:
     kind_id: 29016
     language: 2
     name: 热血硬派
+  - id: 260883
+    kind: 3
+    kind_id: 29016
+    language: 1
+    name: Nekketsu Kouha Kunio-kun (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 28998
       kind: 3
       kind_id: 29016
       type: 1
-      name: 热血硬派.nes
+      name: Nekketsu Kouha Kunio-kun (Japan).nes
       format: 1
       size: 131088
       blob_id: 73321
-      debug: "热血硬派.nes\n重复的/热血硬派 - 国雄君 (日版) (动作)-Nekketsu Kouha Kunio Kun (Japan) + Nekketsu Kouha - Kunio-kun (J) [!].nes"
+      debug: "热血硬派.nes\n重复的/热血硬派 - 国雄君 (日版) (动作)-Nekketsu Kouha Kunio Kun (Japan) + Nekketsu Kouha - Kunio-kun (J) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=9f3de783494f7ff30679a17b0c5b912834121095"
+  - asset:
+      id: 140171
+      kind: 3
+      kind_id: 29016
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Nekketsu%20Kouha%20Kunio-kun%20%28Japan%29.png
+      format: 1
+      size: 1918
+      blob_id: 325494
+      debug: libretro-named-titles:rom-asset=28998:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Nekketsu%20Kouha%20Kunio-kun%20%28Japan%29.png
 - release:
     id: 29017
     game_id: 17435

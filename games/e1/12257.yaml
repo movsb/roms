@@ -12,11 +12,18 @@ names:
   kind_id: 12257
   language: 1
   name: Genghis Khan (U) [!]
+  deprecated: 1
 - id: 91970
   kind: 2
   kind_id: 12257
   language: 1
   name: Genghis Khan
+- id: 261735
+  kind: 2
+  kind_id: 12257
+  language: 1
+  name: Genghis Khan
+  source: no-intro
 releases:
 - release:
     id: 12257
@@ -27,22 +34,29 @@ releases:
     kind_id: 12257
     language: 1
     name: Genghis Khan (U) [!]
+    deprecated: 1
   - id: 69259
     kind: 3
     kind_id: 12257
     language: 2
     name: "苍狼与白鹿 - 成吉思汗 (美版) (策略)-Genghis Khan (USA)"
+  - id: 258306
+    kind: 3
+    kind_id: 12257
+    language: 1
+    name: Genghis Khan (USA)
+    source: no-intro
   assets:
   - asset:
       id: 12239
       kind: 3
       kind_id: 12257
       type: 1
-      name: Genghis Khan (U) [!].nes
+      name: Genghis Khan (USA).nes
       format: 1
       size: 262160
       blob_id: 58167
-      debug: "Genghis Khan (U) [!].zip\n苍狼与白鹿 - 成吉思汗 (美版) (策略)-Genghis Khan (USA) + Genghis Khan (U) [!].nes"
+      debug: "Genghis Khan (U) [!].zip\n苍狼与白鹿 - 成吉思汗 (美版) (策略)-Genghis Khan (USA) + Genghis Khan (U) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=209911d7bd15abb7bef2e35a473df725b6738cd7"
   - asset:
       id: 136924
       kind: 3
@@ -63,17 +77,26 @@ releases:
     kind_id: 12259
     language: 1
     name: Genghis Khan (U)
+    deprecated: 1
+  - id: 258307
+    kind: 3
+    kind_id: 12259
+    language: 1
+    name: Genghis Khan (USA)
+    source: no-intro
   assets:
   - asset:
       id: 12241
       kind: 3
       kind_id: 12259
       type: 1
-      name: Genghis Khan (U).nes
+      name: Genghis Khan (USA).nes
       format: 1
       size: 262160
       blob_id: 58169
-      debug: Genghis Khan (U).zip
+      debug: |-
+        Genghis Khan (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=209911d7bd15abb7bef2e35a473df725b6738cd7
   - asset:
       id: 138499
       kind: 3

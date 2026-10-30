@@ -13,6 +13,12 @@ names:
   language: 1
   name: Power Blade 2
   source: codex
+- id: 263396
+  kind: 2
+  kind_id: 29479
+  language: 1
+  name: Power Blade 2
+  source: no-intro
 releases:
 - release:
     id: 29479
@@ -23,14 +29,33 @@ releases:
     kind_id: 29479
     language: 2
     name: 能源战士2
+  - id: 261074
+    kind: 3
+    kind_id: 29479
+    language: 1
+    name: Power Blade 2 (USA)
+    source: no-intro
   assets:
   - asset:
       id: 29461
       kind: 3
       kind_id: 29479
       type: 1
-      name: 能源战士2.nes
+      name: Power Blade 2 (USA).nes
       format: 1
       size: 262160
       blob_id: 73614
-      debug: 能源战士2.nes
+      debug: |-
+        能源战士2.nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=7d84a12d6394a4721e40b9934d60545738973d4d
+  - asset:
+      id: 140206
+      kind: 3
+      kind_id: 29479
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Power%20Blade%202%20%28USA%29.png
+      format: 1
+      size: 2596
+      blob_id: 325527
+      debug: libretro-named-titles:rom-asset=29461:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Power%20Blade%202%20%28USA%29.png

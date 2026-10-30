@@ -7,12 +7,19 @@ names:
   kind_id: 12225
   language: 1
   name: "GeLanDiYa ChuanShuo - Grandia (Unl) [p] (WaiXing,HengGe)"
+  deprecated: 1
 - id: 247844
   kind: 2
   kind_id: 12225
   language: 2
   name: 格兰蒂亚传说
   source: codex
+- id: 261729
+  kind: 2
+  kind_id: 12225
+  language: 1
+  name: Fankong Jingying
+  source: no-intro
 releases:
 - release:
     id: 12225
@@ -23,14 +30,32 @@ releases:
     kind_id: 12225
     language: 1
     name: "GeLanDiYa ChuanShuo - Grandia (Unl) [p] (WaiXing,HengGe)"
+    deprecated: 1
+  - id: 258295
+    kind: 3
+    kind_id: 12225
+    language: 1
+    name: Fankong Jingying (China) (Aftermarket) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 12207
       kind: 3
       kind_id: 12225
       type: 1
-      name: "GeLanDiYa ChuanShuo - Grandia (Unl) [p] (WaiXing,HengGe).nes"
+      name: Fankong Jingying (China) (Aftermarket) (Pirate).nes
       format: 1
       size: 1048592
       blob_id: 58138
-      debug: "GeLanDiYa ChuanShuo - Grandia (Unl) [p] (WaiXing,HengGe).nes"
+      debug: "GeLanDiYa ChuanShuo - Grandia (Unl) [p] (WaiXing,HengGe).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=bfa31777e077e64af0e274b5a22b57c6765d36e1"
+  - asset:
+      id: 139412
+      kind: 3
+      kind_id: 12225
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Fankong%20Jingying%20%28China%29%20%28Aftermarket%29%20%28Pirate%29.png
+      format: 1
+      size: 3388
+      blob_id: 324849
+      debug: libretro-named-titles:rom-asset=12207:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Fankong%20Jingying%20%28China%29%20%28Aftermarket%29%20%28Pirate%29.png

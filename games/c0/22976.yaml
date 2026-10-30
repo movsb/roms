@@ -24,17 +24,35 @@ releases:
     kind_id: 22976
     language: 1
     name: "Super Mario Bros. - 25th Anniversary (E-VC)"
+    deprecated: 1
+  - id: 259510
+    kind: 3
+    kind_id: 22976
+    language: 1
+    name: "Super Mario Bros. - 25th Anniversary (Australia) (Virtual Console)"
+    source: no-intro
   assets:
   - asset:
       id: 22958
       kind: 3
       kind_id: 22976
       type: 1
-      name: "Super Mario Bros. - 25th Anniversary (E-VC).nes"
+      name: "Super Mario Bros. - 25th Anniversary (Australia) (Virtual Console).nes"
       format: 1
       size: 40976
       blob_id: 68288
-      debug: "Super Mario Bros. - 25th Anniversary (E-VC).nes"
+      debug: "Super Mario Bros. - 25th Anniversary (E-VC).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=25b322a4be1c982f3b433857fef495f28e46927b"
+  - asset:
+      id: 139810
+      kind: 3
+      kind_id: 22976
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Super%20Mario%20Bros.%20-%2025th%20Anniversary%20%28Australia%29%20%28Virtual%20Console%29.png
+      format: 1
+      size: 54287
+      blob_id: 325185
+      debug: libretro-named-titles:rom-asset=22958:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Super%20Mario%20Bros.%20-%2025th%20Anniversary%20%28Australia%29%20%28Virtual%20Console%29.png
 - release:
     id: 22977
     game_id: 22976
@@ -64,14 +82,32 @@ releases:
     kind_id: 22978
     language: 1
     name: "Super Mario Bros. - 25th Anniversary (J-VC)"
+    deprecated: 1
+  - id: 259511
+    kind: 3
+    kind_id: 22978
+    language: 1
+    name: "Super Mario Bros. - 25th Anniversary (Japan) (En) (Virtual Console)"
+    source: no-intro
   assets:
   - asset:
       id: 22960
       kind: 3
       kind_id: 22978
       type: 1
-      name: "Super Mario Bros. - 25th Anniversary (J-VC).nes"
+      name: "Super Mario Bros. - 25th Anniversary (Japan) (En) (Virtual Console).nes"
       format: 1
       size: 40976
       blob_id: 68290
-      debug: "Super Mario Bros. - 25th Anniversary (J-VC).nes"
+      debug: "Super Mario Bros. - 25th Anniversary (J-VC).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=fd9cc124f80d9502efb865c52d464b3466b33b61"
+  - asset:
+      id: 139811
+      kind: 3
+      kind_id: 22978
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Super%20Mario%20Bros.%20-%2025th%20Anniversary%20%28Japan%29%20%28En%29%20%28Virtual%20Console%29.png
+      format: 1
+      size: 54287
+      blob_id: 325185
+      debug: libretro-named-titles:rom-asset=22960:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Super%20Mario%20Bros.%20-%2025th%20Anniversary%20%28Japan%29%20%28En%29%20%28Virtual%20Console%29.png

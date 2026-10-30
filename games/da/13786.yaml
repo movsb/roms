@@ -7,6 +7,7 @@ names:
   kind_id: 13786
   language: 1
   name: "Ironsword - Wizards & Warriors 2 (U)"
+  deprecated: 1
 - id: 63929
   kind: 2
   kind_id: 13786
@@ -17,11 +18,19 @@ names:
   kind_id: 13786
   language: 1
   name: "Ironsword - Wizards & Warriors II (U) [!]"
+  deprecated: 1
 - id: 92148
   kind: 2
   kind_id: 13786
   language: 1
   name: "Ironsword - Wizards & Warriors II"
+  deprecated: 1
+- id: 261799
+  kind: 2
+  kind_id: 13786
+  language: 1
+  name: "IronSword - Wizards & Warriors II"
+  source: no-intro
 releases:
 - release:
     id: 13786
@@ -32,24 +41,43 @@ releases:
     kind_id: 13786
     language: 1
     name: "Ironsword - Wizards & Warriors 2 (U)"
+    deprecated: 1
   - id: 30348
     kind: 3
     kind_id: 13786
     language: 1
     name: "Ironsword - Wizards & Warriors II (U) [!]"
+    deprecated: 1
   - id: 63931
     kind: 3
     kind_id: 13786
     language: 2
     name: "巫师与战士 II (美版) (动作)-Ironsword - Wizards &amp; Warriors II (USA)"
+  - id: 258476
+    kind: 3
+    kind_id: 13786
+    language: 1
+    name: "IronSword - Wizards & Warriors II (USA)"
+    source: no-intro
   assets:
   - asset:
       id: 13768
       kind: 3
       kind_id: 13786
       type: 1
-      name: "Ironsword - Wizards & Warriors 2 (U).nes"
+      name: "IronSword - Wizards & Warriors II (USA).nes"
       format: 1
       size: 262160
       blob_id: 59612
-      debug: "Ironsword - Wizards & Warriors 2 (U).zip\nIronsword - Wizards & Warriors II (U) [!].zip\n巫师与战士 II (美版) (动作)-Ironsword - Wizards &amp; Warriors II (USA) + Ironsword - Wizards & Warriors II (U) [!].nes"
+      debug: "Ironsword - Wizards & Warriors 2 (U).zip\nIronsword - Wizards & Warriors II (U) [!].zip\n巫师与战士 II (美版) (动作)-Ironsword - Wizards &amp; Warriors II (USA) + Ironsword - Wizards & Warriors II (U) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=03130f8464b3f4418427bf124eb15fbaeb86e09d"
+  - asset:
+      id: 139465
+      kind: 3
+      kind_id: 13786
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/IronSword%20-%20Wizards%20_%20Warriors%20II%20%28USA%29.png
+      format: 1
+      size: 4513
+      blob_id: 324896
+      debug: libretro-named-titles:rom-asset=13768:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/IronSword%20-%20Wizards%20_%20Warriors%20II%20%28USA%29.png

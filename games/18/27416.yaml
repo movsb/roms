@@ -12,6 +12,13 @@ names:
   kind_id: 27416
   language: 1
   name: Sidewinder (HES) [!]
+  deprecated: 1
+- id: 262643
+  kind: 2
+  kind_id: 27416
+  language: 1
+  name: Sidewinder
+  source: no-intro
 releases:
 - release:
     id: 27416
@@ -27,14 +34,34 @@ releases:
     kind_id: 27416
     language: 1
     name: Sidewinder (HES) [!]
+    deprecated: 1
+  - id: 260239
+    kind: 3
+    kind_id: 27416
+    language: 1
+    name: Sidewinder (Australia) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 27398
       kind: 3
       kind_id: 27416
       type: 1
-      name: 响尾蛇直升机 (澳洲版) (射击)-Sidewinder (Australia) (Unl) + Sidewinder (HES) [!].nes
+      name: Sidewinder (Australia) (Unl).nes
       format: 1
       size: 32784
       blob_id: 72269
-      debug: 响尾蛇直升机 (澳洲版) (射击)-Sidewinder (Australia) (Unl) + Sidewinder (HES) [!].nes
+      debug: |-
+        响尾蛇直升机 (澳洲版) (射击)-Sidewinder (Australia) (Unl) + Sidewinder (HES) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=b1cc3ed04c610be18742a3fd78a8f27a597f8549
+  - asset:
+      id: 140042
+      kind: 3
+      kind_id: 27416
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Sidewinder%20%28Australia%29%20%28Unl%29.png
+      format: 1
+      size: 1517
+      blob_id: 325386
+      debug: libretro-named-titles:rom-asset=27398:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Sidewinder%20%28Australia%29%20%28Unl%29.png

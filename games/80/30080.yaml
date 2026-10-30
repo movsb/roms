@@ -13,6 +13,13 @@ names:
   kind_id: 30080
   language: 1
   name: Yin He Shi Dai (Ch)
+  deprecated: 1
+- id: 263600
+  kind: 2
+  kind_id: 30080
+  language: 1
+  name: Yinhe Shidai
+  source: no-intro
 releases:
 - release:
     id: 30080
@@ -28,14 +35,34 @@ releases:
     kind_id: 30080
     language: 1
     name: Yin He Shi Dai (Ch)
+    deprecated: 1
+  - id: 261293
+    kind: 3
+    kind_id: 30080
+    language: 1
+    name: Yinhe Shidai (China) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 30062
       kind: 3
       kind_id: 30080
       type: 1
-      name: 银河时代 (最终幻想1)[外星科技汉化] + Yin He Shi Dai (Ch).nes
+      name: Yinhe Shidai (China) (Pirate).nes
       format: 1
       size: 524304
       blob_id: 73981
-      debug: 银河时代 (最终幻想1)[外星科技汉化] + Yin He Shi Dai (Ch).nes
+      debug: |-
+        银河时代 (最终幻想1)[外星科技汉化] + Yin He Shi Dai (Ch).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=7421dbf5e9adf6ebf74cf2685ab32c1cbc3201f7
+  - asset:
+      id: 140239
+      kind: 3
+      kind_id: 30080
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Yinhe%20Shidai%20%28China%29%20%28Pirate%29.png
+      format: 1
+      size: 3533
+      blob_id: 325302
+      debug: libretro-named-titles:rom-asset=30062:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Yinhe%20Shidai%20%28China%29%20%28Pirate%29.png

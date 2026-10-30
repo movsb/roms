@@ -12,6 +12,13 @@ names:
   kind_id: 30029
   language: 1
   name: Golden KTV
+  deprecated: 1
+- id: 263578
+  kind: 2
+  kind_id: 30029
+  language: 1
+  name: Jinqu KTV
+  source: no-intro
 releases:
 - release:
     id: 30030
@@ -27,17 +34,26 @@ releases:
     kind_id: 30030
     language: 1
     name: Golden KTV (Ch) [!]
+    deprecated: 1
+  - id: 261269
+    kind: 3
+    kind_id: 30030
+    language: 1
+    name: Jinqu KTV (Taiwan) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 30012
       kind: 3
       kind_id: 30030
       type: 1
-      name: 金曲KTV[未知] + Golden KTV (Ch) [!].nes
+      name: Jinqu KTV (Taiwan) (Unl).nes
       format: 1
       size: 1048592
       blob_id: 73949
-      debug: 金曲KTV[未知] + Golden KTV (Ch) [!].nes
+      debug: |-
+        金曲KTV[未知] + Golden KTV (Ch) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=a9b6fff5f24e1792af432e2b9c8582a5d31b964d
   - asset:
       id: 138027
       kind: 3

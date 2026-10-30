@@ -12,6 +12,7 @@ names:
   kind_id: 25808
   language: 1
   name: Wario's Woods (U) [!]
+  deprecated: 1
 - id: 67931
   kind: 2
   kind_id: 25808
@@ -22,6 +23,12 @@ names:
   kind_id: 25808
   language: 1
   name: Wario's Woods
+- id: 262290
+  kind: 2
+  kind_id: 25808
+  language: 1
+  name: Wario's Woods
+  source: no-intro
 releases:
 - release:
     id: 25808
@@ -32,6 +39,7 @@ releases:
     kind_id: 25808
     language: 1
     name: Wario's Woods (U) [!]
+    deprecated: 1
   - id: 62525
     kind: 3
     kind_id: 25808
@@ -42,13 +50,19 @@ releases:
     kind_id: 25808
     language: 2
     name: 瓦里奥之森
+  - id: 259788
+    kind: 3
+    kind_id: 25808
+    language: 1
+    name: Wario's Woods (USA)
+    source: no-intro
   assets:
   - asset:
       id: 25790
       kind: 3
       kind_id: 25808
       type: 1
-      name: Wario's Woods (U) [!].nes
+      name: Wario's Woods (USA).nes
       format: 1
       size: 524304
       blob_id: 70977
@@ -56,6 +70,7 @@ releases:
         Wario's Woods (U) [!].zip
         坏璃欧森林 (美版) (益智)-Warios Woods (USA) + Wario's Woods (U) [!].nes
         瓦里奥之森.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=602f640b3fe0ca47cf47de6688779419a75487ac
   - asset:
       id: 137465
       kind: 3
@@ -76,17 +91,26 @@ releases:
     kind_id: 25814
     language: 1
     name: Wario's Woods (U)
+    deprecated: 1
+  - id: 259789
+    kind: 3
+    kind_id: 25814
+    language: 1
+    name: Wario's Woods (USA)
+    source: no-intro
   assets:
   - asset:
       id: 25796
       kind: 3
       kind_id: 25814
       type: 1
-      name: Wario's Woods (U).nes
+      name: Wario's Woods (USA).nes
       format: 1
       size: 524304
       blob_id: 70983
-      debug: Wario's Woods (U).zip
+      debug: |-
+        Wario's Woods (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=602f640b3fe0ca47cf47de6688779419a75487ac
   - asset:
       id: 138756
       kind: 3

@@ -7,12 +7,19 @@ names:
   kind_id: 17841
   language: 1
   name: NintendoAge Halloween v1.0 (2009) (PD)
+  deprecated: 1
 - id: 253671
   kind: 2
   kind_id: 17841
   language: 2
   name: NintendoAge万圣节
   source: codex
+- id: 261959
+  kind: 2
+  kind_id: 17841
+  language: 1
+  name: NintendoAge Halloween 2009
+  source: no-intro
 releases:
 - release:
     id: 17841
@@ -23,14 +30,34 @@ releases:
     kind_id: 17841
     language: 1
     name: NintendoAge Halloween v1.0 (2009) (PD)
+    deprecated: 1
+  - id: 258964
+    kind: 3
+    kind_id: 17841
+    language: 1
+    name: NintendoAge Halloween 2009 (USA) (Aftermarket) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 17823
       kind: 3
       kind_id: 17841
       type: 1
-      name: NintendoAge Halloween v1.0 (2009) (PD).nes
+      name: NintendoAge Halloween 2009 (USA) (Aftermarket) (Unl).nes
       format: 1
       size: 40976
       blob_id: 63407
-      debug: NintendoAge Halloween v1.0 (2009) (PD).nes
+      debug: |-
+        NintendoAge Halloween v1.0 (2009) (PD).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=55be0e82715fb054d59e1de90305fe88feac4f79
+  - asset:
+      id: 139645
+      kind: 3
+      kind_id: 17841
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/NintendoAge%20Halloween%202009%20%28USA%29%20%28Aftermarket%29%20%28Unl%29.png
+      format: 1
+      size: 2915
+      blob_id: 325045
+      debug: libretro-named-titles:rom-asset=17823:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/NintendoAge%20Halloween%202009%20%28USA%29%20%28Aftermarket%29%20%28Unl%29.png

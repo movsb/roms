@@ -12,6 +12,13 @@ names:
   kind_id: 30131
   language: 1
   name: Stealth ATF (E) [!]
+  deprecated: 1
+- id: 263625
+  kind: 2
+  kind_id: 30131
+  language: 1
+  name: Stealth ATF
+  source: no-intro
 releases:
 - release:
     id: 30131
@@ -27,17 +34,26 @@ releases:
     kind_id: 30131
     language: 1
     name: Stealth ATF (E) [!]
+    deprecated: 1
+  - id: 261318
+    kind: 3
+    kind_id: 30131
+    language: 1
+    name: Stealth ATF (Europe)
+    source: no-intro
   assets:
   - asset:
       id: 30113
       kind: 3
       kind_id: 30131
       type: 1
-      name: 隐形战机 (欧版) (模拟射击)-Stealth ATF (Europe) + Stealth ATF (E) [!].nes
+      name: Stealth ATF (Europe).nes
       format: 1
       size: 262160
       blob_id: 74016
-      debug: 隐形战机 (欧版) (模拟射击)-Stealth ATF (Europe) + Stealth ATF (E) [!].nes
+      debug: |-
+        隐形战机 (欧版) (模拟射击)-Stealth ATF (Europe) + Stealth ATF (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=1e8b6630954e5c2a8cdcaa4ef7890b45bafe103e
   - asset:
       id: 138054
       kind: 3

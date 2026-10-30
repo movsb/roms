@@ -13,6 +13,12 @@ names:
   language: 2
   name: 侦探神宫寺三郎：横滨港连续杀人事件
   source: codex
+- id: 262217
+  kind: 2
+  kind_id: 23678
+  language: 1
+  name: "Tantei Jinguuji Saburou - Yokohamakou Renzoku Satsujin Jiken"
+  source: no-intro
 releases:
 - release:
     id: 23678
@@ -23,14 +29,32 @@ releases:
     kind_id: 23678
     language: 1
     name: "Tantei Jinguuji Saburou - Yokohamakou Renzoku Satsujin Jiken (J) (VC)"
+    deprecated: 1
+  - id: 259587
+    kind: 3
+    kind_id: 23678
+    language: 1
+    name: "Tantei Jinguuji Saburou - Yokohamakou Renzoku Satsujin Jiken (Japan) (Virtual Console)"
+    source: no-intro
   assets:
   - asset:
       id: 23660
       kind: 3
       kind_id: 23678
       type: 1
-      name: "Tantei Jinguuji Saburou - Yokohamakou Renzoku Satsujin Jiken (J) (VC).nes"
+      name: "Tantei Jinguuji Saburou - Yokohamakou Renzoku Satsujin Jiken (Japan) (Virtual Console).nes"
       format: 1
       size: 262160
       blob_id: 68952
-      debug: "Tantei Jinguuji Saburou - Yokohamakou Renzoku Satsujin Jiken (J) (VC).nes"
+      debug: "Tantei Jinguuji Saburou - Yokohamakou Renzoku Satsujin Jiken (J) (VC).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=04140dd9bcb9dabbafbdb203d52cbd2374c8a8b1"
+  - asset:
+      id: 139834
+      kind: 3
+      kind_id: 23678
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Tantei%20Jinguuji%20Saburou%20-%20Yokohamakou%20Renzoku%20Satsujin%20Jiken%20%28Japan%29%20%28Virtual%20Console%29.png
+      format: 1
+      size: 3304
+      blob_id: 325208
+      debug: libretro-named-titles:rom-asset=23660:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Tantei%20Jinguuji%20Saburou%20-%20Yokohamakou%20Renzoku%20Satsujin%20Jiken%20%28Japan%29%20%28Virtual%20Console%29.png

@@ -29,17 +29,37 @@ releases:
     kind_id: 11535
     language: 1
     name: Final Fantasy III (J) (VC)
+    deprecated: 1
+  - id: 258230
+    kind: 3
+    kind_id: 11535
+    language: 1
+    name: Final Fantasy III (Japan) (Wii Virtual Console)
+    source: no-intro
   assets:
   - asset:
       id: 11517
       kind: 3
       kind_id: 11535
       type: 1
-      name: Final Fantasy III (J) (VC).nes
+      name: Final Fantasy III (Japan) (Wii Virtual Console).nes
       format: 1
       size: 524304
       blob_id: 57491
-      debug: Final Fantasy III (J) (VC).nes
+      debug: |-
+        Final Fantasy III (J) (VC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=ee034bdda8d13ea3a4704d2c34529ba6cb6b336c
+  - asset:
+      id: 139404
+      kind: 3
+      kind_id: 11535
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Final%20Fantasy%20III%20%28Japan%29%20%28Wii%20Virtual%20Console%29.png
+      format: 1
+      size: 12030
+      blob_id: 324841
+      debug: libretro-named-titles:rom-asset=11517:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Final%20Fantasy%20III%20%28Japan%29%20%28Wii%20Virtual%20Console%29.png
 - release:
     id: 11536
     game_id: 11535

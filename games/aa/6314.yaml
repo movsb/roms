@@ -22,17 +22,37 @@ releases:
     kind_id: 6314
     language: 1
     name: Balloon Fight (E) (VC)
+    deprecated: 1
+  - id: 257696
+    kind: 3
+    kind_id: 6314
+    language: 1
+    name: Balloon Fight (Europe) (Virtual Console)
+    source: no-intro
   assets:
   - asset:
       id: 6296
       kind: 3
       kind_id: 6314
       type: 1
-      name: Balloon Fight (E) (VC).nes
+      name: Balloon Fight (Europe) (Virtual Console).nes
       format: 1
       size: 24592
       blob_id: 52555
-      debug: Balloon Fight (E) (VC).nes
+      debug: |-
+        Balloon Fight (E) (VC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=d19977518890a2f3cfc60a66f8dc9e849fbee978
+  - asset:
+      id: 139311
+      kind: 3
+      kind_id: 6314
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Balloon%20Fight%20%28Europe%29%20%28Virtual%20Console%29.png
+      format: 1
+      size: 1435
+      blob_id: 324764
+      debug: libretro-named-titles:rom-asset=6296:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Balloon%20Fight%20%28Europe%29%20%28Virtual%20Console%29.png
 - release:
     id: 6315
     game_id: 6314
@@ -444,17 +464,26 @@ releases:
     kind_id: 6353
     language: 1
     name: Balloon Fight (J-AC)
+    deprecated: 1
+  - id: 257697
+    kind: 3
+    kind_id: 6353
+    language: 1
+    name: Balloon Fight (Japan) (En) (Animal Crossing)
+    source: no-intro
   assets:
   - asset:
       id: 6335
       kind: 3
       kind_id: 6353
       type: 1
-      name: Balloon Fight (J-AC).nes
+      name: Balloon Fight (Japan) (En) (Animal Crossing).nes
       format: 1
       size: 40976
       blob_id: 52594
-      debug: Balloon Fight (J-AC).nes
+      debug: |-
+        Balloon Fight (J-AC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=86782180b25977ecdb7019f910b4d0e1de6be4cc
 - release:
     id: 6354
     game_id: 6314
@@ -484,17 +513,26 @@ releases:
     kind_id: 6355
     language: 1
     name: Balloon Fight (U) (GBA e-Reader)
+    deprecated: 1
+  - id: 257698
+    kind: 3
+    kind_id: 6355
+    language: 1
+    name: Balloon Fight (USA) (e-Reader)
+    source: no-intro
   assets:
   - asset:
       id: 6337
       kind: 3
       kind_id: 6355
       type: 1
-      name: Balloon Fight (U) (GBA e-Reader).nes
+      name: Balloon Fight (USA) (e-Reader).nes
       format: 1
       size: 24592
       blob_id: 52596
-      debug: Balloon Fight (U) (GBA e-Reader).nes
+      debug: |-
+        Balloon Fight (U) (GBA e-Reader).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=0d9d04dcd2e75d82329ab3c4a4bbf942e208a4ec
 - release:
     id: 6356
     game_id: 6314
@@ -504,19 +542,27 @@ releases:
     kind_id: 6356
     language: 1
     name: Balloon Fight (U) [!]
+    deprecated: 1
+  - id: 257699
+    kind: 3
+    kind_id: 6356
+    language: 1
+    name: Balloon Fight (USA)
+    source: no-intro
   assets:
   - asset:
       id: 6338
       kind: 3
       kind_id: 6356
       type: 1
-      name: Balloon Fight (U) [!].nes
+      name: Balloon Fight (USA).nes
       format: 1
       size: 24592
       blob_id: 52597
       debug: |-
         Balloon Fight (U) [!].zip
         气球大战 (美版) (动作)-Balloon Fight (USA) + Balloon Fight (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=57f86e49372ae44da79f269973e7db4f443d0b98
   - asset:
       id: 136694
       kind: 3

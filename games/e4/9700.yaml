@@ -7,12 +7,19 @@ names:
   kind_id: 9700
   language: 1
   name: Di Guo Shi Dai
+  deprecated: 1
 - id: 247674
   kind: 2
   kind_id: 9700
   language: 2
   name: 帝国时代
   source: codex
+- id: 261639
+  kind: 2
+  kind_id: 9700
+  language: 1
+  name: Diguo Shidai (Age of Empires)
+  source: no-intro
 releases:
 - release:
     id: 9700
@@ -23,17 +30,26 @@ releases:
     kind_id: 9700
     language: 1
     name: Di Guo Shi Dai (Age of Empires) (Ch) (Wxn)
+    deprecated: 1
+  - id: 258011
+    kind: 3
+    kind_id: 9700
+    language: 1
+    name: Diguo Shidai (Age of Empires) (China) (970493) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 9682
       kind: 3
       kind_id: 9700
       type: 1
-      name: Di Guo Shi Dai (Age of Empires) (Ch) (Wxn).nes
+      name: Diguo Shidai (Age of Empires) (China) (970493) (Pirate).nes
       format: 1
       size: 524304
       blob_id: 55762
-      debug: Di Guo Shi Dai (Age of Empires) (Ch) (Wxn).nes
+      debug: |-
+        Di Guo Shi Dai (Age of Empires) (Ch) (Wxn).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=08395e9cc4d7a887fb52d1595475fcb7bf0a07cf
   - asset:
       id: 138323
       kind: 3
@@ -54,14 +70,34 @@ releases:
     kind_id: 9701
     language: 1
     name: Di Guo Shi Dai (Age of Empires) (ES-1070) (Ch)
+    deprecated: 1
+  - id: 258012
+    kind: 3
+    kind_id: 9701
+    language: 1
+    name: Diguo Shidai (Age of Empires) (China) (0100725) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 9683
       kind: 3
       kind_id: 9701
       type: 1
-      name: Di Guo Shi Dai (Age of Empires) (ES-1070) (Ch).nes
+      name: Diguo Shidai (Age of Empires) (China) (0100725) (Pirate).nes
       format: 1
       size: 524304
       blob_id: 55763
-      debug: Di Guo Shi Dai (Age of Empires) (ES-1070) (Ch).nes
+      debug: |-
+        Di Guo Shi Dai (Age of Empires) (ES-1070) (Ch).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=651e0baad80c8a9009abc525702ba3c4b9c1e01d
+  - asset:
+      id: 139366
+      kind: 3
+      kind_id: 9701
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Diguo%20Shidai%20%28Age%20of%20Empires%29%20%28China%29%20%280100725%29%20%28Pirate%29.png
+      format: 1
+      size: 2570
+      blob_id: 324807
+      debug: libretro-named-titles:rom-asset=9683:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Diguo%20Shidai%20%28Age%20of%20Empires%29%20%28China%29%20%280100725%29%20%28Pirate%29.png

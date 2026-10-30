@@ -13,6 +13,12 @@ names:
   language: 1
   name: Sanrio Carnival 2
   source: codex
+- id: 262544
+  kind: 2
+  kind_id: 27126
+  language: 1
+  name: Sanrio Carnival 2
+  source: no-intro
 releases:
 - release:
     id: 27126
@@ -23,16 +29,34 @@ releases:
     kind_id: 27126
     language: 2
     name: 凯蒂猫方块2
+  - id: 260125
+    kind: 3
+    kind_id: 27126
+    language: 1
+    name: Sanrio Carnival 2 (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 27108
       kind: 3
       kind_id: 27126
       type: 1
-      name: 凯蒂猫方块2.nes
+      name: Sanrio Carnival 2 (Japan).nes
       format: 1
       size: 65552
       blob_id: 72080
       debug: |-
         凯蒂猫方块2.nes
         重复的/卡通明星嘉年华 II (日版) (益智)-Sanrio Carnival 2 (Japan) + Sanrio Carnival 2 (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=884685e7516817261d15186d703c19524c142446
+  - asset:
+      id: 140014
+      kind: 3
+      kind_id: 27126
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Sanrio%20Carnival%202%20%28Japan%29.png
+      format: 1
+      size: 3271
+      blob_id: 325361
+      debug: libretro-named-titles:rom-asset=27108:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Sanrio%20Carnival%202%20%28Japan%29.png

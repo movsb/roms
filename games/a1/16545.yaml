@@ -7,11 +7,18 @@ names:
   kind_id: 16545
   language: 1
   name: Mickey Mania 7 (Unl) [!]
+  deprecated: 1
 - id: 68605
   kind: 2
   kind_id: 16545
   language: 2
   name: 米老鼠7
+- id: 261906
+  kind: 2
+  kind_id: 16545
+  language: 1
+  name: Mickey Mania 7
+  source: no-intro
 releases:
 - release:
     id: 16545
@@ -22,18 +29,25 @@ releases:
     kind_id: 16545
     language: 1
     name: Mickey Mania 7 (Unl) [!]
+    deprecated: 1
   - id: 68606
     kind: 3
     kind_id: 16545
     language: 2
     name: 米老鼠7
+  - id: 258794
+    kind: 3
+    kind_id: 16545
+    language: 1
+    name: Mickey Mania 7 (Taiwan) (En) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 16527
       kind: 3
       kind_id: 16545
       type: 1
-      name: Mickey Mania 7 (Unl) [!].nes
+      name: Mickey Mania 7 (Taiwan) (En) (Pirate).nes
       format: 1
       size: 524304
       blob_id: 62190
@@ -41,3 +55,4 @@ releases:
         Mickey Mania 7 (Unl) [!].zip
         米老鼠7.nes
         重复的/Mickey Mania 7 (Unl) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=ef2efd9a1695474ea64b1b0a85a4ff7d4edfa721

@@ -12,6 +12,7 @@ names:
   kind_id: 6530
   language: 1
   name: Bases Loaded (U) (PRG1) [!]
+  deprecated: 1
 - id: 67135
   kind: 2
   kind_id: 6530
@@ -22,11 +23,18 @@ names:
   kind_id: 6530
   language: 1
   name: Bases Loaded (U) (PRG2) [!]
+  deprecated: 1
 - id: 91328
   kind: 2
   kind_id: 6530
   language: 1
   name: Bases Loaded
+- id: 261539
+  kind: 2
+  kind_id: 6530
+  language: 1
+  name: Bases Loaded
+  source: no-intro
 releases:
 - release:
     id: 6540
@@ -37,24 +45,32 @@ releases:
     kind_id: 6540
     language: 1
     name: Bases Loaded (U) (PRG2) [!]
+    deprecated: 1
   - id: 67137
     kind: 3
     kind_id: 6540
     language: 2
     name: 满垒王 (美版)(Rev B) (运动)-Bases Loaded (USA) (Rev B)
+  - id: 257724
+    kind: 3
+    kind_id: 6540
+    language: 1
+    name: Bases Loaded (USA) (Rev 2)
+    source: no-intro
   assets:
   - asset:
       id: 6522
       kind: 3
       kind_id: 6540
       type: 1
-      name: Bases Loaded (U) (PRG2) [!].nes
+      name: Bases Loaded (USA) (Rev 2).nes
       format: 1
       size: 327696
       blob_id: 52772
       debug: |-
         Bases Loaded (U) (PRG2) [!].zip
         满垒王 (美版)(Rev B) (运动)-Bases Loaded (USA) (Rev B) + Bases Loaded (U) (PRG2) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=4a8c86610d6bcdaad96612f194221f423eb43f90
   - asset:
       id: 136708
       kind: 3
@@ -75,6 +91,7 @@ releases:
     kind_id: 6541
     language: 1
     name: Bases Loaded (U)
+    deprecated: 1
   - id: 67133
     kind: 3
     kind_id: 6541
@@ -85,19 +102,27 @@ releases:
     kind_id: 6541
     language: 1
     name: Bases Loaded (U) (PRG1) [!]
+    deprecated: 1
+  - id: 257725
+    kind: 3
+    kind_id: 6541
+    language: 1
+    name: Bases Loaded (USA) (Rev 1)
+    source: no-intro
   assets:
   - asset:
       id: 6523
       kind: 3
       kind_id: 6541
       type: 1
-      name: Bases Loaded (U).nes
+      name: Bases Loaded (USA) (Rev 1).nes
       format: 1
       size: 327696
       blob_id: 52773
       debug: |-
         Bases Loaded (U).zip
         满垒王 (美版)(Rev A) (运动)-Bases Loaded (USA) (Rev A) + Bases Loaded (U) (PRG1) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=ef90a357f8ce3b060ca4c14973bcc910b2c6668c
   - asset:
       id: 138447
       kind: 3

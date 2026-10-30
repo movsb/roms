@@ -239,17 +239,26 @@ releases:
     kind_id: 16631
     language: 1
     name: Mighty Final Fight (U) (GBA-Capcom Classics)
+    deprecated: 1
+  - id: 258809
+    kind: 3
+    kind_id: 16631
+    language: 1
+    name: Mighty Final Fight (USA) (Capcom Classics Mini Mix)
+    source: no-intro
   assets:
   - asset:
       id: 16613
       kind: 3
       kind_id: 16631
       type: 1
-      name: Mighty Final Fight (U) (GBA-Capcom Classics).nes
+      name: Mighty Final Fight (USA) (Capcom Classics Mini Mix).nes
       format: 1
       size: 262160
       blob_id: 62266
-      debug: Mighty Final Fight (U) (GBA-Capcom Classics).nes
+      debug: |-
+        Mighty Final Fight (U) (GBA-Capcom Classics).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=38b309abb200347e609fcb711b35e2490055e1bc
 - release:
     id: 16632
     game_id: 16620
@@ -259,11 +268,13 @@ releases:
     kind_id: 16632
     language: 1
     name: Mighty Final Fight (U) [!p]
+    deprecated: 1
   - id: 37080
     kind: 3
     kind_id: 16632
     language: 1
     name: Mighty Final Fight (U)
+    deprecated: 1
   - id: 45763
     kind: 3
     kind_id: 16632
@@ -274,13 +285,20 @@ releases:
     kind_id: 16632
     language: 1
     name: Mighty Final Fight (U) [!]
+    deprecated: 1
+  - id: 258810
+    kind: 3
+    kind_id: 16632
+    language: 1
+    name: Mighty Final Fight (USA)
+    source: no-intro
   assets:
   - asset:
       id: 16614
       kind: 3
       kind_id: 16632
       type: 1
-      name: Mighty Final Fight (U) [!p].nes
+      name: Mighty Final Fight (USA).nes
       format: 1
       size: 262160
       blob_id: 62267
@@ -288,6 +306,18 @@ releases:
         Mighty Final Fight (U) [!p].zip
         Mighty Final Fight (U).zip
         SD 街头快打 (美版) (动作)-Mighty Final Fight (USA) + Mighty Final Fight (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=cc5bac121d94b23d7581f4f443dd42f6cfe8eb67
+  - asset:
+      id: 139581
+      kind: 3
+      kind_id: 16632
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mighty%20Final%20Fight%20%28USA%29.png
+      format: 1
+      size: 2477
+      blob_id: 324989
+      debug: libretro-named-titles:rom-asset=16614:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mighty%20Final%20Fight%20%28USA%29.png
 - release:
     id: 16633
     game_id: 16620

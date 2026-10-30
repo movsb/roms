@@ -13,6 +13,12 @@ names:
   language: 1
   name: Shuang Yue Zhuan
   source: codex
+- id: 262610
+  kind: 2
+  kind_id: 27317
+  language: 1
+  name: Shuang Yue Zhuan
+  source: no-intro
 releases:
 - release:
     id: 27317
@@ -23,14 +29,33 @@ releases:
     kind_id: 27317
     language: 2
     name: 双月传说
+  - id: 260201
+    kind: 3
+    kind_id: 27317
+    language: 1
+    name: Shuang Yue Zhuan (China) (Aftermarket) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 27299
       kind: 3
       kind_id: 27317
       type: 1
-      name: 双月传说.nes
+      name: Shuang Yue Zhuan (China) (Aftermarket) (Unl).nes
       format: 1
       size: 1048592
       blob_id: 72202
-      debug: 双月传说.zip
+      debug: |-
+        双月传说.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=a2a3f1a60a996c47f9deda4b717b8265ce83ae77
+  - asset:
+      id: 140033
+      kind: 3
+      kind_id: 27317
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Shuang%20Yue%20Zhuan%20%28China%29%20%28Aftermarket%29%20%28Unl%29.png
+      format: 1
+      size: 4867
+      blob_id: 325378
+      debug: libretro-named-titles:rom-asset=27299:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Shuang%20Yue%20Zhuan%20%28China%29%20%28Aftermarket%29%20%28Unl%29.png

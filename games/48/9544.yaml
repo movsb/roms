@@ -13,6 +13,12 @@ names:
   language: 2
   name: 死亡赛车
   source: codex
+- id: 261630
+  kind: 2
+  kind_id: 9544
+  language: 1
+  name: Death Race
+  source: no-intro
 releases:
 - release:
     id: 9544
@@ -23,23 +29,32 @@ releases:
     kind_id: 9544
     language: 1
     name: Death Race (AGCI) [!]
+    deprecated: 1
   - id: 20442
     kind: 3
     kind_id: 9544
     language: 1
     name: Death Race (U)
+    deprecated: 1
   - id: 20444
     kind: 3
     kind_id: 9544
     language: 1
     name: Death Race (Unl) [!p]
+    deprecated: 1
+  - id: 257989
+    kind: 3
+    kind_id: 9544
+    language: 1
+    name: Death Race (USA) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 9526
       kind: 3
       kind_id: 9544
       type: 1
-      name: Death Race (AGCI) [!].nes
+      name: Death Race (USA) (Unl).nes
       format: 1
       size: 131088
       blob_id: 55620
@@ -47,6 +62,7 @@ releases:
         Death Race (AGCI) [!].nes
         Death Race (U).zip
         Death Race (Unl) [!p].zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=80cd18bb63a5b52b1f3ad36c9191845eb29dd807
   - asset:
       id: 136801
       kind: 3

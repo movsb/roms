@@ -12,6 +12,13 @@ names:
   kind_id: 30408
   language: 1
   name: Mahjong Taisen (J)
+  deprecated: 1
+- id: 263723
+  kind: 2
+  kind_id: 30408
+  language: 1
+  name: Mahjong Taisen
+  source: no-intro
 releases:
 - release:
     id: 30408
@@ -27,17 +34,26 @@ releases:
     kind_id: 30408
     language: 1
     name: Mahjong Taisen (J)
+    deprecated: 1
+  - id: 261432
+    kind: 3
+    kind_id: 30408
+    language: 1
+    name: Mahjong Taisen (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 30390
       kind: 3
       kind_id: 30408
       type: 1
-      name: 麻雀大战 (日版) (桌面平台)-Mahjong Taisen (Japan) + Mahjong Taisen (J).nes
+      name: Mahjong Taisen (Japan).nes
       format: 1
       size: 393232
       blob_id: 74195
-      debug: 麻雀大战 (日版) (桌面平台)-Mahjong Taisen (Japan) + Mahjong Taisen (J).nes
+      debug: |-
+        麻雀大战 (日版) (桌面平台)-Mahjong Taisen (Japan) + Mahjong Taisen (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=e0b5047668e4f04bac1609d649d78776e793638a
   - asset:
       id: 139271
       kind: 3

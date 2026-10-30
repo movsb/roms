@@ -7,12 +7,19 @@ names:
   kind_id: 20402
   language: 1
   name: Rong Yu Xun Zhang (ES-1108) (Ch)
+  deprecated: 1
 - id: 248459
   kind: 2
   kind_id: 20402
   language: 2
   name: 荣誉勋章
   source: codex
+- id: 262064
+  kind: 2
+  kind_id: 20402
+  language: 1
+  name: Rongyu Xunzhang
+  source: no-intro
 releases:
 - release:
     id: 20402
@@ -23,14 +30,34 @@ releases:
     kind_id: 20402
     language: 1
     name: Rong Yu Xun Zhang (ES-1108) (Ch)
+    deprecated: 1
+  - id: 259218
+    kind: 3
+    kind_id: 20402
+    language: 1
+    name: Rongyu Xunzhang (China) (Aftermarket) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 20384
       kind: 3
       kind_id: 20402
       type: 1
-      name: Rong Yu Xun Zhang (ES-1108) (Ch).nes
+      name: Rongyu Xunzhang (China) (Aftermarket) (Pirate).nes
       format: 1
       size: 524304
       blob_id: 65847
-      debug: Rong Yu Xun Zhang (ES-1108) (Ch).nes
+      debug: |-
+        Rong Yu Xun Zhang (ES-1108) (Ch).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=684ce038dc0ed3e97bc299aa31423d3c025df4b6
+  - asset:
+      id: 139716
+      kind: 3
+      kind_id: 20402
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Rongyu%20Xunzhang%20%28China%29%20%28Aftermarket%29%20%28Pirate%29.png
+      format: 1
+      size: 5084
+      blob_id: 325101
+      debug: libretro-named-titles:rom-asset=20384:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Rongyu%20Xunzhang%20%28China%29%20%28Aftermarket%29%20%28Pirate%29.png

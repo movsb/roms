@@ -14,6 +14,12 @@ names:
   language: 2
   name: 宝可梦：绿
   source: codex
+- id: 261995
+  kind: 2
+  kind_id: 18976
+  language: 1
+  name: Pokemon Green
+  source: no-intro
 releases:
 - release:
     id: 18976
@@ -24,16 +30,24 @@ releases:
     kind_id: 18976
     language: 1
     name: Pokemon Green (Unl) [!]
+    deprecated: 1
+  - id: 259060
+    kind: 3
+    kind_id: 18976
+    language: 1
+    name: Pokemon Green (Asia) (En) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 18958
       kind: 3
       kind_id: 18976
       type: 1
-      name: Pokemon Green (Unl) [!].nes
+      name: Pokemon Green (Asia) (En) (Pirate).nes
       format: 1
       size: 262160
       blob_id: 64498
       debug: |-
         Pokemon Green (Unl) [!].nes
         Pokemon Green (Unl) [!].zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=fbc7b9f2b7ce766d2d84290b3102c2e12ec677e2

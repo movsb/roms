@@ -87,6 +87,7 @@ releases:
     kind_id: 25830
     language: 1
     name: Warpman (Japan)
+    deprecated: 1
   - id: 63085
     kind: 3
     kind_id: 25830
@@ -97,6 +98,13 @@ releases:
     kind_id: 25830
     language: 1
     name: Warpman (J) [!]
+    deprecated: 1
+  - id: 259791
+    kind: 3
+    kind_id: 25830
+    language: 1
+    name: Warpman (Japan) (En)
+    source: no-intro
   release_publishers:
   - release_id: 25830
     publisher_id: 4
@@ -106,13 +114,14 @@ releases:
       kind: 3
       kind_id: 25830
       type: 1
-      name: Warpman (Japan).nes
+      name: Warpman (Japan) (En).nes
       format: 1
       size: 24592
       blob_id: 70999
       debug: |-
         Warpman (Japan).zip
         太空守护者 (日版) (动作射击)-Warpman (Japan) + Warpman (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=c667c5dc1c1760766198fc13cd5c9d8f61fcb940
   - asset:
       id: 138757
       kind: 3

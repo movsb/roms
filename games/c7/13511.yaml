@@ -12,11 +12,19 @@ names:
   kind_id: 13511
   language: 1
   name: I Can Remember (U) [!]
+  deprecated: 1
 - id: 92114
   kind: 2
   kind_id: 13511
   language: 1
   name: I Can Remember
+  deprecated: 1
+- id: 261785
+  kind: 2
+  kind_id: 13511
+  language: 1
+  name: "Fisher-Price - I Can Remember"
+  source: no-intro
 releases:
 - release:
     id: 13511
@@ -27,11 +35,13 @@ releases:
     kind_id: 13511
     language: 1
     name: I Can Remember (U) [!p]
+    deprecated: 1
   - id: 29724
     kind: 3
     kind_id: 13511
     language: 1
     name: I Can Remember (U)
+    deprecated: 1
   - id: 69793
     kind: 3
     kind_id: 13511
@@ -42,14 +52,32 @@ releases:
     kind_id: 13511
     language: 1
     name: I Can Remember (U) [!]
+    deprecated: 1
+  - id: 258440
+    kind: 3
+    kind_id: 13511
+    language: 1
+    name: "Fisher-Price - I Can Remember (USA)"
+    source: no-intro
   assets:
   - asset:
       id: 13493
       kind: 3
       kind_id: 13511
       type: 1
-      name: I Can Remember (U) [!p].nes
+      name: "Fisher-Price - I Can Remember (USA).nes"
       format: 1
       size: 65552
       blob_id: 59356
-      debug: "I Can Remember (U) [!p].zip\nI Can Remember (U).zip\n记忆力大考验 (美版) (益智)-Fisher-Price - I Can Remember (USA) + I Can Remember (U) [!].nes"
+      debug: "I Can Remember (U) [!p].zip\nI Can Remember (U).zip\n记忆力大考验 (美版) (益智)-Fisher-Price - I Can Remember (USA) + I Can Remember (U) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=a253df603c207866373be55076a5616e3bcad2eb"
+  - asset:
+      id: 139456
+      kind: 3
+      kind_id: 13511
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Fisher-Price%20-%20I%20Can%20Remember%20%28USA%29.png
+      format: 1
+      size: 1039
+      blob_id: 324887
+      debug: libretro-named-titles:rom-asset=13493:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Fisher-Price%20-%20I%20Can%20Remember%20%28USA%29.png

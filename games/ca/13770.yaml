@@ -43,14 +43,34 @@ releases:
     kind_id: 13771
     language: 1
     name: International Cricket (Unl)
+    deprecated: 1
+  - id: 258471
+    kind: 3
+    kind_id: 13771
+    language: 1
+    name: International Cricket (China) (En) (Aftermarket) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 13753
       kind: 3
       kind_id: 13771
       type: 1
-      name: International Cricket (Unl).nes
+      name: International Cricket (China) (En) (Aftermarket) (Pirate).nes
       format: 1
       size: 524304
       blob_id: 59598
-      debug: International Cricket (Unl).nes
+      debug: |-
+        International Cricket (Unl).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=e4bb72a9ba0b8465e3fafe679deae6cda9623c61
+  - asset:
+      id: 139463
+      kind: 3
+      kind_id: 13771
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/International%20Cricket%20%28China%29%20%28En%29%20%28Aftermarket%29%20%28Pirate%29.png
+      format: 1
+      size: 3554
+      blob_id: 324894
+      debug: libretro-named-titles:rom-asset=13753:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/International%20Cricket%20%28China%29%20%28En%29%20%28Aftermarket%29%20%28Pirate%29.png

@@ -7,11 +7,18 @@ names:
   kind_id: 8454
   language: 1
   name: Cheetahmen 2 (U)
+  deprecated: 1
 - id: 69837
   kind: 2
   kind_id: 8454
   language: 2
   name: 豹人 II (动作)-Cheetahmen II (Unl)
+- id: 261587
+  kind: 2
+  kind_id: 8454
+  language: 1
+  name: Cheetahmen II
+  source: no-intro
 releases:
 - release:
     id: 8454
@@ -22,24 +29,32 @@ releases:
     kind_id: 8454
     language: 1
     name: Cheetahmen 2 (U)
+    deprecated: 1
   - id: 69838
     kind: 3
     kind_id: 8454
     language: 2
     name: 豹人 II (美版) (动作)-Cheetahmen II (USA) (Unl)
+  - id: 257882
+    kind: 3
+    kind_id: 8454
+    language: 1
+    name: Cheetahmen II (USA) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 8436
       kind: 3
       kind_id: 8454
       type: 1
-      name: Cheetahmen 2 (U).nes
+      name: Cheetahmen II (USA) (Unl).nes
       format: 1
       size: 393232
       blob_id: 54589
       debug: |-
         Cheetahmen 2 (U).zip
         豹人 II (美版) (动作)-Cheetahmen II (USA) (Unl).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=340da5fb21bcaa3bcfed17d7d4d8b42cbbdc3bb0
   - asset:
       id: 138262
       kind: 3

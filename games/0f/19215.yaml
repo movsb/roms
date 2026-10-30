@@ -7,12 +7,19 @@ names:
   kind_id: 19215
   language: 1
   name: PowerJoy 84-in-1 Split Game 76-Tag Team [p1]
+  deprecated: 1
 - id: 249387
   kind: 2
   kind_id: 19215
   language: 2
   name: PowerJoy 84合1：双打摔角
   source: codex
+- id: 262009
+  kind: 2
+  kind_id: 19215
+  language: 1
+  name: Tag Team Pro-Wrestling
+  source: no-intro
 releases:
 - release:
     id: 19215
@@ -23,14 +30,34 @@ releases:
     kind_id: 19215
     language: 1
     name: PowerJoy 84-in-1 Split Game 76-Tag Team [p1]
+    deprecated: 1
+  - id: 259084
+    kind: 3
+    kind_id: 19215
+    language: 1
+    name: Tag Team Pro-Wrestling (Brazil) (En) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 19197
       kind: 3
       kind_id: 19215
       type: 1
-      name: PowerJoy 84-in-1 Split Game 76-Tag Team [p1].nes
+      name: Tag Team Pro-Wrestling (Brazil) (En) (Unl).nes
       format: 1
       size: 40976
       blob_id: 64723
-      debug: PowerJoy 84-in-1 Split Game 76-Tag Team [p1].nes
+      debug: |-
+        PowerJoy 84-in-1 Split Game 76-Tag Team [p1].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=224c83f5b44bc0cbe74c51757097479d52f55063
+  - asset:
+      id: 139678
+      kind: 3
+      kind_id: 19215
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Tag%20Team%20Pro-Wrestling%20%28Brazil%29%20%28En%29%20%28Unl%29.png
+      format: 1
+      size: 2625
+      blob_id: 325075
+      debug: libretro-named-titles:rom-asset=19197:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Tag%20Team%20Pro-Wrestling%20%28Brazil%29%20%28En%29%20%28Unl%29.png

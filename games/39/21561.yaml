@@ -7,12 +7,19 @@ names:
   kind_id: 21561
   language: 1
   name: Solar Wars by Chris Covell, Joey Parsell & Michel Iwaniec
+  deprecated: 1
 - id: 249458
   kind: 2
   kind_id: 21561
   language: 2
   name: 太阳战争
   source: codex
+- id: 262136
+  kind: 2
+  kind_id: 21561
+  language: 1
+  name: Solar Wars
+  source: no-intro
 releases:
 - release:
     id: 21561
@@ -23,17 +30,26 @@ releases:
     kind_id: 21561
     language: 1
     name: Solar Wars by Chris Covell, Joey Parsell & Michel Iwaniec (PD) [a1]
+    deprecated: 1
+  - id: 259365
+    kind: 3
+    kind_id: 21561
+    language: 1
+    name: Solar Wars (World) (v1.3) (Aftermarket) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 21543
       kind: 3
       kind_id: 21561
       type: 1
-      name: Solar Wars by Chris Covell, Joey Parsell & Michel Iwaniec (PD) [a1].nes
+      name: Solar Wars (World) (v1.3) (Aftermarket) (Unl).nes
       format: 1
       size: 65552
       blob_id: 66939
-      debug: Solar Wars by Chris Covell, Joey Parsell & Michel Iwaniec (PD) [a1].nes
+      debug: |-
+        Solar Wars by Chris Covell, Joey Parsell & Michel Iwaniec (PD) [a1].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=94e792329bbf94762eab91f446b7ac2ded6dc61d
 - release:
     id: 21562
     game_id: 21561
@@ -43,14 +59,34 @@ releases:
     kind_id: 21562
     language: 1
     name: Solar Wars by Chris Covell, Joey Parsell & Michel Iwaniec (PD)
+    deprecated: 1
+  - id: 259366
+    kind: 3
+    kind_id: 21562
+    language: 1
+    name: Solar Wars (World) (Aftermarket) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 21544
       kind: 3
       kind_id: 21562
       type: 1
-      name: Solar Wars by Chris Covell, Joey Parsell & Michel Iwaniec (PD).nes
+      name: Solar Wars (World) (Aftermarket) (Unl).nes
       format: 1
       size: 65552
       blob_id: 66940
-      debug: Solar Wars by Chris Covell, Joey Parsell & Michel Iwaniec (PD).nes
+      debug: |-
+        Solar Wars by Chris Covell, Joey Parsell & Michel Iwaniec (PD).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=580071ee6e90458f74efc9183d1788c3029e4d62
+  - asset:
+      id: 139759
+      kind: 3
+      kind_id: 21562
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Solar%20Wars%20%28World%29%20%28Aftermarket%29%20%28Unl%29.png
+      format: 1
+      size: 8291
+      blob_id: 325139
+      debug: libretro-named-titles:rom-asset=21544:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Solar%20Wars%20%28World%29%20%28Aftermarket%29%20%28Unl%29.png

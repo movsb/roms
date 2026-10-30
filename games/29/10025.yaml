@@ -28,17 +28,37 @@ releases:
     kind_id: 10025
     language: 1
     name: Double Dragon (E) (VC)
+    deprecated: 1
+  - id: 258055
+    kind: 3
+    kind_id: 10025
+    language: 1
+    name: Double Dragon (Europe) (Virtual Console)
+    source: no-intro
   assets:
   - asset:
       id: 10007
       kind: 3
       kind_id: 10025
       type: 1
-      name: Double Dragon (E) (VC).nes
+      name: Double Dragon (Europe) (Virtual Console).nes
       format: 1
       size: 262160
       blob_id: 56066
-      debug: Double Dragon (E) (VC).nes
+      debug: |-
+        Double Dragon (E) (VC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=9a36f330967436aeeb1c26fb2f37b559abec513d
+  - asset:
+      id: 139372
+      kind: 3
+      kind_id: 10025
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Double%20Dragon%20%28Europe%29%20%28Virtual%20Console%29.png
+      format: 1
+      size: 4176
+      blob_id: 324812
+      debug: libretro-named-titles:rom-asset=10007:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Double%20Dragon%20%28Europe%29%20%28Virtual%20Console%29.png
 - release:
     id: 10026
     game_id: 10025
@@ -48,17 +68,26 @@ releases:
     kind_id: 10026
     language: 1
     name: Double Dragon (E) [!]
+    deprecated: 1
+  - id: 258056
+    kind: 3
+    kind_id: 10026
+    language: 1
+    name: Double Dragon (Europe)
+    source: no-intro
   assets:
   - asset:
       id: 10008
       kind: 3
       kind_id: 10026
       type: 1
-      name: Double Dragon (E) [!].nes
+      name: Double Dragon (Europe).nes
       format: 1
       size: 262160
       blob_id: 56067
-      debug: Double Dragon (E) [!].nes
+      debug: |-
+        Double Dragon (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=5353cdbd255e908b16382c6669f3a9d76138b749
   - asset:
       id: 136822
       kind: 3
@@ -217,23 +246,31 @@ releases:
     kind_id: 10034
     language: 1
     name: Double Dragon (U) [!]
+    deprecated: 1
   - id: 21630
     kind: 3
     kind_id: 10034
     language: 1
     name: Double Dragon (U)
+    deprecated: 1
   - id: 61743
     kind: 3
     kind_id: 10034
     language: 2
     name: 双截龙1
+  - id: 258057
+    kind: 3
+    kind_id: 10034
+    language: 1
+    name: Double Dragon (USA)
+    source: no-intro
   assets:
   - asset:
       id: 10016
       kind: 3
       kind_id: 10034
       type: 1
-      name: Double Dragon (U) [!].nes
+      name: Double Dragon (USA).nes
       format: 1
       size: 262160
       blob_id: 56075
@@ -241,6 +278,7 @@ releases:
         Double Dragon (U) [!].zip
         Double Dragon (U).zip
         双截龙1 + Double Dragon (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=96356da50ff4cd4e3d399181ac19dafbf298eea8
   - asset:
       id: 138479
       kind: 3
@@ -666,17 +704,26 @@ releases:
     kind_id: 27288
     language: 1
     name: Double Dragon (J)
+    deprecated: 1
+  - id: 260197
+    kind: 3
+    kind_id: 27288
+    language: 1
+    name: Double Dragon (Japan) (En)
+    source: no-intro
   assets:
   - asset:
       id: 27270
       kind: 3
       kind_id: 27288
       type: 1
-      name: 双截龙 (日版) (动作)-Double Dragon (Japan) + Double Dragon (J).nes
+      name: Double Dragon (Japan) (En).nes
       format: 1
       size: 262160
       blob_id: 72183
-      debug: 双截龙 (日版) (动作)-Double Dragon (Japan) + Double Dragon (J).nes
+      debug: |-
+        双截龙 (日版) (动作)-Double Dragon (Japan) + Double Dragon (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=1dcf1660be8c025b0c01b41b23ca9a74a0e94e97
   - asset:
       id: 138851
       kind: 3

@@ -7,12 +7,19 @@ names:
   kind_id: 6773
   language: 1
   name: "Battle Kid - Fortress of Peril Demo1 by Sivik (PD)"
+  deprecated: 1
 - id: 252091
   kind: 2
   kind_id: 6773
   language: 2
   name: 战斗小子：危险堡垒演示1
   source: codex
+- id: 261548
+  kind: 2
+  kind_id: 6773
+  language: 1
+  name: "Battle Kid - Fortress of Peril"
+  source: no-intro
 releases:
 - release:
     id: 6773
@@ -23,14 +30,32 @@ releases:
     kind_id: 6773
     language: 1
     name: "Battle Kid - Fortress of Peril Demo1 by Sivik (PD)"
+    deprecated: 1
+  - id: 257745
+    kind: 3
+    kind_id: 6773
+    language: 1
+    name: "Battle Kid - Fortress of Peril (USA) (Aftermarket) (Unl)"
+    source: no-intro
   assets:
   - asset:
       id: 6755
       kind: 3
       kind_id: 6773
       type: 1
-      name: "Battle Kid - Fortress of Peril Demo1 by Sivik (PD).nes"
+      name: "Battle Kid - Fortress of Peril (USA) (Aftermarket) (Unl).nes"
       format: 1
       size: 262160
       blob_id: 52999
-      debug: "Battle Kid - Fortress of Peril Demo1 by Sivik (PD).nes"
+      debug: "Battle Kid - Fortress of Peril Demo1 by Sivik (PD).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=ed2d9137711c022613e4d9d9e4855c31652d7b8c"
+  - asset:
+      id: 139321
+      kind: 3
+      kind_id: 6773
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Battle%20Kid%20-%20Fortress%20of%20Peril%20%28USA%29%20%28Aftermarket%29%20%28Unl%29.png
+      format: 1
+      size: 1810
+      blob_id: 324771
+      debug: libretro-named-titles:rom-asset=6755:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Battle%20Kid%20-%20Fortress%20of%20Peril%20%28USA%29%20%28Aftermarket%29%20%28Unl%29.png

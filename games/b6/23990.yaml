@@ -12,11 +12,18 @@ names:
   kind_id: 23990
   language: 1
   name: Tecmo Super Bowl (U) [!]
+  deprecated: 1
 - id: 93350
   kind: 2
   kind_id: 23990
   language: 1
   name: Tecmo Super Bowl
+- id: 262223
+  kind: 2
+  kind_id: 23990
+  language: 1
+  name: Tecmo Super Bowl
+  source: no-intro
 releases:
 - release:
     id: 23990
@@ -27,24 +34,32 @@ releases:
     kind_id: 23990
     language: 1
     name: Tecmo Super Bowl (U) [!]
+    deprecated: 1
   - id: 67669
     kind: 3
     kind_id: 23990
     language: 2
     name: 特库摩超级美式足球 (美版) (运动)-Tecmo Super Bowl (USA)
+  - id: 259603
+    kind: 3
+    kind_id: 23990
+    language: 1
+    name: Tecmo Super Bowl (USA)
+    source: no-intro
   assets:
   - asset:
       id: 23972
       kind: 3
       kind_id: 23990
       type: 1
-      name: Tecmo Super Bowl (U) [!].nes
+      name: Tecmo Super Bowl (USA).nes
       format: 1
       size: 393232
       blob_id: 69260
       debug: |-
         Tecmo Super Bowl (U) [!].zip
         特库摩超级美式足球 (美版) (运动)-Tecmo Super Bowl (USA) + Tecmo Super Bowl (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=0a491b125ca1d8bcebfd19174527d9eec13820d0
   - asset:
       id: 137392
       kind: 3
@@ -65,17 +80,26 @@ releases:
     kind_id: 23993
     language: 1
     name: Tecmo Super Bowl (U)
+    deprecated: 1
+  - id: 259604
+    kind: 3
+    kind_id: 23993
+    language: 1
+    name: Tecmo Super Bowl (USA)
+    source: no-intro
   assets:
   - asset:
       id: 23975
       kind: 3
       kind_id: 23993
       type: 1
-      name: Tecmo Super Bowl (U).nes
+      name: Tecmo Super Bowl (USA).nes
       format: 1
       size: 393232
       blob_id: 69263
-      debug: Tecmo Super Bowl (U).zip
+      debug: |-
+        Tecmo Super Bowl (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=0a491b125ca1d8bcebfd19174527d9eec13820d0
   - asset:
       id: 138725
       kind: 3

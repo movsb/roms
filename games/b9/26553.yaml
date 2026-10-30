@@ -43,14 +43,34 @@ releases:
     kind_id: 26554
     language: 1
     name: Zooming Secretary by shiru (PD)
+    deprecated: 1
+  - id: 259889
+    kind: 3
+    kind_id: 26554
+    language: 1
+    name: Zooming Secretary (World) (v1.02) (Aftermarket) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 26536
       kind: 3
       kind_id: 26554
       type: 1
-      name: Zooming Secretary by shiru (PD).nes
+      name: Zooming Secretary (World) (v1.02) (Aftermarket) (Unl).nes
       format: 1
       size: 40976
       blob_id: 71678
-      debug: Zooming Secretary by shiru (PD).nes
+      debug: |-
+        Zooming Secretary by shiru (PD).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=46807a29f7695c4cfe7c228df1663f413064087a
+  - asset:
+      id: 139925
+      kind: 3
+      kind_id: 26554
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Zooming%20Secretary%20%28World%29%20%28v1.02%29%20%28Aftermarket%29%20%28Unl%29.png
+      format: 1
+      size: 3098
+      blob_id: 325289
+      debug: libretro-named-titles:rom-asset=26536:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Zooming%20Secretary%20%28World%29%20%28v1.02%29%20%28Aftermarket%29%20%28Unl%29.png

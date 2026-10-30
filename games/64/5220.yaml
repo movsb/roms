@@ -108,6 +108,7 @@ releases:
     kind_id: 5983
     language: 1
     name: Argus (Japan)
+    deprecated: 1
   - id: 68129
     kind: 3
     kind_id: 5983
@@ -118,6 +119,13 @@ releases:
     kind_id: 5983
     language: 1
     name: Argus (J) [!]
+    deprecated: 1
+  - id: 257658
+    kind: 3
+    kind_id: 5983
+    language: 1
+    name: Argus (Japan) (En)
+    source: no-intro
   release_publishers:
   - release_id: 5983
     publisher_id: 71
@@ -127,13 +135,14 @@ releases:
       kind: 3
       kind_id: 5983
       type: 1
-      name: Argus (Japan).nes
+      name: Argus (Japan) (En).nes
       format: 1
       size: 49168
       blob_id: 52240
       debug: |-
         Argus (Japan).zip
         百眼巨神 (日版) (射击)-Argus (Japan) + Argus (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=febc958c90f10bbe7c095a3842a5bc897ef18a43
   - asset:
       id: 138170
       kind: 3

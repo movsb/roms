@@ -12,6 +12,13 @@ names:
   kind_id: 27445
   language: 1
   name: Guardic Gaiden (J)
+  deprecated: 1
+- id: 262655
+  kind: 2
+  kind_id: 27445
+  language: 1
+  name: Guardic Gaiden
+  source: no-intro
 releases:
 - release:
     id: 27445
@@ -27,17 +34,26 @@ releases:
     kind_id: 27445
     language: 1
     name: Guardic Gaiden (J)
+    deprecated: 1
+  - id: 260252
+    kind: 3
+    kind_id: 27445
+    language: 1
+    name: Guardic Gaiden (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 27427
       kind: 3
       kind_id: 27445
       type: 1
-      name: 嘉蒂外传 (日版) (射击)-Guardic Gaiden (Japan) + Guardic Gaiden (J).nes
+      name: Guardic Gaiden (Japan).nes
       format: 1
       size: 131088
       blob_id: 72290
-      debug: 嘉蒂外传 (日版) (射击)-Guardic Gaiden (Japan) + Guardic Gaiden (J).nes
+      debug: |-
+        嘉蒂外传 (日版) (射击)-Guardic Gaiden (Japan) + Guardic Gaiden (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=9b33666d28e16094cd140361a9375c9ed9e4dba7
   - asset:
       id: 138870
       kind: 3

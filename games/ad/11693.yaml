@@ -32,6 +32,7 @@ releases:
     kind_id: 11693
     language: 1
     name: Fire 'n Ice (U) [!]
+    deprecated: 1
   - id: 65055
     kind: 3
     kind_id: 11693
@@ -42,13 +43,19 @@ releases:
     kind_id: 11693
     language: 2
     name: 所罗门之钥2
+  - id: 258236
+    kind: 3
+    kind_id: 11693
+    language: 1
+    name: Fire 'n Ice (USA)
+    source: no-intro
   assets:
   - asset:
       id: 11675
       kind: 3
       kind_id: 11693
       type: 1
-      name: Fire 'n Ice (U) [!].nes
+      name: Fire 'n Ice (USA).nes
       format: 1
       size: 262160
       blob_id: 57644
@@ -56,6 +63,7 @@ releases:
         Fire 'n Ice (U) [!].zip
         所罗门之钥 II (美版) (益智)-Fire n Ice (USA) + Fire 'n Ice (U) [!].nes
         所罗门之钥2.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=1dca84fc0aa70aa7fba8384585c4b82d0778bff4
   - asset:
       id: 136897
       kind: 3
@@ -96,17 +104,26 @@ releases:
     kind_id: 11696
     language: 1
     name: Fire 'n Ice (U)
+    deprecated: 1
+  - id: 258237
+    kind: 3
+    kind_id: 11696
+    language: 1
+    name: Fire 'n Ice (USA)
+    source: no-intro
   assets:
   - asset:
       id: 11678
       kind: 3
       kind_id: 11696
       type: 1
-      name: Fire 'n Ice (U).nes
+      name: Fire 'n Ice (USA).nes
       format: 1
       size: 262160
       blob_id: 57647
-      debug: Fire 'n Ice (U).zip
+      debug: |-
+        Fire 'n Ice (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=1dca84fc0aa70aa7fba8384585c4b82d0778bff4
   - asset:
       id: 138490
       kind: 3

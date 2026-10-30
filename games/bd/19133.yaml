@@ -7,12 +7,19 @@ names:
   kind_id: 19133
   language: 1
   name: Power Rangers (Unl)
+  deprecated: 1
 - id: 248387
   kind: 2
   kind_id: 19133
   language: 2
   name: 恐龙战队
   source: codex
+- id: 262004
+  kind: 2
+  kind_id: 19133
+  language: 1
+  name: Power Rangers
+  source: no-intro
 releases:
 - release:
     id: 19133
@@ -23,14 +30,34 @@ releases:
     kind_id: 19133
     language: 1
     name: Power Rangers (Unl)
+    deprecated: 1
+  - id: 259078
+    kind: 3
+    kind_id: 19133
+    language: 1
+    name: Power Rangers (Asia) (En) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 19115
       kind: 3
       kind_id: 19133
       type: 1
-      name: Power Rangers (Unl).nes
+      name: Power Rangers (Asia) (En) (Pirate).nes
       format: 1
       size: 262160
       blob_id: 64644
-      debug: Power Rangers (Unl).nes
+      debug: |-
+        Power Rangers (Unl).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=72f383a7e669e95ca91a08619225dab6b820063d
+  - asset:
+      id: 139677
+      kind: 3
+      kind_id: 19133
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Power%20Rangers%20%28Asia%29%20%28En%29%20%28Pirate%29.png
+      format: 1
+      size: 2750
+      blob_id: 325074
+      debug: libretro-named-titles:rom-asset=19115:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Power%20Rangers%20%28Asia%29%20%28En%29%20%28Pirate%29.png

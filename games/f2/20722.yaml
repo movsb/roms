@@ -7,12 +7,19 @@ names:
   kind_id: 20722
   language: 1
   name: San Shi Liu Ji
+  deprecated: 1
 - id: 248493
   kind: 2
   kind_id: 20722
   language: 2
   name: 三十六计
   source: codex
+- id: 262091
+  kind: 2
+  kind_id: 20722
+  language: 1
+  name: "Sanshiliu Ji - The Thirty-Six Tricks"
+  source: no-intro
 releases:
 - release:
     id: 20722
@@ -23,14 +30,34 @@ releases:
     kind_id: 20722
     language: 1
     name: San Shi Liu Ji (Ch) [a1]
+    deprecated: 1
+  - id: 259266
+    kind: 3
+    kind_id: 20722
+    language: 1
+    name: "Sanshiliu Ji - The Thirty-Six Tricks (China) (970158) (Unl)"
+    source: no-intro
   assets:
   - asset:
       id: 20704
       kind: 3
       kind_id: 20722
       type: 1
-      name: San Shi Liu Ji (Ch) [a1].nes
+      name: "Sanshiliu Ji - The Thirty-Six Tricks (China) (970158) (Unl).nes"
       format: 1
       size: 524304
       blob_id: 66153
-      debug: San Shi Liu Ji (Ch) [a1].nes
+      debug: |-
+        San Shi Liu Ji (Ch) [a1].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=6a7c35e1a0e4b4396d0f65d15d8170ff54f32fb9
+  - asset:
+      id: 139730
+      kind: 3
+      kind_id: 20722
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Sanshiliu%20Ji%20-%20The%20Thirty-Six%20Tricks%20%28China%29%20%28970158%29%20%28Unl%29.png
+      format: 1
+      size: 4970
+      blob_id: 325113
+      debug: libretro-named-titles:rom-asset=20704:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Sanshiliu%20Ji%20-%20The%20Thirty-Six%20Tricks%20%28China%29%20%28970158%29%20%28Unl%29.png

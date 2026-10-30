@@ -12,6 +12,7 @@ names:
   kind_id: 12381
   language: 1
   name: "Godzilla 2 - War of the Monsters (U) [!]"
+  deprecated: 1
 - id: 62171
   kind: 2
   kind_id: 12381
@@ -22,6 +23,12 @@ names:
   kind_id: 12381
   language: 1
   name: "Godzilla 2 - War of the Monsters"
+- id: 261749
+  kind: 2
+  kind_id: 12381
+  language: 1
+  name: "Godzilla 2 - War of the Monsters"
+  source: no-intro
 releases:
 - release:
     id: 12381
@@ -32,6 +39,7 @@ releases:
     kind_id: 12381
     language: 1
     name: "Godzilla 2 - War of the Monsters (U) [!p]"
+    deprecated: 1
   - id: 62153
     kind: 3
     kind_id: 12381
@@ -42,22 +50,40 @@ releases:
     kind_id: 12381
     language: 1
     name: "Godzilla 2 - War of the Monsters (U) [!]"
+    deprecated: 1
   - id: 62172
     kind: 3
     kind_id: 12381
     language: 2
     name: 哥斯拉2 怪兽大战
+  - id: 258335
+    kind: 3
+    kind_id: 12381
+    language: 1
+    name: "Godzilla 2 - War of the Monsters (USA)"
+    source: no-intro
   assets:
   - asset:
       id: 12363
       kind: 3
       kind_id: 12381
       type: 1
-      name: "Godzilla 2 - War of the Monsters (U) [!p].nes"
+      name: "Godzilla 2 - War of the Monsters (USA).nes"
       format: 1
       size: 262160
       blob_id: 58279
-      debug: "Godzilla 2 - War of the Monsters (U) [!p].zip\n哥吉拉 II - 怪兽之战争 (美版) (策略)-Godzilla 2 - War of the Monsters (USA) + Godzilla 2 - War of the Monsters (U) [!].nes\n哥斯拉2 怪兽大战.zip"
+      debug: "Godzilla 2 - War of the Monsters (U) [!p].zip\n哥吉拉 II - 怪兽之战争 (美版) (策略)-Godzilla 2 - War of the Monsters (USA) + Godzilla 2 - War of the Monsters (U) [!].nes\n哥斯拉2 怪兽大战.zip\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=e8f38b21a2cb5373993b3cd61345b742a45747f5"
+  - asset:
+      id: 139418
+      kind: 3
+      kind_id: 12381
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Godzilla%202%20-%20War%20of%20the%20Monsters%20%28USA%29.png
+      format: 1
+      size: 1827
+      blob_id: 324001
+      debug: libretro-named-titles:rom-asset=12363:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Godzilla%202%20-%20War%20of%20the%20Monsters%20%28USA%29.png
 - release:
     id: 12392
     game_id: 12381
@@ -67,17 +93,24 @@ releases:
     kind_id: 12392
     language: 1
     name: "Godzilla 2 - War of the Monsters (U)"
+    deprecated: 1
+  - id: 258336
+    kind: 3
+    kind_id: 12392
+    language: 1
+    name: "Godzilla 2 - War of the Monsters (USA)"
+    source: no-intro
   assets:
   - asset:
       id: 12374
       kind: 3
       kind_id: 12392
       type: 1
-      name: "Godzilla 2 - War of the Monsters (U).nes"
+      name: "Godzilla 2 - War of the Monsters (USA).nes"
       format: 1
       size: 262160
       blob_id: 58290
-      debug: "Godzilla 2 - War of the Monsters (U).zip"
+      debug: "Godzilla 2 - War of the Monsters (U).zip\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=e8f38b21a2cb5373993b3cd61345b742a45747f5"
   - asset:
       id: 138505
       kind: 3

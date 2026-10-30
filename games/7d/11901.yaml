@@ -7,12 +7,19 @@ names:
   kind_id: 11901
   language: 1
   name: Frankenstein
+  deprecated: 1
 - id: 247823
   kind: 2
   kind_id: 11901
   language: 2
   name: 科学怪人
   source: codex
+- id: 261721
+  kind: 2
+  kind_id: 11901
+  language: 1
+  name: "Frankenstein - The Monster Returns"
+  source: no-intro
 releases:
 - release:
     id: 11901
@@ -23,17 +30,26 @@ releases:
     kind_id: 11901
     language: 1
     name: Frankenstein
+    deprecated: 1
+  - id: 258264
+    kind: 3
+    kind_id: 11901
+    language: 1
+    name: "Frankenstein - The Monster Returns (USA)"
+    source: no-intro
   assets:
   - asset:
       id: 11883
       kind: 3
       kind_id: 11901
       type: 1
-      name: Frankenstein.nes
+      name: "Frankenstein - The Monster Returns (USA).nes"
       format: 1
       size: 262160
       blob_id: 57834
-      debug: Frankenstein.zip
+      debug: |-
+        Frankenstein.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=c4e43e5c9d3e63f5ec11831fe154ec80f7aaeed8
   - asset:
       id: 138404
       kind: 3

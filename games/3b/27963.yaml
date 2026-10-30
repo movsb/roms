@@ -12,6 +12,13 @@ names:
   kind_id: 27963
   language: 1
   name: Futebol (Unl)
+  deprecated: 1
+- id: 262847
+  kind: 2
+  kind_id: 27963
+  language: 1
+  name: Futebol
+  source: no-intro
 releases:
 - release:
     id: 27963
@@ -27,14 +34,34 @@ releases:
     kind_id: 27963
     language: 1
     name: Futebol (Unl)
+    deprecated: 1
+  - id: 260457
+    kind: 3
+    kind_id: 27963
+    language: 1
+    name: Futebol (Brazil) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 27945
       kind: 3
       kind_id: 27963
       type: 1
-      name: 巴西足球舞 (巴西版) (运动)-Futebol (Brazil) (Unl) + Futebol (Unl).nes
+      name: Futebol (Brazil) (Unl).nes
       format: 1
       size: 98320
       blob_id: 72627
-      debug: 巴西足球舞 (巴西版) (运动)-Futebol (Brazil) (Unl) + Futebol (Unl).nes
+      debug: |-
+        巴西足球舞 (巴西版) (运动)-Futebol (Brazil) (Unl) + Futebol (Unl).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=240c3de46dd37b89f8594e6bc4c4ac49874a4e67
+  - asset:
+      id: 140088
+      kind: 3
+      kind_id: 27963
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Futebol%20%28Brazil%29%20%28Unl%29.png
+      format: 1
+      size: 2359
+      blob_id: 325428
+      debug: libretro-named-titles:rom-asset=27945:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Futebol%20%28Brazil%29%20%28Unl%29.png

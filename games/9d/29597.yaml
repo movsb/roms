@@ -12,6 +12,13 @@ names:
   kind_id: 29597
   language: 1
   name: Hook (E) [!p]
+  deprecated: 1
+- id: 263437
+  kind: 2
+  kind_id: 29597
+  language: 1
+  name: Hook
+  source: no-intro
 releases:
 - release:
     id: 29597
@@ -27,14 +34,34 @@ releases:
     kind_id: 29597
     language: 1
     name: Hook (E) [!p]
+    deprecated: 1
+  - id: 261119
+    kind: 3
+    kind_id: 29597
+    language: 1
+    name: Hook (Europe)
+    source: no-intro
   assets:
   - asset:
       id: 29579
       kind: 3
       kind_id: 29597
       type: 1
-      name: 虎克船长 (欧版) (动作)-Hook (Europe) + Hook (E) [!p].nes
+      name: Hook (Europe).nes
       format: 1
       size: 262160
       blob_id: 73684
-      debug: 虎克船长 (欧版) (动作)-Hook (Europe) + Hook (E) [!p].nes
+      debug: |-
+        虎克船长 (欧版) (动作)-Hook (Europe) + Hook (E) [!p].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=eae5205928d3fa2afea0374b457d2bb91e414d99
+  - asset:
+      id: 140214
+      kind: 3
+      kind_id: 29597
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Hook%20%28Europe%29.png
+      format: 1
+      size: 4694
+      blob_id: 325534
+      debug: libretro-named-titles:rom-asset=29579:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Hook%20%28Europe%29.png

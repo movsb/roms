@@ -12,6 +12,13 @@ names:
   kind_id: 29284
   language: 1
   name: Secret Scout in the Temple of Demise (Color Dreams) [!]
+  deprecated: 1
+- id: 263319
+  kind: 2
+  kind_id: 29284
+  language: 1
+  name: Secret Scout in the Temple of Demise
+  source: no-intro
 releases:
 - release:
     id: 29284
@@ -27,14 +34,34 @@ releases:
     kind_id: 29284
     language: 1
     name: Secret Scout in the Temple of Demise (Color Dreams) [!]
+    deprecated: 1
+  - id: 260992
+    kind: 3
+    kind_id: 29284
+    language: 1
+    name: Secret Scout in the Temple of Demise (USA) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 29266
       kind: 3
       kind_id: 29284
       type: 1
-      name: 秘密侦察员 (美版) (动作)-Secret Scout in the Temple of Demise (USA) (Unl) + Secret Scout in the Temple of Demise (Color Dreams) [!].nes
+      name: Secret Scout in the Temple of Demise (USA) (Unl).nes
       format: 1
       size: 131088
       blob_id: 73491
-      debug: 秘密侦察员 (美版) (动作)-Secret Scout in the Temple of Demise (USA) (Unl) + Secret Scout in the Temple of Demise (Color Dreams) [!].nes
+      debug: |-
+        秘密侦察员 (美版) (动作)-Secret Scout in the Temple of Demise (USA) (Unl) + Secret Scout in the Temple of Demise (Color Dreams) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=b77bd6eb083a0b7bcfa536a34e575be4d0d2371b
+  - asset:
+      id: 140194
+      kind: 3
+      kind_id: 29284
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Secret%20Scout%20in%20the%20Temple%20of%20Demise%20%28USA%29%20%28Unl%29.png
+      format: 1
+      size: 2760
+      blob_id: 325516
+      debug: libretro-named-titles:rom-asset=29266:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Secret%20Scout%20in%20the%20Temple%20of%20Demise%20%28USA%29%20%28Unl%29.png

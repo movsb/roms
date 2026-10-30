@@ -12,6 +12,13 @@ names:
   kind_id: 28284
   language: 1
   name: Fighting Golf (J)
+  deprecated: 1
+- id: 262942
+  kind: 2
+  kind_id: 28284
+  language: 1
+  name: Fighting Golf
+  source: no-intro
 releases:
 - release:
     id: 28284
@@ -27,17 +34,26 @@ releases:
     kind_id: 28284
     language: 1
     name: Fighting Golf (J)
+    deprecated: 1
+  - id: 260567
+    kind: 3
+    kind_id: 28284
+    language: 1
+    name: Fighting Golf (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 28266
       kind: 3
       kind_id: 28284
       type: 1
-      name: 战斗高尔夫 (日版) (运动)-Fighting Golf (Japan) + Fighting Golf (J).nes
+      name: Fighting Golf (Japan).nes
       format: 1
       size: 262160
       blob_id: 72836
-      debug: 战斗高尔夫 (日版) (运动)-Fighting Golf (Japan) + Fighting Golf (J).nes
+      debug: |-
+        战斗高尔夫 (日版) (运动)-Fighting Golf (Japan) + Fighting Golf (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=b26baf7ed80d33b8da1ff4eabb00d76e0ecfb03c
   - asset:
       id: 138984
       kind: 3

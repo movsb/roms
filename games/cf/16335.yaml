@@ -23,17 +23,37 @@ releases:
     kind_id: 16335
     language: 1
     name: Mei Guo Fu Hao (Ch) (Wxn)
+    deprecated: 1
+  - id: 258768
+    kind: 3
+    kind_id: 16335
+    language: 1
+    name: Chaoji Da Fuweng (China) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 16317
       kind: 3
       kind_id: 16335
       type: 1
-      name: Mei Guo Fu Hao (Ch) (Wxn).nes
+      name: Chaoji Da Fuweng (China) (Unl).nes
       format: 1
       size: 1048592
       blob_id: 61992
-      debug: Mei Guo Fu Hao (Ch) (Wxn).nes
+      debug: |-
+        Mei Guo Fu Hao (Ch) (Wxn).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=6ed9db38cb2633728b93d00ce00caa2a22675f6e
+  - asset:
+      id: 139564
+      kind: 3
+      kind_id: 16335
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Chaoji%20Da%20Fuweng%20%28China%29%20%28Unl%29.png
+      format: 1
+      size: 2448
+      blob_id: 324975
+      debug: libretro-named-titles:rom-asset=16317:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Chaoji%20Da%20Fuweng%20%28China%29%20%28Unl%29.png
 - release:
     id: 16336
     game_id: 16335
@@ -43,14 +63,34 @@ releases:
     kind_id: 16336
     language: 1
     name: Mei Guo Fu Hao (Ch) [a2]
+    deprecated: 1
+  - id: 258769
+    kind: 3
+    kind_id: 16336
+    language: 1
+    name: Baiwan Fuweng (China) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 16318
       kind: 3
       kind_id: 16336
       type: 1
-      name: Mei Guo Fu Hao (Ch) [a2].nes
+      name: Baiwan Fuweng (China) (Unl).nes
       format: 1
       size: 1048592
       blob_id: 61993
-      debug: Mei Guo Fu Hao (Ch) [a2].nes
+      debug: |-
+        Mei Guo Fu Hao (Ch) [a2].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=9549ee48ee8cb0cc769190c4dec2f75fa4589f5b
+  - asset:
+      id: 139565
+      kind: 3
+      kind_id: 16336
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Baiwan%20Fuweng%20%28China%29%20%28Unl%29.png
+      format: 1
+      size: 1115
+      blob_id: 324976
+      debug: libretro-named-titles:rom-asset=16318:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Baiwan%20Fuweng%20%28China%29%20%28Unl%29.png

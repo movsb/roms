@@ -168,6 +168,7 @@ releases:
     kind_id: 14394
     language: 1
     name: Karateka (Japan)
+    deprecated: 1
   - id: 61181
     kind: 3
     kind_id: 14394
@@ -178,6 +179,13 @@ releases:
     kind_id: 14394
     language: 1
     name: Karateka (J) [!]
+    deprecated: 1
+  - id: 258549
+    kind: 3
+    kind_id: 14394
+    language: 1
+    name: Karateka (Japan) (En)
+    source: no-intro
   release_publishers:
   - release_id: 14394
     publisher_id: 134
@@ -187,13 +195,14 @@ releases:
       kind: 3
       kind_id: 14394
       type: 1
-      name: Karateka (Japan).nes
+      name: Karateka (Japan) (En).nes
       format: 1
       size: 24592
       blob_id: 60169
       debug: |-
         Karateka (Japan).zip
         决战富士山 (日版) (格斗)-Karateka (Japan) + Karateka (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=9d6eeef0cad251f1ccddb6078bb7d0cbe56b9231
   - asset:
       id: 138548
       kind: 3

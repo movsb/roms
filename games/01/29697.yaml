@@ -12,6 +12,13 @@ names:
   kind_id: 29697
   language: 1
   name: Hoshi wo Miru Hito (J)
+  deprecated: 1
+- id: 263468
+  kind: 2
+  kind_id: 29697
+  language: 1
+  name: Hoshi o Miru Hito
+  source: no-intro
 releases:
 - release:
     id: 29697
@@ -27,14 +34,34 @@ releases:
     kind_id: 29697
     language: 1
     name: Hoshi wo Miru Hito (J)
+    deprecated: 1
+  - id: 261151
+    kind: 3
+    kind_id: 29697
+    language: 1
+    name: Hoshi o Miru Hito (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 29679
       kind: 3
       kind_id: 29697
       type: 1
-      name: 观星人 (日版) (角色扮演)-Hoshi wo Miru Hito (Japan) + Hoshi wo Miru Hito (J).nes
+      name: Hoshi o Miru Hito (Japan).nes
       format: 1
       size: 131088
       blob_id: 73740
-      debug: 观星人 (日版) (角色扮演)-Hoshi wo Miru Hito (Japan) + Hoshi wo Miru Hito (J).nes
+      debug: |-
+        观星人 (日版) (角色扮演)-Hoshi wo Miru Hito (Japan) + Hoshi wo Miru Hito (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=81cadef9e857181483c0e8b1900fc00e591635f4
+  - asset:
+      id: 140222
+      kind: 3
+      kind_id: 29697
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Hoshi%20o%20Miru%20Hito%20%28Japan%29.png
+      format: 1
+      size: 2051
+      blob_id: 325541
+      debug: libretro-named-titles:rom-asset=29679:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Hoshi%20o%20Miru%20Hito%20%28Japan%29.png

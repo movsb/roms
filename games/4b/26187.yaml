@@ -7,12 +7,19 @@ names:
   kind_id: 26187
   language: 1
   name: Xiang Shuai Chuan Qi (NJxxx) (Ch) [a1]
+  deprecated: 1
 - id: 248916
   kind: 2
   kind_id: 26187
   language: 2
   name: 香帅传奇
   source: codex
+- id: 262316
+  kind: 2
+  kind_id: 26187
+  language: 1
+  name: "Da Xieke - Chuliuxiang"
+  source: no-intro
 releases:
 - release:
     id: 26187
@@ -23,14 +30,34 @@ releases:
     kind_id: 26187
     language: 1
     name: Xiang Shuai Chuan Qi (NJxxx) (Ch) [a1]
+    deprecated: 1
+  - id: 259843
+    kind: 3
+    kind_id: 26187
+    language: 1
+    name: "Da Xieke - Chuliuxiang (China) (Aftermarket) (Unl)"
+    source: no-intro
   assets:
   - asset:
       id: 26169
       kind: 3
       kind_id: 26187
       type: 1
-      name: Xiang Shuai Chuan Qi (NJxxx) (Ch) [a1].nes
+      name: "Da Xieke - Chuliuxiang (China) (Aftermarket) (Unl).nes"
       format: 1
       size: 1048592
       blob_id: 71329
-      debug: Xiang Shuai Chuan Qi (NJxxx) (Ch) [a1].nes
+      debug: |-
+        Xiang Shuai Chuan Qi (NJxxx) (Ch) [a1].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=481981a637bddad7782a8b8cd77922f50eb84e4b
+  - asset:
+      id: 139903
+      kind: 3
+      kind_id: 26187
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Da%20Xieke%20-%20Chuliuxiang%20%28China%29%20%28Aftermarket%29%20%28Unl%29.png
+      format: 1
+      size: 2598
+      blob_id: 325271
+      debug: libretro-named-titles:rom-asset=26169:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Da%20Xieke%20-%20Chuliuxiang%20%28China%29%20%28Aftermarket%29%20%28Unl%29.png

@@ -7,12 +7,19 @@ names:
   kind_id: 17113
   language: 1
   name: "Mr. Splash! - Columbia Version (Unl)"
+  deprecated: 1
 - id: 249290
   kind: 2
   kind_id: 17113
   language: 2
   name: 水花先生！哥伦比亚版
   source: codex
+- id: 261940
+  kind: 2
+  kind_id: 17113
+  language: 1
+  name: Mr. Splash
+  source: no-intro
 releases:
 - release:
     id: 17113
@@ -23,14 +30,32 @@ releases:
     kind_id: 17113
     language: 1
     name: "Mr. Splash! - Columbia Version (Unl)"
+    deprecated: 1
+  - id: 258889
+    kind: 3
+    kind_id: 17113
+    language: 1
+    name: Mr. Splash (Japan) (En) (Columbia Version) (Aftermarket) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 17095
       kind: 3
       kind_id: 17113
       type: 1
-      name: "Mr. Splash! - Columbia Version (Unl).nes"
+      name: Mr. Splash (Japan) (En) (Columbia Version) (Aftermarket) (Unl).nes
       format: 1
       size: 65552
       blob_id: 62707
-      debug: "Mr. Splash! - Columbia Version (Unl).nes"
+      debug: "Mr. Splash! - Columbia Version (Unl).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=de388fdc442d1c0d8b090b652e2c0688f780d933"
+  - asset:
+      id: 139613
+      kind: 3
+      kind_id: 17113
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mr.%20Splash%20%28Japan%29%20%28En%29%20%28Columbia%20Version%29%20%28Aftermarket%29%20%28Unl%29.png
+      format: 1
+      size: 3880
+      blob_id: 325016
+      debug: libretro-named-titles:rom-asset=17095:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mr.%20Splash%20%28Japan%29%20%28En%29%20%28Columbia%20Version%29%20%28Aftermarket%29%20%28Unl%29.png

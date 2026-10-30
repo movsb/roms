@@ -12,6 +12,13 @@ names:
   kind_id: 27118
   language: 1
   name: Quest of Ki, The (J)
+  deprecated: 1
+- id: 262540
+  kind: 2
+  kind_id: 27118
+  language: 1
+  name: "Ki no Bouken - The Quest of Ki"
+  source: no-intro
 releases:
 - release:
     id: 27118
@@ -27,14 +34,34 @@ releases:
     kind_id: 27118
     language: 1
     name: Quest of Ki, The (J)
+    deprecated: 1
+  - id: 260121
+    kind: 3
+    kind_id: 27118
+    language: 1
+    name: "Ki no Bouken - The Quest of Ki (Japan)"
+    source: no-intro
   assets:
   - asset:
       id: 27100
       kind: 3
       kind_id: 27118
       type: 1
-      name: 凯伊历险记 (日版) (动作)-Quest of Ki, The (Japan) + Quest of Ki, The (J).nes
+      name: "Ki no Bouken - The Quest of Ki (Japan).nes"
       format: 1
       size: 196624
       blob_id: 72074
-      debug: 凯伊历险记 (日版) (动作)-Quest of Ki, The (Japan) + Quest of Ki, The (J).nes
+      debug: |-
+        凯伊历险记 (日版) (动作)-Quest of Ki, The (Japan) + Quest of Ki, The (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=eb576dcde0bfa51f039d153804b8614d53b8f0c9
+  - asset:
+      id: 140011
+      kind: 3
+      kind_id: 27118
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Ki%20no%20Bouken%20-%20The%20Quest%20of%20Ki%20%28Japan%29.png
+      format: 1
+      size: 2393
+      blob_id: 325358
+      debug: libretro-named-titles:rom-asset=27100:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Ki%20no%20Bouken%20-%20The%20Quest%20of%20Ki%20%28Japan%29.png

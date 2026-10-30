@@ -12,6 +12,13 @@ names:
   kind_id: 25976
   language: 1
   name: Windows 2000 (Ch) (PAL)
+  deprecated: 1
+- id: 262301
+  kind: 2
+  kind_id: 25976
+  language: 1
+  name: Windows 2000
+  source: no-intro
 releases:
 - release:
     id: 25976
@@ -27,14 +34,34 @@ releases:
     kind_id: 25976
     language: 1
     name: Windows 2000 (Ch) (PAL)
+    deprecated: 1
+  - id: 259812
+    kind: 3
+    kind_id: 25976
+    language: 1
+    name: Windows 2000 (Asia) (Subor Keyboard) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 25958
       kind: 3
       kind_id: 25976
       type: 1
-      name: Windows 2000[未知] + Windows 2000 (Ch) (PAL).nes
+      name: Windows 2000 (Asia) (Subor Keyboard) (Pirate).nes
       format: 1
       size: 524304
       blob_id: 71134
-      debug: Windows 2000[未知] + Windows 2000 (Ch) (PAL).nes
+      debug: |-
+        Windows 2000[未知] + Windows 2000 (Ch) (PAL).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=3e12b73a4e357c3bce55fffaf673c65692c944b3
+  - asset:
+      id: 139892
+      kind: 3
+      kind_id: 25976
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Windows%202000%20%28Asia%29%20%28Subor%20Keyboard%29%20%28Pirate%29.png
+      format: 1
+      size: 3229
+      blob_id: 325260
+      debug: libretro-named-titles:rom-asset=25958:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Windows%202000%20%28Asia%29%20%28Subor%20Keyboard%29%20%28Pirate%29.png

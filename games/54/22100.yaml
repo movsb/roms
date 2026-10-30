@@ -13,6 +13,7 @@ names:
   kind_id: 22100
   language: 1
   name: Street Fighter III (9 Fighter) (Unl)
+  deprecated: 1
 - id: 69685
   kind: 2
   kind_id: 22100
@@ -23,11 +24,18 @@ names:
   kind_id: 22100
   language: 1
   name: Street Fighter III (18 Fighter) (Unl) [!]
+  deprecated: 1
 - id: 93126
   kind: 2
   kind_id: 22100
   language: 1
   name: Street Fighter III
+- id: 262159
+  kind: 2
+  kind_id: 22100
+  language: 1
+  name: Street Fighter III
+  source: no-intro
 releases:
 - release:
     id: 22100
@@ -38,24 +46,32 @@ releases:
     kind_id: 22100
     language: 1
     name: Street Fighter III (18 Fighter) (Unl) [!]
+    deprecated: 1
   - id: 69687
     kind: 3
     kind_id: 22100
     language: 2
     name: 街霸18人
+  - id: 259437
+    kind: 3
+    kind_id: 22100
+    language: 1
+    name: Street Fighter III (Asia) (En) (18 Fighters) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 22082
       kind: 3
       kind_id: 22100
       type: 1
-      name: Street Fighter III (18 Fighter) (Unl) [!].nes
+      name: Street Fighter III (Asia) (En) (18 Fighters) (Pirate).nes
       format: 1
       size: 655376
       blob_id: 67442
       debug: |-
         Street Fighter III (18 Fighter) (Unl) [!].zip
         街霸18人 + Street Fighter III (18 Fighter) (Unl) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=302183f0486788dd62b5baf2f0180a133254a0ac
 - release:
     id: 22107
     game_id: 22100
@@ -65,21 +81,29 @@ releases:
     kind_id: 22107
     language: 1
     name: Street Fighter III (9 Fighter) (Unl)
+    deprecated: 1
   - id: 60167
     kind: 3
     kind_id: 22107
     language: 2
     name: 九人街霸(中文)
+  - id: 259438
+    kind: 3
+    kind_id: 22107
+    language: 1
+    name: Street Fighter III (Asia) (En) (9 Fighters) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 22089
       kind: 3
       kind_id: 22107
       type: 1
-      name: Street Fighter III (9 Fighter) (Unl).nes
+      name: Street Fighter III (Asia) (En) (9 Fighters) (Pirate).nes
       format: 1
       size: 655376
       blob_id: 67449
       debug: |-
         Street Fighter III (9 Fighter) (Unl).zip
         九人街霸(中文) + Street Fighter III (9 Fighter) (Unl).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=13ff5a62afe5ee7b4ea5d537ee92bfa253eb98f6

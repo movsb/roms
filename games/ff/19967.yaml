@@ -22,17 +22,26 @@ releases:
     kind_id: 19967
     language: 1
     name: RoadBlasters (E)
+    deprecated: 1
+  - id: 259178
+    kind: 3
+    kind_id: 19967
+    language: 1
+    name: RoadBlasters (Europe)
+    source: no-intro
   assets:
   - asset:
       id: 19949
       kind: 3
       kind_id: 19967
       type: 1
-      name: RoadBlasters (E).nes
+      name: RoadBlasters (Europe).nes
       format: 1
       size: 262160
       blob_id: 65428
-      debug: RoadBlasters (E).nes
+      debug: |-
+        RoadBlasters (E).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=4c9a3c4d06ea3b8d33ba5bbb6de682605233bf13
   - asset:
       id: 138649
       kind: 3
@@ -53,23 +62,31 @@ releases:
     kind_id: 19968
     language: 1
     name: RoadBlasters (U) [!]
+    deprecated: 1
   - id: 44476
     kind: 3
     kind_id: 19968
     language: 1
     name: RoadBlasters (U)
+    deprecated: 1
   - id: 60910
     kind: 3
     kind_id: 19968
     language: 2
     name: 公路的赛车
+  - id: 259179
+    kind: 3
+    kind_id: 19968
+    language: 1
+    name: RoadBlasters (USA)
+    source: no-intro
   assets:
   - asset:
       id: 19950
       kind: 3
       kind_id: 19968
       type: 1
-      name: RoadBlasters (U) [!].nes
+      name: RoadBlasters (USA).nes
       format: 1
       size: 262160
       blob_id: 65429
@@ -78,6 +95,7 @@ releases:
         RoadBlasters (U).zip
         公路的赛车.nes
         重复的/疾风公路赛 (美版) (竞赛)-RoadBlasters (USA) + RoadBlasters (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=e2d01473f433826590d7a1dfaabbce42af57d8d7
   - asset:
       id: 137246
       kind: 3
@@ -98,17 +116,37 @@ releases:
     kind_id: 19976
     language: 1
     name: RoadBlasters (U) [p1][!]
+    deprecated: 1
+  - id: 259180
+    kind: 3
+    kind_id: 19976
+    language: 1
+    name: RoadBlasters (Asia) (En) (R-B1) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 19958
       kind: 3
       kind_id: 19976
       type: 1
-      name: RoadBlasters (U) [p1][!].nes
+      name: RoadBlasters (Asia) (En) (R-B1) (Pirate).nes
       format: 1
       size: 262160
       blob_id: 65437
-      debug: RoadBlasters (U) [p1][!].nes
+      debug: |-
+        RoadBlasters (U) [p1][!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=ec45bf207c2dba19d9ec1e75d124f1b02df7973b
+  - asset:
+      id: 139703
+      kind: 3
+      kind_id: 19976
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/RoadBlasters%20%28Asia%29%20%28En%29%20%28R-B1%29%20%28Pirate%29.png
+      format: 1
+      size: 1811
+      blob_id: 325094
+      debug: libretro-named-titles:rom-asset=19958:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/RoadBlasters%20%28Asia%29%20%28En%29%20%28R-B1%29%20%28Pirate%29.png
 - release:
     id: 19977
     game_id: 19967

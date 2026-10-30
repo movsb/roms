@@ -13,6 +13,12 @@ names:
   language: 2
   name: 热血足球3
   source: codex
+- id: 261744
+  kind: 2
+  kind_id: 12345
+  language: 1
+  name: Goal 3
+  source: no-intro
 releases:
 - release:
     id: 12345
@@ -23,19 +29,38 @@ releases:
     kind_id: 12345
     language: 1
     name: Goal 3 (Unl) [!]
+    deprecated: 1
+  - id: 258324
+    kind: 3
+    kind_id: 12345
+    language: 1
+    name: Goal 3 (Asia) (Ja) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 12327
       kind: 3
       kind_id: 12345
       type: 1
-      name: Goal 3 (Unl) [!].nes
+      name: Goal 3 (Asia) (Ja) (Pirate).nes
       format: 1
       size: 262160
       blob_id: 58249
       debug: |-
         Goal 3 (Unl) [!].nes
         Goal 3 (Unl) [!].zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=df6673040a172c8bcaa4237bf19f98f22036170f
+  - asset:
+      id: 139417
+      kind: 3
+      kind_id: 12345
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Goal%203%20%28Asia%29%20%28Ja%29%20%28Pirate%29.png
+      format: 1
+      size: 3587
+      blob_id: 324853
+      debug: libretro-named-titles:rom-asset=12327:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Goal%203%20%28Asia%29%20%28Ja%29%20%28Pirate%29.png
 - release:
     id: 12347
     game_id: 12345
@@ -45,14 +70,23 @@ releases:
     kind_id: 12347
     language: 1
     name: Goal 3 (Unl) [a1]
+    deprecated: 1
+  - id: 258325
+    kind: 3
+    kind_id: 12347
+    language: 1
+    name: Goal 3 (Asia) (Ja) (1996) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 12329
       kind: 3
       kind_id: 12347
       type: 1
-      name: Goal 3 (Unl) [a1].nes
+      name: Goal 3 (Asia) (Ja) (1996) (Pirate).nes
       format: 1
       size: 262160
       blob_id: 58250
-      debug: Goal 3 (Unl) [a1].nes
+      debug: |-
+        Goal 3 (Unl) [a1].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=6028de7072842a17bdc519c1843580e3ba92ed1c

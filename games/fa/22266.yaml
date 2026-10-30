@@ -148,6 +148,7 @@ releases:
     kind_id: 22279
     language: 1
     name: Super Arabian (Japan)
+    deprecated: 1
   - id: 70297
     kind: 3
     kind_id: 22279
@@ -158,6 +159,13 @@ releases:
     kind_id: 22279
     language: 1
     name: Super Arabian (J)
+    deprecated: 1
+  - id: 259463
+    kind: 3
+    kind_id: 22279
+    language: 1
+    name: Super Arabian (Japan) (En)
+    source: no-intro
   release_publishers:
   - release_id: 22279
     publisher_id: 142
@@ -167,13 +175,14 @@ releases:
       kind: 3
       kind_id: 22279
       type: 1
-      name: Super Arabian (Japan).nes
+      name: Super Arabian (Japan) (En).nes
       format: 1
       size: 24592
       blob_id: 67605
       debug: |-
         Super Arabian (Japan).zip
         超级阿拉伯世界 + Super Arabian (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=d3f03cef09f84284af3fa6dd95a7057e9b7ea33d
   - asset:
       id: 138707
       kind: 3

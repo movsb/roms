@@ -7,12 +7,19 @@ names:
   kind_id: 12634
   language: 1
   name: Grave Digger by Tarnow, Hollis, Gillotti & Subramanian (PD)
+  deprecated: 1
 - id: 253056
   kind: 2
   kind_id: 12634
   language: 2
   name: 掘墓人
   source: codex
+- id: 261757
+  kind: 2
+  kind_id: 12634
+  language: 1
+  name: Gravedigger
+  source: no-intro
 releases:
 - release:
     id: 12634
@@ -23,14 +30,34 @@ releases:
     kind_id: 12634
     language: 1
     name: Grave Digger by Tarnow, Hollis, Gillotti & Subramanian (PD)
+    deprecated: 1
+  - id: 258361
+    kind: 3
+    kind_id: 12634
+    language: 1
+    name: Gravedigger (World) (Aftermarket) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 12616
       kind: 3
       kind_id: 12634
       type: 1
-      name: Grave Digger by Tarnow, Hollis, Gillotti & Subramanian (PD).nes
+      name: Gravedigger (World) (Aftermarket) (Unl).nes
       format: 1
       size: 40976
       blob_id: 58522
-      debug: Grave Digger by Tarnow, Hollis, Gillotti & Subramanian (PD).nes
+      debug: |-
+        Grave Digger by Tarnow, Hollis, Gillotti & Subramanian (PD).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=10a5127ffeafd7aa0cfd618f91ec4570dd37483f
+  - asset:
+      id: 139427
+      kind: 3
+      kind_id: 12634
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Gravedigger%20%28World%29%20%28Aftermarket%29%20%28Unl%29.png
+      format: 1
+      size: 1446
+      blob_id: 324860
+      debug: libretro-named-titles:rom-asset=12616:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Gravedigger%20%28World%29%20%28Aftermarket%29%20%28Unl%29.png

@@ -48,6 +48,7 @@ releases:
     kind_id: 16740
     language: 1
     name: Miracle Ropit's Adventure in 2100 (Japan)
+    deprecated: 1
   - id: 68305
     kind: 3
     kind_id: 16740
@@ -58,6 +59,13 @@ releases:
     kind_id: 16740
     language: 1
     name: Miracle Ropit's Adventure in 2100 (J) [!]
+    deprecated: 1
+  - id: 258824
+    kind: 3
+    kind_id: 16740
+    language: 1
+    name: "Miracle Ropit's - 2100 Nen no Daibouken (Japan)"
+    source: no-intro
   release_publishers:
   - release_id: 16740
     publisher_id: 164
@@ -67,10 +75,22 @@ releases:
       kind: 3
       kind_id: 16740
       type: 1
-      name: Miracle Ropit's Adventure in 2100 (Japan).nes
+      name: "Miracle Ropit's - 2100 Nen no Daibouken (Japan).nes"
       format: 1
       size: 131088
       blob_id: 62366
       debug: |-
         Miracle Ropit's Adventure in 2100 (Japan).zip
         神奇罗比特大冒险 2100 (日版) (动作)-Miracle Ropits Adventure in 2100 (Japan) + Miracle Ropit's Adventure in 2100 (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=4e2b75e0b249d2a1db6b73a2f35636f514f7175d
+  - asset:
+      id: 139587
+      kind: 3
+      kind_id: 16740
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Miracle%20Ropit%27s%20-%202100%20Nen%20no%20Daibouken%20%28Japan%29.png
+      format: 1
+      size: 3850
+      blob_id: 324994
+      debug: libretro-named-titles:rom-asset=16722:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Miracle%20Ropit%27s%20-%202100%20Nen%20no%20Daibouken%20%28Japan%29.png

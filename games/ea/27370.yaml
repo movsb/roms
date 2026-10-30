@@ -17,6 +17,13 @@ names:
   kind_id: 27370
   language: 1
   name: Tang Mu Li Xian Ji (Ch)
+  deprecated: 1
+- id: 262630
+  kind: 2
+  kind_id: 27370
+  language: 1
+  name: Tangmu Lixianji
+  source: no-intro
 releases:
 - release:
     id: 27370
@@ -37,16 +44,35 @@ releases:
     kind_id: 27370
     language: 1
     name: Tang Mu Li Xian Ji (Ch)
+    deprecated: 1
+  - id: 260223
+    kind: 3
+    kind_id: 27370
+    language: 1
+    name: Tangmu Lixianji (China) (Aftermarket) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 27352
       kind: 3
       kind_id: 27370
       type: 1
-      name: 史克威尔的汤姆历险记.nes
+      name: Tangmu Lixianji (China) (Aftermarket) (Pirate).nes
       format: 1
       size: 524304
       blob_id: 72237
       debug: |-
         史克威尔的汤姆历险记.zip
         汤姆历险记 + Tang Mu Li Xian Ji (Ch).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=b9f444ff60f60c177eeec8671bec3731b0f6fe49
+  - asset:
+      id: 140036
+      kind: 3
+      kind_id: 27370
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Tangmu%20Lixianji%20%28China%29%20%28Aftermarket%29%20%28Pirate%29.png
+      format: 1
+      size: 4663
+      blob_id: 325381
+      debug: libretro-named-titles:rom-asset=27352:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Tangmu%20Lixianji%20%28China%29%20%28Aftermarket%29%20%28Pirate%29.png

@@ -13,6 +13,12 @@ names:
   language: 2
   name: 电视动画制作
   source: codex
+- id: 262278
+  kind: 2
+  kind_id: 25595
+  language: 1
+  name: Videomation
+  source: no-intro
 releases:
 - release:
     id: 25595
@@ -23,18 +29,26 @@ releases:
     kind_id: 25595
     language: 1
     name: Videomation (U) [!]
+    deprecated: 1
   - id: 57232
     kind: 3
     kind_id: 25595
     language: 1
     name: Videomation (U)
+    deprecated: 1
+  - id: 259760
+    kind: 3
+    kind_id: 25595
+    language: 1
+    name: Videomation (USA)
+    source: no-intro
   assets:
   - asset:
       id: 25577
       kind: 3
       kind_id: 25595
       type: 1
-      name: Videomation (U) [!].nes
+      name: Videomation (USA).nes
       format: 1
       size: 32784
       blob_id: 70784
@@ -42,6 +56,7 @@ releases:
         Videomation (U) [!].nes
         Videomation (U) [!].zip
         Videomation (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=3e24edd8c06713b775eaa66f3468f71693a542a9
   - asset:
       id: 137450
       kind: 3

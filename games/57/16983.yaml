@@ -12,11 +12,18 @@ names:
   kind_id: 16983
   language: 1
   name: Moon Ranger (Bunch) [!]
+  deprecated: 1
 - id: 92550
   kind: 2
   kind_id: 16983
   language: 1
   name: Moon Ranger
+- id: 261925
+  kind: 2
+  kind_id: 16983
+  language: 1
+  name: Moon Ranger
+  source: no-intro
 releases:
 - release:
     id: 16984
@@ -27,11 +34,13 @@ releases:
     kind_id: 16984
     language: 1
     name: Moon Ranger (U)
+    deprecated: 1
   - id: 37886
     kind: 3
     kind_id: 16984
     language: 1
     name: Moon Ranger (Unl) [!p]
+    deprecated: 1
   - id: 65951
     kind: 3
     kind_id: 16984
@@ -42,13 +51,20 @@ releases:
     kind_id: 16984
     language: 1
     name: Moon Ranger (Bunch) [!]
+    deprecated: 1
+  - id: 258859
+    kind: 3
+    kind_id: 16984
+    language: 1
+    name: Moon Ranger (USA) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 16966
       kind: 3
       kind_id: 16984
       type: 1
-      name: Moon Ranger (U).nes
+      name: Moon Ranger (USA) (Unl).nes
       format: 1
       size: 131088
       blob_id: 62595
@@ -56,3 +72,15 @@ releases:
         Moon Ranger (U).zip
         Moon Ranger (Unl) [!p].zip
         月球守护者 (美版) (射击)-Moon Ranger (USA) (Unl) + Moon Ranger (Bunch) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=1eb59bc8a07f9d8b41f6f04e5c16b98f2e9975ec
+  - asset:
+      id: 139603
+      kind: 3
+      kind_id: 16984
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Moon%20Ranger%20%28USA%29%20%28Unl%29.png
+      format: 1
+      size: 2517
+      blob_id: 325006
+      debug: libretro-named-titles:rom-asset=16966:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Moon%20Ranger%20%28USA%29%20%28Unl%29.png

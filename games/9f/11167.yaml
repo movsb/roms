@@ -12,11 +12,18 @@ names:
   kind_id: 11167
   language: 1
   name: Family Feud (U) [!]
+  deprecated: 1
 - id: 91839
   kind: 2
   kind_id: 11167
   language: 1
   name: Family Feud
+- id: 261694
+  kind: 2
+  kind_id: 11167
+  language: 1
+  name: Family Feud
+  source: no-intro
 releases:
 - release:
     id: 11167
@@ -27,23 +34,31 @@ releases:
     kind_id: 11167
     language: 1
     name: Family Feud (U) [!]
+    deprecated: 1
   - id: 24288
     kind: 3
     kind_id: 11167
     language: 1
     name: Family Feud (U)
+    deprecated: 1
   - id: 63463
     kind: 3
     kind_id: 11167
     language: 2
     name: 家庭对抗赛 (美版) (益智)-Family Feud (USA)
+  - id: 258186
+    kind: 3
+    kind_id: 11167
+    language: 1
+    name: Family Feud (USA)
+    source: no-intro
   assets:
   - asset:
       id: 11149
       kind: 3
       kind_id: 11167
       type: 1
-      name: Family Feud (U) [!].nes
+      name: Family Feud (USA).nes
       format: 1
       size: 163856
       blob_id: 57139
@@ -51,6 +66,7 @@ releases:
         Family Feud (U) [!].zip
         Family Feud (U).zip
         家庭对抗赛 (美版) (益智)-Family Feud (USA) + Family Feud (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=1cce6ad433e22f3c0933aae4b8c61e7299083968
   - asset:
       id: 136873
       kind: 3

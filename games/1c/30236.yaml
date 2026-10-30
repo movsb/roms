@@ -12,6 +12,13 @@ names:
   kind_id: 30236
   language: 1
   name: Golf Ko Open (J)
+  deprecated: 1
+- id: 263665
+  kind: 2
+  kind_id: 30236
+  language: 1
+  name: Golfkko Open
+  source: no-intro
 releases:
 - release:
     id: 30236
@@ -27,14 +34,34 @@ releases:
     kind_id: 30236
     language: 1
     name: Golf Ko Open (J)
+    deprecated: 1
+  - id: 261363
+    kind: 3
+    kind_id: 30236
+    language: 1
+    name: Golfkko Open (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 30218
       kind: 3
       kind_id: 30236
       type: 1
-      name: 高尔夫公开赛 (日版) (运动)-Golf Ko Open (Japan) + Golf Ko Open (J).nes
+      name: Golfkko Open (Japan).nes
       format: 1
       size: 393232
       blob_id: 74080
-      debug: 高尔夫公开赛 (日版) (运动)-Golf Ko Open (Japan) + Golf Ko Open (J).nes
+      debug: |-
+        高尔夫公开赛 (日版) (运动)-Golf Ko Open (Japan) + Golf Ko Open (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=a965570e7a28dff7340b31c3cbc635cccb724959
+  - asset:
+      id: 140249
+      kind: 3
+      kind_id: 30236
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Golfkko%20Open%20%28Japan%29.png
+      format: 1
+      size: 2060
+      blob_id: 325563
+      debug: libretro-named-titles:rom-asset=30218:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Golfkko%20Open%20%28Japan%29.png

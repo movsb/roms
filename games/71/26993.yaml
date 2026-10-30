@@ -17,6 +17,13 @@ names:
   kind_id: 26993
   language: 1
   name: Kid Icarus (E) (PRG1) [!]
+  deprecated: 1
+- id: 262509
+  kind: 2
+  kind_id: 26993
+  language: 1
+  name: Kid Icarus
+  source: no-intro
 releases:
 - release:
     id: 26993
@@ -37,14 +44,32 @@ releases:
     kind_id: 26993
     language: 1
     name: Kid Icarus (E) (PRG1) [!]
+    deprecated: 1
+  - id: 260089
+    kind: 3
+    kind_id: 26993
+    language: 1
+    name: Kid Icarus (USA, Europe) (Rev 1)
+    source: no-intro
   assets:
   - asset:
       id: 26975
       kind: 3
       kind_id: 26993
       type: 1
-      name: 光之神话.nes
+      name: Kid Icarus (USA, Europe) (Rev 1).nes
       format: 1
       size: 131088
       blob_id: 71994
-      debug: "光之神话.zip\n光神话 - 帕尔提娜之镜 (欧版)(Rev A) (动作)-Kid Icarus - Angel Land Story (Europe) (Rev A) + Kid Icarus (E) (PRG1) [!].nes"
+      debug: "光之神话.zip\n光神话 - 帕尔提娜之镜 (欧版)(Rev A) (动作)-Kid Icarus - Angel Land Story (Europe) (Rev A) + Kid Icarus (E) (PRG1) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=85de67a28e01ef680f2ff6aae80e4315491ceee9"
+  - asset:
+      id: 140003
+      kind: 3
+      kind_id: 26993
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Kid%20Icarus%20%28USA%2C%20Europe%29%20%28Rev%201%29.png
+      format: 1
+      size: 2707
+      blob_id: 325351
+      debug: libretro-named-titles:rom-asset=26975:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Kid%20Icarus%20%28USA%2C%20Europe%29%20%28Rev%201%29.png

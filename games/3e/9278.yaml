@@ -54,23 +54,31 @@ releases:
     kind_id: 9264
     language: 1
     name: Crystalis (U) [!]
+    deprecated: 1
   - id: 19826
     kind: 3
     kind_id: 9264
     language: 1
     name: Crystalis (U)
+    deprecated: 1
   - id: 63037
     kind: 3
     kind_id: 9264
     language: 2
     name: 天神之剑 (美版) (动作角色扮演)-Crystalis (USA)
+  - id: 257951
+    kind: 3
+    kind_id: 9264
+    language: 1
+    name: Crystalis (USA)
+    source: no-intro
   assets:
   - asset:
       id: 9246
       kind: 3
       kind_id: 9264
       type: 1
-      name: Crystalis (U) [!].nes
+      name: Crystalis (USA).nes
       format: 1
       size: 393232
       blob_id: 55358
@@ -78,6 +86,7 @@ releases:
         Crystalis (U) [!].zip
         Crystalis (U).zip
         天神之剑 (美版) (动作角色扮演)-Crystalis (USA) + Crystalis (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=8a49fe60b6a151c055a63639894cd366935a7ee9
   - asset:
       id: 136789
       kind: 3
@@ -158,14 +167,34 @@ releases:
     kind_id: 9278
     language: 1
     name: Crystalis
+    deprecated: 1
+  - id: 257952
+    kind: 3
+    kind_id: 9278
+    language: 1
+    name: Crystalis (USA)
+    source: no-intro
   assets:
   - asset:
       id: 9260
       kind: 3
       kind_id: 9278
       type: 1
-      name: Crystalis.nes
+      name: Crystalis (USA).nes
       format: 1
       size: 393232
       blob_id: 55371
-      debug: Crystalis.zip
+      debug: |-
+        Crystalis.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=8a49fe60b6a151c055a63639894cd366935a7ee9
+  - asset:
+      id: 139358
+      kind: 3
+      kind_id: 9278
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Crystalis%20%28USA%29.png
+      format: 1
+      size: 3065
+      blob_id: 324800
+      debug: libretro-named-titles:rom-asset=9260:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Crystalis%20%28USA%29.png

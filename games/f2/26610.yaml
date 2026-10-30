@@ -13,6 +13,12 @@ names:
   language: 1
   name: Yinhe Shidai
   source: codex
+- id: 262348
+  kind: 2
+  kind_id: 26610
+  language: 1
+  name: Yinhe Shidai
+  source: no-intro
 releases:
 - release:
     id: 26610
@@ -23,14 +29,31 @@ releases:
     kind_id: 26610
     language: 2
     name: "[WaiXing] 银河时代 (C)"
+  - id: 259908
+    kind: 3
+    kind_id: 26610
+    language: 1
+    name: Yinhe Shidai (China) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 26592
       kind: 3
       kind_id: 26610
       type: 1
-      name: "[WaiXing] 银河时代 (C).nes"
+      name: Yinhe Shidai (China) (Pirate).nes
       format: 1
       size: 524304
       blob_id: 71733
-      debug: "[WaiXing] 银河时代 (C).nes"
+      debug: "[WaiXing] 银河时代 (C).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=7421dbf5e9adf6ebf74cf2685ab32c1cbc3201f7"
+  - asset:
+      id: 139941
+      kind: 3
+      kind_id: 26610
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Yinhe%20Shidai%20%28China%29%20%28Pirate%29.png
+      format: 1
+      size: 3533
+      blob_id: 325302
+      debug: libretro-named-titles:rom-asset=26592:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Yinhe%20Shidai%20%28China%29%20%28Pirate%29.png

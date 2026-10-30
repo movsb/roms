@@ -12,6 +12,13 @@ names:
   kind_id: 28572
   language: 1
   name: "Mirai Senshi - Lios (J)"
+  deprecated: 1
+- id: 263068
+  kind: 2
+  kind_id: 28572
+  language: 1
+  name: "Future Wars - Mirai Senshi Lios"
+  source: no-intro
 releases:
 - release:
     id: 28572
@@ -27,14 +34,32 @@ releases:
     kind_id: 28572
     language: 1
     name: "Mirai Senshi - Lios (J)"
+    deprecated: 1
+  - id: 260706
+    kind: 3
+    kind_id: 28572
+    language: 1
+    name: "Future Wars - Mirai Senshi Lios (Japan)"
+    source: no-intro
   assets:
   - asset:
       id: 28554
       kind: 3
       kind_id: 28572
       type: 1
-      name: "未来战史 (日版) (策略)-Mirai Senshi - Lios (Japan) + Mirai Senshi - Lios (J).nes"
+      name: "Future Wars - Mirai Senshi Lios (Japan).nes"
       format: 1
       size: 262160
       blob_id: 73038
-      debug: "未来战史 (日版) (策略)-Mirai Senshi - Lios (Japan) + Mirai Senshi - Lios (J).nes"
+      debug: "未来战史 (日版) (策略)-Mirai Senshi - Lios (Japan) + Mirai Senshi - Lios (J).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=3473fd11551a399041ddeef6adb45ae9d8d08b7d"
+  - asset:
+      id: 140133
+      kind: 3
+      kind_id: 28572
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Future%20Wars%20-%20Mirai%20Senshi%20Lios%20%28Japan%29.png
+      format: 1
+      size: 1333
+      blob_id: 325465
+      debug: libretro-named-titles:rom-asset=28554:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Future%20Wars%20-%20Mirai%20Senshi%20Lios%20%28Japan%29.png

@@ -12,11 +12,18 @@ names:
   kind_id: 7438
   language: 1
   name: Brush Roller (Unl)
+  deprecated: 1
 - id: 91436
   kind: 2
   kind_id: 7438
   language: 1
   name: Brush Roller
+- id: 261574
+  kind: 2
+  kind_id: 7438
+  language: 1
+  name: Brush Roller
+  source: no-intro
 releases:
 - release:
     id: 7440
@@ -27,21 +34,29 @@ releases:
     kind_id: 7440
     language: 1
     name: Brush Roller (Unl)
+    deprecated: 1
   - id: 61285
     kind: 3
     kind_id: 7440
     language: 2
     name: 刷子与滚筒 (亚洲版) (动作)-Brush Roller (Asia) (Unl)
+  - id: 257820
+    kind: 3
+    kind_id: 7440
+    language: 1
+    name: Brush Roller (Taiwan) (En) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 7422
       kind: 3
       kind_id: 7440
       type: 1
-      name: Brush Roller (Unl).nes
+      name: Brush Roller (Taiwan) (En) (Unl).nes
       format: 1
       size: 24592
       blob_id: 53616
       debug: |-
         Brush Roller (Unl).zip
         刷子与滚筒 (亚洲版) (动作)-Brush Roller (Asia) (Unl) + Brush Roller (Unl).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=2f79a27f2157a0c5d3f1f5d1e7ea04a4331e0fcf

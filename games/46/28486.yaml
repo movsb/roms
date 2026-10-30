@@ -12,6 +12,13 @@ names:
   kind_id: 28486
   language: 1
   name: Xing Ji Zheng Ba (Ch)
+  deprecated: 1
+- id: 263028
+  kind: 2
+  kind_id: 28486
+  language: 1
+  name: Xingji Zhengba
+  source: no-intro
 releases:
 - release:
     id: 28486
@@ -27,14 +34,34 @@ releases:
     kind_id: 28486
     language: 1
     name: Xing Ji Zheng Ba (Ch)
+    deprecated: 1
+  - id: 260662
+    kind: 3
+    kind_id: 28486
+    language: 1
+    name: Xingji Zhengba (China) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 28468
       kind: 3
       kind_id: 28486
       type: 1
-      name: 星际争霸[恒格电子] + Xing Ji Zheng Ba (Ch).nes
+      name: Xingji Zhengba (China) (Unl).nes
       format: 1
       size: 524304
       blob_id: 72977
-      debug: 星际争霸[恒格电子] + Xing Ji Zheng Ba (Ch).nes
+      debug: |-
+        星际争霸[恒格电子] + Xing Ji Zheng Ba (Ch).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=3c72706af5998133ec6be703994c10466a094eab
+  - asset:
+      id: 140124
+      kind: 3
+      kind_id: 28486
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Xingji%20Zhengba%20%28China%29%20%28Unl%29.png
+      format: 1
+      size: 7268
+      blob_id: 325460
+      debug: libretro-named-titles:rom-asset=28468:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Xingji%20Zhengba%20%28China%29%20%28Unl%29.png

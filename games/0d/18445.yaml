@@ -47,11 +47,13 @@ releases:
     kind_id: 18447
     language: 1
     name: Operation Secret Storm (U)
+    deprecated: 1
   - id: 41130
     kind: 3
     kind_id: 18447
     language: 1
     name: Operation Secret Storm (Unl) [!p]
+    deprecated: 1
   - id: 65859
     kind: 3
     kind_id: 18447
@@ -62,13 +64,20 @@ releases:
     kind_id: 18447
     language: 1
     name: Operation Secret Storm (Color Dreams) [!]
+    deprecated: 1
+  - id: 258978
+    kind: 3
+    kind_id: 18447
+    language: 1
+    name: Operation Secret Storm (USA) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 18429
       kind: 3
       kind_id: 18447
       type: 1
-      name: Operation Secret Storm (U).nes
+      name: Operation Secret Storm (USA) (Unl).nes
       format: 1
       size: 131088
       blob_id: 64009
@@ -76,3 +85,15 @@ releases:
         Operation Secret Storm (U).zip
         Operation Secret Storm (Unl) [!p].zip
         暴风行动 (美版) (动作)-Operation Secret Storm (USA) (Unl) + Operation Secret Storm (Color Dreams) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=08f7c1a9b2061e0c3d12eb960a48d022007c6252
+  - asset:
+      id: 139652
+      kind: 3
+      kind_id: 18447
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Operation%20Secret%20Storm%20%28USA%29%20%28Unl%29.png
+      format: 1
+      size: 3921
+      blob_id: 325051
+      debug: libretro-named-titles:rom-asset=18429:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Operation%20Secret%20Storm%20%28USA%29%20%28Unl%29.png

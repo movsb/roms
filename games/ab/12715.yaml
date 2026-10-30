@@ -27,17 +27,37 @@ releases:
     kind_id: 12715
     language: 1
     name: GumShoe
+    deprecated: 1
+  - id: 258374
+    kind: 3
+    kind_id: 12715
+    language: 1
+    name: Gumshoe (USA, Europe)
+    source: no-intro
   assets:
   - asset:
       id: 12697
       kind: 3
       kind_id: 12715
       type: 1
-      name: GumShoe.nes
+      name: Gumshoe (USA, Europe).nes
       format: 1
       size: 163856
       blob_id: 58599
-      debug: GumShoe.zip
+      debug: |-
+        GumShoe.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=f3250a728e7a1c21e011f187b90ee553c2d7fa7c
+  - asset:
+      id: 139432
+      kind: 3
+      kind_id: 12715
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Gumshoe%20%28USA%2C%20Europe%29.png
+      format: 1
+      size: 15355
+      blob_id: 324864
+      debug: libretro-named-titles:rom-asset=12697:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Gumshoe%20%28USA%2C%20Europe%29.png
 - release:
     id: 12716
     game_id: 12715
@@ -47,24 +67,32 @@ releases:
     kind_id: 12716
     language: 1
     name: Gumshoe (U) [!]
+    deprecated: 1
   - id: 68415
     kind: 3
     kind_id: 12716
     language: 2
     name: 秘密行动 (美版,欧版) (光线枪射击)-Gumshoe (USA, Europe)
+  - id: 258375
+    kind: 3
+    kind_id: 12716
+    language: 1
+    name: Gumshoe (USA, Europe)
+    source: no-intro
   assets:
   - asset:
       id: 12698
       kind: 3
       kind_id: 12716
       type: 1
-      name: Gumshoe (U) [!].nes
+      name: Gumshoe (USA, Europe).nes
       format: 1
       size: 163856
       blob_id: 58600
       debug: |-
         Gumshoe (U) [!].zip
         秘密行动 (美版,欧版) (光线枪射击)-Gumshoe (USA, Europe) + Gumshoe (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=f3250a728e7a1c21e011f187b90ee553c2d7fa7c
   - asset:
       id: 136947
       kind: 3

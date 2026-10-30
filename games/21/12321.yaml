@@ -12,11 +12,18 @@ names:
   kind_id: 12321
   language: 1
   name: Ghoul School (U) [!]
+  deprecated: 1
 - id: 91978
   kind: 2
   kind_id: 12321
   language: 1
   name: Ghoul School
+- id: 261740
+  kind: 2
+  kind_id: 12321
+  language: 1
+  name: Ghoul School
+  source: no-intro
 releases:
 - release:
     id: 12321
@@ -27,24 +34,32 @@ releases:
     kind_id: 12321
     language: 1
     name: Ghoul School (U) [!]
+    deprecated: 1
   - id: 64181
     kind: 3
     kind_id: 12321
     language: 2
     name: 幽灵学校 (美版) (动作)-Ghoul School (USA)
+  - id: 258318
+    kind: 3
+    kind_id: 12321
+    language: 1
+    name: Ghoul School (USA)
+    source: no-intro
   assets:
   - asset:
       id: 12303
       kind: 3
       kind_id: 12321
       type: 1
-      name: Ghoul School (U) [!].nes
+      name: Ghoul School (USA).nes
       format: 1
       size: 262160
       blob_id: 58225
       debug: |-
         Ghoul School (U) [!].zip
         幽灵学校 (美版) (动作)-Ghoul School (USA) + Ghoul School (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=cabe711271a3012bb6c37f33f07db5a3d5b8c02f
   - asset:
       id: 136930
       kind: 3
@@ -65,17 +80,26 @@ releases:
     kind_id: 12323
     language: 1
     name: Ghoul School (U)
+    deprecated: 1
+  - id: 258319
+    kind: 3
+    kind_id: 12323
+    language: 1
+    name: Ghoul School (USA)
+    source: no-intro
   assets:
   - asset:
       id: 12305
       kind: 3
       kind_id: 12323
       type: 1
-      name: Ghoul School (U).nes
+      name: Ghoul School (USA).nes
       format: 1
       size: 262160
       blob_id: 58227
-      debug: Ghoul School (U).zip
+      debug: |-
+        Ghoul School (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=cabe711271a3012bb6c37f33f07db5a3d5b8c02f
   - asset:
       id: 138501
       kind: 3

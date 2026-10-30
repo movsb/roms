@@ -67,27 +67,46 @@ releases:
     kind_id: 13646
     language: 1
     name: "Ikari Warriors 2 - Victory Road (U)"
+    deprecated: 1
   - id: 30032
     kind: 3
     kind_id: 13646
     language: 1
     name: "Ikari Warriors II - Victory Road (U) [!]"
+    deprecated: 1
   - id: 64693
     kind: 3
     kind_id: 13646
     language: 2
     name: "怒 II (美版) (动作射击)-Ikari Warriors II - Victory Road (USA)"
+  - id: 258455
+    kind: 3
+    kind_id: 13646
+    language: 1
+    name: "Ikari Warriors II - Victory Road (USA)"
+    source: no-intro
   assets:
   - asset:
       id: 13628
       kind: 3
       kind_id: 13646
       type: 1
-      name: "Ikari Warriors 2 - Victory Road (U).nes"
+      name: "Ikari Warriors II - Victory Road (USA).nes"
       format: 1
       size: 262160
       blob_id: 59485
-      debug: "Ikari Warriors 2 - Victory Road (U).zip\nIkari Warriors II - Victory Road (U) [!].zip\n怒 II (美版) (动作射击)-Ikari Warriors II - Victory Road (USA) + Ikari Warriors II - Victory Road (U) [!].nes"
+      debug: "Ikari Warriors 2 - Victory Road (U).zip\nIkari Warriors II - Victory Road (U) [!].zip\n怒 II (美版) (动作射击)-Ikari Warriors II - Victory Road (USA) + Ikari Warriors II - Victory Road (U) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=de22259e9d662530a327395f7ebdff292e0b9263"
+  - asset:
+      id: 139461
+      kind: 3
+      kind_id: 13646
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Ikari%20Warriors%20II%20-%20Victory%20Road%20%28USA%29.png
+      format: 1
+      size: 2415
+      blob_id: 324892
+      debug: libretro-named-titles:rom-asset=13628:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Ikari%20Warriors%20II%20-%20Victory%20Road%20%28USA%29.png
 - release:
     id: 13656
     game_id: 13646

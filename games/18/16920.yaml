@@ -12,11 +12,18 @@ names:
   kind_id: 16920
   language: 1
   name: Monopoly (U) [!]
+  deprecated: 1
 - id: 92543
   kind: 2
   kind_id: 16920
   language: 1
   name: Monopoly
+- id: 261924
+  kind: 2
+  kind_id: 16920
+  language: 1
+  name: Monopoly
+  source: no-intro
 releases:
 - release:
     id: 16921
@@ -27,23 +34,31 @@ releases:
     kind_id: 16921
     language: 1
     name: Monopoly (U) [!]
+    deprecated: 1
   - id: 37716
     kind: 3
     kind_id: 16921
     language: 1
     name: Monopoly (U)
+    deprecated: 1
   - id: 62773
     kind: 3
     kind_id: 16921
     language: 2
     name: 大富翁 (美版) (桌面平台)-Monopoly (USA)
+  - id: 258854
+    kind: 3
+    kind_id: 16921
+    language: 1
+    name: Monopoly (USA)
+    source: no-intro
   assets:
   - asset:
       id: 16903
       kind: 3
       kind_id: 16921
       type: 1
-      name: Monopoly (U) [!].nes
+      name: Monopoly (USA).nes
       format: 1
       size: 262160
       blob_id: 62538
@@ -51,6 +66,7 @@ releases:
         Monopoly (U) [!].zip
         Monopoly (U).zip
         大富翁 (美版) (桌面平台)-Monopoly (USA) + Monopoly (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=67fd2b7b9b72b8635515bb37926d77970720e3d6
   - asset:
       id: 137131
       kind: 3

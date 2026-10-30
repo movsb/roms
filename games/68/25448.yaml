@@ -27,17 +27,26 @@ releases:
     kind_id: 25448
     language: 1
     name: Untouchables, The (J) (REV0) [!]
+    deprecated: 1
+  - id: 259748
+    kind: 3
+    kind_id: 25448
+    language: 1
+    name: Untouchables, The (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 25430
       kind: 3
       kind_id: 25448
       type: 1
-      name: Untouchables, The (J) (REV0) [!].nes
+      name: Untouchables, The (Japan).nes
       format: 1
       size: 262160
       blob_id: 70647
-      debug: Untouchables, The (J) (REV0) [!].nes
+      debug: |-
+        Untouchables, The (J) (REV0) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=eb9f00faa42a80a1e3af0a1b9f8c4547e55520ea
   - asset:
       id: 137446
       kind: 3
@@ -78,24 +87,43 @@ releases:
     kind_id: 25456
     language: 1
     name: Untouchables, The (U) (PRG1) [!]
+    deprecated: 1
   - id: 71025
     kind: 3
     kind_id: 25456
     language: 2
     name: 铁面无私 (美版)(Rev A) (动作射击)-Untouchables, The (USA) (Rev A)
+  - id: 259749
+    kind: 3
+    kind_id: 25456
+    language: 1
+    name: Untouchables, The (USA) (Rev 1)
+    source: no-intro
   assets:
   - asset:
       id: 25438
       kind: 3
       kind_id: 25456
       type: 1
-      name: Untouchables, The (U) (PRG1) [!].nes
+      name: Untouchables, The (USA) (Rev 1).nes
       format: 1
       size: 262160
       blob_id: 70655
       debug: |-
         Untouchables, The (U) (PRG1) [!].zip
         铁面无私 (美版)(Rev A) (动作射击)-Untouchables, The (USA) (Rev A) + Untouchables, The (U) (PRG1) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=40236889d1a2f153a2925a986064db942e22c136
+  - asset:
+      id: 139875
+      kind: 3
+      kind_id: 25456
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Untouchables%2C%20The%20%28USA%29%20%28Rev%201%29.png
+      format: 1
+      size: 3275
+      blob_id: 325245
+      debug: libretro-named-titles:rom-asset=25438:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Untouchables%2C%20The%20%28USA%29%20%28Rev%201%29.png
 - release:
     id: 25457
     game_id: 25448
@@ -145,17 +173,26 @@ releases:
     kind_id: 25459
     language: 1
     name: Untouchables, The (U)
+    deprecated: 1
+  - id: 259750
+    kind: 3
+    kind_id: 25459
+    language: 1
+    name: Untouchables, The (USA)
+    source: no-intro
   assets:
   - asset:
       id: 25441
       kind: 3
       kind_id: 25459
       type: 1
-      name: Untouchables, The (U).nes
+      name: Untouchables, The (USA).nes
       format: 1
       size: 262160
       blob_id: 70658
-      debug: Untouchables, The (U).zip
+      debug: |-
+        Untouchables, The (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=d04d27ff1f5161b29ad1bb1ee3a610439dd0c9b9
   - asset:
       id: 138749
       kind: 3

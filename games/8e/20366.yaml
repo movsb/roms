@@ -98,17 +98,37 @@ releases:
     kind_id: 20374
     language: 1
     name: Rolling Thunder (U)
+    deprecated: 1
+  - id: 259213
+    kind: 3
+    kind_id: 20374
+    language: 1
+    name: Rolling Thunder (USA) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 20356
       kind: 3
       kind_id: 20374
       type: 1
-      name: Rolling Thunder (U).nes
+      name: Rolling Thunder (USA) (Unl).nes
       format: 1
       size: 262160
       blob_id: 65821
-      debug: Rolling Thunder (U).zip
+      debug: |-
+        Rolling Thunder (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=5dc651cf48ed86de4b45e9f7d1c8ac696f999f64
+  - asset:
+      id: 139713
+      kind: 3
+      kind_id: 20374
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Rolling%20Thunder%20%28USA%29%20%28Unl%29.png
+      format: 1
+      size: 3076
+      blob_id: 325099
+      debug: libretro-named-titles:rom-asset=20356:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Rolling%20Thunder%20%28USA%29%20%28Unl%29.png
 - release:
     id: 20375
     game_id: 20366
@@ -118,6 +138,7 @@ releases:
     kind_id: 20375
     language: 1
     name: Rolling Thunder (Unl) [!]
+    deprecated: 1
   - id: 71345
     kind: 3
     kind_id: 20375
@@ -128,16 +149,35 @@ releases:
     kind_id: 20375
     language: 1
     name: Rolling Thunder (Tengen) [!]
+    deprecated: 1
+  - id: 259214
+    kind: 3
+    kind_id: 20375
+    language: 1
+    name: Rolling Thunder (USA) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 20357
       kind: 3
       kind_id: 20375
       type: 1
-      name: Rolling Thunder (Unl) [!].nes
+      name: Rolling Thunder (USA) (Unl).nes
       format: 1
       size: 262160
       blob_id: 65822
       debug: |-
         Rolling Thunder (Unl) [!].zip
         雷霆行动 (美版) (动作)-Rolling Thunder (USA) (Unl) + Rolling Thunder (Tengen) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=5dc651cf48ed86de4b45e9f7d1c8ac696f999f64
+  - asset:
+      id: 139714
+      kind: 3
+      kind_id: 20375
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Rolling%20Thunder%20%28USA%29%20%28Unl%29.png
+      format: 1
+      size: 3076
+      blob_id: 325099
+      debug: libretro-named-titles:rom-asset=20357:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Rolling%20Thunder%20%28USA%29%20%28Unl%29.png

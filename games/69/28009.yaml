@@ -12,6 +12,13 @@ names:
   kind_id: 28009
   language: 1
   name: Huan Shi Lu (NJ034) (Ch)
+  deprecated: 1
+- id: 262865
+  kind: 2
+  kind_id: 28009
+  language: 1
+  name: Huan Shi Lu
+  source: no-intro
 releases:
 - release:
     id: 28009
@@ -27,14 +34,34 @@ releases:
     kind_id: 28009
     language: 1
     name: Huan Shi Lu (NJ034) (Ch)
+    deprecated: 1
+  - id: 260478
+    kind: 3
+    kind_id: 28009
+    language: 1
+    name: Huan Shi Lu (China) (Aftermarket) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 27991
       kind: 3
       kind_id: 28009
       type: 1
-      name: 幻世录 + Huan Shi Lu (NJ034) (Ch).nes
+      name: Huan Shi Lu (China) (Aftermarket) (Unl).nes
       format: 1
       size: 2097168
       blob_id: 72660
-      debug: 幻世录 + Huan Shi Lu (NJ034) (Ch).nes
+      debug: |-
+        幻世录 + Huan Shi Lu (NJ034) (Ch).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=6e9f4a937ee4426ee7a8647fc06679af61f9e12e
+  - asset:
+      id: 140092
+      kind: 3
+      kind_id: 28009
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Huan%20Shi%20Lu%20%28China%29%20%28Aftermarket%29%20%28Unl%29.png
+      format: 1
+      size: 10413
+      blob_id: 325431
+      debug: libretro-named-titles:rom-asset=27991:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Huan%20Shi%20Lu%20%28China%29%20%28Aftermarket%29%20%28Unl%29.png

@@ -37,11 +37,13 @@ releases:
     kind_id: 25338
     language: 1
     name: Ultimate Basketball (U) [!]
+    deprecated: 1
   - id: 56720
     kind: 3
     kind_id: 25338
     language: 1
     name: Ultimate_basketball
+    deprecated: 1
   - id: 63070
     kind: 3
     kind_id: 25338
@@ -52,13 +54,19 @@ releases:
     kind_id: 25338
     language: 2
     name: 泰德终极篮球 (美版) (运动)-Ultimate Basketball (USA)
+  - id: 259732
+    kind: 3
+    kind_id: 25338
+    language: 1
+    name: Ultimate Basketball (USA)
+    source: no-intro
   assets:
   - asset:
       id: 25320
       kind: 3
       kind_id: 25338
       type: 1
-      name: Ultimate Basketball (U) [!].nes
+      name: Ultimate Basketball (USA).nes
       format: 1
       size: 262160
       blob_id: 70542
@@ -67,6 +75,7 @@ releases:
         Ultimate_basketball.zip
         太东篮球.zip
         泰德终极篮球 (美版) (运动)-Ultimate Basketball (USA) + Ultimate Basketball (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=3a7d827513166f20e09b80e6edc2870afea709fb
   - asset:
       id: 137440
       kind: 3
@@ -107,17 +116,26 @@ releases:
     kind_id: 25341
     language: 1
     name: Ultimate Basketball (U)
+    deprecated: 1
+  - id: 259733
+    kind: 3
+    kind_id: 25341
+    language: 1
+    name: Ultimate Basketball (USA)
+    source: no-intro
   assets:
   - asset:
       id: 25323
       kind: 3
       kind_id: 25341
       type: 1
-      name: Ultimate Basketball (U).nes
+      name: Ultimate Basketball (USA).nes
       format: 1
       size: 262160
       blob_id: 70545
-      debug: Ultimate Basketball (U).zip
+      debug: |-
+        Ultimate Basketball (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=3a7d827513166f20e09b80e6edc2870afea709fb
   - asset:
       id: 138747
       kind: 3

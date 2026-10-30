@@ -7,12 +7,19 @@ names:
   kind_id: 13707
   language: 1
   name: Impartial Judge (Ch) (Decrypted)
+  deprecated: 1
 - id: 247964
   kind: 2
   kind_id: 13707
   language: 2
   name: 铁面无私
   source: codex
+- id: 261791
+  kind: 2
+  kind_id: 13707
+  language: 1
+  name: Impartial Judge
+  source: no-intro
 releases:
 - release:
     id: 13707
@@ -23,14 +30,23 @@ releases:
     kind_id: 13707
     language: 1
     name: Impartial Judge (Ch) (Decrypted)
+    deprecated: 1
+  - id: 258461
+    kind: 3
+    kind_id: 13707
+    language: 1
+    name: Impartial Judge (China) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 13689
       kind: 3
       kind_id: 13707
       type: 1
-      name: Impartial Judge (Ch) (Decrypted).nes
+      name: Impartial Judge (China) (Pirate).nes
       format: 1
       size: 393232
       blob_id: 59541
-      debug: Impartial Judge (Ch) (Decrypted).nes
+      debug: |-
+        Impartial Judge (Ch) (Decrypted).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=51db66b7339f9bc7dd2737af6bef96aa09d88e83

@@ -25,11 +25,13 @@ releases:
     kind_id: 9657
     language: 1
     name: Destiny of an Emperor (U) [!]
+    deprecated: 1
   - id: 20694
     kind: 3
     kind_id: 9657
     language: 1
     name: Destiny of an Emperor (U)
+    deprecated: 1
   - id: 20697
     kind: 3
     kind_id: 9657
@@ -45,19 +47,26 @@ releases:
     kind_id: 9657
     language: 1
     name: Destiny of an Emperor
+    deprecated: 1
   - id: 257488
     kind: 3
     kind_id: 9657
     language: 2
     name: 吞食天地
     source: codex
+  - id: 258007
+    kind: 3
+    kind_id: 9657
+    language: 1
+    name: Destiny of an Emperor (USA)
+    source: no-intro
   assets:
   - asset:
       id: 9639
       kind: 3
       kind_id: 9657
       type: 1
-      name: Destiny of an Emperor (U) [!].nes
+      name: Destiny of an Emperor (USA).nes
       format: 1
       size: 262160
       blob_id: 55724
@@ -65,6 +74,7 @@ releases:
         Destiny of an Emperor (U) [!].zip
         Destiny of an Emperor (U).zip
         Destiny of an Emperor (USA) + Destiny of an Emperor (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=aef894686836ea03fb047fe87979afeb079c350c
   - asset:
       id: 136808
       kind: 3
@@ -406,6 +416,7 @@ releases:
     kind_id: 20710
     language: 1
     name: "San Guo Zhi - Ying Jie Zhan (Ch) [a1]"
+    deprecated: 1
   - id: 257518
     kind: 3
     kind_id: 20710
@@ -416,23 +427,41 @@ releases:
     kind_id: 20710
     language: 1
     name: "San Guo Zhi - Ying Jie Zhan"
+    deprecated: 1
   - id: 257520
     kind: 3
     kind_id: 20710
     language: 2
     name: 三国志：英杰战
     source: codex
+  - id: 259264
+    kind: 3
+    kind_id: 20710
+    language: 1
+    name: "Sanguozhi - Yingjie Zhuan (China) (Traditional) (Pirate)"
+    source: no-intro
   assets:
   - asset:
       id: 20692
       kind: 3
       kind_id: 20710
       type: 1
-      name: "San Guo Zhi - Ying Jie Zhan (Ch) [a1].nes"
+      name: "Sanguozhi - Yingjie Zhuan (China) (Traditional) (Pirate).nes"
       format: 1
       size: 524304
       blob_id: 66141
-      debug: "San Guo Zhi - Ying Jie Zhan (Ch) [a1].nes"
+      debug: "San Guo Zhi - Ying Jie Zhan (Ch) [a1].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=7773346f14d2d0511ae43e8952f618d07e6cab45"
+  - asset:
+      id: 139728
+      kind: 3
+      kind_id: 20710
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Sanguozhi%20-%20Yingjie%20Zhuan%20%28China%29%20%28Traditional%29%20%28Pirate%29.png
+      format: 1
+      size: 5752
+      blob_id: 325111
+      debug: libretro-named-titles:rom-asset=20692:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Sanguozhi%20-%20Yingjie%20Zhuan%20%28China%29%20%28Traditional%29%20%28Pirate%29.png
 - release:
     id: 20711
     game_id: 27395
@@ -699,17 +728,37 @@ releases:
     kind_id: 24479
     language: 1
     name: Tenchi wo Kurau (J) (PRG1)
+    deprecated: 1
+  - id: 259623
+    kind: 3
+    kind_id: 24479
+    language: 1
+    name: Tenchi o Kurau (Japan) (Rev 1)
+    source: no-intro
   assets:
   - asset:
       id: 24461
       kind: 3
       kind_id: 24479
       type: 1
-      name: Tenchi wo Kurau (J) (PRG1).nes
+      name: Tenchi o Kurau (Japan) (Rev 1).nes
       format: 1
       size: 262160
       blob_id: 69742
-      debug: Tenchi wo Kurau (J) (PRG1).nes
+      debug: |-
+        Tenchi wo Kurau (J) (PRG1).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=a1bc81c0a467c114b3af255a64a236d2d427b0dd
+  - asset:
+      id: 139846
+      kind: 3
+      kind_id: 24479
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Tenchi%20o%20Kurau%20%28Japan%29%20%28Rev%201%29.png
+      format: 1
+      size: 1717
+      blob_id: 325219
+      debug: libretro-named-titles:rom-asset=24461:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Tenchi%20o%20Kurau%20%28Japan%29%20%28Rev%201%29.png
 - release:
     id: 24480
     game_id: 27395
@@ -719,17 +768,37 @@ releases:
     kind_id: 24480
     language: 1
     name: Tenchi wo Kurau (J) [!]
+    deprecated: 1
+  - id: 259624
+    kind: 3
+    kind_id: 24480
+    language: 1
+    name: Tenchi o Kurau (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 24462
       kind: 3
       kind_id: 24480
       type: 1
-      name: Tenchi wo Kurau (J) [!].nes
+      name: Tenchi o Kurau (Japan).nes
       format: 1
       size: 262160
       blob_id: 69743
-      debug: Tenchi wo Kurau (J) [!].nes
+      debug: |-
+        Tenchi wo Kurau (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=70158a66caa9c27033f4e11c4272c33e73893496
+  - asset:
+      id: 139847
+      kind: 3
+      kind_id: 24480
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Tenchi%20o%20Kurau%20%28Japan%29.png
+      format: 1
+      size: 1717
+      blob_id: 325220
+      debug: libretro-named-titles:rom-asset=24462:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Tenchi%20o%20Kurau%20%28Japan%29.png
 - release:
     id: 24481
     game_id: 27395
@@ -820,22 +889,40 @@ releases:
     kind_id: 26694
     language: 1
     name: "San Guo Zhi - Ying Jie Zhan (Ch)"
+    deprecated: 1
   - id: 242096
     kind: 3
     kind_id: 26694
     language: 2
     name: 外星科技汉化版
+  - id: 259942
+    kind: 3
+    kind_id: 26694
+    language: 1
+    name: "Sanguozhi - Yingjie Zhuan (China) (Simplified) (Pirate)"
+    source: no-intro
   assets:
   - asset:
       id: 26676
       kind: 3
       kind_id: 26694
       type: 1
-      name: "三国志-英杰传 + San Guo Zhi - Ying Jie Zhan (Ch).nes"
+      name: "Sanguozhi - Yingjie Zhuan (China) (Simplified) (Pirate).nes"
       format: 1
       size: 524304
       blob_id: 71784
-      debug: "三国志-英杰传 + San Guo Zhi - Ying Jie Zhan (Ch).nes\n吞食天地1 三国英杰传.zip"
+      debug: "三国志-英杰传 + San Guo Zhi - Ying Jie Zhan (Ch).nes\n吞食天地1 三国英杰传.zip\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=980cb6613f0dd7c1728508b616267e6ccabb304d"
+  - asset:
+      id: 139959
+      kind: 3
+      kind_id: 26694
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Sanguozhi%20-%20Yingjie%20Zhuan%20%28China%29%20%28Simplified%29%20%28Pirate%29.png
+      format: 1
+      size: 5752
+      blob_id: 325111
+      debug: libretro-named-titles:rom-asset=26676:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Sanguozhi%20-%20Yingjie%20Zhuan%20%28China%29%20%28Simplified%29%20%28Pirate%29.png
 - release:
     id: 27395
     game_id: 27395
@@ -846,16 +933,34 @@ releases:
     kind_id: 27395
     language: 2
     name: 日版
+  - id: 260234
+    kind: 3
+    kind_id: 27395
+    language: 1
+    name: Tenchi o Kurau (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 27377
       kind: 3
       kind_id: 27395
       type: 1
-      name: 吞食天地1.nes
+      name: Tenchi o Kurau (Japan).nes
       format: 1
       size: 262160
       blob_id: 72255
       debug: |-
         吞食天地1.nes
         重复的/吞食天地1.nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=70158a66caa9c27033f4e11c4272c33e73893496
+  - asset:
+      id: 140040
+      kind: 3
+      kind_id: 27395
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Tenchi%20o%20Kurau%20%28Japan%29.png
+      format: 1
+      size: 1717
+      blob_id: 325220
+      debug: libretro-named-titles:rom-asset=27377:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Tenchi%20o%20Kurau%20%28Japan%29.png

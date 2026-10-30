@@ -12,11 +12,19 @@ names:
   kind_id: 14911
   language: 1
   name: L'Empereur (U) [!]
+  deprecated: 1
 - id: 92287
   kind: 2
   kind_id: 14911
   language: 1
   name: L'Empereur
+  deprecated: 1
+- id: 261840
+  kind: 2
+  kind_id: 14911
+  language: 1
+  name: Empereur, L'
+  source: no-intro
 releases:
 - release:
     id: 14911
@@ -27,11 +35,13 @@ releases:
     kind_id: 14911
     language: 1
     name: L'Empereur (U) [!p]
+    deprecated: 1
   - id: 33074
     kind: 3
     kind_id: 14911
     language: 1
     name: L'Empereur (U)
+    deprecated: 1
   - id: 65213
     kind: 3
     kind_id: 14911
@@ -42,13 +52,20 @@ releases:
     kind_id: 14911
     language: 1
     name: L'Empereur (U) [!]
+    deprecated: 1
+  - id: 258608
+    kind: 3
+    kind_id: 14911
+    language: 1
+    name: Empereur, L' (USA)
+    source: no-intro
   assets:
   - asset:
       id: 14893
       kind: 3
       kind_id: 14911
       type: 1
-      name: L'Empereur (U) [!p].nes
+      name: Empereur, L' (USA).nes
       format: 1
       size: 393232
       blob_id: 60646
@@ -56,3 +73,15 @@ releases:
         L'Empereur (U) [!p].zip
         L'Empereur (U).zip
         拿破仑 (美版) (策略)-Empereur, L (USA) + L'Empereur (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=6197d576dd1c2a2304be82b7be6768a13c40bcf9
+  - asset:
+      id: 139508
+      kind: 3
+      kind_id: 14911
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Empereur%2C%20L%27%20%28USA%29.png
+      format: 1
+      size: 15523
+      blob_id: 324933
+      debug: libretro-named-titles:rom-asset=14893:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Empereur%2C%20L%27%20%28USA%29.png

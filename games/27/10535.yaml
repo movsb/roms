@@ -78,6 +78,7 @@ releases:
     kind_id: 10537
     language: 1
     name: Dragon Warrior (U) (PRG 0)
+    deprecated: 1
   - id: 61441
     kind: 3
     kind_id: 10537
@@ -88,19 +89,38 @@ releases:
     kind_id: 10537
     language: 1
     name: Dragon Warrior (U) (PRG0) [!]
+    deprecated: 1
+  - id: 258098
+    kind: 3
+    kind_id: 10537
+    language: 1
+    name: Dragon Warrior (USA)
+    source: no-intro
   assets:
   - asset:
       id: 10519
       kind: 3
       kind_id: 10537
       type: 1
-      name: Dragon Warrior (U) (PRG 0).nes
+      name: Dragon Warrior (USA).nes
       format: 1
       size: 81936
       blob_id: 56545
       debug: |-
         Dragon Warrior (U) (PRG 0).zip
         勇者斗恶龙 (美版) (角色扮演)-Dragon Warrior (USA) + Dragon Warrior (U) (PRG0) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=73f9b88def80756ef29c5aa1a724c3112e5918c1
+  - asset:
+      id: 139382
+      kind: 3
+      kind_id: 10537
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Dragon%20Warrior%20%28USA%29.png
+      format: 1
+      size: 1653
+      blob_id: 324821
+      debug: libretro-named-titles:rom-asset=10519:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Dragon%20Warrior%20%28USA%29.png
 - release:
     id: 10538
     game_id: 10535
@@ -270,24 +290,32 @@ releases:
     kind_id: 10554
     language: 1
     name: Dragon Warrior (U) (PRG1) [!]
+    deprecated: 1
   - id: 61445
     kind: 3
     kind_id: 10554
     language: 2
     name: 勇者斗恶龙 (美版)(Rev A) (角色扮演)-Dragon Warrior (USA) (Rev A)
+  - id: 258099
+    kind: 3
+    kind_id: 10554
+    language: 1
+    name: Dragon Warrior (USA) (Rev 1)
+    source: no-intro
   assets:
   - asset:
       id: 10536
       kind: 3
       kind_id: 10554
       type: 1
-      name: Dragon Warrior (U) (PRG1) [!].nes
+      name: Dragon Warrior (USA) (Rev 1).nes
       format: 1
       size: 81936
       blob_id: 56562
       debug: |-
         Dragon Warrior (U) (PRG1) [!].zip
         勇者斗恶龙 (美版)(Rev A) (角色扮演)-Dragon Warrior (USA) (Rev A) + Dragon Warrior (U) (PRG1) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=240e445ab95c3a5afbef63e9239eacc9f9fe1e19
   - asset:
       id: 136841
       kind: 3

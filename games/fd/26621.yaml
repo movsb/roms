@@ -12,6 +12,13 @@ names:
   kind_id: 26621
   language: 1
   name: Shen Tan Ke Nan (Ch)
+  deprecated: 1
+- id: 262356
+  kind: 2
+  kind_id: 26621
+  language: 1
+  name: Shentan Kenan
+  source: no-intro
 releases:
 - release:
     id: 26621
@@ -27,14 +34,32 @@ releases:
     kind_id: 26621
     language: 1
     name: Shen Tan Ke Nan (Ch)
+    deprecated: 1
+  - id: 259916
+    kind: 3
+    kind_id: 26621
+    language: 1
+    name: Shentan Kenan (China) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 26603
       kind: 3
       kind_id: 26621
       type: 1
-      name: "[星星科技] 神探柯南 + Shen Tan Ke Nan (Ch).nes"
+      name: Shentan Kenan (China) (Pirate).nes
       format: 1
       size: 524304
       blob_id: 71744
-      debug: "[星星科技] 神探柯南 + Shen Tan Ke Nan (Ch).nes"
+      debug: "[星星科技] 神探柯南 + Shen Tan Ke Nan (Ch).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=299ef5e0991c2bafc272cbe51bba639b49bc65ce"
+  - asset:
+      id: 139948
+      kind: 3
+      kind_id: 26621
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Shentan%20Kenan%20%28China%29%20%28Pirate%29.png
+      format: 1
+      size: 5222
+      blob_id: 325308
+      debug: libretro-named-titles:rom-asset=26603:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Shentan%20Kenan%20%28China%29%20%28Pirate%29.png

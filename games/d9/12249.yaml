@@ -12,11 +12,18 @@ names:
   kind_id: 12249
   language: 1
   name: Gemfire (U) [!]
+  deprecated: 1
 - id: 91968
   kind: 2
   kind_id: 12249
   language: 1
   name: Gemfire
+- id: 261732
+  kind: 2
+  kind_id: 12249
+  language: 1
+  name: Gemfire
+  source: no-intro
 releases:
 - release:
     id: 12249
@@ -27,24 +34,32 @@ releases:
     kind_id: 12249
     language: 1
     name: Gemfire (U) [!]
+    deprecated: 1
   - id: 66469
     kind: 3
     kind_id: 12249
     language: 2
     name: 欧洲战记 (美版) (策略)-Gemfire (USA)
+  - id: 258301
+    kind: 3
+    kind_id: 12249
+    language: 1
+    name: Gemfire (USA)
+    source: no-intro
   assets:
   - asset:
       id: 12231
       kind: 3
       kind_id: 12249
       type: 1
-      name: Gemfire (U) [!].nes
+      name: Gemfire (USA).nes
       format: 1
       size: 524304
       blob_id: 58159
       debug: |-
         Gemfire (U) [!].zip
         欧洲战记 (美版) (策略)-Gemfire (USA) + Gemfire (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=63347651e2405bc6e50dff42f050c60332221e03
   - asset:
       id: 136923
       kind: 3
@@ -65,17 +80,26 @@ releases:
     kind_id: 12252
     language: 1
     name: Gemfire (U)
+    deprecated: 1
+  - id: 258302
+    kind: 3
+    kind_id: 12252
+    language: 1
+    name: Gemfire (USA)
+    source: no-intro
   assets:
   - asset:
       id: 12234
       kind: 3
       kind_id: 12252
       type: 1
-      name: Gemfire (U).nes
+      name: Gemfire (USA).nes
       format: 1
       size: 524304
       blob_id: 58162
-      debug: Gemfire (U).zip
+      debug: |-
+        Gemfire (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=63347651e2405bc6e50dff42f050c60332221e03
   - asset:
       id: 138498
       kind: 3

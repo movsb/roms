@@ -12,11 +12,18 @@ names:
   kind_id: 25657
   language: 1
   name: WWF King of the Ring (U) [!]
+  deprecated: 1
 - id: 93517
   kind: 2
   kind_id: 25657
   language: 1
   name: WWF King of the Ring
+- id: 262283
+  kind: 2
+  kind_id: 25657
+  language: 1
+  name: WWF King of the Ring
+  source: no-intro
 releases:
 - release:
     id: 25657
@@ -27,17 +34,26 @@ releases:
     kind_id: 25657
     language: 1
     name: WWF King of the Ring (E)
+    deprecated: 1
+  - id: 259771
+    kind: 3
+    kind_id: 25657
+    language: 1
+    name: WWF King of the Ring (Europe)
+    source: no-intro
   assets:
   - asset:
       id: 25639
       kind: 3
       kind_id: 25657
       type: 1
-      name: WWF King of the Ring (E).nes
+      name: WWF King of the Ring (Europe).nes
       format: 1
       size: 393232
       blob_id: 70838
-      debug: WWF King of the Ring (E).nes
+      debug: |-
+        WWF King of the Ring (E).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=c75797a2a9fca6cac82ddb2eb0966b572f65dea1
   - asset:
       id: 138752
       kind: 3
@@ -58,11 +74,13 @@ releases:
     kind_id: 25658
     language: 1
     name: WWF King of the Ring (U) [!p]
+    deprecated: 1
   - id: 57368
     kind: 3
     kind_id: 25658
     language: 1
     name: WWF King of the Ring (U)
+    deprecated: 1
   - id: 59963
     kind: 3
     kind_id: 25658
@@ -73,14 +91,32 @@ releases:
     kind_id: 25658
     language: 1
     name: WWF King of the Ring (U) [!]
+    deprecated: 1
+  - id: 259772
+    kind: 3
+    kind_id: 25658
+    language: 1
+    name: WWF King of the Ring (USA)
+    source: no-intro
   assets:
   - asset:
       id: 25640
       kind: 3
       kind_id: 25658
       type: 1
-      name: WWF King of the Ring (U) [!p].nes
+      name: WWF King of the Ring (USA).nes
       format: 1
       size: 393232
       blob_id: 70839
-      debug: "WWF King of the Ring (U) [!p].zip\nWWF King of the Ring (U).zip\n世界摔角联盟 - 冠军之路 (美版) (运动)-WWF King of the Ring (USA) + WWF King of the Ring (U) [!].nes"
+      debug: "WWF King of the Ring (U) [!p].zip\nWWF King of the Ring (U).zip\n世界摔角联盟 - 冠军之路 (美版) (运动)-WWF King of the Ring (USA) + WWF King of the Ring (U) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=394395b825f3d16902df427e93c2310302a2b9af"
+  - asset:
+      id: 139884
+      kind: 3
+      kind_id: 25658
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/WWF%20King%20of%20the%20Ring%20%28USA%29.png
+      format: 1
+      size: 1736
+      blob_id: 325254
+      debug: libretro-named-titles:rom-asset=25640:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/WWF%20King%20of%20the%20Ring%20%28USA%29.png

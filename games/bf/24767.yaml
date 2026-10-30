@@ -8,11 +8,13 @@ names:
   kind_id: 24767
   language: 1
   name: The Legend of Zelda(USA)
+  deprecated: 1
 - id: 59641
   kind: 2
   kind_id: 24767
   language: 1
   name: zelda
+  deprecated: 1
 - id: 69385
   kind: 2
   kind_id: 24767
@@ -23,6 +25,13 @@ names:
   kind_id: 24767
   language: 1
   name: Legend of Zelda, The (U) (PRG0) [!]
+  deprecated: 1
+- id: 262231
+  kind: 2
+  kind_id: 24767
+  language: 1
+  name: Legend of Zelda, The
+  source: no-intro
 releases:
 - release:
     id: 24767
@@ -33,11 +42,13 @@ releases:
     kind_id: 24767
     language: 1
     name: The Legend of Zelda(USA)
+    deprecated: 1
   - id: 59642
     kind: 3
     kind_id: 24767
     language: 1
     name: zelda
+    deprecated: 1
   - id: 69387
     kind: 3
     kind_id: 24767
@@ -48,14 +59,32 @@ releases:
     kind_id: 24767
     language: 1
     name: Legend of Zelda, The (U) (PRG0) [!]
+    deprecated: 1
+  - id: 259643
+    kind: 3
+    kind_id: 24767
+    language: 1
+    name: Legend of Zelda, The (USA)
+    source: no-intro
   assets:
   - asset:
       id: 24749
       kind: 3
       kind_id: 24767
       type: 1
-      name: The Legend of Zelda(USA).nes
+      name: Legend of Zelda, The (USA).nes
       format: 1
       size: 131088
       blob_id: 70022
-      debug: "The Legend of Zelda(USA).zip\nzelda.zip\n萨尔达传说 - 幻想大陆海拉尔 (美版) (动作角色扮演)-Legend of Zelda, The (USA) + Legend of Zelda, The (U) (PRG0) [!].nes"
+      debug: "The Legend of Zelda(USA).zip\nzelda.zip\n萨尔达传说 - 幻想大陆海拉尔 (美版) (动作角色扮演)-Legend of Zelda, The (USA) + Legend of Zelda, The (U) (PRG0) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=a12d74c73a0481599a5d832361d168f4737bbcf6"
+  - asset:
+      id: 139849
+      kind: 3
+      kind_id: 24767
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Legend%20of%20Zelda%2C%20The%20%28USA%29.png
+      format: 1
+      size: 5130
+      blob_id: 324939
+      debug: libretro-named-titles:rom-asset=24749:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Legend%20of%20Zelda%2C%20The%20%28USA%29.png

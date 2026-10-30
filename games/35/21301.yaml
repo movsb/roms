@@ -12,11 +12,18 @@ names:
   kind_id: 21301
   language: 1
   name: Ski or Die (U) [!]
+  deprecated: 1
 - id: 93039
   kind: 2
   kind_id: 21301
   language: 1
   name: Ski or Die
+- id: 262124
+  kind: 2
+  kind_id: 21301
+  language: 1
+  name: Ski or Die
+  source: no-intro
 releases:
 - release:
     id: 21301
@@ -27,23 +34,31 @@ releases:
     kind_id: 21301
     language: 1
     name: Ski or Die (U) [!]
+    deprecated: 1
   - id: 47454
     kind: 3
     kind_id: 21301
     language: 1
     name: Ski or Die (U)
+    deprecated: 1
   - id: 67105
     kind: 3
     kind_id: 21301
     language: 2
     name: 滑雪生死斗 (美版) (运动)-Ski or Die (USA)
+  - id: 259338
+    kind: 3
+    kind_id: 21301
+    language: 1
+    name: Ski or Die (USA)
+    source: no-intro
   assets:
   - asset:
       id: 21283
       kind: 3
       kind_id: 21301
       type: 1
-      name: Ski or Die (U) [!].nes
+      name: Ski or Die (USA).nes
       format: 1
       size: 262160
       blob_id: 66693
@@ -51,6 +66,7 @@ releases:
         Ski or Die (U) [!].zip
         Ski or Die (U).zip
         滑雪生死斗 (美版) (运动)-Ski or Die (USA) + Ski or Die (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=a9c430ce38a078e19de466ad2f2541680f0eb13e
   - asset:
       id: 137310
       kind: 3

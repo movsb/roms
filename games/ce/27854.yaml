@@ -13,6 +13,12 @@ names:
   language: 1
   name: Pyokotan no Daimeiro
   source: codex
+- id: 262807
+  kind: 2
+  kind_id: 27854
+  language: 1
+  name: Pyokotan no Daimeiro
+  source: no-intro
 releases:
 - release:
     id: 27854
@@ -23,16 +29,34 @@ releases:
     kind_id: 27854
     language: 2
     name: 小白兔大迷路
+  - id: 260417
+    kind: 3
+    kind_id: 27854
+    language: 1
+    name: Pyokotan no Daimeiro (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 27836
       kind: 3
       kind_id: 27854
       type: 1
-      name: 小白兔大迷路.nes
+      name: Pyokotan no Daimeiro (Japan).nes
       format: 1
       size: 262160
       blob_id: 72565
       debug: |-
         小白兔大迷路.nes
         重复的/小兔之大迷路 (日版) (益智)-Pyokotan no Dai Meiro (Japan) + Pyokotan no Dai Meiro (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=abd2aee89314e486d8e1b5ef942744a393e4ee39
+  - asset:
+      id: 140080
+      kind: 3
+      kind_id: 27854
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Pyokotan%20no%20Daimeiro%20%28Japan%29.png
+      format: 1
+      size: 2786
+      blob_id: 325420
+      debug: libretro-named-titles:rom-asset=27836:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Pyokotan%20no%20Daimeiro%20%28Japan%29.png

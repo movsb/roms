@@ -7,12 +7,19 @@ names:
   kind_id: 26222
   language: 1
   name: Ying Tao Xiao Wan Zi (G-005) (Ch)
+  deprecated: 1
 - id: 248929
   kind: 2
   kind_id: 26222
   language: 2
   name: 樱桃小丸子
   source: codex
+- id: 262323
+  kind: 2
+  kind_id: 26222
+  language: 1
+  name: Yingtao Xiao Wanzi
+  source: no-intro
 releases:
 - release:
     id: 26222
@@ -23,14 +30,34 @@ releases:
     kind_id: 26222
     language: 1
     name: Ying Tao Xiao Wan Zi (G-005) (Ch)
+    deprecated: 1
+  - id: 259852
+    kind: 3
+    kind_id: 26222
+    language: 1
+    name: Yingtao Xiao Wanzi (China) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 26204
       kind: 3
       kind_id: 26222
       type: 1
-      name: Ying Tao Xiao Wan Zi (G-005) (Ch).nes
+      name: Yingtao Xiao Wanzi (China) (Unl).nes
       format: 1
       size: 524304
       blob_id: 71364
-      debug: Ying Tao Xiao Wan Zi (G-005) (Ch).nes
+      debug: |-
+        Ying Tao Xiao Wan Zi (G-005) (Ch).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=fa56608d8dcf5a144dd1fc81282cd86fd51060fe
+  - asset:
+      id: 139909
+      kind: 3
+      kind_id: 26222
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Yingtao%20Xiao%20Wanzi%20%28China%29%20%28Unl%29.png
+      format: 1
+      size: 6957
+      blob_id: 325276
+      debug: libretro-named-titles:rom-asset=26204:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Yingtao%20Xiao%20Wanzi%20%28China%29%20%28Unl%29.png

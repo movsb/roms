@@ -12,6 +12,13 @@ names:
   kind_id: 27941
   language: 1
   name: Challenge of the Dragon (Sachen) [!]
+  deprecated: 1
+- id: 262838
+  kind: 2
+  kind_id: 27941
+  language: 1
+  name: Challenge of the Dragon
+  source: no-intro
 releases:
 - release:
     id: 27941
@@ -27,14 +34,34 @@ releases:
     kind_id: 27941
     language: 1
     name: Challenge of the Dragon (Sachen) [!]
+    deprecated: 1
+  - id: 260448
+    kind: 3
+    kind_id: 27941
+    language: 1
+    name: Challenge of the Dragon (Asia) (En) (Sachen) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 27923
       kind: 3
       kind_id: 27941
       type: 1
-      name: 巨龙之挑战 (亚洲版) (动作)-Challenge of the Dragon (Asia) (PAL) (Unl) + Challenge of the Dragon (Sachen) [!].nes
+      name: Challenge of the Dragon (Asia) (En) (Sachen) (Unl).nes
       format: 1
       size: 196624
       blob_id: 72616
-      debug: 巨龙之挑战 (亚洲版) (动作)-Challenge of the Dragon (Asia) (PAL) (Unl) + Challenge of the Dragon (Sachen) [!].nes
+      debug: |-
+        巨龙之挑战 (亚洲版) (动作)-Challenge of the Dragon (Asia) (PAL) (Unl) + Challenge of the Dragon (Sachen) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=b9902886d1739983b315b67b02133e44620e4381
+  - asset:
+      id: 140087
+      kind: 3
+      kind_id: 27941
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Challenge%20of%20the%20Dragon%20%28Asia%29%20%28En%29%20%28Sachen%29%20%28Unl%29.png
+      format: 1
+      size: 2793
+      blob_id: 325427
+      debug: libretro-named-titles:rom-asset=27923:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Challenge%20of%20the%20Dragon%20%28Asia%29%20%28En%29%20%28Sachen%29%20%28Unl%29.png

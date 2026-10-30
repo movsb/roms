@@ -13,6 +13,13 @@ names:
   language: 1
   name: "Datach - Crayon Shin Chan - Ora to Poi Poi"
   source: codex
+  deprecated: 1
+- id: 262433
+  kind: 2
+  kind_id: 26843
+  language: 1
+  name: "Crayon Shin-chan - Ora to Poi Poi"
+  source: no-intro
 releases:
 - release:
     id: 26843
@@ -23,14 +30,31 @@ releases:
     kind_id: 26843
     language: 2
     name: "任天堂刷卡机 - 蜡笔小新 (日版) (益智)-Datach - Crayon Shin Chan - Ora to Poi Poi (Japan)"
+  - id: 260011
+    kind: 3
+    kind_id: 26843
+    language: 1
+    name: "Crayon Shin-chan - Ora to Poi Poi (Japan) (Datach)"
+    source: no-intro
   assets:
   - asset:
       id: 26825
       kind: 3
       kind_id: 26843
       type: 1
-      name: "任天堂刷卡机 - 蜡笔小新 (日版) (益智)-Datach - Crayon Shin Chan - Ora to Poi Poi (Japan).nes"
+      name: "Crayon Shin-chan - Ora to Poi Poi (Japan) (Datach).nes"
       format: 1
       size: 262160
       blob_id: 71889
-      debug: "任天堂刷卡机 - 蜡笔小新 (日版) (益智)-Datach - Crayon Shin Chan - Ora to Poi Poi (Japan).nes"
+      debug: "任天堂刷卡机 - 蜡笔小新 (日版) (益智)-Datach - Crayon Shin Chan - Ora to Poi Poi (Japan).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=6f3c65bd945fe13305a7a39d8cd884a5bf314a8f"
+  - asset:
+      id: 139984
+      kind: 3
+      kind_id: 26843
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Crayon%20Shin-chan%20-%20Ora%20to%20Poi%20Poi%20%28Japan%29%20%28Datach%29.png
+      format: 1
+      size: 2097
+      blob_id: 325336
+      debug: libretro-named-titles:rom-asset=26825:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Crayon%20Shin-chan%20-%20Ora%20to%20Poi%20Poi%20%28Japan%29%20%28Datach%29.png

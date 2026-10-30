@@ -43,14 +43,34 @@ releases:
     kind_id: 26150
     language: 1
     name: Wu Shi Hun (Ch)
+    deprecated: 1
+  - id: 259835
+    kind: 3
+    kind_id: 26150
+    language: 1
+    name: Wushi Hun (Asia) (En) (4 characters) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 26132
       kind: 3
       kind_id: 26150
       type: 1
-      name: Wu Shi Hun (Ch).nes
+      name: Wushi Hun (Asia) (En) (4 characters) (Pirate).nes
       format: 1
       size: 393232
       blob_id: 71295
-      debug: Wu Shi Hun (Ch).nes
+      debug: |-
+        Wu Shi Hun (Ch).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=5b949d7680dc240cef984e24a1d196f856ca736a
+  - asset:
+      id: 139898
+      kind: 3
+      kind_id: 26150
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Wushi%20Hun%20%28Asia%29%20%28En%29%20%284%20characters%29%20%28Pirate%29.png
+      format: 1
+      size: 11422
+      blob_id: 325266
+      debug: libretro-named-titles:rom-asset=26132:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Wushi%20Hun%20%28Asia%29%20%28En%29%20%284%20characters%29%20%28Pirate%29.png

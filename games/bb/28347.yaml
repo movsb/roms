@@ -12,6 +12,13 @@ names:
   kind_id: 28347
   language: 1
   name: L'Empereur (J)
+  deprecated: 1
+- id: 262972
+  kind: 2
+  kind_id: 28347
+  language: 1
+  name: Empereur, L'
+  source: no-intro
 releases:
 - release:
     id: 28347
@@ -27,14 +34,34 @@ releases:
     kind_id: 28347
     language: 1
     name: L'Empereur (J)
+    deprecated: 1
+  - id: 260598
+    kind: 3
+    kind_id: 28347
+    language: 1
+    name: Empereur, L' (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 28329
       kind: 3
       kind_id: 28347
       type: 1
-      name: 拿破仑 + L'Empereur (J).nes
+      name: Empereur, L' (Japan).nes
       format: 1
       size: 393232
       blob_id: 72883
-      debug: 拿破仑 + L'Empereur (J).nes
+      debug: |-
+        拿破仑 + L'Empereur (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=b326d1984d5d369bc168028ad7672d2efc2ecddb
+  - asset:
+      id: 140116
+      kind: 3
+      kind_id: 28347
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Empereur%2C%20L%27%20%28Japan%29.png
+      format: 1
+      size: 15339
+      blob_id: 325454
+      debug: libretro-named-titles:rom-asset=28329:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Empereur%2C%20L%27%20%28Japan%29.png

@@ -12,6 +12,13 @@ names:
   kind_id: 29750
   language: 1
   name: Superman (J)
+  deprecated: 1
+- id: 263486
+  kind: 2
+  kind_id: 29750
+  language: 1
+  name: Superman
+  source: no-intro
 releases:
 - release:
     id: 29750
@@ -27,17 +34,26 @@ releases:
     kind_id: 29750
     language: 1
     name: Superman (J)
+    deprecated: 1
+  - id: 261171
+    kind: 3
+    kind_id: 29750
+    language: 1
+    name: Superman (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 29732
       kind: 3
       kind_id: 29750
       type: 1
-      name: 超人 (日版) (角色扮演)-Superman (Japan) + Superman (J).nes
+      name: Superman (Japan).nes
       format: 1
       size: 262160
       blob_id: 73777
-      debug: 超人 (日版) (角色扮演)-Superman (Japan) + Superman (J).nes
+      debug: |-
+        超人 (日版) (角色扮演)-Superman (Japan) + Superman (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=1630e4ad536fa1333cfa285f8d581b19502992fb
   - asset:
       id: 139180
       kind: 3

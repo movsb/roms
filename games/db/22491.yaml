@@ -7,12 +7,19 @@ names:
   kind_id: 22491
   language: 1
   name: Super Fighter II' (Unl) [!]
+  deprecated: 1
 - id: 248674
   kind: 2
   kind_id: 22491
   language: 2
   name: 超级街头霸王2
   source: codex
+- id: 262182
+  kind: 2
+  kind_id: 22491
+  language: 1
+  name: Super Fighter II'
+  source: no-intro
 releases:
 - release:
     id: 22491
@@ -23,14 +30,34 @@ releases:
     kind_id: 22491
     language: 1
     name: Super Fighter II' (Unl) [!]
+    deprecated: 1
+  - id: 259491
+    kind: 3
+    kind_id: 22491
+    language: 1
+    name: Super Fighter II' (Asia) (En) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 22473
       kind: 3
       kind_id: 22491
       type: 1
-      name: Super Fighter II' (Unl) [!].nes
+      name: Super Fighter II' (Asia) (En) (Pirate).nes
       format: 1
       size: 262160
       blob_id: 67810
-      debug: Super Fighter II' (Unl) [!].nes
+      debug: |-
+        Super Fighter II' (Unl) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=68d9a223c9f310fb4655e20ddc012e12899c0d68
+  - asset:
+      id: 139801
+      kind: 3
+      kind_id: 22491
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Super%20Fighter%20II%27%20%28Asia%29%20%28En%29%20%28Pirate%29.png
+      format: 1
+      size: 3072
+      blob_id: 325176
+      debug: libretro-named-titles:rom-asset=22473:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Super%20Fighter%20II%27%20%28Asia%29%20%28En%29%20%28Pirate%29.png

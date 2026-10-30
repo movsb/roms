@@ -12,6 +12,13 @@ names:
   kind_id: 26588
   language: 1
   name: Sui Tang Ying Xiong (NJ030) (Ch)
+  deprecated: 1
+- id: 262336
+  kind: 2
+  kind_id: 26588
+  language: 1
+  name: Suitang Yingxiong
+  source: no-intro
 releases:
 - release:
     id: 26588
@@ -27,14 +34,32 @@ releases:
     kind_id: 26588
     language: 1
     name: Sui Tang Ying Xiong (NJ030) (Ch)
+    deprecated: 1
+  - id: 259894
+    kind: 3
+    kind_id: 26588
+    language: 1
+    name: Suitang Yingxiong (China) (Aftermarket) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 26570
       kind: 3
       kind_id: 26588
       type: 1
-      name: "[NJ030]隋唐英雄 + Sui Tang Ying Xiong (NJ030) (Ch).nes"
+      name: Suitang Yingxiong (China) (Aftermarket) (Unl).nes
       format: 1
       size: 1048592
       blob_id: 71711
-      debug: "[NJ030]隋唐英雄 + Sui Tang Ying Xiong (NJ030) (Ch).nes"
+      debug: "[NJ030]隋唐英雄 + Sui Tang Ying Xiong (NJ030) (Ch).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=c3b93a095585376f6c81d9b9c5142085ac1fd255"
+  - asset:
+      id: 139928
+      kind: 3
+      kind_id: 26588
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Suitang%20Yingxiong%20%28China%29%20%28Aftermarket%29%20%28Unl%29.png
+      format: 1
+      size: 5816
+      blob_id: 325292
+      debug: libretro-named-titles:rom-asset=26570:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Suitang%20Yingxiong%20%28China%29%20%28Aftermarket%29%20%28Unl%29.png

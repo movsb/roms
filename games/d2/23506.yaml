@@ -12,11 +12,18 @@ names:
   kind_id: 23506
   language: 1
   name: Tag Team Wrestling (U) [!]
+  deprecated: 1
 - id: 93307
   kind: 2
   kind_id: 23506
   language: 1
   name: Tag Team Wrestling
+- id: 262212
+  kind: 2
+  kind_id: 23506
+  language: 1
+  name: Tag Team Wrestling
+  source: no-intro
 releases:
 - release:
     id: 23506
@@ -27,23 +34,31 @@ releases:
     kind_id: 23506
     language: 1
     name: Tag Team Wrestling (U) [!]
+    deprecated: 1
   - id: 52468
     kind: 3
     kind_id: 23506
     language: 1
     name: Tag Team Wrestling (U)
+    deprecated: 1
   - id: 61715
     kind: 3
     kind_id: 23506
     language: 2
     name: 双人组职业摔角 (美版) (运动)-Tag Team Wrestling (USA)
+  - id: 259575
+    kind: 3
+    kind_id: 23506
+    language: 1
+    name: Tag Team Wrestling (USA)
+    source: no-intro
   assets:
   - asset:
       id: 23488
       kind: 3
       kind_id: 23506
       type: 1
-      name: Tag Team Wrestling (U) [!].nes
+      name: Tag Team Wrestling (USA).nes
       format: 1
       size: 40976
       blob_id: 68791
@@ -51,6 +66,7 @@ releases:
         Tag Team Wrestling (U) [!].zip
         Tag Team Wrestling (U).zip
         双人组职业摔角 (美版) (运动)-Tag Team Wrestling (USA) + Tag Team Wrestling (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=ce53f6b645874bd567f6f30d34034b8dd123d549
   - asset:
       id: 137380
       kind: 3

@@ -23,17 +23,35 @@ releases:
     kind_id: 26205
     language: 1
     name: "Yang Jia Jiang - Yang's Troops (Ch) (Wxn)"
+    deprecated: 1
+  - id: 259849
+    kind: 3
+    kind_id: 26205
+    language: 1
+    name: "Yang Jia Jiang - Yang's Troops (China) (980186) (Unl)"
+    source: no-intro
   assets:
   - asset:
       id: 26187
       kind: 3
       kind_id: 26205
       type: 1
-      name: "Yang Jia Jiang - Yang's Troops (Ch) (Wxn).nes"
+      name: "Yang Jia Jiang - Yang's Troops (China) (980186) (Unl).nes"
       format: 1
       size: 524304
       blob_id: 71347
-      debug: "Yang Jia Jiang - Yang's Troops (Ch) (Wxn).nes"
+      debug: "Yang Jia Jiang - Yang's Troops (Ch) (Wxn).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=5217e9f1cdf51e85a144793986016cbc8ec84784"
+  - asset:
+      id: 139907
+      kind: 3
+      kind_id: 26205
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Yang%20Jia%20Jiang%20-%20Yang%27s%20Troops%20%28China%29%20%28980186%29%20%28Unl%29.png
+      format: 1
+      size: 5123
+      blob_id: 325274
+      debug: libretro-named-titles:rom-asset=26187:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Yang%20Jia%20Jiang%20-%20Yang%27s%20Troops%20%28China%29%20%28980186%29%20%28Unl%29.png
 - release:
     id: 26207
     game_id: 26205

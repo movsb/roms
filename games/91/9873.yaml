@@ -27,24 +27,32 @@ releases:
     kind_id: 9873
     language: 1
     name: Donald Land (J) [!]
+    deprecated: 1
   - id: 72142
     kind: 3
     kind_id: 9873
     language: 2
     name: 麦当劳世界
+  - id: 258036
+    kind: 3
+    kind_id: 9873
+    language: 1
+    name: Donald Land (Japan) (En)
+    source: no-intro
   assets:
   - asset:
       id: 9855
       kind: 3
       kind_id: 9873
       type: 1
-      name: Donald Land (J) [!].nes
+      name: Donald Land (Japan) (En).nes
       format: 1
       size: 262160
       blob_id: 55925
       debug: |-
         Donald Land (J) [!].nes
         麦当劳世界.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=a4542a50b29ff6eeebd54f1f00e11ba6cdabfe05
   - asset:
       id: 136815
       kind: 3
@@ -157,11 +165,18 @@ releases:
     kind_id: 9880
     language: 1
     name: Donald Land (Japan)
+    deprecated: 1
   - id: 72140
     kind: 3
     kind_id: 9880
     language: 2
     name: 麦当劳世界 (日版) (动作)-Donald Land (Japan)
+  - id: 258037
+    kind: 3
+    kind_id: 9880
+    language: 1
+    name: Donald Land (Japan) (En)
+    source: no-intro
   release_publishers:
   - release_id: 9880
     publisher_id: 132
@@ -171,13 +186,14 @@ releases:
       kind: 3
       kind_id: 9880
       type: 1
-      name: Donald Land (Japan).nes
+      name: Donald Land (Japan) (En).nes
       format: 1
       size: 262160
       blob_id: 55932
       debug: |-
         Donald Land (Japan).zip
         麦当劳世界 (日版) (动作)-Donald Land (Japan).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=a4542a50b29ff6eeebd54f1f00e11ba6cdabfe05
   - asset:
       id: 138477
       kind: 3

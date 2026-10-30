@@ -12,6 +12,13 @@ names:
   kind_id: 29427
   language: 1
   name: Oishinbo (J)
+  deprecated: 1
+- id: 263376
+  kind: 2
+  kind_id: 29427
+  language: 1
+  name: "Oishinbo - Kyuukyoku no Menu Sanbon Shoubu"
+  source: no-intro
 releases:
 - release:
     id: 29427
@@ -27,14 +34,34 @@ releases:
     kind_id: 29427
     language: 1
     name: Oishinbo (J)
+    deprecated: 1
+  - id: 261052
+    kind: 3
+    kind_id: 29427
+    language: 1
+    name: "Oishinbo - Kyuukyoku no Menu Sanbon Shoubu (Japan)"
+    source: no-intro
   assets:
   - asset:
       id: 29409
       kind: 3
       kind_id: 29427
       type: 1
-      name: 美味大挑战 (日版) (解谜)-Oishinbo (Japan) + Oishinbo (J).nes
+      name: "Oishinbo - Kyuukyoku no Menu Sanbon Shoubu (Japan).nes"
       format: 1
       size: 262160
       blob_id: 73586
-      debug: 美味大挑战 (日版) (解谜)-Oishinbo (Japan) + Oishinbo (J).nes
+      debug: |-
+        美味大挑战 (日版) (解谜)-Oishinbo (Japan) + Oishinbo (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=54ecbe35a23a5ab81debf78f35a521e722b36385
+  - asset:
+      id: 140203
+      kind: 3
+      kind_id: 29427
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Oishinbo%20-%20Kyuukyoku%20no%20Menu%20Sanbon%20Shoubu%20%28Japan%29.png
+      format: 1
+      size: 2120
+      blob_id: 325524
+      debug: libretro-named-titles:rom-asset=29409:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Oishinbo%20-%20Kyuukyoku%20no%20Menu%20Sanbon%20Shoubu%20%28Japan%29.png

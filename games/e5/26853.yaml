@@ -13,6 +13,12 @@ names:
   language: 1
   name: Famicom Wars
   source: codex
+- id: 262443
+  kind: 2
+  kind_id: 26853
+  language: 1
+  name: Famicom Wars
+  source: no-intro
 releases:
 - release:
     id: 26853
@@ -23,14 +29,33 @@ releases:
     kind_id: 26853
     language: 2
     name: 任天堂大战 (日版)(Rev B) (策略)-Famicom Wars (Japan) (Rev 0B)
+  - id: 260021
+    kind: 3
+    kind_id: 26853
+    language: 1
+    name: Famicom Wars (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 26835
       kind: 3
       kind_id: 26853
       type: 1
-      name: 任天堂大战 (日版)(Rev B) (策略)-Famicom Wars (Japan) (Rev 0B).nes
+      name: Famicom Wars (Japan).nes
       format: 1
       size: 196624
       blob_id: 71899
-      debug: 任天堂大战 (日版)(Rev B) (策略)-Famicom Wars (Japan) (Rev 0B).nes
+      debug: |-
+        任天堂大战 (日版)(Rev B) (策略)-Famicom Wars (Japan) (Rev 0B).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=882e0017099cc5784f3d3efa66fab4c38f83ec46
+  - asset:
+      id: 139988
+      kind: 3
+      kind_id: 26853
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Famicom%20Wars%20%28Japan%29.png
+      format: 1
+      size: 3096
+      blob_id: 324832
+      debug: libretro-named-titles:rom-asset=26835:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Famicom%20Wars%20%28Japan%29.png

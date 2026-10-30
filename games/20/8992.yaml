@@ -7,12 +7,19 @@ names:
   kind_id: 8992
   language: 1
   name: Concentration Room V.01 by Damian Yerrick (PD)
+  deprecated: 1
 - id: 252632
   kind: 2
   kind_id: 8992
   language: 2
   name: 集中力房间V0.1
   source: codex
+- id: 261600
+  kind: 2
+  kind_id: 8992
+  language: 1
+  name: Concentration Room
+  source: no-intro
 releases:
 - release:
     id: 8992
@@ -23,17 +30,26 @@ releases:
     kind_id: 8992
     language: 1
     name: Concentration Room V.01 by Damian Yerrick (PD)
+    deprecated: 1
+  - id: 257928
+    kind: 3
+    kind_id: 8992
+    language: 1
+    name: Concentration Room (World) (Demo 1) (Aftermarket) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 8974
       kind: 3
       kind_id: 8992
       type: 1
-      name: Concentration Room V.01 by Damian Yerrick (PD).nes
+      name: Concentration Room (World) (Demo 1) (Aftermarket) (Unl).nes
       format: 1
       size: 24592
       blob_id: 55100
-      debug: Concentration Room V.01 by Damian Yerrick (PD).nes
+      debug: |-
+        Concentration Room V.01 by Damian Yerrick (PD).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=235a3396ef05e5a302d586a70a301fd7e651848b
   - asset:
       id: 138289
       kind: 3

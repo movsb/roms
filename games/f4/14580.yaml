@@ -13,6 +13,12 @@ names:
   language: 2
   name: 海王星王大冒险
   source: codex
+- id: 261824
+  kind: 2
+  kind_id: 14580
+  language: 1
+  name: King Neptune's Adventure
+  source: no-intro
 releases:
 - release:
     id: 14580
@@ -23,17 +29,26 @@ releases:
     kind_id: 14580
     language: 1
     name: King Neptune's Adventure (Color Dreams) [!]
+    deprecated: 1
+  - id: 258569
+    kind: 3
+    kind_id: 14580
+    language: 1
+    name: King Neptune's Adventure (USA) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 14562
       kind: 3
       kind_id: 14580
       type: 1
-      name: King Neptune's Adventure (Color Dreams) [!].nes
+      name: King Neptune's Adventure (USA) (Unl).nes
       format: 1
       size: 98320
       blob_id: 60340
-      debug: King Neptune's Adventure (Color Dreams) [!].nes
+      debug: |-
+        King Neptune's Adventure (Color Dreams) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=f5c62a5ac771c42d0f64a46d4a70d283eeef58eb
   - asset:
       id: 137027
       kind: 3

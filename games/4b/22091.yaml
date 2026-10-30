@@ -8,12 +8,19 @@ names:
   kind_id: 22091
   language: 1
   name: Street Fighter 6 (Unl) [p1]
+  deprecated: 1
 - id: 248637
   kind: 2
   kind_id: 22091
   language: 2
   name: 街头霸王6
   source: codex
+- id: 262158
+  kind: 2
+  kind_id: 22091
+  language: 1
+  name: Street Fighter 6
+  source: no-intro
 releases:
 - release:
     id: 22091
@@ -24,14 +31,34 @@ releases:
     kind_id: 22091
     language: 1
     name: Street Fighter 6 (Unl) [p1]
+    deprecated: 1
+  - id: 259433
+    kind: 3
+    kind_id: 22091
+    language: 1
+    name: Street Fighter 6 (Asia) (En) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 22073
       kind: 3
       kind_id: 22091
       type: 1
-      name: Street Fighter 6 (Unl) [p1].nes
+      name: Street Fighter 6 (Asia) (En) (Pirate).nes
       format: 1
       size: 393232
       blob_id: 67435
-      debug: Street Fighter 6 (Unl) [p1].nes
+      debug: |-
+        Street Fighter 6 (Unl) [p1].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=5b655403bac8b3fc0ef039c8be159f57f146d803
+  - asset:
+      id: 139783
+      kind: 3
+      kind_id: 22091
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Street%20Fighter%206%20%28Asia%29%20%28En%29%20%28Pirate%29.png
+      format: 1
+      size: 3227
+      blob_id: 325160
+      debug: libretro-named-titles:rom-asset=22073:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Street%20Fighter%206%20%28Asia%29%20%28En%29%20%28Pirate%29.png

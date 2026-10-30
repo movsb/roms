@@ -12,6 +12,7 @@ names:
   kind_id: 15625
   language: 1
   name: Major League Baseball (U) (PRG0) [!]
+  deprecated: 1
 - id: 68961
   kind: 2
   kind_id: 15625
@@ -22,11 +23,18 @@ names:
   kind_id: 15625
   language: 1
   name: Major League Baseball (U) (PRG1) [!]
+  deprecated: 1
 - id: 92382
   kind: 2
   kind_id: 15625
   language: 1
   name: Major League Baseball
+- id: 261884
+  kind: 2
+  kind_id: 15625
+  language: 1
+  name: Major League Baseball
+  source: no-intro
 releases:
 - release:
     id: 15628
@@ -37,24 +45,32 @@ releases:
     kind_id: 15628
     language: 1
     name: Major League Baseball (U) (PRG1) [!]
+    deprecated: 1
   - id: 68963
     kind: 3
     kind_id: 15628
     language: 2
     name: 美国职业棒球联盟 (美版)(Rev A) (运动)-Major League Baseball (USA) (Rev A)
+  - id: 258716
+    kind: 3
+    kind_id: 15628
+    language: 1
+    name: Major League Baseball (USA) (Rev 1)
+    source: no-intro
   assets:
   - asset:
       id: 15610
       kind: 3
       kind_id: 15628
       type: 1
-      name: Major League Baseball (U) (PRG1) [!].nes
+      name: Major League Baseball (USA) (Rev 1).nes
       format: 1
       size: 65552
       blob_id: 61312
       debug: |-
         Major League Baseball (U) (PRG1) [!].zip
         美国职业棒球联盟 (美版)(Rev A) (运动)-Major League Baseball (USA) (Rev A) + Major League Baseball (U) (PRG1) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=ac70354b91596e7b20ede132c9b1acdb5c7d24b9
   - asset:
       id: 137088
       kind: 3
@@ -75,6 +91,7 @@ releases:
     kind_id: 15631
     language: 1
     name: Major League Baseball (U)
+    deprecated: 1
   - id: 68959
     kind: 3
     kind_id: 15631
@@ -85,19 +102,27 @@ releases:
     kind_id: 15631
     language: 1
     name: Major League Baseball (U) (PRG0) [!]
+    deprecated: 1
+  - id: 258717
+    kind: 3
+    kind_id: 15631
+    language: 1
+    name: Major League Baseball (USA)
+    source: no-intro
   assets:
   - asset:
       id: 15613
       kind: 3
       kind_id: 15631
       type: 1
-      name: Major League Baseball (U).nes
+      name: Major League Baseball (USA).nes
       format: 1
       size: 65552
       blob_id: 61315
       debug: |-
         Major League Baseball (U).zip
         美国职业棒球联盟 (美版) (运动)-Major League Baseball (USA) + Major League Baseball (U) (PRG0) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=a2eb5fb422a88a1f38a9e7236164f9f251d32c24
   - asset:
       id: 138569
       kind: 3

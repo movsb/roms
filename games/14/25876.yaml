@@ -12,6 +12,7 @@ names:
   kind_id: 25876
   language: 1
   name: Wheel of Fortune (U) (PRG0) [!]
+  deprecated: 1
 - id: 64137
   kind: 2
   kind_id: 25876
@@ -22,11 +23,18 @@ names:
   kind_id: 25876
   language: 1
   name: Wheel of Fortune (U) (PRG1) [!]
+  deprecated: 1
 - id: 93544
   kind: 2
   kind_id: 25876
   language: 1
   name: Wheel of Fortune
+- id: 262293
+  kind: 2
+  kind_id: 25876
+  language: 1
+  name: Wheel of Fortune
+  source: no-intro
 releases:
 - release:
     id: 25880
@@ -37,24 +45,32 @@ releases:
     kind_id: 25880
     language: 1
     name: Wheel of Fortune (U) (PRG1) [!]
+    deprecated: 1
   - id: 64139
     kind: 3
     kind_id: 25880
     language: 2
     name: 幸运轮盘 (美版)(Rev A) (博弈)-Wheel of Fortune (USA) (Rev A)
+  - id: 259797
+    kind: 3
+    kind_id: 25880
+    language: 1
+    name: Wheel of Fortune (USA) (Rev 1)
+    source: no-intro
   assets:
   - asset:
       id: 25862
       kind: 3
       kind_id: 25880
       type: 1
-      name: Wheel of Fortune (U) (PRG1) [!].nes
+      name: Wheel of Fortune (USA) (Rev 1).nes
       format: 1
       size: 131088
       blob_id: 71048
       debug: |-
         Wheel of Fortune (U) (PRG1) [!].zip
         幸运轮盘 (美版)(Rev A) (博弈)-Wheel of Fortune (USA) (Rev A) + Wheel of Fortune (U) (PRG1) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=4afcada217c73be2242cbfd1d2cf11d9aa26d88a
   - asset:
       id: 137469
       kind: 3
@@ -75,6 +91,7 @@ releases:
     kind_id: 25881
     language: 1
     name: Wheel of Fortune (U)
+    deprecated: 1
   - id: 64135
     kind: 3
     kind_id: 25881
@@ -85,19 +102,27 @@ releases:
     kind_id: 25881
     language: 1
     name: Wheel of Fortune (U) (PRG0) [!]
+    deprecated: 1
+  - id: 259798
+    kind: 3
+    kind_id: 25881
+    language: 1
+    name: Wheel of Fortune (USA)
+    source: no-intro
   assets:
   - asset:
       id: 25863
       kind: 3
       kind_id: 25881
       type: 1
-      name: Wheel of Fortune (U).nes
+      name: Wheel of Fortune (USA).nes
       format: 1
       size: 131088
       blob_id: 71049
       debug: |-
         Wheel of Fortune (U).zip
         幸运轮盘 (美版) (博弈)-Wheel of Fortune (USA) + Wheel of Fortune (U) (PRG0) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=3bae1f0ad46caf12838e269665e690bb7dca9758
   - asset:
       id: 138760
       kind: 3

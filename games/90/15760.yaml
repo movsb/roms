@@ -35,17 +35,26 @@ releases:
     kind_id: 15760
     language: 1
     name: Mario Bros. (GC)
+    deprecated: 1
+  - id: 258729
+    kind: 3
+    kind_id: 15760
+    language: 1
+    name: Mario Bros. (World) (Animal Crossing)
+    source: no-intro
   assets:
   - asset:
       id: 15742
       kind: 3
       kind_id: 15760
       type: 1
-      name: Mario Bros. (GC).nes
+      name: Mario Bros. (World) (Animal Crossing).nes
       format: 1
       size: 40976
       blob_id: 61437
-      debug: Mario Bros. (GC).nes
+      debug: |-
+        Mario Bros. (GC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=d70aad989425f9e5b7949afdb7e52c2c2b8e7b31
 - release:
     id: 15761
     game_id: 15760
@@ -95,24 +104,33 @@ releases:
     kind_id: 15763
     language: 1
     name: Mario Bros. (U) [!]
+    deprecated: 1
   - id: 35006
     kind: 3
     kind_id: 15763
     language: 1
     name: Mario Bros. (W) [!]
+    deprecated: 1
+  - id: 258730
+    kind: 3
+    kind_id: 15763
+    language: 1
+    name: Mario Bros. (World)
+    source: no-intro
   assets:
   - asset:
       id: 15745
       kind: 3
       kind_id: 15763
       type: 1
-      name: Mario Bros. (U) [!].nes
+      name: Mario Bros. (World).nes
       format: 1
       size: 24592
       blob_id: 61440
       debug: |-
         Mario Bros. (U) [!].zip
         Mario Bros. (W) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=bf43d93d36d7198e65b9b7c4e41db108fe43fcba
   - asset:
       id: 137093
       kind: 3

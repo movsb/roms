@@ -12,6 +12,13 @@ names:
   kind_id: 27093
   language: 1
   name: Ice Hockey (E) [!]
+  deprecated: 1
+- id: 262532
+  kind: 2
+  kind_id: 27093
+  language: 1
+  name: Ice Hockey
+  source: no-intro
 releases:
 - release:
     id: 27093
@@ -27,17 +34,26 @@ releases:
     kind_id: 27093
     language: 1
     name: Ice Hockey (E) [!]
+    deprecated: 1
+  - id: 260113
+    kind: 3
+    kind_id: 27093
+    language: 1
+    name: Ice Hockey (Europe)
+    source: no-intro
   assets:
   - asset:
       id: 27075
       kind: 3
       kind_id: 27093
       type: 1
-      name: 冰上曲棍球 (欧版) (运动)-Ice Hockey (Europe) + Ice Hockey (E) [!].nes
+      name: Ice Hockey (Europe).nes
       format: 1
       size: 40976
       blob_id: 72061
-      debug: 冰上曲棍球 (欧版) (运动)-Ice Hockey (Europe) + Ice Hockey (E) [!].nes
+      debug: |-
+        冰上曲棍球 (欧版) (运动)-Ice Hockey (Europe) + Ice Hockey (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=8cfe5cba7d68728f4eea403ac8c0a497cabc9248
   - asset:
       id: 137573
       kind: 3

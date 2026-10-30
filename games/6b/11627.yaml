@@ -13,11 +13,19 @@ names:
   kind_id: 11627
   language: 1
   name: Final Fantasy V (Unl)
+  deprecated: 1
 - id: 91879
   kind: 2
   kind_id: 11627
   language: 1
   name: Final Fantasy V
+  deprecated: 1
+- id: 261711
+  kind: 2
+  kind_id: 11627
+  language: 1
+  name: "Final Fantasy - Taikong Zhanshi V"
+  source: no-intro
 releases:
 - release:
     id: 11628
@@ -28,21 +36,29 @@ releases:
     kind_id: 11628
     language: 1
     name: Final Fantasy V (Unl)
+    deprecated: 1
   - id: 63133
     kind: 3
     kind_id: 11628
     language: 2
     name: 太空战士5[火星电子]
+  - id: 258231
+    kind: 3
+    kind_id: 11628
+    language: 1
+    name: "Final Fantasy - Taikong Zhanshi V (China) (Pirate)"
+    source: no-intro
   assets:
   - asset:
       id: 11610
       kind: 3
       kind_id: 11628
       type: 1
-      name: Final Fantasy V (Unl).nes
+      name: "Final Fantasy - Taikong Zhanshi V (China) (Pirate).nes"
       format: 1
       size: 524304
       blob_id: 57582
       debug: |-
         Final Fantasy V (Unl).zip
         太空战士5[火星电子] + Final Fantasy V (Unl).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=d09ef8127c64cbe817b45df33c4d43e7b441e381

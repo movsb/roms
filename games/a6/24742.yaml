@@ -49,24 +49,32 @@ releases:
     kind_id: 24737
     language: 1
     name: Tetris 2 (U) [!]
+    deprecated: 1
   - id: 60663
     kind: 3
     kind_id: 24737
     language: 2
     name: 俄罗斯方块 II (美版) (益智)-Tetris 2 (USA)
+  - id: 259638
+    kind: 3
+    kind_id: 24737
+    language: 1
+    name: Tetris 2 (USA)
+    source: no-intro
   assets:
   - asset:
       id: 24719
       kind: 3
       kind_id: 24737
       type: 1
-      name: Tetris 2 (U) [!].nes
+      name: Tetris 2 (USA).nes
       format: 1
       size: 262160
       blob_id: 69992
       debug: |-
         Tetris 2 (U) [!].zip
         俄罗斯方块 II (美版) (益智)-Tetris 2 (USA) + Tetris 2 (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=12c64449b7470aecf096b32ad2d19cc62bf99635
   - asset:
       id: 137402
       kind: 3
@@ -88,11 +96,13 @@ releases:
     kind_id: 24742
     language: 1
     name: Tetris 2
+    deprecated: 1
   - id: 55282
     kind: 3
     kind_id: 24742
     language: 1
     name: Bombliss (Japan)
+    deprecated: 1
   - id: 60682
     kind: 3
     kind_id: 24742
@@ -103,6 +113,12 @@ releases:
     kind_id: 24742
     language: 2
     name: 俄罗斯方块2+炸弹方块
+  - id: 259639
+    kind: 3
+    kind_id: 24742
+    language: 1
+    name: Tetris 2 + Bombliss (Japan) (En) (Rev 1)
+    source: no-intro
   release_publishers:
   - release_id: 24742
     publisher_id: 167
@@ -112,7 +128,7 @@ releases:
       kind: 3
       kind_id: 24742
       type: 1
-      name: Tetris 2 + Bombliss (Japan).nes
+      name: Tetris 2 + Bombliss (Japan) (En) (Rev 1).nes
       format: 1
       size: 131088
       blob_id: 69997
@@ -121,6 +137,7 @@ releases:
         俄罗斯方块2+炸弹方块.nes
         重复的/俄罗斯方块 II + 轰炸方块 (日版)(Rev A) (益智)-Tetris 2 + Bombliss (Japan) (Rev A) + Tetris 2 + BomBliss (J) [a1].nes
         俄罗斯方块2.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=7a06ef6867f116cb9217d66813cc6e94e3da4a33
   - asset:
       id: 138729
       kind: 3

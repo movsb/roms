@@ -22,17 +22,26 @@ releases:
     kind_id: 14422
     language: 1
     name: Kart Fighter (SOMARI-W) (Unl) [!]
+    deprecated: 1
+  - id: 258552
+    kind: 3
+    kind_id: 14422
+    language: 1
+    name: Kart Fighter (Taiwan) (En) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 14404
       kind: 3
       kind_id: 14422
       type: 1
-      name: Kart Fighter (SOMARI-W) (Unl) [!].nes
+      name: Kart Fighter (Taiwan) (En) (Pirate).nes
       format: 1
       size: 393232
       blob_id: 60195
-      debug: Kart Fighter (SOMARI-W) (Unl) [!].nes
+      debug: |-
+        Kart Fighter (SOMARI-W) (Unl) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=2a3390cad52e69c9e9736d8ad4859ffba74e6073
 - release:
     id: 14423
     game_id: 14422
@@ -124,17 +133,37 @@ releases:
     kind_id: 14431
     language: 1
     name: Kart Fighter (Unl) [p1][!]
+    deprecated: 1
+  - id: 258553
+    kind: 3
+    kind_id: 14431
+    language: 1
+    name: Kart Fighter (Asia) (En) (K-F1) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 14413
       kind: 3
       kind_id: 14431
       type: 1
-      name: Kart Fighter (Unl) [p1][!].nes
+      name: Kart Fighter (Asia) (En) (K-F1) (Pirate).nes
       format: 1
       size: 393232
       blob_id: 60203
-      debug: Kart Fighter (Unl) [p1][!].nes
+      debug: |-
+        Kart Fighter (Unl) [p1][!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=1ea1bfb10922e1e7daa57e96e34a02fde179a0e8
+  - asset:
+      id: 139487
+      kind: 3
+      kind_id: 14431
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Kart%20Fighter%20%28Asia%29%20%28En%29%20%28K-F1%29%20%28Pirate%29.png
+      format: 1
+      size: 5310
+      blob_id: 324916
+      debug: libretro-named-titles:rom-asset=14413:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Kart%20Fighter%20%28Asia%29%20%28En%29%20%28K-F1%29%20%28Pirate%29.png
 - release:
     id: 14432
     game_id: 14422

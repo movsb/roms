@@ -12,11 +12,18 @@ names:
   kind_id: 27513
   language: 1
   name: "Spelunker 2 - Yuusha heno Chousen (J)"
+  deprecated: 1
 - id: 62487
   kind: 2
   kind_id: 27513
   language: 2
   name: 地底探险2
+- id: 262683
+  kind: 2
+  kind_id: 27513
+  language: 1
+  name: "Spelunker II - Yuusha e no Chousen"
+  source: no-intro
 releases:
 - release:
     id: 27513
@@ -32,19 +39,37 @@ releases:
     kind_id: 27513
     language: 1
     name: "Spelunker 2 - Yuusha heno Chousen (J)"
+    deprecated: 1
   - id: 62488
     kind: 3
     kind_id: 27513
     language: 2
     name: 地底探险2
+  - id: 260285
+    kind: 3
+    kind_id: 27513
+    language: 1
+    name: "Spelunker II - Yuusha e no Chousen (Japan)"
+    source: no-intro
   assets:
   - asset:
       id: 27495
       kind: 3
       kind_id: 27513
       type: 1
-      name: "地底探险 II - 勇者的挑战 (日版) (动作)-Spelunker 2 - Yuusha heno Chousen (Japan) + Spelunker 2 - Yuusha heno Chousen (J).nes"
+      name: "Spelunker II - Yuusha e no Chousen (Japan).nes"
       format: 1
       size: 131088
       blob_id: 72339
-      debug: "地底探险 II - 勇者的挑战 (日版) (动作)-Spelunker 2 - Yuusha heno Chousen (Japan) + Spelunker 2 - Yuusha heno Chousen (J).nes\n地底探险2.zip"
+      debug: "地底探险 II - 勇者的挑战 (日版) (动作)-Spelunker 2 - Yuusha heno Chousen (Japan) + Spelunker 2 - Yuusha heno Chousen (J).nes\n地底探险2.zip\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=413b860b0f4513df89d60041637632b4cfac0c31"
+  - asset:
+      id: 140049
+      kind: 3
+      kind_id: 27513
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Spelunker%20II%20-%20Yuusha%20e%20no%20Chousen%20%28Japan%29.png
+      format: 1
+      size: 1553
+      blob_id: 325393
+      debug: libretro-named-titles:rom-asset=27495:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Spelunker%20II%20-%20Yuusha%20e%20no%20Chousen%20%28Japan%29.png

@@ -12,6 +12,13 @@ names:
   kind_id: 30014
   language: 1
   name: Heavy Barrel (J)
+  deprecated: 1
+- id: 263570
+  kind: 2
+  kind_id: 30014
+  language: 1
+  name: Heavy Barrel
+  source: no-intro
 releases:
 - release:
     id: 30014
@@ -27,17 +34,26 @@ releases:
     kind_id: 30014
     language: 1
     name: Heavy Barrel (J)
+    deprecated: 1
+  - id: 261261
+    kind: 3
+    kind_id: 30014
+    language: 1
+    name: Heavy Barrel (Japan) (En)
+    source: no-intro
   assets:
   - asset:
       id: 29996
       kind: 3
       kind_id: 30014
       type: 1
-      name: 重装机枪(日版) + Heavy Barrel (J).nes
+      name: Heavy Barrel (Japan) (En).nes
       format: 1
       size: 262160
       blob_id: 73939
-      debug: 重装机枪(日版) + Heavy Barrel (J).nes
+      debug: |-
+        重装机枪(日版) + Heavy Barrel (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=b3b3801083713f538bca1d9df612e19603b4311e
   - asset:
       id: 139212
       kind: 3

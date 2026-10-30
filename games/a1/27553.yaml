@@ -12,6 +12,13 @@ names:
   kind_id: 27553
   language: 1
   name: "Ji Du Shan En Chou Ji - Le Comte de Monte-Cristo (Ch)"
+  deprecated: 1
+- id: 262691
+  kind: 2
+  kind_id: 27553
+  language: 1
+  name: "Jidu Shan En Chouji - Le Comte de Monte-Cristo"
+  source: no-intro
 releases:
 - release:
     id: 27553
@@ -27,14 +34,32 @@ releases:
     kind_id: 27553
     language: 1
     name: "Ji Du Shan En Chou Ji - Le Comte de Monte-Cristo (Ch)"
+    deprecated: 1
+  - id: 260294
+    kind: 3
+    kind_id: 27553
+    language: 1
+    name: "Jidu Shan En Chouji - Le Comte de Monte-Cristo (China) (0100551) (Unl)"
+    source: no-intro
   assets:
   - asset:
       id: 27535
       kind: 3
       kind_id: 27553
       type: 1
-      name: "基督山恩仇记[外星科技] + Ji Du Shan En Chou Ji - Le Comte de Monte-Cristo (Ch).nes"
+      name: "Jidu Shan En Chouji - Le Comte de Monte-Cristo (China) (0100551) (Unl).nes"
       format: 1
       size: 524304
       blob_id: 72363
-      debug: "基督山恩仇记[外星科技] + Ji Du Shan En Chou Ji - Le Comte de Monte-Cristo (Ch).nes"
+      debug: "基督山恩仇记[外星科技] + Ji Du Shan En Chou Ji - Le Comte de Monte-Cristo (Ch).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=806787886bec15c8d7e5694ef6398ac18bc410de"
+  - asset:
+      id: 140051
+      kind: 3
+      kind_id: 27553
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Jidu%20Shan%20En%20Chouji%20-%20Le%20Comte%20de%20Monte-Cristo%20%28China%29%20%280100551%29%20%28Unl%29.png
+      format: 1
+      size: 4688
+      blob_id: 324907
+      debug: libretro-named-titles:rom-asset=27535:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Jidu%20Shan%20En%20Chouji%20-%20Le%20Comte%20de%20Monte-Cristo%20%28China%29%20%280100551%29%20%28Unl%29.png

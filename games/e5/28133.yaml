@@ -24,11 +24,13 @@ releases:
     kind_id: 17662
     language: 1
     name: "Ninja Gaiden 2 - The Dark Sword of Chaos (U)"
+    deprecated: 1
   - id: 39432
     kind: 3
     kind_id: 17662
     language: 1
     name: "Ninja Gaiden II - The Dark Sword of Chaos (U) [!]"
+    deprecated: 1
   - id: 39486
     kind: 3
     kind_id: 17662
@@ -39,17 +41,34 @@ releases:
     kind_id: 17662
     language: 2
     name: "忍者龙剑传 II - 暗黑之邪神剑 (美版) (动作)-Ninja Gaiden Episode II - The Dark Sword of Chaos (USA)"
+  - id: 258946
+    kind: 3
+    kind_id: 17662
+    language: 1
+    name: "Ninja Gaiden II - The Dark Sword of Chaos (USA)"
+    source: no-intro
   assets:
   - asset:
       id: 17644
       kind: 3
       kind_id: 17662
       type: 1
-      name: "Ninja Gaiden 2 - The Dark Sword of Chaos (U).nes"
+      name: "Ninja Gaiden II - The Dark Sword of Chaos (USA).nes"
       format: 1
       size: 262160
       blob_id: 63237
-      debug: "Ninja Gaiden 2 - The Dark Sword of Chaos (U).zip\nNinja Gaiden II - The Dark Sword of Chaos (U) [!].zip\nNinja Gaiden II - The Dark Sword of Chaos (USA).zip\n忍者龙剑传 II - 暗黑之邪神剑 (美版) (动作)-Ninja Gaiden Episode II - The Dark Sword of Chaos (USA) + Ninja Gaiden II - The Dark Sword of Chaos (U) [!].nes"
+      debug: "Ninja Gaiden 2 - The Dark Sword of Chaos (U).zip\nNinja Gaiden II - The Dark Sword of Chaos (U) [!].zip\nNinja Gaiden II - The Dark Sword of Chaos (USA).zip\n忍者龙剑传 II - 暗黑之邪神剑 (美版) (动作)-Ninja Gaiden Episode II - The Dark Sword of Chaos (USA) + Ninja Gaiden II - The Dark Sword of Chaos (U) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=951a19474a1d9c2984f3d966fbc41c0f0360105e"
+  - asset:
+      id: 139638
+      kind: 3
+      kind_id: 17662
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Ninja%20Gaiden%20II%20-%20The%20Dark%20Sword%20of%20Chaos%20%28USA%29.png
+      format: 1
+      size: 3433
+      blob_id: 325039
+      debug: libretro-named-titles:rom-asset=17644:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Ninja%20Gaiden%20II%20-%20The%20Dark%20Sword%20of%20Chaos%20%28USA%29.png
 - release:
     id: 17664
     game_id: 28133
@@ -79,17 +98,35 @@ releases:
     kind_id: 17665
     language: 1
     name: "Ninja Gaiden II - The Dark Sword of Chaos (U) (VC)"
+    deprecated: 1
+  - id: 258948
+    kind: 3
+    kind_id: 17665
+    language: 1
+    name: "Ninja Gaiden II - The Dark Sword of Chaos (USA) (Virtual Console)"
+    source: no-intro
   assets:
   - asset:
       id: 17647
       kind: 3
       kind_id: 17665
       type: 1
-      name: "Ninja Gaiden II - The Dark Sword of Chaos (U) (VC).nes"
+      name: "Ninja Gaiden II - The Dark Sword of Chaos (USA) (Virtual Console).nes"
       format: 1
       size: 262160
       blob_id: 63240
-      debug: "Ninja Gaiden II - The Dark Sword of Chaos (U) (VC).nes"
+      debug: "Ninja Gaiden II - The Dark Sword of Chaos (U) (VC).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=19bc226f4a7d751569bbaf6f4a05320217e036d5"
+  - asset:
+      id: 139640
+      kind: 3
+      kind_id: 17665
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Ninja%20Gaiden%20II%20-%20The%20Dark%20Sword%20of%20Chaos%20%28USA%29%20%28Virtual%20Console%29.png
+      format: 1
+      size: 6000
+      blob_id: 325041
+      debug: libretro-named-titles:rom-asset=17647:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Ninja%20Gaiden%20II%20-%20The%20Dark%20Sword%20of%20Chaos%20%28USA%29%20%28Virtual%20Console%29.png
 - release:
     id: 17667
     game_id: 28133
@@ -304,17 +341,24 @@ releases:
     kind_id: 28123
     language: 1
     name: "Ninja Ryukenden II - Ankoku no Jashin Ken (J) [!]"
+    deprecated: 1
+  - id: 260516
+    kind: 3
+    kind_id: 28123
+    language: 1
+    name: "Ninja Ryuuken Den II - Ankoku no Jashin Ken (Japan)"
+    source: no-intro
   assets:
   - asset:
       id: 28105
       kind: 3
       kind_id: 28123
       type: 1
-      name: "忍者龙剑传 II - 暗黑之邪神剑 (日版) (动作)-Ninja Ryukenden II - Ankoku no Jashin Ken (Japan) + Ninja Ryukenden II - Ankoku no Jashin Ken (J) [!].nes"
+      name: "Ninja Ryuuken Den II - Ankoku no Jashin Ken (Japan).nes"
       format: 1
       size: 262160
       blob_id: 72734
-      debug: "忍者龙剑传 II - 暗黑之邪神剑 (日版) (动作)-Ninja Ryukenden II - Ankoku no Jashin Ken (Japan) + Ninja Ryukenden II - Ankoku no Jashin Ken (J) [!].nes"
+      debug: "忍者龙剑传 II - 暗黑之邪神剑 (日版) (动作)-Ninja Ryukenden II - Ankoku no Jashin Ken (Japan) + Ninja Ryukenden II - Ankoku no Jashin Ken (J) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=d088d3919325dad722ab77bc18f3a73f85a286c2"
   - asset:
       id: 137722
       kind: 3
@@ -340,17 +384,35 @@ releases:
     kind_id: 28124
     language: 1
     name: "Shadow Warriors Episode II - The Dark Sword of Chaos (E) [!]"
+    deprecated: 1
+  - id: 260517
+    kind: 3
+    kind_id: 28124
+    language: 1
+    name: "Shadow Warriors II - Ninja Gaiden II (Europe)"
+    source: no-intro
   assets:
   - asset:
       id: 28106
       kind: 3
       kind_id: 28124
       type: 1
-      name: "忍者龙剑传 II - 暗黑之邪神剑 (欧版) (动作)-Shadow Warriors Episode II - The Dark Sword of Chaos (Europe) + Shadow Warriors Episode II - The Dark Sword of Chaos (E) [!].nes"
+      name: "Shadow Warriors II - Ninja Gaiden II (Europe).nes"
       format: 1
       size: 262160
       blob_id: 72735
-      debug: "忍者龙剑传 II - 暗黑之邪神剑 (欧版) (动作)-Shadow Warriors Episode II - The Dark Sword of Chaos (Europe) + Shadow Warriors Episode II - The Dark Sword of Chaos (E) [!].nes"
+      debug: "忍者龙剑传 II - 暗黑之邪神剑 (欧版) (动作)-Shadow Warriors Episode II - The Dark Sword of Chaos (Europe) + Shadow Warriors Episode II - The Dark Sword of Chaos (E) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=6043a29002e732bc755bf2ca63784ff470af4e93"
+  - asset:
+      id: 140102
+      kind: 3
+      kind_id: 28124
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Shadow%20Warriors%20II%20-%20Ninja%20Gaiden%20II%20%28Europe%29.png
+      format: 1
+      size: 3434
+      blob_id: 325441
+      debug: libretro-named-titles:rom-asset=28106:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Shadow%20Warriors%20II%20-%20Ninja%20Gaiden%20II%20%28Europe%29.png
 - release:
     id: 28126
     game_id: 28133

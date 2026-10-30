@@ -23,19 +23,37 @@ releases:
     kind_id: 30180
     language: 2
     name: 顽皮狗
+  - id: 261339
+    kind: 3
+    kind_id: 30180
+    language: 1
+    name: Chiki Chiki Machine Mou Race (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 30162
       kind: 3
       kind_id: 30180
       type: 1
-      name: 顽皮狗.nes
+      name: Chiki Chiki Machine Mou Race (Japan).nes
       format: 1
       size: 262160
       blob_id: 74048
       debug: |-
         顽皮狗.nes
         顽皮狗.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=2dcf131d8fc82c8157434e4cd7429426b0ff56cd
+  - asset:
+      id: 140246
+      kind: 3
+      kind_id: 30180
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Chiki%20Chiki%20Machine%20Mou%20Race%20%28Japan%29.png
+      format: 1
+      size: 2389
+      blob_id: 325561
+      debug: libretro-named-titles:rom-asset=30162:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Chiki%20Chiki%20Machine%20Mou%20Race%20%28Japan%29.png
 - release:
     id: 30182
     game_id: 30180

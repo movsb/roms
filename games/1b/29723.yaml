@@ -13,6 +13,12 @@ names:
   language: 1
   name: "Sugoro Quest - Dice no Senshitachi"
   source: codex
+- id: 263481
+  kind: 2
+  kind_id: 29723
+  language: 1
+  name: "Sugoro Quest - Dice no Senshitachi"
+  source: no-intro
 releases:
 - release:
     id: 29723
@@ -33,14 +39,32 @@ releases:
     kind_id: 29723
     language: 1
     name: "Sugoro Quest - Dice no Senshitachi (Ch)"
+    deprecated: 1
+  - id: 261164
+    kind: 3
+    kind_id: 29723
+    language: 1
+    name: "Sugoro Quest - Dice no Senshitachi (Asia) (Pirate)"
+    source: no-intro
   assets:
   - asset:
       id: 29705
       kind: 3
       kind_id: 29723
       type: 1
-      name: 赌神.nes
+      name: "Sugoro Quest - Dice no Senshitachi (Asia) (Pirate).nes"
       format: 1
       size: 393232
       blob_id: 73755
-      debug: "赌神.zip\n赌神[先锋卡通汉化] + Sugoro Quest - Dice no Senshitachi (Ch).nes"
+      debug: "赌神.zip\n赌神[先锋卡通汉化] + Sugoro Quest - Dice no Senshitachi (Ch).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=5c6a513e04b9c3b7390bb076a7d94daaecc5ed39"
+  - asset:
+      id: 140225
+      kind: 3
+      kind_id: 29723
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Sugoro%20Quest%20-%20Dice%20no%20Senshitachi%20%28Asia%29%20%28Pirate%29.png
+      format: 1
+      size: 7767
+      blob_id: 325544
+      debug: libretro-named-titles:rom-asset=29705:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Sugoro%20Quest%20-%20Dice%20no%20Senshitachi%20%28Asia%29%20%28Pirate%29.png

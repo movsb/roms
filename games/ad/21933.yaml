@@ -7,6 +7,7 @@ names:
   kind_id: 21933
   language: 1
   name: StarTrekNextGeneration
+  deprecated: 1
 - id: 65679
   kind: 2
   kind_id: 21933
@@ -17,11 +18,18 @@ names:
   kind_id: 21933
   language: 1
   name: "Star Trek - The Next Generation (U) [!]"
+  deprecated: 1
 - id: 93107
   kind: 2
   kind_id: 21933
   language: 1
   name: "Star Trek - The Next Generation"
+- id: 262146
+  kind: 2
+  kind_id: 21933
+  language: 1
+  name: "Star Trek - The Next Generation"
+  source: no-intro
 releases:
 - release:
     id: 21933
@@ -32,32 +40,41 @@ releases:
     kind_id: 21933
     language: 1
     name: "Star Trek - The Next Generation (U) [!]"
+    deprecated: 1
   - id: 48832
     kind: 3
     kind_id: 21933
     language: 1
     name: "Star Trek - The Next Generation (U)"
+    deprecated: 1
   - id: 48938
     kind: 3
     kind_id: 21933
     language: 1
     name: StarTrekNextGeneration
+    deprecated: 1
   - id: 65681
     kind: 3
     kind_id: 21933
     language: 2
     name: "星舰迷航记 - 银河飞龙 (美版) (动作冒险)-Star Trek - The Next Generation (USA)"
+  - id: 259408
+    kind: 3
+    kind_id: 21933
+    language: 1
+    name: "Star Trek - The Next Generation (USA)"
+    source: no-intro
   assets:
   - asset:
       id: 21915
       kind: 3
       kind_id: 21933
       type: 1
-      name: "Star Trek - The Next Generation (U) [!].nes"
+      name: "Star Trek - The Next Generation (USA).nes"
       format: 1
       size: 131088
       blob_id: 67292
-      debug: "Star Trek - The Next Generation (U) [!].zip\nStar Trek - The Next Generation (U).zip\nStarTrekNextGeneration.zip\n星舰迷航记 - 银河飞龙 (美版) (动作冒险)-Star Trek - The Next Generation (USA) + Star Trek - The Next Generation (U) [!].nes"
+      debug: "Star Trek - The Next Generation (U) [!].zip\nStar Trek - The Next Generation (U).zip\nStarTrekNextGeneration.zip\n星舰迷航记 - 银河飞龙 (美版) (动作冒险)-Star Trek - The Next Generation (USA) + Star Trek - The Next Generation (U) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=204c5b2ee0445e5ed45a5a911782c2403fc97344"
   - asset:
       id: 137337
       kind: 3

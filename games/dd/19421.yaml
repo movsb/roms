@@ -27,23 +27,32 @@ releases:
     kind_id: 19421
     language: 1
     name: Pyramid (AVE) (PRG1) [!]
+    deprecated: 1
   - id: 43254
     kind: 3
     kind_id: 19421
     language: 1
     name: Pyramid (U) (Sachen)
+    deprecated: 1
   - id: 43256
     kind: 3
     kind_id: 19421
     language: 1
     name: Pyramid (Unl) (U) (Sachen)
+    deprecated: 1
+  - id: 259117
+    kind: 3
+    kind_id: 19421
+    language: 1
+    name: Pyramid (USA) (NINA-06) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 19403
       kind: 3
       kind_id: 19421
       type: 1
-      name: Pyramid (AVE) (PRG1) [!].nes
+      name: Pyramid (USA) (NINA-06) (Unl).nes
       format: 1
       size: 24592
       blob_id: 64922
@@ -51,6 +60,7 @@ releases:
         Pyramid (AVE) (PRG1) [!].nes
         Pyramid (U) (Sachen).zip
         Pyramid (Unl) (U) (Sachen).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=95e86c77bb25dd23152d34fd0bb562a09535be43
   - asset:
       id: 137217
       kind: 3
@@ -76,24 +86,33 @@ releases:
     kind_id: 19425
     language: 1
     name: Pyramid (AVE) (PRG0) [!]
+    deprecated: 1
   - id: 84174
     kind: 3
     kind_id: 19425
     language: 1
     name: Pyramid (Sachen+NINA03) [!]
+    deprecated: 1
+  - id: 259118
+    kind: 3
+    kind_id: 19425
+    language: 1
+    name: Pyramid (USA) (NINA-03) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 19407
       kind: 3
       kind_id: 19425
       type: 1
-      name: Pyramid (Sachen+NINA03) [!].nes
+      name: Pyramid (USA) (NINA-03) (Unl).nes
       format: 1
       size: 24592
       blob_id: 64926
       debug: |-
         Pyramid (Sachen+NINA03) [!].zip
         金字塔方块 (美版) (益智)-Pyramid (USA) (Unl) + Pyramid (AVE) (PRG0) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=bced3c0d179920324c0a387f259447cada4448ec
 - release:
     id: 19426
     game_id: 19421
@@ -103,17 +122,37 @@ releases:
     kind_id: 19426
     language: 1
     name: Pyramid (Sachen-Hacker)
+    deprecated: 1
+  - id: 259119
+    kind: 3
+    kind_id: 19426
+    language: 1
+    name: "Pyramid - Cleopatra Kikiippatsu (Japan) (Unl)"
+    source: no-intro
   assets:
   - asset:
       id: 19408
       kind: 3
       kind_id: 19426
       type: 1
-      name: Pyramid (Sachen-Hacker).nes
+      name: "Pyramid - Cleopatra Kikiippatsu (Japan) (Unl).nes"
       format: 1
       size: 98320
       blob_id: 64927
-      debug: Pyramid (Sachen-Hacker).nes
+      debug: |-
+        Pyramid (Sachen-Hacker).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=ceba88c5d485c31d303d399522bb211bc99c9fb1
+  - asset:
+      id: 139687
+      kind: 3
+      kind_id: 19426
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Pyramid%20-%20Cleopatra%20Kikiippatsu%20%28Japan%29%20%28Unl%29.png
+      format: 1
+      size: 4091
+      blob_id: 325082
+      debug: libretro-named-titles:rom-asset=19408:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Pyramid%20-%20Cleopatra%20Kikiippatsu%20%28Japan%29%20%28Unl%29.png
 - release:
     id: 19430
     game_id: 19421

@@ -7,12 +7,19 @@ names:
   kind_id: 6303
   language: 1
   name: Balda by Alexander Chudov (R) [!]
+  deprecated: 1
 - id: 252005
   kind: 2
   kind_id: 6303
   language: 2
   name: 猜词游戏
   source: codex
+- id: 261526
+  kind: 2
+  kind_id: 6303
+  language: 1
+  name: Balda
+  source: no-intro
 releases:
 - release:
     id: 6303
@@ -23,14 +30,34 @@ releases:
     kind_id: 6303
     language: 1
     name: Balda by Alexander Chudov (R) [!]
+    deprecated: 1
+  - id: 257695
+    kind: 3
+    kind_id: 6303
+    language: 1
+    name: Balda (Russia) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 6285
       kind: 3
       kind_id: 6303
       type: 1
-      name: Balda by Alexander Chudov (R) [!].nes
+      name: Balda (Russia) (Unl).nes
       format: 1
       size: 40976
       blob_id: 52545
-      debug: Balda by Alexander Chudov (R) [!].nes
+      debug: |-
+        Balda by Alexander Chudov (R) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=0292fdf6d60ea9c7b60e76d7f4efaffe8bd91d30
+  - asset:
+      id: 139310
+      kind: 3
+      kind_id: 6303
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Balda%20%28Russia%29%20%28Unl%29.png
+      format: 1
+      size: 1314
+      blob_id: 324763
+      debug: libretro-named-titles:rom-asset=6285:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Balda%20%28Russia%29%20%28Unl%29.png

@@ -12,11 +12,19 @@ names:
   kind_id: 14596
   language: 1
   name: King of Kings, The (Wisdom Tree) (V1.3) [!]
+  deprecated: 1
 - id: 92246
   kind: 2
   kind_id: 14596
   language: 1
   name: King of Kings, The
+  deprecated: 1
+- id: 261828
+  kind: 2
+  kind_id: 14596
+  language: 1
+  name: "King of Kings, The - The Early Years"
+  source: no-intro
 releases:
 - release:
     id: 14596
@@ -27,11 +35,13 @@ releases:
     kind_id: 14596
     language: 1
     name: King of Kings, The (U) (V1.3)
+    deprecated: 1
   - id: 32326
     kind: 3
     kind_id: 14596
     language: 1
     name: King of Kings, The (Unl) (V1.3) [!]
+    deprecated: 1
   - id: 59725
     kind: 3
     kind_id: 14596
@@ -42,13 +52,20 @@ releases:
     kind_id: 14596
     language: 1
     name: King of Kings, The (Wisdom Tree) (V1.3) [!]
+    deprecated: 1
+  - id: 258575
+    kind: 3
+    kind_id: 14596
+    language: 1
+    name: "King of Kings, The - The Early Years (USA) (v1.3) (Unl)"
+    source: no-intro
   assets:
   - asset:
       id: 14578
       kind: 3
       kind_id: 14596
       type: 1
-      name: King of Kings, The (U) (V1.3).nes
+      name: "King of Kings, The - The Early Years (USA) (v1.3) (Unl).nes"
       format: 1
       size: 262160
       blob_id: 60352
@@ -56,3 +73,15 @@ releases:
         King of Kings, The (U) (V1.3).zip
         King of Kings, The (Unl) (V1.3) [!].zip
         万王之王 (美版) (V1.3) (动作)-King of Kings, The (USA) (v1.3) (Unl) + King of Kings, The (Wisdom Tree) (V1.3) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=4014d36ab4e0696740d7d5528fcf80914fd3d6f2
+  - asset:
+      id: 139495
+      kind: 3
+      kind_id: 14596
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/King%20of%20Kings%2C%20The%20-%20The%20Early%20Years%20%28USA%29%20%28v1.3%29%20%28Unl%29.png
+      format: 1
+      size: 5264
+      blob_id: 324923
+      debug: libretro-named-titles:rom-asset=14578:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/King%20of%20Kings%2C%20The%20-%20The%20Early%20Years%20%28USA%29%20%28v1.3%29%20%28Unl%29.png

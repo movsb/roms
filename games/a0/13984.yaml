@@ -27,27 +27,46 @@ releases:
     kind_id: 13984
     language: 1
     name: "Jetsons - Cogswell's Caper!, The (U)"
+    deprecated: 1
   - id: 30838
     kind: 3
     kind_id: 13984
     language: 1
     name: "Jetsons, The - Cogswell's Caper! (U) [!]"
+    deprecated: 1
   - id: 66216
     kind: 3
     kind_id: 13984
     language: 2
     name: 杰森一家
+  - id: 258503
+    kind: 3
+    kind_id: 13984
+    language: 1
+    name: "Jetsons, The - Cogswell's Caper (USA)"
+    source: no-intro
   assets:
   - asset:
       id: 13966
       kind: 3
       kind_id: 13984
       type: 1
-      name: "Jetsons - Cogswell's Caper!, The (U).nes"
+      name: "Jetsons, The - Cogswell's Caper (USA).nes"
       format: 1
       size: 393232
       blob_id: 59789
-      debug: "Jetsons - Cogswell's Caper!, The (U).zip\nJetsons, The - Cogswell's Caper! (U) [!].nes\nJetsons, The - Cogswell's Caper! (U) [!].zip\n杰森一家.zip"
+      debug: "Jetsons - Cogswell's Caper!, The (U).zip\nJetsons, The - Cogswell's Caper! (U) [!].nes\nJetsons, The - Cogswell's Caper! (U) [!].zip\n杰森一家.zip\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=2b8fbe96c01e329b116ecbb1c9d0b3b0862e0ae4"
+  - asset:
+      id: 139473
+      kind: 3
+      kind_id: 13984
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Jetsons%2C%20The%20-%20Cogswell%27s%20Caper%20%28USA%29.png
+      format: 1
+      size: 2999
+      blob_id: 324904
+      debug: libretro-named-titles:rom-asset=13966:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Jetsons%2C%20The%20-%20Cogswell%27s%20Caper%20%28USA%29.png
 - release:
     id: 13985
     game_id: 13984
@@ -57,17 +76,24 @@ releases:
     kind_id: 13985
     language: 1
     name: "Jetsons, The - Cogswell's Caper! (E) [!]"
+    deprecated: 1
+  - id: 258504
+    kind: 3
+    kind_id: 13985
+    language: 1
+    name: "Jetsons, The - Cogswell's Caper (Europe)"
+    source: no-intro
   assets:
   - asset:
       id: 13967
       kind: 3
       kind_id: 13985
       type: 1
-      name: "Jetsons, The - Cogswell's Caper! (E) [!].nes"
+      name: "Jetsons, The - Cogswell's Caper (Europe).nes"
       format: 1
       size: 393232
       blob_id: 59790
-      debug: "Jetsons, The - Cogswell's Caper! (E) [!].nes"
+      debug: "Jetsons, The - Cogswell's Caper! (E) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=809a5daedb8cb79c6d67f3cb34a1ab414281539a"
   - asset:
       id: 136997
       kind: 3
@@ -128,17 +154,35 @@ releases:
     kind_id: 13988
     language: 1
     name: "Jetsons, The - Cogswell's Caper! (J)"
+    deprecated: 1
+  - id: 258505
+    kind: 3
+    kind_id: 13988
+    language: 1
+    name: "Jetsons, The - Cogswell's Caper (Japan)"
+    source: no-intro
   assets:
   - asset:
       id: 13970
       kind: 3
       kind_id: 13988
       type: 1
-      name: "Jetsons, The - Cogswell's Caper! (J).nes"
+      name: "Jetsons, The - Cogswell's Caper (Japan).nes"
       format: 1
       size: 393232
       blob_id: 59793
-      debug: "Jetsons, The - Cogswell's Caper! (J).nes"
+      debug: "Jetsons, The - Cogswell's Caper! (J).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=127b2c71ab249ecc197f7f88cefc1fde2ec7f2ce"
+  - asset:
+      id: 139474
+      kind: 3
+      kind_id: 13988
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Jetsons%2C%20The%20-%20Cogswell%27s%20Caper%20%28Japan%29.png
+      format: 1
+      size: 3075
+      blob_id: 324905
+      debug: libretro-named-titles:rom-asset=13970:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Jetsons%2C%20The%20-%20Cogswell%27s%20Caper%20%28Japan%29.png
 - release:
     id: 13993
     game_id: 13984

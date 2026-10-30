@@ -27,24 +27,32 @@ releases:
     kind_id: 17188
     language: 1
     name: Mystery Quest (U) [!]
+    deprecated: 1
   - id: 68411
     kind: 3
     kind_id: 17188
     language: 2
     name: 秘密大探索 (美版) (动作)-Mystery Quest (USA)
+  - id: 258899
+    kind: 3
+    kind_id: 17188
+    language: 1
+    name: Mystery Quest (USA)
+    source: no-intro
   assets:
   - asset:
       id: 17170
       kind: 3
       kind_id: 17188
       type: 1
-      name: Mystery Quest (U) [!].nes
+      name: Mystery Quest (USA).nes
       format: 1
       size: 65552
       blob_id: 62780
       debug: |-
         Mystery Quest (U) [!].zip
         秘密大探索 (美版) (动作)-Mystery Quest (USA) + Mystery Quest (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=2ab7cbff5aaabc0122170286d64b8ade1052b98f
   - asset:
       id: 137148
       kind: 3
@@ -85,17 +93,26 @@ releases:
     kind_id: 17194
     language: 1
     name: Mystery Quest (U)
+    deprecated: 1
+  - id: 258900
+    kind: 3
+    kind_id: 17194
+    language: 1
+    name: Mystery Quest (USA)
+    source: no-intro
   assets:
   - asset:
       id: 17176
       kind: 3
       kind_id: 17194
       type: 1
-      name: Mystery Quest (U).nes
+      name: Mystery Quest (USA).nes
       format: 1
       size: 65552
       blob_id: 62786
-      debug: Mystery Quest (U).zip
+      debug: |-
+        Mystery Quest (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=2ab7cbff5aaabc0122170286d64b8ade1052b98f
   - asset:
       id: 138595
       kind: 3

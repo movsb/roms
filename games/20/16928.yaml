@@ -32,11 +32,13 @@ releases:
     kind_id: 16928
     language: 1
     name: Monster In My Pocket (U) [!]
+    deprecated: 1
   - id: 37818
     kind: 3
     kind_id: 16928
     language: 1
     name: Monster in My Pocket (U)
+    deprecated: 1
   - id: 61919
     kind: 3
     kind_id: 16928
@@ -47,13 +49,19 @@ releases:
     kind_id: 16928
     language: 2
     name: 魔鬼总动员
+  - id: 258855
+    kind: 3
+    kind_id: 16928
+    language: 1
+    name: Monster in My Pocket (USA)
+    source: no-intro
   assets:
   - asset:
       id: 16910
       kind: 3
       kind_id: 16928
       type: 1
-      name: Monster In My Pocket (U) [!].nes
+      name: Monster in My Pocket (USA).nes
       format: 1
       size: 262160
       blob_id: 62544
@@ -62,6 +70,7 @@ releases:
         Monster in My Pocket (U).zip
         口袋怪物大进击 (美版) (动作)-Monster in My Pocket (USA) + Monster In My Pocket (U) [!].nes
         魔鬼总动员.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=2990a31d46210def8e1f4a225587cd15f512979f
   - asset:
       id: 137132
       kind: 3
@@ -262,17 +271,26 @@ releases:
     kind_id: 16960
     language: 1
     name: Monster in My Pocket (U) [p1]
+    deprecated: 1
+  - id: 258858
+    kind: 3
+    kind_id: 16960
+    language: 1
+    name: Monster in My Pocket (Asia) (En) (M-I6) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 16942
       kind: 3
       kind_id: 16960
       type: 1
-      name: Monster in My Pocket (U) [p1].nes
+      name: Monster in My Pocket (Asia) (En) (M-I6) (Pirate).nes
       format: 1
       size: 262160
       blob_id: 62574
-      debug: Monster in My Pocket (U) [p1].nes
+      debug: |-
+        Monster in My Pocket (U) [p1].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=5cae6bfbd38dcd1f1ee43738087cef828a66655c
 - release:
     id: 16961
     game_id: 16928

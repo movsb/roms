@@ -12,11 +12,18 @@ names:
   kind_id: 25357
   language: 1
   name: Ultimate League Soccer (AVE) [!]
+  deprecated: 1
 - id: 93480
   kind: 2
   kind_id: 25357
   language: 1
   name: Ultimate League Soccer
+- id: 262269
+  kind: 2
+  kind_id: 25357
+  language: 1
+  name: Ultimate League Soccer
+  source: no-intro
 releases:
 - release:
     id: 25359
@@ -27,11 +34,13 @@ releases:
     kind_id: 25359
     language: 1
     name: Ultimate League Soccer (U)
+    deprecated: 1
   - id: 56690
     kind: 3
     kind_id: 25359
     language: 1
     name: Ultimate League Soccer (Unl) [!p]
+    deprecated: 1
   - id: 68765
     kind: 3
     kind_id: 25359
@@ -42,13 +51,20 @@ releases:
     kind_id: 25359
     language: 1
     name: Ultimate League Soccer (AVE) [!]
+    deprecated: 1
+  - id: 259736
+    kind: 3
+    kind_id: 25359
+    language: 1
+    name: Ultimate League Soccer (USA) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 25341
       kind: 3
       kind_id: 25359
       type: 1
-      name: Ultimate League Soccer (U).nes
+      name: Ultimate League Soccer (USA) (Unl).nes
       format: 1
       size: 98320
       blob_id: 70563
@@ -56,3 +72,15 @@ releases:
         Ultimate League Soccer (U).zip
         Ultimate League Soccer (Unl) [!p].zip
         终极足球联盟大赛 (美版) (运动)-Ultimate League Soccer (USA) (Unl) + Ultimate League Soccer (AVE) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=615e810a5dba3c34112628f0349c4abc0e2aee54
+  - asset:
+      id: 139872
+      kind: 3
+      kind_id: 25359
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Ultimate%20League%20Soccer%20%28USA%29%20%28Unl%29.png
+      format: 1
+      size: 3212
+      blob_id: 325243
+      debug: libretro-named-titles:rom-asset=25341:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Ultimate%20League%20Soccer%20%28USA%29%20%28Unl%29.png

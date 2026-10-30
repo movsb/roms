@@ -28,17 +28,26 @@ releases:
     kind_id: 16166
     language: 1
     name: Megaman III (E) (PRG0) [!]
+    deprecated: 1
+  - id: 258758
+    kind: 3
+    kind_id: 16166
+    language: 1
+    name: Mega Man 3 (Europe)
+    source: no-intro
   assets:
   - asset:
       id: 16148
       kind: 3
       kind_id: 16166
       type: 1
-      name: Megaman III (E) (PRG0) [!].nes
+      name: Mega Man 3 (Europe).nes
       format: 1
       size: 393232
       blob_id: 61834
-      debug: Megaman III (E) (PRG0) [!].nes
+      debug: |-
+        Megaman III (E) (PRG0) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=aef7d49e2abe78145ccc630f939b65dd93b3ea81
   - asset:
       id: 137102
       kind: 3
@@ -59,17 +68,37 @@ releases:
     kind_id: 16167
     language: 1
     name: Megaman III (E) (PRG1) [!]
+    deprecated: 1
+  - id: 258759
+    kind: 3
+    kind_id: 16167
+    language: 1
+    name: Mega Man 3 (Europe) (Rev 1)
+    source: no-intro
   assets:
   - asset:
       id: 16149
       kind: 3
       kind_id: 16167
       type: 1
-      name: Megaman III (E) (PRG1) [!].nes
+      name: Mega Man 3 (Europe) (Rev 1).nes
       format: 1
       size: 393232
       blob_id: 61835
-      debug: Megaman III (E) (PRG1) [!].nes
+      debug: |-
+        Megaman III (E) (PRG1) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=4bcd36c05fcaf45c74001257c65afb7ec5fa53d7
+  - asset:
+      id: 139556
+      kind: 3
+      kind_id: 16167
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mega%20Man%203%20%28Europe%29%20%28Rev%201%29.png
+      format: 1
+      size: 1418
+      blob_id: 324541
+      debug: libretro-named-titles:rom-asset=16149:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mega%20Man%203%20%28Europe%29%20%28Rev%201%29.png
 - release:
     id: 16168
     game_id: 16166
@@ -79,17 +108,37 @@ releases:
     kind_id: 16168
     language: 1
     name: Megaman III (E) (VC)
+    deprecated: 1
+  - id: 258760
+    kind: 3
+    kind_id: 16168
+    language: 1
+    name: Mega Man 3 (Europe) (Rev 1) (Virtual Console)
+    source: no-intro
   assets:
   - asset:
       id: 16150
       kind: 3
       kind_id: 16168
       type: 1
-      name: Megaman III (E) (VC).nes
+      name: Mega Man 3 (Europe) (Rev 1) (Virtual Console).nes
       format: 1
       size: 393232
       blob_id: 61836
-      debug: Megaman III (E) (VC).nes
+      debug: |-
+        Megaman III (E) (VC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=8c06a68bc051087a78a1326d7f7e617373aa11ab
+  - asset:
+      id: 139557
+      kind: 3
+      kind_id: 16168
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mega%20Man%203%20%28Europe%29%20%28Rev%201%29%20%28Virtual%20Console%29.png
+      format: 1
+      size: 3512
+      blob_id: 324971
+      debug: libretro-named-titles:rom-asset=16150:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mega%20Man%203%20%28Europe%29%20%28Rev%201%29%20%28Virtual%20Console%29.png
 - release:
     id: 16169
     game_id: 16166
@@ -139,17 +188,37 @@ releases:
     kind_id: 16171
     language: 1
     name: Megaman III (U) (VC)
+    deprecated: 1
+  - id: 258761
+    kind: 3
+    kind_id: 16171
+    language: 1
+    name: Mega Man 3 (USA) (Virtual Console)
+    source: no-intro
   assets:
   - asset:
       id: 16153
       kind: 3
       kind_id: 16171
       type: 1
-      name: Megaman III (U) (VC).nes
+      name: Mega Man 3 (USA) (Virtual Console).nes
       format: 1
       size: 393232
       blob_id: 61839
-      debug: Megaman III (U) (VC).nes
+      debug: |-
+        Megaman III (U) (VC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=6dd53be114ebd0bfdf254808cdc9dcaf465b7e96
+  - asset:
+      id: 139558
+      kind: 3
+      kind_id: 16171
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mega%20Man%203%20%28USA%29%20%28Virtual%20Console%29.png
+      format: 1
+      size: 3512
+      blob_id: 324971
+      debug: libretro-named-titles:rom-asset=16153:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mega%20Man%203%20%28USA%29%20%28Virtual%20Console%29.png
 - release:
     id: 16172
     game_id: 16166
@@ -159,18 +228,26 @@ releases:
     kind_id: 16172
     language: 1
     name: Megaman III (U) [!]
+    deprecated: 1
   - id: 36334
     kind: 3
     kind_id: 16172
     language: 1
     name: Megaman3
+    deprecated: 1
+  - id: 258762
+    kind: 3
+    kind_id: 16172
+    language: 1
+    name: Mega Man 3 (USA)
+    source: no-intro
   assets:
   - asset:
       id: 16154
       kind: 3
       kind_id: 16172
       type: 1
-      name: Megaman III (U) [!].nes
+      name: Mega Man 3 (USA).nes
       format: 1
       size: 393232
       blob_id: 61840
@@ -178,6 +255,18 @@ releases:
         Megaman III (U) [!].nes
         Megaman III (U) [!].zip
         Megaman3.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=6780b3fcc547c013ee45afac6bb30c6fc6d8b46e
+  - asset:
+      id: 139559
+      kind: 3
+      kind_id: 16172
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mega%20Man%203%20%28USA%29.png
+      format: 1
+      size: 1321
+      blob_id: 324972
+      debug: libretro-named-titles:rom-asset=16154:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mega%20Man%203%20%28USA%29.png
 - release:
     id: 16174
     game_id: 16166

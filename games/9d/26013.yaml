@@ -32,27 +32,46 @@ releases:
     kind_id: 26013
     language: 1
     name: Wizards & Warriors 3 (U)
+    deprecated: 1
   - id: 58158
     kind: 3
     kind_id: 26013
     language: 1
     name: "Wizards & Warriors III - Kuros - Visions of Power (U) [!]"
+    deprecated: 1
   - id: 63939
     kind: 3
     kind_id: 26013
     language: 2
     name: "巫师与战士 III (美版) (动作)-Wizards &amp; Warriors III - Kuros - Visions of Power (USA)"
+  - id: 259821
+    kind: 3
+    kind_id: 26013
+    language: 1
+    name: "Wizards & Warriors III - Kuros...Visions of Power (USA)"
+    source: no-intro
   assets:
   - asset:
       id: 25995
       kind: 3
       kind_id: 26013
       type: 1
-      name: Wizards & Warriors 3 (U).nes
+      name: "Wizards & Warriors III - Kuros...Visions of Power (USA).nes"
       format: 1
       size: 262160
       blob_id: 71167
-      debug: "Wizards & Warriors 3 (U).zip\nWizards & Warriors III - Kuros - Visions of Power (U) [!].zip\n巫师与战士 III (美版) (动作)-Wizards &amp; Warriors III - Kuros - Visions of Power (USA) + Wizards & Warriors III - Kuros - Visions of Power (U) [!].nes"
+      debug: "Wizards & Warriors 3 (U).zip\nWizards & Warriors III - Kuros - Visions of Power (U) [!].zip\n巫师与战士 III (美版) (动作)-Wizards &amp; Warriors III - Kuros - Visions of Power (USA) + Wizards & Warriors III - Kuros - Visions of Power (U) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=da5dd98886a691950c22fd439da5e2718709150a"
+  - asset:
+      id: 139896
+      kind: 3
+      kind_id: 26013
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Wizards%20_%20Warriors%20III%20-%20Kuros...Visions%20of%20Power%20%28USA%29.png
+      format: 1
+      size: 5017
+      blob_id: 325264
+      debug: libretro-named-titles:rom-asset=25995:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Wizards%20_%20Warriors%20III%20-%20Kuros...Visions%20of%20Power%20%28USA%29.png
 - release:
     id: 26018
     game_id: 26013

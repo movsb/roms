@@ -13,6 +13,12 @@ names:
   language: 1
   name: "Ninja Crusaders - Ryuuga"
   source: codex
+- id: 263749
+  kind: 2
+  kind_id: 30448
+  language: 1
+  name: "Ninja Crusaders - Ryuuga"
+  source: no-intro
 releases:
 - release:
     id: 30448
@@ -23,14 +29,33 @@ releases:
     kind_id: 30448
     language: 2
     name: 龙牙
+  - id: 261458
+    kind: 3
+    kind_id: 30448
+    language: 1
+    name: "Ninja Crusaders - Ryuuga (Japan)"
+    source: no-intro
   assets:
   - asset:
       id: 30430
       kind: 3
       kind_id: 30448
       type: 1
-      name: 龙牙.nes
+      name: "Ninja Crusaders - Ryuuga (Japan).nes"
       format: 1
       size: 131088
       blob_id: 74220
-      debug: 龙牙.zip
+      debug: |-
+        龙牙.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=3caf40e96ba3d8dd0e6986ebd05c7b6687beff7b
+  - asset:
+      id: 140266
+      kind: 3
+      kind_id: 30448
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Ninja%20Crusaders%20-%20Ryuuga%20%28Japan%29.png
+      format: 1
+      size: 2564
+      blob_id: 324431
+      debug: libretro-named-titles:rom-asset=30430:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Ninja%20Crusaders%20-%20Ryuuga%20%28Japan%29.png

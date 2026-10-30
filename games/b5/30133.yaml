@@ -12,6 +12,13 @@ names:
   kind_id: 30133
   language: 1
   name: Slalom (E) [!]
+  deprecated: 1
+- id: 263626
+  kind: 2
+  kind_id: 30133
+  language: 1
+  name: Slalom
+  source: no-intro
 releases:
 - release:
     id: 30133
@@ -27,17 +34,26 @@ releases:
     kind_id: 30133
     language: 1
     name: Slalom (E) [!]
+    deprecated: 1
+  - id: 261319
+    kind: 3
+    kind_id: 30133
+    language: 1
+    name: Slalom (Europe)
+    source: no-intro
   assets:
   - asset:
       id: 30115
       kind: 3
       kind_id: 30133
       type: 1
-      name: 障碍滑雪赛 (欧版) (运动)-Slalom (Europe) + Slalom (E) [!].nes
+      name: Slalom (Europe).nes
       format: 1
       size: 40976
       blob_id: 74017
-      debug: 障碍滑雪赛 (欧版) (运动)-Slalom (Europe) + Slalom (E) [!].nes
+      debug: |-
+        障碍滑雪赛 (欧版) (运动)-Slalom (Europe) + Slalom (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=2bbadfbf3ba95de8b4415fde9cce07aa0053092f
   - asset:
       id: 138055
       kind: 3

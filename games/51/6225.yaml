@@ -7,12 +7,19 @@ names:
   kind_id: 6225
   language: 1
   name: Back to the Future IV (Unl) [!]
+  deprecated: 1
 - id: 249026
   kind: 2
   kind_id: 6225
   language: 2
   name: 回到未来4
   source: codex
+- id: 261516
+  kind: 2
+  kind_id: 6225
+  language: 1
+  name: Back to the Future IV
+  source: no-intro
 releases:
 - release:
     id: 6225
@@ -23,14 +30,34 @@ releases:
     kind_id: 6225
     language: 1
     name: Back to the Future IV (Unl) [!]
+    deprecated: 1
+  - id: 257683
+    kind: 3
+    kind_id: 6225
+    language: 1
+    name: Back to the Future IV (Asia) (En) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 6207
       kind: 3
       kind_id: 6225
       type: 1
-      name: Back to the Future IV (Unl) [!].nes
+      name: Back to the Future IV (Asia) (En) (Pirate).nes
       format: 1
       size: 262160
       blob_id: 52470
-      debug: Back to the Future IV (Unl) [!].nes
+      debug: |-
+        Back to the Future IV (Unl) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=52c9942ef4005f1135ae30e637ca26abe86e1ab2
+  - asset:
+      id: 139308
+      kind: 3
+      kind_id: 6225
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Back%20to%20the%20Future%20IV%20%28Asia%29%20%28En%29%20%28Pirate%29.png
+      format: 1
+      size: 1391
+      blob_id: 324761
+      debug: libretro-named-titles:rom-asset=6207:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Back%20to%20the%20Future%20IV%20%28Asia%29%20%28En%29%20%28Pirate%29.png

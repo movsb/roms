@@ -12,11 +12,18 @@ names:
   kind_id: 6099
   language: 1
   name: Athletic World (U) [!]
+  deprecated: 1
 - id: 91283
   kind: 2
   kind_id: 6099
   language: 1
   name: Athletic World
+- id: 261510
+  kind: 2
+  kind_id: 6099
+  language: 1
+  name: Athletic World
+  source: no-intro
 releases:
 - release:
     id: 6099
@@ -27,22 +34,29 @@ releases:
     kind_id: 6099
     language: 1
     name: Athletic World (U) [!]
+    deprecated: 1
   - id: 60469
     kind: 3
     kind_id: 6099
     language: 2
     name: "任天堂跳跳板 - 运动世界 (美版) (运动)-Athletic World (USA)"
+  - id: 257669
+    kind: 3
+    kind_id: 6099
+    language: 1
+    name: Athletic World (USA)
+    source: no-intro
   assets:
   - asset:
       id: 6081
       kind: 3
       kind_id: 6099
       type: 1
-      name: Athletic World (U) [!].nes
+      name: Athletic World (USA).nes
       format: 1
       size: 65552
       blob_id: 52351
-      debug: "Athletic World (U) [!].zip\n任天堂跳跳板 - 运动世界 (美版) (运动)-Athletic World (USA) + Athletic World (U) [!].nes"
+      debug: "Athletic World (U) [!].zip\n任天堂跳跳板 - 运动世界 (美版) (运动)-Athletic World (USA) + Athletic World (U) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=88b94ab854dc84fa375b778f5302987db0eb63da"
   - asset:
       id: 136681
       kind: 3
@@ -63,17 +77,26 @@ releases:
     kind_id: 6103
     language: 1
     name: Athletic World (U)
+    deprecated: 1
+  - id: 257670
+    kind: 3
+    kind_id: 6103
+    language: 1
+    name: Athletic World (USA)
+    source: no-intro
   assets:
   - asset:
       id: 6085
       kind: 3
       kind_id: 6103
       type: 1
-      name: Athletic World (U).nes
+      name: Athletic World (USA).nes
       format: 1
       size: 65552
       blob_id: 52355
-      debug: Athletic World (U).zip
+      debug: |-
+        Athletic World (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=88b94ab854dc84fa375b778f5302987db0eb63da
   - asset:
       id: 138439
       kind: 3

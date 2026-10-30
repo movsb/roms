@@ -12,6 +12,13 @@ names:
   kind_id: 20528
   language: 1
   name: Mighty Final Fight (E) [!]
+  deprecated: 1
+- id: 262077
+  kind: 2
+  kind_id: 20528
+  language: 1
+  name: Mighty Final Fight
+  source: no-intro
 releases:
 - release:
     id: 20528
@@ -27,17 +34,26 @@ releases:
     kind_id: 20528
     language: 1
     name: Mighty Final Fight (E) [!]
+    deprecated: 1
+  - id: 259245
+    kind: 3
+    kind_id: 20528
+    language: 1
+    name: Mighty Final Fight (Europe)
+    source: no-intro
   assets:
   - asset:
       id: 20510
       kind: 3
       kind_id: 20528
       type: 1
-      name: SD 街头快打 (欧版) (动作)-Mighty Final Fight (Europe) + Mighty Final Fight (E) [!].nes
+      name: Mighty Final Fight (Europe).nes
       format: 1
       size: 262160
       blob_id: 65967
-      debug: SD 街头快打 (欧版) (动作)-Mighty Final Fight (Europe) + Mighty Final Fight (E) [!].nes
+      debug: |-
+        SD 街头快打 (欧版) (动作)-Mighty Final Fight (Europe) + Mighty Final Fight (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=6ba46bf1bc03ff07bf3e55bd8500e0979ab0e461
   - asset:
       id: 137278
       kind: 3

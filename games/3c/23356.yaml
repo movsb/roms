@@ -12,11 +12,18 @@ names:
   kind_id: 23356
   language: 1
   name: Super Team Games (U) [!]
+  deprecated: 1
 - id: 93289
   kind: 2
   kind_id: 23356
   language: 1
   name: Super Team Games
+- id: 262206
+  kind: 2
+  kind_id: 23356
+  language: 1
+  name: Super Team Games
+  source: no-intro
 releases:
 - release:
     id: 23356
@@ -27,22 +34,29 @@ releases:
     kind_id: 23356
     language: 1
     name: Super Team Games (U) [!]
+    deprecated: 1
   - id: 60421
     kind: 3
     kind_id: 23356
     language: 2
     name: "任天堂跳跳板 - 大运动会 (美版) (运动)-Super Team Games (USA)"
+  - id: 259554
+    kind: 3
+    kind_id: 23356
+    language: 1
+    name: Super Team Games (USA)
+    source: no-intro
   assets:
   - asset:
       id: 23338
       kind: 3
       kind_id: 23356
       type: 1
-      name: Super Team Games (U) [!].nes
+      name: Super Team Games (USA).nes
       format: 1
       size: 65552
       blob_id: 68650
-      debug: "Super Team Games (U) [!].zip\n任天堂跳跳板 - 大运动会 (美版) (运动)-Super Team Games (USA) + Super Team Games (U) [!].nes"
+      debug: "Super Team Games (U) [!].zip\n任天堂跳跳板 - 大运动会 (美版) (运动)-Super Team Games (USA) + Super Team Games (U) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=ea660abbc1cdb74e85f932e38013e4fa5b9f6bb8"
   - asset:
       id: 137371
       kind: 3
@@ -63,17 +77,26 @@ releases:
     kind_id: 23359
     language: 1
     name: Super Team Games (U)
+    deprecated: 1
+  - id: 259555
+    kind: 3
+    kind_id: 23359
+    language: 1
+    name: Super Team Games (USA)
+    source: no-intro
   assets:
   - asset:
       id: 23341
       kind: 3
       kind_id: 23359
       type: 1
-      name: Super Team Games (U).nes
+      name: Super Team Games (USA).nes
       format: 1
       size: 65552
       blob_id: 68653
-      debug: Super Team Games (U).zip
+      debug: |-
+        Super Team Games (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=ea660abbc1cdb74e85f932e38013e4fa5b9f6bb8
   - asset:
       id: 138716
       kind: 3

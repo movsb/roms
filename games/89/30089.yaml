@@ -12,6 +12,13 @@ names:
   kind_id: 30089
   language: 1
   name: Locksmith (Sachen) [!]
+  deprecated: 1
+- id: 263604
+  kind: 2
+  kind_id: 30089
+  language: 1
+  name: Locksmith
+  source: no-intro
 releases:
 - release:
     id: 30089
@@ -27,14 +34,23 @@ releases:
     kind_id: 30089
     language: 1
     name: Locksmith (Sachen) [!]
+    deprecated: 1
+  - id: 261297
+    kind: 3
+    kind_id: 30089
+    language: 1
+    name: Locksmith (Taiwan) (En) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 30071
       kind: 3
       kind_id: 30089
       type: 1
-      name: 锁匠 (亚洲版) (动作)-Locksmith (Asia) (PAL) (Unl) + Locksmith (Sachen) [!].nes
+      name: Locksmith (Taiwan) (En) (Unl).nes
       format: 1
       size: 40976
       blob_id: 73988
-      debug: 锁匠 (亚洲版) (动作)-Locksmith (Asia) (PAL) (Unl) + Locksmith (Sachen) [!].nes
+      debug: |-
+        锁匠 (亚洲版) (动作)-Locksmith (Asia) (PAL) (Unl) + Locksmith (Sachen) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=b12a8c135c214330b15a532416a43521ec72a893

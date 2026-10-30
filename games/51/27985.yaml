@@ -12,6 +12,13 @@ names:
   kind_id: 27985
   language: 1
   name: Crisis Force (J) [!]
+  deprecated: 1
+- id: 262860
+  kind: 2
+  kind_id: 27985
+  language: 1
+  name: Crisis Force
+  source: no-intro
 releases:
 - release:
     id: 27985
@@ -27,17 +34,26 @@ releases:
     kind_id: 27985
     language: 1
     name: Crisis Force (J) [!]
+    deprecated: 1
+  - id: 260472
+    kind: 3
+    kind_id: 27985
+    language: 1
+    name: Crisis Force (Japan) (En)
+    source: no-intro
   assets:
   - asset:
       id: 27967
       kind: 3
       kind_id: 27985
       type: 1
-      name: 帝国战机 (日版) (射击)-Crisis Force (Japan) + Crisis Force (J) [!].nes
+      name: Crisis Force (Japan) (En).nes
       format: 1
       size: 262160
       blob_id: 72645
-      debug: 帝国战机 (日版) (射击)-Crisis Force (Japan) + Crisis Force (J) [!].nes
+      debug: |-
+        帝国战机 (日版) (射击)-Crisis Force (Japan) + Crisis Force (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=f08d61cf09b6794ba7e642ac501614493753ba0f
   - asset:
       id: 137706
       kind: 3

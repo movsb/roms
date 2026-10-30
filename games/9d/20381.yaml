@@ -40,24 +40,32 @@ releases:
     kind_id: 20381
     language: 1
     name: Romance of The Three Kingdoms II (U) [!]
+    deprecated: 1
   - id: 59807
     kind: 3
     kind_id: 20381
     language: 2
     name: 三国志 II (美版) (策略)-Romance of the Three Kingdoms II (USA)
+  - id: 259216
+    kind: 3
+    kind_id: 20381
+    language: 1
+    name: Romance of the Three Kingdoms II (USA)
+    source: no-intro
   assets:
   - asset:
       id: 20363
       kind: 3
       kind_id: 20381
       type: 1
-      name: Romance of The Three Kingdoms II (U) [!].nes
+      name: Romance of the Three Kingdoms II (USA).nes
       format: 1
       size: 524304
       blob_id: 65828
       debug: |-
         Romance of The Three Kingdoms II (U) [!].zip
         三国志 II (美版) (策略)-Romance of the Three Kingdoms II (USA) + Romance of The Three Kingdoms II (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=39f9094927fc87373f021244aabdc4db1e1c8f37
   - asset:
       id: 137265
       kind: 3
@@ -78,17 +86,37 @@ releases:
     kind_id: 20392
     language: 1
     name: Romance of the Three Kingdoms 2 (U) [!]
+    deprecated: 1
+  - id: 259217
+    kind: 3
+    kind_id: 20392
+    language: 1
+    name: Romance of the Three Kingdoms II (USA)
+    source: no-intro
   assets:
   - asset:
       id: 20374
       kind: 3
       kind_id: 20392
       type: 1
-      name: Romance of the Three Kingdoms 2 (U) [!].nes
+      name: Romance of the Three Kingdoms II (USA).nes
       format: 1
       size: 524304
       blob_id: 65838
-      debug: Romance of the Three Kingdoms 2 (U) [!].zip
+      debug: |-
+        Romance of the Three Kingdoms 2 (U) [!].zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=39f9094927fc87373f021244aabdc4db1e1c8f37
+  - asset:
+      id: 139715
+      kind: 3
+      kind_id: 20392
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Romance%20of%20the%20Three%20Kingdoms%20II%20%28USA%29.png
+      format: 1
+      size: 2829
+      blob_id: 325100
+      debug: libretro-named-titles:rom-asset=20374:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Romance%20of%20the%20Three%20Kingdoms%20II%20%28USA%29.png
 - release:
     id: 26690
     game_id: 20381
@@ -103,17 +131,26 @@ releases:
     kind_id: 26690
     language: 1
     name: Sangokushi II (J) [!]
+    deprecated: 1
+  - id: 259940
+    kind: 3
+    kind_id: 26690
+    language: 1
+    name: Sangokushi II (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 26672
       kind: 3
       kind_id: 26690
       type: 1
-      name: 三国志 II (日版) (策略)-Sangokushi II (Japan) + Sangokushi II (J) [!].nes
+      name: Sangokushi II (Japan).nes
       format: 1
       size: 524304
       blob_id: 71782
-      debug: 三国志 II (日版) (策略)-Sangokushi II (Japan) + Sangokushi II (J) [!].nes
+      debug: |-
+        三国志 II (日版) (策略)-Sangokushi II (Japan) + Sangokushi II (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=28dd1998da8816edeea1c093087ec8c6916a359d
   - asset:
       id: 138780
       kind: 3
@@ -139,14 +176,34 @@ releases:
     kind_id: 26691
     language: 1
     name: Sangokushi II (J) (PRG1) [!]
+    deprecated: 1
+  - id: 259941
+    kind: 3
+    kind_id: 26691
+    language: 1
+    name: Sangokushi II (Japan) (Rev 1)
+    source: no-intro
   assets:
   - asset:
       id: 26673
       kind: 3
       kind_id: 26691
       type: 1
-      name: 三国志 II (日版)(Rev AB) (策略)-Sangokushi II (Japan) (Rev AB) + Sangokushi II (J) (PRG1) [!].nes
+      name: Sangokushi II (Japan) (Rev 1).nes
       format: 1
       size: 524304
       blob_id: 71783
-      debug: 三国志 II (日版)(Rev AB) (策略)-Sangokushi II (Japan) (Rev AB) + Sangokushi II (J) (PRG1) [!].nes
+      debug: |-
+        三国志 II (日版)(Rev AB) (策略)-Sangokushi II (Japan) (Rev AB) + Sangokushi II (J) (PRG1) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=64032eebd6f259c8ea4af57d61a1a276f29b2df4
+  - asset:
+      id: 139958
+      kind: 3
+      kind_id: 26691
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Sangokushi%20II%20%28Japan%29%20%28Rev%201%29.png
+      format: 1
+      size: 15080
+      blob_id: 325315
+      debug: libretro-named-titles:rom-asset=26673:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Sangokushi%20II%20%28Japan%29%20%28Rev%201%29.png

@@ -12,6 +12,13 @@ names:
   kind_id: 30443
   language: 1
   name: Dragon Fighter (J)
+  deprecated: 1
+- id: 263748
+  kind: 2
+  kind_id: 30443
+  language: 1
+  name: Dragon Fighter
+  source: no-intro
 releases:
 - release:
     id: 30443
@@ -27,17 +34,26 @@ releases:
     kind_id: 30443
     language: 1
     name: Dragon Fighter (J)
+    deprecated: 1
+  - id: 261457
+    kind: 3
+    kind_id: 30443
+    language: 1
+    name: Dragon Fighter (Japan) (En)
+    source: no-intro
   assets:
   - asset:
       id: 30425
       kind: 3
       kind_id: 30443
       type: 1
-      name: 龙之斗士 (日版) (动作)-Dragon Fighter (Japan) + Dragon Fighter (J).nes
+      name: Dragon Fighter (Japan) (En).nes
       format: 1
       size: 262160
       blob_id: 74218
-      debug: 龙之斗士 (日版) (动作)-Dragon Fighter (Japan) + Dragon Fighter (J).nes
+      debug: |-
+        龙之斗士 (日版) (动作)-Dragon Fighter (Japan) + Dragon Fighter (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=5531a47bd1eaa076301f2ac4c93f2387849d4ceb
   - asset:
       id: 139284
       kind: 3

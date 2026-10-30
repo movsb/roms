@@ -13,6 +13,12 @@ names:
   language: 1
   name: Penguin-kun Wars
   source: codex
+- id: 262468
+  kind: 2
+  kind_id: 26913
+  language: 1
+  name: Penguin-kun Wars
+  source: no-intro
 releases:
 - release:
     id: 26913
@@ -23,16 +29,34 @@ releases:
     kind_id: 26913
     language: 2
     name: 企鹅战争
+  - id: 260046
+    kind: 3
+    kind_id: 26913
+    language: 1
+    name: Penguin-kun Wars (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 26895
       kind: 3
       kind_id: 26913
       type: 1
-      name: 企鹅战争.nes
+      name: Penguin-kun Wars (Japan).nes
       format: 1
       size: 40976
       blob_id: 71936
       debug: |-
         企鹅战争.nes
         重复的/企鹅大战 (日版) (运动)-Penguin Kun Wars (Japan) + Penguin-kun Wars (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=a0def24a28af4de20ca4059d5e8ed27d1b5f6b6a
+  - asset:
+      id: 139992
+      kind: 3
+      kind_id: 26913
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Penguin-kun%20Wars%20%28Japan%29.png
+      format: 1
+      size: 1980
+      blob_id: 325342
+      debug: libretro-named-titles:rom-asset=26895:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Penguin-kun%20Wars%20%28Japan%29.png

@@ -13,6 +13,12 @@ names:
   language: 1
   name: Indivisible
   source: codex
+- id: 262796
+  kind: 2
+  kind_id: 27826
+  language: 1
+  name: Indivisible
+  source: no-intro
 releases:
 - release:
     id: 27826
@@ -23,14 +29,33 @@ releases:
     kind_id: 27826
     language: 2
     name: 密不可分
+  - id: 260405
+    kind: 3
+    kind_id: 27826
+    language: 1
+    name: Indivisible (World) (Aftermarket) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 27808
       kind: 3
       kind_id: 27826
       type: 1
-      name: 密不可分.nes
+      name: Indivisible (World) (Aftermarket) (Unl).nes
       format: 1
       size: 262160
       blob_id: 72544
-      debug: 密不可分.zip
+      debug: |-
+        密不可分.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=00ad075e91f6269c6f199754d4edfd8323361da2
+  - asset:
+      id: 140078
+      kind: 3
+      kind_id: 27826
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Indivisible%20%28World%29%20%28Aftermarket%29%20%28Unl%29.png
+      format: 1
+      size: 7630
+      blob_id: 325418
+      debug: libretro-named-titles:rom-asset=27808:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Indivisible%20%28World%29%20%28Aftermarket%29%20%28Unl%29.png

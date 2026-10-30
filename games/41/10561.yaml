@@ -8,6 +8,7 @@ names:
   kind_id: 10561
   language: 1
   name: Dragon Warrior 4 (U)
+  deprecated: 1
 - id: 61469
   kind: 2
   kind_id: 10561
@@ -18,11 +19,18 @@ names:
   kind_id: 10561
   language: 1
   name: Dragon Warrior IV (U) [!]
+  deprecated: 1
 - id: 91753
   kind: 2
   kind_id: 10561
   language: 1
   name: Dragon Warrior IV
+- id: 261659
+  kind: 2
+  kind_id: 10561
+  language: 1
+  name: Dragon Warrior IV
+  source: no-intro
 releases:
 - release:
     id: 10561
@@ -33,23 +41,31 @@ releases:
     kind_id: 10561
     language: 1
     name: Dragon Warrior 4 (U)
+    deprecated: 1
   - id: 22958
     kind: 3
     kind_id: 10561
     language: 1
     name: Dragon Warrior IV (U) [!]
+    deprecated: 1
   - id: 61471
     kind: 3
     kind_id: 10561
     language: 2
     name: 勇者斗恶龙 IV (美版) (角色扮演)-Dragon Warrior IV (USA)
+  - id: 258102
+    kind: 3
+    kind_id: 10561
+    language: 1
+    name: Dragon Warrior IV (USA)
+    source: no-intro
   assets:
   - asset:
       id: 10543
       kind: 3
       kind_id: 10561
       type: 1
-      name: Dragon Warrior 4 (U).nes
+      name: Dragon Warrior IV (USA).nes
       format: 1
       size: 524304
       blob_id: 56569
@@ -57,6 +73,7 @@ releases:
         Dragon Warrior 4 (U).zip
         Dragon Warrior IV (U) [!].zip
         勇者斗恶龙 IV (美版) (角色扮演)-Dragon Warrior IV (USA) + Dragon Warrior IV (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=1b3dc265ba0d7e4b2cef9b3f8b0be0847df67c3c
   - asset:
       id: 138353
       kind: 3

@@ -27,17 +27,37 @@ releases:
     kind_id: 18925
     language: 1
     name: Platoon (U) (PRG 0)
+    deprecated: 1
+  - id: 259045
+    kind: 3
+    kind_id: 18925
+    language: 1
+    name: Platoon (USA)
+    source: no-intro
   assets:
   - asset:
       id: 18907
       kind: 3
       kind_id: 18925
       type: 1
-      name: Platoon (U) (PRG 0).nes
+      name: Platoon (USA).nes
       format: 1
       size: 262160
       blob_id: 64451
-      debug: Platoon (U) (PRG 0).zip
+      debug: |-
+        Platoon (U) (PRG 0).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=378805a01ebdf5fa426a9d7c62022cecc5fedf87
+  - asset:
+      id: 139669
+      kind: 3
+      kind_id: 18925
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Platoon%20%28USA%29.png
+      format: 1
+      size: 1720
+      blob_id: 325066
+      debug: libretro-named-titles:rom-asset=18907:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Platoon%20%28USA%29.png
 - release:
     id: 18929
     game_id: 18925
@@ -67,24 +87,32 @@ releases:
     kind_id: 18930
     language: 1
     name: Platoon (U) (PRG1) [!]
+    deprecated: 1
   - id: 61313
     kind: 3
     kind_id: 18930
     language: 2
     name: 前进高棉 (美版)(Rev A) (动作)-Platoon (USA) (Rev A)
+  - id: 259046
+    kind: 3
+    kind_id: 18930
+    language: 1
+    name: Platoon (USA) (Rev 1)
+    source: no-intro
   assets:
   - asset:
       id: 18912
       kind: 3
       kind_id: 18930
       type: 1
-      name: Platoon (U) (PRG1) [!].nes
+      name: Platoon (USA) (Rev 1).nes
       format: 1
       size: 262160
       blob_id: 64456
       debug: |-
         Platoon (U) (PRG1) [!].zip
         前进高棉 (美版)(Rev A) (动作)-Platoon (USA) (Rev A) + Platoon (U) (PRG1) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=46727422d4bd4ac0ca2a088d97e5a9365b06d093
   - asset:
       id: 137191
       kind: 3

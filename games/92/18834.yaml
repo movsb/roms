@@ -7,12 +7,19 @@ names:
   kind_id: 18834
   language: 1
   name: Pikachu (Unl)
+  deprecated: 1
 - id: 248348
   kind: 2
   kind_id: 18834
   language: 2
   name: 皮卡丘
   source: codex
+- id: 261982
+  kind: 2
+  kind_id: 18834
+  language: 1
+  name: Pikachu
+  source: no-intro
 releases:
 - release:
     id: 18834
@@ -23,14 +30,23 @@ releases:
     kind_id: 18834
     language: 1
     name: Pikachu (Unl)
+    deprecated: 1
+  - id: 259029
+    kind: 3
+    kind_id: 18834
+    language: 1
+    name: Pikachu (Asia) (En) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 18816
       kind: 3
       kind_id: 18834
       type: 1
-      name: Pikachu (Unl).nes
+      name: Pikachu (Asia) (En) (Pirate).nes
       format: 1
       size: 262160
       blob_id: 64366
-      debug: Pikachu (Unl).nes
+      debug: |-
+        Pikachu (Unl).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=91180a88546c75c5bb5e80101d9694722d0887df

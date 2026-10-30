@@ -13,6 +13,13 @@ names:
   kind_id: 28280
   language: 1
   name: "Battletoads & Double Dragon - The Ultimate Team"
+  deprecated: 1
+- id: 262940
+  kind: 2
+  kind_id: 28280
+  language: 1
+  name: Battletoads-Double Dragon
+  source: no-intro
 releases:
 - release:
     id: 28280
@@ -23,14 +30,31 @@ releases:
     kind_id: 28280
     language: 2
     name: 欧版，待验证转储
+  - id: 260565
+    kind: 3
+    kind_id: 28280
+    language: 1
+    name: Battletoads-Double Dragon (Europe)
+    source: no-intro
   assets:
   - asset:
       id: 28262
       kind: 3
       kind_id: 28280
       type: 1
-      name: "Battletoads & Double Dragon - The Ultimate Team (E) [!p].nes"
+      name: Battletoads-Double Dragon (Europe).nes
       format: 1
       size: 262160
       blob_id: 72834
-      debug: "战斗蛙与双截龙 - 终极团队 (欧版) (动作)-Battletoads &amp; Double Dragon - The Ultimate Team (Europe) + Battletoads & Double Dragon - The Ultimate Team (E) [!p].nes"
+      debug: "战斗蛙与双截龙 - 终极团队 (欧版) (动作)-Battletoads &amp; Double Dragon - The Ultimate Team (Europe) + Battletoads & Double Dragon - The Ultimate Team (E) [!p].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=6a6579963319cc14da457c963fa43741bfbf645c"
+  - asset:
+      id: 140111
+      kind: 3
+      kind_id: 28280
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Battletoads-Double%20Dragon%20%28Europe%29.png
+      format: 1
+      size: 4582
+      blob_id: 325450
+      debug: libretro-named-titles:rom-asset=28262:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Battletoads-Double%20Dragon%20%28Europe%29.png

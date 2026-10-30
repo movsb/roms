@@ -7,12 +7,19 @@ names:
   kind_id: 25564
   language: 1
   name: Vegavox II Music Disc by Alex Mauer (PD)
+  deprecated: 1
 - id: 255736
   kind: 2
   kind_id: 25564
   language: 2
   name: Vegavox 2音乐碟
   source: codex
+- id: 262277
+  kind: 2
+  kind_id: 25564
+  language: 1
+  name: Vegavox II
+  source: no-intro
 releases:
 - release:
     id: 25564
@@ -23,14 +30,34 @@ releases:
     kind_id: 25564
     language: 1
     name: Vegavox II Music Disc by Alex Mauer (PD)
+    deprecated: 1
+  - id: 259756
+    kind: 3
+    kind_id: 25564
+    language: 1
+    name: Vegavox II (USA) (Aftermarket) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 25546
       kind: 3
       kind_id: 25564
       type: 1
-      name: Vegavox II Music Disc by Alex Mauer (PD).nes
+      name: Vegavox II (USA) (Aftermarket) (Unl).nes
       format: 1
       size: 40976
       blob_id: 70755
-      debug: Vegavox II Music Disc by Alex Mauer (PD).nes
+      debug: |-
+        Vegavox II Music Disc by Alex Mauer (PD).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=3d4d2e4529135a3e5325a8eab196f2485f797679
+  - asset:
+      id: 139878
+      kind: 3
+      kind_id: 25564
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Vegavox%20II%20%28USA%29%20%28Aftermarket%29%20%28Unl%29.png
+      format: 1
+      size: 3010
+      blob_id: 325248
+      debug: libretro-named-titles:rom-asset=25546:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Vegavox%20II%20%28USA%29%20%28Aftermarket%29%20%28Unl%29.png

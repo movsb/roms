@@ -12,11 +12,18 @@ names:
   kind_id: 7444
   language: 1
   name: Bubble Bath Babes (Panesian) [!]
+  deprecated: 1
 - id: 91438
   kind: 2
   kind_id: 7444
   language: 1
   name: Bubble Bath Babes
+- id: 261575
+  kind: 2
+  kind_id: 7444
+  language: 1
+  name: Bubble Bath Babes
+  source: no-intro
 releases:
 - release:
     id: 7445
@@ -27,6 +34,7 @@ releases:
     kind_id: 7445
     language: 1
     name: Bubble Bath Babes (Unl) [!]
+    deprecated: 1
   - id: 68987
     kind: 3
     kind_id: 7445
@@ -37,16 +45,35 @@ releases:
     kind_id: 7445
     language: 1
     name: Bubble Bath Babes (Panesian) [!]
+    deprecated: 1
+  - id: 257821
+    kind: 3
+    kind_id: 7445
+    language: 1
+    name: Bubble Bath Babes (USA) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 7427
       kind: 3
       kind_id: 7445
       type: 1
-      name: Bubble Bath Babes (Unl) [!].nes
+      name: Bubble Bath Babes (USA) (Unl).nes
       format: 1
       size: 98320
       blob_id: 53621
       debug: |-
         Bubble Bath Babes (Unl) [!].zip
         美女气泡方块 (美版) (益智)-Bubble Bath Babes (USA) (Unl) + Bubble Bath Babes (Panesian) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=17254f00c99af0b12c069b5223505257db14ebcf
+  - asset:
+      id: 139331
+      kind: 3
+      kind_id: 7445
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Bubble%20Bath%20Babes%20%28USA%29%20%28Unl%29.png
+      format: 1
+      size: 2581
+      blob_id: 324780
+      debug: libretro-named-titles:rom-asset=7427:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Bubble%20Bath%20Babes%20%28USA%29%20%28Unl%29.png

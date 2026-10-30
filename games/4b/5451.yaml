@@ -7,12 +7,19 @@ names:
   kind_id: 5451
   language: 1
   name: Adventures of Dino Riki (U)
+  deprecated: 1
 - id: 247469
   kind: 2
   kind_id: 5451
   language: 2
   name: 新人类
   source: codex
+- id: 261488
+  kind: 2
+  kind_id: 5451
+  language: 1
+  name: Adventures of Dino Riki
+  source: no-intro
 releases:
 - release:
     id: 5451
@@ -23,17 +30,26 @@ releases:
     kind_id: 5451
     language: 1
     name: Adventures of Dino Riki (U)
+    deprecated: 1
+  - id: 257598
+    kind: 3
+    kind_id: 5451
+    language: 1
+    name: Adventures of Dino Riki (USA)
+    source: no-intro
   assets:
   - asset:
       id: 5433
       kind: 3
       kind_id: 5451
       type: 1
-      name: Adventures of Dino Riki (U).nes
+      name: Adventures of Dino Riki (USA).nes
       format: 1
       size: 65552
       blob_id: 51742
-      debug: Adventures of Dino Riki (U).zip
+      debug: |-
+        Adventures of Dino Riki (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=a042a3bd69c2ea5b944dda26ea5f47321b175eb5
   - asset:
       id: 138147
       kind: 3

@@ -56,11 +56,19 @@ releases:
     kind_id: 8386
     language: 1
     name: Chack 'n Pop (J)
+    deprecated: 1
   - id: 17740
     kind: 3
     kind_id: 8386
     language: 1
     name: Chack'n Pop (Japan)
+    deprecated: 1
+  - id: 257874
+    kind: 3
+    kind_id: 8386
+    language: 1
+    name: Chack'n Pop (Japan) (En)
+    source: no-intro
   release_publishers:
   - release_id: 8386
     publisher_id: 112
@@ -70,13 +78,14 @@ releases:
       kind: 3
       kind_id: 8386
       type: 1
-      name: Chack 'n Pop (J).nes
+      name: Chack'n Pop (Japan) (En).nes
       format: 1
       size: 24592
       blob_id: 54526
       debug: |-
         Chack 'n Pop (J).nes
         Chack'n Pop (Japan).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=d717462255eb48983c787dcc85754c3d14dfd5ed
 - release:
     id: 8388
     game_id: 8384

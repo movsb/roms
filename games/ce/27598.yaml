@@ -12,6 +12,13 @@ names:
   kind_id: 27598
   language: 1
   name: Monopoly (G) [!]
+  deprecated: 1
+- id: 262703
+  kind: 2
+  kind_id: 27598
+  language: 1
+  name: Monopoly
+  source: no-intro
 releases:
 - release:
     id: 27598
@@ -27,17 +34,26 @@ releases:
     kind_id: 27598
     language: 1
     name: Monopoly (G) [!]
+    deprecated: 1
+  - id: 260307
+    kind: 3
+    kind_id: 27598
+    language: 1
+    name: Monopoly (Germany)
+    source: no-intro
   assets:
   - asset:
       id: 27580
       kind: 3
       kind_id: 27598
       type: 1
-      name: 大富翁 (德版) (桌面平台)-Monopoly (Germany) + Monopoly (G) [!].nes
+      name: Monopoly (Germany).nes
       format: 1
       size: 262160
       blob_id: 72388
-      debug: 大富翁 (德版) (桌面平台)-Monopoly (Germany) + Monopoly (G) [!].nes
+      debug: |-
+        大富翁 (德版) (桌面平台)-Monopoly (Germany) + Monopoly (G) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=642a6a16122667e232649da2991bd9dca3dbf807
   - asset:
       id: 137637
       kind: 3

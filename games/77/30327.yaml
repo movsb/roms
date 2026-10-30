@@ -12,6 +12,13 @@ names:
   kind_id: 30327
   language: 1
   name: Totally Rad (E) [!]
+  deprecated: 1
+- id: 263695
+  kind: 2
+  kind_id: 30327
+  language: 1
+  name: Totally Rad
+  source: no-intro
 releases:
 - release:
     id: 30327
@@ -27,17 +34,26 @@ releases:
     kind_id: 30327
     language: 1
     name: Totally Rad (E) [!]
+    deprecated: 1
+  - id: 261397
+    kind: 3
+    kind_id: 30327
+    language: 1
+    name: Totally Rad (Europe)
+    source: no-intro
   assets:
   - asset:
       id: 30309
       kind: 3
       kind_id: 30327
       type: 1
-      name: 魔法约翰 (欧版) (动作)-Totally Rad (Europe) + Totally Rad (E) [!].nes
+      name: Totally Rad (Europe).nes
       format: 1
       size: 262160
       blob_id: 74141
-      debug: 魔法约翰 (欧版) (动作)-Totally Rad (Europe) + Totally Rad (E) [!].nes
+      debug: |-
+        魔法约翰 (欧版) (动作)-Totally Rad (Europe) + Totally Rad (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=8dc6cbf34ea4a5d4666d73720cf8e6e4f9c7d270
   - asset:
       id: 138095
       kind: 3

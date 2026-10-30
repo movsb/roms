@@ -7,12 +7,19 @@ names:
   kind_id: 13393
   language: 1
   name: Hudson's Adventure Island 3 (U)
+  deprecated: 1
 - id: 247941
   kind: 2
   kind_id: 13393
   language: 2
   name: 冒险岛3
   source: codex
+- id: 261782
+  kind: 2
+  kind_id: 13393
+  language: 1
+  name: Adventure Island 3
+  source: no-intro
 releases:
 - release:
     id: 13393
@@ -23,14 +30,34 @@ releases:
     kind_id: 13393
     language: 1
     name: Hudson's Adventure Island 3 (U)
+    deprecated: 1
+  - id: 258430
+    kind: 3
+    kind_id: 13393
+    language: 1
+    name: Adventure Island 3 (USA)
+    source: no-intro
   assets:
   - asset:
       id: 13375
       kind: 3
       kind_id: 13393
       type: 1
-      name: Hudson's Adventure Island 3 (U).nes
+      name: Adventure Island 3 (USA).nes
       format: 1
       size: 262160
       blob_id: 59244
-      debug: Hudson's Adventure Island 3 (U).zip
+      debug: |-
+        Hudson's Adventure Island 3 (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=f77eb86932844a92834ef12c059a3f5b815dac07
+  - asset:
+      id: 139454
+      kind: 3
+      kind_id: 13393
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Adventure%20Island%203%20%28USA%29.png
+      format: 1
+      size: 2414
+      blob_id: 324885
+      debug: libretro-named-titles:rom-asset=13375:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Adventure%20Island%203%20%28USA%29.png

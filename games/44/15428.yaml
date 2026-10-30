@@ -12,11 +12,18 @@ names:
   kind_id: 15428
   language: 1
   name: M.U.L.E. (U) [!]
+  deprecated: 1
 - id: 92353
   kind: 2
   kind_id: 15428
   language: 1
   name: M.U.L.E.
+- id: 261865
+  kind: 2
+  kind_id: 15428
+  language: 1
+  name: M.U.L.E.
+  source: no-intro
 releases:
 - release:
     id: 15428
@@ -27,11 +34,13 @@ releases:
     kind_id: 15428
     language: 1
     name: M.U.L.E. (U) [!p]
+    deprecated: 1
   - id: 34270
     kind: 3
     kind_id: 15428
     language: 1
     name: M.U.L.E. (U)
+    deprecated: 1
   - id: 71603
     kind: 3
     kind_id: 15428
@@ -42,13 +51,20 @@ releases:
     kind_id: 15428
     language: 1
     name: M.U.L.E. (U) [!]
+    deprecated: 1
+  - id: 258685
+    kind: 3
+    kind_id: 15428
+    language: 1
+    name: M.U.L.E. (USA)
+    source: no-intro
   assets:
   - asset:
       id: 15410
       kind: 3
       kind_id: 15428
       type: 1
-      name: M.U.L.E. (U) [!p].nes
+      name: M.U.L.E. (USA).nes
       format: 1
       size: 131088
       blob_id: 61128
@@ -56,3 +72,15 @@ releases:
         M.U.L.E. (U) [!p].zip
         M.U.L.E. (U).zip
         骡子大作战 (美版) (策略)-M.U.L.E. (USA) + M.U.L.E. (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=a67d3fb6e78305fda82b2907c5c8d83fc38b0b63
+  - asset:
+      id: 139534
+      kind: 3
+      kind_id: 15428
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/M.U.L.E.%20%28USA%29.png
+      format: 1
+      size: 2301
+      blob_id: 324954
+      debug: libretro-named-titles:rom-asset=15410:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/M.U.L.E.%20%28USA%29.png

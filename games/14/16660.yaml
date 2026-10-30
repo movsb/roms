@@ -23,17 +23,26 @@ releases:
     kind_id: 16660
     language: 1
     name: Mike Tyson's Punch-Out!! (E) (PRG0) [!]
+    deprecated: 1
+  - id: 258811
+    kind: 3
+    kind_id: 16660
+    language: 1
+    name: Mike Tyson's Punch-Out!! (Europe)
+    source: no-intro
   assets:
   - asset:
       id: 16642
       kind: 3
       kind_id: 16660
       type: 1
-      name: Mike Tyson's Punch-Out!! (E) (PRG0) [!].nes
+      name: Mike Tyson's Punch-Out!! (Europe).nes
       format: 1
       size: 262160
       blob_id: 62294
-      debug: Mike Tyson's Punch-Out!! (E) (PRG0) [!].nes
+      debug: |-
+        Mike Tyson's Punch-Out!! (E) (PRG0) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=cdea0b7036243e10c4e5455be5a726b7d6a4d258
   - asset:
       id: 137117
       kind: 3
@@ -54,17 +63,37 @@ releases:
     kind_id: 16661
     language: 1
     name: Mike Tyson's Punch-Out!! (E) (PRG1) [!]
+    deprecated: 1
+  - id: 258812
+    kind: 3
+    kind_id: 16661
+    language: 1
+    name: Mike Tyson's Punch-Out!! (Europe) (Rev 1)
+    source: no-intro
   assets:
   - asset:
       id: 16643
       kind: 3
       kind_id: 16661
       type: 1
-      name: Mike Tyson's Punch-Out!! (E) (PRG1) [!].nes
+      name: Mike Tyson's Punch-Out!! (Europe) (Rev 1).nes
       format: 1
       size: 262160
       blob_id: 62295
-      debug: Mike Tyson's Punch-Out!! (E) (PRG1) [!].nes
+      debug: |-
+        Mike Tyson's Punch-Out!! (E) (PRG1) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=7329a36d5c38270bbeba4bc613a874550be49ce8
+  - asset:
+      id: 139582
+      kind: 3
+      kind_id: 16661
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mike%20Tyson%27s%20Punch-Out%21%21%20%28Europe%29%20%28Rev%201%29.png
+      format: 1
+      size: 1130
+      blob_id: 324990
+      debug: libretro-named-titles:rom-asset=16643:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mike%20Tyson%27s%20Punch-Out%21%21%20%28Europe%29%20%28Rev%201%29.png
 - release:
     id: 16663
     game_id: 16660
@@ -94,24 +123,44 @@ releases:
     kind_id: 16664
     language: 1
     name: Mike Tyson's Punch-Out!! (U) (PRG 0)
+    deprecated: 1
   - id: 37114
     kind: 3
     kind_id: 16664
     language: 1
     name: Mike Tyson's Punch-Out!! (U) (PRG0) [!]
+    deprecated: 1
+  - id: 258813
+    kind: 3
+    kind_id: 16664
+    language: 1
+    name: Mike Tyson's Punch-Out!! (Japan, USA) (En)
+    source: no-intro
   assets:
   - asset:
       id: 16646
       kind: 3
       kind_id: 16664
       type: 1
-      name: Mike Tyson's Punch-Out!! (U) (PRG 0).nes
+      name: Mike Tyson's Punch-Out!! (Japan, USA) (En).nes
       format: 1
       size: 262160
       blob_id: 62298
       debug: |-
         Mike Tyson's Punch-Out!! (U) (PRG 0).zip
         Mike Tyson's Punch-Out!! (U) (PRG0) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=339eb36acbbbec96c8d177f0265253a5764cc1fb
+  - asset:
+      id: 139583
+      kind: 3
+      kind_id: 16664
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mike%20Tyson%27s%20Punch-Out%21%21%20%28Japan%2C%20USA%29%20%28En%29.png
+      format: 1
+      size: 1125
+      blob_id: 324991
+      debug: libretro-named-titles:rom-asset=16646:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mike%20Tyson%27s%20Punch-Out%21%21%20%28Japan%2C%20USA%29%20%28En%29.png
 - release:
     id: 16668
     game_id: 16660
@@ -121,19 +170,38 @@ releases:
     kind_id: 16668
     language: 1
     name: Mike Tyson's Punch-Out!! (U) (PRG1) [!]
+    deprecated: 1
+  - id: 258814
+    kind: 3
+    kind_id: 16668
+    language: 1
+    name: Mike Tyson's Punch-Out!! (Japan, USA) (En) (Rev 1)
+    source: no-intro
   assets:
   - asset:
       id: 16650
       kind: 3
       kind_id: 16668
       type: 1
-      name: Mike Tyson's Punch-Out!! (U) (PRG1) [!].nes
+      name: Mike Tyson's Punch-Out!! (Japan, USA) (En) (Rev 1).nes
       format: 1
       size: 262160
       blob_id: 62301
       debug: |-
         Mike Tyson's Punch-Out!! (U) (PRG1) [!].nes
         Mike Tyson's Punch-Out!! (U) (PRG1) [!].zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=b6f6bd9d78cdd264a117d4b647aee3309993e9a9
+  - asset:
+      id: 139584
+      kind: 3
+      kind_id: 16668
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mike%20Tyson%27s%20Punch-Out%21%21%20%28Japan%2C%20USA%29%20%28En%29%20%28Rev%201%29.png
+      format: 1
+      size: 1190
+      blob_id: 324992
+      debug: libretro-named-titles:rom-asset=16650:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mike%20Tyson%27s%20Punch-Out%21%21%20%28Japan%2C%20USA%29%20%28En%29%20%28Rev%201%29.png
 - release:
     id: 16674
     game_id: 16660

@@ -12,6 +12,13 @@ names:
   kind_id: 12402
   language: 1
   name: Gold Medal Challenge '92
+  deprecated: 1
+- id: 261750
+  kind: 2
+  kind_id: 12402
+  language: 1
+  name: Capcom's Gold Medal Challenge '92
+  source: no-intro
 releases:
 - release:
     id: 12402
@@ -22,17 +29,26 @@ releases:
     kind_id: 12402
     language: 1
     name: Gold Medal Challenge '92 (E) [!]
+    deprecated: 1
+  - id: 258337
+    kind: 3
+    kind_id: 12402
+    language: 1
+    name: Capcom's Gold Medal Challenge '92 (Europe)
+    source: no-intro
   assets:
   - asset:
       id: 12384
       kind: 3
       kind_id: 12402
       type: 1
-      name: Gold Medal Challenge '92 (E) [!].nes
+      name: Capcom's Gold Medal Challenge '92 (Europe).nes
       format: 1
       size: 262160
       blob_id: 58300
-      debug: Gold Medal Challenge '92 (E) [!].nes
+      debug: |-
+        Gold Medal Challenge '92 (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=b38bf8ef9bb4522fadc6e27b71d087d50a98643f
   - asset:
       id: 136937
       kind: 3
@@ -53,23 +69,31 @@ releases:
     kind_id: 12403
     language: 1
     name: Gold Medal Challenge '92 (U) [!]
+    deprecated: 1
   - id: 27218
     kind: 3
     kind_id: 12403
     language: 1
     name: Gold Medal Challenge '92 (U) [!p]
+    deprecated: 1
   - id: 63966
     kind: 3
     kind_id: 12403
     language: 2
     name: 巴塞罗那奥运会92
+  - id: 258338
+    kind: 3
+    kind_id: 12403
+    language: 1
+    name: Capcom's Gold Medal Challenge '92 (USA)
+    source: no-intro
   assets:
   - asset:
       id: 12385
       kind: 3
       kind_id: 12403
       type: 1
-      name: Gold Medal Challenge '92 (U) [!].nes
+      name: Capcom's Gold Medal Challenge '92 (USA).nes
       format: 1
       size: 262160
       blob_id: 58301
@@ -77,6 +101,18 @@ releases:
         Gold Medal Challenge '92 (U) [!].nes
         Gold Medal Challenge '92 (U) [!p].zip
         巴塞罗那奥运会92.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=4ffb1d8171589ed8ed66fecc6cebb4501af221b9
+  - asset:
+      id: 139419
+      kind: 3
+      kind_id: 12403
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Capcom%27s%20Gold%20Medal%20Challenge%20%2792%20%28USA%29.png
+      format: 1
+      size: 3618
+      blob_id: 324854
+      debug: libretro-named-titles:rom-asset=12385:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Capcom%27s%20Gold%20Medal%20Challenge%20%2792%20%28USA%29.png
 - release:
     id: 12407
     game_id: 12402
@@ -86,14 +122,34 @@ releases:
     kind_id: 12407
     language: 1
     name: Gold Medal Challenge '92 (U)
+    deprecated: 1
+  - id: 258339
+    kind: 3
+    kind_id: 12407
+    language: 1
+    name: Capcom's Gold Medal Challenge '92 (USA)
+    source: no-intro
   assets:
   - asset:
       id: 12389
       kind: 3
       kind_id: 12407
       type: 1
-      name: Gold Medal Challenge '92 (U).nes
+      name: Capcom's Gold Medal Challenge '92 (USA).nes
       format: 1
       size: 262160
       blob_id: 58304
-      debug: Gold Medal Challenge '92 (U).zip
+      debug: |-
+        Gold Medal Challenge '92 (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=4ffb1d8171589ed8ed66fecc6cebb4501af221b9
+  - asset:
+      id: 139420
+      kind: 3
+      kind_id: 12407
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Capcom%27s%20Gold%20Medal%20Challenge%20%2792%20%28USA%29.png
+      format: 1
+      size: 3618
+      blob_id: 324854
+      debug: libretro-named-titles:rom-asset=12389:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Capcom%27s%20Gold%20Medal%20Challenge%20%2792%20%28USA%29.png

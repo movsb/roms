@@ -37,16 +37,19 @@ releases:
     kind_id: 23491
     language: 1
     name: TOMJERRY
+    deprecated: 1
   - id: 55864
     kind: 3
     kind_id: 23491
     language: 1
     name: Tom & Jerry (and Tuffy) (U) [!]
+    deprecated: 1
   - id: 55866
     kind: 3
     kind_id: 23491
     language: 1
     name: Tom & Jerry (and Tuffy) (U)
+    deprecated: 1
   - id: 66677
     kind: 3
     kind_id: 23491
@@ -57,18 +60,25 @@ releases:
     kind_id: 23491
     language: 1
     name: Tom & Jerry (U) [!]
+    deprecated: 1
   - id: 67806
     kind: 3
     kind_id: 23491
     language: 2
     name: 猫和老鼠
+  - id: 259572
+    kind: 3
+    kind_id: 23491
+    language: 1
+    name: "Tom & Jerry - The Ultimate Game of Cat and Mouse! (USA)"
+    source: no-intro
   assets:
   - asset:
       id: 23473
       kind: 3
       kind_id: 23491
       type: 1
-      name: TOMJERRY.NES
+      name: "Tom & Jerry - The Ultimate Game of Cat and Mouse! (USA).nes"
       format: 1
       size: 262160
       blob_id: 68776
@@ -78,6 +88,18 @@ releases:
         Tom & Jerry (and Tuffy) (U).zip
         汤姆猫与杰瑞鼠 (美版) (动作)-Tom &amp; Jerry (and Tuffy) (USA) + Tom & Jerry (U) [!].nes
         猫和老鼠.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=e4d7fbe95fc5fa25bdce3f0213d2051b1d013a0c
+  - asset:
+      id: 139830
+      kind: 3
+      kind_id: 23491
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Tom%20_%20Jerry%20-%20The%20Ultimate%20Game%20of%20Cat%20and%20Mouse%21%20%28USA%29.png
+      format: 1
+      size: 2760
+      blob_id: 325204
+      debug: libretro-named-titles:rom-asset=23473:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Tom%20_%20Jerry%20-%20The%20Ultimate%20Game%20of%20Cat%20and%20Mouse%21%20%28USA%29.png
 - release:
     id: 24985
     game_id: 23491
@@ -147,17 +169,26 @@ releases:
     kind_id: 24992
     language: 1
     name: Tom & Jerry (U) [p1]
+    deprecated: 1
+  - id: 259677
+    kind: 3
+    kind_id: 24992
+    language: 1
+    name: Tom & Jerry (Asia) (Ja) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 24974
       kind: 3
       kind_id: 24992
       type: 1
-      name: Tom & Jerry (U) [p1].nes
+      name: Tom & Jerry (Asia) (Ja) (Pirate).nes
       format: 1
       size: 262160
       blob_id: 70227
-      debug: Tom & Jerry (U) [p1].nes
+      debug: |-
+        Tom & Jerry (U) [p1].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=0d3ff7ffa30bea14aa657c626fe6393d55ee7cce
 - release:
     id: 24993
     game_id: 23491

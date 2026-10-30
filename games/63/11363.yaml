@@ -93,17 +93,37 @@ releases:
     kind_id: 11372
     language: 1
     name: Final Fantasy (J) (VC)
+    deprecated: 1
+  - id: 258224
+    kind: 3
+    kind_id: 11372
+    language: 1
+    name: Final Fantasy (Japan) (Rev 1) (Wii and Wii U Virtual Console)
+    source: no-intro
   assets:
   - asset:
       id: 11354
       kind: 3
       kind_id: 11372
       type: 1
-      name: Final Fantasy (J) (VC).nes
+      name: Final Fantasy (Japan) (Rev 1) (Wii and Wii U Virtual Console).nes
       format: 1
       size: 262160
       blob_id: 57330
-      debug: Final Fantasy (J) (VC).nes
+      debug: |-
+        Final Fantasy (J) (VC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=604e492ff44f013ff24345b91a2d1efc112ad9de
+  - asset:
+      id: 139401
+      kind: 3
+      kind_id: 11372
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Final%20Fantasy%20%28Japan%29%20%28Rev%201%29%20%28Wii%20and%20Wii%20U%20Virtual%20Console%29.png
+      format: 1
+      size: 11937
+      blob_id: 324839
+      debug: libretro-named-titles:rom-asset=11354:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Final%20Fantasy%20%28Japan%29%20%28Rev%201%29%20%28Wii%20and%20Wii%20U%20Virtual%20Console%29.png
 - release:
     id: 11373
     game_id: 11363
@@ -113,17 +133,37 @@ releases:
     kind_id: 11373
     language: 1
     name: Final Fantasy (U) (VC)
+    deprecated: 1
+  - id: 258225
+    kind: 3
+    kind_id: 11373
+    language: 1
+    name: Final Fantasy (USA) (Virtual Console)
+    source: no-intro
   assets:
   - asset:
       id: 11355
       kind: 3
       kind_id: 11373
       type: 1
-      name: Final Fantasy (U) (VC).nes
+      name: Final Fantasy (USA) (Virtual Console).nes
       format: 1
       size: 262160
       blob_id: 57331
-      debug: Final Fantasy (U) (VC).nes
+      debug: |-
+        Final Fantasy (U) (VC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=2ca00a60ec202547ca30c47850c442e13f9837c9
+  - asset:
+      id: 139402
+      kind: 3
+      kind_id: 11373
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Final%20Fantasy%20%28USA%29%20%28Virtual%20Console%29.png
+      format: 1
+      size: 11937
+      blob_id: 324839
+      debug: libretro-named-titles:rom-asset=11355:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Final%20Fantasy%20%28USA%29%20%28Virtual%20Console%29.png
 - release:
     id: 11374
     game_id: 11363
@@ -133,24 +173,32 @@ releases:
     kind_id: 11374
     language: 1
     name: Final Fantasy (U) [!]
+    deprecated: 1
   - id: 63109
     kind: 3
     kind_id: 11374
     language: 2
     name: 太空战士 (美版) (角色扮演)-Final Fantasy (USA)
+  - id: 258226
+    kind: 3
+    kind_id: 11374
+    language: 1
+    name: Final Fantasy (USA)
+    source: no-intro
   assets:
   - asset:
       id: 11356
       kind: 3
       kind_id: 11374
       type: 1
-      name: Final Fantasy (U) [!].nes
+      name: Final Fantasy (USA).nes
       format: 1
       size: 262160
       blob_id: 57332
       debug: |-
         Final Fantasy (U) [!].zip
         太空战士 (美版) (角色扮演)-Final Fantasy (USA) + Final Fantasy (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=c9cfbf5455085e198dce039298b083cd6fc88bce
   - asset:
       id: 138488
       kind: 3
@@ -811,24 +859,33 @@ releases:
     kind_id: 11418
     language: 1
     name: Final Fantasy (U)
+    deprecated: 1
   - id: 59608
     kind: 3
     kind_id: 11418
     language: 1
     name: final_fantasy
+    deprecated: 1
+  - id: 258227
+    kind: 3
+    kind_id: 11418
+    language: 1
+    name: Final Fantasy (USA)
+    source: no-intro
   assets:
   - asset:
       id: 11400
       kind: 3
       kind_id: 11418
       type: 1
-      name: Final Fantasy (U).nes
+      name: Final Fantasy (USA).nes
       format: 1
       size: 262160
       blob_id: 57376
       debug: |-
         Final Fantasy (U).zip
         final_fantasy.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=c9cfbf5455085e198dce039298b083cd6fc88bce
   - asset:
       id: 138489
       kind: 3

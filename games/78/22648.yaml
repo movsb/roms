@@ -1966,18 +1966,25 @@ releases:
     kind_id: 22649
     language: 1
     name: Super Mario Bros. 3 (U) (PRG1) [!]
+    deprecated: 1
   - id: 242242
     kind: 3
     kind_id: 22649
     language: 2
     name: 美版
+  - id: 259503
+    kind: 3
+    kind_id: 22649
+    language: 1
+    name: Super Mario Bros. 3 (USA) (Rev 1)
+    source: no-intro
   assets:
   - asset:
       id: 22631
       kind: 3
       kind_id: 22649
       type: 1
-      name: Super Mario Bros 3 (U) (PRG 1).nes
+      name: Super Mario Bros. 3 (USA) (Rev 1).nes
       format: 1
       size: 393232
       blob_id: 67964
@@ -1986,6 +1993,7 @@ releases:
         Super Mario Bros. 3 (U) (PRG1) [!].zip
         Super_mario_brothers3.zip
         超级玛丽3 + Super Mario Bros. 3 (U) (PRG1) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=bb894d104c796f69ba16587eb66c0275f5c2fc02
   - asset:
       id: 134975
       kind: 3
@@ -3192,17 +3200,25 @@ releases:
     kind_id: 23051
     language: 2
     name: 欧版
+  - id: 259517
+    kind: 3
+    kind_id: 23051
+    language: 1
+    name: Super Mario Bros. 3 (Europe)
+    source: no-intro
   assets:
   - asset:
       id: 23033
       kind: 3
       kind_id: 23051
       type: 1
-      name: Super Mario Bros. 3 (E) [!].nes
+      name: Super Mario Bros. 3 (Europe).nes
       format: 1
       size: 393232
       blob_id: 68362
-      debug: Super Mario Bros. 3 (E) [!].nes
+      debug: |-
+        Super Mario Bros. 3 (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=31144c7c436cc78d7fd3ac42b224eee3a6c2babc
   - asset:
       id: 137361
       kind: 3
@@ -3350,17 +3366,36 @@ releases:
     kind_id: 23060
     language: 2
     name: 日版
+  - id: 259518
+    kind: 3
+    kind_id: 23060
+    language: 1
+    name: Super Mario Bros. 3 (Japan) (Rev 1)
+    source: no-intro
   assets:
   - asset:
       id: 23042
       kind: 3
       kind_id: 23060
       type: 1
-      name: Super Mario Bros. 3 (J) (PRG1) [!].nes
+      name: Super Mario Bros. 3 (Japan) (Rev 1).nes
       format: 1
       size: 393232
       blob_id: 68371
-      debug: Super Mario Bros. 3 (J) (PRG1) [!].nes
+      debug: |-
+        Super Mario Bros. 3 (J) (PRG1) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=e250da736512e431146750cb71feb2c37b327f32
+  - asset:
+      id: 139815
+      kind: 3
+      kind_id: 23060
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Super%20Mario%20Bros.%203%20%28Japan%29%20%28Rev%201%29.png
+      format: 1
+      size: 2705
+      blob_id: 325189
+      debug: libretro-named-titles:rom-asset=23042:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Super%20Mario%20Bros.%203%20%28Japan%29%20%28Rev%201%29.png
 - release:
     id: 23061
     game_id: 22648
@@ -3455,17 +3490,37 @@ releases:
     kind_id: 23068
     language: 1
     name: Super Mario Bros. 3 (J) (PRG1) [p1][!]
+    deprecated: 1
+  - id: 259519
+    kind: 3
+    kind_id: 23068
+    language: 1
+    name: Super Mario Bros. 3 (Asia) (En) (Unknown) (047) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 23050
       kind: 3
       kind_id: 23068
       type: 1
-      name: Super Mario Bros. 3 (J) (PRG1) [p1][!].nes
+      name: Super Mario Bros. 3 (Asia) (En) (Unknown) (047) (Pirate).nes
       format: 1
       size: 393232
       blob_id: 68379
-      debug: Super Mario Bros. 3 (J) (PRG1) [p1][!].nes
+      debug: |-
+        Super Mario Bros. 3 (J) (PRG1) [p1][!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=b9fa78f1540a3bd6979ed55a5d481b4edc9eceb9
+  - asset:
+      id: 139816
+      kind: 3
+      kind_id: 23068
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Super%20Mario%20Bros.%203%20%28Asia%29%20%28En%29%20%28Unknown%29%20%28047%29%20%28Pirate%29.png
+      format: 1
+      size: 5901
+      blob_id: 325190
+      debug: libretro-named-titles:rom-asset=23050:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Super%20Mario%20Bros.%203%20%28Asia%29%20%28En%29%20%28Unknown%29%20%28047%29%20%28Pirate%29.png
 - release:
     id: 23069
     game_id: 22648
@@ -3476,17 +3531,37 @@ releases:
     kind_id: 23069
     language: 1
     name: Super Mario Bros. 3 (J) (PRG1) [p2][!]
+    deprecated: 1
+  - id: 259520
+    kind: 3
+    kind_id: 23069
+    language: 1
+    name: Super Mario Bros. 3 (Asia) (En) (Kaiser) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 23051
       kind: 3
       kind_id: 23069
       type: 1
-      name: Super Mario Bros. 3 (J) (PRG1) [p2][!].nes
+      name: Super Mario Bros. 3 (Asia) (En) (Kaiser) (Pirate).nes
       format: 1
       size: 393232
       blob_id: 68380
-      debug: Super Mario Bros. 3 (J) (PRG1) [p2][!].nes
+      debug: |-
+        Super Mario Bros. 3 (J) (PRG1) [p2][!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=cc9efaa2aee5eb9d99e9ef01684ec8b30b0047e6
+  - asset:
+      id: 139817
+      kind: 3
+      kind_id: 23069
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Super%20Mario%20Bros.%203%20%28Asia%29%20%28En%29%20%28Kaiser%29%20%28Pirate%29.png
+      format: 1
+      size: 5644
+      blob_id: 325191
+      debug: libretro-named-titles:rom-asset=23051:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Super%20Mario%20Bros.%203%20%28Asia%29%20%28En%29%20%28Kaiser%29%20%28Pirate%29.png
 - release:
     id: 23070
     game_id: 22648
@@ -3518,17 +3593,26 @@ releases:
     kind_id: 23071
     language: 1
     name: Super Mario Bros. 3 (J) (PRG1) [p4]
+    deprecated: 1
+  - id: 259521
+    kind: 3
+    kind_id: 23071
+    language: 1
+    name: S. M. Bros. 1988 (USA) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 23053
       kind: 3
       kind_id: 23071
       type: 1
-      name: Super Mario Bros. 3 (J) (PRG1) [p4].nes
+      name: S. M. Bros. 1988 (USA) (Pirate).nes
       format: 1
       size: 393232
       blob_id: 68382
-      debug: Super Mario Bros. 3 (J) (PRG1) [p4].nes
+      debug: |-
+        Super Mario Bros. 3 (J) (PRG1) [p4].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=3d8e92d5d9056109acb3f4d0c2646f4790836c04
 - release:
     id: 23072
     game_id: 22648
@@ -3539,17 +3623,26 @@ releases:
     kind_id: 23072
     language: 1
     name: Super Mario Bros. 3 (J) (PRG1) [p5]
+    deprecated: 1
+  - id: 259522
+    kind: 3
+    kind_id: 23072
+    language: 1
+    name: Super Chaoji Sandai (Asia) (En) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 23054
       kind: 3
       kind_id: 23072
       type: 1
-      name: Super Mario Bros. 3 (J) (PRG1) [p5].nes
+      name: Super Chaoji Sandai (Asia) (En) (Pirate).nes
       format: 1
       size: 393232
       blob_id: 68383
-      debug: Super Mario Bros. 3 (J) (PRG1) [p5].nes
+      debug: |-
+        Super Mario Bros. 3 (J) (PRG1) [p5].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=42f956146bde49bdc112ce34f21040ff61c58417
 - release:
     id: 23073
     game_id: 22648

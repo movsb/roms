@@ -8,12 +8,19 @@ names:
   kind_id: 23128
   language: 1
   name: Super Mario Bros. Mali Boss (Unl) [!]
+  deprecated: 1
 - id: 248692
   kind: 2
   kind_id: 23128
   language: 2
   name: 超级马力欧兄弟：马力欧Boss
   source: codex
+- id: 262196
+  kind: 2
+  kind_id: 23128
+  language: 1
+  name: Mali Boss
+  source: no-intro
 releases:
 - release:
     id: 23128
@@ -24,14 +31,34 @@ releases:
     kind_id: 23128
     language: 1
     name: Super Mario Bros. Mali Boss (Unl) [!]
+    deprecated: 1
+  - id: 259524
+    kind: 3
+    kind_id: 23128
+    language: 1
+    name: Mali Boss (Asia) (Ja) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 23110
       kind: 3
       kind_id: 23128
       type: 1
-      name: Super Mario Bros. Mali Boss (Unl) [!].nes
+      name: Mali Boss (Asia) (Ja) (Pirate).nes
       format: 1
       size: 262160
       blob_id: 68436
-      debug: Super Mario Bros. Mali Boss (Unl) [!].nes
+      debug: |-
+        Super Mario Bros. Mali Boss (Unl) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=1766216fd8f29419c75230e78b0561c10000efa7
+  - asset:
+      id: 139818
+      kind: 3
+      kind_id: 23128
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mali%20Boss%20%28Asia%29%20%28Ja%29%20%28Pirate%29.png
+      format: 1
+      size: 6923
+      blob_id: 325192
+      debug: libretro-named-titles:rom-asset=23110:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mali%20Boss%20%28Asia%29%20%28Ja%29%20%28Pirate%29.png

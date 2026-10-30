@@ -48,27 +48,46 @@ releases:
     kind_id: 10062
     language: 1
     name: "Double Dragon 2 - The Revenge (U)"
+    deprecated: 1
   - id: 21694
     kind: 3
     kind_id: 10062
     language: 1
     name: "Double Dragon II - The Revenge (U) (PRG1) [!]"
+    deprecated: 1
   - id: 61751
     kind: 3
     kind_id: 10062
     language: 2
     name: 双截龙2
+  - id: 258058
+    kind: 3
+    kind_id: 10062
+    language: 1
+    name: "Double Dragon II - The Revenge (USA) (Rev 1)"
+    source: no-intro
   assets:
   - asset:
       id: 10044
       kind: 3
       kind_id: 10062
       type: 1
-      name: "Double Dragon 2 - The Revenge (U).nes"
+      name: "Double Dragon II - The Revenge (USA) (Rev 1).nes"
       format: 1
       size: 262160
       blob_id: 56102
-      debug: "Double Dragon 2 - The Revenge (U).zip\nDouble Dragon II - The Revenge (U) (PRG1) [!].zip\n双截龙2 + Double Dragon II - The Revenge (U) (PRG1) [!].nes\n双截龙2.zip"
+      debug: "Double Dragon 2 - The Revenge (U).zip\nDouble Dragon II - The Revenge (U) (PRG1) [!].zip\n双截龙2 + Double Dragon II - The Revenge (U) (PRG1) [!].nes\n双截龙2.zip\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=5bf8f3d23f0819e23b9bcc9f1dfafd3b6106c4f2"
+  - asset:
+      id: 139373
+      kind: 3
+      kind_id: 10062
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Double%20Dragon%20II%20-%20The%20Revenge%20%28USA%29%20%28Rev%201%29.png
+      format: 1
+      size: 2808
+      blob_id: 324813
+      debug: libretro-named-titles:rom-asset=10044:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Double%20Dragon%20II%20-%20The%20Revenge%20%28USA%29%20%28Rev%201%29.png
 - release:
     id: 10066
     game_id: 10062
@@ -98,17 +117,24 @@ releases:
     kind_id: 10067
     language: 1
     name: "Double Dragon II - The Revenge (E) [!]"
+    deprecated: 1
+  - id: 258060
+    kind: 3
+    kind_id: 10067
+    language: 1
+    name: "Double Dragon II - The Revenge (Europe)"
+    source: no-intro
   assets:
   - asset:
       id: 10049
       kind: 3
       kind_id: 10067
       type: 1
-      name: "Double Dragon II - The Revenge (E) [!].nes"
+      name: "Double Dragon II - The Revenge (Europe).nes"
       format: 1
       size: 262160
       blob_id: 56107
-      debug: "Double Dragon II - The Revenge (E) [!].nes"
+      debug: "Double Dragon II - The Revenge (E) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=6e4d4b34a4fffdd569af64ed622ca1e0db6b57a4"
   - asset:
       id: 136823
       kind: 3
@@ -289,17 +315,24 @@ releases:
     kind_id: 10080
     language: 1
     name: "Double Dragon II - The Revenge (J) [p3]"
+    deprecated: 1
+  - id: 258061
+    kind: 3
+    kind_id: 10080
+    language: 1
+    name: "Double Dragon II - The Revenge (Asia) (Ja) (JMHWANG) (Pirate)"
+    source: no-intro
   assets:
   - asset:
       id: 10062
       kind: 3
       kind_id: 10080
       type: 1
-      name: "Double Dragon II - The Revenge (J) [p3].nes"
+      name: "Double Dragon II - The Revenge (Asia) (Ja) (JMHWANG) (Pirate).nes"
       format: 1
       size: 262160
       blob_id: 56120
-      debug: "Double Dragon II - The Revenge (J) [p3].nes"
+      debug: "Double Dragon II - The Revenge (J) [p3].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=25c0e4d3a89531380f7c9a2f5cc0d857a10b3a42"
 - release:
     id: 10081
     game_id: 10062
@@ -329,17 +362,24 @@ releases:
     kind_id: 10082
     language: 1
     name: "Double Dragon II - The Revenge (J)"
+    deprecated: 1
+  - id: 258062
+    kind: 3
+    kind_id: 10082
+    language: 1
+    name: "Double Dragon II - The Revenge (Japan)"
+    source: no-intro
   assets:
   - asset:
       id: 10064
       kind: 3
       kind_id: 10082
       type: 1
-      name: "Double Dragon II - The Revenge (J).nes"
+      name: "Double Dragon II - The Revenge (Japan).nes"
       format: 1
       size: 262160
       blob_id: 56122
-      debug: "Double Dragon II - The Revenge (J).nes"
+      debug: "Double Dragon II - The Revenge (J).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=3cc786f4b1b1e884354106793ce0a1159796c3d3"
   - asset:
       id: 138480
       kind: 3
@@ -360,17 +400,35 @@ releases:
     kind_id: 10083
     language: 1
     name: "Double Dragon II - The Revenge (U) (PRG0) [!]"
+    deprecated: 1
+  - id: 258063
+    kind: 3
+    kind_id: 10083
+    language: 1
+    name: "Double Dragon II - The Revenge (USA)"
+    source: no-intro
   assets:
   - asset:
       id: 10065
       kind: 3
       kind_id: 10083
       type: 1
-      name: "Double Dragon II - The Revenge (U) (PRG0) [!].nes"
+      name: "Double Dragon II - The Revenge (USA).nes"
       format: 1
       size: 262160
       blob_id: 56123
-      debug: "Double Dragon II - The Revenge (U) (PRG0) [!].nes"
+      debug: "Double Dragon II - The Revenge (U) (PRG0) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=fdbf0a18ea677eec5f7437a80449b033526dd68b"
+  - asset:
+      id: 139375
+      kind: 3
+      kind_id: 10083
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Double%20Dragon%20II%20-%20The%20Revenge%20%28USA%29.png
+      format: 1
+      size: 2808
+      blob_id: 324813
+      debug: libretro-named-titles:rom-asset=10065:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Double%20Dragon%20II%20-%20The%20Revenge%20%28USA%29.png
 - release:
     id: 10085
     game_id: 10062

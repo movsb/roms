@@ -1349,17 +1349,24 @@ releases:
     kind_id: 20770
     language: 1
     name: "Sangokushi II - Haou no Tairiku (J)"
+    deprecated: 1
+  - id: 259270
+    kind: 3
+    kind_id: 20770
+    language: 1
+    name: "Sangokushi II - Haou no Tairiku (Japan)"
+    source: no-intro
   assets:
   - asset:
       id: 20752
       kind: 3
       kind_id: 20770
       type: 1
-      name: "Sangokushi II - Haou no Tairiku (J).nes"
+      name: "Sangokushi II - Haou no Tairiku (Japan).nes"
       format: 1
       size: 524304
       blob_id: 66201
-      debug: "Sangokushi II - Haou no Tairiku (J).nes"
+      debug: "Sangokushi II - Haou no Tairiku (J).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=d557d0bd3b3bcbd93a2c82f4f00df7a9247e2a6d"
   - asset:
       id: 138674
       kind: 3
@@ -2758,11 +2765,13 @@ releases:
     kind_id: 26597
     language: 1
     name: San Guo Zhi 2 (Ch)
+    deprecated: 1
   - id: 257481
     kind: 3
     kind_id: 26597
     language: 1
     name: San Guo Zhi 2 (Ch) [T+Chi2.3]
+    deprecated: 1
   - id: 257482
     kind: 3
     kind_id: 26597
@@ -2774,17 +2783,34 @@ releases:
     kind_id: 26597
     language: 2
     name: 三国志Ⅱ：中文加强版（外星科技）
+  - id: 259899
+    kind: 3
+    kind_id: 26597
+    language: 1
+    name: "Sanguozhi 2 - Zhongwen Jiaqiang Ban (China) (Pirate)"
+    source: no-intro
   assets:
   - asset:
       id: 26579
       kind: 3
       kind_id: 26597
       type: 1
-      name: "[WaiXing] 三国志Ⅱ中文加强版 (C) + San Guo Zhi 2 (Ch).nes"
+      name: "Sanguozhi 2 - Zhongwen Jiaqiang Ban (China) (Pirate).nes"
       format: 1
       size: 786448
       blob_id: 71720
-      debug: "[WaiXing] 三国志Ⅱ中文加强版 (C) + San Guo Zhi 2 (Ch).nes"
+      debug: "[WaiXing] 三国志Ⅱ中文加强版 (C) + San Guo Zhi 2 (Ch).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=6282051da49c286863463af105f851aacf896563"
+  - asset:
+      id: 139932
+      kind: 3
+      kind_id: 26597
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Sanguozhi%202%20-%20Zhongwen%20Jiaqiang%20Ban%20%28China%29%20%28Pirate%29.png
+      format: 1
+      size: 5905
+      blob_id: 325296
+      debug: libretro-named-titles:rom-asset=26579:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Sanguozhi%202%20-%20Zhongwen%20Jiaqiang%20Ban%20%28China%29%20%28Pirate%29.png
 - release:
     id: 26698
     game_id: 20757

@@ -23,17 +23,37 @@ releases:
     kind_id: 16125
     language: 1
     name: Megaman II (E) (VC)
+    deprecated: 1
+  - id: 258754
+    kind: 3
+    kind_id: 16125
+    language: 1
+    name: Mega Man 2 (Europe) (Virtual Console)
+    source: no-intro
   assets:
   - asset:
       id: 16107
       kind: 3
       kind_id: 16125
       type: 1
-      name: Megaman II (E) (VC).nes
+      name: Mega Man 2 (Europe) (Virtual Console).nes
       format: 1
       size: 262160
       blob_id: 61794
-      debug: Megaman II (E) (VC).nes
+      debug: |-
+        Megaman II (E) (VC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=5ab80ae2fafb83414dcd9e208eb8883e23dcc865
+  - asset:
+      id: 139553
+      kind: 3
+      kind_id: 16125
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mega%20Man%202%20%28Europe%29%20%28Virtual%20Console%29.png
+      format: 1
+      size: 3008
+      blob_id: 324970
+      debug: libretro-named-titles:rom-asset=16107:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mega%20Man%202%20%28Europe%29%20%28Virtual%20Console%29.png
 - release:
     id: 16126
     game_id: 16125
@@ -43,17 +63,26 @@ releases:
     kind_id: 16126
     language: 1
     name: Megaman II (E) [!]
+    deprecated: 1
+  - id: 258755
+    kind: 3
+    kind_id: 16126
+    language: 1
+    name: Mega Man 2 (Europe)
+    source: no-intro
   assets:
   - asset:
       id: 16108
       kind: 3
       kind_id: 16126
       type: 1
-      name: Megaman II (E) [!].nes
+      name: Mega Man 2 (Europe).nes
       format: 1
       size: 262160
       blob_id: 61795
-      debug: Megaman II (E) [!].nes
+      debug: |-
+        Megaman II (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=e28ba80be814bb032bbe4647c1b2104f868dfa25
   - asset:
       id: 137101
       kind: 3
@@ -94,17 +123,37 @@ releases:
     kind_id: 16128
     language: 1
     name: Megaman II (U) (VC)
+    deprecated: 1
+  - id: 258756
+    kind: 3
+    kind_id: 16128
+    language: 1
+    name: Mega Man 2 (USA) (Virtual Console)
+    source: no-intro
   assets:
   - asset:
       id: 16110
       kind: 3
       kind_id: 16128
       type: 1
-      name: Megaman II (U) (VC).nes
+      name: Mega Man 2 (USA) (Virtual Console).nes
       format: 1
       size: 262160
       blob_id: 61797
-      debug: Megaman II (U) (VC).nes
+      debug: |-
+        Megaman II (U) (VC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=7bfc3c0bb562baefea3df7e07ec2b55e214d575e
+  - asset:
+      id: 139554
+      kind: 3
+      kind_id: 16128
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mega%20Man%202%20%28USA%29%20%28Virtual%20Console%29.png
+      format: 1
+      size: 3008
+      blob_id: 324970
+      debug: libretro-named-titles:rom-asset=16110:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mega%20Man%202%20%28USA%29%20%28Virtual%20Console%29.png
 - release:
     id: 16129
     game_id: 16125
@@ -114,19 +163,38 @@ releases:
     kind_id: 16129
     language: 1
     name: Megaman II (U) [!]
+    deprecated: 1
+  - id: 258757
+    kind: 3
+    kind_id: 16129
+    language: 1
+    name: Mega Man 2 (USA)
+    source: no-intro
   assets:
   - asset:
       id: 16111
       kind: 3
       kind_id: 16129
       type: 1
-      name: Megaman II (U) [!].nes
+      name: Mega Man 2 (USA).nes
       format: 1
       size: 262160
       blob_id: 61798
       debug: |-
         Megaman II (U) [!].nes
         Megaman II (U) [!].zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=2ec08f9341003ded125458df8697ca5ef09d2209
+  - asset:
+      id: 139555
+      kind: 3
+      kind_id: 16129
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mega%20Man%202%20%28USA%29.png
+      format: 1
+      size: 1845
+      blob_id: 324068
+      debug: libretro-named-titles:rom-asset=16111:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mega%20Man%202%20%28USA%29.png
 - release:
     id: 16131
     game_id: 16125

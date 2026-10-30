@@ -47,6 +47,7 @@ releases:
     kind_id: 10186
     language: 1
     name: Double Strike (Unl) [!p]
+    deprecated: 1
   - id: 61833
     kind: 3
     kind_id: 10186
@@ -57,14 +58,32 @@ releases:
     kind_id: 10186
     language: 1
     name: Double Strike (AVE) (V1.1) [!]
+    deprecated: 1
+  - id: 258068
+    kind: 3
+    kind_id: 10186
+    language: 1
+    name: "Double Strike - Aerial Attack Force (USA) (v1.1) (Unl)"
+    source: no-intro
   assets:
   - asset:
       id: 10168
       kind: 3
       kind_id: 10186
       type: 1
-      name: Double Strike (Unl) [!p].nes
+      name: "Double Strike - Aerial Attack Force (USA) (v1.1) (Unl).nes"
       format: 1
       size: 65552
       blob_id: 56219
-      debug: "Double Strike (Unl) [!p].zip\n双重打击 (美版) (V1.1) (射击)-Double Strike - Aerial Attack Force (USA) (v1.1) (Unl) + Double Strike (AVE) (V1.1) [!].nes"
+      debug: "Double Strike (Unl) [!p].zip\n双重打击 (美版) (V1.1) (射击)-Double Strike - Aerial Attack Force (USA) (v1.1) (Unl) + Double Strike (AVE) (V1.1) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=e54bb51b9d78810300f3a105f7437d73d7c8bcc1"
+  - asset:
+      id: 139376
+      kind: 3
+      kind_id: 10186
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Double%20Strike%20-%20Aerial%20Attack%20Force%20%28USA%29%20%28v1.1%29%20%28Unl%29.png
+      format: 1
+      size: 2633
+      blob_id: 324815
+      debug: libretro-named-titles:rom-asset=10168:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Double%20Strike%20-%20Aerial%20Attack%20Force%20%28USA%29%20%28v1.1%29%20%28Unl%29.png

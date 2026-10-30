@@ -7,12 +7,19 @@ names:
   kind_id: 14023
   language: 1
   name: Jia A Fung Yun
+  deprecated: 1
 - id: 249222
   kind: 2
   kind_id: 14023
   language: 2
   name: 甲A风云
   source: codex
+- id: 261811
+  kind: 2
+  kind_id: 14023
+  language: 1
+  name: "Jia A - China Soccer League for Division A"
+  source: no-intro
 releases:
 - release:
     id: 14023
@@ -23,14 +30,34 @@ releases:
     kind_id: 14023
     language: 1
     name: Jia A Fung Yun (Ch) (Wxn)
+    deprecated: 1
+  - id: 258508
+    kind: 3
+    kind_id: 14023
+    language: 1
+    name: "Jia A - China Soccer League for Division A (China) (Aftermarket) (Unl)"
+    source: no-intro
   assets:
   - asset:
       id: 14005
       kind: 3
       kind_id: 14023
       type: 1
-      name: Jia A Fung Yun (Ch) (Wxn).nes
+      name: "Jia A - China Soccer League for Division A (China) (Aftermarket) (Unl).nes"
       format: 1
       size: 786448
       blob_id: 59826
-      debug: Jia A Fung Yun (Ch) (Wxn).nes
+      debug: |-
+        Jia A Fung Yun (Ch) (Wxn).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=65cc37b165baaa3f6bd231f57dd5297b94a4a45d
+  - asset:
+      id: 139477
+      kind: 3
+      kind_id: 14023
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Jia%20A%20-%20China%20Soccer%20League%20for%20Division%20A%20%28China%29%20%28Aftermarket%29%20%28Unl%29.png
+      format: 1
+      size: 7012
+      blob_id: 324908
+      debug: libretro-named-titles:rom-asset=14005:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Jia%20A%20-%20China%20Soccer%20League%20for%20Division%20A%20%28China%29%20%28Aftermarket%29%20%28Unl%29.png

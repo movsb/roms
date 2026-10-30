@@ -13,6 +13,12 @@ names:
   language: 2
   name: 足球目标
   source: codex
+- id: 261745
+  kind: 2
+  kind_id: 12349
+  language: 1
+  name: Goal!
+  source: no-intro
 releases:
 - release:
     id: 12349
@@ -23,17 +29,26 @@ releases:
     kind_id: 12349
     language: 1
     name: Goal! (E) [!]
+    deprecated: 1
+  - id: 258326
+    kind: 3
+    kind_id: 12349
+    language: 1
+    name: Goal! (Europe)
+    source: no-intro
   assets:
   - asset:
       id: 12331
       kind: 3
       kind_id: 12349
       type: 1
-      name: Goal! (E) [!].nes
+      name: Goal! (Europe).nes
       format: 1
       size: 393232
       blob_id: 58252
-      debug: Goal! (E) [!].nes
+      debug: |-
+        Goal! (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=5f95803cbd4392439ff7046d87830c8a66ba3ee1
   - asset:
       id: 136931
       kind: 3
@@ -54,18 +69,26 @@ releases:
     kind_id: 12350
     language: 1
     name: Goal! (U) [!]
+    deprecated: 1
   - id: 27116
     kind: 3
     kind_id: 12350
     language: 1
     name: Goal! (U)
+    deprecated: 1
+  - id: 258327
+    kind: 3
+    kind_id: 12350
+    language: 1
+    name: Goal! (USA)
+    source: no-intro
   assets:
   - asset:
       id: 12332
       kind: 3
       kind_id: 12350
       type: 1
-      name: Goal! (U) [!].nes
+      name: Goal! (USA).nes
       format: 1
       size: 393232
       blob_id: 58253
@@ -73,6 +96,7 @@ releases:
         Goal! (U) [!].nes
         Goal! (U) [!].zip
         Goal! (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=abb50cdc61112a03fc4089e30c49f82c8fdda790
   - asset:
       id: 138502
       kind: 3

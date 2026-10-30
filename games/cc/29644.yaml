@@ -12,11 +12,18 @@ names:
   kind_id: 29644
   language: 1
   name: Drop Zone (E)
+  deprecated: 1
 - id: 70459
   kind: 2
   kind_id: 29644
   language: 2
   name: 跌落地带
+- id: 263457
+  kind: 2
+  kind_id: 29644
+  language: 1
+  name: Dropzone
+  source: no-intro
 releases:
 - release:
     id: 29644
@@ -32,21 +39,40 @@ releases:
     kind_id: 29644
     language: 1
     name: Drop Zone (E)
+    deprecated: 1
   - id: 70460
     kind: 3
     kind_id: 29644
     language: 2
     name: 跌落地带
+  - id: 261139
+    kind: 3
+    kind_id: 29644
+    language: 1
+    name: Dropzone (Europe)
+    source: no-intro
   assets:
   - asset:
       id: 29626
       kind: 3
       kind_id: 29644
       type: 1
-      name: 行星地带 + Drop Zone (E).nes
+      name: Dropzone (Europe).nes
       format: 1
       size: 65552
       blob_id: 73713
       debug: |-
         行星地带 + Drop Zone (E).nes
         跌落地带.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=d44edaf9390cc08298c25ad0ffc8643363882aac
+  - asset:
+      id: 140218
+      kind: 3
+      kind_id: 29644
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Dropzone%20%28Europe%29.png
+      format: 1
+      size: 1701
+      blob_id: 325538
+      debug: libretro-named-titles:rom-asset=29626:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Dropzone%20%28Europe%29.png

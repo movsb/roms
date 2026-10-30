@@ -82,23 +82,31 @@ releases:
     kind_id: 12729
     language: 1
     name: Gun Smoke (U)
+    deprecated: 1
   - id: 28004
     kind: 3
     kind_id: 12729
     language: 1
     name: Gun.Smoke (U) [!]
+    deprecated: 1
   - id: 69321
     kind: 3
     kind_id: 12729
     language: 2
     name: 荒野大镖客 (美版) (射击)-Gun.Smoke (USA)
+  - id: 258377
+    kind: 3
+    kind_id: 12729
+    language: 1
+    name: Gun.Smoke (USA)
+    source: no-intro
   assets:
   - asset:
       id: 12711
       kind: 3
       kind_id: 12729
       type: 1
-      name: Gun Smoke (U).nes
+      name: Gun.Smoke (USA).nes
       format: 1
       size: 131088
       blob_id: 58613
@@ -106,6 +114,18 @@ releases:
         Gun Smoke (U).zip
         Gun.Smoke (U) [!].zip
         荒野大镖客 (美版) (射击)-Gun.Smoke (USA) + Gun.Smoke (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=0b66fe6d5f724f4f66f1e1fe76a65a84ac876c7e
+  - asset:
+      id: 139433
+      kind: 3
+      kind_id: 12729
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Gun.Smoke%20%28USA%29.png
+      format: 1
+      size: 1409
+      blob_id: 324865
+      debug: libretro-named-titles:rom-asset=12711:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Gun.Smoke%20%28USA%29.png
 - release:
     id: 12752
     game_id: 12728
@@ -322,17 +342,26 @@ releases:
     kind_id: 12769
     language: 1
     name: Gun.Smoke (U) [p1]
+    deprecated: 1
+  - id: 258380
+    kind: 3
+    kind_id: 12769
+    language: 1
+    name: Gun.Smoke (Asia) (En) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 12751
       kind: 3
       kind_id: 12769
       type: 1
-      name: Gun.Smoke (U) [p1].nes
+      name: Gun.Smoke (Asia) (En) (Pirate).nes
       format: 1
       size: 131088
       blob_id: 58652
-      debug: Gun.Smoke (U) [p1].nes
+      debug: |-
+        Gun.Smoke (U) [p1].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=6c86dc304e986bf53be1365a2596893f91cd2ed1
 - release:
     id: 12770
     game_id: 12728
@@ -614,17 +643,26 @@ releases:
     kind_id: 29552
     language: 1
     name: Gun.Smoke (E) [!]
+    deprecated: 1
+  - id: 261102
+    kind: 3
+    kind_id: 29552
+    language: 1
+    name: Gun.Smoke (Europe)
+    source: no-intro
   assets:
   - asset:
       id: 29534
       kind: 3
       kind_id: 29552
       type: 1
-      name: 荒野大镖客 (欧版) (射击)-Gun.Smoke (Europe) + Gun.Smoke (E) [!].nes
+      name: Gun.Smoke (Europe).nes
       format: 1
       size: 131088
       blob_id: 73657
-      debug: 荒野大镖客 (欧版) (射击)-Gun.Smoke (Europe) + Gun.Smoke (E) [!].nes
+      debug: |-
+        荒野大镖客 (欧版) (射击)-Gun.Smoke (Europe) + Gun.Smoke (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=df8e74a0f5af5f30710840a7d983eb3ca34f4389
   - asset:
       id: 137953
       kind: 3

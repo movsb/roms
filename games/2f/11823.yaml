@@ -80,6 +80,7 @@ releases:
     kind_id: 11825
     language: 1
     name: Flying Hero (Japan)
+    deprecated: 1
   - id: 71485
     kind: 3
     kind_id: 11825
@@ -90,6 +91,13 @@ releases:
     kind_id: 11825
     language: 1
     name: Flying Hero (J)
+    deprecated: 1
+  - id: 258255
+    kind: 3
+    kind_id: 11825
+    language: 1
+    name: Flying Hero (Japan) (En)
+    source: no-intro
   release_publishers:
   - release_id: 11825
     publisher_id: 192
@@ -99,13 +107,14 @@ releases:
       kind: 3
       kind_id: 11825
       type: 1
-      name: Flying Hero (Japan).nes
+      name: Flying Hero (Japan) (En).nes
       format: 1
       size: 131088
       blob_id: 57764
       debug: |-
         Flying Hero (Japan).zip
         飞行英雄 (日版) (益智)-Flying Hero (Japan) + Flying Hero (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=590b5fb7456d4164ccc4d73eba98dc3ef589dbad
   - asset:
       id: 138397
       kind: 3

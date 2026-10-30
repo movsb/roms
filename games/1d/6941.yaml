@@ -12,11 +12,18 @@ names:
   kind_id: 6941
   language: 1
   name: Bigfoot (U) [!]
+  deprecated: 1
 - id: 91373
   kind: 2
   kind_id: 6941
   language: 1
   name: Bigfoot
+- id: 261559
+  kind: 2
+  kind_id: 6941
+  language: 1
+  name: Bigfoot
+  source: no-intro
 releases:
 - release:
     id: 6941
@@ -27,17 +34,26 @@ releases:
     kind_id: 6941
     language: 1
     name: Bigfoot (E) [!]
+    deprecated: 1
+  - id: 257774
+    kind: 3
+    kind_id: 6941
+    language: 1
+    name: Bigfoot (Europe)
+    source: no-intro
   assets:
   - asset:
       id: 6923
       kind: 3
       kind_id: 6941
       type: 1
-      name: Bigfoot (E) [!].nes
+      name: Bigfoot (Europe).nes
       format: 1
       size: 262160
       blob_id: 53142
-      debug: Bigfoot (E) [!].nes
+      debug: |-
+        Bigfoot (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=4bd6b3535fcc04f7570fe754645eb5d3997a02aa
   - asset:
       id: 136724
       kind: 3
@@ -58,24 +74,32 @@ releases:
     kind_id: 6942
     language: 1
     name: Bigfoot (U) [!]
+    deprecated: 1
   - id: 62883
     kind: 3
     kind_id: 6942
     language: 2
     name: 大轮赛车 (美版) (竞赛)-Bigfoot (USA)
+  - id: 257775
+    kind: 3
+    kind_id: 6942
+    language: 1
+    name: Bigfoot (USA)
+    source: no-intro
   assets:
   - asset:
       id: 6924
       kind: 3
       kind_id: 6942
       type: 1
-      name: Bigfoot (U) [!].nes
+      name: Bigfoot (USA).nes
       format: 1
       size: 262160
       blob_id: 53143
       debug: |-
         Bigfoot (U) [!].zip
         大轮赛车 (美版) (竞赛)-Bigfoot (USA) + Bigfoot (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=a8ee603b86caedcdb517904895241902c15dfc6a
   - asset:
       id: 138454
       kind: 3

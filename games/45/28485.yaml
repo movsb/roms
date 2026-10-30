@@ -12,6 +12,13 @@ names:
   kind_id: 28485
   language: 1
   name: Star Gate (J)
+  deprecated: 1
+- id: 263027
+  kind: 2
+  kind_id: 28485
+  language: 1
+  name: Star Gate
+  source: no-intro
 releases:
 - release:
     id: 28485
@@ -27,17 +34,26 @@ releases:
     kind_id: 28485
     language: 1
     name: Star Gate (J)
+    deprecated: 1
+  - id: 260661
+    kind: 3
+    kind_id: 28485
+    language: 1
+    name: Star Gate (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 28467
       kind: 3
       kind_id: 28485
       type: 1
-      name: 星际之门 (日版) (射击)-Star Gate (Japan) + Star Gate (J).nes
+      name: Star Gate (Japan).nes
       format: 1
       size: 24592
       blob_id: 72976
-      debug: 星际之门 (日版) (射击)-Star Gate (Japan) + Star Gate (J).nes
+      debug: |-
+        星际之门 (日版) (射击)-Star Gate (Japan) + Star Gate (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=e516cb54de0c683202d4bc2c97fc11000d8e5642
   - asset:
       id: 139019
       kind: 3

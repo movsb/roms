@@ -7,12 +7,19 @@ names:
   kind_id: 15513
   language: 1
   name: Magic Candle, The (Translated En)
+  deprecated: 1
 - id: 248109
   kind: 2
   kind_id: 15513
   language: 2
   name: 魔法蜡烛
   source: codex
+- id: 261872
+  kind: 2
+  kind_id: 15513
+  language: 1
+  name: Magic Candle, The
+  source: no-intro
 releases:
 - release:
     id: 15513
@@ -23,14 +30,34 @@ releases:
     kind_id: 15513
     language: 1
     name: Magic Candle, The (Japan) (Translated En)
+    deprecated: 1
+  - id: 258698
+    kind: 3
+    kind_id: 15513
+    language: 1
+    name: Magic Candle, The (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 15495
       kind: 3
       kind_id: 15513
       type: 1
-      name: Magic Candle, The (Japan) (Translated En).nes
+      name: Magic Candle, The (Japan).nes
       format: 1
       size: 393232
       blob_id: 61207
-      debug: Magic Candle, The (Japan) (Translated En).zip
+      debug: |-
+        Magic Candle, The (Japan) (Translated En).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=bd564d7c6b1c5ca9e81a531489a146523a1e2fce
+  - asset:
+      id: 139541
+      kind: 3
+      kind_id: 15513
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Magic%20Candle%2C%20The%20%28Japan%29.png
+      format: 1
+      size: 1349
+      blob_id: 324717
+      debug: libretro-named-titles:rom-asset=15495:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Magic%20Candle%2C%20The%20%28Japan%29.png

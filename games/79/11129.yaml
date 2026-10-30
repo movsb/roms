@@ -23,17 +23,37 @@ releases:
     kind_id: 11129
     language: 1
     name: Famicom Wars (J) (VC)
+    deprecated: 1
+  - id: 258180
+    kind: 3
+    kind_id: 11129
+    language: 1
+    name: Famicom Wars (Japan) (Virtual Console)
+    source: no-intro
   assets:
   - asset:
       id: 11111
       kind: 3
       kind_id: 11129
       type: 1
-      name: Famicom Wars (J) (VC).nes
+      name: Famicom Wars (Japan) (Virtual Console).nes
       format: 1
       size: 196624
       blob_id: 57103
-      debug: Famicom Wars (J) (VC).nes
+      debug: |-
+        Famicom Wars (J) (VC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=03b23d9265addefef8459cfa9fd59e308751e696
+  - asset:
+      id: 139393
+      kind: 3
+      kind_id: 11129
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Famicom%20Wars%20%28Japan%29%20%28Virtual%20Console%29.png
+      format: 1
+      size: 3096
+      blob_id: 324832
+      debug: libretro-named-titles:rom-asset=11111:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Famicom%20Wars%20%28Japan%29%20%28Virtual%20Console%29.png
 - release:
     id: 11130
     game_id: 11129
@@ -43,17 +63,26 @@ releases:
     kind_id: 11130
     language: 1
     name: Famicom Wars (J) [!]
+    deprecated: 1
+  - id: 258181
+    kind: 3
+    kind_id: 11130
+    language: 1
+    name: Famicom Wars (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 11112
       kind: 3
       kind_id: 11130
       type: 1
-      name: Famicom Wars (J) [!].nes
+      name: Famicom Wars (Japan).nes
       format: 1
       size: 196624
       blob_id: 57104
-      debug: Famicom Wars (J) [!].nes
+      debug: |-
+        Famicom Wars (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=882e0017099cc5784f3d3efa66fab4c38f83ec46
   - asset:
       id: 136869
       kind: 3

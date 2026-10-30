@@ -13,6 +13,13 @@ names:
   language: 1
   name: "SD Gundam Gaiden - Knight Gundam Monogatari 2 - Hikari no Kishi"
   source: codex
+  deprecated: 1
+- id: 262084
+  kind: 2
+  kind_id: 20536
+  language: 1
+  name: "SD Gundam Gaiden - Knight Gundam Monogatari 2 - Hikari no Knight"
+  source: no-intro
 releases:
 - release:
     id: 20536
@@ -23,14 +30,31 @@ releases:
     kind_id: 20536
     language: 2
     name: "SD 钢弹外传 - 骑士钢弹物语 II (日版) (角色扮演)-SD Gundam Gaiden - Knight Gundam Monogatari 2 - Hikari no Kishi (Japan)"
+  - id: 259252
+    kind: 3
+    kind_id: 20536
+    language: 1
+    name: "SD Gundam Gaiden - Knight Gundam Monogatari 2 - Hikari no Knight (Japan)"
+    source: no-intro
   assets:
   - asset:
       id: 20518
       kind: 3
       kind_id: 20536
       type: 1
-      name: "SD 钢弹外传 - 骑士钢弹物语 II (日版) (角色扮演)-SD Gundam Gaiden - Knight Gundam Monogatari 2 - Hikari no Kishi (Japan).nes"
+      name: "SD Gundam Gaiden - Knight Gundam Monogatari 2 - Hikari no Knight (Japan).nes"
       format: 1
       size: 524304
       blob_id: 65974
-      debug: "SD 钢弹外传 - 骑士钢弹物语 II (日版) (角色扮演)-SD Gundam Gaiden - Knight Gundam Monogatari 2 - Hikari no Kishi (Japan).nes"
+      debug: "SD 钢弹外传 - 骑士钢弹物语 II (日版) (角色扮演)-SD Gundam Gaiden - Knight Gundam Monogatari 2 - Hikari no Kishi (Japan).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=d08c0d7d333d338fd5ca1994cea81c5a9eed65e5"
+  - asset:
+      id: 139722
+      kind: 3
+      kind_id: 20536
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/SD%20Gundam%20Gaiden%20-%20Knight%20Gundam%20Monogatari%202%20-%20Hikari%20no%20Knight%20%28Japan%29.png
+      format: 1
+      size: 1500
+      blob_id: 325106
+      debug: libretro-named-titles:rom-asset=20518:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/SD%20Gundam%20Gaiden%20-%20Knight%20Gundam%20Monogatari%202%20-%20Hikari%20no%20Knight%20%28Japan%29.png

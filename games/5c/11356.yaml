@@ -7,11 +7,18 @@ names:
   kind_id: 11356
   language: 1
   name: Fighting Hero (Unl)
+  deprecated: 1
 - id: 66311
   kind: 2
   kind_id: 11356
   language: 2
   name: 格斗英雄 (亚洲版) (格斗)-Fighting Hero (Unl)
+- id: 261710
+  kind: 2
+  kind_id: 11356
+  language: 1
+  name: Fighting Hero
+  source: no-intro
 releases:
 - release:
     id: 11356
@@ -22,21 +29,29 @@ releases:
     kind_id: 11356
     language: 1
     name: Fighting Hero (Unl)
+    deprecated: 1
   - id: 66313
     kind: 3
     kind_id: 11356
     language: 2
     name: 格斗英雄 (亚洲版) (格斗)-Fighting Hero (Asia) (Unl)
+  - id: 258223
+    kind: 3
+    kind_id: 11356
+    language: 1
+    name: Fighting Hero (Taiwan) (En) (v1.1) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 11338
       kind: 3
       kind_id: 11356
       type: 1
-      name: Fighting Hero (Unl).nes
+      name: Fighting Hero (Taiwan) (En) (v1.1) (Unl).nes
       format: 1
       size: 393232
       blob_id: 57314
       debug: |-
         Fighting Hero (Unl).zip
         格斗英雄 (亚洲版) (格斗)-Fighting Hero (Asia) (Unl) + Fighting Hero (Unl).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=334dcb823b480957057c2b4c72686be26823c12a

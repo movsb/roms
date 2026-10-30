@@ -12,6 +12,7 @@ names:
   kind_id: 16444
   language: 1
   name: Metal Storm (U) [!]
+  deprecated: 1
 - id: 70753
   kind: 2
   kind_id: 16444
@@ -22,6 +23,12 @@ names:
   kind_id: 16444
   language: 1
   name: Metal Storm
+- id: 261904
+  kind: 2
+  kind_id: 16444
+  language: 1
+  name: Metal Storm
+  source: no-intro
 releases:
 - release:
     id: 16444
@@ -32,11 +39,13 @@ releases:
     kind_id: 16444
     language: 1
     name: Metal Storm (U) [!]
+    deprecated: 1
   - id: 36612
     kind: 3
     kind_id: 16444
     language: 1
     name: Metal Storm (U)
+    deprecated: 1
   - id: 70751
     kind: 3
     kind_id: 16444
@@ -47,13 +56,19 @@ releases:
     kind_id: 16444
     language: 2
     name: 重力装甲
+  - id: 258786
+    kind: 3
+    kind_id: 16444
+    language: 1
+    name: Metal Storm (USA)
+    source: no-intro
   assets:
   - asset:
       id: 16426
       kind: 3
       kind_id: 16444
       type: 1
-      name: Metal Storm (U) [!].nes
+      name: Metal Storm (USA).nes
       format: 1
       size: 393232
       blob_id: 62095
@@ -62,6 +77,7 @@ releases:
         Metal Storm (U).zip
         重力装甲 (美版) (动作)-Metal Storm (USA) + Metal Storm (U) [!].nes
         重力装甲.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=a51518866864020c3b22f2e700db07e26eed76c7
   - asset:
       id: 137108
       kind: 3

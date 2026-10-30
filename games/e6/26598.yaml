@@ -14,6 +14,12 @@ names:
   language: 1
   name: "Yongzhe Dou Elong II - Dragon Quest"
   source: codex
+- id: 262341
+  kind: 2
+  kind_id: 26598
+  language: 1
+  name: "Yongzhe Dou Elong II - Dragon Quest"
+  source: no-intro
 releases:
 - release:
     id: 26598
@@ -24,14 +30,31 @@ releases:
     kind_id: 26598
     language: 2
     name: "[WaiXing] 勇者斗恶龙Ⅱ (C)"
+  - id: 259900
+    kind: 3
+    kind_id: 26598
+    language: 1
+    name: "Yongzhe Dou Elong II - Dragon Quest (China) (980342) (Pirate)"
+    source: no-intro
   assets:
   - asset:
       id: 26580
       kind: 3
       kind_id: 26598
       type: 1
-      name: "[WaiXing] 勇者斗恶龙Ⅱ (C).nes"
+      name: "Yongzhe Dou Elong II - Dragon Quest (China) (980342) (Pirate).nes"
       format: 1
       size: 262160
       blob_id: 71721
-      debug: "[WaiXing] 勇者斗恶龙Ⅱ (C).nes"
+      debug: "[WaiXing] 勇者斗恶龙Ⅱ (C).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=c015259c248280bcc653652e3269a9433dff758e"
+  - asset:
+      id: 139933
+      kind: 3
+      kind_id: 26598
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Yongzhe%20Dou%20Elong%20II%20-%20Dragon%20Quest%20%28China%29%20%28980342%29%20%28Pirate%29.png
+      format: 1
+      size: 4778
+      blob_id: 325277
+      debug: libretro-named-titles:rom-asset=26580:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Yongzhe%20Dou%20Elong%20II%20-%20Dragon%20Quest%20%28China%29%20%28980342%29%20%28Pirate%29.png

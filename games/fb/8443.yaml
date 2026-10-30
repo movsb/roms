@@ -54,14 +54,34 @@ releases:
     kind_id: 8444
     language: 1
     name: Chase by Shiru (PD)
+    deprecated: 1
+  - id: 257880
+    kind: 3
+    kind_id: 8444
+    language: 1
+    name: Chase (World) (Aftermarket) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 8426
       kind: 3
       kind_id: 8444
       type: 1
-      name: Chase by Shiru (PD).nes
+      name: Chase (World) (Aftermarket) (Unl).nes
       format: 1
       size: 24592
       blob_id: 54580
-      debug: Chase by Shiru (PD).nes
+      debug: |-
+        Chase by Shiru (PD).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=00fb4e1145c0ca58193a2a4cfe06b3c5c09e9582
+  - asset:
+      id: 139349
+      kind: 3
+      kind_id: 8444
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Chase%20%28World%29%20%28Aftermarket%29%20%28Unl%29.png
+      format: 1
+      size: 1529
+      blob_id: 324792
+      debug: libretro-named-titles:rom-asset=8426:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Chase%20%28World%29%20%28Aftermarket%29%20%28Unl%29.png

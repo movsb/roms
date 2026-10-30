@@ -7,6 +7,7 @@ names:
   kind_id: 18957
   language: 1
   name: Pocket Monsters Red
+  deprecated: 1
 - id: 248364
   kind: 2
   kind_id: 18957
@@ -19,6 +20,12 @@ names:
   language: 2
   name: 宝可梦
   deprecated: 1
+- id: 261990
+  kind: 2
+  kind_id: 18957
+  language: 1
+  name: "Koudai Jingling - Hong"
+  source: no-intro
 assets:
 - asset:
     id: 135029
@@ -40,14 +47,23 @@ releases:
     kind_id: 18958
     language: 1
     name: Pocket Monsters Red (Ch) (Wxn)
+    deprecated: 1
+  - id: 259053
+    kind: 3
+    kind_id: 18958
+    language: 1
+    name: "Koudai Jingling - Hong (China) (Aftermarket) (Pirate)"
+    source: no-intro
   assets:
   - asset:
       id: 18940
       kind: 3
       kind_id: 18958
       type: 1
-      name: Pocket Monsters Red (Ch) (Wxn).nes
+      name: "Koudai Jingling - Hong (China) (Aftermarket) (Pirate).nes"
       format: 1
       size: 1048592
       blob_id: 64482
-      debug: Pocket Monsters Red (Ch) (Wxn).nes
+      debug: |-
+        Pocket Monsters Red (Ch) (Wxn).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=dc02e33788d5031d7595f2107540972755eb9bcc

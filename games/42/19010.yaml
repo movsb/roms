@@ -7,12 +7,19 @@ names:
   kind_id: 19010
   language: 1
   name: Pong and Head Bounce by Bob Rost (PD)
+  deprecated: 1
 - id: 254486
   kind: 2
   kind_id: 19010
   language: 2
   name: Pong与头部弹跳
   source: codex
+- id: 262001
+  kind: 2
+  kind_id: 19010
+  language: 1
+  name: Pong and Head Bounce
+  source: no-intro
 releases:
 - release:
     id: 19010
@@ -23,14 +30,34 @@ releases:
     kind_id: 19010
     language: 1
     name: Pong and Head Bounce by Bob Rost (PD)
+    deprecated: 1
+  - id: 259068
+    kind: 3
+    kind_id: 19010
+    language: 1
+    name: Pong and Head Bounce (World) (Aftermarket) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 18992
       kind: 3
       kind_id: 19010
       type: 1
-      name: Pong and Head Bounce by Bob Rost (PD).nes
+      name: Pong and Head Bounce (World) (Aftermarket) (Unl).nes
       format: 1
       size: 24592
       blob_id: 64528
-      debug: Pong and Head Bounce by Bob Rost (PD).nes
+      debug: |-
+        Pong and Head Bounce by Bob Rost (PD).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=9833f3a6091c667d86336d8db68bec36f67bd98d
+  - asset:
+      id: 139674
+      kind: 3
+      kind_id: 19010
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Pong%20and%20Head%20Bounce%20%28World%29%20%28Aftermarket%29%20%28Unl%29.png
+      format: 1
+      size: 1986
+      blob_id: 325071
+      debug: libretro-named-titles:rom-asset=18992:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Pong%20and%20Head%20Bounce%20%28World%29%20%28Aftermarket%29%20%28Unl%29.png

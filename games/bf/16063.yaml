@@ -38,16 +38,19 @@ releases:
     kind_id: 16063
     language: 1
     name: Mega Man 5 (U)
+    deprecated: 1
   - id: 36144
     kind: 3
     kind_id: 16063
     language: 1
     name: Megaman V (U) [!p]
+    deprecated: 1
   - id: 36338
     kind: 3
     kind_id: 16063
     language: 1
     name: Megaman5
+    deprecated: 1
   - id: 66881
     kind: 3
     kind_id: 16063
@@ -58,17 +61,24 @@ releases:
     kind_id: 16063
     language: 1
     name: Megaman V (U) [!]
+    deprecated: 1
+  - id: 258750
+    kind: 3
+    kind_id: 16063
+    language: 1
+    name: Mega Man 5 (USA)
+    source: no-intro
   assets:
   - asset:
       id: 16045
       kind: 3
       kind_id: 16063
       type: 1
-      name: Mega Man 5 (U).nes
+      name: Mega Man 5 (USA).nes
       format: 1
       size: 524304
       blob_id: 61732
-      debug: "Mega Man 5 (U).zip\nMegaman V (U) [!p].zip\nMegaman5.zip\n洛克人 V - 布鲁斯的圈套 (美版) (动作)-Mega Man 5 (USA) + Megaman V (U) [!].nes"
+      debug: "Mega Man 5 (U).zip\nMegaman V (U) [!p].zip\nMegaman5.zip\n洛克人 V - 布鲁斯的圈套 (美版) (动作)-Mega Man 5 (USA) + Megaman V (U) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=36842491bb513c80beb9f2fb2aa30edaa1121ca4"
   - asset:
       id: 138576
       kind: 3
@@ -89,17 +99,37 @@ releases:
     kind_id: 16254
     language: 1
     name: Megaman V (E) (VC)
+    deprecated: 1
+  - id: 258766
+    kind: 3
+    kind_id: 16254
+    language: 1
+    name: Mega Man 5 (Europe) (Virtual Console)
+    source: no-intro
   assets:
   - asset:
       id: 16236
       kind: 3
       kind_id: 16254
       type: 1
-      name: Megaman V (E) (VC).nes
+      name: Mega Man 5 (Europe) (Virtual Console).nes
       format: 1
       size: 524304
       blob_id: 61920
-      debug: Megaman V (E) (VC).nes
+      debug: |-
+        Megaman V (E) (VC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=00e4531cc58c1e2ecc3ffb45a529b397b1e15778
+  - asset:
+      id: 139562
+      kind: 3
+      kind_id: 16254
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mega%20Man%205%20%28Europe%29%20%28Virtual%20Console%29.png
+      format: 1
+      size: 3280
+      blob_id: 324974
+      debug: libretro-named-titles:rom-asset=16236:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mega%20Man%205%20%28Europe%29%20%28Virtual%20Console%29.png
 - release:
     id: 16255
     game_id: 16063
@@ -129,17 +159,37 @@ releases:
     kind_id: 16256
     language: 1
     name: Megaman V (U) (VC)
+    deprecated: 1
+  - id: 258767
+    kind: 3
+    kind_id: 16256
+    language: 1
+    name: Mega Man 5 (USA) (Virtual Console)
+    source: no-intro
   assets:
   - asset:
       id: 16238
       kind: 3
       kind_id: 16256
       type: 1
-      name: Megaman V (U) (VC).nes
+      name: Mega Man 5 (USA) (Virtual Console).nes
       format: 1
       size: 524304
       blob_id: 61922
-      debug: Megaman V (U) (VC).nes
+      debug: |-
+        Megaman V (U) (VC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=994ad6e63e1628f2bb9786e8495a587233fd9f34
+  - asset:
+      id: 139563
+      kind: 3
+      kind_id: 16256
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mega%20Man%205%20%28USA%29%20%28Virtual%20Console%29.png
+      format: 1
+      size: 3280
+      blob_id: 324974
+      debug: libretro-named-titles:rom-asset=16238:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mega%20Man%205%20%28USA%29%20%28Virtual%20Console%29.png
 - release:
     id: 16258
     game_id: 16063

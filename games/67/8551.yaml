@@ -27,17 +27,37 @@ releases:
     kind_id: 8551
     language: 1
     name: Chip 'n Dale Rescue Rangers 2 (E)
+    deprecated: 1
+  - id: 257893
+    kind: 3
+    kind_id: 8551
+    language: 1
+    name: "Chip 'n Dale - Rescue Rangers 2 (Europe)"
+    source: no-intro
   assets:
   - asset:
       id: 8533
       kind: 3
       kind_id: 8551
       type: 1
-      name: Chip 'n Dale Rescue Rangers 2 (E).nes
+      name: "Chip 'n Dale - Rescue Rangers 2 (Europe).nes"
       format: 1
       size: 262160
       blob_id: 54679
-      debug: Chip 'n Dale Rescue Rangers 2 (E).nes
+      debug: |-
+        Chip 'n Dale Rescue Rangers 2 (E).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=c387d49b371c5bcd1faad1f5b138372347504294
+  - asset:
+      id: 139352
+      kind: 3
+      kind_id: 8551
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Chip%20%27n%20Dale%20-%20Rescue%20Rangers%202%20%28Europe%29.png
+      format: 1
+      size: 3301
+      blob_id: 324795
+      debug: libretro-named-titles:rom-asset=8533:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Chip%20%27n%20Dale%20-%20Rescue%20Rangers%202%20%28Europe%29.png
 - release:
     id: 8552
     game_id: 8551
@@ -47,27 +67,35 @@ releases:
     kind_id: 8552
     language: 1
     name: Chip 'n Dale Rescue Rangers 2 (U) [!]
+    deprecated: 1
   - id: 18174
     kind: 3
     kind_id: 8552
     language: 1
     name: Chip 'n Dale Rescue Rangers 2 (U)
+    deprecated: 1
   - id: 66237
     kind: 3
     kind_id: 8552
     language: 2
     name: "松鼠大作战 - 奇奇与蒂蒂 II (美版) (动作)-Chip n Dale Rescue Rangers 2 (USA)"
+  - id: 257894
+    kind: 3
+    kind_id: 8552
+    language: 1
+    name: "Chip 'n Dale - Rescue Rangers 2 (USA)"
+    source: no-intro
   assets:
   - asset:
       id: 8534
       kind: 3
       kind_id: 8552
       type: 1
-      name: Chip 'n Dale Rescue Rangers 2 (U) [!].nes
+      name: "Chip 'n Dale - Rescue Rangers 2 (USA).nes"
       format: 1
       size: 262160
       blob_id: 54680
-      debug: "Chip 'n Dale Rescue Rangers 2 (U) [!].zip\nChip 'n Dale Rescue Rangers 2 (U).zip\n松鼠大作战 - 奇奇与蒂蒂 II (美版) (动作)-Chip n Dale Rescue Rangers 2 (USA) + Chip 'n Dale Rescue Rangers 2 (U) [!].nes"
+      debug: "Chip 'n Dale Rescue Rangers 2 (U) [!].zip\nChip 'n Dale Rescue Rangers 2 (U).zip\n松鼠大作战 - 奇奇与蒂蒂 II (美版) (动作)-Chip n Dale Rescue Rangers 2 (USA) + Chip 'n Dale Rescue Rangers 2 (U) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=62298489faf7a482af33be307631d7ff5d9003f6"
   - asset:
       id: 136771
       kind: 3

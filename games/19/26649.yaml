@@ -22,13 +22,19 @@ releases:
     kind_id: 12492
     language: 2
     name: 美版
+  - id: 258353
+    kind: 3
+    kind_id: 12492
+    language: 1
+    name: Goonies II, The (USA)
+    source: no-intro
   assets:
   - asset:
       id: 12474
       kind: 3
       kind_id: 12492
       type: 1
-      name: Goonies 2, The (U).nes
+      name: Goonies II, The (USA).nes
       format: 1
       size: 131088
       blob_id: 58388
@@ -37,6 +43,18 @@ releases:
         Goonies II, The (U) [!].zip
         七宝奇谋2.zip
         七宝奇谋2（美版） + Goonies II, The (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=637d894a3704099f8519d1b048219395f14c6bb7
+  - asset:
+      id: 139423
+      kind: 3
+      kind_id: 12492
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Goonies%20II%2C%20The%20%28USA%29.png
+      format: 1
+      size: 1865
+      blob_id: 324857
+      debug: libretro-named-titles:rom-asset=12474:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Goonies%20II%2C%20The%20%28USA%29.png
 - release:
     id: 26648
     game_id: 26649

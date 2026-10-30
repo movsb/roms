@@ -13,6 +13,12 @@ names:
   language: 1
   name: George Foreman's KO Boxing
   source: codex
+- id: 262414
+  kind: 2
+  kind_id: 26803
+  language: 1
+  name: George Foreman's KO Boxing
+  source: no-intro
 releases:
 - release:
     id: 26803
@@ -23,14 +29,33 @@ releases:
     kind_id: 26803
     language: 2
     name: 乔治福尔曼的击倒拳击 (欧版) (运动)-George Foremans KO Boxing (Europe)
+  - id: 259992
+    kind: 3
+    kind_id: 26803
+    language: 1
+    name: George Foreman's KO Boxing (Europe)
+    source: no-intro
   assets:
   - asset:
       id: 26785
       kind: 3
       kind_id: 26803
       type: 1
-      name: 乔治福尔曼的击倒拳击 (欧版) (运动)-George Foremans KO Boxing (Europe).nes
+      name: George Foreman's KO Boxing (Europe).nes
       format: 1
       size: 393232
       blob_id: 71858
-      debug: 乔治福尔曼的击倒拳击 (欧版) (运动)-George Foremans KO Boxing (Europe).nes
+      debug: |-
+        乔治福尔曼的击倒拳击 (欧版) (运动)-George Foremans KO Boxing (Europe).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=21affeb0462b15a8d5a52b7610df69aaa3b16805
+  - asset:
+      id: 139974
+      kind: 3
+      kind_id: 26803
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/George%20Foreman%27s%20KO%20Boxing%20%28Europe%29.png
+      format: 1
+      size: 2513
+      blob_id: 325327
+      debug: libretro-named-titles:rom-asset=26785:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/George%20Foreman%27s%20KO%20Boxing%20%28Europe%29.png

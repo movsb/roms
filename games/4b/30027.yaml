@@ -12,6 +12,13 @@ names:
   kind_id: 30027
   language: 1
   name: "Jin Yong Qun Xia Zhuan - Shu Jian Jiang Shan (NJ031) (Ch)"
+  deprecated: 1
+- id: 263576
+  kind: 2
+  kind_id: 30027
+  language: 1
+  name: "Jinyong Qun Xia Zhuan - Shu Jian Jiangshan"
+  source: no-intro
 releases:
 - release:
     id: 30027
@@ -27,14 +34,32 @@ releases:
     kind_id: 30027
     language: 1
     name: "Jin Yong Qun Xia Zhuan - Shu Jian Jiang Shan (NJ031) (Ch)"
+    deprecated: 1
+  - id: 261267
+    kind: 3
+    kind_id: 30027
+    language: 1
+    name: "Jinyong Qun Xia Zhuan - Shu Jian Jiangshan (China) (Aftermarket) (Unl)"
+    source: no-intro
   assets:
   - asset:
       id: 30009
       kind: 3
       kind_id: 30027
       type: 1
-      name: "金庸群侠传 - 书剑江山[南晶科技] + Jin Yong Qun Xia Zhuan - Shu Jian Jiang Shan (NJ031) (Ch).nes"
+      name: "Jinyong Qun Xia Zhuan - Shu Jian Jiangshan (China) (Aftermarket) (Unl).nes"
       format: 1
       size: 2097168
       blob_id: 73946
-      debug: "金庸群侠传 - 书剑江山[南晶科技] + Jin Yong Qun Xia Zhuan - Shu Jian Jiang Shan (NJ031) (Ch).nes"
+      debug: "金庸群侠传 - 书剑江山[南晶科技] + Jin Yong Qun Xia Zhuan - Shu Jian Jiang Shan (NJ031) (Ch).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=e0991211881b9aea38fe0f6b027f330e13397010"
+  - asset:
+      id: 140237
+      kind: 3
+      kind_id: 30027
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Jinyong%20Qun%20Xia%20Zhuan%20-%20Shu%20Jian%20Jiangshan%20%28China%29%20%28Aftermarket%29%20%28Unl%29.png
+      format: 1
+      size: 6392
+      blob_id: 325554
+      debug: libretro-named-titles:rom-asset=30009:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Jinyong%20Qun%20Xia%20Zhuan%20-%20Shu%20Jian%20Jiangshan%20%28China%29%20%28Aftermarket%29%20%28Unl%29.png

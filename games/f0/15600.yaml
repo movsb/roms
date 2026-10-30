@@ -13,6 +13,12 @@ names:
   language: 2
   name: 麻将伙伴
   source: codex
+- id: 261881
+  kind: 2
+  kind_id: 15600
+  language: 1
+  name: Mahjang Companion
+  source: no-intro
 releases:
 - release:
     id: 15600
@@ -23,19 +29,27 @@ releases:
     kind_id: 15600
     language: 1
     name: Mahjang Companion (Sachen-Hacker) [!]
+    deprecated: 1
+  - id: 258712
+    kind: 3
+    kind_id: 15600
+    language: 1
+    name: Mahjang Companion (Japan) (Hacker) (SA-016 PCB) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 15582
       kind: 3
       kind_id: 15600
       type: 1
-      name: Mahjang Companion (Sachen-Hacker) [!].nes
+      name: Mahjang Companion (Japan) (Hacker) (SA-016 PCB) (Unl).nes
       format: 1
       size: 131088
       blob_id: 61285
       debug: |-
         Mahjang Companion (Sachen-Hacker) [!].nes
         Mahjang Companion (Sachen-Hacker) [!].zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=b4f46fd070902d36984fccc525e7e79fa6b7cfb8
   - asset:
       id: 137084
       kind: 3

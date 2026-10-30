@@ -13,6 +13,12 @@ names:
   language: 1
   name: "Sanxia Wuyi - Yumao Chuanqi"
   source: codex
+- id: 262371
+  kind: 2
+  kind_id: 26672
+  language: 1
+  name: "Sanxia Wuyi - Yumao Chuanqi"
+  source: no-intro
 releases:
 - release:
     id: 26672
@@ -23,14 +29,33 @@ releases:
     kind_id: 26672
     language: 2
     name: 三侠五义
+  - id: 259932
+    kind: 3
+    kind_id: 26672
+    language: 1
+    name: "Sanxia Wuyi - Yumao Chuanqi (China) (980816) (Unl)"
+    source: no-intro
   assets:
   - asset:
       id: 26654
       kind: 3
       kind_id: 26672
       type: 1
-      name: 三侠五义.nes
+      name: "Sanxia Wuyi - Yumao Chuanqi (China) (980816) (Unl).nes"
       format: 1
       size: 1048592
       blob_id: 71769
-      debug: 三侠五义.nes
+      debug: |-
+        三侠五义.nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=fb44a1cc74c062dd928d2d811d58517827e420c3
+  - asset:
+      id: 139955
+      kind: 3
+      kind_id: 26672
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Sanxia%20Wuyi%20-%20Yumao%20Chuanqi%20%28China%29%20%28980816%29%20%28Unl%29.png
+      format: 1
+      size: 3772
+      blob_id: 325114
+      debug: libretro-named-titles:rom-asset=26654:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Sanxia%20Wuyi%20-%20Yumao%20Chuanqi%20%28China%29%20%28980816%29%20%28Unl%29.png

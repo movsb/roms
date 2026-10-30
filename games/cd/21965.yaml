@@ -27,6 +27,7 @@ releases:
     kind_id: 21966
     language: 1
     name: "Star Wars - The Empire Strikes Back (U) [!p]"
+    deprecated: 1
   - id: 65733
     kind: 3
     kind_id: 21966
@@ -37,17 +38,35 @@ releases:
     kind_id: 21966
     language: 1
     name: "Star Wars - The Empire Strikes Back (U) [!]"
+    deprecated: 1
+  - id: 259412
+    kind: 3
+    kind_id: 21966
+    language: 1
+    name: "Star Wars - The Empire Strikes Back (USA)"
+    source: no-intro
   assets:
   - asset:
       id: 21948
       kind: 3
       kind_id: 21966
       type: 1
-      name: "Star Wars - The Empire Strikes Back (U) [!p].nes"
+      name: "Star Wars - The Empire Strikes Back (USA).nes"
       format: 1
       size: 524304
       blob_id: 67320
-      debug: "Star Wars - The Empire Strikes Back (U) [!p].zip\n星际大战 - 帝国大反击 (美版) (动作)-Star Wars - The Empire Strikes Back (USA) + Star Wars - The Empire Strikes Back (U) [!].nes"
+      debug: "Star Wars - The Empire Strikes Back (U) [!p].zip\n星际大战 - 帝国大反击 (美版) (动作)-Star Wars - The Empire Strikes Back (USA) + Star Wars - The Empire Strikes Back (U) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=4cf5d092693e94bbf7afd3e15e05cc580ca33df2"
+  - asset:
+      id: 139771
+      kind: 3
+      kind_id: 21966
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Star%20Wars%20-%20The%20Empire%20Strikes%20Back%20%28USA%29.png
+      format: 1
+      size: 15422
+      blob_id: 324191
+      debug: libretro-named-titles:rom-asset=21948:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Star%20Wars%20-%20The%20Empire%20Strikes%20Back%20%28USA%29.png
 - release:
     id: 21967
     game_id: 21965
@@ -97,17 +116,24 @@ releases:
     kind_id: 21974
     language: 1
     name: "Star Wars - The Empire Strikes Back (U)"
+    deprecated: 1
+  - id: 259413
+    kind: 3
+    kind_id: 21974
+    language: 1
+    name: "Star Wars - The Empire Strikes Back (USA)"
+    source: no-intro
   assets:
   - asset:
       id: 21956
       kind: 3
       kind_id: 21974
       type: 1
-      name: "Star Wars - The Empire Strikes Back (U).nes"
+      name: "Star Wars - The Empire Strikes Back (USA).nes"
       format: 1
       size: 524304
       blob_id: 67328
-      debug: "Star Wars - The Empire Strikes Back (U).zip"
+      debug: "Star Wars - The Empire Strikes Back (U).zip\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=4cf5d092693e94bbf7afd3e15e05cc580ca33df2"
   - asset:
       id: 138704
       kind: 3

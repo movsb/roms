@@ -7,6 +7,7 @@ names:
   kind_id: 16573
   language: 1
   name: Mickey's Adventures in Numberland
+  deprecated: 1
 - id: 68617
   kind: 2
   kind_id: 16573
@@ -17,6 +18,13 @@ names:
   kind_id: 16573
   language: 1
   name: Mickey's Adventures in Numberland (U) [!]
+  deprecated: 1
+- id: 261908
+  kind: 2
+  kind_id: 16573
+  language: 1
+  name: Mickey's Adventure in Numberland
+  source: no-intro
 releases:
 - release:
     id: 16570
@@ -27,6 +35,7 @@ releases:
     kind_id: 16570
     language: 1
     name: Mickey's Adventures in Numberland (U) [!p]
+    deprecated: 1
   - id: 68619
     kind: 3
     kind_id: 16570
@@ -37,19 +46,38 @@ releases:
     kind_id: 16570
     language: 1
     name: Mickey's Adventures in Numberland (U) [!]
+    deprecated: 1
+  - id: 258799
+    kind: 3
+    kind_id: 16570
+    language: 1
+    name: Mickey's Adventure in Numberland (USA)
+    source: no-intro
   assets:
   - asset:
       id: 16552
       kind: 3
       kind_id: 16570
       type: 1
-      name: Mickey's Adventures in Numberland (U) [!p].nes
+      name: Mickey's Adventure in Numberland (USA).nes
       format: 1
       size: 262160
       blob_id: 62214
       debug: |-
         Mickey's Adventures in Numberland (U) [!p].zip
         米老鼠之数字岛大冒险 (美版) (动作)-Mickeys Adventure in Numberland (USA) + Mickey's Adventures in Numberland (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=5c29c234651defea7cbab55897cb1062ca038a01
+  - asset:
+      id: 139576
+      kind: 3
+      kind_id: 16570
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mickey%27s%20Adventure%20in%20Numberland%20%28USA%29.png
+      format: 1
+      size: 3375
+      blob_id: 324985
+      debug: libretro-named-titles:rom-asset=16552:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mickey%27s%20Adventure%20in%20Numberland%20%28USA%29.png
 - release:
     id: 16572
     game_id: 16573
@@ -59,21 +87,41 @@ releases:
     kind_id: 16572
     language: 1
     name: Mickey's Adventures in Numberland (U)
+    deprecated: 1
   - id: 36908
     kind: 3
     kind_id: 16572
     language: 1
     name: Mickey's Adventures in Numberland
+    deprecated: 1
+  - id: 258800
+    kind: 3
+    kind_id: 16572
+    language: 1
+    name: Mickey's Adventure in Numberland (USA)
+    source: no-intro
   assets:
   - asset:
       id: 16554
       kind: 3
       kind_id: 16572
       type: 1
-      name: Mickey's Adventures in Numberland (U).nes
+      name: Mickey's Adventure in Numberland (USA).nes
       format: 1
       size: 262160
       blob_id: 62216
       debug: |-
         Mickey's Adventures in Numberland (U).zip
         Mickey's Adventures in Numberland .zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=5c29c234651defea7cbab55897cb1062ca038a01
+  - asset:
+      id: 139577
+      kind: 3
+      kind_id: 16572
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mickey%27s%20Adventure%20in%20Numberland%20%28USA%29.png
+      format: 1
+      size: 3375
+      blob_id: 324985
+      debug: libretro-named-titles:rom-asset=16554:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mickey%27s%20Adventure%20in%20Numberland%20%28USA%29.png

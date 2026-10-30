@@ -12,6 +12,13 @@ names:
   kind_id: 27577
   language: 1
   name: Daiku no Gen San (J)
+  deprecated: 1
+- id: 262695
+  kind: 2
+  kind_id: 27577
+  language: 1
+  name: Daiku no Gen-san
+  source: no-intro
 releases:
 - release:
     id: 27577
@@ -27,14 +34,34 @@ releases:
     kind_id: 27577
     language: 1
     name: Daiku no Gen San (J)
+    deprecated: 1
+  - id: 260299
+    kind: 3
+    kind_id: 27577
+    language: 1
+    name: Daiku no Gen-san (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 27559
       kind: 3
       kind_id: 27577
       type: 1
-      name: 大力工头 (日版) (动作)-Daiku no Gen San (Japan) + Daiku no Gen San (J).nes
+      name: Daiku no Gen-san (Japan).nes
       format: 1
       size: 262160
       blob_id: 72375
-      debug: 大力工头 (日版) (动作)-Daiku no Gen San (Japan) + Daiku no Gen San (J).nes
+      debug: |-
+        大力工头 (日版) (动作)-Daiku no Gen San (Japan) + Daiku no Gen San (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=354c8aea48273fa69b3a3b525b803991981eaa74
+  - asset:
+      id: 140056
+      kind: 3
+      kind_id: 27577
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Daiku%20no%20Gen-san%20%28Japan%29.png
+      format: 1
+      size: 2781
+      blob_id: 325398
+      debug: libretro-named-titles:rom-asset=27559:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Daiku%20no%20Gen-san%20%28Japan%29.png

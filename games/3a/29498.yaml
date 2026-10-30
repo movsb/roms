@@ -12,6 +12,13 @@ names:
   kind_id: 29498
   language: 1
   name: Gambler Jiko Chuushin Ha 2 (J)
+  deprecated: 1
+- id: 263402
+  kind: 2
+  kind_id: 29498
+  language: 1
+  name: Gambler Jiko Chuushinha 2
+  source: no-intro
 releases:
 - release:
     id: 29498
@@ -27,14 +34,34 @@ releases:
     kind_id: 29498
     language: 1
     name: Gambler Jiko Chuushin Ha 2 (J)
+    deprecated: 1
+  - id: 261082
+    kind: 3
+    kind_id: 29498
+    language: 1
+    name: Gambler Jiko Chuushinha 2 (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 29480
       kind: 3
       kind_id: 29498
       type: 1
-      name: 自我中心派 II (日版) (桌面平台)-Gambler Jiko Chuushin Ha 2 (Japan) + Gambler Jiko Chuushin Ha 2 (J).nes
+      name: Gambler Jiko Chuushinha 2 (Japan).nes
       format: 1
       size: 262160
       blob_id: 73626
-      debug: 自我中心派 II (日版) (桌面平台)-Gambler Jiko Chuushin Ha 2 (Japan) + Gambler Jiko Chuushin Ha 2 (J).nes
+      debug: |-
+        自我中心派 II (日版) (桌面平台)-Gambler Jiko Chuushin Ha 2 (Japan) + Gambler Jiko Chuushin Ha 2 (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=8ef9616555199946c3224125337016fc5cf13e95
+  - asset:
+      id: 140210
+      kind: 3
+      kind_id: 29498
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Gambler%20Jiko%20Chuushinha%202%20%28Japan%29.png
+      format: 1
+      size: 1705
+      blob_id: 325531
+      debug: libretro-named-titles:rom-asset=29480:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Gambler%20Jiko%20Chuushinha%202%20%28Japan%29.png

@@ -28,23 +28,32 @@ releases:
     kind_id: 18573
     language: 1
     name: PIRATES
+    deprecated: 1
   - id: 42140
     kind: 3
     kind_id: 18573
     language: 1
     name: Pirates! (U) [!]
+    deprecated: 1
   - id: 42158
     kind: 3
     kind_id: 18573
     language: 1
     name: Pirates! (U)
+    deprecated: 1
+  - id: 258989
+    kind: 3
+    kind_id: 18573
+    language: 1
+    name: Pirates! (USA)
+    source: no-intro
   assets:
   - asset:
       id: 18555
       kind: 3
       kind_id: 18573
       type: 1
-      name: PIRATES.NES
+      name: Pirates! (USA).nes
       format: 1
       size: 262160
       blob_id: 64127
@@ -53,6 +62,18 @@ releases:
         Pirates! (U) [!].nes
         Pirates! (U) [!].zip
         Pirates! (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=80e3f15acd93c2db6c2d58a45b39b0e22ef6c334
+  - asset:
+      id: 139655
+      kind: 3
+      kind_id: 18573
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Pirates%21%20%28USA%29.png
+      format: 1
+      size: 5230
+      blob_id: 325053
+      debug: libretro-named-titles:rom-asset=18555:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Pirates%21%20%28USA%29.png
 - release:
     id: 18905
     game_id: 18573
@@ -62,17 +83,26 @@ releases:
     kind_id: 18905
     language: 1
     name: Pirates! (E) [!]
+    deprecated: 1
+  - id: 259040
+    kind: 3
+    kind_id: 18905
+    language: 1
+    name: Pirates! (Europe)
+    source: no-intro
   assets:
   - asset:
       id: 18887
       kind: 3
       kind_id: 18905
       type: 1
-      name: Pirates! (E) [!].nes
+      name: Pirates! (Europe).nes
       format: 1
       size: 262160
       blob_id: 64435
-      debug: Pirates! (E) [!].nes
+      debug: |-
+        Pirates! (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=35d219ec3615a63ff810abc981835d0867dcea39
   - asset:
       id: 137190
       kind: 3
@@ -93,17 +123,26 @@ releases:
     kind_id: 18906
     language: 1
     name: Pirates! (G)
+    deprecated: 1
+  - id: 259041
+    kind: 3
+    kind_id: 18906
+    language: 1
+    name: Pirates! (Germany)
+    source: no-intro
   assets:
   - asset:
       id: 18888
       kind: 3
       kind_id: 18906
       type: 1
-      name: Pirates! (G).nes
+      name: Pirates! (Germany).nes
       format: 1
       size: 262160
       blob_id: 64436
-      debug: Pirates! (G).nes
+      debug: |-
+        Pirates! (G).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=cbc32f60e8780e27645fc9de4446ce92f2d5e636
   - asset:
       id: 138619
       kind: 3

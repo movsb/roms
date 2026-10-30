@@ -12,6 +12,7 @@ names:
   kind_id: 17736
   language: 1
   name: Ninja Kid (U) [!]
+  deprecated: 1
 - id: 71695
   kind: 2
   kind_id: 17736
@@ -22,6 +23,12 @@ names:
   kind_id: 17736
   language: 1
   name: Ninja Kid
+- id: 261955
+  kind: 2
+  kind_id: 17736
+  language: 1
+  name: Ninja Kid
+  source: no-intro
 releases:
 - release:
     id: 17736
@@ -32,6 +39,7 @@ releases:
     kind_id: 17736
     language: 1
     name: Ninja Kid (U) [!]
+    deprecated: 1
   - id: 64373
     kind: 3
     kind_id: 17736
@@ -42,13 +50,19 @@ releases:
     kind_id: 17736
     language: 2
     name: 鬼太郎-妖怪大魔境
+  - id: 258953
+    kind: 3
+    kind_id: 17736
+    language: 1
+    name: Ninja Kid (USA)
+    source: no-intro
   assets:
   - asset:
       id: 17718
       kind: 3
       kind_id: 17736
       type: 1
-      name: Ninja Kid (U) [!].nes
+      name: Ninja Kid (USA).nes
       format: 1
       size: 65552
       blob_id: 63305
@@ -56,6 +70,7 @@ releases:
         Ninja Kid (U) [!].zip
         忍者小子 (美版) (动作)-Ninja Kid (USA) + Ninja Kid (U) [!].nes
         鬼太郎-妖怪大魔境.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=4970ab23575cfd29db8f95d4f8fa34169478ca6a
   - asset:
       id: 137161
       kind: 3
@@ -76,17 +91,26 @@ releases:
     kind_id: 17740
     language: 1
     name: Ninja Kid (U)
+    deprecated: 1
+  - id: 258954
+    kind: 3
+    kind_id: 17740
+    language: 1
+    name: Ninja Kid (USA)
+    source: no-intro
   assets:
   - asset:
       id: 17722
       kind: 3
       kind_id: 17740
       type: 1
-      name: Ninja Kid (U).nes
+      name: Ninja Kid (USA).nes
       format: 1
       size: 65552
       blob_id: 63309
-      debug: Ninja Kid (U).zip
+      debug: |-
+        Ninja Kid (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=4970ab23575cfd29db8f95d4f8fa34169478ca6a
   - asset:
       id: 138603
       kind: 3

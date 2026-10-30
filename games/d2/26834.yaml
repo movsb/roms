@@ -12,6 +12,13 @@ names:
   kind_id: 26834
   language: 1
   name: Xian Jie Jing Ling (NJ080) (Ch)
+  deprecated: 1
+- id: 262425
+  kind: 2
+  kind_id: 26834
+  language: 1
+  name: Xianjie Jingling
+  source: no-intro
 releases:
 - release:
     id: 26834
@@ -27,14 +34,34 @@ releases:
     kind_id: 26834
     language: 1
     name: Xian Jie Jing Ling (NJ080) (Ch)
+    deprecated: 1
+  - id: 260003
+    kind: 3
+    kind_id: 26834
+    language: 1
+    name: Xianjie Jingling (China) (Aftermarket) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 26816
       kind: 3
       kind_id: 26834
       type: 1
-      name: 仙界精灵[南晶科技] + Xian Jie Jing Ling (NJ080) (Ch).nes
+      name: Xianjie Jingling (China) (Aftermarket) (Unl).nes
       format: 1
       size: 2097168
       blob_id: 71881
-      debug: 仙界精灵[南晶科技] + Xian Jie Jing Ling (NJ080) (Ch).nes
+      debug: |-
+        仙界精灵[南晶科技] + Xian Jie Jing Ling (NJ080) (Ch).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=61753ba17af2c3be0e156376ce22f52f0834c694
+  - asset:
+      id: 139979
+      kind: 3
+      kind_id: 26834
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Xianjie%20Jingling%20%28China%29%20%28Aftermarket%29%20%28Unl%29.png
+      format: 1
+      size: 7365
+      blob_id: 325332
+      debug: libretro-named-titles:rom-asset=26816:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Xianjie%20Jingling%20%28China%29%20%28Aftermarket%29%20%28Unl%29.png

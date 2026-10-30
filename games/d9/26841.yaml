@@ -13,6 +13,13 @@ names:
   language: 1
   name: "Datach - Yuu Yuu Hakusho - Bakutou Ankoku Bujutsu Kai"
   source: codex
+  deprecated: 1
+- id: 262431
+  kind: 2
+  kind_id: 26841
+  language: 1
+  name: "Yu Yu Hakusho - Bakutou Ankoku Bujutsukai"
+  source: no-intro
 releases:
 - release:
     id: 26841
@@ -23,14 +30,31 @@ releases:
     kind_id: 26841
     language: 2
     name: "任天堂刷卡机 - 幽游白书 (日版) (格斗)-Datach - Yuu Yuu Hakusho - Bakutou Ankoku Bujutsu Kai (Japan)"
+  - id: 260009
+    kind: 3
+    kind_id: 26841
+    language: 1
+    name: "Yu Yu Hakusho - Bakutou Ankoku Bujutsukai (Japan) (Datach)"
+    source: no-intro
   assets:
   - asset:
       id: 26823
       kind: 3
       kind_id: 26841
       type: 1
-      name: "任天堂刷卡机 - 幽游白书 (日版) (格斗)-Datach - Yuu Yuu Hakusho - Bakutou Ankoku Bujutsu Kai (Japan).nes"
+      name: "Yu Yu Hakusho - Bakutou Ankoku Bujutsukai (Japan) (Datach).nes"
       format: 1
       size: 262160
       blob_id: 71887
-      debug: "任天堂刷卡机 - 幽游白书 (日版) (格斗)-Datach - Yuu Yuu Hakusho - Bakutou Ankoku Bujutsu Kai (Japan).nes"
+      debug: "任天堂刷卡机 - 幽游白书 (日版) (格斗)-Datach - Yuu Yuu Hakusho - Bakutou Ankoku Bujutsu Kai (Japan).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=74218aae93e4febfb2284bcf15811453418a2029"
+  - asset:
+      id: 139983
+      kind: 3
+      kind_id: 26841
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Yu%20Yu%20Hakusho%20-%20Bakutou%20Ankoku%20Bujutsukai%20%28Japan%29%20%28Datach%29.png
+      format: 1
+      size: 4020
+      blob_id: 325335
+      debug: libretro-named-titles:rom-asset=26823:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Yu%20Yu%20Hakusho%20-%20Bakutou%20Ankoku%20Bujutsukai%20%28Japan%29%20%28Datach%29.png

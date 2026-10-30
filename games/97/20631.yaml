@@ -7,12 +7,19 @@ names:
   kind_id: 20631
   language: 1
   name: "Saint Saiya - Tian Ma Huan Xiang (NJ022) (Ch) [a1]"
+  deprecated: 1
 - id: 248480
   kind: 2
   kind_id: 20631
   language: 2
   name: 圣斗士星矢：天马幻想
   source: codex
+- id: 262088
+  kind: 2
+  kind_id: 20631
+  language: 1
+  name: "Sheng Doushi Xingshi - Shikong Doushi"
+  source: no-intro
 releases:
 - release:
     id: 20631
@@ -23,14 +30,32 @@ releases:
     kind_id: 20631
     language: 1
     name: "Saint Saiya - Tian Ma Huan Xiang (NJ022) (Ch) [a1]"
+    deprecated: 1
+  - id: 259257
+    kind: 3
+    kind_id: 20631
+    language: 1
+    name: "Sheng Doushi Xingshi - Shikong Doushi (China) (Aftermarket) (Pirate)"
+    source: no-intro
   assets:
   - asset:
       id: 20613
       kind: 3
       kind_id: 20631
       type: 1
-      name: "Saint Saiya - Tian Ma Huan Xiang (NJ022) (Ch) [a1].nes"
+      name: "Sheng Doushi Xingshi - Shikong Doushi (China) (Aftermarket) (Pirate).nes"
       format: 1
       size: 2097168
       blob_id: 66067
-      debug: "Saint Saiya - Tian Ma Huan Xiang (NJ022) (Ch) [a1].nes"
+      debug: "Saint Saiya - Tian Ma Huan Xiang (NJ022) (Ch) [a1].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=903ef7d863099e6d7a6833c5cc1283dda2541a56"
+  - asset:
+      id: 139725
+      kind: 3
+      kind_id: 20631
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Sheng%20Doushi%20Xingshi%20-%20Shikong%20Doushi%20%28China%29%20%28Aftermarket%29%20%28Pirate%29.png
+      format: 1
+      size: 5984
+      blob_id: 325109
+      debug: libretro-named-titles:rom-asset=20613:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Sheng%20Doushi%20Xingshi%20-%20Shikong%20Doushi%20%28China%29%20%28Aftermarket%29%20%28Pirate%29.png

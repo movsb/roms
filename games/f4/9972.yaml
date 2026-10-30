@@ -8,12 +8,19 @@ names:
   kind_id: 9972
   language: 1
   name: Donkey Kong Original Edition (E-VC)
+  deprecated: 1
 - id: 247691
   kind: 2
   kind_id: 9972
   language: 2
   name: 大金刚原版
   source: codex
+- id: 261649
+  kind: 2
+  kind_id: 9972
+  language: 1
+  name: "Donkey Kong - Original Edition"
+  source: no-intro
 releases:
 - release:
     id: 9972
@@ -24,17 +31,26 @@ releases:
     kind_id: 9972
     language: 1
     name: Donkey Kong Original Edition (E-VC)
+    deprecated: 1
+  - id: 258051
+    kind: 3
+    kind_id: 9972
+    language: 1
+    name: "Donkey Kong - Original Edition (Europe) (Wii Virtual Console)"
+    source: no-intro
   assets:
   - asset:
       id: 9954
       kind: 3
       kind_id: 9972
       type: 1
-      name: Donkey Kong Original Edition (E-VC).nes
+      name: "Donkey Kong - Original Edition (Europe) (Wii Virtual Console).nes"
       format: 1
       size: 65552
       blob_id: 56019
-      debug: Donkey Kong Original Edition (E-VC).nes
+      debug: |-
+        Donkey Kong Original Edition (E-VC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=a017a0a0aee71fea7bcfcb5d889e710516ab330c
   - asset:
       id: 138340
       kind: 3

@@ -12,11 +12,18 @@ names:
   kind_id: 11047
   language: 1
   name: F-117A Stealth Fighter (U) [!]
+  deprecated: 1
 - id: 91821
   kind: 2
   kind_id: 11047
   language: 1
   name: F-117A Stealth Fighter
+- id: 261677
+  kind: 2
+  kind_id: 11047
+  language: 1
+  name: F-117A Stealth Fighter
+  source: no-intro
 releases:
 - release:
     id: 11047
@@ -27,22 +34,29 @@ releases:
     kind_id: 11047
     language: 1
     name: F-117A Stealth Fighter (U) [!]
+    deprecated: 1
   - id: 24013
     kind: 3
     kind_id: 11047
     language: 2
     name: "F-117A 隐形战机 (美版) (模拟射击)-F-117A - Stealth Fighter (USA)"
+  - id: 258159
+    kind: 3
+    kind_id: 11047
+    language: 1
+    name: F-117A Stealth Fighter (USA)
+    source: no-intro
   assets:
   - asset:
       id: 11029
       kind: 3
       kind_id: 11047
       type: 1
-      name: F-117A Stealth Fighter (U) [!].nes
+      name: F-117A Stealth Fighter (USA).nes
       format: 1
       size: 524304
       blob_id: 57028
-      debug: "F-117A Stealth Fighter (U) [!].zip\nF-117A 隐形战机 (美版) (模拟射击)-F-117A - Stealth Fighter (USA) + F-117A Stealth Fighter (U) [!].nes"
+      debug: "F-117A Stealth Fighter (U) [!].zip\nF-117A 隐形战机 (美版) (模拟射击)-F-117A - Stealth Fighter (USA) + F-117A Stealth Fighter (U) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=c8909540bc7c1ef643eadc8ab9477f5532e52945"
   - asset:
       id: 136861
       kind: 3

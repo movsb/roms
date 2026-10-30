@@ -107,23 +107,31 @@ releases:
     kind_id: 25629
     language: 1
     name: Volleyball (U)
+    deprecated: 1
   - id: 57298
     kind: 3
     kind_id: 25629
     language: 1
     name: Volleyball (UE) [!]
+    deprecated: 1
   - id: 60341
     kind: 3
     kind_id: 25629
     language: 2
     name: 任天堂排球 (美版,欧版) (运动)-Volleyball (USA, Europe)
+  - id: 259766
+    kind: 3
+    kind_id: 25629
+    language: 1
+    name: Volleyball (USA, Europe)
+    source: no-intro
   assets:
   - asset:
       id: 25611
       kind: 3
       kind_id: 25629
       type: 1
-      name: Volleyball (U).nes
+      name: Volleyball (USA, Europe).nes
       format: 1
       size: 40976
       blob_id: 70813
@@ -131,6 +139,18 @@ releases:
         Volleyball (U).zip
         Volleyball (UE) [!].zip
         任天堂排球 (美版,欧版) (运动)-Volleyball (USA, Europe) + Volleyball (UE) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=bf2e3b079771bc20c48befba9f05bf6504c2d6fe
+  - asset:
+      id: 139882
+      kind: 3
+      kind_id: 25629
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Volleyball%20%28USA%2C%20Europe%29.png
+      format: 1
+      size: 1076
+      blob_id: 325252
+      debug: libretro-named-titles:rom-asset=25611:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Volleyball%20%28USA%2C%20Europe%29.png
 - release:
     id: 25630
     game_id: 25642
@@ -140,17 +160,37 @@ releases:
     kind_id: 25630
     language: 1
     name: Volleyball (UE) (VC)
+    deprecated: 1
+  - id: 259767
+    kind: 3
+    kind_id: 25630
+    language: 1
+    name: Volleyball (USA, Europe) (Virtual Console)
+    source: no-intro
   assets:
   - asset:
       id: 25612
       kind: 3
       kind_id: 25630
       type: 1
-      name: Volleyball (UE) (VC).nes
+      name: Volleyball (USA, Europe) (Virtual Console).nes
       format: 1
       size: 40976
       blob_id: 70814
-      debug: Volleyball (UE) (VC).nes
+      debug: |-
+        Volleyball (UE) (VC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=7d6938f5f880f6ee0584f6d02456ad517931ceb2
+  - asset:
+      id: 139883
+      kind: 3
+      kind_id: 25630
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Volleyball%20%28USA%2C%20Europe%29%20%28Virtual%20Console%29.png
+      format: 1
+      size: 2272
+      blob_id: 325253
+      debug: libretro-named-titles:rom-asset=25612:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Volleyball%20%28USA%2C%20Europe%29%20%28Virtual%20Console%29.png
 - release:
     id: 25632
     game_id: 25642

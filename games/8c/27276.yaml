@@ -13,6 +13,12 @@ names:
   language: 1
   name: Maharaja
   source: codex
+- id: 262601
+  kind: 2
+  kind_id: 27276
+  language: 1
+  name: Maharaja
+  source: no-intro
 releases:
 - release:
     id: 27276
@@ -23,16 +29,34 @@ releases:
     kind_id: 27276
     language: 2
     name: 印度之旅
+  - id: 260189
+    kind: 3
+    kind_id: 27276
+    language: 1
+    name: Maharaja (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 27258
       kind: 3
       kind_id: 27276
       type: 1
-      name: 印度之旅.nes
+      name: Maharaja (Japan).nes
       format: 1
       size: 262160
       blob_id: 72175
       debug: |-
         印度之旅.nes
         重复的/印度大君 (日版) (解谜)-Maharaja (Japan) + Maharaja (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=0aef90cd34800d03e7e49a8d14833c92510cabdf
+  - asset:
+      id: 140032
+      kind: 3
+      kind_id: 27276
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Maharaja%20%28Japan%29.png
+      format: 1
+      size: 1660
+      blob_id: 325377
+      debug: libretro-named-titles:rom-asset=27258:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Maharaja%20%28Japan%29.png

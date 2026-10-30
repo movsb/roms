@@ -12,6 +12,13 @@ names:
   kind_id: 26897
   language: 1
   name: Famicom Yakyuu Han (J)
+  deprecated: 1
+- id: 262460
+  kind: 2
+  kind_id: 26897
+  language: 1
+  name: Famicom Yakyuu Ban
+  source: no-intro
 releases:
 - release:
     id: 26897
@@ -27,14 +34,34 @@ releases:
     kind_id: 26897
     language: 1
     name: Famicom Yakyuu Han (J)
+    deprecated: 1
+  - id: 260038
+    kind: 3
+    kind_id: 26897
+    language: 1
+    name: Famicom Yakyuu Ban (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 26879
       kind: 3
       kind_id: 26897
       type: 1
-      name: 任天堂野球盘 (日版) (运动)-Famicom Yakyuu Ban (Japan) + Famicom Yakyuu Han (J).nes
+      name: Famicom Yakyuu Ban (Japan).nes
       format: 1
       size: 262160
       blob_id: 71925
-      debug: 任天堂野球盘 (日版) (运动)-Famicom Yakyuu Ban (Japan) + Famicom Yakyuu Han (J).nes
+      debug: |-
+        任天堂野球盘 (日版) (运动)-Famicom Yakyuu Ban (Japan) + Famicom Yakyuu Han (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=008aad423dcdecca9fc6b3ba8362556750e10af5
+  - asset:
+      id: 139990
+      kind: 3
+      kind_id: 26897
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Famicom%20Yakyuu%20Ban%20%28Japan%29.png
+      format: 1
+      size: 1584
+      blob_id: 325340
+      debug: libretro-named-titles:rom-asset=26879:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Famicom%20Yakyuu%20Ban%20%28Japan%29.png

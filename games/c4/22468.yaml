@@ -24,19 +24,27 @@ releases:
     kind_id: 22468
     language: 1
     name: Super Donkey Kong 2 (Unl) [!]
+    deprecated: 1
+  - id: 259488
+    kind: 3
+    kind_id: 22468
+    language: 1
+    name: Super Donkey Kong 2 (Taiwan) (En) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 22450
       kind: 3
       kind_id: 22468
       type: 1
-      name: Super Donkey Kong 2 (Unl) [!].nes
+      name: Super Donkey Kong 2 (Taiwan) (En) (Pirate).nes
       format: 1
       size: 262160
       blob_id: 67789
       debug: |-
         Super Donkey Kong 2 (Unl) [!].nes
         Super Donkey Kong 2 (Unl) [!].zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=bb74e4ce67e5da734cdd3113d2e7b8a9f408e356
 - release:
     id: 22470
     game_id: 22468
@@ -66,14 +74,34 @@ releases:
     kind_id: 22473
     language: 1
     name: Super Donkey Kong 2 (Unl) [a2]
+    deprecated: 1
+  - id: 259489
+    kind: 3
+    kind_id: 22473
+    language: 1
+    name: Super Donkey Kong 2 (Asia) (En) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 22455
       kind: 3
       kind_id: 22473
       type: 1
-      name: Super Donkey Kong 2 (Unl) [a2].nes
+      name: Super Donkey Kong 2 (Asia) (En) (Pirate).nes
       format: 1
       size: 393232
       blob_id: 67793
-      debug: Super Donkey Kong 2 (Unl) [a2].nes
+      debug: |-
+        Super Donkey Kong 2 (Unl) [a2].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=c6a8edf0cfb17bfc3b2029b13388ed5d13d202bc
+  - asset:
+      id: 139799
+      kind: 3
+      kind_id: 22473
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Super%20Donkey%20Kong%202%20%28Asia%29%20%28En%29%20%28Pirate%29.png
+      format: 1
+      size: 14230
+      blob_id: 325174
+      debug: libretro-named-titles:rom-asset=22455:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Super%20Donkey%20Kong%202%20%28Asia%29%20%28En%29%20%28Pirate%29.png

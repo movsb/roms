@@ -27,17 +27,37 @@ releases:
     kind_id: 15280
     language: 1
     name: Lode Runner (J) (VC)
+    deprecated: 1
+  - id: 258668
+    kind: 3
+    kind_id: 15280
+    language: 1
+    name: Lode Runner (Japan) (Virtual Console)
+    source: no-intro
   assets:
   - asset:
       id: 15262
       kind: 3
       kind_id: 15280
       type: 1
-      name: Lode Runner (J) (VC).nes
+      name: Lode Runner (Japan) (Virtual Console).nes
       format: 1
       size: 40976
       blob_id: 60988
-      debug: Lode Runner (J) (VC).nes
+      debug: |-
+        Lode Runner (J) (VC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=00696dc790a371cb9591c8d604d40ea1f09e37a9
+  - asset:
+      id: 139527
+      kind: 3
+      kind_id: 15280
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Lode%20Runner%20%28Japan%29%20%28Virtual%20Console%29.png
+      format: 1
+      size: 1743
+      blob_id: 324949
+      debug: libretro-named-titles:rom-asset=15262:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Lode%20Runner%20%28Japan%29%20%28Virtual%20Console%29.png
 - release:
     id: 15281
     game_id: 15280
@@ -107,17 +127,26 @@ releases:
     kind_id: 15291
     language: 1
     name: Lode Runner (J) [p2]
+    deprecated: 1
+  - id: 258669
+    kind: 3
+    kind_id: 15291
+    language: 1
+    name: Lode Runner (Asia) (En) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 15273
       kind: 3
       kind_id: 15291
       type: 1
-      name: Lode Runner (J) [p2].nes
+      name: Lode Runner (Asia) (En) (Pirate).nes
       format: 1
       size: 24592
       blob_id: 60999
-      debug: Lode Runner (J) [p2].nes
+      debug: |-
+        Lode Runner (J) [p2].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=06f51f80046dc3789c1b16cf781213786aa830b6
 - release:
     id: 15292
     game_id: 15280
@@ -167,17 +196,37 @@ releases:
     kind_id: 15294
     language: 1
     name: Lode Runner (U) (VC)
+    deprecated: 1
+  - id: 258670
+    kind: 3
+    kind_id: 15294
+    language: 1
+    name: Lode Runner (USA, Europe) (Virtual Console)
+    source: no-intro
   assets:
   - asset:
       id: 15276
       kind: 3
       kind_id: 15294
       type: 1
-      name: Lode Runner (U) (VC).nes
+      name: Lode Runner (USA, Europe) (Virtual Console).nes
       format: 1
       size: 40976
       blob_id: 61002
-      debug: Lode Runner (U) (VC).nes
+      debug: |-
+        Lode Runner (U) (VC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=d6f0d908bfca191517883b88fbe984fe2e920464
+  - asset:
+      id: 139528
+      kind: 3
+      kind_id: 15294
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Lode%20Runner%20%28USA%2C%20Europe%29%20%28Virtual%20Console%29.png
+      format: 1
+      size: 1743
+      blob_id: 324949
+      debug: libretro-named-titles:rom-asset=15276:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Lode%20Runner%20%28USA%2C%20Europe%29%20%28Virtual%20Console%29.png
 - release:
     id: 15295
     game_id: 15280
@@ -187,23 +236,31 @@ releases:
     kind_id: 15295
     language: 1
     name: Lode Runner (U) [!]
+    deprecated: 1
   - id: 34002
     kind: 3
     kind_id: 15295
     language: 1
     name: Lode Runner (U)
+    deprecated: 1
   - id: 65283
     kind: 3
     kind_id: 15295
     language: 2
     name: 掏金者 (美版) (益智)-Lode Runner (USA)
+  - id: 258671
+    kind: 3
+    kind_id: 15295
+    language: 1
+    name: Lode Runner (USA)
+    source: no-intro
   assets:
   - asset:
       id: 15277
       kind: 3
       kind_id: 15295
       type: 1
-      name: Lode Runner (U) [!].nes
+      name: Lode Runner (USA).nes
       format: 1
       size: 24592
       blob_id: 61003
@@ -211,6 +268,7 @@ releases:
         Lode Runner (U) [!].zip
         Lode Runner (U).zip
         掏金者 (美版) (益智)-Lode Runner (USA) + Lode Runner (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=d456fbffdf41bbba327d16cd1d776a6bdeddb586
   - asset:
       id: 137065
       kind: 3

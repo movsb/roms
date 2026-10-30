@@ -12,11 +12,18 @@ names:
   kind_id: 18768
   language: 1
   name: Peepar Time (J)
+  deprecated: 1
 - id: 92718
   kind: 2
   kind_id: 18768
   language: 1
   name: Peepar Time
+- id: 261977
+  kind: 2
+  kind_id: 18768
+  language: 1
+  name: Peepar Time
+  source: no-intro
 releases:
 - release:
     id: 18769
@@ -38,6 +45,13 @@ releases:
     kind_id: 18769
     language: 1
     name: Peepar Time (J)
+    deprecated: 1
+  - id: 259017
+    kind: 3
+    kind_id: 18769
+    language: 1
+    name: Peepar Time (Japan)
+    source: no-intro
   release_publishers:
   - release_id: 18769
     publisher_id: 128
@@ -54,6 +68,7 @@ releases:
       debug: |-
         Peepar Time (Japan).zip
         休息时间 (日版) (益智)-Peepar Time (Japan) + Peepar Time (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=1e81dad3e13866464240032f281466e1f52d0a46
   - asset:
       id: 138614
       kind: 3

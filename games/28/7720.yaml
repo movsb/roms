@@ -20,6 +20,12 @@ names:
   name: 萨维尔船长
   source: codex
   deprecated: 1
+- id: 261580
+  kind: 2
+  kind_id: 7720
+  language: 1
+  name: Captain Saver
+  source: no-intro
 releases:
 - release:
     id: 7721
@@ -30,17 +36,26 @@ releases:
     kind_id: 7721
     language: 1
     name: Captain Saver (J)
+    deprecated: 1
+  - id: 257848
+    kind: 3
+    kind_id: 7721
+    language: 1
+    name: Captain Saver (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 7703
       kind: 3
       kind_id: 7721
       type: 1
-      name: Captain Saver (J).nes
+      name: Captain Saver (Japan).nes
       format: 1
       size: 262160
       blob_id: 53879
-      debug: Captain Saver (J).nes
+      debug: |-
+        Captain Saver (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=685886553c8858b704d90456f2e8f52003352598
   - asset:
       id: 138251
       kind: 3

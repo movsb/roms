@@ -7,12 +7,19 @@ names:
   kind_id: 14679
   language: 1
   name: Kiwi Kraze (U)
+  deprecated: 1
 - id: 248042
   kind: 2
   kind_id: 14679
   language: 2
   name: 奇异鸟大冒险
   source: codex
+- id: 261832
+  kind: 2
+  kind_id: 14679
+  language: 1
+  name: "Kiwi Kraze - A Bird-Brained Adventure!"
+  source: no-intro
 releases:
 - release:
     id: 14679
@@ -23,14 +30,34 @@ releases:
     kind_id: 14679
     language: 1
     name: Kiwi Kraze (U)
+    deprecated: 1
+  - id: 258586
+    kind: 3
+    kind_id: 14679
+    language: 1
+    name: "Kiwi Kraze - A Bird-Brained Adventure! (USA)"
+    source: no-intro
   assets:
   - asset:
       id: 14661
       kind: 3
       kind_id: 14679
       type: 1
-      name: Kiwi Kraze (U).nes
+      name: "Kiwi Kraze - A Bird-Brained Adventure! (USA).nes"
       format: 1
       size: 262160
       blob_id: 60430
-      debug: Kiwi Kraze (U).zip
+      debug: |-
+        Kiwi Kraze (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=33f5f00d06b5bec13962bbff49dc6395bc19b42e
+  - asset:
+      id: 139500
+      kind: 3
+      kind_id: 14679
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Kiwi%20Kraze%20-%20A%20Bird-Brained%20Adventure%21%20%28USA%29.png
+      format: 1
+      size: 2766
+      blob_id: 324926
+      debug: libretro-named-titles:rom-asset=14661:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Kiwi%20Kraze%20-%20A%20Bird-Brained%20Adventure%21%20%28USA%29.png

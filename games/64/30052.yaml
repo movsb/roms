@@ -12,6 +12,13 @@ names:
   kind_id: 30052
   language: 1
   name: Xevious (J) [!]
+  deprecated: 1
+- id: 263590
+  kind: 2
+  kind_id: 30052
+  language: 1
+  name: Xevious
+  source: no-intro
 releases:
 - release:
     id: 30052
@@ -27,17 +34,26 @@ releases:
     kind_id: 30052
     language: 1
     name: Xevious (J) [!]
+    deprecated: 1
+  - id: 261283
+    kind: 3
+    kind_id: 30052
+    language: 1
+    name: Xevious (Japan) (En)
+    source: no-intro
   assets:
   - asset:
       id: 30034
       kind: 3
       kind_id: 30052
       type: 1
-      name: 铁板阵 + Xevious (J) [!].nes
+      name: Xevious (Japan) (En).nes
       format: 1
       size: 40976
       blob_id: 73963
-      debug: 铁板阵 + Xevious (J) [!].nes
+      debug: |-
+        铁板阵 + Xevious (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=2f7b28d0e6854bfe0825658a4aa5953d06bd0ee0
   - asset:
       id: 138035
       kind: 3

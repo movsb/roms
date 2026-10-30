@@ -12,11 +12,18 @@ names:
   kind_id: 21567
   language: 1
   name: Solitaire (AVE) (REV1.1) [!]
+  deprecated: 1
 - id: 93061
   kind: 2
   kind_id: 21567
   language: 1
   name: Solitaire
+- id: 262137
+  kind: 2
+  kind_id: 21567
+  language: 1
+  name: Solitaire
+  source: no-intro
 releases:
 - release:
     id: 21573
@@ -27,6 +34,7 @@ releases:
     kind_id: 21573
     language: 1
     name: Solitaire (Unl) (REV1.1) [!]
+    deprecated: 1
   - id: 65297
     kind: 3
     kind_id: 21573
@@ -37,16 +45,35 @@ releases:
     kind_id: 21573
     language: 1
     name: Solitaire (AVE) (REV1.1) [!]
+    deprecated: 1
+  - id: 259367
+    kind: 3
+    kind_id: 21573
+    language: 1
+    name: Solitaire (USA) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 21555
       kind: 3
       kind_id: 21573
       type: 1
-      name: Solitaire (Unl) (REV1.1) [!].nes
+      name: Solitaire (USA) (Unl).nes
       format: 1
       size: 65552
       blob_id: 66950
       debug: |-
         Solitaire (Unl) (REV1.1) [!].zip
         接龙 (美版) (桌面平台)-Solitaire (USA) (Unl) + Solitaire (AVE) (REV1.1) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=6126f91d6c34cc35d93f190efa641d3960026456
+  - asset:
+      id: 139760
+      kind: 3
+      kind_id: 21573
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Solitaire%20%28USA%29%20%28Unl%29.png
+      format: 1
+      size: 1386
+      blob_id: 325140
+      debug: libretro-named-titles:rom-asset=21555:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Solitaire%20%28USA%29%20%28Unl%29.png

@@ -37,11 +37,13 @@ releases:
     kind_id: 13609
     language: 1
     name: "Ikari 3 - The Rescue (U)"
+    deprecated: 1
   - id: 29964
     kind: 3
     kind_id: 13609
     language: 1
     name: "Ikari III - The Rescue (U) [!p]"
+    deprecated: 1
   - id: 64701
     kind: 3
     kind_id: 13609
@@ -52,17 +54,35 @@ releases:
     kind_id: 13609
     language: 1
     name: "Ikari III - The Rescue (U) [!]"
+    deprecated: 1
+  - id: 258452
+    kind: 3
+    kind_id: 13609
+    language: 1
+    name: "Ikari III - The Rescue (USA)"
+    source: no-intro
   assets:
   - asset:
       id: 13591
       kind: 3
       kind_id: 13609
       type: 1
-      name: "Ikari 3 - The Rescue (U).nes"
+      name: "Ikari III - The Rescue (USA).nes"
       format: 1
       size: 262160
       blob_id: 59449
-      debug: "Ikari 3 - The Rescue (U).zip\nIkari III - The Rescue (U) [!p].zip\n怒 III (美版) (动作)-Ikari III - The Rescue (USA) + Ikari III - The Rescue (U) [!].nes"
+      debug: "Ikari 3 - The Rescue (U).zip\nIkari III - The Rescue (U) [!p].zip\n怒 III (美版) (动作)-Ikari III - The Rescue (USA) + Ikari III - The Rescue (U) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=5d8b88a2809dae29f94750b71ac3c873af2cd480"
+  - asset:
+      id: 139459
+      kind: 3
+      kind_id: 13609
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Ikari%20III%20-%20The%20Rescue%20%28USA%29.png
+      format: 1
+      size: 2347
+      blob_id: 324890
+      debug: libretro-named-titles:rom-asset=13591:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Ikari%20III%20-%20The%20Rescue%20%28USA%29.png
 - release:
     id: 13623
     game_id: 13609

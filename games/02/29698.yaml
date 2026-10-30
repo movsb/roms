@@ -12,11 +12,18 @@ names:
   kind_id: 29698
   language: 1
   name: Quinty (J) [!]
+  deprecated: 1
 - id: 69787
   kind: 2
   kind_id: 29698
   language: 2
   name: 解谜大作战
+- id: 263469
+  kind: 2
+  kind_id: 29698
+  language: 1
+  name: Quinty
+  source: no-intro
 releases:
 - release:
     id: 29698
@@ -32,24 +39,32 @@ releases:
     kind_id: 29698
     language: 1
     name: Quinty (J) [!]
+    deprecated: 1
   - id: 69788
     kind: 3
     kind_id: 29698
     language: 2
     name: 解谜大作战
+  - id: 261152
+    kind: 3
+    kind_id: 29698
+    language: 1
+    name: Quinty (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 29680
       kind: 3
       kind_id: 29698
       type: 1
-      name: 解谜大作战 (日版) (益智)-Quinty (Japan) + Quinty (J) [!].nes
+      name: Quinty (Japan).nes
       format: 1
       size: 262160
       blob_id: 73741
       debug: |-
         解谜大作战 (日版) (益智)-Quinty (Japan) + Quinty (J) [!].nes
         解谜大作战.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=c7c3bcf30261157e49652cc51dfc50feacd546f9
   - asset:
       id: 137978
       kind: 3

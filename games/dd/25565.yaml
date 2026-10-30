@@ -47,11 +47,13 @@ releases:
     kind_id: 25568
     language: 1
     name: Venice Beach Volleyball (U)
+    deprecated: 1
   - id: 57156
     kind: 3
     kind_id: 25568
     language: 1
     name: Venice Beach Volleyball (Unl) [!p]
+    deprecated: 1
   - id: 63293
     kind: 3
     kind_id: 25568
@@ -62,13 +64,20 @@ releases:
     kind_id: 25568
     language: 1
     name: Venice Beach Volleyball (AVE) [!]
+    deprecated: 1
+  - id: 259757
+    kind: 3
+    kind_id: 25568
+    language: 1
+    name: Venice Beach Volleyball (USA) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 25550
       kind: 3
       kind_id: 25568
       type: 1
-      name: Venice Beach Volleyball (U).nes
+      name: Venice Beach Volleyball (USA) (Unl).nes
       format: 1
       size: 65552
       blob_id: 70759
@@ -76,3 +85,15 @@ releases:
         Venice Beach Volleyball (U).zip
         Venice Beach Volleyball (Unl) [!p].zip
         威尼斯沙滩排球赛 (美版) 运动)-Venice Beach Volleyball (USA) (Unl) + Venice Beach Volleyball (AVE) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=38a8ca06e6a97fa6e5ab2db25b7dcb3c2433971d
+  - asset:
+      id: 139879
+      kind: 3
+      kind_id: 25568
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Venice%20Beach%20Volleyball%20%28USA%29%20%28Unl%29.png
+      format: 1
+      size: 2660
+      blob_id: 325249
+      debug: libretro-named-titles:rom-asset=25550:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Venice%20Beach%20Volleyball%20%28USA%29%20%28Unl%29.png

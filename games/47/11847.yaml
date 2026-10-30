@@ -27,17 +27,26 @@ releases:
     kind_id: 11847
     language: 1
     name: Formation Z (J) (VC)
+    deprecated: 1
+  - id: 258259
+    kind: 3
+    kind_id: 11847
+    language: 1
+    name: Formation Z (Japan) (En) (Rev 1) (Virtual Console)
+    source: no-intro
   assets:
   - asset:
       id: 11829
       kind: 3
       kind_id: 11847
       type: 1
-      name: Formation Z (J) (VC).nes
+      name: Formation Z (Japan) (En) (Rev 1) (Virtual Console).nes
       format: 1
       size: 24592
       blob_id: 57784
-      debug: Formation Z (J) (VC).nes
+      debug: |-
+        Formation Z (J) (VC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=aaf19a33dd50a0a100729e28302d277f77bcd382
   - asset:
       id: 138403
       kind: 3
@@ -79,6 +88,7 @@ releases:
     kind_id: 11853
     language: 1
     name: Formation Z (Japan)
+    deprecated: 1
   - id: 61879
     kind: 3
     kind_id: 11853
@@ -89,6 +99,13 @@ releases:
     kind_id: 11853
     language: 1
     name: Formation Z (J) [a1]
+    deprecated: 1
+  - id: 258260
+    kind: 3
+    kind_id: 11853
+    language: 1
+    name: Formation Z (Japan) (En) (Rev 1)
+    source: no-intro
   release_publishers:
   - release_id: 11853
     publisher_id: 71
@@ -98,13 +115,14 @@ releases:
       kind: 3
       kind_id: 11853
       type: 1
-      name: Formation Z (Japan).nes
+      name: Formation Z (Japan) (En) (Rev 1).nes
       format: 1
       size: 24592
       blob_id: 57790
       debug: |-
         Formation Z (Japan).zip
         变形战机 (日版)(Rev A) (射击)-Formation Z (Japan) (Rev A) + Formation Z (J) [a1].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=932238411c73866b99da4bfe32f4d7ab3f1f8687
   - asset:
       id: 138492
       kind: 3

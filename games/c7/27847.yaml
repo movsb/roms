@@ -12,6 +12,13 @@ names:
   kind_id: 27847
   language: 1
   name: Doraemon (J) (PRG0) [!]
+  deprecated: 1
+- id: 262804
+  kind: 2
+  kind_id: 27847
+  language: 1
+  name: Doraemon
+  source: no-intro
 releases:
 - release:
     id: 27847
@@ -27,17 +34,26 @@ releases:
     kind_id: 27847
     language: 1
     name: Doraemon (J) (PRG0) [!]
+    deprecated: 1
+  - id: 260414
+    kind: 3
+    kind_id: 27847
+    language: 1
+    name: Doraemon (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 27829
       kind: 3
       kind_id: 27847
       type: 1
-      name: 小叮当 (日版) (动作射击)-Doraemon (Japan) + Doraemon (J) (PRG0) [!].nes
+      name: Doraemon (Japan).nes
       format: 1
       size: 163856
       blob_id: 72559
-      debug: 小叮当 (日版) (动作射击)-Doraemon (Japan) + Doraemon (J) (PRG0) [!].nes
+      debug: |-
+        小叮当 (日版) (动作射击)-Doraemon (Japan) + Doraemon (J) (PRG0) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=5e4119e0771bec24a46bad4e874df05521bb953c
   - asset:
       id: 137679
       kind: 3

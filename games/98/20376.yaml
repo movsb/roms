@@ -34,23 +34,31 @@ releases:
     kind_id: 20376
     language: 1
     name: Romance of The Three Kingdoms (U) [!]
+    deprecated: 1
   - id: 45412
     kind: 3
     kind_id: 20376
     language: 1
     name: Romance of the Three Kingdoms (U)
+    deprecated: 1
   - id: 59783
     kind: 3
     kind_id: 20376
     language: 2
     name: 三国志 (美版) (策略)-Romance of the Three Kingdoms (USA)
+  - id: 259215
+    kind: 3
+    kind_id: 20376
+    language: 1
+    name: Romance of the Three Kingdoms (USA)
+    source: no-intro
   assets:
   - asset:
       id: 20358
       kind: 3
       kind_id: 20376
       type: 1
-      name: Romance of The Three Kingdoms (U) [!].nes
+      name: Romance of the Three Kingdoms (USA).nes
       format: 1
       size: 262160
       blob_id: 65823
@@ -58,6 +66,7 @@ releases:
         Romance of The Three Kingdoms (U) [!].zip
         Romance of the Three Kingdoms (U).zip
         三国志 (美版) (策略)-Romance of the Three Kingdoms (USA) + Romance of The Three Kingdoms (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=8c98f1008eba860f6e1ce396f4c8f93899762fcb
   - asset:
       id: 137264
       kind: 3
@@ -103,17 +112,26 @@ releases:
     kind_id: 26683
     language: 1
     name: Sangokushi (J)
+    deprecated: 1
+  - id: 259934
+    kind: 3
+    kind_id: 26683
+    language: 1
+    name: Sangokushi (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 26665
       kind: 3
       kind_id: 26683
       type: 1
-      name: 三国志 (日版) (策略)-Sangokushi (Japan) + Sangokushi (J).nes
+      name: Sangokushi (Japan).nes
       format: 1
       size: 262160
       blob_id: 71776
-      debug: 三国志 (日版) (策略)-Sangokushi (Japan) + Sangokushi (J).nes
+      debug: |-
+        三国志 (日版) (策略)-Sangokushi (Japan) + Sangokushi (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=f987c9c26efa260da38d38e2130df7547bb7c557
   - asset:
       id: 138777
       kind: 3
@@ -139,14 +157,34 @@ releases:
     kind_id: 26684
     language: 1
     name: Sangokushi (J) (REV1)
+    deprecated: 1
+  - id: 259935
+    kind: 3
+    kind_id: 26684
+    language: 1
+    name: Sangokushi (Japan) (Rev 1)
+    source: no-intro
   assets:
   - asset:
       id: 26666
       kind: 3
       kind_id: 26684
       type: 1
-      name: 三国志 (日版)(Rev A) (策略)-Sangokushi (Japan) (Rev A) + Sangokushi (J) (REV1).nes
+      name: Sangokushi (Japan) (Rev 1).nes
       format: 1
       size: 262160
       blob_id: 71777
-      debug: 三国志 (日版)(Rev A) (策略)-Sangokushi (Japan) (Rev A) + Sangokushi (J) (REV1).nes
+      debug: |-
+        三国志 (日版)(Rev A) (策略)-Sangokushi (Japan) (Rev A) + Sangokushi (J) (REV1).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=89ffdfee0ebae0f3e31ad55e9621cbebb16b8829
+  - asset:
+      id: 139956
+      kind: 3
+      kind_id: 26684
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Sangokushi%20%28Japan%29%20%28Rev%201%29.png
+      format: 1
+      size: 1047
+      blob_id: 325313
+      debug: libretro-named-titles:rom-asset=26666:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Sangokushi%20%28Japan%29%20%28Rev%201%29.png

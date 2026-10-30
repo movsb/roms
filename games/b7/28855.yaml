@@ -12,6 +12,13 @@ names:
   kind_id: 28855
   language: 1
   name: Sea of Dreamland (Unl) [!]
+  deprecated: 1
+- id: 263181
+  kind: 2
+  kind_id: 28855
+  language: 1
+  name: Sea of Dreamland
+  source: no-intro
 releases:
 - release:
     id: 28855
@@ -27,14 +34,34 @@ releases:
     kind_id: 28855
     language: 1
     name: Sea of Dreamland (Unl) [!]
+    deprecated: 1
+  - id: 260829
+    kind: 3
+    kind_id: 28855
+    language: 1
+    name: Sea of Dreamland (Europe, Asia) (En) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 28837
       kind: 3
       kind_id: 28855
       type: 1
-      name: 海洋梦幻岛 (亚洲版) (射击)-Sea of Dreamland (Unknown) (Unl) + Sea of Dreamland (Unl) [!].nes
+      name: Sea of Dreamland (Europe, Asia) (En) (Unl).nes
       format: 1
       size: 65552
       blob_id: 73219
-      debug: 海洋梦幻岛 (亚洲版) (射击)-Sea of Dreamland (Unknown) (Unl) + Sea of Dreamland (Unl) [!].nes
+      debug: |-
+        海洋梦幻岛 (亚洲版) (射击)-Sea of Dreamland (Unknown) (Unl) + Sea of Dreamland (Unl) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=09d2f5a6f4c129fb9f7fb3dc427d85f46402c52f
+  - asset:
+      id: 140159
+      kind: 3
+      kind_id: 28855
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Sea%20of%20Dreamland%20%28Europe%2C%20Asia%29%20%28En%29%20%28Unl%29.png
+      format: 1
+      size: 5577
+      blob_id: 325486
+      debug: libretro-named-titles:rom-asset=28837:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Sea%20of%20Dreamland%20%28Europe%2C%20Asia%29%20%28En%29%20%28Unl%29.png

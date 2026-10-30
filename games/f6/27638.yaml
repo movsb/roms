@@ -13,6 +13,13 @@ names:
   kind_id: 27638
   language: 1
   name: Donkey Kong (J) (PRG0) [!]
+  deprecated: 1
+- id: 262721
+  kind: 2
+  kind_id: 27638
+  language: 1
+  name: Donkey Kong
+  source: no-intro
 releases:
 - release:
     id: 27638
@@ -28,17 +35,26 @@ releases:
     kind_id: 27638
     language: 1
     name: Donkey Kong (J) (PRG0) [!]
+    deprecated: 1
+  - id: 260325
+    kind: 3
+    kind_id: 27638
+    language: 1
+    name: Donkey Kong (Japan) (En)
+    source: no-intro
   assets:
   - asset:
       id: 27620
       kind: 3
       kind_id: 27638
       type: 1
-      name: 大金刚 (日版) (动作)-Donkey Kong (Japan) + Donkey Kong (J) (PRG0) [!].nes
+      name: Donkey Kong (Japan) (En).nes
       format: 1
       size: 24592
       blob_id: 72415
-      debug: 大金刚 (日版) (动作)-Donkey Kong (Japan) + Donkey Kong (J) (PRG0) [!].nes
+      debug: |-
+        大金刚 (日版) (动作)-Donkey Kong (Japan) + Donkey Kong (J) (PRG0) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=b134d199b7527a81f24da54f7478ba17d1632251
   - asset:
       id: 137645
       kind: 3

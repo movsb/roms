@@ -23,17 +23,36 @@ releases:
     kind_id: 26762
     language: 2
     name: 东方的传说
+  - id: 259972
+    kind: 3
+    kind_id: 26762
+    language: 1
+    name: "Dongfang de Chuanshuo - The Hyrule Fantasy (China) (Pirate)"
+    source: no-intro
   assets:
   - asset:
       id: 26744
       kind: 3
       kind_id: 26762
       type: 1
-      name: 东方的传说.nes
+      name: "Dongfang de Chuanshuo - The Hyrule Fantasy (China) (Pirate).nes"
       format: 1
       size: 131088
       blob_id: 71829
-      debug: 东方的传说.nes
+      debug: |-
+        东方的传说.nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=f1d4b6f60ea92d86d6f15944148dff0d1dd60c07
+  - asset:
+      id: 139968
+      kind: 3
+      kind_id: 26762
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Dongfang%20de%20Chuanshuo%20-%20The%20Hyrule%20Fantasy%20%28China%29%20%28Pirate%29.png
+      format: 1
+      size: 5709
+      blob_id: 325323
+      debug: libretro-named-titles:rom-asset=26744:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Dongfang%20de%20Chuanshuo%20-%20The%20Hyrule%20Fantasy%20%28China%29%20%28Pirate%29.png
 - release:
     id: 26763
     game_id: 26762
@@ -73,14 +92,32 @@ releases:
     kind_id: 26764
     language: 1
     name: "Dong Fang de Chuan Shuo - The Hyrule Fantasy (Ch)"
+    deprecated: 1
+  - id: 259973
+    kind: 3
+    kind_id: 26764
+    language: 1
+    name: "Dongfang de Chuanshuo - The Hyrule Fantasy (China) (Pirate)"
+    source: no-intro
   assets:
   - asset:
       id: 26746
       kind: 3
       kind_id: 26764
       type: 1
-      name: "东方的传说[外星科技汉化] + Dong Fang de Chuan Shuo - The Hyrule Fantasy (Ch).nes"
+      name: "Dongfang de Chuanshuo - The Hyrule Fantasy (China) (Pirate).nes"
       format: 1
       size: 131088
       blob_id: 71831
-      debug: "东方的传说[外星科技汉化] + Dong Fang de Chuan Shuo - The Hyrule Fantasy (Ch).nes"
+      debug: "东方的传说[外星科技汉化] + Dong Fang de Chuan Shuo - The Hyrule Fantasy (Ch).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=f1d4b6f60ea92d86d6f15944148dff0d1dd60c07"
+  - asset:
+      id: 139969
+      kind: 3
+      kind_id: 26764
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Dongfang%20de%20Chuanshuo%20-%20The%20Hyrule%20Fantasy%20%28China%29%20%28Pirate%29.png
+      format: 1
+      size: 5709
+      blob_id: 325323
+      debug: libretro-named-titles:rom-asset=26746:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Dongfang%20de%20Chuanshuo%20-%20The%20Hyrule%20Fantasy%20%28China%29%20%28Pirate%29.png

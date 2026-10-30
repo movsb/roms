@@ -43,14 +43,34 @@ releases:
     kind_id: 26498
     language: 1
     name: Zheng Ba Shi Ji (Ch) (Wxn)
+    deprecated: 1
+  - id: 259882
+    kind: 3
+    kind_id: 26498
+    language: 1
+    name: Zhengba Shiji (China) (960268) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 26480
       kind: 3
       kind_id: 26498
       type: 1
-      name: Zheng Ba Shi Ji (Ch) (Wxn).nes
+      name: Zhengba Shiji (China) (960268) (Pirate).nes
       format: 1
       size: 524304
       blob_id: 71625
-      debug: Zheng Ba Shi Ji (Ch) (Wxn).nes
+      debug: |-
+        Zheng Ba Shi Ji (Ch) (Wxn).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=d175bb06ed25a506c3e892588d3b56798baeb775
+  - asset:
+      id: 139923
+      kind: 3
+      kind_id: 26498
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Zhengba%20Shiji%20%28China%29%20%28960268%29%20%28Pirate%29.png
+      format: 1
+      size: 5992
+      blob_id: 325287
+      debug: libretro-named-titles:rom-asset=26480:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Zhengba%20Shiji%20%28China%29%20%28960268%29%20%28Pirate%29.png

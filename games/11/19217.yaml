@@ -7,12 +7,19 @@ names:
   kind_id: 19217
   language: 1
   name: PowerJoy 84-in-1 Split Game 78-Twin Bee [p1]
+  deprecated: 1
 - id: 249389
   kind: 2
   kind_id: 19217
   language: 2
   name: PowerJoy 84合1：兵蜂
   source: codex
+- id: 262010
+  kind: 2
+  kind_id: 19217
+  language: 1
+  name: TwinBee
+  source: no-intro
 releases:
 - release:
     id: 19217
@@ -23,14 +30,23 @@ releases:
     kind_id: 19217
     language: 1
     name: PowerJoy 84-in-1 Split Game 78-Twin Bee [p1]
+    deprecated: 1
+  - id: 259085
+    kind: 3
+    kind_id: 19217
+    language: 1
+    name: TwinBee (Asia) (En) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 19199
       kind: 3
       kind_id: 19217
       type: 1
-      name: PowerJoy 84-in-1 Split Game 78-Twin Bee [p1].nes
+      name: TwinBee (Asia) (En) (Pirate).nes
       format: 1
       size: 40976
       blob_id: 64725
-      debug: PowerJoy 84-in-1 Split Game 78-Twin Bee [p1].nes
+      debug: |-
+        PowerJoy 84-in-1 Split Game 78-Twin Bee [p1].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=dd9c20d652e3a2854046a569deb428806a4c00db

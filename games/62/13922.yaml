@@ -7,6 +7,7 @@ names:
   kind_id: 13922
   language: 1
   name: JamesBondJr
+  deprecated: 1
 - id: 63819
   kind: 2
   kind_id: 13922
@@ -17,6 +18,7 @@ names:
   kind_id: 13922
   language: 1
   name: James Bond Jr (U) [!]
+  deprecated: 1
 - id: 69789
   kind: 2
   kind_id: 13922
@@ -27,6 +29,12 @@ names:
   kind_id: 13922
   language: 1
   name: James Bond Jr
+- id: 261806
+  kind: 2
+  kind_id: 13922
+  language: 1
+  name: James Bond Jr
+  source: no-intro
 releases:
 - release:
     id: 13922
@@ -37,28 +45,37 @@ releases:
     kind_id: 13922
     language: 1
     name: James Bond Jr (U) [!]
+    deprecated: 1
   - id: 30694
     kind: 3
     kind_id: 13922
     language: 1
     name: James Bond Jr (U)
+    deprecated: 1
   - id: 30696
     kind: 3
     kind_id: 13922
     language: 1
     name: JamesBondJr
+    deprecated: 1
   - id: 63821
     kind: 3
     kind_id: 13922
     language: 2
     name: 少年詹姆斯庞德 (美版) (动作)-James Bond Jr (USA)
+  - id: 258495
+    kind: 3
+    kind_id: 13922
+    language: 1
+    name: James Bond Jr (USA)
+    source: no-intro
   assets:
   - asset:
       id: 13904
       kind: 3
       kind_id: 13922
       type: 1
-      name: James Bond Jr (U) [!].nes
+      name: James Bond Jr (USA).nes
       format: 1
       size: 262160
       blob_id: 59736
@@ -67,6 +84,7 @@ releases:
         James Bond Jr (U).zip
         JamesBondJr.zip
         少年詹姆斯庞德 (美版) (动作)-James Bond Jr (USA) + James Bond Jr (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=a72746a57607b6ae6f5d613ae1218ab1c0de9d54
   - asset:
       id: 136991
       kind: 3
@@ -87,14 +105,23 @@ releases:
     kind_id: 13925
     language: 1
     name: James Bond Jr (U) [p1][!]
+    deprecated: 1
+  - id: 258496
+    kind: 3
+    kind_id: 13925
+    language: 1
+    name: James Bond Jr (Asia) (En) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 13907
       kind: 3
       kind_id: 13925
       type: 1
-      name: James Bond Jr (U) [p1][!].nes
+      name: James Bond Jr (Asia) (En) (Pirate).nes
       format: 1
       size: 262160
       blob_id: 59739
-      debug: James Bond Jr (U) [p1][!].nes
+      debug: |-
+        James Bond Jr (U) [p1][!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=970ec4dc2237cd90cca81e59dcbbc1ed10970758

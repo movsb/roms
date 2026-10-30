@@ -28,17 +28,37 @@ releases:
     kind_id: 15034
     language: 1
     name: Legend of Zelda, The (E) (VC)
+    deprecated: 1
+  - id: 258629
+    kind: 3
+    kind_id: 15034
+    language: 1
+    name: Legend of Zelda, The (Europe) (Rev 1) (Virtual Console)
+    source: no-intro
   assets:
   - asset:
       id: 15016
       kind: 3
       kind_id: 15034
       type: 1
-      name: Legend of Zelda, The (E) (VC).nes
+      name: Legend of Zelda, The (Europe) (Rev 1) (Virtual Console).nes
       format: 1
       size: 131088
       blob_id: 60759
-      debug: Legend of Zelda, The (E) (VC).nes
+      debug: |-
+        Legend of Zelda, The (E) (VC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=903cb43e70762f0f05e6c40aa8faff31de20590d
+  - asset:
+      id: 139514
+      kind: 3
+      kind_id: 15034
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Legend%20of%20Zelda%2C%20The%20%28Europe%29%20%28Rev%201%29%20%28Virtual%20Console%29.png
+      format: 1
+      size: 5070
+      blob_id: 324938
+      debug: libretro-named-titles:rom-asset=15016:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Legend%20of%20Zelda%2C%20The%20%28Europe%29%20%28Rev%201%29%20%28Virtual%20Console%29.png
 - release:
     id: 15035
     game_id: 15034
@@ -48,17 +68,26 @@ releases:
     kind_id: 15035
     language: 1
     name: Legend of Zelda, The (GC) [a1]
+    deprecated: 1
+  - id: 258630
+    kind: 3
+    kind_id: 15035
+    language: 1
+    name: Legend of Zelda, The (USA) (Rev 1) (Animal Crossing)
+    source: no-intro
   assets:
   - asset:
       id: 15017
       kind: 3
       kind_id: 15035
       type: 1
-      name: Legend of Zelda, The (GC) [a1].nes
+      name: Legend of Zelda, The (USA) (Rev 1) (Animal Crossing).nes
       format: 1
       size: 131088
       blob_id: 60760
-      debug: Legend of Zelda, The (GC) [a1].nes
+      debug: |-
+        Legend of Zelda, The (GC) [a1].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=bb1be04d91135fe68e39c6d2e05ea6e888db0d85
 - release:
     id: 15036
     game_id: 15034
@@ -68,17 +97,26 @@ releases:
     kind_id: 15036
     language: 1
     name: Legend of Zelda, The (GC)
+    deprecated: 1
+  - id: 258631
+    kind: 3
+    kind_id: 15036
+    language: 1
+    name: Legend of Zelda, The (USA) (Zelda Collection)
+    source: no-intro
   assets:
   - asset:
       id: 15018
       kind: 3
       kind_id: 15036
       type: 1
-      name: Legend of Zelda, The (GC).nes
+      name: Legend of Zelda, The (USA) (Zelda Collection).nes
       format: 1
       size: 131088
       blob_id: 60761
-      debug: Legend of Zelda, The (GC).nes
+      debug: |-
+        Legend of Zelda, The (GC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=2ff3122a9d499920bdeeac9f3033fbd74ff5d94a
 - release:
     id: 15037
     game_id: 15034
@@ -88,17 +126,37 @@ releases:
     kind_id: 15037
     language: 1
     name: Legend of Zelda, The (U) (PRG 0)
+    deprecated: 1
+  - id: 258632
+    kind: 3
+    kind_id: 15037
+    language: 1
+    name: Legend of Zelda, The (USA)
+    source: no-intro
   assets:
   - asset:
       id: 15019
       kind: 3
       kind_id: 15037
       type: 1
-      name: Legend of Zelda, The (U) (PRG 0).nes
+      name: Legend of Zelda, The (USA).nes
       format: 1
       size: 131088
       blob_id: 60762
-      debug: Legend of Zelda, The (U) (PRG 0).zip
+      debug: |-
+        Legend of Zelda, The (U) (PRG 0).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=a12d74c73a0481599a5d832361d168f4737bbcf6
+  - asset:
+      id: 139515
+      kind: 3
+      kind_id: 15037
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Legend%20of%20Zelda%2C%20The%20%28USA%29.png
+      format: 1
+      size: 5130
+      blob_id: 324939
+      debug: libretro-named-titles:rom-asset=15019:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Legend%20of%20Zelda%2C%20The%20%28USA%29.png
 - release:
     id: 15038
     game_id: 15034
@@ -628,22 +686,29 @@ releases:
     kind_id: 15071
     language: 1
     name: Legend of Zelda, The (U) (PRG1) [!]
+    deprecated: 1
   - id: 69391
     kind: 3
     kind_id: 15071
     language: 2
     name: "萨尔达传说 - 幻想大陆海拉尔 (美版)(Rev A) (动作角色扮演)-Legend of Zelda, The (USA) (Rev A)"
+  - id: 258633
+    kind: 3
+    kind_id: 15071
+    language: 1
+    name: Legend of Zelda, The (USA) (Rev 1)
+    source: no-intro
   assets:
   - asset:
       id: 15053
       kind: 3
       kind_id: 15071
       type: 1
-      name: Legend of Zelda, The (U) (PRG1) [!].nes
+      name: Legend of Zelda, The (USA) (Rev 1).nes
       format: 1
       size: 131088
       blob_id: 60796
-      debug: "Legend of Zelda, The (U) (PRG1) [!].zip\n萨尔达传说 - 幻想大陆海拉尔 (美版)(Rev A) (动作角色扮演)-Legend of Zelda, The (USA) (Rev A) + Legend of Zelda, The (U) (PRG1) [!].nes"
+      debug: "Legend of Zelda, The (U) (PRG1) [!].zip\n萨尔达传说 - 幻想大陆海拉尔 (美版)(Rev A) (动作角色扮演)-Legend of Zelda, The (USA) (Rev A) + Legend of Zelda, The (U) (PRG1) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=be2f5dc8c5ba8ec1a344a71f9fb204750af24fe7"
   - asset:
       id: 137050
       kind: 3
@@ -784,14 +849,34 @@ releases:
     kind_id: 15082
     language: 1
     name: Legend of Zelda, The (U) (VC)
+    deprecated: 1
+  - id: 258634
+    kind: 3
+    kind_id: 15082
+    language: 1
+    name: Legend of Zelda, The (USA) (Rev 1) (Virtual Console)
+    source: no-intro
   assets:
   - asset:
       id: 15064
       kind: 3
       kind_id: 15082
       type: 1
-      name: Legend of Zelda, The (U) (VC).nes
+      name: Legend of Zelda, The (USA) (Rev 1) (Virtual Console).nes
       format: 1
       size: 131088
       blob_id: 60807
-      debug: Legend of Zelda, The (U) (VC).nes
+      debug: |-
+        Legend of Zelda, The (U) (VC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=e0dde0e97e0cdfb6f7ae187e1c6e7c20f23e3cea
+  - asset:
+      id: 139516
+      kind: 3
+      kind_id: 15082
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Legend%20of%20Zelda%2C%20The%20%28USA%29%20%28Rev%201%29%20%28Virtual%20Console%29.png
+      format: 1
+      size: 5070
+      blob_id: 324938
+      debug: libretro-named-titles:rom-asset=15064:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Legend%20of%20Zelda%2C%20The%20%28USA%29%20%28Rev%201%29%20%28Virtual%20Console%29.png

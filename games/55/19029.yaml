@@ -203,6 +203,7 @@ releases:
     kind_id: 19042
     language: 1
     name: Pooyan (Japan)
+    deprecated: 1
   - id: 59761
     kind: 3
     kind_id: 19042
@@ -213,6 +214,13 @@ releases:
     kind_id: 19042
     language: 1
     name: Pooyan (J)
+    deprecated: 1
+  - id: 259069
+    kind: 3
+    kind_id: 19042
+    language: 1
+    name: Pooyan (Japan) (En)
+    source: no-intro
   release_publishers:
   - release_id: 19042
     publisher_id: 2
@@ -222,13 +230,14 @@ releases:
       kind: 3
       kind_id: 19042
       type: 1
-      name: Pooyan (Japan).nes
+      name: Pooyan (Japan) (En).nes
       format: 1
       size: 24592
       blob_id: 64560
       debug: |-
         Pooyan (Japan).zip
         三只小猪 + Pooyan (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=1e4125a17d4858df6dc0b2dc6266372fc8e6f6ef
   - asset:
       id: 138621
       kind: 3

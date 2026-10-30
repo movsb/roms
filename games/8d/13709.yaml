@@ -7,11 +7,18 @@ names:
   kind_id: 13709
   language: 1
   name: Impossible Mission 2 (U)
+  deprecated: 1
 - id: 59923
   kind: 2
   kind_id: 13709
   language: 2
   name: 不可能完成的任务2
+- id: 261792
+  kind: 2
+  kind_id: 13709
+  language: 1
+  name: Impossible Mission II
+  source: no-intro
 releases:
 - release:
     id: 13709
@@ -22,21 +29,29 @@ releases:
     kind_id: 13709
     language: 1
     name: Impossible Mission 2 (U)
+    deprecated: 1
   - id: 59924
     kind: 3
     kind_id: 13709
     language: 2
     name: 不可能完成的任务2
+  - id: 258462
+    kind: 3
+    kind_id: 13709
+    language: 1
+    name: Impossible Mission II (USA, Australia) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 13691
       kind: 3
       kind_id: 13709
       type: 1
-      name: Impossible Mission 2 (U).nes
+      name: Impossible Mission II (USA, Australia) (Unl).nes
       format: 1
       size: 131088
       blob_id: 59543
       debug: |-
         Impossible Mission 2 (U).zip
         不可能完成的任务2.nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=68315afb344108cb0d43e119ba0353d5a44bd489

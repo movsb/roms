@@ -990,19 +990,26 @@ releases:
     kind_id: 22986
     language: 2
     name: 欧版
+  - id: 259514
+    kind: 3
+    kind_id: 22986
+    language: 1
+    name: Super Mario Bros. 2 (Europe)
+    source: no-intro
   assets:
   - asset:
       id: 22968
       kind: 3
       kind_id: 22986
       type: 1
-      name: Super Mario Bros. 2 (E) [!].nes
+      name: Super Mario Bros. 2 (Europe).nes
       format: 1
       size: 262160
       blob_id: 68298
       debug: |-
         Super Mario Bros. 2 (E) [!].nes
         mario2.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=c10575dbb211a5ab5321573d884041fe35bd15e3
   - asset:
       id: 137360
       kind: 3
@@ -1068,17 +1075,37 @@ releases:
     kind_id: 22990
     language: 1
     name: Super Mario Bros. 2 (J) (LF36) [p1]
+    deprecated: 1
+  - id: 259515
+    kind: 3
+    kind_id: 22990
+    language: 1
+    name: Super Mario Bros. 2 (Asia) (En) (YS-612 PCB) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 22972
       kind: 3
       kind_id: 22990
       type: 1
-      name: Super Mario Bros. 2 (J) (LF36) [p1].nes
+      name: Super Mario Bros. 2 (Asia) (En) (YS-612 PCB) (Pirate).nes
       format: 1
       size: 90128
       blob_id: 68302
-      debug: Super Mario Bros. 2 (J) (LF36) [p1].nes
+      debug: |-
+        Super Mario Bros. 2 (J) (LF36) [p1].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=60916e985d317b4f15d56ed328bfa43720b18ed4
+  - asset:
+      id: 139813
+      kind: 3
+      kind_id: 22990
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Super%20Mario%20Bros.%202%20%28Asia%29%20%28En%29%20%28YS-612%20PCB%29%20%28Pirate%29.png
+      format: 1
+      size: 5779
+      blob_id: 325187
+      debug: libretro-named-titles:rom-asset=22972:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Super%20Mario%20Bros.%202%20%28Asia%29%20%28En%29%20%28YS-612%20PCB%29%20%28Pirate%29.png
 - release:
     id: 22991
     game_id: 22985
@@ -1796,17 +1823,37 @@ releases:
     kind_id: 23049
     language: 1
     name: Super Mario Bros. 2 (U) (VC)
+    deprecated: 1
+  - id: 259516
+    kind: 3
+    kind_id: 23049
+    language: 1
+    name: Super Mario Bros. 2 (USA) (Rev 1) (Virtual Console)
+    source: no-intro
   assets:
   - asset:
       id: 23031
       kind: 3
       kind_id: 23049
       type: 1
-      name: Super Mario Bros. 2 (U) (VC).nes
+      name: Super Mario Bros. 2 (USA) (Rev 1) (Virtual Console).nes
       format: 1
       size: 262160
       blob_id: 68360
-      debug: Super Mario Bros. 2 (U) (VC).nes
+      debug: |-
+        Super Mario Bros. 2 (U) (VC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=af6fed40da68972b49ffbab1717d009d1c106694
+  - asset:
+      id: 139814
+      kind: 3
+      kind_id: 23049
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Super%20Mario%20Bros.%202%20%28USA%29%20%28Rev%201%29%20%28Virtual%20Console%29.png
+      format: 1
+      size: 2382
+      blob_id: 325188
+      debug: libretro-named-titles:rom-asset=23031:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Super%20Mario%20Bros.%202%20%28USA%29%20%28Rev%201%29%20%28Virtual%20Console%29.png
 - release:
     id: 23131
     game_id: 22985
@@ -1817,17 +1864,26 @@ releases:
     kind_id: 23131
     language: 1
     name: Super Mario Bros. USA (J) (VC)
+    deprecated: 1
+  - id: 259525
+    kind: 3
+    kind_id: 23131
+    language: 1
+    name: Super Mario USA (Japan) (En) (Virtual Console)
+    source: no-intro
   assets:
   - asset:
       id: 23113
       kind: 3
       kind_id: 23131
       type: 1
-      name: Super Mario Bros. USA (J) (VC).nes
+      name: Super Mario USA (Japan) (En) (Virtual Console).nes
       format: 1
       size: 262160
       blob_id: 68439
-      debug: Super Mario Bros. USA (J) (VC).nes
+      debug: |-
+        Super Mario Bros. USA (J) (VC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=f7690c836c51659866654dc8d47c7cf210b78117
 - release:
     id: 23133
     game_id: 22985

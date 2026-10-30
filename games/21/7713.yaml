@@ -32,23 +32,31 @@ releases:
     kind_id: 7713
     language: 1
     name: Captain Planet and The Planeteers (U) [!]
+    deprecated: 1
   - id: 16248
     kind: 3
     kind_id: 7713
     language: 1
     name: Captain Planet and the Planeteers (U)
+    deprecated: 1
   - id: 65667
     kind: 3
     kind_id: 7713
     language: 2
     name: 星球拯救队 (美版) (射击)-Captain Planet and the Planeteers (USA)
+  - id: 257846
+    kind: 3
+    kind_id: 7713
+    language: 1
+    name: Captain Planet and the Planeteers (USA)
+    source: no-intro
   assets:
   - asset:
       id: 7695
       kind: 3
       kind_id: 7713
       type: 1
-      name: Captain Planet and The Planeteers (U) [!].nes
+      name: Captain Planet and the Planeteers (USA).nes
       format: 1
       size: 262160
       blob_id: 53872
@@ -56,6 +64,7 @@ releases:
         Captain Planet and The Planeteers (U) [!].zip
         Captain Planet and the Planeteers (U).zip
         星球拯救队 (美版) (射击)-Captain Planet and the Planeteers (USA) + Captain Planet and The Planeteers (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=789b550c09671c668e706ba0bb4f81186585cbc6
   - asset:
       id: 136753
       kind: 3
@@ -76,17 +85,37 @@ releases:
     kind_id: 7717
     language: 1
     name: Captain Planet and The Planeteers (U) [p1][!]
+    deprecated: 1
+  - id: 257847
+    kind: 3
+    kind_id: 7717
+    language: 1
+    name: Chaoren Duizhang (Super Man) (Asia) (En) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 7699
       kind: 3
       kind_id: 7717
       type: 1
-      name: Captain Planet and The Planeteers (U) [p1][!].nes
+      name: Chaoren Duizhang (Super Man) (Asia) (En) (Pirate).nes
       format: 1
       size: 262160
       blob_id: 53876
-      debug: Captain Planet and The Planeteers (U) [p1][!].nes
+      debug: |-
+        Captain Planet and The Planeteers (U) [p1][!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=f929c323d5be751b0fa74ad952fab5f05d7ea681
+  - asset:
+      id: 139337
+      kind: 3
+      kind_id: 7717
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Chaoren%20Duizhang%20%28Super%20Man%29%20%28Asia%29%20%28En%29%20%28Pirate%29.png
+      format: 1
+      size: 2757
+      blob_id: 324784
+      debug: libretro-named-titles:rom-asset=7699:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Chaoren%20Duizhang%20%28Super%20Man%29%20%28Asia%29%20%28En%29%20%28Pirate%29.png
 - release:
     id: 7718
     game_id: 7713

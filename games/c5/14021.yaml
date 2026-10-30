@@ -257,17 +257,37 @@ releases:
     kind_id: 16424
     language: 1
     name: Metal Max (J) (VC)
+    deprecated: 1
+  - id: 258782
+    kind: 3
+    kind_id: 16424
+    language: 1
+    name: Metal Max (Japan) (Virtual Console)
+    source: no-intro
   assets:
   - asset:
       id: 16406
       kind: 3
       kind_id: 16424
       type: 1
-      name: Metal Max (J) (VC).nes
+      name: Metal Max (Japan) (Virtual Console).nes
       format: 1
       size: 524304
       blob_id: 62077
-      debug: Metal Max (J) (VC).nes
+      debug: |-
+        Metal Max (J) (VC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=791280156be20eb07f427cb8ad0c0fdc622da207
+  - asset:
+      id: 139571
+      kind: 3
+      kind_id: 16424
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Metal%20Max%20%28Japan%29%20%28Virtual%20Console%29.png
+      format: 1
+      size: 3904
+      blob_id: 324981
+      debug: libretro-named-titles:rom-asset=16406:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Metal%20Max%20%28Japan%29%20%28Virtual%20Console%29.png
 - release:
     id: 16425
     game_id: 14021
@@ -305,17 +325,25 @@ releases:
     kind_id: 16429
     language: 2
     name: 日版
+  - id: 258783
+    kind: 3
+    kind_id: 16429
+    language: 1
+    name: Metal Max (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 16411
       kind: 3
       kind_id: 16429
       type: 1
-      name: Metal Max (J).nes
+      name: Metal Max (Japan).nes
       format: 1
       size: 524304
       blob_id: 62081
-      debug: Metal Max (Japan) + Metal Max (J).nes
+      debug: |-
+        Metal Max (Japan) + Metal Max (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=987de59b4987056a29b53a11d93b76fce4b34eac
   - asset:
       id: 135019
       kind: 3
@@ -440,17 +468,37 @@ releases:
     kind_id: 28616
     language: 1
     name: Ji Jia Zhan Shi (Ch) [a2]
+    deprecated: 1
+  - id: 260728
+    kind: 3
+    kind_id: 28616
+    language: 1
+    name: Jijia Zhanshi (China) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 28598
       kind: 3
       kind_id: 28616
       type: 1
-      name: 机甲战士[外星科技汉化] + Ji Jia Zhan Shi (Ch) [a2].nes
+      name: Jijia Zhanshi (China) (Pirate).nes
       format: 1
       size: 786448
       blob_id: 73066
-      debug: 机甲战士[外星科技汉化] + Ji Jia Zhan Shi (Ch) [a2].nes
+      debug: |-
+        机甲战士[外星科技汉化] + Ji Jia Zhan Shi (Ch) [a2].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=6b04c22ecb062fd7edb7e7ad3d51be0353690670
+  - asset:
+      id: 140138
+      kind: 3
+      kind_id: 28616
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Jijia%20Zhanshi%20%28China%29%20%28Pirate%29.png
+      format: 1
+      size: 4863
+      blob_id: 325469
+      debug: libretro-named-titles:rom-asset=28598:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Jijia%20Zhanshi%20%28China%29%20%28Pirate%29.png
 - release:
     id: 30011
     game_id: 14021

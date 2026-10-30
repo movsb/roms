@@ -7,12 +7,19 @@ names:
   kind_id: 24763
   language: 1
   name: Text Editor by A.Chudov (R) [!]
+  deprecated: 1
 - id: 249498
   kind: 2
   kind_id: 24763
   language: 2
   name: 文本编辑器
   source: codex
+- id: 262230
+  kind: 2
+  kind_id: 24763
+  language: 1
+  name: Text Editor
+  source: no-intro
 releases:
 - release:
     id: 24763
@@ -23,17 +30,26 @@ releases:
     kind_id: 24763
     language: 1
     name: Text Editor by A.Chudov (R) [!]
+    deprecated: 1
+  - id: 259642
+    kind: 3
+    kind_id: 24763
+    language: 1
+    name: Text Editor (Russia) (Subor Keyboard) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 24745
       kind: 3
       kind_id: 24763
       type: 1
-      name: Text Editor by A.Chudov (R) [!].nes
+      name: Text Editor (Russia) (Subor Keyboard) (Unl).nes
       format: 1
       size: 32784
       blob_id: 70018
-      debug: Text Editor by A.Chudov (R) [!].nes
+      debug: |-
+        Text Editor by A.Chudov (R) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=aa177408e11b4da57129df21a58af20c650f16f6
   - asset:
       id: 137405
       kind: 3

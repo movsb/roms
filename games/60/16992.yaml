@@ -7,12 +7,19 @@ names:
   kind_id: 16992
   language: 1
   name: Morskoy Boy by Alexander Chudov (R) [!]
+  deprecated: 1
 - id: 249288
   kind: 2
   kind_id: 16992
   language: 2
   name: 海战
   source: codex
+- id: 261927
+  kind: 2
+  kind_id: 16992
+  language: 1
+  name: Morskoy Boy
+  source: no-intro
 releases:
 - release:
     id: 16992
@@ -23,17 +30,26 @@ releases:
     kind_id: 16992
     language: 1
     name: Morskoy Boy by Alexander Chudov (R) [!]
+    deprecated: 1
+  - id: 258861
+    kind: 3
+    kind_id: 16992
+    language: 1
+    name: Morskoy Boy (Russia) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 16974
       kind: 3
       kind_id: 16992
       type: 1
-      name: Morskoy Boy by Alexander Chudov (R) [!].nes
+      name: Morskoy Boy (Russia) (Unl).nes
       format: 1
       size: 40976
       blob_id: 62602
-      debug: Morskoy Boy by Alexander Chudov (R) [!].nes
+      debug: |-
+        Morskoy Boy by Alexander Chudov (R) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=a50e374a492bb4ef7ceeb17275c538b87e6858df
   - asset:
       id: 137135
       kind: 3

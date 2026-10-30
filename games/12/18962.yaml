@@ -7,12 +7,19 @@ names:
   kind_id: 18962
   language: 1
   name: Pogo Cats by YGGI
+  deprecated: 1
 - id: 254394
   kind: 2
   kind_id: 18962
   language: 2
   name: 弹跳猫
   source: codex
+- id: 261991
+  kind: 2
+  kind_id: 18962
+  language: 1
+  name: Pogo Cats
+  source: no-intro
 releases:
 - release:
     id: 18962
@@ -23,17 +30,37 @@ releases:
     kind_id: 18962
     language: 1
     name: Pogo Cats by YGGI (PD)
+    deprecated: 1
+  - id: 259055
+    kind: 3
+    kind_id: 18962
+    language: 1
+    name: Pogo Cats (World) (Aftermarket) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 18944
       kind: 3
       kind_id: 18962
       type: 1
-      name: Pogo Cats by YGGI (PD).nes
+      name: Pogo Cats (World) (Aftermarket) (Unl).nes
       format: 1
       size: 24592
       blob_id: 64486
-      debug: Pogo Cats by YGGI (PD).nes
+      debug: |-
+        Pogo Cats by YGGI (PD).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=8d778b7054ec279d34584a49041cc856e72310de
+  - asset:
+      id: 139671
+      kind: 3
+      kind_id: 18962
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Pogo%20Cats%20%28World%29%20%28Aftermarket%29%20%28Unl%29.png
+      format: 1
+      size: 4741
+      blob_id: 325068
+      debug: libretro-named-titles:rom-asset=18944:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Pogo%20Cats%20%28World%29%20%28Aftermarket%29%20%28Unl%29.png
 - release:
     id: 18963
     game_id: 18962
@@ -43,14 +70,34 @@ releases:
     kind_id: 18963
     language: 1
     name: Pogo Cats by YGGI (with battery) (PD)
+    deprecated: 1
+  - id: 259056
+    kind: 3
+    kind_id: 18963
+    language: 1
+    name: Pogo Cats (World) (Battery Save Version) (Aftermarket) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 18945
       kind: 3
       kind_id: 18963
       type: 1
-      name: Pogo Cats by YGGI (with battery) (PD).nes
+      name: Pogo Cats (World) (Battery Save Version) (Aftermarket) (Unl).nes
       format: 1
       size: 24592
       blob_id: 64487
-      debug: Pogo Cats by YGGI (with battery) (PD).nes
+      debug: |-
+        Pogo Cats by YGGI (with battery) (PD).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=80d0590b0f3aed20d6a43a5378dd395d9d1b02dc
+  - asset:
+      id: 139672
+      kind: 3
+      kind_id: 18963
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Pogo%20Cats%20%28World%29%20%28Battery%20Save%20Version%29%20%28Aftermarket%29%20%28Unl%29.png
+      format: 1
+      size: 4881
+      blob_id: 325069
+      debug: libretro-named-titles:rom-asset=18945:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Pogo%20Cats%20%28World%29%20%28Battery%20Save%20Version%29%20%28Aftermarket%29%20%28Unl%29.png

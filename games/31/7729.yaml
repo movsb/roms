@@ -42,11 +42,13 @@ releases:
     kind_id: 7729
     language: 1
     name: Captain SkyHawk (U)
+    deprecated: 1
   - id: 17018
     kind: 3
     kind_id: 7729
     language: 1
     name: CaptainSkyhawk
+    deprecated: 1
   - id: 63059
     kind: 3
     kind_id: 7729
@@ -57,13 +59,20 @@ releases:
     kind_id: 7729
     language: 1
     name: Captain Skyhawk (U) (PRG0) [!]
+    deprecated: 1
+  - id: 257849
+    kind: 3
+    kind_id: 7729
+    language: 1
+    name: Captain Skyhawk (USA)
+    source: no-intro
   assets:
   - asset:
       id: 7711
       kind: 3
       kind_id: 7729
       type: 1
-      name: Captain SkyHawk (U).nes
+      name: Captain Skyhawk (USA).nes
       format: 1
       size: 131088
       blob_id: 53886
@@ -71,6 +80,7 @@ releases:
         Captain SkyHawk (U).zip
         CaptainSkyhawk.zip
         天鹰计划 (美版) (射击)-Captain Skyhawk (USA) + Captain Skyhawk (U) (PRG0) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=92f0c3153d0dec1f78d61425f88fc6573b0f9be8
   - asset:
       id: 138461
       kind: 3
@@ -111,17 +121,26 @@ releases:
     kind_id: 7732
     language: 1
     name: Captain Skyhawk (R) [!]
+    deprecated: 1
+  - id: 257850
+    kind: 3
+    kind_id: 7732
+    language: 1
+    name: Captain Skyhawk (Russia) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 7714
       kind: 3
       kind_id: 7732
       type: 1
-      name: Captain Skyhawk (R) [!].nes
+      name: Captain Skyhawk (Russia) (Pirate).nes
       format: 1
       size: 131088
       blob_id: 53889
-      debug: Captain Skyhawk (R) [!].nes
+      debug: |-
+        Captain Skyhawk (R) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=3b4c48cc824cc4cf067815e473c8c045a3f11dad
   - asset:
       id: 136754
       kind: 3
@@ -162,21 +181,40 @@ releases:
     kind_id: 7735
     language: 1
     name: Captain Skyhawk (U) (PRG1) [!]
+    deprecated: 1
   - id: 63063
     kind: 3
     kind_id: 7735
     language: 2
     name: 天鹰计划 (美版)(Rev A) (射击)-Captain Skyhawk (USA) (Rev A)
+  - id: 257851
+    kind: 3
+    kind_id: 7735
+    language: 1
+    name: Captain Skyhawk (USA) (Rev 1)
+    source: no-intro
   assets:
   - asset:
       id: 7717
       kind: 3
       kind_id: 7735
       type: 1
-      name: Captain Skyhawk (U) (PRG1) [!].nes
+      name: Captain Skyhawk (USA) (Rev 1).nes
       format: 1
       size: 131088
       blob_id: 53892
       debug: |-
         Captain Skyhawk (U) (PRG1) [!].zip
         天鹰计划 (美版)(Rev A) (射击)-Captain Skyhawk (USA) (Rev A) + Captain Skyhawk (U) (PRG1) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=355649d34aeffae0dd15c03a51b16ef49b668852
+  - asset:
+      id: 139338
+      kind: 3
+      kind_id: 7735
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Captain%20Skyhawk%20%28USA%29%20%28Rev%201%29.png
+      format: 1
+      size: 2898
+      blob_id: 324785
+      debug: libretro-named-titles:rom-asset=7717:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Captain%20Skyhawk%20%28USA%29%20%28Rev%201%29.png

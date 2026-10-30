@@ -244,17 +244,26 @@ releases:
     kind_id: 22398
     language: 1
     name: Super Contra (J) [p1]
+    deprecated: 1
+  - id: 259472
+    kind: 3
+    kind_id: 22398
+    language: 1
+    name: Contra 24-in-1 (Asia) (En) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 22380
       kind: 3
       kind_id: 22398
       type: 1
-      name: Super Contra (J) [p1].nes
+      name: Contra 24-in-1 (Asia) (En) (Pirate).nes
       format: 1
       size: 262160
       blob_id: 67723
-      debug: Super Contra (J) [p1].nes
+      debug: |-
+        Super Contra (J) [p1].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=24b35762645c0cdf0371ebca1611b4e35ee20812
 - release:
     id: 22399
     game_id: 22380
@@ -264,17 +273,26 @@ releases:
     kind_id: 22399
     language: 1
     name: Super Contra (J) [p1][a1]
+    deprecated: 1
+  - id: 259473
+    kind: 3
+    kind_id: 22399
+    language: 1
+    name: Super Contra 6-in-1 (Asia) (En) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 22381
       kind: 3
       kind_id: 22399
       type: 1
-      name: Super Contra (J) [p1][a1].nes
+      name: Super Contra 6-in-1 (Asia) (En) (Pirate).nes
       format: 1
       size: 262160
       blob_id: 67724
-      debug: Super Contra (J) [p1][a1].nes
+      debug: |-
+        Super Contra (J) [p1][a1].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=82f33fe621e51bd3c206cc469e11d4949a978b6e
 - release:
     id: 22400
     game_id: 22380
@@ -424,14 +442,34 @@ releases:
     kind_id: 22408
     language: 1
     name: Super Contra (Unl) [p1]
+    deprecated: 1
+  - id: 259474
+    kind: 3
+    kind_id: 22408
+    language: 1
+    name: Super Contra (Asia) (En) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 22390
       kind: 3
       kind_id: 22408
       type: 1
-      name: Super Contra (Unl) [p1].nes
+      name: Super Contra (Asia) (En) (Pirate).nes
       format: 1
       size: 262160
       blob_id: 67733
-      debug: Super Contra (Unl) [p1].nes
+      debug: |-
+        Super Contra (Unl) [p1].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=493d8857f964660a2e482306cb81f8114aefdb05
+  - asset:
+      id: 139791
+      kind: 3
+      kind_id: 22408
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Super%20Contra%20%28Asia%29%20%28En%29%20%28Pirate%29.png
+      format: 1
+      size: 4096
+      blob_id: 325167
+      debug: libretro-named-titles:rom-asset=22390:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Super%20Contra%20%28Asia%29%20%28En%29%20%28Pirate%29.png

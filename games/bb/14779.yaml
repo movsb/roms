@@ -12,11 +12,18 @@ names:
   kind_id: 14779
   language: 1
   name: Krusty's Fun House (U) [!]
+  deprecated: 1
 - id: 92272
   kind: 2
   kind_id: 14779
   language: 1
   name: Krusty's Fun House
+- id: 261837
+  kind: 2
+  kind_id: 14779
+  language: 1
+  name: Krusty's Fun House
+  source: no-intro
 releases:
 - release:
     id: 14779
@@ -27,17 +34,26 @@ releases:
     kind_id: 14779
     language: 1
     name: Krusty's Fun House (E)
+    deprecated: 1
+  - id: 258599
+    kind: 3
+    kind_id: 14779
+    language: 1
+    name: Krusty's Fun House (Europe)
+    source: no-intro
   assets:
   - asset:
       id: 14761
       kind: 3
       kind_id: 14779
       type: 1
-      name: Krusty's Fun House (E).nes
+      name: Krusty's Fun House (Europe).nes
       format: 1
       size: 393232
       blob_id: 60523
-      debug: Krusty's Fun House (E).nes
+      debug: |-
+        Krusty's Fun House (E).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=d4c7e42bed5f279fd0c40a7d1108d78b3e757b48
   - asset:
       id: 138554
       kind: 3
@@ -58,23 +74,31 @@ releases:
     kind_id: 14780
     language: 1
     name: Krusty's Fun House (U) [!]
+    deprecated: 1
   - id: 32742
     kind: 3
     kind_id: 14780
     language: 1
     name: Krusty's Fun House (U)
+    deprecated: 1
   - id: 70163
     kind: 3
     kind_id: 14780
     language: 2
     name: 超级欢乐屋(美版)
+  - id: 258600
+    kind: 3
+    kind_id: 14780
+    language: 1
+    name: Krusty's Fun House (USA)
+    source: no-intro
   assets:
   - asset:
       id: 14762
       kind: 3
       kind_id: 14780
       type: 1
-      name: Krusty's Fun House (U) [!].nes
+      name: Krusty's Fun House (USA).nes
       format: 1
       size: 393232
       blob_id: 60524
@@ -82,6 +106,7 @@ releases:
         Krusty's Fun House (U) [!].zip
         Krusty's Fun House (U).zip
         超级欢乐屋(美版) + Krusty's Fun House (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=84661cfdb711405eace0c9dad8d99e4c44f49fa8
   - asset:
       id: 137036
       kind: 3

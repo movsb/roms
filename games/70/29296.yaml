@@ -12,6 +12,13 @@ names:
   kind_id: 29296
   language: 1
   name: Air Fortress (J) [!]
+  deprecated: 1
+- id: 263323
+  kind: 2
+  kind_id: 29296
+  language: 1
+  name: Air Fortress
+  source: no-intro
 releases:
 - release:
     id: 29296
@@ -27,17 +34,26 @@ releases:
     kind_id: 29296
     language: 1
     name: Air Fortress (J) [!]
+    deprecated: 1
+  - id: 260997
+    kind: 3
+    kind_id: 29296
+    language: 1
+    name: Air Fortress (Japan) (En)
+    source: no-intro
   assets:
   - asset:
       id: 29278
       kind: 3
       kind_id: 29296
       type: 1
-      name: 空中要塞 (日版) (射击)-Air Fortress (Japan) + Air Fortress (J) [!].nes
+      name: Air Fortress (Japan) (En).nes
       format: 1
       size: 262160
       blob_id: 73500
-      debug: 空中要塞 (日版) (射击)-Air Fortress (Japan) + Air Fortress (J) [!].nes
+      debug: |-
+        空中要塞 (日版) (射击)-Air Fortress (Japan) + Air Fortress (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=2b52f9485e3d16d3ac107c905bbb8b353d0ad582
   - asset:
       id: 137906
       kind: 3

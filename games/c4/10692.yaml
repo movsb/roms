@@ -27,11 +27,13 @@ releases:
     kind_id: 10667
     language: 1
     name: Duck Hunt (JU) [!]
+    deprecated: 1
   - id: 23192
     kind: 3
     kind_id: 10667
     language: 1
     name: Duck Hunt
+    deprecated: 1
   - id: 67793
     kind: 3
     kind_id: 10667
@@ -42,13 +44,20 @@ releases:
     kind_id: 10667
     language: 1
     name: Duck Hunt (W) [!]
+    deprecated: 1
+  - id: 258113
+    kind: 3
+    kind_id: 10667
+    language: 1
+    name: Duck Hunt (World)
+    source: no-intro
   assets:
   - asset:
       id: 10649
       kind: 3
       kind_id: 10667
       type: 1
-      name: Duck Hunt (JU) [!].nes
+      name: Duck Hunt (World).nes
       format: 1
       size: 24592
       blob_id: 56670
@@ -56,6 +65,7 @@ releases:
         Duck Hunt (JU) [!].zip
         Duck Hunt.zip
         猎鸭行动 (世界版) (光线枪射击)-Duck Hunt (World) + Duck Hunt (W) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=fb853a77e02f1ceae933dff762cd0c2f6e0b2e27
   - asset:
       id: 136845
       kind: 3
@@ -296,17 +306,26 @@ releases:
     kind_id: 10688
     language: 1
     name: Duck Hunt (W) [p4]
+    deprecated: 1
+  - id: 258114
+    kind: 3
+    kind_id: 10688
+    language: 1
+    name: Duck Hunt (Asia) (En) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 10670
       kind: 3
       kind_id: 10688
       type: 1
-      name: Duck Hunt (W) [p4].nes
+      name: Duck Hunt (Asia) (En) (Pirate).nes
       format: 1
       size: 24592
       blob_id: 56691
-      debug: Duck Hunt (W) [p4].nes
+      debug: |-
+        Duck Hunt (W) [p4].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=334f2b210e7207f204b5607e0d445a3cfc086be8
 - release:
     id: 10689
     game_id: 10692

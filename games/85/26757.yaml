@@ -13,6 +13,12 @@ names:
   language: 1
   name: "1999 - Hore, Mitakotoka! Seikimatsu"
   source: codex
+- id: 262397
+  kind: 2
+  kind_id: 26757
+  language: 1
+  name: "1999 - Hore, Mitakotoka! Seikimatsu"
+  source: no-intro
 releases:
 - release:
     id: 26757
@@ -23,14 +29,31 @@ releases:
     kind_id: 26757
     language: 2
     name: 世纪末大富翁
+  - id: 259969
+    kind: 3
+    kind_id: 26757
+    language: 1
+    name: "1999 - Hore, Mitakotoka! Seikimatsu (Japan)"
+    source: no-intro
   assets:
   - asset:
       id: 26739
       kind: 3
       kind_id: 26757
       type: 1
-      name: 世纪末大富翁.nes
+      name: "1999 - Hore, Mitakotoka! Seikimatsu (Japan).nes"
       format: 1
       size: 393232
       blob_id: 71825
-      debug: "世纪末大富翁.nes\n重复的/1999 - Hore, Mitakotoka! Seikimatsu (J).nes"
+      debug: "世纪末大富翁.nes\n重复的/1999 - Hore, Mitakotoka! Seikimatsu (J).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=3e753d57f5f5e72810e8b11827fecdc714f1891a"
+  - asset:
+      id: 139966
+      kind: 3
+      kind_id: 26757
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/1999%20-%20Hore%2C%20Mitakotoka%21%20Seikimatsu%20%28Japan%29.png
+      format: 1
+      size: 2069
+      blob_id: 325321
+      debug: libretro-named-titles:rom-asset=26739:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/1999%20-%20Hore%2C%20Mitakotoka%21%20Seikimatsu%20%28Japan%29.png

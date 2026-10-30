@@ -23,17 +23,37 @@ releases:
     kind_id: 21154
     language: 1
     name: Shui Hu Zhuan (Ch) (Wxn)
+    deprecated: 1
+  - id: 259316
+    kind: 3
+    kind_id: 21154
+    language: 1
+    name: "Shuihu Zhuan - Marsh Outlaws (China) (960415) (Unl)"
+    source: no-intro
   assets:
   - asset:
       id: 21136
       kind: 3
       kind_id: 21154
       type: 1
-      name: Shui Hu Zhuan (Ch) (Wxn).nes
+      name: "Shuihu Zhuan - Marsh Outlaws (China) (960415) (Unl).nes"
       format: 1
       size: 524304
       blob_id: 66558
-      debug: Shui Hu Zhuan (Ch) (Wxn).nes
+      debug: |-
+        Shui Hu Zhuan (Ch) (Wxn).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=1069809917259fab81248e441672ba7e4bec53c7
+  - asset:
+      id: 139746
+      kind: 3
+      kind_id: 21154
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Shuihu%20Zhuan%20-%20Marsh%20Outlaws%20%28China%29%20%28960415%29%20%28Unl%29.png
+      format: 1
+      size: 4134
+      blob_id: 325127
+      debug: libretro-named-titles:rom-asset=21136:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Shuihu%20Zhuan%20-%20Marsh%20Outlaws%20%28China%29%20%28960415%29%20%28Unl%29.png
 - release:
     id: 21156
     game_id: 21154

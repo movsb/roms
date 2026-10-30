@@ -7,12 +7,19 @@ names:
   kind_id: 14138
   language: 1
   name: "Jue Dai Ying Xiong - Peerless Hero (Ch) (Wxn)"
+  deprecated: 1
 - id: 247998
   kind: 2
   kind_id: 14138
   language: 2
   name: 绝代英雄
   source: codex
+- id: 261816
+  kind: 2
+  kind_id: 14138
+  language: 1
+  name: Juedai Yingxiong
+  source: no-intro
 releases:
 - release:
     id: 14138
@@ -23,14 +30,32 @@ releases:
     kind_id: 14138
     language: 1
     name: "Jue Dai Ying Xiong - Peerless Hero (Ch) (Wxn)"
+    deprecated: 1
+  - id: 258526
+    kind: 3
+    kind_id: 14138
+    language: 1
+    name: Juedai Yingxiong (China) (970489) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 14120
       kind: 3
       kind_id: 14138
       type: 1
-      name: "Jue Dai Ying Xiong - Peerless Hero (Ch) (Wxn).nes"
+      name: Juedai Yingxiong (China) (970489) (Pirate).nes
       format: 1
       size: 524304
       blob_id: 59931
-      debug: "Jue Dai Ying Xiong - Peerless Hero (Ch) (Wxn).nes"
+      debug: "Jue Dai Ying Xiong - Peerless Hero (Ch) (Wxn).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=22b9bee8ddd780db7029e1dbaae049337bb80dab"
+  - asset:
+      id: 139484
+      kind: 3
+      kind_id: 14138
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Juedai%20Yingxiong%20%28China%29%20%28970489%29%20%28Pirate%29.png
+      format: 1
+      size: 7225
+      blob_id: 324913
+      debug: libretro-named-titles:rom-asset=14120:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Juedai%20Yingxiong%20%28China%29%20%28970489%29%20%28Pirate%29.png

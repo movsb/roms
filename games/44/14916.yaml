@@ -7,12 +7,19 @@ names:
   kind_id: 14916
   language: 1
   name: LAN Master bu shiru (PD) (2011-06-10)
+  deprecated: 1
 - id: 253312
   kind: 2
   kind_id: 14916
   language: 2
   name: 局域网大师
   source: codex
+- id: 261841
+  kind: 2
+  kind_id: 14916
+  language: 1
+  name: LAN Master
+  source: no-intro
 releases:
 - release:
     id: 14916
@@ -23,14 +30,34 @@ releases:
     kind_id: 14916
     language: 1
     name: LAN Master bu shiru (PD) (2011-06-10)
+    deprecated: 1
+  - id: 258609
+    kind: 3
+    kind_id: 14916
+    language: 1
+    name: LAN Master (World) (NESDev 2011) (Aftermarket) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 14898
       kind: 3
       kind_id: 14916
       type: 1
-      name: LAN Master bu shiru (PD) (2011-06-10).nes
+      name: LAN Master (World) (NESDev 2011) (Aftermarket) (Unl).nes
       format: 1
       size: 40976
       blob_id: 60650
-      debug: LAN Master bu shiru (PD) (2011-06-10).nes
+      debug: |-
+        LAN Master bu shiru (PD) (2011-06-10).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=782c1a049d5f8170a9706f58bb2ee57189503481
+  - asset:
+      id: 139509
+      kind: 3
+      kind_id: 14916
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/LAN%20Master%20%28World%29%20%28NESDev%202011%29%20%28Aftermarket%29%20%28Unl%29.png
+      format: 1
+      size: 2310
+      blob_id: 324934
+      debug: libretro-named-titles:rom-asset=14898:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/LAN%20Master%20%28World%29%20%28NESDev%202011%29%20%28Aftermarket%29%20%28Unl%29.png

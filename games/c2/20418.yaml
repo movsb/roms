@@ -13,6 +13,12 @@ names:
   language: 2
   name: 皇家血裔
   source: codex
+- id: 262066
+  kind: 2
+  kind_id: 20418
+  language: 1
+  name: Royal Blood
+  source: no-intro
 releases:
 - release:
     id: 20419
@@ -23,17 +29,26 @@ releases:
     kind_id: 20419
     language: 1
     name: Royal Blood (J)
+    deprecated: 1
+  - id: 259220
+    kind: 3
+    kind_id: 20419
+    language: 1
+    name: Royal Blood (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 20401
       kind: 3
       kind_id: 20419
       type: 1
-      name: Royal Blood (J).nes
+      name: Royal Blood (Japan).nes
       format: 1
       size: 524304
       blob_id: 65862
-      debug: Royal Blood (J).nes
+      debug: |-
+        Royal Blood (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=74dba27392ca4451875ad0267e5466f92d835a62
   - asset:
       id: 138657
       kind: 3

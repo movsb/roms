@@ -175,27 +175,35 @@ releases:
     kind_id: 25919
     language: 1
     name: Whomp'Em (U) [!]
+    deprecated: 1
   - id: 57946
     kind: 3
     kind_id: 25919
     language: 1
     name: Whomp'Em (U)
+    deprecated: 1
   - id: 69746
     kind: 3
     kind_id: 25919
     language: 2
     name: 西游记2
+  - id: 259806
+    kind: 3
+    kind_id: 25919
+    language: 1
+    name: Whomp 'Em (USA)
+    source: no-intro
   assets:
   - asset:
       id: 25901
       kind: 3
       kind_id: 25919
       type: 1
-      name: Whomp'Em (U) [!].nes
+      name: Whomp 'Em (USA).nes
       format: 1
       size: 262160
       blob_id: 71083
-      debug: "Whomp'Em (U) [!].zip\nWhomp'Em (U).zip\n西游记2.nes\n重复的/西游记世界 II - 天上界的魔神 (美版) (动作)-WhompEm (USA) + Whomp'Em (U) [!].nes"
+      debug: "Whomp'Em (U) [!].zip\nWhomp'Em (U).zip\n西游记2.nes\n重复的/西游记世界 II - 天上界的魔神 (美版) (动作)-WhompEm (USA) + Whomp'Em (U) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=fb350a817dd9edc7526695781c1867ef970e57b7"
   - asset:
       id: 137475
       kind: 3
@@ -276,14 +284,31 @@ releases:
     kind_id: 29691
     language: 2
     name: 西游记世界二代
+  - id: 261147
+    kind: 3
+    kind_id: 29691
+    language: 1
+    name: "Saiyuuki World 2 - Tenjoukai no Majin (Japan)"
+    source: no-intro
   assets:
   - asset:
       id: 29673
       kind: 3
       kind_id: 29691
       type: 1
-      name: 西游记世界二代.nes
+      name: "Saiyuuki World 2 - Tenjoukai no Majin (Japan).nes"
       format: 1
       size: 262160
       blob_id: 73736
-      debug: "西游记世界二代.nes\n重复的/西游记2 + Saiyuuki World 2 - Tenjoukai no Majin (J) [!].nes"
+      debug: "西游记世界二代.nes\n重复的/西游记2 + Saiyuuki World 2 - Tenjoukai no Majin (J) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=5d5e929325cc1f0250a3fa1bea194e9cdf825554"
+  - asset:
+      id: 140220
+      kind: 3
+      kind_id: 29691
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Saiyuuki%20World%202%20-%20Tenjoukai%20no%20Majin%20%28Japan%29.png
+      format: 1
+      size: 3030
+      blob_id: 325539
+      debug: libretro-named-titles:rom-asset=29673:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Saiyuuki%20World%202%20-%20Tenjoukai%20no%20Majin%20%28Japan%29.png

@@ -12,11 +12,18 @@ names:
   kind_id: 25970
   language: 1
   name: Win, Lose or Draw (U) [!]
+  deprecated: 1
 - id: 93561
   kind: 2
   kind_id: 25970
   language: 1
   name: Win, Lose or Draw
+- id: 262300
+  kind: 2
+  kind_id: 25970
+  language: 1
+  name: Win, Lose or Draw
+  source: no-intro
 releases:
 - release:
     id: 25970
@@ -27,23 +34,31 @@ releases:
     kind_id: 25970
     language: 1
     name: Win, Lose or Draw (U) [!]
+    deprecated: 1
   - id: 58066
     kind: 3
     kind_id: 25970
     language: 1
     name: Win, Lose or Draw (U)
+    deprecated: 1
   - id: 69063
     kind: 3
     kind_id: 25970
     language: 2
     name: 胜负大对决 (美版) (益智)-Win, Lose or Draw (USA)
+  - id: 259811
+    kind: 3
+    kind_id: 25970
+    language: 1
+    name: Win, Lose or Draw (USA)
+    source: no-intro
   assets:
   - asset:
       id: 25952
       kind: 3
       kind_id: 25970
       type: 1
-      name: Win, Lose or Draw (U) [!].nes
+      name: Win, Lose or Draw (USA).nes
       format: 1
       size: 131088
       blob_id: 71129
@@ -51,6 +66,7 @@ releases:
         Win, Lose or Draw (U) [!].zip
         Win, Lose or Draw (U).zip
         胜负大对决 (美版) (益智)-Win, Lose or Draw (USA) + Win, Lose or Draw (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=f859a74ade59a9687ac53c9048023cd7ba994e52
   - asset:
       id: 137478
       kind: 3

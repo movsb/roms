@@ -12,6 +12,13 @@ names:
   kind_id: 30406
   language: 1
   name: "Mahjong Club - Nagatachou (J)"
+  deprecated: 1
+- id: 263721
+  kind: 2
+  kind_id: 30406
+  language: 1
+  name: "Mahjong Club Nagatachou - Sousaisen"
+  source: no-intro
 releases:
 - release:
     id: 30406
@@ -27,14 +34,32 @@ releases:
     kind_id: 30406
     language: 1
     name: "Mahjong Club - Nagatachou (J)"
+    deprecated: 1
+  - id: 261430
+    kind: 3
+    kind_id: 30406
+    language: 1
+    name: "Mahjong Club Nagatachou - Sousaisen (Japan)"
+    source: no-intro
   assets:
   - asset:
       id: 30388
       kind: 3
       kind_id: 30406
       type: 1
-      name: "麻雀俱乐部 - 永田町 (日版) (桌面平台)-Mahjong Club - Nagatachou (Japan) + Mahjong Club - Nagatachou (J).nes"
+      name: "Mahjong Club Nagatachou - Sousaisen (Japan).nes"
       format: 1
       size: 524304
       blob_id: 74193
-      debug: "麻雀俱乐部 - 永田町 (日版) (桌面平台)-Mahjong Club - Nagatachou (Japan) + Mahjong Club - Nagatachou (J).nes"
+      debug: "麻雀俱乐部 - 永田町 (日版) (桌面平台)-Mahjong Club - Nagatachou (Japan) + Mahjong Club - Nagatachou (J).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=9dccb2f1338a0a7afaed2d682bf35285980e6fa6"
+  - asset:
+      id: 140260
+      kind: 3
+      kind_id: 30406
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mahjong%20Club%20Nagatachou%20-%20Sousaisen%20%28Japan%29.png
+      format: 1
+      size: 2226
+      blob_id: 325574
+      debug: libretro-named-titles:rom-asset=30388:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mahjong%20Club%20Nagatachou%20-%20Sousaisen%20%28Japan%29.png

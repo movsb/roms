@@ -7,6 +7,7 @@ names:
   kind_id: 9301
   language: 1
   name: Cybernoid
+  deprecated: 1
 - id: 64979
   kind: 2
   kind_id: 9301
@@ -17,11 +18,18 @@ names:
   kind_id: 9301
   language: 1
   name: "Cybernoid - The Fighting Machine (U) [!]"
+  deprecated: 1
 - id: 91596
   kind: 2
   kind_id: 9301
   language: 1
   name: "Cybernoid - The Fighting Machine"
+- id: 261610
+  kind: 2
+  kind_id: 9301
+  language: 1
+  name: "Cybernoid - The Fighting Machine"
+  source: no-intro
 releases:
 - release:
     id: 9301
@@ -32,22 +40,29 @@ releases:
     kind_id: 9301
     language: 1
     name: "Cybernoid - The Fighting Machine (U) [!]"
+    deprecated: 1
   - id: 64981
     kind: 3
     kind_id: 9301
     language: 2
     name: 战斗机器
+  - id: 257956
+    kind: 3
+    kind_id: 9301
+    language: 1
+    name: "Cybernoid - The Fighting Machine (USA)"
+    source: no-intro
   assets:
   - asset:
       id: 9283
       kind: 3
       kind_id: 9301
       type: 1
-      name: "Cybernoid - The Fighting Machine (U) [!].nes"
+      name: "Cybernoid - The Fighting Machine (USA).nes"
       format: 1
       size: 65552
       blob_id: 55392
-      debug: "Cybernoid - The Fighting Machine (U) [!].zip\n战斗机器 + Cybernoid - The Fighting Machine (U) [!].nes"
+      debug: "Cybernoid - The Fighting Machine (U) [!].zip\n战斗机器 + Cybernoid - The Fighting Machine (U) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=df3b2ec1ee818da7c57672a82e76d9591c9d9dc1"
   - asset:
       id: 136791
       kind: 3
@@ -68,22 +83,30 @@ releases:
     kind_id: 9306
     language: 1
     name: "Cybernoid - The Fighting Machine (U)"
+    deprecated: 1
   - id: 19894
     kind: 3
     kind_id: 9306
     language: 1
     name: Cybernoid
+    deprecated: 1
+  - id: 257957
+    kind: 3
+    kind_id: 9306
+    language: 1
+    name: "Cybernoid - The Fighting Machine (USA)"
+    source: no-intro
   assets:
   - asset:
       id: 9288
       kind: 3
       kind_id: 9306
       type: 1
-      name: "Cybernoid - The Fighting Machine (U).nes"
+      name: "Cybernoid - The Fighting Machine (USA).nes"
       format: 1
       size: 65552
       blob_id: 55397
-      debug: "Cybernoid - The Fighting Machine (U).zip\nCybernoid.zip"
+      debug: "Cybernoid - The Fighting Machine (U).zip\nCybernoid.zip\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=df3b2ec1ee818da7c57672a82e76d9591c9d9dc1"
   - asset:
       id: 138467
       kind: 3

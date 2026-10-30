@@ -12,6 +12,13 @@ names:
   kind_id: 27720
   language: 1
   name: "Taiyou no Shinden - Asteka 2 (J)"
+  deprecated: 1
+- id: 262746
+  kind: 2
+  kind_id: 27720
+  language: 1
+  name: Taiyou no Shinden
+  source: no-intro
 releases:
 - release:
     id: 27720
@@ -27,14 +34,32 @@ releases:
     kind_id: 27720
     language: 1
     name: "Taiyou no Shinden - Asteka 2 (J)"
+    deprecated: 1
+  - id: 260352
+    kind: 3
+    kind_id: 27720
+    language: 1
+    name: Taiyou no Shinden (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 27702
       kind: 3
       kind_id: 27720
       type: 1
-      name: "太阳神殿 (日版) (解谜)-Taiyou no Shinden - Asteka 2 (Japan) + Taiyou no Shinden - Asteka 2 (J).nes"
+      name: Taiyou no Shinden (Japan).nes
       format: 1
       size: 262160
       blob_id: 72471
-      debug: "太阳神殿 (日版) (解谜)-Taiyou no Shinden - Asteka 2 (Japan) + Taiyou no Shinden - Asteka 2 (J).nes"
+      debug: "太阳神殿 (日版) (解谜)-Taiyou no Shinden - Asteka 2 (Japan) + Taiyou no Shinden - Asteka 2 (J).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=baa6d3d3fc6d3932a7a387c147ec707bbc0d9891"
+  - asset:
+      id: 140068
+      kind: 3
+      kind_id: 27720
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Taiyou%20no%20Shinden%20%28Japan%29.png
+      format: 1
+      size: 3120
+      blob_id: 325409
+      debug: libretro-named-titles:rom-asset=27702:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Taiyou%20no%20Shinden%20%28Japan%29.png

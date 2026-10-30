@@ -12,6 +12,13 @@ names:
   kind_id: 30415
   language: 1
   name: Gaiapolis (Sachen) [!]
+  deprecated: 1
+- id: 263729
+  kind: 2
+  kind_id: 30415
+  language: 1
+  name: Gaiapolis
+  source: no-intro
 releases:
 - release:
     id: 30415
@@ -27,14 +34,34 @@ releases:
     kind_id: 30415
     language: 1
     name: Gaiapolis (Sachen) [!]
+    deprecated: 1
+  - id: 261438
+    kind: 3
+    kind_id: 30415
+    language: 1
+    name: Gaiapolis (Asia) (En) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 30397
       kind: 3
       kind_id: 30415
       type: 1
-      name: 黄金鹰之剑 (亚洲版) (动作角色扮演)-Gaiapolis (Asia) (Unl) + Gaiapolis (Sachen) [!].nes
+      name: Gaiapolis (Asia) (En) (Pirate).nes
       format: 1
       size: 393232
       blob_id: 74201
-      debug: 黄金鹰之剑 (亚洲版) (动作角色扮演)-Gaiapolis (Asia) (Unl) + Gaiapolis (Sachen) [!].nes
+      debug: |-
+        黄金鹰之剑 (亚洲版) (动作角色扮演)-Gaiapolis (Asia) (Unl) + Gaiapolis (Sachen) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=e843ab3d779d4f0bb1f933d6ee99daa526efbcf1
+  - asset:
+      id: 140262
+      kind: 3
+      kind_id: 30415
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Gaiapolis%20%28Asia%29%20%28En%29%20%28Pirate%29.png
+      format: 1
+      size: 7922
+      blob_id: 325576
+      debug: libretro-named-titles:rom-asset=30397:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Gaiapolis%20%28Asia%29%20%28En%29%20%28Pirate%29.png

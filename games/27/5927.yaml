@@ -7,12 +7,19 @@ names:
   kind_id: 5927
   language: 1
   name: Aobocco Wars (J) [p1]
+  deprecated: 1
 - id: 249010
   kind: 2
   kind_id: 5927
   language: 2
   name: 青坊主战争
   source: codex
+- id: 261505
+  kind: 2
+  kind_id: 5927
+  language: 1
+  name: Konami World III
+  source: no-intro
 releases:
 - release:
     id: 5927
@@ -23,14 +30,34 @@ releases:
     kind_id: 5927
     language: 1
     name: Aobocco Wars (J) [p1]
+    deprecated: 1
+  - id: 257651
+    kind: 3
+    kind_id: 5927
+    language: 1
+    name: Konami World III (Asia) (En) (K-W3) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 5909
       kind: 3
       kind_id: 5927
       type: 1
-      name: Aobocco Wars (J) [p1].nes
+      name: Konami World III (Asia) (En) (K-W3) (Pirate).nes
       format: 1
       size: 393232
       blob_id: 52188
-      debug: Aobocco Wars (J) [p1].nes
+      debug: |-
+        Aobocco Wars (J) [p1].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=bde4666eed161b325d758f6801a37c850cfcc13a
+  - asset:
+      id: 139303
+      kind: 3
+      kind_id: 5927
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Konami%20World%20III%20%28Asia%29%20%28En%29%20%28K-W3%29%20%28Pirate%29.png
+      format: 1
+      size: 1883
+      blob_id: 324756
+      debug: libretro-named-titles:rom-asset=5909:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Konami%20World%20III%20%28Asia%29%20%28En%29%20%28K-W3%29%20%28Pirate%29.png

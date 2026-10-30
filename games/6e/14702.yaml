@@ -27,17 +27,26 @@ releases:
     kind_id: 14702
     language: 1
     name: Knight Rider (E) [!]
+    deprecated: 1
+  - id: 258591
+    kind: 3
+    kind_id: 14702
+    language: 1
+    name: Knight Rider (Europe)
+    source: no-intro
   assets:
   - asset:
       id: 14684
       kind: 3
       kind_id: 14702
       type: 1
-      name: Knight Rider (E) [!].nes
+      name: Knight Rider (Europe).nes
       format: 1
       size: 196624
       blob_id: 60450
-      debug: Knight Rider (E) [!].nes
+      debug: |-
+        Knight Rider (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=2b64b767559f9172644a97242912d97229114e02
   - asset:
       id: 137034
       kind: 3
@@ -58,23 +67,31 @@ releases:
     kind_id: 14704
     language: 1
     name: Knight Rider (U) [!]
+    deprecated: 1
   - id: 32578
     kind: 3
     kind_id: 14704
     language: 1
     name: Knight Rider (U)
+    deprecated: 1
   - id: 71381
     kind: 3
     kind_id: 14704
     language: 2
     name: 霹雳游侠 (美版) (模拟射击)-Knight Rider (USA)
+  - id: 258592
+    kind: 3
+    kind_id: 14704
+    language: 1
+    name: Knight Rider (USA)
+    source: no-intro
   assets:
   - asset:
       id: 14686
       kind: 3
       kind_id: 14704
       type: 1
-      name: Knight Rider (U) [!].nes
+      name: Knight Rider (USA).nes
       format: 1
       size: 196624
       blob_id: 60452
@@ -82,6 +99,7 @@ releases:
         Knight Rider (U) [!].zip
         Knight Rider (U).zip
         霹雳游侠 (美版) (模拟射击)-Knight Rider (USA) + Knight Rider (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=5af88be752fe06673874574a039ad03749c2bba1
   - asset:
       id: 138553
       kind: 3

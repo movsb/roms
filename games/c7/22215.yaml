@@ -12,11 +12,19 @@ names:
   kind_id: 22215
   language: 1
   name: Sunday Funday (Wisdom Tree) [!]
+  deprecated: 1
 - id: 93141
   kind: 2
   kind_id: 22215
   language: 1
   name: Sunday Funday
+  deprecated: 1
+- id: 262172
+  kind: 2
+  kind_id: 22215
+  language: 1
+  name: "Sunday Funday - The Ride"
+  source: no-intro
 releases:
 - release:
     id: 22215
@@ -27,11 +35,13 @@ releases:
     kind_id: 22215
     language: 1
     name: Sunday Funday (U)
+    deprecated: 1
   - id: 49468
     kind: 3
     kind_id: 22215
     language: 1
     name: Sunday Funday (Unl) [!p]
+    deprecated: 1
   - id: 66463
     kind: 3
     kind_id: 22215
@@ -42,14 +52,32 @@ releases:
     kind_id: 22215
     language: 1
     name: Sunday Funday (Wisdom Tree) [!]
+    deprecated: 1
+  - id: 259459
+    kind: 3
+    kind_id: 22215
+    language: 1
+    name: "Sunday Funday - The Ride (USA) (Unl)"
+    source: no-intro
   assets:
   - asset:
       id: 22197
       kind: 3
       kind_id: 22215
       type: 1
-      name: Sunday Funday (U).nes
+      name: "Sunday Funday - The Ride (USA) (Unl).nes"
       format: 1
       size: 262160
       blob_id: 67543
-      debug: "Sunday Funday (U).zip\nSunday Funday (Unl) [!p].zip\n欢乐星期日 (美版) (动作)-Sunday Funday - The Ride (USA) (Unl) + Sunday Funday (Wisdom Tree) [!].nes"
+      debug: "Sunday Funday (U).zip\nSunday Funday (Unl) [!p].zip\n欢乐星期日 (美版) (动作)-Sunday Funday - The Ride (USA) (Unl) + Sunday Funday (Wisdom Tree) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=2fa3c27f43e4649d00f70b921b1022b662bc1652"
+  - asset:
+      id: 139788
+      kind: 3
+      kind_id: 22215
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Sunday%20Funday%20-%20The%20Ride%20%28USA%29%20%28Unl%29.png
+      format: 1
+      size: 1634
+      blob_id: 325165
+      debug: libretro-named-titles:rom-asset=22197:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Sunday%20Funday%20-%20The%20Ride%20%28USA%29%20%28Unl%29.png

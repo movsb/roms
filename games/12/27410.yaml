@@ -13,6 +13,12 @@ names:
   language: 1
   name: "Doraemon - Chao Shikong Lixian"
   source: codex
+- id: 262640
+  kind: 2
+  kind_id: 27410
+  language: 1
+  name: "Doraemon - Chao Shikong Lixian"
+  source: no-intro
 releases:
 - release:
     id: 27410
@@ -23,14 +29,33 @@ releases:
     kind_id: 27410
     language: 2
     name: 哆啦A梦之时空机器大冒险
+  - id: 260236
+    kind: 3
+    kind_id: 27410
+    language: 1
+    name: "Doraemon - Chao Shikong Lixian (China) (Aftermarket) (Pirate)"
+    source: no-intro
   assets:
   - asset:
       id: 27392
       kind: 3
       kind_id: 27410
       type: 1
-      name: 哆啦A梦之时空机器大冒险.nes
+      name: "Doraemon - Chao Shikong Lixian (China) (Aftermarket) (Pirate).nes"
       format: 1
       size: 524304
       blob_id: 72266
-      debug: 哆啦A梦之时空机器大冒险.zip
+      debug: |-
+        哆啦A梦之时空机器大冒险.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=5cf39454c43eb8c9267c20e5d09df4664e10ab73
+  - asset:
+      id: 140041
+      kind: 3
+      kind_id: 27410
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Doraemon%20-%20Chao%20Shikong%20Lixian%20%28China%29%20%28Aftermarket%29%20%28Pirate%29.png
+      format: 1
+      size: 1425
+      blob_id: 325385
+      debug: libretro-named-titles:rom-asset=27392:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Doraemon%20-%20Chao%20Shikong%20Lixian%20%28China%29%20%28Aftermarket%29%20%28Pirate%29.png

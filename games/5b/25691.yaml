@@ -27,6 +27,7 @@ releases:
     kind_id: 25691
     language: 1
     name: Wacky Races (U) [!p]
+    deprecated: 1
   - id: 71423
     kind: 3
     kind_id: 25691
@@ -37,19 +38,38 @@ releases:
     kind_id: 25691
     language: 1
     name: Wacky Races (U) [!]
+    deprecated: 1
+  - id: 259778
+    kind: 3
+    kind_id: 25691
+    language: 1
+    name: Wacky Races (USA)
+    source: no-intro
   assets:
   - asset:
       id: 25673
       kind: 3
       kind_id: 25691
       type: 1
-      name: Wacky Races (U) [!p].nes
+      name: Wacky Races (USA).nes
       format: 1
       size: 262160
       blob_id: 70869
       debug: |-
         Wacky Races (U) [!p].zip
         顽皮狗 (美版) (动作)-Wacky Races (USA) + Wacky Races (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=ad84f67afe85e87d055e14c67c563e8307f6cd09
+  - asset:
+      id: 139886
+      kind: 3
+      kind_id: 25691
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Wacky%20Races%20%28USA%29.png
+      format: 1
+      size: 1797
+      blob_id: 324240
+      debug: libretro-named-titles:rom-asset=25673:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Wacky%20Races%20%28USA%29.png
 - release:
     id: 25692
     game_id: 25691
@@ -99,17 +119,26 @@ releases:
     kind_id: 25698
     language: 1
     name: Wacky Races (U)
+    deprecated: 1
+  - id: 259779
+    kind: 3
+    kind_id: 25698
+    language: 1
+    name: Wacky Races (USA)
+    source: no-intro
   assets:
   - asset:
       id: 25680
       kind: 3
       kind_id: 25698
       type: 1
-      name: Wacky Races (U).nes
+      name: Wacky Races (USA).nes
       format: 1
       size: 262160
       blob_id: 70876
-      debug: Wacky Races (U).zip
+      debug: |-
+        Wacky Races (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=ad84f67afe85e87d055e14c67c563e8307f6cd09
   - asset:
       id: 138755
       kind: 3

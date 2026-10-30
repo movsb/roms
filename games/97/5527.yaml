@@ -12,11 +12,18 @@ names:
   kind_id: 5527
   language: 1
   name: Adventures of Rocky and Bullwinkle and Friends, The (U) [!]
+  deprecated: 1
 - id: 91217
   kind: 2
   kind_id: 5527
   language: 1
   name: Adventures of Rocky and Bullwinkle and Friends, The
+- id: 261491
+  kind: 2
+  kind_id: 5527
+  language: 1
+  name: Adventures of Rocky and Bullwinkle and Friends, The
+  source: no-intro
 releases:
 - release:
     id: 5527
@@ -27,18 +34,25 @@ releases:
     kind_id: 5527
     language: 1
     name: Adventures of Rocky and Bullwinkle and Friends, The (U) [!]
+    deprecated: 1
   - id: 70807
     kind: 3
     kind_id: 5527
     language: 2
     name: 波波鹿与飞天鼠 (美版) (动作)-Adventures of Rocky and Bullwinkle and Friends, The (USA)
+  - id: 257611
+    kind: 3
+    kind_id: 5527
+    language: 1
+    name: Adventures of Rocky and Bullwinkle and Friends, The (USA)
+    source: no-intro
   assets:
   - asset:
       id: 5509
       kind: 3
       kind_id: 5527
       type: 1
-      name: Adventures of Rocky and Bullwinkle and Friends, The (U) [!].nes
+      name: Adventures of Rocky and Bullwinkle and Friends, The (USA).nes
       format: 1
       size: 262160
       blob_id: 51816
@@ -46,6 +60,7 @@ releases:
         Adventures of Rocky and Bullwinkle and Friends, The (U) [!].zip
         重复的/波波鹿与飞天鼠 (美版) (动作)-Adventures of Rocky and Bullwinkle and Friends, The (USA) + Adventures of Rocky and Bullwinkle and Friends, The (U) [!].nes
         麋鹿与松鼠.nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=44fc14813924b380f94367818fe8dca96db9ee4b
   - asset:
       id: 136700
       kind: 3
@@ -66,17 +81,26 @@ releases:
     kind_id: 5539
     language: 1
     name: Adventures of Rocky and Bullwinkle and Friends, The (U)
+    deprecated: 1
+  - id: 257612
+    kind: 3
+    kind_id: 5539
+    language: 1
+    name: Adventures of Rocky and Bullwinkle and Friends, The (USA)
+    source: no-intro
   assets:
   - asset:
       id: 5521
       kind: 3
       kind_id: 5539
       type: 1
-      name: Adventures of Rocky and Bullwinkle and Friends, The (U).nes
+      name: Adventures of Rocky and Bullwinkle and Friends, The (USA).nes
       format: 1
       size: 262160
       blob_id: 51828
-      debug: Adventures of Rocky and Bullwinkle and Friends, The (U).zip
+      debug: |-
+        Adventures of Rocky and Bullwinkle and Friends, The (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=44fc14813924b380f94367818fe8dca96db9ee4b
   - asset:
       id: 138432
       kind: 3

@@ -13,6 +13,12 @@ names:
   language: 2
   name: 最佳职业棒球
   source: codex
+- id: 261555
+  kind: 2
+  kind_id: 6878
+  language: 1
+  name: Best Play Pro Yakyuu
+  source: no-intro
 releases:
 - release:
     id: 6878
@@ -23,17 +29,26 @@ releases:
     kind_id: 6878
     language: 1
     name: Best Play Pro Yakyuu (J) [!]
+    deprecated: 1
+  - id: 257762
+    kind: 3
+    kind_id: 6878
+    language: 1
+    name: Best Play Pro Yakyuu (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 6860
       kind: 3
       kind_id: 6878
       type: 1
-      name: Best Play Pro Yakyuu (J) [!].nes
+      name: Best Play Pro Yakyuu (Japan).nes
       format: 1
       size: 163856
       blob_id: 53089
-      debug: Best Play Pro Yakyuu (J) [!].nes
+      debug: |-
+        Best Play Pro Yakyuu (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=79adbdabc63c17df8ada9cef5396ced8bd5bcf0e
   - asset:
       id: 136721
       kind: 3
@@ -54,14 +69,34 @@ releases:
     kind_id: 6882
     language: 1
     name: Best Play Pro Yakyuu (Shin Data) (J) (REVA) [!]
+    deprecated: 1
+  - id: 257763
+    kind: 3
+    kind_id: 6882
+    language: 1
+    name: Best Play Pro Yakyuu (Japan) (Rev 1)
+    source: no-intro
   assets:
   - asset:
       id: 6864
       kind: 3
       kind_id: 6882
       type: 1
-      name: Best Play Pro Yakyuu (Shin Data) (J) (REVA) [!].nes
+      name: Best Play Pro Yakyuu (Japan) (Rev 1).nes
       format: 1
       size: 163856
       blob_id: 53093
-      debug: Best Play Pro Yakyuu (Shin Data) (J) (REVA) [!].nes
+      debug: |-
+        Best Play Pro Yakyuu (Shin Data) (J) (REVA) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=4ff9772497e604216463904b0572e3f1c6a87177
+  - asset:
+      id: 139323
+      kind: 3
+      kind_id: 6882
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Best%20Play%20Pro%20Yakyuu%20%28Japan%29%20%28Rev%201%29.png
+      format: 1
+      size: 4243
+      blob_id: 324773
+      debug: libretro-named-titles:rom-asset=6864:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Best%20Play%20Pro%20Yakyuu%20%28Japan%29%20%28Rev%201%29.png

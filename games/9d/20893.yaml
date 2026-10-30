@@ -72,6 +72,7 @@ releases:
     kind_id: 20895
     language: 1
     name: Secret Ties (U) (Prototype)
+    deprecated: 1
   - id: 68322
     kind: 3
     kind_id: 20895
@@ -82,13 +83,19 @@ releases:
     kind_id: 20895
     language: 2
     name: 神秘领带 (美版) (动作)-Secret Ties (USA) (Proto)
+  - id: 259275
+    kind: 3
+    kind_id: 20895
+    language: 1
+    name: Secret Ties (USA) (Proto)
+    source: no-intro
   assets:
   - asset:
       id: 20877
       kind: 3
       kind_id: 20895
       type: 1
-      name: Secret Ties (U) (Prototype).nes
+      name: Secret Ties (USA) (Proto).nes
       format: 1
       size: 262160
       blob_id: 66320
@@ -96,3 +103,15 @@ releases:
         Secret Ties (U) (Prototype).zip
         神秘之结.zip
         神秘领带 (美版) (动作)-Secret Ties (USA) (Proto) + Secret Ties (U) (Prototype).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=b10594e7cbb7ce95bd57667e2db62cc9b4810432
+  - asset:
+      id: 139734
+      kind: 3
+      kind_id: 20895
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Secret%20Ties%20%28USA%29%20%28Proto%29.png
+      format: 1
+      size: 2364
+      blob_id: 325116
+      debug: libretro-named-titles:rom-asset=20877:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Secret%20Ties%20%28USA%29%20%28Proto%29.png

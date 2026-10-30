@@ -7,12 +7,19 @@ names:
   kind_id: 15174
   language: 1
   name: Ling Jie Hu Fa (ES-1099) (Ch) (Decrypted)
+  deprecated: 1
 - id: 248079
   kind: 2
   kind_id: 15174
   language: 2
   name: 灵界护法
   source: codex
+- id: 261853
+  kind: 2
+  kind_id: 15174
+  language: 1
+  name: "Lingjie Hufa - Shock"
+  source: no-intro
 releases:
 - release:
     id: 15174
@@ -23,14 +30,34 @@ releases:
     kind_id: 15174
     language: 1
     name: Ling Jie Hu Fa (ES-1099) (Ch) (Decrypted)
+    deprecated: 1
+  - id: 258647
+    kind: 3
+    kind_id: 15174
+    language: 1
+    name: "Lingjie Hufa - Shock (China) (Unl)"
+    source: no-intro
   assets:
   - asset:
       id: 15156
       kind: 3
       kind_id: 15174
       type: 1
-      name: Ling Jie Hu Fa (ES-1099) (Ch) (Decrypted).nes
+      name: "Lingjie Hufa - Shock (China) (Unl).nes"
       format: 1
       size: 524304
       blob_id: 60893
-      debug: Ling Jie Hu Fa (ES-1099) (Ch) (Decrypted).nes
+      debug: |-
+        Ling Jie Hu Fa (ES-1099) (Ch) (Decrypted).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=168326d39a5a4d01baa7be373e43cc563bd61259
+  - asset:
+      id: 139519
+      kind: 3
+      kind_id: 15174
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Lingjie%20Hufa%20-%20Shock%20%28China%29%20%28Unl%29.png
+      format: 1
+      size: 6723
+      blob_id: 324942
+      debug: libretro-named-titles:rom-asset=15156:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Lingjie%20Hufa%20-%20Shock%20%28China%29%20%28Unl%29.png

@@ -12,11 +12,18 @@ names:
   kind_id: 8427
   language: 1
   name: Championship Pool (U) [!]
+  deprecated: 1
 - id: 91515
   kind: 2
   kind_id: 8427
   language: 1
   name: Championship Pool
+- id: 261586
+  kind: 2
+  kind_id: 8427
+  language: 1
+  name: Championship Pool
+  source: no-intro
 releases:
 - release:
     id: 8427
@@ -27,23 +34,31 @@ releases:
     kind_id: 8427
     language: 1
     name: Championship Pool (U) [!]
+    deprecated: 1
   - id: 17846
     kind: 3
     kind_id: 8427
     language: 1
     name: Championship Pool (U)
+    deprecated: 1
   - id: 65373
     kind: 3
     kind_id: 8427
     language: 2
     name: 撞球锦标赛 (美版) (运动)-Championship Pool (USA)
+  - id: 257879
+    kind: 3
+    kind_id: 8427
+    language: 1
+    name: Championship Pool (USA)
+    source: no-intro
   assets:
   - asset:
       id: 8409
       kind: 3
       kind_id: 8427
       type: 1
-      name: Championship Pool (U) [!].nes
+      name: Championship Pool (USA).nes
       format: 1
       size: 131088
       blob_id: 54565
@@ -51,6 +66,7 @@ releases:
         Championship Pool (U) [!].zip
         Championship Pool (U).zip
         撞球锦标赛 (美版) (运动)-Championship Pool (USA) + Championship Pool (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=3f461c8a3056dfb168e3cd6067a36605f3b1fae8
   - asset:
       id: 136764
       kind: 3

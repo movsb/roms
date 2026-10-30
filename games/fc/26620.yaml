@@ -12,6 +12,13 @@ names:
   kind_id: 26620
   language: 1
   name: Ying Xiong Yuan Yi Jing Chuan Qi (Ch)
+  deprecated: 1
+- id: 262355
+  kind: 2
+  kind_id: 26620
+  language: 1
+  name: Yingxiong Yuan Yi Jing Chuanqi
+  source: no-intro
 releases:
 - release:
     id: 26620
@@ -27,14 +34,32 @@ releases:
     kind_id: 26620
     language: 1
     name: Ying Xiong Yuan Yi Jing Chuan Qi (Ch)
+    deprecated: 1
+  - id: 259915
+    kind: 3
+    kind_id: 26620
+    language: 1
+    name: Yingxiong Yuan Yi Jing Chuanqi (China) (Aftermarket) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 26602
       kind: 3
       kind_id: 26620
       type: 1
-      name: "[恒格电子] 英雄源义经传奇 + Ying Xiong Yuan Yi Jing Chuan Qi (Ch).nes"
+      name: Yingxiong Yuan Yi Jing Chuanqi (China) (Aftermarket) (Pirate).nes
       format: 1
       size: 262160
       blob_id: 71743
-      debug: "[恒格电子] 英雄源义经传奇 + Ying Xiong Yuan Yi Jing Chuan Qi (Ch).nes"
+      debug: "[恒格电子] 英雄源义经传奇 + Ying Xiong Yuan Yi Jing Chuan Qi (Ch).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=c4df1dff6ad1f6194bff1e5333073edf0c178d7d"
+  - asset:
+      id: 139947
+      kind: 3
+      kind_id: 26620
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Yingxiong%20Yuan%20Yi%20Jing%20Chuanqi%20%28China%29%20%28Aftermarket%29%20%28Pirate%29.png
+      format: 1
+      size: 8025
+      blob_id: 325307
+      debug: libretro-named-titles:rom-asset=26602:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Yingxiong%20Yuan%20Yi%20Jing%20Chuanqi%20%28China%29%20%28Aftermarket%29%20%28Pirate%29.png

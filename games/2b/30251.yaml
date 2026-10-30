@@ -12,6 +12,13 @@ names:
   kind_id: 30251
   language: 1
   name: High Speed (E) [!]
+  deprecated: 1
+- id: 263674
+  kind: 2
+  kind_id: 30251
+  language: 1
+  name: High Speed
+  source: no-intro
 releases:
 - release:
     id: 30251
@@ -27,17 +34,26 @@ releases:
     kind_id: 30251
     language: 1
     name: High Speed (E) [!]
+    deprecated: 1
+  - id: 261372
+    kind: 3
+    kind_id: 30251
+    language: 1
+    name: High Speed (Europe)
+    source: no-intro
   assets:
   - asset:
       id: 30233
       kind: 3
       kind_id: 30251
       type: 1
-      name: 高速弹珠台 (欧版) (桌面平台)-High Speed (Europe) + High Speed (E) [!].nes
+      name: High Speed (Europe).nes
       format: 1
       size: 196624
       blob_id: 74090
-      debug: 高速弹珠台 (欧版) (桌面平台)-High Speed (Europe) + High Speed (E) [!].nes
+      debug: |-
+        高速弹珠台 (欧版) (桌面平台)-High Speed (Europe) + High Speed (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=c77ef94a6402a0c7a55c8f45367fafa62f05a0d1
   - asset:
       id: 138084
       kind: 3

@@ -12,6 +12,13 @@ names:
   kind_id: 29108
   language: 1
   name: Hunt for Red October, The (E) [!]
+  deprecated: 1
+- id: 263240
+  kind: 2
+  kind_id: 29108
+  language: 1
+  name: Hunt for Red October, The
+  source: no-intro
 releases:
 - release:
     id: 29108
@@ -27,17 +34,26 @@ releases:
     kind_id: 29108
     language: 1
     name: Hunt for Red October, The (E) [!]
+    deprecated: 1
+  - id: 260911
+    kind: 3
+    kind_id: 29108
+    language: 1
+    name: Hunt for Red October, The (Europe)
+    source: no-intro
   assets:
   - asset:
       id: 29090
       kind: 3
       kind_id: 29108
       type: 1
-      name: 猎杀红色十月 (欧版) (射击)-Hunt for Red October, The (Europe) + Hunt for Red October, The (E) [!].nes
+      name: Hunt for Red October, The (Europe).nes
       format: 1
       size: 262160
       blob_id: 73378
-      debug: 猎杀红色十月 (欧版) (射击)-Hunt for Red October, The (Europe) + Hunt for Red October, The (E) [!].nes
+      debug: |-
+        猎杀红色十月 (欧版) (射击)-Hunt for Red October, The (Europe) + Hunt for Red October, The (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=501f41735b20df391733b1a21db3a3144bd06c79
   - asset:
       id: 137869
       kind: 3

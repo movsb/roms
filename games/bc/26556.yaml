@@ -7,12 +7,19 @@ names:
   kind_id: 26556
   language: 1
   name: Zu Qiu Xiao Jiang (Ch)
+  deprecated: 1
 - id: 248966
   kind: 2
   kind_id: 26556
   language: 2
   name: 足球小将
   source: codex
+- id: 262333
+  kind: 2
+  kind_id: 26556
+  language: 1
+  name: Zuqiu Ziaojiang
+  source: no-intro
 releases:
 - release:
     id: 26556
@@ -23,14 +30,34 @@ releases:
     kind_id: 26556
     language: 1
     name: Zu Qiu Xiao Jiang (Ch)
+    deprecated: 1
+  - id: 259890
+    kind: 3
+    kind_id: 26556
+    language: 1
+    name: Zuqiu Ziaojiang (China) (Aftermarket) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 26538
       kind: 3
       kind_id: 26556
       type: 1
-      name: Zu Qiu Xiao Jiang (Ch).nes
+      name: Zuqiu Ziaojiang (China) (Aftermarket) (Pirate).nes
       format: 1
       size: 786448
       blob_id: 71680
-      debug: Zu Qiu Xiao Jiang (Ch).nes
+      debug: |-
+        Zu Qiu Xiao Jiang (Ch).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=a43a2203f4f7e0fe729ce520fbd75a05206ac9f2
+  - asset:
+      id: 139926
+      kind: 3
+      kind_id: 26556
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Zuqiu%20Ziaojiang%20%28China%29%20%28Aftermarket%29%20%28Pirate%29.png
+      format: 1
+      size: 5231
+      blob_id: 325290
+      debug: libretro-named-titles:rom-asset=26538:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Zuqiu%20Ziaojiang%20%28China%29%20%28Aftermarket%29%20%28Pirate%29.png

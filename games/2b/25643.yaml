@@ -7,12 +7,19 @@ names:
   kind_id: 25643
   language: 1
   name: Volshebnaya Palitra (R) [!]
+  deprecated: 1
 - id: 248866
   kind: 2
   kind_id: 25643
   language: 2
   name: 魔法调色板
   source: codex
+- id: 262280
+  kind: 2
+  kind_id: 25643
+  language: 1
+  name: Volshebnaya Palitra
+  source: no-intro
 releases:
 - release:
     id: 25643
@@ -23,17 +30,26 @@ releases:
     kind_id: 25643
     language: 1
     name: Volshebnaya Palitra (R) [!]
+    deprecated: 1
+  - id: 259768
+    kind: 3
+    kind_id: 25643
+    language: 1
+    name: Volshebnaya Palitra (Russia) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 25625
       kind: 3
       kind_id: 25643
       type: 1
-      name: Volshebnaya Palitra (R) [!].nes
+      name: Volshebnaya Palitra (Russia) (Pirate).nes
       format: 1
       size: 32784
       blob_id: 70826
-      debug: Volshebnaya Palitra (R) [!].nes
+      debug: |-
+        Volshebnaya Palitra (R) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=e4414c160c7e91136c62d99154336035e5636eeb
   - asset:
       id: 137454
       kind: 3

@@ -12,11 +12,18 @@ names:
   kind_id: 12093
   language: 1
   name: Game Party (J)
+  deprecated: 1
 - id: 91946
   kind: 2
   kind_id: 12093
   language: 1
   name: Game Party
+- id: 261726
+  kind: 2
+  kind_id: 12093
+  language: 1
+  name: Game Party
+  source: no-intro
 releases:
 - release:
     id: 12094
@@ -28,6 +35,7 @@ releases:
     kind_id: 12094
     language: 1
     name: Game Party (Japan) (Translated En)
+    deprecated: 1
   - id: 67069
     kind: 3
     kind_id: 12094
@@ -38,6 +46,13 @@ releases:
     kind_id: 12094
     language: 1
     name: Game Party (J)
+    deprecated: 1
+  - id: 258281
+    kind: 3
+    kind_id: 12094
+    language: 1
+    name: Game Party (Japan)
+    source: no-intro
   release_publishers:
   - release_id: 12094
     publisher_id: 133
@@ -47,13 +62,14 @@ releases:
       kind: 3
       kind_id: 12094
       type: 1
-      name: Game Party (Japan) (Translated En).nes
+      name: Game Party (Japan).nes
       format: 1
       size: 262160
       blob_id: 58014
       debug: |-
         Game Party (Japan) (Translated En).zip
         游戏派对 (日版) (运动)-Game Party (Japan) + Game Party (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=088f8f85fdd33ec2ef1ebb0374d33ffc634a397d
   - asset:
       id: 138413
       kind: 3

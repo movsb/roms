@@ -12,6 +12,13 @@ names:
   kind_id: 30237
   language: 1
   name: Golf Grand Slam (J) [!]
+  deprecated: 1
+- id: 263666
+  kind: 2
+  kind_id: 30237
+  language: 1
+  name: Golf Grand Slam
+  source: no-intro
 releases:
 - release:
     id: 30237
@@ -27,17 +34,26 @@ releases:
     kind_id: 30237
     language: 1
     name: Golf Grand Slam (J) [!]
+    deprecated: 1
+  - id: 261364
+    kind: 3
+    kind_id: 30237
+    language: 1
+    name: Golf Grand Slam (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 30219
       kind: 3
       kind_id: 30237
       type: 1
-      name: 高尔夫大满贯 (日版) (运动)-Golf Grand Slam (Japan) + Golf Grand Slam (J) [!].nes
+      name: Golf Grand Slam (Japan).nes
       format: 1
       size: 262160
       blob_id: 74081
-      debug: 高尔夫大满贯 (日版) (运动)-Golf Grand Slam (Japan) + Golf Grand Slam (J) [!].nes
+      debug: |-
+        高尔夫大满贯 (日版) (运动)-Golf Grand Slam (Japan) + Golf Grand Slam (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=cff9fe0d8f2e9490e1da787a93fcef88d83153ca
   - asset:
       id: 138078
       kind: 3

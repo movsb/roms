@@ -12,6 +12,13 @@ names:
   kind_id: 28403
   language: 1
   name: Shu Ma Zhan Dui II (NJ006) (Ch)
+  deprecated: 1
+- id: 262992
+  kind: 2
+  kind_id: 28403
+  language: 1
+  name: Shuma Zhandui II
+  source: no-intro
 releases:
 - release:
     id: 28403
@@ -27,14 +34,34 @@ releases:
     kind_id: 28403
     language: 1
     name: Shu Ma Zhan Dui II (NJ006) (Ch)
+    deprecated: 1
+  - id: 260619
+    kind: 3
+    kind_id: 28403
+    language: 1
+    name: Shuma Zhandui II (China) (Aftermarket) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 28385
       kind: 3
       kind_id: 28403
       type: 1
-      name: 数码战队2[南晶科技] + Shu Ma Zhan Dui II (NJ006) (Ch).nes
+      name: Shuma Zhandui II (China) (Aftermarket) (Pirate).nes
       format: 1
       size: 2097168
       blob_id: 72919
-      debug: 数码战队2[南晶科技] + Shu Ma Zhan Dui II (NJ006) (Ch).nes
+      debug: |-
+        数码战队2[南晶科技] + Shu Ma Zhan Dui II (NJ006) (Ch).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=2aed62fb48e946cd4a5647eaccd99b74118efbd0
+  - asset:
+      id: 140118
+      kind: 3
+      kind_id: 28403
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Shuma%20Zhandui%20II%20%28China%29%20%28Aftermarket%29%20%28Pirate%29.png
+      format: 1
+      size: 4598
+      blob_id: 325455
+      debug: libretro-named-titles:rom-asset=28385:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Shuma%20Zhandui%20II%20%28China%29%20%28Aftermarket%29%20%28Pirate%29.png

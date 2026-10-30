@@ -12,6 +12,13 @@ names:
   kind_id: 27579
   language: 1
   name: "Daiku no Gen San 2 - Akage no Dan no Gyakushuu (J)"
+  deprecated: 1
+- id: 262697
+  kind: 2
+  kind_id: 27579
+  language: 1
+  name: "Daiku no Gen-san 2 - Akage no Dan no Gyakushuu"
+  source: no-intro
 releases:
 - release:
     id: 27579
@@ -27,14 +34,32 @@ releases:
     kind_id: 27579
     language: 1
     name: "Daiku no Gen San 2 - Akage no Dan no Gyakushuu (J)"
+    deprecated: 1
+  - id: 260301
+    kind: 3
+    kind_id: 27579
+    language: 1
+    name: "Daiku no Gen-san 2 - Akage no Dan no Gyakushuu (Japan)"
+    source: no-intro
   assets:
   - asset:
       id: 27561
       kind: 3
       kind_id: 27579
       type: 1
-      name: "大力工头 II (日版) (动作)-Daiku no Gen San 2 - Akage no Dan no Gyakushuu (Japan) + Daiku no Gen San 2 - Akage no Dan no Gyakushuu (J).nes"
+      name: "Daiku no Gen-san 2 - Akage no Dan no Gyakushuu (Japan).nes"
       format: 1
       size: 524304
       blob_id: 72377
-      debug: "大力工头 II (日版) (动作)-Daiku no Gen San 2 - Akage no Dan no Gyakushuu (Japan) + Daiku no Gen San 2 - Akage no Dan no Gyakushuu (J).nes"
+      debug: "大力工头 II (日版) (动作)-Daiku no Gen San 2 - Akage no Dan no Gyakushuu (Japan) + Daiku no Gen San 2 - Akage no Dan no Gyakushuu (J).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=f5266495334149bd825941622cdaa84359a51187"
+  - asset:
+      id: 140057
+      kind: 3
+      kind_id: 27579
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Daiku%20no%20Gen-san%202%20-%20Akage%20no%20Dan%20no%20Gyakushuu%20%28Japan%29.png
+      format: 1
+      size: 2087
+      blob_id: 325399
+      debug: libretro-named-titles:rom-asset=27561:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Daiku%20no%20Gen-san%202%20-%20Akage%20no%20Dan%20no%20Gyakushuu%20%28Japan%29.png

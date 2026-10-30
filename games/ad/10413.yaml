@@ -22,17 +22,37 @@ releases:
     kind_id: 10413
     language: 1
     name: Dragon Buster (J) (VC)
+    deprecated: 1
+  - id: 258087
+    kind: 3
+    kind_id: 10413
+    language: 1
+    name: Dragon Buster (Japan) (Virtual Console)
+    source: no-intro
   assets:
   - asset:
       id: 10395
       kind: 3
       kind_id: 10413
       type: 1
-      name: Dragon Buster (J) (VC).nes
+      name: Dragon Buster (Japan) (Virtual Console).nes
       format: 1
       size: 163856
       blob_id: 56429
-      debug: Dragon Buster (J) (VC).nes
+      debug: |-
+        Dragon Buster (J) (VC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=c58a0007a51866983ac58d89e713ea68c151191f
+  - asset:
+      id: 139381
+      kind: 3
+      kind_id: 10413
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Dragon%20Buster%20%28Japan%29%20%28Virtual%20Console%29.png
+      format: 1
+      size: 3008
+      blob_id: 324820
+      debug: libretro-named-titles:rom-asset=10395:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Dragon%20Buster%20%28Japan%29%20%28Virtual%20Console%29.png
 - release:
     id: 10414
     game_id: 10413
@@ -43,16 +63,24 @@ releases:
     kind_id: 10414
     language: 1
     name: Dragon Buster (J) [!]
+    deprecated: 1
   - id: 22562
     kind: 3
     kind_id: 10414
     language: 1
     name: Dragon Buster (Japan)
+    deprecated: 1
   - id: 63866
     kind: 3
     kind_id: 10414
     language: 2
     name: 屠龙战记
+  - id: 258088
+    kind: 3
+    kind_id: 10414
+    language: 1
+    name: Dragon Buster (Japan) (En)
+    source: no-intro
   release_publishers:
   - release_id: 10414
     publisher_id: 4
@@ -62,7 +90,7 @@ releases:
       kind: 3
       kind_id: 10414
       type: 1
-      name: Dragon Buster (J) [!].nes
+      name: Dragon Buster (Japan) (En).nes
       format: 1
       size: 163856
       blob_id: 56430
@@ -70,6 +98,7 @@ releases:
         Dragon Buster (J) [!].nes
         Dragon Buster (Japan).zip
         屠龙战记.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=ef9b45fc0c1c28823840743bc99d96424c0b69cd
   - asset:
       id: 136833
       kind: 3

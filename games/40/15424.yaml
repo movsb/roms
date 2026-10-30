@@ -12,11 +12,19 @@ names:
   kind_id: 15424
   language: 1
   name: M.C Kids (U) [!]
+  deprecated: 1
 - id: 92352
   kind: 2
   kind_id: 15424
   language: 1
   name: M.C Kids
+  deprecated: 1
+- id: 261863
+  kind: 2
+  kind_id: 15424
+  language: 1
+  name: M.C. Kids
+  source: no-intro
 releases:
 - release:
     id: 15424
@@ -27,24 +35,32 @@ releases:
     kind_id: 15424
     language: 1
     name: M.C Kids (U) [!]
+    deprecated: 1
   - id: 72155
     kind: 3
     kind_id: 15424
     language: 2
     name: 麦当劳小子 (美版) (动作)-M.C. Kids (USA)
+  - id: 258683
+    kind: 3
+    kind_id: 15424
+    language: 1
+    name: M.C. Kids (USA)
+    source: no-intro
   assets:
   - asset:
       id: 15406
       kind: 3
       kind_id: 15424
       type: 1
-      name: M.C Kids (U) [!].nes
+      name: M.C. Kids (USA).nes
       format: 1
       size: 262160
       blob_id: 61124
       debug: |-
         M.C Kids (U) [!].zip
         麦当劳小子 (美版) (动作)-M.C. Kids (USA) + M.C Kids (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=f8faa774708e108984158fcd9bbc5482ed7165c4
   - asset:
       id: 137070
       kind: 3

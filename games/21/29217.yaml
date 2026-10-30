@@ -12,6 +12,13 @@ names:
   kind_id: 29217
   language: 1
   name: Master Chu & The Drunkard Hu (Sachen) [!]
+  deprecated: 1
+- id: 263290
+  kind: 2
+  kind_id: 29217
+  language: 1
+  name: Master Chu and the Drunkard Hu
+  source: no-intro
 releases:
 - release:
     id: 29217
@@ -27,14 +34,34 @@ releases:
     kind_id: 29217
     language: 1
     name: Master Chu & The Drunkard Hu (Sachen) [!]
+    deprecated: 1
+  - id: 260963
+    kind: 3
+    kind_id: 29217
+    language: 1
+    name: Master Chu and the Drunkard Hu (Asia) (En) (72 pin cart) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 29199
       kind: 3
       kind_id: 29217
       type: 1
-      name: 盗帅楚留香 (亚洲版) (动作)-Master Chu &amp; Drunkard Hu (Asia) (PAL) (Unl) + Master Chu & The Drunkard Hu (Sachen) [!].nes
+      name: Master Chu and the Drunkard Hu (Asia) (En) (72 pin cart) (Unl).nes
       format: 1
       size: 65552
       blob_id: 73450
-      debug: 盗帅楚留香 (亚洲版) (动作)-Master Chu &amp; Drunkard Hu (Asia) (PAL) (Unl) + Master Chu & The Drunkard Hu (Sachen) [!].nes
+      debug: |-
+        盗帅楚留香 (亚洲版) (动作)-Master Chu &amp; Drunkard Hu (Asia) (PAL) (Unl) + Master Chu & The Drunkard Hu (Sachen) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=dfd04f8090c5788af0676a8ba93de2443fd8ab74
+  - asset:
+      id: 140186
+      kind: 3
+      kind_id: 29217
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Master%20Chu%20and%20the%20Drunkard%20Hu%20%28Asia%29%20%28En%29%20%2872%20pin%20cart%29%20%28Unl%29.png
+      format: 1
+      size: 7642
+      blob_id: 325509
+      debug: libretro-named-titles:rom-asset=29199:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Master%20Chu%20and%20the%20Drunkard%20Hu%20%28Asia%29%20%28En%29%20%2872%20pin%20cart%29%20%28Unl%29.png

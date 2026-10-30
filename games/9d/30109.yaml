@@ -12,6 +12,13 @@ names:
   kind_id: 30109
   language: 1
   name: "ASO - Armored Scrum Object (J) (Beta)"
+  deprecated: 1
+- id: 263614
+  kind: 2
+  kind_id: 30109
+  language: 1
+  name: "ASO - Armored Scrum Object"
+  source: no-intro
 releases:
 - release:
     id: 30109
@@ -27,14 +34,32 @@ releases:
     kind_id: 30109
     language: 1
     name: "ASO - Armored Scrum Object (J) (Beta)"
+    deprecated: 1
+  - id: 261307
+    kind: 3
+    kind_id: 30109
+    language: 1
+    name: "ASO - Armored Scrum Object (Japan) (En) (Sample)"
+    source: no-intro
   assets:
   - asset:
       id: 30091
       kind: 3
       kind_id: 30109
       type: 1
-      name: "阿尔法任务 - 装甲争夺战 (日版)(Beta) (射击)-ASO - Armored Scrum Object (Japan) (Beta) + ASO - Armored Scrum Object (J) (Beta).nes"
+      name: "ASO - Armored Scrum Object (Japan) (En) (Sample).nes"
       format: 1
       size: 65552
       blob_id: 74002
-      debug: "阿尔法任务 - 装甲争夺战 (日版)(Beta) (射击)-ASO - Armored Scrum Object (Japan) (Beta) + ASO - Armored Scrum Object (J) (Beta).nes"
+      debug: "阿尔法任务 - 装甲争夺战 (日版)(Beta) (射击)-ASO - Armored Scrum Object (Japan) (Beta) + ASO - Armored Scrum Object (J) (Beta).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=cc37f837c0ac865f3ff494b474016542534d5bee"
+  - asset:
+      id: 140241
+      kind: 3
+      kind_id: 30109
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/ASO%20-%20Armored%20Scrum%20Object%20%28Japan%29%20%28En%29%20%28Sample%29.png
+      format: 1
+      size: 1638
+      blob_id: 325557
+      debug: libretro-named-titles:rom-asset=30091:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/ASO%20-%20Armored%20Scrum%20Object%20%28Japan%29%20%28En%29%20%28Sample%29.png

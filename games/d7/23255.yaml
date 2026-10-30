@@ -7,12 +7,19 @@ names:
   kind_id: 23255
   language: 1
   name: Super PoPo's Adventure (Unl)
+  deprecated: 1
 - id: 248704
   kind: 2
   kind_id: 23255
   language: 2
   name: 超级波波大冒险
   source: codex
+- id: 262202
+  kind: 2
+  kind_id: 23255
+  language: 1
+  name: Super PoPo's Adventure
+  source: no-intro
 releases:
 - release:
     id: 23255
@@ -23,14 +30,34 @@ releases:
     kind_id: 23255
     language: 1
     name: Super PoPo's Adventure (Unl)
+    deprecated: 1
+  - id: 259540
+    kind: 3
+    kind_id: 23255
+    language: 1
+    name: Super PoPo's Adventure (Asia) (En) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 23237
       kind: 3
       kind_id: 23255
       type: 1
-      name: Super PoPo's Adventure (Unl).nes
+      name: Super PoPo's Adventure (Asia) (En) (Pirate).nes
       format: 1
       size: 262160
       blob_id: 68558
-      debug: Super PoPo's Adventure (Unl).nes
+      debug: |-
+        Super PoPo's Adventure (Unl).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=43f8cadcbe97cc8fa7b54a6383764faa6d314d22
+  - asset:
+      id: 139823
+      kind: 3
+      kind_id: 23255
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Super%20PoPo%27s%20Adventure%20%28Asia%29%20%28En%29%20%28Pirate%29.png
+      format: 1
+      size: 6039
+      blob_id: 325197
+      debug: libretro-named-titles:rom-asset=23237:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Super%20PoPo%27s%20Adventure%20%28Asia%29%20%28En%29%20%28Pirate%29.png

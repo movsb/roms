@@ -7,12 +7,19 @@ names:
   kind_id: 19177
   language: 1
   name: PowerJoy 84-in-1 Split Game 36-Galaga [p1]
+  deprecated: 1
 - id: 249349
   kind: 2
   kind_id: 19177
   language: 2
   name: PowerJoy 84合1：小蜜蜂
   source: codex
+- id: 262008
+  kind: 2
+  kind_id: 19177
+  language: 1
+  name: Galaga
+  source: no-intro
 releases:
 - release:
     id: 19177
@@ -23,14 +30,23 @@ releases:
     kind_id: 19177
     language: 1
     name: PowerJoy 84-in-1 Split Game 36-Galaga [p1]
+    deprecated: 1
+  - id: 259083
+    kind: 3
+    kind_id: 19177
+    language: 1
+    name: Galaga (Asia) (En) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 19159
       kind: 3
       kind_id: 19177
       type: 1
-      name: PowerJoy 84-in-1 Split Game 36-Galaga [p1].nes
+      name: Galaga (Asia) (En) (Pirate).nes
       format: 1
       size: 24592
       blob_id: 64685
-      debug: PowerJoy 84-in-1 Split Game 36-Galaga [p1].nes
+      debug: |-
+        PowerJoy 84-in-1 Split Game 36-Galaga [p1].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=4fbf870cd82642c7f0c873b43630b0dca38a051a

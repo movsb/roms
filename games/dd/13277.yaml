@@ -7,6 +7,7 @@ names:
   kind_id: 13277
   language: 1
   name: HomeAlone2
+  deprecated: 1
 - id: 63757
   kind: 2
   kind_id: 13277
@@ -17,11 +18,18 @@ names:
   kind_id: 13277
   language: 1
   name: "Home Alone 2 - Lost in New York (U) [!]"
+  deprecated: 1
 - id: 92088
   kind: 2
   kind_id: 13277
   language: 1
   name: "Home Alone 2 - Lost in New York"
+- id: 261773
+  kind: 2
+  kind_id: 13277
+  language: 1
+  name: "Home Alone 2 - Lost in New York"
+  source: no-intro
 releases:
 - release:
     id: 13277
@@ -32,32 +40,41 @@ releases:
     kind_id: 13277
     language: 1
     name: "Home Alone 2 - Lost in New York (U) [!]"
+    deprecated: 1
   - id: 29190
     kind: 3
     kind_id: 13277
     language: 1
     name: "Home Alone 2 - Lost in New York (U)"
+    deprecated: 1
   - id: 29206
     kind: 3
     kind_id: 13277
     language: 1
     name: HomeAlone2
+    deprecated: 1
   - id: 63759
     kind: 3
     kind_id: 13277
     language: 2
     name: "小鬼当家 II - 纽约迷途记 (美版) (动作)-Home Alone 2 - Lost in New York (USA)"
+  - id: 258417
+    kind: 3
+    kind_id: 13277
+    language: 1
+    name: "Home Alone 2 - Lost in New York (USA)"
+    source: no-intro
   assets:
   - asset:
       id: 13259
       kind: 3
       kind_id: 13277
       type: 1
-      name: "Home Alone 2 - Lost in New York (U) [!].nes"
+      name: "Home Alone 2 - Lost in New York (USA).nes"
       format: 1
       size: 262160
       blob_id: 59141
-      debug: "Home Alone 2 - Lost in New York (U) [!].zip\nHome Alone 2 - Lost in New York (U).zip\nHomeAlone2.zip\n小鬼当家 II - 纽约迷途记 (美版) (动作)-Home Alone 2 - Lost in New York (USA) + Home Alone 2 - Lost in New York (U) [!].nes"
+      debug: "Home Alone 2 - Lost in New York (U) [!].zip\nHome Alone 2 - Lost in New York (U).zip\nHomeAlone2.zip\n小鬼当家 II - 纽约迷途记 (美版) (动作)-Home Alone 2 - Lost in New York (USA) + Home Alone 2 - Lost in New York (U) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=2f6ec4be3ccc64dd4855924c2699d1bb9b8890b6"
   - asset:
       id: 136963
       kind: 3

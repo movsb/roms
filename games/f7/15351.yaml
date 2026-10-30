@@ -27,27 +27,46 @@ releases:
     kind_id: 15351
     language: 1
     name: Low G Man (U)
+    deprecated: 1
   - id: 34104
     kind: 3
     kind_id: 15351
     language: 1
     name: "Low G Man - The Low Gravity Man (U) [!]"
+    deprecated: 1
   - id: 61868
     kind: 3
     kind_id: 15351
     language: 2
     name: 反重力战士
+  - id: 258677
+    kind: 3
+    kind_id: 15351
+    language: 1
+    name: "Low G Man - The Low Gravity Man (USA)"
+    source: no-intro
   assets:
   - asset:
       id: 15333
       kind: 3
       kind_id: 15351
       type: 1
-      name: Low G Man (U).nes
+      name: "Low G Man - The Low Gravity Man (USA).nes"
       format: 1
       size: 262160
       blob_id: 61055
-      debug: "Low G Man (U).zip\nLow G Man - The Low Gravity Man (U) [!].zip\n反重力战士.nes\n重复的/反重力战士 (美版) (动作)-Low G Man - The Low Gravity Man (USA) + Low G Man - The Low Gravity Man (U) [!].nes"
+      debug: "Low G Man (U).zip\nLow G Man - The Low Gravity Man (U) [!].zip\n反重力战士.nes\n重复的/反重力战士 (美版) (动作)-Low G Man - The Low Gravity Man (USA) + Low G Man - The Low Gravity Man (U) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=93b758fccb9a4d9e69e851172d2647aebabad461"
+  - asset:
+      id: 139530
+      kind: 3
+      kind_id: 15351
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Low%20G%20Man%20-%20The%20Low%20Gravity%20Man%20%28USA%29.png
+      format: 1
+      size: 2117
+      blob_id: 324951
+      debug: libretro-named-titles:rom-asset=15333:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Low%20G%20Man%20-%20The%20Low%20Gravity%20Man%20%28USA%29.png
 - release:
     id: 15352
     game_id: 15351
@@ -97,17 +116,24 @@ releases:
     kind_id: 15356
     language: 1
     name: "Low G Man - The Low Gravity Man (U) [p1]"
+    deprecated: 1
+  - id: 258678
+    kind: 3
+    kind_id: 15356
+    language: 1
+    name: "Low G Man - The Low Gravity Man (Asia) (En) (Pirate)"
+    source: no-intro
   assets:
   - asset:
       id: 15338
       kind: 3
       kind_id: 15356
       type: 1
-      name: "Low G Man - The Low Gravity Man (U) [p1].nes"
+      name: "Low G Man - The Low Gravity Man (Asia) (En) (Pirate).nes"
       format: 1
       size: 262160
       blob_id: 61059
-      debug: "Low G Man - The Low Gravity Man (U) [p1].nes"
+      debug: "Low G Man - The Low Gravity Man (U) [p1].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=9d4572dbaa9e24efb2173dbde88207ab97dcaa94"
 - release:
     id: 15357
     game_id: 15351

@@ -7,6 +7,7 @@ names:
   kind_id: 7413
   language: 1
   name: Break Time (U)
+  deprecated: 1
 - id: 60567
   kind: 2
   kind_id: 7413
@@ -17,11 +18,18 @@ names:
   kind_id: 7413
   language: 1
   name: "Break Time - The National Pool Tour (U) [!]"
+  deprecated: 1
 - id: 91432
   kind: 2
   kind_id: 7413
   language: 1
   name: "Break Time - The National Pool Tour"
+- id: 261573
+  kind: 2
+  kind_id: 7413
+  language: 1
+  name: "Break Time - The National Pool Tour"
+  source: no-intro
 releases:
 - release:
     id: 7413
@@ -32,27 +40,35 @@ releases:
     kind_id: 7413
     language: 1
     name: Break Time (U)
+    deprecated: 1
   - id: 15562
     kind: 3
     kind_id: 7413
     language: 1
     name: "Break Time - The National Pool Tour (U) [!]"
+    deprecated: 1
   - id: 60569
     kind: 3
     kind_id: 7413
     language: 2
     name: "休闲时间 - 全国撞球巡回赛 (美版) (运动)-Break Time - The National Pool Tour (USA)"
+  - id: 257818
+    kind: 3
+    kind_id: 7413
+    language: 1
+    name: "Break Time - The National Pool Tour (USA)"
+    source: no-intro
   assets:
   - asset:
       id: 7395
       kind: 3
       kind_id: 7413
       type: 1
-      name: Break Time (U).nes
+      name: "Break Time - The National Pool Tour (USA).nes"
       format: 1
       size: 163856
       blob_id: 53591
-      debug: "Break Time (U).zip\nBreak Time - The National Pool Tour (U) [!].zip\n休闲时间 - 全国撞球巡回赛 (美版) (运动)-Break Time - The National Pool Tour (USA) + Break Time - The National Pool Tour (U) [!].nes"
+      debug: "Break Time (U).zip\nBreak Time - The National Pool Tour (U) [!].zip\n休闲时间 - 全国撞球巡回赛 (美版) (运动)-Break Time - The National Pool Tour (USA) + Break Time - The National Pool Tour (U) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=4ecac35e6412d1cc0d1ae0881b040553eb38f356"
   - asset:
       id: 138240
       kind: 3

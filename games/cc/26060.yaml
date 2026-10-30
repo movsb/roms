@@ -13,6 +13,12 @@ names:
   language: 2
   name: 世界英雄
   source: codex
+- id: 262310
+  kind: 2
+  kind_id: 26060
+  language: 1
+  name: World Hero
+  source: no-intro
 releases:
 - release:
     id: 26060
@@ -23,16 +29,24 @@ releases:
     kind_id: 26060
     language: 1
     name: World Hero (Unl) [!]
+    deprecated: 1
+  - id: 259827
+    kind: 3
+    kind_id: 26060
+    language: 1
+    name: World Hero (Taiwan) (En) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 26042
       kind: 3
       kind_id: 26060
       type: 1
-      name: World Hero (Unl) [!].nes
+      name: World Hero (Taiwan) (En) (Pirate).nes
       format: 1
       size: 655376
       blob_id: 71209
       debug: |-
         World Hero (Unl) [!].nes
         World Hero (Unl) [!].zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=98b71119294da59d1b22723d2d2955d80eadabf4

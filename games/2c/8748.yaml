@@ -32,17 +32,37 @@ releases:
     kind_id: 8748
     language: 1
     name: City Connection (E) (VC)
+    deprecated: 1
+  - id: 257909
+    kind: 3
+    kind_id: 8748
+    language: 1
+    name: City Connection (Europe) (Virtual Console)
+    source: no-intro
   assets:
   - asset:
       id: 8730
       kind: 3
       kind_id: 8748
       type: 1
-      name: City Connection (E) (VC).nes
+      name: City Connection (Europe) (Virtual Console).nes
       format: 1
       size: 65552
       blob_id: 54868
-      debug: City Connection (E) (VC).nes
+      debug: |-
+        City Connection (E) (VC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=14c4ccf978825ca40a66ce6faf96edf33b0341e4
+  - asset:
+      id: 139353
+      kind: 3
+      kind_id: 8748
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/City%20Connection%20%28Europe%29%20%28Virtual%20Console%29.png
+      format: 1
+      size: 3047
+      blob_id: 324796
+      debug: libretro-named-titles:rom-asset=8730:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/City%20Connection%20%28Europe%29%20%28Virtual%20Console%29.png
 - release:
     id: 8749
     game_id: 8748
@@ -159,23 +179,31 @@ releases:
     kind_id: 8757
     language: 1
     name: City Connection (U) [!]
+    deprecated: 1
   - id: 18638
     kind: 3
     kind_id: 8757
     language: 1
     name: City Connection (U)
+    deprecated: 1
   - id: 68255
     kind: 3
     kind_id: 8757
     language: 2
     name: 碰碰车 (美版) (动作)-City Connection (USA)
+  - id: 257910
+    kind: 3
+    kind_id: 8757
+    language: 1
+    name: City Connection (USA)
+    source: no-intro
   assets:
   - asset:
       id: 8739
       kind: 3
       kind_id: 8757
       type: 1
-      name: City Connection (U) [!].nes
+      name: City Connection (USA).nes
       format: 1
       size: 65552
       blob_id: 54877
@@ -183,6 +211,7 @@ releases:
         City Connection (U) [!].zip
         City Connection (U).zip
         碰碰车 (美版) (动作)-City Connection (USA) + City Connection (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=d77b46806992ae91681791747ec812938a6a185e
   - asset:
       id: 136773
       kind: 3

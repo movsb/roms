@@ -13,6 +13,12 @@ names:
   language: 1
   name: Didao Zhan
   source: codex
+- id: 262685
+  kind: 2
+  kind_id: 27524
+  language: 1
+  name: Didao Zhan
+  source: no-intro
 releases:
 - release:
     id: 27523
@@ -28,13 +34,19 @@ releases:
     kind_id: 27523
     language: 2
     name: 地道战
+  - id: 260287
+    kind: 3
+    kind_id: 27523
+    language: 1
+    name: Didao Zhan (China) (Aftermarket) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 27505
       kind: 3
       kind_id: 27523
       type: 1
-      name: 地道战(汉化版).nes
+      name: Didao Zhan (China) (Aftermarket) (Unl).nes
       format: 1
       size: 524304
       blob_id: 72343
@@ -42,3 +54,15 @@ releases:
         地道战(汉化版).nes
         重复的/地道战 + Di Dao Zhan (Ch).nes
         地道战.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=782f9c478ce9d9de2b748b0662a936f6a415e896
+  - asset:
+      id: 140050
+      kind: 3
+      kind_id: 27523
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Didao%20Zhan%20%28China%29%20%28Aftermarket%29%20%28Unl%29.png
+      format: 1
+      size: 1877
+      blob_id: 325394
+      debug: libretro-named-titles:rom-asset=27505:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Didao%20Zhan%20%28China%29%20%28Aftermarket%29%20%28Unl%29.png

@@ -7,12 +7,19 @@ names:
   kind_id: 20329
   language: 1
   name: Roger Clemens MVP Baseball (U)
+  deprecated: 1
 - id: 248455
   kind: 2
   kind_id: 20329
   language: 2
   name: 罗杰·克莱门斯MVP棒球
   source: codex
+- id: 262061
+  kind: 2
+  kind_id: 20329
+  language: 1
+  name: Roger Clemens' MVP Baseball
+  source: no-intro
 releases:
 - release:
     id: 20329
@@ -23,14 +30,34 @@ releases:
     kind_id: 20329
     language: 1
     name: Roger Clemens MVP Baseball (U)
+    deprecated: 1
+  - id: 259208
+    kind: 3
+    kind_id: 20329
+    language: 1
+    name: Roger Clemens' MVP Baseball (USA)
+    source: no-intro
   assets:
   - asset:
       id: 20311
       kind: 3
       kind_id: 20329
       type: 1
-      name: Roger Clemens MVP Baseball (U).nes
+      name: Roger Clemens' MVP Baseball (USA).nes
       format: 1
       size: 393232
       blob_id: 65779
-      debug: Roger Clemens MVP Baseball (U).zip
+      debug: |-
+        Roger Clemens MVP Baseball (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=f65cc1b8a916e55b8ac025755ac6dc7fa3e40919
+  - asset:
+      id: 139712
+      kind: 3
+      kind_id: 20329
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Roger%20Clemens%27%20MVP%20Baseball%20%28USA%29.png
+      format: 1
+      size: 1752
+      blob_id: 325098
+      debug: libretro-named-titles:rom-asset=20311:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Roger%20Clemens%27%20MVP%20Baseball%20%28USA%29.png

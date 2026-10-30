@@ -153,17 +153,26 @@ releases:
     kind_id: 14645
     language: 1
     name: Kirby's Adventure (F) [!]
+    deprecated: 1
+  - id: 258582
+    kind: 3
+    kind_id: 14645
+    language: 1
+    name: Kirby's Adventure (France)
+    source: no-intro
   assets:
   - asset:
       id: 14627
       kind: 3
       kind_id: 14645
       type: 1
-      name: Kirby's Adventure (F) [!].nes
+      name: Kirby's Adventure (France).nes
       format: 1
       size: 786448
       blob_id: 60396
-      debug: Kirby's Adventure (F) [!].nes
+      debug: |-
+        Kirby's Adventure (F) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=58c55a1f872caac21e1d59badc5f95c31874f740
   - asset:
       id: 137031
       kind: 3
@@ -184,17 +193,37 @@ releases:
     kind_id: 14646
     language: 1
     name: Kirby's Adventure (U) (PRG 0)
+    deprecated: 1
+  - id: 258583
+    kind: 3
+    kind_id: 14646
+    language: 1
+    name: Kirby's Adventure (USA)
+    source: no-intro
   assets:
   - asset:
       id: 14628
       kind: 3
       kind_id: 14646
       type: 1
-      name: Kirby's Adventure (U) (PRG 0).nes
+      name: Kirby's Adventure (USA).nes
       format: 1
       size: 786448
       blob_id: 60397
-      debug: Kirby's Adventure (U) (PRG 0).zip
+      debug: |-
+        Kirby's Adventure (U) (PRG 0).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=32473799f96406d73aa37d5cf66e0e27f1f339da
+  - asset:
+      id: 139498
+      kind: 3
+      kind_id: 14646
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Kirby%27s%20Adventure%20%28USA%29.png
+      format: 1
+      size: 3458
+      blob_id: 324925
+      debug: libretro-named-titles:rom-asset=14628:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Kirby%27s%20Adventure%20%28USA%29.png
 - release:
     id: 14647
     game_id: 13328
@@ -244,22 +273,40 @@ releases:
     kind_id: 14658
     language: 1
     name: Kirby's Adventure (U) (PRG1) [!]
+    deprecated: 1
   - id: 65649
     kind: 3
     kind_id: 14658
     language: 2
     name: "星之卡比 - 梦之泉的传说 (美版)(Rev A) (动作)-Kirbys Adventure (USA) (Rev A)"
+  - id: 258584
+    kind: 3
+    kind_id: 14658
+    language: 1
+    name: Kirby's Adventure (USA) (Rev 1)
+    source: no-intro
   assets:
   - asset:
       id: 14640
       kind: 3
       kind_id: 14658
       type: 1
-      name: Kirby's Adventure (U) (PRG1) [!].nes
+      name: Kirby's Adventure (USA) (Rev 1).nes
       format: 1
       size: 786448
       blob_id: 60409
-      debug: "Kirby's Adventure (U) (PRG1) [!].zip\n星之卡比 - 梦之泉的传说 (美版)(Rev A) (动作)-Kirbys Adventure (USA) (Rev A) + Kirby's Adventure (U) (PRG1) [!].nes"
+      debug: "Kirby's Adventure (U) (PRG1) [!].zip\n星之卡比 - 梦之泉的传说 (美版)(Rev A) (动作)-Kirbys Adventure (USA) (Rev A) + Kirby's Adventure (U) (PRG1) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=118307da6c77a592f0884baad14120301d8d3a1b"
+  - asset:
+      id: 139499
+      kind: 3
+      kind_id: 14658
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Kirby%27s%20Adventure%20%28USA%29%20%28Rev%201%29.png
+      format: 1
+      size: 3458
+      blob_id: 324925
+      debug: libretro-named-titles:rom-asset=14640:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Kirby%27s%20Adventure%20%28USA%29%20%28Rev%201%29.png
 - release:
     id: 28466
     game_id: 13328
@@ -299,17 +346,35 @@ releases:
     kind_id: 28467
     language: 1
     name: Kirby's Adventure (C) [!]
+    deprecated: 1
+  - id: 260649
+    kind: 3
+    kind_id: 28467
+    language: 1
+    name: Kirby's Adventure (Canada) (Fr)
+    source: no-intro
   assets:
   - asset:
       id: 28449
       kind: 3
       kind_id: 28467
       type: 1
-      name: "星之卡比 - 梦之泉的传说 (加拿大版) (动作)-Kirbys Adventure (Canada) + Kirby's Adventure (C) [!].nes"
+      name: Kirby's Adventure (Canada) (Fr).nes
       format: 1
       size: 786448
       blob_id: 72964
-      debug: "星之卡比 - 梦之泉的传说 (加拿大版) (动作)-Kirbys Adventure (Canada) + Kirby's Adventure (C) [!].nes"
+      debug: "星之卡比 - 梦之泉的传说 (加拿大版) (动作)-Kirbys Adventure (Canada) + Kirby's Adventure (C) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=780fb2a9adbaea8fc19c6064551f45e53dd1ddc2"
+  - asset:
+      id: 140121
+      kind: 3
+      kind_id: 28467
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Kirby%27s%20Adventure%20%28Canada%29%20%28Fr%29.png
+      format: 1
+      size: 5360
+      blob_id: 325458
+      debug: libretro-named-titles:rom-asset=28449:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Kirby%27s%20Adventure%20%28Canada%29%20%28Fr%29.png
 - release:
     id: 28468
     game_id: 13328
@@ -324,17 +389,24 @@ releases:
     kind_id: 28468
     language: 1
     name: Kirby's Adventure (G) [!]
+    deprecated: 1
+  - id: 260650
+    kind: 3
+    kind_id: 28468
+    language: 1
+    name: Kirby's Adventure (Germany)
+    source: no-intro
   assets:
   - asset:
       id: 28450
       kind: 3
       kind_id: 28468
       type: 1
-      name: "星之卡比 - 梦之泉的传说 (德版) (动作)-Kirbys Adventure (Germany) + Kirby's Adventure (G) [!].nes"
+      name: Kirby's Adventure (Germany).nes
       format: 1
       size: 786448
       blob_id: 72965
-      debug: "星之卡比 - 梦之泉的传说 (德版) (动作)-Kirbys Adventure (Germany) + Kirby's Adventure (G) [!].nes"
+      debug: "星之卡比 - 梦之泉的传说 (德版) (动作)-Kirbys Adventure (Germany) + Kirby's Adventure (G) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=3f57551528b29c674d2ed928562bf991a8fe2e1f"
   - asset:
       id: 139013
       kind: 3
@@ -360,22 +432,29 @@ releases:
     kind_id: 28469
     language: 1
     name: "Hoshi no Kirby - Yume no Izumi no Monogatari (J) [!]"
+    deprecated: 1
   - id: 65652
     kind: 3
     kind_id: 28469
     language: 2
     name: 星之卡比 梦之泉物语
+  - id: 260651
+    kind: 3
+    kind_id: 28469
+    language: 1
+    name: "Hoshi no Kirby - Yume no Izumi no Monogatari (Japan)"
+    source: no-intro
   assets:
   - asset:
       id: 28451
       kind: 3
       kind_id: 28469
       type: 1
-      name: "星之卡比 - 梦之泉的传说 (日版) (动作)-Hoshi no Kirby - Yume no Izumi no Monogatari (Japan) + Hoshi no Kirby - Yume no Izumi no Monogatari (J) [!].nes"
+      name: "Hoshi no Kirby - Yume no Izumi no Monogatari (Japan).nes"
       format: 1
       size: 786448
       blob_id: 72966
-      debug: "星之卡比 - 梦之泉的传说 (日版) (动作)-Hoshi no Kirby - Yume no Izumi no Monogatari (Japan) + Hoshi no Kirby - Yume no Izumi no Monogatari (J) [!].nes\n星之卡比 梦之泉物语.zip"
+      debug: "星之卡比 - 梦之泉的传说 (日版) (动作)-Hoshi no Kirby - Yume no Izumi no Monogatari (Japan) + Hoshi no Kirby - Yume no Izumi no Monogatari (J) [!].nes\n星之卡比 梦之泉物语.zip\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=bb71a65706f75da8008a1bac02ecae06ea176f1f"
   - asset:
       id: 139014
       kind: 3
@@ -401,17 +480,24 @@ releases:
     kind_id: 28470
     language: 1
     name: Kirby's Adventure (E) [!]
+    deprecated: 1
+  - id: 260652
+    kind: 3
+    kind_id: 28470
+    language: 1
+    name: Kirby's Adventure (Europe)
+    source: no-intro
   assets:
   - asset:
       id: 28452
       kind: 3
       kind_id: 28470
       type: 1
-      name: "星之卡比 - 梦之泉的传说 (欧版) (动作)-Kirbys Adventure (Europe) + Kirby's Adventure (E) [!].nes"
+      name: Kirby's Adventure (Europe).nes
       format: 1
       size: 786448
       blob_id: 72967
-      debug: "星之卡比 - 梦之泉的传说 (欧版) (动作)-Kirbys Adventure (Europe) + Kirby's Adventure (E) [!].nes"
+      debug: "星之卡比 - 梦之泉的传说 (欧版) (动作)-Kirbys Adventure (Europe) + Kirby's Adventure (E) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=0f2883d7d2de3ffbf8a854ea66904d262592ccf9"
   - asset:
       id: 139015
       kind: 3
@@ -432,17 +518,34 @@ releases:
     kind_id: 28471
     language: 2
     name: "星之卡比 - 梦之泉的传说 (法版) (动作)-Kirbys Adventure (France)"
+  - id: 260653
+    kind: 3
+    kind_id: 28471
+    language: 1
+    name: Kirby's Adventure (France)
+    source: no-intro
   assets:
   - asset:
       id: 28453
       kind: 3
       kind_id: 28471
       type: 1
-      name: "星之卡比 - 梦之泉的传说 (法版) (动作)-Kirbys Adventure (France).nes"
+      name: Kirby's Adventure (France).nes
       format: 1
       size: 786448
       blob_id: 72968
-      debug: "星之卡比 - 梦之泉的传说 (法版) (动作)-Kirbys Adventure (France).nes"
+      debug: "星之卡比 - 梦之泉的传说 (法版) (动作)-Kirbys Adventure (France).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=58c55a1f872caac21e1d59badc5f95c31874f740"
+  - asset:
+      id: 140122
+      kind: 3
+      kind_id: 28471
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Kirby%27s%20Adventure%20%28France%29.png
+      format: 1
+      size: 3434
+      blob_id: 325459
+      debug: libretro-named-titles:rom-asset=28453:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Kirby%27s%20Adventure%20%28France%29.png
 - release:
     id: 28472
     game_id: 13328
@@ -457,14 +560,32 @@ releases:
     kind_id: 28472
     language: 1
     name: Kirby's Adventure (U) (PRG0) [!]
+    deprecated: 1
+  - id: 260654
+    kind: 3
+    kind_id: 28472
+    language: 1
+    name: Kirby's Adventure (USA)
+    source: no-intro
   assets:
   - asset:
       id: 28454
       kind: 3
       kind_id: 28472
       type: 1
-      name: "星之卡比 - 梦之泉的传说 (美版) (动作)-Kirbys Adventure (USA) + Kirby's Adventure (U) (PRG0) [!].nes"
+      name: Kirby's Adventure (USA).nes
       format: 1
       size: 786448
       blob_id: 72969
-      debug: "星之卡比 - 梦之泉的传说 (美版) (动作)-Kirbys Adventure (USA) + Kirby's Adventure (U) (PRG0) [!].nes"
+      debug: "星之卡比 - 梦之泉的传说 (美版) (动作)-Kirbys Adventure (USA) + Kirby's Adventure (U) (PRG0) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=32473799f96406d73aa37d5cf66e0e27f1f339da"
+  - asset:
+      id: 140123
+      kind: 3
+      kind_id: 28472
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Kirby%27s%20Adventure%20%28USA%29.png
+      format: 1
+      size: 3458
+      blob_id: 324925
+      debug: libretro-named-titles:rom-asset=28454:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Kirby%27s%20Adventure%20%28USA%29.png

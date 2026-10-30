@@ -13,6 +13,12 @@ names:
   language: 1
   name: "Taiyou no Yuusha - Fighbird"
   source: codex
+- id: 262745
+  kind: 2
+  kind_id: 27719
+  language: 1
+  name: "Taiyou no Yuusha - Fighbird"
+  source: no-intro
 releases:
 - release:
     id: 27719
@@ -23,14 +29,33 @@ releases:
     kind_id: 27719
     language: 2
     name: 太阳勇者
+  - id: 260351
+    kind: 3
+    kind_id: 27719
+    language: 1
+    name: "Taiyou no Yuusha - Fighbird (Japan)"
+    source: no-intro
   assets:
   - asset:
       id: 27701
       kind: 3
       kind_id: 27719
       type: 1
-      name: 太阳勇者.nes
+      name: "Taiyou no Yuusha - Fighbird (Japan).nes"
       format: 1
       size: 262160
       blob_id: 72470
-      debug: 太阳勇者.zip
+      debug: |-
+        太阳勇者.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=7dd93d3b1d3abd4e4b9bac8a4397d1dd68f5fb48
+  - asset:
+      id: 140067
+      kind: 3
+      kind_id: 27719
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Taiyou%20no%20Yuusha%20-%20Fighbird%20%28Japan%29.png
+      format: 1
+      size: 2433
+      blob_id: 325408
+      debug: libretro-named-titles:rom-asset=27701:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Taiyou%20no%20Yuusha%20-%20Fighbird%20%28Japan%29.png

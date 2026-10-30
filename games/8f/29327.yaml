@@ -37,17 +37,35 @@ releases:
     kind_id: 29327
     language: 1
     name: "Kinnikuman - Muscle Tag Match (J) (PRG1) [!]"
+    deprecated: 1
+  - id: 261011
+    kind: 3
+    kind_id: 29327
+    language: 1
+    name: "Kinnikuman - Muscle Tag Match (Japan) (Rev 1)"
+    source: no-intro
   assets:
   - asset:
       id: 29309
       kind: 3
       kind_id: 29327
       type: 1
-      name: 筋肉人摔角.nes
+      name: "Kinnikuman - Muscle Tag Match (Japan) (Rev 1).nes"
       format: 1
       size: 24592
       blob_id: 73523
-      debug: "筋肉人摔角.zip\n金肉人摔角 (日版)(Rev 1) (运动)-Kinnikuman - Muscle Tag Match (Japan) (Rev 1) + Kinnikuman - Muscle Tag Match (J) (PRG1) [!].nes"
+      debug: "筋肉人摔角.zip\n金肉人摔角 (日版)(Rev 1) (运动)-Kinnikuman - Muscle Tag Match (Japan) (Rev 1) + Kinnikuman - Muscle Tag Match (J) (PRG1) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=bfff492a1a6c180d9b1d5633342753fb31161531"
+  - asset:
+      id: 140197
+      kind: 3
+      kind_id: 29327
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Kinnikuman%20-%20Muscle%20Tag%20Match%20%28Japan%29%20%28Rev%201%29.png
+      format: 1
+      size: 1187
+      blob_id: 325518
+      debug: libretro-named-titles:rom-asset=29309:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Kinnikuman%20-%20Muscle%20Tag%20Match%20%28Japan%29%20%28Rev%201%29.png
 - release:
     id: 29328
     game_id: 29327

@@ -12,6 +12,13 @@ names:
   kind_id: 28852
   language: 1
   name: Battleship (E) (M4) [!]
+  deprecated: 1
+- id: 263180
+  kind: 2
+  kind_id: 28852
+  language: 1
+  name: Battleship
+  source: no-intro
 releases:
 - release:
     id: 28852
@@ -27,17 +34,26 @@ releases:
     kind_id: 28852
     language: 1
     name: Battleship (E) (M4) [!]
+    deprecated: 1
+  - id: 260828
+    kind: 3
+    kind_id: 28852
+    language: 1
+    name: Battleship (Europe) (En,Fr,De,Es)
+    source: no-intro
   assets:
   - asset:
       id: 28834
       kind: 3
       kind_id: 28852
       type: 1
-      name: 海战风云 (欧版) (策略)-Battleship (Europe) (En,Fr,De,Es) + Battleship (E) (M4) [!].nes
+      name: Battleship (Europe) (En,Fr,De,Es).nes
       format: 1
       size: 65552
       blob_id: 73218
-      debug: 海战风云 (欧版) (策略)-Battleship (Europe) (En,Fr,De,Es) + Battleship (E) (M4) [!].nes
+      debug: |-
+        海战风云 (欧版) (策略)-Battleship (Europe) (En,Fr,De,Es) + Battleship (E) (M4) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=979b2a67e0487d1120454dd69ec0b9e5fc379687
   - asset:
       id: 137838
       kind: 3

@@ -23,17 +23,26 @@ releases:
     kind_id: 21331
     language: 1
     name: Sky Kid (J) [!]
+    deprecated: 1
+  - id: 259342
+    kind: 3
+    kind_id: 21331
+    language: 1
+    name: Sky Kid (Japan) (En)
+    source: no-intro
   assets:
   - asset:
       id: 21313
       kind: 3
       kind_id: 21331
       type: 1
-      name: Sky Kid (J) [!].nes
+      name: Sky Kid (Japan) (En).nes
       format: 1
       size: 65552
       blob_id: 66720
-      debug: Sky Kid (J) [!].nes
+      debug: |-
+        Sky Kid (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=c8beb2dc507f868bb6bff73b57321dbdc8d6f227
   - asset:
       id: 137311
       kind: 3
@@ -54,17 +63,37 @@ releases:
     kind_id: 21332
     language: 1
     name: Sky Kid (U) (VC)
+    deprecated: 1
+  - id: 259343
+    kind: 3
+    kind_id: 21332
+    language: 1
+    name: Sky Kid (Japan) (Virtual Console)
+    source: no-intro
   assets:
   - asset:
       id: 21314
       kind: 3
       kind_id: 21332
       type: 1
-      name: Sky Kid (U) (VC).nes
+      name: Sky Kid (Japan) (Virtual Console).nes
       format: 1
       size: 65552
       blob_id: 66721
-      debug: Sky Kid (U) (VC).nes
+      debug: |-
+        Sky Kid (U) (VC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=990d591e7ff58cb55327afaee7e03a8579803903
+  - asset:
+      id: 139756
+      kind: 3
+      kind_id: 21332
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Sky%20Kid%20%28Japan%29%20%28Virtual%20Console%29.png
+      format: 1
+      size: 4620
+      blob_id: 325136
+      debug: libretro-named-titles:rom-asset=21314:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Sky%20Kid%20%28Japan%29%20%28Virtual%20Console%29.png
 - release:
     id: 21333
     game_id: 21331

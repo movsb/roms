@@ -12,11 +12,18 @@ names:
   kind_id: 17240
   language: 1
   name: NES Open Tournament Golf (U) [!]
+  deprecated: 1
 - id: 92593
   kind: 2
   kind_id: 17240
   language: 1
   name: NES Open Tournament Golf
+- id: 261945
+  kind: 2
+  kind_id: 17240
+  language: 1
+  name: NES Open Tournament Golf
+  source: no-intro
 releases:
 - release:
     id: 17240
@@ -27,17 +34,37 @@ releases:
     kind_id: 17240
     language: 1
     name: NES Open Tournament Golf (E) (VC)
+    deprecated: 1
+  - id: 258904
+    kind: 3
+    kind_id: 17240
+    language: 1
+    name: NES Open Tournament Golf (Europe) (Virtual Console)
+    source: no-intro
   assets:
   - asset:
       id: 17222
       kind: 3
       kind_id: 17240
       type: 1
-      name: NES Open Tournament Golf (E) (VC).nes
+      name: NES Open Tournament Golf (Europe) (Virtual Console).nes
       format: 1
       size: 262160
       blob_id: 62829
-      debug: NES Open Tournament Golf (E) (VC).nes
+      debug: |-
+        NES Open Tournament Golf (E) (VC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=c842e14f70de9259508b0f385ecd64b67a4a2cbf
+  - asset:
+      id: 139619
+      kind: 3
+      kind_id: 17240
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/NES%20Open%20Tournament%20Golf%20%28Europe%29%20%28Virtual%20Console%29.png
+      format: 1
+      size: 76765
+      blob_id: 325022
+      debug: libretro-named-titles:rom-asset=17222:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/NES%20Open%20Tournament%20Golf%20%28Europe%29%20%28Virtual%20Console%29.png
 - release:
     id: 17241
     game_id: 17240
@@ -47,17 +74,37 @@ releases:
     kind_id: 17241
     language: 1
     name: NES Open Tournament Golf (U) (VC)
+    deprecated: 1
+  - id: 258905
+    kind: 3
+    kind_id: 17241
+    language: 1
+    name: NES Open Tournament Golf (USA) (Virtual Console)
+    source: no-intro
   assets:
   - asset:
       id: 17223
       kind: 3
       kind_id: 17241
       type: 1
-      name: NES Open Tournament Golf (U) (VC).nes
+      name: NES Open Tournament Golf (USA) (Virtual Console).nes
       format: 1
       size: 262160
       blob_id: 62830
-      debug: NES Open Tournament Golf (U) (VC).nes
+      debug: |-
+        NES Open Tournament Golf (U) (VC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=8601e805a8399d96fe83b90e791dfc687afbe845
+  - asset:
+      id: 139620
+      kind: 3
+      kind_id: 17241
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/NES%20Open%20Tournament%20Golf%20%28USA%29%20%28Virtual%20Console%29.png
+      format: 1
+      size: 76765
+      blob_id: 325023
+      debug: libretro-named-titles:rom-asset=17223:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/NES%20Open%20Tournament%20Golf%20%28USA%29%20%28Virtual%20Console%29.png
 - release:
     id: 17242
     game_id: 17240
@@ -67,24 +114,32 @@ releases:
     kind_id: 17242
     language: 1
     name: NES Open Tournament Golf (U) [!]
+    deprecated: 1
   - id: 67903
     kind: 3
     kind_id: 17242
     language: 2
     name: 玛璃欧高尔夫公开赛 (美版) (运动)-NES Open Tournament Golf (USA)
+  - id: 258906
+    kind: 3
+    kind_id: 17242
+    language: 1
+    name: NES Open Tournament Golf (USA)
+    source: no-intro
   assets:
   - asset:
       id: 17224
       kind: 3
       kind_id: 17242
       type: 1
-      name: NES Open Tournament Golf (U) [!].nes
+      name: NES Open Tournament Golf (USA).nes
       format: 1
       size: 262160
       blob_id: 62831
       debug: |-
         NES Open Tournament Golf (U) [!].zip
         玛璃欧高尔夫公开赛 (美版) (运动)-NES Open Tournament Golf (USA) + NES Open Tournament Golf (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=c881749bded199785699f51c3925f940332efac1
   - asset:
       id: 137150
       kind: 3
@@ -105,17 +160,26 @@ releases:
     kind_id: 17245
     language: 1
     name: NES Open Tournament Golf (U)
+    deprecated: 1
+  - id: 258907
+    kind: 3
+    kind_id: 17245
+    language: 1
+    name: NES Open Tournament Golf (USA)
+    source: no-intro
   assets:
   - asset:
       id: 17227
       kind: 3
       kind_id: 17245
       type: 1
-      name: NES Open Tournament Golf (U).nes
+      name: NES Open Tournament Golf (USA).nes
       format: 1
       size: 262160
       blob_id: 62834
-      debug: NES Open Tournament Golf (U).zip
+      debug: |-
+        NES Open Tournament Golf (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=c881749bded199785699f51c3925f940332efac1
   - asset:
       id: 138596
       kind: 3

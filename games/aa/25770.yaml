@@ -52,11 +52,13 @@ releases:
     kind_id: 25772
     language: 1
     name: Wally Bear & the No Gang (Unl) [!p]
+    deprecated: 1
   - id: 57624
     kind: 3
     kind_id: 25772
     language: 1
     name: Wally Bear and the No Gang (U)
+    deprecated: 1
   - id: 63273
     kind: 3
     kind_id: 25772
@@ -67,13 +69,20 @@ releases:
     kind_id: 25772
     language: 1
     name: Wally Bear & the No Gang (AVE) [!]
+    deprecated: 1
+  - id: 259786
+    kind: 3
+    kind_id: 25772
+    language: 1
+    name: Wally Bear and the No! Gang (USA) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 25754
       kind: 3
       kind_id: 25772
       type: 1
-      name: Wally Bear & the No Gang (Unl) [!p].nes
+      name: Wally Bear and the No! Gang (USA) (Unl).nes
       format: 1
       size: 131088
       blob_id: 70943
@@ -81,3 +90,15 @@ releases:
         Wally Bear & the No Gang (Unl) [!p].zip
         Wally Bear and the No Gang (U).zip
         威利熊大冒险 (美版) (动作)-Wally Bear and the No Gang (USA) (Unl) + Wally Bear & the No Gang (AVE) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=76b3c6118c1b9186f692068a5c5b969917951b96
+  - asset:
+      id: 139888
+      kind: 3
+      kind_id: 25772
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Wally%20Bear%20and%20the%20No%21%20Gang%20%28USA%29%20%28Unl%29.png
+      format: 1
+      size: 2779
+      blob_id: 325256
+      debug: libretro-named-titles:rom-asset=25754:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Wally%20Bear%20and%20the%20No%21%20Gang%20%28USA%29%20%28Unl%29.png

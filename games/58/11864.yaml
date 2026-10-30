@@ -7,12 +7,19 @@ names:
   kind_id: 11864
   language: 1
   name: France 98 (Unl)
+  deprecated: 1
 - id: 247822
   kind: 2
   kind_id: 11864
   language: 2
   name: 法国世界杯98
   source: codex
+- id: 261720
+  kind: 2
+  kind_id: 11864
+  language: 1
+  name: France 98
+  source: no-intro
 releases:
 - release:
     id: 11864
@@ -23,14 +30,23 @@ releases:
     kind_id: 11864
     language: 1
     name: France 98 (Unl)
+    deprecated: 1
+  - id: 258262
+    kind: 3
+    kind_id: 11864
+    language: 1
+    name: France 98 (Asia) (En) (Aftermarket) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 11846
       kind: 3
       kind_id: 11864
       type: 1
-      name: France 98 (Unl).nes
+      name: France 98 (Asia) (En) (Aftermarket) (Pirate).nes
       format: 1
       size: 262160
       blob_id: 57798
-      debug: France 98 (Unl).nes
+      debug: |-
+        France 98 (Unl).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=91308a5c39d380968fb06cc129b3fc1ebb58c31e

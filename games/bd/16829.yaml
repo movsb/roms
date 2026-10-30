@@ -23,17 +23,37 @@ releases:
     kind_id: 16829
     language: 1
     name: Mo Shen Fa Shi (Ch) (Wxn)
+    deprecated: 1
+  - id: 258835
+    kind: 3
+    kind_id: 16829
+    language: 1
+    name: "Moshen Fashi - Demogorgon Monk (China) (FS005) (Unl)"
+    source: no-intro
   assets:
   - asset:
       id: 16811
       kind: 3
       kind_id: 16829
       type: 1
-      name: Mo Shen Fa Shi (Ch) (Wxn).nes
+      name: "Moshen Fashi - Demogorgon Monk (China) (FS005) (Unl).nes"
       format: 1
       size: 524304
       blob_id: 62448
-      debug: Mo Shen Fa Shi (Ch) (Wxn).nes
+      debug: |-
+        Mo Shen Fa Shi (Ch) (Wxn).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=272bcb36579235e57e3eb086832173a94f051a62
+  - asset:
+      id: 139593
+      kind: 3
+      kind_id: 16829
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Moshen%20Fashi%20-%20Demogorgon%20Monk%20%28China%29%20%28FS005%29%20%28Unl%29.png
+      format: 1
+      size: 6301
+      blob_id: 324999
+      debug: libretro-named-titles:rom-asset=16811:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Moshen%20Fashi%20-%20Demogorgon%20Monk%20%28China%29%20%28FS005%29%20%28Unl%29.png
 - release:
     id: 16830
     game_id: 16829

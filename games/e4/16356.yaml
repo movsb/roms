@@ -7,12 +7,19 @@ names:
   kind_id: 16356
   language: 1
   name: Meimon! Dai San Yakyuu Bu (J)
+  deprecated: 1
 - id: 248170
   kind: 2
   kind_id: 16356
   language: 2
   name: 名门！第三棒球队
   source: codex
+- id: 261898
+  kind: 2
+  kind_id: 16356
+  language: 1
+  name: Meimon! Daisan Yakyuubu
+  source: no-intro
 releases:
 - release:
     id: 16356
@@ -23,14 +30,34 @@ releases:
     kind_id: 16356
     language: 1
     name: Meimon! Dai San Yakyuu Bu (J)
+    deprecated: 1
+  - id: 258772
+    kind: 3
+    kind_id: 16356
+    language: 1
+    name: Meimon! Daisan Yakyuubu (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 16338
       kind: 3
       kind_id: 16356
       type: 1
-      name: Meimon! Dai San Yakyuu Bu (J).nes
+      name: Meimon! Daisan Yakyuubu (Japan).nes
       format: 1
       size: 262160
       blob_id: 62012
-      debug: Meimon! Dai San Yakyuu Bu (J).nes
+      debug: |-
+        Meimon! Dai San Yakyuu Bu (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=fdb70f268671fb6833557216425540cbb65cf394
+  - asset:
+      id: 139567
+      kind: 3
+      kind_id: 16356
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Meimon%21%20Daisan%20Yakyuubu%20%28Japan%29.png
+      format: 1
+      size: 1949
+      blob_id: 324978
+      debug: libretro-named-titles:rom-asset=16338:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Meimon%21%20Daisan%20Yakyuubu%20%28Japan%29.png

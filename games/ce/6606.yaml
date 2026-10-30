@@ -13,6 +13,12 @@ names:
   language: 2
   name: 蝙蝠侠2
   source: codex
+- id: 261543
+  kind: 2
+  kind_id: 6606
+  language: 1
+  name: Batman 2
+  source: no-intro
 releases:
 - release:
     id: 6607
@@ -23,14 +29,34 @@ releases:
     kind_id: 6607
     language: 1
     name: Batman 2 (Unl)
+    deprecated: 1
+  - id: 257733
+    kind: 3
+    kind_id: 6607
+    language: 1
+    name: Batman 2 (Asia) (En) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 6589
       kind: 3
       kind_id: 6607
       type: 1
-      name: Batman 2 (Unl).nes
+      name: Batman 2 (Asia) (En) (Pirate).nes
       format: 1
       size: 393232
       blob_id: 52836
-      debug: Batman 2 (Unl).nes
+      debug: |-
+        Batman 2 (Unl).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=16511c41205e1d43c32854c4da1075712ca56c49
+  - asset:
+      id: 139316
+      kind: 3
+      kind_id: 6607
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Batman%202%20%28Asia%29%20%28En%29%20%28Pirate%29.png
+      format: 1
+      size: 2427
+      blob_id: 324767
+      debug: libretro-named-titles:rom-asset=6589:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Batman%202%20%28Asia%29%20%28En%29%20%28Pirate%29.png

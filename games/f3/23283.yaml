@@ -7,12 +7,19 @@ names:
   kind_id: 23283
   language: 1
   name: Super Simpsons IV (Ch)
+  deprecated: 1
 - id: 248709
   kind: 2
   kind_id: 23283
   language: 2
   name: 超级辛普森4
   source: codex
+- id: 262204
+  kind: 2
+  kind_id: 23283
+  language: 1
+  name: Super Simpson IV
+  source: no-intro
 releases:
 - release:
     id: 23283
@@ -23,14 +30,23 @@ releases:
     kind_id: 23283
     language: 1
     name: Super Simpsons IV (Ch)
+    deprecated: 1
+  - id: 259544
+    kind: 3
+    kind_id: 23283
+    language: 1
+    name: Super Simpson IV (Asia) (En) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 23265
       kind: 3
       kind_id: 23283
       type: 1
-      name: Super Simpsons IV (Ch).nes
+      name: Super Simpson IV (Asia) (En) (Pirate).nes
       format: 1
       size: 40976
       blob_id: 68584
-      debug: Super Simpsons IV (Ch).nes
+      debug: |-
+        Super Simpsons IV (Ch).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=5b357baa930ced714b97e031f0c18413e6cd64dd

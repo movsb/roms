@@ -13,6 +13,12 @@ names:
   language: 2
   name: BB汽车
   source: codex
+- id: 261512
+  kind: 2
+  kind_id: 6181
+  language: 1
+  name: BB Car
+  source: no-intro
 releases:
 - release:
     id: 6181
@@ -23,16 +29,24 @@ releases:
     kind_id: 6181
     language: 1
     name: BB Car (Unl) [!]
+    deprecated: 1
+  - id: 257676
+    kind: 3
+    kind_id: 6181
+    language: 1
+    name: BB Car (Taiwan) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 6163
       kind: 3
       kind_id: 6181
       type: 1
-      name: BB Car (Unl) [!].nes
+      name: BB Car (Taiwan) (Unl).nes
       format: 1
       size: 40976
       blob_id: 52431
       debug: |-
         BB Car (Unl) [!].nes
         BB Car (Unl) [!].zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=2306a1a9f7003a446d837f9d7f5ab2e4bf65e0ad

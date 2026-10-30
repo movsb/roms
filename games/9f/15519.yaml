@@ -12,11 +12,18 @@ names:
   kind_id: 15519
   language: 1
   name: Magic Darts (U) [!]
+  deprecated: 1
 - id: 92364
   kind: 2
   kind_id: 15519
   language: 1
   name: Magic Darts
+- id: 261874
+  kind: 2
+  kind_id: 15519
+  language: 1
+  name: Magic Darts
+  source: no-intro
 releases:
 - release:
     id: 15519
@@ -27,23 +34,31 @@ releases:
     kind_id: 15519
     language: 1
     name: Magic Darts (U) [!]
+    deprecated: 1
   - id: 34470
     kind: 3
     kind_id: 15519
     language: 1
     name: Magic Darts (U)
+    deprecated: 1
   - id: 71827
     kind: 3
     kind_id: 15519
     language: 2
     name: 魔术飞镖 (美版) (运动)-Magic Darts (USA)
+  - id: 258700
+    kind: 3
+    kind_id: 15519
+    language: 1
+    name: Magic Darts (USA)
+    source: no-intro
   assets:
   - asset:
       id: 15501
       kind: 3
       kind_id: 15519
       type: 1
-      name: Magic Darts (U) [!].nes
+      name: Magic Darts (USA).nes
       format: 1
       size: 262160
       blob_id: 61212
@@ -51,6 +66,7 @@ releases:
         Magic Darts (U) [!].zip
         Magic Darts (U).zip
         魔术飞镖 (美版) (运动)-Magic Darts (USA) + Magic Darts (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=c7d8bec141d8c9cb5353cc19426970c59b1da34f
   - asset:
       id: 137076
       kind: 3

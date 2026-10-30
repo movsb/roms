@@ -13,6 +13,12 @@ names:
   language: 2
   name: 家庭棒球94
   source: codex
+- id: 261704
+  kind: 2
+  kind_id: 11210
+  language: 1
+  name: Famista '94
+  source: no-intro
 releases:
 - release:
     id: 11213
@@ -23,17 +29,26 @@ releases:
     kind_id: 11213
     language: 1
     name: Famista '94 (J)
+    deprecated: 1
+  - id: 258199
+    kind: 3
+    kind_id: 11213
+    language: 1
+    name: Famista '94 (Japan)
+    source: no-intro
   assets:
   - asset:
       id: 11195
       kind: 3
       kind_id: 11213
       type: 1
-      name: Famista '94 (J).nes
+      name: Famista '94 (Japan).nes
       format: 1
       size: 262160
       blob_id: 57183
-      debug: Famista '94 (J).nes
+      debug: |-
+        Famista '94 (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=0b5dd380a4656fde916e5a5d99dac64a7d9b71fb
   - asset:
       id: 138382
       kind: 3

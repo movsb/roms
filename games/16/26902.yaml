@@ -12,6 +12,13 @@ names:
   kind_id: 26902
   language: 1
   name: Mahjong (J) (REVA) [!]
+  deprecated: 1
+- id: 262464
+  kind: 2
+  kind_id: 26902
+  language: 1
+  name: Mahjong
+  source: no-intro
 releases:
 - release:
     id: 26902
@@ -27,17 +34,26 @@ releases:
     kind_id: 26902
     language: 1
     name: Mahjong (J) (REVA) [!]
+    deprecated: 1
+  - id: 260042
+    kind: 3
+    kind_id: 26902
+    language: 1
+    name: Mahjong (Japan) (Rev 1)
+    source: no-intro
   assets:
   - asset:
       id: 26884
       kind: 3
       kind_id: 26902
       type: 1
-      name: 任天堂麻雀 (日版)(Rev A) (桌面平台)-Mahjong (Japan) (Rev A) + Mahjong (J) (REVA) [!].nes
+      name: Mahjong (Japan) (Rev 1).nes
       format: 1
       size: 24592
       blob_id: 71929
-      debug: 任天堂麻雀 (日版)(Rev A) (桌面平台)-Mahjong (Japan) (Rev A) + Mahjong (J) (REVA) [!].nes
+      debug: |-
+        任天堂麻雀 (日版)(Rev A) (桌面平台)-Mahjong (Japan) (Rev A) + Mahjong (J) (REVA) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=cbf1101a957071c1274e1c3c74097a61580ad8dc
   - asset:
       id: 137550
       kind: 3

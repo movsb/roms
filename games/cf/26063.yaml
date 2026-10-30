@@ -13,6 +13,12 @@ names:
   language: 2
   name: 世界英雄2
   source: codex
+- id: 262311
+  kind: 2
+  kind_id: 26063
+  language: 1
+  name: World Heroes 2
+  source: no-intro
 releases:
 - release:
     id: 26063
@@ -23,16 +29,24 @@ releases:
     kind_id: 26063
     language: 1
     name: World Heroes 2 (Unl)
+    deprecated: 1
+  - id: 259828
+    kind: 3
+    kind_id: 26063
+    language: 1
+    name: World Heroes 2 (Taiwan) (En) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 26045
       kind: 3
       kind_id: 26063
       type: 1
-      name: World Heroes 2 (Unl).nes
+      name: World Heroes 2 (Taiwan) (En) (Pirate).nes
       format: 1
       size: 786448
       blob_id: 71211
       debug: |-
         World Heroes 2 (Unl).nes
         World Heroes 2 (Unl).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=f348afbf12c38db9e3342d3b13162375f62f4c7d

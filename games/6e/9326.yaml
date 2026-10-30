@@ -7,12 +7,19 @@ names:
   kind_id: 9326
   language: 1
   name: Da Hua Xi You
+  deprecated: 1
 - id: 243165
   kind: 2
   kind_id: 9326
   language: 2
   name: 大话西游
   source: codex
+- id: 261617
+  kind: 2
+  kind_id: 9326
+  language: 1
+  name: Dahua Xiyou
+  source: no-intro
 releases:
 - release:
     id: 9326
@@ -23,17 +30,26 @@ releases:
     kind_id: 9326
     language: 1
     name: Da Hua Xi You (Ch) [a1]
+    deprecated: 1
+  - id: 257964
+    kind: 3
+    kind_id: 9326
+    language: 1
+    name: Dahua Xiyou (China) (Aftermarket) (Unl)
+    source: no-intro
   assets:
   - asset:
       id: 9308
       kind: 3
       kind_id: 9326
       type: 1
-      name: Da Hua Xi You (Ch) [a1].nes
+      name: Dahua Xiyou (China) (Aftermarket) (Unl).nes
       format: 1
       size: 1048592
       blob_id: 55415
-      debug: Da Hua Xi You (Ch) [a1].nes
+      debug: |-
+        Da Hua Xi You (Ch) [a1].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=0c9600bd9686c145e6eef78817736df1269ca06f
   - asset:
       id: 138304
       kind: 3

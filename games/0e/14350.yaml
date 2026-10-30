@@ -7,12 +7,19 @@ names:
   kind_id: 14350
   language: 1
   name: Kang Ti Wu Wang (Ch) [!]
+  deprecated: 1
 - id: 248017
   kind: 2
   kind_id: 14350
   language: 2
   name: 康体武王
   source: codex
+- id: 261820
+  kind: 2
+  kind_id: 14350
+  language: 1
+  name: Kangti Wu Wang
+  source: no-intro
 releases:
 - release:
     id: 14350
@@ -23,17 +30,26 @@ releases:
     kind_id: 14350
     language: 1
     name: Kang Ti Wu Wang (Ch) [!]
+    deprecated: 1
+  - id: 258544
+    kind: 3
+    kind_id: 14350
+    language: 1
+    name: Kangti Wu Wang (China) (En) (Pirate)
+    source: no-intro
   assets:
   - asset:
       id: 14332
       kind: 3
       kind_id: 14350
       type: 1
-      name: Kang Ti Wu Wang (Ch) [!].nes
+      name: Kangti Wu Wang (China) (En) (Pirate).nes
       format: 1
       size: 262160
       blob_id: 60128
-      debug: Kang Ti Wu Wang (Ch) [!].nes
+      debug: |-
+        Kang Ti Wu Wang (Ch) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=f56d9e055315091c65826e47c2f6c92a0e5b2aa7
   - asset:
       id: 137014
       kind: 3

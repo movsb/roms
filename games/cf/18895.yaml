@@ -7,12 +7,19 @@ names:
   kind_id: 18895
   language: 1
   name: Pinbot (U)
+  deprecated: 1
 - id: 248351
   kind: 2
   kind_id: 18895
   language: 2
   name: 弹珠机器人
   source: codex
+- id: 261983
+  kind: 2
+  kind_id: 18895
+  language: 1
+  name: Pin Bot
+  source: no-intro
 releases:
 - release:
     id: 18895
@@ -23,14 +30,34 @@ releases:
     kind_id: 18895
     language: 1
     name: Pinbot (U)
+    deprecated: 1
+  - id: 259038
+    kind: 3
+    kind_id: 18895
+    language: 1
+    name: Pin Bot (USA)
+    source: no-intro
   assets:
   - asset:
       id: 18877
       kind: 3
       kind_id: 18895
       type: 1
-      name: Pinbot (U).nes
+      name: Pin Bot (USA).nes
       format: 1
       size: 196624
       blob_id: 64425
-      debug: Pinbot (U).zip
+      debug: |-
+        Pinbot (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=c649505dce1607ed1b5d201003194629c9c3a86c
+  - asset:
+      id: 139667
+      kind: 3
+      kind_id: 18895
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Pin%20Bot%20%28USA%29.png
+      format: 1
+      size: 2604
+      blob_id: 325064
+      debug: libretro-named-titles:rom-asset=18877:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Pin%20Bot%20%28USA%29.png

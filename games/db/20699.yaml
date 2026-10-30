@@ -7,12 +7,19 @@ names:
   kind_id: 20699
   language: 1
   name: "San Guo Zhi - Ao Shi Tian Di (NJ007) (Ch)"
+  deprecated: 1
 - id: 248486
   kind: 2
   kind_id: 20699
   language: 2
   name: 三国志：傲视天地
   source: codex
+- id: 262089
+  kind: 2
+  kind_id: 20699
+  language: 1
+  name: "Sanguozhi - Zhi Aoshi Tiandi"
+  source: no-intro
 releases:
 - release:
     id: 20699
@@ -23,14 +30,32 @@ releases:
     kind_id: 20699
     language: 1
     name: "San Guo Zhi - Ao Shi Tian Di (NJ007) (Ch)"
+    deprecated: 1
+  - id: 259263
+    kind: 3
+    kind_id: 20699
+    language: 1
+    name: "Sanguozhi - Zhi Aoshi Tiandi (China) (Aftermarket) (Pirate)"
+    source: no-intro
   assets:
   - asset:
       id: 20681
       kind: 3
       kind_id: 20699
       type: 1
-      name: "San Guo Zhi - Ao Shi Tian Di (NJ007) (Ch).nes"
+      name: "Sanguozhi - Zhi Aoshi Tiandi (China) (Aftermarket) (Pirate).nes"
       format: 1
       size: 2097168
       blob_id: 66130
-      debug: "San Guo Zhi - Ao Shi Tian Di (NJ007) (Ch).nes"
+      debug: "San Guo Zhi - Ao Shi Tian Di (NJ007) (Ch).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=e2e8ef8bcf817c175df330ce16a316198bf4ff69"
+  - asset:
+      id: 139727
+      kind: 3
+      kind_id: 20699
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Sanguozhi%20-%20Zhi%20Aoshi%20Tiandi%20%28China%29%20%28Aftermarket%29%20%28Pirate%29.png
+      format: 1
+      size: 8531
+      blob_id: 325110
+      debug: libretro-named-titles:rom-asset=20681:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Sanguozhi%20-%20Zhi%20Aoshi%20Tiandi%20%28China%29%20%28Aftermarket%29%20%28Pirate%29.png
