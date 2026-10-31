@@ -7,6 +7,12 @@ names:
   kind_id: 6888
   language: 1
   name: Best of the Best Championship Karate (U)
+- id: 14393
+  kind: 2
+  kind_id: 6888
+  language: 1
+  name: BestOfTheBest
+  deprecated: 1
 - id: 68637
   kind: 2
   kind_id: 6888
@@ -22,6 +28,12 @@ names:
   kind_id: 6888
   language: 1
   name: "Best of the Best - Championship Karate"
+- id: 247541
+  kind: 2
+  kind_id: 6888
+  language: 2
+  name: 王中王
+  source: codex
 releases:
 - release:
     id: 6888
@@ -130,3 +142,80 @@ releases:
       size: 262160
       blob_id: 53103
       debug: "Best of the Best - Championship Karate (U) [p1].nes"
+- release:
+    id: 6894
+    game_id: 6888
+  names:
+  - id: 14394
+    kind: 3
+    kind_id: 6894
+    language: 1
+    name: BestOfTheBest
+    deprecated: 1
+  - id: 257766
+    kind: 3
+    kind_id: 6894
+    language: 1
+    name: "Best of the Best - Championship Karate (USA)"
+    source: no-intro
+  assets:
+  - asset:
+      id: 6876
+      kind: 3
+      kind_id: 6894
+      type: 1
+      name: "Best of the Best - Championship Karate (USA).nes"
+      format: 1
+      size: 262160
+      blob_id: 53104
+      debug: |-
+        BestOfTheBest.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=3b01a043eb47aa2503a28a861eb686f1505e9a76
+  - asset:
+      id: 138216
+      kind: 3
+      kind_id: 6894
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 3722
+      blob_id: 323759
+      debug: fc-title-trial:nestopia:rom-asset=6876:frame=300
+- release:
+    id: 29352
+    game_id: 6888
+  names:
+  - id: 68636
+    kind: 3
+    kind_id: 29352
+    language: 2
+    name: "精英份子 - 自由搏击冠军赛 (欧版) (格斗)-Best of the Best - Championship Karate (Europe)"
+  - id: 261023
+    kind: 3
+    kind_id: 29352
+    language: 1
+    name: "Best of the Best - Championship Karate (Europe)"
+    source: no-intro
+  assets:
+  - asset:
+      id: 29334
+      kind: 3
+      kind_id: 29352
+      type: 1
+      name: "Best of the Best - Championship Karate (Europe).nes"
+      format: 1
+      size: 262160
+      blob_id: 73539
+      debug: "精英份子 - 自由搏击冠军赛 (欧版) (格斗)-Best of the Best - Championship Karate (Europe).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=380774901336f90c2a136084801b89b7f2256729"
+  - asset:
+      id: 139134
+      kind: 3
+      kind_id: 29352
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Best%20of%20the%20Best%20-%20Championship%20Karate%20%28Europe%29.png
+      format: 1
+      size: 2457
+      blob_id: 324599
+      debug: libretro-named-titles:rom-asset=29334:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Best%20of%20the%20Best%20-%20Championship%20Karate%20%28Europe%29.png

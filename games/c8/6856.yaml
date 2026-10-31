@@ -2,6 +2,11 @@ game:
   id: 6856
   platform_id: 2
 names:
+- id: 63689
+  kind: 2
+  kind_id: 6856
+  language: 2
+  name: 小蜜蜂 52 (动作)-Bee 52 (Unl)
 - id: 91358
   kind: 2
   kind_id: 6856
@@ -88,3 +93,42 @@ releases:
       size: 131088
       blob_id: 53070
       debug: Bee 52 (Camerica) [T+Rus_Magicteam].nes
+- release:
+    id: 27874
+    game_id: 6856
+  names:
+  - id: 63690
+    kind: 3
+    kind_id: 27874
+    language: 2
+    name: 小蜜蜂 52 (美版) (动作)-Bee 52 (USA) (Unl)
+  - id: 260425
+    kind: 3
+    kind_id: 27874
+    language: 1
+    name: Bee 52 (USA) (Unl)
+    source: no-intro
+  assets:
+  - asset:
+      id: 27856
+      kind: 3
+      kind_id: 27874
+      type: 1
+      name: Bee 52 (USA) (Unl).nes
+      format: 1
+      size: 65552
+      blob_id: 72575
+      debug: |-
+        小蜜蜂 52 (美版) (动作)-Bee 52 (USA) (Unl).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=ce2a5ef736adc5edf7417609b0446e10b6e61c1f
+  - asset:
+      id: 138930
+      kind: 3
+      kind_id: 27874
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Bee%2052%20%28USA%29%20%28Unl%29.png
+      format: 1
+      size: 1995
+      blob_id: 324403
+      debug: libretro-named-titles:rom-asset=27856:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Bee%2052%20%28USA%29%20%28Unl%29.png

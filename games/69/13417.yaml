@@ -2,6 +2,18 @@ game:
   id: 13417
   platform_id: 2
 names:
+- id: 11065
+  kind: 2
+  kind_id: 13417
+  language: 1
+  name: Adventure_island3
+  deprecated: 1
+- id: 29449
+  kind: 2
+  kind_id: 13417
+  language: 1
+  name: Hudson's Adventure Island 3 (U)
+  deprecated: 1
 - id: 71665
   kind: 2
   kind_id: 13417
@@ -17,7 +29,99 @@ names:
   kind_id: 13417
   language: 1
   name: Hudson's Adventure Island III
+- id: 251933
+  kind: 2
+  kind_id: 13417
+  language: 2
+  name: 冒险岛3
+  source: codex
+- id: 261487
+  kind: 2
+  kind_id: 13417
+  language: 1
+  name: Adventure Island 3
+  source: no-intro
 releases:
+- release:
+    id: 5416
+    game_id: 13417
+  names:
+  - id: 11066
+    kind: 3
+    kind_id: 5416
+    language: 1
+    name: Adventure_island3
+    deprecated: 1
+  - id: 257594
+    kind: 3
+    kind_id: 5416
+    language: 1
+    name: Adventure Island 3 (USA)
+    source: no-intro
+  assets:
+  - asset:
+      id: 5398
+      kind: 3
+      kind_id: 5416
+      type: 1
+      name: Adventure Island 3 (USA).nes
+      format: 1
+      size: 262160
+      blob_id: 51710
+      debug: |-
+        Adventure_island3.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=f77eb86932844a92834ef12c059a3f5b815dac07
+  - asset:
+      id: 138146
+      kind: 3
+      kind_id: 5416
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 4417
+      blob_id: 323708
+      debug: fc-title-trial:fceumm:rom-asset=5398:frame=2400
+- release:
+    id: 13393
+    game_id: 13417
+  names:
+  - id: 29450
+    kind: 3
+    kind_id: 13393
+    language: 1
+    name: Hudson's Adventure Island 3 (U)
+    deprecated: 1
+  - id: 258430
+    kind: 3
+    kind_id: 13393
+    language: 1
+    name: Adventure Island 3 (USA)
+    source: no-intro
+  assets:
+  - asset:
+      id: 13375
+      kind: 3
+      kind_id: 13393
+      type: 1
+      name: Adventure Island 3 (USA).nes
+      format: 1
+      size: 262160
+      blob_id: 59244
+      debug: |-
+        Hudson's Adventure Island 3 (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=f77eb86932844a92834ef12c059a3f5b815dac07
+  - asset:
+      id: 139454
+      kind: 3
+      kind_id: 13393
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Adventure%20Island%203%20%28USA%29.png
+      format: 1
+      size: 2414
+      blob_id: 324885
+      debug: libretro-named-titles:rom-asset=13375:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Adventure%20Island%203%20%28USA%29.png
 - release:
     id: 13417
     game_id: 13417

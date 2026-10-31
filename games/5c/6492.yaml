@@ -2,6 +2,12 @@ game:
   id: 6492
   platform_id: 2
 names:
+- id: 13543
+  kind: 2
+  kind_id: 6492
+  language: 1
+  name: BaseballSimulator1000
+  deprecated: 1
 - id: 66437
   kind: 2
   kind_id: 6492
@@ -18,6 +24,12 @@ names:
   kind_id: 6492
   language: 1
   name: Baseball Simulator 1.000
+- id: 247528
+  kind: 2
+  kind_id: 6492
+  language: 2
+  name: 棒球模拟器1000
+  source: codex
 - id: 261534
   kind: 2
   kind_id: 6492
@@ -111,3 +123,43 @@ releases:
       size: 2531
       blob_id: 323945
       debug: libretro-named-titles:rom-asset=6478:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Baseball%20Simulator%201.000%20%28USA%29.png
+- release:
+    id: 6529
+    game_id: 6492
+  names:
+  - id: 13544
+    kind: 3
+    kind_id: 6529
+    language: 1
+    name: BaseballSimulator1000
+    deprecated: 1
+  - id: 257723
+    kind: 3
+    kind_id: 6529
+    language: 1
+    name: Baseball Simulator 1.000 (USA)
+    source: no-intro
+  assets:
+  - asset:
+      id: 6511
+      kind: 3
+      kind_id: 6529
+      type: 1
+      name: Baseball Simulator 1.000 (USA).nes
+      format: 1
+      size: 262160
+      blob_id: 52761
+      debug: |-
+        BaseballSimulator1000.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=a2e9e58d5e12a87beaf14ee6e485d0bd95e9876e
+  - asset:
+      id: 138191
+      kind: 3
+      kind_id: 6529
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 4225
+      blob_id: 323744
+      debug: fc-title-trial:fceumm:rom-asset=6511:frame=900

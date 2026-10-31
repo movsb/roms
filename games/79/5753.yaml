@@ -2,6 +2,11 @@ game:
   id: 5753
   platform_id: 2
 names:
+- id: 64221
+  kind: 2
+  kind_id: 5753
+  language: 2
+  name: 异形风暴 (动作射击)-Alien Syndrome (Unl)
 - id: 91244
   kind: 2
   kind_id: 5753
@@ -155,3 +160,42 @@ releases:
       size: 2262
       blob_id: 324425
       debug: libretro-named-titles:rom-asset=5746:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Alien%20Syndrome%20%28USA%29%20%28Unl%29.png
+- release:
+    id: 28029
+    game_id: 5753
+  names:
+  - id: 64222
+    kind: 3
+    kind_id: 28029
+    language: 2
+    name: 异形风暴 (美版) (动作射击)-Alien Syndrome (USA) (Unl)
+  - id: 260489
+    kind: 3
+    kind_id: 28029
+    language: 1
+    name: Alien Syndrome (USA) (Unl)
+    source: no-intro
+  assets:
+  - asset:
+      id: 28011
+      kind: 3
+      kind_id: 28029
+      type: 1
+      name: Alien Syndrome (USA) (Unl).nes
+      format: 1
+      size: 262160
+      blob_id: 72674
+      debug: |-
+        异形风暴 (美版) (动作射击)-Alien Syndrome (USA) (Unl).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=7955dbe5ec63f71ba591a9237d113aaa90849263
+  - asset:
+      id: 138952
+      kind: 3
+      kind_id: 28029
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Alien%20Syndrome%20%28USA%29%20%28Unl%29.png
+      format: 1
+      size: 2262
+      blob_id: 324425
+      debug: libretro-named-titles:rom-asset=28011:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Alien%20Syndrome%20%28USA%29%20%28Unl%29.png

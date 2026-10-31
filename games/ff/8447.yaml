@@ -2,6 +2,17 @@ game:
   id: 8447
   platform_id: 2
 names:
+- id: 17899
+  kind: 2
+  kind_id: 8447
+  language: 1
+  name: Cheetahmen 2 (U)
+  deprecated: 1
+- id: 69837
+  kind: 2
+  kind_id: 8447
+  language: 2
+  name: 豹人 II (动作)-Cheetahmen II (Unl)
 - id: 91519
   kind: 2
   kind_id: 8447
@@ -13,6 +24,12 @@ names:
   language: 2
   name: 猎豹人2
   source: codex
+- id: 261587
+  kind: 2
+  kind_id: 8447
+  language: 1
+  name: Cheetahmen II
+  source: no-intro
 releases:
 - release:
     id: 8447
@@ -81,3 +98,49 @@ releases:
       size: 393232
       blob_id: 54584
       debug: Cheetah Men II (Active Enterprises) [T+Spa_PacoChan].nes
+- release:
+    id: 8454
+    game_id: 8447
+  names:
+  - id: 17900
+    kind: 3
+    kind_id: 8454
+    language: 1
+    name: Cheetahmen 2 (U)
+    deprecated: 1
+  - id: 69838
+    kind: 3
+    kind_id: 8454
+    language: 2
+    name: 豹人 II (美版) (动作)-Cheetahmen II (USA) (Unl)
+  - id: 257882
+    kind: 3
+    kind_id: 8454
+    language: 1
+    name: Cheetahmen II (USA) (Unl)
+    source: no-intro
+  assets:
+  - asset:
+      id: 8436
+      kind: 3
+      kind_id: 8454
+      type: 1
+      name: Cheetahmen II (USA) (Unl).nes
+      format: 1
+      size: 393232
+      blob_id: 54589
+      debug: |-
+        Cheetahmen 2 (U).zip
+        豹人 II (美版) (动作)-Cheetahmen II (USA) (Unl).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=340da5fb21bcaa3bcfed17d7d4d8b42cbbdc3bb0
+  - asset:
+      id: 138262
+      kind: 3
+      kind_id: 8454
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 3016
+      blob_id: 323800
+      debug: fc-title-trial:fceumm:rom-asset=8436:frame=180

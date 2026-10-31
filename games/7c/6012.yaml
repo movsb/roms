@@ -2,6 +2,11 @@ game:
   id: 6012
   platform_id: 2
 names:
+- id: 65113
+  kind: 2
+  kind_id: 6012
+  language: 2
+  name: 打砖块 II  (益智)-Arkanoid II
 - id: 91271
   kind: 2
   kind_id: 6012
@@ -168,3 +173,42 @@ releases:
   release_publishers:
   - release_id: 6021
     publisher_id: 112
+- release:
+    id: 28313
+    game_id: 6012
+  names:
+  - id: 65114
+    kind: 3
+    kind_id: 28313
+    language: 2
+    name: 打砖块 II  (日版) (益智)-Arkanoid II (Japan)
+  - id: 260584
+    kind: 3
+    kind_id: 28313
+    language: 1
+    name: Arkanoid II (Japan) (En)
+    source: no-intro
+  assets:
+  - asset:
+      id: 28295
+      kind: 3
+      kind_id: 28313
+      type: 1
+      name: Arkanoid II (Japan) (En).nes
+      format: 1
+      size: 196624
+      blob_id: 72858
+      debug: |-
+        打砖块 II  (日版) (益智)-Arkanoid II (Japan).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=627d4f20667eded6f26a379c8477669348f3ecab
+  - asset:
+      id: 138989
+      kind: 3
+      kind_id: 28313
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Arkanoid%20II%20%28Japan%29.png
+      format: 1
+      size: 1294
+      blob_id: 324462
+      debug: libretro-named-titles:rom-asset=28295:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Arkanoid%20II%20%28Japan%29.png

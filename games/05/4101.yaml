@@ -42,6 +42,12 @@ names:
   language: 1
   name: "SNK vs. Capcom - SVC Chaos (bootleg)"
   source: mame
+- id: 243961
+  kind: 2
+  kind_id: 4101
+  language: 2
+  name: "拳皇 对 街霸 - SVC 混沌 Plus"
+  source: codex
 game_developers:
 - game_id: 4101
   developer_id: 326
@@ -601,6 +607,184 @@ releases:
         repository=https://github.com/finalburnneo/FBNeo-extras
         revision=d61f692a027ad7bcbaccceda20e43ed47900dcda
         source=titles/svc.png
+- release:
+    id: 4103
+    game_id: 4101
+  names:
+  - id: 8207
+    kind: 3
+    kind_id: 4103
+    language: 1
+    name: svcplus
+  - id: 100185
+    kind: 3
+    kind_id: 4103
+    language: 2
+    name: "拳皇 对 街霸 - SVC 混沌 Plus (D版 第一套)"
+    source: trimui
+  - id: 184840
+    kind: 3
+    kind_id: 4103
+    language: 1
+    name: "SNK vs. Capcom - SVC Chaos Plus (bootleg set 1)"
+    source: fbneo
+- release:
+    id: 4104
+    game_id: 4101
+  names:
+  - id: 8209
+    kind: 3
+    kind_id: 4104
+    language: 1
+    name: svcplusa
+  - id: 100186
+    kind: 3
+    kind_id: 4104
+    language: 2
+    name: "拳皇 对 街霸 - SVC 混沌 Plus (D版 第二套)"
+    source: trimui
+  - id: 184841
+    kind: 3
+    kind_id: 4104
+    language: 1
+    name: "SNK vs. Capcom - SVC Chaos Plus (bootleg set 2)"
+    source: fbneo
+- release:
+    id: 4105
+    game_id: 4101
+    release_date: 20030724
+  names:
+  - id: 8211
+    kind: 3
+    kind_id: 4105
+    language: 1
+    name: svcsplus
+  - id: 102229
+    kind: 3
+    kind_id: 4105
+    language: 2
+    name: "拳皇 对 街霸 - SVC 混沌 Plus (D版)"
+    source: trimui
+  - id: 184842
+    kind: 3
+    kind_id: 4105
+    language: 1
+    name: "SNK vs. Capcom - SVC Chaos Super Plus (bootleg)"
+    source: fbneo
+  release_publishers:
+  - release_id: 4105
+    publisher_id: 221
+- release:
+    id: 4106
+    game_id: 4101
+  names:
+  - id: 94922
+    kind: 3
+    kind_id: 4106
+    language: 1
+    name: svcsplus
+  - id: 102230
+    kind: 3
+    kind_id: 4106
+    language: 2
+    name: "拳皇 对 街霸 - SVC 混沌 Plus (D版)"
+    source: trimui
+  assets:
+  - asset:
+      id: 4089
+      kind: 3
+      kind_id: 4106
+      type: 1
+      name: svcsplus.zip
+      format: 2
+      size: 43164020
+      debug: svcsplus_2.zip
+    entries:
+    - id: 70125
+      asset_id: 4089
+      name: sp-s3.sp1
+      size: 131072
+      blob_id: 6285
+    - id: 70126
+      asset_id: 4089
+      name: svc-c1.bin
+      size: 8388608
+      blob_id: 43997
+    - id: 70127
+      asset_id: 4089
+      name: svc-c2.bin
+      size: 8388608
+      blob_id: 43998
+    - id: 70128
+      asset_id: 4089
+      name: svc-c3.bin
+      size: 8388608
+      blob_id: 43999
+    - id: 70129
+      asset_id: 4089
+      name: svc-c4.bin
+      size: 8388608
+      blob_id: 44000
+    - id: 70130
+      asset_id: 4089
+      name: svc-c5.bin
+      size: 8388608
+      blob_id: 44001
+    - id: 70131
+      asset_id: 4089
+      name: svc-c6.bin
+      size: 8388608
+      blob_id: 44002
+    - id: 70132
+      asset_id: 4089
+      name: svc-c7.bin
+      size: 8388608
+      blob_id: 44003
+    - id: 70133
+      asset_id: 4089
+      name: svc-c8.bin
+      size: 8388608
+      blob_id: 44004
+    - id: 70134
+      asset_id: 4089
+      name: svc-m1.bin
+      size: 131072
+      blob_id: 44005
+    - id: 70135
+      asset_id: 4089
+      name: svc-p1sp.bin
+      size: 4194304
+      blob_id: 44017
+    - id: 70136
+      asset_id: 4089
+      name: svc-p2sp.bin
+      size: 4194304
+      blob_id: 44020
+    - id: 70137
+      asset_id: 4089
+      name: svc-s1sp.bin
+      size: 131072
+      blob_id: 44019
+    - id: 70138
+      asset_id: 4089
+      name: svc-v1.bin
+      size: 4194304
+      blob_id: 44010
+    - id: 70139
+      asset_id: 4089
+      name: svc-v2.bin
+      size: 4194304
+      blob_id: 44011
+    - id: 70140
+      asset_id: 4089
+      name: svc-v3.bin
+      size: 4194304
+      blob_id: 44012
+    - id: 70141
+      asset_id: 4089
+      name: svc-v4.bin
+      size: 4194304
+      blob_id: 44013
 - release:
     id: 33268
     game_id: 4101
