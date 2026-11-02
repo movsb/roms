@@ -7,6 +7,18 @@ names:
   kind_id: 18714
   language: 1
   name: Paperboy
+- id: 70646
+  kind: 2
+  kind_id: 18714
+  language: 1
+  name: Paperboy (J)
+  deprecated: 1
+- id: 70650
+  kind: 2
+  kind_id: 18714
+  language: 1
+  name: Paperboy (E) [!]
+  deprecated: 1
 - id: 70653
   kind: 2
   kind_id: 18714
@@ -151,3 +163,93 @@ releases:
       size: 65552
       blob_id: 64256
       debug: Paperboy.zip
+- release:
+    id: 29952
+    game_id: 18714
+  names:
+  - id: 70647
+    kind: 3
+    kind_id: 29952
+    language: 2
+    name: 送报童 (日版) (益智)-Paperboy (Japan)
+  - id: 70648
+    kind: 3
+    kind_id: 29952
+    language: 1
+    name: Paperboy (J)
+    deprecated: 1
+  - id: 261242
+    kind: 3
+    kind_id: 29952
+    language: 1
+    name: Paperboy (Japan)
+    source: no-intro
+  assets:
+  - asset:
+      id: 29934
+      kind: 3
+      kind_id: 29952
+      type: 1
+      name: Paperboy (Japan).nes
+      format: 1
+      size: 65552
+      blob_id: 73902
+      debug: |-
+        送报童 (日版) (益智)-Paperboy (Japan) + Paperboy (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=e5e04e9e56ac9f0b7079ab6286e2d3a0f2d12e05
+  - asset:
+      id: 139206
+      kind: 3
+      kind_id: 29952
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Paperboy%20%28Japan%29.png
+      format: 1
+      size: 1485
+      blob_id: 324669
+      debug: libretro-named-titles:rom-asset=29934:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Paperboy%20%28Japan%29.png
+- release:
+    id: 29953
+    game_id: 18714
+  names:
+  - id: 70651
+    kind: 3
+    kind_id: 29953
+    language: 2
+    name: 送报童 (欧版) (益智)-Paperboy (Europe)
+  - id: 70652
+    kind: 3
+    kind_id: 29953
+    language: 1
+    name: Paperboy (E) [!]
+    deprecated: 1
+  - id: 261243
+    kind: 3
+    kind_id: 29953
+    language: 1
+    name: Paperboy (Europe)
+    source: no-intro
+  assets:
+  - asset:
+      id: 29935
+      kind: 3
+      kind_id: 29953
+      type: 1
+      name: Paperboy (Europe).nes
+      format: 1
+      size: 65552
+      blob_id: 73903
+      debug: |-
+        送报童 (欧版) (益智)-Paperboy (Europe) + Paperboy (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=a60ffaadbd284d7ac9a1fccb8c567838c8b53e80
+  - asset:
+      id: 138017
+      kind: 3
+      kind_id: 29953
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 3147
+      blob_id: 323595
+      debug: fc-title-trial:fceumm:rom-asset=29935:frame=300:region=PAL

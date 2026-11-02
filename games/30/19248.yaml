@@ -7,6 +7,12 @@ names:
   kind_id: 19248
   language: 1
   name: Predator
+- id: 68726
+  kind: 2
+  kind_id: 19248
+  language: 1
+  name: Predator (J) [!]
+  deprecated: 1
 - id: 68729
   kind: 2
   kind_id: 19248
@@ -22,6 +28,16 @@ names:
   kind_id: 19248
   language: 1
   name: Predator (U) [!]
+- id: 80975
+  kind: 2
+  kind_id: 19248
+  language: 2
+  name: 铁血战士[MS汉化]
+- id: 80976
+  kind: 2
+  kind_id: 19248
+  language: 1
+  name: Predator (U) [T+Chi]
 releases:
 - release:
     id: 19230
@@ -242,6 +258,51 @@ releases:
       blob_id: 64756
       debug: Predator.zip
 - release:
+    id: 29378
+    game_id: 19248
+  names:
+  - id: 68727
+    kind: 3
+    kind_id: 29378
+    language: 2
+    name: 终极战士 (日版) (动作)-Predator (Japan)
+  - id: 68728
+    kind: 3
+    kind_id: 29378
+    language: 1
+    name: Predator (J) [!]
+    deprecated: 1
+  - id: 261032
+    kind: 3
+    kind_id: 29378
+    language: 1
+    name: Predator (Japan)
+    source: no-intro
+  assets:
+  - asset:
+      id: 29360
+      kind: 3
+      kind_id: 29378
+      type: 1
+      name: Predator (Japan).nes
+      format: 1
+      size: 262160
+      blob_id: 73553
+      debug: |-
+        终极战士 (日版) (动作)-Predator (Japan) + Predator (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=9d01872243737ab71665e04119e3d591252aebd5
+  - asset:
+      id: 137923
+      kind: 3
+      kind_id: 29378
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 1222
+      blob_id: 323517
+      debug: fc-title-trial:fceumm:rom-asset=29360:frame=1200:start-frame=600
+- release:
     id: 29379
     game_id: 19248
   names:
@@ -280,3 +341,28 @@ releases:
       size: 3253
       blob_id: 324601
       debug: libretro-named-titles:rom-asset=29361:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Predator%20%28Australia%29.png
+- release:
+    id: 30055
+    game_id: 19248
+  names:
+  - id: 85298
+    kind: 3
+    kind_id: 30055
+    language: 2
+    name: 铁血战士[MS汉化]
+  - id: 85299
+    kind: 3
+    kind_id: 30055
+    language: 1
+    name: Predator (U) [T+Chi]
+  assets:
+  - asset:
+      id: 30037
+      kind: 3
+      kind_id: 30055
+      type: 1
+      name: 铁血战士[MS汉化] + Predator (U) [T+Chi].nes
+      format: 1
+      size: 262160
+      blob_id: 73965
+      debug: 铁血战士[MS汉化] + Predator (U) [T+Chi].nes
