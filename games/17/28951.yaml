@@ -7,6 +7,17 @@ names:
   kind_id: 28951
   language: 2
   name: 火箭车
+- id: 71583
+  kind: 2
+  kind_id: 28951
+  language: 2
+  name: 马路英雄 (竞赛)-Road Fighter
+- id: 71584
+  kind: 2
+  kind_id: 28951
+  language: 1
+  name: Road Fighter (J) [!]
+  deprecated: 1
 - id: 243131
   kind: 2
   kind_id: 28951
@@ -65,3 +76,48 @@ releases:
       debug: |-
         火箭车.zip
         no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=eb392f6f2ca12186697c88111105263f0d027985
+- release:
+    id: 30226
+    game_id: 28951
+  names:
+  - id: 71585
+    kind: 3
+    kind_id: 30226
+    language: 2
+    name: 马路英雄 (日版) (竞赛)-Road Fighter (Japan)
+  - id: 71586
+    kind: 3
+    kind_id: 30226
+    language: 1
+    name: Road Fighter (J) [!]
+    deprecated: 1
+  - id: 261359
+    kind: 3
+    kind_id: 30226
+    language: 1
+    name: Road Fighter (Japan) (En)
+    source: no-intro
+  assets:
+  - asset:
+      id: 30208
+      kind: 3
+      kind_id: 30226
+      type: 1
+      name: Road Fighter (Japan) (En).nes
+      format: 1
+      size: 24592
+      blob_id: 74075
+      debug: |-
+        马路英雄 (日版) (竞赛)-Road Fighter (Japan) + Road Fighter (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=eb392f6f2ca12186697c88111105263f0d027985
+  - asset:
+      id: 138076
+      kind: 3
+      kind_id: 30226
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 1539
+      blob_id: 323647
+      debug: fc-title-trial:fceumm:rom-asset=30208:frame=180

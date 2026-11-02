@@ -8,6 +8,11 @@ names:
   language: 1
   name: Scarabeus (U) (Sample)
   deprecated: 1
+- id: 67969
+  kind: 2
+  kind_id: 20865
+  language: 2
+  name: 甲虫轮盘(Sample) (益智)-Scarabeus (Sample)
 - id: 248512
   kind: 2
   kind_id: 20865
@@ -61,3 +66,42 @@ releases:
       size: 4559
       blob_id: 324165
       debug: libretro-named-titles:rom-asset=20847:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Scarabeus%20%28USA%29%20%28Sample%29.png
+- release:
+    id: 29164
+    game_id: 20865
+  names:
+  - id: 67970
+    kind: 3
+    kind_id: 29164
+    language: 2
+    name: 甲虫轮盘 (美版)(Sample) (益智)-Scarabeus (USA) (Sample)
+  - id: 260936
+    kind: 3
+    kind_id: 29164
+    language: 1
+    name: Scarabeus (USA) (Proto)
+    source: no-intro
+  assets:
+  - asset:
+      id: 29146
+      kind: 3
+      kind_id: 29164
+      type: 1
+      name: Scarabeus (USA) (Proto).nes
+      format: 1
+      size: 262160
+      blob_id: 73417
+      debug: |-
+        甲虫轮盘 (美版)(Sample) (益智)-Scarabeus (USA) (Sample).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=56f15b6e0dc9e50d92fbdfe3dd1bb30885f56e3e
+  - asset:
+      id: 139102
+      kind: 3
+      kind_id: 29164
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Scarabeus%20%28USA%29%20%28Sample%29.png
+      format: 1
+      size: 4559
+      blob_id: 324165
+      debug: libretro-named-titles:rom-asset=29146:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Scarabeus%20%28USA%29%20%28Sample%29.png

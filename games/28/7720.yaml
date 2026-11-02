@@ -2,6 +2,11 @@ game:
   id: 7720
   platform_id: 2
 names:
+- id: 61237
+  kind: 2
+  kind_id: 7720
+  language: 2
+  name: 刀锋斗士 II (动作)-Captain Saver
 - id: 91466
   kind: 2
   kind_id: 7720
@@ -67,3 +72,42 @@ releases:
       size: 3550
       blob_id: 323791
       debug: fc-title-trial:nestopia:rom-asset=7703:frame=180
+- release:
+    id: 27132
+    game_id: 7720
+  names:
+  - id: 61238
+    kind: 3
+    kind_id: 27132
+    language: 2
+    name: 刀锋斗士 II (日版) (动作)-Captain Saver (Japan)
+  - id: 260128
+    kind: 3
+    kind_id: 27132
+    language: 1
+    name: Captain Saver (Japan)
+    source: no-intro
+  assets:
+  - asset:
+      id: 27114
+      kind: 3
+      kind_id: 27132
+      type: 1
+      name: Captain Saver (Japan).nes
+      format: 1
+      size: 262160
+      blob_id: 72083
+      debug: |-
+        刀锋斗士 II (日版) (动作)-Captain Saver (Japan).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=685886553c8858b704d90456f2e8f52003352598
+  - asset:
+      id: 138833
+      kind: 3
+      kind_id: 27132
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Captain%20Saver%20%28Japan%29.png
+      format: 1
+      size: 2126
+      blob_id: 324312
+      debug: libretro-named-titles:rom-asset=27114:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Captain%20Saver%20%28Japan%29.png

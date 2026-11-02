@@ -2,6 +2,11 @@ game:
   id: 24294
   platform_id: 2
 names:
+- id: 67625
+  kind: 2
+  kind_id: 24294
+  language: 2
+  name: 特库摩世界杯足球 (运动)-Tecmo World Cup Soccer
 - id: 93358
   kind: 2
   kind_id: 24294
@@ -74,3 +79,42 @@ releases:
       size: 131088
       blob_id: 69565
       debug: Tecmo World Cup Soccer (J) [T+Chi].nes
+- release:
+    id: 29066
+    game_id: 24294
+  names:
+  - id: 67626
+    kind: 3
+    kind_id: 29066
+    language: 2
+    name: 特库摩世界杯足球 (欧版) (运动)-Tecmo World Cup Soccer (Europe)
+  - id: 260897
+    kind: 3
+    kind_id: 29066
+    language: 1
+    name: Tecmo World Cup Soccer (Europe)
+    source: no-intro
+  assets:
+  - asset:
+      id: 29048
+      kind: 3
+      kind_id: 29066
+      type: 1
+      name: Tecmo World Cup Soccer (Europe).nes
+      format: 1
+      size: 131088
+      blob_id: 73355
+      debug: |-
+        特库摩世界杯足球 (欧版) (运动)-Tecmo World Cup Soccer (Europe).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=0ca546f47d9d7da12e4e25852e04effb67f60545
+  - asset:
+      id: 139089
+      kind: 3
+      kind_id: 29066
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Tecmo%20World%20Cup%20Soccer%20%28Europe%29.png
+      format: 1
+      size: 2012
+      blob_id: 324557
+      debug: libretro-named-titles:rom-asset=29048:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Tecmo%20World%20Cup%20Soccer%20%28Europe%29.png

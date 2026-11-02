@@ -2,6 +2,11 @@ game:
   id: 20814
   platform_id: 2
 names:
+- id: 68371
+  kind: 2
+  kind_id: 20814
+  language: 2
+  name: 秋刀鱼之名侦探 (解谜)-Sanma no Mei Tantei
 - id: 92965
   kind: 2
   kind_id: 20814
@@ -61,3 +66,42 @@ releases:
       size: 2177
       blob_id: 322929
       debug: fc-title-trial:fceumm:rom-asset=20796:frame=600
+- release:
+    id: 29276
+    game_id: 20814
+  names:
+  - id: 68372
+    kind: 3
+    kind_id: 29276
+    language: 2
+    name: 秋刀鱼之名侦探 (日版) (解谜)-Sanma no Mei Tantei (Japan)
+  - id: 260987
+    kind: 3
+    kind_id: 29276
+    language: 1
+    name: Sanma no Meitantei (Japan)
+    source: no-intro
+  assets:
+  - asset:
+      id: 29258
+      kind: 3
+      kind_id: 29276
+      type: 1
+      name: Sanma no Meitantei (Japan).nes
+      format: 1
+      size: 196624
+      blob_id: 73485
+      debug: |-
+        秋刀鱼之名侦探 (日版) (解谜)-Sanma no Mei Tantei (Japan).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=6d982910a8d70a2705e87af17c01ab6a676a9de1
+  - asset:
+      id: 139117
+      kind: 3
+      kind_id: 29276
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Sanma%20no%20Mei%20Tantei%20%28Japan%29.png
+      format: 1
+      size: 1322
+      blob_id: 324583
+      debug: libretro-named-titles:rom-asset=29258:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Sanma%20no%20Mei%20Tantei%20%28Japan%29.png

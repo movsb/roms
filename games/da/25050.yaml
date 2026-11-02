@@ -2,6 +2,11 @@ game:
   id: 25050
   platform_id: 2
 names:
+- id: 71415
+  kind: 2
+  kind_id: 25050
+  language: 2
+  name: 顶尖足球 (运动)-Top Striker
 - id: 93426
   kind: 2
   kind_id: 25050
@@ -74,3 +79,42 @@ releases:
       size: 1931
       blob_id: 324223
       debug: libretro-named-titles:rom-asset=25033:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Top%20Striker%20%28Japan%29.png
+- release:
+    id: 30177
+    game_id: 25050
+  names:
+  - id: 71416
+    kind: 3
+    kind_id: 30177
+    language: 2
+    name: 顶尖足球 (日版) (运动)-Top Striker (Japan)
+  - id: 261337
+    kind: 3
+    kind_id: 30177
+    language: 1
+    name: Top Striker (Japan)
+    source: no-intro
+  assets:
+  - asset:
+      id: 30159
+      kind: 3
+      kind_id: 30177
+      type: 1
+      name: Top Striker (Japan).nes
+      format: 1
+      size: 262160
+      blob_id: 74046
+      debug: |-
+        顶尖足球 (日版) (运动)-Top Striker (Japan).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=2185f8f3d0fd282c034dc397ae3301de76139eb8
+  - asset:
+      id: 139242
+      kind: 3
+      kind_id: 30177
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Top%20Striker%20%28Japan%29.png
+      format: 1
+      size: 1931
+      blob_id: 324223
+      debug: libretro-named-titles:rom-asset=30159:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Top%20Striker%20%28Japan%29.png

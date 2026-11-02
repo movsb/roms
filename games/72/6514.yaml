@@ -8,6 +8,17 @@ names:
   language: 1
   name: Baseball Stars 2 (U)
   deprecated: 1
+- id: 66401
+  kind: 2
+  kind_id: 6514
+  language: 2
+  name: 棒球之星 II  (运动)-Baseball Stars II
+- id: 66402
+  kind: 2
+  kind_id: 6514
+  language: 1
+  name: Baseball Stars II (U) [!]
+  deprecated: 1
 - id: 247527
   kind: 2
   kind_id: 6514
@@ -61,3 +72,49 @@ releases:
       size: 3501
       blob_id: 323743
       debug: fc-title-trial:fceumm:rom-asset=6496:frame=180
+- release:
+    id: 6521
+    game_id: 6514
+  names:
+  - id: 13528
+    kind: 3
+    kind_id: 6521
+    language: 1
+    name: Baseball Stars II (U) [!]
+    deprecated: 1
+  - id: 66403
+    kind: 3
+    kind_id: 6521
+    language: 2
+    name: 棒球之星 II  (美版) (运动)-Baseball Stars II (USA)
+  - id: 257722
+    kind: 3
+    kind_id: 6521
+    language: 1
+    name: Baseball Stars II (USA)
+    source: no-intro
+  assets:
+  - asset:
+      id: 6503
+      kind: 3
+      kind_id: 6521
+      type: 1
+      name: Baseball Stars II (USA).nes
+      format: 1
+      size: 393232
+      blob_id: 52753
+      debug: |-
+        Baseball Stars II (U) [!].zip
+        棒球之星 II  (美版) (运动)-Baseball Stars II (USA) + Baseball Stars II (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=2f8a9fd8cb6bb23e6c6285c2999a7d6e6b8cd686
+  - asset:
+      id: 136707
+      kind: 3
+      kind_id: 6521
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 3976
+      blob_id: 322360
+      debug: fc-title-trial:fceumm:rom-asset=6503:frame=600

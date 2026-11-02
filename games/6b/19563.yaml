@@ -8,6 +8,11 @@ names:
   language: 1
   name: RBI Baseball 2 (U)
   deprecated: 1
+- id: 43675
+  kind: 2
+  kind_id: 19563
+  language: 2
+  name: RBI 棒球 II (运动)-R.B.I. Baseball 2 (Unl)
 - id: 92815
   kind: 2
   kind_id: 19563
@@ -80,3 +85,42 @@ releases:
       size: 2369
       blob_id: 322870
       debug: fc-title-trial:fceumm:rom-asset=19545:frame=180
+- release:
+    id: 19630
+    game_id: 19563
+  names:
+  - id: 43676
+    kind: 3
+    kind_id: 19630
+    language: 2
+    name: RBI 棒球 II (美版) (运动)-R.B.I. Baseball 2 (USA) (Unl)
+  - id: 259142
+    kind: 3
+    kind_id: 19630
+    language: 1
+    name: R.B.I. Baseball 2 (USA) (Unl)
+    source: no-intro
+  assets:
+  - asset:
+      id: 19612
+      kind: 3
+      kind_id: 19630
+      type: 1
+      name: R.B.I. Baseball 2 (USA) (Unl).nes
+      format: 1
+      size: 196624
+      blob_id: 65117
+      debug: |-
+        RBI 棒球 II (美版) (运动)-R.B.I. Baseball 2 (USA) (Unl).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=43693dc477b86499760cfceb375ff040e4465516
+  - asset:
+      id: 138640
+      kind: 3
+      kind_id: 19630
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/R.B.I.%20Baseball%202%20%28USA%29%20%28Unl%29.png
+      format: 1
+      size: 1491
+      blob_id: 324130
+      debug: libretro-named-titles:rom-asset=19612:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/R.B.I.%20Baseball%202%20%28USA%29%20%28Unl%29.png

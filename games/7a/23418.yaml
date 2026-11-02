@@ -2,6 +2,11 @@ game:
   id: 23418
   platform_id: 2
 names:
+- id: 66731
+  kind: 2
+  kind_id: 23418
+  language: 2
+  name: 沼泽怪 (动作)-Swamp Thing
 - id: 66733
   kind: 2
   kind_id: 23418
@@ -156,3 +161,42 @@ releases:
       debug: |-
         Swamp Thing (U) [t2].nes
         沼泽怪物.zip
+- release:
+    id: 28784
+    game_id: 23418
+  names:
+  - id: 66732
+    kind: 3
+    kind_id: 28784
+    language: 2
+    name: 沼泽怪 (欧版) (动作)-Swamp Thing (Europe)
+  - id: 260803
+    kind: 3
+    kind_id: 28784
+    language: 1
+    name: Swamp Thing (Europe)
+    source: no-intro
+  assets:
+  - asset:
+      id: 28766
+      kind: 3
+      kind_id: 28784
+      type: 1
+      name: Swamp Thing (Europe).nes
+      format: 1
+      size: 262160
+      blob_id: 73176
+      debug: |-
+        沼泽怪 (欧版) (动作)-Swamp Thing (Europe).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=9904a7da9852c302f0df9181948f9ae9225fd2ab
+  - asset:
+      id: 139065
+      kind: 3
+      kind_id: 28784
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Swamp%20Thing%20%28Europe%29.png
+      format: 1
+      size: 5052
+      blob_id: 324535
+      debug: libretro-named-titles:rom-asset=28766:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Swamp%20Thing%20%28Europe%29.png

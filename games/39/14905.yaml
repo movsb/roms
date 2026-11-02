@@ -2,6 +2,17 @@ game:
   id: 14905
   platform_id: 2
 names:
+- id: 68433
+  kind: 2
+  kind_id: 14905
+  language: 2
+  name: 究极虎 (射击)-Kyuukyoku Tiger
+- id: 68434
+  kind: 2
+  kind_id: 14905
+  language: 1
+  name: Kyuukyoku Tiger (J)
+  deprecated: 1
 - id: 68437
   kind: 2
   kind_id: 14905
@@ -120,6 +131,51 @@ releases:
       debug: |-
         Kyuukyoku Tiger (J) [t3].nes
         究极虎_2.zip
+- release:
+    id: 29293
+    game_id: 14905
+  names:
+  - id: 68435
+    kind: 3
+    kind_id: 29293
+    language: 2
+    name: 究极虎 (日版) (射击)-Kyuukyoku Tiger (Japan)
+  - id: 68436
+    kind: 3
+    kind_id: 29293
+    language: 1
+    name: Kyuukyoku Tiger (J)
+    deprecated: 1
+  - id: 260995
+    kind: 3
+    kind_id: 29293
+    language: 1
+    name: Kyuukyoku Tiger (Japan)
+    source: no-intro
+  assets:
+  - asset:
+      id: 29275
+      kind: 3
+      kind_id: 29293
+      type: 1
+      name: Kyuukyoku Tiger (Japan).nes
+      format: 1
+      size: 262160
+      blob_id: 73498
+      debug: |-
+        究极虎 (日版) (射击)-Kyuukyoku Tiger (Japan) + Kyuukyoku Tiger (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=61d0b87e5f0c6723ba203370dcf317f8fbae7f0b
+  - asset:
+      id: 139123
+      kind: 3
+      kind_id: 29293
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Kyuukyoku%20Tiger%20%28Japan%29.png
+      format: 1
+      size: 2292
+      blob_id: 324589
+      debug: libretro-named-titles:rom-asset=29275:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Kyuukyoku%20Tiger%20%28Japan%29.png
 - release:
     id: 29294
     game_id: 14905
