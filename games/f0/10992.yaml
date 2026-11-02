@@ -2,6 +2,11 @@ game:
   id: 10992
   platform_id: 2
 names:
+- id: 67261
+  kind: 2
+  kind_id: 10992
+  language: 2
+  name: 火爆拳击 (运动)-Exciting Boxing
 - id: 91812
   kind: 2
   kind_id: 10992
@@ -72,3 +77,42 @@ releases:
   release_publishers:
   - release_id: 10994
     publisher_id: 2
+- release:
+    id: 28943
+    game_id: 10992
+  names:
+  - id: 67262
+    kind: 3
+    kind_id: 28943
+    language: 2
+    name: 火爆拳击 (日版) (运动)-Exciting Boxing (Japan)
+  - id: 260866
+    kind: 3
+    kind_id: 28943
+    language: 1
+    name: Exciting Boxing (Japan) (En)
+    source: no-intro
+  assets:
+  - asset:
+      id: 28925
+      kind: 3
+      kind_id: 28943
+      type: 1
+      name: Exciting Boxing (Japan) (En).nes
+      format: 1
+      size: 262160
+      blob_id: 73274
+      debug: |-
+        火爆拳击 (日版) (运动)-Exciting Boxing (Japan).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=00fcc73deee69e35c551d638ea106f0a5487825b
+  - asset:
+      id: 139079
+      kind: 3
+      kind_id: 28943
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Exciting%20Boxing%20%28Japan%29.png
+      format: 1
+      size: 1578
+      blob_id: 324548
+      debug: libretro-named-titles:rom-asset=28925:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Exciting%20Boxing%20%28Japan%29.png

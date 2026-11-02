@@ -2,6 +2,11 @@ game:
   id: 10445
   platform_id: 2
 names:
+- id: 72299
+  kind: 2
+  kind_id: 10445
+  language: 2
+  name: 龙之忍者 (动作)-Dragon Ninja
 - id: 72309
   kind: 2
   kind_id: 10445
@@ -194,3 +199,42 @@ releases:
   release_publishers:
   - release_id: 10453
     publisher_id: 132
+- release:
+    id: 30436
+    game_id: 10445
+  names:
+  - id: 72300
+    kind: 3
+    kind_id: 30436
+    language: 2
+    name: 龙之忍者 (日版) (动作)-Dragon Ninja (Japan)
+  - id: 261452
+    kind: 3
+    kind_id: 30436
+    language: 1
+    name: Dragon Ninja (Japan)
+    source: no-intro
+  assets:
+  - asset:
+      id: 30418
+      kind: 3
+      kind_id: 30436
+      type: 1
+      name: Dragon Ninja (Japan).nes
+      format: 1
+      size: 262160
+      blob_id: 74213
+      debug: |-
+        龙之忍者 (日版) (动作)-Dragon Ninja (Japan).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=489d1fc30630d3ad60835992c2433250a8e0803e
+  - asset:
+      id: 139281
+      kind: 3
+      kind_id: 30436
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Dragon%20Ninja%20%28Japan%29.png
+      format: 1
+      size: 3325
+      blob_id: 324738
+      debug: libretro-named-titles:rom-asset=30418:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Dragon%20Ninja%20%28Japan%29.png

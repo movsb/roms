@@ -12,6 +12,11 @@ names:
   kind_id: 19421
   language: 1
   name: Pyramid (AVE) (PRG0) [!]
+- id: 70883
+  kind: 2
+  kind_id: 19421
+  language: 2
+  name: 金字塔方块(Rev 1) (益智)-Pyramid (Rev 1) (Unl)
 - id: 92802
   kind: 2
   kind_id: 19421
@@ -173,3 +178,42 @@ releases:
       size: 40976
       blob_id: 64929
       debug: Pyramid [p1].nes
+- release:
+    id: 30022
+    game_id: 19421
+  names:
+  - id: 70884
+    kind: 3
+    kind_id: 30022
+    language: 2
+    name: 金字塔方块 (美版)(Rev 1) (益智)-Pyramid (USA) (Rev 1) (Unl)
+  - id: 261264
+    kind: 3
+    kind_id: 30022
+    language: 1
+    name: Pyramid (USA) (NINA-06) (Unl)
+    source: no-intro
+  assets:
+  - asset:
+      id: 30004
+      kind: 3
+      kind_id: 30022
+      type: 1
+      name: Pyramid (USA) (NINA-06) (Unl).nes
+      format: 1
+      size: 24592
+      blob_id: 73942
+      debug: |-
+        金字塔方块 (美版)(Rev 1) (益智)-Pyramid (USA) (Rev 1) (Unl).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=95e86c77bb25dd23152d34fd0bb562a09535be43
+  - asset:
+      id: 139215
+      kind: 3
+      kind_id: 30022
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Pyramid%20%28USA%29%20%28Rev%201%29%20%28Unl%29.png
+      format: 1
+      size: 1775
+      blob_id: 324678
+      debug: libretro-named-titles:rom-asset=30004:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Pyramid%20%28USA%29%20%28Rev%201%29%20%28Unl%29.png

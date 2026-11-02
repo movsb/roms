@@ -2,6 +2,11 @@ game:
   id: 9979
   platform_id: 2
 names:
+- id: 71141
+  kind: 2
+  kind_id: 9979
+  language: 2
+  name: 门门 (益智)-Door Door
 - id: 91693
   kind: 2
   kind_id: 9979
@@ -92,3 +97,42 @@ releases:
   release_publishers:
   - release_id: 9988
     publisher_id: 123
+- release:
+    id: 30096
+    game_id: 9979
+  names:
+  - id: 71142
+    kind: 3
+    kind_id: 30096
+    language: 2
+    name: 门门 (日版) (益智)-Door Door (Japan)
+  - id: 261301
+    kind: 3
+    kind_id: 30096
+    language: 1
+    name: Door Door (Japan) (En)
+    source: no-intro
+  assets:
+  - asset:
+      id: 30078
+      kind: 3
+      kind_id: 30096
+      type: 1
+      name: Door Door (Japan) (En).nes
+      format: 1
+      size: 24592
+      blob_id: 73993
+      debug: |-
+        门门 (日版) (益智)-Door Door (Japan).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=7f50975365e7a26ade33945139d2d5b07a5005db
+  - asset:
+      id: 139229
+      kind: 3
+      kind_id: 30096
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Door%20Door%20%28Japan%29.png
+      format: 1
+      size: 1246
+      blob_id: 324690
+      debug: libretro-named-titles:rom-asset=30078:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Door%20Door%20%28Japan%29.png

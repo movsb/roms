@@ -7,6 +7,11 @@ names:
   kind_id: 13836
   language: 1
   name: JURASSIC
+- id: 60605
+  kind: 2
+  kind_id: 13836
+  language: 2
+  name: 侏儸纪公园 (动作)-Jurassic Park
 - id: 60607
   kind: 2
   kind_id: 13836
@@ -289,6 +294,45 @@ releases:
       size: 262160
       blob_id: 59969
       debug: Jurassic Park (U) [t2].nes
+- release:
+    id: 26933
+    game_id: 13836
+  names:
+  - id: 60606
+    kind: 3
+    kind_id: 26933
+    language: 2
+    name: 侏儸纪公园 (欧版) (动作)-Jurassic Park (Europe)
+  - id: 260057
+    kind: 3
+    kind_id: 26933
+    language: 1
+    name: Jurassic Park (Europe) (En,Fr,De,Es)
+    source: no-intro
+  assets:
+  - asset:
+      id: 26915
+      kind: 3
+      kind_id: 26933
+      type: 1
+      name: Jurassic Park (Europe) (En,Fr,De,Es).nes
+      format: 1
+      size: 262160
+      blob_id: 71950
+      debug: |-
+        侏儸纪公园 (欧版) (动作)-Jurassic Park (Europe).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=ee65317597d28b1b1207c6be4df18ec73da9fd1c
+  - asset:
+      id: 138813
+      kind: 3
+      kind_id: 26933
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Jurassic%20Park%20%28Europe%29.png
+      format: 1
+      size: 3116
+      blob_id: 324293
+      debug: libretro-named-titles:rom-asset=26915:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Jurassic%20Park%20%28Europe%29.png
 - release:
     id: 26936
     game_id: 13836

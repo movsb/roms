@@ -12,6 +12,11 @@ names:
   kind_id: 17355
   language: 2
   name: 爱的小屋
+- id: 67611
+  kind: 2
+  kind_id: 17355
+  language: 2
+  name: 牛奶与花生 (动作)-Nuts & Milk
 - id: 92662
   kind: 2
   kind_id: 17355
@@ -418,6 +423,45 @@ releases:
       debug: |-
         爱的小屋[汉化版].nes
         重复的/Nuts & Milk (J) [T+Chi_MS emumax].nes
+- release:
+    id: 29062
+    game_id: 17355
+  names:
+  - id: 67612
+    kind: 3
+    kind_id: 29062
+    language: 2
+    name: 牛奶与花生 (日版) (动作)-Nuts & Milk (Japan)
+  - id: 260894
+    kind: 3
+    kind_id: 29062
+    language: 1
+    name: Nuts & Milk (Japan) (En)
+    source: no-intro
+  assets:
+  - asset:
+      id: 29044
+      kind: 3
+      kind_id: 29062
+      type: 1
+      name: Nuts & Milk (Japan) (En).nes
+      format: 1
+      size: 24592
+      blob_id: 73351
+      debug: |-
+        牛奶与花生 (日版) (动作)-Nuts & Milk (Japan).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=bd815e9731c7685ee8820434f13a3242c091f285
+  - asset:
+      id: 139087
+      kind: 3
+      kind_id: 29062
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Nuts%20_%20Milk%20%28Japan%29.png
+      format: 1
+      size: 1113
+      blob_id: 324555
+      debug: libretro-named-titles:rom-asset=29044:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Nuts%20_%20Milk%20%28Japan%29.png
 - release:
     id: 33522
     game_id: 17355

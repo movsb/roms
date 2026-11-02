@@ -2,11 +2,22 @@ game:
   id: 18946
   platform_id: 2
 names:
+- id: 66815
+  kind: 2
+  kind_id: 18946
+  language: 2
+  name: 波波团队 (亚洲版) (益智)-Popo Team (Unl)
 - id: 92746
   kind: 2
   kind_id: 18946
   language: 1
   name: Po Po Team
+- id: 242413
+  kind: 2
+  kind_id: 18946
+  language: 1
+  name: Popo Team
+  source: codex
 - id: 248359
   kind: 2
   kind_id: 18946
@@ -74,3 +85,42 @@ releases:
       size: 196708
       blob_id: 64473
       debug: Po Po Team (Sachen) [U][!].zip
+- release:
+    id: 28809
+    game_id: 18946
+  names:
+  - id: 66816
+    kind: 3
+    kind_id: 28809
+    language: 2
+    name: 波波团队 (亚洲版) (益智)-Popo Team (Asia) (Unl)
+  - id: 260813
+    kind: 3
+    kind_id: 28809
+    language: 1
+    name: Popo Team (Taiwan) (En) (Unl)
+    source: no-intro
+  assets:
+  - asset:
+      id: 28791
+      kind: 3
+      kind_id: 28809
+      type: 1
+      name: Popo Team (Taiwan) (En) (Unl).nes
+      format: 1
+      size: 196624
+      blob_id: 73191
+      debug: |-
+        波波团队 (亚洲版) (益智)-Popo Team (Asia) (Unl).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=6a07b7c55359e1826f670dedebf969b9dd2f0a2f
+  - asset:
+      id: 139069
+      kind: 3
+      kind_id: 28809
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Popo%20Team%20%28Asia%29%20%28Unl%29.png
+      format: 1
+      size: 1987
+      blob_id: 324539
+      debug: libretro-named-titles:rom-asset=28791:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Popo%20Team%20%28Asia%29%20%28Unl%29.png

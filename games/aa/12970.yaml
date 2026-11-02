@@ -2,6 +2,11 @@ game:
   id: 12970
   platform_id: 2
 names:
+- id: 64119
+  kind: 2
+  kind_id: 12970
+  language: 2
+  name: 平成天才 (动作)-Heisei Tensai Bakabon
 - id: 92062
   kind: 2
   kind_id: 12970
@@ -112,3 +117,42 @@ releases:
   release_publishers:
   - release_id: 12975
     publisher_id: 4
+- release:
+    id: 27999
+    game_id: 12970
+  names:
+  - id: 64120
+    kind: 3
+    kind_id: 27999
+    language: 2
+    name: 平成天才 (日版) (动作)-Heisei Tensai Bakabon (Japan)
+  - id: 260475
+    kind: 3
+    kind_id: 27999
+    language: 1
+    name: Heisei Tensai Bakabon (Japan)
+    source: no-intro
+  assets:
+  - asset:
+      id: 27981
+      kind: 3
+      kind_id: 27999
+      type: 1
+      name: Heisei Tensai Bakabon (Japan).nes
+      format: 1
+      size: 262160
+      blob_id: 72655
+      debug: |-
+        平成天才 (日版) (动作)-Heisei Tensai Bakabon (Japan).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=dbc81f0bfc06e116c4ac2c05566b96769ab2f055
+  - asset:
+      id: 138947
+      kind: 3
+      kind_id: 27999
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Heisei%20Tensai%20Bakabon%20%28Japan%29.png
+      format: 1
+      size: 1764
+      blob_id: 324420
+      debug: libretro-named-titles:rom-asset=27981:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Heisei%20Tensai%20Bakabon%20%28Japan%29.png

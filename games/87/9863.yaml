@@ -7,6 +7,11 @@ names:
   kind_id: 9863
   language: 2
   name: 工人战记2
+- id: 65985
+  kind: 2
+  kind_id: 9863
+  language: 2
+  name: 木匠兄弟 II (动作)-Don Doko Don 2
 - id: 91678
   kind: 2
   kind_id: 9863
@@ -175,3 +180,42 @@ releases:
       debug: |-
         Don Doko Don 2 (Japan) (Translated En).zip
         工人战记2.zip
+- release:
+    id: 28567
+    game_id: 9863
+  names:
+  - id: 65986
+    kind: 3
+    kind_id: 28567
+    language: 2
+    name: 木匠兄弟 II (日版) (动作)-Don Doko Don 2 (Japan)
+  - id: 260702
+    kind: 3
+    kind_id: 28567
+    language: 1
+    name: Don Doko Don 2 (Japan)
+    source: no-intro
+  assets:
+  - asset:
+      id: 28549
+      kind: 3
+      kind_id: 28567
+      type: 1
+      name: Don Doko Don 2 (Japan).nes
+      format: 1
+      size: 393232
+      blob_id: 73033
+      debug: |-
+        木匠兄弟 II (日版) (动作)-Don Doko Don 2 (Japan).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=67c5bc4d8b1a4474a027a3b111e186ef816f88de
+  - asset:
+      id: 139032
+      kind: 3
+      kind_id: 28567
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Don%20Doko%20Don%202%20%28Japan%29.png
+      format: 1
+      size: 2973
+      blob_id: 323974
+      debug: libretro-named-titles:rom-asset=28549:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Don%20Doko%20Don%202%20%28Japan%29.png

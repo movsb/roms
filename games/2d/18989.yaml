@@ -2,6 +2,11 @@ game:
   id: 18989
   platform_id: 2
 names:
+- id: 65065
+  kind: 2
+  kind_id: 18989
+  language: 2
+  name: 扑克 II  (亚洲版) (桌面平台)-Poker II (Unl)
 - id: 92759
   kind: 2
   kind_id: 18989
@@ -74,3 +79,42 @@ releases:
       size: 49262
       blob_id: 64509
       debug: Poker II (Sachen) [U][!].zip
+- release:
+    id: 28300
+    game_id: 18989
+  names:
+  - id: 65066
+    kind: 3
+    kind_id: 28300
+    language: 2
+    name: 扑克 II  (亚洲版) (桌面平台)-Poker II (Asia) (Unl)
+  - id: 260575
+    kind: 3
+    kind_id: 28300
+    language: 1
+    name: Poker II (Asia) (En) (Unl)
+    source: no-intro
+  assets:
+  - asset:
+      id: 28282
+      kind: 3
+      kind_id: 28300
+      type: 1
+      name: Poker II (Asia) (En) (Unl).nes
+      format: 1
+      size: 49168
+      blob_id: 72846
+      debug: |-
+        扑克 II  (亚洲版) (桌面平台)-Poker II (Asia) (Unl).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=fdcdd1af75b865107d3a8beb2c35574033fe18d1
+  - asset:
+      id: 138988
+      kind: 3
+      kind_id: 28300
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Poker%20II%20%28Asia%29%20%28Unl%29.png
+      format: 1
+      size: 1768
+      blob_id: 324461
+      debug: libretro-named-titles:rom-asset=28282:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Poker%20II%20%28Asia%29%20%28Unl%29.png

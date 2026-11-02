@@ -17,11 +17,22 @@ names:
   kind_id: 21750
   language: 2
   name: 鬼屋冒险
+- id: 71699
+  kind: 2
+  kind_id: 21750
+  language: 2
+  name: "鬼屋历险 (动作)-Splatter House - Wanpaku Graffiti"
 - id: 93090
   kind: 2
   kind_id: 21750
   language: 1
   name: "Splatter House - Wanpaku Graffiti"
+- id: 263677
+  kind: 2
+  kind_id: 21750
+  language: 1
+  name: "Splatterhouse - Wanpaku Graffiti"
+  source: no-intro
 releases:
 - release:
     id: 21750
@@ -279,3 +290,40 @@ releases:
       size: 262160
       blob_id: 73927
       debug: "重复的/Splatter House - Wanpaku Graffiti (J) [t3].nes\n鬼屋冒险.nes\n鬼屋冒险.zip"
+- release:
+    id: 30258
+    game_id: 21750
+  names:
+  - id: 71700
+    kind: 3
+    kind_id: 30258
+    language: 2
+    name: "鬼屋历险 (日版) (动作)-Splatter House - Wanpaku Graffiti (Japan)"
+  - id: 261375
+    kind: 3
+    kind_id: 30258
+    language: 1
+    name: "Splatterhouse - Wanpaku Graffiti (Japan)"
+    source: no-intro
+  assets:
+  - asset:
+      id: 30240
+      kind: 3
+      kind_id: 30258
+      type: 1
+      name: "Splatterhouse - Wanpaku Graffiti (Japan).nes"
+      format: 1
+      size: 262160
+      blob_id: 74094
+      debug: "鬼屋历险 (日版) (动作)-Splatter House - Wanpaku Graffiti (Japan).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=e535c353c90c0866b8afc681b938d3717d9ee049"
+  - asset:
+      id: 139253
+      kind: 3
+      kind_id: 30258
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Splatter%20House%20-%20Wanpaku%20Graffiti%20%28Japan%29.png
+      format: 1
+      size: 2113
+      blob_id: 324184
+      debug: libretro-named-titles:rom-asset=30240:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Splatter%20House%20-%20Wanpaku%20Graffiti%20%28Japan%29.png

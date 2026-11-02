@@ -13,17 +13,40 @@ names:
   kind_id: 22116
   language: 1
   name: Street Fighter VI 12 Peoples (Unl) [!]
+- id: 69659
+  kind: 2
+  kind_id: 22116
+  language: 2
+  name: 街霸 12人街霸
+- id: 69701
+  kind: 2
+  kind_id: 22116
+  language: 2
+  name: 街霸6人(汉化版)
 - id: 93129
   kind: 2
   kind_id: 22116
   language: 1
   name: Street Fighter VI 12 Peoples
+- id: 243140
+  kind: 2
+  kind_id: 22116
+  language: 1
+  name: Street Fighter VI
+  source: codex
+  deprecated: 1
 - id: 248642
   kind: 2
   kind_id: 22116
   language: 2
   name: 街头霸王6：12人版
   source: codex
+- id: 263459
+  kind: 2
+  kind_id: 22116
+  language: 1
+  name: Street Fighter VI (12 People)
+  source: no-intro
 releases:
 - release:
     id: 22116
@@ -78,3 +101,38 @@ releases:
       size: 262160
       blob_id: 67460
       debug: Street Fighter VI 12 Peoples (Unl) [a1].nes
+- release:
+    id: 29652
+    game_id: 22116
+  names:
+  - id: 69660
+    kind: 3
+    kind_id: 29652
+    language: 2
+    name: 街霸 12人街霸
+  - id: 69702
+    kind: 3
+    kind_id: 29652
+    language: 2
+    name: 街霸6人(汉化版)
+  - id: 261141
+    kind: 3
+    kind_id: 29652
+    language: 1
+    name: Street Fighter VI (12 People) (Asia) (En) (Pirate)
+    source: no-intro
+  assets:
+  - asset:
+      id: 29634
+      kind: 3
+      kind_id: 29652
+      type: 1
+      name: Street Fighter VI (12 People) (Asia) (En) (Pirate).nes
+      format: 1
+      size: 262160
+      blob_id: 73717
+      debug: |-
+        街霸 12人街霸.zip
+        街霸6人(汉化版).nes
+        重复的/六人街霸 中文版.nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=67d0511bb6f21b63433474b225148b7ea122dd3a

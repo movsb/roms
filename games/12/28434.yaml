@@ -3,6 +3,12 @@ game:
   platform_id: 2
   series_id: 1
 names:
+- id: 19655
+  kind: 2
+  kind_id: 28434
+  language: 1
+  name: Crash'n The Boys Street Challenge (U)
+  deprecated: 1
 - id: 67399
   kind: 2
   kind_id: 28434
@@ -13,6 +19,12 @@ names:
   kind_id: 28434
   language: 1
   name: "Crash 'n the Boys - Street Challenge"
+- id: 261606
+  kind: 2
+  kind_id: 28434
+  language: 1
+  name: "Crash 'n' the Boys - Street Challenge"
+  source: no-intro
 releases:
 - release:
     id: 9197
@@ -57,6 +69,46 @@ releases:
       size: 7362
       blob_id: 322440
       debug: fc-title-trial:fceumm:rom-asset=9179:frame=3000
+- release:
+    id: 9200
+    game_id: 28434
+  names:
+  - id: 19656
+    kind: 3
+    kind_id: 9200
+    language: 1
+    name: Crash'n The Boys Street Challenge (U)
+    deprecated: 1
+  - id: 257946
+    kind: 3
+    kind_id: 9200
+    language: 1
+    name: "Crash 'n' the Boys - Street Challenge (USA)"
+    source: no-intro
+  assets:
+  - asset:
+      id: 9182
+      kind: 3
+      kind_id: 9200
+      type: 1
+      name: "Crash 'n' the Boys - Street Challenge (USA).nes"
+      format: 1
+      size: 262160
+      blob_id: 55297
+      debug: |-
+        Crash'n The Boys Street Challenge (U).zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=6f1112340af9899bae7cceabcf65c5e3492f6577
+  - asset:
+      id: 138295
+      kind: 3
+      kind_id: 9200
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 7196
+      blob_id: 323822
+      debug: fc-title-trial:fceumm:rom-asset=9182:frame=1200:start-frame=600
 - release:
     id: 28434
     game_id: 28434

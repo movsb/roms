@@ -7,6 +7,11 @@ names:
   kind_id: 18637
   language: 1
   name: Pacmania (U)
+- id: 68067
+  kind: 2
+  kind_id: 18637
+  language: 2
+  name: 疯狂小精灵 (动作)-Pac-Mania (Unl)
 - id: 92695
   kind: 2
   kind_id: 18637
@@ -93,3 +98,42 @@ releases:
       size: 98320
       blob_id: 64190
       debug: Pac-Mania (Tengen) [t1].nes
+- release:
+    id: 29190
+    game_id: 18637
+  names:
+  - id: 68068
+    kind: 3
+    kind_id: 29190
+    language: 2
+    name: 疯狂小精灵 (美版) (动作)-Pac-Mania (USA) (Unl)
+  - id: 260951
+    kind: 3
+    kind_id: 29190
+    language: 1
+    name: Pac-Mania (USA) (Unl)
+    source: no-intro
+  assets:
+  - asset:
+      id: 29172
+      kind: 3
+      kind_id: 29190
+      type: 1
+      name: Pac-Mania (USA) (Unl).nes
+      format: 1
+      size: 98320
+      blob_id: 73434
+      debug: |-
+        疯狂小精灵 (美版) (动作)-Pac-Mania (USA) (Unl).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=918bb59593daa7c669458076a66d617ef0055ac2
+  - asset:
+      id: 139107
+      kind: 3
+      kind_id: 29190
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Pac-Mania%20%28USA%29%20%28Unl%29.png
+      format: 1
+      size: 2366
+      blob_id: 324574
+      debug: libretro-named-titles:rom-asset=29172:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Pac-Mania%20%28USA%29%20%28Unl%29.png

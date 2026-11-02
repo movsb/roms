@@ -2,6 +2,12 @@ game:
   id: 11893
   platform_id: 2
 names:
+- id: 26075
+  kind: 2
+  kind_id: 11893
+  language: 1
+  name: Frankenstein
+  deprecated: 1
 - id: 68373
   kind: 2
   kind_id: 11893
@@ -17,6 +23,12 @@ names:
   kind_id: 11893
   language: 1
   name: "Frankenstein - The Monster Returns"
+- id: 247823
+  kind: 2
+  kind_id: 11893
+  language: 2
+  name: 科学怪人
+  source: codex
 releases:
 - release:
     id: 11893
@@ -147,3 +159,43 @@ releases:
       size: 262160
       blob_id: 57833
       debug: "Frankenstein - The Monster Returns (U) [p1].nes"
+- release:
+    id: 11901
+    game_id: 11893
+  names:
+  - id: 26076
+    kind: 3
+    kind_id: 11901
+    language: 1
+    name: Frankenstein
+    deprecated: 1
+  - id: 258264
+    kind: 3
+    kind_id: 11901
+    language: 1
+    name: "Frankenstein - The Monster Returns (USA)"
+    source: no-intro
+  assets:
+  - asset:
+      id: 11883
+      kind: 3
+      kind_id: 11901
+      type: 1
+      name: "Frankenstein - The Monster Returns (USA).nes"
+      format: 1
+      size: 262160
+      blob_id: 57834
+      debug: |-
+        Frankenstein.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=c4e43e5c9d3e63f5ec11831fe154ec80f7aaeed8
+  - asset:
+      id: 138404
+      kind: 3
+      kind_id: 11901
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 4034
+      blob_id: 323909
+      debug: fc-title-trial:fceumm:rom-asset=11883:frame=900
