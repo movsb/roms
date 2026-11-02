@@ -3,6 +3,11 @@ game:
   platform_id: 2
   description: The tranquility of the Master Higgins's (or Takahashi as his real name is) island is once again disturbed. This time, some unknown force is causing havoc throughout the island. And what's worse is that Higgins's 5 dinosaur pals are kidnapped. Naturally, i
 names:
+- id: 11061
+  kind: 2
+  kind_id: 23551
+  language: 1
+  name: AdventureIsland4
 - id: 52567
   kind: 2
   kind_id: 23551
@@ -13,6 +18,12 @@ names:
   kind_id: 23551
   language: 1
   name: Takahashi Meijin no Bouken Shima IV
+- id: 247468
+  kind: 2
+  kind_id: 23551
+  language: 2
+  name: 冒险岛4
+  source: codex
 - id: 248733
   kind: 2
   kind_id: 23551
@@ -26,6 +37,37 @@ game_genres:
 - game_id: 23551
   genre_id: 5
 releases:
+- release:
+    id: 5414
+    game_id: 23551
+  names:
+  - id: 11062
+    kind: 3
+    kind_id: 5414
+    language: 1
+    name: AdventureIsland4
+  assets:
+  - asset:
+      id: 5396
+      kind: 3
+      kind_id: 5414
+      type: 1
+      name: AdventureIsland4.nes
+      format: 1
+      size: 393232
+      blob_id: 51708
+      debug: AdventureIsland4.zip
+  - asset:
+      id: 138144
+      kind: 3
+      kind_id: 5414
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 5495
+      blob_id: 323706
+      debug: fc-title-trial:fceumm:rom-asset=5396:frame=900
 - release:
     id: 23551
     game_id: 23551
@@ -298,3 +340,51 @@ releases:
       size: 393232
       blob_id: 68877
       debug: Takahashi Meijin no Bouken Shima IV (Russian Eng) [p1][!].nes
+- release:
+    id: 27075
+    game_id: 23551
+  names:
+  - id: 61038
+    kind: 3
+    kind_id: 27075
+    language: 2
+    name: 冒险岛4(汉化版)
+  - id: 61042
+    kind: 3
+    kind_id: 27075
+    language: 2
+    name: 冒险岛4
+  assets:
+  - asset:
+      id: 27057
+      kind: 3
+      kind_id: 27075
+      type: 1
+      name: 冒险岛4(汉化版).nes
+      format: 1
+      size: 393232
+      blob_id: 72048
+      debug: |-
+        冒险岛4(汉化版).nes
+        重复的/Takahashi Meijin no Bouken Shima IV (J) [T+Chi_Jiuban].nes
+        冒险岛4.zip
+- release:
+    id: 27076
+    game_id: 23551
+  names:
+  - id: 61040
+    kind: 3
+    kind_id: 27076
+    language: 2
+    name: 冒险岛4
+  assets:
+  - asset:
+      id: 27058
+      kind: 3
+      kind_id: 27076
+      type: 1
+      name: 冒险岛4.nes
+      format: 1
+      size: 393232
+      blob_id: 72049
+      debug: 冒险岛4.nes

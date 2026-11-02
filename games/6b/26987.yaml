@@ -2,6 +2,22 @@ game:
   id: 26987
   platform_id: 2
 names:
+- id: 33015
+  kind: 2
+  kind_id: 26987
+  language: 1
+  name: Kyonshiizu 2 (J) [hFFE]
+- id: 60783
+  kind: 2
+  kind_id: 26987
+  language: 2
+  name: 僵尸小子 II (动作角色扮演)-Kyonsees 2
+- id: 60784
+  kind: 2
+  kind_id: 26987
+  language: 1
+  name: Kyonshiizu 2 (Demo Cart) (J) [!]
+  deprecated: 1
 - id: 60787
   kind: 2
   kind_id: 26987
@@ -26,6 +42,71 @@ names:
   name: Kyonshiizu 2
   source: no-intro
 releases:
+- release:
+    id: 14887
+    game_id: 26987
+  names:
+  - id: 33016
+    kind: 3
+    kind_id: 14887
+    language: 1
+    name: Kyonshiizu 2 (J) [hFFE]
+  assets:
+  - asset:
+      id: 14869
+      kind: 3
+      kind_id: 14887
+      type: 1
+      name: Kyonshiizu 2 (J) [hFFE].nes
+      format: 1
+      size: 262672
+      blob_id: 60623
+      debug: Kyonshiizu 2 (J) [hFFE].nes
+- release:
+    id: 26986
+    game_id: 26987
+  names:
+  - id: 60785
+    kind: 3
+    kind_id: 26986
+    language: 2
+    name: 僵尸小子 II (日版) (动作角色扮演)-Kyonsees 2 (Japan)
+  - id: 60786
+    kind: 3
+    kind_id: 26986
+    language: 1
+    name: Kyonshiizu 2 (Demo Cart) (J) [!]
+    deprecated: 1
+  - id: 260083
+    kind: 3
+    kind_id: 26986
+    language: 1
+    name: Kyonshiizu 2 (Japan) (Sample)
+    source: no-intro
+  assets:
+  - asset:
+      id: 26968
+      kind: 3
+      kind_id: 26986
+      type: 1
+      name: Kyonshiizu 2 (Japan) (Sample).nes
+      format: 1
+      size: 262160
+      blob_id: 71987
+      debug: |-
+        僵尸小子 II (日版) (动作角色扮演)-Kyonsees 2 (Japan) + Kyonshiizu 2 (Demo Cart) (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=c2e2fcc4575754f19b3ebb557004c2fc146e8ec1
+  - asset:
+      id: 137563
+      kind: 3
+      kind_id: 26986
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 2213
+      blob_id: 323199
+      debug: fc-title-trial:fceumm:rom-asset=26968:frame=300
 - release:
     id: 26987
     game_id: 26987

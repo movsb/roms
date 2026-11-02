@@ -7,6 +7,37 @@ names:
   kind_id: 6180
   language: 1
   name: BATMAN
+- id: 69557
+  kind: 2
+  kind_id: 6180
+  language: 2
+  name: 蝙蝠侠 (动作)-Batman
+- id: 69558
+  kind: 2
+  kind_id: 6180
+  language: 1
+  name: Batman (J)
+  deprecated: 1
+- id: 69569
+  kind: 2
+  kind_id: 6180
+  language: 2
+  name: "蝙蝠侠(Beta1) (动作)-Batman - The Video Game (Beta1)"
+- id: 69570
+  kind: 2
+  kind_id: 6180
+  language: 1
+  name: Batman (U) (Prototype) [!]
+- id: 69573
+  kind: 2
+  kind_id: 6180
+  language: 2
+  name: "蝙蝠侠(Beta2) (动作)-Batman - The Video Game (Beta2)"
+- id: 69574
+  kind: 2
+  kind_id: 6180
+  language: 1
+  name: Batman (U) (Prototype-1)
 - id: 247504
   kind: 2
   kind_id: 6180
@@ -572,3 +603,109 @@ releases:
       size: 2702
       blob_id: 324632
       debug: libretro-named-titles:rom-asset=6576:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Batman%20-%20The%20Video%20Game%20%28USA%29.png
+- release:
+    id: 29621
+    game_id: 6180
+  names:
+  - id: 69559
+    kind: 3
+    kind_id: 29621
+    language: 2
+    name: 蝙蝠侠 (日版) (动作)-Batman (Japan)
+  - id: 69560
+    kind: 3
+    kind_id: 29621
+    language: 1
+    name: Batman (J)
+    deprecated: 1
+  - id: 261131
+    kind: 3
+    kind_id: 29621
+    language: 1
+    name: Batman (Japan) (En)
+    source: no-intro
+  assets:
+  - asset:
+      id: 29603
+      kind: 3
+      kind_id: 29621
+      type: 1
+      name: Batman (Japan) (En).nes
+      format: 1
+      size: 262160
+      blob_id: 73699
+      debug: |-
+        蝙蝠侠 (日版) (动作)-Batman (Japan) + Batman (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=25ad2f34ffb87cffe006f082d121b878ebc91015
+  - asset:
+      id: 139168
+      kind: 3
+      kind_id: 29621
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Batman%20%28Japan%29.png
+      format: 1
+      size: 2702
+      blob_id: 324632
+      debug: libretro-named-titles:rom-asset=29603:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Batman%20%28Japan%29.png
+- release:
+    id: 29624
+    game_id: 6180
+  names:
+  - id: 69571
+    kind: 3
+    kind_id: 29624
+    language: 2
+    name: "蝙蝠侠 (美版)(Beta1) (动作)-Batman - The Video Game (USA) (Beta1)"
+  - id: 69572
+    kind: 3
+    kind_id: 29624
+    language: 1
+    name: Batman (U) (Prototype) [!]
+  assets:
+  - asset:
+      id: 29606
+      kind: 3
+      kind_id: 29624
+      type: 1
+      name: "蝙蝠侠 (美版)(Beta1) (动作)-Batman - The Video Game (USA) (Beta1) + Batman (U) (Prototype) [!].nes"
+      format: 1
+      size: 262160
+      blob_id: 73701
+      debug: "蝙蝠侠 (美版)(Beta1) (动作)-Batman - The Video Game (USA) (Beta1) + Batman (U) (Prototype) [!].nes"
+  - asset:
+      id: 137973
+      kind: 3
+      kind_id: 29624
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 4372
+      blob_id: 323557
+      debug: fc-title-trial:fceumm:rom-asset=29606:frame=1200
+- release:
+    id: 29625
+    game_id: 6180
+  names:
+  - id: 69575
+    kind: 3
+    kind_id: 29625
+    language: 2
+    name: "蝙蝠侠 (美版)(Beta2) (动作)-Batman - The Video Game (USA) (Beta2)"
+  - id: 69576
+    kind: 3
+    kind_id: 29625
+    language: 1
+    name: Batman (U) (Prototype-1)
+  assets:
+  - asset:
+      id: 29607
+      kind: 3
+      kind_id: 29625
+      type: 1
+      name: "蝙蝠侠 (美版)(Beta2) (动作)-Batman - The Video Game (USA) (Beta2) + Batman (U) (Prototype-1).nes"
+      format: 1
+      size: 262160
+      blob_id: 73702
+      debug: "蝙蝠侠 (美版)(Beta2) (动作)-Batman - The Video Game (USA) (Beta2) + Batman (U) (Prototype-1).nes"

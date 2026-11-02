@@ -13,6 +13,12 @@ names:
   kind_id: 16063
   language: 1
   name: Megaman5
+- id: 66876
+  kind: 2
+  kind_id: 16063
+  language: 1
+  name: Megaman V (E) [!]
+  deprecated: 1
 - id: 66879
   kind: 2
   kind_id: 16063
@@ -28,6 +34,12 @@ names:
   kind_id: 16063
   language: 1
   name: Megaman V
+- id: 263175
+  kind: 2
+  kind_id: 16063
+  language: 1
+  name: Mega Man 5
+  source: no-intro
 releases:
 - release:
     id: 16063
@@ -410,3 +422,46 @@ releases:
       size: 524304
       blob_id: 61933
       debug: Megaman V (U) [T-FreBeta_Generation IX].nes
+- release:
+    id: 28826
+    game_id: 16063
+  names:
+  - id: 66877
+    kind: 3
+    kind_id: 28826
+    language: 2
+    name: "洛克人 V - 布鲁斯的圈套 (欧版) (动作)-Mega Man 5 (Europe)"
+  - id: 66878
+    kind: 3
+    kind_id: 28826
+    language: 1
+    name: Megaman V (E) [!]
+    deprecated: 1
+  - id: 260823
+    kind: 3
+    kind_id: 28826
+    language: 1
+    name: Mega Man 5 (Europe)
+    source: no-intro
+  assets:
+  - asset:
+      id: 28808
+      kind: 3
+      kind_id: 28826
+      type: 1
+      name: Mega Man 5 (Europe).nes
+      format: 1
+      size: 524304
+      blob_id: 73203
+      debug: "洛克人 V - 布鲁斯的圈套 (欧版) (动作)-Mega Man 5 (Europe) + Megaman V (E) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=07b2dac6d07fce569f55424c30b46ede177dfeaf"
+  - asset:
+      id: 137836
+      kind: 3
+      kind_id: 28826
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 2952
+      blob_id: 323443
+      debug: fc-title-trial:fceumm:rom-asset=28808:frame=2400:region=PAL

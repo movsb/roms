@@ -7,6 +7,12 @@ names:
   kind_id: 5427
   language: 1
   name: Adventures in the Magic Kingdom
+- id: 71882
+  kind: 2
+  kind_id: 5427
+  language: 1
+  name: Adventures in the Magic Kingdom (E) [!]
+  deprecated: 1
 - id: 71885
   kind: 2
   kind_id: 5427
@@ -17,6 +23,16 @@ names:
   kind_id: 5427
   language: 1
   name: Adventures in the Magic Kingdom (U) [!]
+- id: 71889
+  kind: 2
+  kind_id: 5427
+  language: 2
+  name: 魔法王国大冒险(Beta) (角色扮演)-Adventures in the Magic Kingdom (Beta)
+- id: 71890
+  kind: 2
+  kind_id: 5427
+  language: 1
+  name: Adventures in the Magic Kingdom (U) (Prototype) [!]
 - id: 71893
   kind: 2
   kind_id: 5427
@@ -162,3 +178,84 @@ releases:
       size: 262288
       blob_id: 51720
       debug: Adventures in the Magic Kingdom.zip
+- release:
+    id: 30320
+    game_id: 5427
+  names:
+  - id: 71883
+    kind: 3
+    kind_id: 30320
+    language: 2
+    name: 魔法王国大冒险 (欧版) (角色扮演)-Adventures in the Magic Kingdom (Europe)
+  - id: 71884
+    kind: 3
+    kind_id: 30320
+    language: 1
+    name: Adventures in the Magic Kingdom (E) [!]
+    deprecated: 1
+  - id: 261393
+    kind: 3
+    kind_id: 30320
+    language: 1
+    name: Adventures in the Magic Kingdom (Europe)
+    source: no-intro
+  assets:
+  - asset:
+      id: 30302
+      kind: 3
+      kind_id: 30320
+      type: 1
+      name: Adventures in the Magic Kingdom (Europe).nes
+      format: 1
+      size: 262160
+      blob_id: 74136
+      debug: |-
+        魔法王国大冒险 (欧版) (角色扮演)-Adventures in the Magic Kingdom (Europe) + Adventures in the Magic Kingdom (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=68836aa74871f35a478dd66296c9da090e981c29
+  - asset:
+      id: 138093
+      kind: 3
+      kind_id: 30320
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 6330
+      blob_id: 323662
+      debug: fc-title-trial:fceumm:rom-asset=30302:frame=600:region=PAL
+- release:
+    id: 30322
+    game_id: 5427
+  names:
+  - id: 71891
+    kind: 3
+    kind_id: 30322
+    language: 2
+    name: 魔法王国大冒险 (美版)(Beta) (角色扮演)-Adventures in the Magic Kingdom (USA) (Beta)
+  - id: 71892
+    kind: 3
+    kind_id: 30322
+    language: 1
+    name: Adventures in the Magic Kingdom (U) (Prototype) [!]
+  assets:
+  - asset:
+      id: 30304
+      kind: 3
+      kind_id: 30322
+      type: 1
+      name: 魔法王国大冒险 (美版)(Beta) (角色扮演)-Adventures in the Magic Kingdom (USA) (Beta) + Adventures in the Magic Kingdom (U) (Prototype) [!].nes
+      format: 1
+      size: 262160
+      blob_id: 74137
+      debug: 魔法王国大冒险 (美版)(Beta) (角色扮演)-Adventures in the Magic Kingdom (USA) (Beta) + Adventures in the Magic Kingdom (U) (Prototype) [!].nes
+  - asset:
+      id: 138094
+      kind: 3
+      kind_id: 30322
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 7081
+      blob_id: 323663
+      debug: fc-title-trial:fceumm:rom-asset=30304:frame=600

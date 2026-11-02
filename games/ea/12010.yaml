@@ -12,6 +12,17 @@ names:
   kind_id: 12010
   language: 2
   name: 小蜜蜂 (射击)-Galaxian
+- id: 63685
+  kind: 2
+  kind_id: 12010
+  language: 2
+  name: 小蜜蜂(Rev A) (射击)-Galaxian (Rev A)
+- id: 63686
+  kind: 2
+  kind_id: 12010
+  language: 1
+  name: Galaxian (J) (REVA) [!]
+  deprecated: 1
 - id: 63691
   kind: 2
   kind_id: 12010
@@ -260,6 +271,51 @@ releases:
       size: 1474
       blob_id: 323991
       debug: libretro-named-titles:rom-asset=27854:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Galaxian%20%28Japan%29.png
+- release:
+    id: 27873
+    game_id: 12010
+  names:
+  - id: 63687
+    kind: 3
+    kind_id: 27873
+    language: 2
+    name: 小蜜蜂 (日版)(Rev A) (射击)-Galaxian (Japan) (Rev A)
+  - id: 63688
+    kind: 3
+    kind_id: 27873
+    language: 1
+    name: Galaxian (J) (REVA) [!]
+    deprecated: 1
+  - id: 260424
+    kind: 3
+    kind_id: 27873
+    language: 1
+    name: Galaxian (Japan) (En) (Rev 1)
+    source: no-intro
+  assets:
+  - asset:
+      id: 27855
+      kind: 3
+      kind_id: 27873
+      type: 1
+      name: Galaxian (Japan) (En) (Rev 1).nes
+      format: 1
+      size: 16400
+      blob_id: 72574
+      debug: |-
+        小蜜蜂 (日版)(Rev A) (射击)-Galaxian (Japan) (Rev A) + Galaxian (J) (REVA) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=0fe9120fd5adc2790b0b9e8fadd136f9c66a709f
+  - asset:
+      id: 137685
+      kind: 3
+      kind_id: 27873
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 2479
+      blob_id: 323307
+      debug: fc-title-trial:nestopia:rom-asset=27855:frame=300
 - release:
     id: 27876
     game_id: 12010

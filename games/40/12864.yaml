@@ -7,12 +7,29 @@ names:
   kind_id: 12864
   language: 1
   name: Happy Pairs (Sachen) [U][!]
+- id: 64629
+  kind: 2
+  kind_id: 12864
+  language: 2
+  name: 快乐配对 (亚洲版) (益智)-Happy Pairs (PAL) (Unl)
+- id: 64630
+  kind: 2
+  kind_id: 12864
+  language: 1
+  name: Happy Pairs (Sachen) [!]
+  deprecated: 1
 - id: 247899
   kind: 2
   kind_id: 12864
   language: 2
   name: 开心对对碰
   source: codex
+- id: 262904
+  kind: 2
+  kind_id: 12864
+  language: 1
+  name: Happy Pairs
+  source: no-intro
 releases:
 - release:
     id: 12864
@@ -45,3 +62,37 @@ releases:
       size: 4192
       blob_id: 322602
       debug: fc-title-trial:fceumm:rom-asset=12846:frame=1800
+- release:
+    id: 28156
+    game_id: 12864
+  names:
+  - id: 64631
+    kind: 3
+    kind_id: 28156
+    language: 2
+    name: 快乐配对 (亚洲版) (益智)-Happy Pairs (Asia) (PAL) (Unl)
+  - id: 64632
+    kind: 3
+    kind_id: 28156
+    language: 1
+    name: Happy Pairs (Sachen) [!]
+    deprecated: 1
+  - id: 260526
+    kind: 3
+    kind_id: 28156
+    language: 1
+    name: Happy Pairs (Asia) (En) (Unl)
+    source: no-intro
+  assets:
+  - asset:
+      id: 28138
+      kind: 3
+      kind_id: 28156
+      type: 1
+      name: Happy Pairs (Asia) (En) (Unl).nes
+      format: 1
+      size: 98320
+      blob_id: 72759
+      debug: |-
+        快乐配对 (亚洲版) (益智)-Happy Pairs (Asia) (PAL) (Unl) + Happy Pairs (Sachen) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=ca8905c8ab70154e77ca1c93fe014db2de51bf2a

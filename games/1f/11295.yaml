@@ -2,6 +2,16 @@ game:
   id: 11295
   platform_id: 2
 names:
+- id: 24621
+  kind: 2
+  kind_id: 11295
+  language: 1
+  name: FelixTheCat
+- id: 69357
+  kind: 2
+  kind_id: 11295
+  language: 2
+  name: 菲力克斯猫
 - id: 69363
   kind: 2
   kind_id: 11295
@@ -12,6 +22,11 @@ names:
   kind_id: 11295
   language: 1
   name: Felix the Cat (U) [!]
+- id: 69367
+  kind: 2
+  kind_id: 11295
+  language: 2
+  name: 菲力猫
 - id: 91863
   kind: 2
   kind_id: 11295
@@ -391,6 +406,78 @@ releases:
       size: 262160
       blob_id: 57276
       debug: Felix the Cat (U) [t2].nes
+- release:
+    id: 11318
+    game_id: 11295
+  names:
+  - id: 24622
+    kind: 3
+    kind_id: 11318
+    language: 1
+    name: FelixTheCat
+    deprecated: 1
+  - id: 69358
+    kind: 3
+    kind_id: 11318
+    language: 2
+    name: 菲力克斯猫
+  - id: 69368
+    kind: 3
+    kind_id: 11318
+    language: 2
+    name: 菲力猫
+  - id: 258216
+    kind: 3
+    kind_id: 11318
+    language: 1
+    name: Felix the Cat (USA) (Hudson)
+    source: no-intro
+  assets:
+  - asset:
+      id: 11300
+      kind: 3
+      kind_id: 11318
+      type: 1
+      name: Felix the Cat (USA) (Hudson).nes
+      format: 1
+      size: 262160
+      blob_id: 57279
+      debug: |-
+        FelixTheCat.zip
+        菲力克斯猫.zip
+        菲力猫.nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=cc03a83c6ad9bbb858ee5ff04e9e7b2362eea06a
+  - asset:
+      id: 138386
+      kind: 3
+      kind_id: 11318
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 4146
+      blob_id: 322540
+      debug: fc-title-trial:fceumm:rom-asset=11300:frame=600
+- release:
+    id: 29566
+    game_id: 11295
+  names:
+  - id: 95247
+    kind: 3
+    kind_id: 29566
+    language: 2
+    name: 菲力克斯猫
+  assets:
+  - asset:
+      id: 29548
+      kind: 3
+      kind_id: 29566
+      type: 1
+      name: 菲力克斯猫.nes
+      format: 1
+      size: 262160
+      blob_id: 73666
+      debug: 菲力克斯猫_2.zip
 - release:
     id: 29567
     game_id: 11295
