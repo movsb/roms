@@ -158,12 +158,14 @@ releases:
 - release:
     id: 12755
     game_id: 12728
+    description: "三者都是 FC/NES 版《Gun.Smoke／荒野大镖客》的 Ziria 汉化版本，归在同一个游戏 `12728` 下是正确的，但 ROM 并不相同。\n\n| 发行版 | 标记含义 | 与 12755 的差异 |\n|---|---|---:|\n| `12755` | `[T+Chi_Ziria]`，完整汉化版 | 基准版本 |\n| `12756` | `[T+Chi_Ziria][a2]`，完整汉化的第 2 个替代版本 | 仅 4 字节不同 |\n| `29554` | `[T-Chi_Ziria]`，未完成/早期汉化版 | 1,459 字节不同 |\n\n共同点：\n\n- 大小均为 131,088 字节\n- iNES 头完全相同\n- 都是 Mapper 2、128 KiB PRG ROM\n- 都属于 Ziria 汉化\n\n`29554` 的 CRC32 `1F0A941B`、MD5 `ff46caebc46ac5faa8385c96f9b119f1` 与公开记录中的 `[T-Chi_Ziria]` 完全一致。[RetroAchievements 的校验记录](https://retroachievements.org/forums/topic/1478)\n\n建议：\n\n- `12755` 作为主要汉化发行版保留\n- `12756` 作为“完整汉化替代版 2”保留\n- `29554` 作为“早期/未完成汉化版”保留\n- 不应合并三个 ROM；但可以把显示名称分别整理为：\n  - 荒野大镖客（Ziria 完整汉化版）\n  - 荒野大镖客（Ziria 完整汉化替代版 2）\n  - 荒野大镖客（Ziria 早期汉化版）\n\n`12755` 与 `12756` 只有以下 4 个字节不同，其他 131,084 字节完全一致：\n\n| 文件偏移 | `12755` | `12756 [a2]` | 可能的 6502 指令变化 |\n|---:|---:|---:|---|\n| `0x1EBBD` | `05` | `A5` | `ORA $7C` → `LDA $7C` |\n| `0x1EBCE` | `78` | `05` | `LDA $78` → `LDA $05` |\n| `0x1F3C6` | `C6` | `AD` | 与下一字节共同改变指令 |\n| `0x1F3C7` | `7A` | `63` | 见下方 |\n\n第一处完整代码：\n\n```text\n12755: A5 77 05 7C 05 7D\n       LDA $77\n       ORA $7C\n       ORA $7D\n\n12756: A5 77 A5 7C 05 7D\n       LDA $77\n       LDA $7C\n       ORA $7D\n```\n\n第二处：\n\n```text\n12755: A5 78    LDA $78\n12756: A5 05    LDA $05\n```\n\n最后两字节放在上下文中会变成：\n\n```text\n12755: C6 7A F0 3A\n       DEC $7A\n       BEQ ...\n\n12756: AD 63 F0 3A\n       LDA $F063\n       NOP       ; 非官方 6502 NOP\n```\n\n因此 `[a2]` 不是简单的头部或校验差异，而是修改了三处程序逻辑，尤其最后一处相当于取消了 `DEC $7A` 和条件跳转。若没有明确证据表明这是修正版，通常应优先保留无 `[a2]` 的 `12755` 作为标准完整汉化版。\n\n连续两次lda没有意义吧？为什么看起来12755更正常？\n\n对，`12755` 明显更正常，而且现在有了直接证据：这四个字节与原版美版 ROM 完全一致。\n\n| 位置 | 美版原版 | `12755` | `12756 [a2]` |\n|---:|---:|---:|---:|\n| `0x1EBBD` | `05` | `05` | `A5` |\n| `0x1EBCE` | `78` | `78` | `05` |\n| `0x1F3C6` | `C6` | `C6` | `AD` |\n| `0x1F3C7` | `7A` | `7A` | `63` |\n\n原版与 `12755`：\n\n```asm\nLDA $77\nORA $7C\nORA $7D\n```\n\n这是合理的：把 `$77`、`$7C`、`$7D` 三个状态合并，然后根据结果判断。\n\n`12756`：\n\n```asm\nLDA $77\nLDA $7C\nORA $7D\n```\n\n第二条 `LDA` 会覆盖第一条的数值和标志位；这里访问的是零页 RAM，不是具有读取副作用的硬件寄存器，所以第一条基本没有意义。\n\n另外两处也一样：\n\n```asm\n原版/12755: LDA $78\n12756:      LDA $05\n```\n\n以及：\n\n```asm\n原版/12755:\nDEC $7A\nBEQ ...\n\n12756:\nLDA $F063\nNOP\n```\n\n结论：`12755` 保留了美版原程序逻辑，仅加入汉化内容；`12756 [a2]` 的四字节修改与汉化没有明显关系，而且破坏了正常逻辑。它虽然被旧 ROM 集标为“替代版”，但从代码看更像错误修改或受损变体。标准汉化版应选择 `12755`。"
+    release_type: 2
   names:
-  - id: 83239
+  - id: 263764
     kind: 3
     kind_id: 12755
-    language: 1
-    name: Gun.Smoke (U) [T+Chi_Ziria]
+    language: 2
+    name: 汉化版（小字体，Ziria）
   assets:
   - asset:
       id: 12737
@@ -175,45 +177,20 @@ releases:
       size: 131088
       blob_id: 58638
       debug: Gun.Smoke (U) [T+Chi_Ziria].nes
-- release:
-    id: 12756
-    game_id: 12728
-  names:
-  - id: 83240
-    kind: 3
-    kind_id: 12756
-    language: 1
-    name: Gun.Smoke (U) [T+Chi_Ziria][a2]
-  assets:
   - asset:
       id: 12738
       kind: 3
-      kind_id: 12756
+      kind_id: 12755
       type: 1
       name: Gun.Smoke (U) [T+Chi_Ziria][a2].nes
       format: 1
       size: 131088
       blob_id: 58639
       debug: Gun.Smoke (U) [T+Chi_Ziria][a2].nes
-- release:
-    id: 12757
-    game_id: 12728
-  names:
-  - id: 69338
-    kind: 3
-    kind_id: 12757
-    language: 2
-    name: 荒野大镖客无敌
-  - id: 83241
-    kind: 3
-    kind_id: 12757
-    language: 1
-    name: Gun.Smoke (U) [T+Chi_Ziria][a3]
-  assets:
   - asset:
       id: 12739
       kind: 3
-      kind_id: 12757
+      kind_id: 12755
       type: 1
       name: Gun.Smoke (U) [T+Chi_Ziria][a3].nes
       format: 1
@@ -222,6 +199,38 @@ releases:
       debug: |-
         Gun.Smoke (U) [T+Chi_Ziria][a3].nes
         荒野大镖客无敌.zip
+  - asset:
+      id: 29536
+      kind: 3
+      kind_id: 12755
+      type: 1
+      name: Gun.Smoke (U) [T-Chi_Ziria].nes
+      format: 1
+      size: 131088
+      blob_id: 73658
+      debug: 荒野大镖客(中文版) + Gun.Smoke (U) [T-Chi_Ziria].nes
+  - asset:
+      id: 29537
+      kind: 3
+      kind_id: 12755
+      type: 1
+      name: 荒野大镖客(汉化版).nes
+      format: 1
+      size: 131088
+      blob_id: 73659
+      debug: |-
+        荒野大镖客(汉化版).nes
+        重复的/Gun.Smoke (U) [T+Chi_Ziria][b1].nes
+  - asset:
+      id: 29539
+      kind: 3
+      kind_id: 12755
+      type: 1
+      name: Gun.Smoke (U) [T+Chi_Ziria][a1].nes
+      format: 1
+      size: 131088
+      blob_id: 73661
+      debug: 荒野大镖客[高艳龙汉化 MS修正] + Gun.Smoke (U) [T+Chi_Ziria][a1].nes
 - release:
     id: 12758
     game_id: 12728
@@ -659,114 +668,44 @@ releases:
       blob_id: 323542
       debug: fc-title-trial:fceumm:rom-asset=29534:frame=180:region=PAL
 - release:
-    id: 29554
+    id: 29560
     game_id: 12728
+    description: "`29542` 是在 `29538` 汉化版基础上加入的“无敌＋全能力”修改版。\n\n两者：\n\n- 大小完全相同：163,856 字节\n- NES 头、Mapper 119、中文字库完全相同\n- 只有 **58 个字节不同**\n- 差异全部位于最后一个 PRG Bank\n- 汉化文字和图形没有变化\n\n核心修改发生在文件偏移 `0x1EBBD`：\n\n```asm\n29538 原代码：\nORA $7C\nORA $7D\n\n29542：\nJMP $FF62\nNOP\n```\n\n也就是跳到新增的作弊程序。新增程序位于 `0x1FF72`，对应 CPU 地址 `$FF62`：\n\n```asm\nLDA #$0F\nSTA $7C             ; 开启能力位\nORA $7C\nORA $7D\n\nLDA #$04\nSTA $78\nSTA $79             ; 两项数值固定为 4\n\nLDA #$D0\nSTA $90\nSTA $92\nSTA $93\nSTA $94\nSTA $96\nSTA $97\nSTA $98\nSTA $9A\nSTA $9B\nSTA $9C\nSTA $9E\nSTA $9F\n\nLDA #$D3\nSTA $91\nSTA $95\nSTA $99\nSTA $9D\n\nJMP $EBB1           ; 返回原程序\n```\n\n因此关系很明确：\n\n- asset `29538`：普通汉化版\n- asset `29542`：以 `29538` 为基础，只加入作弊代码的“无敌全能力汉化版”\n\n它们不是两个汉化版本，翻译内容相同。数据库目前把两者放在同一个发行版 `29560` 下；更合理的做法是拆成两个发行版，并把 `29542` 标记为“修改版/作弊版”。"
+    release_type: 2
   names:
-  - id: 69325
+  - id: 263765
     kind: 3
-    kind_id: 29554
+    kind_id: 29560
     language: 2
-    name: 荒野大镖客(中文版)
-  - id: 69326
-    kind: 3
-    kind_id: 29554
-    language: 1
-    name: Gun.Smoke (U) [T-Chi_Ziria]
-  assets:
-  - asset:
-      id: 29536
-      kind: 3
-      kind_id: 29554
-      type: 1
-      name: 荒野大镖客(中文版) + Gun.Smoke (U) [T-Chi_Ziria].nes
-      format: 1
-      size: 131088
-      blob_id: 73658
-      debug: 荒野大镖客(中文版) + Gun.Smoke (U) [T-Chi_Ziria].nes
-- release:
-    id: 29555
-    game_id: 12728
-  names:
-  - id: 69328
-    kind: 3
-    kind_id: 29555
-    language: 2
-    name: 荒野大镖客(汉化版)
-  assets:
-  - asset:
-      id: 29537
-      kind: 3
-      kind_id: 29555
-      type: 1
-      name: 荒野大镖客(汉化版).nes
-      format: 1
-      size: 131088
-      blob_id: 73659
-      debug: |-
-        荒野大镖客(汉化版).nes
-        重复的/Gun.Smoke (U) [T+Chi_Ziria][b1].nes
-- release:
-    id: 29556
-    game_id: 12728
-  names:
-  - id: 69330
-    kind: 3
-    kind_id: 29556
-    language: 2
-    name: 荒野大镖客
+    name: 汉化版（大字体）
   assets:
   - asset:
       id: 29538
       kind: 3
-      kind_id: 29556
+      kind_id: 29560
       type: 1
       name: 荒野大镖客.nes
       format: 1
       size: 163856
       blob_id: 73660
       debug: 荒野大镖客.zip
-- release:
-    id: 29557
-    game_id: 12728
-  names:
-  - id: 85265
-    kind: 3
-    kind_id: 29557
-    language: 2
-    name: 荒野大镖客[高艳龙汉化 MS修正]
-  - id: 85266
-    kind: 3
-    kind_id: 29557
-    language: 1
-    name: Gun.Smoke (U) [T+Chi_Ziria][a1]
-  assets:
-  - asset:
-      id: 29539
-      kind: 3
-      kind_id: 29557
-      type: 1
-      name: 荒野大镖客[高艳龙汉化 MS修正] + Gun.Smoke (U) [T+Chi_Ziria][a1].nes
-      format: 1
-      size: 131088
-      blob_id: 73661
-      debug: 荒野大镖客[高艳龙汉化 MS修正] + Gun.Smoke (U) [T+Chi_Ziria][a1].nes
-- release:
-    id: 29560
-    game_id: 12728
-  names:
-  - id: 69342
-    kind: 3
-    kind_id: 29560
-    language: 2
-    name: 荒野大镖客汉化版
-  assets:
   - asset:
       id: 29542
       kind: 3
       kind_id: 29560
       type: 1
-      name: 荒野大镖客无敌全能力汉化版.nes
+      name: 荒野大镖客（无敌全能力）.nes
       format: 1
       size: 163856
       blob_id: 73662
       debug: 荒野大镖客汉化版.zip
+  - asset:
+      id: 143709
+      kind: 3
+      kind_id: 29560
+      type: 9
+      name: 荒野大镖客（无敌全能力）-261102-013102.png
+      format: 1
+      size: 3832
+      blob_id: 328468
+      debug: fbui:retroarch-screenshot
