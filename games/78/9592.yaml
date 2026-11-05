@@ -2,6 +2,23 @@ game:
   id: 9592
   platform_id: 2
 names:
+- id: 60690
+  kind: 2
+  kind_id: 9592
+  language: 1
+  name: Defender of the Crown (E) [!]
+  deprecated: 1
+- id: 60693
+  kind: 2
+  kind_id: 9592
+  language: 2
+  name: 保皇骑士 (法版) (策略)-Defender of the Crown
+- id: 60694
+  kind: 2
+  kind_id: 9592
+  language: 1
+  name: Defender of the Crown (F) [!]
+  deprecated: 1
 - id: 60697
   kind: 2
   kind_id: 9592
@@ -78,3 +95,93 @@ releases:
       size: 13011
       blob_id: 322455
       debug: fc-title-trial:fceumm:rom-asset=9574:frame=900
+- release:
+    id: 26958
+    game_id: 9592
+  names:
+  - id: 60691
+    kind: 3
+    kind_id: 26958
+    language: 2
+    name: 保皇骑士 (欧版) (策略)-Defender of the Crown (Europe)
+  - id: 60692
+    kind: 3
+    kind_id: 26958
+    language: 1
+    name: Defender of the Crown (E) [!]
+    deprecated: 1
+  - id: 260070
+    kind: 3
+    kind_id: 26958
+    language: 1
+    name: Defender of the Crown (Europe)
+    source: no-intro
+  assets:
+  - asset:
+      id: 26940
+      kind: 3
+      kind_id: 26958
+      type: 1
+      name: Defender of the Crown (Europe).nes
+      format: 1
+      size: 262160
+      blob_id: 71967
+      debug: |-
+        保皇骑士 (欧版) (策略)-Defender of the Crown (Europe) + Defender of the Crown (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=3aac8e5472a9d4c26ca50080d29d9ef937bddc0f
+  - asset:
+      id: 137560
+      kind: 3
+      kind_id: 26958
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 12919
+      blob_id: 323197
+      debug: fc-title-trial:fceumm:rom-asset=26940:frame=900:region=PAL
+- release:
+    id: 26959
+    game_id: 9592
+  names:
+  - id: 60695
+    kind: 3
+    kind_id: 26959
+    language: 2
+    name: 保皇骑士 (法版) (策略)-Defender of the Crown (France)
+  - id: 60696
+    kind: 3
+    kind_id: 26959
+    language: 1
+    name: Defender of the Crown (F) [!]
+    deprecated: 1
+  - id: 260071
+    kind: 3
+    kind_id: 26959
+    language: 1
+    name: Defender of the Crown (France)
+    source: no-intro
+  assets:
+  - asset:
+      id: 26941
+      kind: 3
+      kind_id: 26959
+      type: 1
+      name: Defender of the Crown (France).nes
+      format: 1
+      size: 262160
+      blob_id: 71968
+      debug: |-
+        保皇骑士 (法版) (策略)-Defender of the Crown (France) + Defender of the Crown (F) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=5700de705c481b919d7549a0fd1706e1bb1b5603
+  - asset:
+      id: 137561
+      kind: 3
+      kind_id: 26959
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 12919
+      blob_id: 323197
+      debug: fc-title-trial:fceumm:rom-asset=26941:frame=900:region=PAL

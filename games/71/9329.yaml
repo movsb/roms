@@ -2,6 +2,17 @@ game:
   id: 9329
   platform_id: 2
 names:
+- id: 62885
+  kind: 2
+  kind_id: 9329
+  language: 2
+  name: "大迷路 - 迷路之达人 (益智)-Dai Meiro - Meikyuu no Tatsujin"
+- id: 62886
+  kind: 2
+  kind_id: 9329
+  language: 1
+  name: "Dai Meiro - Meikyuu no Tatsujin (J) [!]"
+  deprecated: 1
 - id: 91600
   kind: 2
   kind_id: 9329
@@ -13,6 +24,12 @@ names:
   language: 2
   name: 大迷宫：迷宫达人
   source: codex
+- id: 262720
+  kind: 2
+  kind_id: 9329
+  language: 1
+  name: "Meikyuu no Tatsujin - Daimeiro"
+  source: no-intro
 releases:
 - release:
     id: 9329
@@ -42,3 +59,46 @@ releases:
 - release:
     id: 9330
     game_id: 9329
+- release:
+    id: 27636
+    game_id: 9329
+  names:
+  - id: 62887
+    kind: 3
+    kind_id: 27636
+    language: 2
+    name: "大迷路 - 迷路之达人 (日版) (益智)-Dai Meiro - Meikyuu no Tatsujin (Japan)"
+  - id: 62888
+    kind: 3
+    kind_id: 27636
+    language: 1
+    name: "Dai Meiro - Meikyuu no Tatsujin (J) [!]"
+    deprecated: 1
+  - id: 260324
+    kind: 3
+    kind_id: 27636
+    language: 1
+    name: "Meikyuu no Tatsujin - Daimeiro (Japan)"
+    source: no-intro
+  assets:
+  - asset:
+      id: 27618
+      kind: 3
+      kind_id: 27636
+      type: 1
+      name: "Meikyuu no Tatsujin - Daimeiro (Japan).nes"
+      format: 1
+      size: 262160
+      blob_id: 72414
+      debug: "大迷路 - 迷路之达人 (日版) (益智)-Dai Meiro - Meikyuu no Tatsujin (Japan) + Dai Meiro - Meikyuu no Tatsujin (J) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=68be6dae20ce20b3ceefaa58d540ceef17e2bc80"
+  - asset:
+      id: 137644
+      kind: 3
+      kind_id: 27636
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 5802
+      blob_id: 323271
+      debug: fc-title-trial:fceumm:rom-asset=27618:frame=300

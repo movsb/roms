@@ -7,6 +7,12 @@ names:
   kind_id: 9616
   language: 1
   name: Deja Vu
+- id: 60590
+  kind: 2
+  kind_id: 9616
+  language: 1
+  name: Deja Vu (J) [!]
+  deprecated: 1
 - id: 60593
   kind: 2
   kind_id: 9616
@@ -34,6 +40,12 @@ names:
   kind_id: 9616
   language: 1
   name: Deja Vu
+  source: no-intro
+- id: 262477
+  kind: 2
+  kind_id: 9616
+  language: 1
+  name: "Deja Vu - A Nightmare Comes True!!"
   source: no-intro
 releases:
 - release:
@@ -162,6 +174,51 @@ releases:
       size: 2478
       blob_id: 323971
       debug: libretro-named-titles:rom-asset=9598:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Deja%20Vu%20%28USA%29.png
+- release:
+    id: 26929
+    game_id: 9616
+  names:
+  - id: 60591
+    kind: 3
+    kind_id: 26929
+    language: 2
+    name: 似曾相似 (日版) (冒险解谜)-Deja Vu (Japan)
+  - id: 60592
+    kind: 3
+    kind_id: 26929
+    language: 1
+    name: Deja Vu (J) [!]
+    deprecated: 1
+  - id: 260055
+    kind: 3
+    kind_id: 26929
+    language: 1
+    name: "Deja Vu - A Nightmare Comes True!! (Japan)"
+    source: no-intro
+  assets:
+  - asset:
+      id: 26911
+      kind: 3
+      kind_id: 26929
+      type: 1
+      name: "Deja Vu - A Nightmare Comes True!! (Japan).nes"
+      format: 1
+      size: 393232
+      blob_id: 71947
+      debug: |-
+        似曾相似 (日版) (冒险解谜)-Deja Vu (Japan) + Deja Vu (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=14d0c6fdfedc0347d809660a96dfb4b7069c4172
+  - asset:
+      id: 137554
+      kind: 3
+      kind_id: 26929
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 4392
+      blob_id: 323191
+      debug: fc-title-trial:fceumm:rom-asset=26911:frame=900
 - release:
     id: 26930
     game_id: 9616

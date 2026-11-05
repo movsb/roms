@@ -2,6 +2,12 @@ game:
   id: 8405
   platform_id: 2
 names:
+- id: 60704
+  kind: 2
+  kind_id: 8405
+  language: 1
+  name: Championship Bowling (J)
+  deprecated: 1
 - id: 60707
   kind: 2
   kind_id: 8405
@@ -71,3 +77,48 @@ releases:
       size: 5557
       blob_id: 322416
       debug: fc-title-trial:fceumm:rom-asset=8389:frame=1800
+- release:
+    id: 26962
+    game_id: 8405
+  names:
+  - id: 60705
+    kind: 3
+    kind_id: 26962
+    language: 2
+    name: 保龄球锦标赛 (日版) (运动)-Championship Bowling (Japan)
+  - id: 60706
+    kind: 3
+    kind_id: 26962
+    language: 1
+    name: Championship Bowling (J)
+    deprecated: 1
+  - id: 260072
+    kind: 3
+    kind_id: 26962
+    language: 1
+    name: Championship Bowling (Japan) (En)
+    source: no-intro
+  assets:
+  - asset:
+      id: 26944
+      kind: 3
+      kind_id: 26962
+      type: 1
+      name: Championship Bowling (Japan) (En).nes
+      format: 1
+      size: 65552
+      blob_id: 71970
+      debug: |-
+        保龄球锦标赛 (日版) (运动)-Championship Bowling (Japan) + Championship Bowling (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=f325b1369cc39b47729ee5b0aa61b11eeb60b94d
+  - asset:
+      id: 138816
+      kind: 3
+      kind_id: 26962
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Championship%20Bowling%20%28Japan%29.png
+      format: 1
+      size: 2875
+      blob_id: 324295
+      debug: libretro-named-titles:rom-asset=26944:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Championship%20Bowling%20%28Japan%29.png

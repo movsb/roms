@@ -2,6 +2,17 @@ game:
   id: 9427
   platform_id: 2
 names:
+- id: 72237
+  kind: 2
+  kind_id: 9427
+  language: 2
+  name: 黑暗之王 (角色扮演)-Dark Lord
+- id: 72238
+  kind: 2
+  kind_id: 9427
+  language: 1
+  name: Dark Lord (J)
+  deprecated: 1
 - id: 91614
   kind: 2
   kind_id: 9427
@@ -52,3 +63,48 @@ releases:
   release_publishers:
   - release_id: 9429
     publisher_id: 132
+- release:
+    id: 30420
+    game_id: 9427
+  names:
+  - id: 72239
+    kind: 3
+    kind_id: 30420
+    language: 2
+    name: 黑暗之王 (日版) (角色扮演)-Dark Lord (Japan)
+  - id: 72240
+    kind: 3
+    kind_id: 30420
+    language: 1
+    name: Dark Lord (J)
+    deprecated: 1
+  - id: 261442
+    kind: 3
+    kind_id: 30420
+    language: 1
+    name: Dark Lord (Japan)
+    source: no-intro
+  assets:
+  - asset:
+      id: 30402
+      kind: 3
+      kind_id: 30420
+      type: 1
+      name: Dark Lord (Japan).nes
+      format: 1
+      size: 393232
+      blob_id: 74205
+      debug: |-
+        黑暗之王 (日版) (角色扮演)-Dark Lord (Japan) + Dark Lord (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=73720228da40937db5ab037f8898450658312ec1
+  - asset:
+      id: 139275
+      kind: 3
+      kind_id: 30420
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Dark%20Lord%20%28Japan%29.png
+      format: 1
+      size: 3079
+      blob_id: 324732
+      debug: libretro-named-titles:rom-asset=30402:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Dark%20Lord%20%28Japan%29.png

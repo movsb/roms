@@ -2,6 +2,34 @@ game:
   id: 9681
   platform_id: 2
 names:
+- id: 64761
+  kind: 2
+  kind_id: 9681
+  language: 2
+  name: 恶魔世界 (益智)-Devil World
+- id: 64762
+  kind: 2
+  kind_id: 9681
+  language: 1
+  name: Devil World (J) [!]
+  deprecated: 1
+- id: 64765
+  kind: 2
+  kind_id: 9681
+  language: 2
+  name: 恶魔世界(Rev A) (益智)-Devil World (Rev A)
+- id: 64766
+  kind: 2
+  kind_id: 9681
+  language: 1
+  name: Devil World (J) [h1]
+  deprecated: 1
+- id: 64770
+  kind: 2
+  kind_id: 9681
+  language: 1
+  name: Devil World (E) [!]
+  deprecated: 1
 - id: 91650
   kind: 2
   kind_id: 9681
@@ -94,3 +122,138 @@ releases:
       size: 24592
       blob_id: 55750
       debug: Devil World (J) [p1].nes
+- release:
+    id: 28202
+    game_id: 9681
+  names:
+  - id: 64763
+    kind: 3
+    kind_id: 28202
+    language: 2
+    name: 恶魔世界 (日版) (益智)-Devil World (Japan)
+  - id: 64764
+    kind: 3
+    kind_id: 28202
+    language: 1
+    name: Devil World (J) [!]
+    deprecated: 1
+  - id: 260541
+    kind: 3
+    kind_id: 28202
+    language: 1
+    name: Devil World (Japan)
+    source: no-intro
+  assets:
+  - asset:
+      id: 28184
+      kind: 3
+      kind_id: 28202
+      type: 1
+      name: Devil World (Japan).nes
+      format: 1
+      size: 24592
+      blob_id: 72785
+      debug: |-
+        恶魔世界 (日版) (益智)-Devil World (Japan) + Devil World (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=865a7a740f67b14be84d496e49d434cdedeaf210
+  - asset:
+      id: 137727
+      kind: 3
+      kind_id: 28202
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 1528
+      blob_id: 323345
+      debug: fc-title-trial:fceumm:rom-asset=28184:frame=180
+- release:
+    id: 28203
+    game_id: 9681
+  names:
+  - id: 64767
+    kind: 3
+    kind_id: 28203
+    language: 2
+    name: 恶魔世界 (日版)(Rev A) (益智)-Devil World (Japan) (Rev A)
+  - id: 64768
+    kind: 3
+    kind_id: 28203
+    language: 1
+    name: Devil World (J) [h1]
+    deprecated: 1
+  - id: 260542
+    kind: 3
+    kind_id: 28203
+    language: 1
+    name: Devil World (Japan) (Rev 1)
+    source: no-intro
+  assets:
+  - asset:
+      id: 28185
+      kind: 3
+      kind_id: 28203
+      type: 1
+      name: Devil World (Japan) (Rev 1).nes
+      format: 1
+      size: 24592
+      blob_id: 72786
+      debug: |-
+        恶魔世界 (日版)(Rev A) (益智)-Devil World (Japan) (Rev A) + Devil World (J) [h1].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=b07c874be0c36b1d071f4e5005215926ed0f0d20
+  - asset:
+      id: 140108
+      kind: 3
+      kind_id: 28203
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Devil%20World%20%28Japan%29%20%28Rev%201%29.png
+      format: 1
+      size: 15303
+      blob_id: 325447
+      debug: libretro-named-titles:rom-asset=28185:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Devil%20World%20%28Japan%29%20%28Rev%201%29.png
+- release:
+    id: 28204
+    game_id: 9681
+  names:
+  - id: 64771
+    kind: 3
+    kind_id: 28204
+    language: 2
+    name: 恶魔世界 (欧版) (益智)-Devil World (Europe)
+  - id: 64772
+    kind: 3
+    kind_id: 28204
+    language: 1
+    name: Devil World (E) [!]
+    deprecated: 1
+  - id: 260543
+    kind: 3
+    kind_id: 28204
+    language: 1
+    name: Devil World (Europe)
+    source: no-intro
+  assets:
+  - asset:
+      id: 28186
+      kind: 3
+      kind_id: 28204
+      type: 1
+      name: Devil World (Europe).nes
+      format: 1
+      size: 24592
+      blob_id: 72787
+      debug: |-
+        恶魔世界 (欧版) (益智)-Devil World (Europe) + Devil World (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=c8ea77efbf82f12836467caa9012914af12a87a3
+  - asset:
+      id: 137728
+      kind: 3
+      kind_id: 28204
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 1528
+      blob_id: 323345
+      debug: fc-title-trial:fceumm:rom-asset=28186:frame=180:region=PAL

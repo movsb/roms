@@ -2,6 +2,17 @@ game:
   id: 9181
   platform_id: 2
 names:
+- id: 63331
+  kind: 2
+  kind_id: 9181
+  language: 2
+  name: 宇宙刑警 (动作)-Cosmo Police Galivan
+- id: 63332
+  kind: 2
+  kind_id: 9181
+  language: 1
+  name: Cosmo Police Galivan (J)
+  deprecated: 1
 - id: 91581
   kind: 2
   kind_id: 9181
@@ -72,3 +83,48 @@ releases:
   release_publishers:
   - release_id: 9186
     publisher_id: 197
+- release:
+    id: 27769
+    game_id: 9181
+  names:
+  - id: 63333
+    kind: 3
+    kind_id: 27769
+    language: 2
+    name: 宇宙刑警 (日版) (动作)-Cosmo Police Galivan (Japan)
+  - id: 63334
+    kind: 3
+    kind_id: 27769
+    language: 1
+    name: Cosmo Police Galivan (J)
+    deprecated: 1
+  - id: 260374
+    kind: 3
+    kind_id: 27769
+    language: 1
+    name: Cosmo Police Galivan (Japan)
+    source: no-intro
+  assets:
+  - asset:
+      id: 27751
+      kind: 3
+      kind_id: 27769
+      type: 1
+      name: Cosmo Police Galivan (Japan).nes
+      format: 1
+      size: 262160
+      blob_id: 72500
+      debug: |-
+        宇宙刑警 (日版) (动作)-Cosmo Police Galivan (Japan) + Cosmo Police Galivan (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=63d5ab59b1513a4d5d432077415789a36f1cd09a
+  - asset:
+      id: 138912
+      kind: 3
+      kind_id: 27769
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Cosmo%20Police%20Galivan%20%28Japan%29.png
+      format: 1
+      size: 1847
+      blob_id: 324386
+      debug: libretro-named-titles:rom-asset=27751:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Cosmo%20Police%20Galivan%20%28Japan%29.png

@@ -2,6 +2,11 @@ game:
   id: 8582
   platform_id: 2
 names:
+- id: 66249
+  kind: 2
+  kind_id: 8582
+  language: 2
+  name: 松鼠大作战2
 - id: 66269
   kind: 2
   kind_id: 8582
@@ -209,6 +214,73 @@ releases:
       size: 262160
       blob_id: 54719
       debug: Chip to Dale no Daisakusen 2 (J) [t4].nes
+- release:
+    id: 28643
+    game_id: 8582
+  names:
+  - id: 66251
+    kind: 3
+    kind_id: 28643
+    language: 2
+    name: 松鼠大作战2
+  - id: 66252
+    kind: 3
+    kind_id: 28643
+    language: 1
+    name: Chip to Dale no Daisakusen 2 (J)
+    deprecated: 1
+  - id: 260741
+    kind: 3
+    kind_id: 28643
+    language: 1
+    name: Chip to Dale no Daisakusen 2 (Japan)
+    source: no-intro
+  assets:
+  - asset:
+      id: 28625
+      kind: 3
+      kind_id: 28643
+      type: 1
+      name: Chip to Dale no Daisakusen 2 (Japan).nes
+      format: 1
+      size: 262160
+      blob_id: 73087
+      debug: |-
+        松鼠大作战2 + Chip to Dale no Daisakusen 2 (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=bf1ee3765229aa4a1f5b5e540ac0661107099cb6
+  - asset:
+      id: 139044
+      kind: 3
+      kind_id: 28643
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Chip%20to%20Dale%20no%20Daisakusen%202%20%28Japan%29.png
+      format: 1
+      size: 3176
+      blob_id: 324514
+      debug: libretro-named-titles:rom-asset=28625:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Chip%20to%20Dale%20no%20Daisakusen%202%20%28Japan%29.png
+- release:
+    id: 28644
+    game_id: 8582
+  names:
+  - id: 66254
+    kind: 3
+    kind_id: 28644
+    language: 2
+    name: 松鼠大作战2(汉化版)
+  assets:
+  - asset:
+      id: 28626
+      kind: 3
+      kind_id: 28644
+      type: 1
+      name: 松鼠大作战2(汉化版).nes
+      format: 1
+      size: 262160
+      blob_id: 73088
+      debug: |-
+        松鼠大作战2(汉化版).nes
+        重复的/Chip 'n Dale Rescue Rangers 2 (U) [T+Chi].nes
 - release:
     id: 28650
     game_id: 8582
