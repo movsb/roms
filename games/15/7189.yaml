@@ -2,6 +2,12 @@ game:
   id: 7189
   platform_id: 2
 names:
+- id: 69440
+  kind: 2
+  kind_id: 7189
+  language: 1
+  name: Blue Marlin, The (J)
+  deprecated: 1
 - id: 69443
   kind: 2
   kind_id: 7189
@@ -91,3 +97,48 @@ releases:
       size: 262160
       blob_id: 53378
       debug: Blue Marlin, The (U) [T+Rus1.0_Griever,Magicteam].nes
+- release:
+    id: 29588
+    game_id: 7189
+  names:
+  - id: 69441
+    kind: 3
+    kind_id: 29588
+    language: 2
+    name: 蓝色马林鱼 (日版) (运动休闲)-Blue Marlin, The (Japan)
+  - id: 69442
+    kind: 3
+    kind_id: 29588
+    language: 1
+    name: Blue Marlin, The (J)
+    deprecated: 1
+  - id: 261115
+    kind: 3
+    kind_id: 29588
+    language: 1
+    name: Blue Marlin, The (Japan)
+    source: no-intro
+  assets:
+  - asset:
+      id: 29570
+      kind: 3
+      kind_id: 29588
+      type: 1
+      name: Blue Marlin, The (Japan).nes
+      format: 1
+      size: 262160
+      blob_id: 73679
+      debug: |-
+        蓝色马林鱼 (日版) (运动休闲)-Blue Marlin, The (Japan) + Blue Marlin, The (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=ce4569326acdfa03a580fa6b4c4cde95fc8cdc9a
+  - asset:
+      id: 139162
+      kind: 3
+      kind_id: 29588
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Blue%20Marlin%2C%20The%20%28Japan%29.png
+      format: 1
+      size: 1812
+      blob_id: 324626
+      debug: libretro-named-titles:rom-asset=29570:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Blue%20Marlin%2C%20The%20%28Japan%29.png

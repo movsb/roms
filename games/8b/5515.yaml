@@ -2,6 +2,12 @@ game:
   id: 5515
   platform_id: 2
 names:
+- id: 70738
+  kind: 2
+  kind_id: 5515
+  language: 1
+  name: Adventures of Rad Gravity, The (E) [!]
+  deprecated: 1
 - id: 70741
   kind: 2
   kind_id: 5515
@@ -131,3 +137,48 @@ releases:
       size: 262160
       blob_id: 51815
       debug: Adventures of Rad Gravity, The (U) [t1].nes
+- release:
+    id: 29976
+    game_id: 5515
+  names:
+  - id: 70739
+    kind: 3
+    kind_id: 29976
+    language: 2
+    name: 重力大冒险 (欧版) (动作)-Adventures of Rad Gravity, The (Europe)
+  - id: 70740
+    kind: 3
+    kind_id: 29976
+    language: 1
+    name: Adventures of Rad Gravity, The (E) [!]
+    deprecated: 1
+  - id: 261255
+    kind: 3
+    kind_id: 29976
+    language: 1
+    name: Adventures of Rad Gravity, The (Europe)
+    source: no-intro
+  assets:
+  - asset:
+      id: 29958
+      kind: 3
+      kind_id: 29976
+      type: 1
+      name: Adventures of Rad Gravity, The (Europe).nes
+      format: 1
+      size: 262160
+      blob_id: 73916
+      debug: |-
+        重力大冒险 (欧版) (动作)-Adventures of Rad Gravity, The (Europe) + Adventures of Rad Gravity, The (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=01b042274aa9164c33769e61e299292875835678
+  - asset:
+      id: 138025
+      kind: 3
+      kind_id: 29976
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 4578
+      blob_id: 323602
+      debug: fc-title-trial:fceumm:rom-asset=29958:frame=900:region=PAL

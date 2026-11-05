@@ -2,6 +2,12 @@ game:
   id: 8123
   platform_id: 2
 names:
+- id: 62602
+  kind: 2
+  kind_id: 8123
+  language: 1
+  name: Castelian (E) [!]
+  deprecated: 1
 - id: 62605
   kind: 2
   kind_id: 8123
@@ -91,3 +97,48 @@ releases:
       size: 131088
       blob_id: 54275
       debug: Castelian (U) [t1].nes
+- release:
+    id: 27548
+    game_id: 8123
+  names:
+  - id: 62603
+    kind: 3
+    kind_id: 27548
+    language: 2
+    name: 城堡猪 (欧版) (动作)-Castelian (Europe)
+  - id: 62604
+    kind: 3
+    kind_id: 27548
+    language: 1
+    name: Castelian (E) [!]
+    deprecated: 1
+  - id: 260293
+    kind: 3
+    kind_id: 27548
+    language: 1
+    name: Castelian (Europe)
+    source: no-intro
+  assets:
+  - asset:
+      id: 27530
+      kind: 3
+      kind_id: 27548
+      type: 1
+      name: Castelian (Europe).nes
+      format: 1
+      size: 131088
+      blob_id: 72361
+      debug: |-
+        城堡猪 (欧版) (动作)-Castelian (Europe) + Castelian (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=85abcffdc088e1a7b9af2c7eed0a75d72bb26cb4
+  - asset:
+      id: 137634
+      kind: 3
+      kind_id: 27548
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 8091
+      blob_id: 323262
+      debug: fc-title-trial:fceumm:rom-asset=27530:frame=180:region=PAL

@@ -7,6 +7,23 @@ names:
   kind_id: 7384
   language: 1
   name: "Boy and His Blob - Trouble on Blobolonia, A (U)"
+- id: 68010
+  kind: 2
+  kind_id: 7384
+  language: 1
+  name: "Boy and His Blob, A - Trouble on Blobolonia (E) (CHR0)"
+  deprecated: 1
+- id: 68013
+  kind: 2
+  kind_id: 7384
+  language: 2
+  name: "男孩与泡泡怪(Rev A) (益智)-Boy and His Blob, A - Trouble on Blobolonia (Rev A)"
+- id: 68014
+  kind: 2
+  kind_id: 7384
+  language: 1
+  name: "Boy and His Blob, A - Trouble on Blobolonia (E) (CHR1) [!]"
+  deprecated: 1
 - id: 68017
   kind: 2
   kind_id: 7384
@@ -27,6 +44,12 @@ names:
   kind_id: 7384
   language: 1
   name: "Boy and His Blob, A - Trouble on Blobolonia"
+- id: 263269
+  kind: 2
+  kind_id: 7384
+  language: 1
+  name: "David Crane's A Boy and His Blob - Trouble on Blobolonia"
+  source: no-intro
 releases:
 - release:
     id: 7384
@@ -102,3 +125,89 @@ releases:
       size: 262160
       blob_id: 53564
       debug: "Boy and His Blob, A - Trouble on Blobolonia (U) [T+Spa99%_Emu4ever].nes"
+- release:
+    id: 29175
+    game_id: 7384
+  names:
+  - id: 68011
+    kind: 3
+    kind_id: 29175
+    language: 2
+    name: "男孩与泡泡怪 (欧版) (益智)-Boy and His Blob, A - Trouble on Blobolonia (Europe)"
+  - id: 68012
+    kind: 3
+    kind_id: 29175
+    language: 1
+    name: "Boy and His Blob, A - Trouble on Blobolonia (E) (CHR0)"
+    deprecated: 1
+  - id: 260941
+    kind: 3
+    kind_id: 29175
+    language: 1
+    name: "David Crane's A Boy and His Blob - Trouble on Blobolonia (Europe)"
+    source: no-intro
+  assets:
+  - asset:
+      id: 29157
+      kind: 3
+      kind_id: 29175
+      type: 1
+      name: "David Crane's A Boy and His Blob - Trouble on Blobolonia (Europe).nes"
+      format: 1
+      size: 262160
+      blob_id: 73423
+      debug: "男孩与泡泡怪 (欧版) (益智)-Boy and His Blob, A - Trouble on Blobolonia (Europe) + Boy and His Blob, A - Trouble on Blobolonia (E) (CHR0).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=aa7d93afcb00b3506195fbeb024388eed72987f0"
+  - asset:
+      id: 140182
+      kind: 3
+      kind_id: 29175
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/David%20Crane%27s%20A%20Boy%20and%20His%20Blob%20-%20Trouble%20on%20Blobolonia%20%28Europe%29.png
+      format: 1
+      size: 1827
+      blob_id: 325505
+      debug: libretro-named-titles:rom-asset=29157:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/David%20Crane%27s%20A%20Boy%20and%20His%20Blob%20-%20Trouble%20on%20Blobolonia%20%28Europe%29.png
+- release:
+    id: 29176
+    game_id: 7384
+  names:
+  - id: 68015
+    kind: 3
+    kind_id: 29176
+    language: 2
+    name: "男孩与泡泡怪 (欧版)(Rev A) (益智)-Boy and His Blob, A - Trouble on Blobolonia (Europe) (Rev A)"
+  - id: 68016
+    kind: 3
+    kind_id: 29176
+    language: 1
+    name: "Boy and His Blob, A - Trouble on Blobolonia (E) (CHR1) [!]"
+    deprecated: 1
+  - id: 260942
+    kind: 3
+    kind_id: 29176
+    language: 1
+    name: "David Crane's A Boy and His Blob - Trouble on Blobolonia (Europe) (Rev 1)"
+    source: no-intro
+  assets:
+  - asset:
+      id: 29158
+      kind: 3
+      kind_id: 29176
+      type: 1
+      name: "David Crane's A Boy and His Blob - Trouble on Blobolonia (Europe) (Rev 1).nes"
+      format: 1
+      size: 262160
+      blob_id: 73424
+      debug: "男孩与泡泡怪 (欧版)(Rev A) (益智)-Boy and His Blob, A - Trouble on Blobolonia (Europe) (Rev A) + Boy and His Blob, A - Trouble on Blobolonia (E) (CHR1) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=04e6319370d20dd452cd10bacc026375e0f02e64"
+  - asset:
+      id: 137883
+      kind: 3
+      kind_id: 29176
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 3383
+      blob_id: 323480
+      debug: fc-title-trial:fceumm:rom-asset=29158:frame=600:region=PAL

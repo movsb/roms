@@ -7,6 +7,12 @@ names:
   kind_id: 7713
   language: 2
   name: 地球超人
+- id: 65662
+  kind: 2
+  kind_id: 7713
+  language: 1
+  name: Captain Planet and The Planeteers (E) [!]
+  deprecated: 1
 - id: 65665
   kind: 2
   kind_id: 7713
@@ -143,3 +149,48 @@ releases:
       debug: |-
         Captain Planet and The Planeteers (U) [t1].nes
         地球超人.zip
+- release:
+    id: 28478
+    game_id: 7713
+  names:
+  - id: 65663
+    kind: 3
+    kind_id: 28478
+    language: 2
+    name: 星球拯救队 (欧版) (射击)-Captain Planet and the Planeteers (Europe)
+  - id: 65664
+    kind: 3
+    kind_id: 28478
+    language: 1
+    name: Captain Planet and The Planeteers (E) [!]
+    deprecated: 1
+  - id: 260657
+    kind: 3
+    kind_id: 28478
+    language: 1
+    name: Captain Planet and the Planeteers (Europe)
+    source: no-intro
+  assets:
+  - asset:
+      id: 28460
+      kind: 3
+      kind_id: 28478
+      type: 1
+      name: Captain Planet and the Planeteers (Europe).nes
+      format: 1
+      size: 262160
+      blob_id: 72972
+      debug: |-
+        星球拯救队 (欧版) (射击)-Captain Planet and the Planeteers (Europe) + Captain Planet and The Planeteers (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=3e7b1f68a8e758d34252e4f2755d392f987824ea
+  - asset:
+      id: 137772
+      kind: 3
+      kind_id: 28478
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 3413
+      blob_id: 323385
+      debug: fc-title-trial:fceumm:rom-asset=28460:frame=180:region=PAL

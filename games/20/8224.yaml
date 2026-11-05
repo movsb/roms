@@ -8,6 +8,17 @@ names:
   kind_id: 8224
   language: 1
   name: "Castlevania 3 - Dracula's Curse (U)"
+- id: 64809
+  kind: 2
+  kind_id: 8224
+  language: 2
+  name: "恶魔城 III - 德古拉的诅咒 (动作)-Castlevania III - Draculas Curse"
+- id: 64810
+  kind: 2
+  kind_id: 8224
+  language: 1
+  name: "Castlevania III - Dracula's Curse (E) [!]"
+  deprecated: 1
 - id: 91501
   kind: 2
   kind_id: 8224
@@ -367,3 +378,46 @@ releases:
       size: 393232
       blob_id: 54460
       debug: "Castlevania III - Dracula's Curse (U) [f1] (All Bugs by Dragonsbrethren v1.0).nes"
+- release:
+    id: 28214
+    game_id: 8224
+  names:
+  - id: 64811
+    kind: 3
+    kind_id: 28214
+    language: 2
+    name: "恶魔城 III - 德古拉的诅咒 (欧版) (动作)-Castlevania III - Draculas Curse (Europe)"
+  - id: 64812
+    kind: 3
+    kind_id: 28214
+    language: 1
+    name: "Castlevania III - Dracula's Curse (E) [!]"
+    deprecated: 1
+  - id: 260548
+    kind: 3
+    kind_id: 28214
+    language: 1
+    name: "Castlevania III - Dracula's Curse (Europe)"
+    source: no-intro
+  assets:
+  - asset:
+      id: 28196
+      kind: 3
+      kind_id: 28214
+      type: 1
+      name: "Castlevania III - Dracula's Curse (Europe).nes"
+      format: 1
+      size: 393232
+      blob_id: 72794
+      debug: "恶魔城 III - 德古拉的诅咒 (欧版) (动作)-Castlevania III - Draculas Curse (Europe) + Castlevania III - Dracula's Curse (E) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=b0e798176e49a8ba3f533fe75ea4149bf41d77e3"
+  - asset:
+      id: 138975
+      kind: 3
+      kind_id: 28214
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Castlevania%20III%20-%20Dracula%27s%20Curse%20%28Europe%29.png
+      format: 1
+      size: 2804
+      blob_id: 324448
+      debug: libretro-named-titles:rom-asset=28196:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Castlevania%20III%20-%20Dracula%27s%20Curse%20%28Europe%29.png

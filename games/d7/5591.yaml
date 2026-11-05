@@ -2,6 +2,12 @@ game:
   id: 5591
   platform_id: 2
 names:
+- id: 68442
+  kind: 2
+  kind_id: 5591
+  language: 1
+  name: Air Fortress (J) [!]
+  deprecated: 1
 - id: 68447
   kind: 2
   kind_id: 5591
@@ -191,6 +197,51 @@ releases:
       size: 262160
       blob_id: 51887
       debug: Air Fortress (U) [T+Rus_Guyver].nes
+- release:
+    id: 29296
+    game_id: 5591
+  names:
+  - id: 68443
+    kind: 3
+    kind_id: 29296
+    language: 2
+    name: 空中要塞 (日版) (射击)-Air Fortress (Japan)
+  - id: 68444
+    kind: 3
+    kind_id: 29296
+    language: 1
+    name: Air Fortress (J) [!]
+    deprecated: 1
+  - id: 260997
+    kind: 3
+    kind_id: 29296
+    language: 1
+    name: Air Fortress (Japan) (En)
+    source: no-intro
+  assets:
+  - asset:
+      id: 29278
+      kind: 3
+      kind_id: 29296
+      type: 1
+      name: Air Fortress (Japan) (En).nes
+      format: 1
+      size: 262160
+      blob_id: 73500
+      debug: |-
+        空中要塞 (日版) (射击)-Air Fortress (Japan) + Air Fortress (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=2b52f9485e3d16d3ac107c905bbb8b353d0ad582
+  - asset:
+      id: 137906
+      kind: 3
+      kind_id: 29296
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 1956
+      blob_id: 323500
+      debug: fc-title-trial:fceumm:rom-asset=29278:frame=900
 - release:
     id: 29297
     game_id: 5591

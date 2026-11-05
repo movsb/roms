@@ -12,6 +12,23 @@ names:
   kind_id: 6809
   language: 2
   name: 忍者蛙
+- id: 64987
+  kind: 2
+  kind_id: 6809
+  language: 2
+  name: 战斗蛙 (动作)-Battletoads
+- id: 64988
+  kind: 2
+  kind_id: 6809
+  language: 1
+  name: Battletoads (J) [!]
+  deprecated: 1
+- id: 64992
+  kind: 2
+  kind_id: 6809
+  language: 1
+  name: Battletoads (E) [!]
+  deprecated: 1
 - id: 91356
   kind: 2
   kind_id: 6809
@@ -220,3 +237,93 @@ releases:
       size: 262672
       blob_id: 72729
       debug: 忍者蛙_2.zip
+- release:
+    id: 28278
+    game_id: 6809
+  names:
+  - id: 64989
+    kind: 3
+    kind_id: 28278
+    language: 2
+    name: 战斗蛙 (日版) (动作)-Battletoads (Japan)
+  - id: 64990
+    kind: 3
+    kind_id: 28278
+    language: 1
+    name: Battletoads (J) [!]
+    deprecated: 1
+  - id: 260563
+    kind: 3
+    kind_id: 28278
+    language: 1
+    name: Battletoads (Japan)
+    source: no-intro
+  assets:
+  - asset:
+      id: 28260
+      kind: 3
+      kind_id: 28278
+      type: 1
+      name: Battletoads (Japan).nes
+      format: 1
+      size: 262160
+      blob_id: 72832
+      debug: |-
+        战斗蛙 (日版) (动作)-Battletoads (Japan) + Battletoads (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=a93bf8dfc5e276b2a4e99e64620242185526672e
+  - asset:
+      id: 137733
+      kind: 3
+      kind_id: 28278
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 4697
+      blob_id: 323350
+      debug: fc-title-trial:fceumm:rom-asset=28260:frame=1800
+- release:
+    id: 28279
+    game_id: 6809
+  names:
+  - id: 64993
+    kind: 3
+    kind_id: 28279
+    language: 2
+    name: 战斗蛙 (欧版) (动作)-Battletoads (Europe)
+  - id: 64994
+    kind: 3
+    kind_id: 28279
+    language: 1
+    name: Battletoads (E) [!]
+    deprecated: 1
+  - id: 260564
+    kind: 3
+    kind_id: 28279
+    language: 1
+    name: Battletoads (Europe)
+    source: no-intro
+  assets:
+  - asset:
+      id: 28261
+      kind: 3
+      kind_id: 28279
+      type: 1
+      name: Battletoads (Europe).nes
+      format: 1
+      size: 262160
+      blob_id: 72833
+      debug: |-
+        战斗蛙 (欧版) (动作)-Battletoads (Europe) + Battletoads (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=e13626a09ad745bc5d9fb0972383dbf358deaddc
+  - asset:
+      id: 137734
+      kind: 3
+      kind_id: 28279
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 4510
+      blob_id: 323351
+      debug: fc-title-trial:fceumm:rom-asset=28261:frame=1800:region=PAL
