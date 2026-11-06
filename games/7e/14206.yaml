@@ -2,6 +2,28 @@ game:
   id: 14206
   platform_id: 2
 names:
+- id: 61579
+  kind: 2
+  kind_id: 14206
+  language: 2
+  name: 十兵卫传说 (角色扮演)-Juvei Quest
+- id: 61580
+  kind: 2
+  kind_id: 14206
+  language: 1
+  name: Juvei Quest (J) [!]
+  deprecated: 1
+- id: 61583
+  kind: 2
+  kind_id: 14206
+  language: 2
+  name: 十兵卫传说(Rev 1) (角色扮演)-Juvei Quest (Rev 1)
+- id: 61584
+  kind: 2
+  kind_id: 14206
+  language: 1
+  name: Juvei Quest (J) [a1]
+  deprecated: 1
 - id: 92204
   kind: 2
   kind_id: 14206
@@ -78,3 +100,93 @@ releases:
       size: 786448
       blob_id: 59996
       debug: Juvei Quest (Japan) (Translated En).zip
+- release:
+    id: 27241
+    game_id: 14206
+  names:
+  - id: 61581
+    kind: 3
+    kind_id: 27241
+    language: 2
+    name: 十兵卫传说 (日版) (角色扮演)-Juvei Quest (Japan)
+  - id: 61582
+    kind: 3
+    kind_id: 27241
+    language: 1
+    name: Juvei Quest (J) [!]
+    deprecated: 1
+  - id: 260173
+    kind: 3
+    kind_id: 27241
+    language: 1
+    name: Juvei Quest (Japan)
+    source: no-intro
+  assets:
+  - asset:
+      id: 27223
+      kind: 3
+      kind_id: 27241
+      type: 1
+      name: Juvei Quest (Japan).nes
+      format: 1
+      size: 524304
+      blob_id: 72155
+      debug: |-
+        十兵卫传说 (日版) (角色扮演)-Juvei Quest (Japan) + Juvei Quest (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=f3878b89d8d3fc974d1cd1fa74586aba1666a993
+  - asset:
+      id: 137598
+      kind: 3
+      kind_id: 27241
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 2687
+      blob_id: 323229
+      debug: fc-title-trial:fceumm:rom-asset=27223:frame=600
+- release:
+    id: 27242
+    game_id: 14206
+  names:
+  - id: 61585
+    kind: 3
+    kind_id: 27242
+    language: 2
+    name: 十兵卫传说 (日版)(Rev 1) (角色扮演)-Juvei Quest (Japan) (Rev 1)
+  - id: 61586
+    kind: 3
+    kind_id: 27242
+    language: 1
+    name: Juvei Quest (J) [a1]
+    deprecated: 1
+  - id: 260174
+    kind: 3
+    kind_id: 27242
+    language: 1
+    name: Juvei Quest (Japan) (Rev 1)
+    source: no-intro
+  assets:
+  - asset:
+      id: 27224
+      kind: 3
+      kind_id: 27242
+      type: 1
+      name: Juvei Quest (Japan) (Rev 1).nes
+      format: 1
+      size: 524304
+      blob_id: 72156
+      debug: |-
+        十兵卫传说 (日版)(Rev 1) (角色扮演)-Juvei Quest (Japan) (Rev 1) + Juvei Quest (J) [a1].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=65a674581f9d67e77d957274a5ce3d611d83cd06
+  - asset:
+      id: 140029
+      kind: 3
+      kind_id: 27242
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Juvei%20Quest%20%28Japan%29%20%28Rev%201%29.png
+      format: 1
+      size: 1644
+      blob_id: 325374
+      debug: libretro-named-titles:rom-asset=27224:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Juvei%20Quest%20%28Japan%29%20%28Rev%201%29.png

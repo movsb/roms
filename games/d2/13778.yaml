@@ -2,22 +2,136 @@ game:
   id: 13778
   platform_id: 2
 names:
+- id: 30343
+  kind: 2
+  kind_id: 13778
+  language: 1
+  name: Iron_tank
+  deprecated: 1
 - id: 62749
   kind: 2
   kind_id: 13778
   language: 2
   name: "大坦克 (动作射击)-Iron Tank - The Invasion of Normandy"
+- id: 62752
+  kind: 2
+  kind_id: 13778
+  language: 1
+  name: "Iron Tank - The Invasion of Normandy (U) [!]"
+  deprecated: 1
 - id: 62755
   kind: 2
   kind_id: 13778
   language: 2
   name: 大坦克
+- id: 92146
+  kind: 2
+  kind_id: 13778
+  language: 1
+  name: Iron Tank
+  deprecated: 1
 - id: 92147
   kind: 2
   kind_id: 13778
   language: 1
   name: "Iron Tank - The Invasion of Normandy"
 releases:
+- release:
+    id: 13776
+    game_id: 13778
+  names:
+  - id: 30326
+    kind: 3
+    kind_id: 13776
+    language: 1
+    name: Iron Tank (U) [!]
+    deprecated: 1
+  - id: 62753
+    kind: 3
+    kind_id: 13776
+    language: 2
+    name: "大坦克 (美版) (动作射击)-Iron Tank - The Invasion of Normandy (USA)"
+  - id: 62754
+    kind: 3
+    kind_id: 13776
+    language: 1
+    name: "Iron Tank - The Invasion of Normandy (U) [!]"
+    deprecated: 1
+  - id: 258473
+    kind: 3
+    kind_id: 13776
+    language: 1
+    name: "Iron Tank - The Invasion of Normandy (USA)"
+    source: no-intro
+  assets:
+  - asset:
+      id: 13758
+      kind: 3
+      kind_id: 13776
+      type: 1
+      name: "Iron Tank - The Invasion of Normandy (USA).nes"
+      format: 1
+      size: 262160
+      blob_id: 59603
+      debug: "Iron Tank (U) [!].zip\n大坦克 (美版) (动作射击)-Iron Tank - The Invasion of Normandy (USA) + Iron Tank - The Invasion of Normandy (U) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=194868f5762204a50f2f0b699f81121c2cb5ce43"
+  - asset:
+      id: 136984
+      kind: 3
+      kind_id: 13776
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 3552
+      blob_id: 322635
+      debug: fc-title-trial:fceumm:rom-asset=13758:frame=180
+- release:
+    id: 13777
+    game_id: 13778
+  names:
+  - id: 30328
+    kind: 3
+    kind_id: 13777
+    language: 1
+    name: Iron Tank (U)
+    deprecated: 1
+  - id: 30344
+    kind: 3
+    kind_id: 13777
+    language: 1
+    name: Iron_tank
+    deprecated: 1
+  - id: 258474
+    kind: 3
+    kind_id: 13777
+    language: 1
+    name: "Iron Tank - The Invasion of Normandy (USA)"
+    source: no-intro
+  assets:
+  - asset:
+      id: 13759
+      kind: 3
+      kind_id: 13777
+      type: 1
+      name: "Iron Tank - The Invasion of Normandy (USA).nes"
+      format: 1
+      size: 262160
+      blob_id: 59604
+      debug: |-
+        Iron Tank (U).zip
+        Iron_tank.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=194868f5762204a50f2f0b699f81121c2cb5ce43
+  - asset:
+      id: 139464
+      kind: 3
+      kind_id: 13777
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Iron%20Tank%20-%20The%20Invasion%20of%20Normandy%20%28USA%29.png
+      format: 1
+      size: 1871
+      blob_id: 324895
+      debug: libretro-named-titles:rom-asset=13759:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Iron%20Tank%20-%20The%20Invasion%20of%20Normandy%20%28USA%29.png
 - release:
     id: 13778
     game_id: 13778

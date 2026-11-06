@@ -2,6 +2,17 @@ game:
   id: 14271
   platform_id: 2
 names:
+- id: 68511
+  kind: 2
+  kind_id: 14271
+  language: 2
+  name: 竹取公主 (解谜)-Kaguya Hime Densetsu
+- id: 68512
+  kind: 2
+  kind_id: 14271
+  language: 1
+  name: Kaguya Hime Densetsu (J) [!]
+  deprecated: 1
 - id: 92211
   kind: 2
   kind_id: 14271
@@ -64,3 +75,48 @@ releases:
 - release:
     id: 14273
     game_id: 14271
+- release:
+    id: 29316
+    game_id: 14271
+  names:
+  - id: 68513
+    kind: 3
+    kind_id: 29316
+    language: 2
+    name: 竹取公主 (日版) (解谜)-Kaguya Hime Densetsu (Japan)
+  - id: 68514
+    kind: 3
+    kind_id: 29316
+    language: 1
+    name: Kaguya Hime Densetsu (J) [!]
+    deprecated: 1
+  - id: 261008
+    kind: 3
+    kind_id: 29316
+    language: 1
+    name: Kaguya Hime Densetsu (Japan)
+    source: no-intro
+  assets:
+  - asset:
+      id: 29298
+      kind: 3
+      kind_id: 29316
+      type: 1
+      name: Kaguya Hime Densetsu (Japan).nes
+      format: 1
+      size: 262160
+      blob_id: 73513
+      debug: |-
+        竹取公主 (日版) (解谜)-Kaguya Hime Densetsu (Japan) + Kaguya Hime Densetsu (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=042b6c21e7c895d2810463c4c3bfbfc52b839b3b
+  - asset:
+      id: 137911
+      kind: 3
+      kind_id: 29316
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 2818
+      blob_id: 323505
+      debug: fc-title-trial:fceumm:rom-asset=29298:frame=1200

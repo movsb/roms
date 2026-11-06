@@ -7,6 +7,17 @@ names:
   kind_id: 14124
   language: 2
   name: 快乐机器人格斗
+- id: 70435
+  kind: 2
+  kind_id: 14124
+  language: 2
+  name: 趣味机器人格斗 (格斗)-Joy Mech Fight
+- id: 70436
+  kind: 2
+  kind_id: 14124
+  language: 1
+  name: Joy Mech Fight (J)
+  deprecated: 1
 - id: 92194
   kind: 2
   kind_id: 14124
@@ -118,3 +129,48 @@ releases:
   release_publishers:
   - release_id: 14131
     publisher_id: 17
+- release:
+    id: 29887
+    game_id: 14124
+  names:
+  - id: 70437
+    kind: 3
+    kind_id: 29887
+    language: 2
+    name: 趣味机器人格斗 (日版) (格斗)-Joy Mech Fight (Japan)
+  - id: 70438
+    kind: 3
+    kind_id: 29887
+    language: 1
+    name: Joy Mech Fight (J)
+    deprecated: 1
+  - id: 261216
+    kind: 3
+    kind_id: 29887
+    language: 1
+    name: Joy Mech Fight (Japan)
+    source: no-intro
+  assets:
+  - asset:
+      id: 29869
+      kind: 3
+      kind_id: 29887
+      type: 1
+      name: Joy Mech Fight (Japan).nes
+      format: 1
+      size: 524304
+      blob_id: 73858
+      debug: |-
+        趣味机器人格斗 (日版) (格斗)-Joy Mech Fight (Japan) + Joy Mech Fight (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=9c8f53ad0348ee58d842b86fb845c8014d10fa21
+  - asset:
+      id: 139196
+      kind: 3
+      kind_id: 29887
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Joy%20Mech%20Fight%20%28Japan%29.png
+      format: 1
+      size: 2861
+      blob_id: 324659
+      debug: libretro-named-titles:rom-asset=29869:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Joy%20Mech%20Fight%20%28Japan%29.png

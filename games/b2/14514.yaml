@@ -2,6 +2,12 @@ game:
   id: 14514
   platform_id: 2
 names:
+- id: 70594
+  kind: 2
+  kind_id: 14514
+  language: 1
+  name: Kickle Cubicle (E) [!]
+  deprecated: 1
 - id: 70597
   kind: 2
   kind_id: 14514
@@ -91,3 +97,48 @@ releases:
       size: 4574
       blob_id: 322673
       debug: fc-title-trial:fceumm:rom-asset=14497:frame=900
+- release:
+    id: 29935
+    game_id: 14514
+  names:
+  - id: 70595
+    kind: 3
+    kind_id: 29935
+    language: 2
+    name: 迷宫岛 (欧版) (益智)-Kickle Cubicle (Europe)
+  - id: 70596
+    kind: 3
+    kind_id: 29935
+    language: 1
+    name: Kickle Cubicle (E) [!]
+    deprecated: 1
+  - id: 261236
+    kind: 3
+    kind_id: 29935
+    language: 1
+    name: Kickle Cubicle (Europe)
+    source: no-intro
+  assets:
+  - asset:
+      id: 29917
+      kind: 3
+      kind_id: 29935
+      type: 1
+      name: Kickle Cubicle (Europe).nes
+      format: 1
+      size: 262160
+      blob_id: 73890
+      debug: |-
+        迷宫岛 (欧版) (益智)-Kickle Cubicle (Europe) + Kickle Cubicle (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=68c692ceba716168dcb361ad79a2f4c985cde32c
+  - asset:
+      id: 138013
+      kind: 3
+      kind_id: 29935
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 4344
+      blob_id: 323591
+      debug: fc-title-trial:fceumm:rom-asset=29917:frame=1200:region=PAL

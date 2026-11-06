@@ -8,6 +8,12 @@ names:
   language: 1
   name: JamesBondJr
   deprecated: 1
+- id: 63816
+  kind: 2
+  kind_id: 13922
+  language: 1
+  name: James Bond Jr (E) [!p]
+  deprecated: 1
 - id: 63819
   kind: 2
   kind_id: 13922
@@ -125,3 +131,48 @@ releases:
       debug: |-
         James Bond Jr (U) [p1][!].nes
         no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=970ec4dc2237cd90cca81e59dcbbc1ed10970758
+- release:
+    id: 27912
+    game_id: 13922
+  names:
+  - id: 63817
+    kind: 3
+    kind_id: 27912
+    language: 2
+    name: 少年詹姆斯庞德 (欧版) (动作)-James Bond Jr (Europe)
+  - id: 63818
+    kind: 3
+    kind_id: 27912
+    language: 1
+    name: James Bond Jr (E) [!p]
+    deprecated: 1
+  - id: 260437
+    kind: 3
+    kind_id: 27912
+    language: 1
+    name: James Bond Jr (Europe)
+    source: no-intro
+  assets:
+  - asset:
+      id: 27894
+      kind: 3
+      kind_id: 27912
+      type: 1
+      name: James Bond Jr (Europe).nes
+      format: 1
+      size: 262160
+      blob_id: 72598
+      debug: |-
+        少年詹姆斯庞德 (欧版) (动作)-James Bond Jr (Europe) + James Bond Jr (E) [!p].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=6822ee722c43cfbc255ed33f37a3c33d2a22ffec
+  - asset:
+      id: 140083
+      kind: 3
+      kind_id: 27912
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/James%20Bond%20Jr%20%28Europe%29.png
+      format: 1
+      size: 2681
+      blob_id: 325423
+      debug: libretro-named-titles:rom-asset=27894:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/James%20Bond%20Jr%20%28Europe%29.png

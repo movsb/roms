@@ -2,6 +2,17 @@ game:
   id: 14202
   platform_id: 2
 names:
+- id: 70745
+  kind: 2
+  kind_id: 14202
+  language: 2
+  name: 重力装甲 (动作)-Juuryoku Soukou Metal Storm
+- id: 70746
+  kind: 2
+  kind_id: 14202
+  language: 1
+  name: Juuryoku Soukou Metal Storm (J) [!]
+  deprecated: 1
 - id: 92203
   kind: 2
   kind_id: 14202
@@ -44,3 +55,48 @@ releases:
 - release:
     id: 14205
     game_id: 14202
+- release:
+    id: 29978
+    game_id: 14202
+  names:
+  - id: 70747
+    kind: 3
+    kind_id: 29978
+    language: 2
+    name: 重力装甲 (日版) (动作)-Juuryoku Soukou Metal Storm (Japan)
+  - id: 70748
+    kind: 3
+    kind_id: 29978
+    language: 1
+    name: Juuryoku Soukou Metal Storm (J) [!]
+    deprecated: 1
+  - id: 261256
+    kind: 3
+    kind_id: 29978
+    language: 1
+    name: Juuryoku Soukou Metal Storm (Japan)
+    source: no-intro
+  assets:
+  - asset:
+      id: 29960
+      kind: 3
+      kind_id: 29978
+      type: 1
+      name: Juuryoku Soukou Metal Storm (Japan).nes
+      format: 1
+      size: 393232
+      blob_id: 73917
+      debug: |-
+        重力装甲 (日版) (动作)-Juuryoku Soukou Metal Storm (Japan) + Juuryoku Soukou Metal Storm (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=274aca5b5276d36abbb0ab3bfa5be0eb87689a55
+  - asset:
+      id: 138026
+      kind: 3
+      kind_id: 29978
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 2148
+      blob_id: 323603
+      debug: fc-title-trial:fceumm:rom-asset=29960:frame=1200:start-frame=600

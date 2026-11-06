@@ -2,6 +2,17 @@ game:
   id: 13760
   platform_id: 2
 names:
+- id: 65607
+  kind: 2
+  kind_id: 13760
+  language: 2
+  name: 昆虫大战 (射击)-Insector X
+- id: 65608
+  kind: 2
+  kind_id: 13760
+  language: 1
+  name: Insector X (J)
+  deprecated: 1
 - id: 66193
   kind: 2
   kind_id: 13760
@@ -71,6 +82,51 @@ releases:
   release_publishers:
   - release_id: 13765
     publisher_id: 112
+- release:
+    id: 28463
+    game_id: 13760
+  names:
+  - id: 65609
+    kind: 3
+    kind_id: 28463
+    language: 2
+    name: 昆虫大战 (日版) (射击)-Insector X (Japan)
+  - id: 65610
+    kind: 3
+    kind_id: 28463
+    language: 1
+    name: Insector X (J)
+    deprecated: 1
+  - id: 260647
+    kind: 3
+    kind_id: 28463
+    language: 1
+    name: Insector X (Japan)
+    source: no-intro
+  assets:
+  - asset:
+      id: 28445
+      kind: 3
+      kind_id: 28463
+      type: 1
+      name: Insector X (Japan).nes
+      format: 1
+      size: 262160
+      blob_id: 72961
+      debug: |-
+        昆虫大战 (日版) (射击)-Insector X (Japan) + Insector X (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=c7476483a506635cd0110d325d487f3a974daa08
+  - asset:
+      id: 139011
+      kind: 3
+      kind_id: 28463
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Insector%20X%20%28Japan%29.png
+      format: 1
+      size: 2466
+      blob_id: 324484
+      debug: libretro-named-titles:rom-asset=28445:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Insector%20X%20%28Japan%29.png
 - release:
     id: 28627
     game_id: 13760

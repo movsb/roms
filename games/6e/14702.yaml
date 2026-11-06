@@ -2,6 +2,12 @@ game:
   id: 14702
   platform_id: 2
 names:
+- id: 71374
+  kind: 2
+  kind_id: 14702
+  language: 1
+  name: Knight Rider (J)
+  deprecated: 1
 - id: 71379
   kind: 2
   kind_id: 14702
@@ -131,6 +137,51 @@ releases:
       size: 196624
       blob_id: 60459
       debug: Knight Rider (U) [t1].nes
+- release:
+    id: 30163
+    game_id: 14702
+  names:
+  - id: 71375
+    kind: 3
+    kind_id: 30163
+    language: 2
+    name: 霹雳游侠 (日版) (模拟射击)-Knight Rider (Japan)
+  - id: 71376
+    kind: 3
+    kind_id: 30163
+    language: 1
+    name: Knight Rider (J)
+    deprecated: 1
+  - id: 261333
+    kind: 3
+    kind_id: 30163
+    language: 1
+    name: Knight Rider (Japan)
+    source: no-intro
+  assets:
+  - asset:
+      id: 30145
+      kind: 3
+      kind_id: 30163
+      type: 1
+      name: Knight Rider (Japan).nes
+      format: 1
+      size: 196624
+      blob_id: 74037
+      debug: |-
+        霹雳游侠 (日版) (模拟射击)-Knight Rider (Japan) + Knight Rider (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=5438d3f810767d07f5a7f2b39504abdef5e14346
+  - asset:
+      id: 139239
+      kind: 3
+      kind_id: 30163
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Knight%20Rider%20%28Japan%29.png
+      format: 1
+      size: 1666
+      blob_id: 324700
+      debug: libretro-named-titles:rom-asset=30145:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Knight%20Rider%20%28Japan%29.png
 - release:
     id: 30164
     game_id: 14702

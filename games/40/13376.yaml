@@ -2,6 +2,17 @@ game:
   id: 13376
   platform_id: 2
 names:
+- id: 71637
+  kind: 2
+  kind_id: 13376
+  language: 2
+  name: "高桥名人之冒险岛 (动作)-Hudsons Adventure Island - Classic in the Pacific"
+- id: 71638
+  kind: 2
+  kind_id: 13376
+  language: 1
+  name: Hudson's Adventure Island (E) [!]
+  deprecated: 1
 - id: 71641
   kind: 2
   kind_id: 13376
@@ -17,6 +28,12 @@ names:
   kind_id: 13376
   language: 1
   name: Hudson's Adventure Island
+- id: 263669
+  kind: 2
+  kind_id: 13376
+  language: 1
+  name: Adventure Island Classic
+  source: no-intro
 releases:
 - release:
     id: 13376
@@ -191,3 +208,46 @@ releases:
       size: 65552
       blob_id: 59243
       debug: Hudson's Adventure Island (U) [t4].nes
+- release:
+    id: 30241
+    game_id: 13376
+  names:
+  - id: 71639
+    kind: 3
+    kind_id: 30241
+    language: 2
+    name: "高桥名人之冒险岛 (欧版) (动作)-Hudsons Adventure Island - Classic in the Pacific (Europe)"
+  - id: 71640
+    kind: 3
+    kind_id: 30241
+    language: 1
+    name: Hudson's Adventure Island (E) [!]
+    deprecated: 1
+  - id: 261367
+    kind: 3
+    kind_id: 30241
+    language: 1
+    name: Adventure Island Classic (Europe)
+    source: no-intro
+  assets:
+  - asset:
+      id: 30223
+      kind: 3
+      kind_id: 30241
+      type: 1
+      name: Adventure Island Classic (Europe).nes
+      format: 1
+      size: 65552
+      blob_id: 74084
+      debug: "高桥名人之冒险岛 (欧版) (动作)-Hudsons Adventure Island - Classic in the Pacific (Europe) + Hudson's Adventure Island (E) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=6a8747a4a6f9f0fa35e66ed12f8ad8027911b302"
+  - asset:
+      id: 138080
+      kind: 3
+      kind_id: 30241
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 3971
+      blob_id: 323651
+      debug: fc-title-trial:fceumm:rom-asset=30223:frame=600:region=PAL

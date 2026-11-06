@@ -7,6 +7,17 @@ names:
   kind_id: 14928
   language: 1
   name: "Labyrinth - Maou no Meikyuu (Translated En)"
+- id: 71933
+  kind: 2
+  kind_id: 14928
+  language: 2
+  name: 魔王迷宫 (动作射击)-Labyrinth
+- id: 71934
+  kind: 2
+  kind_id: 14928
+  language: 1
+  name: Labyrinth (J)
+  deprecated: 1
 - id: 92291
   kind: 2
   kind_id: 14928
@@ -149,3 +160,48 @@ releases:
 - release:
     id: 14938
     game_id: 14928
+- release:
+    id: 30334
+    game_id: 14928
+  names:
+  - id: 71935
+    kind: 3
+    kind_id: 30334
+    language: 2
+    name: 魔王迷宫 (日版) (动作射击)-Labyrinth (Japan)
+  - id: 71936
+    kind: 3
+    kind_id: 30334
+    language: 1
+    name: Labyrinth (J)
+    deprecated: 1
+  - id: 261401
+    kind: 3
+    kind_id: 30334
+    language: 1
+    name: Labyrinth (Japan)
+    source: no-intro
+  assets:
+  - asset:
+      id: 30316
+      kind: 3
+      kind_id: 30334
+      type: 1
+      name: Labyrinth (Japan).nes
+      format: 1
+      size: 131088
+      blob_id: 74146
+      debug: |-
+        魔王迷宫 (日版) (动作射击)-Labyrinth (Japan) + Labyrinth (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=e7d6af180962eef5121d6a319985acd33142c946
+  - asset:
+      id: 139263
+      kind: 3
+      kind_id: 30334
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Labyrinth%20%28Japan%29.png
+      format: 1
+      size: 1528
+      blob_id: 324720
+      debug: libretro-named-titles:rom-asset=30316:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Labyrinth%20%28Japan%29.png
