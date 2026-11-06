@@ -2,6 +2,12 @@ game:
   id: 10693
   platform_id: 2
 names:
+- id: 62200
+  kind: 2
+  kind_id: 10693
+  language: 1
+  name: Duck Tales (E) [!]
+  deprecated: 1
 - id: 62203
   kind: 2
   kind_id: 10693
@@ -12,11 +18,27 @@ names:
   kind_id: 10693
   language: 1
   name: Duck Tales (U) [!]
+- id: 62207
+  kind: 2
+  kind_id: 10693
+  language: 2
+  name: 唐老鸭梦冒险(Beta) (动作)-Duck Tales (Beta)
+- id: 62208
+  kind: 2
+  kind_id: 10693
+  language: 1
+  name: Duck Tales (U) (Prototype)
 - id: 91769
   kind: 2
   kind_id: 10693
   language: 1
   name: Duck Tales
+- id: 262649
+  kind: 2
+  kind_id: 10693
+  language: 1
+  name: DuckTales
+  source: no-intro
 releases:
 - release:
     id: 10693
@@ -404,3 +426,73 @@ releases:
       size: 2064
       blob_id: 324823
       debug: libretro-named-titles:rom-asset=10697:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/DuckTales%20%28USA%29.png
+- release:
+    id: 27435
+    game_id: 10693
+  names:
+  - id: 62201
+    kind: 3
+    kind_id: 27435
+    language: 2
+    name: 唐老鸭梦冒险 (欧版) (动作)-Duck Tales (Europe)
+  - id: 62202
+    kind: 3
+    kind_id: 27435
+    language: 1
+    name: Duck Tales (E) [!]
+    deprecated: 1
+  - id: 260246
+    kind: 3
+    kind_id: 27435
+    language: 1
+    name: DuckTales (Europe)
+    source: no-intro
+  assets:
+  - asset:
+      id: 27417
+      kind: 3
+      kind_id: 27435
+      type: 1
+      name: DuckTales (Europe).nes
+      format: 1
+      size: 131088
+      blob_id: 72282
+      debug: |-
+        唐老鸭梦冒险 (欧版) (动作)-Duck Tales (Europe) + Duck Tales (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=1e4796ee09739c45f7fed2a9bbd1ceb132c4ff7f
+  - asset:
+      id: 137618
+      kind: 3
+      kind_id: 27435
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 3779
+      blob_id: 323247
+      debug: fc-title-trial:fceumm:rom-asset=27417:frame=180:region=PAL
+- release:
+    id: 27437
+    game_id: 10693
+  names:
+  - id: 62209
+    kind: 3
+    kind_id: 27437
+    language: 2
+    name: 唐老鸭梦冒险 (美版)(Beta) (动作)-Duck Tales (USA) (Beta)
+  - id: 62210
+    kind: 3
+    kind_id: 27437
+    language: 1
+    name: Duck Tales (U) (Prototype)
+  assets:
+  - asset:
+      id: 27419
+      kind: 3
+      kind_id: 27437
+      type: 1
+      name: 唐老鸭梦冒险 (美版)(Beta) (动作)-Duck Tales (USA) (Beta) + Duck Tales (U) (Prototype).nes
+      format: 1
+      size: 131088
+      blob_id: 72283
+      debug: 唐老鸭梦冒险 (美版)(Beta) (动作)-Duck Tales (USA) (Beta) + Duck Tales (U) (Prototype).nes

@@ -7,6 +7,23 @@ names:
   kind_id: 9725
   language: 1
   name: DieHard
+- id: 68747
+  kind: 2
+  kind_id: 9725
+  language: 2
+  name: 终极警探 (动作)-Die Hard
+- id: 68748
+  kind: 2
+  kind_id: 9725
+  language: 1
+  name: Die Hard (J)
+  deprecated: 1
+- id: 68752
+  kind: 2
+  kind_id: 9725
+  language: 1
+  name: Die Hard (E) [!]
+  deprecated: 1
 - id: 68755
   kind: 2
   kind_id: 9725
@@ -109,3 +126,93 @@ releases:
       size: 262160
       blob_id: 55790
       debug: Die Hard (U) [t1].nes
+- release:
+    id: 29385
+    game_id: 9725
+  names:
+  - id: 68749
+    kind: 3
+    kind_id: 29385
+    language: 2
+    name: 终极警探 (日版) (动作)-Die Hard (Japan)
+  - id: 68750
+    kind: 3
+    kind_id: 29385
+    language: 1
+    name: Die Hard (J)
+    deprecated: 1
+  - id: 261037
+    kind: 3
+    kind_id: 29385
+    language: 1
+    name: Die Hard (Japan)
+    source: no-intro
+  assets:
+  - asset:
+      id: 29367
+      kind: 3
+      kind_id: 29385
+      type: 1
+      name: Die Hard (Japan).nes
+      format: 1
+      size: 262160
+      blob_id: 73558
+      debug: |-
+        终极警探 (日版) (动作)-Die Hard (Japan) + Die Hard (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=78c6435af4c99d6b36994f26547bb04f0eadbe8d
+  - asset:
+      id: 139139
+      kind: 3
+      kind_id: 29385
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Die%20Hard%20%28Japan%29.png
+      format: 1
+      size: 3387
+      blob_id: 324604
+      debug: libretro-named-titles:rom-asset=29367:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Die%20Hard%20%28Japan%29.png
+- release:
+    id: 29386
+    game_id: 9725
+  names:
+  - id: 68753
+    kind: 3
+    kind_id: 29386
+    language: 2
+    name: 终极警探 (欧版) (动作)-Die Hard (Europe)
+  - id: 68754
+    kind: 3
+    kind_id: 29386
+    language: 1
+    name: Die Hard (E) [!]
+    deprecated: 1
+  - id: 261038
+    kind: 3
+    kind_id: 29386
+    language: 1
+    name: Die Hard (Europe)
+    source: no-intro
+  assets:
+  - asset:
+      id: 29368
+      kind: 3
+      kind_id: 29386
+      type: 1
+      name: Die Hard (Europe).nes
+      format: 1
+      size: 262160
+      blob_id: 73559
+      debug: |-
+        终极警探 (欧版) (动作)-Die Hard (Europe) + Die Hard (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=a3dfcb2157a9c4c3e5caf0beb90433dc6c1e15ec
+  - asset:
+      id: 137925
+      kind: 3
+      kind_id: 29386
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 5734
+      blob_id: 323518
+      debug: fc-title-trial:fceumm:rom-asset=29368:frame=900:region=PAL

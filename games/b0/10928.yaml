@@ -2,6 +2,11 @@ game:
   id: 10928
   platform_id: 2
 names:
+- id: 61077
+  kind: 2
+  kind_id: 10928
+  language: 2
+  name: 冒险队
 - id: 91804
   kind: 2
   kind_id: 10928
@@ -92,3 +97,43 @@ releases:
   release_publishers:
   - release_id: 10932
     publisher_id: 2
+- release:
+    id: 27086
+    game_id: 10928
+  names:
+  - id: 61078
+    kind: 3
+    kind_id: 27086
+    language: 2
+    name: 冒险队
+  - id: 260108
+    kind: 3
+    kind_id: 27086
+    language: 1
+    name: Esper Bouken Tai (Japan)
+    source: no-intro
+  assets:
+  - asset:
+      id: 27068
+      kind: 3
+      kind_id: 27086
+      type: 1
+      name: Esper Bouken Tai (Japan).nes
+      format: 1
+      size: 262160
+      blob_id: 72056
+      debug: |-
+        冒险队.nes
+        重复的/超能力冒险队 (日版) (动作)-Esper Bouken Tai (Japan) + Esper Bouken Tai (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=a47fb03c1cf990124fd576bd947800b733c0a07e
+  - asset:
+      id: 140007
+      kind: 3
+      kind_id: 27086
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Esper%20Bouken%20Tai%20%28Japan%29.png
+      format: 1
+      size: 1770
+      blob_id: 325354
+      debug: libretro-named-titles:rom-asset=27068:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Esper%20Bouken%20Tai%20%28Japan%29.png

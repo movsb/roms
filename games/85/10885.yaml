@@ -2,6 +2,17 @@ game:
   id: 10885
   platform_id: 2
 names:
+- id: 61429
+  kind: 2
+  kind_id: 10885
+  language: 2
+  name: 勇士屠魔 (角色扮演)-Elysion
+- id: 61430
+  kind: 2
+  kind_id: 10885
+  language: 1
+  name: Elysion (J) [!]
+  deprecated: 1
 - id: 91798
   kind: 2
   kind_id: 10885
@@ -212,3 +223,48 @@ releases:
   release_publishers:
   - release_id: 10895
     publisher_id: 169
+- release:
+    id: 27197
+    game_id: 10885
+  names:
+  - id: 61431
+    kind: 3
+    kind_id: 27197
+    language: 2
+    name: 勇士屠魔 (日版) (角色扮演)-Elysion (Japan)
+  - id: 61432
+    kind: 3
+    kind_id: 27197
+    language: 1
+    name: Elysion (J) [!]
+    deprecated: 1
+  - id: 260150
+    kind: 3
+    kind_id: 27197
+    language: 1
+    name: Elysion (Japan)
+    source: no-intro
+  assets:
+  - asset:
+      id: 27179
+      kind: 3
+      kind_id: 27197
+      type: 1
+      name: Elysion (Japan).nes
+      format: 1
+      size: 262160
+      blob_id: 72124
+      debug: |-
+        勇士屠魔 (日版) (角色扮演)-Elysion (Japan) + Elysion (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=64952d7c1a1c79438c80be9cbecc085c01e5636b
+  - asset:
+      id: 138838
+      kind: 3
+      kind_id: 27197
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Elysion%20%28Japan%29.png
+      format: 1
+      size: 2347
+      blob_id: 324317
+      debug: libretro-named-titles:rom-asset=27179:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Elysion%20%28Japan%29.png

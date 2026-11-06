@@ -8,6 +8,12 @@ names:
   language: 1
   name: GolfGrandSlam
   deprecated: 1
+- id: 71624
+  kind: 2
+  kind_id: 12435
+  language: 1
+  name: Golf Grand Slam (J) [!]
+  deprecated: 1
 - id: 71627
   kind: 2
   kind_id: 12435
@@ -124,3 +130,48 @@ releases:
       size: 2650
       blob_id: 324003
       debug: libretro-named-titles:rom-asset=12422:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Golf%20Grand%20Slam%20%28USA%29.png
+- release:
+    id: 30237
+    game_id: 12435
+  names:
+  - id: 71625
+    kind: 3
+    kind_id: 30237
+    language: 2
+    name: 高尔夫大满贯 (日版) (运动)-Golf Grand Slam (Japan)
+  - id: 71626
+    kind: 3
+    kind_id: 30237
+    language: 1
+    name: Golf Grand Slam (J) [!]
+    deprecated: 1
+  - id: 261364
+    kind: 3
+    kind_id: 30237
+    language: 1
+    name: Golf Grand Slam (Japan)
+    source: no-intro
+  assets:
+  - asset:
+      id: 30219
+      kind: 3
+      kind_id: 30237
+      type: 1
+      name: Golf Grand Slam (Japan).nes
+      format: 1
+      size: 262160
+      blob_id: 74081
+      debug: |-
+        高尔夫大满贯 (日版) (运动)-Golf Grand Slam (Japan) + Golf Grand Slam (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=cff9fe0d8f2e9490e1da787a93fcef88d83153ca
+  - asset:
+      id: 138078
+      kind: 3
+      kind_id: 30237
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 3829
+      blob_id: 323649
+      debug: fc-title-trial:fceumm:rom-asset=30219:frame=300

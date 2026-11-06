@@ -2,6 +2,18 @@ game:
   id: 11266
   platform_id: 2
 names:
+- id: 66714
+  kind: 2
+  kind_id: 11266
+  language: 1
+  name: Faxanadu (J) [!]
+  deprecated: 1
+- id: 66718
+  kind: 2
+  kind_id: 11266
+  language: 1
+  name: Faxanadu (E) [!]
+  deprecated: 1
 - id: 66721
   kind: 2
   kind_id: 11266
@@ -366,6 +378,96 @@ releases:
       size: 3988
       blob_id: 323984
       debug: libretro-named-titles:rom-asset=11271:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Faxanadu%20%28USA%29.png
+- release:
+    id: 28779
+    game_id: 11266
+  names:
+  - id: 66715
+    kind: 3
+    kind_id: 28779
+    language: 2
+    name: 沙那多 (日版) (动作角色扮演)-Faxanadu (Japan)
+  - id: 66716
+    kind: 3
+    kind_id: 28779
+    language: 1
+    name: Faxanadu (J) [!]
+    deprecated: 1
+  - id: 260800
+    kind: 3
+    kind_id: 28779
+    language: 1
+    name: Faxanadu (Japan)
+    source: no-intro
+  assets:
+  - asset:
+      id: 28761
+      kind: 3
+      kind_id: 28779
+      type: 1
+      name: Faxanadu (Japan).nes
+      format: 1
+      size: 262160
+      blob_id: 73173
+      debug: |-
+        沙那多 (日版) (动作角色扮演)-Faxanadu (Japan) + Faxanadu (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=6501f61fd717ae603c2265d0df074ac2a4dcb8c7
+  - asset:
+      id: 137823
+      kind: 3
+      kind_id: 28779
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 6183
+      blob_id: 323433
+      debug: fc-title-trial:fceumm:rom-asset=28761:frame=300
+- release:
+    id: 28780
+    game_id: 11266
+  names:
+  - id: 66719
+    kind: 3
+    kind_id: 28780
+    language: 2
+    name: 沙那多 (欧版) (动作角色扮演)-Faxanadu (Europe)
+  - id: 66720
+    kind: 3
+    kind_id: 28780
+    language: 1
+    name: Faxanadu (E) [!]
+    deprecated: 1
+  - id: 260801
+    kind: 3
+    kind_id: 28780
+    language: 1
+    name: Faxanadu (Europe)
+    source: no-intro
+  assets:
+  - asset:
+      id: 28762
+      kind: 3
+      kind_id: 28780
+      type: 1
+      name: Faxanadu (Europe).nes
+      format: 1
+      size: 262160
+      blob_id: 73174
+      debug: |-
+        沙那多 (欧版) (动作角色扮演)-Faxanadu (Europe) + Faxanadu (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=0711bc8d0bf42a0829391c2320393a0d3df2dd1f
+  - asset:
+      id: 137824
+      kind: 3
+      kind_id: 28780
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 6678
+      blob_id: 322539
+      debug: fc-title-trial:fceumm:rom-asset=28762:frame=300:region=PAL
 - release:
     id: 28781
     game_id: 11266

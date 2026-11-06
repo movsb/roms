@@ -2,6 +2,12 @@ game:
   id: 10870
   platform_id: 2
 names:
+- id: 69872
+  kind: 2
+  kind_id: 10870
+  language: 1
+  name: Eliminator Boat Duel (E) [!]
+  deprecated: 1
 - id: 69875
   kind: 2
   kind_id: 10870
@@ -91,3 +97,48 @@ releases:
       size: 262160
       blob_id: 56863
       debug: Eliminator Boat Duel (U) [hM04].nes
+- release:
+    id: 29725
+    game_id: 10870
+  names:
+  - id: 69873
+    kind: 3
+    kind_id: 29725
+    language: 2
+    name: 赛艇决斗 (欧版) (竞赛)-Eliminator Boat Duel (Europe)
+  - id: 69874
+    kind: 3
+    kind_id: 29725
+    language: 1
+    name: Eliminator Boat Duel (E) [!]
+    deprecated: 1
+  - id: 261165
+    kind: 3
+    kind_id: 29725
+    language: 1
+    name: Eliminator Boat Duel (Europe)
+    source: no-intro
+  assets:
+  - asset:
+      id: 29707
+      kind: 3
+      kind_id: 29725
+      type: 1
+      name: Eliminator Boat Duel (Europe).nes
+      format: 1
+      size: 262160
+      blob_id: 73756
+      debug: |-
+        赛艇决斗 (欧版) (竞赛)-Eliminator Boat Duel (Europe) + Eliminator Boat Duel (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=653974f364c504fd7949e3945089e0b220107fa3
+  - asset:
+      id: 137984
+      kind: 3
+      kind_id: 29725
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 6592
+      blob_id: 322507
+      debug: fc-title-trial:fceumm:rom-asset=29707:frame=900:region=PAL

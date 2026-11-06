@@ -2,6 +2,33 @@ game:
   id: 10249
   platform_id: 2
 names:
+- id: 67877
+  kind: 2
+  kind_id: 10249
+  language: 2
+  name: 玛璃欧医生 (益智)-Dr. Mario
+- id: 67878
+  kind: 2
+  kind_id: 10249
+  language: 1
+  name: Dr. Mario (JU) (PRG0) [!]
+  deprecated: 1
+- id: 67886
+  kind: 2
+  kind_id: 10249
+  language: 1
+  name: Dr. Mario (E) [!]
+  deprecated: 1
+- id: 80504
+  kind: 2
+  kind_id: 10249
+  language: 2
+  name: 玛莉医生[Puszta汉化]
+- id: 80505
+  kind: 2
+  kind_id: 10249
+  language: 1
+  name: Dr. Mario (JU) (PRG0) [T+Chi]
 - id: 91718
   kind: 2
   kind_id: 10249
@@ -307,3 +334,118 @@ releases:
       size: 98320
       blob_id: 56311
       debug: Dr. Mario (VS).nes
+- release:
+    id: 29139
+    game_id: 10249
+  names:
+  - id: 67879
+    kind: 3
+    kind_id: 29139
+    language: 2
+    name: 玛璃欧医生 (日版,美版) (益智)-Dr. Mario (Japan, USA)
+  - id: 67880
+    kind: 3
+    kind_id: 29139
+    language: 1
+    name: Dr. Mario (JU) (PRG0) [!]
+    deprecated: 1
+  - id: 260922
+    kind: 3
+    kind_id: 29139
+    language: 1
+    name: Dr. Mario (Japan, USA) (En)
+    source: no-intro
+  assets:
+  - asset:
+      id: 29121
+      kind: 3
+      kind_id: 29139
+      type: 1
+      name: Dr. Mario (Japan, USA) (En).nes
+      format: 1
+      size: 65552
+      blob_id: 73399
+      debug: |-
+        玛璃欧医生 (日版,美版) (益智)-Dr. Mario (Japan, USA) + Dr. Mario (JU) (PRG0) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=ff6459bc3af5743e3d303823999f33d74abdf1aa
+  - asset:
+      id: 137873
+      kind: 3
+      kind_id: 29139
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 3705
+      blob_id: 323474
+      debug: fc-title-trial:fceumm:rom-asset=29121:frame=180
+- release:
+    id: 29141
+    game_id: 10249
+  names:
+  - id: 67887
+    kind: 3
+    kind_id: 29141
+    language: 2
+    name: 玛璃欧医生 (欧版) (益智)-Dr. Mario (Europe)
+  - id: 67888
+    kind: 3
+    kind_id: 29141
+    language: 1
+    name: Dr. Mario (E) [!]
+    deprecated: 1
+  - id: 260923
+    kind: 3
+    kind_id: 29141
+    language: 1
+    name: Dr. Mario (Europe)
+    source: no-intro
+  assets:
+  - asset:
+      id: 29123
+      kind: 3
+      kind_id: 29141
+      type: 1
+      name: Dr. Mario (Europe).nes
+      format: 1
+      size: 65552
+      blob_id: 73400
+      debug: |-
+        玛璃欧医生 (欧版) (益智)-Dr. Mario (Europe) + Dr. Mario (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=a0939930d9655e7fd2c3fae69d558614f2d27480
+  - asset:
+      id: 137874
+      kind: 3
+      kind_id: 29141
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 3705
+      blob_id: 323474
+      debug: fc-title-trial:fceumm:rom-asset=29123:frame=180:region=PAL
+- release:
+    id: 29146
+    game_id: 10249
+  names:
+  - id: 85233
+    kind: 3
+    kind_id: 29146
+    language: 2
+    name: 玛莉医生[Puszta汉化]
+  - id: 85234
+    kind: 3
+    kind_id: 29146
+    language: 1
+    name: Dr. Mario (JU) (PRG0) [T+Chi]
+  assets:
+  - asset:
+      id: 29128
+      kind: 3
+      kind_id: 29146
+      type: 1
+      name: 玛莉医生[Puszta汉化] + Dr. Mario (JU) (PRG0) [T+Chi].nes
+      format: 1
+      size: 65552
+      blob_id: 73404
+      debug: 玛莉医生[Puszta汉化] + Dr. Mario (JU) (PRG0) [T+Chi].nes

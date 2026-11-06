@@ -14,6 +14,12 @@ names:
   language: 1
   name: Donkey Kong Jr. no Sansuu Asobi (J)
   deprecated: 1
+- id: 247690
+  kind: 2
+  kind_id: 27884
+  language: 2
+  name: 大金刚JR.算数游戏
+  source: codex
 - id: 262818
   kind: 2
   kind_id: 27884
@@ -21,6 +27,46 @@ names:
   name: Donkey Kong Jr. no Sansuu Asobi
   source: no-intro
 releases:
+- release:
+    id: 9971
+    game_id: 27884
+  names:
+  - id: 21422
+    kind: 3
+    kind_id: 9971
+    language: 1
+    name: Donkey Kong Jr. no Sansuu Asobi (J-AC)
+    deprecated: 1
+  - id: 258050
+    kind: 3
+    kind_id: 9971
+    language: 1
+    name: Donkey Kong Jr. no Sansuu Asobi (Japan) (Animal Crossing)
+    source: no-intro
+  assets:
+  - asset:
+      id: 9953
+      kind: 3
+      kind_id: 9971
+      type: 1
+      name: Donkey Kong Jr. no Sansuu Asobi (Japan) (Animal Crossing).nes
+      format: 1
+      size: 40976
+      blob_id: 56018
+      debug: |-
+        Donkey Kong Jr. no Sansuu Asobi (J-AC).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=167fe16771dc4f4bc92c0ca2cc933b351e8369da
+  - asset:
+      id: 138339
+      kind: 3
+      kind_id: 9971
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 1834
+      blob_id: 323862
+      debug: fc-title-trial:fceumm:rom-asset=9953:frame=180
 - release:
     id: 27884
     game_id: 27884

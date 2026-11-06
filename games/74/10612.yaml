@@ -8,6 +8,18 @@ names:
   language: 1
   name: DragonsLair
   deprecated: 1
+- id: 72360
+  kind: 2
+  kind_id: 10612
+  language: 1
+  name: Dragon's Lair (J)
+  deprecated: 1
+- id: 72364
+  kind: 2
+  kind_id: 10612
+  language: 1
+  name: Dragon's Lair (E) [!]
+  deprecated: 1
 - id: 72367
   kind: 2
   kind_id: 10612
@@ -24,6 +36,11 @@ names:
   kind_id: 10612
   language: 2
   name: 龙穴历险记
+- id: 72373
+  kind: 2
+  kind_id: 10612
+  language: 2
+  name: 龙穴历险记1
 - id: 91759
   kind: 2
   kind_id: 10612
@@ -135,3 +152,132 @@ releases:
       size: 2553
       blob_id: 322497
       debug: fc-title-trial:fceumm:rom-asset=10604:frame=900
+- release:
+    id: 30459
+    game_id: 10612
+  names:
+  - id: 72361
+    kind: 3
+    kind_id: 30459
+    language: 2
+    name: 龙穴历险记 (日版) (动作)-Dragons Lair (Japan)
+  - id: 72362
+    kind: 3
+    kind_id: 30459
+    language: 1
+    name: Dragon's Lair (J)
+    deprecated: 1
+  - id: 261460
+    kind: 3
+    kind_id: 30459
+    language: 1
+    name: Dragon's Lair (Japan) (En)
+    source: no-intro
+  assets:
+  - asset:
+      id: 30441
+      kind: 3
+      kind_id: 30459
+      type: 1
+      name: Dragon's Lair (Japan) (En).nes
+      format: 1
+      size: 262160
+      blob_id: 74227
+      debug: |-
+        龙穴历险记 (日版) (动作)-Dragons Lair (Japan) + Dragon's Lair (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=b61bdcc1e16016b7e4fcfe0a6ecf46eb72652a1b
+  - asset:
+      id: 139285
+      kind: 3
+      kind_id: 30459
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Dragon%27s%20Lair%20%28Japan%29.png
+      format: 1
+      size: 1679
+      blob_id: 324742
+      debug: libretro-named-titles:rom-asset=30441:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Dragon%27s%20Lair%20%28Japan%29.png
+- release:
+    id: 30460
+    game_id: 10612
+  names:
+  - id: 72365
+    kind: 3
+    kind_id: 30460
+    language: 2
+    name: 龙穴历险记 (欧版) (动作)-Dragons Lair (Europe)
+  - id: 72366
+    kind: 3
+    kind_id: 30460
+    language: 1
+    name: Dragon's Lair (E) [!]
+    deprecated: 1
+  - id: 261461
+    kind: 3
+    kind_id: 30460
+    language: 1
+    name: Dragon's Lair (Europe)
+    source: no-intro
+  assets:
+  - asset:
+      id: 30442
+      kind: 3
+      kind_id: 30460
+      type: 1
+      name: Dragon's Lair (Europe).nes
+      format: 1
+      size: 262160
+      blob_id: 74228
+      debug: |-
+        龙穴历险记 (欧版) (动作)-Dragons Lair (Europe) + Dragon's Lair (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=f98445c6b24af3fb590fdd8689a3b44c18339b79
+  - asset:
+      id: 138118
+      kind: 3
+      kind_id: 30460
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 2527
+      blob_id: 323686
+      debug: fc-title-trial:fceumm:rom-asset=30442:frame=900:region=PAL
+- release:
+    id: 30463
+    game_id: 10612
+  names:
+  - id: 72374
+    kind: 3
+    kind_id: 30463
+    language: 2
+    name: 龙穴历险记1
+  - id: 261462
+    kind: 3
+    kind_id: 30463
+    language: 1
+    name: Dragon's Lair (Europe)
+    source: no-intro
+  assets:
+  - asset:
+      id: 30445
+      kind: 3
+      kind_id: 30463
+      type: 1
+      name: Dragon's Lair (Europe).nes
+      format: 1
+      size: 262160
+      blob_id: 74229
+      debug: |-
+        龙穴历险记1.nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=f98445c6b24af3fb590fdd8689a3b44c18339b79
+  - asset:
+      id: 140268
+      kind: 3
+      kind_id: 30463
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Dragon%27s%20Lair%20%28Europe%29.png
+      format: 1
+      size: 1669
+      blob_id: 325581
+      debug: libretro-named-titles:rom-asset=30445:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Dragon%27s%20Lair%20%28Europe%29.png

@@ -2,6 +2,12 @@ game:
   id: 12843
   platform_id: 2
 names:
+- id: 61614
+  kind: 2
+  kind_id: 12843
+  language: 1
+  name: Hanjuku Eiyuu (J)
+  deprecated: 1
 - id: 92043
   kind: 2
   kind_id: 12843
@@ -13,6 +19,12 @@ names:
   language: 2
   name: 半熟英雄
   source: codex
+- id: 262592
+  kind: 2
+  kind_id: 12843
+  language: 1
+  name: Hanjuku Hero
+  source: no-intro
 releases:
 - release:
     id: 12843
@@ -94,3 +106,48 @@ releases:
       size: 131088
       blob_id: 58730
       debug: Hanjuku Eiyuu (J) [hM02][a1].nes
+- release:
+    id: 27251
+    game_id: 12843
+  names:
+  - id: 61615
+    kind: 3
+    kind_id: 27251
+    language: 2
+    name: 半熟英雄
+  - id: 61616
+    kind: 3
+    kind_id: 27251
+    language: 1
+    name: Hanjuku Eiyuu (J)
+    deprecated: 1
+  - id: 260180
+    kind: 3
+    kind_id: 27251
+    language: 1
+    name: Hanjuku Hero (Japan)
+    source: no-intro
+  assets:
+  - asset:
+      id: 27233
+      kind: 3
+      kind_id: 27251
+      type: 1
+      name: Hanjuku Hero (Japan).nes
+      format: 1
+      size: 131088
+      blob_id: 72162
+      debug: |-
+        半熟英雄 + Hanjuku Eiyuu (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=cc781a17f800614b9d5e5c1661fdcd32cea7a7b8
+  - asset:
+      id: 140030
+      kind: 3
+      kind_id: 27251
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Hanjuku%20Hero%20%28Japan%29.png
+      format: 1
+      size: 2797
+      blob_id: 325375
+      debug: libretro-named-titles:rom-asset=27233:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Hanjuku%20Hero%20%28Japan%29.png

@@ -13,6 +13,17 @@ names:
   language: 1
   name: Home Alone (U) (REV0) [!]
   deprecated: 1
+- id: 63749
+  kind: 2
+  kind_id: 27891
+  language: 2
+  name: 小鬼当家(Rev A) (动作)-Home Alone (Rev A)
+- id: 63750
+  kind: 2
+  kind_id: 27891
+  language: 1
+  name: Home Alone (U) (REVA) [!]
+  deprecated: 1
 - id: 262819
   kind: 2
   kind_id: 27891
@@ -20,6 +31,59 @@ names:
   name: Home Alone
   source: no-intro
 releases:
+- release:
+    id: 13273
+    game_id: 27891
+  names:
+  - id: 29170
+    kind: 3
+    kind_id: 13273
+    language: 1
+    name: Home Alone (U) (REVA) [!]
+    deprecated: 1
+  - id: 29176
+    kind: 3
+    kind_id: 13273
+    language: 1
+    name: Home Alone (U) [!]
+    deprecated: 1
+  - id: 63751
+    kind: 3
+    kind_id: 13273
+    language: 2
+    name: 小鬼当家 (美版)(Rev A) (动作)-Home Alone (USA) (Rev A)
+  - id: 258416
+    kind: 3
+    kind_id: 13273
+    language: 1
+    name: Home Alone (USA) (Rev 1)
+    source: no-intro
+  assets:
+  - asset:
+      id: 13255
+      kind: 3
+      kind_id: 13273
+      type: 1
+      name: Home Alone (USA) (Rev 1).nes
+      format: 1
+      size: 262160
+      blob_id: 59138
+      debug: |-
+        Home Alone (U) (REVA) [!].zip
+        Home Alone (U) [!].zip
+        小鬼当家 (美版)(Rev A) (动作)-Home Alone (USA) (Rev A) + Home Alone (U) (REVA) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=00147962462c44354735861d0258d72314635458
+  - asset:
+      id: 136962
+      kind: 3
+      kind_id: 13273
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 8422
+      blob_id: 322613
+      debug: fc-title-trial:fceumm:rom-asset=13255:frame=600
 - release:
     id: 27891
     game_id: 27891

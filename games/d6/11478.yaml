@@ -3,6 +3,17 @@ game:
   platform_id: 2
   series_id: 7
 names:
+- id: 63119
+  kind: 2
+  kind_id: 11478
+  language: 2
+  name: 太空战士 II (角色扮演)-Final Fantasy II
+- id: 63120
+  kind: 2
+  kind_id: 11478
+  language: 1
+  name: Final Fantasy II (J) [!]
+  deprecated: 1
 - id: 63123
   kind: 2
   kind_id: 11478
@@ -848,3 +859,48 @@ releases:
       size: 15275
       blob_id: 324840
       debug: libretro-named-titles:rom-asset=11510:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Final%20Fantasy%20II%20%28USA%29%20%28Proto%29.png
+- release:
+    id: 27708
+    game_id: 11478
+  names:
+  - id: 63121
+    kind: 3
+    kind_id: 27708
+    language: 2
+    name: 太空战士 II (日版) (角色扮演)-Final Fantasy II (Japan)
+  - id: 63122
+    kind: 3
+    kind_id: 27708
+    language: 1
+    name: Final Fantasy II (J) [!]
+    deprecated: 1
+  - id: 260345
+    kind: 3
+    kind_id: 27708
+    language: 1
+    name: Final Fantasy II (Japan)
+    source: no-intro
+  assets:
+  - asset:
+      id: 27690
+      kind: 3
+      kind_id: 27708
+      type: 1
+      name: Final Fantasy II (Japan).nes
+      format: 1
+      size: 262160
+      blob_id: 72464
+      debug: |-
+        太空战士 II (日版) (角色扮演)-Final Fantasy II (Japan) + Final Fantasy II (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=070d4ce87eb4abcc9f9d2a97b8010881cb57defa
+  - asset:
+      id: 137653
+      kind: 3
+      kind_id: 27708
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 1262
+      blob_id: 323280
+      debug: fc-title-trial:fceumm:rom-asset=27690:frame=300

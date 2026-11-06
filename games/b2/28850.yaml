@@ -13,6 +13,12 @@ names:
   language: 1
   name: Fleet Commander (J) [!]
   deprecated: 1
+- id: 247817
+  kind: 2
+  kind_id: 28850
+  language: 2
+  name: 舰队司令
+  source: codex
 - id: 263178
   kind: 2
   kind_id: 28850
@@ -20,6 +26,61 @@ names:
   name: Fleet Commander
   source: no-intro
 releases:
+- release:
+    id: 11772
+    game_id: 28850
+  names:
+  - id: 83118
+    kind: 3
+    kind_id: 11772
+    language: 1
+    name: Fleet Commander (J) [T+Rus_Chief-Net]
+  assets:
+  - asset:
+      id: 11754
+      kind: 3
+      kind_id: 11772
+      type: 1
+      name: Fleet Commander (J) [T+Rus_Chief-Net].nes
+      format: 1
+      size: 65552
+      blob_id: 57716
+      debug: Fleet Commander (J) [T+Rus_Chief-Net].nes
+- release:
+    id: 11774
+    game_id: 28850
+    release_date: 19880329
+  names:
+  - id: 25808
+    kind: 3
+    kind_id: 11774
+    language: 1
+    name: Fleet Commander (Japan) (Translated En)
+  release_publishers:
+  - release_id: 11774
+    publisher_id: 161
+  assets:
+  - asset:
+      id: 11756
+      kind: 3
+      kind_id: 11774
+      type: 1
+      name: Fleet Commander (Japan) (Translated En).nes
+      format: 1
+      size: 65552
+      blob_id: 57718
+      debug: Fleet Commander (Japan) (Translated En).zip
+  - asset:
+      id: 138394
+      kind: 3
+      kind_id: 11774
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 2510
+      blob_id: 323901
+      debug: fc-title-trial:fceumm:rom-asset=11756:frame=300
 - release:
     id: 28850
     game_id: 28850
