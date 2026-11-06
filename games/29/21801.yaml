@@ -7,6 +7,18 @@ names:
   kind_id: 21801
   language: 1
   name: Spy_vs_spy
+- id: 69804
+  kind: 2
+  kind_id: 21801
+  language: 1
+  name: Spy vs Spy (J) [!]
+  deprecated: 1
+- id: 69808
+  kind: 2
+  kind_id: 21801
+  language: 1
+  name: Spy Vs Spy (E) [!]
+  deprecated: 1
 - id: 69811
   kind: 2
   kind_id: 21801
@@ -147,3 +159,93 @@ releases:
       size: 1552
       blob_id: 324186
       debug: libretro-named-titles:rom-asset=21789:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Spy%20vs%20Spy%20%28USA%29.png
+- release:
+    id: 29705
+    game_id: 21801
+  names:
+  - id: 69805
+    kind: 3
+    kind_id: 29705
+    language: 2
+    name: 谍对谍 (日版) (益智)-Spy vs Spy (Japan)
+  - id: 69806
+    kind: 3
+    kind_id: 29705
+    language: 1
+    name: Spy vs Spy (J) [!]
+    deprecated: 1
+  - id: 261155
+    kind: 3
+    kind_id: 29705
+    language: 1
+    name: Spy vs Spy (Japan)
+    source: no-intro
+  assets:
+  - asset:
+      id: 29687
+      kind: 3
+      kind_id: 29705
+      type: 1
+      name: Spy vs Spy (Japan).nes
+      format: 1
+      size: 40976
+      blob_id: 73744
+      debug: |-
+        谍对谍 (日版) (益智)-Spy vs Spy (Japan) + Spy vs Spy (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=8885f4f00c0b73c156179bceaba5381487dbeaad
+  - asset:
+      id: 137980
+      kind: 3
+      kind_id: 29705
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 3099
+      blob_id: 323564
+      debug: fc-title-trial:fceumm:rom-asset=29687:frame=300
+- release:
+    id: 29706
+    game_id: 21801
+  names:
+  - id: 69809
+    kind: 3
+    kind_id: 29706
+    language: 2
+    name: 谍对谍 (欧版) (益智)-Spy vs Spy (Europe)
+  - id: 69810
+    kind: 3
+    kind_id: 29706
+    language: 1
+    name: Spy Vs Spy (E) [!]
+    deprecated: 1
+  - id: 261156
+    kind: 3
+    kind_id: 29706
+    language: 1
+    name: Spy vs Spy (Europe)
+    source: no-intro
+  assets:
+  - asset:
+      id: 29688
+      kind: 3
+      kind_id: 29706
+      type: 1
+      name: Spy vs Spy (Europe).nes
+      format: 1
+      size: 40976
+      blob_id: 73745
+      debug: |-
+        谍对谍 (欧版) (益智)-Spy vs Spy (Europe) + Spy Vs Spy (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=673f901a9ec447ea5442e693abac152d7e16578a
+  - asset:
+      id: 137981
+      kind: 3
+      kind_id: 29706
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 3090
+      blob_id: 323565
+      debug: fc-title-trial:fceumm:rom-asset=29688:frame=300:region=PAL

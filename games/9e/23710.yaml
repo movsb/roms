@@ -2,6 +2,17 @@ game:
   id: 23710
   platform_id: 2
 names:
+- id: 67953
+  kind: 2
+  kind_id: 23710
+  language: 2
+  name: 田代雅史之拯救公主大作战 (动作)-Tashiro Masashi no Princess ga Ippai
+- id: 67954
+  kind: 2
+  kind_id: 23710
+  language: 1
+  name: Tashiro Masashi no Princess ga Ippai (J) [!]
+  deprecated: 1
 - id: 93336
   kind: 2
   kind_id: 23710
@@ -73,3 +84,48 @@ releases:
   release_publishers:
   - release_id: 23714
     publisher_id: 130
+- release:
+    id: 29160
+    game_id: 23710
+  names:
+  - id: 67955
+    kind: 3
+    kind_id: 29160
+    language: 2
+    name: 田代雅史之拯救公主大作战 (日版) (动作)-Tashiro Masashi no Princess ga Ippai (Japan)
+  - id: 67956
+    kind: 3
+    kind_id: 29160
+    language: 1
+    name: Tashiro Masashi no Princess ga Ippai (J) [!]
+    deprecated: 1
+  - id: 260933
+    kind: 3
+    kind_id: 29160
+    language: 1
+    name: Tashiro Masashi no Princess ga Ippai (Japan)
+    source: no-intro
+  assets:
+  - asset:
+      id: 29142
+      kind: 3
+      kind_id: 29160
+      type: 1
+      name: Tashiro Masashi no Princess ga Ippai (Japan).nes
+      format: 1
+      size: 262160
+      blob_id: 73413
+      debug: |-
+        田代雅史之拯救公主大作战 (日版) (动作)-Tashiro Masashi no Princess ga Ippai (Japan) + Tashiro Masashi no Princess ga Ippai (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=519de28e14fcaa3e574184a84ad614d250fdfa94
+  - asset:
+      id: 137880
+      kind: 3
+      kind_id: 29160
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 3087
+      blob_id: 323478
+      debug: fc-title-trial:fceumm:rom-asset=29142:frame=2400

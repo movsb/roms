@@ -12,6 +12,17 @@ names:
   kind_id: 18707
   language: 2
   name: 报童2
+- id: 70657
+  kind: 2
+  kind_id: 18707
+  language: 2
+  name: 送报童 II (益智)-Paperboy 2
+- id: 70658
+  kind: 2
+  kind_id: 18707
+  language: 1
+  name: Paperboy 2 (E) [!]
+  deprecated: 1
 - id: 92707
   kind: 2
   kind_id: 18707
@@ -99,3 +110,48 @@ releases:
       size: 262160
       blob_id: 64255
       debug: Paperboy 2 (U) [t1].nes
+- release:
+    id: 29955
+    game_id: 18707
+  names:
+  - id: 70659
+    kind: 3
+    kind_id: 29955
+    language: 2
+    name: 送报童 II (欧版) (益智)-Paperboy 2 (Europe)
+  - id: 70660
+    kind: 3
+    kind_id: 29955
+    language: 1
+    name: Paperboy 2 (E) [!]
+    deprecated: 1
+  - id: 261244
+    kind: 3
+    kind_id: 29955
+    language: 1
+    name: Paperboy 2 (Europe)
+    source: no-intro
+  assets:
+  - asset:
+      id: 29937
+      kind: 3
+      kind_id: 29955
+      type: 1
+      name: Paperboy 2 (Europe).nes
+      format: 1
+      size: 262160
+      blob_id: 73904
+      debug: |-
+        送报童 II (欧版) (益智)-Paperboy 2 (Europe) + Paperboy 2 (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=d5a685d4e79b84fb19542860f5371ab449905e78
+  - asset:
+      id: 138018
+      kind: 3
+      kind_id: 29955
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 3042
+      blob_id: 323596
+      debug: fc-title-trial:fceumm:rom-asset=29937:frame=300:region=PAL

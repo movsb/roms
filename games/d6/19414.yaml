@@ -2,6 +2,18 @@ game:
   id: 19414
   platform_id: 2
 names:
+- id: 70952
+  kind: 2
+  kind_id: 19414
+  language: 1
+  name: Puzznic (J)
+  deprecated: 1
+- id: 70956
+  kind: 2
+  kind_id: 19414
+  language: 1
+  name: Puzznic (E) [!]
+  deprecated: 1
 - id: 70959
   kind: 2
   kind_id: 19414
@@ -124,3 +136,93 @@ releases:
       size: 1452
       blob_id: 324123
       debug: libretro-named-titles:rom-asset=19399:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Puzznic%20%28USA%29.png
+- release:
+    id: 30040
+    game_id: 19414
+  names:
+  - id: 70953
+    kind: 3
+    kind_id: 30040
+    language: 2
+    name: 钻石方块 (日版) (益智)-Puzznic (Japan)
+  - id: 70954
+    kind: 3
+    kind_id: 30040
+    language: 1
+    name: Puzznic (J)
+    deprecated: 1
+  - id: 261275
+    kind: 3
+    kind_id: 30040
+    language: 1
+    name: Puzznic (Japan)
+    source: no-intro
+  assets:
+  - asset:
+      id: 30022
+      kind: 3
+      kind_id: 30040
+      type: 1
+      name: Puzznic (Japan).nes
+      format: 1
+      size: 65552
+      blob_id: 73955
+      debug: |-
+        钻石方块 (日版) (益智)-Puzznic (Japan) + Puzznic (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=52c06bbeb70de38361945dddc7679533737d431a
+  - asset:
+      id: 139219
+      kind: 3
+      kind_id: 30040
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Puzznic%20%28Japan%29.png
+      format: 1
+      size: 1173
+      blob_id: 324682
+      debug: libretro-named-titles:rom-asset=30022:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Puzznic%20%28Japan%29.png
+- release:
+    id: 30041
+    game_id: 19414
+  names:
+  - id: 70957
+    kind: 3
+    kind_id: 30041
+    language: 2
+    name: 钻石方块 (欧版) (益智)-Puzznic (Europe)
+  - id: 70958
+    kind: 3
+    kind_id: 30041
+    language: 1
+    name: Puzznic (E) [!]
+    deprecated: 1
+  - id: 261276
+    kind: 3
+    kind_id: 30041
+    language: 1
+    name: Puzznic (Europe)
+    source: no-intro
+  assets:
+  - asset:
+      id: 30023
+      kind: 3
+      kind_id: 30041
+      type: 1
+      name: Puzznic (Europe).nes
+      format: 1
+      size: 65552
+      blob_id: 73956
+      debug: |-
+        钻石方块 (欧版) (益智)-Puzznic (Europe) + Puzznic (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=e3251ba75a4c74847a90495bdabe23fa620f6206
+  - asset:
+      id: 138031
+      kind: 3
+      kind_id: 30041
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 2387
+      blob_id: 323608
+      debug: fc-title-trial:fceumm:rom-asset=30023:frame=600:region=PAL

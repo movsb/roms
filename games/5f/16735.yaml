@@ -2,6 +2,28 @@ game:
   id: 16735
   platform_id: 2
 names:
+- id: 68307
+  kind: 2
+  kind_id: 16735
+  language: 2
+  name: 神奇钢琴教学系统 (德版) (其他)-Miracle Piano Teaching System, The
+- id: 68308
+  kind: 2
+  kind_id: 16735
+  language: 1
+  name: Miracle Piano Teaching System, The (E) [!]
+  deprecated: 1
+- id: 68311
+  kind: 2
+  kind_id: 16735
+  language: 2
+  name: 神奇钢琴教学系统 (法版) (其他)-Miracle Piano Teaching System, The
+- id: 68312
+  kind: 2
+  kind_id: 16735
+  language: 1
+  name: Miracle Piano Teaching System, The (F)
+  deprecated: 1
 - id: 68315
   kind: 2
   kind_id: 16735
@@ -78,3 +100,93 @@ releases:
       size: 3852
       blob_id: 322772
       debug: fc-title-trial:fceumm:rom-asset=16717:frame=1200
+- release:
+    id: 29258
+    game_id: 16735
+  names:
+  - id: 68309
+    kind: 3
+    kind_id: 29258
+    language: 2
+    name: 神奇钢琴教学系统 (德版) (其他)-Miracle Piano Teaching System, The (Germany)
+  - id: 68310
+    kind: 3
+    kind_id: 29258
+    language: 1
+    name: Miracle Piano Teaching System, The (E) [!]
+    deprecated: 1
+  - id: 260981
+    kind: 3
+    kind_id: 29258
+    language: 1
+    name: Miracle Piano Teaching System, The (Germany)
+    source: no-intro
+  assets:
+  - asset:
+      id: 29240
+      kind: 3
+      kind_id: 29258
+      type: 1
+      name: Miracle Piano Teaching System, The (Germany).nes
+      format: 1
+      size: 327696
+      blob_id: 73476
+      debug: |-
+        神奇钢琴教学系统 (德版) (其他)-Miracle Piano Teaching System, The (Germany) + Miracle Piano Teaching System, The (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=f3d84dcc9fdb48e3f638e4f3205384721c10f710
+  - asset:
+      id: 137900
+      kind: 3
+      kind_id: 29258
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 3852
+      blob_id: 322772
+      debug: fc-title-trial:fceumm:rom-asset=29240:frame=1200:region=PAL
+- release:
+    id: 29259
+    game_id: 16735
+  names:
+  - id: 68313
+    kind: 3
+    kind_id: 29259
+    language: 2
+    name: 神奇钢琴教学系统 (法版) (其他)-Miracle Piano Teaching System, The (France)
+  - id: 68314
+    kind: 3
+    kind_id: 29259
+    language: 1
+    name: Miracle Piano Teaching System, The (F)
+    deprecated: 1
+  - id: 260982
+    kind: 3
+    kind_id: 29259
+    language: 1
+    name: Miracle Piano Teaching System, The (France)
+    source: no-intro
+  assets:
+  - asset:
+      id: 29241
+      kind: 3
+      kind_id: 29259
+      type: 1
+      name: Miracle Piano Teaching System, The (France).nes
+      format: 1
+      size: 327696
+      blob_id: 73477
+      debug: |-
+        神奇钢琴教学系统 (法版) (其他)-Miracle Piano Teaching System, The (France) + Miracle Piano Teaching System, The (F).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=acc9c9eb5defda865cb84bb6057d739ea4cfe5e0
+  - asset:
+      id: 139115
+      kind: 3
+      kind_id: 29259
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Miracle%20Piano%20Teaching%20System%2C%20The%20%28France%29.png
+      format: 1
+      size: 2564
+      blob_id: 324581
+      debug: libretro-named-titles:rom-asset=29241:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Miracle%20Piano%20Teaching%20System%2C%20The%20%28France%29.png

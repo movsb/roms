@@ -2,6 +2,11 @@ game:
   id: 30403
   platform_id: 2
 names:
+- id: 34663
+  kind: 2
+  kind_id: 30403
+  language: 1
+  name: Mahjong World (Sachen) [U][!]
 - id: 93712
   kind: 2
   kind_id: 30403
@@ -13,6 +18,12 @@ names:
   language: 1
   name: Mahjong World
   deprecated: 1
+- id: 248122
+  kind: 2
+  kind_id: 30403
+  language: 2
+  name: 麻将世界
+  source: codex
 - id: 263719
   kind: 2
   kind_id: 30403
@@ -20,6 +31,37 @@ names:
   name: Mahjong World, The
   source: no-intro
 releases:
+- release:
+    id: 15615
+    game_id: 30403
+  names:
+  - id: 34664
+    kind: 3
+    kind_id: 15615
+    language: 1
+    name: Mahjong World (Sachen) [U][!]
+  assets:
+  - asset:
+      id: 15597
+      kind: 3
+      kind_id: 15615
+      type: 1
+      name: Mahjong World (Sachen) [U][!].nes
+      format: 1
+      size: 131171
+      blob_id: 61299
+      debug: Mahjong World (Sachen) [U][!].zip
+  - asset:
+      id: 137086
+      kind: 3
+      kind_id: 15615
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 3653
+      blob_id: 322737
+      debug: fc-title-trial:fceumm:rom-asset=15597:frame=1200
 - release:
     id: 30403
     game_id: 30403

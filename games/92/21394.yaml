@@ -2,6 +2,12 @@ game:
   id: 21394
   platform_id: 2
 names:
+- id: 61998
+  kind: 2
+  kind_id: 21394
+  language: 1
+  name: Snake's Revenge (E) [!]
+  deprecated: 1
 - id: 62001
   kind: 2
   kind_id: 21394
@@ -203,6 +209,51 @@ releases:
       debug: |-
         Snake's Revenge (U) [t3].nes
         合金装备2_2.zip
+- release:
+    id: 27371
+    game_id: 21394
+  names:
+  - id: 61999
+    kind: 3
+    kind_id: 27371
+    language: 2
+    name: 史耐克的复仇 (欧版) (动作)-Snakes Revenge (Europe)
+  - id: 62000
+    kind: 3
+    kind_id: 27371
+    language: 1
+    name: Snake's Revenge (E) [!]
+    deprecated: 1
+  - id: 260224
+    kind: 3
+    kind_id: 27371
+    language: 1
+    name: Snake's Revenge (Europe)
+    source: no-intro
+  assets:
+  - asset:
+      id: 27353
+      kind: 3
+      kind_id: 27371
+      type: 1
+      name: Snake's Revenge (Europe).nes
+      format: 1
+      size: 262160
+      blob_id: 72238
+      debug: |-
+        史耐克的复仇 (欧版) (动作)-Snakes Revenge (Europe) + Snake's Revenge (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=3dfefea7715fc08ac6d0a983ca922366522f1b28
+  - asset:
+      id: 137612
+      kind: 3
+      kind_id: 27371
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 2543
+      blob_id: 323241
+      debug: fc-title-trial:fceumm:rom-asset=27353:frame=180:region=PAL
 - release:
     id: 27380
     game_id: 21394

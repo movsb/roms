@@ -7,6 +7,17 @@ names:
   kind_id: 15351
   language: 1
   name: Low G Man (U)
+- id: 61863
+  kind: 2
+  kind_id: 15351
+  language: 2
+  name: "反重力战士 (动作)-Low G Man - The Low Gravity Man"
+- id: 61864
+  kind: 2
+  kind_id: 15351
+  language: 1
+  name: "Low G Man - The Low Gravity Man (E) [!]"
+  deprecated: 1
 - id: 61867
   kind: 2
   kind_id: 15351
@@ -154,3 +165,46 @@ releases:
       size: 262160
       blob_id: 61060
       debug: "Low G Man - The Low Gravity Man (U) [t1].nes"
+- release:
+    id: 27332
+    game_id: 15351
+  names:
+  - id: 61865
+    kind: 3
+    kind_id: 27332
+    language: 2
+    name: "反重力战士 (欧版) (动作)-Low G Man - The Low Gravity Man (Europe)"
+  - id: 61866
+    kind: 3
+    kind_id: 27332
+    language: 1
+    name: "Low G Man - The Low Gravity Man (E) [!]"
+    deprecated: 1
+  - id: 260206
+    kind: 3
+    kind_id: 27332
+    language: 1
+    name: "Low G Man - The Low Gravity Man (Europe)"
+    source: no-intro
+  assets:
+  - asset:
+      id: 27314
+      kind: 3
+      kind_id: 27332
+      type: 1
+      name: "Low G Man - The Low Gravity Man (Europe).nes"
+      format: 1
+      size: 262160
+      blob_id: 72212
+      debug: "反重力战士 (欧版) (动作)-Low G Man - The Low Gravity Man (Europe) + Low G Man - The Low Gravity Man (E) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=9d0cdadb035f8ca61f4555b30ae0b8551a4188d6"
+  - asset:
+      id: 137607
+      kind: 3
+      kind_id: 27332
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 2810
+      blob_id: 323237
+      debug: fc-title-trial:fceumm:rom-asset=27314:frame=1200:region=PAL

@@ -2,6 +2,17 @@ game:
   id: 23527
   platform_id: 2
 names:
+- id: 61979
+  kind: 2
+  kind_id: 23527
+  language: 2
+  name: 台湾麻雀[Sachen]
+- id: 61980
+  kind: 2
+  kind_id: 23527
+  language: 1
+  name: Taiwan Mahjong 16 (Sachen) [!]
+  deprecated: 1
 - id: 93312
   kind: 2
   kind_id: 23527
@@ -13,6 +24,12 @@ names:
   language: 2
   name: 台湾麻将16
   source: codex
+- id: 262626
+  kind: 2
+  kind_id: 23527
+  language: 1
+  name: Taiwan 16 Maque
+  source: no-intro
 releases:
 - release:
     id: 23527
@@ -114,3 +131,48 @@ releases:
       size: 65552
       blob_id: 68813
       debug: Taiwan Mahjong 16 (Sachen) [p1].nes
+- release:
+    id: 27366
+    game_id: 23527
+  names:
+  - id: 61981
+    kind: 3
+    kind_id: 27366
+    language: 2
+    name: 台湾麻雀[Sachen]
+  - id: 61982
+    kind: 3
+    kind_id: 27366
+    language: 1
+    name: Taiwan Mahjong 16 (Sachen) [!]
+    deprecated: 1
+  - id: 260219
+    kind: 3
+    kind_id: 27366
+    language: 1
+    name: Taiwan 16 Maque (Taiwan) (Unl)
+    source: no-intro
+  assets:
+  - asset:
+      id: 27348
+      kind: 3
+      kind_id: 27366
+      type: 1
+      name: Taiwan 16 Maque (Taiwan) (Unl).nes
+      format: 1
+      size: 49168
+      blob_id: 72233
+      debug: |-
+        台湾麻雀[Sachen] + Taiwan Mahjong 16 (Sachen) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=5239eeced4510ef3d540dd39d629d9e7c5e55251
+  - asset:
+      id: 137611
+      kind: 3
+      kind_id: 27366
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 2713
+      blob_id: 323027
+      debug: fc-title-trial:fceumm:rom-asset=27348:frame=600

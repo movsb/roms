@@ -2,6 +2,17 @@ game:
   id: 18520
   platform_id: 2
 names:
+- id: 70387
+  kind: 2
+  kind_id: 18520
+  language: 2
+  name: 超越地平线 (射击)-Over Horizon
+- id: 70388
+  kind: 2
+  kind_id: 18520
+  language: 1
+  name: Over Horizon (J)
+  deprecated: 1
 - id: 92681
   kind: 2
   kind_id: 18520
@@ -74,3 +85,48 @@ releases:
       size: 262160
       blob_id: 64078
       debug: Over Horizon (J) [p1].nes
+- release:
+    id: 29872
+    game_id: 18520
+  names:
+  - id: 70389
+    kind: 3
+    kind_id: 29872
+    language: 2
+    name: 超越地平线 (日版) (射击)-Over Horizon (Japan)
+  - id: 70390
+    kind: 3
+    kind_id: 29872
+    language: 1
+    name: Over Horizon (J)
+    deprecated: 1
+  - id: 261212
+    kind: 3
+    kind_id: 29872
+    language: 1
+    name: Over Horizon (Japan) (En)
+    source: no-intro
+  assets:
+  - asset:
+      id: 29854
+      kind: 3
+      kind_id: 29872
+      type: 1
+      name: Over Horizon (Japan) (En).nes
+      format: 1
+      size: 262160
+      blob_id: 73849
+      debug: |-
+        超越地平线 (日版) (射击)-Over Horizon (Japan) + Over Horizon (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=b67a9787ba2c9f9c8f1b4ae202429948d1e70032
+  - asset:
+      id: 139194
+      kind: 3
+      kind_id: 29872
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Over%20Horizon%20%28Japan%29.png
+      format: 1
+      size: 2409
+      blob_id: 324657
+      debug: libretro-named-titles:rom-asset=29854:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Over%20Horizon%20%28Japan%29.png

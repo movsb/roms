@@ -7,6 +7,12 @@ names:
   kind_id: 21383
   language: 2
   name: 双蛇城
+- id: 62124
+  kind: 2
+  kind_id: 21383
+  language: 1
+  name: Snake Rattle N Roll (E) [!]
+  deprecated: 1
 - id: 62127
   kind: 2
   kind_id: 21383
@@ -122,3 +128,48 @@ releases:
       debug: |-
         Snake Rattle N Roll (U) [t2].nes
         双蛇城_2.zip
+- release:
+    id: 27413
+    game_id: 21383
+  names:
+  - id: 62125
+    kind: 3
+    kind_id: 27413
+    language: 2
+    name: 响尾蛇与大蟒蛇 (欧版) (益智)-Snake Rattle n Roll (Europe)
+  - id: 62126
+    kind: 3
+    kind_id: 27413
+    language: 1
+    name: Snake Rattle N Roll (E) [!]
+    deprecated: 1
+  - id: 260237
+    kind: 3
+    kind_id: 27413
+    language: 1
+    name: Snake Rattle n Roll (Europe)
+    source: no-intro
+  assets:
+  - asset:
+      id: 27395
+      kind: 3
+      kind_id: 27413
+      type: 1
+      name: Snake Rattle n Roll (Europe).nes
+      format: 1
+      size: 65552
+      blob_id: 72267
+      debug: |-
+        响尾蛇与大蟒蛇 (欧版) (益智)-Snake Rattle n Roll (Europe) + Snake Rattle N Roll (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=4ad06ed3fcab7cfebc7dc23e75c7b599928a889a
+  - asset:
+      id: 137614
+      kind: 3
+      kind_id: 27413
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 3103
+      blob_id: 323243
+      debug: fc-title-trial:fceumm:rom-asset=27395:frame=900:region=PAL

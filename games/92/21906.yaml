@@ -7,6 +7,12 @@ names:
   kind_id: 21906
   language: 2
   name: 星际战士
+- id: 65742
+  kind: 2
+  kind_id: 21906
+  language: 1
+  name: Star Soldier (J) [!]
+  deprecated: 1
 - id: 65745
   kind: 2
   kind_id: 21906
@@ -243,3 +249,48 @@ releases:
       size: 65552
       blob_id: 67278
       debug: Star Soldier (U) [t4].nes
+- release:
+    id: 28500
+    game_id: 21906
+  names:
+  - id: 65743
+    kind: 3
+    kind_id: 28500
+    language: 2
+    name: 星际战机 (日版) (射击)-Star Soldier (Japan)
+  - id: 65744
+    kind: 3
+    kind_id: 28500
+    language: 1
+    name: Star Soldier (J) [!]
+    deprecated: 1
+  - id: 260669
+    kind: 3
+    kind_id: 28500
+    language: 1
+    name: Star Soldier (Japan)
+    source: no-intro
+  assets:
+  - asset:
+      id: 28482
+      kind: 3
+      kind_id: 28500
+      type: 1
+      name: Star Soldier (Japan).nes
+      format: 1
+      size: 65552
+      blob_id: 72986
+      debug: |-
+        星际战机 (日版) (射击)-Star Soldier (Japan) + Star Soldier (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=f6d26fd9c06ec1637b44881287dc1115d6f5f4c9
+  - asset:
+      id: 137778
+      kind: 3
+      kind_id: 28500
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 5553
+      blob_id: 323391
+      debug: fc-title-trial:fceumm:rom-asset=28482:frame=180

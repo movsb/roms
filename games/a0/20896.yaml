@@ -2,6 +2,17 @@ game:
   id: 20896
   platform_id: 2
 names:
+- id: 58947
+  kind: 2
+  kind_id: 20896
+  language: 2
+  name: Z 基地 (射击)-Section-Z
+- id: 58948
+  kind: 2
+  kind_id: 20896
+  language: 1
+  name: Section-Z (E) [!]
+  deprecated: 1
 - id: 59453
   kind: 2
   kind_id: 20896
@@ -19,6 +30,12 @@ names:
   language: 1
   name: Section Z
   deprecated: 1
+- id: 248516
+  kind: 2
+  kind_id: 20896
+  language: 2
+  name: Z区
+  source: codex
 - id: 262095
   kind: 2
   kind_id: 20896
@@ -85,3 +102,68 @@ releases:
       size: 1950
       blob_id: 322930
       debug: fc-title-trial:fceumm:rom-asset=20878:frame=180
+- release:
+    id: 20903
+    game_id: 20896
+  names:
+  - id: 46582
+    kind: 3
+    kind_id: 20903
+    language: 1
+    name: Section-Z (U) [t1]
+  assets:
+  - asset:
+      id: 20885
+      kind: 3
+      kind_id: 20903
+      type: 1
+      name: Section-Z (U) [t1].nes
+      format: 1
+      size: 131088
+      blob_id: 66327
+      debug: Section-Z (U) [t1].nes
+- release:
+    id: 26370
+    game_id: 20896
+  names:
+  - id: 58949
+    kind: 3
+    kind_id: 26370
+    language: 2
+    name: Z 基地 (欧版) (射击)-Section-Z (Europe)
+  - id: 58950
+    kind: 3
+    kind_id: 26370
+    language: 1
+    name: Section-Z (E) [!]
+    deprecated: 1
+  - id: 259869
+    kind: 3
+    kind_id: 26370
+    language: 1
+    name: Section-Z (Europe)
+    source: no-intro
+  assets:
+  - asset:
+      id: 26352
+      kind: 3
+      kind_id: 26370
+      type: 1
+      name: Section-Z (Europe).nes
+      format: 1
+      size: 131088
+      blob_id: 71500
+      debug: |-
+        Z 基地 (欧版) (射击)-Section-Z (Europe) + Section-Z (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=fe81f6b0eb309c5484e18fe1d0e859add29a8dbd
+  - asset:
+      id: 137499
+      kind: 3
+      kind_id: 26370
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 1761
+      blob_id: 323144
+      debug: fc-title-trial:fceumm:rom-asset=26352:frame=180:region=PAL

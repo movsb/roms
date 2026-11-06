@@ -2,6 +2,11 @@ game:
   id: 30087
   platform_id: 2
 names:
+- id: 47277
+  kind: 2
+  kind_id: 30087
+  language: 1
+  name: Silver Eagle (Sachen) [U][!]
 - id: 71111
   kind: 2
   kind_id: 30087
@@ -13,6 +18,12 @@ names:
   language: 1
   name: Silver Eagle (Sachen) [!]
   deprecated: 1
+- id: 248568
+  kind: 2
+  kind_id: 30087
+  language: 2
+  name: 银鹰
+  source: codex
 - id: 263603
   kind: 2
   kind_id: 30087
@@ -20,6 +31,37 @@ names:
   name: Silver Eagle
   source: no-intro
 releases:
+- release:
+    id: 21218
+    game_id: 30087
+  names:
+  - id: 47278
+    kind: 3
+    kind_id: 21218
+    language: 1
+    name: Silver Eagle (Sachen) [U][!]
+  assets:
+  - asset:
+      id: 21200
+      kind: 3
+      kind_id: 21218
+      type: 1
+      name: Silver Eagle (Sachen) [U][!].nes
+      format: 1
+      size: 262270
+      blob_id: 66618
+      debug: Silver Eagle (Sachen) [U][!].zip
+  - asset:
+      id: 137303
+      kind: 3
+      kind_id: 21218
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 3447
+      blob_id: 322949
+      debug: fc-title-trial:fceumm:rom-asset=21200:frame=2400
 - release:
     id: 30087
     game_id: 30087

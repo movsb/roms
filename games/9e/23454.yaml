@@ -2,6 +2,23 @@ game:
   id: 23454
   platform_id: 2
 names:
+- id: 63424
+  kind: 2
+  kind_id: 23454
+  language: 1
+  name: Swords and Serpents (E) [!]
+  deprecated: 1
+- id: 63427
+  kind: 2
+  kind_id: 23454
+  language: 2
+  name: 宝剑与毒蛇 (法版) (角色扮演)-Swords and Serpents
+- id: 63428
+  kind: 2
+  kind_id: 23454
+  language: 1
+  name: Swords and Serpents (F) [!]
+  deprecated: 1
 - id: 63431
   kind: 2
   kind_id: 23454
@@ -111,3 +128,93 @@ releases:
       size: 2654
       blob_id: 324205
       debug: libretro-named-titles:rom-asset=23441:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Swords%20and%20Serpents%20%28USA%29.png
+- release:
+    id: 27796
+    game_id: 23454
+  names:
+  - id: 63425
+    kind: 3
+    kind_id: 27796
+    language: 2
+    name: 宝剑与毒蛇 (欧版) (角色扮演)-Swords and Serpents (Europe)
+  - id: 63426
+    kind: 3
+    kind_id: 27796
+    language: 1
+    name: Swords and Serpents (E) [!]
+    deprecated: 1
+  - id: 260388
+    kind: 3
+    kind_id: 27796
+    language: 1
+    name: Swords and Serpents (Europe)
+    source: no-intro
+  assets:
+  - asset:
+      id: 27778
+      kind: 3
+      kind_id: 27796
+      type: 1
+      name: Swords and Serpents (Europe).nes
+      format: 1
+      size: 131088
+      blob_id: 72522
+      debug: |-
+        宝剑与毒蛇 (欧版) (角色扮演)-Swords and Serpents (Europe) + Swords and Serpents (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=0708f250dc4093edd4b715f660e2f67b5777cbcd
+  - asset:
+      id: 137671
+      kind: 3
+      kind_id: 27796
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 3947
+      blob_id: 323021
+      debug: fc-title-trial:fceumm:rom-asset=27778:frame=300:region=PAL
+- release:
+    id: 27797
+    game_id: 23454
+  names:
+  - id: 63429
+    kind: 3
+    kind_id: 27797
+    language: 2
+    name: 宝剑与毒蛇 (法版) (角色扮演)-Swords and Serpents (France)
+  - id: 63430
+    kind: 3
+    kind_id: 27797
+    language: 1
+    name: Swords and Serpents (F) [!]
+    deprecated: 1
+  - id: 260389
+    kind: 3
+    kind_id: 27797
+    language: 1
+    name: Swords and Serpents (France)
+    source: no-intro
+  assets:
+  - asset:
+      id: 27779
+      kind: 3
+      kind_id: 27797
+      type: 1
+      name: Swords and Serpents (France).nes
+      format: 1
+      size: 131088
+      blob_id: 72523
+      debug: |-
+        宝剑与毒蛇 (法版) (角色扮演)-Swords and Serpents (France) + Swords and Serpents (F) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=c8293d5632795058bfe3e987b471710b2f8d69f1
+  - asset:
+      id: 137672
+      kind: 3
+      kind_id: 27797
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 3947
+      blob_id: 323021
+      debug: fc-title-trial:fceumm:rom-asset=27779:frame=300:region=PAL

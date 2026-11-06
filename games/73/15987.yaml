@@ -2,6 +2,17 @@ game:
   id: 15987
   platform_id: 2
 names:
+- id: 71785
+  kind: 2
+  kind_id: 15987
+  language: 2
+  name: 魔天童子 (动作)-Matendouji
+- id: 71786
+  kind: 2
+  kind_id: 15987
+  language: 1
+  name: Matendouji (J)
+  deprecated: 1
 - id: 92442
   kind: 2
   kind_id: 15987
@@ -64,3 +75,48 @@ releases:
 - release:
     id: 15991
     game_id: 15987
+- release:
+    id: 30292
+    game_id: 15987
+  names:
+  - id: 71787
+    kind: 3
+    kind_id: 30292
+    language: 2
+    name: 魔天童子 (日版) (动作)-Matendouji (Japan)
+  - id: 71788
+    kind: 3
+    kind_id: 30292
+    language: 1
+    name: Matendouji (J)
+    deprecated: 1
+  - id: 261383
+    kind: 3
+    kind_id: 30292
+    language: 1
+    name: Matendouji (Japan)
+    source: no-intro
+  assets:
+  - asset:
+      id: 30274
+      kind: 3
+      kind_id: 30292
+      type: 1
+      name: Matendouji (Japan).nes
+      format: 1
+      size: 262160
+      blob_id: 74118
+      debug: |-
+        魔天童子 (日版) (动作)-Matendouji (Japan) + Matendouji (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=afb025637bfa3d3fdfa1aa8d5af9f9d118d809af
+  - asset:
+      id: 139257
+      kind: 3
+      kind_id: 30292
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Matendouji%20%28Japan%29.png
+      format: 1
+      size: 2614
+      blob_id: 324715
+      debug: libretro-named-titles:rom-asset=30274:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Matendouji%20%28Japan%29.png

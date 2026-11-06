@@ -2,6 +2,23 @@ game:
   id: 21589
   platform_id: 2
 names:
+- id: 68385
+  kind: 2
+  kind_id: 21589
+  language: 2
+  name: 秘境魔宝 (动作角色扮演)-Solstice
+- id: 68386
+  kind: 2
+  kind_id: 21589
+  language: 1
+  name: Solstice (J)
+  deprecated: 1
+- id: 68390
+  kind: 2
+  kind_id: 21589
+  language: 1
+  name: Solstice (E) [!]
+  deprecated: 1
 - id: 68393
   kind: 2
   kind_id: 21589
@@ -12,6 +29,16 @@ names:
   kind_id: 21589
   language: 1
   name: "Solstice - The Quest for the Staff of Demnos (U) [!]"
+- id: 68397
+  kind: 2
+  kind_id: 21589
+  language: 2
+  name: "秘境魔宝(Beta) (动作角色扮演)-Solstice - The Quest for the Staff of Demnos (Beta)"
+- id: 68398
+  kind: 2
+  kind_id: 21589
+  language: 1
+  name: "Solstice - The Quest for the Staff of Demnos (U) (Prototype)"
 - id: 69137
   kind: 2
   kind_id: 21589
@@ -33,6 +60,12 @@ names:
   language: 2
   name: 至点
   source: codex
+- id: 263317
+  kind: 2
+  kind_id: 21589
+  language: 1
+  name: "Solstice - Sanjigen Meikyuu no Kyoujuu"
+  source: no-intro
 releases:
 - release:
     id: 21589
@@ -222,3 +255,116 @@ releases:
       size: 131088
       blob_id: 66974
       debug: "Solstice - The Quest for the Staff of Demnos (U) [t1].nes"
+- release:
+    id: 29280
+    game_id: 21589
+  names:
+  - id: 68387
+    kind: 3
+    kind_id: 29280
+    language: 2
+    name: 秘境魔宝 (日版) (动作角色扮演)-Solstice (Japan)
+  - id: 68388
+    kind: 3
+    kind_id: 29280
+    language: 1
+    name: Solstice (J)
+    deprecated: 1
+  - id: 260990
+    kind: 3
+    kind_id: 29280
+    language: 1
+    name: "Solstice - Sanjigen Meikyuu no Kyoujuu (Japan)"
+    source: no-intro
+  assets:
+  - asset:
+      id: 29262
+      kind: 3
+      kind_id: 29280
+      type: 1
+      name: "Solstice - Sanjigen Meikyuu no Kyoujuu (Japan).nes"
+      format: 1
+      size: 131088
+      blob_id: 73488
+      debug: |-
+        秘境魔宝 (日版) (动作角色扮演)-Solstice (Japan) + Solstice (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=758c9ec51d442db2c02c4fb37a9aaa37cc8f6b05
+  - asset:
+      id: 139118
+      kind: 3
+      kind_id: 29280
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Solstice%20%28Japan%29.png
+      format: 1
+      size: 3258
+      blob_id: 324584
+      debug: libretro-named-titles:rom-asset=29262:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Solstice%20%28Japan%29.png
+- release:
+    id: 29281
+    game_id: 21589
+  names:
+  - id: 68391
+    kind: 3
+    kind_id: 29281
+    language: 2
+    name: "秘境魔宝 (欧版) (动作角色扮演)-Solstice - The Quest for the Staff of Demnos (Europe)"
+  - id: 68392
+    kind: 3
+    kind_id: 29281
+    language: 1
+    name: Solstice (E) [!]
+    deprecated: 1
+  - id: 260991
+    kind: 3
+    kind_id: 29281
+    language: 1
+    name: "Solstice - The Quest for the Staff of Demnos (Europe)"
+    source: no-intro
+  assets:
+  - asset:
+      id: 29263
+      kind: 3
+      kind_id: 29281
+      type: 1
+      name: "Solstice - The Quest for the Staff of Demnos (Europe).nes"
+      format: 1
+      size: 131088
+      blob_id: 73489
+      debug: "秘境魔宝 (欧版) (动作角色扮演)-Solstice - The Quest for the Staff of Demnos (Europe) + Solstice (E) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=761ba83f7e90c11f8fbe35aec510d33d8bb6f024"
+  - asset:
+      id: 137905
+      kind: 3
+      kind_id: 29281
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 5097
+      blob_id: 323499
+      debug: fc-title-trial:fceumm:rom-asset=29263:frame=900:region=PAL
+- release:
+    id: 29283
+    game_id: 21589
+  names:
+  - id: 68399
+    kind: 3
+    kind_id: 29283
+    language: 2
+    name: "秘境魔宝 (美版)(Beta) (动作角色扮演)-Solstice - The Quest for the Staff of Demnos (USA) (Beta)"
+  - id: 68400
+    kind: 3
+    kind_id: 29283
+    language: 1
+    name: "Solstice - The Quest for the Staff of Demnos (U) (Prototype)"
+  assets:
+  - asset:
+      id: 29265
+      kind: 3
+      kind_id: 29283
+      type: 1
+      name: "秘境魔宝 (美版)(Beta) (动作角色扮演)-Solstice - The Quest for the Staff of Demnos (USA) (Beta) + Solstice - The Quest for the Staff of Demnos (U) (Prototype).nes"
+      format: 1
+      size: 131088
+      blob_id: 73490
+      debug: "秘境魔宝 (美版)(Beta) (动作角色扮演)-Solstice - The Quest for the Staff of Demnos (USA) (Beta) + Solstice - The Quest for the Staff of Demnos (U) (Prototype).nes"

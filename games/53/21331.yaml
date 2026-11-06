@@ -7,6 +7,12 @@ names:
   kind_id: 21331
   language: 2
   name: 天堂鸟 (射击)-Sky Kid
+- id: 63004
+  kind: 2
+  kind_id: 21331
+  language: 1
+  name: Sky Kid (U) [!]
+  deprecated: 1
 - id: 93044
   kind: 2
   kind_id: 21331
@@ -171,3 +177,48 @@ releases:
       size: 1955
       blob_id: 324377
       debug: libretro-named-titles:rom-asset=27658:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Sky%20Kid%20%28Japan%29.png
+- release:
+    id: 27677
+    game_id: 21331
+  names:
+  - id: 63005
+    kind: 3
+    kind_id: 27677
+    language: 2
+    name: 天堂鸟 (美版) (射击)-Sky Kid (USA)
+  - id: 63006
+    kind: 3
+    kind_id: 27677
+    language: 1
+    name: Sky Kid (U) [!]
+    deprecated: 1
+  - id: 260335
+    kind: 3
+    kind_id: 27677
+    language: 1
+    name: Sky Kid (USA)
+    source: no-intro
+  assets:
+  - asset:
+      id: 27659
+      kind: 3
+      kind_id: 27677
+      type: 1
+      name: Sky Kid (USA).nes
+      format: 1
+      size: 163856
+      blob_id: 72446
+      debug: |-
+        天堂鸟 (美版) (射击)-Sky Kid (USA) + Sky Kid (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=84ca9a06b01c4e2ebeb46c73df2f270ff5439986
+  - asset:
+      id: 137648
+      kind: 3
+      kind_id: 27677
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 3803
+      blob_id: 323275
+      debug: fc-title-trial:nestopia:rom-asset=27659:frame=6000:start-frame=600

@@ -2,6 +2,12 @@ game:
   id: 20074
   platform_id: 2
 names:
+- id: 68706
+  kind: 2
+  kind_id: 20074
+  language: 1
+  name: Rockin' Kats (E) [!]
+  deprecated: 1
 - id: 68709
   kind: 2
   kind_id: 20074
@@ -164,3 +170,48 @@ releases:
       size: 262160
       blob_id: 65535
       debug: Rockin' Kats (U) [t1].nes
+- release:
+    id: 29373
+    game_id: 20074
+  names:
+  - id: 68707
+    kind: 3
+    kind_id: 29373
+    language: 2
+    name: 纽约摇滚猫 (欧版) (动作)-Rockin Kats (Europe)
+  - id: 68708
+    kind: 3
+    kind_id: 29373
+    language: 1
+    name: Rockin' Kats (E) [!]
+    deprecated: 1
+  - id: 261029
+    kind: 3
+    kind_id: 29373
+    language: 1
+    name: Rockin' Kats (Europe)
+    source: no-intro
+  assets:
+  - asset:
+      id: 29355
+      kind: 3
+      kind_id: 29373
+      type: 1
+      name: Rockin' Kats (Europe).nes
+      format: 1
+      size: 262160
+      blob_id: 73550
+      debug: |-
+        纽约摇滚猫 (欧版) (动作)-Rockin Kats (Europe) + Rockin' Kats (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=bd0cecb9a5b7b1a9b8164332cc154f4e64992927
+  - asset:
+      id: 137920
+      kind: 3
+      kind_id: 29373
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 3732
+      blob_id: 323514
+      debug: fc-title-trial:fceumm:rom-asset=29355:frame=300:region=PAL

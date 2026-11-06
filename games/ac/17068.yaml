@@ -2,6 +2,17 @@ game:
   id: 17068
   platform_id: 2
 names:
+- id: 65327
+  kind: 2
+  kind_id: 17068
+  language: 2
+  name: 摩托车越野锦标赛 (竞赛)-Motocross Champion
+- id: 65328
+  kind: 2
+  kind_id: 17068
+  language: 1
+  name: Motocross Champion (J)
+  deprecated: 1
 - id: 92570
   kind: 2
   kind_id: 17068
@@ -93,3 +104,48 @@ releases:
   release_publishers:
   - release_id: 17074
     publisher_id: 2
+- release:
+    id: 28377
+    game_id: 17068
+  names:
+  - id: 65329
+    kind: 3
+    kind_id: 28377
+    language: 2
+    name: 摩托车越野锦标赛 (日版) (竞赛)-Motocross Champion (Japan)
+  - id: 65330
+    kind: 3
+    kind_id: 28377
+    language: 1
+    name: Motocross Champion (J)
+    deprecated: 1
+  - id: 260611
+    kind: 3
+    kind_id: 28377
+    language: 1
+    name: Motocross Champion (Japan)
+    source: no-intro
+  assets:
+  - asset:
+      id: 28359
+      kind: 3
+      kind_id: 28377
+      type: 1
+      name: Motocross Champion (Japan).nes
+      format: 1
+      size: 262160
+      blob_id: 72902
+      debug: |-
+        摩托车越野锦标赛 (日版) (竞赛)-Motocross Champion (Japan) + Motocross Champion (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=6d2c083ac45a7a0a1f7e7754875f8e6a993b7c17
+  - asset:
+      id: 138998
+      kind: 3
+      kind_id: 28377
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Motocross%20Champion%20%28Japan%29.png
+      format: 1
+      size: 1552
+      blob_id: 324471
+      debug: libretro-named-titles:rom-asset=28359:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Motocross%20Champion%20%28Japan%29.png

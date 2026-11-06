@@ -7,6 +7,12 @@ names:
   kind_id: 18669
   language: 2
   name: 帕拉米狄斯方块
+- id: 65776
+  kind: 2
+  kind_id: 18669
+  language: 1
+  name: Palamedes (J)
+  deprecated: 1
 - id: 65779
   kind: 2
   kind_id: 18669
@@ -102,3 +108,48 @@ releases:
       size: 2528
       blob_id: 322823
       debug: fc-title-trial:fceumm:rom-asset=18654:frame=900
+- release:
+    id: 28509
+    game_id: 18669
+  names:
+  - id: 65777
+    kind: 3
+    kind_id: 28509
+    language: 2
+    name: 智慧方块 (日版) (益智)-Palamedes (Japan)
+  - id: 65778
+    kind: 3
+    kind_id: 28509
+    language: 1
+    name: Palamedes (J)
+    deprecated: 1
+  - id: 260674
+    kind: 3
+    kind_id: 28509
+    language: 1
+    name: Palamedes (Japan)
+    source: no-intro
+  assets:
+  - asset:
+      id: 28491
+      kind: 3
+      kind_id: 28509
+      type: 1
+      name: Palamedes (Japan).nes
+      format: 1
+      size: 65552
+      blob_id: 72992
+      debug: |-
+        智慧方块 (日版) (益智)-Palamedes (Japan) + Palamedes (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=65b6d12f3009c83110c2aeb18f3e3f439aa9dfa8
+  - asset:
+      id: 139022
+      kind: 3
+      kind_id: 28509
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Palamedes%20%28Japan%29.png
+      format: 1
+      size: 1390
+      blob_id: 324493
+      debug: libretro-named-titles:rom-asset=28491:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Palamedes%20%28Japan%29.png

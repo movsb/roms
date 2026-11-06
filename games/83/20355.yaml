@@ -7,6 +7,23 @@ names:
   kind_id: 20355
   language: 1
   name: Rollerball
+- id: 67114
+  kind: 2
+  kind_id: 20355
+  language: 1
+  name: Rollerball (J)
+  deprecated: 1
+- id: 67117
+  kind: 2
+  kind_id: 20355
+  language: 2
+  name: 滚转弹珠台 (澳洲版) (桌面平台)-Rollerball
+- id: 67118
+  kind: 2
+  kind_id: 20355
+  language: 1
+  name: Rollerball (A) [!]
+  deprecated: 1
 - id: 67121
   kind: 2
   kind_id: 20355
@@ -91,3 +108,93 @@ releases:
       size: 262288
       blob_id: 65804
       debug: Rollerball.zip
+- release:
+    id: 28899
+    game_id: 20355
+  names:
+  - id: 67115
+    kind: 3
+    kind_id: 28899
+    language: 2
+    name: 滚转弹珠台 (日版) (桌面平台)-Rollerball (Japan)
+  - id: 67116
+    kind: 3
+    kind_id: 28899
+    language: 1
+    name: Rollerball (J)
+    deprecated: 1
+  - id: 260854
+    kind: 3
+    kind_id: 28899
+    language: 1
+    name: Rollerball (Japan)
+    source: no-intro
+  assets:
+  - asset:
+      id: 28881
+      kind: 3
+      kind_id: 28899
+      type: 1
+      name: Rollerball (Japan).nes
+      format: 1
+      size: 163856
+      blob_id: 73250
+      debug: |-
+        滚转弹珠台 (日版) (桌面平台)-Rollerball (Japan) + Rollerball (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=e0e46c9071480f2bc9959e5a6f858561cb001168
+  - asset:
+      id: 139077
+      kind: 3
+      kind_id: 28899
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Rollerball%20%28Japan%29.png
+      format: 1
+      size: 3366
+      blob_id: 324546
+      debug: libretro-named-titles:rom-asset=28881:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Rollerball%20%28Japan%29.png
+- release:
+    id: 28900
+    game_id: 20355
+  names:
+  - id: 67119
+    kind: 3
+    kind_id: 28900
+    language: 2
+    name: 滚转弹珠台 (澳洲版) (桌面平台)-Rollerball (Australia)
+  - id: 67120
+    kind: 3
+    kind_id: 28900
+    language: 1
+    name: Rollerball (A) [!]
+    deprecated: 1
+  - id: 260855
+    kind: 3
+    kind_id: 28900
+    language: 1
+    name: Rollerball (Australia)
+    source: no-intro
+  assets:
+  - asset:
+      id: 28882
+      kind: 3
+      kind_id: 28900
+      type: 1
+      name: Rollerball (Australia).nes
+      format: 1
+      size: 163856
+      blob_id: 73251
+      debug: |-
+        滚转弹珠台 (澳洲版) (桌面平台)-Rollerball (Australia) + Rollerball (A) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=2ee025a0b953e9e9ac6241074173ed65a1cc4f07
+  - asset:
+      id: 139078
+      kind: 3
+      kind_id: 28900
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Rollerball%20%28Australia%29.png
+      format: 1
+      size: 3205
+      blob_id: 324547
+      debug: libretro-named-titles:rom-asset=28882:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Rollerball%20%28Australia%29.png

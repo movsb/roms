@@ -2,6 +2,27 @@ game:
   id: 16351
   platform_id: 2
 names:
+- id: 70603
+  kind: 2
+  kind_id: 16351
+  language: 2
+  name: 迷宫组曲 (动作)-Meikyuu Kumikyoku Milon no Daibouken
+- id: 70604
+  kind: 2
+  kind_id: 16351
+  language: 1
+  name: "Meikyuu Kumikyoku - Miron no Daibouken (J) [!]"
+  deprecated: 1
+- id: 70611
+  kind: 2
+  kind_id: 16351
+  language: 2
+  name: 迷宫组曲
+- id: 70612
+  kind: 2
+  kind_id: 16351
+  language: 1
+  name: "Meikyuu Kumikyoku - Miron no Daibouken (J) [f1]"
 - id: 92475
   kind: 2
   kind_id: 16351
@@ -13,6 +34,12 @@ names:
   language: 2
   name: 迷宫组曲：米龙大冒险
   source: codex
+- id: 263547
+  kind: 2
+  kind_id: 16351
+  language: 1
+  name: "Meikyuu Kumikyoku - Milon no Daibouken"
+  source: no-intro
 releases:
 - release:
     id: 16351
@@ -72,3 +99,71 @@ releases:
       size: 65552
       blob_id: 62010
       debug: "Meikyuu Kumikyoku - Miron no Daibouken (J) [p1].nes"
+- release:
+    id: 29938
+    game_id: 16351
+  names:
+  - id: 70605
+    kind: 3
+    kind_id: 29938
+    language: 2
+    name: 迷宫组曲 (日版) (动作)-Meikyuu Kumikyoku Milon no Daibouken (Japan)
+  - id: 70606
+    kind: 3
+    kind_id: 29938
+    language: 1
+    name: "Meikyuu Kumikyoku - Miron no Daibouken (J) [!]"
+    deprecated: 1
+  - id: 261237
+    kind: 3
+    kind_id: 29938
+    language: 1
+    name: "Meikyuu Kumikyoku - Milon no Daibouken (Japan)"
+    source: no-intro
+  assets:
+  - asset:
+      id: 29920
+      kind: 3
+      kind_id: 29938
+      type: 1
+      name: "Meikyuu Kumikyoku - Milon no Daibouken (Japan).nes"
+      format: 1
+      size: 65552
+      blob_id: 73891
+      debug: "迷宫组曲 (日版) (动作)-Meikyuu Kumikyoku Milon no Daibouken (Japan) + Meikyuu Kumikyoku - Miron no Daibouken (J) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=14207dec7078cec02df4b11bb44e1e5e648a28f7"
+  - asset:
+      id: 138014
+      kind: 3
+      kind_id: 29938
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 4083
+      blob_id: 323592
+      debug: fc-title-trial:fceumm:rom-asset=29920:frame=300
+- release:
+    id: 29940
+    game_id: 16351
+  names:
+  - id: 70613
+    kind: 3
+    kind_id: 29940
+    language: 2
+    name: 迷宫组曲
+  - id: 70614
+    kind: 3
+    kind_id: 29940
+    language: 1
+    name: "Meikyuu Kumikyoku - Miron no Daibouken (J) [f1]"
+  assets:
+  - asset:
+      id: 29922
+      kind: 3
+      kind_id: 29940
+      type: 1
+      name: "迷宫组曲 + Meikyuu Kumikyoku - Miron no Daibouken (J) [f1].nes"
+      format: 1
+      size: 65552
+      blob_id: 73892
+      debug: "迷宫组曲 + Meikyuu Kumikyoku - Miron no Daibouken (J) [f1].nes"

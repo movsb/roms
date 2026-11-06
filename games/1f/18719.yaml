@@ -2,6 +2,17 @@ game:
   id: 18719
   platform_id: 2
 names:
+- id: 64125
+  kind: 2
+  kind_id: 18719
+  language: 2
+  name: 平行世界 (益智)-Parallel World
+- id: 64126
+  kind: 2
+  kind_id: 18719
+  language: 1
+  name: Parallel World (J)
+  deprecated: 1
 - id: 92709
   kind: 2
   kind_id: 18719
@@ -53,3 +64,48 @@ releases:
   release_publishers:
   - release_id: 18722
     publisher_id: 162
+- release:
+    id: 28002
+    game_id: 18719
+  names:
+  - id: 64127
+    kind: 3
+    kind_id: 28002
+    language: 2
+    name: 平行世界 (日版) (益智)-Parallel World (Japan)
+  - id: 64128
+    kind: 3
+    kind_id: 28002
+    language: 1
+    name: Parallel World (J)
+    deprecated: 1
+  - id: 260476
+    kind: 3
+    kind_id: 28002
+    language: 1
+    name: Parallel World (Japan)
+    source: no-intro
+  assets:
+  - asset:
+      id: 27984
+      kind: 3
+      kind_id: 28002
+      type: 1
+      name: Parallel World (Japan).nes
+      format: 1
+      size: 262160
+      blob_id: 72658
+      debug: |-
+        平行世界 (日版) (益智)-Parallel World (Japan) + Parallel World (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=3f9d54ef6d7a92d5a0a70c2bfca339486c90d95e
+  - asset:
+      id: 138948
+      kind: 3
+      kind_id: 28002
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Parallel%20World%20%28Japan%29.png
+      format: 1
+      size: 1937
+      blob_id: 324421
+      debug: libretro-named-titles:rom-asset=27984:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Parallel%20World%20%28Japan%29.png

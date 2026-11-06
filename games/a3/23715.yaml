@@ -7,6 +7,23 @@ names:
   kind_id: 23715
   language: 1
   name: "Transformers - Convoy no Nazo (Translated En)"
+- id: 56189
+  kind: 2
+  kind_id: 23715
+  language: 1
+  name: Transformers
+  deprecated: 1
+- id: 61881
+  kind: 2
+  kind_id: 23715
+  language: 2
+  name: "变形金刚 - 护航之谜 (动作)-Transformers - Comvoy no Nazo"
+- id: 61882
+  kind: 2
+  kind_id: 23715
+  language: 1
+  name: "Tatakae! Chou Robotto Seimeitai Transformers - Convoy no Nazo (J) [!]"
+  deprecated: 1
 - id: 81187
   kind: 2
   kind_id: 23715
@@ -23,6 +40,18 @@ names:
   language: 2
   name: 变形金刚：擎天柱之谜
   source: codex
+- id: 248807
+  kind: 2
+  kind_id: 23715
+  language: 2
+  name: 变形金刚
+  source: codex
+- id: 262257
+  kind: 2
+  kind_id: 23715
+  language: 1
+  name: "Tatakae! Chou Robot Seimeitai Transformers - Convoy no Nazo"
+  source: no-intro
 releases:
 - release:
     id: 23715
@@ -183,3 +212,86 @@ releases:
 - release:
     id: 25131
     game_id: 23715
+- release:
+    id: 25142
+    game_id: 23715
+  names:
+  - id: 56190
+    kind: 3
+    kind_id: 25142
+    language: 1
+    name: Transformers
+    deprecated: 1
+  - id: 259700
+    kind: 3
+    kind_id: 25142
+    language: 1
+    name: "Tatakae! Chou Robot Seimeitai Transformers - Convoy no Nazo (Japan)"
+    source: no-intro
+  assets:
+  - asset:
+      id: 25124
+      kind: 3
+      kind_id: 25142
+      type: 1
+      name: "Tatakae! Chou Robot Seimeitai Transformers - Convoy no Nazo (Japan).nes"
+      format: 1
+      size: 65552
+      blob_id: 70361
+      debug: |-
+        Transformers.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=57f9db2f47fce34c5ea255ba3a9105279d41215f
+  - asset:
+      id: 139863
+      kind: 3
+      kind_id: 25142
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Tatakae%21%20Chou%20Robot%20Seimeitai%20Transformers%20-%20Convoy%20no%20Nazo%20%28Japan%29.png
+      format: 1
+      size: 1555
+      blob_id: 325235
+      debug: libretro-named-titles:rom-asset=25124:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Tatakae%21%20Chou%20Robot%20Seimeitai%20Transformers%20-%20Convoy%20no%20Nazo%20%28Japan%29.png
+- release:
+    id: 27338
+    game_id: 23715
+  names:
+  - id: 61883
+    kind: 3
+    kind_id: 27338
+    language: 2
+    name: "变形金刚 - 护航之谜 (日版) (动作)-Transformers - Comvoy no Nazo (Japan)"
+  - id: 61884
+    kind: 3
+    kind_id: 27338
+    language: 1
+    name: "Tatakae! Chou Robotto Seimeitai Transformers - Convoy no Nazo (J) [!]"
+    deprecated: 1
+  - id: 260208
+    kind: 3
+    kind_id: 27338
+    language: 1
+    name: "Tatakae! Chou Robot Seimeitai Transformers - Convoy no Nazo (Japan)"
+    source: no-intro
+  assets:
+  - asset:
+      id: 27320
+      kind: 3
+      kind_id: 27338
+      type: 1
+      name: "Tatakae! Chou Robot Seimeitai Transformers - Convoy no Nazo (Japan).nes"
+      format: 1
+      size: 65552
+      blob_id: 72216
+      debug: "变形金刚 - 护航之谜 (日版) (动作)-Transformers - Comvoy no Nazo (Japan) + Tatakae! Chou Robotto Seimeitai Transformers - Convoy no Nazo (J) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=57f9db2f47fce34c5ea255ba3a9105279d41215f"
+  - asset:
+      id: 137609
+      kind: 3
+      kind_id: 27338
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 2559
+      blob_id: 323239
+      debug: fc-title-trial:fceumm:rom-asset=27320:frame=600

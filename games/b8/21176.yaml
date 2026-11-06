@@ -2,6 +2,28 @@ game:
   id: 21176
   platform_id: 2
 names:
+- id: 62131
+  kind: 2
+  kind_id: 21176
+  language: 2
+  name: "响尾蛇直升机 (亚洲版) (射击)-Sidewinder - Xiang Wei She (PAL) (Unl)"
+- id: 62132
+  kind: 2
+  kind_id: 21176
+  language: 1
+  name: Sidewinder (Sachen) [!]
+  deprecated: 1
+- id: 62135
+  kind: 2
+  kind_id: 21176
+  language: 2
+  name: 响尾蛇直升机 (澳洲版) (射击)-Sidewinder (Unl)
+- id: 62136
+  kind: 2
+  kind_id: 21176
+  language: 1
+  name: Sidewinder (HES) [!]
+  deprecated: 1
 - id: 93024
   kind: 2
   kind_id: 21176
@@ -65,3 +87,80 @@ releases:
       size: 3480
       blob_id: 322945
       debug: fc-title-trial:fceumm:rom-asset=21161:frame=1200
+- release:
+    id: 27415
+    game_id: 21176
+  names:
+  - id: 62133
+    kind: 3
+    kind_id: 27415
+    language: 2
+    name: "响尾蛇直升机 (亚洲版) (射击)-Sidewinder - Xiang Wei She (Asia) (PAL) (Unl)"
+  - id: 62134
+    kind: 3
+    kind_id: 27415
+    language: 1
+    name: Sidewinder (Sachen) [!]
+    deprecated: 1
+  - id: 260238
+    kind: 3
+    kind_id: 27415
+    language: 1
+    name: Sidewinder (Taiwan) (En) (Unl)
+    source: no-intro
+  assets:
+  - asset:
+      id: 27397
+      kind: 3
+      kind_id: 27415
+      type: 1
+      name: Sidewinder (Taiwan) (En) (Unl).nes
+      format: 1
+      size: 32784
+      blob_id: 72268
+      debug: "响尾蛇直升机 (亚洲版) (射击)-Sidewinder - Xiang Wei She (Asia) (PAL) (Unl) + Sidewinder (Sachen) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=2fb0401ea8249233efa399f305d83672d5600b4a"
+- release:
+    id: 27416
+    game_id: 21176
+  names:
+  - id: 62137
+    kind: 3
+    kind_id: 27416
+    language: 2
+    name: 响尾蛇直升机 (澳洲版) (射击)-Sidewinder (Australia) (Unl)
+  - id: 62138
+    kind: 3
+    kind_id: 27416
+    language: 1
+    name: Sidewinder (HES) [!]
+    deprecated: 1
+  - id: 260239
+    kind: 3
+    kind_id: 27416
+    language: 1
+    name: Sidewinder (Australia) (Unl)
+    source: no-intro
+  assets:
+  - asset:
+      id: 27398
+      kind: 3
+      kind_id: 27416
+      type: 1
+      name: Sidewinder (Australia) (Unl).nes
+      format: 1
+      size: 32784
+      blob_id: 72269
+      debug: |-
+        响尾蛇直升机 (澳洲版) (射击)-Sidewinder (Australia) (Unl) + Sidewinder (HES) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=b1cc3ed04c610be18742a3fd78a8f27a597f8549
+  - asset:
+      id: 140042
+      kind: 3
+      kind_id: 27416
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Sidewinder%20%28Australia%29%20%28Unl%29.png
+      format: 1
+      size: 1517
+      blob_id: 325386
+      debug: libretro-named-titles:rom-asset=27398:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Sidewinder%20%28Australia%29%20%28Unl%29.png

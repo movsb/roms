@@ -2,6 +2,12 @@ game:
   id: 23750
   platform_id: 2
 names:
+- id: 67648
+  kind: 2
+  kind_id: 23750
+  language: 1
+  name: Tecmo Bowl (J)
+  deprecated: 1
 - id: 67651
   kind: 2
   kind_id: 23750
@@ -12,6 +18,16 @@ names:
   kind_id: 23750
   language: 1
   name: Tecmo Bowl (U) (PRG0) [!]
+- id: 67655
+  kind: 2
+  kind_id: 23750
+  language: 2
+  name: 特库摩美式足球(Beta) (运动)-Tecmo Bowl (Beta)
+- id: 67656
+  kind: 2
+  kind_id: 23750
+  language: 1
+  name: Tecmo Bowl (U) (Prototype)
 - id: 67659
   kind: 2
   kind_id: 23750
@@ -175,3 +191,73 @@ releases:
       debug: |-
         Tecmo Bowl (U) (VC).nes
         no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=6e0456e1534e7d4f421ca960a44e1b14d9adadbc
+- release:
+    id: 29072
+    game_id: 23750
+  names:
+  - id: 67649
+    kind: 3
+    kind_id: 29072
+    language: 2
+    name: 特库摩美式足球 (日版) (运动)-Tecmo Bowl (Japan)
+  - id: 67650
+    kind: 3
+    kind_id: 29072
+    language: 1
+    name: Tecmo Bowl (J)
+    deprecated: 1
+  - id: 260899
+    kind: 3
+    kind_id: 29072
+    language: 1
+    name: Tecmo Bowl (Japan)
+    source: no-intro
+  assets:
+  - asset:
+      id: 29054
+      kind: 3
+      kind_id: 29072
+      type: 1
+      name: Tecmo Bowl (Japan).nes
+      format: 1
+      size: 262160
+      blob_id: 73359
+      debug: |-
+        特库摩美式足球 (日版) (运动)-Tecmo Bowl (Japan) + Tecmo Bowl (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=fa414894a761a6a7837edf8a032fbac05abc1249
+  - asset:
+      id: 139090
+      kind: 3
+      kind_id: 29072
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Tecmo%20Bowl%20%28Japan%29.png
+      format: 1
+      size: 1438
+      blob_id: 324558
+      debug: libretro-named-titles:rom-asset=29054:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Tecmo%20Bowl%20%28Japan%29.png
+- release:
+    id: 29074
+    game_id: 23750
+  names:
+  - id: 67657
+    kind: 3
+    kind_id: 29074
+    language: 2
+    name: 特库摩美式足球 (美版)(Beta) (运动)-Tecmo Bowl (USA) (Beta)
+  - id: 67658
+    kind: 3
+    kind_id: 29074
+    language: 1
+    name: Tecmo Bowl (U) (Prototype)
+  assets:
+  - asset:
+      id: 29056
+      kind: 3
+      kind_id: 29074
+      type: 1
+      name: 特库摩美式足球 (美版)(Beta) (运动)-Tecmo Bowl (USA) (Beta) + Tecmo Bowl (U) (Prototype).nes
+      format: 1
+      size: 262160
+      blob_id: 73360
+      debug: 特库摩美式足球 (美版)(Beta) (运动)-Tecmo Bowl (USA) (Beta) + Tecmo Bowl (U) (Prototype).nes

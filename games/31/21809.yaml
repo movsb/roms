@@ -2,6 +2,23 @@ game:
   id: 21809
   platform_id: 2
 names:
+- id: 67160
+  kind: 2
+  kind_id: 21809
+  language: 1
+  name: Sqoon (J) [!]
+  deprecated: 1
+- id: 67163
+  kind: 2
+  kind_id: 21809
+  language: 2
+  name: 潜艇大作战(Rev A) (射击)-Sqoon (Rev A)
+- id: 67164
+  kind: 2
+  kind_id: 21809
+  language: 1
+  name: Sqoon (J) (PRG1)
+  deprecated: 1
 - id: 67167
   kind: 2
   kind_id: 21809
@@ -209,3 +226,93 @@ releases:
       size: 40976
       blob_id: 67183
       debug: Sqoon (U) [t1].nes
+- release:
+    id: 28912
+    game_id: 21809
+  names:
+  - id: 67161
+    kind: 3
+    kind_id: 28912
+    language: 2
+    name: 潜艇大作战 (日版) (射击)-Sqoon (Japan)
+  - id: 67162
+    kind: 3
+    kind_id: 28912
+    language: 1
+    name: Sqoon (J) [!]
+    deprecated: 1
+  - id: 260856
+    kind: 3
+    kind_id: 28912
+    language: 1
+    name: Sqoon (Japan)
+    source: no-intro
+  assets:
+  - asset:
+      id: 28894
+      kind: 3
+      kind_id: 28912
+      type: 1
+      name: Sqoon (Japan).nes
+      format: 1
+      size: 40976
+      blob_id: 73255
+      debug: |-
+        潜艇大作战 (日版) (射击)-Sqoon (Japan) + Sqoon (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=49c9cea40c8c8de53b4e3f3d8cd59d7aefb1e5b6
+  - asset:
+      id: 137846
+      kind: 3
+      kind_id: 28912
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 2946
+      blob_id: 323453
+      debug: fc-title-trial:fceumm:rom-asset=28894:frame=180
+- release:
+    id: 28913
+    game_id: 21809
+  names:
+  - id: 67165
+    kind: 3
+    kind_id: 28913
+    language: 2
+    name: 潜艇大作战 (日版)(Rev A) (射击)-Sqoon (Japan) (Rev A)
+  - id: 67166
+    kind: 3
+    kind_id: 28913
+    language: 1
+    name: Sqoon (J) (PRG1)
+    deprecated: 1
+  - id: 260857
+    kind: 3
+    kind_id: 28913
+    language: 1
+    name: Sqoon (Japan) (Rev 1)
+    source: no-intro
+  assets:
+  - asset:
+      id: 28895
+      kind: 3
+      kind_id: 28913
+      type: 1
+      name: Sqoon (Japan) (Rev 1).nes
+      format: 1
+      size: 40976
+      blob_id: 73256
+      debug: |-
+        潜艇大作战 (日版)(Rev A) (射击)-Sqoon (Japan) (Rev A) + Sqoon (J) (PRG1).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=5cd657fbc29d9646aed6460ff798b16d15482d4f
+  - asset:
+      id: 140164
+      kind: 3
+      kind_id: 28913
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Sqoon%20%28Japan%29%20%28Rev%201%29.png
+      format: 1
+      size: 57724
+      blob_id: 325490
+      debug: libretro-named-titles:rom-asset=28895:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Sqoon%20%28Japan%29%20%28Rev%201%29.png

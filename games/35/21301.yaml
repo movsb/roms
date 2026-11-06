@@ -2,6 +2,12 @@ game:
   id: 21301
   platform_id: 2
 names:
+- id: 67100
+  kind: 2
+  kind_id: 21301
+  language: 1
+  name: Ski or Die (E) [!]
+  deprecated: 1
 - id: 67103
   kind: 2
   kind_id: 21301
@@ -78,3 +84,48 @@ releases:
       size: 7685
       blob_id: 322956
       debug: fc-title-trial:fceumm:rom-asset=21283:frame=900
+- release:
+    id: 28895
+    game_id: 21301
+  names:
+  - id: 67101
+    kind: 3
+    kind_id: 28895
+    language: 2
+    name: 滑雪生死斗 (欧版) (运动)-Ski or Die (Europe)
+  - id: 67102
+    kind: 3
+    kind_id: 28895
+    language: 1
+    name: Ski or Die (E) [!]
+    deprecated: 1
+  - id: 260852
+    kind: 3
+    kind_id: 28895
+    language: 1
+    name: Ski or Die (Europe)
+    source: no-intro
+  assets:
+  - asset:
+      id: 28877
+      kind: 3
+      kind_id: 28895
+      type: 1
+      name: Ski or Die (Europe).nes
+      format: 1
+      size: 262160
+      blob_id: 73248
+      debug: |-
+        滑雪生死斗 (欧版) (运动)-Ski or Die (Europe) + Ski or Die (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=87516e3ca463123ea29adf19841f1ffbc30a8e06
+  - asset:
+      id: 137844
+      kind: 3
+      kind_id: 28895
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 7622
+      blob_id: 323451
+      debug: fc-title-trial:fceumm:rom-asset=28877:frame=600:region=PAL

@@ -7,6 +7,23 @@ names:
   kind_id: 18572
   language: 1
   name: PINBALLQ
+- id: 64234
+  kind: 2
+  kind_id: 18572
+  language: 1
+  name: Pinball Quest (J) [!]
+  deprecated: 1
+- id: 64237
+  kind: 2
+  kind_id: 18572
+  language: 2
+  name: 弹珠台高手 (澳洲版) (桌面平台)-Pinball Quest
+- id: 64238
+  kind: 2
+  kind_id: 18572
+  language: 1
+  name: Pinball Quest (E) [!]
+  deprecated: 1
 - id: 64241
   kind: 2
   kind_id: 18572
@@ -136,3 +153,93 @@ releases:
       size: 1873
       blob_id: 324110
       debug: libretro-named-titles:rom-asset=18874:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Pinball%20Quest%20%28USA%29.png
+- release:
+    id: 28033
+    game_id: 18572
+  names:
+  - id: 64235
+    kind: 3
+    kind_id: 28033
+    language: 2
+    name: 弹珠台高手 (日版) (桌面平台)-Pinball Quest (Japan)
+  - id: 64236
+    kind: 3
+    kind_id: 28033
+    language: 1
+    name: Pinball Quest (J) [!]
+    deprecated: 1
+  - id: 260490
+    kind: 3
+    kind_id: 28033
+    language: 1
+    name: Pinball Quest (Japan)
+    source: no-intro
+  assets:
+  - asset:
+      id: 28015
+      kind: 3
+      kind_id: 28033
+      type: 1
+      name: Pinball Quest (Japan).nes
+      format: 1
+      size: 262160
+      blob_id: 72677
+      debug: |-
+        弹珠台高手 (日版) (桌面平台)-Pinball Quest (Japan) + Pinball Quest (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=acd1bb22186a1bd068f9b58b10ba69a51c695714
+  - asset:
+      id: 137709
+      kind: 3
+      kind_id: 28033
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 3932
+      blob_id: 323328
+      debug: fc-title-trial:fceumm:rom-asset=28015:frame=600
+- release:
+    id: 28034
+    game_id: 18572
+  names:
+  - id: 64239
+    kind: 3
+    kind_id: 28034
+    language: 2
+    name: 弹珠台高手 (澳洲版) (桌面平台)-Pinball Quest (Australia)
+  - id: 64240
+    kind: 3
+    kind_id: 28034
+    language: 1
+    name: Pinball Quest (E) [!]
+    deprecated: 1
+  - id: 260491
+    kind: 3
+    kind_id: 28034
+    language: 1
+    name: Pinball Quest (Australia)
+    source: no-intro
+  assets:
+  - asset:
+      id: 28016
+      kind: 3
+      kind_id: 28034
+      type: 1
+      name: Pinball Quest (Australia).nes
+      format: 1
+      size: 262160
+      blob_id: 72678
+      debug: |-
+        弹珠台高手 (澳洲版) (桌面平台)-Pinball Quest (Australia) + Pinball Quest (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=d1ba76e93f14e66d98543ee1599475dd0e79a4a4
+  - asset:
+      id: 137710
+      kind: 3
+      kind_id: 28034
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 3494
+      blob_id: 323329
+      debug: fc-title-trial:fceumm:rom-asset=28016:frame=1200:region=PAL

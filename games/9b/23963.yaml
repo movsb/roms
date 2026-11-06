@@ -13,6 +13,17 @@ names:
   language: 1
   name: Tecmo NBA Basketball (U) (REV0) [!]
   deprecated: 1
+- id: 67643
+  kind: 2
+  kind_id: 23963
+  language: 2
+  name: 特库摩美国职篮(Rev A) (运动)-Tecmo NBA Basketball (Rev A)
+- id: 67644
+  kind: 2
+  kind_id: 23963
+  language: 1
+  name: Tecmo NBA Basketball (U) (REVA) [!]
+  deprecated: 1
 - id: 93347
   kind: 2
   kind_id: 23963
@@ -117,3 +128,48 @@ releases:
       size: 1545
       blob_id: 324210
       debug: libretro-named-titles:rom-asset=23950:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Tecmo%20NBA%20Basketball%20%28USA%29.png
+- release:
+    id: 29071
+    game_id: 23963
+  names:
+  - id: 67645
+    kind: 3
+    kind_id: 29071
+    language: 2
+    name: 特库摩美国职篮 (美版)(Rev A) (运动)-Tecmo NBA Basketball (USA) (Rev A)
+  - id: 67646
+    kind: 3
+    kind_id: 29071
+    language: 1
+    name: Tecmo NBA Basketball (U) (REVA) [!]
+    deprecated: 1
+  - id: 260898
+    kind: 3
+    kind_id: 29071
+    language: 1
+    name: Tecmo NBA Basketball (USA) (NES-BK) (Rev 1)
+    source: no-intro
+  assets:
+  - asset:
+      id: 29053
+      kind: 3
+      kind_id: 29071
+      type: 1
+      name: Tecmo NBA Basketball (USA) (NES-BK) (Rev 1).nes
+      format: 1
+      size: 393232
+      blob_id: 73358
+      debug: |-
+        特库摩美国职篮 (美版)(Rev A) (运动)-Tecmo NBA Basketball (USA) (Rev A) + Tecmo NBA Basketball (U) (REVA) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=712983eaa00029c307688de015c1b698cc4bf064
+  - asset:
+      id: 137862
+      kind: 3
+      kind_id: 29071
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 2507
+      blob_id: 323036
+      debug: fc-title-trial:fceumm:rom-asset=29053:frame=1200:start-frame=600

@@ -1,7 +1,37 @@
 game:
   id: 16197
   platform_id: 2
+  series_id: 6
 names:
+- id: 35637
+  kind: 2
+  kind_id: 16197
+  language: 1
+  name: Mega Man 4 (U)
+  deprecated: 1
+- id: 36335
+  kind: 2
+  kind_id: 16197
+  language: 1
+  name: Megaman4
+  deprecated: 1
+- id: 66868
+  kind: 2
+  kind_id: 16197
+  language: 1
+  name: Megaman IV (E) [!]
+  deprecated: 1
+- id: 66871
+  kind: 2
+  kind_id: 16197
+  language: 2
+  name: "洛克人 IV - 新的野心 (动作)-Mega Man 4"
+- id: 66872
+  kind: 2
+  kind_id: 16197
+  language: 1
+  name: Megaman IV (U) (PRG0) [!]
+  deprecated: 1
 - id: 92462
   kind: 2
   kind_id: 16197
@@ -13,7 +43,68 @@ names:
   language: 2
   name: 洛克人4
   source: codex
+- id: 261896
+  kind: 2
+  kind_id: 16197
+  language: 1
+  name: Mega Man 4
+  source: no-intro
 releases:
+- release:
+    id: 16062
+    game_id: 16197
+  names:
+  - id: 35638
+    kind: 3
+    kind_id: 16062
+    language: 1
+    name: Mega Man 4 (U)
+    deprecated: 1
+  - id: 36336
+    kind: 3
+    kind_id: 16062
+    language: 1
+    name: Megaman4
+    deprecated: 1
+  - id: 66873
+    kind: 3
+    kind_id: 16062
+    language: 2
+    name: "洛克人 IV - 新的野心 (美版) (动作)-Mega Man 4 (USA)"
+  - id: 66874
+    kind: 3
+    kind_id: 16062
+    language: 1
+    name: Megaman IV (U) (PRG0) [!]
+    deprecated: 1
+  - id: 258749
+    kind: 3
+    kind_id: 16062
+    language: 1
+    name: Mega Man 4 (USA)
+    source: no-intro
+  assets:
+  - asset:
+      id: 16044
+      kind: 3
+      kind_id: 16062
+      type: 1
+      name: Mega Man 4 (USA).nes
+      format: 1
+      size: 524304
+      blob_id: 61731
+      debug: "Mega Man 4 (U).zip\nMegaman4.zip\n洛克人 IV - 新的野心 (美版) (动作)-Mega Man 4 (USA) + Megaman IV (U) (PRG0) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=673a888c468abe33fb0b3f063c6837dd21d5d32b"
+  - asset:
+      id: 138575
+      kind: 3
+      kind_id: 16062
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mega%20Man%204%20%28USA%29.png
+      format: 1
+      size: 1702
+      blob_id: 324069
+      debug: libretro-named-titles:rom-asset=16044:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mega%20Man%204%20%28USA%29.png
 - release:
     id: 16197
     game_id: 16197
@@ -355,3 +446,46 @@ releases:
       size: 3208
       blob_id: 324973
       debug: libretro-named-titles:rom-asset=16200:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mega%20Man%204%20%28USA%29%20%28Virtual%20Console%29.png
+- release:
+    id: 28824
+    game_id: 16197
+  names:
+  - id: 66869
+    kind: 3
+    kind_id: 28824
+    language: 2
+    name: "洛克人 IV - 新的野心 (欧版) (动作)-Mega Man 4 (Europe)"
+  - id: 66870
+    kind: 3
+    kind_id: 28824
+    language: 1
+    name: Megaman IV (E) [!]
+    deprecated: 1
+  - id: 260822
+    kind: 3
+    kind_id: 28824
+    language: 1
+    name: Mega Man 4 (Europe)
+    source: no-intro
+  assets:
+  - asset:
+      id: 28806
+      kind: 3
+      kind_id: 28824
+      type: 1
+      name: Mega Man 4 (Europe).nes
+      format: 1
+      size: 524304
+      blob_id: 73202
+      debug: "洛克人 IV - 新的野心 (欧版) (动作)-Mega Man 4 (Europe) + Megaman IV (E) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=8f6e3d7145e7856eaec1bc1f195df30631425c0e"
+  - asset:
+      id: 137835
+      kind: 3
+      kind_id: 28824
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 2776
+      blob_id: 322752
+      debug: fc-title-trial:fceumm:rom-asset=28806:frame=1200:region=PAL:start-frame=600

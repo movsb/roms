@@ -14,6 +14,17 @@ names:
   language: 1
   name: Hudson's Adventure Island 3 (U)
   deprecated: 1
+- id: 71661
+  kind: 2
+  kind_id: 13417
+  language: 2
+  name: 高桥名人之冒险岛 III (动作)-Takahashi Meijin no Bouken Jima III
+- id: 71662
+  kind: 2
+  kind_id: 13417
+  language: 1
+  name: Takahashi Meijin no Bouken Shima III (J) [!]
+  deprecated: 1
 - id: 71665
   kind: 2
   kind_id: 13417
@@ -39,6 +50,17 @@ names:
   kind_id: 13417
   language: 1
   name: Hudson's Adventure Island III
+- id: 93317
+  kind: 2
+  kind_id: 13417
+  language: 1
+  name: Takahashi Meijin no Bouken Shima III
+- id: 248735
+  kind: 2
+  kind_id: 13417
+  language: 2
+  name: 高桥名人冒险岛3
+  source: codex
 - id: 251933
   kind: 2
   kind_id: 13417
@@ -50,6 +72,12 @@ names:
   kind_id: 13417
   language: 1
   name: Adventure Island 3
+  source: no-intro
+- id: 263672
+  kind: 2
+  kind_id: 13417
+  language: 1
+  name: Takahashi Meijin no Bouken-jima III
   source: no-intro
 releases:
 - release:
@@ -379,6 +407,66 @@ releases:
       blob_id: 59286
       debug: Hudson's Adventure Island III (U) [t6].nes
 - release:
+    id: 23575
+    game_id: 13417
+  names:
+  - id: 52624
+    kind: 3
+    kind_id: 23575
+    language: 1
+    name: Takahashi Meijin no Bouken Shima III (J) [p1]
+  assets:
+  - asset:
+      id: 23557
+      kind: 3
+      kind_id: 23575
+      type: 1
+      name: Takahashi Meijin no Bouken Shima III (J) [p1].nes
+      format: 1
+      size: 262160
+      blob_id: 68855
+      debug: Takahashi Meijin no Bouken Shima III (J) [p1].nes
+- release:
+    id: 23576
+    game_id: 13417
+  names:
+  - id: 52626
+    kind: 3
+    kind_id: 23576
+    language: 1
+    name: Takahashi Meijin no Bouken Shima III (J) [t1]
+  assets:
+  - asset:
+      id: 23558
+      kind: 3
+      kind_id: 23576
+      type: 1
+      name: Takahashi Meijin no Bouken Shima III (J) [t1].nes
+      format: 1
+      size: 262160
+      blob_id: 68856
+      debug: Takahashi Meijin no Bouken Shima III (J) [t1].nes
+- release:
+    id: 23577
+    game_id: 13417
+  names:
+  - id: 52628
+    kind: 3
+    kind_id: 23577
+    language: 1
+    name: Takahashi Meijin no Bouken Shima III (J) [t2]
+  assets:
+  - asset:
+      id: 23559
+      kind: 3
+      kind_id: 23577
+      type: 1
+      name: Takahashi Meijin no Bouken Shima III (J) [t2].nes
+      format: 1
+      size: 786464
+      blob_id: 68857
+      debug: Takahashi Meijin no Bouken Shima III (J) [t2].nes
+- release:
     id: 27068
     game_id: 13417
   names:
@@ -502,3 +590,48 @@ releases:
       size: 262160
       blob_id: 72045
       debug: 冒险岛3[高艳龙汉化] + Hudson's Adventure Island III (U) [T+Chi].nes
+- release:
+    id: 30247
+    game_id: 13417
+  names:
+  - id: 71663
+    kind: 3
+    kind_id: 30247
+    language: 2
+    name: 高桥名人之冒险岛 III (日版) (动作)-Takahashi Meijin no Bouken Jima III (Japan)
+  - id: 71664
+    kind: 3
+    kind_id: 30247
+    language: 1
+    name: Takahashi Meijin no Bouken Shima III (J) [!]
+    deprecated: 1
+  - id: 261370
+    kind: 3
+    kind_id: 30247
+    language: 1
+    name: Takahashi Meijin no Bouken-jima III (Japan)
+    source: no-intro
+  assets:
+  - asset:
+      id: 30229
+      kind: 3
+      kind_id: 30247
+      type: 1
+      name: Takahashi Meijin no Bouken-jima III (Japan).nes
+      format: 1
+      size: 262160
+      blob_id: 74088
+      debug: |-
+        高桥名人之冒险岛 III (日版) (动作)-Takahashi Meijin no Bouken Jima III (Japan) + Takahashi Meijin no Bouken Shima III (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=5cbf93ff75e0a997eec79e254afeab50f99f97ce
+  - asset:
+      id: 138083
+      kind: 3
+      kind_id: 30247
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 4953
+      blob_id: 323654
+      debug: fc-title-trial:fceumm:rom-asset=30229:frame=2400

@@ -19,6 +19,17 @@ names:
   language: 1
   name: McDonaldLand (E) [!]
   deprecated: 1
+- id: 72149
+  kind: 2
+  kind_id: 16014
+  language: 2
+  name: 麦当劳小子 (法版) (动作)-McDonaldland
+- id: 72150
+  kind: 2
+  kind_id: 16014
+  language: 1
+  name: McDonaldLand (F) [!]
+  deprecated: 1
 - id: 261894
   kind: 2
   kind_id: 16014
@@ -78,3 +89,48 @@ releases:
       size: 4103
       blob_id: 322721
       debug: fc-title-trial:fceumm:rom-asset=15996:frame=1800
+- release:
+    id: 30398
+    game_id: 16014
+  names:
+  - id: 72151
+    kind: 3
+    kind_id: 30398
+    language: 2
+    name: 麦当劳小子 (法版) (动作)-McDonaldland (France)
+  - id: 72152
+    kind: 3
+    kind_id: 30398
+    language: 1
+    name: McDonaldLand (F) [!]
+    deprecated: 1
+  - id: 261425
+    kind: 3
+    kind_id: 30398
+    language: 1
+    name: McDonaldland (France)
+    source: no-intro
+  assets:
+  - asset:
+      id: 30380
+      kind: 3
+      kind_id: 30398
+      type: 1
+      name: McDonaldland (France).nes
+      format: 1
+      size: 262160
+      blob_id: 74186
+      debug: |-
+        麦当劳小子 (法版) (动作)-McDonaldland (France) + McDonaldLand (F) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=0ac088f8f8576e0a759f6cfadc4a2deb5a7a5d98
+  - asset:
+      id: 138110
+      kind: 3
+      kind_id: 30398
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 4132
+      blob_id: 323678
+      debug: fc-title-trial:fceumm:rom-asset=30380:frame=1800:region=PAL:start-frame=600

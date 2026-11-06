@@ -7,6 +7,17 @@ names:
   kind_id: 25059
   language: 2
   name: 魔法总动员
+- id: 71903
+  kind: 2
+  kind_id: 25059
+  language: 2
+  name: 魔法约翰 (动作)-Magic John
+- id: 71904
+  kind: 2
+  kind_id: 25059
+  language: 1
+  name: Magic John (J)
+  deprecated: 1
 - id: 71911
   kind: 2
   kind_id: 25059
@@ -330,3 +341,48 @@ releases:
       size: 262160
       blob_id: 74133
       debug: 魔法总动员[混沌星辰汉化 MS修正] + Magic John (J) [T+Chi_MS emumax].nes
+- release:
+    id: 30326
+    game_id: 25059
+  names:
+  - id: 71905
+    kind: 3
+    kind_id: 30326
+    language: 2
+    name: 魔法约翰 (日版) (动作)-Magic John (Japan)
+  - id: 71906
+    kind: 3
+    kind_id: 30326
+    language: 1
+    name: Magic John (J)
+    deprecated: 1
+  - id: 261396
+    kind: 3
+    kind_id: 30326
+    language: 1
+    name: Magic John (Japan)
+    source: no-intro
+  assets:
+  - asset:
+      id: 30308
+      kind: 3
+      kind_id: 30326
+      type: 1
+      name: Magic John (Japan).nes
+      format: 1
+      size: 262160
+      blob_id: 74140
+      debug: |-
+        魔法约翰 (日版) (动作)-Magic John (Japan) + Magic John (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=f3948b433c6255fa0ab8deaab38be57a4c8f2b2a
+  - asset:
+      id: 139262
+      kind: 3
+      kind_id: 30326
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Magic%20John%20%28Japan%29.png
+      format: 1
+      size: 2749
+      blob_id: 324719
+      debug: libretro-named-titles:rom-asset=30308:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Magic%20John%20%28Japan%29.png

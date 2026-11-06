@@ -2,6 +2,34 @@ game:
   id: 16920
   platform_id: 2
 names:
+- id: 62759
+  kind: 2
+  kind_id: 16920
+  language: 2
+  name: 大富翁 (德版) (桌面平台)-Monopoly
+- id: 62760
+  kind: 2
+  kind_id: 16920
+  language: 1
+  name: Monopoly (G) [!]
+  deprecated: 1
+- id: 62764
+  kind: 2
+  kind_id: 16920
+  language: 1
+  name: Monopoly (J)
+  deprecated: 1
+- id: 62767
+  kind: 2
+  kind_id: 16920
+  language: 2
+  name: 大富翁 (法版) (桌面平台)-Monopoly
+- id: 62768
+  kind: 2
+  kind_id: 16920
+  language: 1
+  name: Monopoly (F) [!]
+  deprecated: 1
 - id: 62771
   kind: 2
   kind_id: 16920
@@ -78,3 +106,138 @@ releases:
       size: 4413
       blob_id: 322780
       debug: fc-title-trial:fceumm:rom-asset=16903:frame=180
+- release:
+    id: 27598
+    game_id: 16920
+  names:
+  - id: 62761
+    kind: 3
+    kind_id: 27598
+    language: 2
+    name: 大富翁 (德版) (桌面平台)-Monopoly (Germany)
+  - id: 62762
+    kind: 3
+    kind_id: 27598
+    language: 1
+    name: Monopoly (G) [!]
+    deprecated: 1
+  - id: 260307
+    kind: 3
+    kind_id: 27598
+    language: 1
+    name: Monopoly (Germany)
+    source: no-intro
+  assets:
+  - asset:
+      id: 27580
+      kind: 3
+      kind_id: 27598
+      type: 1
+      name: Monopoly (Germany).nes
+      format: 1
+      size: 262160
+      blob_id: 72388
+      debug: |-
+        大富翁 (德版) (桌面平台)-Monopoly (Germany) + Monopoly (G) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=642a6a16122667e232649da2991bd9dca3dbf807
+  - asset:
+      id: 137637
+      kind: 3
+      kind_id: 27598
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 4268
+      blob_id: 323264
+      debug: fc-title-trial:fceumm:rom-asset=27580:frame=180:region=PAL
+- release:
+    id: 27599
+    game_id: 16920
+  names:
+  - id: 62765
+    kind: 3
+    kind_id: 27599
+    language: 2
+    name: 大富翁 (日版) (桌面平台)-Monopoly (Japan)
+  - id: 62766
+    kind: 3
+    kind_id: 27599
+    language: 1
+    name: Monopoly (J)
+    deprecated: 1
+  - id: 260308
+    kind: 3
+    kind_id: 27599
+    language: 1
+    name: Monopoly (Japan)
+    source: no-intro
+  assets:
+  - asset:
+      id: 27581
+      kind: 3
+      kind_id: 27599
+      type: 1
+      name: Monopoly (Japan).nes
+      format: 1
+      size: 262160
+      blob_id: 72389
+      debug: |-
+        大富翁 (日版) (桌面平台)-Monopoly (Japan) + Monopoly (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=e065a0a51bc01a85dc96492501086a13bf803a3a
+  - asset:
+      id: 138891
+      kind: 3
+      kind_id: 27599
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Monopoly%20%28Japan%29.png
+      format: 1
+      size: 2401
+      blob_id: 324365
+      debug: libretro-named-titles:rom-asset=27581:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Monopoly%20%28Japan%29.png
+- release:
+    id: 27600
+    game_id: 16920
+  names:
+  - id: 62769
+    kind: 3
+    kind_id: 27600
+    language: 2
+    name: 大富翁 (法版) (桌面平台)-Monopoly (France)
+  - id: 62770
+    kind: 3
+    kind_id: 27600
+    language: 1
+    name: Monopoly (F) [!]
+    deprecated: 1
+  - id: 260309
+    kind: 3
+    kind_id: 27600
+    language: 1
+    name: Monopoly (France)
+    source: no-intro
+  assets:
+  - asset:
+      id: 27582
+      kind: 3
+      kind_id: 27600
+      type: 1
+      name: Monopoly (France).nes
+      format: 1
+      size: 262160
+      blob_id: 72390
+      debug: |-
+        大富翁 (法版) (桌面平台)-Monopoly (France) + Monopoly (F) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=bbfdb9cd157624cd42a8e02727a5b3b126448f2f
+  - asset:
+      id: 137638
+      kind: 3
+      kind_id: 27600
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 4284
+      blob_id: 323265
+      debug: fc-title-trial:fceumm:rom-asset=27582:frame=180:region=PAL

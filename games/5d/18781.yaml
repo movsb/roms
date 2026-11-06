@@ -3,6 +3,11 @@ game:
   platform_id: 2
   description: A penguin rolls spheres across a table attempting to knock its opponent out for points. The character with the fewest spheres on its side of the table at the end of the timed match is the winner.
 names:
+- id: 60539
+  kind: 2
+  kind_id: 18781
+  language: 2
+  name: 企鹅战争
 - id: 79402
   kind: 2
   kind_id: 18781
@@ -130,3 +135,43 @@ releases:
       size: 40976
       blob_id: 64324
       debug: Penguin-kun Wars (J) [p1].nes
+- release:
+    id: 26913
+    game_id: 18781
+  names:
+  - id: 60540
+    kind: 3
+    kind_id: 26913
+    language: 2
+    name: 企鹅战争
+  - id: 260046
+    kind: 3
+    kind_id: 26913
+    language: 1
+    name: Penguin-kun Wars (Japan)
+    source: no-intro
+  assets:
+  - asset:
+      id: 26895
+      kind: 3
+      kind_id: 26913
+      type: 1
+      name: Penguin-kun Wars (Japan).nes
+      format: 1
+      size: 40976
+      blob_id: 71936
+      debug: |-
+        企鹅战争.nes
+        重复的/企鹅大战 (日版) (运动)-Penguin Kun Wars (Japan) + Penguin-kun Wars (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=a0def24a28af4de20ca4059d5e8ed27d1b5f6b6a
+  - asset:
+      id: 139992
+      kind: 3
+      kind_id: 26913
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Penguin-kun%20Wars%20%28Japan%29.png
+      format: 1
+      size: 1980
+      blob_id: 325342
+      debug: libretro-named-titles:rom-asset=26895:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Penguin-kun%20Wars%20%28Japan%29.png

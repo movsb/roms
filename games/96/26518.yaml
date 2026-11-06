@@ -2,11 +2,27 @@ game:
   id: 26518
   platform_id: 2
 names:
+- id: 66035
+  kind: 2
+  kind_id: 26518
+  language: 2
+  name: "机兽新世纪 - 默示录 (策略)-Zoids Mokushiroku"
+- id: 66036
+  kind: 2
+  kind_id: 26518
+  language: 1
+  name: Zoids Mokushiroku (J) [!]
+  deprecated: 1
 - id: 93634
   kind: 2
   kind_id: 26518
   language: 1
   name: "Zoids - Mokushiroku"
+- id: 93636
+  kind: 2
+  kind_id: 26518
+  language: 1
+  name: Zoids Mokushiroku
 - id: 248962
   kind: 2
   kind_id: 26518
@@ -54,3 +70,66 @@ releases:
       size: 262160
       blob_id: 71646
       debug: "Zoids - Mokushiroku (Japan) (Translated En).zip"
+- release:
+    id: 26526
+    game_id: 26518
+  names:
+  - id: 59330
+    kind: 3
+    kind_id: 26526
+    language: 1
+    name: Zoids Mokushiroku (J) [p1]
+  assets:
+  - asset:
+      id: 26508
+      kind: 3
+      kind_id: 26526
+      type: 1
+      name: Zoids Mokushiroku (J) [p1].nes
+      format: 1
+      size: 262160
+      blob_id: 71653
+      debug: Zoids Mokushiroku (J) [p1].nes
+- release:
+    id: 28581
+    game_id: 26518
+  names:
+  - id: 66037
+    kind: 3
+    kind_id: 28581
+    language: 2
+    name: "机兽新世纪 - 默示录 (日版) (策略)-Zoids Mokushiroku (Japan)"
+  - id: 66038
+    kind: 3
+    kind_id: 28581
+    language: 1
+    name: Zoids Mokushiroku (J) [!]
+    deprecated: 1
+  - id: 260712
+    kind: 3
+    kind_id: 28581
+    language: 1
+    name: Zoids Mokushiroku (Japan)
+    source: no-intro
+  assets:
+  - asset:
+      id: 28563
+      kind: 3
+      kind_id: 28581
+      type: 1
+      name: Zoids Mokushiroku (Japan).nes
+      format: 1
+      size: 262160
+      blob_id: 73045
+      debug: "机兽新世纪 - 默示录 (日版) (策略)-Zoids Mokushiroku (Japan) + Zoids Mokushiroku (J) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=3febf59ee063c808200f350051c1091e7e639cb5"
+  - asset:
+      id: 137793
+      kind: 3
+      kind_id: 28581
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 4446
+      blob_id: 323406
+      debug: fc-title-trial:fceumm:rom-asset=28563:frame=1800

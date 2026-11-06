@@ -1,7 +1,24 @@
 game:
   id: 19708
   platform_id: 2
+  series_id: 15
 names:
+- id: 65171
+  kind: 2
+  kind_id: 19708
+  language: 2
+  name: 拉芙世界 (动作)-Raf World
+- id: 65172
+  kind: 2
+  kind_id: 19708
+  language: 1
+  name: Raf World (J)
+  deprecated: 1
+- id: 71703
+  kind: 2
+  kind_id: 19708
+  language: 2
+  name: 星际魂斗罗
 - id: 92832
   kind: 2
   kind_id: 19708
@@ -13,6 +30,12 @@ names:
   language: 2
   name: 拉夫世界
   source: codex
+- id: 262962
+  kind: 2
+  kind_id: 19708
+  language: 1
+  name: Rough World
+  source: no-intro
 releases:
 - release:
     id: 19708
@@ -294,3 +317,54 @@ releases:
       size: 262160
       blob_id: 65199
       debug: Raf World (J) [t5].nes
+- release:
+    id: 28334
+    game_id: 19708
+  names:
+  - id: 65173
+    kind: 3
+    kind_id: 28334
+    language: 2
+    name: 拉芙世界 (日版) (动作)-Raf World (Japan)
+  - id: 65174
+    kind: 3
+    kind_id: 28334
+    language: 1
+    name: Raf World (J)
+    deprecated: 1
+  - id: 71704
+    kind: 3
+    kind_id: 28334
+    language: 2
+    name: 星际魂斗罗
+  - id: 260588
+    kind: 3
+    kind_id: 28334
+    language: 1
+    name: Rough World (Japan)
+    source: no-intro
+  assets:
+  - asset:
+      id: 28316
+      kind: 3
+      kind_id: 28334
+      type: 1
+      name: Rough World (Japan).nes
+      format: 1
+      size: 262160
+      blob_id: 72873
+      debug: |-
+        拉芙世界 (日版) (动作)-Raf World (Japan) + Raf World (J).nes
+        魂斗罗/星际魂斗罗.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=e162437d0faf6fad0fd9267e6df656c4ffc783b2
+  - asset:
+      id: 138990
+      kind: 3
+      kind_id: 28334
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Raf%20World%20%28Japan%29.png
+      format: 1
+      size: 2179
+      blob_id: 324463
+      debug: libretro-named-titles:rom-asset=28316:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Raf%20World%20%28Japan%29.png

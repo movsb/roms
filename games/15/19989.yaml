@@ -7,6 +7,12 @@ names:
   kind_id: 19989
   language: 1
   name: Robo_cop
+- id: 66088
+  kind: 2
+  kind_id: 19989
+  language: 1
+  name: RoboCop (E) [!]
+  deprecated: 1
 - id: 66091
   kind: 2
   kind_id: 19989
@@ -17,6 +23,16 @@ names:
   kind_id: 19989
   language: 1
   name: RoboCop (U) [!]
+- id: 66095
+  kind: 2
+  kind_id: 19989
+  language: 2
+  name: 机器战警(Beta) (动作)-RoboCop (Beta)
+- id: 66096
+  kind: 2
+  kind_id: 19989
+  language: 1
+  name: RoboCop (U) (Prototype)
 - id: 92864
   kind: 2
   kind_id: 19989
@@ -256,3 +272,73 @@ releases:
       size: 1606
       blob_id: 324141
       debug: libretro-named-titles:rom-asset=20027:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/RoboCop%20%28USA%29.png
+- release:
+    id: 28595
+    game_id: 19989
+  names:
+  - id: 66089
+    kind: 3
+    kind_id: 28595
+    language: 2
+    name: 机器战警 (欧版) (动作)-RoboCop (Europe)
+  - id: 66090
+    kind: 3
+    kind_id: 28595
+    language: 1
+    name: RoboCop (E) [!]
+    deprecated: 1
+  - id: 260719
+    kind: 3
+    kind_id: 28595
+    language: 1
+    name: RoboCop (Europe)
+    source: no-intro
+  assets:
+  - asset:
+      id: 28577
+      kind: 3
+      kind_id: 28595
+      type: 1
+      name: RoboCop (Europe).nes
+      format: 1
+      size: 262160
+      blob_id: 73053
+      debug: |-
+        机器战警 (欧版) (动作)-RoboCop (Europe) + RoboCop (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=1f8dc272cd128597c050777f635bacdc6a0e20b1
+  - asset:
+      id: 137797
+      kind: 3
+      kind_id: 28595
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 2873
+      blob_id: 322896
+      debug: fc-title-trial:fceumm:rom-asset=28577:frame=300:region=PAL
+- release:
+    id: 28597
+    game_id: 19989
+  names:
+  - id: 66097
+    kind: 3
+    kind_id: 28597
+    language: 2
+    name: 机器战警 (美版)(Beta) (动作)-RoboCop (USA) (Beta)
+  - id: 66098
+    kind: 3
+    kind_id: 28597
+    language: 1
+    name: RoboCop (U) (Prototype)
+  assets:
+  - asset:
+      id: 28579
+      kind: 3
+      kind_id: 28597
+      type: 1
+      name: 机器战警 (美版)(Beta) (动作)-RoboCop (USA) (Beta) + RoboCop (U) (Prototype).nes
+      format: 1
+      size: 262160
+      blob_id: 73054
+      debug: 机器战警 (美版)(Beta) (动作)-RoboCop (USA) (Beta) + RoboCop (U) (Prototype).nes
