@@ -7,6 +7,11 @@ names:
   kind_id: 178
   language: 1
   name: ESPIAL
+- id: 3096
+  kind: 2
+  kind_id: 178
+  language: 1
+  name: espiale
 - id: 95394
   kind: 2
   kind_id: 178
@@ -31,6 +36,12 @@ names:
   language: 1
   name: Espial (US?)
   source: mame
+- id: 247177
+  kind: 2
+  kind_id: 178
+  language: 2
+  name: 间谍战机
+  source: codex
 game_developers:
 - game_id: 178
   developer_id: 528
@@ -207,6 +218,81 @@ releases:
         repository=https://github.com/finalburnneo/FBNeo-extras
         revision=d61f692a027ad7bcbaccceda20e43ed47900dcda
         source=titles/espial.png
+- release:
+    id: 1548
+    game_id: 178
+  names:
+  - id: 3097
+    kind: 3
+    kind_id: 1548
+    language: 1
+    name: espiale
+  assets:
+  - asset:
+      id: 1548
+      kind: 3
+      kind_id: 1548
+      type: 1
+      name: espiale.zip
+      format: 2
+      size: 35856
+      debug: espiale.zip
+    entries:
+    - id: 24274
+      asset_id: 1548
+      name: "2732.1"
+      size: 4096
+      blob_id: 16950
+    - id: 24275
+      asset_id: 1548
+      name: "2732.10"
+      size: 4096
+      blob_id: 1806
+    - id: 24276
+      asset_id: 1548
+      name: "2732.2"
+      size: 4096
+      blob_id: 16951
+    - id: 24277
+      asset_id: 1548
+      name: "2764.3"
+      size: 8192
+      blob_id: 16952
+    - id: 24278
+      asset_id: 1548
+      name: "2764.4"
+      size: 8192
+      blob_id: 16953
+    - id: 24279
+      asset_id: 1548
+      name: "2732.5"
+      size: 4096
+      blob_id: 16954
+    - id: 24280
+      asset_id: 1548
+      name: "2732.6"
+      size: 4096
+      blob_id: 16955
+    - id: 24281
+      asset_id: 1548
+      name: "2732.7"
+      size: 4096
+      blob_id: 1812
+    - id: 24282
+      asset_id: 1548
+      name: "2764.8"
+      size: 8192
+      blob_id: 1813
+    - id: 24283
+      asset_id: 1548
+      name: "2732.9"
+      size: 4096
+      blob_id: 1814
+    - id: 24284
+      asset_id: 1548
+      name: ESPIAL.TXT
+      size: 13100
+      blob_id: 16956
 - release:
     id: 83519
     game_id: 178

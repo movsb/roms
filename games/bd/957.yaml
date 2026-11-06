@@ -3,6 +3,11 @@ game:
   platform_id: 1
   description: "This follow up to Baseball Stars Professional features a fast-paced arcade style baseball with six fictitious teams, each with their own strengths and weaknesses.  There are two difficulties of play: Beginner, which automatically fields the ball for the player while Exciting has the player do the field manually.  Additionally, there are two main modes of play where in the single player mode the player will compete in a fifteen-team tournament or go head-to-head against a friend in a multiplayer mode.\n\nThe standard rules of baseball still apply, but it adds power-ups that the player can pick up and use during the game, such as the ability for their pitcher to throw faster or their batter to hit better. They can also substitute a player during the game, but are limited to three substitutions per game. The game is shown through 2D graphics with comic-style cutscenes to illustrate the action, such as dramatic catches and home runs that will pop-up during the game."
 names:
+- id: 1566
+  kind: 2
+  kind_id: 957
+  language: 1
+  name: baseballstars2
 - id: 1914
   kind: 2
   kind_id: 957
@@ -14,6 +19,12 @@ names:
   language: 2
   name: 棒球之星 2
   source: codex
+- id: 247161
+  kind: 2
+  kind_id: 957
+  language: 2
+  name: 棒球之星2
+  source: codex
 game_developers:
 - game_id: 957
   developer_id: 326
@@ -21,6 +32,76 @@ game_genres:
 - game_id: 957
   genre_id: 6
 releases:
+- release:
+    id: 783
+    game_id: 957
+  names:
+  - id: 1567
+    kind: 3
+    kind_id: 783
+    language: 1
+    name: baseballstars2
+  assets:
+  - asset:
+      id: 783
+      kind: 3
+      kind_id: 783
+      type: 1
+      name: baseballstars2.zip
+      format: 2
+      size: 3712759
+      debug: baseballstars2.zip
+    entries:
+    - id: 10653
+      asset_id: 783
+      name: 041-m1.rom
+      size: 65536
+      blob_id: 7856
+    - id: 10654
+      asset_id: 783
+      name: 041-v3.rom
+      size: 524288
+      blob_id: 7857
+    - id: 10655
+      asset_id: 783
+      name: 041-v2.rom
+      size: 1048576
+      blob_id: 7858
+    - id: 10656
+      asset_id: 783
+      name: 041-p1.rom
+      size: 524288
+      blob_id: 7859
+    - id: 10657
+      asset_id: 783
+      name: 041-c2.rom
+      size: 1048576
+      blob_id: 7860
+    - id: 10658
+      asset_id: 783
+      name: 041-v1.rom
+      size: 1048576
+      blob_id: 7861
+    - id: 10659
+      asset_id: 783
+      name: 041-c1.rom
+      size: 1048576
+      blob_id: 7862
+    - id: 10660
+      asset_id: 783
+      name: 041-c4.rom
+      size: 1048576
+      blob_id: 7863
+    - id: 10661
+      asset_id: 783
+      name: 041-s1.rom
+      size: 131072
+      blob_id: 7864
+    - id: 10662
+      asset_id: 783
+      name: 041-c3.rom
+      size: 1048576
+      blob_id: 7865
 - release:
     id: 957
     game_id: 957

@@ -7,12 +7,23 @@ names:
   kind_id: 2751
   language: 1
   name: moshougi
+- id: 8262
+  kind: 2
+  kind_id: 2751
+  language: 1
+  name: syouginotatsujin
 - id: 97057
   kind: 2
   kind_id: 2751
   language: 2
   name: "将棋达人 - 将棋大师"
   source: trimui
+- id: 247277
+  kind: 2
+  kind_id: 2751
+  language: 2
+  name: 将棋达人
+  source: codex
 game_developers:
 - game_id: 2751
   developer_id: 443
@@ -500,3 +511,53 @@ releases:
         repository=https://github.com/finalburnneo/FBNeo-extras
         revision=d61f692a027ad7bcbaccceda20e43ed47900dcda
         source=titles/moshougi.png
+- release:
+    id: 4131
+    game_id: 2751
+  names:
+  - id: 8263
+    kind: 3
+    kind_id: 4131
+    language: 1
+    name: syouginotatsujin
+  assets:
+  - asset:
+      id: 4114
+      kind: 3
+      kind_id: 4131
+      type: 1
+      name: syouginotatsujin.zip
+      format: 2
+      size: 3762558
+      debug: syouginotatsujin.zip
+    entries:
+    - id: 70591
+      asset_id: 4114
+      name: 203-s1.rom
+      size: 131072
+      blob_id: 44296
+    - id: 70592
+      asset_id: 4114
+      name: 203-v1.rom
+      size: 2097152
+      blob_id: 29252
+    - id: 70593
+      asset_id: 4114
+      name: 203-c1.rom
+      size: 2097152
+      blob_id: 29247
+    - id: 70594
+      asset_id: 4114
+      name: 203-c2.rom
+      size: 2097152
+      blob_id: 29248
+    - id: 70595
+      asset_id: 4114
+      name: 203-m1.rom
+      size: 131072
+      blob_id: 29249
+    - id: 70596
+      asset_id: 4114
+      name: 203-p1.rom
+      size: 1048576
+      blob_id: 29250

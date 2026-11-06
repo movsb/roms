@@ -3,11 +3,22 @@ game:
   platform_id: 1
   description: As a knight, you must travel the countryside fighting monsters and bandits using your sword and shield. When you enter combat the view changes to a pseudo 1st-person perspective where the body of your knight is outlined so that you can see the creatures that you are fighting. When enemies have been defeated, they drop money and power-ups. There are seven chapters in the game, and each chapter (except one) starts with you entering a merchant's shop and buying weapons using the money that you have collected so far. There are also alternate paths which take you to different parts of the game. At the start of the game, you may choose a chapter (from one to three only) you want to start at.
 names:
+- id: 2378
+  kind: 2
+  kind_id: 1193
+  language: 1
+  name: crossedswords
 - id: 2386
   kind: 2
   kind_id: 1193
   language: 1
   name: crsword
+- id: 243279
+  kind: 2
+  kind_id: 1193
+  language: 2
+  name: 十字剑
+  source: codex
 - id: 243570
   kind: 2
   kind_id: 1193
@@ -21,6 +32,66 @@ game_genres:
 - game_id: 1193
   genre_id: 21
 releases:
+- release:
+    id: 1189
+    game_id: 1193
+  names:
+  - id: 2379
+    kind: 3
+    kind_id: 1189
+    language: 1
+    name: crossedswords
+  assets:
+  - asset:
+      id: 1189
+      kind: 3
+      kind_id: 1189
+      type: 1
+      name: crossedswords.zip
+      format: 2
+      size: 2771400
+      debug: crossedswords.zip
+    entries:
+    - id: 17862
+      asset_id: 1189
+      name: 037-s1.rom
+      size: 131072
+      blob_id: 12784
+    - id: 17863
+      asset_id: 1189
+      name: 037-v1.rom
+      size: 1048576
+      blob_id: 12785
+    - id: 17864
+      asset_id: 1189
+      name: 037-c1.rom
+      size: 1048576
+      blob_id: 12786
+    - id: 17865
+      asset_id: 1189
+      name: 037-c2.rom
+      size: 1048576
+      blob_id: 12787
+    - id: 17866
+      asset_id: 1189
+      name: 037-c3.rom
+      size: 1048576
+      blob_id: 12788
+    - id: 17867
+      asset_id: 1189
+      name: 037-c4.rom
+      size: 1048576
+      blob_id: 12789
+    - id: 17868
+      asset_id: 1189
+      name: 037-m1.rom
+      size: 131072
+      blob_id: 12790
+    - id: 17869
+      asset_id: 1189
+      name: 037-p1.rom
+      size: 524288
+      blob_id: 12791
 - release:
     id: 1193
     game_id: 1193

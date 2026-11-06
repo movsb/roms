@@ -8,6 +8,12 @@ names:
   language: 1
   name: Vs. Ice Climber (set IC4-4 B-1)
   source: mame
+- id: 237356
+  kind: 2
+  kind_id: 79348
+  language: 1
+  name: VS. Ice Climber
+  source: fbneo
 - id: 250030
   kind: 2
   kind_id: 79348
@@ -140,3 +146,43 @@ releases:
       size: 1949
       blob_id: 326738
       debug: libretro-named-titles:rom-asset=101415:source=https://thumbnails.libretro.com/MAME/Named_Titles/Vs.%20Ice%20Climber%20%28set%20IC4-4%20_%29.png
+- release:
+    id: 102781
+    game_id: 79348
+    release_date: 19850000
+  names:
+  - id: 237357
+    kind: 3
+    kind_id: 102781
+    language: 1
+    name: VS. Ice Climber
+    source: fbneo
+  assets:
+  - asset:
+      id: 119808
+      kind: 3
+      kind_id: 102781
+      type: 1
+      name: vsiceclimber.zip
+      format: 2
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 843454
+      asset_id: 119808
+      name: VS. Ice Climber (1985)(Nintendo).nes
+      size: 49168
+      blob_id: 299615
+  - asset:
+      id: 134091
+      kind: 3
+      kind_id: 102781
+      type: 9
+      name: vsiceclimber.png
+      format: 1
+      size: 1160
+      blob_id: 321639
+      debug: |-
+        importer=fbneo-extras
+        repository=https://github.com/finalburnneo/FBNeo-extras
+        revision=d61f692a027ad7bcbaccceda20e43ed47900dcda
+        source=titles/vsiceclimber.png

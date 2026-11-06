@@ -37,11 +37,23 @@ names:
   language: 1
   name: Xain'd Sleena
   source: mame
+- id: 217003
+  kind: 2
+  kind_id: 4673
+  language: 1
+  name: Xain'd Sleena (SC 3.0, Magnet System)
+  source: mame
 - id: 244074
   kind: 2
   kind_id: 4673
   language: 2
   name: 星球战士
+  source: codex
+- id: 250342
+  kind: 2
+  kind_id: 4673
+  language: 2
+  name: 赛恩德斯雷纳
   source: codex
 game_genres:
 - game_id: 4673
@@ -797,6 +809,38 @@ releases:
       name: xsleenaj/p9-01.ic66
       size: 32768
       blob_id: 50724
+- release:
+    id: 88241
+    game_id: 4673
+    release_date: 19870000
+  names:
+  - id: 217004
+    kind: 3
+    kind_id: 88241
+    language: 1
+    name: Xain'd Sleena (SC 3.0, Magnet System)
+    source: mame
+  assets:
+  - asset:
+      id: 103541
+      kind: 3
+      kind_id: 88241
+      type: 1
+      name: mag_xain.zip
+      format: 2
+      size: 387786
+      debug: dat:mame:0.289
+    entries:
+    - id: 653811
+      asset_id: 103541
+      name: magnet-master-vid-e03.bin
+      size: 8192
+      blob_id: 208289
+    - id: 653812
+      asset_id: 103541
+      name: xain.img
+      size: 983040
+      blob_id: 256404
 - release:
     id: 102159
     game_id: 4673

@@ -31,6 +31,18 @@ names:
   language: 1
   name: Time Scanner (bootleg)
   source: mame
+- id: 216998
+  kind: 2
+  kind_id: 4253
+  language: 1
+  name: Time Scanner (TS 2.0, Magnet System)
+  source: mame
+- id: 250340
+  kind: 2
+  kind_id: 4253
+  language: 2
+  name: 时间扫描器
+  source: codex
 game_developers:
 - game_id: 4253
   developer_id: 110
@@ -176,6 +188,38 @@ releases:
         repository=https://github.com/finalburnneo/FBNeo-extras
         revision=d61f692a027ad7bcbaccceda20e43ed47900dcda
         source=titles/timescan.png
+- release:
+    id: 88238
+    game_id: 4253
+    release_date: 19870000
+  names:
+  - id: 216999
+    kind: 3
+    kind_id: 88238
+    language: 1
+    name: Time Scanner (TS 2.0, Magnet System)
+    source: mame
+  assets:
+  - asset:
+      id: 103538
+      kind: 3
+      kind_id: 88238
+      type: 1
+      name: mag_time.zip
+      format: 2
+      size: 180897
+      debug: dat:mame:0.289
+    entries:
+    - id: 653805
+      asset_id: 103538
+      name: magnet-master-vid-e03.bin
+      size: 8192
+      blob_id: 208289
+    - id: 653806
+      asset_id: 103538
+      name: timescanner.img
+      size: 983040
+      blob_id: 256401
 - release:
     id: 99830
     game_id: 4253

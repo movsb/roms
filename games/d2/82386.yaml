@@ -2,6 +2,12 @@ game:
   id: 82386
   platform_id: 1
 names:
+- id: 222540
+  kind: 2
+  kind_id: 82386
+  language: 1
+  name: Player's Edge Plus (X002270P+XP000053) Jackpot Poker
+  source: mame
 - id: 222558
   kind: 2
   kind_id: 82386
@@ -15,6 +21,74 @@ names:
   name: 玩家优势加强版：头奖扑克
   source: codex
 releases:
+- release:
+    id: 91908
+    game_id: 82386
+    release_date: 19950000
+  names:
+  - id: 222541
+    kind: 3
+    kind_id: 91908
+    language: 1
+    name: Player's Edge Plus (X002270P+XP000053) Jackpot Poker
+    source: mame
+  assets:
+  - asset:
+      id: 107374
+      kind: 3
+      kind_id: 91908
+      type: 1
+      name: pex2270p.zip
+      format: 2
+      size: 97728
+      debug: dat:mame:0.289
+    entries:
+    - id: 694209
+      asset_id: 107374
+      name: capx2292.u43
+      size: 512
+      blob_id: 265735
+    - id: 694210
+      asset_id: 107374
+      name: mbo-cg2292.u79
+      size: 65536
+      blob_id: 265736
+    - id: 694211
+      asset_id: 107374
+      name: mgo-cg2292.u78
+      size: 65536
+      blob_id: 265737
+    - id: 694212
+      asset_id: 107374
+      name: mro-cg2292.u77
+      size: 65536
+      blob_id: 265738
+    - id: 694213
+      asset_id: 107374
+      name: mxo-cg2292.u80
+      size: 65536
+      blob_id: 265739
+    - id: 694214
+      asset_id: 107374
+      name: x002270p.u66
+      size: 65536
+      blob_id: 265740
+    - id: 694215
+      asset_id: 107374
+      name: xp000053.u67
+      size: 65536
+      blob_id: 265741
+  - asset:
+      id: 142456
+      kind: 3
+      kind_id: 91908
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/MAME/Named_Titles/Player%27s%20Edge%20Plus%20%28X002270P%2BXP000053%29%20Jackpot%20Poker.png
+      format: 1
+      size: 2667
+      blob_id: 327311
+      debug: libretro-named-titles:rom-asset=107374:source=https://thumbnails.libretro.com/MAME/Named_Titles/Player%27s%20Edge%20Plus%20%28X002270P%2BXP000053%29%20Jackpot%20Poker.png
 - release:
     id: 91917
     game_id: 82386

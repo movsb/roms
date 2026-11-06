@@ -7,6 +7,11 @@ names:
   kind_id: 3272
   language: 1
   name: quizdais
+- id: 6546
+  kind: 2
+  kind_id: 3272
+  language: 1
+  name: quizdaisousasen1
 - id: 97389
   kind: 2
   kind_id: 3272
@@ -19,6 +24,12 @@ names:
   language: 1
   name: "Quiz Salibtamjeong - The Last Count Down (Korean localized Quiz Daisousa Sen)"
   source: mame
+- id: 247235
+  kind: 2
+  kind_id: 3272
+  language: 2
+  name: 问答大搜查线
+  source: codex
 releases:
 - release:
     id: 3272
@@ -496,6 +507,56 @@ releases:
         repository=https://github.com/finalburnneo/FBNeo-extras
         revision=d61f692a027ad7bcbaccceda20e43ed47900dcda
         source=titles/quizdais.png
+- release:
+    id: 3273
+    game_id: 3272
+  names:
+  - id: 6547
+    kind: 3
+    kind_id: 3273
+    language: 1
+    name: quizdaisousasen1
+  assets:
+  - asset:
+      id: 3258
+      kind: 3
+      kind_id: 3273
+      type: 1
+      name: quizdaisousasen1.zip
+      format: 2
+      size: 2072690
+      debug: quizdaisousasen1.zip
+    entries:
+    - id: 53626
+      asset_id: 3258
+      name: 023-c1.rom
+      size: 1048576
+      blob_id: 34816
+    - id: 53627
+      asset_id: 3258
+      name: 023-c2.rom
+      size: 1048576
+      blob_id: 34817
+    - id: 53628
+      asset_id: 3258
+      name: 023-m1.rom
+      size: 131072
+      blob_id: 34818
+    - id: 53629
+      asset_id: 3258
+      name: 023-p1.rom
+      size: 1048576
+      blob_id: 34819
+    - id: 53630
+      asset_id: 3258
+      name: 023-s1.rom
+      size: 131072
+      blob_id: 34820
+    - id: 53631
+      asset_id: 3258
+      name: 023-v1.rom
+      size: 1048576
+      blob_id: 34821
 - release:
     id: 93062
     game_id: 3272

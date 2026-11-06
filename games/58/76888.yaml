@@ -14,6 +14,12 @@ names:
   language: 2
   name: Vs.转转乐园
   source: codex
+- id: 251726
+  kind: 2
+  kind_id: 76888
+  language: 2
+  name: VS.快乐转盘
+  source: codex
 releases:
 - release:
     id: 81490
@@ -83,3 +89,43 @@ releases:
       size: 2146
       blob_id: 326249
       debug: libretro-named-titles:rom-asset=96247:source=https://thumbnails.libretro.com/MAME/Named_Titles/Vs.%20Clu%20Clu%20Land.png
+- release:
+    id: 102771
+    game_id: 76888
+    release_date: 19840000
+  names:
+  - id: 237337
+    kind: 3
+    kind_id: 102771
+    language: 1
+    name: VS. Clu Clu Land
+    source: fbneo
+  assets:
+  - asset:
+      id: 119797
+      kind: 3
+      kind_id: 102771
+      type: 1
+      name: vsclucluland.zip
+      format: 2
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 843438
+      asset_id: 119797
+      name: VS. Clu Clu Land (1984)(Nintendo).nes
+      size: 49168
+      blob_id: 299605
+  - asset:
+      id: 134081
+      kind: 3
+      kind_id: 102771
+      type: 9
+      name: vsclucluland.png
+      format: 1
+      size: 1286
+      blob_id: 321629
+      debug: |-
+        importer=fbneo-extras
+        repository=https://github.com/finalburnneo/FBNeo-extras
+        revision=d61f692a027ad7bcbaccceda20e43ed47900dcda
+        source=titles/vsclucluland.png

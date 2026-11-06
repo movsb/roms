@@ -8,6 +8,12 @@ names:
   language: 1
   name: Vs. Hogan's Alley (set HA4-1 E-1)
   source: mame
+- id: 237354
+  kind: 2
+  kind_id: 79145
+  language: 1
+  name: VS. Hogan's Alley
+  source: fbneo
 - id: 250001
   kind: 2
   kind_id: 79145
@@ -72,3 +78,43 @@ releases:
       name: rp2c04-0001.pal
       size: 192
       blob_id: 48916
+- release:
+    id: 102780
+    game_id: 79145
+    release_date: 19850000
+  names:
+  - id: 237355
+    kind: 3
+    kind_id: 102780
+    language: 1
+    name: VS. Hogan's Alley
+    source: fbneo
+  assets:
+  - asset:
+      id: 119806
+      kind: 3
+      kind_id: 102780
+      type: 1
+      name: vshogansalley.zip
+      format: 2
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 843447
+      asset_id: 119806
+      name: VS. Hogan's Alley (1985)(Nintendo).nes
+      size: 49168
+      blob_id: 299614
+  - asset:
+      id: 134090
+      kind: 3
+      kind_id: 102780
+      type: 9
+      name: vshogansalley.png
+      format: 1
+      size: 694
+      blob_id: 321638
+      debug: |-
+        importer=fbneo-extras
+        repository=https://github.com/finalburnneo/FBNeo-extras
+        revision=d61f692a027ad7bcbaccceda20e43ed47900dcda
+        source=titles/vshogansalley.png

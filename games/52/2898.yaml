@@ -3,6 +3,11 @@ game:
   platform_id: 1
   description: "Neo Mr. Do! (c) 1996 Visco Corp.  - TECHNICAL -  SNK Neo-Geo MVS hardware Game ID : 0207  Main CPU : 68000 (@ 12 Mhz) Sound CPU : Z80 (@ 4 Mhz) Sound Chips : YM2610 (@ 8 Mhz)  Players : 2 Control : 8-way joystick Buttons : 1 => [A] Attack enemy  - TRIVIA"
 names:
+- id: 5794
+  kind: 2
+  kind_id: 2898
+  language: 1
+  name: neomr.do
 - id: 5796
   kind: 2
   kind_id: 2898
@@ -14,6 +19,12 @@ names:
   language: 2
   name: Neo 嘟先生
   source: codex
+- id: 247217
+  kind: 2
+  kind_id: 2898
+  language: 2
+  name: Neo嘟先生
+  source: codex
 game_developers:
 - game_id: 2898
   developer_id: 412
@@ -21,6 +32,56 @@ game_genres:
 - game_id: 2898
   genre_id: 33
 releases:
+- release:
+    id: 2897
+    game_id: 2898
+  names:
+  - id: 5795
+    kind: 3
+    kind_id: 2897
+    language: 1
+    name: neomr.do
+  assets:
+  - asset:
+      id: 2883
+      kind: 3
+      kind_id: 2897
+      type: 1
+      name: neomr.do.zip
+      format: 2
+      size: 1604779
+      debug: neomr.do.zip
+    entries:
+    - id: 47268
+      asset_id: 2883
+      name: 207-c1.rom
+      size: 2097152
+      blob_id: 30739
+    - id: 47269
+      asset_id: 2883
+      name: 207-c2.rom
+      size: 2097152
+      blob_id: 30740
+    - id: 47270
+      asset_id: 2883
+      name: 207-m1.rom
+      size: 131072
+      blob_id: 30741
+    - id: 47271
+      asset_id: 2883
+      name: 207-p1.rom
+      size: 524288
+      blob_id: 30742
+    - id: 47272
+      asset_id: 2883
+      name: 207-s1.rom
+      size: 65536
+      blob_id: 30743
+    - id: 47273
+      asset_id: 2883
+      name: 207-v1.rom
+      size: 2097152
+      blob_id: 30744
 - release:
     id: 2898
     game_id: 2898

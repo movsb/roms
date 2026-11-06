@@ -31,6 +31,18 @@ names:
   language: 1
   name: RayStorm (Ver 2.05A)
   source: mame
+- id: 224713
+  kind: 2
+  kind_id: 3314
+  language: 1
+  name: Ray Storm (VER 2.60G)
+  source: mame
+- id: 250945
+  kind: 2
+  kind_id: 3314
+  language: 2
+  name: 雷霆风暴
+  source: codex
 releases:
 - release:
     id: 3314
@@ -179,6 +191,68 @@ releases:
       size: 70007
       blob_id: 325850
       debug: libretro-named-titles:rom-asset=108916:source=https://thumbnails.libretro.com/MAME/Named_Titles/Ray%20Storm%20%28Ver%202.06A%29.png
+- release:
+    id: 93361
+    game_id: 3314
+    release_date: 20110000
+  names:
+  - id: 224714
+    kind: 3
+    kind_id: 93361
+    language: 1
+    name: Ray Storm (VER 2.60G)
+    source: mame
+  assets:
+  - asset:
+      id: 108917
+      kind: 3
+      kind_id: 93361
+      type: 1
+      name: raystormg.zip
+      format: 2
+      size: 836577
+      debug: dat:mame:0.289
+    entries:
+    - id: 711259
+      asset_id: 108917
+      name: f35-01_m27c800.bin
+      size: 1048576
+      blob_id: 40093
+    - id: 711260
+      asset_id: 108917
+      name: f35-01_m27c800_modbios_mb-2009_dump_by_aje_fr.bin
+      size: 1048576
+      blob_id: 209522
+    - id: 711261
+      asset_id: 108917
+      name: f35-01_m27c800_modbios_mb-2011.bin
+      size: 1048576
+      blob_id: 209523
+    - id: 711262
+      asset_id: 108917
+      name: f35-01_m27c800_v1.bin
+      size: 1048576
+      blob_id: 40094
+    - id: 711263
+      asset_id: 108917
+      name: flash.u30
+      size: 2097152
+      blob_id: 40095
+    - id: 711264
+      asset_id: 108917
+      name: m534002c-60.ic353
+      size: 524288
+      blob_id: 40096
+    - id: 711265
+      asset_id: 108917
+      name: tt10.ic652
+      size: 8
+      blob_id: 40097
+    - id: 711266
+      asset_id: 108917
+      name: tt16.u17
+      size: 8
+      blob_id: 40098
 - release:
     id: 93362
     game_id: 3314

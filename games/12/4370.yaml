@@ -7,18 +7,94 @@ names:
   kind_id: 4370
   language: 1
   name: twcup90
+- id: 9044
+  kind: 2
+  kind_id: 4370
+  language: 1
+  name: wc90
+- id: 9048
+  kind: 2
+  kind_id: 4370
+  language: 1
+  name: wc90b
 - id: 98118
   kind: 2
   kind_id: 4370
   language: 2
   name: Tecmo 世界杯足球 '90 (世界版, 第一套)
   source: trimui
+- id: 98220
+  kind: 2
+  kind_id: 4370
+  language: 2
+  name: 世界杯足球 '90 (欧版 第 2 套)
+  source: trimui
+- id: 200572
+  kind: 2
+  kind_id: 4370
+  language: 1
+  name: Tecmo World Cup '90 (Europe set 1)
+  source: mame
+- id: 200573
+  kind: 2
+  kind_id: 4370
+  language: 1
+  name: Tecmo World Cup '90 (Europe set 2)
+  source: mame
+- id: 200574
+  kind: 2
+  kind_id: 4370
+  language: 1
+  name: Euro League (Italian hack of Tecmo World Cup '90, set 1)
+  source: mame
+- id: 200575
+  kind: 2
+  kind_id: 4370
+  language: 1
+  name: Worldcup '90 (hack)
+  source: mame
+- id: 200576
+  kind: 2
+  kind_id: 4370
+  language: 1
+  name: Euro League (Italian hack of Tecmo World Cup '90, set 3)
+  source: mame
+- id: 200577
+  kind: 2
+  kind_id: 4370
+  language: 1
+  name: Euro League (Italian hack of Tecmo World Cup '90, set 2)
+  source: mame
+- id: 200578
+  kind: 2
+  kind_id: 4370
+  language: 1
+  name: World Cup '90 (European hack, different title)
+  source: mame
+- id: 200579
+  kind: 2
+  kind_id: 4370
+  language: 1
+  name: Tecmo World Cup '90 (Europe set 3)
+  source: mame
+- id: 200580
+  kind: 2
+  kind_id: 4370
+  language: 1
+  name: Tecmo World Cup '90 (trackball set 1)
+  source: mame
 - id: 240885
   kind: 2
   kind_id: 4370
   language: 1
   name: Euro League (Gaelco bootleg, Modular System)
   source: mame
+game_developers:
+- game_id: 4370
+  developer_id: 17
+game_genres:
+- game_id: 4370
+  genre_id: 6
 releases:
 - release:
     id: 4370
@@ -640,6 +716,359 @@ releases:
         repository=https://github.com/finalburnneo/FBNeo-extras
         revision=d61f692a027ad7bcbaccceda20e43ed47900dcda
         source=titles/twcup90.png
+- release:
+    id: 4522
+    game_id: 4370
+    release_date: 19890000
+  names:
+  - id: 9045
+    kind: 3
+    kind_id: 4522
+    language: 1
+    name: wc90
+  - id: 102454
+    kind: 3
+    kind_id: 4522
+    language: 2
+    name: 世界杯足球 '90 (世界版)
+    source: trimui
+  - id: 184916
+    kind: 3
+    kind_id: 4522
+    language: 1
+    name: Tecmo World Cup '90 (World set 1)
+    source: fbneo
+  release_publishers:
+  - release_id: 4522
+    publisher_id: 14
+  assets:
+  - asset:
+      id: 4504
+      kind: 3
+      kind_id: 4522
+      type: 1
+      name: wc90.zip
+      format: 2
+      size: 397803
+      debug: wc90.zip
+    entries:
+    - id: 78213
+      asset_id: 4504
+      name: ic50_12v.bin
+      size: 131072
+      blob_id: 47497
+    - id: 78214
+      asset_id: 4504
+      name: ic54_05.bin
+      size: 65536
+      blob_id: 47498
+    - id: 78215
+      asset_id: 4504
+      name: ic54_13v.bin
+      size: 131072
+      blob_id: 47499
+    - id: 78216
+      asset_id: 4504
+      name: ic56_03.bin
+      size: 65536
+      blob_id: 47500
+    - id: 78217
+      asset_id: 4504
+      name: ic60_14v.bin
+      size: 131072
+      blob_id: 47501
+    - id: 78218
+      asset_id: 4504
+      name: ic65_15v.bin
+      size: 131072
+      blob_id: 47502
+    - id: 78219
+      asset_id: 4504
+      name: ic67_04.bin
+      size: 65536
+      blob_id: 47503
+    - id: 78220
+      asset_id: 4504
+      name: ic82_06.bin
+      size: 131072
+      blob_id: 47504
+    - id: 78221
+      asset_id: 4504
+      name: ic85_07v.bin
+      size: 65536
+      blob_id: 47505
+    - id: 78222
+      asset_id: 4504
+      name: ic86_08v.bin
+      size: 131072
+      blob_id: 47506
+    - id: 78223
+      asset_id: 4504
+      name: ic87_01.bin
+      size: 32768
+      blob_id: 47507
+    - id: 78224
+      asset_id: 4504
+      name: ic87_10v.bin
+      size: 131072
+      blob_id: 47508
+    - id: 78225
+      asset_id: 4504
+      name: ic90_09v.bin
+      size: 131072
+      blob_id: 47509
+    - id: 78226
+      asset_id: 4504
+      name: ic91_11v.bin
+      size: 131072
+      blob_id: 47510
+    - id: 78227
+      asset_id: 4504
+      name: ic95_02.bin
+      size: 65536
+      blob_id: 47511
+- release:
+    id: 4523
+    game_id: 4370
+  names:
+  - id: 95041
+    kind: 3
+    kind_id: 4523
+    language: 1
+    name: wc90
+  - id: 102455
+    kind: 3
+    kind_id: 4523
+    language: 2
+    name: 世界杯足球 '90 (世界版)
+    source: trimui
+  assets:
+  - asset:
+      id: 4505
+      kind: 3
+      kind_id: 4523
+      type: 1
+      name: wc90.zip
+      format: 2
+      size: 401300
+      debug: wc90_2.zip
+    entries:
+    - id: 78228
+      asset_id: 4505
+      name: IC87_01.BIN
+      size: 32768
+      blob_id: 47507
+    - id: 78229
+      asset_id: 4505
+      name: IC95_02.BIN
+      size: 65536
+      blob_id: 47511
+    - id: 78230
+      asset_id: 4505
+      name: IC56_03.BIN
+      size: 65536
+      blob_id: 47500
+    - id: 78231
+      asset_id: 4505
+      name: IC67_04.BIN
+      size: 65536
+      blob_id: 47503
+    - id: 78232
+      asset_id: 4505
+      name: IC54_05.BIN
+      size: 65536
+      blob_id: 47498
+    - id: 78233
+      asset_id: 4505
+      name: IC85_07V.BIN
+      size: 65536
+      blob_id: 47505
+    - id: 78234
+      asset_id: 4505
+      name: IC82_06.BIN
+      size: 131072
+      blob_id: 47504
+    - id: 78235
+      asset_id: 4505
+      name: IC86_08V.BIN
+      size: 131072
+      blob_id: 47506
+    - id: 78236
+      asset_id: 4505
+      name: IC90_09V.BIN
+      size: 131072
+      blob_id: 47509
+    - id: 78237
+      asset_id: 4505
+      name: IC87_10V.BIN
+      size: 131072
+      blob_id: 47508
+    - id: 78238
+      asset_id: 4505
+      name: IC91_11V.BIN
+      size: 131072
+      blob_id: 47510
+    - id: 78239
+      asset_id: 4505
+      name: IC50_12V.BIN
+      size: 131072
+      blob_id: 47497
+    - id: 78240
+      asset_id: 4505
+      name: IC54_13V.BIN
+      size: 131072
+      blob_id: 47499
+    - id: 78241
+      asset_id: 4505
+      name: IC60_14V.BIN
+      size: 131072
+      blob_id: 47501
+    - id: 78242
+      asset_id: 4505
+      name: IC65_15V.BIN
+      size: 131072
+      blob_id: 47502
+    - id: 78243
+      asset_id: 4505
+      name: README.TXT
+      size: 517
+      blob_id: 49202
+- release:
+    id: 4524
+    game_id: 4370
+  names:
+  - id: 9049
+    kind: 3
+    kind_id: 4524
+    language: 1
+    name: wc90b
+  - id: 100351
+    kind: 3
+    kind_id: 4524
+    language: 2
+    name: 世界杯足球 '90 (欧版 第 2 套)
+    source: trimui
+  assets:
+  - asset:
+      id: 4506
+      kind: 3
+      kind_id: 4524
+      type: 1
+      name: wc90b.zip
+      format: 2
+      size: 403387
+      debug: wc90b.zip
+    entries:
+    - id: 78244
+      asset_id: 4506
+      name: 153_A19.BIN
+      size: 65536
+      blob_id: 47495
+    - id: 78245
+      asset_id: 4506
+      name: 152_A18.BIN
+      size: 65536
+      blob_id: 47491
+    - id: 78246
+      asset_id: 4506
+      name: 151_A17.BIN
+      size: 65536
+      blob_id: 47494
+    - id: 78247
+      asset_id: 4506
+      name: 150_A16.BIN
+      size: 65536
+      blob_id: 47490
+    - id: 78248
+      asset_id: 4506
+      name: 149_A15.BIN
+      size: 65536
+      blob_id: 47493
+    - id: 78249
+      asset_id: 4506
+      name: 148_A14.BIN
+      size: 65536
+      blob_id: 47489
+    - id: 78250
+      asset_id: 4506
+      name: 147_A13.BIN
+      size: 65536
+      blob_id: 47492
+    - id: 78251
+      asset_id: 4506
+      name: 146_A12.BIN
+      size: 65536
+      blob_id: 47488
+    - id: 78252
+      asset_id: 4506
+      name: A05.BIN
+      size: 65536
+      blob_id: 47474
+    - id: 78253
+      asset_id: 4506
+      name: A04.BIN
+      size: 65536
+      blob_id: 47516
+    - id: 78254
+      asset_id: 4506
+      name: A03.BIN
+      size: 65536
+      blob_id: 47472
+    - id: 78255
+      asset_id: 4506
+      name: A02.BIN
+      size: 65536
+      blob_id: 47515
+    - id: 78256
+      asset_id: 4506
+      name: A01.BIN
+      size: 65536
+      blob_id: 47514
+    - id: 78257
+      asset_id: 4506
+      name: README.TXT
+      size: 984
+      blob_id: 49203
+    - id: 78258
+      asset_id: 4506
+      name: A20.BIN
+      size: 16384
+      blob_id: 47523
+    - id: 78259
+      asset_id: 4506
+      name: A10.BIN
+      size: 16384
+      blob_id: 47521
+    - id: 78260
+      asset_id: 4506
+      name: A08.BIN
+      size: 16384
+      blob_id: 47519
+    - id: 78261
+      asset_id: 4506
+      name: A06.BIN
+      size: 16384
+      blob_id: 47517
+    - id: 78262
+      asset_id: 4506
+      name: A21.BIN
+      size: 131072
+      blob_id: 47524
+    - id: 78263
+      asset_id: 4506
+      name: A11.BIN
+      size: 131072
+      blob_id: 47522
+    - id: 78264
+      asset_id: 4506
+      name: A09.BIN
+      size: 131072
+      blob_id: 47520
+    - id: 78265
+      asset_id: 4506
+      name: A07.BIN
+      size: 131072
+      blob_id: 47518
 - release:
     id: 100512
     game_id: 4370

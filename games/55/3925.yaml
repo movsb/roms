@@ -7,6 +7,16 @@ names:
   kind_id: 3925
   language: 1
   name: sqix
+- id: 7852
+  kind: 2
+  kind_id: 3925
+  language: 1
+  name: sqixbl
+- id: 8148
+  kind: 2
+  kind_id: 3925
+  language: 1
+  name: superqix
 - id: 97836
   kind: 2
   kind_id: 3925
@@ -43,6 +53,18 @@ names:
   language: 1
   name: Super Qix (US)
   source: mame
+- id: 247272
+  kind: 2
+  kind_id: 3925
+  language: 2
+  name: 超级Qix
+  source: codex
+- id: 251877
+  kind: 2
+  kind_id: 3925
+  language: 2
+  name: 超级Qix加强版
+  source: codex
 game_developers:
 - game_id: 3925
   developer_id: 35
@@ -166,6 +188,111 @@ releases:
         repository=https://github.com/finalburnneo/FBNeo-extras
         revision=d61f692a027ad7bcbaccceda20e43ed47900dcda
         source=titles/sqix.png
+- release:
+    id: 3926
+    game_id: 3925
+  names:
+  - id: 7853
+    kind: 3
+    kind_id: 3926
+    language: 1
+    name: sqixbl
+  assets:
+  - asset:
+      id: 3910
+      kind: 3
+      kind_id: 3926
+      type: 1
+      name: sqixbl.zip
+      format: 2
+      size: 142504
+      debug: sqixbl.zip
+    entries:
+    - id: 66855
+      asset_id: 3910
+      name: "3"
+      size: 65536
+      blob_id: 42123
+    - id: 66856
+      asset_id: 3910
+      name: "4"
+      size: 32768
+      blob_id: 42122
+    - id: 66857
+      asset_id: 3910
+      name: "5"
+      size: 65536
+      blob_id: 42126
+    - id: 66858
+      asset_id: 3910
+      name: "6"
+      size: 65536
+      blob_id: 42127
+    - id: 66859
+      asset_id: 3910
+      name: cpu.1
+      size: 65536
+      blob_id: 42121
+    - id: 66860
+      asset_id: 3910
+      name: cpu.2
+      size: 32768
+      blob_id: 42128
+- release:
+    id: 4074
+    game_id: 3925
+  names:
+  - id: 8149
+    kind: 3
+    kind_id: 4074
+    language: 1
+    name: superqix
+  assets:
+  - asset:
+      id: 4058
+      kind: 3
+      kind_id: 4074
+      type: 1
+      name: superqix.zip
+      format: 2
+      size: 143737
+      debug: superqix.zip
+    entries:
+    - id: 69648
+      asset_id: 4058
+      name: sqalt/sq01.97
+      size: 32768
+      blob_id: 43715
+    - id: 69649
+      asset_id: 4058
+      name: sqalt/sq03.3
+      size: 65536
+      blob_id: 42126
+    - id: 69650
+      asset_id: 4058
+      name: sqalt/sq04.2
+      size: 32768
+      blob_id: 42122
+    - id: 69651
+      asset_id: 4058
+      name: sqalt/sq05.1
+      size: 65536
+      blob_id: 42123
+    - id: 69652
+      asset_id: 4058
+      name: sqalt/sq06.14
+      size: 65536
+      blob_id: 42127
+    - id: 69653
+      asset_id: 4058
+      name: sqalt/sq07.108
+      size: 4096
+      blob_id: 43716
+    - id: 69654
+      asset_id: 4058
+      name: sqalt/sq02.96
+      size: 65536
+      blob_id: 42121
 - release:
     id: 98548
     game_id: 3925

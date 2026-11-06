@@ -7,11 +7,22 @@ names:
   kind_id: 72
   language: 1
   name: BERZERK
+- id: 146
+  kind: 2
+  kind_id: 72
+  language: 1
+  name: BERZERK1
 - id: 95335
   kind: 2
   kind_id: 72
   language: 2
   name: 迷宫射击 (修订版 RC31A)
+  source: trimui
+- id: 95336
+  kind: 2
+  kind_id: 72
+  language: 2
+  name: 迷宫射击 (第 2 套)
   source: trimui
 - id: 188398
   kind: 2
@@ -174,6 +185,62 @@ releases:
         repository=https://github.com/finalburnneo/FBNeo-extras
         revision=d61f692a027ad7bcbaccceda20e43ed47900dcda
         source=titles/berzerk.png
+- release:
+    id: 73
+    game_id: 72
+  names:
+  - id: 147
+    kind: 3
+    kind_id: 73
+    language: 1
+    name: BERZERK1
+  - id: 98391
+    kind: 3
+    kind_id: 73
+    language: 2
+    name: 迷宫射击 (第 2 套)
+    source: trimui
+  assets:
+  - asset:
+      id: 73
+      kind: 3
+      kind_id: 73
+      type: 1
+      name: berzerk1.zip
+      format: 2
+      size: 9620
+      debug: BERZERK1.ZIP
+    entries:
+    - id: 1485
+      asset_id: 73
+      name: ROM5.5C
+      size: 2048
+      blob_id: 981
+    - id: 1486
+      asset_id: 73
+      name: ROM3.5D
+      size: 2048
+      blob_id: 982
+    - id: 1487
+      asset_id: 73
+      name: ROM2.3D
+      size: 2048
+      blob_id: 983
+    - id: 1488
+      asset_id: 73
+      name: ROM0.1C
+      size: 2048
+      blob_id: 984
+    - id: 1489
+      asset_id: 73
+      name: ROM4.6D
+      size: 2048
+      blob_id: 985
+    - id: 1490
+      asset_id: 73
+      name: ROM1.1D
+      size: 2048
+      blob_id: 986
 - release:
     id: 80185
     game_id: 72

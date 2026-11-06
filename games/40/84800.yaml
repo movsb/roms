@@ -8,6 +8,12 @@ names:
   language: 1
   name: The Block Kuzushi
   source: mame
+- id: 232435
+  kind: 2
+  kind_id: 84800
+  language: 1
+  name: The Block Kuzushi (VER 1.10G)
+  source: mame
 - id: 251269
   kind: 2
   kind_id: 84800
@@ -80,3 +86,65 @@ releases:
       size: 22476
       blob_id: 327895
       debug: libretro-named-titles:rom-asset=115225:source=https://thumbnails.libretro.com/MAME/Named_Titles/The%20Block%20Kuzushi%20%28Japan%29.png
+- release:
+    id: 99379
+    game_id: 84800
+    release_date: 20110000
+  names:
+  - id: 232436
+    kind: 3
+    kind_id: 99379
+    language: 1
+    name: The Block Kuzushi (VER 1.10G)
+    source: mame
+  assets:
+  - asset:
+      id: 115226
+      kind: 3
+      kind_id: 99379
+      type: 1
+      name: tblkkuzug.zip
+      format: 2
+      size: 836577
+      debug: dat:mame:0.289
+    entries:
+    - id: 765512
+      asset_id: 115226
+      name: f35-01_m27c800.bin
+      size: 1048576
+      blob_id: 40093
+    - id: 765513
+      asset_id: 115226
+      name: f35-01_m27c800_modbios_mb-2009_dump_by_aje_fr.bin
+      size: 1048576
+      blob_id: 209522
+    - id: 765514
+      asset_id: 115226
+      name: f35-01_m27c800_modbios_mb-2011.bin
+      size: 1048576
+      blob_id: 209523
+    - id: 765515
+      asset_id: 115226
+      name: f35-01_m27c800_v1.bin
+      size: 1048576
+      blob_id: 40094
+    - id: 765516
+      asset_id: 115226
+      name: flash.u30
+      size: 2097152
+      blob_id: 40095
+    - id: 765517
+      asset_id: 115226
+      name: m534002c-60.ic353
+      size: 524288
+      blob_id: 40096
+    - id: 765518
+      asset_id: 115226
+      name: tt10.ic652
+      size: 8
+      blob_id: 40097
+    - id: 765519
+      asset_id: 115226
+      name: tt16.u17
+      size: 8
+      blob_id: 40098

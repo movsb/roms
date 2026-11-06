@@ -8,11 +8,22 @@ names:
   kind_id: 2583
   language: 1
   name: magdrop2
+- id: 5176
+  kind: 2
+  kind_id: 2583
+  language: 1
+  name: magicaldrop2
 - id: 243687
   kind: 2
   kind_id: 2583
   language: 2
   name: 魔法气泡 II
+  source: codex
+- id: 247199
+  kind: 2
+  kind_id: 2583
+  language: 2
+  name: 魔法气泡II
   source: codex
 game_developers:
 - game_id: 2583
@@ -557,3 +568,53 @@ releases:
       name: 221-v1.bin
       size: 2097152
       blob_id: 27475
+- release:
+    id: 2588
+    game_id: 2583
+  names:
+  - id: 5177
+    kind: 3
+    kind_id: 2588
+    language: 1
+    name: magicaldrop2
+  assets:
+  - asset:
+      id: 2576
+      kind: 3
+      kind_id: 2588
+      type: 1
+      name: magicaldrop2.zip
+      format: 2
+      size: 3723489
+      debug: magicaldrop2.zip
+    entries:
+    - id: 41590
+      asset_id: 2576
+      name: DROP2_M1.ROM
+      size: 131072
+      blob_id: 27472
+    - id: 41591
+      asset_id: 2576
+      name: DROP2_P1.ROM
+      size: 524288
+      blob_id: 27473
+    - id: 41592
+      asset_id: 2576
+      name: DROP2_S1.ROM
+      size: 131072
+      blob_id: 27474
+    - id: 41593
+      asset_id: 2576
+      name: DROP2_V1.ROM
+      size: 2097152
+      blob_id: 27475
+    - id: 41594
+      asset_id: 2576
+      name: DROP2_C1.ROM
+      size: 4194304
+      blob_id: 27470
+    - id: 41595
+      asset_id: 2576
+      name: DROP2_C2.ROM
+      size: 4194304
+      blob_id: 27471

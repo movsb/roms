@@ -3,6 +3,11 @@ game:
   platform_id: 1
   description: A comical vertically scrolling shoot'em up starring a mutated tomato who punches the enemy and can transform to other weird characters.
 names:
+- id: 2024
+  kind: 2
+  kind_id: 1215
+  language: 1
+  name: captaintomaday
 - id: 2430
   kind: 2
   kind_id: 1215
@@ -21,6 +26,12 @@ names:
   name: 蕃茄超人
   source: codex
   deprecated: 1
+- id: 247167
+  kind: 2
+  kind_id: 1215
+  language: 2
+  name: 番茄队长
+  source: codex
 game_developers:
 - game_id: 1215
   developer_id: 412
@@ -28,6 +39,61 @@ game_genres:
 - game_id: 1215
   genre_id: 4
 releases:
+- release:
+    id: 1012
+    game_id: 1215
+  names:
+  - id: 2025
+    kind: 3
+    kind_id: 1012
+    language: 1
+    name: captaintomaday
+  assets:
+  - asset:
+      id: 1012
+      kind: 3
+      kind_id: 1012
+      type: 1
+      name: captaintomaday.zip
+      format: 2
+      size: 5829100
+      debug: captaintomaday.zip
+    entries:
+    - id: 14786
+      asset_id: 1012
+      name: CTOM_C1.ROM
+      size: 4194304
+      blob_id: 10688
+    - id: 14787
+      asset_id: 1012
+      name: CTOM_C2.ROM
+      size: 4194304
+      blob_id: 10689
+    - id: 14788
+      asset_id: 1012
+      name: CTOM_M1.ROM
+      size: 131072
+      blob_id: 10690
+    - id: 14789
+      asset_id: 1012
+      name: CTOM_P1.ROM
+      size: 2097152
+      blob_id: 10691
+    - id: 14790
+      asset_id: 1012
+      name: CTOM_S1.ROM
+      size: 131072
+      blob_id: 10692
+    - id: 14791
+      asset_id: 1012
+      name: CTOM_V1.ROM
+      size: 4194304
+      blob_id: 10693
+    - id: 14792
+      asset_id: 1012
+      name: CTOM_V2.ROM
+      size: 1048576
+      blob_id: 10694
 - release:
     id: 1215
     game_id: 1215

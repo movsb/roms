@@ -13,6 +13,12 @@ names:
   language: 1
   name: Vs. Pinball (Japan, set PN3 B)
   source: mame
+- id: 237364
+  kind: 2
+  kind_id: 4496
+  language: 1
+  name: VS. Pinball
+  source: fbneo
 - id: 247290
   kind: 2
   kind_id: 4496
@@ -178,3 +184,43 @@ releases:
       name: rp2c0x.pal
       size: 192
       blob_id: 41008
+- release:
+    id: 102785
+    game_id: 4496
+    release_date: 19840000
+  names:
+  - id: 237365
+    kind: 3
+    kind_id: 102785
+    language: 1
+    name: VS. Pinball
+    source: fbneo
+  assets:
+  - asset:
+      id: 119812
+      kind: 3
+      kind_id: 102785
+      type: 1
+      name: vspinball.zip
+      format: 2
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 843458
+      asset_id: 119812
+      name: VS. Pinball (1984)(Nintendo).nes
+      size: 49168
+      blob_id: 299619
+  - asset:
+      id: 134095
+      kind: 3
+      kind_id: 102785
+      type: 9
+      name: vspinball.png
+      format: 1
+      size: 743
+      blob_id: 321643
+      debug: |-
+        importer=fbneo-extras
+        repository=https://github.com/finalburnneo/FBNeo-extras
+        revision=d61f692a027ad7bcbaccceda20e43ed47900dcda
+        source=titles/vspinball.png

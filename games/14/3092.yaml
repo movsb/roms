@@ -7,6 +7,17 @@ names:
   kind_id: 3092
   language: 1
   name: photoy2k
+- id: 6186
+  kind: 2
+  kind_id: 3092
+  language: 1
+  name: photoy2k102
+- id: 97276
+  kind: 2
+  kind_id: 3092
+  language: 2
+  name: 大家来找碴 (版本. 102, 日本基板)
+  source: trimui
 - id: 187075
   kind: 2
   kind_id: 3092
@@ -301,6 +312,57 @@ releases:
         repository=https://github.com/finalburnneo/FBNeo-extras
         revision=d61f692a027ad7bcbaccceda20e43ed47900dcda
         source=titles/photoy2k.png
+- release:
+    id: 3093
+    game_id: 3092
+  names:
+  - id: 6187
+    kind: 3
+    kind_id: 3093
+    language: 1
+    name: photoy2k102
+  - id: 99729
+    kind: 3
+    kind_id: 3093
+    language: 2
+    name: 大家来找碴 (版本. 102, 日本基板)
+    source: trimui
+  assets:
+  - asset:
+      id: 3079
+      kind: 3
+      kind_id: 3093
+      type: 1
+      name: photoy2k102.zip
+      format: 2
+      size: 608526
+      debug: photoy2k102.zip
+    entries:
+    - id: 50739
+      asset_id: 3079
+      name: igs027a_photoy2k_v100_china_alt.asic
+      size: 16384
+      blob_id: 32980
+    - id: 50740
+      asset_id: 3079
+      name: v102.u4
+      size: 524288
+      blob_id: 32981
+    - id: 50741
+      asset_id: 3079
+      name: v102.u5
+      size: 524288
+      blob_id: 32982
+    - id: 50742
+      asset_id: 3079
+      name: v102.u6
+      size: 524288
+      blob_id: 32983
+    - id: 50743
+      asset_id: 3079
+      name: v102.u8
+      size: 524288
+      blob_id: 32984
 - release:
     id: 3094
     game_id: 3092

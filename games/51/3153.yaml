@@ -8,11 +8,22 @@ names:
   kind_id: 3153
   language: 1
   name: popbounc
+- id: 6310
+  kind: 2
+  kind_id: 3153
+  language: 1
+  name: popnbounce
 - id: 243792
   kind: 2
   kind_id: 3153
   language: 2
   name: 跳跳球 / 动物方块
+  source: codex
+- id: 247226
+  kind: 2
+  kind_id: 3153
+  language: 2
+  name: 弹跳方块
   source: codex
 game_developers:
 - game_id: 3153
@@ -555,5 +566,55 @@ releases:
     - id: 51564
       asset_id: 3139
       name: 237-v1.bin
+      size: 2097152
+      blob_id: 33559
+- release:
+    id: 3155
+    game_id: 3153
+  names:
+  - id: 6311
+    kind: 3
+    kind_id: 3155
+    language: 1
+    name: popnbounce
+  assets:
+  - asset:
+      id: 3140
+      kind: 3
+      kind_id: 3155
+      type: 1
+      name: popnbounce.zip
+      format: 2
+      size: 3057301
+      debug: popnbounce.zip
+    entries:
+    - id: 51565
+      asset_id: 3140
+      name: pnb_c1.rom
+      size: 2097152
+      blob_id: 33554
+    - id: 51566
+      asset_id: 3140
+      name: pnb_c2.rom
+      size: 2097152
+      blob_id: 33555
+    - id: 51567
+      asset_id: 3140
+      name: pnb_m1.rom
+      size: 131072
+      blob_id: 33556
+    - id: 51568
+      asset_id: 3140
+      name: pnb_p1.rom
+      size: 1048576
+      blob_id: 33557
+    - id: 51569
+      asset_id: 3140
+      name: pnb_s1.rom
+      size: 131072
+      blob_id: 33558
+    - id: 51570
+      asset_id: 3140
+      name: pnb_v1.rom
       size: 2097152
       blob_id: 33559

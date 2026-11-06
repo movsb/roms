@@ -59,3 +59,43 @@ releases:
       size: 3405
       blob_id: 326328
       debug: libretro-named-titles:rom-asset=96871:source=https://thumbnails.libretro.com/MAME/Named_Titles/Vs.%20Castlevania.png
+- release:
+    id: 102770
+    game_id: 77197
+    release_date: 19870000
+  names:
+  - id: 237335
+    kind: 3
+    kind_id: 102770
+    language: 1
+    name: VS. Castlevania
+    source: fbneo
+  assets:
+  - asset:
+      id: 119796
+      kind: 3
+      kind_id: 102770
+      type: 1
+      name: vscastlevania.zip
+      format: 2
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 843437
+      asset_id: 119796
+      name: VS. Castlevania (1987)(Konami).nes
+      size: 131088
+      blob_id: 299604
+  - asset:
+      id: 134080
+      kind: 3
+      kind_id: 102770
+      type: 9
+      name: vscastlevania.png
+      format: 1
+      size: 2432
+      blob_id: 321628
+      debug: |-
+        importer=fbneo-extras
+        repository=https://github.com/finalburnneo/FBNeo-extras
+        revision=d61f692a027ad7bcbaccceda20e43ed47900dcda
+        source=titles/vscastlevania.png

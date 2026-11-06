@@ -7,6 +7,11 @@ names:
   kind_id: 4700
   language: 1
   name: zintrckb
+- id: 9402
+  kind: 2
+  kind_id: 4700
+  language: 1
+  name: zintrick
 - id: 98328
   kind: 2
   kind_id: 4700
@@ -24,6 +29,12 @@ names:
   language: 2
   name: 诡计 / 挑战史来姆 (Neo CD 转换版)
   source: trimui
+- id: 247297
+  kind: 2
+  kind_id: 4700
+  language: 2
+  name: Zintrick
+  source: codex
 game_developers:
 - game_id: 4700
   developer_id: 682
@@ -511,6 +522,56 @@ releases:
         repository=https://github.com/finalburnneo/FBNeo-extras
         revision=d61f692a027ad7bcbaccceda20e43ed47900dcda
         source=titles/zintrckb.png
+- release:
+    id: 4701
+    game_id: 4700
+  names:
+  - id: 9403
+    kind: 3
+    kind_id: 4701
+    language: 1
+    name: zintrick
+  assets:
+  - asset:
+      id: 4683
+      kind: 3
+      kind_id: 4701
+      type: 1
+      name: zintrick.zip
+      format: 2
+      size: 2543612
+      debug: zintrick.zip
+    entries:
+    - id: 81835
+      asset_id: 4683
+      name: 211-c1.rom
+      size: 2097152
+      blob_id: 50963
+    - id: 81836
+      asset_id: 4683
+      name: 211-c2.rom
+      size: 2097152
+      blob_id: 50964
+    - id: 81837
+      asset_id: 4683
+      name: 211-m1.rom
+      size: 65536
+      blob_id: 50969
+    - id: 81838
+      asset_id: 4683
+      name: 211-p1.rom
+      size: 1048576
+      blob_id: 50970
+    - id: 81839
+      asset_id: 4683
+      name: 211-s1.rom
+      size: 131072
+      blob_id: 50971
+    - id: 81840
+      asset_id: 4683
+      name: 211-v1.rom
+      size: 1048576
+      blob_id: 50972
 - release:
     id: 4702
     game_id: 4700

@@ -7,12 +7,23 @@ names:
   kind_id: 2632
   language: 1
   name: marukodq
+- id: 5266
+  kind: 2
+  kind_id: 2632
+  language: 1
+  name: marukosdeluxequiz
 - id: 96982
   kind: 2
   kind_id: 2632
   language: 2
   name: 小丸子问答
   source: trimui
+- id: 247203
+  kind: 2
+  kind_id: 2632
+  language: 2
+  name: 樱桃小丸子豪华问答
+  source: codex
 releases:
 - release:
     id: 2632
@@ -520,3 +531,68 @@ releases:
         repository=https://github.com/finalburnneo/FBNeo-extras
         revision=d61f692a027ad7bcbaccceda20e43ed47900dcda
         source=titles/marukodq.png
+- release:
+    id: 2633
+    game_id: 2632
+  names:
+  - id: 5267
+    kind: 3
+    kind_id: 2633
+    language: 1
+    name: marukosdeluxequiz
+  assets:
+  - asset:
+      id: 2621
+      kind: 3
+      kind_id: 2633
+      type: 1
+      name: marukosdeluxequiz.zip
+      format: 2
+      size: 4496394
+      debug: marukosdeluxequiz.zip
+    entries:
+    - id: 42343
+      asset_id: 2621
+      name: 206-v2.rom
+      size: 2097152
+      blob_id: 27898
+    - id: 42344
+      asset_id: 2621
+      name: 206-c1.rom
+      size: 4194304
+      blob_id: 27899
+    - id: 42345
+      asset_id: 2621
+      name: 206-c2.rom
+      size: 4194304
+      blob_id: 27900
+    - id: 42346
+      asset_id: 2621
+      name: 206-c3.rom
+      size: 1048576
+      blob_id: 27892
+    - id: 42347
+      asset_id: 2621
+      name: 206-c4.rom
+      size: 1048576
+      blob_id: 27893
+    - id: 42348
+      asset_id: 2621
+      name: 206-p1.rom
+      size: 1048576
+      blob_id: 27895
+    - id: 42349
+      asset_id: 2621
+      name: 206-m1.rom
+      size: 131072
+      blob_id: 27894
+    - id: 42350
+      asset_id: 2621
+      name: 206-s1.rom
+      size: 32768
+      blob_id: 27901
+    - id: 42351
+      asset_id: 2621
+      name: 206-v1.rom
+      size: 2097152
+      blob_id: 27897

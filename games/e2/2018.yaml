@@ -25,11 +25,23 @@ names:
   language: 1
   name: Kid no Hore Hore Daisakusen (bootleg set 2)
   source: mame
+- id: 216986
+  kind: 2
+  kind_id: 2018
+  language: 1
+  name: Booby Kids (Magnet System)
+  source: mame
 - id: 243607
   kind: 2
   kind_id: 2018
   language: 2
   name: 太空宝宝大作战
+  source: codex
+- id: 250335
+  kind: 2
+  kind_id: 2018
+  language: 2
+  name: 淘气小子
   source: codex
 game_developers:
 - game_id: 2018
@@ -656,6 +668,38 @@ releases:
       name: kid_prom.4e
       size: 256
       blob_id: 22573
+- release:
+    id: 88232
+    game_id: 2018
+    release_date: 19870000
+  names:
+  - id: 216987
+    kind: 3
+    kind_id: 88232
+    language: 1
+    name: Booby Kids (Magnet System)
+    source: mame
+  assets:
+  - asset:
+      id: 103532
+      kind: 3
+      kind_id: 88232
+      type: 1
+      name: mag_boob.zip
+      format: 2
+      size: 218442
+      debug: dat:mame:0.289
+    entries:
+    - id: 653791
+      asset_id: 103532
+      name: boobykid.img
+      size: 909312
+      blob_id: 256393
+    - id: 653792
+      asset_id: 103532
+      name: magnet-master-vid-e03.bin
+      size: 8192
+      blob_id: 208289
 - release:
     id: 103501
     game_id: 2018

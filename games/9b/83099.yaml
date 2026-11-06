@@ -8,11 +8,23 @@ names:
   language: 1
   name: Vs. Atari R.B.I. Baseball (set 1)
   source: mame
+- id: 237330
+  kind: 2
+  kind_id: 83099
+  language: 1
+  name: VS. Atari RBI Baseball
+  source: fbneo
 - id: 250946
   kind: 2
   kind_id: 83099
   language: 2
   name: Vs.雅达利R.B.I.棒球
+  source: codex
+- id: 251723
+  kind: 2
+  kind_id: 83099
+  language: 2
+  name: VS.雅达利RBI棒球
   source: codex
 releases:
 - release:
@@ -111,3 +123,43 @@ releases:
       size: 2377
       blob_id: 327536
       debug: libretro-named-titles:rom-asset=108930:source=https://thumbnails.libretro.com/MAME/Named_Titles/Vs.%20Atari%20R.B.I.%20Baseball%20%28set%202%29.png
+- release:
+    id: 102768
+    game_id: 83099
+    release_date: 19870000
+  names:
+  - id: 237331
+    kind: 3
+    kind_id: 102768
+    language: 1
+    name: VS. Atari RBI Baseball
+    source: fbneo
+  assets:
+  - asset:
+      id: 119794
+      kind: 3
+      kind_id: 102768
+      type: 1
+      name: vsrbibbal.zip
+      format: 2
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 843435
+      asset_id: 119794
+      name: VS. Atari RBI Baseball (1987)(Atari Games).nes
+      size: 98320
+      blob_id: 299602
+  - asset:
+      id: 134078
+      kind: 3
+      kind_id: 102768
+      type: 9
+      name: vsrbibbal.png
+      format: 1
+      size: 1504
+      blob_id: 321626
+      debug: |-
+        importer=fbneo-extras
+        repository=https://github.com/finalburnneo/FBNeo-extras
+        revision=d61f692a027ad7bcbaccceda20e43ed47900dcda
+        source=titles/vsrbibbal.png

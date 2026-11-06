@@ -8,6 +8,12 @@ names:
   language: 1
   name: Vs. Duck Hunt (set DH3 E)
   source: mame
+- id: 237340
+  kind: 2
+  kind_id: 77741
+  language: 1
+  name: VS. Duck Hunt
+  source: fbneo
 - id: 249695
   kind: 2
   kind_id: 77741
@@ -72,3 +78,43 @@ releases:
       name: rp2c0x.pal
       size: 192
       blob_id: 41008
+- release:
+    id: 102773
+    game_id: 77741
+    release_date: 19840000
+  names:
+  - id: 237341
+    kind: 3
+    kind_id: 102773
+    language: 1
+    name: VS. Duck Hunt
+    source: fbneo
+  assets:
+  - asset:
+      id: 119799
+      kind: 3
+      kind_id: 102773
+      type: 1
+      name: vsduckhunt.zip
+      format: 2
+      debug: dat:fbneo:5fa9b68a
+    entries:
+    - id: 843440
+      asset_id: 119799
+      name: VS. Duck Hunt (1984)(Nintendo).nes
+      size: 49168
+      blob_id: 299607
+  - asset:
+      id: 134083
+      kind: 3
+      kind_id: 102773
+      type: 9
+      name: vsduckhunt.png
+      format: 1
+      size: 622
+      blob_id: 321631
+      debug: |-
+        importer=fbneo-extras
+        repository=https://github.com/finalburnneo/FBNeo-extras
+        revision=d61f692a027ad7bcbaccceda20e43ed47900dcda
+        source=titles/vsduckhunt.png
