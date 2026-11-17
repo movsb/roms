@@ -2,11 +2,27 @@ game:
   id: 25114
   platform_id: 2
 names:
+- id: 52431
+  kind: 2
+  kind_id: 25114
+  language: 1
+  name: TRACKFIE
+- id: 56155
+  kind: 2
+  kind_id: 25114
+  language: 1
+  name: TrackAndField2
 - id: 63235
   kind: 2
   kind_id: 25114
   language: 2
   name: 奥运会2
+- id: 70098
+  kind: 2
+  kind_id: 25114
+  language: 1
+  name: Track & Field II (E) [!]
+  deprecated: 1
 - id: 70101
   kind: 2
   kind_id: 25114
@@ -35,6 +51,12 @@ names:
   language: 1
   name: Track & Field 2
   deprecated: 1
+- id: 248724
+  kind: 2
+  kind_id: 25114
+  language: 2
+  name: 田径
+  source: codex
 - id: 262256
   kind: 2
   kind_id: 25114
@@ -42,6 +64,33 @@ names:
   name: Track & Field II
   source: no-intro
 releases:
+- release:
+    id: 23492
+    game_id: 25114
+  names:
+  - id: 52432
+    kind: 3
+    kind_id: 23492
+    language: 1
+    name: TRACKFIE
+  - id: 56156
+    kind: 3
+    kind_id: 23492
+    language: 1
+    name: TrackAndField2
+  assets:
+  - asset:
+      id: 23474
+      kind: 3
+      kind_id: 23492
+      type: 1
+      name: TRACKFIE.NES
+      format: 1
+      size: 262288
+      blob_id: 68777
+      debug: |-
+        TRACKFIE.zip
+        TrackAndField2.zip
 - release:
     id: 25114
     game_id: 25114
@@ -152,3 +201,48 @@ releases:
       size: 1788
       blob_id: 325234
       debug: libretro-named-titles:rom-asset=25097:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Track%20_%20Field%20II%20%28USA%29.png
+- release:
+    id: 29793
+    game_id: 25114
+  names:
+  - id: 70099
+    kind: 3
+    kind_id: 29793
+    language: 2
+    name: 超级奥林匹克运动会 II (欧版) (运动)-Track &amp; Field II (Europe)
+  - id: 70100
+    kind: 3
+    kind_id: 29793
+    language: 1
+    name: Track & Field II (E) [!]
+    deprecated: 1
+  - id: 261192
+    kind: 3
+    kind_id: 29793
+    language: 1
+    name: Track & Field II (Europe)
+    source: no-intro
+  assets:
+  - asset:
+      id: 29775
+      kind: 3
+      kind_id: 29793
+      type: 1
+      name: Track & Field II (Europe).nes
+      format: 1
+      size: 262160
+      blob_id: 73805
+      debug: |-
+        超级奥林匹克运动会 II (欧版) (运动)-Track &amp; Field II (Europe) + Track & Field II (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=a16f303baa02eaaed3215fd4123ba09d32481774
+  - asset:
+      id: 137995
+      kind: 3
+      kind_id: 29793
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 2944
+      blob_id: 323578
+      debug: fc-title-trial:fceumm:rom-asset=29775:frame=300:region=PAL

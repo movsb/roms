@@ -2,6 +2,17 @@ game:
   id: 5900
   platform_id: 2
 names:
+- id: 65833
+  kind: 2
+  kind_id: 5900
+  language: 2
+  name: "暗黑神话 (冒险解谜)-Ankoku Shinwa - Yamato Takeru Densetsu"
+- id: 65834
+  kind: 2
+  kind_id: 5900
+  language: 1
+  name: "Ankoku Shinwa - Yamato Takeru Densetsu (J) [!]"
+  deprecated: 1
 - id: 91257
   kind: 2
   kind_id: 5900
@@ -62,3 +73,46 @@ releases:
 - release:
     id: 5904
     game_id: 5900
+- release:
+    id: 28524
+    game_id: 5900
+  names:
+  - id: 65835
+    kind: 3
+    kind_id: 28524
+    language: 2
+    name: "暗黑神话 (日版) (冒险解谜)-Ankoku Shinwa - Yamato Takeru Densetsu (Japan)"
+  - id: 65836
+    kind: 3
+    kind_id: 28524
+    language: 1
+    name: "Ankoku Shinwa - Yamato Takeru Densetsu (J) [!]"
+    deprecated: 1
+  - id: 260684
+    kind: 3
+    kind_id: 28524
+    language: 1
+    name: "Ankoku Shinwa - Yamato Takeru Densetsu (Japan)"
+    source: no-intro
+  assets:
+  - asset:
+      id: 28506
+      kind: 3
+      kind_id: 28524
+      type: 1
+      name: "Ankoku Shinwa - Yamato Takeru Densetsu (Japan).nes"
+      format: 1
+      size: 262160
+      blob_id: 73005
+      debug: "暗黑神话 (日版) (冒险解谜)-Ankoku Shinwa - Yamato Takeru Densetsu (Japan) + Ankoku Shinwa - Yamato Takeru Densetsu (J) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=381131e3e8fbce9f689fb20a0c006195572d95da"
+  - asset:
+      id: 139026
+      kind: 3
+      kind_id: 28524
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Ankoku%20Shinwa%20-%20Yamato%20Takeru%20Densetsu%20%28Japan%29.png
+      format: 1
+      size: 3099
+      blob_id: 324497
+      debug: libretro-named-titles:rom-asset=28506:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Ankoku%20Shinwa%20-%20Yamato%20Takeru%20Densetsu%20%28Japan%29.png

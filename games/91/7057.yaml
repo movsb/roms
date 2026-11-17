@@ -2,6 +2,22 @@ game:
   id: 7057
   platform_id: 2
 names:
+- id: 12793
+  kind: 2
+  kind_id: 7057
+  language: 1
+  name: BIRDWEEK
+- id: 72115
+  kind: 2
+  kind_id: 7057
+  language: 2
+  name: 鸟的传说 (动作)-Bird Week
+- id: 72116
+  kind: 2
+  kind_id: 7057
+  language: 1
+  name: Bird Week (J) [!]
+  deprecated: 1
 - id: 91384
   kind: 2
   kind_id: 7057
@@ -14,6 +30,37 @@ names:
   name: 鸟之周
   source: codex
 releases:
+- release:
+    id: 6185
+    game_id: 7057
+  names:
+  - id: 12794
+    kind: 3
+    kind_id: 6185
+    language: 1
+    name: BIRDWEEK
+  assets:
+  - asset:
+      id: 6167
+      kind: 3
+      kind_id: 6185
+      type: 1
+      name: BIRDWEEK.NES
+      format: 1
+      size: 41104
+      blob_id: 52434
+      debug: BIRDWEEK.zip
+  - asset:
+      id: 138180
+      kind: 3
+      kind_id: 6185
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 2283
+      blob_id: 323675
+      debug: fc-title-trial:fceumm:rom-asset=6167:frame=180
 - release:
     id: 7057
     game_id: 7057
@@ -92,3 +139,48 @@ releases:
   release_publishers:
   - release_id: 7068
     publisher_id: 146
+- release:
+    id: 30388
+    game_id: 7057
+  names:
+  - id: 72117
+    kind: 3
+    kind_id: 30388
+    language: 2
+    name: 鸟的传说 (日版) (动作)-Bird Week (Japan)
+  - id: 72118
+    kind: 3
+    kind_id: 30388
+    language: 1
+    name: Bird Week (J) [!]
+    deprecated: 1
+  - id: 261421
+    kind: 3
+    kind_id: 30388
+    language: 1
+    name: Bird Week (Japan) (En)
+    source: no-intro
+  assets:
+  - asset:
+      id: 30370
+      kind: 3
+      kind_id: 30388
+      type: 1
+      name: Bird Week (Japan) (En).nes
+      format: 1
+      size: 24592
+      blob_id: 74181
+      debug: |-
+        鸟的传说 (日版) (动作)-Bird Week (Japan) + Bird Week (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=22eaf03cc4a148eb7f96ccbdb878170b6d117940
+  - asset:
+      id: 138107
+      kind: 3
+      kind_id: 30388
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 2283
+      blob_id: 323675
+      debug: fc-title-trial:fceumm:rom-asset=30370:frame=180

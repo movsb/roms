@@ -2,6 +2,17 @@ game:
   id: 6242
   platform_id: 2
 names:
+- id: 72305
+  kind: 2
+  kind_id: 6242
+  language: 2
+  name: 龙之忍者 (动作)-Bad Dudes vs. Dragon Ninja
+- id: 72306
+  kind: 2
+  kind_id: 6242
+  language: 1
+  name: Bad Dudes Vs Dragon Ninja (E) [!]
+  deprecated: 1
 - id: 91299
   kind: 2
   kind_id: 6242
@@ -18,6 +29,12 @@ names:
   kind_id: 6242
   language: 1
   name: Bad Dudes
+  source: no-intro
+- id: 263745
+  kind: 2
+  kind_id: 6242
+  language: 1
+  name: Bad Dudes vs. Dragon Ninja
   source: no-intro
 releases:
 - release:
@@ -104,3 +121,48 @@ releases:
       size: 4232
       blob_id: 323940
       debug: libretro-named-titles:rom-asset=6231:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Bad%20Dudes%20%28USA%29.png
+- release:
+    id: 30438
+    game_id: 6242
+  names:
+  - id: 72307
+    kind: 3
+    kind_id: 30438
+    language: 2
+    name: 龙之忍者 (欧版) (动作)-Bad Dudes vs. Dragon Ninja (Europe)
+  - id: 72308
+    kind: 3
+    kind_id: 30438
+    language: 1
+    name: Bad Dudes Vs Dragon Ninja (E) [!]
+    deprecated: 1
+  - id: 261454
+    kind: 3
+    kind_id: 30438
+    language: 1
+    name: Bad Dudes vs. Dragon Ninja (Europe)
+    source: no-intro
+  assets:
+  - asset:
+      id: 30420
+      kind: 3
+      kind_id: 30438
+      type: 1
+      name: Bad Dudes vs. Dragon Ninja (Europe).nes
+      format: 1
+      size: 262160
+      blob_id: 74215
+      debug: |-
+        龙之忍者 (欧版) (动作)-Bad Dudes vs. Dragon Ninja (Europe) + Bad Dudes Vs Dragon Ninja (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=b50258243f94ec6fd140cc786466df645a7f7ce1
+  - asset:
+      id: 140265
+      kind: 3
+      kind_id: 30438
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Bad%20Dudes%20vs.%20Dragon%20Ninja%20%28Europe%29.png
+      format: 1
+      size: 3646
+      blob_id: 325579
+      debug: libretro-named-titles:rom-asset=30420:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Bad%20Dudes%20vs.%20Dragon%20Ninja%20%28Europe%29.png

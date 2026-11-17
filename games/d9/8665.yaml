@@ -8,11 +8,23 @@ names:
   language: 1
   name: Chu Chu Rocket V.1 by DWEdit (PD)
   deprecated: 1
+- id: 18423
+  kind: 2
+  kind_id: 8665
+  language: 1
+  name: Chu Chu Rocket V.xx by DWEdit (PD)
+  deprecated: 1
 - id: 252589
   kind: 2
   kind_id: 8665
   language: 2
   name: 啾啾火箭V1
+  source: codex
+- id: 252598
+  kind: 2
+  kind_id: 8665
+  language: 2
+  name: 啾啾火箭
   source: codex
 - id: 261592
   kind: 2
@@ -61,3 +73,43 @@ releases:
       size: 8148
       blob_id: 323809
       debug: fc-title-trial:fceumm:rom-asset=8647:frame=180
+- release:
+    id: 8674
+    game_id: 8665
+  names:
+  - id: 18424
+    kind: 3
+    kind_id: 8674
+    language: 1
+    name: Chu Chu Rocket V.xx by DWEdit (PD)
+    deprecated: 1
+  - id: 257902
+    kind: 3
+    kind_id: 8674
+    language: 1
+    name: ChuChu Rocket! (World) (Proto 2) (Aftermarket) (Unl)
+    source: no-intro
+  assets:
+  - asset:
+      id: 8656
+      kind: 3
+      kind_id: 8674
+      type: 1
+      name: ChuChu Rocket! (World) (Proto 2) (Aftermarket) (Unl).nes
+      format: 1
+      size: 163856
+      blob_id: 54799
+      debug: |-
+        Chu Chu Rocket V.xx by DWEdit (PD).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=8452eaca18f8c10e92752e316ea63482ecacc0c7
+  - asset:
+      id: 138281
+      kind: 3
+      kind_id: 8674
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 8148
+      blob_id: 323809
+      debug: fc-title-trial:fceumm:rom-asset=8656:frame=180

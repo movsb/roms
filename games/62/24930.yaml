@@ -2,6 +2,17 @@ game:
   id: 24930
   platform_id: 2
 names:
+- id: 61287
+  kind: 2
+  kind_id: 24930
+  language: 2
+  name: 前往地球 ( 欧版) (光线枪射击)-To the Earth
+- id: 61288
+  kind: 2
+  kind_id: 24930
+  language: 1
+  name: To The Earth (E) [!]
+  deprecated: 1
 - id: 61291
   kind: 2
   kind_id: 24930
@@ -112,3 +123,48 @@ releases:
       size: 1718
       blob_id: 324219
       debug: libretro-named-titles:rom-asset=24914:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/To%20the%20Earth%20%28USA%29.png
+- release:
+    id: 27147
+    game_id: 24930
+  names:
+  - id: 61289
+    kind: 3
+    kind_id: 27147
+    language: 2
+    name: 前往地球 ( 欧版) (光线枪射击)-To the Earth (Europe)
+  - id: 61290
+    kind: 3
+    kind_id: 27147
+    language: 1
+    name: To The Earth (E) [!]
+    deprecated: 1
+  - id: 260134
+    kind: 3
+    kind_id: 27147
+    language: 1
+    name: To the Earth (Europe)
+    source: no-intro
+  assets:
+  - asset:
+      id: 27129
+      kind: 3
+      kind_id: 27147
+      type: 1
+      name: To the Earth (Europe).nes
+      format: 1
+      size: 65552
+      blob_id: 72091
+      debug: |-
+        前往地球 ( 欧版) (光线枪射击)-To the Earth (Europe) + To The Earth (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=0815625d4e5a767435f67c4f49c4a09978bb53de
+  - asset:
+      id: 137579
+      kind: 3
+      kind_id: 27147
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 2646
+      blob_id: 323213
+      debug: fc-title-trial:fceumm:rom-asset=27129:frame=300:region=PAL

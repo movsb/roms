@@ -7,6 +7,34 @@ names:
   kind_id: 12565
   language: 2
   name: 宇宙巡航机1
+- id: 63375
+  kind: 2
+  kind_id: 12565
+  language: 2
+  name: 宇宙巡航舰 (射击)-Gradius
+- id: 63376
+  kind: 2
+  kind_id: 12565
+  language: 1
+  name: Gradius (J) [!]
+  deprecated: 1
+- id: 63380
+  kind: 2
+  kind_id: 12565
+  language: 1
+  name: Gradius (E) [!]
+  deprecated: 1
+- id: 63383
+  kind: 2
+  kind_id: 12565
+  language: 2
+  name: "宇宙巡航舰 - 远古篇 (射击)-Gradius (ArchiMENdes Hen)"
+- id: 63384
+  kind: 2
+  kind_id: 12565
+  language: 1
+  name: Gradius (ArchiMENdes Hen Version) (J)
+  deprecated: 1
 - id: 66695
   kind: 2
   kind_id: 12565
@@ -359,3 +387,125 @@ releases:
       size: 65552
       blob_id: 72507
       debug: 宇宙巡航机1_2.zip
+- release:
+    id: 27784
+    game_id: 12565
+  names:
+  - id: 63377
+    kind: 3
+    kind_id: 27784
+    language: 2
+    name: 宇宙巡航舰 (日版) (射击)-Gradius (Japan)
+  - id: 63378
+    kind: 3
+    kind_id: 27784
+    language: 1
+    name: Gradius (J) [!]
+    deprecated: 1
+  - id: 260379
+    kind: 3
+    kind_id: 27784
+    language: 1
+    name: Gradius (Japan)
+    source: no-intro
+  assets:
+  - asset:
+      id: 27766
+      kind: 3
+      kind_id: 27784
+      type: 1
+      name: Gradius (Japan).nes
+      format: 1
+      size: 65552
+      blob_id: 72512
+      debug: |-
+        宇宙巡航舰 (日版) (射击)-Gradius (Japan) + Gradius (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=c823768907793e5bf3becf52e8a654cee69ee116
+  - asset:
+      id: 137667
+      kind: 3
+      kind_id: 27784
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 2067
+      blob_id: 323294
+      debug: fc-title-trial:fceumm:rom-asset=27766:frame=180
+- release:
+    id: 27785
+    game_id: 12565
+  names:
+  - id: 63381
+    kind: 3
+    kind_id: 27785
+    language: 2
+    name: 宇宙巡航舰 (欧版) (射击)-Gradius (Europe)
+  - id: 63382
+    kind: 3
+    kind_id: 27785
+    language: 1
+    name: Gradius (E) [!]
+    deprecated: 1
+  - id: 260380
+    kind: 3
+    kind_id: 27785
+    language: 1
+    name: Gradius (Europe)
+    source: no-intro
+  assets:
+  - asset:
+      id: 27767
+      kind: 3
+      kind_id: 27785
+      type: 1
+      name: Gradius (Europe).nes
+      format: 1
+      size: 65552
+      blob_id: 72513
+      debug: |-
+        宇宙巡航舰 (欧版) (射击)-Gradius (Europe) + Gradius (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=2adf1ecdd66937a5ff1ba7df666bdc14e1326a80
+  - asset:
+      id: 137668
+      kind: 3
+      kind_id: 27785
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 2603
+      blob_id: 323295
+      debug: fc-title-trial:fceumm:rom-asset=27767:frame=180:region=PAL
+- release:
+    id: 27786
+    game_id: 12565
+  names:
+  - id: 63385
+    kind: 3
+    kind_id: 27786
+    language: 2
+    name: "宇宙巡航舰 - 远古篇 (日版) (射击)-Gradius (Japan) (ArchiMENdes Hen)"
+  - id: 63386
+    kind: 3
+    kind_id: 27786
+    language: 1
+    name: Gradius (ArchiMENdes Hen Version) (J)
+    deprecated: 1
+  - id: 260381
+    kind: 3
+    kind_id: 27786
+    language: 1
+    name: Gradius (Japan) (En) (ArchiMENdes Hen)
+    source: no-intro
+  assets:
+  - asset:
+      id: 27768
+      kind: 3
+      kind_id: 27786
+      type: 1
+      name: Gradius (Japan) (En) (ArchiMENdes Hen).nes
+      format: 1
+      size: 65552
+      blob_id: 72514
+      debug: "宇宙巡航舰 - 远古篇 (日版) (射击)-Gradius (Japan) (ArchiMENdes Hen) + Gradius (ArchiMENdes Hen Version) (J).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=71334b2e4474cb3c184e90c66b1b1a347be01d8d"

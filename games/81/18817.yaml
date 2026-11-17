@@ -7,6 +7,22 @@ names:
   kind_id: 18817
   language: 1
   name: PhantomFighter
+- id: 44123
+  kind: 2
+  kind_id: 18817
+  language: 1
+  name: Reigen Doushi (J) [hM02]
+- id: 67299
+  kind: 2
+  kind_id: 18817
+  language: 2
+  name: 灵幻道士 (动作)-Reigen Doushi
+- id: 67300
+  kind: 2
+  kind_id: 18817
+  language: 1
+  name: Reigen Doushi (J)
+  deprecated: 1
 - id: 67303
   kind: 2
   kind_id: 18817
@@ -27,6 +43,12 @@ names:
   kind_id: 18817
   language: 1
   name: Phantom Fighter
+- id: 263207
+  kind: 2
+  kind_id: 18817
+  language: 1
+  name: Reigen Doushi
+  source: no-intro
 releases:
 - release:
     id: 18817
@@ -127,6 +149,71 @@ releases:
       size: 1261
       blob_id: 324109
       debug: libretro-named-titles:rom-asset=18805:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Phantom%20Fighter%20%28USA%29.png
+- release:
+    id: 19821
+    game_id: 18817
+  names:
+  - id: 44124
+    kind: 3
+    kind_id: 19821
+    language: 1
+    name: Reigen Doushi (J) [hM02]
+  assets:
+  - asset:
+      id: 19803
+      kind: 3
+      kind_id: 19821
+      type: 1
+      name: Reigen Doushi (J) [hM02].nes
+      format: 1
+      size: 262160
+      blob_id: 65290
+      debug: Reigen Doushi (J) [hM02].nes
+- release:
+    id: 28956
+    game_id: 18817
+  names:
+  - id: 67301
+    kind: 3
+    kind_id: 28956
+    language: 2
+    name: 灵幻道士 (日版) (动作)-Reigen Doushi (Japan)
+  - id: 67302
+    kind: 3
+    kind_id: 28956
+    language: 1
+    name: Reigen Doushi (J)
+    deprecated: 1
+  - id: 260870
+    kind: 3
+    kind_id: 28956
+    language: 1
+    name: Reigen Doushi (Japan)
+    source: no-intro
+  assets:
+  - asset:
+      id: 28938
+      kind: 3
+      kind_id: 28956
+      type: 1
+      name: Reigen Doushi (Japan).nes
+      format: 1
+      size: 262160
+      blob_id: 73282
+      debug: |-
+        灵幻道士 (日版) (动作)-Reigen Doushi (Japan) + Reigen Doushi (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=c039b782eda5a79097bc3fa761a3f7c663aab6dc
+  - asset:
+      id: 139080
+      kind: 3
+      kind_id: 28956
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Reigen%20Doushi%20%28Japan%29.png
+      format: 1
+      size: 1200
+      blob_id: 324549
+      debug: libretro-named-titles:rom-asset=28938:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Reigen%20Doushi%20%28Japan%29.png
 - release:
     id: 28959
     game_id: 18817

@@ -12,6 +12,17 @@ names:
   kind_id: 25338
   language: 2
   name: 太东篮球
+- id: 66837
+  kind: 2
+  kind_id: 25338
+  language: 2
+  name: 泰德终极篮球 (运动)-Taito Basketball
+- id: 66838
+  kind: 2
+  kind_id: 25338
+  language: 1
+  name: Taito Basketball (J)
+  deprecated: 1
 - id: 66841
   kind: 2
   kind_id: 25338
@@ -27,7 +38,33 @@ names:
   kind_id: 25338
   language: 1
   name: Ultimate Basketball
+- id: 263169
+  kind: 2
+  kind_id: 25338
+  language: 1
+  name: Taito Basketball
+  source: no-intro
 releases:
+- release:
+    id: 23517
+    game_id: 25338
+  names:
+  - id: 52484
+    kind: 3
+    kind_id: 23517
+    language: 1
+    name: Taito Basketball (J) [p1][!]
+  assets:
+  - asset:
+      id: 23499
+      kind: 3
+      kind_id: 23517
+      type: 1
+      name: Taito Basketball (J) [p1][!].nes
+      format: 1
+      size: 262160
+      blob_id: 68800
+      debug: Taito Basketball (J) [p1][!].nes
 - release:
     id: 25338
     game_id: 25338
@@ -147,3 +184,48 @@ releases:
       size: 1475
       blob_id: 324233
       debug: libretro-named-titles:rom-asset=25323:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Ultimate%20Basketball%20%28USA%29.png
+- release:
+    id: 28816
+    game_id: 25338
+  names:
+  - id: 66839
+    kind: 3
+    kind_id: 28816
+    language: 2
+    name: 泰德终极篮球 (日版) (运动)-Taito Basketball (Japan)
+  - id: 66840
+    kind: 3
+    kind_id: 28816
+    language: 1
+    name: Taito Basketball (J)
+    deprecated: 1
+  - id: 260817
+    kind: 3
+    kind_id: 28816
+    language: 1
+    name: Taito Basketball (Japan)
+    source: no-intro
+  assets:
+  - asset:
+      id: 28798
+      kind: 3
+      kind_id: 28816
+      type: 1
+      name: Taito Basketball (Japan).nes
+      format: 1
+      size: 262160
+      blob_id: 73196
+      debug: |-
+        泰德终极篮球 (日版) (运动)-Taito Basketball (Japan) + Taito Basketball (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=b1c59289c74e0836d7c280996da5bb28d34723fe
+  - asset:
+      id: 139070
+      kind: 3
+      kind_id: 28816
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Taito%20Basketball%20%28Japan%29.png
+      format: 1
+      size: 1663
+      blob_id: 324540
+      debug: libretro-named-titles:rom-asset=28798:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Taito%20Basketball%20%28Japan%29.png

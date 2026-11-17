@@ -7,6 +7,22 @@ names:
   kind_id: 23536
   language: 1
   name: Taiyou no Yuusha Fighbird (Translated En)
+- id: 63157
+  kind: 2
+  kind_id: 23536
+  language: 2
+  name: "太阳之勇者 - 火鸟 (射击)-Taiyou no Yuusha Firebird"
+- id: 63158
+  kind: 2
+  kind_id: 23536
+  language: 1
+  name: Taiyou no Yuusha Firebird (J) [!]
+  deprecated: 1
+- id: 63161
+  kind: 2
+  kind_id: 23536
+  language: 2
+  name: 太阳勇者
 - id: 93314
   kind: 2
   kind_id: 23536
@@ -18,6 +34,12 @@ names:
   language: 2
   name: 太阳勇者火鸟
   source: codex
+- id: 262744
+  kind: 2
+  kind_id: 23536
+  language: 1
+  name: "Taiyou no Yuusha - Fighbird"
+  source: no-intro
 releases:
 - release:
     id: 23536
@@ -187,3 +209,85 @@ releases:
       size: 262160
       blob_id: 68828
       debug: Taiyou no Yuusha Firebird (J) [t1].nes
+- release:
+    id: 27718
+    game_id: 23536
+  names:
+  - id: 63159
+    kind: 3
+    kind_id: 27718
+    language: 2
+    name: "太阳之勇者 - 火鸟 (日版) (射击)-Taiyou no Yuusha Firebird (Japan)"
+  - id: 63160
+    kind: 3
+    kind_id: 27718
+    language: 1
+    name: Taiyou no Yuusha Firebird (J) [!]
+    deprecated: 1
+  - id: 260350
+    kind: 3
+    kind_id: 27718
+    language: 1
+    name: "Taiyou no Yuusha - Fighbird (Japan)"
+    source: no-intro
+  assets:
+  - asset:
+      id: 27700
+      kind: 3
+      kind_id: 27718
+      type: 1
+      name: "Taiyou no Yuusha - Fighbird (Japan).nes"
+      format: 1
+      size: 262160
+      blob_id: 72469
+      debug: "太阳之勇者 - 火鸟 (日版) (射击)-Taiyou no Yuusha Firebird (Japan) + Taiyou no Yuusha Firebird (J) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=7dd93d3b1d3abd4e4b9bac8a4397d1dd68f5fb48"
+  - asset:
+      id: 137655
+      kind: 3
+      kind_id: 27718
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 4395
+      blob_id: 323282
+      debug: fc-title-trial:fceumm:rom-asset=27700:frame=2400
+- release:
+    id: 27719
+    game_id: 23536
+  names:
+  - id: 63162
+    kind: 3
+    kind_id: 27719
+    language: 2
+    name: 太阳勇者
+  - id: 260351
+    kind: 3
+    kind_id: 27719
+    language: 1
+    name: "Taiyou no Yuusha - Fighbird (Japan)"
+    source: no-intro
+  assets:
+  - asset:
+      id: 27701
+      kind: 3
+      kind_id: 27719
+      type: 1
+      name: "Taiyou no Yuusha - Fighbird (Japan).nes"
+      format: 1
+      size: 262160
+      blob_id: 72470
+      debug: |-
+        太阳勇者.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=7dd93d3b1d3abd4e4b9bac8a4397d1dd68f5fb48
+  - asset:
+      id: 140067
+      kind: 3
+      kind_id: 27719
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Taiyou%20no%20Yuusha%20-%20Fighbird%20%28Japan%29.png
+      format: 1
+      size: 2433
+      blob_id: 325408
+      debug: libretro-named-titles:rom-asset=27701:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Taiyou%20no%20Yuusha%20-%20Fighbird%20%28Japan%29.png

@@ -18,6 +18,17 @@ names:
   language: 1
   name: Indiana Jones and the Temple of Doom (U) (PRG0) [!]
   deprecated: 1
+- id: 61685
+  kind: 2
+  kind_id: 13732
+  language: 2
+  name: "印地安纳琼斯 - 魔宫传奇(Rev A) (动作)-Indiana Jones and the Temple of Doom (Rev A)"
+- id: 61686
+  kind: 2
+  kind_id: 13732
+  language: 1
+  name: Indiana Jones and the Temple of Doom (U) (PRG1) [!]
+  deprecated: 1
 - id: 92141
   kind: 2
   kind_id: 13732
@@ -158,3 +169,46 @@ releases:
       size: 3524
       blob_id: 324324
       debug: libretro-named-titles:rom-asset=27255:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Indiana%20Jones%20and%20the%20Temple%20of%20Doom%20%28USA%29%20%28Unl%29.png
+- release:
+    id: 27275
+    game_id: 13732
+  names:
+  - id: 61687
+    kind: 3
+    kind_id: 27275
+    language: 2
+    name: "印地安纳琼斯 - 魔宫传奇 (美版)(Rev A) (动作)-Indiana Jones and the Temple of Doom (USA) (Rev A)"
+  - id: 61688
+    kind: 3
+    kind_id: 27275
+    language: 1
+    name: Indiana Jones and the Temple of Doom (U) (PRG1) [!]
+    deprecated: 1
+  - id: 260188
+    kind: 3
+    kind_id: 27275
+    language: 1
+    name: Indiana Jones and the Temple of Doom (USA) (Rev 1)
+    source: no-intro
+  assets:
+  - asset:
+      id: 27257
+      kind: 3
+      kind_id: 27275
+      type: 1
+      name: Indiana Jones and the Temple of Doom (USA) (Rev 1).nes
+      format: 1
+      size: 196624
+      blob_id: 72174
+      debug: "印地安纳琼斯 - 魔宫传奇 (美版)(Rev A) (动作)-Indiana Jones and the Temple of Doom (USA) (Rev A) + Indiana Jones and the Temple of Doom (U) (PRG1) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=3ee1dd44458bea49b916d6d85069e513da9719d2"
+  - asset:
+      id: 137604
+      kind: 3
+      kind_id: 27275
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 6884
+      blob_id: 322633
+      debug: fc-title-trial:fceumm:rom-asset=27257:frame=900

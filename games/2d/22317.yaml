@@ -3,6 +3,16 @@ game:
   platform_id: 2
   series_id: 15
 names:
+- id: 19523
+  kind: 2
+  kind_id: 22317
+  language: 1
+  name: ContraSuper
+- id: 92785
+  kind: 2
+  kind_id: 22317
+  language: 1
+  name: "Probotector II - Return of the Evil Forces"
 - id: 242261
   kind: 2
   kind_id: 22317
@@ -19,7 +29,65 @@ names:
   kind_id: 22317
   language: 1
   name: Super Contra
+- id: 248400
+  kind: 2
+  kind_id: 22317
+  language: 2
+  name: Probotector 2：邪恶力量归来
+  source: codex
+  deprecated: 1
 releases:
+- release:
+    id: 9143
+    game_id: 22317
+  names:
+  - id: 19524
+    kind: 3
+    kind_id: 9143
+    language: 1
+    name: ContraSuper
+  assets:
+  - asset:
+      id: 9125
+      kind: 3
+      kind_id: 9143
+      type: 1
+      name: ContraSuper.nes
+      format: 1
+      size: 253968
+      blob_id: 55247
+      debug: ContraSuper.zip
+  - asset:
+      id: 138293
+      kind: 3
+      kind_id: 9143
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 3220
+      blob_id: 323000
+      debug: fc-title-trial:fceumm:rom-asset=9125:frame=600
+- release:
+    id: 19307
+    game_id: 22317
+  names:
+  - id: 84165
+    kind: 3
+    kind_id: 19307
+    language: 1
+    name: "Probotector II - Return of the Evil Forces (E) [T+Rus_Multisoft]"
+  assets:
+  - asset:
+      id: 19289
+      kind: 3
+      kind_id: 19307
+      type: 1
+      name: "Probotector II - Return of the Evil Forces (E) [T+Rus_Multisoft].nes"
+      format: 1
+      size: 262160
+      blob_id: 64813
+      debug: "Probotector II - Return of the Evil Forces (E) [T+Rus_Multisoft].nes"
 - release:
     id: 22317
     game_id: 22317

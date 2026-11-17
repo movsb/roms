@@ -7,12 +7,29 @@ names:
   kind_id: 25178
   language: 1
   name: Trolls in Crazyland, The (E) [t1]
+- id: 71519
+  kind: 2
+  kind_id: 25178
+  language: 2
+  name: 食人妖之疯狂岛大冒险 (动作)-Trolls in Crazyland, The
+- id: 71520
+  kind: 2
+  kind_id: 25178
+  language: 1
+  name: Trolls in Crazyland, The (E)
+  deprecated: 1
 - id: 248810
   kind: 2
   kind_id: 25178
   language: 2
   name: 疯狂乐园里的巨魔
   source: codex
+- id: 263653
+  kind: 2
+  kind_id: 25178
+  language: 1
+  name: Trolls in Crazyland, The
+  source: no-intro
 releases:
 - release:
     id: 25178
@@ -34,3 +51,48 @@ releases:
       size: 262160
       blob_id: 70395
       debug: Trolls in Crazyland, The (E) [t1].nes
+- release:
+    id: 30207
+    game_id: 25178
+  names:
+  - id: 71521
+    kind: 3
+    kind_id: 30207
+    language: 2
+    name: 食人妖之疯狂岛大冒险 (欧版) (动作)-Trolls in Crazyland, The (Europe)
+  - id: 71522
+    kind: 3
+    kind_id: 30207
+    language: 1
+    name: Trolls in Crazyland, The (E)
+    deprecated: 1
+  - id: 261350
+    kind: 3
+    kind_id: 30207
+    language: 1
+    name: Trolls in Crazyland, The (Europe)
+    source: no-intro
+  assets:
+  - asset:
+      id: 30189
+      kind: 3
+      kind_id: 30207
+      type: 1
+      name: Trolls in Crazyland, The (Europe).nes
+      format: 1
+      size: 262160
+      blob_id: 74063
+      debug: |-
+        食人妖之疯狂岛大冒险 (欧版) (动作)-Trolls in Crazyland, The (Europe) + Trolls in Crazyland, The (E).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=bbae8ed1c54b15a14b236be3c89e9b97326a8d46
+  - asset:
+      id: 139245
+      kind: 3
+      kind_id: 30207
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Trolls%20in%20Crazyland%2C%20The%20%28Europe%29.png
+      format: 1
+      size: 2931
+      blob_id: 324704
+      debug: libretro-named-titles:rom-asset=30189:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Trolls%20in%20Crazyland%2C%20The%20%28Europe%29.png

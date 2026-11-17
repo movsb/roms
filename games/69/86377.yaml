@@ -3,6 +3,11 @@ game:
   platform_id: 2
   description: FC/NES 多游戏合卡集中暂存。迁移清单保存在 data/multicarts-fc/result.json，包含原游戏归属。本次仅移动发行版，不删除 ROM。
 names:
+- id: 92760
+  kind: 2
+  kind_id: 86377
+  language: 1
+  name: Poker III
 - id: 242253
   kind: 2
   kind_id: 86377
@@ -13,6 +18,12 @@ names:
   kind_id: 86377
   language: 1
   name: Multicarts (Pending Deletion)
+- id: 248378
+  kind: 2
+  kind_id: 86377
+  language: 2
+  name: 扑克3
+  source: codex
 releases:
 - release:
     id: 4721
@@ -5265,6 +5276,48 @@ releases:
       debug: |-
         Pet 4-in-1 (Unl).nes
         no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=d9d9b941802b256a1d400f906027c6430e917e2a
+- release:
+    id: 18991
+    game_id: 86377
+  names:
+  - id: 42310
+    kind: 3
+    kind_id: 18991
+    language: 1
+    name: Poker III (Sachen) [!]
+  assets:
+  - asset:
+      id: 18973
+      kind: 3
+      kind_id: 18991
+      type: 1
+      name: Poker III (Sachen) [!].nes
+      format: 1
+      size: 131088
+      blob_id: 64510
+      debug: |-
+        Poker III (Sachen) [!].nes
+        Poker III (Sachen) [!].zip
+- release:
+    id: 18993
+    game_id: 86377
+  names:
+  - id: 42314
+    kind: 3
+    kind_id: 18993
+    language: 1
+    name: Poker III (Sachen) [a1]
+  assets:
+  - asset:
+      id: 18975
+      kind: 3
+      kind_id: 18993
+      type: 1
+      name: Poker III (Sachen) [a1].nes
+      format: 1
+      size: 131088
+      blob_id: 64511
+      debug: Poker III (Sachen) [a1].nes
 - release:
     id: 18994
     game_id: 86377

@@ -2,6 +2,28 @@ game:
   id: 25273
   platform_id: 2
 names:
+- id: 70615
+  kind: 2
+  kind_id: 25273
+  language: 2
+  name: 迷糊蛋 (动作)-Hebereke
+- id: 70616
+  kind: 2
+  kind_id: 25273
+  language: 1
+  name: Hebereke (J)
+  deprecated: 1
+- id: 70619
+  kind: 2
+  kind_id: 25273
+  language: 2
+  name: "迷糊蛋 (动作)-Ufouria - The Saga"
+- id: 70620
+  kind: 2
+  kind_id: 25273
+  language: 1
+  name: "U-four-ia - The Saga (E) [!]"
+  deprecated: 1
 - id: 93463
   kind: 2
   kind_id: 25273
@@ -13,7 +35,59 @@ names:
   language: 2
   name: Hebereke
   source: codex
+- id: 263548
+  kind: 2
+  kind_id: 25273
+  language: 1
+  name: Hebereke
+  source: no-intro
+- id: 263549
+  kind: 2
+  kind_id: 25273
+  language: 1
+  name: "Ufouria - The Saga"
+  source: no-intro
 releases:
+- release:
+    id: 12964
+    game_id: 25273
+  names:
+  - id: 28474
+    kind: 3
+    kind_id: 12964
+    language: 1
+    name: Hebereke (J) [t1]
+  assets:
+  - asset:
+      id: 12946
+      kind: 3
+      kind_id: 12964
+      type: 1
+      name: Hebereke (J) [t1].nes
+      format: 1
+      size: 262160
+      blob_id: 58843
+      debug: Hebereke (J) [t1].nes
+- release:
+    id: 12965
+    game_id: 25273
+  names:
+  - id: 28476
+    kind: 3
+    kind_id: 12965
+    language: 1
+    name: Hebereke (Japan) (Translated En)
+  assets:
+  - asset:
+      id: 12947
+      kind: 3
+      kind_id: 12965
+      type: 1
+      name: Hebereke (Japan) (Translated En).nes
+      format: 1
+      size: 393232
+      blob_id: 58844
+      debug: Hebereke (Japan) (Translated En).zip
 - release:
     id: 25273
     game_id: 25273
@@ -152,3 +226,91 @@ releases:
       size: 3072
       blob_id: 325240
       debug: libretro-named-titles:rom-asset=25260:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Ufouria%20-%20The%20Saga%20%28USA%2C%20Europe%29%20%28Wii%20Virtual%20Console%29.png
+- release:
+    id: 29941
+    game_id: 25273
+  names:
+  - id: 70617
+    kind: 3
+    kind_id: 29941
+    language: 2
+    name: 迷糊蛋 (日版) (动作)-Hebereke (Japan)
+  - id: 70618
+    kind: 3
+    kind_id: 29941
+    language: 1
+    name: Hebereke (J)
+    deprecated: 1
+  - id: 261238
+    kind: 3
+    kind_id: 29941
+    language: 1
+    name: Hebereke (Japan)
+    source: no-intro
+  assets:
+  - asset:
+      id: 29923
+      kind: 3
+      kind_id: 29941
+      type: 1
+      name: Hebereke (Japan).nes
+      format: 1
+      size: 262160
+      blob_id: 73893
+      debug: |-
+        迷糊蛋 (日版) (动作)-Hebereke (Japan) + Hebereke (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=7d10c6dd141da35a1672f127791639b5816c692d
+  - asset:
+      id: 139204
+      kind: 3
+      kind_id: 29941
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Hebereke%20%28Japan%29.png
+      format: 1
+      size: 2652
+      blob_id: 324667
+      debug: libretro-named-titles:rom-asset=29923:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Hebereke%20%28Japan%29.png
+- release:
+    id: 29942
+    game_id: 25273
+  names:
+  - id: 70621
+    kind: 3
+    kind_id: 29942
+    language: 2
+    name: "迷糊蛋 (欧版) (动作)-Ufouria - The Saga (Europe)"
+  - id: 70622
+    kind: 3
+    kind_id: 29942
+    language: 1
+    name: "U-four-ia - The Saga (E) [!]"
+    deprecated: 1
+  - id: 261239
+    kind: 3
+    kind_id: 29942
+    language: 1
+    name: "Ufouria - The Saga (Europe)"
+    source: no-intro
+  assets:
+  - asset:
+      id: 29924
+      kind: 3
+      kind_id: 29942
+      type: 1
+      name: "Ufouria - The Saga (Europe).nes"
+      format: 1
+      size: 262160
+      blob_id: 73894
+      debug: "迷糊蛋 (欧版) (动作)-Ufouria - The Saga (Europe) + U-four-ia - The Saga (E) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=b12b3c850a11a05334c04ac19c2cdaf9a8427843"
+  - asset:
+      id: 138015
+      kind: 3
+      kind_id: 29942
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 2751
+      blob_id: 323593
+      debug: fc-title-trial:nestopia:rom-asset=29924:frame=1200:region=PAL:start-frame=600

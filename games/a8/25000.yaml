@@ -2,6 +2,17 @@ game:
   id: 25000
   platform_id: 2
 names:
+- id: 66649
+  kind: 2
+  kind_id: 25000
+  language: 2
+  name: 汤姆冒险记 (动作)-Tom Sawyer no Bouken
+- id: 66650
+  kind: 2
+  kind_id: 25000
+  language: 1
+  name: Tom Sawyer no Bouken (J)
+  deprecated: 1
 - id: 93417
   kind: 2
   kind_id: 25000
@@ -54,3 +65,48 @@ releases:
       size: 262160
       blob_id: 70233
       debug: Tom Sawyer no Bouken (J) [t1].nes
+- release:
+    id: 28759
+    game_id: 25000
+  names:
+  - id: 66651
+    kind: 3
+    kind_id: 28759
+    language: 2
+    name: 汤姆冒险记 (日版) (动作)-Tom Sawyer no Bouken (Japan)
+  - id: 66652
+    kind: 3
+    kind_id: 28759
+    language: 1
+    name: Tom Sawyer no Bouken (J)
+    deprecated: 1
+  - id: 260794
+    kind: 3
+    kind_id: 28759
+    language: 1
+    name: Tom Sawyer no Bouken (Japan)
+    source: no-intro
+  assets:
+  - asset:
+      id: 28741
+      kind: 3
+      kind_id: 28759
+      type: 1
+      name: Tom Sawyer no Bouken (Japan).nes
+      format: 1
+      size: 262160
+      blob_id: 73162
+      debug: |-
+        汤姆冒险记 (日版) (动作)-Tom Sawyer no Bouken (Japan) + Tom Sawyer no Bouken (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=84db85eee17b616f38c6126703ff6c96298999e7
+  - asset:
+      id: 139061
+      kind: 3
+      kind_id: 28759
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Tom%20Sawyer%20no%20Bouken%20%28Japan%29.png
+      format: 1
+      size: 3884
+      blob_id: 324531
+      debug: libretro-named-titles:rom-asset=28741:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Tom%20Sawyer%20no%20Bouken%20%28Japan%29.png

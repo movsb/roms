@@ -2,6 +2,11 @@ game:
   id: 11814
   platform_id: 2
 names:
+- id: 25927
+  kind: 2
+  kind_id: 11814
+  language: 1
+  name: Flying_dragon
 - id: 71491
   kind: 2
   kind_id: 11814
@@ -18,6 +23,12 @@ names:
   kind_id: 11814
   language: 1
   name: "Flying Dragon - The Secret Scroll"
+- id: 247819
+  kind: 2
+  kind_id: 11814
+  language: 2
+  name: 飞龙拳
+  source: codex
 - id: 261715
   kind: 2
   kind_id: 11814
@@ -74,3 +85,34 @@ releases:
       size: 2430
       blob_id: 322554
       debug: fc-title-trial:fceumm:rom-asset=11796:frame=900:start-frame=600
+- release:
+    id: 11830
+    game_id: 11814
+  names:
+  - id: 25928
+    kind: 3
+    kind_id: 11830
+    language: 1
+    name: Flying_dragon
+  assets:
+  - asset:
+      id: 11812
+      kind: 3
+      kind_id: 11830
+      type: 1
+      name: Flying_dragon.nes
+      format: 1
+      size: 131216
+      blob_id: 57768
+      debug: Flying_dragon.zip
+  - asset:
+      id: 138398
+      kind: 3
+      kind_id: 11830
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 2430
+      blob_id: 322554
+      debug: fc-title-trial:fceumm:rom-asset=11812:frame=2100:start-frame=1800

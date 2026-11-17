@@ -2,6 +2,12 @@ game:
   id: 25808
   platform_id: 2
 names:
+- id: 62520
+  kind: 2
+  kind_id: 25808
+  language: 1
+  name: Wario's Woods (E) [!]
+  deprecated: 1
 - id: 62523
   kind: 2
   kind_id: 25808
@@ -23,6 +29,17 @@ names:
   kind_id: 25808
   language: 1
   name: Wario's Woods
+- id: 93536
+  kind: 2
+  kind_id: 25808
+  language: 1
+  name: Wario's Woods GAY Great Autumn Yesterday by L.Soft
+- id: 255750
+  kind: 2
+  kind_id: 25808
+  language: 2
+  name: 瓦力欧森林GAY
+  source: codex
 - id: 262290
   kind: 2
   kind_id: 25808
@@ -122,3 +139,68 @@ releases:
       size: 2458
       blob_id: 324241
       debug: libretro-named-titles:rom-asset=25796:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Wario%27s%20Woods%20%28USA%29.png
+- release:
+    id: 25816
+    game_id: 25808
+  names:
+  - id: 57722
+    kind: 3
+    kind_id: 25816
+    language: 1
+    name: Wario's Woods GAY Great Autumn Yesterday by L.Soft (v1.0) (Hack)
+  assets:
+  - asset:
+      id: 25798
+      kind: 3
+      kind_id: 25816
+      type: 1
+      name: Wario's Woods GAY Great Autumn Yesterday by L.Soft (v1.0) (Hack).nes
+      format: 1
+      size: 524304
+      blob_id: 70985
+      debug: Wario's Woods GAY Great Autumn Yesterday by L.Soft (v1.0) (Hack).nes
+- release:
+    id: 27527
+    game_id: 25808
+  names:
+  - id: 62521
+    kind: 3
+    kind_id: 27527
+    language: 2
+    name: 坏璃欧森林 (欧版) (益智)-Warios Woods (Europe)
+  - id: 62522
+    kind: 3
+    kind_id: 27527
+    language: 1
+    name: Wario's Woods (E) [!]
+    deprecated: 1
+  - id: 260289
+    kind: 3
+    kind_id: 27527
+    language: 1
+    name: Wario's Woods (Europe)
+    source: no-intro
+  assets:
+  - asset:
+      id: 27509
+      kind: 3
+      kind_id: 27527
+      type: 1
+      name: Wario's Woods (Europe).nes
+      format: 1
+      size: 524304
+      blob_id: 72345
+      debug: |-
+        坏璃欧森林 (欧版) (益智)-Warios Woods (Europe) + Wario's Woods (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=1cec3b2e93e81f0353be25ad139addae881dc69a
+  - asset:
+      id: 137633
+      kind: 3
+      kind_id: 27527
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 5240
+      blob_id: 323261
+      debug: fc-title-trial:fceumm:rom-asset=27509:frame=600:region=PAL

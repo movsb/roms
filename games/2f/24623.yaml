@@ -17,6 +17,18 @@ names:
   kind_id: 24623
   language: 2
   name: 终结者2审判日
+- id: 72060
+  kind: 2
+  kind_id: 24623
+  language: 1
+  name: "Terminator 2 - Judgment Day (J)"
+  deprecated: 1
+- id: 72064
+  kind: 2
+  kind_id: 24623
+  language: 1
+  name: "Terminator 2 - Judgment Day (E) [!]"
+  deprecated: 1
 - id: 72067
   kind: 2
   kind_id: 24623
@@ -32,6 +44,12 @@ names:
   kind_id: 24623
   language: 1
   name: "Terminator 2 - Judgment Day"
+- id: 263708
+  kind: 2
+  kind_id: 24623
+  language: 1
+  name: Terminator 2
+  source: no-intro
 releases:
 - release:
     id: 24623
@@ -186,3 +204,89 @@ releases:
       size: 262160
       blob_id: 69898
       debug: "Terminator 2 - Judgment Day (U) [t1].nes\n终结者2.zip"
+- release:
+    id: 30370
+    game_id: 24623
+  names:
+  - id: 72061
+    kind: 3
+    kind_id: 30370
+    language: 2
+    name: "魔鬼终结者 II - 审判日 (日版) (动作)-Terminator 2 - Judgment Day (Japan)"
+  - id: 72062
+    kind: 3
+    kind_id: 30370
+    language: 1
+    name: "Terminator 2 - Judgment Day (J)"
+    deprecated: 1
+  - id: 261416
+    kind: 3
+    kind_id: 30370
+    language: 1
+    name: Terminator 2 (Japan)
+    source: no-intro
+  assets:
+  - asset:
+      id: 30352
+      kind: 3
+      kind_id: 30370
+      type: 1
+      name: Terminator 2 (Japan).nes
+      format: 1
+      size: 262160
+      blob_id: 74167
+      debug: "魔鬼终结者 II - 审判日 (日版) (动作)-Terminator 2 - Judgment Day (Japan) + Terminator 2 - Judgment Day (J).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=2be07f59a78dac7319a024390a676f69a8411fca"
+  - asset:
+      id: 140258
+      kind: 3
+      kind_id: 30370
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Terminator%202%20%28Japan%29.png
+      format: 1
+      size: 3973
+      blob_id: 325572
+      debug: libretro-named-titles:rom-asset=30352:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Terminator%202%20%28Japan%29.png
+- release:
+    id: 30371
+    game_id: 24623
+  names:
+  - id: 72065
+    kind: 3
+    kind_id: 30371
+    language: 2
+    name: "魔鬼终结者 II - 审判日 (欧版) (动作)-Terminator 2 - Judgment Day (Europe)"
+  - id: 72066
+    kind: 3
+    kind_id: 30371
+    language: 1
+    name: "Terminator 2 - Judgment Day (E) [!]"
+    deprecated: 1
+  - id: 261417
+    kind: 3
+    kind_id: 30371
+    language: 1
+    name: "Terminator 2 - Judgment Day (Europe)"
+    source: no-intro
+  assets:
+  - asset:
+      id: 30353
+      kind: 3
+      kind_id: 30371
+      type: 1
+      name: "Terminator 2 - Judgment Day (Europe).nes"
+      format: 1
+      size: 262160
+      blob_id: 74168
+      debug: "魔鬼终结者 II - 审判日 (欧版) (动作)-Terminator 2 - Judgment Day (Europe) + Terminator 2 - Judgment Day (E) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=5705bef5b0b172b56d21385aae94bfa1f560e886"
+  - asset:
+      id: 138104
+      kind: 3
+      kind_id: 30371
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 5770
+      blob_id: 323672
+      debug: fc-title-trial:nestopia:rom-asset=30353:frame=2100:region=PAL:start-frame=1800

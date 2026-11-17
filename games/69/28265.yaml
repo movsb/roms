@@ -13,6 +13,21 @@ names:
   language: 1
   name: Senjou no Ookami (J) [!]
   deprecated: 1
+- id: 64949
+  kind: 2
+  kind_id: 28265
+  language: 2
+  name: 战埸之狼 (动作射击)-Commando
+- id: 64950
+  kind: 2
+  kind_id: 28265
+  language: 1
+  name: Commando (U) [!]
+- id: 91568
+  kind: 2
+  kind_id: 28265
+  language: 1
+  name: Commando
 - id: 248522
   kind: 2
   kind_id: 28265
@@ -26,6 +41,92 @@ names:
   name: Senjou no Ookami
   source: no-intro
 releases:
+- release:
+    id: 8973
+    game_id: 28265
+  names:
+  - id: 19074
+    kind: 3
+    kind_id: 8973
+    language: 1
+    name: Commando (U) [!]
+    deprecated: 1
+  - id: 19096
+    kind: 3
+    kind_id: 8973
+    language: 1
+    name: Commando (U)
+    deprecated: 1
+  - id: 64942
+    kind: 3
+    kind_id: 8973
+    language: 2
+    name: 战场之狼
+  - id: 64951
+    kind: 3
+    kind_id: 8973
+    language: 2
+    name: 战埸之狼 (美版) (动作射击)-Commando (USA)
+  - id: 257926
+    kind: 3
+    kind_id: 8973
+    language: 1
+    name: Commando (USA)
+    source: no-intro
+  assets:
+  - asset:
+      id: 8955
+      kind: 3
+      kind_id: 8973
+      type: 1
+      name: Commando (USA).nes
+      format: 1
+      size: 131088
+      blob_id: 55084
+      debug: |-
+        Commando (U) [!].zip
+        Commando (U).zip
+        战场之狼.zip
+        战埸之狼 (美版) (动作射击)-Commando (USA) + Commando (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=4c6aeb1ba671c9426a13e939e81930f3e31ccf8c
+  - asset:
+      id: 136781
+      kind: 3
+      kind_id: 8973
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 3474
+      blob_id: 322434
+      debug: fc-title-trial:fceumm:rom-asset=8955:frame=180
+- release:
+    id: 8982
+    game_id: 28265
+  names:
+  - id: 19094
+    kind: 3
+    kind_id: 8982
+    language: 1
+    name: Commando (U) [t1]
+  - id: 95195
+    kind: 3
+    kind_id: 8982
+    language: 2
+    name: 战场之狼
+  assets:
+  - asset:
+      id: 8964
+      kind: 3
+      kind_id: 8982
+      type: 1
+      name: Commando (U) [t1].nes
+      format: 1
+      size: 131088
+      blob_id: 55093
+      debug: |-
+        Commando (U) [t1].nes
+        战场之狼_2.zip
 - release:
     id: 20931
     game_id: 28265

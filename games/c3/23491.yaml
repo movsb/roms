@@ -7,6 +7,18 @@ names:
   kind_id: 23491
   language: 1
   name: TOMJERRY
+- id: 66668
+  kind: 2
+  kind_id: 23491
+  language: 1
+  name: Tom & Jerry (J)
+  deprecated: 1
+- id: 66672
+  kind: 2
+  kind_id: 23491
+  language: 1
+  name: Tom & Jerry (E) [!]
+  deprecated: 1
 - id: 66675
   kind: 2
   kind_id: 23491
@@ -27,6 +39,12 @@ names:
   kind_id: 23491
   language: 1
   name: Tom & Jerry
+- id: 263150
+  kind: 2
+  kind_id: 23491
+  language: 1
+  name: "Tom & Jerry - The Ultimate Game of Cat and Mouse!"
+  source: no-intro
 releases:
 - release:
     id: 23491
@@ -249,6 +267,96 @@ releases:
       size: 262160
       blob_id: 70230
       debug: Tom & Jerry (U) [t1].nes
+- release:
+    id: 28763
+    game_id: 23491
+  names:
+  - id: 66669
+    kind: 3
+    kind_id: 28763
+    language: 2
+    name: 汤姆猫与杰瑞鼠 (日版) (动作)-Tom &amp; Jerry (and Tuffy) (Japan)
+  - id: 66670
+    kind: 3
+    kind_id: 28763
+    language: 1
+    name: Tom & Jerry (J)
+    deprecated: 1
+  - id: 260795
+    kind: 3
+    kind_id: 28763
+    language: 1
+    name: Tom & Jerry (Japan)
+    source: no-intro
+  assets:
+  - asset:
+      id: 28745
+      kind: 3
+      kind_id: 28763
+      type: 1
+      name: Tom & Jerry (Japan).nes
+      format: 1
+      size: 262160
+      blob_id: 73164
+      debug: |-
+        汤姆猫与杰瑞鼠 (日版) (动作)-Tom &amp; Jerry (and Tuffy) (Japan) + Tom & Jerry (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=7f637704891587b73cdfd6ec5b6cec96de00318a
+  - asset:
+      id: 139062
+      kind: 3
+      kind_id: 28763
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Tom%20_%20Jerry%20%28Japan%29.png
+      format: 1
+      size: 2762
+      blob_id: 324532
+      debug: libretro-named-titles:rom-asset=28745:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Tom%20_%20Jerry%20%28Japan%29.png
+- release:
+    id: 28764
+    game_id: 23491
+  names:
+  - id: 66673
+    kind: 3
+    kind_id: 28764
+    language: 2
+    name: 汤姆猫与杰瑞鼠 (欧版) (动作)-Tom &amp; Jerry (and Tuffy) (Europe)
+  - id: 66674
+    kind: 3
+    kind_id: 28764
+    language: 1
+    name: Tom & Jerry (E) [!]
+    deprecated: 1
+  - id: 260796
+    kind: 3
+    kind_id: 28764
+    language: 1
+    name: "Tom & Jerry - The Ultimate Game of Cat and Mouse! (Europe)"
+    source: no-intro
+  assets:
+  - asset:
+      id: 28746
+      kind: 3
+      kind_id: 28764
+      type: 1
+      name: "Tom & Jerry - The Ultimate Game of Cat and Mouse! (Europe).nes"
+      format: 1
+      size: 262160
+      blob_id: 73165
+      debug: |-
+        汤姆猫与杰瑞鼠 (欧版) (动作)-Tom &amp; Jerry (and Tuffy) (Europe) + Tom & Jerry (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=fedc255aaf15d7a9aa20e3142a30e1c9434b04d7
+  - asset:
+      id: 137822
+      kind: 3
+      kind_id: 28764
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 4242
+      blob_id: 323432
+      debug: fc-title-trial:fceumm:rom-asset=28746:frame=600:region=PAL
 - release:
     id: 29116
     game_id: 23491

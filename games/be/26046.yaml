@@ -2,6 +2,17 @@ game:
   id: 26046
   platform_id: 2
 names:
+- id: 59955
+  kind: 2
+  kind_id: 26046
+  language: 2
+  name: 世界拳击赛 (运动)-World Boxing
+- id: 59956
+  kind: 2
+  kind_id: 26046
+  language: 1
+  name: World Boxing (J)
+  deprecated: 1
 - id: 93577
   kind: 2
   kind_id: 26046
@@ -54,3 +65,48 @@ releases:
       size: 262160
       blob_id: 71198
       debug: World Boxing (J) [t1].nes
+- release:
+    id: 26740
+    game_id: 26046
+  names:
+  - id: 59957
+    kind: 3
+    kind_id: 26740
+    language: 2
+    name: 世界拳击赛 (日版) (运动)-World Boxing (Japan)
+  - id: 59958
+    kind: 3
+    kind_id: 26740
+    language: 1
+    name: World Boxing (J)
+    deprecated: 1
+  - id: 259958
+    kind: 3
+    kind_id: 26740
+    language: 1
+    name: World Boxing (Japan)
+    source: no-intro
+  assets:
+  - asset:
+      id: 26722
+      kind: 3
+      kind_id: 26740
+      type: 1
+      name: World Boxing (Japan).nes
+      format: 1
+      size: 262160
+      blob_id: 71814
+      debug: |-
+        世界拳击赛 (日版) (运动)-World Boxing (Japan) + World Boxing (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=133a3c81a63c329fc0946b5986729c2cdeb5020f
+  - asset:
+      id: 138783
+      kind: 3
+      kind_id: 26740
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/World%20Boxing%20%28Japan%29.png
+      format: 1
+      size: 2152
+      blob_id: 324266
+      debug: libretro-named-titles:rom-asset=26722:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/World%20Boxing%20%28Japan%29.png

@@ -13,6 +13,17 @@ names:
   language: 1
   name: Penguin & Seal, The (Sachen-HES) [!]
   deprecated: 1
+- id: 61409
+  kind: 2
+  kind_id: 18776
+  language: 2
+  name: 动动脑 (亚洲版) (益智)-Dung Dung No 1 (Unl)
+- id: 61410
+  kind: 2
+  kind_id: 18776
+  language: 1
+  name: Dung Dung No 1 (Ch)
+  deprecated: 1
 - id: 92721
   kind: 2
   kind_id: 18776
@@ -29,6 +40,12 @@ names:
   kind_id: 18776
   language: 1
   name: "Arctic Adventure - Penguin & Seal"
+  source: no-intro
+- id: 262560
+  kind: 2
+  kind_id: 18776
+  language: 1
+  name: Dong Dongnao 1
   source: no-intro
 releases:
 - release:
@@ -127,3 +144,37 @@ releases:
       size: 2524
       blob_id: 325341
       debug: libretro-named-titles:rom-asset=26889:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Arctic%20Adventure%20-%20Penguin%20_%20Seal%20%28Australia%29%20%28Unl%29.png
+- release:
+    id: 27190
+    game_id: 18776
+  names:
+  - id: 61411
+    kind: 3
+    kind_id: 27190
+    language: 2
+    name: 动动脑 (亚洲版) (益智)-Dung Dung No 1 (Asia) (Unl)
+  - id: 61412
+    kind: 3
+    kind_id: 27190
+    language: 1
+    name: Dung Dung No 1 (Ch)
+    deprecated: 1
+  - id: 260147
+    kind: 3
+    kind_id: 27190
+    language: 1
+    name: Dong Dongnao 1 (Taiwan) (En) (Unl)
+    source: no-intro
+  assets:
+  - asset:
+      id: 27172
+      kind: 3
+      kind_id: 27190
+      type: 1
+      name: Dong Dongnao 1 (Taiwan) (En) (Unl).nes
+      format: 1
+      size: 24592
+      blob_id: 72120
+      debug: |-
+        动动脑 (亚洲版) (益智)-Dung Dung No 1 (Asia) (Unl) + Dung Dung No 1 (Ch).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=97797513fcf04271cb5c33801c2abed1cf0cba35

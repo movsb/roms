@@ -2,6 +2,17 @@ game:
   id: 13230
   platform_id: 2
 names:
+- id: 61517
+  kind: 2
+  kind_id: 13230
+  language: 2
+  name: 北斗神拳 (动作)-Hokuto no Ken
+- id: 61518
+  kind: 2
+  kind_id: 13230
+  language: 1
+  name: Hokuto no Ken (J) [!]
+  deprecated: 1
 - id: 92082
   kind: 2
   kind_id: 13230
@@ -212,3 +223,48 @@ releases:
   release_publishers:
   - release_id: 13243
     publisher_id: 160
+- release:
+    id: 27224
+    game_id: 13230
+  names:
+  - id: 61519
+    kind: 3
+    kind_id: 27224
+    language: 2
+    name: 北斗神拳 (日版) (动作)-Hokuto no Ken (Japan)
+  - id: 61520
+    kind: 3
+    kind_id: 27224
+    language: 1
+    name: Hokuto no Ken (J) [!]
+    deprecated: 1
+  - id: 260164
+    kind: 3
+    kind_id: 27224
+    language: 1
+    name: Hokuto no Ken (Japan)
+    source: no-intro
+  assets:
+  - asset:
+      id: 27206
+      kind: 3
+      kind_id: 27224
+      type: 1
+      name: Hokuto no Ken (Japan).nes
+      format: 1
+      size: 65552
+      blob_id: 72143
+      debug: |-
+        北斗神拳 (日版) (动作)-Hokuto no Ken (Japan) + Hokuto no Ken (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=f2cf26977caa9883bc2c92f27b268eb6892217ab
+  - asset:
+      id: 137594
+      kind: 3
+      kind_id: 27224
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 2588
+      blob_id: 323225
+      debug: fc-title-trial:fceumm:rom-asset=27206:frame=180

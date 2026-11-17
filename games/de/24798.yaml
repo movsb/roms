@@ -2,6 +2,12 @@ game:
   id: 24798
   platform_id: 2
 names:
+- id: 71350
+  kind: 2
+  kind_id: 24798
+  language: 1
+  name: Thunderbirds (J)
+  deprecated: 1
 - id: 71353
   kind: 2
   kind_id: 24798
@@ -91,3 +97,48 @@ releases:
       size: 262160
       blob_id: 70058
       debug: Thunderbirds (U) [t1].nes
+- release:
+    id: 30157
+    game_id: 24798
+  names:
+  - id: 71351
+    kind: 3
+    kind_id: 30157
+    language: 2
+    name: 雷鸟神机队 (日版) (射击)-Thunderbirds (Japan)
+  - id: 71352
+    kind: 3
+    kind_id: 30157
+    language: 1
+    name: Thunderbirds (J)
+    deprecated: 1
+  - id: 261329
+    kind: 3
+    kind_id: 30157
+    language: 1
+    name: Thunderbirds (Japan)
+    source: no-intro
+  assets:
+  - asset:
+      id: 30139
+      kind: 3
+      kind_id: 30157
+      type: 1
+      name: Thunderbirds (Japan).nes
+      format: 1
+      size: 262160
+      blob_id: 74033
+      debug: |-
+        雷鸟神机队 (日版) (射击)-Thunderbirds (Japan) + Thunderbirds (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=51cba10ae65105f1fbeaf00994244c5402878840
+  - asset:
+      id: 139238
+      kind: 3
+      kind_id: 30157
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Thunderbirds%20%28Japan%29.png
+      format: 1
+      size: 15462
+      blob_id: 324699
+      debug: libretro-named-titles:rom-asset=30139:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Thunderbirds%20%28Japan%29.png

@@ -13,11 +13,28 @@ names:
   language: 1
   name: Family BASIC (J) (V2.0a)
   deprecated: 1
+- id: 60307
+  kind: 2
+  kind_id: 26850
+  language: 2
+  name: 任天堂培基系统 (V2.1a) (其他)-Family BASIC (v2.1a)
+- id: 60308
+  kind: 2
+  kind_id: 26850
+  language: 1
+  name: Family BASIC (J) (V2.1a) [!]
+  deprecated: 1
 - id: 262440
   kind: 2
   kind_id: 26850
   language: 1
   name: Family BASIC v2.0
+  source: no-intro
+- id: 262441
+  kind: 2
+  kind_id: 26850
+  language: 1
+  name: Family BASIC v2.1
   source: no-intro
 releases:
 - release:
@@ -65,3 +82,48 @@ releases:
       size: 1571
       blob_id: 324282
       debug: libretro-named-titles:rom-asset=26832:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Family%20BASIC%20%28Japan%29%20%28v2.0a%29.png
+- release:
+    id: 26851
+    game_id: 26850
+  names:
+  - id: 60309
+    kind: 3
+    kind_id: 26851
+    language: 2
+    name: 任天堂培基系统 (日版) (V2.1a) (其他)-Family BASIC (Japan) (v2.1a)
+  - id: 60310
+    kind: 3
+    kind_id: 26851
+    language: 1
+    name: Family BASIC (J) (V2.1a) [!]
+    deprecated: 1
+  - id: 260019
+    kind: 3
+    kind_id: 26851
+    language: 1
+    name: Family BASIC v2.1 (Japan)
+    source: no-intro
+  assets:
+  - asset:
+      id: 26833
+      kind: 3
+      kind_id: 26851
+      type: 1
+      name: Family BASIC v2.1 (Japan).nes
+      format: 1
+      size: 40976
+      blob_id: 71897
+      debug: |-
+        任天堂培基系统 (日版) (V2.1a) (其他)-Family BASIC (Japan) (v2.1a) + Family BASIC (J) (V2.1a) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=8e90d9a6a6090307a7e408d1c1704d09ba8f94fc
+  - asset:
+      id: 138802
+      kind: 3
+      kind_id: 26851
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Family%20BASIC%20%28Japan%29%20%28v2.1a%29.png
+      format: 1
+      size: 1548
+      blob_id: 324283
+      debug: libretro-named-titles:rom-asset=26833:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Family%20BASIC%20%28Japan%29%20%28v2.1a%29.png

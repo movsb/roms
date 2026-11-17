@@ -7,6 +7,17 @@ names:
   kind_id: 19777
   language: 1
   name: Rambo
+- id: 68523
+  kind: 2
+  kind_id: 19777
+  language: 2
+  name: 第一滴血
+- id: 69422
+  kind: 2
+  kind_id: 19777
+  language: 1
+  name: "Rambo - First Blood Part II (J) [!]"
+  deprecated: 1
 - id: 69425
   kind: 2
   kind_id: 19777
@@ -27,6 +38,11 @@ names:
   kind_id: 19777
   language: 1
   name: Rambo (U) (PRG1) [!]
+- id: 92838
+  kind: 2
+  kind_id: 19777
+  language: 1
+  name: "Rambo - First Blood Part II"
 releases:
 - release:
     id: 19759
@@ -213,3 +229,71 @@ releases:
       size: 15068
       blob_id: 324134
       debug: libretro-named-titles:rom-asset=19751:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Rambo%20%28USA%29.png
+- release:
+    id: 19776
+    game_id: 19777
+  names:
+  - id: 44032
+    kind: 3
+    kind_id: 19776
+    language: 1
+    name: "Rambo - First Blood Part II (J) [t1]"
+  - id: 68524
+    kind: 3
+    kind_id: 19776
+    language: 2
+    name: 第一滴血
+  assets:
+  - asset:
+      id: 19758
+      kind: 3
+      kind_id: 19776
+      type: 1
+      name: "Rambo - First Blood Part II (J) [t1].nes"
+      format: 1
+      size: 131088
+      blob_id: 65250
+      debug: "Rambo - First Blood Part II (J) [t1].nes\n第一滴血.zip"
+- release:
+    id: 29583
+    game_id: 19777
+  names:
+  - id: 69423
+    kind: 3
+    kind_id: 29583
+    language: 2
+    name: 蓝波 (日版) (动作)-Rambo (Japan)
+  - id: 69424
+    kind: 3
+    kind_id: 29583
+    language: 1
+    name: "Rambo - First Blood Part II (J) [!]"
+    deprecated: 1
+  - id: 261112
+    kind: 3
+    kind_id: 29583
+    language: 1
+    name: Rambo (Japan)
+    source: no-intro
+  assets:
+  - asset:
+      id: 29565
+      kind: 3
+      kind_id: 29583
+      type: 1
+      name: Rambo (Japan).nes
+      format: 1
+      size: 131088
+      blob_id: 73676
+      debug: "蓝波 (日版) (动作)-Rambo (Japan) + Rambo - First Blood Part II (J) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=58fa3b8f76adff009035e8af6c0a3c272a5d2331"
+  - asset:
+      id: 137962
+      kind: 3
+      kind_id: 29583
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 1452
+      blob_id: 323549
+      debug: fc-title-trial:fceumm:rom-asset=29565:frame=900

@@ -2,17 +2,40 @@ game:
   id: 9698
   platform_id: 2
 names:
+- id: 38757
+  kind: 2
+  kind_id: 9698
+  language: 1
+  name: Napoleon's War (Unl)
+  deprecated: 1
+- id: 64093
+  kind: 2
+  kind_id: 9698
+  language: 2
+  name: 帝国风暴
 - id: 91652
   kind: 2
   kind_id: 9698
   language: 1
   name: "Di Guo Feng Bao - Napoleon's War"
+- id: 93673
+  kind: 2
+  kind_id: 9698
+  language: 1
+  name: Napoleon's War
+  deprecated: 1
 - id: 247673
   kind: 2
   kind_id: 9698
   language: 2
   name: 帝国风暴：拿破仑战争
   source: codex
+- id: 261948
+  kind: 2
+  kind_id: 9698
+  language: 1
+  name: "Diguo Fengbao - Napoleon's War"
+  source: no-intro
 releases:
 - release:
     id: 9698
@@ -72,3 +95,49 @@ releases:
       size: 524304
       blob_id: 55761
       debug: "Di Guo Feng Bao - Napoleon's War (Unl) [f1].nes"
+- release:
+    id: 17390
+    game_id: 9698
+  names:
+  - id: 38758
+    kind: 3
+    kind_id: 17390
+    language: 1
+    name: Napoleon's War (Unl)
+    deprecated: 1
+  - id: 64099
+    kind: 3
+    kind_id: 17390
+    language: 2
+    name: 帝国风暴[外星科技]
+  - id: 258919
+    kind: 3
+    kind_id: 17390
+    language: 1
+    name: "Diguo Fengbao - Napoleon's War (China) (980100029) (Unl)"
+    source: no-intro
+  assets:
+  - asset:
+      id: 17372
+      kind: 3
+      kind_id: 17390
+      type: 1
+      name: "Diguo Fengbao - Napoleon's War (China) (980100029) (Unl).nes"
+      format: 1
+      size: 524304
+      blob_id: 62975
+      debug: |-
+        Napoleon's War (Unl).zip
+        帝国风暴[外星科技] + Napoleon's War (Unl).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=e38c025f8ef7ea072ce3753d94163476b9019cf4
+  - asset:
+      id: 139626
+      kind: 3
+      kind_id: 17390
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Diguo%20Fengbao%20-%20Napoleon%27s%20War%20%28China%29%20%28980100029%29%20%28Unl%29.png
+      format: 1
+      size: 3605
+      blob_id: 325028
+      debug: libretro-named-titles:rom-asset=17372:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Diguo%20Fengbao%20-%20Napoleon%27s%20War%20%28China%29%20%28980100029%29%20%28Unl%29.png

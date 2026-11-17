@@ -2,6 +2,11 @@ game:
   id: 7446
   platform_id: 2
 names:
+- id: 15743
+  kind: 2
+  kind_id: 7446
+  language: 1
+  name: BubbleBobble
 - id: 66756
   kind: 2
   kind_id: 7446
@@ -28,6 +33,12 @@ names:
   kind_id: 7446
   language: 1
   name: Bubble Bobble
+- id: 247568
+  kind: 2
+  kind_id: 7446
+  language: 2
+  name: 泡泡龙
+  source: codex
 releases:
 - release:
     id: 7446
@@ -398,6 +409,37 @@ releases:
       size: 163856
       blob_id: 53638
       debug: Bubble Bobble (U) [T-Spa.99_PaladinKnights].nes
+- release:
+    id: 7494
+    game_id: 7446
+  names:
+  - id: 15744
+    kind: 3
+    kind_id: 7494
+    language: 1
+    name: BubbleBobble
+  assets:
+  - asset:
+      id: 7476
+      kind: 3
+      kind_id: 7494
+      type: 1
+      name: BubbleBobble.nes
+      format: 1
+      size: 262288
+      blob_id: 53668
+      debug: BubbleBobble.zip
+  - asset:
+      id: 138243
+      kind: 3
+      kind_id: 7494
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 4843
+      blob_id: 323784
+      debug: fc-title-trial:fceumm:rom-asset=7476:frame=600
 - release:
     id: 28791
     game_id: 7446

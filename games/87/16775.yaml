@@ -2,6 +2,11 @@ game:
   id: 16775
   platform_id: 2
 names:
+- id: 37387
+  kind: 2
+  kind_id: 16775
+  language: 1
+  name: MissionCobra
 - id: 68221
   kind: 2
   kind_id: 16775
@@ -17,6 +22,12 @@ names:
   kind_id: 16775
   language: 1
   name: Mission Cobra
+- id: 248200
+  kind: 2
+  kind_id: 16775
+  language: 2
+  name: 眼镜蛇任务
+  source: codex
 releases:
 - release:
     id: 16777
@@ -130,3 +141,23 @@ releases:
       size: 2168
       blob_id: 324995
       debug: libretro-named-titles:rom-asset=16761:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mission%20Cobra%20%28USA%29%20%28Unl%29.png
+- release:
+    id: 16781
+    game_id: 16775
+  names:
+  - id: 37388
+    kind: 3
+    kind_id: 16781
+    language: 1
+    name: MissionCobra
+  assets:
+  - asset:
+      id: 16763
+      kind: 3
+      kind_id: 16781
+      type: 1
+      name: MissionCobra.nes
+      format: 1
+      size: 65552
+      blob_id: 62403
+      debug: MissionCobra.zip

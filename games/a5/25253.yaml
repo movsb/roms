@@ -2,11 +2,32 @@ game:
   id: 25253
   platform_id: 2
 names:
+- id: 56473
+  kind: 2
+  kind_id: 25253
+  language: 1
+  name: "TwinBee 3 - Poko Poko Daimaou (Translated En)"
+- id: 60937
+  kind: 2
+  kind_id: 25253
+  language: 2
+  name: "兵蜂 III - 波可波可大魔王 (射击)-TwinBee 3 - Poko Poko Dai Maou"
+- id: 60938
+  kind: 2
+  kind_id: 25253
+  language: 1
+  name: "TwinBee 3 - Poko Poko Dai Maou (J) [!]"
+  deprecated: 1
 - id: 60941
   kind: 2
   kind_id: 25253
   language: 2
   name: "兵蜂 III - 波可波可大魔王(Beta) (射击)-TwinBee 3 - Poko Poko Dai Maou (Beta)"
+- id: 60961
+  kind: 2
+  kind_id: 25253
+  language: 2
+  name: 兵蜂III无限命
 - id: 93461
   kind: 2
   kind_id: 25253
@@ -164,6 +185,69 @@ releases:
       blob_id: 70470
       debug: "TwinBee 3 - Poko Poko Dai Maou (J) [t3].nes"
 - release:
+    id: 25264
+    game_id: 25253
+  names:
+  - id: 56474
+    kind: 3
+    kind_id: 25264
+    language: 1
+    name: "TwinBee 3 - Poko Poko Daimaou (Japan) (Translated En)"
+  assets:
+  - asset:
+      id: 25246
+      kind: 3
+      kind_id: 25264
+      type: 1
+      name: "TwinBee 3 - Poko Poko Daimaou (Japan) (Translated En).nes"
+      format: 1
+      size: 262160
+      blob_id: 70471
+      debug: "TwinBee 3 - Poko Poko Daimaou (Japan) (Translated En).zip"
+- release:
+    id: 27038
+    game_id: 25253
+  names:
+  - id: 60939
+    kind: 3
+    kind_id: 27038
+    language: 2
+    name: "兵蜂 III - 波可波可大魔王 (日版) (射击)-TwinBee 3 - Poko Poko Dai Maou (Japan)"
+  - id: 60940
+    kind: 3
+    kind_id: 27038
+    language: 1
+    name: "TwinBee 3 - Poko Poko Dai Maou (J) [!]"
+    deprecated: 1
+  - id: 260101
+    kind: 3
+    kind_id: 27038
+    language: 1
+    name: "TwinBee 3 - Poko Poko Daimaou (Japan)"
+    source: no-intro
+  assets:
+  - asset:
+      id: 27020
+      kind: 3
+      kind_id: 27038
+      type: 1
+      name: "TwinBee 3 - Poko Poko Daimaou (Japan).nes"
+      format: 1
+      size: 262160
+      blob_id: 72018
+      debug: "兵蜂 III - 波可波可大魔王 (日版) (射击)-TwinBee 3 - Poko Poko Dai Maou (Japan) + TwinBee 3 - Poko Poko Dai Maou (J) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=5633ac906453f33819a79d395cc612b5098f0b8b"
+  - asset:
+      id: 137569
+      kind: 3
+      kind_id: 27038
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 4212
+      blob_id: 323204
+      debug: fc-title-trial:fceumm:rom-asset=27020:frame=180
+- release:
     id: 27039
     game_id: 25253
   names:
@@ -200,3 +284,23 @@ releases:
       size: 2372
       blob_id: 325239
       debug: libretro-named-titles:rom-asset=27021:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/TwinBee%203%20-%20Poko%20Poko%20Daimaou%20%28Japan%29%20%28Sample%29.png
+- release:
+    id: 27047
+    game_id: 25253
+  names:
+  - id: 60962
+    kind: 3
+    kind_id: 27047
+    language: 2
+    name: 兵蜂III无限命
+  assets:
+  - asset:
+      id: 27029
+      kind: 3
+      kind_id: 27047
+      type: 1
+      name: 兵蜂III无限命.nes
+      format: 1
+      size: 262160
+      blob_id: 72025
+      debug: "兵蜂III无限命.nes\n重复的/TwinBee 3 - Poko Poko Dai Maou (J) [t1].nes"

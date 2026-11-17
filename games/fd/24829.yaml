@@ -7,6 +7,18 @@ names:
   kind_id: 24829
   language: 2
   name: 老虎直升机
+- id: 69484
+  kind: 2
+  kind_id: 24829
+  language: 1
+  name: Tiger-Heli (J) [!]
+  deprecated: 1
+- id: 69488
+  kind: 2
+  kind_id: 24829
+  language: 1
+  name: Tiger-Heli (E) [!]
+  deprecated: 1
 - id: 69491
   kind: 2
   kind_id: 24829
@@ -256,3 +268,93 @@ releases:
       size: 2306
       blob_id: 324217
       debug: libretro-named-titles:rom-asset=24825:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Tiger-Heli%20%28USA%29.png
+- release:
+    id: 29600
+    game_id: 24829
+  names:
+  - id: 69485
+    kind: 3
+    kind_id: 29600
+    language: 2
+    name: 虎式直升机 (日版) (射击)-Tiger-Heli (Japan)
+  - id: 69486
+    kind: 3
+    kind_id: 29600
+    language: 1
+    name: Tiger-Heli (J) [!]
+    deprecated: 1
+  - id: 261120
+    kind: 3
+    kind_id: 29600
+    language: 1
+    name: Tiger-Heli (Japan)
+    source: no-intro
+  assets:
+  - asset:
+      id: 29582
+      kind: 3
+      kind_id: 29600
+      type: 1
+      name: Tiger-Heli (Japan).nes
+      format: 1
+      size: 65552
+      blob_id: 73685
+      debug: |-
+        虎式直升机 (日版) (射击)-Tiger-Heli (Japan) + Tiger-Heli (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=6775c06e3ef05affd891c96cac14109d60fb8e80
+  - asset:
+      id: 137966
+      kind: 3
+      kind_id: 29600
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 2757
+      blob_id: 323552
+      debug: fc-title-trial:fceumm:rom-asset=29582:frame=900
+- release:
+    id: 29601
+    game_id: 24829
+  names:
+  - id: 69489
+    kind: 3
+    kind_id: 29601
+    language: 2
+    name: 虎式直升机 (欧版) (射击)-Tiger-Heli (Europe)
+  - id: 69490
+    kind: 3
+    kind_id: 29601
+    language: 1
+    name: Tiger-Heli (E) [!]
+    deprecated: 1
+  - id: 261121
+    kind: 3
+    kind_id: 29601
+    language: 1
+    name: Tiger-Heli (Europe)
+    source: no-intro
+  assets:
+  - asset:
+      id: 29583
+      kind: 3
+      kind_id: 29601
+      type: 1
+      name: Tiger-Heli (Europe).nes
+      format: 1
+      size: 65552
+      blob_id: 73686
+      debug: |-
+        虎式直升机 (欧版) (射击)-Tiger-Heli (Europe) + Tiger-Heli (E) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=5045a576844ed029103c997e7d18fa3d98e26a1e
+  - asset:
+      id: 139164
+      kind: 3
+      kind_id: 29601
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Tiger-Heli%20%28Europe%29.png
+      format: 1
+      size: 1991
+      blob_id: 324628
+      debug: libretro-named-titles:rom-asset=29583:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Tiger-Heli%20%28Europe%29.png
