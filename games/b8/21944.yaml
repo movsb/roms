@@ -7,6 +7,17 @@ names:
   kind_id: 21944
   language: 1
   name: starwars
+- id: 65703
+  kind: 2
+  kind_id: 21944
+  language: 2
+  name: 星际大战 (Namco) (动作)-Star Wars (Namco)
+- id: 65704
+  kind: 2
+  kind_id: 21944
+  language: 1
+  name: Star Wars (J) (Namco) [!]
+  deprecated: 1
 - id: 65712
   kind: 2
   kind_id: 21944
@@ -369,6 +380,51 @@ releases:
       size: 262160
       blob_id: 67318
       debug: Star Wars (U) [t1].nes
+- release:
+    id: 28490
+    game_id: 21944
+  names:
+  - id: 65705
+    kind: 3
+    kind_id: 28490
+    language: 2
+    name: 星际大战 (日版) (Namco) (动作)-Star Wars (Japan) (Namco)
+  - id: 65706
+    kind: 3
+    kind_id: 28490
+    language: 1
+    name: Star Wars (J) (Namco) [!]
+    deprecated: 1
+  - id: 260664
+    kind: 3
+    kind_id: 28490
+    language: 1
+    name: Star Wars (Japan) (Namco)
+    source: no-intro
+  assets:
+  - asset:
+      id: 28472
+      kind: 3
+      kind_id: 28490
+      type: 1
+      name: Star Wars (Japan) (Namco).nes
+      format: 1
+      size: 262160
+      blob_id: 72979
+      debug: |-
+        星际大战 (日版) (Namco) (动作)-Star Wars (Japan) (Namco) + Star Wars (J) (Namco) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=08aaa87edd792233e5b0d39afc2c2ccffdf839bd
+  - asset:
+      id: 137774
+      kind: 3
+      kind_id: 28490
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 2400
+      blob_id: 323387
+      debug: fc-title-trial:fceumm:rom-asset=28472:frame=1800:start-frame=900
 - release:
     id: 28492
     game_id: 21944

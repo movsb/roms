@@ -12,17 +12,98 @@ names:
   kind_id: 11088
   language: 1
   name: "FC Genjin - Freakthoropus Computerus (J)"
+- id: 24109
+  kind: 2
+  kind_id: 11088
+  language: 2
+  name: FC 原人 (动作)-Bonks Adventure
+- id: 24110
+  kind: 2
+  kind_id: 11088
+  language: 1
+  name: Bonk's Adventure (U) [!]
+  deprecated: 1
 - id: 24115
   kind: 2
   kind_id: 11088
   language: 2
   name: FC原人
+- id: 91418
+  kind: 2
+  kind_id: 11088
+  language: 1
+  name: Bonk's Adventure
 - id: 91827
   kind: 2
   kind_id: 11088
   language: 1
   name: "FC Genjin - Freakthoropus Computerus"
+- id: 261572
+  kind: 2
+  kind_id: 11088
+  language: 1
+  name: Bonk's Adventure
+  source: no-intro
 releases:
+- release:
+    id: 7317
+    game_id: 11088
+  names:
+  - id: 15350
+    kind: 3
+    kind_id: 7317
+    language: 1
+    name: Bonk's Adventure (U) [!p]
+    deprecated: 1
+  - id: 15356
+    kind: 3
+    kind_id: 7317
+    language: 1
+    name: Bonk's Adventure (U)
+    deprecated: 1
+  - id: 24111
+    kind: 3
+    kind_id: 7317
+    language: 2
+    name: FC 原人 (美版) (动作)-Bonks Adventure (USA)
+  - id: 24112
+    kind: 3
+    kind_id: 7317
+    language: 1
+    name: Bonk's Adventure (U) [!]
+    deprecated: 1
+  - id: 257808
+    kind: 3
+    kind_id: 7317
+    language: 1
+    name: Bonk's Adventure (USA)
+    source: no-intro
+  assets:
+  - asset:
+      id: 7299
+      kind: 3
+      kind_id: 7317
+      type: 1
+      name: Bonk's Adventure (USA).nes
+      format: 1
+      size: 393232
+      blob_id: 53499
+      debug: |-
+        Bonk's Adventure (U) [!p].zip
+        Bonk's Adventure (U).zip
+        FC 原人 (美版) (动作)-Bonks Adventure (USA) + Bonk's Adventure (U) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=68837b38cfcb50ef4da5af50bfce3f216945d745
+  - asset:
+      id: 138236
+      kind: 3
+      kind_id: 7317
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 6250
+      blob_id: 323778
+      debug: fc-title-trial:fceumm:rom-asset=7299:frame=600
 - release:
     id: 11083
     game_id: 11088

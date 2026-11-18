@@ -7,6 +7,17 @@ names:
   kind_id: 6595
   language: 1
   name: Batman_return_of_the_joker
+- id: 69577
+  kind: 2
+  kind_id: 6595
+  language: 2
+  name: "蝙蝠侠 II - 小丑的复仇 (动作)-Dynamite Batman"
+- id: 69578
+  kind: 2
+  kind_id: 6595
+  language: 1
+  name: Dynamite Batman (J)
+  deprecated: 1
 - id: 69582
   kind: 2
   kind_id: 6595
@@ -38,11 +49,23 @@ names:
   kind_id: 6595
   language: 1
   name: Batman 2
+- id: 247736
+  kind: 2
+  kind_id: 6595
+  language: 2
+  name: 蝙蝠侠：小丑回归
+  source: codex
 - id: 261543
   kind: 2
   kind_id: 6595
   language: 1
   name: Batman 2
+  source: no-intro
+- id: 263451
+  kind: 2
+  kind_id: 6595
+  language: 1
+  name: Dynamite Batman
   source: no-intro
 releases:
 - release:
@@ -225,6 +248,69 @@ releases:
       size: 2427
       blob_id: 324767
       debug: libretro-named-titles:rom-asset=6589:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Batman%202%20%28Asia%29%20%28En%29%20%28Pirate%29.png
+- release:
+    id: 10763
+    game_id: 6595
+  names:
+  - id: 23362
+    kind: 3
+    kind_id: 10763
+    language: 1
+    name: Dynamite Batman (J) [hFFE][p1]
+  assets:
+  - asset:
+      id: 10745
+      kind: 3
+      kind_id: 10763
+      type: 1
+      name: Dynamite Batman (J) [hFFE][p1].nes
+      format: 1
+      size: 393232
+      blob_id: 56761
+      debug: Dynamite Batman (J) [hFFE][p1].nes
+- release:
+    id: 29626
+    game_id: 6595
+  names:
+  - id: 69579
+    kind: 3
+    kind_id: 29626
+    language: 2
+    name: "蝙蝠侠 II - 小丑的复仇 (日版) (动作)-Dynamite Batman (Japan)"
+  - id: 69580
+    kind: 3
+    kind_id: 29626
+    language: 1
+    name: Dynamite Batman (J)
+    deprecated: 1
+  - id: 261133
+    kind: 3
+    kind_id: 29626
+    language: 1
+    name: Dynamite Batman (Japan) (En)
+    source: no-intro
+  assets:
+  - asset:
+      id: 29608
+      kind: 3
+      kind_id: 29626
+      type: 1
+      name: Dynamite Batman (Japan) (En).nes
+      format: 1
+      size: 393232
+      blob_id: 73703
+      debug: "蝙蝠侠 II - 小丑的复仇 (日版) (动作)-Dynamite Batman (Japan) + Dynamite Batman (J).nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=875ad0494fb6c6e37a119a5f0811b9a31f3e2b8b"
+  - asset:
+      id: 139169
+      kind: 3
+      kind_id: 29626
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Dynamite%20Batman%20%28Japan%29.png
+      format: 1
+      size: 3091
+      blob_id: 324633
+      debug: libretro-named-titles:rom-asset=29608:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Dynamite%20Batman%20%28Japan%29.png
 - release:
     id: 29627
     game_id: 6595

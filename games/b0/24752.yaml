@@ -2,11 +2,21 @@ game:
   id: 24752
   platform_id: 2
 names:
+- id: 55265
+  kind: 2
+  kind_id: 24752
+  language: 1
+  name: "Tetris - 2 Block Only (Hack)"
 - id: 55301
   kind: 2
   kind_id: 24752
   language: 1
   name: Tetris
+- id: 55305
+  kind: 2
+  kind_id: 24752
+  language: 1
+  name: TetrisT
 - id: 60639
   kind: 2
   kind_id: 24752
@@ -18,6 +28,21 @@ names:
   language: 1
   name: Tetris (E) [!]
   deprecated: 1
+- id: 60675
+  kind: 2
+  kind_id: 24752
+  language: 2
+  name: 俄罗斯方块1
+- id: 81654
+  kind: 2
+  kind_id: 24752
+  language: 2
+  name: 俄罗斯方块[佛易汉化组 8GUA汉化 MS修正]
+- id: 81655
+  kind: 2
+  kind_id: 24752
+  language: 1
+  name: Tetris (J) (REV0) [T+Chi_MS emumax]
 - id: 93648
   kind: 2
   kind_id: 24752
@@ -30,6 +55,12 @@ names:
   name: Tetris (Bulletproof)
   source: codex
   deprecated: 1
+- id: 255571
+  kind: 2
+  kind_id: 24752
+  language: 2
+  name: 俄罗斯方块：仅两种方块版
+  source: codex
 releases:
 - release:
     id: 24684
@@ -696,6 +727,26 @@ releases:
       blob_id: 69989
       debug: Tetris (VS).nes
 - release:
+    id: 24735
+    game_id: 24752
+  names:
+  - id: 55266
+    kind: 3
+    kind_id: 24735
+    language: 1
+    name: "Tetris - 2 Block Only (Hack)"
+  assets:
+  - asset:
+      id: 24717
+      kind: 3
+      kind_id: 24735
+      type: 1
+      name: "Tetris - 2 Block Only (Hack).nes"
+      format: 1
+      size: 49168
+      blob_id: 69990
+      debug: "Tetris - 2 Block Only (Hack).nes"
+- release:
     id: 24752
     game_id: 24752
   names:
@@ -715,6 +766,33 @@ releases:
       size: 262160
       blob_id: 70007
       debug: Tetris.zip
+- release:
+    id: 24754
+    game_id: 24752
+  names:
+  - id: 55306
+    kind: 3
+    kind_id: 24754
+    language: 1
+    name: TetrisT
+  - id: 60676
+    kind: 3
+    kind_id: 24754
+    language: 2
+    name: 俄罗斯方块1
+  assets:
+  - asset:
+      id: 24736
+      kind: 3
+      kind_id: 24754
+      type: 1
+      name: TetrisT.nes
+      format: 1
+      size: 65552
+      blob_id: 70009
+      debug: |-
+        TetrisT.zip
+        俄罗斯方块1.zip
 - release:
     id: 26946
     game_id: 24752
@@ -833,3 +911,28 @@ releases:
       size: 8936
       blob_id: 325346
       debug: libretro-named-titles:rom-asset=26930:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Tetris%20%28USA%29%20%28Tengen%29%20%28Unl%29.png
+- release:
+    id: 26957
+    game_id: 24752
+  names:
+  - id: 85058
+    kind: 3
+    kind_id: 26957
+    language: 2
+    name: 俄罗斯方块[佛易汉化组 8GUA汉化 MS修正]
+  - id: 85059
+    kind: 3
+    kind_id: 26957
+    language: 1
+    name: Tetris (J) (REV0) [T+Chi_MS emumax]
+  assets:
+  - asset:
+      id: 26939
+      kind: 3
+      kind_id: 26957
+      type: 1
+      name: 俄罗斯方块[佛易汉化组 8GUA汉化 MS修正] + Tetris (J) (REV0) [T+Chi_MS emumax].nes
+      format: 1
+      size: 65552
+      blob_id: 71966
+      debug: 俄罗斯方块[佛易汉化组 8GUA汉化 MS修正] + Tetris (J) (REV0) [T+Chi_MS emumax].nes

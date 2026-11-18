@@ -2,6 +2,17 @@ game:
   id: 10664
   platform_id: 2
 names:
+- id: 72119
+  kind: 2
+  kind_id: 10664
+  language: 2
+  name: 鸭子迷宫
+- id: 72120
+  kind: 2
+  kind_id: 10664
+  language: 1
+  name: Duck Maze (HES) [!]
+  deprecated: 1
 - id: 91768
   kind: 2
   kind_id: 10664
@@ -13,6 +24,12 @@ names:
   language: 2
   name: 鸭子
   source: codex
+- id: 263714
+  kind: 2
+  kind_id: 10664
+  language: 1
+  name: Duck Maze
+  source: no-intro
 releases:
 - release:
     id: 10665
@@ -36,3 +53,48 @@ releases:
       debug: |-
         Duck (Unl).nes
         Duck (Unl).zip
+- release:
+    id: 30389
+    game_id: 10664
+  names:
+  - id: 72121
+    kind: 3
+    kind_id: 30389
+    language: 2
+    name: 鸭子迷宫
+  - id: 72122
+    kind: 3
+    kind_id: 30389
+    language: 1
+    name: Duck Maze (HES) [!]
+    deprecated: 1
+  - id: 261422
+    kind: 3
+    kind_id: 30389
+    language: 1
+    name: Duck Maze (Australia) (Unl)
+    source: no-intro
+  assets:
+  - asset:
+      id: 30371
+      kind: 3
+      kind_id: 30389
+      type: 1
+      name: Duck Maze (Australia) (Unl).nes
+      format: 1
+      size: 40976
+      blob_id: 74182
+      debug: |-
+        鸭子迷宫 + Duck Maze (HES) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=261cd2397b65c43f50f56c367af5cc5e99be6116
+  - asset:
+      id: 138108
+      kind: 3
+      kind_id: 30389
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 3015
+      blob_id: 323676
+      debug: fc-title-trial:fceumm:rom-asset=30371:frame=300

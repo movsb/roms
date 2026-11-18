@@ -2,6 +2,17 @@ game:
   id: 23680
   platform_id: 2
 names:
+- id: 70661
+  kind: 2
+  kind_id: 23680
+  language: 2
+  name: 道 (角色扮演)-Tao
+- id: 70662
+  kind: 2
+  kind_id: 23680
+  language: 1
+  name: Tao (J)
+  deprecated: 1
 - id: 93331
   kind: 2
   kind_id: 23680
@@ -52,3 +63,48 @@ releases:
   release_publishers:
   - release_id: 23686
     publisher_id: 166
+- release:
+    id: 29956
+    game_id: 23680
+  names:
+  - id: 70663
+    kind: 3
+    kind_id: 29956
+    language: 2
+    name: 道 (日版) (角色扮演)-Tao (Japan)
+  - id: 70664
+    kind: 3
+    kind_id: 29956
+    language: 1
+    name: Tao (J)
+    deprecated: 1
+  - id: 261245
+    kind: 3
+    kind_id: 29956
+    language: 1
+    name: Tao (Japan)
+    source: no-intro
+  assets:
+  - asset:
+      id: 29938
+      kind: 3
+      kind_id: 29956
+      type: 1
+      name: Tao (Japan).nes
+      format: 1
+      size: 262160
+      blob_id: 73905
+      debug: |-
+        道 (日版) (角色扮演)-Tao (Japan) + Tao (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=b6904bec7af8e4e526073dd1752d60494e7e21e1
+  - asset:
+      id: 139207
+      kind: 3
+      kind_id: 29956
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Tao%20%28Japan%29.png
+      format: 1
+      size: 2687
+      blob_id: 324670
+      debug: libretro-named-titles:rom-asset=29938:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Tao%20%28Japan%29.png

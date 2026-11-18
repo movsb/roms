@@ -13,6 +13,11 @@ names:
   language: 1
   name: JuJu Densetsu (J)
   deprecated: 1
+- id: 30465
+  kind: 2
+  kind_id: 13832
+  language: 2
+  name: JUJU传说
 - id: 247997
   kind: 2
   kind_id: 13832
@@ -72,6 +77,26 @@ releases:
       blob_id: 324032
       debug: libretro-named-titles:rom-asset=13814:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/JuJu%20Densetsu%20%28Japan%29.png
 - release:
+    id: 13833
+    game_id: 13832
+  names:
+  - id: 30466
+    kind: 3
+    kind_id: 13833
+    language: 2
+    name: JUJU传说
+  assets:
+  - asset:
+      id: 13815
+      kind: 3
+      kind_id: 13833
+      type: 1
+      name: JUJU传说.nes
+      format: 1
+      size: 393744
+      blob_id: 59653
+      debug: JUJU传说.zip
+- release:
     id: 14134
     game_id: 13832
   names:
@@ -91,3 +116,25 @@ releases:
       size: 393232
       blob_id: 59927
       debug: JuJu Densetsu (J) [T+Chi_MS emumax][a1].nes
+- release:
+    id: 14136
+    game_id: 13832
+  names:
+  - id: 31168
+    kind: 3
+    kind_id: 14136
+    language: 2
+    name: JuJu传说(汉化版)
+  assets:
+  - asset:
+      id: 14118
+      kind: 3
+      kind_id: 14136
+      type: 1
+      name: JuJu传说(汉化版).nes
+      format: 1
+      size: 393232
+      blob_id: 59929
+      debug: |-
+        JuJu传说(汉化版).nes
+        重复的/JuJu传说[MS汉化] + JuJu Densetsu (J) [T+Chi_MS emumax].nes

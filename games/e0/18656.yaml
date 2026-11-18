@@ -3,6 +3,11 @@ game:
   platform_id: 2
   description: Pachicom is a pachinko game simulation. Pachinko can be described as a game that is a cross between pinball and a slot machine. This game comes with two different game modes to play. Game A lets the player play until they attain a score of at least 3000.
 names:
+- id: 41587
+  kind: 2
+  kind_id: 18656
+  language: 1
+  name: "Pachi Com - Sound Mod (Hack)"
 - id: 41599
   kind: 2
   kind_id: 18656
@@ -29,6 +34,12 @@ names:
   kind_id: 18656
   language: 2
   name: 柏青电脑
+  source: codex
+- id: 254359
+  kind: 2
+  kind_id: 18656
+  language: 2
+  name: 柏青电脑：声音改版
   source: codex
 - id: 261971
   kind: 2
@@ -63,6 +74,26 @@ releases:
       size: 40976
       blob_id: 64198
       debug: Pachi Com (J) [p1].nes
+- release:
+    id: 18650
+    game_id: 18656
+  names:
+  - id: 41588
+    kind: 3
+    kind_id: 18650
+    language: 1
+    name: "Pachi Com - Sound Mod (Hack)"
+  assets:
+  - asset:
+      id: 18632
+      kind: 3
+      kind_id: 18650
+      type: 1
+      name: "Pachi Com - Sound Mod (Hack).nes"
+      format: 1
+      size: 40976
+      blob_id: 64199
+      debug: "Pachi Com - Sound Mod (Hack).nes"
 - release:
     id: 18656
     game_id: 18656
