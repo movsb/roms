@@ -7,6 +7,17 @@ names:
   kind_id: 13609
   language: 1
   name: "Ikari 3 - The Rescue (U)"
+- id: 64695
+  kind: 2
+  kind_id: 13609
+  language: 2
+  name: 怒 III (动作)-Ikari III
+- id: 64696
+  kind: 2
+  kind_id: 13609
+  language: 1
+  name: Ikari III (J)
+  deprecated: 1
 - id: 64699
   kind: 2
   kind_id: 13609
@@ -22,11 +33,22 @@ names:
   kind_id: 13609
   language: 2
   name: 怒3
+- id: 64717
+  kind: 2
+  kind_id: 13609
+  language: 2
+  name: 怒三代（暂停，按A机枪，B散弹）by 小鬼混
 - id: 92129
   kind: 2
   kind_id: 13609
   language: 1
   name: "Ikari III - The Rescue"
+- id: 262909
+  kind: 2
+  kind_id: 13609
+  language: 1
+  name: Ikari III
+  source: no-intro
 releases:
 - release:
     id: 13609
@@ -83,6 +105,66 @@ releases:
       size: 2347
       blob_id: 324890
       debug: libretro-named-titles:rom-asset=13591:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Ikari%20III%20-%20The%20Rescue%20%28USA%29.png
+- release:
+    id: 13616
+    game_id: 13609
+  names:
+  - id: 29952
+    kind: 3
+    kind_id: 13616
+    language: 1
+    name: Ikari III (J) [hFFE][p1]
+  assets:
+  - asset:
+      id: 13598
+      kind: 3
+      kind_id: 13616
+      type: 1
+      name: Ikari III (J) [hFFE][p1].nes
+      format: 1
+      size: 262672
+      blob_id: 59456
+      debug: Ikari III (J) [hFFE][p1].nes
+- release:
+    id: 13620
+    game_id: 13609
+  names:
+  - id: 29960
+    kind: 3
+    kind_id: 13620
+    language: 1
+    name: Ikari III (J) [t1]
+  assets:
+  - asset:
+      id: 13602
+      kind: 3
+      kind_id: 13620
+      type: 1
+      name: Ikari III (J) [t1].nes
+      format: 1
+      size: 262160
+      blob_id: 59460
+      debug: Ikari III (J) [t1].nes
+- release:
+    id: 13621
+    game_id: 13609
+  names:
+  - id: 29962
+    kind: 3
+    kind_id: 13621
+    language: 1
+    name: Ikari III (J) [t2]
+  assets:
+  - asset:
+      id: 13603
+      kind: 3
+      kind_id: 13621
+      type: 1
+      name: Ikari III (J) [t2].nes
+      format: 1
+      size: 262160
+      blob_id: 59461
+      debug: Ikari III (J) [t2].nes
 - release:
     id: 13623
     game_id: 13609
@@ -269,6 +351,51 @@ releases:
       blob_id: 59478
       debug: "Ikari III - The Rescue (U) [t2].nes\n怒3_2.zip"
 - release:
+    id: 28177
+    game_id: 13609
+  names:
+  - id: 64697
+    kind: 3
+    kind_id: 28177
+    language: 2
+    name: 怒 III (日版) (动作)-Ikari III (Japan)
+  - id: 64698
+    kind: 3
+    kind_id: 28177
+    language: 1
+    name: Ikari III (J)
+    deprecated: 1
+  - id: 260532
+    kind: 3
+    kind_id: 28177
+    language: 1
+    name: Ikari III (Japan) (En)
+    source: no-intro
+  assets:
+  - asset:
+      id: 28159
+      kind: 3
+      kind_id: 28177
+      type: 1
+      name: Ikari III (Japan) (En).nes
+      format: 1
+      size: 262160
+      blob_id: 72770
+      debug: |-
+        怒 III (日版) (动作)-Ikari III (Japan) + Ikari III (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=879a0e3f8ff41c2fa656e52504101552c1b7d4c4
+  - asset:
+      id: 138968
+      kind: 3
+      kind_id: 28177
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Ikari%20III%20%28Japan%29.png
+      format: 1
+      size: 2390
+      blob_id: 324441
+      debug: libretro-named-titles:rom-asset=28159:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Ikari%20III%20%28Japan%29.png
+- release:
     id: 28184
     game_id: 13609
   names:
@@ -288,3 +415,23 @@ releases:
       size: 262287
       blob_id: 72772
       debug: 怒3.zip
+- release:
+    id: 28186
+    game_id: 13609
+  names:
+  - id: 64718
+    kind: 3
+    kind_id: 28186
+    language: 2
+    name: 怒三代（暂停，按A机枪，B散弹）by 小鬼混
+  assets:
+  - asset:
+      id: 28168
+      kind: 3
+      kind_id: 28186
+      type: 1
+      name: 怒三代（暂停，按A机枪，B散弹）by 小鬼混.nes
+      format: 1
+      size: 262160
+      blob_id: 72773
+      debug: 怒三代（暂停，按A机枪，B散弹）by 小鬼混.nes

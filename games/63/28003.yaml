@@ -2,6 +2,11 @@ game:
   id: 28003
   platform_id: 2
 names:
+- id: 34117
+  kind: 2
+  kind_id: 28003
+  language: 1
+  name: Lucky 777 (Sachen) [U][!]
 - id: 64129
   kind: 2
   kind_id: 28003
@@ -13,6 +18,12 @@ names:
   language: 1
   name: Lucky 777 (Sachen) [!]
   deprecated: 1
+- id: 248099
+  kind: 2
+  kind_id: 28003
+  language: 2
+  name: 幸运777
+  source: codex
 - id: 262864
   kind: 2
   kind_id: 28003
@@ -20,6 +31,37 @@ names:
   name: 777 Lucky Bingo
   source: no-intro
 releases:
+- release:
+    id: 15360
+    game_id: 28003
+  names:
+  - id: 34118
+    kind: 3
+    kind_id: 15360
+    language: 1
+    name: Lucky 777 (Sachen) [U][!]
+  assets:
+  - asset:
+      id: 15342
+      kind: 3
+      kind_id: 15360
+      type: 1
+      name: Lucky 777 (Sachen) [U][!].nes
+      format: 1
+      size: 32879
+      blob_id: 61063
+      debug: Lucky 777 (Sachen) [U][!].zip
+  - asset:
+      id: 137068
+      kind: 3
+      kind_id: 15360
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 2855
+      blob_id: 322719
+      debug: fc-title-trial:fceumm:rom-asset=15342:frame=180
 - release:
     id: 28003
     game_id: 28003

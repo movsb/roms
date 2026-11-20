@@ -2,6 +2,11 @@ game:
   id: 29933
   platform_id: 2
 names:
+- id: 44673
+  kind: 2
+  kind_id: 29933
+  language: 1
+  name: Rockball (Sachen) [U][!]
 - id: 70585
   kind: 2
   kind_id: 29933
@@ -13,6 +18,12 @@ names:
   language: 1
   name: Rockball (Sachen) [!]
   deprecated: 1
+- id: 248449
+  kind: 2
+  kind_id: 29933
+  language: 2
+  name: 摇滚球
+  source: codex
 - id: 263544
   kind: 2
   kind_id: 29933
@@ -20,6 +31,37 @@ names:
   name: Rockball
   source: no-intro
 releases:
+- release:
+    id: 20064
+    game_id: 29933
+  names:
+  - id: 44674
+    kind: 3
+    kind_id: 20064
+    language: 1
+    name: Rockball (Sachen) [U][!]
+  assets:
+  - asset:
+      id: 20046
+      kind: 3
+      kind_id: 20064
+      type: 1
+      name: Rockball (Sachen) [U][!].nes
+      format: 1
+      size: 131171
+      blob_id: 65516
+      debug: Rockball (Sachen) [U][!].zip
+  - asset:
+      id: 137252
+      kind: 3
+      kind_id: 20064
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 5921
+      blob_id: 322899
+      debug: fc-title-trial:fceumm:rom-asset=20046:frame=300
 - release:
     id: 29933
     game_id: 29933

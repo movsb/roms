@@ -1,12 +1,18 @@
 game:
   id: 19363
   platform_id: 2
+  series_id: 19
 names:
 - id: 43109
   kind: 2
   kind_id: 19363
   language: 1
   name: Punch Out!! (U) [b1]
+- id: 43129
+  kind: 2
+  kind_id: 19363
+  language: 1
+  name: Punch-Out!! Kirby (Punch-Out!! Hack)
 - id: 43131
   kind: 2
   kind_id: 19363
@@ -28,6 +34,12 @@ names:
   kind_id: 19363
   language: 2
   name: 拳无虚发特别版
+  source: codex
+- id: 254519
+  kind: 2
+  kind_id: 19363
+  language: 2
+  name: 拳无虚发卡比
   source: codex
 releases:
 - release:
@@ -229,6 +241,26 @@ releases:
       size: 1098
       blob_id: 324120
       debug: libretro-named-titles:rom-asset=19354:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Punch-Out%21%21%20%28USA%29.png
+- release:
+    id: 19373
+    game_id: 19363
+  names:
+  - id: 43130
+    kind: 3
+    kind_id: 19373
+    language: 1
+    name: Punch-Out!! Kirby (Punch-Out!! Hack)
+  assets:
+  - asset:
+      id: 19355
+      kind: 3
+      kind_id: 19373
+      type: 1
+      name: Punch-Out!! Kirby (Punch-Out!! Hack).nes
+      format: 1
+      size: 262160
+      blob_id: 64878
+      debug: Punch-Out!! Kirby (Punch-Out!! Hack).nes
 - release:
     id: 19374
     game_id: 19363

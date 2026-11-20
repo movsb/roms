@@ -42,6 +42,12 @@ names:
   language: 1
   name: Chaoji Dazhanlue
   source: no-intro
+- id: 262708
+  kind: 2
+  kind_id: 9385
+  language: 1
+  name: Dazhanlue
+  source: no-intro
 releases:
 - release:
     id: 9385
@@ -203,3 +209,48 @@ releases:
       size: 3045
       blob_id: 324367
       debug: libretro-named-titles:rom-asset=27586:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Daisenryaku%20%28Japan%29.png
+- release:
+    id: 27606
+    game_id: 9385
+  names:
+  - id: 62793
+    kind: 3
+    kind_id: 27606
+    language: 2
+    name: 大战略[未知]
+  - id: 62794
+    kind: 3
+    kind_id: 27606
+    language: 1
+    name: Daisenryaku (Ch) [!]
+    deprecated: 1
+  - id: 260312
+    kind: 3
+    kind_id: 27606
+    language: 1
+    name: Dazhanlue (China) (Pirate)
+    source: no-intro
+  assets:
+  - asset:
+      id: 27588
+      kind: 3
+      kind_id: 27606
+      type: 1
+      name: Dazhanlue (China) (Pirate).nes
+      format: 1
+      size: 262160
+      blob_id: 72395
+      debug: |-
+        大战略[未知] + Daisenryaku (Ch) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=e67b1b39611c7f6dd54d38d4174dd6aad9827fd2
+  - asset:
+      id: 137639
+      kind: 3
+      kind_id: 27606
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 4723
+      blob_id: 323266
+      debug: fc-title-trial:fceumm:rom-asset=27588:frame=600

@@ -2,6 +2,11 @@ game:
   id: 28306
   platform_id: 2
 names:
+- id: 58375
+  kind: 2
+  kind_id: 28306
+  language: 1
+  name: World of Card Game, The (Sachen) [U][!]
 - id: 65087
   kind: 2
   kind_id: 28306
@@ -13,6 +18,12 @@ names:
   language: 1
   name: World of Card Game, The (Sachen) [!]
   deprecated: 1
+- id: 248905
+  kind: 2
+  kind_id: 28306
+  language: 2
+  name: 世界纸牌游戏
+  source: codex
 - id: 262953
   kind: 2
   kind_id: 28306
@@ -20,6 +31,37 @@ names:
   name: "Poker Jijin - The World of Card Games"
   source: no-intro
 releases:
+- release:
+    id: 26120
+    game_id: 28306
+  names:
+  - id: 58376
+    kind: 3
+    kind_id: 26120
+    language: 1
+    name: World of Card Game, The (Sachen) [U][!]
+  assets:
+  - asset:
+      id: 26102
+      kind: 3
+      kind_id: 26120
+      type: 1
+      name: World of Card Game, The (Sachen) [U][!].nes
+      format: 1
+      size: 24686
+      blob_id: 71267
+      debug: World of Card Game, The (Sachen) [U][!].zip
+  - asset:
+      id: 137487
+      kind: 3
+      kind_id: 26120
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 3683
+      blob_id: 323132
+      debug: fc-title-trial:fceumm:rom-asset=26102:frame=600
 - release:
     id: 28306
     game_id: 28306

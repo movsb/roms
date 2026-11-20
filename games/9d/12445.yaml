@@ -2,6 +2,17 @@ game:
   id: 12445
   platform_id: 2
 names:
+- id: 62163
+  kind: 2
+  kind_id: 12445
+  language: 2
+  name: "哥尔戈 13 - 诸神之黄昏 (动作)-Golgo 13 - Dai 1 Shou - Kamigami no Tasogare"
+- id: 62164
+  kind: 2
+  kind_id: 12445
+  language: 1
+  name: "Golgo 13 - Dai 1 Shou - Kamigami no Tasogare (J) [!]"
+  deprecated: 1
 - id: 91997
   kind: 2
   kind_id: 12445
@@ -13,6 +24,12 @@ names:
   language: 2
   name: 骷髅13 第一章：诸神的黄昏
   source: codex
+- id: 262647
+  kind: 2
+  kind_id: 12445
+  language: 1
+  name: "Golgo 13 - Daiisshou - Kamigami no Tasogare"
+  source: no-intro
 releases:
 - release:
     id: 12450
@@ -54,3 +71,46 @@ releases:
       size: 262672
       blob_id: 58347
       debug: "Golgo 13 - Dai 1 Shou - Kamigami no Tasogare (J) [hFFE][a1].nes"
+- release:
+    id: 27423
+    game_id: 12445
+  names:
+  - id: 62165
+    kind: 3
+    kind_id: 27423
+    language: 2
+    name: "哥尔戈 13 - 诸神之黄昏 (日版) (动作)-Golgo 13 - Dai 1 Shou - Kamigami no Tasogare (Japan)"
+  - id: 62166
+    kind: 3
+    kind_id: 27423
+    language: 1
+    name: "Golgo 13 - Dai 1 Shou - Kamigami no Tasogare (J) [!]"
+    deprecated: 1
+  - id: 260243
+    kind: 3
+    kind_id: 27423
+    language: 1
+    name: "Golgo 13 - Daiisshou - Kamigami no Tasogare (Japan)"
+    source: no-intro
+  assets:
+  - asset:
+      id: 27405
+      kind: 3
+      kind_id: 27423
+      type: 1
+      name: "Golgo 13 - Daiisshou - Kamigami no Tasogare (Japan).nes"
+      format: 1
+      size: 262160
+      blob_id: 72274
+      debug: "哥尔戈 13 - 诸神之黄昏 (日版) (动作)-Golgo 13 - Dai 1 Shou - Kamigami no Tasogare (Japan) + Golgo 13 - Dai 1 Shou - Kamigami no Tasogare (J) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=d9aa24b9625f66d928f31c7bc749ade670057194"
+  - asset:
+      id: 137616
+      kind: 3
+      kind_id: 27423
+      type: 9
+      name: title.png
+      description: 模拟器实际运行截图；已核对标题画面
+      format: 1
+      size: 3380
+      blob_id: 323245
+      debug: fc-title-trial:fceumm:rom-asset=27405:frame=1800:start-frame=1200

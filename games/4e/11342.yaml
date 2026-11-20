@@ -2,6 +2,16 @@ game:
   id: 11342
   platform_id: 2
 names:
+- id: 42721
+  kind: 2
+  kind_id: 11342
+  language: 1
+  name: PowerJoy 84-in-1 Split Game 35-Filed Combat [p1]
+- id: 46759
+  kind: 2
+  kind_id: 11342
+  language: 1
+  name: Sha Lu Zhan Chang (Ch)
 - id: 66165
   kind: 2
   kind_id: 11342
@@ -13,6 +23,11 @@ names:
   language: 1
   name: Field Combat (J)
   deprecated: 1
+- id: 66169
+  kind: 2
+  kind_id: 11342
+  language: 2
+  name: 杀戮战场
 - id: 91867
   kind: 2
   kind_id: 11342
@@ -23,6 +38,12 @@ names:
   kind_id: 11342
   language: 2
   name: 战场之狼
+  source: codex
+- id: 249348
+  kind: 2
+  kind_id: 11342
+  language: 2
+  name: PowerJoy 84合1：战场之狼
   source: codex
 releases:
 - release:
@@ -141,6 +162,46 @@ releases:
   - release_id: 11353
     publisher_id: 71
 - release:
+    id: 19176
+    game_id: 11342
+  names:
+  - id: 42722
+    kind: 3
+    kind_id: 19176
+    language: 1
+    name: PowerJoy 84-in-1 Split Game 35-Filed Combat [p1]
+  assets:
+  - asset:
+      id: 19158
+      kind: 3
+      kind_id: 19176
+      type: 1
+      name: PowerJoy 84-in-1 Split Game 35-Filed Combat [p1].nes
+      format: 1
+      size: 24592
+      blob_id: 64684
+      debug: PowerJoy 84-in-1 Split Game 35-Filed Combat [p1].nes
+- release:
+    id: 20985
+    game_id: 11342
+  names:
+  - id: 46760
+    kind: 3
+    kind_id: 20985
+    language: 1
+    name: Sha Lu Zhan Chang (Ch)
+  assets:
+  - asset:
+      id: 20967
+      kind: 3
+      kind_id: 20985
+      type: 1
+      name: Sha Lu Zhan Chang (Ch).nes
+      format: 1
+      size: 24592
+      blob_id: 66405
+      debug: Sha Lu Zhan Chang (Ch).nes
+- release:
     id: 28619
     game_id: 11342
   names:
@@ -185,3 +246,48 @@ releases:
       size: 1429
       blob_id: 324511
       debug: libretro-named-titles:rom-asset=28601:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Field%20Combat%20%28Japan%29.png
+- release:
+    id: 28620
+    game_id: 11342
+  names:
+  - id: 66170
+    kind: 3
+    kind_id: 28620
+    language: 2
+    name: 杀戮战场
+  assets:
+  - asset:
+      id: 28602
+      kind: 3
+      kind_id: 28620
+      type: 1
+      name: 杀戮战场.nes
+      format: 1
+      size: 40976
+      blob_id: 73070
+      debug: 杀戮战场.zip
+- release:
+    id: 28621
+    game_id: 11342
+  names:
+  - id: 85199
+    kind: 3
+    kind_id: 28621
+    language: 2
+    name: 杀戮战场[Nokoh汉化]
+  - id: 85200
+    kind: 3
+    kind_id: 28621
+    language: 1
+    name: Field Combat (J) [T+Chi_NOKOH]
+  assets:
+  - asset:
+      id: 28603
+      kind: 3
+      kind_id: 28621
+      type: 1
+      name: 杀戮战场[Nokoh汉化] + Field Combat (J) [T+Chi_NOKOH].nes
+      format: 1
+      size: 49168
+      blob_id: 73071
+      debug: 杀戮战场[Nokoh汉化] + Field Combat (J) [T+Chi_NOKOH].nes

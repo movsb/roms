@@ -7,6 +7,16 @@ names:
   kind_id: 13640
   language: 2
   name: 伊卡瑞勇士
+- id: 64675
+  kind: 2
+  kind_id: 13640
+  language: 2
+  name: 怒 (动作射击)-Ikari
+- id: 64676
+  kind: 2
+  kind_id: 13640
+  language: 1
+  name: Ikari (J)
 - id: 64679
   kind: 2
   kind_id: 13640
@@ -27,12 +37,67 @@ names:
   kind_id: 13640
   language: 1
   name: Ikari Warriors (U) (PRG1) [!]
+- id: 64703
+  kind: 2
+  kind_id: 13640
+  language: 2
+  name: 怒1(99命)by 夜神月
+- id: 64705
+  kind: 2
+  kind_id: 13640
+  language: 2
+  name: 怒1
+- id: 92126
+  kind: 2
+  kind_id: 13640
+  language: 1
+  name: Ikari
 - id: 92130
   kind: 2
   kind_id: 13640
   language: 1
   name: Ikari Warriors
 releases:
+- release:
+    id: 13607
+    game_id: 13640
+  names:
+  - id: 29934
+    kind: 3
+    kind_id: 13607
+    language: 1
+    name: Ikari (J) [p1]
+  assets:
+  - asset:
+      id: 13589
+      kind: 3
+      kind_id: 13607
+      type: 1
+      name: Ikari (J) [p1].nes
+      format: 1
+      size: 131088
+      blob_id: 59447
+      debug: Ikari (J) [p1].nes
+- release:
+    id: 13608
+    game_id: 13640
+  names:
+  - id: 29936
+    kind: 3
+    kind_id: 13608
+    language: 1
+    name: Ikari (J) [p2]
+  assets:
+  - asset:
+      id: 13590
+      kind: 3
+      kind_id: 13608
+      type: 1
+      name: Ikari (J) [p2].nes
+      format: 1
+      size: 131088
+      blob_id: 59448
+      debug: Ikari (J) [p2].nes
 - release:
     id: 13640
     game_id: 13640
@@ -231,3 +296,74 @@ releases:
       size: 1546
       blob_id: 325343
       debug: libretro-named-titles:rom-asset=26898:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Ikari%20Warriors%20%28Europe%29.png
+- release:
+    id: 28172
+    game_id: 13640
+  names:
+  - id: 64677
+    kind: 3
+    kind_id: 28172
+    language: 2
+    name: 怒 (日版) (动作射击)-Ikari (Japan)
+  - id: 64678
+    kind: 3
+    kind_id: 28172
+    language: 1
+    name: Ikari (J)
+    deprecated: 1
+  - id: 64706
+    kind: 3
+    kind_id: 28172
+    language: 2
+    name: 怒1
+  - id: 260530
+    kind: 3
+    kind_id: 28172
+    language: 1
+    name: Ikari (Japan) (En)
+    source: no-intro
+  assets:
+  - asset:
+      id: 28154
+      kind: 3
+      kind_id: 28172
+      type: 1
+      name: Ikari (Japan) (En).nes
+      format: 1
+      size: 131088
+      blob_id: 72768
+      debug: |-
+        怒 (日版) (动作射击)-Ikari (Japan) + Ikari (J).nes
+        怒1.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=465a71d1ab20207f98a8f85e49b644e93bd49733
+  - asset:
+      id: 138966
+      kind: 3
+      kind_id: 28172
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Ikari%20%28Japan%29.png
+      format: 1
+      size: 1799
+      blob_id: 324439
+      debug: libretro-named-titles:rom-asset=28154:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Ikari%20%28Japan%29.png
+- release:
+    id: 28179
+    game_id: 13640
+  names:
+  - id: 64704
+    kind: 3
+    kind_id: 28179
+    language: 2
+    name: 怒1(99命)by 夜神月
+  assets:
+  - asset:
+      id: 28161
+      kind: 3
+      kind_id: 28179
+      type: 1
+      name: 怒1(99命)by 夜神月.nes
+      format: 1
+      size: 131088
+      blob_id: 72771
+      debug: 怒1(99命)by 夜神月.nes
