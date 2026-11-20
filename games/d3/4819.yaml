@@ -2,50 +2,69 @@ game:
   id: 4819
   platform_id: 2
 names:
-- id: 42659
-  kind: 2
-  kind_id: 4819
-  language: 1
-  name: PowerJoy 84-in-1 Split Game 02-1942 [p1]
-- id: 60115
-  kind: 2
-  kind_id: 4819
-  language: 2
-  name: 中途岛1942(无敌版)
 - id: 247440
   kind: 2
   kind_id: 4819
   language: 2
   name: "1942"
   source: codex
-- id: 249319
-  kind: 2
-  kind_id: 4819
-  language: 2
-  name: PowerJoy 84合1：1942
-  source: codex
 releases:
+- release:
+    id: 4793
+    game_id: 4819
+  names:
+  - id: 9588
+    kind: 3
+    kind_id: 4793
+    language: 1
+    name: 1919 by Me_Dave (Hard version) (1942 Hack)
+  assets:
+  - asset:
+      id: 4775
+      kind: 3
+      kind_id: 4793
+      type: 1
+      name: 1919 by Me_Dave (Hard version) (1942 Hack).nes
+      format: 1
+      size: 40976
+      blob_id: 51110
+      debug: 1919 by Me_Dave (Hard version) (1942 Hack).nes
+- release:
+    id: 4794
+    game_id: 4819
+  names:
+  - id: 9590
+    kind: 3
+    kind_id: 4794
+    language: 1
+    name: 1919 by Me_Dave (Normal version) (1942 Hack)
+  assets:
+  - asset:
+      id: 4776
+      kind: 3
+      kind_id: 4794
+      type: 1
+      name: 1919 by Me_Dave (Normal version) (1942 Hack).nes
+      format: 1
+      size: 40976
+      blob_id: 51111
+      debug: 1919 by Me_Dave (Normal version) (1942 Hack).nes
 - release:
     id: 4795
     game_id: 4819
+    release_type: 1
   names:
-  - id: 9593
-    kind: 3
-    kind_id: 4795
-    language: 2
-    name: 1942  (日版,美版) (射击)-1942 (Japan, USA)
-  - id: 9594
-    kind: 3
-    kind_id: 4795
-    language: 1
-    name: 1942 (JU) [!]
-    deprecated: 1
   - id: 257547
     kind: 3
     kind_id: 4795
     language: 1
     name: 1942 (Japan, USA) (En)
     source: no-intro
+  - id: 263775
+    kind: 3
+    kind_id: 4795
+    language: 2
+    name: 日版，美版
   assets:
   - asset:
       id: 4777
