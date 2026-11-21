@@ -41,6 +41,7 @@ releases:
     id: 9101
     game_id: 12491
     description: "| 资源 | 文件 | CRC32 | 性质 |\n|---|---|---|---|\n| 9083 | `Contra 6 (Goonies Hack).nes` | `043660b7` | 《七宝奇谋》的轻微作弊改版 |\n| 12473 | `Goonies (Japan).nes` | `5589af04` | 日版原版；校验值与 No-Intro 记录一致。[校验资料](https://rhdn-archive.romhackplaza.org/?offset=5500&type=translations) |\n\n字节级比较结果：\n\n- 文件大小相同：49,168 字节\n- iNES 头完全相同\n- 图形 CHR 区域完全相同\n- 只有 PRG 程序区的 35 个字节不同\n- 差异集中在 5 个很小的区域\n- 改版把至少两条“递减数值”的 6502 指令替换成只读取、不递减：\n  - `DEC $46` → `LDA $46`\n  - `DEC $05F2` → `LDA $05F2`\n- ROM 尾部还插入了一段 11 字节的小程序\n\n这类修改通常用于无限生命、无限物品或其他 Trainer 作弊，不会改变关卡、人物图形、音乐或标题画面。因此你看到的仍然是《七宝奇谋》，基本不会出现《魂斗罗》的内容。\n\n`Contra 6` 只是旧 ROM 集中的误导性盗版/改版名称；公开 ROM 列表也把它标为 `Contra 6 (Goonies Hack)`，而不是一款真正的《魂斗罗》游戏。[旧 ROM 列表记录](https://www.scribd.com/document/397983476/Lista-de-Juegos-Nes)\n\n目前数据库归类其实是正确的：两个资源都已位于游戏 12491 `Goonies / 七宝奇谋1` 下，只是不同发行版。建议将发行版 9101 改名为“七宝奇谋（Trainer/作弊改版）”，而不是删除或归入《魂斗罗》。"
+    release_type: 3
   names:
   - id: 242115
     kind: 3
@@ -114,6 +115,7 @@ releases:
 - release:
     id: 12505
     game_id: 12491
+    release_type: 2
   names:
   - id: 83197
     kind: 3
@@ -134,6 +136,7 @@ releases:
 - release:
     id: 12506
     game_id: 12491
+    release_type: 2
   names:
   - id: 83198
     kind: 3
@@ -154,6 +157,7 @@ releases:
 - release:
     id: 12507
     game_id: 12491
+    release_type: 2
   names:
   - id: 83199
     kind: 3
@@ -194,6 +198,7 @@ releases:
 - release:
     id: 12511
     game_id: 12491
+    release_type: 2
   names:
   - id: 83201
     kind: 3
@@ -214,6 +219,7 @@ releases:
 - release:
     id: 12512
     game_id: 12491
+    release_type: 2
   names:
   - id: 83202
     kind: 3
@@ -234,6 +240,7 @@ releases:
 - release:
     id: 12513
     game_id: 12491
+    release_type: 2
   names:
   - id: 83203
     kind: 3
@@ -254,6 +261,7 @@ releases:
 - release:
     id: 12514
     game_id: 12491
+    release_type: 2
   names:
   - id: 83204
     kind: 3
@@ -274,6 +282,7 @@ releases:
 - release:
     id: 12515
     game_id: 12491
+    release_type: 2
   names:
   - id: 83205
     kind: 3
@@ -314,6 +323,7 @@ releases:
 - release:
     id: 12522
     game_id: 12491
+    release_type: 2
   names:
   - id: 83208
     kind: 3
@@ -354,6 +364,7 @@ releases:
 - release:
     id: 12524
     game_id: 12491
+    release_type: 3
   names:
   - id: 27488
     kind: 3
@@ -374,6 +385,7 @@ releases:
 - release:
     id: 12525
     game_id: 12491
+    release_type: 3
   names:
   - id: 27490
     kind: 3
@@ -394,6 +406,7 @@ releases:
 - release:
     id: 12526
     game_id: 12491
+    release_type: 3
   names:
   - id: 27492
     kind: 3
@@ -414,6 +427,7 @@ releases:
 - release:
     id: 12527
     game_id: 12491
+    release_type: 3
   names:
   - id: 27494
     kind: 3
@@ -434,6 +448,7 @@ releases:
 - release:
     id: 12528
     game_id: 12491
+    release_type: 3
   names:
   - id: 27496
     kind: 3
@@ -454,6 +469,7 @@ releases:
 - release:
     id: 12529
     game_id: 12491
+    release_type: 3
   names:
   - id: 27498
     kind: 3
@@ -474,6 +490,7 @@ releases:
 - release:
     id: 12530
     game_id: 12491
+    release_type: 3
   names:
   - id: 27500
     kind: 3
@@ -494,6 +511,7 @@ releases:
 - release:
     id: 12531
     game_id: 12491
+    release_type: 3
   names:
   - id: 27502
     kind: 3
@@ -514,6 +532,7 @@ releases:
 - release:
     id: 12532
     game_id: 12491
+    release_type: 2
   names:
   - id: 83209
     kind: 3
@@ -596,6 +615,7 @@ releases:
 - release:
     id: 26653
     game_id: 12491
+    release_type: 2
   names:
   - id: 242117
     kind: 3

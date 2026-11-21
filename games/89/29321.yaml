@@ -24,6 +24,7 @@ releases:
     id: 9337
     game_id: 29321
     description: "两个版本属于不同作者的翻译版本，但是由于我本人不使用韩语版，所以暂时把它们放在一个发行版内了。\n\n9337 和 9338 是两套独立制作的韩文翻译，并不是同一补丁的新旧版本。\n\n| Release | 9337 | 9338 |\n|---|---|---|\n| 标记 | `T+Kor20051106_Project-G` | `T+Kor` |\n| 翻译者 | Project-G | 未注明 |\n| 日期 | 2005-11-06 | 未注明 |\n| Asset | 9319 | 9320 |\n| CRC32 | `f3646850` | `2d729b09` |\n| 镜像方式 | 垂直 | 水平 |\n| Mapper | 4 | 4 |\n| SRAM | 有 | 有 |\n\n二者直接比较：\n\n- 总计 38,148 字节不同\n- PRG 程序及文本：34,594 字节不同\n- CHR 字体及图形：3,553 字节不同\n- 主要变化集中在 PRG Bank 8、9，以及 CHR Bank 0、10、11\n- 大小均为 524,304 字节，没有 overdump\n\n更关键的是分别与日版原作比较：\n\n- 9337 Project-G：与日版有 35,184 字节不同\n- 9338 普通 `T+Kor`：与日版有 6,440 字节不同\n- 两套翻译对日版所作的修改中，只有 **37 个字节位置修改成了相同值**\n\n这说明 9337 不是在 9338 基础上继续完善的版本；它们几乎肯定采用了各自独立的字库、文本编码和程序修改方案。\n\n推断：\n\n- **9337**：Project-G 在 2005-11-06 发布的韩文化版本，修改规模较大，可能包含更完整的剧情、字库和排版改造。\n- **9338**：来源未知的另一套韩文化，修改规模明显较小，可能是菜单翻译、较早期翻译，或者使用了压缩程度更高的文本方案；仅凭差异量还不能断言完成度。\n- 9337 的垂直镜像头与日版不同，9338 则保留日版的水平镜像设置。不过 Mapper 4 可以在运行时切换镜像，因此不一定代表 9337 有问题。\n\n结论：两个发行版都应保留，不能合并为重复资源。名称可以整理为：\n\n- `韩文翻译版（Project-G，2005-11-06）`\n- `韩文翻译版（来源未知）`\n\n现有 ROM 目录也把它们列为两个不同韩文翻译版本。[NES Ninja 版本列表](https://nesninja.com/game/nes/dai-2-ji-super-robot-taisen/roms)"
+    release_type: 2
   names:
   - id: 242135
     kind: 3
@@ -118,6 +119,7 @@ releases:
 - release:
     id: 9344
     game_id: 29321
+    release_type: 3
   names:
   - id: 19978
     kind: 3
@@ -138,6 +140,7 @@ releases:
 - release:
     id: 9345
     game_id: 29321
+    release_type: 3
   names:
   - id: 19980
     kind: 3
@@ -158,6 +161,7 @@ releases:
 - release:
     id: 9346
     game_id: 29321
+    release_type: 3
   names:
   - id: 19982
     kind: 3
@@ -178,6 +182,7 @@ releases:
 - release:
     id: 9347
     game_id: 29321
+    release_type: 3
   names:
   - id: 19984
     kind: 3
@@ -198,6 +203,7 @@ releases:
 - release:
     id: 9348
     game_id: 29321
+    release_type: 3
   names:
   - id: 19986
     kind: 3
@@ -218,6 +224,7 @@ releases:
 - release:
     id: 9349
     game_id: 29321
+    release_type: 3
   names:
   - id: 19988
     kind: 3
@@ -238,6 +245,7 @@ releases:
 - release:
     id: 9350
     game_id: 29321
+    release_type: 3
   names:
   - id: 19990
     kind: 3
@@ -258,6 +266,7 @@ releases:
 - release:
     id: 9351
     game_id: 29321
+    release_type: 3
   names:
   - id: 19992
     kind: 3
@@ -278,6 +287,7 @@ releases:
 - release:
     id: 9352
     game_id: 29321
+    release_type: 3
   names:
   - id: 19994
     kind: 3
@@ -298,6 +308,7 @@ releases:
 - release:
     id: 9353
     game_id: 29321
+    release_type: 3
   names:
   - id: 19996
     kind: 3
@@ -318,6 +329,7 @@ releases:
 - release:
     id: 9354
     game_id: 29321
+    release_type: 3
   names:
   - id: 19998
     kind: 3
@@ -338,6 +350,7 @@ releases:
 - release:
     id: 9355
     game_id: 29321
+    release_type: 3
   names:
   - id: 20000
     kind: 3
@@ -358,6 +371,7 @@ releases:
 - release:
     id: 9356
     game_id: 29321
+    release_type: 3
   names:
   - id: 20002
     kind: 3
@@ -378,6 +392,7 @@ releases:
 - release:
     id: 9357
     game_id: 29321
+    release_type: 3
   names:
   - id: 20004
     kind: 3
@@ -398,6 +413,7 @@ releases:
 - release:
     id: 9358
     game_id: 29321
+    release_type: 3
   names:
   - id: 20006
     kind: 3
@@ -418,6 +434,7 @@ releases:
 - release:
     id: 9359
     game_id: 29321
+    release_type: 3
   names:
   - id: 20008
     kind: 3
@@ -438,6 +455,7 @@ releases:
 - release:
     id: 9360
     game_id: 29321
+    release_type: 3
   names:
   - id: 20010
     kind: 3
@@ -458,6 +476,7 @@ releases:
 - release:
     id: 9361
     game_id: 29321
+    release_type: 3
   names:
   - id: 20012
     kind: 3
@@ -478,6 +497,7 @@ releases:
 - release:
     id: 9362
     game_id: 29321
+    release_type: 3
   names:
   - id: 20014
     kind: 3
@@ -498,6 +518,7 @@ releases:
 - release:
     id: 9363
     game_id: 29321
+    release_type: 3
   names:
   - id: 20016
     kind: 3
@@ -518,6 +539,7 @@ releases:
 - release:
     id: 9364
     game_id: 29321
+    release_type: 3
   names:
   - id: 20018
     kind: 3
@@ -538,6 +560,7 @@ releases:
 - release:
     id: 9365
     game_id: 29321
+    release_type: 3
   names:
   - id: 20020
     kind: 3
@@ -558,6 +581,7 @@ releases:
 - release:
     id: 9366
     game_id: 29321
+    release_type: 3
   names:
   - id: 20022
     kind: 3
@@ -578,6 +602,7 @@ releases:
 - release:
     id: 9367
     game_id: 29321
+    release_type: 3
   names:
   - id: 20024
     kind: 3
@@ -598,6 +623,7 @@ releases:
 - release:
     id: 9368
     game_id: 29321
+    release_type: 3
   names:
   - id: 20026
     kind: 3
@@ -618,6 +644,7 @@ releases:
 - release:
     id: 9369
     game_id: 29321
+    release_type: 3
   names:
   - id: 20028
     kind: 3
