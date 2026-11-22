@@ -36,27 +36,6 @@ names:
   source: no-intro
 releases:
 - release:
-    id: 13692
-    game_id: 13692
-    release_type: 2
-  names:
-  - id: 83368
-    kind: 3
-    kind_id: 13692
-    language: 1
-    name: Image Fight (J) [T+Rus_greengh0st]
-  assets:
-  - asset:
-      id: 13674
-      kind: 3
-      kind_id: 13692
-      type: 1
-      name: Image Fight (J) [T+Rus_greengh0st].nes
-      format: 1
-      size: 262160
-      blob_id: 59528
-      debug: Image Fight (J) [T+Rus_greengh0st].nes
-- release:
     id: 13695
     game_id: 13692
     release_type: 3
@@ -87,6 +66,7 @@ releases:
 - release:
     id: 13696
     game_id: 13692
+    release_type: 1
   names:
   - id: 30152
     kind: 3
@@ -105,12 +85,19 @@ releases:
     kind_id: 13696
     language: 2
     name: 梦幻战机 (美版) (射击)-Image Fight (USA)
+    deprecated: 1
   - id: 258459
     kind: 3
     kind_id: 13696
     language: 1
     name: ImageFight (USA)
     source: no-intro
+  - id: 264349
+    kind: 3
+    kind_id: 13696
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 13678
@@ -140,12 +127,14 @@ releases:
 - release:
     id: 28686
     game_id: 13692
+    release_type: 1
   names:
   - id: 66381
     kind: 3
     kind_id: 28686
     language: 2
     name: 梦幻战机 (日版) (射击)-Image Fight (Japan)
+    deprecated: 1
   - id: 66382
     kind: 3
     kind_id: 28686
@@ -158,6 +147,12 @@ releases:
     language: 1
     name: ImageFight (Japan) (En)
     source: no-intro
+  - id: 265806
+    kind: 3
+    kind_id: 28686
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 28668

@@ -61,6 +61,7 @@ releases:
 - release:
     id: 23445
     game_id: 23443
+    release_type: 1
   names:
   - id: 52334
     kind: 3
@@ -79,6 +80,7 @@ releases:
     kind_id: 23445
     language: 2
     name: 剑术大师 (美版) (动作)-Sword Master (USA)
+    deprecated: 1
   - id: 61326
     kind: 3
     kind_id: 23445
@@ -91,6 +93,12 @@ releases:
     language: 1
     name: Sword Master (USA)
     source: no-intro
+  - id: 264956
+    kind: 3
+    kind_id: 23445
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 23427
@@ -117,48 +125,6 @@ releases:
       size: 1980
       blob_id: 325200
       debug: libretro-named-titles:rom-asset=23427:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Sword%20Master%20%28USA%29.png
-- release:
-    id: 23446
-    game_id: 23443
-    release_type: 2
-  names:
-  - id: 84634
-    kind: 3
-    kind_id: 23446
-    language: 1
-    name: Sword Master (U) [T+Rus_Guyver]
-  assets:
-  - asset:
-      id: 23428
-      kind: 3
-      kind_id: 23446
-      type: 1
-      name: Sword Master (U) [T+Rus_Guyver].nes
-      format: 1
-      size: 262160
-      blob_id: 68735
-      debug: Sword Master (U) [T+Rus_Guyver].nes
-- release:
-    id: 23447
-    game_id: 23443
-    release_type: 2
-  names:
-  - id: 84635
-    kind: 3
-    kind_id: 23447
-    language: 1
-    name: Sword Master (U) [T+Rus_Guyver][a1]
-  assets:
-  - asset:
-      id: 23429
-      kind: 3
-      kind_id: 23447
-      type: 1
-      name: Sword Master (U) [T+Rus_Guyver][a1].nes
-      format: 1
-      size: 262160
-      blob_id: 68736
-      debug: Sword Master (U) [T+Rus_Guyver][a1].nes
 - release:
     id: 23451
     game_id: 23443
@@ -190,6 +156,7 @@ releases:
 - release:
     id: 23453
     game_id: 23443
+    release_type: 1
   names:
   - id: 52354
     kind: 3
@@ -202,6 +169,7 @@ releases:
     kind_id: 23453
     language: 2
     name: 剑术大师 (日版) (动作)-Sword Master (Japan)
+    deprecated: 1
   - id: 61318
     kind: 3
     kind_id: 23453
@@ -214,6 +182,12 @@ releases:
     language: 1
     name: Sword Master (Japan)
     source: no-intro
+  - id: 264957
+    kind: 3
+    kind_id: 23453
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 23435
@@ -242,12 +216,14 @@ releases:
 - release:
     id: 27157
     game_id: 23443
+    release_type: 1
   names:
   - id: 61321
     kind: 3
     kind_id: 27157
     language: 2
     name: 剑术大师 (欧版) (动作)-Sword Master (Europe)
+    deprecated: 1
   - id: 61322
     kind: 3
     kind_id: 27157
@@ -260,6 +236,12 @@ releases:
     language: 1
     name: Sword Master (Europe)
     source: no-intro
+  - id: 265331
+    kind: 3
+    kind_id: 27157
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 27139

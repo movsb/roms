@@ -74,6 +74,7 @@ releases:
 - release:
     id: 10694
     game_id: 10693
+    release_type: 1
   names:
   - id: 23196
     kind: 3
@@ -86,12 +87,19 @@ releases:
     kind_id: 10694
     language: 2
     name: 唐老鸭梦冒险 (美版) (动作)-Duck Tales (USA)
+    deprecated: 1
   - id: 258115
     kind: 3
     kind_id: 10694
     language: 1
     name: DuckTales (USA)
     source: no-intro
+  - id: 264132
+    kind: 3
+    kind_id: 10694
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 10676
@@ -117,195 +125,6 @@ releases:
       size: 4077
       blob_id: 322499
       debug: fc-title-trial:fceumm:rom-asset=10676:frame=180
-- release:
-    id: 10695
-    game_id: 10693
-    release_type: 2
-  names:
-  - id: 82924
-    kind: 3
-    kind_id: 10695
-    language: 1
-    name: Duck Tales (U) [T+FreBeta_Generation IX]
-  assets:
-  - asset:
-      id: 10677
-      kind: 3
-      kind_id: 10695
-      type: 1
-      name: Duck Tales (U) [T+FreBeta_Generation IX].nes
-      format: 1
-      size: 131088
-      blob_id: 56697
-      debug: Duck Tales (U) [T+FreBeta_Generation IX].nes
-- release:
-    id: 10696
-    game_id: 10693
-    release_type: 2
-  names:
-  - id: 82925
-    kind: 3
-    kind_id: 10696
-    language: 1
-    name: Duck Tales (U) [T+Fre]
-  assets:
-  - asset:
-      id: 10678
-      kind: 3
-      kind_id: 10696
-      type: 1
-      name: Duck Tales (U) [T+Fre].nes
-      format: 1
-      size: 131088
-      blob_id: 56698
-      debug: Duck Tales (U) [T+Fre].nes
-- release:
-    id: 10697
-    game_id: 10693
-    release_type: 2
-  names:
-  - id: 82926
-    kind: 3
-    kind_id: 10697
-    language: 1
-    name: Duck Tales (U) [T+Pol]
-  assets:
-  - asset:
-      id: 10679
-      kind: 3
-      kind_id: 10697
-      type: 1
-      name: Duck Tales (U) [T+Pol].nes
-      format: 1
-      size: 131088
-      blob_id: 56699
-      debug: Duck Tales (U) [T+Pol].nes
-- release:
-    id: 10698
-    game_id: 10693
-    release_type: 2
-  names:
-  - id: 82927
-    kind: 3
-    kind_id: 10698
-    language: 1
-    name: Duck Tales (U) [T+Por1.0_CBT]
-  assets:
-  - asset:
-      id: 10680
-      kind: 3
-      kind_id: 10698
-      type: 1
-      name: Duck Tales (U) [T+Por1.0_CBT].nes
-      format: 1
-      size: 131088
-      blob_id: 56700
-      debug: Duck Tales (U) [T+Por1.0_CBT].nes
-- release:
-    id: 10699
-    game_id: 10693
-    release_type: 2
-  names:
-  - id: 82928
-    kind: 3
-    kind_id: 10699
-    language: 1
-    name: Duck Tales (U) [T+Por90%_Emuroms]
-  assets:
-  - asset:
-      id: 10681
-      kind: 3
-      kind_id: 10699
-      type: 1
-      name: Duck Tales (U) [T+Por90%_Emuroms].nes
-      format: 1
-      size: 131088
-      blob_id: 56701
-      debug: Duck Tales (U) [T+Por90%_Emuroms].nes
-- release:
-    id: 10700
-    game_id: 10693
-    release_type: 2
-  names:
-  - id: 82929
-    kind: 3
-    kind_id: 10700
-    language: 1
-    name: Duck Tales (U) [T+Rus1.1_Coregon]
-  assets:
-  - asset:
-      id: 10682
-      kind: 3
-      kind_id: 10700
-      type: 1
-      name: Duck Tales (U) [T+Rus1.1_Coregon].nes
-      format: 1
-      size: 131088
-      blob_id: 56702
-      debug: Duck Tales (U) [T+Rus1.1_Coregon].nes
-- release:
-    id: 10701
-    game_id: 10693
-    release_type: 2
-  names:
-  - id: 82930
-    kind: 3
-    kind_id: 10701
-    language: 1
-    name: Duck Tales (U) [T+Rus_Chief-Net]
-  assets:
-  - asset:
-      id: 10683
-      kind: 3
-      kind_id: 10701
-      type: 1
-      name: Duck Tales (U) [T+Rus_Chief-Net].nes
-      format: 1
-      size: 131088
-      blob_id: 56703
-      debug: Duck Tales (U) [T+Rus_Chief-Net].nes
-- release:
-    id: 10702
-    game_id: 10693
-    release_type: 2
-  names:
-  - id: 82931
-    kind: 3
-    kind_id: 10702
-    language: 1
-    name: Duck Tales (U) [T+Swe1.0_GeneralCoolNES]
-  assets:
-  - asset:
-      id: 10684
-      kind: 3
-      kind_id: 10702
-      type: 1
-      name: Duck Tales (U) [T+Swe1.0_GeneralCoolNES].nes
-      format: 1
-      size: 131088
-      blob_id: 56704
-      debug: Duck Tales (U) [T+Swe1.0_GeneralCoolNES].nes
-- release:
-    id: 10703
-    game_id: 10693
-    release_type: 2
-  names:
-  - id: 82932
-    kind: 3
-    kind_id: 10703
-    language: 1
-    name: Duck Tales (U) [T+Swe2.0_TheTranslator]
-  assets:
-  - asset:
-      id: 10685
-      kind: 3
-      kind_id: 10703
-      type: 1
-      name: Duck Tales (U) [T+Swe2.0_TheTranslator].nes
-      format: 1
-      size: 131088
-      blob_id: 56705
-      debug: Duck Tales (U) [T+Swe2.0_TheTranslator].nes
 - release:
     id: 10707
     game_id: 10693
@@ -369,27 +188,6 @@ releases:
       blob_id: 56714
       debug: Duck Tales (U) [t2].nes
 - release:
-    id: 10713
-    game_id: 10693
-    release_type: 2
-  names:
-  - id: 82933
-    kind: 3
-    kind_id: 10713
-    language: 1
-    name: Duck Tales (U) [t2][T+Rus_Chief-Net,Multisoft]
-  assets:
-  - asset:
-      id: 10695
-      kind: 3
-      kind_id: 10713
-      type: 1
-      name: Duck Tales (U) [t2][T+Rus_Chief-Net,Multisoft].nes
-      format: 1
-      size: 131088
-      blob_id: 56715
-      debug: Duck Tales (U) [t2][T+Rus_Chief-Net,Multisoft].nes
-- release:
     id: 10714
     game_id: 10693
     release_type: 3
@@ -413,6 +211,7 @@ releases:
 - release:
     id: 10715
     game_id: 10693
+    release_type: 1
   names:
   - id: 23258
     kind: 3
@@ -426,6 +225,12 @@ releases:
     language: 1
     name: DuckTales (USA)
     source: no-intro
+  - id: 264133
+    kind: 3
+    kind_id: 10715
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 10697
@@ -474,12 +279,14 @@ releases:
 - release:
     id: 27435
     game_id: 10693
+    release_type: 1
   names:
   - id: 62201
     kind: 3
     kind_id: 27435
     language: 2
     name: 唐老鸭梦冒险 (欧版) (动作)-Duck Tales (Europe)
+    deprecated: 1
   - id: 62202
     kind: 3
     kind_id: 27435
@@ -492,6 +299,12 @@ releases:
     language: 1
     name: DuckTales (Europe)
     source: no-intro
+  - id: 265407
+    kind: 3
+    kind_id: 27435
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 27417

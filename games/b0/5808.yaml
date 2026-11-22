@@ -21,6 +21,7 @@ releases:
 - release:
     id: 5808
     game_id: 5808
+    release_type: 1
   names:
   - id: 11938
     kind: 3
@@ -34,6 +35,12 @@ releases:
     language: 1
     name: Amagon (USA)
     source: no-intro
+  - id: 263832
+    kind: 3
+    kind_id: 5808
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 5790
@@ -60,48 +67,6 @@ releases:
       size: 3606
       blob_id: 322326
       debug: fc-title-trial:fceumm:rom-asset=5790:frame=300
-- release:
-    id: 5809
-    game_id: 5808
-    release_type: 2
-  names:
-  - id: 82188
-    kind: 3
-    kind_id: 5809
-    language: 1
-    name: Amagon (U) [T+Por100%_Groxo]
-  assets:
-  - asset:
-      id: 5791
-      kind: 3
-      kind_id: 5809
-      type: 1
-      name: Amagon (U) [T+Por100%_Groxo].nes
-      format: 1
-      size: 131088
-      blob_id: 52076
-      debug: Amagon (U) [T+Por100%_Groxo].nes
-- release:
-    id: 5810
-    game_id: 5808
-    release_type: 2
-  names:
-  - id: 82189
-    kind: 3
-    kind_id: 5810
-    language: 1
-    name: Amagon (U) [T+Rus]
-  assets:
-  - asset:
-      id: 5792
-      kind: 3
-      kind_id: 5810
-      type: 1
-      name: Amagon (U) [T+Rus].nes
-      format: 1
-      size: 131088
-      blob_id: 52077
-      debug: Amagon (U) [T+Rus].nes
 - release:
     id: 5816
     game_id: 5808

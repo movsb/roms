@@ -21,6 +21,7 @@ releases:
 - release:
     id: 9653
     game_id: 9653
+    release_type: 1
   names:
   - id: 20676
     kind: 3
@@ -33,12 +34,19 @@ releases:
     kind_id: 9653
     language: 2
     name: 行星争霸战 (美版) (模拟射击)-Destination Earthstar (USA)
+    deprecated: 1
   - id: 258005
     kind: 3
     kind_id: 9653
     language: 1
     name: Destination Earthstar (USA)
     source: no-intro
+  - id: 264062
+    kind: 3
+    kind_id: 9653
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 9635
@@ -65,29 +73,9 @@ releases:
       blob_id: 322493
       debug: fc-title-trial:nestopia:rom-asset=9635:frame=360
 - release:
-    id: 9654
-    game_id: 9653
-    release_type: 2
-  names:
-  - id: 82708
-    kind: 3
-    kind_id: 9654
-    language: 1
-    name: Destination Earthstar (U) [T+Rus_Guyver]
-  assets:
-  - asset:
-      id: 9636
-      kind: 3
-      kind_id: 9654
-      type: 1
-      name: Destination Earthstar (U) [T+Rus_Guyver].nes
-      format: 1
-      size: 65552
-      blob_id: 55721
-      debug: Destination Earthstar (U) [T+Rus_Guyver].nes
-- release:
     id: 9656
     game_id: 9653
+    release_type: 1
   names:
   - id: 20684
     kind: 3
@@ -101,6 +89,12 @@ releases:
     language: 1
     name: Destination Earthstar (USA)
     source: no-intro
+  - id: 264063
+    kind: 3
+    kind_id: 9656
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 9638

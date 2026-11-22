@@ -104,27 +104,6 @@ releases:
       blob_id: 324984
       debug: libretro-named-titles:rom-asset=16439:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Metroid%20%28Europe%29%20%28Virtual%20Console%29.png
 - release:
-    id: 16458
-    game_id: 16529
-    release_type: 2
-  names:
-  - id: 83844
-    kind: 3
-    kind_id: 16458
-    language: 1
-    name: Metroid (E) [T+Spa050_PaladinKnights]
-  assets:
-  - asset:
-      id: 16440
-      kind: 3
-      kind_id: 16458
-      type: 1
-      name: Metroid (E) [T+Spa050_PaladinKnights].nes
-      format: 1
-      size: 131088
-      blob_id: 62107
-      debug: Metroid (E) [T+Spa050_PaladinKnights].nes
-- release:
     id: 16459
     game_id: 16529
   names:
@@ -147,6 +126,7 @@ releases:
 - release:
     id: 16460
     game_id: 16529
+    release_type: 1
   names:
   - id: 36642
     kind: 3
@@ -164,6 +144,7 @@ releases:
     kind_id: 16460
     language: 2
     name: 银河战士 (美版) (动作)-Metroid (USA)
+    deprecated: 1
   - id: 71072
     kind: 3
     kind_id: 16460
@@ -176,6 +157,12 @@ releases:
     language: 1
     name: Metroid (USA)
     source: no-intro
+  - id: 264543
+    kind: 3
+    kind_id: 16460
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 16442
@@ -243,260 +230,9 @@ releases:
       blob_id: 324984
       debug: libretro-named-titles:rom-asset=16444:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Metroid%20%28USA%29%20%28Virtual%20Console%29.png
 - release:
-    id: 16463
-    game_id: 16529
-    release_type: 2
-  names:
-  - id: 83845
-    kind: 3
-    kind_id: 16463
-    language: 1
-    name: Metroid (U) [T+Bra100%_E2P Traducoes]
-  assets:
-  - asset:
-      id: 16445
-      kind: 3
-      kind_id: 16463
-      type: 1
-      name: Metroid (U) [T+Bra100%_E2P Traducoes].nes
-      format: 1
-      size: 131088
-      blob_id: 62112
-      debug: Metroid (U) [T+Bra100%_E2P Traducoes].nes
-- release:
-    id: 16464
-    game_id: 16529
-    release_type: 2
-  names:
-  - id: 83846
-    kind: 3
-    kind_id: 16464
-    language: 1
-    name: Metroid (U) [T+Bra100%_Falcon]
-  assets:
-  - asset:
-      id: 16446
-      kind: 3
-      kind_id: 16464
-      type: 1
-      name: Metroid (U) [T+Bra100%_Falcon].nes
-      format: 1
-      size: 131088
-      blob_id: 62113
-      debug: Metroid (U) [T+Bra100%_Falcon].nes
-- release:
-    id: 16465
-    game_id: 16529
-    release_type: 2
-  names:
-  - id: 83847
-    kind: 3
-    kind_id: 16465
-    language: 1
-    name: Metroid (U) [T+Bra_JM-trad]
-  assets:
-  - asset:
-      id: 16447
-      kind: 3
-      kind_id: 16465
-      type: 1
-      name: Metroid (U) [T+Bra_JM-trad].nes
-      format: 1
-      size: 131088
-      blob_id: 62114
-      debug: Metroid (U) [T+Bra_JM-trad].nes
-- release:
-    id: 16466
-    game_id: 16529
-    release_type: 2
-  names:
-  - id: 83848
-    kind: 3
-    kind_id: 16466
-    language: 1
-    name: Metroid (U) [T+Cro_CROcOp]
-  assets:
-  - asset:
-      id: 16448
-      kind: 3
-      kind_id: 16466
-      type: 1
-      name: Metroid (U) [T+Cro_CROcOp].nes
-      format: 1
-      size: 131088
-      blob_id: 62115
-      debug: Metroid (U) [T+Cro_CROcOp].nes
-- release:
-    id: 16467
-    game_id: 16529
-    release_type: 2
-  names:
-  - id: 83849
-    kind: 3
-    kind_id: 16467
-    language: 1
-    name: Metroid (U) [T+Fre]
-  assets:
-  - asset:
-      id: 16449
-      kind: 3
-      kind_id: 16467
-      type: 1
-      name: Metroid (U) [T+Fre].nes
-      format: 1
-      size: 131088
-      blob_id: 62116
-      debug: Metroid (U) [T+Fre].nes
-- release:
-    id: 16468
-    game_id: 16529
-    release_type: 2
-  names:
-  - id: 83850
-    kind: 3
-    kind_id: 16468
-    language: 1
-    name: Metroid (U) [T+Fre_Terminus]
-  assets:
-  - asset:
-      id: 16450
-      kind: 3
-      kind_id: 16468
-      type: 1
-      name: Metroid (U) [T+Fre_Terminus].nes
-      format: 1
-      size: 131088
-      blob_id: 62117
-      debug: Metroid (U) [T+Fre_Terminus].nes
-- release:
-    id: 16469
-    game_id: 16529
-    release_type: 2
-  names:
-  - id: 83851
-    kind: 3
-    kind_id: 16469
-    language: 1
-    name: Metroid (U) [T+Ger1.00_StarTrans]
-  assets:
-  - asset:
-      id: 16451
-      kind: 3
-      kind_id: 16469
-      type: 1
-      name: Metroid (U) [T+Ger1.00_StarTrans].nes
-      format: 1
-      size: 131088
-      blob_id: 62118
-      debug: Metroid (U) [T+Ger1.00_StarTrans].nes
-- release:
-    id: 16470
-    game_id: 16529
-    release_type: 2
-  names:
-  - id: 83852
-    kind: 3
-    kind_id: 16470
-    language: 1
-    name: Metroid (U) [T+Ita1.00_Clomax Dominion]
-  assets:
-  - asset:
-      id: 16452
-      kind: 3
-      kind_id: 16470
-      type: 1
-      name: Metroid (U) [T+Ita1.00_Clomax Dominion].nes
-      format: 1
-      size: 131088
-      blob_id: 62119
-      debug: Metroid (U) [T+Ita1.00_Clomax Dominion].nes
-- release:
-    id: 16471
-    game_id: 16529
-    release_type: 2
-  names:
-  - id: 83853
-    kind: 3
-    kind_id: 16471
-    language: 1
-    name: Metroid (U) [T+Ser0.999_SeeGot]
-  assets:
-  - asset:
-      id: 16453
-      kind: 3
-      kind_id: 16471
-      type: 1
-      name: Metroid (U) [T+Ser0.999_SeeGot].nes
-      format: 1
-      size: 131088
-      blob_id: 62120
-      debug: Metroid (U) [T+Ser0.999_SeeGot].nes
-- release:
-    id: 16472
-    game_id: 16529
-    release_type: 2
-  names:
-  - id: 83854
-    kind: 3
-    kind_id: 16472
-    language: 1
-    name: Metroid (U) [T+Spa050_PaladinKnights]
-  assets:
-  - asset:
-      id: 16454
-      kind: 3
-      kind_id: 16472
-      type: 1
-      name: Metroid (U) [T+Spa050_PaladinKnights].nes
-      format: 1
-      size: 131088
-      blob_id: 62121
-      debug: Metroid (U) [T+Spa050_PaladinKnights].nes
-- release:
-    id: 16473
-    game_id: 16529
-    release_type: 2
-  names:
-  - id: 83855
-    kind: 3
-    kind_id: 16473
-    language: 1
-    name: Metroid (U) [T+Spa100b_ereza]
-  assets:
-  - asset:
-      id: 16455
-      kind: 3
-      kind_id: 16473
-      type: 1
-      name: Metroid (U) [T+Spa100b_ereza].nes
-      format: 1
-      size: 131088
-      blob_id: 62122
-      debug: Metroid (U) [T+Spa100b_ereza].nes
-- release:
-    id: 16474
-    game_id: 16529
-    release_type: 2
-  names:
-  - id: 83856
-    kind: 3
-    kind_id: 16474
-    language: 1
-    name: Metroid (U) [T+Swe1.0_TheTranslator]
-  assets:
-  - asset:
-      id: 16456
-      kind: 3
-      kind_id: 16474
-      type: 1
-      name: Metroid (U) [T+Swe1.0_TheTranslator].nes
-      format: 1
-      size: 131088
-      blob_id: 62123
-      debug: Metroid (U) [T+Swe1.0_TheTranslator].nes
-- release:
     id: 16479
     game_id: 16529
+    release_type: 1
   names:
   - id: 36704
     kind: 3
@@ -515,12 +251,19 @@ releases:
     kind_id: 16479
     language: 2
     name: 银河战士
+    deprecated: 1
   - id: 258791
     kind: 3
     kind_id: 16479
     language: 1
     name: Metroid (USA)
     source: no-intro
+  - id: 264544
+    kind: 3
+    kind_id: 16479
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 16461
@@ -613,12 +356,14 @@ releases:
 - release:
     id: 30073
     game_id: 16529
+    release_type: 1
   names:
   - id: 71067
     kind: 3
     kind_id: 30073
     language: 2
     name: 银河战士 (欧版) (动作)-Metroid (Europe)
+    deprecated: 1
   - id: 71068
     kind: 3
     kind_id: 30073
@@ -631,6 +376,12 @@ releases:
     language: 1
     name: Metroid (Europe)
     source: no-intro
+  - id: 266220
+    kind: 3
+    kind_id: 30073
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 30055

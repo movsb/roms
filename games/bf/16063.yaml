@@ -44,6 +44,7 @@ releases:
 - release:
     id: 16063
     game_id: 16063
+    release_type: 1
   names:
   - id: 35640
     kind: 3
@@ -68,6 +69,7 @@ releases:
     kind_id: 16063
     language: 2
     name: "洛克人 V - 布鲁斯的圈套 (美版) (动作)-Mega Man 5 (USA)"
+    deprecated: 1
   - id: 66882
     kind: 3
     kind_id: 16063
@@ -80,6 +82,12 @@ releases:
     language: 1
     name: Mega Man 5 (USA)
     source: no-intro
+  - id: 264526
+    kind: 3
+    kind_id: 16063
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 16045
@@ -143,27 +151,6 @@ releases:
       blob_id: 324974
       debug: libretro-named-titles:rom-asset=16236:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mega%20Man%205%20%28Europe%29%20%28Virtual%20Console%29.png
 - release:
-    id: 16255
-    game_id: 16063
-    release_type: 2
-  names:
-  - id: 83799
-    kind: 3
-    kind_id: 16255
-    language: 1
-    name: Megaman V (E) [T+Ger_mi213]
-  assets:
-  - asset:
-      id: 16237
-      kind: 3
-      kind_id: 16255
-      type: 1
-      name: Megaman V (E) [T+Ger_mi213].nes
-      format: 1
-      size: 524304
-      blob_id: 61921
-      debug: Megaman V (E) [T+Ger_mi213].nes
-- release:
     id: 16256
     game_id: 16063
   names:
@@ -204,245 +191,16 @@ releases:
       blob_id: 324974
       debug: libretro-named-titles:rom-asset=16238:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mega%20Man%205%20%28USA%29%20%28Virtual%20Console%29.png
 - release:
-    id: 16258
-    game_id: 16063
-    release_type: 2
-  names:
-  - id: 83800
-    kind: 3
-    kind_id: 16258
-    language: 1
-    name: Megaman V (U) [T+FreBetaBossNames_Generation IX]
-  assets:
-  - asset:
-      id: 16240
-      kind: 3
-      kind_id: 16258
-      type: 1
-      name: Megaman V (U) [T+FreBetaBossNames_Generation IX].nes
-      format: 1
-      size: 524304
-      blob_id: 61923
-      debug: Megaman V (U) [T+FreBetaBossNames_Generation IX].nes
-- release:
-    id: 16259
-    game_id: 16063
-    release_type: 2
-  names:
-  - id: 83801
-    kind: 3
-    kind_id: 16259
-    language: 1
-    name: Megaman V (U) [T+Fre_Nanard]
-  assets:
-  - asset:
-      id: 16241
-      kind: 3
-      kind_id: 16259
-      type: 1
-      name: Megaman V (U) [T+Fre_Nanard].nes
-      format: 1
-      size: 524304
-      blob_id: 61924
-      debug: Megaman V (U) [T+Fre_Nanard].nes
-- release:
-    id: 16260
-    game_id: 16063
-    release_type: 2
-  names:
-  - id: 83802
-    kind: 3
-    kind_id: 16260
-    language: 1
-    name: Megaman V (U) [T+Ger0.80_G-Trans]
-  assets:
-  - asset:
-      id: 16242
-      kind: 3
-      kind_id: 16260
-      type: 1
-      name: Megaman V (U) [T+Ger0.80_G-Trans].nes
-      format: 1
-      size: 524304
-      blob_id: 61925
-      debug: Megaman V (U) [T+Ger0.80_G-Trans].nes
-- release:
-    id: 16261
-    game_id: 16063
-    release_type: 2
-  names:
-  - id: 83803
-    kind: 3
-    kind_id: 16261
-    language: 1
-    name: Megaman V (U) [T+Ita1.0_Vecna]
-  assets:
-  - asset:
-      id: 16243
-      kind: 3
-      kind_id: 16261
-      type: 1
-      name: Megaman V (U) [T+Ita1.0_Vecna].nes
-      format: 1
-      size: 524304
-      blob_id: 61926
-      debug: Megaman V (U) [T+Ita1.0_Vecna].nes
-- release:
-    id: 16262
-    game_id: 16063
-    release_type: 2
-  names:
-  - id: 83804
-    kind: 3
-    kind_id: 16262
-    language: 1
-    name: Megaman V (U) [T+Nor0.90a_Just4fun]
-  assets:
-  - asset:
-      id: 16244
-      kind: 3
-      kind_id: 16262
-      type: 1
-      name: Megaman V (U) [T+Nor0.90a_Just4fun].nes
-      format: 1
-      size: 524304
-      blob_id: 61927
-      debug: Megaman V (U) [T+Nor0.90a_Just4fun].nes
-- release:
-    id: 16263
-    game_id: 16063
-    release_type: 2
-  names:
-  - id: 83805
-    kind: 3
-    kind_id: 16263
-    language: 1
-    name: Megaman V (U) [T+Por0.99Rev1_Emuway]
-  assets:
-  - asset:
-      id: 16245
-      kind: 3
-      kind_id: 16263
-      type: 1
-      name: Megaman V (U) [T+Por0.99Rev1_Emuway].nes
-      format: 1
-      size: 524304
-      blob_id: 61928
-      debug: Megaman V (U) [T+Por0.99Rev1_Emuway].nes
-- release:
-    id: 16264
-    game_id: 16063
-    release_type: 2
-  names:
-  - id: 83806
-    kind: 3
-    kind_id: 16264
-    language: 1
-    name: Megaman V (U) [T+Por100%_Traducao]
-  assets:
-  - asset:
-      id: 16246
-      kind: 3
-      kind_id: 16264
-      type: 1
-      name: Megaman V (U) [T+Por100%_Traducao].nes
-      format: 1
-      size: 524304
-      blob_id: 61929
-      debug: Megaman V (U) [T+Por100%_Traducao].nes
-- release:
-    id: 16265
-    game_id: 16063
-    release_type: 2
-  names:
-  - id: 83807
-    kind: 3
-    kind_id: 16265
-    language: 1
-    name: Megaman V (U) [T+Rus_Chief-Net]
-  assets:
-  - asset:
-      id: 16247
-      kind: 3
-      kind_id: 16265
-      type: 1
-      name: Megaman V (U) [T+Rus_Chief-Net].nes
-      format: 1
-      size: 524304
-      blob_id: 61930
-      debug: Megaman V (U) [T+Rus_Chief-Net].nes
-- release:
-    id: 16266
-    game_id: 16063
-    release_type: 2
-  names:
-  - id: 83808
-    kind: 3
-    kind_id: 16266
-    language: 1
-    name: Megaman V (U) [T+Spa_Chilensis]
-  assets:
-  - asset:
-      id: 16248
-      kind: 3
-      kind_id: 16266
-      type: 1
-      name: Megaman V (U) [T+Spa_Chilensis].nes
-      format: 1
-      size: 524304
-      blob_id: 61931
-      debug: Megaman V (U) [T+Spa_Chilensis].nes
-- release:
-    id: 16267
-    game_id: 16063
-    release_type: 2
-  names:
-  - id: 83809
-    kind: 3
-    kind_id: 16267
-    language: 1
-    name: Megaman V (U) [T+Spa_SARG]
-  assets:
-  - asset:
-      id: 16249
-      kind: 3
-      kind_id: 16267
-      type: 1
-      name: Megaman V (U) [T+Spa_SARG].nes
-      format: 1
-      size: 524304
-      blob_id: 61932
-      debug: Megaman V (U) [T+Spa_SARG].nes
-- release:
-    id: 16268
-    game_id: 16063
-    release_type: 2
-  names:
-  - id: 36186
-    kind: 3
-    kind_id: 16268
-    language: 1
-    name: Megaman V (U) [T-FreBeta_Generation IX]
-  assets:
-  - asset:
-      id: 16250
-      kind: 3
-      kind_id: 16268
-      type: 1
-      name: Megaman V (U) [T-FreBeta_Generation IX].nes
-      format: 1
-      size: 524304
-      blob_id: 61933
-      debug: Megaman V (U) [T-FreBeta_Generation IX].nes
-- release:
     id: 28826
     game_id: 16063
+    release_type: 1
   names:
   - id: 66877
     kind: 3
     kind_id: 28826
     language: 2
     name: "洛克人 V - 布鲁斯的圈套 (欧版) (动作)-Mega Man 5 (Europe)"
+    deprecated: 1
   - id: 66878
     kind: 3
     kind_id: 28826
@@ -455,6 +213,12 @@ releases:
     language: 1
     name: Mega Man 5 (Europe)
     source: no-intro
+  - id: 265852
+    kind: 3
+    kind_id: 28826
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 28808

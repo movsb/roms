@@ -21,6 +21,7 @@ releases:
 - release:
     id: 25927
     game_id: 25927
+    release_type: 1
   names:
   - id: 57954
     kind: 3
@@ -39,12 +40,19 @@ releases:
     kind_id: 25927
     language: 2
     name: 威奇精灵 (美版) (动作)-Widget (USA)
+    deprecated: 1
   - id: 259807
     kind: 3
     kind_id: 25927
     language: 1
     name: Widget (USA)
     source: no-intro
+  - id: 265119
+    kind: 3
+    kind_id: 25927
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 25909
@@ -71,27 +79,6 @@ releases:
       size: 3402
       blob_id: 323121
       debug: fc-title-trial:fceumm:rom-asset=25909:frame=900
-- release:
-    id: 25928
-    game_id: 25927
-    release_type: 2
-  names:
-  - id: 84958
-    kind: 3
-    kind_id: 25928
-    language: 1
-    name: Widget (U) [T+Rus_Guyver]
-  assets:
-  - asset:
-      id: 25910
-      kind: 3
-      kind_id: 25928
-      type: 1
-      name: Widget (U) [T+Rus_Guyver].nes
-      format: 1
-      size: 262160
-      blob_id: 71091
-      debug: Widget (U) [T+Rus_Guyver].nes
 - release:
     id: 25933
     game_id: 25927

@@ -223,6 +223,7 @@ releases:
 - release:
     id: 22450
     game_id: 22449
+    release_type: 1
   names:
   - id: 49992
     kind: 3
@@ -241,12 +242,19 @@ releases:
     kind_id: 22450
     language: 2
     name: 热血高校躲避球 (美版) (运动)-Super Dodge Ball (USA)
+    deprecated: 1
   - id: 259486
     kind: 3
     kind_id: 22450
     language: 1
     name: Super Dodge Ball (USA)
     source: no-intro
+  - id: 264934
+    kind: 3
+    kind_id: 22450
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 22432
@@ -295,27 +303,6 @@ releases:
       blob_id: 67774
       debug: Super Dodge Ball (U) [T+Chi_Old Lui].nes
 - release:
-    id: 22452
-    game_id: 22449
-    release_type: 2
-  names:
-  - id: 84488
-    kind: 3
-    kind_id: 22452
-    language: 1
-    name: Super Dodge Ball (U) [T+Rus_Solid Snake]
-  assets:
-  - asset:
-      id: 22434
-      kind: 3
-      kind_id: 22452
-      type: 1
-      name: Super Dodge Ball (U) [T+Rus_Solid Snake].nes
-      format: 1
-      size: 262160
-      blob_id: 67775
-      debug: Super Dodge Ball (U) [T+Rus_Solid Snake].nes
-- release:
     id: 22457
     game_id: 22449
   names:
@@ -359,12 +346,14 @@ releases:
 - release:
     id: 29035
     game_id: 22449
+    release_type: 1
   names:
   - id: 67525
     kind: 3
     kind_id: 29035
     language: 2
     name: 热血高校躲避球 (日版) (运动)-Nekketsu Koukou Dodgeball Bu (Japan)
+    deprecated: 1
   - id: 67526
     kind: 3
     kind_id: 29035
@@ -377,6 +366,12 @@ releases:
     language: 1
     name: Nekketsu Koukou Dodgeball-bu (Japan)
     source: no-intro
+  - id: 265898
+    kind: 3
+    kind_id: 29035
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 29017

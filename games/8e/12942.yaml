@@ -123,6 +123,7 @@ releases:
 - release:
     id: 12947
     game_id: 12942
+    release_type: 1
   names:
   - id: 28434
     kind: 3
@@ -136,6 +137,12 @@ releases:
     language: 1
     name: Heavy Barrel (USA)
     source: no-intro
+  - id: 264306
+    kind: 3
+    kind_id: 12947
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 12929
@@ -162,27 +169,6 @@ releases:
       blob_id: 322605
       debug: fc-title-trial:fceumm:rom-asset=12929:frame=600
 - release:
-    id: 12949
-    game_id: 12942
-    release_type: 2
-  names:
-  - id: 83259
-    kind: 3
-    kind_id: 12949
-    language: 1
-    name: Heavy Barrel (U) [T+Rus_Cool-Spot]
-  assets:
-  - asset:
-      id: 12931
-      kind: 3
-      kind_id: 12949
-      type: 1
-      name: Heavy Barrel (U) [T+Rus_Cool-Spot].nes
-      format: 1
-      size: 262160
-      blob_id: 58829
-      debug: Heavy Barrel (U) [T+Rus_Cool-Spot].nes
-- release:
     id: 12950
     game_id: 12942
   names:
@@ -202,27 +188,6 @@ releases:
       size: 262160
       blob_id: 58830
       debug: Heavy Barrel (U) [f1].nes
-- release:
-    id: 12951
-    game_id: 12942
-    release_type: 2
-  names:
-  - id: 83260
-    kind: 3
-    kind_id: 12951
-    language: 1
-    name: Heavy Barrel (U) [f1][T+Rus_Cool-Spot]
-  assets:
-  - asset:
-      id: 12933
-      kind: 3
-      kind_id: 12951
-      type: 1
-      name: Heavy Barrel (U) [f1][T+Rus_Cool-Spot].nes
-      format: 1
-      size: 262160
-      blob_id: 58831
-      debug: Heavy Barrel (U) [f1][T+Rus_Cool-Spot].nes
 - release:
     id: 12953
     game_id: 12942
@@ -247,6 +212,7 @@ releases:
 - release:
     id: 12954
     game_id: 12942
+    release_type: 1
   names:
   - id: 28452
     kind: 3
@@ -260,6 +226,12 @@ releases:
     language: 1
     name: Heavy Barrel (USA)
     source: no-intro
+  - id: 264307
+    kind: 3
+    kind_id: 12954
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 12936
@@ -287,12 +259,14 @@ releases:
 - release:
     id: 30014
     game_id: 12942
+    release_type: 1
   names:
   - id: 70861
     kind: 3
     kind_id: 30014
     language: 2
     name: 重装机枪(日版)
+    deprecated: 1
   - id: 70862
     kind: 3
     kind_id: 30014
@@ -305,6 +279,12 @@ releases:
     language: 1
     name: Heavy Barrel (Japan) (En)
     source: no-intro
+  - id: 266196
+    kind: 3
+    kind_id: 30014
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 29996

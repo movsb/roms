@@ -67,69 +67,6 @@ releases:
       blob_id: 323878
       debug: fc-title-trial:fceumm:rom-asset=10773:frame=180
 - release:
-    id: 11005
-    game_id: 10791
-    release_type: 2
-  names:
-  - id: 82969
-    kind: 3
-    kind_id: 11005
-    language: 1
-    name: Exerion (J) [T+Rus_Cool-Spot]
-  assets:
-  - asset:
-      id: 10987
-      kind: 3
-      kind_id: 11005
-      type: 1
-      name: Exerion (J) [T+Rus_Cool-Spot].nes
-      format: 1
-      size: 24592
-      blob_id: 56990
-      debug: Exerion (J) [T+Rus_Cool-Spot].nes
-- release:
-    id: 11006
-    game_id: 10791
-    release_type: 2
-  names:
-  - id: 82970
-    kind: 3
-    kind_id: 11006
-    language: 1
-    name: Exerion (J) [T+Rus_Cool-Spot][a1]
-  assets:
-  - asset:
-      id: 10988
-      kind: 3
-      kind_id: 11006
-      type: 1
-      name: Exerion (J) [T+Rus_Cool-Spot][a1].nes
-      format: 1
-      size: 24592
-      blob_id: 56991
-      debug: Exerion (J) [T+Rus_Cool-Spot][a1].nes
-- release:
-    id: 11007
-    game_id: 10791
-    release_type: 2
-  names:
-  - id: 82971
-    kind: 3
-    kind_id: 11007
-    language: 1
-    name: Exerion (J) [T+Rus_Guyver]
-  assets:
-  - asset:
-      id: 10989
-      kind: 3
-      kind_id: 11007
-      type: 1
-      name: Exerion (J) [T+Rus_Guyver].nes
-      format: 1
-      size: 24592
-      blob_id: 56992
-      debug: Exerion (J) [T+Rus_Guyver].nes
-- release:
     id: 11015
     game_id: 10791
   names:
@@ -153,6 +90,7 @@ releases:
     id: 11017
     game_id: 10791
     release_date: 19850211
+    release_type: 1
   names:
   - id: 23938
     kind: 3
@@ -171,12 +109,19 @@ releases:
     kind_id: 11017
     language: 2
     name: 凤凰战机
+    deprecated: 1
   - id: 258148
     kind: 3
     kind_id: 11017
     language: 1
     name: Exerion (Japan) (En)
     source: no-intro
+  - id: 264151
+    kind: 3
+    kind_id: 11017
+    language: 2
+    name: 日版
+    source: codex
   release_publishers:
   - release_id: 11017
     publisher_id: 112

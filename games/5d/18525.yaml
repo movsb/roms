@@ -21,6 +21,7 @@ releases:
 - release:
     id: 18525
     game_id: 18525
+    release_type: 1
   names:
   - id: 41296
     kind: 3
@@ -33,12 +34,19 @@ releases:
     kind_id: 18525
     language: 2
     name: 领主之战 (美版) (策略)-Overlord (USA)
+    deprecated: 1
   - id: 258984
     kind: 3
     kind_id: 18525
     language: 1
     name: Overlord (USA)
     source: no-intro
+  - id: 264648
+    kind: 3
+    kind_id: 18525
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 18507
@@ -64,24 +72,3 @@ releases:
       size: 4926
       blob_id: 322818
       debug: fc-title-trial:fceumm:rom-asset=18507:frame=900
-- release:
-    id: 18526
-    game_id: 18525
-    release_type: 2
-  names:
-  - id: 84099
-    kind: 3
-    kind_id: 18526
-    language: 1
-    name: Overlord (U) [T+Rus_Guyver]
-  assets:
-  - asset:
-      id: 18508
-      kind: 3
-      kind_id: 18526
-      type: 1
-      name: Overlord (U) [T+Rus_Guyver].nes
-      format: 1
-      size: 262160
-      blob_id: 64082
-      debug: Overlord (U) [T+Rus_Guyver].nes

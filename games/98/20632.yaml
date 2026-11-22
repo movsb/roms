@@ -36,27 +36,6 @@ names:
   source: codex
 releases:
 - release:
-    id: 15139
-    game_id: 20632
-    release_type: 2
-  names:
-  - id: 83644
-    kind: 3
-    kind_id: 15139
-    language: 1
-    name: "Les Chevaliers du Zodiaque - La Legende d'Or (F) [T+Spa0.50b_Tanero]"
-  assets:
-  - asset:
-      id: 15121
-      kind: 3
-      kind_id: 15139
-      type: 1
-      name: "Les Chevaliers du Zodiaque - La Legende d'Or (F) [T+Spa0.50b_Tanero].nes"
-      format: 1
-      size: 262160
-      blob_id: 60860
-      debug: "Les Chevaliers du Zodiaque - La Legende d'Or (F) [T+Spa0.50b_Tanero].nes"
-- release:
     id: 20630
     game_id: 20632
     release_type: 3
@@ -80,6 +59,7 @@ releases:
 - release:
     id: 20632
     game_id: 20632
+    release_type: 1
   names:
   - id: 45986
     kind: 3
@@ -93,6 +73,12 @@ releases:
     language: 1
     name: "Saint Seiya - Ougon Densetsu (Japan)"
     source: no-intro
+  - id: 264818
+    kind: 3
+    kind_id: 20632
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 20614
@@ -167,18 +153,26 @@ releases:
 - release:
     id: 27477
     game_id: 20632
+    release_type: 1
   names:
   - id: 62354
     kind: 3
     kind_id: 27477
     language: 2
     name: "圣斗士星矢 - 黄金传说 (日版) (动作角色扮演)-Saint Seiya - Ougon Densetsu (Japan)"
+    deprecated: 1
   - id: 260267
     kind: 3
     kind_id: 27477
     language: 1
     name: "Saint Seiya - Ougon Densetsu (Japan)"
     source: no-intro
+  - id: 265423
+    kind: 3
+    kind_id: 27477
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 27459

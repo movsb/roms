@@ -57,27 +57,6 @@ releases:
       blob_id: 59162
       debug: "Honoo no Doukyuuji - Dodge Danpei (J) [T+Eng1.0b_TransGen].nes\nHonoo no Doukyuuji - Dodge Danpei (Japan) (Translated En).zip"
 - release:
-    id: 13301
-    game_id: 13300
-    release_type: 2
-  names:
-  - id: 83304
-    kind: 3
-    kind_id: 13301
-    language: 1
-    name: "Honoo no Doukyuuji - Dodge Danpei (J) [T+Kor20041103_Project-G]"
-  assets:
-  - asset:
-      id: 13283
-      kind: 3
-      kind_id: 13301
-      type: 1
-      name: "Honoo no Doukyuuji - Dodge Danpei (J) [T+Kor20041103_Project-G].nes"
-      format: 1
-      size: 393232
-      blob_id: 59163
-      debug: "Honoo no Doukyuuji - Dodge Danpei (J) [T+Kor20041103_Project-G].nes"
-- release:
     id: 13302
     game_id: 13300
     release_type: 2
@@ -109,12 +88,14 @@ releases:
 - release:
     id: 28939
     game_id: 13300
+    release_type: 1
   names:
   - id: 67251
     kind: 3
     kind_id: 28939
     language: 2
     name: "火焰斗球儿 - 躲避球弹平 (日版) (桌面平台)-Honoo no Doukyuuji - Dodge Danpei (Japan)"
+    deprecated: 1
   - id: 67252
     kind: 3
     kind_id: 28939
@@ -127,6 +108,12 @@ releases:
     language: 1
     name: "Honoo no Toukyuuji - Dodge Danpei (Japan)"
     source: no-intro
+  - id: 265876
+    kind: 3
+    kind_id: 28939
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 28921

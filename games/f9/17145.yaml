@@ -75,27 +75,6 @@ releases:
       blob_id: 62740
       debug: Musashi no Bouken (J) [T+Eng_SPOOKY_KIDS_hack_posse].nes
 - release:
-    id: 17148
-    game_id: 17145
-    release_type: 2
-  names:
-  - id: 83957
-    kind: 3
-    kind_id: 17148
-    language: 1
-    name: Musashi no Bouken (J) [T+Rus1.5_Magicteam]
-  assets:
-  - asset:
-      id: 17130
-      kind: 3
-      kind_id: 17148
-      type: 1
-      name: Musashi no Bouken (J) [T+Rus1.5_Magicteam].nes
-      format: 1
-      size: 262160
-      blob_id: 62741
-      debug: Musashi no Bouken (J) [T+Rus1.5_Magicteam].nes
-- release:
     id: 17153
     game_id: 17145
     release_type: 3
@@ -164,12 +143,14 @@ releases:
 - release:
     id: 28719
     game_id: 17145
+    release_type: 1
   names:
   - id: 66503
     kind: 3
     kind_id: 28719
     language: 2
     name: 武藏冒险 (日版) (角色扮演)-Musashi no Bouken (Japan)
+    deprecated: 1
   - id: 66504
     kind: 3
     kind_id: 28719
@@ -182,6 +163,12 @@ releases:
     language: 1
     name: Musashi no Bouken (Japan)
     source: no-intro
+  - id: 265816
+    kind: 3
+    kind_id: 28719
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 28701

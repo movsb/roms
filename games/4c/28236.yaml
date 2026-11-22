@@ -36,6 +36,7 @@ releases:
 - release:
     id: 19375
     game_id: 28236
+    release_type: 1
   names:
   - id: 43134
     kind: 3
@@ -60,17 +61,25 @@ releases:
     kind_id: 19375
     language: 2
     name: 惩罚者 (美版) (动作射击)-Punisher, The (USA)
+    deprecated: 1
   - id: 64870
     kind: 3
     kind_id: 19375
     language: 2
     name: 惩罚者
+    deprecated: 1
   - id: 259110
     kind: 3
     kind_id: 19375
     language: 1
     name: Punisher, The (USA)
     source: no-intro
+  - id: 264716
+    kind: 3
+    kind_id: 19375
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 19357
@@ -99,48 +108,6 @@ releases:
       size: 1943
       blob_id: 322861
       debug: fc-title-trial:fceumm:rom-asset=19357:frame=1200
-- release:
-    id: 19376
-    game_id: 28236
-    release_type: 2
-  names:
-  - id: 84167
-    kind: 3
-    kind_id: 19376
-    language: 1
-    name: Punisher, The (U) [T+Rus]
-  assets:
-  - asset:
-      id: 19358
-      kind: 3
-      kind_id: 19376
-      type: 1
-      name: Punisher, The (U) [T+Rus].nes
-      format: 1
-      size: 262160
-      blob_id: 64881
-      debug: Punisher, The (U) [T+Rus].nes
-- release:
-    id: 19377
-    game_id: 28236
-    release_type: 2
-  names:
-  - id: 84168
-    kind: 3
-    kind_id: 19377
-    language: 1
-    name: Punisher, The (U) [T+Rus_Magicteam,Djinn]
-  assets:
-  - asset:
-      id: 19359
-      kind: 3
-      kind_id: 19377
-      type: 1
-      name: Punisher, The (U) [T+Rus_Magicteam,Djinn].nes
-      format: 1
-      size: 262160
-      blob_id: 64882
-      debug: Punisher, The (U) [T+Rus_Magicteam,Djinn].nes
 - release:
     id: 19384
     game_id: 28236

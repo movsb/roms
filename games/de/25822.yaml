@@ -50,48 +50,6 @@ releases:
       blob_id: 64728
       debug: PowerJoy 84-in-1 Split Game 81-Warp Man [p1].nes
 - release:
-    id: 25822
-    game_id: 25822
-    release_type: 2
-  names:
-  - id: 84953
-    kind: 3
-    kind_id: 25822
-    language: 1
-    name: Warpman (J) [T+Rus_Cool-Spot]
-  assets:
-  - asset:
-      id: 25804
-      kind: 3
-      kind_id: 25822
-      type: 1
-      name: Warpman (J) [T+Rus_Cool-Spot].nes
-      format: 1
-      size: 24592
-      blob_id: 70991
-      debug: Warpman (J) [T+Rus_Cool-Spot].nes
-- release:
-    id: 25823
-    game_id: 25822
-    release_type: 2
-  names:
-  - id: 84954
-    kind: 3
-    kind_id: 25823
-    language: 1
-    name: Warpman (J) [T+Rus_Cool-Spot][a1]
-  assets:
-  - asset:
-      id: 25805
-      kind: 3
-      kind_id: 25823
-      type: 1
-      name: Warpman (J) [T+Rus_Cool-Spot][a1].nes
-      format: 1
-      size: 24592
-      blob_id: 70992
-      debug: Warpman (J) [T+Rus_Cool-Spot][a1].nes
-- release:
     id: 25828
     game_id: 25822
   names:
@@ -114,6 +72,7 @@ releases:
 - release:
     id: 25830
     game_id: 25822
+    release_type: 1
   names:
   - id: 57754
     kind: 3
@@ -126,6 +85,7 @@ releases:
     kind_id: 25830
     language: 2
     name: 太空守护者 (日版) (动作射击)-Warpman (Japan)
+    deprecated: 1
   - id: 63086
     kind: 3
     kind_id: 25830
@@ -138,6 +98,12 @@ releases:
     language: 1
     name: Warpman (Japan) (En)
     source: no-intro
+  - id: 265103
+    kind: 3
+    kind_id: 25830
+    language: 2
+    name: 日版
+    source: codex
   release_publishers:
   - release_id: 25830
     publisher_id: 4

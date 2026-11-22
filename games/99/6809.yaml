@@ -38,6 +38,7 @@ releases:
 - release:
     id: 6809
     game_id: 6809
+    release_type: 1
   names:
   - id: 14216
     kind: 3
@@ -62,12 +63,19 @@ releases:
     kind_id: 6809
     language: 2
     name: 忍者蛙
+    deprecated: 1
   - id: 257752
     kind: 3
     kind_id: 6809
     language: 1
     name: Battletoads (USA)
     source: no-intro
+  - id: 263911
+    kind: 3
+    kind_id: 6809
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 6791
@@ -118,27 +126,6 @@ releases:
       size: 262160
       blob_id: 53049
       debug: Battletoads (J) [t2].nes
-- release:
-    id: 6834
-    game_id: 6809
-    release_type: 2
-  names:
-  - id: 82325
-    kind: 3
-    kind_id: 6834
-    language: 1
-    name: Battletoads (U) [T+Rus_magic team]
-  assets:
-  - asset:
-      id: 6816
-      kind: 3
-      kind_id: 6834
-      type: 1
-      name: Battletoads (U) [T+Rus_magic team].nes
-      format: 1
-      size: 262160
-      blob_id: 53050
-      debug: Battletoads (U) [T+Rus_magic team].nes
 - release:
     id: 6838
     game_id: 6809
@@ -201,27 +188,6 @@ releases:
       blob_id: 53056
       debug: Battletoads (U) [t1].nes
 - release:
-    id: 6841
-    game_id: 6809
-    release_type: 2
-  names:
-  - id: 82326
-    kind: 3
-    kind_id: 6841
-    language: 1
-    name: Battletoads (U) [t1][T+Rus1.2_Magicteam,Djinn]
-  assets:
-  - asset:
-      id: 6823
-      kind: 3
-      kind_id: 6841
-      type: 1
-      name: Battletoads (U) [t1][T+Rus1.2_Magicteam,Djinn].nes
-      format: 1
-      size: 262160
-      blob_id: 53057
-      debug: Battletoads (U) [t1][T+Rus1.2_Magicteam,Djinn].nes
-- release:
     id: 28112
     game_id: 6809
   names:
@@ -244,12 +210,14 @@ releases:
 - release:
     id: 28278
     game_id: 6809
+    release_type: 1
   names:
   - id: 64989
     kind: 3
     kind_id: 28278
     language: 2
     name: 战斗蛙 (日版) (动作)-Battletoads (Japan)
+    deprecated: 1
   - id: 64990
     kind: 3
     kind_id: 28278
@@ -262,6 +230,12 @@ releases:
     language: 1
     name: Battletoads (Japan)
     source: no-intro
+  - id: 265653
+    kind: 3
+    kind_id: 28278
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 28260
@@ -289,12 +263,14 @@ releases:
 - release:
     id: 28279
     game_id: 6809
+    release_type: 1
   names:
   - id: 64993
     kind: 3
     kind_id: 28279
     language: 2
     name: 战斗蛙 (欧版) (动作)-Battletoads (Europe)
+    deprecated: 1
   - id: 64994
     kind: 3
     kind_id: 28279
@@ -307,6 +283,12 @@ releases:
     language: 1
     name: Battletoads (Europe)
     source: no-intro
+  - id: 265654
+    kind: 3
+    kind_id: 28279
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 28261

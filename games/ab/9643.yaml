@@ -21,6 +21,7 @@ releases:
 - release:
     id: 9643
     game_id: 9643
+    release_type: 1
   names:
   - id: 20654
     kind: 3
@@ -39,12 +40,19 @@ releases:
     kind_id: 9643
     language: 2
     name: 沙漠之狐 (美版) (策略)-Desert Commander (USA)
+    deprecated: 1
   - id: 258004
     kind: 3
     kind_id: 9643
     language: 1
     name: Desert Commander (USA)
     source: no-intro
+  - id: 264061
+    kind: 3
+    kind_id: 9643
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 9625
@@ -71,24 +79,3 @@ releases:
       size: 10602
       blob_id: 322460
       debug: fc-title-trial:fceumm:rom-asset=9625:frame=1800
-- release:
-    id: 9644
-    game_id: 9643
-    release_type: 2
-  names:
-  - id: 82707
-    kind: 3
-    kind_id: 9644
-    language: 1
-    name: Desert Commander (U) [T+Rus_Guyver]
-  assets:
-  - asset:
-      id: 9626
-      kind: 3
-      kind_id: 9644
-      type: 1
-      name: Desert Commander (U) [T+Rus_Guyver].nes
-      format: 1
-      size: 262160
-      blob_id: 55712
-      debug: Desert Commander (U) [T+Rus_Guyver].nes

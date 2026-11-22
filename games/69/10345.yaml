@@ -22,6 +22,7 @@ releases:
 - release:
     id: 10345
     game_id: 10345
+    release_type: 1
   names:
   - id: 22358
     kind: 3
@@ -35,6 +36,12 @@ releases:
     language: 1
     name: "Dragon Ball Z - Kyoushuu! Saiya Jin (Japan)"
     source: no-intro
+  - id: 264110
+    kind: 3
+    kind_id: 10345
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 10327
@@ -126,90 +133,6 @@ releases:
       blob_id: 56372
       debug: "Dragon Ball Z - Kyoushuu! Saiya Jin (J) [T+Eng1.1].nes\nDragon Ball Z - Kyoushuu! Saiya Jin (J) [T+Eng1.1].zip"
 - release:
-    id: 10350
-    game_id: 10345
-    release_type: 2
-  names:
-  - id: 82858
-    kind: 3
-    kind_id: 10350
-    language: 1
-    name: "Dragon Ball Z - Kyoushuu! Saiya Jin (J) [T+Kor20060719_88ktt]"
-  assets:
-  - asset:
-      id: 10332
-      kind: 3
-      kind_id: 10350
-      type: 1
-      name: "Dragon Ball Z - Kyoushuu! Saiya Jin (J) [T+Kor20060719_88ktt].nes"
-      format: 1
-      size: 524304
-      blob_id: 56373
-      debug: "Dragon Ball Z - Kyoushuu! Saiya Jin (J) [T+Kor20060719_88ktt].nes"
-- release:
-    id: 10351
-    game_id: 10345
-    release_type: 2
-  names:
-  - id: 82859
-    kind: 3
-    kind_id: 10351
-    language: 1
-    name: "Dragon Ball Z - Kyoushuu! Saiya Jin (J) [T+Por100%_RaphFS]"
-  assets:
-  - asset:
-      id: 10333
-      kind: 3
-      kind_id: 10351
-      type: 1
-      name: "Dragon Ball Z - Kyoushuu! Saiya Jin (J) [T+Por100%_RaphFS].nes"
-      format: 1
-      size: 524304
-      blob_id: 56374
-      debug: "Dragon Ball Z - Kyoushuu! Saiya Jin (J) [T+Por100%_RaphFS].nes"
-- release:
-    id: 10352
-    game_id: 10345
-    release_type: 2
-  names:
-  - id: 82860
-    kind: 3
-    kind_id: 10352
-    language: 1
-    name: "Dragon Ball Z - Kyoushuu! Saiya Jin (J) [T+Por45%_Tradu-Roms]"
-  assets:
-  - asset:
-      id: 10334
-      kind: 3
-      kind_id: 10352
-      type: 1
-      name: "Dragon Ball Z - Kyoushuu! Saiya Jin (J) [T+Por45%_Tradu-Roms].nes"
-      format: 1
-      size: 524304
-      blob_id: 56375
-      debug: "Dragon Ball Z - Kyoushuu! Saiya Jin (J) [T+Por45%_Tradu-Roms].nes"
-- release:
-    id: 10353
-    game_id: 10345
-    release_type: 2
-  names:
-  - id: 82861
-    kind: 3
-    kind_id: 10353
-    language: 1
-    name: "Dragon Ball Z - Kyoushuu! Saiya Jin (J) [T+Spa_PaladinKnights]"
-  assets:
-  - asset:
-      id: 10335
-      kind: 3
-      kind_id: 10353
-      type: 1
-      name: "Dragon Ball Z - Kyoushuu! Saiya Jin (J) [T+Spa_PaladinKnights].nes"
-      format: 1
-      size: 524304
-      blob_id: 56376
-      debug: "Dragon Ball Z - Kyoushuu! Saiya Jin (J) [T+Spa_PaladinKnights].nes"
-- release:
     id: 10354
     game_id: 10345
     release_type: 2
@@ -294,48 +217,6 @@ releases:
       blob_id: 56380
       debug: "Dragon Ball Z - Kyoushuu! Saiya Jin (J) [T-Eng].nes"
 - release:
-    id: 10358
-    game_id: 10345
-    release_type: 2
-  names:
-  - id: 22400
-    kind: 3
-    kind_id: 10358
-    language: 1
-    name: "Dragon Ball Z - Kyoushuu! Saiya Jin (J) [T-Kor_88ktt]"
-  assets:
-  - asset:
-      id: 10340
-      kind: 3
-      kind_id: 10358
-      type: 1
-      name: "Dragon Ball Z - Kyoushuu! Saiya Jin (J) [T-Kor_88ktt].nes"
-      format: 1
-      size: 524304
-      blob_id: 56381
-      debug: "Dragon Ball Z - Kyoushuu! Saiya Jin (J) [T-Kor_88ktt].nes"
-- release:
-    id: 10359
-    game_id: 10345
-    release_type: 2
-  names:
-  - id: 22402
-    kind: 3
-    kind_id: 10359
-    language: 1
-    name: "Dragon Ball Z - Kyoushuu! Saiya Jin (J) [T-Spa]"
-  assets:
-  - asset:
-      id: 10341
-      kind: 3
-      kind_id: 10359
-      type: 1
-      name: "Dragon Ball Z - Kyoushuu! Saiya Jin (J) [T-Spa].nes"
-      format: 1
-      size: 524304
-      blob_id: 56382
-      debug: "Dragon Ball Z - Kyoushuu! Saiya Jin (J) [T-Spa].nes"
-- release:
     id: 10364
     game_id: 10345
   names:
@@ -355,27 +236,6 @@ releases:
       size: 524304
       blob_id: 56387
       debug: "Dragon Ball Z - Kyoushuu! Saiya Jin (J) [p1].nes"
-- release:
-    id: 10365
-    game_id: 10345
-    release_type: 2
-  names:
-  - id: 82862
-    kind: 3
-    kind_id: 10365
-    language: 1
-    name: "Dragon Ball Z - Kyoushuu! Saiya Jin (J) [p1][T+Por100]"
-  assets:
-  - asset:
-      id: 10347
-      kind: 3
-      kind_id: 10365
-      type: 1
-      name: "Dragon Ball Z - Kyoushuu! Saiya Jin (J) [p1][T+Por100].nes"
-      format: 1
-      size: 524304
-      blob_id: 56388
-      debug: "Dragon Ball Z - Kyoushuu! Saiya Jin (J) [p1][T+Por100].nes"
 - release:
     id: 10366
     game_id: 10345

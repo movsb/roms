@@ -148,27 +148,6 @@ releases:
       blob_id: 60088
       debug: "Kaiketsu Yanchamaru 3 - Taiketsu! Zouringen (J) [hM19][T+Eng1.00_Suicidal].nes"
 - release:
-    id: 14311
-    game_id: 14286
-    release_type: 2
-  names:
-  - id: 83484
-    kind: 3
-    kind_id: 14311
-    language: 1
-    name: "Kaiketsu Yanchamaru 3 - Taiketsu! Zouringen (J) [hM19][T+Por1.0_E2P Traducoes]"
-  assets:
-  - asset:
-      id: 14293
-      kind: 3
-      kind_id: 14311
-      type: 1
-      name: "Kaiketsu Yanchamaru 3 - Taiketsu! Zouringen (J) [hM19][T+Por1.0_E2P Traducoes].nes"
-      format: 1
-      size: 262160
-      blob_id: 60089
-      debug: "Kaiketsu Yanchamaru 3 - Taiketsu! Zouringen (J) [hM19][T+Por1.0_E2P Traducoes].nes"
-- release:
     id: 14312
     game_id: 14286
   names:
@@ -232,6 +211,7 @@ releases:
 - release:
     id: 14316
     game_id: 14286
+    release_type: 1
   names:
   - id: 31628
     kind: 3
@@ -244,12 +224,19 @@ releases:
     kind_id: 14316
     language: 2
     name: 快杰洋枪3
+    deprecated: 1
   - id: 258541
     kind: 3
     kind_id: 14316
     language: 1
     name: "Kaiketsu Yanchamaru 3 - Taiketsu! Zouringen (Japan)"
     source: no-intro
+  - id: 264406
+    kind: 3
+    kind_id: 14316
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 14298

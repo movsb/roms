@@ -21,6 +21,7 @@ releases:
 - release:
     id: 19778
     game_id: 19778
+    release_type: 1
   names:
   - id: 44036
     kind: 3
@@ -39,12 +40,19 @@ releases:
     kind_id: 19778
     language: 2
     name: 疯狂大毁灭 (美版) (动作)-Rampage (USA)
+    deprecated: 1
   - id: 259160
     kind: 3
     kind_id: 19778
     language: 1
     name: Rampage (USA)
     source: no-intro
+  - id: 264746
+    kind: 3
+    kind_id: 19778
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 19760
@@ -71,24 +79,3 @@ releases:
       size: 5271
       blob_id: 322884
       debug: fc-title-trial:fceumm:rom-asset=19760:frame=180
-- release:
-    id: 19779
-    game_id: 19778
-    release_type: 2
-  names:
-  - id: 84204
-    kind: 3
-    kind_id: 19779
-    language: 1
-    name: Rampage (U) [T+Swe1.01_General CoolNES]
-  assets:
-  - asset:
-      id: 19761
-      kind: 3
-      kind_id: 19779
-      type: 1
-      name: Rampage (U) [T+Swe1.01_General CoolNES].nes
-      format: 1
-      size: 196624
-      blob_id: 65252
-      debug: Rampage (U) [T+Swe1.01_General CoolNES].nes

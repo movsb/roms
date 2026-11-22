@@ -53,6 +53,7 @@ releases:
     id: 15679
     game_id: 15679
     release_date: 19841114
+    release_type: 1
   names:
   - id: 34806
     kind: 3
@@ -71,17 +72,25 @@ releases:
     kind_id: 15679
     language: 2
     name: 猫抓老鼠1
+    deprecated: 1
   - id: 67837
     kind: 3
     kind_id: 15679
     language: 2
     name: 猫鼠大战 (日版) (动作)-Mappy (Japan)
+    deprecated: 1
   - id: 258721
     kind: 3
     kind_id: 15679
     language: 1
     name: Mappy (Japan) (En)
     source: no-intro
+  - id: 264513
+    kind: 3
+    kind_id: 15679
+    language: 2
+    name: 日版
+    source: codex
   release_publishers:
   - release_id: 15679
     publisher_id: 4
@@ -176,69 +185,6 @@ releases:
       blob_id: 61364
       debug: Mappy (J) [T+Chi_Jiuban].nes
 - release:
-    id: 15683
-    game_id: 15679
-    release_type: 2
-  names:
-  - id: 83713
-    kind: 3
-    kind_id: 15683
-    language: 1
-    name: Mappy (J) [T+Rus]
-  assets:
-  - asset:
-      id: 15665
-      kind: 3
-      kind_id: 15683
-      type: 1
-      name: Mappy (J) [T+Rus].nes
-      format: 1
-      size: 24592
-      blob_id: 61365
-      debug: Mappy (J) [T+Rus].nes
-- release:
-    id: 15684
-    game_id: 15679
-    release_type: 2
-  names:
-  - id: 83714
-    kind: 3
-    kind_id: 15684
-    language: 1
-    name: Mappy (J) [T+Rus_Cool-Spot]
-  assets:
-  - asset:
-      id: 15666
-      kind: 3
-      kind_id: 15684
-      type: 1
-      name: Mappy (J) [T+Rus_Cool-Spot].nes
-      format: 1
-      size: 24592
-      blob_id: 61366
-      debug: Mappy (J) [T+Rus_Cool-Spot].nes
-- release:
-    id: 15685
-    game_id: 15679
-    release_type: 2
-  names:
-  - id: 83715
-    kind: 3
-    kind_id: 15685
-    language: 1
-    name: Mappy (J) [T+Rus_Cool-Spot][a1]
-  assets:
-  - asset:
-      id: 15667
-      kind: 3
-      kind_id: 15685
-      type: 1
-      name: Mappy (J) [T+Rus_Cool-Spot][a1].nes
-      format: 1
-      size: 24592
-      blob_id: 61367
-      debug: Mappy (J) [T+Rus_Cool-Spot][a1].nes
-- release:
     id: 15690
     game_id: 15679
   names:
@@ -329,48 +275,6 @@ releases:
       size: 24592
       blob_id: 61376
       debug: Mappy (J) [t1].nes
-- release:
-    id: 15695
-    game_id: 15679
-    release_type: 2
-  names:
-  - id: 83717
-    kind: 3
-    kind_id: 15695
-    language: 1
-    name: Mappy (J) [t1][T+Rus]
-  assets:
-  - asset:
-      id: 15677
-      kind: 3
-      kind_id: 15695
-      type: 1
-      name: Mappy (J) [t1][T+Rus].nes
-      format: 1
-      size: 24592
-      blob_id: 61377
-      debug: Mappy (J) [t1][T+Rus].nes
-- release:
-    id: 15696
-    game_id: 15679
-    release_type: 2
-  names:
-  - id: 83718
-    kind: 3
-    kind_id: 15696
-    language: 1
-    name: Mappy (J) [t1][T+Rus_Cool-Spot]
-  assets:
-  - asset:
-      id: 15678
-      kind: 3
-      kind_id: 15696
-      type: 1
-      name: Mappy (J) [t1][T+Rus_Cool-Spot].nes
-      format: 1
-      size: 24592
-      blob_id: 61378
-      debug: Mappy (J) [t1][T+Rus_Cool-Spot].nes
 - release:
     id: 15697
     game_id: 15679

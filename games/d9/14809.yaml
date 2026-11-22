@@ -21,6 +21,7 @@ releases:
 - release:
     id: 14809
     game_id: 14809
+    release_type: 1
   names:
   - id: 32806
     kind: 3
@@ -33,12 +34,19 @@ releases:
     kind_id: 14809
     language: 2
     name: 超级中国人 (美版) (动作)-Kung-Fu Heroes (USA)
+    deprecated: 1
   - id: 258603
     kind: 3
     kind_id: 14809
     language: 1
     name: Kung-Fu Heroes (USA)
     source: no-intro
+  - id: 264446
+    kind: 3
+    kind_id: 14809
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 14791
@@ -64,45 +72,3 @@ releases:
       size: 3577
       blob_id: 322689
       debug: fc-title-trial:fceumm:rom-asset=14791:frame=180
-- release:
-    id: 14810
-    game_id: 14809
-    release_type: 2
-  names:
-  - id: 83581
-    kind: 3
-    kind_id: 14810
-    language: 1
-    name: Kung-Fu Heroes (U) [T+Rus_Mario Soft]
-  assets:
-  - asset:
-      id: 14792
-      kind: 3
-      kind_id: 14810
-      type: 1
-      name: Kung-Fu Heroes (U) [T+Rus_Mario Soft].nes
-      format: 1
-      size: 65552
-      blob_id: 60551
-      debug: Kung-Fu Heroes (U) [T+Rus_Mario Soft].nes
-- release:
-    id: 14811
-    game_id: 14809
-    release_type: 2
-  names:
-  - id: 83582
-    kind: 3
-    kind_id: 14811
-    language: 1
-    name: Kung-Fu Heroes (U) [T+Rus_Multisoft]
-  assets:
-  - asset:
-      id: 14793
-      kind: 3
-      kind_id: 14811
-      type: 1
-      name: Kung-Fu Heroes (U) [T+Rus_Multisoft].nes
-      format: 1
-      size: 65552
-      blob_id: 60552
-      debug: Kung-Fu Heroes (U) [T+Rus_Multisoft].nes

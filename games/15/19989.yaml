@@ -42,6 +42,7 @@ releases:
 - release:
     id: 19991
     game_id: 19989
+    release_type: 1
   names:
   - id: 44504
     kind: 3
@@ -55,6 +56,12 @@ releases:
     language: 1
     name: RoboCop (Japan)
     source: no-intro
+  - id: 264764
+    kind: 3
+    kind_id: 19991
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 19973
@@ -82,6 +89,7 @@ releases:
 - release:
     id: 19992
     game_id: 19989
+    release_type: 1
   names:
   - id: 44506
     kind: 3
@@ -100,12 +108,19 @@ releases:
     kind_id: 19992
     language: 2
     name: 机器战警 (美版) (动作)-RoboCop (USA)
+    deprecated: 1
   - id: 259185
     kind: 3
     kind_id: 19992
     language: 1
     name: RoboCop (USA)
     source: no-intro
+  - id: 264765
+    kind: 3
+    kind_id: 19992
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 19974
@@ -133,113 +148,9 @@ releases:
       blob_id: 322896
       debug: fc-title-trial:fceumm:rom-asset=19974:frame=300
 - release:
-    id: 19993
-    game_id: 19989
-    release_type: 2
-  names:
-  - id: 84225
-    kind: 3
-    kind_id: 19993
-    language: 1
-    name: RoboCop (U) [T+Bra100%_BRGames]
-  assets:
-  - asset:
-      id: 19975
-      kind: 3
-      kind_id: 19993
-      type: 1
-      name: RoboCop (U) [T+Bra100%_BRGames].nes
-      format: 1
-      size: 262160
-      blob_id: 65451
-      debug: RoboCop (U) [T+Bra100%_BRGames].nes
-- release:
-    id: 19994
-    game_id: 19989
-    release_type: 2
-  names:
-  - id: 84226
-    kind: 3
-    kind_id: 19994
-    language: 1
-    name: RoboCop (U) [T+Fre_terminus]
-  assets:
-  - asset:
-      id: 19976
-      kind: 3
-      kind_id: 19994
-      type: 1
-      name: RoboCop (U) [T+Fre_terminus].nes
-      format: 1
-      size: 262160
-      blob_id: 65452
-      debug: RoboCop (U) [T+Fre_terminus].nes
-- release:
-    id: 19995
-    game_id: 19989
-    release_type: 2
-  names:
-  - id: 84227
-    kind: 3
-    kind_id: 19995
-    language: 1
-    name: RoboCop (U) [T+Ita1.0_Psyco]
-  assets:
-  - asset:
-      id: 19977
-      kind: 3
-      kind_id: 19995
-      type: 1
-      name: RoboCop (U) [T+Ita1.0_Psyco].nes
-      format: 1
-      size: 262160
-      blob_id: 65453
-      debug: RoboCop (U) [T+Ita1.0_Psyco].nes
-- release:
-    id: 19996
-    game_id: 19989
-    release_type: 2
-  names:
-  - id: 84228
-    kind: 3
-    kind_id: 19996
-    language: 1
-    name: RoboCop (U) [T+Rus_Alex Kopylov]
-  assets:
-  - asset:
-      id: 19978
-      kind: 3
-      kind_id: 19996
-      type: 1
-      name: RoboCop (U) [T+Rus_Alex Kopylov].nes
-      format: 1
-      size: 262160
-      blob_id: 65454
-      debug: RoboCop (U) [T+Rus_Alex Kopylov].nes
-- release:
-    id: 19997
-    game_id: 19989
-    release_type: 2
-  names:
-  - id: 84229
-    kind: 3
-    kind_id: 19997
-    language: 1
-    name: RoboCop (U) [T+Spa99%_Emu4ever]
-  assets:
-  - asset:
-      id: 19979
-      kind: 3
-      kind_id: 19997
-      type: 1
-      name: RoboCop (U) [T+Spa99%_Emu4ever].nes
-      format: 1
-      size: 262160
-      blob_id: 65455
-      debug: RoboCop (U) [T+Spa99%_Emu4ever].nes
-- release:
     id: 20045
     game_id: 19989
+    release_type: 1
   names:
   - id: 44636
     kind: 3
@@ -253,6 +164,12 @@ releases:
     language: 1
     name: RoboCop (USA)
     source: no-intro
+  - id: 264769
+    kind: 3
+    kind_id: 20045
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 20027
@@ -280,12 +197,14 @@ releases:
 - release:
     id: 28595
     game_id: 19989
+    release_type: 1
   names:
   - id: 66089
     kind: 3
     kind_id: 28595
     language: 2
     name: 机器战警 (欧版) (动作)-RoboCop (Europe)
+    deprecated: 1
   - id: 66090
     kind: 3
     kind_id: 28595
@@ -298,6 +217,12 @@ releases:
     language: 1
     name: RoboCop (Europe)
     source: no-intro
+  - id: 265776
+    kind: 3
+    kind_id: 28595
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 28577

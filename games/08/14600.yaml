@@ -132,6 +132,7 @@ releases:
 - release:
     id: 14607
     game_id: 14600
+    release_type: 1
   names:
   - id: 32346
     kind: 3
@@ -150,17 +151,25 @@ releases:
     kind_id: 14607
     language: 2
     name: 国王骑士 (美版) (动作射击)-Kings Knight (USA)
+    deprecated: 1
   - id: 62322
     kind: 3
     kind_id: 14607
     language: 2
     name: 国王骑士
+    deprecated: 1
   - id: 258578
     kind: 3
     kind_id: 14607
     language: 1
     name: King's Knight (USA)
     source: no-intro
+  - id: 264429
+    kind: 3
+    kind_id: 14607
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 14589
@@ -189,90 +198,6 @@ releases:
       blob_id: 322679
       debug: fc-title-trial:fceumm:rom-asset=14589:frame=180
 - release:
-    id: 14608
-    game_id: 14600
-    release_type: 2
-  names:
-  - id: 83553
-    kind: 3
-    kind_id: 14608
-    language: 1
-    name: King's Knight (U) [T+Fre]
-  assets:
-  - asset:
-      id: 14590
-      kind: 3
-      kind_id: 14608
-      type: 1
-      name: King's Knight (U) [T+Fre].nes
-      format: 1
-      size: 65552
-      blob_id: 60363
-      debug: King's Knight (U) [T+Fre].nes
-- release:
-    id: 14609
-    game_id: 14600
-    release_type: 2
-  names:
-  - id: 83554
-    kind: 3
-    kind_id: 14609
-    language: 1
-    name: King's Knight (U) [T+Fre][a1]
-  assets:
-  - asset:
-      id: 14591
-      kind: 3
-      kind_id: 14609
-      type: 1
-      name: King's Knight (U) [T+Fre][a1].nes
-      format: 1
-      size: 65552
-      blob_id: 60364
-      debug: King's Knight (U) [T+Fre][a1].nes
-- release:
-    id: 14610
-    game_id: 14600
-    release_type: 2
-  names:
-  - id: 83555
-    kind: 3
-    kind_id: 14610
-    language: 1
-    name: King's Knight (U) [T+Fre][a2]
-  assets:
-  - asset:
-      id: 14592
-      kind: 3
-      kind_id: 14610
-      type: 1
-      name: King's Knight (U) [T+Fre][a2].nes
-      format: 1
-      size: 65552
-      blob_id: 60365
-      debug: King's Knight (U) [T+Fre][a2].nes
-- release:
-    id: 14611
-    game_id: 14600
-    release_type: 2
-  names:
-  - id: 83556
-    kind: 3
-    kind_id: 14611
-    language: 1
-    name: King's Knight (U) [T+Ita1.0_ZombiKiller]
-  assets:
-  - asset:
-      id: 14593
-      kind: 3
-      kind_id: 14611
-      type: 1
-      name: King's Knight (U) [T+Ita1.0_ZombiKiller].nes
-      format: 1
-      size: 65552
-      blob_id: 60366
-      debug: King's Knight (U) [T+Ita1.0_ZombiKiller].nes
-- release:
     id: 14615
     game_id: 14600
     release_type: 3
@@ -296,12 +221,14 @@ releases:
 - release:
     id: 27466
     game_id: 14600
+    release_type: 1
   names:
   - id: 62315
     kind: 3
     kind_id: 27466
     language: 2
     name: 国王骑士 (日版) (动作射击)-Kings Knight (Japan)
+    deprecated: 1
   - id: 62316
     kind: 3
     kind_id: 27466
@@ -314,6 +241,12 @@ releases:
     language: 1
     name: King's Knight (Japan)
     source: no-intro
+  - id: 265421
+    kind: 3
+    kind_id: 27466
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 27448

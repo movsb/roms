@@ -21,6 +21,7 @@ releases:
 - release:
     id: 9003
     game_id: 9003
+    release_type: 1
   names:
   - id: 19138
     kind: 3
@@ -39,12 +40,19 @@ releases:
     kind_id: 9003
     language: 2
     name: 魔天童子 (美版) (动作)-Conquest of the Crystal Palace (USA)
+    deprecated: 1
   - id: 257931
     kind: 3
     kind_id: 9003
     language: 1
     name: Conquest of the Crystal Palace (USA)
     source: no-intro
+  - id: 264018
+    kind: 3
+    kind_id: 9003
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 8985
@@ -71,45 +79,3 @@ releases:
       size: 6574
       blob_id: 322436
       debug: fc-title-trial:fceumm:rom-asset=8985:frame=180
-- release:
-    id: 9004
-    game_id: 9003
-    release_type: 2
-  names:
-  - id: 82590
-    kind: 3
-    kind_id: 9004
-    language: 1
-    name: Conquest of the Crystal Palace (U) [T+Fre1.0_Generation IX]
-  assets:
-  - asset:
-      id: 8986
-      kind: 3
-      kind_id: 9004
-      type: 1
-      name: Conquest of the Crystal Palace (U) [T+Fre1.0_Generation IX].nes
-      format: 1
-      size: 262160
-      blob_id: 55112
-      debug: Conquest of the Crystal Palace (U) [T+Fre1.0_Generation IX].nes
-- release:
-    id: 9006
-    game_id: 9003
-    release_type: 2
-  names:
-  - id: 82592
-    kind: 3
-    kind_id: 9006
-    language: 1
-    name: Conquest of the Crystal Palace (U) [T+Rus_Ufen]
-  assets:
-  - asset:
-      id: 8988
-      kind: 3
-      kind_id: 9006
-      type: 1
-      name: Conquest of the Crystal Palace (U) [T+Rus_Ufen].nes
-      format: 1
-      size: 262160
-      blob_id: 55114
-      debug: Conquest of the Crystal Palace (U) [T+Rus_Ufen].nes

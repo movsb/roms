@@ -26,6 +26,7 @@ releases:
 - release:
     id: 13836
     game_id: 13836
+    release_type: 1
   names:
   - id: 30472
     kind: 3
@@ -50,12 +51,19 @@ releases:
     kind_id: 13836
     language: 2
     name: 侏罗纪公园
+    deprecated: 1
   - id: 258486
     kind: 3
     kind_id: 13836
     language: 1
     name: Jurassic Park (USA)
     source: no-intro
+  - id: 264369
+    kind: 3
+    kind_id: 13836
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 13818
@@ -88,6 +96,7 @@ releases:
 - release:
     id: 14167
     game_id: 13836
+    release_type: 1
   names:
   - id: 31236
     kind: 3
@@ -101,6 +110,12 @@ releases:
     language: 1
     name: Jurassic Park (Europe) (En,Fr,De,Es)
     source: no-intro
+  - id: 264399
+    kind: 3
+    kind_id: 14167
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 14149
@@ -125,90 +140,6 @@ releases:
       size: 4882
       blob_id: 322661
       debug: fc-title-trial:fceumm:rom-asset=14149:frame=600:region=PAL
-- release:
-    id: 14169
-    game_id: 13836
-    release_type: 2
-  names:
-  - id: 83438
-    kind: 3
-    kind_id: 14169
-    language: 1
-    name: Jurassic Park (U) [T+Ita1.0_Psyco]
-  assets:
-  - asset:
-      id: 14151
-      kind: 3
-      kind_id: 14169
-      type: 1
-      name: Jurassic Park (U) [T+Ita1.0_Psyco].nes
-      format: 1
-      size: 262160
-      blob_id: 59960
-      debug: Jurassic Park (U) [T+Ita1.0_Psyco].nes
-- release:
-    id: 14170
-    game_id: 13836
-    release_type: 2
-  names:
-  - id: 83439
-    kind: 3
-    kind_id: 14170
-    language: 1
-    name: Jurassic Park (U) [T+Rus_CaH4e3]
-  assets:
-  - asset:
-      id: 14152
-      kind: 3
-      kind_id: 14170
-      type: 1
-      name: Jurassic Park (U) [T+Rus_CaH4e3].nes
-      format: 1
-      size: 262160
-      blob_id: 59961
-      debug: Jurassic Park (U) [T+Rus_CaH4e3].nes
-- release:
-    id: 14171
-    game_id: 13836
-    release_type: 2
-  names:
-  - id: 83440
-    kind: 3
-    kind_id: 14171
-    language: 1
-    name: Jurassic Park (U) [T+Spa100_PaladinKnights]
-  assets:
-  - asset:
-      id: 14153
-      kind: 3
-      kind_id: 14171
-      type: 1
-      name: Jurassic Park (U) [T+Spa100_PaladinKnights].nes
-      format: 1
-      size: 262160
-      blob_id: 59962
-      debug: Jurassic Park (U) [T+Spa100_PaladinKnights].nes
-- release:
-    id: 14172
-    game_id: 13836
-    release_type: 2
-  names:
-  - id: 83441
-    kind: 3
-    kind_id: 14172
-    language: 1
-    name: Jurassic Park (U) [T+Spa99%_spctrmxd]
-  assets:
-  - asset:
-      id: 14154
-      kind: 3
-      kind_id: 14172
-      type: 1
-      name: Jurassic Park (U) [T+Spa99%_spctrmxd].nes
-      format: 1
-      size: 262160
-      blob_id: 59963
-      debug: Jurassic Park (U) [T+Spa99%_spctrmxd].nes
 - release:
     id: 14175
     game_id: 13836
@@ -303,18 +234,26 @@ releases:
 - release:
     id: 26933
     game_id: 13836
+    release_type: 1
   names:
   - id: 60606
     kind: 3
     kind_id: 26933
     language: 2
     name: 侏儸纪公园 (欧版) (动作)-Jurassic Park (Europe)
+    deprecated: 1
   - id: 260057
     kind: 3
     kind_id: 26933
     language: 1
     name: Jurassic Park (Europe) (En,Fr,De,Es)
     source: no-intro
+  - id: 265267
+    kind: 3
+    kind_id: 26933
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 26915

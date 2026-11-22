@@ -84,27 +84,6 @@ releases:
       blob_id: 59185
       debug: "Hoshi no Kirby - Yume no Izumi no Monogatari (J) [T+Chi][a1].nes"
 - release:
-    id: 13329
-    game_id: 13328
-    release_type: 2
-  names:
-  - id: 83308
-    kind: 3
-    kind_id: 13329
-    language: 1
-    name: "Hoshi no Kirby - Yume no Izumi no Monogatari (J) [T+Kor]"
-  assets:
-  - asset:
-      id: 13311
-      kind: 3
-      kind_id: 13329
-      type: 1
-      name: "Hoshi no Kirby - Yume no Izumi no Monogatari (J) [T+Kor].nes"
-      format: 1
-      size: 786448
-      blob_id: 59186
-      debug: "Hoshi no Kirby - Yume no Izumi no Monogatari (J) [T+Kor].nes"
-- release:
     id: 13330
     game_id: 13328
     release_type: 3
@@ -196,6 +175,7 @@ releases:
 - release:
     id: 14645
     game_id: 13328
+    release_type: 1
   names:
   - id: 32432
     kind: 3
@@ -209,6 +189,12 @@ releases:
     language: 1
     name: Kirby's Adventure (France)
     source: no-intro
+  - id: 264433
+    kind: 3
+    kind_id: 14645
+    language: 2
+    name: 法版
+    source: codex
   assets:
   - asset:
       id: 14627
@@ -236,6 +222,7 @@ releases:
 - release:
     id: 14646
     game_id: 13328
+    release_type: 1
   names:
   - id: 32434
     kind: 3
@@ -249,6 +236,12 @@ releases:
     language: 1
     name: Kirby's Adventure (USA)
     source: no-intro
+  - id: 264434
+    kind: 3
+    kind_id: 14646
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 14628
@@ -274,50 +267,9 @@ releases:
       blob_id: 324925
       debug: libretro-named-titles:rom-asset=14628:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Kirby%27s%20Adventure%20%28USA%29.png
 - release:
-    id: 14647
-    game_id: 13328
-    release_type: 2
-  names:
-  - id: 83558
-    kind: 3
-    kind_id: 14647
-    language: 1
-    name: Kirby's Adventure (U) (PRG0) [T+Rus0.75a_Shedevr]
-  assets:
-  - asset:
-      id: 14629
-      kind: 3
-      kind_id: 14647
-      type: 1
-      name: Kirby's Adventure (U) (PRG0) [T+Rus0.75a_Shedevr].nes
-      format: 1
-      size: 786448
-      blob_id: 60398
-      debug: Kirby's Adventure (U) (PRG0) [T+Rus0.75a_Shedevr].nes
-- release:
-    id: 14648
-    game_id: 13328
-    release_type: 2
-  names:
-  - id: 83559
-    kind: 3
-    kind_id: 14648
-    language: 1
-    name: Kirby's Adventure (U) (PRG0) [T+Spa75%_Tanero]
-  assets:
-  - asset:
-      id: 14630
-      kind: 3
-      kind_id: 14648
-      type: 1
-      name: Kirby's Adventure (U) (PRG0) [T+Spa75%_Tanero].nes
-      format: 1
-      size: 786448
-      blob_id: 60399
-      debug: Kirby's Adventure (U) (PRG0) [T+Spa75%_Tanero].nes
-- release:
     id: 14658
     game_id: 13328
+    release_type: 1
   names:
   - id: 32462
     kind: 3
@@ -330,12 +282,19 @@ releases:
     kind_id: 14658
     language: 2
     name: "星之卡比 - 梦之泉的传说 (美版)(Rev A) (动作)-Kirbys Adventure (USA) (Rev A)"
+    deprecated: 1
   - id: 258584
     kind: 3
     kind_id: 14658
     language: 1
     name: Kirby's Adventure (USA) (Rev 1)
     source: no-intro
+  - id: 264435
+    kind: 3
+    kind_id: 14658
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 14640
@@ -408,12 +367,14 @@ releases:
 - release:
     id: 28467
     game_id: 13328
+    release_type: 1
   names:
   - id: 65627
     kind: 3
     kind_id: 28467
     language: 2
     name: "星之卡比 - 梦之泉的传说 (加拿大版) (动作)-Kirbys Adventure (Canada)"
+    deprecated: 1
   - id: 65628
     kind: 3
     kind_id: 28467
@@ -426,6 +387,12 @@ releases:
     language: 1
     name: Kirby's Adventure (Canada) (Fr)
     source: no-intro
+  - id: 265720
+    kind: 3
+    kind_id: 28467
+    language: 2
+    name: 加拿大版
+    source: codex
   assets:
   - asset:
       id: 28449
@@ -451,12 +418,14 @@ releases:
 - release:
     id: 28468
     game_id: 13328
+    release_type: 1
   names:
   - id: 65631
     kind: 3
     kind_id: 28468
     language: 2
     name: "星之卡比 - 梦之泉的传说 (德版) (动作)-Kirbys Adventure (Germany)"
+    deprecated: 1
   - id: 65632
     kind: 3
     kind_id: 28468
@@ -469,6 +438,12 @@ releases:
     language: 1
     name: Kirby's Adventure (Germany)
     source: no-intro
+  - id: 265721
+    kind: 3
+    kind_id: 28468
+    language: 2
+    name: 德版
+    source: codex
   assets:
   - asset:
       id: 28450
@@ -494,12 +469,14 @@ releases:
 - release:
     id: 28469
     game_id: 13328
+    release_type: 1
   names:
   - id: 65635
     kind: 3
     kind_id: 28469
     language: 2
     name: "星之卡比 - 梦之泉的传说 (日版) (动作)-Hoshi no Kirby - Yume no Izumi no Monogatari (Japan)"
+    deprecated: 1
   - id: 65636
     kind: 3
     kind_id: 28469
@@ -511,12 +488,19 @@ releases:
     kind_id: 28469
     language: 2
     name: 星之卡比 梦之泉物语
+    deprecated: 1
   - id: 260651
     kind: 3
     kind_id: 28469
     language: 1
     name: "Hoshi no Kirby - Yume no Izumi no Monogatari (Japan)"
     source: no-intro
+  - id: 265722
+    kind: 3
+    kind_id: 28469
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 28451
@@ -542,12 +526,14 @@ releases:
 - release:
     id: 28470
     game_id: 13328
+    release_type: 1
   names:
   - id: 65639
     kind: 3
     kind_id: 28470
     language: 2
     name: "星之卡比 - 梦之泉的传说 (欧版) (动作)-Kirbys Adventure (Europe)"
+    deprecated: 1
   - id: 65640
     kind: 3
     kind_id: 28470
@@ -560,6 +546,12 @@ releases:
     language: 1
     name: Kirby's Adventure (Europe)
     source: no-intro
+  - id: 265723
+    kind: 3
+    kind_id: 28470
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 28452
@@ -585,18 +577,26 @@ releases:
 - release:
     id: 28471
     game_id: 13328
+    release_type: 1
   names:
   - id: 65642
     kind: 3
     kind_id: 28471
     language: 2
     name: "星之卡比 - 梦之泉的传说 (法版) (动作)-Kirbys Adventure (France)"
+    deprecated: 1
   - id: 260653
     kind: 3
     kind_id: 28471
     language: 1
     name: Kirby's Adventure (France)
     source: no-intro
+  - id: 265724
+    kind: 3
+    kind_id: 28471
+    language: 2
+    name: 法版
+    source: codex
   assets:
   - asset:
       id: 28453
@@ -622,12 +622,14 @@ releases:
 - release:
     id: 28472
     game_id: 13328
+    release_type: 1
   names:
   - id: 65645
     kind: 3
     kind_id: 28472
     language: 2
     name: "星之卡比 - 梦之泉的传说 (美版) (动作)-Kirbys Adventure (USA)"
+    deprecated: 1
   - id: 65646
     kind: 3
     kind_id: 28472
@@ -640,6 +642,12 @@ releases:
     language: 1
     name: Kirby's Adventure (USA)
     source: no-intro
+  - id: 265725
+    kind: 3
+    kind_id: 28472
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 28454

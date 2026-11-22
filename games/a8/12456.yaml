@@ -37,6 +37,7 @@ releases:
 - release:
     id: 12456
     game_id: 12456
+    release_type: 1
   names:
   - id: 27322
     kind: 3
@@ -49,17 +50,25 @@ releases:
     kind_id: 12456
     language: 2
     name: "哥尔戈 13 - 诸神之黄昏 (美版) (动作)-Golgo 13 - Top Secret Episode (USA)"
+    deprecated: 1
   - id: 71610
     kind: 3
     kind_id: 12456
     language: 2
     name: 骷髅13
+    deprecated: 1
   - id: 258349
     kind: 3
     kind_id: 12456
     language: 1
     name: "Golgo 13 - Top Secret Episode (USA)"
     source: no-intro
+  - id: 264278
+    kind: 3
+    kind_id: 12456
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 12438
@@ -83,50 +92,9 @@ releases:
       blob_id: 322591
       debug: fc-title-trial:fceumm:rom-asset=12438:frame=900:start-frame=600
 - release:
-    id: 12457
-    game_id: 12456
-    release_type: 2
-  names:
-  - id: 83194
-    kind: 3
-    kind_id: 12457
-    language: 1
-    name: "Golgo 13 - Top Secret Episode (U) [T+Rus_Chief-Net]"
-  assets:
-  - asset:
-      id: 12439
-      kind: 3
-      kind_id: 12457
-      type: 1
-      name: "Golgo 13 - Top Secret Episode (U) [T+Rus_Chief-Net].nes"
-      format: 1
-      size: 262160
-      blob_id: 58353
-      debug: "Golgo 13 - Top Secret Episode (U) [T+Rus_Chief-Net].nes"
-- release:
-    id: 12458
-    game_id: 12456
-    release_type: 2
-  names:
-  - id: 83195
-    kind: 3
-    kind_id: 12458
-    language: 1
-    name: "Golgo 13 - Top Secret Episode (U) [T+Spa]"
-  assets:
-  - asset:
-      id: 12440
-      kind: 3
-      kind_id: 12458
-      type: 1
-      name: "Golgo 13 - Top Secret Episode (U) [T+Spa].nes"
-      format: 1
-      size: 262160
-      blob_id: 58354
-      debug: "Golgo 13 - Top Secret Episode (U) [T+Spa].nes"
-- release:
     id: 12464
     game_id: 12456
+    release_type: 1
   names:
   - id: 27342
     kind: 3
@@ -140,6 +108,12 @@ releases:
     language: 1
     name: "Golgo 13 - Top Secret Episode (USA)"
     source: no-intro
+  - id: 264279
+    kind: 3
+    kind_id: 12464
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 12446

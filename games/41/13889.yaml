@@ -25,29 +25,9 @@ names:
   name: Jackie Chan's Action Kung Fu
 releases:
 - release:
-    id: 13889
-    game_id: 13889
-    release_type: 2
-  names:
-  - id: 83399
-    kind: 3
-    kind_id: 13889
-    language: 1
-    name: Jackie Chan's Action Kung Fu (E) [T+Rus_ToledO]
-  assets:
-  - asset:
-      id: 13871
-      kind: 3
-      kind_id: 13889
-      type: 1
-      name: Jackie Chan's Action Kung Fu (E) [T+Rus_ToledO].nes
-      format: 1
-      size: 262160
-      blob_id: 59707
-      debug: Jackie Chan's Action Kung Fu (E) [T+Rus_ToledO].nes
-- release:
     id: 13890
     game_id: 13889
+    release_type: 1
   names:
   - id: 30606
     kind: 3
@@ -66,6 +46,7 @@ releases:
     kind_id: 13890
     language: 2
     name: 成龙 (美版) (动作)-Jackie Chans Action Kung Fu (USA)
+    deprecated: 1
   - id: 64886
     kind: 3
     kind_id: 13890
@@ -78,6 +59,12 @@ releases:
     language: 1
     name: Jackie Chan's Action Kung Fu (USA)
     source: no-intro
+  - id: 264373
+    kind: 3
+    kind_id: 13890
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 13872
@@ -105,35 +92,16 @@ releases:
       blob_id: 324901
       debug: libretro-named-titles:rom-asset=13872:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Jackie%20Chan%27s%20Action%20Kung%20Fu%20%28USA%29.png
 - release:
-    id: 13891
-    game_id: 13889
-    release_type: 2
-  names:
-  - id: 83400
-    kind: 3
-    kind_id: 13891
-    language: 1
-    name: Jackie Chan's Action Kung Fu (U) [T+Fre_ks151]
-  assets:
-  - asset:
-      id: 13873
-      kind: 3
-      kind_id: 13891
-      type: 1
-      name: Jackie Chan's Action Kung Fu (U) [T+Fre_ks151].nes
-      format: 1
-      size: 262160
-      blob_id: 59709
-      debug: Jackie Chan's Action Kung Fu (U) [T+Fre_ks151].nes
-- release:
     id: 28242
     game_id: 13889
+    release_type: 1
   names:
   - id: 64881
     kind: 3
     kind_id: 28242
     language: 2
     name: 成龙 (欧版) (动作)-Jackie Chans Action Kung Fu (Europe)
+    deprecated: 1
   - id: 64882
     kind: 3
     kind_id: 28242
@@ -146,6 +114,12 @@ releases:
     language: 1
     name: Jackie Chan's Action Kung Fu (Europe)
     source: no-intro
+  - id: 265645
+    kind: 3
+    kind_id: 28242
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 28224

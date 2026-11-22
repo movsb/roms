@@ -40,6 +40,7 @@ releases:
 - release:
     id: 16602
     game_id: 16601
+    release_type: 1
   names:
   - id: 36968
     kind: 3
@@ -53,6 +54,12 @@ releases:
     language: 1
     name: Mighty Bomb Jack (Japan) (En) (Rev 1)
     source: no-intro
+  - id: 264552
+    kind: 3
+    kind_id: 16602
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 16584
@@ -211,35 +218,16 @@ releases:
       blob_id: 322765
       debug: fc-title-trial:fceumm:rom-asset=16592:frame=300
 - release:
-    id: 16611
-    game_id: 16601
-    release_type: 2
-  names:
-  - id: 83866
-    kind: 3
-    kind_id: 16611
-    language: 1
-    name: Mighty Bomb Jack (U) [T+Rus0.2_Multisoft]
-  assets:
-  - asset:
-      id: 16593
-      kind: 3
-      kind_id: 16611
-      type: 1
-      name: Mighty Bomb Jack (U) [T+Rus0.2_Multisoft].nes
-      format: 1
-      size: 65552
-      blob_id: 62248
-      debug: Mighty Bomb Jack (U) [T+Rus0.2_Multisoft].nes
-- release:
     id: 28977
     game_id: 16601
+    release_type: 1
   names:
   - id: 67355
     kind: 3
     kind_id: 28977
     language: 2
     name: 炸弹杰克 (日版) (动作)-Mighty Bomb Jack (Japan)
+    deprecated: 1
   - id: 67356
     kind: 3
     kind_id: 28977
@@ -252,6 +240,12 @@ releases:
     language: 1
     name: Mighty Bomb Jack (Japan)
     source: no-intro
+  - id: 265886
+    kind: 3
+    kind_id: 28977
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 28959
@@ -279,12 +273,14 @@ releases:
 - release:
     id: 28978
     game_id: 16601
+    release_type: 1
   names:
   - id: 67359
     kind: 3
     kind_id: 28978
     language: 2
     name: 炸弹杰克 (欧版) (动作)-Mighty Bomb Jack (Europe)
+    deprecated: 1
   - id: 67360
     kind: 3
     kind_id: 28978
@@ -297,6 +293,12 @@ releases:
     language: 1
     name: Mighty Bomb Jack (Europe)
     source: no-intro
+  - id: 265887
+    kind: 3
+    kind_id: 28978
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 28960
@@ -324,12 +326,14 @@ releases:
 - release:
     id: 28979
     game_id: 16601
+    release_type: 1
   names:
   - id: 67363
     kind: 3
     kind_id: 28979
     language: 2
     name: 炸弹杰克 (美版) (动作)-Mighty Bomb Jack (USA)
+    deprecated: 1
   - id: 67364
     kind: 3
     kind_id: 28979
@@ -342,6 +346,12 @@ releases:
     language: 1
     name: Mighty Bomb Jack (USA)
     source: no-intro
+  - id: 265888
+    kind: 3
+    kind_id: 28979
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 28961

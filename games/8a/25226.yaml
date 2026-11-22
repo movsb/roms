@@ -79,6 +79,7 @@ releases:
 - release:
     id: 25227
     game_id: 25226
+    release_type: 1
   names:
   - id: 56376
     kind: 3
@@ -104,6 +105,12 @@ releases:
     language: 1
     name: Twin Eagle (USA)
     source: no-intro
+  - id: 265056
+    kind: 3
+    kind_id: 25227
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 25209
@@ -168,48 +175,6 @@ releases:
       blob_id: 70440
       debug: "Twin Eagle - Revenge Joe's Brother (J) [p1].nes"
 - release:
-    id: 25232
-    game_id: 25226
-    release_type: 2
-  names:
-  - id: 84871
-    kind: 3
-    kind_id: 25232
-    language: 1
-    name: "Twin Eagle - Revenge Joe's Brother (U) [T+Rus_Chief-Net,alex_231]"
-  assets:
-  - asset:
-      id: 25214
-      kind: 3
-      kind_id: 25232
-      type: 1
-      name: "Twin Eagle - Revenge Joe's Brother (U) [T+Rus_Chief-Net,alex_231].nes"
-      format: 1
-      size: 131088
-      blob_id: 70441
-      debug: "Twin Eagle - Revenge Joe's Brother (U) [T+Rus_Chief-Net,alex_231].nes"
-- release:
-    id: 25233
-    game_id: 25226
-    release_type: 2
-  names:
-  - id: 84872
-    kind: 3
-    kind_id: 25233
-    language: 1
-    name: "Twin Eagle - Revenge Joe's Brother (U) [T+Rus_greengh0st]"
-  assets:
-  - asset:
-      id: 25215
-      kind: 3
-      kind_id: 25233
-      type: 1
-      name: "Twin Eagle - Revenge Joe's Brother (U) [T+Rus_greengh0st].nes"
-      format: 1
-      size: 131088
-      blob_id: 70442
-      debug: "Twin Eagle - Revenge Joe's Brother (U) [T+Rus_greengh0st].nes"
-- release:
     id: 25235
     game_id: 25226
   names:
@@ -232,12 +197,14 @@ releases:
 - release:
     id: 27326
     game_id: 25226
+    release_type: 1
   names:
   - id: 61845
     kind: 3
     kind_id: 27326
     language: 2
     name: "双鹰 - 乔之兄弟的复仇 (日版) (射击)-Twin Eagle - Revenge Joes Brother (Japan)"
+    deprecated: 1
   - id: 61846
     kind: 3
     kind_id: 27326
@@ -250,6 +217,12 @@ releases:
     language: 1
     name: Twin Eagle (Japan) (En)
     source: no-intro
+  - id: 265378
+    kind: 3
+    kind_id: 27326
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 27308

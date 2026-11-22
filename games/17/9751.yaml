@@ -61,27 +61,6 @@ releases:
       blob_id: 55810
       debug: Dig Dug II (J) [T+ChS_catcatcat].nes
 - release:
-    id: 9752
-    game_id: 9751
-    release_type: 2
-  names:
-  - id: 82726
-    kind: 3
-    kind_id: 9752
-    language: 1
-    name: Dig Dug II (J) [T+Rus_Cool-Spot]
-  assets:
-  - asset:
-      id: 9734
-      kind: 3
-      kind_id: 9752
-      type: 1
-      name: Dig Dug II (J) [T+Rus_Cool-Spot].nes
-      format: 1
-      size: 40976
-      blob_id: 55811
-      debug: Dig Dug II (J) [T+Rus_Cool-Spot].nes
-- release:
     id: 9757
     game_id: 9751
   names:
@@ -104,6 +83,7 @@ releases:
 - release:
     id: 9758
     game_id: 9751
+    release_type: 1
   names:
   - id: 20926
     kind: 3
@@ -122,17 +102,25 @@ releases:
     kind_id: 9758
     language: 2
     name: 叮当2
+    deprecated: 1
   - id: 65142
     kind: 3
     kind_id: 9758
     language: 2
     name: 打空气2
+    deprecated: 1
   - id: 258018
     kind: 3
     kind_id: 9758
     language: 1
     name: "Dig Dug II - Trouble in Paradise (USA)"
     source: no-intro
+  - id: 264070
+    kind: 3
+    kind_id: 9758
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 9740
@@ -156,35 +144,16 @@ releases:
       blob_id: 322464
       debug: fc-title-trial:fceumm:rom-asset=9740:frame=600
 - release:
-    id: 9760
-    game_id: 9751
-    release_type: 2
-  names:
-  - id: 82727
-    kind: 3
-    kind_id: 9760
-    language: 1
-    name: "Dig Dug II - Trouble in Paradise (U) [T+Rus_Multisoft]"
-  assets:
-  - asset:
-      id: 9742
-      kind: 3
-      kind_id: 9760
-      type: 1
-      name: "Dig Dug II - Trouble in Paradise (U) [T+Rus_Multisoft].nes"
-      format: 1
-      size: 40976
-      blob_id: 55818
-      debug: "Dig Dug II - Trouble in Paradise (U) [T+Rus_Multisoft].nes"
-- release:
     id: 28320
     game_id: 9751
+    release_type: 1
   names:
   - id: 65135
     kind: 3
     kind_id: 28320
     language: 2
     name: 打空气 II (日版) (益智)-Dig Dug II (Japan)
+    deprecated: 1
   - id: 65136
     kind: 3
     kind_id: 28320
@@ -197,6 +166,12 @@ releases:
     language: 1
     name: Dig Dug II (Japan) (En)
     source: no-intro
+  - id: 265668
+    kind: 3
+    kind_id: 28320
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 28302

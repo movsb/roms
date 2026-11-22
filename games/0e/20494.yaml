@@ -33,6 +33,7 @@ releases:
 - release:
     id: 20494
     game_id: 20494
+    release_type: 1
   names:
   - id: 45664
     kind: 3
@@ -46,6 +47,12 @@ releases:
     language: 1
     name: "SD Gundam - Gachapon Senshi 3 - Eiyuu Senki (Japan)"
     source: no-intro
+  - id: 264795
+    kind: 3
+    kind_id: 20494
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 20476
@@ -68,27 +75,6 @@ releases:
       size: 2898
       blob_id: 322918
       debug: fc-title-trial:fceumm:rom-asset=20476:frame=300
-- release:
-    id: 20495
-    game_id: 20494
-    release_type: 2
-  names:
-  - id: 84302
-    kind: 3
-    kind_id: 20495
-    language: 1
-    name: "SD Gundam - Gachapon Senshi 3 - Eiyuu Senki (J) [T+Kor]"
-  assets:
-  - asset:
-      id: 20477
-      kind: 3
-      kind_id: 20495
-      type: 1
-      name: "SD Gundam - Gachapon Senshi 3 - Eiyuu Senki (J) [T+Kor].nes"
-      format: 1
-      size: 262160
-      blob_id: 65936
-      debug: "SD Gundam - Gachapon Senshi 3 - Eiyuu Senki (J) [T+Kor].nes"
 - release:
     id: 20496
     game_id: 20494
@@ -113,18 +99,26 @@ releases:
 - release:
     id: 20531
     game_id: 20494
+    release_type: 1
   names:
   - id: 45768
     kind: 3
     kind_id: 20531
     language: 2
     name: "SD 钢弹 III - 英雄战记 (日版) (策略)-SD Gundam - Gachapon Senshi 3 - Eiyuu Senki (Japan)"
+    deprecated: 1
   - id: 259247
     kind: 3
     kind_id: 20531
     language: 1
     name: "SD Gundam - Gachapon Senshi 3 - Eiyuu Senki (Japan)"
     source: no-intro
+  - id: 264810
+    kind: 3
+    kind_id: 20531
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 20513

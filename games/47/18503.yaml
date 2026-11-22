@@ -102,6 +102,7 @@ releases:
 - release:
     id: 18507
     game_id: 18503
+    release_type: 1
   names:
   - id: 41256
     kind: 3
@@ -120,12 +121,19 @@ releases:
     kind_id: 18507
     language: 2
     name: 欢乐五子棋  (美版) (桌面平台)-Othello (USA)
+    deprecated: 1
   - id: 258982
     kind: 3
     kind_id: 18507
     language: 1
     name: Othello (USA) (HAL Laboratory)
     source: no-intro
+  - id: 264646
+    kind: 3
+    kind_id: 18507
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 18489
@@ -180,27 +188,6 @@ releases:
       debug: |-
         Othello (U) [T+Chi1.0_Jiuban].nes
         黑白棋.zip
-- release:
-    id: 18509
-    game_id: 18503
-    release_type: 2
-  names:
-  - id: 84098
-    kind: 3
-    kind_id: 18509
-    language: 1
-    name: Othello (U) [T+Por100%_Solus]
-  assets:
-  - asset:
-      id: 18491
-      kind: 3
-      kind_id: 18509
-      type: 1
-      name: Othello (U) [T+Por100%_Solus].nes
-      format: 1
-      size: 40976
-      blob_id: 64066
-      debug: Othello (U) [T+Por100%_Solus].nes
 - release:
     id: 19197
     game_id: 18503

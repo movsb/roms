@@ -59,6 +59,7 @@ releases:
 - release:
     id: 20359
     game_id: 20339
+    release_type: 1
   names:
   - id: 45342
     kind: 3
@@ -71,17 +72,25 @@ releases:
     kind_id: 20359
     language: 2
     name: 暴力溜冰
+    deprecated: 1
   - id: 67085
     kind: 3
     kind_id: 20359
     language: 2
     name: 溜冰大进击 (美版) (动作)-Rollergames (USA)
+    deprecated: 1
   - id: 259212
     kind: 3
     kind_id: 20359
     language: 1
     name: Rollergames (USA)
     source: no-intro
+  - id: 264782
+    kind: 3
+    kind_id: 20359
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 20341
@@ -109,35 +118,16 @@ releases:
       blob_id: 322910
       debug: fc-title-trial:fceumm:rom-asset=20341:frame=180
 - release:
-    id: 20360
-    game_id: 20339
-    release_type: 2
-  names:
-  - id: 84276
-    kind: 3
-    kind_id: 20360
-    language: 1
-    name: Rollergames (U) [T+Bra_POBRE]
-  assets:
-  - asset:
-      id: 20342
-      kind: 3
-      kind_id: 20360
-      type: 1
-      name: Rollergames (U) [T+Bra_POBRE].nes
-      format: 1
-      size: 262160
-      blob_id: 65808
-      debug: Rollergames (U) [T+Bra_POBRE].nes
-- release:
     id: 28889
     game_id: 20339
+    release_type: 1
   names:
   - id: 67081
     kind: 3
     kind_id: 28889
     language: 2
     name: 溜冰大进击 (欧版) (动作)-Rollergames (Europe)
+    deprecated: 1
   - id: 67082
     kind: 3
     kind_id: 28889
@@ -150,6 +140,12 @@ releases:
     language: 1
     name: Rollergames (Europe)
     source: no-intro
+  - id: 265861
+    kind: 3
+    kind_id: 28889
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 28871

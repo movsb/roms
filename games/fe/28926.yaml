@@ -48,6 +48,7 @@ releases:
 - release:
     id: 24362
     game_id: 28926
+    release_type: 1
   names:
   - id: 54326
     kind: 3
@@ -66,12 +67,19 @@ releases:
     kind_id: 24362
     language: 2
     name: 忍者神龟格斗
+    deprecated: 1
   - id: 259611
     kind: 3
     kind_id: 24362
     language: 1
     name: "Teenage Mutant Ninja Turtles - Tournament Fighters (USA)"
     source: no-intro
+  - id: 264989
+    kind: 3
+    kind_id: 24362
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 24344
@@ -94,48 +102,6 @@ releases:
       size: 2662
       blob_id: 325213
       debug: libretro-named-titles:rom-asset=24344:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Teenage%20Mutant%20Ninja%20Turtles%20-%20Tournament%20Fighters%20%28USA%29.png
-- release:
-    id: 24363
-    game_id: 28926
-    release_type: 2
-  names:
-  - id: 84711
-    kind: 3
-    kind_id: 24363
-    language: 1
-    name: "Teenage Mutant Ninja Turtles - Tournament Fighters (U) [T+Pol]"
-  assets:
-  - asset:
-      id: 24345
-      kind: 3
-      kind_id: 24363
-      type: 1
-      name: "Teenage Mutant Ninja Turtles - Tournament Fighters (U) [T+Pol].nes"
-      format: 1
-      size: 262160
-      blob_id: 69632
-      debug: "Teenage Mutant Ninja Turtles - Tournament Fighters (U) [T+Pol].nes"
-- release:
-    id: 24364
-    game_id: 28926
-    release_type: 2
-  names:
-  - id: 84712
-    kind: 3
-    kind_id: 24364
-    language: 1
-    name: "Teenage Mutant Ninja Turtles - Tournament Fighters (U) [T+Rus_Shedevr,GottaX]"
-  assets:
-  - asset:
-      id: 24346
-      kind: 3
-      kind_id: 24364
-      type: 1
-      name: "Teenage Mutant Ninja Turtles - Tournament Fighters (U) [T+Rus_Shedevr,GottaX].nes"
-      format: 1
-      size: 262160
-      blob_id: 69633
-      debug: "Teenage Mutant Ninja Turtles - Tournament Fighters (U) [T+Rus_Shedevr,GottaX].nes"
 - release:
     id: 24367
     game_id: 28926
@@ -302,12 +268,14 @@ releases:
 - release:
     id: 28146
     game_id: 28926
+    release_type: 1
   names:
   - id: 64595
     kind: 3
     kind_id: 28146
     language: 2
     name: "忍者龟 - 格斗大会 (欧版) (格斗)-Teenage Mutant Hero Turtles - Tournament Fighters (Europe)"
+    deprecated: 1
   - id: 64596
     kind: 3
     kind_id: 28146
@@ -320,6 +288,12 @@ releases:
     language: 1
     name: "Teenage Mutant Hero Turtles - Tournament Fighters (Europe)"
     source: no-intro
+  - id: 265618
+    kind: 3
+    kind_id: 28146
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 28128

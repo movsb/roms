@@ -22,6 +22,7 @@ releases:
 - release:
     id: 11780
     game_id: 11780
+    release_type: 1
   names:
   - id: 25820
     kind: 3
@@ -41,6 +42,12 @@ releases:
     language: 1
     name: "Flintstones, The - The Surprise at Dinosaur Peak! (USA)"
     source: no-intro
+  - id: 264207
+    kind: 3
+    kind_id: 11780
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 11762
@@ -66,6 +73,7 @@ releases:
 - release:
     id: 11791
     game_id: 11780
+    release_type: 1
   names:
   - id: 25842
     kind: 3
@@ -79,6 +87,12 @@ releases:
     language: 1
     name: "Flintstones, The - The Surprise at Dinosaur Peak (Europe)"
     source: no-intro
+  - id: 264209
+    kind: 3
+    kind_id: 11791
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 11773
@@ -101,27 +115,6 @@ releases:
       size: 3062
       blob_id: 324844
       debug: libretro-named-titles:rom-asset=11773:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Flintstones%2C%20The%20-%20The%20Surprise%20at%20Dinosaur%20Peak%20%28Europe%29.png
-- release:
-    id: 11793
-    game_id: 11780
-    release_type: 2
-  names:
-  - id: 83119
-    kind: 3
-    kind_id: 11793
-    language: 1
-    name: "Flintstones, The - The Surprise at Dinosaur Peak! (U) [T+Rus_Magicteam]"
-  assets:
-  - asset:
-      id: 11775
-      kind: 3
-      kind_id: 11793
-      type: 1
-      name: "Flintstones, The - The Surprise at Dinosaur Peak! (U) [T+Rus_Magicteam].nes"
-      format: 1
-      size: 393232
-      blob_id: 57734
-      debug: "Flintstones, The - The Surprise at Dinosaur Peak! (U) [T+Rus_Magicteam].nes"
 - release:
     id: 11795
     game_id: 11780
@@ -164,27 +157,6 @@ releases:
       blob_id: 57737
       debug: "Flintstones, The - The Surprise at Dinosaur Peak! (U) [t1].nes"
 - release:
-    id: 11798
-    game_id: 11780
-    release_type: 2
-  names:
-  - id: 83120
-    kind: 3
-    kind_id: 11798
-    language: 1
-    name: "Flintstones, The - The Surprise at Dinosaur Peak! (U) [t1][T+Rus_Magicteam]"
-  assets:
-  - asset:
-      id: 11780
-      kind: 3
-      kind_id: 11798
-      type: 1
-      name: "Flintstones, The - The Surprise at Dinosaur Peak! (U) [t1][T+Rus_Magicteam].nes"
-      format: 1
-      size: 393232
-      blob_id: 57738
-      debug: "Flintstones, The - The Surprise at Dinosaur Peak! (U) [t1][T+Rus_Magicteam].nes"
-- release:
     id: 11799
     game_id: 11780
     release_type: 3
@@ -205,27 +177,6 @@ releases:
       size: 393232
       blob_id: 57739
       debug: "Flintstones, The - The Surprise at Dinosaur Peak! (U) [t2].nes"
-- release:
-    id: 11800
-    game_id: 11780
-    release_type: 2
-  names:
-  - id: 83121
-    kind: 3
-    kind_id: 11800
-    language: 1
-    name: "Flintstones, The - The Surprise at Dinosaur Peak! (U) [t2][T+Rus_Magicteam]"
-  assets:
-  - asset:
-      id: 11782
-      kind: 3
-      kind_id: 11800
-      type: 1
-      name: "Flintstones, The - The Surprise at Dinosaur Peak! (U) [t2][T+Rus_Magicteam].nes"
-      format: 1
-      size: 393232
-      blob_id: 57740
-      debug: "Flintstones, The - The Surprise at Dinosaur Peak! (U) [t2][T+Rus_Magicteam].nes"
 - release:
     id: 11801
     game_id: 11780

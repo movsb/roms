@@ -112,6 +112,7 @@ releases:
 - release:
     id: 14030
     game_id: 14218
+    release_type: 1
   names:
   - id: 30928
     kind: 3
@@ -125,6 +126,12 @@ releases:
     language: 1
     name: Jigoku Gokuraku Maru (Japan)
     source: no-intro
+  - id: 264385
+    kind: 3
+    kind_id: 14030
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 14012
@@ -172,6 +179,7 @@ releases:
 - release:
     id: 14218
     game_id: 14218
+    release_type: 1
   names:
   - id: 31366
     kind: 3
@@ -185,6 +193,12 @@ releases:
     language: 1
     name: "Kabuki - Quantum Fighter (Europe)"
     source: no-intro
+  - id: 264400
+    kind: 3
+    kind_id: 14218
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 14200
@@ -210,6 +224,7 @@ releases:
 - release:
     id: 14219
     game_id: 14218
+    release_type: 1
   names:
   - id: 31368
     kind: 3
@@ -222,12 +237,19 @@ releases:
     kind_id: 14219
     language: 2
     name: 地狱极乐丸 (美版)
+    deprecated: 1
   - id: 258535
     kind: 3
     kind_id: 14219
     language: 1
     name: "Kabuki - Quantum Fighter (USA)"
     source: no-intro
+  - id: 264401
+    kind: 3
+    kind_id: 14219
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 14201
@@ -251,134 +273,9 @@ releases:
       blob_id: 324038
       debug: libretro-named-titles:rom-asset=14201:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Kabuki%20-%20Quantum%20Fighter%20%28USA%29.png
 - release:
-    id: 14220
-    game_id: 14218
-    release_type: 2
-  names:
-  - id: 83452
-    kind: 3
-    kind_id: 14220
-    language: 1
-    name: "Kabuki - Quantum Fighter (U) [T+Bra99%_BRGames]"
-  assets:
-  - asset:
-      id: 14202
-      kind: 3
-      kind_id: 14220
-      type: 1
-      name: "Kabuki - Quantum Fighter (U) [T+Bra99%_BRGames].nes"
-      format: 1
-      size: 262160
-      blob_id: 60005
-      debug: "Kabuki - Quantum Fighter (U) [T+Bra99%_BRGames].nes"
-- release:
-    id: 14221
-    game_id: 14218
-    release_type: 2
-  names:
-  - id: 83453
-    kind: 3
-    kind_id: 14221
-    language: 1
-    name: "Kabuki - Quantum Fighter (U) [T+Fre]"
-  assets:
-  - asset:
-      id: 14203
-      kind: 3
-      kind_id: 14221
-      type: 1
-      name: "Kabuki - Quantum Fighter (U) [T+Fre].nes"
-      format: 1
-      size: 262160
-      blob_id: 60006
-      debug: "Kabuki - Quantum Fighter (U) [T+Fre].nes"
-- release:
-    id: 14222
-    game_id: 14218
-    release_type: 2
-  names:
-  - id: 83454
-    kind: 3
-    kind_id: 14222
-    language: 1
-    name: "Kabuki - Quantum Fighter (U) [T+Ger1.00_StarTrans]"
-  assets:
-  - asset:
-      id: 14204
-      kind: 3
-      kind_id: 14222
-      type: 1
-      name: "Kabuki - Quantum Fighter (U) [T+Ger1.00_StarTrans].nes"
-      format: 1
-      size: 262160
-      blob_id: 60007
-      debug: "Kabuki - Quantum Fighter (U) [T+Ger1.00_StarTrans].nes"
-- release:
-    id: 14223
-    game_id: 14218
-    release_type: 2
-  names:
-  - id: 83455
-    kind: 3
-    kind_id: 14223
-    language: 1
-    name: "Kabuki - Quantum Fighter (U) [T+Ger1.00_StarTrans][a1]"
-  assets:
-  - asset:
-      id: 14205
-      kind: 3
-      kind_id: 14223
-      type: 1
-      name: "Kabuki - Quantum Fighter (U) [T+Ger1.00_StarTrans][a1].nes"
-      format: 1
-      size: 262160
-      blob_id: 60008
-      debug: "Kabuki - Quantum Fighter (U) [T+Ger1.00_StarTrans][a1].nes"
-- release:
-    id: 14224
-    game_id: 14218
-    release_type: 2
-  names:
-  - id: 83456
-    kind: 3
-    kind_id: 14224
-    language: 1
-    name: "Kabuki - Quantum Fighter (U) [T+Rus_Shedevr]"
-  assets:
-  - asset:
-      id: 14206
-      kind: 3
-      kind_id: 14224
-      type: 1
-      name: "Kabuki - Quantum Fighter (U) [T+Rus_Shedevr].nes"
-      format: 1
-      size: 262160
-      blob_id: 60009
-      debug: "Kabuki - Quantum Fighter (U) [T+Rus_Shedevr].nes"
-- release:
-    id: 14225
-    game_id: 14218
-    release_type: 2
-  names:
-  - id: 83457
-    kind: 3
-    kind_id: 14225
-    language: 1
-    name: "Kabuki - Quantum Fighter (U) [T+Swe1.0_TheTranslator]"
-  assets:
-  - asset:
-      id: 14207
-      kind: 3
-      kind_id: 14225
-      type: 1
-      name: "Kabuki - Quantum Fighter (U) [T+Swe1.0_TheTranslator].nes"
-      format: 1
-      size: 262160
-      blob_id: 60010
-      debug: "Kabuki - Quantum Fighter (U) [T+Swe1.0_TheTranslator].nes"
-- release:
     id: 14228
     game_id: 14218
+    release_type: 1
   names:
   - id: 31398
     kind: 3
@@ -392,6 +289,12 @@ releases:
     language: 1
     name: "Kabuki - Quantum Fighter (USA)"
     source: no-intro
+  - id: 264402
+    kind: 3
+    kind_id: 14228
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 14210

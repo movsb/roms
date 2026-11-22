@@ -35,29 +35,9 @@ names:
   name: Wizards & Warriors
 releases:
 - release:
-    id: 26009
-    game_id: 26009
-    release_type: 2
-  names:
-  - id: 84971
-    kind: 3
-    kind_id: 26009
-    language: 1
-    name: Wizards & Warriors (U) (PRG0) [T+Rus_Guyver]
-  assets:
-  - asset:
-      id: 25991
-      kind: 3
-      kind_id: 26009
-      type: 1
-      name: Wizards & Warriors (U) (PRG0) [T+Rus_Guyver].nes
-      format: 1
-      size: 131088
-      blob_id: 71163
-      debug: Wizards & Warriors (U) (PRG0) [T+Rus_Guyver].nes
-- release:
     id: 26011
     game_id: 26009
+    release_type: 1
   names:
   - id: 58152
     kind: 3
@@ -70,12 +50,19 @@ releases:
     kind_id: 26011
     language: 2
     name: 巫师与战士 (美版)(Rev A) (动作)-Wizards &amp; Warriors (USA) (Rev A)
+    deprecated: 1
   - id: 259819
     kind: 3
     kind_id: 26011
     language: 1
     name: Wizards & Warriors (USA) (Rev 1)
     source: no-intro
+  - id: 265129
+    kind: 3
+    kind_id: 26011
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 25993
@@ -104,6 +91,7 @@ releases:
 - release:
     id: 26012
     game_id: 26009
+    release_type: 1
   names:
   - id: 58154
     kind: 3
@@ -116,6 +104,7 @@ releases:
     kind_id: 26012
     language: 2
     name: 巫师与战士 (美版) (动作)-Wizards &amp; Warriors (USA)
+    deprecated: 1
   - id: 63920
     kind: 3
     kind_id: 26012
@@ -128,6 +117,12 @@ releases:
     language: 1
     name: Wizards & Warriors (USA)
     source: no-intro
+  - id: 265130
+    kind: 3
+    kind_id: 26012
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 25994
@@ -156,12 +151,14 @@ releases:
 - release:
     id: 27944
     game_id: 26009
+    release_type: 1
   names:
   - id: 63915
     kind: 3
     kind_id: 27944
     language: 2
     name: 巫师与战士 (欧版) (动作)-Wizards &amp; Warriors (Europe)
+    deprecated: 1
   - id: 63916
     kind: 3
     kind_id: 27944
@@ -174,6 +171,12 @@ releases:
     language: 1
     name: Wizards & Warriors (Europe)
     source: no-intro
+  - id: 265564
+    kind: 3
+    kind_id: 27944
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 27926

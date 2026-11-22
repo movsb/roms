@@ -22,6 +22,7 @@ releases:
 - release:
     id: 10063
     game_id: 10063
+    release_type: 1
   names:
   - id: 21646
     kind: 3
@@ -41,6 +42,12 @@ releases:
     language: 1
     name: "Double Dragon III - The Sacred Stones (USA)"
     source: no-intro
+  - id: 264096
+    kind: 3
+    kind_id: 10063
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 10045
@@ -126,27 +133,6 @@ releases:
       size: 262160
       blob_id: 56146
       debug: "Double Dragon III - Substitutions Edition (Hack).nes"
-- release:
-    id: 10109
-    game_id: 10063
-    release_type: 2
-  names:
-  - id: 82791
-    kind: 3
-    kind_id: 10109
-    language: 1
-    name: "Double Dragon III - The Rosetta Stone (J) [T+Kor]"
-  assets:
-  - asset:
-      id: 10091
-      kind: 3
-      kind_id: 10109
-      type: 1
-      name: "Double Dragon III - The Rosetta Stone (J) [T+Kor].nes"
-      format: 1
-      size: 262160
-      blob_id: 56148
-      debug: "Double Dragon III - The Rosetta Stone (J) [T+Kor].nes"
 - release:
     id: 10110
     game_id: 10063
@@ -409,6 +395,7 @@ releases:
 - release:
     id: 10123
     game_id: 10063
+    release_type: 1
   names:
   - id: 21786
     kind: 3
@@ -422,6 +409,12 @@ releases:
     language: 1
     name: "Double Dragon III - The Sacred Stones (Europe)"
     source: no-intro
+  - id: 264100
+    kind: 3
+    kind_id: 10123
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 10105
@@ -444,27 +437,6 @@ releases:
       size: 4958
       blob_id: 322477
       debug: fc-title-trial:fceumm:rom-asset=10105:frame=1800:region=PAL
-- release:
-    id: 10126
-    game_id: 10063
-    release_type: 2
-  names:
-  - id: 82792
-    kind: 3
-    kind_id: 10126
-    language: 1
-    name: "Double Dragon III - The Sacred Stones (U) [T+Bra1.1_BRGames]"
-  assets:
-  - asset:
-      id: 10108
-      kind: 3
-      kind_id: 10126
-      type: 1
-      name: "Double Dragon III - The Sacred Stones (U) [T+Bra1.1_BRGames].nes"
-      format: 1
-      size: 262160
-      blob_id: 56163
-      debug: "Double Dragon III - The Sacred Stones (U) [T+Bra1.1_BRGames].nes"
 - release:
     id: 10127
     game_id: 10063
@@ -529,90 +501,6 @@ releases:
       blob_id: 56166
       debug: "Double Dragon III - The Sacred Stones (U) [T+Chi][a1].nes"
 - release:
-    id: 10132
-    game_id: 10063
-    release_type: 2
-  names:
-  - id: 82798
-    kind: 3
-    kind_id: 10132
-    language: 1
-    name: "Double Dragon III - The Sacred Stones (U) [T+Fre]"
-  assets:
-  - asset:
-      id: 10114
-      kind: 3
-      kind_id: 10132
-      type: 1
-      name: "Double Dragon III - The Sacred Stones (U) [T+Fre].nes"
-      format: 1
-      size: 262160
-      blob_id: 56169
-      debug: "Double Dragon III - The Sacred Stones (U) [T+Fre].nes"
-- release:
-    id: 10133
-    game_id: 10063
-    release_type: 2
-  names:
-  - id: 82799
-    kind: 3
-    kind_id: 10133
-    language: 1
-    name: "Double Dragon III - The Sacred Stones (U) [T+Fre_terminus+Generation IX]"
-  assets:
-  - asset:
-      id: 10115
-      kind: 3
-      kind_id: 10133
-      type: 1
-      name: "Double Dragon III - The Sacred Stones (U) [T+Fre_terminus+Generation IX].nes"
-      format: 1
-      size: 262160
-      blob_id: 56170
-      debug: "Double Dragon III - The Sacred Stones (U) [T+Fre_terminus+Generation IX].nes"
-- release:
-    id: 10134
-    game_id: 10063
-    release_type: 2
-  names:
-  - id: 82800
-    kind: 3
-    kind_id: 10134
-    language: 1
-    name: "Double Dragon III - The Sacred Stones (U) [T+Rus_RusTranslate Team]"
-  assets:
-  - asset:
-      id: 10116
-      kind: 3
-      kind_id: 10134
-      type: 1
-      name: "Double Dragon III - The Sacred Stones (U) [T+Rus_RusTranslate Team].nes"
-      format: 1
-      size: 262160
-      blob_id: 56171
-      debug: "Double Dragon III - The Sacred Stones (U) [T+Rus_RusTranslate Team].nes"
-- release:
-    id: 10135
-    game_id: 10063
-    release_type: 2
-  names:
-  - id: 82801
-    kind: 3
-    kind_id: 10135
-    language: 1
-    name: "Double Dragon III - The Sacred Stones (U) [T+Spa1.0_Chilensis]"
-  assets:
-  - asset:
-      id: 10117
-      kind: 3
-      kind_id: 10135
-      type: 1
-      name: "Double Dragon III - The Sacred Stones (U) [T+Spa1.0_Chilensis].nes"
-      format: 1
-      size: 262160
-      blob_id: 56172
-      debug: "Double Dragon III - The Sacred Stones (U) [T+Spa1.0_Chilensis].nes"
-- release:
     id: 10145
     game_id: 10063
     release_type: 3
@@ -654,27 +542,6 @@ releases:
       size: 262160
       blob_id: 56183
       debug: "Double Dragon III - The Sacred Stones (U) [t2].nes"
-- release:
-    id: 10147
-    game_id: 10063
-    release_type: 2
-  names:
-  - id: 82802
-    kind: 3
-    kind_id: 10147
-    language: 1
-    name: "Double Dragon III - The Sacred Stones (U) [t2][T+Rus_RusTranslate Team,Multisoft]"
-  assets:
-  - asset:
-      id: 10129
-      kind: 3
-      kind_id: 10147
-      type: 1
-      name: "Double Dragon III - The Sacred Stones (U) [t2][T+Rus_RusTranslate Team,Multisoft].nes"
-      format: 1
-      size: 262160
-      blob_id: 56184
-      debug: "Double Dragon III - The Sacred Stones (U) [t2][T+Rus_RusTranslate Team,Multisoft].nes"
 - release:
     id: 10148
     game_id: 10063
@@ -741,12 +608,14 @@ releases:
 - release:
     id: 27290
     game_id: 10063
+    release_type: 1
   names:
   - id: 61735
     kind: 3
     kind_id: 27290
     language: 2
     name: "双截龙 III - 罗塞塔之石 (日版) (动作)-Double Dragon III - The Rosetta Stone (Japan)"
+    deprecated: 1
   - id: 61736
     kind: 3
     kind_id: 27290
@@ -759,6 +628,12 @@ releases:
     language: 1
     name: "Double Dragon III - The Rosetta Stone (Japan)"
     source: no-intro
+  - id: 265376
+    kind: 3
+    kind_id: 27290
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 27272

@@ -53,6 +53,7 @@ releases:
 - release:
     id: 19230
     game_id: 19248
+    release_type: 1
   names:
   - id: 42830
     kind: 3
@@ -66,6 +67,12 @@ releases:
     language: 1
     name: Predator (Australia)
     source: no-intro
+  - id: 264698
+    kind: 3
+    kind_id: 19230
+    language: 2
+    name: 澳版
+    source: codex
   assets:
   - asset:
       id: 19212
@@ -145,6 +152,7 @@ releases:
 - release:
     id: 19236
     game_id: 19248
+    release_type: 1
   names:
   - id: 42842
     kind: 3
@@ -157,12 +165,19 @@ releases:
     kind_id: 19236
     language: 2
     name: 终极战士 (美版) (动作)-Predator (USA)
+    deprecated: 1
   - id: 259088
     kind: 3
     kind_id: 19236
     language: 1
     name: Predator (USA)
     source: no-intro
+  - id: 264699
+    kind: 3
+    kind_id: 19236
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 19218
@@ -190,29 +205,9 @@ releases:
       blob_id: 322850
       debug: fc-title-trial:fceumm:rom-asset=19218:frame=1800
 - release:
-    id: 19237
-    game_id: 19248
-    release_type: 2
-  names:
-  - id: 84160
-    kind: 3
-    kind_id: 19237
-    language: 1
-    name: Predator (U) [T+Rus_Chief-Net]
-  assets:
-  - asset:
-      id: 19219
-      kind: 3
-      kind_id: 19237
-      type: 1
-      name: Predator (U) [T+Rus_Chief-Net].nes
-      format: 1
-      size: 262160
-      blob_id: 64745
-      debug: Predator (U) [T+Rus_Chief-Net].nes
-- release:
     id: 19245
     game_id: 19248
+    release_type: 1
   names:
   - id: 42862
     kind: 3
@@ -226,6 +221,12 @@ releases:
     language: 1
     name: Predator (USA)
     source: no-intro
+  - id: 264700
+    kind: 3
+    kind_id: 19245
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 19227
@@ -294,12 +295,14 @@ releases:
 - release:
     id: 29378
     game_id: 19248
+    release_type: 1
   names:
   - id: 68727
     kind: 3
     kind_id: 29378
     language: 2
     name: 终极战士 (日版) (动作)-Predator (Japan)
+    deprecated: 1
   - id: 68728
     kind: 3
     kind_id: 29378
@@ -312,6 +315,12 @@ releases:
     language: 1
     name: Predator (Japan)
     source: no-intro
+  - id: 266013
+    kind: 3
+    kind_id: 29378
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 29360
@@ -339,18 +348,26 @@ releases:
 - release:
     id: 29379
     game_id: 19248
+    release_type: 1
   names:
   - id: 68730
     kind: 3
     kind_id: 29379
     language: 2
     name: 终极战士 (澳洲版) (动作)-Predator (Australia)
+    deprecated: 1
   - id: 261033
     kind: 3
     kind_id: 29379
     language: 1
     name: Predator (Australia)
     source: no-intro
+  - id: 266014
+    kind: 3
+    kind_id: 29379
+    language: 2
+    name: 澳版
+    source: codex
   assets:
   - asset:
       id: 29361

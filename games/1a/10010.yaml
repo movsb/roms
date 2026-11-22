@@ -77,27 +77,6 @@ releases:
       blob_id: 56055
       debug: "Doraemon - Giga Zombie no Gyakushuu (J) [T+Eng1.0_WakdHacks][t1].nes"
 - release:
-    id: 10013
-    game_id: 10010
-    release_type: 2
-  names:
-  - id: 82770
-    kind: 3
-    kind_id: 10013
-    language: 1
-    name: "Doraemon - Giga Zombie no Gyakushuu (J) [T+Rus_Chief-Net]"
-  assets:
-  - asset:
-      id: 9995
-      kind: 3
-      kind_id: 10013
-      type: 1
-      name: "Doraemon - Giga Zombie no Gyakushuu (J) [T+Rus_Chief-Net].nes"
-      format: 1
-      size: 262160
-      blob_id: 56056
-      debug: "Doraemon - Giga Zombie no Gyakushuu (J) [T+Rus_Chief-Net].nes"
-- release:
     id: 10019
     game_id: 10010
     release_date: 19900914
@@ -107,12 +86,14 @@ releases:
 - release:
     id: 27849
     game_id: 10010
+    release_type: 1
   names:
   - id: 63601
     kind: 3
     kind_id: 27849
     language: 2
     name: "小叮当 - 无数僵尸之逆袭 (日版) (角色扮演)-Doraemon - Giga Zombie no Gyakushuu (Japan)"
+    deprecated: 1
   - id: 63602
     kind: 3
     kind_id: 27849
@@ -125,6 +106,12 @@ releases:
     language: 1
     name: "Doraemon - Giga Zombie no Gyakushuu (Japan)"
     source: no-intro
+  - id: 265535
+    kind: 3
+    kind_id: 27849
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 27831

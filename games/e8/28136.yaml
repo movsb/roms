@@ -33,6 +33,7 @@ releases:
 - release:
     id: 17663
     game_id: 28136
+    release_type: 1
   names:
   - id: 39426
     kind: 3
@@ -51,12 +52,19 @@ releases:
     kind_id: 17663
     language: 2
     name: "忍者龙剑传 III - 黄泉之方舟 (美版) (动作)-Ninja Gaiden Episode III - The Ancient Ship of Doom (USA)"
+    deprecated: 1
   - id: 258947
     kind: 3
     kind_id: 17663
     language: 1
     name: "Ninja Gaiden III - The Ancient Ship of Doom (USA)"
     source: no-intro
+  - id: 264624
+    kind: 3
+    kind_id: 17663
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 17645
@@ -159,132 +167,6 @@ releases:
       blob_id: 325042
       debug: libretro-named-titles:rom-asset=17667:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Ninja%20Gaiden%20III%20-%20The%20Ancient%20Ship%20of%20Doom%20%28USA%29%20%28Wii%20Virtual%20Console%29.png
 - release:
-    id: 17687
-    game_id: 28136
-    release_type: 2
-  names:
-  - id: 84037
-    kind: 3
-    kind_id: 17687
-    language: 1
-    name: "Ninja Gaiden III - The Ancient Ship of Doom (U) [T+Ara_glow]"
-  assets:
-  - asset:
-      id: 17669
-      kind: 3
-      kind_id: 17687
-      type: 1
-      name: "Ninja Gaiden III - The Ancient Ship of Doom (U) [T+Ara_glow].nes"
-      format: 1
-      size: 262160
-      blob_id: 63259
-      debug: "Ninja Gaiden III - The Ancient Ship of Doom (U) [T+Ara_glow].nes"
-- release:
-    id: 17688
-    game_id: 28136
-    release_type: 2
-  names:
-  - id: 84038
-    kind: 3
-    kind_id: 17688
-    language: 1
-    name: "Ninja Gaiden III - The Ancient Ship of Doom (U) [T+Fre_Terminus]"
-  assets:
-  - asset:
-      id: 17670
-      kind: 3
-      kind_id: 17688
-      type: 1
-      name: "Ninja Gaiden III - The Ancient Ship of Doom (U) [T+Fre_Terminus].nes"
-      format: 1
-      size: 262160
-      blob_id: 63260
-      debug: "Ninja Gaiden III - The Ancient Ship of Doom (U) [T+Fre_Terminus].nes"
-- release:
-    id: 17689
-    game_id: 28136
-    release_type: 2
-  names:
-  - id: 84039
-    kind: 3
-    kind_id: 17689
-    language: 1
-    name: "Ninja Gaiden III - The Ancient Ship of Doom (U) [T+Por1.0_CBT]"
-  assets:
-  - asset:
-      id: 17671
-      kind: 3
-      kind_id: 17689
-      type: 1
-      name: "Ninja Gaiden III - The Ancient Ship of Doom (U) [T+Por1.0_CBT].nes"
-      format: 1
-      size: 262160
-      blob_id: 63261
-      debug: "Ninja Gaiden III - The Ancient Ship of Doom (U) [T+Por1.0_CBT].nes"
-- release:
-    id: 17690
-    game_id: 28136
-    release_type: 2
-  names:
-  - id: 84040
-    kind: 3
-    kind_id: 17690
-    language: 1
-    name: "Ninja Gaiden III - The Ancient Ship of Doom (U) [T+Por100%_ZERO]"
-  assets:
-  - asset:
-      id: 17672
-      kind: 3
-      kind_id: 17690
-      type: 1
-      name: "Ninja Gaiden III - The Ancient Ship of Doom (U) [T+Por100%_ZERO].nes"
-      format: 1
-      size: 262160
-      blob_id: 63262
-      debug: "Ninja Gaiden III - The Ancient Ship of Doom (U) [T+Por100%_ZERO].nes"
-- release:
-    id: 17691
-    game_id: 28136
-    release_type: 2
-  names:
-  - id: 84041
-    kind: 3
-    kind_id: 17691
-    language: 1
-    name: "Ninja Gaiden III - The Ancient Ship of Doom (U) [T+Rus_Shedevr]"
-  assets:
-  - asset:
-      id: 17673
-      kind: 3
-      kind_id: 17691
-      type: 1
-      name: "Ninja Gaiden III - The Ancient Ship of Doom (U) [T+Rus_Shedevr].nes"
-      format: 1
-      size: 262160
-      blob_id: 63263
-      debug: "Ninja Gaiden III - The Ancient Ship of Doom (U) [T+Rus_Shedevr].nes"
-- release:
-    id: 17692
-    game_id: 28136
-    release_type: 2
-  names:
-  - id: 84042
-    kind: 3
-    kind_id: 17692
-    language: 1
-    name: "Ninja Gaiden III - The Ancient Ship of Doom (U) [T+Spa_Chronocross,TransGen]"
-  assets:
-  - asset:
-      id: 17674
-      kind: 3
-      kind_id: 17692
-      type: 1
-      name: "Ninja Gaiden III - The Ancient Ship of Doom (U) [T+Spa_Chronocross,TransGen].nes"
-      format: 1
-      size: 262160
-      blob_id: 63264
-      debug: "Ninja Gaiden III - The Ancient Ship of Doom (U) [T+Spa_Chronocross,TransGen].nes"
-- release:
     id: 17699
     game_id: 28136
     release_type: 3
@@ -308,12 +190,14 @@ releases:
 - release:
     id: 28127
     game_id: 28136
+    release_type: 1
   names:
   - id: 64535
     kind: 3
     kind_id: 28127
     language: 2
     name: "忍者龙剑传 III - 黄泉之方舟 (日版) (动作)-Ninja Ryukenden III - Yomi no Hakobune (Japan)"
+    deprecated: 1
   - id: 64536
     kind: 3
     kind_id: 28127
@@ -326,6 +210,12 @@ releases:
     language: 1
     name: "Ninja Ryuuken Den III - Yomi no Hakobune (Japan)"
     source: no-intro
+  - id: 265616
+    kind: 3
+    kind_id: 28127
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 28109

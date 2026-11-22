@@ -31,27 +31,6 @@ names:
   source: codex
 releases:
 - release:
-    id: 26518
-    game_id: 26518
-    release_type: 2
-  names:
-  - id: 85042
-    kind: 3
-    kind_id: 26518
-    language: 1
-    name: "Zoids - Mokushiroku (J) [T+Rus_Chief-Net]"
-  assets:
-  - asset:
-      id: 26500
-      kind: 3
-      kind_id: 26518
-      type: 1
-      name: "Zoids - Mokushiroku (J) [T+Rus_Chief-Net].nes"
-      format: 1
-      size: 262160
-      blob_id: 71645
-      debug: "Zoids - Mokushiroku (J) [T+Rus_Chief-Net].nes"
-- release:
     id: 26519
     game_id: 26518
   names:
@@ -94,12 +73,14 @@ releases:
 - release:
     id: 28581
     game_id: 26518
+    release_type: 1
   names:
   - id: 66037
     kind: 3
     kind_id: 28581
     language: 2
     name: "机兽新世纪 - 默示录 (日版) (策略)-Zoids Mokushiroku (Japan)"
+    deprecated: 1
   - id: 66038
     kind: 3
     kind_id: 28581
@@ -112,6 +93,12 @@ releases:
     language: 1
     name: Zoids Mokushiroku (Japan)
     source: no-intro
+  - id: 265770
+    kind: 3
+    kind_id: 28581
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 28563

@@ -39,6 +39,7 @@ releases:
 - release:
     id: 15783
     game_id: 15783
+    release_type: 1
   names:
   - id: 35056
     kind: 3
@@ -52,6 +53,12 @@ releases:
     language: 1
     name: Mario Bros. (Europe) (PAL-MC-0, Classic Series)
     source: no-intro
+  - id: 264519
+    kind: 3
+    kind_id: 15783
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 15765
@@ -77,77 +84,16 @@ releases:
       blob_id: 322745
       debug: fc-title-trial:fceumm:rom-asset=15765:frame=180:region=PAL
 - release:
-    id: 15784
-    game_id: 15783
-    release_type: 2
-  names:
-  - id: 83730
-    kind: 3
-    kind_id: 15784
-    language: 1
-    name: Mario Bros. Classic (E) [T+Fre_ks151]
-  assets:
-  - asset:
-      id: 15766
-      kind: 3
-      kind_id: 15784
-      type: 1
-      name: Mario Bros. Classic (E) [T+Fre_ks151].nes
-      format: 1
-      size: 40976
-      blob_id: 61460
-      debug: Mario Bros. Classic (E) [T+Fre_ks151].nes
-- release:
-    id: 15785
-    game_id: 15783
-    release_type: 2
-  names:
-  - id: 83731
-    kind: 3
-    kind_id: 15785
-    language: 1
-    name: Mario Bros. Classic (E) [T+Rus_Cool-Spot]
-  assets:
-  - asset:
-      id: 15767
-      kind: 3
-      kind_id: 15785
-      type: 1
-      name: Mario Bros. Classic (E) [T+Rus_Cool-Spot].nes
-      format: 1
-      size: 40976
-      blob_id: 61461
-      debug: Mario Bros. Classic (E) [T+Rus_Cool-Spot].nes
-- release:
-    id: 15786
-    game_id: 15783
-    release_type: 2
-  names:
-  - id: 83732
-    kind: 3
-    kind_id: 15786
-    language: 1
-    name: Mario Bros. Classic (E) [T+Rus_Cool-Spot][a1]
-  assets:
-  - asset:
-      id: 15768
-      kind: 3
-      kind_id: 15786
-      type: 1
-      name: Mario Bros. Classic (E) [T+Rus_Cool-Spot][a1].nes
-      format: 1
-      size: 40976
-      blob_id: 61462
-      debug: Mario Bros. Classic (E) [T+Rus_Cool-Spot][a1].nes
-- release:
     id: 29137
     game_id: 15783
+    release_type: 1
   names:
   - id: 67873
     kind: 3
     kind_id: 29137
     language: 2
     name: 玛璃欧兄弟 (欧版)(Rev A) (动作)-Mario Bros. (Europe) (Rev A)
+    deprecated: 1
   - id: 67874
     kind: 3
     kind_id: 29137
@@ -160,6 +106,12 @@ releases:
     language: 1
     name: Mario Bros. (Europe) (PAL-MA-0)
     source: no-intro
+  - id: 265926
+    kind: 3
+    kind_id: 29137
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 29119
@@ -187,18 +139,26 @@ releases:
 - release:
     id: 29138
     game_id: 15783
+    release_type: 1
   names:
   - id: 67876
     kind: 3
     kind_id: 29138
     language: 2
     name: 玛璃欧兄弟典藏版 (欧版) (动作)-Mario Bros. Classic (Europe)
+    deprecated: 1
   - id: 260921
     kind: 3
     kind_id: 29138
     language: 1
     name: Mario Bros. (Europe) (PAL-MC-0, Classic Series)
     source: no-intro
+  - id: 265927
+    kind: 3
+    kind_id: 29138
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 29120

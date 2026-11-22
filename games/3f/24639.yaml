@@ -21,6 +21,7 @@ releases:
 - release:
     id: 24639
     game_id: 24639
+    release_type: 1
   names:
   - id: 55032
     kind: 3
@@ -39,6 +40,7 @@ releases:
     kind_id: 24639
     language: 2
     name: 魔鬼终结者 (美版,欧版) (动作)-Terminator, The (USA, Europe)
+    deprecated: 1
   - id: 72058
     kind: 3
     kind_id: 24639
@@ -51,6 +53,12 @@ releases:
     language: 1
     name: Terminator, The (USA, Europe)
     source: no-intro
+  - id: 265002
+    kind: 3
+    kind_id: 24639
+    language: 2
+    name: 美欧版
+    source: codex
   assets:
   - asset:
       id: 24621
@@ -77,27 +85,6 @@ releases:
       size: 1713
       blob_id: 325221
       debug: libretro-named-titles:rom-asset=24621:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Terminator%2C%20The%20%28USA%2C%20Europe%29.png
-- release:
-    id: 24640
-    game_id: 24639
-    release_type: 2
-  names:
-  - id: 84787
-    kind: 3
-    kind_id: 24640
-    language: 1
-    name: Terminator, The (U) [T+Rus_magic team]
-  assets:
-  - asset:
-      id: 24622
-      kind: 3
-      kind_id: 24640
-      type: 1
-      name: Terminator, The (U) [T+Rus_magic team].nes
-      format: 1
-      size: 262160
-      blob_id: 69901
-      debug: Terminator, The (U) [T+Rus_magic team].nes
 - release:
     id: 24643
     game_id: 24639

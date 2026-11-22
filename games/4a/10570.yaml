@@ -61,6 +61,7 @@ releases:
 - release:
     id: 10559
     game_id: 10570
+    release_type: 1
   names:
   - id: 22892
     kind: 3
@@ -74,6 +75,12 @@ releases:
     language: 1
     name: Dragon Warrior III (USA)
     source: no-intro
+  - id: 264125
+    kind: 3
+    kind_id: 10559
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 10541
@@ -122,6 +129,7 @@ releases:
 - release:
     id: 10570
     game_id: 10570
+    release_type: 1
   names:
   - id: 22916
     kind: 3
@@ -134,6 +142,7 @@ releases:
     kind_id: 10570
     language: 2
     name: 勇者斗恶龙 III (美版) (角色扮演)-Dragon Warrior III (USA)
+    deprecated: 1
   - id: 61462
     kind: 3
     kind_id: 10570
@@ -146,6 +155,12 @@ releases:
     language: 1
     name: Dragon Warrior III (USA)
     source: no-intro
+  - id: 264128
+    kind: 3
+    kind_id: 10570
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 10552
@@ -171,111 +186,6 @@ releases:
       size: 8517
       blob_id: 322496
       debug: fc-title-trial:fceumm:rom-asset=10552:frame=1200
-- release:
-    id: 10571
-    game_id: 10570
-    release_type: 2
-  names:
-  - id: 82908
-    kind: 3
-    kind_id: 10571
-    language: 1
-    name: Dragon Warrior III (U) [T+Fre1.0_Generation IX]
-  assets:
-  - asset:
-      id: 10553
-      kind: 3
-      kind_id: 10571
-      type: 1
-      name: Dragon Warrior III (U) [T+Fre1.0_Generation IX].nes
-      format: 1
-      size: 524304
-      blob_id: 56579
-      debug: Dragon Warrior III (U) [T+Fre1.0_Generation IX].nes
-- release:
-    id: 10572
-    game_id: 10570
-    release_type: 2
-  names:
-  - id: 82909
-    kind: 3
-    kind_id: 10572
-    language: 1
-    name: Dragon Warrior III (U) [T+Por1.1_CBT]
-  assets:
-  - asset:
-      id: 10554
-      kind: 3
-      kind_id: 10572
-      type: 1
-      name: Dragon Warrior III (U) [T+Por1.1_CBT].nes
-      format: 1
-      size: 524304
-      blob_id: 56580
-      debug: Dragon Warrior III (U) [T+Por1.1_CBT].nes
-- release:
-    id: 10573
-    game_id: 10570
-    release_type: 2
-  names:
-  - id: 82910
-    kind: 3
-    kind_id: 10573
-    language: 1
-    name: Dragon Warrior III (U) [T+Rus1.0_Chief-Net]
-  assets:
-  - asset:
-      id: 10555
-      kind: 3
-      kind_id: 10573
-      type: 1
-      name: Dragon Warrior III (U) [T+Rus1.0_Chief-Net].nes
-      format: 1
-      size: 524304
-      blob_id: 56581
-      debug: Dragon Warrior III (U) [T+Rus1.0_Chief-Net].nes
-- release:
-    id: 10574
-    game_id: 10570
-    release_type: 2
-  names:
-  - id: 22930
-    kind: 3
-    kind_id: 10574
-    language: 1
-    name: Dragon Warrior III (U) [T-FreBeta_Generation IX]
-  assets:
-  - asset:
-      id: 10556
-      kind: 3
-      kind_id: 10574
-      type: 1
-      name: Dragon Warrior III (U) [T-FreBeta_Generation IX].nes
-      format: 1
-      size: 524304
-      blob_id: 56582
-      debug: Dragon Warrior III (U) [T-FreBeta_Generation IX].nes
-- release:
-    id: 10575
-    game_id: 10570
-    release_type: 2
-  names:
-  - id: 22932
-    kind: 3
-    kind_id: 10575
-    language: 1
-    name: Dragon Warrior III (U) [T-Por_CBT]
-  assets:
-  - asset:
-      id: 10557
-      kind: 3
-      kind_id: 10575
-      type: 1
-      name: Dragon Warrior III (U) [T-Por_CBT].nes
-      format: 1
-      size: 524304
-      blob_id: 56583
-      debug: Dragon Warrior III (U) [T-Por_CBT].nes
 - release:
     id: 10586
     game_id: 10570

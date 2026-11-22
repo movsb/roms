@@ -39,6 +39,7 @@ releases:
 - release:
     id: 12201
     game_id: 12202
+    release_type: 1
   names:
   - id: 26778
     kind: 3
@@ -52,6 +53,12 @@ releases:
     language: 1
     name: Gauntlet II (USA)
     source: no-intro
+  - id: 264235
+    kind: 3
+    kind_id: 12201
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 12183
@@ -79,6 +86,7 @@ releases:
 - release:
     id: 12202
     game_id: 12202
+    release_type: 1
   names:
   - id: 26780
     kind: 3
@@ -91,12 +99,19 @@ releases:
     kind_id: 12202
     language: 2
     name: 铁手套 II (美版) (动作)-Gauntlet II (USA)
+    deprecated: 1
   - id: 258293
     kind: 3
     kind_id: 12202
     language: 1
     name: Gauntlet II (USA)
     source: no-intro
+  - id: 264236
+    kind: 3
+    kind_id: 12202
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 12184
@@ -123,27 +138,6 @@ releases:
       blob_id: 322571
       debug: fc-title-trial:fceumm:rom-asset=12184:frame=180
 - release:
-    id: 12203
-    game_id: 12202
-    release_type: 2
-  names:
-  - id: 83177
-    kind: 3
-    kind_id: 12203
-    language: 1
-    name: Gauntlet II (U) [T+Rus_Guyver]
-  assets:
-  - asset:
-      id: 12185
-      kind: 3
-      kind_id: 12203
-      type: 1
-      name: Gauntlet II (U) [T+Rus_Guyver].nes
-      format: 1
-      size: 262160
-      blob_id: 58116
-      debug: Gauntlet II (U) [T+Rus_Guyver].nes
-- release:
     id: 12207
     game_id: 12202
     release_type: 3
@@ -167,12 +161,14 @@ releases:
 - release:
     id: 30045
     game_id: 12202
+    release_type: 1
   names:
   - id: 70969
     kind: 3
     kind_id: 30045
     language: 2
     name: 铁手套 II (欧版) (动作)-Gauntlet II (Europe)
+    deprecated: 1
   - id: 70970
     kind: 3
     kind_id: 30045
@@ -185,6 +181,12 @@ releases:
     language: 1
     name: Gauntlet II (Europe)
     source: no-intro
+  - id: 266208
+    kind: 3
+    kind_id: 30045
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 30027

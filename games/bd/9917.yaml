@@ -53,6 +53,7 @@ releases:
 - release:
     id: 9918
     game_id: 9917
+    release_type: 1
   names:
   - id: 21290
     kind: 3
@@ -65,6 +66,7 @@ releases:
     kind_id: 9918
     language: 2
     name: 大金刚 III (世界版) (动作)-Donkey Kong 3 (World)
+    deprecated: 1
   - id: 62908
     kind: 3
     kind_id: 9918
@@ -77,6 +79,12 @@ releases:
     language: 1
     name: Donkey Kong 3 (World)
     source: no-intro
+  - id: 264084
+    kind: 3
+    kind_id: 9918
+    language: 2
+    name: 世界版
+    source: codex
   assets:
   - asset:
       id: 9900
@@ -102,69 +110,6 @@ releases:
       size: 3143
       blob_id: 322469
       debug: fc-title-trial:fceumm:rom-asset=9900:frame=180
-- release:
-    id: 9919
-    game_id: 9917
-    release_type: 2
-  names:
-  - id: 82749
-    kind: 3
-    kind_id: 9919
-    language: 1
-    name: Donkey Kong 3 (U) [T+Rus_Cool-Spot][a1]
-  assets:
-  - asset:
-      id: 9901
-      kind: 3
-      kind_id: 9919
-      type: 1
-      name: Donkey Kong 3 (U) [T+Rus_Cool-Spot][a1].nes
-      format: 1
-      size: 24592
-      blob_id: 55970
-      debug: Donkey Kong 3 (U) [T+Rus_Cool-Spot][a1].nes
-- release:
-    id: 9920
-    game_id: 9917
-    release_type: 2
-  names:
-  - id: 82750
-    kind: 3
-    kind_id: 9920
-    language: 1
-    name: Donkey Kong 3 (W) [T+Fre_Lyssal]
-  assets:
-  - asset:
-      id: 9902
-      kind: 3
-      kind_id: 9920
-      type: 1
-      name: Donkey Kong 3 (W) [T+Fre_Lyssal].nes
-      format: 1
-      size: 24592
-      blob_id: 55971
-      debug: Donkey Kong 3 (W) [T+Fre_Lyssal].nes
-- release:
-    id: 9921
-    game_id: 9917
-    release_type: 2
-  names:
-  - id: 82751
-    kind: 3
-    kind_id: 9921
-    language: 1
-    name: Donkey Kong 3 (W) [T+Rus_Cool-Spot]
-  assets:
-  - asset:
-      id: 9903
-      kind: 3
-      kind_id: 9921
-      type: 1
-      name: Donkey Kong 3 (W) [T+Rus_Cool-Spot].nes
-      format: 1
-      size: 24592
-      blob_id: 55972
-      debug: Donkey Kong 3 (W) [T+Rus_Cool-Spot].nes
 - release:
     id: 9927
     game_id: 9917

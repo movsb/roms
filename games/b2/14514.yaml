@@ -25,29 +25,9 @@ names:
   name: Kickle Cubicle
 releases:
 - release:
-    id: 14514
-    game_id: 14514
-    release_type: 2
-  names:
-  - id: 83537
-    kind: 3
-    kind_id: 14514
-    language: 1
-    name: Kickle Cubicle (E) [T+Fre99.5%_YF06]
-  assets:
-  - asset:
-      id: 14496
-      kind: 3
-      kind_id: 14514
-      type: 1
-      name: Kickle Cubicle (E) [T+Fre99.5%_YF06].nes
-      format: 1
-      size: 262160
-      blob_id: 60277
-      debug: Kickle Cubicle (E) [T+Fre99.5%_YF06].nes
-- release:
     id: 14515
     game_id: 14514
+    release_type: 1
   names:
   - id: 32132
     kind: 3
@@ -66,12 +46,19 @@ releases:
     kind_id: 14515
     language: 2
     name: 迷宫岛 (美版) (益智)-Kickle Cubicle (USA)
+    deprecated: 1
   - id: 258560
     kind: 3
     kind_id: 14515
     language: 1
     name: Kickle Cubicle (USA)
     source: no-intro
+  - id: 264420
+    kind: 3
+    kind_id: 14515
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 14497
@@ -101,12 +88,14 @@ releases:
 - release:
     id: 29935
     game_id: 14514
+    release_type: 1
   names:
   - id: 70595
     kind: 3
     kind_id: 29935
     language: 2
     name: 迷宫岛 (欧版) (益智)-Kickle Cubicle (Europe)
+    deprecated: 1
   - id: 70596
     kind: 3
     kind_id: 29935
@@ -119,6 +108,12 @@ releases:
     language: 1
     name: Kickle Cubicle (Europe)
     source: no-intro
+  - id: 266174
+    kind: 3
+    kind_id: 29935
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 29917

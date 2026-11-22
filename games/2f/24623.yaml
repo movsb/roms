@@ -94,29 +94,9 @@ releases:
       blob_id: 69883
       debug: "Terminator 2 - Judgement Day (U).zip"
 - release:
-    id: 24623
-    game_id: 24623
-    release_type: 2
-  names:
-  - id: 84780
-    kind: 3
-    kind_id: 24623
-    language: 1
-    name: "Terminator 2 - Judgment Day (U) (Prototype) [T+Rus_Sprill]"
-  assets:
-  - asset:
-      id: 24605
-      kind: 3
-      kind_id: 24623
-      type: 1
-      name: "Terminator 2 - Judgment Day (U) (Prototype) [T+Rus_Sprill].nes"
-      format: 1
-      size: 262160
-      blob_id: 69884
-      debug: "Terminator 2 - Judgment Day (U) (Prototype) [T+Rus_Sprill].nes"
-- release:
     id: 24625
     game_id: 24623
+    release_type: 1
   names:
   - id: 54992
     kind: 3
@@ -129,17 +109,25 @@ releases:
     kind_id: 24625
     language: 2
     name: 终结者2审判日
+    deprecated: 1
   - id: 72069
     kind: 3
     kind_id: 24625
     language: 2
     name: "魔鬼终结者 II - 审判日 (美版) (动作)-Terminator 2 - Judgment Day (USA)"
+    deprecated: 1
   - id: 259630
     kind: 3
     kind_id: 24625
     language: 1
     name: "Terminator 2 - Judgment Day (USA)"
     source: no-intro
+  - id: 265001
+    kind: 3
+    kind_id: 24625
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 24607
@@ -162,48 +150,6 @@ releases:
       size: 5781
       blob_id: 323045
       debug: fc-title-trial:fceumm:rom-asset=24607:frame=1200
-- release:
-    id: 24626
-    game_id: 24623
-    release_type: 2
-  names:
-  - id: 84781
-    kind: 3
-    kind_id: 24626
-    language: 1
-    name: "Terminator 2 - Judgment Day (U) [T+Pol]"
-  assets:
-  - asset:
-      id: 24608
-      kind: 3
-      kind_id: 24626
-      type: 1
-      name: "Terminator 2 - Judgment Day (U) [T+Pol].nes"
-      format: 1
-      size: 262160
-      blob_id: 69887
-      debug: "Terminator 2 - Judgment Day (U) [T+Pol].nes"
-- release:
-    id: 24628
-    game_id: 24623
-    release_type: 2
-  names:
-  - id: 84783
-    kind: 3
-    kind_id: 24628
-    language: 1
-    name: "Terminator 2 - Judgment Day (U) [T+Rus]"
-  assets:
-  - asset:
-      id: 24610
-      kind: 3
-      kind_id: 24628
-      type: 1
-      name: "Terminator 2 - Judgment Day (U) [T+Rus].nes"
-      format: 1
-      size: 262160
-      blob_id: 69889
-      debug: "Terminator 2 - Judgment Day (U) [T+Rus].nes"
 - release:
     id: 24636
     game_id: 24623
@@ -274,12 +220,14 @@ releases:
 - release:
     id: 30370
     game_id: 24623
+    release_type: 1
   names:
   - id: 72061
     kind: 3
     kind_id: 30370
     language: 2
     name: "魔鬼终结者 II - 审判日 (日版) (动作)-Terminator 2 - Judgment Day (Japan)"
+    deprecated: 1
   - id: 72062
     kind: 3
     kind_id: 30370
@@ -292,6 +240,12 @@ releases:
     language: 1
     name: Terminator 2 (Japan)
     source: no-intro
+  - id: 266319
+    kind: 3
+    kind_id: 30370
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 30352
@@ -317,12 +271,14 @@ releases:
 - release:
     id: 30371
     game_id: 24623
+    release_type: 1
   names:
   - id: 72065
     kind: 3
     kind_id: 30371
     language: 2
     name: "魔鬼终结者 II - 审判日 (欧版) (动作)-Terminator 2 - Judgment Day (Europe)"
+    deprecated: 1
   - id: 72066
     kind: 3
     kind_id: 30371
@@ -335,6 +291,12 @@ releases:
     language: 1
     name: "Terminator 2 - Judgment Day (Europe)"
     source: no-intro
+  - id: 266320
+    kind: 3
+    kind_id: 30371
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 30353

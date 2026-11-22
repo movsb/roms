@@ -32,6 +32,7 @@ releases:
 - release:
     id: 5503
     game_id: 5503
+    release_type: 1
   names:
   - id: 11262
     kind: 3
@@ -44,6 +45,7 @@ releases:
     kind_id: 5503
     language: 2
     name: 蛋王子大冒险 III (美版) (益智)-Adventures of Lolo 3 (USA)
+    deprecated: 1
   - id: 69536
     kind: 3
     kind_id: 5503
@@ -56,6 +58,12 @@ releases:
     language: 1
     name: Adventures of Lolo 3 (USA)
     source: no-intro
+  - id: 263816
+    kind: 3
+    kind_id: 5503
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 5485
@@ -82,29 +90,9 @@ releases:
       blob_id: 323711
       debug: fc-title-trial:fceumm:rom-asset=5485:frame=600
 - release:
-    id: 5504
-    game_id: 5503
-    release_type: 2
-  names:
-  - id: 82155
-    kind: 3
-    kind_id: 5504
-    language: 1
-    name: Adventures of Lolo 3 (U) [T+Ita1.0b_Dark_Schneider]
-  assets:
-  - asset:
-      id: 5486
-      kind: 3
-      kind_id: 5504
-      type: 1
-      name: Adventures of Lolo 3 (U) [T+Ita1.0b_Dark_Schneider].nes
-      format: 1
-      size: 262160
-      blob_id: 51794
-      debug: Adventures of Lolo 3 (U) [T+Ita1.0b_Dark_Schneider].nes
-- release:
     id: 5511
     game_id: 5503
+    release_type: 1
   names:
   - id: 11280
     kind: 3
@@ -117,12 +105,19 @@ releases:
     kind_id: 5511
     language: 2
     name: 罗罗大冒险3
+    deprecated: 1
   - id: 257609
     kind: 3
     kind_id: 5511
     language: 1
     name: Adventures of Lolo 3 (USA)
     source: no-intro
+  - id: 263817
+    kind: 3
+    kind_id: 5511
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 5493
@@ -151,12 +146,14 @@ releases:
 - release:
     id: 29613
     game_id: 5503
+    release_type: 1
   names:
   - id: 69531
     kind: 3
     kind_id: 29613
     language: 2
     name: 蛋王子大冒险 III (欧版) (益智)-Adventures of Lolo 3 (Europe)
+    deprecated: 1
   - id: 69532
     kind: 3
     kind_id: 29613
@@ -169,6 +166,12 @@ releases:
     language: 1
     name: Adventures of Lolo 3 (Europe)
     source: no-intro
+  - id: 266091
+    kind: 3
+    kind_id: 29613
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 29595

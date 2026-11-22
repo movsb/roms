@@ -21,6 +21,7 @@ releases:
 - release:
     id: 14994
     game_id: 14994
+    release_type: 1
   names:
   - id: 33242
     kind: 3
@@ -39,12 +40,19 @@ releases:
     kind_id: 14994
     language: 2
     name: 屠龙剑 IV (美版) (动作角色扮演)-Legacy of the Wizard (USA)
+    deprecated: 1
   - id: 258624
     kind: 3
     kind_id: 14994
     language: 1
     name: Legacy of the Wizard (USA)
     source: no-intro
+  - id: 264459
+    kind: 3
+    kind_id: 14994
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 14976
@@ -71,27 +79,6 @@ releases:
       size: 4134
       blob_id: 322698
       debug: fc-title-trial:fceumm:rom-asset=14976:frame=180
-- release:
-    id: 14995
-    game_id: 14994
-    release_type: 2
-  names:
-  - id: 83614
-    kind: 3
-    kind_id: 14995
-    language: 1
-    name: Legacy of the Wizard (U) [T+Spa.99_PaladinKnights]
-  assets:
-  - asset:
-      id: 14977
-      kind: 3
-      kind_id: 14995
-      type: 1
-      name: Legacy of the Wizard (U) [T+Spa.99_PaladinKnights].nes
-      format: 1
-      size: 196624
-      blob_id: 60722
-      debug: Legacy of the Wizard (U) [T+Spa.99_PaladinKnights].nes
 - release:
     id: 14998
     game_id: 14994

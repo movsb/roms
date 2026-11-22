@@ -237,27 +237,6 @@ releases:
       blob_id: 57668
       debug: Fire Emblem Gaiden (J) [T+Eng97b2_J2e].nes
 - release:
-    id: 11721
-    game_id: 11713
-    release_type: 2
-  names:
-  - id: 83111
-    kind: 3
-    kind_id: 11721
-    language: 1
-    name: Fire Emblem Gaiden (J) [T+Fre0.90_Generation IX]
-  assets:
-  - asset:
-      id: 11703
-      kind: 3
-      kind_id: 11721
-      type: 1
-      name: Fire Emblem Gaiden (J) [T+Fre0.90_Generation IX].nes
-      format: 1
-      size: 393232
-      blob_id: 57670
-      debug: Fire Emblem Gaiden (J) [T+Fre0.90_Generation IX].nes
-- release:
     id: 11722
     game_id: 11713
     release_type: 2
@@ -469,12 +448,14 @@ releases:
 - release:
     id: 27490
     game_id: 11713
+    release_type: 1
   names:
   - id: 62401
     kind: 3
     kind_id: 27490
     language: 2
     name: 圣火降魔录外传 (日版) (策略角色扮演)-Fire Emblem Gaiden (Japan)
+    deprecated: 1
   - id: 62402
     kind: 3
     kind_id: 27490
@@ -487,6 +468,12 @@ releases:
     language: 1
     name: Fire Emblem Gaiden (Japan)
     source: no-intro
+  - id: 265427
+    kind: 3
+    kind_id: 27490
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 27472

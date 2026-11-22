@@ -56,27 +56,6 @@ names:
   name: Top Gun
 releases:
 - release:
-    id: 25015
-    game_id: 25015
-    release_type: 2
-  names:
-  - id: 84846
-    kind: 3
-    kind_id: 25015
-    language: 1
-    name: Top Gun (E) [T+Fre_KS151]
-  assets:
-  - asset:
-      id: 24997
-      kind: 3
-      kind_id: 25015
-      type: 1
-      name: Top Gun (E) [T+Fre_KS151].nes
-      format: 1
-      size: 131088
-      blob_id: 70245
-      debug: Top Gun (E) [T+Fre_KS151].nes
-- release:
     id: 25018
     game_id: 25015
   names:
@@ -117,29 +96,9 @@ releases:
       blob_id: 70253
       debug: Top Gun (J) [p1].nes
 - release:
-    id: 25024
-    game_id: 25015
-    release_type: 2
-  names:
-  - id: 84847
-    kind: 3
-    kind_id: 25024
-    language: 1
-    name: Top Gun (U) (PRG0) [T+Pol]
-  assets:
-  - asset:
-      id: 25006
-      kind: 3
-      kind_id: 25024
-      type: 1
-      name: Top Gun (U) (PRG0) [T+Pol].nes
-      format: 1
-      size: 131088
-      blob_id: 70254
-      debug: Top Gun (U) (PRG0) [T+Pol].nes
-- release:
     id: 25027
     game_id: 25015
+    release_type: 1
   names:
   - id: 55934
     kind: 3
@@ -152,12 +111,19 @@ releases:
     kind_id: 25027
     language: 2
     name: 捍卫战士 (美版)(Rev A) (模拟射击)-Top Gun (USA) (Rev A)
+    deprecated: 1
   - id: 259682
     kind: 3
     kind_id: 25027
     language: 1
     name: Top Gun (USA) (Rev 1)
     source: no-intro
+  - id: 265029
+    kind: 3
+    kind_id: 25027
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 25009
@@ -186,6 +152,7 @@ releases:
 - release:
     id: 25028
     game_id: 25015
+    release_type: 1
   names:
   - id: 55936
     kind: 3
@@ -198,11 +165,13 @@ releases:
     kind_id: 25028
     language: 2
     name: 壮志凌云1
+    deprecated: 1
   - id: 65259
     kind: 3
     kind_id: 25028
     language: 2
     name: 捍卫战士 (美版) (模拟射击)-Top Gun (USA)
+    deprecated: 1
   - id: 65260
     kind: 3
     kind_id: 25028
@@ -215,6 +184,12 @@ releases:
     language: 1
     name: Top Gun (USA)
     source: no-intro
+  - id: 265030
+    kind: 3
+    kind_id: 25028
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 25010
@@ -292,12 +267,14 @@ releases:
 - release:
     id: 28357
     game_id: 25015
+    release_type: 1
   names:
   - id: 65251
     kind: 3
     kind_id: 28357
     language: 2
     name: 捍卫战士 (日版) (模拟射击)-Top Gun (Japan)
+    deprecated: 1
   - id: 65252
     kind: 3
     kind_id: 28357
@@ -310,6 +287,12 @@ releases:
     language: 1
     name: Top Gun (Japan)
     source: no-intro
+  - id: 265682
+    kind: 3
+    kind_id: 28357
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 28339
@@ -337,12 +320,14 @@ releases:
 - release:
     id: 28358
     game_id: 25015
+    release_type: 1
   names:
   - id: 65255
     kind: 3
     kind_id: 28358
     language: 2
     name: 捍卫战士 (欧版) (模拟射击)-Top Gun (Europe)
+    deprecated: 1
   - id: 65256
     kind: 3
     kind_id: 28358
@@ -355,6 +340,12 @@ releases:
     language: 1
     name: Top Gun (Europe)
     source: no-intro
+  - id: 265683
+    kind: 3
+    kind_id: 28358
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 28340

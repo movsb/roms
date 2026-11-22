@@ -50,6 +50,7 @@ releases:
 - release:
     id: 25664
     game_id: 25672
+    release_type: 1
   names:
   - id: 57370
     kind: 3
@@ -63,6 +64,12 @@ releases:
     language: 1
     name: "WWF WrestleMania - Steel Cage Challenge (USA)"
     source: no-intro
+  - id: 265091
+    kind: 3
+    kind_id: 25664
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 25646
@@ -90,6 +97,7 @@ releases:
 - release:
     id: 25673
     game_id: 25672
+    release_type: 1
   names:
   - id: 57388
     kind: 3
@@ -102,12 +110,19 @@ releases:
     kind_id: 25673
     language: 2
     name: "世界摔角联盟 - 铁牢锦标赛 (美版) (运动)-WWF Wrestlemania Steel Cage Challenge (USA)"
+    deprecated: 1
   - id: 259775
     kind: 3
     kind_id: 25673
     language: 1
     name: "WWF WrestleMania - Steel Cage Challenge (USA)"
     source: no-intro
+  - id: 265093
+    kind: 3
+    kind_id: 25673
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 25655
@@ -130,48 +145,6 @@ releases:
       size: 5764
       blob_id: 323103
       debug: fc-title-trial:fceumm:rom-asset=25655:frame=1200
-- release:
-    id: 25674
-    game_id: 25672
-    release_type: 2
-  names:
-  - id: 84929
-    kind: 3
-    kind_id: 25674
-    language: 1
-    name: "WWF WrestleMania - Steel Cage Challenge (U) [T+Spa99%_Emu4ever]"
-  assets:
-  - asset:
-      id: 25656
-      kind: 3
-      kind_id: 25674
-      type: 1
-      name: "WWF WrestleMania - Steel Cage Challenge (U) [T+Spa99%_Emu4ever].nes"
-      format: 1
-      size: 393232
-      blob_id: 70854
-      debug: "WWF WrestleMania - Steel Cage Challenge (U) [T+Spa99%_Emu4ever].nes"
-- release:
-    id: 25675
-    game_id: 25672
-    release_type: 2
-  names:
-  - id: 84930
-    kind: 3
-    kind_id: 25675
-    language: 1
-    name: "WWF WrestleMania - Steel Cage Challenge (U) [T+Spa_PaladinKnights]"
-  assets:
-  - asset:
-      id: 25657
-      kind: 3
-      kind_id: 25675
-      type: 1
-      name: "WWF WrestleMania - Steel Cage Challenge (U) [T+Spa_PaladinKnights].nes"
-      format: 1
-      size: 393232
-      blob_id: 70855
-      debug: "WWF WrestleMania - Steel Cage Challenge (U) [T+Spa_PaladinKnights].nes"
 - release:
     id: 26066
     game_id: 25672
@@ -196,12 +169,14 @@ releases:
 - release:
     id: 26748
     game_id: 25672
+    release_type: 1
   names:
   - id: 59985
     kind: 3
     kind_id: 26748
     language: 2
     name: "世界摔角联盟 - 铁牢锦标赛 (欧版) (运动)-WWF Wrestlemania Steel Cage Challenge (Europe)"
+    deprecated: 1
   - id: 59986
     kind: 3
     kind_id: 26748
@@ -214,6 +189,12 @@ releases:
     language: 1
     name: "WWF WrestleMania - Steel Cage Challenge (Europe)"
     source: no-intro
+  - id: 265195
+    kind: 3
+    kind_id: 26748
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 26730

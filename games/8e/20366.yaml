@@ -61,48 +61,6 @@ releases:
       blob_id: 324145
       debug: libretro-named-titles:rom-asset=20352:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Rolling%20Thunder%20%28Japan%29.png
 - release:
-    id: 20371
-    game_id: 20366
-    release_type: 2
-  names:
-  - id: 84277
-    kind: 3
-    kind_id: 20371
-    language: 1
-    name: Rolling Thunder (Tengen) [T+Bra_POBRE]
-  assets:
-  - asset:
-      id: 20353
-      kind: 3
-      kind_id: 20371
-      type: 1
-      name: Rolling Thunder (Tengen) [T+Bra_POBRE].nes
-      format: 1
-      size: 262160
-      blob_id: 65818
-      debug: Rolling Thunder (Tengen) [T+Bra_POBRE].nes
-- release:
-    id: 20372
-    game_id: 20366
-    release_type: 2
-  names:
-  - id: 84278
-    kind: 3
-    kind_id: 20372
-    language: 1
-    name: Rolling Thunder (Tengen) [T+Fre_terminus]
-  assets:
-  - asset:
-      id: 20354
-      kind: 3
-      kind_id: 20372
-      type: 1
-      name: Rolling Thunder (Tengen) [T+Fre_terminus].nes
-      format: 1
-      size: 262160
-      blob_id: 65819
-      debug: Rolling Thunder (Tengen) [T+Fre_terminus].nes
-- release:
     id: 20374
     game_id: 20366
   names:
@@ -197,12 +155,14 @@ releases:
 - release:
     id: 30154
     game_id: 20366
+    release_type: 1
   names:
   - id: 71341
     kind: 3
     kind_id: 30154
     language: 2
     name: 雷霆行动 (日版) (动作)-Rolling Thunder (Japan)
+    deprecated: 1
   - id: 71342
     kind: 3
     kind_id: 30154
@@ -215,6 +175,12 @@ releases:
     language: 1
     name: Rolling Thunder (Japan)
     source: no-intro
+  - id: 266248
+    kind: 3
+    kind_id: 30154
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 30136

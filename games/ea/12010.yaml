@@ -52,6 +52,7 @@ releases:
 - release:
     id: 12049
     game_id: 12010
+    release_type: 1
   names:
   - id: 26438
     kind: 3
@@ -65,6 +66,12 @@ releases:
     language: 1
     name: Galaxian (Japan) (En)
     source: no-intro
+  - id: 264226
+    kind: 3
+    kind_id: 12049
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 12031
@@ -109,27 +116,6 @@ releases:
       size: 24592
       blob_id: 57972
       debug: Galaxian (J) (REV0) [p2].nes
-- release:
-    id: 12053
-    game_id: 12010
-    release_type: 2
-  names:
-  - id: 83160
-    kind: 3
-    kind_id: 12053
-    language: 1
-    name: Galaxian (J) [T+Pol_Dark Archon]
-  assets:
-  - asset:
-      id: 12035
-      kind: 3
-      kind_id: 12053
-      type: 1
-      name: Galaxian (J) [T+Pol_Dark Archon].nes
-      format: 1
-      size: 24592
-      blob_id: 57974
-      debug: Galaxian (J) [T+Pol_Dark Archon].nes
 - release:
     id: 12054
     game_id: 12010
@@ -238,18 +224,26 @@ releases:
 - release:
     id: 27872
     game_id: 12010
+    release_type: 1
   names:
   - id: 63684
     kind: 3
     kind_id: 27872
     language: 2
     name: 小蜜蜂 (日版) (射击)-Galaxian (Japan)
+    deprecated: 1
   - id: 260423
     kind: 3
     kind_id: 27872
     language: 1
     name: Galaxian (Japan) (En)
     source: no-intro
+  - id: 265542
+    kind: 3
+    kind_id: 27872
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 27854
@@ -277,12 +271,14 @@ releases:
 - release:
     id: 27873
     game_id: 12010
+    release_type: 1
   names:
   - id: 63687
     kind: 3
     kind_id: 27873
     language: 2
     name: 小蜜蜂 (日版)(Rev A) (射击)-Galaxian (Japan) (Rev A)
+    deprecated: 1
   - id: 63688
     kind: 3
     kind_id: 27873
@@ -295,6 +291,12 @@ releases:
     language: 1
     name: Galaxian (Japan) (En) (Rev 1)
     source: no-intro
+  - id: 265543
+    kind: 3
+    kind_id: 27873
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 27855

@@ -58,6 +58,7 @@ releases:
 - release:
     id: 15143
     game_id: 15142
+    release_type: 1
   names:
   - id: 33602
     kind: 3
@@ -76,12 +77,19 @@ releases:
     kind_id: 15143
     language: 2
     name: 致命武器 (美版) (动作)-Lethal Weapon (USA)
+    deprecated: 1
   - id: 258640
     kind: 3
     kind_id: 15143
     language: 1
     name: Lethal Weapon (USA)
     source: no-intro
+  - id: 264470
+    kind: 3
+    kind_id: 15143
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 15125
@@ -151,12 +159,14 @@ releases:
 - release:
     id: 29503
     game_id: 15142
+    release_type: 1
   names:
   - id: 69141
     kind: 3
     kind_id: 29503
     language: 2
     name: 致命武器 (欧版) (动作)-Lethal Weapon (Europe)
+    deprecated: 1
   - id: 69142
     kind: 3
     kind_id: 29503
@@ -169,6 +179,12 @@ releases:
     language: 1
     name: Lethal Weapon (Europe)
     source: no-intro
+  - id: 266053
+    kind: 3
+    kind_id: 29503
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 29485

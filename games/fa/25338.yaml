@@ -115,6 +115,7 @@ releases:
 - release:
     id: 25338
     game_id: 25338
+    release_type: 1
   names:
   - id: 56638
     kind: 3
@@ -133,17 +134,25 @@ releases:
     kind_id: 25338
     language: 2
     name: 太东篮球
+    deprecated: 1
   - id: 66843
     kind: 3
     kind_id: 25338
     language: 2
     name: 泰德终极篮球 (美版) (运动)-Ultimate Basketball (USA)
+    deprecated: 1
   - id: 259732
     kind: 3
     kind_id: 25338
     language: 1
     name: Ultimate Basketball (USA)
     source: no-intro
+  - id: 265068
+    kind: 3
+    kind_id: 25338
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 25320
@@ -172,29 +181,9 @@ releases:
       blob_id: 323085
       debug: fc-title-trial:fceumm:rom-asset=25320:frame=900
 - release:
-    id: 25339
-    game_id: 25338
-    release_type: 2
-  names:
-  - id: 84890
-    kind: 3
-    kind_id: 25339
-    language: 1
-    name: Ultimate Basketball (U) [T+Pol]
-  assets:
-  - asset:
-      id: 25321
-      kind: 3
-      kind_id: 25339
-      type: 1
-      name: Ultimate Basketball (U) [T+Pol].nes
-      format: 1
-      size: 262160
-      blob_id: 70543
-      debug: Ultimate Basketball (U) [T+Pol].nes
-- release:
     id: 25341
     game_id: 25338
+    release_type: 1
   names:
   - id: 56646
     kind: 3
@@ -208,6 +197,12 @@ releases:
     language: 1
     name: Ultimate Basketball (USA)
     source: no-intro
+  - id: 265069
+    kind: 3
+    kind_id: 25341
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 25323
@@ -235,12 +230,14 @@ releases:
 - release:
     id: 28816
     game_id: 25338
+    release_type: 1
   names:
   - id: 66839
     kind: 3
     kind_id: 28816
     language: 2
     name: 泰德终极篮球 (日版) (运动)-Taito Basketball (Japan)
+    deprecated: 1
   - id: 66840
     kind: 3
     kind_id: 28816
@@ -253,6 +250,12 @@ releases:
     language: 1
     name: Taito Basketball (Japan)
     source: no-intro
+  - id: 265846
+    kind: 3
+    kind_id: 28816
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 28798

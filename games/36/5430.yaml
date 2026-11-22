@@ -27,6 +27,7 @@ releases:
 - release:
     id: 5430
     game_id: 5430
+    release_type: 1
   names:
   - id: 11096
     kind: 3
@@ -45,12 +46,19 @@ releases:
     kind_id: 5430
     language: 2
     name: 鳄鱼先生 (美版) (动作)-Adventures of Bayou Billy, The (USA)
+    deprecated: 1
   - id: 257596
     kind: 3
     kind_id: 5430
     language: 1
     name: Adventures of Bayou Billy, The (USA)
     source: no-intro
+  - id: 263810
+    kind: 3
+    kind_id: 5430
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 5412
@@ -79,48 +87,6 @@ releases:
       blob_id: 322314
       debug: fc-title-trial:fceumm:rom-asset=5412:frame=180
 - release:
-    id: 5431
-    game_id: 5430
-    release_type: 2
-  names:
-  - id: 82145
-    kind: 3
-    kind_id: 5431
-    language: 1
-    name: Adventures of Bayou Billy, The (U) [T+FreBeta_ks151]
-  assets:
-  - asset:
-      id: 5413
-      kind: 3
-      kind_id: 5431
-      type: 1
-      name: Adventures of Bayou Billy, The (U) [T+FreBeta_ks151].nes
-      format: 1
-      size: 262160
-      blob_id: 51724
-      debug: Adventures of Bayou Billy, The (U) [T+FreBeta_ks151].nes
-- release:
-    id: 5432
-    game_id: 5430
-    release_type: 2
-  names:
-  - id: 82146
-    kind: 3
-    kind_id: 5432
-    language: 1
-    name: Adventures of Bayou Billy, The (U) [T+Rus_Chief-Net]
-  assets:
-  - asset:
-      id: 5414
-      kind: 3
-      kind_id: 5432
-      type: 1
-      name: Adventures of Bayou Billy, The (U) [T+Rus_Chief-Net].nes
-      format: 1
-      size: 262160
-      blob_id: 51725
-      debug: Adventures of Bayou Billy, The (U) [T+Rus_Chief-Net].nes
-- release:
     id: 5436
     game_id: 5430
   names:
@@ -143,12 +109,14 @@ releases:
 - release:
     id: 30382
     game_id: 5430
+    release_type: 1
   names:
   - id: 72099
     kind: 3
     kind_id: 30382
     language: 2
     name: 鳄鱼先生 (欧版) (动作)-Adventures of Bayou Billy, The (Europe)
+    deprecated: 1
   - id: 72100
     kind: 3
     kind_id: 30382
@@ -161,6 +129,12 @@ releases:
     language: 1
     name: Adventures of Bayou Billy, The (Europe)
     source: no-intro
+  - id: 266323
+    kind: 3
+    kind_id: 30382
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 30364

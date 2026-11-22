@@ -36,6 +36,7 @@ releases:
 - release:
     id: 20511
     game_id: 20517
+    release_type: 1
   names:
   - id: 45704
     kind: 3
@@ -49,6 +50,12 @@ releases:
     language: 1
     name: "SD Hero Soukessen - Taose! Aku no Gundan (Japan)"
     source: no-intro
+  - id: 264801
+    kind: 3
+    kind_id: 20511
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 20493
@@ -114,27 +121,6 @@ releases:
       blob_id: 65953
       debug: "SD Hero Soukessen - Taose! Aku no Gundan (J) [T+Chi_ms emumax].nes"
 - release:
-    id: 20514
-    game_id: 20517
-    release_type: 2
-  names:
-  - id: 84307
-    kind: 3
-    kind_id: 20514
-    language: 1
-    name: "SD Hero Soukessen - Taose! Aku no Gundan (J) [T+Kor_88KTT]"
-  assets:
-  - asset:
-      id: 20496
-      kind: 3
-      kind_id: 20514
-      type: 1
-      name: "SD Hero Soukessen - Taose! Aku no Gundan (J) [T+Kor_88KTT].nes"
-      format: 1
-      size: 262160
-      blob_id: 65954
-      debug: "SD Hero Soukessen - Taose! Aku no Gundan (J) [T+Kor_88KTT].nes"
-- release:
     id: 20515
     game_id: 20517
     release_type: 3
@@ -158,6 +144,7 @@ releases:
 - release:
     id: 20516
     game_id: 20517
+    release_type: 1
   names:
   - id: 45720
     kind: 3
@@ -170,12 +157,19 @@ releases:
     kind_id: 20516
     language: 2
     name: SD英雄总决战
+    deprecated: 1
   - id: 259239
     kind: 3
     kind_id: 20516
     language: 1
     name: "SD Hero Soukessen - Taose! Aku no Gundan (Japan)"
     source: no-intro
+  - id: 264802
+    kind: 3
+    kind_id: 20516
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 20498

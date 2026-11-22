@@ -121,29 +121,9 @@ releases:
       blob_id: 324827
       debug: libretro-named-titles:rom-asset=10934:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Excitebike%20%28Europe%29%20%28Virtual%20Console%29.png
 - release:
-    id: 10953
-    game_id: 10952
-    release_type: 2
-  names:
-  - id: 82955
-    kind: 3
-    kind_id: 10953
-    language: 1
-    name: Excitebike (E) [T+Bra_grillo4]
-  assets:
-  - asset:
-      id: 10935
-      kind: 3
-      kind_id: 10953
-      type: 1
-      name: Excitebike (E) [T+Bra_grillo4].nes
-      format: 1
-      size: 24592
-      blob_id: 56940
-      debug: Excitebike (E) [T+Bra_grillo4].nes
-- release:
     id: 10954
     game_id: 10952
+    release_type: 1
   names:
   - id: 23780
     kind: 3
@@ -157,6 +137,12 @@ releases:
     language: 1
     name: Excitebike (Japan, USA) (En) (Animal Crossing)
     source: no-intro
+  - id: 264146
+    kind: 3
+    kind_id: 10954
+    language: 2
+    name: 日美版
+    source: codex
   assets:
   - asset:
       id: 10936
@@ -202,6 +188,7 @@ releases:
 - release:
     id: 10956
     game_id: 10952
+    release_type: 1
   names:
   - id: 23784
     kind: 3
@@ -214,12 +201,19 @@ releases:
     kind_id: 10956
     language: 2
     name: 火爆机车赛 (日版,美版) (竞赛)-Excitebike (Japan, USA)
+    deprecated: 1
   - id: 258144
     kind: 3
     kind_id: 10956
     language: 1
     name: Excitebike (Japan, USA) (En)
     source: no-intro
+  - id: 264147
+    kind: 3
+    kind_id: 10956
+    language: 2
+    name: 日美版
+    source: codex
   assets:
   - asset:
       id: 10938
@@ -267,111 +261,6 @@ releases:
       blob_id: 56944
       debug: Excitebike (JU) [T+Chi][a1].nes
 - release:
-    id: 10958
-    game_id: 10952
-    release_type: 2
-  names:
-  - id: 82957
-    kind: 3
-    kind_id: 10958
-    language: 1
-    name: Excitebike (JU) [T+Pol]
-  assets:
-  - asset:
-      id: 10940
-      kind: 3
-      kind_id: 10958
-      type: 1
-      name: Excitebike (JU) [T+Pol].nes
-      format: 1
-      size: 24592
-      blob_id: 56945
-      debug: Excitebike (JU) [T+Pol].nes
-- release:
-    id: 10959
-    game_id: 10952
-    release_type: 2
-  names:
-  - id: 82958
-    kind: 3
-    kind_id: 10959
-    language: 1
-    name: Excitebike (JU) [T+Pol][a1]
-  assets:
-  - asset:
-      id: 10941
-      kind: 3
-      kind_id: 10959
-      type: 1
-      name: Excitebike (JU) [T+Pol][a1].nes
-      format: 1
-      size: 24720
-      blob_id: 56946
-      debug: Excitebike (JU) [T+Pol][a1].nes
-- release:
-    id: 10960
-    game_id: 10952
-    release_type: 2
-  names:
-  - id: 82959
-    kind: 3
-    kind_id: 10960
-    language: 1
-    name: Excitebike (JU) [T+Por99%_EmuSamba]
-  assets:
-  - asset:
-      id: 10942
-      kind: 3
-      kind_id: 10960
-      type: 1
-      name: Excitebike (JU) [T+Por99%_EmuSamba].nes
-      format: 1
-      size: 24592
-      blob_id: 56947
-      debug: Excitebike (JU) [T+Por99%_EmuSamba].nes
-- release:
-    id: 10962
-    game_id: 10952
-    release_type: 2
-  names:
-  - id: 82961
-    kind: 3
-    kind_id: 10962
-    language: 1
-    name: Excitebike (JU) [T+Rus_Multisoft]
-  assets:
-  - asset:
-      id: 10944
-      kind: 3
-      kind_id: 10962
-      type: 1
-      name: Excitebike (JU) [T+Rus_Multisoft].nes
-      format: 1
-      size: 24592
-      blob_id: 56949
-      debug: Excitebike (JU) [T+Rus_Multisoft].nes
-- release:
-    id: 10963
-    game_id: 10952
-    release_type: 2
-  names:
-  - id: 82962
-    kind: 3
-    kind_id: 10963
-    language: 1
-    name: Excitebike (JU) [T+Spa]
-  assets:
-  - asset:
-      id: 10945
-      kind: 3
-      kind_id: 10963
-      type: 1
-      name: Excitebike (JU) [T+Spa].nes
-      format: 1
-      size: 24592
-      blob_id: 56950
-      debug: Excitebike (JU) [T+Spa].nes
-- release:
     id: 10978
     game_id: 10952
   names:
@@ -412,27 +301,6 @@ releases:
       blob_id: 56967
       debug: Excitebike (JU) [p2].nes
 - release:
-    id: 10981
-    game_id: 10952
-    release_type: 2
-  names:
-  - id: 82966
-    kind: 3
-    kind_id: 10981
-    language: 1
-    name: Excitebike (PC10) [T+Fre1.0_ks151]
-  assets:
-  - asset:
-      id: 10963
-      kind: 3
-      kind_id: 10981
-      type: 1
-      name: Excitebike (PC10) [T+Fre1.0_ks151].nes
-      format: 1
-      size: 32784
-      blob_id: 56968
-      debug: Excitebike (PC10) [T+Fre1.0_ks151].nes
-- release:
     id: 10982
     game_id: 10952
   names:
@@ -455,6 +323,7 @@ releases:
 - release:
     id: 10983
     game_id: 10952
+    release_type: 1
   names:
   - id: 23860
     kind: 3
@@ -468,6 +337,12 @@ releases:
     language: 1
     name: Excitebike (USA) (e-Reader)
     source: no-intro
+  - id: 264148
+    kind: 3
+    kind_id: 10983
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 10965
@@ -550,12 +425,14 @@ releases:
 - release:
     id: 28945
     game_id: 10952
+    release_type: 1
   names:
   - id: 67269
     kind: 3
     kind_id: 28945
     language: 2
     name: 火爆机车赛 (欧版) (竞赛)-Excitebike (Europe)
+    deprecated: 1
   - id: 67270
     kind: 3
     kind_id: 28945
@@ -568,6 +445,12 @@ releases:
     language: 1
     name: Excitebike (Europe)
     source: no-intro
+  - id: 265879
+    kind: 3
+    kind_id: 28945
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 28927

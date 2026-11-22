@@ -32,6 +32,7 @@ releases:
 - release:
     id: 10667
     game_id: 10692
+    release_type: 1
   names:
   - id: 23132
     kind: 3
@@ -50,6 +51,7 @@ releases:
     kind_id: 10667
     language: 2
     name: 猎鸭行动 (世界版) (光线枪射击)-Duck Hunt (World)
+    deprecated: 1
   - id: 67794
     kind: 3
     kind_id: 10667
@@ -62,6 +64,12 @@ releases:
     language: 1
     name: Duck Hunt (World)
     source: no-intro
+  - id: 264131
+    kind: 3
+    kind_id: 10667
+    language: 2
+    name: 世界版
+    source: codex
   assets:
   - asset:
       id: 10649
@@ -88,27 +96,6 @@ releases:
       size: 1956
       blob_id: 322498
       debug: fc-title-trial:fceumm:rom-asset=10649:frame=180
-- release:
-    id: 10668
-    game_id: 10692
-    release_type: 2
-  names:
-  - id: 82919
-    kind: 3
-    kind_id: 10668
-    language: 1
-    name: Duck Hunt (PC10) [T+Fre1.1_ks151]
-  assets:
-  - asset:
-      id: 10650
-      kind: 3
-      kind_id: 10668
-      type: 1
-      name: Duck Hunt (PC10) [T+Fre1.1_ks151].nes
-      format: 1
-      size: 32784
-      blob_id: 56671
-      debug: Duck Hunt (PC10) [T+Fre1.1_ks151].nes
 - release:
     id: 10669
     game_id: 10692
@@ -150,90 +137,6 @@ releases:
       blob_id: 56674
       debug: Duck Hunt (VS).nes
 - release:
-    id: 10672
-    game_id: 10692
-    release_type: 2
-  names:
-  - id: 82920
-    kind: 3
-    kind_id: 10672
-    language: 1
-    name: Duck Hunt (W) [T+Dut1.1_OK Impala!]
-  assets:
-  - asset:
-      id: 10654
-      kind: 3
-      kind_id: 10672
-      type: 1
-      name: Duck Hunt (W) [T+Dut1.1_OK Impala!].nes
-      format: 1
-      size: 24592
-      blob_id: 56675
-      debug: Duck Hunt (W) [T+Dut1.1_OK Impala!].nes
-- release:
-    id: 10673
-    game_id: 10692
-    release_type: 2
-  names:
-  - id: 82921
-    kind: 3
-    kind_id: 10673
-    language: 1
-    name: Duck Hunt (W) [T+Fre]
-  assets:
-  - asset:
-      id: 10655
-      kind: 3
-      kind_id: 10673
-      type: 1
-      name: Duck Hunt (W) [T+Fre].nes
-      format: 1
-      size: 24592
-      blob_id: 56676
-      debug: Duck Hunt (W) [T+Fre].nes
-- release:
-    id: 10674
-    game_id: 10692
-    release_type: 2
-  names:
-  - id: 82922
-    kind: 3
-    kind_id: 10674
-    language: 1
-    name: Duck Hunt (W) [T+Rus_Multisoft]
-  assets:
-  - asset:
-      id: 10656
-      kind: 3
-      kind_id: 10674
-      type: 1
-      name: Duck Hunt (W) [T+Rus_Multisoft].nes
-      format: 1
-      size: 24592
-      blob_id: 56677
-      debug: Duck Hunt (W) [T+Rus_Multisoft].nes
-- release:
-    id: 10675
-    game_id: 10692
-    release_type: 2
-  names:
-  - id: 23156
-    kind: 3
-    kind_id: 10675
-    language: 1
-    name: Duck Hunt (W) [T-Dut1.0_OK Impala!]
-  assets:
-  - asset:
-      id: 10657
-      kind: 3
-      kind_id: 10675
-      type: 1
-      name: Duck Hunt (W) [T-Dut1.0_OK Impala!].nes
-      format: 1
-      size: 24592
-      blob_id: 56678
-      debug: Duck Hunt (W) [T-Dut1.0_OK Impala!].nes
-- release:
     id: 10680
     game_id: 10692
   names:
@@ -253,27 +156,6 @@ releases:
       size: 24592
       blob_id: 56683
       debug: Duck Hunt (W) [p1].nes
-- release:
-    id: 10681
-    game_id: 10692
-    release_type: 2
-  names:
-  - id: 82923
-    kind: 3
-    kind_id: 10681
-    language: 1
-    name: Duck Hunt (W) [p1][T+Fre]
-  assets:
-  - asset:
-      id: 10663
-      kind: 3
-      kind_id: 10681
-      type: 1
-      name: Duck Hunt (W) [p1][T+Fre].nes
-      format: 1
-      size: 24592
-      blob_id: 56684
-      debug: Duck Hunt (W) [p1][T+Fre].nes
 - release:
     id: 10683
     game_id: 10692

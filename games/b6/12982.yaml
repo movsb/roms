@@ -149,48 +149,6 @@ releases:
       blob_id: 58864
       debug: Hello Kitty World (J) [T+Eng_Chaos Vegetable].nes
 - release:
-    id: 12987
-    game_id: 12982
-    release_type: 2
-  names:
-  - id: 83270
-    kind: 3
-    kind_id: 12987
-    language: 1
-    name: Hello Kitty World (J) [T+Fre_Emulation-151]
-  assets:
-  - asset:
-      id: 12969
-      kind: 3
-      kind_id: 12987
-      type: 1
-      name: Hello Kitty World (J) [T+Fre_Emulation-151].nes
-      format: 1
-      size: 131088
-      blob_id: 58865
-      debug: Hello Kitty World (J) [T+Fre_Emulation-151].nes
-- release:
-    id: 12988
-    game_id: 12982
-    release_type: 2
-  names:
-  - id: 83271
-    kind: 3
-    kind_id: 12988
-    language: 1
-    name: Hello Kitty World (J) [T+Rus_Guyver]
-  assets:
-  - asset:
-      id: 12970
-      kind: 3
-      kind_id: 12988
-      type: 1
-      name: Hello Kitty World (J) [T+Rus_Guyver].nes
-      format: 1
-      size: 131088
-      blob_id: 58866
-      debug: Hello Kitty World (J) [T+Rus_Guyver].nes
-- release:
     id: 12993
     game_id: 12982
     release_date: 19920327
@@ -200,12 +158,14 @@ releases:
 - release:
     id: 27122
     game_id: 12982
+    release_type: 1
   names:
   - id: 61209
     kind: 3
     kind_id: 27122
     language: 2
     name: 凯蒂猫世界 (日版) (动作)-Hello Kitty World (Japan)
+    deprecated: 1
   - id: 61210
     kind: 3
     kind_id: 27122
@@ -218,6 +178,12 @@ releases:
     language: 1
     name: Hello Kitty World (Japan)
     source: no-intro
+  - id: 265320
+    kind: 3
+    kind_id: 27122
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 27104

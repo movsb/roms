@@ -35,111 +35,6 @@ names:
   name: 大力水手
 releases:
 - release:
-    id: 19045
-    game_id: 19073
-    release_type: 2
-  names:
-  - id: 84143
-    kind: 3
-    kind_id: 19045
-    language: 1
-    name: Popeye (JU) (PRG0) [T+Fre_Generation IX]
-  assets:
-  - asset:
-      id: 19027
-      kind: 3
-      kind_id: 19045
-      type: 1
-      name: Popeye (JU) (PRG0) [T+Fre_Generation IX].nes
-      format: 1
-      size: 24592
-      blob_id: 64563
-      debug: Popeye (JU) (PRG0) [T+Fre_Generation IX].nes
-- release:
-    id: 19046
-    game_id: 19073
-    release_type: 2
-  names:
-  - id: 84144
-    kind: 3
-    kind_id: 19046
-    language: 1
-    name: Popeye (JU) (PRG0) [T+Ger]
-  assets:
-  - asset:
-      id: 19028
-      kind: 3
-      kind_id: 19046
-      type: 1
-      name: Popeye (JU) (PRG0) [T+Ger].nes
-      format: 1
-      size: 24592
-      blob_id: 64564
-      debug: Popeye (JU) (PRG0) [T+Ger].nes
-- release:
-    id: 19047
-    game_id: 19073
-    release_type: 2
-  names:
-  - id: 84145
-    kind: 3
-    kind_id: 19047
-    language: 1
-    name: Popeye (JU) (PRG0) [T+Rus_Guyver]
-  assets:
-  - asset:
-      id: 19029
-      kind: 3
-      kind_id: 19047
-      type: 1
-      name: Popeye (JU) (PRG0) [T+Rus_Guyver].nes
-      format: 1
-      size: 24592
-      blob_id: 64565
-      debug: Popeye (JU) (PRG0) [T+Rus_Guyver].nes
-- release:
-    id: 19048
-    game_id: 19073
-    release_type: 2
-  names:
-  - id: 84146
-    kind: 3
-    kind_id: 19048
-    language: 1
-    name: Popeye (JU) (PRG0) [T+Rus_Mario Soft]
-  assets:
-  - asset:
-      id: 19030
-      kind: 3
-      kind_id: 19048
-      type: 1
-      name: Popeye (JU) (PRG0) [T+Rus_Mario Soft].nes
-      format: 1
-      size: 24592
-      blob_id: 64566
-      debug: Popeye (JU) (PRG0) [T+Rus_Mario Soft].nes
-- release:
-    id: 19050
-    game_id: 19073
-    release_type: 2
-  names:
-  - id: 84148
-    kind: 3
-    kind_id: 19050
-    language: 1
-    name: Popeye (JU) (PRG0) [T+Spa_PaladinKnights]
-  assets:
-  - asset:
-      id: 19032
-      kind: 3
-      kind_id: 19050
-      type: 1
-      name: Popeye (JU) (PRG0) [T+Spa_PaladinKnights].nes
-      format: 1
-      size: 24592
-      blob_id: 64568
-      debug: Popeye (JU) (PRG0) [T+Spa_PaladinKnights].nes
-- release:
     id: 19059
     game_id: 19073
   names:
@@ -162,6 +57,7 @@ releases:
 - release:
     id: 19061
     game_id: 19073
+    release_type: 1
   names:
   - id: 42472
     kind: 3
@@ -174,12 +70,19 @@ releases:
     kind_id: 19061
     language: 2
     name: 大力水手 (世界版) (动作)-Popeye (World) (Rev A)
+    deprecated: 1
   - id: 259070
     kind: 3
     kind_id: 19061
     language: 1
     name: Popeye (World) (Rev 1)
     source: no-intro
+  - id: 264692
+    kind: 3
+    kind_id: 19061
+    language: 2
+    name: 世界版
+    source: codex
   assets:
   - asset:
       id: 19043
@@ -286,6 +189,7 @@ releases:
 - release:
     id: 19073
     game_id: 19073
+    release_type: 1
   names:
   - id: 42500
     kind: 3
@@ -299,6 +203,12 @@ releases:
     language: 1
     name: Popeye (Japan)
     source: no-intro
+  - id: 264693
+    kind: 3
+    kind_id: 19073
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 19055
@@ -326,12 +236,14 @@ releases:
 - release:
     id: 27584
     game_id: 19073
+    release_type: 1
   names:
   - id: 62715
     kind: 3
     kind_id: 27584
     language: 2
     name: 大力水手 (日版) (动作)-Popeye (Japan)
+    deprecated: 1
   - id: 62716
     kind: 3
     kind_id: 27584
@@ -344,6 +256,12 @@ releases:
     language: 1
     name: Popeye (Japan)
     source: no-intro
+  - id: 265447
+    kind: 3
+    kind_id: 27584
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 27566

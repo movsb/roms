@@ -174,6 +174,7 @@ releases:
 - release:
     id: 25919
     game_id: 20661
+    release_type: 1
   names:
   - id: 57936
     kind: 3
@@ -192,12 +193,19 @@ releases:
     kind_id: 25919
     language: 2
     name: 西游记2
+    deprecated: 1
   - id: 259806
     kind: 3
     kind_id: 25919
     language: 1
     name: Whomp 'Em (USA)
     source: no-intro
+  - id: 265118
+    kind: 3
+    kind_id: 25919
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 25901
@@ -220,27 +228,6 @@ releases:
       size: 4602
       blob_id: 323120
       debug: fc-title-trial:fceumm:rom-asset=25901:frame=900
-- release:
-    id: 25920
-    game_id: 20661
-    release_type: 2
-  names:
-  - id: 84957
-    kind: 3
-    kind_id: 25920
-    language: 1
-    name: Whomp'Em (U) [T+Fre_Emulation-151]
-  assets:
-  - asset:
-      id: 25902
-      kind: 3
-      kind_id: 25920
-      type: 1
-      name: Whomp'Em (U) [T+Fre_Emulation-151].nes
-      format: 1
-      size: 262160
-      blob_id: 71084
-      debug: Whomp'Em (U) [T+Fre_Emulation-151].nes
 - release:
     id: 29687
     game_id: 20661
@@ -285,18 +272,26 @@ releases:
 - release:
     id: 29691
     game_id: 20661
+    release_type: 1
   names:
   - id: 69756
     kind: 3
     kind_id: 29691
     language: 2
     name: 西游记世界二代
+    deprecated: 1
   - id: 261147
     kind: 3
     kind_id: 29691
     language: 1
     name: "Saiyuuki World 2 - Tenjoukai no Majin (Japan)"
     source: no-intro
+  - id: 266107
+    kind: 3
+    kind_id: 29691
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 29673

@@ -37,6 +37,7 @@ releases:
 - release:
     id: 21725
     game_id: 21725
+    release_type: 1
   names:
   - id: 48374
     kind: 3
@@ -49,12 +50,19 @@ releases:
     kind_id: 21725
     language: 2
     name: "蜘蛛人 - 凶恶六人组的复仇 (美版) (动作)-Spider-Man - Return of the Sinister Six (USA)"
+    deprecated: 1
   - id: 259386
     kind: 3
     kind_id: 21725
     language: 1
     name: "Spider-Man - Return of the Sinister Six (USA)"
     source: no-intro
+  - id: 264889
+    kind: 3
+    kind_id: 21725
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 21707
@@ -77,48 +85,6 @@ releases:
       size: 5549
       blob_id: 322971
       debug: fc-title-trial:fceumm:rom-asset=21707:frame=600
-- release:
-    id: 21726
-    game_id: 21725
-    release_type: 2
-  names:
-  - id: 84411
-    kind: 3
-    kind_id: 21726
-    language: 1
-    name: "Spider-Man - Return of the Sinister Six (U) [T+Pol]"
-  assets:
-  - asset:
-      id: 21708
-      kind: 3
-      kind_id: 21726
-      type: 1
-      name: "Spider-Man - Return of the Sinister Six (U) [T+Pol].nes"
-      format: 1
-      size: 393232
-      blob_id: 67095
-      debug: "Spider-Man - Return of the Sinister Six (U) [T+Pol].nes"
-- release:
-    id: 21728
-    game_id: 21725
-    release_type: 2
-  names:
-  - id: 84413
-    kind: 3
-    kind_id: 21728
-    language: 1
-    name: "Spider-Man - Return of the Sinister Six (U) [T+Rus_Magicteam]"
-  assets:
-  - asset:
-      id: 21710
-      kind: 3
-      kind_id: 21728
-      type: 1
-      name: "Spider-Man - Return of the Sinister Six (U) [T+Rus_Magicteam].nes"
-      format: 1
-      size: 393232
-      blob_id: 67097
-      debug: "Spider-Man - Return of the Sinister Six (U) [T+Rus_Magicteam].nes"
 - release:
     id: 21732
     game_id: 21725
@@ -162,12 +128,14 @@ releases:
 - release:
     id: 29615
     game_id: 21725
+    release_type: 1
   names:
   - id: 69539
     kind: 3
     kind_id: 29615
     language: 2
     name: "蜘蛛人 - 凶恶六人组的复仇 (欧版) (动作)-Spider-Man - Return of the Sinister Six (Europe)"
+    deprecated: 1
   - id: 69540
     kind: 3
     kind_id: 29615
@@ -180,6 +148,12 @@ releases:
     language: 1
     name: "Spider-Man - Return of the Sinister Six (Europe)"
     source: no-intro
+  - id: 266092
+    kind: 3
+    kind_id: 29615
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 29597
@@ -205,18 +179,26 @@ releases:
 - release:
     id: 29618
     game_id: 21725
+    release_type: 1
   names:
   - id: 69548
     kind: 3
     kind_id: 29618
     language: 2
     name: 蜘蛛侠归来
+    deprecated: 1
   - id: 261129
     kind: 3
     kind_id: 29618
     language: 1
     name: "Spider-Man - Return of the Sinister Six (USA)"
     source: no-intro
+  - id: 266093
+    kind: 3
+    kind_id: 29618
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 29600

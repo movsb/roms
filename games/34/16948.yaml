@@ -53,6 +53,7 @@ releases:
 - release:
     id: 16949
     game_id: 16948
+    release_type: 1
   names:
   - id: 37780
     kind: 3
@@ -71,12 +72,19 @@ releases:
     kind_id: 16949
     language: 2
     name: 大卡车越野赛 (美版) (竞赛)-Monster Truck Rally (USA)
+    deprecated: 1
   - id: 258857
     kind: 3
     kind_id: 16949
     language: 1
     name: Monster Truck Rally (USA)
     source: no-intro
+  - id: 264588
+    kind: 3
+    kind_id: 16949
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 16931
@@ -103,45 +111,3 @@ releases:
       size: 3558
       blob_id: 324085
       debug: libretro-named-titles:rom-asset=16931:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Monster%20Truck%20Rally%20%28USA%29.png
-- release:
-    id: 16950
-    game_id: 16948
-    release_type: 2
-  names:
-  - id: 83924
-    kind: 3
-    kind_id: 16950
-    language: 1
-    name: Monster Truck Rally (U) [T+Rus_Archisai]
-  assets:
-  - asset:
-      id: 16932
-      kind: 3
-      kind_id: 16950
-      type: 1
-      name: Monster Truck Rally (U) [T+Rus_Archisai].nes
-      format: 1
-      size: 65552
-      blob_id: 62565
-      debug: Monster Truck Rally (U) [T+Rus_Archisai].nes
-- release:
-    id: 16951
-    game_id: 16948
-    release_type: 2
-  names:
-  - id: 83925
-    kind: 3
-    kind_id: 16951
-    language: 1
-    name: Monster Truck Rally (U) [T+Rus_Multisoft]
-  assets:
-  - asset:
-      id: 16933
-      kind: 3
-      kind_id: 16951
-      type: 1
-      name: Monster Truck Rally (U) [T+Rus_Multisoft].nes
-      format: 1
-      size: 65552
-      blob_id: 62566
-      debug: Monster Truck Rally (U) [T+Rus_Multisoft].nes

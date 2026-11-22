@@ -27,6 +27,7 @@ releases:
 - release:
     id: 6125
     game_id: 6125
+    release_type: 1
   names:
   - id: 12664
     kind: 3
@@ -40,6 +41,12 @@ releases:
     language: 1
     name: Attack of the Killer Tomatoes (USA)
     source: no-intro
+  - id: 263853
+    kind: 3
+    kind_id: 6125
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 6107
@@ -67,27 +74,6 @@ releases:
       blob_id: 322335
       debug: fc-title-trial:fceumm:rom-asset=6107:frame=900
 - release:
-    id: 6126
-    game_id: 6125
-    release_type: 2
-  names:
-  - id: 82234
-    kind: 3
-    kind_id: 6126
-    language: 1
-    name: Attack of the Killer Tomatoes (U) [T+Spa100%_Emu4ever]
-  assets:
-  - asset:
-      id: 6108
-      kind: 3
-      kind_id: 6126
-      type: 1
-      name: Attack of the Killer Tomatoes (U) [T+Spa100%_Emu4ever].nes
-      format: 1
-      size: 262160
-      blob_id: 52377
-      debug: Attack of the Killer Tomatoes (U) [T+Spa100%_Emu4ever].nes
-- release:
     id: 6135
     game_id: 6125
     release_type: 3
@@ -111,12 +97,14 @@ releases:
 - release:
     id: 29593
     game_id: 6125
+    release_type: 1
   names:
   - id: 69461
     kind: 3
     kind_id: 29593
     language: 2
     name: 蕃茄杀手 (欧版) (动作)-Attack of the Killer Tomatoes (Europe)
+    deprecated: 1
   - id: 69462
     kind: 3
     kind_id: 29593
@@ -129,6 +117,12 @@ releases:
     language: 1
     name: Attack of the Killer Tomatoes (Europe)
     source: no-intro
+  - id: 266081
+    kind: 3
+    kind_id: 29593
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 29575

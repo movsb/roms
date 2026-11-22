@@ -89,6 +89,7 @@ releases:
 - release:
     id: 19746
     game_id: 28040
+    release_type: 1
   names:
   - id: 43964
     kind: 3
@@ -107,12 +108,19 @@ releases:
     kind_id: 19746
     language: 2
     name: "彩虹岛 (美版) (动作)-Rainbow Islands - The Story of Bubble Bobble 2 (USA)"
+    deprecated: 1
   - id: 259155
     kind: 3
     kind_id: 19746
     language: 1
     name: Rainbow Islands (USA)
     source: no-intro
+  - id: 264742
+    kind: 3
+    kind_id: 19746
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 19728
@@ -136,35 +144,16 @@ releases:
       blob_id: 322880
       debug: fc-title-trial:fceumm:rom-asset=19728:frame=300
 - release:
-    id: 19747
-    game_id: 28040
-    release_type: 2
-  names:
-  - id: 84200
-    kind: 3
-    kind_id: 19747
-    language: 1
-    name: "Rainbow Islands - The Story of Bubble Bobble 2 (U) [T+Rus_CaH4e3_&_Chronix]"
-  assets:
-  - asset:
-      id: 19729
-      kind: 3
-      kind_id: 19747
-      type: 1
-      name: "Rainbow Islands - The Story of Bubble Bobble 2 (U) [T+Rus_CaH4e3_&_Chronix].nes"
-      format: 1
-      size: 131088
-      blob_id: 65223
-      debug: "Rainbow Islands - The Story of Bubble Bobble 2 (U) [T+Rus_CaH4e3_&_Chronix].nes"
-- release:
     id: 28037
     game_id: 28040
+    release_type: 1
   names:
   - id: 64251
     kind: 3
     kind_id: 28037
     language: 2
     name: "彩虹岛 (日版) (动作)-Rainbow Islands - The Story of Bubble Bobble 2 (Japan)"
+    deprecated: 1
   - id: 64252
     kind: 3
     kind_id: 28037
@@ -177,6 +166,12 @@ releases:
     language: 1
     name: "Rainbow Islands - The Story of Bubble Bobble 2 (Japan)"
     source: no-intro
+  - id: 265593
+    kind: 3
+    kind_id: 28037
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 28019
@@ -202,12 +197,14 @@ releases:
 - release:
     id: 28038
     game_id: 28040
+    release_type: 1
   names:
   - id: 64255
     kind: 3
     kind_id: 28038
     language: 2
     name: "彩虹岛 (欧版) (动作)-Rainbow Islands - The Story of Bubble Bobble 2 (Europe)"
+    deprecated: 1
   - id: 64256
     kind: 3
     kind_id: 28038
@@ -220,6 +217,12 @@ releases:
     language: 1
     name: "Rainbow Islands - Bubble Bobble 2 (Europe)"
     source: no-intro
+  - id: 265594
+    kind: 3
+    kind_id: 28038
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 28020

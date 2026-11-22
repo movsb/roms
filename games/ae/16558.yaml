@@ -26,6 +26,7 @@ releases:
 - release:
     id: 16558
     game_id: 16558
+    release_type: 1
   names:
   - id: 36874
     kind: 3
@@ -38,17 +39,25 @@ releases:
     kind_id: 16558
     language: 2
     name: 米老鼠 (美版) (动作)-Mickey Mousecapade (USA)
+    deprecated: 1
   - id: 68604
     kind: 3
     kind_id: 16558
     language: 2
     name: 米老鼠1代
+    deprecated: 1
   - id: 258797
     kind: 3
     kind_id: 16558
     language: 1
     name: Mickey Mousecapade (USA)
     source: no-intro
+  - id: 264546
+    kind: 3
+    kind_id: 16558
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 16540
@@ -76,48 +85,6 @@ releases:
       blob_id: 322762
       debug: fc-title-trial:fceumm:rom-asset=16540:frame=180
 - release:
-    id: 16559
-    game_id: 16558
-    release_type: 2
-  names:
-  - id: 83863
-    kind: 3
-    kind_id: 16559
-    language: 1
-    name: Mickey Mousecapade (U) [T+Rus1.1(Mickey Classic)_BlueHairedLady]
-  assets:
-  - asset:
-      id: 16541
-      kind: 3
-      kind_id: 16559
-      type: 1
-      name: Mickey Mousecapade (U) [T+Rus1.1(Mickey Classic)_BlueHairedLady].nes
-      format: 1
-      size: 65552
-      blob_id: 62203
-      debug: Mickey Mousecapade (U) [T+Rus1.1(Mickey Classic)_BlueHairedLady].nes
-- release:
-    id: 16560
-    game_id: 16558
-    release_type: 2
-  names:
-  - id: 83864
-    kind: 3
-    kind_id: 16560
-    language: 1
-    name: Mickey Mousecapade (U) [T+Rus1.1(Minni Classic)_BlueHairedLady]
-  assets:
-  - asset:
-      id: 16542
-      kind: 3
-      kind_id: 16560
-      type: 1
-      name: Mickey Mousecapade (U) [T+Rus1.1(Minni Classic)_BlueHairedLady].nes
-      format: 1
-      size: 65552
-      blob_id: 62204
-      debug: Mickey Mousecapade (U) [T+Rus1.1(Minni Classic)_BlueHairedLady].nes
-- release:
     id: 16565
     game_id: 16558
     release_type: 3
@@ -141,6 +108,7 @@ releases:
 - release:
     id: 16566
     game_id: 16558
+    release_type: 1
   names:
   - id: 36894
     kind: 3
@@ -154,6 +122,12 @@ releases:
     language: 1
     name: Mickey Mousecapade (USA)
     source: no-intro
+  - id: 264547
+    kind: 3
+    kind_id: 16566
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 16548

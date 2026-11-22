@@ -107,27 +107,6 @@ releases:
         Egypt (J) [T+Eng1.01_Gil Galad].nes
         Egypt (Japan) (Translated En).zip
 - release:
-    id: 10845
-    game_id: 10842
-    release_type: 2
-  names:
-  - id: 82947
-    kind: 3
-    kind_id: 10845
-    language: 1
-    name: Egypt (J) [T+FreBeta_Generation IX]
-  assets:
-  - asset:
-      id: 10827
-      kind: 3
-      kind_id: 10845
-      type: 1
-      name: Egypt (J) [T+FreBeta_Generation IX].nes
-      format: 1
-      size: 65552
-      blob_id: 56840
-      debug: Egypt (J) [T+FreBeta_Generation IX].nes
-- release:
     id: 10846
     game_id: 10842
     release_type: 2
@@ -158,12 +137,14 @@ releases:
 - release:
     id: 27546
     game_id: 10842
+    release_type: 1
   names:
   - id: 62593
     kind: 3
     kind_id: 27546
     language: 2
     name: 埃及魔法阵 (日版) (益智)-Egypt (Japan)
+    deprecated: 1
   - id: 62594
     kind: 3
     kind_id: 27546
@@ -176,6 +157,12 @@ releases:
     language: 1
     name: Egypt (Japan)
     source: no-intro
+  - id: 265441
+    kind: 3
+    kind_id: 27546
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 27528

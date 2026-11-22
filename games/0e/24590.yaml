@@ -22,6 +22,7 @@ releases:
 - release:
     id: 24590
     game_id: 24590
+    release_type: 1
   names:
   - id: 54900
     kind: 3
@@ -35,6 +36,12 @@ releases:
     language: 1
     name: "Tenkaichi Bushi - Keru Naguuru (Japan)"
     source: no-intro
+  - id: 264997
+    kind: 3
+    kind_id: 24590
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 24572
@@ -58,41 +65,28 @@ releases:
       blob_id: 323043
       debug: fc-title-trial:fceumm:rom-asset=24572:frame=600
 - release:
-    id: 24591
-    game_id: 24590
-    release_type: 2
-  names:
-  - id: 84770
-    kind: 3
-    kind_id: 24591
-    language: 1
-    name: "Tenkaichi Bushi - Keru Naguuru (J) [T+Spa30%]"
-  assets:
-  - asset:
-      id: 24573
-      kind: 3
-      kind_id: 24591
-      type: 1
-      name: "Tenkaichi Bushi - Keru Naguuru (J) [T+Spa30%].nes"
-      format: 1
-      size: 196624
-      blob_id: 69852
-      debug: "Tenkaichi Bushi - Keru Naguuru (J) [T+Spa30%].nes"
-- release:
     id: 27659
     game_id: 24590
+    release_type: 1
   names:
   - id: 62952
     kind: 3
     kind_id: 27659
     language: 2
     name: "天下一武士 (日版) (格斗)-Tenkaichi Bushi - Keru Naguuru (Japan)"
+    deprecated: 1
   - id: 260331
     kind: 3
     kind_id: 27659
     language: 1
     name: "Tenkaichi Bushi - Keru Naguuru (Japan)"
     source: no-intro
+  - id: 265470
+    kind: 3
+    kind_id: 27659
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 27641

@@ -38,6 +38,7 @@ releases:
 - release:
     id: 25951
     game_id: 25951
+    release_type: 1
   names:
   - id: 58008
     kind: 3
@@ -50,17 +51,25 @@ releases:
     kind_id: 25951
     language: 2
     name: 威洛之旅 (美版) (角色扮演)-Willow (USA)
+    deprecated: 1
   - id: 63312
     kind: 3
     kind_id: 25951
     language: 2
     name: 威洛之旅
+    deprecated: 1
   - id: 259809
     kind: 3
     kind_id: 25951
     language: 1
     name: Willow (USA)
     source: no-intro
+  - id: 265121
+    kind: 3
+    kind_id: 25951
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 25933
@@ -88,90 +97,6 @@ releases:
       blob_id: 323122
       debug: fc-title-trial:fceumm:rom-asset=25933:frame=1800:start-frame=1200
 - release:
-    id: 25952
-    game_id: 25951
-    release_type: 2
-  names:
-  - id: 84961
-    kind: 3
-    kind_id: 25952
-    language: 1
-    name: Willow (U) [T+Fre100]
-  assets:
-  - asset:
-      id: 25934
-      kind: 3
-      kind_id: 25952
-      type: 1
-      name: Willow (U) [T+Fre100].nes
-      format: 1
-      size: 262160
-      blob_id: 71113
-      debug: Willow (U) [T+Fre100].nes
-- release:
-    id: 25953
-    game_id: 25951
-    release_type: 2
-  names:
-  - id: 84962
-    kind: 3
-    kind_id: 25953
-    language: 1
-    name: Willow (U) [T+Por1.0_TraduRoms]
-  assets:
-  - asset:
-      id: 25935
-      kind: 3
-      kind_id: 25953
-      type: 1
-      name: Willow (U) [T+Por1.0_TraduRoms].nes
-      format: 1
-      size: 262160
-      blob_id: 71114
-      debug: Willow (U) [T+Por1.0_TraduRoms].nes
-- release:
-    id: 25954
-    game_id: 25951
-    release_type: 2
-  names:
-  - id: 84963
-    kind: 3
-    kind_id: 25954
-    language: 1
-    name: Willow (U) [T+Rus_arsen13,Tigran]
-  assets:
-  - asset:
-      id: 25936
-      kind: 3
-      kind_id: 25954
-      type: 1
-      name: Willow (U) [T+Rus_arsen13,Tigran].nes
-      format: 1
-      size: 262160
-      blob_id: 71115
-      debug: Willow (U) [T+Rus_arsen13,Tigran].nes
-- release:
-    id: 25955
-    game_id: 25951
-    release_type: 2
-  names:
-  - id: 58022
-    kind: 3
-    kind_id: 25955
-    language: 1
-    name: Willow (U) [T-Fre010]
-  assets:
-  - asset:
-      id: 25937
-      kind: 3
-      kind_id: 25955
-      type: 1
-      name: Willow (U) [T-Fre010].nes
-      format: 1
-      size: 262160
-      blob_id: 71116
-      debug: Willow (U) [T-Fre010].nes
-- release:
     id: 25959
     game_id: 25951
     release_type: 3
@@ -195,6 +120,7 @@ releases:
 - release:
     id: 25960
     game_id: 25951
+    release_type: 1
   names:
   - id: 58032
     kind: 3
@@ -208,6 +134,12 @@ releases:
     language: 1
     name: Willow (USA)
     source: no-intro
+  - id: 265122
+    kind: 3
+    kind_id: 25960
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 25942
@@ -235,12 +167,14 @@ releases:
 - release:
     id: 27760
     game_id: 25951
+    release_type: 1
   names:
   - id: 63301
     kind: 3
     kind_id: 27760
     language: 2
     name: 威洛之旅 (日版) (角色扮演)-Willow (Japan)
+    deprecated: 1
   - id: 63302
     kind: 3
     kind_id: 27760
@@ -253,6 +187,12 @@ releases:
     language: 1
     name: Willow (Japan)
     source: no-intro
+  - id: 265501
+    kind: 3
+    kind_id: 27760
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 27742
@@ -280,12 +220,14 @@ releases:
 - release:
     id: 27761
     game_id: 25951
+    release_type: 1
   names:
   - id: 63305
     kind: 3
     kind_id: 27761
     language: 2
     name: 威洛之旅 (欧版) (角色扮演)-Willow (Europe)
+    deprecated: 1
   - id: 63306
     kind: 3
     kind_id: 27761
@@ -298,6 +240,12 @@ releases:
     language: 1
     name: Willow (Europe)
     source: no-intro
+  - id: 265502
+    kind: 3
+    kind_id: 27761
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 27743

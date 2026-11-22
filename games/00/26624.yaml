@@ -33,6 +33,7 @@ releases:
 - release:
     id: 9887
     game_id: 26624
+    release_type: 1
   names:
   - id: 21206
     kind: 3
@@ -46,6 +47,12 @@ releases:
     language: 1
     name: Donkey Kong (World) (Rev 1) (Animal Crossing)
     source: no-intro
+  - id: 264081
+    kind: 3
+    kind_id: 9887
+    language: 2
+    name: 世界版
+    source: codex
   assets:
   - asset:
       id: 9869
@@ -73,6 +80,7 @@ releases:
 - release:
     id: 9888
     game_id: 26624
+    release_type: 1
   names:
   - id: 21208
     kind: 3
@@ -86,6 +94,12 @@ releases:
     language: 1
     name: Donkey Kong (USA) (Rev 1) (e-Reader)
     source: no-intro
+  - id: 264082
+    kind: 3
+    kind_id: 9888
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 9870
@@ -102,6 +116,7 @@ releases:
 - release:
     id: 9889
     game_id: 26624
+    release_type: 1
   names:
   - id: 21210
     kind: 3
@@ -125,6 +140,7 @@ releases:
     kind_id: 9889
     language: 2
     name: 大金刚 (世界版)(Rev A) (动作)-Donkey Kong (World) (Rev A)
+    deprecated: 1
   - id: 62892
     kind: 3
     kind_id: 9889
@@ -137,6 +153,12 @@ releases:
     language: 1
     name: Donkey Kong (World) (Rev 1)
     source: no-intro
+  - id: 264083
+    kind: 3
+    kind_id: 9889
+    language: 2
+    name: 世界版
+    source: codex
   assets:
   - asset:
       id: 9871
@@ -165,174 +187,6 @@ releases:
       blob_id: 324811
       debug: libretro-named-titles:rom-asset=9871:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Donkey%20Kong%20%28World%29%20%28Rev%201%29.png
 - release:
-    id: 9890
-    game_id: 26624
-    release_type: 2
-  names:
-  - id: 82738
-    kind: 3
-    kind_id: 9890
-    language: 1
-    name: Donkey Kong (U) (PRG1) [T+Rus_Cool-Spot][a1]
-  assets:
-  - asset:
-      id: 9872
-      kind: 3
-      kind_id: 9890
-      type: 1
-      name: Donkey Kong (U) (PRG1) [T+Rus_Cool-Spot][a1].nes
-      format: 1
-      size: 24592
-      blob_id: 55942
-      debug: Donkey Kong (U) (PRG1) [T+Rus_Cool-Spot][a1].nes
-- release:
-    id: 9891
-    game_id: 26624
-    release_type: 2
-  names:
-  - id: 82739
-    kind: 3
-    kind_id: 9891
-    language: 1
-    name: Donkey Kong (W) (PRG1) [T+Bra100%_BRGames]
-  assets:
-  - asset:
-      id: 9873
-      kind: 3
-      kind_id: 9891
-      type: 1
-      name: Donkey Kong (W) (PRG1) [T+Bra100%_BRGames].nes
-      format: 1
-      size: 24592
-      blob_id: 55943
-      debug: Donkey Kong (W) (PRG1) [T+Bra100%_BRGames].nes
-- release:
-    id: 9893
-    game_id: 26624
-    release_type: 2
-  names:
-  - id: 82741
-    kind: 3
-    kind_id: 9893
-    language: 1
-    name: Donkey Kong (W) (PRG1) [T+Fre_Lyssal]
-  assets:
-  - asset:
-      id: 9875
-      kind: 3
-      kind_id: 9893
-      type: 1
-      name: Donkey Kong (W) (PRG1) [T+Fre_Lyssal].nes
-      format: 1
-      size: 24592
-      blob_id: 55945
-      debug: Donkey Kong (W) (PRG1) [T+Fre_Lyssal].nes
-- release:
-    id: 9894
-    game_id: 26624
-    release_type: 2
-  names:
-  - id: 82742
-    kind: 3
-    kind_id: 9894
-    language: 1
-    name: Donkey Kong (W) (PRG1) [T+Gre1.0_Lugia_13gr]
-  assets:
-  - asset:
-      id: 9876
-      kind: 3
-      kind_id: 9894
-      type: 1
-      name: Donkey Kong (W) (PRG1) [T+Gre1.0_Lugia_13gr].nes
-      format: 1
-      size: 24592
-      blob_id: 55946
-      debug: Donkey Kong (W) (PRG1) [T+Gre1.0_Lugia_13gr].nes
-- release:
-    id: 9895
-    game_id: 26624
-    release_type: 2
-  names:
-  - id: 82743
-    kind: 3
-    kind_id: 9895
-    language: 1
-    name: Donkey Kong (W) (PRG1) [T+Ita1.0_ZombiKiller]
-  assets:
-  - asset:
-      id: 9877
-      kind: 3
-      kind_id: 9895
-      type: 1
-      name: Donkey Kong (W) (PRG1) [T+Ita1.0_ZombiKiller].nes
-      format: 1
-      size: 24592
-      blob_id: 55947
-      debug: Donkey Kong (W) (PRG1) [T+Ita1.0_ZombiKiller].nes
-- release:
-    id: 9896
-    game_id: 26624
-    release_type: 2
-  names:
-  - id: 82744
-    kind: 3
-    kind_id: 9896
-    language: 1
-    name: Donkey Kong (W) (PRG1) [T+Nor1.00_Just4Fun]
-  assets:
-  - asset:
-      id: 9878
-      kind: 3
-      kind_id: 9896
-      type: 1
-      name: Donkey Kong (W) (PRG1) [T+Nor1.00_Just4Fun].nes
-      format: 1
-      size: 24592
-      blob_id: 55948
-      debug: Donkey Kong (W) (PRG1) [T+Nor1.00_Just4Fun].nes
-- release:
-    id: 9897
-    game_id: 26624
-    release_type: 2
-  names:
-  - id: 82745
-    kind: 3
-    kind_id: 9897
-    language: 1
-    name: Donkey Kong (W) (PRG1) [T+Rus_Cool-Spot]
-  assets:
-  - asset:
-      id: 9879
-      kind: 3
-      kind_id: 9897
-      type: 1
-      name: Donkey Kong (W) (PRG1) [T+Rus_Cool-Spot].nes
-      format: 1
-      size: 24592
-      blob_id: 55949
-      debug: Donkey Kong (W) (PRG1) [T+Rus_Cool-Spot].nes
-- release:
-    id: 9898
-    game_id: 26624
-    release_type: 2
-  names:
-  - id: 82746
-    kind: 3
-    kind_id: 9898
-    language: 1
-    name: Donkey Kong (W) (PRG1) [T+Spa_PaladinKnights]
-  assets:
-  - asset:
-      id: 9880
-      kind: 3
-      kind_id: 9898
-      type: 1
-      name: Donkey Kong (W) (PRG1) [T+Spa_PaladinKnights].nes
-      format: 1
-      size: 24592
-      blob_id: 55950
-      debug: Donkey Kong (W) (PRG1) [T+Spa_PaladinKnights].nes
-- release:
     id: 9908
     game_id: 26624
   names:
@@ -355,12 +209,14 @@ releases:
 - release:
     id: 27638
     game_id: 26624
+    release_type: 1
   names:
   - id: 62895
     kind: 3
     kind_id: 27638
     language: 2
     name: 大金刚 (日版) (动作)-Donkey Kong (Japan)
+    deprecated: 1
   - id: 62896
     kind: 3
     kind_id: 27638
@@ -373,6 +229,12 @@ releases:
     language: 1
     name: Donkey Kong (Japan) (En)
     source: no-intro
+  - id: 265468
+    kind: 3
+    kind_id: 27638
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 27620

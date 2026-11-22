@@ -103,6 +103,7 @@ releases:
 - release:
     id: 15673
     game_id: 15671
+    release_type: 1
   names:
   - id: 34792
     kind: 3
@@ -115,17 +116,25 @@ releases:
     kind_id: 15673
     language: 2
     name: 疯狂大楼 (美版) (解谜)-Maniac Mansion (USA)
+    deprecated: 1
   - id: 68082
     kind: 3
     kind_id: 15673
     language: 2
     name: 疯狂豪宅
+    deprecated: 1
   - id: 258719
     kind: 3
     kind_id: 15673
     language: 1
     name: Maniac Mansion (USA)
     source: no-intro
+  - id: 264511
+    kind: 3
+    kind_id: 15673
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 15655
@@ -153,29 +162,9 @@ releases:
       blob_id: 322740
       debug: fc-title-trial:fceumm:rom-asset=15655:frame=180
 - release:
-    id: 15674
-    game_id: 15671
-    release_type: 2
-  names:
-  - id: 83709
-    kind: 3
-    kind_id: 15674
-    language: 1
-    name: Maniac Mansion (U) [T+Fre]
-  assets:
-  - asset:
-      id: 15656
-      kind: 3
-      kind_id: 15674
-      type: 1
-      name: Maniac Mansion (U) [T+Fre].nes
-      format: 1
-      size: 262160
-      blob_id: 61356
-      debug: Maniac Mansion (U) [T+Fre].nes
-- release:
     id: 15678
     game_id: 15671
+    release_type: 1
   names:
   - id: 34804
     kind: 3
@@ -189,6 +178,12 @@ releases:
     language: 1
     name: Maniac Mansion (USA)
     source: no-intro
+  - id: 264512
+    kind: 3
+    kind_id: 15678
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 15660
@@ -216,12 +211,14 @@ releases:
 - release:
     id: 29180
     game_id: 15671
+    release_type: 1
   names:
   - id: 68029
     kind: 3
     kind_id: 29180
     language: 2
     name: 疯狂大楼 (义大利版) (解谜)-Maniac Mansion (Italy)
+    deprecated: 1
   - id: 68030
     kind: 3
     kind_id: 29180
@@ -234,6 +231,12 @@ releases:
     language: 1
     name: Maniac Mansion (Italy)
     source: no-intro
+  - id: 265948
+    kind: 3
+    kind_id: 29180
+    language: 2
+    name: 意大利版
+    source: codex
   assets:
   - asset:
       id: 29162
@@ -261,12 +264,14 @@ releases:
 - release:
     id: 29181
     game_id: 15671
+    release_type: 1
   names:
   - id: 68033
     kind: 3
     kind_id: 29181
     language: 2
     name: 疯狂大楼 (德版) (解谜)-Maniac Mansion (Germany)
+    deprecated: 1
   - id: 68034
     kind: 3
     kind_id: 29181
@@ -279,6 +284,12 @@ releases:
     language: 1
     name: Maniac Mansion (Germany)
     source: no-intro
+  - id: 265949
+    kind: 3
+    kind_id: 29181
+    language: 2
+    name: 德版
+    source: codex
   assets:
   - asset:
       id: 29163
@@ -306,12 +317,14 @@ releases:
 - release:
     id: 29182
     game_id: 15671
+    release_type: 1
   names:
   - id: 68037
     kind: 3
     kind_id: 29182
     language: 2
     name: 疯狂大楼 (日版) (解谜)-Maniac Mansion (Japan)
+    deprecated: 1
   - id: 68038
     kind: 3
     kind_id: 29182
@@ -324,6 +337,12 @@ releases:
     language: 1
     name: Maniac Mansion (Japan)
     source: no-intro
+  - id: 265950
+    kind: 3
+    kind_id: 29182
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 29164
@@ -351,12 +370,14 @@ releases:
 - release:
     id: 29183
     game_id: 15671
+    release_type: 1
   names:
   - id: 68041
     kind: 3
     kind_id: 29183
     language: 2
     name: 疯狂大楼 (欧版) (解谜)-Maniac Mansion (Europe)
+    deprecated: 1
   - id: 68042
     kind: 3
     kind_id: 29183
@@ -369,6 +390,12 @@ releases:
     language: 1
     name: Maniac Mansion (Europe)
     source: no-intro
+  - id: 265951
+    kind: 3
+    kind_id: 29183
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 29165
@@ -396,12 +423,14 @@ releases:
 - release:
     id: 29184
     game_id: 15671
+    release_type: 1
   names:
   - id: 68045
     kind: 3
     kind_id: 29184
     language: 2
     name: 疯狂大楼 (法版) (解谜)-Maniac Mansion (France)
+    deprecated: 1
   - id: 68046
     kind: 3
     kind_id: 29184
@@ -414,6 +443,12 @@ releases:
     language: 1
     name: Maniac Mansion (France)
     source: no-intro
+  - id: 265952
+    kind: 3
+    kind_id: 29184
+    language: 2
+    name: 法版
+    source: codex
   assets:
   - asset:
       id: 29166
@@ -441,12 +476,14 @@ releases:
 - release:
     id: 29185
     game_id: 15671
+    release_type: 1
   names:
   - id: 68049
     kind: 3
     kind_id: 29185
     language: 2
     name: 疯狂大楼 (瑞典版) (解谜)-Maniac Mansion (Sweden)
+    deprecated: 1
   - id: 68050
     kind: 3
     kind_id: 29185
@@ -459,6 +496,12 @@ releases:
     language: 1
     name: Maniac Mansion (Sweden)
     source: no-intro
+  - id: 265953
+    kind: 3
+    kind_id: 29185
+    language: 2
+    name: 瑞典版
+    source: codex
   assets:
   - asset:
       id: 29167
@@ -522,12 +565,14 @@ releases:
 - release:
     id: 29188
     game_id: 15671
+    release_type: 1
   names:
   - id: 68061
     kind: 3
     kind_id: 29188
     language: 2
     name: 疯狂大楼 (西班牙版) (解谜)-Maniac Mansion (Spain)
+    deprecated: 1
   - id: 68062
     kind: 3
     kind_id: 29188
@@ -540,6 +585,12 @@ releases:
     language: 1
     name: Maniac Mansion (Spain)
     source: no-intro
+  - id: 265954
+    kind: 3
+    kind_id: 29188
+    language: 2
+    name: 西班牙版
+    source: codex
   assets:
   - asset:
       id: 29170

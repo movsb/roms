@@ -31,6 +31,7 @@ releases:
 - release:
     id: 23418
     game_id: 23418
+    release_type: 1
   names:
   - id: 52262
     kind: 3
@@ -44,6 +45,12 @@ releases:
     language: 1
     name: Swamp Thing (Europe)
     source: no-intro
+  - id: 264954
+    kind: 3
+    kind_id: 23418
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 23400
@@ -71,6 +78,7 @@ releases:
 - release:
     id: 23419
     game_id: 23418
+    release_type: 1
   names:
   - id: 52264
     kind: 3
@@ -83,12 +91,19 @@ releases:
     kind_id: 23419
     language: 2
     name: 沼泽怪
+    deprecated: 1
   - id: 259561
     kind: 3
     kind_id: 23419
     language: 1
     name: Swamp Thing (USA)
     source: no-intro
+  - id: 264955
+    kind: 3
+    kind_id: 23419
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 23401
@@ -166,18 +181,26 @@ releases:
 - release:
     id: 28784
     game_id: 23418
+    release_type: 1
   names:
   - id: 66732
     kind: 3
     kind_id: 28784
     language: 2
     name: 沼泽怪 (欧版) (动作)-Swamp Thing (Europe)
+    deprecated: 1
   - id: 260803
     kind: 3
     kind_id: 28784
     language: 1
     name: Swamp Thing (Europe)
     source: no-intro
+  - id: 265835
+    kind: 3
+    kind_id: 28784
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 28766

@@ -46,6 +46,7 @@ releases:
 - release:
     id: 26377
     game_id: 26375
+    release_type: 1
   names:
   - id: 58964
     kind: 3
@@ -64,12 +65,19 @@ releases:
     kind_id: 26377
     language: 2
     name: 银河号 (美版) (射击)-Zanac (USA)
+    deprecated: 1
   - id: 259871
     kind: 3
     kind_id: 26377
     language: 1
     name: Zanac (USA)
     source: no-intro
+  - id: 265156
+    kind: 3
+    kind_id: 26377
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 26359
@@ -96,27 +104,6 @@ releases:
       size: 2493
       blob_id: 323145
       debug: fc-title-trial:fceumm:rom-asset=26359:frame=180
-- release:
-    id: 26378
-    game_id: 26375
-    release_type: 2
-  names:
-  - id: 85009
-    kind: 3
-    kind_id: 26378
-    language: 1
-    name: Zanac (U) [T+Bra1.0_ROMHackBR]
-  assets:
-  - asset:
-      id: 26360
-      kind: 3
-      kind_id: 26378
-      type: 1
-      name: Zanac (U) [T+Bra1.0_ROMHackBR].nes
-      format: 1
-      size: 131088
-      blob_id: 71508
-      debug: Zanac (U) [T+Bra1.0_ROMHackBR].nes
 - release:
     id: 26379
     game_id: 26375

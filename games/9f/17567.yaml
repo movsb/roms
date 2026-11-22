@@ -21,6 +21,7 @@ releases:
 - release:
     id: 17567
     game_id: 17567
+    release_type: 1
   names:
   - id: 39174
     kind: 3
@@ -39,12 +40,19 @@ releases:
     kind_id: 17567
     language: 2
     name: 半夜鬼上床 (美版) (动作)-Nightmare on Elm Street, A (USA)
+    deprecated: 1
   - id: 258938
     kind: 3
     kind_id: 17567
     language: 1
     name: Nightmare on Elm Street, A (USA)
     source: no-intro
+  - id: 264617
+    kind: 3
+    kind_id: 17567
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 17549
@@ -71,48 +79,6 @@ releases:
       size: 4202
       blob_id: 324094
       debug: libretro-named-titles:rom-asset=17549:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Nightmare%20on%20Elm%20Street%2C%20A%20%28USA%29.png
-- release:
-    id: 17569
-    game_id: 17567
-    release_type: 2
-  names:
-  - id: 83996
-    kind: 3
-    kind_id: 17569
-    language: 1
-    name: Nightmare on Elm Street, A (U) [T+Bra_BRGames]
-  assets:
-  - asset:
-      id: 17551
-      kind: 3
-      kind_id: 17569
-      type: 1
-      name: Nightmare on Elm Street, A (U) [T+Bra_BRGames].nes
-      format: 1
-      size: 131088
-      blob_id: 63149
-      debug: Nightmare on Elm Street, A (U) [T+Bra_BRGames].nes
-- release:
-    id: 17570
-    game_id: 17567
-    release_type: 2
-  names:
-  - id: 83997
-    kind: 3
-    kind_id: 17570
-    language: 1
-    name: Nightmare on Elm Street, A (U) [T+Spa1.00_ShinjiE]
-  assets:
-  - asset:
-      id: 17552
-      kind: 3
-      kind_id: 17570
-      type: 1
-      name: Nightmare on Elm Street, A (U) [T+Spa1.00_ShinjiE].nes
-      format: 1
-      size: 131088
-      blob_id: 63150
-      debug: Nightmare on Elm Street, A (U) [T+Spa1.00_ShinjiE].nes
 - release:
     id: 17572
     game_id: 17567

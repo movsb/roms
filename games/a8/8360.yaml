@@ -81,48 +81,6 @@ names:
   name: Akumajou Dracula
 releases:
 - release:
-    id: 5670
-    game_id: 8360
-    release_type: 2
-  names:
-  - id: 82174
-    kind: 3
-    kind_id: 5670
-    language: 1
-    name: Akumajou Dracula (J) [T+Fre2_Generation IX]
-  assets:
-  - asset:
-      id: 5652
-      kind: 3
-      kind_id: 5670
-      type: 1
-      name: Akumajou Dracula (J) [T+Fre2_Generation IX].nes
-      format: 1
-      size: 131088
-      blob_id: 51951
-      debug: Akumajou Dracula (J) [T+Fre2_Generation IX].nes
-- release:
-    id: 5671
-    game_id: 8360
-    release_type: 2
-  names:
-  - id: 82175
-    kind: 3
-    kind_id: 5671
-    language: 1
-    name: Akumajou Dracula (J) [T+Pol]
-  assets:
-  - asset:
-      id: 5653
-      kind: 3
-      kind_id: 5671
-      type: 1
-      name: Akumajou Dracula (J) [T+Pol].nes
-      format: 1
-      size: 131088
-      blob_id: 51952
-      debug: Akumajou Dracula (J) [T+Pol].nes
-- release:
     id: 5675
     game_id: 8360
     release_type: 3
@@ -298,6 +256,7 @@ releases:
 - release:
     id: 8159
     game_id: 8360
+    release_type: 1
   names:
   - id: 17172
     kind: 3
@@ -311,6 +270,12 @@ releases:
     language: 1
     name: Castlevania (Europe)
     source: no-intro
+  - id: 263974
+    kind: 3
+    kind_id: 8159
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 8141
@@ -336,50 +301,9 @@ releases:
       blob_id: 322412
       debug: fc-title-trial:fceumm:rom-asset=8141:frame=180
 - release:
-    id: 8160
-    game_id: 8360
-    release_type: 2
-  names:
-  - id: 82452
-    kind: 3
-    kind_id: 8160
-    language: 1
-    name: Castlevania (E) [T+Fre2_Generation IX]
-  assets:
-  - asset:
-      id: 8142
-      kind: 3
-      kind_id: 8160
-      type: 1
-      name: Castlevania (E) [T+Fre2_Generation IX].nes
-      format: 1
-      size: 131088
-      blob_id: 54306
-      debug: Castlevania (E) [T+Fre2_Generation IX].nes
-- release:
-    id: 8161
-    game_id: 8360
-    release_type: 2
-  names:
-  - id: 82453
-    kind: 3
-    kind_id: 8161
-    language: 1
-    name: Castlevania (E) [T+Pol]
-  assets:
-  - asset:
-      id: 8143
-      kind: 3
-      kind_id: 8161
-      type: 1
-      name: Castlevania (E) [T+Pol].nes
-      format: 1
-      size: 131088
-      blob_id: 54307
-      debug: Castlevania (E) [T+Pol].nes
-- release:
     id: 8162
     game_id: 8360
+    release_type: 1
   names:
   - id: 17182
     kind: 3
@@ -393,6 +317,12 @@ releases:
     language: 1
     name: Castlevania (World) (Konami Collector's Series)
     source: no-intro
+  - id: 263975
+    kind: 3
+    kind_id: 8162
+    language: 2
+    name: 世界版
+    source: codex
   assets:
   - asset:
       id: 8144
@@ -429,6 +359,7 @@ releases:
 - release:
     id: 8165
     game_id: 8360
+    release_type: 1
   names:
   - id: 17188
     kind: 3
@@ -441,6 +372,7 @@ releases:
     kind_id: 8165
     language: 2
     name: 恶魔城 (美版) (动作)-Castlevania (USA)
+    deprecated: 1
   - id: 64796
     kind: 3
     kind_id: 8165
@@ -453,6 +385,12 @@ releases:
     language: 1
     name: Castlevania (USA)
     source: no-intro
+  - id: 263976
+    kind: 3
+    kind_id: 8165
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 8147
@@ -479,27 +417,6 @@ releases:
       blob_id: 324787
       debug: libretro-named-titles:rom-asset=8147:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Castlevania%20%28USA%29.png
 - release:
-    id: 8167
-    game_id: 8360
-    release_type: 2
-  names:
-  - id: 82455
-    kind: 3
-    kind_id: 8167
-    language: 1
-    name: Castlevania (U) (PRG0) [T+Spa100%_Tanero]
-  assets:
-  - asset:
-      id: 8149
-      kind: 3
-      kind_id: 8167
-      type: 1
-      name: Castlevania (U) (PRG0) [T+Spa100%_Tanero].nes
-      format: 1
-      size: 131088
-      blob_id: 54313
-      debug: Castlevania (U) (PRG0) [T+Spa100%_Tanero].nes
-- release:
     id: 8170
     game_id: 8360
     release_type: 3
@@ -523,6 +440,7 @@ releases:
 - release:
     id: 8171
     game_id: 8360
+    release_type: 1
   names:
   - id: 17206
     kind: 3
@@ -535,12 +453,19 @@ releases:
     kind_id: 8171
     language: 2
     name: 恶魔城 (美版)(Rev A) (动作)-Castlevania (USA) (Rev A)
+    deprecated: 1
   - id: 257862
     kind: 3
     kind_id: 8171
     language: 1
     name: Castlevania (USA) (Rev 1)
     source: no-intro
+  - id: 263977
+    kind: 3
+    kind_id: 8171
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 8153
@@ -566,258 +491,6 @@ releases:
       size: 2693
       blob_id: 324787
       debug: libretro-named-titles:rom-asset=8153:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Castlevania%20%28USA%29%20%28Rev%201%29.png
-- release:
-    id: 8172
-    game_id: 8360
-    release_type: 2
-  names:
-  - id: 82457
-    kind: 3
-    kind_id: 8172
-    language: 1
-    name: Castlevania (U) (PRG1) [T+Fre_Akira]
-  assets:
-  - asset:
-      id: 8154
-      kind: 3
-      kind_id: 8172
-      type: 1
-      name: Castlevania (U) (PRG1) [T+Fre_Akira].nes
-      format: 1
-      size: 131088
-      blob_id: 54318
-      debug: Castlevania (U) (PRG1) [T+Fre_Akira].nes
-- release:
-    id: 8173
-    game_id: 8360
-    release_type: 2
-  names:
-  - id: 82458
-    kind: 3
-    kind_id: 8173
-    language: 1
-    name: Castlevania (U) (PRG1) [T+Ger1.00_StarTrans]
-  assets:
-  - asset:
-      id: 8155
-      kind: 3
-      kind_id: 8173
-      type: 1
-      name: Castlevania (U) (PRG1) [T+Ger1.00_StarTrans].nes
-      format: 1
-      size: 131088
-      blob_id: 54319
-      debug: Castlevania (U) (PRG1) [T+Ger1.00_StarTrans].nes
-- release:
-    id: 8175
-    game_id: 8360
-    release_type: 2
-  names:
-  - id: 82460
-    kind: 3
-    kind_id: 8175
-    language: 1
-    name: Castlevania (U) (PRG1) [T+Ita1.00_Clomax_Dominion]
-  assets:
-  - asset:
-      id: 8157
-      kind: 3
-      kind_id: 8175
-      type: 1
-      name: Castlevania (U) (PRG1) [T+Ita1.00_Clomax_Dominion].nes
-      format: 1
-      size: 131088
-      blob_id: 54321
-      debug: Castlevania (U) (PRG1) [T+Ita1.00_Clomax_Dominion].nes
-- release:
-    id: 8176
-    game_id: 8360
-    release_type: 2
-  names:
-  - id: 82461
-    kind: 3
-    kind_id: 8176
-    language: 1
-    name: Castlevania (U) (PRG1) [T+Por1.00_GTC]
-  assets:
-  - asset:
-      id: 8158
-      kind: 3
-      kind_id: 8176
-      type: 1
-      name: Castlevania (U) (PRG1) [T+Por1.00_GTC].nes
-      format: 1
-      size: 131088
-      blob_id: 54322
-      debug: Castlevania (U) (PRG1) [T+Por1.00_GTC].nes
-- release:
-    id: 8177
-    game_id: 8360
-    release_type: 2
-  names:
-  - id: 82462
-    kind: 3
-    kind_id: 8177
-    language: 1
-    name: Castlevania (U) (PRG1) [T+Por100%_EmuNow]
-  assets:
-  - asset:
-      id: 8159
-      kind: 3
-      kind_id: 8177
-      type: 1
-      name: Castlevania (U) (PRG1) [T+Por100%_EmuNow].nes
-      format: 1
-      size: 131088
-      blob_id: 54323
-      debug: Castlevania (U) (PRG1) [T+Por100%_EmuNow].nes
-- release:
-    id: 8178
-    game_id: 8360
-    release_type: 2
-  names:
-  - id: 82463
-    kind: 3
-    kind_id: 8178
-    language: 1
-    name: Castlevania (U) (PRG1) [T+Por100%_TRB]
-  assets:
-  - asset:
-      id: 8160
-      kind: 3
-      kind_id: 8178
-      type: 1
-      name: Castlevania (U) (PRG1) [T+Por100%_TRB].nes
-      format: 1
-      size: 131088
-      blob_id: 54324
-      debug: Castlevania (U) (PRG1) [T+Por100%_TRB].nes
-- release:
-    id: 8179
-    game_id: 8360
-    release_type: 2
-  names:
-  - id: 82464
-    kind: 3
-    kind_id: 8179
-    language: 1
-    name: Castlevania (U) (PRG1) [T+Por100%_Web Source]
-  assets:
-  - asset:
-      id: 8161
-      kind: 3
-      kind_id: 8179
-      type: 1
-      name: Castlevania (U) (PRG1) [T+Por100%_Web Source].nes
-      format: 1
-      size: 131088
-      blob_id: 54325
-      debug: Castlevania (U) (PRG1) [T+Por100%_Web Source].nes
-- release:
-    id: 8180
-    game_id: 8360
-    release_type: 2
-  names:
-  - id: 82465
-    kind: 3
-    kind_id: 8180
-    language: 1
-    name: Castlevania (U) (PRG1) [T+Rus_IfritZ]
-  assets:
-  - asset:
-      id: 8162
-      kind: 3
-      kind_id: 8180
-      type: 1
-      name: Castlevania (U) (PRG1) [T+Rus_IfritZ].nes
-      format: 1
-      size: 131088
-      blob_id: 54326
-      debug: Castlevania (U) (PRG1) [T+Rus_IfritZ].nes
-- release:
-    id: 8181
-    game_id: 8360
-    release_type: 2
-  names:
-  - id: 82466
-    kind: 3
-    kind_id: 8181
-    language: 1
-    name: Castlevania (U) (PRG1) [T+Ser_Cole Dog Prevodi]
-  assets:
-  - asset:
-      id: 8163
-      kind: 3
-      kind_id: 8181
-      type: 1
-      name: Castlevania (U) (PRG1) [T+Ser_Cole Dog Prevodi].nes
-      format: 1
-      size: 131088
-      blob_id: 54327
-      debug: Castlevania (U) (PRG1) [T+Ser_Cole Dog Prevodi].nes
-- release:
-    id: 8182
-    game_id: 8360
-    release_type: 2
-  names:
-  - id: 82467
-    kind: 3
-    kind_id: 8182
-    language: 1
-    name: Castlevania (U) (PRG1) [T+Spa1.00_Chilensis]
-  assets:
-  - asset:
-      id: 8164
-      kind: 3
-      kind_id: 8182
-      type: 1
-      name: Castlevania (U) (PRG1) [T+Spa1.00_Chilensis].nes
-      format: 1
-      size: 131088
-      blob_id: 54328
-      debug: Castlevania (U) (PRG1) [T+Spa1.00_Chilensis].nes
-- release:
-    id: 8183
-    game_id: 8360
-    release_type: 2
-  names:
-  - id: 82468
-    kind: 3
-    kind_id: 8183
-    language: 1
-    name: Castlevania (U) (PRG1) [T+Spa100%_Tanero]
-  assets:
-  - asset:
-      id: 8165
-      kind: 3
-      kind_id: 8183
-      type: 1
-      name: Castlevania (U) (PRG1) [T+Spa100%_Tanero].nes
-      format: 1
-      size: 131088
-      blob_id: 54329
-      debug: Castlevania (U) (PRG1) [T+Spa100%_Tanero].nes
-- release:
-    id: 8184
-    game_id: 8360
-    release_type: 2
-  names:
-  - id: 82469
-    kind: 3
-    kind_id: 8184
-    language: 1
-    name: Castlevania (U) (PRG1) [T+Spa_Djt]
-  assets:
-  - asset:
-      id: 8166
-      kind: 3
-      kind_id: 8184
-      type: 1
-      name: Castlevania (U) (PRG1) [T+Spa_Djt].nes
-      format: 1
-      size: 131088
-      blob_id: 54330
-      debug: Castlevania (U) (PRG1) [T+Spa_Djt].nes
 - release:
     id: 8191
     game_id: 8360
@@ -909,6 +582,7 @@ releases:
 - release:
     id: 8360
     game_id: 8360
+    release_type: 1
   names:
   - id: 17682
     kind: 3
@@ -922,6 +596,12 @@ releases:
     language: 1
     name: Castlevania (USA) (Rev 1)
     source: no-intro
+  - id: 263982
+    kind: 3
+    kind_id: 8360
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 8342
@@ -969,12 +649,14 @@ releases:
 - release:
     id: 28209
     game_id: 8360
+    release_type: 1
   names:
   - id: 64791
     kind: 3
     kind_id: 28209
     language: 2
     name: 恶魔城 (日版) (动作)-Akumajou Dracula (Japan)
+    deprecated: 1
   - id: 64792
     kind: 3
     kind_id: 28209
@@ -987,6 +669,12 @@ releases:
     language: 1
     name: Akumajou Dracula (Japan) (En)
     source: no-intro
+  - id: 265637
+    kind: 3
+    kind_id: 28209
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 28191

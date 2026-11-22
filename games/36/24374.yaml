@@ -69,6 +69,7 @@ releases:
 - release:
     id: 24374
     game_id: 24374
+    release_type: 1
   names:
   - id: 54354
     kind: 3
@@ -93,12 +94,19 @@ releases:
     kind_id: 24374
     language: 2
     name: "忍者龟 - 街机移植版 (美版) (动作)-Teenage Mutant Ninja Turtles II - The Arcade Game (USA)"
+    deprecated: 1
   - id: 259612
     kind: 3
     kind_id: 24374
     language: 1
     name: "Teenage Mutant Ninja Turtles II - The Arcade Game (USA)"
     source: no-intro
+  - id: 264990
+    kind: 3
+    kind_id: 24374
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 24356
@@ -124,6 +132,7 @@ releases:
 - release:
     id: 24386
     game_id: 24374
+    release_type: 1
   names:
   - id: 54384
     kind: 3
@@ -137,6 +146,12 @@ releases:
     language: 1
     name: "Teenage Mutant Ninja Turtles II - The Arcade Game (Australia)"
     source: no-intro
+  - id: 264992
+    kind: 3
+    kind_id: 24386
+    language: 2
+    name: 澳版
+    source: codex
   assets:
   - asset:
       id: 24368
@@ -159,27 +174,6 @@ releases:
       size: 1811
       blob_id: 324213
       debug: libretro-named-titles:rom-asset=24368:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Teenage%20Mutant%20Ninja%20Turtles%20II%20-%20The%20Arcade%20Game%20%28Australia%29.png
-- release:
-    id: 24387
-    game_id: 24374
-    release_type: 2
-  names:
-  - id: 84716
-    kind: 3
-    kind_id: 24387
-    language: 1
-    name: "Teenage Mutant Ninja Turtles II - The Arcade Game (PC10) [T+Rus]"
-  assets:
-  - asset:
-      id: 24369
-      kind: 3
-      kind_id: 24387
-      type: 1
-      name: "Teenage Mutant Ninja Turtles II - The Arcade Game (PC10) [T+Rus].nes"
-      format: 1
-      size: 532496
-      blob_id: 69656
-      debug: "Teenage Mutant Ninja Turtles II - The Arcade Game (PC10) [T+Rus].nes"
 - release:
     id: 24388
     game_id: 24374
@@ -259,111 +253,6 @@ releases:
       size: 524304
       blob_id: 69659
       debug: "Teenage Mutant Ninja Turtles II - The Arcade Game (U) [T+Chi_NOKOH].nes"
-- release:
-    id: 24392
-    game_id: 24374
-    release_type: 2
-  names:
-  - id: 84718
-    kind: 3
-    kind_id: 24392
-    language: 1
-    name: "Teenage Mutant Ninja Turtles II - The Arcade Game (U) [T+Fre_Terminus]"
-  assets:
-  - asset:
-      id: 24374
-      kind: 3
-      kind_id: 24392
-      type: 1
-      name: "Teenage Mutant Ninja Turtles II - The Arcade Game (U) [T+Fre_Terminus].nes"
-      format: 1
-      size: 524304
-      blob_id: 69660
-      debug: "Teenage Mutant Ninja Turtles II - The Arcade Game (U) [T+Fre_Terminus].nes"
-- release:
-    id: 24393
-    game_id: 24374
-    release_type: 2
-  names:
-  - id: 84719
-    kind: 3
-    kind_id: 24393
-    language: 1
-    name: "Teenage Mutant Ninja Turtles II - The Arcade Game (U) [T+Por1.0_BRTradu]"
-  assets:
-  - asset:
-      id: 24375
-      kind: 3
-      kind_id: 24393
-      type: 1
-      name: "Teenage Mutant Ninja Turtles II - The Arcade Game (U) [T+Por1.0_BRTradu].nes"
-      format: 1
-      size: 524304
-      blob_id: 69661
-      debug: "Teenage Mutant Ninja Turtles II - The Arcade Game (U) [T+Por1.0_BRTradu].nes"
-- release:
-    id: 24394
-    game_id: 24374
-    release_type: 2
-  names:
-  - id: 84720
-    kind: 3
-    kind_id: 24394
-    language: 1
-    name: "Teenage Mutant Ninja Turtles II - The Arcade Game (U) [T+Por100%_Emuroms]"
-  assets:
-  - asset:
-      id: 24376
-      kind: 3
-      kind_id: 24394
-      type: 1
-      name: "Teenage Mutant Ninja Turtles II - The Arcade Game (U) [T+Por100%_Emuroms].nes"
-      format: 1
-      size: 524304
-      blob_id: 69662
-      debug: "Teenage Mutant Ninja Turtles II - The Arcade Game (U) [T+Por100%_Emuroms].nes"
-- release:
-    id: 24395
-    game_id: 24374
-    release_type: 2
-  names:
-  - id: 84721
-    kind: 3
-    kind_id: 24395
-    language: 1
-    name: "Teenage Mutant Ninja Turtles II - The Arcade Game (U) [T+Rum_gorgyrip]"
-  assets:
-  - asset:
-      id: 24377
-      kind: 3
-      kind_id: 24395
-      type: 1
-      name: "Teenage Mutant Ninja Turtles II - The Arcade Game (U) [T+Rum_gorgyrip].nes"
-      format: 1
-      size: 524304
-      blob_id: 69663
-      debug: "Teenage Mutant Ninja Turtles II - The Arcade Game (U) [T+Rum_gorgyrip].nes"
-- release:
-    id: 24396
-    game_id: 24374
-    release_type: 2
-  names:
-  - id: 84722
-    kind: 3
-    kind_id: 24396
-    language: 1
-    name: "Teenage Mutant Ninja Turtles II - The Arcade Game (U) [T+Rus_Shedevr]"
-  assets:
-  - asset:
-      id: 24378
-      kind: 3
-      kind_id: 24396
-      type: 1
-      name: "Teenage Mutant Ninja Turtles II - The Arcade Game (U) [T+Rus_Shedevr].nes"
-      format: 1
-      size: 524304
-      blob_id: 69664
-      debug: "Teenage Mutant Ninja Turtles II - The Arcade Game (U) [T+Rus_Shedevr].nes"
 - release:
     id: 24397
     game_id: 24374
@@ -448,27 +337,6 @@ releases:
       blob_id: 69674
       debug: "Teenage Mutant Ninja Turtles II - The Arcade Game (U) [p1].nes"
 - release:
-    id: 24407
-    game_id: 24374
-    release_type: 2
-  names:
-  - id: 84723
-    kind: 3
-    kind_id: 24407
-    language: 1
-    name: "Teenage Mutant Ninja Turtles II - The Arcade Game (U) [p1][T+Rus]"
-  assets:
-  - asset:
-      id: 24389
-      kind: 3
-      kind_id: 24407
-      type: 1
-      name: "Teenage Mutant Ninja Turtles II - The Arcade Game (U) [p1][T+Rus].nes"
-      format: 1
-      size: 524304
-      blob_id: 69675
-      debug: "Teenage Mutant Ninja Turtles II - The Arcade Game (U) [p1][T+Rus].nes"
-- release:
     id: 24408
     game_id: 24374
   names:
@@ -534,27 +402,6 @@ releases:
       size: 524304
       blob_id: 69678
       debug: "Teenage Mutant Ninja Turtles II - The Arcade Game (U) [t1].nes\n忍者神龟2_2.zip"
-- release:
-    id: 24411
-    game_id: 24374
-    release_type: 2
-  names:
-  - id: 84724
-    kind: 3
-    kind_id: 24411
-    language: 1
-    name: "Teenage Mutant Ninja Turtles II - The Arcade Game (U) [t1][T+Rus_Shedevr,Multisoft]"
-  assets:
-  - asset:
-      id: 24393
-      kind: 3
-      kind_id: 24411
-      type: 1
-      name: "Teenage Mutant Ninja Turtles II - The Arcade Game (U) [t1][T+Rus_Shedevr,Multisoft].nes"
-      format: 1
-      size: 524304
-      blob_id: 69679
-      debug: "Teenage Mutant Ninja Turtles II - The Arcade Game (U) [t1][T+Rus_Shedevr,Multisoft].nes"
 - release:
     id: 25215
     game_id: 24374
@@ -702,12 +549,14 @@ releases:
 - release:
     id: 28152
     game_id: 24374
+    release_type: 1
   names:
   - id: 64619
     kind: 3
     kind_id: 28152
     language: 2
     name: "忍者龟 - 街机移植版 (欧版) (动作)-Teenage Mutant Hero Turtles II - The Arcade Game (Europe)"
+    deprecated: 1
   - id: 64620
     kind: 3
     kind_id: 28152
@@ -720,6 +569,12 @@ releases:
     language: 1
     name: "Teenage Mutant Hero Turtles II - The Arcade Game (Europe)"
     source: no-intro
+  - id: 265623
+    kind: 3
+    kind_id: 28152
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 28134

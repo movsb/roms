@@ -41,6 +41,7 @@ releases:
 - release:
     id: 7547
     game_id: 7547
+    release_type: 1
   names:
   - id: 15880
     kind: 3
@@ -59,17 +60,25 @@ releases:
     kind_id: 7547
     language: 2
     name: 兔八哥疯狂城堡
+    deprecated: 1
   - id: 70711
     kind: 3
     kind_id: 7547
     language: 2
     name: "邦尼兔 - 疯狂城堡 (美版) (动作)-Bugs Bunny Crazy Castle, The (USA)"
+    deprecated: 1
   - id: 257832
     kind: 3
     kind_id: 7547
     language: 1
     name: Bugs Bunny Crazy Castle, The (USA)
     source: no-intro
+  - id: 263954
+    kind: 3
+    kind_id: 7547
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 7529
@@ -92,69 +101,6 @@ releases:
       size: 6765
       blob_id: 322396
       debug: fc-title-trial:fceumm:rom-asset=7529:frame=900
-- release:
-    id: 7548
-    game_id: 7547
-    release_type: 2
-  names:
-  - id: 82419
-    kind: 3
-    kind_id: 7548
-    language: 1
-    name: Bugs Bunny Crazy Castle, The (U) [T+Rus_Cool-Spot,Multisoft]
-  assets:
-  - asset:
-      id: 7530
-      kind: 3
-      kind_id: 7548
-      type: 1
-      name: Bugs Bunny Crazy Castle, The (U) [T+Rus_Cool-Spot,Multisoft].nes
-      format: 1
-      size: 98320
-      blob_id: 53719
-      debug: Bugs Bunny Crazy Castle, The (U) [T+Rus_Cool-Spot,Multisoft].nes
-- release:
-    id: 7549
-    game_id: 7547
-    release_type: 2
-  names:
-  - id: 82420
-    kind: 3
-    kind_id: 7549
-    language: 1
-    name: Bugs Bunny Crazy Castle, The (U) [T+Rus_Cool-Spot]
-  assets:
-  - asset:
-      id: 7531
-      kind: 3
-      kind_id: 7549
-      type: 1
-      name: Bugs Bunny Crazy Castle, The (U) [T+Rus_Cool-Spot].nes
-      format: 1
-      size: 98320
-      blob_id: 53720
-      debug: Bugs Bunny Crazy Castle, The (U) [T+Rus_Cool-Spot].nes
-- release:
-    id: 7550
-    game_id: 7547
-    release_type: 2
-  names:
-  - id: 82421
-    kind: 3
-    kind_id: 7550
-    language: 1
-    name: Bugs Bunny Crazy Castle, The (U) [T+Rus_Cool-Spot][a1]
-  assets:
-  - asset:
-      id: 7532
-      kind: 3
-      kind_id: 7550
-      type: 1
-      name: Bugs Bunny Crazy Castle, The (U) [T+Rus_Cool-Spot][a1].nes
-      format: 1
-      size: 98320
-      blob_id: 53721
-      debug: Bugs Bunny Crazy Castle, The (U) [T+Rus_Cool-Spot][a1].nes
 - release:
     id: 7556
     game_id: 7547

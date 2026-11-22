@@ -57,27 +57,6 @@ releases:
         Insector X (J) [T+Eng1.00_Stardust Crusaders].nes
         Insector X (Japan) (Translated En).zip
 - release:
-    id: 13761
-    game_id: 13760
-    release_type: 2
-  names:
-  - id: 83375
-    kind: 3
-    kind_id: 13761
-    language: 1
-    name: Insector X (J) [T+Fre_emu151]
-  assets:
-  - asset:
-      id: 13743
-      kind: 3
-      kind_id: 13761
-      type: 1
-      name: Insector X (J) [T+Fre_emu151].nes
-      format: 1
-      size: 262160
-      blob_id: 59589
-      debug: Insector X (J) [T+Fre_emu151].nes
-- release:
     id: 13765
     game_id: 13760
     release_date: 19900921
@@ -87,12 +66,14 @@ releases:
 - release:
     id: 28463
     game_id: 13760
+    release_type: 1
   names:
   - id: 65609
     kind: 3
     kind_id: 28463
     language: 2
     name: 昆虫大战 (日版) (射击)-Insector X (Japan)
+    deprecated: 1
   - id: 65610
     kind: 3
     kind_id: 28463
@@ -105,6 +86,12 @@ releases:
     language: 1
     name: Insector X (Japan)
     source: no-intro
+  - id: 265718
+    kind: 3
+    kind_id: 28463
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 28445

@@ -35,90 +35,6 @@ names:
   name: Rygar
 releases:
 - release:
-    id: 20457
-    game_id: 20457
-    release_type: 2
-  names:
-  - id: 84290
-    kind: 3
-    kind_id: 20457
-    language: 1
-    name: Rygar (E) [T+FreBeta_Generation IX]
-  assets:
-  - asset:
-      id: 20439
-      kind: 3
-      kind_id: 20457
-      type: 1
-      name: Rygar (E) [T+FreBeta_Generation IX].nes
-      format: 1
-      size: 131088
-      blob_id: 65898
-      debug: Rygar (E) [T+FreBeta_Generation IX].nes
-- release:
-    id: 20458
-    game_id: 20457
-    release_type: 2
-  names:
-  - id: 84291
-    kind: 3
-    kind_id: 20458
-    language: 1
-    name: Rygar (E) [T+Fre_Terminus]
-  assets:
-  - asset:
-      id: 20440
-      kind: 3
-      kind_id: 20458
-      type: 1
-      name: Rygar (E) [T+Fre_Terminus].nes
-      format: 1
-      size: 131088
-      blob_id: 65899
-      debug: Rygar (E) [T+Fre_Terminus].nes
-- release:
-    id: 20459
-    game_id: 20457
-    release_type: 2
-  names:
-  - id: 84292
-    kind: 3
-    kind_id: 20459
-    language: 1
-    name: Rygar (E) [T+Spa099_spctrmxd]
-  assets:
-  - asset:
-      id: 20441
-      kind: 3
-      kind_id: 20459
-      type: 1
-      name: Rygar (E) [T+Spa099_spctrmxd].nes
-      format: 1
-      size: 131088
-      blob_id: 65900
-      debug: Rygar (E) [T+Spa099_spctrmxd].nes
-- release:
-    id: 20460
-    game_id: 20457
-    release_type: 2
-  names:
-  - id: 45578
-    kind: 3
-    kind_id: 20460
-    language: 1
-    name: Rygar (E) [T-FreBeta]
-  assets:
-  - asset:
-      id: 20442
-      kind: 3
-      kind_id: 20460
-      type: 1
-      name: Rygar (E) [T-FreBeta].nes
-      format: 1
-      size: 131088
-      blob_id: 65901
-      debug: Rygar (E) [T-FreBeta].nes
-- release:
     id: 20462
     game_id: 20457
   names:
@@ -139,92 +55,9 @@ releases:
       blob_id: 65903
       debug: Rygar (PC10).nes
 - release:
-    id: 20463
-    game_id: 20457
-    release_type: 2
-  names:
-  - id: 84293
-    kind: 3
-    kind_id: 20463
-    language: 1
-    name: Rygar (U) (PRG0) [T+Gre1.0_Lugia_13gr]
-  assets:
-  - asset:
-      id: 20445
-      kind: 3
-      kind_id: 20463
-      type: 1
-      name: Rygar (U) (PRG0) [T+Gre1.0_Lugia_13gr].nes
-      format: 1
-      size: 131088
-      blob_id: 65904
-      debug: Rygar (U) (PRG0) [T+Gre1.0_Lugia_13gr].nes
-- release:
-    id: 20464
-    game_id: 20457
-    release_type: 2
-  names:
-  - id: 84294
-    kind: 3
-    kind_id: 20464
-    language: 1
-    name: Rygar (U) (PRG0) [T+Ita1.0_Otacon]
-  assets:
-  - asset:
-      id: 20446
-      kind: 3
-      kind_id: 20464
-      type: 1
-      name: Rygar (U) (PRG0) [T+Ita1.0_Otacon].nes
-      format: 1
-      size: 131088
-      blob_id: 65905
-      debug: Rygar (U) (PRG0) [T+Ita1.0_Otacon].nes
-- release:
-    id: 20465
-    game_id: 20457
-    release_type: 2
-  names:
-  - id: 84295
-    kind: 3
-    kind_id: 20465
-    language: 1
-    name: Rygar (U) (PRG0) [T+Spa99%_Kale_1942]
-  assets:
-  - asset:
-      id: 20447
-      kind: 3
-      kind_id: 20465
-      type: 1
-      name: Rygar (U) (PRG0) [T+Spa99%_Kale_1942].nes
-      format: 1
-      size: 131088
-      blob_id: 65906
-      debug: Rygar (U) (PRG0) [T+Spa99%_Kale_1942].nes
-- release:
-    id: 20466
-    game_id: 20457
-    release_type: 2
-  names:
-  - id: 84296
-    kind: 3
-    kind_id: 20466
-    language: 1
-    name: Rygar (U) (PRG0) [T+Spa_HTI]
-  assets:
-  - asset:
-      id: 20448
-      kind: 3
-      kind_id: 20466
-      type: 1
-      name: Rygar (U) (PRG0) [T+Spa_HTI].nes
-      format: 1
-      size: 131088
-      blob_id: 65907
-      debug: Rygar (U) (PRG0) [T+Spa_HTI].nes
-- release:
     id: 20468
     game_id: 20457
+    release_type: 1
   names:
   - id: 45602
     kind: 3
@@ -237,12 +70,19 @@ releases:
     kind_id: 20468
     language: 2
     name: 未来战士 (美版)(Rev A) (动作)-Rygar (USA) (Rev A)
+    deprecated: 1
   - id: 259225
     kind: 3
     kind_id: 20468
     language: 1
     name: Rygar (USA) (Rev 1)
     source: no-intro
+  - id: 264790
+    kind: 3
+    kind_id: 20468
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 20450
@@ -269,71 +109,9 @@ releases:
       blob_id: 322916
       debug: fc-title-trial:fceumm:rom-asset=20450:frame=180
 - release:
-    id: 20469
-    game_id: 20457
-    release_type: 2
-  names:
-  - id: 84297
-    kind: 3
-    kind_id: 20469
-    language: 1
-    name: Rygar (U) (PRG1) [T+Bra100%_BRGames]
-  assets:
-  - asset:
-      id: 20451
-      kind: 3
-      kind_id: 20469
-      type: 1
-      name: Rygar (U) (PRG1) [T+Bra100%_BRGames].nes
-      format: 1
-      size: 131088
-      blob_id: 65910
-      debug: Rygar (U) (PRG1) [T+Bra100%_BRGames].nes
-- release:
-    id: 20470
-    game_id: 20457
-    release_type: 2
-  names:
-  - id: 84298
-    kind: 3
-    kind_id: 20470
-    language: 1
-    name: Rygar (U) (PRG1) [T+Rus]
-  assets:
-  - asset:
-      id: 20452
-      kind: 3
-      kind_id: 20470
-      type: 1
-      name: Rygar (U) (PRG1) [T+Rus].nes
-      format: 1
-      size: 131088
-      blob_id: 65911
-      debug: Rygar (U) (PRG1) [T+Rus].nes
-- release:
-    id: 20471
-    game_id: 20457
-    release_type: 2
-  names:
-  - id: 84299
-    kind: 3
-    kind_id: 20471
-    language: 1
-    name: Rygar (U) (PRG1) [T+Rus_Shedevr]
-  assets:
-  - asset:
-      id: 20453
-      kind: 3
-      kind_id: 20471
-      type: 1
-      name: Rygar (U) (PRG1) [T+Rus_Shedevr].nes
-      format: 1
-      size: 131088
-      blob_id: 65912
-      debug: Rygar (U) (PRG1) [T+Rus_Shedevr].nes
-- release:
     id: 20473
     game_id: 20457
+    release_type: 1
   names:
   - id: 45618
     kind: 3
@@ -346,6 +124,7 @@ releases:
     kind_id: 20473
     language: 2
     name: 未来战士 (美版) (动作)-Rygar (USA)
+    deprecated: 1
   - id: 66018
     kind: 3
     kind_id: 20473
@@ -358,6 +137,12 @@ releases:
     language: 1
     name: Rygar (USA)
     source: no-intro
+  - id: 264791
+    kind: 3
+    kind_id: 20473
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 20455
@@ -386,12 +171,14 @@ releases:
 - release:
     id: 28574
     game_id: 20457
+    release_type: 1
   names:
   - id: 66013
     kind: 3
     kind_id: 28574
     language: 2
     name: 未来战士 (欧版) (动作)-Rygar (Europe)
+    deprecated: 1
   - id: 66014
     kind: 3
     kind_id: 28574
@@ -404,6 +191,12 @@ releases:
     language: 1
     name: Rygar (Europe)
     source: no-intro
+  - id: 265766
+    kind: 3
+    kind_id: 28574
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 28556

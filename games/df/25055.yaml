@@ -2,38 +2,28 @@ game:
   id: 25055
   platform_id: 2
 names:
-- id: 72034
-  kind: 2
-  kind_id: 25055
-  language: 1
-  name: Total Recall (E) [!]
-  deprecated: 1
-- id: 72037
-  kind: 2
-  kind_id: 25055
-  language: 2
-  name: 魔鬼总动员 (动作)-Total Recall
-- id: 72038
-  kind: 2
-  kind_id: 25055
-  language: 1
-  name: Total Recall (U) [!]
-  deprecated: 1
-- id: 93428
-  kind: 2
-  kind_id: 25055
-  language: 1
-  name: Total Recall
 - id: 262254
   kind: 2
   kind_id: 25055
   language: 1
   name: Total Recall
   source: no-intro
+- id: 263791
+  kind: 2
+  kind_id: 25055
+  language: 2
+  name: 全面回忆
+- id: 263792
+  kind: 2
+  kind_id: 25055
+  language: 2
+  name: 魔鬼总动员
+  deprecated: 1
 releases:
 - release:
     id: 25055
     game_id: 25055
+    release_type: 1
   names:
   - id: 55990
     kind: 3
@@ -52,12 +42,19 @@ releases:
     kind_id: 25055
     language: 2
     name: 魔鬼总动员 (美版) (动作)-Total Recall (USA)
+    deprecated: 1
   - id: 259689
     kind: 3
     kind_id: 25055
     language: 1
     name: Total Recall (USA)
     source: no-intro
+  - id: 265035
+    kind: 3
+    kind_id: 25055
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 25037
@@ -87,12 +84,14 @@ releases:
 - release:
     id: 30362
     game_id: 25055
+    release_type: 1
   names:
   - id: 72035
     kind: 3
     kind_id: 30362
     language: 2
     name: 魔鬼总动员 (欧版) (动作)-Total Recall (Europe)
+    deprecated: 1
   - id: 72036
     kind: 3
     kind_id: 30362
@@ -105,6 +104,12 @@ releases:
     language: 1
     name: Total Recall (Europe)
     source: no-intro
+  - id: 266318
+    kind: 3
+    kind_id: 30362
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 30344

@@ -245,27 +245,6 @@ releases:
       blob_id: 56051
       debug: Doraemon (J) (PRG0) [t3].nes
 - release:
-    id: 10007
-    game_id: 9993
-    release_type: 2
-  names:
-  - id: 82765
-    kind: 3
-    kind_id: 10007
-    language: 1
-    name: Doraemon (J) (PRG1) [T+Rus_Chief-Net]
-  assets:
-  - asset:
-      id: 9989
-      kind: 3
-      kind_id: 10007
-      type: 1
-      name: Doraemon (J) (PRG1) [T+Rus_Chief-Net].nes
-      format: 1
-      size: 163856
-      blob_id: 56052
-      debug: Doraemon (J) (PRG1) [T+Rus_Chief-Net].nes
-- release:
     id: 10009
     game_id: 9993
     release_date: 19861212
@@ -357,12 +336,14 @@ releases:
 - release:
     id: 27847
     game_id: 9993
+    release_type: 1
   names:
   - id: 63593
     kind: 3
     kind_id: 27847
     language: 2
     name: 小叮当 (日版) (动作射击)-Doraemon (Japan)
+    deprecated: 1
   - id: 63594
     kind: 3
     kind_id: 27847
@@ -375,6 +356,12 @@ releases:
     language: 1
     name: Doraemon (Japan)
     source: no-intro
+  - id: 265533
+    kind: 3
+    kind_id: 27847
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 27829
@@ -409,11 +396,18 @@ releases:
     kind_id: 27848
     language: 2
     name: 小叮当 (日版)(Rev A) (动作射击)-Doraemon (Japan) (Rev A)
+    deprecated: 1
   - id: 63598
     kind: 3
     kind_id: 27848
     language: 1
     name: Doraemon (J) (PRG1) [!]
+  - id: 265534
+    kind: 3
+    kind_id: 27848
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 27830

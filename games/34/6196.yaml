@@ -22,6 +22,7 @@ releases:
 - release:
     id: 6196
     game_id: 6196
+    release_type: 1
   names:
   - id: 12816
     kind: 3
@@ -35,6 +36,12 @@ releases:
     language: 1
     name: Babel no Tou (Japan) (En)
     source: no-intro
+  - id: 263856
+    kind: 3
+    kind_id: 6196
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 6178
@@ -60,27 +67,6 @@ releases:
       size: 3739
       blob_id: 322338
       debug: fc-title-trial:fceumm:rom-asset=6178:frame=600
-- release:
-    id: 6197
-    game_id: 6196
-    release_type: 2
-  names:
-  - id: 82238
-    kind: 3
-    kind_id: 6197
-    language: 1
-    name: Babel no Tou (J) [T+Rus_Guyver]
-  assets:
-  - asset:
-      id: 6179
-      kind: 3
-      kind_id: 6197
-      type: 1
-      name: Babel no Tou (J) [T+Rus_Guyver].nes
-      format: 1
-      size: 65552
-      blob_id: 52446
-      debug: Babel no Tou (J) [T+Rus_Guyver].nes
 - release:
     id: 6198
     game_id: 6196
@@ -118,18 +104,26 @@ releases:
 - release:
     id: 27959
     game_id: 6196
+    release_type: 1
   names:
   - id: 63970
     kind: 3
     kind_id: 27959
     language: 2
     name: 巴比伦塔 (日版) (益智)-Babel no Tou (Japan)
+    deprecated: 1
   - id: 260455
     kind: 3
     kind_id: 27959
     language: 1
     name: Babel no Tou (Japan) (En)
     source: no-intro
+  - id: 265569
+    kind: 3
+    kind_id: 27959
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 27941

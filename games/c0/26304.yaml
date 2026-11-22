@@ -26,6 +26,7 @@ releases:
 - release:
     id: 26304
     game_id: 26304
+    release_type: 1
   names:
   - id: 58780
     kind: 3
@@ -38,12 +39,19 @@ releases:
     kind_id: 26304
     language: 2
     name: 少年印地安纳琼斯 (美版) (动作)-Young Indiana Jones Chronicles, The (USA)
+    deprecated: 1
   - id: 259864
     kind: 3
     kind_id: 26304
     language: 1
     name: Young Indiana Jones Chronicles, The (USA)
     source: no-intro
+  - id: 265151
+    kind: 3
+    kind_id: 26304
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 26286
@@ -69,48 +77,6 @@ releases:
       size: 2529
       blob_id: 323143
       debug: fc-title-trial:nestopia:rom-asset=26286:frame=900
-- release:
-    id: 26305
-    game_id: 26304
-    release_type: 2
-  names:
-  - id: 84991
-    kind: 3
-    kind_id: 26305
-    language: 1
-    name: Young Indiana Jones Chronicles, The (U) [T+Pol2.2_VscrollOff]
-  assets:
-  - asset:
-      id: 26287
-      kind: 3
-      kind_id: 26305
-      type: 1
-      name: Young Indiana Jones Chronicles, The (U) [T+Pol2.2_VscrollOff].nes
-      format: 1
-      size: 262160
-      blob_id: 71443
-      debug: Young Indiana Jones Chronicles, The (U) [T+Pol2.2_VscrollOff].nes
-- release:
-    id: 26306
-    game_id: 26304
-    release_type: 2
-  names:
-  - id: 84992
-    kind: 3
-    kind_id: 26306
-    language: 1
-    name: Young Indiana Jones Chronicles, The (U) [T+Rus_Shedevr,GottaX]
-  assets:
-  - asset:
-      id: 26288
-      kind: 3
-      kind_id: 26306
-      type: 1
-      name: Young Indiana Jones Chronicles, The (U) [T+Rus_Shedevr,GottaX].nes
-      format: 1
-      size: 262160
-      blob_id: 71444
-      debug: Young Indiana Jones Chronicles, The (U) [T+Rus_Shedevr,GottaX].nes
 - release:
     id: 26311
     game_id: 26304
@@ -183,6 +149,7 @@ releases:
 - release:
     id: 26314
     game_id: 26304
+    release_type: 1
   names:
   - id: 58804
     kind: 3
@@ -196,6 +163,12 @@ releases:
     language: 1
     name: Young Indiana Jones Chronicles, The (USA)
     source: no-intro
+  - id: 265152
+    kind: 3
+    kind_id: 26314
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 26296

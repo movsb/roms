@@ -21,6 +21,7 @@ releases:
 - release:
     id: 8153
     game_id: 8153
+    release_type: 1
   names:
   - id: 17156
     kind: 3
@@ -39,12 +40,19 @@ releases:
     kind_id: 8153
     language: 2
     name: 精致之城 (美版) (益智)-Castlequest (USA)
+    deprecated: 1
   - id: 257857
     kind: 3
     kind_id: 8153
     language: 1
     name: Castlequest (USA)
     source: no-intro
+  - id: 263973
+    kind: 3
+    kind_id: 8153
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 8135
@@ -71,45 +79,3 @@ releases:
       size: 5423
       blob_id: 322411
       debug: fc-title-trial:fceumm:rom-asset=8135:frame=180
-- release:
-    id: 8154
-    game_id: 8153
-    release_type: 2
-  names:
-  - id: 82450
-    kind: 3
-    kind_id: 8154
-    language: 1
-    name: Castlequest (U) [T+Rus_Guyver]
-  assets:
-  - asset:
-      id: 8136
-      kind: 3
-      kind_id: 8154
-      type: 1
-      name: Castlequest (U) [T+Rus_Guyver].nes
-      format: 1
-      size: 65552
-      blob_id: 54301
-      debug: Castlequest (U) [T+Rus_Guyver].nes
-- release:
-    id: 8155
-    game_id: 8153
-    release_type: 2
-  names:
-  - id: 82451
-    kind: 3
-    kind_id: 8155
-    language: 1
-    name: Castlequest (U) [T+Rus_Guyver][a1]
-  assets:
-  - asset:
-      id: 8137
-      kind: 3
-      kind_id: 8155
-      type: 1
-      name: Castlequest (U) [T+Rus_Guyver][a1].nes
-      format: 1
-      size: 65552
-      blob_id: 54302
-      debug: Castlequest (U) [T+Rus_Guyver][a1].nes

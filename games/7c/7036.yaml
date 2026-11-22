@@ -122,6 +122,7 @@ releases:
 - release:
     id: 7038
     game_id: 7036
+    release_type: 1
   names:
   - id: 14720
     kind: 3
@@ -140,12 +141,19 @@ releases:
     kind_id: 7038
     language: 2
     name: 仿生突击队
+    deprecated: 1
   - id: 257784
     kind: 3
     kind_id: 7038
     language: 1
     name: Bionic Commando (USA)
     source: no-intro
+  - id: 263930
+    kind: 3
+    kind_id: 7038
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 7020
@@ -173,69 +181,6 @@ releases:
       size: 3501
       blob_id: 322382
       debug: fc-title-trial:fceumm:rom-asset=7020:frame=600
-- release:
-    id: 7039
-    game_id: 7036
-    release_type: 2
-  names:
-  - id: 82348
-    kind: 3
-    kind_id: 7039
-    language: 1
-    name: Bionic Commando (U) [T+Fre]
-  assets:
-  - asset:
-      id: 7021
-      kind: 3
-      kind_id: 7039
-      type: 1
-      name: Bionic Commando (U) [T+Fre].nes
-      format: 1
-      size: 262160
-      blob_id: 53233
-      debug: Bionic Commando (U) [T+Fre].nes
-- release:
-    id: 7040
-    game_id: 7036
-    release_type: 2
-  names:
-  - id: 82349
-    kind: 3
-    kind_id: 7040
-    language: 1
-    name: Bionic Commando (U) [T+Rus_TaPoK]
-  assets:
-  - asset:
-      id: 7022
-      kind: 3
-      kind_id: 7040
-      type: 1
-      name: Bionic Commando (U) [T+Rus_TaPoK].nes
-      format: 1
-      size: 262160
-      blob_id: 53234
-      debug: Bionic Commando (U) [T+Rus_TaPoK].nes
-- release:
-    id: 7041
-    game_id: 7036
-    release_type: 2
-  names:
-  - id: 82350
-    kind: 3
-    kind_id: 7041
-    language: 1
-    name: Bionic Commando (U) [T+Rus_TaPoK][a1]
-  assets:
-  - asset:
-      id: 7023
-      kind: 3
-      kind_id: 7041
-      type: 1
-      name: Bionic Commando (U) [T+Rus_TaPoK][a1].nes
-      format: 1
-      size: 262160
-      blob_id: 53235
-      debug: Bionic Commando (U) [T+Rus_TaPoK][a1].nes
 - release:
     id: 7051
     game_id: 7036
@@ -344,12 +289,14 @@ releases:
 - release:
     id: 27970
     game_id: 7036
+    release_type: 1
   names:
   - id: 64015
     kind: 3
     kind_id: 27970
     language: 2
     name: 希特勒的复活 (欧版) (动作)-Bionic Commando (Europe)
+    deprecated: 1
   - id: 64016
     kind: 3
     kind_id: 27970
@@ -362,6 +309,12 @@ releases:
     language: 1
     name: Bionic Commando (Europe)
     source: no-intro
+  - id: 265573
+    kind: 3
+    kind_id: 27970
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 27952

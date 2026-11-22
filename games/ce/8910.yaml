@@ -28,6 +28,7 @@ releases:
 - release:
     id: 8910
     game_id: 8910
+    release_type: 1
   names:
   - id: 18930
     kind: 3
@@ -41,6 +42,12 @@ releases:
     language: 1
     name: Cobra Triangle (Europe)
     source: no-intro
+  - id: 264011
+    kind: 3
+    kind_id: 8910
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 8892
@@ -68,6 +75,7 @@ releases:
 - release:
     id: 8911
     game_id: 8910
+    release_type: 1
   names:
   - id: 18932
     kind: 3
@@ -86,12 +94,19 @@ releases:
     kind_id: 8911
     language: 2
     name: 眼镜蛇快艇 (美版) (射击)-Cobra Triangle (USA)
+    deprecated: 1
   - id: 257922
     kind: 3
     kind_id: 8911
     language: 1
     name: Cobra Triangle (USA)
     source: no-intro
+  - id: 264012
+    kind: 3
+    kind_id: 8911
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 8893

@@ -114,6 +114,7 @@ releases:
 - release:
     id: 6180
     game_id: 6180
+    release_type: 1
   names:
   - id: 12784
     kind: 3
@@ -127,6 +128,12 @@ releases:
     language: 1
     name: "Batman - The Video Game (USA)"
     source: no-intro
+  - id: 263855
+    kind: 3
+    kind_id: 6180
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 6162
@@ -149,48 +156,6 @@ releases:
       size: 4372
       blob_id: 323557
       debug: fc-title-trial:fceumm:rom-asset=6162:frame=1200
-- release:
-    id: 6566
-    game_id: 6180
-    release_type: 2
-  names:
-  - id: 82269
-    kind: 3
-    kind_id: 6566
-    language: 1
-    name: Batman (E) [T+Fre]
-  assets:
-  - asset:
-      id: 6548
-      kind: 3
-      kind_id: 6566
-      type: 1
-      name: Batman (E) [T+Fre].nes
-      format: 1
-      size: 262160
-      blob_id: 52797
-      debug: Batman (E) [T+Fre].nes
-- release:
-    id: 6567
-    game_id: 6180
-    release_type: 2
-  names:
-  - id: 82270
-    kind: 3
-    kind_id: 6567
-    language: 1
-    name: Batman (E) [T+Rus1.0_Chief-Net]
-  assets:
-  - asset:
-      id: 6549
-      kind: 3
-      kind_id: 6567
-      type: 1
-      name: Batman (E) [T+Rus1.0_Chief-Net].nes
-      format: 1
-      size: 262160
-      blob_id: 52798
-      debug: Batman (E) [T+Rus1.0_Chief-Net].nes
 - release:
     id: 6569
     game_id: 6180
@@ -276,27 +241,6 @@ releases:
       blob_id: 52803
       debug: Batman (J) [t4].nes
 - release:
-    id: 6573
-    game_id: 6180
-    release_type: 2
-  names:
-  - id: 82271
-    kind: 3
-    kind_id: 6573
-    language: 1
-    name: Batman (U) (Prototype) [T+Bra_devilfox]
-  assets:
-  - asset:
-      id: 6555
-      kind: 3
-      kind_id: 6573
-      type: 1
-      name: Batman (U) (Prototype) [T+Bra_devilfox].nes
-      format: 1
-      size: 262160
-      blob_id: 52804
-      debug: Batman (U) (Prototype) [T+Bra_devilfox].nes
-- release:
     id: 6574
     game_id: 6180
     release_type: 3
@@ -359,216 +303,6 @@ releases:
       blob_id: 52807
       debug: Batman (U) (Prototype-2).nes
 - release:
-    id: 6578
-    game_id: 6180
-    release_type: 2
-  names:
-  - id: 82272
-    kind: 3
-    kind_id: 6578
-    language: 1
-    name: Batman (U) [T+Bra100%_BRGames]
-  assets:
-  - asset:
-      id: 6560
-      kind: 3
-      kind_id: 6578
-      type: 1
-      name: Batman (U) [T+Bra100%_BRGames].nes
-      format: 1
-      size: 262160
-      blob_id: 52808
-      debug: Batman (U) [T+Bra100%_BRGames].nes
-- release:
-    id: 6579
-    game_id: 6180
-    release_type: 2
-  names:
-  - id: 82273
-    kind: 3
-    kind_id: 6579
-    language: 1
-    name: Batman (U) [T+Bra_devilfox]
-  assets:
-  - asset:
-      id: 6561
-      kind: 3
-      kind_id: 6579
-      type: 1
-      name: Batman (U) [T+Bra_devilfox].nes
-      format: 1
-      size: 262160
-      blob_id: 52809
-      debug: Batman (U) [T+Bra_devilfox].nes
-- release:
-    id: 6580
-    game_id: 6180
-    release_type: 2
-  names:
-  - id: 82274
-    kind: 3
-    kind_id: 6580
-    language: 1
-    name: Batman (U) [T+Fre99%_YF06]
-  assets:
-  - asset:
-      id: 6562
-      kind: 3
-      kind_id: 6580
-      type: 1
-      name: Batman (U) [T+Fre99%_YF06].nes
-      format: 1
-      size: 262160
-      blob_id: 52810
-      debug: Batman (U) [T+Fre99%_YF06].nes
-- release:
-    id: 6581
-    game_id: 6180
-    release_type: 2
-  names:
-  - id: 82275
-    kind: 3
-    kind_id: 6581
-    language: 1
-    name: Batman (U) [T+Ger_blackerking]
-  assets:
-  - asset:
-      id: 6563
-      kind: 3
-      kind_id: 6581
-      type: 1
-      name: Batman (U) [T+Ger_blackerking].nes
-      format: 1
-      size: 262160
-      blob_id: 52811
-      debug: Batman (U) [T+Ger_blackerking].nes
-- release:
-    id: 6582
-    game_id: 6180
-    release_type: 2
-  names:
-  - id: 82276
-    kind: 3
-    kind_id: 6582
-    language: 1
-    name: Batman (U) [T+Rus_Chief-Net]
-  assets:
-  - asset:
-      id: 6564
-      kind: 3
-      kind_id: 6582
-      type: 1
-      name: Batman (U) [T+Rus_Chief-Net].nes
-      format: 1
-      size: 262160
-      blob_id: 52812
-      debug: Batman (U) [T+Rus_Chief-Net].nes
-- release:
-    id: 6583
-    game_id: 6180
-    release_type: 2
-  names:
-  - id: 82277
-    kind: 3
-    kind_id: 6583
-    language: 1
-    name: Batman (U) [T+Rus_Mefistotel]
-  assets:
-  - asset:
-      id: 6565
-      kind: 3
-      kind_id: 6583
-      type: 1
-      name: Batman (U) [T+Rus_Mefistotel].nes
-      format: 1
-      size: 262160
-      blob_id: 52813
-      debug: Batman (U) [T+Rus_Mefistotel].nes
-- release:
-    id: 6584
-    game_id: 6180
-    release_type: 2
-  names:
-  - id: 82278
-    kind: 3
-    kind_id: 6584
-    language: 1
-    name: Batman (U) [T+Rus_Shurik Kopylov]
-  assets:
-  - asset:
-      id: 6566
-      kind: 3
-      kind_id: 6584
-      type: 1
-      name: Batman (U) [T+Rus_Shurik Kopylov].nes
-      format: 1
-      size: 262160
-      blob_id: 52814
-      debug: Batman (U) [T+Rus_Shurik Kopylov].nes
-- release:
-    id: 6585
-    game_id: 6180
-    release_type: 2
-  names:
-  - id: 82279
-    kind: 3
-    kind_id: 6585
-    language: 1
-    name: Batman (U) [T+Spa_vice]
-  assets:
-  - asset:
-      id: 6567
-      kind: 3
-      kind_id: 6585
-      type: 1
-      name: Batman (U) [T+Spa_vice].nes
-      format: 1
-      size: 262160
-      blob_id: 52815
-      debug: Batman (U) [T+Spa_vice].nes
-- release:
-    id: 6586
-    game_id: 6180
-    release_type: 2
-  names:
-  - id: 82280
-    kind: 3
-    kind_id: 6586
-    language: 1
-    name: Batman (U) [T+Swe1.0_TheTranslator]
-  assets:
-  - asset:
-      id: 6568
-      kind: 3
-      kind_id: 6586
-      type: 1
-      name: Batman (U) [T+Swe1.0_TheTranslator].nes
-      format: 1
-      size: 262160
-      blob_id: 52816
-      debug: Batman (U) [T+Swe1.0_TheTranslator].nes
-- release:
-    id: 6587
-    game_id: 6180
-    release_type: 2
-  names:
-  - id: 13684
-    kind: 3
-    kind_id: 6587
-    language: 1
-    name: Batman (U) [T-Swe.99]
-  assets:
-  - asset:
-      id: 6569
-      kind: 3
-      kind_id: 6587
-      type: 1
-      name: Batman (U) [T-Swe.99].nes
-      format: 1
-      size: 262160
-      blob_id: 52817
-      debug: Batman (U) [T-Swe.99].nes
-- release:
     id: 6590
     game_id: 6180
     release_type: 3
@@ -611,50 +345,9 @@ releases:
       blob_id: 52821
       debug: Batman (U) [t2].nes
 - release:
-    id: 6592
-    game_id: 6180
-    release_type: 2
-  names:
-  - id: 82281
-    kind: 3
-    kind_id: 6592
-    language: 1
-    name: Batman (U) [t2][T+Rus1.0_Chief-Net]
-  assets:
-  - asset:
-      id: 6574
-      kind: 3
-      kind_id: 6592
-      type: 1
-      name: Batman (U) [t2][T+Rus1.0_Chief-Net].nes
-      format: 1
-      size: 262160
-      blob_id: 52822
-      debug: Batman (U) [t2][T+Rus1.0_Chief-Net].nes
-- release:
-    id: 6593
-    game_id: 6180
-    release_type: 2
-  names:
-  - id: 82282
-    kind: 3
-    kind_id: 6593
-    language: 1
-    name: Batman (U) [t2][T+Rus_Shurik Kopylov]
-  assets:
-  - asset:
-      id: 6575
-      kind: 3
-      kind_id: 6593
-      type: 1
-      name: Batman (U) [t2][T+Rus_Shurik Kopylov].nes
-      format: 1
-      size: 262160
-      blob_id: 52823
-      debug: Batman (U) [t2][T+Rus_Shurik Kopylov].nes
-- release:
     id: 6594
     game_id: 6180
+    release_type: 1
   names:
   - id: 13702
     kind: 3
@@ -668,6 +361,12 @@ releases:
     language: 1
     name: "Batman - The Video Game (USA)"
     source: no-intro
+  - id: 263901
+    kind: 3
+    kind_id: 6594
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 6576
@@ -692,27 +391,6 @@ releases:
       size: 2702
       blob_id: 324632
       debug: libretro-named-titles:rom-asset=6576:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Batman%20-%20The%20Video%20Game%20%28USA%29.png
-- release:
-    id: 6610
-    game_id: 6180
-    release_type: 2
-  names:
-  - id: 82283
-    kind: 3
-    kind_id: 6610
-    language: 1
-    name: Batman Black (Hack) [T+Rus_Shedevr]
-  assets:
-  - asset:
-      id: 6592
-      kind: 3
-      kind_id: 6610
-      type: 1
-      name: Batman Black (Hack) [T+Rus_Shedevr].nes
-      format: 1
-      size: 262160
-      blob_id: 52839
-      debug: Batman Black (Hack) [T+Rus_Shedevr].nes
 - release:
     id: 6615
     game_id: 6180
@@ -779,12 +457,14 @@ releases:
 - release:
     id: 29621
     game_id: 6180
+    release_type: 1
   names:
   - id: 69559
     kind: 3
     kind_id: 29621
     language: 2
     name: 蝙蝠侠 (日版) (动作)-Batman (Japan)
+    deprecated: 1
   - id: 69560
     kind: 3
     kind_id: 29621
@@ -797,6 +477,12 @@ releases:
     language: 1
     name: Batman (Japan) (En)
     source: no-intro
+  - id: 266095
+    kind: 3
+    kind_id: 29621
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 29603
@@ -824,12 +510,14 @@ releases:
 - release:
     id: 29622
     game_id: 6180
+    release_type: 1
   names:
   - id: 69563
     kind: 3
     kind_id: 29622
     language: 2
     name: "蝙蝠侠 (欧版) (动作)-Batman - The Video Game (Europe)"
+    deprecated: 1
   - id: 69564
     kind: 3
     kind_id: 29622
@@ -842,6 +530,12 @@ releases:
     language: 1
     name: "Batman - The Video Game (Europe)"
     source: no-intro
+  - id: 266096
+    kind: 3
+    kind_id: 29622
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 29604

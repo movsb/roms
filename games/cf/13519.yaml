@@ -53,6 +53,7 @@ releases:
 - release:
     id: 13519
     game_id: 13519
+    release_type: 1
   names:
   - id: 29736
     kind: 3
@@ -72,6 +73,12 @@ releases:
     language: 1
     name: Indiana Jones and the Last Crusade (USA)
     source: no-intro
+  - id: 264333
+    kind: 3
+    kind_id: 13519
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 13501
@@ -89,6 +96,7 @@ releases:
 - release:
     id: 13724
     game_id: 13519
+    release_type: 1
   names:
   - id: 30216
     kind: 3
@@ -101,12 +109,19 @@ releases:
     kind_id: 13724
     language: 2
     name: "印地安纳琼斯 - 圣战奇兵 (美版) (Taito) (动作)-Indiana Jones and the Last Crusade (USA) (Taito)"
+    deprecated: 1
   - id: 258466
     kind: 3
     kind_id: 13724
     language: 1
     name: Indiana Jones and the Last Crusade (USA)
     source: no-intro
+  - id: 264352
+    kind: 3
+    kind_id: 13724
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 13706
@@ -130,27 +145,6 @@ releases:
       blob_id: 322632
       debug: fc-title-trial:fceumm:rom-asset=13706:frame=600
 - release:
-    id: 13725
-    game_id: 13519
-    release_type: 2
-  names:
-  - id: 83373
-    kind: 3
-    kind_id: 13725
-    language: 1
-    name: Indiana Jones and the Last Crusade (U) (Taito) [T+Rus_Shedevr]
-  assets:
-  - asset:
-      id: 13707
-      kind: 3
-      kind_id: 13725
-      type: 1
-      name: Indiana Jones and the Last Crusade (U) (Taito) [T+Rus_Shedevr].nes
-      format: 1
-      size: 262160
-      blob_id: 59557
-      debug: Indiana Jones and the Last Crusade (U) (Taito) [T+Rus_Shedevr].nes
-- release:
     id: 13729
     game_id: 13519
   names:
@@ -173,6 +167,7 @@ releases:
 - release:
     id: 13731
     game_id: 13519
+    release_type: 1
   names:
   - id: 30232
     kind: 3
@@ -185,6 +180,7 @@ releases:
     kind_id: 13731
     language: 2
     name: "印地安纳琼斯 - 圣战奇兵 (美版) (UBI Soft) (动作)-Indiana Jones and the Last Crusade (USA) (UBI Soft)"
+    deprecated: 1
   - id: 61678
     kind: 3
     kind_id: 13731
@@ -197,6 +193,12 @@ releases:
     language: 1
     name: "Indiana Jones and the Last Crusade - The Action Game (USA)"
     source: no-intro
+  - id: 264353
+    kind: 3
+    kind_id: 13731
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 13713
@@ -211,12 +213,14 @@ releases:
 - release:
     id: 27270
     game_id: 13519
+    release_type: 1
   names:
   - id: 61669
     kind: 3
     kind_id: 27270
     language: 2
     name: "印地安纳琼斯 - 圣战奇兵 (欧版) (UBI Soft) (动作)-Indiana Jones and the Last Crusade (Europe)"
+    deprecated: 1
   - id: 61670
     kind: 3
     kind_id: 27270
@@ -229,6 +233,12 @@ releases:
     language: 1
     name: "Indiana Jones and the Last Crusade - The Action Game (Europe)"
     source: no-intro
+  - id: 265367
+    kind: 3
+    kind_id: 27270
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 27252

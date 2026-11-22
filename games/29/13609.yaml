@@ -53,6 +53,7 @@ releases:
 - release:
     id: 13609
     game_id: 13609
+    release_type: 1
   names:
   - id: 29938
     kind: 3
@@ -71,6 +72,7 @@ releases:
     kind_id: 13609
     language: 2
     name: "怒 III (美版) (动作)-Ikari III - The Rescue (USA)"
+    deprecated: 1
   - id: 64702
     kind: 3
     kind_id: 13609
@@ -83,6 +85,12 @@ releases:
     language: 1
     name: "Ikari III - The Rescue (USA)"
     source: no-intro
+  - id: 264342
+    kind: 3
+    kind_id: 13609
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 13591
@@ -168,153 +176,6 @@ releases:
       blob_id: 59461
       debug: Ikari III (J) [t2].nes
 - release:
-    id: 13623
-    game_id: 13609
-    release_type: 2
-  names:
-  - id: 83349
-    kind: 3
-    kind_id: 13623
-    language: 1
-    name: "Ikari III - The Rescue (U) [T+Fre1.0_ks151]"
-  assets:
-  - asset:
-      id: 13605
-      kind: 3
-      kind_id: 13623
-      type: 1
-      name: "Ikari III - The Rescue (U) [T+Fre1.0_ks151].nes"
-      format: 1
-      size: 262160
-      blob_id: 59462
-      debug: "Ikari III - The Rescue (U) [T+Fre1.0_ks151].nes"
-- release:
-    id: 13624
-    game_id: 13609
-    release_type: 2
-  names:
-  - id: 83350
-    kind: 3
-    kind_id: 13624
-    language: 1
-    name: "Ikari III - The Rescue (U) [T+Rus_Magicteam]"
-  assets:
-  - asset:
-      id: 13606
-      kind: 3
-      kind_id: 13624
-      type: 1
-      name: "Ikari III - The Rescue (U) [T+Rus_Magicteam].nes"
-      format: 1
-      size: 262160
-      blob_id: 59463
-      debug: "Ikari III - The Rescue (U) [T+Rus_Magicteam].nes"
-- release:
-    id: 13625
-    game_id: 13609
-    release_type: 2
-  names:
-  - id: 83351
-    kind: 3
-    kind_id: 13625
-    language: 1
-    name: "Ikari III - The Rescue (U) [T+Rus_Multisoft]"
-  assets:
-  - asset:
-      id: 13607
-      kind: 3
-      kind_id: 13625
-      type: 1
-      name: "Ikari III - The Rescue (U) [T+Rus_Multisoft].nes"
-      format: 1
-      size: 262160
-      blob_id: 59464
-      debug: "Ikari III - The Rescue (U) [T+Rus_Multisoft].nes"
-- release:
-    id: 13626
-    game_id: 13609
-    release_type: 2
-  names:
-  - id: 83352
-    kind: 3
-    kind_id: 13626
-    language: 1
-    name: "Ikari III - The Rescue (U) [T+Rus_Multisoft][t1]"
-  assets:
-  - asset:
-      id: 13608
-      kind: 3
-      kind_id: 13626
-      type: 1
-      name: "Ikari III - The Rescue (U) [T+Rus_Multisoft][t1].nes"
-      format: 1
-      size: 262160
-      blob_id: 59465
-      debug: "Ikari III - The Rescue (U) [T+Rus_Multisoft][t1].nes"
-- release:
-    id: 13627
-    game_id: 13609
-    release_type: 2
-  names:
-  - id: 83353
-    kind: 3
-    kind_id: 13627
-    language: 1
-    name: "Ikari III - The Rescue (U) [T+Rus_Multisoft][t2]"
-  assets:
-  - asset:
-      id: 13609
-      kind: 3
-      kind_id: 13627
-      type: 1
-      name: "Ikari III - The Rescue (U) [T+Rus_Multisoft][t2].nes"
-      format: 1
-      size: 262160
-      blob_id: 59466
-      debug: "Ikari III - The Rescue (U) [T+Rus_Multisoft][t2].nes"
-- release:
-    id: 13628
-    game_id: 13609
-    release_type: 2
-  names:
-  - id: 83354
-    kind: 3
-    kind_id: 13628
-    language: 1
-    name: "Ikari III - The Rescue (U) [T+Rus_Multisoft][t3]"
-  assets:
-  - asset:
-      id: 13610
-      kind: 3
-      kind_id: 13628
-      type: 1
-      name: "Ikari III - The Rescue (U) [T+Rus_Multisoft][t3].nes"
-      format: 1
-      size: 262160
-      blob_id: 59467
-      debug: "Ikari III - The Rescue (U) [T+Rus_Multisoft][t3].nes"
-- release:
-    id: 13629
-    game_id: 13609
-    release_type: 2
-  names:
-  - id: 29990
-    kind: 3
-    kind_id: 13629
-    language: 1
-    name: "Ikari III - The Rescue (U) [T-Rus_Shedevr,Chronix]"
-  assets:
-  - asset:
-      id: 13611
-      kind: 3
-      kind_id: 13629
-      type: 1
-      name: "Ikari III - The Rescue (U) [T-Rus_Shedevr,Chronix].nes"
-      format: 1
-      size: 262160
-      blob_id: 59468
-      debug: "Ikari III - The Rescue (U) [T-Rus_Shedevr,Chronix].nes"
-- release:
     id: 13638
     game_id: 13609
     release_type: 3
@@ -364,12 +225,14 @@ releases:
 - release:
     id: 28177
     game_id: 13609
+    release_type: 1
   names:
   - id: 64697
     kind: 3
     kind_id: 28177
     language: 2
     name: 怒 III (日版) (动作)-Ikari III (Japan)
+    deprecated: 1
   - id: 64698
     kind: 3
     kind_id: 28177
@@ -382,6 +245,12 @@ releases:
     language: 1
     name: Ikari III (Japan) (En)
     source: no-intro
+  - id: 265628
+    kind: 3
+    kind_id: 28177
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 28159

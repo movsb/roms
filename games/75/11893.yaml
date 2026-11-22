@@ -33,6 +33,7 @@ releases:
 - release:
     id: 11893
     game_id: 11893
+    release_type: 1
   names:
   - id: 26056
     kind: 3
@@ -51,12 +52,19 @@ releases:
     kind_id: 11893
     language: 2
     name: "科学怪人 (美版) (动作)-Frankenstein - The Monster Returns (USA)"
+    deprecated: 1
   - id: 258263
     kind: 3
     kind_id: 11893
     language: 1
     name: "Frankenstein - The Monster Returns (USA)"
     source: no-intro
+  - id: 264216
+    kind: 3
+    kind_id: 11893
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 11875
@@ -80,69 +88,6 @@ releases:
       blob_id: 322557
       debug: fc-title-trial:fceumm:rom-asset=11875:frame=1800
 - release:
-    id: 11894
-    game_id: 11893
-    release_type: 2
-  names:
-  - id: 83124
-    kind: 3
-    kind_id: 11894
-    language: 1
-    name: "Frankenstein - The Monster Returns (U) [T+Por1.1_devilfox]"
-  assets:
-  - asset:
-      id: 11876
-      kind: 3
-      kind_id: 11894
-      type: 1
-      name: "Frankenstein - The Monster Returns (U) [T+Por1.1_devilfox].nes"
-      format: 1
-      size: 262160
-      blob_id: 57828
-      debug: "Frankenstein - The Monster Returns (U) [T+Por1.1_devilfox].nes"
-- release:
-    id: 11895
-    game_id: 11893
-    release_type: 2
-  names:
-  - id: 83125
-    kind: 3
-    kind_id: 11895
-    language: 1
-    name: "Frankenstein - The Monster Returns (U) [T+Rus_Boogerman]"
-  assets:
-  - asset:
-      id: 11877
-      kind: 3
-      kind_id: 11895
-      type: 1
-      name: "Frankenstein - The Monster Returns (U) [T+Rus_Boogerman].nes"
-      format: 1
-      size: 262160
-      blob_id: 57829
-      debug: "Frankenstein - The Monster Returns (U) [T+Rus_Boogerman].nes"
-- release:
-    id: 11896
-    game_id: 11893
-    release_type: 2
-  names:
-  - id: 26066
-    kind: 3
-    kind_id: 11896
-    language: 1
-    name: "Frankenstein - The Monster Returns (U) [T-Por1.0_devilfox]"
-  assets:
-  - asset:
-      id: 11878
-      kind: 3
-      kind_id: 11896
-      type: 1
-      name: "Frankenstein - The Monster Returns (U) [T-Por1.0_devilfox].nes"
-      format: 1
-      size: 262160
-      blob_id: 57830
-      debug: "Frankenstein - The Monster Returns (U) [T-Por1.0_devilfox].nes"
-- release:
     id: 11899
     game_id: 11893
   names:
@@ -165,6 +110,7 @@ releases:
 - release:
     id: 11901
     game_id: 11893
+    release_type: 1
   names:
   - id: 26076
     kind: 3
@@ -178,6 +124,12 @@ releases:
     language: 1
     name: "Frankenstein - The Monster Returns (USA)"
     source: no-intro
+  - id: 264217
+    kind: 3
+    kind_id: 11901
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 11883

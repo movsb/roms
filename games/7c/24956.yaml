@@ -16,6 +16,7 @@ releases:
 - release:
     id: 24956
     game_id: 24956
+    release_type: 1
   names:
   - id: 55756
     kind: 3
@@ -34,12 +35,19 @@ releases:
     kind_id: 24956
     language: 2
     name: 仿魔之刻
+    deprecated: 1
   - id: 259675
     kind: 3
     kind_id: 24956
     language: 1
     name: Toki (USA)
     source: no-intro
+  - id: 265026
+    kind: 3
+    kind_id: 24956
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 24938
@@ -67,48 +75,6 @@ releases:
       size: 3130
       blob_id: 323061
       debug: fc-title-trial:fceumm:rom-asset=24938:frame=300
-- release:
-    id: 24957
-    game_id: 24956
-    release_type: 2
-  names:
-  - id: 84831
-    kind: 3
-    kind_id: 24957
-    language: 1
-    name: Toki (U) [T+Rus_ToledO]
-  assets:
-  - asset:
-      id: 24939
-      kind: 3
-      kind_id: 24957
-      type: 1
-      name: Toki (U) [T+Rus_ToledO].nes
-      format: 1
-      size: 393232
-      blob_id: 70195
-      debug: Toki (U) [T+Rus_ToledO].nes
-- release:
-    id: 24958
-    game_id: 24956
-    release_type: 2
-  names:
-  - id: 84832
-    kind: 3
-    kind_id: 24958
-    language: 1
-    name: Toki (U) [T+Spa100_PaladinKnights]
-  assets:
-  - asset:
-      id: 24940
-      kind: 3
-      kind_id: 24958
-      type: 1
-      name: Toki (U) [T+Spa100_PaladinKnights].nes
-      format: 1
-      size: 393232
-      blob_id: 70196
-      debug: Toki (U) [T+Spa100_PaladinKnights].nes
 - release:
     id: 24960
     game_id: 24956

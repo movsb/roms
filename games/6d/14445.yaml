@@ -164,27 +164,6 @@ releases:
         Kekkyoku Nankyoku Daibouken (J) (REV0) [T+Eng1.0_Quest Games].nes
         Kekkyoku Nankyoku Daibouken (Japan) (Translated En).zip
 - release:
-    id: 14449
-    game_id: 14445
-    release_type: 2
-  names:
-  - id: 83515
-    kind: 3
-    kind_id: 14449
-    language: 1
-    name: Kekkyoku Nankyoku Daibouken (J) (REV0) [T+Rus_Guyver]
-  assets:
-  - asset:
-      id: 14431
-      kind: 3
-      kind_id: 14449
-      type: 1
-      name: Kekkyoku Nankyoku Daibouken (J) (REV0) [T+Rus_Guyver].nes
-      format: 1
-      size: 40976
-      blob_id: 60221
-      debug: Kekkyoku Nankyoku Daibouken (J) (REV0) [T+Rus_Guyver].nes
-- release:
     id: 14455
     game_id: 14445
   names:
@@ -272,18 +251,26 @@ releases:
 - release:
     id: 27256
     game_id: 14445
+    release_type: 1
   names:
   - id: 61630
     kind: 3
     kind_id: 27256
     language: 2
     name: 南极企鹅
+    deprecated: 1
   - id: 260181
     kind: 3
     kind_id: 27256
     language: 1
     name: Kekkyoku Nankyoku Daibouken (Japan)
     source: no-intro
+  - id: 265362
+    kind: 3
+    kind_id: 27256
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 27238
@@ -312,12 +299,14 @@ releases:
 - release:
     id: 27257
     game_id: 14445
+    release_type: 1
   names:
   - id: 61633
     kind: 3
     kind_id: 27257
     language: 2
     name: 南极大冒险 (日版)(Rev 1) (动作)-Kekkyoku Nankyoku Daibouken (Japan) (Rev 1)
+    deprecated: 1
   - id: 61634
     kind: 3
     kind_id: 27257
@@ -330,6 +319,12 @@ releases:
     language: 1
     name: Kekkyoku Nankyoku Daibouken (Japan) (Rev 1)
     source: no-intro
+  - id: 265363
+    kind: 3
+    kind_id: 27257
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 27239

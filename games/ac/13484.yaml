@@ -21,6 +21,7 @@ releases:
 - release:
     id: 13471
     game_id: 13484
+    release_type: 1
   names:
   - id: 29636
     kind: 3
@@ -45,12 +46,19 @@ releases:
     kind_id: 13471
     language: 2
     name: 梦幻仙境 (美版) (动作角色扮演)-Hydlide (USA)
+    deprecated: 1
   - id: 258436
     kind: 3
     kind_id: 13471
     language: 1
     name: Hydlide (USA)
     source: no-intro
+  - id: 264328
+    kind: 3
+    kind_id: 13471
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 13453
@@ -78,24 +86,3 @@ releases:
       size: 1807
       blob_id: 322622
       debug: fc-title-trial:fceumm:rom-asset=13453:frame=180
-- release:
-    id: 13472
-    game_id: 13484
-    release_type: 2
-  names:
-  - id: 83336
-    kind: 3
-    kind_id: 13472
-    language: 1
-    name: Hydlide (U) [T+Fre1.0_ks151]
-  assets:
-  - asset:
-      id: 13454
-      kind: 3
-      kind_id: 13472
-      type: 1
-      name: Hydlide (U) [T+Fre1.0_ks151].nes
-      format: 1
-      size: 40976
-      blob_id: 59319
-      debug: Hydlide (U) [T+Fre1.0_ks151].nes

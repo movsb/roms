@@ -26,6 +26,7 @@ releases:
 - release:
     id: 17614
     game_id: 17614
+    release_type: 1
   names:
   - id: 39304
     kind: 3
@@ -38,6 +39,7 @@ releases:
     kind_id: 17614
     language: 2
     name: "忍者使徒 - 龙牙 (美版) (动作)-Ninja Crusaders (USA)"
+    deprecated: 1
   - id: 64346
     kind: 3
     kind_id: 17614
@@ -50,6 +52,12 @@ releases:
     language: 1
     name: Ninja Crusaders (USA)
     source: no-intro
+  - id: 264620
+    kind: 3
+    kind_id: 17614
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 17596
@@ -72,69 +80,6 @@ releases:
       size: 2521
       blob_id: 324095
       debug: libretro-named-titles:rom-asset=17596:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Ninja%20Crusaders%20%28USA%29.png
-- release:
-    id: 17615
-    game_id: 17614
-    release_type: 2
-  names:
-  - id: 84014
-    kind: 3
-    kind_id: 17615
-    language: 1
-    name: Ninja Crusaders (U) [T+Por100%_Central de Traducuo]
-  assets:
-  - asset:
-      id: 17597
-      kind: 3
-      kind_id: 17615
-      type: 1
-      name: Ninja Crusaders (U) [T+Por100%_Central de Traducuo].nes
-      format: 1
-      size: 131088
-      blob_id: 63192
-      debug: Ninja Crusaders (U) [T+Por100%_Central de Traducuo].nes
-- release:
-    id: 17616
-    game_id: 17614
-    release_type: 2
-  names:
-  - id: 84015
-    kind: 3
-    kind_id: 17616
-    language: 1
-    name: Ninja Crusaders (U) [T+Rus_Chief-Net,Guyver]
-  assets:
-  - asset:
-      id: 17598
-      kind: 3
-      kind_id: 17616
-      type: 1
-      name: Ninja Crusaders (U) [T+Rus_Chief-Net,Guyver].nes
-      format: 1
-      size: 131088
-      blob_id: 63193
-      debug: Ninja Crusaders (U) [T+Rus_Chief-Net,Guyver].nes
-- release:
-    id: 17617
-    game_id: 17614
-    release_type: 2
-  names:
-  - id: 84016
-    kind: 3
-    kind_id: 17617
-    language: 1
-    name: Ninja Crusaders (U) [T+Rus_Shedevr]
-  assets:
-  - asset:
-      id: 17599
-      kind: 3
-      kind_id: 17617
-      type: 1
-      name: Ninja Crusaders (U) [T+Rus_Shedevr].nes
-      format: 1
-      size: 131088
-      blob_id: 63194
-      debug: Ninja Crusaders (U) [T+Rus_Shedevr].nes
 - release:
     id: 17619
     game_id: 17614
@@ -187,6 +132,7 @@ releases:
 - release:
     id: 17622
     game_id: 17614
+    release_type: 1
   names:
   - id: 39326
     kind: 3
@@ -200,6 +146,12 @@ releases:
     language: 1
     name: Ninja Crusaders (USA)
     source: no-intro
+  - id: 264621
+    kind: 3
+    kind_id: 17622
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 17604

@@ -64,27 +64,6 @@ releases:
         Gradius II (J) (VC).nes
         no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=bdc4aa3b19c72ab1ac8405621bfbda2132a1ddf5
 - release:
-    id: 12594
-    game_id: 12593
-    release_type: 2
-  names:
-  - id: 83213
-    kind: 3
-    kind_id: 12594
-    language: 1
-    name: Gradius II (J) [T+Bra_POBRE]
-  assets:
-  - asset:
-      id: 12576
-      kind: 3
-      kind_id: 12594
-      type: 1
-      name: Gradius II (J) [T+Bra_POBRE].nes
-      format: 1
-      size: 262160
-      blob_id: 58484
-      debug: Gradius II (J) [T+Bra_POBRE].nes
-- release:
     id: 12595
     game_id: 12593
     release_type: 2
@@ -253,27 +232,6 @@ releases:
       blob_id: 58492
       debug: Gradius II (J) [T+Chi_lhbl].nes
 - release:
-    id: 12603
-    game_id: 12593
-    release_type: 2
-  names:
-  - id: 83222
-    kind: 3
-    kind_id: 12603
-    language: 1
-    name: Gradius II (J) [T+Fre_terminus]
-  assets:
-  - asset:
-      id: 12585
-      kind: 3
-      kind_id: 12603
-      type: 1
-      name: Gradius II (J) [T+Fre_terminus].nes
-      format: 1
-      size: 262160
-      blob_id: 58493
-      debug: Gradius II (J) [T+Fre_terminus].nes
-- release:
     id: 12604
     game_id: 12593
     release_type: 2
@@ -401,6 +359,7 @@ releases:
     id: 12615
     game_id: 12593
     release_date: 19881216
+    release_type: 1
   names:
   - id: 27698
     kind: 3
@@ -419,6 +378,7 @@ releases:
     kind_id: 12615
     language: 2
     name: 沙罗曼蛇2
+    deprecated: 1
   - id: 66702
     kind: 3
     kind_id: 12615
@@ -431,6 +391,12 @@ releases:
     language: 1
     name: Gradius II (Japan) (En)
     source: no-intro
+  - id: 264284
+    kind: 3
+    kind_id: 12615
+    language: 2
+    name: 日版
+    source: codex
   release_publishers:
   - release_id: 12615
     publisher_id: 2
@@ -558,19 +524,26 @@ releases:
 - release:
     id: 28774
     game_id: 12593
-    release_type: 2
+    release_type: 1
   names:
   - id: 66704
     kind: 3
     kind_id: 28774
     language: 2
     name: 沙罗曼蛇2(汉化版)
+    deprecated: 1
   - id: 260799
     kind: 3
     kind_id: 28774
     language: 1
     name: Salamander (Japan)
     source: no-intro
+  - id: 265831
+    kind: 3
+    kind_id: 28774
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 28756

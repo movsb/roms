@@ -65,6 +65,7 @@ releases:
     id: 12491
     game_id: 12491
     release_date: 19860221
+    release_type: 1
   names:
   - id: 27398
     kind: 3
@@ -77,12 +78,19 @@ releases:
     kind_id: 12491
     language: 2
     name: 日文原版
+    deprecated: 1
   - id: 258352
     kind: 3
     kind_id: 12491
     language: 1
     name: Goonies (Japan) (En)
     source: no-intro
+  - id: 264281
+    kind: 3
+    kind_id: 12491
+    language: 2
+    name: 日版
+    source: codex
   release_publishers:
   - release_id: 12491
     publisher_id: 2
@@ -112,69 +120,6 @@ releases:
       size: 1285
       blob_id: 324005
       debug: libretro-named-titles:rom-asset=12473:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Goonies%20%28Japan%29.png
-- release:
-    id: 12505
-    game_id: 12491
-    release_type: 2
-  names:
-  - id: 83197
-    kind: 3
-    kind_id: 12505
-    language: 1
-    name: Goonies, The (J) [T+Por1.00_Iyasu]
-  assets:
-  - asset:
-      id: 12487
-      kind: 3
-      kind_id: 12505
-      type: 1
-      name: Goonies, The (J) [T+Por1.00_Iyasu].nes
-      format: 1
-      size: 49168
-      blob_id: 58400
-      debug: Goonies, The (J) [T+Por1.00_Iyasu].nes
-- release:
-    id: 12506
-    game_id: 12491
-    release_type: 2
-  names:
-  - id: 83198
-    kind: 3
-    kind_id: 12506
-    language: 1
-    name: Goonies, The (J) [T+Por85%_Made In Brasil]
-  assets:
-  - asset:
-      id: 12488
-      kind: 3
-      kind_id: 12506
-      type: 1
-      name: Goonies, The (J) [T+Por85%_Made In Brasil].nes
-      format: 1
-      size: 49168
-      blob_id: 58401
-      debug: Goonies, The (J) [T+Por85%_Made In Brasil].nes
-- release:
-    id: 12507
-    game_id: 12491
-    release_type: 2
-  names:
-  - id: 83199
-    kind: 3
-    kind_id: 12507
-    language: 1
-    name: Goonies, The (J) [T+Rus]
-  assets:
-  - asset:
-      id: 12489
-      kind: 3
-      kind_id: 12507
-      type: 1
-      name: Goonies, The (J) [T+Rus].nes
-      format: 1
-      size: 49168
-      blob_id: 58402
-      debug: Goonies, The (J) [T+Rus].nes
 - release:
     id: 12510
     game_id: 12491
@@ -217,90 +162,6 @@ releases:
       blob_id: 58406
       debug: Goonies, The (J) [hM03][T+Chi].nes
 - release:
-    id: 12512
-    game_id: 12491
-    release_type: 2
-  names:
-  - id: 83202
-    kind: 3
-    kind_id: 12512
-    language: 1
-    name: Goonies, The (J) [hM03][T+Por90%_Emuroms]
-  assets:
-  - asset:
-      id: 12494
-      kind: 3
-      kind_id: 12512
-      type: 1
-      name: Goonies, The (J) [hM03][T+Por90%_Emuroms].nes
-      format: 1
-      size: 49168
-      blob_id: 58407
-      debug: Goonies, The (J) [hM03][T+Por90%_Emuroms].nes
-- release:
-    id: 12513
-    game_id: 12491
-    release_type: 2
-  names:
-  - id: 83203
-    kind: 3
-    kind_id: 12513
-    language: 1
-    name: Goonies, The (J) [hM03][T+Por90%_Tradu-Roms]
-  assets:
-  - asset:
-      id: 12495
-      kind: 3
-      kind_id: 12513
-      type: 1
-      name: Goonies, The (J) [hM03][T+Por90%_Tradu-Roms].nes
-      format: 1
-      size: 49168
-      blob_id: 58408
-      debug: Goonies, The (J) [hM03][T+Por90%_Tradu-Roms].nes
-- release:
-    id: 12514
-    game_id: 12491
-    release_type: 2
-  names:
-  - id: 83204
-    kind: 3
-    kind_id: 12514
-    language: 1
-    name: Goonies, The (J) [hM03][T+Rus1.99_2R Team,BratWolfa]
-  assets:
-  - asset:
-      id: 12496
-      kind: 3
-      kind_id: 12514
-      type: 1
-      name: Goonies, The (J) [hM03][T+Rus1.99_2R Team,BratWolfa].nes
-      format: 1
-      size: 49168
-      blob_id: 58409
-      debug: Goonies, The (J) [hM03][T+Rus1.99_2R Team,BratWolfa].nes
-- release:
-    id: 12515
-    game_id: 12491
-    release_type: 2
-  names:
-  - id: 83205
-    kind: 3
-    kind_id: 12515
-    language: 1
-    name: Goonies, The (J) [hM03][T+Rus]
-  assets:
-  - asset:
-      id: 12497
-      kind: 3
-      kind_id: 12515
-      type: 1
-      name: Goonies, The (J) [hM03][T+Rus].nes
-      format: 1
-      size: 49168
-      blob_id: 58410
-      debug: Goonies, The (J) [hM03][T+Rus].nes
-- release:
     id: 12521
     game_id: 12491
   names:
@@ -320,27 +181,6 @@ releases:
       size: 49168
       blob_id: 58416
       debug: Goonies, The (J) [p1].nes
-- release:
-    id: 12522
-    game_id: 12491
-    release_type: 2
-  names:
-  - id: 83208
-    kind: 3
-    kind_id: 12522
-    language: 1
-    name: Goonies, The (J) [p1][T+Rus]
-  assets:
-  - asset:
-      id: 12504
-      kind: 3
-      kind_id: 12522
-      type: 1
-      name: Goonies, The (J) [p1][T+Rus].nes
-      format: 1
-      size: 49168
-      blob_id: 58417
-      debug: Goonies, The (J) [p1][T+Rus].nes
 - release:
     id: 12523
     game_id: 12491
@@ -529,27 +369,6 @@ releases:
       size: 49168
       blob_id: 58426
       debug: Goonies, The (J) [t8].nes
-- release:
-    id: 12532
-    game_id: 12491
-    release_type: 2
-  names:
-  - id: 83209
-    kind: 3
-    kind_id: 12532
-    language: 1
-    name: Goonies, The (PC10) [T+Fre1.0_ks151]
-  assets:
-  - asset:
-      id: 12514
-      kind: 3
-      kind_id: 12532
-      type: 1
-      name: Goonies, The (PC10) [T+Fre1.0_ks151].nes
-      format: 1
-      size: 57360
-      blob_id: 58427
-      debug: Goonies, The (PC10) [T+Fre1.0_ks151].nes
 - release:
     id: 12533
     game_id: 12491

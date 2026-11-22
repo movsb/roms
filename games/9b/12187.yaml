@@ -125,6 +125,7 @@ releases:
 - release:
     id: 12194
     game_id: 12187
+    release_type: 1
   names:
   - id: 26762
     kind: 3
@@ -138,6 +139,12 @@ releases:
     language: 1
     name: Gauntlet (USA)
     source: no-intro
+  - id: 264233
+    kind: 3
+    kind_id: 12194
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 12176
@@ -164,29 +171,9 @@ releases:
       blob_id: 323993
       debug: libretro-named-titles:rom-asset=12176:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Gauntlet%20%28USA%29.png
 - release:
-    id: 12196
-    game_id: 12187
-    release_type: 2
-  names:
-  - id: 83176
-    kind: 3
-    kind_id: 12196
-    language: 1
-    name: Gauntlet (U) [T+Rus1.0_BHLady]
-  assets:
-  - asset:
-      id: 12178
-      kind: 3
-      kind_id: 12196
-      type: 1
-      name: Gauntlet (U) [T+Rus1.0_BHLady].nes
-      format: 1
-      size: 196624
-      blob_id: 58109
-      debug: Gauntlet (U) [T+Rus1.0_BHLady].nes
-- release:
     id: 12199
     game_id: 12187
+    release_type: 1
   names:
   - id: 26774
     kind: 3
@@ -200,6 +187,12 @@ releases:
     language: 1
     name: Gauntlet (USA)
     source: no-intro
+  - id: 264234
+    kind: 3
+    kind_id: 12199
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 12181
@@ -337,18 +330,26 @@ releases:
 - release:
     id: 30044
     game_id: 12187
+    release_type: 1
   names:
   - id: 70966
     kind: 3
     kind_id: 30044
     language: 2
     name: 铁手套 (美版) (动作)-Gauntlet (USA)
+    deprecated: 1
   - id: 261278
     kind: 3
     kind_id: 30044
     language: 1
     name: Gauntlet (USA)
     source: no-intro
+  - id: 266207
+    kind: 3
+    kind_id: 30044
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 30026

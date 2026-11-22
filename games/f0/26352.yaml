@@ -79,29 +79,6 @@ releases:
       blob_id: 71486
       debug: Yume Penguin Monogatari (J) [T+EngV2_Kalevan].nes
 - release:
-    id: 26354
-    game_id: 26352
-    release_type: 2
-  names:
-  - id: 85005
-    kind: 3
-    kind_id: 26354
-    language: 1
-    name: Yume Penguin Monogatari (J) [T+Spa1.0_PaladinKnights]
-  assets:
-  - asset:
-      id: 26336
-      kind: 3
-      kind_id: 26354
-      type: 1
-      name: Yume Penguin Monogatari (J) [T+Spa1.0_PaladinKnights].nes
-      format: 1
-      size: 262160
-      blob_id: 71487
-      debug: |-
-        Yume Penguin Monogatari (J) [T+Spa1.0_PaladinKnights].nes
-        Yume Penguin Monogatari (J) [T+Spa1.0_PaladinKnights].zip
-- release:
     id: 26356
     game_id: 26352
     release_type: 2
@@ -173,12 +150,14 @@ releases:
 - release:
     id: 26914
     game_id: 26352
+    release_type: 1
   names:
   - id: 60543
     kind: 3
     kind_id: 26914
     language: 2
     name: 企鹅梦物语 (日版) (动作)-Yume Penguin Monogatari (Japan)
+    deprecated: 1
   - id: 60544
     kind: 3
     kind_id: 26914
@@ -191,6 +170,12 @@ releases:
     language: 1
     name: Yume Penguin Monogatari (Japan)
     source: no-intro
+  - id: 265258
+    kind: 3
+    kind_id: 26914
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 26896

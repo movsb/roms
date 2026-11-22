@@ -21,6 +21,7 @@ releases:
 - release:
     id: 10420
     game_id: 10420
+    release_type: 1
   names:
   - id: 22564
     kind: 3
@@ -34,6 +35,12 @@ releases:
     language: 1
     name: "Dragon Buster II - Yami no Fuuin (Japan) (En)"
     source: no-intro
+  - id: 264114
+    kind: 3
+    kind_id: 10420
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 10402
@@ -109,44 +116,31 @@ releases:
       blob_id: 56437
       debug: "Dragon Buster II - Yami no Fuuin (J) [T+Eng1.0_PentarouZero][t1].nes"
 - release:
-    id: 10424
-    game_id: 10420
-    release_type: 2
-  names:
-  - id: 82885
-    kind: 3
-    kind_id: 10424
-    language: 1
-    name: "Dragon Buster II - Yami no Fuuin (J) [T+Rus_Guyver]"
-  assets:
-  - asset:
-      id: 10406
-      kind: 3
-      kind_id: 10424
-      type: 1
-      name: "Dragon Buster II - Yami no Fuuin (J) [T+Rus_Guyver].nes"
-      format: 1
-      size: 196624
-      blob_id: 56438
-      debug: "Dragon Buster II - Yami no Fuuin (J) [T+Rus_Guyver].nes"
-- release:
     id: 10427
     game_id: 10420
 - release:
     id: 27930
     game_id: 10420
+    release_type: 1
   names:
   - id: 63872
     kind: 3
     kind_id: 27930
     language: 2
     name: "屠龙记 II - 闇之封印 (日版) (动作角色扮演)-Dragon Buster II - Yami no Fuuin (Japan)"
+    deprecated: 1
   - id: 260445
     kind: 3
     kind_id: 27930
     language: 1
     name: "Dragon Buster II - Yami no Fuuin (Japan) (En)"
     source: no-intro
+  - id: 265560
+    kind: 3
+    kind_id: 27930
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 27912

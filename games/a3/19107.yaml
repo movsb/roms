@@ -26,6 +26,7 @@ releases:
 - release:
     id: 19107
     game_id: 19107
+    release_type: 1
   names:
   - id: 42574
     kind: 3
@@ -44,17 +45,25 @@ releases:
     kind_id: 19107
     language: 2
     name: 刀锋斗士 II (美版) (动作)-Power Blade 2 (USA)
+    deprecated: 1
   - id: 69074
     kind: 3
     kind_id: 19107
     language: 2
     name: 能源战士2
+    deprecated: 1
   - id: 259076
     kind: 3
     kind_id: 19107
     language: 1
     name: Power Blade 2 (USA)
     source: no-intro
+  - id: 264695
+    kind: 3
+    kind_id: 19107
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 19089
@@ -82,69 +91,6 @@ releases:
       size: 4257
       blob_id: 322848
       debug: fc-title-trial:fceumm:rom-asset=19089:frame=180
-- release:
-    id: 19108
-    game_id: 19107
-    release_type: 2
-  names:
-  - id: 84155
-    kind: 3
-    kind_id: 19108
-    language: 1
-    name: Power Blade 2 (U) [T+Fre99%_YF06]
-  assets:
-  - asset:
-      id: 19090
-      kind: 3
-      kind_id: 19108
-      type: 1
-      name: Power Blade 2 (U) [T+Fre99%_YF06].nes
-      format: 1
-      size: 262160
-      blob_id: 64622
-      debug: Power Blade 2 (U) [T+Fre99%_YF06].nes
-- release:
-    id: 19109
-    game_id: 19107
-    release_type: 2
-  names:
-  - id: 84156
-    kind: 3
-    kind_id: 19109
-    language: 1
-    name: Power Blade 2 (U) [T+Rus_Barsick]
-  assets:
-  - asset:
-      id: 19091
-      kind: 3
-      kind_id: 19109
-      type: 1
-      name: Power Blade 2 (U) [T+Rus_Barsick].nes
-      format: 1
-      size: 262160
-      blob_id: 64623
-      debug: Power Blade 2 (U) [T+Rus_Barsick].nes
-- release:
-    id: 19110
-    game_id: 19107
-    release_type: 2
-  names:
-  - id: 84157
-    kind: 3
-    kind_id: 19110
-    language: 1
-    name: Power Blade 2 (U) [T+Rus_Wisher]
-  assets:
-  - asset:
-      id: 19092
-      kind: 3
-      kind_id: 19110
-      type: 1
-      name: Power Blade 2 (U) [T+Rus_Wisher].nes
-      format: 1
-      size: 262160
-      blob_id: 64624
-      debug: Power Blade 2 (U) [T+Rus_Wisher].nes
 - release:
     id: 19112
     game_id: 19107
@@ -237,18 +183,26 @@ releases:
 - release:
     id: 29479
     game_id: 19107
+    release_type: 1
   names:
   - id: 69072
     kind: 3
     kind_id: 29479
     language: 2
     name: 能源战士2
+    deprecated: 1
   - id: 261074
     kind: 3
     kind_id: 29479
     language: 1
     name: Power Blade 2 (USA)
     source: no-intro
+  - id: 266048
+    kind: 3
+    kind_id: 29479
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 29461

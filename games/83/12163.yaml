@@ -29,30 +29,10 @@ names:
   name: "Garfield - A Week of Garfield"
 releases:
 - release:
-    id: 12163
-    game_id: 12163
-    release_type: 2
-  names:
-  - id: 83172
-    kind: 3
-    kind_id: 12163
-    language: 1
-    name: "Garfield - A Week of Garfield (J) [T+Spa_Toma]"
-  assets:
-  - asset:
-      id: 12145
-      kind: 3
-      kind_id: 12163
-      type: 1
-      name: "Garfield - A Week of Garfield (J) [T+Spa_Toma].nes"
-      format: 1
-      size: 163856
-      blob_id: 58079
-      debug: "Garfield - A Week of Garfield (J) [T+Spa_Toma].nes"
-- release:
     id: 12169
     game_id: 12163
     release_date: 19890407
+    release_type: 1
   names:
   - id: 26708
     kind: 3
@@ -71,12 +51,19 @@ releases:
     kind_id: 12169
     language: 2
     name: "加菲猫 (日版) (动作)-Garfield - A Week of Garfield (Japan)"
+    deprecated: 1
   - id: 258284
     kind: 3
     kind_id: 12169
     language: 1
     name: Garfield no Isshukan (Japan) (En)
     source: no-intro
+  - id: 264231
+    kind: 3
+    kind_id: 12169
+    language: 2
+    name: 日版
+    source: codex
   release_publishers:
   - release_id: 12169
     publisher_id: 148

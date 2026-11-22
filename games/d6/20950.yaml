@@ -21,6 +21,7 @@ releases:
 - release:
     id: 20950
     game_id: 20950
+    release_type: 1
   names:
   - id: 46684
     kind: 3
@@ -39,12 +40,19 @@ releases:
     kind_id: 20950
     language: 2
     name: "芝麻街 - 字母游戏 (美版) (益智)-Sesame Street ABC (USA)"
+    deprecated: 1
   - id: 259281
     kind: 3
     kind_id: 20950
     language: 1
     name: "Sesame Street - ABC (USA)"
     source: no-intro
+  - id: 264830
+    kind: 3
+    kind_id: 20950
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 20932
@@ -67,24 +75,3 @@ releases:
       size: 1798
       blob_id: 324168
       debug: libretro-named-titles:rom-asset=20932:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Sesame%20Street%20ABC%20%28USA%29.png
-- release:
-    id: 20951
-    game_id: 20950
-    release_type: 2
-  names:
-  - id: 84344
-    kind: 3
-    kind_id: 20951
-    language: 1
-    name: Sesame Street ABC (U) [T+Nor1.00_SSJAndy]
-  assets:
-  - asset:
-      id: 20933
-      kind: 3
-      kind_id: 20951
-      type: 1
-      name: Sesame Street ABC (U) [T+Nor1.00_SSJAndy].nes
-      format: 1
-      size: 65552
-      blob_id: 66374
-      debug: Sesame Street ABC (U) [T+Nor1.00_SSJAndy].nes

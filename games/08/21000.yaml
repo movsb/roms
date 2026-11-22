@@ -60,6 +60,7 @@ releases:
 - release:
     id: 21000
     game_id: 21000
+    release_type: 1
   names:
   - id: 46796
     kind: 3
@@ -73,6 +74,12 @@ releases:
     language: 1
     name: Shadowgate (Germany)
     source: no-intro
+  - id: 264832
+    kind: 3
+    kind_id: 21000
+    language: 2
+    name: 德版
+    source: codex
   assets:
   - asset:
       id: 20982
@@ -100,6 +107,7 @@ releases:
 - release:
     id: 21004
     game_id: 21000
+    release_type: 1
   names:
   - id: 46804
     kind: 3
@@ -112,12 +120,19 @@ releases:
     kind_id: 21004
     language: 2
     name: 暗影之门 (美版) (解谜)-Shadowgate (USA)
+    deprecated: 1
   - id: 259286
     kind: 3
     kind_id: 21004
     language: 1
     name: Shadowgate (USA)
     source: no-intro
+  - id: 264833
+    kind: 3
+    kind_id: 21004
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 20986
@@ -144,29 +159,9 @@ releases:
       blob_id: 324169
       debug: libretro-named-titles:rom-asset=20986:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Shadowgate%20%28USA%29.png
 - release:
-    id: 21005
-    game_id: 21000
-    release_type: 2
-  names:
-  - id: 84350
-    kind: 3
-    kind_id: 21005
-    language: 1
-    name: Shadowgate (U) [T+Rus_Chief-Net,Magicteam]
-  assets:
-  - asset:
-      id: 20987
-      kind: 3
-      kind_id: 21005
-      type: 1
-      name: Shadowgate (U) [T+Rus_Chief-Net,Magicteam].nes
-      format: 1
-      size: 262160
-      blob_id: 66423
-      debug: Shadowgate (U) [T+Rus_Chief-Net,Magicteam].nes
-- release:
     id: 21011
     game_id: 21000
+    release_type: 1
   names:
   - id: 46820
     kind: 3
@@ -180,6 +175,12 @@ releases:
     language: 1
     name: Shadowgate (USA)
     source: no-intro
+  - id: 264834
+    kind: 3
+    kind_id: 21011
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 20993
@@ -207,18 +208,26 @@ releases:
 - release:
     id: 28514
     game_id: 21000
+    release_type: 1
   names:
   - id: 65796
     kind: 3
     kind_id: 28514
     language: 2
     name: 暗影之门 (德版) (解谜)-Shadowgate (Germany)
+    deprecated: 1
   - id: 260677
     kind: 3
     kind_id: 28514
     language: 1
     name: Shadowgate (Germany)
     source: no-intro
+  - id: 265744
+    kind: 3
+    kind_id: 28514
+    language: 2
+    name: 德版
+    source: codex
   assets:
   - asset:
       id: 28496
@@ -246,12 +255,14 @@ releases:
 - release:
     id: 28515
     game_id: 21000
+    release_type: 1
   names:
   - id: 65799
     kind: 3
     kind_id: 28515
     language: 2
     name: 暗影之门 (日版) (解谜)-Shadowgate (Japan)
+    deprecated: 1
   - id: 65800
     kind: 3
     kind_id: 28515
@@ -264,6 +275,12 @@ releases:
     language: 1
     name: Shadowgate (Japan)
     source: no-intro
+  - id: 265745
+    kind: 3
+    kind_id: 28515
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 28497
@@ -291,12 +308,14 @@ releases:
 - release:
     id: 28516
     game_id: 21000
+    release_type: 1
   names:
   - id: 65803
     kind: 3
     kind_id: 28516
     language: 2
     name: 暗影之门 (欧版) (解谜)-Shadowgate (Europe)
+    deprecated: 1
   - id: 65804
     kind: 3
     kind_id: 28516
@@ -309,6 +328,12 @@ releases:
     language: 1
     name: Shadowgate (Europe)
     source: no-intro
+  - id: 265746
+    kind: 3
+    kind_id: 28516
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 28498
@@ -336,12 +361,14 @@ releases:
 - release:
     id: 28517
     game_id: 21000
+    release_type: 1
   names:
   - id: 65807
     kind: 3
     kind_id: 28517
     language: 2
     name: 暗影之门 (法版) (解谜)-Shadowgate (France)
+    deprecated: 1
   - id: 65808
     kind: 3
     kind_id: 28517
@@ -354,6 +381,12 @@ releases:
     language: 1
     name: Shadowgate (France)
     source: no-intro
+  - id: 265747
+    kind: 3
+    kind_id: 28517
+    language: 2
+    name: 法版
+    source: codex
   assets:
   - asset:
       id: 28499
@@ -381,12 +414,14 @@ releases:
 - release:
     id: 28518
     game_id: 21000
+    release_type: 1
   names:
   - id: 65811
     kind: 3
     kind_id: 28518
     language: 2
     name: 暗影之门 (瑞典版) (解谜)-Shadowgate (Sweden)
+    deprecated: 1
   - id: 65812
     kind: 3
     kind_id: 28518
@@ -399,6 +434,12 @@ releases:
     language: 1
     name: Shadowgate (Sweden)
     source: no-intro
+  - id: 265748
+    kind: 3
+    kind_id: 28518
+    language: 2
+    name: 瑞典版
+    source: codex
   assets:
   - asset:
       id: 28500

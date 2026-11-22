@@ -68,27 +68,6 @@ releases:
       blob_id: 60207
       debug: Kawa no Nushi Tsuri (J) [T+Eng0.15_No_Carrier].nes
 - release:
-    id: 14436
-    game_id: 30036
-    release_type: 2
-  names:
-  - id: 83509
-    kind: 3
-    kind_id: 14436
-    language: 1
-    name: Kawa no Nushi Tsuri (J) [T+Rus_Chief-Net]
-  assets:
-  - asset:
-      id: 14418
-      kind: 3
-      kind_id: 14436
-      type: 1
-      name: Kawa no Nushi Tsuri (J) [T+Rus_Chief-Net].nes
-      format: 1
-      size: 262160
-      blob_id: 60208
-      debug: Kawa no Nushi Tsuri (J) [T+Rus_Chief-Net].nes
-- release:
     id: 14437
     game_id: 30036
     release_type: 3
@@ -143,12 +122,14 @@ releases:
 - release:
     id: 30036
     game_id: 30036
+    release_type: 1
   names:
   - id: 70937
     kind: 3
     kind_id: 30036
     language: 2
     name: 钓鱼太郎 (日版) (角色扮演)-Kawa no Nushi Tsuri (Japan)
+    deprecated: 1
   - id: 70938
     kind: 3
     kind_id: 30036
@@ -161,6 +142,12 @@ releases:
     language: 1
     name: Kawa no Nushi Tsuri (Japan)
     source: no-intro
+  - id: 266204
+    kind: 3
+    kind_id: 30036
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 30018

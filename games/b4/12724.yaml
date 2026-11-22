@@ -28,24 +28,20 @@ releases:
 - release:
     id: 12724
     game_id: 12724
+    description: 仅镜像标识不同。
+    release_type: 1
   names:
-  - id: 27934
-    kind: 3
-    kind_id: 12724
-    language: 1
-    name: Gun Nac (U)
-    deprecated: 1
-  - id: 61386
-    kind: 3
-    kind_id: 12724
-    language: 2
-    name: 加纳战机
   - id: 258376
     kind: 3
     kind_id: 12724
     language: 1
     name: Gun Nac (USA)
     source: no-intro
+  - id: 263788
+    kind: 3
+    kind_id: 12724
+    language: 2
+    name: 美版
   assets:
   - asset:
       id: 12706
@@ -61,48 +57,9 @@ releases:
         加纳战机.nes
         no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=a416a41c2ec885eede6bb1db4078abd662847fd5
   - asset:
-      id: 138515
-      kind: 3
-      kind_id: 12724
-      type: 9
-      name: libretro-title.png
-      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Gun%20Nac%20%28USA%29.png
-      format: 1
-      size: 2390
-      blob_id: 324011
-      debug: libretro-named-titles:rom-asset=12706:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Gun%20Nac%20%28USA%29.png
-- release:
-    id: 12737
-    game_id: 12724
-  names:
-  - id: 27960
-    kind: 3
-    kind_id: 12737
-    language: 1
-    name: Gun-Nac (U) [!p]
-    deprecated: 1
-  - id: 63219
-    kind: 3
-    kind_id: 12737
-    language: 2
-    name: 奈克战机 (美版) (射击)-Gun Nac (USA)
-  - id: 63220
-    kind: 3
-    kind_id: 12737
-    language: 1
-    name: Gun-Nac (U) [!]
-    deprecated: 1
-  - id: 258379
-    kind: 3
-    kind_id: 12737
-    language: 1
-    name: Gun Nac (USA)
-    source: no-intro
-  assets:
-  - asset:
       id: 12719
       kind: 3
-      kind_id: 12737
+      kind_id: 12724
       type: 1
       name: Gun Nac (USA).nes
       format: 1
@@ -113,37 +70,16 @@ releases:
         奈克战机 (美版) (射击)-Gun Nac (USA) + Gun-Nac (U) [!].nes
         no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=a416a41c2ec885eede6bb1db4078abd662847fd5
   - asset:
-      id: 139435
+      id: 138515
       kind: 3
-      kind_id: 12737
+      kind_id: 12724
       type: 9
       name: libretro-title.png
       description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Gun%20Nac%20%28USA%29.png
       format: 1
       size: 2390
       blob_id: 324011
-      debug: libretro-named-titles:rom-asset=12719:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Gun%20Nac%20%28USA%29.png
-- release:
-    id: 12738
-    game_id: 12724
-    release_type: 2
-  names:
-  - id: 83232
-    kind: 3
-    kind_id: 12738
-    language: 1
-    name: Gun-Nac (U) [T+Bra_Central de Traducuo]
-  assets:
-  - asset:
-      id: 12720
-      kind: 3
-      kind_id: 12738
-      type: 1
-      name: Gun-Nac (U) [T+Bra_Central de Traducuo].nes
-      format: 1
-      size: 262160
-      blob_id: 58622
-      debug: Gun-Nac (U) [T+Bra_Central de Traducuo].nes
+      debug: libretro-named-titles:rom-asset=12706:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Gun%20Nac%20%28USA%29.png
 - release:
     id: 12739
     game_id: 12724
@@ -186,48 +122,6 @@ releases:
       size: 262160
       blob_id: 58624
       debug: Gun-Nac (U) [T+Chi][a2].nes
-- release:
-    id: 12741
-    game_id: 12724
-    release_type: 2
-  names:
-  - id: 83235
-    kind: 3
-    kind_id: 12741
-    language: 1
-    name: Gun-Nac (U) [T+FreBeta_Generation IX]
-  assets:
-  - asset:
-      id: 12723
-      kind: 3
-      kind_id: 12741
-      type: 1
-      name: Gun-Nac (U) [T+FreBeta_Generation IX].nes
-      format: 1
-      size: 262160
-      blob_id: 58625
-      debug: Gun-Nac (U) [T+FreBeta_Generation IX].nes
-- release:
-    id: 12742
-    game_id: 12724
-    release_type: 2
-  names:
-  - id: 83236
-    kind: 3
-    kind_id: 12742
-    language: 1
-    name: Gun-Nac (U) [T+Rus_Boogerman]
-  assets:
-  - asset:
-      id: 12724
-      kind: 3
-      kind_id: 12742
-      type: 1
-      name: Gun-Nac (U) [T+Rus_Boogerman].nes
-      format: 1
-      size: 262160
-      blob_id: 58626
-      debug: Gun-Nac (U) [T+Rus_Boogerman].nes
 - release:
     id: 12746
     game_id: 12724
@@ -461,24 +355,19 @@ releases:
 - release:
     id: 27734
     game_id: 12724
+    release_type: 1
   names:
-  - id: 63215
-    kind: 3
-    kind_id: 27734
-    language: 2
-    name: 奈克战机 (日版) (射击)-Gun Nac (Japan)
-  - id: 63216
-    kind: 3
-    kind_id: 27734
-    language: 1
-    name: Gun-Nac (J)
-    deprecated: 1
   - id: 260359
     kind: 3
     kind_id: 27734
     language: 1
     name: Gun Nac (Japan)
     source: no-intro
+  - id: 263789
+    kind: 3
+    kind_id: 27734
+    language: 2
+    name: 日版
   assets:
   - asset:
       id: 27716

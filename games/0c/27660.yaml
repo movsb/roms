@@ -79,27 +79,6 @@ releases:
       blob_id: 53895
       debug: Captain Tsubasa (J) [T+Eng1.5_KnighTeen87].nes
 - release:
-    id: 7739
-    game_id: 27660
-    release_type: 2
-  names:
-  - id: 82435
-    kind: 3
-    kind_id: 7739
-    language: 1
-    name: Captain Tsubasa (J) [T+Kor_88ktt]
-  assets:
-  - asset:
-      id: 7721
-      kind: 3
-      kind_id: 7739
-      type: 1
-      name: Captain Tsubasa (J) [T+Kor_88ktt].nes
-      format: 1
-      size: 262160
-      blob_id: 53896
-      debug: Captain Tsubasa (J) [T+Kor_88ktt].nes
-- release:
     id: 7740
     game_id: 27660
     release_type: 2
@@ -123,12 +102,14 @@ releases:
 - release:
     id: 27660
     game_id: 27660
+    release_type: 1
   names:
   - id: 62955
     kind: 3
     kind_id: 27660
     language: 2
     name: 天使之翼 (日版) (运动)-Captain Tsubasa (Japan)
+    deprecated: 1
   - id: 62956
     kind: 3
     kind_id: 27660
@@ -141,6 +122,12 @@ releases:
     language: 1
     name: Captain Tsubasa (Japan)
     source: no-intro
+  - id: 265471
+    kind: 3
+    kind_id: 27660
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 27642

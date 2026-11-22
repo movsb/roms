@@ -58,6 +58,7 @@ releases:
 - release:
     id: 13311
     game_id: 13316
+    release_type: 1
   names:
   - id: 29256
     kind: 3
@@ -82,17 +83,25 @@ releases:
     kind_id: 13311
     language: 2
     name: 虎克船长 (美版) (动作)-Hook (USA)
+    deprecated: 1
   - id: 69482
     kind: 3
     kind_id: 13311
     language: 2
     name: 虎克船长
+    deprecated: 1
   - id: 258421
     kind: 3
     kind_id: 13311
     language: 1
     name: Hook (USA)
     source: no-intro
+  - id: 264319
+    kind: 3
+    kind_id: 13311
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 13293
@@ -122,35 +131,16 @@ releases:
       blob_id: 322615
       debug: fc-title-trial:fceumm:rom-asset=13293:frame=600
 - release:
-    id: 13312
-    game_id: 13316
-    release_type: 2
-  names:
-  - id: 83306
-    kind: 3
-    kind_id: 13312
-    language: 1
-    name: Hook (U) [T+Fre0.9]
-  assets:
-  - asset:
-      id: 13294
-      kind: 3
-      kind_id: 13312
-      type: 1
-      name: Hook (U) [T+Fre0.9].nes
-      format: 1
-      size: 262160
-      blob_id: 59172
-      debug: Hook (U) [T+Fre0.9].nes
-- release:
     id: 29596
     game_id: 13316
+    release_type: 1
   names:
   - id: 69471
     kind: 3
     kind_id: 29596
     language: 2
     name: 虎克船长 (日版) (动作)-Hook (Japan)
+    deprecated: 1
   - id: 69472
     kind: 3
     kind_id: 29596
@@ -163,6 +153,12 @@ releases:
     language: 1
     name: Hook (Japan)
     source: no-intro
+  - id: 266082
+    kind: 3
+    kind_id: 29596
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 29578
@@ -190,12 +186,14 @@ releases:
 - release:
     id: 29597
     game_id: 13316
+    release_type: 1
   names:
   - id: 69475
     kind: 3
     kind_id: 29597
     language: 2
     name: 虎克船长 (欧版) (动作)-Hook (Europe)
+    deprecated: 1
   - id: 69476
     kind: 3
     kind_id: 29597
@@ -208,6 +206,12 @@ releases:
     language: 1
     name: Hook (Europe)
     source: no-intro
+  - id: 266083
+    kind: 3
+    kind_id: 29597
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 29579

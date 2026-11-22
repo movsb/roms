@@ -21,6 +21,7 @@ releases:
 - release:
     id: 23834
     game_id: 23834
+    release_type: 1
   names:
   - id: 53240
     kind: 3
@@ -39,12 +40,19 @@ releases:
     kind_id: 23834
     language: 2
     name: "特库摩足球 (美版) (运动)-Tecmo Cup - Soccer Game (USA)"
+    deprecated: 1
   - id: 259600
     kind: 3
     kind_id: 23834
     language: 1
     name: "Tecmo Cup - Soccer Game (USA)"
     source: no-intro
+  - id: 264980
+    kind: 3
+    kind_id: 23834
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 23816
@@ -67,66 +75,3 @@ releases:
       size: 1992
       blob_id: 323035
       debug: fc-title-trial:fceumm:rom-asset=23816:frame=2400
-- release:
-    id: 23835
-    game_id: 23834
-    release_type: 2
-  names:
-  - id: 84696
-    kind: 3
-    kind_id: 23835
-    language: 1
-    name: "Tecmo Cup - Soccer Game (U) [T+Ara_Abu Hamza]"
-  assets:
-  - asset:
-      id: 23817
-      kind: 3
-      kind_id: 23835
-      type: 1
-      name: "Tecmo Cup - Soccer Game (U) [T+Ara_Abu Hamza].nes"
-      format: 1
-      size: 262288
-      blob_id: 69106
-      debug: "Tecmo Cup - Soccer Game (U) [T+Ara_Abu Hamza].nes"
-- release:
-    id: 23836
-    game_id: 23834
-    release_type: 2
-  names:
-  - id: 84697
-    kind: 3
-    kind_id: 23836
-    language: 1
-    name: "Tecmo Cup - Soccer Game (U) [T+Rus_Zarrak]"
-  assets:
-  - asset:
-      id: 23818
-      kind: 3
-      kind_id: 23836
-      type: 1
-      name: "Tecmo Cup - Soccer Game (U) [T+Rus_Zarrak].nes"
-      format: 1
-      size: 262160
-      blob_id: 69107
-      debug: "Tecmo Cup - Soccer Game (U) [T+Rus_Zarrak].nes"
-- release:
-    id: 23837
-    game_id: 23834
-    release_type: 2
-  names:
-  - id: 84698
-    kind: 3
-    kind_id: 23837
-    language: 1
-    name: "Tecmo Cup - Soccer Game (U) [T+Tur_Kasier]"
-  assets:
-  - asset:
-      id: 23819
-      kind: 3
-      kind_id: 23837
-      type: 1
-      name: "Tecmo Cup - Soccer Game (U) [T+Tur_Kasier].nes"
-      format: 1
-      size: 262160
-      blob_id: 69108
-      debug: "Tecmo Cup - Soccer Game (U) [T+Tur_Kasier].nes"

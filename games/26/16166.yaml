@@ -157,6 +157,7 @@ releases:
 - release:
     id: 16166
     game_id: 16166
+    release_type: 1
   names:
   - id: 35922
     kind: 3
@@ -170,6 +171,12 @@ releases:
     language: 1
     name: Mega Man 3 (Europe)
     source: no-intro
+  - id: 264531
+    kind: 3
+    kind_id: 16166
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 16148
@@ -197,6 +204,7 @@ releases:
 - release:
     id: 16167
     game_id: 16166
+    release_type: 1
   names:
   - id: 35924
     kind: 3
@@ -210,6 +218,12 @@ releases:
     language: 1
     name: Mega Man 3 (Europe) (Rev 1)
     source: no-intro
+  - id: 264532
+    kind: 3
+    kind_id: 16167
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 16149
@@ -358,6 +372,7 @@ releases:
 - release:
     id: 16172
     game_id: 16166
+    release_type: 1
   names:
   - id: 35934
     kind: 3
@@ -377,6 +392,12 @@ releases:
     language: 1
     name: Mega Man 3 (USA)
     source: no-intro
+  - id: 264533
+    kind: 3
+    kind_id: 16172
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 16154
@@ -403,174 +424,6 @@ releases:
       size: 1321
       blob_id: 324972
       debug: libretro-named-titles:rom-asset=16154:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mega%20Man%203%20%28USA%29.png
-- release:
-    id: 16174
-    game_id: 16166
-    release_type: 2
-  names:
-  - id: 83780
-    kind: 3
-    kind_id: 16174
-    language: 1
-    name: Megaman III (U) [T+FreBeta(w-BossNames)_Generation IX]
-  assets:
-  - asset:
-      id: 16156
-      kind: 3
-      kind_id: 16174
-      type: 1
-      name: Megaman III (U) [T+FreBeta(w-BossNames)_Generation IX].nes
-      format: 1
-      size: 393232
-      blob_id: 61841
-      debug: Megaman III (U) [T+FreBeta(w-BossNames)_Generation IX].nes
-- release:
-    id: 16175
-    game_id: 16166
-    release_type: 2
-  names:
-  - id: 83781
-    kind: 3
-    kind_id: 16175
-    language: 1
-    name: Megaman III (U) [T+FreBeta_Generation IX]
-  assets:
-  - asset:
-      id: 16157
-      kind: 3
-      kind_id: 16175
-      type: 1
-      name: Megaman III (U) [T+FreBeta_Generation IX].nes
-      format: 1
-      size: 393232
-      blob_id: 61842
-      debug: Megaman III (U) [T+FreBeta_Generation IX].nes
-- release:
-    id: 16176
-    game_id: 16166
-    release_type: 2
-  names:
-  - id: 83782
-    kind: 3
-    kind_id: 16176
-    language: 1
-    name: Megaman III (U) [T+Fre_Sstrad]
-  assets:
-  - asset:
-      id: 16158
-      kind: 3
-      kind_id: 16176
-      type: 1
-      name: Megaman III (U) [T+Fre_Sstrad].nes
-      format: 1
-      size: 393232
-      blob_id: 61843
-      debug: Megaman III (U) [T+Fre_Sstrad].nes
-- release:
-    id: 16177
-    game_id: 16166
-    release_type: 2
-  names:
-  - id: 83783
-    kind: 3
-    kind_id: 16177
-    language: 1
-    name: Megaman III (U) [T+Ita1.0_Vecna]
-  assets:
-  - asset:
-      id: 16159
-      kind: 3
-      kind_id: 16177
-      type: 1
-      name: Megaman III (U) [T+Ita1.0_Vecna].nes
-      format: 1
-      size: 393232
-      blob_id: 61844
-      debug: Megaman III (U) [T+Ita1.0_Vecna].nes
-- release:
-    id: 16178
-    game_id: 16166
-    release_type: 2
-  names:
-  - id: 83784
-    kind: 3
-    kind_id: 16178
-    language: 1
-    name: Megaman III (U) [T+Pol]
-  assets:
-  - asset:
-      id: 16160
-      kind: 3
-      kind_id: 16178
-      type: 1
-      name: Megaman III (U) [T+Pol].nes
-      format: 1
-      size: 393232
-      blob_id: 61845
-      debug: Megaman III (U) [T+Pol].nes
-- release:
-    id: 16180
-    game_id: 16166
-    release_type: 2
-  names:
-  - id: 83786
-    kind: 3
-    kind_id: 16180
-    language: 1
-    name: Megaman III (U) [T+Por]
-  assets:
-  - asset:
-      id: 16162
-      kind: 3
-      kind_id: 16180
-      type: 1
-      name: Megaman III (U) [T+Por].nes
-      format: 1
-      size: 393232
-      blob_id: 61847
-      debug: Megaman III (U) [T+Por].nes
-- release:
-    id: 16181
-    game_id: 16166
-    release_type: 2
-  names:
-  - id: 83787
-    kind: 3
-    kind_id: 16181
-    language: 1
-    name: Megaman III (U) [T+Rus_Rustranslate Team]
-  assets:
-  - asset:
-      id: 16163
-      kind: 3
-      kind_id: 16181
-      type: 1
-      name: Megaman III (U) [T+Rus_Rustranslate Team].nes
-      format: 1
-      size: 393232
-      blob_id: 61848
-      debug: Megaman III (U) [T+Rus_Rustranslate Team].nes
-- release:
-    id: 16182
-    game_id: 16166
-    release_type: 2
-  names:
-  - id: 83788
-    kind: 3
-    kind_id: 16182
-    language: 1
-    name: Megaman III (U) [T+Spa90%_PaladinKnights]
-  assets:
-  - asset:
-      id: 16164
-      kind: 3
-      kind_id: 16182
-      type: 1
-      name: Megaman III (U) [T+Spa90%_PaladinKnights].nes
-      format: 1
-      size: 393232
-      blob_id: 61849
-      debug: Megaman III (U) [T+Spa90%_PaladinKnights].nes
 - release:
     id: 16188
     game_id: 16166
@@ -675,6 +528,7 @@ releases:
 - release:
     id: 20156
     game_id: 16166
+    release_type: 1
   names:
   - id: 44894
     kind: 3
@@ -688,6 +542,12 @@ releases:
     language: 1
     name: "Rockman 3 - Dr. Wily no Saigo! (Japan)"
     source: no-intro
+  - id: 264774
+    kind: 3
+    kind_id: 20156
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 20138
@@ -736,27 +596,6 @@ releases:
       size: 393232
       blob_id: 65607
       debug: "Rockman 3 - Dr. Wily no Saigo! (J) [T+Chi20061106_MS emumax].nes\n洛克人3.zip"
-- release:
-    id: 20158
-    game_id: 16166
-    release_type: 2
-  names:
-  - id: 84256
-    kind: 3
-    kind_id: 20158
-    language: 1
-    name: "Rockman 3 - Dr. Wily no Saigo! (J) [T+Kor_88KTT]"
-  assets:
-  - asset:
-      id: 20140
-      kind: 3
-      kind_id: 20158
-      type: 1
-      name: "Rockman 3 - Dr. Wily no Saigo! (J) [T+Kor_88KTT].nes"
-      format: 1
-      size: 393232
-      blob_id: 65608
-      debug: "Rockman 3 - Dr. Wily no Saigo! (J) [T+Kor_88KTT].nes"
 - release:
     id: 20164
     game_id: 16166
@@ -884,18 +723,26 @@ releases:
 - release:
     id: 28823
     game_id: 16166
+    release_type: 1
   names:
   - id: 66866
     kind: 3
     kind_id: 28823
     language: 2
     name: "洛克人 III - 威利博士之死期 (欧版) (动作)-Mega Man 3 (Europe)"
+    deprecated: 1
   - id: 260821
     kind: 3
     kind_id: 28823
     language: 1
     name: Mega Man 3 (Europe)
     source: no-intro
+  - id: 265850
+    kind: 3
+    kind_id: 28823
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 28805

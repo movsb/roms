@@ -58,6 +58,7 @@ releases:
 - release:
     id: 18532
     game_id: 18532
+    release_type: 1
   names:
   - id: 41312
     kind: 3
@@ -71,6 +72,12 @@ releases:
     language: 1
     name: "P.O.W. - Prisoners of War (Europe)"
     source: no-intro
+  - id: 264649
+    kind: 3
+    kind_id: 18532
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 18514
@@ -96,6 +103,7 @@ releases:
 - release:
     id: 18533
     game_id: 18532
+    release_type: 1
   names:
   - id: 41314
     kind: 3
@@ -109,6 +117,12 @@ releases:
     language: 1
     name: "P.O.W. - Prisoners of War (USA)"
     source: no-intro
+  - id: 264650
+    kind: 3
+    kind_id: 18533
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 18515
@@ -279,90 +293,6 @@ releases:
       blob_id: 64095
       debug: "P.O.W. - Prisoners of War (U) [T+Chi_Xingkong].nes"
 - release:
-    id: 18542
-    game_id: 18532
-    release_type: 2
-  names:
-  - id: 84107
-    kind: 3
-    kind_id: 18542
-    language: 1
-    name: "P.O.W. - Prisoners of War (U) [T+Por1.0_GTC]"
-  assets:
-  - asset:
-      id: 18524
-      kind: 3
-      kind_id: 18542
-      type: 1
-      name: "P.O.W. - Prisoners of War (U) [T+Por1.0_GTC].nes"
-      format: 1
-      size: 262160
-      blob_id: 64096
-      debug: "P.O.W. - Prisoners of War (U) [T+Por1.0_GTC].nes"
-- release:
-    id: 18543
-    game_id: 18532
-    release_type: 2
-  names:
-  - id: 84108
-    kind: 3
-    kind_id: 18543
-    language: 1
-    name: "P.O.W. - Prisoners of War (U) [T+Por90%_Leon Games]"
-  assets:
-  - asset:
-      id: 18525
-      kind: 3
-      kind_id: 18543
-      type: 1
-      name: "P.O.W. - Prisoners of War (U) [T+Por90%_Leon Games].nes"
-      format: 1
-      size: 262160
-      blob_id: 64097
-      debug: "P.O.W. - Prisoners of War (U) [T+Por90%_Leon Games].nes"
-- release:
-    id: 18544
-    game_id: 18532
-    release_type: 2
-  names:
-  - id: 84109
-    kind: 3
-    kind_id: 18544
-    language: 1
-    name: "P.O.W. - Prisoners of War (U) [T+Rus_Chief-Net,Evgeny]"
-  assets:
-  - asset:
-      id: 18526
-      kind: 3
-      kind_id: 18544
-      type: 1
-      name: "P.O.W. - Prisoners of War (U) [T+Rus_Chief-Net,Evgeny].nes"
-      format: 1
-      size: 262160
-      blob_id: 64098
-      debug: "P.O.W. - Prisoners of War (U) [T+Rus_Chief-Net,Evgeny].nes"
-- release:
-    id: 18545
-    game_id: 18532
-    release_type: 2
-  names:
-  - id: 84110
-    kind: 3
-    kind_id: 18545
-    language: 1
-    name: "P.O.W. - Prisoners of War (U) [T+Tur_KnighTeen87]"
-  assets:
-  - asset:
-      id: 18527
-      kind: 3
-      kind_id: 18545
-      type: 1
-      name: "P.O.W. - Prisoners of War (U) [T+Tur_KnighTeen87].nes"
-      format: 1
-      size: 262160
-      blob_id: 64099
-      debug: "P.O.W. - Prisoners of War (U) [T+Tur_KnighTeen87].nes"
-- release:
     id: 18548
     game_id: 18532
   names:
@@ -447,6 +377,7 @@ releases:
 - release:
     id: 18576
     game_id: 18532
+    release_type: 1
   names:
   - id: 41426
     kind: 3
@@ -465,12 +396,19 @@ releases:
     kind_id: 18576
     language: 2
     name: 脱狱1
+    deprecated: 1
   - id: 258991
     kind: 3
     kind_id: 18576
     language: 1
     name: "P.O.W. - Prisoners of War (USA)"
     source: no-intro
+  - id: 264654
+    kind: 3
+    kind_id: 18576
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 18558

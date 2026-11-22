@@ -175,29 +175,9 @@ releases:
       blob_id: 59379
       debug: Ice Climber (J) [t1].nes
 - release:
-    id: 13536
-    game_id: 13527
-    release_type: 2
-  names:
-  - id: 83340
-    kind: 3
-    kind_id: 13536
-    language: 1
-    name: Ice Climber (J) [t1][T+Rus_Multisoft]
-  assets:
-  - asset:
-      id: 13518
-      kind: 3
-      kind_id: 13536
-      type: 1
-      name: Ice Climber (J) [t1][T+Rus_Multisoft].nes
-      format: 1
-      size: 24592
-      blob_id: 59380
-      debug: Ice Climber (J) [t1][T+Rus_Multisoft].nes
-- release:
     id: 13537
     game_id: 13527
+    release_type: 1
   names:
   - id: 29778
     kind: 3
@@ -211,6 +191,12 @@ releases:
     language: 1
     name: Ice Climber (USA) (e-Reader)
     source: no-intro
+  - id: 264334
+    kind: 3
+    kind_id: 13537
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 13519
@@ -227,6 +213,7 @@ releases:
 - release:
     id: 13538
     game_id: 13527
+    release_type: 1
   names:
   - id: 29780
     kind: 3
@@ -258,6 +245,12 @@ releases:
     language: 1
     name: Ice Climber (USA, Europe, Asia) (En)
     source: no-intro
+  - id: 264335
+    kind: 3
+    kind_id: 13538
+    language: 2
+    name: 美版／欧版／亚洲版
+    source: codex
   assets:
   - asset:
       id: 13520
@@ -285,48 +278,6 @@ releases:
       size: 2362
       blob_id: 322624
       debug: fc-title-trial:fceumm:rom-asset=13520:frame=180
-- release:
-    id: 13541
-    game_id: 13527
-    release_type: 2
-  names:
-  - id: 83341
-    kind: 3
-    kind_id: 13541
-    language: 1
-    name: Ice Climber (UE) [T+Fre]
-  assets:
-  - asset:
-      id: 13523
-      kind: 3
-      kind_id: 13541
-      type: 1
-      name: Ice Climber (UE) [T+Fre].nes
-      format: 1
-      size: 24592
-      blob_id: 59383
-      debug: Ice Climber (UE) [T+Fre].nes
-- release:
-    id: 13542
-    game_id: 13527
-    release_type: 2
-  names:
-  - id: 83342
-    kind: 3
-    kind_id: 13542
-    language: 1
-    name: Ice Climber (UE) [T+Rus_Multisoft]
-  assets:
-  - asset:
-      id: 13524
-      kind: 3
-      kind_id: 13542
-      type: 1
-      name: Ice Climber (UE) [T+Rus_Multisoft].nes
-      format: 1
-      size: 24592
-      blob_id: 59384
-      debug: Ice Climber (UE) [T+Rus_Multisoft].nes
 - release:
     id: 13552
     game_id: 13527
@@ -443,12 +394,14 @@ releases:
 - release:
     id: 28405
     game_id: 13527
+    release_type: 1
   names:
   - id: 65413
     kind: 3
     kind_id: 28405
     language: 2
     name: 敲冰块
+    deprecated: 1
   - id: 65414
     kind: 3
     kind_id: 28405
@@ -461,6 +414,12 @@ releases:
     language: 1
     name: Ice Climber (Japan) (En)
     source: no-intro
+  - id: 265696
+    kind: 3
+    kind_id: 28405
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 28387

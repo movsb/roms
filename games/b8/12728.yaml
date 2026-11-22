@@ -118,48 +118,6 @@ releases:
       blob_id: 324865
       debug: libretro-named-titles:rom-asset=12711:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Gun.Smoke%20%28USA%29.png
 - release:
-    id: 12752
-    game_id: 12728
-    release_type: 2
-  names:
-  - id: 83237
-    kind: 3
-    kind_id: 12752
-    language: 1
-    name: Gun.Smoke (E) [T+Fre1.0_ks151]
-  assets:
-  - asset:
-      id: 12734
-      kind: 3
-      kind_id: 12752
-      type: 1
-      name: Gun.Smoke (E) [T+Fre1.0_ks151].nes
-      format: 1
-      size: 131088
-      blob_id: 58636
-      debug: Gun.Smoke (E) [T+Fre1.0_ks151].nes
-- release:
-    id: 12754
-    game_id: 12728
-    release_type: 2
-  names:
-  - id: 83238
-    kind: 3
-    kind_id: 12754
-    language: 1
-    name: Gun.Smoke (U) [T+Bra_diegaozims]
-  assets:
-  - asset:
-      id: 12736
-      kind: 3
-      kind_id: 12754
-      type: 1
-      name: Gun.Smoke (U) [T+Bra_diegaozims].nes
-      format: 1
-      size: 131088
-      blob_id: 58637
-      debug: Gun.Smoke (U) [T+Bra_diegaozims].nes
-- release:
     id: 12755
     game_id: 12728
     description: "三者都是 FC/NES 版《Gun.Smoke／荒野大镖客》的 Ziria 汉化版本，归在同一个游戏 `12728` 下是正确的，但 ROM 并不相同。\n\n| 发行版 | 标记含义 | 与 12755 的差异 |\n|---|---|---:|\n| `12755` | `[T+Chi_Ziria]`，完整汉化版 | 基准版本 |\n| `12756` | `[T+Chi_Ziria][a2]`，完整汉化的第 2 个替代版本 | 仅 4 字节不同 |\n| `29554` | `[T-Chi_Ziria]`，未完成/早期汉化版 | 1,459 字节不同 |\n\n共同点：\n\n- 大小均为 131,088 字节\n- iNES 头完全相同\n- 都是 Mapper 2、128 KiB PRG ROM\n- 都属于 Ziria 汉化\n\n`29554` 的 CRC32 `1F0A941B`、MD5 `ff46caebc46ac5faa8385c96f9b119f1` 与公开记录中的 `[T-Chi_Ziria]` 完全一致。[RetroAchievements 的校验记录](https://retroachievements.org/forums/topic/1478)\n\n建议：\n\n- `12755` 作为主要汉化发行版保留\n- `12756` 作为“完整汉化替代版 2”保留\n- `29554` 作为“早期/未完成汉化版”保留\n- 不应合并三个 ROM；但可以把显示名称分别整理为：\n  - 荒野大镖客（Ziria 完整汉化版）\n  - 荒野大镖客（Ziria 完整汉化替代版 2）\n  - 荒野大镖客（Ziria 早期汉化版）\n\n`12755` 与 `12756` 只有以下 4 个字节不同，其他 131,084 字节完全一致：\n\n| 文件偏移 | `12755` | `12756 [a2]` | 可能的 6502 指令变化 |\n|---:|---:|---:|---|\n| `0x1EBBD` | `05` | `A5` | `ORA $7C` → `LDA $7C` |\n| `0x1EBCE` | `78` | `05` | `LDA $78` → `LDA $05` |\n| `0x1F3C6` | `C6` | `AD` | 与下一字节共同改变指令 |\n| `0x1F3C7` | `7A` | `63` | 见下方 |\n\n第一处完整代码：\n\n```text\n12755: A5 77 05 7C 05 7D\n       LDA $77\n       ORA $7C\n       ORA $7D\n\n12756: A5 77 A5 7C 05 7D\n       LDA $77\n       LDA $7C\n       ORA $7D\n```\n\n第二处：\n\n```text\n12755: A5 78    LDA $78\n12756: A5 05    LDA $05\n```\n\n最后两字节放在上下文中会变成：\n\n```text\n12755: C6 7A F0 3A\n       DEC $7A\n       BEQ ...\n\n12756: AD 63 F0 3A\n       LDA $F063\n       NOP       ; 非官方 6502 NOP\n```\n\n因此 `[a2]` 不是简单的头部或校验差异，而是修改了三处程序逻辑，尤其最后一处相当于取消了 `DEC $7A` 和条件跳转。若没有明确证据表明这是修正版，通常应优先保留无 `[a2]` 的 `12755` 作为标准完整汉化版。\n\n连续两次lda没有意义吧？为什么看起来12755更正常？\n\n对，`12755` 明显更正常，而且现在有了直接证据：这四个字节与原版美版 ROM 完全一致。\n\n| 位置 | 美版原版 | `12755` | `12756 [a2]` |\n|---:|---:|---:|---:|\n| `0x1EBBD` | `05` | `05` | `A5` |\n| `0x1EBCE` | `78` | `78` | `05` |\n| `0x1F3C6` | `C6` | `C6` | `AD` |\n| `0x1F3C7` | `7A` | `7A` | `63` |\n\n原版与 `12755`：\n\n```asm\nLDA $77\nORA $7C\nORA $7D\n```\n\n这是合理的：把 `$77`、`$7C`、`$7D` 三个状态合并，然后根据结果判断。\n\n`12756`：\n\n```asm\nLDA $77\nLDA $7C\nORA $7D\n```\n\n第二条 `LDA` 会覆盖第一条的数值和标志位；这里访问的是零页 RAM，不是具有读取副作用的硬件寄存器，所以第一条基本没有意义。\n\n另外两处也一样：\n\n```asm\n原版/12755: LDA $78\n12756:      LDA $05\n```\n\n以及：\n\n```asm\n原版/12755:\nDEC $7A\nBEQ ...\n\n12756:\nLDA $F063\nNOP\n```\n\n结论：`12755` 保留了美版原程序逻辑，仅加入汉化内容；`12756 [a2]` 的四字节修改与汉化没有明显关系，而且破坏了正常逻辑。它虽然被旧 ROM 集标为“替代版”，但从代码看更像错误修改或受损变体。标准汉化版应选择 `12755`。"
@@ -236,111 +194,6 @@ releases:
       blob_id: 73661
       debug: 荒野大镖客[高艳龙汉化 MS修正] + Gun.Smoke (U) [T+Chi_Ziria][a1].nes
 - release:
-    id: 12758
-    game_id: 12728
-    release_type: 2
-  names:
-  - id: 83242
-    kind: 3
-    kind_id: 12758
-    language: 1
-    name: Gun.Smoke (U) [T+Fre]
-  assets:
-  - asset:
-      id: 12740
-      kind: 3
-      kind_id: 12758
-      type: 1
-      name: Gun.Smoke (U) [T+Fre].nes
-      format: 1
-      size: 131088
-      blob_id: 58641
-      debug: Gun.Smoke (U) [T+Fre].nes
-- release:
-    id: 12759
-    game_id: 12728
-    release_type: 2
-  names:
-  - id: 83243
-    kind: 3
-    kind_id: 12759
-    language: 1
-    name: Gun.Smoke (U) [T+Por95%_Emuroms]
-  assets:
-  - asset:
-      id: 12741
-      kind: 3
-      kind_id: 12759
-      type: 1
-      name: Gun.Smoke (U) [T+Por95%_Emuroms].nes
-      format: 1
-      size: 131088
-      blob_id: 58642
-      debug: Gun.Smoke (U) [T+Por95%_Emuroms].nes
-- release:
-    id: 12760
-    game_id: 12728
-    release_type: 2
-  names:
-  - id: 83244
-    kind: 3
-    kind_id: 12760
-    language: 1
-    name: Gun.Smoke (U) [T+Rus_Boogerman]
-  assets:
-  - asset:
-      id: 12742
-      kind: 3
-      kind_id: 12760
-      type: 1
-      name: Gun.Smoke (U) [T+Rus_Boogerman].nes
-      format: 1
-      size: 131088
-      blob_id: 58643
-      debug: Gun.Smoke (U) [T+Rus_Boogerman].nes
-- release:
-    id: 12761
-    game_id: 12728
-    release_type: 2
-  names:
-  - id: 83245
-    kind: 3
-    kind_id: 12761
-    language: 1
-    name: Gun.Smoke (U) [T+Spa_Tanero]
-  assets:
-  - asset:
-      id: 12743
-      kind: 3
-      kind_id: 12761
-      type: 1
-      name: Gun.Smoke (U) [T+Spa_Tanero].nes
-      format: 1
-      size: 131088
-      blob_id: 58644
-      debug: Gun.Smoke (U) [T+Spa_Tanero].nes
-- release:
-    id: 12762
-    game_id: 12728
-    release_type: 2
-  names:
-  - id: 83246
-    kind: 3
-    kind_id: 12762
-    language: 1
-    name: Gun.Smoke (U) [T+Swe1.0_TheTranslator]
-  assets:
-  - asset:
-      id: 12744
-      kind: 3
-      kind_id: 12762
-      type: 1
-      name: Gun.Smoke (U) [T+Swe1.0_TheTranslator].nes
-      format: 1
-      size: 131088
-      blob_id: 58645
-      debug: Gun.Smoke (U) [T+Swe1.0_TheTranslator].nes
-- release:
     id: 12769
     game_id: 12728
   names:
@@ -369,27 +222,6 @@ releases:
       debug: |-
         Gun.Smoke (U) [p1].nes
         no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=6c86dc304e986bf53be1365a2596893f91cd2ed1
-- release:
-    id: 12770
-    game_id: 12728
-    release_type: 2
-  names:
-  - id: 83248
-    kind: 3
-    kind_id: 12770
-    language: 1
-    name: Gun.Smoke (U) [p1][T+Fre]
-  assets:
-  - asset:
-      id: 12752
-      kind: 3
-      kind_id: 12770
-      type: 1
-      name: Gun.Smoke (U) [p1][T+Fre].nes
-      format: 1
-      size: 131088
-      blob_id: 58653
-      debug: Gun.Smoke (U) [p1][T+Fre].nes
 - release:
     id: 12771
     game_id: 12728
@@ -432,27 +264,6 @@ releases:
       blob_id: 58655
       debug: Gun.Smoke (U) [t1].nes
 - release:
-    id: 12773
-    game_id: 12728
-    release_type: 2
-  names:
-  - id: 28066
-    kind: 3
-    kind_id: 12773
-    language: 1
-    name: Gun.Smoke (U) [t1][T-Rus_Shedevr,Multisoft]
-  assets:
-  - asset:
-      id: 12755
-      kind: 3
-      kind_id: 12773
-      type: 1
-      name: Gun.Smoke (U) [t1][T-Rus_Shedevr,Multisoft].nes
-      format: 1
-      size: 131088
-      blob_id: 58656
-      debug: Gun.Smoke (U) [t1][T-Rus_Shedevr,Multisoft].nes
-- release:
     id: 12774
     game_id: 12728
     release_type: 3
@@ -473,27 +284,6 @@ releases:
       size: 131088
       blob_id: 58657
       debug: Gun.Smoke (U) [t2].nes
-- release:
-    id: 12775
-    game_id: 12728
-    release_type: 2
-  names:
-  - id: 28070
-    kind: 3
-    kind_id: 12775
-    language: 1
-    name: Gun.Smoke (U) [t2][T-Rus_Shedevr,Multisoft]
-  assets:
-  - asset:
-      id: 12757
-      kind: 3
-      kind_id: 12775
-      type: 1
-      name: Gun.Smoke (U) [t2][T-Rus_Shedevr,Multisoft].nes
-      format: 1
-      size: 131088
-      blob_id: 58658
-      debug: Gun.Smoke (U) [t2][T-Rus_Shedevr,Multisoft].nes
 - release:
     id: 12776
     game_id: 12728
@@ -516,27 +306,6 @@ releases:
       blob_id: 58659
       debug: Gun.Smoke (U) [t3].nes
 - release:
-    id: 12777
-    game_id: 12728
-    release_type: 2
-  names:
-  - id: 28074
-    kind: 3
-    kind_id: 12777
-    language: 1
-    name: Gun.Smoke (U) [t3][T-Rus_Shedevr,Multisoft]
-  assets:
-  - asset:
-      id: 12759
-      kind: 3
-      kind_id: 12777
-      type: 1
-      name: Gun.Smoke (U) [t3][T-Rus_Shedevr,Multisoft].nes
-      format: 1
-      size: 131088
-      blob_id: 58660
-      debug: Gun.Smoke (U) [t3][T-Rus_Shedevr,Multisoft].nes
-- release:
     id: 12778
     game_id: 12728
     release_type: 3
@@ -557,27 +326,6 @@ releases:
       size: 131088
       blob_id: 58661
       debug: Gun.Smoke (U) [t4].nes
-- release:
-    id: 12779
-    game_id: 12728
-    release_type: 2
-  names:
-  - id: 28078
-    kind: 3
-    kind_id: 12779
-    language: 1
-    name: Gun.Smoke (U) [t4][T-Rus_Shedevr,Multisoft]
-  assets:
-  - asset:
-      id: 12761
-      kind: 3
-      kind_id: 12779
-      type: 1
-      name: Gun.Smoke (U) [t4][T-Rus_Shedevr,Multisoft].nes
-      format: 1
-      size: 131088
-      blob_id: 58662
-      debug: Gun.Smoke (U) [t4][T-Rus_Shedevr,Multisoft].nes
 - release:
     id: 12780
     game_id: 12728

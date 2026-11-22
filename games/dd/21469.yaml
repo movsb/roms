@@ -57,6 +57,7 @@ releases:
 - release:
     id: 21458
     game_id: 21469
+    release_type: 1
   names:
   - id: 47780
     kind: 3
@@ -69,12 +70,19 @@ releases:
     kind_id: 21458
     language: 2
     name: 任天堂足球（世界）
+    deprecated: 1
   - id: 259360
     kind: 3
     kind_id: 21458
     language: 1
     name: Soccer (Japan, USA) (En)
     source: no-intro
+  - id: 264876
+    kind: 3
+    kind_id: 21458
+    language: 2
+    name: 日美版
+    source: codex
   assets:
   - asset:
       id: 21440
@@ -100,48 +108,6 @@ releases:
       size: 1988
       blob_id: 322966
       debug: fc-title-trial:fceumm:rom-asset=21440:frame=300
-- release:
-    id: 21459
-    game_id: 21469
-    release_type: 2
-  names:
-  - id: 84381
-    kind: 3
-    kind_id: 21459
-    language: 1
-    name: Soccer (JU) [T+Bra_JM-trad]
-  assets:
-  - asset:
-      id: 21441
-      kind: 3
-      kind_id: 21459
-      type: 1
-      name: Soccer (JU) [T+Bra_JM-trad].nes
-      format: 1
-      size: 40976
-      blob_id: 66840
-      debug: Soccer (JU) [T+Bra_JM-trad].nes
-- release:
-    id: 21460
-    game_id: 21469
-    release_type: 2
-  names:
-  - id: 84382
-    kind: 3
-    kind_id: 21460
-    language: 1
-    name: Soccer (JU) [T+Rus_Guyver]
-  assets:
-  - asset:
-      id: 21442
-      kind: 3
-      kind_id: 21460
-      type: 1
-      name: Soccer (JU) [T+Rus_Guyver].nes
-      format: 1
-      size: 40976
-      blob_id: 66841
-      debug: Soccer (JU) [T+Rus_Guyver].nes
 - release:
     id: 21465
     game_id: 21469
@@ -254,12 +220,14 @@ releases:
 - release:
     id: 26877
     game_id: 21469
+    release_type: 1
   names:
   - id: 60409
     kind: 3
     kind_id: 26877
     language: 2
     name: 任天堂足球 (欧版)(Rev A) (运动)-Soccer (Europe) (Rev A)
+    deprecated: 1
   - id: 60410
     kind: 3
     kind_id: 26877
@@ -272,6 +240,12 @@ releases:
     language: 1
     name: Soccer (Europe)
     source: no-intro
+  - id: 265247
+    kind: 3
+    kind_id: 26877
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 26859

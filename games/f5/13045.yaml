@@ -27,6 +27,7 @@ releases:
 - release:
     id: 13046
     game_id: 13045
+    release_type: 1
   names:
   - id: 28686
     kind: 3
@@ -39,12 +40,19 @@ releases:
     kind_id: 13046
     language: 2
     name: 高速弹珠台 (美版) (桌面平台)-High Speed (USA)
+    deprecated: 1
   - id: 258410
     kind: 3
     kind_id: 13046
     language: 1
     name: High Speed (USA)
     source: no-intro
+  - id: 264311
+    kind: 3
+    kind_id: 13046
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 13028
@@ -104,12 +112,14 @@ releases:
 - release:
     id: 30251
     game_id: 13045
+    release_type: 1
   names:
   - id: 71679
     kind: 3
     kind_id: 30251
     language: 2
     name: 高速弹珠台 (欧版) (桌面平台)-High Speed (Europe)
+    deprecated: 1
   - id: 71680
     kind: 3
     kind_id: 30251
@@ -122,6 +132,12 @@ releases:
     language: 1
     name: High Speed (Europe)
     source: no-intro
+  - id: 266286
+    kind: 3
+    kind_id: 30251
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 30233

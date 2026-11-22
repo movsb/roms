@@ -47,29 +47,9 @@ names:
   source: no-intro
 releases:
 - release:
-    id: 17872
-    game_id: 17872
-    release_type: 2
-  names:
-  - id: 84079
-    kind: 3
-    kind_id: 17872
-    language: 1
-    name: North & South (E) [T+FreFinal_Generation IX]
-  assets:
-  - asset:
-      id: 17854
-      kind: 3
-      kind_id: 17872
-      type: 1
-      name: North & South (E) [T+FreFinal_Generation IX].nes
-      format: 1
-      size: 262160
-      blob_id: 63438
-      debug: North & South (E) [T+FreFinal_Generation IX].nes
-- release:
     id: 17873
     game_id: 17872
+    release_type: 1
   names:
   - id: 39954
     kind: 3
@@ -82,17 +62,25 @@ releases:
     kind_id: 17873
     language: 2
     name: 北与南 (美版) (策略)-North & South (USA)
+    deprecated: 1
   - id: 61628
     kind: 3
     kind_id: 17873
     language: 2
     name: 南北战争
+    deprecated: 1
   - id: 258972
     kind: 3
     kind_id: 17873
     language: 1
     name: North and South (USA)
     source: no-intro
+  - id: 264639
+    kind: 3
+    kind_id: 17873
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 17855
@@ -120,35 +108,16 @@ releases:
       blob_id: 325049
       debug: libretro-named-titles:rom-asset=17855:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/North%20and%20South%20%28USA%29.png
 - release:
-    id: 17874
-    game_id: 17872
-    release_type: 2
-  names:
-  - id: 84080
-    kind: 3
-    kind_id: 17874
-    language: 1
-    name: North & South (U) [T+Swe1.0_TheTranslator]
-  assets:
-  - asset:
-      id: 17856
-      kind: 3
-      kind_id: 17874
-      type: 1
-      name: North & South (U) [T+Swe1.0_TheTranslator].nes
-      format: 1
-      size: 262160
-      blob_id: 63440
-      debug: North & South (U) [T+Swe1.0_TheTranslator].nes
-- release:
     id: 27221
     game_id: 17872
+    release_type: 1
   names:
   - id: 61507
     kind: 3
     kind_id: 27221
     language: 2
     name: "北与南 (日版) (策略)-North & South - Wakuwaku Nanboku Sensou (Japan)"
+    deprecated: 1
   - id: 61508
     kind: 3
     kind_id: 27221
@@ -161,6 +130,12 @@ releases:
     language: 1
     name: "North & South - Wakuwaku Nanboku Sensou (Japan)"
     source: no-intro
+  - id: 265345
+    kind: 3
+    kind_id: 27221
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 27203
@@ -186,12 +161,14 @@ releases:
 - release:
     id: 27222
     game_id: 17872
+    release_type: 1
   names:
   - id: 61511
     kind: 3
     kind_id: 27222
     language: 2
     name: 北与南 (欧版) (策略)-North & South (Europe)
+    deprecated: 1
   - id: 61512
     kind: 3
     kind_id: 27222
@@ -204,6 +181,12 @@ releases:
     language: 1
     name: North & South (Europe)
     source: no-intro
+  - id: 265346
+    kind: 3
+    kind_id: 27222
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 27204

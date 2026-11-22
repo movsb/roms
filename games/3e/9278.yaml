@@ -80,6 +80,7 @@ releases:
 - release:
     id: 9264
     game_id: 9278
+    release_type: 1
   names:
   - id: 19802
     kind: 3
@@ -98,12 +99,19 @@ releases:
     kind_id: 9264
     language: 2
     name: 天神之剑 (美版) (动作角色扮演)-Crystalis (USA)
+    deprecated: 1
   - id: 257951
     kind: 3
     kind_id: 9264
     language: 1
     name: Crystalis (USA)
     source: no-intro
+  - id: 264026
+    kind: 3
+    kind_id: 9264
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 9246
@@ -130,48 +138,6 @@ releases:
       size: 5362
       blob_id: 322442
       debug: fc-title-trial:fceumm:rom-asset=9246:frame=2400
-- release:
-    id: 9265
-    game_id: 9278
-    release_type: 2
-  names:
-  - id: 82661
-    kind: 3
-    kind_id: 9265
-    language: 1
-    name: Crystalis (U) [T+Bra1.0_BRGames]
-  assets:
-  - asset:
-      id: 9247
-      kind: 3
-      kind_id: 9265
-      type: 1
-      name: Crystalis (U) [T+Bra1.0_BRGames].nes
-      format: 1
-      size: 393232
-      blob_id: 55359
-      debug: Crystalis (U) [T+Bra1.0_BRGames].nes
-- release:
-    id: 9266
-    game_id: 9278
-    release_type: 2
-  names:
-  - id: 82662
-    kind: 3
-    kind_id: 9266
-    language: 1
-    name: Crystalis (U) [T+Rus1.00_Shedevr]
-  assets:
-  - asset:
-      id: 9248
-      kind: 3
-      kind_id: 9266
-      type: 1
-      name: Crystalis (U) [T+Rus1.00_Shedevr].nes
-      format: 1
-      size: 393232
-      blob_id: 55360
-      debug: Crystalis (U) [T+Rus1.00_Shedevr].nes
 - release:
     id: 9273
     game_id: 9278
@@ -238,6 +204,7 @@ releases:
 - release:
     id: 9278
     game_id: 9278
+    release_type: 1
   names:
   - id: 19834
     kind: 3
@@ -251,6 +218,12 @@ releases:
     language: 1
     name: Crystalis (USA)
     source: no-intro
+  - id: 264027
+    kind: 3
+    kind_id: 9278
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 9260

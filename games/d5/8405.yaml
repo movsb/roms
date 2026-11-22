@@ -34,6 +34,7 @@ releases:
 - release:
     id: 8407
     game_id: 8405
+    release_type: 1
   names:
   - id: 17782
     kind: 3
@@ -46,12 +47,19 @@ releases:
     kind_id: 8407
     language: 2
     name: 保龄球锦标赛 (美版) (运动)-Championship Bowling (USA)
+    deprecated: 1
   - id: 257877
     kind: 3
     kind_id: 8407
     language: 1
     name: Championship Bowling (USA)
     source: no-intro
+  - id: 263987
+    kind: 3
+    kind_id: 8407
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 8389
@@ -80,12 +88,14 @@ releases:
 - release:
     id: 26962
     game_id: 8405
+    release_type: 1
   names:
   - id: 60705
     kind: 3
     kind_id: 26962
     language: 2
     name: 保龄球锦标赛 (日版) (运动)-Championship Bowling (Japan)
+    deprecated: 1
   - id: 60706
     kind: 3
     kind_id: 26962
@@ -98,6 +108,12 @@ releases:
     language: 1
     name: Championship Bowling (Japan) (En)
     source: no-intro
+  - id: 265279
+    kind: 3
+    kind_id: 26962
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 26944

@@ -21,6 +21,7 @@ releases:
 - release:
     id: 26027
     game_id: 26027
+    release_type: 1
   names:
   - id: 58184
     kind: 3
@@ -39,12 +40,19 @@ releases:
     kind_id: 26027
     language: 2
     name: "特异功能组 - 金刚狼 (美版) (动作)-Wolverine (USA)"
+    deprecated: 1
   - id: 259822
     kind: 3
     kind_id: 26027
     language: 1
     name: Wolverine (USA)
     source: no-intro
+  - id: 265132
+    kind: 3
+    kind_id: 26027
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 26009
@@ -67,48 +75,6 @@ releases:
       size: 4065
       blob_id: 323128
       debug: fc-title-trial:fceumm:rom-asset=26009:frame=1200
-- release:
-    id: 26028
-    game_id: 26027
-    release_type: 2
-  names:
-  - id: 84972
-    kind: 3
-    kind_id: 26028
-    language: 1
-    name: Wolverine (U) [T+Fre_KS151]
-  assets:
-  - asset:
-      id: 26010
-      kind: 3
-      kind_id: 26028
-      type: 1
-      name: Wolverine (U) [T+Fre_KS151].nes
-      format: 1
-      size: 262160
-      blob_id: 71181
-      debug: Wolverine (U) [T+Fre_KS151].nes
-- release:
-    id: 26029
-    game_id: 26027
-    release_type: 2
-  names:
-  - id: 84973
-    kind: 3
-    kind_id: 26029
-    language: 1
-    name: Wolverine (U) [T+Por1.01_Kaji]
-  assets:
-  - asset:
-      id: 26011
-      kind: 3
-      kind_id: 26029
-      type: 1
-      name: Wolverine (U) [T+Por1.01_Kaji].nes
-      format: 1
-      size: 262160
-      blob_id: 71182
-      debug: Wolverine (U) [T+Por1.01_Kaji].nes
 - release:
     id: 26032
     game_id: 26027

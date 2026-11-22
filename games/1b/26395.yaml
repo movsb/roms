@@ -71,6 +71,7 @@ releases:
 - release:
     id: 26395
     game_id: 26395
+    release_type: 1
   names:
   - id: 59006
     kind: 3
@@ -89,12 +90,19 @@ releases:
     kind_id: 26395
     language: 2
     name: "萨尔达传说 II - 林克冒险 (美版) (动作角色扮演)-Zelda II - The Adventure of Link (USA)"
+    deprecated: 1
   - id: 259872
     kind: 3
     kind_id: 26395
     language: 1
     name: "Zelda II - The Adventure of Link (USA)"
     source: no-intro
+  - id: 265157
+    kind: 3
+    kind_id: 26395
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 26377
@@ -158,6 +166,7 @@ releases:
 - release:
     id: 26411
     game_id: 26395
+    release_type: 1
   names:
   - id: 59038
     kind: 3
@@ -171,6 +180,12 @@ releases:
     language: 1
     name: "Zelda II - The Adventure of Link (USA) (Zelda Collection)"
     source: no-intro
+  - id: 265158
+    kind: 3
+    kind_id: 26411
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 26393
@@ -221,426 +236,6 @@ releases:
       blob_id: 325283
       debug: libretro-named-titles:rom-asset=26394:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Zelda%20II%20-%20The%20Adventure%20of%20Link%20%28USA%29%20%28Virtual%20Console%29.png
 - release:
-    id: 26414
-    game_id: 26395
-    release_type: 2
-  names:
-  - id: 85012
-    kind: 3
-    kind_id: 26414
-    language: 1
-    name: "Zelda II - The Adventure of Link (U) [T+Bra1.0_BRGames]"
-  assets:
-  - asset:
-      id: 26396
-      kind: 3
-      kind_id: 26414
-      type: 1
-      name: "Zelda II - The Adventure of Link (U) [T+Bra1.0_BRGames].nes"
-      format: 1
-      size: 262160
-      blob_id: 71542
-      debug: "Zelda II - The Adventure of Link (U) [T+Bra1.0_BRGames].nes"
-- release:
-    id: 26415
-    game_id: 26395
-    release_type: 2
-  names:
-  - id: 85013
-    kind: 3
-    kind_id: 26415
-    language: 1
-    name: "Zelda II - The Adventure of Link (U) [T+Dut]"
-  assets:
-  - asset:
-      id: 26397
-      kind: 3
-      kind_id: 26415
-      type: 1
-      name: "Zelda II - The Adventure of Link (U) [T+Dut].nes"
-      format: 1
-      size: 262160
-      blob_id: 71543
-      debug: "Zelda II - The Adventure of Link (U) [T+Dut].nes"
-- release:
-    id: 26416
-    game_id: 26395
-    release_type: 2
-  names:
-  - id: 85014
-    kind: 3
-    kind_id: 26416
-    language: 1
-    name: "Zelda II - The Adventure of Link (U) [T+Fre1.0_Generation IX]"
-  assets:
-  - asset:
-      id: 26398
-      kind: 3
-      kind_id: 26416
-      type: 1
-      name: "Zelda II - The Adventure of Link (U) [T+Fre1.0_Generation IX].nes"
-      format: 1
-      size: 262160
-      blob_id: 71544
-      debug: "Zelda II - The Adventure of Link (U) [T+Fre1.0_Generation IX].nes"
-- release:
-    id: 26417
-    game_id: 26395
-    release_type: 2
-  names:
-  - id: 85015
-    kind: 3
-    kind_id: 26417
-    language: 1
-    name: "Zelda II - The Adventure of Link (U) [T+Fre1.1]"
-  assets:
-  - asset:
-      id: 26399
-      kind: 3
-      kind_id: 26417
-      type: 1
-      name: "Zelda II - The Adventure of Link (U) [T+Fre1.1].nes"
-      format: 1
-      size: 262160
-      blob_id: 71545
-      debug: "Zelda II - The Adventure of Link (U) [T+Fre1.1].nes"
-- release:
-    id: 26419
-    game_id: 26395
-    release_type: 2
-  names:
-  - id: 85017
-    kind: 3
-    kind_id: 26419
-    language: 1
-    name: "Zelda II - The Adventure of Link (U) [T+Ger1.0_GTrans]"
-  assets:
-  - asset:
-      id: 26401
-      kind: 3
-      kind_id: 26419
-      type: 1
-      name: "Zelda II - The Adventure of Link (U) [T+Ger1.0_GTrans].nes"
-      format: 1
-      size: 262160
-      blob_id: 71547
-      debug: "Zelda II - The Adventure of Link (U) [T+Ger1.0_GTrans].nes"
-- release:
-    id: 26421
-    game_id: 26395
-    release_type: 2
-  names:
-  - id: 85019
-    kind: 3
-    kind_id: 26421
-    language: 1
-    name: "Zelda II - The Adventure of Link (U) [T+Ita1.0_SadNES_City]"
-  assets:
-  - asset:
-      id: 26403
-      kind: 3
-      kind_id: 26421
-      type: 1
-      name: "Zelda II - The Adventure of Link (U) [T+Ita1.0_SadNES_City].nes"
-      format: 1
-      size: 262160
-      blob_id: 71549
-      debug: "Zelda II - The Adventure of Link (U) [T+Ita1.0_SadNES_City].nes"
-- release:
-    id: 26422
-    game_id: 26395
-    release_type: 2
-  names:
-  - id: 85020
-    kind: 3
-    kind_id: 26422
-    language: 1
-    name: "Zelda II - The Adventure of Link (U) [T+Lat_abw]"
-  assets:
-  - asset:
-      id: 26404
-      kind: 3
-      kind_id: 26422
-      type: 1
-      name: "Zelda II - The Adventure of Link (U) [T+Lat_abw].nes"
-      format: 1
-      size: 262160
-      blob_id: 71550
-      debug: "Zelda II - The Adventure of Link (U) [T+Lat_abw].nes"
-- release:
-    id: 26423
-    game_id: 26395
-    release_type: 2
-  names:
-  - id: 85021
-    kind: 3
-    kind_id: 26423
-    language: 1
-    name: "Zelda II - The Adventure of Link (U) [T+Nor1.0_Just4fun]"
-  assets:
-  - asset:
-      id: 26405
-      kind: 3
-      kind_id: 26423
-      type: 1
-      name: "Zelda II - The Adventure of Link (U) [T+Nor1.0_Just4fun].nes"
-      format: 1
-      size: 262160
-      blob_id: 71551
-      debug: "Zelda II - The Adventure of Link (U) [T+Nor1.0_Just4fun].nes"
-- release:
-    id: 26425
-    game_id: 26395
-    release_type: 2
-  names:
-  - id: 85023
-    kind: 3
-    kind_id: 26425
-    language: 1
-    name: "Zelda II - The Adventure of Link (U) [T+Por1.1_Made in Brasil]"
-  assets:
-  - asset:
-      id: 26407
-      kind: 3
-      kind_id: 26425
-      type: 1
-      name: "Zelda II - The Adventure of Link (U) [T+Por1.1_Made in Brasil].nes"
-      format: 1
-      size: 262160
-      blob_id: 71553
-      debug: "Zelda II - The Adventure of Link (U) [T+Por1.1_Made in Brasil].nes"
-- release:
-    id: 26426
-    game_id: 26395
-    release_type: 2
-  names:
-  - id: 85024
-    kind: 3
-    kind_id: 26426
-    language: 1
-    name: "Zelda II - The Adventure of Link (U) [T+Por_Smartcelo3]"
-  assets:
-  - asset:
-      id: 26408
-      kind: 3
-      kind_id: 26426
-      type: 1
-      name: "Zelda II - The Adventure of Link (U) [T+Por_Smartcelo3].nes"
-      format: 1
-      size: 262160
-      blob_id: 71554
-      debug: "Zelda II - The Adventure of Link (U) [T+Por_Smartcelo3].nes"
-- release:
-    id: 26427
-    game_id: 26395
-    release_type: 2
-  names:
-  - id: 85025
-    kind: 3
-    kind_id: 26427
-    language: 1
-    name: "Zelda II - The Adventure of Link (U) [T+Rum_gorgyrip]"
-  assets:
-  - asset:
-      id: 26409
-      kind: 3
-      kind_id: 26427
-      type: 1
-      name: "Zelda II - The Adventure of Link (U) [T+Rum_gorgyrip].nes"
-      format: 1
-      size: 262160
-      blob_id: 71555
-      debug: "Zelda II - The Adventure of Link (U) [T+Rum_gorgyrip].nes"
-- release:
-    id: 26428
-    game_id: 26395
-    release_type: 2
-  names:
-  - id: 85026
-    kind: 3
-    kind_id: 26428
-    language: 1
-    name: "Zelda II - The Adventure of Link (U) [T+Spa1.1.4_Hyrule Knight]"
-  assets:
-  - asset:
-      id: 26410
-      kind: 3
-      kind_id: 26428
-      type: 1
-      name: "Zelda II - The Adventure of Link (U) [T+Spa1.1.4_Hyrule Knight].nes"
-      format: 1
-      size: 262160
-      blob_id: 71556
-      debug: "Zelda II - The Adventure of Link (U) [T+Spa1.1.4_Hyrule Knight].nes"
-- release:
-    id: 26429
-    game_id: 26395
-    release_type: 2
-  names:
-  - id: 85027
-    kind: 3
-    kind_id: 26429
-    language: 1
-    name: "Zelda II - The Adventure of Link (U) [T+Swe1.01_MetalHead]"
-  assets:
-  - asset:
-      id: 26411
-      kind: 3
-      kind_id: 26429
-      type: 1
-      name: "Zelda II - The Adventure of Link (U) [T+Swe1.01_MetalHead].nes"
-      format: 1
-      size: 262160
-      blob_id: 71557
-      debug: "Zelda II - The Adventure of Link (U) [T+Swe1.01_MetalHead].nes"
-- release:
-    id: 26431
-    game_id: 26395
-    release_type: 2
-  names:
-  - id: 85029
-    kind: 3
-    kind_id: 26431
-    language: 1
-    name: "Zelda II - The Adventure of Link (U) [T+Swe1.1_TheTranslator]"
-  assets:
-  - asset:
-      id: 26413
-      kind: 3
-      kind_id: 26431
-      type: 1
-      name: "Zelda II - The Adventure of Link (U) [T+Swe1.1_TheTranslator].nes"
-      format: 1
-      size: 262160
-      blob_id: 71559
-      debug: "Zelda II - The Adventure of Link (U) [T+Swe1.1_TheTranslator].nes"
-- release:
-    id: 26432
-    game_id: 26395
-    release_type: 2
-  names:
-  - id: 85030
-    kind: 3
-    kind_id: 26432
-    language: 1
-    name: "Zelda II - The Adventure of Link (U) [T+Tur_knighTeen87]"
-  assets:
-  - asset:
-      id: 26414
-      kind: 3
-      kind_id: 26432
-      type: 1
-      name: "Zelda II - The Adventure of Link (U) [T+Tur_knighTeen87].nes"
-      format: 1
-      size: 976186
-      blob_id: 71560
-      debug: "Zelda II - The Adventure of Link (U) [T+Tur_knighTeen87].nes"
-- release:
-    id: 26433
-    game_id: 26395
-    release_type: 2
-  names:
-  - id: 59120
-    kind: 3
-    kind_id: 26433
-    language: 1
-    name: "Zelda II - The Adventure of Link (U) [T-Bra98%_Made in Brasil]"
-  assets:
-  - asset:
-      id: 26415
-      kind: 3
-      kind_id: 26433
-      type: 1
-      name: "Zelda II - The Adventure of Link (U) [T-Bra98%_Made in Brasil].nes"
-      format: 1
-      size: 262160
-      blob_id: 71561
-      debug: "Zelda II - The Adventure of Link (U) [T-Bra98%_Made in Brasil].nes"
-- release:
-    id: 26435
-    game_id: 26395
-    release_type: 2
-  names:
-  - id: 59124
-    kind: 3
-    kind_id: 26435
-    language: 1
-    name: "Zelda II - The Adventure of Link (U) [T-Spa]"
-  assets:
-  - asset:
-      id: 26417
-      kind: 3
-      kind_id: 26435
-      type: 1
-      name: "Zelda II - The Adventure of Link (U) [T-Spa].nes"
-      format: 1
-      size: 245776
-      blob_id: 71563
-      debug: "Zelda II - The Adventure of Link (U) [T-Spa].nes"
-- release:
-    id: 26436
-    game_id: 26395
-    release_type: 2
-  names:
-  - id: 59126
-    kind: 3
-    kind_id: 26436
-    language: 1
-    name: "Zelda II - The Adventure of Link (U) [T-Spa_Hyrule Knight]"
-  assets:
-  - asset:
-      id: 26418
-      kind: 3
-      kind_id: 26436
-      type: 1
-      name: "Zelda II - The Adventure of Link (U) [T-Spa_Hyrule Knight].nes"
-      format: 1
-      size: 245776
-      blob_id: 71564
-      debug: "Zelda II - The Adventure of Link (U) [T-Spa_Hyrule Knight].nes"
-- release:
-    id: 26437
-    game_id: 26395
-    release_type: 2
-  names:
-  - id: 59128
-    kind: 3
-    kind_id: 26437
-    language: 1
-    name: "Zelda II - The Adventure of Link (U) [T-Swe]"
-  assets:
-  - asset:
-      id: 26419
-      kind: 3
-      kind_id: 26437
-      type: 1
-      name: "Zelda II - The Adventure of Link (U) [T-Swe].nes"
-      format: 1
-      size: 262160
-      blob_id: 71565
-      debug: "Zelda II - The Adventure of Link (U) [T-Swe].nes"
-- release:
-    id: 26438
-    game_id: 26395
-    release_type: 2
-  names:
-  - id: 59130
-    kind: 3
-    kind_id: 26438
-    language: 1
-    name: "Zelda II - The Adventure of Link (U) [T-Swe][a1]"
-  assets:
-  - asset:
-      id: 26420
-      kind: 3
-      kind_id: 26438
-      type: 1
-      name: "Zelda II - The Adventure of Link (U) [T-Swe][a1].nes"
-      format: 1
-      size: 262160
-      blob_id: 71566
-      debug: "Zelda II - The Adventure of Link (U) [T-Swe][a1].nes"
-- release:
     id: 26451
     game_id: 26395
     release_type: 2
@@ -690,12 +285,14 @@ releases:
 - release:
     id: 29576
     game_id: 26395
+    release_type: 1
   names:
   - id: 69395
     kind: 3
     kind_id: 29576
     language: 2
     name: "萨尔达传说 II - 林克冒险 (欧版) (动作角色扮演)-Zelda II - The Adventure of Link (Europe)"
+    deprecated: 1
   - id: 69396
     kind: 3
     kind_id: 29576
@@ -708,6 +305,12 @@ releases:
     language: 1
     name: "Zelda II - The Adventure of Link (Europe)"
     source: no-intro
+  - id: 266073
+    kind: 3
+    kind_id: 29576
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 29558
@@ -733,12 +336,14 @@ releases:
 - release:
     id: 29577
     game_id: 26395
+    release_type: 1
   names:
   - id: 69399
     kind: 3
     kind_id: 29577
     language: 2
     name: "萨尔达传说 II - 林克冒险 (欧版)(Rev A) (动作角色扮演)-Zelda II - The Adventure of Link (Europe) (Rev A)"
+    deprecated: 1
   - id: 69400
     kind: 3
     kind_id: 29577
@@ -751,6 +356,12 @@ releases:
     language: 1
     name: "Zelda II - The Adventure of Link (Europe) (Rev 1)"
     source: no-intro
+  - id: 266074
+    kind: 3
+    kind_id: 29577
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 29559
@@ -776,12 +387,14 @@ releases:
 - release:
     id: 29578
     game_id: 26395
+    release_type: 1
   names:
   - id: 69403
     kind: 3
     kind_id: 29578
     language: 2
     name: "萨尔达传说 II - 林克冒险 (欧版)(Rev B) (动作角色扮演)-Zelda II - The Adventure of Link (Europe) (Rev B)"
+    deprecated: 1
   - id: 69404
     kind: 3
     kind_id: 29578
@@ -794,6 +407,12 @@ releases:
     language: 1
     name: "Zelda II - The Adventure of Link (Europe) (Rev 2)"
     source: no-intro
+  - id: 266075
+    kind: 3
+    kind_id: 29578
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 29560

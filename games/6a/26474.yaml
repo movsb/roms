@@ -44,6 +44,7 @@ releases:
 - release:
     id: 26474
     game_id: 26474
+    release_type: 1
   names:
   - id: 59210
     kind: 3
@@ -57,6 +58,12 @@ releases:
     language: 1
     name: "Zen - Intergalactic Ninja (Europe)"
     source: no-intro
+  - id: 265159
+    kind: 3
+    kind_id: 26474
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 26456
@@ -80,48 +87,6 @@ releases:
       blob_id: 324255
       debug: libretro-named-titles:rom-asset=26456:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Zen%20-%20Intergalactic%20Ninja%20%28Europe%29.png
 - release:
-    id: 26475
-    game_id: 26474
-    release_type: 2
-  names:
-  - id: 85035
-    kind: 3
-    kind_id: 26475
-    language: 1
-    name: "Zen - Intergalactic Ninja (U) [T+Gre1.0_Dj Kourampies,Lugia_13gr,Giama]"
-  assets:
-  - asset:
-      id: 26457
-      kind: 3
-      kind_id: 26475
-      type: 1
-      name: "Zen - Intergalactic Ninja (U) [T+Gre1.0_Dj Kourampies,Lugia_13gr,Giama].nes"
-      format: 1
-      size: 262160
-      blob_id: 71603
-      debug: "Zen - Intergalactic Ninja (U) [T+Gre1.0_Dj Kourampies,Lugia_13gr,Giama].nes"
-- release:
-    id: 26476
-    game_id: 26474
-    release_type: 2
-  names:
-  - id: 85036
-    kind: 3
-    kind_id: 26476
-    language: 1
-    name: "Zen - Intergalactic Ninja (U) [T+Rus_Shedevr,M.Vlad]"
-  assets:
-  - asset:
-      id: 26458
-      kind: 3
-      kind_id: 26476
-      type: 1
-      name: "Zen - Intergalactic Ninja (U) [T+Rus_Shedevr,M.Vlad].nes"
-      format: 1
-      size: 262160
-      blob_id: 71604
-      debug: "Zen - Intergalactic Ninja (U) [T+Rus_Shedevr,M.Vlad].nes"
-- release:
     id: 26479
     game_id: 26474
     release_type: 3
@@ -143,27 +108,6 @@ releases:
       blob_id: 71607
       debug: "Zen - Intergalactic Ninja (U) [t1].nes"
 - release:
-    id: 26480
-    game_id: 26474
-    release_type: 2
-  names:
-  - id: 85037
-    kind: 3
-    kind_id: 26480
-    language: 1
-    name: "Zen - Intergalactic Ninja (U) [t1][T+Rus_Shedevr,M.Vlad,Multisoft]"
-  assets:
-  - asset:
-      id: 26462
-      kind: 3
-      kind_id: 26480
-      type: 1
-      name: "Zen - Intergalactic Ninja (U) [t1][T+Rus_Shedevr,M.Vlad,Multisoft].nes"
-      format: 1
-      size: 262160
-      blob_id: 71608
-      debug: "Zen - Intergalactic Ninja (U) [t1][T+Rus_Shedevr,M.Vlad,Multisoft].nes"
-- release:
     id: 26481
     game_id: 26474
     release_type: 3
@@ -184,27 +128,6 @@ releases:
       size: 262160
       blob_id: 71609
       debug: "Zen - Intergalactic Ninja (U) [t2].nes"
-- release:
-    id: 26482
-    game_id: 26474
-    release_type: 2
-  names:
-  - id: 85038
-    kind: 3
-    kind_id: 26482
-    language: 1
-    name: "Zen - Intergalactic Ninja (U) [t2][T+Rus_Shedevr,M.Vlad,Multisoft]"
-  assets:
-  - asset:
-      id: 26464
-      kind: 3
-      kind_id: 26482
-      type: 1
-      name: "Zen - Intergalactic Ninja (U) [t2][T+Rus_Shedevr,M.Vlad,Multisoft].nes"
-      format: 1
-      size: 262160
-      blob_id: 71610
-      debug: "Zen - Intergalactic Ninja (U) [t2][T+Rus_Shedevr,M.Vlad,Multisoft].nes"
 - release:
     id: 26483
     game_id: 26474
@@ -229,6 +152,7 @@ releases:
 - release:
     id: 26484
     game_id: 26474
+    release_type: 1
   names:
   - id: 59238
     kind: 3
@@ -247,6 +171,7 @@ releases:
     kind_id: 26484
     language: 2
     name: "银河忍者 - 禅 (美版) (动作)-Zen - Intergalactic Ninja (USA)"
+    deprecated: 1
   - id: 71064
     kind: 3
     kind_id: 26484
@@ -259,6 +184,12 @@ releases:
     language: 1
     name: "Zen - Intergalactic Ninja (USA)"
     source: no-intro
+  - id: 265160
+    kind: 3
+    kind_id: 26484
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 26466
@@ -310,18 +241,26 @@ releases:
 - release:
     id: 30071
     game_id: 26474
+    release_type: 1
   names:
   - id: 71060
     kind: 3
     kind_id: 30071
     language: 2
     name: "银河忍者 - 禅 (欧版) (动作)-Zen - Intergalactic Ninja (Europe)"
+    deprecated: 1
   - id: 261290
     kind: 3
     kind_id: 30071
     language: 1
     name: "Zen - Intergalactic Ninja (Europe)"
     source: no-intro
+  - id: 266219
+    kind: 3
+    kind_id: 30071
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 30053

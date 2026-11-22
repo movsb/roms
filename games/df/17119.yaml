@@ -118,6 +118,7 @@ releases:
 - release:
     id: 17126
     game_id: 17119
+    release_type: 1
   names:
   - id: 38198
     kind: 3
@@ -131,6 +132,12 @@ releases:
     language: 1
     name: Ms. Pac-Man (USA) (Namco)
     source: no-intro
+  - id: 264592
+    kind: 3
+    kind_id: 17126
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 17108
@@ -158,6 +165,7 @@ releases:
 - release:
     id: 17127
     game_id: 17119
+    release_type: 1
   names:
   - id: 38200
     kind: 3
@@ -170,12 +178,19 @@ releases:
     kind_id: 17127
     language: 2
     name: 小精灵小姐 (美版) (动作)-Ms. Pac-Man (USA)
+    deprecated: 1
   - id: 258894
     kind: 3
     kind_id: 17127
     language: 1
     name: Ms. Pac-Man (USA) (Namco)
     source: no-intro
+  - id: 264593
+    kind: 3
+    kind_id: 17127
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 17109
@@ -201,48 +216,6 @@ releases:
       size: 1779
       blob_id: 324086
       debug: libretro-named-titles:rom-asset=17109:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Ms.%20Pac-Man%20%28USA%29.png
-- release:
-    id: 17128
-    game_id: 17119
-    release_type: 2
-  names:
-  - id: 83952
-    kind: 3
-    kind_id: 17128
-    language: 1
-    name: Ms. Pac-Man (U) [T+Rus_Cool-Spot]
-  assets:
-  - asset:
-      id: 17110
-      kind: 3
-      kind_id: 17128
-      type: 1
-      name: Ms. Pac-Man (U) [T+Rus_Cool-Spot].nes
-      format: 1
-      size: 40976
-      blob_id: 62722
-      debug: Ms. Pac-Man (U) [T+Rus_Cool-Spot].nes
-- release:
-    id: 17129
-    game_id: 17119
-    release_type: 2
-  names:
-  - id: 83953
-    kind: 3
-    kind_id: 17129
-    language: 1
-    name: Ms. Pac-Man (U) [T+Rus_Cool-Spot][a1]
-  assets:
-  - asset:
-      id: 17111
-      kind: 3
-      kind_id: 17129
-      type: 1
-      name: Ms. Pac-Man (U) [T+Rus_Cool-Spot][a1].nes
-      format: 1
-      size: 40976
-      blob_id: 62723
-      debug: Ms. Pac-Man (U) [T+Rus_Cool-Spot][a1].nes
 - release:
     id: 17136
     game_id: 17119

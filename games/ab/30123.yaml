@@ -38,111 +38,6 @@ names:
   source: no-intro
 releases:
 - release:
-    id: 5332
-    game_id: 30123
-    release_type: 2
-  names:
-  - id: 82115
-    kind: 3
-    kind_id: 5332
-    language: 1
-    name: Addams Family, The (U) [T+Ita1.0_Psyco]
-  assets:
-  - asset:
-      id: 5314
-      kind: 3
-      kind_id: 5332
-      type: 1
-      name: Addams Family, The (U) [T+Ita1.0_Psyco].nes
-      format: 1
-      size: 262160
-      blob_id: 51632
-      debug: Addams Family, The (U) [T+Ita1.0_Psyco].nes
-- release:
-    id: 5333
-    game_id: 30123
-    release_type: 2
-  names:
-  - id: 82116
-    kind: 3
-    kind_id: 5333
-    language: 1
-    name: Addams Family, The (U) [T+Ita1.0_Psyco][a1]
-  assets:
-  - asset:
-      id: 5315
-      kind: 3
-      kind_id: 5333
-      type: 1
-      name: Addams Family, The (U) [T+Ita1.0_Psyco][a1].nes
-      format: 1
-      size: 262160
-      blob_id: 51633
-      debug: Addams Family, The (U) [T+Ita1.0_Psyco][a1].nes
-- release:
-    id: 5334
-    game_id: 30123
-    release_type: 2
-  names:
-  - id: 82117
-    kind: 3
-    kind_id: 5334
-    language: 1
-    name: Addams Family, The (U) [T+Pol_www.romhackzone.glt.pl]
-  assets:
-  - asset:
-      id: 5316
-      kind: 3
-      kind_id: 5334
-      type: 1
-      name: Addams Family, The (U) [T+Pol_www.romhackzone.glt.pl].nes
-      format: 1
-      size: 262160
-      blob_id: 51634
-      debug: Addams Family, The (U) [T+Pol_www.romhackzone.glt.pl].nes
-- release:
-    id: 5335
-    game_id: 30123
-    release_type: 2
-  names:
-  - id: 82118
-    kind: 3
-    kind_id: 5335
-    language: 1
-    name: Addams Family, The (U) [T+Por1.01_Kaji]
-  assets:
-  - asset:
-      id: 5317
-      kind: 3
-      kind_id: 5335
-      type: 1
-      name: Addams Family, The (U) [T+Por1.01_Kaji].nes
-      format: 1
-      size: 262160
-      blob_id: 51635
-      debug: Addams Family, The (U) [T+Por1.01_Kaji].nes
-- release:
-    id: 5336
-    game_id: 30123
-    release_type: 2
-  names:
-  - id: 82119
-    kind: 3
-    kind_id: 5336
-    language: 1
-    name: Addams Family, The (U) [T+Rus]
-  assets:
-  - asset:
-      id: 5318
-      kind: 3
-      kind_id: 5336
-      type: 1
-      name: Addams Family, The (U) [T+Rus].nes
-      format: 1
-      size: 262160
-      blob_id: 51636
-      debug: Addams Family, The (U) [T+Rus].nes
-- release:
     id: 5339
     game_id: 30123
   names:
@@ -165,12 +60,14 @@ releases:
 - release:
     id: 30122
     game_id: 30123
+    release_type: 1
   names:
   - id: 71225
     kind: 3
     kind_id: 30122
     language: 2
     name: 阿达一族  (欧版) (动作)-Addams Family, The (Europe) (En,Fr,De)
+    deprecated: 1
   - id: 71226
     kind: 3
     kind_id: 30122
@@ -183,6 +80,12 @@ releases:
     language: 1
     name: Addams Family, The (Europe) (En,Fr,De)
     source: no-intro
+  - id: 266235
+    kind: 3
+    kind_id: 30122
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 30104
@@ -210,12 +113,14 @@ releases:
 - release:
     id: 30123
     game_id: 30123
+    release_type: 1
   names:
   - id: 71229
     kind: 3
     kind_id: 30123
     language: 2
     name: 阿达一族  (美版) (动作)-Addams Family, The (USA)
+    deprecated: 1
   - id: 71230
     kind: 3
     kind_id: 30123
@@ -228,6 +133,12 @@ releases:
     language: 1
     name: Addams Family, The (USA)
     source: no-intro
+  - id: 266236
+    kind: 3
+    kind_id: 30123
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 30105

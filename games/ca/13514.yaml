@@ -36,6 +36,7 @@ releases:
 - release:
     id: 11991
     game_id: 13514
+    release_type: 1
   names:
   - id: 26302
     kind: 3
@@ -54,17 +55,25 @@ releases:
     kind_id: 11991
     language: 2
     name: "特殊部队 (美版) (动作)-G.I. Joe - A Real American Hero (USA)"
+    deprecated: 1
   - id: 68234
     kind: 3
     kind_id: 11991
     language: 2
     name: 眼镜蛇特种部队1
+    deprecated: 1
   - id: 258272
     kind: 3
     kind_id: 11991
     language: 1
     name: "G.I. Joe - A Real American Hero (USA)"
     source: no-intro
+  - id: 264223
+    kind: 3
+    kind_id: 11991
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 11973
@@ -87,90 +96,6 @@ releases:
       size: 5197
       blob_id: 322562
       debug: fc-title-trial:fceumm:rom-asset=11973:frame=600
-- release:
-    id: 11992
-    game_id: 13514
-    release_type: 2
-  names:
-  - id: 83149
-    kind: 3
-    kind_id: 11992
-    language: 1
-    name: G.I. Joe (U) [T+Fre100]
-  assets:
-  - asset:
-      id: 11974
-      kind: 3
-      kind_id: 11992
-      type: 1
-      name: G.I. Joe (U) [T+Fre100].nes
-      format: 1
-      size: 393232
-      blob_id: 57917
-      debug: G.I. Joe (U) [T+Fre100].nes
-- release:
-    id: 11993
-    game_id: 13514
-    release_type: 2
-  names:
-  - id: 83150
-    kind: 3
-    kind_id: 11993
-    language: 1
-    name: G.I. Joe (U) [T+Pol]
-  assets:
-  - asset:
-      id: 11975
-      kind: 3
-      kind_id: 11993
-      type: 1
-      name: G.I. Joe (U) [T+Pol].nes
-      format: 1
-      size: 393232
-      blob_id: 57918
-      debug: G.I. Joe (U) [T+Pol].nes
-- release:
-    id: 11994
-    game_id: 13514
-    release_type: 2
-  names:
-  - id: 83151
-    kind: 3
-    kind_id: 11994
-    language: 1
-    name: G.I. Joe (U) [T+Por100%_Mini Translations]
-  assets:
-  - asset:
-      id: 11976
-      kind: 3
-      kind_id: 11994
-      type: 1
-      name: G.I. Joe (U) [T+Por100%_Mini Translations].nes
-      format: 1
-      size: 393232
-      blob_id: 57919
-      debug: G.I. Joe (U) [T+Por100%_Mini Translations].nes
-- release:
-    id: 11996
-    game_id: 13514
-    release_type: 2
-  names:
-  - id: 26320
-    kind: 3
-    kind_id: 11996
-    language: 1
-    name: G.I. Joe (U) [T-Spa]
-  assets:
-  - asset:
-      id: 11978
-      kind: 3
-      kind_id: 11996
-      type: 1
-      name: G.I. Joe (U) [T-Spa].nes
-      format: 1
-      size: 393232
-      blob_id: 57921
-      debug: G.I. Joe (U) [T-Spa].nes
 - release:
     id: 11997
     game_id: 13514

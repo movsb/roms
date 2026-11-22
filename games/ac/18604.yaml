@@ -62,27 +62,6 @@ names:
   name: 小精灵 (Tengen) (动作)-Pac-Man
 releases:
 - release:
-    id: 18604
-    game_id: 18604
-    release_type: 2
-  names:
-  - id: 84116
-    kind: 3
-    kind_id: 18604
-    language: 1
-    name: Pac-Man (E) [T+FreFinal_ks151]
-  assets:
-  - asset:
-      id: 18586
-      kind: 3
-      kind_id: 18604
-      type: 1
-      name: Pac-Man (E) [T+FreFinal_ks151].nes
-      format: 1
-      size: 24592
-      blob_id: 64155
-      debug: Pac-Man (E) [T+FreFinal_ks151].nes
-- release:
     id: 18606
     game_id: 18604
   names:
@@ -223,6 +202,7 @@ releases:
 - release:
     id: 18616
     game_id: 18604
+    release_type: 1
   names:
   - id: 41514
     kind: 3
@@ -241,6 +221,7 @@ releases:
     kind_id: 18616
     language: 2
     name: 小精灵 (美版) (Namco) (动作)-Pac-Man (USA) (Namco)
+    deprecated: 1
   - id: 63640
     kind: 3
     kind_id: 18616
@@ -253,6 +234,12 @@ releases:
     language: 1
     name: Pac-Man (USA) (Namco)
     source: no-intro
+  - id: 264658
+    kind: 3
+    kind_id: 18616
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 18598
@@ -280,50 +267,9 @@ releases:
       blob_id: 325057
       debug: libretro-named-titles:rom-asset=18598:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Pac-Man%20%28USA%29%20%28Namco%29.png
 - release:
-    id: 18619
-    game_id: 18604
-    release_type: 2
-  names:
-  - id: 84117
-    kind: 3
-    kind_id: 18619
-    language: 1
-    name: Pac-Man (U) (Tengen) [T+Bra85%_BRGames]
-  assets:
-  - asset:
-      id: 18601
-      kind: 3
-      kind_id: 18619
-      type: 1
-      name: Pac-Man (U) (Tengen) [T+Bra85%_BRGames].nes
-      format: 1
-      size: 24592
-      blob_id: 64169
-      debug: Pac-Man (U) (Tengen) [T+Bra85%_BRGames].nes
-- release:
-    id: 18620
-    game_id: 18604
-    release_type: 2
-  names:
-  - id: 84118
-    kind: 3
-    kind_id: 18620
-    language: 1
-    name: Pac-Man (U) (Tengen) [T+Pol]
-  assets:
-  - asset:
-      id: 18602
-      kind: 3
-      kind_id: 18620
-      type: 1
-      name: Pac-Man (U) (Tengen) [T+Pol].nes
-      format: 1
-      size: 24592
-      blob_id: 64170
-      debug: Pac-Man (U) (Tengen) [T+Pol].nes
-- release:
     id: 18623
     game_id: 18604
+    release_type: 1
   names:
   - id: 41532
     kind: 3
@@ -335,6 +281,7 @@ releases:
     kind_id: 18623
     language: 2
     name: 小精灵 (美版) (Tengen) (动作)-Pac-Man (USA) (Tengen)
+    deprecated: 1
   - id: 63648
     kind: 3
     kind_id: 18623
@@ -347,6 +294,12 @@ releases:
     language: 1
     name: Pac-Man (USA) (Tengen)
     source: no-intro
+  - id: 264659
+    kind: 3
+    kind_id: 18623
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 18605
@@ -448,12 +401,14 @@ releases:
 - release:
     id: 27856
     game_id: 18604
+    release_type: 1
   names:
   - id: 63627
     kind: 3
     kind_id: 27856
     language: 2
     name: 小精灵 (日版) (动作)-Pac-Man (Japan)
+    deprecated: 1
   - id: 63628
     kind: 3
     kind_id: 27856
@@ -466,6 +421,12 @@ releases:
     language: 1
     name: Pac-Man (Japan) (En)
     source: no-intro
+  - id: 265538
+    kind: 3
+    kind_id: 27856
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 27838
@@ -493,12 +454,14 @@ releases:
 - release:
     id: 27857
     game_id: 18604
+    release_type: 1
   names:
   - id: 63631
     kind: 3
     kind_id: 27857
     language: 2
     name: 小精灵 (日版)(Rev A) (动作)-Pac-Man (Japan) (Rev A)
+    deprecated: 1
   - id: 63632
     kind: 3
     kind_id: 27857
@@ -511,6 +474,12 @@ releases:
     language: 1
     name: Pac-Man (Japan) (En) (Rev 1)
     source: no-intro
+  - id: 265539
+    kind: 3
+    kind_id: 27857
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 27839
@@ -538,12 +507,14 @@ releases:
 - release:
     id: 27858
     game_id: 18604
+    release_type: 1
   names:
   - id: 63635
     kind: 3
     kind_id: 27858
     language: 2
     name: 小精灵 (欧版) (动作)-Pac-Man (Europe)
+    deprecated: 1
   - id: 63636
     kind: 3
     kind_id: 27858
@@ -556,6 +527,12 @@ releases:
     language: 1
     name: Pac-Man (Europe)
     source: no-intro
+  - id: 265540
+    kind: 3
+    kind_id: 27858
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 27840

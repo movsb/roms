@@ -27,27 +27,6 @@ names:
   source: no-intro
 releases:
 - release:
-    id: 11772
-    game_id: 28850
-    release_type: 2
-  names:
-  - id: 83118
-    kind: 3
-    kind_id: 11772
-    language: 1
-    name: Fleet Commander (J) [T+Rus_Chief-Net]
-  assets:
-  - asset:
-      id: 11754
-      kind: 3
-      kind_id: 11772
-      type: 1
-      name: Fleet Commander (J) [T+Rus_Chief-Net].nes
-      format: 1
-      size: 65552
-      blob_id: 57716
-      debug: Fleet Commander (J) [T+Rus_Chief-Net].nes
-- release:
     id: 11774
     game_id: 28850
     release_date: 19880329
@@ -85,12 +64,14 @@ releases:
 - release:
     id: 28850
     game_id: 28850
+    release_type: 1
   names:
   - id: 66943
     kind: 3
     kind_id: 28850
     language: 2
     name: 海战指挥官 (日版) (策略)-Fleet Commander (Japan)
+    deprecated: 1
   - id: 66944
     kind: 3
     kind_id: 28850
@@ -103,6 +84,12 @@ releases:
     language: 1
     name: Fleet Commander (Japan)
     source: no-intro
+  - id: 265854
+    kind: 3
+    kind_id: 28850
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 28832

@@ -32,6 +32,7 @@ releases:
 - release:
     id: 6091
     game_id: 6088
+    release_type: 1
   names:
   - id: 12586
     kind: 3
@@ -45,6 +46,12 @@ releases:
     language: 1
     name: Athena (USA)
     source: no-intro
+  - id: 263849
+    kind: 3
+    kind_id: 6091
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 6073
@@ -72,48 +79,6 @@ releases:
       blob_id: 322333
       debug: fc-title-trial:fceumm:rom-asset=6073:frame=300
 - release:
-    id: 6092
-    game_id: 6088
-    release_type: 2
-  names:
-  - id: 82229
-    kind: 3
-    kind_id: 6092
-    language: 1
-    name: Athena (U) [T+Fre_KS151]
-  assets:
-  - asset:
-      id: 6074
-      kind: 3
-      kind_id: 6092
-      type: 1
-      name: Athena (U) [T+Fre_KS151].nes
-      format: 1
-      size: 131088
-      blob_id: 52345
-      debug: Athena (U) [T+Fre_KS151].nes
-- release:
-    id: 6093
-    game_id: 6088
-    release_type: 2
-  names:
-  - id: 82230
-    kind: 3
-    kind_id: 6093
-    language: 1
-    name: Athena (U) [T+Rus_Multisoft]
-  assets:
-  - asset:
-      id: 6075
-      kind: 3
-      kind_id: 6093
-      type: 1
-      name: Athena (U) [T+Rus_Multisoft].nes
-      format: 1
-      size: 131088
-      blob_id: 52346
-      debug: Athena (U) [T+Rus_Multisoft].nes
-- release:
     id: 6097
     game_id: 6088
     release_type: 3
@@ -137,12 +102,14 @@ releases:
 - release:
     id: 30137
     game_id: 6088
+    release_type: 1
   names:
   - id: 71283
     kind: 3
     kind_id: 30137
     language: 2
     name: 雅典娜 (日版) (动作)-Athena (Japan)
+    deprecated: 1
   - id: 71284
     kind: 3
     kind_id: 30137
@@ -155,6 +122,12 @@ releases:
     language: 1
     name: Athena (Japan) (En)
     source: no-intro
+  - id: 266243
+    kind: 3
+    kind_id: 30137
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 30119

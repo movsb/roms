@@ -100,6 +100,7 @@ releases:
 - release:
     id: 25114
     game_id: 25114
+    release_type: 1
   names:
   - id: 56126
     kind: 3
@@ -112,11 +113,13 @@ releases:
     kind_id: 25114
     language: 2
     name: 奥运会2
+    deprecated: 1
   - id: 70107
     kind: 3
     kind_id: 25114
     language: 2
     name: 超级奥林匹克运动会 II (美版)(Rev A) (运动)-Track &amp; Field II (USA) (Rev A)
+    deprecated: 1
   - id: 70108
     kind: 3
     kind_id: 25114
@@ -129,6 +132,12 @@ releases:
     language: 1
     name: Track & Field II (USA) (Rev 1)
     source: no-intro
+  - id: 265043
+    kind: 3
+    kind_id: 25114
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 25096
@@ -158,6 +167,7 @@ releases:
 - release:
     id: 25115
     game_id: 25114
+    release_type: 1
   names:
   - id: 56128
     kind: 3
@@ -170,6 +180,7 @@ releases:
     kind_id: 25115
     language: 2
     name: 超级奥林匹克运动会 II (美版) (运动)-Track &amp; Field II (USA)
+    deprecated: 1
   - id: 70104
     kind: 3
     kind_id: 25115
@@ -182,6 +193,12 @@ releases:
     language: 1
     name: Track & Field II (USA)
     source: no-intro
+  - id: 265044
+    kind: 3
+    kind_id: 25115
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 25097
@@ -208,77 +225,16 @@ releases:
       blob_id: 325234
       debug: libretro-named-titles:rom-asset=25097:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Track%20_%20Field%20II%20%28USA%29.png
 - release:
-    id: 25116
-    game_id: 25114
-    release_type: 2
-  names:
-  - id: 84858
-    kind: 3
-    kind_id: 25116
-    language: 1
-    name: Track & Field II (U) (PRG0) [T+Bra1.0_ROMHackBR]
-  assets:
-  - asset:
-      id: 25098
-      kind: 3
-      kind_id: 25116
-      type: 1
-      name: Track & Field II (U) (PRG0) [T+Bra1.0_ROMHackBR].nes
-      format: 1
-      size: 262160
-      blob_id: 70338
-      debug: Track & Field II (U) (PRG0) [T+Bra1.0_ROMHackBR].nes
-- release:
-    id: 25117
-    game_id: 25114
-    release_type: 2
-  names:
-  - id: 84859
-    kind: 3
-    kind_id: 25117
-    language: 1
-    name: Track & Field II (U) (PRG0) [T+Swe1.0_TheTranslator]
-  assets:
-  - asset:
-      id: 25099
-      kind: 3
-      kind_id: 25117
-      type: 1
-      name: Track & Field II (U) (PRG0) [T+Swe1.0_TheTranslator].nes
-      format: 1
-      size: 262160
-      blob_id: 70339
-      debug: Track & Field II (U) (PRG0) [T+Swe1.0_TheTranslator].nes
-- release:
-    id: 25118
-    game_id: 25114
-    release_type: 2
-  names:
-  - id: 84860
-    kind: 3
-    kind_id: 25118
-    language: 1
-    name: Track & Field II (U) (PRG0) [T+Swe1.0_TheTranslator][a1]
-  assets:
-  - asset:
-      id: 25100
-      kind: 3
-      kind_id: 25118
-      type: 1
-      name: Track & Field II (U) (PRG0) [T+Swe1.0_TheTranslator][a1].nes
-      format: 1
-      size: 262160
-      blob_id: 70340
-      debug: Track & Field II (U) (PRG0) [T+Swe1.0_TheTranslator][a1].nes
-- release:
     id: 29793
     game_id: 25114
+    release_type: 1
   names:
   - id: 70099
     kind: 3
     kind_id: 29793
     language: 2
     name: 超级奥林匹克运动会 II (欧版) (运动)-Track &amp; Field II (Europe)
+    deprecated: 1
   - id: 70100
     kind: 3
     kind_id: 29793
@@ -291,6 +247,12 @@ releases:
     language: 1
     name: Track & Field II (Europe)
     source: no-intro
+  - id: 266142
+    kind: 3
+    kind_id: 29793
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 29775

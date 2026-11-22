@@ -52,6 +52,7 @@ releases:
 - release:
     id: 12001
     game_id: 12001
+    release_type: 1
   names:
   - id: 26330
     kind: 3
@@ -70,17 +71,25 @@ releases:
     kind_id: 12001
     language: 2
     name: "特殊部队 - 亚特兰提斯之谜 (美版) (动作)-G.I. Joe - A Real American Hero - The Atlantis Factor (USA)"
+    deprecated: 1
   - id: 68238
     kind: 3
     kind_id: 12001
     language: 2
     name: 眼镜蛇特种部队2
+    deprecated: 1
   - id: 258273
     kind: 3
     kind_id: 12001
     language: 1
     name: "G.I. Joe - The Atlantis Factor (USA)"
     source: no-intro
+  - id: 264224
+    kind: 3
+    kind_id: 12001
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 11983
@@ -103,48 +112,6 @@ releases:
       size: 3170
       blob_id: 322563
       debug: fc-title-trial:fceumm:rom-asset=11983:frame=900
-- release:
-    id: 12002
-    game_id: 12001
-    release_type: 2
-  names:
-  - id: 83153
-    kind: 3
-    kind_id: 12002
-    language: 1
-    name: "G.I. Joe - The Atlantis Factor (U) [T+Pol_Marcin-EG]"
-  assets:
-  - asset:
-      id: 11984
-      kind: 3
-      kind_id: 12002
-      type: 1
-      name: "G.I. Joe - The Atlantis Factor (U) [T+Pol_Marcin-EG].nes"
-      format: 1
-      size: 393232
-      blob_id: 57927
-      debug: "G.I. Joe - The Atlantis Factor (U) [T+Pol_Marcin-EG].nes"
-- release:
-    id: 12003
-    game_id: 12001
-    release_type: 2
-  names:
-  - id: 83154
-    kind: 3
-    kind_id: 12003
-    language: 1
-    name: "G.I. Joe - The Atlantis Factor (U) [T+Por90%_Mini Translations]"
-  assets:
-  - asset:
-      id: 11985
-      kind: 3
-      kind_id: 12003
-      type: 1
-      name: "G.I. Joe - The Atlantis Factor (U) [T+Por90%_Mini Translations].nes"
-      format: 1
-      size: 393232
-      blob_id: 57928
-      debug: "G.I. Joe - The Atlantis Factor (U) [T+Por90%_Mini Translations].nes"
 - release:
     id: 12007
     game_id: 12001

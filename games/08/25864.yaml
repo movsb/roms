@@ -27,6 +27,7 @@ releases:
 - release:
     id: 25864
     game_id: 25864
+    release_type: 1
   names:
   - id: 57822
     kind: 3
@@ -39,12 +40,19 @@ releases:
     kind_id: 25864
     language: 2
     name: "超人狼战记 (美版) (动作)-Werewolf - The Last Warrior (USA)"
+    deprecated: 1
   - id: 259795
     kind: 3
     kind_id: 25864
     language: 1
     name: "Werewolf - The Last Warrior (USA)"
     source: no-intro
+  - id: 265107
+    kind: 3
+    kind_id: 25864
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 25846
@@ -67,48 +75,6 @@ releases:
       size: 4247
       blob_id: 323113
       debug: fc-title-trial:fceumm:rom-asset=25846:frame=300
-- release:
-    id: 25865
-    game_id: 25864
-    release_type: 2
-  names:
-  - id: 84955
-    kind: 3
-    kind_id: 25865
-    language: 1
-    name: "Werewolf - The Last Warrior (U) [T+Bra_monkey]"
-  assets:
-  - asset:
-      id: 25847
-      kind: 3
-      kind_id: 25865
-      type: 1
-      name: "Werewolf - The Last Warrior (U) [T+Bra_monkey].nes"
-      format: 1
-      size: 262160
-      blob_id: 71033
-      debug: "Werewolf - The Last Warrior (U) [T+Bra_monkey].nes"
-- release:
-    id: 25866
-    game_id: 25864
-    release_type: 2
-  names:
-  - id: 84956
-    kind: 3
-    kind_id: 25866
-    language: 1
-    name: "Werewolf - The Last Warrior (U) [T+Rus1.0_Shedevr]"
-  assets:
-  - asset:
-      id: 25848
-      kind: 3
-      kind_id: 25866
-      type: 1
-      name: "Werewolf - The Last Warrior (U) [T+Rus1.0_Shedevr].nes"
-      format: 1
-      size: 262160
-      blob_id: 71034
-      debug: "Werewolf - The Last Warrior (U) [T+Rus1.0_Shedevr].nes"
 - release:
     id: 25871
     game_id: 25864
@@ -174,6 +140,7 @@ releases:
 - release:
     id: 25874
     game_id: 25864
+    release_type: 1
   names:
   - id: 57846
     kind: 3
@@ -187,6 +154,12 @@ releases:
     language: 1
     name: "Werewolf - The Last Warrior (USA)"
     source: no-intro
+  - id: 265108
+    kind: 3
+    kind_id: 25874
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 25856
@@ -212,12 +185,14 @@ releases:
 - release:
     id: 29757
     game_id: 25864
+    release_type: 1
   names:
   - id: 69981
     kind: 3
     kind_id: 29757
     language: 2
     name: "超人狼战记 (欧版) (动作)-Werewolf - The Last Warrior (Europe)"
+    deprecated: 1
   - id: 69982
     kind: 3
     kind_id: 29757
@@ -230,6 +205,12 @@ releases:
     language: 1
     name: "Werewolf - The Last Warrior (Europe)"
     source: no-intro
+  - id: 266128
+    kind: 3
+    kind_id: 29757
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 29739

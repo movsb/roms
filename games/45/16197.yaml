@@ -74,6 +74,7 @@ releases:
 - release:
     id: 16062
     game_id: 16197
+    release_type: 1
   names:
   - id: 35638
     kind: 3
@@ -92,6 +93,7 @@ releases:
     kind_id: 16062
     language: 2
     name: "洛克人 IV - 新的野心 (美版) (动作)-Mega Man 4 (USA)"
+    deprecated: 1
   - id: 66874
     kind: 3
     kind_id: 16062
@@ -104,6 +106,12 @@ releases:
     language: 1
     name: Mega Man 4 (USA)
     source: no-intro
+  - id: 264525
+    kind: 3
+    kind_id: 16062
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 16044
@@ -167,197 +175,9 @@ releases:
       blob_id: 324973
       debug: libretro-named-titles:rom-asset=16179:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mega%20Man%204%20%28Europe%29%20%28Virtual%20Console%29.png
 - release:
-    id: 16198
-    game_id: 16197
-    release_type: 2
-  names:
-  - id: 83789
-    kind: 3
-    kind_id: 16198
-    language: 1
-    name: Megaman IV (U) (PRG0) [T+FreBetaBossNames_Generation IX]
-  assets:
-  - asset:
-      id: 16180
-      kind: 3
-      kind_id: 16198
-      type: 1
-      name: Megaman IV (U) (PRG0) [T+FreBetaBossNames_Generation IX].nes
-      format: 1
-      size: 524304
-      blob_id: 61865
-      debug: Megaman IV (U) (PRG0) [T+FreBetaBossNames_Generation IX].nes
-- release:
-    id: 16199
-    game_id: 16197
-    release_type: 2
-  names:
-  - id: 83790
-    kind: 3
-    kind_id: 16199
-    language: 1
-    name: Megaman IV (U) (PRG0) [T+Fre_Shock]
-  assets:
-  - asset:
-      id: 16181
-      kind: 3
-      kind_id: 16199
-      type: 1
-      name: Megaman IV (U) (PRG0) [T+Fre_Shock].nes
-      format: 1
-      size: 524304
-      blob_id: 61866
-      debug: Megaman IV (U) (PRG0) [T+Fre_Shock].nes
-- release:
-    id: 16200
-    game_id: 16197
-    release_type: 2
-  names:
-  - id: 83791
-    kind: 3
-    kind_id: 16200
-    language: 1
-    name: Megaman IV (U) (PRG0) [T+Ita1.0_Vecna]
-  assets:
-  - asset:
-      id: 16182
-      kind: 3
-      kind_id: 16200
-      type: 1
-      name: Megaman IV (U) (PRG0) [T+Ita1.0_Vecna].nes
-      format: 1
-      size: 524304
-      blob_id: 61867
-      debug: Megaman IV (U) (PRG0) [T+Ita1.0_Vecna].nes
-- release:
-    id: 16201
-    game_id: 16197
-    release_type: 2
-  names:
-  - id: 83792
-    kind: 3
-    kind_id: 16201
-    language: 1
-    name: Megaman IV (U) (PRG0) [T+Por025]
-  assets:
-  - asset:
-      id: 16183
-      kind: 3
-      kind_id: 16201
-      type: 1
-      name: Megaman IV (U) (PRG0) [T+Por025].nes
-      format: 1
-      size: 524304
-      blob_id: 61868
-      debug: Megaman IV (U) (PRG0) [T+Por025].nes
-- release:
-    id: 16202
-    game_id: 16197
-    release_type: 2
-  names:
-  - id: 83793
-    kind: 3
-    kind_id: 16202
-    language: 1
-    name: Megaman IV (U) (PRG0) [T+Rus_Rustranslate Team]
-  assets:
-  - asset:
-      id: 16184
-      kind: 3
-      kind_id: 16202
-      type: 1
-      name: Megaman IV (U) (PRG0) [T+Rus_Rustranslate Team].nes
-      format: 1
-      size: 524304
-      blob_id: 61869
-      debug: Megaman IV (U) (PRG0) [T+Rus_Rustranslate Team].nes
-- release:
-    id: 16203
-    game_id: 16197
-    release_type: 2
-  names:
-  - id: 83794
-    kind: 3
-    kind_id: 16203
-    language: 1
-    name: Megaman IV (U) (PRG0) [T+Spa100%_Chilensis]
-  assets:
-  - asset:
-      id: 16185
-      kind: 3
-      kind_id: 16203
-      type: 1
-      name: Megaman IV (U) (PRG0) [T+Spa100%_Chilensis].nes
-      format: 1
-      size: 524304
-      blob_id: 61870
-      debug: Megaman IV (U) (PRG0) [T+Spa100%_Chilensis].nes
-- release:
-    id: 16204
-    game_id: 16197
-    release_type: 2
-  names:
-  - id: 83795
-    kind: 3
-    kind_id: 16204
-    language: 1
-    name: Megaman IV (U) (PRG0) [T+Spa_Djt]
-  assets:
-  - asset:
-      id: 16186
-      kind: 3
-      kind_id: 16204
-      type: 1
-      name: Megaman IV (U) (PRG0) [T+Spa_Djt].nes
-      format: 1
-      size: 524304
-      blob_id: 61871
-      debug: Megaman IV (U) (PRG0) [T+Spa_Djt].nes
-- release:
-    id: 16205
-    game_id: 16197
-    release_type: 2
-  names:
-  - id: 83796
-    kind: 3
-    kind_id: 16205
-    language: 1
-    name: Megaman IV (U) (PRG0) [T+Spa_SARG]
-  assets:
-  - asset:
-      id: 16187
-      kind: 3
-      kind_id: 16205
-      type: 1
-      name: Megaman IV (U) (PRG0) [T+Spa_SARG].nes
-      format: 1
-      size: 524304
-      blob_id: 61872
-      debug: Megaman IV (U) (PRG0) [T+Spa_SARG].nes
-- release:
-    id: 16206
-    game_id: 16197
-    release_type: 2
-  names:
-  - id: 36036
-    kind: 3
-    kind_id: 16206
-    language: 1
-    name: Megaman IV (U) (PRG0) [T-FreBeta_Generation IX]
-  assets:
-  - asset:
-      id: 16188
-      kind: 3
-      kind_id: 16206
-      type: 1
-      name: Megaman IV (U) (PRG0) [T-FreBeta_Generation IX].nes
-      format: 1
-      size: 524304
-      blob_id: 61873
-      debug: Megaman IV (U) (PRG0) [T-FreBeta_Generation IX].nes
-- release:
     id: 16214
     game_id: 16197
+    release_type: 1
   names:
   - id: 36052
     kind: 3
@@ -371,6 +191,12 @@ releases:
     language: 1
     name: Mega Man 4 (USA) (Rev 1)
     source: no-intro
+  - id: 264534
+    kind: 3
+    kind_id: 16214
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 16196
@@ -396,48 +222,6 @@ releases:
       size: 2776
       blob_id: 322752
       debug: fc-title-trial:fceumm:rom-asset=16196:frame=7200
-- release:
-    id: 16216
-    game_id: 16197
-    release_type: 2
-  names:
-  - id: 83797
-    kind: 3
-    kind_id: 16216
-    language: 1
-    name: Megaman IV (U) (PRG1) [T+FreBeta2-20030616_Generation IX]
-  assets:
-  - asset:
-      id: 16198
-      kind: 3
-      kind_id: 16216
-      type: 1
-      name: Megaman IV (U) (PRG1) [T+FreBeta2-20030616_Generation IX].nes
-      format: 1
-      size: 524304
-      blob_id: 61882
-      debug: Megaman IV (U) (PRG1) [T+FreBeta2-20030616_Generation IX].nes
-- release:
-    id: 16217
-    game_id: 16197
-    release_type: 2
-  names:
-  - id: 83798
-    kind: 3
-    kind_id: 16217
-    language: 1
-    name: Megaman IV (U) (PRG1) [T+FreBeta2-Boss-20030616_Generation IX]
-  assets:
-  - asset:
-      id: 16199
-      kind: 3
-      kind_id: 16217
-      type: 1
-      name: Megaman IV (U) (PRG1) [T+FreBeta2-Boss-20030616_Generation IX].nes
-      format: 1
-      size: 524304
-      blob_id: 61883
-      debug: Megaman IV (U) (PRG1) [T+FreBeta2-Boss-20030616_Generation IX].nes
 - release:
     id: 16218
     game_id: 16197
@@ -519,6 +303,7 @@ releases:
 - release:
     id: 20189
     game_id: 16197
+    release_type: 1
   names:
   - id: 44964
     kind: 3
@@ -532,6 +317,12 @@ releases:
     language: 1
     name: "Rockman 4 - Aratanaru Yabou!! (Japan)"
     source: no-intro
+  - id: 264775
+    kind: 3
+    kind_id: 20189
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 20171
@@ -601,27 +392,6 @@ releases:
       size: 524304
       blob_id: 65641
       debug: "Rockman 4 - Aratanaru Yabou!! (J) [T+Chi].nes"
-- release:
-    id: 20192
-    game_id: 16197
-    release_type: 2
-  names:
-  - id: 84259
-    kind: 3
-    kind_id: 20192
-    language: 1
-    name: "Rockman 4 - Aratanaru Yabou!! (J) [T+Kor_88KTT]"
-  assets:
-  - asset:
-      id: 20174
-      kind: 3
-      kind_id: 20192
-      type: 1
-      name: "Rockman 4 - Aratanaru Yabou!! (J) [T+Kor_88KTT].nes"
-      format: 1
-      size: 524304
-      blob_id: 65642
-      debug: "Rockman 4 - Aratanaru Yabou!! (J) [T+Kor_88KTT].nes"
 - release:
     id: 20193
     game_id: 16197
@@ -729,12 +499,14 @@ releases:
 - release:
     id: 28824
     game_id: 16197
+    release_type: 1
   names:
   - id: 66869
     kind: 3
     kind_id: 28824
     language: 2
     name: "洛克人 IV - 新的野心 (欧版) (动作)-Mega Man 4 (Europe)"
+    deprecated: 1
   - id: 66870
     kind: 3
     kind_id: 28824
@@ -747,6 +519,12 @@ releases:
     language: 1
     name: Mega Man 4 (Europe)
     source: no-intro
+  - id: 265851
+    kind: 3
+    kind_id: 28824
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 28806

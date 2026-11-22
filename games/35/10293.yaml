@@ -33,6 +33,7 @@ releases:
 - release:
     id: 10293
     game_id: 10293
+    release_type: 1
   names:
   - id: 22226
     kind: 3
@@ -46,6 +47,12 @@ releases:
     language: 1
     name: "Dragon Ball - Daimaou Fukkatsu (Japan)"
     source: no-intro
+  - id: 264108
+    kind: 3
+    kind_id: 10293
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 10275
@@ -95,27 +102,6 @@ releases:
       blob_id: 56322
       debug: "Dragon Ball - Dai Maou Fukkatsu (J) [T+Eng1.0_Stardust Crusaders].nes\nDragon Ball - Daimaou Fukkatsu (Japan) (Translated En).zip"
 - release:
-    id: 10295
-    game_id: 10293
-    release_type: 2
-  names:
-  - id: 82842
-    kind: 3
-    kind_id: 10295
-    language: 1
-    name: "Dragon Ball - Dai Maou Fukkatsu (J) [T+Kor_88ktt]"
-  assets:
-  - asset:
-      id: 10277
-      kind: 3
-      kind_id: 10295
-      type: 1
-      name: "Dragon Ball - Dai Maou Fukkatsu (J) [T+Kor_88ktt].nes"
-      format: 1
-      size: 262160
-      blob_id: 56323
-      debug: "Dragon Ball - Dai Maou Fukkatsu (J) [T+Kor_88ktt].nes"
-- release:
     id: 10299
     game_id: 10293
   names:
@@ -141,18 +127,26 @@ releases:
 - release:
     id: 26657
     game_id: 10293
+    release_type: 1
   names:
   - id: 59686
     kind: 3
     kind_id: 26657
     language: 2
     name: "七龙珠 II - 大魔王复活 (日版) (角色扮演)-Dragon Ball - Dai Maou Fukkatsu (Japan)"
+    deprecated: 1
   - id: 259923
     kind: 3
     kind_id: 26657
     language: 1
     name: "Dragon Ball - Daimaou Fukkatsu (Japan)"
     source: no-intro
+  - id: 265172
+    kind: 3
+    kind_id: 26657
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 26639

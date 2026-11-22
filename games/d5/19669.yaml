@@ -47,6 +47,7 @@ releases:
 - release:
     id: 19671
     game_id: 19669
+    release_type: 1
   names:
   - id: 43760
     kind: 3
@@ -65,12 +66,19 @@ releases:
     kind_id: 19671
     language: 2
     name: 公路之星 (美版) (竞赛)-Rad Racer (USA)
+    deprecated: 1
   - id: 259148
     kind: 3
     kind_id: 19671
     language: 1
     name: Rad Racer (USA)
     source: no-intro
+  - id: 264737
+    kind: 3
+    kind_id: 19671
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 19653
@@ -98,35 +106,16 @@ releases:
       blob_id: 322875
       debug: fc-title-trial:fceumm:rom-asset=19653:frame=300
 - release:
-    id: 19672
-    game_id: 19669
-    release_type: 2
-  names:
-  - id: 84181
-    kind: 3
-    kind_id: 19672
-    language: 1
-    name: Rad Racer (U) [T+Fre_Terminus]
-  assets:
-  - asset:
-      id: 19654
-      kind: 3
-      kind_id: 19672
-      type: 1
-      name: Rad Racer (U) [T+Fre_Terminus].nes
-      format: 1
-      size: 131088
-      blob_id: 65154
-      debug: Rad Racer (U) [T+Fre_Terminus].nes
-- release:
     id: 27024
     game_id: 19669
+    release_type: 1
   names:
   - id: 60895
     kind: 3
     kind_id: 27024
     language: 2
     name: 公路之星 (欧版) (竞赛)-Rad Racer (Europe)
+    deprecated: 1
   - id: 60896
     kind: 3
     kind_id: 27024
@@ -139,6 +128,12 @@ releases:
     language: 1
     name: Rad Racer (Europe)
     source: no-intro
+  - id: 265304
+    kind: 3
+    kind_id: 27024
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 27006

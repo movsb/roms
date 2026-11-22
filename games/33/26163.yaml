@@ -94,69 +94,6 @@ releases:
       blob_id: 64730
       debug: PowerJoy 84-in-1 Split Game 83-Xevious [p1].nes
 - release:
-    id: 26163
-    game_id: 26163
-    release_type: 2
-  names:
-  - id: 84980
-    kind: 3
-    kind_id: 26163
-    language: 1
-    name: Xevious (E) [T+Fre]
-  assets:
-  - asset:
-      id: 26145
-      kind: 3
-      kind_id: 26163
-      type: 1
-      name: Xevious (E) [T+Fre].nes
-      format: 1
-      size: 40976
-      blob_id: 71307
-      debug: Xevious (E) [T+Fre].nes
-- release:
-    id: 26164
-    game_id: 26163
-    release_type: 2
-  names:
-  - id: 84981
-    kind: 3
-    kind_id: 26164
-    language: 1
-    name: Xevious (E) [T+Rus_Cool-Spot]
-  assets:
-  - asset:
-      id: 26146
-      kind: 3
-      kind_id: 26164
-      type: 1
-      name: Xevious (E) [T+Rus_Cool-Spot].nes
-      format: 1
-      size: 40976
-      blob_id: 71308
-      debug: Xevious (E) [T+Rus_Cool-Spot].nes
-- release:
-    id: 26165
-    game_id: 26163
-    release_type: 2
-  names:
-  - id: 84982
-    kind: 3
-    kind_id: 26165
-    language: 1
-    name: Xevious (E) [T+Rus_Cool-Spot][a1]
-  assets:
-  - asset:
-      id: 26147
-      kind: 3
-      kind_id: 26165
-      type: 1
-      name: Xevious (E) [T+Rus_Cool-Spot][a1].nes
-      format: 1
-      size: 40976
-      blob_id: 71309
-      debug: Xevious (E) [T+Rus_Cool-Spot][a1].nes
-- release:
     id: 26168
     game_id: 26163
     release_type: 2
@@ -207,6 +144,7 @@ releases:
 - release:
     id: 26170
     game_id: 26163
+    release_type: 1
   names:
   - id: 58494
     kind: 3
@@ -225,6 +163,7 @@ releases:
     kind_id: 26170
     language: 2
     name: "铁板阵 (美版) (射击)-Xevious - The Avenger (USA)"
+    deprecated: 1
   - id: 70992
     kind: 3
     kind_id: 26170
@@ -237,6 +176,12 @@ releases:
     language: 1
     name: "Xevious - The Avenger (USA)"
     source: no-intro
+  - id: 265142
+    kind: 3
+    kind_id: 26170
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 26152
@@ -260,35 +205,16 @@ releases:
       blob_id: 323136
       debug: fc-title-trial:fceumm:rom-asset=26152:frame=600
 - release:
-    id: 26172
-    game_id: 26163
-    release_type: 2
-  names:
-  - id: 84984
-    kind: 3
-    kind_id: 26172
-    language: 1
-    name: "Xevious - The Avenger (U) [T+Fre1.0_ks151]"
-  assets:
-  - asset:
-      id: 26154
-      kind: 3
-      kind_id: 26172
-      type: 1
-      name: "Xevious - The Avenger (U) [T+Fre1.0_ks151].nes"
-      format: 1
-      size: 40976
-      blob_id: 71315
-      debug: "Xevious - The Avenger (U) [T+Fre1.0_ks151].nes"
-- release:
     id: 30049
     game_id: 26163
+    release_type: 1
   names:
   - id: 70983
     kind: 3
     kind_id: 30049
     language: 2
     name: 铁板阵 (日版)(Rev 1) (射击)-Xevious (Japan) (Rev 1)
+    deprecated: 1
   - id: 70984
     kind: 3
     kind_id: 30049
@@ -301,6 +227,12 @@ releases:
     language: 1
     name: Xevious (Japan) (En) (Rev 1)
     source: no-intro
+  - id: 266210
+    kind: 3
+    kind_id: 30049
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 30031
@@ -328,12 +260,14 @@ releases:
 - release:
     id: 30050
     game_id: 26163
+    release_type: 1
   names:
   - id: 70987
     kind: 3
     kind_id: 30050
     language: 2
     name: 铁板阵 (欧版) (射击)-Xevious (Europe)
+    deprecated: 1
   - id: 70988
     kind: 3
     kind_id: 30050
@@ -346,6 +280,12 @@ releases:
     language: 1
     name: Xevious (Europe)
     source: no-intro
+  - id: 266211
+    kind: 3
+    kind_id: 30050
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 30032
@@ -373,12 +313,14 @@ releases:
 - release:
     id: 30052
     game_id: 26163
+    release_type: 1
   names:
   - id: 70995
     kind: 3
     kind_id: 30052
     language: 2
     name: 铁板阵
+    deprecated: 1
   - id: 70996
     kind: 3
     kind_id: 30052
@@ -391,6 +333,12 @@ releases:
     language: 1
     name: Xevious (Japan) (En)
     source: no-intro
+  - id: 266212
+    kind: 3
+    kind_id: 30052
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 30034

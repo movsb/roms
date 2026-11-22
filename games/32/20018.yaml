@@ -32,6 +32,7 @@ releases:
 - release:
     id: 20018
     game_id: 20018
+    release_type: 1
   names:
   - id: 44574
     kind: 3
@@ -50,6 +51,7 @@ releases:
     kind_id: 20018
     language: 2
     name: 机器战警 III (美版) (动作)-RoboCop 3 (USA)
+    deprecated: 1
   - id: 66122
     kind: 3
     kind_id: 20018
@@ -62,6 +64,12 @@ releases:
     language: 1
     name: RoboCop 3 (USA)
     source: no-intro
+  - id: 264767
+    kind: 3
+    kind_id: 20018
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 20000
@@ -89,48 +97,6 @@ releases:
       blob_id: 325095
       debug: libretro-named-titles:rom-asset=20000:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/RoboCop%203%20%28USA%29.png
 - release:
-    id: 20019
-    game_id: 20018
-    release_type: 2
-  names:
-  - id: 84233
-    kind: 3
-    kind_id: 20019
-    language: 1
-    name: RoboCop 3 (U) [T+Ita1.0_Psyco]
-  assets:
-  - asset:
-      id: 20001
-      kind: 3
-      kind_id: 20019
-      type: 1
-      name: RoboCop 3 (U) [T+Ita1.0_Psyco].nes
-      format: 1
-      size: 262160
-      blob_id: 65477
-      debug: RoboCop 3 (U) [T+Ita1.0_Psyco].nes
-- release:
-    id: 20020
-    game_id: 20018
-    release_type: 2
-  names:
-  - id: 84234
-    kind: 3
-    kind_id: 20020
-    language: 1
-    name: RoboCop 3 (U) [T+Rus_Shedevr,CaH4e3,Chronix]
-  assets:
-  - asset:
-      id: 20002
-      kind: 3
-      kind_id: 20020
-      type: 1
-      name: RoboCop 3 (U) [T+Rus_Shedevr,CaH4e3,Chronix].nes
-      format: 1
-      size: 262160
-      blob_id: 65478
-      debug: RoboCop 3 (U) [T+Rus_Shedevr,CaH4e3,Chronix].nes
-- release:
     id: 20025
     game_id: 20018
   names:
@@ -153,12 +119,14 @@ releases:
 - release:
     id: 28602
     game_id: 20018
+    release_type: 1
   names:
   - id: 66117
     kind: 3
     kind_id: 28602
     language: 2
     name: 机器战警 III (欧版) (动作)-RoboCop 3 (Europe)
+    deprecated: 1
   - id: 66118
     kind: 3
     kind_id: 28602
@@ -171,6 +139,12 @@ releases:
     language: 1
     name: RoboCop 3 (Europe)
     source: no-intro
+  - id: 265780
+    kind: 3
+    kind_id: 28602
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 28584
@@ -198,18 +172,26 @@ releases:
 - release:
     id: 28613
     game_id: 20018
+    release_type: 1
   names:
   - id: 66150
     kind: 3
     kind_id: 28613
     language: 2
     name: 机械战警3
+    deprecated: 1
   - id: 260726
     kind: 3
     kind_id: 28613
     language: 1
     name: RoboCop 3 (USA)
     source: no-intro
+  - id: 265782
+    kind: 3
+    kind_id: 28613
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 28595

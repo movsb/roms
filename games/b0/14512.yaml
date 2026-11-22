@@ -31,6 +31,7 @@ releases:
 - release:
     id: 14496
     game_id: 14512
+    release_type: 1
   names:
   - id: 32086
     kind: 3
@@ -55,17 +56,25 @@ releases:
     kind_id: 14496
     language: 2
     name: 踢王
+    deprecated: 1
   - id: 70479
     kind: 3
     kind_id: 14496
     language: 2
     name: 踢腿大师 (美版) (动作角色扮演)-Kick Master (USA)
+    deprecated: 1
   - id: 258557
     kind: 3
     kind_id: 14496
     language: 1
     name: KickMaster (USA)
     source: no-intro
+  - id: 264419
+    kind: 3
+    kind_id: 14496
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 14478
@@ -94,48 +103,6 @@ releases:
       size: 5084
       blob_id: 322672
       debug: fc-title-trial:fceumm:rom-asset=14478:frame=600
-- release:
-    id: 14497
-    game_id: 14512
-    release_type: 2
-  names:
-  - id: 83534
-    kind: 3
-    kind_id: 14497
-    language: 1
-    name: Kick Master (U) [T+Pol]
-  assets:
-  - asset:
-      id: 14479
-      kind: 3
-      kind_id: 14497
-      type: 1
-      name: Kick Master (U) [T+Pol].nes
-      format: 1
-      size: 262160
-      blob_id: 60262
-      debug: Kick Master (U) [T+Pol].nes
-- release:
-    id: 14498
-    game_id: 14512
-    release_type: 2
-  names:
-  - id: 83535
-    kind: 3
-    kind_id: 14498
-    language: 1
-    name: Kick Master (U) [T+Rus_MJOLNIR]
-  assets:
-  - asset:
-      id: 14480
-      kind: 3
-      kind_id: 14498
-      type: 1
-      name: Kick Master (U) [T+Rus_MJOLNIR].nes
-      format: 1
-      size: 262160
-      blob_id: 60263
-      debug: Kick Master (U) [T+Rus_MJOLNIR].nes
 - release:
     id: 14501
     game_id: 14512

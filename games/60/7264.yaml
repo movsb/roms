@@ -70,6 +70,7 @@ releases:
 - release:
     id: 7256
     game_id: 7264
+    release_type: 1
   names:
   - id: 15198
     kind: 3
@@ -82,6 +83,7 @@ releases:
     kind_id: 7256
     language: 2
     name: 炸弹人
+    deprecated: 1
   - id: 67328
     kind: 3
     kind_id: 7256
@@ -94,6 +96,12 @@ releases:
     language: 1
     name: Bomberman (Japan) (En)
     source: no-intro
+  - id: 263939
+    kind: 3
+    kind_id: 7256
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 7238
@@ -367,6 +375,7 @@ releases:
 - release:
     id: 7278
     game_id: 7264
+    release_type: 1
   names:
   - id: 15246
     kind: 3
@@ -385,12 +394,19 @@ releases:
     kind_id: 7278
     language: 2
     name: 轰炸超人 (美版) (动作)-Bomberman (USA)
+    deprecated: 1
   - id: 257806
     kind: 3
     kind_id: 7278
     language: 1
     name: Bomberman (USA)
     source: no-intro
+  - id: 263940
+    kind: 3
+    kind_id: 7278
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 7260
@@ -417,174 +433,6 @@ releases:
       size: 3708
       blob_id: 322388
       debug: fc-title-trial:fceumm:rom-asset=7260:frame=180
-- release:
-    id: 7279
-    game_id: 7264
-    release_type: 2
-  names:
-  - id: 82371
-    kind: 3
-    kind_id: 7279
-    language: 1
-    name: Bomberman (U) [T+Bra_monkeys]
-  assets:
-  - asset:
-      id: 7261
-      kind: 3
-      kind_id: 7279
-      type: 1
-      name: Bomberman (U) [T+Bra_monkeys].nes
-      format: 1
-      size: 24592
-      blob_id: 53463
-      debug: Bomberman (U) [T+Bra_monkeys].nes
-- release:
-    id: 7280
-    game_id: 7264
-    release_type: 2
-  names:
-  - id: 82372
-    kind: 3
-    kind_id: 7280
-    language: 1
-    name: Bomberman (U) [T+Fre]
-  assets:
-  - asset:
-      id: 7262
-      kind: 3
-      kind_id: 7280
-      type: 1
-      name: Bomberman (U) [T+Fre].nes
-      format: 1
-      size: 24592
-      blob_id: 53464
-      debug: Bomberman (U) [T+Fre].nes
-- release:
-    id: 7281
-    game_id: 7264
-    release_type: 2
-  names:
-  - id: 82373
-    kind: 3
-    kind_id: 7281
-    language: 1
-    name: Bomberman (U) [T+Ita1.0_ZombiKiller]
-  assets:
-  - asset:
-      id: 7263
-      kind: 3
-      kind_id: 7281
-      type: 1
-      name: Bomberman (U) [T+Ita1.0_ZombiKiller].nes
-      format: 1
-      size: 24592
-      blob_id: 53465
-      debug: Bomberman (U) [T+Ita1.0_ZombiKiller].nes
-- release:
-    id: 7282
-    game_id: 7264
-    release_type: 2
-  names:
-  - id: 82374
-    kind: 3
-    kind_id: 7282
-    language: 1
-    name: Bomberman (U) [T+Rus(NewTitle)_Multisoft,Cool-Spot]
-  assets:
-  - asset:
-      id: 7264
-      kind: 3
-      kind_id: 7282
-      type: 1
-      name: Bomberman (U) [T+Rus(NewTitle)_Multisoft,Cool-Spot].nes
-      format: 1
-      size: 24592
-      blob_id: 53466
-      debug: Bomberman (U) [T+Rus(NewTitle)_Multisoft,Cool-Spot].nes
-- release:
-    id: 7283
-    game_id: 7264
-    release_type: 2
-  names:
-  - id: 82375
-    kind: 3
-    kind_id: 7283
-    language: 1
-    name: Bomberman (U) [T+Rus_Multisoft]
-  assets:
-  - asset:
-      id: 7265
-      kind: 3
-      kind_id: 7283
-      type: 1
-      name: Bomberman (U) [T+Rus_Multisoft].nes
-      format: 1
-      size: 24592
-      blob_id: 53467
-      debug: Bomberman (U) [T+Rus_Multisoft].nes
-- release:
-    id: 7284
-    game_id: 7264
-    release_type: 2
-  names:
-  - id: 82376
-    kind: 3
-    kind_id: 7284
-    language: 1
-    name: Bomberman (U) [T+Rus_Multisoft][a1]
-  assets:
-  - asset:
-      id: 7266
-      kind: 3
-      kind_id: 7284
-      type: 1
-      name: Bomberman (U) [T+Rus_Multisoft][a1].nes
-      format: 1
-      size: 24592
-      blob_id: 53468
-      debug: Bomberman (U) [T+Rus_Multisoft][a1].nes
-- release:
-    id: 7285
-    game_id: 7264
-    release_type: 2
-  names:
-  - id: 82377
-    kind: 3
-    kind_id: 7285
-    language: 1
-    name: Bomberman (U) [T+Rus_Multisoft][a2]
-  assets:
-  - asset:
-      id: 7267
-      kind: 3
-      kind_id: 7285
-      type: 1
-      name: Bomberman (U) [T+Rus_Multisoft][a2].nes
-      format: 1
-      size: 24592
-      blob_id: 53469
-      debug: Bomberman (U) [T+Rus_Multisoft][a2].nes
-- release:
-    id: 7286
-    game_id: 7264
-    release_type: 2
-  names:
-  - id: 82378
-    kind: 3
-    kind_id: 7286
-    language: 1
-    name: Bomberman (U) [T+Spa_PaladinKnights]
-  assets:
-  - asset:
-      id: 7268
-      kind: 3
-      kind_id: 7286
-      type: 1
-      name: Bomberman (U) [T+Spa_PaladinKnights].nes
-      format: 1
-      size: 24592
-      blob_id: 53470
-      debug: Bomberman (U) [T+Spa_PaladinKnights].nes
 - release:
     id: 19156
     game_id: 7264

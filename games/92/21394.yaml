@@ -32,6 +32,7 @@ releases:
 - release:
     id: 21394
     game_id: 21394
+    release_type: 1
   names:
   - id: 47636
     kind: 3
@@ -50,12 +51,19 @@ releases:
     kind_id: 21394
     language: 2
     name: 史耐克的复仇 (美版) (动作)-Snakes Revenge (USA)
+    deprecated: 1
   - id: 259354
     kind: 3
     kind_id: 21394
     language: 1
     name: Snake's Revenge (USA)
     source: no-intro
+  - id: 264871
+    kind: 3
+    kind_id: 21394
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 21376
@@ -82,69 +90,6 @@ releases:
       size: 3530
       blob_id: 322963
       debug: fc-title-trial:fceumm:rom-asset=21376:frame=180
-- release:
-    id: 21395
-    game_id: 21394
-    release_type: 2
-  names:
-  - id: 84373
-    kind: 3
-    kind_id: 21395
-    language: 1
-    name: Snake's Revenge (U) [T+Ita0.3_Le mie]
-  assets:
-  - asset:
-      id: 21377
-      kind: 3
-      kind_id: 21395
-      type: 1
-      name: Snake's Revenge (U) [T+Ita0.3_Le mie].nes
-      format: 1
-      size: 262160
-      blob_id: 66780
-      debug: Snake's Revenge (U) [T+Ita0.3_Le mie].nes
-- release:
-    id: 21396
-    game_id: 21394
-    release_type: 2
-  names:
-  - id: 84374
-    kind: 3
-    kind_id: 21396
-    language: 1
-    name: Snake's Revenge (U) [T+Rus2.2_nikita600]
-  assets:
-  - asset:
-      id: 21378
-      kind: 3
-      kind_id: 21396
-      type: 1
-      name: Snake's Revenge (U) [T+Rus2.2_nikita600].nes
-      format: 1
-      size: 262160
-      blob_id: 66781
-      debug: Snake's Revenge (U) [T+Rus2.2_nikita600].nes
-- release:
-    id: 21397
-    game_id: 21394
-    release_type: 2
-  names:
-  - id: 84375
-    kind: 3
-    kind_id: 21397
-    language: 1
-    name: Snake's Revenge (U) [T+Rus_Magicteam]
-  assets:
-  - asset:
-      id: 21379
-      kind: 3
-      kind_id: 21397
-      type: 1
-      name: Snake's Revenge (U) [T+Rus_Magicteam].nes
-      format: 1
-      size: 262160
-      blob_id: 66782
-      debug: Snake's Revenge (U) [T+Rus_Magicteam].nes
 - release:
     id: 21411
     game_id: 21394
@@ -218,12 +163,14 @@ releases:
 - release:
     id: 27371
     game_id: 21394
+    release_type: 1
   names:
   - id: 61999
     kind: 3
     kind_id: 27371
     language: 2
     name: 史耐克的复仇 (欧版) (动作)-Snakes Revenge (Europe)
+    deprecated: 1
   - id: 62000
     kind: 3
     kind_id: 27371
@@ -236,6 +183,12 @@ releases:
     language: 1
     name: Snake's Revenge (Europe)
     source: no-intro
+  - id: 265390
+    kind: 3
+    kind_id: 27371
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 27353

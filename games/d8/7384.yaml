@@ -65,6 +65,7 @@ releases:
 - release:
     id: 7384
     game_id: 7384
+    release_type: 1
   names:
   - id: 15500
     kind: 3
@@ -83,17 +84,25 @@ releases:
     kind_id: 7384
     language: 2
     name: "男孩与泡泡怪 (美版) (益智)-Boy and His Blob, A - Trouble on Blobolonia (USA)"
+    deprecated: 1
   - id: 68022
     kind: 3
     kind_id: 7384
     language: 2
     name: 男孩和他的软泥
+    deprecated: 1
   - id: 257815
     kind: 3
     kind_id: 7384
     language: 1
     name: "David Crane's A Boy and His Blob - Trouble on Blobolonia (USA)"
     source: no-intro
+  - id: 263944
+    kind: 3
+    kind_id: 7384
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 7366
@@ -116,27 +125,6 @@ releases:
       size: 3451
       blob_id: 323779
       debug: fc-title-trial:fceumm:rom-asset=7366:frame=180
-- release:
-    id: 7386
-    game_id: 7384
-    release_type: 2
-  names:
-  - id: 82392
-    kind: 3
-    kind_id: 7386
-    language: 1
-    name: "Boy and His Blob, A - Trouble on Blobolonia (U) [T+Spa99%_Emu4ever]"
-  assets:
-  - asset:
-      id: 7368
-      kind: 3
-      kind_id: 7386
-      type: 1
-      name: "Boy and His Blob, A - Trouble on Blobolonia (U) [T+Spa99%_Emu4ever].nes"
-      format: 1
-      size: 262160
-      blob_id: 53564
-      debug: "Boy and His Blob, A - Trouble on Blobolonia (U) [T+Spa99%_Emu4ever].nes"
 - release:
     id: 12857
     game_id: 7384
@@ -161,12 +149,14 @@ releases:
 - release:
     id: 29175
     game_id: 7384
+    release_type: 1
   names:
   - id: 68011
     kind: 3
     kind_id: 29175
     language: 2
     name: "男孩与泡泡怪 (欧版) (益智)-Boy and His Blob, A - Trouble on Blobolonia (Europe)"
+    deprecated: 1
   - id: 68012
     kind: 3
     kind_id: 29175
@@ -179,6 +169,12 @@ releases:
     language: 1
     name: "David Crane's A Boy and His Blob - Trouble on Blobolonia (Europe)"
     source: no-intro
+  - id: 265945
+    kind: 3
+    kind_id: 29175
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 29157
@@ -204,12 +200,14 @@ releases:
 - release:
     id: 29176
     game_id: 7384
+    release_type: 1
   names:
   - id: 68015
     kind: 3
     kind_id: 29176
     language: 2
     name: "男孩与泡泡怪 (欧版)(Rev A) (益智)-Boy and His Blob, A - Trouble on Blobolonia (Europe) (Rev A)"
+    deprecated: 1
   - id: 68016
     kind: 3
     kind_id: 29176
@@ -222,6 +220,12 @@ releases:
     language: 1
     name: "David Crane's A Boy and His Blob - Trouble on Blobolonia (Europe) (Rev 1)"
     source: no-intro
+  - id: 265946
+    kind: 3
+    kind_id: 29176
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 29158

@@ -3170,27 +3170,6 @@ releases:
       blob_id: 51375
       debug: 58-in-1 [p1].nes
 - release:
-    id: 5069
-    game_id: 86377
-    release_type: 2
-  names:
-  - id: 82088
-    kind: 3
-    kind_id: 5069
-    language: 1
-    name: 6-in-1 (Caltron) [T+Rus_Djinn]
-  assets:
-  - asset:
-      id: 5051
-      kind: 3
-      kind_id: 5069
-      type: 1
-      name: 6-in-1 (Caltron) [T+Rus_Djinn].nes
-      format: 1
-      size: 393232
-      blob_id: 51377
-      debug: 6-in-1 (Caltron) [T+Rus_Djinn].nes
-- release:
     id: 5071
     game_id: 86377
   names:
@@ -4373,27 +4352,6 @@ releases:
       blob_id: 53479
       debug: Bomberman Collection [p1].nes
 - release:
-    id: 7297
-    game_id: 86377
-    release_type: 2
-  names:
-  - id: 82381
-    kind: 3
-    kind_id: 7297
-    language: 1
-    name: Bomberman Collection [p1][T+Rus_Cool-Spot]
-  assets:
-  - asset:
-      id: 7279
-      kind: 3
-      kind_id: 7297
-      type: 1
-      name: Bomberman Collection [p1][T+Rus_Cool-Spot].nes
-      format: 1
-      size: 40976
-      blob_id: 53480
-      debug: Bomberman Collection [p1][T+Rus_Cool-Spot].nes
-- release:
     id: 7302
     game_id: 86377
     release_type: 3
@@ -4495,6 +4453,7 @@ releases:
 - release:
     id: 9929
     game_id: 86377
+    release_type: 1
   names:
   - id: 21318
     kind: 3
@@ -4507,6 +4466,7 @@ releases:
     kind_id: 9929
     language: 2
     name: 大金刚典藏版 (美版,欧版) (动作)-Donkey Kong Classics (USA, Europe)
+    deprecated: 1
   - id: 62942
     kind: 3
     kind_id: 9929
@@ -4519,6 +4479,12 @@ releases:
     language: 1
     name: Donkey Kong Classics (USA, Europe)
     source: no-intro
+  - id: 264085
+    kind: 3
+    kind_id: 9929
+    language: 2
+    name: 美欧版
+    source: codex
   assets:
   - asset:
       id: 9911
@@ -4671,27 +4637,6 @@ releases:
       size: 262160
       blob_id: 57116
       debug: Famicom Yarou Vol.1 7-in-1 (Unl) [!].nes
-- release:
-    id: 11145
-    game_id: 86377
-    release_type: 2
-  names:
-  - id: 82981
-    kind: 3
-    kind_id: 11145
-    language: 1
-    name: Famicom Yarou Vol.5 7-in-1 (Unl) [T+Rus_Cool-Spot]
-  assets:
-  - asset:
-      id: 11127
-      kind: 3
-      kind_id: 11145
-      type: 1
-      name: Famicom Yarou Vol.5 7-in-1 (Unl) [T+Rus_Cool-Spot].nes
-      format: 1
-      size: 262160
-      blob_id: 57117
-      debug: Famicom Yarou Vol.5 7-in-1 (Unl) [T+Rus_Cool-Spot].nes
 - release:
     id: 11147
     game_id: 86377
@@ -5501,27 +5446,6 @@ releases:
       blob_id: 64717
       debug: PowerJoy 84-in-1 Split Game 70-Spartan [p1].nes
 - release:
-    id: 19458
-    game_id: 86377
-    release_type: 2
-  names:
-  - id: 84176
-    kind: 3
-    kind_id: 19458
-    language: 1
-    name: Quattro Adventure (Camerica) (Aladdin) [hM02][T+Rus_Chief-Net]
-  assets:
-  - asset:
-      id: 19440
-      kind: 3
-      kind_id: 19458
-      type: 1
-      name: Quattro Adventure (Camerica) (Aladdin) [hM02][T+Rus_Chief-Net].nes
-      format: 1
-      size: 262160
-      blob_id: 64955
-      debug: Quattro Adventure (Camerica) (Aladdin) [hM02][T+Rus_Chief-Net].nes
-- release:
     id: 19460
     game_id: 86377
     release_type: 3
@@ -5572,27 +5496,6 @@ releases:
       size: 262160
       blob_id: 64960
       debug: "Quattro Adventure (U).zip\n冒险游戏 - 4 合 1 (美版) (合卡)-Quattro Adventure (USA) (Unl) + Quattro Adventure (Camerica) (Aladdin) [!].nes"
-- release:
-    id: 19465
-    game_id: 86377
-    release_type: 2
-  names:
-  - id: 84178
-    kind: 3
-    kind_id: 19465
-    language: 1
-    name: Quattro Arcade (Camerica) [T+Pol]
-  assets:
-  - asset:
-      id: 19447
-      kind: 3
-      kind_id: 19465
-      type: 1
-      name: Quattro Arcade (Camerica) [T+Pol].nes
-      format: 1
-      size: 262160
-      blob_id: 64961
-      debug: Quattro Arcade (Camerica) [T+Pol].nes
 - release:
     id: 19468
     game_id: 86377
@@ -6574,6 +6477,7 @@ releases:
 - release:
     id: 22593
     game_id: 86377
+    release_type: 1
   names:
   - id: 50288
     kind: 3
@@ -6587,6 +6491,12 @@ releases:
     language: 1
     name: Super Mario Bros. + Duck Hunt (USA)
     source: no-intro
+  - id: 264937
+    kind: 3
+    kind_id: 22593
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 22575
@@ -6609,32 +6519,6 @@ releases:
       size: 1098
       blob_id: 325178
       debug: libretro-named-titles:rom-asset=22575:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Super%20Mario%20Bros.%20%2B%20Duck%20Hunt%20%28USA%29.png
-- release:
-    id: 22965
-    game_id: 86377
-    release_type: 2
-  names:
-  - id: 84555
-    kind: 3
-    kind_id: 22965
-    language: 1
-    name: Super Mario Bros.
-  - id: 84556
-    kind: 3
-    kind_id: 22965
-    language: 1
-    name: Duck Hunt (U) [T+Pol_bemberg]
-  assets:
-  - asset:
-      id: 22947
-      kind: 3
-      kind_id: 22965
-      type: 1
-      name: Super Mario Bros. + Duck Hunt (U) [T+Pol_bemberg].nes
-      format: 1
-      size: 81936
-      blob_id: 68278
-      debug: Super Mario Bros. + Duck Hunt (U) [T+Pol_bemberg].nes
 - release:
     id: 23223
     game_id: 86377
@@ -7063,12 +6947,14 @@ releases:
 - release:
     id: 27707
     game_id: 86377
+    release_type: 1
   names:
   - id: 63117
     kind: 3
     kind_id: 27707
     language: 2
     name: 太空战士 I &amp;amp; II (日版) (角色扮演)-Final Fantasy I &amp; II (Japan)
+    deprecated: 1
   - id: 63118
     kind: 3
     kind_id: 27707
@@ -7081,6 +6967,12 @@ releases:
     language: 1
     name: Final Fantasy I, II (Japan)
     source: no-intro
+  - id: 265481
+    kind: 3
+    kind_id: 27707
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 27689

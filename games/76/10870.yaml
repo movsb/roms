@@ -27,6 +27,7 @@ releases:
 - release:
     id: 10870
     game_id: 10870
+    release_type: 1
   names:
   - id: 23596
     kind: 3
@@ -45,12 +46,19 @@ releases:
     kind_id: 10870
     language: 2
     name: 赛艇决斗 (美版) (竞赛)-Eliminator Boat Duel (USA)
+    deprecated: 1
   - id: 258138
     kind: 3
     kind_id: 10870
     language: 1
     name: Eliminator Boat Duel (USA)
     source: no-intro
+  - id: 264143
+    kind: 3
+    kind_id: 10870
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 10852
@@ -100,12 +108,14 @@ releases:
 - release:
     id: 29725
     game_id: 10870
+    release_type: 1
   names:
   - id: 69873
     kind: 3
     kind_id: 29725
     language: 2
     name: 赛艇决斗 (欧版) (竞赛)-Eliminator Boat Duel (Europe)
+    deprecated: 1
   - id: 69874
     kind: 3
     kind_id: 29725
@@ -118,6 +128,12 @@ releases:
     language: 1
     name: Eliminator Boat Duel (Europe)
     source: no-intro
+  - id: 266120
+    kind: 3
+    kind_id: 29725
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 29707

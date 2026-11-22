@@ -70,27 +70,6 @@ releases:
       blob_id: 324889
       debug: libretro-named-titles:rom-asset=13540:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Ice%20Hockey%20%28Europe%29%20%28Virtual%20Console%29.png
 - release:
-    id: 13559
-    game_id: 13557
-    release_type: 2
-  names:
-  - id: 83343
-    kind: 3
-    kind_id: 13559
-    language: 1
-    name: Ice Hockey (E) [T+Fre]
-  assets:
-  - asset:
-      id: 13541
-      kind: 3
-      kind_id: 13559
-      type: 1
-      name: Ice Hockey (E) [T+Fre].nes
-      format: 1
-      size: 40976
-      blob_id: 59400
-      debug: Ice Hockey (E) [T+Fre].nes
-- release:
     id: 13560
     game_id: 13557
   names:
@@ -113,6 +92,7 @@ releases:
 - release:
     id: 13562
     game_id: 13557
+    release_type: 1
   names:
   - id: 29834
     kind: 3
@@ -131,12 +111,19 @@ releases:
     kind_id: 13562
     language: 2
     name: 冰上曲棍球 (美版) (运动)-Ice Hockey (USA)
+    deprecated: 1
   - id: 258446
     kind: 3
     kind_id: 13562
     language: 1
     name: Ice Hockey (USA)
     source: no-intro
+  - id: 264336
+    kind: 3
+    kind_id: 13562
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 13544
@@ -164,48 +151,6 @@ releases:
       blob_id: 322625
       debug: fc-title-trial:fceumm:rom-asset=13544:frame=180
 - release:
-    id: 13563
-    game_id: 13557
-    release_type: 2
-  names:
-  - id: 83344
-    kind: 3
-    kind_id: 13563
-    language: 1
-    name: Ice Hockey (U) [T+Dut1.1_Ok Impala!]
-  assets:
-  - asset:
-      id: 13545
-      kind: 3
-      kind_id: 13563
-      type: 1
-      name: Ice Hockey (U) [T+Dut1.1_Ok Impala!].nes
-      format: 1
-      size: 40976
-      blob_id: 59404
-      debug: Ice Hockey (U) [T+Dut1.1_Ok Impala!].nes
-- release:
-    id: 13564
-    game_id: 13557
-    release_type: 2
-  names:
-  - id: 83345
-    kind: 3
-    kind_id: 13564
-    language: 1
-    name: Ice Hockey (U) [T+Swe1.0_TheTranslator]
-  assets:
-  - asset:
-      id: 13546
-      kind: 3
-      kind_id: 13564
-      type: 1
-      name: Ice Hockey (U) [T+Swe1.0_TheTranslator].nes
-      format: 1
-      size: 40976
-      blob_id: 59405
-      debug: Ice Hockey (U) [T+Swe1.0_TheTranslator].nes
-- release:
     id: 13574
     game_id: 13557
   names:
@@ -228,12 +173,14 @@ releases:
 - release:
     id: 27093
     game_id: 13557
+    release_type: 1
   names:
   - id: 61103
     kind: 3
     kind_id: 27093
     language: 2
     name: 冰上曲棍球 (欧版) (运动)-Ice Hockey (Europe)
+    deprecated: 1
   - id: 61104
     kind: 3
     kind_id: 27093
@@ -246,6 +193,12 @@ releases:
     language: 1
     name: Ice Hockey (Europe)
     source: no-intro
+  - id: 265312
+    kind: 3
+    kind_id: 27093
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 27075

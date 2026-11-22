@@ -27,27 +27,6 @@ names:
   source: no-intro
 releases:
 - release:
-    id: 21576
-    game_id: 28291
-    release_type: 2
-  names:
-  - id: 84391
-    kind: 3
-    kind_id: 21576
-    language: 1
-    name: Solomon no Kagi (J) [T+Spa0.99]
-  assets:
-  - asset:
-      id: 21558
-      kind: 3
-      kind_id: 21576
-      type: 1
-      name: Solomon no Kagi (J) [T+Spa0.99].nes
-      format: 1
-      size: 65552
-      blob_id: 66953
-      debug: Solomon no Kagi (J) [T+Spa0.99].nes
-- release:
     id: 21579
     game_id: 28291
   names:
@@ -70,12 +49,14 @@ releases:
 - release:
     id: 28291
     game_id: 28291
+    release_type: 1
   names:
   - id: 65035
     kind: 3
     kind_id: 28291
     language: 2
     name: 所罗门之钥 (日版) (益智)-Solomon no Kagi (Japan)
+    deprecated: 1
   - id: 65036
     kind: 3
     kind_id: 28291
@@ -88,6 +69,12 @@ releases:
     language: 1
     name: Solomon no Kagi (Japan)
     source: no-intro
+  - id: 265661
+    kind: 3
+    kind_id: 28291
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 28273

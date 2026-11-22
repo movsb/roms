@@ -21,6 +21,7 @@ releases:
 - release:
     id: 13700
     game_id: 13700
+    release_type: 1
   names:
   - id: 30160
     kind: 3
@@ -39,12 +40,19 @@ releases:
     kind_id: 13700
     language: 2
     name: 永生不灭 (美版) (动作)-Immortal, The (USA)
+    deprecated: 1
   - id: 258460
     kind: 3
     kind_id: 13700
     language: 1
     name: Immortal, The (USA)
     source: no-intro
+  - id: 264350
+    kind: 3
+    kind_id: 13700
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 13682
@@ -71,45 +79,3 @@ releases:
       size: 3617
       blob_id: 322630
       debug: fc-title-trial:fceumm:rom-asset=13682:frame=300
-- release:
-    id: 13701
-    game_id: 13700
-    release_type: 2
-  names:
-  - id: 83369
-    kind: 3
-    kind_id: 13701
-    language: 1
-    name: Immortal, The (U) [T+Rus_magic team]
-  assets:
-  - asset:
-      id: 13683
-      kind: 3
-      kind_id: 13701
-      type: 1
-      name: Immortal, The (U) [T+Rus_magic team].nes
-      format: 1
-      size: 393232
-      blob_id: 59536
-      debug: Immortal, The (U) [T+Rus_magic team].nes
-- release:
-    id: 13702
-    game_id: 13700
-    release_type: 2
-  names:
-  - id: 83370
-    kind: 3
-    kind_id: 13702
-    language: 1
-    name: Immortal, The (U) [T+Spa100_spctrmxd]
-  assets:
-  - asset:
-      id: 13684
-      kind: 3
-      kind_id: 13702
-      type: 1
-      name: Immortal, The (U) [T+Spa100_spctrmxd].nes
-      format: 1
-      size: 393232
-      blob_id: 59537
-      debug: Immortal, The (U) [T+Spa100_spctrmxd].nes

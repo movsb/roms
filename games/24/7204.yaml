@@ -34,6 +34,7 @@ releases:
 - release:
     id: 7204
     game_id: 7204
+    release_type: 1
   names:
   - id: 15088
     kind: 3
@@ -52,12 +53,19 @@ releases:
     kind_id: 7204
     language: 2
     name: 布鲁斯兄弟 (美版) (动作)-Blues Brothers, The (USA)
+    deprecated: 1
   - id: 257797
     kind: 3
     kind_id: 7204
     language: 1
     name: Blues Brothers, The (USA)
     source: no-intro
+  - id: 263935
+    kind: 3
+    kind_id: 7204
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 7186
@@ -87,12 +95,14 @@ releases:
 - release:
     id: 27966
     game_id: 7204
+    release_type: 1
   names:
   - id: 63997
     kind: 3
     kind_id: 27966
     language: 2
     name: 布鲁斯兄弟 (欧版) (动作)-Blues Brothers, The (Europe)
+    deprecated: 1
   - id: 63998
     kind: 3
     kind_id: 27966
@@ -105,6 +115,12 @@ releases:
     language: 1
     name: Blues Brothers, The (Europe)
     source: no-intro
+  - id: 265571
+    kind: 3
+    kind_id: 27966
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 27948

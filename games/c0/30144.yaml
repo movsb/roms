@@ -88,48 +88,6 @@ releases:
       blob_id: 66813
       debug: Snow Bros. (J) [p1].nes
 - release:
-    id: 21432
-    game_id: 30144
-    release_type: 2
-  names:
-  - id: 84378
-    kind: 3
-    kind_id: 21432
-    language: 1
-    name: Snow Bros. (U) [T+Rus0.2beta_Multisoft]
-  assets:
-  - asset:
-      id: 21414
-      kind: 3
-      kind_id: 21432
-      type: 1
-      name: Snow Bros. (U) [T+Rus0.2beta_Multisoft].nes
-      format: 1
-      size: 262160
-      blob_id: 66814
-      debug: Snow Bros. (U) [T+Rus0.2beta_Multisoft].nes
-- release:
-    id: 21433
-    game_id: 30144
-    release_type: 2
-  names:
-  - id: 47726
-    kind: 3
-    kind_id: 21433
-    language: 1
-    name: Snow Bros. (U) [T-Rus0.1beta_Multisoft]
-  assets:
-  - asset:
-      id: 21415
-      kind: 3
-      kind_id: 21433
-      type: 1
-      name: Snow Bros. (U) [T-Rus0.1beta_Multisoft].nes
-      format: 1
-      size: 262160
-      blob_id: 66815
-      debug: Snow Bros. (U) [T-Rus0.1beta_Multisoft].nes
-- release:
     id: 21434
     game_id: 30144
   names:
@@ -173,6 +131,7 @@ releases:
 - release:
     id: 21436
     game_id: 30144
+    release_type: 1
   names:
   - id: 47732
     kind: 3
@@ -186,6 +145,12 @@ releases:
     language: 1
     name: Snow Brothers (Europe)
     source: no-intro
+  - id: 264874
+    kind: 3
+    kind_id: 21436
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 21418
@@ -231,27 +196,6 @@ releases:
       size: 262160
       blob_id: 66819
       debug: Snow Brothers (J) [T+Chi_MS emumax].nes
-- release:
-    id: 21438
-    game_id: 30144
-    release_type: 2
-  names:
-  - id: 84380
-    kind: 3
-    kind_id: 21438
-    language: 1
-    name: Snow Brothers (U) [T+Spa_Djt]
-  assets:
-  - asset:
-      id: 21420
-      kind: 3
-      kind_id: 21438
-      type: 1
-      name: Snow Brothers (U) [T+Spa_Djt].nes
-      format: 1
-      size: 262160
-      blob_id: 66820
-      debug: Snow Brothers (U) [T+Spa_Djt].nes
 - release:
     id: 21444
     game_id: 30144
@@ -402,12 +346,14 @@ releases:
 - release:
     id: 30141
     game_id: 30144
+    release_type: 1
   names:
   - id: 71297
     kind: 3
     kind_id: 30141
     language: 2
     name: 雪人兄弟 (日版) (动作)-Snow Bros. (Japan)
+    deprecated: 1
   - id: 71298
     kind: 3
     kind_id: 30141
@@ -420,6 +366,12 @@ releases:
     language: 1
     name: Snow Bros. (Japan)
     source: no-intro
+  - id: 266244
+    kind: 3
+    kind_id: 30141
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 30123
@@ -447,18 +399,26 @@ releases:
 - release:
     id: 30142
     game_id: 30144
+    release_type: 1
   names:
   - id: 71300
     kind: 3
     kind_id: 30142
     language: 2
     name: 雪人兄弟 (欧版) (动作)-Snow Brothers (Europe)
+    deprecated: 1
   - id: 261324
     kind: 3
     kind_id: 30142
     language: 1
     name: Snow Brothers (Europe)
     source: no-intro
+  - id: 266245
+    kind: 3
+    kind_id: 30142
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 30124
@@ -486,12 +446,14 @@ releases:
 - release:
     id: 30143
     game_id: 30144
+    release_type: 1
   names:
   - id: 71303
     kind: 3
     kind_id: 30143
     language: 2
     name: 雪人兄弟 (美版) (动作)-Snow Brothers (USA)
+    deprecated: 1
   - id: 71304
     kind: 3
     kind_id: 30143
@@ -504,6 +466,12 @@ releases:
     language: 1
     name: Snow Brothers (USA)
     source: no-intro
+  - id: 266246
+    kind: 3
+    kind_id: 30143
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 30125

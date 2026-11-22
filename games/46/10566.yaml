@@ -23,6 +23,7 @@ releases:
 - release:
     id: 10558
     game_id: 10566
+    release_type: 1
   names:
   - id: 22890
     kind: 3
@@ -36,6 +37,12 @@ releases:
     language: 1
     name: Dragon Warrior II (USA)
     source: no-intro
+  - id: 264124
+    kind: 3
+    kind_id: 10558
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 10540
@@ -63,6 +70,7 @@ releases:
 - release:
     id: 10566
     game_id: 10566
+    release_type: 1
   names:
   - id: 22906
     kind: 3
@@ -75,12 +83,19 @@ releases:
     kind_id: 10566
     language: 2
     name: 勇者斗恶龙2
+    deprecated: 1
   - id: 258103
     kind: 3
     kind_id: 10566
     language: 1
     name: Dragon Warrior II (USA)
     source: no-intro
+  - id: 264127
+    kind: 3
+    kind_id: 10566
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 10548
@@ -103,24 +118,3 @@ releases:
       size: 10858
       blob_id: 322495
       debug: fc-title-trial:fceumm:rom-asset=10548:frame=2400
-- release:
-    id: 10567
-    game_id: 10566
-    release_type: 2
-  names:
-  - id: 82907
-    kind: 3
-    kind_id: 10567
-    language: 1
-    name: Dragon Warrior II (U) [T+Rus_Chief-Net]
-  assets:
-  - asset:
-      id: 10549
-      kind: 3
-      kind_id: 10567
-      type: 1
-      name: Dragon Warrior II (U) [T+Rus_Chief-Net].nes
-      format: 1
-      size: 262160
-      blob_id: 56575
-      debug: Dragon Warrior II (U) [T+Rus_Chief-Net].nes

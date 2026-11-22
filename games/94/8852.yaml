@@ -16,6 +16,7 @@ releases:
 - release:
     id: 8852
     game_id: 8852
+    release_type: 1
   names:
   - id: 18810
     kind: 3
@@ -28,12 +29,19 @@ releases:
     kind_id: 8852
     language: 2
     name: 冰雪悬念
+    deprecated: 1
   - id: 257913
     kind: 3
     kind_id: 8852
     language: 1
     name: Cliffhanger (USA)
     source: no-intro
+  - id: 264005
+    kind: 3
+    kind_id: 8852
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 8834
@@ -61,27 +69,6 @@ releases:
       size: 3342
       blob_id: 323815
       debug: fc-title-trial:fceumm:rom-asset=8834:frame=1200
-- release:
-    id: 8853
-    game_id: 8852
-    release_type: 2
-  names:
-  - id: 82577
-    kind: 3
-    kind_id: 8853
-    language: 1
-    name: Cliffhanger (U) [T+Rus_magic team]
-  assets:
-  - asset:
-      id: 8835
-      kind: 3
-      kind_id: 8853
-      type: 1
-      name: Cliffhanger (U) [T+Rus_magic team].nes
-      format: 1
-      size: 262160
-      blob_id: 54971
-      debug: Cliffhanger (U) [T+Rus_magic team].nes
 - release:
     id: 8856
     game_id: 8852
@@ -126,6 +113,7 @@ releases:
 - release:
     id: 8858
     game_id: 8852
+    release_type: 1
   names:
   - id: 18824
     kind: 3
@@ -139,6 +127,12 @@ releases:
     language: 1
     name: Cliffhanger (USA)
     source: no-intro
+  - id: 264006
+    kind: 3
+    kind_id: 8858
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 8840

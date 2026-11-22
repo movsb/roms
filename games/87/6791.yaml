@@ -21,6 +21,7 @@ releases:
 - release:
     id: 6791
     game_id: 6791
+    release_type: 1
   names:
   - id: 14178
     kind: 3
@@ -34,6 +35,12 @@ releases:
     language: 1
     name: Battle of Olympus, The (Europe)
     source: no-intro
+  - id: 263909
+    kind: 3
+    kind_id: 6791
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 6773
@@ -59,29 +66,9 @@ releases:
       blob_id: 322369
       debug: fc-title-trial:fceumm:rom-asset=6773:frame=900
 - release:
-    id: 6792
-    game_id: 6791
-    release_type: 2
-  names:
-  - id: 82324
-    kind: 3
-    kind_id: 6792
-    language: 1
-    name: Battle of Olympus, The (E) [T+Fre_Lyssal]
-  assets:
-  - asset:
-      id: 6774
-      kind: 3
-      kind_id: 6792
-      type: 1
-      name: Battle of Olympus, The (E) [T+Fre_Lyssal].nes
-      format: 1
-      size: 131088
-      blob_id: 53016
-      debug: Battle of Olympus, The (E) [T+Fre_Lyssal].nes
-- release:
     id: 6793
     game_id: 6791
+    release_type: 1
   names:
   - id: 14184
     kind: 3
@@ -106,12 +93,19 @@ releases:
     kind_id: 6793
     language: 2
     name: 奥利匹斯之战
+    deprecated: 1
   - id: 257751
     kind: 3
     kind_id: 6793
     language: 1
     name: Battle of Olympus, The (USA)
     source: no-intro
+  - id: 263910
+    kind: 3
+    kind_id: 6793
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 6775

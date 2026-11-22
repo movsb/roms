@@ -46,6 +46,7 @@ releases:
 - release:
     id: 25108
     game_id: 25106
+    release_type: 1
   names:
   - id: 56112
     kind: 3
@@ -64,17 +65,25 @@ releases:
     kind_id: 25108
     language: 2
     name: 奥运会1
+    deprecated: 1
   - id: 70091
     kind: 3
     kind_id: 25108
     language: 2
     name: 超级奥林匹克运动会 (美版) (运动)-Track &amp; Field (USA)
+    deprecated: 1
   - id: 259697
     kind: 3
     kind_id: 25108
     language: 1
     name: Track & Field (USA)
     source: no-intro
+  - id: 265042
+    kind: 3
+    kind_id: 25108
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 25090
@@ -102,27 +111,6 @@ releases:
       size: 3478
       blob_id: 323069
       debug: fc-title-trial:fceumm:rom-asset=25090:frame=600
-- release:
-    id: 25109
-    game_id: 25106
-    release_type: 2
-  names:
-  - id: 84857
-    kind: 3
-    kind_id: 25109
-    language: 1
-    name: Track & Field (U) [T+Bra100%_BRGames]
-  assets:
-  - asset:
-      id: 25091
-      kind: 3
-      kind_id: 25109
-      type: 1
-      name: Track & Field (U) [T+Bra100%_BRGames].nes
-      format: 1
-      size: 65552
-      blob_id: 70332
-      debug: Track & Field (U) [T+Bra100%_BRGames].nes
 - release:
     id: 25112
     game_id: 25106

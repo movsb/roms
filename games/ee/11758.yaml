@@ -21,6 +21,7 @@ releases:
 - release:
     id: 11758
     game_id: 11758
+    release_type: 1
   names:
   - id: 25764
     kind: 3
@@ -39,12 +40,19 @@ releases:
     kind_id: 11758
     language: 2
     name: 北斗神拳 II (美版) (动作)-Fist of the North Star (USA)
+    deprecated: 1
   - id: 258245
     kind: 3
     kind_id: 11758
     language: 1
     name: Fist of the North Star (USA)
     source: no-intro
+  - id: 264203
+    kind: 3
+    kind_id: 11758
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 11740
@@ -71,66 +79,3 @@ releases:
       size: 4122
       blob_id: 322551
       debug: fc-title-trial:fceumm:rom-asset=11740:frame=180
-- release:
-    id: 11759
-    game_id: 11758
-    release_type: 2
-  names:
-  - id: 83113
-    kind: 3
-    kind_id: 11759
-    language: 1
-    name: Fist of the North Star (U) [T+Fre]
-  assets:
-  - asset:
-      id: 11741
-      kind: 3
-      kind_id: 11759
-      type: 1
-      name: Fist of the North Star (U) [T+Fre].nes
-      format: 1
-      size: 131088
-      blob_id: 57704
-      debug: Fist of the North Star (U) [T+Fre].nes
-- release:
-    id: 11760
-    game_id: 11758
-    release_type: 2
-  names:
-  - id: 83114
-    kind: 3
-    kind_id: 11760
-    language: 1
-    name: Fist of the North Star (U) [T+Rus_Cool-Spot]
-  assets:
-  - asset:
-      id: 11742
-      kind: 3
-      kind_id: 11760
-      type: 1
-      name: Fist of the North Star (U) [T+Rus_Cool-Spot].nes
-      format: 1
-      size: 131088
-      blob_id: 57705
-      debug: Fist of the North Star (U) [T+Rus_Cool-Spot].nes
-- release:
-    id: 11761
-    game_id: 11758
-    release_type: 2
-  names:
-  - id: 83115
-    kind: 3
-    kind_id: 11761
-    language: 1
-    name: Fist of the North Star (U) [T+Rus_Cool-Spot][a1]
-  assets:
-  - asset:
-      id: 11743
-      kind: 3
-      kind_id: 11761
-      type: 1
-      name: Fist of the North Star (U) [T+Rus_Cool-Spot][a1].nes
-      format: 1
-      size: 131088
-      blob_id: 57706
-      debug: Fist of the North Star (U) [T+Rus_Cool-Spot][a1].nes

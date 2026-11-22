@@ -142,6 +142,7 @@ releases:
 - release:
     id: 25218
     game_id: 14905
+    release_type: 1
   names:
   - id: 56356
     kind: 3
@@ -161,6 +162,12 @@ releases:
     language: 1
     name: Twin Cobra (USA)
     source: no-intro
+  - id: 265055
+    kind: 3
+    kind_id: 25218
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 25200
@@ -188,35 +195,16 @@ releases:
       blob_id: 323075
       debug: fc-title-trial:fceumm:rom-asset=25200:frame=600
 - release:
-    id: 25220
-    game_id: 14905
-    release_type: 2
-  names:
-  - id: 84869
-    kind: 3
-    kind_id: 25220
-    language: 1
-    name: Twin Cobra (U) [T+Rus_greengh0st]
-  assets:
-  - asset:
-      id: 25202
-      kind: 3
-      kind_id: 25220
-      type: 1
-      name: Twin Cobra (U) [T+Rus_greengh0st].nes
-      format: 1
-      size: 262160
-      blob_id: 70432
-      debug: Twin Cobra (U) [T+Rus_greengh0st].nes
-- release:
     id: 29293
     game_id: 14905
+    release_type: 1
   names:
   - id: 68435
     kind: 3
     kind_id: 29293
     language: 2
     name: 究极虎 (日版) (射击)-Kyuukyoku Tiger (Japan)
+    deprecated: 1
   - id: 68436
     kind: 3
     kind_id: 29293
@@ -229,6 +217,12 @@ releases:
     language: 1
     name: Kyuukyoku Tiger (Japan)
     source: no-intro
+  - id: 265985
+    kind: 3
+    kind_id: 29293
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 29275
@@ -256,18 +250,26 @@ releases:
 - release:
     id: 29294
     game_id: 14905
+    release_type: 1
   names:
   - id: 68438
     kind: 3
     kind_id: 29294
     language: 2
     name: 究极虎
+    deprecated: 1
   - id: 260996
     kind: 3
     kind_id: 29294
     language: 1
     name: Kyuukyoku Tiger (Japan)
     source: no-intro
+  - id: 265986
+    kind: 3
+    kind_id: 29294
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 29276

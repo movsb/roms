@@ -85,48 +85,6 @@ releases:
       blob_id: 324770
       debug: libretro-named-titles:rom-asset=6598:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Batman%20III%20%28Asia%29%20%28En%29%20%28Pirate%29.png
 - release:
-    id: 6617
-    game_id: 6644
-    release_type: 2
-  names:
-  - id: 82284
-    kind: 3
-    kind_id: 6617
-    language: 1
-    name: Batman III [p1][T+Por95%_Evil Darkness]
-  assets:
-  - asset:
-      id: 6599
-      kind: 3
-      kind_id: 6617
-      type: 1
-      name: Batman III [p1][T+Por95%_Evil Darkness].nes
-      format: 1
-      size: 393232
-      blob_id: 52846
-      debug: Batman III [p1][T+Por95%_Evil Darkness].nes
-- release:
-    id: 6618
-    game_id: 6644
-    release_type: 2
-  names:
-  - id: 82285
-    kind: 3
-    kind_id: 6618
-    language: 1
-    name: Batman III [p1][T+Rus_Shedevr]
-  assets:
-  - asset:
-      id: 6600
-      kind: 3
-      kind_id: 6618
-      type: 1
-      name: Batman III [p1][T+Rus_Shedevr].nes
-      format: 1
-      size: 393232
-      blob_id: 52847
-      debug: Batman III [p1][T+Rus_Shedevr].nes
-- release:
     id: 6623
     game_id: 6644
   names:
@@ -149,6 +107,7 @@ releases:
 - release:
     id: 6624
     game_id: 6644
+    release_type: 1
   names:
   - id: 13768
     kind: 3
@@ -167,12 +126,19 @@ releases:
     kind_id: 6624
     language: 2
     name: "蝙蝠侠 III - 大显神威 (美版) (动作)-Batman Returns (USA)"
+    deprecated: 1
   - id: 257737
     kind: 3
     kind_id: 6624
     language: 1
     name: Batman Returns (USA)
     source: no-intro
+  - id: 263903
+    kind: 3
+    kind_id: 6624
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 6606
@@ -195,48 +161,6 @@ releases:
       size: 3246
       blob_id: 322365
       debug: fc-title-trial:fceumm:rom-asset=6606:frame=900
-- release:
-    id: 6625
-    game_id: 6644
-    release_type: 2
-  names:
-  - id: 82286
-    kind: 3
-    kind_id: 6625
-    language: 1
-    name: Batman Returns (U) [T+Bra_Tradu-GameX]
-  assets:
-  - asset:
-      id: 6607
-      kind: 3
-      kind_id: 6625
-      type: 1
-      name: Batman Returns (U) [T+Bra_Tradu-GameX].nes
-      format: 1
-      size: 393232
-      blob_id: 52854
-      debug: Batman Returns (U) [T+Bra_Tradu-GameX].nes
-- release:
-    id: 6626
-    game_id: 6644
-    release_type: 2
-  names:
-  - id: 82287
-    kind: 3
-    kind_id: 6626
-    language: 1
-    name: Batman Returns (U) [T+Spa_Dark-N]
-  assets:
-  - asset:
-      id: 6608
-      kind: 3
-      kind_id: 6626
-      type: 1
-      name: Batman Returns (U) [T+Spa_Dark-N].nes
-      format: 1
-      size: 393232
-      blob_id: 52855
-      debug: Batman Returns (U) [T+Spa_Dark-N].nes
 - release:
     id: 6630
     game_id: 6644
@@ -350,27 +274,6 @@ releases:
       blob_id: 52863
       debug: Batman Returns (U) [t3].nes
 - release:
-    id: 6635
-    game_id: 6644
-    release_type: 2
-  names:
-  - id: 82288
-    kind: 3
-    kind_id: 6635
-    language: 1
-    name: Batman Returns (U) [t3][T+Rus_Multisoft]
-  assets:
-  - asset:
-      id: 6617
-      kind: 3
-      kind_id: 6635
-      type: 1
-      name: Batman Returns (U) [t3][T+Rus_Multisoft].nes
-      format: 1
-      size: 393232
-      blob_id: 52864
-      debug: Batman Returns (U) [t3][T+Rus_Multisoft].nes
-- release:
     id: 6636
     game_id: 6644
     release_type: 3
@@ -454,12 +357,14 @@ releases:
 - release:
     id: 29629
     game_id: 6644
+    release_type: 1
   names:
   - id: 69591
     kind: 3
     kind_id: 29629
     language: 2
     name: "蝙蝠侠 III - 大显神威 (欧版) (动作)-Batman Returns (Europe)"
+    deprecated: 1
   - id: 69592
     kind: 3
     kind_id: 29629
@@ -472,6 +377,12 @@ releases:
     language: 1
     name: Batman Returns (Europe)
     source: no-intro
+  - id: 266099
+    kind: 3
+    kind_id: 29629
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 29611

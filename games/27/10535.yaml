@@ -150,6 +150,7 @@ releases:
 - release:
     id: 10537
     game_id: 10535
+    release_type: 1
   names:
   - id: 22824
     kind: 3
@@ -162,6 +163,7 @@ releases:
     kind_id: 10537
     language: 2
     name: 勇者斗恶龙 (美版) (角色扮演)-Dragon Warrior (USA)
+    deprecated: 1
   - id: 61442
     kind: 3
     kind_id: 10537
@@ -174,6 +176,12 @@ releases:
     language: 1
     name: Dragon Warrior (USA)
     source: no-intro
+  - id: 264122
+    kind: 3
+    kind_id: 10537
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 10519
@@ -200,176 +208,9 @@ releases:
       blob_id: 324821
       debug: libretro-named-titles:rom-asset=10519:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Dragon%20Warrior%20%28USA%29.png
 - release:
-    id: 10538
-    game_id: 10535
-    release_type: 2
-  names:
-  - id: 82895
-    kind: 3
-    kind_id: 10538
-    language: 1
-    name: Dragon Warrior (U) (PRG0) [T+FreBeta_Generation IX]
-  assets:
-  - asset:
-      id: 10520
-      kind: 3
-      kind_id: 10538
-      type: 1
-      name: Dragon Warrior (U) (PRG0) [T+FreBeta_Generation IX].nes
-      format: 1
-      size: 81936
-      blob_id: 56546
-      debug: Dragon Warrior (U) (PRG0) [T+FreBeta_Generation IX].nes
-- release:
-    id: 10539
-    game_id: 10535
-    release_type: 2
-  names:
-  - id: 82896
-    kind: 3
-    kind_id: 10539
-    language: 1
-    name: Dragon Warrior (U) (PRG0) [T+Fre]
-  assets:
-  - asset:
-      id: 10521
-      kind: 3
-      kind_id: 10539
-      type: 1
-      name: Dragon Warrior (U) (PRG0) [T+Fre].nes
-      format: 1
-      size: 81936
-      blob_id: 56547
-      debug: Dragon Warrior (U) (PRG0) [T+Fre].nes
-- release:
-    id: 10540
-    game_id: 10535
-    release_type: 2
-  names:
-  - id: 82897
-    kind: 3
-    kind_id: 10540
-    language: 1
-    name: Dragon Warrior (U) (PRG0) [T+Ger0.95_alemanic]
-  assets:
-  - asset:
-      id: 10522
-      kind: 3
-      kind_id: 10540
-      type: 1
-      name: Dragon Warrior (U) (PRG0) [T+Ger0.95_alemanic].nes
-      format: 1
-      size: 81936
-      blob_id: 56548
-      debug: Dragon Warrior (U) (PRG0) [T+Ger0.95_alemanic].nes
-- release:
-    id: 10542
-    game_id: 10535
-    release_type: 2
-  names:
-  - id: 82899
-    kind: 3
-    kind_id: 10542
-    language: 1
-    name: Dragon Warrior (U) (PRG0) [T+Ger1.00_TranX]
-  assets:
-  - asset:
-      id: 10524
-      kind: 3
-      kind_id: 10542
-      type: 1
-      name: Dragon Warrior (U) (PRG0) [T+Ger1.00_TranX].nes
-      format: 1
-      size: 81936
-      blob_id: 56550
-      debug: Dragon Warrior (U) (PRG0) [T+Ger1.00_TranX].nes
-- release:
-    id: 10543
-    game_id: 10535
-    release_type: 2
-  names:
-  - id: 82900
-    kind: 3
-    kind_id: 10543
-    language: 1
-    name: Dragon Warrior (U) (PRG0) [T+Ita1.0f_Jegriva]
-  assets:
-  - asset:
-      id: 10525
-      kind: 3
-      kind_id: 10543
-      type: 1
-      name: Dragon Warrior (U) (PRG0) [T+Ita1.0f_Jegriva].nes
-      format: 1
-      size: 81936
-      blob_id: 56551
-      debug: Dragon Warrior (U) (PRG0) [T+Ita1.0f_Jegriva].nes
-- release:
-    id: 10544
-    game_id: 10535
-    release_type: 2
-  names:
-  - id: 82901
-    kind: 3
-    kind_id: 10544
-    language: 1
-    name: Dragon Warrior (U) (PRG0) [T+Por1.1_CBT]
-  assets:
-  - asset:
-      id: 10526
-      kind: 3
-      kind_id: 10544
-      type: 1
-      name: Dragon Warrior (U) (PRG0) [T+Por1.1_CBT].nes
-      format: 1
-      size: 81936
-      blob_id: 56552
-      debug: Dragon Warrior (U) (PRG0) [T+Por1.1_CBT].nes
-- release:
-    id: 10546
-    game_id: 10535
-    release_type: 2
-  names:
-  - id: 82903
-    kind: 3
-    kind_id: 10546
-    language: 1
-    name: Dragon Warrior (U) (PRG0) [T+Swe1.0_General CoolNES]
-  assets:
-  - asset:
-      id: 10528
-      kind: 3
-      kind_id: 10546
-      type: 1
-      name: Dragon Warrior (U) (PRG0) [T+Swe1.0_General CoolNES].nes
-      format: 1
-      size: 81936
-      blob_id: 56554
-      debug: Dragon Warrior (U) (PRG0) [T+Swe1.0_General CoolNES].nes
-- release:
-    id: 10547
-    game_id: 10535
-    release_type: 2
-  names:
-  - id: 22862
-    kind: 3
-    kind_id: 10547
-    language: 1
-    name: Dragon Warrior (U) (PRG0) [T-Ger3%_alemanic]
-  assets:
-  - asset:
-      id: 10529
-      kind: 3
-      kind_id: 10547
-      type: 1
-      name: Dragon Warrior (U) (PRG0) [T-Ger3%_alemanic].nes
-      format: 1
-      size: 81936
-      blob_id: 56555
-      debug: Dragon Warrior (U) (PRG0) [T-Ger3%_alemanic].nes
-- release:
     id: 10554
     game_id: 10535
+    release_type: 1
   names:
   - id: 22876
     kind: 3
@@ -382,12 +223,19 @@ releases:
     kind_id: 10554
     language: 2
     name: 勇者斗恶龙 (美版)(Rev A) (角色扮演)-Dragon Warrior (USA) (Rev A)
+    deprecated: 1
   - id: 258099
     kind: 3
     kind_id: 10554
     language: 1
     name: Dragon Warrior (USA) (Rev 1)
     source: no-intro
+  - id: 264123
+    kind: 3
+    kind_id: 10554
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 10536
@@ -413,48 +261,6 @@ releases:
       size: 3194
       blob_id: 322494
       debug: fc-title-trial:fceumm:rom-asset=10536:frame=1200
-- release:
-    id: 10555
-    game_id: 10535
-    release_type: 2
-  names:
-  - id: 82904
-    kind: 3
-    kind_id: 10555
-    language: 1
-    name: Dragon Warrior (U) (PRG1) [T+Rus1.0_Chief-Net]
-  assets:
-  - asset:
-      id: 10537
-      kind: 3
-      kind_id: 10555
-      type: 1
-      name: Dragon Warrior (U) (PRG1) [T+Rus1.0_Chief-Net].nes
-      format: 1
-      size: 81936
-      blob_id: 56563
-      debug: Dragon Warrior (U) (PRG1) [T+Rus1.0_Chief-Net].nes
-- release:
-    id: 10556
-    game_id: 10535
-    release_type: 2
-  names:
-  - id: 82905
-    kind: 3
-    kind_id: 10556
-    language: 1
-    name: Dragon Warrior (U) (PRG1) [T+Rus_MJOLNIR Vlad]
-  assets:
-  - asset:
-      id: 10538
-      kind: 3
-      kind_id: 10556
-      type: 1
-      name: Dragon Warrior (U) (PRG1) [T+Rus_MJOLNIR Vlad].nes
-      format: 1
-      size: 81936
-      blob_id: 56564
-      debug: Dragon Warrior (U) (PRG1) [T+Rus_MJOLNIR Vlad].nes
 - release:
     id: 10563
     game_id: 10535

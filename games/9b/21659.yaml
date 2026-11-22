@@ -30,27 +30,6 @@ names:
   source: codex
 releases:
 - release:
-    id: 21659
-    game_id: 21659
-    release_type: 2
-  names:
-  - id: 84400
-    kind: 3
-    kind_id: 21659
-    language: 1
-    name: Space Invaders (J) [T+Rus_Lex3a]
-  assets:
-  - asset:
-      id: 21641
-      kind: 3
-      kind_id: 21659
-      type: 1
-      name: Space Invaders (J) [T+Rus_Lex3a].nes
-      format: 1
-      size: 24592
-      blob_id: 67032
-      debug: Space Invaders (J) [T+Rus_Lex3a].nes
-- release:
     id: 21662
     game_id: 21659
   names:
@@ -74,6 +53,7 @@ releases:
     id: 21664
     game_id: 21659
     release_date: 19850417
+    release_type: 1
   names:
   - id: 48232
     kind: 3
@@ -85,6 +65,7 @@ releases:
     kind_id: 21664
     language: 2
     name: 太空侵略者 (日版) (射击)-Space Invaders (Japan)
+    deprecated: 1
   - id: 63078
     kind: 3
     kind_id: 21664
@@ -97,6 +78,12 @@ releases:
     language: 1
     name: Space Invaders (Japan)
     source: no-intro
+  - id: 264884
+    kind: 3
+    kind_id: 21664
+    language: 2
+    name: 日版
+    source: codex
   release_publishers:
   - release_id: 21664
     publisher_id: 112

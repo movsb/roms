@@ -34,6 +34,7 @@ releases:
 - release:
     id: 24296
     game_id: 24296
+    release_type: 1
   names:
   - id: 54172
     kind: 3
@@ -52,12 +53,19 @@ releases:
     kind_id: 24296
     language: 2
     name: "激斗摔角 - 斗魂传说 (美版) (运动)-Tecmo World Wrestling (USA)"
+    deprecated: 1
   - id: 259606
     kind: 3
     kind_id: 24296
     language: 1
     name: Tecmo World Wrestling (USA)
     source: no-intro
+  - id: 264986
+    kind: 3
+    kind_id: 24296
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 24278
@@ -83,12 +91,14 @@ releases:
 - release:
     id: 28920
     game_id: 24296
+    release_type: 1
   names:
   - id: 67189
     kind: 3
     kind_id: 28920
     language: 2
     name: "激斗摔角 - 斗魂传说 (欧版) (运动)-Tecmo World Wrestling (Europe)"
+    deprecated: 1
   - id: 67190
     kind: 3
     kind_id: 28920
@@ -101,6 +111,12 @@ releases:
     language: 1
     name: Tecmo World Wrestling (Europe)
     source: no-intro
+  - id: 265873
+    kind: 3
+    kind_id: 28920
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 28902

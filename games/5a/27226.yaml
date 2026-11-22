@@ -52,27 +52,6 @@ releases:
       blob_id: 59110
       debug: "Hokuto no Ken 2 - Seikimatsu Kyuuseishu Densetsu (J) [T+Eng0.50_Extreme_Fun].nes"
 - release:
-    id: 13245
-    game_id: 27226
-    release_type: 2
-  names:
-  - id: 83298
-    kind: 3
-    kind_id: 13245
-    language: 1
-    name: "Hokuto no Ken 2 - Seikimatsu Kyuuseishu Densetsu (J) [T+RusPreAlpha_Cool-Spot]"
-  assets:
-  - asset:
-      id: 13227
-      kind: 3
-      kind_id: 13245
-      type: 1
-      name: "Hokuto no Ken 2 - Seikimatsu Kyuuseishu Densetsu (J) [T+RusPreAlpha_Cool-Spot].nes"
-      format: 1
-      size: 131088
-      blob_id: 59111
-      debug: "Hokuto no Ken 2 - Seikimatsu Kyuuseishu Densetsu (J) [T+RusPreAlpha_Cool-Spot].nes"
-- release:
     id: 13252
     game_id: 27226
   names:
@@ -116,12 +95,14 @@ releases:
 - release:
     id: 27226
     game_id: 27226
+    release_type: 1
   names:
   - id: 61527
     kind: 3
     kind_id: 27226
     language: 2
     name: "北斗神拳 II (日版) (动作)-Hokuto no Ken 2 - Seikimatsu Kyuuseishu Densetsu (Japan)"
+    deprecated: 1
   - id: 61528
     kind: 3
     kind_id: 27226
@@ -134,6 +115,12 @@ releases:
     language: 1
     name: Hokuto no Ken 2 (Japan)
     source: no-intro
+  - id: 265348
+    kind: 3
+    kind_id: 27226
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 27208

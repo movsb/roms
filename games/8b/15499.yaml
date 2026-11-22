@@ -58,6 +58,7 @@ releases:
     id: 15499
     game_id: 15499
     release_date: 19861218
+    release_type: 1
   names:
   - id: 34418
     kind: 3
@@ -69,6 +70,7 @@ releases:
     kind_id: 15499
     language: 2
     name: 玛多拉之翼 (日版) (动作)-Wing of Madoola, The (Japan)
+    deprecated: 1
   - id: 67860
     kind: 3
     kind_id: 15499
@@ -81,6 +83,12 @@ releases:
     language: 1
     name: Madoola no Tsubasa (Japan)
     source: no-intro
+  - id: 264493
+    kind: 3
+    kind_id: 15499
+    language: 2
+    name: 日版
+    source: codex
   release_publishers:
   - release_id: 15499
     publisher_id: 124
@@ -109,27 +117,6 @@ releases:
       size: 1413
       blob_id: 324059
       debug: libretro-named-titles:rom-asset=15481:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Madoola%20no%20Tsubasa%20%28Japan%29.png
-- release:
-    id: 25977
-    game_id: 15499
-    release_type: 2
-  names:
-  - id: 84967
-    kind: 3
-    kind_id: 25977
-    language: 1
-    name: Wing of Madoola, The (J) [T+Fre_KS151]
-  assets:
-  - asset:
-      id: 25959
-      kind: 3
-      kind_id: 25977
-      type: 1
-      name: Wing of Madoola, The (J) [T+Fre_KS151].nes
-      format: 1
-      size: 65552
-      blob_id: 71135
-      debug: Wing of Madoola, The (J) [T+Fre_KS151].nes
 - release:
     id: 25981
     game_id: 15499

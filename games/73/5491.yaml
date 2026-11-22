@@ -112,6 +112,7 @@ releases:
 - release:
     id: 5494
     game_id: 5491
+    release_type: 1
   names:
   - id: 11242
     kind: 3
@@ -130,11 +131,13 @@ releases:
     kind_id: 5494
     language: 2
     name: 罗罗大冒险2
+    deprecated: 1
   - id: 69527
     kind: 3
     kind_id: 5494
     language: 2
     name: 蛋王子大冒险 II (美版) (益智)-Adventures of Lolo 2 (USA)
+    deprecated: 1
   - id: 69528
     kind: 3
     kind_id: 5494
@@ -147,6 +150,12 @@ releases:
     language: 1
     name: Adventures of Lolo 2 (USA)
     source: no-intro
+  - id: 263815
+    kind: 3
+    kind_id: 5494
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 5476
@@ -175,35 +184,16 @@ releases:
       blob_id: 324751
       debug: libretro-named-titles:rom-asset=5476:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Adventures%20of%20Lolo%202%20%28USA%29.png
 - release:
-    id: 5495
-    game_id: 5491
-    release_type: 2
-  names:
-  - id: 82154
-    kind: 3
-    kind_id: 5495
-    language: 1
-    name: Adventures of Lolo 2 (U) [T+Fre]
-  assets:
-  - asset:
-      id: 5477
-      kind: 3
-      kind_id: 5495
-      type: 1
-      name: Adventures of Lolo 2 (U) [T+Fre].nes
-      format: 1
-      size: 65552
-      blob_id: 51786
-      debug: Adventures of Lolo 2 (U) [T+Fre].nes
-- release:
     id: 29611
     game_id: 5491
+    release_type: 1
   names:
   - id: 69523
     kind: 3
     kind_id: 29611
     language: 2
     name: 蛋王子大冒险 II (欧版) (益智)-Adventures of Lolo 2 (Europe)
+    deprecated: 1
   - id: 69524
     kind: 3
     kind_id: 29611
@@ -216,6 +206,12 @@ releases:
     language: 1
     name: Adventures of Lolo 2 (Europe)
     source: no-intro
+  - id: 266090
+    kind: 3
+    kind_id: 29611
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 29593

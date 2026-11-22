@@ -27,6 +27,7 @@ releases:
 - release:
     id: 8123
     game_id: 8123
+    release_type: 1
   names:
   - id: 17086
     kind: 3
@@ -45,12 +46,19 @@ releases:
     kind_id: 8123
     language: 2
     name: 城堡猪 (美版) (动作)-Castelian (USA)
+    deprecated: 1
   - id: 257854
     kind: 3
     kind_id: 8123
     language: 1
     name: Castelian (USA)
     source: no-intro
+  - id: 263971
+    kind: 3
+    kind_id: 8123
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 8105
@@ -101,12 +109,14 @@ releases:
 - release:
     id: 27548
     game_id: 8123
+    release_type: 1
   names:
   - id: 62603
     kind: 3
     kind_id: 27548
     language: 2
     name: 城堡猪 (欧版) (动作)-Castelian (Europe)
+    deprecated: 1
   - id: 62604
     kind: 3
     kind_id: 27548
@@ -119,6 +129,12 @@ releases:
     language: 1
     name: Castelian (Europe)
     source: no-intro
+  - id: 265442
+    kind: 3
+    kind_id: 27548
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 27530

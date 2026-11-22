@@ -39,6 +39,7 @@ releases:
 - release:
     id: 12313
     game_id: 12313
+    release_type: 1
   names:
   - id: 27028
     kind: 3
@@ -51,17 +52,25 @@ releases:
     kind_id: 12313
     language: 2
     name: 魔界村 (美版) (动作)-Ghostsn Goblins (USA)
+    deprecated: 1
   - id: 71968
     kind: 3
     kind_id: 12313
     language: 2
     name: 魔界村
+    deprecated: 1
   - id: 258316
     kind: 3
     kind_id: 12313
     language: 1
     name: Ghosts'n Goblins (USA)
     source: no-intro
+  - id: 264252
+    kind: 3
+    kind_id: 12313
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 12295
@@ -110,50 +119,9 @@ releases:
       blob_id: 58219
       debug: Ghosts 'N Goblins (U) [T+Chi_c107].nes
 - release:
-    id: 12315
-    game_id: 12313
-    release_type: 2
-  names:
-  - id: 83191
-    kind: 3
-    kind_id: 12315
-    language: 1
-    name: Ghosts 'N Goblins (U) [T+Fre]
-  assets:
-  - asset:
-      id: 12297
-      kind: 3
-      kind_id: 12315
-      type: 1
-      name: Ghosts 'N Goblins (U) [T+Fre].nes
-      format: 1
-      size: 131088
-      blob_id: 58220
-      debug: Ghosts 'N Goblins (U) [T+Fre].nes
-- release:
-    id: 12316
-    game_id: 12313
-    release_type: 2
-  names:
-  - id: 83192
-    kind: 3
-    kind_id: 12316
-    language: 1
-    name: Ghosts 'N Goblins (U) [T+Spa_Tanero]
-  assets:
-  - asset:
-      id: 12298
-      kind: 3
-      kind_id: 12316
-      type: 1
-      name: Ghosts 'N Goblins (U) [T+Spa_Tanero].nes
-      format: 1
-      size: 131088
-      blob_id: 58221
-      debug: Ghosts 'N Goblins (U) [T+Spa_Tanero].nes
-- release:
     id: 12319
     game_id: 12313
+    release_type: 1
   names:
   - id: 27046
     kind: 3
@@ -173,6 +141,12 @@ releases:
     language: 1
     name: Ghosts'n Goblins (USA)
     source: no-intro
+  - id: 264253
+    kind: 3
+    kind_id: 12319
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 12301
@@ -284,12 +258,14 @@ releases:
 - release:
     id: 30340
     game_id: 12313
+    release_type: 1
   names:
   - id: 71957
     kind: 3
     kind_id: 30340
     language: 2
     name: 魔界村 (日版) (动作)-Makai-Mura (Japan)
+    deprecated: 1
   - id: 71958
     kind: 3
     kind_id: 30340
@@ -302,6 +278,12 @@ releases:
     language: 1
     name: Makaimura (Japan) (En)
     source: no-intro
+  - id: 266311
+    kind: 3
+    kind_id: 30340
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 30322
@@ -329,12 +311,14 @@ releases:
 - release:
     id: 30341
     game_id: 12313
+    release_type: 1
   names:
   - id: 71961
     kind: 3
     kind_id: 30341
     language: 2
     name: 魔界村 (欧版) (动作)-Ghostn Goblins (Europe)
+    deprecated: 1
   - id: 71962
     kind: 3
     kind_id: 30341
@@ -347,6 +331,12 @@ releases:
     language: 1
     name: Ghost'n Goblins (Europe)
     source: no-intro
+  - id: 266312
+    kind: 3
+    kind_id: 30341
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 30323

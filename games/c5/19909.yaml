@@ -239,6 +239,7 @@ releases:
 - release:
     id: 19909
     game_id: 19909
+    release_type: 1
   names:
   - id: 44302
     kind: 3
@@ -257,12 +258,19 @@ releases:
     kind_id: 19909
     language: 2
     name: 热血物语 (美版) (动作)-River City Ransom (USA)
+    deprecated: 1
   - id: 259175
     kind: 3
     kind_id: 19909
     language: 1
     name: River City Ransom (USA)
     source: no-intro
+  - id: 264758
+    kind: 3
+    kind_id: 19909
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 19891
@@ -289,174 +297,6 @@ releases:
       size: 3199
       blob_id: 322892
       debug: fc-title-trial:fceumm:rom-asset=19891:frame=2100
-- release:
-    id: 19910
-    game_id: 19909
-    release_type: 2
-  names:
-  - id: 84206
-    kind: 3
-    kind_id: 19910
-    language: 1
-    name: River City Ransom (U) [T+Fre1.00GoldEdition_Jean-Jacques Goldman]
-  assets:
-  - asset:
-      id: 19892
-      kind: 3
-      kind_id: 19910
-      type: 1
-      name: River City Ransom (U) [T+Fre1.00GoldEdition_Jean-Jacques Goldman].nes
-      format: 1
-      size: 262160
-      blob_id: 65373
-      debug: River City Ransom (U) [T+Fre1.00GoldEdition_Jean-Jacques Goldman].nes
-- release:
-    id: 19911
-    game_id: 19909
-    release_type: 2
-  names:
-  - id: 84207
-    kind: 3
-    kind_id: 19911
-    language: 1
-    name: River City Ransom (U) [T+Fre]
-  assets:
-  - asset:
-      id: 19893
-      kind: 3
-      kind_id: 19911
-      type: 1
-      name: River City Ransom (U) [T+Fre].nes
-      format: 1
-      size: 262160
-      blob_id: 65374
-      debug: River City Ransom (U) [T+Fre].nes
-- release:
-    id: 19912
-    game_id: 19909
-    release_type: 2
-  names:
-  - id: 84208
-    kind: 3
-    kind_id: 19912
-    language: 1
-    name: River City Ransom (U) [T+Ger1.00_StarTrans]
-  assets:
-  - asset:
-      id: 19894
-      kind: 3
-      kind_id: 19912
-      type: 1
-      name: River City Ransom (U) [T+Ger1.00_StarTrans].nes
-      format: 1
-      size: 262160
-      blob_id: 65375
-      debug: River City Ransom (U) [T+Ger1.00_StarTrans].nes
-- release:
-    id: 19913
-    game_id: 19909
-    release_type: 2
-  names:
-  - id: 84209
-    kind: 3
-    kind_id: 19913
-    language: 1
-    name: River City Ransom (U) [T+Rus1.1_gottaX]
-  assets:
-  - asset:
-      id: 19895
-      kind: 3
-      kind_id: 19913
-      type: 1
-      name: River City Ransom (U) [T+Rus1.1_gottaX].nes
-      format: 1
-      size: 262160
-      blob_id: 65376
-      debug: River City Ransom (U) [T+Rus1.1_gottaX].nes
-- release:
-    id: 19914
-    game_id: 19909
-    release_type: 2
-  names:
-  - id: 84210
-    kind: 3
-    kind_id: 19914
-    language: 1
-    name: River City Ransom (U) [T+Spa100%_Chilensis]
-  assets:
-  - asset:
-      id: 19896
-      kind: 3
-      kind_id: 19914
-      type: 1
-      name: River City Ransom (U) [T+Spa100%_Chilensis].nes
-      format: 1
-      size: 911421
-      blob_id: 65377
-      debug: River City Ransom (U) [T+Spa100%_Chilensis].nes
-- release:
-    id: 19915
-    game_id: 19909
-    release_type: 2
-  names:
-  - id: 84211
-    kind: 3
-    kind_id: 19915
-    language: 1
-    name: River City Ransom (U) [T+Spa_TransGen]
-  assets:
-  - asset:
-      id: 19897
-      kind: 3
-      kind_id: 19915
-      type: 1
-      name: River City Ransom (U) [T+Spa_TransGen].nes
-      format: 1
-      size: 262160
-      blob_id: 65378
-      debug: River City Ransom (U) [T+Spa_TransGen].nes
-- release:
-    id: 19916
-    game_id: 19909
-    release_type: 2
-  names:
-  - id: 44328
-    kind: 3
-    kind_id: 19916
-    language: 1
-    name: River City Ransom (U) [T-Rus]
-  assets:
-  - asset:
-      id: 19898
-      kind: 3
-      kind_id: 19916
-      type: 1
-      name: River City Ransom (U) [T-Rus].nes
-      format: 1
-      size: 262160
-      blob_id: 65379
-      debug: River City Ransom (U) [T-Rus].nes
-- release:
-    id: 19917
-    game_id: 19909
-    release_type: 2
-  names:
-  - id: 44330
-    kind: 3
-    kind_id: 19917
-    language: 1
-    name: River City Ransom (U) [T-Rus][a1]
-  assets:
-  - asset:
-      id: 19899
-      kind: 3
-      kind_id: 19917
-      type: 1
-      name: River City Ransom (U) [T-Rus][a1].nes
-      format: 1
-      size: 262160
-      blob_id: 65380
-      debug: River City Ransom (U) [T-Rus][a1].nes
 - release:
     id: 19925
     game_id: 19909
@@ -520,35 +360,16 @@ releases:
       blob_id: 67467
       debug: Street Gangs (E) (VC).nes
 - release:
-    id: 22131
-    game_id: 19909
-    release_type: 2
-  names:
-  - id: 84451
-    kind: 3
-    kind_id: 22131
-    language: 1
-    name: Street Gangs (E) [T+Fre1.00GoldEdition_Maty]
-  assets:
-  - asset:
-      id: 22113
-      kind: 3
-      kind_id: 22131
-      type: 1
-      name: Street Gangs (E) [T+Fre1.00GoldEdition_Maty].nes
-      format: 1
-      size: 262160
-      blob_id: 67468
-      debug: Street Gangs (E) [T+Fre1.00GoldEdition_Maty].nes
-- release:
     id: 29006
     game_id: 19909
+    release_type: 1
   names:
   - id: 67439
     kind: 3
     kind_id: 29006
     language: 2
     name: 热血物语 (欧版) (动作)-Street Gangs (Europe)
+    deprecated: 1
   - id: 67440
     kind: 3
     kind_id: 29006
@@ -561,6 +382,12 @@ releases:
     language: 1
     name: Street Gangs (Europe)
     source: no-intro
+  - id: 265893
+    kind: 3
+    kind_id: 29006
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 28988
@@ -588,12 +415,14 @@ releases:
 - release:
     id: 29008
     game_id: 19909
+    release_type: 1
   names:
   - id: 67447
     kind: 3
     kind_id: 29008
     language: 2
     name: 热血物语
+    deprecated: 1
   - id: 67448
     kind: 3
     kind_id: 29008
@@ -606,6 +435,12 @@ releases:
     language: 1
     name: "Downtown - Nekketsu Monogatari (Japan)"
     source: no-intro
+  - id: 265894
+    kind: 3
+    kind_id: 29008
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 28990

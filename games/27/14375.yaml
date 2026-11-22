@@ -26,6 +26,7 @@ releases:
 - release:
     id: 14375
     game_id: 14375
+    release_type: 1
   names:
   - id: 31760
     kind: 3
@@ -38,12 +39,19 @@ releases:
     kind_id: 14375
     language: 2
     name: 小子难缠 (美版) (动作)-Karate Kid, The (USA)
+    deprecated: 1
   - id: 258547
     kind: 3
     kind_id: 14375
     language: 1
     name: Karate Kid, The (USA)
     source: no-intro
+  - id: 264411
+    kind: 3
+    kind_id: 14375
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 14357
@@ -70,50 +78,9 @@ releases:
       blob_id: 322668
       debug: fc-title-trial:fceumm:rom-asset=14357:frame=180
 - release:
-    id: 14376
-    game_id: 14375
-    release_type: 2
-  names:
-  - id: 83492
-    kind: 3
-    kind_id: 14376
-    language: 1
-    name: Karate Kid, The (U) [T+Rus1.0_Yoshi]
-  assets:
-  - asset:
-      id: 14358
-      kind: 3
-      kind_id: 14376
-      type: 1
-      name: Karate Kid, The (U) [T+Rus1.0_Yoshi].nes
-      format: 1
-      size: 65552
-      blob_id: 60151
-      debug: Karate Kid, The (U) [T+Rus1.0_Yoshi].nes
-- release:
-    id: 14377
-    game_id: 14375
-    release_type: 2
-  names:
-  - id: 83493
-    kind: 3
-    kind_id: 14377
-    language: 1
-    name: Karate Kid, The (U) [T+Rus_Guyver]
-  assets:
-  - asset:
-      id: 14359
-      kind: 3
-      kind_id: 14377
-      type: 1
-      name: Karate Kid, The (U) [T+Rus_Guyver].nes
-      format: 1
-      size: 65552
-      blob_id: 60152
-      debug: Karate Kid, The (U) [T+Rus_Guyver].nes
-- release:
     id: 14383
     game_id: 14375
+    release_type: 1
   names:
   - id: 31780
     kind: 3
@@ -133,6 +100,12 @@ releases:
     language: 1
     name: Karate Kid, The (USA)
     source: no-intro
+  - id: 264412
+    kind: 3
+    kind_id: 14383
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 14365

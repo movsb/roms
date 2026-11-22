@@ -64,6 +64,7 @@ releases:
 - release:
     id: 26371
     game_id: 26506
+    release_type: 1
   names:
   - id: 58952
     kind: 3
@@ -77,6 +78,12 @@ releases:
     language: 1
     name: Zippy Race (Japan)
     source: no-intro
+  - id: 265155
+    kind: 3
+    kind_id: 26371
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 26353
@@ -102,48 +109,6 @@ releases:
       blob_id: 324256
       debug: libretro-named-titles:rom-asset=26353:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Zippy%20Race%20%28Japan%29.png
 - release:
-    id: 26506
-    game_id: 26506
-    release_type: 2
-  names:
-  - id: 85040
-    kind: 3
-    kind_id: 26506
-    language: 1
-    name: Zippy Race (J) [T+Rus_Cool-Spot]
-  assets:
-  - asset:
-      id: 26488
-      kind: 3
-      kind_id: 26506
-      type: 1
-      name: Zippy Race (J) [T+Rus_Cool-Spot].nes
-      format: 1
-      size: 24592
-      blob_id: 71633
-      debug: Zippy Race (J) [T+Rus_Cool-Spot].nes
-- release:
-    id: 26507
-    game_id: 26506
-    release_type: 2
-  names:
-  - id: 85041
-    kind: 3
-    kind_id: 26507
-    language: 1
-    name: Zippy Race (J) [T+Rus_Cool-Spot][a1]
-  assets:
-  - asset:
-      id: 26489
-      kind: 3
-      kind_id: 26507
-      type: 1
-      name: Zippy Race (J) [T+Rus_Cool-Spot][a1].nes
-      format: 1
-      size: 24592
-      blob_id: 71634
-      debug: Zippy Race (J) [T+Rus_Cool-Spot][a1].nes
-- release:
     id: 26512
     game_id: 26506
   names:
@@ -166,6 +131,7 @@ releases:
 - release:
     id: 26514
     game_id: 26506
+    release_type: 1
   names:
   - id: 59304
     kind: 3
@@ -179,6 +145,12 @@ releases:
     language: 1
     name: Zippy Race (Japan)
     source: no-intro
+  - id: 265162
+    kind: 3
+    kind_id: 26514
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 26496
@@ -207,6 +179,7 @@ releases:
     id: 26515
     game_id: 26506
     release_date: 19850718
+    release_type: 1
   names:
   - id: 59306
     kind: 3
@@ -218,6 +191,7 @@ releases:
     kind_id: 26515
     language: 2
     name: 疯狂骑士 (日版) (竞赛)-Zippy Race (Japan)
+    deprecated: 1
   - id: 68086
     kind: 3
     kind_id: 26515
@@ -230,6 +204,12 @@ releases:
     language: 1
     name: Zippy Race (Japan)
     source: no-intro
+  - id: 265163
+    kind: 3
+    kind_id: 26515
+    language: 2
+    name: 日版
+    source: codex
   release_publishers:
   - release_id: 26515
     publisher_id: 131

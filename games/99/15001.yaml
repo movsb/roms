@@ -61,6 +61,7 @@ releases:
 - release:
     id: 15002
     game_id: 15001
+    release_type: 1
   names:
   - id: 33260
     kind: 3
@@ -73,12 +74,19 @@ releases:
     kind_id: 15002
     language: 2
     name: 影子传说 (美版) (动作)-Legend of Kage, The (USA)
+    deprecated: 1
   - id: 258626
     kind: 3
     kind_id: 15002
     language: 1
     name: Legend of Kage, The (USA)
     source: no-intro
+  - id: 264460
+    kind: 3
+    kind_id: 15002
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 14984
@@ -104,24 +112,3 @@ releases:
       size: 7510
       blob_id: 322699
       debug: fc-title-trial:fceumm:rom-asset=14984:frame=600
-- release:
-    id: 15003
-    game_id: 15001
-    release_type: 2
-  names:
-  - id: 83615
-    kind: 3
-    kind_id: 15003
-    language: 1
-    name: Legend of Kage, The (U) [T+Rus_Shedevr,Chronix]
-  assets:
-  - asset:
-      id: 14985
-      kind: 3
-      kind_id: 15003
-      type: 1
-      name: Legend of Kage, The (U) [T+Rus_Shedevr,Chronix].nes
-      format: 1
-      size: 65552
-      blob_id: 60729
-      debug: Legend of Kage, The (U) [T+Rus_Shedevr,Chronix].nes

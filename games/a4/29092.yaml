@@ -30,6 +30,7 @@ releases:
 - release:
     id: 21025
     game_id: 29092
+    release_type: 1
   names:
   - id: 46850
     kind: 3
@@ -48,6 +49,7 @@ releases:
     kind_id: 21025
     language: 2
     name: 特救指令 (美版) (动作)-Shatterhand (USA)
+    deprecated: 1
   - id: 95125
     kind: 3
     kind_id: 21025
@@ -60,6 +62,12 @@ releases:
     language: 1
     name: Shatterhand (USA)
     source: no-intro
+  - id: 264837
+    kind: 3
+    kind_id: 21025
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 21007
@@ -160,6 +168,7 @@ releases:
 - release:
     id: 21033
     game_id: 29092
+    release_type: 1
   names:
   - id: 46866
     kind: 3
@@ -173,6 +182,12 @@ releases:
     language: 1
     name: Shatterhand (USA)
     source: no-intro
+  - id: 264838
+    kind: 3
+    kind_id: 21033
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 21015
@@ -197,27 +212,6 @@ releases:
       size: 1417
       blob_id: 324172
       debug: libretro-named-titles:rom-asset=21015:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Shatterhand%20%28USA%29.png
-- release:
-    id: 24964
-    game_id: 29092
-    release_type: 2
-  names:
-  - id: 84833
-    kind: 3
-    kind_id: 24964
-    language: 1
-    name: "Tokkyuu Shirei - Solbrain (J) [T+Bra1.1_BRGames]"
-  assets:
-  - asset:
-      id: 24946
-      kind: 3
-      kind_id: 24964
-      type: 1
-      name: "Tokkyuu Shirei - Solbrain (J) [T+Bra1.1_BRGames].nes"
-      format: 1
-      size: 262160
-      blob_id: 70201
-      debug: "Tokkyuu Shirei - Solbrain (J) [T+Bra1.1_BRGames].nes"
 - release:
     id: 24965
     game_id: 29092
@@ -295,69 +289,6 @@ releases:
       size: 262160
       blob_id: 70204
       debug: "Tokkyuu Shirei - Solbrain (J) [T+Eng1.01_AGTP].zip\nTokkyuu Shirei - Solbrain (J) [T+Eng1.01_Aeon Genesis].nes\nTokkyuu Shirei Solbrain (Japan) (Translated En).zip"
-- release:
-    id: 24969
-    game_id: 29092
-    release_type: 2
-  names:
-  - id: 84838
-    kind: 3
-    kind_id: 24969
-    language: 1
-    name: "Tokkyuu Shirei - Solbrain (J) [T+Rus_Magicteam,Aeon Genesis,Vlaskin M]"
-  assets:
-  - asset:
-      id: 24951
-      kind: 3
-      kind_id: 24969
-      type: 1
-      name: "Tokkyuu Shirei - Solbrain (J) [T+Rus_Magicteam,Aeon Genesis,Vlaskin M].nes"
-      format: 1
-      size: 262160
-      blob_id: 70205
-      debug: "Tokkyuu Shirei - Solbrain (J) [T+Rus_Magicteam,Aeon Genesis,Vlaskin M].nes"
-- release:
-    id: 24970
-    game_id: 29092
-    release_type: 2
-  names:
-  - id: 84839
-    kind: 3
-    kind_id: 24970
-    language: 1
-    name: "Tokkyuu Shirei - Solbrain (J) [T+Swe1.0_General CoolNES]"
-  assets:
-  - asset:
-      id: 24952
-      kind: 3
-      kind_id: 24970
-      type: 1
-      name: "Tokkyuu Shirei - Solbrain (J) [T+Swe1.0_General CoolNES].nes"
-      format: 1
-      size: 262160
-      blob_id: 70206
-      debug: "Tokkyuu Shirei - Solbrain (J) [T+Swe1.0_General CoolNES].nes"
-- release:
-    id: 24971
-    game_id: 29092
-    release_type: 2
-  names:
-  - id: 55804
-    kind: 3
-    kind_id: 24971
-    language: 1
-    name: "Tokkyuu Shirei - Solbrain (J) [T-Bra1.0_BRGames]"
-  assets:
-  - asset:
-      id: 24953
-      kind: 3
-      kind_id: 24971
-      type: 1
-      name: "Tokkyuu Shirei - Solbrain (J) [T-Bra1.0_BRGames].nes"
-      format: 1
-      size: 262160
-      blob_id: 70207
-      debug: "Tokkyuu Shirei - Solbrain (J) [T-Bra1.0_BRGames].nes"
 - release:
     id: 24972
     game_id: 29092
@@ -484,12 +415,14 @@ releases:
 - release:
     id: 29087
     game_id: 29092
+    release_type: 1
   names:
   - id: 67707
     kind: 3
     kind_id: 29087
     language: 2
     name: "特救指令 (日版) (动作)-Tokkyuu Shirei - Solbrain (Japan)"
+    deprecated: 1
   - id: 67708
     kind: 3
     kind_id: 29087
@@ -502,6 +435,12 @@ releases:
     language: 1
     name: Tokkyuu Shirei Solbrain (Japan)
     source: no-intro
+  - id: 265915
+    kind: 3
+    kind_id: 29087
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 29069
@@ -527,12 +466,14 @@ releases:
 - release:
     id: 29088
     game_id: 29092
+    release_type: 1
   names:
   - id: 67711
     kind: 3
     kind_id: 29088
     language: 2
     name: 特救指令 (欧版) (动作)-Shatterhand (Europe)
+    deprecated: 1
   - id: 67712
     kind: 3
     kind_id: 29088
@@ -545,6 +486,12 @@ releases:
     language: 1
     name: Shatterhand (Europe)
     source: no-intro
+  - id: 265916
+    kind: 3
+    kind_id: 29088
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 29070

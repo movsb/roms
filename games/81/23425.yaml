@@ -130,27 +130,6 @@ releases:
         Sweet Home (Japan) (Translated En).zip
         糖果屋.zip
 - release:
-    id: 23430
-    game_id: 23425
-    release_type: 2
-  names:
-  - id: 84632
-    kind: 3
-    kind_id: 23430
-    language: 1
-    name: Sweet Home (J) [T+Por70%_Made in Brasil]
-  assets:
-  - asset:
-      id: 23412
-      kind: 3
-      kind_id: 23430
-      type: 1
-      name: Sweet Home (J) [T+Por70%_Made in Brasil].nes
-      format: 1
-      size: 262160
-      blob_id: 68720
-      debug: Sweet Home (J) [T+Por70%_Made in Brasil].nes
-- release:
     id: 23438
     game_id: 23425
   names:
@@ -201,12 +180,14 @@ releases:
 - release:
     id: 30299
     game_id: 23425
+    release_type: 1
   names:
   - id: 71805
     kind: 3
     kind_id: 30299
     language: 2
     name: 魔屋历险 (日版) (角色扮演)-Sweet Home (Japan)
+    deprecated: 1
   - id: 71806
     kind: 3
     kind_id: 30299
@@ -219,6 +200,12 @@ releases:
     language: 1
     name: Sweet Home (Japan)
     source: no-intro
+  - id: 266297
+    kind: 3
+    kind_id: 30299
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 30281

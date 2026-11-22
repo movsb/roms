@@ -22,6 +22,7 @@ releases:
 - release:
     id: 6012
     game_id: 6012
+    release_type: 1
   names:
   - id: 12396
     kind: 3
@@ -35,6 +36,12 @@ releases:
     language: 1
     name: Arkanoid II (Japan) (En)
     source: no-intro
+  - id: 263842
+    kind: 3
+    kind_id: 6012
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 5994
@@ -60,27 +67,6 @@ releases:
       size: 2683
       blob_id: 322331
       debug: fc-title-trial:fceumm:rom-asset=5994:frame=180
-- release:
-    id: 6013
-    game_id: 6012
-    release_type: 2
-  names:
-  - id: 82213
-    kind: 3
-    kind_id: 6013
-    language: 1
-    name: Arkanoid II (J) [T+Fre_terminus]
-  assets:
-  - asset:
-      id: 5995
-      kind: 3
-      kind_id: 6013
-      type: 1
-      name: Arkanoid II (J) [T+Fre_terminus].nes
-      format: 1
-      size: 196624
-      blob_id: 52269
-      debug: Arkanoid II (J) [T+Fre_terminus].nes
 - release:
     id: 6015
     game_id: 6012
@@ -179,18 +165,26 @@ releases:
 - release:
     id: 28313
     game_id: 6012
+    release_type: 1
   names:
   - id: 65114
     kind: 3
     kind_id: 28313
     language: 2
     name: 打砖块 II  (日版) (益智)-Arkanoid II (Japan)
+    deprecated: 1
   - id: 260584
     kind: 3
     kind_id: 28313
     language: 1
     name: Arkanoid II (Japan) (En)
     source: no-intro
+  - id: 265667
+    kind: 3
+    kind_id: 28313
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 28295

@@ -79,6 +79,7 @@ releases:
 - release:
     id: 6812
     game_id: 6820
+    release_type: 1
   names:
   - id: 14222
     kind: 3
@@ -91,12 +92,19 @@ releases:
     kind_id: 6812
     language: 2
     name: 海战风云 (美版) (策略)-Battleship (USA)
+    deprecated: 1
   - id: 257754
     kind: 3
     kind_id: 6812
     language: 1
     name: Battleship (USA)
     source: no-intro
+  - id: 263912
+    kind: 3
+    kind_id: 6812
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 6794
@@ -125,12 +133,14 @@ releases:
 - release:
     id: 28852
     game_id: 6820
+    release_type: 1
   names:
   - id: 66951
     kind: 3
     kind_id: 28852
     language: 2
     name: 海战风云 (欧版) (策略)-Battleship (Europe) (En,Fr,De,Es)
+    deprecated: 1
   - id: 66952
     kind: 3
     kind_id: 28852
@@ -143,6 +153,12 @@ releases:
     language: 1
     name: Battleship (Europe) (En,Fr,De,Es)
     source: no-intro
+  - id: 265856
+    kind: 3
+    kind_id: 28852
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 28834

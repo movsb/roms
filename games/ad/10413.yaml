@@ -62,6 +62,7 @@ releases:
     id: 10414
     game_id: 10413
     release_date: 19870107
+    release_type: 1
   names:
   - id: 22550
     kind: 3
@@ -80,12 +81,19 @@ releases:
     kind_id: 10414
     language: 2
     name: 屠龙战记
+    deprecated: 1
   - id: 258088
     kind: 3
     kind_id: 10414
     language: 1
     name: Dragon Buster (Japan) (En)
     source: no-intro
+  - id: 264113
+    kind: 3
+    kind_id: 10414
+    language: 2
+    name: 日版
+    source: codex
   release_publishers:
   - release_id: 10414
     publisher_id: 4
@@ -115,27 +123,6 @@ releases:
       size: 3199
       blob_id: 322486
       debug: fc-title-trial:fceumm:rom-asset=10396:frame=180
-- release:
-    id: 10415
-    game_id: 10413
-    release_type: 2
-  names:
-  - id: 82881
-    kind: 3
-    kind_id: 10415
-    language: 1
-    name: Dragon Buster (J) [T+Fre1.0_ks151]
-  assets:
-  - asset:
-      id: 10397
-      kind: 3
-      kind_id: 10415
-      type: 1
-      name: Dragon Buster (J) [T+Fre1.0_ks151].nes
-      format: 1
-      size: 163856
-      blob_id: 56431
-      debug: Dragon Buster (J) [T+Fre1.0_ks151].nes
 - release:
     id: 10417
     game_id: 10413
@@ -167,18 +154,26 @@ releases:
 - release:
     id: 27929
     game_id: 10413
+    release_type: 1
   names:
   - id: 63870
     kind: 3
     kind_id: 27929
     language: 2
     name: 屠龙记 (日版) (动作角色扮演)-Dragon Buster (Japan)
+    deprecated: 1
   - id: 260444
     kind: 3
     kind_id: 27929
     language: 1
     name: Dragon Buster (Japan) (En)
     source: no-intro
+  - id: 265559
+    kind: 3
+    kind_id: 27929
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 27911

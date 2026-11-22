@@ -59,6 +59,7 @@ releases:
 - release:
     id: 23491
     game_id: 23491
+    release_type: 1
   names:
   - id: 52430
     kind: 3
@@ -83,6 +84,7 @@ releases:
     kind_id: 23491
     language: 2
     name: 汤姆猫与杰瑞鼠 (美版) (动作)-Tom &amp; Jerry (and Tuffy) (USA)
+    deprecated: 1
   - id: 66678
     kind: 3
     kind_id: 23491
@@ -94,12 +96,19 @@ releases:
     kind_id: 23491
     language: 2
     name: 猫和老鼠
+    deprecated: 1
   - id: 259572
     kind: 3
     kind_id: 23491
     language: 1
     name: "Tom & Jerry - The Ultimate Game of Cat and Mouse! (USA)"
     source: no-intro
+  - id: 264964
+    kind: 3
+    kind_id: 23491
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 23473
@@ -129,69 +138,6 @@ releases:
       blob_id: 325204
       debug: libretro-named-titles:rom-asset=23473:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Tom%20_%20Jerry%20-%20The%20Ultimate%20Game%20of%20Cat%20and%20Mouse%21%20%28USA%29.png
 - release:
-    id: 24985
-    game_id: 23491
-    release_type: 2
-  names:
-  - id: 84841
-    kind: 3
-    kind_id: 24985
-    language: 1
-    name: Tom & Jerry (U) [T+Ara_Hisoka]
-  assets:
-  - asset:
-      id: 24967
-      kind: 3
-      kind_id: 24985
-      type: 1
-      name: Tom & Jerry (U) [T+Ara_Hisoka].nes
-      format: 1
-      size: 262169
-      blob_id: 70220
-      debug: Tom & Jerry (U) [T+Ara_Hisoka].nes
-- release:
-    id: 24986
-    game_id: 23491
-    release_type: 2
-  names:
-  - id: 84842
-    kind: 3
-    kind_id: 24986
-    language: 1
-    name: Tom & Jerry (U) [T+Pol]
-  assets:
-  - asset:
-      id: 24968
-      kind: 3
-      kind_id: 24986
-      type: 1
-      name: Tom & Jerry (U) [T+Pol].nes
-      format: 1
-      size: 262160
-      blob_id: 70221
-      debug: Tom & Jerry (U) [T+Pol].nes
-- release:
-    id: 24987
-    game_id: 23491
-    release_type: 2
-  names:
-  - id: 84843
-    kind: 3
-    kind_id: 24987
-    language: 1
-    name: Tom & Jerry (U) [T+Rus]
-  assets:
-  - asset:
-      id: 24969
-      kind: 3
-      kind_id: 24987
-      type: 1
-      name: Tom & Jerry (U) [T+Rus].nes
-      format: 1
-      size: 262160
-      blob_id: 70222
-      debug: Tom & Jerry (U) [T+Rus].nes
-- release:
     id: 24992
     game_id: 23491
   names:
@@ -220,27 +166,6 @@ releases:
       debug: |-
         Tom & Jerry (U) [p1].nes
         no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=0d3ff7ffa30bea14aa657c626fe6393d55ee7cce
-- release:
-    id: 24993
-    game_id: 23491
-    release_type: 2
-  names:
-  - id: 84844
-    kind: 3
-    kind_id: 24993
-    language: 1
-    name: Tom & Jerry (U) [p1][T+Rus_2R Team]
-  assets:
-  - asset:
-      id: 24975
-      kind: 3
-      kind_id: 24993
-      type: 1
-      name: Tom & Jerry (U) [p1][T+Rus_2R Team].nes
-      format: 1
-      size: 262160
-      blob_id: 70228
-      debug: Tom & Jerry (U) [p1][T+Rus_2R Team].nes
 - release:
     id: 24994
     game_id: 23491
@@ -311,12 +236,14 @@ releases:
 - release:
     id: 28763
     game_id: 23491
+    release_type: 1
   names:
   - id: 66669
     kind: 3
     kind_id: 28763
     language: 2
     name: 汤姆猫与杰瑞鼠 (日版) (动作)-Tom &amp; Jerry (and Tuffy) (Japan)
+    deprecated: 1
   - id: 66670
     kind: 3
     kind_id: 28763
@@ -329,6 +256,12 @@ releases:
     language: 1
     name: Tom & Jerry (Japan)
     source: no-intro
+  - id: 265828
+    kind: 3
+    kind_id: 28763
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 28745
@@ -356,12 +289,14 @@ releases:
 - release:
     id: 28764
     game_id: 23491
+    release_type: 1
   names:
   - id: 66673
     kind: 3
     kind_id: 28764
     language: 2
     name: 汤姆猫与杰瑞鼠 (欧版) (动作)-Tom &amp; Jerry (and Tuffy) (Europe)
+    deprecated: 1
   - id: 66674
     kind: 3
     kind_id: 28764
@@ -374,6 +309,12 @@ releases:
     language: 1
     name: "Tom & Jerry - The Ultimate Game of Cat and Mouse! (Europe)"
     source: no-intro
+  - id: 265829
+    kind: 3
+    kind_id: 28764
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 28746

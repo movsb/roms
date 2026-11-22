@@ -107,6 +107,7 @@ releases:
 - release:
     id: 13376
     game_id: 13376
+    release_type: 1
   names:
   - id: 29410
     kind: 3
@@ -125,12 +126,19 @@ releases:
     kind_id: 13376
     language: 2
     name: 高桥名人之冒险岛 (美版) (动作)-Hudsons Adventure Island (USA)
+    deprecated: 1
   - id: 258429
     kind: 3
     kind_id: 13376
     language: 1
     name: Adventure Island (USA)
     source: no-intro
+  - id: 264323
+    kind: 3
+    kind_id: 13376
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 13358
@@ -157,48 +165,6 @@ releases:
       size: 4208
       blob_id: 322618
       debug: fc-title-trial:fceumm:rom-asset=13358:frame=600
-- release:
-    id: 13377
-    game_id: 13376
-    release_type: 2
-  names:
-  - id: 83318
-    kind: 3
-    kind_id: 13377
-    language: 1
-    name: Hudson's Adventure Island (U) [T+Bra_BRGames]
-  assets:
-  - asset:
-      id: 13359
-      kind: 3
-      kind_id: 13377
-      type: 1
-      name: Hudson's Adventure Island (U) [T+Bra_BRGames].nes
-      format: 1
-      size: 65552
-      blob_id: 59230
-      debug: Hudson's Adventure Island (U) [T+Bra_BRGames].nes
-- release:
-    id: 13378
-    game_id: 13376
-    release_type: 2
-  names:
-  - id: 83319
-    kind: 3
-    kind_id: 13378
-    language: 1
-    name: Hudson's Adventure Island (U) [T+Spa1.0_PaladinKnights]
-  assets:
-  - asset:
-      id: 13360
-      kind: 3
-      kind_id: 13378
-      type: 1
-      name: Hudson's Adventure Island (U) [T+Spa1.0_PaladinKnights].nes
-      format: 1
-      size: 65552
-      blob_id: 59231
-      debug: Hudson's Adventure Island (U) [T+Spa1.0_PaladinKnights].nes
 - release:
     id: 13387
     game_id: 13376
@@ -309,12 +275,14 @@ releases:
 - release:
     id: 30241
     game_id: 13376
+    release_type: 1
   names:
   - id: 71639
     kind: 3
     kind_id: 30241
     language: 2
     name: "高桥名人之冒险岛 (欧版) (动作)-Hudsons Adventure Island - Classic in the Pacific (Europe)"
+    deprecated: 1
   - id: 71640
     kind: 3
     kind_id: 30241
@@ -327,6 +295,12 @@ releases:
     language: 1
     name: Adventure Island Classic (Europe)
     source: no-intro
+  - id: 266281
+    kind: 3
+    kind_id: 30241
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 30223

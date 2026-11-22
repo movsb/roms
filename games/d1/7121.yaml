@@ -110,27 +110,6 @@ releases:
       blob_id: 52796
       debug: Basterd Master (Blaster Master Hack).nes
 - release:
-    id: 7121
-    game_id: 7121
-    release_type: 2
-  names:
-  - id: 82351
-    kind: 3
-    kind_id: 7121
-    language: 1
-    name: Blaster Master (E) [T+Bra1.0_BRGames]
-  assets:
-  - asset:
-      id: 7103
-      kind: 3
-      kind_id: 7121
-      type: 1
-      name: Blaster Master (E) [T+Bra1.0_BRGames].nes
-      format: 1
-      size: 262160
-      blob_id: 53310
-      debug: Blaster Master (E) [T+Bra1.0_BRGames].nes
-- release:
     id: 7124
     game_id: 7121
   names:
@@ -191,6 +170,7 @@ releases:
 - release:
     id: 7126
     game_id: 7121
+    release_type: 1
   names:
   - id: 14904
     kind: 3
@@ -209,12 +189,19 @@ releases:
     kind_id: 7126
     language: 2
     name: 超惑星战记 (美版) (动作射击)-Blaster Master (USA)
+    deprecated: 1
   - id: 257794
     kind: 3
     kind_id: 7126
     language: 1
     name: Blaster Master (USA)
     source: no-intro
+  - id: 263932
+    kind: 3
+    kind_id: 7126
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 7108
@@ -241,90 +228,6 @@ releases:
       size: 3560
       blob_id: 322384
       debug: fc-title-trial:fceumm:rom-asset=7108:frame=180
-- release:
-    id: 7127
-    game_id: 7121
-    release_type: 2
-  names:
-  - id: 82352
-    kind: 3
-    kind_id: 7127
-    language: 1
-    name: Blaster Master (U) [T+Bra1.0_BRGames]
-  assets:
-  - asset:
-      id: 7109
-      kind: 3
-      kind_id: 7127
-      type: 1
-      name: Blaster Master (U) [T+Bra1.0_BRGames].nes
-      format: 1
-      size: 262160
-      blob_id: 53316
-      debug: Blaster Master (U) [T+Bra1.0_BRGames].nes
-- release:
-    id: 7129
-    game_id: 7121
-    release_type: 2
-  names:
-  - id: 82354
-    kind: 3
-    kind_id: 7129
-    language: 1
-    name: Blaster Master (U) [T+Rus1.2_Mefistotel]
-  assets:
-  - asset:
-      id: 7111
-      kind: 3
-      kind_id: 7129
-      type: 1
-      name: Blaster Master (U) [T+Rus1.2_Mefistotel].nes
-      format: 1
-      size: 262160
-      blob_id: 53318
-      debug: Blaster Master (U) [T+Rus1.2_Mefistotel].nes
-- release:
-    id: 7130
-    game_id: 7121
-    release_type: 2
-  names:
-  - id: 82355
-    kind: 3
-    kind_id: 7130
-    language: 1
-    name: Blaster Master (U) [T+Rus_Chief-Net]
-  assets:
-  - asset:
-      id: 7112
-      kind: 3
-      kind_id: 7130
-      type: 1
-      name: Blaster Master (U) [T+Rus_Chief-Net].nes
-      format: 1
-      size: 262160
-      blob_id: 53319
-      debug: Blaster Master (U) [T+Rus_Chief-Net].nes
-- release:
-    id: 7131
-    game_id: 7121
-    release_type: 2
-  names:
-  - id: 82356
-    kind: 3
-    kind_id: 7131
-    language: 1
-    name: Blaster Master (U) [T+Rus_RusTranslate Team]
-  assets:
-  - asset:
-      id: 7113
-      kind: 3
-      kind_id: 7131
-      type: 1
-      name: Blaster Master (U) [T+Rus_RusTranslate Team].nes
-      format: 1
-      size: 262160
-      blob_id: 53320
-      debug: Blaster Master (U) [T+Rus_RusTranslate Team].nes
 - release:
     id: 7132
     game_id: 7121
@@ -463,12 +366,14 @@ releases:
 - release:
     id: 29761
     game_id: 7121
+    release_type: 1
   names:
   - id: 69997
     kind: 3
     kind_id: 29761
     language: 2
     name: 超惑星战记 (欧版) (动作射击)-Blaster Master (Europe)
+    deprecated: 1
   - id: 69998
     kind: 3
     kind_id: 29761
@@ -481,6 +386,12 @@ releases:
     language: 1
     name: Blaster Master (Europe)
     source: no-intro
+  - id: 266131
+    kind: 3
+    kind_id: 29761
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 29743

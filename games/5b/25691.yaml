@@ -2,65 +2,120 @@ game:
   id: 25691
   platform_id: 2
 names:
-- id: 59639
-  kind: 2
-  kind_id: 25691
-  language: 1
-  name: wacky_races
-- id: 71421
+- id: 71425
   kind: 2
   kind_id: 25691
   language: 2
-  name: 顽皮狗 (动作)-Wacky Races
-- id: 71422
-  kind: 2
-  kind_id: 25691
-  language: 1
-  name: Wacky Races (U) [!]
+  name: 顽皮狗
+  deprecated: 1
 - id: 93522
   kind: 2
   kind_id: 25691
   language: 1
   name: Wacky Races
+- id: 243147
+  kind: 2
+  kind_id: 25691
+  language: 1
+  name: Chiki Chiki Machine Mou Race
+  source: codex
 - id: 248972
   kind: 2
   kind_id: 25691
   language: 2
   name: 疯狂赛车
   source: codex
+- id: 263784
+  kind: 2
+  kind_id: 25691
+  language: 3
+  name: チキチキマシン猛レース
 releases:
 - release:
-    id: 25691
+    id: 8491
     game_id: 25691
+    release_type: 3
   names:
-  - id: 57428
+  - id: 17980
     kind: 3
-    kind_id: 25691
+    kind_id: 8491
     language: 1
-    name: Wacky Races (U) [!p]
-    deprecated: 1
-  - id: 71423
+    name: Chiki Chiki Machine Mou Race (J) [t1]
+  assets:
+  - asset:
+      id: 8473
+      kind: 3
+      kind_id: 8491
+      type: 1
+      name: Chiki Chiki Machine Mou Race (J) [t1].nes
+      format: 1
+      size: 262160
+      blob_id: 54622
+      debug: Chiki Chiki Machine Mou Race (J) [t1].nes
+- release:
+    id: 8492
+    game_id: 25691
+    release_type: 3
+  names:
+  - id: 17982
     kind: 3
-    kind_id: 25691
-    language: 2
-    name: 顽皮狗 (美版) (动作)-Wacky Races (USA)
-  - id: 71424
-    kind: 3
-    kind_id: 25691
+    kind_id: 8492
     language: 1
-    name: Wacky Races (U) [!]
-    deprecated: 1
-  - id: 259778
+    name: Chiki Chiki Machine Mou Race (J) [t2]
+  assets:
+  - asset:
+      id: 8474
+      kind: 3
+      kind_id: 8492
+      type: 1
+      name: Chiki Chiki Machine Mou Race (J) [t2].nes
+      format: 1
+      size: 262160
+      blob_id: 54623
+      debug: Chiki Chiki Machine Mou Race (J) [t2].nes
+- release:
+    id: 8493
+    game_id: 25691
+    release_type: 3
+  names:
+  - id: 17984
     kind: 3
-    kind_id: 25691
+    kind_id: 8493
+    language: 1
+    name: Chiki Chiki Machine Mou Race (J) [t3]
+  assets:
+  - asset:
+      id: 8475
+      kind: 3
+      kind_id: 8493
+      type: 1
+      name: Chiki Chiki Machine Mou Race (J) [t3].nes
+      format: 1
+      size: 262160
+      blob_id: 54624
+      debug: Chiki Chiki Machine Mou Race (J) [t3].nes
+- release:
+    id: 25698
+    game_id: 25691
+    description: 两个ROMs仅文件头不同。
+    release_type: 1
+  names:
+  - id: 259779
+    kind: 3
+    kind_id: 25698
     language: 1
     name: Wacky Races (USA)
     source: no-intro
+  - id: 263786
+    kind: 3
+    kind_id: 25698
+    language: 2
+    name: 美版
   assets:
   - asset:
       id: 25673
       kind: 3
-      kind_id: 25691
+      kind_id: 25698
       type: 1
       name: Wacky Races (USA).nes
       format: 1
@@ -70,76 +125,6 @@ releases:
         Wacky Races (U) [!p].zip
         顽皮狗 (美版) (动作)-Wacky Races (USA) + Wacky Races (U) [!].nes
         no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=ad84f67afe85e87d055e14c67c563e8307f6cd09
-  - asset:
-      id: 139886
-      kind: 3
-      kind_id: 25691
-      type: 9
-      name: libretro-title.png
-      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Wacky%20Races%20%28USA%29.png
-      format: 1
-      size: 1797
-      blob_id: 324240
-      debug: libretro-named-titles:rom-asset=25673:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Wacky%20Races%20%28USA%29.png
-- release:
-    id: 25692
-    game_id: 25691
-    release_type: 2
-  names:
-  - id: 84931
-    kind: 3
-    kind_id: 25692
-    language: 1
-    name: Wacky Races (U) [T+Fre_Terminus]
-  assets:
-  - asset:
-      id: 25674
-      kind: 3
-      kind_id: 25692
-      type: 1
-      name: Wacky Races (U) [T+Fre_Terminus].nes
-      format: 1
-      size: 262160
-      blob_id: 70870
-      debug: Wacky Races (U) [T+Fre_Terminus].nes
-- release:
-    id: 25693
-    game_id: 25691
-    release_type: 2
-  names:
-  - id: 84932
-    kind: 3
-    kind_id: 25693
-    language: 1
-    name: Wacky Races (U) [T+Rus_Boogerman]
-  assets:
-  - asset:
-      id: 25675
-      kind: 3
-      kind_id: 25693
-      type: 1
-      name: Wacky Races (U) [T+Rus_Boogerman].nes
-      format: 1
-      size: 262160
-      blob_id: 70871
-      debug: Wacky Races (U) [T+Rus_Boogerman].nes
-- release:
-    id: 25698
-    game_id: 25691
-  names:
-  - id: 57446
-    kind: 3
-    kind_id: 25698
-    language: 1
-    name: Wacky Races (U)
-    deprecated: 1
-  - id: 259779
-    kind: 3
-    kind_id: 25698
-    language: 1
-    name: Wacky Races (USA)
-    source: no-intro
-  assets:
   - asset:
       id: 25680
       kind: 3
@@ -164,22 +149,76 @@ releases:
       blob_id: 324240
       debug: libretro-named-titles:rom-asset=25680:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Wacky%20Races%20%28USA%29.png
 - release:
-    id: 26641
+    id: 30180
     game_id: 25691
+    description: 两个ROMs仅文件头不同。
+    release_type: 1
   names:
-  - id: 59640
+  - id: 261339
     kind: 3
-    kind_id: 26641
+    kind_id: 30180
     language: 1
-    name: wacky_races
+    name: Chiki Chiki Machine Mou Race (Japan)
+    source: no-intro
+  - id: 263785
+    kind: 3
+    kind_id: 30180
+    language: 2
+    name: 日版
   assets:
   - asset:
-      id: 26623
+      id: 30160
       kind: 3
-      kind_id: 26641
+      kind_id: 30180
       type: 1
-      name: wacky_races.nes
+      name: Chiki Chiki Machine Mou Race (Japan).nes
       format: 1
-      size: 262287
-      blob_id: 71752
-      debug: wacky_races.zip
+      size: 262160
+      blob_id: 74047
+      debug: |-
+        顽皮狗 (日版) (动作)-Chiki Chiki Machine Mou Race (Japan) + Chiki Chiki Machine Mou Race (J) [!].nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=2dcf131d8fc82c8157434e4cd7429426b0ff56cd
+  - asset:
+      id: 30162
+      kind: 3
+      kind_id: 30180
+      type: 1
+      name: Chiki Chiki Machine Mou Race (Japan).nes
+      format: 1
+      size: 262160
+      blob_id: 74048
+      debug: |-
+        顽皮狗.nes
+        顽皮狗.zip
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=2dcf131d8fc82c8157434e4cd7429426b0ff56cd
+  - asset:
+      id: 140246
+      kind: 3
+      kind_id: 30180
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Chiki%20Chiki%20Machine%20Mou%20Race%20%28Japan%29.png
+      format: 1
+      size: 2389
+      blob_id: 325561
+      debug: libretro-named-titles:rom-asset=30162:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Chiki%20Chiki%20Machine%20Mou%20Race%20%28Japan%29.png
+- release:
+    id: 30182
+    game_id: 25691
+  names:
+  - id: 263787
+    kind: 3
+    kind_id: 30182
+    language: 2
+    name: 未知改版
+  assets:
+  - asset:
+      id: 30164
+      kind: 3
+      kind_id: 30182
+      type: 1
+      name: 顽皮狗.nes
+      format: 1
+      size: 393232
+      blob_id: 74049
+      debug: 顽皮狗_2.zip

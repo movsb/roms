@@ -36,27 +36,6 @@ names:
   name: Tiger-Heli
 releases:
 - release:
-    id: 24829
-    game_id: 24829
-    release_type: 2
-  names:
-  - id: 84809
-    kind: 3
-    kind_id: 24829
-    language: 1
-    name: Tiger-Heli (E) [T+FreBeta_ks151]
-  assets:
-  - asset:
-      id: 24811
-      kind: 3
-      kind_id: 24829
-      type: 1
-      name: Tiger-Heli (E) [T+FreBeta_ks151].nes
-      format: 1
-      size: 65552
-      blob_id: 70081
-      debug: Tiger-Heli (E) [T+FreBeta_ks151].nes
-- release:
     id: 24831
     game_id: 24829
   names:
@@ -139,6 +118,7 @@ releases:
 - release:
     id: 24837
     game_id: 24829
+    release_type: 1
   names:
   - id: 55476
     kind: 3
@@ -151,12 +131,19 @@ releases:
     kind_id: 24837
     language: 2
     name: 虎式直升机 (美版) (射击)-Tiger-Heli (USA)
+    deprecated: 1
   - id: 259656
     kind: 3
     kind_id: 24837
     language: 1
     name: Tiger-Heli (USA)
     source: no-intro
+  - id: 265016
+    kind: 3
+    kind_id: 24837
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 24819
@@ -182,27 +169,6 @@ releases:
       size: 4680
       blob_id: 323055
       debug: fc-title-trial:nestopia:rom-asset=24819:frame=900
-- release:
-    id: 24838
-    game_id: 24829
-    release_type: 2
-  names:
-  - id: 84810
-    kind: 3
-    kind_id: 24838
-    language: 1
-    name: Tiger-Heli (U) [T+Rus_greengh0st]
-  assets:
-  - asset:
-      id: 24820
-      kind: 3
-      kind_id: 24838
-      type: 1
-      name: Tiger-Heli (U) [T+Rus_greengh0st].nes
-      format: 1
-      size: 65552
-      blob_id: 70090
-      debug: Tiger-Heli (U) [T+Rus_greengh0st].nes
 - release:
     id: 24842
     game_id: 24829
@@ -234,6 +200,7 @@ releases:
 - release:
     id: 24843
     game_id: 24829
+    release_type: 1
   names:
   - id: 55490
     kind: 3
@@ -247,6 +214,12 @@ releases:
     language: 1
     name: Tiger-Heli (USA)
     source: no-intro
+  - id: 265017
+    kind: 3
+    kind_id: 24843
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 24825
@@ -274,12 +247,14 @@ releases:
 - release:
     id: 29600
     game_id: 24829
+    release_type: 1
   names:
   - id: 69485
     kind: 3
     kind_id: 29600
     language: 2
     name: 虎式直升机 (日版) (射击)-Tiger-Heli (Japan)
+    deprecated: 1
   - id: 69486
     kind: 3
     kind_id: 29600
@@ -292,6 +267,12 @@ releases:
     language: 1
     name: Tiger-Heli (Japan)
     source: no-intro
+  - id: 266084
+    kind: 3
+    kind_id: 29600
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 29582
@@ -319,12 +300,14 @@ releases:
 - release:
     id: 29601
     game_id: 24829
+    release_type: 1
   names:
   - id: 69489
     kind: 3
     kind_id: 29601
     language: 2
     name: 虎式直升机 (欧版) (射击)-Tiger-Heli (Europe)
+    deprecated: 1
   - id: 69490
     kind: 3
     kind_id: 29601
@@ -337,6 +320,12 @@ releases:
     language: 1
     name: Tiger-Heli (Europe)
     source: no-intro
+  - id: 266085
+    kind: 3
+    kind_id: 29601
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 29583

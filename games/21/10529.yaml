@@ -21,6 +21,7 @@ releases:
 - release:
     id: 10529
     game_id: 10529
+    release_type: 1
   names:
   - id: 22804
     kind: 3
@@ -39,12 +40,19 @@ releases:
     kind_id: 10529
     language: 2
     name: "龙魂 (美版) (射击)-Dragon Spirit - The New Legend (USA)"
+    deprecated: 1
   - id: 258097
     kind: 3
     kind_id: 10529
     language: 1
     name: "Dragon Spirit - The New Legend (USA)"
     source: no-intro
+  - id: 264121
+    kind: 3
+    kind_id: 10529
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 10511
@@ -67,45 +75,3 @@ releases:
       size: 4930
       blob_id: 322492
       debug: fc-title-trial:fceumm:rom-asset=10511:frame=300
-- release:
-    id: 10530
-    game_id: 10529
-    release_type: 2
-  names:
-  - id: 82893
-    kind: 3
-    kind_id: 10530
-    language: 1
-    name: "Dragon Spirit - The New Legend (U) [T+Bra100%_BRGames]"
-  assets:
-  - asset:
-      id: 10512
-      kind: 3
-      kind_id: 10530
-      type: 1
-      name: "Dragon Spirit - The New Legend (U) [T+Bra100%_BRGames].nes"
-      format: 1
-      size: 262160
-      blob_id: 56539
-      debug: "Dragon Spirit - The New Legend (U) [T+Bra100%_BRGames].nes"
-- release:
-    id: 10531
-    game_id: 10529
-    release_type: 2
-  names:
-  - id: 82894
-    kind: 3
-    kind_id: 10531
-    language: 1
-    name: "Dragon Spirit - The New Legend (U) [T+Rus]"
-  assets:
-  - asset:
-      id: 10513
-      kind: 3
-      kind_id: 10531
-      type: 1
-      name: "Dragon Spirit - The New Legend (U) [T+Rus].nes"
-      format: 1
-      size: 262160
-      blob_id: 56540
-      debug: "Dragon Spirit - The New Legend (U) [T+Rus].nes"

@@ -49,6 +49,7 @@ releases:
 - release:
     id: 8899
     game_id: 8896
+    release_type: 1
   names:
   - id: 18908
     kind: 3
@@ -68,6 +69,12 @@ releases:
     language: 1
     name: Cobra Command (USA)
     source: no-intro
+  - id: 264010
+    kind: 3
+    kind_id: 8899
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 8881
@@ -118,12 +125,14 @@ releases:
 - release:
     id: 29235
     game_id: 8896
+    release_type: 1
   names:
   - id: 68231
     kind: 3
     kind_id: 29235
     language: 2
     name: 眼镜蛇指挥官 (日版) (射击)-Cobra Command (Japan)
+    deprecated: 1
   - id: 68232
     kind: 3
     kind_id: 29235
@@ -136,6 +145,12 @@ releases:
     language: 1
     name: Cobra Command (Japan)
     source: no-intro
+  - id: 265964
+    kind: 3
+    kind_id: 29235
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 29217

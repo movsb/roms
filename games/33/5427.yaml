@@ -40,27 +40,6 @@ names:
   name: 魔法王国大冒险
 releases:
 - release:
-    id: 5418
-    game_id: 5427
-    release_type: 2
-  names:
-  - id: 82144
-    kind: 3
-    kind_id: 5418
-    language: 1
-    name: Adventures in the Magic Kingdom (E) [T+Rus_Chief-Net]
-  assets:
-  - asset:
-      id: 5400
-      kind: 3
-      kind_id: 5418
-      type: 1
-      name: Adventures in the Magic Kingdom (E) [T+Rus_Chief-Net].nes
-      format: 1
-      size: 262160
-      blob_id: 51712
-      debug: Adventures in the Magic Kingdom (E) [T+Rus_Chief-Net].nes
-- release:
     id: 5419
     game_id: 5427
     release_type: 3
@@ -104,6 +83,7 @@ releases:
 - release:
     id: 5421
     game_id: 5427
+    release_type: 1
   names:
   - id: 11078
     kind: 3
@@ -122,17 +102,25 @@ releases:
     kind_id: 5421
     language: 2
     name: 魔法王国大冒险 (美版) (角色扮演)-Adventures in the Magic Kingdom (USA)
+    deprecated: 1
   - id: 71894
     kind: 3
     kind_id: 5421
     language: 2
     name: 魔法王国大冒险
+    deprecated: 1
   - id: 257595
     kind: 3
     kind_id: 5421
     language: 1
     name: Adventures in the Magic Kingdom (USA)
     source: no-intro
+  - id: 263809
+    kind: 3
+    kind_id: 5421
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 5403
@@ -183,12 +171,14 @@ releases:
 - release:
     id: 30320
     game_id: 5427
+    release_type: 1
   names:
   - id: 71883
     kind: 3
     kind_id: 30320
     language: 2
     name: 魔法王国大冒险 (欧版) (角色扮演)-Adventures in the Magic Kingdom (Europe)
+    deprecated: 1
   - id: 71884
     kind: 3
     kind_id: 30320
@@ -201,6 +191,12 @@ releases:
     language: 1
     name: Adventures in the Magic Kingdom (Europe)
     source: no-intro
+  - id: 266302
+    kind: 3
+    kind_id: 30320
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 30302

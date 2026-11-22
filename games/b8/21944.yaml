@@ -62,69 +62,6 @@ releases:
       blob_id: 67301
       debug: Star Wars (Battle City Hack).nes
 - release:
-    id: 21945
-    game_id: 21944
-    release_type: 2
-  names:
-  - id: 84430
-    kind: 3
-    kind_id: 21945
-    language: 1
-    name: Star Wars (E) [T+Por100%_Central de Traducoes]
-  assets:
-  - asset:
-      id: 21927
-      kind: 3
-      kind_id: 21945
-      type: 1
-      name: Star Wars (E) [T+Por100%_Central de Traducoes].nes
-      format: 1
-      size: 262160
-      blob_id: 67302
-      debug: Star Wars (E) [T+Por100%_Central de Traducoes].nes
-- release:
-    id: 21946
-    game_id: 21944
-    release_type: 2
-  names:
-  - id: 84431
-    kind: 3
-    kind_id: 21946
-    language: 1
-    name: Star Wars (J) (Namco) [T+Bra0.8b_Nenhum]
-  assets:
-  - asset:
-      id: 21928
-      kind: 3
-      kind_id: 21946
-      type: 1
-      name: Star Wars (J) (Namco) [T+Bra0.8b_Nenhum].nes
-      format: 1
-      size: 262160
-      blob_id: 67303
-      debug: Star Wars (J) (Namco) [T+Bra0.8b_Nenhum].nes
-- release:
-    id: 21947
-    game_id: 21944
-    release_type: 2
-  names:
-  - id: 84432
-    kind: 3
-    kind_id: 21947
-    language: 1
-    name: Star Wars (J) (Namco) [T+Bra1.0Final_Neodan]
-  assets:
-  - asset:
-      id: 21929
-      kind: 3
-      kind_id: 21947
-      type: 1
-      name: Star Wars (J) (Namco) [T+Bra1.0Final_Neodan].nes
-      format: 1
-      size: 262160
-      blob_id: 67304
-      debug: Star Wars (J) (Namco) [T+Bra1.0Final_Neodan].nes
-- release:
     id: 21948
     game_id: 21944
     release_date: 19911202
@@ -179,48 +116,6 @@ releases:
       debug: |-
         Star Wars (J) (Namco) [T+Eng_Mukimuki&Shinta].nes
         Star Wars (J) (Namco) [T+Eng_Mukimuki&Shinta].zip
-- release:
-    id: 21951
-    game_id: 21944
-    release_type: 2
-  names:
-  - id: 84436
-    kind: 3
-    kind_id: 21951
-    language: 1
-    name: Star Wars (J) (Namco) [T+Rus2.0_Mukimuki,Shinta,Coregon]
-  assets:
-  - asset:
-      id: 21933
-      kind: 3
-      kind_id: 21951
-      type: 1
-      name: Star Wars (J) (Namco) [T+Rus2.0_Mukimuki,Shinta,Coregon].nes
-      format: 1
-      size: 262160
-      blob_id: 67307
-      debug: Star Wars (J) (Namco) [T+Rus2.0_Mukimuki,Shinta,Coregon].nes
-- release:
-    id: 21952
-    game_id: 21944
-    release_type: 2
-  names:
-  - id: 84437
-    kind: 3
-    kind_id: 21952
-    language: 1
-    name: Star Wars (J) (Namco) [T+Rus_Arsen13,Shinigami]
-  assets:
-  - asset:
-      id: 21934
-      kind: 3
-      kind_id: 21952
-      type: 1
-      name: Star Wars (J) (Namco) [T+Rus_Arsen13,Shinigami].nes
-      format: 1
-      size: 262160
-      blob_id: 67308
-      debug: Star Wars (J) (Namco) [T+Rus_Arsen13,Shinigami].nes
 - release:
     id: 21953
     game_id: 21944
@@ -292,6 +187,7 @@ releases:
 - release:
     id: 21959
     game_id: 21944
+    release_type: 1
   names:
   - id: 48898
     kind: 3
@@ -316,12 +212,19 @@ releases:
     kind_id: 21959
     language: 2
     name: 星际大战 (美版) (动作)-Star Wars (USA)
+    deprecated: 1
   - id: 259411
     kind: 3
     kind_id: 21959
     language: 1
     name: Star Wars (USA)
     source: no-intro
+  - id: 264910
+    kind: 3
+    kind_id: 21959
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 21941
@@ -350,27 +253,6 @@ releases:
       blob_id: 322984
       debug: fc-title-trial:fceumm:rom-asset=21941:frame=1200
 - release:
-    id: 21960
-    game_id: 21944
-    release_type: 2
-  names:
-  - id: 84438
-    kind: 3
-    kind_id: 21960
-    language: 1
-    name: Star Wars (U) [T+Ita1.0_Psyco]
-  assets:
-  - asset:
-      id: 21942
-      kind: 3
-      kind_id: 21960
-      type: 1
-      name: Star Wars (U) [T+Ita1.0_Psyco].nes
-      format: 1
-      size: 262160
-      blob_id: 67315
-      debug: Star Wars (U) [T+Ita1.0_Psyco].nes
-- release:
     id: 21963
     game_id: 21944
     release_type: 3
@@ -394,12 +276,14 @@ releases:
 - release:
     id: 28490
     game_id: 21944
+    release_type: 1
   names:
   - id: 65705
     kind: 3
     kind_id: 28490
     language: 2
     name: 星际大战 (日版) (Namco) (动作)-Star Wars (Japan) (Namco)
+    deprecated: 1
   - id: 65706
     kind: 3
     kind_id: 28490
@@ -412,6 +296,12 @@ releases:
     language: 1
     name: Star Wars (Japan) (Namco)
     source: no-intro
+  - id: 265732
+    kind: 3
+    kind_id: 28490
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 28472
@@ -439,12 +329,14 @@ releases:
 - release:
     id: 28492
     game_id: 21944
+    release_type: 1
   names:
   - id: 65713
     kind: 3
     kind_id: 28492
     language: 2
     name: 星际大战 (欧版) (动作)-Star Wars (Europe)
+    deprecated: 1
   - id: 65714
     kind: 3
     kind_id: 28492
@@ -457,6 +349,12 @@ releases:
     language: 1
     name: Star Wars (Europe)
     source: no-intro
+  - id: 265734
+    kind: 3
+    kind_id: 28492
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 28474

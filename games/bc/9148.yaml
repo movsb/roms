@@ -21,6 +21,7 @@ releases:
 - release:
     id: 9148
     game_id: 9148
+    release_type: 1
   names:
   - id: 19534
     kind: 3
@@ -39,12 +40,19 @@ releases:
     kind_id: 9148
     language: 2
     name: 美女闯天关 (美版) (动作)-Cool World (USA)
+    deprecated: 1
   - id: 257941
     kind: 3
     kind_id: 9148
     language: 1
     name: Cool World (USA)
     source: no-intro
+  - id: 264021
+    kind: 3
+    kind_id: 9148
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 9130
@@ -71,48 +79,6 @@ releases:
       size: 4114
       blob_id: 322438
       debug: fc-title-trial:fceumm:rom-asset=9130:frame=600
-- release:
-    id: 9149
-    game_id: 9148
-    release_type: 2
-  names:
-  - id: 82643
-    kind: 3
-    kind_id: 9149
-    language: 1
-    name: Cool World (U) [T+FreBeta_Generation IX]
-  assets:
-  - asset:
-      id: 9131
-      kind: 3
-      kind_id: 9149
-      type: 1
-      name: Cool World (U) [T+FreBeta_Generation IX].nes
-      format: 1
-      size: 262160
-      blob_id: 55253
-      debug: Cool World (U) [T+FreBeta_Generation IX].nes
-- release:
-    id: 9150
-    game_id: 9148
-    release_type: 2
-  names:
-  - id: 82644
-    kind: 3
-    kind_id: 9150
-    language: 1
-    name: Cool World (U) [T+Rus_Chief-Net]
-  assets:
-  - asset:
-      id: 9132
-      kind: 3
-      kind_id: 9150
-      type: 1
-      name: Cool World (U) [T+Rus_Chief-Net].nes
-      format: 1
-      size: 262160
-      blob_id: 55254
-      debug: Cool World (U) [T+Rus_Chief-Net].nes
 - release:
     id: 9154
     game_id: 9148

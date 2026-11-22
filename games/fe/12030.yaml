@@ -53,27 +53,6 @@ names:
   source: codex
 releases:
 - release:
-    id: 12030
-    game_id: 12030
-    release_type: 2
-  names:
-  - id: 83155
-    kind: 3
-    kind_id: 12030
-    language: 1
-    name: Galaga (J) [T+Por85%_Emuroms]
-  assets:
-  - asset:
-      id: 12012
-      kind: 3
-      kind_id: 12030
-      type: 1
-      name: Galaga (J) [T+Por85%_Emuroms].nes
-      format: 1
-      size: 24592
-      blob_id: 57952
-      debug: Galaga (J) [T+Por85%_Emuroms].nes
-- release:
     id: 12032
     game_id: 12030
     release_type: 2
@@ -117,6 +96,7 @@ releases:
 - release:
     id: 12037
     game_id: 12030
+    release_type: 1
   names:
   - id: 26410
     kind: 3
@@ -135,12 +115,19 @@ releases:
     kind_id: 12037
     language: 2
     name: "大蜜蜂 (美版) (射击)-Galaga - Demons of Death (USA)"
+    deprecated: 1
   - id: 258277
     kind: 3
     kind_id: 12037
     language: 1
     name: "Galaga - Demons of Death (USA)"
     source: no-intro
+  - id: 264225
+    kind: 3
+    kind_id: 12037
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 12019
@@ -163,48 +150,6 @@ releases:
       size: 2307
       blob_id: 323911
       debug: fc-title-trial:fceumm:rom-asset=12019:frame=300
-- release:
-    id: 12039
-    game_id: 12030
-    release_type: 2
-  names:
-  - id: 83157
-    kind: 3
-    kind_id: 12039
-    language: 1
-    name: "Galaga - Demons of Death (U) [T+Ita1.0_ZombiKiller]"
-  assets:
-  - asset:
-      id: 12021
-      kind: 3
-      kind_id: 12039
-      type: 1
-      name: "Galaga - Demons of Death (U) [T+Ita1.0_ZombiKiller].nes"
-      format: 1
-      size: 40976
-      blob_id: 57960
-      debug: "Galaga - Demons of Death (U) [T+Ita1.0_ZombiKiller].nes"
-- release:
-    id: 12040
-    game_id: 12030
-    release_type: 2
-  names:
-  - id: 83158
-    kind: 3
-    kind_id: 12040
-    language: 1
-    name: "Galaga - Demons of Death (U) [T+Rus_Mario Soft]"
-  assets:
-  - asset:
-      id: 12022
-      kind: 3
-      kind_id: 12040
-      type: 1
-      name: "Galaga - Demons of Death (U) [T+Rus_Mario Soft].nes"
-      format: 1
-      size: 40976
-      blob_id: 57961
-      debug: "Galaga - Demons of Death (U) [T+Rus_Mario Soft].nes"
 - release:
     id: 19177
     game_id: 12030
@@ -237,12 +182,14 @@ releases:
 - release:
     id: 27624
     game_id: 12030
+    release_type: 1
   names:
   - id: 62853
     kind: 3
     kind_id: 27624
     language: 2
     name: 大蜜蜂 (日版) (射击)-Galaga (Japan)
+    deprecated: 1
   - id: 62854
     kind: 3
     kind_id: 27624
@@ -255,6 +202,12 @@ releases:
     language: 1
     name: Galaga (Japan) (En)
     source: no-intro
+  - id: 265464
+    kind: 3
+    kind_id: 27624
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 27606
@@ -282,12 +235,14 @@ releases:
 - release:
     id: 27625
     game_id: 12030
+    release_type: 1
   names:
   - id: 62857
     kind: 3
     kind_id: 27625
     language: 2
     name: 大蜜蜂 (欧版) (射击)-Galaga (Europe)
+    deprecated: 1
   - id: 62858
     kind: 3
     kind_id: 27625
@@ -300,6 +255,12 @@ releases:
     language: 1
     name: Galaga (Europe)
     source: no-intro
+  - id: 265465
+    kind: 3
+    kind_id: 27625
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 27607

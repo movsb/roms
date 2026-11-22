@@ -69,27 +69,6 @@ names:
   source: codex
 releases:
 - release:
-    id: 11363
-    game_id: 11363
-    release_type: 2
-  names:
-  - id: 83003
-    kind: 3
-    kind_id: 11363
-    language: 1
-    name: Final Fantasy (J) (PRG0) [T+Kor]
-  assets:
-  - asset:
-      id: 11345
-      kind: 3
-      kind_id: 11363
-      type: 1
-      name: Final Fantasy (J) (PRG0) [T+Kor].nes
-      format: 1
-      size: 262160
-      blob_id: 57321
-      debug: Final Fantasy (J) (PRG0) [T+Kor].nes
-- release:
     id: 11370
     game_id: 11363
   names:
@@ -212,6 +191,7 @@ releases:
 - release:
     id: 11374
     game_id: 11363
+    release_type: 1
   names:
   - id: 24742
     kind: 3
@@ -224,12 +204,19 @@ releases:
     kind_id: 11374
     language: 2
     name: 太空战士 (美版) (角色扮演)-Final Fantasy (USA)
+    deprecated: 1
   - id: 258226
     kind: 3
     kind_id: 11374
     language: 1
     name: Final Fantasy (USA)
     source: no-intro
+  - id: 264197
+    kind: 3
+    kind_id: 11374
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 11356
@@ -255,573 +242,6 @@ releases:
       size: 1419
       blob_id: 323986
       debug: libretro-named-titles:rom-asset=11356:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Final%20Fantasy%20%28USA%29.png
-- release:
-    id: 11375
-    game_id: 11363
-    release_type: 2
-  names:
-  - id: 83004
-    kind: 3
-    kind_id: 11375
-    language: 1
-    name: Final Fantasy (U) [T+Croatian1.95_CROcOp]
-  assets:
-  - asset:
-      id: 11357
-      kind: 3
-      kind_id: 11375
-      type: 1
-      name: Final Fantasy (U) [T+Croatian1.95_CROcOp].nes
-      format: 1
-      size: 262160
-      blob_id: 57333
-      debug: Final Fantasy (U) [T+Croatian1.95_CROcOp].nes
-- release:
-    id: 11376
-    game_id: 11363
-    release_type: 2
-  names:
-  - id: 83005
-    kind: 3
-    kind_id: 11376
-    language: 1
-    name: Final Fantasy (U) [T+Dut1.0_OK Impala!]
-  assets:
-  - asset:
-      id: 11358
-      kind: 3
-      kind_id: 11376
-      type: 1
-      name: Final Fantasy (U) [T+Dut1.0_OK Impala!].nes
-      format: 1
-      size: 262160
-      blob_id: 57334
-      debug: Final Fantasy (U) [T+Dut1.0_OK Impala!].nes
-- release:
-    id: 11377
-    game_id: 11363
-    release_type: 2
-  names:
-  - id: 83006
-    kind: 3
-    kind_id: 11377
-    language: 1
-    name: Final Fantasy (U) [T+Esperanto]
-  assets:
-  - asset:
-      id: 11359
-      kind: 3
-      kind_id: 11377
-      type: 1
-      name: Final Fantasy (U) [T+Esperanto].nes
-      format: 1
-      size: 262160
-      blob_id: 57335
-      debug: Final Fantasy (U) [T+Esperanto].nes
-- release:
-    id: 11378
-    game_id: 11363
-    release_type: 2
-  names:
-  - id: 83007
-    kind: 3
-    kind_id: 11378
-    language: 1
-    name: Final Fantasy (U) [T+Fin1.00_Tuoppi]
-  assets:
-  - asset:
-      id: 11360
-      kind: 3
-      kind_id: 11378
-      type: 1
-      name: Final Fantasy (U) [T+Fin1.00_Tuoppi].nes
-      format: 1
-      size: 262160
-      blob_id: 57336
-      debug: Final Fantasy (U) [T+Fin1.00_Tuoppi].nes
-- release:
-    id: 11379
-    game_id: 11363
-    release_type: 2
-  names:
-  - id: 83008
-    kind: 3
-    kind_id: 11379
-    language: 1
-    name: Final Fantasy (U) [T+Fre0.95_Final Translation]
-  assets:
-  - asset:
-      id: 11361
-      kind: 3
-      kind_id: 11379
-      type: 1
-      name: Final Fantasy (U) [T+Fre0.95_Final Translation].nes
-      format: 1
-      size: 262160
-      blob_id: 57337
-      debug: Final Fantasy (U) [T+Fre0.95_Final Translation].nes
-- release:
-    id: 11380
-    game_id: 11363
-    release_type: 2
-  names:
-  - id: 83009
-    kind: 3
-    kind_id: 11380
-    language: 1
-    name: Final Fantasy (U) [T+Fre2.1]
-  assets:
-  - asset:
-      id: 11362
-      kind: 3
-      kind_id: 11380
-      type: 1
-      name: Final Fantasy (U) [T+Fre2.1].nes
-      format: 1
-      size: 262160
-      blob_id: 57338
-      debug: Final Fantasy (U) [T+Fre2.1].nes
-- release:
-    id: 11381
-    game_id: 11363
-    release_type: 2
-  names:
-  - id: 83010
-    kind: 3
-    kind_id: 11381
-    language: 1
-    name: Final Fantasy (U) [T+Ger1.00_StarTrans]
-  assets:
-  - asset:
-      id: 11363
-      kind: 3
-      kind_id: 11381
-      type: 1
-      name: Final Fantasy (U) [T+Ger1.00_StarTrans].nes
-      format: 1
-      size: 262160
-      blob_id: 57339
-      debug: Final Fantasy (U) [T+Ger1.00_StarTrans].nes
-- release:
-    id: 11382
-    game_id: 11363
-    release_type: 2
-  names:
-  - id: 83011
-    kind: 3
-    kind_id: 11382
-    language: 1
-    name: Final Fantasy (U) [T+Ger]
-  assets:
-  - asset:
-      id: 11364
-      kind: 3
-      kind_id: 11382
-      type: 1
-      name: Final Fantasy (U) [T+Ger].nes
-      format: 1
-      size: 262160
-      blob_id: 57340
-      debug: Final Fantasy (U) [T+Ger].nes
-- release:
-    id: 11383
-    game_id: 11363
-    release_type: 2
-  names:
-  - id: 83012
-    kind: 3
-    kind_id: 11383
-    language: 1
-    name: Final Fantasy (U) [T+Gre1.0_Rouchliogiama,Zero_Soul,Giama]
-  assets:
-  - asset:
-      id: 11365
-      kind: 3
-      kind_id: 11383
-      type: 1
-      name: Final Fantasy (U) [T+Gre1.0_Rouchliogiama,Zero_Soul,Giama].nes
-      format: 1
-      size: 262160
-      blob_id: 57341
-      debug: Final Fantasy (U) [T+Gre1.0_Rouchliogiama,Zero_Soul,Giama].nes
-- release:
-    id: 11384
-    game_id: 11363
-    release_type: 2
-  names:
-  - id: 83013
-    kind: 3
-    kind_id: 11384
-    language: 1
-    name: Final Fantasy (U) [T+Ita0.14_Brisma]
-  assets:
-  - asset:
-      id: 11366
-      kind: 3
-      kind_id: 11384
-      type: 1
-      name: Final Fantasy (U) [T+Ita0.14_Brisma].nes
-      format: 1
-      size: 262160
-      blob_id: 57342
-      debug: Final Fantasy (U) [T+Ita0.14_Brisma].nes
-- release:
-    id: 11385
-    game_id: 11363
-    release_type: 2
-  names:
-  - id: 83014
-    kind: 3
-    kind_id: 11385
-    language: 1
-    name: Final Fantasy (U) [T+Ita1.2b_Weapon Hunter]
-  assets:
-  - asset:
-      id: 11367
-      kind: 3
-      kind_id: 11385
-      type: 1
-      name: Final Fantasy (U) [T+Ita1.2b_Weapon Hunter].nes
-      format: 1
-      size: 262160
-      blob_id: 57343
-      debug: Final Fantasy (U) [T+Ita1.2b_Weapon Hunter].nes
-- release:
-    id: 11386
-    game_id: 11363
-    release_type: 2
-  names:
-  - id: 83015
-    kind: 3
-    kind_id: 11386
-    language: 1
-    name: Final Fantasy (U) [T+Nor0.05]
-  assets:
-  - asset:
-      id: 11368
-      kind: 3
-      kind_id: 11386
-      type: 1
-      name: Final Fantasy (U) [T+Nor0.05].nes
-      format: 1
-      size: 262160
-      blob_id: 57344
-      debug: Final Fantasy (U) [T+Nor0.05].nes
-- release:
-    id: 11387
-    game_id: 11363
-    release_type: 2
-  names:
-  - id: 83016
-    kind: 3
-    kind_id: 11387
-    language: 1
-    name: Final Fantasy (U) [T+Pol]
-  assets:
-  - asset:
-      id: 11369
-      kind: 3
-      kind_id: 11387
-      type: 1
-      name: Final Fantasy (U) [T+Pol].nes
-      format: 1
-      size: 262160
-      blob_id: 57345
-      debug: Final Fantasy (U) [T+Pol].nes
-- release:
-    id: 11388
-    game_id: 11363
-    release_type: 2
-  names:
-  - id: 83017
-    kind: 3
-    kind_id: 11388
-    language: 1
-    name: Final Fantasy (U) [T+Por1.3_CBT]
-  assets:
-  - asset:
-      id: 11370
-      kind: 3
-      kind_id: 11388
-      type: 1
-      name: Final Fantasy (U) [T+Por1.3_CBT].nes
-      format: 1
-      size: 262160
-      blob_id: 57346
-      debug: Final Fantasy (U) [T+Por1.3_CBT].nes
-- release:
-    id: 11389
-    game_id: 11363
-    release_type: 2
-  names:
-  - id: 83018
-    kind: 3
-    kind_id: 11389
-    language: 1
-    name: Final Fantasy (U) [T+Rus_ConsolGames]
-  assets:
-  - asset:
-      id: 11371
-      kind: 3
-      kind_id: 11389
-      type: 1
-      name: Final Fantasy (U) [T+Rus_ConsolGames].nes
-      format: 1
-      size: 262160
-      blob_id: 57347
-      debug: Final Fantasy (U) [T+Rus_ConsolGames].nes
-- release:
-    id: 11390
-    game_id: 11363
-    release_type: 2
-  names:
-  - id: 83019
-    kind: 3
-    kind_id: 11390
-    language: 1
-    name: Final Fantasy (U) [T+Spa100%Corrected_Sayans Traductions]
-  assets:
-  - asset:
-      id: 11372
-      kind: 3
-      kind_id: 11390
-      type: 1
-      name: Final Fantasy (U) [T+Spa100%Corrected_Sayans Traductions].nes
-      format: 1
-      size: 262160
-      blob_id: 57348
-      debug: Final Fantasy (U) [T+Spa100%Corrected_Sayans Traductions].nes
-- release:
-    id: 11391
-    game_id: 11363
-    release_type: 2
-  names:
-  - id: 83020
-    kind: 3
-    kind_id: 11391
-    language: 1
-    name: Final Fantasy (U) [T+Spa100%_PaladinKnights]
-  assets:
-  - asset:
-      id: 11373
-      kind: 3
-      kind_id: 11391
-      type: 1
-      name: Final Fantasy (U) [T+Spa100%_PaladinKnights].nes
-      format: 1
-      size: 262160
-      blob_id: 57349
-      debug: Final Fantasy (U) [T+Spa100%_PaladinKnights].nes
-- release:
-    id: 11393
-    game_id: 11363
-    release_type: 2
-  names:
-  - id: 83022
-    kind: 3
-    kind_id: 11393
-    language: 1
-    name: Final Fantasy (U) [T+Spa100_Chilensis]
-  assets:
-  - asset:
-      id: 11375
-      kind: 3
-      kind_id: 11393
-      type: 1
-      name: Final Fantasy (U) [T+Spa100_Chilensis].nes
-      format: 1
-      size: 262160
-      blob_id: 57351
-      debug: Final Fantasy (U) [T+Spa100_Chilensis].nes
-- release:
-    id: 11394
-    game_id: 11363
-    release_type: 2
-  names:
-  - id: 83023
-    kind: 3
-    kind_id: 11394
-    language: 1
-    name: Final Fantasy (U) [T+Spa100_ereza]
-  assets:
-  - asset:
-      id: 11376
-      kind: 3
-      kind_id: 11394
-      type: 1
-      name: Final Fantasy (U) [T+Spa100_ereza].nes
-      format: 1
-      size: 262160
-      blob_id: 57352
-      debug: Final Fantasy (U) [T+Spa100_ereza].nes
-- release:
-    id: 11395
-    game_id: 11363
-    release_type: 2
-  names:
-  - id: 83024
-    kind: 3
-    kind_id: 11395
-    language: 1
-    name: Final Fantasy (U) [T+Spa2.0]
-  assets:
-  - asset:
-      id: 11377
-      kind: 3
-      kind_id: 11395
-      type: 1
-      name: Final Fantasy (U) [T+Spa2.0].nes
-      format: 1
-      size: 262160
-      blob_id: 57353
-      debug: Final Fantasy (U) [T+Spa2.0].nes
-- release:
-    id: 11396
-    game_id: 11363
-    release_type: 2
-  names:
-  - id: 83025
-    kind: 3
-    kind_id: 11396
-    language: 1
-    name: Final Fantasy (U) [T+Swe1.0_General CoolNES]
-  assets:
-  - asset:
-      id: 11378
-      kind: 3
-      kind_id: 11396
-      type: 1
-      name: Final Fantasy (U) [T+Swe1.0_General CoolNES].nes
-      format: 1
-      size: 262160
-      blob_id: 57354
-      debug: Final Fantasy (U) [T+Swe1.0_General CoolNES].nes
-- release:
-    id: 11397
-    game_id: 11363
-    release_type: 2
-  names:
-  - id: 24832
-    kind: 3
-    kind_id: 11397
-    language: 1
-    name: Final Fantasy (U) [T-Croatian_CROcOp]
-  assets:
-  - asset:
-      id: 11379
-      kind: 3
-      kind_id: 11397
-      type: 1
-      name: Final Fantasy (U) [T-Croatian_CROcOp].nes
-      format: 1
-      size: 262160
-      blob_id: 57355
-      debug: Final Fantasy (U) [T-Croatian_CROcOp].nes
-- release:
-    id: 11398
-    game_id: 11363
-    release_type: 2
-  names:
-  - id: 24834
-    kind: 3
-    kind_id: 11398
-    language: 1
-    name: Final Fantasy (U) [T-Croatian_CROcOp][a1]
-  assets:
-  - asset:
-      id: 11380
-      kind: 3
-      kind_id: 11398
-      type: 1
-      name: Final Fantasy (U) [T-Croatian_CROcOp][a1].nes
-      format: 1
-      size: 262160
-      blob_id: 57356
-      debug: Final Fantasy (U) [T-Croatian_CROcOp][a1].nes
-- release:
-    id: 11399
-    game_id: 11363
-    release_type: 2
-  names:
-  - id: 24836
-    kind: 3
-    kind_id: 11399
-    language: 1
-    name: Final Fantasy (U) [T-Fre]
-  assets:
-  - asset:
-      id: 11381
-      kind: 3
-      kind_id: 11399
-      type: 1
-      name: Final Fantasy (U) [T-Fre].nes
-      format: 1
-      size: 262160
-      blob_id: 57357
-      debug: Final Fantasy (U) [T-Fre].nes
-- release:
-    id: 11401
-    game_id: 11363
-    release_type: 2
-  names:
-  - id: 24840
-    kind: 3
-    kind_id: 11401
-    language: 1
-    name: Final Fantasy (U) [T-Ita1.2a_Weapon Hunter]
-  assets:
-  - asset:
-      id: 11383
-      kind: 3
-      kind_id: 11401
-      type: 1
-      name: Final Fantasy (U) [T-Ita1.2a_Weapon Hunter].nes
-      format: 1
-      size: 262160
-      blob_id: 57359
-      debug: Final Fantasy (U) [T-Ita1.2a_Weapon Hunter].nes
-- release:
-    id: 11402
-    game_id: 11363
-    release_type: 2
-  names:
-  - id: 24842
-    kind: 3
-    kind_id: 11402
-    language: 1
-    name: Final Fantasy (U) [T-Por1.0_CBT]
-  assets:
-  - asset:
-      id: 11384
-      kind: 3
-      kind_id: 11402
-      type: 1
-      name: Final Fantasy (U) [T-Por1.0_CBT].nes
-      format: 1
-      size: 262160
-      blob_id: 57360
-      debug: Final Fantasy (U) [T-Por1.0_CBT].nes
-- release:
-    id: 11403
-    game_id: 11363
-    release_type: 2
-  names:
-  - id: 24844
-    kind: 3
-    kind_id: 11403
-    language: 1
-    name: Final Fantasy (U) [T-Spa100%_Sayans Traductions]
-  assets:
-  - asset:
-      id: 11385
-      kind: 3
-      kind_id: 11403
-      type: 1
-      name: Final Fantasy (U) [T-Spa100%_Sayans Traductions].nes
-      format: 1
-      size: 262160
-      blob_id: 57361
-      debug: Final Fantasy (U) [T-Spa100%_Sayans Traductions].nes
 - release:
     id: 11409
     game_id: 11363
@@ -929,6 +349,7 @@ releases:
 - release:
     id: 11418
     game_id: 11363
+    release_type: 1
   names:
   - id: 24880
     kind: 3
@@ -948,6 +369,12 @@ releases:
     language: 1
     name: Final Fantasy (USA)
     source: no-intro
+  - id: 264198
+    kind: 3
+    kind_id: 11418
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 11400
@@ -1018,12 +445,14 @@ releases:
 - release:
     id: 27704
     game_id: 11363
+    release_type: 1
   names:
   - id: 63105
     kind: 3
     kind_id: 27704
     language: 2
     name: 太空战士 (日版)(Rev B) (角色扮演)-Final Fantasy (Japan) (Rev B)
+    deprecated: 1
   - id: 63106
     kind: 3
     kind_id: 27704
@@ -1036,6 +465,12 @@ releases:
     language: 1
     name: Final Fantasy (Japan) (Rev 1)
     source: no-intro
+  - id: 265479
+    kind: 3
+    kind_id: 27704
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 27686
@@ -1063,12 +498,14 @@ releases:
 - release:
     id: 27706
     game_id: 11363
+    release_type: 1
   names:
   - id: 63113
     kind: 3
     kind_id: 27706
     language: 2
     name: 太空战士
+    deprecated: 1
   - id: 63114
     kind: 3
     kind_id: 27706
@@ -1081,6 +518,12 @@ releases:
     language: 1
     name: Final Fantasy (Japan)
     source: no-intro
+  - id: 265480
+    kind: 3
+    kind_id: 27706
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 27688

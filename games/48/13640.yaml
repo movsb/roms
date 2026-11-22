@@ -101,6 +101,7 @@ releases:
 - release:
     id: 13640
     game_id: 13640
+    release_type: 1
   names:
   - id: 30012
     kind: 3
@@ -113,6 +114,7 @@ releases:
     kind_id: 13640
     language: 2
     name: 怒 (美版) (动作射击)-Ikari Warriors (USA)
+    deprecated: 1
   - id: 64682
     kind: 3
     kind_id: 13640
@@ -125,6 +127,12 @@ releases:
     language: 1
     name: Ikari Warriors (USA)
     source: no-intro
+  - id: 264343
+    kind: 3
+    kind_id: 13640
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 13622
@@ -151,29 +159,9 @@ releases:
       blob_id: 324891
       debug: libretro-named-titles:rom-asset=13622:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Ikari%20Warriors%20%28USA%29.png
 - release:
-    id: 13641
-    game_id: 13640
-    release_type: 2
-  names:
-  - id: 83355
-    kind: 3
-    kind_id: 13641
-    language: 1
-    name: Ikari Warriors (U) (PRG0) [T+Fre]
-  assets:
-  - asset:
-      id: 13623
-      kind: 3
-      kind_id: 13641
-      type: 1
-      name: Ikari Warriors (U) (PRG0) [T+Fre].nes
-      format: 1
-      size: 131088
-      blob_id: 59480
-      debug: Ikari Warriors (U) (PRG0) [T+Fre].nes
-- release:
     id: 13643
     game_id: 13640
+    release_type: 1
   names:
   - id: 30020
     kind: 3
@@ -186,12 +174,19 @@ releases:
     kind_id: 13643
     language: 2
     name: 怒 (美版)(Rev A) (动作射击)-Ikari Warriors (USA) (Rev A)
+    deprecated: 1
   - id: 258454
     kind: 3
     kind_id: 13643
     language: 1
     name: Ikari Warriors (USA) (Rev 1)
     source: no-intro
+  - id: 264344
+    kind: 3
+    kind_id: 13643
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 13625
@@ -218,62 +213,28 @@ releases:
       blob_id: 322627
       debug: fc-title-trial:fceumm:rom-asset=13625:frame=900
 - release:
-    id: 13644
-    game_id: 13640
-    release_type: 2
-  names:
-  - id: 83356
-    kind: 3
-    kind_id: 13644
-    language: 1
-    name: Ikari Warriors (U) (PRG1) [T+Fre]
-  assets:
-  - asset:
-      id: 13626
-      kind: 3
-      kind_id: 13644
-      type: 1
-      name: Ikari Warriors (U) (PRG1) [T+Fre].nes
-      format: 1
-      size: 131088
-      blob_id: 59483
-      debug: Ikari Warriors (U) (PRG1) [T+Fre].nes
-- release:
-    id: 13645
-    game_id: 13640
-    release_type: 2
-  names:
-  - id: 83357
-    kind: 3
-    kind_id: 13645
-    language: 1
-    name: Ikari Warriors (U) (PRG1) [T+Rus_Magicteam]
-  assets:
-  - asset:
-      id: 13627
-      kind: 3
-      kind_id: 13645
-      type: 1
-      name: Ikari Warriors (U) (PRG1) [T+Rus_Magicteam].nes
-      format: 1
-      size: 131088
-      blob_id: 59484
-      debug: Ikari Warriors (U) (PRG1) [T+Rus_Magicteam].nes
-- release:
     id: 26916
     game_id: 13640
+    release_type: 1
   names:
   - id: 60548
     kind: 3
     kind_id: 26916
     language: 2
     name: 伊卡瑞勇士
+    deprecated: 1
   - id: 260048
     kind: 3
     kind_id: 26916
     language: 1
     name: Ikari Warriors (Europe)
     source: no-intro
+  - id: 265259
+    kind: 3
+    kind_id: 26916
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 26898
@@ -302,12 +263,14 @@ releases:
 - release:
     id: 28172
     game_id: 13640
+    release_type: 1
   names:
   - id: 64677
     kind: 3
     kind_id: 28172
     language: 2
     name: 怒 (日版) (动作射击)-Ikari (Japan)
+    deprecated: 1
   - id: 64678
     kind: 3
     kind_id: 28172
@@ -319,12 +282,19 @@ releases:
     kind_id: 28172
     language: 2
     name: 怒1
+    deprecated: 1
   - id: 260530
     kind: 3
     kind_id: 28172
     language: 1
     name: Ikari (Japan) (En)
     source: no-intro
+  - id: 265626
+    kind: 3
+    kind_id: 28172
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 28154

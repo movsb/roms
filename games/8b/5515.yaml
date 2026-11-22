@@ -27,6 +27,7 @@ releases:
 - release:
     id: 5515
     game_id: 5515
+    release_type: 1
   names:
   - id: 11288
     kind: 3
@@ -45,12 +46,19 @@ releases:
     kind_id: 5515
     language: 2
     name: 重力大冒险 (美版) (动作)-Adventures of Rad Gravity, The (USA)
+    deprecated: 1
   - id: 257610
     kind: 3
     kind_id: 5515
     language: 1
     name: Adventures of Rad Gravity, The (USA)
     source: no-intro
+  - id: 263818
+    kind: 3
+    kind_id: 5515
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 5497
@@ -78,48 +86,6 @@ releases:
       blob_id: 322318
       debug: fc-title-trial:fceumm:rom-asset=5497:frame=900
 - release:
-    id: 5516
-    game_id: 5515
-    release_type: 2
-  names:
-  - id: 82156
-    kind: 3
-    kind_id: 5516
-    language: 1
-    name: Adventures of Rad Gravity, The (U) [T+Pol]
-  assets:
-  - asset:
-      id: 5498
-      kind: 3
-      kind_id: 5516
-      type: 1
-      name: Adventures of Rad Gravity, The (U) [T+Pol].nes
-      format: 1
-      size: 262160
-      blob_id: 51806
-      debug: Adventures of Rad Gravity, The (U) [T+Pol].nes
-- release:
-    id: 5517
-    game_id: 5515
-    release_type: 2
-  names:
-  - id: 82157
-    kind: 3
-    kind_id: 5517
-    language: 1
-    name: Adventures of Rad Gravity, The (U) [T+Pol][a1]
-  assets:
-  - asset:
-      id: 5499
-      kind: 3
-      kind_id: 5517
-      type: 1
-      name: Adventures of Rad Gravity, The (U) [T+Pol][a1].nes
-      format: 1
-      size: 262288
-      blob_id: 51807
-      debug: Adventures of Rad Gravity, The (U) [T+Pol][a1].nes
-- release:
     id: 5525
     game_id: 5515
     release_type: 3
@@ -143,12 +109,14 @@ releases:
 - release:
     id: 29976
     game_id: 5515
+    release_type: 1
   names:
   - id: 70739
     kind: 3
     kind_id: 29976
     language: 2
     name: 重力大冒险 (欧版) (动作)-Adventures of Rad Gravity, The (Europe)
+    deprecated: 1
   - id: 70740
     kind: 3
     kind_id: 29976
@@ -161,6 +129,12 @@ releases:
     language: 1
     name: Adventures of Rad Gravity, The (Europe)
     source: no-intro
+  - id: 266191
+    kind: 3
+    kind_id: 29976
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 29958

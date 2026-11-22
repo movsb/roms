@@ -57,6 +57,7 @@ releases:
 - release:
     id: 10026
     game_id: 10025
+    release_type: 1
   names:
   - id: 21554
     kind: 3
@@ -70,6 +71,12 @@ releases:
     language: 1
     name: Double Dragon (Europe)
     source: no-intro
+  - id: 264094
+    kind: 3
+    kind_id: 10026
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 10008
@@ -94,27 +101,6 @@ releases:
       size: 4565
       blob_id: 322475
       debug: fc-title-trial:fceumm:rom-asset=10008:frame=900
-- release:
-    id: 10027
-    game_id: 10025
-    release_type: 2
-  names:
-  - id: 82773
-    kind: 3
-    kind_id: 10027
-    language: 1
-    name: Double Dragon (E) [T+Fre]
-  assets:
-  - asset:
-      id: 10009
-      kind: 3
-      kind_id: 10027
-      type: 1
-      name: Double Dragon (E) [T+Fre].nes
-      format: 1
-      size: 262160
-      blob_id: 56068
-      debug: Double Dragon (E) [T+Fre].nes
 - release:
     id: 10028
     game_id: 10025
@@ -277,27 +263,6 @@ releases:
       blob_id: 323977
       debug: libretro-named-titles:rom-asset=10016:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Double%20Dragon%20%28USA%29.png
 - release:
-    id: 10035
-    game_id: 10025
-    release_type: 2
-  names:
-  - id: 82774
-    kind: 3
-    kind_id: 10035
-    language: 1
-    name: Double Dragon (U) [T+Bra1.1_BRGames]
-  assets:
-  - asset:
-      id: 10017
-      kind: 3
-      kind_id: 10035
-      type: 1
-      name: Double Dragon (U) [T+Bra1.1_BRGames].nes
-      format: 1
-      size: 262160
-      blob_id: 56076
-      debug: Double Dragon (U) [T+Bra1.1_BRGames].nes
-- release:
     id: 10036
     game_id: 10025
     release_type: 2
@@ -318,48 +283,6 @@ releases:
       size: 262160
       blob_id: 56077
       debug: Double Dragon (U) [T+Chi].nes
-- release:
-    id: 10039
-    game_id: 10025
-    release_type: 2
-  names:
-  - id: 82778
-    kind: 3
-    kind_id: 10039
-    language: 1
-    name: Double Dragon (U) [T+Ger1.00_StarTrans]
-  assets:
-  - asset:
-      id: 10021
-      kind: 3
-      kind_id: 10039
-      type: 1
-      name: Double Dragon (U) [T+Ger1.00_StarTrans].nes
-      format: 1
-      size: 262160
-      blob_id: 56080
-      debug: Double Dragon (U) [T+Ger1.00_StarTrans].nes
-- release:
-    id: 10040
-    game_id: 10025
-    release_type: 2
-  names:
-  - id: 82779
-    kind: 3
-    kind_id: 10040
-    language: 1
-    name: Double Dragon (U) [T+Rus_Chief-Net]
-  assets:
-  - asset:
-      id: 10022
-      kind: 3
-      kind_id: 10040
-      type: 1
-      name: Double Dragon (U) [T+Rus_Chief-Net].nes
-      format: 1
-      size: 262160
-      blob_id: 56081
-      debug: Double Dragon (U) [T+Rus_Chief-Net].nes
 - release:
     id: 10046
     game_id: 10025
@@ -463,27 +386,6 @@ releases:
       size: 262160
       blob_id: 56094
       debug: Double Dragon (U) [t3].nes
-- release:
-    id: 10054
-    game_id: 10025
-    release_type: 2
-  names:
-  - id: 82781
-    kind: 3
-    kind_id: 10054
-    language: 1
-    name: Double Dragon (U) [t3][T+Rus_Chief-Net,Multisoft]
-  assets:
-  - asset:
-      id: 10036
-      kind: 3
-      kind_id: 10054
-      type: 1
-      name: Double Dragon (U) [t3][T+Rus_Chief-Net,Multisoft].nes
-      format: 1
-      size: 262160
-      blob_id: 56095
-      debug: Double Dragon (U) [t3][T+Rus_Chief-Net,Multisoft].nes
 - release:
     id: 10056
     game_id: 10025

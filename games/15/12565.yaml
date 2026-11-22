@@ -283,6 +283,7 @@ releases:
 - release:
     id: 12582
     game_id: 12565
+    release_type: 1
   names:
   - id: 27608
     kind: 3
@@ -301,12 +302,19 @@ releases:
     kind_id: 12582
     language: 2
     name: 沙罗曼蛇
+    deprecated: 1
   - id: 258355
     kind: 3
     kind_id: 12582
     language: 1
     name: Gradius (USA)
     source: no-intro
+  - id: 264283
+    kind: 3
+    kind_id: 12582
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 12564
@@ -334,48 +342,6 @@ releases:
       size: 2736
       blob_id: 322593
       debug: fc-title-trial:fceumm:rom-asset=12564:frame=180
-- release:
-    id: 12583
-    game_id: 12565
-    release_type: 2
-  names:
-  - id: 83211
-    kind: 3
-    kind_id: 12583
-    language: 1
-    name: Gradius (U) [T+Bra_POBRE]
-  assets:
-  - asset:
-      id: 12565
-      kind: 3
-      kind_id: 12583
-      type: 1
-      name: Gradius (U) [T+Bra_POBRE].nes
-      format: 1
-      size: 65552
-      blob_id: 58474
-      debug: Gradius (U) [T+Bra_POBRE].nes
-- release:
-    id: 12584
-    game_id: 12565
-    release_type: 2
-  names:
-  - id: 83212
-    kind: 3
-    kind_id: 12584
-    language: 1
-    name: Gradius (U) [T+Fre]
-  assets:
-  - asset:
-      id: 12566
-      kind: 3
-      kind_id: 12584
-      type: 1
-      name: Gradius (U) [T+Fre].nes
-      format: 1
-      size: 65552
-      blob_id: 58475
-      debug: Gradius (U) [T+Fre].nes
 - release:
     id: 12589
     game_id: 12565
@@ -508,12 +474,14 @@ releases:
 - release:
     id: 27784
     game_id: 12565
+    release_type: 1
   names:
   - id: 63377
     kind: 3
     kind_id: 27784
     language: 2
     name: 宇宙巡航舰 (日版) (射击)-Gradius (Japan)
+    deprecated: 1
   - id: 63378
     kind: 3
     kind_id: 27784
@@ -526,6 +494,12 @@ releases:
     language: 1
     name: Gradius (Japan)
     source: no-intro
+  - id: 265509
+    kind: 3
+    kind_id: 27784
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 27766
@@ -553,12 +527,14 @@ releases:
 - release:
     id: 27785
     game_id: 12565
+    release_type: 1
   names:
   - id: 63381
     kind: 3
     kind_id: 27785
     language: 2
     name: 宇宙巡航舰 (欧版) (射击)-Gradius (Europe)
+    deprecated: 1
   - id: 63382
     kind: 3
     kind_id: 27785
@@ -571,6 +547,12 @@ releases:
     language: 1
     name: Gradius (Europe)
     source: no-intro
+  - id: 265510
+    kind: 3
+    kind_id: 27785
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 27767
@@ -598,12 +580,14 @@ releases:
 - release:
     id: 27786
     game_id: 12565
+    release_type: 1
   names:
   - id: 63385
     kind: 3
     kind_id: 27786
     language: 2
     name: "宇宙巡航舰 - 远古篇 (日版) (射击)-Gradius (Japan) (ArchiMENdes Hen)"
+    deprecated: 1
   - id: 63386
     kind: 3
     kind_id: 27786
@@ -616,6 +600,12 @@ releases:
     language: 1
     name: Gradius (Japan) (En) (ArchiMENdes Hen)
     source: no-intro
+  - id: 265511
+    kind: 3
+    kind_id: 27786
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 27768

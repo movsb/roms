@@ -55,6 +55,7 @@ releases:
 - release:
     id: 9943
     game_id: 9943
+    release_type: 1
   names:
   - id: 21348
     kind: 3
@@ -68,6 +69,12 @@ releases:
     language: 1
     name: Donkey Kong Jr. (World) (Rev 1) (Animal Crossing)
     source: no-intro
+  - id: 264086
+    kind: 3
+    kind_id: 9943
+    language: 2
+    name: 世界版
+    source: codex
   assets:
   - asset:
       id: 9925
@@ -84,6 +91,7 @@ releases:
 - release:
     id: 9944
     game_id: 9943
+    release_type: 1
   names:
   - id: 21350
     kind: 3
@@ -97,6 +105,12 @@ releases:
     language: 1
     name: Donkey Kong Jr. (USA) (Rev 1) (e-Reader)
     source: no-intro
+  - id: 264087
+    kind: 3
+    kind_id: 9944
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 9926
@@ -113,6 +127,7 @@ releases:
 - release:
     id: 9945
     game_id: 9943
+    release_type: 1
   names:
   - id: 21352
     kind: 3
@@ -130,6 +145,7 @@ releases:
     kind_id: 9945
     language: 2
     name: "大金刚 II - 小金刚 (世界版)(Rev A) (动作)-Donkey Kong Jr. (World) (Rev A)"
+    deprecated: 1
   - id: 62904
     kind: 3
     kind_id: 9945
@@ -142,6 +158,12 @@ releases:
     language: 1
     name: Donkey Kong Jr. (World) (Rev 1)
     source: no-intro
+  - id: 264088
+    kind: 3
+    kind_id: 9945
+    language: 2
+    name: 世界版
+    source: codex
   assets:
   - asset:
       id: 9927
@@ -165,27 +187,6 @@ releases:
       blob_id: 322471
       debug: fc-title-trial:fceumm:rom-asset=9927:frame=180
 - release:
-    id: 9946
-    game_id: 9943
-    release_type: 2
-  names:
-  - id: 82753
-    kind: 3
-    kind_id: 9946
-    language: 1
-    name: Donkey Kong Jr. (W) (PRG1) [T+Bra100%_Polly]
-  assets:
-  - asset:
-      id: 9928
-      kind: 3
-      kind_id: 9946
-      type: 1
-      name: Donkey Kong Jr. (W) (PRG1) [T+Bra100%_Polly].nes
-      format: 1
-      size: 24592
-      blob_id: 55995
-      debug: Donkey Kong Jr. (W) (PRG1) [T+Bra100%_Polly].nes
-- release:
     id: 9947
     game_id: 9943
     release_type: 2
@@ -206,132 +207,6 @@ releases:
       size: 24592
       blob_id: 55996
       debug: Donkey Kong Jr. (W) (PRG1) [T+Chi_MS emumax].nes
-- release:
-    id: 9948
-    game_id: 9943
-    release_type: 2
-  names:
-  - id: 82755
-    kind: 3
-    kind_id: 9948
-    language: 1
-    name: Donkey Kong Jr. (W) (PRG1) [T+Fre_Lyssal]
-  assets:
-  - asset:
-      id: 9930
-      kind: 3
-      kind_id: 9948
-      type: 1
-      name: Donkey Kong Jr. (W) (PRG1) [T+Fre_Lyssal].nes
-      format: 1
-      size: 24592
-      blob_id: 55997
-      debug: Donkey Kong Jr. (W) (PRG1) [T+Fre_Lyssal].nes
-- release:
-    id: 9949
-    game_id: 9943
-    release_type: 2
-  names:
-  - id: 82756
-    kind: 3
-    kind_id: 9949
-    language: 1
-    name: Donkey Kong Jr. (W) (PRG1) [T+Ita1.0_ZombiKiller]
-  assets:
-  - asset:
-      id: 9931
-      kind: 3
-      kind_id: 9949
-      type: 1
-      name: Donkey Kong Jr. (W) (PRG1) [T+Ita1.0_ZombiKiller].nes
-      format: 1
-      size: 24592
-      blob_id: 55998
-      debug: Donkey Kong Jr. (W) (PRG1) [T+Ita1.0_ZombiKiller].nes
-- release:
-    id: 9950
-    game_id: 9943
-    release_type: 2
-  names:
-  - id: 82757
-    kind: 3
-    kind_id: 9950
-    language: 1
-    name: Donkey Kong Jr. (W) (PRG1) [T+Rus_Cool-Spot]
-  assets:
-  - asset:
-      id: 9932
-      kind: 3
-      kind_id: 9950
-      type: 1
-      name: Donkey Kong Jr. (W) (PRG1) [T+Rus_Cool-Spot].nes
-      format: 1
-      size: 24592
-      blob_id: 55999
-      debug: Donkey Kong Jr. (W) (PRG1) [T+Rus_Cool-Spot].nes
-- release:
-    id: 9951
-    game_id: 9943
-    release_type: 2
-  names:
-  - id: 82758
-    kind: 3
-    kind_id: 9951
-    language: 1
-    name: Donkey Kong Jr. (W) (PRG1) [T+Rus_Cool-Spot][a1]
-  assets:
-  - asset:
-      id: 9933
-      kind: 3
-      kind_id: 9951
-      type: 1
-      name: Donkey Kong Jr. (W) (PRG1) [T+Rus_Cool-Spot][a1].nes
-      format: 1
-      size: 24592
-      blob_id: 56000
-      debug: Donkey Kong Jr. (W) (PRG1) [T+Rus_Cool-Spot][a1].nes
-- release:
-    id: 9952
-    game_id: 9943
-    release_type: 2
-  names:
-  - id: 82759
-    kind: 3
-    kind_id: 9952
-    language: 1
-    name: Donkey Kong Jr. (W) (PRG1) [T+Spa99%_Emu4ever]
-  assets:
-  - asset:
-      id: 9934
-      kind: 3
-      kind_id: 9952
-      type: 1
-      name: Donkey Kong Jr. (W) (PRG1) [T+Spa99%_Emu4ever].nes
-      format: 1
-      size: 24592
-      blob_id: 56001
-      debug: Donkey Kong Jr. (W) (PRG1) [T+Spa99%_Emu4ever].nes
-- release:
-    id: 9953
-    game_id: 9943
-    release_type: 2
-  names:
-  - id: 82760
-    kind: 3
-    kind_id: 9953
-    language: 1
-    name: Donkey Kong Jr. (W) (PRG1) [T+Spa]
-  assets:
-  - asset:
-      id: 9935
-      kind: 3
-      kind_id: 9953
-      type: 1
-      name: Donkey Kong Jr. (W) (PRG1) [T+Spa].nes
-      format: 1
-      size: 24592
-      blob_id: 56002
-      debug: Donkey Kong Jr. (W) (PRG1) [T+Spa].nes
 - release:
     id: 9962
     game_id: 9943
@@ -355,6 +230,7 @@ releases:
 - release:
     id: 9976
     game_id: 9943
+    release_type: 1
   names:
   - id: 21432
     kind: 3
@@ -368,6 +244,12 @@ releases:
     language: 1
     name: Donkey Kong Jr. (World) (Rev 1)
     source: no-intro
+  - id: 264091
+    kind: 3
+    kind_id: 9976
+    language: 2
+    name: 世界版
+    source: codex
   assets:
   - asset:
       id: 9958
@@ -395,18 +277,26 @@ releases:
 - release:
     id: 27647
     game_id: 9943
+    release_type: 1
   names:
   - id: 62920
     kind: 3
     kind_id: 27647
     language: 2
     name: 大金刚2
+    deprecated: 1
   - id: 260328
     kind: 3
     kind_id: 27647
     language: 1
     name: Donkey Kong Jr. (World) (Rev 1)
     source: no-intro
+  - id: 265469
+    kind: 3
+    kind_id: 27647
+    language: 2
+    name: 世界版
+    source: codex
   assets:
   - asset:
       id: 27629
@@ -483,12 +373,14 @@ releases:
 - release:
     id: 27882
     game_id: 9943
+    release_type: 1
   names:
   - id: 63707
     kind: 3
     kind_id: 27882
     language: 2
     name: 小金刚 (日版) (动作)-Donkey Kong Jr. (Japan)
+    deprecated: 1
   - id: 63708
     kind: 3
     kind_id: 27882
@@ -501,6 +393,12 @@ releases:
     language: 1
     name: Donkey Kong Jr. (Japan) (En)
     source: no-intro
+  - id: 265544
+    kind: 3
+    kind_id: 27882
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 27864

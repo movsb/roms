@@ -21,6 +21,7 @@ releases:
 - release:
     id: 11912
     game_id: 11912
+    release_type: 1
   names:
   - id: 26098
     kind: 3
@@ -39,12 +40,19 @@ releases:
     kind_id: 11912
     language: 2
     name: 十三号星期五 (美版) (动作)-Friday the 13th (USA)
+    deprecated: 1
   - id: 258268
     kind: 3
     kind_id: 11912
     language: 1
     name: Friday the 13th (USA)
     source: no-intro
+  - id: 264219
+    kind: 3
+    kind_id: 11912
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 11894
@@ -72,111 +80,6 @@ releases:
       blob_id: 322559
       debug: fc-title-trial:fceumm:rom-asset=11894:frame=600
 - release:
-    id: 11913
-    game_id: 11912
-    release_type: 2
-  names:
-  - id: 83126
-    kind: 3
-    kind_id: 11913
-    language: 1
-    name: Friday the 13th (U) [T+Rus_Guyver]
-  assets:
-  - asset:
-      id: 11895
-      kind: 3
-      kind_id: 11913
-      type: 1
-      name: Friday the 13th (U) [T+Rus_Guyver].nes
-      format: 1
-      size: 65552
-      blob_id: 57845
-      debug: Friday the 13th (U) [T+Rus_Guyver].nes
-- release:
-    id: 11914
-    game_id: 11912
-    release_type: 2
-  names:
-  - id: 83127
-    kind: 3
-    kind_id: 11914
-    language: 1
-    name: Friday the 13th (U) [T+Rus_Guyver][a1]
-  assets:
-  - asset:
-      id: 11896
-      kind: 3
-      kind_id: 11914
-      type: 1
-      name: Friday the 13th (U) [T+Rus_Guyver][a1].nes
-      format: 1
-      size: 65552
-      blob_id: 57846
-      debug: Friday the 13th (U) [T+Rus_Guyver][a1].nes
-- release:
-    id: 11915
-    game_id: 11912
-    release_type: 2
-  names:
-  - id: 83128
-    kind: 3
-    kind_id: 11915
-    language: 1
-    name: Friday the 13th (U) [T+Rus_Kom. Vlad]
-  assets:
-  - asset:
-      id: 11897
-      kind: 3
-      kind_id: 11915
-      type: 1
-      name: Friday the 13th (U) [T+Rus_Kom. Vlad].nes
-      format: 1
-      size: 65552
-      blob_id: 57847
-      debug: Friday the 13th (U) [T+Rus_Kom. Vlad].nes
-- release:
-    id: 11916
-    game_id: 11912
-    release_type: 2
-  names:
-  - id: 83129
-    kind: 3
-    kind_id: 11916
-    language: 1
-    name: Friday the 13th (U) [T+Spa100%_spctrmxd]
-  assets:
-  - asset:
-      id: 11898
-      kind: 3
-      kind_id: 11916
-      type: 1
-      name: Friday the 13th (U) [T+Spa100%_spctrmxd].nes
-      format: 1
-      size: 65552
-      blob_id: 57848
-      debug: Friday the 13th (U) [T+Spa100%_spctrmxd].nes
-- release:
-    id: 11917
-    game_id: 11912
-    release_type: 2
-  names:
-  - id: 83130
-    kind: 3
-    kind_id: 11917
-    language: 1
-    name: Friday the 13th (U) [T+Spa_Tanero]
-  assets:
-  - asset:
-      id: 11899
-      kind: 3
-      kind_id: 11917
-      type: 1
-      name: Friday the 13th (U) [T+Spa_Tanero].nes
-      format: 1
-      size: 65552
-      blob_id: 57849
-      debug: Friday the 13th (U) [T+Spa_Tanero].nes
-- release:
     id: 11919
     game_id: 11912
   names:
@@ -196,24 +99,3 @@ releases:
       size: 65552
       blob_id: 57851
       debug: Friday the 13th (U) [p1].nes
-- release:
-    id: 11920
-    game_id: 11912
-    release_type: 2
-  names:
-  - id: 83131
-    kind: 3
-    kind_id: 11920
-    language: 1
-    name: Friday the 13th (U) [p1][T+Spa100_spctrmxd]
-  assets:
-  - asset:
-      id: 11902
-      kind: 3
-      kind_id: 11920
-      type: 1
-      name: Friday the 13th (U) [p1][T+Spa100_spctrmxd].nes
-      format: 1
-      size: 65552
-      blob_id: 57852
-      debug: Friday the 13th (U) [p1][T+Spa100_spctrmxd].nes

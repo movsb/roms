@@ -25,27 +25,6 @@ names:
   name: Juuouki
 releases:
 - release:
-    id: 14194
-    game_id: 14194
-    release_type: 2
-  names:
-  - id: 83448
-    kind: 3
-    kind_id: 14194
-    language: 1
-    name: Juuouki (J) [T+Bra90%_BRGames]
-  assets:
-  - asset:
-      id: 14176
-      kind: 3
-      kind_id: 14194
-      type: 1
-      name: Juuouki (J) [T+Bra90%_BRGames].nes
-      format: 1
-      size: 262160
-      blob_id: 59982
-      debug: Juuouki (J) [T+Bra90%_BRGames].nes
-- release:
     id: 14195
     game_id: 14194
     release_date: 19900720
@@ -136,12 +115,14 @@ releases:
 - release:
     id: 27050
     game_id: 14194
+    release_type: 1
   names:
   - id: 60969
     kind: 3
     kind_id: 27050
     language: 2
     name: 兽王记 (日版) (动作)-Juuouki (Japan)
+    deprecated: 1
   - id: 60970
     kind: 3
     kind_id: 27050
@@ -154,6 +135,12 @@ releases:
     language: 1
     name: Juuouki (Japan) (En)
     source: no-intro
+  - id: 265306
+    kind: 3
+    kind_id: 27050
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 27032
@@ -181,18 +168,26 @@ releases:
 - release:
     id: 27051
     game_id: 14194
+    release_type: 1
   names:
   - id: 60972
     kind: 3
     kind_id: 27051
     language: 2
     name: 兽王记
+    deprecated: 1
   - id: 260104
     kind: 3
     kind_id: 27051
     language: 1
     name: Juuouki (Japan) (En)
     source: no-intro
+  - id: 265307
+    kind: 3
+    kind_id: 27051
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 27033

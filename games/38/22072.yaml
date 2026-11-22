@@ -79,27 +79,6 @@ releases:
       blob_id: 67416
       debug: Street Fighter 2000 (Hack).nes
 - release:
-    id: 22072
-    game_id: 22072
-    release_type: 2
-  names:
-  - id: 84446
-    kind: 3
-    kind_id: 22072
-    language: 1
-    name: Street Fighter 2010 (J) [T+Kor]
-  assets:
-  - asset:
-      id: 22054
-      kind: 3
-      kind_id: 22072
-      type: 1
-      name: Street Fighter 2010 (J) [T+Kor].nes
-      format: 1
-      size: 262160
-      blob_id: 67417
-      debug: Street Fighter 2010 (J) [T+Kor].nes
-- release:
     id: 22073
     game_id: 22072
   names:
@@ -171,6 +150,7 @@ releases:
 - release:
     id: 22077
     game_id: 22072
+    release_type: 1
   names:
   - id: 49152
     kind: 3
@@ -195,12 +175,19 @@ releases:
     kind_id: 22077
     language: 2
     name: 街头战士2010
+    deprecated: 1
   - id: 259432
     kind: 3
     kind_id: 22077
     language: 1
     name: "Street Fighter 2010 - The Final Fight (USA)"
     source: no-intro
+  - id: 264922
+    kind: 3
+    kind_id: 22077
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 22059
@@ -223,90 +210,6 @@ releases:
       size: 3290
       blob_id: 325159
       debug: libretro-named-titles:rom-asset=22059:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Street%20Fighter%202010%20-%20The%20Final%20Fight%20%28USA%29.png
-- release:
-    id: 22079
-    game_id: 22072
-    release_type: 2
-  names:
-  - id: 84447
-    kind: 3
-    kind_id: 22079
-    language: 1
-    name: "Street Fighter 2010 - The Final Fight (U) [T+Bra1.0_devilfox]"
-  assets:
-  - asset:
-      id: 22061
-      kind: 3
-      kind_id: 22079
-      type: 1
-      name: "Street Fighter 2010 - The Final Fight (U) [T+Bra1.0_devilfox].nes"
-      format: 1
-      size: 262160
-      blob_id: 67423
-      debug: "Street Fighter 2010 - The Final Fight (U) [T+Bra1.0_devilfox].nes"
-- release:
-    id: 22080
-    game_id: 22072
-    release_type: 2
-  names:
-  - id: 84448
-    kind: 3
-    kind_id: 22080
-    language: 1
-    name: "Street Fighter 2010 - The Final Fight (U) [T+Bra1.1_BRGames]"
-  assets:
-  - asset:
-      id: 22062
-      kind: 3
-      kind_id: 22080
-      type: 1
-      name: "Street Fighter 2010 - The Final Fight (U) [T+Bra1.1_BRGames].nes"
-      format: 1
-      size: 262160
-      blob_id: 67424
-      debug: "Street Fighter 2010 - The Final Fight (U) [T+Bra1.1_BRGames].nes"
-- release:
-    id: 22081
-    game_id: 22072
-    release_type: 2
-  names:
-  - id: 84449
-    kind: 3
-    kind_id: 22081
-    language: 1
-    name: "Street Fighter 2010 - The Final Fight (U) [T+Rus_Fev]"
-  assets:
-  - asset:
-      id: 22063
-      kind: 3
-      kind_id: 22081
-      type: 1
-      name: "Street Fighter 2010 - The Final Fight (U) [T+Rus_Fev].nes"
-      format: 1
-      size: 262160
-      blob_id: 67425
-      debug: "Street Fighter 2010 - The Final Fight (U) [T+Rus_Fev].nes"
-- release:
-    id: 22082
-    game_id: 22072
-    release_type: 2
-  names:
-  - id: 84450
-    kind: 3
-    kind_id: 22082
-    language: 1
-    name: "Street Fighter 2010 - The Final Fight (U) [T+Rus_Shurik]"
-  assets:
-  - asset:
-      id: 22064
-      kind: 3
-      kind_id: 22082
-      type: 1
-      name: "Street Fighter 2010 - The Final Fight (U) [T+Rus_Shurik].nes"
-      format: 1
-      size: 262160
-      blob_id: 67426
-      debug: "Street Fighter 2010 - The Final Fight (U) [T+Rus_Shurik].nes"
 - release:
     id: 22089
     game_id: 22072
@@ -352,12 +255,14 @@ releases:
 - release:
     id: 29645
     game_id: 22072
+    release_type: 1
   names:
   - id: 69641
     kind: 3
     kind_id: 29645
     language: 2
     name: 街头战士 2010 (日版) (格斗)-Street Fighter 2010 (Japan)
+    deprecated: 1
   - id: 69642
     kind: 3
     kind_id: 29645
@@ -370,6 +275,12 @@ releases:
     language: 1
     name: 2010 Street Fighter (Japan)
     source: no-intro
+  - id: 266102
+    kind: 3
+    kind_id: 29645
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 29627
@@ -397,18 +308,26 @@ releases:
 - release:
     id: 29667
     game_id: 22072
+    release_type: 1
   names:
   - id: 69692
     kind: 3
     kind_id: 29667
     language: 2
     name: 街霸2010
+    deprecated: 1
   - id: 261143
     kind: 3
     kind_id: 29667
     language: 1
     name: "Street Fighter 2010 - The Final Fight (USA)"
     source: no-intro
+  - id: 266103
+    kind: 3
+    kind_id: 29667
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 29649

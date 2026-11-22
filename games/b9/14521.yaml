@@ -42,6 +42,7 @@ releases:
 - release:
     id: 14521
     game_id: 14521
+    release_type: 1
   names:
   - id: 32144
     kind: 3
@@ -54,6 +55,7 @@ releases:
     kind_id: 14521
     language: 2
     name: "光神话 - 帕尔提娜之镜 (美版,欧版) (动作)-Kid Icarus - Angel Land Story (USA, Europe)"
+    deprecated: 1
   - id: 60814
     kind: 3
     kind_id: 14521
@@ -66,6 +68,12 @@ releases:
     language: 1
     name: Kid Icarus (USA, Europe)
     source: no-intro
+  - id: 264421
+    kind: 3
+    kind_id: 14521
+    language: 2
+    name: 美欧版
+    source: codex
   assets:
   - asset:
       id: 14503
@@ -129,111 +137,6 @@ releases:
       blob_id: 324918
       debug: libretro-named-titles:rom-asset=14504:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Kid%20Icarus%20%28USA%2C%20Europe%29%20%28Rev%201%29%20%28Virtual%20Console%29.png
 - release:
-    id: 14523
-    game_id: 14521
-    release_type: 2
-  names:
-  - id: 83538
-    kind: 3
-    kind_id: 14523
-    language: 1
-    name: Kid Icarus (UE) [T+Fre1.0_Generation IX]
-  assets:
-  - asset:
-      id: 14505
-      kind: 3
-      kind_id: 14523
-      type: 1
-      name: Kid Icarus (UE) [T+Fre1.0_Generation IX].nes
-      format: 1
-      size: 131088
-      blob_id: 60285
-      debug: Kid Icarus (UE) [T+Fre1.0_Generation IX].nes
-- release:
-    id: 14524
-    game_id: 14521
-    release_type: 2
-  names:
-  - id: 83539
-    kind: 3
-    kind_id: 14524
-    language: 1
-    name: Kid Icarus (UE) [T+Fre]
-  assets:
-  - asset:
-      id: 14506
-      kind: 3
-      kind_id: 14524
-      type: 1
-      name: Kid Icarus (UE) [T+Fre].nes
-      format: 1
-      size: 131088
-      blob_id: 60286
-      debug: Kid Icarus (UE) [T+Fre].nes
-- release:
-    id: 14525
-    game_id: 14521
-    release_type: 2
-  names:
-  - id: 83540
-    kind: 3
-    kind_id: 14525
-    language: 1
-    name: Kid Icarus (UE) [T+Fre_Cyril125]
-  assets:
-  - asset:
-      id: 14507
-      kind: 3
-      kind_id: 14525
-      type: 1
-      name: Kid Icarus (UE) [T+Fre_Cyril125].nes
-      format: 1
-      size: 131088
-      blob_id: 60287
-      debug: Kid Icarus (UE) [T+Fre_Cyril125].nes
-- release:
-    id: 14526
-    game_id: 14521
-    release_type: 2
-  names:
-  - id: 83541
-    kind: 3
-    kind_id: 14526
-    language: 1
-    name: Kid Icarus (UE) [T+Ger1.0]
-  assets:
-  - asset:
-      id: 14508
-      kind: 3
-      kind_id: 14526
-      type: 1
-      name: Kid Icarus (UE) [T+Ger1.0].nes
-      format: 1
-      size: 131088
-      blob_id: 60288
-      debug: Kid Icarus (UE) [T+Ger1.0].nes
-- release:
-    id: 14527
-    game_id: 14521
-    release_type: 2
-  names:
-  - id: 83542
-    kind: 3
-    kind_id: 14527
-    language: 1
-    name: Kid Icarus (UE) [T+Ita1.0_Clomax_Dominion]
-  assets:
-  - asset:
-      id: 14509
-      kind: 3
-      kind_id: 14527
-      type: 1
-      name: Kid Icarus (UE) [T+Ita1.0_Clomax_Dominion].nes
-      format: 1
-      size: 131088
-      blob_id: 60289
-      debug: Kid Icarus (UE) [T+Ita1.0_Clomax_Dominion].nes
-- release:
     id: 14528
     game_id: 14521
     release_type: 2
@@ -275,69 +178,6 @@ releases:
       size: 131088
       blob_id: 60291
       debug: Kid Icarus (UE) [T+Jap][a1].nes
-- release:
-    id: 14530
-    game_id: 14521
-    release_type: 2
-  names:
-  - id: 83545
-    kind: 3
-    kind_id: 14530
-    language: 1
-    name: Kid Icarus (UE) [T+Por95%_Mini Translations]
-  assets:
-  - asset:
-      id: 14512
-      kind: 3
-      kind_id: 14530
-      type: 1
-      name: Kid Icarus (UE) [T+Por95%_Mini Translations].nes
-      format: 1
-      size: 131088
-      blob_id: 60292
-      debug: Kid Icarus (UE) [T+Por95%_Mini Translations].nes
-- release:
-    id: 14531
-    game_id: 14521
-    release_type: 2
-  names:
-  - id: 83546
-    kind: 3
-    kind_id: 14531
-    language: 1
-    name: Kid Icarus (UE) [T+Swe1.1b_MetalHead]
-  assets:
-  - asset:
-      id: 14513
-      kind: 3
-      kind_id: 14531
-      type: 1
-      name: Kid Icarus (UE) [T+Swe1.1b_MetalHead].nes
-      format: 1
-      size: 131088
-      blob_id: 60293
-      debug: Kid Icarus (UE) [T+Swe1.1b_MetalHead].nes
-- release:
-    id: 14532
-    game_id: 14521
-    release_type: 2
-  names:
-  - id: 32184
-    kind: 3
-    kind_id: 14532
-    language: 1
-    name: Kid Icarus (UE) [T-Fre]
-  assets:
-  - asset:
-      id: 14514
-      kind: 3
-      kind_id: 14532
-      type: 1
-      name: Kid Icarus (UE) [T-Fre].nes
-      format: 1
-      size: 131088
-      blob_id: 60294
-      debug: Kid Icarus (UE) [T-Fre].nes
 - release:
     id: 14540
     game_id: 14521
@@ -384,17 +224,20 @@ releases:
 - release:
     id: 26993
     game_id: 14521
+    release_type: 1
   names:
   - id: 60806
     kind: 3
     kind_id: 26993
     language: 2
     name: 光之神话
+    deprecated: 1
   - id: 60809
     kind: 3
     kind_id: 26993
     language: 2
     name: "光神话 - 帕尔提娜之镜 (欧版)(Rev A) (动作)-Kid Icarus - Angel Land Story (Europe) (Rev A)"
+    deprecated: 1
   - id: 60810
     kind: 3
     kind_id: 26993
@@ -407,6 +250,12 @@ releases:
     language: 1
     name: Kid Icarus (USA, Europe) (Rev 1)
     source: no-intro
+  - id: 265294
+    kind: 3
+    kind_id: 26993
+    language: 2
+    name: 美欧版
+    source: codex
   assets:
   - asset:
       id: 26975

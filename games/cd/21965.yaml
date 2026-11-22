@@ -43,6 +43,7 @@ releases:
 - release:
     id: 21966
     game_id: 21965
+    release_type: 1
   names:
   - id: 48914
     kind: 3
@@ -55,6 +56,7 @@ releases:
     kind_id: 21966
     language: 2
     name: "星际大战 - 帝国大反击 (美版) (动作)-Star Wars - The Empire Strikes Back (USA)"
+    deprecated: 1
   - id: 65734
     kind: 3
     kind_id: 21966
@@ -67,6 +69,12 @@ releases:
     language: 1
     name: "Star Wars - The Empire Strikes Back (USA)"
     source: no-intro
+  - id: 264911
+    kind: 3
+    kind_id: 21966
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 21948
@@ -90,27 +98,6 @@ releases:
       blob_id: 324191
       debug: libretro-named-titles:rom-asset=21948:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Star%20Wars%20-%20The%20Empire%20Strikes%20Back%20%28USA%29.png
 - release:
-    id: 21967
-    game_id: 21965
-    release_type: 2
-  names:
-  - id: 84439
-    kind: 3
-    kind_id: 21967
-    language: 1
-    name: "Star Wars - The Empire Strikes Back (U) [T+Ita0.5_Psyco]"
-  assets:
-  - asset:
-      id: 21949
-      kind: 3
-      kind_id: 21967
-      type: 1
-      name: "Star Wars - The Empire Strikes Back (U) [T+Ita0.5_Psyco].nes"
-      format: 1
-      size: 524304
-      blob_id: 67321
-      debug: "Star Wars - The Empire Strikes Back (U) [T+Ita0.5_Psyco].nes"
-- release:
     id: 21973
     game_id: 21965
   names:
@@ -133,6 +120,7 @@ releases:
 - release:
     id: 21974
     game_id: 21965
+    release_type: 1
   names:
   - id: 48932
     kind: 3
@@ -146,6 +134,12 @@ releases:
     language: 1
     name: "Star Wars - The Empire Strikes Back (USA)"
     source: no-intro
+  - id: 264912
+    kind: 3
+    kind_id: 21974
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 21956
@@ -171,12 +165,14 @@ releases:
 - release:
     id: 28495
     game_id: 21965
+    release_type: 1
   names:
   - id: 65725
     kind: 3
     kind_id: 28495
     language: 2
     name: "星际大战 - 帝国大反击 (日版) (动作)-Star Wars - The Empire Strikes Back (Japan)"
+    deprecated: 1
   - id: 65726
     kind: 3
     kind_id: 28495
@@ -189,6 +185,12 @@ releases:
     language: 1
     name: "Star Wars - The Empire Strikes Back (Japan)"
     source: no-intro
+  - id: 265735
+    kind: 3
+    kind_id: 28495
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 28477
@@ -214,12 +216,14 @@ releases:
 - release:
     id: 28496
     game_id: 21965
+    release_type: 1
   names:
   - id: 65729
     kind: 3
     kind_id: 28496
     language: 2
     name: "星际大战 - 帝国大反击 (欧版) (动作)-Star Wars - The Empire Strikes Back (Europe)"
+    deprecated: 1
   - id: 65730
     kind: 3
     kind_id: 28496
@@ -232,6 +236,12 @@ releases:
     language: 1
     name: "Star Wars - The Empire Strikes Back (Europe)"
     source: no-intro
+  - id: 265736
+    kind: 3
+    kind_id: 28496
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 28478

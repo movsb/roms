@@ -75,27 +75,6 @@ releases:
       blob_id: 323325
       debug: fc-title-trial:fceumm:rom-asset=9203:frame=300
 - release:
-    id: 9222
-    game_id: 27988
-    release_type: 2
-  names:
-  - id: 82653
-    kind: 3
-    kind_id: 9222
-    language: 1
-    name: Crisis Force (J) [T+Bra_Monkey]
-  assets:
-  - asset:
-      id: 9204
-      kind: 3
-      kind_id: 9222
-      type: 1
-      name: Crisis Force (J) [T+Bra_Monkey].nes
-      format: 1
-      size: 262160
-      blob_id: 55319
-      debug: Crisis Force (J) [T+Bra_Monkey].nes
-- release:
     id: 9223
     game_id: 27988
     release_type: 2
@@ -148,69 +127,6 @@ releases:
       debug: |-
         Crisis Force (J) [T+Eng1.0_Stardust Crusaders].nes
         Crisis Force (Japan) (Translated En).zip
-- release:
-    id: 9225
-    game_id: 27988
-    release_type: 2
-  names:
-  - id: 82656
-    kind: 3
-    kind_id: 9225
-    language: 1
-    name: Crisis Force (J) [T+Fre1.0_ks151]
-  assets:
-  - asset:
-      id: 9207
-      kind: 3
-      kind_id: 9225
-      type: 1
-      name: Crisis Force (J) [T+Fre1.0_ks151].nes
-      format: 1
-      size: 262160
-      blob_id: 55322
-      debug: Crisis Force (J) [T+Fre1.0_ks151].nes
-- release:
-    id: 9226
-    game_id: 27988
-    release_type: 2
-  names:
-  - id: 82657
-    kind: 3
-    kind_id: 9226
-    language: 1
-    name: Crisis Force (J) [T+Kor_dkny94]
-  assets:
-  - asset:
-      id: 9208
-      kind: 3
-      kind_id: 9226
-      type: 1
-      name: Crisis Force (J) [T+Kor_dkny94].nes
-      format: 1
-      size: 262160
-      blob_id: 55323
-      debug: Crisis Force (J) [T+Kor_dkny94].nes
-- release:
-    id: 9227
-    game_id: 27988
-    release_type: 2
-  names:
-  - id: 82658
-    kind: 3
-    kind_id: 9227
-    language: 1
-    name: Crisis Force (J) [T+Rus_alex_str85]
-  assets:
-  - asset:
-      id: 9209
-      kind: 3
-      kind_id: 9227
-      type: 1
-      name: Crisis Force (J) [T+Rus_alex_str85].nes
-      format: 1
-      size: 262160
-      blob_id: 55324
-      debug: Crisis Force (J) [T+Rus_alex_str85].nes
 - release:
     id: 9230
     game_id: 27988
@@ -325,12 +241,14 @@ releases:
 - release:
     id: 27985
     game_id: 27988
+    release_type: 1
   names:
   - id: 64069
     kind: 3
     kind_id: 27985
     language: 2
     name: 帝国战机 (日版) (射击)-Crisis Force (Japan)
+    deprecated: 1
   - id: 64070
     kind: 3
     kind_id: 27985
@@ -343,6 +261,12 @@ releases:
     language: 1
     name: Crisis Force (Japan) (En)
     source: no-intro
+  - id: 265582
+    kind: 3
+    kind_id: 27985
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 27967

@@ -37,6 +37,7 @@ releases:
 - release:
     id: 23299
     game_id: 23306
+    release_type: 1
   names:
   - id: 52008
     kind: 3
@@ -55,12 +56,19 @@ releases:
     kind_id: 23299
     language: 2
     name: 美国沙滩排球锦标赛 (美版) (运动)-Super Spike VBall (USA)
+    deprecated: 1
   - id: 259546
     kind: 3
     kind_id: 23299
     language: 1
     name: Super Spike V'Ball (USA)
     source: no-intro
+  - id: 264944
+    kind: 3
+    kind_id: 23299
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 23281
@@ -90,12 +98,14 @@ releases:
 - release:
     id: 29439
     game_id: 23306
+    release_type: 1
   names:
   - id: 68933
     kind: 3
     kind_id: 29439
     language: 2
     name: 美国沙滩排球锦标赛 (欧版) (运动)-Super Spike VBall (Europe)
+    deprecated: 1
   - id: 68934
     kind: 3
     kind_id: 29439
@@ -108,6 +118,12 @@ releases:
     language: 1
     name: Super Spike V'Ball (Europe)
     source: no-intro
+  - id: 266035
+    kind: 3
+    kind_id: 29439
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 29421

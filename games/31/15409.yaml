@@ -68,27 +68,6 @@ releases:
       blob_id: 61111
       debug: "Lupin Sansei - Pandora no Isan (J) [T+Eng_Vice].nes\nLupin Sansei - Pandora no Isan (J) [T+Eng_Vice].zip"
 - release:
-    id: 15411
-    game_id: 15409
-    release_type: 2
-  names:
-  - id: 83690
-    kind: 3
-    kind_id: 15411
-    language: 1
-    name: "Lupin Sansei - Pandora no Isan (J) [T+Rus_Chief-Net]"
-  assets:
-  - asset:
-      id: 15393
-      kind: 3
-      kind_id: 15411
-      type: 1
-      name: "Lupin Sansei - Pandora no Isan (J) [T+Rus_Chief-Net].nes"
-      format: 1
-      size: 196624
-      blob_id: 61112
-      debug: "Lupin Sansei - Pandora no Isan (J) [T+Rus_Chief-Net].nes"
-- release:
     id: 15414
     game_id: 15409
     release_type: 3
@@ -203,12 +182,14 @@ releases:
 - release:
     id: 30374
     game_id: 15409
+    release_type: 1
   names:
   - id: 72077
     kind: 3
     kind_id: 30374
     language: 2
     name: "鲁邦三世 - 潘朵拉的遗产 (日版) (动作)-Lupin Sansei - Pandora no Isan (Japan)"
+    deprecated: 1
   - id: 72078
     kind: 3
     kind_id: 30374
@@ -221,6 +202,12 @@ releases:
     language: 1
     name: "Lupin Sansei - Pandora no Isan (Japan)"
     source: no-intro
+  - id: 266321
+    kind: 3
+    kind_id: 30374
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 30356

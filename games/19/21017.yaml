@@ -53,27 +53,6 @@ releases:
       blob_id: 66432
       debug: Shanghai 2 (J) [h1].nes
 - release:
-    id: 21015
-    game_id: 21017
-    release_type: 2
-  names:
-  - id: 84351
-    kind: 3
-    kind_id: 21015
-    language: 1
-    name: Shanghai 2 (J) [h1][T+Rus_Mario Soft]
-  assets:
-  - asset:
-      id: 20997
-      kind: 3
-      kind_id: 21015
-      type: 1
-      name: Shanghai 2 (J) [h1][T+Rus_Mario Soft].nes
-      format: 1
-      size: 131088
-      blob_id: 66433
-      debug: Shanghai 2 (J) [h1][T+Rus_Mario Soft].nes
-- release:
     id: 21016
     game_id: 21017
   names:
@@ -97,6 +76,7 @@ releases:
     id: 21017
     game_id: 21017
     release_date: 19900824
+    release_type: 1
   names:
   - id: 46834
     kind: 3
@@ -108,12 +88,19 @@ releases:
     kind_id: 21017
     language: 2
     name: 上海2
+    deprecated: 1
   - id: 259289
     kind: 3
     kind_id: 21017
     language: 1
     name: Shanghai II (Japan)
     source: no-intro
+  - id: 264836
+    kind: 3
+    kind_id: 21017
+    language: 2
+    name: 日版
+    source: codex
   release_publishers:
   - release_id: 21017
     publisher_id: 124

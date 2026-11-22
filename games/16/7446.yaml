@@ -254,6 +254,7 @@ releases:
 - release:
     id: 7454
     game_id: 7446
+    release_type: 1
   names:
   - id: 15648
     kind: 3
@@ -272,12 +273,19 @@ releases:
     kind_id: 7454
     language: 2
     name: 泡泡龙 (美版) (动作)-Bubble Bobble (USA)
+    deprecated: 1
   - id: 257826
     kind: 3
     kind_id: 7454
     language: 1
     name: Bubble Bobble (USA)
     source: no-intro
+  - id: 263949
+    kind: 3
+    kind_id: 7454
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 7436
@@ -332,111 +340,6 @@ releases:
       debug: |-
         Bubble Bobble (U) [T+Chi_NOKOH].nes
         泡泡龙1.zip
-- release:
-    id: 7456
-    game_id: 7446
-    release_type: 2
-  names:
-  - id: 82397
-    kind: 3
-    kind_id: 7456
-    language: 1
-    name: Bubble Bobble (U) [T+Fre]
-  assets:
-  - asset:
-      id: 7438
-      kind: 3
-      kind_id: 7456
-      type: 1
-      name: Bubble Bobble (U) [T+Fre].nes
-      format: 1
-      size: 262160
-      blob_id: 53632
-      debug: Bubble Bobble (U) [T+Fre].nes
-- release:
-    id: 7458
-    game_id: 7446
-    release_type: 2
-  names:
-  - id: 82399
-    kind: 3
-    kind_id: 7458
-    language: 1
-    name: Bubble Bobble (U) [T+Ger1.00_StarTrans]
-  assets:
-  - asset:
-      id: 7440
-      kind: 3
-      kind_id: 7458
-      type: 1
-      name: Bubble Bobble (U) [T+Ger1.00_StarTrans].nes
-      format: 1
-      size: 163856
-      blob_id: 53634
-      debug: Bubble Bobble (U) [T+Ger1.00_StarTrans].nes
-- release:
-    id: 7459
-    game_id: 7446
-    release_type: 2
-  names:
-  - id: 82400
-    kind: 3
-    kind_id: 7459
-    language: 1
-    name: Bubble Bobble (U) [T+Rus_Mario Soft]
-  assets:
-  - asset:
-      id: 7441
-      kind: 3
-      kind_id: 7459
-      type: 1
-      name: Bubble Bobble (U) [T+Rus_Mario Soft].nes
-      format: 1
-      size: 262160
-      blob_id: 53635
-      debug: Bubble Bobble (U) [T+Rus_Mario Soft].nes
-- release:
-    id: 7461
-    game_id: 7446
-    release_type: 2
-  names:
-  - id: 82402
-    kind: 3
-    kind_id: 7461
-    language: 1
-    name: Bubble Bobble (U) [T+Spa1.0_PaladinKnights]
-  assets:
-  - asset:
-      id: 7443
-      kind: 3
-      kind_id: 7461
-      type: 1
-      name: Bubble Bobble (U) [T+Spa1.0_PaladinKnights].nes
-      format: 1
-      size: 163856
-      blob_id: 53637
-      debug: Bubble Bobble (U) [T+Spa1.0_PaladinKnights].nes
-- release:
-    id: 7462
-    game_id: 7446
-    release_type: 2
-  names:
-  - id: 15678
-    kind: 3
-    kind_id: 7462
-    language: 1
-    name: Bubble Bobble (U) [T-Spa.99_PaladinKnights]
-  assets:
-  - asset:
-      id: 7444
-      kind: 3
-      kind_id: 7462
-      type: 1
-      name: Bubble Bobble (U) [T-Spa.99_PaladinKnights].nes
-      format: 1
-      size: 163856
-      blob_id: 53638
-      debug: Bubble Bobble (U) [T-Spa.99_PaladinKnights].nes
 - release:
     id: 7494
     game_id: 7446
@@ -513,12 +416,14 @@ releases:
 - release:
     id: 28791
     game_id: 7446
+    release_type: 1
   names:
   - id: 66757
     kind: 3
     kind_id: 28791
     language: 2
     name: 泡泡龙 (欧版) (动作)-Bubble Bobble (Europe)
+    deprecated: 1
   - id: 66758
     kind: 3
     kind_id: 28791
@@ -531,6 +436,12 @@ releases:
     language: 1
     name: Bubble Bobble (Europe)
     source: no-intro
+  - id: 265838
+    kind: 3
+    kind_id: 28791
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 28773

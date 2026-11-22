@@ -112,6 +112,7 @@ releases:
 - release:
     id: 5467
     game_id: 5464
+    release_type: 1
   names:
   - id: 11176
     kind: 3
@@ -124,12 +125,19 @@ releases:
     kind_id: 5467
     language: 2
     name: 蛋王子大冒险 (美版) (益智)-Adventures of Lolo (USA)
+    deprecated: 1
   - id: 257604
     kind: 3
     kind_id: 5467
     language: 1
     name: Adventures of Lolo (USA)
     source: no-intro
+  - id: 263814
+    kind: 3
+    kind_id: 5467
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 5449
@@ -155,27 +163,6 @@ releases:
       size: 3850
       blob_id: 322352
       debug: fc-title-trial:fceumm:rom-asset=5449:frame=4200
-- release:
-    id: 5468
-    game_id: 5464
-    release_type: 2
-  names:
-  - id: 82148
-    kind: 3
-    kind_id: 5468
-    language: 1
-    name: Adventures of Lolo (U) [T+Rum_gorgyrip]
-  assets:
-  - asset:
-      id: 5450
-      kind: 3
-      kind_id: 5468
-      type: 1
-      name: Adventures of Lolo (U) [T+Rum_gorgyrip].nes
-      format: 1
-      size: 65552
-      blob_id: 51759
-      debug: Adventures of Lolo (U) [T+Rum_gorgyrip].nes
 - release:
     id: 5488
     game_id: 5464
@@ -239,12 +226,14 @@ releases:
 - release:
     id: 29608
     game_id: 5464
+    release_type: 1
   names:
   - id: 69511
     kind: 3
     kind_id: 29608
     language: 2
     name: 蛋王子大冒险 (欧版) (益智)-Adventures of Lolo (Europe)
+    deprecated: 1
   - id: 69512
     kind: 3
     kind_id: 29608
@@ -257,6 +246,12 @@ releases:
     language: 1
     name: Adventures of Lolo (Europe)
     source: no-intro
+  - id: 266088
+    kind: 3
+    kind_id: 29608
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 29590

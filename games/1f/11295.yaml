@@ -36,6 +36,7 @@ releases:
 - release:
     id: 11295
     game_id: 11295
+    release_type: 1
   names:
   - id: 24558
     kind: 3
@@ -49,6 +50,12 @@ releases:
     language: 1
     name: Felix the Cat (Europe) (Hudson)
     source: no-intro
+  - id: 264192
+    kind: 3
+    kind_id: 11295
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 11277
@@ -76,6 +83,7 @@ releases:
 - release:
     id: 11296
     game_id: 11295
+    release_type: 1
   names:
   - id: 24560
     kind: 3
@@ -94,12 +102,19 @@ releases:
     kind_id: 11296
     language: 2
     name: 菲力猫 (美版) (动作)-Felix the Cat (USA)
+    deprecated: 1
   - id: 258213
     kind: 3
     kind_id: 11296
     language: 1
     name: Felix the Cat (USA) (Hudson)
     source: no-intro
+  - id: 264193
+    kind: 3
+    kind_id: 11296
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 11278
@@ -126,216 +141,6 @@ releases:
       size: 2152
       blob_id: 323985
       debug: libretro-named-titles:rom-asset=11278:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Felix%20the%20Cat%20%28USA%29.png
-- release:
-    id: 11297
-    game_id: 11295
-    release_type: 2
-  names:
-  - id: 82992
-    kind: 3
-    kind_id: 11297
-    language: 1
-    name: Felix the Cat (U) [T+Bra1.00_Emuway]
-  assets:
-  - asset:
-      id: 11279
-      kind: 3
-      kind_id: 11297
-      type: 1
-      name: Felix the Cat (U) [T+Bra1.00_Emuway].nes
-      format: 1
-      size: 262160
-      blob_id: 57259
-      debug: Felix the Cat (U) [T+Bra1.00_Emuway].nes
-- release:
-    id: 11298
-    game_id: 11295
-    release_type: 2
-  names:
-  - id: 82993
-    kind: 3
-    kind_id: 11298
-    language: 1
-    name: Felix the Cat (U) [T+Bra100%_Emuroms]
-  assets:
-  - asset:
-      id: 11280
-      kind: 3
-      kind_id: 11298
-      type: 1
-      name: Felix the Cat (U) [T+Bra100%_Emuroms].nes
-      format: 1
-      size: 262160
-      blob_id: 57260
-      debug: Felix the Cat (U) [T+Bra100%_Emuroms].nes
-- release:
-    id: 11299
-    game_id: 11295
-    release_type: 2
-  names:
-  - id: 82994
-    kind: 3
-    kind_id: 11299
-    language: 1
-    name: Felix the Cat (U) [T+Bra_tradu-gamex]
-  assets:
-  - asset:
-      id: 11281
-      kind: 3
-      kind_id: 11299
-      type: 1
-      name: Felix the Cat (U) [T+Bra_tradu-gamex].nes
-      format: 1
-      size: 262160
-      blob_id: 57261
-      debug: Felix the Cat (U) [T+Bra_tradu-gamex].nes
-- release:
-    id: 11300
-    game_id: 11295
-    release_type: 2
-  names:
-  - id: 82995
-    kind: 3
-    kind_id: 11300
-    language: 1
-    name: Felix the Cat (U) [T+Fre_Tibonou]
-  assets:
-  - asset:
-      id: 11282
-      kind: 3
-      kind_id: 11300
-      type: 1
-      name: Felix the Cat (U) [T+Fre_Tibonou].nes
-      format: 1
-      size: 262160
-      blob_id: 57262
-      debug: Felix the Cat (U) [T+Fre_Tibonou].nes
-- release:
-    id: 11301
-    game_id: 11295
-    release_type: 2
-  names:
-  - id: 82996
-    kind: 3
-    kind_id: 11301
-    language: 1
-    name: Felix the Cat (U) [T+Pol]
-  assets:
-  - asset:
-      id: 11283
-      kind: 3
-      kind_id: 11301
-      type: 1
-      name: Felix the Cat (U) [T+Pol].nes
-      format: 1
-      size: 262160
-      blob_id: 57263
-      debug: Felix the Cat (U) [T+Pol].nes
-- release:
-    id: 11302
-    game_id: 11295
-    release_type: 2
-  names:
-  - id: 82997
-    kind: 3
-    kind_id: 11302
-    language: 1
-    name: Felix the Cat (U) [T+Rus_Blader]
-  assets:
-  - asset:
-      id: 11284
-      kind: 3
-      kind_id: 11302
-      type: 1
-      name: Felix the Cat (U) [T+Rus_Blader].nes
-      format: 1
-      size: 262160
-      blob_id: 57264
-      debug: Felix the Cat (U) [T+Rus_Blader].nes
-- release:
-    id: 11303
-    game_id: 11295
-    release_type: 2
-  names:
-  - id: 82998
-    kind: 3
-    kind_id: 11303
-    language: 1
-    name: Felix the Cat (U) [T+Rus_Demolition Team]
-  assets:
-  - asset:
-      id: 11285
-      kind: 3
-      kind_id: 11303
-      type: 1
-      name: Felix the Cat (U) [T+Rus_Demolition Team].nes
-      format: 1
-      size: 262160
-      blob_id: 57265
-      debug: Felix the Cat (U) [T+Rus_Demolition Team].nes
-- release:
-    id: 11304
-    game_id: 11295
-    release_type: 2
-  names:
-  - id: 82999
-    kind: 3
-    kind_id: 11304
-    language: 1
-    name: Felix the Cat (U) [T+Rus_Devil-DevAng]
-  assets:
-  - asset:
-      id: 11286
-      kind: 3
-      kind_id: 11304
-      type: 1
-      name: Felix the Cat (U) [T+Rus_Devil-DevAng].nes
-      format: 1
-      size: 262160
-      blob_id: 57266
-      debug: Felix the Cat (U) [T+Rus_Devil-DevAng].nes
-- release:
-    id: 11305
-    game_id: 11295
-    release_type: 2
-  names:
-  - id: 83000
-    kind: 3
-    kind_id: 11305
-    language: 1
-    name: Felix the Cat (U) [T+Spa_elbeto57]
-  assets:
-  - asset:
-      id: 11287
-      kind: 3
-      kind_id: 11305
-      type: 1
-      name: Felix the Cat (U) [T+Spa_elbeto57].nes
-      format: 1
-      size: 262160
-      blob_id: 57267
-      debug: Felix the Cat (U) [T+Spa_elbeto57].nes
-- release:
-    id: 11306
-    game_id: 11295
-    release_type: 2
-  names:
-  - id: 24598
-    kind: 3
-    kind_id: 11306
-    language: 1
-    name: Felix the Cat (U) [T-Bra_Emuroms]
-  assets:
-  - asset:
-      id: 11288
-      kind: 3
-      kind_id: 11306
-      type: 1
-      name: Felix the Cat (U) [T-Bra_Emuroms].nes
-      format: 1
-      size: 262160
-      blob_id: 57268
-      debug: Felix the Cat (U) [T-Bra_Emuroms].nes
 - release:
     id: 11311
     game_id: 11295
@@ -421,6 +226,7 @@ releases:
 - release:
     id: 11318
     game_id: 11295
+    release_type: 1
   names:
   - id: 24622
     kind: 3
@@ -433,17 +239,25 @@ releases:
     kind_id: 11318
     language: 2
     name: 菲力克斯猫
+    deprecated: 1
   - id: 69368
     kind: 3
     kind_id: 11318
     language: 2
     name: 菲力猫
+    deprecated: 1
   - id: 258216
     kind: 3
     kind_id: 11318
     language: 1
     name: Felix the Cat (USA) (Hudson)
     source: no-intro
+  - id: 264194
+    kind: 3
+    kind_id: 11318
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 11300
@@ -493,18 +307,26 @@ releases:
 - release:
     id: 29567
     game_id: 11295
+    release_type: 1
   names:
   - id: 69362
     kind: 3
     kind_id: 29567
     language: 2
     name: 菲力猫 (欧版) (动作)-Felix the Cat (Europe)
+    deprecated: 1
   - id: 261104
     kind: 3
     kind_id: 29567
     language: 1
     name: Felix the Cat (Europe) (Hudson)
     source: no-intro
+  - id: 266069
+    kind: 3
+    kind_id: 29567
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 29549

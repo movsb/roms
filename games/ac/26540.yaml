@@ -21,6 +21,7 @@ releases:
 - release:
     id: 26540
     game_id: 26540
+    release_type: 1
   names:
   - id: 59364
     kind: 3
@@ -39,12 +40,19 @@ releases:
     kind_id: 26540
     language: 2
     name: 暴坊天狗 (美版) (射击)-Samurai Zombie Nation (USA)
+    deprecated: 1
   - id: 259887
     kind: 3
     kind_id: 26540
     language: 1
     name: Zombie Nation (USA)
     source: no-intro
+  - id: 265165
+    kind: 3
+    kind_id: 26540
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 26522
@@ -71,69 +79,6 @@ releases:
       size: 2900
       blob_id: 323149
       debug: fc-title-trial:fceumm:rom-asset=26522:frame=1500:start-frame=1200
-- release:
-    id: 26541
-    game_id: 26540
-    release_type: 2
-  names:
-  - id: 85046
-    kind: 3
-    kind_id: 26541
-    language: 1
-    name: Zombie Nation (U) [T+Fre]
-  assets:
-  - asset:
-      id: 26523
-      kind: 3
-      kind_id: 26541
-      type: 1
-      name: Zombie Nation (U) [T+Fre].nes
-      format: 1
-      size: 262160
-      blob_id: 71666
-      debug: Zombie Nation (U) [T+Fre].nes
-- release:
-    id: 26542
-    game_id: 26540
-    release_type: 2
-  names:
-  - id: 85047
-    kind: 3
-    kind_id: 26542
-    language: 1
-    name: Zombie Nation (U) [T+Rus_Razorvashka]
-  assets:
-  - asset:
-      id: 26524
-      kind: 3
-      kind_id: 26542
-      type: 1
-      name: Zombie Nation (U) [T+Rus_Razorvashka].nes
-      format: 1
-      size: 262160
-      blob_id: 71667
-      debug: Zombie Nation (U) [T+Rus_Razorvashka].nes
-- release:
-    id: 26543
-    game_id: 26540
-    release_type: 2
-  names:
-  - id: 85048
-    kind: 3
-    kind_id: 26543
-    language: 1
-    name: Zombie Nation (U) [T+Swe1.0_GeneralCoolNES]
-  assets:
-  - asset:
-      id: 26525
-      kind: 3
-      kind_id: 26543
-      type: 1
-      name: Zombie Nation (U) [T+Swe1.0_GeneralCoolNES].nes
-      format: 1
-      size: 262160
-      blob_id: 71668
-      debug: Zombie Nation (U) [T+Swe1.0_GeneralCoolNES].nes
 - release:
     id: 26549
     game_id: 26540

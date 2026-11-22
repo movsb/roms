@@ -33,6 +33,7 @@ releases:
 - release:
     id: 19414
     game_id: 19414
+    release_type: 1
   names:
   - id: 43222
     kind: 3
@@ -45,12 +46,19 @@ releases:
     kind_id: 19414
     language: 2
     name: 钻石方块 (美版) (益智)-Puzznic (USA)
+    deprecated: 1
   - id: 259115
     kind: 3
     kind_id: 19414
     language: 1
     name: Puzznic (USA)
     source: no-intro
+  - id: 264720
+    kind: 3
+    kind_id: 19414
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 19396
@@ -77,29 +85,9 @@ releases:
       blob_id: 322863
       debug: fc-title-trial:fceumm:rom-asset=19396:frame=180
 - release:
-    id: 19415
-    game_id: 19414
-    release_type: 2
-  names:
-  - id: 84172
-    kind: 3
-    kind_id: 19415
-    language: 1
-    name: Puzznic (U) [T+Rus1.0_Multisoft]
-  assets:
-  - asset:
-      id: 19397
-      kind: 3
-      kind_id: 19415
-      type: 1
-      name: Puzznic (U) [T+Rus1.0_Multisoft].nes
-      format: 1
-      size: 65552
-      blob_id: 64916
-      debug: Puzznic (U) [T+Rus1.0_Multisoft].nes
-- release:
     id: 19417
     game_id: 19414
+    release_type: 1
   names:
   - id: 43230
     kind: 3
@@ -113,6 +101,12 @@ releases:
     language: 1
     name: Puzznic (USA)
     source: no-intro
+  - id: 264721
+    kind: 3
+    kind_id: 19417
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 19399
@@ -140,12 +134,14 @@ releases:
 - release:
     id: 30040
     game_id: 19414
+    release_type: 1
   names:
   - id: 70953
     kind: 3
     kind_id: 30040
     language: 2
     name: 钻石方块 (日版) (益智)-Puzznic (Japan)
+    deprecated: 1
   - id: 70954
     kind: 3
     kind_id: 30040
@@ -158,6 +154,12 @@ releases:
     language: 1
     name: Puzznic (Japan)
     source: no-intro
+  - id: 266205
+    kind: 3
+    kind_id: 30040
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 30022
@@ -185,12 +187,14 @@ releases:
 - release:
     id: 30041
     game_id: 19414
+    release_type: 1
   names:
   - id: 70957
     kind: 3
     kind_id: 30041
     language: 2
     name: 钻石方块 (欧版) (益智)-Puzznic (Europe)
+    deprecated: 1
   - id: 70958
     kind: 3
     kind_id: 30041
@@ -203,6 +207,12 @@ releases:
     language: 1
     name: Puzznic (Europe)
     source: no-intro
+  - id: 266206
+    kind: 3
+    kind_id: 30041
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 30023

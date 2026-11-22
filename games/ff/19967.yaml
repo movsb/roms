@@ -21,6 +21,7 @@ releases:
 - release:
     id: 19967
     game_id: 19967
+    release_type: 1
   names:
   - id: 44454
     kind: 3
@@ -34,6 +35,12 @@ releases:
     language: 1
     name: RoadBlasters (Europe)
     source: no-intro
+  - id: 264759
+    kind: 3
+    kind_id: 19967
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 19949
@@ -61,6 +68,7 @@ releases:
 - release:
     id: 19968
     game_id: 19967
+    release_type: 1
   names:
   - id: 44456
     kind: 3
@@ -79,12 +87,19 @@ releases:
     kind_id: 19968
     language: 2
     name: 公路的赛车
+    deprecated: 1
   - id: 259179
     kind: 3
     kind_id: 19968
     language: 1
     name: RoadBlasters (USA)
     source: no-intro
+  - id: 264760
+    kind: 3
+    kind_id: 19968
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 19950
@@ -176,18 +191,26 @@ releases:
 - release:
     id: 29197
     game_id: 19967
+    release_type: 1
   names:
   - id: 68092
     kind: 3
     kind_id: 29197
     language: 2
     name: 疾风公路赛 (欧版) (竞赛)-RoadBlasters (Europe)
+    deprecated: 1
   - id: 260954
     kind: 3
     kind_id: 29197
     language: 1
     name: RoadBlasters (Europe)
     source: no-intro
+  - id: 265956
+    kind: 3
+    kind_id: 29197
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 29179

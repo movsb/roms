@@ -42,6 +42,7 @@ releases:
 - release:
     id: 25095
     game_id: 25095
+    release_type: 1
   names:
   - id: 56084
     kind: 3
@@ -60,12 +61,19 @@ releases:
     kind_id: 25095
     language: 2
     name: 毒魔侠 (美版) (动作)-Toxic Crusaders (USA)
+    deprecated: 1
   - id: 259694
     kind: 3
     kind_id: 25095
     language: 1
     name: Toxic Crusaders (USA)
     source: no-intro
+  - id: 265040
+    kind: 3
+    kind_id: 25095
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 25077
@@ -92,27 +100,6 @@ releases:
       size: 5083
       blob_id: 323068
       debug: fc-title-trial:fceumm:rom-asset=25077:frame=1800
-- release:
-    id: 25096
-    game_id: 25095
-    release_type: 2
-  names:
-  - id: 84856
-    kind: 3
-    kind_id: 25096
-    language: 1
-    name: Toxic Crusaders (U) [T+Rus_Rustranslate team]
-  assets:
-  - asset:
-      id: 25078
-      kind: 3
-      kind_id: 25096
-      type: 1
-      name: Toxic Crusaders (U) [T+Rus_Rustranslate team].nes
-      format: 1
-      size: 262160
-      blob_id: 70320
-      debug: Toxic Crusaders (U) [T+Rus_Rustranslate team].nes
 - release:
     id: 25099
     game_id: 25095
@@ -164,6 +151,7 @@ releases:
 - release:
     id: 25101
     game_id: 25095
+    release_type: 1
   names:
   - id: 56098
     kind: 3
@@ -177,6 +165,12 @@ releases:
     language: 1
     name: Toxic Crusaders (USA)
     source: no-intro
+  - id: 265041
+    kind: 3
+    kind_id: 25101
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 25083

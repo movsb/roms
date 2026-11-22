@@ -37,6 +37,7 @@ releases:
 - release:
     id: 8551
     game_id: 8551
+    release_type: 1
   names:
   - id: 18148
     kind: 3
@@ -50,6 +51,12 @@ releases:
     language: 1
     name: "Chip 'n Dale - Rescue Rangers 2 (Europe)"
     source: no-intro
+  - id: 263994
+    kind: 3
+    kind_id: 8551
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 8533
@@ -77,6 +84,7 @@ releases:
 - release:
     id: 8552
     game_id: 8551
+    release_type: 1
   names:
   - id: 18150
     kind: 3
@@ -95,12 +103,19 @@ releases:
     kind_id: 8552
     language: 2
     name: "松鼠大作战 - 奇奇与蒂蒂 II (美版) (动作)-Chip n Dale Rescue Rangers 2 (USA)"
+    deprecated: 1
   - id: 257894
     kind: 3
     kind_id: 8552
     language: 1
     name: "Chip 'n Dale - Rescue Rangers 2 (USA)"
     source: no-intro
+  - id: 263995
+    kind: 3
+    kind_id: 8552
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 8534
@@ -123,48 +138,6 @@ releases:
       size: 5568
       blob_id: 322424
       debug: fc-title-trial:fceumm:rom-asset=8534:frame=1200
-- release:
-    id: 8553
-    game_id: 8551
-    release_type: 2
-  names:
-  - id: 82547
-    kind: 3
-    kind_id: 8553
-    language: 1
-    name: Chip 'n Dale Rescue Rangers 2 (U) [T+Rus_Shedevr]
-  assets:
-  - asset:
-      id: 8535
-      kind: 3
-      kind_id: 8553
-      type: 1
-      name: Chip 'n Dale Rescue Rangers 2 (U) [T+Rus_Shedevr].nes
-      format: 1
-      size: 262160
-      blob_id: 54681
-      debug: Chip 'n Dale Rescue Rangers 2 (U) [T+Rus_Shedevr].nes
-- release:
-    id: 8554
-    game_id: 8551
-    release_type: 2
-  names:
-  - id: 82548
-    kind: 3
-    kind_id: 8554
-    language: 1
-    name: Chip 'n Dale Rescue Rangers 2 (U) [T+Swe]
-  assets:
-  - asset:
-      id: 8536
-      kind: 3
-      kind_id: 8554
-      type: 1
-      name: Chip 'n Dale Rescue Rangers 2 (U) [T+Swe].nes
-      format: 1
-      size: 262160
-      blob_id: 54682
-      debug: Chip 'n Dale Rescue Rangers 2 (U) [T+Swe].nes
 - release:
     id: 8556
     game_id: 8551
@@ -207,41 +180,28 @@ releases:
       blob_id: 54687
       debug: Chip 'n Dale Rescue Rangers 2 (U) [t1].nes
 - release:
-    id: 8560
-    game_id: 8551
-    release_type: 2
-  names:
-  - id: 82549
-    kind: 3
-    kind_id: 8560
-    language: 1
-    name: Chip 'n Dale Rescue Rangers 2 (U) [t1][T+Rus_Shedevr,Multisoft]
-  assets:
-  - asset:
-      id: 8542
-      kind: 3
-      kind_id: 8560
-      type: 1
-      name: Chip 'n Dale Rescue Rangers 2 (U) [t1][T+Rus_Shedevr,Multisoft].nes
-      format: 1
-      size: 262160
-      blob_id: 54688
-      debug: Chip 'n Dale Rescue Rangers 2 (U) [t1][T+Rus_Shedevr,Multisoft].nes
-- release:
     id: 28638
     game_id: 8551
+    release_type: 1
   names:
   - id: 66234
     kind: 3
     kind_id: 28638
     language: 2
     name: "松鼠大作战 - 奇奇与蒂蒂 II (欧版) (动作)-Chip n Dale Rescue Rangers 2 (Europe)"
+    deprecated: 1
   - id: 260739
     kind: 3
     kind_id: 28638
     language: 1
     name: "Chip 'n Dale - Rescue Rangers 2 (Europe)"
     source: no-intro
+  - id: 265793
+    kind: 3
+    kind_id: 28638
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 28620

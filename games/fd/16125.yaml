@@ -127,6 +127,7 @@ releases:
 - release:
     id: 16060
     game_id: 16125
+    release_type: 1
   names:
   - id: 35634
     kind: 3
@@ -146,6 +147,12 @@ releases:
     language: 1
     name: Mega Man 2 (USA)
     source: no-intro
+  - id: 264524
+    kind: 3
+    kind_id: 16060
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 16042
@@ -214,6 +221,7 @@ releases:
 - release:
     id: 16126
     game_id: 16125
+    release_type: 1
   names:
   - id: 35796
     kind: 3
@@ -227,6 +235,12 @@ releases:
     language: 1
     name: Mega Man 2 (Europe)
     source: no-intro
+  - id: 264529
+    kind: 3
+    kind_id: 16126
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 16108
@@ -251,27 +265,6 @@ releases:
       size: 3453
       blob_id: 322751
       debug: fc-title-trial:fceumm:rom-asset=16108:frame=3000:region=PAL
-- release:
-    id: 16127
-    game_id: 16125
-    release_type: 2
-  names:
-  - id: 83757
-    kind: 3
-    kind_id: 16127
-    language: 1
-    name: Megaman II (E) [T+Pol]
-  assets:
-  - asset:
-      id: 16109
-      kind: 3
-      kind_id: 16127
-      type: 1
-      name: Megaman II (E) [T+Pol].nes
-      format: 1
-      size: 262160
-      blob_id: 61796
-      debug: Megaman II (E) [T+Pol].nes
 - release:
     id: 16128
     game_id: 16125
@@ -315,6 +308,7 @@ releases:
 - release:
     id: 16129
     game_id: 16125
+    release_type: 1
   names:
   - id: 35804
     kind: 3
@@ -328,6 +322,12 @@ releases:
     language: 1
     name: Mega Man 2 (USA)
     source: no-intro
+  - id: 264530
+    kind: 3
+    kind_id: 16129
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 16111
@@ -353,468 +353,6 @@ releases:
       size: 1845
       blob_id: 324068
       debug: libretro-named-titles:rom-asset=16111:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mega%20Man%202%20%28USA%29.png
-- release:
-    id: 16131
-    game_id: 16125
-    release_type: 2
-  names:
-  - id: 83758
-    kind: 3
-    kind_id: 16131
-    language: 1
-    name: Megaman II (U) [T+Fre1.0]
-  assets:
-  - asset:
-      id: 16113
-      kind: 3
-      kind_id: 16131
-      type: 1
-      name: Megaman II (U) [T+Fre1.0].nes
-      format: 1
-      size: 262160
-      blob_id: 61799
-      debug: Megaman II (U) [T+Fre1.0].nes
-- release:
-    id: 16132
-    game_id: 16125
-    release_type: 2
-  names:
-  - id: 83759
-    kind: 3
-    kind_id: 16132
-    language: 1
-    name: Megaman II (U) [T+FreBeta(w-BossNames)_Generation IX]
-  assets:
-  - asset:
-      id: 16114
-      kind: 3
-      kind_id: 16132
-      type: 1
-      name: Megaman II (U) [T+FreBeta(w-BossNames)_Generation IX].nes
-      format: 1
-      size: 262160
-      blob_id: 61800
-      debug: Megaman II (U) [T+FreBeta(w-BossNames)_Generation IX].nes
-- release:
-    id: 16133
-    game_id: 16125
-    release_type: 2
-  names:
-  - id: 83760
-    kind: 3
-    kind_id: 16133
-    language: 1
-    name: Megaman II (U) [T+FreBeta_Generation IX]
-  assets:
-  - asset:
-      id: 16115
-      kind: 3
-      kind_id: 16133
-      type: 1
-      name: Megaman II (U) [T+FreBeta_Generation IX].nes
-      format: 1
-      size: 262160
-      blob_id: 61801
-      debug: Megaman II (U) [T+FreBeta_Generation IX].nes
-- release:
-    id: 16134
-    game_id: 16125
-    release_type: 2
-  names:
-  - id: 83761
-    kind: 3
-    kind_id: 16134
-    language: 1
-    name: Megaman II (U) [T+Ger1.01]
-  assets:
-  - asset:
-      id: 16116
-      kind: 3
-      kind_id: 16134
-      type: 1
-      name: Megaman II (U) [T+Ger1.01].nes
-      format: 1
-      size: 262160
-      blob_id: 61802
-      debug: Megaman II (U) [T+Ger1.01].nes
-- release:
-    id: 16135
-    game_id: 16125
-    release_type: 2
-  names:
-  - id: 83762
-    kind: 3
-    kind_id: 16135
-    language: 1
-    name: Megaman II (U) [T+Ita1.0_NukeTeam]
-  assets:
-  - asset:
-      id: 16117
-      kind: 3
-      kind_id: 16135
-      type: 1
-      name: Megaman II (U) [T+Ita1.0_NukeTeam].nes
-      format: 1
-      size: 262160
-      blob_id: 61803
-      debug: Megaman II (U) [T+Ita1.0_NukeTeam].nes
-- release:
-    id: 16136
-    game_id: 16125
-    release_type: 2
-  names:
-  - id: 83763
-    kind: 3
-    kind_id: 16136
-    language: 1
-    name: Megaman II (U) [T+Ita1.2_Clomax Dominion]
-  assets:
-  - asset:
-      id: 16118
-      kind: 3
-      kind_id: 16136
-      type: 1
-      name: Megaman II (U) [T+Ita1.2_Clomax Dominion].nes
-      format: 1
-      size: 262160
-      blob_id: 61804
-      debug: Megaman II (U) [T+Ita1.2_Clomax Dominion].nes
-- release:
-    id: 16137
-    game_id: 16125
-    release_type: 2
-  names:
-  - id: 83764
-    kind: 3
-    kind_id: 16137
-    language: 1
-    name: Megaman II (U) [T+Kor_88KTT]
-  assets:
-  - asset:
-      id: 16119
-      kind: 3
-      kind_id: 16137
-      type: 1
-      name: Megaman II (U) [T+Kor_88KTT].nes
-      format: 1
-      size: 262160
-      blob_id: 61805
-      debug: Megaman II (U) [T+Kor_88KTT].nes
-- release:
-    id: 16138
-    game_id: 16125
-    release_type: 2
-  names:
-  - id: 83765
-    kind: 3
-    kind_id: 16138
-    language: 1
-    name: Megaman II (U) [T+Nor.99_Just4fun]
-  assets:
-  - asset:
-      id: 16120
-      kind: 3
-      kind_id: 16138
-      type: 1
-      name: Megaman II (U) [T+Nor.99_Just4fun].nes
-      format: 1
-      size: 262160
-      blob_id: 61806
-      debug: Megaman II (U) [T+Nor.99_Just4fun].nes
-- release:
-    id: 16139
-    game_id: 16125
-    release_type: 2
-  names:
-  - id: 83766
-    kind: 3
-    kind_id: 16139
-    language: 1
-    name: Megaman II (U) [T+Por1.00_Emuway]
-  assets:
-  - asset:
-      id: 16121
-      kind: 3
-      kind_id: 16139
-      type: 1
-      name: Megaman II (U) [T+Por1.00_Emuway].nes
-      format: 1
-      size: 262160
-      blob_id: 61807
-      debug: Megaman II (U) [T+Por1.00_Emuway].nes
-- release:
-    id: 16140
-    game_id: 16125
-    release_type: 2
-  names:
-  - id: 83767
-    kind: 3
-    kind_id: 16140
-    language: 1
-    name: Megaman II (U) [T+Por100%_Evil Darkness]
-  assets:
-  - asset:
-      id: 16122
-      kind: 3
-      kind_id: 16140
-      type: 1
-      name: Megaman II (U) [T+Por100%_Evil Darkness].nes
-      format: 1
-      size: 262160
-      blob_id: 61808
-      debug: Megaman II (U) [T+Por100%_Evil Darkness].nes
-- release:
-    id: 16141
-    game_id: 16125
-    release_type: 2
-  names:
-  - id: 83768
-    kind: 3
-    kind_id: 16141
-    language: 1
-    name: Megaman II (U) [T+Por100%_GTC]
-  assets:
-  - asset:
-      id: 16123
-      kind: 3
-      kind_id: 16141
-      type: 1
-      name: Megaman II (U) [T+Por100%_GTC].nes
-      format: 1
-      size: 262160
-      blob_id: 61809
-      debug: Megaman II (U) [T+Por100%_GTC].nes
-- release:
-    id: 16142
-    game_id: 16125
-    release_type: 2
-  names:
-  - id: 83769
-    kind: 3
-    kind_id: 16142
-    language: 1
-    name: Megaman II (U) [T+Por100%_Odin Games]
-  assets:
-  - asset:
-      id: 16124
-      kind: 3
-      kind_id: 16142
-      type: 1
-      name: Megaman II (U) [T+Por100%_Odin Games].nes
-      format: 1
-      size: 262160
-      blob_id: 61810
-      debug: Megaman II (U) [T+Por100%_Odin Games].nes
-- release:
-    id: 16143
-    game_id: 16125
-    release_type: 2
-  names:
-  - id: 83770
-    kind: 3
-    kind_id: 16143
-    language: 1
-    name: Megaman II (U) [T+Por100%_TRB]
-  assets:
-  - asset:
-      id: 16125
-      kind: 3
-      kind_id: 16143
-      type: 1
-      name: Megaman II (U) [T+Por100%_TRB].nes
-      format: 1
-      size: 262160
-      blob_id: 61811
-      debug: Megaman II (U) [T+Por100%_TRB].nes
-- release:
-    id: 16144
-    game_id: 16125
-    release_type: 2
-  names:
-  - id: 83771
-    kind: 3
-    kind_id: 16144
-    language: 1
-    name: Megaman II (U) [T+Por]
-  assets:
-  - asset:
-      id: 16126
-      kind: 3
-      kind_id: 16144
-      type: 1
-      name: Megaman II (U) [T+Por].nes
-      format: 1
-      size: 262160
-      blob_id: 61812
-      debug: Megaman II (U) [T+Por].nes
-- release:
-    id: 16145
-    game_id: 16125
-    release_type: 2
-  names:
-  - id: 83772
-    kind: 3
-    kind_id: 16145
-    language: 1
-    name: Megaman II (U) [T+Rus_Rustranslate Team]
-  assets:
-  - asset:
-      id: 16127
-      kind: 3
-      kind_id: 16145
-      type: 1
-      name: Megaman II (U) [T+Rus_Rustranslate Team].nes
-      format: 1
-      size: 262160
-      blob_id: 61813
-      debug: Megaman II (U) [T+Rus_Rustranslate Team].nes
-- release:
-    id: 16146
-    game_id: 16125
-    release_type: 2
-  names:
-  - id: 83773
-    kind: 3
-    kind_id: 16146
-    language: 1
-    name: Megaman II (U) [T+Ser0.60_SeeGot]
-  assets:
-  - asset:
-      id: 16128
-      kind: 3
-      kind_id: 16146
-      type: 1
-      name: Megaman II (U) [T+Ser0.60_SeeGot].nes
-      format: 1
-      size: 262160
-      blob_id: 61814
-      debug: Megaman II (U) [T+Ser0.60_SeeGot].nes
-- release:
-    id: 16148
-    game_id: 16125
-    release_type: 2
-  names:
-  - id: 83775
-    kind: 3
-    kind_id: 16148
-    language: 1
-    name: Megaman II (U) [T+Spa.94_PaladinKnights]
-  assets:
-  - asset:
-      id: 16130
-      kind: 3
-      kind_id: 16148
-      type: 1
-      name: Megaman II (U) [T+Spa.94_PaladinKnights].nes
-      format: 1
-      size: 262160
-      blob_id: 61816
-      debug: Megaman II (U) [T+Spa.94_PaladinKnights].nes
-- release:
-    id: 16150
-    game_id: 16125
-    release_type: 2
-  names:
-  - id: 83777
-    kind: 3
-    kind_id: 16150
-    language: 1
-    name: Megaman II (U) [T+Spa100%_Tanero]
-  assets:
-  - asset:
-      id: 16132
-      kind: 3
-      kind_id: 16150
-      type: 1
-      name: Megaman II (U) [T+Spa100%_Tanero].nes
-      format: 1
-      size: 262160
-      blob_id: 61818
-      debug: Megaman II (U) [T+Spa100%_Tanero].nes
-- release:
-    id: 16151
-    game_id: 16125
-    release_type: 2
-  names:
-  - id: 83778
-    kind: 3
-    kind_id: 16151
-    language: 1
-    name: Megaman II (U) [T+Swe1.0_TheTranslator]
-  assets:
-  - asset:
-      id: 16133
-      kind: 3
-      kind_id: 16151
-      type: 1
-      name: Megaman II (U) [T+Swe1.0_TheTranslator].nes
-      format: 1
-      size: 262160
-      blob_id: 61819
-      debug: Megaman II (U) [T+Swe1.0_TheTranslator].nes
-- release:
-    id: 16152
-    game_id: 16125
-    release_type: 2
-  names:
-  - id: 83779
-    kind: 3
-    kind_id: 16152
-    language: 1
-    name: Megaman II (U) [T+Thai]
-  assets:
-  - asset:
-      id: 16134
-      kind: 3
-      kind_id: 16152
-      type: 1
-      name: Megaman II (U) [T+Thai].nes
-      format: 1
-      size: 262160
-      blob_id: 61820
-      debug: Megaman II (U) [T+Thai].nes
-- release:
-    id: 16153
-    game_id: 16125
-    release_type: 2
-  names:
-  - id: 35896
-    kind: 3
-    kind_id: 16153
-    language: 1
-    name: Megaman II (U) [T-Ger]
-  assets:
-  - asset:
-      id: 16135
-      kind: 3
-      kind_id: 16153
-      type: 1
-      name: Megaman II (U) [T-Ger].nes
-      format: 1
-      size: 262160
-      blob_id: 61821
-      debug: Megaman II (U) [T-Ger].nes
-- release:
-    id: 16154
-    game_id: 16125
-    release_type: 2
-  names:
-  - id: 35898
-    kind: 3
-    kind_id: 16154
-    language: 1
-    name: Megaman II (U) [T-Ger][a1]
-  assets:
-  - asset:
-      id: 16136
-      kind: 3
-      kind_id: 16154
-      type: 1
-      name: Megaman II (U) [T-Ger][a1].nes
-      format: 1
-      size: 262160
-      blob_id: 61822
-      debug: Megaman II (U) [T-Ger][a1].nes
 - release:
     id: 20114
     game_id: 16125
@@ -926,27 +464,6 @@ releases:
       size: 262160
       blob_id: 65568
       debug: "Rockman 2 - Dr. Wily no Nazo (J) [T+Eng1.0_Aeon Genesis].nes\nRockman 2 - Dr. Wily no Nazo (Japan) (Translated En).zip"
-- release:
-    id: 20118
-    game_id: 16125
-    release_type: 2
-  names:
-  - id: 84253
-    kind: 3
-    kind_id: 20118
-    language: 1
-    name: "Rockman 2 - Dr. Wily no Nazo (J) [T+Kor_88KTT]"
-  assets:
-  - asset:
-      id: 20100
-      kind: 3
-      kind_id: 20118
-      type: 1
-      name: "Rockman 2 - Dr. Wily no Nazo (J) [T+Kor_88KTT].nes"
-      format: 1
-      size: 262160
-      blob_id: 65569
-      debug: "Rockman 2 - Dr. Wily no Nazo (J) [T+Kor_88KTT].nes"
 - release:
     id: 20119
     game_id: 16125
@@ -1098,12 +615,14 @@ releases:
 - release:
     id: 28822
     game_id: 16125
+    release_type: 1
   names:
   - id: 66863
     kind: 3
     kind_id: 28822
     language: 2
     name: "洛克人 II - 威利博士之谜 (日版) (动作)-Rockman 2 - Dr. Wily no Nazo (Japan)"
+    deprecated: 1
   - id: 66864
     kind: 3
     kind_id: 28822
@@ -1116,6 +635,12 @@ releases:
     language: 1
     name: "Rockman 2 - Dr. Wily no Nazo (Japan)"
     source: no-intro
+  - id: 265849
+    kind: 3
+    kind_id: 28822
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 28804

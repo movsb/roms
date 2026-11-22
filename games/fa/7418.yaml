@@ -16,6 +16,7 @@ releases:
 - release:
     id: 7418
     game_id: 7418
+    release_type: 1
   names:
   - id: 15570
     kind: 3
@@ -34,12 +35,19 @@ releases:
     kind_id: 7418
     language: 2
     name: 越野战车
+    deprecated: 1
   - id: 257819
     kind: 3
     kind_id: 7418
     language: 1
     name: BreakThru (USA)
     source: no-intro
+  - id: 263948
+    kind: 3
+    kind_id: 7418
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 7400
@@ -68,24 +76,3 @@ releases:
       size: 3411
       blob_id: 322392
       debug: fc-title-trial:fceumm:rom-asset=7400:frame=180
-- release:
-    id: 7419
-    game_id: 7418
-    release_type: 2
-  names:
-  - id: 82393
-    kind: 3
-    kind_id: 7419
-    language: 1
-    name: BreakThru (U) [T+Rus1.2_Multisoft]
-  assets:
-  - asset:
-      id: 7401
-      kind: 3
-      kind_id: 7419
-      type: 1
-      name: BreakThru (U) [T+Rus1.2_Multisoft].nes
-      format: 1
-      size: 262160
-      blob_id: 53596
-      debug: BreakThru (U) [T+Rus1.2_Multisoft].nes

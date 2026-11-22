@@ -26,6 +26,7 @@ releases:
 - release:
     id: 15273
     game_id: 15273
+    release_type: 1
   names:
   - id: 33908
     kind: 3
@@ -38,6 +39,7 @@ releases:
     kind_id: 15273
     language: 2
     name: 圣铃传说 (美版) (动作)-Little Samson (USA)
+    deprecated: 1
   - id: 62430
     kind: 3
     kind_id: 15273
@@ -50,6 +52,12 @@ releases:
     language: 1
     name: Little Samson (USA)
     source: no-intro
+  - id: 264477
+    kind: 3
+    kind_id: 15273
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 15255
@@ -97,29 +105,9 @@ releases:
       blob_id: 60982
       debug: Little Samson (U) [T+Chi][t1].nes
 - release:
-    id: 15275
-    game_id: 15273
-    release_type: 2
-  names:
-  - id: 83669
-    kind: 3
-    kind_id: 15275
-    language: 1
-    name: Little Samson (U) [T+Rus_Paha13]
-  assets:
-  - asset:
-      id: 15257
-      kind: 3
-      kind_id: 15275
-      type: 1
-      name: Little Samson (U) [T+Rus_Paha13].nes
-      format: 1
-      size: 393232
-      blob_id: 60983
-      debug: Little Samson (U) [T+Rus_Paha13].nes
-- release:
     id: 15277
     game_id: 15273
+    release_type: 1
   names:
   - id: 33920
     kind: 3
@@ -133,6 +121,12 @@ releases:
     language: 1
     name: Little Samson (USA)
     source: no-intro
+  - id: 264478
+    kind: 3
+    kind_id: 15277
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 15259
@@ -160,12 +154,14 @@ releases:
 - release:
     id: 27498
     game_id: 15273
+    release_type: 1
   names:
   - id: 62433
     kind: 3
     kind_id: 27498
     language: 2
     name: 圣铃传说
+    deprecated: 1
   - id: 62434
     kind: 3
     kind_id: 27498
@@ -178,6 +174,12 @@ releases:
     language: 1
     name: Little Samson (Europe)
     source: no-intro
+  - id: 265429
+    kind: 3
+    kind_id: 27498
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 27480

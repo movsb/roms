@@ -108,6 +108,7 @@ releases:
 - release:
     id: 21705
     game_id: 27514
+    release_type: 1
   names:
   - id: 48320
     kind: 3
@@ -120,12 +121,19 @@ releases:
     kind_id: 21705
     language: 2
     name: 地底探险 (美版) (益智)-Spelunker (USA)
+    deprecated: 1
   - id: 259384
     kind: 3
     kind_id: 21705
     language: 1
     name: Spelunker (USA)
     source: no-intro
+  - id: 264888
+    kind: 3
+    kind_id: 21705
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 21687
@@ -151,111 +159,6 @@ releases:
       size: 2699
       blob_id: 322970
       debug: fc-title-trial:fceumm:rom-asset=21687:frame=1200
-- release:
-    id: 21706
-    game_id: 27514
-    release_type: 2
-  names:
-  - id: 84404
-    kind: 3
-    kind_id: 21706
-    language: 1
-    name: Spelunker (U) [T+Bra_monkeys]
-  assets:
-  - asset:
-      id: 21688
-      kind: 3
-      kind_id: 21706
-      type: 1
-      name: Spelunker (U) [T+Bra_monkeys].nes
-      format: 1
-      size: 40976
-      blob_id: 67076
-      debug: Spelunker (U) [T+Bra_monkeys].nes
-- release:
-    id: 21707
-    game_id: 27514
-    release_type: 2
-  names:
-  - id: 84405
-    kind: 3
-    kind_id: 21707
-    language: 1
-    name: Spelunker (U) [T+Fre_ks151]
-  assets:
-  - asset:
-      id: 21689
-      kind: 3
-      kind_id: 21707
-      type: 1
-      name: Spelunker (U) [T+Fre_ks151].nes
-      format: 1
-      size: 40976
-      blob_id: 67077
-      debug: Spelunker (U) [T+Fre_ks151].nes
-- release:
-    id: 21708
-    game_id: 27514
-    release_type: 2
-  names:
-  - id: 84406
-    kind: 3
-    kind_id: 21708
-    language: 1
-    name: Spelunker (U) [T+Rus1.1_Multisoft]
-  assets:
-  - asset:
-      id: 21690
-      kind: 3
-      kind_id: 21708
-      type: 1
-      name: Spelunker (U) [T+Rus1.1_Multisoft].nes
-      format: 1
-      size: 40976
-      blob_id: 67078
-      debug: Spelunker (U) [T+Rus1.1_Multisoft].nes
-- release:
-    id: 21709
-    game_id: 27514
-    release_type: 2
-  names:
-  - id: 48334
-    kind: 3
-    kind_id: 21709
-    language: 1
-    name: Spelunker (U) [T-Rus_Multisoft]
-  assets:
-  - asset:
-      id: 21691
-      kind: 3
-      kind_id: 21709
-      type: 1
-      name: Spelunker (U) [T-Rus_Multisoft].nes
-      format: 1
-      size: 40976
-      blob_id: 67079
-      debug: Spelunker (U) [T-Rus_Multisoft].nes
-- release:
-    id: 21710
-    game_id: 27514
-    release_type: 2
-  names:
-  - id: 48336
-    kind: 3
-    kind_id: 21710
-    language: 1
-    name: Spelunker (U) [T-Rus_Multisoft][a1]
-  assets:
-  - asset:
-      id: 21692
-      kind: 3
-      kind_id: 21710
-      type: 1
-      name: Spelunker (U) [T-Rus_Multisoft][a1].nes
-      format: 1
-      size: 40976
-      blob_id: 67080
-      debug: Spelunker (U) [T-Rus_Multisoft][a1].nes
 - release:
     id: 21713
     game_id: 27514
@@ -299,12 +202,14 @@ releases:
 - release:
     id: 27511
     game_id: 27514
+    release_type: 1
   names:
   - id: 62473
     kind: 3
     kind_id: 27511
     language: 2
     name: 地底探险 (日版) (益智)-Spelunker (Japan)
+    deprecated: 1
   - id: 62474
     kind: 3
     kind_id: 27511
@@ -316,12 +221,19 @@ releases:
     kind_id: 27511
     language: 2
     name: 地底探险1
+    deprecated: 1
   - id: 260284
     kind: 3
     kind_id: 27511
     language: 1
     name: Spelunker (Japan)
     source: no-intro
+  - id: 265435
+    kind: 3
+    kind_id: 27511
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 27493

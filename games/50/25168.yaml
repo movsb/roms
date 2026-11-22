@@ -77,27 +77,6 @@ releases:
       blob_id: 68998
       debug: Tatakai no Banka (J) (PRG1) [t3].nes
 - release:
-    id: 23728
-    game_id: 25168
-    release_type: 2
-  names:
-  - id: 84695
-    kind: 3
-    kind_id: 23728
-    language: 1
-    name: Tatakai no Banka (J) [T+Fre1.0_GIX]
-  assets:
-  - asset:
-      id: 23710
-      kind: 3
-      kind_id: 23728
-      type: 1
-      name: Tatakai no Banka (J) [T+Fre1.0_GIX].nes
-      format: 1
-      size: 131088
-      blob_id: 68999
-      debug: Tatakai no Banka (J) [T+Fre1.0_GIX].nes
-- release:
     id: 23736
     game_id: 25168
   names:
@@ -189,6 +168,7 @@ releases:
 - release:
     id: 25170
     game_id: 25168
+    release_type: 1
   names:
   - id: 56248
     kind: 3
@@ -201,12 +181,19 @@ releases:
     kind_id: 25170
     language: 2
     name: 斗者挽歌 (美版) (动作)-Trojan (USA)
+    deprecated: 1
   - id: 259706
     kind: 3
     kind_id: 25170
     language: 1
     name: Trojan (USA)
     source: no-intro
+  - id: 265051
+    kind: 3
+    kind_id: 25170
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 25152
@@ -233,71 +220,9 @@ releases:
       blob_id: 323073
       debug: fc-title-trial:fceumm:rom-asset=25152:frame=180
 - release:
-    id: 25171
-    game_id: 25168
-    release_type: 2
-  names:
-  - id: 84863
-    kind: 3
-    kind_id: 25171
-    language: 1
-    name: Trojan (U) [T+Bra_vince vng]
-  assets:
-  - asset:
-      id: 25153
-      kind: 3
-      kind_id: 25171
-      type: 1
-      name: Trojan (U) [T+Bra_vince vng].nes
-      format: 1
-      size: 131088
-      blob_id: 70388
-      debug: Trojan (U) [T+Bra_vince vng].nes
-- release:
-    id: 25172
-    game_id: 25168
-    release_type: 2
-  names:
-  - id: 84864
-    kind: 3
-    kind_id: 25172
-    language: 1
-    name: Trojan (U) [T+Fre_Emulation-151]
-  assets:
-  - asset:
-      id: 25154
-      kind: 3
-      kind_id: 25172
-      type: 1
-      name: Trojan (U) [T+Fre_Emulation-151].nes
-      format: 1
-      size: 131088
-      blob_id: 70389
-      debug: Trojan (U) [T+Fre_Emulation-151].nes
-- release:
-    id: 25173
-    game_id: 25168
-    release_type: 2
-  names:
-  - id: 84865
-    kind: 3
-    kind_id: 25173
-    language: 1
-    name: Trojan (U) [T+Spa1.0_DJTraducciones]
-  assets:
-  - asset:
-      id: 25155
-      kind: 3
-      kind_id: 25173
-      type: 1
-      name: Trojan (U) [T+Spa1.0_DJTraducciones].nes
-      format: 1
-      size: 131088
-      blob_id: 70390
-      debug: Trojan (U) [T+Spa1.0_DJTraducciones].nes
-- release:
     id: 25177
     game_id: 25168
+    release_type: 1
   names:
   - id: 56268
     kind: 3
@@ -310,12 +235,19 @@ releases:
     kind_id: 25177
     language: 2
     name: 斗者挽歌
+    deprecated: 1
   - id: 259707
     kind: 3
     kind_id: 25177
     language: 1
     name: Trojan (USA)
     source: no-intro
+  - id: 265052
+    kind: 3
+    kind_id: 25177
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 25159
@@ -344,12 +276,14 @@ releases:
 - release:
     id: 28416
     game_id: 25168
+    release_type: 1
   names:
   - id: 65449
     kind: 3
     kind_id: 28416
     language: 2
     name: 斗者挽歌 (日版)(Rev A) (动作)-Tatakai no Banka (Japan) (Rev A)
+    deprecated: 1
   - id: 65450
     kind: 3
     kind_id: 28416
@@ -362,6 +296,12 @@ releases:
     language: 1
     name: Tatakai no Banka (Japan) (Rev 1)
     source: no-intro
+  - id: 265700
+    kind: 3
+    kind_id: 28416
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 28398
@@ -389,12 +329,14 @@ releases:
 - release:
     id: 28417
     game_id: 25168
+    release_type: 1
   names:
   - id: 65453
     kind: 3
     kind_id: 28417
     language: 2
     name: 斗者挽歌 (欧版) (动作)-Trojan (Europe)
+    deprecated: 1
   - id: 65454
     kind: 3
     kind_id: 28417
@@ -407,6 +349,12 @@ releases:
     language: 1
     name: Trojan (Europe)
     source: no-intro
+  - id: 265701
+    kind: 3
+    kind_id: 28417
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 28399

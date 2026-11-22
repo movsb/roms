@@ -26,6 +26,7 @@ releases:
 - release:
     id: 6673
     game_id: 6673
+    release_type: 1
   names:
   - id: 13872
     kind: 3
@@ -38,12 +39,19 @@ releases:
     kind_id: 6673
     language: 2
     name: 决战西洋棋 (美版) (桌面平台)-Battle Chess (USA)
+    deprecated: 1
   - id: 257741
     kind: 3
     kind_id: 6673
     language: 1
     name: Battle Chess (USA)
     source: no-intro
+  - id: 263904
+    kind: 3
+    kind_id: 6673
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 6655
@@ -70,50 +78,9 @@ releases:
       blob_id: 322367
       debug: fc-title-trial:fceumm:rom-asset=6655:frame=600
 - release:
-    id: 6674
-    game_id: 6673
-    release_type: 2
-  names:
-  - id: 82289
-    kind: 3
-    kind_id: 6674
-    language: 1
-    name: Battle Chess (U) [T+Spa.99]
-  assets:
-  - asset:
-      id: 6656
-      kind: 3
-      kind_id: 6674
-      type: 1
-      name: Battle Chess (U) [T+Spa.99].nes
-      format: 1
-      size: 262160
-      blob_id: 52900
-      debug: Battle Chess (U) [T+Spa.99].nes
-- release:
-    id: 6675
-    game_id: 6673
-    release_type: 2
-  names:
-  - id: 13878
-    kind: 3
-    kind_id: 6675
-    language: 1
-    name: Battle Chess (U) [T-Spa90%_PaladinKnights]
-  assets:
-  - asset:
-      id: 6657
-      kind: 3
-      kind_id: 6675
-      type: 1
-      name: Battle Chess (U) [T-Spa90%_PaladinKnights].nes
-      format: 1
-      size: 262160
-      blob_id: 52901
-      debug: Battle Chess (U) [T-Spa90%_PaladinKnights].nes
-- release:
     id: 6681
     game_id: 6673
+    release_type: 1
   names:
   - id: 13890
     kind: 3
@@ -133,6 +100,12 @@ releases:
     language: 1
     name: Battle Chess (USA)
     source: no-intro
+  - id: 263905
+    kind: 3
+    kind_id: 6681
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 6663

@@ -26,6 +26,7 @@ releases:
 - release:
     id: 7618
     game_id: 7618
+    release_type: 1
   names:
   - id: 16032
     kind: 3
@@ -50,12 +51,19 @@ releases:
     kind_id: 7618
     language: 2
     name: 赌城小子 (美版) (博弈)-Casino Kid (USA)
+    deprecated: 1
   - id: 257836
     kind: 3
     kind_id: 7618
     language: 1
     name: Casino Kid (USA)
     source: no-intro
+  - id: 263958
+    kind: 3
+    kind_id: 7618
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 7600
@@ -83,24 +91,3 @@ releases:
       size: 3847
       blob_id: 323788
       debug: fc-title-trial:fceumm:rom-asset=7600:frame=900
-- release:
-    id: 8113
-    game_id: 7618
-    release_type: 2
-  names:
-  - id: 82445
-    kind: 3
-    kind_id: 8113
-    language: 1
-    name: Casino Kid (U) [T+Rus_Chief-Net]
-  assets:
-  - asset:
-      id: 8095
-      kind: 3
-      kind_id: 8113
-      type: 1
-      name: Casino Kid (U) [T+Rus_Chief-Net].nes
-      format: 1
-      size: 131088
-      blob_id: 54266
-      debug: Casino Kid (U) [T+Rus_Chief-Net].nes

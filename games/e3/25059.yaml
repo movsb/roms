@@ -107,6 +107,7 @@ releases:
 - release:
     id: 25059
     game_id: 25059
+    release_type: 1
   names:
   - id: 55998
     kind: 3
@@ -125,12 +126,19 @@ releases:
     kind_id: 25059
     language: 2
     name: 魔法约翰 (美版) (动作)-Totally Rad (USA)
+    deprecated: 1
   - id: 259690
     kind: 3
     kind_id: 25059
     language: 1
     name: Totally Rad (USA)
     source: no-intro
+  - id: 265036
+    kind: 3
+    kind_id: 25059
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 25041
@@ -157,27 +165,6 @@ releases:
       size: 4986
       blob_id: 323066
       debug: fc-title-trial:fceumm:rom-asset=25041:frame=2400
-- release:
-    id: 25060
-    game_id: 25059
-    release_type: 2
-  names:
-  - id: 84849
-    kind: 3
-    kind_id: 25060
-    language: 1
-    name: Totally Rad (U) [T+Bra1.2_BRGames]
-  assets:
-  - asset:
-      id: 25042
-      kind: 3
-      kind_id: 25060
-      type: 1
-      name: Totally Rad (U) [T+Bra1.2_BRGames].nes
-      format: 1
-      size: 262160
-      blob_id: 70287
-      debug: Totally Rad (U) [T+Bra1.2_BRGames].nes
 - release:
     id: 25061
     game_id: 25059
@@ -228,90 +215,6 @@ releases:
       blob_id: 70289
       debug: Totally Rad (U) [T+Chi_MS emumax].nes
 - release:
-    id: 25063
-    game_id: 25059
-    release_type: 2
-  names:
-  - id: 84852
-    kind: 3
-    kind_id: 25063
-    language: 1
-    name: Totally Rad (U) [T+Fre1.0_Generation IX]
-  assets:
-  - asset:
-      id: 25045
-      kind: 3
-      kind_id: 25063
-      type: 1
-      name: Totally Rad (U) [T+Fre1.0_Generation IX].nes
-      format: 1
-      size: 262160
-      blob_id: 70290
-      debug: Totally Rad (U) [T+Fre1.0_Generation IX].nes
-- release:
-    id: 25064
-    game_id: 25059
-    release_type: 2
-  names:
-  - id: 84853
-    kind: 3
-    kind_id: 25064
-    language: 1
-    name: Totally Rad (U) [T+Por1.1_devilfox]
-  assets:
-  - asset:
-      id: 25046
-      kind: 3
-      kind_id: 25064
-      type: 1
-      name: Totally Rad (U) [T+Por1.1_devilfox].nes
-      format: 1
-      size: 262160
-      blob_id: 70291
-      debug: Totally Rad (U) [T+Por1.1_devilfox].nes
-- release:
-    id: 25065
-    game_id: 25059
-    release_type: 2
-  names:
-  - id: 84854
-    kind: 3
-    kind_id: 25065
-    language: 1
-    name: Totally Rad (U) [T+Rus0.85_Xevious]
-  assets:
-  - asset:
-      id: 25047
-      kind: 3
-      kind_id: 25065
-      type: 1
-      name: Totally Rad (U) [T+Rus0.85_Xevious].nes
-      format: 1
-      size: 262160
-      blob_id: 70292
-      debug: Totally Rad (U) [T+Rus0.85_Xevious].nes
-- release:
-    id: 25066
-    game_id: 25059
-    release_type: 2
-  names:
-  - id: 56024
-    kind: 3
-    kind_id: 25066
-    language: 1
-    name: Totally Rad (U) [T-Por1.0_devilfox]
-  assets:
-  - asset:
-      id: 25048
-      kind: 3
-      kind_id: 25066
-      type: 1
-      name: Totally Rad (U) [T-Por1.0_devilfox].nes
-      format: 1
-      size: 262160
-      blob_id: 70293
-      debug: Totally Rad (U) [T-Por1.0_devilfox].nes
-- release:
     id: 25069
     game_id: 25059
     release_type: 3
@@ -361,12 +264,14 @@ releases:
 - release:
     id: 30326
     game_id: 25059
+    release_type: 1
   names:
   - id: 71905
     kind: 3
     kind_id: 30326
     language: 2
     name: 魔法约翰 (日版) (动作)-Magic John (Japan)
+    deprecated: 1
   - id: 71906
     kind: 3
     kind_id: 30326
@@ -379,6 +284,12 @@ releases:
     language: 1
     name: Magic John (Japan)
     source: no-intro
+  - id: 266303
+    kind: 3
+    kind_id: 30326
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 30308
@@ -406,12 +317,14 @@ releases:
 - release:
     id: 30327
     game_id: 25059
+    release_type: 1
   names:
   - id: 71909
     kind: 3
     kind_id: 30327
     language: 2
     name: 魔法约翰 (欧版) (动作)-Totally Rad (Europe)
+    deprecated: 1
   - id: 71910
     kind: 3
     kind_id: 30327
@@ -424,6 +337,12 @@ releases:
     language: 1
     name: Totally Rad (Europe)
     source: no-intro
+  - id: 266304
+    kind: 3
+    kind_id: 30327
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 30309

@@ -26,6 +26,7 @@ releases:
 - release:
     id: 9577
     game_id: 9577
+    release_type: 1
   names:
   - id: 20518
     kind: 3
@@ -44,12 +45,19 @@ releases:
     kind_id: 9577
     language: 2
     name: 毁灭入侵者 II (美版) (射击)-Defender II (USA)
+    deprecated: 1
   - id: 257994
     kind: 3
     kind_id: 9577
     language: 1
     name: Defender II (USA)
     source: no-intro
+  - id: 264052
+    kind: 3
+    kind_id: 9577
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 9559
@@ -76,27 +84,6 @@ releases:
       size: 3811
       blob_id: 323844
       debug: fc-title-trial:fceumm:rom-asset=9559:frame=180
-- release:
-    id: 9579
-    game_id: 9577
-    release_type: 2
-  names:
-  - id: 82705
-    kind: 3
-    kind_id: 9579
-    language: 1
-    name: Defender II (U) [T+Rus_greengh0st]
-  assets:
-  - asset:
-      id: 9561
-      kind: 3
-      kind_id: 9579
-      type: 1
-      name: Defender II (U) [T+Rus_greengh0st].nes
-      format: 1
-      size: 24592
-      blob_id: 55649
-      debug: Defender II (U) [T+Rus_greengh0st].nes
 - release:
     id: 9591
     game_id: 9577

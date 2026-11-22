@@ -32,6 +32,7 @@ releases:
 - release:
     id: 13792
     game_id: 13792
+    release_type: 1
   names:
   - id: 30358
     kind: 3
@@ -44,12 +45,19 @@ releases:
     kind_id: 13792
     language: 2
     name: "马克司战士 - 惑星戒严令 (美版) (动作射击)-Isolated Warrior (USA)"
+    deprecated: 1
   - id: 258477
     kind: 3
     kind_id: 13792
     language: 1
     name: Isolated Warrior (USA)
     source: no-intro
+  - id: 264360
+    kind: 3
+    kind_id: 13792
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 13774
@@ -73,50 +81,9 @@ releases:
       blob_id: 322636
       debug: fc-title-trial:fceumm:rom-asset=13774:frame=900
 - release:
-    id: 13793
-    game_id: 13792
-    release_type: 2
-  names:
-  - id: 83376
-    kind: 3
-    kind_id: 13793
-    language: 1
-    name: Isolated Warrior (U) [T+Fre_Terminus]
-  assets:
-  - asset:
-      id: 13775
-      kind: 3
-      kind_id: 13793
-      type: 1
-      name: Isolated Warrior (U) [T+Fre_Terminus].nes
-      format: 1
-      size: 262160
-      blob_id: 59618
-      debug: Isolated Warrior (U) [T+Fre_Terminus].nes
-- release:
-    id: 13794
-    game_id: 13792
-    release_type: 2
-  names:
-  - id: 83377
-    kind: 3
-    kind_id: 13794
-    language: 1
-    name: Isolated Warrior (U) [T+Rus_MJOLNIR Vlad]
-  assets:
-  - asset:
-      id: 13776
-      kind: 3
-      kind_id: 13794
-      type: 1
-      name: Isolated Warrior (U) [T+Rus_MJOLNIR Vlad].nes
-      format: 1
-      size: 262160
-      blob_id: 59619
-      debug: Isolated Warrior (U) [T+Rus_MJOLNIR Vlad].nes
-- release:
     id: 13797
     game_id: 13792
+    release_type: 1
   names:
   - id: 30372
     kind: 3
@@ -136,6 +103,12 @@ releases:
     language: 1
     name: Isolated Warrior (USA)
     source: no-intro
+  - id: 264361
+    kind: 3
+    kind_id: 13797
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 13779
@@ -164,12 +137,14 @@ releases:
 - release:
     id: 30218
     game_id: 13792
+    release_type: 1
   names:
   - id: 71557
     kind: 3
     kind_id: 30218
     language: 2
     name: "马克司战士 - 惑星戒严令 (欧版) (动作射击)-Isolated Warrior (Europe)"
+    deprecated: 1
   - id: 71558
     kind: 3
     kind_id: 30218
@@ -182,6 +157,12 @@ releases:
     language: 1
     name: Isolated Warrior (Europe)
     source: no-intro
+  - id: 266271
+    kind: 3
+    kind_id: 30218
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 30200

@@ -27,6 +27,7 @@ releases:
 - release:
     id: 12171
     game_id: 12171
+    release_type: 1
   names:
   - id: 26712
     kind: 3
@@ -45,17 +46,25 @@ releases:
     kind_id: 12171
     language: 2
     name: "魔界村外传 - 石像鬼历险记 II (美版) (角色扮演)-Gargoyles Quest II - The Demon Darkness (USA)"
+    deprecated: 1
   - id: 71984
     kind: 3
     kind_id: 12171
     language: 2
     name: 魔界村外传2
+    deprecated: 1
   - id: 258285
     kind: 3
     kind_id: 12171
     language: 1
     name: Gargoyle's Quest II (USA)
     source: no-intro
+  - id: 264232
+    kind: 3
+    kind_id: 12171
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 12153
@@ -78,27 +87,6 @@ releases:
       size: 2514
       blob_id: 324848
       debug: libretro-named-titles:rom-asset=12153:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Gargoyle%27s%20Quest%20II%20%28USA%29.png
-- release:
-    id: 12173
-    game_id: 12171
-    release_type: 2
-  names:
-  - id: 83174
-    kind: 3
-    kind_id: 12173
-    language: 1
-    name: "Gargoyle's Quest II - The Demon Darkness (U) [T+Fre_Generation IX]"
-  assets:
-  - asset:
-      id: 12155
-      kind: 3
-      kind_id: 12173
-      type: 1
-      name: "Gargoyle's Quest II - The Demon Darkness (U) [T+Fre_Generation IX].nes"
-      format: 1
-      size: 262160
-      blob_id: 58087
-      debug: "Gargoyle's Quest II - The Demon Darkness (U) [T+Fre_Generation IX].nes"
 - release:
     id: 12175
     game_id: 12171
@@ -143,12 +131,14 @@ releases:
 - release:
     id: 30345
     game_id: 12171
+    release_type: 1
   names:
   - id: 71973
     kind: 3
     kind_id: 30345
     language: 2
     name: "魔界村外传 - 石像鬼历险记 II (日版) (角色扮演)-Red Arremar 2 (Japan)"
+    deprecated: 1
   - id: 71974
     kind: 3
     kind_id: 30345
@@ -161,6 +151,12 @@ releases:
     language: 1
     name: Red Arremer II (Japan)
     source: no-intro
+  - id: 266313
+    kind: 3
+    kind_id: 30345
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 30327
@@ -186,12 +182,14 @@ releases:
 - release:
     id: 30346
     game_id: 12171
+    release_type: 1
   names:
   - id: 71977
     kind: 3
     kind_id: 30346
     language: 2
     name: "魔界村外传 - 石像鬼历险记 II (欧版) (角色扮演)-Gargoyles Quest II - The Demon Darkness (Europe)"
+    deprecated: 1
   - id: 71978
     kind: 3
     kind_id: 30346
@@ -204,6 +202,12 @@ releases:
     language: 1
     name: Gargoyle's Quest II (Europe)
     source: no-intro
+  - id: 266314
+    kind: 3
+    kind_id: 30346
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 30328

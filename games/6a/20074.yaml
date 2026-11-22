@@ -48,6 +48,7 @@ releases:
 - release:
     id: 20076
     game_id: 20074
+    release_type: 1
   names:
   - id: 44698
     kind: 3
@@ -60,12 +61,19 @@ releases:
     kind_id: 20076
     language: 2
     name: 纽约摇滚猫 (美版) (动作)-Rockin Kats (USA)
+    deprecated: 1
   - id: 259196
     kind: 3
     kind_id: 20076
     language: 1
     name: Rockin' Kats (USA)
     source: no-intro
+  - id: 264773
+    kind: 3
+    kind_id: 20076
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 20058
@@ -92,69 +100,6 @@ releases:
       blob_id: 322902
       debug: fc-title-trial:fceumm:rom-asset=20058:frame=300
 - release:
-    id: 20077
-    game_id: 20074
-    release_type: 2
-  names:
-  - id: 84237
-    kind: 3
-    kind_id: 20077
-    language: 1
-    name: Rockin' Kats (U) [T+Pol]
-  assets:
-  - asset:
-      id: 20059
-      kind: 3
-      kind_id: 20077
-      type: 1
-      name: Rockin' Kats (U) [T+Pol].nes
-      format: 1
-      size: 262160
-      blob_id: 65528
-      debug: Rockin' Kats (U) [T+Pol].nes
-- release:
-    id: 20078
-    game_id: 20074
-    release_type: 2
-  names:
-  - id: 84238
-    kind: 3
-    kind_id: 20078
-    language: 1
-    name: Rockin' Kats (U) [T+Por1.0_CBT]
-  assets:
-  - asset:
-      id: 20060
-      kind: 3
-      kind_id: 20078
-      type: 1
-      name: Rockin' Kats (U) [T+Por1.0_CBT].nes
-      format: 1
-      size: 262160
-      blob_id: 65529
-      debug: Rockin' Kats (U) [T+Por1.0_CBT].nes
-- release:
-    id: 20079
-    game_id: 20074
-    release_type: 2
-  names:
-  - id: 84239
-    kind: 3
-    kind_id: 20079
-    language: 1
-    name: Rockin' Kats (U) [T+Rus_Shedevr]
-  assets:
-  - asset:
-      id: 20061
-      kind: 3
-      kind_id: 20079
-      type: 1
-      name: Rockin' Kats (U) [T+Rus_Shedevr].nes
-      format: 1
-      size: 262160
-      blob_id: 65530
-      debug: Rockin' Kats (U) [T+Rus_Shedevr].nes
-- release:
     id: 20084
     game_id: 20074
     release_type: 3
@@ -178,12 +123,14 @@ releases:
 - release:
     id: 29373
     game_id: 20074
+    release_type: 1
   names:
   - id: 68707
     kind: 3
     kind_id: 29373
     language: 2
     name: 纽约摇滚猫 (欧版) (动作)-Rockin Kats (Europe)
+    deprecated: 1
   - id: 68708
     kind: 3
     kind_id: 29373
@@ -196,6 +143,12 @@ releases:
     language: 1
     name: Rockin' Kats (Europe)
     source: no-intro
+  - id: 266010
+    kind: 3
+    kind_id: 29373
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 29355

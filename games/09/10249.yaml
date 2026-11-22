@@ -46,48 +46,6 @@ names:
   name: 马力欧医生
 releases:
 - release:
-    id: 10249
-    game_id: 10249
-    release_type: 2
-  names:
-  - id: 82832
-    kind: 3
-    kind_id: 10249
-    language: 1
-    name: Dr. Mario (E) [T+Fre_Lyssal]
-  assets:
-  - asset:
-      id: 10231
-      kind: 3
-      kind_id: 10249
-      type: 1
-      name: Dr. Mario (E) [T+Fre_Lyssal].nes
-      format: 1
-      size: 65552
-      blob_id: 56278
-      debug: Dr. Mario (E) [T+Fre_Lyssal].nes
-- release:
-    id: 10251
-    game_id: 10249
-    release_type: 2
-  names:
-  - id: 82833
-    kind: 3
-    kind_id: 10251
-    language: 1
-    name: Dr. Mario (JU) (PRG0) [T+Bra1.0_BRGames]
-  assets:
-  - asset:
-      id: 10233
-      kind: 3
-      kind_id: 10251
-      type: 1
-      name: Dr. Mario (JU) (PRG0) [T+Bra1.0_BRGames].nes
-      format: 1
-      size: 65552
-      blob_id: 56280
-      debug: Dr. Mario (JU) (PRG0) [T+Bra1.0_BRGames].nes
-- release:
     id: 10252
     game_id: 10249
     release_type: 2
@@ -131,69 +89,6 @@ releases:
       size: 65552
       blob_id: 56283
       debug: Dr. Mario (JU) (PRG0) [T+Jap].nes
-- release:
-    id: 10255
-    game_id: 10249
-    release_type: 2
-  names:
-  - id: 82837
-    kind: 3
-    kind_id: 10255
-    language: 1
-    name: Dr. Mario (JU) (PRG0) [T+Por100%_Altieres]
-  assets:
-  - asset:
-      id: 10237
-      kind: 3
-      kind_id: 10255
-      type: 1
-      name: Dr. Mario (JU) (PRG0) [T+Por100%_Altieres].nes
-      format: 1
-      size: 65552
-      blob_id: 56284
-      debug: Dr. Mario (JU) (PRG0) [T+Por100%_Altieres].nes
-- release:
-    id: 10256
-    game_id: 10249
-    release_type: 2
-  names:
-  - id: 82838
-    kind: 3
-    kind_id: 10256
-    language: 1
-    name: Dr. Mario (JU) (PRG0) [T+Rus_Multisoft]
-  assets:
-  - asset:
-      id: 10238
-      kind: 3
-      kind_id: 10256
-      type: 1
-      name: Dr. Mario (JU) (PRG0) [T+Rus_Multisoft].nes
-      format: 1
-      size: 65552
-      blob_id: 56285
-      debug: Dr. Mario (JU) (PRG0) [T+Rus_Multisoft].nes
-- release:
-    id: 10257
-    game_id: 10249
-    release_type: 2
-  names:
-  - id: 82839
-    kind: 3
-    kind_id: 10257
-    language: 1
-    name: Dr. Mario (JU) (PRG0) [T+Spa_PaladinKnights]
-  assets:
-  - asset:
-      id: 10239
-      kind: 3
-      kind_id: 10257
-      type: 1
-      name: Dr. Mario (JU) (PRG0) [T+Spa_PaladinKnights].nes
-      format: 1
-      size: 65552
-      blob_id: 56286
-      debug: Dr. Mario (JU) (PRG0) [T+Spa_PaladinKnights].nes
 - release:
     id: 10258
     game_id: 10249
@@ -278,6 +173,7 @@ releases:
 - release:
     id: 10281
     game_id: 10249
+    release_type: 1
   names:
   - id: 22202
     kind: 3
@@ -290,6 +186,7 @@ releases:
     kind_id: 10281
     language: 2
     name: 玛璃欧医生 (日版,美版)(Rev A) (益智)-Dr. Mario (Japan, USA) (Rev A)
+    deprecated: 1
   - id: 67884
     kind: 3
     kind_id: 10281
@@ -302,6 +199,12 @@ releases:
     language: 1
     name: Dr. Mario (Japan, USA) (En) (Rev 1)
     source: no-intro
+  - id: 264106
+    kind: 3
+    kind_id: 10281
+    language: 2
+    name: 日美版
+    source: codex
   assets:
   - asset:
       id: 10263
@@ -370,12 +273,14 @@ releases:
 - release:
     id: 29139
     game_id: 10249
+    release_type: 1
   names:
   - id: 67879
     kind: 3
     kind_id: 29139
     language: 2
     name: 玛璃欧医生 (日版,美版) (益智)-Dr. Mario (Japan, USA)
+    deprecated: 1
   - id: 67880
     kind: 3
     kind_id: 29139
@@ -388,6 +293,12 @@ releases:
     language: 1
     name: Dr. Mario (Japan, USA) (En)
     source: no-intro
+  - id: 265928
+    kind: 3
+    kind_id: 29139
+    language: 2
+    name: 日美版
+    source: codex
   assets:
   - asset:
       id: 29121
@@ -415,12 +326,14 @@ releases:
 - release:
     id: 29141
     game_id: 10249
+    release_type: 1
   names:
   - id: 67887
     kind: 3
     kind_id: 29141
     language: 2
     name: 玛璃欧医生 (欧版) (益智)-Dr. Mario (Europe)
+    deprecated: 1
   - id: 67888
     kind: 3
     kind_id: 29141
@@ -433,6 +346,12 @@ releases:
     language: 1
     name: Dr. Mario (Europe)
     source: no-intro
+  - id: 265929
+    kind: 3
+    kind_id: 29141
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 29123

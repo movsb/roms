@@ -47,6 +47,7 @@ releases:
 - release:
     id: 6468
     game_id: 6466
+    release_type: 1
   names:
   - id: 13418
     kind: 3
@@ -60,6 +61,12 @@ releases:
     language: 1
     name: Baseball (USA, Europe) (Animal Crossing)
     source: no-intro
+  - id: 263884
+    kind: 3
+    kind_id: 6468
+    language: 2
+    name: 美欧版
+    source: codex
   assets:
   - asset:
       id: 6450
@@ -73,27 +80,6 @@ releases:
       debug: |-
         Baseball (GC).nes
         no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=ef4dd4477dc933eeaf23b56e6876c087e732514c
-- release:
-    id: 6469
-    game_id: 6466
-    release_type: 2
-  names:
-  - id: 82267
-    kind: 3
-    kind_id: 6469
-    language: 1
-    name: Baseball (J) [T+Spa1.0]
-  assets:
-  - asset:
-      id: 6451
-      kind: 3
-      kind_id: 6469
-      type: 1
-      name: Baseball (J) [T+Spa1.0].nes
-      format: 1
-      size: 24592
-      blob_id: 52703
-      debug: Baseball (J) [T+Spa1.0].nes
 - release:
     id: 6473
     game_id: 6466
@@ -158,6 +144,7 @@ releases:
 - release:
     id: 6478
     game_id: 6466
+    release_type: 1
   names:
   - id: 13440
     kind: 3
@@ -171,6 +158,12 @@ releases:
     language: 1
     name: Baseball (USA) (e-Reader)
     source: no-intro
+  - id: 263885
+    kind: 3
+    kind_id: 6478
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 6460
@@ -187,6 +180,7 @@ releases:
 - release:
     id: 6479
     game_id: 6466
+    release_type: 1
   names:
   - id: 13442
     kind: 3
@@ -199,12 +193,19 @@ releases:
     kind_id: 6479
     language: 2
     name: 任天堂棒球 (美版,欧版) (运动)-Baseball (USA, Europe)
+    deprecated: 1
   - id: 257716
     kind: 3
     kind_id: 6479
     language: 1
     name: Baseball (USA, Europe)
     source: no-intro
+  - id: 263886
+    kind: 3
+    kind_id: 6479
+    language: 2
+    name: 美欧版
+    source: codex
   assets:
   - asset:
       id: 6461
@@ -230,27 +231,6 @@ releases:
       size: 2802
       blob_id: 322356
       debug: fc-title-trial:fceumm:rom-asset=6461:frame=180
-- release:
-    id: 6480
-    game_id: 6466
-    release_type: 2
-  names:
-  - id: 82268
-    kind: 3
-    kind_id: 6480
-    language: 1
-    name: Baseball (U) [T+Spa_PaladinKnights]
-  assets:
-  - asset:
-      id: 6462
-      kind: 3
-      kind_id: 6480
-      type: 1
-      name: Baseball (U) [T+Spa_PaladinKnights].nes
-      format: 1
-      size: 24592
-      blob_id: 52714
-      debug: Baseball (U) [T+Spa_PaladinKnights].nes
 - release:
     id: 6486
     game_id: 6466
@@ -321,12 +301,14 @@ releases:
 - release:
     id: 26864
     game_id: 6466
+    release_type: 1
   names:
   - id: 60357
     kind: 3
     kind_id: 26864
     language: 2
     name: 任天堂棒球 (日版) (运动)-Baseball (Japan)
+    deprecated: 1
   - id: 60358
     kind: 3
     kind_id: 26864
@@ -339,6 +321,12 @@ releases:
     language: 1
     name: Baseball (Japan) (En)
     source: no-intro
+  - id: 265245
+    kind: 3
+    kind_id: 26864
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 26846

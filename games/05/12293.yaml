@@ -44,6 +44,7 @@ releases:
 - release:
     id: 12295
     game_id: 12293
+    release_type: 1
   names:
   - id: 26986
     kind: 3
@@ -62,12 +63,19 @@ releases:
     kind_id: 12295
     language: 2
     name: 魔鬼克星 (美版) (动作)-Ghostbusters (USA)
+    deprecated: 1
   - id: 258313
     kind: 3
     kind_id: 12295
     language: 1
     name: Ghostbusters (USA)
     source: no-intro
+  - id: 264250
+    kind: 3
+    kind_id: 12295
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 12277
@@ -95,29 +103,9 @@ releases:
       blob_id: 322578
       debug: fc-title-trial:fceumm:rom-asset=12277:frame=180
 - release:
-    id: 12296
-    game_id: 12293
-    release_type: 2
-  names:
-  - id: 83187
-    kind: 3
-    kind_id: 12296
-    language: 1
-    name: Ghostbusters (U) [T+Rus1.0_Magicteam,Coregon]
-  assets:
-  - asset:
-      id: 12278
-      kind: 3
-      kind_id: 12296
-      type: 1
-      name: Ghostbusters (U) [T+Rus1.0_Magicteam,Coregon].nes
-      format: 1
-      size: 65552
-      blob_id: 58203
-      debug: Ghostbusters (U) [T+Rus1.0_Magicteam,Coregon].nes
-- release:
     id: 26628
     game_id: 12293
+    release_type: 1
   names:
   - id: 59610
     kind: 3
@@ -131,6 +119,12 @@ releases:
     language: 1
     name: Ghostbusters (Japan)
     source: no-intro
+  - id: 265167
+    kind: 3
+    kind_id: 26628
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 26610
@@ -180,12 +174,14 @@ releases:
 - release:
     id: 30359
     game_id: 12293
+    release_type: 1
   names:
   - id: 72023
     kind: 3
     kind_id: 30359
     language: 2
     name: 魔鬼克星 (日版) (动作)-Ghostbusters (Japan)
+    deprecated: 1
   - id: 72024
     kind: 3
     kind_id: 30359
@@ -198,6 +194,12 @@ releases:
     language: 1
     name: Ghostbusters (Japan)
     source: no-intro
+  - id: 266317
+    kind: 3
+    kind_id: 30359
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 30341

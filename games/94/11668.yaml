@@ -174,27 +174,6 @@ releases:
       blob_id: 57623
       debug: Final Mission (J) [T+Eng1.00_Stardust Crusaders].nes
 - release:
-    id: 11672
-    game_id: 11668
-    release_type: 2
-  names:
-  - id: 83098
-    kind: 3
-    kind_id: 11672
-    language: 1
-    name: Final Mission (J) [T+Rus_CaH4e3_&_Chronix]
-  assets:
-  - asset:
-      id: 11654
-      kind: 3
-      kind_id: 11672
-      type: 1
-      name: Final Mission (J) [T+Rus_CaH4e3_&_Chronix].nes
-      format: 1
-      size: 262160
-      blob_id: 57624
-      debug: Final Mission (J) [T+Rus_CaH4e3_&_Chronix].nes
-- release:
     id: 11673
     game_id: 11668
   names:
@@ -317,27 +296,6 @@ releases:
       size: 262160
       blob_id: 57630
       debug: Final Mission (J) [t3].nes
-- release:
-    id: 11679
-    game_id: 11668
-    release_type: 2
-  names:
-  - id: 83099
-    kind: 3
-    kind_id: 11679
-    language: 1
-    name: Final Mission (J) [t3][T+Rus_Shedevr,CaH4e3,Chronix,Multisoft]
-  assets:
-  - asset:
-      id: 11661
-      kind: 3
-      kind_id: 11679
-      type: 1
-      name: Final Mission (J) [t3][T+Rus_Shedevr,CaH4e3,Chronix,Multisoft].nes
-      format: 1
-      size: 262160
-      blob_id: 57631
-      debug: Final Mission (J) [t3][T+Rus_Shedevr,CaH4e3,Chronix,Multisoft].nes
 - release:
     id: 11680
     game_id: 11668
@@ -546,6 +504,7 @@ releases:
 - release:
     id: 20476
     game_id: 11668
+    release_type: 1
   names:
   - id: 45624
     kind: 3
@@ -558,6 +517,7 @@ releases:
     kind_id: 20476
     language: 2
     name: "最终任务 (美版) (射击)-S.C.A.T. - Special Cybernetic Attack Team (USA)"
+    deprecated: 1
   - id: 70804
     kind: 3
     kind_id: 20476
@@ -570,6 +530,12 @@ releases:
     language: 1
     name: "S.C.A.T. - Special Cybernetic Attack Team (USA)"
     source: no-intro
+  - id: 264792
+    kind: 3
+    kind_id: 20476
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 20458
@@ -592,48 +558,6 @@ releases:
       size: 1622
       blob_id: 325103
       debug: libretro-named-titles:rom-asset=20458:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/S.C.A.T.%20-%20Special%20Cybernetic%20Attack%20Team%20%28USA%29.png
-- release:
-    id: 20477
-    game_id: 11668
-    release_type: 2
-  names:
-  - id: 84300
-    kind: 3
-    kind_id: 20477
-    language: 1
-    name: "S.C.A.T. - Special Cybernetic Attack Team (U) [T+Por100%_CBT]"
-  assets:
-  - asset:
-      id: 20459
-      kind: 3
-      kind_id: 20477
-      type: 1
-      name: "S.C.A.T. - Special Cybernetic Attack Team (U) [T+Por100%_CBT].nes"
-      format: 1
-      size: 262160
-      blob_id: 65918
-      debug: "S.C.A.T. - Special Cybernetic Attack Team (U) [T+Por100%_CBT].nes"
-- release:
-    id: 20478
-    game_id: 11668
-    release_type: 2
-  names:
-  - id: 84301
-    kind: 3
-    kind_id: 20478
-    language: 1
-    name: "S.C.A.T. - Special Cybernetic Attack Team (U) [T+Rus_Shedevr]"
-  assets:
-  - asset:
-      id: 20460
-      kind: 3
-      kind_id: 20478
-      type: 1
-      name: "S.C.A.T. - Special Cybernetic Attack Team (U) [T+Rus_Shedevr].nes"
-      format: 1
-      size: 262160
-      blob_id: 65919
-      debug: "S.C.A.T. - Special Cybernetic Attack Team (U) [T+Rus_Shedevr].nes"
 - release:
     id: 20481
     game_id: 11668
@@ -678,6 +602,7 @@ releases:
 - release:
     id: 20487
     game_id: 11668
+    release_type: 1
   names:
   - id: 45650
     kind: 3
@@ -691,6 +616,12 @@ releases:
     language: 1
     name: "S.C.A.T. - Special Cybernetic Attack Team (USA)"
     source: no-intro
+  - id: 264793
+    kind: 3
+    kind_id: 20487
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 20469
@@ -716,12 +647,14 @@ releases:
 - release:
     id: 28545
     game_id: 11668
+    release_type: 1
   names:
   - id: 65903
     kind: 3
     kind_id: 28545
     language: 2
     name: 最终任务 (欧版) (射击)-Action in New York (Europe)
+    deprecated: 1
   - id: 65904
     kind: 3
     kind_id: 28545
@@ -734,6 +667,12 @@ releases:
     language: 1
     name: Action in New York (Europe)
     source: no-intro
+  - id: 265758
+    kind: 3
+    kind_id: 28545
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 28527

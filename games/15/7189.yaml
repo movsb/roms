@@ -27,6 +27,7 @@ releases:
 - release:
     id: 7190
     game_id: 7189
+    release_type: 1
   names:
   - id: 15048
     kind: 3
@@ -45,12 +46,19 @@ releases:
     kind_id: 7190
     language: 2
     name: 蓝色马林鱼 (美版) (运动休闲)-Blue Marlin, The (USA)
+    deprecated: 1
   - id: 257796
     kind: 3
     kind_id: 7190
     language: 1
     name: Blue Marlin, The (USA)
     source: no-intro
+  - id: 263934
+    kind: 3
+    kind_id: 7190
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 7172
@@ -78,35 +86,16 @@ releases:
       blob_id: 322385
       debug: fc-title-trial:fceumm:rom-asset=7172:frame=3600
 - release:
-    id: 7191
-    game_id: 7189
-    release_type: 2
-  names:
-  - id: 82360
-    kind: 3
-    kind_id: 7191
-    language: 1
-    name: Blue Marlin, The (U) [T+Rus1.0_Griever,Magicteam]
-  assets:
-  - asset:
-      id: 7173
-      kind: 3
-      kind_id: 7191
-      type: 1
-      name: Blue Marlin, The (U) [T+Rus1.0_Griever,Magicteam].nes
-      format: 1
-      size: 262160
-      blob_id: 53378
-      debug: Blue Marlin, The (U) [T+Rus1.0_Griever,Magicteam].nes
-- release:
     id: 29588
     game_id: 7189
+    release_type: 1
   names:
   - id: 69441
     kind: 3
     kind_id: 29588
     language: 2
     name: 蓝色马林鱼 (日版) (运动休闲)-Blue Marlin, The (Japan)
+    deprecated: 1
   - id: 69442
     kind: 3
     kind_id: 29588
@@ -119,6 +108,12 @@ releases:
     language: 1
     name: Blue Marlin, The (Japan)
     source: no-intro
+  - id: 266079
+    kind: 3
+    kind_id: 29588
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 29570

@@ -90,6 +90,7 @@ releases:
 - release:
     id: 19095
     game_id: 19090
+    release_type: 1
   names:
   - id: 42546
     kind: 3
@@ -102,12 +103,19 @@ releases:
     kind_id: 19095
     language: 2
     name: 能源战士1
+    deprecated: 1
   - id: 259075
     kind: 3
     kind_id: 19095
     language: 1
     name: Power Blade (USA)
     source: no-intro
+  - id: 264694
+    kind: 3
+    kind_id: 19095
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 19077
@@ -134,90 +142,6 @@ releases:
       size: 3675
       blob_id: 322847
       debug: fc-title-trial:fceumm:rom-asset=19077:frame=180
-- release:
-    id: 19096
-    game_id: 19090
-    release_type: 2
-  names:
-  - id: 84153
-    kind: 3
-    kind_id: 19096
-    language: 1
-    name: Power Blade (U) [T+Fre99%_yf06]
-  assets:
-  - asset:
-      id: 19078
-      kind: 3
-      kind_id: 19096
-      type: 1
-      name: Power Blade (U) [T+Fre99%_yf06].nes
-      format: 1
-      size: 262160
-      blob_id: 64610
-      debug: Power Blade (U) [T+Fre99%_yf06].nes
-- release:
-    id: 19097
-    game_id: 19090
-    release_type: 2
-  names:
-  - id: 84154
-    kind: 3
-    kind_id: 19097
-    language: 1
-    name: Power Blade (U) [T+Rus2.0_Lupus]
-  assets:
-  - asset:
-      id: 19079
-      kind: 3
-      kind_id: 19097
-      type: 1
-      name: Power Blade (U) [T+Rus2.0_Lupus].nes
-      format: 1
-      size: 262160
-      blob_id: 64611
-      debug: Power Blade (U) [T+Rus2.0_Lupus].nes
-- release:
-    id: 19098
-    game_id: 19090
-    release_type: 2
-  names:
-  - id: 42556
-    kind: 3
-    kind_id: 19098
-    language: 1
-    name: Power Blade (U) [T-Rus1.1_Lupus]
-  assets:
-  - asset:
-      id: 19080
-      kind: 3
-      kind_id: 19098
-      type: 1
-      name: Power Blade (U) [T-Rus1.1_Lupus].nes
-      format: 1
-      size: 262160
-      blob_id: 64612
-      debug: Power Blade (U) [T-Rus1.1_Lupus].nes
-- release:
-    id: 19099
-    game_id: 19090
-    release_type: 2
-  names:
-  - id: 42558
-    kind: 3
-    kind_id: 19099
-    language: 1
-    name: Power Blade (U) [T-Rus1.3_Lupus,Multisoft]
-  assets:
-  - asset:
-      id: 19081
-      kind: 3
-      kind_id: 19099
-      type: 1
-      name: Power Blade (U) [T-Rus1.3_Lupus,Multisoft].nes
-      format: 1
-      size: 262160
-      blob_id: 64613
-      debug: Power Blade (U) [T-Rus1.3_Lupus,Multisoft].nes
 - release:
     id: 19105
     game_id: 19090
@@ -263,12 +187,14 @@ releases:
 - release:
     id: 27131
     game_id: 19090
+    release_type: 1
   names:
   - id: 61235
     kind: 3
     kind_id: 27131
     language: 2
     name: 刀锋斗士 (欧版) (动作)-Power Blade (Europe)
+    deprecated: 1
   - id: 61236
     kind: 3
     kind_id: 27131
@@ -281,6 +207,12 @@ releases:
     language: 1
     name: Power Blade (Europe)
     source: no-intro
+  - id: 265323
+    kind: 3
+    kind_id: 27131
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 27113

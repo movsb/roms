@@ -80,6 +80,7 @@ releases:
 - release:
     id: 12799
     game_id: 12797
+    release_type: 1
   names:
   - id: 28122
     kind: 3
@@ -92,12 +93,19 @@ releases:
     kind_id: 12799
     language: 2
     name: 太空射击战 (美版) (射击)-Gyruss (USA)
+    deprecated: 1
   - id: 258384
     kind: 3
     kind_id: 12799
     language: 1
     name: Gyruss (USA)
     source: no-intro
+  - id: 264298
+    kind: 3
+    kind_id: 12799
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 12781
@@ -123,27 +131,6 @@ releases:
       size: 2835
       blob_id: 322600
       debug: fc-title-trial:fceumm:rom-asset=12781:frame=300
-- release:
-    id: 12800
-    game_id: 12797
-    release_type: 2
-  names:
-  - id: 83251
-    kind: 3
-    kind_id: 12800
-    language: 1
-    name: Gyruss (U) [T+Rus_Guyver]
-  assets:
-  - asset:
-      id: 12782
-      kind: 3
-      kind_id: 12800
-      type: 1
-      name: Gyruss (U) [T+Rus_Guyver].nes
-      format: 1
-      size: 65552
-      blob_id: 58683
-      debug: Gyruss (U) [T+Rus_Guyver].nes
 - release:
     id: 12805
     game_id: 12797
@@ -189,6 +176,7 @@ releases:
 - release:
     id: 12807
     game_id: 12797
+    release_type: 1
   names:
   - id: 28140
     kind: 3
@@ -202,6 +190,12 @@ releases:
     language: 1
     name: Gyruss (USA)
     source: no-intro
+  - id: 264299
+    kind: 3
+    kind_id: 12807
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 12789

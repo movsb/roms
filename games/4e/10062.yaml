@@ -43,6 +43,7 @@ releases:
 - release:
     id: 10062
     game_id: 10062
+    release_type: 1
   names:
   - id: 21644
     kind: 3
@@ -61,12 +62,19 @@ releases:
     kind_id: 10062
     language: 2
     name: 双截龙2
+    deprecated: 1
   - id: 258058
     kind: 3
     kind_id: 10062
     language: 1
     name: "Double Dragon II - The Revenge (USA) (Rev 1)"
     source: no-intro
+  - id: 264095
+    kind: 3
+    kind_id: 10062
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 10044
@@ -113,6 +121,7 @@ releases:
 - release:
     id: 10067
     game_id: 10062
+    release_type: 1
   names:
   - id: 21654
     kind: 3
@@ -126,6 +135,12 @@ releases:
     language: 1
     name: "Double Dragon II - The Revenge (Europe)"
     source: no-intro
+  - id: 264097
+    kind: 3
+    kind_id: 10067
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 10049
@@ -364,6 +379,7 @@ releases:
 - release:
     id: 10082
     game_id: 10062
+    release_type: 1
   names:
   - id: 21690
     kind: 3
@@ -377,6 +393,12 @@ releases:
     language: 1
     name: "Double Dragon II - The Revenge (Japan)"
     source: no-intro
+  - id: 264098
+    kind: 3
+    kind_id: 10082
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 10064
@@ -402,6 +424,7 @@ releases:
 - release:
     id: 10083
     game_id: 10062
+    release_type: 1
   names:
   - id: 21692
     kind: 3
@@ -415,6 +438,12 @@ releases:
     language: 1
     name: "Double Dragon II - The Revenge (USA)"
     source: no-intro
+  - id: 264099
+    kind: 3
+    kind_id: 10083
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 10065
@@ -437,90 +466,6 @@ releases:
       size: 2808
       blob_id: 324813
       debug: libretro-named-titles:rom-asset=10065:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Double%20Dragon%20II%20-%20The%20Revenge%20%28USA%29.png
-- release:
-    id: 10085
-    game_id: 10062
-    release_type: 2
-  names:
-  - id: 82785
-    kind: 3
-    kind_id: 10085
-    language: 1
-    name: "Double Dragon II - The Revenge (U) (PRG1) [T+Bra_POBRE]"
-  assets:
-  - asset:
-      id: 10067
-      kind: 3
-      kind_id: 10085
-      type: 1
-      name: "Double Dragon II - The Revenge (U) (PRG1) [T+Bra_POBRE].nes"
-      format: 1
-      size: 262160
-      blob_id: 56124
-      debug: "Double Dragon II - The Revenge (U) (PRG1) [T+Bra_POBRE].nes"
-- release:
-    id: 10086
-    game_id: 10062
-    release_type: 2
-  names:
-  - id: 82786
-    kind: 3
-    kind_id: 10086
-    language: 1
-    name: "Double Dragon II - The Revenge (U) (PRG1) [T+Fre]"
-  assets:
-  - asset:
-      id: 10068
-      kind: 3
-      kind_id: 10086
-      type: 1
-      name: "Double Dragon II - The Revenge (U) (PRG1) [T+Fre].nes"
-      format: 1
-      size: 262160
-      blob_id: 56125
-      debug: "Double Dragon II - The Revenge (U) (PRG1) [T+Fre].nes"
-- release:
-    id: 10087
-    game_id: 10062
-    release_type: 2
-  names:
-  - id: 82787
-    kind: 3
-    kind_id: 10087
-    language: 1
-    name: "Double Dragon II - The Revenge (U) (PRG1) [T+Rus_RusTranslate Team]"
-  assets:
-  - asset:
-      id: 10069
-      kind: 3
-      kind_id: 10087
-      type: 1
-      name: "Double Dragon II - The Revenge (U) (PRG1) [T+Rus_RusTranslate Team].nes"
-      format: 1
-      size: 262160
-      blob_id: 56126
-      debug: "Double Dragon II - The Revenge (U) (PRG1) [T+Rus_RusTranslate Team].nes"
-- release:
-    id: 10088
-    game_id: 10062
-    release_type: 2
-  names:
-  - id: 82788
-    kind: 3
-    kind_id: 10088
-    language: 1
-    name: "Double Dragon II - The Revenge (U) (PRG1) [T+Rus_Rustranslate Team][a1]"
-  assets:
-  - asset:
-      id: 10070
-      kind: 3
-      kind_id: 10088
-      type: 1
-      name: "Double Dragon II - The Revenge (U) (PRG1) [T+Rus_Rustranslate Team][a1].nes"
-      format: 1
-      size: 262160
-      blob_id: 56127
-      debug: "Double Dragon II - The Revenge (U) (PRG1) [T+Rus_Rustranslate Team][a1].nes"
 - release:
     id: 10093
     game_id: 10062
@@ -563,27 +508,6 @@ releases:
       size: 262160
       blob_id: 56135
       debug: "Double Dragon II - The Revenge (U) (PRG1) [t1].nes"
-- release:
-    id: 10097
-    game_id: 10062
-    release_type: 2
-  names:
-  - id: 82789
-    kind: 3
-    kind_id: 10097
-    language: 1
-    name: "Double Dragon II - The Revenge (U) (PRG1) [t1][T+Rus_RusTranslate Team,Multisoft]"
-  assets:
-  - asset:
-      id: 10079
-      kind: 3
-      kind_id: 10097
-      type: 1
-      name: "Double Dragon II - The Revenge (U) (PRG1) [t1][T+Rus_RusTranslate Team,Multisoft].nes"
-      format: 1
-      size: 262160
-      blob_id: 56136
-      debug: "Double Dragon II - The Revenge (U) (PRG1) [t1][T+Rus_RusTranslate Team,Multisoft].nes"
 - release:
     id: 10098
     game_id: 10062

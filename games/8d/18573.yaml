@@ -22,6 +22,7 @@ releases:
 - release:
     id: 18573
     game_id: 18573
+    release_type: 1
   names:
   - id: 41420
     kind: 3
@@ -47,6 +48,12 @@ releases:
     language: 1
     name: Pirates! (USA)
     source: no-intro
+  - id: 264652
+    kind: 3
+    kind_id: 18573
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 18555
@@ -77,6 +84,7 @@ releases:
 - release:
     id: 18905
     game_id: 18573
+    release_type: 1
   names:
   - id: 42136
     kind: 3
@@ -90,6 +98,12 @@ releases:
     language: 1
     name: Pirates! (Europe)
     source: no-intro
+  - id: 264685
+    kind: 3
+    kind_id: 18905
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 18887
@@ -117,6 +131,7 @@ releases:
 - release:
     id: 18906
     game_id: 18573
+    release_type: 1
   names:
   - id: 42138
     kind: 3
@@ -130,6 +145,12 @@ releases:
     language: 1
     name: Pirates! (Germany)
     source: no-intro
+  - id: 264686
+    kind: 3
+    kind_id: 18906
+    language: 2
+    name: 德版
+    source: codex
   assets:
   - asset:
       id: 18888
@@ -154,24 +175,3 @@ releases:
       size: 5172
       blob_id: 324112
       debug: libretro-named-titles:rom-asset=18888:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Pirates%21%20%28Germany%29.png
-- release:
-    id: 18909
-    game_id: 18573
-    release_type: 2
-  names:
-  - id: 84138
-    kind: 3
-    kind_id: 18909
-    language: 1
-    name: Pirates! (U) [T+Rus_Chief-Net]
-  assets:
-  - asset:
-      id: 18891
-      kind: 3
-      kind_id: 18909
-      type: 1
-      name: Pirates! (U) [T+Rus_Chief-Net].nes
-      format: 1
-      size: 262160
-      blob_id: 64437
-      debug: Pirates! (U) [T+Rus_Chief-Net].nes

@@ -39,6 +39,7 @@ releases:
 - release:
     id: 14552
     game_id: 14553
+    release_type: 1
   names:
   - id: 32230
     kind: 3
@@ -52,6 +53,12 @@ releases:
     language: 1
     name: Kid Kool and the Quest for the Seven Wonder Herbs (USA)
     source: no-intro
+  - id: 264423
+    kind: 3
+    kind_id: 14552
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 14534
@@ -79,6 +86,7 @@ releases:
 - release:
     id: 14553
     game_id: 14553
+    release_type: 1
   names:
   - id: 32232
     kind: 3
@@ -91,12 +99,19 @@ releases:
     kind_id: 14553
     language: 2
     name: 天国与地狱 (美版)
+    deprecated: 1
   - id: 258565
     kind: 3
     kind_id: 14553
     language: 1
     name: Kid Kool and the Quest for the Seven Wonder Herbs (USA)
     source: no-intro
+  - id: 264424
+    kind: 3
+    kind_id: 14553
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 14535
@@ -122,27 +137,6 @@ releases:
       size: 3956
       blob_id: 322675
       debug: fc-title-trial:nestopia:rom-asset=14535:frame=900:start-frame=600
-- release:
-    id: 14554
-    game_id: 14553
-    release_type: 2
-  names:
-  - id: 83550
-    kind: 3
-    kind_id: 14554
-    language: 1
-    name: Kid Kool and the Quest for the 7 Wonder Herbs (U) [T+Rus_Guyver]
-  assets:
-  - asset:
-      id: 14536
-      kind: 3
-      kind_id: 14554
-      type: 1
-      name: Kid Kool and the Quest for the 7 Wonder Herbs (U) [T+Rus_Guyver].nes
-      format: 1
-      size: 131088
-      blob_id: 60315
-      debug: Kid Kool and the Quest for the 7 Wonder Herbs (U) [T+Rus_Guyver].nes
 - release:
     id: 14557
     game_id: 14553

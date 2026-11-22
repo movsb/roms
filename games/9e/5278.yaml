@@ -86,6 +86,7 @@ releases:
 - release:
     id: 5256
     game_id: 5278
+    release_type: 1
   names:
   - id: 10660
     kind: 3
@@ -104,12 +105,19 @@ releases:
     kind_id: 5256
     language: 2
     name: 阿贝道之战 (美版) (射击)-Abadox (USA)
+    deprecated: 1
   - id: 257587
     kind: 3
     kind_id: 5256
     language: 1
     name: "Abadox - The Deadly Inner War (USA)"
     source: no-intro
+  - id: 263803
+    kind: 3
+    kind_id: 5256
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 5238
@@ -132,216 +140,6 @@ releases:
       size: 4749
       blob_id: 323703
       debug: fc-title-trial:fceumm:rom-asset=5238:frame=180
-- release:
-    id: 5258
-    game_id: 5278
-    release_type: 2
-  names:
-  - id: 82101
-    kind: 3
-    kind_id: 5258
-    language: 1
-    name: "Abadox - The Deadly Inner War (U) [T+Bra_BRGames]"
-  assets:
-  - asset:
-      id: 5240
-      kind: 3
-      kind_id: 5258
-      type: 1
-      name: "Abadox - The Deadly Inner War (U) [T+Bra_BRGames].nes"
-      format: 1
-      size: 262160
-      blob_id: 51560
-      debug: "Abadox - The Deadly Inner War (U) [T+Bra_BRGames].nes"
-- release:
-    id: 5260
-    game_id: 5278
-    release_type: 2
-  names:
-  - id: 82103
-    kind: 3
-    kind_id: 5260
-    language: 1
-    name: "Abadox - The Deadly Inner War (U) [T+Bra_OX-Carnage]"
-  assets:
-  - asset:
-      id: 5242
-      kind: 3
-      kind_id: 5260
-      type: 1
-      name: "Abadox - The Deadly Inner War (U) [T+Bra_OX-Carnage].nes"
-      format: 1
-      size: 262160
-      blob_id: 51562
-      debug: "Abadox - The Deadly Inner War (U) [T+Bra_OX-Carnage].nes"
-- release:
-    id: 5261
-    game_id: 5278
-    release_type: 2
-  names:
-  - id: 82104
-    kind: 3
-    kind_id: 5261
-    language: 1
-    name: "Abadox - The Deadly Inner War (U) [T+Fre1.1_ks151]"
-  assets:
-  - asset:
-      id: 5243
-      kind: 3
-      kind_id: 5261
-      type: 1
-      name: "Abadox - The Deadly Inner War (U) [T+Fre1.1_ks151].nes"
-      format: 1
-      size: 262160
-      blob_id: 51563
-      debug: "Abadox - The Deadly Inner War (U) [T+Fre1.1_ks151].nes"
-- release:
-    id: 5262
-    game_id: 5278
-    release_type: 2
-  names:
-  - id: 82105
-    kind: 3
-    kind_id: 5262
-    language: 1
-    name: "Abadox - The Deadly Inner War (U) [T+Por1.0_CBT]"
-  assets:
-  - asset:
-      id: 5244
-      kind: 3
-      kind_id: 5262
-      type: 1
-      name: "Abadox - The Deadly Inner War (U) [T+Por1.0_CBT].nes"
-      format: 1
-      size: 262160
-      blob_id: 51564
-      debug: "Abadox - The Deadly Inner War (U) [T+Por1.0_CBT].nes"
-- release:
-    id: 5263
-    game_id: 5278
-    release_type: 2
-  names:
-  - id: 82106
-    kind: 3
-    kind_id: 5263
-    language: 1
-    name: "Abadox - The Deadly Inner War (U) [T+Por50%_Groxo]"
-  assets:
-  - asset:
-      id: 5245
-      kind: 3
-      kind_id: 5263
-      type: 1
-      name: "Abadox - The Deadly Inner War (U) [T+Por50%_Groxo].nes"
-      format: 1
-      size: 262160
-      blob_id: 51565
-      debug: "Abadox - The Deadly Inner War (U) [T+Por50%_Groxo].nes"
-- release:
-    id: 5264
-    game_id: 5278
-    release_type: 2
-  names:
-  - id: 82107
-    kind: 3
-    kind_id: 5264
-    language: 1
-    name: "Abadox - The Deadly Inner War (U) [T+Rus]"
-  assets:
-  - asset:
-      id: 5246
-      kind: 3
-      kind_id: 5264
-      type: 1
-      name: "Abadox - The Deadly Inner War (U) [T+Rus].nes"
-      format: 1
-      size: 262160
-      blob_id: 51566
-      debug: "Abadox - The Deadly Inner War (U) [T+Rus].nes"
-- release:
-    id: 5265
-    game_id: 5278
-    release_type: 2
-  names:
-  - id: 82108
-    kind: 3
-    kind_id: 5265
-    language: 1
-    name: "Abadox - The Deadly Inner War (U) [T+Rus_Alliance]"
-  assets:
-  - asset:
-      id: 5247
-      kind: 3
-      kind_id: 5265
-      type: 1
-      name: "Abadox - The Deadly Inner War (U) [T+Rus_Alliance].nes"
-      format: 1
-      size: 262160
-      blob_id: 51567
-      debug: "Abadox - The Deadly Inner War (U) [T+Rus_Alliance].nes"
-- release:
-    id: 5267
-    game_id: 5278
-    release_type: 2
-  names:
-  - id: 82110
-    kind: 3
-    kind_id: 5267
-    language: 1
-    name: "Abadox - The Deadly Inner War (U) [T+Rus_greengh0st]"
-  assets:
-  - asset:
-      id: 5249
-      kind: 3
-      kind_id: 5267
-      type: 1
-      name: "Abadox - The Deadly Inner War (U) [T+Rus_greengh0st].nes"
-      format: 1
-      size: 262160
-      blob_id: 51569
-      debug: "Abadox - The Deadly Inner War (U) [T+Rus_greengh0st].nes"
-- release:
-    id: 5268
-    game_id: 5278
-    release_type: 2
-  names:
-  - id: 82111
-    kind: 3
-    kind_id: 5268
-    language: 1
-    name: "Abadox - The Deadly Inner War (U) [T+Spa.99_PaladinKnights]"
-  assets:
-  - asset:
-      id: 5250
-      kind: 3
-      kind_id: 5268
-      type: 1
-      name: "Abadox - The Deadly Inner War (U) [T+Spa.99_PaladinKnights].nes"
-      format: 1
-      size: 262160
-      blob_id: 51570
-      debug: "Abadox - The Deadly Inner War (U) [T+Spa.99_PaladinKnights].nes"
-- release:
-    id: 5277
-    game_id: 5278
-    release_type: 2
-  names:
-  - id: 82113
-    kind: 3
-    kind_id: 5277
-    language: 1
-    name: "Abadox - The Deadly Inner War (U) [t1][T+Rus_greengh0st]"
-  assets:
-  - asset:
-      id: 5259
-      kind: 3
-      kind_id: 5277
-      type: 1
-      name: "Abadox - The Deadly Inner War (U) [t1][T+Rus_greengh0st].nes"
-      format: 1
-      size: 262160
-      blob_id: 51579
-      debug: "Abadox - The Deadly Inner War (U) [t1][T+Rus_greengh0st].nes"
 - release:
     id: 5278
     game_id: 5278
@@ -393,12 +191,14 @@ releases:
 - release:
     id: 30120
     game_id: 5278
+    release_type: 1
   names:
   - id: 71217
     kind: 3
     kind_id: 30120
     language: 2
     name: 阿贝道之战 (日版) (射击)-Abadox (Japan)
+    deprecated: 1
   - id: 71218
     kind: 3
     kind_id: 30120
@@ -411,6 +211,12 @@ releases:
     language: 1
     name: Abadox (Japan) (En)
     source: no-intro
+  - id: 266234
+    kind: 3
+    kind_id: 30120
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 30102

@@ -26,6 +26,7 @@ releases:
 - release:
     id: 14770
     game_id: 14770
+    release_type: 1
   names:
   - id: 32710
     kind: 3
@@ -44,12 +45,19 @@ releases:
     kind_id: 14770
     language: 2
     name: 小魔女大冒险 (美版) (动作)-Krion Conquest, The (USA)
+    deprecated: 1
   - id: 258598
     kind: 3
     kind_id: 14770
     language: 1
     name: Krion Conquest, The (USA)
     source: no-intro
+  - id: 264442
+    kind: 3
+    kind_id: 14770
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 14752
@@ -76,48 +84,6 @@ releases:
       size: 1931
       blob_id: 322686
       debug: fc-title-trial:fceumm:rom-asset=14752:frame=1200:start-frame=600
-- release:
-    id: 14771
-    game_id: 14770
-    release_type: 2
-  names:
-  - id: 83572
-    kind: 3
-    kind_id: 14771
-    language: 1
-    name: Krion Conquest, The (U) [T+Bra_vince vng]
-  assets:
-  - asset:
-      id: 14753
-      kind: 3
-      kind_id: 14771
-      type: 1
-      name: Krion Conquest, The (U) [T+Bra_vince vng].nes
-      format: 1
-      size: 262160
-      blob_id: 60516
-      debug: Krion Conquest, The (U) [T+Bra_vince vng].nes
-- release:
-    id: 14772
-    game_id: 14770
-    release_type: 2
-  names:
-  - id: 83573
-    kind: 3
-    kind_id: 14772
-    language: 1
-    name: Krion Conquest, The (U) [T+Fre_Generation IX]
-  assets:
-  - asset:
-      id: 14754
-      kind: 3
-      kind_id: 14772
-      type: 1
-      name: Krion Conquest, The (U) [T+Fre_Generation IX].nes
-      format: 1
-      size: 262160
-      blob_id: 60517
-      debug: Krion Conquest, The (U) [T+Fre_Generation IX].nes
 - release:
     id: 14775
     game_id: 14770

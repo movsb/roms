@@ -52,6 +52,7 @@ releases:
     id: 17895
     game_id: 17355
     release_date: 19840728
+    release_type: 1
   names:
   - id: 40000
     kind: 3
@@ -77,6 +78,12 @@ releases:
     language: 1
     name: Nuts & Milk (Japan) (En)
     source: no-intro
+  - id: 264640
+    kind: 3
+    kind_id: 17895
+    language: 2
+    name: 日版
+    source: codex
   release_publishers:
   - release_id: 17895
     publisher_id: 115
@@ -107,132 +114,6 @@ releases:
       size: 2472
       blob_id: 322812
       debug: fc-title-trial:fceumm:rom-asset=17877:frame=180
-- release:
-    id: 17896
-    game_id: 17355
-    release_type: 2
-  names:
-  - id: 84081
-    kind: 3
-    kind_id: 17896
-    language: 1
-    name: Nuts & Milk (J) [T+Bra_JM-trad]
-  assets:
-  - asset:
-      id: 17878
-      kind: 3
-      kind_id: 17896
-      type: 1
-      name: Nuts & Milk (J) [T+Bra_JM-trad].nes
-      format: 1
-      size: 24592
-      blob_id: 63461
-      debug: Nuts & Milk (J) [T+Bra_JM-trad].nes
-- release:
-    id: 17897
-    game_id: 17355
-    release_type: 2
-  names:
-  - id: 84082
-    kind: 3
-    kind_id: 17897
-    language: 1
-    name: Nuts & Milk (J) [T+FreFinal_ks151]
-  assets:
-  - asset:
-      id: 17879
-      kind: 3
-      kind_id: 17897
-      type: 1
-      name: Nuts & Milk (J) [T+FreFinal_ks151].nes
-      format: 1
-      size: 24592
-      blob_id: 63462
-      debug: Nuts & Milk (J) [T+FreFinal_ks151].nes
-- release:
-    id: 17898
-    game_id: 17355
-    release_type: 2
-  names:
-  - id: 84083
-    kind: 3
-    kind_id: 17898
-    language: 1
-    name: Nuts & Milk (J) [T+Rus_CARI]
-  assets:
-  - asset:
-      id: 17880
-      kind: 3
-      kind_id: 17898
-      type: 1
-      name: Nuts & Milk (J) [T+Rus_CARI].nes
-      format: 1
-      size: 40976
-      blob_id: 63463
-      debug: Nuts & Milk (J) [T+Rus_CARI].nes
-- release:
-    id: 17899
-    game_id: 17355
-    release_type: 2
-  names:
-  - id: 84084
-    kind: 3
-    kind_id: 17899
-    language: 1
-    name: Nuts & Milk (J) [T+Rus_Cool-Spot]
-  assets:
-  - asset:
-      id: 17881
-      kind: 3
-      kind_id: 17899
-      type: 1
-      name: Nuts & Milk (J) [T+Rus_Cool-Spot].nes
-      format: 1
-      size: 24592
-      blob_id: 63464
-      debug: Nuts & Milk (J) [T+Rus_Cool-Spot].nes
-- release:
-    id: 17900
-    game_id: 17355
-    release_type: 2
-  names:
-  - id: 84085
-    kind: 3
-    kind_id: 17900
-    language: 1
-    name: Nuts & Milk (J) [T+Rus_Mario Soft]
-  assets:
-  - asset:
-      id: 17882
-      kind: 3
-      kind_id: 17900
-      type: 1
-      name: Nuts & Milk (J) [T+Rus_Mario Soft].nes
-      format: 1
-      size: 24719
-      blob_id: 63465
-      debug: Nuts & Milk (J) [T+Rus_Mario Soft].nes
-- release:
-    id: 17901
-    game_id: 17355
-    release_type: 2
-  names:
-  - id: 84086
-    kind: 3
-    kind_id: 17901
-    language: 1
-    name: Nuts & Milk (J) [T+Rus_Multisoft]
-  assets:
-  - asset:
-      id: 17883
-      kind: 3
-      kind_id: 17901
-      type: 1
-      name: Nuts & Milk (J) [T+Rus_Multisoft].nes
-      format: 1
-      size: 24592
-      blob_id: 63466
-      debug: Nuts & Milk (J) [T+Rus_Multisoft].nes
 - release:
     id: 17902
     game_id: 17355
@@ -323,27 +204,6 @@ releases:
       size: 24592
       blob_id: 63472
       debug: Nuts & Milk (J) [p1].nes
-- release:
-    id: 17909
-    game_id: 17355
-    release_type: 2
-  names:
-  - id: 84087
-    kind: 3
-    kind_id: 17909
-    language: 1
-    name: Nuts & Milk (J) [t1][T+Rus_Cool-Spot]
-  assets:
-  - asset:
-      id: 17891
-      kind: 3
-      kind_id: 17909
-      type: 1
-      name: Nuts & Milk (J) [t1][T+Rus_Cool-Spot].nes
-      format: 1
-      size: 24592
-      blob_id: 63474
-      debug: Nuts & Milk (J) [t1][T+Rus_Cool-Spot].nes
 - release:
     id: 17910
     game_id: 17355
@@ -440,18 +300,26 @@ releases:
 - release:
     id: 29062
     game_id: 17355
+    release_type: 1
   names:
   - id: 67612
     kind: 3
     kind_id: 29062
     language: 2
     name: 牛奶与花生 (日版) (动作)-Nuts & Milk (Japan)
+    deprecated: 1
   - id: 260894
     kind: 3
     kind_id: 29062
     language: 1
     name: Nuts & Milk (Japan) (En)
     source: no-intro
+  - id: 265904
+    kind: 3
+    kind_id: 29062
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 29044

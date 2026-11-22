@@ -38,48 +38,6 @@ names:
   source: no-intro
 releases:
 - release:
-    id: 10151
-    game_id: 10151
-    release_type: 2
-  names:
-  - id: 82804
-    kind: 3
-    kind_id: 10151
-    language: 1
-    name: Double Dragon IV (Unl) [T+Rus_Cool-Spot]
-  assets:
-  - asset:
-      id: 10133
-      kind: 3
-      kind_id: 10151
-      type: 1
-      name: Double Dragon IV (Unl) [T+Rus_Cool-Spot].nes
-      format: 1
-      size: 262160
-      blob_id: 56188
-      debug: Double Dragon IV (Unl) [T+Rus_Cool-Spot].nes
-- release:
-    id: 10152
-    game_id: 10151
-    release_type: 2
-  names:
-  - id: 82805
-    kind: 3
-    kind_id: 10152
-    language: 1
-    name: Double Dragon IV (Unl) [T+Rus_Cool-Spot][a1]
-  assets:
-  - asset:
-      id: 10134
-      kind: 3
-      kind_id: 10152
-      type: 1
-      name: Double Dragon IV (Unl) [T+Rus_Cool-Spot][a1].nes
-      format: 1
-      size: 262160
-      blob_id: 56189
-      debug: Double Dragon IV (Unl) [T+Rus_Cool-Spot][a1].nes
-- release:
     id: 10153
     game_id: 10151
   names:
@@ -153,12 +111,19 @@ releases:
     kind_id: 23694
     language: 2
     name: 美版（目标：变节者）
+    deprecated: 1
   - id: 259588
     kind: 3
     kind_id: 23694
     language: 1
     name: "Target - Renegade (USA)"
     source: no-intro
+  - id: 264973
+    kind: 3
+    kind_id: 23694
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 23676
@@ -180,27 +145,6 @@ releases:
       size: 5465
       blob_id: 322302
       debug: fbui:retroarch-screenshot
-- release:
-    id: 23695
-    game_id: 10151
-    release_type: 2
-  names:
-  - id: 84685
-    kind: 3
-    kind_id: 23695
-    language: 1
-    name: "Target - Renegade (U) [T+Rus_Cool-Spot]"
-  assets:
-  - asset:
-      id: 23677
-      kind: 3
-      kind_id: 23695
-      type: 1
-      name: "Target - Renegade (U) [T+Rus_Cool-Spot].nes"
-      format: 1
-      size: 262160
-      blob_id: 68968
-      debug: "Target - Renegade (U) [T+Rus_Cool-Spot].nes"
 - release:
     id: 23699
     game_id: 10151
@@ -225,6 +169,7 @@ releases:
 - release:
     id: 23701
     game_id: 10151
+    release_type: 1
   names:
   - id: 52954
     kind: 3
@@ -238,6 +183,12 @@ releases:
     language: 1
     name: "Target - Renegade (USA)"
     source: no-intro
+  - id: 264974
+    kind: 3
+    kind_id: 23701
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 23683

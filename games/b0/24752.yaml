@@ -66,6 +66,7 @@ releases:
     id: 24684
     game_id: 24752
     release_date: 19881222
+    release_type: 1
   names:
   - id: 55132
     kind: 3
@@ -85,6 +86,12 @@ releases:
     language: 1
     name: Tetris (Japan) (En) (Rev 2) (Bullet-Proof)
     source: no-intro
+  - id: 265004
+    kind: 3
+    kind_id: 24684
+    language: 2
+    name: 日版
+    source: codex
   release_publishers:
   - release_id: 24684
     publisher_id: 17
@@ -153,48 +160,6 @@ releases:
       size: 65552
       blob_id: 69942
       debug: Tetris (Ch).nes
-- release:
-    id: 24687
-    game_id: 24752
-    release_type: 2
-  names:
-  - id: 84792
-    kind: 3
-    kind_id: 24687
-    language: 1
-    name: Tetris (E) [T+Rus_Cool-Spot]
-  assets:
-  - asset:
-      id: 24669
-      kind: 3
-      kind_id: 24687
-      type: 1
-      name: Tetris (E) [T+Rus_Cool-Spot].nes
-      format: 1
-      size: 49168
-      blob_id: 69943
-      debug: Tetris (E) [T+Rus_Cool-Spot].nes
-- release:
-    id: 24688
-    game_id: 24752
-    release_type: 2
-  names:
-  - id: 84793
-    kind: 3
-    kind_id: 24688
-    language: 1
-    name: Tetris (E) [T+Rus_Cool-Spot][a1]
-  assets:
-  - asset:
-      id: 24670
-      kind: 3
-      kind_id: 24688
-      type: 1
-      name: Tetris (E) [T+Rus_Cool-Spot][a1].nes
-      format: 1
-      size: 49168
-      blob_id: 69944
-      debug: Tetris (E) [T+Rus_Cool-Spot][a1].nes
 - release:
     id: 24690
     game_id: 24752
@@ -386,90 +351,6 @@ releases:
       blob_id: 69958
       debug: Tetris (Tengen) [T+Chi_Jiuban][a1].nes
 - release:
-    id: 24704
-    game_id: 24752
-    release_type: 2
-  names:
-  - id: 84798
-    kind: 3
-    kind_id: 24704
-    language: 1
-    name: Tetris (Tengen) [T+Rus_Cool-Spot]
-  assets:
-  - asset:
-      id: 24686
-      kind: 3
-      kind_id: 24704
-      type: 1
-      name: Tetris (Tengen) [T+Rus_Cool-Spot].nes
-      format: 1
-      size: 49168
-      blob_id: 69959
-      debug: Tetris (Tengen) [T+Rus_Cool-Spot].nes
-- release:
-    id: 24705
-    game_id: 24752
-    release_type: 2
-  names:
-  - id: 84799
-    kind: 3
-    kind_id: 24705
-    language: 1
-    name: Tetris (Tengen) [T+Rus_Cool-Spot][a1]
-  assets:
-  - asset:
-      id: 24687
-      kind: 3
-      kind_id: 24705
-      type: 1
-      name: Tetris (Tengen) [T+Rus_Cool-Spot][a1].nes
-      format: 1
-      size: 49168
-      blob_id: 69960
-      debug: Tetris (Tengen) [T+Rus_Cool-Spot][a1].nes
-- release:
-    id: 24706
-    game_id: 24752
-    release_type: 2
-  names:
-  - id: 84800
-    kind: 3
-    kind_id: 24706
-    language: 1
-    name: Tetris (Tengen) [T+Spa_Chilensis]
-  assets:
-  - asset:
-      id: 24688
-      kind: 3
-      kind_id: 24706
-      type: 1
-      name: Tetris (Tengen) [T+Spa_Chilensis].nes
-      format: 1
-      size: 65552
-      blob_id: 69961
-      debug: Tetris (Tengen) [T+Spa_Chilensis].nes
-- release:
-    id: 24707
-    game_id: 24752
-    release_type: 2
-  names:
-  - id: 84801
-    kind: 3
-    kind_id: 24707
-    language: 1
-    name: Tetris (Tengen) [T+Spa_HORUS]
-  assets:
-  - asset:
-      id: 24689
-      kind: 3
-      kind_id: 24707
-      type: 1
-      name: Tetris (Tengen) [T+Spa_HORUS].nes
-      format: 1
-      size: 65552
-      blob_id: 69962
-      debug: Tetris (Tengen) [T+Spa_HORUS].nes
-- release:
     id: 24710
     game_id: 24752
   names:
@@ -532,6 +413,7 @@ releases:
 - release:
     id: 24715
     game_id: 24752
+    release_type: 1
   names:
   - id: 55214
     kind: 3
@@ -544,12 +426,19 @@ releases:
     kind_id: 24715
     language: 2
     name: 俄罗斯方块 (美版) (益智)-Tetris (USA)
+    deprecated: 1
   - id: 259637
     kind: 3
     kind_id: 24715
     language: 1
     name: Tetris (USA)
     source: no-intro
+  - id: 265005
+    kind: 3
+    kind_id: 24715
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 24697
@@ -575,132 +464,6 @@ releases:
       size: 4550
       blob_id: 322307
       debug: fc-title-trial:fceumm:rom-asset=24697:frame=600
-- release:
-    id: 24716
-    game_id: 24752
-    release_type: 2
-  names:
-  - id: 84802
-    kind: 3
-    kind_id: 24716
-    language: 1
-    name: Tetris (U) [T+Dut1.1_Ok Impala!]
-  assets:
-  - asset:
-      id: 24698
-      kind: 3
-      kind_id: 24716
-      type: 1
-      name: Tetris (U) [T+Dut1.1_Ok Impala!].nes
-      format: 1
-      size: 49168
-      blob_id: 69971
-      debug: Tetris (U) [T+Dut1.1_Ok Impala!].nes
-- release:
-    id: 24717
-    game_id: 24752
-    release_type: 2
-  names:
-  - id: 84803
-    kind: 3
-    kind_id: 24717
-    language: 1
-    name: Tetris (U) [T+Ita0.9b_Zombikiller]
-  assets:
-  - asset:
-      id: 24699
-      kind: 3
-      kind_id: 24717
-      type: 1
-      name: Tetris (U) [T+Ita0.9b_Zombikiller].nes
-      format: 1
-      size: 161551
-      blob_id: 69972
-      debug: Tetris (U) [T+Ita0.9b_Zombikiller].nes
-- release:
-    id: 24718
-    game_id: 24752
-    release_type: 2
-  names:
-  - id: 84804
-    kind: 3
-    kind_id: 24718
-    language: 1
-    name: Tetris (U) [T+Pol]
-  assets:
-  - asset:
-      id: 24700
-      kind: 3
-      kind_id: 24718
-      type: 1
-      name: Tetris (U) [T+Pol].nes
-      format: 1
-      size: 49168
-      blob_id: 69973
-      debug: Tetris (U) [T+Pol].nes
-- release:
-    id: 24719
-    game_id: 24752
-    release_type: 2
-  names:
-  - id: 84805
-    kind: 3
-    kind_id: 24719
-    language: 1
-    name: Tetris (U) [T+Por100%_Emuroms]
-  assets:
-  - asset:
-      id: 24701
-      kind: 3
-      kind_id: 24719
-      type: 1
-      name: Tetris (U) [T+Por100%_Emuroms].nes
-      format: 1
-      size: 163856
-      blob_id: 69974
-      debug: Tetris (U) [T+Por100%_Emuroms].nes
-- release:
-    id: 24720
-    game_id: 24752
-    release_type: 2
-  names:
-  - id: 84806
-    kind: 3
-    kind_id: 24720
-    language: 1
-    name: Tetris (U) [T+Tur_Naito-TanUKi]
-  assets:
-  - asset:
-      id: 24702
-      kind: 3
-      kind_id: 24720
-      type: 1
-      name: Tetris (U) [T+Tur_Naito-TanUKi].nes
-      format: 1
-      size: 65535
-      blob_id: 69975
-      debug: Tetris (U) [T+Tur_Naito-TanUKi].nes
-- release:
-    id: 24721
-    game_id: 24752
-    release_type: 2
-  names:
-  - id: 55236
-    kind: 3
-    kind_id: 24721
-    language: 1
-    name: Tetris (U) [T-Dut]
-  assets:
-  - asset:
-      id: 24703
-      kind: 3
-      kind_id: 24721
-      type: 1
-      name: Tetris (U) [T-Dut].nes
-      format: 1
-      size: 49168
-      blob_id: 69976
-      debug: Tetris (U) [T-Dut].nes
 - release:
     id: 24733
     game_id: 24752
@@ -812,18 +575,26 @@ releases:
 - release:
     id: 26946
     game_id: 24752
+    release_type: 1
   names:
   - id: 60640
     kind: 3
     kind_id: 26946
     language: 2
     name: 俄罗斯方块 (日版)(Rev B) (益智)-Tetris (Bulletproof) (Japan) (Rev B)
+    deprecated: 1
   - id: 260064
     kind: 3
     kind_id: 26946
     language: 1
     name: Tetris (Japan) (En) (Rev 2) (Bullet-Proof)
     source: no-intro
+  - id: 265272
+    kind: 3
+    kind_id: 26946
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 26928
@@ -840,12 +611,14 @@ releases:
 - release:
     id: 26947
     game_id: 24752
+    release_type: 1
   names:
   - id: 60643
     kind: 3
     kind_id: 26947
     language: 2
     name: 俄罗斯方块 (欧版) (益智)-Tetris (Europe)
+    deprecated: 1
   - id: 60644
     kind: 3
     kind_id: 26947
@@ -858,6 +631,12 @@ releases:
     language: 1
     name: Tetris (Europe)
     source: no-intro
+  - id: 265273
+    kind: 3
+    kind_id: 26947
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 26929

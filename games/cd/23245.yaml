@@ -25,27 +25,6 @@ names:
   name: Super Pitfall
 releases:
 - release:
-    id: 23245
-    game_id: 23245
-    release_type: 2
-  names:
-  - id: 84623
-    kind: 3
-    kind_id: 23245
-    language: 1
-    name: Super Pitfall (J) [T+Rus_Cool-Spot]
-  assets:
-  - asset:
-      id: 23227
-      kind: 3
-      kind_id: 23245
-      type: 1
-      name: Super Pitfall (J) [T+Rus_Cool-Spot].nes
-      format: 1
-      size: 131088
-      blob_id: 68549
-      debug: Super Pitfall (J) [T+Rus_Cool-Spot].nes
-- release:
     id: 23246
     game_id: 23245
   names:
@@ -68,6 +47,7 @@ releases:
 - release:
     id: 23247
     game_id: 23245
+    release_type: 1
   names:
   - id: 51902
     kind: 3
@@ -86,12 +66,19 @@ releases:
     kind_id: 23247
     language: 2
     name: 超级沙坑探险 (美版) (动作)-Super Pitfall (USA)
+    deprecated: 1
   - id: 259538
     kind: 3
     kind_id: 23247
     language: 1
     name: Super Pitfall (USA)
     source: no-intro
+  - id: 264942
+    kind: 3
+    kind_id: 23247
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 23229
@@ -119,27 +106,6 @@ releases:
       blob_id: 323011
       debug: fc-title-trial:fceumm:rom-asset=23229:frame=300
 - release:
-    id: 23248
-    game_id: 23245
-    release_type: 2
-  names:
-  - id: 84624
-    kind: 3
-    kind_id: 23248
-    language: 1
-    name: Super Pitfall (U) [T+Fre_emu151]
-  assets:
-  - asset:
-      id: 23230
-      kind: 3
-      kind_id: 23248
-      type: 1
-      name: Super Pitfall (U) [T+Fre_emu151].nes
-      format: 1
-      size: 131088
-      blob_id: 68552
-      debug: Super Pitfall (U) [T+Fre_emu151].nes
-- release:
     id: 23252
     game_id: 23245
     release_type: 3
@@ -163,12 +129,14 @@ releases:
 - release:
     id: 29811
     game_id: 23245
+    release_type: 1
   names:
   - id: 70167
     kind: 3
     kind_id: 29811
     language: 2
     name: 超级沙坑探险 (日版) (动作)-Super Pitfall (Japan)
+    deprecated: 1
   - id: 70168
     kind: 3
     kind_id: 29811
@@ -181,6 +149,12 @@ releases:
     language: 1
     name: Super Pitfall (Japan)
     source: no-intro
+  - id: 266149
+    kind: 3
+    kind_id: 29811
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 29793

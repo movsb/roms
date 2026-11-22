@@ -72,6 +72,7 @@ releases:
 - release:
     id: 13646
     game_id: 13646
+    release_type: 1
   names:
   - id: 30030
     kind: 3
@@ -90,12 +91,19 @@ releases:
     kind_id: 13646
     language: 2
     name: "怒 II (美版) (动作射击)-Ikari Warriors II - Victory Road (USA)"
+    deprecated: 1
   - id: 258455
     kind: 3
     kind_id: 13646
     language: 1
     name: "Ikari Warriors II - Victory Road (USA)"
     source: no-intro
+  - id: 264345
+    kind: 3
+    kind_id: 13646
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 13628
@@ -142,12 +150,14 @@ releases:
 - release:
     id: 28175
     game_id: 13646
+    release_type: 1
   names:
   - id: 64689
     kind: 3
     kind_id: 28175
     language: 2
     name: "怒 II (日版) (动作射击)-Ikari II - Dogosoken (Japan)"
+    deprecated: 1
   - id: 64690
     kind: 3
     kind_id: 28175
@@ -160,6 +170,12 @@ releases:
     language: 1
     name: "Ikari II - Dogosoken (Japan)"
     source: no-intro
+  - id: 265627
+    kind: 3
+    kind_id: 28175
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 28157

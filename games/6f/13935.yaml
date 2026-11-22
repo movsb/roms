@@ -21,6 +21,7 @@ releases:
 - release:
     id: 13935
     game_id: 13935
+    release_type: 1
   names:
   - id: 30712
     kind: 3
@@ -33,12 +34,19 @@ releases:
     kind_id: 13935
     language: 2
     name: 大白鲨 (美版) (动作射击)-Jaws (USA)
+    deprecated: 1
   - id: 258498
     kind: 3
     kind_id: 13935
     language: 1
     name: Jaws (USA)
     source: no-intro
+  - id: 264377
+    kind: 3
+    kind_id: 13935
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 13917
@@ -64,90 +72,6 @@ releases:
       size: 5620
       blob_id: 322644
       debug: fc-title-trial:fceumm:rom-asset=13917:frame=180
-- release:
-    id: 13936
-    game_id: 13935
-    release_type: 2
-  names:
-  - id: 83408
-    kind: 3
-    kind_id: 13936
-    language: 1
-    name: Jaws (U) [T+Fre_KS151]
-  assets:
-  - asset:
-      id: 13918
-      kind: 3
-      kind_id: 13936
-      type: 1
-      name: Jaws (U) [T+Fre_KS151].nes
-      format: 1
-      size: 65552
-      blob_id: 59748
-      debug: Jaws (U) [T+Fre_KS151].nes
-- release:
-    id: 13937
-    game_id: 13935
-    release_type: 2
-  names:
-  - id: 83409
-    kind: 3
-    kind_id: 13937
-    language: 1
-    name: Jaws (U) [T+Fre_ks151][t1]
-  assets:
-  - asset:
-      id: 13919
-      kind: 3
-      kind_id: 13937
-      type: 1
-      name: Jaws (U) [T+Fre_ks151][t1].nes
-      format: 1
-      size: 65552
-      blob_id: 59749
-      debug: Jaws (U) [T+Fre_ks151][t1].nes
-- release:
-    id: 13938
-    game_id: 13935
-    release_type: 2
-  names:
-  - id: 83410
-    kind: 3
-    kind_id: 13938
-    language: 1
-    name: Jaws (U) [T+Rus_Chief-Net,Guyver]
-  assets:
-  - asset:
-      id: 13920
-      kind: 3
-      kind_id: 13938
-      type: 1
-      name: Jaws (U) [T+Rus_Chief-Net,Guyver].nes
-      format: 1
-      size: 65552
-      blob_id: 59750
-      debug: Jaws (U) [T+Rus_Chief-Net,Guyver].nes
-- release:
-    id: 13939
-    game_id: 13935
-    release_type: 2
-  names:
-  - id: 83411
-    kind: 3
-    kind_id: 13939
-    language: 1
-    name: Jaws (U) [T+Rus_Chief-Net,Guyver][t1]
-  assets:
-  - asset:
-      id: 13921
-      kind: 3
-      kind_id: 13939
-      type: 1
-      name: Jaws (U) [T+Rus_Chief-Net,Guyver][t1].nes
-      format: 1
-      size: 65552
-      blob_id: 59751
-      debug: Jaws (U) [T+Rus_Chief-Net,Guyver][t1].nes
 - release:
     id: 13940
     game_id: 13935

@@ -2,46 +2,27 @@ game:
   id: 16928
   platform_id: 2
 names:
-- id: 61914
-  kind: 2
-  kind_id: 16928
-  language: 1
-  name: Monster In My Pocket (E)
-  deprecated: 1
-- id: 61917
-  kind: 2
-  kind_id: 16928
-  language: 2
-  name: 口袋怪物大进击 (动作)-Monster in My Pocket
-- id: 61918
-  kind: 2
-  kind_id: 16928
-  language: 1
-  name: Monster In My Pocket (U) [!]
 - id: 72041
   kind: 2
   kind_id: 16928
   language: 2
   name: 魔鬼总动员
-- id: 80678
-  kind: 2
-  kind_id: 16928
-  language: 2
-  name: 口袋里的魔鬼[MM之神汉化]
-- id: 80679
-  kind: 2
-  kind_id: 16928
-  language: 1
-  name: Monster In My Pocket (U) [T+Chi_MS emumax]
+  deprecated: 1
 - id: 92545
   kind: 2
   kind_id: 16928
   language: 1
   name: Monster In My Pocket
+- id: 263790
+  kind: 2
+  kind_id: 16928
+  language: 2
+  name: 口袋怪物
 releases:
 - release:
     id: 16928
     game_id: 16928
+    release_type: 1
   names:
   - id: 37724
     kind: 3
@@ -60,17 +41,25 @@ releases:
     kind_id: 16928
     language: 2
     name: 口袋怪物大进击 (美版) (动作)-Monster in My Pocket (USA)
+    deprecated: 1
   - id: 72042
     kind: 3
     kind_id: 16928
     language: 2
     name: 魔鬼总动员
+    deprecated: 1
   - id: 258855
     kind: 3
     kind_id: 16928
     language: 1
     name: Monster in My Pocket (USA)
     source: no-intro
+  - id: 264586
+    kind: 3
+    kind_id: 16928
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 16910
@@ -183,27 +172,6 @@ releases:
       blob_id: 62548
       debug: Monster In My Pocket (U) [T+Chi][a3].nes
 - release:
-    id: 16933
-    game_id: 16928
-    release_type: 2
-  names:
-  - id: 83921
-    kind: 3
-    kind_id: 16933
-    language: 1
-    name: Monster In My Pocket (U) [T+Rus_Spider]
-  assets:
-  - asset:
-      id: 16915
-      kind: 3
-      kind_id: 16933
-      type: 1
-      name: Monster In My Pocket (U) [T+Rus_Spider].nes
-      format: 1
-      size: 262160
-      blob_id: 62549
-      debug: Monster In My Pocket (U) [T+Rus_Spider].nes
-- release:
     id: 16937
     game_id: 16928
     release_type: 3
@@ -225,27 +193,6 @@ releases:
       blob_id: 62553
       debug: Monster In My Pocket (U) [t1].nes
 - release:
-    id: 16956
-    game_id: 16928
-    release_type: 2
-  names:
-  - id: 83926
-    kind: 3
-    kind_id: 16956
-    language: 1
-    name: Monster in My Pocket (U) [T+Bra_OX-Carnage]
-  assets:
-  - asset:
-      id: 16938
-      kind: 3
-      kind_id: 16956
-      type: 1
-      name: Monster in My Pocket (U) [T+Bra_OX-Carnage].nes
-      format: 1
-      size: 262160
-      blob_id: 62570
-      debug: Monster in My Pocket (U) [T+Bra_OX-Carnage].nes
-- release:
     id: 16957
     game_id: 16928
     release_type: 2
@@ -266,27 +213,6 @@ releases:
       size: 262160
       blob_id: 62571
       debug: Monster in My Pocket (U) [T+Chi][a4].nes
-- release:
-    id: 16958
-    game_id: 16928
-    release_type: 2
-  names:
-  - id: 83928
-    kind: 3
-    kind_id: 16958
-    language: 1
-    name: Monster in My Pocket (U) [T+Pol]
-  assets:
-  - asset:
-      id: 16940
-      kind: 3
-      kind_id: 16958
-      type: 1
-      name: Monster in My Pocket (U) [T+Pol].nes
-      format: 1
-      size: 262160
-      blob_id: 62572
-      debug: Monster in My Pocket (U) [T+Pol].nes
 - release:
     id: 16960
     game_id: 16928
@@ -347,12 +273,14 @@ releases:
 - release:
     id: 27347
     game_id: 16928
+    release_type: 1
   names:
   - id: 61915
     kind: 3
     kind_id: 27347
     language: 2
     name: 口袋怪物大进击 (欧版) (动作)-Monster in My Pocket (Europe)
+    deprecated: 1
   - id: 61916
     kind: 3
     kind_id: 27347
@@ -365,6 +293,12 @@ releases:
     language: 1
     name: Monster in My Pocket (Europe)
     source: no-intro
+  - id: 265384
+    kind: 3
+    kind_id: 27347
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 27329
@@ -417,3 +351,24 @@ releases:
       debug: |-
         重复的/口袋里的魔鬼[MM之神汉化] + Monster In My Pocket (U) [T+Chi_MS emumax].nes
         魔鬼总动员(汉化版).nes
+- release:
+    id: 30366
+    game_id: 16928
+    release_type: 2
+  names:
+  - id: 72046
+    kind: 3
+    kind_id: 30366
+    language: 2
+    name: 魔鬼总动员汉化版
+  assets:
+  - asset:
+      id: 30348
+      kind: 3
+      kind_id: 30366
+      type: 1
+      name: 魔鬼总动员透明无敌汉化版.nes
+      format: 1
+      size: 393232
+      blob_id: 74164
+      debug: 魔鬼总动员汉化版.zip

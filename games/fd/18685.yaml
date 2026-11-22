@@ -21,6 +21,7 @@ releases:
 - release:
     id: 18685
     game_id: 18685
+    release_type: 1
   names:
   - id: 41658
     kind: 3
@@ -34,6 +35,12 @@ releases:
     language: 1
     name: Panic Restaurant (Europe)
     source: no-intro
+  - id: 264663
+    kind: 3
+    kind_id: 18685
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 18667
@@ -61,6 +68,7 @@ releases:
 - release:
     id: 18686
     game_id: 18685
+    release_type: 1
   names:
   - id: 41660
     kind: 3
@@ -79,12 +87,19 @@ releases:
     kind_id: 18686
     language: 2
     name: 超级厨师之美食家世界 (美版) (动作)-Panic Restaurant (USA)
+    deprecated: 1
   - id: 259011
     kind: 3
     kind_id: 18686
     language: 1
     name: Panic Restaurant (USA)
     source: no-intro
+  - id: 264664
+    kind: 3
+    kind_id: 18686
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 18668
@@ -112,111 +127,6 @@ releases:
       blob_id: 324106
       debug: libretro-named-titles:rom-asset=18668:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Panic%20Restaurant%20%28USA%29.png
 - release:
-    id: 18687
-    game_id: 18685
-    release_type: 2
-  names:
-  - id: 84120
-    kind: 3
-    kind_id: 18687
-    language: 1
-    name: Panic Restaurant (U) [T+Fre]
-  assets:
-  - asset:
-      id: 18669
-      kind: 3
-      kind_id: 18687
-      type: 1
-      name: Panic Restaurant (U) [T+Fre].nes
-      format: 1
-      size: 262160
-      blob_id: 64232
-      debug: Panic Restaurant (U) [T+Fre].nes
-- release:
-    id: 18688
-    game_id: 18685
-    release_type: 2
-  names:
-  - id: 84121
-    kind: 3
-    kind_id: 18688
-    language: 1
-    name: Panic Restaurant (U) [T+Kor_dkny94]
-  assets:
-  - asset:
-      id: 18670
-      kind: 3
-      kind_id: 18688
-      type: 1
-      name: Panic Restaurant (U) [T+Kor_dkny94].nes
-      format: 1
-      size: 262160
-      blob_id: 64233
-      debug: Panic Restaurant (U) [T+Kor_dkny94].nes
-- release:
-    id: 18689
-    game_id: 18685
-    release_type: 2
-  names:
-  - id: 84122
-    kind: 3
-    kind_id: 18689
-    language: 1
-    name: Panic Restaurant (U) [T+Rus_Guyver]
-  assets:
-  - asset:
-      id: 18671
-      kind: 3
-      kind_id: 18689
-      type: 1
-      name: Panic Restaurant (U) [T+Rus_Guyver].nes
-      format: 1
-      size: 262160
-      blob_id: 64234
-      debug: Panic Restaurant (U) [T+Rus_Guyver].nes
-- release:
-    id: 18690
-    game_id: 18685
-    release_type: 2
-  names:
-  - id: 84123
-    kind: 3
-    kind_id: 18690
-    language: 1
-    name: Panic Restaurant (U) [T+Rus_Shedevr]
-  assets:
-  - asset:
-      id: 18672
-      kind: 3
-      kind_id: 18690
-      type: 1
-      name: Panic Restaurant (U) [T+Rus_Shedevr].nes
-      format: 1
-      size: 262160
-      blob_id: 64235
-      debug: Panic Restaurant (U) [T+Rus_Shedevr].nes
-- release:
-    id: 18691
-    game_id: 18685
-    release_type: 2
-  names:
-  - id: 41678
-    kind: 3
-    kind_id: 18691
-    language: 1
-    name: Panic Restaurant (U) [T-Rus]
-  assets:
-  - asset:
-      id: 18673
-      kind: 3
-      kind_id: 18691
-      type: 1
-      name: Panic Restaurant (U) [T-Rus].nes
-      format: 1
-      size: 262160
-      blob_id: 64236
-      debug: Panic Restaurant (U) [T-Rus].nes
-- release:
     id: 18695
     game_id: 18685
   names:
@@ -239,18 +149,26 @@ releases:
 - release:
     id: 29786
     game_id: 18685
+    release_type: 1
   names:
   - id: 70072
     kind: 3
     kind_id: 29786
     language: 2
     name: 超级厨师之美食家世界 (欧版) (动作)-Panic Restaurant (Europe)
+    deprecated: 1
   - id: 261188
     kind: 3
     kind_id: 29786
     language: 1
     name: Panic Restaurant (Europe)
     source: no-intro
+  - id: 266138
+    kind: 3
+    kind_id: 29786
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 29768

@@ -30,27 +30,6 @@ names:
   name: Wild Gunman
 releases:
 - release:
-    id: 25935
-    game_id: 25935
-    release_type: 2
-  names:
-  - id: 84959
-    kind: 3
-    kind_id: 25935
-    language: 1
-    name: Wild Gunman (PC10) [T+Fre1.0_ks151]
-  assets:
-  - asset:
-      id: 25917
-      kind: 3
-      kind_id: 25935
-      type: 1
-      name: Wild Gunman (PC10) [T+Fre1.0_ks151].nes
-      format: 1
-      size: 32784
-      blob_id: 71097
-      debug: Wild Gunman (PC10) [T+Fre1.0_ks151].nes
-- release:
     id: 25936
     game_id: 25935
   names:
@@ -113,6 +92,7 @@ releases:
 - release:
     id: 25940
     game_id: 25935
+    release_type: 1
   names:
   - id: 57984
     kind: 3
@@ -131,12 +111,19 @@ releases:
     kind_id: 25940
     language: 2
     name: 荒野枪手 (世界版)(Rev A) (光线枪射击)-Wild Gunman (World) (Rev A)
+    deprecated: 1
   - id: 259808
     kind: 3
     kind_id: 25940
     language: 1
     name: Wild Gunman (World) (Rev 1)
     source: no-intro
+  - id: 265120
+    kind: 3
+    kind_id: 25940
+    language: 2
+    name: 世界版
+    source: codex
   assets:
   - asset:
       id: 25922
@@ -164,35 +151,16 @@ releases:
       blob_id: 325259
       debug: libretro-named-titles:rom-asset=25922:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Wild%20Gunman%20%28World%29%20%28Rev%201%29.png
 - release:
-    id: 25942
-    game_id: 25935
-    release_type: 2
-  names:
-  - id: 84960
-    kind: 3
-    kind_id: 25942
-    language: 1
-    name: Wild Gunman (W) (PRG1) [T+Fre]
-  assets:
-  - asset:
-      id: 25924
-      kind: 3
-      kind_id: 25942
-      type: 1
-      name: Wild Gunman (W) (PRG1) [T+Fre].nes
-      format: 1
-      size: 24592
-      blob_id: 71103
-      debug: Wild Gunman (W) (PRG1) [T+Fre].nes
-- release:
     id: 29562
     game_id: 25935
+    release_type: 1
   names:
   - id: 69349
     kind: 3
     kind_id: 29562
     language: 2
     name: 荒野枪手 (日版,美版) (光线枪射击)-Wild Gunman (Japan, USA)
+    deprecated: 1
   - id: 69350
     kind: 3
     kind_id: 29562
@@ -205,6 +173,12 @@ releases:
     language: 1
     name: Wild Gunman (Japan, USA) (En)
     source: no-intro
+  - id: 266068
+    kind: 3
+    kind_id: 29562
+    language: 2
+    name: 日美版
+    source: codex
   assets:
   - asset:
       id: 29544

@@ -84,27 +84,6 @@ releases:
       blob_id: 62368
       debug: "Mirai Senshi - Lios (J) [T+Eng1.00_Aeon Genesis][t1].nes"
 - release:
-    id: 16744
-    game_id: 16741
-    release_type: 2
-  names:
-  - id: 83889
-    kind: 3
-    kind_id: 16744
-    language: 1
-    name: "Mirai Senshi - Lios (J) [T+Rus_Chief-Net]"
-  assets:
-  - asset:
-      id: 16726
-      kind: 3
-      kind_id: 16744
-      type: 1
-      name: "Mirai Senshi - Lios (J) [T+Rus_Chief-Net].nes"
-      format: 1
-      size: 262160
-      blob_id: 62369
-      debug: "Mirai Senshi - Lios (J) [T+Rus_Chief-Net].nes"
-- release:
     id: 16748
     game_id: 16741
     release_type: 3
@@ -131,12 +110,14 @@ releases:
 - release:
     id: 28572
     game_id: 16741
+    release_type: 1
   names:
   - id: 66005
     kind: 3
     kind_id: 28572
     language: 2
     name: "未来战史 (日版) (策略)-Mirai Senshi - Lios (Japan)"
+    deprecated: 1
   - id: 66006
     kind: 3
     kind_id: 28572
@@ -149,6 +130,12 @@ releases:
     language: 1
     name: "Future Wars - Mirai Senshi Lios (Japan)"
     source: no-intro
+  - id: 265764
+    kind: 3
+    kind_id: 28572
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 28554

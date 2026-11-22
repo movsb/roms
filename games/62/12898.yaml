@@ -28,6 +28,7 @@ releases:
 - release:
     id: 12898
     game_id: 12898
+    release_type: 1
   names:
   - id: 28328
     kind: 3
@@ -40,12 +41,19 @@ releases:
     kind_id: 12898
     language: 2
     name: 哈林篮球队 (美版) (运动)-Harlem Globetrotters (USA)
+    deprecated: 1
   - id: 258391
     kind: 3
     kind_id: 12898
     language: 1
     name: Harlem Globetrotters (USA)
     source: no-intro
+  - id: 264301
+    kind: 3
+    kind_id: 12898
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 12880
@@ -74,6 +82,7 @@ releases:
 - release:
     id: 12904
     game_id: 12898
+    release_type: 1
   names:
   - id: 28340
     kind: 3
@@ -87,6 +96,12 @@ releases:
     language: 1
     name: Harlem Globetrotters (USA)
     source: no-intro
+  - id: 264302
+    kind: 3
+    kind_id: 12904
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 12886

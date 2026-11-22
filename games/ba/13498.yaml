@@ -39,6 +39,7 @@ releases:
 - release:
     id: 13499
     game_id: 13498
+    release_type: 1
   names:
   - id: 29694
     kind: 3
@@ -52,6 +53,12 @@ releases:
     language: 1
     name: Hyper Olympic (Japan) (En) (Genteiban!)
     source: no-intro
+  - id: 264330
+    kind: 3
+    kind_id: 13499
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 13481
@@ -65,27 +72,6 @@ releases:
       debug: |-
         Hyper Olympic (Genteiban!) (J).nes
         no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=75095b48d380ae817f8cbc199905af88818cb423
-- release:
-    id: 13500
-    game_id: 13498
-    release_type: 2
-  names:
-  - id: 83337
-    kind: 3
-    kind_id: 13500
-    language: 1
-    name: Hyper Olympic (J) [T+Rus0.1_Multisoft]
-  assets:
-  - asset:
-      id: 13482
-      kind: 3
-      kind_id: 13500
-      type: 1
-      name: Hyper Olympic (J) [T+Rus0.1_Multisoft].nes
-      format: 1
-      size: 24592
-      blob_id: 59345
-      debug: Hyper Olympic (J) [T+Rus0.1_Multisoft].nes
 - release:
     id: 13505
     game_id: 13498
@@ -149,12 +135,14 @@ releases:
 - release:
     id: 29789
     game_id: 13498
+    release_type: 1
   names:
   - id: 70083
     kind: 3
     kind_id: 29789
     language: 2
     name: 超级奥林匹克运动会 (日版) (运动)-Hyper Olympic (Japan)
+    deprecated: 1
   - id: 70084
     kind: 3
     kind_id: 29789
@@ -167,6 +155,12 @@ releases:
     language: 1
     name: Hyper Olympic (Japan) (En)
     source: no-intro
+  - id: 266139
+    kind: 3
+    kind_id: 29789
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 29771

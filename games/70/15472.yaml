@@ -121,69 +121,6 @@ releases:
       blob_id: 324957
       debug: libretro-named-titles:rom-asset=15455:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Mach%20Rider%20%28Japan%2C%20USA%29%20%28En%29%20%28Rev%201%29%20%28Virtual%20Console%29.png
 - release:
-    id: 15474
-    game_id: 15472
-    release_type: 2
-  names:
-  - id: 83692
-    kind: 3
-    kind_id: 15474
-    language: 1
-    name: Mach Rider (JU) (PRG0) [T+Rus0.4_Multisoft]
-  assets:
-  - asset:
-      id: 15456
-      kind: 3
-      kind_id: 15474
-      type: 1
-      name: Mach Rider (JU) (PRG0) [T+Rus0.4_Multisoft].nes
-      format: 1
-      size: 40976
-      blob_id: 61172
-      debug: Mach Rider (JU) (PRG0) [T+Rus0.4_Multisoft].nes
-- release:
-    id: 15475
-    game_id: 15472
-    release_type: 2
-  names:
-  - id: 83693
-    kind: 3
-    kind_id: 15475
-    language: 1
-    name: Mach Rider (JU) (PRG0) [T+Tur_KnighTeen87]
-  assets:
-  - asset:
-      id: 15457
-      kind: 3
-      kind_id: 15475
-      type: 1
-      name: Mach Rider (JU) (PRG0) [T+Tur_KnighTeen87].nes
-      format: 1
-      size: 41104
-      blob_id: 61173
-      debug: Mach Rider (JU) (PRG0) [T+Tur_KnighTeen87].nes
-- release:
-    id: 15476
-    game_id: 15472
-    release_type: 2
-  names:
-  - id: 34368
-    kind: 3
-    kind_id: 15476
-    language: 1
-    name: Mach Rider (JU) (PRG0) [T-Rus0.1_Multisoft]
-  assets:
-  - asset:
-      id: 15458
-      kind: 3
-      kind_id: 15476
-      type: 1
-      name: Mach Rider (JU) (PRG0) [T-Rus0.1_Multisoft].nes
-      format: 1
-      size: 40976
-      blob_id: 61174
-      debug: Mach Rider (JU) (PRG0) [T-Rus0.1_Multisoft].nes
-- release:
     id: 15478
     game_id: 15472
   names:
@@ -286,6 +223,7 @@ releases:
 - release:
     id: 15484
     game_id: 15472
+    release_type: 1
   names:
   - id: 34384
     kind: 3
@@ -298,6 +236,7 @@ releases:
     kind_id: 15484
     language: 2
     name: 超音速机车赛 (日版,美版) (竞赛)-Mach Rider (Japan, USA)
+    deprecated: 1
   - id: 70402
     kind: 3
     kind_id: 15484
@@ -310,6 +249,12 @@ releases:
     language: 1
     name: Mach Rider (Japan, USA) (En)
     source: no-intro
+  - id: 264491
+    kind: 3
+    kind_id: 15484
+    language: 2
+    name: 日美版
+    source: codex
   assets:
   - asset:
       id: 15466
@@ -378,12 +323,14 @@ releases:
 - release:
     id: 29876
     game_id: 15472
+    release_type: 1
   names:
   - id: 70405
     kind: 3
     kind_id: 29876
     language: 2
     name: 超音速机车赛 (日版,美版)(Rev A) (竞赛)-Mach Rider (Japan, USA) (Rev A)
+    deprecated: 1
   - id: 70406
     kind: 3
     kind_id: 29876
@@ -396,6 +343,12 @@ releases:
     language: 1
     name: Mach Rider (Japan, USA) (En) (Rev 1)
     source: no-intro
+  - id: 266159
+    kind: 3
+    kind_id: 29876
+    language: 2
+    name: 日美版
+    source: codex
   assets:
   - asset:
       id: 29858
@@ -423,12 +376,14 @@ releases:
 - release:
     id: 29877
     game_id: 15472
+    release_type: 1
   names:
   - id: 70409
     kind: 3
     kind_id: 29877
     language: 2
     name: 超音速机车赛 (欧版) (竞赛)-Mach Rider (Europe)
+    deprecated: 1
   - id: 70410
     kind: 3
     kind_id: 29877
@@ -441,6 +396,12 @@ releases:
     language: 1
     name: Mach Rider (Europe)
     source: no-intro
+  - id: 266160
+    kind: 3
+    kind_id: 29877
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 29859

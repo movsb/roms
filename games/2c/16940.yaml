@@ -26,6 +26,7 @@ releases:
 - release:
     id: 16940
     game_id: 16940
+    release_type: 1
   names:
   - id: 37758
     kind: 3
@@ -44,17 +45,25 @@ releases:
     kind_id: 16940
     language: 2
     name: 怪兽派对 (美版) (动作)-Monster Party (USA)
+    deprecated: 1
   - id: 64732
     kind: 3
     kind_id: 16940
     language: 2
     name: 怪物聚会
+    deprecated: 1
   - id: 258856
     kind: 3
     kind_id: 16940
     language: 1
     name: Monster Party (USA)
     source: no-intro
+  - id: 264587
+    kind: 3
+    kind_id: 16940
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 16922
@@ -82,45 +91,3 @@ releases:
       size: 5724
       blob_id: 322782
       debug: fc-title-trial:fceumm:rom-asset=16922:frame=180
-- release:
-    id: 16941
-    game_id: 16940
-    release_type: 2
-  names:
-  - id: 83922
-    kind: 3
-    kind_id: 16941
-    language: 1
-    name: Monster Party (U) [T+Rus_Chief-Net]
-  assets:
-  - asset:
-      id: 16923
-      kind: 3
-      kind_id: 16941
-      type: 1
-      name: Monster Party (U) [T+Rus_Chief-Net].nes
-      format: 1
-      size: 262160
-      blob_id: 62557
-      debug: Monster Party (U) [T+Rus_Chief-Net].nes
-- release:
-    id: 16942
-    game_id: 16940
-    release_type: 2
-  names:
-  - id: 83923
-    kind: 3
-    kind_id: 16942
-    language: 1
-    name: Monster Party (U) [T+Spa1.0_SARG]
-  assets:
-  - asset:
-      id: 16924
-      kind: 3
-      kind_id: 16942
-      type: 1
-      name: Monster Party (U) [T+Spa1.0_SARG].nes
-      format: 1
-      size: 262160
-      blob_id: 62558
-      debug: Monster Party (U) [T+Spa1.0_SARG].nes

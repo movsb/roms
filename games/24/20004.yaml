@@ -117,6 +117,7 @@ releases:
 - release:
     id: 20008
     game_id: 20004
+    release_type: 1
   names:
   - id: 44548
     kind: 3
@@ -129,12 +130,19 @@ releases:
     kind_id: 20008
     language: 2
     name: 机器战警 II (美版)(Rev A) (动作)-RoboCop 2 (USA) (Rev A)
+    deprecated: 1
   - id: 259186
     kind: 3
     kind_id: 20008
     language: 1
     name: RoboCop 2 (USA) (Rev 1)
     source: no-intro
+  - id: 264766
+    kind: 3
+    kind_id: 20008
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 19990
@@ -160,69 +168,6 @@ releases:
       size: 8138
       blob_id: 322897
       debug: fc-title-trial:fceumm:rom-asset=19990:frame=1200
-- release:
-    id: 20009
-    game_id: 20004
-    release_type: 2
-  names:
-  - id: 84230
-    kind: 3
-    kind_id: 20009
-    language: 1
-    name: RoboCop 2 (U) (PRG1) [T+Fre_terminus]
-  assets:
-  - asset:
-      id: 19991
-      kind: 3
-      kind_id: 20009
-      type: 1
-      name: RoboCop 2 (U) (PRG1) [T+Fre_terminus].nes
-      format: 1
-      size: 262160
-      blob_id: 65467
-      debug: RoboCop 2 (U) (PRG1) [T+Fre_terminus].nes
-- release:
-    id: 20010
-    game_id: 20004
-    release_type: 2
-  names:
-  - id: 84231
-    kind: 3
-    kind_id: 20010
-    language: 1
-    name: RoboCop 2 (U) (PRG1) [T+Rus_Chronix]
-  assets:
-  - asset:
-      id: 19992
-      kind: 3
-      kind_id: 20010
-      type: 1
-      name: RoboCop 2 (U) (PRG1) [T+Rus_Chronix].nes
-      format: 1
-      size: 262160
-      blob_id: 65468
-      debug: RoboCop 2 (U) (PRG1) [T+Rus_Chronix].nes
-- release:
-    id: 20011
-    game_id: 20004
-    release_type: 2
-  names:
-  - id: 84232
-    kind: 3
-    kind_id: 20011
-    language: 1
-    name: RoboCop 2 (U) (PRG1) [T+Rus_Chronix][a1]
-  assets:
-  - asset:
-      id: 19993
-      kind: 3
-      kind_id: 20011
-      type: 1
-      name: RoboCop 2 (U) (PRG1) [T+Rus_Chronix][a1].nes
-      format: 1
-      size: 262160
-      blob_id: 65469
-      debug: RoboCop 2 (U) (PRG1) [T+Rus_Chronix][a1].nes
 - release:
     id: 20046
     game_id: 20004
@@ -264,12 +209,14 @@ releases:
 - release:
     id: 28598
     game_id: 20004
+    release_type: 1
   names:
   - id: 66101
     kind: 3
     kind_id: 28598
     language: 2
     name: 机器战警 II (日版) (动作)-RoboCop 2 (Japan)
+    deprecated: 1
   - id: 66102
     kind: 3
     kind_id: 28598
@@ -282,6 +229,12 @@ releases:
     language: 1
     name: RoboCop 2 (Japan)
     source: no-intro
+  - id: 265777
+    kind: 3
+    kind_id: 28598
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 28580
@@ -309,12 +262,14 @@ releases:
 - release:
     id: 28599
     game_id: 20004
+    release_type: 1
   names:
   - id: 66105
     kind: 3
     kind_id: 28599
     language: 2
     name: 机器战警 II (欧版) (动作)-RoboCop 2 (Europe)
+    deprecated: 1
   - id: 66106
     kind: 3
     kind_id: 28599
@@ -327,6 +282,12 @@ releases:
     language: 1
     name: RoboCop 2 (Europe)
     source: no-intro
+  - id: 265778
+    kind: 3
+    kind_id: 28599
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 28581
@@ -354,12 +315,14 @@ releases:
 - release:
     id: 28600
     game_id: 20004
+    release_type: 1
   names:
   - id: 66109
     kind: 3
     kind_id: 28600
     language: 2
     name: 机器战警 II (美版) (动作)-RoboCop 2 (USA)
+    deprecated: 1
   - id: 66110
     kind: 3
     kind_id: 28600
@@ -372,6 +335,12 @@ releases:
     language: 1
     name: RoboCop 2 (USA)
     source: no-intro
+  - id: 265779
+    kind: 3
+    kind_id: 28600
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 28582

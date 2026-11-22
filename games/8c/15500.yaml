@@ -26,6 +26,7 @@ releases:
 - release:
     id: 15500
     game_id: 15500
+    release_type: 1
   names:
   - id: 34420
     kind: 3
@@ -38,17 +39,25 @@ releases:
     kind_id: 15500
     language: 2
     name: "哥尔戈 13 - 伊卡路斯之谜 (美版) (动作)-Golgo 13 - The Mafat Conspiracy (USA)"
+    deprecated: 1
   - id: 71614
     kind: 3
     kind_id: 15500
     language: 2
     name: 骷髅13第二章
+    deprecated: 1
   - id: 258695
     kind: 3
     kind_id: 15500
     language: 1
     name: Mafat Conspiracy, The (USA)
     source: no-intro
+  - id: 264494
+    kind: 3
+    kind_id: 15500
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 15482
@@ -72,29 +81,9 @@ releases:
       blob_id: 322725
       debug: fc-title-trial:fceumm:rom-asset=15482:frame=14400
 - release:
-    id: 15501
-    game_id: 15500
-    release_type: 2
-  names:
-  - id: 83696
-    kind: 3
-    kind_id: 15501
-    language: 1
-    name: "Mafat Conspiracy - Golgo 13 (U) [T+Rus_Tigran]"
-  assets:
-  - asset:
-      id: 15483
-      kind: 3
-      kind_id: 15501
-      type: 1
-      name: "Mafat Conspiracy - Golgo 13 (U) [T+Rus_Tigran].nes"
-      format: 1
-      size: 262160
-      blob_id: 61197
-      debug: "Mafat Conspiracy - Golgo 13 (U) [T+Rus_Tigran].nes"
-- release:
     id: 15507
     game_id: 15500
+    release_type: 1
   names:
   - id: 34436
     kind: 3
@@ -108,6 +97,12 @@ releases:
     language: 1
     name: Mafat Conspiracy, The (USA)
     source: no-intro
+  - id: 264495
+    kind: 3
+    kind_id: 15507
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 15489

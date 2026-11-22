@@ -25,29 +25,9 @@ names:
   name: Alpha Mission
 releases:
 - release:
-    id: 5798
-    game_id: 5798
-    release_type: 2
-  names:
-  - id: 82187
-    kind: 3
-    kind_id: 5798
-    language: 1
-    name: Alpha Mission (E) [T+Rus_greengh0st]
-  assets:
-  - asset:
-      id: 5780
-      kind: 3
-      kind_id: 5798
-      type: 1
-      name: Alpha Mission (E) [T+Rus_greengh0st].nes
-      format: 1
-      size: 65552
-      blob_id: 52066
-      debug: Alpha Mission (E) [T+Rus_greengh0st].nes
-- release:
     id: 5799
     game_id: 5798
+    release_type: 1
   names:
   - id: 11920
     kind: 3
@@ -66,12 +46,19 @@ releases:
     kind_id: 5799
     language: 2
     name: "阿尔法任务 - 装甲争夺战 (美版) (射击)-Alpha Mission (USA)"
+    deprecated: 1
   - id: 257645
     kind: 3
     kind_id: 5799
     language: 1
     name: Alpha Mission (USA)
     source: no-intro
+  - id: 263831
+    kind: 3
+    kind_id: 5799
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 5781
@@ -97,12 +84,14 @@ releases:
 - release:
     id: 30110
     game_id: 5798
+    release_type: 1
   names:
   - id: 71187
     kind: 3
     kind_id: 30110
     language: 2
     name: "阿尔法任务 - 装甲争夺战 (欧版) (射击)-Alpha Mission (Europe)"
+    deprecated: 1
   - id: 71188
     kind: 3
     kind_id: 30110
@@ -115,6 +104,12 @@ releases:
     language: 1
     name: Alpha Mission (Europe)
     source: no-intro
+  - id: 266230
+    kind: 3
+    kind_id: 30110
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 30092

@@ -65,6 +65,7 @@ releases:
 - release:
     id: 18575
     game_id: 18575
+    release_type: 1
   names:
   - id: 41424
     kind: 3
@@ -89,12 +90,19 @@ releases:
     kind_id: 18575
     language: 2
     name: 波斯王子 (美版) (动作)-Prince of Persia (USA)
+    deprecated: 1
   - id: 258990
     kind: 3
     kind_id: 18575
     language: 1
     name: Prince of Persia (USA)
     source: no-intro
+  - id: 264653
+    kind: 3
+    kind_id: 18575
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 18557
@@ -163,90 +171,6 @@ releases:
       blob_id: 322851
       debug: fc-title-trial:fceumm:rom-asset=19234:frame=300
 - release:
-    id: 19255
-    game_id: 18575
-    release_type: 2
-  names:
-  - id: 84161
-    kind: 3
-    kind_id: 19255
-    language: 1
-    name: Prince of Persia (U) [T+Pol]
-  assets:
-  - asset:
-      id: 19237
-      kind: 3
-      kind_id: 19255
-      type: 1
-      name: Prince of Persia (U) [T+Pol].nes
-      format: 1
-      size: 131088
-      blob_id: 64762
-      debug: Prince of Persia (U) [T+Pol].nes
-- release:
-    id: 19256
-    game_id: 18575
-    release_type: 2
-  names:
-  - id: 84162
-    kind: 3
-    kind_id: 19256
-    language: 1
-    name: Prince of Persia (U) [T+Rus_Karsh]
-  assets:
-  - asset:
-      id: 19238
-      kind: 3
-      kind_id: 19256
-      type: 1
-      name: Prince of Persia (U) [T+Rus_Karsh].nes
-      format: 1
-      size: 131088
-      blob_id: 64763
-      debug: Prince of Persia (U) [T+Rus_Karsh].nes
-- release:
-    id: 19257
-    game_id: 18575
-    release_type: 2
-  names:
-  - id: 84163
-    kind: 3
-    kind_id: 19257
-    language: 1
-    name: Prince of Persia (U) [T+Rus_Multisoft]
-  assets:
-  - asset:
-      id: 19239
-      kind: 3
-      kind_id: 19257
-      type: 1
-      name: Prince of Persia (U) [T+Rus_Multisoft].nes
-      format: 1
-      size: 131088
-      blob_id: 64764
-      debug: Prince of Persia (U) [T+Rus_Multisoft].nes
-- release:
-    id: 19258
-    game_id: 18575
-    release_type: 2
-  names:
-  - id: 84164
-    kind: 3
-    kind_id: 19258
-    language: 1
-    name: Prince of Persia (U) [T+Rus_Navigator]
-  assets:
-  - asset:
-      id: 19240
-      kind: 3
-      kind_id: 19258
-      type: 1
-      name: Prince of Persia (U) [T+Rus_Navigator].nes
-      format: 1
-      size: 131088
-      blob_id: 64765
-      debug: Prince of Persia (U) [T+Rus_Navigator].nes
-- release:
     id: 19265
     game_id: 18575
   names:
@@ -289,12 +213,14 @@ releases:
 - release:
     id: 28803
     game_id: 18575
+    release_type: 1
   names:
   - id: 66793
     kind: 3
     kind_id: 28803
     language: 2
     name: 波斯王子 (德版) (动作)-Prince of Persia (Germany)
+    deprecated: 1
   - id: 66794
     kind: 3
     kind_id: 28803
@@ -307,6 +233,12 @@ releases:
     language: 1
     name: Prince of Persia (Germany)
     source: no-intro
+  - id: 265841
+    kind: 3
+    kind_id: 28803
+    language: 2
+    name: 德版
+    source: codex
   assets:
   - asset:
       id: 28785
@@ -334,12 +266,14 @@ releases:
 - release:
     id: 28804
     game_id: 18575
+    release_type: 1
   names:
   - id: 66797
     kind: 3
     kind_id: 28804
     language: 2
     name: 波斯王子 (欧版) (动作)-Prince of Persia (Europe)
+    deprecated: 1
   - id: 66798
     kind: 3
     kind_id: 28804
@@ -352,6 +286,12 @@ releases:
     language: 1
     name: Prince of Persia (Europe)
     source: no-intro
+  - id: 265842
+    kind: 3
+    kind_id: 28804
+    language: 2
+    name: 欧版
+    source: codex
   assets:
   - asset:
       id: 28786
@@ -379,12 +319,14 @@ releases:
 - release:
     id: 28805
     game_id: 18575
+    release_type: 1
   names:
   - id: 66801
     kind: 3
     kind_id: 28805
     language: 2
     name: 波斯王子 (法版) (动作)-Prince of Persia (France)
+    deprecated: 1
   - id: 66802
     kind: 3
     kind_id: 28805
@@ -397,6 +339,12 @@ releases:
     language: 1
     name: Prince of Persia (France)
     source: no-intro
+  - id: 265843
+    kind: 3
+    kind_id: 28805
+    language: 2
+    name: 法版
+    source: codex
   assets:
   - asset:
       id: 28787
@@ -424,12 +372,14 @@ releases:
 - release:
     id: 28807
     game_id: 18575
+    release_type: 1
   names:
   - id: 66809
     kind: 3
     kind_id: 28807
     language: 2
     name: 波斯王子 (西班牙版) (动作)-Prince of Persia (Spain)
+    deprecated: 1
   - id: 66810
     kind: 3
     kind_id: 28807
@@ -442,6 +392,12 @@ releases:
     language: 1
     name: Prince of Persia (Spain)
     source: no-intro
+  - id: 265844
+    kind: 3
+    kind_id: 28807
+    language: 2
+    name: 西班牙版
+    source: codex
   assets:
   - asset:
       id: 28789

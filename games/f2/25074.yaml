@@ -41,6 +41,7 @@ releases:
 - release:
     id: 25074
     game_id: 25074
+    release_type: 1
   names:
   - id: 56040
     kind: 3
@@ -59,12 +60,19 @@ releases:
     kind_id: 25074
     language: 2
     name: "美式足球 - 达阵狂热 (美版) (运动)-Touch Down Fever (USA)"
+    deprecated: 1
   - id: 259692
     kind: 3
     kind_id: 25074
     language: 1
     name: Touchdown Fever (USA)
     source: no-intro
+  - id: 265038
+    kind: 3
+    kind_id: 25074
+    language: 2
+    name: 美版
+    source: codex
   assets:
   - asset:
       id: 25056
@@ -90,12 +98,14 @@ releases:
 - release:
     id: 29456
     game_id: 25074
+    release_type: 1
   names:
   - id: 68999
     kind: 3
     kind_id: 29456
     language: 2
     name: "美式足球 - 达阵狂热 (日版) (运动)-Touch Down Fever (Japan)"
+    deprecated: 1
   - id: 69000
     kind: 3
     kind_id: 29456
@@ -108,6 +118,12 @@ releases:
     language: 1
     name: "American Football - Touchdown Fever (Japan)"
     source: no-intro
+  - id: 266041
+    kind: 3
+    kind_id: 29456
+    language: 2
+    name: 日版
+    source: codex
   assets:
   - asset:
       id: 29438
