@@ -2,39 +2,17 @@ game:
   id: 28162
   platform_id: 2
 names:
-- id: 31543
-  kind: 2
-  kind_id: 28162
-  language: 1
-  name: Kaiketsu Yanchamaru (J) [hFFE]
-- id: 64645
-  kind: 2
-  kind_id: 28162
-  language: 2
-  name: 快杰洋枪1
-- id: 64655
-  kind: 2
-  kind_id: 28162
-  language: 2
-  name: 快杰洋枪丸 (动作)-Kaiketsu Yanchamaru
-- id: 64656
-  kind: 2
-  kind_id: 28162
-  language: 1
-  name: Kaiketsu Yanchamaru (J)
-  deprecated: 1
-- id: 248013
-  kind: 2
-  kind_id: 28162
-  language: 2
-  name: 快杰洋枪丸
-  source: codex
 - id: 262906
   kind: 2
   kind_id: 28162
   language: 1
   name: Kaiketsu Yanchamaru
   source: no-intro
+- id: 266355
+  kind: 2
+  kind_id: 28162
+  language: 2
+  name: 快杰洋枪丸1
 releases:
 - release:
     id: 14287
@@ -56,6 +34,73 @@ releases:
       size: 262160
       blob_id: 60069
       debug: Kaiketsu Yanchamaru (J) [hFFE].nes
+- release:
+    id: 14559
+    game_id: 28162
+    release_type: 1
+  names:
+  - id: 32246
+    kind: 3
+    kind_id: 14559
+    language: 1
+    name: "Kid Niki - Radical Ninja (U) (PRG 0)"
+    deprecated: 1
+  - id: 64661
+    kind: 3
+    kind_id: 14559
+    language: 2
+    name: "快杰洋枪丸 (美版) (动作)-Kid Niki - Radical Ninja (USA)"
+    deprecated: 1
+  - id: 64662
+    kind: 3
+    kind_id: 14559
+    language: 1
+    name: "Kid Niki - Radical Ninja (U) (PRG0) [!]"
+    deprecated: 1
+  - id: 258566
+    kind: 3
+    kind_id: 14559
+    language: 1
+    name: "Kid Niki - Radical Ninja (USA)"
+    source: no-intro
+  - id: 264425
+    kind: 3
+    kind_id: 14559
+    language: 2
+    name: 美版
+    source: codex
+  assets:
+  - asset:
+      id: 14541
+      kind: 3
+      kind_id: 14559
+      type: 1
+      name: "Kid Niki - Radical Ninja (USA).nes"
+      format: 1
+      size: 262160
+      blob_id: 60320
+      debug: "Kid Niki - Radical Ninja (U) (PRG 0).zip\n快杰洋枪丸 (美版) (动作)-Kid Niki - Radical Ninja (USA) + Kid Niki - Radical Ninja (U) (PRG0) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=27ae95c7a3a0d39da9c919ac4189b44563755998"
+  - asset:
+      id: 14545
+      kind: 3
+      kind_id: 14559
+      type: 1
+      name: "Kid Niki - Radical Ninja (USA) (Rev 1).nes"
+      format: 1
+      size: 262160
+      blob_id: 60324
+      debug: "Kid Niki - Radical Ninja (U) (PRG1) [!].zip\n快杰洋枪丸 (美版)(Rev A) (动作)-Kid Niki - Radical Ninja (USA) (Rev A) + Kid Niki - Radical Ninja (U) (PRG1) [!].nes\nno-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=86788bd888f04d5ec2f6180b00c00e6c11225d78"
+  - asset:
+      id: 139493
+      kind: 3
+      kind_id: 14559
+      type: 9
+      name: libretro-title.png
+      description: Libretro 标题图库；按 ROM 完整名称及地区匹配。来源：https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Kid%20Niki%20-%20Radical%20Ninja%20%28USA%29.png
+      format: 1
+      size: 2611
+      blob_id: 324921
+      debug: libretro-named-titles:rom-asset=14541:source=https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Titles/Kid%20Niki%20-%20Radical%20Ninja%20%28USA%29.png
 - release:
     id: 28162
     game_id: 28162

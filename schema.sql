@@ -18,8 +18,6 @@ CREATE TABLE `blobs` (
 	`sha256` TEXT NOT NULL
 , stored_size INTEGER NOT NULL DEFAULT 0);
 
-CREATE TABLE `developers` (`id` INTEGER PRIMARY KEY AUTOINCREMENT);
-
 CREATE TABLE `entries` (
 	`id` INTEGER PRIMARY KEY AUTOINCREMENT,
 	`asset_id` INTEGER NOT NULL,
@@ -28,25 +26,11 @@ CREATE TABLE `entries` (
 	`blob_id` INTEGER NOT NULL
 );
 
-CREATE TABLE `game_developers` (
-	`game_id` INTEGER NOT NULL,
-	`developer_id` INTEGER NOT NULL,
-	UNIQUE (`game_id`, `developer_id`)
-);
-
-CREATE TABLE `game_genres` (
-	`game_id` INTEGER NOT NULL,
-	`genre_id` INTEGER NOT NULL,
-	UNIQUE (`game_id`, `genre_id`)
-);
-
 CREATE TABLE `games` (
 	`id` INTEGER PRIMARY KEY AUTOINCREMENT,
 	`platform_id` INTEGER NOT NULL,
 	`description` TEXT NOT NULL
 , series_id INTEGER NOT NULL DEFAULT 0);
-
-CREATE TABLE `genres` (`id` INTEGER PRIMARY KEY AUTOINCREMENT);
 
 CREATE TABLE `names` (
 	`id` INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -67,20 +51,11 @@ CREATE TABLE `platforms` (
 	`description` TEXT NOT NULL
 );
 
-CREATE TABLE `publishers` (`id` INTEGER PRIMARY KEY AUTOINCREMENT);
-
-CREATE TABLE `release_publishers` (
-	`release_id` INTEGER NOT NULL,
-	`publisher_id` INTEGER NOT NULL,
-	UNIQUE (`release_id`, `publisher_id`)
-);
-
 CREATE TABLE `releases` (
 	`id` INTEGER PRIMARY KEY AUTOINCREMENT,
 	`game_id` INTEGER NOT NULL,
 	`description` TEXT NOT NULL,
-	`release_date` INTEGER NOT NULL
-, release_type INTEGER NOT NULL DEFAULT 0);
+	release_type INTEGER NOT NULL DEFAULT 0);
 
 CREATE TABLE rom_import_exclusions (id INTEGER PRIMARY KEY AUTOINCREMENT, platform_id INTEGER NOT NULL, fingerprint TEXT NOT NULL, reason TEXT NOT NULL, original_name TEXT NOT NULL, created_at INTEGER NOT NULL, UNIQUE(platform_id,fingerprint));
 
