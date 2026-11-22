@@ -3,27 +3,6 @@ game:
   platform_id: 2
   description: "“脱狱2”只是国内卡带商或玩家使用的俗称。它既不是《脱狱》（P.O.W.: Prisoners of War）的正式续作，也没有官方的“2”代关系。因此游戏主名称最好改成 CrossFire，保留“脱狱2”作为中文别名或搜索名。"
 names:
-- id: 67755
-  kind: 2
-  kind_id: 29493
-  language: 2
-  name: 特种部队 (动作)-Cross Fire
-- id: 67756
-  kind: 2
-  kind_id: 29493
-  language: 1
-  name: Cross Fire (J)
-  deprecated: 1
-- id: 67759
-  kind: 2
-  kind_id: 29493
-  language: 2
-  name: 特种部队 (动作)-Cross Fire (Proto)
-- id: 67760
-  kind: 2
-  kind_id: 29493
-  language: 1
-  name: Cross Fire (U) (Prototype) [!]
 - id: 69109
   kind: 2
   kind_id: 29493
@@ -40,11 +19,6 @@ names:
   kind_id: 29493
   language: 3
   name: クロスファイヤー
-- id: 242181
-  kind: 2
-  kind_id: 29493
-  language: 1
-  name: CrossFire
 - id: 242184
   kind: 2
   kind_id: 29493
@@ -272,24 +246,20 @@ releases:
 - release:
     id: 29102
     game_id: 29493
+    description: 两个文件逐字节只有一处不同：偏移 0x06 的 iNES 标头从 0x40 变成 0x41，即镜像方式标志不同；后面的 262,144 字节 PRG/CHR 内容完全一致。No-Intro 也把二者识别为同一个 ROM。
+    release_type: 1
   names:
-  - id: 67757
-    kind: 3
-    kind_id: 29102
-    language: 2
-    name: 特种部队 (日版) (动作)-Cross Fire (Japan)
-  - id: 67758
-    kind: 3
-    kind_id: 29102
-    language: 1
-    name: Cross Fire (J)
-    deprecated: 1
   - id: 260908
     kind: 3
     kind_id: 29102
     language: 1
     name: CrossFire (Japan) (En)
     source: no-intro
+  - id: 263782
+    kind: 3
+    kind_id: 29102
+    language: 2
+    name: 日版
   assets:
   - asset:
       id: 29084
@@ -302,6 +272,19 @@ releases:
       blob_id: 73375
       debug: |-
         特种部队 (日版) (动作)-Cross Fire (Japan) + Cross Fire (J).nes
+        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=7f50c869600f7482b14925c9ea6eec00897193cb
+  - asset:
+      id: 29475
+      kind: 3
+      kind_id: 29102
+      type: 1
+      name: CrossFire (Japan) (En).nes
+      format: 1
+      size: 262160
+      blob_id: 73623
+      debug: |-
+        脱狱2.nes
+        脱狱2.zip
         no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=7f50c869600f7482b14925c9ea6eec00897193cb
   - asset:
       id: 139095
@@ -336,38 +319,6 @@ releases:
       debug: |-
         脱狱2(无敌).nes
         重复的/Cross Fire (J) [t1].nes
-- release:
-    id: 29493
-    game_id: 29493
-  names:
-  - id: 242177
-    kind: 3
-    kind_id: 29493
-    language: 2
-    name: 原版
-  - id: 261080
-    kind: 3
-    kind_id: 29493
-    language: 1
-    name: CrossFire (Japan) (En)
-    source: no-intro
-  release_publishers:
-  - release_id: 29493
-    publisher_id: 726
-  assets:
-  - asset:
-      id: 29475
-      kind: 3
-      kind_id: 29493
-      type: 1
-      name: CrossFire (Japan) (En).nes
-      format: 1
-      size: 262160
-      blob_id: 73623
-      debug: |-
-        脱狱2.nes
-        脱狱2.zip
-        no-intro:f8afe5fd148ba547287b1c5ddd1a92bb7fc3a42351205c466fe380da18aec34b:ines-headerless:sha1=7f50c869600f7482b14925c9ea6eec00897193cb
 - release:
     id: 29495
     game_id: 29493

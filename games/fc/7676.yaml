@@ -2,36 +2,11 @@ game:
   id: 7676
   platform_id: 2
 names:
-- id: 16207
-  kind: 2
-  kind_id: 7676
-  language: 1
-  name: Captain American [p1][!]
-- id: 17019
-  kind: 2
-  kind_id: 7676
-  language: 1
-  name: Captain_america
 - id: 59879
   kind: 2
   kind_id: 7676
   language: 2
   name: 上尉密令
-- id: 68965
-  kind: 2
-  kind_id: 7676
-  language: 2
-  name: 美国队长与复仇者 (澳洲版) (动作)-Captain America and the Avengers
-- id: 68967
-  kind: 2
-  kind_id: 7676
-  language: 2
-  name: 美国队长与复仇者 (动作)-Captain America and the Avengers
-- id: 68968
-  kind: 2
-  kind_id: 7676
-  language: 1
-  name: Captain America and The Avengers (U) [!]
 - id: 91464
   kind: 2
   kind_id: 7676
@@ -43,6 +18,7 @@ names:
   language: 2
   name: 美国队长
   source: codex
+  deprecated: 1
 releases:
 - release:
     id: 7676
@@ -87,30 +63,19 @@ releases:
 - release:
     id: 7677
     game_id: 7676
+    release_type: 1
   names:
-  - id: 16152
-    kind: 3
-    kind_id: 7677
-    language: 1
-    name: Captain America and The Avengers (U) [!]
-    deprecated: 1
-  - id: 17020
-    kind: 3
-    kind_id: 7677
-    language: 1
-    name: Captain_america
-    deprecated: 1
-  - id: 68969
-    kind: 3
-    kind_id: 7677
-    language: 2
-    name: 美国队长与复仇者 (美版) (动作)-Captain America and the Avengers (USA)
   - id: 257844
     kind: 3
     kind_id: 7677
     language: 1
     name: Captain America and the Avengers (USA)
     source: no-intro
+  - id: 263783
+    kind: 3
+    kind_id: 7677
+    language: 2
+    name: 美版
   assets:
   - asset:
       id: 7659
@@ -496,6 +461,27 @@ releases:
       size: 262160
       blob_id: 53858
       debug: Captain American [p1][!].nes
+- release:
+    id: 26716
+    game_id: 7676
+    release_type: 2
+  names:
+  - id: 59882
+    kind: 3
+    kind_id: 26716
+    language: 2
+    name: 上尉密令汉化版
+  assets:
+  - asset:
+      id: 26698
+      kind: 3
+      kind_id: 26716
+      type: 1
+      name: 上尉密令汉化版.nes
+      format: 1
+      size: 393232
+      blob_id: 71801
+      debug: 上尉密令汉化版.zip
 - release:
     id: 29447
     game_id: 7676
