@@ -31,6 +31,26 @@ releases:
     source: trimui
   assets:
   - asset:
+      id: 2631
+      kind: 3
+      kind_id: 2644
+      type: 1
+      name: maze.zip
+      format: 2
+      size: 3260
+      debug: maze.zip
+    entries:
+    - id: 42480
+      asset_id: 2631
+      name: invaders.g
+      size: 2048
+      blob_id: 28017
+    - id: 42481
+      asset_id: 2631
+      name: invaders.h
+      size: 2048
+      blob_id: 28018
+  - asset:
       id: 103868
       kind: 3
       kind_id: 2644
@@ -61,3 +81,39 @@ releases:
       size: 383
       blob_id: 325797
       debug: libretro-named-titles:rom-asset=103868:source=https://thumbnails.libretro.com/MAME/Named_Titles/Amazing%20Maze.png
+- release:
+    id: 2645
+    game_id: 2644
+  names:
+  - id: 94535
+    kind: 3
+    kind_id: 2645
+    language: 1
+    name: maze
+  - id: 101528
+    kind: 3
+    kind_id: 2645
+    language: 2
+    name: 奇异迷宫
+    source: trimui
+  assets:
+  - asset:
+      id: 2632
+      kind: 3
+      kind_id: 2645
+      type: 1
+      name: maze.zip
+      format: 2
+      size: 3248
+      debug: maze_2.zip
+    entries:
+    - id: 42482
+      asset_id: 2632
+      name: INVADERS.H
+      size: 2048
+      blob_id: 28018
+    - id: 42483
+      asset_id: 2632
+      name: INVADERS.G
+      size: 2048
+      blob_id: 28017
